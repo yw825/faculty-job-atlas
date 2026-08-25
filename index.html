@@ -467,6 +467,7 @@
       <div id="asia-subregion-block" style="display:none;">
         <label class="field-label" for="asia-select">Area</label>
         <select id="asia-select">
+          <option value="all">All</option>
           <option value="hongkong">Hong Kong</option>
           <option value="macau">Macau</option>
           <option value="japan">Japan</option>
@@ -619,6 +620,18 @@ function controlLabel(s){
   return s.control || '';
 }
 
+const REGION_COUNTRY_FALLBACK = {
+  asia_hongkong: 'Hong Kong',
+  asia_macau: 'Macau',
+  asia_singapore: 'Singapore'
+};
+
+function schoolLocLine(s){
+  const country = s.country || REGION_COUNTRY_FALLBACK[activeRegionKey];
+  if(country) return country === s.city ? country : (s.city + ', ' + country);
+  return s.state ? (s.city + ', ' + s.state) : s.city;
+}
+
 let markerIndex = [];
 let activeRegionKey = 'us';
 
@@ -635,7 +648,7 @@ function buildMarkers(schoolsArray){
     const siteLink = s.url ? '<a class="pop-link" href="https://'+s.url.replace(/^https?:\/\//,'')+'" target="_blank" rel="noopener">School site &rarr;</a>' : '';
     const jobsLink = '<a class="pop-link" href="https://www.google.com/search?q='+q+'" target="_blank" rel="noopener">Faculty openings &rarr;</a>';
     const popName = s.alias ? s.alias+' <span style="font-weight:400;font-size:12px;opacity:.6;">(formerly '+s.name+')</span>' : s.name;
-    const locLine = s.state ? (s.city+', '+s.state) : s.city;
+    const locLine = schoolLocLine(s);
     const popupHtml =
       '<div class="pop-name">'+popName+'</div>'+
       '<div class="pop-loc">'+locLine+'</div>'+
@@ -804,7 +817,7 @@ function renderList(items){
     const tags = (ctrlTag ? '<span class="mini-tag">'+ctrlTag+'</span>' : '') + ((activeRegionKey === 'us' && entry.school.research) ? '<span class="mini-tag">'+entry.school.research+'</span>' : '');
     const displayName = entry.school.alias ? entry.school.alias+' <span style="opacity:.55;font-weight:400;">(formerly '+entry.school.name+')</span>' : entry.school.name;
     const distHtml = (homeLatLng && typeof entry.distMiles === 'number') ? '<div class="row-dist">'+entry.distMiles.toFixed(1)+' mi away</div>' : '';
-    row.innerHTML = '<div class="row-name">'+displayName+'</div><div class="row-loc">'+entry.school.city+', '+entry.school.state+'</div>'+distHtml+'<div class="row-tags">'+tags+'</div>';
+    row.innerHTML = '<div class="row-name">'+displayName+'</div><div class="row-loc">'+schoolLocLine(entry.school)+'</div>'+distHtml+'<div class="row-tags">'+tags+'</div>';
     row.addEventListener('click', function(){
       programmaticSetView([entry.school.lat, entry.school.lon], 11, { animate:true });
       entry.marker.openPopup();
@@ -872,7 +885,8 @@ const REGION_SUB_TEXT = {
   europe: "121 leading universities and business schools across 22 European countries with Business, Computer Science, and/or Statistics programmes &mdash; a base map for tracking faculty openings. Type an address to find schools within a driving radius, or shift-click the map to drop a pin.",
   asia_macau: "Macau's higher education institutions &mdash; a base map for tracking faculty openings. Type an address to find schools within a driving radius, or shift-click the map to drop a pin.",
   asia_hongkong: "Hong Kong's degree-awarding institutions with Business, Computer Science, and/or Statistics programmes &mdash; a base map for tracking faculty openings. Type an address to find schools within a driving radius, or shift-click the map to drop a pin.",
-  asia_singapore: "Singapore's local universities and polytechnics &mdash; a base map for tracking faculty openings. Type an address to find schools within a driving radius, or shift-click the map to drop a pin."
+  asia_singapore: "Singapore's local universities and polytechnics &mdash; a base map for tracking faculty openings. Type an address to find schools within a driving radius, or shift-click the map to drop a pin.",
+  asia_all: "All mapped institutions across Hong Kong, Macau, and Singapore &mdash; a base map for tracking faculty openings. Type an address to find schools within a driving radius, or shift-click the map to drop a pin."
 };
 const REGION_SOURCE_NOTES = {
   us: "Source: U.S. Dept. of Education College Scorecard / IPEDS (institution list, Bachelor's-predominant, CIP&nbsp;52/11/27 completions), joined with the American Council on Education's 2025 Carnegie Research Activity Designations (R1/R2).",
@@ -882,7 +896,8 @@ const REGION_SOURCE_NOTES = {
   europe: "Source: leading universities and business schools selected from the QS World University Rankings: Europe 2026 (which weights International Student Ratio and Global Engagement at 25%) across 22 countries &mdash; UK, Ireland, Netherlands, Belgium, France, Germany, Switzerland, Austria, Spain, Italy, Portugal, Sweden, Denmark, Norway, Finland, Iceland, Luxembourg, Greece, Turkey, Hungary, Poland, and Romania. This is a curated top-institutions list, not an exhaustive national census, and schools were not individually verified for Business/CS/Statistics offerings the way Hong Kong's were.",
   macau: "Source: Macao Talent Development Committee (cdqq.gov.mo) &mdash; the 9 higher education institutions with published recruitment pages.",
   hongkong: "Source: Hong Kong Education Bureau's list of 22 degree-awarding institutions, filtered to the 18 that offer Business, Computer Science, and/or Statistics/Mathematics programmes (Centennial College excluded as no longer enrolling; Hong Kong Academy for Performing Arts, The Education University of Hong Kong, and Yew Chung College of Early Childhood Education excluded as outside these fields).",
-  singapore: "Source: Singapore ICA &mdash; Local Universities (6) and Local Polytechnics (5) from the official list of Institutes of Higher Learning."
+  singapore: "Source: Singapore ICA &mdash; Local Universities (6) and Local Polytechnics (5) from the official list of Institutes of Higher Learning.",
+  asia_all: "Source: combined listing of Hong Kong, Macau, and Singapore institutions &mdash; see each area individually for full source detail."
 };
 const REGION_LEGEND_US = '<div><span class="legend-dot" style="background:#2563eb;width:10px;height:10px;"></span>R1 &mdash; Very High Research Activity</div><div><span class="legend-dot" style="background:#16a34a;width:10px;height:10px;"></span>R2 &mdash; High Research Activity</div><div><span class="legend-dot" style="background:#eab308;"></span>Not classified R1/R2</div>';
 const REGION_LEGEND_RANKED = '<div><span class="legend-dot" style="background:#2563eb;width:10px;height:10px;"></span>Top-ranked (Best Global Universities)</div><div><span class="legend-dot" style="background:#16a34a;width:10px;height:10px;"></span>Ranked</div><div><span class="legend-dot" style="background:#eab308;"></span>Not ranked</div>';
@@ -898,7 +913,12 @@ const REGIONS = {
   asia_macau:  { label: 'Macau',        hasData: true,  center:[22.19,113.55], zoom:13, data: MACAU_SCHOOLS, legendHtml: REGION_LEGEND_PLAIN, sourceNote: REGION_SOURCE_NOTES.macau },
   asia_japan:  { label: 'Japan',         hasData: false, center:[36.2,138.25], zoom:5 },
   asia_korea:  { label: 'Korea',         hasData: false, center:[36.5,127.8],  zoom:6 },
-  asia_singapore:{ label:'Singapore',    hasData: true,  center:[1.35,103.82], zoom:11, data: SINGAPORE_SCHOOLS, legendHtml: REGION_LEGEND_PLAIN, sourceNote: REGION_SOURCE_NOTES.singapore }
+  asia_singapore:{ label:'Singapore',    hasData: true,  center:[1.35,103.82], zoom:11, data: SINGAPORE_SCHOOLS, legendHtml: REGION_LEGEND_PLAIN, sourceNote: REGION_SOURCE_NOTES.singapore },
+  asia_all:    { label: 'Asia',          hasData: true,  center:[11.8,108.85], zoom:4,
+    data: HONGKONG_SCHOOLS.map(s => Object.assign({}, s, { country: 'Hong Kong' }))
+      .concat(MACAU_SCHOOLS.map(s => Object.assign({}, s, { country: 'Macau' })))
+      .concat(SINGAPORE_SCHOOLS.map(s => Object.assign({}, s, { country: 'Singapore' }))),
+    legendHtml: REGION_LEGEND_PLAIN, sourceNote: REGION_SOURCE_NOTES.asia_all }
 };
 
 const regionSelect = document.getElementById('region-select');
