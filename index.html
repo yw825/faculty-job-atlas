@@ -503,12 +503,6 @@
           <button id="clear-home-btn">Remove pin</button>
         </div>
       </div>
-      <div class="check-group" id="program-filter-block">
-        <span class="field-label" style="margin-bottom:0;">Program filter</span>
-        <label class="check-row"><input type="checkbox" id="f-biz" checked> Business</label>
-        <label class="check-row"><input type="checkbox" id="f-cs" checked> Computer Science</label>
-        <label class="check-row"><input type="checkbox" id="f-stat" checked> Statistics / Math</label>
-      </div>
       <div class="check-group" id="research-filter-block">
         <span class="field-label" style="margin-bottom:0;">Research activity</span>
         <label class="check-row"><input type="checkbox" id="f-r1" checked> R1 &mdash; Very High Research</label>
@@ -672,9 +666,6 @@ const listEl = document.getElementById('list');
 const countEl = document.getElementById('count');
 const emptyEl = document.getElementById('empty');
 const clearBtn = document.getElementById('clear-btn');
-const fBiz = document.getElementById('f-biz');
-const fCs = document.getElementById('f-cs');
-const fStat = document.getElementById('f-stat');
 const fR1 = document.getElementById('f-r1');
 const fR2 = document.getElementById('f-r2');
 const fRnone = document.getElementById('f-rnone');
@@ -832,14 +823,12 @@ function renderList(items){
 function applyFilters(){
   const term = searchInput.value.trim().toLowerCase();
   const st = stateSelect.value;
-  const wantBiz = fBiz.checked, wantCs = fCs.checked, wantStat = fStat.checked;
   const wantR1 = fR1.checked, wantR2 = fR2.checked, wantRnone = fRnone.checked;
   const maxMiles = homeLatLng ? (parseInt(radiusSelect.value,10)/60) * AVG_MPH : null;
   const filtered = markerIndex.filter(function(entry){
     const s = entry.school;
     const matchesTerm = !term || s.name.toLowerCase().includes(term) || s.city.toLowerCase().includes(term) || (s.alias && s.alias.toLowerCase().includes(term)) || (s.state && s.state.toLowerCase().includes(term));
     const matchesState = !st || s.state === st;
-    const matchesProgram = (typeof s.biz !== 'number') || (wantBiz && s.biz>0) || (wantCs && s.cs>0) || (wantStat && s.stat>0);
     const matchesResearch = (wantR1 && s.research==='R1') || (wantR2 && s.research==='R2') || (wantRnone && !s.research);
     let matchesRadius = true;
     if(homeLatLng){
@@ -851,7 +840,7 @@ function applyFilters(){
     if(boundsFilterActive){
       matchesBounds = map.getBounds().pad(1).contains([s.lat, s.lon]);
     }
-    return matchesTerm && matchesState && matchesProgram && matchesResearch && matchesRadius && matchesBounds;
+    return matchesTerm && matchesState && matchesResearch && matchesRadius && matchesBounds;
   });
   if(homeLatLng) filtered.sort(function(a,b){ return a.distMiles - b.distMiles; });
   renderList(filtered);
@@ -861,11 +850,10 @@ function applyFilters(){
 
 [searchInput].forEach(el => el.addEventListener('input', applyFilters));
 [stateSelect].forEach(el => el.addEventListener('change', applyFilters));
-[fBiz, fCs, fStat, fR1, fR2, fRnone].forEach(el => el.addEventListener('change', applyFilters));
+[fR1, fR2, fRnone].forEach(el => el.addEventListener('change', applyFilters));
 clearBtn.addEventListener('click', function(){
   searchInput.value = '';
   stateSelect.value = '';
-  fBiz.checked = true; fCs.checked = true; fStat.checked = true;
   fR1.checked = true; fR2.checked = true; fRnone.checked = true;
   boundsFilterActive = false;
   searchAreaBtn.style.display = 'none';
@@ -943,7 +931,6 @@ function applyRegion(){
     mapComingSoonEl.style.display = 'none';
     legendEl.style.display = '';
     listEl.style.display = '';
-    document.getElementById('program-filter-block').style.display = (key === 'us') ? '' : 'none';
     document.getElementById('research-filter-block').style.display = (key === 'us') ? '' : 'none';
     radiusBlockEl.style.display = '';
     legendEl.innerHTML = region.legendHtml || legendEl.innerHTML;
@@ -951,7 +938,6 @@ function applyRegion(){
     document.getElementById('sub-text').innerHTML = REGION_SUB_TEXT[key] || REGION_SUB_TEXT.us;
     searchInput.value = '';
     stateSelect.value = '';
-    fBiz.checked = true; fCs.checked = true; fStat.checked = true;
     fR1.checked = true; fR2.checked = true; fRnone.checked = true;
     boundsFilterActive = false;
     searchAreaBtn.style.display = 'none';
