@@ -574,6 +574,8 @@ L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',{
 
 let suppressNextMoveEnd = false;
 let boundsFilterActive = false;
+let boundsCenter = null;
+let boundsRadiusMiles = 0;
 const searchAreaBtn = document.getElementById('search-area-btn');
 
 function programmaticSetView(latlng, zoom, opts){
@@ -589,6 +591,11 @@ map.on('moveend', function(){
 });
 
 searchAreaBtn.addEventListener('click', function(){
+  const b = map.getBounds();
+  boundsCenter = map.getCenter();
+  // Use the full viewport diagonal as the radius (not half) so results just
+  // outside the visible edges still show up, like Google Maps' "search this area".
+  boundsRadiusMiles = haversineMiles(b.getNorth(), b.getWest(), b.getSouth(), b.getEast());
   boundsFilterActive = true;
   searchAreaBtn.style.display = 'none';
   applyFilters();
@@ -850,8 +857,8 @@ function applyFilters(){
       matchesRadius = d <= maxMiles;
     }
     let matchesBounds = true;
-    if(boundsFilterActive){
-      matchesBounds = map.getBounds().pad(1).contains([s.lat, s.lon]);
+    if(boundsFilterActive && boundsCenter){
+      matchesBounds = haversineMiles(boundsCenter.lat, boundsCenter.lng, s.lat, s.lon) <= boundsRadiusMiles;
     }
     return matchesTerm && matchesState && matchesResearch && matchesRadius && matchesBounds;
   });
