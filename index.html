@@ -33,26 +33,35 @@
   }
   #app{
     display:grid;
-    grid-template-columns: 380px 1fr;
+    grid-template-columns: 300px 1fr 340px;
     height:100vh;
     width:100vw;
   }
-  #sidebar{
+  #options, #list-panel{
     background: linear-gradient(180deg, var(--ink2), var(--ink));
-    border-right:1px solid var(--line);
     display:flex;
     flex-direction:column;
     min-width:0;
     min-height:0;
-    height:100vh;
-    max-height:100vh;
-    overflow:hidden;
+    height:100%;
     position:relative;
     z-index:10;
   }
+  #options{
+    border-right:1px solid var(--line);
+    overflow-y:auto;
+  }
+  #options::-webkit-scrollbar{ width:8px; }
+  #options::-webkit-scrollbar-thumb{ background:rgba(201,151,76,0.25); border-radius:4px; }
+  #options::-webkit-scrollbar-track{ background:transparent; }
+  #list-panel{
+    border-left:1px solid var(--line);
+    overflow:hidden;
+  }
   #sidebar-header{
-    padding:22px 22px 14px 22px;
-    border-bottom:1px solid var(--line);
+    padding:14px 22px 22px 22px;
+    border-top:1px solid var(--line);
+    margin-top:auto;
   }
   .eyebrow{
     font-family:'IBM Plex Mono',monospace;
@@ -86,7 +95,6 @@
   .source-note a{ color:var(--brass-bright); }
   #controls{
     padding:16px 22px;
-    border-bottom:1px solid var(--line);
     display:flex;
     flex-direction:column;
     gap:10px;
@@ -428,22 +436,17 @@
     display:none;
   }
 
-  @media (max-width: 760px){
-    #app{ grid-template-columns: 1fr; grid-template-rows: 46vh 54vh; }
-    #sidebar{ border-right:none; border-bottom:1px solid var(--line); }
+  @media (max-width: 900px){
+    #app{ grid-template-columns: 1fr; grid-template-rows: 34vh 36vh 30vh; }
+    #options{ border-right:none; border-bottom:1px solid var(--line); }
+    #list-panel{ border-left:none; border-top:1px solid var(--line); }
     #legend{ display:none; }
   }
 </style>
 </head>
 <body>
 <div id="app">
-  <div id="sidebar">
-    <div id="sidebar-header">
-      <p class="eyebrow">Academic Job Search &middot; U.S. Atlas</p>
-      <h1>Faculty Job Atlas</h1>
-      <p class="sub" id="sub-text">Four-year U.S. colleges and universities that confer degrees in Business, Computer Science, and/or Statistics &amp; Math &mdash; a base map for tracking faculty openings. Type an address to find schools within a driving radius, or shift-click the map to drop a pin.</p>
-      <p class="source-note" id="source-note">Source: U.S. Dept. of Education College Scorecard / IPEDS (institution list, Bachelor's-predominant, CIP&nbsp;52/11/27 completions), joined with the American Council on Education's 2025 Carnegie Research Activity Designations (R1/R2).</p>
-    </div>
+  <div id="options">
     <div id="controls">
       <div>
         <label class="field-label" for="region-select">Region</label>
@@ -509,16 +512,11 @@
       </div>
       </div>
     </div>
-    <div id="count-row">
-      <span id="count"></span>
-      <button id="clear-btn">Reset filters</button>
-    </div>
-    <div id="list"></div>
-    <div id="empty">No institutions match your filters.</div>
-    <div id="coming-soon" style="display:none;">
-      <div class="cs-icon">&#9733;</div>
-      <div class="cs-title">Data coming soon</div>
-      <div class="cs-text">This region isn't mapped yet. The U.S. dataset is fully live &mdash; switch back anytime, or check back as more regions are added.</div>
+    <div id="sidebar-header">
+      <p class="eyebrow">Academic Job Search &middot; U.S. Atlas</p>
+      <h1>Faculty Job Atlas</h1>
+      <p class="sub" id="sub-text">Four-year U.S. colleges and universities that confer degrees in Business, Computer Science, and/or Statistics &amp; Math &mdash; a base map for tracking faculty openings. Type an address to find schools within a driving radius, or shift-click the map to drop a pin.</p>
+      <p class="source-note" id="source-note">Source: U.S. Dept. of Education College Scorecard / IPEDS (institution list, Bachelor's-predominant, CIP&nbsp;52/11/27 completions), joined with the American Council on Education's 2025 Carnegie Research Activity Designations (R1/R2).</p>
     </div>
   </div>
   <div id="map">
@@ -531,6 +529,19 @@
     <div id="map-coming-soon" style="display:none;">
       <div class="mcs-title">No data yet for this region</div>
       <div class="mcs-text">We'll light this map up as soon as it's built.</div>
+    </div>
+  </div>
+  <div id="list-panel">
+    <div id="count-row">
+      <span id="count"></span>
+      <button id="clear-btn">Reset filters</button>
+    </div>
+    <div id="list"></div>
+    <div id="empty">No institutions match your filters.</div>
+    <div id="coming-soon" style="display:none;">
+      <div class="cs-icon">&#9733;</div>
+      <div class="cs-title">Data coming soon</div>
+      <div class="cs-text">This region isn't mapped yet. The U.S. dataset is fully live &mdash; switch back anytime, or check back as more regions are added.</div>
     </div>
   </div>
 </div>
