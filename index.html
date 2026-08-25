@@ -59,9 +59,8 @@
     overflow:hidden;
   }
   #sidebar-header{
-    padding:14px 22px 22px 22px;
-    border-top:1px solid var(--line);
-    margin-top:auto;
+    padding:22px 22px 14px 22px;
+    border-bottom:1px solid var(--line);
   }
   .eyebrow{
     font-family:'IBM Plex Mono',monospace;
@@ -447,6 +446,12 @@
 <body>
 <div id="app">
   <div id="options">
+    <div id="sidebar-header">
+      <p class="eyebrow">Academic Job Search &middot; U.S. Atlas</p>
+      <h1>Faculty Job Atlas</h1>
+      <p class="sub" id="sub-text">Four-year U.S. colleges and universities that confer degrees in Business, Computer Science, and/or Statistics &amp; Math &mdash; a base map for tracking faculty openings. Type an address to find schools within a driving radius, or shift-click the map to drop a pin.</p>
+      <p class="source-note" id="source-note">Source: U.S. Dept. of Education College Scorecard / IPEDS (institution list, Bachelor's-predominant, CIP&nbsp;52/11/27 completions), joined with the American Council on Education's 2025 Carnegie Research Activity Designations (R1/R2).</p>
+    </div>
     <div id="controls">
       <div>
         <label class="field-label" for="region-select">Region</label>
@@ -511,12 +516,6 @@
         <label class="check-row"><input type="checkbox" id="f-rnone" checked> Not R1/R2</label>
       </div>
       </div>
-    </div>
-    <div id="sidebar-header">
-      <p class="eyebrow">Academic Job Search &middot; U.S. Atlas</p>
-      <h1>Faculty Job Atlas</h1>
-      <p class="sub" id="sub-text">Four-year U.S. colleges and universities that confer degrees in Business, Computer Science, and/or Statistics &amp; Math &mdash; a base map for tracking faculty openings. Type an address to find schools within a driving radius, or shift-click the map to drop a pin.</p>
-      <p class="source-note" id="source-note">Source: U.S. Dept. of Education College Scorecard / IPEDS (institution list, Bachelor's-predominant, CIP&nbsp;52/11/27 completions), joined with the American Council on Education's 2025 Carnegie Research Activity Designations (R1/R2).</p>
     </div>
   </div>
   <div id="map">
