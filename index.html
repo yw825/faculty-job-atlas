@@ -839,7 +839,7 @@ function applyFilters(){
     }
     let matchesBounds = true;
     if(boundsFilterActive){
-      matchesBounds = map.getBounds().contains([s.lat, s.lon]);
+      matchesBounds = map.getBounds().pad(1).contains([s.lat, s.lon]);
     }
     return matchesTerm && matchesState && matchesProgram && matchesResearch && matchesRadius && matchesBounds;
   });
