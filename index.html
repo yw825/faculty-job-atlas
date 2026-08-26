@@ -613,6 +613,13 @@ searchAreaBtn.addEventListener('click', function(){
   buildMarkers(SCHOOLS_TAGGED.concat(CANADA_SCHOOLS_TAGGED, EUROPE_SCHOOLS, AUSTRALIA_SCHOOLS_TAGGED, NEWZEALAND_SCHOOLS_TAGGED, REGIONS.asia_all.data));
   searchAreaBtn.style.display = 'none';
   applyFilters();
+  // Markers are always plotted at their normal, non-drifted coordinates, so if
+  // the current view is still sitting in a "drifted" copy of the world (from
+  // panning across the antimeridian), the results would match the list but
+  // never actually appear on screen. Snap the view back to the same spot,
+  // re-expressed in the normalized coordinates, so what's visible lines up
+  // with where the markers really are.
+  programmaticSetView(boundsCenter, map.getZoom(), { animate:false });
 });
 
 const clusterGroup = L.markerClusterGroup({
