@@ -580,6 +580,7 @@ let boundsRadiusMiles = 0;
 let boundsHalfLat = 0;
 let boundsHalfLng = 0;
 let crossRegionActive = false;
+let liveViewActive = false;
 
 function angularLngDiff(a, b){
   let d = (a - b) % 360;
@@ -596,12 +597,30 @@ function programmaticSetView(latlng, zoom, opts){
 
 map.on('moveend', function(){
   if(suppressNextMoveEnd){ suppressNextMoveEnd = false; return; }
+  // Leaflet lets you drag continuously across multiple copies of the world
+  // instead of wrapping the center back into -180..180 — great for smooth
+  // panning, but every marker is always drawn at its normal coordinates, so
+  // once the view drifts outside that range, correctly-matched markers start
+  // rendering in a different, invisible copy of the world than the one on
+  // screen. Silently snap back to the same geographic point re-expressed in
+  // normalized coordinates (same tiles, same pixels, so it's imperceptible)
+  // before anything else runs, so every feature downstream of this is safe.
+  const c = map.getCenter();
+  const wrapped = c.wrap();
+  if(Math.abs(c.lng - wrapped.lng) > 1e-9){
+    programmaticSetView(wrapped, map.getZoom(), { animate:false });
+  }
   if(typeof activeRegionKey !== 'undefined' && REGIONS[activeRegionKey] && REGIONS[activeRegionKey].hasData){
     searchAreaBtn.style.display = 'block';
   }
   // Live-follow the map: with no explicit area-search freeze or home pin
-  // active, re-filter to the new viewport on every real pan/zoom.
+  // active, re-filter to the new viewport on every real pan/zoom. Only turns
+  // on once the user actually pans/zooms — right after selecting a region
+  // (or on initial load) the list should show that region's full dataset,
+  // not immediately narrow to whatever the default center/zoom happens to
+  // frame.
   if(typeof applyFilters === 'function' && !boundsFilterActive && !homeLatLng){
+    liveViewActive = true;
     applyFilters();
   }
 });
@@ -950,7 +969,7 @@ function applyFilters(){
   // staying a static full-region list. Computed fresh (not frozen) each call,
   // wrap-aware for the same antimeridian-drift reasons as the frozen version.
   let liveCenter = null, liveHalfLat = 0, liveHalfLng = 0;
-  if(!boundsFilterActive && !homeLatLng){
+  if(liveViewActive && !boundsFilterActive && !homeLatLng){
     const b = map.getBounds();
     liveCenter = map.getCenter().wrap();
     liveHalfLat = (b.getNorth() - b.getSouth()) / 2 * 1.15;
@@ -991,6 +1010,7 @@ clearBtn.addEventListener('click', function(){
   stateSelect.value = '';
   fR1.checked = true; fR2.checked = true; fRnone.checked = true;
   boundsFilterActive = false;
+  liveViewActive = false;
   if(crossRegionActive){
     crossRegionActive = false;
     buildMarkers(REGIONS[activeRegionKey].data);
@@ -1069,6 +1089,7 @@ function applyRegion(){
     fR1.checked = true; fR2.checked = true; fRnone.checked = true;
     boundsFilterActive = false;
     crossRegionActive = false;
+    liveViewActive = false;
     searchAreaBtn.style.display = 'none';
     if(homeMarker) map.removeLayer(homeMarker);
     if(homeCircle) map.removeLayer(homeCircle);
@@ -1087,6 +1108,7 @@ function applyRegion(){
     mapComingSoonEl.style.display = 'block';
     boundsFilterActive = false;
     crossRegionActive = false;
+    liveViewActive = false;
     searchAreaBtn.style.display = 'none';
     clusterGroup.clearLayers();
     if(homeMarker) map.removeLayer(homeMarker);
