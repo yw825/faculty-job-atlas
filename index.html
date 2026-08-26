@@ -452,16 +452,22 @@
       <h1>Faculty Job Atlas</h1>
     </div>
     <div id="controls">
-      <div class="check-group" id="position-type-block">
-        <span class="field-label" style="margin-bottom:0;">Position type</span>
-        <label class="check-row"><input type="checkbox" id="f-pos-tt" checked> Tenure-track Assistant Professor</label>
-        <label class="check-row"><input type="checkbox" id="f-pos-tenured" checked> Tenured Professor (Associate / Full)</label>
-        <label class="check-row"><input type="checkbox" id="f-pos-nontenure" checked> Non-Tenure-Track (Lecturer / Teaching / Clinical)</label>
+      <div>
+        <label class="field-label" for="position-type-select">Position type</label>
+        <select id="position-type-select">
+          <option value="" selected>Select an option</option>
+          <option value="tenure-track">Tenure-track Assistant Professor</option>
+          <option value="tenured">Tenured Professor (Associate / Full)</option>
+          <option value="non-tenure-track">Non-Tenure-Track (Lecturer / Teaching / Clinical)</option>
+        </select>
       </div>
-      <div class="check-group" id="job-term-block">
-        <span class="field-label" style="margin-bottom:0;">Job term</span>
-        <label class="check-row"><input type="checkbox" id="f-term-full" checked> Full-time</label>
-        <label class="check-row"><input type="checkbox" id="f-term-part" checked> Part-time</label>
+      <div>
+        <label class="field-label" for="job-type-select">Job type</label>
+        <select id="job-type-select">
+          <option value="" selected>Select an option</option>
+          <option value="full-time">Full-time</option>
+          <option value="part-time">Part-time</option>
+        </select>
       </div>
       <div>
         <label class="field-label" for="region-select">Region</label>
@@ -486,13 +492,16 @@
           <option value="singapore">Singapore</option>
         </select>
       </div>
-      <div class="check-group" id="subject-area-block">
-        <span class="field-label" style="margin-bottom:0;">Subject area</span>
-        <label class="check-row"><input type="checkbox" id="f-subj-ba" checked> Business Analytics</label>
-        <label class="check-row"><input type="checkbox" id="f-subj-ds" checked> Data Science</label>
-        <label class="check-row"><input type="checkbox" id="f-subj-is" checked> Information Systems</label>
-        <label class="check-row"><input type="checkbox" id="f-subj-stat" checked> Statistics</label>
-        <label class="check-row"><input type="checkbox" id="f-subj-ie" checked> Industrial Engineering</label>
+      <div>
+        <label class="field-label" for="subject-area-select">Subject area</label>
+        <select id="subject-area-select">
+          <option value="" selected>Select an option</option>
+          <option value="business-analytics">Business Analytics</option>
+          <option value="data-science">Data Science</option>
+          <option value="information-systems">Information Systems</option>
+          <option value="statistics">Statistics</option>
+          <option value="industrial-engineering">Industrial Engineering</option>
+        </select>
       </div>
       <hr class="panel-divider">
       <div>
@@ -747,6 +756,9 @@ buildMarkers(SCHOOLS_TAGGED);
 map.addLayer(clusterGroup);
 
 const searchInput = document.getElementById('search');
+const positionTypeSelect = document.getElementById('position-type-select');
+const jobTypeSelect = document.getElementById('job-type-select');
+const subjectAreaSelect = document.getElementById('subject-area-select');
 const listEl = document.getElementById('list');
 const countEl = document.getElementById('count');
 const emptyEl = document.getElementById('empty');
@@ -990,15 +1002,15 @@ function applyFilters(){
 }
 
 [searchInput].forEach(el => el.addEventListener('input', applyFilters));
-// Position type / job term / subject area don't filter anything yet — there's
+// Position type / job type / subject area don't filter anything yet — there's
 // no job-posting data behind them until the search step is built — but they're
 // wired up now so that work is a filter-logic change, not a UI change.
-document.querySelectorAll('#position-type-block input, #job-term-block input, #subject-area-block input')
-  .forEach(el => el.addEventListener('change', applyFilters));
+[positionTypeSelect, jobTypeSelect, subjectAreaSelect].forEach(el => el.addEventListener('change', applyFilters));
 clearBtn.addEventListener('click', function(){
   searchInput.value = '';
-  document.querySelectorAll('#position-type-block input, #job-term-block input, #subject-area-block input')
-    .forEach(el => { el.checked = true; });
+  positionTypeSelect.value = '';
+  jobTypeSelect.value = '';
+  subjectAreaSelect.value = '';
   boundsFilterActive = false;
   liveViewActive = false;
   if(crossRegionActive){
@@ -1071,8 +1083,9 @@ function applyRegion(){
     radiusBlockEl.style.display = '';
     legendEl.innerHTML = region.legendHtml || legendEl.innerHTML;
     searchInput.value = '';
-    document.querySelectorAll('#position-type-block input, #job-term-block input, #subject-area-block input')
-      .forEach(el => { el.checked = true; });
+    positionTypeSelect.value = '';
+    jobTypeSelect.value = '';
+    subjectAreaSelect.value = '';
     boundsFilterActive = false;
     crossRegionActive = false;
     liveViewActive = false;
