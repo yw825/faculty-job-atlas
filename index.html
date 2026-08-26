@@ -760,6 +760,14 @@ const homeIcon = L.divIcon({
 });
 
 function placeHome(lat, lon, label){
+  // If the current view is sitting in a "drifted" copy of the world (e.g.
+  // panned across the antimeridian to get here), a point picked from that
+  // view — like a drag-and-drop or shift-click — comes back in that same
+  // drifted longitude range. Normalize it, otherwise the home marker (and
+  // the view we re-center to below) stay drifted while every school marker
+  // is drawn at its normal coordinates, so they'd end up in different,
+  // mutually invisible copies of the world.
+  lon = L.latLng(lat, lon).wrap().lng;
   homeLatLng = { lat: lat, lon: lon };
   if(homeMarker) map.removeLayer(homeMarker);
   homeMarker = L.marker([lat, lon], { icon: homeIcon, zIndexOffset: 1000 }).addTo(map);
@@ -843,7 +851,7 @@ document.getElementById('map').addEventListener('drop', function(e){
   this.classList.remove('drop-target');
   const latlng = map.mouseEventToLatLng(e);
   placeHome(latlng.lat, latlng.lng, 'Pinned location');
-  setHomeStatus('Pinned at ('+latlng.lat.toFixed(3)+', '+latlng.lng.toFixed(3)+'). Drag the house icon anytime to move it, or shift-click the map.', 'ok');
+  setHomeStatus('Pinned at ('+homeLatLng.lat.toFixed(3)+', '+homeLatLng.lon.toFixed(3)+'). Drag the house icon anytime to move it, or shift-click the map.', 'ok');
 });
 
 radiusSelect.addEventListener('change', function(){
@@ -869,7 +877,7 @@ clearHomeBtn.addEventListener('click', function(){
 map.on('click', function(e){
   if(e.originalEvent && e.originalEvent.shiftKey){
     placeHome(e.latlng.lat, e.latlng.lng, 'Pinned location');
-    setHomeStatus('Pinned at ('+e.latlng.lat.toFixed(3)+', '+e.latlng.lng.toFixed(3)+'). Shift-click the map anytime to move the pin.', 'ok');
+    setHomeStatus('Pinned at ('+homeLatLng.lat.toFixed(3)+', '+homeLatLng.lon.toFixed(3)+'). Shift-click the map anytime to move the pin.', 'ok');
   }
 });
 
