@@ -118,6 +118,14 @@
   select{ appearance:none; cursor:pointer; }
   .check-group{ display:flex; flex-direction:column; gap:6px; }
   #radius-block{ padding-top:2px; }
+  #home-drop-handle{
+    cursor:grab;
+    font-size:16px;
+    line-height:1;
+    user-select:none;
+  }
+  #home-drop-handle:active{ cursor:grabbing; }
+  #map.drop-target{ box-shadow: inset 0 0 0 3px var(--brass); }
   .icon-btn{
     background:rgba(184,134,58,0.08);
     border:1px solid var(--line);
@@ -474,7 +482,10 @@
         <select id="state-select"><option value="">All states</option></select>
       </div>
       <div id="radius-block">
-        <span class="field-label" style="margin-bottom:0;">Near an address</span>
+        <div style="display:flex; align-items:center; justify-content:space-between;">
+          <span class="field-label" style="margin-bottom:0;">Near an address</span>
+          <span id="home-drop-handle" draggable="true" title="Drag onto the map to drop a pin there">&#127968;</span>
+        </div>
         <div style="display:flex; gap:6px; margin-top:6px;">
           <input type="text" id="home-address" placeholder="Type an address, then Enter" autocomplete="off" style="flex:1;">
           <button id="home-geo-btn" class="icon-btn" title="Use my current location">&#9678;</button>
@@ -715,6 +726,7 @@ const fR2 = document.getElementById('f-r2');
 const fRnone = document.getElementById('f-rnone');
 const homeAddressInput = document.getElementById('home-address');
 const homeGeoBtn = document.getElementById('home-geo-btn');
+const homeDropHandle = document.getElementById('home-drop-handle');
 const homeStatus = document.getElementById('home-status');
 const radiusRow = document.getElementById('radius-row');
 const radiusSelect = document.getElementById('radius-select');
@@ -805,6 +817,26 @@ homeGeoBtn.addEventListener('click', function(){
   }, function(){
     setHomeStatus('Could not get your location — try typing an address instead.', 'error');
   });
+});
+
+homeDropHandle.addEventListener('dragstart', function(e){
+  e.dataTransfer.setData('text/plain', 'home-pin');
+  e.dataTransfer.effectAllowed = 'move';
+  document.getElementById('map').classList.add('drop-target');
+});
+homeDropHandle.addEventListener('dragend', function(){
+  document.getElementById('map').classList.remove('drop-target');
+});
+document.getElementById('map').addEventListener('dragover', function(e){
+  e.preventDefault();
+  e.dataTransfer.dropEffect = 'move';
+});
+document.getElementById('map').addEventListener('drop', function(e){
+  e.preventDefault();
+  this.classList.remove('drop-target');
+  const latlng = map.mouseEventToLatLng(e);
+  placeHome(latlng.lat, latlng.lng, 'Pinned location');
+  setHomeStatus('Pinned at ('+latlng.lat.toFixed(3)+', '+latlng.lng.toFixed(3)+'). Drag the house icon anytime to move it, or shift-click the map.', 'ok');
 });
 
 radiusSelect.addEventListener('change', function(){
