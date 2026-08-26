@@ -565,8 +565,16 @@ let suppressNextMoveEnd = false;
 let boundsFilterActive = false;
 let boundsCenter = null;
 let boundsRadiusMiles = 0;
-let boundsRect = null;
+let boundsHalfLat = 0;
+let boundsHalfLng = 0;
 let crossRegionActive = false;
+
+function angularLngDiff(a, b){
+  let d = (a - b) % 360;
+  if(d > 180) d -= 360;
+  if(d < -180) d += 360;
+  return Math.abs(d);
+}
 const searchAreaBtn = document.getElementById('search-area-btn');
 
 function programmaticSetView(latlng, zoom, opts){
@@ -583,15 +591,23 @@ map.on('moveend', function(){
 
 searchAreaBtn.addEventListener('click', function(){
   const b = map.getBounds();
-  boundsCenter = map.getCenter();
+  // Leaflet keeps panning the center past +/-180 degrees instead of wrapping it
+  // back around (so you can drag continuously across multiple world copies).
+  // .wrap() normalizes it back to the same -180..180 range our school data
+  // uses, otherwise every distance/bounds comparison below silently breaks.
+  boundsCenter = map.getCenter().wrap();
   // Use the full viewport diagonal as the radius (not half) so results just
   // outside the visible edges still show up, like Google Maps' "search this area".
   boundsRadiusMiles = haversineMiles(b.getNorth(), b.getWest(), b.getSouth(), b.getEast());
-  // Also snapshot the current viewport rectangle (padded a bit) so results stay
+  // Also cap results to roughly the visible viewport (padded a bit) so they stay
   // capped to what's actually visible on the map — otherwise, in data-sparse
   // areas, the radius alone can reach clear across the globe to distant matches
-  // that never show up on screen, so the list and map would disagree.
-  boundsRect = b.pad(0.3);
+  // that never show up on screen, so the list and map would disagree. Computed
+  // as a half-height/half-width around the (wrapped) center rather than a raw
+  // Leaflet LatLngBounds, since that would inherit the same unwrapped-longitude
+  // problem .wrap() above just fixed.
+  boundsHalfLat = (b.getNorth() - b.getSouth()) / 2 * 1.3;
+  boundsHalfLng = (b.getEast() - b.getWest()) / 2 * 1.3;
   boundsFilterActive = true;
   crossRegionActive = true;
   buildMarkers(SCHOOLS_TAGGED.concat(CANADA_SCHOOLS_TAGGED, EUROPE_SCHOOLS, AUSTRALIA_SCHOOLS_TAGGED, NEWZEALAND_SCHOOLS_TAGGED, REGIONS.asia_all.data));
@@ -860,7 +876,8 @@ function applyFilters(){
     let matchesBounds = true;
     if(boundsFilterActive && boundsCenter){
       matchesBounds = haversineMiles(boundsCenter.lat, boundsCenter.lng, s.lat, s.lon) <= boundsRadiusMiles
-        && (!boundsRect || boundsRect.contains([s.lat, s.lon]));
+        && Math.abs(s.lat - boundsCenter.lat) <= boundsHalfLat
+        && angularLngDiff(s.lon, boundsCenter.lng) <= boundsHalfLng;
     }
     return matchesTerm && matchesState && matchesResearch && matchesRadius && matchesBounds;
   });
