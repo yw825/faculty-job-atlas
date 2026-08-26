@@ -565,6 +565,7 @@ let suppressNextMoveEnd = false;
 let boundsFilterActive = false;
 let boundsCenter = null;
 let boundsRadiusMiles = 0;
+let boundsRect = null;
 let crossRegionActive = false;
 const searchAreaBtn = document.getElementById('search-area-btn');
 
@@ -586,9 +587,14 @@ searchAreaBtn.addEventListener('click', function(){
   // Use the full viewport diagonal as the radius (not half) so results just
   // outside the visible edges still show up, like Google Maps' "search this area".
   boundsRadiusMiles = haversineMiles(b.getNorth(), b.getWest(), b.getSouth(), b.getEast());
+  // Also snapshot the current viewport rectangle (padded a bit) so results stay
+  // capped to what's actually visible on the map — otherwise, in data-sparse
+  // areas, the radius alone can reach clear across the globe to distant matches
+  // that never show up on screen, so the list and map would disagree.
+  boundsRect = b.pad(0.3);
   boundsFilterActive = true;
   crossRegionActive = true;
-  buildMarkers(SCHOOLS.concat(CANADA_SCHOOLS, EUROPE_SCHOOLS, AUSTRALIA_SCHOOLS, NEWZEALAND_SCHOOLS, REGIONS.asia_all.data));
+  buildMarkers(SCHOOLS_TAGGED.concat(CANADA_SCHOOLS_TAGGED, EUROPE_SCHOOLS, AUSTRALIA_SCHOOLS_TAGGED, NEWZEALAND_SCHOOLS_TAGGED, REGIONS.asia_all.data));
   searchAreaBtn.style.display = 'none';
   applyFilters();
 });
@@ -619,17 +625,20 @@ function controlLabel(s){
   return s.control || '';
 }
 
-const REGION_COUNTRY_FALLBACK = {
-  asia_hongkong: 'Hong Kong',
-  asia_macau: 'Macau',
-  asia_singapore: 'Singapore'
-};
-
 function schoolLocLine(s){
-  const country = s.country || REGION_COUNTRY_FALLBACK[activeRegionKey];
-  if(country) return country === s.city ? country : (s.city + ', ' + country);
-  return s.state ? (s.city + ', ' + s.state) : s.city;
+  const parts = [s.city];
+  if(s.state && s.state !== s.country && s.state !== s.city) parts.push(s.state);
+  if(s.country && s.country !== s.city) parts.push(s.country);
+  return parts.join(', ');
 }
+
+const SCHOOLS_TAGGED = SCHOOLS.map(s => Object.assign({}, s, { country: 'US' }));
+const CANADA_SCHOOLS_TAGGED = CANADA_SCHOOLS.map(s => Object.assign({}, s, { country: 'Canada' }));
+const AUSTRALIA_SCHOOLS_TAGGED = AUSTRALIA_SCHOOLS.map(s => Object.assign({}, s, { country: 'Australia' }));
+const NEWZEALAND_SCHOOLS_TAGGED = NEWZEALAND_SCHOOLS.map(s => Object.assign({}, s, { country: 'New Zealand' }));
+const HONGKONG_SCHOOLS_TAGGED = HONGKONG_SCHOOLS.map(s => Object.assign({}, s, { country: 'Hong Kong' }));
+const MACAU_SCHOOLS_TAGGED = MACAU_SCHOOLS.map(s => Object.assign({}, s, { country: 'Macau' }));
+const SINGAPORE_SCHOOLS_TAGGED = SINGAPORE_SCHOOLS.map(s => Object.assign({}, s, { country: 'Singapore', state: null }));
 
 let markerIndex = [];
 let activeRegionKey = 'us';
@@ -659,7 +668,7 @@ function buildMarkers(schoolsArray){
   });
 }
 
-buildMarkers(SCHOOLS);
+buildMarkers(SCHOOLS_TAGGED);
 map.addLayer(clusterGroup);
 
 const stateSelect = document.getElementById('state-select');
@@ -850,7 +859,8 @@ function applyFilters(){
     }
     let matchesBounds = true;
     if(boundsFilterActive && boundsCenter){
-      matchesBounds = haversineMiles(boundsCenter.lat, boundsCenter.lng, s.lat, s.lon) <= boundsRadiusMiles;
+      matchesBounds = haversineMiles(boundsCenter.lat, boundsCenter.lng, s.lat, s.lon) <= boundsRadiusMiles
+        && (!boundsRect || boundsRect.contains([s.lat, s.lon]));
     }
     return matchesTerm && matchesState && matchesResearch && matchesRadius && matchesBounds;
   });
@@ -885,20 +895,18 @@ const REGION_LEGEND_RANKED = '<div><span class="legend-dot" style="background:#2
 const REGION_LEGEND_PLAIN = '<div><span class="legend-dot" style="background:#eab308;"></span>Institution</div>';
 
 const REGIONS = {
-  us:          { label: 'United States', hasData: true,  center:[39.5,-98.35], zoom:4, data: SCHOOLS, legendHtml: REGION_LEGEND_US },
-  canada:      { label: 'Canada',        hasData: true,  center:[56.1,-106.3], zoom:3, data: CANADA_SCHOOLS, legendHtml: REGION_LEGEND_RANKED },
+  us:          { label: 'United States', hasData: true,  center:[39.5,-98.35], zoom:4, data: SCHOOLS_TAGGED, legendHtml: REGION_LEGEND_US },
+  canada:      { label: 'Canada',        hasData: true,  center:[56.1,-106.3], zoom:3, data: CANADA_SCHOOLS_TAGGED, legendHtml: REGION_LEGEND_RANKED },
   europe:      { label: 'Europe',        hasData: true,  center:[50.0,10.0],   zoom:4, data: EUROPE_SCHOOLS, legendHtml: REGION_LEGEND_RANKED },
-  australia:   { label: 'Australia',     hasData: true,  center:[-25.3,133.8], zoom:4, data: AUSTRALIA_SCHOOLS, legendHtml: REGION_LEGEND_RANKED },
-  newzealand:  { label: 'New Zealand',   hasData: true,  center:[-41.0,174.0], zoom:5, data: NEWZEALAND_SCHOOLS, legendHtml: REGION_LEGEND_RANKED },
-  asia_hongkong:{ label: 'Hong Kong', hasData:true, center:[22.32,114.17], zoom:11, data: HONGKONG_SCHOOLS, legendHtml: REGION_LEGEND_RANKED },
-  asia_macau:  { label: 'Macau',        hasData: true,  center:[22.19,113.55], zoom:13, data: MACAU_SCHOOLS, legendHtml: REGION_LEGEND_RANKED },
+  australia:   { label: 'Australia',     hasData: true,  center:[-25.3,133.8], zoom:4, data: AUSTRALIA_SCHOOLS_TAGGED, legendHtml: REGION_LEGEND_RANKED },
+  newzealand:  { label: 'New Zealand',   hasData: true,  center:[-41.0,174.0], zoom:5, data: NEWZEALAND_SCHOOLS_TAGGED, legendHtml: REGION_LEGEND_RANKED },
+  asia_hongkong:{ label: 'Hong Kong', hasData:true, center:[22.32,114.17], zoom:11, data: HONGKONG_SCHOOLS_TAGGED, legendHtml: REGION_LEGEND_RANKED },
+  asia_macau:  { label: 'Macau',        hasData: true,  center:[22.19,113.55], zoom:13, data: MACAU_SCHOOLS_TAGGED, legendHtml: REGION_LEGEND_RANKED },
   asia_japan:  { label: 'Japan',         hasData: false, center:[36.2,138.25], zoom:5 },
   asia_korea:  { label: 'Korea',         hasData: false, center:[36.5,127.8],  zoom:6 },
-  asia_singapore:{ label:'Singapore',    hasData: true,  center:[1.35,103.82], zoom:11, data: SINGAPORE_SCHOOLS, legendHtml: REGION_LEGEND_RANKED },
+  asia_singapore:{ label:'Singapore',    hasData: true,  center:[1.35,103.82], zoom:11, data: SINGAPORE_SCHOOLS_TAGGED, legendHtml: REGION_LEGEND_RANKED },
   asia_all:    { label: 'Asia',          hasData: true,  center:[11.8,108.85], zoom:4,
-    data: HONGKONG_SCHOOLS.map(s => Object.assign({}, s, { country: 'Hong Kong' }))
-      .concat(MACAU_SCHOOLS.map(s => Object.assign({}, s, { country: 'Macau' })))
-      .concat(SINGAPORE_SCHOOLS.map(s => Object.assign({}, s, { country: 'Singapore' }))),
+    data: HONGKONG_SCHOOLS_TAGGED.concat(MACAU_SCHOOLS_TAGGED, SINGAPORE_SCHOOLS_TAGGED),
     legendHtml: REGION_LEGEND_RANKED }
 };
 
