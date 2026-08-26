@@ -84,10 +84,10 @@
     flex-direction:column;
     gap:10px;
   }
-  #us-only-controls{
-    display:flex;
-    flex-direction:column;
-    gap:10px;
+  .panel-divider{
+    border:none;
+    border-top:1px solid var(--line);
+    margin:2px 0;
   }
   .field-label{
     font-family:'IBM Plex Mono',monospace;
@@ -452,6 +452,17 @@
       <h1>Faculty Job Atlas</h1>
     </div>
     <div id="controls">
+      <div class="check-group" id="position-type-block">
+        <span class="field-label" style="margin-bottom:0;">Position type</span>
+        <label class="check-row"><input type="checkbox" id="f-pos-tt" checked> Tenure-track Assistant Professor</label>
+        <label class="check-row"><input type="checkbox" id="f-pos-tenured" checked> Tenured Professor (Associate / Full)</label>
+        <label class="check-row"><input type="checkbox" id="f-pos-nontenure" checked> Non-Tenure-Track (Lecturer / Teaching / Clinical)</label>
+      </div>
+      <div class="check-group" id="job-term-block">
+        <span class="field-label" style="margin-bottom:0;">Job term</span>
+        <label class="check-row"><input type="checkbox" id="f-term-full" checked> Full-time</label>
+        <label class="check-row"><input type="checkbox" id="f-term-part" checked> Part-time</label>
+      </div>
       <div>
         <label class="field-label" for="region-select">Region</label>
         <select id="region-select">
@@ -475,14 +486,18 @@
           <option value="singapore">Singapore</option>
         </select>
       </div>
+      <div class="check-group" id="subject-area-block">
+        <span class="field-label" style="margin-bottom:0;">Subject area</span>
+        <label class="check-row"><input type="checkbox" id="f-subj-ba" checked> Business Analytics</label>
+        <label class="check-row"><input type="checkbox" id="f-subj-ds" checked> Data Science</label>
+        <label class="check-row"><input type="checkbox" id="f-subj-is" checked> Information Systems</label>
+        <label class="check-row"><input type="checkbox" id="f-subj-stat" checked> Statistics</label>
+        <label class="check-row"><input type="checkbox" id="f-subj-ie" checked> Industrial Engineering</label>
+      </div>
+      <hr class="panel-divider">
       <div>
         <label class="field-label" for="search">Search by name</label>
         <input type="text" id="search" placeholder="e.g. Iowa, Drexel, Boston..." autocomplete="off">
-      </div>
-      <div id="us-only-controls">
-      <div id="state-block">
-        <label class="field-label" for="state-select">Filter by state</label>
-        <select id="state-select"><option value="">All states</option></select>
       </div>
       <div id="radius-block">
         <div style="display:flex; align-items:center; justify-content:space-between;">
@@ -506,13 +521,6 @@
           </select>
           <button id="clear-home-btn">Remove pin</button>
         </div>
-      </div>
-      <div class="check-group" id="research-filter-block">
-        <span class="field-label" style="margin-bottom:0;">Research activity</span>
-        <label class="check-row"><input type="checkbox" id="f-r1" checked> R1 &mdash; Very High Research</label>
-        <label class="check-row"><input type="checkbox" id="f-r2" checked> R2 &mdash; High Research</label>
-        <label class="check-row"><input type="checkbox" id="f-rnone" checked> Not R1/R2</label>
-      </div>
       </div>
     </div>
   </div>
@@ -556,16 +564,6 @@ const SINGAPORE_SCHOOLS = [{"name":"National University of Singapore","city":"Si
 const HONGKONG_SCHOOLS = [{"name":"City University of Hong Kong","city":"Kowloon Tong","state":null,"lat":22.3364,"lon":114.1735,"url":"https://www.cityu.edu.hk/","research":"R1","control":"Public"},{"name":"Gratia Christian College","city":"Shek Kip Mei","state":null,"lat":22.3313,"lon":114.1622,"url":"https://www.gcc.edu.hk/","research":null,"control":"Private"},{"name":"HKCT Institute of Higher Education","city":"Kwai Chung","state":null,"lat":22.3572,"lon":114.1289,"url":"https://www.hkct.edu.hk/","research":null,"control":"Private"},{"name":"Hong Kong Baptist University","city":"Kowloon Tong","state":null,"lat":22.3405,"lon":114.1798,"url":"https://www.hkbu.edu.hk/","research":"R2","control":"Public"},{"name":"Hong Kong Chu Hai College","city":"Tuen Mun","state":null,"lat":22.4108,"lon":113.9767,"url":"https://www.chuhai.edu.hk/","research":null,"control":"Private"},{"name":"Hong Kong Metropolitan University","city":"Ho Man Tin","state":null,"lat":22.3125,"lon":114.1811,"url":"https://www.hkmu.edu.hk/","research":null,"control":"Private"},{"name":"Hong Kong Nang Yan College of Higher Education","city":"Sham Shui Po","state":null,"lat":22.3287,"lon":114.1601,"url":"https://www.ny.edu.hk/","research":null,"control":"Private"},{"name":"Hong Kong Shue Yan University","city":"North Point","state":null,"lat":22.2875,"lon":114.2039,"url":"https://www.hksyu.edu/","research":null,"control":"Private"},{"name":"Lingnan University","city":"Tuen Mun","state":null,"lat":22.3903,"lon":113.9691,"url":"https://www.ln.edu.hk/","research":"R2","control":"Public"},{"name":"Saint Francis University","city":"Tseung Kwan O","state":null,"lat":22.3126,"lon":114.2649,"url":"https://www.sfu.edu.hk/","research":null,"control":"Private"},{"name":"Technological and Higher Education Institute of Hong Kong","city":"Chai Wan","state":null,"lat":22.2644,"lon":114.2372,"url":"https://www.thei.edu.hk/","research":null,"control":"Private"},{"name":"The Chinese University of Hong Kong","city":"Sha Tin","state":null,"lat":22.4194,"lon":114.2069,"url":"https://www.cuhk.edu.hk/","research":"R1","control":"Public"},{"name":"The Hang Seng University of Hong Kong","city":"Sha Tin","state":null,"lat":22.3841,"lon":114.2027,"url":"https://www.hsu.edu.hk/","research":null,"control":"Private"},{"name":"The Hong Kong Polytechnic University","city":"Hung Hom","state":null,"lat":22.3037,"lon":114.1798,"url":"https://www.polyu.edu.hk/","research":"R1","control":"Public"},{"name":"The Hong Kong University of Science and Technology","city":"Clear Water Bay","state":null,"lat":22.3364,"lon":114.2654,"url":"https://www.ust.hk/","research":"R1","control":"Public"},{"name":"The University of Hong Kong","city":"Pok Fu Lam","state":null,"lat":22.283,"lon":114.137,"url":"https://www.hku.hk/","research":"R1","control":"Public"},{"name":"Tung Wah College","city":"King's Park","state":null,"lat":22.3128,"lon":114.1727,"url":"https://www.twc.edu.hk/","research":null,"control":"Private"},{"name":"UOW College Hong Kong","city":"Tai Wai","state":null,"lat":22.3729,"lon":114.1779,"url":"https://www.uowchk.edu.hk/","research":null,"control":"Private"}];
 const EUROPE_SCHOOLS = [{"name":"University of Innsbruck","city":"Innsbruck","state":"Austria","lat":47.2632,"lon":11.3861,"url":"https://www.uibk.ac.at/","research":"R2","control":"Public"},{"name":"TU Wien","city":"Vienna","state":"Austria","lat":48.1983,"lon":16.3699,"url":"https://www.tuwien.at/","research":"R2","control":"Public"},{"name":"University of Vienna","city":"Vienna","state":"Austria","lat":48.2131,"lon":16.3592,"url":"https://www.univie.ac.at/","research":"R2","control":"Public"},{"name":"Vienna University of Economics and Business","city":"Vienna","state":"Austria","lat":48.2131,"lon":16.4058,"url":"https://www.wu.ac.at/","research":"R2","control":"Public"},{"name":"Université Libre de Bruxelles","city":"Brussels","state":"Belgium","lat":50.813,"lon":4.3813,"url":"https://www.ulb.be/","research":"R2","control":"Public"},{"name":"Ghent University","city":"Ghent","state":"Belgium","lat":51.0475,"lon":3.7278,"url":"https://www.ugent.be/","research":"R2","control":"Public"},{"name":"Vlerick Business School","city":"Ghent","state":"Belgium","lat":51.0392,"lon":3.7305,"url":"https://www.vlerick.com/","research":"R2","control":"Private"},{"name":"KU Leuven","city":"Leuven","state":"Belgium","lat":50.8776,"lon":4.7009,"url":"https://www.kuleuven.be/","research":"R1","control":"Public"},{"name":"Université catholique de Louvain","city":"Louvain-la-Neuve","state":"Belgium","lat":50.6681,"lon":4.6118,"url":"https://www.uclouvain.be/","research":"R2","control":"Public"},{"name":"Aarhus University","city":"Aarhus","state":"Denmark","lat":56.1697,"lon":10.2044,"url":"https://www.au.dk/","research":"R2","control":"Public"},{"name":"University of Copenhagen","city":"Copenhagen","state":"Denmark","lat":55.6802,"lon":12.5726,"url":"https://www.ku.dk/","research":"R2","control":"Public"},{"name":"Copenhagen Business School","city":"Frederiksberg","state":"Denmark","lat":55.6822,"lon":12.5254,"url":"https://www.cbs.dk/","research":"R2","control":"Public"},{"name":"Technical University of Denmark","city":"Kongens Lyngby","state":"Denmark","lat":55.7861,"lon":12.5234,"url":"https://www.dtu.dk/","research":"R2","control":"Public"},{"name":"Aalto University","city":"Espoo","state":"Finland","lat":60.1841,"lon":24.8281,"url":"https://www.aalto.fi/","research":"R2","control":"Public"},{"name":"Hanken School of Economics","city":"Helsinki","state":"Finland","lat":60.1699,"lon":24.928,"url":"https://www.hanken.fi/","research":"R2","control":"Private"},{"name":"University of Helsinki","city":"Helsinki","state":"Finland","lat":60.1699,"lon":24.9384,"url":"https://www.helsinki.fi/","research":"R2","control":"Public"},{"name":"University of Turku","city":"Turku","state":"Finland","lat":60.4518,"lon":22.2666,"url":"https://www.utu.fi/","research":"R2","control":"Public"},{"name":"ESSEC Business School","city":"Cergy","state":"France","lat":49.0447,"lon":2.074,"url":"https://www.essec.edu/","research":"R2","control":"Private"},{"name":"INSEAD","city":"Fontainebleau","state":"France","lat":48.4084,"lon":2.705,"url":"https://www.insead.edu/","research":"R1","control":"Private"},{"name":"Université Paris-Saclay","city":"Gif-sur-Yvette","state":"France","lat":48.7077,"lon":2.1663,"url":"https://www.universite-paris-saclay.fr/","research":"R2","control":"Public"},{"name":"Université Grenoble Alpes","city":"Grenoble","state":"France","lat":45.1926,"lon":5.7648,"url":"https://www.univ-grenoble-alpes.fr/","research":"R2","control":"Public"},{"name":"HEC Paris","city":"Jouy-en-Josas","state":"France","lat":48.7566,"lon":2.1663,"url":"https://www.hec.edu/","research":"R1","control":"Private"},{"name":"Institut Polytechnique de Paris","city":"Palaiseau","state":"France","lat":48.7139,"lon":2.2075,"url":"https://www.ip-paris.fr/","research":"R2","control":"Public"},{"name":"ESCP Business School","city":"Paris","state":"France","lat":48.8443,"lon":2.3745,"url":"https://www.escp.eu/","research":"R2","control":"Private"},{"name":"Sciences Po","city":"Paris","state":"France","lat":48.8539,"lon":2.3288,"url":"https://www.sciencespo.fr/","research":"R2","control":"Public"},{"name":"Sorbonne University","city":"Paris","state":"France","lat":48.8489,"lon":2.3555,"url":"https://www.sorbonne-universite.fr/","research":"R1","control":"Public"},{"name":"Université PSL","city":"Paris","state":"France","lat":48.8459,"lon":2.3437,"url":"https://www.psl.eu/","research":"R1","control":"Public"},{"name":"RWTH Aachen University","city":"Aachen","state":"Germany","lat":50.7789,"lon":6.0625,"url":"https://www.rwth-aachen.de/","research":"R2","control":"Public"},{"name":"Free University of Berlin","city":"Berlin","state":"Germany","lat":52.4536,"lon":13.2879,"url":"https://www.fu-berlin.de/","research":"R2","control":"Public"},{"name":"Humboldt University of Berlin","city":"Berlin","state":"Germany","lat":52.5169,"lon":13.3936,"url":"https://www.hu-berlin.de/","research":"R2","control":"Public"},{"name":"University of Cologne","city":"Cologne","state":"Germany","lat":50.9279,"lon":6.926,"url":"https://www.uni-koeln.de/","research":"R2","control":"Public"},{"name":"Goethe University Frankfurt","city":"Frankfurt","state":"Germany","lat":50.13,"lon":8.6633,"url":"https://www.uni-frankfurt.de/","research":"R2","control":"Public"},{"name":"Heidelberg University","city":"Heidelberg","state":"Germany","lat":49.4093,"lon":8.6942,"url":"https://www.uni-heidelberg.de/","research":"R2","control":"Public"},{"name":"Karlsruhe Institute of Technology","city":"Karlsruhe","state":"Germany","lat":49.0117,"lon":8.417,"url":"https://www.kit.edu/","research":"R2","control":"Public"},{"name":"University of Mannheim","city":"Mannheim","state":"Germany","lat":49.4794,"lon":8.4632,"url":"https://www.uni-mannheim.de/","research":"R2","control":"Public"},{"name":"Ludwig Maximilian University of Munich","city":"Munich","state":"Germany","lat":48.1509,"lon":11.5809,"url":"https://www.lmu.de/","research":"R1","control":"Public"},{"name":"Technical University of Munich","city":"Munich","state":"Germany","lat":48.1497,"lon":11.568,"url":"https://www.tum.de/","research":"R1","control":"Public"},{"name":"Athens University of Economics and Business","city":"Athens","state":"Greece","lat":37.9962,"lon":23.7484,"url":"https://www.aueb.gr/","research":"R2","control":"Public"},{"name":"National Technical University of Athens","city":"Athens","state":"Greece","lat":37.9808,"lon":23.7297,"url":"https://www.ntua.gr/","research":"R2","control":"Public"},{"name":"National and Kapodistrian University of Athens","city":"Athens","state":"Greece","lat":37.9795,"lon":23.7332,"url":"https://www.uoa.gr/","research":"R2","control":"Public"},{"name":"Aristotle University of Thessaloniki","city":"Thessaloniki","state":"Greece","lat":40.6297,"lon":22.96,"url":"https://www.auth.gr/","research":"R2","control":"Public"},{"name":"Corvinus University of Budapest","city":"Budapest","state":"Hungary","lat":47.4864,"lon":19.0575,"url":"https://www.uni-corvinus.hu/","research":"R2","control":"Public"},{"name":"Eötvös Loránd University","city":"Budapest","state":"Hungary","lat":47.4796,"lon":19.0567,"url":"https://www.elte.hu/","research":"R2","control":"Public"},{"name":"Central European University","city":"Vienna","state":"Hungary","lat":48.1986,"lon":16.3486,"url":"https://www.ceu.edu/","research":"R2","control":"Private"},{"name":"University of Iceland","city":"Reykjavik","state":"Iceland","lat":64.1394,"lon":-21.9508,"url":"https://www.hi.is/","research":"R2","control":"Public"},{"name":"University College Cork","city":"Cork","state":"Ireland","lat":51.8935,"lon":-8.4906,"url":"https://www.ucc.ie/","research":"R2","control":"Public"},{"name":"Dublin City University","city":"Dublin","state":"Ireland","lat":53.3859,"lon":-6.257,"url":"https://www.dcu.ie/","research":"R2","control":"Public"},{"name":"Trinity College Dublin","city":"Dublin","state":"Ireland","lat":53.3438,"lon":-6.2546,"url":"https://www.tcd.ie/","research":"R2","control":"Public"},{"name":"University College Dublin","city":"Dublin","state":"Ireland","lat":53.307,"lon":-6.223,"url":"https://www.ucd.ie/","research":"R2","control":"Public"},{"name":"University of Galway","city":"Galway","state":"Ireland","lat":53.2793,"lon":-9.062,"url":"https://www.universityofgalway.ie/","research":"R2","control":"Public"},{"name":"University of Bologna","city":"Bologna","state":"Italy","lat":44.4967,"lon":11.3546,"url":"https://www.unibo.it/","research":"R2","control":"Public"},{"name":"Bocconi University","city":"Milan","state":"Italy","lat":45.4503,"lon":9.1868,"url":"https://www.unibocconi.it/","research":"R1","control":"Private"},{"name":"Politecnico di Milano","city":"Milan","state":"Italy","lat":45.4782,"lon":9.228,"url":"https://www.polimi.it/","research":"R2","control":"Public"},{"name":"University of Milan","city":"Milan","state":"Italy","lat":45.4642,"lon":9.19,"url":"https://www.unimi.it/","research":"R2","control":"Public"},{"name":"University of Padua","city":"Padua","state":"Italy","lat":45.4074,"lon":11.8768,"url":"https://www.unipd.it/","research":"R2","control":"Public"},{"name":"LUISS Guido Carli","city":"Rome","state":"Italy","lat":41.9298,"lon":12.4881,"url":"https://www.luiss.edu/","research":"R2","control":"Private"},{"name":"Sapienza University of Rome","city":"Rome","state":"Italy","lat":41.9028,"lon":12.515,"url":"https://www.uniroma1.it/","research":"R2","control":"Public"},{"name":"Politecnico di Torino","city":"Turin","state":"Italy","lat":45.0628,"lon":7.6624,"url":"https://www.polito.it/","research":"R2","control":"Public"},{"name":"University of Luxembourg","city":"Esch-sur-Alzette","state":"Luxembourg","lat":49.5008,"lon":5.9491,"url":"https://www.uni.lu/","research":"R2","control":"Public"},{"name":"University of Amsterdam","city":"Amsterdam","state":"Netherlands","lat":52.3676,"lon":4.9138,"url":"https://www.uva.nl/","research":"R2","control":"Public"},{"name":"Vrije Universiteit Amsterdam","city":"Amsterdam","state":"Netherlands","lat":52.3346,"lon":4.8641,"url":"https://www.vu.nl/","research":"R2","control":"Public"},{"name":"Delft University of Technology","city":"Delft","state":"Netherlands","lat":51.9989,"lon":4.3733,"url":"https://www.tudelft.nl/","research":"R1","control":"Public"},{"name":"Leiden University","city":"Leiden","state":"Netherlands","lat":52.156,"lon":4.487,"url":"https://www.universiteitleiden.nl/","research":"R2","control":"Public"},{"name":"Maastricht University","city":"Maastricht","state":"Netherlands","lat":50.8467,"lon":5.6883,"url":"https://www.maastrichtuniversity.nl/","research":"R2","control":"Public"},{"name":"Erasmus University Rotterdam","city":"Rotterdam","state":"Netherlands","lat":51.9181,"lon":4.4739,"url":"https://www.eur.nl/","research":"R2","control":"Public"},{"name":"Tilburg University","city":"Tilburg","state":"Netherlands","lat":51.5604,"lon":5.0399,"url":"https://www.tilburguniversity.edu/","research":"R2","control":"Public"},{"name":"Utrecht University","city":"Utrecht","state":"Netherlands","lat":52.0908,"lon":5.1222,"url":"https://www.uu.nl/","research":"R2","control":"Public"},{"name":"University of Bergen","city":"Bergen","state":"Norway","lat":60.3833,"lon":5.3327,"url":"https://www.uib.no/","research":"R2","control":"Public"},{"name":"BI Norwegian Business School","city":"Oslo","state":"Norway","lat":59.9445,"lon":10.7768,"url":"https://www.bi.edu/","research":"R2","control":"Private"},{"name":"University of Oslo","city":"Oslo","state":"Norway","lat":59.9394,"lon":10.7223,"url":"https://www.uio.no/","research":"R2","control":"Public"},{"name":"Norwegian University of Science and Technology","city":"Trondheim","state":"Norway","lat":63.4194,"lon":10.4029,"url":"https://www.ntnu.no/","research":"R2","control":"Public"},{"name":"AGH University of Krakow","city":"Krakow","state":"Poland","lat":50.0669,"lon":19.9128,"url":"https://www.agh.edu.pl/","research":"R2","control":"Public"},{"name":"Jagiellonian University","city":"Krakow","state":"Poland","lat":50.0614,"lon":19.9366,"url":"https://www.uj.edu.pl/","research":"R2","control":"Public"},{"name":"University of Warsaw","city":"Warsaw","state":"Poland","lat":52.239,"lon":21.0169,"url":"https://www.uw.edu.pl/","research":"R2","control":"Public"},{"name":"Warsaw School of Economics","city":"Warsaw","state":"Poland","lat":52.2172,"lon":21.0231,"url":"https://www.sgh.waw.pl/","research":"R2","control":"Public"},{"name":"Nova School of Business and Economics","city":"Carcavelos","state":"Portugal","lat":38.6944,"lon":-9.3352,"url":"https://www.novasbe.unl.pt/","research":"R2","control":"Public"},{"name":"Universidade de Coimbra","city":"Coimbra","state":"Portugal","lat":40.2081,"lon":-8.4253,"url":"https://www.uc.pt/","research":"R2","control":"Public"},{"name":"Universidade de Lisboa","city":"Lisbon","state":"Portugal","lat":38.7527,"lon":-9.1568,"url":"https://www.ulisboa.pt/","research":"R2","control":"Public"},{"name":"Universidade do Porto","city":"Porto","state":"Portugal","lat":41.178,"lon":-8.598,"url":"https://www.up.pt/","research":"R2","control":"Public"},{"name":"Bucharest University of Economic Studies","city":"Bucharest","state":"Romania","lat":44.4479,"lon":26.0973,"url":"https://www.ase.ro/","research":"R2","control":"Public"},{"name":"University of Bucharest","city":"Bucharest","state":"Romania","lat":44.4353,"lon":26.0971,"url":"https://www.unibuc.ro/","research":"R2","control":"Public"},{"name":"Babeș-Bolyai University","city":"Cluj-Napoca","state":"Romania","lat":46.7684,"lon":23.5904,"url":"https://www.ubbcluj.ro/","research":"R2","control":"Public"},{"name":"ESADE Business School","city":"Barcelona","state":"Spain","lat":41.3971,"lon":2.1226,"url":"https://www.esade.edu/","research":"R2","control":"Private"},{"name":"IESE Business School","city":"Barcelona","state":"Spain","lat":41.3948,"lon":2.1213,"url":"https://www.iese.edu/","research":"R1","control":"Private"},{"name":"Universitat Politècnica de Catalunya","city":"Barcelona","state":"Spain","lat":41.3888,"lon":2.1132,"url":"https://www.upc.edu/","research":"R2","control":"Public"},{"name":"Universitat Pompeu Fabra","city":"Barcelona","state":"Spain","lat":41.3888,"lon":2.1902,"url":"https://www.upf.edu/","research":"R2","control":"Public"},{"name":"Universitat de Barcelona","city":"Barcelona","state":"Spain","lat":41.387,"lon":2.1139,"url":"https://www.ub.edu/","research":"R2","control":"Public"},{"name":"IE University","city":"Madrid","state":"Spain","lat":40.4324,"lon":-3.6857,"url":"https://www.ie.edu/","research":"R2","control":"Private"},{"name":"Universidad Autónoma de Madrid","city":"Madrid","state":"Spain","lat":40.5442,"lon":-3.6969,"url":"https://www.uam.es/","research":"R2","control":"Public"},{"name":"Universidad Complutense de Madrid","city":"Madrid","state":"Spain","lat":40.4489,"lon":-3.728,"url":"https://www.ucm.es/","research":"R2","control":"Public"},{"name":"Chalmers University of Technology","city":"Gothenburg","state":"Sweden","lat":57.6893,"lon":11.975,"url":"https://www.chalmers.se/","research":"R2","control":"Public"},{"name":"Lund University","city":"Lund","state":"Sweden","lat":55.7089,"lon":13.2119,"url":"https://www.lu.se/","research":"R2","control":"Public"},{"name":"KTH Royal Institute of Technology","city":"Stockholm","state":"Sweden","lat":59.3498,"lon":18.0687,"url":"https://www.kth.se/","research":"R2","control":"Public"},{"name":"Stockholm School of Economics","city":"Stockholm","state":"Sweden","lat":59.3465,"lon":18.0553,"url":"https://www.hhs.se/","research":"R2","control":"Private"},{"name":"Uppsala University","city":"Uppsala","state":"Sweden","lat":59.8586,"lon":17.6389,"url":"https://www.uu.se/","research":"R2","control":"Public"},{"name":"University of Geneva","city":"Geneva","state":"Switzerland","lat":46.1997,"lon":6.1436,"url":"https://www.unige.ch/","research":"R2","control":"Public"},{"name":"EPFL","city":"Lausanne","state":"Switzerland","lat":46.5191,"lon":6.5668,"url":"https://www.epfl.ch/","research":"R1","control":"Public"},{"name":"University of Lausanne","city":"Lausanne","state":"Switzerland","lat":46.5218,"lon":6.58,"url":"https://www.unil.ch/","research":"R2","control":"Public"},{"name":"University of St. Gallen","city":"St. Gallen","state":"Switzerland","lat":47.4304,"lon":9.3765,"url":"https://www.unisg.ch/","research":"R2","control":"Public"},{"name":"ETH Zurich","city":"Zurich","state":"Switzerland","lat":47.3763,"lon":8.548,"url":"https://www.ethz.ch/","research":"R1","control":"Public"},{"name":"University of Zurich","city":"Zurich","state":"Switzerland","lat":47.3744,"lon":8.5495,"url":"https://www.uzh.ch/","research":"R2","control":"Public"},{"name":"Bilkent University","city":"Ankara","state":"Turkey","lat":39.8687,"lon":32.7486,"url":"https://www.bilkent.edu.tr/","research":"R2","control":"Private"},{"name":"Middle East Technical University","city":"Ankara","state":"Turkey","lat":39.8925,"lon":32.7815,"url":"https://www.metu.edu.tr/","research":"R2","control":"Public"},{"name":"Boğaziçi University","city":"Istanbul","state":"Turkey","lat":41.0847,"lon":29.0507,"url":"https://www.boun.edu.tr/","research":"R2","control":"Public"},{"name":"Koç University","city":"Istanbul","state":"Turkey","lat":41.1965,"lon":29.0231,"url":"https://www.ku.edu.tr/","research":"R2","control":"Private"},{"name":"Sabancı University","city":"Istanbul","state":"Turkey","lat":40.8927,"lon":29.3781,"url":"https://www.sabanciuniv.edu/","research":"R2","control":"Private"},{"name":"University of Birmingham","city":"Birmingham","state":"United Kingdom","lat":52.4508,"lon":-1.9305,"url":"https://www.birmingham.ac.uk/","research":"R2","control":"Public"},{"name":"University of Bristol","city":"Bristol","state":"United Kingdom","lat":51.4585,"lon":-2.6027,"url":"https://www.bristol.ac.uk/","research":"R1","control":"Public"},{"name":"University of Cambridge","city":"Cambridge","state":"United Kingdom","lat":52.2043,"lon":0.1149,"url":"https://www.cam.ac.uk/","research":"R1","control":"Public"},{"name":"University of Warwick","city":"Coventry","state":"United Kingdom","lat":52.3793,"lon":-1.5615,"url":"https://www.warwick.ac.uk/","research":"R2","control":"Public"},{"name":"University of Edinburgh","city":"Edinburgh","state":"United Kingdom","lat":55.9445,"lon":-3.1892,"url":"https://www.ed.ac.uk/","research":"R1","control":"Public"},{"name":"University of Glasgow","city":"Glasgow","state":"United Kingdom","lat":55.8724,"lon":-4.2884,"url":"https://www.gla.ac.uk/","research":"R2","control":"Public"},{"name":"University of Leeds","city":"Leeds","state":"United Kingdom","lat":53.8067,"lon":-1.555,"url":"https://www.leeds.ac.uk/","research":"R2","control":"Public"},{"name":"Imperial College London","city":"London","state":"United Kingdom","lat":51.4988,"lon":-0.1749,"url":"https://www.imperial.ac.uk/","research":"R1","control":"Public"},{"name":"King's College London","city":"London","state":"United Kingdom","lat":51.5115,"lon":-0.116,"url":"https://www.kcl.ac.uk/","research":"R1","control":"Public"},{"name":"London Business School","city":"London","state":"United Kingdom","lat":51.5226,"lon":-0.163,"url":"https://www.london.edu/","research":"R1","control":"Private"},{"name":"London School of Economics and Political Science","city":"London","state":"United Kingdom","lat":51.5144,"lon":-0.1165,"url":"https://www.lse.ac.uk/","research":"R1","control":"Public"},{"name":"University College London","city":"London","state":"United Kingdom","lat":51.5246,"lon":-0.134,"url":"https://www.ucl.ac.uk/","research":"R1","control":"Public"},{"name":"University of Manchester","city":"Manchester","state":"United Kingdom","lat":53.4668,"lon":-2.2339,"url":"https://www.manchester.ac.uk/","research":"R1","control":"Public"},{"name":"University of Oxford","city":"Oxford","state":"United Kingdom","lat":51.7548,"lon":-1.2544,"url":"https://www.ox.ac.uk/","research":"R1","control":"Public"},{"name":"University of St Andrews","city":"St Andrews","state":"United Kingdom","lat":56.3398,"lon":-2.7967,"url":"https://www.st-andrews.ac.uk/","research":"R2","control":"Public"}];
 
-const STATE_NAMES = {
-AL:"Alabama",AK:"Alaska",AZ:"Arizona",AR:"Arkansas",CA:"California",CO:"Colorado",CT:"Connecticut",
-DE:"Delaware",DC:"District of Columbia",FL:"Florida",GA:"Georgia",HI:"Hawaii",ID:"Idaho",IL:"Illinois",
-IN:"Indiana",IA:"Iowa",KS:"Kansas",KY:"Kentucky",LA:"Louisiana",ME:"Maine",MD:"Maryland",MA:"Massachusetts",
-MI:"Michigan",MN:"Minnesota",MS:"Mississippi",MO:"Missouri",MT:"Montana",NE:"Nebraska",NV:"Nevada",
-NH:"New Hampshire",NJ:"New Jersey",NM:"New Mexico",NY:"New York",NC:"North Carolina",ND:"North Dakota",
-OH:"Ohio",OK:"Oklahoma",OR:"Oregon",PA:"Pennsylvania",RI:"Rhode Island",SC:"South Carolina",SD:"South Dakota",
-TN:"Tennessee",TX:"Texas",UT:"Utah",VT:"Vermont",VA:"Virginia",WA:"Washington",WV:"West Virginia",
-WI:"Wisconsin",WY:"Wyoming",PR:"Puerto Rico"
-};
 
 const map = L.map('map', { zoomControl:false, minZoom:3, maxZoom:14 }).setView([20,10],3);
 L.control.zoom({position:'bottomright'}).addTo(map);
@@ -748,25 +746,11 @@ function buildMarkers(schoolsArray){
 buildMarkers(SCHOOLS_TAGGED);
 map.addLayer(clusterGroup);
 
-const stateSelect = document.getElementById('state-select');
-const statesPresent = Array.from(new Set(SCHOOLS.map(s=>s.state))).sort(function(a,b){
-  return (STATE_NAMES[a]||a).localeCompare(STATE_NAMES[b]||b);
-});
-statesPresent.forEach(function(st){
-  const opt = document.createElement('option');
-  opt.value = st;
-  opt.textContent = (STATE_NAMES[st]||st) + ' (' + st + ')';
-  stateSelect.appendChild(opt);
-});
-
 const searchInput = document.getElementById('search');
 const listEl = document.getElementById('list');
 const countEl = document.getElementById('count');
 const emptyEl = document.getElementById('empty');
 const clearBtn = document.getElementById('clear-btn');
-const fR1 = document.getElementById('f-r1');
-const fR2 = document.getElementById('f-r2');
-const fRnone = document.getElementById('f-rnone');
 const homeAddressInput = document.getElementById('home-address');
 const homeGeoBtn = document.getElementById('home-geo-btn');
 const homeDropHandle = document.getElementById('home-drop-handle');
@@ -968,8 +952,6 @@ function renderList(items){
 
 function applyFilters(){
   const term = searchInput.value.trim().toLowerCase();
-  const st = stateSelect.value;
-  const wantR1 = fR1.checked, wantR2 = fR2.checked, wantRnone = fRnone.checked;
   const maxMiles = homeLatLng ? (parseInt(radiusSelect.value,10)/60) * AVG_MPH : null;
   // With no explicit "Search this area" freeze or home pin active, the list
   // live-follows whatever's currently on screen as you pan/zoom, instead of
@@ -985,8 +967,6 @@ function applyFilters(){
   const filtered = markerIndex.filter(function(entry){
     const s = entry.school;
     const matchesTerm = !term || s.name.toLowerCase().includes(term) || s.city.toLowerCase().includes(term) || (s.alias && s.alias.toLowerCase().includes(term)) || (s.state && s.state.toLowerCase().includes(term));
-    const matchesState = !st || s.state === st;
-    const matchesResearch = (wantR1 && s.research==='R1') || (wantR2 && s.research==='R2') || (wantRnone && !s.research);
     let matchesRadius = true;
     if(homeLatLng){
       const d = haversineMiles(homeLatLng.lat, homeLatLng.lon, s.lat, s.lon);
@@ -1001,7 +981,7 @@ function applyFilters(){
     } else if(liveCenter){
       matchesBounds = Math.abs(s.lat - liveCenter.lat) <= liveHalfLat && angularLngDiff(s.lon, liveCenter.lng) <= liveHalfLng;
     }
-    return matchesTerm && matchesState && matchesResearch && matchesRadius && matchesBounds;
+    return matchesTerm && matchesRadius && matchesBounds;
   });
   if(homeLatLng) filtered.sort(function(a,b){ return a.distMiles - b.distMiles; });
   renderList(filtered);
@@ -1010,12 +990,15 @@ function applyFilters(){
 }
 
 [searchInput].forEach(el => el.addEventListener('input', applyFilters));
-[stateSelect].forEach(el => el.addEventListener('change', applyFilters));
-[fR1, fR2, fRnone].forEach(el => el.addEventListener('change', applyFilters));
+// Position type / job term / subject area don't filter anything yet — there's
+// no job-posting data behind them until the search step is built — but they're
+// wired up now so that work is a filter-logic change, not a UI change.
+document.querySelectorAll('#position-type-block input, #job-term-block input, #subject-area-block input')
+  .forEach(el => el.addEventListener('change', applyFilters));
 clearBtn.addEventListener('click', function(){
   searchInput.value = '';
-  stateSelect.value = '';
-  fR1.checked = true; fR2.checked = true; fRnone.checked = true;
+  document.querySelectorAll('#position-type-block input, #job-term-block input, #subject-area-block input')
+    .forEach(el => { el.checked = true; });
   boundsFilterActive = false;
   liveViewActive = false;
   if(crossRegionActive){
@@ -1062,7 +1045,6 @@ REGIONS.all = {
 const regionSelect = document.getElementById('region-select');
 const asiaSubblock = document.getElementById('asia-subregion-block');
 const asiaSelect = document.getElementById('asia-select');
-const usOnlyControls = document.getElementById('us-only-controls');
 const comingSoonEl = document.getElementById('coming-soon');
 const mapComingSoonEl = document.getElementById('map-coming-soon');
 const eyebrowEl = document.querySelector('.eyebrow');
@@ -1082,18 +1064,15 @@ function applyRegion(){
   eyebrowEl.textContent = 'Academic Job Search \u00b7 ' + region.label + ' Atlas';
 
   if(region.hasData){
-    usOnlyControls.style.display = '';
-    document.getElementById('state-block').style.display = (key === 'us') ? '' : 'none';
     comingSoonEl.style.display = 'none';
     mapComingSoonEl.style.display = 'none';
     legendEl.style.display = '';
     listEl.style.display = '';
-    document.getElementById('research-filter-block').style.display = (key === 'us') ? '' : 'none';
     radiusBlockEl.style.display = '';
     legendEl.innerHTML = region.legendHtml || legendEl.innerHTML;
     searchInput.value = '';
-    stateSelect.value = '';
-    fR1.checked = true; fR2.checked = true; fRnone.checked = true;
+    document.querySelectorAll('#position-type-block input, #job-term-block input, #subject-area-block input')
+      .forEach(el => { el.checked = true; });
     boundsFilterActive = false;
     crossRegionActive = false;
     liveViewActive = false;
@@ -1106,7 +1085,7 @@ function applyRegion(){
     programmaticSetView(region.center, region.zoom, { animate:true });
     applyFilters();
   } else {
-    usOnlyControls.style.display = 'none';
+    radiusBlockEl.style.display = 'none';
     legendEl.style.display = 'none';
     listEl.style.display = 'none';
     emptyEl.style.display = 'none';
