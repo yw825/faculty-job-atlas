@@ -619,6 +619,18 @@ searchAreaBtn.addEventListener('click', function(){
   // problem .wrap() above just fixed.
   boundsHalfLat = (b.getNorth() - b.getSouth()) / 2 * 1.3;
   boundsHalfLng = (b.getEast() - b.getWest()) / 2 * 1.3;
+  // Same reasoning as in placeHome(): an area search is an alternate way of
+  // scoping results, not one that should stay AND'd with a home pin dropped
+  // somewhere else entirely, or the two silently cancel each other out.
+  if(homeLatLng){
+    homeLatLng = null;
+    if(homeMarker) map.removeLayer(homeMarker);
+    if(homeCircle) map.removeLayer(homeCircle);
+    homeMarker = null; homeCircle = null;
+    homeAddressInput.value = '';
+    radiusRow.style.display = 'none';
+    setHomeStatus('', '');
+  }
   boundsFilterActive = true;
   crossRegionActive = true;
   buildMarkers(allSchoolsMerged());
@@ -775,6 +787,13 @@ function placeHome(lat, lon, label){
   radiusRow.style.display = 'block';
   drawRadiusCircle();
   programmaticSetView([lat, lon], 8, { animate:true });
+  // Placing a home pin is an alternate way of scoping the search, not one
+  // that stacks with "Search this area" — otherwise a leftover area search
+  // from somewhere else in the world keeps applying, and its rectangle
+  // rarely overlaps a freshly-dropped pin, so the two silently AND together
+  // into zero results even though the pin itself is placed correctly.
+  boundsFilterActive = false;
+  searchAreaBtn.style.display = 'none';
   // A home pin can land anywhere in the world, regardless of which single
   // Region is currently selected, so search across every dataset — same as
   // "Search this area" — instead of only whatever was already loaded.
