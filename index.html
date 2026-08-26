@@ -453,7 +453,8 @@
       <div>
         <label class="field-label" for="region-select">Region</label>
         <select id="region-select">
-          <option value="us" selected>United States</option>
+          <option value="all" selected>All Countries</option>
+          <option value="us">United States</option>
           <option value="canada">Canada</option>
           <option value="asia">Asia</option>
           <option value="europe">Europe</option>
@@ -564,7 +565,7 @@ TN:"Tennessee",TX:"Texas",UT:"Utah",VT:"Vermont",VA:"Virginia",WA:"Washington",W
 WI:"Wisconsin",WY:"Wyoming",PR:"Puerto Rico"
 };
 
-const map = L.map('map', { zoomControl:false, minZoom:3, maxZoom:14 }).setView([39.5,-98.35],4);
+const map = L.map('map', { zoomControl:false, minZoom:3, maxZoom:14 }).setView([20,10],3);
 L.control.zoom({position:'bottomright'}).addTo(map);
 L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',{
   attribution:'&copy; OpenStreetMap contributors &copy; CARTO',
@@ -597,6 +598,11 @@ map.on('moveend', function(){
   if(suppressNextMoveEnd){ suppressNextMoveEnd = false; return; }
   if(typeof activeRegionKey !== 'undefined' && REGIONS[activeRegionKey] && REGIONS[activeRegionKey].hasData){
     searchAreaBtn.style.display = 'block';
+  }
+  // Live-follow the map: with no explicit area-search freeze or home pin
+  // active, re-filter to the new viewport on every real pan/zoom.
+  if(typeof applyFilters === 'function' && !boundsFilterActive && !homeLatLng){
+    applyFilters();
   }
 });
 
@@ -939,6 +945,17 @@ function applyFilters(){
   const st = stateSelect.value;
   const wantR1 = fR1.checked, wantR2 = fR2.checked, wantRnone = fRnone.checked;
   const maxMiles = homeLatLng ? (parseInt(radiusSelect.value,10)/60) * AVG_MPH : null;
+  // With no explicit "Search this area" freeze or home pin active, the list
+  // live-follows whatever's currently on screen as you pan/zoom, instead of
+  // staying a static full-region list. Computed fresh (not frozen) each call,
+  // wrap-aware for the same antimeridian-drift reasons as the frozen version.
+  let liveCenter = null, liveHalfLat = 0, liveHalfLng = 0;
+  if(!boundsFilterActive && !homeLatLng){
+    const b = map.getBounds();
+    liveCenter = map.getCenter().wrap();
+    liveHalfLat = (b.getNorth() - b.getSouth()) / 2 * 1.15;
+    liveHalfLng = (b.getEast() - b.getWest()) / 2 * 1.15;
+  }
   const filtered = markerIndex.filter(function(entry){
     const s = entry.school;
     const matchesTerm = !term || s.name.toLowerCase().includes(term) || s.city.toLowerCase().includes(term) || (s.alias && s.alias.toLowerCase().includes(term)) || (s.state && s.state.toLowerCase().includes(term));
@@ -955,6 +972,8 @@ function applyFilters(){
       matchesBounds = haversineMiles(boundsCenter.lat, boundsCenter.lng, s.lat, s.lon) <= boundsRadiusMiles
         && Math.abs(s.lat - boundsCenter.lat) <= boundsHalfLat
         && angularLngDiff(s.lon, boundsCenter.lng) <= boundsHalfLng;
+    } else if(liveCenter){
+      matchesBounds = Math.abs(s.lat - liveCenter.lat) <= liveHalfLat && angularLngDiff(s.lon, liveCenter.lng) <= liveHalfLng;
     }
     return matchesTerm && matchesState && matchesResearch && matchesRadius && matchesBounds;
   });
@@ -978,7 +997,7 @@ clearBtn.addEventListener('click', function(){
   }
   searchAreaBtn.style.display = 'none';
   applyFilters();
-  if(!homeLatLng) programmaticSetView([39.5,-98.35],4);
+  if(!homeLatLng) programmaticSetView(REGIONS[activeRegionKey].center, REGIONS[activeRegionKey].zoom);
 });
 
 renderList(markerIndex);
@@ -1007,6 +1026,11 @@ const REGIONS = {
 function allSchoolsMerged(){
   return SCHOOLS_TAGGED.concat(CANADA_SCHOOLS_TAGGED, EUROPE_SCHOOLS, AUSTRALIA_SCHOOLS_TAGGED, NEWZEALAND_SCHOOLS_TAGGED, REGIONS.asia_all.data);
 }
+
+REGIONS.all = {
+  label: 'All Countries', hasData: true, center: [20, 10], zoom: 3,
+  data: allSchoolsMerged(), legendHtml: REGION_LEGEND_RANKED
+};
 
 const regionSelect = document.getElementById('region-select');
 const asiaSubblock = document.getElementById('asia-subregion-block');
@@ -1073,6 +1097,8 @@ function applyRegion(){
 
 regionSelect.addEventListener('change', applyRegion);
 asiaSelect.addEventListener('change', applyRegion);
+
+applyRegion();
 
 </script>
 </body>
