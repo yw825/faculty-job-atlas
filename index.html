@@ -288,6 +288,8 @@
     letter-spacing:0.02em;
   }
   .row-tags{ margin-top:4px; display:flex; gap:4px; flex-wrap:wrap; }
+  .row-links{ margin-top:6px; }
+  .row-links .pop-link{ margin-right:14px; }
   .mini-tag{
     font-family:'IBM Plex Mono',monospace;
     font-size:9px;
@@ -714,25 +716,29 @@ const SINGAPORE_SCHOOLS_TAGGED = SINGAPORE_SCHOOLS.map(s => Object.assign({}, s,
 let markerIndex = [];
 let activeRegionKey = 'us';
 
+function schoolLinksHtml(s){
+  const q = encodeURIComponent((s.alias || s.name) + ' faculty job openings');
+  const siteLink = s.url ? '<a class="pop-link" href="https://'+s.url.replace(/^https?:\/\//,'')+'" target="_blank" rel="noopener">School site &rarr;</a>' : '';
+  const jobsLink = '<a class="pop-link" href="https://www.google.com/search?q='+q+'" target="_blank" rel="noopener">Faculty openings &rarr;</a>';
+  return siteLink + jobsLink;
+}
+
 function buildMarkers(schoolsArray){
   clusterGroup.clearLayers();
   markerIndex = [];
   schoolsArray.forEach(function(s){
     const marker = L.marker([s.lat, s.lon], { icon: pinIcon(s) });
-    const q = encodeURIComponent((s.alias || s.name) + ' faculty job openings');
     const ctrlTag = controlLabel(s);
     const researchTag = s.rankLabel
       ? '<span class="pop-tag" style="background:rgba(37,99,235,0.18);color:#1741a6;">'+s.rankLabel+'</span>'
       : (activeRegionKey === 'us' && s.research) ? '<span class="pop-tag" style="background:'+(s.research==='R1'?'rgba(37,99,235,0.18);color:#1741a6':'rgba(22,163,74,0.18);color:#0d6b30')+';">'+s.research+'</span>' : '';
-    const siteLink = s.url ? '<a class="pop-link" href="https://'+s.url.replace(/^https?:\/\//,'')+'" target="_blank" rel="noopener">School site &rarr;</a>' : '';
-    const jobsLink = '<a class="pop-link" href="https://www.google.com/search?q='+q+'" target="_blank" rel="noopener">Faculty openings &rarr;</a>';
     const popName = s.alias ? s.alias+' <span style="font-weight:400;font-size:12px;opacity:.6;">(formerly '+s.name+')</span>' : s.name;
     const locLine = schoolLocLine(s);
     const popupHtml =
       '<div class="pop-name">'+popName+'</div>'+
       '<div class="pop-loc">'+locLine+'</div>'+
       researchTag + (ctrlTag ? '<span class="pop-tag">'+ctrlTag+'</span>' : '') +
-      '<div style="margin-top:8px;">' + siteLink + jobsLink + '</div>';
+      '<div style="margin-top:8px;">' + schoolLinksHtml(s) + '</div>';
     marker.bindPopup(popupHtml);
     clusterGroup.addLayer(marker);
     markerIndex.push({ school: s, marker: marker });
@@ -943,8 +949,9 @@ function renderList(items){
     const tags = (ctrlTag ? '<span class="mini-tag">'+ctrlTag+'</span>' : '') + ((activeRegionKey === 'us' && entry.school.research) ? '<span class="mini-tag">'+entry.school.research+'</span>' : '');
     const displayName = entry.school.alias ? entry.school.alias+' <span style="opacity:.55;font-weight:400;">(formerly '+entry.school.name+')</span>' : entry.school.name;
     const distHtml = (homeLatLng && typeof entry.distMiles === 'number') ? '<div class="row-dist">'+entry.distMiles.toFixed(1)+' mi away</div>' : '';
-    row.innerHTML = '<div class="row-name">'+displayName+'</div><div class="row-loc">'+schoolLocLine(entry.school)+'</div>'+distHtml+'<div class="row-tags">'+tags+'</div>';
-    row.addEventListener('click', function(){
+    row.innerHTML = '<div class="row-name">'+displayName+'</div><div class="row-loc">'+schoolLocLine(entry.school)+'</div>'+distHtml+'<div class="row-tags">'+tags+'</div><div class="row-links">'+schoolLinksHtml(entry.school)+'</div>';
+    row.addEventListener('click', function(e){
+      if(e.target.closest('a')) return;
       programmaticSetView([entry.school.lat, entry.school.lon], 11, { animate:true });
       entry.marker.openPopup();
     });
