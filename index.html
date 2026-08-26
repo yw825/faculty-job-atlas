@@ -576,6 +576,7 @@ let suppressNextMoveEnd = false;
 let boundsFilterActive = false;
 let boundsCenter = null;
 let boundsRadiusMiles = 0;
+let crossRegionActive = false;
 const searchAreaBtn = document.getElementById('search-area-btn');
 
 function programmaticSetView(latlng, zoom, opts){
@@ -597,6 +598,8 @@ searchAreaBtn.addEventListener('click', function(){
   // outside the visible edges still show up, like Google Maps' "search this area".
   boundsRadiusMiles = haversineMiles(b.getNorth(), b.getWest(), b.getSouth(), b.getEast());
   boundsFilterActive = true;
+  crossRegionActive = true;
+  buildMarkers(SCHOOLS.concat(CANADA_SCHOOLS, EUROPE_SCHOOLS, AUSTRALIA_SCHOOLS, NEWZEALAND_SCHOOLS, REGIONS.asia_all.data));
   searchAreaBtn.style.display = 'none';
   applyFilters();
 });
@@ -876,6 +879,10 @@ clearBtn.addEventListener('click', function(){
   stateSelect.value = '';
   fR1.checked = true; fR2.checked = true; fRnone.checked = true;
   boundsFilterActive = false;
+  if(crossRegionActive){
+    crossRegionActive = false;
+    buildMarkers(REGIONS[activeRegionKey].data);
+  }
   searchAreaBtn.style.display = 'none';
   applyFilters();
   if(!homeLatLng) programmaticSetView([39.5,-98.35],4);
@@ -967,6 +974,7 @@ function applyRegion(){
     stateSelect.value = '';
     fR1.checked = true; fR2.checked = true; fRnone.checked = true;
     boundsFilterActive = false;
+    crossRegionActive = false;
     searchAreaBtn.style.display = 'none';
     if(homeMarker) map.removeLayer(homeMarker);
     if(homeCircle) map.removeLayer(homeCircle);
@@ -984,6 +992,7 @@ function applyRegion(){
     comingSoonEl.style.display = 'block';
     mapComingSoonEl.style.display = 'block';
     boundsFilterActive = false;
+    crossRegionActive = false;
     searchAreaBtn.style.display = 'none';
     clusterGroup.clearLayers();
     if(homeMarker) map.removeLayer(homeMarker);
