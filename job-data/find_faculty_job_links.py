@@ -83,12 +83,33 @@ ATS_DOMAINS = {
     "jobs2web.com": "Jobs2Web",
     "hrsmart.com": "HRSmart",
     "applytojob.com": "JazzHR",
+    "schooljobs.com": "NEOGOV",
+    "governmentjobs.com": "NEOGOV",
+    "interviewexchange.com": "InterviewExchange",
+    "wd1.myworkdayjobs.com": "Workday",
+    "interfolio.com": "Interfolio",
+    "symplicity.com": "Symplicity",
+    "workforcenow.adp.com": "ADP",
+    "career-pages.com": "CareerPages",
+    "elluciancrmrecruit.com": "Ellucian",
 }
+
+# NEOGOV (schooljobs.com / governmentjobs.com) supports a universal query-string
+# filter for job category -- appending it turns a generic "all openings" link
+# into one pre-filtered to faculty postings, without needing to crawl further.
+NEOGOV_FACULTY_QUERY = "jobType[0]=Faculty&sort=PositionTitle%7CAscending"
 
 STRONG = [
     r"faculty[\s\-_]?(position|opening|vacanc|job|career)",
     r"academic[\s\-_]?(position|opening|vacanc|job|career)",
 ]
+# NOTE: a bare "\bfaculty\b" tier (matching any link/tag containing just the
+# word "faculty", no job-related suffix) was tried and reverted -- tested
+# against a 35-school regression sample, it swapped several real ATS links
+# for faculty *directory/bio/portfolio* pages (e.g. "/academics/faculty/",
+# "faculty-personnel/uoflfolio") that aren't job postings at all. The STRONG
+# pattern above already requires "faculty" to be paired with a job-related
+# word, which is the safer signal.
 MEDIUM = [
     r"\bcareers?\b", r"\bjobs?\b", r"\bvacanc",
     r"work[\s\-_]?with[\s\-_]?us", r"work[\s\-_]?for[\s\-_]?us",
@@ -103,13 +124,37 @@ NEGATIVE = [
     r"career[\s\-_]?(advi|service|centre|center|develop|coach|counsel|resource|fair|day|readiness)",
     r"\bstudents?\b", r"\badmission", r"apply[\s\-_]?now", r"scholarship",
     r"\bnews\b", r"\bevents?\b", r"donat", r"alumni", r"\blogin\b", r"privacy",
-    r"cookie", r"sitemap", r"\.pdf$", r"internship", r"finding[\s\-_]?a[\s\-_]?job",
+    r"cookie", r"sitemap", r"internship", r"finding[\s\-_]?a[\s\-_]?job",
+    # Bare "faculty" false positives -- these are directories/portals/policy
+    # pages, not job postings.
+    r"faculty[\s\-_]?(senate|handbook|director|resourc|develop|affair|governance|"
+    r"assembly|council|profile|listing|research|publication|award|meeting|minutes|"
+    r"orientation|onboarding)",
+    r"faculty[\s\-_]?(and|&|/)?[\s\-_]?staff",
+    r"meet[\s\-_]?(the|our)[\s\-_]?faculty",
+    r"faculty[\s\-_]?(personnel|portfolio|dossier|contacts?)\b",
 ]
 
 STRONG_RE = [re.compile(p, re.I) for p in STRONG]
 MEDIUM_RE = [re.compile(p, re.I) for p in MEDIUM]
 WEAK_RE = [re.compile(p, re.I) for p in WEAK]
 NEG_RE = [re.compile(p, re.I) for p in NEGATIVE]
+
+# A same-site "jobs." or "careers." subdomain is almost always the actual
+# application portal, more authoritative than a generic informational page
+# on the main domain (e.g. jobs.montevallo.edu vs montevallo.edu/hr/employment).
+JOB_SUBDOMAIN_RE = re.compile(r"^(jobs|careers)\.", re.I)
+
+
+def registrable_domain(host):
+    """Best-effort last-two-labels match; good enough for .edu/.org/.com and
+    handles the common .ac.xx / .edu.xx / .co.xx two-part suffix case too."""
+    parts = host.split(".")
+    if len(parts) < 2:
+        return host
+    if len(parts) >= 3 and parts[-2] in ("ac", "edu", "co", "gov", "org") and len(parts[-1]) == 2:
+        return ".".join(parts[-3:])
+    return ".".join(parts[-2:])
 
 
 def ats_domain_for(url):
@@ -120,27 +165,34 @@ def ats_domain_for(url):
     return None
 
 
-def score_link(href, text):
-    hay = ((href or "") + " " + (text or "")).lower()
+def score_link(href, text, is_job_subdomain=False):
+    href_l = (href or "").lower()
+    if href_l.split("?")[0].split("#")[0].endswith((".pdf", ".doc", ".docx")):
+        return -1
+    hay = (href_l + " " + (text or "")).lower()
     for p in NEG_RE:
         if p.search(hay):
             return -1
     score = 0
     for p in STRONG_RE:
         if p.search(hay):
-            score += 5
+            score += 9
     for p in MEDIUM_RE:
         if p.search(hay):
             score += 2
     for p in WEAK_RE:
         if p.search(hay):
             score += 1
+    if score > 0 and is_job_subdomain:
+        score += 3
     return score
 
 
 def best_link_from_anchors(anchors, final_url):
     best_url, best_score, best_ats = None, 0, None
     seen = set()
+    base_host = urlparse(final_url).netloc.lower()
+    base_root = registrable_domain(base_host)
     for href, text in anchors:
         href = (href or "").strip()
         if not href or href.startswith("#") or href.lower().startswith(("mailto:", "tel:", "javascript:")):
@@ -150,8 +202,13 @@ def best_link_from_anchors(anchors, final_url):
             continue
         seen.add(abs_url)
 
+        cand_host = urlparse(abs_url).netloc.lower()
+        is_job_subdomain = (
+            JOB_SUBDOMAIN_RE.match(cand_host) is not None
+            and registrable_domain(cand_host) == base_root
+        )
         ats = ats_domain_for(abs_url)
-        s = score_link(href, text)
+        s = score_link(href, text, is_job_subdomain)
         if ats and s >= 0:
             # Known ATS domain is a strong signal on its own even if the
             # anchor text/href itself didn't match our keyword patterns.
@@ -163,6 +220,15 @@ def best_link_from_anchors(anchors, final_url):
     if best_url:
         return best_url, best_ats, f"OK:{best_score}"
     return None, None, "NO_MATCH"
+
+
+def apply_neogov_faculty_filter(link, ats):
+    """schooljobs.com / governmentjobs.com support a universal jobType filter
+    -- use it so the link lands pre-filtered to faculty postings."""
+    if ats != "NEOGOV" or not link or "jobType" in link:
+        return link
+    sep = "&" if "?" in link else "?"
+    return link + sep + NEOGOV_FACULTY_QUERY
 
 
 def fetch_anchors_requests(url, timeout=12):
@@ -177,18 +243,23 @@ def fetch_anchors_requests(url, timeout=12):
 def find_link_requests(base_url):
     """Homepage fetch + one extra hop if the best candidate isn't already a
     known ATS domain (schools often link to a 'Careers' hub page that itself
-    links onward to the real ATS portal)."""
+    links onward to the real ATS portal, or to a more specific same-site
+    faculty-postings page)."""
     anchors, final_url = fetch_anchors_requests(base_url)
     link, ats, status = best_link_from_anchors(anchors, final_url)
     if link and not ats:
         try:
             hop_anchors, hop_final = fetch_anchors_requests(link)
             hop_link, hop_ats, hop_status = best_link_from_anchors(hop_anchors, hop_final)
-            if hop_link and hop_ats:
-                return hop_link, hop_ats, f"OK-2hop:{hop_status}"
+            # Accept any hop result, not just ones that land on a known ATS --
+            # a same-site sub-page found by keyword score alone (e.g. a
+            # "faculty-careers" page) is still more specific than the generic
+            # hub page we started from.
+            if hop_link:
+                link, ats, status = hop_link, hop_ats, f"OK-2hop:{hop_status}"
         except Exception:
             pass
-    return link, ats, status
+    return apply_neogov_faculty_filter(link, ats), ats, status
 
 
 def process_row_requests(row):
@@ -230,10 +301,11 @@ def process_row_playwright(context, row):
                 )
                 hop_link, hop_ats, hop_status = best_link_from_anchors(hop_anchors, page2.url)
                 page2.close()
-                if hop_link and hop_ats:
+                if hop_link:
                     link, ats, status = hop_link, hop_ats, f"OK-2hop:{hop_status}"
             except Exception:
                 pass
+        link = apply_neogov_faculty_filter(link, ats)
         row["careers_link"] = link or ""
         row["ats_platform"] = ats or ""
         row["confidence"] = "high" if ats else ("medium" if link else "not_found")
