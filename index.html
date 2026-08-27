@@ -567,9 +567,9 @@ const EUROPE_SCHOOLS = [{"name":"University of Innsbruck","city":"Innsbruck","st
 
 const map = L.map('map', { zoomControl:false, minZoom:3, maxZoom:14 }).setView([20,10],3);
 L.control.zoom({position:'bottomright'}).addTo(map);
-L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',{
-  attribution:'&copy; OpenStreetMap contributors &copy; CARTO',
-  subdomains:'abcd',
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
+  attribution:'&copy; OpenStreetMap contributors',
+  subdomains:'abc',
   maxZoom:19
 }).addTo(map);
 
