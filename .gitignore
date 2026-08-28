@@ -3,3 +3,5 @@ Thumbs.db
 *.log
 .vscode/
 __pycache__/
+job-data/*.xlsx
+job-data/~$*

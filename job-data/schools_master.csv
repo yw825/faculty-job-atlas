@@ -4,140 +4,127 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes
 3,University of Alaska Fairbanks,US,https://www.uaf.edu/,https://careers.alaska.edu/jobs/search/faculty-jobs?page=1&cities%5B%5D=Fairbanks&query=,,medium,OK:4
 4,Athens State University,US,https://www.athens.edu/,https://www.athens.edu/about/offices/human-resources/employment-opportunities/,,medium,OK:4
 5,Auburn University,US,https://www.auburn.edu/,https://jobs.auburn.edu/auburn-careers-home/jobs?tags2=Faculty&page=1,,medium,OK:4
-6,Birmingham-Southern College,US,https://www.bsc.edu/,,,not_found,NO_MATCH [playwright]
 7,Samford University,US,https://www.samford.edu/,https://www.samford.edu/employee/faculty-employment-opportunities/default,,medium,OK:3
-9,University of Alabama at Birmingham,US,https://www.uab.edu/,https://uab.taleo.net/careersection/saml20authnrequestservlet.jss?redirectionURI=https%3A%2F%2Fuab.taleo.net%2Fcareersection%2Fint%2Fjobsearch.ftl%3Flang%3Denr,Taleo,high,OK-2hop:OK:8
 11,University of North Alabama,US,https://www.una.edu/,https://www.schooljobs.com/careers/una?jobType[0]=Faculty&sort=PositionTitle%7CAscending,,medium,OK:4
 13,University of Alabama in Huntsville,US,https://www.uah.edu/,https://www.uah.edu/hr/careers/faculty-careers,,medium,OK:3
 14,Jacksonville State University,US,https://www.jsu.edu/,https://careers.jsu.edu/jobs/search?page=1&category_uids%5B%5D=6221c7f16b88a1e8462b2d492ce7977f&query=,,medium,OK:4
 15,University of West Alabama,US,https://www.uwa.edu/,https://www.uwa.edu/employment/,,medium,OK-2hop:OK:2
-17,University of Mobile,US,https://www.umobile.edu/,,,not_found,playwright_failed:Error
 18,University of South Alabama,US,https://www.southalabama.edu/,https://www.southalabama.edu/departments/academicaffairs/facultyposition.html,PeopleAdmin,high,OK-2hop:OK:8
-19,University of Montevallo,US,https://www.montevallo.edu/,https://jobs.montevallo.edu/postings/search?utf8=%E2%9C%93&query=&query_v0_posted_at_date=&query_organizational_tier_3_id=any&440=&query_position_type_id=2&commit=Search,,medium,OK:3
+19,University of Montevallo,US,https://www.montevallo.edu/,https://jobs.montevallo.edu/postings/search?utf8=%E2%9C%93&query=&query_v0_posted_at_date=&query_organizational_tier_3_id%5B%5D=any&440=&query_position_type_id%5B%5D=2&commit=Search,,medium,OK:3
 21,Amridge University,US,https://www.amridgeuniversity.edu/,http://www.amridgeuniversity.edu/about/employment/,,medium,OK:2
 22,Auburn University at Montgomery,US,https://www.aum.edu/,https://jobs.aum.edu/aum-careers-home/jobs?tags2=Faculty,,medium,OK-2hop:OK:16
-23,Faulkner University,US,https://www.faulkner.edu/,https://faulkner-iccjjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1,Oracle Recruiting Cloud,high,OK-2hop:OK:6
-24,Huntingdon College,US,https://www.huntingdon.edu/,https://www.huntingdon.edu/employment,,medium,OK-2hop:OK:2
-28,Troy University,US,https://www.troy.edu/,https://troy.elluciancrmrecruit.com/Apply/Account/Create?f=828409d2-062d-4318-80cb-85471106d03c&o=9546639b-7b35-4a84-bc54-b9e7a19d498b&s=8b75c52e-78cc-e211-ad51-6cae8b666252&IsInquiry=True,Ellucian,high,OK:7
+28,Troy University,US,https://www.troy.edu/,https://www.troyuniversityjobs.com/postings/search?utf8=%E2%9C%93&query=&query_v0_posted_at_date=&3481%5B%5D=3&225=&435=&commit=Search,Ellucian,high,OK:7
 30,The University of Alabama,US,https://www.ua.edu/,https://careers.ua.edu/faculty,,medium,OK-2hop:OK:16
 32,Henderson State University,US,https://www.hsu.edu/,https://phe.tbe.taleo.net/phe02/ats/careers/v2/jobSearch?act=redirectCwsV2&cws=48&org=ARKASTAT2,Taleo,high,OK-2hop:OK:13
 34,Lyon College,US,https://www.lyon.edu/,http://www.lyon.edu/employment,,medium,OK-2hop:OK:5
 35,University of the Ozarks,US,https://ozarks.edu/,https://ozarks.edu/about/employment/,,medium,OK-2hop:OK:2
-37,Hendrix College,US,https://www.hendrix.edu/,https://hendrix-csm.symplicity.com/,Symplicity,high,OK-2hop:OK:6
-38,University of Central Arkansas,US,https://www.uca.edu/,https://jobs.uca.edu:443/postings/search,,medium,OK-2hop:OK:5
-39,University of Arkansas,US,https://www.uark.edu/,https://uasys.wd5.myworkdayjobs.com/UAF_External_Career_Site,Workday,high,OK-2hop:OK:6
+37,Hendrix College,US,https://www.hendrix.edu/,https://www.hendrix.edu/humanresources/jobs.aspx,Symplicity,high,OK-2hop:OK:6
+38,University of Central Arkansas,US,https://www.uca.edu/,https://jobs.uca.edu/postings/search?utf8=%E2%9C%93&query=&query_v0_posted_at_date=&435=&225=&query_position_type_id%5B%5D=1&commit=Search,,medium,OK-2hop:OK:5
+39,University of Arkansas,US,https://www.uark.edu/,https://uasys.wd5.myworkdayjobs.com/UAF_External_Career_Site?jobFamilyGroup=eaddfab9343f0113688d32d525e70000,Workday,high,OK-2hop:OK:6
 40,University of Arkansas-Fort Smith,US,https://uafs.edu/,https://uasys.wd5.myworkdayjobs.com/UASYS?locations=764b2d014314010f624ed3006e08cec1,Workday,high,OK:8
-41,Arkansas State University,US,https://www.astate.edu/,https://phe.tbe.taleo.net/phe02/ats/careers/v2/jobSearch?act=redirectCwsV2&cws=56&org=ARKASTAT2,Taleo,high,OK-2hop:OK:10
+41,Arkansas State University,US,https://www.astate.edu/,https://phe.tbe.taleo.net/phe02/ats/careers/v2/searchResults?org=ARKASTAT2&cws=56&act=sort&sortColumn=1&sortOrder=A,Taleo,high,OK-2hop:OK:10
 42,University of Arkansas Grantham,US,https://www.uagrantham.edu/,https://uasys.wd5.myworkdayjobs.com/UASYS?q=grantham,Workday,high,OK-2hop:OK:9
 46,University of Arkansas at Little Rock,US,https://ualr.edu/www/,https://uasys.wd5.myworkdayjobs.com/UASYS?hiringCompany=720b21cbdf2401e26b5b1759c4019006&locations=17a66cdad982014d322b8c49ca003c4a&timeType=8676082fcc89011e20fa6c2e71495700,Workday,high,OK:8 [playwright]
 47,Southern Arkansas University Main Campus,US,https://www.saumag.edu/,https://www.saumag.edu/human-resources/category/employment-opportunities/faculty-positions/,,medium,OK-2hop:OK:13
-48,Crowley's Ridge College,US,https://www.crc.edu/,https://crc.edu/ministry-connections/,,medium,OK-2hop:OK:3
-54,Northern Arizona University,US,https://nau.edu/,https://nau.edu/areas-of-interest/healthcare/,,medium,OK-2hop:OK:2
-61,Embry-Riddle Aeronautical University-Prescott,US,https://prescott.erau.edu/,https://embryriddle.wd1.myworkdayjobs.com/External,Workday,high,OK-2hop:OK:8
-62,Arizona State University Digital Immersion,US,https://www.asu.edu/,https://cfo.asu.edu/career-architecture,,medium,OK-2hop:OK:4
-63,Arizona State University Campus Immersion,US,https://www.asu.edu/,https://cfo.asu.edu/career-architecture,,medium,OK-2hop:OK:4
-65,University of Arizona,US,https://www.arizona.edu/,https://arizona.csod.com/ux/ats/careersite/4/home?c=arizona,Cornerstone OnDemand,high,OK-2hop:OK:8
-66,Bethesda University,US,https://www.buc.edu/,,,not_found,NO_MATCH [playwright]
+54,Northern Arizona University,US,https://nau.edu/,https://careers.nau.edu/jobs/search?page=1&category_uids%5B%5D=16877518cdbd46262a1b4a995c2a65c2&query=,,medium,OK-2hop:OK:2
+61,Embry-Riddle Aeronautical University-Prescott,US,https://prescott.erau.edu/,https://embryriddle.wd1.myworkdayjobs.com/External?workerSubType=ac0092a9a0de01b90ceaa516fb097e1d,Workday,high,OK-2hop:OK:8
+62,Arizona State University Digital Immersion,US,https://www.asu.edu/,https://facultypositions.asu.edu/#/api/Home/_InterfolioPostings,,medium,OK-2hop:OK:4
+63,Arizona State University Campus Immersion,US,https://www.asu.edu/,https://facultypositions.asu.edu/#/api/Home/_InterfolioPostings,,medium,OK-2hop:OK:4
+65,University of Arizona,US,https://www.arizona.edu/,https://arizona.csod.com/ux/ats/careersite/4/home?c=arizona&cfdd[0][id]=227&cfdd[0][options][0]=306,Cornerstone OnDemand,high,OK-2hop:OK:8
 67,Pacific Union College,US,https://www.puc.edu/,https://www.puc.edu/campus-services/human-resources/faculty-job-postings,,medium,OK-2hop:OK:12 [playwright]
-68,California State Polytechnic University-Humboldt,US,https://www.humboldt.edu/,https://careers.humboldt.edu/hm/en-us/filter/?work-type=staff,,medium,OK-2hop:OK:8
-69,Menlo College,US,https://www.menlo.edu/,https://www.menlo.edu/employment-opportunities/adjunct-instructors-psychology/,,medium,OK-2hop:OK:3
-72,California State University-Bakersfield,US,https://www.csub.edu/,https://www.csub.edu/hr/careers.shtml,,medium,OK-2hop:OK:3
-73,Notre Dame de Namur University,US,https://www.ndnu.edu/,https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=fde135bd-bf6a-4ebd-965f-43a1d08a2241&ccId=19000101_000001&jobId=549231&source=CC2&lang=en_US,ADP,high,OK-2hop:OK:7
-74,University of California-Berkeley,US,https://www.berkeley.edu/,http://jobs.berkeley.edu/,,medium,OK-2hop:OK:5
+68,California State Polytechnic University-Humboldt,US,https://www.humboldt.edu/,https://careers.humboldt.edu/hm/en-us/filter/?work-type=faculty,,medium,OK-2hop:OK:8
+69,Menlo College,US,https://www.menlo.edu/,https://www.menlo.edu/employment-opportunities/,,medium,OK-2hop:OK:3
+72,California State University-Bakersfield,US,https://www.csub.edu/,https://careers.csub.edu/en-us/filter/?search-keyword=&work-type=instructional%20faculty%20-%20temporary%2flecturer&work-type=instructional%20faculty%20%e2%80%93%20tenured%2ftenure-track&work-type=instructional%20student%20assistant&work-type=non-instructional%20faculty%20(coach%2fcounselor%2flibrarian)&work-type=teaching%20associate&job-mail-subscribe-privacy=agree,,medium,OK-2hop:OK:3
+73,Notre Dame de Namur University,US,https://www.ndnu.edu/,https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=fde135bd-bf6a-4ebd-965f-43a1d08a2241&ccId=19000101_000001&source=CC2&lang=en_US&selectedMenuKey=CurrentOpenings,ADP,high,OK-2hop:OK:7
+74,University of California-Berkeley,US,https://www.berkeley.edu/,https://aprecruit.berkeley.edu/apply,,medium,OK-2hop:OK:5
 75,Woodbury University,US,https://woodbury.edu/,https://woodbury.edu/about/people/employment-opportunities/,,medium,OK-2hop:OK:5
-76,California State University-Channel Islands,US,https://www.csuci.edu/,https://www.csuci.edu/careers/index.html,,medium,OK-2hop:OK:2
-77,California State University-Dominguez Hills,US,https://www.csudh.edu/,https://www.csudh.edu/hr/career-opportunities/,,medium,OK-2hop:OK:4
-78,California State University-Chico,US,https://www.csuchico.edu/,https://www.csuchico.edu/about/job-opportunities.shtml,,medium,OK-2hop:OK:5
-79,Claremont McKenna College,US,https://www.cmc.edu/,https://theclaremontcolleges.wd1.myworkdayjobs.com/CMC_Staff,Workday,high,OK-2hop:OK:9
-80,Harvey Mudd College,US,https://www.hmc.edu/,https://theclaremontcolleges.wd1.myworkdayjobs.com/HMC_Careers,Workday,high,OK-2hop:OK:9
+76,California State University-Channel Islands,US,https://www.csuci.edu/,https://jobs.csuci.edu/en-us/listing/,,medium,OK-2hop:OK:2
+77,California State University-Dominguez Hills,US,https://www.csudh.edu/,https://careers.csudh.edu/en-us/filter/?ie=utf-8&q=&search-keyword=&work-type=instructional%20faculty%20-%20temporary%2flecturer&work-type=instructional%20faculty%20%e2%80%93%20tenured%2ftenure-track&work-type=non-instructional%20faculty%20(coach%2fcounselor%2flibrarian)&category=unit%203%20-%20cfa%20-%20california%20faculty%20association&category=faculty&job-mail-subscribe-privacy=agree,,medium,OK-2hop:OK:4
+78,California State University-Chico,US,https://www.csuchico.edu/,https://jobs.csuchico.edu/en-us/filter/?search-keyword=&work-type=instructional%20faculty%20-%20temporary%2flecturer&work-type=instructional%20faculty%20%E2%80%93%20tenured%2ftenure-track&work-type=visiting%20faculty&work-type=non-instructional%20faculty%20(coach/Counselor/librarian)&job-mail-subscribe-privacy=agree&_gl=1*nuuf33*global_ga*Nzc4ODA3ODIwLjE3ODc4NzUwODE.*global_ga_VM2YX7L78G*czE3ODc4NzUwODAkbzEkZzEkdDE3ODc4NzUwOTAkajUwJGwwJGgw,,medium,OK-2hop:OK:5
+79,Claremont McKenna College,US,https://www.cmc.edu/,https://webapps.cmc.edu/jobs/faculty/faculty_opening.php,Workday,high,OK-2hop:OK:9
+80,Harvey Mudd College,US,https://www.hmc.edu/,https://www.hmc.edu/dean-of-faculty/available-faculty-positions/,Workday,high,OK-2hop:OK:9
 81,Pitzer College,US,https://www.pitzer.edu/,https://academicjobsonline.org/ajo/Pitzer%20College/Office%20of%20the%20Dean%20of%20Faculty,,medium,OK-2hop:OK:18
 82,Pomona College,US,https://www.pomona.edu/,https://www.pomona.edu/administration/academic-dean/faculty-jobs,,medium,OK-2hop:OK:14
 83,Scripps College,US,https://www.scrippscollege.edu/,http://www.scrippscollege.edu/hr/faculty,,medium,OK-2hop:OK:12
-84,Vanguard University of Southern California,US,https://www.vanguard.edu/,https://www.vanguard.edu/resources/human-resources/vu-careers,,medium,OK-2hop:OK:3
-85,University of California-Davis,US,https://ucdavis.edu/,,,not_found,NO_MATCH [playwright]
-87,California State University-Fresno,US,https://www.fresnostate.edu/,https://president.fresnostate.edu/opportunities-for-all.html,,medium,OK-2hop:OK:1
-88,Fresno Pacific University,US,https://www.fresno.edu/,https://www.fresno.edu/about/disclosures/gainful-employment,,medium,OK-2hop:OK:2
-89,California State University-Fullerton,US,https://www.fullerton.edu/,https://a.cms.omniupdate.com/11/?skin=csufullerton&account=IT_HR&site=HR-v5&action=de&path=/workforce/careers.pcf,,medium,OK-2hop:OK:3
-90,Hope International University,US,https://www.hiu.edu/,https://www.hiu.edu/churches/ministry-opportunity-network.php,,medium,OK-2hop:OK:2
-91,California State University-East Bay,US,https://www.csueastbay.edu/,https://careers.pageuppeople.com/873/eb/en-us/listing/,PageUp,high,OK-2hop:OK:13
-93,University of California-Irvine,US,https://www.uci.edu/,https://jobs.uci.edu/careers-temporary-services,,medium,OK-2hop:OK:7
+84,Vanguard University of Southern California,US,https://www.vanguard.edu/,https://www.vanguard.edu/resources/human-resources/vu-careers?post_category_id=165,,medium,OK-2hop:OK:3
+85,University of California-Davis,US,https://ucdavis.edu/,https://recruit.ucdavis.edu/apply?_gl=1*1802h74*_gcl_au*MTUyNDgyMzMzMy4xNzg3ODc1NDE4*_ga*MTE2MzE3NjkzLjE3ODc4NzU0MTg.*_ga_2N9JP0W2PC*czE3ODc4NzU0MTgkbzEkZzAkdDE3ODc4NzU0MjAkajU4JGwwJGgw,,not_found,NO_MATCH [playwright]
+87,California State University-Fresno,US,https://www.fresnostate.edu/,https://careers.fresnostate.edu/en-us/filter/?search-keyword=&job-mail-subscribe-privacy=agree&work-type=instructional%20faculty%20-%20temporary%2flecturer&work-type=instructional%20faculty%20%e2%80%93%20tenured%2ftenure-track&work-type=non-instructional%20faculty%20(coach%2fcounselor%2flibrarian)&work-type=teaching%20associate&location=&category=,,medium,OK-2hop:OK:1
+88,Fresno Pacific University,US,https://www.fresno.edu/,https://www.schooljobs.com/careers/fresnoedu,,medium,OK-2hop:OK:2
+89,California State University-Fullerton,US,https://www.fullerton.edu/,https://careers.pageuppeople.com/873/fl/en-us/filter/?search-keyword=&work-type=instructional%20faculty%20%e2%80%93%20tenured%2ftenure-track&job-mail-subscribe-privacy=agree,,medium,OK-2hop:OK:3
+91,California State University-East Bay,US,https://www.csueastbay.edu/,https://careers.pageuppeople.com/873/eb/en-us/filter/?job-mail-subscribe-privacy=agree&search-keyword=&work-type=instructional%20faculty%20-%20temporary%2flecturer&work-type=instructional%20faculty%20%e2%80%93%20tenured%2ftenure-track,PageUp,high,OK-2hop:OK:13
+93,University of California-Irvine,US,https://www.uci.edu/,https://jobs.uci.edu/careers-home/jobs,,medium,OK-2hop:OK:7
 94,University of Massachusetts Global,US,https://www.umassglobal.edu/,https://umassglobal.wd5.myworkdayjobs.com/UMassGlobalCareers,Workday,high,OK-2hop:OK:6
-95,University of California-San Diego,US,https://www.ucsd.edu/,https://employment.ucsd.edu/uc-san-diego-careers,,medium,OK-2hop:OK:4
-97,University of La Verne,US,https://www.laverne.edu/,https://www.laverne.edu/hr,,medium,OK:4 [playwright]
-98,California State University-Long Beach,US,https://www.csulb.edu/,http://web.csulb.edu/divisions/aa/personnel/jobs,,medium,OK-2hop:OK:5
-100,California State University-Los Angeles,US,https://www.calstatela.edu/,,,not_found,NO_MATCH [playwright]
-101,Loyola Marymount University,US,https://www.lmu.edu/,https://careers.lmu.edu/resources/job-search-academy-by-indeed/,,medium,OK-2hop:OK:7
+95,University of California-San Diego,US,https://www.ucsd.edu/,https://apol-recruit.ucsd.edu/apply,,medium,OK-2hop:OK:4
+97,University of La Verne,US,https://www.laverne.edu/,https://laverne.peopleadmin.com/postings/search?utf8=%E2%9C%93&query=&query_v0_posted_at_date=&341=&query_position_type_id%5B%5D=2&343=&commit=Search,,medium,OK:4 [playwright]
+98,California State University-Long Beach,US,https://www.csulb.edu/,https://csucareers.calstate.edu/en-us/filter/?=&leftNavSearchFormQuery=&=&search=&search-keyword=&job-mail-subscribe-privacy=agree&work-type=instructional%20faculty%20-%20temporary%2flecturer&work-type=instructional%20faculty%20%e2%80%93%20tenured%2ftenure-track&location=long%20beach&job-mail-subscribe-privacy=agree,,medium,OK-2hop:OK:5
+100,California State University-Los Angeles,US,https://www.calstatela.edu/,https://csucareers.calstate.edu/en-us/filter/?=&leftNavSearchFormQuery=&=&search=&search-keyword=&job-mail-subscribe-privacy=agree&work-type=instructional%20faculty%20-%20temporary%2flecturer&work-type=instructional%20faculty%20%e2%80%93%20tenured%2ftenure-track&location=los%20angeles&job-mail-subscribe-privacy=agree,,not_found,NO_MATCH [playwright]
 102,Mount Saint Mary's University,US,https://www.msmu.edu/,https://www.msmu.edu/about-the-mount/university-offices/administration--finance/human-resources/employment-opportunities/,,medium,OK-2hop:OK:4
-103,Occidental College,US,https://www.oxy.edu/,https://www.oxy.edu/about-oxy/stories/collrane-frivold-15,,medium,OK-2hop:OK:4
+103,Occidental College,US,https://www.oxy.edu/,https://www.oxy.edu/working-oxy/faculty-positions,,medium,OK-2hop:OK:4
 104,Pacific States University,US,https://www.psuca.edu/,https://psuca.edu/jobs-opportunities/,,medium,OK:3 [playwright]
-105,University of California-Los Angeles,US,https://www.ucla.edu/,https://recruit.apo.ucla.edu/,,medium,OK-2hop:OK:10
-106,University of Southern California,US,https://www.usc.edu/,https://wd5.myworkday.com/usc/d/task/2998$42366.htmld?q=browse+jobs&state=searchCategory-all%3Adefault,Workday,high,OK-2hop:OK:8
-107,Pepperdine University,US,https://www.pepperdine.edu/,https://jobs.pepperdine.edu/jobs/search/temporary-opportunities?page=1&employment_type_uids%5B%5D=0029c777b81f465081aef0c6e21bfd6a&query=,,medium,OK-2hop:OK:8
-108,University of California-Merced,US,https://ucmerced.edu/,,,not_found,playwright_failed:TimeoutError
+105,University of California-Los Angeles,US,https://www.ucla.edu/,https://recruit.apo.ucla.edu/apply,,medium,OK-2hop:OK:10
+106,University of Southern California,US,https://www.usc.edu/,https://usccareers.usc.edu/search-jobs,Workday,high,OK-2hop:OK:8
+107,Pepperdine University,US,https://www.pepperdine.edu/,https://jobs.pepperdine.edu/jobs/search/temporary-opportunities?page=1&dropdown_field_3_uids%5B%5D=dcaa7a03ab89b8b42952f428d59046b3&query=,,medium,OK-2hop:OK:8
+108,University of California-Merced,US,https://ucmerced.edu/,https://aprecruit.ucmerced.edu/apply,,not_found,playwright_failed:TimeoutError
 109,Saint Mary's College of California,US,https://www.stmarys-ca.edu/,https://www.stmarys-ca.edu/offices-services/academic-affairs/faculty-openings,,medium,OK-2hop:OK:9
-110,California State University-Northridge,US,https://www.csun.edu/,https://careers.pageuppeople.com/873/nr/en-us/listing/,PageUp,high,OK-2hop:OK:11
-111,Holy Names University,US,https://www.hnu.edu/,,,not_found,NO_MATCH [playwright]
-114,Chapman University,US,https://www.chapman.edu/,https://www.chapman.edu/academics/undergraduate/entrepreneurship.aspx,,medium,OK-2hop:OK:1
+110,California State University-Northridge,US,https://www.csun.edu/,https://careers.pageuppeople.com/873/nr/en-us/filter/?search-keyword=&work-type=instructional%20faculty%20%e2%80%93%20tenured%2ftenure-track&job-mail-subscribe-privacy=agree,PageUp,high,OK-2hop:OK:11
+114,Chapman University,US,https://www.chapman.edu/,https://apply.interfolio.com/44328/positions,,medium,OK-2hop:OK:1
 115,California Institute of Technology,US,https://www.caltech.edu/,https://phf.tbe.taleo.net/phf03/ats/careers/v2/jobSearch?act=redirectCwsV2&cws=37&org=CALTECH,Taleo,high,OK-2hop:OK:10
-116,California State Polytechnic University-Pomona,US,https://www.cpp.edu/,https://www.cpp.edu/aboutcpp/polyx.shtml,,medium,OK:2
+116,California State Polytechnic University-Pomona,US,https://www.cpp.edu/,https://careers.cpp.edu/po/en-us/filter/?search-keyword=&work-type=instructional%20faculty%20-%20temporary%2flecturer&work-type=instructional%20faculty%20%e2%80%93%20tenured%2ftenure-track&job-mail-subscribe-privacy=agree,,medium,OK:2
 117,Simpson University,US,https://www.simpsonu.edu/,https://secure.onehcm.com/ta/Simpson.careers?CareersSearch&InFrameset=1&HostedBy=simpsonu.edu,,medium,OK-2hop:OK:5
-118,University of Redlands,US,https://www.redlands.edu/,https://recruiting2.ultipro.com/UNI1089UOR/JobBoard/6af23b67-9dd3-4a6a-bda1-676b92a4fcb4/?q=&o=postedDateDesc&w=&wc=&we=&wpst=,UKG/Ultipro,high,OK-2hop:OK:9
-120,La Sierra University,US,https://lasierra.edu/,https://lasierracareers.silkroad.com/lasierraext/EmploymentListings/Create_a_Job_Agent.html,,medium,OK-2hop:OK:4
-121,University of California-Riverside,US,https://www.ucr.edu/,https://jobs.ucr.edu,,medium,OK-2hop:OK:8
-122,William Jessup University,US,https://www.jessup.edu/,https://jessup.edu/employment/,,medium,OK-2hop:OK:4
-123,Sonoma State University,US,https://sonoma.edu/,https://www.sonoma.edu/employment,,medium,OK:2 [playwright]
-124,University of the West,US,https://www.uwest.edu/,https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=31cd0b73-92c3-4ed2-84f8-5a6de61f8f2c&ccId=19000101_000001&jobId=551736&lang=en_US&source=CC2,ADP,high,OK-2hop:OK:7
-125,California State University-Sacramento,US,https://www.csus.edu/,https://careers.csus.edu/en-us/listing/,,medium,OK:5
-126,California State University-San Bernardino,US,https://www.csusb.edu/,https://careers.csusb.edu/sb/en-us/listing/,,medium,OK:7
+118,University of Redlands,US,https://www.redlands.edu/,https://recruiting2.ultipro.com/UNI1089UOR/JobBoard/6af23b67-9dd3-4a6a-bda1-676b92a4fcb4/?q=&o=postedDateDesc&w=&wc=&we=&wpst=&f5=2751WKaSbU2nBtQmI-bCAA,UKG/Ultipro,high,OK-2hop:OK:9
+121,University of California-Riverside,US,https://www.ucr.edu/,https://aprecruit.ucr.edu/apply,,medium,OK-2hop:OK:8
+123,Sonoma State University,US,https://sonoma.edu/,https://employment.sonoma.edu/en-us/filter/?search-keyword=&work-type=instructional%20faculty%20-%20temporary%2flecturer&job-mail-subscribe-privacy=agree,,medium,OK:2 [playwright]
+124,University of the West,US,https://www.uwest.edu/,https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=31cd0b73-92c3-4ed2-84f8-5a6de61f8f2c&ccId=19000101_000001&lang=en_US&source=CC2&selectedMenuKey=CurrentOpenings,ADP,high,OK-2hop:OK:7
+125,California State University-Sacramento,US,https://www.csus.edu/,https://careers.csus.edu/en-us/filter/?job-mail-subscribe-privacy=agree&search-keyword=&work-type=instructional%20faculty%20-%20temporary%2flecturer&work-type=instructional%20faculty%20%e2%80%93%20tenured%2ftenure-track,,medium,OK:5
+126,California State University-San Bernardino,US,https://www.csusb.edu/,https://careers.csusb.edu/sb/en-us/filter/?job-mail-subscribe-privacy=agree&search-keyword=&work-type=instructional%20faculty%20-%20temporary%2flecturer&work-type=instructional%20faculty%20%e2%80%93%20tenured%2ftenure-track,,medium,OK:7
 129,National University,US,https://www.nu.edu/,https://nus.wd1.myworkdayjobs.com/en-US/Careers,Workday,high,OK-2hop:OK:8
-131,Northcentral University,US,https://www.nu.edu/,https://nus.wd1.myworkdayjobs.com/en-US/Careers,Workday,high,OK-2hop:OK:8
-133,San Diego State University,US,https://www.sdsu.edu/,https://careers-sdsurf.icims.com/jobs/intro?hashed=-435770521&mobile=false&width=800&height=500&bga=true&needsRedirect=false&jan1offset=-480&jun1offset=-420,iCIMS,high,OK-2hop:OK:12
+131,Northcentral University,US,https://www.nu.edu/,https://www.northcentral.edu/about/employment/current-job-openings/,Workday,high,OK-2hop:OK:8
+133,San Diego State University,US,https://www.sdsu.edu/,https://careers.sdsu.edu/en-us/filter/?search-keyword=&work-type=instructional%20faculty%20-%20temporary%2flecturer&work-type=instructional%20faculty%20%e2%80%93%20tenured%2ftenure-track&job-mail-subscribe-privacy=agree,iCIMS,high,OK-2hop:OK:12
 135,University of San Diego,US,https://www.sandiego.edu/,https://www.sandiego.edu/outcomes/careers/,,medium,OK-2hop:OK:2 [playwright]
-136,Los Angeles Pacific University,US,https://www.lapu.edu/,https://www.lapu.edu/discover-your-ideal-career-path,,medium,OK-2hop:OK:2
 138,Golden Gate University,US,https://www.ggu.edu/,https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=1A449B35167BB40706C055A54E4FB0DA,,medium,OK-2hop:OK:4
-139,San Francisco State University,US,https://www.sfsu.edu/,https://eop.sfsu.edu,,medium,OK:1
-140,University of San Francisco,US,https://www.usfca.edu/,https://wd5.myworkday.com/usfca/d/task/1422$490.htmld,Workday,high,OK-2hop:OK:8
-141,San Jose State University,US,https://www.sjsu.edu/,,,not_found,NO_MATCH [playwright]
-143,California Polytechnic State University-San Luis Obispo,US,https://calpoly.edu/,http://jobs.calpoly.edu/sl/en-us/listing/,,medium,OK-2hop:OK:5
-144,California State University-San Marcos,US,https://www.csusm.edu/,https://www.csusm.edu/facultyopportunities/index.html,,medium,OK-2hop:OK:12
-145,Dominican University of California,US,https://www.dominican.edu/,https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=379D25BEB04D4E67539308A7BD902D82,,medium,OK-2hop:OK:4
-146,University of California-Santa Barbara,US,https://www.ucsb.edu/,https://recruit.ap.ucsb.edu/,,medium,OK-2hop:OK:10
-147,Westmont College,US,https://www.westmont.edu/,https://www.westmont.edu/human-resources/prospective-employees/staff-employment-opportunities,,medium,OK-2hop:OK:4
-148,Santa Clara University,US,https://www.scu.edu/,https://www.scu.edu/hr/careers/temporary-employment/,,medium,OK-2hop:OK:5
-150,University of California-Santa Cruz,US,https://www.ucsc.edu/,https://jobs.ucsc.edu,,medium,OK:7 [playwright]
-152,California State University-Monterey Bay,US,https://csumb.edu/,https://careers.csumb.edu/en-us/listing/,,medium,OK:7
-153,Stanford University,US,https://www.stanford.edu/,https://facultypositions.stanford.edu/jobs/search?category_uids%5B%5D=56aa9c0e682959032bbc95538ccd551f,,medium,OK-2hop:OK:11
+139,San Francisco State University,US,https://www.sfsu.edu/,https://careers.pageuppeople.com/873/sf/en-us/filter/?search-keyword=&job-mail-subscribe-privacy=agree,,medium,OK:1
+140,University of San Francisco,US,https://www.usfca.edu/,https://usfca.wd5.myworkdayjobs.com/USF_Full-Time_Faculty,Workday,high,OK-2hop:OK:8
+141,San Jose State University,US,https://www.sjsu.edu/,https://jobs.sjsu.edu/en-us/filter/?search-keyword=&work-type=instructional%20faculty%20-%20temporary%2flecturer&work-type=instructional%20faculty%20%e2%80%93%20tenured%2ftenure-track&job-mail-subscribe-privacy=agree,,not_found,NO_MATCH [playwright]
+143,California Polytechnic State University-San Luis Obispo,US,https://calpoly.edu/,https://jobs.calpoly.edu/sl/en-us/filter/?search-keyword=&work-type=instructional%20faculty%20-%20temporary%2flecturer&work-type=instructional%20faculty%20%e2%80%93%20tenured%2ftenure-track&job-mail-subscribe-privacy=agree,,medium,OK-2hop:OK:5
+144,California State University-San Marcos,US,https://www.csusm.edu/,https://careersmanager.pageuppeople.com/873/sm/en-us/filter/?job-mail-subscribe-privacy=agree&search-keyword=&work-type=instructional%20faculty%20-%20temporary%2flecturer&work-type=instructional%20faculty%20%e2%80%93%20tenured%2ftenure-track,,medium,OK-2hop:OK:12
+145,Dominican University of California,US,https://www.dominican.edu/,https://www.paycomonline.net/v4/ats/web.php/portal/379D25BEB04D4E67539308A7BD902D82/career-page,,medium,OK-2hop:OK:4
+146,University of California-Santa Barbara,US,https://www.ucsb.edu/,http://recruit.ap.ucsb.edu/apply,,medium,OK-2hop:OK:10
+147,Westmont College,US,https://www.westmont.edu/,https://www.westmont.edu/office-provost/open-positions,,medium,OK-2hop:OK:4
+148,Santa Clara University,US,https://www.scu.edu/,https://wd1.myworkdaysite.com/recruiting/scu/scu?jobFamilyGroup=e834aa15daf9010b7a0b3994871b132d,,medium,OK-2hop:OK:5
+150,University of California-Santa Cruz,US,https://www.ucsc.edu/,https://recruit.ucsc.edu/apply,,medium,OK:7 [playwright]
+152,California State University-Monterey Bay,US,https://csumb.edu/,https://careers.csumb.edu/en-us/filter/?search-keyword=&job-mail-subscribe-privacy=agree,,medium,OK:7
+153,Stanford University,US,https://www.stanford.edu/,https://facultypositions.stanford.edu/jobs/search?page=1&query=,,medium,OK-2hop:OK:11
 154,Humphreys University-Stockton and Modesto Campuses,US,https://www.humphreys.edu/,https://www.humphreys.edu/career-opportunities/,,medium,OK-2hop:OK:3
-155,University of the Pacific,US,https://www.pacific.edu/,https://pacific.peopleadmin.com/postings/search?utf8=✓&query=&query_v0_posted_at_date=&1195%5B%5D=any&query_position_type_id%5B%5D=6&commit=Search,PeopleAdmin,high,OK-2hop:OK:11
-156,California Lutheran University,US,https://www.callutheran.edu/,https://careers.callutheran.edu/?utm_source=callutheran.edu&utm_medium=referral&utm_campaign=callutheran.edu,,medium,OK-2hop:OK:7
-157,California State University-Stanislaus,US,https://www.csustan.edu/,https://www.csustan.edu/human-resources/career-opportunities/csu-nondiscrimination-policy-equal-employment-opportunity,,medium,OK-2hop:OK:6
-158,California State University Maritime Academy,US,https://www.csum.edu/,,,not_found,NO_MATCH [playwright]
-159,Whittier College,US,https://www.whittier.edu/,https://www.whittier.edu/humanresources/employment,,medium,OK-2hop:OK:3
-160,Adams State University,US,https://www.adams.edu/,https://adams.wd1.myworkdayjobs.com/ASU,Workday,high,OK-2hop:OK:9
+155,University of the Pacific,US,https://www.pacific.edu/,https://pacific.peopleadmin.com/postings/search?utf8=‚úì&query=&query_v0_posted_at_date=&1195%5B%5D=any&query_position_type_id%5B%5D=6&commit=Search,PeopleAdmin,high,OK-2hop:OK:11
+156,California Lutheran University,US,https://www.callutheran.edu/,https://careers.callutheran.edu/postings/search?utf8=%E2%9C%93&query=&query_v0_posted_at_date=&435=&517=3&query_organizational_tier_3_id=any&225=&commit=Search,,medium,OK-2hop:OK:7
+157,California State University-Stanislaus,US,https://www.csustan.edu/,https://careers.csustan.edu/st/en-us/filter/?job-mail-subscribe-privacy=agree&search-keyword=&work-type=instructional%20faculty%20-%20temporary%2flecturer&work-type=instructional%20faculty%20%E2%80%93%20tenured%2ftenure-track&work-type=non-instructional%20faculty%20(coach%2fcounselor%2flibrarian)&category=unit%203%20-%20cfa%20-%20california%20faculty%20association,,medium,OK-2hop:OK:6
+158,California State University Maritime Academy,US,https://www.csum.edu/,https://jobs.csum.edu/en-us/filter/?job-mail-subscribe-privacy=agree&search-keyword=&location=maritime%20academy,,not_found,NO_MATCH [playwright]
+159,Whittier College,US,https://www.whittier.edu/,https://www.whittier.edu/humanresources/faculty,,medium,OK-2hop:OK:3
+160,Adams State University,US,https://www.adams.edu/,https://adams.wd1.myworkdayjobs.com/ASU?jobFamilyGroup=17a14ea6887710013425d08f0be90001,Workday,high,OK-2hop:OK:9
 161,Colorado State University Global,US,https://csuglobal.edu/,https://faculty-csuglobal.icims.com/,iCIMS,high,OK-2hop:OK:6
-162,University of Colorado Boulder,US,https://www.colorado.edu/,https://colorado.avature.net/internaljobs,Avature,high,OK-2hop:OK:8
-163,Colorado College,US,https://www.coloradocollege.edu/,https://jobs.coloradocollege.edu/jobs/search,,medium,OK-2hop:OK:5
+162,University of Colorado Boulder,US,https://www.colorado.edu/,https://jobs.colorado.edu/jobs/SearchJobs/?6110=13216702&6110_format=2267&listFilterMode=1,Avature,high,OK-2hop:OK:8
+163,Colorado College,US,https://www.coloradocollege.edu/,https://jobs.coloradocollege.edu/jobs/search?page=1&employment_type_uids%5B%5D=af4b3dfad1990996aeb4c3915f93088f&query=,,medium,OK-2hop:OK:5
 165,University of Colorado Colorado Springs,US,https://www.uccs.edu/,https://cu.taleo.net/careersection/2/moresearch.ftl?lang=en&location=6300103016&portal=101430233&radius=1&radiusType=K&searchExpanded=true,Taleo,high,OK-2hop:OK:6
-166,Metropolitan State University of Denver,US,https://www.msudenver.edu/,https://msudenver.wd1.myworkdayjobs.com/MSUDenver,Workday,high,OK-2hop:OK:8
-167,Regis University,US,https://www.regis.edu/,https://regis.wd501.myworkdayjobs.com/en-US/RegisUniversity,Workday,high,OK-2hop:OK:8
+166,Metropolitan State University of Denver,US,https://www.msudenver.edu/,https://msudenver.wd1.myworkdayjobs.com/MSUDenver?jobFamilyGroup=8d65815eea0f1001bc3bbe0cff1b0000,Workday,high,OK-2hop:OK:8
+167,Regis University,US,https://www.regis.edu/,https://regis.wd501.myworkdayjobs.com/en-US/RegisUniversity?workerSubType=fc38a5df8390014dab5ec5517918b909,Workday,high,OK-2hop:OK:8
 168,University of Colorado Denver/Anschutz Medical Campus,US,https://www.ucdenver.edu/,https://cu.taleo.net/careersection/2/moresearch.ftl?lang=en,Taleo,high,OK-2hop:OK:9
-169,University of Denver,US,https://www.du.edu/,https://jobs.du.edu/en-us/listing/,,medium,OK:5
+169,University of Denver,US,https://www.du.edu/,https://jobs.du.edu/en-us/filter/?search=&search-keyword=&work-type=adjunct%20faculty&work-type=faculty%20full-time&job-mail-subscribe-privacy=agree,,medium,OK:5
 170,Fort Lewis College,US,https://fortlewis.edu/,https://fortlewiscollege.wd1.myworkdayjobs.com/FLC,Workday,high,OK-2hop:OK:8
-171,Colorado State University-Fort Collins,US,https://colostate.edu/,,,not_found,playwright_failed:Error
-172,Colorado School of Mines,US,https://www.mines.edu/,https://hr.mines.edu/careers-at-mines-external/,,medium,OK-2hop:OK:5
+171,Colorado State University-Fort Collins,US,https://colostate.edu/,https://csusystem.wd12.myworkdayjobs.com/fortcollins_careers?jobFamilyGroup=c42207b011c11000d2dd549d70320000&locations=c42207b011c11000e4a225433e0b0000,,not_found,playwright_failed:Error
+172,Colorado School of Mines,US,https://www.mines.edu/,https://mines.wd1.myworkdayjobs.com/Mines_Careers?jobFamilyGroup=85a299df18611045ecca88cb10a70000,,medium,OK-2hop:OK:5
 173,Colorado Mesa University,US,https://www.coloradomesa.edu/,https://coloradomesa.wd501.myworkdayjobs.com/CMUCareers?jobFamilyGroup=b27d1ee81d9410015e55e09cd01e0000,Workday,high,OK-2hop:OK:11
 174,University of Northern Colorado,US,https://www.unco.edu/,https://unco.csod.com/ux/ats/careersite/1/home?c=unco,Cornerstone OnDemand,high,OK:8
-175,Western Colorado University,US,https://www.western.edu/,https://western.wd1.myworkdayjobs.com/WESTERN,Workday,high,OK-2hop:OK:8
-178,Colorado State University Pueblo,US,https://www.csupueblo.edu/,https://csusystem.wd12.myworkdayjobs.com/en-US/pueblo_careers,Workday,high,OK-2hop:OK:8
-179,University of Bridgeport,US,https://www.bridgeport.edu/,https://www.bridgeport.edu/academics/programs/chiropractic-dc,,medium,OK-2hop:OK:3
+175,Western Colorado University,US,https://www.western.edu/,https://western.wd1.myworkdayjobs.com/WESTERN?locations=f0acdfc60ce81008f9018ce54da70000&jobFamilyGroup=f0acdfc60ce81008d439787fbb740000,Workday,high,OK-2hop:OK:8
+178,Colorado State University Pueblo,US,https://www.csupueblo.edu/,https://csusystem.wd12.myworkdayjobs.com/en-US/pueblo_careers?locations=c42207b011c11000e4a22ee1cf1e0000&jobFamilyGroup=c42207b011c11000d2dd549d70320000,Workday,high,OK-2hop:OK:8
+179,University of Bridgeport,US,https://www.bridgeport.edu/,https://www.paycomonline.net/v4/ats/web.php/portal/A1640D81A59AFDAFC5501F5B06EF1B08/career-page,,medium,OK-2hop:OK:3
 180,Western Connecticut State University,US,https://www.wcsu.edu/,http://wcsu.edu/hr/employment/current-opportunities/,,medium,OK-2hop:OK:4
-181,Fairfield University,US,https://fairfield.edu/,https://ffd.wd1.myworkdayjobs.com/EmploymentOpportunities,Workday,high,OK-2hop:OK:8
-182,Sacred Heart University,US,https://www.sacredheart.edu/,https://www.sacredheart.edu/offices--departments-directory/human-resources/job-postings/,,medium,OK-2hop:OK:5
-183,University of Connecticut-Avery Point,US,https://averypoint.uconn.edu/,,,not_found,NO_MATCH [playwright]
-184,Quinnipiac University,US,https://www.qu.edu/,https://career.qu.edu/en-us/listing/,,medium,OK-2hop:OK:5
-185,Trinity College,US,https://www.trincoll.edu/,https://trincore-ibvxjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1,Oracle Recruiting Cloud,high,OK-2hop:OK:6
-186,Wesleyan University,US,https://www.wesleyan.edu/,https://wesleyan.wd5.myworkdayjobs.com/careers,Workday,high,OK-2hop:OK:8
-187,Central Connecticut State University,US,https://www.ccsu.edu/,,,not_found,NO_MATCH [playwright]
+181,Fairfield University,US,https://fairfield.edu/,https://ffd.wd1.myworkdayjobs.com/EmploymentOpportunities?jobFamilyGroup=744fdc6270fe01eb4c7fbb71b6825329,Workday,high,OK-2hop:OK:8
+182,Sacred Heart University,US,https://www.sacredheart.edu/,https://jobs.dayforcehcm.com/shu/CANDIDATEPORTAL,,medium,OK-2hop:OK:5
+183,University of Connecticut-Avery Point,US,https://averypoint.uconn.edu/,https://jobs.hr.uconn.edu/cw/en-us/filter/?search-keyword=&job-mail-subscribe-privacy=agree,,not_found,NO_MATCH [playwright]
+184,Quinnipiac University,US,https://www.qu.edu/,https://career.qu.edu/en-us/filter/?job-mail-subscribe-privacy=agree&search-keyword=&category=faculty,,medium,OK-2hop:OK:5
+185,Trinity College,US,https://www.trincoll.edu/,https://trincore-ibvxjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs,Oracle Recruiting Cloud,high,OK-2hop:OK:6
+186,Wesleyan University,US,https://www.wesleyan.edu/,https://wesleyan.wd5.myworkdayjobs.com/careers?jobFamilyGroup=2f94686d89e0100a36c029ae4aa50000,Workday,high,OK-2hop:OK:8
+187,Central Connecticut State University,US,https://www.ccsu.edu/,https://www.ccsu.edu/hr/administrative/faculty/management,,not_found,NO_MATCH [playwright]
 188,Charter Oak State College,US,https://www.charteroak.edu/,https://www.charteroak.edu/aboutus/employment.php,,medium,OK-2hop:OK:2
 189,Albertus Magnus College,US,https://www.albertus.edu/,https://www.albertus.edu/employment/,,medium,OK-2hop:OK:2
 190,Southern Connecticut State University,US,https://www.southernct.edu/,https://inside.southernct.edu/human-resources/jobs,,medium,OK-2hop:OK:5
