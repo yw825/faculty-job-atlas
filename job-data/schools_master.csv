@@ -553,7 +553,6 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes
 709,Westminster College,US,https://www.wcmo.edu/,https://recruiting.paylocity.com/recruiting/jobs/All/a5d7af06-7587-4fed-8c04-2df22f7d0e9b/Westminster-College?location=Westminster%20College%20-%20Fulton%2C%20MO&department=All%20Departments,,medium,OK-2hop:OK:5
 710,William Woods University,US,https://www.williamwoods.edu/,https://www.williamwoods.edu/employment/adjunct-faculty-employment/,,medium,OK-2hop:OK:2
 711,Hannibal-LaGrange University,US,https://www.hlg.edu/,https://www.hlg.edu/forms/adjunctfacultyapplication/,,medium,OK-2hop:OK:9
-712,Lincoln University,US,https://www.lincolnu.edu/,https://www.lincolnu.edu/about-lincoln/human-resource-services/employment-opportunities.html,,medium,OK-2hop:OK:3
 713,Missouri Southern State University,US,https://www.mssu.edu/,https://www.mssu.edu/financial-services/human-resources/eeoc.php,,medium,OK-2hop:OK:3
 714,Avila University,US,https://www.avila.edu/,https://www.avila.edu/about/administrative-offices/human-resources/careers/,,medium,OK-2hop:OK:5
 715,Calvary University,US,https://www.calvary.edu/,https://www.calvary.edu/employment/work-at-calvary/,,medium,OK-2hop:OK:4
@@ -948,7 +947,6 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes
 1171,Saint Vincent College,US,https://www.stvincent.edu/,https://www.stvincent.edu/resources/careers.html,,medium,OK-2hop:OK:2
 1172,Pennsylvania State University-Penn State Fayette- Eberly,US,https://fayette.psu.edu/,https://hr.psu.edu/careers,,medium,OK-2hop:OK:5
 1173,Bucknell University,US,https://www.bucknell.edu/,https://bucknell.wd1.myworkdayjobs.com/External?jobFamilyGroup=3ce5feabe53e01fb2262242fcb6e5c06,Workday,high,OK-2hop:OK:12
-1174,Lincoln University,US,https://www.lincoln.edu/,https://www.lincoln.edu/careers/index.html,,medium,OK-2hop:OK:2
 1175,Saint Francis University,US,https://www.francis.edu/,https://www.francis.edu/about-us/employment,,medium,OK-2hop:OK:2
 1176,Pennsylvania State University-Penn State Greater Allegheny,US,https://greaterallegheny.psu.edu/,https://greaterallegheny.psu.edu/topics/human-resources,,medium,OK-2hop:OK:1
 1177,Allegheny College,US,https://allegheny.edu/,https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1,Oracle Recruiting Cloud,high,OK:8
@@ -1491,19 +1489,19 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes
 1823,Auckland University of Technology,New Zealand,https://www.aut.ac.nz/,https://careers.aut.ac.nz/jobs,custom (Snaphire),high,"Confirmed live listings page, powered by Snaphire ATS"
 1824,University of Auckland,New Zealand,https://www.auckland.ac.nz/,https://jobs.smartrecruiters.com/TheUniversityOfAuckland/,SmartRecruiters,high,Confirmed live SmartRecruiters listings with ~20 open roles
 1825,University of Canterbury,New Zealand,https://www.canterbury.ac.nz/,https://jobs.canterbury.ac.nz/search,custom,high,"Direct search/listings page, 33 vacancies reported"
-1826,University of Otago,New Zealand,https://www.otago.ac.nz/,https://otago.taleo.net/careersection/2/joblist.ftl?lang=en,Taleo,high,Direct Taleo career section job list
-1827,University of Waikato,New Zealand,https://www.waikato.ac.nz/,https://www.waikato.ac.nz/vacancies/current-vacancies,custom,high,Direct current vacancies listing page
+1826,University of Otago,New Zealand,https://www.otago.ac.nz/,https://otago.taleo.net/careersection/2/moresearch.ftl,Taleo,high,Direct Taleo career section job list
+1827,University of Waikato,New Zealand,https://www.waikato.ac.nz/,https://elhs.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/jobs?lastSelectedFacet=TITLES&mode=location&selectedTitlesFacet=UOW_ACADEMIC,custom,high,Direct current vacancies listing page
 1828,Lincoln University,New Zealand,https://www.lincoln.ac.nz/,https://careers.lincoln.ac.nz/search,custom,high,Direct search/listings page
 1829,Massey University,New Zealand,https://www.massey.ac.nz/,https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES,custom (T1Cloud/CiAnywhere),high,Confirmed direct listing link on jobs-at-massey hub page
-1830,Victoria University of Wellington,New Zealand,https://www.wgtn.ac.nz/,https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1,Oracle Recruiting Cloud,high,Confirmed direct portal link from wgtn.ac.nz/jobs hub page
+1830,Victoria University of Wellington,New Zealand,https://www.wgtn.ac.nz/,https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs?lastSelectedFacet=CATEGORIES&selectedCategoriesFacet=300000002931158,Oracle Recruiting Cloud,high,Confirmed direct portal link from wgtn.ac.nz/jobs hub page
 1831,City University of Hong Kong,Hong Kong,https://www.cityu.edu.hk/,https://jobs1.cityu.edu.hk/apply/Default.aspx?jobtype=ACAD,custom,high,"CityUHK e-Recruitment System, filtered to academic job type"
 1833,HKCT Institute of Higher Education,Hong Kong,https://www.hkct.edu.hk/,https://www.hkct.edu.hk/en/abouthkct/join-us,custom,high,Join Us page directly lists current academic/admin openings
 1834,Hong Kong Baptist University,Hong Kong,https://www.hkbu.edu.hk/,https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/requisitions,Oracle Cloud HCM,high,Linked from HRO employment opportunities page (hro.hkbu.edu.hk)
 1835,Hong Kong Chu Hai College,Hong Kong,https://www.chuhai.edu.hk/,https://www.chuhai.edu.hk/en/page/jobs?id=b9f07df8-bc36-430a-91ea-b8f196e36f18,custom,high,Direct careers page listing open-rank academic and dean positions
-1836,Hong Kong Metropolitan University,Hong Kong,https://www.hkmu.edu.hk/,,,,
+1836,Hong Kong Metropolitan University,Hong Kong,https://www.hkmu.edu.hk/,https://hkmu.taleo.net/careersection/ex_full_time/jobsearch.ftl?lang=en&portal=101430233,,,
 1837,Hong Kong Nang Yan College of Higher Education,Hong Kong,https://www.ny.edu.hk/,,,,
 1838,Hong Kong Shue Yan University,Hong Kong,https://www.hksyu.edu/,https://www.hksyu.edu/en/snippets/external-vacancy,custom,high,External Vacancies page
-1839,Lingnan University,Hong Kong,https://www.ln.edu.hk/,https://lingnan.csod.com/ux/ats/careersite/4/home?c=lingnan,Cornerstone OnDemand,high,CSOD careersite linked from ln.edu.hk/job-vacancies (Lingnan-60 Global Talent Recruitment)
+1839,Lingnan University,Hong Kong,https://www.ln.edu.hk/,https://lingnan.csod.com/ux/ats/careersite/4/home?c=lingnan&cfdd[0][id]=151&cfdd[0][options][0]=101,Cornerstone OnDemand,high,CSOD careersite linked from ln.edu.hk/job-vacancies (Lingnan-60 Global Talent Recruitment)
 1840,Saint Francis University,Hong Kong,https://www.sfu.edu.hk/,https://www.sfu.edu.hk/en/career/academic-teaching-positions/index.html,custom,high,Academic/Teaching Positions page
 1841,Technological and Higher Education Institute of Hong Kong,Hong Kong,https://www.thei.edu.hk/,https://www.thei.edu.hk/about-thei/career-opportunities,custom,high,Career Opportunities page listing Teaching and Academic Posts
 1842,The Chinese University of Hong Kong,Hong Kong,https://www.cuhk.edu.hk/,https://cuhk.taleo.net/careersection/cu_career_teach/jobsearch.ftl?lang=en&portal=10115020119,Taleo,high,"Professoriate, Teaching & Research Academic Posts search portal (career.cuhk.edu.hk redirects to HRO page linking here)"
@@ -1511,7 +1509,7 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes
 1844,The Hong Kong Polytechnic University,Hong Kong,https://www.polyu.edu.hk/,https://jobs.polyu.edu.hk/academic,custom,high,"Academic/Teaching/Clinical Posts listing, linked from polyu.edu.hk/hro/careers external advertisements hub"
 1845,The Hong Kong University of Science and Technology,Hong Kong,https://www.ust.hk/,https://hkustcareers.hkust.edu.hk/join-us/current-opening/academic-careers,custom,high,Academic Careers current openings page
 1846,The University of Hong Kong,Hong Kong,https://www.hku.hk/,https://jobs.hku.hk/,PageUp,high,"HKU Careers portal, confirmed PageUp-powered with direct academic listings"
-1847,Tung Wah College,Hong Kong,https://www.twc.edu.hk/,,,,
+1847,Tung Wah College,Hong Kong,https://www.twc.edu.hk/,https://careers.twc.edu.hk/search/?createNewAlert=false&q=&optionsFacetsDD_department=Academic+Staff&optionsFacetsDD_dept=,,,
 1848,UOW College Hong Kong,Hong Kong,https://www.uowchk.edu.hk/,https://www.uowchk.edu.hk/working-with-us/,custom,high,Working With Us page directly lists current openings incl. Lecturer/Senior Lecturer roles
 1849,University of Macau,Macau,https://www.career.admo.um.edu.mo/,https://career.admo.um.edu.mo/,custom,high,This is the base_url; confirmed direct career portal listing multiple faculty positions
 1850,Macao Polytechnic University,Macau,https://www.ipm.edu.mo/,,,,
