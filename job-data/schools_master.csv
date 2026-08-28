@@ -1321,33 +1321,32 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes
 1654,Université du Québec à Trois-Rivières,Canada,https://www.uqtr.ca/,,,not_found,NO_MATCH [playwright]
 1655,University of Regina,Canada,https://www.uregina.ca/,http://www.peopleadmin.com/,PeopleAdmin,high,OK-2hop:OK:6
 1656,University of Saskatchewan,Canada,https://www.usask.ca/,https://usask.csod.com/ux/ats/careersite/14/home?c=usask,Cornerstone OnDemand,high,OK-2hop:OK:7
-1657,University of Innsbruck,Austria,https://www.uibk.ac.at/,,,not_found,NO_MATCH [playwright]
-1658,TU Wien,Austria,https://www.tuwien.at/,https://jobs.tuwien.ac.at/Jobs,,medium,OK-2hop:OK:7
-1659,University of Vienna,Austria,https://www.univie.ac.at/,https://jobs.univie.ac.at/go/HR/8877101/,,medium,OK-2hop:OK:6
-1660,Vienna University of Economics and Business,Austria,https://www.wu.ac.at/,https://jobs.wu.ac.at/HR-Generalistin-de-j2891.html,,medium,OK-2hop:OK:6
-1661,Université Libre de Bruxelles,Belgium,https://www.ulb.be/,https://www.ulb.be/fr/aides-services-et-accompagnement/besoin-d-un-job,,medium,OK-2hop:OK:2
-1662,Ghent University,Belgium,https://www.ugent.be/,https://jobs.ugent.be/,,medium,OK-2hop:OK:5
-1663,Vlerick Business School,Belgium,https://www.vlerick.com/,https://www.vlerick.com/en/working-vlerick/,,medium,OK-2hop:OK:2
-1664,KU Leuven,Belgium,https://www.kuleuven.be/,https://www.kuleuven.be/personeel/jobsite/jobs?hl=nl&lang=nl,,medium,OK-2hop:OK:2
-1665,Université catholique de Louvain,Belgium,https://www.uclouvain.be/,,,not_found,NO_MATCH [playwright]
+1657,University of Innsbruck,Austria,https://www.uibk.ac.at/,https://lfuonline.uibk.ac.at/public/karriereportal.home?lang=de,,not_found,NO_MATCH [playwright]
+1658,TU Wien,Austria,https://www.tuwien.at/,https://jobs.tuwien.ac.at/jobs?jobProfiles=Associate%20Professor_in|Laufbahnstelle|Professuren|Rektor_in,,medium,OK-2hop:OK:7
+1659,University of Vienna,Austria,https://www.univie.ac.at/,https://jobs.univie.ac.at/go/Tenure-Track-(E)/8877301/,,medium,OK-2hop:OK:6
+1660,Vienna University of Economics and Business,Austria,https://www.wu.ac.at/,https://jobs.wu.ac.at/eng,,medium,OK-2hop:OK:6
+1661,Université Libre de Bruxelles,Belgium,https://www.ulb.be/,https://www.ulb.be/fr/travailler-et-collaborer/vacances-d-emplois-academiques-et-scientifiques,,medium,OK-2hop:OK:2
+1662,Ghent University,Belgium,https://www.ugent.be/,https://jobs.ugent.be/go/Professoren/8808802/,,medium,OK-2hop:OK:5
+1663,Vlerick Business School,Belgium,https://www.vlerick.com/,https://www.vlerick.com/en/working-vlerick/join-the-faculty-team/,,medium,OK-2hop:OK:2
+1664,KU Leuven,Belgium,https://www.kuleuven.be/,https://www.kuleuven.be/personeel/jobsite/jobs/professor?lang=nl,,medium,OK-2hop:OK:2
+1665,Université catholique de Louvain,Belgium,https://www.uclouvain.be/,https://uclouvain.be/fr/emploi/listes-des-cours-vacants-par-faculte,,not_found,NO_MATCH [playwright]
 1666,Aarhus University,Denmark,https://www.au.dk/,https://au.jobteaser.com/da/recruiter_account/sign_in,,medium,OK-2hop:OK:3
 1667,University of Copenhagen,Denmark,https://www.ku.dk/,https://jobportal.ku.dk/,,medium,OK-2hop:OK:2
 1668,Copenhagen Business School,Denmark,https://www.cbs.dk/,https://www.cbs.dk/en/about-cbs/job-and-career/employees-cbs#49283-trade-unions-and-unemployment-insurance-funds,,medium,OK-2hop:OK:6
 1669,Technical University of Denmark,Denmark,https://www.dtu.dk/,https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/da/sites/CX_1/tc-join?location=Denmark&locationId=300000000228648&locationLevel=country&mode=job-location,Oracle Recruiting Cloud,high,OK:8
-1670,Aalto University,Finland,https://www.aalto.fi/,https://wd3.myworkday.com/aalto/d/home.htmld,Workday,high,OK:6 [playwright]
-1671,Hanken School of Economics,Finland,https://www.hanken.fi/,https://www.hanken.fi/sv/studerande/karriartjanster/evenemang/career-coffee,,medium,OK-2hop:OK:2
-1672,University of Helsinki,Finland,https://www.helsinki.fi/,https://www.helsinki.fi/en/about-us/careers/academic-careers,,medium,OK-2hop:OK:11
-1673,University of Turku,Finland,https://www.utu.fi/,https://euraxess.ec.europa.eu/jobs/hrs4r,,medium,OK-2hop:OK:3
-1674,ESSEC Business School,France,https://www.essec.edu/,https://www.teamtailor.com/?utm_campaign=poweredby&utm_content=job.essec.edu&utm_medium=referral&utm_source=career-site,,medium,OK-2hop:OK:4 [playwright]
-1675,INSEAD,France,https://www.insead.edu/,,,not_found,NO_MATCH [playwright]
-1676,Université Paris-Saclay,France,https://www.universite-paris-saclay.fr/,,,not_found,playwright_failed:TimeoutError
-1677,Université Grenoble Alpes,France,https://www.univ-grenoble-alpes.fr/,,,not_found,NO_MATCH [playwright]
-1678,HEC Paris,France,https://www.hec.edu/,https://www.hec.edu/en/mba-executive-mba/mba/careers/employment-statistics,,medium,OK-2hop:OK:4
-1679,Institut Polytechnique de Paris,France,https://www.ip-paris.fr/,,,not_found,NO_MATCH [playwright]
-1680,ESCP Business School,France,https://www.escp.eu/,https://careers.werecruit.io/en/escp-business-school?lieuList=nw---london,,medium,OK-2hop:OK:5
+1670,Aalto University,Finland,https://www.aalto.fi/,https://www.aalto.fi/en/open-positions?sort_by=created&field_unit_target_id=All,Workday,high,OK:6 [playwright]
+1671,Hanken School of Economics,Finland,https://www.hanken.fi/,https://hanken.rekrytointi.com/paikat/index.php?o=A_LOJ&list=1&lang=en&rspvt=og9gqralwpww44oc40w4cwgowkg0okc,,medium,OK-2hop:OK:2
+1672,University of Helsinki,Finland,https://www.helsinki.fi/,https://www.helsinki.fi/en/about-us/careers/open-positions,,medium,OK-2hop:OK:11
+1673,University of Turku,Finland,https://www.utu.fi/,https://www.utu.fi/en/university/come-work-with-us/open-vacancies,,medium,OK-2hop:OK:3
+1674,ESSEC Business School,France,https://www.essec.edu/,https://job.essec.edu/en/jobs,,medium,OK-2hop:OK:4 [playwright]
+1675,INSEAD,France,https://www.insead.edu/,https://iablgs.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1?utm_medium=direct,,not_found,NO_MATCH [playwright]
+1677,Université Grenoble Alpes,France,https://www.univ-grenoble-alpes.fr/,https://emploi.univ-grenoble-alpes.fr/job-offers/,,not_found,NO_MATCH [playwright]
+1678,HEC Paris,France,https://www.hec.edu/,https://hec.csod.com/ux/ats/careersite/1/home?c=hec,,medium,OK-2hop:OK:4
+1679,Institut Polytechnique de Paris,France,https://www.ip-paris.fr/,https://institut-polytechnique-de-paris.taleez.com/,,not_found,NO_MATCH [playwright]
+1680,ESCP Business School,France,https://www.escp.eu/,https://careers.werecruit.io/en/escp-business-school,,medium,OK-2hop:OK:5
 1681,Sciences Po,France,https://www.sciencespo.fr/,,,not_found,NO_MATCH [playwright]
-1682,Sorbonne University,France,https://www.sorbonne-universite.fr/,https://www.sorbonne-universite.fr/recherche-et-innovation/labellisation-hr-excellence-research,,medium,OK-2hop:OK:1
-1683,Université PSL,France,https://www.psl.eu/,,,not_found,NO_MATCH [playwright]
+1682,Sorbonne University,France,https://www.sorbonne-universite.fr/,https://jobs.sorbonne-universite.fr/homepage.aspx?LCID=2057,,medium,OK-2hop:OK:1
+1683,Université PSL,France,https://www.psl.eu/,https://recrutement.psl.eu/nos-offres,,not_found,NO_MATCH [playwright]
 1684,RWTH Aachen University,Germany,https://www.rwth-aachen.de/,,,,
 1685,Free University of Berlin,Germany,https://www.fu-berlin.de/,,,,
 1686,Humboldt University of Berlin,Germany,https://www.hu-berlin.de/,,,,
@@ -1427,21 +1426,21 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes
 1760,Boğaziçi University,Turkey,https://www.boun.edu.tr/,,,,
 1761,Koç University,Turkey,https://www.ku.edu.tr/,,,,
 1762,Sabancı University,Turkey,https://www.sabanciuniv.edu/,,,,
-1763,University of Birmingham,United Kingdom,https://www.birmingham.ac.uk/,https://edzz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_6001/,Oracle Recruiting Cloud,high,OK:10
-1764,University of Bristol,United Kingdom,https://www.bristol.ac.uk/,,,,
-1765,University of Cambridge,United Kingdom,https://www.cam.ac.uk/,,,,
-1766,University of Warwick,United Kingdom,https://www.warwick.ac.uk/,,,,
-1767,University of Edinburgh,United Kingdom,https://www.ed.ac.uk/,,,,
-1768,University of Glasgow,United Kingdom,https://www.gla.ac.uk/,,,,
-1769,University of Leeds,United Kingdom,https://www.leeds.ac.uk/,,,,
-1770,Imperial College London,United Kingdom,https://www.imperial.ac.uk/,,,,
-1771,King's College London,United Kingdom,https://www.kcl.ac.uk/,,,,
-1772,London Business School,United Kingdom,https://www.london.edu/,,,,
-1773,London School of Economics and Political Science,United Kingdom,https://www.lse.ac.uk/,,,,
-1774,University College London,United Kingdom,https://www.ucl.ac.uk/,,,,
-1775,University of Manchester,United Kingdom,https://www.manchester.ac.uk/,,,,
-1776,University of Oxford,United Kingdom,https://www.ox.ac.uk/,,,,
-1777,University of St Andrews,United Kingdom,https://www.st-andrews.ac.uk/,,,,
+1763,University of Birmingham,United Kingdom,https://www.birmingham.ac.uk/,https://edzz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_6001/jobs?lastSelectedFacet=CATEGORIES&selectedCategoriesFacet=300000002904064,Oracle Recruiting Cloud,high,OK:10
+1764,University of Bristol,United Kingdom,https://www.bristol.ac.uk/,https://www.bristol.ac.uk/jobs/find/,,,
+1765,University of Cambridge,United Kingdom,https://www.cam.ac.uk/,https://www.cam.ac.uk/jobs/search,,,
+1766,University of Warwick,United Kingdom,https://www.warwick.ac.uk/,https://warwick-careers.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/user-11595/xf-287774c8e052/candidate/jobboard/vacancy/3/adv/,,,
+1767,University of Edinburgh,United Kingdom,https://www.ed.ac.uk/,https://www.jobs.ac.uk/search/?keywords=University%20of%20Edinburgh,,,
+1768,University of Glasgow,United Kingdom,https://www.gla.ac.uk/,https://www.jobs.gla.ac.uk/jobs?source=google.com,,,
+1769,University of Leeds,United Kingdom,https://www.leeds.ac.uk/,https://jobs.leeds.ac.uk/vacancies.aspx?cat=200,,,
+1770,Imperial College London,United Kingdom,https://www.imperial.ac.uk/,https://www.imperial.ac.uk/jobs/search-jobs/?,,,
+1771,King's College London,United Kingdom,https://www.kcl.ac.uk/,https://www.kcl.ac.uk/jobs/search?term=,,,
+1772,London Business School,United Kingdom,https://www.london.edu/,https://jobsearch.london.edu/,,,
+1773,London School of Economics and Political Science,United Kingdom,https://www.lse.ac.uk/,https://jobs.lse.ac.uk/V2/Vacancy/Index?enc=HRIqN026cS+vCbCYvrmuUlRuC79/39yknYl6JyVFAq0mun48UhH8QAr+8i5zlZ1Iopg1CFFQVvSCOnD76tE5697cs+NZYbkYpVmUd+mthuk=,,,
+1774,University College London,United Kingdom,https://www.ucl.ac.uk/,https://www.ucl.ac.uk/work-at-ucl/search-ucl-jobs,,,
+1775,University of Manchester,United Kingdom,https://www.manchester.ac.uk/,https://www.jobs.manchester.ac.uk/Home/Job,,,
+1776,University of Oxford,United Kingdom,https://www.ox.ac.uk/,https://my.corehr.com/pls/uoxrecruit/erq_search_version_4.start_search_with_params?p_company=10&p_internal_external=E&p_display_in_irish=N&p_competition_type=AC&p_force_type=E,,,
+1777,University of St Andrews,United Kingdom,https://www.st-andrews.ac.uk/,https://www.vacancies.st-andrews.ac.uk/V2/Vacancy/Index?enc=HRIqN026cS+vCbCYvrmuUlRuC79/39yknYl6JyVFAq0mun48UhH8QAr+8i5zlZ1Iopg1CFFQVvSCOnD76tE5697cs+NZYbkYpVmUd+mthuk=,,,
 1778,Australian National University,Australia,https://www.anu.edu.au/,https://secure.dc2.pageuppeople.com/apply/658/aw/applicationForm/default.asp,PageUp,high,OK-2hop:OK:6
 1779,University of Canberra,Australia,https://www.canberra.edu.au/,,,,
 1780,University of New England,Australia,https://www.une.edu.au/,,,,
@@ -1529,21 +1528,20 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes
 1865,Republic Polytechnic,Singapore,https://www.rp.edu.sg/,https://sggovterp.wd102.myworkdayjobs.com/PublicServiceCareers?Agency=26a21744a99701e9cbff9c91d700649c,Workday (Singapore Public Service Careers),high,Singapore public service Workday portal filtered for Republic Polytechnic
 1866,Singapore Polytechnic,Singapore,https://www.sp.edu.sg/,https://jobs.careers.gov.sg/?a=Singapore+Polytechnic,custom (careers.gov.sg),high,Singapore govt careers portal filtered for Singapore Polytechnic
 1867,Temasek Polytechnic,Singapore,https://www.tp.edu.sg/,https://www.careers.hrp.gov.sg/sap/bc/ui5_ui5/sap/ZGERCFA004/index.html?search-keyword=temasek,SAP SuccessFactors (Singapore govt HRP),high,Singapore public-sector HRP careers portal filtered for Temasek Polytechnic
-1868,Wrexham University,United Kingdom,https://www.wrexham.ac.uk/,,,,
-1869,Aston University,United Kingdom,https://www.aston.ac.uk/,,,,
-1870,Coventry University,United Kingdom,https://www.coventry.ac.uk/,,,,
-1871,Nottingham Trent University,United Kingdom,https://www.ntu.ac.uk/,,,,
-1872,Sheffield Hallam University,United Kingdom,https://www.shu.ac.uk/,,,,
-1873,University of Portsmouth,United Kingdom,https://www.port.ac.uk/,,,,
-1874,Northumbria University,United Kingdom,https://www.northumbria.ac.uk/,,,,
-1875,De Montfort University,United Kingdom,https://www.dmu.ac.uk/,,,,
-1876,Oxford Brookes University,United Kingdom,https://www.brookes.ac.uk/,,,,
-1877,Kingston University,United Kingdom,https://www.kingston.ac.uk/,,,,
-1878,Middlesex University,United Kingdom,https://www.mdx.ac.uk/,,,,
-1879,University of Greenwich,United Kingdom,https://www.gre.ac.uk/,,,,
-1880,Manchester Metropolitan University,United Kingdom,https://www.mmu.ac.uk/,,,,
-1881,Leeds Beckett University,United Kingdom,https://www.leedsbeckett.ac.uk/,,,,
-1882,University of Sunderland,United Kingdom,https://www.sunderland.ac.uk/,,,,
+1868,Wrexham University,United Kingdom,https://www.wrexham.ac.uk/,https://jobs.wrexham.ac.uk/vacancies.aspx,,,
+1869,Aston University,United Kingdom,https://www.aston.ac.uk/,https://jobs.aston.ac.uk/vacancies.aspx?cat=-1,,,
+1870,Coventry University,United Kingdom,https://www.coventry.ac.uk/,https://cugcareers.coventry.ac.uk/search/?createNewAlert=false&q=&optionsFacetsDD_department=Academic&optionsFacetsDD_customfield1=&optionsFacetsDD_location=&_gl=1*4rwdec*_up*MQ..*_ga*OTEyMDYwNzk3LjE3ODc5NTQwMjM.*_ga_7VZC8X705P*czE3ODc5NTQwMjIkbzEkZzAkdDE3ODc5NTQwMjIkajYwJGwwJGgw*_ga_LJPXFS1LDK*czE3ODc5NTQwMjIkbzEkZzAkdDE3ODc5NTQwMjIkajYwJGwwJGgw*_ga_2LG4LME95N*czE3ODc5NTQwMjIkbzEkZzAkdDE3ODc5NTQwMjIkajYwJGwwJGgxODY2NTQ2OTQz,,,
+1871,Nottingham Trent University,United Kingdom,https://www.ntu.ac.uk/,https://www.jobs.ac.uk/search/?keywords=Nottingham%20Trent%20University,,,
+1872,Sheffield Hallam University,United Kingdom,https://www.shu.ac.uk/,https://www.jobs.ac.uk/search/?keywords=Sheffield%20Hallam%20University,,,
+1874,Northumbria University,United Kingdom,https://www.northumbria.ac.uk/,https://work4.northumbria.ac.uk/#en/sites/CX_1001/jobs,,,
+1875,De Montfort University,United Kingdom,https://www.dmu.ac.uk/,https://www.jobs.ac.uk/search/?keywords=De%20Montfort%20University,,,
+1876,Oxford Brookes University,United Kingdom,https://www.brookes.ac.uk/,https://my.corehr.com/pls/oburecruit/erq_search_version_4.start_search_with_params,,,
+1877,Kingston University,United Kingdom,https://www.kingston.ac.uk/,https://jobs.kingston.ac.uk/home.html#filter=p_web_site_id%3D5815%26p_published_to%3DWWW%26p_language%3DDEFAULT%26p_direct%3DY%26p_format%3DMOBILE%26p_include_exclude_from_list%3DN%26p_search%3D,,,
+1878,Middlesex University,United Kingdom,https://www.mdx.ac.uk/,https://jobs.mdx.ac.uk/vacancies.aspx?cat=200,,,
+1879,University of Greenwich,United Kingdom,https://www.gre.ac.uk/,https://jobs.gre.ac.uk/vacancies.aspx?cat=407,,,
+1880,Manchester Metropolitan University,United Kingdom,https://www.mmu.ac.uk/,https://manmetjobs.mmu.ac.uk/jobs/vacancy/find/results/,,,
+1881,Leeds Beckett University,United Kingdom,https://www.leedsbeckett.ac.uk/,https://vacancies.leedsbeckett.ac.uk/ce0984li_webrecruitment/wrd/run/ETREC105GF?USESSION=C59F66C55E2608EA1C843755BE73D602&WVID=7412577lKO&LANG=USA,,,
+1882,University of Sunderland,United Kingdom,https://www.sunderland.ac.uk/,https://jobs.sunderland.ac.uk/vacancies.aspx?cat=all,,,
 1883,University of Limerick,Ireland,https://www.ul.ie/,,,,
 1884,Technological University Dublin,Ireland,https://www.tudublin.ie/,,,,
 1885,Munster Technological University,Ireland,https://www.mtu.ie/,,,,
@@ -1554,7 +1552,7 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes
 1890,University of Gothenburg,Sweden,https://www.gu.se/,,,,
 1891,Aalborg University,Denmark,https://www.aau.dk/,,,,
 1892,University of Southern Denmark,Denmark,https://www.sdu.dk/,https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/da/sites/CX_1001/requisitions?keyword=Universitetsbibliotek&mode=location,Oracle Recruiting Cloud,high,OK-2hop:OK:6
-1893,University of Vaasa,Finland,https://www.uwasa.fi/,,,,
-1894,University of Oulu,Finland,https://www.oulu.fi/,,,,
+1893,University of Vaasa,Finland,https://www.uwasa.fi/,https://uva.rekrytointi.com/paikat/?o=A_LOJ&list=6&lang=en,,,
+1894,University of Oulu,Finland,https://www.oulu.fi/,https://oulunyliopisto.varbi.com/en/,,,
 1895,MacEwan University,Canada,https://www.macewan.ca/,,,,
 1896,Kwantlen Polytechnic University,Canada,https://www.kpu.ca/,https://tre.tbe.taleo.net/tre01/ats/careers/v2/jobSearch?org=JT63GS&cws=37,Taleo,high,OK-2hop:OK:9
