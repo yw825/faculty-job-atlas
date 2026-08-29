@@ -1073,7 +1073,6 @@ function applyRegion(){
     listEl.style.display = '';
     radiusBlockEl.style.display = '';
     legendEl.innerHTML = region.legendHtml || legendEl.innerHTML;
-    searchInput.value = '';
     document.querySelectorAll('#position-type-block input, #job-term-block input, #subject-area-block input')
       .forEach(el => { el.checked = true; });
     boundsFilterActive = false;
