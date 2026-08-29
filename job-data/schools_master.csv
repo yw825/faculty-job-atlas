@@ -1302,17 +1302,17 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes
 1639,Université du Québec en Outaouais,Canada,https://www.uqo.ca/,https://uqo.ca/direction-services/decanat-gestion-academique/postes-professeurs,,not_found,NO_MATCH [playwright]
 1640,Concordia University,Canada,https://www.concordia.ca/,https://www.concordia.ca/hr/jobs/openings.html#academic,,medium,OK-2hop:OK:5
 1641,McGill University,Canada,https://www.mcgill.ca/,https://mcgill.wd3.myworkdayjobs.com/mcgill_careers,Workday,high,OK-2hop:OK:6
-1642,Polytechnique Montréal,Canada,https://www.polymtl.ca/,,,not_found,NO_MATCH [playwright]
-1643,Université de Montréal,Canada,https://www.umontreal.ca/,,,not_found,NO_MATCH [playwright]
-1644,Université du Québec à Montréal,Canada,https://www.uqam.ca/,,,not_found,NO_MATCH [playwright]
+1642,Polytechnique Montréal,Canada,https://www.polymtl.ca/,https://www.polymtl.ca/carriere/offres-demploi,,not_found,NO_MATCH [playwright]
+1643,Université de Montréal,Canada,https://www.umontreal.ca/,https://www.umontreal.ca/carrieres/professeurs/,,not_found,NO_MATCH [playwright]
+1644,Université du Québec à Montréal,Canada,https://www.uqam.ca/,https://rh.uqam.ca/emplois/,,not_found,NO_MATCH [playwright]
 1646,École des Hautes Études Commerciales (HEC Montréal),Canada,https://www.hec.ca/,https://tre.tbe.taleo.net/tre01/ats/careers/v2/jobSearch?act=redirectCwsV2&cws=42&org=NYQEDG,,not_found,NO_MATCH [playwright]
 1647,Université Laval,Canada,https://www.ulaval.ca/,https://www.rh.ulaval.ca/emplois-disponibles/personnel-enseignant-et-de-recherche,,not_found,NO_MATCH [playwright]
 1649,Université du Québec à Rimouski,Canada,https://www.uqar.ca/,https://www.uqar.ca/en/the-institut-des-sciences-de-la-mer-of-the-universite-du-quebec-a-rimouski-ismer-uqar/opportunities/jobs-at-ismer-uqar/,,not_found,NO_MATCH [playwright]
-1650,Université du Québec en Abitibi-Témiscamingue,Canada,https://www.uqat.ca/,,,not_found,NO_MATCH [playwright]
-1651,Université du Québec à Chicoutimi,Canada,https://www.uqac.ca/,,,not_found,NO_MATCH [playwright]
+1650,Université du Québec en Abitibi-Témiscamingue,Canada,https://www.uqat.ca/,https://www.uqat.ca/uqat/faire-carriere/,,not_found,NO_MATCH [playwright]
+1651,Université du Québec à Chicoutimi,Canada,https://www.uqac.ca/,http://www.uqac.ca/emploi/,,not_found,NO_MATCH [playwright]
 1652,Bishop's University,Canada,https://www.ubishops.ca/,https://working.ubishops.ca/,,medium,OK-2hop:OK:4
 1653,Université de Sherbrooke,Canada,https://www.usherbrooke.ca/,https://www.usherbrooke.ca/recherche/en/udes/career-opportunities,,not_found,NO_MATCH [playwright]
-1654,Université du Québec à Trois-Rivières,Canada,https://www.uqtr.ca/,,,not_found,NO_MATCH [playwright]
+1654,Université du Québec à Trois-Rivières,Canada,https://www.uqtr.ca/,https://atlas.workland.com/careers/uqtr?open=jobs,,not_found,NO_MATCH [playwright]
 1655,University of Regina,Canada,https://www.uregina.ca/,https://urcareers.uregina.ca/postings/search?utf8=%E2%9C%93&query=&query_v0_posted_at_date=&435=&225=&1245%5B%5D=2&commit=Search,PeopleAdmin,high,OK-2hop:OK:6
 1656,University of Saskatchewan,Canada,https://www.usask.ca/,https://usask.csod.com/ux/ats/careersite/14/home?c=usask&date=WithinThirtyDays&_gl=1*8k2uoh*_ga*MTgxNDk1ODUyNy4xNzg4MDMyNzk4*_ga_7P8QY8C9QK*czE3ODgwMzI3OTckbzEkZzAkdDE3ODgwMzI3OTckajYwJGwwJGgw,Cornerstone OnDemand,high,OK-2hop:OK:7
 1657,University of Innsbruck,Austria,https://www.uibk.ac.at/,https://lfuonline.uibk.ac.at/public/karriereportal.home?lang=de,,not_found,NO_MATCH [playwright]
@@ -1548,6 +1548,6 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes
 1892,University of Southern Denmark,Denmark,https://www.sdu.dk/,https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/da/sites/CX_1001/requisitions?keyword=Universitetsbibliotek&mode=location,Oracle Recruiting Cloud,high,OK-2hop:OK:6
 1893,University of Vaasa,Finland,https://www.uwasa.fi/,https://uva.rekrytointi.com/paikat/?o=A_LOJ&list=6&lang=en,,,
 1894,University of Oulu,Finland,https://www.oulu.fi/,https://oulunyliopisto.varbi.com/en/,,,
-1895,MacEwan University,Canada,https://www.macewan.ca/,,,,
+1895,MacEwan University,Canada,https://www.macewan.ca/,https://www.macewan.ca/about-macewan/careers/opportunities/,,,
 1896,Kwantlen Polytechnic University,Canada,https://www.kpu.ca/,https://tre.tbe.taleo.net/tre01/ats/careers/v2/jobSearch?org=JT63GS&cws=37,Taleo,high,OK-2hop:OK:9
 1897,Manhattan College,US,https://www.manhattan.edu/,,,,
