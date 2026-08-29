@@ -52,7 +52,7 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes
 88,Fresno Pacific University,US,https://www.fresno.edu/,https://www.schooljobs.com/careers/fresnoedu,,medium,OK-2hop:OK:2
 89,California State University-Fullerton,US,https://www.fullerton.edu/,https://careers.pageuppeople.com/873/fl/en-us/filter/?search-keyword=&work-type=instructional%20faculty%20%e2%80%93%20tenured%2ftenure-track&job-mail-subscribe-privacy=agree,,medium,OK-2hop:OK:3
 91,California State University-East Bay,US,https://www.csueastbay.edu/,https://careers.pageuppeople.com/873/eb/en-us/filter/?job-mail-subscribe-privacy=agree&search-keyword=&work-type=instructional%20faculty%20-%20temporary%2flecturer&work-type=instructional%20faculty%20%e2%80%93%20tenured%2ftenure-track,PageUp,high,OK-2hop:OK:13
-93,University of California-Irvine,US,https://www.uci.edu/,https://jobs.uci.edu/careers-home/jobs,,medium,OK-2hop:OK:7
+93,University of California-Irvine,US,https://www.uci.edu/,https://recruit.ap.uci.edu/apply,,medium,OK-2hop:OK:7
 94,University of Massachusetts Global,US,https://www.umassglobal.edu/,https://umassglobal.wd5.myworkdayjobs.com/UMassGlobalCareers,Workday,high,OK-2hop:OK:6
 95,University of California-San Diego,US,https://www.ucsd.edu/,https://apol-recruit.ucsd.edu/apply,,medium,OK-2hop:OK:4
 97,University of La Verne,US,https://www.laverne.edu/,https://laverne.peopleadmin.com/postings/search?utf8=%E2%9C%93&query=&query_v0_posted_at_date=&341=&query_position_type_id%5B%5D=2&343=&commit=Search,,medium,OK:4 [playwright]
