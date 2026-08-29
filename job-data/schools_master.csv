@@ -1249,78 +1249,72 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes
 1582,Wheeling University,US,https://www.wheeling.edu/,https://wheeling.edu/about/employment/,,medium,OK-2hop:OK:2
 1583,University of Wyoming,US,https://www.uwyo.edu/,https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1,Oracle Recruiting Cloud,high,OK-2hop:OK:8
 1584,Athabasca University,Canada,https://www.athabascau.ca/,https://athabascau.acquiretm.com/home.aspx,Acquire,high,Careers page links out to Acquire ATS portal listing all current openings
-1585,Ambrose University,Canada,https://www.ambrose.edu/,https://jobboard.ambrose.edu/,custom,high,Dedicated job board confirmed with live postings incl. sessional faculty
 1586,University of Calgary,Canada,https://www.ucalgary.ca/,https://careers.ucalgary.ca/search/academic-staff/jobs/in,custom,high,Direct academic-staff filtered search results on UCalgary careers portal
-1587,University of Alberta,Canada,https://www.ualberta.ca/,https://apps.ualberta.ca/careers,custom,high,New Career Portal (careers.ualberta.ca redirects here) listing current openings
+1587,University of Alberta,Canada,https://www.ualberta.ca/,https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/jobs?lastSelectedFacet=CATEGORIES&selectedCategoriesFacet=300000005480178,custom,high,New Career Portal (careers.ualberta.ca redirects here) listing current openings
 1588,Burman University,Canada,https://www.burmanu.ca/,https://www.burmanu.ca/careers,,medium,OK-2hop:OK:5
 1589,University of Lethbridge,Canada,https://www.ulethbridge.ca/,https://uleth.peopleadmin.ca/postings/search,PeopleAdmin,high,Direct PeopleAdmin applicant portal job search
 1590,University of the Fraser Valley,Canada,https://www.ufv.ca/,https://ufv.njoyn.com/CL3/xweb/Xweb.asp?page=joblisting&CLID=56144,njoyn,high,Direct njoyn ATS job listing page linked from ufv.ca/careers
 1591,Simon Fraser University,Canada,https://www.sfu.ca/,https://www.sfu.ca/vpacademic/academic-careers/current-openings.html,custom,high,VP Academic current openings page listing live faculty postings
-1592,Thompson Rivers University,Canada,https://www.tru.ca/,https://www.tru.ca/careers/faculty.html,custom,high,Dedicated faculty positions page
+1592,Thompson Rivers University,Canada,https://www.tru.ca/,https://tru.hua.hrsmart.com/hr/ats/JobSearch/search,custom,high,Dedicated faculty positions page
 1593,Vancouver Island University,Canada,https://www.viu.ca/,https://careers.viu.ca/vacancies.html,custom,high,External vacancies portal linked from VIU HR careers page
-1594,University of Northern British Columbia,Canada,https://www.unbc.ca/,https://unbc.njoyn.com/CL/xweb/xweb.asp?tbtoken=YF5ZQhoXCBh2Y3UFQlxdCCY8d2REcFVdLiUuQC4kXkgjUSoPE2ZeXTUfLUsccWcGdwkbVRdXQHJiF3U%3D&chk=ZVpaShM%3D&clid=125926&page=joblisting,Njoyn,high,OK-2hop:OK:6
-1595,University Canada West,Canada,https://www.ucanwest.ca/,https://www.ucanwest.ca/hr,,medium,OK-2hop:OK:3
+1594,University of Northern British Columbia,Canada,https://www.unbc.ca/,https://unbc.njoyn.com/CL/xweb/xweb.asp?tbtoken=Y1xaSxoXCGouJS5ALiReFC4lLkAuJF4ENlRQCFQ7AmdEcFkuckggVFF%2FExYtWDVuUTUecBYuJS5ALiRecAkbVRdXQHJiF3U%3D&chk=ZVpaShM%3D&clid=125926&page=joblisting&categoryid=1385,Njoyn,high,OK-2hop:OK:6
+1595,University Canada West,Canada,https://www.ucanwest.ca/,https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=e6860882-d6d8-416e-b077-9b347c9c81f9&ccId=9200536072124_2&type=JS&lang=en_CA&selectedMenuKey=CareerCenter,,medium,OK-2hop:OK:3
 1596,University of British Columbia,Canada,https://www.ubc.ca/,https://ubc.wd10.myworkdayjobs.com/ubcfacultyjobs,Workday,high,Direct UBC Faculty Jobs Workday portal
-1597,Royal Roads University,Canada,https://www.royalroads.ca/,,,not_found,NO_MATCH [playwright]
+1597,Royal Roads University,Canada,https://www.royalroads.ca/,https://royalroads.mua.hrdepartment.com/hr/ats/JobSearch/viewAll,,not_found,NO_MATCH [playwright]
 1598,University of Victoria,Canada,https://www.uvic.ca/,https://www.uvic.ca/faculty-staff/careers/faculty-and-librarian-postings/index.php,custom,high,Direct faculty and librarian postings listing page
 1599,Brandon University,Canada,https://www.brandonu.ca/,https://www.brandonu.ca/jobs/,custom,high,Employment Opportunities page listing current postings
 1600,Booth University College,Canada,https://www.booth.edu/,https://boothuc.ca/about/our-people/careers/,custom,high,Confirmed direct listing of current openings incl. faculty/instructor roles
 1601,University of Manitoba,Canada,https://www.umanitoba.ca/,https://viprecprod.ad.umanitoba.ca/A,custom,high,VIP Recruitment academic and research postings portal linked from umanitoba.ca/careers
-1602,University of Winnipeg,Canada,https://www.uwinnipeg.ca/,https://www.northstarats.com/University-of-Winnipeg,NorthStar ATS,high,Direct NorthStar ATS listing incl. Tenure Track Assistant Professor postings
+1602,University of Winnipeg,Canada,https://www.uwinnipeg.ca/,https://plus.avanti.ca/job-board/5da7a070-4efb-4f6e-b846-5d1e55cc2abe/abc8cefc-8900-4f89-a11a-169e8102b2be/view?LOCALE=en-CA&SEARCH=UWFA-RAS,NorthStar ATS,high,Direct NorthStar ATS listing incl. Tenure Track Assistant Professor postings
 1603,St. Thomas University,Canada,https://www.stu.ca/,https://www.stu.ca/employment/,custom,high,Employment Opportunities page listing current postings incl. Tenure Track Appointment
 1604,University of New Brunswick,Canada,https://www.unb.ca/,https://www.unb.ca/hr/careers/academic.php,custom,high,Direct academic postings page
 1605,Yorkville University,Canada,https://www.yorkvilleu.ca/,https://www.yorkvilleu.ca/job-postings/,custom,high,Direct job postings page
 1606,Crandall University,Canada,https://www.crandallu.ca/,https://www.crandallu.ca/employment/,custom,high,Employment Opportunities page
-1607,Université de Moncton,Canada,https://www.umoncton.ca/,,,not_found,NO_MATCH [playwright]
 1608,Mount Allison University,Canada,https://www.mta.ca/,https://mta.ca/about/work-at-mta/employment-opportunities-academic,custom,high,Direct academic employment opportunities page listing current faculty postings
 1609,Memorial University of Newfoundland,Canada,https://www.mun.ca/,https://mun.ca/academic-careers/opportunities/,,medium,OK-2hop:OK:12
-1610,St. Francis Xavier University,Canada,https://www.stfx.ca/,,,not_found,NO_MATCH [playwright]
-1611,Université Sainte-Anne,Canada,https://www.usainteanne.ca/,,,not_found,NO_MATCH [playwright]
-1612,Dalhousie University,Canada,https://www.dal.ca/,https://dal.peopleadmin.ca/,,medium,OK-2hop:OK:2
+1610,St. Francis Xavier University,Canada,https://www.stfx.ca/,https://recruiting.ultipro.ca/GOV5000GOVE/JobBoard/b0aac1dd-538d-4eb2-91aa-e8ce062974c9/?q=&o=postedDateDesc,,not_found,NO_MATCH [playwright]
+1612,Dalhousie University,Canada,https://www.dal.ca/,https://dal.peopleadmin.ca/postings/search?query=&query_v0_posted_at_date=&query_position_type_id%5B%5D=3&435=&commit=Search,,medium,OK-2hop:OK:2
 1613,Mount Saint Vincent University,Canada,https://www.msvu.ca/,https://www.msvu.ca/about-msvu/careers-at-the-mount/current-openings/,,medium,OK-2hop:OK:4
 1614,NSCAD University,Canada,https://www.nscad.ca/,https://nscad.ca/careers/,,medium,OK-2hop:OK:2
-1615,Saint Mary's University,Canada,https://www.smu.ca/,https://www.smu.ca/cel/,,medium,OK-2hop:OK:2
-1616,Cape Breton University,Canada,https://www.cbu.ca/,https://www.instagram.com/p/DcbOipbDH5j/,,medium,OK:2
+1616,Cape Breton University,Canada,https://www.cbu.ca/,https://jobs.dayforcehcm.com/cbu/CANDIDATEPORTAL,,medium,OK:2
 1617,Acadia University,Canada,https://www.acadiau.ca/,https://hr.acadiau.ca/employment/career-opportunities/faculty-per-course.html,,medium,OK-2hop:OK:5
-1618,University of Guelph,Canada,https://www.uoguelph.ca/,,,not_found,NO_MATCH [playwright]
-1619,McMaster University,Canada,https://www.mcmaster.ca/,https://hr.mcmaster.ca/careers/work-at-mcmaster/,,medium,OK-2hop:OK:5
-1620,Queen's University,Canada,https://www.queensu.ca/,https://clients.njoyn.com/cl4/net/sso/njoyn_sso_processor.aspx?CLID=74827&SPID=74828&SSO_CMD=SSO_XWEB,Njoyn,high,OK-2hop:OK:6
-1621,Western University,Canada,https://www.uwo.ca/,https://www.uwo.ca/facultyrelations/careers/index.html,,medium,OK-2hop:OK:11
-1622,Nipissing University,Canada,https://www.nipissingu.ca/,https://www.nipissingu.ca/careers/employment-postings/staff,,medium,OK-2hop:OK:5
-1623,Ontario Tech University,Canada,https://www.ontariotechu.ca/,https://ontariotechu.csod.com/samldefault.aspx?ouid=2,Cornerstone OnDemand,high,OK-2hop:OK:7
-1624,Carleton University,Canada,https://www.carleton.ca/,https://carleton.ca/hr/career-opportunities/academic/,,medium,OK-2hop:OK:4
-1625,University of Ottawa,Canada,https://www.uottawa.ca/,https://www.uottawa.ca/study/career-experiential-learning/campus-employment,,medium,OK-2hop:OK:6
+1618,University of Guelph,Canada,https://www.uoguelph.ca/,https://careers.uoguelph.ca/go/Faculty%2C-Librarian-and-Veterinarian/8665747/,,not_found,NO_MATCH [playwright]
+1619,McMaster University,Canada,https://www.mcmaster.ca/,https://careers.mcmaster.ca/psp/prcsprd/EMPLOYEE/HRMS/c/HRS_HRAM.HRS_APP_SCHJOB.GBL?Page=HRS_APP_SCHJOB&Action=U&FOCUS=Applicant&SiteId=1000&cmd=uninav&Rnode=HRMS&uninavpath=Root{PORTAL_ROOT_OBJECT}.Portal%20Objects{PORTAL_BASE_DATA}.Navigation%20Collections{CO_NAVIGATION_COLLECTIONS}.Custom%20Tabs{PAPP_CUSTOM_TABS}&customTab=MCM_TAB_FACULTY_POS&IgnoreParamTempl=customTab,,medium,OK-2hop:OK:5
+1620,Queen's University,Canada,https://www.queensu.ca/,https://www.queensu.ca/faculty-positions/,Njoyn,high,OK-2hop:OK:6
+1621,Western University,Canada,https://www.uwo.ca/,https://www.uwo.ca/facultyrelations/careers/faculty.html,,medium,OK-2hop:OK:11
+1622,Nipissing University,Canada,https://www.nipissingu.ca/,https://www.nipissingu.ca/careers/employment-postings/faculty,,medium,OK-2hop:OK:5
+1623,Ontario Tech University,Canada,https://www.ontariotechu.ca/,https://ontariotechu.csod.com/ux/ats/careersite/4/home?c=ontariotechu&date=WithinThirtyDays,Cornerstone OnDemand,high,OK-2hop:OK:7
+1624,Carleton University,Canada,https://www.carleton.ca/,https://carleton.ca/deputyprovost/jobs/academics/,,medium,OK-2hop:OK:4
+1625,University of Ottawa,Canada,https://www.uottawa.ca/,https://uottawa.wd3.myworkdayjobs.com/en-US/uOttawa_External_Career_Site,,medium,OK-2hop:OK:6
 1626,Trent University,Canada,https://www.trentu.ca/,https://www.trentu.ca/humanresources/employment-opportunities/full-time-faculty-positions,,medium,OK-2hop:OK:13
-1627,Algoma University,Canada,https://www.algomau.ca/,https://algomau.ca/academics/experiential-learning/career-hub/job-boards/,,medium,OK-2hop:OK:4
+1627,Algoma University,Canada,https://www.algomau.ca/,https://algomau.ca/careers/,,medium,OK-2hop:OK:4
 1628,Brock University,Canada,https://www.brocku.ca/,https://brocku.wd3.myworkdayjobs.com/brocku_careers,Workday,high,OK-2hop:OK:9
 1629,Laurentian University,Canada,https://www.laurentian.ca/,https://laurentian.ca/about/careers/faculty-vacancies,,medium,OK-2hop:OK:13
-1630,Lakehead University,Canada,https://www.lakeheadu.ca/,https://www.lakeheadu.ca/indigenous/recruitment-outreach,,medium,OK-2hop:OK:1
-1631,OCAD University,Canada,https://www.ocadu.ca/,https://tre.tbe.taleo.net/tre01/ats/careers/v2/jobSearch?act=redirectCwsV2&cws=37&org=OCADU,Taleo,high,OK-2hop:OK:9
-1632,Toronto Metropolitan University,Canada,https://www.torontomu.ca/,https://www.torontomu.ca/careers/indigenous-employment/,,medium,OK-2hop:OK:4
+1630,Lakehead University,Canada,https://www.lakeheadu.ca/,https://www.lakeheadu.ca/faculty-and-staff/departments/services/hr/employment-opportunities/faculty,,medium,OK-2hop:OK:1
+1631,OCAD University,Canada,https://www.ocadu.ca/,https://tre.tbe.taleo.net/tre01/ats/careers/v2/searchResults?org=OCADU&cws=37,Taleo,high,OK-2hop:OK:9
+1632,Toronto Metropolitan University,Canada,https://www.torontomu.ca/,https://careers.torontomu.ca/psc/hrcgprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_SCHJOB_FL&Action=U,,medium,OK-2hop:OK:4
 1633,University of Toronto,Canada,https://www.utoronto.ca/,https://jobs.utoronto.ca/go/All-Opportunities/2607117/,,medium,OK-2hop:OK:4
-1634,York University,Canada,https://www.yorku.ca/,https://www.yorku.ca/career-ready/work-opportunities/,,medium,OK-2hop:OK:3
-1635,University of Waterloo,Canada,https://www.uwaterloo.ca/,https://uwaterloo.ca/careers/current-opportunities,,medium,OK-2hop:OK:3
-1636,Wilfrid Laurier University,Canada,https://www.wlu.ca/,,,not_found,NO_MATCH [playwright]
-1637,University of Windsor,Canada,https://www.uwindsor.ca/,,,not_found,NO_MATCH [playwright]
+1634,York University,Canada,https://www.yorku.ca/,https://www.yorku.ca/vpepc/faculty-affairs/faculty-positions/,,medium,OK-2hop:OK:3
+1635,University of Waterloo,Canada,https://www.uwaterloo.ca/,https://uwaterloo.ca/careers/current-opportunities/faculty-opportunities,,medium,OK-2hop:OK:3
+1636,Wilfrid Laurier University,Canada,https://www.wlu.ca/,https://careers.wlu.ca/go/Academic-Positions/505047/,,not_found,NO_MATCH [playwright]
+1637,University of Windsor,Canada,https://www.uwindsor.ca/,https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs?sortBy=POSTING_DATES_DESC,,not_found,NO_MATCH [playwright]
 1638,University of Prince Edward Island,Canada,https://www.upei.ca/,https://www.upei.ca/hr/competitions?field_position_type_value=academic,,medium,OK-2hop:OK:10
-1639,Université du Québec en Outaouais,Canada,https://www.uqo.ca/,,,not_found,NO_MATCH [playwright]
-1640,Concordia University,Canada,https://www.concordia.ca/,https://www.concordia.ca/hr/jobs/employment-equity.html,,medium,OK-2hop:OK:5
-1641,McGill University,Canada,https://www.mcgill.ca/,https://wd3.myworkday.com/mcgill/d/home.htmld,Workday,high,OK-2hop:OK:6
+1639,Université du Québec en Outaouais,Canada,https://www.uqo.ca/,https://uqo.ca/direction-services/decanat-gestion-academique/postes-professeurs,,not_found,NO_MATCH [playwright]
+1640,Concordia University,Canada,https://www.concordia.ca/,https://www.concordia.ca/hr/jobs/openings.html#academic,,medium,OK-2hop:OK:5
+1641,McGill University,Canada,https://www.mcgill.ca/,https://mcgill.wd3.myworkdayjobs.com/mcgill_careers,Workday,high,OK-2hop:OK:6
 1642,Polytechnique Montréal,Canada,https://www.polymtl.ca/,,,not_found,NO_MATCH [playwright]
 1643,Université de Montréal,Canada,https://www.umontreal.ca/,,,not_found,NO_MATCH [playwright]
 1644,Université du Québec à Montréal,Canada,https://www.uqam.ca/,,,not_found,NO_MATCH [playwright]
-1645,École de technologie supérieure,Canada,https://www.etsmtl.ca/,,,not_found,NO_MATCH [playwright]
-1646,École des Hautes Études Commerciales (HEC Montréal),Canada,https://www.hec.ca/,,,not_found,NO_MATCH [playwright]
-1647,Université Laval,Canada,https://www.ulaval.ca/,,,not_found,NO_MATCH [playwright]
-1648,Université TÉLUQ,Canada,https://www.teluq.ca/,,,not_found,NO_MATCH [playwright]
-1649,Université du Québec à Rimouski,Canada,https://www.uqar.ca/,,,not_found,NO_MATCH [playwright]
+1646,École des Hautes Études Commerciales (HEC Montréal),Canada,https://www.hec.ca/,https://tre.tbe.taleo.net/tre01/ats/careers/v2/jobSearch?act=redirectCwsV2&cws=42&org=NYQEDG,,not_found,NO_MATCH [playwright]
+1647,Université Laval,Canada,https://www.ulaval.ca/,https://www.rh.ulaval.ca/emplois-disponibles/personnel-enseignant-et-de-recherche,,not_found,NO_MATCH [playwright]
+1649,Université du Québec à Rimouski,Canada,https://www.uqar.ca/,https://www.uqar.ca/en/the-institut-des-sciences-de-la-mer-of-the-universite-du-quebec-a-rimouski-ismer-uqar/opportunities/jobs-at-ismer-uqar/,,not_found,NO_MATCH [playwright]
 1650,Université du Québec en Abitibi-Témiscamingue,Canada,https://www.uqat.ca/,,,not_found,NO_MATCH [playwright]
 1651,Université du Québec à Chicoutimi,Canada,https://www.uqac.ca/,,,not_found,NO_MATCH [playwright]
-1652,Bishop's University,Canada,https://www.ubishops.ca/,https://www.ubishops.ca/human-resources/,,medium,OK-2hop:OK:4
-1653,Université de Sherbrooke,Canada,https://www.usherbrooke.ca/,,,not_found,NO_MATCH [playwright]
+1652,Bishop's University,Canada,https://www.ubishops.ca/,https://working.ubishops.ca/,,medium,OK-2hop:OK:4
+1653,Université de Sherbrooke,Canada,https://www.usherbrooke.ca/,https://www.usherbrooke.ca/recherche/en/udes/career-opportunities,,not_found,NO_MATCH [playwright]
 1654,Université du Québec à Trois-Rivières,Canada,https://www.uqtr.ca/,,,not_found,NO_MATCH [playwright]
-1655,University of Regina,Canada,https://www.uregina.ca/,http://www.peopleadmin.com/,PeopleAdmin,high,OK-2hop:OK:6
-1656,University of Saskatchewan,Canada,https://www.usask.ca/,https://usask.csod.com/ux/ats/careersite/14/home?c=usask,Cornerstone OnDemand,high,OK-2hop:OK:7
+1655,University of Regina,Canada,https://www.uregina.ca/,https://urcareers.uregina.ca/postings/search?utf8=%E2%9C%93&query=&query_v0_posted_at_date=&435=&225=&1245%5B%5D=2&commit=Search,PeopleAdmin,high,OK-2hop:OK:6
+1656,University of Saskatchewan,Canada,https://www.usask.ca/,https://usask.csod.com/ux/ats/careersite/14/home?c=usask&date=WithinThirtyDays&_gl=1*8k2uoh*_ga*MTgxNDk1ODUyNy4xNzg4MDMyNzk4*_ga_7P8QY8C9QK*czE3ODgwMzI3OTckbzEkZzAkdDE3ODgwMzI3OTckajYwJGwwJGgw,Cornerstone OnDemand,high,OK-2hop:OK:7
 1657,University of Innsbruck,Austria,https://www.uibk.ac.at/,https://lfuonline.uibk.ac.at/public/karriereportal.home?lang=de,,not_found,NO_MATCH [playwright]
 1658,TU Wien,Austria,https://www.tuwien.at/,https://jobs.tuwien.ac.at/jobs?jobProfiles=Associate%20Professor_in|Laufbahnstelle|Professuren|Rektor_in,,medium,OK-2hop:OK:7
 1659,University of Vienna,Austria,https://www.univie.ac.at/,https://jobs.univie.ac.at/go/Tenure-Track-(E)/8877301/,,medium,OK-2hop:OK:6
