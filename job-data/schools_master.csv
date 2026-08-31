@@ -156,7 +156,6 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes
 225,Stetson University,US,https://www.stetson.edu/,https://www.stetson.edu/administration/human-resources/job-opportunities.php,,medium,OK:6 [playwright]
 228,Nova Southeastern University,US,https://www.nova.edu/,https://www.nova.edu/resources/employment.html,,medium,OK-2hop:OK:4
 229,Florida Gulf Coast University,US,https://www.fgcu.edu/,https://jobs.fgcu.edu/jobs/search/search-page-faculty,,medium,OK-2hop:OK:14
-230,Hodges University,US,https://www.hodges.edu/,,,not_found,playwright_failed:Error
 231,University of Florida,US,https://www.ufl.edu/,https://jobs.ufl.edu/career-growth/professional-development/,,medium,OK-2hop:OK:7
 235,Jacksonville University,US,https://www.ju.edu/index.php,https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=77bf9053-07ed-47ba-b601-d78b61854199&ccId=9200563802212_2&lang=en_US,ADP,high,OK-2hop:OK:16
 236,University of North Florida,US,https://www.unf.edu/,https://unf.wd5.myworkdayjobs.com/unfjobs,Workday,high,OK:8
@@ -236,7 +235,6 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes
 344,Simpson College,US,https://simpson.edu/,https://apply.interfolio.com/191426,Interfolio,high,OK-2hop:OK:7
 345,University of Iowa,US,https://uiowa.edu/,https://jobs.uiowa.edu/,,medium,OK-2hop:OK:5
 346,Graceland University-Lamoni,US,https://www.graceland.edu/,https://sfp.ocs.oraclecloud.com/graceland/portal/saml),Oracle Recruiting Cloud,high,OK:6
-347,Iowa Wesleyan University,US,https://www.iw.edu/,,,not_found,playwright_failed:Error
 348,Cornell College,US,https://www.cornellcollege.edu/,,,not_found,NO_MATCH [playwright]
 349,Northwestern College,US,https://www.nwciowa.edu/,https://www.nwciowa.edu/employment,,medium,OK-2hop:OK:4
 350,William Penn University,US,https://www.wmpenn.edu/,https://www.wmpenn.edu/adjunct-instructor-in-english-adjunct-faculty-position/,,medium,OK-2hop:OK:9
@@ -497,7 +495,6 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes
 642,Cornerstone University,US,https://www.cornerstone.edu/,https://www.cornerstone.edu/about/employment/employment-applications/,,medium,OK-2hop:OK:4
 643,Davenport University,US,https://www.davenport.edu/,https://post.davenport.edu/category/careers/,,medium,OK-2hop:OK:2
 644,Kuyper College,US,https://www.kuyper.edu/,https://www.kuyper.edu/employment/,,medium,OK-2hop:OK:2
-645,Finlandia University,US,https://www.finlandia.edu/,,,not_found,playwright_failed:Error
 646,Hope College,US,https://www.hope.edu/,https://hope.edu/offices/boerigter-center/,,medium,OK-2hop:OK:2
 647,Michigan Technological University,US,https://www.mtu.edu/,https://www.mtu.edu/career/on-campus-jobs/index.html,,medium,OK-2hop:OK:6
 648,Cleary University,US,https://www.cleary.edu/,https://recruitingbypaycor.com/career/CareerHome.action?clientId=8a7883d096d0d55a019731393c7f56d9,,medium,OK-2hop:OK:3
@@ -569,7 +566,6 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes
 726,Missouri University of Science and Technology,US,https://www.mst.edu/,https://jobs.mst.edu/,,medium,OK-2hop:OK:7
 727,Lindenwood University,US,https://www.lindenwood.edu/,https://lindenwood.wd1.myworkdayjobs.com/CareerOpportunities,Workday,high,OK-2hop:OK:8
 728,Missouri Western State University,US,https://www.missouriwestern.edu/,https://mwsu.peopleadmin.com/,PeopleAdmin,high,OK:9
-729,Fontbonne University,US,https://www.fontbonne.edu/,,,not_found,NO_MATCH [playwright]
 731,Maryville University of Saint Louis,US,https://www.maryville.edu/,https://careers.maryville.edu/?_ga=2.65064999.867605969.1689610591-885137803.1623179314,,medium,OK-2hop:OK:7
 733,Saint Louis University,US,https://www.slu.edu/,https://slu.wd5.myworkdayjobs.com/Careers,Workday,high,OK-2hop:OK:10
 734,University of Missouri-St Louis,US,https://www.umsl.edu/,https://www.umsl.edu/services/hrs/careers/index.html,,medium,OK-2hop:OK:2
@@ -615,7 +611,6 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes
 794,East Carolina University,US,https://www.ecu.edu/,https://ecu.peopleadmin.com//postings/search?utf8=%E2%9C%93&query=&query_v0_posted_at_date=&query_position_type_id%5B%5D=3&435=&commit=Search,PeopleAdmin,high,OK-2hop:OK:11
 795,Lenoir-Rhyne University,US,https://www.lr.edu/,https://www.lr.edu/work-at-lr/human-resources,,medium,OK-2hop:OK:3
 796,High Point University,US,https://www.highpoint.edu/,https://highpoint.wd503.myworkdayjobs.com/Highpoint-Faculty,Workday,high,OK-2hop:OK:11
-798,St. Andrews University,US,https://www.sa.edu/,,,not_found,NO_MATCH [playwright]
 799,Mars Hill University,US,https://www.mhu.edu/,https://jobs.appone.com/marshilluniversity,,medium,OK:4
 800,Pfeiffer University,US,https://www.pfeiffer.edu/,https://www.pfeiffer.edu/career-success/,,medium,OK-2hop:OK:2
 802,University of Mount Olive,US,https://umo.edu/,https://www.umo.edu/employment/,,medium,OK-2hop:OK:2
@@ -709,12 +704,10 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes
 902,University of Nevada-Las Vegas,US,https://www.unlv.edu/,https://nshe.wd1.myworkdayjobs.com/UNLV-External,Workday,high,OK-2hop:OK:6
 904,University of Nevada-Reno,US,https://www.unr.edu/,https://nshe.wd1.myworkdayjobs.com/UNR-external,Workday,high,OK-2hop:OK:6
 905,Excelsior University,US,https://www.excelsior.edu/,https://www.excelsior.edu/career-training,,medium,OK-2hop:OK:2
-906,The College of Saint Rose,US,https://www.strose.edu/,,,not_found,playwright_failed:Error
 907,University at Albany,US,https://www.albany.edu/,https://albany.interviewexchange.com/jobsearchfrm.jsp,InterviewExchange,high,OK-2hop:OK:8
 908,Alfred University,US,https://www.alfred.edu/,https://www.alfred.edu/jobs-at-alfred/index.cfm,,medium,OK-2hop:OK:2
 909,Daemen University,US,https://www.daemen.edu/,,,not_found,NO_MATCH [playwright]
 910,Bard College,US,https://www.bard.edu/,https://www.bard.edu/humanresources/employment/,,medium,OK-2hop:OK:5
-911,Wells College,US,https://www.wells.edu/,,,not_found,NO_MATCH [playwright]
 912,SUNY Brockport,US,https://www.brockport.edu/,https://www.brockport.edu/support/human-resources/careers/,,medium,OK-2hop:OK:5
 913,CUNY Lehman College,US,https://www.lehman.edu/,https://cuny.jobs/campus/lehman-college/job-category/faculty/jobs/,,medium,OK:4
 914,Fordham University,US,https://www.fordham.edu/,https://www.fordham.edu/info/30759/faculty_opportunities,,medium,OK-2hop:OK:10
@@ -728,13 +721,11 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes
 923,Long Island University,US,https://www.liu.edu/,https://jobs.liu.edu/job_details/4967,,medium,OK-2hop:OK:12
 924,Canisius University,US,https://www.canisius.edu/,https://canisiusuniversity-puzzlehr.icims.com/,iCIMS,high,OK-2hop:OK:9
 925,D'Youville  University,US,https://www.dyu.edu/,https://dyouville-university.prismhr-hire.com/job/726161/college-of-osteopathic-medicine-chair-primary-care,,medium,OK-2hop:OK:2
-926,Medaille University,US,https://www.medaille.edu/,,,not_found,playwright_failed:Error
 927,SUNY Buffalo State University,US,https://suny.buffalostate.edu/,https://jobs.buffalostate.edu/,,medium,OK-2hop:OK:6
 928,University at Buffalo,US,https://www.buffalo.edu/,https://www.buffalo.edu/administrative-services/careers-at-ub/ny-helps-program.html,,medium,OK-2hop:OK:5
 929,Villa Maria College,US,https://www.villa.edu/,https://www.villa.edu/about-us/employment-opportunities/employment-application/,,medium,OK-2hop:OK:3
 930,SUNY College of Technology at Canton,US,https://www.canton.edu/,https://canton-accommodate.symplicity.com/,Symplicity,high,OK:6
 931,St Lawrence University,US,https://www.stlawu.edu/,https://careerhub-clarkson.icims.com/jobs/search?hashed=-625885781&mobile=false&width=1246&height=500&bga=true&needsRedirect=false&jan1offset=-300&jun1offset=-240,iCIMS,high,OK-2hop:OK:8
-932,Cazenovia College,US,https://www.cazenovia.edu/,,,not_found,NO_MATCH [playwright]
 933,Hamilton College,US,https://www.hamilton.edu/,,,not_found,playwright_failed:Error
 934,SUNY College of Agriculture and Technology at Cobleskill,US,https://www.cobleskill.edu/,https://cobleskill.interviewexchange.com/static/clients/474SCM1/index.jsp,InterviewExchange,high,OK:8
 935,State University of New York at Cortland,US,https://www2.cortland.edu/,https://www2.cortland.edu/offices/hr/jobs,,medium,OK-2hop:OK:3
@@ -756,7 +747,6 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes
 953,Siena College,US,https://www.siena.edu/,https://siena.interviewexchange.com/jobsearchfrm.jsp,InterviewExchange,high,OK-2hop:OK:8
 954,State University of New York at New Paltz,US,https://www.newpaltz.edu/,https://www.newpaltz.edu/hr/displayjobs.php?type=Faculty,,medium,OK-2hop:OK:12
 955,Iona University,US,https://www.iona.edu/,https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=F28471DFA0F4183976163E181A695BE1,,medium,OK-2hop:OK:5
-956,Alliance University,US,https://www.allianceu.edu/,,,not_found,NO_MATCH [playwright]
 957,Barnard College,US,https://www.barnard.edu/,https://barnard.wd1.myworkdayjobs.com/Faculty,Workday,high,OK-2hop:OK:11
 959,Boricua College,US,https://www.boricuacollege.edu/,https://www.boricuacollege.edu/careers,,medium,OK-2hop:OK:2
 960,CUNY Bernard M Baruch College,US,https://www.baruch.cuny.edu/,https://cuny.jobs/campus/baruch-college/job-category/faculty/jobs/,Interfolio,high,OK:6
@@ -821,12 +811,10 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes
 1026,Bowling Green State University-Main Campus,US,https://www.bgsu.edu/,https://www.bgsu.edu/provost/resources/employment-recruitment/faculty-employment-opportunities.html,,medium,OK-2hop:OK:4
 1029,Wright State University-Lake Campus,US,https://lake.wright.edu/,https://jobs.wright.edu/,,medium,OK-2hop:OK:5
 1031,Mount St. Joseph University,US,https://www.msj.edu/,https://www.msj.edu/employment-at-the-university/index.html,,medium,OK-2hop:OK:3
-1032,Union Institute & University,US,https://www.myunion.edu/,,,not_found,playwright_failed:Error
 1033,University of Cincinnati-Main Campus,US,https://www.uc.edu/,https://jobs.uc.edu/go/Faculty/7912200/,,medium,OK-2hop:OK:14
 1034,Xavier University,US,https://www.xavier.edu/,https://xavier.wd108.myworkdayjobs.com/XavierCareers,Workday,high,OK-2hop:OK:6
 1036,Case Western Reserve University,US,https://www.case.edu/,https://apply.interfolio.com/31694/positions,Interfolio,high,OK-2hop:OK:15
 1037,Cleveland State University,US,https://www.csuohio.edu/,https://www.csuohio.edu/hrd/hr-employment,,medium,OK-2hop:OK:3
-1038,Notre Dame College,US,https://www.notredamecollege.edu/,,,not_found,playwright_failed:TimeoutError
 1039,Capital University,US,https://www.capital.edu/,https://capital.applicantpro.com/jobs/,,medium,OK-2hop:OK:2
 1041,Franklin University,US,https://www.franklin.edu/,https://www.franklin.edu/blog/careers,,medium,OK-2hop:OK:2
 1042,Ohio Dominican University,US,https://www.ohiodominican.edu/,https://www.ohiodominican.edu/about/human-resources/index.html,,medium,OK-2hop:OK:4
@@ -892,7 +880,6 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes
 1114,Western Oregon University,US,https://wou.edu/,https://wou.edu/hr/employment/jobs/,,medium,OK-2hop:OK:5
 1115,George Fox University,US,https://www.georgefox.edu/,https://www.georgefox.edu/offices/hr/careers/index.html,,medium,OK-2hop:OK:5
 1116,Lewis & Clark College,US,https://www.lclark.edu/,https://www.lclark.edu/offices/human_resources/jobs/,,medium,OK-2hop:OK:3
-1117,Multnomah University,US,https://www.multnomah.edu/,,,not_found,NO_MATCH [playwright]
 1118,Portland State University,US,https://www.pdx.edu/,https://jobs.hrc.pdx.edu/,,medium,OK-2hop:OK:7
 1119,Reed College,US,https://www.reed.edu/,https://reed-college.breezy.hr/,Breezy,high,OK-2hop:OK:10
 1120,University of Portland,US,https://www.up.edu/,https://uportland.peopleadmin.com/,PeopleAdmin,high,OK:8
@@ -914,7 +901,6 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes
 1137,Pennsylvania State University-Penn State Lehigh Valley,US,https://lehighvalley.psu.edu/,https://psu.wd1.myworkdayjobs.com/PSU_Academic?locations=c80ecc155645012544a5405fc50190d3,Workday,high,OK-2hop:OK:6
 1138,Wilson College,US,https://www.wilson.edu/,https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=04C041120ED4B4CA39C09ACAC69625CF,,medium,OK-2hop:OK:4
 1139,Widener University,US,https://www.widener.edu/,https://www.widener.edu/academics/academic-resources-success/academic-career-support,,medium,OK-2hop:OK:11
-1141,Clarks Summit University,US,https://www.clarkssummitu.edu/,,,not_found,NO_MATCH [playwright]
 1142,Ursinus College,US,https://www.ursinus.edu/,https://www.ursinus.edu/offices/human-resources/employment-opportunities/,,medium,OK-2hop:OK:4
 1143,Mount Aloysius College,US,https://www.mtaloy.edu/,https://recruitingbypaycor.com/career/CareerHome.action?clientId=8a7883d098156f9c01982e34a60801d2,,medium,OK-2hop:OK:5
 1144,Misericordia University,US,https://www.misericordia.edu/,https://www.misericordia.edu/campus-community/other-offices/human-resources/employment-opportunities,,medium,OK-2hop:OK:4
@@ -974,7 +960,6 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes
 1200,La Roche University,US,https://www.laroche.edu/,https://laroche.edu/About/Employment_Opportunities/Faculty_Openings/,,medium,OK-2hop:OK:11
 1201,Point Park University,US,https://www.pointpark.edu/,https://www.pointpark.edu/careerready/index,,medium,OK-2hop:OK:2
 1202,University of Pittsburgh-Pittsburgh Campus,US,https://www.pitt.edu/,https://cfopitt.taleo.net/careersection/pitt_internal/jobsearch.ftl?lang=en&portal=10100023232,Taleo,high,OK-2hop:OK:6
-1203,Cabrini University,US,https://www.cabrini.edu/,,,not_found,playwright_failed:Error
 1204,Albright College,US,https://www.albright.edu/home/,https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=c4e80d96-7749-44bb-aa20-2c7594475725&ccId=19000101_000001&source=CC2&lang=en_US&selectedMenuKey=CurrentOpenings,ADP,high,OK-2hop:OK:9
 1205,Alvernia University,US,https://www.alvernia.edu/,https://www.alvernia.edu/community-engagement/holleran-center-community-and-global-engagement/holleran-center-community-service%C2%A0,,medium,OK:1
 1206,Pennsylvania State University-Penn State Berks,US,https://berks.psu.edu/,https://psu.wd1.myworkdayjobs.com/PSU_Academic?locations=a85e9b4f6d2001e9e53607fbc4019110,,not_found,NO_MATCH [playwright]
@@ -1047,7 +1032,6 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes
 1287,University of South Carolina-Columbia,US,https://www.sc.edu/,https://www.sc.edu/experience/career-prep/index.php,,medium,OK-2hop:OK:2
 1288,Coastal Carolina University,US,https://www.coastal.edu/,https://www.coastal.edu:443/hreo/,,medium,OK-2hop:OK:3
 1291,Francis Marion University,US,https://www.fmarion.edu/,https://www.fmarion.edu/availablepositions/,,medium,OK-2hop:OK:3
-1292,Limestone University,US,https://www.limestone.edu/,,,not_found,NO_MATCH [playwright]
 1294,Furman University,US,https://www.furman.edu/,https://furman.wd115.myworkdayjobs.com/Furman_Careers,Workday,high,OK-2hop:OK:8
 1296,Lander University,US,https://www.lander.edu/,https://www.lander.edu/about/offices-departments/human-resources/employment-opportunities/faculty-vacancies.html,,medium,OK-2hop:OK:11
 1297,Coker University,US,https://coker.edu/,https://www.coker.edu/offices-services/careers/faculty-jobs/,,medium,OK-2hop:OK:13
@@ -1057,7 +1041,6 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes
 1303,University of South Carolina-Upstate,US,https://www.uscupstate.edu/,https://uscupstate.edu/employment/faculty-positions/,,medium,OK-2hop:OK:11
 1304,Wofford College,US,https://www.wofford.edu/,https://wofford.wd5.myworkdayjobs.com/Wofford,Workday,high,OK:8
 1307,Northern State University,US,https://www.northern.edu/,https://northern.edu/about/departments/human-resources,,medium,OK-2hop:OK:3
-1308,Presentation College,US,https://www.presentation.edu/,,,not_found,playwright_failed:Error
 1310,South Dakota State University,US,https://www.sdstate.edu/,,,not_found,NO_MATCH [playwright]
 1311,Dakota State University,US,https://dsu.edu/,https://dsu.edu/careers/benefits.html,,medium,OK-2hop:OK:4
 1312,Dakota Wesleyan University,US,https://www.dwu.edu/,https://www.dwu.edu/employment,,medium,OK-2hop:OK:2
@@ -1202,7 +1185,6 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes
 1527,Heritage University,US,https://www.heritage.edu/,,,not_found,NO_MATCH [playwright]
 1528,Whitman College,US,https://www.whitman.edu/,https://whitman-advocate.symplicity.com/public_report/index.php,Symplicity,high,OK:6
 1529,Lawrence University,US,https://www.lawrence.edu/,https://lawrence.peopleadmin.com/,PeopleAdmin,high,OK:8
-1530,Northland College,US,https://www.northland.edu/,,,not_found,NO_MATCH [playwright]
 1531,Beloit College,US,https://www.beloit.edu/,https://www.beloit.edu/offices/human-resources/,,medium,OK-2hop:OK:1
 1532,Herzing University-Brookfield,US,https://www.herzing.edu/,https://recruiting2.ultipro.com/HER1009HRZ/JobBoard/267d2e37-abff-4559-8a18-a754503d3749,UKG/Ultipro,high,OK:9
 1533,Ottawa University-Milwaukee,US,https://www.ottawa.edu/,https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=AB201C499D53A5D603D5BE296513B383,,medium,OK-2hop:OK:2 [playwright]
@@ -1219,7 +1201,6 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes
 1544,University of Wisconsin-Madison,US,https://www.wisc.edu/,https://jobs.wisc.edu/,,medium,OK:5
 1545,University of Wisconsin-Stout,US,https://www.uwstout.edu/,https://wisconsin.wd1.myworkdayjobs.com/UW_Comprehensives?primaryLocation=5adf054562b610142602517fd4330000,Workday,high,OK-2hop:OK:8
 1547,Alverno College,US,https://www.alverno.edu/,https://www.alverno.edu/Career-Recruit-a-Grad,,medium,OK-2hop:OK:3
-1548,Cardinal Stritch University,US,https://www.stritch.edu/,,,not_found,NO_MATCH [playwright]
 1549,Marquette University,US,https://www.marquette.edu/,http://www.marquette.edu/hr/,,medium,OK-2hop:OK:2
 1550,Milwaukee School of Engineering,US,https://www.msoe.edu/,https://www.msoe.edu/about-msoe/careers-at-msoe/employment-opportunities/faculty-positions/,,medium,OK-2hop:OK:14
 1551,Mount Mary University,US,https://www.mtmary.edu/,https://mtmary.edu/about/employment.html,,medium,OK-2hop:OK:2
