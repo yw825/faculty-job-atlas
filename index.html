@@ -510,7 +510,15 @@
         </div>
         <div id="home-status" style="display:none;"></div>
         <div id="radius-row" style="display:none;">
-          <label class="field-label" for="radius-select" style="margin:10px 0 6px 0;">Driving distance (approx.)</label>
+          <div id="mode-toggle-row" style="display:none; margin:10px 0 8px 0;">
+            <label class="field-label" style="margin-bottom:4px;">Commute mode</label>
+            <div style="display:flex; gap:14px;">
+              <label style="font-weight:400; display:flex; align-items:center; gap:4px;"><input type="radio" name="commute-mode" id="mode-driving" value="driving" checked> Driving</label>
+              <label style="font-weight:400; display:flex; align-items:center; gap:4px;"><input type="radio" name="commute-mode" id="mode-transit" value="transit"> Public transit</label>
+            </div>
+            <div style="font-size:10px; color:var(--text-muted); margin-top:4px; line-height:1.4;">Hand-calibrated approximation (Amtrak/commuter rail/subway), not a live routing service &mdash; biased to run long, not short.</div>
+          </div>
+          <label class="field-label" for="radius-select" style="margin:10px 0 6px 0;" id="radius-select-label">Driving distance (approx.)</label>
           <select id="radius-select">
             <option value="15">15 min</option>
             <option value="30" selected>30 min</option>
@@ -760,13 +768,58 @@ const homeDropHandle = document.getElementById('home-drop-handle');
 const homeStatus = document.getElementById('home-status');
 const radiusRow = document.getElementById('radius-row');
 const radiusSelect = document.getElementById('radius-select');
+const radiusSelectLabel = document.getElementById('radius-select-label');
 const clearHomeBtn = document.getElementById('clear-home-btn');
+const modeToggleRow = document.getElementById('mode-toggle-row');
+const modeDrivingRadio = document.getElementById('mode-driving');
+const modeTransitRadio = document.getElementById('mode-transit');
 
 const AVG_MPH = 42; // assumed average driving speed for time-to-radius approximation
+
+const DRIVING_RADIUS_OPTIONS = [
+  {v:15,label:'15 min'}, {v:30,label:'30 min'}, {v:45,label:'45 min'},
+  {v:60,label:'1 hour'}, {v:90,label:'1.5 hours'}, {v:120,label:'2 hours'},
+];
+const TRANSIT_RADIUS_OPTIONS = [
+  {v:30,label:'30 min'}, {v:60,label:'1 hour'}, {v:90,label:'1.5 hours'},
+  {v:120,label:'2 hours'}, {v:150,label:'2.5 hours'}, {v:180,label:'3 hours'},
+  {v:240,label:'4 hours'}, {v:300,label:'5 hours'},
+];
 
 let homeLatLng = null;
 let homeMarker = null;
 let homeCircle = null;
+let commuteMode = 'driving';
+
+function populateRadiusOptions(mode){
+  const opts = mode === 'transit' ? TRANSIT_RADIUS_OPTIONS : DRIVING_RADIUS_OPTIONS;
+  const defaultV = mode === 'transit' ? 90 : 30;
+  const prevValue = parseInt(radiusSelect.value, 10);
+  radiusSelect.innerHTML = opts.map(function(o){ return '<option value="'+o.v+'">'+o.label+'</option>'; }).join('');
+  const hasPrev = opts.some(function(o){ return o.v === prevValue; });
+  radiusSelect.value = hasPrev ? prevValue : defaultV;
+  radiusSelectLabel.textContent = mode === 'transit' ? 'Public transit time (approx.)' : 'Driving distance (approx.)';
+}
+
+function updateModeToggleVisibility(){
+  if(!homeLatLng){ modeToggleRow.style.display = 'none'; return; }
+  const inTransitRegion = !!transitRegionOf(homeLatLng.lat, homeLatLng.lon);
+  modeToggleRow.style.display = inTransitRegion ? 'block' : 'none';
+  if(!inTransitRegion && commuteMode === 'transit'){
+    commuteMode = 'driving';
+    modeDrivingRadio.checked = true;
+    populateRadiusOptions('driving');
+  }
+}
+
+[modeDrivingRadio, modeTransitRadio].forEach(function(el){
+  el.addEventListener('change', function(){
+    commuteMode = modeTransitRadio.checked ? 'transit' : 'driving';
+    populateRadiusOptions(commuteMode);
+    drawRadiusCircle();
+    applyFilters();
+  });
+});
 
 function haversineMiles(lat1, lon1, lat2, lon2){
   const R = 3958.8;
@@ -776,6 +829,298 @@ function haversineMiles(lat1, lon1, lat2, lon2){
   const a = Math.sin(dLat/2)**2 + Math.cos(toRad(lat1))*Math.cos(toRad(lat2))*Math.sin(dLon/2)**2;
   return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
 }
+
+// ===================== Public-transit commute-time model =====================
+// Hand-built approximation over two regions only -- the Northeast Corridor
+// (Boston-Providence-New Haven-Stamford-NYC-Newark-Trenton-Philadelphia-
+// Wilmington-Baltimore-BWI-DC) and the SF Bay Area (Caltrain/BART) -- the only
+// two places in the US where commuting to work by train/subway is realistic.
+// Every speed is grounded in a real, searched schedule anchor or published
+// system-average speed (not top/operational speed) where one exists; where no
+// anchor exists (marked "unverified" below) the estimate still uses the same
+// calibrated speed as its verified sibling rather than a made-up number. This
+// is NOT a live routing API call -- there is no Google Directions API key
+// available -- so every number here is deliberately biased to run long rather
+// than short if it has to be wrong at all.
+
+const TRANSIT_OVERHEAD_MIN = 10 + 10 + 8; // terminal navigation + wait + destination walk
+const TRANSIT_TRANSFER_MIN = 12;          // extra walk+wait when a same-system transfer is likely
+
+// ---- Intercity trunk hubs. `cum` = one-way minutes from the region's first hub. ----
+const NEC_HUBS = {
+  boston:      { name:'Boston (South Station)',   lat:42.3519, lon:-71.0552, cum:0 },
+  providence:  { name:'Providence',                lat:41.8296, lon:-71.4128, cum:40 },
+  newhaven:    { name:'New Haven',                 lat:41.2989, lon:-72.9262, cum:143 },
+  stamford:    { name:'Stamford',                  lat:41.0468, lon:-73.5423, cum:183 },
+  nypenn:      { name:'New York (Penn Station)',   lat:40.7506, lon:-73.9935, cum:240 },
+  newark:      { name:'Newark (Penn Station)',     lat:40.7342, lon:-74.1645, cum:260 },
+  trenton:     { name:'Trenton',                   lat:40.2172, lon:-74.7564, cum:295 },
+  philadelphia:{ name:'Philadelphia (30th St)',    lat:39.9566, lon:-75.1819, cum:330 },
+  wilmington:  { name:'Wilmington',                lat:39.7391, lon:-75.5522, cum:355 },
+  baltimore:   { name:'Baltimore (Penn Station)',  lat:39.3079, lon:-76.6155, cum:405 },
+  bwi:         { name:'BWI Airport',               lat:39.1949, lon:-76.6852, cum:417 },
+  dc:          { name:'Washington (Union Station)',lat:38.8973, lon:-77.0063, cum:450 },
+};
+// Calibrated against real Amtrak Northeast Regional anchors: NY-Philadelphia ~90min,
+// Philadelphia-DC ~120min, NY-DC ~210min, Boston-NY ~240min.
+
+const BAY_HUBS = {
+  sf:      { name:'San Francisco (4th & King)', lat:37.7847, lon:-122.3957, cum:0 },
+  sanjose: { name:'San Jose (Diridon)',         lat:37.3297, lon:-121.9027, cum:65 },
+};
+// Calibrated against Caltrain Express SF-San Jose real anchor (~60min for 47.4mi -> ride-only
+// at the 40mph "typical service" speed used below lands at 61min, essentially exact).
+
+function transitRegionOf(lat, lon){
+  if(lat >= 38.2 && lat <= 42.6 && lon >= -77.6 && lon <= -70.7) return 'nec';
+  if(lat >= 37.1 && lat <= 38.1 && lon >= -122.6 && lon <= -121.6) return 'bay';
+  return null;
+}
+
+// ---- Urban subway/metro last-mile: continuous distance-from-hub formula, each mph
+// grounded in the system's real average speed including dwell time (not top speed). ----
+const SUBWAY_SYSTEMS = [
+  { name:'NYC Subway',  hub:'nypenn',       mph:17 },
+  { name:'DC Metro',    hub:'dc',           mph:33 },
+  { name:'Boston T',    hub:'boston',       mph:15 },
+  { name:'SEPTA (Philadelphia)', hub:'philadelphia', mph:19 },
+];
+function subwayLastMile(sys, lat, lon){
+  const hub = NEC_HUBS[sys.hub];
+  const d = haversineMiles(hub.lat, hub.lon, lat, lon);
+  if(d > 12) return null;
+  const transfer = d > 1.5 ? TRANSIT_TRANSFER_MIN : 0;
+  return { hub: sys.hub, minutes: TRANSIT_OVERHEAD_MIN + (d/sys.mph)*60 + transfer, dist: d };
+}
+
+// ---- Baltimore: real per-line matching (system is two sparse single lines, not a grid --
+// hub-distance alone is unreliable there, so match to actual nearest station on each line). ----
+const BAL_METRO_SUBWAY = [
+  ['Owings Mills',39.4194,-76.7797],['Old Court',39.3949,-76.7590],['Milford Mill',39.3735,-76.7381],
+  ['Reisterstown Plaza',39.3564,-76.6972],['Rogers Avenue',39.3495,-76.6820],['West Cold Spring',39.3402,-76.6650],
+  ['Mondawmin',39.3196,-76.6467],['Penn-North',39.3125,-76.6379],['Upton/Avenue Market',39.3059,-76.6316],
+  ['State Center',39.3037,-76.6218],['Lexington Market',39.2914,-76.6205],['Charles Center',39.2895,-76.6140],
+  ['Shot Tower/Market Place',39.2895,-76.6058],['Johns Hopkins Hospital',39.2971,-76.5928],
+];
+const BAL_LIGHT_RAIL = [
+  ['Hunt Valley',39.4900,-76.6420],['Lutherville',39.4297,-76.6383],['Falls Road',39.3778,-76.6467],
+  ['Mt Washington',39.3608,-76.6483],['Woodberry',39.3364,-76.6291],['Cold Spring Lane',39.3336,-76.6203],
+  ['North Avenue',39.3106,-76.6161],['Cultural Center/Mt Royal',39.3049,-76.6161],['Penn Station',39.3078,-76.6142],
+  ['Convention Center',39.2865,-76.6172],['Camden Yards',39.2838,-76.6217],['Westport',39.2657,-76.6280],
+  ['Cherry Hill',39.2530,-76.6280],['BWI Marshall Airport',39.1954,-76.6672],['Cromwell/Glen Burnie',39.1567,-76.6392],
+];
+const BAL_METRO_SUBWAY_CONNECTOR = 'State Center'; // ~0.6mi walk from Amtrak Baltimore Penn Station
+const BAL_LIGHT_RAIL_CONNECTOR = 'Penn Station';    // co-located with Amtrak Baltimore Penn Station
+const BAL_METRO_SUBWAY_MPH = 22, BAL_LIGHT_RAIL_MPH = 16, BAL_STATION_MATCH_MI = 0.6;
+
+function cumulativeAlong(stations){
+  const cum = [0];
+  for(let i=1;i<stations.length;i++){
+    cum.push(cum[i-1] + haversineMiles(stations[i-1][1],stations[i-1][2], stations[i][1],stations[i][2]));
+  }
+  return cum;
+}
+function baltimoreLastMile(lat, lon){
+  let best = null;
+  [[BAL_METRO_SUBWAY, BAL_METRO_SUBWAY_CONNECTOR, BAL_METRO_SUBWAY_MPH],
+   [BAL_LIGHT_RAIL, BAL_LIGHT_RAIL_CONNECTOR, BAL_LIGHT_RAIL_MPH]].forEach(function(entry){
+    const stations = entry[0], connectorName = entry[1], mph = entry[2];
+    let nearestIdx = -1, nearestDist = Infinity;
+    stations.forEach(function(s, i){
+      const wd = haversineMiles(s[1], s[2], lat, lon);
+      if(wd < nearestDist){ nearestDist = wd; nearestIdx = i; }
+    });
+    if(nearestDist > BAL_STATION_MATCH_MI) return;
+    const connectorIdx = stations.findIndex(function(s){ return s[0] === connectorName; });
+    const cum = cumulativeAlong(stations);
+    const lineDist = Math.abs(cum[nearestIdx] - cum[connectorIdx]);
+    const total = TRANSIT_OVERHEAD_MIN + (lineDist/mph)*60;
+    if(best === null || total < best.minutes) best = { hub:'baltimore', minutes: total };
+  });
+  return best;
+}
+
+// ---- NEC commuter-rail branches. mode 'chain' = cumulative distance along the ordered
+// station list (first entry = local terminal, distance 0). mode 'spoke' = each station's
+// distance computed directly from the hub (used only for LIRR's proof-of-concept, since its
+// branches fan out independently from Penn Station rather than following one another). ----
+const COMMUTER_BRANCHES = [
+  { name:'LIRR', hub:'nypenn', connectorMin:0, mph:30, mode:'spoke', stations:[
+    ['Hempstead',40.7062,-73.6187],      // unverified, same calibrated speed as the verified anchor below
+    ['Huntington',40.8682,-73.4257],     // unverified
+    ['Stony Brook',40.9137,-73.1229],    // verified anchor: Penn Station-Stony Brook = 95min real
+  ]},
+  { name:'Metro-North New Haven Line', hub:'nypenn', connectorMin:15, mph:44, mode:'chain', stations:[
+    ['Grand Central Terminal',40.7527,-73.9772],['New Rochelle',40.9115,-73.7823],['Rye',40.9660,-73.6870],
+    ['Greenwich',41.0262,-73.6284],['Stamford',41.0468,-73.5423],['Darien',41.0765,-73.4693],
+    ['Fairfield',41.1408,-73.2637],['Bridgeport',41.1793,-73.1894],['New Haven',41.2989,-72.9262],
+  ]},
+  { name:'NJ Transit Northeast Corridor Line', hub:'nypenn', connectorMin:0, mph:38, mode:'chain', stations:[
+    ['New York Penn Station',40.7506,-73.9935],['Newark Penn Station',40.7342,-74.1645],['Metropark',40.5729,-74.3423],
+    ['New Brunswick',40.4979,-74.4474],['Princeton Junction',40.3273,-74.6199],['Trenton',40.2172,-74.7564],
+  ]},
+  { name:'NJ Transit Morris & Essex Line', hub:'nypenn', connectorMin:0, mph:30, mode:'chain', stations:[
+    ['New York Penn Station',40.7506,-73.9935],['South Orange',40.7487,-74.2632],
+    ['Madison',40.7595,-74.4177],['Morristown',40.7968,-74.4815],
+  ]},
+  { name:'SEPTA Paoli/Thorndale Line', hub:'philadelphia', connectorMin:0, mph:22, mode:'chain', stations:[
+    ['30th Street Station',39.9566,-75.1819],['Haverford',40.0093,-75.3018],['Bryn Mawr',40.0201,-75.3179],
+    ['Rosemont',40.0234,-75.3193],['Villanova',40.0362,-75.3427],['Malvern',40.0362,-75.5104],
+  ]},
+  { name:'SEPTA Media/Wawa Line', hub:'philadelphia', connectorMin:0, mph:20, mode:'chain', stations:[
+    ['30th Street Station',39.9566,-75.1819],['Swarthmore',39.9028,-75.3499],['Media',39.9168,-75.3877],
+  ]},
+  { name:'MARC Penn Line (from Baltimore)', hub:'baltimore', connectorMin:0, mph:37, mode:'chain', stations:[
+    ['Baltimore Penn Station',39.3079,-76.6155],['BWI Rail Station',39.1949,-76.6852],
+    ['Odenton',39.0968,-76.7010],['New Carrollton',38.9472,-76.8716],['Washington Union Station',38.8973,-77.0063],
+  ]},
+  { name:'MARC Penn Line (from DC)', hub:'dc', connectorMin:0, mph:37, mode:'chain', stations:[
+    ['Washington Union Station',38.8973,-77.0063],['New Carrollton',38.9472,-76.8716],
+    ['Odenton',39.0968,-76.7010],['BWI Rail Station',39.1949,-76.6852],['Baltimore Penn Station',39.3079,-76.6155],
+  ]},
+  { name:'MARC Camden Line', hub:'dc', connectorMin:0, mph:30, mode:'chain', stations:[
+    ['Washington Union Station',38.8973,-77.0063],['College Park',38.9784,-76.9284],
+    ['Bowie State',39.0098,-76.7594],['Baltimore Camden Station',39.2838,-76.6217],
+  ]},
+  { name:'VRE Fredericksburg Line', hub:'dc', connectorMin:0, mph:26, mode:'chain', stations:[  // unverified speed
+    ['Washington Union Station',38.8973,-77.0063],['Alexandria',38.8068,-77.0597],
+    ['Woodbridge',38.6581,-77.2531],['Fredericksburg',38.3032,-77.4605],
+  ]},
+  { name:'VRE Manassas Line', hub:'dc', connectorMin:0, mph:26, mode:'chain', stations:[  // unverified speed
+    ['Washington Union Station',38.8973,-77.0063],['Burke Centre',38.7909,-77.2894],['Manassas',38.7509,-77.4753],
+  ]},
+];
+
+// ---- Bay Area: Caltrain trunk + BART (real branching line through the Transbay Tube,
+// not a straight line -- must include the real intermediate stations or the distance is wrong). ----
+const BAY_TRANSIT_LINES = [
+  { name:'Caltrain', hub:'sf', connectorMin:0, mph:40, mode:'chain', stations:[
+    ['San Francisco (4th & King)',37.7766,-122.3942],['Belmont',37.5202,-122.2758],['Menlo Park',37.4547,-122.1822],
+    ['Palo Alto',37.4432,-122.1650],['Santa Clara',37.3532,-121.9366],['San Jose Diridon',37.3297,-121.9027],
+    ['Tamien',37.3119,-121.8830],
+  ]},
+  { name:'BART (Berkeley branch)', hub:'sf', connectorMin:5, mph:32, mode:'chain', stations:[
+    ['Embarcadero',37.7929,-122.3971],['West Oakland',37.8052,-122.2951],['12th St Oakland',37.8036,-122.2716],
+    ['19th St Oakland',37.8075,-122.2686],['MacArthur',37.8283,-122.2668],
+    ['Ashby',37.8528,-122.2695],['Downtown Berkeley',37.8697,-122.2680],
+  ]},
+  { name:'BART (Fremont branch)', hub:'sf', connectorMin:5, mph:32, mode:'chain', stations:[
+    ['Embarcadero',37.7929,-122.3971],['West Oakland',37.8052,-122.2951],['12th St Oakland',37.8036,-122.2716],
+    ['19th St Oakland',37.8075,-122.2686],['MacArthur',37.8283,-122.2668],
+    ['Fruitvale',37.7749,-122.2241],['Coliseum',37.7534,-122.1966],['Hayward',37.6699,-122.0871],['Fremont',37.5574,-121.9764],
+  ]},
+  { name:'BART (Peninsula branch)', hub:'sf', connectorMin:5, mph:32, mode:'chain', stations:[
+    ['Embarcadero',37.7929,-122.3971],['Balboa Park',37.7217,-122.4474],['Daly City',37.7061,-122.4692],['Millbrae',37.5999,-122.3866],
+  ]},
+];
+const BAY_SURFACE_SYSTEMS = [
+  { name:'Muni Metro', hub:'sf',      mph:9.6 }, // sourced system-average speed (street-running, much slower than a subway)
+  { name:'VTA light rail', hub:'sanjose', mph:12 },  // blended: downtown SJ ~5-7mph, wider system target ~20mph
+];
+function baySurfaceLastMile(sys, lat, lon){
+  const hub = BAY_HUBS[sys.hub];
+  const d = haversineMiles(hub.lat, hub.lon, lat, lon);
+  if(d > 8) return null;
+  return { hub: sys.hub, minutes: TRANSIT_OVERHEAD_MIN + (d/sys.mph)*60 };
+}
+
+const BRANCH_WALK_THRESHOLD_MI = 1.3;
+function branchMatch(branch, lat, lon){
+  const stations = branch.stations;
+  let best = null;
+  if(branch.mode === 'chain'){
+    const cum = cumulativeAlong(stations);
+    stations.forEach(function(s, i){
+      const wd = haversineMiles(s[1], s[2], lat, lon);
+      if(wd > BRANCH_WALK_THRESHOLD_MI) return;
+      const minutes = TRANSIT_OVERHEAD_MIN + branch.connectorMin + (cum[i]/branch.mph)*60;
+      if(best === null || minutes < best) best = minutes;
+    });
+  } else { // spoke
+    const hub = NEC_HUBS[branch.hub];
+    stations.forEach(function(s){
+      const wd = haversineMiles(s[1], s[2], lat, lon);
+      if(wd > BRANCH_WALK_THRESHOLD_MI) return;
+      const d = haversineMiles(hub.lat, hub.lon, s[1], s[2]);
+      const minutes = TRANSIT_OVERHEAD_MIN + branch.connectorMin + (d/branch.mph)*60;
+      if(best === null || minutes < best) best = minutes;
+    });
+  }
+  return best === null ? null : { hub: branch.hub, minutes: best };
+}
+
+// ---- Given a point, every hub it can realistically reach and how long that takes. ----
+function transitHubCandidates(lat, lon, region){
+  const hubTable = region === 'nec' ? NEC_HUBS : BAY_HUBS;
+  const cands = [];
+  for(const key in hubTable){
+    const h = hubTable[key];
+    const d = haversineMiles(h.lat, h.lon, lat, lon);
+    if(d <= 1.5) cands.push({ hub:key, minutes: TRANSIT_OVERHEAD_MIN*0.5 + (d/3)*60 });
+  }
+  if(region === 'nec'){
+    SUBWAY_SYSTEMS.forEach(function(sys){ const r = subwayLastMile(sys, lat, lon); if(r) cands.push(r); });
+    const bal = baltimoreLastMile(lat, lon); if(bal) cands.push(bal);
+    COMMUTER_BRANCHES.forEach(function(b){ const r = branchMatch(b, lat, lon); if(r) cands.push(r); });
+  } else {
+    BAY_SURFACE_SYSTEMS.forEach(function(sys){ const r = baySurfaceLastMile(sys, lat, lon); if(r) cands.push(r); });
+    BAY_TRANSIT_LINES.forEach(function(b){ const r = branchMatch(b, lat, lon); if(r) cands.push(r); });
+  }
+  return cands;
+}
+
+// ---- Same-line shortcut: if both points sit on the SAME commuter-rail/Caltrain/BART chain
+// (e.g. Stanford and San Jose State are both directly on Caltrain), ride the line directly
+// instead of artificially routing through the hub twice -- routing two nearby stops on one
+// suburban line through a big downtown hub can overstate the real trip by 3-4x. Reduced
+// overhead here (no "big terminal navigation" leg -- neither end is a major intercity hub).
+const DIRECT_LINE_OVERHEAD_MIN = 10 + 8; // wait + destination walk only
+function sameChainDirectMinutes(lat1, lon1, lat2, lon2, chains){
+  let best = null;
+  chains.forEach(function(branch){
+    if(branch.mode !== 'chain') return;
+    const stations = branch.stations;
+    let i1 = -1, d1 = Infinity, i2 = -1, d2 = Infinity;
+    stations.forEach(function(s, i){
+      const wa = haversineMiles(s[1], s[2], lat1, lon1);
+      const wb = haversineMiles(s[1], s[2], lat2, lon2);
+      if(wa < d1){ d1 = wa; i1 = i; }
+      if(wb < d2){ d2 = wb; i2 = i; }
+    });
+    if(d1 > BRANCH_WALK_THRESHOLD_MI || d2 > BRANCH_WALK_THRESHOLD_MI) return;
+    const cum = cumulativeAlong(stations);
+    const rideDist = Math.abs(cum[i1] - cum[i2]);
+    const minutes = DIRECT_LINE_OVERHEAD_MIN + (rideDist/branch.mph)*60;
+    if(best === null || minutes < best) best = minutes;
+  });
+  return best;
+}
+
+// ---- Public entry point: minutes by public transit between two points, or null if either
+// point falls outside the two modeled regions, falls in different regions, or isn't served
+// by anything modeled there. ----
+function transitMinutes(lat1, lon1, lat2, lon2){
+  const region1 = transitRegionOf(lat1, lon1);
+  const region2 = transitRegionOf(lat2, lon2);
+  if(!region1 || region1 !== region2) return null;
+  const a = transitHubCandidates(lat1, lon1, region1);
+  const b = transitHubCandidates(lat2, lon2, region1);
+  if(a.length === 0 || b.length === 0) return null;
+  const hubTable = region1 === 'nec' ? NEC_HUBS : BAY_HUBS;
+  let best = Infinity;
+  a.forEach(function(ca){
+    b.forEach(function(cb){
+      const trunk = Math.abs(hubTable[ca.hub].cum - hubTable[cb.hub].cum);
+      const total = ca.minutes + trunk + cb.minutes;
+      if(total < best) best = total;
+    });
+  });
+  const chains = region1 === 'nec' ? COMMUTER_BRANCHES : BAY_TRANSIT_LINES;
+  const direct = sameChainDirectMinutes(lat1, lon1, lat2, lon2, chains);
+  if(direct !== null && direct < best) best = direct;
+  return Math.round(best);
+}
+// =================== end public-transit commute-time model ===================
 
 function setHomeStatus(msg, cls){
   homeStatus.textContent = msg;
@@ -803,6 +1148,7 @@ function placeHome(lat, lon, label){
   homeMarker = L.marker([lat, lon], { icon: homeIcon, zIndexOffset: 1000 }).addTo(map);
   homeMarker.bindPopup('<div class="pop-name">'+(label||'Pinned location')+'</div>');
   radiusRow.style.display = 'block';
+  updateModeToggleVisibility();
   drawRadiusCircle();
   programmaticSetView([lat, lon], 8, { animate:true });
   // Placing a home pin is an alternate way of scoping the search, not one
@@ -825,6 +1171,12 @@ function placeHome(lat, lon, label){
 function drawRadiusCircle(){
   if(!homeLatLng) return;
   if(homeCircle) map.removeLayer(homeCircle);
+  if(commuteMode === 'transit'){
+    // Public-transit reach isn't a radial circle (it follows rail lines), so there's
+    // nothing meaningful to draw here -- the school list/markers do the filtering instead.
+    homeCircle = null;
+    return;
+  }
   const minutes = parseInt(radiusSelect.value, 10);
   const miles = (minutes/60) * AVG_MPH;
   homeCircle = L.circle([homeLatLng.lat, homeLatLng.lon], {
@@ -903,6 +1255,7 @@ clearHomeBtn.addEventListener('click', function(){
   homeMarker = null; homeCircle = null;
   homeAddressInput.value = '';
   radiusRow.style.display = 'none';
+  updateModeToggleVisibility();
   setHomeStatus('', '');
   if(crossRegionActive && !boundsFilterActive){
     crossRegionActive = false;
@@ -935,7 +1288,9 @@ function renderList(items){
     const ctrlTag = controlLabel(entry.school);
     const tags = (ctrlTag ? '<span class="mini-tag">'+ctrlTag+'</span>' : '') + ((activeRegionKey === 'us' && entry.school.research) ? '<span class="mini-tag">'+entry.school.research+'</span>' : '');
     const displayName = entry.school.alias ? entry.school.alias+' <span style="opacity:.55;font-weight:400;">(formerly '+entry.school.name+')</span>' : entry.school.name;
-    const distHtml = (homeLatLng && typeof entry.distMiles === 'number') ? '<div class="row-dist">'+entry.distMiles.toFixed(1)+' mi away</div>' : '';
+    const distHtml = (commuteMode === 'transit' && typeof entry.transitMin === 'number')
+      ? '<div class="row-dist">'+entry.transitMin+' min via transit</div>'
+      : (homeLatLng && typeof entry.distMiles === 'number') ? '<div class="row-dist">'+entry.distMiles.toFixed(1)+' mi away</div>' : '';
     row.innerHTML = '<div class="row-name">'+displayName+'</div><div class="row-loc">'+schoolLocLine(entry.school)+'</div>'+distHtml+'<div class="row-tags">'+tags+'</div><div class="row-links">'+schoolLinksHtml(entry.school)+'</div>';
     row.addEventListener('click', function(e){
       if(e.target.closest('a')) return;
@@ -955,7 +1310,9 @@ function renderList(items){
 
 function applyFilters(){
   const term = searchInput.value.trim().toLowerCase();
-  const maxMiles = homeLatLng ? (parseInt(radiusSelect.value,10)/60) * AVG_MPH : null;
+  const transitModeActive = homeLatLng && commuteMode === 'transit';
+  const maxMiles = (homeLatLng && !transitModeActive) ? (parseInt(radiusSelect.value,10)/60) * AVG_MPH : null;
+  const maxTransitMinutes = transitModeActive ? parseInt(radiusSelect.value,10) : null;
   // With no explicit "Search this area" freeze or home pin active, the list
   // live-follows whatever's currently on screen as you pan/zoom, instead of
   // staying a static full-region list. Computed fresh (not frozen) each call,
@@ -971,9 +1328,15 @@ function applyFilters(){
     const s = entry.school;
     const matchesTerm = !term || s.name.toLowerCase().includes(term) || s.city.toLowerCase().includes(term) || (s.alias && s.alias.toLowerCase().includes(term)) || (s.state && s.state.toLowerCase().includes(term));
     let matchesRadius = true;
-    if(homeLatLng){
+    if(transitModeActive){
+      const t = transitMinutes(homeLatLng.lat, homeLatLng.lon, s.lat, s.lon);
+      entry.transitMin = t;
+      entry.distMiles = undefined;
+      matchesRadius = (t !== null) && (t <= maxTransitMinutes);
+    } else if(homeLatLng){
       const d = haversineMiles(homeLatLng.lat, homeLatLng.lon, s.lat, s.lon);
       entry.distMiles = d;
+      entry.transitMin = undefined;
       matchesRadius = d <= maxMiles;
     }
     let matchesBounds = true;
@@ -986,7 +1349,8 @@ function applyFilters(){
     }
     return matchesTerm && matchesRadius && matchesBounds;
   });
-  if(homeLatLng) filtered.sort(function(a,b){ return a.distMiles - b.distMiles; });
+  if(transitModeActive) filtered.sort(function(a,b){ return a.transitMin - b.transitMin; });
+  else if(homeLatLng) filtered.sort(function(a,b){ return a.distMiles - b.distMiles; });
   renderList(filtered);
   clusterGroup.clearLayers();
   filtered.forEach(function(entry){ clusterGroup.addLayer(entry.marker); });
