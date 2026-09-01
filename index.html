@@ -49,11 +49,28 @@
   }
   #options{
     border-right:1px solid var(--line);
-    overflow-y:auto;
+    overflow-y:scroll;
+    scrollbar-color: rgba(184,134,58,0.55) transparent;
+    scrollbar-width: thin;
   }
-  #options::-webkit-scrollbar{ width:8px; }
-  #options::-webkit-scrollbar-thumb{ background:rgba(201,151,76,0.25); border-radius:4px; }
+  #options::-webkit-scrollbar{ width:10px; }
+  #options::-webkit-scrollbar-thumb{ background:rgba(184,134,58,0.55); border-radius:5px; border:2px solid transparent; background-clip:content-box; }
+  #options::-webkit-scrollbar-thumb:hover{ background:rgba(184,134,58,0.8); background-clip:content-box; }
   #options::-webkit-scrollbar-track{ background:transparent; }
+  #options-scroll-fade{
+    position:sticky;
+    bottom:0;
+    left:0;
+    right:0;
+    height:28px;
+    margin-top:-28px;
+    background:linear-gradient(180deg, rgba(247,244,236,0), var(--ink));
+    pointer-events:none;
+    opacity:0;
+    transition:opacity 0.15s ease;
+    z-index:5;
+  }
+  #options-scroll-fade.visible{ opacity:1; }
   #list-panel{
     border-left:1px solid var(--line);
     overflow:hidden;
@@ -516,7 +533,7 @@
               <label style="font-weight:400; display:flex; align-items:center; gap:4px;"><input type="radio" name="commute-mode" id="mode-driving" value="driving" checked> Driving</label>
               <label style="font-weight:400; display:flex; align-items:center; gap:4px;"><input type="radio" name="commute-mode" id="mode-transit" value="transit"> Public transit</label>
             </div>
-            <div style="font-size:10px; color:var(--text-muted); margin-top:4px; line-height:1.4;">Hand-calibrated approximation (Amtrak/commuter rail/subway), not a live routing service &mdash; biased to run long, not short.</div>
+            <div style="font-size:10px; color:var(--text-muted); margin-top:4px; line-height:1.4;">Hand-calibrated approximation (Amtrak/commuter rail/subway), not a live routing service &mdash; biased to run long, not short. The dashed circle is an outer bound, not a claim that everywhere inside it is reachable &mdash; transit follows rail lines, not straight distance.</div>
           </div>
           <label class="field-label" for="radius-select" style="margin:10px 0 6px 0;" id="radius-select-label">Driving distance (approx.)</label>
           <select id="radius-select">
@@ -531,6 +548,7 @@
         </div>
       </div>
     </div>
+    <div id="options-scroll-fade"></div>
   </div>
   <div id="map">
     <button id="search-area-btn" type="button">Search this area</button>
@@ -1122,6 +1140,18 @@ function transitMinutes(lat1, lon1, lat2, lon2){
 }
 // =================== end public-transit commute-time model ===================
 
+const optionsPanel = document.getElementById('options');
+const optionsScrollFade = document.getElementById('options-scroll-fade');
+function updateOptionsScrollFade(){
+  const hasMore = optionsPanel.scrollTop + optionsPanel.clientHeight < optionsPanel.scrollHeight - 2;
+  optionsScrollFade.classList.toggle('visible', hasMore);
+}
+optionsPanel.addEventListener('scroll', updateOptionsScrollFade);
+window.addEventListener('resize', updateOptionsScrollFade);
+new ResizeObserver(updateOptionsScrollFade).observe(optionsPanel);
+new ResizeObserver(updateOptionsScrollFade).observe(document.getElementById('controls'));
+setTimeout(updateOptionsScrollFade, 0);
+
 function setHomeStatus(msg, cls){
   homeStatus.textContent = msg;
   homeStatus.style.display = msg ? 'block' : 'none';
@@ -1331,7 +1361,9 @@ function applyFilters(){
     if(transitModeActive){
       const t = transitMinutes(homeLatLng.lat, homeLatLng.lon, s.lat, s.lon);
       entry.transitMin = t;
-      entry.distMiles = undefined;
+      // Kept alongside transitMin (not used for filtering) purely to size the
+      // reference circle below to whatever actually matched.
+      entry.distMiles = haversineMiles(homeLatLng.lat, homeLatLng.lon, s.lat, s.lon);
       matchesRadius = (t !== null) && (t <= maxTransitMinutes);
     } else if(homeLatLng){
       const d = haversineMiles(homeLatLng.lat, homeLatLng.lon, s.lat, s.lon);
@@ -1354,6 +1386,23 @@ function applyFilters(){
   renderList(filtered);
   clusterGroup.clearLayers();
   filtered.forEach(function(entry){ clusterGroup.addLayer(entry.marker); });
+  if(transitModeActive) updateTransitCircle(filtered);
+}
+
+function updateTransitCircle(filtered){
+  // Transit reach isn't circular -- it follows rail lines, not straight distance --
+  // so this is drawn as a dashed OUTER BOUND around whatever actually matched
+  // (the school list/markers are the real, accurate result), not a claim that
+  // everything inside the circle is transit-reachable.
+  if(homeCircle) map.removeLayer(homeCircle);
+  homeCircle = null;
+  if(!homeLatLng || filtered.length === 0) return;
+  const maxDist = filtered.reduce(function(m, e){ return Math.max(m, e.distMiles || 0); }, 0);
+  if(maxDist <= 0) return;
+  homeCircle = L.circle([homeLatLng.lat, homeLatLng.lon], {
+    radius: maxDist * 1609.34,
+    color: '#b3452c', weight:1.5, fillColor:'#b3452c', fillOpacity:0.04, dashArray:'2,7'
+  }).addTo(map);
 }
 
 [searchInput].forEach(el => el.addEventListener('input', applyFilters));
