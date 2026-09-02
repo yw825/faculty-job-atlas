@@ -145,7 +145,14 @@ HARD_NEGATIVE_RE = re.compile(
 
 DEPT_CLAUSE_RE = re.compile(
     r',?\s*((?:Faculty|Department|Dept\.?|School|College|Institute|Center|Centre|'
-    r'Division)\s+(?:of|for)\s+[A-Za-z&,\s-]{3,60})$')
+    r'Division)\s+(?:of|for)\s+[A-Za-z&,\s]{3,60})$')
+# ^ deliberately no hyphen in the character class -- confirmed real bug: a
+# title like "Faculty of Arts & Science - Sessional Lecturer" let the greedy
+# match run straight through the " - " separator and swallow the ENTIRE
+# title (including the actual rank, "Sessional Lecturer") into "department",
+# leaving nothing behind for the real title. A department clause ending in a
+# dash-separated tail should fail to match here and fall through with the
+# original title intact, not corrupt it.
 
 TAB_LOAD_MORE_TERMS = ['load more', 'show more', 'view more', 'more jobs', 'more results',
                         'next page', 'next »', 'next', '>', 'weitere', 'mehr laden',
@@ -201,8 +208,24 @@ def split_title_department(raw_title, school_name=None):
         title = re.sub(r',?\s*' + esc + r'\s*$', '', title, flags=re.I).strip()
     m = DEPT_CLAUSE_RE.search(title)
     if m:
-        department = m.group(1).strip()
-        title = title[:m.start()].strip().rstrip(',').strip()
+        candidate_dept = m.group(1).strip()
+        candidate_title = title[:m.start()].strip().rstrip(',').strip()
+        # Reject the match rather than apply it if it would either (a) consume
+        # the ENTIRE title, leaving nothing behind (confirmed real case: a
+        # title with no dash separator at all, e.g. "Department of Pediatrics
+        # Provincial Department Head", still got fully swallowed since the
+        # greedy class can't otherwise tell where a department name ends and
+        # an actual job title begins), or (b) capture text that itself
+        # contains a second "Department/Faculty/..." keyword -- a real
+        # department name doesn't reference itself like that, so seeing one
+        # is a reliable sign of over-matching. Keep the original title intact
+        # in either case rather than guess wrong.
+        hub_word_hits = re.findall(
+            r'\b(faculty|department|dept\.?|school|college|institute|center|centre|division)\b',
+            candidate_dept, re.I)
+        if candidate_title and len(hub_word_hits) <= 1:
+            department = candidate_dept
+            title = candidate_title
     # also handle "Title - Department" en/em-dash split when the tail looks like a unit name
     if not department:
         m2 = re.match(r'^(.*?)\s+[–—-]\s+([\w&\s]+(?:Institute|Center|Centre|School of[\w\s]*|House of[\w\s]*))$', title)
@@ -437,7 +460,47 @@ def detect_platform(url):
 # Tier 0/1 adapters
 # --------------------------------------------------------------------------
 
-def scrape_workday(url):
+def _resolve_workday_facet_by_name(api, school_name):
+    """Fallback for when a URL references a facet selection that can't be
+    resolved from the URL itself (confirmed real case: Nanyang Polytechnic's
+    verified link used a path-based "/refreshFacet/<id>" reference whose ID
+    isn't among the facet API's default top-N values per category -- initially
+    misread as an auth requirement because the page's UI also shows a "Sign
+    In" option, but the content itself renders fully and publicly). Fetches
+    the tenant's unfiltered facet list and looks for a value whose descriptor
+    matches the school's name, checking every facet category since different
+    tenants use different parameter names for this (Agency, Institution,
+    Organization, etc.) -- not hardcoded to one category name."""
+    status, text = fetch_requests(api, method='POST', json_body={
+        'appliedFacets': {}, 'limit': 1, 'offset': 0, 'searchText': ''
+    })
+    if status != 200:
+        return None
+    try:
+        data = json.loads(text)
+    except json.JSONDecodeError:
+        return None
+    name_words = [w.lower() for w in re.split(r'\s+', school_name) if len(w) > 3]
+    if not name_words:
+        return None
+    for facet in data.get('facets', []):
+        param = facet.get('facetParameter')
+        if not param:
+            continue
+        for v in facet.get('values', []):
+            descriptor = (v.get('descriptor') or '').lower()
+            # ALL significant words must match, not just one -- a loose ANY
+            # match let a generic shared word ("Polytechnic") match the WRONG
+            # school entirely (confirmed real case: Nanyang Polytechnic's name
+            # matched on "Polytechnic" alone against a different polytechnic
+            # that happened to appear earlier in the facet list, silently
+            # returning that other school's count instead).
+            if all(w in descriptor for w in name_words):
+                return param, v.get('id')
+    return None
+
+
+def scrape_workday(url, school_name=None):
     parsed = urlparse(url)
     host_parts = parsed.netloc.split('.')
     if len(host_parts) < 4:
@@ -468,16 +531,22 @@ def scrape_workday(url):
             continue
         applied_facets[key] = values
     # A URL path containing "refreshFacet/<id>" references a specific facet
-    # selection that (confirmed real case: Nanyang Polytechnic) requires an
-    # authenticated session to resolve -- it redirects toward a login flow,
-    # not a plain search page. If no query-string facet was extractable
-    # either, silently falling back to the unfiltered whole-tenant list would
-    # misattribute every OTHER agency/school's postings on a shared tenant to
-    # this one (confirmed: returned the exact same 1009 as the fully
-    # unfiltered Singapore government-wide total). Refuse rather than return
-    # actively wrong data.
+    # selection whose ID isn't always among the facet API's default top-N
+    # values per category (confirmed: Nanyang Polytechnic's link), so it can't
+    # always be resolved directly. Falling back to the unfiltered whole-tenant
+    # list would be actively wrong on a shared tenant (confirmed: identical to
+    # the full 1009-posting Singapore government-wide total) -- so try
+    # resolving the real facet by matching the school's own name against the
+    # tenant's facet values first, and only give up if that also fails.
     if not applied_facets and re.search(r'/refreshFacet/', parsed.path, re.I):
-        return None, 'workday: URL references a facet selection that requires auth to resolve, and no other facet was extractable -- refusing an unfiltered whole-tenant fallback'
+        resolved = _resolve_workday_facet_by_name(api, school_name) if school_name else None
+        if resolved:
+            param, facet_id = resolved
+            applied_facets = {param: [facet_id]}
+        else:
+            return None, ('workday: URL references a facet selection that could not be resolved '
+                           'from the URL or by matching the school name -- refusing an unfiltered '
+                           'whole-tenant fallback')
     postings = []
     offset = 0
     limit = 20  # Workday's API rejects a larger page size with a 400 -- confirmed, don't raise this
@@ -526,18 +595,85 @@ def scrape_workday(url):
 
 def scrape_oracle(url):
     parsed = urlparse(url)
-    qs = parse_qs(parsed.query)
     m = re.search(r'/sites/([^/]+)', parsed.path)
     site_number = m.group(1) if m else None
     base = f'https://{parsed.netloc}'
     postings = []
     limit = 25
     offset = 0
-    finder_site = f'siteNumber={site_number},' if site_number else ''
+    # CONFIRMED REAL BUG, caught directly by the user querying a school this
+    # code had reported as a genuine zero (University of Birmingham -- 33 real
+    # open postings, this adapter said 0). A plain requests.get(), even with
+    # the correct URL/finder string (server-side parsing of the facets was
+    # confirmed correct via the response's own echoed SelectedCategoriesFacet
+    # field), still comes back with an empty requisitionList. Oracle requires
+    # session state a plain request can't fake: cookies set via the page's own
+    # JS (not simple Set-Cookie headers -- a plain page-load-then-cookie-reuse
+    # attempt also failed) plus specific headers (ora-irc-language, a custom
+    # content-type). Confirmed fix: load the real page once via Playwright,
+    # capture the exact headers+cookies its own first API request used, then
+    # reuse that captured session for the remaining paginated calls via plain
+    # requests (same "capture once, replay via requests" pattern already used
+    # for Cornerstone's Bearer token).
+    b = get_browser()
+    if b is None:
+        return None, 'playwright unavailable'
+    # A page-load timeout here is transient often enough to be worth one
+    # retry (confirmed real case: University of Windsor timed out on two
+    # separate full runs, then succeeded immediately on a lone manual retry)
+    # -- worth retrying once rather than reporting a whole school as empty
+    # over a flaky single page load.
+    captured = {}
+    last_err = None
+    for attempt in range(2):
+        captured = {}
+        page = None
+        try:
+            page = b.new_page(user_agent=UA)
+            def on_request(req):
+                if 'recruitingCEJobRequisitions' in req.url and not captured:
+                    captured['headers'] = dict(req.headers)
+                    captured['url'] = req.url
+            page.on('request', on_request)
+            # domcontentloaded, not networkidle -- confirmed real case: this
+            # specific site never reaches "networkidle" within the timeout
+            # (persistent background network chatter, e.g. analytics polling),
+            # even though the one request actually needed fires quickly.
+            # expect_request already waits for that specific request, so
+            # requiring ALL network activity to settle first was unnecessary
+            # and made an otherwise-fast page load look like a hang.
+            with page.expect_request('**/recruitingCEJobRequisitions**', timeout=15000):
+                page.goto(url, timeout=25000, wait_until='domcontentloaded')
+            page.wait_for_timeout(500)
+            captured['cookies'] = page.context.cookies()
+            last_err = None
+            break
+        except Exception as e:
+            last_err = e
+        finally:
+            if page:
+                page.close()
+    if last_err is not None:
+        return None, f'oracle session capture failed after retry: {last_err}'
+    if 'headers' not in captured or 'url' not in captured:
+        return None, 'oracle: could not capture a real session'
+    session_headers = dict(captured['headers'])
+    session_headers['Cookie'] = '; '.join(f"{c['name']}={c['value']}" for c in captured['cookies'])
+    session_headers.pop('cookie', None)
+    # Reuse the EXACT captured URL (only swapping offset=N for pagination)
+    # rather than reconstructing one by hand -- a hand-built URL that looked
+    # structurally identical (confirmed via the response's own echoed facet
+    # fields) still silently returned zero results when replayed, while the
+    # real captured URL worked immediately. Whatever the exact cause, byte-
+    # for-byte reuse of what the real page generated is the reliable path.
+    if 'offset=' in captured['url']:
+        base_api_url = re.sub(r'offset=\d+', 'offset={offset}', captured['url'])
+    else:
+        base_api_url = captured['url'] + ',offset={offset}'
+
     for _ in range(20):
-        api = (f'{base}/hcmRestApi/resources/latest/recruitingCEJobRequisitions'
-               f'?onlyData=true&finder=findReqs;{finder_site}limit={limit},offset={offset}')
-        status, text = fetch_requests(api, extra_headers={'Accept': 'application/json'})
+        api = base_api_url.format(offset=offset)
+        status, text = fetch_requests(api, extra_headers=session_headers)
         if status != 200:
             return (None, f'oracle api status={status}') if offset == 0 else (postings or None, None)
         try:
@@ -1288,7 +1424,7 @@ def process_school(school_id, name, url):
 
     try:
         if platform == 'workday':
-            postings, err = scrape_workday(url)
+            postings, err = scrape_workday(url, school_name=name)
             if postings is not None:
                 result.update(status='ok', tier=1, platform='workday', count=len(postings))
             else:
@@ -1379,6 +1515,15 @@ def process_school(school_id, name, url):
         result['status'] = 'failed'
         result['error'] = f'{type(e).__name__}: {e}'
         traceback.print_exc()
+
+    # A blank/null title is never useful to show a user, regardless of which
+    # tier produced it -- the earlier fix for this only lived inside the
+    # generic-scraper path (generic_scrape_with_hops), so it never covered
+    # postings built directly by a platform adapter (confirmed real cases:
+    # PeopleAdmin, Cornerstone, and Workday all returned some entries with an
+    # empty title field straight from their own API). Filtered here instead,
+    # in the one place every tier's output already passes through.
+    postings = [p for p in postings if (p.get('job_title') or '').strip()]
 
     # Post-process every posting the same way regardless of which tier found it:
     # split embedded department clauses out of the title, infer position_type,
