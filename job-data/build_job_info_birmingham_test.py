@@ -36,7 +36,7 @@ import os
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 IN_CSV = os.path.join(HERE, 'school_job_posts', 'school_id_1763_job_posts.csv')
-OUT_CSV = os.path.join(HERE, 'school_job_posts', 'school_id_1763_job_info.csv')
+OUT_CSV = os.path.join(HERE, 'school_job_info', 'school_id_1763_job_info.csv')
 
 FIELDS = ['school_id', 'posting_url', 'position_type', 'job_term',
           'department_or_school', 'area_key_words',
