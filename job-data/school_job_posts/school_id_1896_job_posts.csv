@@ -1,0 +1,3 @@
+school_id,job_title,job_title_original,department,department_original,location,position_type,post_date,posting_url,source_tier,source_platform,language,scraped_at
+1896,Log-in Page,Log-in Page,,,,,,https://tre.tbe.taleo.net/tre01/ats/careers/v2/candidateLogin?org=JT63GS&cws=37,3,generic(requests),en,2026-09-02T19:55:00Z
+1896,Department/Faculty,Department/Faculty,,,,,,https://tre.tbe.taleo.net/tre01/ats/careers/v2/jobSearch?org=JT63GS&cws=37,3,generic(requests),en,2026-09-02T19:55:00Z

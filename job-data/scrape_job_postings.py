@@ -93,7 +93,7 @@ UA = ('Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 '
 CANONICAL_FIELDS = [
     'school_id', 'job_title', 'job_title_original', 'department', 'department_original',
     'location', 'position_type', 'post_date', 'posting_url', 'source_tier',
-    'source_platform', 'language', 'scraped_at',
+    'source_platform', 'language', 'scraped_at', 'description',
 ]
 
 # --------------------------------------------------------------------------
@@ -685,14 +685,55 @@ def scrape_oracle(url):
         if not reqs:
             break
         for r in reqs:
+            # Oracle Cloud HCM titles (this convention confirmed on Birmingham's
+            # real data) commonly pack a department clause plus an internal req
+            # ID/grade into the SAME dash-separated title string, e.g. "Research
+            # Fellow - Department of Pharmacy - 107908 - Grade 7". The shared
+            # DEPT_CLAUSE_RE used by the generic scraper only matches a clause
+            # anchored at the END of the string (a deliberate fix for a past
+            # corruption bug), so it never fires here -- this pattern is Oracle-
+            # specific and safe to handle locally without touching that shared
+            # regex.
+            raw_title = r.get('Title', '')
+            title_parts = [t.strip() for t in raw_title.split(' - ')]
+            oracle_dept = ''
+            title_keep = []
+            for part in title_parts:
+                if not oracle_dept and re.match(
+                        r'^(Faculty|Department|Dept\.?|School|College|Institute|Center|Centre|Division)\s+(of|for)\s+',
+                        part, re.IGNORECASE):
+                    oracle_dept = part
+                elif re.match(r'^\d+$', part) or re.match(r'^Grade\s+\S+$', part, re.IGNORECASE):
+                    continue  # internal req ID / grade -- not useful for display
+                else:
+                    title_keep.append(part)
+            clean_title = ' - '.join(title_keep) if title_keep else raw_title
+            # The list endpoint already returns rich descriptive fields
+            # (confirmed via direct inspection of Birmingham's real API
+            # response) -- no separate per-posting detail call is needed.
+            # Folded into one text blob (with the structured PostingEndDate
+            # appended as a plain-text line) so the job_info classification
+            # step can use one uniform "read the description" approach
+            # across platforms rather than special-casing Oracle's fields.
+            desc_parts = [
+                r.get('ShortDescriptionStr', ''),
+                r.get('ExternalQualificationsStr', ''),
+                r.get('ExternalResponsibilitiesStr', ''),
+            ]
+            description = '\n\n'.join(p for p in desc_parts if p)
+            if r.get('PostingEndDate'):
+                description += f"\n\nPosting closes: {r.get('PostingEndDate')}"
+            if r.get('JobType') or r.get('WorkerType'):
+                description += f"\n\nJobType: {r.get('JobType','')} | WorkerType: {r.get('WorkerType','')}"
             postings.append({
-                'job_title': r.get('Title', ''),
-                'department': r.get('PrimaryLocation', '') and '',
+                'job_title': clean_title,
+                'department': r.get('Department', '') or r.get('Organization', '') or oracle_dept,
                 'location': r.get('PrimaryLocation', ''),
                 'position_type': '',
                 'post_date': r.get('PostedDate', ''),
                 'posting_url': urljoin(base, f"/hcmUI/CandidateExperience/en/sites/{site_number or 'CX_1'}/job/{r.get('Id','')}"),
                 'language': 'en',
+                'description': description,
             })
         offset += limit
         if len(reqs) < limit:
