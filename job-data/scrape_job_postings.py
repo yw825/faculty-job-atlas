@@ -451,13 +451,46 @@ def scrape_workday(url):
         return None, 'no site in workday path'
     site = path_parts[0]
     api = f'https://{parsed.netloc}/wday/cxs/{tenant}/{site}/jobs'
+    # A verified careers_link with a query param like "?Agency=<guid>" is often
+    # a REQUIRED facet filter on a shared multi-tenant Workday site, not
+    # cosmetic -- confirmed real case: Singapore's shared "PublicServiceCareers"
+    # tenant serves ALL government agencies (1009 total postings unfiltered);
+    # ignoring the Agency facet meant two different polytechnics were both
+    # silently getting the same unfiltered government-wide list, truncated at
+    # this function's 500-posting cap, instead of their own actual postings.
+    # Workday's own generic UI-state params (which facet type was last opened,
+    # display mode, etc.) are excluded since forwarding them as a facet value
+    # is meaningless -- only params whose name looks like a real facet key.
+    NON_FACET_PARAMS = {'lastselectedfacet', 'mode', 'source', 'query', 'q'}
+    applied_facets = {}
+    for key, values in parse_qs(parsed.query).items():
+        if key.lower() in NON_FACET_PARAMS or key.lower().startswith('selected'):
+            continue
+        applied_facets[key] = values
+    # A URL path containing "refreshFacet/<id>" references a specific facet
+    # selection that (confirmed real case: Nanyang Polytechnic) requires an
+    # authenticated session to resolve -- it redirects toward a login flow,
+    # not a plain search page. If no query-string facet was extractable
+    # either, silently falling back to the unfiltered whole-tenant list would
+    # misattribute every OTHER agency/school's postings on a shared tenant to
+    # this one (confirmed: returned the exact same 1009 as the fully
+    # unfiltered Singapore government-wide total). Refuse rather than return
+    # actively wrong data.
+    if not applied_facets and re.search(r'/refreshFacet/', parsed.path, re.I):
+        return None, 'workday: URL references a facet selection that requires auth to resolve, and no other facet was extractable -- refusing an unfiltered whole-tenant fallback'
     postings = []
     offset = 0
-    limit = 20
+    limit = 20  # Workday's API rejects a larger page size with a 400 -- confirmed, don't raise this
     total = None
-    for _ in range(25):
+    # The loop terminates on offset >= total (the real API-reported count) or
+    # an empty page, whichever comes first -- this range() is purely a safety
+    # backstop against a runaway loop, not the intended stopping point. It
+    # used to be low enough (25*20=500) to silently truncate a real large
+    # tenant (confirmed: Nanyang Technological University's own dedicated
+    # career site legitimately has more than 500 open postings).
+    for _ in range(60):
         status, text = fetch_requests(api, method='POST', json_body={
-            'appliedFacets': {}, 'limit': limit, 'offset': offset, 'searchText': ''
+            'appliedFacets': applied_facets, 'limit': limit, 'offset': offset, 'searchText': ''
         })
         if status != 200:
             break
@@ -653,6 +686,12 @@ def scrape_cornerstone(url):
                 auth = req.headers.get('authorization')
                 if auth:
                     captured['auth'] = auth
+                    # The API host is region-specific (e.g. eu-cdg.api.csod.com
+                    # for HEC Paris, uk.api.csod.com for Lingnan) -- hardcoding
+                    # us.api.csod.com caused a 401 for every non-US-region
+                    # tenant, since the captured token is only valid against
+                    # the SAME regional host it was issued from.
+                    captured['api_host'] = urlparse(req.url).netloc
                     try:
                         body = json.loads(req.post_data or '{}')
                         captured['careerSiteId'] = body.get('careerSiteId')
@@ -662,10 +701,22 @@ def scrape_cornerstone(url):
                     except (json.JSONDecodeError, TypeError):
                         pass
         page.on('request', on_request)
-        page.goto(url, timeout=25000, wait_until='networkidle')
-        page.wait_for_timeout(1500)
+        # Explicitly wait for the actual API call to fire instead of hoping a
+        # fixed delay after networkidle covers it -- some career-site URLs
+        # (ones with a date/search filter already in the query string, e.g.
+        # "&date=WithinThirtyDays") load noticeably slower or need a moment
+        # longer than others before the site's own JS fires this request
+        # (confirmed real case: University of Saskatchewan's filtered URL
+        # never got there within the old fixed 1500ms window).
+        with page.expect_request('**/rec-job-search/external/jobs', timeout=15000) as req_info:
+            page.goto(url, timeout=25000, wait_until='networkidle')
+        page.wait_for_timeout(500)
     except Exception as e:
-        return None, f'cornerstone playwright load failed: {e}'
+        # expect_request timing out is common enough (school genuinely has no
+        # postings so the site never bothers calling the API, or a slower
+        # load) that it shouldn't be a hard failure -- fall through to the
+        # generic scraper instead of reporting broken.
+        return None, f'cornerstone token capture failed: {e}'
     finally:
         if page:
             page.close()
@@ -674,7 +725,7 @@ def scrape_cornerstone(url):
         return None, 'cornerstone auth token not captured'
 
     host = urlparse(url).netloc
-    api = 'https://us.api.csod.com/rec-job-search/external/jobs'
+    api = f'https://{captured["api_host"]}/rec-job-search/external/jobs'
     headers = {
         'Authorization': captured['auth'], 'Content-Type': 'application/json',
         'Origin': f'https://{host}', 'Referer': f'https://{host}/', 'User-Agent': UA,
@@ -682,7 +733,7 @@ def scrape_cornerstone(url):
     postings = []
     page_num = 1
     total = None
-    for _ in range(25):
+    for _ in range(40):  # safety backstop only -- real stop is offset >= total
         payload = {
             'careerSiteId': captured['careerSiteId'], 'careerSitePageId': captured['careerSitePageId'],
             'pageNumber': page_num, 'pageSize': 25, 'cultureId': captured['cultureId'],
@@ -754,7 +805,7 @@ def scrape_ultipro(url):
     skip = 0
     top = 50
     total = None
-    for _ in range(25):
+    for _ in range(40):  # safety backstop only -- real stop is skip >= total
         payload = {
             'opportunitySearch': {'Top': top, 'Skip': skip, 'QueryString': '',
                                    'OrderBy': [{'Value': 'postedDateDesc', 'PropertyName': 'PostedDate', 'Ascending': False}],
