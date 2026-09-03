@@ -705,7 +705,15 @@ def scrape_smartrecruiters(url):
         if not content:
             break
         for item in content:
-            links.append(item.get('ref', '') or f'https://jobs.smartrecruiters.com/{company}/{item.get("id","")}')
+            # 'ref' is the API's OWN self-link (api.smartrecruiters.com/...),
+            # which is a JSON endpoint, not something a person can open --
+            # recording it made every SmartRecruiters posting land in
+            # job_info with an empty title (confirmed live on Griffith and
+            # Auckland, 104 rows between them). The public posting page is
+            # /<Company>/<id>, which redirects to the full slug URL.
+            posting_id = item.get('id', '')
+            if posting_id:
+                links.append(f'https://jobs.smartrecruiters.com/{company}/{posting_id}')
         offset += limit
         if offset >= data.get('totalFound', 0):
             break

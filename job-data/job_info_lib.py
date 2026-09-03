@@ -1171,8 +1171,67 @@ def fetch_oracle_bulk(careers_link):
     return out
 
 
+def fetch_smartrecruiters_bulk(careers_link):
+    """Returns {posting_url: (title, description, department)} from
+    SmartRecruiters' public REST API. The listing call already carries the
+    title, department and location for every posting; only the description
+    needs a per-posting call, and that call returns clean structured
+    sections rather than a page whose visible text is mostly chrome."""
+    import time as _time
+    from html import unescape
+
+    m = re.search(r'smartrecruiters\.com/([^/?#]+)', careers_link)
+    if not m:
+        raise RuntimeError('could not parse smartrecruiters company slug')
+    company = m.group(1)
+
+    out = {}
+    offset, limit = 0, 100
+    for _ in range(20):
+        api = (f'https://api.smartrecruiters.com/v1/companies/{company}'
+               f'/postings?limit={limit}&offset={offset}')
+        status, text = jlib.fetch_static(api, extra_headers={'Accept': 'application/json'})
+        if status != 200:
+            break
+        data = json.loads(text)
+        content = data.get('content', [])
+        if not content:
+            break
+        for item in content:
+            posting_id = item.get('id', '')
+            if not posting_id:
+                continue
+            url = f'https://jobs.smartrecruiters.com/{company}/{posting_id}'
+            title = item.get('name', '') or ''
+            dept = (item.get('department') or {}).get('label', '') or ''
+            description = ''
+            d_status, d_text = jlib.fetch_static(
+                f'https://api.smartrecruiters.com/v1/companies/{company}/postings/{posting_id}',
+                extra_headers={'Accept': 'application/json'})
+            if d_status == 200:
+                try:
+                    sections = json.loads(d_text).get('jobAd', {}).get('sections', {})
+                except ValueError:
+                    sections = {}
+                parts = []
+                for key in ('jobDescription', 'qualifications', 'additionalInformation',
+                            'companyDescription'):
+                    body = (sections.get(key) or {}).get('text', '')
+                    if body:
+                        parts.append(unescape(re.sub(r'<[^>]+>', ' ', body)))
+                description = re.sub(r'[ \t]+', ' ', '\n\n'.join(parts)).strip()
+            out[url] = (title, description, dept)
+            _time.sleep(0.15)
+        offset += limit
+        if offset >= data.get('totalFound', 0):
+            break
+        _time.sleep(0.3)
+    return out
+
+
 BULK_ADAPTERS = {
     'oracle': fetch_oracle_bulk,
+    'smartrecruiters': fetch_smartrecruiters_bulk,
 }
 
 

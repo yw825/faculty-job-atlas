@@ -31,6 +31,7 @@ school_id_1789_job_info.checkpoint next to this script -- kill-and-resume,
 per-posting granularity.
 """
 import os
+import re
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -47,8 +48,32 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(HERE, '..', 'school_job_posts_code', f'sc
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 
+TITLE_PREFIX_RE = re.compile(r'^\s*jobs\s*-\s*job\s+details\s*-\s*', re.I)
+
+
 def fetch_detail(url):
-    return jinfo.fetch_detail_generic(url)
+    """CUSTOMIZED (confirmed live): the generic picker gets this site
+    backwards -- every posting page's <h1> is the site-wide nav heading
+    ("Job Search") and the real job title is only in <title>, behind a
+    fixed "Jobs - Job Details - " prefix ("Jobs - Job Details - Team Lead
+    SAS"). The body text likewise has to come from #content; taking the
+    whole page drags in the nav and footer of a 288KB page.
+    """
+    from bs4 import BeautifulSoup
+
+    html = jinfo.fetch_rendered(url, wait_ms=4000)
+    if jinfo.is_fetch_failure(html):
+        raise RuntimeError(html)
+    soup = BeautifulSoup(html, 'html.parser')
+
+    title = (soup.title.string or '').strip() if soup.title else ''
+    title = TITLE_PREFIX_RE.sub('', title).strip()
+
+    bodies = soup.select('[id*=content]')
+    description = max((b.get_text(' ', strip=True) for b in bodies), key=len, default='')
+    if not description:
+        description = soup.get_text(' ', strip=True)
+    return title, description
 
 
 def main():

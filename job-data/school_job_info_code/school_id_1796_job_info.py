@@ -39,8 +39,8 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1796
 SCHOOL_NAME = 'Griffith University'
-CAREERS_LINK = 'https://www.griffith.edu.au/jobs/search-jobs'
-ATS_PLATFORM = 'own website'
+CAREERS_LINK = 'https://jobs.smartrecruiters.com/GriffithUniversity/careers'
+ATS_PLATFORM = 'SmartRecruiters'
 USE_LLM = False  # set True once you have ANTHROPIC_API_KEY configured
 
 JOB_POSTINGS_CHECKPOINT = os.path.join(HERE, '..', 'school_job_posts_code', f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
@@ -52,8 +52,9 @@ def fetch_detail(url):
 
 
 def main():
-    result = jinfo.run_school_job_info(SCHOOL_ID, JOB_POSTINGS_CHECKPOINT, CHECKPOINT_PATH,
-                                        fetch_detail_fn=fetch_detail, use_llm=USE_LLM)
+    result = jinfo.run_school_job_info_bulk(SCHOOL_ID, CAREERS_LINK, 'smartrecruiters',
+                                            JOB_POSTINGS_CHECKPOINT, CHECKPOINT_PATH,
+                                            use_llm=USE_LLM)
     err = result.get('last_error', '')
     n_ok = sum(1 for r in result['rows'].values() if 'error' not in r)
     print(f"{SCHOOL_NAME} (id={SCHOOL_ID}): status={result['status']} "

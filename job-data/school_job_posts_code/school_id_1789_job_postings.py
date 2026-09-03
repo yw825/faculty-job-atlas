@@ -1,21 +1,20 @@
 """
 Job postings scraper for school_id 1789 - University of New South Wales (Australia)
-ATS platform: own website
+ATS platform: own website (a PageUp-backed careers site, but the listing
+pages are plain server-rendered HTML -- no PageUp API needed)
 Careers link: https://external-careers.jobs.unsw.edu.au/
 
-No shared ATS platform adapter applies to this school -- find_links() below
-is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
-directly to fix or improve results for University of New South Wales; nothing here affects any
-other school's script.
+CUSTOMIZED (confirmed live): this school was previously recording ZERO
+postings, but nothing here is actually blocked -- the page loads fine and
+the generic job-shaped link filter simply didn't match its URL scheme.
+Postings are plain links of the form /en/job/<id>/<slug>. The default
+listing shows 20 per page; ?page-items=100 returns them all in one request
+(97 confirmed live), and the loop below still pages on in case that cap is
+ever raised past 100.
 
-Starting point (not a tuned answer): fetch the careers page rendered (JS
-included), then keep every link whose href or visible text looks
-job/vacancy/posting-shaped (job_postings_lib.COMMON_JOB_URL_HINTS). If this
-under- or over-collects for this school, narrow/widen that pattern, add a
-click/scroll step via fetch_rendered's `actions` argument (see
-job_postings_lib.scrape_taleo for a real example of clicking through a
-search-results page), or follow a department/pagination link with a second
-fetch_rendered/fetch_static call and merge the results.
+Note UNSW's apply flow hands off to secure.dc2.pageuppeople.com, but the
+posting pages themselves stay on this host, so the stable per-posting URL
+is the one recorded here.
 
 Writes school_job_posts/school_id_1789_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1789_job_postings.checkpoint next to this script.
@@ -35,14 +34,25 @@ ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
+LISTING = 'https://external-careers.jobs.unsw.edu.au/en/listing/?page={page}&page-items=100'
+JOB_HREF_RE = re.compile(r'^/en/job/\d+/')
+
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                              href_pattern=lib.COMMON_JOB_URL_HINTS,
-                              text_pattern=lib.COMMON_JOB_URL_HINTS)
+    links, seen = [], set()
+    for page in range(1, 15):
+        html = lib.fetch_rendered(LISTING.format(page=page), wait_ms=4000)
+        if lib.is_fetch_failure(html):
+            if page == 1:
+                raise RuntimeError(html)
+            break
+        found = lib.extract_links(html, CAREERS_LINK, href_pattern=JOB_HREF_RE)
+        new = [u for u in found if u not in seen]
+        if not new:
+            break
+        seen.update(new)
+        links.extend(new)
+    return links
 
 
 def main():
