@@ -31,6 +31,7 @@ school_id_1744_job_info.checkpoint next to this script -- kill-and-resume,
 per-posting granularity.
 """
 import os
+import re
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -48,7 +49,49 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint
 
 
 def fetch_detail(url):
-    return jinfo.fetch_detail_generic(url)
+    """CUSTOMIZED (confirmed live): same nested-iframe trap that broke this
+    school's LISTING scrape -- page.content() returns only the top
+    document, whose visible headings are cookie/branding chrome, so all 66
+    postings were recorded with the title "Privacy Policy". The posting
+    itself lives in page.frames[1], and that frame only renders real
+    content on a SECOND navigation (the first trips a "Please Enable
+    Cookies to Continue" gate). The frame's <title> carries the job title
+    with a " | Careers at <city>" suffix to strip.
+    """
+    from bs4 import BeautifulSoup
+
+    browser = jinfo.get_browser()
+    if browser is None:
+        raise RuntimeError('playwright unavailable')
+    page = browser.new_page(user_agent=jlib_ua())
+    try:
+        for _ in range(2):
+            page.goto(url, timeout=30000, wait_until='domcontentloaded')
+            page.wait_for_timeout(3000)
+        frame = page.frames[1] if len(page.frames) > 1 else page.frames[0]
+        soup = BeautifulSoup(frame.content(), 'html.parser')
+    finally:
+        page.close()
+
+    raw_title = (soup.title.string or '').strip() if soup.title else ''
+    # "<Job title> in <City> | Careers at <City>" -- take the city from the
+    # suffix, then drop the matching " in <City>" the title repeats, so the
+    # location doesn't end up as the job title or as an area keyword
+    # (confirmed live: "Madrid" and "Student Experience in Madrid" were
+    # being recorded as area_key_words).
+    city = ''
+    m = re.search(r'\|\s*Careers at\s+(.+?)\s*$', raw_title)
+    if m:
+        city = m.group(1).strip()
+    title = re.sub(r'\s*\|\s*Careers at .*$', '', raw_title).strip()
+    if city:
+        title = re.sub(r'\s+in\s+' + re.escape(city) + r'\s*$', '', title).strip()
+    return title, soup.get_text(' ', strip=True)
+
+
+def jlib_ua():
+    import job_postings_lib as jlib
+    return jlib.UA
 
 
 def main():

@@ -548,14 +548,16 @@ def build_corpus_stats(items):
     for key, sentence_pattern, extra_stopwords in _POOLS:
         n_docs = 0
         doc_freq = {}
+        texts = []
         for _title, description in items:
             pool = _sentence_pool(description, sentence_pattern)
             if not pool.strip():
                 continue
             n_docs += 1
+            texts.append(pool.lower())
             for phrase in _extract_candidate_phrases(pool, extra_stopwords=extra_stopwords):
                 doc_freq[phrase] = doc_freq.get(phrase, 0) + 1
-        stats[key] = {'n_docs': n_docs, 'doc_freq': doc_freq}
+        stats[key] = {'n_docs': n_docs, 'doc_freq': doc_freq, 'texts': texts}
     return stats
 
 
@@ -833,19 +835,21 @@ def _topic_candidates(pool, patterns):
     return list(best.values())
 
 
-def _item_doc_freq(item, doc_freq, extra_stopwords=None):
-    """How many of the school's postings share this candidate. Corpus stats
-    only hold phrases up to 3 words and only between stopwords, so a longer
-    or stopword-spanning candidate isn't in the map at all and would look
-    maximally rare no matter how much boilerplate it is -- confirmed live on
-    UCL, whose page navigation yielded "Examination Support Department UCL
-    BEAMS" as a taught subject. Fall back to the item's own LONGEST
-    constituent phrases: for that navigation string those are "ucl beams",
-    in every UCL posting, while for a real topic like "Digital Health" the
-    longest constituent is the topic itself. (Taking the max over ALL
-    constituents instead would over-suppress, since a real topic's
-    individual words are often common on their own.)"""
+def _item_doc_freq(item, pool_stats, extra_stopwords=None):
+    """How many of the school's postings contain this candidate, counted by
+    LITERAL containment in each posting's pool text. Counting phrase-map
+    hits instead misses boilerplate whose wording spans stopwords or runs
+    longer than the map's 3-word phrases -- confirmed live on City
+    University of Hong Kong, whose navigation strip yielded "Services
+    Research Positions Internal Opening" as a research topic on 95 of 96
+    postings while its longest mapped fragment ("internal opening") wasn't
+    in the map at all, and on UCL's "Examination Support Department UCL
+    BEAMS". Literal containment is exact at any length and catches both."""
+    texts = (pool_stats or {}).get('texts')
     key = item.lower()
+    if texts:
+        return sum(1 for t in texts if key in t)
+    doc_freq = (pool_stats or {}).get('doc_freq', {})
     if key in doc_freq:
         return doc_freq[key]
     phrases = _extract_candidate_phrases(item, extra_stopwords=extra_stopwords)
@@ -876,7 +880,7 @@ def topic_keywords(pool, patterns, pool_stats, exclude_terms=(), max_keywords=2,
             continue
         if _is_school_identity(item, identity_tokens):
             continue
-        df = _item_doc_freq(item, doc_freq, extra_stopwords)
+        df = _item_doc_freq(item, pool_stats, extra_stopwords)
         if n >= 2 and df / max(n, 1) >= _BOILERPLATE_DF_RATIO:
             continue
         rarity = 1.0 if n < 2 else 1.0 - (df / max(n, 1))
