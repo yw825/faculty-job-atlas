@@ -279,23 +279,85 @@ def extract_deadline(description=''):
 #      switch on via use_llm=True.
 # --------------------------------------------------------------------------
 
+# A trigger word directly followed by a rank/role word ("Cluster **of**
+# Assistant, Associate, or Full Professor Positions in X") isn't naming a
+# subject at all -- it's describing the rank list -- so those words are
+# excluded from starting a match; without this, this trigger (being first
+# in the title) wins over the real "in X" clause later on and the real
+# subject is lost entirely (confirmed live: Ohio-style cluster-hire titles
+# like "...Cluster of Assistant, Associate, or Full Professor Positions in
+# Geotechnical Engineering" produced "Assistant" instead of "Geotechnical
+# Engineering").
+_NON_SUBJECT_LEAD = (r'Assistant|Associate|Full|Professor|Professors|Lecturer|Senior|Instructor|'
+                     r'Chair|Director|Dean|Faculty|Position|Positions|Fellow|Fellows|Adjunct|'
+                     r'Visiting|Tenure|Tenured')
+
 _RANK_SUBJECT_RE = re.compile(
-    r'\b(?:in|of)\s+([A-Z][A-Za-z0-9&,\'\s]{2,60}?)(?=\s*\(|$)')
+    r'\b(?:in|of)\s+(?!(?:' + _NON_SUBJECT_LEAD + r')\b)([A-Z][A-Za-z0-9&,\'\s/-]{2,100}?)(?=\s*\(|$)')
+
+# "with a focus on X" / "focusing on X" names the actual specialization more
+# precisely than a generic "in/of" clause when both are present in the same
+# title (confirmed live: Stockholm School of Economics -- "... Position in
+# Information Systems and Innovation Management with a focus on Artificial
+# Intelligence" -- the field the applicant actually cares about is the
+# focus, not the broader department-level "in" clause), so it's tried first.
+_FOCUS_SUBJECT_RE = re.compile(
+    r'\b[Ff]ocus(?:ing)?\s+on\s+([A-Z][A-Za-z0-9&,\'\s/-]{2,100}?)(?=\s*\(|$)')
+
+# A subject clause with no comma/paren/dash to stop at (many "own website"
+# titles have none) runs on into trailing institution branding instead --
+# confirmed live: Sabanci University's "... Position in Business Analytics &
+# Information Systems Sabanci Business School, Sabanci University" has
+# nothing separating the real subject from "Sabanci Business School" but a
+# plain space. Rather than guess where the subject ends up front, capture
+# generously (commas included, so a genuine enumerated subject like
+# "Mathematics, Statistics and Insurance" survives whole) and strip a
+# trailing "<Capitalized words> (University|College|School|Institute|
+# Academy)" run off the end afterward -- applied in a loop since a name can
+# be multiple such words deep ("Sabanci Business School"), and the leading
+# separator can be a comma ("... School, Sabanci University") as well as
+# plain whitespace.
+_TRAILING_INSTITUTION_RE = re.compile(
+    r'(?:[\s,]+(?:[A-Z][a-zA-Z]*\s+){0,2}(?:University|College|School|Institute|Academy))+\.?$')
+
+
+def _strip_trailing_institution(text):
+    prev = None
+    while text and prev != text:
+        prev = text
+        text = _TRAILING_INSTITUTION_RE.sub('', text).strip()
+    return text
+
+
+# A subject clause with no comma/paren/dash to stop it can also run on into
+# a full trailing sentence fragment instead of institution branding --
+# confirmed live: "The Chair of Production Management is offering a
+# part-time position as" (a mangled/truncated scrape of a German site's
+# title) captured "Production Management is offering a part-time position
+# as" whole. These verb-phrase markers don't appear in a genuine noun-phrase
+# subject, so their presence means the capture ran past the real subject
+# into surrounding sentence text -- safer to return nothing than something
+# this wrong.
+_NOT_A_SUBJECT_RE = re.compile(r'\b(?:is|will|offering|position\s+as|click\s+here)\b', re.I)
 
 
 def extract_primary_keyword(title):
     """The subject named directly in the rank clause of the title, e.g.
     "Assistant Professor in Business Analytics" -> "Business Analytics",
     "Professor of Statistics" -> "Statistics". Only looks at the text
-    before the first genuine clause-dash (a dash preceded by whitespace --
-    Oracle-style titles append " - Department of X - <req id> - Grade N"
-    after the role, and a hyphen with NO preceding space, like
-    "BCC-Superalloys", is part of a compound word, not a clause break).
-    Returns '' if the title states no explicit subject this way (many
-    postings don't, e.g. "Research Fellow - Department of Pharmacy - ...")."""
-    role_clause = re.split(r'\s-\s*', title, maxsplit=1)[0]
-    m = _RANK_SUBJECT_RE.search(role_clause)
-    return m.group(1).strip() if m else ''
+    before the first genuine clause-dash (a dash preceded by whitespace,
+    ASCII hyphen or en/em dash -- Oracle-style titles append " - Department
+    of X - <req id> - Grade N" after the role, and a hyphen with NO
+    preceding space, like "BCC-Superalloys", is part of a compound word,
+    not a clause break). Returns '' if the title states no explicit subject
+    this way (many postings don't, e.g. "Research Fellow - Department of
+    Pharmacy - ...")."""
+    role_clause = re.split(r'\s[-–—]\s*', title, maxsplit=1)[0]
+    m = _FOCUS_SUBJECT_RE.search(role_clause) or _RANK_SUBJECT_RE.search(role_clause)
+    if not m:
+        return ''
+    subject = _strip_trailing_institution(m.group(1).strip())
+    return '' if _NOT_A_SUBJECT_RE.search(subject) else subject
 
 
 LLM_KEYWORD_MODEL = 'claude-opus-5'
@@ -437,13 +499,34 @@ def tfidf_keywords(title, description, corpus_stats, exclude=None, max_keywords=
     n = corpus_stats['n_docs']
     doc_freq = corpus_stats['doc_freq']
     tf = _extract_candidate_phrases(_posting_text_for_phrases(title, description))
-    scored = []
+    raw_scores = {}
     for phrase, count in tf.items():
         if len(phrase) < 4 or phrase == exclude_lower:
             continue
         df = doc_freq.get(phrase, 1)
-        score = count * math.log((n + 1) / (df + 1))
-        scored.append((score, phrase))
+        raw_scores[phrase] = count * math.log((n + 1) / (df + 1))
+
+    # A specific multi-word phrase (e.g. "business analytics") often scores
+    # LOWER than one of its own component words (e.g. "analytics" appearing
+    # in several other, unrelated bigrams too, so it racks up more raw term
+    # frequency) -- confirmed live: Sabanci University lost "business
+    # analytics" entirely because "analytics" alone outscored it and then,
+    # sorted first, blocked it via the containment check below. Folding
+    # each shorter phrase's score into every longer phrase that contains it
+    # (longest first, so a 3-word phrase absorbs its 2-word and 1-word
+    # pieces in one pass) means the more specific phrase always carries at
+    # least as much weight as its parts, so specificity wins on merit
+    # instead of losing to whichever fragment happened to score highest.
+    by_len_desc = sorted(raw_scores, key=len, reverse=True)
+    absorbed = set()
+    for i, longer in enumerate(by_len_desc):
+        if longer in absorbed:
+            continue
+        for shorter in by_len_desc[i + 1:]:
+            if shorter not in absorbed and shorter in longer:
+                raw_scores[longer] += raw_scores[shorter]
+                absorbed.add(shorter)
+    scored = [(score, phrase) for phrase, score in raw_scores.items() if phrase not in absorbed]
     scored.sort(key=lambda x: (-x[0], -len(x[1]), x[1]))
     out, covered = [], set()
     for score, phrase in scored:
