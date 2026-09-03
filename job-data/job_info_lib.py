@@ -252,31 +252,38 @@ def extract_deadline(description=''):
 
 
 # --------------------------------------------------------------------------
-# area_key_words: two parts, per explicit user instruction --
-#   1. A rule-based PRIMARY keyword read straight off the position in the
-#      title, when the title states one -- e.g. "Assistant Professor in
-#      Business Analytics" -> "Business Analytics". No LLM call, no
-#      ambiguity: it's literally there in the rank clause.
-#   2. 2-3 SUPPORTING keywords for what courses it wants taught / what
-#      research area it wants pursued. The user's preferred way to get
-#      these is an LLM read of the description (llm_extract_keywords,
-#      below) -- but this session has no ANTHROPIC_API_KEY and the user
-#      confirmed they don't have one either ("I don't have API, so do
-#      whatever you can do best"), so the DEFAULT path is corpus-relative
-#      TF-IDF instead: score each candidate phrase in a posting's
-#      description by how rare it is ACROSS THIS SCHOOL'S OTHER POSTINGS,
-#      not just its raw frequency. Plain word-frequency was tried first and
-#      was mostly noise (confirmed on Birmingham: "research; contribute;
-#      delivery" instead of "nanomaterials; mitochondrial nucleic acid
-#      delivery") because Oracle's shared description boilerplate ("please
-#      note", "we welcome applications", "closes", "contribute to...")
-#      repeats near-identically across EVERY posting from the same school
-#      -- TF-IDF suppresses exactly that shared boilerplate automatically,
-#      without a hand-maintained stopword list having to name it, because a
-#      phrase that appears in most of a school's postings is by definition
-#      not distinctive to any one of them. llm_extract_keywords is left in
-#      place, unused by default, for whoever later has API access to
-#      switch on via use_llm=True.
+# area_key_words: THREE parts, per explicit user instruction --
+#   1. The subject named in the title itself: "Assistant Professor in X",
+#      "Position in X", "... with a focus on X" and friends. Rule-based
+#      (extract_primary_keyword) -- no ambiguity, it's literally there in
+#      the title's rank clause.
+#   2. Up to 2 keywords for WHAT RESEARCH the post is for, taken ONLY from
+#      the sentences of the description that mention research.
+#   3. 1 keyword for WHAT IS TAUGHT, taken ONLY from the sentences that
+#      mention teach/teaches/teaching/taught.
+#
+# The user's preferred way to do 2 and 3 is an LLM reading those sentences
+# (llm_extract_keywords, below), but neither this session nor the user has
+# an ANTHROPIC_API_KEY ("I don't have API, so do whatever you can do
+# best"), so the default is: restrict the candidate pool to the relevant
+# sentences, then rank phrases in that pool by corpus-relative TF-IDF --
+# how rare each phrase is across THIS SCHOOL'S OTHER postings' equivalent
+# pool, not its raw frequency.
+#
+# Restricting the pool first is what makes this work. Scoring the WHOLE
+# description (the previous approach) let a school's own name and its
+# recruiting boilerplate compete with real subject matter and win --
+# confirmed live on Sabanci University, whose keywords came out "analytics;
+# sabanci; systems" and on Stockholm School of Economics, which produced
+# "associate professors tenure-track; innovation management" for a posting
+# whose actual research focus sentence says "Artificial Intelligence,
+# Digital Health or Digital Resilience". A sentence that mentions research
+# or teaching is far likelier to name a topic than a sentence about salary,
+# closing dates, or how highly ranked the university is; TF-IDF then
+# removes whatever admin phrasing those sentences still share across the
+# school's postings. This is heuristic, not comprehension -- it finds what
+# the research/teaching sentences are ABOUT by distinctiveness, it does not
+# understand them. Set use_llm=True once API access exists for a real read.
 # --------------------------------------------------------------------------
 
 # A trigger word directly followed by a rank/role word ("Cluster **of**
@@ -425,21 +432,30 @@ _PHRASE_STOPWORDS = set((
 _PHRASE_TOKEN_RE = re.compile(r"[A-Za-z][A-Za-z\-']+")
 
 
-def _extract_candidate_phrases(text, max_n=3):
+def _extract_candidate_phrases(text, max_n=3, extra_stopwords=None):
     """Splits text into runs of consecutive non-stopword tokens (a run
     breaks at any stopword or punctuation boundary), then emits every
     contiguous sub-run of length 1..max_n words as a candidate phrase --
     e.g. "gravitational wave astrophysics research" (after "research" is
     filtered as a stopword) yields "gravitational", "wave", "astrophysics",
     "gravitational wave", "wave astrophysics", "gravitational wave
-    astrophysics". Returns a phrase -> count-in-this-text dict."""
+    astrophysics". Returns a phrase -> count-in-this-text dict.
+
+    A COMMA breaks a run too, so an enumerated list of topics ("artificial
+    intelligence, machine learning, data mining, network analysis" --
+    Sabanci University, verbatim) yields those four as separate phrases
+    rather than cross-boundary nonsense like "intelligence machine
+    learning". `extra_stopwords` adds pool-specific filler on top of
+    _PHRASE_STOPWORDS (see _RESEARCH_ADMIN_STOPWORDS /
+    _TEACHING_ADMIN_STOPWORDS)."""
     counts = {}
-    for sentence_piece in re.split(r'[.;:\n]', text or ''):
+    stops = _PHRASE_STOPWORDS | extra_stopwords if extra_stopwords else _PHRASE_STOPWORDS
+    for sentence_piece in re.split(r'[.;:,\n]', text or ''):
         tokens = _PHRASE_TOKEN_RE.findall(sentence_piece)
         run = []
         for tok in tokens + ['']:  # sentinel flushes the final run
             lw = tok.lower()
-            if tok and lw not in _PHRASE_STOPWORDS and len(tok) >= 3:
+            if tok and lw not in stops and len(tok) >= 3:
                 run.append(tok)
                 continue
             for n in range(1, max_n + 1):
@@ -450,114 +466,477 @@ def _extract_candidate_phrases(text, max_n=3):
     return counts
 
 
-def _posting_text_for_phrases(title, description):
-    """Title words go in TWICE -- a subject named only in the title (e.g.
-    "Research Fellow (BCC-Superalloys)" never repeating "superalloys" in
-    the body text -- confirmed missing live on Birmingham posting 9913
-    before this fix) needs a real chance to outscore body-text boilerplate,
-    and doubling its term frequency is a simple way to weight it higher
-    without a separate scoring path."""
-    return f'{title} {title} {description}'
+_SENTENCE_SPLIT_RE = re.compile(r'(?<=[.!?])\s+|\n+')
+_RESEARCH_SENT_RE = re.compile(r'\bresearch\w*\b', re.I)
+_TEACH_SENT_RE = re.compile(r'\b(?:teach\w*|taught)\b', re.I)
+
+# Words that show up INSIDE research/teaching sentences without ever being
+# the topic -- the machinery of academic hiring rather than its subject
+# ("publish in top-tier peer-reviewed journals", "teaching undergraduate
+# and/or graduate courses"). Stopwording these matters for more than
+# filtering: a run breaks at every stopword, so removing them is what
+# splits "delivered university courses in management of digital
+# technologies" down to the part that is actually a topic. Kept
+# deliberately narrow -- anything that could plausibly BE somebody's field
+# (network, design, systems, communication...) is left in and left to
+# TF-IDF, which drops it anyway if the school's other postings share it.
+_RESEARCH_ADMIN_STOPWORDS = set((
+    'research researcher researchers researching teach teaches teaching taught '
+    'publication publications publish publishing published journal journals '
+    'peer-reviewed top-tier grant grants funding funded proposal proposals '
+    'scholarly outlet outlets output outputs excellence world-class world-leading '
+    'interest interests agenda portfolio pipeline record '
+    'student students phd postgraduate undergraduate graduate doctoral doctorate '
+    'master masters bachelor mba professor professors associate assistant lecturer '
+    'tenure tenure-track fellow fellows fellowship postdoc postdocs postdoctoral '
+    'scholar scholars collaboration collaborations collaborate collaborative '
+    'partner partners area areas field fields concentration concentrations '
+    'expertise emphasis focus focused focusing conduct conducting course courses '
+    'letter cover curriculum vitae article articles submitted copies '
+    'expected exhibit evidenced promising ranked ranking').split())
+
+_TEACHING_ADMIN_STOPWORDS = set((
+    'teach teaches teaching taught teacher teachers research researcher researchers '
+    'course courses module modules class classes curriculum syllabus lecture lectures '
+    'seminar seminars tutorial tutorials programme programmes program programs '
+    'undergraduate graduate postgraduate doctoral doctorate master masters bachelor '
+    'mba executive student students load levels delivered deliver delivering delivery '
+    'supervise supervision supervising mentor mentoring coach coached '
+    'duties responsibilities assessment assessments respective expertise '
+    'service services profession competitive commensurate qualification qualifications '
+    'professor professors associate assistant lecturer tenure tenure-track').split())
+
+_POOLS = (('research', _RESEARCH_SENT_RE, _RESEARCH_ADMIN_STOPWORDS),
+          ('teaching', _TEACH_SENT_RE, _TEACHING_ADMIN_STOPWORDS))
+
+
+def _sentence_pool(description, sentence_pattern):
+    """Only the sentences of a posting that actually mention the thing --
+    research, or teaching. This is the whole point of the approach: the
+    topic of a research post is stated in its research sentences, not in
+    the paragraph about the pension scheme."""
+    if not description:
+        return ''
+    # normalize non-breaking and other unicode spaces to plain ones -- they
+    # otherwise survive every strip() with an explicit character set and
+    # silently defeat the "starts with a verb" check (confirmed live on
+    # Birmingham, where "\xa0build critical mass" got through as a topic)
+    description = re.sub(r'\s+', ' ', description)
+    return ' '.join(s.strip() for s in _SENTENCE_SPLIT_RE.split(description)
+                    if sentence_pattern.search(s))
+
+
+def _original_case(phrase, source_text):
+    """Candidate phrases are lowercased for counting; show them back the
+    way the posting actually wrote them ("Digital Health", not "digital
+    health") when they can be found again in the source."""
+    m = re.search(re.escape(phrase).replace(r'\ ', r'\s+'), source_text or '', re.I)
+    return m.group(0) if m else phrase
 
 
 def build_corpus_stats(items):
     """items: an iterable of (title, description) pairs, one per posting,
-    for ALL of a school's postings in this run -- document frequency is
-    relative to THIS school's own postings, not some external corpus,
-    which is exactly what makes it catch that school's own repeated
-    boilerplate regardless of what phrasing convention it uses."""
-    n_docs = 0
-    doc_freq = {}
-    for title, desc in items:
-        n_docs += 1
-        for phrase in _extract_candidate_phrases(_posting_text_for_phrases(title, desc)).keys():
-            doc_freq[phrase] = doc_freq.get(phrase, 0) + 1
-    return {'n_docs': n_docs, 'doc_freq': doc_freq}
+    for ALL of a school's postings in this run. Builds one document-
+    frequency map PER POOL (research sentences, teaching sentences), so a
+    phrase is judged against the equivalent sentences of that school's
+    other postings -- "publish in leading journals" is ubiquitous among
+    research sentences and scores ~0, while the posting's actual topic is
+    rare and scores high. Document frequency is relative to THIS school's
+    own postings, which is what catches its own repeated boilerplate
+    regardless of what phrasing convention it uses."""
+    stats = {}
+    for key, sentence_pattern, extra_stopwords in _POOLS:
+        n_docs = 0
+        doc_freq = {}
+        for _title, description in items:
+            pool = _sentence_pool(description, sentence_pattern)
+            if not pool.strip():
+                continue
+            n_docs += 1
+            for phrase in _extract_candidate_phrases(pool, extra_stopwords=extra_stopwords):
+                doc_freq[phrase] = doc_freq.get(phrase, 0) + 1
+        stats[key] = {'n_docs': n_docs, 'doc_freq': doc_freq}
+    return stats
 
 
-def tfidf_keywords(title, description, corpus_stats, exclude=None, max_keywords=3):
-    """Ranks this posting's candidate phrases by tf * log((N+1)/(df+1)) --
-    a phrase every posting shares (df ~= N) scores near zero no matter how
-    often it repeats within one posting; a phrase unique to this posting
-    (df=1) scores highest. Drops single-word phrases that are already
-    covered by a kept multi-word phrase (e.g. "waves" once "gravitational
-    waves" is kept) and anything matching `exclude` (the title's own
-    primary keyword, case-insensitively, so it isn't repeated).
+# Topic-introducing phrases: what a human scanning these sentences actually
+# reads to answer "what research is this?" / "what would I teach?". Each is
+# paired with a precision tier -- a span introduced by "research focus on"
+# is far likelier to BE the topic than one introduced by a bare "including",
+# which is just as often listing a university's breadth as this post's
+# subject. The captured span is the grammatical object; cleanup below trims
+# it back to the topic itself.
+_RESEARCH_TOPIC_PATTERNS = (
+    (r'research\s+(?:focus|focuses|focusing|interests?|expertise|experience|area|areas|'
+     r'agenda|programme|program|activities|profile|strengths?)\s*(?:is|are|will\s+be)?\s*'
+     r'(?:on|in|of|within|into)\s+(.{3,160})', 1.0),
+    (r'\bresearch\s+(?:in|on|into|within)\s+(.{3,160})', 1.0),
+    (r'\b(?:expertise|specialis\w+|specializ\w+|background|track\s+record)\s+in\s+(.{3,160})', 1.0),
+    (r'\bconduct(?:ing|s)?\s+research\s+(?:on|in|into)\s+(.{3,160})', 1.0),
+    (r'\bwork(?:ing)?\s+(?:on|in)\s+the\s+(?:area|field)s?\s+of\s+(.{3,160})', 1.0),
+    (r'\bareas?\s+of\s+(.{3,160})', 0.5),
+    (r'\bfields?\s+of\s+(.{3,160})', 0.5),
+    (r'\bincluding\s+(.{3,160})', 0.0),
+)
 
-    NOTE this is corpus-relative, not semantic -- it will still suppress a
-    genuinely correct topic word if several of a school's OTHER postings
-    also happen to use it (confirmed live: Birmingham's several Immunology
-    postings all lost "immunology" itself from area_key_words, because it
-    wasn't distinctive WITHIN that department cluster even though it's
-    exactly the right word). department_or_school already carries that
-    signal separately, so the loss is softened but not eliminated -- an
-    honest limitation of a non-semantic approach, not a bug to chase
-    further with more regex."""
-    if not corpus_stats or corpus_stats.get('n_docs', 0) < 2:
-        return []
-    exclude_lower = (exclude or '').lower()
-    n = corpus_stats['n_docs']
-    doc_freq = corpus_stats['doc_freq']
-    tf = _extract_candidate_phrases(_posting_text_for_phrases(title, description))
-    raw_scores = {}
-    for phrase, count in tf.items():
-        if len(phrase) < 4 or phrase == exclude_lower:
-            continue
-        df = doc_freq.get(phrase, 1)
-        raw_scores[phrase] = count * math.log((n + 1) / (df + 1))
+_TEACHING_TOPIC_PATTERNS = (
+    (r'\bteach(?:ing)?\s+(?:in|of)\s+(.{3,160})', 1.0),
+    (r'\b(?:courses?|modules?|classes|programmes?|programs?)\s+(?:in|on)\s+(.{3,160})', 1.0),
+    (r'\bdeliver(?:ing|ed)?\s+(?:courses?|modules?|teaching)\s+(?:in|on)\s+(.{3,160})', 1.0),
+    # the capital is scoped case-sensitive: these patterns run under re.I,
+    # which would otherwise let "teaching load and salary..." match here
+    (r'\bteach(?:es|ing)?\s+((?-i:[A-Z])[A-Za-z&\-/ ]{2,60})', 0.5),
+    (r'\bincluding\s+(.{3,160})', 0.0),
+)
 
-    # A specific multi-word phrase (e.g. "business analytics") often scores
-    # LOWER than one of its own component words (e.g. "analytics" appearing
-    # in several other, unrelated bigrams too, so it racks up more raw term
-    # frequency) -- confirmed live: Sabanci University lost "business
-    # analytics" entirely because "analytics" alone outscored it and then,
-    # sorted first, blocked it via the containment check below. Folding
-    # each shorter phrase's score into every longer phrase that contains it
-    # (longest first, so a 3-word phrase absorbs its 2-word and 1-word
-    # pieces in one pass) means the more specific phrase always carries at
-    # least as much weight as its parts, so specificity wins on merit
-    # instead of losing to whichever fragment happened to score highest.
-    by_len_desc = sorted(raw_scores, key=len, reverse=True)
-    absorbed = set()
-    for i, longer in enumerate(by_len_desc):
-        if longer in absorbed:
+# Everything from here on in a captured span belongs to the next clause, not
+# to the topic ("Digital Resilience will be considered a plus" -> "Digital
+# Resilience").
+_CLAUSE_BREAK_RE = re.compile(
+    r'[.!?()\[\]]|\b(?:will|is|are|was|were|would|should|shall|can|could|may|might|must|'
+    r'has|have|had|that|which|who|whom|whose|where|when|while|as|to|for|from|by|with|at|but|'
+    r'in|into|within|through|during|across|among|between|per|via|about|'
+    r'evidenced|considered|required|preferred|expected|demonstrated|desirable|essential|'
+    r'etc|beyond|others|more|plus|advantage|asset)\b', re.I)
+
+# Stripped repeatedly off the FRONT of a span, so "one or more concentration
+# areas of business analytics" reduces to "business analytics".
+_LEADING_FILLER_RE = re.compile(
+    r'^(?:the|a|an|one|two|three|any|all|both|either|some|several|various|other|more|most|'
+    r'related|relevant|following|broad|broadly|core|key|main|specific|specialised|specialized|'
+    r'areas?|fields?|topics?|domains?|disciplines?|subjects?|concentrations?|'
+    r'specialisations?|specializations?|aspects?|of|in|on|and|or|its|their|our|his|her|'
+    r'undergraduate|graduate|postgraduate|doctoral|masters?|bachelors?|mba|executive|'
+    r'courses?|modules?|classes|programmes?|programs?|levels?|students?|'
+    r'including|include|includes|included|such|as|e\.?g\.?|i\.?e\.?|'
+    r'strong|excellent|proven|demonstrable|significant|substantial|high[- ]quality|'
+    r'new|emerging|innovative|world[- ]class|leading|international|national)\b[\s,]*', re.I)
+
+_SPLIT_ITEMS_RE = re.compile(r',|\band/or\b|\band\b|\bor\b|;|/|&', re.I)
+
+# An "item" made only of these is administrative vocabulary, not a subject.
+_ADMIN_ONLY_WORDS = set((
+    'research teaching education study studies work position post role service '
+    'excellence quality experience expertise knowledge skills ability abilities '
+    'university school college faculty department institute centre center '
+    'students student staff members community environment activities '
+    'publication publications journals grants funding projects project '
+    'related relevant respective various other others topics areas fields topic area '
+    'discipline disciplines subject subjects level levels field domain domains '
+    'application applications statement statements vitae curriculum letter letters '
+    'reference references contact information philosophy plans plan accomplishments '
+    'portfolio load salary profession culture engagement opportunities partners '
+    'network networks ecosystem candidates candidate appointment employment '
+    'documents document copies interests interest agenda record profile '
+    'mentoring supervision collaboration collaborations development training '
+    'income budget revenue resources infrastructure facilities equipment '
+    'importance impact reputation standing visibility ambition ambitions '
+    'commitment evidence understanding approach practice practices '
+    'group groups team teams unit units programme program').split())
+
+# Sentences telling the APPLICANT what to send describe the application, not
+# the job -- confirmed live on AcademicJobsOnline postings, whose only
+# "research" sentences are "Research statement describing past research
+# accomplishments and future research plans".
+_INSTRUCTION_SENT_RE = re.compile(
+    r'\b(?:submit|upload|send|attach|enclose|provide\s+(?:a|the|your)|'
+    r'cover\s+letter|curriculum\s+vitae|\bcv\b|letters?\s+of\s+(?:reference|recommendation)|'
+    r'statement\s+(?:of|describing)|please\s+(?:apply|include)|'
+    r'application\s+(?:should|must|materials))\b', re.I)
+
+# A topic span that starts with a verb is a duty, not a subject
+# ("...areas of statistics to build critical mass, strengthen the group's
+# national profile and develop interdisciplinary..." -- Birmingham,
+# verbatim, which yielded "build critical mass" and "strengthen the
+# group's national" before this filter).
+_LEADING_VERB_RE = re.compile(
+    r'^(?:build|strengthen|develop|deliver|support|lead|establish|contribute|undertake|'
+    r'carry|conduct|engage|work|promote|enhance|expand|maintain|participate|publish|'
+    r'secure|attract|drive|foster|create|provide|ensure|help|join|produce|generate|'
+    r'pursue|advance|grow|improve|increase|manage|coordinate|supervise|collaborate|'
+    r'disseminate|present|write|prepare|assist|apply|make|take|bring|play|inform)\b', re.I)
+
+# Below this, a candidate isn't good enough to publish -- an empty
+# area_key_words slot beats a confidently wrong one. Set so that a bare
+# single word introduced by a weak pattern ("...including commensurate")
+# can't qualify, while a multi-word phrase from a weak pattern
+# ("...including artificial intelligence") can.
+_TOPIC_SCORE_FLOOR = 1.5
+
+# A phrase this much of a school's postings share is its house boilerplate,
+# not this posting's topic -- Aston repeats "research in areas such as
+# engineering, medicine, social sciences and humanities" in 11 of its 19
+# postings.
+_BOILERPLATE_DF_RATIO = 0.5
+
+
+# A school's own name and acronym are never the subject of its own job ad,
+# but they are all over its page furniture -- confirmed live: UCL's
+# navigation produced "Examination Support Department UCL BEAMS" as a
+# taught subject, and Sabanci University's own name kept surfacing as a
+# keyword. Corpus rarity does NOT catch these reliably: "ucl beams" appears
+# in exactly one posting, so it looks maximally distinctive. The name comes
+# from schools_master.csv keyed by school_id, so no per-school script needs
+# to pass anything.
+_GENERIC_NAME_WORDS = frozenset((
+    'university universities college school schools institute institution academy '
+    'centre center polytechnic technology technological national state the of and '
+    'für fur de la del di du des van der och').split())
+
+# Words that turn up in institution names but are also perfectly good
+# subjects -- never let these become identity tokens, or "Economics" gets
+# thrown away as a topic at the Stockholm School of Economics.
+_NAME_FIELD_WORDS = frozenset((
+    'economics business management technology science sciences engineering arts '
+    'humanities medicine medical law education health music design agriculture '
+    'mathematics physics chemistry biology philosophy theology divinity veterinary '
+    'nursing pharmacy dentistry architecture computing informatics communication '
+    'journalism finance accounting marketing psychology').split())
+
+_SCHOOL_NAMES = None
+
+
+def _school_name(school_id):
+    global _SCHOOL_NAMES
+    if _SCHOOL_NAMES is None:
+        _SCHOOL_NAMES = {}
+        try:
+            with open(os.path.join(HERE, 'schools_master.csv'), encoding='utf-8') as f:
+                for row in csv.DictReader(f):
+                    try:
+                        _SCHOOL_NAMES[int(row['school_id'])] = row.get('name') or ''
+                    except (KeyError, TypeError, ValueError):
+                        continue
+        except OSError:
+            pass
+    return _SCHOOL_NAMES.get(school_id, '')
+
+
+# Letters that NFKD can't decompose into base+accent still need folding, or
+# "Sabanci" in the page text won't match "Sabancı" from the school name.
+_LETTER_FOLD = str.maketrans({'ı': 'i', 'İ': 'I', 'ğ': 'g', 'Ğ': 'G', 'ş': 's', 'Ş': 'S',
+                              'ø': 'o', 'Ø': 'O', 'ł': 'l', 'Ł': 'L', 'đ': 'd', 'Đ': 'D',
+                              'æ': 'ae', 'Æ': 'AE', 'œ': 'oe', 'Œ': 'OE', 'ß': 'ss'})
+
+
+def _ascii_fold(text):
+    import unicodedata
+    folded = (text or '').translate(_LETTER_FOLD)
+    return ''.join(c for c in unicodedata.normalize('NFKD', folded)
+                   if not unicodedata.combining(c))
+
+
+def school_identity_tokens(school_id):
+    """The school's own distinctive name words plus its acronym, lowercased
+    and diacritic-folded ("Sabanci University" -> {"sabanci"}, "University
+    College London" -> {"london", "ucl"})."""
+    name = _school_name(school_id)
+    if not name:
+        return frozenset()
+    words = [w.lower() for w in re.findall(r"[A-Za-z\u00C0-\u024F']+", _ascii_fold(name))]
+    tokens = {w for w in words
+              if len(w) >= 3 and w not in _GENERIC_NAME_WORDS and w not in _NAME_FIELD_WORDS}
+    acronym = ''.join(w[0] for w in words if len(w) >= 3 and w not in ('the', 'and', 'for'))
+    if len(acronym) >= 3:
+        tokens.add(acronym)
+    return frozenset(tokens)
+
+
+def _is_school_identity(item, identity_tokens):
+    """True when the candidate is the school talking about itself: it
+    carries the acronym, or every one of its words is part of the school's
+    name. Deliberately NOT "contains any name word" -- that would throw
+    away "Chinese literature" at the Chinese University of Hong Kong."""
+    if not identity_tokens:
+        return False
+    words = [w.lower() for w in re.findall(r"[A-Za-z\u00C0-\u024F']+", _ascii_fold(item))]
+    if not words:
+        return False
+    # a short name token on its own is enough -- an acronym ("ucl") or a
+    # one-word institution name is never part of a real subject
+    if any(len(w) <= 5 and w in identity_tokens for w in words):
+        return True
+    return all(w in identity_tokens or w in _GENERIC_NAME_WORDS for w in words)
+
+
+# Short words that legitimately sit inside a topic ("management OF digital
+# technologies") -- every other 1-2 letter token means the span was cut
+# mid-phrase or picked up an initialism from page furniture ("AEP
+# equivalent up", "Posts GU").
+_SHORT_CONNECTORS = frozenset(('of in on at to for and or the a an de la di du el &').split())
+
+
+# A topic never contains markup, money, a date or site navigation -- these
+# turn up when a description carries raw page furniture (confirmed live:
+# "clinical departments<; li><li>Work", "salary of $140", "Monday 25th
+# January 2027; followed", "Technician Skip").
+_JUNK_ITEM_RE = re.compile(
+    r'[<>$£€%@|{}]|\d|'
+    r'\b(?:monday|tuesday|wednesday|thursday|friday|saturday|sunday|'
+    r'january|february|march|april|june|july|august|september|october|november|december|'
+    r'skip|menu|login|log\s*in|sign\s*in|portal|homepage|cookies?|privacy|copyright|'
+    r'newsletter|footer|header|breadcrumb|sitemap|navigation)\b', re.I)
+
+
+def _clean_topic_item(item):
+    item = item.strip(' \t\n\r,.;:*-–—()[]"\'')
+    if _LEADING_VERB_RE.match(item):
+        return ''
+    prev = None
+    while prev != item:
+        prev = item
+        item = _LEADING_FILLER_RE.sub('', item).strip(' ,.;:-')
+    m = _CLAUSE_BREAK_RE.search(item)
+    if m:
+        item = item[:m.start()].strip(' ,.;:-')
+    item = ' '.join(item.split()[:5]).strip(' ,.;:-')
+    if len(item) < 4 or _JUNK_ITEM_RE.search(item):
+        return ''
+    if all(w.lower().strip('.,') in _ADMIN_ONLY_WORDS for w in item.split()):
+        return ''
+    words = item.split()
+    if len(words) > 1 and any(len(w.strip('.,&/-')) < 3 and w.lower().strip('.,&/-')
+                              not in _SHORT_CONNECTORS for w in words):
+        return ''
+    return item
+
+
+def _drop_instruction_sentences(pool):
+    return ' '.join(s for s in _SENTENCE_SPLIT_RE.split(pool or '')
+                    if s.strip() and not _INSTRUCTION_SENT_RE.search(s))
+
+
+def _topic_candidates(pool, patterns):
+    """Every topic named in `pool` by one of `patterns`, as
+    (item, best pattern tier) -- keeping the highest tier when the same
+    item is found by more than one pattern."""
+    best = {}
+    for pattern, tier in patterns:
+        for m in re.finditer(pattern, pool, re.I):
+            span = m.group(1)
+            # never read past the end of the sentence the topic was named in
+            # (a fixed-width capture otherwise runs into the next sentence:
+            # "...courses in the respective fields. The teaching load and
+            # salary are competitive and commensurate..." yielded
+            # "commensurate" as a taught subject), and drop a trailing
+            # partial word left by the capture's own width limit.
+            span = re.split(r'[.;!?]', span)[0]
+            if not span.endswith(' ') and ' ' in span and len(m.group(1)) >= 160:
+                span = span[:span.rfind(' ')]
+            for raw in _SPLIT_ITEMS_RE.split(span):
+                item = _clean_topic_item(raw)
+                if not item:
+                    continue
+                key = item.lower()
+                if key not in best or tier > best[key][1]:
+                    best[key] = (item, tier)
+    return list(best.values())
+
+
+def _item_doc_freq(item, doc_freq, extra_stopwords=None):
+    """How many of the school's postings share this candidate. Corpus stats
+    only hold phrases up to 3 words and only between stopwords, so a longer
+    or stopword-spanning candidate isn't in the map at all and would look
+    maximally rare no matter how much boilerplate it is -- confirmed live on
+    UCL, whose page navigation yielded "Examination Support Department UCL
+    BEAMS" as a taught subject. Fall back to the item's own LONGEST
+    constituent phrases: for that navigation string those are "ucl beams",
+    in every UCL posting, while for a real topic like "Digital Health" the
+    longest constituent is the topic itself. (Taking the max over ALL
+    constituents instead would over-suppress, since a real topic's
+    individual words are often common on their own.)"""
+    key = item.lower()
+    if key in doc_freq:
+        return doc_freq[key]
+    phrases = _extract_candidate_phrases(item, extra_stopwords=extra_stopwords)
+    if not phrases:
+        return 0
+    longest = max(len(p.split()) for p in phrases)
+    return max(doc_freq.get(p, 0) for p in phrases if len(p.split()) == longest)
+
+
+def topic_keywords(pool, patterns, pool_stats, exclude_terms=(), max_keywords=2,
+                   extra_stopwords=None, identity_tokens=frozenset()):
+    """Rank the topics named in one sentence pool. Score combines:
+      - pattern tier (how reliably that phrasing introduces a real topic),
+      - whether the posting capitalizes it (field names usually are),
+      - rarity across this school's other postings' equivalent pool,
+      - a small bonus for multi-word phrases (more specific).
+    A phrase most of the school's postings share is dropped outright as
+    house boilerplate, and anything scoring under _TOPIC_SCORE_FLOOR is
+    dropped rather than published."""
+    n = (pool_stats or {}).get('n_docs', 0)
+    doc_freq = (pool_stats or {}).get('doc_freq', {})
+    excluded = [e.lower() for e in exclude_terms if e]
+
+    scored = []
+    for item, tier in _topic_candidates(pool, patterns):
+        low = item.lower()
+        if any(low in e or e in low for e in excluded):
             continue
-        for shorter in by_len_desc[i + 1:]:
-            if shorter not in absorbed and shorter in longer:
-                raw_scores[longer] += raw_scores[shorter]
-                absorbed.add(shorter)
-    scored = [(score, phrase) for phrase, score in raw_scores.items() if phrase not in absorbed]
-    scored.sort(key=lambda x: (-x[0], -len(x[1]), x[1]))
-    out, covered = [], set()
-    for score, phrase in scored:
-        if score <= 0:
+        if _is_school_identity(item, identity_tokens):
             continue
-        if any(phrase in longer or longer in phrase for longer in covered):
+        df = _item_doc_freq(item, doc_freq, extra_stopwords)
+        if n >= 2 and df / max(n, 1) >= _BOILERPLATE_DF_RATIO:
             continue
-        covered.add(phrase)
-        out.append(phrase)
+        rarity = 1.0 if n < 2 else 1.0 - (df / max(n, 1))
+        capitalized = 1.0 if (item[:1].isupper() and not item.isupper()) else 0.0
+        specific = 0.5 if len(item.split()) > 1 else 0.0
+        score = tier + capitalized + rarity + specific
+        if score >= _TOPIC_SCORE_FLOOR:
+            scored.append((score, item))
+
+    scored.sort(key=lambda x: (-x[0], -len(x[1]), x[1].lower()))
+    out = []
+    for _score, item in scored:
+        if any(item.lower() in k.lower() or k.lower() in item.lower() for k in out):
+            continue
+        out.append(item)
         if len(out) >= max_keywords:
             break
     return out
 
 
-def extract_keywords(title, description='', corpus_stats=None, use_llm=False, llm_client=None):
-    """Primary keyword (rule-based, from the title) + up to 3 supporting
-    keywords. Supporting keywords come from llm_extract_keywords when
-    use_llm=True (needs API credentials -- opt in once you have them), else
-    from tfidf_keywords against corpus_stats (see build_corpus_stats) when
-    corpus_stats is given, else there are no supporting keywords and only
-    the primary keyword (if the title has one) is returned."""
+def extract_keywords(title, description='', corpus_stats=None, use_llm=False, llm_client=None,
+                     school_id=None):
+    """area_key_words, in the three parts specified for this project (see
+    the block comment above extract_primary_keyword):
+
+      1. the subject named in the title's own rank clause;
+      2. up to 2 keywords for what research the post is for, read out of
+         the description's research sentences only;
+      3. 1 keyword for what it wants taught, read out of its teaching
+         sentences only.
+
+    Parts 2 and 3 come from llm_extract_keywords instead when use_llm=True
+    (needs API credentials -- opt in once you have them). A part is simply
+    absent when the posting doesn't support one: a posting with no teaching
+    sentences, or whose teaching sentences only discuss workload and
+    salary, gets no teaching keyword rather than a filler scraped from
+    unrelated text."""
     primary = extract_primary_keyword(title)
-    supporting = []
+    keywords = [primary] if primary else []
+
     if use_llm:
         try:
             supporting = llm_extract_keywords(title, description, primary, client=llm_client)
+            return '; '.join(keywords + [s for s in supporting if s.lower() != primary.lower()])
         except Exception:
-            supporting = []
-    elif corpus_stats:
-        supporting = tfidf_keywords(title, description, corpus_stats, exclude=primary)
-    keywords = ([primary] if primary else []) + [s for s in supporting if s.lower() != primary.lower()]
+            pass
+
+    if not corpus_stats:
+        return '; '.join(keywords)
+
+    exclude = list(keywords)
+    identity_tokens = school_identity_tokens(school_id) if school_id else frozenset()
+    for key, sentence_pattern, _stopwords in _POOLS:
+        pool = _drop_instruction_sentences(_sentence_pool(description, sentence_pattern))
+        patterns = _RESEARCH_TOPIC_PATTERNS if key == 'research' else _TEACHING_TOPIC_PATTERNS
+        found = topic_keywords(pool, patterns, corpus_stats.get(key), exclude_terms=exclude,
+                               max_keywords=2 if key == 'research' else 1,
+                               extra_stopwords=_stopwords, identity_tokens=identity_tokens)
+        keywords.extend(found)
+        exclude.extend(found)
     return '; '.join(keywords)
 
 
@@ -578,7 +957,8 @@ def classify_row(school_id, url, title, description='', department=None,
         'job_term': classify_job_term(title, description),
         'department_or_school': department.strip() if department else extract_department(title, description),
         'area_key_words': extract_keywords(title, description, corpus_stats=corpus_stats,
-                                            use_llm=use_llm, llm_client=llm_client),
+                                            use_llm=use_llm, llm_client=llm_client,
+                                            school_id=school_id),
         'deadline_of_application': extract_deadline(description),
         'position_start_date': extract_start_date(description),
     }
