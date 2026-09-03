@@ -36,13 +36,20 @@ ATS_PLATFORM = 'own website'
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
+# A real CityU posting is always .../hro/en/job/current/<section>.asp with a
+# ref= id. The generic job-shaped filter also picked up the site's own
+# navigation -- the how-to-apply page, the "useful info" guide, the internal
+# staff sign-in, and the five jobs1.cityu.edu.hk/apply/Default.aspx category
+# listings -- which then appeared as 9 postings titled "Research Positions",
+# "Sign In", "Online Application Procedures" and so on (confirmed live).
+POSTING_RE = re.compile(r'/hro/en/job/current/\w+\.asp\?ref=', re.I)
+
+
 def find_links():
     html = lib.fetch_rendered(CAREERS_LINK)
     if lib.is_fetch_failure(html):
         raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                              href_pattern=lib.COMMON_JOB_URL_HINTS,
-                              text_pattern=lib.COMMON_JOB_URL_HINTS)
+    return lib.extract_links(html, CAREERS_LINK, href_pattern=POSTING_RE)
 
 
 def main():

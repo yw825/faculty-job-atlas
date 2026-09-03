@@ -28,7 +28,13 @@ ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
-SLUG_RE = re.compile(r'^/[a-z0-9]{8,12}$')
+# The real posting slugs are random alphanumerics that always contain at
+# least one DIGIT ("1no3ttx2zu", "n2tkxa2120"). A digit-free rule also
+# matched ordinary site pages of the same length -- "/recherche" and
+# "/formation" were being recorded as postings (confirmed live) -- and the
+# host check keeps www.psl.eu navigation out entirely.
+SLUG_RE = re.compile(r'^/(?=[a-z0-9]*\d)[a-z0-9]{8,12}$')
+POSTING_HOST = 'recrutement.psl.eu'
 LAST_PAGE_RE = re.compile(r'[?&]page=(\d+)')
 
 
@@ -43,9 +49,10 @@ def find_links():
         out = []
         for a in soup.find_all('a', href=True):
             href = a['href']
-            path = lib.urlsplit(href).path or href
-            if SLUG_RE.match(path):
-                out.append(lib.urljoin(base_url, href))
+            resolved = lib.urljoin(base_url, href)
+            parts = lib.urlsplit(resolved)
+            if parts.netloc == POSTING_HOST and SLUG_RE.match(parts.path or ''):
+                out.append(resolved)
         return out
 
     soup = BeautifulSoup(html, 'html.parser')

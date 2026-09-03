@@ -31,6 +31,7 @@ school_id_1683_job_info.checkpoint next to this script -- kill-and-resume,
 per-posting granularity.
 """
 import os
+import re
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -48,7 +49,20 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint
 
 
 def fetch_detail(url):
-    return jinfo.fetch_detail_generic(url)
+    """CUSTOMIZED (confirmed live): the FIRST <h1> on every PSL posting page
+    belongs to the accessibility-settings overlay, so all 164 postings were
+    recorded with the title "Parametres d\u2019accessibilite". The clean
+    title is the <title> tag, minus its " | PSL" suffix.
+    """
+    from bs4 import BeautifulSoup
+
+    html = jinfo.fetch_rendered(url, wait_ms=4500)
+    if jinfo.is_fetch_failure(html):
+        raise RuntimeError(html)
+    soup = BeautifulSoup(html, 'html.parser')
+    title = (soup.title.string or '').strip() if soup.title else ''
+    title = re.sub(r'\s*\|\s*PSL\s*$', '', title).strip()
+    return title, soup.get_text(' ', strip=True)
 
 
 def main():

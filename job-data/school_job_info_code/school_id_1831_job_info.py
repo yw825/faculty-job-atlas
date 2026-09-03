@@ -31,6 +31,7 @@ school_id_1831_job_info.checkpoint next to this script -- kill-and-resume,
 per-posting granularity.
 """
 import os
+import re
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -48,7 +49,26 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint
 
 
 def fetch_detail(url):
-    return jinfo.fetch_detail_generic(url)
+    """CUSTOMIZED (confirmed live): every CityU posting page carries the
+    same site-wide <title> ("Human Resources Office - City University of
+    Hong Kong") and an EMPTY <h1>, so 84 of 96 postings were recorded with
+    the title "Human Resources Office". The real job title is the <h2>
+    ("Chair Professor/Professor/Associate Professor/Assistant Professor in
+    the ..."). Falls back to the generic picker on the handful of listing
+    and how-to-apply pages that have no such <h2>.
+    """
+    from bs4 import BeautifulSoup
+
+    html = jinfo.fetch_rendered(url, wait_ms=3500)
+    if jinfo.is_fetch_failure(html):
+        raise RuntimeError(html)
+    soup = BeautifulSoup(html, 'html.parser')
+
+    h2 = soup.find('h2')
+    title = h2.get_text(' ', strip=True) if h2 else ''
+    if not title:
+        return jinfo.fetch_detail_generic(url)
+    return title, soup.get_text(' ', strip=True)
 
 
 def main():
