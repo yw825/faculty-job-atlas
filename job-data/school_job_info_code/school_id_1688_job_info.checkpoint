@@ -1,0 +1,41 @@
+{
+  "raw": {
+    "https://berufungsportal.uni-frankfurt.de/application?procedure=09F15B08-7F83-8E25-F96A-9BB2D68B943E": {
+      "title": "",
+      "description": "Online"
+    },
+    "https://berufungsportal.uni-frankfurt.de/application?procedure=FFC2468A-4FCC-1938-77F1-799F34F2A679": {
+      "title": "",
+      "description": "Online"
+    }
+  },
+  "rows": {
+    "https://berufungsportal.uni-frankfurt.de/application?procedure=09F15B08-7F83-8E25-F96A-9BB2D68B943E": {
+      "school_id": 1688,
+      "posting_url": "https://berufungsportal.uni-frankfurt.de/application?procedure=09F15B08-7F83-8E25-F96A-9BB2D68B943E",
+      "job_title_in_post": "",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://berufungsportal.uni-frankfurt.de/application?procedure=FFC2468A-4FCC-1938-77F1-799F34F2A679": {
+      "school_id": 1688,
+      "posting_url": "https://berufungsportal.uni-frankfurt.de/application?procedure=FFC2468A-4FCC-1938-77F1-799F34F2A679",
+      "job_title_in_post": "",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    }
+  },
+  "school_id": 1688,
+  "status": "complete",
+  "updated_at": "2026-09-03T19:01:27+00:00",
+  "completed_at": "2026-09-03T19:01:27+00:00",
+  "last_error": ""
+}

@@ -1,3 +1,15 @@
-school_id,job_title,job_title_original,department,department_original,location,position_type,post_date,posting_url,source_tier,source_platform,language,scraped_at
-1597,Lab Coordinator,Lab Coordinator,,,,,,https://royalroads.mua.hrdepartment.com/hr/ats/Posting/view/2783,3,generic(requests),en,2026-09-02T19:47:45Z
-1597,Gardener- Casual/On-Call,Gardener- Casual/On-Call,,,,,,https://royalroads.mua.hrdepartment.com/hr/ats/Posting/view/2613,3,generic(requests),en,2026-09-02T19:47:45Z
+school_id,post_link
+1597,https://royalroads.mua.hrdepartment.com/hr/ats/Posting/view/2783
+1597,https://royalroads.mua.hrdepartment.com/hr/ats/Posting/view/2613
+1597,http://www.royalroads.ca
+1597,https://ourpeople.royalroads.ca/careers
+1597,https://humanresources.royalroads.ca/contact/Career-Opportunities
+1597,https://royalroads.mua.hrdepartment.com/hr/ats/JobSearch/index
+1597,https://royalroads.mua.hrdepartment.com/hr/ats/JobSearch/viewAll
+1597,https://royalroads.mua.hrdepartment.com/hr/ats/JobSeeker/createAccount
+1597,https://royalroads.mua.hrdepartment.com/hr/ats/JobSearch/viewAll/jobSearchPaginationExternal_pageSize:10/jobSearchPaginationExternal_page:1
+1597,https://royalroads.mua.hrdepartment.com/hr/ats/JobSearch/viewAll/jobSearchPaginationExternal_pageSize:50/jobSearchPaginationExternal_page:1
+1597,https://royalroads.mua.hrdepartment.com/hr/ats/JobSearch/viewAll/jobSearchPaginationExternal_pageSize:100/jobSearchPaginationExternal_page:1
+1597,https://royalroads.mua.hrdepartment.com/hr/ats/JobSearch/viewAll/jobSearchPaginationExternal_sort:ats_requisition_code
+1597,https://royalroads.mua.hrdepartment.com/hr/ats/JobSearch/viewAll/jobSearchPaginationExternal_sort:ats_requisition_title
+1597,https://royalroads.mua.hrdepartment.com/hr/ats/JobSearch/viewAll/jobSearchPaginationExternal_sort:orgLevelTranslation.translation

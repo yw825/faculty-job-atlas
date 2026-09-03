@@ -1,0 +1,43 @@
+{
+  "raw": {
+    "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3863": {
+      "title": "Two-year Assistant Professor Appointment in Political Science",
+      "description": "The University of Windsor’s Department of Political Science, in the Faculty of Arts, Humanities and Social Sciences seeks applications for Two-Year Limited-term Assistant Professor position commencing as early as July 1, 2027.",
+      "department": null
+    },
+    "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3823": {
+      "title": "Sports Information Coordinator \"VI\" (2026-13-32)",
+      "description": "CUPE 1393\nSports Information Coordinator \"VI\" in the Department of Athletics & Recreational Services",
+      "department": null
+    }
+  },
+  "rows": {
+    "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3863": {
+      "school_id": 1637,
+      "posting_url": "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3863",
+      "job_title_in_post": "Two-year Assistant Professor Appointment in Political Science",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Political Science; assistant professor; political; two-year",
+      "deadline_of_application": "",
+      "position_start_date": "July 1, 2027"
+    },
+    "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3823": {
+      "school_id": 1637,
+      "posting_url": "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3823",
+      "job_title_in_post": "Sports Information Coordinator \"VI\" (2026-13-32)",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "Department of Athletics & Recreational Services",
+      "area_key_words": "coordinator; sports; athletics recreational services",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    }
+  },
+  "school_id": 1637,
+  "status": "complete",
+  "updated_at": "2026-09-03T04:57:40+00:00",
+  "completed_at": "2026-09-03T04:57:40+00:00",
+  "last_error": ""
+}

@@ -1,0 +1,8 @@
+{
+  "links": [],
+  "school_id": 1677,
+  "status": "error",
+  "updated_at": "2026-09-02T22:23:54+00:00",
+  "started_at": "2026-09-02T22:23:29+00:00",
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://emploi.univ-grenoble-alpes.fr/job-offers/\", waiting until \"domcontentloaded\"\n"
+}

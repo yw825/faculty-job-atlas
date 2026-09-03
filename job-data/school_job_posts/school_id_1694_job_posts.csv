@@ -1,5 +1,5 @@
-school_id,job_title,job_title_original,department,department_original,location,position_type,post_date,posting_url,source_tier,source_platform,language,scraped_at
-1694,THEORY AND APPLICATIONS OF ALGORITHMS,ΘΕΩΡΙΑ ΚΑΙ ΕΦΑΡΜΟΓΕΣ ΑΛΓΟΡΙΘΜΩΝ,ATHENS UNIVERSITY OF ECONOMICS AND BUSINESS,ΟΙΚΟΝΟΜΙΚΟ ΠΑΝΕΠΙΣΤΗΜΙΟ ΑΘΗΝΩΝ,Greece,,2026-07-22,https://apella.minedu.gov.gr/node/7334,0,apella,el,2026-09-02T19:49:49Z
-1694,SOFTWARE TECHNOLOGY,ΤΕΧΝΟΛΟΓΙΑ ΛΟΓΙΣΜΙΚΟΥ,ATHENS UNIVERSITY OF ECONOMICS AND BUSINESS,ΟΙΚΟΝΟΜΙΚΟ ΠΑΝΕΠΙΣΤΗΜΙΟ ΑΘΗΝΩΝ,Greece,,2026-07-22,https://apella.minedu.gov.gr/node/7333,0,apella,el,2026-09-02T19:49:49Z
-1694,ECONOMIC SCIENCE WITH EMPHASIS ON MICROECONOMICS,ΟΙΚΟΝΟΜΙΚΗ ΕΠΙΣΤΗΜΗ ΜΕ ΕΜΦΑΣΗ ΣΤΗ ΜΙΚΡΟΟΙΚΟΝΟΜΙΚΗ,ATHENS UNIVERSITY OF ECONOMICS AND BUSINESS,ΟΙΚΟΝΟΜΙΚΟ ΠΑΝΕΠΙΣΤΗΜΙΟ ΑΘΗΝΩΝ,Greece,,2026-07-10,https://apella.minedu.gov.gr/node/7260,0,apella,el,2026-09-02T19:49:49Z
-1694,ECONOMIC SCIENCE WITH EMPHASIS ON MACROECONOMICS,ΟΙΚΟΝΟΜΙΚΗ ΕΠΙΣΤΗΜΗ ΜΕ ΕΜΦΑΣΗ ΣΤΗ ΜΑΚΡΟΟΙΚΟΝΟΜΙΚΗ,ATHENS UNIVERSITY OF ECONOMICS AND BUSINESS,ΟΙΚΟΝΟΜΙΚΟ ΠΑΝΕΠΙΣΤΗΜΙΟ ΑΘΗΝΩΝ,Greece,,2026-07-13,https://apella.minedu.gov.gr/node/7258,0,apella,el,2026-09-02T19:49:49Z
+school_id,post_link
+1694,https://apella.minedu.gov.gr/node/7334
+1694,https://apella.minedu.gov.gr/node/7333
+1694,https://apella.minedu.gov.gr/node/7260
+1694,https://apella.minedu.gov.gr/node/7258

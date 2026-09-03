@@ -1,0 +1,23 @@
+{
+  "raw": {
+    "https://www.yorku.ca/vpepc/faculty-affairs/wp-content/uploads/sites/698/2026/08/HUMA.LAPS_IndStud.pdf": {
+      "error": "SSLError: HTTPSConnectionPool(host='www.yorku.ca', port=443): Max retries exceeded with url: /vpepc/faculty-affairs/wp-content/uploads/sites/698/2026/08/HUMA.LAPS_IndStud.pdf (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)')))"
+    },
+    "https://www.yorku.ca/vpepc/faculty-affairs/wp-content/uploads/sites/698/2026/06/HH_CLA_NURS5_Ex.pdf": {
+      "error": "SSLError: HTTPSConnectionPool(host='www.yorku.ca', port=443): Max retries exceeded with url: /vpepc/faculty-affairs/wp-content/uploads/sites/698/2026/06/HH_CLA_NURS5_Ex.pdf (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)')))"
+    }
+  },
+  "rows": {
+    "https://www.yorku.ca/vpepc/faculty-affairs/wp-content/uploads/sites/698/2026/08/HUMA.LAPS_IndStud.pdf": {
+      "error": "SSLError: HTTPSConnectionPool(host='www.yorku.ca', port=443): Max retries exceeded with url: /vpepc/faculty-affairs/wp-content/uploads/sites/698/2026/08/HUMA.LAPS_IndStud.pdf (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)')))"
+    },
+    "https://www.yorku.ca/vpepc/faculty-affairs/wp-content/uploads/sites/698/2026/06/HH_CLA_NURS5_Ex.pdf": {
+      "error": "SSLError: HTTPSConnectionPool(host='www.yorku.ca', port=443): Max retries exceeded with url: /vpepc/faculty-affairs/wp-content/uploads/sites/698/2026/06/HH_CLA_NURS5_Ex.pdf (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)')))"
+    }
+  },
+  "school_id": 1634,
+  "status": "complete",
+  "updated_at": "2026-09-03T18:58:45+00:00",
+  "completed_at": "2026-09-03T18:58:45+00:00",
+  "last_error": ""
+}

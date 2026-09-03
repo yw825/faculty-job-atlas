@@ -1,0 +1,44 @@
+{
+  "raw": {
+    "https://jobportal.uni-koeln.de/": {
+      "title": "Advertisementoverview",
+      "description": "Advertisement\n        overview Jobportal | Advertisements English German Advertisement overview Show Filter Type of employment Academic staff Technical and administrative staff Employment type (supplement) Vocational training PhD Title Advertisement 1 - 10 / 42 Lehrkraft für besondere Aufgaben (w/m/d) - Schwerpunkt komplexe Behinderung   Wiss2607-10 Lehrstuhl Pädagogik und Rehabilitation bei Menschen mit geistiger und komplexer Behinderung | Humanwissenschaftliche Fakultät Academic staff 06.09.2026 apply Leitung des Dezernats (w/m/d)    TUV2608-02 Dezernat für Studierendenangelegenheiten | Universitätsverwaltung Technical and administrative staff 07.09.2026 apply Wissenschaftliche*r Mitarbeiter*in (w/m/d) im Projekt (VERA) 8   Wiss2608-08 Institut für deutsche Sprache und Literatur II (IDSL II) Academic staff 08.09.2026 apply 2 Projekt- und Officekoordinator*innen (w/m/d) für die ASG Service Unit (Gründungsphase)   TUV2608-07 Adenauer School of Government (ASG) | Universität zu Köln Technical and administrative staff 09.09.2026 apply Koordinator*in (w/m/d) des Micro-Credential-Netzwerks für die Hochschullehre   TUV2608-05 Plattform für Lehren und Lernen | Prorektorat für Lehre und Studium Technical and administrative staff 09.09.2026 apply Wissenschaftliche Hilfskraft (WHB) (w/m/d) Wiss2607-15 Institut für Biochemie Academic staff 10.09.2026 apply Wissenschaftliche*r Mitarbeiter*in (w/m/d) - Projekt „KrimOJ“   Wiss2608-06 Institut für Kriminologie | Rechtswissenschaftliche Fakultät Academic staff 10.09.2026 apply Department-Koordinator*in (w/m/d)    TUV2608-10 Department für Politikwissenschaft | Wirtschafts- und Sozialwissenschaftliche Fakultät Technical and administrative staff 13.09.2026 apply Doctoral position (f/m/x) for scientists with disabilities Wiss2605-13 all faculties with the exception of the Medical Faculty Academic staff 14.09.2026 apply Research Assistant (f/m/x) - on Modelling Earth Surface Processes   Wiss2608-09 Chair Group of Geomorphology and Geochronology | Institute of Geography Academic staff 15.09.2026 apply Hinweis Ausschreibung × A direct application is not possible yet. To apply for this vacancy, please apply as described in the advertisement! Thank you very much! Close Show Filter 1 2 3 4 5 Next © University of Cologne Privacy policy of the University of Cologne Privacy policy Jobportal Impressum Privacy policy × OK"
+    },
+    "https://jobportal.uni-koeln.de/ausschreibung/renderFile/2614?propertyName=flyer": {
+      "error": "RuntimeError: FETCH_FAILURE: Page.goto: Download is starting\nCall log:\n  - navigating to \"https://jobportal.uni-koeln.de/ausschreibung/renderFile/2614?propertyName=flyer\", waiting until \"domcontentloaded\"\n"
+    },
+    "https://jobportal.uni-koeln.de/ausschreibung/renderFile/2717?propertyName=flyer": {
+      "error": "RuntimeError: FETCH_FAILURE: Page.goto: Download is starting\nCall log:\n  - navigating to \"https://jobportal.uni-koeln.de/ausschreibung/renderFile/2717?propertyName=flyer\", waiting until \"domcontentloaded\"\n"
+    },
+    "https://jobportal.uni-koeln.de/ausschreibung/renderFile/2718?propertyName=flyer": {
+      "error": "RuntimeError: FETCH_FAILURE: Page.goto: Download is starting\nCall log:\n  - navigating to \"https://jobportal.uni-koeln.de/ausschreibung/renderFile/2718?propertyName=flyer\", waiting until \"domcontentloaded\"\n"
+    }
+  },
+  "rows": {
+    "https://jobportal.uni-koeln.de/": {
+      "school_id": 1687,
+      "posting_url": "https://jobportal.uni-koeln.de/",
+      "job_title_in_post": "Advertisementoverview",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://jobportal.uni-koeln.de/ausschreibung/renderFile/2614?propertyName=flyer": {
+      "error": "RuntimeError: FETCH_FAILURE: Page.goto: Download is starting\nCall log:\n  - navigating to \"https://jobportal.uni-koeln.de/ausschreibung/renderFile/2614?propertyName=flyer\", waiting until \"domcontentloaded\"\n"
+    },
+    "https://jobportal.uni-koeln.de/ausschreibung/renderFile/2717?propertyName=flyer": {
+      "error": "RuntimeError: FETCH_FAILURE: Page.goto: Download is starting\nCall log:\n  - navigating to \"https://jobportal.uni-koeln.de/ausschreibung/renderFile/2717?propertyName=flyer\", waiting until \"domcontentloaded\"\n"
+    },
+    "https://jobportal.uni-koeln.de/ausschreibung/renderFile/2718?propertyName=flyer": {
+      "error": "RuntimeError: FETCH_FAILURE: Page.goto: Download is starting\nCall log:\n  - navigating to \"https://jobportal.uni-koeln.de/ausschreibung/renderFile/2718?propertyName=flyer\", waiting until \"domcontentloaded\"\n"
+    }
+  },
+  "school_id": 1687,
+  "status": "complete",
+  "updated_at": "2026-09-03T06:12:46+00:00",
+  "completed_at": "2026-09-03T06:12:46+00:00",
+  "last_error": ""
+}

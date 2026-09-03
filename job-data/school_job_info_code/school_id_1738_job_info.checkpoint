@@ -1,0 +1,17 @@
+{
+  "raw": {
+    "http://jobs.edu.ro/": {
+      "error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"http://jobs.edu.ro/\", waiting until \"domcontentloaded\"\n"
+    }
+  },
+  "rows": {
+    "http://jobs.edu.ro/": {
+      "error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"http://jobs.edu.ro/\", waiting until \"domcontentloaded\"\n"
+    }
+  },
+  "school_id": 1738,
+  "status": "complete",
+  "updated_at": "2026-09-03T13:55:03+00:00",
+  "completed_at": "2026-09-03T13:55:03+00:00",
+  "last_error": ""
+}

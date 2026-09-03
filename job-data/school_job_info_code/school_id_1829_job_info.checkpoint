@@ -1,0 +1,26 @@
+{
+  "raw": {
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/OrganisationManagement/JobBoardEnquiry?f=%24ORG.REC.EXJOBB.ENQ&suite=CES&G=05853ea5-9a12-4f2b-9368-2e6458fde456": {
+      "title": "Log On",
+      "description": "Log On - CiA Change to Accessibility Mode JavaScript disabled is not supported. Please enable JavaScript in your browser. User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36 OK This website uses cookies to ensure you have the best browsing experience. By continuing to use the application you are agreeing to our use of cookies. Log On - CiA CiA Login Page Log on using Log on using Massey SSO by clicking here! Log on using your details User name or email address Password Log On Keep me logged on Accessibility Mode Accessibility Mode Checking this option will set CiA to a mode that is optimised to be read by screen readers and to be used by people with no or limited vision. Some of the visual elements used in the CiA desktop interface are disabled or simplified in this mode.<br/><br/>If required, the display mode can be changed under Options > Settings once you have logged on. Forgotten password? close popup Close Enterprise software, incredibly simple Powered by TechnologyOne Email errors Copy to clipboard Close Configure"
+    }
+  },
+  "rows": {
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/OrganisationManagement/JobBoardEnquiry?f=%24ORG.REC.EXJOBB.ENQ&suite=CES&G=05853ea5-9a12-4f2b-9368-2e6458fde456": {
+      "school_id": 1829,
+      "posting_url": "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/OrganisationManagement/JobBoardEnquiry?f=%24ORG.REC.EXJOBB.ENQ&suite=CES&G=05853ea5-9a12-4f2b-9368-2e6458fde456",
+      "job_title_in_post": "Log On",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    }
+  },
+  "school_id": 1829,
+  "status": "complete",
+  "updated_at": "2026-09-03T15:39:19+00:00",
+  "completed_at": "2026-09-03T15:39:19+00:00",
+  "last_error": ""
+}

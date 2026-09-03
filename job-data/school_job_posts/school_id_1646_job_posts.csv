@@ -1,4 +1,1 @@
-school_id,job_title,job_title_original,department,department_original,location,position_type,post_date,posting_url,source_tier,source_platform,language,scraped_at
-1646,Accédez aux offres d'emplois internes.,Accédez aux offres d'emplois internes.,,,,,,https://tre.tbe.taleo.net/tre01/ats/careers/v2/jobSearch?act=redirectCwsV2&cws=44&org=NYQEDG,3,generic(requests),en,2026-09-02T19:48:56Z
-1646,Nouvelle recherche,Nouvelle recherche,,,,,,https://tre.tbe.taleo.net/tre01/ats/careers/v2/jobSearch?org=NYQEDG&cws=42,3,generic(requests),en,2026-09-02T19:48:56Z
-1646,Page de connexion,Page de connexion,,,,,,https://tre.tbe.taleo.net/tre01/ats/careers/v2/candidateLogin?org=NYQEDG&cws=42,3,generic(requests),en,2026-09-02T19:48:56Z
+school_id,post_link
