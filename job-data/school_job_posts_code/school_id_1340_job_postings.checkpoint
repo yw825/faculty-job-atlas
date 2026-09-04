@@ -1,0 +1,16 @@
+{
+  "links": [
+    "https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=DEB43C3FD051B594AA4F4829C8587DC3",
+    "https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=DEB43C3FD051B594AA4F4829C8587DC3&filters%5Bpositiontype%5D",
+    "https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=DEB43C3FD051B594AA4F4829C8587DC3&filters[positiontype]",
+    "https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=DEB43C3FD051B594AA4F4829C8587DC3&filters[positiontype][]=112",
+    "https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=DEB43C3FD051B594AA4F4829C8587DC3&filters[positiontype][]=70",
+    "https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=DEB43C3FD051B594AA4F4829C8587DC3&filters[positiontype][]=71"
+  ],
+  "school_id": 1340,
+  "status": "complete",
+  "updated_at": "2026-09-04T21:23:36+00:00",
+  "started_at": "2026-09-04T21:23:33+00:00",
+  "completed_at": "2026-09-04T21:23:36+00:00",
+  "last_error": ""
+}
