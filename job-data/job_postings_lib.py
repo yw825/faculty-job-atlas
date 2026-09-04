@@ -279,6 +279,9 @@ def detect_platform(url):
     host = parsed.netloc.lower()
     if 'myworkdayjobs.com' in host or 'myworkdaysite.com' in host:
         return 'workday'
+    # DirectEmployers network boards all sit on a bare *.jobs domain
+    if host.endswith('.jobs'):
+        return 'dejobs'
     if 'oraclecloud.com' in host:
         return 'oracle'
     # Some Oracle Cloud HCM instances run on a white-labeled custom domain
@@ -725,6 +728,28 @@ def scrape_smartrecruiters(url):
     return links
 
 
+def scrape_dejobs(url):
+    """DirectEmployers-network boards (*.jobs -- cuny.jobs, pugetsound.jobs).
+
+    A posting lives at /<location>/<title-slug>/<32-hex-GUID>/job/. What the
+    generic filter collected instead were this network's category pages
+    (/campus/<name>/jobs/, /job-category/faculty/jobs/, /job-titles/<slug>/
+    .../jobs/) -- every one of them ends in "jobs", so they read as
+    job-shaped while containing no posting of their own. All 12 CUNY campus
+    files were nothing but those.
+    """
+    html = fetch_rendered(url, wait_ms=3500)
+    if is_fetch_failure(html):
+        raise RuntimeError(html)
+    links = extract_links(html, url, href_pattern=re.compile(r'/[0-9A-Fa-f]{20,}/job/?$'))
+    seen, out = set(), []
+    for u in links:
+        if u not in seen:
+            seen.add(u)
+            out.append(u)
+    return out
+
+
 def scrape_academicjobsonline(url):
     status, html = fetch_static(url)
     if status != 200:
@@ -977,6 +1002,7 @@ PLATFORM_ADAPTERS = {
     'ultipro': lambda url, name: scrape_ultipro(url),
     'smartrecruiters': lambda url, name: scrape_smartrecruiters(url),
     'academicjobsonline': lambda url, name: scrape_academicjobsonline(url),
+    'dejobs': lambda url, name: scrape_dejobs(url),
     'apella': lambda url, name: scrape_apella(url, name),
     'poland_nauka': lambda url, name: scrape_poland_nauka(url, name),
 }
