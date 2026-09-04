@@ -655,7 +655,11 @@ def scrape_ultipro(url):
     """UKG/Ultipro job boards call a real public JSON API keyed by the
     tenant/board path already in the careers link, no auth needed."""
     parsed = urlparse(url)
-    m = re.match(r'^(/[^/]+/JobBoard/[^/]+)/', parsed.path)
+    # The trailing slash after the board id is OPTIONAL: plenty of these
+    # links stop at the id ("/HER1009HRZ/JobBoard/267d2e37-...") and
+    # requiring the slash rejected them outright -- all three Herzing
+    # campuses were recorded as broken for exactly this reason.
+    m = re.match(r'^(/[^/]+/JobBoard/[^/]+?)(?:/|$)', parsed.path)
     if not m:
         raise RuntimeError('could not parse ultipro tenant/board path')
     api = f'https://{parsed.netloc}{m.group(1)}/JobBoardView/LoadSearchResults'

@@ -78,7 +78,12 @@ def classify_own_website_static(url):
         note_fetch = ''
 
     if status and status >= 400:
-        return 'broken', 0, f'HTTP {status}'
+        # NOT broken yet. A plain HTTP client gets 403 from plenty of sites
+        # whose WAF simply doesn't like non-browser traffic, while a real
+        # browser loads them fine -- confirmed live: 6 of 8 US schools first
+        # recorded as "HTTP 403" scrape normally through Playwright. Hand it
+        # to the rendered pass and let THAT decide.
+        return None
 
     if not html or len(html) < 800:
         return None  # probably script-built; retry rendered, serially
@@ -102,11 +107,15 @@ def _judge(html, url, note):
     return 'review', 0, (note + ' no job-shaped links found').strip()
 
 
-def classify_own_website_rendered(url):
+def classify_own_website_rendered(url, http_status=None):
     html = lib.fetch_rendered(url, wait_ms=3500) or ''
     if lib.is_fetch_failure(html) or not html:
-        return 'broken', 0, 'fetch failed'
-    return _judge(html, url, 'rendered')
+        note = f'HTTP {http_status} and browser fetch failed' if http_status else 'fetch failed'
+        return 'broken', 0, note
+    verdict, n, note = _judge(html, url, 'rendered')
+    if http_status and http_status >= 400:
+        note = (note + f' (plain HTTP said {http_status})').strip()
+    return verdict, n, note
 
 
 def classify(school):
@@ -141,10 +150,23 @@ def main():
     ap.add_argument('country')
     ap.add_argument('--limit', type=int, default=0)
     ap.add_argument('--workers', type=int, default=8)
+    ap.add_argument('--recheck', default='',
+                    help='re-check only schools whose PREVIOUS verdict was one of these '
+                         '(e.g. "broken"), merging the result into the existing report')
     args = ap.parse_args()
 
     with open(MASTER, encoding='utf-8') as f:
         schools = [r for r in csv.DictReader(f) if r['country'] == args.country]
+    previous = {}
+    out_path_existing = os.path.join(HERE, f'careers_link_verification_{args.country}.csv')
+    if args.recheck and os.path.exists(out_path_existing):
+        with open(out_path_existing, encoding='utf-8') as f:
+            previous = {r['school_id']: r for r in csv.DictReader(f)}
+        want = {v.strip() for v in args.recheck.split(',') if v.strip()}
+        schools = [s for s in schools
+                   if previous.get(s['school_id'], {}).get('verdict') in want]
+        print(f'rechecking {len(schools)} previously-{"/".join(sorted(want))} schools',
+              flush=True)
     if args.limit:
         schools = schools[:args.limit]
 
@@ -231,6 +253,11 @@ def main():
         rows.append({'school_id': s['school_id'], 'name': s['name'],
                      'careers_link': s['careers_link'], 'platform': platform_of[s['school_id']],
                      'verdict': verdict, 'n_links': n, 'note': note})
+    if previous:
+        merged = dict(previous)
+        for r in rows:
+            merged[r['school_id']] = r
+        rows = list(merged.values())
     rows.sort(key=lambda r: int(r['school_id']))
 
     out_path = os.path.join(HERE, f'careers_link_verification_{args.country}.csv')
@@ -247,7 +274,7 @@ def main():
     for k in ('ok', 'empty', 'review', 'broken'):
         if k in tally:
             print(f'  {tally[k]:5d}  {k}')
-    print(f'  {sum(r["n_links"] for r in rows)} postings visible across all links')
+    print(f'  {sum(int(r["n_links"] or 0) for r in rows)} postings visible across all links')
     try:
         lib.close_browser()
     except Exception:

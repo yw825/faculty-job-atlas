@@ -31,7 +31,7 @@ school_id,name,careers_link,platform,verdict,n_links,note
 62,Arizona State University Digital Immersion,https://facultypositions.asu.edu/#/api/Home/_InterfolioPostings,own website,review,2,rendered few job-shaped links [shared URL]
 63,Arizona State University Campus Immersion,https://facultypositions.asu.edu/#/api/Home/_InterfolioPostings,own website,review,2,rendered few job-shaped links
 65,University of Arizona,https://arizona.csod.com/ux/ats/careersite/4/home?c=arizona&cfdd[0][id]=227&cfdd[0][options][0]=306,cornerstone,ok,318,cornerstone
-67,Pacific Union College,https://www.puc.edu/campus-services/human-resources/faculty-job-postings,own website,broken,0,HTTP 403
+67,Pacific Union College,https://www.puc.edu/campus-services/human-resources/faculty-job-postings,own website,ok,11,rendered
 68,California State Polytechnic University-Humboldt,https://careers.humboldt.edu/hm/en-us/filter/?work-type=faculty,own website,ok,3,rendered
 69,Menlo College,https://www.menlo.edu/employment-opportunities/,own website,ok,3,
 72,California State University-Bakersfield,https://careers.csub.edu/en-us/filter/?search-keyword=&work-type=instructional%20faculty%20-%20temporary%2flecturer&work-type=instructional%20faculty%20%e2%80%93%20tenured%2ftenure-track&work-type=instructional%20student%20assistant&work-type=non-instructional%20faculty%20(coach%2fcounselor%2flibrarian)&work-type=teaching%20associate&job-mail-subscribe-privacy=agree,own website,ok,23,rendered
@@ -60,7 +60,7 @@ school_id,name,careers_link,platform,verdict,n_links,note
 100,California State University-Los Angeles,https://csucareers.calstate.edu/en-us/filter/?=&leftNavSearchFormQuery=&=&search=&search-keyword=&job-mail-subscribe-privacy=agree&work-type=instructional%20faculty%20-%20temporary%2flecturer&work-type=instructional%20faculty%20%e2%80%93%20tenured%2ftenure-track&location=los%20angeles&job-mail-subscribe-privacy=agree,own website,broken,0,fetch failed
 102,Mount Saint Mary's University,https://www.msmu.edu/about-the-mount/university-offices/administration--finance/human-resources/employment-opportunities/,own website,ok,5,
 103,Occidental College,https://www.oxy.edu/working-oxy/faculty-positions,own website,review,2,rendered few job-shaped links
-104,Pacific States University,https://psuca.edu/jobs-opportunities/,own website,broken,0,HTTP 403
+104,Pacific States University,https://psuca.edu/jobs-opportunities/,own website,ok,4,rendered
 105,University of California-Los Angeles,https://recruit.apo.ucla.edu/apply,own website,review,0,rendered no job-shaped links found
 106,University of Southern California,https://usccareers.usc.edu/search-jobs,own website,ok,30,
 107,Pepperdine University,https://jobs.pepperdine.edu/jobs/search/temporary-opportunities?page=1&dropdown_field_3_uids%5B%5D=dcaa7a03ab89b8b42952f428d59046b3&query=,own website,ok,34,
@@ -135,11 +135,11 @@ school_id,name,careers_link,platform,verdict,n_links,note
 195,University of Connecticut,https://jobs.uconn.edu/,own website,ok,9,
 197,University of Connecticut-Waterbury Campus,https://jobs.hr.uconn.edu/mob/en-us/listing/,own website,ok,7,rendered [shared URL]
 198,University of Hartford,https://hartford.peopleadmin.com/,peopleadmin,ok,14,peopleadmin
-199,University of Saint Joseph,https://www.usj.edu/academics/health-care-careers/,own website,broken,0,HTTP 403
+199,University of Saint Joseph,https://www.usj.edu/academics/health-care-careers/,own website,review,0,rendered wall/challenge page
 200,University of New Haven,https://www.newhaven.edu:443/about/employment/job-opportunities/index.php,own website,ok,3,
 201,Eastern Connecticut State University,https://easternctstateuniversity.applytojob.com/apply/Zz4qJq9Kac/Assistant-Professor-Of-Nursing-Tenure-Track,own website,ok,6,
-202,American University,https://www.american.edu/hr/,own website,broken,0,HTTP 403
-203,Gallaudet University,https://gallaudet.edu/academic-career-success/,own website,broken,0,HTTP 403
+202,American University,https://www.american.edu/hr/,own website,ok,7,rendered
+203,Gallaudet University,https://gallaudet.edu/academic-career-success/,own website,ok,6,rendered
 204,George Washington University,https://careers.gwu.edu/,own website,ok,5,
 205,Georgetown University,https://georgetown.wd1.myworkdayjobs.com/Georgetown_Admin_Careers,workday,ok,133,workday
 209,Trinity Washington University,https://www2.trinitydc.edu/hr/employment-openings/,own website,ok,6,
@@ -148,12 +148,12 @@ school_id,name,careers_link,platform,verdict,n_links,note
 215,Goldey-Beacom College,https://www.paycomonline.net/v4/ats/web.php/portal/019DF7F6E271614BAB2785B88C6A379F/career-page,own website,review,2,rendered few job-shaped links
 217,Ave Maria University,https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=70cb71c1-96f8-4956-8cce-ce625b0b2943&ccId=19000101_000001&type=JS&lang=en_US,adp,ok,1,adp
 218,Webber International University,https://www.webber.edu/jobs-at-webber/,own website,ok,6,
-219,Everglades University,https://www.evergladesuniversity.edu/employment-opportunities/,own website,broken,0,HTTP 403
+219,Everglades University,https://www.evergladesuniversity.edu/employment-opportunities/,own website,review,0,rendered wall/challenge page
 220,Florida Atlantic University,https://www.fau.edu/jobs/,own website,ok,7,
-221,Lynn University,https://www.lynn.edu/employment,own website,broken,0,HTTP 403
+221,Lynn University,https://www.lynn.edu/employment,own website,ok,3,rendered
 222,University of Miami,https://careers.miami.edu/,own website,ok,22,rendered
 224,Embry-Riddle Aeronautical University-Daytona Beach,https://embryriddle.wd1.myworkdayjobs.com/External,workday,ok,128,workday
-225,Stetson University,https://www.stetson.edu/administration/human-resources/job-opportunities.php,own website,broken,0,HTTP 403
+225,Stetson University,https://www.stetson.edu/administration/human-resources/job-opportunities.php,own website,ok,6,rendered
 228,Nova Southeastern University,https://www.nova.edu/resources/employment.html,own website,ok,4,
 229,Florida Gulf Coast University,https://jobs.fgcu.edu/jobs/search/search-page-faculty,own website,ok,21,rendered
 231,University of Florida,https://jobs.ufl.edu/career-growth/professional-development/,own website,ok,22,
@@ -202,15 +202,15 @@ school_id,name,careers_link,platform,verdict,n_links,note
 301,Mercer University,https://hr.mercer.edu/prospective-employees/career-opportunities/,own website,ok,4,
 302,Middle Georgia State University,https://www.mga.edu/human-resources/jobs/index.php,own website,ok,4,
 303,Wesleyan College,https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=acafb953-757f-4fc8-b0ee-c3d3b317c413&ccId=19000101_000001&lang=en_US,adp,ok,1,adp
-304,Life University,https://life-csm.symplicity.com/employers/?signin_tab=0,own website,broken,0,HTTP 404
+304,Life University,https://life-csm.symplicity.com/employers/?signin_tab=0,own website,review,0,rendered no job-shaped links found
 305,Georgia College & State University,https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?FOCUS=Applicant&SiteId=36000,own website,review,0,rendered no job-shaped links found
 306,Clayton  State University,https://www.clayton.edu/human-resources/employment-opportunities,own website,ok,4,
-307,Berry College,https://www.berry.edu/employment/,own website,broken,0,HTTP 403
+307,Berry College,https://www.berry.edu/employment/,own website,ok,18,rendered
 312,Georgia Southern University,https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?FOCUS=Applicant&SiteId=39000,own website,review,0,rendered no job-shaped links found
 313,Thomas University,https://www.thomasu.edu/about/employment/,own website,ok,3,
 314,Abraham Baldwin Agricultural College,https://www.abac.edu/about/administration/human-resources.html,own website,review,2,rendered few job-shaped links
 316,Valdosta State University,http://www.valdosta.edu/administration/finance-admin/human-resources/employment-opportunities.php,own website,ok,7,
-317,Reinhardt University,https://www.reinhardt.edu/careers/,own website,broken,0,HTTP 403
+317,Reinhardt University,https://www.reinhardt.edu/careers/,own website,review,0,rendered wall/challenge page
 319,Young Harris College,https://www.yhc.edu/careers/,own website,ok,8,
 320,University of Guam,https://uog.peopleadmin.com/,peopleadmin,ok,31,peopleadmin
 321,University of Hawaii at Hilo,https://www.schooljobs.com/careers/hawaiiedu?jobType[0]=Faculty&sort=PositionTitle%7CAscending,own website,ok,15,
@@ -240,7 +240,7 @@ school_id,name,careers_link,platform,verdict,n_links,note
 350,William Penn University,https://www.wmpenn.edu/adjunct-instructor-in-english-adjunct-faculty-position/,own website,review,1,rendered few job-shaped links
 351,Central College,https://central.edu/job-seekers/,own website,ok,7,
 352,Dordt University,https://ibmxjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/requisitions?lastSelectedFacet=CATEGORIES&selectedCategoriesFacet=300000008610535,oracle,empty,0,oracle returned 0
-353,Briar Cliff University,https://Briarcliff.elluciancrmrecruit.com/Apply/Account/ProspectInquiry?f=9b05884a-c1c6-4c53-a445-22ac49ba3594&o=538fedc1-2f8d-4f30-89b1-d13415d0429c,own website,broken,0,HTTP 404
+353,Briar Cliff University,https://Briarcliff.elluciancrmrecruit.com/Apply/Account/ProspectInquiry?f=9b05884a-c1c6-4c53-a445-22ac49ba3594&o=538fedc1-2f8d-4f30-89b1-d13415d0429c,own website,review,0,rendered no job-shaped links found
 354,Morningside University,https://www.morningside.edu/about/employment/adjunct-instructors-rosen-school-of-business,own website,review,2,rendered few job-shaped links
 355,Buena Vista University,https://www.bvu.edu/en/undergraduate-on-campus/careers--outcomes/,own website,ok,6,
 356,Wartburg College,https://www.wartburg.edu/carson-research-opportunities-focused-my-career-goals/,own website,ok,5,
@@ -282,9 +282,9 @@ school_id,name,careers_link,platform,verdict,n_links,note
 396,Lake Forest College,https://www.lakeforest.edu/offices-and-departments/human-resources/lake-forest-college-employment,own website,ok,57,
 397,McKendree University,https://www.schooljobs.com/careers/mckendree?jobType[0]=Faculty&sort=PositionTitle%7CAscending,own website,ok,13,
 399,Benedictine University,https://benu.csod.com/ux/ats/careersite/5/home?c=benu,cornerstone,empty,0,cornerstone returned 0
-400,Western Illinois University,https://sso.interviewexchange.com/wiu/sso.jsp,own website,broken,0,HTTP 403
+400,Western Illinois University,https://sso.interviewexchange.com/wiu/sso.jsp,own website,review,0,rendered no job-shaped links found
 401,Monmouth College,https://www.monmouthcollege.edu/offices/hr/employment-opportunities/,own website,review,0,rendered no job-shaped links found
-402,North Central College,https://www.northcentralcollege.edu/academic-affairs/staff-openings,own website,broken,0,HTTP 403
+402,North Central College,https://www.northcentralcollege.edu/academic-affairs/staff-openings,own website,ok,4,rendered
 403,Illinois State University,https://isu.dc4.pageuppeople.com/default.aspx,own website,review,0,rendered no job-shaped links found
 405,Bradley University,https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=df6f93d4-2277-4999-ac63-88a55668ffd3&ccId=9200110706773_2&type=JS&lang=en_US,adp,ok,1,adp
 406,Quincy University,https://www.quincy.edu/about/work-at-qu/job-openings/,own website,review,2,rendered few job-shaped links
@@ -303,7 +303,7 @@ school_id,name,careers_link,platform,verdict,n_links,note
 422,Indiana Institute of Technology,https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=9B7DD7DDF4B46DE388E0D590C86BBE1D,own website,ok,10,rendered
 423,Purdue University Fort Wayne,https://purdueuniversity.valhalla.stage.jobs2web.com/FW,own website,ok,5,
 424,University of Saint Francis-Fort Wayne,https://www.sf.edu/about/offices-and-departments/careers/,own website,ok,6,
-425,Franklin College,https://franklincollege.edu/about/key-offices/office-of-human-resources/employment-opportunities/,own website,broken,0,HTTP 403
+425,Franklin College,https://franklincollege.edu/about/key-offices/office-of-human-resources/employment-opportunities/,own website,review,0,rendered wall/challenge page
 426,Indiana University-Northwest,https://indiana.peopleadmin.com/postings/search?&query=&query_v0_posted_at_date=&query_organizational_tier_2_id=any&query_organizational_tier_3_id=any&query_organizational_tier_1_id=441&query_position_type_id=&commit=Search,peopleadmin,ok,240,peopleadmin
 427,Goshen College,https://www.goshen.edu/employment/director-of-human-resources/,own website,review,0,rendered no job-shaped links found
 428,DePauw University,https://www.depauw.edu/offices/human-resources/employment/,own website,review,2,rendered few job-shaped links
@@ -355,7 +355,7 @@ school_id,name,careers_link,platform,verdict,n_links,note
 482,Southwestern College,https://www.sckans.edu/about/employment/,own website,review,1,rendered few job-shaped links
 483,Union College,https://www.unionky.edu/about/human-resources/employment-opportunities/faculty-positions,own website,ok,3,
 484,Berea College,https://www.schooljobs.com/careers/berea?jobType[0]=Faculty&sort=PositionTitle%7CAscending,own website,ok,13,
-485,Western Kentucky University,https://sso.interviewexchange.com/wku/sso.jsp,own website,broken,0,HTTP 403
+485,Western Kentucky University,https://sso.interviewexchange.com/wku/sso.jsp,own website,review,0,rendered no job-shaped links found
 487,Lindsey Wilson College,https://lindsey.elluciancrmrecruit.com/Apply/Account/Create,own website,review,0,rendered no job-shaped links found
 488,Thomas More University,https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=4f8993d7-7486-4f03-a125-59b813eb0331&ccId=19000101_000001&lang=en_US,adp,ok,1,adp
 489,Centre College,https://careers.centre.edu/channels/search-for-a-job/,own website,ok,80,
@@ -363,14 +363,14 @@ school_id,name,careers_link,platform,verdict,n_links,note
 493,Northern Kentucky University,https://nku.wd108.myworkdayjobs.com/NKU_External,workday,ok,71,workday
 494,Transylvania University,https://www.transy.edu/employment-opportunities/,own website,review,1,rendered few job-shaped links
 495,University of Kentucky,https://careers.uky.edu/careers/hr,own website,ok,3,
-496,Bellarmine University,https://bellarmine.interviewexchange.com/static/clients/459BMM1/index.jsp,own website,broken,0,HTTP 403
+496,Bellarmine University,https://bellarmine.interviewexchange.com/static/clients/459BMM1/index.jsp,own website,ok,29,rendered
 497,Spalding University,https://spalding.edu/careers/,own website,review,1,rendered few job-shaped links
 498,University of Louisville,https://cardinalcareers-csm.symplicity.com/,own website,review,1,rendered few job-shaped links
 499,Midway University,https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=0360F3B5A2EC741788B51C99C6E17513&jpt=,own website,ok,7,rendered
 500,Morehead State University,https://www.moreheadstate.edu/about-msu/leadership/administration/human-resources/careers,own website,ok,7,
 501,Murray State University,https://www.murraystatejobs.com/postings/search,own website,ok,47,
-502,Brescia University,https://www.brescia.edu/employment/,own website,broken,0,HTTP 403
-503,Kentucky Wesleyan College,https://kwc.edu/about-wesleyan/employment-opportunities/,own website,broken,0,HTTP 403
+502,Brescia University,https://www.brescia.edu/employment/,own website,review,0,rendered wall/challenge page
+503,Kentucky Wesleyan College,https://kwc.edu/about-wesleyan/employment-opportunities/,own website,review,0,rendered wall/challenge page
 504,University of Pikeville,https://www.upike.edu/offices/human-resources/careers/,own website,review,1,rendered few job-shaped links
 505,Alice Lloyd College,https://alc.edu/special-learning-opportunities/,own website,review,1,rendered few job-shaped links
 506,Eastern Kentucky University,https://careers.eku.edu/jobs/search,own website,ok,38,rendered
@@ -398,7 +398,7 @@ school_id,name,careers_link,platform,verdict,n_links,note
 534,Boston University,https://jobs.silkroad.com/BU/External,own website,ok,11,
 535,Cambridge College,https://www.cambridgecollege.edu/es/life-at-cc/career-life-planning-center,own website,ok,3,
 536,Emerson College,https://emerson.wd5.myworkdayjobs.com/en-US/Emerson_College_ft_faculty,workday,empty,0,workday returned 0
-537,Emmanuel College,https://emmanuel.interviewexchange.com/static/clients/13EM1/listJobs.jsp;jsessionid=47B469F5FF02B2ECA11624165C411A0F,own website,broken,0,HTTP 403
+537,Emmanuel College,https://emmanuel.interviewexchange.com/static/clients/13EM1/listJobs.jsp;jsessionid=47B469F5FF02B2ECA11624165C411A0F,own website,ok,4,rendered
 538,Fisher College,https://www.fisher.edu/careers,own website,review,2,rendered few job-shaped links
 539,Northeastern University,https://hr.northeastern.edu/careers/job-listings/,own website,ok,7,
 540,Simmons University,https://simmons.wd504.myworkdayjobs.com/Simmons-Careers,workday,ok,38,workday
@@ -407,22 +407,22 @@ school_id,name,careers_link,platform,verdict,n_links,note
 543,Wentworth Institute of Technology,https://wit.wd1.myworkdayjobs.com/en-US/WIT/,workday,ok,37,workday
 544,Bridgewater State University,https://careers.bridgew.edu/blog/2024/02/16/how-transparency-in-job-postings-improves-recruiting-outcomes/,own website,ok,77,
 546,Massachusetts Maritime Academy,https://www.maritime.edu/human-resources/employment-opportunities,own website,ok,3,
-547,Harvard University,https://hr.harvard.edu/careers,own website,broken,0,HTTP 403
+547,Harvard University,https://hr.harvard.edu/careers,own website,review,0,rendered wall/challenge page
 548,Lesley University,https://lesley.edu/my-organizations-goals/recruit-talent/priority-job-matching-program,own website,ok,8,
 549,Massachusetts Institute of Technology,https://hr.mit.edu/jobs,own website,ok,22,
 550,Boston College,https://www.bc.edu/jobs,own website,ok,31,rendered
 551,College of Our Lady of the Elms,https://www.elms.edu/about-elms/administrative-offices/human-resources/employment/,own website,ok,3,
 552,Nichols College,https://www.nichols.edu/offices/human-resources/,own website,ok,14,
 553,Stonehill College,https://jobs.stonehill.edu/hr/sessions/new,own website,broken,0,fetch failed
-554,Fitchburg State University,https://jobs.fitchburgstate.edu,own website,broken,0,HTTP 403
+554,Fitchburg State University,https://jobs.fitchburgstate.edu,own website,review,0,rendered no job-shaped links found
 555,Framingham State University,https://www.framingham.edu/about-fsu/careers-fsu,own website,ok,9,
-556,Dean College,https://dean.interviewexchange.com/static/clients/546DCM1/index.jsp;jsessionid=B99AF4CBF8F48028C4C2A57CA7B22854;jsessionid=49F38EB85CB1939CD931C68B308F08D5;jsessionid=574D474F3F83E48CEF82024F83FD533A,own website,broken,0,HTTP 403
+556,Dean College,https://dean.interviewexchange.com/static/clients/546DCM1/index.jsp;jsessionid=B99AF4CBF8F48028C4C2A57CA7B22854;jsessionid=49F38EB85CB1939CD931C68B308F08D5;jsessionid=574D474F3F83E48CEF82024F83FD533A,own website,ok,11,rendered
 557,Bay Path University,https://www.paycomonline.net/v4/ats/web.php/portal/3A2948EF284B8722FEE42E01FB156C27/career-page,own website,ok,10,rendered
 558,University of Massachusetts-Lowell,https://www.uml.edu/academics/programs/?career=undergraduate&utm_source=home,own website,ok,3,rendered
 559,Tufts University,https://jobs.tufts.edu/jobs,own website,ok,5,
 560,Curry College,https://www.curry.edu/about-us/community-resources/human-resources-and-employment/job-opportunities,own website,ok,3,
 561,Lasell University,https://www.lasell.edu/discover-lasell/employment/about-human-resources.html#nav,own website,ok,4,
-562,Massachusetts College of Liberal Arts,http://mcla.interviewexchange.com/,own website,broken,0,HTTP 403
+562,Massachusetts College of Liberal Arts,http://mcla.interviewexchange.com/,own website,ok,16,rendered
 563,Merrimack College,https://merrimack-advocate.symplicity.com/care_report/index.php/pid854103,own website,review,0,rendered no job-shaped links found
 564,University of Massachusetts-Dartmouth,https://careers.umassd.edu,own website,ok,26,rendered
 565,Smith College,https://smithcollege.wd5.myworkdayjobs.com/smithcollege?q=dining,workday,ok,30,workday
@@ -439,12 +439,12 @@ school_id,name,careers_link,platform,verdict,n_links,note
 577,Wellesley College,https://careereducation.wellesley.edu/career_exploration,own website,ok,42,
 579,Westfield State University,https://careers.westfield.ma.edu/labor-market-insights/,own website,ok,40,
 580,Regis College,https://www.regiscollege.edu/about-regis/administrative-offices/department-human-resources/working-regis,own website,review,2,rendered few job-shaped links
-581,Williams College,https://employment.williams.edu/,own website,broken,0,HTTP 403
+581,Williams College,https://employment.williams.edu/,own website,review,2,rendered few job-shaped links
 582,Assumption University,https://recruiting.paylocity.com/recruiting/jobs/All/0ceaa085-bdf4-42db-8905-07c4a3c989e1/Assumption-University-Staff,own website,ok,30,rendered
-583,Clark University,https://clarku.interviewexchange.com/static/clients/569CUM1/index.jsp,own website,broken,0,HTTP 403
+583,Clark University,https://clarku.interviewexchange.com/static/clients/569CUM1/index.jsp,own website,ok,31,rendered
 584,College of the Holy Cross,https://holycross.wd12.myworkdayjobs.com/en-US/Careers/,workday,ok,53,workday
 585,Worcester Polytechnic Institute,https://wpi.wd5.myworkdayjobs.com/WPI_External_Career_Site,workday,ok,83,workday
-586,Worcester State University,https://worcester.interviewexchange.com/,own website,broken,0,HTTP 403
+586,Worcester State University,https://worcester.interviewexchange.com/,own website,ok,113,rendered
 587,University of Maryland Global Campus,https://careers.umgc.edu/faculty.html,own website,ok,255,
 589,Goucher College,https://goucher.wd1.myworkdayjobs.com/Goucher_Careers,workday,ok,11,workday
 590,Johns Hopkins University,https://facultyjobs.jhu.edu,own website,ok,5,rendered
@@ -454,7 +454,7 @@ school_id,name,careers_link,platform,verdict,n_links,note
 595,University of Maryland-Baltimore County,https://facultyjobs.umbc.edu/cwfac/en-us/listing/,own website,ok,9,rendered
 597,Washington College,https://www.washcoll.edu/people_departments/offices/human-resources/employment/index.php,own website,ok,10,rendered
 598,University of Maryland-College Park,https://umd.wd1.myworkdayjobs.com/UMCP,workday,ok,192,workday
-599,Mount St. Mary's University,https://inside.msmary.edu/more/human-resources/employment-opportunities/index.html#faculty-jobs,own website,broken,0,HTTP 403
+599,Mount St. Mary's University,https://inside.msmary.edu/more/human-resources/employment-opportunities/index.html#faculty-jobs,own website,review,0,rendered wall/challenge page
 600,Hood College,https://recruiting.ultipro.com/HOO1003HOODC/JobBoard/58a51caa-edd5-4489-a43e-478413a6c821/?q=&o=postedDateDesc This new address will ne,ultipro,ok,18,ultipro
 601,Frostburg State University,https://marylandconnect.wd1.myworkdayjobs.com/FSU_Careers,workday,ok,25,workday
 602,Capitol Technology University,https://captechu-csm.symplicity.com/,own website,review,2,rendered few job-shaped links
@@ -462,7 +462,7 @@ school_id,name,careers_link,platform,verdict,n_links,note
 605,Salisbury University,https://marylandconnect.wd1.myworkdayjobs.com/SU_Careers,workday,ok,30,workday
 606,St. Mary's College of Maryland,https://apply.interfolio.com/190337,own website,review,1,rendered few job-shaped links
 609,Towson University,https://towson.taleo.net/careersection/ex/jobsearch.ftl,taleo,empty,0,taleo returned 0
-610,McDaniel College,https://mcdaniel.interviewexchange.com/static/clients/561MCM1/index.jsp,own website,broken,0,HTTP 403
+610,McDaniel College,https://mcdaniel.interviewexchange.com/static/clients/561MCM1/index.jsp,own website,ok,41,rendered
 611,University of Maine at Augusta,https://uma.careers.maine.edu/,own website,ok,4,rendered
 612,Husson University,https://www.husson.edu/about/human-resources/index.html,own website,ok,3,
 613,University of New England,https://une.peopleadmin.com/,peopleadmin,ok,1,peopleadmin
@@ -475,9 +475,9 @@ school_id,name,careers_link,platform,verdict,n_links,note
 620,University of Southern Maine,https://usm.careers.maine.edu/,own website,ok,26,rendered
 621,University of Maine at Presque Isle,https://www.umpi.edu/human-resources/jobs-at-umpi/,own website,review,2,rendered few job-shaped links
 622,Saint Joseph's College of Maine,https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=f2ec343d-85b4-4d7e-8b95-cb8f7884af77&ccId=1046385866_1069&type=JS&lang=en_US,adp,ok,1,adp
-623,Colby College,https://www.colby.edu/people/offices-directory/human-resources/employment/academic-positions-available/,own website,broken,0,HTTP 403
+623,Colby College,https://www.colby.edu/people/offices-directory/human-resources/employment/academic-positions-available/,own website,review,1,rendered few job-shaped links
 624,Thomas College,https://recruiting.paylocity.com/recruiting/jobs/All/8755daac-bdc4-49b9-9a03-9f77f304512b/Thomas-College,own website,ok,16,rendered
-625,Adrian College,https://www.adrian.edu/academics/academics/career-planning/job-search,own website,broken,0,HTTP 404
+625,Adrian College,https://www.adrian.edu/academics/academics/career-planning/job-search,own website,ok,8,rendered
 626,Siena Heights University,https://www.sienaheights.edu/past-syllabi-employment-and-financial-aid/,own website,review,0,rendered no job-shaped links found
 627,Albion College,https://apply.interfolio.com/9409/positions,own website,review,1,rendered few job-shaped links
 628,Grand Valley State University,https://gvsu.wd1.myworkdayjobs.com/careers,workday,ok,19,workday
@@ -538,7 +538,7 @@ school_id,name,careers_link,platform,verdict,n_links,note
 696,University of Northwestern-St Paul,https://jobs.unwsp.edu/jobs/search/search-page,own website,ok,19,rendered
 697,University of St Thomas,https://staffemployment-stthomas.icims.com/,icims,ok,20,icims
 698,Gustavus Adolphus College,https://gustavus.edu/about/administrative-offices/human-resources/employment-opportunities-human-resources,own website,ok,3,
-699,Herzing University-Minneapolis,https://recruiting2.ultipro.com/HER1009HRZ/JobBoard/267d2e37-abff-4559-8a18-a754503d3749,ultipro,broken,0,RuntimeError: could not parse ultipro tenant/board path
+699,Herzing University-Minneapolis,https://recruiting2.ultipro.com/HER1009HRZ/JobBoard/267d2e37-abff-4559-8a18-a754503d3749,ultipro,ok,81,ultipro (adapter fix)
 700,Saint Mary's University of Minnesota,https://faculty-saintmarysuniversity.icims.com/jobs/search?ss=1&in_iframe=1&hashed=-625950295,icims,ok,4,icims
 701,Winona State University,https://minnstate.wd115.myworkdayjobs.com/Minnesota_State_Careers?Institution=a7c1912089511000d545c9b0beeb0000,workday,ok,5,workday
 703,Culver-Stockton College,https://culver.edu/gps-core/,own website,ok,5,
@@ -549,13 +549,13 @@ school_id,name,careers_link,platform,verdict,n_links,note
 708,Central Methodist University-College of Liberal Arts and Sciences,https://centralmethodist.edu/about/offices/human-resources/jobs-fayette/index.html,own website,ok,3,
 709,Westminster College,https://recruiting.paylocity.com/recruiting/jobs/All/a5d7af06-7587-4fed-8c04-2df22f7d0e9b/Westminster-College?location=Westminster%20College%20-%20Fulton%2C%20MO&department=All%20Departments,own website,ok,8,rendered
 710,William Woods University,https://www.williamwoods.edu/employment/adjunct-faculty-employment/,own website,review,2,rendered few job-shaped links
-711,Hannibal-LaGrange University,https://www.hlg.edu/forms/adjunctfacultyapplication/,own website,broken,0,HTTP 403
+711,Hannibal-LaGrange University,https://www.hlg.edu/forms/adjunctfacultyapplication/,own website,review,0,rendered wall/challenge page
 713,Missouri Southern State University,https://www.mssu.edu/financial-services/human-resources/eeoc.php,own website,review,1,rendered few job-shaped links
 714,Avila University,https://www.avila.edu/about/administrative-offices/human-resources/careers/,own website,ok,3,
 715,Calvary University,https://www.calvary.edu/employment/work-at-calvary/,own website,ok,4,
 716,City Vision University,https://cityvisionuniversity.applytojob.com,own website,ok,5,
 717,Rockhurst University,https://www.rockhurst.edu/about/human-resources/equal-employment-opportunity,own website,ok,4,
-718,University of Missouri-Kansas City,https://www.umkc.edu/hr/careers/index.html,own website,broken,0,HTTP 404
+718,University of Missouri-Kansas City,https://www.umkc.edu/hr/careers/index.html,own website,review,1,rendered few job-shaped links
 719,Truman State University,https://trumansu.peopleadmin.com/postings/search?utf8=‚úì&query=&query_v0_posted_at_date=&query_position_type_id%5B%5D=3&435=&commit=Search,peopleadmin,ok,8,peopleadmin
 720,William Jewell College,https://www.jewell.edu/employment,own website,review,2,rendered few job-shaped links
 721,Missouri Valley College,https://www.moval.edu/?post_type=page&p=524,own website,ok,5,
@@ -611,9 +611,9 @@ school_id,name,careers_link,platform,verdict,n_links,note
 794,East Carolina University,https://ecu.peopleadmin.com//postings/search?utf8=%E2%9C%93&query=&query_v0_posted_at_date=&query_position_type_id%5B%5D=3&435=&commit=Search,peopleadmin,ok,273,peopleadmin
 795,Lenoir-Rhyne University,https://www.lr.edu/work-at-lr/human-resources,own website,ok,3,
 796,High Point University,https://highpoint.wd503.myworkdayjobs.com/Highpoint-Faculty,workday,ok,72,workday
-799,Mars Hill University,https://jobs.appone.com/marshilluniversity,own website,broken,0,HTTP 404
+799,Mars Hill University,https://jobs.appone.com/marshilluniversity,own website,review,0,rendered no job-shaped links found
 800,Pfeiffer University,https://www.pfeiffer.edu/career-success/,own website,ok,5,
-802,University of Mount Olive,https://www.umo.edu/employment/,own website,broken,0,HTTP 403
+802,University of Mount Olive,https://www.umo.edu/employment/,own website,review,0,rendered wall/challenge page
 803,Chowan University,https://www.chowan.edu/about/offices/human-resources/workstudyjobs/,own website,review,2,rendered few job-shaped links
 804,University of North Carolina at Pembroke,https://jobs.uncp.edu/postings/search,own website,ok,68,
 805,Meredith College,https://meredith.career-pages.com/jobs/search,own website,ok,24,rendered
@@ -644,7 +644,7 @@ school_id,name,careers_link,platform,verdict,n_links,note
 835,Nebraska Wesleyan University,https://www.nebrwesleyan.edu/about-nwu/employment/business-office-hr-associate,own website,ok,3,
 837,University of Nebraska-Lincoln,https://employment.unl.edu/postings/search?utf8=%E2%9C%93&query=&query_v0_posted_at_date=&query_organizational_tier_3_id%5B%5D=any&1257=&1258%5B%5D=3&1258%5B%5D=7&commit=Search,own website,ok,39,
 838,Clarkson College,https://nebraskamed.wd5.myworkdayjobs.com/en-US/Clarkson,workday,ok,10,workday
-839,College of Saint Mary,https://www.csm.edu/academics/career-pathways/,own website,broken,0,HTTP 403
+839,College of Saint Mary,https://www.csm.edu/academics/career-pathways/,own website,ok,7,rendered
 840,Creighton University,https://hcps.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs,oracle,ok,51,oracle
 841,University of Nebraska at Omaha,https://unomaha.peopleadmin.com/,peopleadmin,ok,52,peopleadmin
 842,Peru State College,https://nscs.peopleadmin.com/postings/search?utf8=%E2%9C%93&query=&query_v0_posted_at_date=&435=&query_organizational_tier_3_id%5B%5D=any&1349%5B%5D=2&commit=Search,peopleadmin,ok,41,peopleadmin
@@ -684,7 +684,7 @@ school_id,name,careers_link,platform,verdict,n_links,note
 878,New Jersey Institute of Technology,https://jobs.njit.edu,own website,ok,22,rendered
 879,Pillar College,https://www.pillar.edu/careers,own website,ok,4,
 880,Rutgers University-Newark,https://careers.newark.rutgers.edu/channels/detecting-fraudulent-job-postings/,own website,ok,84,
-882,Princeton University,http://dof.princeton.edu/academicjobs,own website,broken,0,HTTP 403
+882,Princeton University,http://dof.princeton.edu/academicjobs,own website,ok,4,rendered
 883,Seton Hall University,http://jobs.shu.edu/cw/en-us/search/?category=Faculty,own website,ok,24,rendered
 884,Fairleigh Dickinson University-Metropolitan Campus,https://www.instagram.com/reel/Db53N_YDMHp/,own website,broken,0,not a jobs site (www.instagram.com)
 885,Thomas Edison State University,https://tesu.elluciancrmrecruit.com/Apply/Account/ProspectInquiry?f=a5c390e3-cba0-4376-b596-8fba5466af6e&o=8a362f72-262c-48bc-a36d-c5d6e0f75af6&s=c1a80143-768e-e311-a614-00155d01181f,own website,review,0,rendered no job-shaped links found
@@ -697,14 +697,14 @@ school_id,name,careers_link,platform,verdict,n_links,note
 894,New Mexico State University-Main Campus,https://careers.nmsu.edu/,own website,ok,36,rendered
 895,New Mexico Highlands University,https://www.paycomonline.net/v4/ats/web.php/portal/2881FFE43C19E2921F626A9C2B366153/career-page,own website,ok,10,rendered
 896,Eastern New Mexico University-Main Campus,https://www.schooljobs.com/careers/enmu?jobType[0]=Faculty&sort=PositionTitle%7CAscending,own website,ok,14,
-897,Institute of American Indian and Alaska Native Culture and Arts Development,https://iaia.edu/about/employment/,own website,broken,0,HTTP 403
+897,Institute of American Indian and Alaska Native Culture and Arts Development,https://iaia.edu/about/employment/,own website,ok,5,rendered
 898,Western New Mexico University,https://wnmu.peopleadmin.com/,peopleadmin,ok,22,peopleadmin
 899,New Mexico Institute of Mining and Technology,https://www.nmt.edu/hr/employment.php,own website,review,2,rendered few job-shaped links
 901,Nevada State University,https://nshe.wd1.myworkdayjobs.com/NSU-external,workday,ok,63,workday
 902,University of Nevada-Las Vegas,https://nshe.wd1.myworkdayjobs.com/UNLV-External,workday,ok,129,workday
 904,University of Nevada-Reno,https://nshe.wd1.myworkdayjobs.com/UNR-external,workday,ok,127,workday
 905,Excelsior University,https://www.excelsior.edu/career-training,own website,ok,6,
-907,University at Albany,https://albany.interviewexchange.com/jobsearchfrm.jsp,own website,broken,0,HTTP 403
+907,University at Albany,https://albany.interviewexchange.com/jobsearchfrm.jsp,own website,ok,3,rendered
 908,Alfred University,https://www.alfred.edu/jobs-at-alfred/index.cfm,own website,ok,44,rendered
 909,Daemen University,https://www.daemen.edu/about/working-daemen/employment-opportunities,own website,review,1,rendered few job-shaped links
 910,Bard College,https://www.bard.edu/humanresources/employment/,own website,review,2,rendered few job-shaped links
@@ -717,7 +717,7 @@ school_id,name,careers_link,platform,verdict,n_links,note
 919,CUNY New York City College of Technology,https://cuny.jobs/campus/new-york-city-college-of-technology/job-category/faculty/jobs/,own website,ok,71,rendered
 920,Pratt Institute-Main,https://www.pratt.edu/administrative-departments/human-resources/open-positions/faculty-positions/,own website,ok,13,
 921,St. Francis College,https://www.sfc.edu/why-sfc/careers-at-sfc,own website,ok,6,
-922,St. Joseph's University-New York,https://www.sjny.edu/employment,own website,broken,0,HTTP 403
+922,St. Joseph's University-New York,https://www.sjny.edu/employment,own website,ok,12,rendered
 923,Long Island University,https://jobs.liu.edu/job_details/4967,own website,review,1,rendered few job-shaped links
 924,Canisius University,https://canisiusuniversity-puzzlehr.icims.com/,icims,ok,7,icims
 925,D'Youville  University,https://dyouville-university.prismhr-hire.com/job/726161/college-of-osteopathic-medicine-chair-primary-care,own website,ok,3,
@@ -727,13 +727,13 @@ school_id,name,careers_link,platform,verdict,n_links,note
 930,SUNY College of Technology at Canton,https://canton-accommodate.symplicity.com/,own website,review,0,rendered no job-shaped links found
 931,St Lawrence University,https://careerhub-clarkson.icims.com/jobs/search?hashed=-625885781&mobile=false&width=1246&height=500&bga=true&needsRedirect=false&jan1offset=-300&jun1offset=-240,icims,empty,0,icims returned 0
 933,Hamilton College,https://www.hamilton.edu/offices/human-resources/employment/job-opportunities,own website,ok,5,
-934,SUNY College of Agriculture and Technology at Cobleskill,https://cobleskill.interviewexchange.com/static/clients/474SCM1/index.jsp,own website,broken,0,HTTP 403
+934,SUNY College of Agriculture and Technology at Cobleskill,https://cobleskill.interviewexchange.com/static/clients/474SCM1/index.jsp,own website,ok,15,rendered
 935,State University of New York at Cortland,https://www2.cortland.edu/offices/hr/jobs,own website,ok,10,
-936,SUNY College of Technology at Delhi,https://delhi.interviewexchange.com/static/clients/409SDM1/index.jsp,own website,broken,0,HTTP 403
+936,SUNY College of Technology at Delhi,https://delhi.interviewexchange.com/static/clients/409SDM1/index.jsp,own website,ok,33,rendered
 938,Mercy University,https://www.mercy.edu/about/human-resources/employment-mercy,own website,ok,7,
-939,Elmira College,https://www.elmira.edu/welcome-to-elmira/about-ec/careers/careers,own website,broken,0,HTTP 403
-940,Farmingdale State College,https://farmingdale.interviewexchange.com/static/clients/383FAM1/index.jsp,own website,broken,0,HTTP 403
-941,SUNY at Fredonia,https://www.fredonia.edu/about/offices/human-resources/jobs,own website,broken,0,HTTP 403
+939,Elmira College,https://www.elmira.edu/welcome-to-elmira/about-ec/careers/careers,own website,review,0,rendered wall/challenge page
+940,Farmingdale State College,https://farmingdale.interviewexchange.com/static/clients/383FAM1/index.jsp,own website,review,2,rendered few job-shaped links
+941,SUNY at Fredonia,https://www.fredonia.edu/about/offices/human-resources/jobs,own website,ok,20,rendered
 942,Adelphi University,https://phf.tbe.taleo.net/phf02/ats/careers/v2/searchResults?org=ADELPHI&cws=43,taleo,ok,11,taleo
 943,SUNY College at Geneseo,https://www.geneseo.edu/provost/applying-for-faculty-positions,own website,ok,3,
 944,Hobart William Smith Colleges,https://www.hws.edu/offices/hr/employment-opportunities/faculty.aspx,own website,ok,3,
@@ -744,7 +744,7 @@ school_id,name,careers_link,platform,verdict,n_links,note
 950,Ithaca College,https://www.ithaca.edu/center-career-exploration-and-development,own website,ok,54,
 951,CUNY York College,https://cuny.jobs/campus/york-college/job-category/faculty/jobs/,own website,ok,8,rendered
 952,Keuka College,https://www.keuka.edu/hr/employment-opportunities,own website,ok,4,
-953,Siena College,https://siena.interviewexchange.com/jobsearchfrm.jsp,own website,broken,0,HTTP 403
+953,Siena College,https://siena.interviewexchange.com/jobsearchfrm.jsp,own website,review,2,rendered few job-shaped links
 954,State University of New York at New Paltz,https://www.newpaltz.edu/hr/displayjobs.php?type=Faculty,own website,ok,6,rendered
 955,Iona University,https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=F28471DFA0F4183976163E181A695BE1,own website,ok,10,rendered
 957,Barnard College,https://barnard.wd1.myworkdayjobs.com/Faculty,workday,ok,5,workday
@@ -754,21 +754,21 @@ school_id,name,careers_link,platform,verdict,n_links,note
 962,CUNY Graduate School and University Center,https://cuny.jobs/campus/graduate-center/job-category/faculty/jobs/,own website,ok,8,rendered
 963,CUNY Hunter College,https://cuny.jobs/campus/hunter-college/job-category/faculty/jobs/,own website,ok,12,rendered
 964,CUNY John Jay College of Criminal Justice,https://cuny.jobs/campus/john-jay-college-of-criminal-justice/job-category/faculty/jobs/,own website,ok,71,rendered
-965,Columbia University in the City of New York,https://academic.careers.columbia.edu/,own website,broken,0,HTTP 403
+965,Columbia University in the City of New York,https://academic.careers.columbia.edu/,own website,review,2,rendered few job-shaped links
 968,Marymount Manhattan College,https://service.northeastern.edu/hr?id=kb_article_view&sysparm_article=KB000024399&sys_kb_id=0216c71c47168f10c5a12675d36d43c8&spa=1,own website,ok,25,rendered
 969,Metropolitan College of New York,https://www.paycomonline.net/v4/ats/web.php/portal/0AFB6B93B59D609A2037FAB5547D9B02/career-page,own website,ok,5,rendered
 970,New York University,https://www.nyu.edu/about/university-initiatives/nyu-irl.html,own website,review,0,rendered no job-shaped links found
 971,Pace University,https://secure6.saashr.com/ta/6000630.careers?CareersSearch,own website,review,1,rendered few job-shaped links
-973,The King's College,https://www.tkc.edu/?page_id=1006,own website,broken,0,HTTP 404
+973,The King's College,https://www.tkc.edu/?page_id=1006,own website,review,2,rendered wall/challenge page
 974,The New School,https://newschool.wd1.myworkdayjobs.com/External,workday,ok,184,workday
 977,Mount Saint Mary College,https://workforcenow.adp.com/mdf/recruitment/recruitment.html?cid=9553338f-c93c-40ce-9a23-04b38f1294de&jobId=579084&lang=en_US,adp,ok,1,adp
 978,Niagara University,https://niagara.applicantpro.com/jobs/,own website,ok,24,rendered
 979,New York Institute of Technology,https://www.nyit.edu/human_resources/careers,own website,ok,3,rendered
-980,SUNY Old Westbury,https://oldwestbury.interviewexchange.com/static/clients/519OWM1/index.jsp,own website,broken,0,HTTP 403
+980,SUNY Old Westbury,https://oldwestbury.interviewexchange.com/static/clients/519OWM1/index.jsp,own website,ok,39,rendered
 981,Hartwick College,https://hartwickcollege.applytojob.com/apply,own website,ok,21,
-982,SUNY Oneonta,https://oneonta.interviewexchange.com/static/clients/336ONM1/index.jsp,own website,broken,0,HTTP 403
-983,Dominican University New York,https://www.duny.edu/category/employment-opportunities/,own website,broken,0,HTTP 403
-984,State University of New York at Oswego,https://oswego.interviewexchange.com/static/clients/313OSM1/index.jsp,own website,broken,0,HTTP 403
+982,SUNY Oneonta,https://oneonta.interviewexchange.com/static/clients/336ONM1/index.jsp,own website,ok,9,rendered
+983,Dominican University New York,https://www.duny.edu/category/employment-opportunities/,own website,review,0,rendered wall/challenge page
+984,State University of New York at Oswego,https://oswego.interviewexchange.com/static/clients/313OSM1/index.jsp,own website,ok,26,rendered
 985,Paul Smiths College of Arts and Science,https://www.paulsmiths.edu/careers/,own website,ok,13,rendered
 986,SUNY College at Plattsburgh,https://www.plattsburgh.edu/about/offices-divisions/administration-finance/human-resources/jobs/index.html,own website,ok,11,
 987,Clarkson University,https://careerhub-clarkson.icims.com,icims,empty,0,icims returned 0
@@ -785,7 +785,7 @@ school_id,name,careers_link,platform,verdict,n_links,note
 1000,University of Rochester,https://www.rochester.edu/human-resources/careers/,own website,ok,23,
 1001,Molloy College,https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=f1758074-bb0b-4d6b-8d46-3a90ce325365&ccId=19000101_000001&lang=en_US,adp,ok,1,adp
 1002,St Bonaventure University,https://www.schooljobs.com/careers/sbuedu/?jobType[0]=Faculty&sort=PositionTitle%7CAscending,own website,ok,12,
-1003,Empire State University,https://esc.interviewexchange.com/static/clients/397ESM1/index.jsp?catid=802,own website,broken,0,HTTP 403
+1003,Empire State University,https://esc.interviewexchange.com/static/clients/397ESM1/index.jsp?catid=802,own website,review,2,rendered few job-shaped links
 1004,Skidmore College,https://www.skidmore.edu/advancement/giving-opportunities/index.php,own website,review,0,rendered no job-shaped links found
 1005,Union College,https://unioncollege.wd5.myworkdayjobs.com/UnionCollegeCareers,workday,ok,40,workday
 1006,St. Thomas Aquinas College,https://stac.edu/offices/human-resources/employment-opportunities/faculty-positions/,own website,ok,3,
@@ -793,12 +793,12 @@ school_id,name,careers_link,platform,verdict,n_links,note
 1008,Wagner College,https://wagner.edu/hr/hr_openings/,own website,ok,7,rendered
 1009,Stony Brook University,https://stonybrook-advocate.symplicity.com/collections/reportit/4a9adc9d6aa24c3cf581ea5daa46cd25,own website,review,0,rendered no job-shaped links found
 1010,Le Moyne College,https://agilitas.wd503.myworkdayjobs.com/LMC,workday,ok,26,workday
-1011,SUNY College of Environmental Science and Forestry,https://esf.interviewexchange.com/static/clients/444ESM1/index.jsp,own website,broken,0,HTTP 403
+1011,SUNY College of Environmental Science and Forestry,https://esf.interviewexchange.com/static/clients/444ESM1/index.jsp,own website,ok,16,rendered
 1012,Syracuse University,https://www.syracuse.edu/academics/career-paths/,own website,ok,18,
-1013,SUNY Maritime College,https://maritime.interviewexchange.com/static/clients/373SMM1/index.jsp;jsessionid=107D5B11653B69221F22BF3DD4622539,own website,broken,0,HTTP 403
+1013,SUNY Maritime College,https://maritime.interviewexchange.com/static/clients/373SMM1/index.jsp;jsessionid=107D5B11653B69221F22BF3DD4622539,own website,ok,30,rendered
 1014,Rensselaer Polytechnic Institute,https://rpi.dc4.pageuppeople.com/dashboard,own website,review,0,rendered no job-shaped links found
-1015,Russell Sage College,https://sage.interviewexchange.com/,own website,broken,0,HTTP 403
-1016,SUNY Polytechnic Institute,https://sunypoly.interviewexchange.com/static/clients/511SPM1/hiring.jsp,own website,broken,0,HTTP 403
+1015,Russell Sage College,https://sage.interviewexchange.com/,own website,ok,22,rendered
+1016,SUNY Polytechnic Institute,https://sunypoly.interviewexchange.com/static/clients/511SPM1/hiring.jsp,own website,ok,18,rendered
 1017,Utica University,https://www.utica.edu/hr/employment.cfm,own website,review,2,rendered few job-shaped links
 1018,Binghamton University,https://www.binghamton.edu/offices/human-resources/jobs/,own website,ok,15,
 1019,Ohio Northern University,https://onu.wd501.myworkdayjobs.com/ONU,workday,ok,22,workday
@@ -827,10 +827,10 @@ school_id,name,careers_link,platform,verdict,n_links,note
 1049,Kenyon College,https://www.kenyon.edu/offices-and-services/office-of-human-resources/job-opportunities/,own website,ok,13,
 1050,Denison University,https://apply.interfolio.com/11076/positions,own website,review,1,rendered few job-shaped links
 1051,Miami University-Hamilton,https://miamioh.wd5.myworkdayjobs.com/miamioh-faculty,workday,ok,35,workday
-1052,Hiram College,https://www.hiram.edu/about-hiram-college/human-resources/careers-at-hiram/,own website,broken,0,HTTP 403
+1052,Hiram College,https://www.hiram.edu/about-hiram-college/human-resources/careers-at-hiram/,own website,review,0,rendered wall/challenge page
 1053,Kent State University at Kent,https://jobs.kent.edu/,own website,ok,4,rendered
 1055,Ohio State University-Lima Campus,https://lima.osu.edu/weserve/weserve-volunteer-opportunities,own website,review,1,rendered few job-shaped links
-1056,Marietta College,https://marietta.interviewexchange.com/static/clients/465MCM1/index.jsp;jsessionid=4A76C959178576990FFE1A7A68DCDAB7,own website,broken,0,HTTP 403
+1056,Marietta College,https://marietta.interviewexchange.com/static/clients/465MCM1/index.jsp;jsessionid=4A76C959178576990FFE1A7A68DCDAB7,own website,ok,12,rendered
 1057,Ohio State University-Marion Campus,https://osumarion.osu.edu/engineering/career-opportunities-engineering,own website,ok,5,
 1058,Miami University-Middletown,https://miamioh.wd5.myworkdayjobs.com/miamioh-faculty,workday,ok,35,workday [shared URL]
 1060,Muskingum University,https://www.muskingum.edu/human-resources/careers,own website,ok,3,
@@ -838,9 +838,9 @@ school_id,name,careers_link,platform,verdict,n_links,note
 1062,Oberlin College,https://jobs.oberlin.edu,own website,ok,8,
 1063,Miami University-Oxford,https://miamioh.wd5.myworkdayjobs.com/miamioh-faculty,workday,ok,35,workday [shared URL]
 1064,Lake Erie College,https://www.lec.edu/career-closet,own website,ok,5,
-1065,Ursuline College,https://www.ursuline.edu/inside-ursuline/employment/inside-ursuline/employment/job-opportunities,own website,broken,0,HTTP 404
+1065,Ursuline College,https://www.ursuline.edu/inside-ursuline/employment/inside-ursuline/employment/job-opportunities,own website,ok,5,rendered
 1066,Shawnee State University,https://www.schooljobs.com/careers/SSUOH?jobType[0]=Faculty&sort=PositionTitle%7CAscending,own website,ok,14,
-1067,Wittenberg University,http://wittenberg.interviewexchange.com/jobofferdetails.jsp?JOBID=204109,own website,broken,0,HTTP 403
+1067,Wittenberg University,http://wittenberg.interviewexchange.com/jobofferdetails.jsp?JOBID=204109,own website,ok,8,rendered
 1068,Franciscan University of Steubenville,http://franciscan.edu/faculty-openings/,own website,ok,4,
 1069,Lourdes University,https://recruiting.paylocity.com/recruiting/jobs/All/6800f223-2b60-47fe-ba0e-3602afc127d6/Lourdes-University,own website,review,0,rendered no job-shaped links found
 1070,Heidelberg University,https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=e95d68be-1e4e-4259-96d9-6c28cf64c801&ccId=19000101_000001&lang=en_US,adp,ok,1,adp
@@ -853,7 +853,7 @@ school_id,name,careers_link,platform,verdict,n_links,note
 1079,Antioch University,https://www.antioch.edu/employment/,own website,ok,21,rendered
 1080,Youngstown State University,http://www.governmentjobs.com/careers/ysu/Faculty?jobType[0]=Faculty&sort=PositionTitle%7CAscending,own website,ok,14,
 1081,East Central University,https://ecokedu.bamboohr.com/careers,own website,ok,11,rendered
-1082,Northwestern Oklahoma State University,https://nwosu.jotform.com/form/app-for-employment-non-exemt,own website,broken,0,HTTP 404
+1082,Northwestern Oklahoma State University,https://nwosu.jotform.com/form/app-for-employment-non-exemt,own website,review,0,rendered wall/challenge page
 1086,University of Science and Arts of Oklahoma,https://usao.edu/about/human-resources/careers-at-usao.html,own website,ok,4,
 1087,Rogers State University,https://my.rsu.edu/ICS/RSU_Jobs/RSU_Employment_Opportunities.jnz,own website,ok,4,
 1088,Southeastern Oklahoma State University,https://seok.csod.com/ux/ats/careersite/1/home?c=seok,cornerstone,ok,19,cornerstone
@@ -905,7 +905,7 @@ school_id,name,careers_link,platform,verdict,n_links,note
 1143,Mount Aloysius College,https://recruitingbypaycor.com/career/CareerHome.action?clientId=8a7883d098156f9c01982e34a60801d2,own website,ok,76,
 1144,Misericordia University,https://www.misericordia.edu/campus-community/other-offices/human-resources/employment-opportunities,own website,ok,11,
 1145,Pennsylvania State University-Penn State Wilkes-Barre,https://psu.wd1.myworkdayjobs.com/PSU_Academic?locations=ac1efd63d81001c8b2334232c701021c,workday,ok,2,workday
-1146,Delaware Valley University,https://delval.edu/careers-delval,own website,broken,0,HTTP 403
+1146,Delaware Valley University,https://delval.edu/careers-delval,own website,review,2,rendered few job-shaped links
 1147,Pennsylvania State University-Penn State Scranton,https://psu.wd1.myworkdayjobs.com/PSU_Academic?locations=12c4a9bad727016b853043abc5019111,workday,ok,7,workday
 1148,East Stroudsburg University of Pennsylvania,https://ESU.csod.com/ux/ats/careersite/6/home?c=esu,cornerstone,ok,163,cornerstone
 1149,Lafayette College,http://hr.lafayette.edu/employment/job-opportunities/,own website,ok,3,
@@ -923,7 +923,7 @@ school_id,name,careers_link,platform,verdict,n_links,note
 1161,Haverford College,https://www.myworkday.com/haverford,own website,review,0,rendered no job-shaped links found
 1162,Pennsylvania State University-Penn State Hazleton,https://psu.wd1.myworkdayjobs.com/PSU_Academic?locations=e0040d8047ed01d55af7b563c5015f14,workday,ok,10,workday
 1163,Juniata College,https://juniata.peopleadmin.com/postings/search,peopleadmin,ok,15,peopleadmin
-1164,Immaculata University,https://immaculata.interviewexchange.com/static/clients/534IMM1/index.jsp,own website,broken,0,HTTP 403
+1164,Immaculata University,https://immaculata.interviewexchange.com/static/clients/534IMM1/index.jsp,own website,ok,24,rendered
 1165,Indiana University of Pennsylvania-Main Campus,https://www.iup.edu/career/about/index.html,own website,ok,3,
 1166,University of Pittsburgh-Johnstown,https://www.johnstown.pitt.edu/node/384,own website,ok,9,
 1167,Kutztown University of Pennsylvania,https://www.schooljobs.com/careers/kutztownedu/promotionaljobs?jobType[0]=Faculty&sort=PositionTitle%7CAscending,own website,ok,15,
@@ -961,7 +961,7 @@ school_id,name,careers_link,platform,verdict,n_links,note
 1201,Point Park University,https://www.pointpark.edu/careerready/index,own website,ok,6,
 1202,University of Pittsburgh-Pittsburgh Campus,https://cfopitt.taleo.net/careersection/pitt_internal/jobsearch.ftl?lang=en&portal=10100023232,taleo,empty,0,taleo returned 0
 1204,Albright College,https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=c4e80d96-7749-44bb-aa20-2c7594475725&ccId=19000101_000001&source=CC2&lang=en_US&selectedMenuKey=CurrentOpenings,adp,ok,1,adp
-1205,Alvernia University,https://www.alvernia.edu/community-engagement/holleran-center-community-and-global-engagement/holleran-center-community-service%C2%A0,own website,broken,0,HTTP 404
+1205,Alvernia University,https://www.alvernia.edu/community-engagement/holleran-center-community-and-global-engagement/holleran-center-community-service%C2%A0,own website,ok,4,rendered
 1206,Pennsylvania State University-Penn State Berks,https://psu.wd1.myworkdayjobs.com/PSU_Academic?locations=a85e9b4f6d2001e9e53607fbc4019110,workday,ok,6,workday
 1207,Rosemont College,https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=73e335b6-c8b9-44c9-bb2d-c83d54941069&ccId=9200074416396_2&lang=en_US&selectedMenuKey=CurrentOpenings,adp,empty,0,adp returned 0
 1209,Pennsylvania State University-Penn State Schuylkill,https://psu.wd1.myworkdayjobs.com/PSU_Academic?locations=b0858b72065c016f25d63c02c5011713,workday,ok,2,workday
@@ -987,7 +987,7 @@ school_id,name,careers_link,platform,verdict,n_links,note
 1231,Inter American University of Puerto Rico-Arecibo,https://iaupr.elluciancrmrecruit.com/Apply/Account/Create,own website,review,0,rendered no job-shaped links found
 1233,University of Puerto Rico-Arecibo,https://upra.edu/recursos-humanos/convocatorias/,own website,review,0,rendered no job-shaped links found
 1234,Inter American University of Puerto Rico-Barranquitas,https://iaupr.elluciancrmrecruit.com/Apply,own website,review,0,rendered no job-shaped links found
-1235,American University of Puerto Rico,https://aupr.edu/empleo-remunerado/,own website,broken,0,HTTP 404
+1235,American University of Puerto Rico,https://aupr.edu/empleo-remunerado/,own website,review,0,rendered no job-shaped links found [shared URL]
 1236,Caribbean University-Bayamon,https://careers.smartrecruiters.com/CaribbeanUniversity,smartrecruiters,ok,9,smartrecruiters
 1237,Inter American University of Puerto Rico-Bayamon,https://www.inter.edu/en/department/bayamon/,own website,review,1,rendered few job-shaped links
 1238,University of Puerto Rico-Bayamon,https://www.upr.edu/ac/oficinas-adscritas/recursos-humanos/oficina-de-recursos-humanos-convocatorias/,own website,review,1,rendered few job-shaped links
@@ -998,11 +998,11 @@ school_id,name,careers_link,platform,verdict,n_links,note
 1243,University of Puerto Rico at Cayey,https://www.cayey.upr.edu/oficina-de-recursos-humanos/,own website,review,2,rendered few job-shaped links
 1244,Inter American University of Puerto Rico-Fajardo,https://fajardo.inter.edu/empleos/,own website,ok,7,rendered
 1245,Inter American University of Puerto Rico-Guayama,https://iaupr.elluciancrmrecruit.com/Apply,own website,review,0,rendered no job-shaped links found [shared URL]
-1246,Atlantic University,https://www.indeed.com/cmp/Atlantic-University-1/jobs,own website,broken,0,HTTP 403
+1246,Atlantic University,https://www.indeed.com/cmp/Atlantic-University-1/jobs,own website,ok,7,rendered
 1247,Universidad Ana G. Mendez-Gurabo Campus,https://jobs.uagm.edu/Home?lang=es,own website,ok,5,rendered [shared URL]
 1248,Universidad Politecnica de Puerto Rico,https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=5388a0c5-18fe-449e-b500-098740269275&ccId=19000101_000001&type=JS&lang=en_US,adp,ok,1,adp [shared URL]
 1249,University of Puerto Rico-Humacao,https://www.uprh.edu/empleos/,own website,review,2,rendered few job-shaped links
-1250,American University of Puerto Rico,https://aupr.edu/empleo-remunerado/,own website,broken,0,HTTP 404 [shared URL]
+1250,American University of Puerto Rico,https://aupr.edu/empleo-remunerado/,own website,review,0,rendered no job-shaped links found
 1253,University of Puerto Rico-Mayaguez,https://www.eventbrite.com/e/38th-job-fair-tickets-1992770470120,own website,review,0,rendered no job-shaped links found
 1254,Inter American University of Puerto Rico-Ponce,https://ponce.inter.edu/recursos-humanos-2/,own website,ok,3,rendered
 1255,Caribbean University-Ponce,https://careers.smartrecruiters.com/CaribbeanUniversity,smartrecruiters,ok,9,smartrecruiters [shared URL]
@@ -1014,9 +1014,9 @@ school_id,name,careers_link,platform,verdict,n_links,note
 1262,University of Puerto Rico-Rio Piedras,https://recursoshumanos.uprrp.edu/,own website,ok,7,
 1263,Universidad del Sagrado Corazon,https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=78334d6d-1342-4b7f-9674-a7916c71caa7&ccId=19000101_000001&lang=en_US,adp,ok,1,adp
 1264,Caribbean University-Vega Baja,https://careers.smartrecruiters.com/CaribbeanUniversity,smartrecruiters,ok,9,smartrecruiters [shared URL]
-1265,Roger Williams University,https://rwu.interviewexchange.com/static/clients/420RWM1/index.jsp;jsessionid=EC42F0851F36A5B1CEF1AF67ECFAFE46,own website,broken,0,HTTP 403
+1265,Roger Williams University,https://rwu.interviewexchange.com/static/clients/420RWM1/index.jsp;jsessionid=EC42F0851F36A5B1CEF1AF67ECFAFE46,own website,ok,79,rendered
 1266,University of Rhode Island,https://jobs.uri.edu/postings/search,own website,ok,70,
-1267,Salve Regina University,https://salve.interviewexchange.com/static/clients/288SRM1/administrative.jsp,own website,broken,0,HTTP 403
+1267,Salve Regina University,https://salve.interviewexchange.com/static/clients/288SRM1/administrative.jsp,own website,ok,25,rendered
 1268,Brown University,https://brown.wd5.myworkdayjobs.com/staff-careers-brown/jobs,workday,ok,109,workday
 1269,Johnson & Wales University-Providence,https://jobs.jwu.edu/en-us/listing/,own website,ok,24,
 1270,Providence College,https://www.schooljobs.com/careers/providencecollege?jobType[0]=Faculty&sort=PositionTitle%7CAscending,own website,ok,13,
@@ -1054,14 +1054,14 @@ school_id,name,careers_link,platform,verdict,n_links,note
 1323,The University of Tennessee-Chattanooga,https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/fscmUI/faces/deeplink?objType=IRC_RECRUITING&action=ICE_JOB_SEARCH_RESP,oracle,broken,0,RuntimeError: oracle session capture failed: Timeout 15000ms exceeded while waiting 
 1324,Austin Peay State University,https://www.apsu.edu/human-resources/govs-suite.php,own website,review,1,rendered few job-shaped links
 1327,Tennessee Technological University,https://jobs.tntech.edu/,own website,ok,3,rendered
-1331,Tusculum University,https://www3.tusculum.edu/hr/employment-opportunities/,own website,broken,0,fetch failed
+1331,Tusculum University,https://www3.tusculum.edu/hr/employment-opportunities/,own website,ok,17,
 1332,Lincoln Memorial University,https://www.peopleadmin.com/,peopleadmin,broken,0,RuntimeError: peopleadmin atom status=404
 1337,East Tennessee State University,https://fa-evyu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/,oracle,empty,0,oracle returned 0
 1339,The University of Tennessee-Knoxville,https://hr.utk.edu/faculty-positions/,own website,ok,6,
 1340,Cumberland University,https://www.cumberland.edu/about/employment/,own website,ok,6,
 1341,The University of Tennessee-Martin,https://www.utm.edu/offices-and-services/human-resources/employment-opportunities.php,own website,review,1,rendered few job-shaped links
 1342,Maryville College,https://www.maryvillecollege.edu/about/inside/human-resources/careers/,own website,ok,4,
-1344,Christian Brothers University,http://cbu.interviewexchange.com/jobofferdetails.jsp?JOBID=200928,own website,broken,0,HTTP 403
+1344,Christian Brothers University,http://cbu.interviewexchange.com/jobofferdetails.jsp?JOBID=200928,own website,ok,8,rendered
 1346,Rhodes College,https://rhodes.wd5.myworkdayjobs.com/Rhodes_Careers,workday,ok,10,workday
 1348,University of Memphis,https://workforum.memphis.edu/,own website,ok,8,rendered
 1350,Middle Tennessee State University,https://careers.mtsu.edu/en-us/listing/,own website,ok,16,rendered
@@ -1083,7 +1083,7 @@ school_id,name,careers_link,platform,verdict,n_links,note
 1382,Texas Woman's University,https://twu.edu/humanresources/careers-at-twu/jobs/,own website,review,0,rendered no job-shaped links found
 1383,University of North Texas,https://careers.untsystem.edu/unt/home,own website,ok,23,rendered
 1384,The University of Texas Rio Grande Valley,https://careers.utrgv.edu/postings/search,own website,ok,72,
-1385,The University of Texas at El Paso,https://utep.interviewexchange.com/static/clients/533UTM1/index.jsp,own website,broken,0,HTTP 403
+1385,The University of Texas at El Paso,https://utep.interviewexchange.com/static/clients/533UTM1/index.jsp,own website,review,1,rendered few job-shaped links
 1387,Texas Christian University,https://jobs.tcu.edu,own website,ok,4,rendered
 1388,Texas Wesleyan University,https://txwes.peopleadmin.com/,peopleadmin,ok,88,peopleadmin
 1389,Southwestern University,https://www.schooljobs.com/careers/southwestern?jobType[0]=Faculty&sort=PositionTitle%7CAscending,own website,ok,13,
@@ -1103,8 +1103,8 @@ school_id,name,careers_link,platform,verdict,n_links,note
 1415,The University of Texas Permian Basin,https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/UTZ_CG/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_SCHJOB&Action=U&FOCUS=Applicant&SiteId=10,own website,review,0,rendered no job-shaped links found
 1418,The University of Texas at Dallas,https://jobs.utdallas.edu/postings/search?query=&query_v0_posted_at_date=&query_position_type_id%5B%5D=2&commit=Search,own website,ok,48,
 1420,Angelo State University,https://www.angelo.edu/work-at-asu/,own website,ok,4,
-1422,Hallmark University,https://careers.hallmarkuniversity.edu/jobs/instructional-designer/,own website,broken,0,HTTP 404
-1423,Our Lady of the Lake University,https://ollusa.interviewexchange.com/static/clients/485OLM1/index.jsp,own website,broken,0,HTTP 403
+1422,Hallmark University,https://careers.hallmarkuniversity.edu/jobs/instructional-designer/,own website,review,1,rendered wall/challenge page
+1423,Our Lady of the Lake University,https://ollusa.interviewexchange.com/static/clients/485OLM1/index.jsp,own website,ok,46,rendered
 1424,St. Mary's University,https://www.stmarytx.edu/about/jobs/,own website,ok,3,
 1425,Texas A&M University-San Antonio,https://tamus.wd1.myworkdayjobs.com/TAMUSA_External,workday,ok,12,workday
 1427,The University of Texas at San Antonio,https://www.utsa.edu/people-excellence/careers/,own website,ok,5,
@@ -1141,7 +1141,7 @@ school_id,name,careers_link,platform,verdict,n_links,note
 1473,James Madison University,https://jobs.jmu.edu/,own website,review,1,rendered few job-shaped links
 1474,Virginia Military Institute,https://www.vmi.edu/job-openings/,own website,ok,20,
 1475,Washington and Lee University,https://www.wlu.edu/employment-opportunities/faculty-positions,own website,ok,5,
-1477,Randolph College,https://www.randolphcollege.edu/humanresources/job-openings/,own website,broken,0,HTTP 403
+1477,Randolph College,https://www.randolphcollege.edu/humanresources/job-openings/,own website,review,2,rendered few job-shaped links
 1478,University of Lynchburg,https://www.lynchburg.edu/about/human-resources/jobs/,own website,ok,4,
 1480,Christopher Newport University,https://jobs.cnu.edu/,own website,ok,5,
 1482,Old Dominion University,https://www.odu.edu/career-leadership,own website,ok,38,
@@ -1172,7 +1172,7 @@ school_id,name,careers_link,platform,verdict,n_links,note
 1513,Northwest University,http://careers.cccu.org/jobs,own website,ok,20,
 1514,Saint Martin's University,https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=7138f757-560b-432d-a0d6-3a29cd79033e&ccId=19000101_000001&type=MP&lang=en_US,adp,ok,1,adp
 1515,Washington State University,https://wd5.myworkday.com/wsu/d/task/1422$478.htmld,own website,review,0,rendered no job-shaped links found
-1517,City University of Seattle,http://cityu.interviewexchange.com/static/clients/447CSM1/index.jsp;jsessionid=77C75F0E480695E12DADFF9F669D13C0,own website,broken,0,HTTP 403
+1517,City University of Seattle,http://cityu.interviewexchange.com/static/clients/447CSM1/index.jsp;jsessionid=77C75F0E480695E12DADFF9F669D13C0,own website,ok,5,rendered
 1518,Seattle Pacific University,https://spu.wd12.myworkdayjobs.com/SPU,workday,ok,27,workday
 1519,Seattle University,https://seattleu.wd108.myworkdayjobs.com/SeattleUJobs,workday,ok,44,workday
 1520,University of Washington-Seattle Campus,https://ap.washington.edu/ahr/academic-jobs/,own website,ok,340,
@@ -1186,18 +1186,18 @@ school_id,name,careers_link,platform,verdict,n_links,note
 1528,Whitman College,https://whitman-advocate.symplicity.com/public_report/index.php,own website,review,0,rendered no job-shaped links found
 1529,Lawrence University,https://lawrence.peopleadmin.com/,peopleadmin,ok,18,peopleadmin
 1531,Beloit College,https://www.beloit.edu/offices/human-resources/,own website,review,2,rendered few job-shaped links
-1532,Herzing University-Brookfield,https://recruiting2.ultipro.com/HER1009HRZ/JobBoard/267d2e37-abff-4559-8a18-a754503d3749,ultipro,broken,0,RuntimeError: could not parse ultipro tenant/board path [shared URL]
+1532,Herzing University-Brookfield,https://recruiting2.ultipro.com/HER1009HRZ/JobBoard/267d2e37-abff-4559-8a18-a754503d3749,ultipro,ok,81,ultipro (adapter fix)
 1533,Ottawa University-Milwaukee,https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=AB201C499D53A5D603D5BE296513B383,own website,ok,10,rendered [shared URL]
 1534,Saint Norbert College,https://snc.edu/search/careers,own website,ok,6,
 1535,University of Wisconsin-Eau Claire,https://wisconsin.wd1.myworkdayjobs.com/en-US/UW_Comprehensives,workday,ok,321,workday
-1536,Marian University,https://www.marianuniversity.edu/about-marian/employment/,own website,broken,0,HTTP 403
+1536,Marian University,https://www.marianuniversity.edu/about-marian/employment/,own website,review,0,rendered wall/challenge page
 1537,University of Wisconsin-Green Bay,https://wisconsin.wd1.myworkdayjobs.com/en-US/UW_Comprehensives?Institution=5adf054562b610142325cf0d5f910000,workday,ok,40,workday
 1538,Carthage College,https://www.carthage.edu/about/offices-services/human-resources/careers-at-carthage/faculty-positions/,own website,ok,6,
-1539,Herzing University-Kenosha,https://recruiting2.ultipro.com/HER1009HRZ/JobBoard/267d2e37-abff-4559-8a18-a754503d3749,ultipro,broken,0,RuntimeError: could not parse ultipro tenant/board path [shared URL]
+1539,Herzing University-Kenosha,https://recruiting2.ultipro.com/HER1009HRZ/JobBoard/267d2e37-abff-4559-8a18-a754503d3749,ultipro,ok,81,ultipro (adapter fix)
 1540,University of Wisconsin-Parkside,https://wisconsin.wd1.myworkdayjobs.com/UW_Comprehensives,workday,ok,321,workday
 1541,University of Wisconsin-La Crosse,https://wisconsin.wd1.myworkdayjobs.com/UW_Comprehensives?primaryLocation=5adf054562b610142601c3db67eb0000,workday,ok,61,workday
-1542,Viterbo University,https://www.viterbo.edu/human-resources/job-announcements,own website,broken,0,HTTP 403
-1543,Edgewood College,https://www.edgewood.edu/employment/human-resources-generalist/,own website,broken,0,HTTP 404
+1542,Viterbo University,https://www.viterbo.edu/human-resources/job-announcements,own website,ok,10,rendered
+1543,Edgewood College,https://www.edgewood.edu/employment/human-resources-generalist/,own website,review,1,rendered few job-shaped links
 1544,University of Wisconsin-Madison,https://jobs.wisc.edu/,own website,ok,13,rendered
 1545,University of Wisconsin-Stout,https://wisconsin.wd1.myworkdayjobs.com/UW_Comprehensives?primaryLocation=5adf054562b610142602517fd4330000,workday,ok,23,workday
 1547,Alverno College,https://www.alverno.edu/Career-Recruit-a-Grad,own website,ok,16,
@@ -1216,7 +1216,7 @@ school_id,name,careers_link,platform,verdict,n_links,note
 1563,University of Wisconsin-Whitewater,https://wisconsin.wd1.myworkdayjobs.com/en-US/UW_Comprehensives,workday,ok,321,workday [shared URL]
 1564,Concord University,https://jobs.concord.edu/,own website,ok,6,
 1565,West Virginia University Institute of Technology,https://careers.wvu.edu/career-opportunities/internal-and-external-faculty-portal,own website,ok,17,
-1566,Bethany College,https://www.bethanywv.edu/about/employment/,own website,broken,0,HTTP 403
+1566,Bethany College,https://www.bethanywv.edu/about/employment/,own website,review,0,rendered wall/challenge page
 1568,West Virginia Wesleyan College,https://www.wvwc.edu/jobs/?faculty,own website,ok,12,
 1570,University of Charleston,https://ucwv.elluciancrmrecruit.com/Apply/Account/Create?f=586ce4f3-d79d-4f52-9540-5138661f6dcd&o=538fedc1-2f8d-4f30-89b1-d13415d0429c&IsInquiry=True,own website,review,0,rendered no job-shaped links found
 1571,Davis & Elkins College,https://www.dewv.edu/explore/employment/,own website,review,2,rendered few job-shaped links
