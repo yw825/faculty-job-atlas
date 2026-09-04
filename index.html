@@ -483,10 +483,10 @@
     </div>
     <div id="controls">
       <div id="mode-switch">
-        <button id="mode-schools" class="mode-btn active" type="button">Schools</button>
-        <button id="mode-jobs" class="mode-btn" type="button">Open positions</button>
+        <button id="mode-jobs" class="mode-btn active" type="button">Open positions</button>
+        <button id="mode-schools" class="mode-btn" type="button">Schools</button>
       </div>
-      <div id="jobs-controls" style="display:none;">
+      <div id="jobs-controls">
         <div>
           <label class="field-label" for="job-subject">Subject area</label>
           <input type="text" id="job-subject" placeholder="e.g. business analytics, statistics" autocomplete="off">
@@ -501,23 +501,17 @@
           <label class="check-row"><input type="checkbox" class="f-job-rank" value="Lecturer"> Lecturer / Teaching</label>
           <label class="check-row"><input type="checkbox" class="f-job-rank" value="Research_Fellow"> Research Fellow / Postdoc</label>
         </div>
+        <div class="check-group" id="job-term-block">
+          <span class="field-label" style="margin-bottom:0;">Job term</span>
+          <label class="check-row"><input type="checkbox" id="f-term-full" checked> Full-time</label>
+          <label class="check-row"><input type="checkbox" id="f-term-part" checked> Part-time</label>
+        </div>
         <div class="check-group">
           <span class="field-label" style="margin-bottom:0;">Availability</span>
           <label class="check-row"><input type="checkbox" id="f-job-available" checked> Available now</label>
           <div class="hint" id="job-date-hint"></div>
         </div>
         <hr class="panel-divider">
-      </div>
-      <div class="check-group" id="position-type-block">
-        <span class="field-label" style="margin-bottom:0;">Position type</span>
-        <label class="check-row"><input type="checkbox" id="f-pos-tt" checked> Tenure-track Assistant Professor</label>
-        <label class="check-row"><input type="checkbox" id="f-pos-tenured" checked> Tenured Professor (Associate / Full)</label>
-        <label class="check-row"><input type="checkbox" id="f-pos-nontenure" checked> Non-Tenure-Track (Lecturer / Teaching / Clinical)</label>
-      </div>
-      <div class="check-group" id="job-term-block">
-        <span class="field-label" style="margin-bottom:0;">Job term</span>
-        <label class="check-row"><input type="checkbox" id="f-term-full" checked> Full-time</label>
-        <label class="check-row"><input type="checkbox" id="f-term-part" checked> Part-time</label>
       </div>
       <div>
         <label class="field-label" for="region-select">Region</label>
@@ -542,18 +536,9 @@
           <option value="singapore">Singapore</option>
         </select>
       </div>
-      <div class="check-group" id="subject-area-block">
-        <span class="field-label" style="margin-bottom:0;">Subject area</span>
-        <label class="check-row"><input type="checkbox" id="f-subj-ba" checked> Business Analytics</label>
-        <label class="check-row"><input type="checkbox" id="f-subj-ds" checked> Data Science</label>
-        <label class="check-row"><input type="checkbox" id="f-subj-is" checked> Information Systems</label>
-        <label class="check-row"><input type="checkbox" id="f-subj-stat" checked> Statistics</label>
-        <label class="check-row"><input type="checkbox" id="f-subj-ie" checked> Industrial Engineering</label>
-      </div>
-      <hr class="panel-divider">
       <div>
         <label class="field-label" for="search">Search by name</label>
-        <input type="text" id="search" placeholder="e.g. Iowa, Drexel, Boston..." autocomplete="off">
+        <input type="text" id="search" placeholder="e.g. Toronto, Aston, Sydney..." autocomplete="off">
       </div>
       <div id="radius-block">
         <div style="display:flex; align-items:center; justify-content:space-between;">
@@ -688,7 +673,7 @@ map.on('moveend', function(){
   // frame.
   if(typeof applyFilters === 'function' && !boundsFilterActive && !homeLatLng){
     liveViewActive = true;
-    applyFilters();
+    refreshResults();
   }
 });
 
@@ -727,7 +712,7 @@ searchAreaBtn.addEventListener('click', function(){
   crossRegionActive = true;
   buildMarkers(allSchoolsMerged());
   searchAreaBtn.style.display = 'none';
-  applyFilters();
+  refreshResults();
   // Markers are always plotted at their normal, non-drifted coordinates, so if
   // the current view is still sitting in a "drifted" copy of the world (from
   // panning across the antimeridian), the results would match the list but
@@ -874,7 +859,7 @@ function updateModeToggleVisibility(){
     commuteMode = modeTransitRadio.checked ? 'transit' : 'driving';
     populateRadiusOptions(commuteMode);
     drawRadiusCircle();
-    applyFilters();
+    refreshResults();
   });
 });
 
@@ -1234,7 +1219,7 @@ function placeHome(lat, lon, label){
     crossRegionActive = true;
     buildMarkers(allSchoolsMerged());
   }
-  applyFilters();
+  refreshResults();
 }
 
 function drawRadiusCircle(){
@@ -1314,7 +1299,7 @@ document.getElementById('map').addEventListener('drop', function(e){
 
 radiusSelect.addEventListener('change', function(){
   drawRadiusCircle();
-  applyFilters();
+  refreshResults();
 });
 
 clearHomeBtn.addEventListener('click', function(){
@@ -1330,7 +1315,7 @@ clearHomeBtn.addEventListener('click', function(){
     crossRegionActive = false;
     buildMarkers(REGIONS[activeRegionKey].data);
   }
-  applyFilters();
+  refreshResults();
 });
 
 map.on('click', function(e){
@@ -1444,16 +1429,20 @@ function updateTransitCircle(filtered){
   }).addTo(map);
 }
 
-[searchInput].forEach(el => el.addEventListener('input', applyFilters));
-// Position type / job term / subject area don't filter anything yet — there's
-// no job-posting data behind them until the search step is built — but they're
-// wired up now so that work is a filter-logic change, not a UI change.
-document.querySelectorAll('#position-type-block input, #job-term-block input, #subject-area-block input')
-  .forEach(el => el.addEventListener('change', applyFilters));
+[searchInput].forEach(el => el.addEventListener('input', function(){ refreshResults(); }));
+// Job term is a real filter over postings now (the position-type and
+// subject-area placeholder blocks that used to sit here filtered nothing and
+// have been removed; subject is searched in the jobs panel instead).
+document.querySelectorAll('#job-term-block input')
+  .forEach(el => el.addEventListener('change', function(){ refreshResults(); }));
 clearBtn.addEventListener('click', function(){
   searchInput.value = '';
-  document.querySelectorAll('#position-type-block input, #job-term-block input, #subject-area-block input')
-    .forEach(el => { el.checked = true; });
+  document.querySelectorAll('#job-term-block input').forEach(el => { el.checked = true; });
+  if(jobsMode){
+    jobSubjectInput.value = '';
+    fJobTitle.checked = false;
+    fJobAvailable.checked = true;
+  }
   boundsFilterActive = false;
   liveViewActive = false;
   if(crossRegionActive){
@@ -1461,7 +1450,7 @@ clearBtn.addEventListener('click', function(){
     buildMarkers(REGIONS[activeRegionKey].data);
   }
   searchAreaBtn.style.display = 'none';
-  applyFilters();
+  refreshResults();
   if(!homeLatLng) programmaticSetView(REGIONS[activeRegionKey].center, REGIONS[activeRegionKey].zoom);
 });
 
@@ -1532,8 +1521,7 @@ function applyRegion(){
     listEl.style.display = '';
     radiusBlockEl.style.display = '';
     legendEl.innerHTML = region.legendHtml || legendEl.innerHTML;
-    document.querySelectorAll('#position-type-block input, #job-term-block input, #subject-area-block input')
-      .forEach(el => { el.checked = true; });
+    document.querySelectorAll('#job-term-block input').forEach(el => { el.checked = true; });
     boundsFilterActive = false;
     crossRegionActive = false;
     liveViewActive = false;
@@ -1646,6 +1634,23 @@ function jobsMatchingFilters(){
   const todayIso = new Date().toISOString().slice(0,10);
   const onlyAvailable = fJobAvailable.checked;
   const withTitle = fJobTitle.checked;
+  const nameTerm = searchInput.value.trim().toLowerCase();
+  const wantFull = document.getElementById('f-term-full').checked;
+  const wantPart = document.getElementById('f-term-part').checked;
+
+  // "Near an address" scopes postings by their school's location, using the
+  // same distance/transit maths the schools mode uses.
+  const transitModeActive = homeLatLng && commuteMode === 'transit';
+  const maxMiles = (homeLatLng && !transitModeActive)
+    ? (parseInt(radiusSelect.value, 10) / 60) * AVG_MPH : null;
+  const maxTransitMinutes = transitModeActive ? parseInt(radiusSelect.value, 10) : null;
+  let liveCenter = null, liveHalfLat = 0, liveHalfLng = 0;
+  if(liveViewActive && !boundsFilterActive && !homeLatLng){
+    const vb = map.getBounds();
+    liveCenter = map.getCenter().wrap();
+    liveHalfLat = (vb.getNorth() - vb.getSouth()) / 2 * 1.15;
+    liveHalfLng = (vb.getEast() - vb.getWest()) / 2 * 1.15;
+  }
 
   return JOBS.postings.filter(function(j){
     const school = JOBS.schools[j.s];
@@ -1655,6 +1660,32 @@ function jobsMatchingFilters(){
       if(regionKey === 'asia' && subKey !== 'all' && school.sub !== subKey) return false;
     }
     if(ranks.length && !(j.p || []).some(t => ranks.indexOf(t) !== -1)) return false;
+    if(!(wantFull && wantPart)){
+      const isPart = j.j === 'Part-time';
+      if(isPart && !wantPart) return false;
+      if(!isPart && !wantFull) return false;
+    }
+    if(nameTerm){
+      const name = (school.name || '').toLowerCase();
+      const city = (school.city || '').toLowerCase();
+      const country = (school.country || '').toLowerCase();
+      if(name.indexOf(nameTerm) === -1 && city.indexOf(nameTerm) === -1
+         && country.indexOf(nameTerm) === -1) return false;
+    }
+    if(transitModeActive){
+      const t = transitMinutes(homeLatLng.lat, homeLatLng.lon, school.lat, school.lon);
+      if(t === null || t > maxTransitMinutes) return false;
+    } else if(homeLatLng){
+      if(haversineMiles(homeLatLng.lat, homeLatLng.lon, school.lat, school.lon) > maxMiles) return false;
+    }
+    if(boundsFilterActive && boundsCenter){
+      if(haversineMiles(boundsCenter.lat, boundsCenter.lng, school.lat, school.lon) > boundsRadiusMiles
+         || Math.abs(school.lat - boundsCenter.lat) > boundsHalfLat
+         || angularLngDiff(school.lon, boundsCenter.lng) > boundsHalfLng) return false;
+    } else if(liveCenter){
+      if(Math.abs(school.lat - liveCenter.lat) > liveHalfLat
+         || angularLngDiff(school.lon, liveCenter.lng) > liveHalfLng) return false;
+    }
     if(terms.length){
       const hay = jobSearchText(j, withTitle);
       if(!terms.every(t => hay.indexOf(t) !== -1)) return false;
@@ -1720,6 +1751,14 @@ function escapeHtml(str){
   return String(str).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 }
 
+/* Both modes are driven through here, so every existing control -- the
+   search box, the home pin, the radius select, "search this area" -- keeps
+   working without each one having to know which mode is active. */
+function refreshResults(){
+  if(jobsMode) applyJobFilters();
+  else applyFilters();
+}
+
 function applyJobFilters(){
   if(!JOBS) return;
   const jobs = jobsMatchingFilters();
@@ -1768,14 +1807,8 @@ function setMode(toJobs){
   modeJobsBtn.classList.toggle('active', toJobs);
   modeSchoolsBtn.classList.toggle('active', !toJobs);
   jobsControls.style.display = toJobs ? 'block' : 'none';
-  // School-only controls make no claim about postings, so they're hidden
-  // rather than left visible and inert.
-  ['position-type-block','job-term-block','subject-area-block','radius-block'].forEach(function(id){
-    const el = document.getElementById(id);
-    if(el) el.style.display = toJobs ? 'none' : '';
-  });
-  const searchBlock = document.getElementById('search');
-  if(searchBlock && searchBlock.parentElement) searchBlock.parentElement.style.display = toJobs ? 'none' : '';
+  // Region, "search by name" and "near an address" are shared by both modes;
+  // only the posting-specific controls appear or disappear.
 
   if(toJobs){
     loadJobs().then(function(data){ if(data) applyJobFilters(); });
@@ -1798,7 +1831,11 @@ document.querySelectorAll('.f-job-rank').forEach(function(el){
 regionSelect.addEventListener('change', applyRegion);
 asiaSelect.addEventListener('change', applyRegion);
 
+// Open positions is the default view. applyRegion() still runs first so the
+// map, legend and region label are set up exactly as in schools mode, then
+// setMode swaps the layer for postings once postings.json arrives.
 applyRegion();
+setMode(true);
 
 </script>
 </body>

@@ -24,6 +24,7 @@ posting from one that has been up for months, and so a posting that
 disappears from its school's page can be aged out rather than lingering.
 This first build backfills it from each school's scrape timestamp.
 """
+import collections
 import csv
 import glob
 import json
@@ -92,6 +93,60 @@ def _safe_iso(year, month, day):
         return date(year, month, day).isoformat()
     except ValueError:
         return ''
+
+
+# Titles that are a careers site's own furniture rather than a job. These
+# come from listing/search/error pages that a school's link scraper picked up
+# as if they were postings; the scrapers are being fixed school by school,
+# but until then they must not reach the map -- 495 such rows exist, and 167
+# of them carry an academic rank, so they surface inside ordinary searches
+# ("Jobs" and "Information for Managers" were both showing up as Assistant
+# Professor posts near London).
+_JUNK_TITLE_RE = re.compile(
+    r'^(?:careers?|jobs?|job details|job search|search jobs|all opportunities|'
+    r'current (?:vacancies|openings)|vacancies|opportunities|page not found|404|error|'
+    r'server error|access denied|sign ?in.*|log ?in.*|.*applicant portal.*|home|about us|'
+    r'people|results|search results.*|human resources office|view all jobs|self service|'
+    r'.*privacy.*|.*accessibilit.*|\d+ gateway.*|we apologize.*|job opportunities|'
+    r'information for .*|useful information|online application procedures|'
+    r'prospective employees.*|current openings.*|explore our employment.*|'
+    r'position title:?|job description|apply now|welcome|overview|staff|faculty|'
+    r'employment|recruitment|our vacancies|work (?:with|for) us)$', re.I)
+
+
+# The regex above only catches furniture we can name. The bigger problem is
+# a school whose detail fetch failed wholesale: 778 rows at one school all
+# titled "Page not found.", 153 at another all "Your cookie choices". The
+# general signal is that furniture REPEATS across a school's postings while
+# real job titles vary, so a short title taking up a quarter or more of one
+# school's rows is treated as furniture -- unless it names a role, which
+# protects the genuine case of a school posting the same job several times
+# ("Clinical Nursing Instructor" x4, "Part-time Lecturer" x12).
+_JOB_WORD_RE = re.compile(
+    r'professor|lecturer|instructor|fellow|research|scientist|teacher|tutor|dean|chair|'
+    r'postdoc|assistant|associate|engineer|analyst|manager|officer|coordinator|technician|'
+    r'nurse|lektor|adiunkt|asystent|profesor|docent|ma[iî]tre|charg|wissenschaftlich|'
+    r'doctoral|phd', re.I)
+
+_REPEAT_MIN = 3
+_REPEAT_SHARE = 0.25
+_REPEAT_MAX_WORDS = 6
+
+
+def furniture_titles(rows_by_school):
+    """{(school_id, title)} that repeat enough within one school to be that
+    site's chrome rather than its jobs."""
+    out = set()
+    for sid, counter in rows_by_school.items():
+        total = sum(counter.values())
+        if not total:
+            continue
+        for title, n in counter.items():
+            if (n >= _REPEAT_MIN and n / total >= _REPEAT_SHARE
+                    and len(title.split()) <= _REPEAT_MAX_WORDS
+                    and not _JOB_WORD_RE.search(title)):
+                out.add((sid, title))
+    return out
 
 
 def load_school_meta():
@@ -172,6 +227,7 @@ def main():
     postings = []
     schools_used = {}
     skipped_no_coords = set()
+    junk_titles = 0
     for path in sorted(glob.glob(os.path.join(INFO_DIR, '*.csv'))):
         with open(path, encoding='utf-8') as f:
             for row in csv.DictReader(f):
@@ -182,6 +238,9 @@ def main():
                 title = (row.get('job_title_in_post') or '').strip()
                 if not title:
                     continue  # a posting with no readable title isn't searchable
+                if _JUNK_TITLE_RE.match(title.rstrip(' .')):
+                    junk_titles += 1
+                    continue
                 geo = coords.get(sid)
                 if not geo:
                     skipped_no_coords.add(sid)
@@ -216,6 +275,19 @@ def main():
                     'b': normalize_date(row.get('position_start_date')),
                 })
 
+    # Second pass: drop per-school repeated furniture now that every row for
+    # each school has been seen.
+    counts = {}
+    for post in postings:
+        counts.setdefault(post['s'], collections.Counter())[post['t'].strip()] += 1
+    furniture = furniture_titles(counts)
+    if furniture:
+        before = len(postings)
+        postings = [q for q in postings if (q['s'], q['t'].strip()) not in furniture]
+        junk_titles += before - len(postings)
+        still_used = {q['s'] for q in postings}
+        schools_used = {k: v for k, v in schools_used.items() if k in still_used}
+
     payload = {
         'generated': datetime.now().isoformat(timespec='seconds'),
         'scrape_dates': sorted({d for d in seen_on.values() if d}),
@@ -234,6 +306,7 @@ def main():
     with_start = sum(1 for p in postings if p['b'])
     with_deadline = sum(1 for p in postings if p['x'])
     asst = sum(1 for p in postings if 'Assistant_Professor' in p['p'])
+    print(f'  dropped {junk_titles} rows whose title is careers-site furniture, not a job')
     print(f'  Assistant Professor postings: {asst}')
     print(f'  with parsed start date: {with_start} ({100 * with_start / max(len(postings), 1):.0f}%)')
     print(f'  with parsed deadline:   {with_deadline} '
