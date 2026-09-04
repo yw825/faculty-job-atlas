@@ -327,6 +327,21 @@
   .hint{
     font-size:10px; color:var(--text-muted); margin-top:5px; line-height:1.45;
   }
+  .link-btn{
+    background:none;border:0;padding:0;cursor:pointer;color:var(--brass-bright);
+    font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:0.04em;
+    text-transform:uppercase;
+  }
+  #subject-list{
+    max-height:190px; overflow-y:auto; margin-top:6px; padding-right:4px;
+    border:1px solid var(--line); border-radius:3px; padding:6px 8px;
+  }
+  #subject-list .check-row{ margin:0 0 2px 0; }
+  #subject-list .subj-count{
+    float:right; font-family:'IBM Plex Mono',monospace; font-size:10px;
+    color:var(--text-muted);
+  }
+  #subject-list .check-row.is-zero{ opacity:.42; }
   .job-row-title{ font-size:13.5px; font-weight:500; color:var(--text-light); line-height:1.32; }
   .job-row-school{ font-family:'IBM Plex Mono',monospace; font-size:11px; color:var(--text-muted); margin-top:3px; }
   .job-row-kw{ font-size:11px; color:#8a6a2f; margin-top:4px; line-height:1.4; }
@@ -488,8 +503,13 @@
       </div>
       <div id="jobs-controls">
         <div>
-          <label class="field-label" for="job-subject">Subject area</label>
-          <input type="text" id="job-subject" placeholder="e.g. business analytics, statistics" autocomplete="off">
+          <div style="display:flex;align-items:baseline;justify-content:space-between;">
+            <span class="field-label" style="margin-bottom:0;">Subject area</span>
+            <button id="subject-clear" type="button" class="link-btn">clear</button>
+          </div>
+          <div id="subject-list"></div>
+          <label class="field-label" for="job-subject" style="margin-top:10px;">Or search any keyword</label>
+          <input type="text" id="job-subject" placeholder="e.g. supply chain, robotics" autocomplete="off">
           <div class="hint" id="job-subject-hint">Matched against the posting's department and its extracted keywords.</div>
           <label class="check-row" style="margin-top:6px;"><input type="checkbox" id="f-job-title"> Also match the posting title</label>
         </div>
@@ -1440,6 +1460,7 @@ clearBtn.addEventListener('click', function(){
   document.querySelectorAll('#job-term-block input').forEach(el => { el.checked = true; });
   if(jobsMode){
     jobSubjectInput.value = '';
+    document.querySelectorAll('.f-subject').forEach(el => { el.checked = false; });
     fJobTitle.checked = false;
     fJobAvailable.checked = true;
   }
@@ -1620,11 +1641,89 @@ function loadJobs(){
     });
 }
 
+
+/* Subject areas are a fixed vocabulary rather than free text so the same
+   field can be picked repeatedly and combined. Each entry carries the
+   phrasings postings actually use for it -- a posting says "Dept of
+   Econometrics" or lists "machine learning" as a keyword, never "Data
+   Science & AI" -- and matching stays on department_or_school +
+   area_key_words (plus the title when that switch is on), exactly as the
+   typed search does. Selecting several is an OR: show me anything in any
+   of these fields. */
+const SUBJECT_AREAS = [
+  ['Business Analytics',           'business analytics|data analytics|\\banalytics\\b|operations research|decision scienc'],
+  ['Data Science & AI',            'data scienc|artificial intelligence|machine learning|deep learning|data mining'],
+  ['Information Systems',          'information system|management information|information technolog|informatics'],
+  ['Statistics',                   'statistic|biostatistic|probabilit|econometric'],
+  ['Mathematics',                  'mathematic|applied math|pure math|algebra|geometry|topolog'],
+  ['Computer Science',             'computer scien|computing|software engineer|computer engineer|cyber ?security'],
+  ['Economics',                    'economic|econometr'],
+  ['Finance & Accounting',         'financ|accounting|actuarial|banking'],
+  ['Marketing',                    'marketing|consumer behav|advertis'],
+  ['Management & Strategy',        '\\bmanagement\\b|strategy|entrepreneur|organi[sz]ational behav|human resource'],
+  ['Engineering',                  'engineering|mechanical|electrical|civil engineer|chemical engineer|industrial engineer'],
+  ['Medicine & Health',            'medicin|health|nursing|clinical|pharmac|dentist|epidemiolog'],
+  ['Biology & Life Sciences',      'biolog|life scien|genetic|neuroscien|ecolog|biomedical|biochem'],
+  ['Physics & Chemistry',          'physic|chemistr|astronom|material scien'],
+  ['Psychology',                   'psycholog|cognitive scien'],
+  ['Education',                    'education|pedagog|teacher training|curriculum'],
+  ['Law & Politics',               '\\blaw\\b|legal|political scien|public policy|governance|international relations'],
+  ['Social Sciences',              'sociolog|anthropolog|social work|social scien|social policy|geograph'],
+  ['Humanities & Arts',            'humanit|history|philosoph|literatur|linguistic|languages|music|\\barts?\\b|design|theolog|religio'],
+  ['Environment & Sustainability', 'environment|sustainab|climate|energy|agricultur|marine|earth scien'],
+  ['Communication & Media',        'communicat|media|journalis|film'],
+  ['Architecture & Planning',      'architect|urban plan|built environment']
+].map(function(pair){ return { name: pair[0], re: new RegExp(pair[1], 'i') }; });
+
+const subjectListEl = document.getElementById('subject-list');
+const subjectClearBtn = document.getElementById('subject-clear');
+
+SUBJECT_AREAS.forEach(function(subj, i){
+  const label = document.createElement('label');
+  label.className = 'check-row';
+  label.dataset.subjectIndex = i;
+  label.innerHTML = '<input type="checkbox" class="f-subject" value="'+i+'"> '+subj.name+
+                    '<span class="subj-count" data-count-for="'+i+'"></span>';
+  subjectListEl.appendChild(label);
+});
+
+function selectedSubjects(){
+  return Array.from(document.querySelectorAll('.f-subject:checked'))
+              .map(el => SUBJECT_AREAS[parseInt(el.value, 10)]);
+}
+
+function subjectHaystack(j, withTitle){
+  return jobSearchText(j, withTitle);
+}
+
+/* Counts shown beside each subject are computed over everything else the
+   user has chosen but WITHOUT the subject selection itself, so they read as
+   "what I'd get if I ticked this" rather than collapsing to zero as soon as
+   one box is ticked. */
+function updateSubjectCounts(baseJobs, withTitle){
+  SUBJECT_AREAS.forEach(function(subj, i){
+    let n = 0;
+    for(const j of baseJobs){ if(subj.re.test(subjectHaystack(j, withTitle))) n++; }
+    const el = subjectListEl.querySelector('[data-count-for="'+i+'"]');
+    if(el) el.textContent = n ? n : '';
+    const row = subjectListEl.querySelector('[data-subject-index="'+i+'"]');
+    if(row) row.classList.toggle('is-zero', n === 0);
+  });
+}
+
+subjectClearBtn.addEventListener('click', function(){
+  document.querySelectorAll('.f-subject').forEach(el => { el.checked = false; });
+  if(jobsMode) applyJobFilters();
+});
+document.querySelectorAll('.f-subject').forEach(function(el){
+  el.addEventListener('change', function(){ if(jobsMode) applyJobFilters(); });
+});
+
 function selectedRanks(){
   return Array.from(document.querySelectorAll('.f-job-rank:checked')).map(el => el.value);
 }
 
-function jobsMatchingFilters(){
+function jobsMatchingFilters(ignoreSubjects){
   if(!JOBS) return [];
   const term = jobSubjectInput.value.trim().toLowerCase();
   const terms = term ? term.split(/[,\s]+/).filter(Boolean) : [];
@@ -1635,6 +1734,7 @@ function jobsMatchingFilters(){
   const onlyAvailable = fJobAvailable.checked;
   const withTitle = fJobTitle.checked;
   const nameTerm = searchInput.value.trim().toLowerCase();
+  const subjects = selectedSubjects();
   const wantFull = document.getElementById('f-term-full').checked;
   const wantPart = document.getElementById('f-term-part').checked;
 
@@ -1685,6 +1785,10 @@ function jobsMatchingFilters(){
     } else if(liveCenter){
       if(Math.abs(school.lat - liveCenter.lat) > liveHalfLat
          || angularLngDiff(school.lon, liveCenter.lng) > liveHalfLng) return false;
+    }
+    if(!ignoreSubjects && subjects.length){
+      const hay = jobSearchText(j, withTitle);
+      if(!subjects.some(sub => sub.re.test(hay))) return false;
     }
     if(terms.length){
       const hay = jobSearchText(j, withTitle);
@@ -1761,7 +1865,8 @@ function refreshResults(){
 
 function applyJobFilters(){
   if(!JOBS) return;
-  const jobs = jobsMatchingFilters();
+  const jobs = jobsMatchingFilters(false);
+  updateSubjectCounts(jobsMatchingFilters(true), fJobTitle.checked);
 
   // How honest the optional date filters can be, stated rather than implied.
   const withStart = jobs.filter(j => j.b).length;
