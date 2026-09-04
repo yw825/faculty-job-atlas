@@ -189,24 +189,68 @@ def _rank_values(text, enumerated=False):
     return values
 
 
+# "Candidates at all ranks are encouraged to apply", "open rank", "at all
+# levels" -- a posting that names no rank in its title because it is open to
+# every rank. Read as all three professorial ranks rather than as none, so
+# an Assistant Professor search actually finds it (confirmed live: Sabanci
+# University's "Full-Time Faculty Position in Business Analytics &
+# Information Systems" says exactly this, and was being filed as
+# Full_Professor only).
+_OPEN_RANK_RE = re.compile(
+    r'\b(?:at\s+)?(?:all|any)\s+(?:academic\s+)?(?:ranks?|levels?)\b|'
+    r'\bopen[- ]rank\b|\brank\s+(?:is\s+)?(?:open|commensurate|will\s+be\s+commensurate)\b',
+    re.I)
+
+
 def classify_position_type(title, description=''):
     """Returns a list of POSITION_TYPE_VALUES entries (possibly more than
     one, e.g. a posting spanning "Assistant or Associate Professor"), or
     ['Unclassified'] if nothing matched.
 
-    RANK COMES FROM THE TITLE when the title names one. Matching rank words
-    anywhere in title+description together was badly over-assigning
-    Full_Professor, because almost every academic description says the word
-    "professor" somewhere -- "Lecturer in Business Analytics" was coming
-    back as Full_Professor AND Lecturer (confirmed live). The description is
-    only consulted when the title names no rank at all."""
+    RANK COMES FROM THE TITLE whenever the title names one -- any one,
+    professorial or not. Matching rank words across title+description
+    together was badly over-assigning Full_Professor, because a description
+    says "professor" for all sorts of reasons that aren't the rank on offer:
+    "Lecturer in Business Analytics" came back as Full_Professor AND
+    Lecturer, and Sabanci University's posting was filed as Full_Professor
+    on the strength of "send your documents to Professor Nihat Kasap", a
+    contact name (both confirmed live).
+
+    The description is consulted only when the title names no rank at all,
+    and even then a lone bare "professor" in it is NOT treated as evidence
+    of a full professorship, for the same contact-name reason -- an explicit
+    rank phrase or an open-rank statement is required."""
     title_ranks = _rank_values(title, enumerated=True)
+    title_lecturer = bool(_LECTURER_RE.search(title))
+    title_fellow = bool(_RESEARCH_FELLOW_RE.search(title))
+    title_names_rank = bool(title_ranks) or title_lecturer or title_fellow
+
     text = f'{title} {description}'
-    values = list(title_ranks) if title_ranks else _rank_values(text)
-    if _LECTURER_RE.search(title if title_ranks or _LECTURER_RE.search(title) else text):
-        values.append('Lecturer')
-    if _RESEARCH_FELLOW_RE.search(text):
-        values.append('Research_Fellow')
+    values = []
+    if title_names_rank:
+        values += title_ranks
+        if title_lecturer:
+            values.append('Lecturer')
+        if title_fellow:
+            values.append('Research_Fellow')
+    else:
+        if _OPEN_RANK_RE.search(text):
+            values += ['Assistant_Professor', 'Associate_Professor', 'Full_Professor']
+        else:
+            # explicit two-word ranks only -- a bare "professor" here is as
+            # likely to be a contact name as the job's rank
+            if _BOTH_AP_RE.search(text):
+                values += ['Assistant_Professor', 'Associate_Professor']
+            else:
+                if _ASSISTANT_PROF_RE.search(text):
+                    values.append('Assistant_Professor')
+                if _ASSOCIATE_PROF_RE.search(text):
+                    values.append('Associate_Professor')
+        if _LECTURER_RE.search(text):
+            values.append('Lecturer')
+        if _RESEARCH_FELLOW_RE.search(text):
+            values.append('Research_Fellow')
+
     if not values and _NON_ACADEMIC_RE.search(text):
         values.append('Non-academic')
     seen, out = set(), []
