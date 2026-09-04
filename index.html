@@ -342,6 +342,11 @@
     color:var(--text-muted);
   }
   #subject-list .check-row.is-zero{ opacity:.42; }
+  #job-rank-block .check-row.is-zero{ opacity:.42; }
+  #job-rank-block .subj-count{
+    float:right; font-family:'IBM Plex Mono',monospace; font-size:10px;
+    color:var(--text-muted);
+  }
   .job-row-title{ font-size:13.5px; font-weight:500; color:var(--text-light); line-height:1.32; }
   .job-row-school{ font-family:'IBM Plex Mono',monospace; font-size:11px; color:var(--text-muted); margin-top:3px; }
   .job-row-kw{ font-size:11px; color:#8a6a2f; margin-top:4px; line-height:1.4; }
@@ -515,11 +520,11 @@
         </div>
         <div class="check-group" id="job-rank-block">
           <span class="field-label" style="margin-bottom:0;">Rank</span>
-          <label class="check-row"><input type="checkbox" class="f-job-rank" value="Assistant_Professor" checked> Assistant Professor</label>
-          <label class="check-row"><input type="checkbox" class="f-job-rank" value="Associate_Professor"> Associate Professor</label>
-          <label class="check-row"><input type="checkbox" class="f-job-rank" value="Full_Professor"> Full Professor</label>
-          <label class="check-row"><input type="checkbox" class="f-job-rank" value="Lecturer"> Lecturer / Teaching</label>
-          <label class="check-row"><input type="checkbox" class="f-job-rank" value="Research_Fellow"> Research Fellow / Postdoc</label>
+          <label class="check-row" data-rank-row="Assistant_Professor"><input type="checkbox" class="f-job-rank" value="Assistant_Professor" checked> Assistant Professor<span class="subj-count" data-rank-count="Assistant_Professor"></span></label>
+          <label class="check-row" data-rank-row="Associate_Professor"><input type="checkbox" class="f-job-rank" value="Associate_Professor"> Associate Professor<span class="subj-count" data-rank-count="Associate_Professor"></span></label>
+          <label class="check-row" data-rank-row="Full_Professor"><input type="checkbox" class="f-job-rank" value="Full_Professor"> Full Professor<span class="subj-count" data-rank-count="Full_Professor"></span></label>
+          <label class="check-row" data-rank-row="Lecturer"><input type="checkbox" class="f-job-rank" value="Lecturer"> Lecturer / Teaching<span class="subj-count" data-rank-count="Lecturer"></span></label>
+          <label class="check-row" data-rank-row="Research_Fellow"><input type="checkbox" class="f-job-rank" value="Research_Fellow"> Research Fellow / Postdoc<span class="subj-count" data-rank-count="Research_Fellow"></span></label>
         </div>
         <div class="check-group" id="job-term-block">
           <span class="field-label" style="margin-bottom:0;">Job term</span>
@@ -1696,6 +1701,22 @@ function subjectHaystack(j, withTitle){
   return jobSearchText(j, withTitle);
 }
 
+/* Same idea for rank: without a count beside each one, a rank filter
+   silently hides matches with no hint they exist -- a Business Analytics
+   search showed 5 Assistant Professor posts and gave no sign that Aston's
+   "Lecturer in Business Analytics" was sitting behind the unticked Lecturer
+   box. */
+function updateRankCounts(baseJobs){
+  document.querySelectorAll('[data-rank-count]').forEach(function(el){
+    const rank = el.getAttribute('data-rank-count');
+    let n = 0;
+    for(const j of baseJobs){ if((j.p || []).indexOf(rank) !== -1) n++; }
+    el.textContent = n ? n : '';
+    const row = document.querySelector('[data-rank-row="'+rank+'"]');
+    if(row) row.classList.toggle('is-zero', n === 0);
+  });
+}
+
 /* Counts shown beside each subject are computed over everything else the
    user has chosen but WITHOUT the subject selection itself, so they read as
    "what I'd get if I ticked this" rather than collapsing to zero as soon as
@@ -1723,7 +1744,7 @@ function selectedRanks(){
   return Array.from(document.querySelectorAll('.f-job-rank:checked')).map(el => el.value);
 }
 
-function jobsMatchingFilters(ignoreSubjects){
+function jobsMatchingFilters(ignoreSubjects, ignoreRanks){
   if(!JOBS) return [];
   const term = jobSubjectInput.value.trim().toLowerCase();
   const terms = term ? term.split(/[,\s]+/).filter(Boolean) : [];
@@ -1759,7 +1780,7 @@ function jobsMatchingFilters(ignoreSubjects){
       if(school.region !== regionKey) return false;
       if(regionKey === 'asia' && subKey !== 'all' && school.sub !== subKey) return false;
     }
-    if(ranks.length && !(j.p || []).some(t => ranks.indexOf(t) !== -1)) return false;
+    if(!ignoreRanks && ranks.length && !(j.p || []).some(t => ranks.indexOf(t) !== -1)) return false;
     if(!(wantFull && wantPart)){
       const isPart = j.j === 'Part-time';
       if(isPart && !wantPart) return false;
@@ -1865,8 +1886,9 @@ function refreshResults(){
 
 function applyJobFilters(){
   if(!JOBS) return;
-  const jobs = jobsMatchingFilters(false);
-  updateSubjectCounts(jobsMatchingFilters(true), fJobTitle.checked);
+  const jobs = jobsMatchingFilters(false, false);
+  updateSubjectCounts(jobsMatchingFilters(true, false), fJobTitle.checked);
+  updateRankCounts(jobsMatchingFilters(false, true));
 
   // How honest the optional date filters can be, stated rather than implied.
   const withStart = jobs.filter(j => j.b).length;
