@@ -31,6 +31,7 @@ school_id_1592_job_info.checkpoint next to this script -- kill-and-resume,
 per-posting granularity.
 """
 import os
+import re
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -48,7 +49,39 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint
 
 
 def fetch_detail(url):
-    return jinfo.fetch_detail_generic(url)
+    """CUSTOMIZED (confirmed live): HRSmart gives every posting page the
+    same generic <h1> "Job Details" and the same <title> "Current
+    Opportunities: Thompson Rivers University", so the generic picker
+    recorded "Job Details" as the title for all 182 postings. The real
+    title is the <h2> ("Sessional - Faculty (AUTO 1500, 1900, 2000) -
+    (02050.11976)"). Body text comes from <main>, which excludes the site
+    chrome around it.
+    """
+    from bs4 import BeautifulSoup
+
+    html = jinfo.fetch_rendered(url, wait_ms=4000)
+    if jinfo.is_fetch_failure(html):
+        raise RuntimeError(html)
+    soup = BeautifulSoup(html, 'html.parser')
+
+    text = soup.get_text(' ', strip=True)
+    # 44 of the 182 postings are internal-only and render a login wall
+    # instead of the job ("Error: Login is required to see these job
+    # details."). Raising here records them as errors, which keeps them OUT
+    # of the CSV entirely -- previously they became rows with a blank title,
+    # which is worse than not listing them: they aren't postings anyone
+    # outside TRU can read or apply to.
+    if 'Login is required to see these job details' in text:
+        raise RuntimeError('internal-only posting: login required')
+
+    h2 = soup.find('h2')
+    title = h2.get_text(' ', strip=True) if h2 else ''
+
+    parts = [e.get_text(' ', strip=True) for e in soup.select('main, form')]  # noqa: E501
+    description = max(parts, key=len, default='') if parts else ''
+    extra = ' '.join(p for p in parts if p and p != description)
+    description = (description + ' ' + extra).strip() or soup.get_text(' ', strip=True)
+    return title, description
 
 
 def main():

@@ -130,12 +130,46 @@ _NON_ACADEMIC_RE = re.compile(
     r'coordinator|manager|analyst|specialist|librarian|clerk)\b', re.I)
 
 
-def classify_position_type(title, description=''):
-    """Returns a list of POSITION_TYPE_VALUES entries (possibly more than
-    one, e.g. a posting spanning "Assistant or Associate Professor"), or
-    ['Unclassified'] if nothing matched."""
-    text = f'{title} {description}'
+# An enumerated rank list -- "Marketing Professor (Assistant, Associate, or
+# Full)", "Professor (Assistant/Associate)" -- names every rank the post is
+# open to, but reads as none of the two-word forms above.
+_RANK_LIST_RE = re.compile(
+    r'professor\s*\(([^)]*\b(?:assistant|associate|full)\b[^)]*)\)|'
+    r'\b((?:assistant|associate|full)(?:\s*[,/]\s*|\s+or\s+)'
+    r'(?:assistant|associate|full)(?:(?:\s*[,/]\s*|\s+or\s+)(?:assistant|associate|full))?)'
+    r'\s+professor', re.I)
+
+
+def _rank_values(text, enumerated=False):
+    """Rank names found in one piece of text, or [] for none.
+
+    `enumerated` enables the "a leftover bare Professor is its own rank"
+    rule. That rule is only meaningful for a TITLE, where every word is
+    part of the job's name. Applied to a description it fires on any
+    passing mention of a professor and wrongly marks the post as open to
+    full professors (it inflated Full_Professor from 522 to 913 across the
+    dataset before being restricted here)."""
     values = []
+    m = _RANK_LIST_RE.search(text)
+    if m:
+        listed = (m.group(1) or m.group(2) or '').lower()
+        if 'assistant' in listed:
+            values.append('Assistant_Professor')
+        if 'associate' in listed:
+            values.append('Associate_Professor')
+        if 'full' in listed:
+            values.append('Full_Professor')
+        # A bare "Professor" standing alongside the junior ranks is its own
+        # rank, not a leftover word: "Chair Professor/Professor/Associate
+        # Professor/Assistant Professor" (the standard Hong Kong phrasing)
+        # is open to full professors too.
+        if enumerated:
+            residue = re.sub(r'\b(?:assistant|associate|full)\s+professors?\b', ' ', text,
+                             flags=re.I)
+            if values and _PROFESSOR_RE.search(residue) and 'Full_Professor' not in values:
+                values.append('Full_Professor')
+        if values:
+            return values
     if _BOTH_AP_RE.search(text):
         values += ['Assistant_Professor', 'Associate_Professor']
     else:
@@ -143,9 +177,33 @@ def classify_position_type(title, description=''):
             values.append('Assistant_Professor')
         if _ASSOCIATE_PROF_RE.search(text):
             values.append('Associate_Professor')
-        if not values and _PROFESSOR_RE.search(text):
+    if not values:
+        return ['Full_Professor'] if _PROFESSOR_RE.search(text) else []
+    # Same reasoning as in the enumerated case above: once the junior ranks
+    # are accounted for, a "Professor" still left over is a rank of its own
+    # ("Chair Professor/Professor/Associate Professor/Assistant Professor").
+    if enumerated:
+        residue = re.sub(r'\b(?:assistant|associate|full)\s+professors?\b', ' ', text, flags=re.I)
+        if _PROFESSOR_RE.search(residue) and 'Full_Professor' not in values:
             values.append('Full_Professor')
-    if _LECTURER_RE.search(text):
+    return values
+
+
+def classify_position_type(title, description=''):
+    """Returns a list of POSITION_TYPE_VALUES entries (possibly more than
+    one, e.g. a posting spanning "Assistant or Associate Professor"), or
+    ['Unclassified'] if nothing matched.
+
+    RANK COMES FROM THE TITLE when the title names one. Matching rank words
+    anywhere in title+description together was badly over-assigning
+    Full_Professor, because almost every academic description says the word
+    "professor" somewhere -- "Lecturer in Business Analytics" was coming
+    back as Full_Professor AND Lecturer (confirmed live). The description is
+    only consulted when the title names no rank at all."""
+    title_ranks = _rank_values(title, enumerated=True)
+    text = f'{title} {description}'
+    values = list(title_ranks) if title_ranks else _rank_values(text)
+    if _LECTURER_RE.search(title if title_ranks or _LECTURER_RE.search(title) else text):
         values.append('Lecturer')
     if _RESEARCH_FELLOW_RE.search(text):
         values.append('Research_Fellow')

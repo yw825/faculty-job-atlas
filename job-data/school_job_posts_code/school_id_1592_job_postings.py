@@ -36,13 +36,36 @@ ATS_PLATFORM = 'HRSmart'
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
+# A real HRSmart posting is /hr/ats/Posting/view/<id>. The generic
+# job-shaped filter also matched the site's own search machinery -- the
+# quick/advanced search forms, "view all", "create account", the pagination
+# links, and 25 "find similar jobs" lens.php links -- which then appeared as
+# 42 postings with a blank title (confirmed live).
+POSTING_RE = re.compile(r'/hr/ats/Posting/view/\d+')
+
+
+PAGE_URL = ('https://tru.hua.hrsmart.com/hr/ats/JobSearch/search/'
+            'jobSearchPaginationExternal_page:{page}')
+
+
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                              href_pattern=lib.COMMON_JOB_URL_HINTS,
-                              text_pattern=lib.COMMON_JOB_URL_HINTS)
+    # 25 postings per page and no "show all" (viewAll returns the same 25),
+    # so the pages have to be walked; 139 postings over 6 pages confirmed
+    # live. Stops as soon as a page adds nothing new.
+    links, seen = [], set()
+    for page in range(1, 30):
+        html = lib.fetch_rendered(PAGE_URL.format(page=page), wait_ms=3500)
+        if lib.is_fetch_failure(html):
+            if page == 1:
+                raise RuntimeError(html)
+            break
+        new = [u for u in lib.extract_links(html, CAREERS_LINK, href_pattern=POSTING_RE)
+               if u not in seen]
+        if not new:
+            break
+        seen.update(new)
+        links.extend(new)
+    return links
 
 
 def main():

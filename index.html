@@ -317,6 +317,19 @@
     border-radius:2px;
     padding:1px 5px;
   }
+  #mode-switch{ display:flex; gap:0; margin-bottom:14px; border:1px solid var(--line); border-radius:3px; overflow:hidden; }
+  .mode-btn{
+    flex:1; padding:7px 4px; cursor:pointer; background:transparent; border:0;
+    font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:0.06em;
+    text-transform:uppercase; color:var(--text-muted);
+  }
+  .mode-btn.active{ background:var(--brass); color:#fff; }
+  .hint{
+    font-size:10px; color:var(--text-muted); margin-top:5px; line-height:1.45;
+  }
+  .job-row-title{ font-size:13.5px; font-weight:500; color:var(--text-light); line-height:1.32; }
+  .job-row-school{ font-family:'IBM Plex Mono',monospace; font-size:11px; color:var(--text-muted); margin-top:3px; }
+  .job-row-kw{ font-size:11px; color:#8a6a2f; margin-top:4px; line-height:1.4; }
   #map{ width:100%; height:100%; background:var(--ink); }
 
   .leaflet-popup-content-wrapper{
@@ -469,6 +482,32 @@
       <h1>Faculty Job Atlas</h1>
     </div>
     <div id="controls">
+      <div id="mode-switch">
+        <button id="mode-schools" class="mode-btn active" type="button">Schools</button>
+        <button id="mode-jobs" class="mode-btn" type="button">Open positions</button>
+      </div>
+      <div id="jobs-controls" style="display:none;">
+        <div>
+          <label class="field-label" for="job-subject">Subject area</label>
+          <input type="text" id="job-subject" placeholder="e.g. business analytics, statistics" autocomplete="off">
+          <div class="hint" id="job-subject-hint">Matched against the posting's department and its extracted keywords.</div>
+          <label class="check-row" style="margin-top:6px;"><input type="checkbox" id="f-job-title"> Also match the posting title</label>
+        </div>
+        <div class="check-group" id="job-rank-block">
+          <span class="field-label" style="margin-bottom:0;">Rank</span>
+          <label class="check-row"><input type="checkbox" class="f-job-rank" value="Assistant_Professor" checked> Assistant Professor</label>
+          <label class="check-row"><input type="checkbox" class="f-job-rank" value="Associate_Professor"> Associate Professor</label>
+          <label class="check-row"><input type="checkbox" class="f-job-rank" value="Full_Professor"> Full Professor</label>
+          <label class="check-row"><input type="checkbox" class="f-job-rank" value="Lecturer"> Lecturer / Teaching</label>
+          <label class="check-row"><input type="checkbox" class="f-job-rank" value="Research_Fellow"> Research Fellow / Postdoc</label>
+        </div>
+        <div class="check-group">
+          <span class="field-label" style="margin-bottom:0;">Availability</span>
+          <label class="check-row"><input type="checkbox" id="f-job-available" checked> Available now</label>
+          <div class="hint" id="job-date-hint"></div>
+        </div>
+        <hr class="panel-divider">
+      </div>
       <div class="check-group" id="position-type-block">
         <span class="field-label" style="margin-bottom:0;">Position type</span>
         <label class="check-row"><input type="checkbox" id="f-pos-tt" checked> Tenure-track Assistant Professor</label>
@@ -1473,6 +1512,13 @@ function currentRegionKey(){
 }
 
 function applyRegion(){
+  // Region and Area are shared by both modes; in jobs mode they re-filter
+  // postings rather than swapping the institution set.
+  if(jobsMode){
+    asiaSubblock.style.display = (regionSelect.value === 'asia') ? 'block' : 'none';
+    applyJobFilters();
+    return;
+  }
   const key = currentRegionKey();
   activeRegionKey = key;
   const region = REGIONS[key];
@@ -1517,6 +1563,237 @@ function applyRegion(){
     programmaticSetView(region.center, region.zoom, { animate:true });
   }
 }
+
+
+/* ------------------------------------------------------------------
+   Open-positions mode: the same map, showing scraped job postings
+   instead of institutions.
+
+   On "available now": no source we scrape publishes a post date in any
+   consistent place, so there is no post-date field to filter on, and
+   position_start_date is stated on only a small minority of postings.
+   What IS certain is that every posting here was read off a live careers
+   page on its school's scrape date -- so presence in the data IS the
+   availability signal, and start date / deadline are offered as optional
+   refinements that say plainly how many postings they can judge.
+------------------------------------------------------------------- */
+let JOBS = null;            // {schools:{sid:{...}}, postings:[...]}
+var jobsMode = false;
+let jobsLoading = false;
+let jobMarkerIndex = [];    // [{sid, marker, jobs:[...]}] for the current filter
+
+const modeSchoolsBtn = document.getElementById('mode-schools');
+const modeJobsBtn = document.getElementById('mode-jobs');
+const jobsControls = document.getElementById('jobs-controls');
+const jobSubjectInput = document.getElementById('job-subject');
+const jobDateHint = document.getElementById('job-date-hint');
+const fJobAvailable = document.getElementById('f-job-available');
+const fJobTitle = document.getElementById('f-job-title');
+
+/* Subject match runs over department_or_school + area_key_words, per the
+   rule set for this project. The posting title is opt-in rather than
+   always-on: it does find more (across Assistant Professor postings it adds
+   roughly a third again on typical subject queries, and 176 of 746 have
+   neither a department nor keywords, so they can ONLY be found by title) --
+   but it also matches words that are part of the job's name rather than its
+   field, so it is offered as a switch instead of being assumed. */
+function jobSearchText(j, withTitle){
+  if(withTitle){
+    if(j._st === undefined) j._st = [j.t, j.d, j.k].filter(Boolean).join(' | ').toLowerCase();
+    return j._st;
+  }
+  if(j._s === undefined) j._s = [j.d, j.k].filter(Boolean).join(' | ').toLowerCase();
+  return j._s;
+}
+
+function jobRankLabel(types){
+  const map = {
+    Assistant_Professor:'Assistant Prof', Associate_Professor:'Associate Prof',
+    Full_Professor:'Professor', Lecturer:'Lecturer', Research_Fellow:'Research Fellow',
+    'Non-academic':'Non-academic', Unclassified:'Unclassified'
+  };
+  return (types||[]).map(t => map[t] || t);
+}
+
+function loadJobs(){
+  if(JOBS || jobsLoading) return Promise.resolve(JOBS);
+  jobsLoading = true;
+  countEl.textContent = 'loading postings...';
+  return fetch('postings.json')
+    .then(r => { if(!r.ok) throw new Error('HTTP '+r.status); return r.json(); })
+    .then(data => { JOBS = data; jobsLoading = false; return data; })
+    .catch(err => {
+      jobsLoading = false;
+      countEl.textContent = 'could not load postings';
+      listEl.innerHTML = '<div style="padding:14px;color:var(--text-muted);font-size:12px;line-height:1.5;">'+
+        'postings.json failed to load ('+err.message+'). If you opened this file directly from disk, '+
+        'a browser will block the fetch — serve the folder instead (python3 -m http.server) or use the published site.</div>';
+      return null;
+    });
+}
+
+function selectedRanks(){
+  return Array.from(document.querySelectorAll('.f-job-rank:checked')).map(el => el.value);
+}
+
+function jobsMatchingFilters(){
+  if(!JOBS) return [];
+  const term = jobSubjectInput.value.trim().toLowerCase();
+  const terms = term ? term.split(/[,\s]+/).filter(Boolean) : [];
+  const ranks = selectedRanks();
+  const regionKey = regionSelect.value;
+  const subKey = asiaSelect ? asiaSelect.value : 'all';
+  const todayIso = new Date().toISOString().slice(0,10);
+  const onlyAvailable = fJobAvailable.checked;
+  const withTitle = fJobTitle.checked;
+
+  return JOBS.postings.filter(function(j){
+    const school = JOBS.schools[j.s];
+    if(!school) return false;
+    if(regionKey !== 'all'){
+      if(school.region !== regionKey) return false;
+      if(regionKey === 'asia' && subKey !== 'all' && school.sub !== subKey) return false;
+    }
+    if(ranks.length && !(j.p || []).some(t => ranks.indexOf(t) !== -1)) return false;
+    if(terms.length){
+      const hay = jobSearchText(j, withTitle);
+      if(!terms.every(t => hay.indexOf(t) !== -1)) return false;
+    }
+    // "Available now" judges only on dates the posting actually states: a
+    // closing date already past means gone, and a start date already past
+    // means the posting is stale. A posting that states neither is KEPT --
+    // silence is not evidence that a job has closed, and most postings are
+    // silent (only a minority give either date).
+    if(onlyAvailable){
+      if(j.x && j.x < todayIso) return false;
+      if(j.b && j.b < todayIso) return false;
+    }
+    return true;
+  });
+}
+
+function renderJobList(jobs){
+  listEl.innerHTML = '';
+  const n = jobs.length;
+  countEl.textContent = n.toLocaleString() + (n === 1 ? ' position' : ' positions');
+  if(n === 0){
+    emptyEl.style.display = 'block';
+    emptyEl.textContent = 'No open positions match your filters.';
+    return;
+  }
+  emptyEl.style.display = 'none';
+  const frag = document.createDocumentFragment();
+  const cap = 300;
+  jobs.slice(0, cap).forEach(function(j){
+    const school = JOBS.schools[j.s] || {};
+    const row = document.createElement('div');
+    row.className = 'row';
+    const tags = jobRankLabel(j.p).map(t => '<span class="mini-tag">'+t+'</span>').join('');
+    const where = [school.city, school.country].filter(Boolean).join(', ');
+    const dates = [];
+    if(j.b) dates.push('starts '+j.b);
+    if(j.x) dates.push('closes '+j.x);
+    row.innerHTML =
+      '<div class="job-row-title">'+escapeHtml(j.t)+'</div>'+
+      '<div class="job-row-school">'+escapeHtml(school.name||'')+(where ? ' · '+escapeHtml(where) : '')+'</div>'+
+      (j.d ? '<div class="job-row-school">'+escapeHtml(j.d)+'</div>' : '')+
+      (j.k ? '<div class="job-row-kw">'+escapeHtml(j.k)+'</div>' : '')+
+      (dates.length ? '<div class="row-loc">'+dates.join(' · ')+'</div>' : '')+
+      '<div class="row-tags">'+tags+'</div>'+
+      (j.u ? '<div class="row-links"><a class="pop-link" href="'+escapeHtml(j.u)+'" target="_blank" rel="noopener">View posting ↗</a></div>' : '');
+    row.addEventListener('click', function(e){
+      if(e.target.closest('a')) return;
+      if(school.lat != null) programmaticSetView([school.lat, school.lon], 11, { animate:true });
+    });
+    frag.appendChild(row);
+  });
+  listEl.appendChild(frag);
+  if(n > cap){
+    const more = document.createElement('div');
+    more.style.cssText = 'padding:12px;text-align:center;color:var(--text-muted);font-family:IBM Plex Mono,monospace;font-size:11px;';
+    more.textContent = '+ '+(n-cap)+' more on the map — narrow the subject to list them';
+    listEl.appendChild(more);
+  }
+}
+
+function escapeHtml(str){
+  return String(str).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+
+function applyJobFilters(){
+  if(!JOBS) return;
+  const jobs = jobsMatchingFilters();
+
+  // How honest the optional date filters can be, stated rather than implied.
+  const withStart = jobs.filter(j => j.b).length;
+  const withDeadline = jobs.filter(j => j.x).length;
+  const dated = jobs.filter(j => j.b || j.x).length;
+  jobDateHint.textContent = jobs.length
+    ? 'Drops postings whose closing date has passed, or whose start date has. '+
+      dated+' of '+jobs.length+' shown state either date ('+withDeadline+' a closing date, '+
+      withStart+' a start date); the rest state neither and are kept.'
+    : '';
+
+  const bySchool = new Map();
+  jobs.forEach(function(j){
+    if(!bySchool.has(j.s)) bySchool.set(j.s, []);
+    bySchool.get(j.s).push(j);
+  });
+
+  clusterGroup.clearLayers();
+  jobMarkerIndex = [];
+  bySchool.forEach(function(list, sid){
+    const school = JOBS.schools[sid];
+    if(!school || school.lat == null) return;
+    const marker = L.marker([school.lat, school.lon], { icon: pinIcon(school) });
+    const top = list.slice(0, 8).map(j =>
+      '<div style="margin:6px 0;">'+
+        (j.u ? '<a class="pop-link" href="'+escapeHtml(j.u)+'" target="_blank" rel="noopener">'+escapeHtml(j.t)+'</a>'
+             : escapeHtml(j.t))+
+      '</div>').join('');
+    marker.bindPopup(
+      '<div class="pop-name">'+escapeHtml(school.name||'')+'</div>'+
+      '<div class="pop-loc">'+list.length+(list.length===1?' matching position':' matching positions')+'</div>'+
+      top + (list.length > 8 ? '<div class="pop-loc">+ '+(list.length-8)+' more</div>' : ''),
+      { maxWidth: 320 });
+    clusterGroup.addLayer(marker);
+    jobMarkerIndex.push({ sid: sid, marker: marker, jobs: list });
+  });
+
+  renderJobList(jobs);
+}
+
+function setMode(toJobs){
+  jobsMode = toJobs;
+  modeJobsBtn.classList.toggle('active', toJobs);
+  modeSchoolsBtn.classList.toggle('active', !toJobs);
+  jobsControls.style.display = toJobs ? 'block' : 'none';
+  // School-only controls make no claim about postings, so they're hidden
+  // rather than left visible and inert.
+  ['position-type-block','job-term-block','subject-area-block','radius-block'].forEach(function(id){
+    const el = document.getElementById(id);
+    if(el) el.style.display = toJobs ? 'none' : '';
+  });
+  const searchBlock = document.getElementById('search');
+  if(searchBlock && searchBlock.parentElement) searchBlock.parentElement.style.display = toJobs ? 'none' : '';
+
+  if(toJobs){
+    loadJobs().then(function(data){ if(data) applyJobFilters(); });
+  } else {
+    emptyEl.textContent = 'No institutions match your filters.';
+    applyRegion();
+  }
+}
+
+modeJobsBtn.addEventListener('click', function(){ if(!jobsMode) setMode(true); });
+modeSchoolsBtn.addEventListener('click', function(){ if(jobsMode) setMode(false); });
+jobSubjectInput.addEventListener('input', function(){ if(jobsMode) applyJobFilters(); });
+document.querySelectorAll('.f-job-rank').forEach(function(el){
+  el.addEventListener('change', function(){ if(jobsMode) applyJobFilters(); });
+});
+[fJobAvailable, fJobTitle].forEach(function(el){
+  el.addEventListener('change', function(){ if(jobsMode) applyJobFilters(); });
+});
 
 regionSelect.addEventListener('change', applyRegion);
 asiaSelect.addEventListener('change', applyRegion);
