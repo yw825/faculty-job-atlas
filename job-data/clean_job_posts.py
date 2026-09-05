@@ -153,8 +153,12 @@ def clean_school(path_csv, careers_root=None):
     with open(path_csv, encoding='utf-8') as f:
         rows = list(csv.DictReader(f))
     urls = [r['post_link'] for r in rows]
-    if len(urls) < 3:
-        return rows, []          # too few to infer a shape from; leave alone
+    # A file too small to infer a posting SHAPE from still gets the rules
+    # that need no inference -- a site root or the careers link itself is
+    # furniture whether it sits among 2 rows or 200. Skipping those files
+    # entirely left obvious junk in place (Arizona State's two rows were
+    # facultypositions.asu.edu/ and asu.edu/asujobs, neither a posting).
+    small = len(urls) < 3
 
     paths = {u: urlsplit(u).path.rstrip('/') or '/' for u in urls}
     path_list = list(paths.values())
@@ -163,7 +167,7 @@ def clean_school(path_csv, careers_root=None):
     prefix_counts = Counter(tuple([s for s in p.split('/') if s][:-1]) for p in path_list)
     dominant_prefix, dominant_n = (prefix_counts.most_common(1) or [((), 0)])[0]
     dominant_is_majority = dominant_n >= max(3, 0.5 * len(path_list))
-    if dominant_n < 3:
+    if dominant_n < 3 or small:
         dominant_prefix = None
         dominant_is_majority = False
 

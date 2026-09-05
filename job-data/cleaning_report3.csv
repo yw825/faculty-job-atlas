@@ -1,0 +1,45 @@
+school_id,dropped_url,reason
+1146,https://delval.edu/careers-delval,the careers link itself
+1152,https://www.mercyhurst.edu/human-resources/jobs,the careers link itself
+1156,https://www.setonhill.edu/success-after-seton-hill/your-career-team.html,the careers link itself
+1168,https://www.keystone.edu/jobs_at_keystone/,the careers link itself
+1249,https://www.uprh.edu/empleos/,the careers link itself
+1273,https://www.usca.edu/departments/human-resources/employment/,section page (/employment)
+1297,https://www.coker.edu/offices-services/careers/,section page (/careers)
+1298,https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=CBB2694288FE9606215883F78F64E0A2,section page (/jobs)
+1307,https://yourfuture.sdbor.edu/postings/search?utf8=%E2%9C%93&query=&query_v0_posted_at_date=&435=&query_organizational_tier_1_id%5B%5D=1254&225=&commit=Search,section page (/search)
+1462,https://www.averett.edu/about-us/employment-opportunities/,the careers link itself
+1477,https://www.randolphcollege.edu/humanresources/job-openings/,the careers link itself
+1542,__NEEDS_SCRAPER_FIX__,"would drop 9 of 10 rows -- scraper is collecting listing pages, not postings"
+154,https://www.humphreys.edu/career-opportunities/,the careers link itself
+1588,https://www.burmanu.ca/careers,the careers link itself
+159,https://www.whittier.edu/careers,section page (/careers)
+1657,__NEEDS_SCRAPER_FIX__,"would drop 11 of 12 rows -- scraper is collecting listing pages, not postings"
+1681,https://sciencespo-career.talent-soft.com/my-account/log-in.aspx?titletype=dashboard,action page (/log-in.aspx)
+1708,__NEEDS_SCRAPER_FIX__,"would drop 127 of 128 rows -- scraper is collecting listing pages, not postings"
+1890,__NEEDS_SCRAPER_FIX__,"would drop 55 of 56 rows -- scraper is collecting listing pages, not postings"
+271,https://www.gsw.edu/human-resources/careers,the careers link itself
+314,https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcareers.hprod.onehcm.usg.edu%2Fpsc%2Fcareers%2FCAREERS%2FHRMS%2Fc%2FHRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL%3FFOCUS%3DApplicant%26SiteId%3D57000&data=04%7C01%7Ckjones%40abac.edu%7C133f52d69f45442fb36f08d8c300d693%7C56c9143594114ebda73c604ed67ee5a3%7C0%7C0%7C637473755651243925%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=LDcrLoZEu6J2zoWtLV6f1q6cKy1ueGF%2FAfbQ802j8%2Fw%3D&reserved=0,site root
+354,https://www.morningside.edu/about/employment,section page (/employment)
+375,https://www.iit.edu/hr/careers,section page (/careers)
+378,https://jobs.workable.com/?utm_campaign=careers_page&utm_content=careers_page&utm_medium=feature&utm_source=careers_page,site root
+389,https://jobs.workable.com/?utm_campaign=careers_page&utm_content=careers_page&utm_medium=feature&utm_source=careers_page,site root
+406,https://www.quincy.edu/about/work-at-qu/job-openings/,the careers link itself
+463,https://tabor.edu/jobs/,section page (/jobs)
+470,https://my.mcpherson.edu/ICS/Employment/Employment_Landing_Page.jnz?portlet=Employment_Position_Application,the careers link itself
+580,https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=6E871BCB0EFD76A7A4C5061C331B232C&session_nonce=99628006ce5cf622dbe16655e0dbc343,section page (/jobs)
+617,https://www.maine.edu/careers/,the careers link itself
+62,https://facultypositions.asu.edu/,site root
+63,https://facultypositions.asu.edu/,site root
+661,https://springarbor.edu/about/offices-and-schools/human-resources/careers.php,the careers link itself
+772,__NEEDS_SCRAPER_FIX__,"would drop 11 of 12 rows -- scraper is collecting listing pages, not postings"
+787,https://www.methodist.edu/offices-services/human-resources/,the careers link itself
+823,https://www.ndsu.edu/employment,the careers link itself
+827,https://www.minotstateu.edu/hr/jobs/,section page (/jobs)
+834,https://unknews.unk.edu/2026/08/25/vail-ziolkowski-beissel-heath-selected-for-endowed-faculty-positions-at-unk/,the careers link itself
+852,https://cps.unh.edu/online/why-unh-cps-online/career-support,the careers link itself
+910,https://www.bard.edu/humanresources/employment/,the careers link itself
+916,https://jobs.workable.com/?utm_campaign=careers_page&utm_content=careers_page&utm_medium=feature&utm_source=careers_page,site root
+959,https://www.boricuacollege.edu/careers,the careers link itself
+965,https://careers.columbia.edu/,site root
+979,https://www.nyit.edu/human_resources/careers,the careers link itself

@@ -72,6 +72,16 @@ def checkpoint_status(path):
         return ''
 
 
+# A school that returns nothing is retried before that zero is believed.
+# Sites serve a short error page under load and then the real one moments
+# later -- Cal State Dominguez Hills alternated between a 2.6 KB stub and
+# its full 109 KB listing on consecutive requests, and a single unlucky
+# fetch was being recorded as "complete, 0 links, no error", which is
+# indistinguishable from a school that genuinely has no openings.
+EMPTY_RETRIES = 2
+EMPTY_RETRY_WAIT = 8
+
+
 def run_postings(mod):
     """Call the school's run directly rather than its main(), because main()
     closes the shared browser on the way out -- fine for one school on its
@@ -159,6 +169,13 @@ def main():
         try:
             mod = load_module(path, f'school_{sid}_{suffix}')
             status, n, err = runner(mod)
+            for attempt in range(EMPTY_RETRIES):
+                if n or status != 'complete':
+                    break
+                time.sleep(EMPTY_RETRY_WAIT)
+                if os.path.exists(ckpt):
+                    os.remove(ckpt)      # a stored empty result would short-circuit the retry
+                status, n, err = runner(mod)
         except Timeout:
             status, err = 'timeout', f'exceeded {args.timeout}s'
         except Exception as e:

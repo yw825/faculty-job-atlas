@@ -1,0 +1,8 @@
+{
+  "links": [],
+  "school_id": 1323,
+  "status": "error",
+  "updated_at": "2026-09-04T23:03:30+00:00",
+  "started_at": "2026-09-04T23:03:00+00:00",
+  "last_error": "RuntimeError: oracle session capture failed: Timeout 15000ms exceeded while waiting for event \"request\"\n=========================== logs ===========================\nwaiting for request **/recruitingCEJobRequisitions**\n============================================================"
+}

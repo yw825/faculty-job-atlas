@@ -1,0 +1,8 @@
+{
+  "links": [],
+  "school_id": 1332,
+  "status": "error",
+  "updated_at": "2026-09-04T23:03:35+00:00",
+  "started_at": "2026-09-04T23:03:34+00:00",
+  "last_error": "RuntimeError: peopleadmin atom status=404"
+}

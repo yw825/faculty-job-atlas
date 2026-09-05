@@ -1,0 +1,8 @@
+{
+  "links": [],
+  "school_id": 553,
+  "status": "error",
+  "updated_at": "2026-09-04T22:35:47+00:00",
+  "started_at": "2026-09-04T22:35:47+00:00",
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://jobs.stonehill.edu/hr/sessions/new\nCall log:\n  - navigating to \"https://jobs.stonehill.edu/hr/sessions/new\", waiting until \"domcontentloaded\"\n"
+}

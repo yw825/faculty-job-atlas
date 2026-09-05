@@ -1,0 +1,8 @@
+{
+  "links": [],
+  "school_id": 1577,
+  "status": "error",
+  "updated_at": "2026-09-04T23:10:26+00:00",
+  "started_at": "2026-09-04T23:10:26+00:00",
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://ab.edu/employment/\nCall log:\n  - navigating to \"https://ab.edu/employment/\", waiting until \"domcontentloaded\"\n"
+}

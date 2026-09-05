@@ -1,0 +1,8 @@
+{
+  "links": [],
+  "school_id": 1191,
+  "status": "error",
+  "updated_at": "2026-09-04T22:56:42+00:00",
+  "started_at": "2026-09-04T22:56:42+00:00",
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www3.peirce.edu/about-peirce/additional-resources/careers-at-peirce\nCall log:\n  - navigating to \"https://www3.peirce.edu/about-peirce/additional-resources/careers-at-peirce\", waiting until \"domcontentloaded\"\n"
+}

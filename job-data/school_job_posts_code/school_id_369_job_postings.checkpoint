@@ -2,7 +2,7 @@
   "links": [],
   "school_id": 369,
   "status": "error",
-  "updated_at": "2026-09-04T21:32:22+00:00",
-  "started_at": "2026-09-04T20:51:36+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+  "updated_at": "2026-09-04T21:55:28+00:00",
+  "started_at": "2026-09-04T21:55:03+00:00",
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://humanresources.illinois.edu/job-seekers/?utm_source=illinois_homepage&utm_medium=referral&utm_campaign=footer\", waiting until \"domcontentloaded\"\n"
 }
