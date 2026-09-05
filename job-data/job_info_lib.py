@@ -274,14 +274,46 @@ _DEPT_RE = re.compile(
     # A real department name can itself contain a comma ("School of Sport,
     # Exercise and Rehabilitation Sciences" -- confirmed live on Birmingham
     # posting 9791, where stopping at the comma truncated it) -- so only a
-    # dash-separated clause boundary, sentence end, or newline ends the
-    # match, never a bare comma.
-    r'(?:of|for)\s+[A-Z][A-Za-z&,\'\s]{2,80}?)(?=\.\s|\.$|\n|$| - |\s+-\s+)', re.I)
+    # dash-separated clause boundary, sentence end, newline, or opening
+    # parenthesis ends the match, never a bare comma. The parenthesis
+    # alternative matters because "Department of X (ABC)" -- an inline
+    # abbreviation right after the name -- is extremely common, and
+    # without it as a valid stopping point the match fails to start at
+    # all: San Diego State's "The Department of Management Information
+    # Systems (MIS) in the Fowler College..." was never captured, so a
+    # later, wrong "Department of X" match (a funding-agency mention) won
+    # by default. "at" is a stop for the same reason in the opposite
+    # direction: "Department of Chemistry at the University of Alaska
+    # Anchorage (UAA) invites..." has no punctuation before "(UAA)" either,
+    # so without " at " as its own boundary the match ran past the real
+    # department name and swallowed "at the University of Alaska Anchorage"
+    # as if it were part of it.
+    r'(?:of|for)\s+[A-Z][A-Za-z&,\'\s]{2,80}?)'
+    r'(?=\.\s|\.$|\n|$| - |\s+-\s+|\s*\(|\s+at\s+(?:the\s+)?[A-Z])', re.I)
+
+
+# A grant-funded posting routinely names federal agencies in passing
+# ("...supported by NSF, US Navy, US Air Force, US Department of Homeland
+# Security, and US Department of Education") and those match the same
+# "Department of X" shape as a real academic unit -- confirmed live on San
+# Diego State posting 560000, which was filed under "Department of Homeland
+# Security, and US Department of Education" (the FIRST such phrase on the
+# page) instead of "Department of Management Information Systems" (the
+# actual department, mentioned twice further down).
+_NON_ACADEMIC_DEPT_RE = re.compile(
+    r'^(?:U\.?S\.?\s+)?Department of (?:Homeland Security|Education|Defense|Justice|Labor|'
+    r'State|(?:the\s+)?Treasury|Commerce|Energy|Agriculture|Health and Human Services|'
+    r'Housing and Urban Development|Transportation|(?:the\s+)?Interior|Veterans Affairs|'
+    r'Health(?:\s*&\s*|\s+and\s+)Human Services)\b', re.I)
 
 
 def extract_department(title, description=''):
-    m = _DEPT_RE.search(title) or _DEPT_RE.search(description)
-    return m.group(1).strip() if m else ''
+    for text in (title, description):
+        for m in _DEPT_RE.finditer(text or ''):
+            candidate = m.group(1).strip()
+            if not _NON_ACADEMIC_DEPT_RE.match(candidate):
+                return candidate
+    return ''
 
 
 _MONTH_NAMES = (r'january|february|march|april|may|june|july|august|'
@@ -1096,11 +1128,21 @@ _TITLE_LOOKS_LIKE_JOB_RE = re.compile(
     r'assistant|associate|chair|director|position|tenure)\b', re.I)
 
 
+# "Details - <real title> | Job Opportunities | SDSU" -- PageUp and several
+# other ATSs stamp this on the <title> tag specifically; the real title
+# comes right after it. A real job title never legitimately opens this way,
+# so it is dropped rather than kept as a (winning, wrong) short candidate.
+_LEADING_JUNK_TITLE_RE = re.compile(
+    r'^(?:job\s+)?(?:details|posting\s+details|position\s+details|vacancy\s+details|'
+    r'view\s+job|view\s+posting|job\s+description)\s*[-:]\s*', re.I)
+
+
 def _title_candidates_from_text(raw):
     """Most-trimmed-first: a raw string like "Dept: Title at Employer |
     Site" yields, in order, "Dept: Title at Employer", "Dept: Title", then
     the untrimmed original -- so a caller trying candidates in order finds
     the tightest job-shaped match before falling back to noisier ones."""
+    raw = _LEADING_JUNK_TITLE_RE.sub('', raw).strip()
     candidates = [raw]
     cur = raw
     for sep in (' | ', ' - '):
@@ -1254,9 +1296,14 @@ def fetch_detail_generic(url):
     from bs4 import BeautifulSoup
     soup = BeautifulSoup(html, 'html.parser')
     candidates = []
-    h1 = soup.find('h1')
-    if h1:
-        candidates += _title_candidates_from_text(h1.get_text(strip=True))
+    # h2 as well as h1: several ATS templates (PageUp among them) reserve
+    # <h1> for the SITE's own name ("San Diego State University") and put
+    # the actual posting title in an <h2> instead -- confirmed live, where
+    # checking h1 alone missed a clean on-page title and fell back to the
+    # <title> tag's "Details - " prefixed version. Checked before <title>
+    # since on-page headings are typically cleaner than that tag.
+    for heading in soup.find_all(['h1', 'h2']):
+        candidates += _title_candidates_from_text(heading.get_text(strip=True))
     title_tag = soup.find('title')
     if title_tag:
         candidates += _title_candidates_from_text(title_tag.get_text(strip=True))
