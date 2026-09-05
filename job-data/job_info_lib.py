@@ -54,6 +54,7 @@ import json
 import math
 import os
 import re
+from html import unescape
 from urllib.parse import urlparse
 
 import job_postings_lib as jlib
@@ -1159,15 +1160,95 @@ def fetch_detail_pdf(url):
     return title, text
 
 
+_WORKDAY_HOST_RE = re.compile(r'^([\w-]+)\.(wd\d+)\.myworkdayjobs\.com$', re.I)
+
+
+def fetch_detail_workday(url):
+    """Workday posting pages are a JavaScript shell -- fetched as plain HTML
+    they return a 233-byte 404 -- so every one of them would otherwise cost
+    a full browser render. Workday's own CXS endpoint serves the same
+    posting as JSON with no auth, which matters at this scale: Workday is
+    43% of the US postings (10,930 of 25,198), so routing them through the
+    API instead of a browser is the difference between hours and minutes.
+
+    The JSON also carries postedOn and startDate, which the page text often
+    doesn't state at all; both are prepended to the description so the
+    existing date extractors can find them."""
+    parsed = urlparse(url)
+    m = _WORKDAY_HOST_RE.match(parsed.netloc)
+    if not m:
+        raise RuntimeError('not a workday posting url')
+    tenant = m.group(1)
+    segs = [x for x in parsed.path.split('/') if x]
+    if 'job' not in segs:
+        raise RuntimeError('no /job/ segment in workday url')
+    job_path = '/'.join(segs[segs.index('job'):])
+    # The site segment sits before /job/ unless the path opens with a locale
+    # ("/en-US/SITE/job/..."); some tenants omit it entirely.
+    before = segs[:segs.index('job')]
+    candidates = []
+    if before:
+        site = before[1] if (len(before) > 1 and re.match(r'^[a-z]{2}-[A-Z]{2}$', before[0])) else before[0]
+        candidates.append(f'https://{parsed.netloc}/wday/cxs/{tenant}/{site}/{job_path}')
+    # The endpoint resolves the posting from its path, so the site segment
+    # only has to be PRESENT, not correct -- plenty of these URLs carry no
+    # site at all, and omitting the segment returns 406 while any
+    # placeholder returns the posting.
+    candidates.append(f'https://{parsed.netloc}/wday/cxs/{tenant}/External/{job_path}')
+
+    for api in candidates:
+        status, text = jlib.fetch_static(api, extra_headers={'Accept': 'application/json'})
+        if status != 200 or not text:
+            continue
+        try:
+            info = json.loads(text).get('jobPostingInfo', {})
+        except ValueError:
+            continue
+        if not info:
+            continue
+        title = (info.get('title') or '').strip()
+        body = re.sub(r'<[^>]+>', ' ', info.get('jobDescription') or '')
+        body = unescape(re.sub(r'[ \t]+', ' ', body)).strip()
+        head = []
+        if info.get('startDate'):
+            head.append(f"Start date: {info['startDate']}")
+        if info.get('postedOn'):
+            head.append(f"Posted: {info['postedOn']}")
+        if info.get('timeType'):
+            head.append(str(info['timeType']))
+        return title, ('\n'.join(head) + '\n\n' + body).strip()
+    raise RuntimeError('workday cxs detail fetch failed')
+
+
 def fetch_detail_generic(url):
     """Renders the posting page and picks the best-looking title out of
     <h1> and <title> (see _pick_best_title); the description is the page's
     full visible text. Works reasonably across most platforms' own detail
     pages; override per school if a site's detail page needs a click/wait
-    first (mirrors job_postings' per-school find_links override)."""
+    first (mirrors job_postings' per-school find_links override).
+
+    Tries the cheapest route that works: Workday's JSON API, then a plain
+    HTTP fetch, and only then a browser render. Roughly two thirds of
+    postings come back fine over plain HTTP, and paying for a browser on
+    those was most of the cost of this stage."""
     if url.lower().split('?')[0].endswith('.pdf'):
         return fetch_detail_pdf(url)
-    html = jlib.fetch_rendered(url)
+
+    if _WORKDAY_HOST_RE.match(urlparse(url).netloc):
+        try:
+            return fetch_detail_workday(url)
+        except Exception:
+            pass                      # fall through to the browser
+
+    html = ''
+    try:
+        status, static_html = jlib.fetch_static(url)
+        if status == 200 and static_html and len(static_html) > 3000:
+            html = static_html
+    except Exception:
+        pass
+    if not html:
+        html = jlib.fetch_rendered(url)
     if jlib.is_fetch_failure(html):
         raise RuntimeError(html)
     from bs4 import BeautifulSoup
