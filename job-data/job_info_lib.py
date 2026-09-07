@@ -55,7 +55,7 @@ import math
 import os
 import re
 from html import unescape
-from urllib.parse import urlparse
+from urllib.parse import parse_qs, urlparse
 
 import job_postings_lib as jlib
 
@@ -1463,10 +1463,74 @@ def fetch_smartrecruiters_bulk(careers_link):
     return out
 
 
+def fetch_adp_bulk(careers_link):
+    """Returns {posting_url: (title, description, department)} from ADP's
+    public API. The listing call carries every requisition's title, post
+    date and location; the per-requisition call adds the description. Both
+    beat rendering the page, which is a 4 MB JavaScript SPA -- and the post
+    date is only available here, never in the rendered text."""
+    import time as _time
+
+    parsed = urlparse(careers_link)
+    qs = parse_qs(parsed.query)
+    cid = (qs.get('cid') or [None])[0]
+    if not cid:
+        raise RuntimeError('no cid param in adp url')
+    cc_id = (qs.get('ccId') or ['19000101_000001'])[0]
+    lang = (qs.get('lang') or ['en_US'])[0]
+    base = (f'https://{parsed.netloc}/mascsr/default/careercenter/public/events/'
+            f'staffing/v1/job-requisitions')
+
+    status, text = jlib.fetch_static(f'{base}?cid={cid}&timeStamp={int(_time.time()*1000)}',
+                                     extra_headers={'Accept': 'application/json'})
+    if status != 200:
+        raise RuntimeError(f'adp api status={status}')
+
+    out = {}
+    for req in json.loads(text).get('jobRequisitions', []):
+        item_id = req.get('itemID')
+        if not item_id:
+            continue
+        url = (f'https://{parsed.netloc}/mascsr/default/mdf/recruitment/'
+               f'recruitment.html?cid={cid}&ccId={cc_id}&jobId={item_id}&lang={lang}')
+        title = (req.get('requisitionTitle') or '').strip()
+
+        dept = ''
+        for unit in req.get('organizationalUnits') or []:
+            name = (unit.get('nameCode') or {}).get('shortName') or ''
+            if name:
+                dept = name.strip()
+                break
+
+        parts = []
+        if req.get('postDate'):
+            parts.append(f"Posted: {str(req['postDate'])[:10]}")
+        for loc in req.get('requisitionLocations') or []:
+            city = ((loc.get('address') or {}).get('cityName') or '').strip()
+            if city:
+                parts.append(f'Location: {city}')
+                break
+
+        d_status, d_text = jlib.fetch_static(f'{base}/{item_id}?cid={cid}',
+                                             extra_headers={'Accept': 'application/json'})
+        if d_status == 200:
+            try:
+                body = json.loads(d_text).get('requisitionDescription') or ''
+            except ValueError:
+                body = ''
+            body = unescape(re.sub(r'<[^>]+>', ' ', body))
+            parts.append(re.sub(r'[ \t]+', ' ', body).strip())
+        out[url] = (title, '\n\n'.join(p for p in parts if p), dept)
+        _time.sleep(0.1)
+    return out
+
+
 BULK_ADAPTERS = {
     'oracle': fetch_oracle_bulk,
     'smartrecruiters': fetch_smartrecruiters_bulk,
+    'adp': fetch_adp_bulk,
 }
+
 
 
 # --------------------------------------------------------------------------

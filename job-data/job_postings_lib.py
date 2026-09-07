@@ -575,22 +575,42 @@ def scrape_peopleadmin(url):
 
 
 def scrape_adp(url):
-    """ADP Workforce Now recruitment pages are a JS SPA calling a public
-    JSON API keyed by the `cid` query param already in the careers link. No
-    per-job URL is exposed in the API, so every posting shares the search
-    page URL -- honest given what the platform actually exposes."""
+    """ADP Workforce Now recruitment pages are a JS SPA over a public JSON
+    API keyed by the `cid` already in the careers link.
+
+    Each requisition carries an `itemID`, and appending it as &jobId=<id>
+    to the recruitment URL opens that specific posting -- confirmed live on
+    Molloy University, where jobId=9203181874091_1 renders "Public Safety
+    Officer, Midnights" rather than the listing.
+
+    This previously returned the SAME search-page URL once per requisition,
+    on the reasoning that ADP exposed no per-job URL. It does, and the
+    consequence of not using it was severe: N identical URLs deduplicated
+    to one, so every ADP school -- 37 of them in the US alone -- collapsed
+    to a single posting no matter how many jobs it was advertising."""
     parsed = urlparse(url)
     qs = parse_qs(parsed.query)
     cid = (qs.get('cid') or [None])[0]
     if not cid:
         raise RuntimeError('no cid param in adp url')
+    cc_id = (qs.get('ccId') or ['19000101_000001'])[0]
+    lang = (qs.get('lang') or ['en_US'])[0]
+
     api = (f'https://{parsed.netloc}/mascsr/default/careercenter/public/events/'
            f'staffing/v1/job-requisitions?cid={cid}&timeStamp={int(time.time()*1000)}')
     status, text = fetch_static(api, extra_headers={'Accept': 'application/json'})
     if status != 200:
         raise RuntimeError(f'adp api status={status}')
     data = json.loads(text)
-    return [url for _ in data.get('jobRequisitions', [])]
+
+    links = []
+    for req in data.get('jobRequisitions', []):
+        item_id = req.get('itemID')
+        if not item_id:
+            continue
+        links.append(f'https://{parsed.netloc}/mascsr/default/mdf/recruitment/'
+                     f'recruitment.html?cid={cid}&ccId={cc_id}&jobId={item_id}&lang={lang}')
+    return links
 
 
 _ICIMS_JOB_HREF_RE = re.compile(r'/jobs/\d+/')
