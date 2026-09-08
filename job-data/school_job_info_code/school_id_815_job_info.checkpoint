@@ -1,0 +1,26 @@
+{
+  "raw": {
+    "https://www.paycomonline.net/v4/ats/web.php/portal/87CB6D0141B0DF4C2F65FFEBD183CE63/career-page": {
+      "title": "Loading...",
+      "description": "Loading... You need to enable JavaScript to run this app."
+    }
+  },
+  "rows": {
+    "https://www.paycomonline.net/v4/ats/web.php/portal/87CB6D0141B0DF4C2F65FFEBD183CE63/career-page": {
+      "school_id": 815,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/87CB6D0141B0DF4C2F65FFEBD183CE63/career-page",
+      "job_title_in_post": "Loading...",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    }
+  },
+  "school_id": 815,
+  "status": "complete",
+  "updated_at": "2026-09-05T07:36:32+00:00",
+  "completed_at": "2026-09-05T07:36:32+00:00",
+  "last_error": ""
+}

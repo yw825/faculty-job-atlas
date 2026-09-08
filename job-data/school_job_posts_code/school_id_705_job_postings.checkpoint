@@ -1,5 +1,7 @@
 {
   "links": [
+    "https://myportal.ccis.edu/dashboard",
+    "https://www.ccis.edu/faculty/index",
     "https://www.ccis.edu/careers/index",
     "https://epayment.ccis.edu/C20609_ustores/web/store_main.jsp?STOREID=41&SINGLESTORE=true",
     "https://www.ccis.edu/careers/",
@@ -7,8 +9,8 @@
   ],
   "school_id": 705,
   "status": "complete",
-  "updated_at": "2026-09-04T21:02:02+00:00",
-  "started_at": "2026-09-04T21:01:59+00:00",
-  "completed_at": "2026-09-04T21:02:02+00:00",
+  "updated_at": "2026-09-08T02:10:18+00:00",
+  "started_at": "2026-09-08T02:10:14+00:00",
+  "completed_at": "2026-09-08T02:10:18+00:00",
   "last_error": ""
 }

@@ -1,6 +1,6 @@
 """
 Job info scraper for school_id 1181 - Millersville University of Pennsylvania (US)
-ATS platform: own website
+ATS platform: PeopleAdmin
 Careers link: https://jobs.millersville.edu/
 
 Reads posting URLs from school_id_1181_job_postings.checkpoint (this
@@ -30,7 +30,7 @@ import job_info_lib as jinfo
 SCHOOL_ID = 1181
 SCHOOL_NAME = 'Millersville University of Pennsylvania'
 CAREERS_LINK = 'https://jobs.millersville.edu/'
-ATS_PLATFORM = 'own website'
+ATS_PLATFORM = 'PeopleAdmin'
 USE_LLM = False
 
 JOB_POSTINGS_CHECKPOINT = os.path.join(

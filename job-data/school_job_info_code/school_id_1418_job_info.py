@@ -1,6 +1,6 @@
 """
 Job info scraper for school_id 1418 - The University of Texas at Dallas (US)
-ATS platform: own website
+ATS platform: PeopleAdmin
 Careers link: https://jobs.utdallas.edu/postings/search?query=&query_v0_posted_at_date=&query_position_type_id%5B%5D=2&commit=Search
 
 Reads posting URLs from school_id_1418_job_postings.checkpoint (this
@@ -30,7 +30,7 @@ import job_info_lib as jinfo
 SCHOOL_ID = 1418
 SCHOOL_NAME = 'The University of Texas at Dallas'
 CAREERS_LINK = 'https://jobs.utdallas.edu/postings/search?query=&query_v0_posted_at_date=&query_position_type_id%5B%5D=2&commit=Search'
-ATS_PLATFORM = 'own website'
+ATS_PLATFORM = 'PeopleAdmin'
 USE_LLM = False
 
 JOB_POSTINGS_CHECKPOINT = os.path.join(

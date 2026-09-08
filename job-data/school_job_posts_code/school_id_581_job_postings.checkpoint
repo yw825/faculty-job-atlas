@@ -1,12 +1,16 @@
 {
   "links": [
+    "https://www.williams.edu/faculty-staff/",
     "https://employment.williams.edu/faculty-positions/",
-    "https://employment.williams.edu/staff/"
+    "https://employment.williams.edu/staff/",
+    "http://faculty.williams.edu/graduate-fellowships-2/",
+    "https://dean-faculty.williams.edu/",
+    "https://handbooks.williams.edu/"
   ],
   "school_id": 581,
   "status": "complete",
-  "updated_at": "2026-09-04T22:37:13+00:00",
-  "started_at": "2026-09-04T22:37:10+00:00",
-  "completed_at": "2026-09-04T22:37:13+00:00",
+  "updated_at": "2026-09-08T02:00:45+00:00",
+  "started_at": "2026-09-08T02:00:40+00:00",
+  "completed_at": "2026-09-08T02:00:45+00:00",
   "last_error": ""
 }

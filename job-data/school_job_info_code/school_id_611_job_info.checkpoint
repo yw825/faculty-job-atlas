@@ -1,0 +1,26 @@
+{
+  "raw": {
+    "https://fa-ewca-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmUI/faces/deeplink?objType=IRC_RECRUITING&action=ICE_JOB_SEARCH_RESP": {
+      "title": "",
+      "description": "This page uses JavaScript and requires a JavaScript enabled browser.Your browser is not JavaScript enabled."
+    }
+  },
+  "rows": {
+    "https://fa-ewca-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmUI/faces/deeplink?objType=IRC_RECRUITING&action=ICE_JOB_SEARCH_RESP": {
+      "school_id": 611,
+      "posting_url": "https://fa-ewca-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmUI/faces/deeplink?objType=IRC_RECRUITING&action=ICE_JOB_SEARCH_RESP",
+      "job_title_in_post": "",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    }
+  },
+  "school_id": 611,
+  "status": "complete",
+  "updated_at": "2026-09-05T04:47:31+00:00",
+  "completed_at": "2026-09-05T04:47:31+00:00",
+  "last_error": ""
+}

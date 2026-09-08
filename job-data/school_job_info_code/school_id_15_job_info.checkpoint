@@ -1,0 +1,41 @@
+{
+  "raw": {
+    "https://apply.interfolio.com/185758": {
+      "title": "Apply",
+      "description": "Apply - Interfolio {{$ctrl.$state.data.pageTitle}} - Apply - Interfolio"
+    },
+    "https://apply.interfolio.com/184660": {
+      "title": "Apply",
+      "description": "Apply - Interfolio {{$ctrl.$state.data.pageTitle}} - Apply - Interfolio"
+    }
+  },
+  "rows": {
+    "https://apply.interfolio.com/185758": {
+      "school_id": 15,
+      "posting_url": "https://apply.interfolio.com/185758",
+      "job_title_in_post": "Apply",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://apply.interfolio.com/184660": {
+      "school_id": 15,
+      "posting_url": "https://apply.interfolio.com/184660",
+      "job_title_in_post": "Apply",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    }
+  },
+  "school_id": 15,
+  "status": "complete",
+  "updated_at": "2026-09-05T02:09:55+00:00",
+  "completed_at": "2026-09-05T02:09:55+00:00",
+  "last_error": ""
+}

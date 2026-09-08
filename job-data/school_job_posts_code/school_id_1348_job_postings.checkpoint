@@ -1,11 +1,18 @@
 {
   "links": [
+    "https://ibqajb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs",
+    "https://ibqajb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs?lastSelectedFacet=POSTING_DATES&selectedPostingDatesFacet=30",
+    "https://ibqajb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs?lastSelectedFacet=CATEGORIES&selectedCategoriesFacet=300000014687820",
+    "https://ibqajb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs?lastSelectedFacet=CATEGORIES&selectedCategoriesFacet=300000014687814",
+    "https://ibqajb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs?lastSelectedFacet=CATEGORIES&selectedCategoriesFacet=300000014687796",
+    "https://ibqajb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs?lastSelectedFacet=CATEGORIES&selectedCategoriesFacet=300000014687808",
+    "https://ibqajb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs?lastSelectedFacet=CATEGORIES&selectedCategoriesFacet=300000014687835",
     "https://ibqajb.fa.ocs.oraclecloud.com:443/fscmUI/faces/deeplink?objType=IRC_RECRUITING&action=ICE_JOB_SEARCH_RESP"
   ],
   "school_id": 1348,
   "status": "complete",
-  "updated_at": "2026-09-04T21:23:45+00:00",
-  "started_at": "2026-09-04T21:23:42+00:00",
-  "completed_at": "2026-09-04T21:23:45+00:00",
+  "updated_at": "2026-09-08T03:01:23+00:00",
+  "started_at": "2026-09-08T03:01:19+00:00",
+  "completed_at": "2026-09-08T03:01:23+00:00",
   "last_error": ""
 }

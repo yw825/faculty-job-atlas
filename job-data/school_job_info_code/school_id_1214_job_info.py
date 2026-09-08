@@ -1,6 +1,6 @@
 """
 Job info scraper for school_id 1214 - Shippensburg University of Pennsylvania (US)
-ATS platform: own website
+ATS platform: PeopleAdmin
 Careers link: https://jobs.ship.edu/postings/search
 
 Reads posting URLs from school_id_1214_job_postings.checkpoint (this
@@ -30,7 +30,7 @@ import job_info_lib as jinfo
 SCHOOL_ID = 1214
 SCHOOL_NAME = 'Shippensburg University of Pennsylvania'
 CAREERS_LINK = 'https://jobs.ship.edu/postings/search'
-ATS_PLATFORM = 'own website'
+ATS_PLATFORM = 'PeopleAdmin'
 USE_LLM = False
 
 JOB_POSTINGS_CHECKPOINT = os.path.join(

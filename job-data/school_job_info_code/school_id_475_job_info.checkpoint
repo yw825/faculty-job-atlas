@@ -1,0 +1,43 @@
+{
+  "raw": {
+    "https://ebyf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/140": {
+      "title": "Adjunct Lecturer Pool",
+      "description": "The Pittsburg State University Department of English and Modern Languages is accepting applications for a part-time, in-person, temporary Adjunct Lecturer to teach for the Fall/Spring semester with a specific need in Spanish, Introductory Spanish for Health Professionals, Introductory Spanish for Technical Trades Professionals, Introductory Spanish for K-12 Educators.",
+      "department": null
+    },
+    "https://ebyf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/185": {
+      "title": "Adjunct Lecturer - Interior Design, Pool",
+      "description": "The Pittsburg State University School of Construction is accepting applications for a part-time, in-person, temporary Adjunct Lecturer to teach Interior Design, History of Design 1, Detailing and Working Drawings, or Interior Design Studio course for the Fall 2026 semester.",
+      "department": null
+    }
+  },
+  "rows": {
+    "https://ebyf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/140": {
+      "school_id": 475,
+      "posting_url": "https://ebyf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/140",
+      "job_title_in_post": "Adjunct Lecturer Pool",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://ebyf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/185": {
+      "school_id": 475,
+      "posting_url": "https://ebyf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/185",
+      "job_title_in_post": "Adjunct Lecturer - Interior Design, Pool",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    }
+  },
+  "school_id": 475,
+  "status": "complete",
+  "updated_at": "2026-09-05T03:54:54+00:00",
+  "completed_at": "2026-09-05T03:54:54+00:00",
+  "last_error": ""
+}

@@ -1,6 +1,6 @@
 """
 Job info scraper for school_id 1215 - Slippery Rock University of Pennsylvania (US)
-ATS platform: own website
+ATS platform: PeopleAdmin
 Careers link: https://careers.sru.edu/postings/search?query=&query_v0_posted_at_date=&query_organizational_tier_3_id=any&query_position_type_id=&372=2&373=&commit=Search
 
 Reads posting URLs from school_id_1215_job_postings.checkpoint (this
@@ -30,7 +30,7 @@ import job_info_lib as jinfo
 SCHOOL_ID = 1215
 SCHOOL_NAME = 'Slippery Rock University of Pennsylvania'
 CAREERS_LINK = 'https://careers.sru.edu/postings/search?query=&query_v0_posted_at_date=&query_organizational_tier_3_id=any&query_position_type_id=&372=2&373=&commit=Search'
-ATS_PLATFORM = 'own website'
+ATS_PLATFORM = 'PeopleAdmin'
 USE_LLM = False
 
 JOB_POSTINGS_CHECKPOINT = os.path.join(

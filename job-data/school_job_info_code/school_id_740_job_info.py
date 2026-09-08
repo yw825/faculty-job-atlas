@@ -1,6 +1,6 @@
 """
 Job info scraper for school_id 740 - Missouri State University-Springfield (US)
-ATS platform: own website
+ATS platform: PeopleAdmin
 Careers link: https://jobs.missouristate.edu/
 
 Reads posting URLs from school_id_740_job_postings.checkpoint (this
@@ -30,7 +30,7 @@ import job_info_lib as jinfo
 SCHOOL_ID = 740
 SCHOOL_NAME = 'Missouri State University-Springfield'
 CAREERS_LINK = 'https://jobs.missouristate.edu/'
-ATS_PLATFORM = 'own website'
+ATS_PLATFORM = 'PeopleAdmin'
 USE_LLM = False
 
 JOB_POSTINGS_CHECKPOINT = os.path.join(

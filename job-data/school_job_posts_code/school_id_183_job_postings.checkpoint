@@ -2,7 +2,7 @@
   "links": [],
   "school_id": 183,
   "status": "error",
-  "updated_at": "2026-09-04T21:54:34+00:00",
-  "started_at": "2026-09-04T21:54:32+00:00",
+  "updated_at": "2026-09-08T07:32:13+00:00",
+  "started_at": "2026-09-08T07:32:10+00:00",
   "last_error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
 }

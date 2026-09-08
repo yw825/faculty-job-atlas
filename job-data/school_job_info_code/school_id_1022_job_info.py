@@ -1,6 +1,6 @@
 """
 Job info scraper for school_id 1022 - Ashland University (US)
-ATS platform: own website
+ATS platform: PeopleAdmin
 Careers link: https://jobs.ashland.edu/postings/search?utf8=%E2%9C%93&query=&query_v0_posted_at_date=&query_position_type_id%5B%5D=3&435=&query_organizational_tier_3_id%5B%5D=any&1615=&commit=Search
 
 Reads posting URLs from school_id_1022_job_postings.checkpoint (this
@@ -30,7 +30,7 @@ import job_info_lib as jinfo
 SCHOOL_ID = 1022
 SCHOOL_NAME = 'Ashland University'
 CAREERS_LINK = 'https://jobs.ashland.edu/postings/search?utf8=%E2%9C%93&query=&query_v0_posted_at_date=&query_position_type_id%5B%5D=3&435=&query_organizational_tier_3_id%5B%5D=any&1615=&commit=Search'
-ATS_PLATFORM = 'own website'
+ATS_PLATFORM = 'PeopleAdmin'
 USE_LLM = False
 
 JOB_POSTINGS_CHECKPOINT = os.path.join(

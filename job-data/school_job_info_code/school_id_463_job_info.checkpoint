@@ -1,0 +1,41 @@
+{
+  "raw": {
+    "https://tabor.edu/undergraduate/student-life/student-success/career-services/": {
+      "title": "Maintenance",
+      "description": "Maintenance Briefly unavailable for scheduled maintenance. Check back in a minute."
+    },
+    "https://tabor.edu/jobs/": {
+      "title": "Maintenance",
+      "description": "Maintenance Briefly unavailable for scheduled maintenance. Check back in a minute."
+    }
+  },
+  "rows": {
+    "https://tabor.edu/undergraduate/student-life/student-success/career-services/": {
+      "school_id": 463,
+      "posting_url": "https://tabor.edu/undergraduate/student-life/student-success/career-services/",
+      "job_title_in_post": "Maintenance",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://tabor.edu/jobs/": {
+      "school_id": 463,
+      "posting_url": "https://tabor.edu/jobs/",
+      "job_title_in_post": "Maintenance",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    }
+  },
+  "school_id": 463,
+  "status": "complete",
+  "updated_at": "2026-09-05T03:53:27+00:00",
+  "completed_at": "2026-09-05T03:53:27+00:00",
+  "last_error": ""
+}

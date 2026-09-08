@@ -1,0 +1,26 @@
+{
+  "raw": {
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions?lastSelectedFacet=LOCATIONS&mode=location&selectedLocationsFacet=300000010468273": {
+      "title": "University of Tennessee Career Site",
+      "description": "University of Tennessee Career Site"
+    }
+  },
+  "rows": {
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions?lastSelectedFacet=LOCATIONS&mode=location&selectedLocationsFacet=300000010468273": {
+      "school_id": 1341,
+      "posting_url": "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions?lastSelectedFacet=LOCATIONS&mode=location&selectedLocationsFacet=300000010468273",
+      "job_title_in_post": "University of Tennessee Career Site",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Tennessee Career Site",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    }
+  },
+  "school_id": 1341,
+  "status": "complete",
+  "updated_at": "2026-09-05T19:03:37+00:00",
+  "completed_at": "2026-09-05T19:03:37+00:00",
+  "last_error": ""
+}

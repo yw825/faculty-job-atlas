@@ -1,9 +1,11 @@
 {
-  "links": [],
+  "links": [
+    "https://canton-accommodate.symplicity.com/faculty/index.php"
+  ],
   "school_id": 930,
   "status": "complete",
-  "updated_at": "2026-09-04T22:48:03+00:00",
-  "started_at": "2026-09-04T22:48:00+00:00",
-  "completed_at": "2026-09-04T22:48:03+00:00",
+  "updated_at": "2026-09-08T02:29:02+00:00",
+  "started_at": "2026-09-08T02:28:59+00:00",
+  "completed_at": "2026-09-08T02:29:02+00:00",
   "last_error": ""
 }

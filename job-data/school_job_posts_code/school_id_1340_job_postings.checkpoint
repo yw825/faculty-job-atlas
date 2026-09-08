@@ -1,16 +1,18 @@
 {
   "links": [
+    "https://www.cumberland.edu/faculty-login/",
     "https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=DEB43C3FD051B594AA4F4829C8587DC3",
     "https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=DEB43C3FD051B594AA4F4829C8587DC3&filters%5Bpositiontype%5D",
     "https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=DEB43C3FD051B594AA4F4829C8587DC3&filters[positiontype]",
     "https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=DEB43C3FD051B594AA4F4829C8587DC3&filters[positiontype][]=112",
     "https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=DEB43C3FD051B594AA4F4829C8587DC3&filters[positiontype][]=70",
-    "https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=DEB43C3FD051B594AA4F4829C8587DC3&filters[positiontype][]=71"
+    "https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=DEB43C3FD051B594AA4F4829C8587DC3&filters[positiontype][]=71",
+    "https://www.cumberland.edu/cumberland-university-launches-center-for-teaching-and-learning-to-advance-faculty-excellence-and-student-success/"
   ],
   "school_id": 1340,
   "status": "complete",
-  "updated_at": "2026-09-04T21:23:36+00:00",
-  "started_at": "2026-09-04T21:23:33+00:00",
-  "completed_at": "2026-09-04T21:23:36+00:00",
+  "updated_at": "2026-09-08T03:01:08+00:00",
+  "started_at": "2026-09-08T03:01:04+00:00",
+  "completed_at": "2026-09-08T03:01:08+00:00",
   "last_error": ""
 }

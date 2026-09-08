@@ -1,0 +1,17 @@
+{
+  "raw": {
+    "http:": {
+      "error": "RuntimeError: FETCH_FAILURE: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"http:\", waiting until \"domcontentloaded\"\n"
+    }
+  },
+  "rows": {
+    "http:": {
+      "error": "RuntimeError: FETCH_FAILURE: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"http:\", waiting until \"domcontentloaded\"\n"
+    }
+  },
+  "school_id": 1175,
+  "status": "complete",
+  "updated_at": "2026-09-05T18:28:45+00:00",
+  "completed_at": "2026-09-05T18:28:45+00:00",
+  "last_error": ""
+}

@@ -1,0 +1,26 @@
+{
+  "raw": {
+    "https://mtmary.applicantpro.com/jobs/": {
+      "title": "Current Job Listings",
+      "description": "Job Listings - Mount Mary University Jobs Current Job Listings Jobs Login Sign Up For Job Alerts! Hiring Software Maintained by isolved Talent Acquisition - © 2026 Refresh"
+    }
+  },
+  "rows": {
+    "https://mtmary.applicantpro.com/jobs/": {
+      "school_id": 1551,
+      "posting_url": "https://mtmary.applicantpro.com/jobs/",
+      "job_title_in_post": "Current Job Listings",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    }
+  },
+  "school_id": 1551,
+  "status": "complete",
+  "updated_at": "2026-09-05T20:14:45+00:00",
+  "completed_at": "2026-09-05T20:14:45+00:00",
+  "last_error": ""
+}

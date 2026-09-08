@@ -129,7 +129,7 @@ def find_links():
         raise RuntimeError(html)
     return lib.extract_links(html, CAREERS_LINK,
                              href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_URL_HINTS)
+                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
 
 
 def main():
@@ -268,7 +268,21 @@ def main():
                 skipped_broken += 1
                 continue
 
+        # detect_platform() is a pure URL-shape check and misses a platform
+        # that white-labels onto a custom domain -- confirmed live on 55 US
+        # schools whose PeopleAdmin instance lives at a school-branded host
+        # like jobs.cmich.edu rather than *.peopleadmin.com, so it fell
+        # through to the generic single-page scraper and undercounted
+        # badly (Rutgers alone: 859 real postings via the platform's own
+        # Atom feed, 31 from the generic scrape). schools_master.csv's
+        # ats_platform is the override for exactly this case, populated
+        # from a live probe rather than guessed -- consulted only when the
+        # URL itself gives detect_platform nothing to go on.
         platform = lib.detect_platform(url)
+        if not platform:
+            candidate = re.sub(r'[^a-z]', '', (s.get('ats_platform') or '').lower())
+            if candidate in lib.PLATFORM_ADAPTERS:
+                platform = candidate
         posts_path = os.path.join(POSTS_DIR, f'school_id_{sid}_job_postings.py')
         info_path = os.path.join(INFO_DIR, f'school_id_{sid}_job_info.py')
         if not args.force and (os.path.exists(posts_path) or os.path.exists(info_path)):

@@ -1,6 +1,6 @@
 """
 Job info scraper for school_id 877 - Rutgers University-New Brunswick (US)
-ATS platform: own website
+ATS platform: PeopleAdmin
 Careers link: https://jobs.rutgers.edu/postings/search
 
 Reads posting URLs from school_id_877_job_postings.checkpoint (this
@@ -30,7 +30,7 @@ import job_info_lib as jinfo
 SCHOOL_ID = 877
 SCHOOL_NAME = 'Rutgers University-New Brunswick'
 CAREERS_LINK = 'https://jobs.rutgers.edu/postings/search'
-ATS_PLATFORM = 'own website'
+ATS_PLATFORM = 'PeopleAdmin'
 USE_LLM = False
 
 JOB_POSTINGS_CHECKPOINT = os.path.join(

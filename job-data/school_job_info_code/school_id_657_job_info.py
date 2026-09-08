@@ -1,6 +1,6 @@
 """
 Job info scraper for school_id 657 - Oakland University (US)
-ATS platform: own website
+ATS platform: PeopleAdmin
 Careers link: https://jobs.oakland.edu/postings/search
 
 Reads posting URLs from school_id_657_job_postings.checkpoint (this
@@ -30,7 +30,7 @@ import job_info_lib as jinfo
 SCHOOL_ID = 657
 SCHOOL_NAME = 'Oakland University'
 CAREERS_LINK = 'https://jobs.oakland.edu/postings/search'
-ATS_PLATFORM = 'own website'
+ATS_PLATFORM = 'PeopleAdmin'
 USE_LLM = False
 
 JOB_POSTINGS_CHECKPOINT = os.path.join(

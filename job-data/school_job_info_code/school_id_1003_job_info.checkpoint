@@ -1,0 +1,41 @@
+{
+  "raw": {
+    "https://esc.interviewexchange.com/jobofferdetails.jsp?JOBID=172517": {
+      "title": "Hirezon / Interview Exchange",
+      "description": "Hirezon / Interview Exchange - WAF The resource you requested is not authorized. Your IP: 2605:ad80:ffff:5097:cd26:9211:a7a3:2f43 Cloudflare Ray ID: a366fe9568831e1d"
+    },
+    "https://esc.interviewexchange.com/jobofferdetails.jsp?JOBID=167565": {
+      "title": "Hirezon / Interview Exchange",
+      "description": "Hirezon / Interview Exchange - WAF The resource you requested is not authorized. Your IP: 2605:ad80:ffff:5097:cd26:9211:a7a3:2f43 Cloudflare Ray ID: a366fea49f59cb82"
+    }
+  },
+  "rows": {
+    "https://esc.interviewexchange.com/jobofferdetails.jsp?JOBID=172517": {
+      "school_id": 1003,
+      "posting_url": "https://esc.interviewexchange.com/jobofferdetails.jsp?JOBID=172517",
+      "job_title_in_post": "Hirezon / Interview Exchange",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://esc.interviewexchange.com/jobofferdetails.jsp?JOBID=167565": {
+      "school_id": 1003,
+      "posting_url": "https://esc.interviewexchange.com/jobofferdetails.jsp?JOBID=167565",
+      "job_title_in_post": "Hirezon / Interview Exchange",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    }
+  },
+  "school_id": 1003,
+  "status": "complete",
+  "updated_at": "2026-09-05T17:36:12+00:00",
+  "completed_at": "2026-09-05T17:36:12+00:00",
+  "last_error": ""
+}

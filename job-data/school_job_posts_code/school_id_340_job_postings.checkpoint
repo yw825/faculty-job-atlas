@@ -1,9 +1,16 @@
 {
-  "links": [],
+  "links": [
+    "https://faculty.miu.edu/",
+    "https://faculty.miu.edu",
+    "https://services.miu.edu/human-resources/faculty/",
+    "https://services.miu.edu/human-resources/faculty/returning-faculty/",
+    "https://services.miu.edu/human-resources/faculty/apply/guest-lecturer/",
+    "https://www.miu.edu/campus-directory"
+  ],
   "school_id": 340,
   "status": "complete",
-  "updated_at": "2026-09-04T22:19:37+00:00",
-  "started_at": "2026-09-04T22:19:27+00:00",
-  "completed_at": "2026-09-04T22:19:37+00:00",
+  "updated_at": "2026-09-08T01:35:03+00:00",
+  "started_at": "2026-09-08T01:34:48+00:00",
+  "completed_at": "2026-09-08T01:35:03+00:00",
   "last_error": ""
 }

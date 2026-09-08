@@ -1,9 +1,20 @@
 {
-  "links": [],
+  "links": [
+    "https://heritage.edu/faculty-staff/",
+    "https://heritage.edu/faculty-staff/directory/",
+    "https://heritage.edu/faculty-staff/cilt-resources-for-faculty/",
+    "https://heritage.edu/wp-content/uploads/2026/08/Faculty_Handbook_240826.pdf",
+    "https://heritage.edu/faculty-staff/human-resources/new-staff-and-faculty-onboarding-2/",
+    "https://heritage.edu/faculty-staff/human-resources/adjunct-onboarding/",
+    "https://heritage.jotform.com/240537466820054",
+    "https://heritage.edu/wp-content/uploads/2026/05/HR_EDU_TeacherPrep.BLE_2026.05.pdf",
+    "https://heritage.edu/wp-content/uploads/2026/04/HR_Nursing_Faculty.10.5mo_Psychiatric-Mental-Health_Rev.4.2026.pdf",
+    "https://heritage.edu/wp-content/uploads/2024/03/HR_Adjunct.Faculty.pdf"
+  ],
   "school_id": 1527,
   "status": "complete",
-  "updated_at": "2026-09-04T23:08:32+00:00",
-  "started_at": "2026-09-04T23:08:30+00:00",
-  "completed_at": "2026-09-04T23:08:32+00:00",
+  "updated_at": "2026-09-08T03:11:30+00:00",
+  "started_at": "2026-09-08T03:11:28+00:00",
+  "completed_at": "2026-09-08T03:11:30+00:00",
   "last_error": ""
 }

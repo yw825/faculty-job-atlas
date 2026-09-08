@@ -1,6 +1,6 @@
 """
 Job info scraper for school_id 806 - North Carolina State University at Raleigh (US)
-ATS platform: own website
+ATS platform: PeopleAdmin
 Careers link: https://jobs.ncsu.edu/postings/search
 
 Reads posting URLs from school_id_806_job_postings.checkpoint (this
@@ -30,7 +30,7 @@ import job_info_lib as jinfo
 SCHOOL_ID = 806
 SCHOOL_NAME = 'North Carolina State University at Raleigh'
 CAREERS_LINK = 'https://jobs.ncsu.edu/postings/search'
-ATS_PLATFORM = 'own website'
+ATS_PLATFORM = 'PeopleAdmin'
 USE_LLM = False
 
 JOB_POSTINGS_CHECKPOINT = os.path.join(

@@ -1,6 +1,6 @@
 """
 Job info scraper for school_id 1384 - The University of Texas Rio Grande Valley (US)
-ATS platform: own website
+ATS platform: PeopleAdmin
 Careers link: https://careers.utrgv.edu/postings/search
 
 Reads posting URLs from school_id_1384_job_postings.checkpoint (this
@@ -30,7 +30,7 @@ import job_info_lib as jinfo
 SCHOOL_ID = 1384
 SCHOOL_NAME = 'The University of Texas Rio Grande Valley'
 CAREERS_LINK = 'https://careers.utrgv.edu/postings/search'
-ATS_PLATFORM = 'own website'
+ATS_PLATFORM = 'PeopleAdmin'
 USE_LLM = False
 
 JOB_POSTINGS_CHECKPOINT = os.path.join(

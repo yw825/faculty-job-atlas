@@ -1,9 +1,15 @@
 {
   "links": [
+    "https://dos.mst.edu",
     "https://career.mst.edu",
+    "https://facultyaffairs.mst.edu/",
+    "https://facultysenate.mst.edu/",
+    "https://gradfac.mst.edu",
     "https://studentsuccess.mst.edu/careerdevelopmentcouncil/",
+    "https://www.mst.edu/facstaff",
     "https://jobs.mst.edu/careers/",
     "https://jobs.mst.edu/position-management/",
+    "https://jobs.mst.edu/resources/faculty-and-staff/",
     "https://jobs.mst.edu/careers/lifecommunityinrolla/",
     "https://jobs.mst.edu/careers/growatst/",
     "https://jobs.mst.edu/careers/searches/",
@@ -13,12 +19,14 @@
     "https://jobs.mst.edu/careers/work-authorizations/",
     "https://jobs.mst.edu/careers/instructions/",
     "https://jobs.mst.edu/",
-    "https://www.facebook.com/SandTCareers"
+    "https://www.facebook.com/SandTCareers",
+    "https://research.mst.edu/facultyexperts/",
+    "https://www.mst.edu/facstaff/"
   ],
   "school_id": 726,
   "status": "complete",
-  "updated_at": "2026-09-04T21:02:58+00:00",
-  "started_at": "2026-09-04T21:02:54+00:00",
-  "completed_at": "2026-09-04T21:02:58+00:00",
+  "updated_at": "2026-09-08T02:11:40+00:00",
+  "started_at": "2026-09-08T02:11:35+00:00",
+  "completed_at": "2026-09-08T02:11:40+00:00",
   "last_error": ""
 }

@@ -1,0 +1,146 @@
+{
+  "raw": {
+    "https://www.sandiego.edu/outcomes/careers/": {
+      "title": "University of San Diego Career Outcomes",
+      "description": "University of San Diego Career Outcomes - Student Outcomes - University of San Diego"
+    },
+    "https://www.sandiego.edu/outcomes/careers/search/": {
+      "title": "Search Careers",
+      "description": "Search Careers - Student Outcomes - University of San Diego"
+    },
+    "https://www.sandiego.edu/outcomes/careers/employment.php": {
+      "title": "Employment Outcomes",
+      "description": "Employment Outcomes - Student Outcomes - University of San Diego"
+    },
+    "https://www.sandiego.edu/outcomes/careers/graduate-school.php": {
+      "title": "Graduate School Destinations",
+      "description": "Graduate School Destinations - Student Outcomes - University of San Diego"
+    },
+    "https://www.sandiego.edu/outcomes/careers/volunteer-service.php": {
+      "title": "Volunteer Service Programs",
+      "description": "Volunteer Service Programs - Student Outcomes - University of San Diego"
+    },
+    "https://www.sandiego.edu/outcomes/careers/graduate/": {
+      "title": "Graduate Student Outcomes",
+      "description": "Graduate Student Outcomes - Student Outcomes - University of San Diego"
+    },
+    "https://www.sandiego.edu/outcomes/careers/alumni-highlights.php": {
+      "title": "Alumni Highlights",
+      "description": "Alumni Highlights - Student Outcomes - University of San Diego"
+    },
+    "https://www.sandiego.edu/outcomes/careers/why-hire-usd.php": {
+      "title": "Why Hire with USD?",
+      "description": "Why Hire with USD? - Student Outcomes - University of San Diego"
+    },
+    "https://www.sandiego.edu/jobs/": {
+      "title": "Jobs",
+      "description": "Jobs - Jobs @ USD - University of San Diego"
+    }
+  },
+  "rows": {
+    "https://www.sandiego.edu/outcomes/careers/": {
+      "school_id": 135,
+      "posting_url": "https://www.sandiego.edu/outcomes/careers/",
+      "job_title_in_post": "University of San Diego Career Outcomes",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "San Diego Career Outcomes",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://www.sandiego.edu/outcomes/careers/search/": {
+      "school_id": 135,
+      "posting_url": "https://www.sandiego.edu/outcomes/careers/search/",
+      "job_title_in_post": "Search Careers",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://www.sandiego.edu/outcomes/careers/employment.php": {
+      "school_id": 135,
+      "posting_url": "https://www.sandiego.edu/outcomes/careers/employment.php",
+      "job_title_in_post": "Employment Outcomes",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://www.sandiego.edu/outcomes/careers/graduate-school.php": {
+      "school_id": 135,
+      "posting_url": "https://www.sandiego.edu/outcomes/careers/graduate-school.php",
+      "job_title_in_post": "Graduate School Destinations",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://www.sandiego.edu/outcomes/careers/volunteer-service.php": {
+      "school_id": 135,
+      "posting_url": "https://www.sandiego.edu/outcomes/careers/volunteer-service.php",
+      "job_title_in_post": "Volunteer Service Programs",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://www.sandiego.edu/outcomes/careers/graduate/": {
+      "school_id": 135,
+      "posting_url": "https://www.sandiego.edu/outcomes/careers/graduate/",
+      "job_title_in_post": "Graduate Student Outcomes",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://www.sandiego.edu/outcomes/careers/alumni-highlights.php": {
+      "school_id": 135,
+      "posting_url": "https://www.sandiego.edu/outcomes/careers/alumni-highlights.php",
+      "job_title_in_post": "Alumni Highlights",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://www.sandiego.edu/outcomes/careers/why-hire-usd.php": {
+      "school_id": 135,
+      "posting_url": "https://www.sandiego.edu/outcomes/careers/why-hire-usd.php",
+      "job_title_in_post": "Why Hire with USD?",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://www.sandiego.edu/jobs/": {
+      "school_id": 135,
+      "posting_url": "https://www.sandiego.edu/jobs/",
+      "job_title_in_post": "Jobs",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    }
+  },
+  "school_id": 135,
+  "status": "complete",
+  "updated_at": "2026-09-05T02:40:05+00:00",
+  "completed_at": "2026-09-05T02:40:05+00:00",
+  "last_error": ""
+}

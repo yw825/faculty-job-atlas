@@ -1,6 +1,6 @@
 """
 Job info scraper for school_id 927 - SUNY Buffalo State University (US)
-ATS platform: own website
+ATS platform: PeopleAdmin
 Careers link: https://jobs.buffalostate.edu/
 
 Reads posting URLs from school_id_927_job_postings.checkpoint (this
@@ -30,7 +30,7 @@ import job_info_lib as jinfo
 SCHOOL_ID = 927
 SCHOOL_NAME = 'SUNY Buffalo State University'
 CAREERS_LINK = 'https://jobs.buffalostate.edu/'
-ATS_PLATFORM = 'own website'
+ATS_PLATFORM = 'PeopleAdmin'
 USE_LLM = False
 
 JOB_POSTINGS_CHECKPOINT = os.path.join(

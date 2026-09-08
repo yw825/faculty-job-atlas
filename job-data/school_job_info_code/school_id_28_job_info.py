@@ -1,6 +1,6 @@
 """
 Job info scraper for school_id 28 - Troy University (US)
-ATS platform: own website
+ATS platform: PeopleAdmin
 Careers link: https://www.troyuniversityjobs.com/postings/search?utf8=%E2%9C%93&query=&query_v0_posted_at_date=&3481%5B%5D=3&225=&435=&commit=Search
 
 Reads posting URLs from school_id_28_job_postings.checkpoint (this
@@ -30,7 +30,7 @@ import job_info_lib as jinfo
 SCHOOL_ID = 28
 SCHOOL_NAME = 'Troy University'
 CAREERS_LINK = 'https://www.troyuniversityjobs.com/postings/search?utf8=%E2%9C%93&query=&query_v0_posted_at_date=&3481%5B%5D=3&225=&435=&commit=Search'
-ATS_PLATFORM = 'own website'
+ATS_PLATFORM = 'PeopleAdmin'
 USE_LLM = False
 
 JOB_POSTINGS_CHECKPOINT = os.path.join(

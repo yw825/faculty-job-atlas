@@ -43,7 +43,7 @@ def find_links():
         raise RuntimeError(html)
     return lib.extract_links(html, CAREERS_LINK,
                              href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_URL_HINTS)
+                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
 
 
 def main():

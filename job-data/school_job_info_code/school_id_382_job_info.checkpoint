@@ -1,0 +1,71 @@
+{
+  "raw": {
+    "https://arcs.uchicago.edu/modules_for_academics/academic-career-activities/": {
+      "title": "Academic Career Activities",
+      "description": "Academic Career Activities | Academic Recruitment and Careers System (ARCS) Log In to ARCS Home About Institutional Partners Modules FAQs Academic Recruitment Academic Career Activities Review, Promotion and Tenure Training Policies & Processes Academic Recruitment Module: Policies & Guides Review Promotion and Tenure Module: Policies & Guides Academic Job Board Contact Us Select Page Academic Career Activities The Academic Career Activities module is designed to collect academic activity data for academic use in CVs and biosketches, collection and internal reporting of work achievements, accreditation and compliance reporting. Academic Career Activities also incorporates Dossier Institution, a private and portable document repository that gives each academics member their own account where they can collect and curate academic materials. Academics can easily share materials from this module into the review and promotion process, and their private dossier will stay with them throughout their career. What’s Changing: The University does not have a campus-wide system for academic data at this time, so for many units this will be a completely new tool. Units that have built their own academic data systems can discuss their unique data transition needs with the Provost’s Office. Manual activity reporting processes can be done in a completely digital environment that contains features designed to reduce academic data input time (e.g. the ability to quickly clone repeated activity). Some data will be auto-populated via integrations with UChicago systems such as Workday and the Academic Information System (AIS) for course information. Academics can save time on producing and updating CVs and biosketches by exporting data in formats appropriate for a range of uses, including grant applications. ← Academic Recruitment Review, Promotion and Tenure → © 2017 The University of Chicago All rights reserved Log In to ARCS"
+    },
+    "https://arcs.uchicago.edu/academic-jobs/": {
+      "title": "Academic Job Opportunities",
+      "description": "Academic Jobs | Academic Recruitment and Careers System (ARCS) Log In to ARCS Home About Institutional Partners Modules FAQs Academic Recruitment Academic Career Activities Review, Promotion and Tenure Training Policies & Processes Academic Recruitment Module: Policies & Guides Review Promotion and Tenure Module: Policies & Guides Academic Job Board Contact Us Select Page Academic Job Opportunities The University of Chicago has transitioned to a new Academic Recruitment job portal that uses Interfolio’s platform for applications and candidate evaluation. If you are looking for a particular job posting, following the link provided in the ad will take you directly to the position description. If you are performing a more general search for job opportunities, please review the job board at https://academicjobs.uchicago.edu/positions . Please contact us if you have any questions.  Academic Recruitment Visit this site if you applied for or are interested in a recent job posting. ← Academic Recruitment Module: Policies & Guides Policies & Processes Landing Page → © 2017 The University of Chicago All rights reserved Log In to ARCS"
+    },
+    "https://academicjobs.uchicago.edu/positions": {
+      "title": "Academic Jobs",
+      "description": "Academic Jobs | The University of Chicago The University of Chicago Academic Jobs The University of Chicago Academic Jobs University of Chicago Edward H. Levi Hall 5801 South Ellis Avenue Chicago, IL 60637 Office of the Provost Human Resources Job Board Feedback © The University of Chicago"
+    },
+    "https://academicjobs.uchicago.edu/": {
+      "title": "Academic Jobs",
+      "description": "Academic Jobs | The University of Chicago The University of Chicago Academic Jobs The University of Chicago Academic Jobs University of Chicago Edward H. Levi Hall 5801 South Ellis Avenue Chicago, IL 60637 Office of the Provost Human Resources Job Board Feedback © The University of Chicago"
+    }
+  },
+  "rows": {
+    "https://arcs.uchicago.edu/modules_for_academics/academic-career-activities/": {
+      "school_id": 382,
+      "posting_url": "https://arcs.uchicago.edu/modules_for_academics/academic-career-activities/",
+      "job_title_in_post": "Academic Career Activities",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://arcs.uchicago.edu/academic-jobs/": {
+      "school_id": 382,
+      "posting_url": "https://arcs.uchicago.edu/academic-jobs/",
+      "job_title_in_post": "Academic Job Opportunities",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://academicjobs.uchicago.edu/positions": {
+      "school_id": 382,
+      "posting_url": "https://academicjobs.uchicago.edu/positions",
+      "job_title_in_post": "Academic Jobs",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://academicjobs.uchicago.edu/": {
+      "school_id": 382,
+      "posting_url": "https://academicjobs.uchicago.edu/",
+      "job_title_in_post": "Academic Jobs",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    }
+  },
+  "school_id": 382,
+  "status": "complete",
+  "updated_at": "2026-09-05T03:35:08+00:00",
+  "completed_at": "2026-09-05T03:35:08+00:00",
+  "last_error": ""
+}

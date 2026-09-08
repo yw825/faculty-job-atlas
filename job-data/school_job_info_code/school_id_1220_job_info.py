@@ -1,6 +1,6 @@
 """
 Job info scraper for school_id 1220 - Villanova University (US)
-ATS platform: own website
+ATS platform: PeopleAdmin
 Careers link: http://jobs.villanova.edu
 
 Reads posting URLs from school_id_1220_job_postings.checkpoint (this
@@ -30,7 +30,7 @@ import job_info_lib as jinfo
 SCHOOL_ID = 1220
 SCHOOL_NAME = 'Villanova University'
 CAREERS_LINK = 'http://jobs.villanova.edu'
-ATS_PLATFORM = 'own website'
+ATS_PLATFORM = 'PeopleAdmin'
 USE_LLM = False
 
 JOB_POSTINGS_CHECKPOINT = os.path.join(

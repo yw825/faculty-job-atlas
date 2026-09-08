@@ -1,0 +1,41 @@
+{
+  "raw": {
+    "https://mission.edu/jobs/": {
+      "title": "Jobs",
+      "description": "Jobs | Mission University Search for: REQUEST ADMISSIONS INFORMATION VISIT CAMPUS LOGINS GIVE APPLY About About Accreditation Beliefs & Values Consumer Information Contact Institutional Learning Outcomes Institutional Research & Effectiveness Hours of Operation Leadership Admissions Admissions Connect With Us Request Info Visit Campus Student Housing Tuition & Fees Tuition and Fees 2026-27 Financial Aid Transfer to Mission U Academics Academics Academic Calendar Dual Credit / Dual Enrollment On-Campus Degrees Online Degrees Faculty Library Transcript Request Diploma Request Graduation Campus Events Campus Events Calendar Patriot Days Student Life Campus Events Calendar Chapel & Community Groups Dining Services 26-27 Student Housing Athletics Apparel Alumni & Friends Resources Book MU Worship Campus Mail Campus Security Consumer Information EADA Report Job Opportunities News Professional Licensure Disclosure Resources Student Login Jobs Mission University supports its students, graduates, and constituents through job placement and employment opportunities. If you are looking to hire or looking for a job, please see: https://www.bbfi.org/jobs About Beliefs & Values Accreditation Faculty Institutional Learning Outcomes Institutional Research & Effectiveness Hours of Operation Notice of Non-Discriminitory Policy CARES, CRRSA, ARP Funding Information Contact Us Admissions Apply Now Visit Campus Request Information Student Housing Transfer to Mission U Tuition & Fees Financial Aid Contact Admissions Academics On-Campus Degrees Online Degrees Library Transcript Request Diploma Request Meet Faculty Student Life Student Housing Campus Events Catalogs & Handbooks Registrar Financial Services Register for Classes Academic Calendar Campus Security Library Chapel Alumni & Friends Give Book a Team/Speaker Resources Academic Resources Financial Aid Consumer Information News Job Opportunities Campus Mail Dining Services EADA Report Campus Security Professional Licensure Disclosure Follow Follow Follow Follow Mission University 628 E Kearney Street Springfield, Missouri 65803 Student Login"
+    },
+    "https://www.bbfi.org/jobs": {
+      "title": "BBFI Jobs",
+      "description": "Job Openings — Baptist Bible Fellowship International BBFI Jobs The BBFI wants to help churches and ministries build great teams by providing an avenue for hiring or finding job openings within the BBFI. I am looking to hire I am looking for a job"
+    }
+  },
+  "rows": {
+    "https://mission.edu/jobs/": {
+      "school_id": 739,
+      "posting_url": "https://mission.edu/jobs/",
+      "job_title_in_post": "Jobs",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://www.bbfi.org/jobs": {
+      "school_id": 739,
+      "posting_url": "https://www.bbfi.org/jobs",
+      "job_title_in_post": "BBFI Jobs",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    }
+  },
+  "school_id": 739,
+  "status": "complete",
+  "updated_at": "2026-09-05T05:30:39+00:00",
+  "completed_at": "2026-09-05T05:30:39+00:00",
+  "last_error": ""
+}

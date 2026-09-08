@@ -1,6 +1,6 @@
 """
 Job info scraper for school_id 529 - Nicholls State University (US)
-ATS platform: own website
+ATS platform: PeopleAdmin
 Careers link: https://jobs.nicholls.edu
 
 Reads posting URLs from school_id_529_job_postings.checkpoint (this
@@ -30,7 +30,7 @@ import job_info_lib as jinfo
 SCHOOL_ID = 529
 SCHOOL_NAME = 'Nicholls State University'
 CAREERS_LINK = 'https://jobs.nicholls.edu'
-ATS_PLATFORM = 'own website'
+ATS_PLATFORM = 'PeopleAdmin'
 USE_LLM = False
 
 JOB_POSTINGS_CHECKPOINT = os.path.join(

@@ -1,6 +1,6 @@
 """
 Job info scraper for school_id 1430 - Texas State University (US)
-ATS platform: own website
+ATS platform: PeopleAdmin
 Careers link: https://jobs.hr.txstate.edu/postings/search?utf8=%E2%9C%93&query=&query_v0_posted_at_date=&query_position_type_id%5B%5D=2&435=&commit=Search
 
 Reads posting URLs from school_id_1430_job_postings.checkpoint (this
@@ -30,7 +30,7 @@ import job_info_lib as jinfo
 SCHOOL_ID = 1430
 SCHOOL_NAME = 'Texas State University'
 CAREERS_LINK = 'https://jobs.hr.txstate.edu/postings/search?utf8=%E2%9C%93&query=&query_v0_posted_at_date=&query_position_type_id%5B%5D=2&435=&commit=Search'
-ATS_PLATFORM = 'own website'
+ATS_PLATFORM = 'PeopleAdmin'
 USE_LLM = False
 
 JOB_POSTINGS_CHECKPOINT = os.path.join(

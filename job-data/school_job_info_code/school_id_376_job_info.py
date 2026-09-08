@@ -1,6 +1,6 @@
 """
 Job info scraper for school_id 376 - Loyola University Chicago (US)
-ATS platform: own website
+ATS platform: PeopleAdmin
 Careers link: https://www.careers.luc.edu/postings/search?&query=&query_v0_posted_at_date=&855%5B%5D=5&440=&436=&commit=Search
 
 Reads posting URLs from school_id_376_job_postings.checkpoint (this
@@ -30,7 +30,7 @@ import job_info_lib as jinfo
 SCHOOL_ID = 376
 SCHOOL_NAME = 'Loyola University Chicago'
 CAREERS_LINK = 'https://www.careers.luc.edu/postings/search?&query=&query_v0_posted_at_date=&855%5B%5D=5&440=&436=&commit=Search'
-ATS_PLATFORM = 'own website'
+ATS_PLATFORM = 'PeopleAdmin'
 USE_LLM = False
 
 JOB_POSTINGS_CHECKPOINT = os.path.join(

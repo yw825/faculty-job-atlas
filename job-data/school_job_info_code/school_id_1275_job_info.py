@@ -1,6 +1,6 @@
 """
 Job info scraper for school_id 1275 - University of South Carolina Beaufort (US)
-ATS platform: own website
+ATS platform: PeopleAdmin
 Careers link: https://uscjobs.sc.edu/
 
 Reads posting URLs from school_id_1275_job_postings.checkpoint (this
@@ -30,7 +30,7 @@ import job_info_lib as jinfo
 SCHOOL_ID = 1275
 SCHOOL_NAME = 'University of South Carolina Beaufort'
 CAREERS_LINK = 'https://uscjobs.sc.edu/'
-ATS_PLATFORM = 'own website'
+ATS_PLATFORM = 'PeopleAdmin'
 USE_LLM = False
 
 JOB_POSTINGS_CHECKPOINT = os.path.join(

@@ -1,6 +1,6 @@
 """
 Job info scraper for school_id 814 - University of North Carolina Wilmington (US)
-ATS platform: own website
+ATS platform: PeopleAdmin
 Careers link: https://jobs.uncw.edu/
 
 Reads posting URLs from school_id_814_job_postings.checkpoint (this
@@ -30,7 +30,7 @@ import job_info_lib as jinfo
 SCHOOL_ID = 814
 SCHOOL_NAME = 'University of North Carolina Wilmington'
 CAREERS_LINK = 'https://jobs.uncw.edu/'
-ATS_PLATFORM = 'own website'
+ATS_PLATFORM = 'PeopleAdmin'
 USE_LLM = False
 
 JOB_POSTINGS_CHECKPOINT = os.path.join(

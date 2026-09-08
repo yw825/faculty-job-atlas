@@ -1,0 +1,26 @@
+{
+  "raw": {
+    "https://daemen.applicantpro.com/jobs/": {
+      "title": "Current Job Listings",
+      "description": "Job Listings - Daemen University Jobs Current Job Listings Jobs Login Sign Up For Job Alerts! Resources Equal Employment Opportunity Policy/Affirmative Action Program EEO is the Law Hiring Software Maintained by isolved Talent Acquisition - © 2026 Refresh"
+    }
+  },
+  "rows": {
+    "https://daemen.applicantpro.com/jobs/": {
+      "school_id": 909,
+      "posting_url": "https://daemen.applicantpro.com/jobs/",
+      "job_title_in_post": "Current Job Listings",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    }
+  },
+  "school_id": 909,
+  "status": "complete",
+  "updated_at": "2026-09-05T17:15:39+00:00",
+  "completed_at": "2026-09-05T17:15:39+00:00",
+  "last_error": ""
+}

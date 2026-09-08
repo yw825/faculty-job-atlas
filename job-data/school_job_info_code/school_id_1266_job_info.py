@@ -1,6 +1,6 @@
 """
 Job info scraper for school_id 1266 - University of Rhode Island (US)
-ATS platform: own website
+ATS platform: PeopleAdmin
 Careers link: https://jobs.uri.edu/postings/search
 
 Reads posting URLs from school_id_1266_job_postings.checkpoint (this
@@ -30,7 +30,7 @@ import job_info_lib as jinfo
 SCHOOL_ID = 1266
 SCHOOL_NAME = 'University of Rhode Island'
 CAREERS_LINK = 'https://jobs.uri.edu/postings/search'
-ATS_PLATFORM = 'own website'
+ATS_PLATFORM = 'PeopleAdmin'
 USE_LLM = False
 
 JOB_POSTINGS_CHECKPOINT = os.path.join(

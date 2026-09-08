@@ -1,13 +1,17 @@
 {
   "links": [
+    "https://ripon.edu/academics/faculty/",
+    "https://ripon.edu/academics/overview/endowed-chairs-and-professors/",
     "https://ripon.edu/career-discovery-tour/",
+    "https://ripon.edu/academics/library/library-services/faculty-resources/",
+    "https://ripon.edu/academics/registrar/deans-list/",
     "https://apply.ripon.edu/account/login?r=https%3a%2f%2fapply.ripon.edu%2fapply%2fstatus",
     "https://ripon.edu/jobs-at-ripon/"
   ],
   "school_id": 1557,
   "status": "complete",
-  "updated_at": "2026-09-04T21:30:21+00:00",
-  "started_at": "2026-09-04T21:30:17+00:00",
-  "completed_at": "2026-09-04T21:30:21+00:00",
+  "updated_at": "2026-09-08T03:14:14+00:00",
+  "started_at": "2026-09-08T03:14:12+00:00",
+  "completed_at": "2026-09-08T03:14:14+00:00",
   "last_error": ""
 }

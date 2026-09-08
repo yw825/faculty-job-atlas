@@ -1,5 +1,6 @@
 {
   "links": [
+    "https://jobs.nmu.edu/faculty",
     "https://jobs.nmu.edu/jobs/search/search-page-faculty",
     "https://jobs.nmu.edu/jobs/search/search-page-staff",
     "https://jobs.nmu.edu/jobs/search",
@@ -8,12 +9,13 @@
     "https://internaljobs.nmu.edu/home",
     "https://nmu.edu/careerservices/",
     "https://nmu.edu/careerservices/handshake",
+    "https://nmu.edu/facultystaff",
     "https://jobs.nmu.edu/home"
   ],
   "school_id": 652,
   "status": "complete",
-  "updated_at": "2026-09-04T21:00:37+00:00",
-  "started_at": "2026-09-04T21:00:35+00:00",
-  "completed_at": "2026-09-04T21:00:37+00:00",
+  "updated_at": "2026-09-08T02:05:50+00:00",
+  "started_at": "2026-09-08T02:05:48+00:00",
+  "completed_at": "2026-09-08T02:05:50+00:00",
   "last_error": ""
 }

@@ -1,6 +1,6 @@
 """
 Job info scraper for school_id 1429 - University of the Incarnate Word (US)
-ATS platform: own website
+ATS platform: PeopleAdmin
 Careers link: https://jobs.uiw.edu/postings/search
 
 Reads posting URLs from school_id_1429_job_postings.checkpoint (this
@@ -30,7 +30,7 @@ import job_info_lib as jinfo
 SCHOOL_ID = 1429
 SCHOOL_NAME = 'University of the Incarnate Word'
 CAREERS_LINK = 'https://jobs.uiw.edu/postings/search'
-ATS_PLATFORM = 'own website'
+ATS_PLATFORM = 'PeopleAdmin'
 USE_LLM = False
 
 JOB_POSTINGS_CHECKPOINT = os.path.join(

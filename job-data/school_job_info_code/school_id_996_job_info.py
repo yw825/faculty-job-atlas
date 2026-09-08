@@ -1,6 +1,6 @@
 """
 Job info scraper for school_id 996 - Nazareth University (US)
-ATS platform: own website
+ATS platform: PeopleAdmin
 Careers link: https://jobs.naz.edu/postings/search?utf8=%E2%9C%93&query=&query_v0_posted_at_date=&273=&query_organizational_tier_3_id=any&493=&query_position_type_id=2&commit=Search
 
 Reads posting URLs from school_id_996_job_postings.checkpoint (this
@@ -30,7 +30,7 @@ import job_info_lib as jinfo
 SCHOOL_ID = 996
 SCHOOL_NAME = 'Nazareth University'
 CAREERS_LINK = 'https://jobs.naz.edu/postings/search?utf8=%E2%9C%93&query=&query_v0_posted_at_date=&273=&query_organizational_tier_3_id=any&493=&query_position_type_id=2&commit=Search'
-ATS_PLATFORM = 'own website'
+ATS_PLATFORM = 'PeopleAdmin'
 USE_LLM = False
 
 JOB_POSTINGS_CHECKPOINT = os.path.join(

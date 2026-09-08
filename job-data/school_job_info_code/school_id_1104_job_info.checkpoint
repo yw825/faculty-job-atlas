@@ -1,0 +1,56 @@
+{
+  "raw": {
+    "https://swosu.csod.com/ux/ats/careersite/4/requisition/743": {
+      "title": "+ Cornerstone OnDemand +",
+      "description": "+ Cornerstone OnDemand + Password Login 26.2.4.17 | Forgot Password?"
+    },
+    "https://swosu.csod.com/ux/ats/careersite/4/requisition/742": {
+      "title": "+ Cornerstone OnDemand +",
+      "description": "+ Cornerstone OnDemand + Password Login 26.2.4.17 | Forgot Password?"
+    },
+    "https://swosu.csod.com/ux/ats/careersite/4/requisition/719": {
+      "title": "+ Cornerstone OnDemand +",
+      "description": "+ Cornerstone OnDemand + Password Login 26.2.4.17 | Forgot Password?"
+    }
+  },
+  "rows": {
+    "https://swosu.csod.com/ux/ats/careersite/4/requisition/743": {
+      "school_id": 1104,
+      "posting_url": "https://swosu.csod.com/ux/ats/careersite/4/requisition/743",
+      "job_title_in_post": "+ Cornerstone OnDemand +",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://swosu.csod.com/ux/ats/careersite/4/requisition/742": {
+      "school_id": 1104,
+      "posting_url": "https://swosu.csod.com/ux/ats/careersite/4/requisition/742",
+      "job_title_in_post": "+ Cornerstone OnDemand +",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://swosu.csod.com/ux/ats/careersite/4/requisition/719": {
+      "school_id": 1104,
+      "posting_url": "https://swosu.csod.com/ux/ats/careersite/4/requisition/719",
+      "job_title_in_post": "+ Cornerstone OnDemand +",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    }
+  },
+  "school_id": 1104,
+  "status": "complete",
+  "updated_at": "2026-09-05T18:07:55+00:00",
+  "completed_at": "2026-09-05T18:07:55+00:00",
+  "last_error": ""
+}

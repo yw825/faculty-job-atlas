@@ -1,6 +1,6 @@
 """
 Job info scraper for school_id 386 - Northern Illinois University (US)
-ATS platform: own website
+ATS platform: PeopleAdmin
 Careers link: https://employment.niu.edu/
 
 Reads posting URLs from school_id_386_job_postings.checkpoint (this
@@ -30,7 +30,7 @@ import job_info_lib as jinfo
 SCHOOL_ID = 386
 SCHOOL_NAME = 'Northern Illinois University'
 CAREERS_LINK = 'https://employment.niu.edu/'
-ATS_PLATFORM = 'own website'
+ATS_PLATFORM = 'PeopleAdmin'
 USE_LLM = False
 
 JOB_POSTINGS_CHECKPOINT = os.path.join(

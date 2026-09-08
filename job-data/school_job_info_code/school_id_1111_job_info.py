@@ -1,6 +1,6 @@
 """
 Job info scraper for school_id 1111 - Oregon Institute of Technology (US)
-ATS platform: own website
+ATS platform: PeopleAdmin
 Careers link: https://jobs.oit.edu/postings/search
 
 Reads posting URLs from school_id_1111_job_postings.checkpoint (this
@@ -30,7 +30,7 @@ import job_info_lib as jinfo
 SCHOOL_ID = 1111
 SCHOOL_NAME = 'Oregon Institute of Technology'
 CAREERS_LINK = 'https://jobs.oit.edu/postings/search'
-ATS_PLATFORM = 'own website'
+ATS_PLATFORM = 'PeopleAdmin'
 USE_LLM = False
 
 JOB_POSTINGS_CHECKPOINT = os.path.join(

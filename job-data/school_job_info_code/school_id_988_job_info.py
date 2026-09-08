@@ -1,6 +1,6 @@
 """
 Job info scraper for school_id 988 - SUNY College at Potsdam (US)
-ATS platform: own website
+ATS platform: PeopleAdmin
 Careers link: https://employment.potsdam.edu/postings/search
 
 Reads posting URLs from school_id_988_job_postings.checkpoint (this
@@ -30,7 +30,7 @@ import job_info_lib as jinfo
 SCHOOL_ID = 988
 SCHOOL_NAME = 'SUNY College at Potsdam'
 CAREERS_LINK = 'https://employment.potsdam.edu/postings/search'
-ATS_PLATFORM = 'own website'
+ATS_PLATFORM = 'PeopleAdmin'
 USE_LLM = False
 
 JOB_POSTINGS_CHECKPOINT = os.path.join(

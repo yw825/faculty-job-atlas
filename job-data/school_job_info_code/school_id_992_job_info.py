@@ -1,6 +1,6 @@
 """
 Job info scraper for school_id 992 - SUNY at Purchase College (US)
-ATS platform: own website
+ATS platform: PeopleAdmin
 Careers link: https://jobs.purchase.edu/
 
 Reads posting URLs from school_id_992_job_postings.checkpoint (this
@@ -30,7 +30,7 @@ import job_info_lib as jinfo
 SCHOOL_ID = 992
 SCHOOL_NAME = 'SUNY at Purchase College'
 CAREERS_LINK = 'https://jobs.purchase.edu/'
-ATS_PLATFORM = 'own website'
+ATS_PLATFORM = 'PeopleAdmin'
 USE_LLM = False
 
 JOB_POSTINGS_CHECKPOINT = os.path.join(

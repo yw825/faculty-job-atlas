@@ -1,6 +1,6 @@
 """
 Job info scraper for school_id 19 - University of Montevallo (US)
-ATS platform: own website
+ATS platform: PeopleAdmin
 Careers link: https://jobs.montevallo.edu/postings/search?utf8=%E2%9C%93&query=&query_v0_posted_at_date=&query_organizational_tier_3_id%5B%5D=any&440=&query_position_type_id%5B%5D=2&commit=Search
 
 Reads posting URLs from school_id_19_job_postings.checkpoint (this
@@ -30,7 +30,7 @@ import job_info_lib as jinfo
 SCHOOL_ID = 19
 SCHOOL_NAME = 'University of Montevallo'
 CAREERS_LINK = 'https://jobs.montevallo.edu/postings/search?utf8=%E2%9C%93&query=&query_v0_posted_at_date=&query_organizational_tier_3_id%5B%5D=any&440=&query_position_type_id%5B%5D=2&commit=Search'
-ATS_PLATFORM = 'own website'
+ATS_PLATFORM = 'PeopleAdmin'
 USE_LLM = False
 
 JOB_POSTINGS_CHECKPOINT = os.path.join(

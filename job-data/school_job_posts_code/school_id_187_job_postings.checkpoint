@@ -1,15 +1,19 @@
 {
   "links": [
+    "https://ccsu.blue/pipeline",
     "https://www.ccsu.edu/accepted/admission-housing-deposits",
     "https://www.ccsu.edu/careerdevelopment",
     "https://www.ccsu.edu/article/grant-award-foster-job-readiness-new-scale",
+    "https://www.ccsu.edu/directory",
     "https://www.ccsu.edu/hr/job-opportunities",
-    "https://www.ccsu.edu/hr/employees-and-applicants-central-job-opportunities"
+    "https://www.ccsu.edu/sites/default/files/2024-10/Hiring%20Manual%20-%20Part-time%20Adjuncts.pdf",
+    "https://www.ccsu.edu/hr/employees-and-applicants-central-job-opportunities",
+    "https://www.ccsu.edu/hr/part-time-faculty-information"
   ],
   "school_id": 187,
   "status": "complete",
-  "updated_at": "2026-09-04T20:46:53+00:00",
-  "started_at": "2026-09-04T20:46:50+00:00",
-  "completed_at": "2026-09-04T20:46:53+00:00",
+  "updated_at": "2026-09-08T01:23:05+00:00",
+  "started_at": "2026-09-08T01:23:03+00:00",
+  "completed_at": "2026-09-08T01:23:05+00:00",
   "last_error": ""
 }

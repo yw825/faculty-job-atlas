@@ -1,0 +1,26 @@
+{
+  "raw": {
+    "https://jobs.asbury.edu/applicant": {
+      "title": "Jobs @ Asbury University",
+      "description": "Jobs @ Asbury University First time here? Sign up for an account Email Password Remember me Forgot your password? Log in"
+    }
+  },
+  "rows": {
+    "https://jobs.asbury.edu/applicant": {
+      "school_id": 508,
+      "posting_url": "https://jobs.asbury.edu/applicant",
+      "job_title_in_post": "Jobs @ Asbury University",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    }
+  },
+  "school_id": 508,
+  "status": "complete",
+  "updated_at": "2026-09-05T04:06:26+00:00",
+  "completed_at": "2026-09-05T04:06:26+00:00",
+  "last_error": ""
+}

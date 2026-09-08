@@ -1,9 +1,11 @@
 {
-  "links": [],
+  "links": [
+    "https://www.skidmore.edu/faculty-staff/index.php"
+  ],
   "school_id": 1004,
   "status": "complete",
-  "updated_at": "2026-09-04T22:51:25+00:00",
-  "started_at": "2026-09-04T22:51:21+00:00",
-  "completed_at": "2026-09-04T22:51:25+00:00",
+  "updated_at": "2026-09-08T02:35:10+00:00",
+  "started_at": "2026-09-08T02:35:07+00:00",
+  "completed_at": "2026-09-08T02:35:10+00:00",
   "last_error": ""
 }
