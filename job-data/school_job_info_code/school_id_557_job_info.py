@@ -1,6 +1,6 @@
 """
 Job info scraper for school_id 557 - Bay Path University (US)
-ATS platform: own website
+ATS platform: Paycom
 Careers link: https://www.paycomonline.net/v4/ats/web.php/portal/3A2948EF284B8722FEE42E01FB156C27/career-page
 
 Reads posting URLs from school_id_557_job_postings.checkpoint (this
@@ -30,7 +30,7 @@ import job_info_lib as jinfo
 SCHOOL_ID = 557
 SCHOOL_NAME = 'Bay Path University'
 CAREERS_LINK = 'https://www.paycomonline.net/v4/ats/web.php/portal/3A2948EF284B8722FEE42E01FB156C27/career-page'
-ATS_PLATFORM = 'own website'
+ATS_PLATFORM = 'Paycom'
 USE_LLM = False
 
 JOB_POSTINGS_CHECKPOINT = os.path.join(

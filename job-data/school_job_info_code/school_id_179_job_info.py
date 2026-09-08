@@ -1,6 +1,6 @@
 """
 Job info scraper for school_id 179 - University of Bridgeport (US)
-ATS platform: own website
+ATS platform: Paycom
 Careers link: https://www.paycomonline.net/v4/ats/web.php/portal/A1640D81A59AFDAFC5501F5B06EF1B08/career-page
 
 Reads posting URLs from school_id_179_job_postings.checkpoint (this
@@ -30,7 +30,7 @@ import job_info_lib as jinfo
 SCHOOL_ID = 179
 SCHOOL_NAME = 'University of Bridgeport'
 CAREERS_LINK = 'https://www.paycomonline.net/v4/ats/web.php/portal/A1640D81A59AFDAFC5501F5B06EF1B08/career-page'
-ATS_PLATFORM = 'own website'
+ATS_PLATFORM = 'Paycom'
 USE_LLM = False
 
 JOB_POSTINGS_CHECKPOINT = os.path.join(

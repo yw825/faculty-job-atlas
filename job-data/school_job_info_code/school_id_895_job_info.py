@@ -1,6 +1,6 @@
 """
 Job info scraper for school_id 895 - New Mexico Highlands University (US)
-ATS platform: own website
+ATS platform: Paycom
 Careers link: https://www.paycomonline.net/v4/ats/web.php/portal/2881FFE43C19E2921F626A9C2B366153/career-page
 
 Reads posting URLs from school_id_895_job_postings.checkpoint (this
@@ -30,7 +30,7 @@ import job_info_lib as jinfo
 SCHOOL_ID = 895
 SCHOOL_NAME = 'New Mexico Highlands University'
 CAREERS_LINK = 'https://www.paycomonline.net/v4/ats/web.php/portal/2881FFE43C19E2921F626A9C2B366153/career-page'
-ATS_PLATFORM = 'own website'
+ATS_PLATFORM = 'Paycom'
 USE_LLM = False
 
 JOB_POSTINGS_CHECKPOINT = os.path.join(

@@ -1,6 +1,6 @@
 """
 Job info scraper for school_id 868 - Saint Peter's University (US)
-ATS platform: own website
+ATS platform: Paycom
 Careers link: https://www.paycomonline.net/v4/ats/web.php/portal/055E28882001FE667534B0880CFCD275/career-page
 
 Reads posting URLs from school_id_868_job_postings.checkpoint (this
@@ -30,7 +30,7 @@ import job_info_lib as jinfo
 SCHOOL_ID = 868
 SCHOOL_NAME = 'Saint Peter\'s University'
 CAREERS_LINK = 'https://www.paycomonline.net/v4/ats/web.php/portal/055E28882001FE667534B0880CFCD275/career-page'
-ATS_PLATFORM = 'own website'
+ATS_PLATFORM = 'Paycom'
 USE_LLM = False
 
 JOB_POSTINGS_CHECKPOINT = os.path.join(

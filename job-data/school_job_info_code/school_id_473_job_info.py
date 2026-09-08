@@ -1,6 +1,6 @@
 """
 Job info scraper for school_id 473 - Ottawa University-Ottawa (US)
-ATS platform: own website
+ATS platform: Paycom
 Careers link: https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=AB201C499D53A5D603D5BE296513B383
 
 Reads posting URLs from school_id_473_job_postings.checkpoint (this
@@ -30,7 +30,7 @@ import job_info_lib as jinfo
 SCHOOL_ID = 473
 SCHOOL_NAME = 'Ottawa University-Ottawa'
 CAREERS_LINK = 'https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=AB201C499D53A5D603D5BE296513B383'
-ATS_PLATFORM = 'own website'
+ATS_PLATFORM = 'Paycom'
 USE_LLM = False
 
 JOB_POSTINGS_CHECKPOINT = os.path.join(

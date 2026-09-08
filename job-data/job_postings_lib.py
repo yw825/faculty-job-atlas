@@ -317,6 +317,8 @@ def detect_platform(url):
     # DirectEmployers network boards all sit on a bare *.jobs domain
     if host.endswith('.jobs'):
         return 'dejobs'
+    if 'paycomonline.net' in host:
+        return 'paycom'
     # UC Recruit instances are recruit*/apo-recruit hosts under a UC campus
     if re.match(r'^(?:ap)?recruit(?:\.[a-z]+)?\.[a-z]+\.edu$', host) or \
             re.match(r'^apol-recruit\.[a-z]+\.edu$', host):
@@ -787,6 +789,71 @@ def scrape_smartrecruiters(url):
     return links
 
 
+def scrape_paycom(url):
+    """Paycom Applicant Tracking. The careers link carries a clientkey, and
+    each posting sits at /v4/ats/web.php/portal/<clientkey>/jobs/<job id>.
+
+    Two things make this need a browser. The listing is script-built, so a
+    plain fetch returns a shell with no job ids in it at all. And it pages
+    ten at a time behind NUMBERED BUTTONS rather than links -- Golden Gate
+    reports "19 Results" but yields 10 ids until page 2 is clicked, and
+    scrolling does nothing -- so the page buttons are clicked in turn and
+    the ids unioned. Twenty US schools on Paycom were holding zero postings.
+    """
+    browser = get_browser()
+    if browser is None:
+        raise RuntimeError('playwright unavailable')
+    parsed = urlparse(url)
+    base = f'https://{parsed.netloc}'
+    path_re = re.compile(r'(/v4/ats/web\.php/portal/[A-Za-z0-9]+/jobs/\d+)')
+
+    page = browser.new_page(user_agent=UA)
+    found = []
+    seen = set()
+
+    def harvest():
+        for path in path_re.findall(page.content()):
+            if path not in seen:
+                seen.add(path)
+                found.append(base + path)
+
+    try:
+        page.goto(url, timeout=30000, wait_until='domcontentloaded')
+        page.wait_for_timeout(5000)
+        harvest()
+        # Page buttons are plain numbers; click each in turn, re-reading the
+        # list after every click. Bounded so an odd control can't loop.
+        for page_no in range(2, 30):
+            # Matched by reading each button's text rather than with a
+            # :text-is() selector, which never matches here -- the number is
+            # nested inside the button, not its direct text.
+            button = None
+            for candidate in page.query_selector_all('button'):
+                try:
+                    if (candidate.inner_text() or '').strip() == str(page_no):
+                        button = candidate
+                        break
+                except Exception:
+                    continue
+            if button is None:
+                break
+            try:
+                button.click(timeout=5000)
+            except Exception:
+                break
+            page.wait_for_timeout(2500)
+            before = len(seen)
+            harvest()
+            if len(seen) == before:
+                break
+    finally:
+        page.close()
+
+    if not found:
+        raise RuntimeError('no paycom postings found')
+    return found
+
+
 def scrape_ucrecruit(url):
     """UC Recruit -- the University of California's own faculty hiring
     system, one instance per campus (recruit.apo.ucla.edu,
@@ -1086,6 +1153,7 @@ PLATFORM_ADAPTERS = {
     'academicjobsonline': lambda url, name: scrape_academicjobsonline(url),
     'dejobs': lambda url, name: scrape_dejobs(url),
     'ucrecruit': lambda url, name: scrape_ucrecruit(url),
+    'paycom': lambda url, name: scrape_paycom(url),
     'apella': lambda url, name: scrape_apella(url, name),
     'poland_nauka': lambda url, name: scrape_poland_nauka(url, name),
 }

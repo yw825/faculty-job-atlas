@@ -1,6 +1,6 @@
 """
 Job info scraper for school_id 499 - Midway University (US)
-ATS platform: own website
+ATS platform: Paycom
 Careers link: https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=0360F3B5A2EC741788B51C99C6E17513&jpt=
 
 Reads posting URLs from school_id_499_job_postings.checkpoint (this
@@ -30,7 +30,7 @@ import job_info_lib as jinfo
 SCHOOL_ID = 499
 SCHOOL_NAME = 'Midway University'
 CAREERS_LINK = 'https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=0360F3B5A2EC741788B51C99C6E17513&jpt='
-ATS_PLATFORM = 'own website'
+ATS_PLATFORM = 'Paycom'
 USE_LLM = False
 
 JOB_POSTINGS_CHECKPOINT = os.path.join(

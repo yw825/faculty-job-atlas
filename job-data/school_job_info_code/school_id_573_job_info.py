@@ -1,6 +1,6 @@
 """
 Job info scraper for school_id 573 - Western New England University (US)
-ATS platform: own website
+ATS platform: Paycom
 Careers link: https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=3C67A483237F6A324625AB95D568B0C1&fromClientSide=true
 
 Reads posting URLs from school_id_573_job_postings.checkpoint (this
@@ -30,7 +30,7 @@ import job_info_lib as jinfo
 SCHOOL_ID = 573
 SCHOOL_NAME = 'Western New England University'
 CAREERS_LINK = 'https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=3C67A483237F6A324625AB95D568B0C1&fromClientSide=true'
-ATS_PLATFORM = 'own website'
+ATS_PLATFORM = 'Paycom'
 USE_LLM = False
 
 JOB_POSTINGS_CHECKPOINT = os.path.join(

@@ -2,7 +2,7 @@
   "links": [],
   "school_id": 1095,
   "status": "error",
-  "updated_at": "2026-09-08T17:42:49+00:00",
+  "updated_at": "2026-09-08T17:53:40+00:00",
   "started_at": "2026-09-08T02:42:35+00:00",
   "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.bacone.edu/job-openings/\nCall log:\n  - navigating to \"https://www.bacone.edu/job-openings/\", waiting until \"domcontentloaded\"\n"
 }

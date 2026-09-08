@@ -1,6 +1,6 @@
 """
 Job info scraper for school_id 969 - Metropolitan College of New York (US)
-ATS platform: own website
+ATS platform: Paycom
 Careers link: https://www.paycomonline.net/v4/ats/web.php/portal/0AFB6B93B59D609A2037FAB5547D9B02/career-page
 
 Reads posting URLs from school_id_969_job_postings.checkpoint (this
@@ -30,7 +30,7 @@ import job_info_lib as jinfo
 SCHOOL_ID = 969
 SCHOOL_NAME = 'Metropolitan College of New York'
 CAREERS_LINK = 'https://www.paycomonline.net/v4/ats/web.php/portal/0AFB6B93B59D609A2037FAB5547D9B02/career-page'
-ATS_PLATFORM = 'own website'
+ATS_PLATFORM = 'Paycom'
 USE_LLM = False
 
 JOB_POSTINGS_CHECKPOINT = os.path.join(

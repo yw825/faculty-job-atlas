@@ -1,6 +1,6 @@
 """
 Job info scraper for school_id 145 - Dominican University of California (US)
-ATS platform: own website
+ATS platform: Paycom
 Careers link: https://www.paycomonline.net/v4/ats/web.php/portal/379D25BEB04D4E67539308A7BD902D82/career-page
 
 Reads posting URLs from school_id_145_job_postings.checkpoint (this
@@ -30,7 +30,7 @@ import job_info_lib as jinfo
 SCHOOL_ID = 145
 SCHOOL_NAME = 'Dominican University of California'
 CAREERS_LINK = 'https://www.paycomonline.net/v4/ats/web.php/portal/379D25BEB04D4E67539308A7BD902D82/career-page'
-ATS_PLATFORM = 'own website'
+ATS_PLATFORM = 'Paycom'
 USE_LLM = False
 
 JOB_POSTINGS_CHECKPOINT = os.path.join(

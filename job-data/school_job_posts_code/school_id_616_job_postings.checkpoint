@@ -2,7 +2,7 @@
   "links": [],
   "school_id": 616,
   "status": "error",
-  "updated_at": "2026-09-08T17:42:49+00:00",
+  "updated_at": "2026-09-08T17:52:23+00:00",
   "started_at": "2026-09-08T02:03:09+00:00",
   "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"#VALUE!\", waiting until \"domcontentloaded\"\n"
 }

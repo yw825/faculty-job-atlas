@@ -1,6 +1,6 @@
 """
 Job info scraper for school_id 1138 - Wilson College (US)
-ATS platform: own website
+ATS platform: Paycom
 Careers link: https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=04C041120ED4B4CA39C09ACAC69625CF
 
 Reads posting URLs from school_id_1138_job_postings.checkpoint (this
@@ -30,7 +30,7 @@ import job_info_lib as jinfo
 SCHOOL_ID = 1138
 SCHOOL_NAME = 'Wilson College'
 CAREERS_LINK = 'https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=04C041120ED4B4CA39C09ACAC69625CF'
-ATS_PLATFORM = 'own website'
+ATS_PLATFORM = 'Paycom'
 USE_LLM = False
 
 JOB_POSTINGS_CHECKPOINT = os.path.join(

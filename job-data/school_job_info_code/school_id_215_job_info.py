@@ -1,6 +1,6 @@
 """
 Job info scraper for school_id 215 - Goldey-Beacom College (US)
-ATS platform: own website
+ATS platform: Paycom
 Careers link: https://www.paycomonline.net/v4/ats/web.php/portal/019DF7F6E271614BAB2785B88C6A379F/career-page
 
 Reads posting URLs from school_id_215_job_postings.checkpoint (this
@@ -30,7 +30,7 @@ import job_info_lib as jinfo
 SCHOOL_ID = 215
 SCHOOL_NAME = 'Goldey-Beacom College'
 CAREERS_LINK = 'https://www.paycomonline.net/v4/ats/web.php/portal/019DF7F6E271614BAB2785B88C6A379F/career-page'
-ATS_PLATFORM = 'own website'
+ATS_PLATFORM = 'Paycom'
 USE_LLM = False
 
 JOB_POSTINGS_CHECKPOINT = os.path.join(

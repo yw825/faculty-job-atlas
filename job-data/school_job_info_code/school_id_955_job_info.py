@@ -1,6 +1,6 @@
 """
 Job info scraper for school_id 955 - Iona University (US)
-ATS platform: own website
+ATS platform: Paycom
 Careers link: https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=F28471DFA0F4183976163E181A695BE1
 
 Reads posting URLs from school_id_955_job_postings.checkpoint (this
@@ -30,7 +30,7 @@ import job_info_lib as jinfo
 SCHOOL_ID = 955
 SCHOOL_NAME = 'Iona University'
 CAREERS_LINK = 'https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=F28471DFA0F4183976163E181A695BE1'
-ATS_PLATFORM = 'own website'
+ATS_PLATFORM = 'Paycom'
 USE_LLM = False
 
 JOB_POSTINGS_CHECKPOINT = os.path.join(

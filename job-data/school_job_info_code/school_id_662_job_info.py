@@ -1,6 +1,6 @@
 """
 Job info scraper for school_id 662 - Walsh College (US)
-ATS platform: own website
+ATS platform: Paycom
 Careers link: https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=8B50A1FFE490890FFF138330679CB02A&fromClientSide=true
 
 Reads posting URLs from school_id_662_job_postings.checkpoint (this
@@ -30,7 +30,7 @@ import job_info_lib as jinfo
 SCHOOL_ID = 662
 SCHOOL_NAME = 'Walsh College'
 CAREERS_LINK = 'https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=8B50A1FFE490890FFF138330679CB02A&fromClientSide=true'
-ATS_PLATFORM = 'own website'
+ATS_PLATFORM = 'Paycom'
 USE_LLM = False
 
 JOB_POSTINGS_CHECKPOINT = os.path.join(
