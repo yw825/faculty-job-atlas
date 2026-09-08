@@ -1611,6 +1611,16 @@ const fJobTitle = document.getElementById('f-job-title');
    neither a department nor keywords, so they can ONLY be found by title) --
    but it also matches words that are part of the job's name rather than its
    field, so it is offered as a switch instead of being assumed. */
+/* postings.json stores each school's shared URL prefix once (schools[sid].up)
+   and keeps only the differing tail on each posting -- the URLs were 2.17 MB
+   of a 6.45 MB payload before that. Rejoin them for display. */
+function jobUrl(j){
+  if(!j.u) return '';
+  if(/^https?:\/\//i.test(j.u)) return j.u;
+  const school = JOBS && JOBS.schools ? JOBS.schools[j.s] : null;
+  return ((school && school.up) ? school.up : '') + j.u;
+}
+
 function jobSearchText(j, withTitle){
   if(withTitle){
     if(j._st === undefined) j._st = [j.t, j.d, j.k].filter(Boolean).join(' | ').toLowerCase();
@@ -1856,7 +1866,7 @@ function renderJobList(jobs){
       (j.k ? '<div class="job-row-kw">'+escapeHtml(j.k)+'</div>' : '')+
       (dates.length ? '<div class="row-loc">'+dates.join(' · ')+'</div>' : '')+
       '<div class="row-tags">'+tags+'</div>'+
-      (j.u ? '<div class="row-links"><a class="pop-link" href="'+escapeHtml(j.u)+'" target="_blank" rel="noopener">View posting ↗</a></div>' : '');
+      (j.u ? '<div class="row-links"><a class="pop-link" href="'+escapeHtml(jobUrl(j))+'" target="_blank" rel="noopener">View posting ↗</a></div>' : '');
     row.addEventListener('click', function(e){
       if(e.target.closest('a')) return;
       if(school.lat != null) programmaticSetView([school.lat, school.lon], 11, { animate:true });
@@ -1914,7 +1924,7 @@ function applyJobFilters(){
     const marker = L.marker([school.lat, school.lon], { icon: pinIcon(school) });
     const top = list.slice(0, 8).map(j =>
       '<div style="margin:6px 0;">'+
-        (j.u ? '<a class="pop-link" href="'+escapeHtml(j.u)+'" target="_blank" rel="noopener">'+escapeHtml(j.t)+'</a>'
+        (j.u ? '<a class="pop-link" href="'+escapeHtml(jobUrl(j))+'" target="_blank" rel="noopener">'+escapeHtml(j.t)+'</a>'
              : escapeHtml(j.t))+
       '</div>').join('');
     marker.bindPopup(

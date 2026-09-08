@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1515 - Washington State University (US)
-ATS platform: own website
-Careers link: https://wd5.myworkday.com/wsu/d/task/1422$478.htmld
+ATS platform: Workday
+Careers link: https://wsu.wd5.myworkdayjobs.com/WSU_Jobs
 
 Reads posting URLs from school_id_1515_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,8 +29,8 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1515
 SCHOOL_NAME = 'Washington State University'
-CAREERS_LINK = 'https://wd5.myworkday.com/wsu/d/task/1422$478.htmld'
-ATS_PLATFORM = 'own website'
+CAREERS_LINK = 'https://wsu.wd5.myworkdayjobs.com/WSU_Jobs'
+ATS_PLATFORM = 'Workday'
 USE_LLM = False
 
 JOB_POSTINGS_CHECKPOINT = os.path.join(

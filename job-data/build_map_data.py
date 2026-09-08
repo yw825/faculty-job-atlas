@@ -111,7 +111,16 @@ _JUNK_TITLE_RE = re.compile(
     r'information for .*|useful information|online application procedures|'
     r'prospective employees.*|current openings.*|explore our employment.*|'
     r'position title:?|job description|apply now|welcome|overview|staff|faculty|'
-    r'employment|recruitment|our vacancies|work (?:with|for) us)$', re.I)
+    r'employment|recruitment|our vacancies|work (?:with|for) us|'
+    # Generic section headings that a school's careers page uses as its own
+    # title, which then inherit a rank from the surrounding description and
+    # surface as if they were one posting -- "Faculty Positions" was showing
+    # up in the map as an Assistant Professor role at St Thomas Aquinas, and
+    # "Career Development" as one at Rochester.
+    r'faculty positions?|staff positions?|academic positions?|open positions?|'
+    r'career development|career opportunities|employment opportunities|'
+    r'job openings?|current employment|position openings?|'
+    r'faculty (?:and|&) staff|academic careers?|browse jobs)$', re.I)
 
 
 # The regex above only catches furniture we can name. The bigger problem is
@@ -270,7 +279,7 @@ def main():
                     'j': (row.get('job_term') or '').strip(),
                     'd': dept,
                     'k': keywords,
-                    'u': (row.get('posting_url') or '').strip(),
+                    'u': (row.get('posting_url') or '').strip(),  # trimmed below
                     'x': normalize_date(row.get('deadline_of_application')),
                     'b': normalize_date(row.get('position_start_date')),
                 })
@@ -287,6 +296,26 @@ def main():
         junk_titles += before - len(postings)
         still_used = {q['s'] for q in postings}
         schools_used = {k: v for k, v in schools_used.items() if k in still_used}
+
+    # URLs are the single biggest field (2.17 MB of a 6.45 MB payload) and
+    # are near-identical within a school -- same host and path prefix, one
+    # differing id or slug. The shared prefix is stored once per school and
+    # each posting keeps only its remainder, which the page rejoins.
+    by_school = {}
+    for post in postings:
+        by_school.setdefault(post['s'], []).append(post)
+    for sid, group in by_school.items():
+        urls = [p['u'] for p in group if p['u']]
+        if len(urls) < 2:
+            continue
+        prefix = os.path.commonprefix(urls)
+        prefix = prefix[:prefix.rfind('/') + 1] if '/' in prefix else ''
+        if len(prefix) < 12:
+            continue
+        schools_used[sid]['up'] = prefix
+        for post in group:
+            if post['u'].startswith(prefix):
+                post['u'] = post['u'][len(prefix):]
 
     payload = {
         'generated': datetime.now().isoformat(timespec='seconds'),

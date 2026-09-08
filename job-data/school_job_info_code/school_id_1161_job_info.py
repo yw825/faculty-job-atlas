@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1161 - Haverford College (US)
-ATS platform: own website
-Careers link: https://www.myworkday.com/haverford
+ATS platform: Workday
+Careers link: https://haverford.wd1.myworkdayjobs.com/External
 
 Reads posting URLs from school_id_1161_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,8 +29,8 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1161
 SCHOOL_NAME = 'Haverford College'
-CAREERS_LINK = 'https://www.myworkday.com/haverford'
-ATS_PLATFORM = 'own website'
+CAREERS_LINK = 'https://haverford.wd1.myworkdayjobs.com/External'
+ATS_PLATFORM = 'Workday'
 USE_LLM = False
 
 JOB_POSTINGS_CHECKPOINT = os.path.join(

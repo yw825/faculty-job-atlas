@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 663 - Saginaw Valley State University (US)
-ATS platform: own website
-Careers link: https://wd503.myworkday.com/svsu/d/home.htmld
+ATS platform: Workday
+Careers link: https://svsu.wd503.myworkdayjobs.com/External
 
 Reads posting URLs from school_id_663_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,8 +29,8 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 663
 SCHOOL_NAME = 'Saginaw Valley State University'
-CAREERS_LINK = 'https://wd503.myworkday.com/svsu/d/home.htmld'
-ATS_PLATFORM = 'own website'
+CAREERS_LINK = 'https://svsu.wd503.myworkdayjobs.com/External'
+ATS_PLATFORM = 'Workday'
 USE_LLM = False
 
 JOB_POSTINGS_CHECKPOINT = os.path.join(

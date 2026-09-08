@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 507 - University of the Cumberlands (US)
-ATS platform: own website
-Careers link: https://www.myworkday.com/ucumberlands/
+ATS platform: Workday
+Careers link: https://ucumberlands.wd1.myworkdayjobs.com/Careers
 
 Reads posting URLs from school_id_507_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,8 +29,8 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 507
 SCHOOL_NAME = 'University of the Cumberlands'
-CAREERS_LINK = 'https://www.myworkday.com/ucumberlands/'
-ATS_PLATFORM = 'own website'
+CAREERS_LINK = 'https://ucumberlands.wd1.myworkdayjobs.com/Careers'
+ATS_PLATFORM = 'Workday'
 USE_LLM = False
 
 JOB_POSTINGS_CHECKPOINT = os.path.join(

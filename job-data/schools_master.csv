@@ -316,7 +316,7 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes,scrap
 435,Martin University,US,https://www.martin.edu/,https://www.martin.edu/jobreadyindy,own website,medium,OK-2hop:OK:2,generic scraper
 436,University of Indianapolis,US,https://uindy.edu/,https://hrjobs.uindy.edu,own website,medium,OK:2,generic scraper
 437,Indiana University-Kokomo,US,https://www.iuk.edu/,https://indiana.peopleadmin.com/postings/search,PeopleAdmin,high,NO_MATCH [playwright];hand-verified-sync,adapter built
-440,Ball State University,US,https://www.bsu.edu/,https://wd12.myworkday.com/bsu/d/task/2998$42366.htmld#backheader=true,own website,high,OK-2hop:OK:8,generic scraper
+440,Ball State University,US,https://www.bsu.edu/,https://bsu.wd12.myworkdayjobs.com/External,Workday,high,OK-2hop:OK:8 | careers_link pointed at internal myworkday.com app; corrected to public board,generic scraper
 441,Indiana University-Southeast,US,https://ius.edu/,https://southeast.iu.edu/academics/explore-careers/index.html,own website,medium,OK-2hop:OK:2,generic scraper
 442,Manchester University,US,https://www.manchester.edu/,https://www.manchester.edu/employment-opportunities/,own website,medium,OK-2hop:OK:5,generic scraper
 443,Holy Cross College,US,https://www.hcc-nd.edu/,https://www.hcc-nd.edu/career-opportunities/,own website,medium,OK-2hop:OK:3,generic scraper
@@ -374,7 +374,7 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes,scrap
 504,University of Pikeville,US,https://www.upike.edu/,https://www.upike.edu/offices/human-resources/careers/,own website,medium,OK-2hop:OK:3,generic scraper
 505,Alice Lloyd College,US,https://www.alc.edu/,https://alc.edu/special-learning-opportunities/,own website,medium,OK-2hop:OK:1,generic scraper
 506,Eastern Kentucky University,US,https://www.eku.edu/,https://careers.eku.edu/jobs/search,own website,medium,OK:7,generic scraper
-507,University of the Cumberlands,US,https://www.ucumberlands.edu/,https://www.myworkday.com/ucumberlands/,own website,high,OK:6,generic scraper
+507,University of the Cumberlands,US,https://www.ucumberlands.edu/,https://ucumberlands.wd1.myworkdayjobs.com/Careers,Workday,high,OK:6 | careers_link pointed at internal myworkday.com app; corrected to public board,generic scraper
 508,Asbury University,US,https://www.asbury.edu/,https://jobs.asbury.edu/,own website,medium,OK-2hop:OK:5,generic scraper
 509,Louisiana State University-Alexandria,US,https://www.lsua.edu/,https://lsu.wd1.myworkdayjobs.com/LSU,Workday,high,OK-2hop:OK:8,adapter built
 510,Louisiana State University and Agricultural & Mechanical College,US,https://www.lsu.edu/,https://lsu.wd1.myworkdayjobs.com/LSU,Workday,high,OK-2hop:OK:8,adapter built
@@ -512,7 +512,7 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes,scrap
 660,Lawrence Technological University,US,https://www.ltu.edu/,https://ltu.edu/about/human-resources/job-openings/,own website,medium,OK-2hop:OK:3,generic scraper
 661,Spring Arbor University,US,https://www.arbor.edu/,https://springarbor.edu/about/offices-and-schools/human-resources/careers.php,own website,medium,OK-2hop:OK:3,generic scraper
 662,Walsh College,US,https://walshcollege.edu/,https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=8B50A1FFE490890FFF138330679CB02A&fromClientSide=true,Paycom,medium,OK:4,generic scraper
-663,Saginaw Valley State University,US,https://www.svsu.edu/,https://wd503.myworkday.com/svsu/d/home.htmld,own website,high,OK-2hop:OK:6,generic scraper
+663,Saginaw Valley State University,US,https://www.svsu.edu/,https://svsu.wd503.myworkdayjobs.com/External,Workday,high,OK-2hop:OK:6 | careers_link pointed at internal myworkday.com app; corrected to public board,generic scraper
 665,Eastern Michigan University,US,https://www.emich.edu/,https://secure.dc4.pageuppeople.com/apply/1092/aw/applicationForm/default.asp,PageUp,high,OK-2hop:OK:6 [playwright],generic scraper (verified working)
 666,Bemidji State University,US,https://www.bemidjistate.edu/,https://minnstate.wd115.myworkdayjobs.com/Minnesota_State_Careers?Institution=a7c1912089511000d545d2b3d8c70002,Workday,not_found,NO_MATCH [playwright],adapter built
 669,Saint Johns University,US,https://csbsju.edu/,https://www.schooljobs.com/careers/osb?jobType[0]=Faculty&sort=PositionTitle%7CAscending,own website,high,OK-2hop:OK:11,generic scraper
@@ -920,7 +920,7 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes,scrap
 1158,Thiel College,US,https://www.thiel.edu/,https://www.thiel.edu/offices/human-resources/employment-opportunities,own website,medium,OK-2hop:OK:4,generic scraper
 1159,Gwynedd Mercy University,US,https://www.gmercyu.edu/,https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=26d7eba1-7ff1-4642-a01e-31acc49de6f5&ccId=19000101_000001&lang=en_US,ADP,high,OK-2hop:OK:7,adapter built
 1160,Harrisburg University of Science and Technology,US,https://www.harrisburgu.edu/,https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?lang=en_US&cid=d7d41d6e-e9f2-43e0-af0f-ac2146083d4f&ccId=19000101_000001,ADP,high,OK-2hop:OK:9,adapter built
-1161,Haverford College,US,https://www.haverford.edu/,https://www.myworkday.com/haverford,own website,high,OK:6 [playwright],generic scraper
+1161,Haverford College,US,https://www.haverford.edu/,https://haverford.wd1.myworkdayjobs.com/External,Workday,high,OK:6 [playwright] | careers_link pointed at internal myworkday.com app; corrected to public board,generic scraper
 1162,Pennsylvania State University-Penn State Hazleton,US,https://hazleton.psu.edu/,https://psu.wd1.myworkdayjobs.com/PSU_Academic?locations=e0040d8047ed01d55af7b563c5015f14,Workday,medium,OK-2hop:OK:1,adapter built
 1163,Juniata College,US,https://www.juniata.edu/,https://juniata.peopleadmin.com/postings/search,PeopleAdmin,high,NO_MATCH [playwright];hand-verified-sync,adapter built
 1164,Immaculata University,US,https://www.immaculata.edu/,https://immaculata.interviewexchange.com/static/clients/534IMM1/index.jsp,own website,high,OK-2hop:OK:6,generic scraper
@@ -1171,7 +1171,7 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes,scrap
 1512,Central Washington University,US,https://www.cwu.edu/,https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?FOCUS=Applicant&&siteid=1,own website,medium,OK-2hop:OK:4,generic scraper
 1513,Northwest University,US,https://www.northwestu.edu/,http://careers.cccu.org/jobs,own website,medium,OK-2hop:OK:4,generic scraper
 1514,Saint Martin's University,US,https://www.stmartin.edu/,https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=7138f757-560b-432d-a0d6-3a29cd79033e&ccId=19000101_000001&type=MP&lang=en_US,ADP,high,OK:9,adapter built
-1515,Washington State University,US,https://wsu.edu/,https://wd5.myworkday.com/wsu/d/task/1422$478.htmld,own website,high,OK-2hop:OK:6,generic scraper
+1515,Washington State University,US,https://wsu.edu/,https://wsu.wd5.myworkdayjobs.com/WSU_Jobs,Workday,high,OK-2hop:OK:6 | careers_link pointed at internal myworkday.com app; corrected to public board,generic scraper
 1517,City University of Seattle,US,https://www.cityu.edu/,http://cityu.interviewexchange.com/static/clients/447CSM1/index.jsp;jsessionid=77C75F0E480695E12DADFF9F669D13C0,own website,high,OK-2hop:OK:7,generic scraper
 1518,Seattle Pacific University,US,https://spu.edu/,https://spu.wd12.myworkdayjobs.com/SPU,Workday,high,OK-2hop:OK:10,adapter built
 1519,Seattle University,US,https://www.seattleu.edu/,https://seattleu.wd108.myworkdayjobs.com/SeattleUJobs,Workday,high,OK-2hop:OK:8,adapter built
