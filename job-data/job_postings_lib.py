@@ -185,6 +185,21 @@ COMMON_JOB_URL_HINTS = re.compile(
     r'(job|career|vacanc|posit|posting|requisition|opening|emploi|stelle|empleo|lavoro|vaga|'
     r'oferta|ogloszenie)', re.I)
 
+# For matching LINK TEXT rather than the href. A posting is very often
+# linked by its own title, and a job title names a ROLE without containing
+# any of the job-site vocabulary above -- Southern Arkansas links its
+# openings as "Instructor of Agriculture" and "Assistant Professor of Human
+# Performance...", whose WordPress permalinks
+# (/human-resources/2026/06/24/instructor-of-agriculture/) carry no job word
+# either, so both the href and the text test missed them and the school
+# recorded zero real postings. Kept separate from the href pattern on
+# purpose: a URL containing "chair" or "dean" is usually an about-page,
+# while link TEXT naming a rank is usually the posting itself.
+COMMON_JOB_TEXT_HINTS = re.compile(
+    r'(job|career|vacanc|posit|posting|requisition|opening|emploi|stelle|empleo|lavoro|vaga|'
+    r'oferta|ogloszenie|professor|lecturer|instructor|faculty|postdoc|post-doctoral|'
+    r'fellow|dean|chair|adjunct|researcher|scientist|tenure)', re.I)
+
 
 # --------------------------------------------------------------------------
 # Checkpoint / CSV I/O
@@ -208,9 +223,24 @@ def save_checkpoint(path, data):
     os.replace(tmp, path)
 
 
-def write_posts_csv(school_id, links):
+def write_posts_csv(school_id, links, allow_shrink=True):
+    """`allow_shrink=False` refuses to replace an existing file that has
+    MORE rows than `links` -- added after a real incident: clearing a
+    checkpoint to force a re-scrape, followed by a transient fetch failure,
+    silently wrote an EMPTY file over a school's good data with no error
+    surfaced anywhere (run_checkpointed's finally block always wrote
+    ckpt['links'], and a fresh checkpoint's links start at []). Cal State
+    Los Angeles lost all 21 of its postings this way, twice, in the same
+    session. A genuine reduction (jobs closed) still goes through fine --
+    this only blocks a write that would make the file WORSE than what's
+    already there, which a failed run should never do."""
     os.makedirs(OUT_DIR, exist_ok=True)
     path = os.path.join(OUT_DIR, f'school_id_{school_id}_job_posts.csv')
+    if not allow_shrink and os.path.exists(path):
+        with open(path, encoding='utf-8') as f:
+            existing = sum(1 for _ in csv.reader(f)) - 1  # minus header
+        if existing > len(links):
+            return path
     with open(path, 'w', newline='', encoding='utf-8') as f:
         w = csv.writer(f)
         w.writerow(['school_id', 'post_link'])
@@ -262,7 +292,12 @@ def run_checkpointed(school_id, checkpoint_path, find_links_fn):
     finally:
         ckpt['updated_at'] = now_iso()
         save_checkpoint(checkpoint_path, ckpt)
-        write_posts_csv(school_id, ckpt['links'])
+        # A failed run's checkpoint can genuinely be emptier than the CSV
+        # already on disk -- a cleared checkpoint starting a redo, then a
+        # transient error, has nothing but []. allow_shrink is False
+        # exactly on that path, so the existing file survives a failure
+        # instead of being overwritten by it.
+        write_posts_csv(school_id, ckpt['links'], allow_shrink=(ckpt['status'] == 'complete'))
     return ckpt
 
 
