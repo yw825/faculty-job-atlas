@@ -1,6 +1,6 @@
 """
 Job info scraper for school_id 146 - University of California-Santa Barbara (US)
-ATS platform: own website
+ATS platform: UC Recruit
 Careers link: http://recruit.ap.ucsb.edu/apply
 
 Reads posting URLs from school_id_146_job_postings.checkpoint (this
@@ -30,7 +30,7 @@ import job_info_lib as jinfo
 SCHOOL_ID = 146
 SCHOOL_NAME = 'University of California-Santa Barbara'
 CAREERS_LINK = 'http://recruit.ap.ucsb.edu/apply'
-ATS_PLATFORM = 'own website'
+ATS_PLATFORM = 'UC Recruit'
 USE_LLM = False
 
 JOB_POSTINGS_CHECKPOINT = os.path.join(

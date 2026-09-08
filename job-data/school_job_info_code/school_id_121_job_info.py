@@ -1,6 +1,6 @@
 """
 Job info scraper for school_id 121 - University of California-Riverside (US)
-ATS platform: own website
+ATS platform: UC Recruit
 Careers link: https://aprecruit.ucr.edu/apply
 
 Reads posting URLs from school_id_121_job_postings.checkpoint (this
@@ -30,7 +30,7 @@ import job_info_lib as jinfo
 SCHOOL_ID = 121
 SCHOOL_NAME = 'University of California-Riverside'
 CAREERS_LINK = 'https://aprecruit.ucr.edu/apply'
-ATS_PLATFORM = 'own website'
+ATS_PLATFORM = 'UC Recruit'
 USE_LLM = False
 
 JOB_POSTINGS_CHECKPOINT = os.path.join(

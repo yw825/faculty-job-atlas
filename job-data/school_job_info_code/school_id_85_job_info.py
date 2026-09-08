@@ -1,6 +1,6 @@
 """
 Job info scraper for school_id 85 - University of California-Davis (US)
-ATS platform: own website
+ATS platform: UC Recruit
 Careers link: https://recruit.ucdavis.edu/apply?_gl=1*1802h74*_gcl_au*MTUyNDgyMzMzMy4xNzg3ODc1NDE4*_ga*MTE2MzE3NjkzLjE3ODc4NzU0MTg.*_ga_2N9JP0W2PC*czE3ODc4NzU0MTgkbzEkZzAkdDE3ODc4NzU0MjAkajU4JGwwJGgw
 
 Reads posting URLs from school_id_85_job_postings.checkpoint (this
@@ -30,7 +30,7 @@ import job_info_lib as jinfo
 SCHOOL_ID = 85
 SCHOOL_NAME = 'University of California-Davis'
 CAREERS_LINK = 'https://recruit.ucdavis.edu/apply?_gl=1*1802h74*_gcl_au*MTUyNDgyMzMzMy4xNzg3ODc1NDE4*_ga*MTE2MzE3NjkzLjE3ODc4NzU0MTg.*_ga_2N9JP0W2PC*czE3ODc4NzU0MTgkbzEkZzAkdDE3ODc4NzU0MjAkajU4JGwwJGgw'
-ATS_PLATFORM = 'own website'
+ATS_PLATFORM = 'UC Recruit'
 USE_LLM = False
 
 JOB_POSTINGS_CHECKPOINT = os.path.join(

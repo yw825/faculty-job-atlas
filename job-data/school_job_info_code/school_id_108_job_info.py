@@ -1,6 +1,6 @@
 """
 Job info scraper for school_id 108 - University of California-Merced (US)
-ATS platform: own website
+ATS platform: UC Recruit
 Careers link: https://aprecruit.ucmerced.edu/apply
 
 Reads posting URLs from school_id_108_job_postings.checkpoint (this
@@ -30,7 +30,7 @@ import job_info_lib as jinfo
 SCHOOL_ID = 108
 SCHOOL_NAME = 'University of California-Merced'
 CAREERS_LINK = 'https://aprecruit.ucmerced.edu/apply'
-ATS_PLATFORM = 'own website'
+ATS_PLATFORM = 'UC Recruit'
 USE_LLM = False
 
 JOB_POSTINGS_CHECKPOINT = os.path.join(

@@ -1,0 +1,741 @@
+school_id,name,careers_link,rows_now,best_pattern,candidates,note
+1,Alaska Pacific University,https://www.alaskapacific.edu/about/employment/#openings,3,www.alaskapacific.edu/career/<*>,3,score=4.9
+5,Auburn University,https://jobs.auburn.edu/auburn-careers-home/jobs?tags2=Faculty&page=1,10,jobs.auburn.edu/auburn-careers-home/jobs/<*>?lang,10,score=20.0
+21,Amridge University,http://www.amridgeuniversity.edu/about/employment/,2,www.amridgeuniversity.edu/academics/humanservices/<*>,8,score=13.4
+30,The University of Alabama,https://careers.ua.edu/faculty,4,,0,no repeated link pattern found
+32,Henderson State University,https://phe.tbe.taleo.net/phe02/ats/careers/v2/jobSearch?act=redirectCwsV2&cws=48&org=ARKASTAT2,5,www.e-verify.gov/sites/default/files/everify/posters/<*>,2,score=4.0
+35,University of the Ozarks,https://ozarks.edu/about/employment/,9,ozarks.edu/news/<*>,12,score=24.0
+37,Hendrix College,https://www.hendrix.edu/humanresources/jobs.aspx,0,,0,no repeated link pattern found
+47,Southern Arkansas University Main Campus,https://www.saumag.edu/human-resources/category/employment-opportunities/faculty-positions/,7,www.saumag.edu/human-resources/files/<*>/<*>/<*>,3,score=5.2
+54,Northern Arizona University,https://careers.nau.edu/jobs/search?page=1&category_uids%5B%5D=16877518cdbd46262a1b4a995c2a65c2&query=,2,careers.nau.edu/jobs/<*>,2,score=4.0
+62,Arizona State University Digital Immersion,https://facultypositions.asu.edu/#/api/Home/_InterfolioPostings,10,apply.interfolio.com/<*>,10,score=20.0
+63,Arizona State University Campus Immersion,https://facultypositions.asu.edu/#/api/Home/_InterfolioPostings,10,apply.interfolio.com/<*>,10,score=20.0
+67,Pacific Union College,https://www.puc.edu/campus-services/human-resources/faculty-job-postings,9,www.puc.edu/campus-services/human-resources/careers/<*>,7,score=14.0
+68,California State Polytechnic University-Humboldt,https://careers.humboldt.edu/hm/en-us/filter/?work-type=faculty,2,,0,no repeated link pattern found
+69,Menlo College,https://www.menlo.edu/employment-opportunities/,8,www.menlo.edu/<*>,16,score=17.5
+74,University of California-Berkeley,https://aprecruit.berkeley.edu/apply,0,aprecruit.berkeley.edu/<*>,174,score=69.6
+75,Woodbury University,https://woodbury.edu/about/people/employment-opportunities/,1,woodbury.edu/admissions/undergraduate-admission/<*>,7,score=9.8
+77,California State University-Dominguez Hills,https://careers.csudh.edu/en-us/filter/?ie=utf-8&q=&search-keyword=&work-type=instructional%20faculty%20-%20temporary%2flecturer&work-type=instructional%20faculty%20%e2%80%93%20tenured%2ftenure-track&work-type=non-instructional%20faculty%20(coach%2fcounselor%2flibrarian)&category=unit%203%20-%20cfa%20-%20california%20faculty%20association&category=faculty&job-mail-subscribe-privacy=agree,0,careers.csudh.edu/en-us/job/<*>/<*>,20,score=40.0
+79,Claremont McKenna College,https://webapps.cmc.edu/jobs/faculty/faculty_opening.php,8,webapps.cmc.edu/jobs/faculty/<*>,3,score=2.5
+81,Pitzer College,https://academicjobsonline.org/ajo/Pitzer%20College/Office%20of%20the%20Dean%20of%20Faculty,4,academicjobsonline.org/ajo/jobs/<*>,4,score=1.0
+82,Pomona College,https://www.pomona.edu/administration/academic-dean/faculty-jobs,10,academicjobsonline.org/ajo/jobs/<*>,7,score=9.5
+83,Scripps College,http://www.scrippscollege.edu/hr/faculty,5,www.scrippscollege.edu/hr/faculty/<*>,5,score=10.0
+85,University of California-Davis,https://recruit.ucdavis.edu/apply?_gl=1*1802h74*_gcl_au*MTUyNDgyMzMzMy4xNzg3ODc1NDE4*_ga*MTE2MzE3NjkzLjE3ODc4NzU0MTg.*_ga_2N9JP0W2PC*czE3ODc4NzU0MTgkbzEkZzAkdDE3ODc4NzU0MjAkajU4JGwwJGgw,0,recruit.ucdavis.edu/<*>,179,score=71.6
+93,University of California-Irvine,https://recruit.ap.uci.edu/apply,0,recruit.ap.uci.edu/<*>,287,score=114.8
+94,University of Massachusetts Global,https://umassglobal.wd5.myworkdayjobs.com/UMassGlobalCareers,6,umassglobal.wd5.myworkdayjobs.com/en-US/UMassGlobalCareers/job/United-States-Remote/<*>,4,score=7.0
+95,University of California-San Diego,https://apol-recruit.ucsd.edu/apply,0,apol-recruit.ucsd.edu/<*>,210,score=84.0
+102,Mount Saint Mary's University,https://www.msmu.edu/about-the-mount/university-offices/administration--finance/human-resources/employment-opportunities/,6,www.msmu.edu/media/website/about-the-mount/university-offices/<*>,7,score=12.7
+103,Occidental College,https://www.oxy.edu/working-oxy/faculty-positions,7,www.oxy.edu/sites/default/files/<*>,3,score=6.0
+104,Pacific States University,https://psuca.edu/jobs-opportunities/,3,psuca.edu/<*>,35,score=42.5
+105,University of California-Los Angeles,https://recruit.apo.ucla.edu/apply,0,recruit.apo.ucla.edu/<*>,190,score=76.0
+108,University of California-Merced,https://aprecruit.ucmerced.edu/apply,0,aprecruit.ucmerced.edu/<*>,114,score=45.6
+109,Saint Mary's College of California,https://www.stmarys-ca.edu/offices-services/academic-affairs/faculty-openings,6,www.stmarys-ca.edu/offices-services/<*>,15,score=14.1
+114,Chapman University,https://apply.interfolio.com/44328/positions,1,apply.interfolio.com/<*>,7,score=14.0
+117,Simpson University,https://secure.onehcm.com/ta/Simpson.careers?CareersSearch&InFrameset=1&HostedBy=simpsonu.edu,1,INLINE-TEXT,30,"inline listing, 30 role mentions"
+121,University of California-Riverside,https://aprecruit.ucr.edu/apply,0,aprecruit.ucr.edu/<*>,73,score=29.2
+123,Sonoma State University,https://employment.sonoma.edu/en-us/filter/?search-keyword=&work-type=instructional%20faculty%20-%20temporary%2flecturer&job-mail-subscribe-privacy=agree,7,employment.sonoma.edu/en-us/job/<*>/<*>,7,score=14.0
+124,University of the West,https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=31cd0b73-92c3-4ed2-84f8-5a6de61f8f2c&ccId=19000101_000001&lang=en_US&source=CC2&selectedMenuKey=CurrentOpenings,2,,0,no repeated link pattern found
+131,Northcentral University,https://www.northcentral.edu/about/employment/current-job-openings/,10,www.northcentral.edu/admissions/<*>,6,score=5.2
+135,University of San Diego,https://www.sandiego.edu/outcomes/careers/,6,www.sandiego.edu/outcomes/careers/<*>,4,score=4.5
+138,Golden Gate University,https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=1A449B35167BB40706C055A54E4FB0DA,0,www.paycomonline.net/v4/ats/web.php/portal/<*>/jobs/<*>,10,score=20.0
+140,University of San Francisco,https://usfca.wd5.myworkdayjobs.com/USF_Full-Time_Faculty,6,usfca.wd5.myworkdayjobs.com/en-US/USF_Full-Time_Faculty/job/USF-Hilltop-Campus/<*>,6,score=10.0
+145,Dominican University of California,https://www.paycomonline.net/v4/ats/web.php/portal/379D25BEB04D4E67539308A7BD902D82/career-page,0,www.paycomonline.net/v4/ats/web.php/portal/<*>/jobs/<*>,7,score=14.0
+146,University of California-Santa Barbara,http://recruit.ap.ucsb.edu/apply,0,recruit.ap.ucsb.edu/<*>,61,score=24.4
+147,Westmont College,https://www.westmont.edu/office-provost/open-positions,2,www.westmont.edu/<*>,12,score=10.6
+150,University of California-Santa Cruz,https://recruit.ucsc.edu/apply,0,recruit.ucsc.edu/<*>,99,score=39.6
+154,Humphreys University-Stockton and Modesto Campuses,https://www.humphreys.edu/career-opportunities/,2,www.humphreys.edu/<*>,29,score=30.4
+159,Whittier College,https://www.whittier.edu/humanresources/faculty,3,www.whittier.edu/academics/<*>,3,score=3.5
+160,Adams State University,https://adams.wd1.myworkdayjobs.com/ASU?jobFamilyGroup=17a14ea6887710013425d08f0be90001,3,adams.wd1.myworkdayjobs.com/en-US/ASU/job/Alamosa-Colorado/<*>?jobFamilyGroup,3,score=6.0
+161,Colorado State University Global,https://faculty-csuglobal.icims.com/,1,faculty-csuglobal.icims.com/graduate/specializations/<*>,18,score=24.1
+163,Colorado College,https://jobs.coloradocollege.edu/jobs/search?page=1&employment_type_uids%5B%5D=af4b3dfad1990996aeb4c3915f93088f&query=,7,jobs.coloradocollege.edu/jobs/<*>,7,score=14.0
+165,University of Colorado Colorado Springs,https://cu.taleo.net/careersection/2/moresearch.ftl?lang=en&location=6300103016&portal=101430233&radius=1&radiusType=K&searchExpanded=true,0,www.cu.edu/<*>,2,score=0.8
+167,Regis University,https://regis.wd501.myworkdayjobs.com/en-US/RegisUniversity?workerSubType=fc38a5df8390014dab5ec5517918b909,5,regis.wd501.myworkdayjobs.com/en-US/RegisUniversity/job/Northwest-Denver-Campus/<*>?workerSubType,5,score=7.8
+168,University of Colorado Denver/Anschutz Medical Campus,https://cu.taleo.net/careersection/2/moresearch.ftl?lang=en,0,www.cu.edu/<*>,2,score=0.8
+170,Fort Lewis College,https://fortlewiscollege.wd1.myworkdayjobs.com/FLC,6,fortlewiscollege.wd1.myworkdayjobs.com/en-US/FLC/job/Fort-Lewis-College-Durango-Colorado/<*>,4,score=6.0
+172,Colorado School of Mines,https://mines.wd1.myworkdayjobs.com/Mines_Careers?jobFamilyGroup=85a299df18611045ecca88cb10a70000,8,mines.wd1.myworkdayjobs.com/en-US/Mines_Careers/job/Colorado/<*>?jobFamilyGroup,7,score=14.0
+175,Western Colorado University,https://western.wd1.myworkdayjobs.com/WESTERN?locations=f0acdfc60ce81008f9018ce54da70000&jobFamilyGroup=f0acdfc60ce81008d439787fbb740000,0,,0,no repeated link pattern found
+178,Colorado State University Pueblo,https://csusystem.wd12.myworkdayjobs.com/en-US/pueblo_careers?locations=c42207b011c11000e4a22ee1cf1e0000&jobFamilyGroup=c42207b011c11000d2dd549d70320000,1,,0,no repeated link pattern found
+179,University of Bridgeport,https://www.paycomonline.net/v4/ats/web.php/portal/A1640D81A59AFDAFC5501F5B06EF1B08/career-page,0,www.paycomonline.net/v4/ats/web.php/portal/<*>/jobs/<*>,10,score=20.0
+180,Western Connecticut State University,http://wcsu.edu/hr/employment/current-opportunities/,10,www.wcsu.edu/hr/wp-content/uploads/sites/<*>/<*>/<*>/<*>,6,score=11.0
+183,University of Connecticut-Avery Point,https://jobs.hr.uconn.edu/cw/en-us/filter/?search-keyword=&job-mail-subscribe-privacy=agree,0,jobs.hr.uconn.edu/cw/en-us/job/<*>/<*>,47,score=92.0
+186,Wesleyan University,https://wesleyan.wd5.myworkdayjobs.com/careers?jobFamilyGroup=2f94686d89e0100a36c029ae4aa50000,6,wesleyan.wd5.myworkdayjobs.com/en-US/careers/job/Middletown-CT-Main-Campus/<*>?jobFamilyGroup,6,score=10.2
+187,Central Connecticut State University,https://www.ccsu.edu/hr/administrative/faculty/management,9,www.ccsu.edu/<*>,25,score=26.5
+188,Charter Oak State College,https://www.charteroak.edu/aboutus/employment.php,3,www.charteroak.edu/certificates/<*>,8,score=11.9
+189,Albertus Magnus College,https://www.albertus.edu/employment/,9,www.albertus.edu/student-resources/career-services/<*>,8,score=9.2
+193,Mitchell College,https://mitchell.edu/careers/,3,mitchell.edu/<*>,26,score=28.7
+194,University of Connecticut-Stamford,https://jobs.hr.uconn.edu/mob/en-us/listing/,5,jobs.hr.uconn.edu/mob/en-us/job/<*>/<*>,4,score=8.0
+195,University of Connecticut,https://jobs.uconn.edu/,8,hr.uconn.edu/hr-services/<*>,6,score=7.8
+197,University of Connecticut-Waterbury Campus,https://jobs.hr.uconn.edu/mob/en-us/listing/,5,jobs.hr.uconn.edu/mob/en-us/job/<*>/<*>,4,score=8.0
+199,University of Saint Joseph,https://www.usj.edu/academics/health-care-careers/,0,,0,no repeated link pattern found
+200,University of New Haven,https://www.newhaven.edu:443/about/employment/job-opportunities/index.php,8,www.newhaven.edu:443/about/employment/<*>,6,score=12.0
+201,Eastern Connecticut State University,https://easternctstateuniversity.applytojob.com/apply/Zz4qJq9Kac/Assistant-Professor-Of-Nursing-Tenure-Track,2,INLINE-TEXT,8,"inline listing, 8 role mentions"
+203,Gallaudet University,https://gallaudet.edu/academic-career-success/,4,gallaudet.edu/<*>,38,score=48.3
+204,George Washington University,https://careers.gwu.edu/,1,careers.gwu.edu/<*>,2,score=1.9
+209,Trinity Washington University,https://www2.trinitydc.edu/hr/employment-openings/,4,www2.trinitydc.edu/<*>,11,score=13.0
+214,University of Delaware,https://www.udel.edu/apply/career-outcomes/,3,www.udel.edu/apply/<*>,3,score=3.2
+215,Goldey-Beacom College,https://www.paycomonline.net/v4/ats/web.php/portal/019DF7F6E271614BAB2785B88C6A379F/career-page,0,www.paycomonline.net/v4/ats/web.php/portal/<*>/jobs/<*>,2,score=4.0
+219,Everglades University,https://www.evergladesuniversity.edu/employment-opportunities/,0,,0,no repeated link pattern found
+220,Florida Atlantic University,https://www.fau.edu/jobs/,5,,0,no repeated link pattern found
+221,Lynn University,https://www.lynn.edu/employment,1,www.lynn.edu/news/<*>/<*>,5,score=8.0
+222,University of Miami,https://careers.miami.edu/,9,careers.miami.edu/us/en/job/<*>/<*>,5,score=10.0
+225,Stetson University,https://www.stetson.edu/administration/human-resources/job-opportunities.php,5,www.stetson.edu/administration/admissions/<*>,4,score=4.0
+228,Nova Southeastern University,https://www.nova.edu/resources/employment.html,3,www.nova.edu/about/<*>,4,score=4.2
+237,Warner University,https://warner.edu/offices/human-resources/careers/,2,warner.edu/<*>,7,score=5.8
+238,Florida Southern College,http://www.guestservices.com/our-people/careers/,2,www.guestservices.com/services-industries2/<*>,4,score=4.5
+240,University of Fort Lauderdale,https://uftlathletics.com/sports/2021/6/23/recruiting-questionnaire.aspx,0,uftlathletics.com/sports/<*>/<*>/<*>/<*>,12,score=11.2
+241,Beacon College,https://www.beaconcollege.edu/career-opportunities/,4,www.beaconcollege.edu/college-readiness-programs/<*>,9,score=10.4
+244,Albizu University-Miami,https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=89df2234-abda-481d-9d9f-d75161691110&ccId=19000101_000001&type=JS&lang=en_US,2,,0,no repeated link pattern found
+246,Barry University,https://www.barry.edu/en/human-resources/,2,www.barry.edu/en/<*>,27,score=28.7
+248,Polytechnic University of Puerto Rico-Miami,https://pupr.edu/hr/,6,www.pupr.edu/wp-content/uploads/<*>/<*>/<*>,33,score=66.0
+249,Trinity International University-Florida,https://www.tiu.edu/human-resources/,1,www.tiu.edu/<*>,7,score=6.2
+251,St. Thomas University,https://www.stu.edu/jobs,0,www.stu.edu/v4/ats/web.php/portal/<*>/jobs/<*>,10,score=20.0
+255,University of West Florida,https://uwf.edu/careers,4,uwf.edu/go/<*>,2,score=1.8
+257,Flagler College,https://fa-ewbi-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1,0,,0,no repeated link pattern found
+259,Eckerd College,https://eckerd.exacthire.com/,9,www.e-verify.gov/sites/default/files/everify/posters/<*>,2,score=2.6
+261,Florida State University,https://hr.fsu.edu/working-fsu/prospective-employees/faculty-careers,5,hr.fsu.edu/sections/<*>,9,score=11.4
+266,University of South Florida,https://jobs.usf.edu/,8,www.usf.edu/work-at-usf/careers/<*>,6,score=7.4
+267,Trinity College of Florida,https://www.trinitycollege.edu/gainful-employment/,1,www.trinitycollege.edu/<*>,23,score=24.1
+270,Rollins College,https://jobs.rollins.edu/jobs/search?page=1&employment_type_uids%5B%5D=d91743ca44174bbd090511f6296aee4a&employment_type_uids%5B%5D=84166d8d43b4a50451c61120f9f39415&query=,4,jobs.rollins.edu/jobs/<*>,4,score=8.0
+271,Georgia Southwestern State University,https://www.gsw.edu/human-resources/careers,1,www.gsw.edu/giving/<*>,2,score=2.2
+275,Emory University,http://www.hr.emory.edu/careers/index.html,8,www.hr.emory.edu/careers/<*>,2,score=2.0
+276,Georgia Institute of Technology-Main Campus,https://hr.gatech.edu/employment/careers,6,hr.gatech.edu/<*>,10,score=10.6
+277,Georgia State University,https://gsu.taleo.net/,0,,0,no repeated link pattern found
+279,Oglethorpe University,https://oglethorpe.edu/about/offices-departments/human-resources/jobs/,3,oglethorpe.edu/about/history/<*>,4,score=6.4
+282,Augusta University,https://www.augusta.edu/hr/jobs/university/index.php,10,jagwire.augusta.edu/<*>,5,score=10.0
+284,College of Coastal Georgia,https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?FOCUS=Applicant&SiteId=63000,0,,0,no repeated link pattern found
+285,University of West Georgia,https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?FOCUS=Applicant&SiteId=54000,0,,0,no repeated link pattern found
+288,Columbus State University,https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?FOCUS=Applicant&SiteId=30000,0,,0,no repeated link pattern found
+289,University of North Georgia,https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?FOCUS=Applicant&SiteId=53000,0,,0,no repeated link pattern found
+290,Dalton State College,https://www.daltonstate.edu/about/marketing-communications-workforce/career-and-professional-development/,7,www.daltonstate.edu/about/institutional-research/<*>,13,score=15.7
+291,Agnes Scott College,https://www.agnesscott.edu/careers/faculty-openings/index.html,4,www.agnesscott.edu/<*>,7,score=5.6
+293,Piedmont University,https://www.piedmont.edu/employment/,3,www.piedmont.edu/financial-aid/<*>,2,score=1.5
+298,LaGrange College,https://lagrangecollege.applicantstack.com/x/openings,5,,0,no repeated link pattern found
+299,Georgia Gwinnett College,https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?FOCUS=Applicant&SiteId=40000&,1,,0,no repeated link pattern found
+301,Mercer University,https://hr.mercer.edu/prospective-employees/career-opportunities/,4,www.mercer.edu/academics/<*>,6,score=8.9
+302,Middle Georgia State University,https://www.mga.edu/human-resources/jobs/index.php,4,www.mga.edu/human-resources/jobs/student-hiring/<*>,2,score=2.6
+303,Wesleyan College,https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=acafb953-757f-4fc8-b0ee-c3d3b317c413&ccId=19000101_000001&lang=en_US,3,,0,no repeated link pattern found
+304,Life University,https://life-csm.symplicity.com/employers/?signin_tab=0,0,,0,no repeated link pattern found
+305,Georgia College & State University,https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?FOCUS=Applicant&SiteId=36000,0,,0,no repeated link pattern found
+306,Clayton  State University,https://www.clayton.edu/human-resources/employment-opportunities,5,www.clayton.edu/human-resources/current-employees/<*>,4,score=6.7
+312,Georgia Southern University,https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?FOCUS=Applicant&SiteId=39000,0,,0,no repeated link pattern found
+313,Thomas University,https://www.thomasu.edu/about/employment/,10,www.thomasu.edu/<*>,26,score=40.4
+314,Abraham Baldwin Agricultural College,https://www.abac.edu/about/administration/human-resources.html,2,usg.policystat.com/policy/<*>/latest,3,score=4.5
+316,Valdosta State University,http://www.valdosta.edu/administration/finance-admin/human-resources/employment-opportunities.php,7,www.valdosta.edu/administration/finance-admin/human-resources/employee-matters/<*>,9,score=12.3
+317,Reinhardt University,https://www.reinhardt.edu/careers/,0,,0,no repeated link pattern found
+319,Young Harris College,https://www.yhc.edu/careers/,5,www.yhc.edu/about/<*>,6,score=6.0
+321,University of Hawaii at Hilo,https://www.schooljobs.com/careers/hawaiiedu?jobType[0]=Faculty&sort=PositionTitle%7CAscending,7,www.hawaii.edu/offices/eeo/<*>,2,score=4.0
+324,University of Hawaii at Manoa,https://www.schooljobs.com/careers/hawaiiedu?jobType[0]=Faculty&sort=PositionTitle%7CAscending,7,www.hawaii.edu/offices/eeo/<*>,2,score=4.0
+325,University of Hawaii-West Oahu,https://www.governmentjobs.com/careers/hawaiiedu?jobType[0]=Faculty&sort=PositionTitle%7CAscending,7,www.hawaii.edu/offices/eeo/<*>,2,score=4.0
+331,Coe College,https://www.coe.edu/why-coe/discover-coe/human-resources/careers,6,www.coe.edu/admission/<*>,10,score=10.0
+332,Mount Mercy University,https://www.mtmercy.edu/careers/index.php,1,workforce.iowa.gov/media/<*>/download?inline,2,score=2.8
+333,Saint Ambrose University,https://sau.edu/about-sau/employment/,2,sau.edu/tuition-financial-aid/scholarships/<*>,30,score=43.8
+334,Luther College,https://www.luther.edu/offices/hr/careers?utm_source=website&utm_medium=footer&utm_campaign=marketing&utm_content=careers,2,www.luther.edu/offices/hr/<*>,3,score=3.4
+336,Grand View University,https://www.grandview.edu/about/directory/careers-at-gv,3,www.grandview.edu/student-life/services/<*>,4,score=4.7
+337,Clarke University,https://clarke.applicantpool.com/jobs/,10,clarke.applicantpool.com/jobs/<*>,10,score=12.1
+338,Loras College,https://loras.applicantpool.com/jobs/,9,loras.applicantpool.com/jobs/<*>,9,score=16.3
+339,University of Dubuque,https://www.dbq.edu/AboutUD/Employment/Jobs/,3,www.dbq.edu/Academics/<*>,7,score=7.6
+340,Maharishi International University,https://services.miu.edu/human-resources/faculty-positions-available/,3,www.miu.edu/<*>,4,score=5.4
+341,Upper Iowa University,https://my.uiu.edu/ICS/Employment_Opportunities.jnz,1,my.uiu.edu/ICS/<*>,3,score=3.4
+343,Grinnell College,https://apply.interfolio.com/11893/positions,1,apply.interfolio.com/<*>,6,score=12.0
+344,Simpson College,https://apply.interfolio.com/191426,1,,0,no repeated link pattern found
+345,University of Iowa,https://jobs.uiowa.edu/,5,hr.uiowa.edu/news/<*>/<*>/<*>,3,score=6.0
+346,Graceland University-Lamoni,https://sfp.ocs.oraclecloud.com/graceland/portal/saml),0,,0,no repeated link pattern found
+348,Cornell College,https://www.cornellcollege.edu/human-resources/employment/,6,www.cornellcollege.edu/human-resources/PDFs/<*>,4,score=3.9
+350,William Penn University,https://www.wmpenn.edu/adjunct-instructor-in-english-adjunct-faculty-position/,1,www.wmpenn.edu/student-life/<*>,7,score=7.6
+352,Dordt University,https://ibmxjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/requisitions?lastSelectedFacet=CATEGORIES&selectedCategoriesFacet=300000008610535,0,,0,no repeated link pattern found
+353,Briar Cliff University,https://Briarcliff.elluciancrmrecruit.com/Apply/Account/ProspectInquiry?f=9b05884a-c1c6-4c53-a445-22ac49ba3594&o=538fedc1-2f8d-4f30-89b1-d13415d0429c,0,,0,no repeated link pattern found
+354,Morningside University,https://www.morningside.edu/about/employment/adjunct-instructors-rosen-school-of-business,3,www.morningside.edu/academics/academic-schools/<*>,6,score=9.4
+355,Buena Vista University,https://www.bvu.edu/en/undergraduate-on-campus/careers--outcomes/,5,www.bvu.edu/en/undergraduate-on-campus/campus-life/<*>,6,score=5.3
+356,Wartburg College,https://www.wartburg.edu/carson-research-opportunities-focused-my-career-goals/,5,www.wartburg.edu/<*>,15,score=23.1
+357,Boise State University,https://www.boisestate.edu/jobs/boise-state-faculty-careers/,4,www.boisestate.edu/jobs/<*>,3,score=4.0
+358,The College of Idaho,https://collegeofidaho.edu/academics/undergrad/career-sectors/health-scientific-research,3,collegeofidaho.edu/academics/undergrad/career-sectors/<*>,2,score=2.2
+365,Illinois Wesleyan University,https://www.iwu.edu/human-resources/job-openings/,9,www.iwu.edu/human-resources/job-openings/<*>,7,score=14.0
+368,Blackburn College,https://blackburn.edu/jobs/,4,blackburn.edu/<*>,6,score=6.8
+369,University of Illinois Urbana-Champaign,https://humanresources.illinois.edu/job-seekers/?utm_source=illinois_homepage&utm_medium=referral&utm_campaign=footer,0,humanresources.illinois.edu/<*>,8,score=9.3
+370,Eastern Illinois University,https://apply.interfolio.com/190519,1,,0,no repeated link pattern found
+373,DePaul University,https://ekze.fa.us2.oraclecloud.com/hcmUI/faces/FndOverview?fnd=%3B%3B%3B%3Bfalse%3B256%3B%3B%3B&fndGlobalItemNodeId=PER_HCMPEOPLETOP_FUSE_DIRECTORY,0,,0,no repeated link pattern found
+375,Illinois Institute of Technology,https://www.iit.edu/hr/about/employment-verification,2,www.iit.edu/student-experience/<*>,8,score=9.5
+377,National Louis University,https://nl.edu/employment/,3,nl.edu/admissions/<*>,5,score=5.3
+378,North Park University,https://apply.workable.com/north-park-university/,1,,0,no repeated link pattern found
+379,Northeastern Illinois University,https://www.neiu.edu/about/working-here/employment-opportunities/faculty-employment-opportunities,8,www.neiu.edu/student-life/current-students/<*>,15,score=17.8
+381,Saint Xavier University,https://www.schooljobs.com/careers/sxuedu?jobType[0]=Faculty&sort=PositionTitle%7CAscending,6,,0,no repeated link pattern found
+382,University of Chicago,https://voices.uchicago.edu/interfolio/academic-jobs/,4,arcs.uchicago.edu/<*>,5,score=8.2
+383,University of Illinois Chicago,https://www.uic.edu/about/job-opportunities/,4,www.uic.edu/life-at-uic/<*>,5,score=4.8
+385,Trinity International University-Illinois,https://www.tiu.edu/human-resources/,1,www.tiu.edu/<*>,7,score=6.2
+387,Southern Illinois University-Edwardsville,https://apply.interfolio.com/69563/positions,1,apply.interfolio.com/<*>,10,score=20.0
+389,Elmhurst University,https://apply.workable.com/elmhurst-edu/,1,,0,no repeated link pattern found
+391,Northwestern University,https://careers.northwestern.edu,0,,0,no repeated link pattern found
+392,Knox College,https://www.knox.edu/employment-at-knox/faculty,2,www.knox.edu/employment-at-knox/academics/<*>,9,score=9.7
+393,Greenville University,https://recruiting.paylocity.com/Recruiting/Jobs/All/d5acfd2f-a668-4134-9285-d94527cdadde/Greenville-University?location=Greenville%20University&department=Faculty,6,recruiting.paylocity.com/Recruiting/Jobs/Details/<*>,6,score=12.0
+394,Illinois College,https://www.ic.edu/employment,4,www.paycomonline.net/v4/ats/web.php/portal/<*>/jobs/<*>,4,score=8.0
+395,University of St Francis,https://stfrancis.edu/career-success-center/,4,stfrancis.edu/<*>,11,score=13.0
+397,McKendree University,https://www.schooljobs.com/careers/mckendree?jobType[0]=Faculty&sort=PositionTitle%7CAscending,6,,0,no repeated link pattern found
+399,Benedictine University,https://benu.csod.com/ux/ats/careersite/5/home?c=benu,0,,0,no repeated link pattern found
+400,Western Illinois University,https://sso.interviewexchange.com/wiu/sso.jsp,0,,0,no repeated link pattern found
+401,Monmouth College,https://www.monmouthcollege.edu/offices/hr/employment-opportunities/,0,www.monmouthcollege.edu/offices/hr/<*>,2,score=3.6
+402,North Central College,https://www.northcentralcollege.edu/academic-affairs/staff-openings,3,www.northcentralcollege.edu/<*>,15,score=15.5
+403,Illinois State University,https://isu.dc4.pageuppeople.com/default.aspx,0,,0,no repeated link pattern found
+406,Quincy University,https://www.quincy.edu/about/work-at-qu/job-openings/,2,www.quincy.edu/academics/<*>,6,score=5.8
+409,Augustana College,https://www.augustana.edu/about-us/offices/hr/employment/opportunities,5,www.augustana.edu/<*>,8,score=7.6
+410,Rockford University,https://www.rockford.edu/community/humanresources/faculty/,5,www.rockford.edu/<*>,4,score=3.9
+419,Wabash College,https://www.wabash.edu/employment,6,www.wabash.edu/news/story/<*>,11,score=21.1
+420,University of Evansville,https://www.altogethergreat.com/careers/job-opportunities-compassgroupusa/,6,www.altogethergreat.com/<*>,7,score=8.5
+421,University of Southern Indiana,https://careers.usi.edu/jobs/search?page=1&employment_type_uids%5B%5D=2870671dfb7b1b2953f9187844ba74a2&query=,8,careers.usi.edu/jobs/<*>,8,score=16.0
+422,Indiana Institute of Technology,https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=9B7DD7DDF4B46DE388E0D590C86BBE1D,0,www.paycomonline.net/v4/ats/web.php/portal/<*>/jobs/<*>,10,score=20.0
+423,Purdue University Fort Wayne,https://purdueuniversity.valhalla.stage.jobs2web.com/FW,3,purdueuniversity.valhalla.stage.jobs2web.com/FW/content/<*>?locale,2,score=1.6
+424,University of Saint Francis-Fort Wayne,https://www.sf.edu/about/offices-and-departments/careers/,5,www.sf.edu/wp-content/uploads/<*>/<*>/<*>,3,score=3.9
+425,Franklin College,https://franklincollege.edu/about/key-offices/office-of-human-resources/employment-opportunities/,0,,0,no repeated link pattern found
+427,Goshen College,https://www.goshen.edu/employment/director-of-human-resources/,2,www.goshen.edu/<*>,7,score=8.1
+428,DePauw University,https://www.depauw.edu/offices/human-resources/employment/,3,www.depauw.edu/about/<*>,4,score=3.8
+429,Hanover College,https://www.hanover.edu/about/employment/,0,,0,no repeated link pattern found
+431,Butler University,https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1,0,,0,no repeated link pattern found
+433,Indiana University-Indianapolis,https://indianapolis.iu.edu/academics/hands-on-learning/profiles-of-learning.html,7,indianapolis.iu.edu/cost-aid/grants/<*>,6,score=6.0
+434,Marian University,https://marian.elluciancrmrecruit.com/Apply/Account/Create?f=a0ee650e-16a5-4b95-b901-c5b3f4d00dd4&o=a3e67df5-dead-4937-a82d-f42c212e56d1&IsInquiry=True,0,,0,no repeated link pattern found
+435,Martin University,https://www.martin.edu/jobreadyindy,3,www.martin.edu/<*>,6,score=7.9
+440,Ball State University,https://wd12.myworkday.com/bsu/d/task/2998$42366.htmld#backheader=true,0,,0,no repeated link pattern found
+441,Indiana University-Southeast,https://southeast.iu.edu/academics/explore-careers/index.html,6,southeast.iu.edu/academics/explore-careers/<*>,5,score=9.2
+442,Manchester University,https://www.manchester.edu/employment-opportunities/,6,www.manchester.edu/academics/<*>,6,score=6.4
+443,Holy Cross College,https://www.hcc-nd.edu/career-opportunities/,3,www.hcc-nd.edu/<*>,59,score=65.5
+444,Saint Mary's College,https://www.saintmarys.edu/hr,2,www.saintmarys.edu/<*>,8,score=8.1
+445,University of Notre Dame,https://jobs.smartrecruiters.com/my-applications/UniversityOfNotreDame?dcr_ci=UniversityOfNotreDame,0,,0,no repeated link pattern found
+446,Oakland City University,https://www.oak.edu/academics/career-pathways-program/,1,www.oak.edu/academics/<*>,6,score=7.2
+447,Earlham College,https://hr.earlham.edu/careers,0,,0,no repeated link pattern found
+448,Indiana University-East,https://east.iu.edu/red-wolf-central/academic-career/index.html,5,east.iu.edu/admissions/apply/<*>,6,score=9.6
+449,Saint Mary-of-the-Woods College,https://www.smwc.edu/offices-resources/offices/office-of-people-success-and-opportunity/employment-opportunities/,5,www.smwc.edu/offices-resources/offices/<*>,10,score=12.4
+452,Rose-Hulman Institute of Technology,https://rosehulman.csod.com/ux/ats/careersite/9/home?c=rosehulman,0,,0,no repeated link pattern found
+454,Valparaiso University,https://apply.interfolio.com/16338/positions,1,apply.interfolio.com/<*>,2,score=4.0
+455,Purdue University-Main Campus,https://careers.purdue.edu/content/Job-Seeker/,7,careers.purdue.edu/content/<*>?locale,4,score=4.0
+456,Calumet College of Saint Joseph,https://recruiting.paylocity.com/recruiting/jobs/All/d3b73b32-f518-47ab-82f7-ac57a8a45ce4/Calumet-College,1,,0,no repeated link pattern found
+458,Benedictine College,https://recruiting.paylocity.com/recruiting/jobs/Details/3764624/Benedictine-College/AssistantAssociate-Professor-of-Psychology,3,INLINE-TEXT,6,"inline listing, 6 role mentions"
+459,Baker University,https://www.bakeru.edu/about-baker/careers-baker,3,www.bakeru.edu/<*>,8,score=7.1
+460,Emporia State University,https://hr.hornet365.com/open-positions,2,hr.hornet365.com/<*>,20,score=32.5
+461,Barclay College,https://www.barclaycollege.edu/jobs/,3,www.barclaycollege.edu/jobs/job/<*>,2,score=4.0
+462,Fort Hays State University,https://www.fhsu.edu/humanresourceoffice/positions,4,www.fhsu.edu/<*>,3,score=2.0
+463,Tabor College,https://tabor.edu/about/employment/,7,tabor.edu/wp-content/uploads/<*>/<*>/<*>,22,score=34.0
+464,University of Kansas,https://employment.ku.edu,3,humanresources.ku.edu/<*>,2,score=4.0
+466,Bethany College,https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=06849628-1ff9-4555-9b68-cb637d20bae8&ccId=19000101_000001&type=JS&lang=en_US,3,,0,no repeated link pattern found
+467,Kansas State University,https://www.k-state.edu/employment/,10,careers.k-state.edu/<*>,3,score=2.5
+470,McPherson College,https://my.mcpherson.edu/ICS/Employment/Employment_Landing_Page.jnz?portlet=Employment_Position_Application,1,my.mcpherson.edu/ICS/Employment/<*>?portlet,2,score=1.9
+471,Bethel College-North Newton,https://jobs.bethelks.edu/,3,jobs.bethelks.edu/about/who-we-are/career-opportunities/current-position-openings/<*>,3,score=3.0
+473,Ottawa University-Ottawa,https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=AB201C499D53A5D603D5BE296513B383,0,www.paycomonline.net/v4/ats/web.php/portal/<*>/jobs/<*>,10,score=20.0
+474,Ottawa University-Kansas City,https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=AB201C499D53A5D603D5BE296513B383,0,www.paycomonline.net/v4/ats/web.php/portal/<*>/jobs/<*>,10,score=20.0
+475,Pittsburg State University,https://ebyf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs/preview/76/?mode=location,2,ebyf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/<*>/job/<*>?mode,2,score=4.0
+476,Kansas Wesleyan University,https://www.kwu.edu/about/careers/,3,www.kwu.edu/wp-content/uploads/<*>,12,score=14.7
+477,Sterling College,https://www.sterling.edu/about/employment,7,www.sterling.edu/<*>,7,score=11.5
+482,Southwestern College,https://www.sckans.edu/about/employment/,3,www.sckans.edu/admissions/<*>,15,score=14.7
+483,Union College,https://www.unionky.edu/about/human-resources/employment-opportunities/faculty-positions,4,www.unionky.edu/<*>,16,score=17.9
+484,Berea College,https://www.schooljobs.com/careers/berea?jobType[0]=Faculty&sort=PositionTitle%7CAscending,6,,0,no repeated link pattern found
+485,Western Kentucky University,https://sso.interviewexchange.com/wku/sso.jsp,0,,0,no repeated link pattern found
+487,Lindsey Wilson College,https://lindsey.elluciancrmrecruit.com/Apply/Account/Create,0,,0,no repeated link pattern found
+491,Georgetown College,https://www.georgetowncollege.edu/careers-georgetown-college,3,www.georgetowncollege.edu/georgetown-stories/<*>,4,score=8.0
+494,Transylvania University,https://www.transy.edu/employment-opportunities/,10,www.transy.edu/<*>,19,score=30.4
+495,University of Kentucky,https://careers.uky.edu/careers/hr,1,,0,no repeated link pattern found
+497,Spalding University,https://spalding.edu/careers/,1,spalding.edu/financial-aid/<*>,4,score=4.2
+498,University of Louisville,https://cardinalcareers-csm.symplicity.com/,2,,0,no repeated link pattern found
+499,Midway University,https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=0360F3B5A2EC741788B51C99C6E17513&jpt=,0,www.paycomonline.net/v4/ats/web.php/portal/<*>/jobs/<*>,6,score=12.0
+500,Morehead State University,https://www.moreheadstate.edu/about-msu/leadership/administration/human-resources/careers,1,www.moreheadstate.edu/about-msu/<*>,3,score=2.3
+502,Brescia University,https://www.brescia.edu/employment/,0,,0,no repeated link pattern found
+503,Kentucky Wesleyan College,https://kwc.edu/about-wesleyan/employment-opportunities/,0,,0,no repeated link pattern found
+504,University of Pikeville,https://www.upike.edu/offices/human-resources/careers/,1,www.upike.edu/graduate-studies/<*>,6,score=9.3
+505,Alice Lloyd College,https://alc.edu/special-learning-opportunities/,3,alc.edu/<*>,46,score=52.5
+507,University of the Cumberlands,https://www.myworkday.com/ucumberlands/,0,,0,no repeated link pattern found
+508,Asbury University,https://jobs.asbury.edu/,1,,0,no repeated link pattern found
+513,Southeastern Louisiana University,https://wd503.myworkday.com/ulsselu/,0,,0,no repeated link pattern found
+515,McNeese State University,https://www.mcneese.edu/financial-aid/gainful-employment-disclosure-information/,1,www.mcneese.edu/about-us/leadership-team/administrative-and-student-affairs/division-of-administrative-and-student-affairs/student-central/financial-aid/<*>,6,score=7.5
+519,Loyola University New Orleans,https://www.governmentjobs.com/careers/loyno?jobType[0]=Faculty&sort=PositionTitle%7CAscending,6,,0,no repeated link pattern found
+521,Tulane University of Louisiana,https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001,0,"tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/<*>/jobs?lastSelectedFacet,selectedCategoriesFacet",2,score=2.5
+522,University of Holy Cross,https://uhcno.edu/hr/jobs/index.php,5,uhcno.edu/hr/jobs/<*>,5,score=10.0
+523,University of New Orleans,https://www.uno.edu/careers,3,www.uno.edu/<*>,7,score=14.0
+526,Louisiana Tech University,https://ulsltu.wd1.myworkdayjobs.com/LATECHCareers,0,,0,no repeated link pattern found
+527,Centenary College of Louisiana,https://www.centenary.edu/directories/offices-services-directory/human-resources/job-opportunities/,3,www.centenary.edu/directories/offices-services-directory/human-resources/<*>,15,score=18.5
+528,Louisiana State University-Shreveport,https://lsus.edu2.com/topic/programsteps,0,lsus.edu2.com/category/<*>/<*>,8,score=9.7
+529,Nicholls State University,https://jobs.nicholls.edu,8,,0,no repeated link pattern found
+530,Amherst College,https://wd5.myworkday.com/amherst/d/home.htmld,0,,0,no repeated link pattern found
+531,Hampshire College,https://www.hampshire.edu/offices/human-resources/employment-opportunities,1,www.hampshire.edu/academics/<*>,8,score=8.9
+532,University of Massachusetts-Amherst,https://umassamherst.dc4.pageuppeople.com/,0,www.umass.edu/policy/<*>,2,score=0.9
+535,Cambridge College,https://www.cambridgecollege.edu/es/life-at-cc/career-life-planning-center,2,www.cambridgecollege.edu/es/<*>,13,score=14.2
+536,Emerson College,https://emerson.wd5.myworkdayjobs.com/en-US/Emerson_College_ft_faculty,0,,0,no repeated link pattern found
+537,Emmanuel College,https://emmanuel.interviewexchange.com/static/clients/13EM1/listJobs.jsp;jsessionid=47B469F5FF02B2ECA11624165C411A0F,4,emmanuel.interviewexchange.com/<*>?JOBID,4,score=6.6
+538,Fisher College,https://www.fisher.edu/careers,2,www.fisher.edu/academics/<*>,6,score=6.9
+539,Northeastern University,https://hr.northeastern.edu/careers/job-listings/,3,www.dol.gov/sites/dolgov/files/OFCCP/regs/compliance/posters/pdf/<*>,2,score=4.0
+546,Massachusetts Maritime Academy,https://www.maritime.edu/human-resources/employment-opportunities,3,www.maritime.edu/<*>,17,score=15.6
+547,Harvard University,https://hr.harvard.edu/careers,0,,0,page did not load
+548,Lesley University,https://lesley.edu/my-organizations-goals/recruit-talent/priority-job-matching-program,7,lesley.edu/international-students/<*>,10,score=13.9
+551,College of Our Lady of the Elms,https://www.elms.edu/about-elms/administrative-offices/human-resources/employment/,2,www.elms.edu/<*>,18,score=14.7
+552,Nichols College,https://www.nichols.edu/offices/human-resources/,10,www.nichols.edu/career-readiness/<*>,4,score=6.6
+553,Stonehill College,https://jobs.stonehill.edu/hr/sessions/new,0,,0,page did not load
+554,Fitchburg State University,https://jobs.fitchburgstate.edu,2,,0,no repeated link pattern found
+557,Bay Path University,https://www.paycomonline.net/v4/ats/web.php/portal/3A2948EF284B8722FEE42E01FB156C27/career-page,0,www.paycomonline.net/v4/ats/web.php/portal/<*>/jobs/<*>,10,score=20.0
+558,University of Massachusetts-Lowell,https://www.uml.edu/academics/programs/?career=undergraduate&utm_source=home,1,"www.uml.edu/catalog/undergraduate/business/programs/minors/<*>?q,ref",10,score=16.9
+560,Curry College,https://www.curry.edu/about-us/community-resources/human-resources-and-employment/job-opportunities,3,www.curry.edu/academics/<*>,6,score=9.3
+561,Lasell University,https://www.lasell.edu/discover-lasell/employment/about-human-resources.html#nav,2,www.lasell.edu/campus-life/<*>,10,score=9.6
+563,Merrimack College,https://merrimack-advocate.symplicity.com/care_report/index.php/pid854103,0,,0,no repeated link pattern found
+567,Anna Maria College,https://annamaria.edu/work-at-anna-maria/,1,annamaria.edu/wp-content/uploads/<*>/<*>/<*>,4,score=3.4
+571,American International College,https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=4f7bf2c8-4d1c-459f-99e3-bc1939cfa417&ccId=9201445022114_2&lang=en_US,0,INLINE-TEXT,14,"inline listing, 14 role mentions"
+572,Springfield College,https://www.schooljobs.com/careers/springfieldcollege?jobType[0]=Faculty&sort=PositionTitle%7CAscending,8,,0,no repeated link pattern found
+573,Western New England University,https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=3C67A483237F6A324625AB95D568B0C1&fromClientSide=true,0,www.paycomonline.net/v4/ats/web.php/portal/<*>/jobs/<*>,10,score=20.0
+575,Brandeis University,https://www.brandeis.edu/human-resources/careers/faculty-positions.html,4,www.brandeis.edu/human-resources/employee-benefits/life-disability-insurance/<*>,3,score=4.8
+576,Babson College,https://entrepreneurship.babson.edu/career-outcomes-mba-class-2025/?share=linkedin,1,,0,no repeated link pattern found
+579,Westfield State University,https://careers.westfield.ma.edu/labor-market-insights/,8,careers.westfield.ma.edu/channels/<*>,10,score=12.7
+580,Regis College,https://www.regiscollege.edu/about-regis/administrative-offices/department-human-resources/working-regis,4,www.regiscollege.edu/academics/<*>,11,score=12.2
+581,Williams College,https://employment.williams.edu/,2,diversity.williams.edu/<*>,2,score=2.4
+589,Goucher College,https://goucher.wd1.myworkdayjobs.com/Goucher_Careers,10,goucher.wd1.myworkdayjobs.com/en-US/Goucher_Careers/job/Goucher-College-Campus/<*>,7,score=5.6
+590,Johns Hopkins University,https://facultyjobs.jhu.edu,3,,0,no repeated link pattern found
+595,University of Maryland-Baltimore County,https://facultyjobs.umbc.edu/cwfac/en-us/listing/,5,facultyjobs.umbc.edu/cwfac/en-us/job/<*>/<*>,5,score=8.4
+597,Washington College,https://www.washcoll.edu/people_departments/offices/human-resources/employment/index.php,9,www.washcoll.edu/admissions/<*>,2,score=2.0
+599,Mount St. Mary's University,https://inside.msmary.edu/more/human-resources/employment-opportunities/index.html#faculty-jobs,0,,0,no repeated link pattern found
+602,Capitol Technology University,https://captechu-csm.symplicity.com/,3,,0,no repeated link pattern found
+606,St. Mary's College of Maryland,https://apply.interfolio.com/190337,1,,0,no repeated link pattern found
+609,Towson University,https://towson.taleo.net/careersection/ex/jobsearch.ftl,0,,0,no repeated link pattern found
+611,University of Maine at Augusta,https://uma.careers.maine.edu/,4,,0,no repeated link pattern found
+612,Husson University,https://www.husson.edu/about/human-resources/index.html,3,www.husson.edu/about/human-resources/<*>,3,score=2.7
+613,University of New England,https://une.peopleadmin.com/,1,,0,no repeated link pattern found
+615,Maine Maritime Academy,https://mainemaritime.edu/employment-at-mma/faculty-positions/,5,mainemaritime.edu/student-life/<*>,10,score=10.2
+616,University of Maine at Farmington,#VALUE!,0,,0,page did not load
+617,University of Maine at Fort Kent,https://www.maine.edu/careers/,1,www.maine.edu/<*>,6,score=4.8
+618,Bates College,https://www.bates.edu/career/,9,www.bates.edu/purposeful-work/<*>,33,score=48.7
+620,University of Southern Maine,https://usm.careers.maine.edu/,2,,0,no repeated link pattern found
+621,University of Maine at Presque Isle,https://www.umpi.edu/human-resources/jobs-at-umpi/,2,www.umpi.edu/human-resources/employee-recognition/<*>,4,score=4.9
+623,Colby College,https://www.colby.edu/people/offices-directory/human-resources/employment/academic-positions-available/,1,www.colby.edu/people/offices-directory/people-services/<*>,5,score=6.0
+625,Adrian College,https://www.adrian.edu/academics/academics/career-planning/job-search,8,www.adrian.edu/academics/academics/career-planning/academics/<*>,15,score=15.9
+626,Siena Heights University,https://www.sienaheights.edu/past-syllabi-employment-and-financial-aid/,0,,0,no repeated link pattern found
+627,Albion College,https://apply.interfolio.com/9409/positions,1,apply.interfolio.com/<*>,3,score=4.9
+629,Alma College,https://www.schooljobs.com/careers/alma/promotionaljobs?jobType[0]=Faculty&sort=PositionTitle%7CAscending,6,,0,no repeated link pattern found
+631,University of Michigan-Ann Arbor,https://careers.umich.edu/search-jobs,3,careers.umich.edu/<*>,5,score=5.0
+632,Andrews University,https://andrewsu-advocate.symplicity.com/care_report/index.php/pid627169,0,,0,no repeated link pattern found
+634,University of Michigan-Dearborn,https://careers.umich.edu/search-jobs,3,careers.umich.edu/<*>,5,score=5.0
+635,University of Detroit Mercy,https://www.udmercy.edu/faculty-staff/hr/jobs.php,4,,0,no repeated link pattern found
+637,Michigan State University,https://careers.msu.edu/homepage,6,careers.msu.edu/<*>,3,score=2.8
+638,Kettering University,https://www.kettering.edu/co-op-career-design,1,www.kettering.edu/academics-research/programs/<*>,15,score=21.9
+639,University of Michigan-Flint,https://careers.umich.edu/search-jobs,3,careers.umich.edu/<*>,5,score=5.0
+640,Aquinas College,https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=0d6a119c-4b29-473d-aa54-b44806014631&ccId=19000101_000001&lang=en_US,10,,0,no repeated link pattern found
+643,Davenport University,https://post.davenport.edu/category/careers/,5,post.davenport.edu/academics/<*>,10,score=20.0
+644,Kuyper College,https://www.kuyper.edu/employment/,8,www.kuyper.edu/<*>,10,score=7.9
+646,Hope College,https://hope.edu/offices/boerigter-center/,8,hope.edu/offices/<*>,6,score=7.8
+649,Kalamazoo College,https://provost.kzoo.edu/faculty-information/facultyjobs/?_gl=1*bwrqnp*_ga*Mjg4OTI5Nzk5LjE2MDk5ODgxODg.*_ga_2XRJV6H0DR*MTcwNzY4NzYyNi4yOC4xLjE3MDc2OTMzNzQuMC4wLjA.,7,kzoo.sharepoint.com/sites/<*>,3,score=3.8
+651,Madonna University,https://www.madonna.edu/resources/human-resources/,4,www.madonna.edu/resources/<*>,5,score=5.4
+652,Northern Michigan University,https://jobs.nmu.edu,5,nmu.edu/<*>,4,score=5.8
+656,Baker College,https://www.baker.edu/about/get-to-know-us/careers/,3,www.baker.edu/wp-content/uploads/<*>,4,score=6.2
+658,Rochester University,https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=4ec54663-0058-4347-9828-d4720a7524f4&ccId=19000101_000001&lang=en_US&selectedMenuKey=CareerCenter,7,,0,no repeated link pattern found
+659,Lake Superior State University,https://lssu.elluciancrmrecruit.com/Apply/Account/Create?f=74d097fd-e977-4014-8c74-57ea15a7d036&o=c32620df-99a6-4d73-825b-e072a3556b81&s=35d02c13-f240-e811-80d9-0a19abd13584&IsInquiry=True,0,,0,no repeated link pattern found
+660,Lawrence Technological University,https://ltu.edu/about/human-resources/job-openings/,10,ltu.edu/job-postings/<*>,3,score=6.0
+661,Spring Arbor University,https://springarbor.edu/about/offices-and-schools/human-resources/careers.php,2,springarbor.edu/academics/<*>,4,score=5.0
+662,Walsh College,https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=8B50A1FFE490890FFF138330679CB02A&fromClientSide=true,0,,0,no repeated link pattern found
+663,Saginaw Valley State University,https://wd503.myworkday.com/svsu/d/home.htmld,0,,0,no repeated link pattern found
+665,Eastern Michigan University,https://secure.dc4.pageuppeople.com/apply/1092/aw/applicationForm/default.asp,0,,0,no repeated link pattern found
+666,Bemidji State University,https://minnstate.wd115.myworkdayjobs.com/Minnesota_State_Careers?Institution=a7c1912089511000d545d2b3d8c70002,3,minnstate.wd115.myworkdayjobs.com/en-US/Minnesota_State_Careers/job/Bemidji/<*>?Institution,3,score=6.0
+669,Saint Johns University,https://www.schooljobs.com/careers/osb?jobType[0]=Faculty&sort=PositionTitle%7CAscending,6,,0,no repeated link pattern found
+671,The College of Saint Scholastica,https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=f49f191a-7524-465b-8442-e0768f85867a&ccId=31713375_2&lang=en_US,6,,0,no repeated link pattern found
+674,Minnesota State University-Mankato,https://minnstate.wd115.myworkdayjobs.com/Minnesota_State_Careers?Institution=a7c1912089511000d545e0844e430004,10,minnstate.wd115.myworkdayjobs.com/en-US/Minnesota_State_Careers/job/Mankato/<*>?Institution,10,score=20.0
+675,Southwest Minnesota State University,https://minnstate.wd115.myworkdayjobs.com/Minnesota_State_Careers?Institution=a7c1912089511000d545c27b54900000,3,minnstate.wd115.myworkdayjobs.com/en-US/Minnesota_State_Careers/job/Marshall/<*>?Institution,3,score=5.3
+679,North Central University,https://www.northcentral.edu/about/employment/current-job-openings/,10,www.northcentral.edu/admissions/<*>,6,score=5.2
+683,Minnesota State University Moorhead,https://minnstate.wd115.myworkdayjobs.com/Minnesota_State_Careers?Institution=a7c1912089511000d545deb6e32a0001,1,,0,no repeated link pattern found
+685,Carleton College,https://www.myworkday.com/carleton/d/home.htmld,0,,0,no repeated link pattern found
+686,St Olaf College,https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3,0,,0,no repeated link pattern found
+687,Crown College,https://secure5.entertimeonline.com/ta/CBIZ20706.careers?CareersSearch,1,INLINE-TEXT,18,"inline listing, 18 role mentions"
+689,College of Saint Benedict,https://www.schooljobs.com/careers/osb?jobType[0]=Faculty&sort=PositionTitle%7CAscending,6,,0,no repeated link pattern found
+692,Hamline University,https://hamline.wd5.myworkdayjobs.com/Faculty_Career_Site,1,,0,no repeated link pattern found
+694,Metropolitan State University,https://minnstate.wd115.myworkdayjobs.com/Minnesota_State_Careers?Institution=a7c1912089511000d545c57bc0dd0001,5,minnstate.wd115.myworkdayjobs.com/en-US/Minnesota_State_Careers/job/St-Paul/<*>?Institution,7,score=14.0
+698,Gustavus Adolphus College,https://gustavus.edu/about/administrative-offices/human-resources/employment-opportunities-human-resources,3,gustavus.edu/about/administrative-offices/<*>,17,score=21.0
+700,Saint Mary's University of Minnesota,https://faculty-saintmarysuniversity.icims.com/jobs/search?ss=1&in_iframe=1&hashed=-625950295,4,faculty-saintmarysuniversity.icims.com/<*>,10,score=12.4
+701,Winona State University,https://minnstate.wd115.myworkdayjobs.com/Minnesota_State_Careers?Institution=a7c1912089511000d545c9b0beeb0000,7,minnstate.wd115.myworkdayjobs.com/en-US/Minnesota_State_Careers/job/Winona/<*>?Institution,5,score=10.0
+703,Culver-Stockton College,https://culver.edu/gps-core/,6,culver.edu/admissions/<*>,14,score=16.7
+704,Southeast Missouri State University,https://www.governmentjobs.com/careers/semoedu/promotionaljobs?jobType[0]=Faculty&sort=PositionTitle%7CAscending,7,,0,no repeated link pattern found
+705,Columbia College,https://www.ccis.edu/careers/jobs,2,,0,page did not load
+707,University of Missouri-Columbia,https://www.umsystem.edu/ums/hr/income,1,www.umsystem.edu/<*>,6,score=5.2
+708,Central Methodist University-College of Liberal Arts and Sciences,https://centralmethodist.edu/about/offices/human-resources/jobs-fayette/index.html,5,centralmethodist.edu/about/offices/human-resources/jobs-fayette/listings/<*>,15,score=30.0
+709,Westminster College,https://recruiting.paylocity.com/recruiting/jobs/All/a5d7af06-7587-4fed-8c04-2df22f7d0e9b/Westminster-College?location=Westminster%20College%20-%20Fulton%2C%20MO&department=All%20Departments,8,recruiting.paylocity.com/Recruiting/Jobs/Details/<*>,8,score=10.8
+710,William Woods University,https://www.williamwoods.edu/employment/adjunct-faculty-employment/,4,www.williamwoods.edu/academics-programs/<*>,53,score=104.1
+711,Hannibal-LaGrange University,https://www.hlg.edu/forms/adjunctfacultyapplication/,0,,0,no repeated link pattern found
+713,Missouri Southern State University,https://www.mssu.edu/financial-services/human-resources/eeoc.php,2,www.mssu.edu/student-affairs/financial-aid/<*>,4,score=4.2
+714,Avila University,https://www.avila.edu/about/administrative-offices/human-resources/careers/,3,www.avila.edu/<*>,11,score=10.2
+715,Calvary University,https://www.calvary.edu/employment/work-at-calvary/,5,www.calvary.edu/wp-content/uploads/<*>/<*>/<*>,6,score=10.9
+716,City Vision University,https://cityvisionuniversity.applytojob.com,4,,0,no repeated link pattern found
+717,Rockhurst University,https://www.rockhurst.edu/about/human-resources/equal-employment-opportunity,3,www.rockhurst.edu/about/human-resources/<*>,3,score=3.7
+718,University of Missouri-Kansas City,https://www.umkc.edu/hr/careers/index.html,1,www.umkc.edu/<*>,2,score=2.4
+719,Truman State University,https://trumansu.peopleadmin.com/postings/search?utf8=‚úì&query=&query_v0_posted_at_date=&query_position_type_id%5B%5D=3&435=&commit=Search,8,,0,no repeated link pattern found
+720,William Jewell College,https://www.jewell.edu/employment,2,jewell.edu/<*>,35,score=31.0
+721,Missouri Valley College,https://www.moval.edu/?post_type=page&p=524,6,www.moval.edu/<*>,7,score=9.2
+723,Cottey College,https://cottey.edu/employment/,7,cottey.edu/<*>,13,score=14.0
+724,Park University,https://park.wd1.myworkdayjobs.com/ParkUniversityCareers,8,park.wd1.myworkdayjobs.com/en-US/ParkUniversityCareers/job/Parkville-MO/<*>,4,score=8.0
+725,College of the Ozarks,https://www.cofo.edu/jobs,10,www.cofo.edu/Portals/<*>/Accolades/<*>?ver,20,score=37.5
+726,Missouri University of Science and Technology,https://jobs.mst.edu/,8,minerathletics.com/sports/<*>,7,score=6.7
+731,Maryville University of Saint Louis,https://careers.maryville.edu/?_ga=2.65064999.867605969.1689610591-885137803.1623179314,5,careers.maryville.edu/<*>,3,score=2.9
+734,University of Missouri-St Louis,https://www.umsl.edu/services/hrs/careers/index.html,3,www.umsl.edu/services/hrs/managers/<*>,3,score=2.5
+736,Webster University,https://recruiting.adp.com/srccar/public/RTI.home?c=1180715&d=ExternalCareerSite,0,,0,no repeated link pattern found
+737,Drury University,https://www.drury.edu/hr/drury-university-jobs/,5,www.drury.edu/hr/<*>,11,score=10.0
+739,Mission University,https://mission.edu/jobs/,3,mission.edu/about/<*>,2,score=3.5
+748,William Carey University,https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=E66B3C1689D7CACD88837E5AD889588C,0,www.paycomonline.net/v4/ats/web.php/portal/<*>/jobs/<*>,10,score=20.0
+753,Millsaps College,https://millsaps.edu/work-at-millsaps/,8,millsaps.edu/<*>,15,score=14.2
+758,Montana State University Billings,http://www.mus.edu/hr/jobs.asp,3,www.mus.edu/<*>,5,score=5.0
+759,Rocky Mountain College,https://www.facebook.com/rockymountaincollege/,0,www.facebook.com/<*>,2,score=1.4
+762,The University of Montana-Western,https://www.umwestern.edu/section/vacancy-procedure-documents/,4,www.umwestern.edu/wp-content/uploads/<*>,12,score=20.4
+763,University of Providence,https://www.uprovidence.edu/employment/,0,,0,no repeated link pattern found
+765,Carroll College,https://www.carroll.edu/about/work-carroll,5,www.carroll.edu/about-carroll/<*>,7,score=8.8
+766,The University of Montana,https://apply.interfolio.com/53871/positions,1,apply.interfolio.com/<*>,9,score=18.0
+769,Belmont Abbey College,https://belmontabbeycollege.edu/about-us/employment,3,belmontabbeycollege.edu/about-us/employment/<*>,7,score=9.5
+777,Queens University of Charlotte,https://www.queens.edu/careers/why-work-at-queens/career-opportunities-at-queens/,4,www.queens.edu/<*>,6,score=4.3
+780,Davidson College,https://fa-exci-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2,0,www.davidson.edu/offices-and-services/technology-innovation/it-guidelines-policies/<*>,2,score=1.5
+787,Methodist University,https://www.methodist.edu/offices-services/human-resources/,4,www.methodist.edu/wp-content/uploads/<*>/<*>/<*>,6,score=8.8
+789,Greensboro College,https://www.greensboro.edu/employment/,4,www.greensboro.edu/admissions/<*>,9,score=10.6
+795,Lenoir-Rhyne University,https://www.lr.edu/work-at-lr/human-resources,6,www.lr.edu/<*>,10,score=8.9
+799,Mars Hill University,https://jobs.appone.com/marshilluniversity,0,,0,no repeated link pattern found
+800,Pfeiffer University,https://www.pfeiffer.edu/career-success/,5,www.pfeiffer.edu/academics/<*>,4,score=3.8
+802,University of Mount Olive,https://www.umo.edu/employment/,0,,0,no repeated link pattern found
+803,Chowan University,https://www.chowan.edu/about/offices/human-resources/workstudyjobs/,2,www.chowan.edu/about/<*>,5,score=4.9
+810,North Carolina Wesleyan University,https://ncwu.edu/community/careers/current-openings/faculty-teaching-positions/,6,ncwu.edu/academics/<*>,8,score=8.7
+811,Catawba College,https://www.catawba.edu/jobs/,2,www.catawba.edu/campuslife/<*>,2,score=1.9
+813,Warren Wilson College,https://www.warren-wilson.edu/about/employment/,1,www.warren-wilson.edu/admission/<*>,5,score=4.5
+815,Barton College,https://www.barton.edu/academics/academic-career-planning/,1,,0,no repeated link pattern found
+817,Salem College,https://www.salem.edu/about/employment/limitedtermcustodian/,2,www.salem.edu/centers/<*>,4,score=7.2
+818,Wake Forest University,https://wfu.wd1.myworkdayjobs.com/Faculty_Career_Website_live,3,wfu.wd1.myworkdayjobs.com/en-US/Faculty_Career_Website_live/job/Winston-Salem-NC/<*>,3,score=6.0
+821,Dickinson State University,https://dickinsonstate.edu/about/employment/open-positions/index.html,4,www.dsuheritagefoundation.org/<*>,2,score=1.1
+823,North Dakota State University-Main Campus,https://www.ndsu.edu/employment,2,www.ndsu.edu/student-life/<*>,3,score=3.8
+825,University of Jamestown,https://www.uj.edu/about/job-opportunities/,10,www.uj.edu/student-life/<*>,7,score=8.3
+826,Mayville State University,https://www.mayvillestate.edu/campus-life/campus-employment/,2,www.mayvillestate.edu/future-students/<*>,9,score=11.3
+827,Minot State University,https://www.minotstateu.edu/hr,2,www.minotstateu.edu/hr/<*>,2,score=1.6
+829,Bellevue University,https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=191fb38a-3b70-4f49-b37f-cb2eda186474&ccId=9201943470232_2&lang=en_US,0,"workforcenow.adp.com/mascsr/default/mdf/recruitment/<*>?ccId,cid,lang",2,score=1.6
+832,Midland University,https://www.midlandu.edu/about/careers/,4,www.midlandu.edu/academics/<*>,15,score=17.8
+833,Hastings College,https://www.hastings.edu/academics/academic-opportunities/,3,www.hastings.edu/admissions/cost-aid/<*>,6,score=7.3
+834,University of Nebraska at Kearney,https://unknews.unk.edu/2026/08/25/vail-ziolkowski-beissel-heath-selected-for-endowed-faculty-positions-at-unk/,1,unknews.unk.edu/<*>/<*>/<*>/<*>,10,score=20.0
+835,Nebraska Wesleyan University,https://www.nebrwesleyan.edu/about-nwu/employment/business-office-hr-associate,4,www.nebrwesleyan.edu/about-nwu/employment/<*>,14,score=27.5
+838,Clarkson College,https://nebraskamed.wd5.myworkdayjobs.com/en-US/Clarkson,10,nebraskamed.wd5.myworkdayjobs.com/en-US/Clarkson/job/Omaha-NE/<*>,10,score=15.8
+839,College of Saint Mary,https://www.csm.edu/academics/career-pathways/,6,www.csm.edu/about/<*>,4,score=3.8
+844,Wayne State College,https://www.wsc.edu/directory/16/employment-opportunities/category/300,4,www.wsc.edu/<*>,26,score=26.3
+845,York University,https://www.york.edu/about/employment.php#faculty,2,www.york.edu/about/<*>,6,score=4.2
+847,Dartmouth College,https://www.buzzfeed.com/about/jobs,6,boards.greenhouse.io/buzzfeed/jobs/<*>?gh_jid,6,score=12.0
+850,Saint Anselm College,https://anselm.wd1.myworkdayjobs.com/Anselm,6,anselm.wd1.myworkdayjobs.com/en-US/Anselm/job/Saint-Anselm-College-Campus/<*>,6,score=7.4
+851,Southern New Hampshire University,https://jobs.snhu.edu/en/career-areas/online-teaching-jobs/,9,jobs.snhu.edu/en/career-areas/<*>,6,score=7.9
+852,University of New Hampshire College of Professional Studies Online,https://cps.unh.edu/online/why-unh-cps-online/career-support,1,cps.unh.edu/online/resources/current-students/academics-advising/<*>,11,score=13.2
+853,University of New Hampshire at Manchester,https://manchester.unh.edu/careers,4,manchester.unh.edu/student-experience/<*>,8,score=8.6
+854,Rivier University,https://www.schooljobs.com/careers/rivieredu?jobType[0]=Faculty&sort=PositionTitle%7CAscending,6,,0,no repeated link pattern found
+855,Colby-Sawyer College,https://secure.entertimeonline.com/ta/ColbySawyer.careers?CareersSearch&ein_id=85020931&career_portal_id=1130757,1,INLINE-TEXT,7,"inline listing, 7 role mentions"
+857,Franklin Pierce University,https://franklinpierce.edu/paths,6,franklinpierce.edu/academics/programs/<*>,10,score=13.1
+859,Caldwell University,https://www.caldwell.edu/hr/employment-opportunities/faculty-full-time/,7,www.caldwell.edu/<*>,15,score=15.1
+861,The College of New Jersey,https://tcnj.taleo.net/careersection/00_ex_faculty/jobsearch.ftl?lang=en,2,tcnj.taleo.net/careersection/<*>/jobsearch.ftl?lang,5,score=4.0
+864,Centenary University,https://www.instagram.com/p/DcMh4Y-oP_M/,1,,0,no repeated link pattern found
+868,Saint Peter's University,https://www.paycomonline.net/v4/ats/web.php/portal/055E28882001FE667534B0880CFCD275/career-page,0,www.paycomonline.net/v4/ats/web.php/portal/<*>/jobs/<*>,10,score=20.0
+869,Georgian Court University,https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=0674ba22-8f97-458a-80c0-91217826b19b&ccId=9151465763873_19553&lang=en_US,1,,0,no repeated link pattern found
+872,Drew University,https://drew.edu/about/human-resources/employment-opportunities/,0,,0,page did not load
+873,Fairleigh Dickinson University-Florham Campus,https://www.instagram.com/reel/Db53N_YDMHp/,1,,0,no repeated link pattern found
+878,New Jersey Institute of Technology,https://jobs.njit.edu,1,jobs.njit.edu/en-US/NJIT_Careers/job/Tiernan-Hall/<*>,4,score=6.3
+879,Pillar College,https://www.pillar.edu/careers,4,www.pillar.edu/academics/<*>,9,score=12.6
+884,Fairleigh Dickinson University-Metropolitan Campus,https://www.instagram.com/reel/Db53N_YDMHp/,1,,0,no repeated link pattern found
+885,Thomas Edison State University,https://tesu.elluciancrmrecruit.com/Apply/Account/ProspectInquiry?f=a5c390e3-cba0-4376-b596-8fba5466af6e&o=8a362f72-262c-48bc-a36d-c5d6e0f75af6&s=c1a80143-768e-e311-a614-00155d01181f,0,,0,no repeated link pattern found
+887,William Paterson University of New Jersey,https://www.wpunj.edu/human-resources/jobs-careers-comp/employment-opportunities,10,www.wpunj.edu/<*>,10,score=14.3
+891,University of New Mexico-Main Campus,https://unmjobs.unm.edu/,1,"unm.csod.com/ux/ats/careersite/<*>/home?c,cfdd[0][id],cfdd[0][options][0]",4,score=2.8
+893,University of the Southwest,https://www.usw.edu/faculty-openings,4,www.usw.edu/<*>,5,score=3.8
+895,New Mexico Highlands University,https://www.paycomonline.net/v4/ats/web.php/portal/2881FFE43C19E2921F626A9C2B366153/career-page,0,www.paycomonline.net/v4/ats/web.php/portal/<*>/jobs/<*>,10,score=20.0
+896,Eastern New Mexico University-Main Campus,https://www.schooljobs.com/careers/enmu?jobType[0]=Faculty&sort=PositionTitle%7CAscending,7,,0,no repeated link pattern found
+897,Institute of American Indian and Alaska Native Culture and Arts Development,https://iaia.edu/about/employment/,3,iaia.edu/explore-programs/<*>,11,score=13.6
+899,New Mexico Institute of Mining and Technology,https://www.nmt.edu/hr/employment.php,6,www.nmt.edu/hr/<*>,53,score=65.2
+905,Excelsior University,https://www.excelsior.edu/career-training,1,www.excelsior.edu/program/<*>,43,score=63.9
+907,University at Albany,https://albany.interviewexchange.com/jobsearchfrm.jsp,3,,0,no repeated link pattern found
+909,Daemen University,https://www.daemen.edu/about/working-daemen/employment-opportunities,1,www.daemen.edu/about/working-daemen/<*>,11,score=16.1
+912,SUNY Brockport,https://www.brockport.edu/support/human-resources/careers/,8,www2.brockport.edu/live/blurbs/<*>,13,score=13.0
+913,CUNY Lehman College,https://cuny.jobs/campus/lehman-college/job-category/faculty/jobs/,3,www.cuny.edu/financial-aid/<*>,5,score=6.4
+916,University of Mount Saint Vincent,https://mountsaintvincent.edu/employment-opportunities/,1,,0,no repeated link pattern found
+917,CUNY Brooklyn College,https://cuny.jobs/campus/brooklyn-college/job-category/faculty/jobs/,0,www.cuny.edu/financial-aid/<*>,5,score=6.4
+918,CUNY Medgar Evers College,https://cuny.jobs/campus/medgar-evers-college/job-category/faculty/jobs/,1,www.cuny.edu/financial-aid/<*>,5,score=6.4
+919,CUNY New York City College of Technology,https://cuny.jobs/campus/new-york-city-college-of-technology/job-category/faculty/jobs/,10,www.cuny.edu/financial-aid/<*>,5,score=6.4
+920,Pratt Institute-Main,https://www.pratt.edu/administrative-departments/human-resources/open-positions/faculty-positions/,7,www.schooljobs.com/careers/pratt/jobs/<*>,6,score=12.0
+921,St. Francis College,https://www.sfc.edu/why-sfc/careers-at-sfc,8,assets.sfc.edu/content/uploads/<*>,11,score=21.9
+923,Long Island University,https://jobs.liu.edu/job_details/4967,1,,0,no repeated link pattern found
+924,Canisius University,https://canisiusuniversity-puzzlehr.icims.com/,7,,0,no repeated link pattern found
+925,D'Youville  University,https://dyouville-university.prismhr-hire.com/job/726161/college-of-osteopathic-medicine-chair-primary-care,3,INLINE-TEXT,7,"inline listing, 7 role mentions"
+929,Villa Maria College,https://www.villa.edu/about-us/employment-opportunities/employment-application/,2,www.villa.edu/academics/<*>,10,score=10.4
+930,SUNY College of Technology at Canton,https://canton-accommodate.symplicity.com/,1,,0,no repeated link pattern found
+931,St Lawrence University,https://careerhub-clarkson.icims.com/jobs/search?hashed=-625885781&mobile=false&width=1246&height=500&bga=true&needsRedirect=false&jan1offset=-300&jun1offset=-240,0,careerhub-clarkson.icims.com/student-life/<*>,5,score=10.0
+933,Hamilton College,https://www.hamilton.edu/offices/human-resources/employment/job-opportunities,5,www.hamilton.edu/academics/<*>,5,score=4.7
+935,State University of New York at Cortland,https://www2.cortland.edu/offices/hr/jobs,4,www2.cortland.edu/admissions/undergraduate/<*>,5,score=4.8
+938,Mercy University,https://www.mercy.edu/about/human-resources/employment-mercy,7,www.mercy.edu/about/<*>,12,score=12.5
+939,Elmira College,https://www.elmira.edu/welcome-to-elmira/about-ec/careers/careers,0,,0,page did not load
+940,Farmingdale State College,https://farmingdale.interviewexchange.com/static/clients/383FAM1/index.jsp,4,,0,no repeated link pattern found
+943,SUNY College at Geneseo,https://www.geneseo.edu/provost/applying-for-faculty-positions,5,www.geneseo.edu/provost/<*>,10,score=15.2
+944,Hobart William Smith Colleges,https://www.hws.edu/offices/hr/employment-opportunities/faculty.aspx,7,www.hws.edu/<*>,7,score=8.4
+945,Hilbert College,https://recruiting.myapps.paychex.com/appone/Branding/ReqTemplate/BrowseAllJobsbyCategory.asp?Type=REQ&FromID=1&ClientID=20341&B_ID=91&JobCode=0&CountryID=3&LanguageID=2&servervar=hilbertcollege.appone.com,10,"recruiting.myapps.paychex.com/AppOne/Branding/ReqTemplate/<*>?ClientID,CountryID,LanguageID,ServerVar,fb",2,score=0.7
+946,Colgate University,https://www.colgate.edu/success-after-colgate,6,www.colgate.edu/student-life/<*>,7,score=6.6
+951,CUNY York College,https://cuny.jobs/campus/york-college/job-category/faculty/jobs/,1,www.cuny.edu/financial-aid/<*>,5,score=6.4
+952,Keuka College,https://www.keuka.edu/hr/employment-opportunities,4,www.keuka.edu/hr/<*>,4,score=4.0
+953,Siena College,https://siena.interviewexchange.com/jobsearchfrm.jsp,2,,0,no repeated link pattern found
+954,State University of New York at New Paltz,https://www.newpaltz.edu/hr/displayjobs.php?type=Faculty,5,www.newpaltz.edu/hr/employment-opportunities/<*>,6,score=7.5
+955,Iona University,https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=F28471DFA0F4183976163E181A695BE1,0,www.paycomonline.net/v4/ats/web.php/portal/<*>/jobs/<*>,10,score=20.0
+957,Barnard College,https://barnard.wd1.myworkdayjobs.com/Faculty,6,barnard.wd1.myworkdayjobs.com/en-US/Faculty/job/New-York-City-NY/<*>,6,score=12.0
+959,Boricua College,https://www.boricuacollege.edu/careers,1,www.boricuacollege.edu/<*>,15,score=12.4
+960,CUNY Bernard M Baruch College,https://cuny.jobs/campus/baruch-college/job-category/faculty/jobs/,9,www.cuny.edu/financial-aid/<*>,5,score=6.4
+961,CUNY City College,https://cuny.jobs/campus/city-college/job-category/faculty/jobs/,10,www.cuny.edu/financial-aid/<*>,5,score=6.4
+962,CUNY Graduate School and University Center,https://cuny.jobs/campus/graduate-center/job-category/faculty/jobs/,1,www.cuny.edu/financial-aid/<*>,5,score=6.4
+963,CUNY Hunter College,https://cuny.jobs/campus/hunter-college/job-category/faculty/jobs/,3,www.cuny.edu/financial-aid/<*>,5,score=6.4
+964,CUNY John Jay College of Criminal Justice,https://cuny.jobs/campus/john-jay-college-of-criminal-justice/job-category/faculty/jobs/,10,www.cuny.edu/financial-aid/<*>,5,score=6.4
+965,Columbia University in the City of New York,https://academic.careers.columbia.edu/,2,eoaa.columbia.edu/content/<*>,2,score=4.0
+969,Metropolitan College of New York,https://www.paycomonline.net/v4/ats/web.php/portal/0AFB6B93B59D609A2037FAB5547D9B02/career-page,0,www.paycomonline.net/v4/ats/web.php/portal/<*>/jobs/<*>,5,score=10.0
+970,New York University,https://www.nyu.edu/about/university-initiatives/nyu-irl.html,2,events.nyu.edu/event/<*>,11,score=12.8
+971,Pace University,https://secure6.saashr.com/ta/6000630.careers?CareersSearch,1,INLINE-TEXT,13,"inline listing, 13 role mentions"
+973,The King's College,https://www.tkc.edu/?page_id=1006,2,www.tkc.edu/about/<*>,2,score=1.7
+979,New York Institute of Technology,https://www.nyit.edu/human_resources/careers,3,www.nyit.edu/academics/<*>,8,score=9.2
+982,SUNY Oneonta,https://oneonta.interviewexchange.com/static/clients/336ONM1/index.jsp,9,oneonta.interviewexchange.com/<*>?JOBID,9,score=18.0
+983,Dominican University New York,https://www.duny.edu/category/employment-opportunities/,0,,0,page did not load
+986,SUNY College at Plattsburgh,https://www.plattsburgh.edu/about/offices-divisions/administration-finance/human-resources/jobs/index.html,10,www.plattsburgh.edu/about/<*>,5,score=4.3
+987,Clarkson University,https://careerhub-clarkson.icims.com,0,careerhub-clarkson.icims.com/student-life/<*>,5,score=10.0
+988,SUNY College at Potsdam,https://employment.potsdam.edu/postings/search,10,employment.potsdam.edu/postings/<*>,10,score=8.5
+992,SUNY at Purchase College,https://jobs.purchase.edu/,2,www.purchase.edu/offices/hr/<*>,3,score=3.0
+993,CUNY Queens College,https://cuny.jobs/campus/queens-college/job-category/faculty/jobs/,1,www.cuny.edu/financial-aid/<*>,5,score=6.4
+996,Nazareth University,https://jobs.naz.edu/postings/search?utf8=%E2%9C%93&query=&query_v0_posted_at_date=&273=&query_organizational_tier_3_id=any&493=&query_position_type_id=2&commit=Search,8,jobs.naz.edu/postings/<*>,2,score=2.9
+999,St. John Fisher University,https://www.sjf.edu/services/human-resources/career-experience/,1,www.sjf.edu/<*>,4,score=2.8
+1002,St Bonaventure University,https://www.schooljobs.com/careers/sbuedu/?jobType[0]=Faculty&sort=PositionTitle%7CAscending,6,,0,no repeated link pattern found
+1003,Empire State University,https://esc.interviewexchange.com/static/clients/397ESM1/index.jsp?catid=802,2,esc.interviewexchange.com/<*>?JOBID,2,score=2.8
+1004,Skidmore College,https://www.skidmore.edu/advancement/giving-opportunities/index.php,1,www.skidmore.edu/advancement/giving-opportunities/<*>,6,score=5.3
+1006,St. Thomas Aquinas College,https://stac.edu/offices/human-resources/employment-opportunities/faculty-positions/,1,stac.edu/academics/<*>,7,score=6.6
+1007,College of Staten Island CUNY,https://cuny.jobs/campus/college-of-staten-island/job-category/faculty/jobs/,1,www.cuny.edu/financial-aid/<*>,5,score=6.4
+1008,Wagner College,https://wagner.edu/hr/hr_openings/,7,,0,no repeated link pattern found
+1009,Stony Brook University,https://stonybrook-advocate.symplicity.com/collections/reportit/4a9adc9d6aa24c3cf581ea5daa46cd25,0,,0,no repeated link pattern found
+1014,Rensselaer Polytechnic Institute,https://rpi.dc4.pageuppeople.com/dashboard,0,policy.rpi.edu/policy/<*>,2,score=1.2
+1017,Utica University,https://www.utica.edu/hr/employment.cfm,5,www.utica.edu/<*>,13,score=13.5
+1025,Bluffton University,https://www.bluffton.edu/academiclife/career/index.aspx,4,www.bluffton.edu/academiclife/career/Images/<*>,4,score=4.8
+1031,Mount St. Joseph University,https://www.msj.edu/employment-at-the-university/index.html,3,,0,no repeated link pattern found
+1036,Case Western Reserve University,https://apply.interfolio.com/31694/positions,1,apply.interfolio.com/<*>,10,score=20.0
+1037,Cleveland State University,https://www.csuohio.edu/hrd/hr-employment,1,www.csuohio.edu/hrd/<*>,14,score=17.3
+1041,Franklin University,https://www.franklin.edu/blog/careers,9,www.franklin.edu/blog/<*>,68,score=115.8
+1042,Ohio Dominican University,https://www.ohiodominican.edu/about/human-resources/index.html,5,www.ohiodominican.edu/campus-resources/<*>,4,score=4.2
+1044,University of Dayton,https://careers.pageuppeople.com/875/cw/en-us/subscribe,2,udayton.edu/life/<*>,5,score=4.6
+1045,Wright State University-Main Campus,#VALUE!,0,,0,page did not load
+1046,Defiance College,https://www.defiance.edu/employment-opportunities/,1,www.defiance.edu/<*>,29,score=28.3
+1049,Kenyon College,https://www.kenyon.edu/offices-and-services/office-of-human-resources/job-opportunities/,8,www.kenyon.edu/<*>,16,score=11.0
+1050,Denison University,https://apply.interfolio.com/11076/positions,1,apply.interfolio.com/<*>,3,score=6.0
+1052,Hiram College,https://www.hiram.edu/about-hiram-college/human-resources/careers-at-hiram/,0,,0,no repeated link pattern found
+1053,Kent State University at Kent,https://jobs.kent.edu/,2,www.kent.edu/node/<*>,6,score=2.7
+1055,Ohio State University-Lima Campus,https://lima.osu.edu/weserve/weserve-volunteer-opportunities,3,lima.osu.edu/departments/<*>,11,score=9.9
+1057,Ohio State University-Marion Campus,https://osumarion.osu.edu/engineering/career-opportunities-engineering,4,osumarion.osu.edu/research/<*>,4,score=4.8
+1060,Muskingum University,https://www.muskingum.edu/human-resources/careers,3,www.muskingum.edu/human-resources/<*>,11,score=16.7
+1061,Walsh University,https://www.walsh.edu/careers.html,2,www.walsh.edu/<*>,40,score=33.7
+1064,Lake Erie College,https://www.lec.edu/career-closet,4,www.lec.edu/<*>,19,score=16.4
+1065,Ursuline College,https://www.ursuline.edu/inside-ursuline/employment/inside-ursuline/employment/job-opportunities,5,www.ursuline.edu/inside-ursuline/employment/inside-ursuline/employment/inside-ursuline/consumer-information/<*>,6,score=10.7
+1067,Wittenberg University,http://wittenberg.interviewexchange.com/jobofferdetails.jsp?JOBID=204109,6,wittenberg.interviewexchange.com/<*>,2,score=1.2
+1068,Franciscan University of Steubenville,http://franciscan.edu/faculty-openings/,6,franciscan.edu/<*>,20,score=21.1
+1069,Lourdes University,https://recruiting.paylocity.com/recruiting/jobs/All/6800f223-2b60-47fe-ba0e-3602afc127d6/Lourdes-University,0,,0,no repeated link pattern found
+1077,Wilmington College,https://www.wilmington.edu/about/employment,4,www.wilmington.edu/academics/<*>,13,score=16.4
+1082,Northwestern Oklahoma State University,https://nwosu.jotform.com/form/app-for-employment-non-exemt,0,,0,no repeated link pattern found
+1086,University of Science and Arts of Oklahoma,https://usao.edu/about/human-resources/careers-at-usao.html,3,usao.edu/about/<*>,4,score=3.2
+1087,Rogers State University,https://my.rsu.edu/ICS/RSU_Jobs/RSU_Employment_Opportunities.jnz,2,my.rsu.edu/ICS/RSU_Jobs/<*>,2,score=3.2
+1090,University of Central Oklahoma,https://www.uco.edu/offices/people-culture/hr/,2,www.uco.edu/<*>,2,score=1.8
+1091,Oklahoma Panhandle State University,https://opsu.edu/job-opportunities/,7,opsu.edu/<*>,35,score=32.7
+1093,Cameron University,https://jobs.silkroad.com/Cameron/Careers/jobs/1802,2,cameronhr.silkroad.com/map_images/main/SiteGen/cameronext/Content/Uploads/Unplaced_Documents/<*>,3,score=4.3
+1094,Randall University,https://ru.edu/about-randall/jobs/,4,ru.edu/about-randall/<*>,14,score=16.5
+1095,Bacone College,https://www.bacone.edu/job-openings/,0,,0,page did not load
+1096,University of Oklahoma-Norman Campus,https://jobs.ou.edu/,5,,0,no repeated link pattern found
+1103,University of Tulsa,https://utulsa-ibvjjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1,0,,0,no repeated link pattern found
+1104,Southwestern Oklahoma State University,https://swosu.csod.com/ux/ats/careersite/4/home?c=swosu,3,swosu.csod.com/ux/ats/careersite/<*>/home/requisition/<*>?c,3,score=5.8
+1105,Southern Oregon University,https://hrs.sou.edu/working-at-sou/search-jobs/,3,hrs.sou.edu/<*>,12,score=10.6
+1109,University of Oregon,https://careers.uoregon.edu/cw/en-us/job/536245/temporary-employment-pool-2026,6,hr.uoregon.edu/<*>,7,score=5.8
+1110,Pacific University,https://www.pacificu.edu/directory/finance-administration/human-resources/jobs-pacific,6,www.pacificu.edu/directory/finance-administration/human-resources/benefits/<*>,10,score=11.1
+1113,Linfield University,https://www.linfield.edu/humanresources/employment.html,2,www.linfield.edu/humanresources/<*>,2,score=2.9
+1115,George Fox University,https://www.georgefox.edu/offices/hr/careers/index.html,3,,0,no repeated link pattern found
+1116,Lewis & Clark College,https://www.lclark.edu/offices/human_resources/jobs/,4,www.lclark.edu/offices/human_resources/workplace-regulations-and-policies/<*>,3,score=4.0
+1119,Reed College,https://reed-college.breezy.hr/,1,reed-college.breezy.hr/p/<*>,6,score=12.0
+1121,Warner Pacific University,https://warnerpacific.catsone.com/careers/1611/jobs/16840743-Vice-President-for-Enrollment-Management-and-Marketing,2,,0,no repeated link pattern found
+1122,Corban University,https://www.corban.edu/human-resources/,2,www.corban.edu/about/<*>,5,score=5.3
+1124,Pennsylvania State University-Penn State Abington,https://psu.wd1.myworkdayjobs.com/PSU_Academic?locations=b0858b72065c01db6fcc2c00c501ea12,9,psu.wd1.myworkdayjobs.com/en-US/PSU_Academic/job/Penn-State-Abington/<*>?locations,9,score=18.0
+1125,Cedar Crest College,https://www.paycomonline.net/v4/ats/web.php/portal/62D4FBF25A09F3EBE58345A7B7B899F9/career-page,0,www.paycomonline.net/v4/ats/web.php/portal/<*>/jobs/<*>,10,score=20.0
+1127,Pennsylvania State University-Penn State Altoona,https://psu.wd1.myworkdayjobs.com/PSU_Academic?locations=ac1efd63d810019d9b1dec32c7010c1c,8,psu.wd1.myworkdayjobs.com/en-US/PSU_Academic/job/Penn-State-Altoona/<*>?locations,8,score=14.0
+1128,Lebanon Valley College,https://www.lvc.edu/breen-center/,6,www.lvc.edu/about/<*>,6,score=7.5
+1129,Neumann University,https://www.neumann.edu/about/humanresources/employment#Faculty,10,www.neumann.edu/<*>?hsLang,5,score=6.2
+1133,University of Pittsburgh-Bradford,https://cfopitt.taleo.net/careersection/pitt_staff_external/jobdetail.ftl?job=26003465&tz=GMT-04%3A00&tzname=America%2FNew_York,0,pi.tt/<*>,2,score=2.5
+1137,Pennsylvania State University-Penn State Lehigh Valley,https://psu.wd1.myworkdayjobs.com/PSU_Academic?locations=c80ecc155645012544a5405fc50190d3,6,psu.wd1.myworkdayjobs.com/en-US/PSU_Academic/job/Penn-State-Lehigh-Valley/<*>?locations,6,score=9.2
+1138,Wilson College,https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=04C041120ED4B4CA39C09ACAC69625CF,0,www.paycomonline.net/v4/ats/web.php/portal/<*>/jobs/<*>,10,score=20.0
+1139,Widener University,https://www.widener.edu/academics/academic-resources-success/academic-career-support,10,www.widener.edu/academics/colleges-schools/<*>,7,score=9.2
+1142,Ursinus College,https://www.ursinus.edu/offices/human-resources/employment-opportunities/,7,www.ursinus.edu/live/profiles/<*>,28,score=47.1
+1145,Pennsylvania State University-Penn State Wilkes-Barre,https://psu.wd1.myworkdayjobs.com/PSU_Academic?locations=ac1efd63d81001c8b2334232c701021c,2,,0,no repeated link pattern found
+1146,Delaware Valley University,https://delval.edu/careers-delval,2,delval.edu/programs/<*>,5,score=6.6
+1147,Pennsylvania State University-Penn State Scranton,https://psu.wd1.myworkdayjobs.com/PSU_Academic?locations=12c4a9bad727016b853043abc5019111,7,psu.wd1.myworkdayjobs.com/en-US/PSU_Academic/job/Penn-State-Scranton/<*>?locations,7,score=14.0
+1149,Lafayette College,http://hr.lafayette.edu/employment/job-opportunities/,4,hr.lafayette.edu/<*>,3,score=5.4
+1150,Elizabethtown College,https://www.etown.edu/offices/human-resources/careers.aspx,6,www.etown.edu/academics/<*>,4,score=4.3
+1152,Mercyhurst University,https://www.mercyhurst.edu/human-resources/jobs,1,www.mercyhurst.edu/<*>,13,score=10.4
+1154,Gettysburg College,https://www.gettysburg.edu/offices/provost/academic-positions/,4,www.gettysburg.edu/offices/provost/<*>,4,score=6.2
+1155,Arcadia University,https://www.arcadia.edu/about-arcadia/offices-facilities-services/human-resources,2,www.arcadia.edu/about-arcadia/<*>,5,score=6.2
+1156,Seton Hill University,https://www.setonhill.edu/success-after-seton-hill/your-career-team.html,1,www.setonhill.edu/student-life/campus-life/<*>,4,score=4.0
+1158,Thiel College,https://www.thiel.edu/offices/human-resources/employment-opportunities,3,www.thiel.edu/offices/human-resources/<*>,12,score=17.5
+1161,Haverford College,https://www.myworkday.com/haverford,0,,0,no repeated link pattern found
+1162,Pennsylvania State University-Penn State Hazleton,https://psu.wd1.myworkdayjobs.com/PSU_Academic?locations=e0040d8047ed01d55af7b563c5015f14,10,psu.wd1.myworkdayjobs.com/en-US/PSU_Academic/job/Penn-State-Hazleton/<*>?locations,10,score=20.0
+1165,Indiana University of Pennsylvania-Main Campus,https://www.iup.edu/career/about/index.html,4,www.iup.edu/resources-for/<*>,4,score=3.4
+1167,Kutztown University of Pennsylvania,https://www.schooljobs.com/careers/kutztownedu/promotionaljobs?jobType[0]=Faculty&sort=PositionTitle%7CAscending,7,,0,no repeated link pattern found
+1168,Keystone College,https://www.keystone.edu/jobs_at_keystone/,4,www.keystone.edu/wp-content/uploads/<*>/<*>/<*>,13,score=26.0
+1170,Cairn University-Langhorne,https://cairn.edu/hr/jobs/,3,cairn.edu/<*>,7,score=6.6
+1171,Saint Vincent College,https://www.stvincent.edu/resources/careers.html,1,www.stvincent.edu/information-for/<*>,2,score=2.1
+1172,Pennsylvania State University-Penn State Fayette- Eberly,https://psu.wd1.myworkdayjobs.com/PSU_Academic?locations=cbe735ea2e6d019fa0b439b4c5015712,2,psu.wd1.myworkdayjobs.com/en-US/PSU_Academic/job/Penn-State-Fayette/<*>?locations,2,score=4.0
+1173,Bucknell University,https://bucknell.wd1.myworkdayjobs.com/External?jobFamilyGroup=3ce5feabe53e01fb2262242fcb6e5c06,5,,0,no repeated link pattern found
+1175,Saint Francis University,https://www.francis.edu/about-us/employment,1,www.francis.edu/<*>,26,score=25.9
+1176,Pennsylvania State University-Penn State Greater Allegheny,https://psu.wd1.myworkdayjobs.com/PSU_Academic?locations=e0040d8047ed01e51b54ca63c5016914,1,,0,no repeated link pattern found
+1177,Allegheny College,https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1,0,,0,no repeated link pattern found
+1179,Pennsylvania State University-Penn State Brandywine,https://psu.wd1.myworkdayjobs.com/PSU_Academic?locations=52f02272e496014b250d54acc501b917,3,,0,no repeated link pattern found
+1182,Pennsylvania State University-Penn State Beaver,https://psu.wd1.myworkdayjobs.com/PSU_Academic?locations=52f02272e496018002c169acc501be17,6,psu.wd1.myworkdayjobs.com/en-US/PSU_Academic/job/Penn-State-Beaver/<*>?locations,6,score=11.1
+1183,Pennsylvania State University-Penn State Mont Alto,https://psu.wd1.myworkdayjobs.com/PSU_Academic?locations=b0858b72065c01f8a82a5102c5011c13,3,psu.wd1.myworkdayjobs.com/en-US/PSU_Academic/job/Penn-State-Mont-Alto/<*>?locations,3,score=6.0
+1184,Robert Morris University,https://careers.pageuppeople.com/856/cw/en-us/filter/?search=&bgresponse=&search-keyword=&work-type=faculty%20part-time,9,careers.pageuppeople.com/<*>/cw/en-us/job/<*>/<*>,5,score=10.0
+1186,Westminster College,https://my.westminster.edu/ics/Campus_Life/Campus_Groups/Human_Resources__Employment/Overview.jnz,0,my.westminster.edu/ICS/Campus_Life/Campus_Groups/Human_Resources__Employment/<*>,3,score=3.4
+1188,Drexel University,https://drexel.edu/hr/working-here/career-opportunities,10,drexel.edu/hr/resources/<*>,4,score=4.8
+1191,Peirce College,https://www3.peirce.edu/about-peirce/additional-resources/careers-at-peirce,0,,0,page did not load
+1193,Temple University,https://careers.temple.edu/careers-temple/search-and-apply-jobs,7,careers.temple.edu/hr-resources/<*>,5,score=7.2
+1195,University of Valley Forge,https://valleyforge.edu/careers-at-uvf/adjunct-instructor-in-person-masters-of-business-administration/,2,valleyforge.edu/admissions/<*>,8,score=8.4
+1196,Carlow University,https://forms.office.com/r/pLvbzux3Wv,0,,0,no repeated link pattern found
+1199,Duquesne University,https://www.duq.edu/work-at-du/index.php,5,www.duq.edu/life-at-duquesne/<*>,2,score=1.6
+1201,Point Park University,https://www.pointpark.edu/careerready/index,3,www.pointpark.edu/careerready/<*>,2,score=2.5
+1202,University of Pittsburgh-Pittsburgh Campus,https://cfopitt.taleo.net/careersection/pitt_internal/jobsearch.ftl?lang=en&portal=10100023232,0,,0,no repeated link pattern found
+1205,Alvernia University,https://www.alvernia.edu/community-engagement/holleran-center-community-and-global-engagement/holleran-center-community-service%C2%A0,7,www.alvernia.edu/<*>,12,score=10.2
+1206,Pennsylvania State University-Penn State Berks,https://psu.wd1.myworkdayjobs.com/PSU_Academic?locations=a85e9b4f6d2001e9e53607fbc4019110,6,psu.wd1.myworkdayjobs.com/en-US/PSU_Academic/job/Penn-State-Berks/<*>?locations,6,score=12.0
+1207,Rosemont College,https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=73e335b6-c8b9-44c9-bb2d-c83d54941069&ccId=9200074416396_2&lang=en_US&selectedMenuKey=CurrentOpenings,0,,0,no repeated link pattern found
+1209,Pennsylvania State University-Penn State Schuylkill,https://psu.wd1.myworkdayjobs.com/PSU_Academic?locations=b0858b72065c016f25d63c02c5011713,2,psu.wd1.myworkdayjobs.com/en-US/PSU_Academic/job/Penn-State-Schuylkill/<*>?locations,2,score=2.8
+1210,Marywood University,https://www.marywood.edu/depts/human-resources/employment-opportunities/,2,www.marywood.edu/academics/<*>,4,score=4.0
+1211,University of Scranton,https://www.follett.com/careerportal/find-career.cfm,6,follett.com/who-we-help/<*>,4,score=3.9
+1213,Pennsylvania State University-Penn State Shenango,https://psu.wd1.myworkdayjobs.com/PSU_Academic?locations=c1cfc9c255a401aad5f3f94bc5016c12,7,psu.wd1.myworkdayjobs.com/en-US/PSU_Academic/job/Penn-State-Shenango/<*>?locations,6,score=10.3
+1221,Washington & Jefferson College,https://www.washjeff.edu/applicantpro/job/Pennsylvania/Washington/Human-Resources-Coordinator/4110192,9,www.washjeff.edu/student-life/<*>,12,score=15.9
+1223,West Chester University of Pennsylvania,https://www.wcupa.edu/hr/,3,www.wcupa.edu/hr/<*>,11,score=14.2
+1224,King's College,https://www.kings.edu/human-resources/careers.html,3,www.kings.edu/human-resources/<*>,3,score=4.8
+1227,Pennsylvania State University-Penn State York,https://psu.wd1.myworkdayjobs.com/PSU_Academic?locations=ac1efd63d81001e62e623732c701fd1b,5,psu.wd1.myworkdayjobs.com/en-US/PSU_Academic/job/Penn-State-York/<*>?locations,5,score=10.0
+1229,Inter American University of Puerto Rico-Aguadilla,https://iaupr.elluciancrmrecruit.com/Apply/,0,,0,no repeated link pattern found
+1231,Inter American University of Puerto Rico-Arecibo,https://iaupr.elluciancrmrecruit.com/Apply/Account/Create,0,,0,no repeated link pattern found
+1233,University of Puerto Rico-Arecibo,https://upra.edu/recursos-humanos/convocatorias/,0,upra.edu/<*>,4,score=5.6
+1234,Inter American University of Puerto Rico-Barranquitas,https://iaupr.elluciancrmrecruit.com/Apply,0,,0,no repeated link pattern found
+1235,American University of Puerto Rico,https://aupr.edu/empleo-remunerado/,0,,0,page did not load
+1236,Caribbean University-Bayamon,https://careers.smartrecruiters.com/CaribbeanUniversity,9,jobs.smartrecruiters.com/CaribbeanUniversity/<*>,9,score=18.0
+1237,Inter American University of Puerto Rico-Bayamon,https://www.inter.edu/en/department/bayamon/,1,www.inter.edu/en/<*>,15,score=19.2
+1238,University of Puerto Rico-Bayamon,https://www.upr.edu/ac/oficinas-adscritas/recursos-humanos/oficina-de-recursos-humanos-convocatorias/,1,www.upr.edu/ac/<*>,13,score=20.0
+1239,Universidad Central de Bayamon,https://ucb.edu.pr/oficina-de-recursos-humanos/,2,ucb.edu.pr/<*>,33,score=57.0
+1240,Caribbean University-Carolina,https://careers.smartrecruiters.com/CaribbeanUniversity,9,jobs.smartrecruiters.com/CaribbeanUniversity/<*>,9,score=18.0
+1241,Universidad Ana G. Mendez-Carolina Campus,https://jobs.uagm.edu/Home?lang=es,1,"jobs.uagm.edu/<*>?cat,lang",4,score=8.0
+1242,University of Puerto Rico-Carolina,https://carolina-upr-csm.symplicity.com/,1,,0,no repeated link pattern found
+1243,University of Puerto Rico at Cayey,https://www.cayey.upr.edu/oficina-de-recursos-humanos/,2,www.cayey.upr.edu/<*>,38,score=52.4
+1244,Inter American University of Puerto Rico-Fajardo,https://fajardo.inter.edu/empleos/,5,fajardo.inter.edu/<*>,16,score=16.1
+1245,Inter American University of Puerto Rico-Guayama,https://iaupr.elluciancrmrecruit.com/Apply,0,,0,no repeated link pattern found
+1246,Atlantic University,https://www.indeed.com/cmp/Atlantic-University-1/jobs,5,,0,no repeated link pattern found
+1247,Universidad Ana G. Mendez-Gurabo Campus,https://jobs.uagm.edu/Home?lang=es,1,"jobs.uagm.edu/<*>?cat,lang",4,score=8.0
+1249,University of Puerto Rico-Humacao,https://www.uprh.edu/empleos/,1,www.uprh.edu/<*>,28,score=40.4
+1250,American University of Puerto Rico,https://aupr.edu/empleo-remunerado/,0,,0,page did not load
+1253,University of Puerto Rico-Mayaguez,https://www.eventbrite.com/e/38th-job-fair-tickets-1992770470120,0,www.eventbrite.com/l/<*>,13,score=11.8
+1254,Inter American University of Puerto Rico-Ponce,https://ponce.inter.edu/recursos-humanos-2/,2,ponce.inter.edu/<*>,11,score=11.7
+1255,Caribbean University-Ponce,https://careers.smartrecruiters.com/CaribbeanUniversity,9,jobs.smartrecruiters.com/CaribbeanUniversity/<*>,9,score=18.0
+1257,University of Puerto Rico at Ponce,https://www.uprp.edu/en/articulos/administracion/recursos-humanos/,4,www.uprp.edu/wp-content/uploads/sites/<*>/<*>/<*>/<*>,29,score=58.0
+1258,Inter American University of Puerto Rico-San German,https://iaupr.elluciancrmrecruit.com/Apply,0,,0,no repeated link pattern found
+1260,Inter American University of Puerto Rico-Metro,https://iaupr.elluciancrmrecruit.com/Apply/Account/Create?returnUrl=%2FApply,0,,0,no repeated link pattern found
+1261,Universidad Ana G. Mendez-Cupey Campus,https://jobs.uagm.edu/Home?lang=es,1,"jobs.uagm.edu/<*>?cat,lang",4,score=8.0
+1262,University of Puerto Rico-Rio Piedras,https://recursoshumanos.uprrp.edu/,7,decadm.uprrp.edu/recursoshumanos/<*>/<*>/<*>/<*>,8,score=16.0
+1263,Universidad del Sagrado Corazon,https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=78334d6d-1342-4b7f-9674-a7916c71caa7&ccId=19000101_000001&lang=en_US,5,,0,no repeated link pattern found
+1264,Caribbean University-Vega Baja,https://careers.smartrecruiters.com/CaribbeanUniversity,9,jobs.smartrecruiters.com/CaribbeanUniversity/<*>,9,score=18.0
+1272,Bryant University,https://www.bryant.edu/why-bryant/career-outcomes,4,news.bryant.edu/<*>,9,score=18.0
+1273,University of South Carolina Aiken,https://www.usca.edu/departments/human-resources/employment/internal-job-postings/,5,www.usca.edu/departments/<*>,18,score=19.6
+1279,College of Charleston,https://charleston.edu/academic-affairs/faculty-careers.php,3,charleston.edu/academic-affairs/<*>,3,score=2.5
+1281,Presbyterian College,https://www.presby.edu/about/offices-and-services/human-resources/job-opportunities/,4,www.presby.edu/about/offices-and-services/human-resources/employment/<*>,8,score=11.8
+1284,Columbia College,https://www.columbiasc.edu/academics/academic-career-support,7,www.columbiasc.edu/academics/<*>,6,score=8.2
+1287,University of South Carolina-Columbia,https://www.sc.edu/experience/career-prep/index.php,6,,0,no repeated link pattern found
+1288,Coastal Carolina University,https://www.coastal.edu:443/hreo/,4,www.coastal.edu:443/hreo/<*>,5,score=4.7
+1297,Coker University,https://www.coker.edu/offices-services/careers/faculty-jobs/,4,www.coker.edu/<*>,15,score=17.7
+1298,Newberry College,https://www.newberry.edu/employment,2,www.newberry.edu/academics/<*>,10,score=8.0
+1303,University of South Carolina-Upstate,https://uscupstate.edu/employment/faculty-positions/,6,uscupstate.edu/<*>,6,score=5.6
+1304,Wofford College,https://wofford.wd5.myworkdayjobs.com/Wofford,10,wofford.wd5.myworkdayjobs.com/en-US/Wofford/job/Spartanburg-South-Carolina/<*>,10,score=16.9
+1307,Northern State University,https://northern.edu/about/departments/human-resources,1,northern.edu/academics/<*>,7,score=6.3
+1310,South Dakota State University,https://www.sdstate.edu/human-resources/sdsu-employment,2,www.sdstate.edu/<*>,9,score=9.4
+1311,Dakota State University,https://dsu.edu/careers/benefits.html,1,dsu.edu/academics/<*>,2,score=1.6
+1312,Dakota Wesleyan University,https://www.dwu.edu/employment,3,www.dwu.edu/<*>,40,score=43.3
+1314,South Dakota School of Mines and Technology,https://www.sdsmt.edu/about/offices-and-administration/human-resources/careers-at-mines.html,5,www.sdsmt.edu/about/<*>,4,score=3.9
+1315,Augustana University,https://www.augie.edu/faculty-positions,7,www.augie.edu/<*>,11,score=10.7
+1317,University of Sioux Falls,https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=08ce06d2-27ab-4676-8c36-86d2c62ffacf&ccId=19000101_000001&lang=en_US,5,,0,no repeated link pattern found
+1321,Tennessee Wesleyan University,https://www.tnwesleyan.edu/about/departments/human-resources/,3,www.tnwesleyan.edu/academics/<*>,7,score=7.8
+1323,The University of Tennessee-Chattanooga,https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/fscmUI/faces/deeplink?objType=IRC_RECRUITING&action=ICE_JOB_SEARCH_RESP,0,,0,no repeated link pattern found
+1324,Austin Peay State University,https://www.apsu.edu/human-resources/govs-suite.php,3,,0,no repeated link pattern found
+1327,Tennessee Technological University,https://jobs.tntech.edu/,1,,0,no repeated link pattern found
+1332,Lincoln Memorial University,https://www.peopleadmin.com/,0,peopleadmin.com/<*>,15,score=18.7
+1337,East Tennessee State University,https://fa-evyu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/,0,,0,page did not load
+1339,The University of Tennessee-Knoxville,https://hr.utk.edu/faculty-positions/,5,news.utk.edu/<*>/<*>/<*>/<*>,3,score=6.0
+1340,Cumberland University,https://www.cumberland.edu/about/employment/,6,www.cumberland.edu/<*>,11,score=22.0
+1341,The University of Tennessee-Martin,https://www.utm.edu/offices-and-services/human-resources/employment-opportunities.php,1,www.utm.edu/<*>,7,score=5.4
+1342,Maryville College,https://www.maryvillecollege.edu/about/inside/human-resources/careers/,2,www.maryvillecollege.edu/campus-life/<*>,3,score=3.8
+1344,Christian Brothers University,http://cbu.interviewexchange.com/jobofferdetails.jsp?JOBID=200928,6,cbu.interviewexchange.com/<*>,2,score=1.2
+1346,Rhodes College,https://rhodes.wd5.myworkdayjobs.com/Rhodes_Careers,10,rhodes.wd5.myworkdayjobs.com/en-US/Rhodes_Careers/job/Memphis-Tennessee/<*>,11,score=14.8
+1348,University of Memphis,https://workforum.memphis.edu/,8,,0,no repeated link pattern found
+1356,Vanderbilt University,https://www.vanderbilt.edu/work-at-vanderbilt/,3,www.vanderbilt.edu/<*>,2,score=1.9
+1357,The University of Tennessee Southern,https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions?location=Pulaski%2C+TN%2C+United+States&locationId=300000010467855&locationLevel=city&mode=location&radius=25&radiusUnit=MI,9,hr.tennessee.edu/jobs/<*>,2,score=2.3
+1361,McMurry University,https://oncampusdining.com/mcm/job-opportunities/,1,oncampusdining.com/mcm/<*>,7,score=6.7
+1367,The University of Texas at Austin,https://faculty.utexas.edu/career,10,faculty.utexas.edu/career/<*>,10,score=20.0
+1369,Lamar University,https://www.schooljobs.com/careers/lamar/jobInterestCards/categories?jobType[0]=Faculty&sort=PositionTitle%7CAscending,6,,0,no repeated link pattern found
+1382,Texas Woman's University,https://twu.edu/humanresources/careers-at-twu/jobs/,0,twu.edu/<*>,2,score=2.5
+1383,University of North Texas,https://careers.untsystem.edu/unt/home,7,hr.untsystem.edu/office-of-eo/<*>,2,score=2.2
+1385,The University of Texas at El Paso,https://utep.interviewexchange.com/static/clients/533UTM1/index.jsp,1,,0,no repeated link pattern found
+1387,Texas Christian University,https://jobs.tcu.edu,1,www.tcu.edu/compliance/<*>,2,score=2.2
+1389,Southwestern University,https://www.schooljobs.com/careers/southwestern?jobType[0]=Faculty&sort=PositionTitle%7CAscending,6,,0,no repeated link pattern found
+1394,Rice University,https://vpaa.rice.edu/faculty/open-positions,3,vpaa.rice.edu/administrators/<*>,2,score=1.9
+1397,University of Houston,https://www.uh.edu/human-resources/careers/,4,www.uh.edu/human-resources/<*>,8,score=8.6
+1399,University of Houston-Downtown,https://www.uhd.edu/hr/careers/temporary-employment.aspx,10,www.uhd.edu/<*>,4,score=3.9
+1403,University of Dallas,https://udallas.edu/offices-services/human-resources/open-positions.php,9,udallas.edu/offices-services/human-resources/_documents_open_positions/<*>,9,score=18.0
+1405,Schreiner University,https://schreiner.edu/careers/,0,schreiner.edu/job/<*>,10,score=20.0
+1406,Texas A&M University-Central Texas,https://tamus.wd1.myworkdayjobs.com/TAMUCT_External,10,tamus.wd1.myworkdayjobs.com/en-US/TAMUCT_External/job/Killeen-TX/<*>,10,score=16.4
+1411,Texas Tech University,https://sjobs.brassring.com/TGnewUI/Search/Home/Home?partnerid=25898&siteid=5637#home,10,INLINE-TEXT,40,"inline listing, 40 role mentions"
+1414,Stephen F Austin State University,https://www.sfasu.edu/hr,5,www.sfasu.edu/hr/faculty-staff/<*>,5,score=5.6
+1415,The University of Texas Permian Basin,https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/UTZ_CG/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_SCHJOB&Action=U&FOCUS=Applicant&SiteId=10,0,,0,no repeated link pattern found
+1420,Angelo State University,https://www.angelo.edu/work-at-asu/,4,www.angelo.edu/<*>,11,score=8.8
+1422,Hallmark University,https://careers.hallmarkuniversity.edu/jobs/instructional-designer/,1,,0,no repeated link pattern found
+1424,St. Mary's University,https://www.stmarytx.edu/about/jobs/,7,www.stmarytx.edu/about/<*>,7,score=7.7
+1427,The University of Texas at San Antonio,https://www.utsa.edu/people-excellence/careers/,4,www.utsa.edu/people-excellence/current-employees/<*>,10,score=12.7
+1428,Trinity University,https://trinity.edu/hr/careers,4,trinity.edu/<*>,17,score=23.0
+1431,Texas Lutheran University,https://www.tlu.edu/about-tlu/careers-at-tlu/faculty-positions/,3,www.tlu.edu/about-tlu/careers-at-tlu/<*>,5,score=4.7
+1432,Austin College,https://www.austincollege.edu/human-resources/careers,6,www.austincollege.edu/details/~board/jobs/post/<*>,5,score=10.0
+1433,North American University,https://www.na.edu/faculty-staff/human-resources/employment-opportunities/,6,www.na.edu/degree-programs/graduate-programs/<*>,4,score=6.8
+1437,The University of Texas at Tyler,https://www.uttyler.edu/careers/clery-act/index.php,6,,0,no repeated link pattern found
+1449,University of Utah,https://careers.utah.edu/employers/recruiting-policies/,10,careers.utah.edu/<*>,4,score=4.1
+1456,Randolph-Macon College,https://www.rmc.edu/about-rmc/offices-departments/human-resources/employment-opportunities/,0,www.rmc.edu/campus-life/<*>,6,score=7.1
+1457,Virginia Polytechnic Institute and State University,https://careers.pageuppeople.com/968/ci/en-us/listing,0,,0,no repeated link pattern found
+1459,Bridgewater College,https://www.bridgewater.edu/careers/,4,bridgewater.box.com/s/<*>,13,score=21.8
+1460,Southern Virginia University,https://svu.edu/about/careers/open-rank-professor-of-biology/,1,svu.edu/<*>,5,score=5.4
+1462,Averett University,https://www.averett.edu/about-us/employment-opportunities/,6,www.averett.edu/financial-aid/<*>,10,score=11.9
+1463,Emory & Henry University,https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=4271964D5A23CB0A237D41AAC40830FA&fromClientSide=true,0,www.paycomonline.net/v4/ats/web.php/portal/<*>/jobs/<*>,10,score=20.0
+1464,George Mason University,https://jobs.gmu.edu,2,hr.gmu.edu/<*>,3,score=2.9
+1466,Longwood University,https://www.longwood.edu/career/,7,calendar.longwood.edu/event/<*>,3,score=6.0
+1467,Ferrum College,https://ferrumcollege.applytojob.com/apply,10,,0,no repeated link pattern found
+1470,Hampden-Sydney College,https://www.hsc.edu/human-resources/job-openings,4,www.hsc.edu/<*>,9,score=7.4
+1473,James Madison University,https://jobs.jmu.edu/,1,,0,no repeated link pattern found
+1475,Washington and Lee University,https://www.wlu.edu/employment-opportunities/faculty-positions,5,www.wlu.edu/employment-opportunities/<*>,5,score=6.4
+1477,Randolph College,https://www.randolphcollege.edu/humanresources/job-openings/,3,www.randolphcollege.edu/humanresources/<*>,4,score=5.7
+1478,University of Lynchburg,https://www.lynchburg.edu/about/human-resources/jobs/,2,www.lynchburg.edu/academics/<*>,7,score=9.9
+1485,Virginia Commonwealth University,https://vcujobs.com,4,hr.vcu.edu/<*>,2,score=2.2
+1487,Hollins University,https://www.hollins.edu/about-hollins/jobs/faculty-positions/,3,www.hollins.edu/academics/<*>,8,score=7.6
+1488,Roanoke College,https://www.roanoke.edu/inside/human_resources/jobs_roanoke,7,www.roanoke.edu/academics/<*>,6,score=7.2
+1489,Mary Baldwin University,https://marybaldwin.edu/employment-and-jobs-at-mary-baldwin/,8,marybaldwin.edu/employment-and-jobs-at-mary-baldwin/<*>,6,score=12.0
+1490,Sweet Briar College,https://www.sbc.edu/human-resources/employment-opportunities/,2,www.sbc.edu/<*>,2,score=1.2
+1496,William & Mary,https://wm-csm.symplicity.com/employers/,1,,0,no repeated link pattern found
+1497,Shenandoah University,https://jobs.silkroad.com/ShenandoahUniversity/EmploymentPortal,5,www.su.edu/<*>,13,score=11.2
+1498,University of Virginia's College at Wise,https://apply.interfolio.com/50272/positions,1,apply.interfolio.com/<*>,10,score=20.0
+1500,Bennington College,https://www.bennington.edu/employment-opportunities,2,www.bennington.edu/<*>,13,score=10.0
+1502,University of Vermont,https://www.uvm.edu/human-resources/careers,2,www.uvm.edu/human-resources/<*>,4,score=3.3
+1504,Saint Michael's College,https://www.smcvt.edu/offices-and-services/human-resources/,2,www.smcvt.edu/offices-and-services/<*>,10,score=10.9
+1506,Middlebury College,https://www.middlebury.edu/office/human-resources/work-middlebury/employment-opportunities,4,www.middlebury.edu/<*>,6,score=7.7
+1507,Norwich University,https://www.norwich.edu/campus-resources/academic-career-success,5,www.norwich.edu/research/<*>,6,score=11.1
+1508,Western Washington University,https://hr.wwu.edu/work-western,6,hr.wwu.edu/<*>,33,score=40.1
+1510,Eastern Washington University,https://jobs.hr.ewu.edu/postings/search?utf8=%E2%9C%93&query=Adjunct&query_v0_posted_at_date=&query_position_type_id%5B%5D=any&commit=Search,1,INLINE-TEXT,10,"inline listing, 10 role mentions"
+1511,Walla Walla University,https://wallawalla-accommodate.symplicity.com/,1,,0,no repeated link pattern found
+1512,Central Washington University,https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?FOCUS=Applicant&&siteid=1,0,INLINE-TEXT,48,"inline listing, 48 role mentions"
+1514,Saint Martin's University,https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=7138f757-560b-432d-a0d6-3a29cd79033e&ccId=19000101_000001&type=MP&lang=en_US,6,INLINE-TEXT,7,"inline listing, 7 role mentions"
+1515,Washington State University,https://wd5.myworkday.com/wsu/d/task/1422$478.htmld,0,zzusis-utilities.wsu.edu/psportal/pages/<*>,2,score=2.1
+1517,City University of Seattle,http://cityu.interviewexchange.com/static/clients/447CSM1/index.jsp;jsessionid=77C75F0E480695E12DADFF9F669D13C0,6,,0,no repeated link pattern found
+1521,Gonzaga University,https://employment.gonzaga.edu/jobs/search?page=1&category_uids%5B%5D=ccb5730a856e3e50b7226edb37c1facb&query=,7,employment.gonzaga.edu/jobs/<*>,7,score=12.7
+1525,University of Puget Sound,https://www2.pugetsound.jobs/psc/HR92PRD/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_SCHJOB_FL&Action=U&FOCUS=Applicant&siteid=3,0,INLINE-TEXT,6,"inline listing, 6 role mentions"
+1527,Heritage University,https://heritage.edu/faculty-staff/human-resources/,9,heritage.edu/wp-content/uploads/<*>/<*>/<*>,19,score=22.1
+1528,Whitman College,https://whitman-advocate.symplicity.com/public_report/index.php,0,,0,no repeated link pattern found
+1531,Beloit College,https://www.beloit.edu/offices/human-resources/,2,www.beloit.edu/offices/human-resources/<*>,4,score=4.5
+1533,Ottawa University-Milwaukee,https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=AB201C499D53A5D603D5BE296513B383,0,www.paycomonline.net/v4/ats/web.php/portal/<*>/jobs/<*>,10,score=20.0
+1534,Saint Norbert College,https://snc.edu/search/careers,4,snc.edu/news/pressrelease/<*>,4,score=8.0
+1536,Marian University,https://www.marianuniversity.edu/about-marian/employment/,0,,0,page did not load
+1543,Edgewood College,https://www.edgewood.edu/employment/human-resources-generalist/,1,www.edgewood.edu/academics/<*>,7,score=7.3
+1544,University of Wisconsin-Madison,https://jobs.wisc.edu/,10,jobs.wisc.edu/<*>,3,score=3.2
+1549,Marquette University,http://www.marquette.edu/hr/,1,www.marquette.edu/human-resources/<*>,4,score=3.8
+1550,Milwaukee School of Engineering,https://www.msoe.edu/about-msoe/careers-at-msoe/employment-opportunities/faculty-positions/,5,www.msoe.edu/admissions-aid/<*>,6,score=6.5
+1551,Mount Mary University,https://mtmary.edu/about/employment.html,1,mtmary.edu/why-mount-mary/<*>,5,score=5.2
+1556,Lakeland University,https://lakeland.applicantpro.com/jobs/,10,lakeland.applicantpro.com/jobs/<*>,10,score=20.0
+1557,Ripon College,https://ripon.edu/career-discovery-tour/,4,ripon.edu/<*>,10,score=9.4
+1558,University of Wisconsin-River Falls,https://wisconsin.wd1.myworkdayjobs.com/UW_Comprehensives?primaryLocation=5adf054562b610142603a19cdfd30000,10,wisconsin.wd1.myworkdayjobs.com/en-US/UW_Comprehensives/job/River-Falls-WI/<*>?primaryLocation,10,score=19.2
+1560,University of Wisconsin-Superior,https://wisconsin.wd1.myworkdayjobs.com/en-US/UW_Comprehensives?primaryLocation=5adf054562b610142604546cce0f0000,2,wisconsin.wd1.myworkdayjobs.com/en-US/UW_Comprehensives/job/Superior-WI/<*>?primaryLocation,2,score=2.9
+1562,Carroll University,https://secure4.saashr.com/ta/6153588.careers?CareersSearch,1,INLINE-TEXT,14,"inline listing, 14 role mentions"
+1566,Bethany College,https://www.bethanywv.edu/about/employment/,0,,0,no repeated link pattern found
+1568,West Virginia Wesleyan College,https://www.wvwc.edu/jobs/?faculty,10,www.wvwc.edu/jobs/<*>,9,score=13.4
+1570,University of Charleston,https://ucwv.elluciancrmrecruit.com/Apply/Account/Create?f=586ce4f3-d79d-4f52-9540-5138661f6dcd&o=538fedc1-2f8d-4f30-89b1-d13415d0429c&IsInquiry=True,0,,0,no repeated link pattern found
+1571,Davis & Elkins College,https://www.dewv.edu/explore/employment/,3,dewv.edu/wp-content/uploads/<*>/<*>/<*>,2,score=4.0
+1577,Alderson Broaddus University,https://ab.edu/employment/,0,,0,page did not load
+1581,West Liberty University,https://westliberty.edu/human-resources/search/,2,westliberty.edu/human-resources/<*>,6,score=6.1
+1582,Wheeling University,https://wheeling.edu/about/employment/,3,wheeling.edu/academics/<*>,5,score=5.7
+1583,University of Wyoming,https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1,0,,0,no repeated link pattern found

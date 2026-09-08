@@ -1,96 +1,50 @@
 school_id,name,status,count,seconds,error
-19,University of Montevallo,complete,93,1.0,
-28,Troy University,complete,225,0.9,
-38,University of Central Arkansas,complete,14,0.7,
-156,California Lutheran University,complete,52,0.6,
-183,University of Connecticut-Avery Point,error,0,14.0,RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content.
-272,University of Georgia,complete,729,2.8,
-346,Graceland University-Lamoni,error,0,30.4,"RuntimeError: oracle session capture failed: Timeout 15000ms exceeded while waiting for event ""request""
+74,University of California-Berkeley,complete,174,0.6,
+85,University of California-Davis,complete,179,0.4,
+93,University of California-Irvine,complete,288,0.9,
+95,University of California-San Diego,complete,211,0.5,
+105,University of California-Los Angeles,complete,191,0.6,
+108,University of California-Merced,complete,114,0.5,
+121,University of California-Riverside,complete,73,0.3,
+146,University of California-Santa Barbara,complete,61,0.5,
+150,University of California-Santa Cruz,complete,99,0.5,
+183,University of Connecticut-Avery Point,complete,55,6.1,
+346,Graceland University-Lamoni,error,0,30.2,"RuntimeError: oracle session capture failed: Timeout 15000ms exceeded while waiting for event ""request""
 =========================== logs ===========================
 waiting for request **/recruitingCEJobRequisitions**
 ============================================================"
-369,University of Illinois Urbana-Champaign,error,0,6.7,RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content.
+369,University of Illinois Urbana-Champaign,error,0,7.0,RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content.
 373,DePaul University,error,0,30.4,"RuntimeError: oracle session capture failed: Timeout 15000ms exceeded while waiting for event ""request""
 =========================== logs ===========================
 waiting for request **/recruitingCEJobRequisitions**
 ============================================================"
-376,Loyola University Chicago,complete,80,0.9,
-380,Roosevelt University,complete,38,0.8,
-386,Northern Illinois University,complete,49,0.8,
-391,Northwestern University,error,0,4.1,RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content.
-411,Lewis University,complete,81,0.7,
-451,Indiana State University,complete,124,1.0,
-501,Murray State University,complete,21,0.9,
-529,Nicholls State University,complete,8,0.4,
+391,Northwestern University,error,0,27.1,RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content.
 553,Stonehill College,error,0,0.4,"RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://jobs.stonehill.edu/hr/sessions/new
 Call log:
   - navigating to ""https://jobs.stonehill.edu/hr/sessions/new"", waiting until ""domcontentloaded""
 "
-614,Bowdoin College,complete,39,0.7,
 616,University of Maine at Farmington,error,0,0.3,"RuntimeError: FETCH_FAILURE: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
 Call log:
   - navigating to ""#VALUE!"", waiting until ""domcontentloaded""
 "
-654,Central Michigan University,complete,62,0.7,
-657,Oakland University,complete,118,1.0,
-740,Missouri State University-Springfield,complete,138,1.2,
-760,Montana State University,complete,173,1.0,
-764,Montana State University-Northern,complete,12,0.5,
-778,University of North Carolina at Charlotte,complete,85,1.0,
-779,Western Carolina University,complete,107,1.2,
-793,University of North Carolina at Greensboro,complete,92,0.9,
-804,University of North Carolina at Pembroke,complete,51,0.8,
-806,North Carolina State University at Raleigh,complete,399,2.2,
-814,University of North Carolina Wilmington,complete,71,0.8,
-837,University of Nebraska-Lincoln,complete,184,1.5,
-860,Rutgers University-Camden,complete,859,16.1,
-877,Rutgers University-New Brunswick,complete,859,15.1,
-927,SUNY Buffalo State University,complete,61,0.6,
-988,SUNY College at Potsdam,complete,10,0.5,
-992,SUNY at Purchase College,complete,2,0.5,
-996,Nazareth University,complete,8,0.6,
-1022,Ashland University,complete,40,0.7,
-1023,Ohio University-Main Campus,complete,102,2.6,
-1029,Wright State University-Lake Campus,complete,131,1.0,
-1045,Wright State University-Main Campus,error,0,0.8,"RuntimeError: FETCH_FAILURE: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
+1045,Wright State University-Main Campus,error,0,0.3,"RuntimeError: FETCH_FAILURE: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL
 Call log:
   - navigating to ""#VALUE!"", waiting until ""domcontentloaded""
 "
-1062,Oberlin College,complete,65,0.8,
 1095,Bacone College,error,0,0.4,"RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.bacone.edu/job-openings/
 Call log:
   - navigating to ""https://www.bacone.edu/job-openings/"", waiting until ""domcontentloaded""
 "
-1111,Oregon Institute of Technology,complete,36,0.7,
-1118,Portland State University,complete,59,0.9,
-1181,Millersville University of Pennsylvania,complete,58,1.0,
 1191,Peirce College,error,0,0.4,"RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www3.peirce.edu/about-peirce/additional-resources/careers-at-peirce
 Call log:
   - navigating to ""https://www3.peirce.edu/about-peirce/additional-resources/careers-at-peirce"", waiting until ""domcontentloaded""
 "
-1214,Shippensburg University of Pennsylvania,complete,16,0.7,
-1215,Slippery Rock University of Pennsylvania,complete,12,0.6,
-1220,Villanova University,complete,334,1.6,
-1266,University of Rhode Island,complete,62,0.9,
-1271,Rhode Island College,complete,45,0.6,
-1275,University of South Carolina Beaufort,complete,382,2.0,
-1318,Black Hills State University,complete,133,1.1,
-1319,University of South Dakota,complete,133,1.2,
-1323,The University of Tennessee-Chattanooga,error,0,30.4,"RuntimeError: oracle session capture failed: Timeout 15000ms exceeded while waiting for event ""request""
+1323,The University of Tennessee-Chattanooga,error,0,30.5,"RuntimeError: oracle session capture failed: Timeout 15000ms exceeded while waiting for event ""request""
 =========================== logs ===========================
 waiting for request **/recruitingCEJobRequisitions**
 ============================================================"
-1332,Lincoln Memorial University,error,0,1.1,RuntimeError: peopleadmin atom status=404
-1384,The University of Texas Rio Grande Valley,complete,151,1.2,
-1418,The University of Texas at Dallas,complete,97,0.9,
-1429,University of the Incarnate Word,complete,181,1.0,
-1430,Texas State University,complete,120,2.3,
-1480,Christopher Newport University,complete,24,0.6,
-1510,Eastern Washington University,complete,1,0.4,
-1524,Pacific Lutheran University,complete,11,0.6,
-1564,Concord University,complete,21,0.6,
-1572,Fairmont State University,complete,13,0.7,
-1577,Alderson Broaddus University,error,0,0.4,"RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://ab.edu/employment/
+1332,Lincoln Memorial University,error,0,1.0,RuntimeError: peopleadmin atom status=404
+1577,Alderson Broaddus University,error,0,0.5,"RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://ab.edu/employment/
 Call log:
   - navigating to ""https://ab.edu/employment/"", waiting until ""domcontentloaded""
 "

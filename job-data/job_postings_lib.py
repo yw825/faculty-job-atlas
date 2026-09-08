@@ -317,6 +317,10 @@ def detect_platform(url):
     # DirectEmployers network boards all sit on a bare *.jobs domain
     if host.endswith('.jobs'):
         return 'dejobs'
+    # UC Recruit instances are recruit*/apo-recruit hosts under a UC campus
+    if re.match(r'^(?:ap)?recruit(?:\.[a-z]+)?\.[a-z]+\.edu$', host) or \
+            re.match(r'^apol-recruit\.[a-z]+\.edu$', host):
+        return 'ucrecruit'
     if 'oraclecloud.com' in host:
         return 'oracle'
     # Some Oracle Cloud HCM instances run on a white-labeled custom domain
@@ -783,6 +787,29 @@ def scrape_smartrecruiters(url):
     return links
 
 
+def scrape_ucrecruit(url):
+    """UC Recruit -- the University of California's own faculty hiring
+    system, one instance per campus (recruit.apo.ucla.edu,
+    aprecruit.berkeley.edu, recruit.ucdavis.edu, ...).
+
+    Every posting is /JPF<number> and carries no job word anywhere in the
+    URL or the link text, so the generic keyword matcher scored zero on
+    pages holding hundreds of real openings: all nine UC campuses in the
+    dataset were sitting at 0 postings against 1,387 actually advertised.
+
+    The full list is in the served HTML -- no browser and no API needed."""
+    parsed = urlparse(url)
+    base = f'https://{parsed.netloc}'
+    listing = url if '/apply' in parsed.path else f'{base}/apply'
+    status, html = fetch_static(listing)
+    if status != 200 or not html:
+        raise RuntimeError(f'uc recruit fetch failed status={status}')
+    ids = sorted(set(re.findall(r'/(JPF\d+)', html)), key=lambda j: int(j[3:]))
+    if not ids:
+        raise RuntimeError('no JPF postings found')
+    return [f'{base}/JPF{j[3:]}' for j in ids]
+
+
 def scrape_dejobs(url):
     """DirectEmployers-network boards (*.jobs -- cuny.jobs, pugetsound.jobs).
 
@@ -1058,6 +1085,7 @@ PLATFORM_ADAPTERS = {
     'smartrecruiters': lambda url, name: scrape_smartrecruiters(url),
     'academicjobsonline': lambda url, name: scrape_academicjobsonline(url),
     'dejobs': lambda url, name: scrape_dejobs(url),
+    'ucrecruit': lambda url, name: scrape_ucrecruit(url),
     'apella': lambda url, name: scrape_apella(url, name),
     'poland_nauka': lambda url, name: scrape_poland_nauka(url, name),
 }

@@ -1,28 +1,19 @@
 """
 Job postings scraper for school_id 95 - University of California-San Diego (US)
-ATS platform: own website
+ATS platform: UC Recruit (detected: ucrecruit)
 Careers link: https://apol-recruit.ucsd.edu/apply
 
-No shared ATS platform adapter applies to this school -- find_links() below
-is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
-directly to fix or improve results for University of California-San Diego; nothing here affects any
-other school's script.
-
-Link check (review): 0 posting-shaped links found -- rendered no job-shaped links found.
-
-Starting point (not a tuned answer): fetch the careers page with JS
-rendered, then keep every link whose href or visible text looks
-job/vacancy/posting-shaped (job_postings_lib.COMMON_JOB_URL_HINTS). If that
-under- or over-collects, narrow the pattern to this site's real posting URL
-shape (the single most common fix -- a generic filter also matches a site's
-own navigation), add a click/scroll step via fetch_rendered's `actions`
-argument, or follow pagination with a second fetch and merge the results.
+University of California-San Diego runs on a shared ATS platform -- every school on ucrecruit uses the
+same underlying site software, so this calls the shared
+job_postings_lib.scrape_ucrecruit adapter rather than duplicating
+platform-specific logic here. If results for THIS ONE school need a tweak
+that shouldn't apply to every ucrecruit school, define find_links() below
+and pass it to run_checkpointed instead of editing the shared adapter.
 
 Writes school_job_posts/school_id_95_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_95_job_postings.checkpoint next to this script.
 """
 import os
-import re
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -32,22 +23,15 @@ import job_postings_lib as lib
 SCHOOL_ID = 95
 SCHOOL_NAME = 'University of California-San Diego'
 CAREERS_LINK = 'https://apol-recruit.ucsd.edu/apply'
-ATS_PLATFORM = 'own website'
+ATS_PLATFORM = 'UC Recruit'
+PLATFORM = 'ucrecruit'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
-def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
-
-
 def main():
-    result = lib.run_checkpointed(SCHOOL_ID, CHECKPOINT_PATH, find_links)
+    result = lib.run_platform_school(SCHOOL_ID, SCHOOL_NAME, CAREERS_LINK,
+                                     CHECKPOINT_PATH, platform=PLATFORM)
     err = result.get('last_error', '')
     print(f"{SCHOOL_NAME} (id={SCHOOL_ID}): status={result['status']} "
           f"links={len(result['links'])}" + (f" ERROR: {err}" if err else ''))

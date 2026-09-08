@@ -2,7 +2,7 @@
   "links": [],
   "school_id": 553,
   "status": "error",
-  "updated_at": "2026-09-08T07:33:34+00:00",
+  "updated_at": "2026-09-08T17:42:48+00:00",
   "started_at": "2026-09-08T01:58:00+00:00",
   "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://jobs.stonehill.edu/hr/sessions/new\nCall log:\n  - navigating to \"https://jobs.stonehill.edu/hr/sessions/new\", waiting until \"domcontentloaded\"\n"
 }

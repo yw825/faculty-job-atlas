@@ -1,6 +1,6 @@
 """
 Job info scraper for school_id 95 - University of California-San Diego (US)
-ATS platform: own website
+ATS platform: UC Recruit
 Careers link: https://apol-recruit.ucsd.edu/apply
 
 Reads posting URLs from school_id_95_job_postings.checkpoint (this
@@ -30,7 +30,7 @@ import job_info_lib as jinfo
 SCHOOL_ID = 95
 SCHOOL_NAME = 'University of California-San Diego'
 CAREERS_LINK = 'https://apol-recruit.ucsd.edu/apply'
-ATS_PLATFORM = 'own website'
+ATS_PLATFORM = 'UC Recruit'
 USE_LLM = False
 
 JOB_POSTINGS_CHECKPOINT = os.path.join(
