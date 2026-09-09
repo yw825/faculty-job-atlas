@@ -153,6 +153,9 @@ _JUNK_TITLE_RE = re.compile(
     # the title: a nav landmark ("Breadcrumb", on 6 schools), the CMS's own
     # name ("Modern Campus CMS", on 11), and directory pages.
     r'breadcrumb|modern campus cms|career services|'
+    # "<School> Career Site" -- the board naming itself, which reaches the
+    # map as a posting whenever one detail page fails to render.
+    r'.*\bcareers? site\b.*|.*\bjob site\b.*|.*\bcareer portal\b.*|'
     r'(?:faculty (?:and|&) staff|staff|employee|campus) directory|directory)$', re.I)
 
 
