@@ -1,5 +1,13 @@
 {
   "raw": {
+    "https://wd1.myworkdaysite.com/job/Santa-Clara-CA/Assistant-Professor-in-Hydraulic---Water-Resources-Engineering_R8015": {
+      "title": "Workday is currently unavailable.",
+      "description": "Workday is currently unavailable. English English العربية 简体中文 繁體中文 Čeština Nederlands Suomi Français du Canada French Español German עברית Magyar Bahasa Indonesia Italiano Japanese 한국어 Norsk, bokmål Polski Português, Portugal Română Русский Svenska ภาษาไทย Türkçe Tiếng Việt Workday is currently unavailable. We are experiencing a service interruption. Your service will be restored as quickly as possible. We apologize for the inconvenience. If you are a Workday customer and require additional assistance please contact the Workday Administrator within your organization. Otherwise, please check back later. © 2026 Workday, Inc. All rights reserved."
+    },
+    "https://wd1.myworkdaysite.com/job/Santa-Clara-CA/Assistant-Professor-in-American-Literature--Early-Period-to-1900_R7982": {
+      "title": "Workday is currently unavailable.",
+      "description": "Workday is currently unavailable. English English العربية 简体中文 繁體中文 Čeština Nederlands Suomi Français du Canada French Español German עברית Magyar Bahasa Indonesia Italiano Japanese 한국어 Norsk, bokmål Polski Português, Portugal Română Русский Svenska ภาษาไทย Türkçe Tiếng Việt Workday is currently unavailable. We are experiencing a service interruption. Your service will be restored as quickly as possible. We apologize for the inconvenience. If you are a Workday customer and require additional assistance please contact the Workday Administrator within your organization. Otherwise, please check back later. © 2026 Workday, Inc. All rights reserved."
+    },
     "https://wd1.myworkdaysite.com/job/Santa-Clara-CA/Quarterly-Lecturer-in-Mathematics-for-the-Mathematics---Computer-Science-Department--POOL--2026-2027_R7313": {
       "title": "Workday is currently unavailable.",
       "description": "Workday is currently unavailable. English English العربية 简体中文 繁體中文 Čeština Nederlands Suomi Français du Canada French Español German עברית Magyar Bahasa Indonesia Italiano Japanese 한국어 Norsk, bokmål Polski Português, Portugal Română Русский Svenska ภาษาไทย Türkçe Tiếng Việt Workday is currently unavailable. We are experiencing a service interruption. Your service will be restored as quickly as possible. We apologize for the inconvenience. If you are a Workday customer and require additional assistance please contact the Workday Administrator within your organization. Otherwise, please check back later. © 2026 Workday, Inc. All rights reserved."
@@ -202,6 +210,28 @@
     }
   },
   "rows": {
+    "https://wd1.myworkdaysite.com/job/Santa-Clara-CA/Assistant-Professor-in-Hydraulic---Water-Resources-Engineering_R8015": {
+      "school_id": 148,
+      "posting_url": "https://wd1.myworkdaysite.com/job/Santa-Clara-CA/Assistant-Professor-in-Hydraulic---Water-Resources-Engineering_R8015",
+      "job_title_in_post": "Workday is currently unavailable.",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://wd1.myworkdaysite.com/job/Santa-Clara-CA/Assistant-Professor-in-American-Literature--Early-Period-to-1900_R7982": {
+      "school_id": 148,
+      "posting_url": "https://wd1.myworkdaysite.com/job/Santa-Clara-CA/Assistant-Professor-in-American-Literature--Early-Period-to-1900_R7982",
+      "job_title_in_post": "Workday is currently unavailable.",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
     "https://wd1.myworkdaysite.com/job/Santa-Clara-CA/Quarterly-Lecturer-in-Mathematics-for-the-Mathematics---Computer-Science-Department--POOL--2026-2027_R7313": {
       "school_id": 148,
       "posting_url": "https://wd1.myworkdaysite.com/job/Santa-Clara-CA/Quarterly-Lecturer-in-Mathematics-for-the-Mathematics---Computer-Science-Department--POOL--2026-2027_R7313",
@@ -755,7 +785,7 @@
   },
   "school_id": 148,
   "status": "complete",
-  "updated_at": "2026-09-05T02:46:03+00:00",
-  "completed_at": "2026-09-05T02:46:03+00:00",
+  "updated_at": "2026-09-08T21:37:54+00:00",
+  "completed_at": "2026-09-08T21:37:54+00:00",
   "last_error": ""
 }

@@ -1,11 +1,26 @@
 {
   "raw": {
+    "https://www.maine.edu/faculty-staff/": {
+      "title": "Faculty & Staff",
+      "description": "Faculty & Staff  - University of Maine System Search Online AI Hub News About System Offices Chancellor’s Office Board of Trustees Academic and Student Affairs Finance and Administration Research and Innovation Strategic Initiatives People Search Universities The University of Maine University of Maine at Augusta University of Maine at Farmington University of Maine at Fort Kent University of Maine at Machias University of Maine at Presque Isle University of Southern Maine University of Maine School of Law I am a… Prospective Student Explore Universities Find Courses Affordability Transfer Students International Students Military Students Out of State Students Current Student Find Courses Affordability News & Updates Future Faculty and Staff Careers Universities News & Updates About Current Faculty and Staff Policy Manual Directory Portal Community Member Employer/Workforce News & Updates Affordability System Office Give Alumni Give About News & Updates Employer Employer/Workforce News & Updates Search I am a… Prospective Student Explore Universities Find Courses Affordability Transfer Students International Students Military Students Out of State Students Current Student Find Courses Affordability News & Updates Future Faculty and Staff Careers Universities News & Updates About Current Faculty and Staff Policy Manual Directory Portal Community Member Employer/Workforce News & Updates Affordability System Office Give Alumni Give About News & Updates Employer Employer/Workforce News & Updates Online AI Hub News About System Offices Chancellor’s Office Board of Trustees Academic and Student Affairs Finance and Administration Research and Innovation Strategic Initiatives People Search Universities The University of Maine University of Maine at Augusta University of Maine at Farmington University of Maine at Fort Kent University of Maine at Machias University of Maine at Presque Isle University of Southern Maine University of Maine School of Law Faculty & Staff Search for Faculty & Staff on UMS Peoplesearch Resources for Faculty & Staff The University of Maine The University of Maine at Augusta University of Maine at Farmington University of Maine at Fort Kent The University of Maine at Machias The University of Maine at Presque Isle University of Southern Maine University of Maine School of Law The University of Maine The University of Maine at Augusta The University of Maine at Farmington The University of Maine at Fort Kent The University of Maine at Machias The University of Maine at Presque Isle The University of Southern Maine The University of Maine School of Law Explore Universities Universities Students Employers Careers Give UMS TRANSFORMS Chancellor’s Office Board of Trustees Connect with us Facebook X Instagram YouTube Accreditation Privacy Policy Freedom of Information Act Accessibility Title IX © 2026 University of Maine System"
+    },
     "https://fa-ewca-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmUI/faces/deeplink?objType=IRC_RECRUITING&action=ICE_JOB_SEARCH_RESP": {
       "title": "",
       "description": "This page uses JavaScript and requires a JavaScript enabled browser.Your browser is not JavaScript enabled."
     }
   },
   "rows": {
+    "https://www.maine.edu/faculty-staff/": {
+      "school_id": 620,
+      "posting_url": "https://www.maine.edu/faculty-staff/",
+      "job_title_in_post": "Faculty & Staff",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "School of Law The University of Maine The University of Maine",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
     "https://fa-ewca-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmUI/faces/deeplink?objType=IRC_RECRUITING&action=ICE_JOB_SEARCH_RESP": {
       "school_id": 620,
       "posting_url": "https://fa-ewca-saasfaprod1.fa.ocs.oraclecloud.com:443/fscmUI/faces/deeplink?objType=IRC_RECRUITING&action=ICE_JOB_SEARCH_RESP",
@@ -20,7 +35,7 @@
   },
   "school_id": 620,
   "status": "complete",
-  "updated_at": "2026-09-05T04:48:43+00:00",
-  "completed_at": "2026-09-05T04:48:43+00:00",
+  "updated_at": "2026-09-08T22:10:04+00:00",
+  "completed_at": "2026-09-08T22:10:04+00:00",
   "last_error": ""
 }

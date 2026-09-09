@@ -1,9 +1,26 @@
 {
-  "raw": {},
-  "rows": {},
+  "raw": {
+    "https://canton-accommodate.symplicity.com/faculty/index.php": {
+      "title": "Redirecting",
+      "description": "Redirecting"
+    }
+  },
+  "rows": {
+    "https://canton-accommodate.symplicity.com/faculty/index.php": {
+      "school_id": 930,
+      "posting_url": "https://canton-accommodate.symplicity.com/faculty/index.php",
+      "job_title_in_post": "Redirecting",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    }
+  },
   "school_id": 930,
   "status": "complete",
-  "updated_at": "2026-09-05T17:18:26+00:00",
-  "completed_at": "2026-09-05T17:18:26+00:00",
+  "updated_at": "2026-09-08T23:13:34+00:00",
+  "completed_at": "2026-09-08T23:13:34+00:00",
   "last_error": ""
 }

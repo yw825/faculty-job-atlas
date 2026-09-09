@@ -1,11 +1,116 @@
 {
   "raw": {
+    "https://ibqajb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs": {
+      "title": "WorkforUM",
+      "description": "WorkforUM"
+    },
+    "https://ibqajb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs?lastSelectedFacet=POSTING_DATES&selectedPostingDatesFacet=30": {
+      "title": "WorkforUM",
+      "description": "WorkforUM"
+    },
+    "https://ibqajb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs?lastSelectedFacet=CATEGORIES&selectedCategoriesFacet=300000014687820": {
+      "title": "WorkforUM",
+      "description": "WorkforUM"
+    },
+    "https://ibqajb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs?lastSelectedFacet=CATEGORIES&selectedCategoriesFacet=300000014687814": {
+      "title": "WorkforUM",
+      "description": "WorkforUM"
+    },
+    "https://ibqajb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs?lastSelectedFacet=CATEGORIES&selectedCategoriesFacet=300000014687796": {
+      "title": "WorkforUM",
+      "description": "WorkforUM"
+    },
+    "https://ibqajb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs?lastSelectedFacet=CATEGORIES&selectedCategoriesFacet=300000014687808": {
+      "title": "WorkforUM",
+      "description": "WorkforUM"
+    },
+    "https://ibqajb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs?lastSelectedFacet=CATEGORIES&selectedCategoriesFacet=300000014687835": {
+      "title": "WorkforUM",
+      "description": "WorkforUM"
+    },
     "https://ibqajb.fa.ocs.oraclecloud.com:443/fscmUI/faces/deeplink?objType=IRC_RECRUITING&action=ICE_JOB_SEARCH_RESP": {
       "title": "",
       "description": "This page uses JavaScript and requires a JavaScript enabled browser.Your browser is not JavaScript enabled."
     }
   },
   "rows": {
+    "https://ibqajb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs": {
+      "school_id": 1348,
+      "posting_url": "https://ibqajb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs",
+      "job_title_in_post": "WorkforUM",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://ibqajb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs?lastSelectedFacet=POSTING_DATES&selectedPostingDatesFacet=30": {
+      "school_id": 1348,
+      "posting_url": "https://ibqajb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs?lastSelectedFacet=POSTING_DATES&selectedPostingDatesFacet=30",
+      "job_title_in_post": "WorkforUM",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://ibqajb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs?lastSelectedFacet=CATEGORIES&selectedCategoriesFacet=300000014687820": {
+      "school_id": 1348,
+      "posting_url": "https://ibqajb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs?lastSelectedFacet=CATEGORIES&selectedCategoriesFacet=300000014687820",
+      "job_title_in_post": "WorkforUM",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://ibqajb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs?lastSelectedFacet=CATEGORIES&selectedCategoriesFacet=300000014687814": {
+      "school_id": 1348,
+      "posting_url": "https://ibqajb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs?lastSelectedFacet=CATEGORIES&selectedCategoriesFacet=300000014687814",
+      "job_title_in_post": "WorkforUM",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://ibqajb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs?lastSelectedFacet=CATEGORIES&selectedCategoriesFacet=300000014687796": {
+      "school_id": 1348,
+      "posting_url": "https://ibqajb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs?lastSelectedFacet=CATEGORIES&selectedCategoriesFacet=300000014687796",
+      "job_title_in_post": "WorkforUM",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://ibqajb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs?lastSelectedFacet=CATEGORIES&selectedCategoriesFacet=300000014687808": {
+      "school_id": 1348,
+      "posting_url": "https://ibqajb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs?lastSelectedFacet=CATEGORIES&selectedCategoriesFacet=300000014687808",
+      "job_title_in_post": "WorkforUM",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://ibqajb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs?lastSelectedFacet=CATEGORIES&selectedCategoriesFacet=300000014687835": {
+      "school_id": 1348,
+      "posting_url": "https://ibqajb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs?lastSelectedFacet=CATEGORIES&selectedCategoriesFacet=300000014687835",
+      "job_title_in_post": "WorkforUM",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
     "https://ibqajb.fa.ocs.oraclecloud.com:443/fscmUI/faces/deeplink?objType=IRC_RECRUITING&action=ICE_JOB_SEARCH_RESP": {
       "school_id": 1348,
       "posting_url": "https://ibqajb.fa.ocs.oraclecloud.com:443/fscmUI/faces/deeplink?objType=IRC_RECRUITING&action=ICE_JOB_SEARCH_RESP",
@@ -20,7 +125,7 @@
   },
   "school_id": 1348,
   "status": "complete",
-  "updated_at": "2026-09-05T19:04:03+00:00",
-  "completed_at": "2026-09-05T19:04:03+00:00",
+  "updated_at": "2026-09-08T23:43:42+00:00",
+  "completed_at": "2026-09-08T23:43:42+00:00",
   "last_error": ""
 }

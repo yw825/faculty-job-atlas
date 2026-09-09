@@ -1,8 +1,12 @@
 {
   "raw": {
     "https://mycapitol.captechu.edu/ICS/College_Offices/Career_Services/": {
-      "title": "Career Services Home Page",
+      "title": "Career Services",
       "description": "Career Services Home Page | Career Services | Portal Skip to content main navigation Login Username Password Continue I forgot my password Search Search Search Home Admissions Residence Life Student Life University Offices Library Public Information You are here: University Offices Career Services Career Services Home Page Career Services Menu Quick Links Career Services Home Page Thanks to all who attended the Spring 2026 Career Fair! Career Connect Jobs of the Week See Where our Alumni Work The Office of Career Service Upcoming Events About Career Services For Employers Career Mentor Program Application Capitol Committment Jobs and Internships Employer Contact Form Quick Links MegaByte Cafe Net Price Calculator New Student Registration Webmail Learn@Capitol Ask Capitol Campus Store Book Store University Catalogs Virtual Library Learning Center Capitol Technology University Sidebar Career Services Send to Printer Thanks to all who attended the Spring 2026 Career Fair! Get help using 'Thanks to all who attended the Spring 2026 Career Fair!' The Spring 2026 Capitol Technology Career Fair and Conference was an outstanding event that brought together students, graduates, and leading employers for a day filled with networking, career exploration, and meaningful connections. Attendees engaged with industry professionals, discovered job and internship opportunities, and gained valuable insights toward their future career paths. This year’s fair featured interactive workshops, on-the-spot interviews with The Friendship School , giving students the chance to showcase their skills and strengthen their professional presence. With strong participation and positive feedback, the Spring 2026 Career Fair proved to be a powerful launchpad for students pursuing their next steps in the workforce. Career Connect Jobs of the Week Get help using 'Career Connect Jobs of the Week' Start Your Career Here Log in to Simplicity for all job postings! THIS WEEKS CAREER CONNECT HIGHLIGHTS! Palantir Software Engineering Intern Required Majors: Computer Science Location: Washington D.C. Shimadu HPLC Service Intern Required Majors: Engineering Location: Columbia, MD See Where our Alumni Work Get help using 'See Where our Alumni Work' Capitol Technology University graduates are in high demand. Here is a list of some of the employers that hired our graduates. The Office of Career Service Get help using 'The Office of Career Service' Contact Information Career Pathways & Employer Relations Manager C259 careers@captechu.edu Business Hours: 8:30am - 5:00pm Monday-Friday Meetings with the Office of Career Services can be scheduled via careers@captechu.edu Standing Office Hours: Tues-Thurs, 9:30am- 3:00pm Upcoming Events Get help using 'Upcoming Events' Fall 2026 Career Fair - October 16th, 2026 Spring 2027 Career Fair- March 12, 2026 Policy statement About us Contact us Powered by Jenzabar. v2024.2"
+    },
+    "https://captechu-csm.symplicity.com/faculty/index.php": {
+      "title": "Sign In",
+      "description": "Sign in Skip to content Skip to main menu Skip to secondary menu Visit Site Help Accessibility Mode: Off Use this link to improve screen reader compatibility. Sign In Sign in with Google or Please enter your username and password. Username (your email address) Password You have not logged in from using this device before. Please enter your PIN below to verfy your identity. If access to this device is limited, (not a shared computer), you may enter a device name below and skip this step in the future. Please enter your PIN Remember this device by name (Example: Work Computer) Choose a device name Forgot Password Forgot PIN By clicking Sign In, you agree that your use of the system is governed by your institution's privacy policies and our Privacy Policy and Terms Register Register for a new account."
     },
     "http://symplicity.com/career_services_manager_csm": {
       "title": "Make career support bigger than the career center.",
@@ -13,8 +17,19 @@
     "https://mycapitol.captechu.edu/ICS/College_Offices/Career_Services/": {
       "school_id": 602,
       "posting_url": "https://mycapitol.captechu.edu/ICS/College_Offices/Career_Services/",
-      "job_title_in_post": "Career Services Home Page",
+      "job_title_in_post": "Career Services",
       "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://captechu-csm.symplicity.com/faculty/index.php": {
+      "school_id": 602,
+      "posting_url": "https://captechu-csm.symplicity.com/faculty/index.php",
+      "job_title_in_post": "Sign In",
+      "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "",
@@ -35,7 +50,7 @@
   },
   "school_id": 602,
   "status": "complete",
-  "updated_at": "2026-09-05T04:43:33+00:00",
-  "completed_at": "2026-09-05T04:43:33+00:00",
+  "updated_at": "2026-09-08T22:09:39+00:00",
+  "completed_at": "2026-09-08T22:09:39+00:00",
   "last_error": ""
 }

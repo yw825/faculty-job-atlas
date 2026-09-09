@@ -1,17 +1,32 @@
 {
   "raw": {
+    "https://www.francis.edu/faculty-directory": {
+      "title": "Top",
+      "description": "Faculty Directory | Saint Francis University Skip to main content We use cookies to enhance your experience. By using our site, you agree to our web privacy policy . Top Request Information Visit Apply Give Search Francis.edu Search Expand Saint Francis University Homepage Main navigation Admissions & Aid Admissions Overview Apply to SFU Financial Aid Tuition & Fees Request Information Visits and Tours Parent's Information International Students Continuing Studies Admissions Transfer Students College in High School Future Athletes Academics Academics Homepage Academic Calendar 26-27 Faculty Directory Degrees & Programs Honors Program Core Curriculum Research International Education School of Business School of Health Sciences and Education School of STEAM Division of Professional Studies Campus Life Campus Amenities Clubs & Organizations Major Events Student Success Services Campus Life Overview Athletics Advancement/Alumni Advancement Division Alumni Capital Campaign Projects Ways to Give Campus Ministry Overview Alta Via Catholic Franciscan Presence Franciscan Studies Endowment About About Saint Francis University Catholic Mission & Values News and Features Employment Campus Offices Community Resources Maps and Directions Brand Guidelines University Policies and Handbooks Equal Opportunity, Harassment and Non-Discrimination Student Consumer Information Request Info Top Mobile Visit Give Search Francis.edu Main navigation Admissions & Aid Admissions Overview Apply to SFU Financial Aid Tuition & Fees Request Information Visits and Tours Parent's Information International Students Continuing Studies Admissions Transfer Students College in High School Future Athletes Academics Academics Homepage Academic Calendar 26-27 Faculty Directory Degrees & Programs Honors Program Core Curriculum Research International Education School of Business School of Health Sciences and Education School of STEAM Division of Professional Studies Campus Life Campus Amenities Clubs & Organizations Major Events Student Success Services Campus Life Overview Athletics Advancement/Alumni Advancement Division Alumni Capital Campaign Projects Ways to Give Campus Ministry Overview Alta Via Catholic Franciscan Presence Franciscan Studies Endowment About About Saint Francis University Catholic Mission & Values News and Features Employment Campus Offices Community Resources Maps and Directions Brand Guidelines University Policies and Handbooks Equal Opportunity, Harassment and Non-Discrimination Student Consumer Information Faculty Directory Meet our Faculty Breadcrumb  Saint Francis University Homepage Academics Academics Home Program Finder Campus Offices Page Links Academics Home Program Finder Campus Offices Department All American Sign Language Aviation/AMT Biochemistry Biology Business Administration Chemistry Communications Computer Science Criminal Justice Cybersecurity Economics Education English Environmental Engineering Executive Doctor of Education in Organizational Leadership and Innovation Exercise Oncology Fine Arts General Engineering/Engineering Global Learning and Languages Health and Human Performance Health Science History/Political Science Mathematics MMS/MHS Nursing Occupational Therapy Patient Care Technician Physical Therapy Physician Assistant Sciences Physics Psychology Social Work Theology and Philosophy Area of Study All Division of Professional Studies School of Health Sciences and Education School of Science, Technology, Engineering, Arts and Mathematics Shields School of Business Name Name Department (office) Contact Info AbuMallouh, Dr. Alaa Business Administration 207 Schwab Hall aabumallouh@francis.edu 504-493-4691 Bandstra, Dr. Joel Environmental Engineering, General Engineering/Engineering Science Center 017 jbandstra@francis.edu 814-471-1147 Beck,  Michelle MHSc, PA-C Physician Assistant Sciences Sullivan Hall 104 PA Office Suite mbeck@francis.edu 814-472-3133 Beiswenger, Ms. April abeiswenger@francis.edu 814-471-1268 Beiswenger, Dr. Lisa English Scotus Hall 312 lbeiswenger@francis.edu 814-472-3857 Bernard, Mr. Peter Chemistry Science Center 203 pbernard@francis.edu 814-472-3083 Besong, Dr. Brian Theology and Philosophy Scotus 223 bbesong@francis.edu 814-472-3394 Beunier-Lucas, Ms. Sydney English Scotus Hall 308 sbeunier-lucas@francis.edu 814-472-3311 Bintrim, Dr. Timothy English Scotus Hall 309 tbintrim@francis.edu 814-539-5588 (home landline) Birk, Dr. Matthew Biology Science Center 108 mbirk@francis.edu 814-472-3080 Pagination Current page 1 Page 2 Page 3 Page 4 … Next page Next Last page Last » Request Information Apply Now Visit Give Saint Francis University Homepage COMMUNITY Bookstore Campus Offices Chapel Dining Employment Events Maps & Visitor Info News/Blog Public Resources CAMPUS RESOURCES Academic Calendar 26-27 Catalog Canvas My.Francis Library Request a Transcript POLICIES & SAFETY Campus Safety & Health Disclosures Mission-Aligned Benefits Title IX Policy and Handbooks Saint Francis University 132 Franciscan Way, P.O. Box 600, Loretto, PA 15940 132 Franciscan Way P.O. Box 600 Loretto, PA 15940 814.472.3000 Facebook Instagram Youtube Pinterest Twitter Copyright © 2025 - All Rights Reserved Sitemap | Privacy Policy >"
+    },
     "http:": {
       "error": "RuntimeError: FETCH_FAILURE: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"http:\", waiting until \"domcontentloaded\"\n"
     }
   },
   "rows": {
+    "https://www.francis.edu/faculty-directory": {
+      "school_id": 1175,
+      "posting_url": "https://www.francis.edu/faculty-directory",
+      "job_title_in_post": "Top",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "School of Business Name Name Department",
+      "area_key_words": "Study All Division of Professional; Education School of Science",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
     "http:": {
       "error": "RuntimeError: FETCH_FAILURE: Page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n  - navigating to \"http:\", waiting until \"domcontentloaded\"\n"
     }
   },
   "school_id": 1175,
   "status": "complete",
-  "updated_at": "2026-09-05T18:28:45+00:00",
-  "completed_at": "2026-09-05T18:28:45+00:00",
+  "updated_at": "2026-09-08T23:25:59+00:00",
+  "completed_at": "2026-09-08T23:25:59+00:00",
   "last_error": ""
 }

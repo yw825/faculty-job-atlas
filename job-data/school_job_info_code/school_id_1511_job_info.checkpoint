@@ -1,9 +1,26 @@
 {
-  "raw": {},
-  "rows": {},
+  "raw": {
+    "https://wallawalla-accommodate.symplicity.com/faculty/index.php": {
+      "title": "Redirecting",
+      "description": "Redirecting"
+    }
+  },
+  "rows": {
+    "https://wallawalla-accommodate.symplicity.com/faculty/index.php": {
+      "school_id": 1511,
+      "posting_url": "https://wallawalla-accommodate.symplicity.com/faculty/index.php",
+      "job_title_in_post": "Redirecting",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    }
+  },
   "school_id": 1511,
   "status": "complete",
-  "updated_at": "2026-09-05T19:47:48+00:00",
-  "completed_at": "2026-09-05T19:47:48+00:00",
+  "updated_at": "2026-09-09T00:07:25+00:00",
+  "completed_at": "2026-09-09T00:07:25+00:00",
   "last_error": ""
 }

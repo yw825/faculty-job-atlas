@@ -3,6 +3,10 @@
     "https://westliberty.edu/human-resources/requisition-and-hiring-information/": {
       "title": "West Liberty University",
       "description": "Requisition and Hiring Information - Human Resources ABOUT WLU CALENDAR CAMPUS POLICE CONTACT WLU DIRECTORY GO WLU NEWS WLU A – Z West Liberty University Human Resources West Liberty University is a supportive workplace that values education and work-life balances. Search Requisition and Hiring Information The job requisition process is a critical function of any business as it provides key resources that helps the university function.  Job requisitions often lay out what type of role needs to be filled in what department, along with start date, job description, etc.  The resources below will assist you in the requisition process. Training Hiring Process Presentation-Faculty-Adjunct Hiring Process Presentation-Staff CUPA HR Interview Guide WLU Search Committee Training Forms Interview Analysis Form Hiring Manager’s Guide Staff Hiring Guide Faculty Hiring Guide Adjunct Hiring Guide Hiring Timeline Hiring Timeline Hiring Flowchart Staff Hiring Flowchart Faculty Hiring Flowchart Adjunct Hiring Flowchart Position Request Faculty & Staff Employment Student Employment HUMAN RESOURCES Welcome Benefits Calendar Governance & Compliance Forms Grievance Job Opportunities Requisition and Hiring Information Kronos Leadership Development Leave Management and Accommodation Retirement Resource Guide Telework Search HR BENEFITS, TIME & LEAVE BENEFITS New Employee FAQs PEIA PEIA Shoppers Guide Mountaineer Flex TIME & LEAVE Kronos Leave Mgmt & Acmdtn FMLA ADA RESOURCES Calendar Compliance Forms Health and Safety New Hire On-Boarding Policies Retirement Title IX Resource Guide Search HR CONTACT US HUMAN RESOURCES West Liberty University 208 University Drive, CUB 131 West Liberty, WV 26074 304.336.8139 Contact HR WLU CARING . QUALITY . AFFORDABLE . TOTAL COLLEGE EXPERIENCE WEST LIBERTY UNIVERSITY 208 University Drive West Liberty, WV 26074 304.336.5000 Toll Free: 866-WESTLIB Contact WLU via Email WLU A – Z About WLU Academics Admissions Alumni APPLY NOW Board of Governors Bookstore Business Office Campus Map Campus Police Catalog Colleges Counseling Services Current Students Dining Services Directory Employment Information Faculty & Staff Fast Facts Financial Aid Foundation Future Students Give Now Grades Graduate Students Honors College Information Technology International Students Intramurals Library Maintenance Majors Media Relations Net Price Calculator News Provost Office RAVE / TopperNET Registrar’s Office Request Info Residence Life Scholarships Student Health Services Student Life Title IX Transcripts The Trumpet Tuition WGLZ Radio © WEST LIBERTY UNIVERSITY Privacy Policy Terms of Use EMERGENCIES"
+    },
+    "https://westliberty.edu/faculty-and-staff/": {
+      "title": "West Liberty University",
+      "description": "Welcome - Faculty & Staff ABOUT WLU CALENDAR CAMPUS POLICE CONTACT WLU DIRECTORY GO WLU NEWS WLU A – Z West Liberty University Faculty & Staff Don’t forget. Approve your time card in Kronos! Search Academics College Catalog Department Chairs and Program Directors Department Chair and Program Director Resources Timeline of Major Responsibilities Distance Education Employee Engagement Employee of the Month Event Gallery Staff Council Events Hein Award FAQs Minutes Staff Scholarship Staff Recognition Awards Concern Card Handbooks Faculty Handbook Staff Handbook Student Handbook Ordering, Help, Intervention Behavior Alert Behavioral Intervention Team Business Card Orders IT Services IT Help Desk Request Services TopperNet Work Order Links, Offices, Resources Banner Board of Governors Boyle Conference Room Request Business Office Calendar Directory Faculty Senate Human Resources Leave System Library Sakai WINS Welcome Office of Marketing and Brand Management For graphic design, videography and web requests please go to Request for Services Business Card Orders Ready to order your business cards? You’ve come to the right place. Order Your Cards Now! IT Help Desk Sakai Help Academic Alert Behavior Alert Office of the Provost Resources Coronavirus FAQs Academic Alert Behavior Alert IT Help Desk Sakai Help Staff Recognition Nomination Form Planning an Event? If you need some WLU-branded swag, click here . WLU’S MISSION West Liberty University, established in 1837, was the first institution of higher education in West Virginia. Today, we are a dynamic, inclusive, student-centered community that cultivates scholarly exploration, experiential learning, creative expression, and global citizenship. WLU is a public university committed to providing students with a comprehensive education from undergraduate to advanced degrees while serving as the region’s leading advocate for the arts, education, research, and economic opportunity. WLU’S CORE VALUES Opportunity, Caring, Professionalism and Integrity, Excellence, Civic Engagement EMPLOYEE CONCERN CARD FACULTY & STAFF West Liberty University 208 University Dr. West Liberty, WV 26074 304.336.5000 Complete a CONCERN CARD . WLU CARING . QUALITY . AFFORDABLE . TOTAL COLLEGE EXPERIENCE WEST LIBERTY UNIVERSITY 208 University Drive West Liberty, WV 26074 304.336.5000 Toll Free: 866-WESTLIB Contact WLU via Email WLU A – Z About WLU Academics Admissions Alumni APPLY NOW Board of Governors Bookstore Business Office Campus Map Campus Police Catalog Colleges Counseling Services Current Students Dining Services Directory Employment Information Faculty & Staff Fast Facts Financial Aid Foundation Future Students Give Now Grades Graduate Students Honors College Information Technology International Students Intramurals Library Maintenance Majors Media Relations Net Price Calculator News Provost Office RAVE / TopperNET Registrar’s Office Request Info Residence Life Scholarships Student Health Services Student Life Title IX Transcripts The Trumpet Tuition WGLZ Radio © WEST LIBERTY UNIVERSITY Privacy Policy Terms of Use EMERGENCIES"
     }
   },
   "rows": {
@@ -16,11 +20,22 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://westliberty.edu/faculty-and-staff/": {
+      "school_id": 1581,
+      "posting_url": "https://westliberty.edu/faculty-and-staff/",
+      "job_title_in_post": "West Liberty University",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1581,
   "status": "complete",
-  "updated_at": "2026-09-05T20:24:09+00:00",
-  "completed_at": "2026-09-05T20:24:09+00:00",
+  "updated_at": "2026-09-09T00:25:31+00:00",
+  "completed_at": "2026-09-09T00:25:31+00:00",
   "last_error": ""
 }

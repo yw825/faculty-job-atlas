@@ -1,9 +1,26 @@
 {
-  "raw": {},
-  "rows": {},
+  "raw": {
+    "https://www.skidmore.edu/faculty-staff/index.php": {
+      "title": "Quick Navigation",
+      "description": "Skidmore Faculty & Staff Resources Skip Navigation Quick Navigation Request Info Visit Apply Menu Breadcrumb Navigation: Home Faculty & Staff Faculty & Staff Directories Faculty and Staff (public) Retirees (login required) A-Z Index Most searched Academic calendar Email login EMS scheduling Facilities Services request IT Help Desk Okta login theSpring login Purchasing Office Employment essentials Human Resources Campus Safety Dean of the Faculty Title IX and Equal Opportunity Faculty committees Payroll and holiday calendars College divisions Academic Affairs Admissions & Aid Advancement Communications & Marketing Finance and Administration Human Resources Institutional Diversity President's Office Student Affairs 815 North Broadway Saratoga Springs, NY 12866 Main: 518-580-5500 Admissions: 518-580-5570 Explore Skidmore About Skidmore Creative Thought Matters Academics Admission & Aid Student Life Athletics Advancement Info For Faculty & Staff Current Students Alumni Parents & Families Quick Links Directory News Events Campus Maps Make a Gift Registrar Bursar Information Technology FooterUtility Web Accessibility Policy Privacy Policy 2026 \n            \t\t\t\t\t\tSkidmore College © Menu Quick Navigation Request Info Visit Apply Main Menu Navigation Creative Thought Matters Academics Majors & Minors Experiential Learning Our Liberal Arts Admissions & Aid Apply Aid Visit Connect FAQs Student Life Housing & Dining Health & Wellness Life After Skidmore Athletics Giving Give Now Giving Opportunities Current Priorities Alumni Engagement Contact Search Info For Faculty & Staff Current Students Alumni Parents & Families Quick Links About Skidmore News Events Directory Course Catalog Lucy Scribner Library Tang Teaching Museum and Art Gallery Zankel Music Center Close"
+    }
+  },
+  "rows": {
+    "https://www.skidmore.edu/faculty-staff/index.php": {
+      "school_id": 1004,
+      "posting_url": "https://www.skidmore.edu/faculty-staff/index.php",
+      "job_title_in_post": "Quick Navigation",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Art Gallery Zankel Music Center",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    }
+  },
   "school_id": 1004,
   "status": "complete",
-  "updated_at": "2026-09-05T17:36:28+00:00",
-  "completed_at": "2026-09-05T17:36:28+00:00",
+  "updated_at": "2026-09-08T23:15:34+00:00",
+  "completed_at": "2026-09-08T23:15:34+00:00",
   "last_error": ""
 }

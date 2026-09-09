@@ -1,9 +1,41 @@
 {
-  "raw": {},
-  "rows": {},
+  "raw": {
+    "https://jobs.fitchburgstate.edu/static/clients/500FSM1/index.jsp?catid=1306": {
+      "title": "Title",
+      "description": "Human Resources & Payroll Services | Fitchburg State University Title Human Resources Subscribe to Email Alerts Returning Applicant Login Previous Next Job Openings Search For Jobs Keywords Interview Exchange Candidate FAQ Adjunct Faculty Contract/Hourly Faculty & Librarians Select All Staff Student Student Work Study Category Select All United States-All Locations United States-MA Location Last  1 day Last  2 days Last  3 days Last  7 days Last 30 days Select All Date Posted Find Jobs Clear List All Jobs Welcome to the Fitchburg State University's Employment Opportunities jobsite. Fitchburg State University is a public institution dedicated to integrating high-quality professional programs with strong liberal arts and sciences studies. Founded in 1894, the university now has more than 30 undergraduate programs and 22 master's degree programs, and 6,000 full and part-time students. The university is searching for professional candidates that would like to become part of a dynamic community that provides excellent service to the students, staff, faculty and constituents that we serve. We invite you to review our vacancy announcements based on your interest, credentials and qualifications. Adjunct Faculty Contract/Hourly Faculty & Librarians Staff Student Student Work Study [Archived]Part time Non Benefited Contractor [Archived]Part time Student Federal Work study [Archived]Part time Student Trust Employment Hide Main Navigation 160 Pearl Street, Fitchburg, MA 01420-2697"
+    },
+    "https://jobs.fitchburgstate.edu/static/clients/500FSM1/index.jsp?catid=1883": {
+      "title": "Title",
+      "description": "Human Resources & Payroll Services | Fitchburg State University Title Human Resources Subscribe to Email Alerts Returning Applicant Login Previous Next Job Openings Search For Jobs Keywords Interview Exchange Candidate FAQ Adjunct Faculty Contract/Hourly Faculty & Librarians Select All Staff Student Student Work Study Category Select All United States-All Locations United States-MA Location Last  1 day Last  2 days Last  3 days Last  7 days Last 30 days Select All Date Posted Find Jobs Clear List All Jobs Welcome to the Fitchburg State University's Employment Opportunities jobsite. Fitchburg State University is a public institution dedicated to integrating high-quality professional programs with strong liberal arts and sciences studies. Founded in 1894, the university now has more than 30 undergraduate programs and 22 master's degree programs, and 6,000 full and part-time students. The university is searching for professional candidates that would like to become part of a dynamic community that provides excellent service to the students, staff, faculty and constituents that we serve. We invite you to review our vacancy announcements based on your interest, credentials and qualifications. Adjunct Faculty Contract/Hourly Faculty & Librarians Staff Student Student Work Study [Archived]Part time Non Benefited Contractor [Archived]Part time Student Federal Work study [Archived]Part time Student Trust Employment Hide Main Navigation 160 Pearl Street, Fitchburg, MA 01420-2697"
+    }
+  },
+  "rows": {
+    "https://jobs.fitchburgstate.edu/static/clients/500FSM1/index.jsp?catid=1306": {
+      "school_id": 554,
+      "posting_url": "https://jobs.fitchburgstate.edu/static/clients/500FSM1/index.jsp?catid=1306",
+      "job_title_in_post": "Title",
+      "position_type": "Unclassified",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://jobs.fitchburgstate.edu/static/clients/500FSM1/index.jsp?catid=1883": {
+      "school_id": 554,
+      "posting_url": "https://jobs.fitchburgstate.edu/static/clients/500FSM1/index.jsp?catid=1883",
+      "job_title_in_post": "Title",
+      "position_type": "Unclassified",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    }
+  },
   "school_id": 554,
   "status": "complete",
-  "updated_at": "2026-09-05T04:21:05+00:00",
-  "completed_at": "2026-09-05T04:21:05+00:00",
+  "updated_at": "2026-09-08T22:06:32+00:00",
+  "completed_at": "2026-09-08T22:06:32+00:00",
   "last_error": ""
 }
