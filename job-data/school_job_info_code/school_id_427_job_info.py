@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 427
 SCHOOL_NAME = 'Goshen College'
-CAREERS_LINK = 'https://www.goshen.edu/employment/director-of-human-resources/'
+CAREERS_LINK = 'https://www.goshen.edu/employment/'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

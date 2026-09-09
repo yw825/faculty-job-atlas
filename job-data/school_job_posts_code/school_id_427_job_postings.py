@@ -31,13 +31,14 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 427
 SCHOOL_NAME = 'Goshen College'
-CAREERS_LINK = 'https://www.goshen.edu/employment/director-of-human-resources/'
+CAREERS_LINK = 'https://www.goshen.edu/employment/'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
+    """Generic: careers_link was rediscovered from this school's homepage."""
     html = lib.fetch_rendered(CAREERS_LINK)
     if lib.is_fetch_failure(html):
         raise RuntimeError(html)

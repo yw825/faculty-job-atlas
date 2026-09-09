@@ -38,6 +38,7 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkp
 
 
 def find_links():
+    """Generic: careers_link was rediscovered from this school's homepage."""
     html = lib.fetch_rendered(CAREERS_LINK)
     if lib.is_fetch_failure(html):
         raise RuntimeError(html)

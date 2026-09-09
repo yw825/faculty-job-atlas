@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1222
 SCHOOL_NAME = 'Waynesburg University'
-CAREERS_LINK = 'http://www.facebook.com/share.php?u=https://www.waynesburg.edu/careers&title=Careers'
+CAREERS_LINK = 'https://www.waynesburg.edu/careers'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

@@ -31,13 +31,14 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 458
 SCHOOL_NAME = 'Benedictine College'
-CAREERS_LINK = 'https://recruiting.paylocity.com/recruiting/jobs/Details/3764624/Benedictine-College/AssistantAssociate-Professor-of-Psychology'
+CAREERS_LINK = 'https://www.benedictine.edu/jobs'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
+    """Generic: careers_link was rediscovered from this school's homepage."""
     html = lib.fetch_rendered(CAREERS_LINK)
     if lib.is_fetch_failure(html):
         raise RuntimeError(html)

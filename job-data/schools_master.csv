@@ -305,7 +305,7 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes,scrap
 424,University of Saint Francis-Fort Wayne,US,https://www.sf.edu/,https://www.sf.edu/about/offices-and-departments/careers/,own website,medium,OK-2hop:OK:4,generic scraper
 425,Franklin College,US,https://www.franklincollege.edu/,https://franklincollege.edu/about/key-offices/office-of-human-resources/employment-opportunities/,own website,medium,OK-2hop:OK:4,generic scraper
 426,Indiana University-Northwest,US,https://www.iun.edu/,https://indiana.peopleadmin.com/postings/search?&query=&query_v0_posted_at_date=&query_organizational_tier_2_id=any&query_organizational_tier_3_id=any&query_organizational_tier_1_id=441&query_position_type_id=&commit=Search,PeopleAdmin,high,OK-2hop:OK:11,adapter built
-427,Goshen College,US,https://www.goshen.edu/,https://www.goshen.edu/employment/director-of-human-resources/,own website,medium,OK-2hop:OK:3,generic scraper
+427,Goshen College,US,https://www.goshen.edu/,https://www.goshen.edu/employment/,own website,medium,OK-2hop:OK:3 | careers_link rediscovered (old: https://www.goshen.edu/employment/director-of-huma),generic scraper
 428,DePauw University,US,https://www.depauw.edu/,https://www.depauw.edu/offices/human-resources/employment/,own website,medium,OK-2hop:OK:5,generic scraper
 429,Hanover College,US,https://www.hanover.edu/,https://www.hanover.edu/about/employment/,own website,medium,OK-2hop:OK:4,generic scraper
 430,Huntington University,US,https://www.huntington.edu/,https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=7353b4b0-47be-41c8-bcb3-dc2ae3843581&ccId=19000101_000001&lang=en_US,ADP,high,OK-2hop:OK:7,adapter built
@@ -332,7 +332,7 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes,scrap
 454,Valparaiso University,US,https://www.valpo.edu/,https://apply.interfolio.com/16338/positions,own website,high,OK-2hop:OK:17 [playwright],generic scraper
 455,Purdue University-Main Campus,US,https://www.purdue.edu/,https://careers.purdue.edu/content/Job-Seeker/,own website,medium,OK-2hop:OK:7,generic scraper
 456,Calumet College of Saint Joseph,US,https://www.ccsj.edu/,https://recruiting.paylocity.com/recruiting/jobs/All/d3b73b32-f518-47ab-82f7-ac57a8a45ce4/Calumet-College,own website,medium,OK-2hop:OK:3,generic scraper
-458,Benedictine College,US,https://www.benedictine.edu/,https://recruiting.paylocity.com/recruiting/jobs/Details/3764624/Benedictine-College/AssistantAssociate-Professor-of-Psychology,own website,medium,OK-2hop:OK:3 [playwright],generic scraper
+458,Benedictine College,US,https://www.benedictine.edu/,https://www.benedictine.edu/jobs,own website,medium,OK-2hop:OK:3 [playwright] | careers_link rediscovered (old: https://recruiting.paylocity.com/recruiting/jobs/D),generic scraper
 459,Baker University,US,https://www.bakeru.edu/,https://www.bakeru.edu/about-baker/careers-baker,own website,medium,OK-2hop:OK:2,generic scraper
 460,Emporia State University,US,https://www.emporia.edu/,https://hr.hornet365.com/open-positions,own website,medium,OK-2hop:OK:3,generic scraper
 461,Barclay College,US,https://www.barclaycollege.edu/,https://www.barclaycollege.edu/jobs/,own website,medium,OK-2hop:OK:2,generic scraper
@@ -975,7 +975,7 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes,scrap
 1219,Pennsylvania State University-Main Campus,US,https://www.psu.edu/,https://psu.wd1.myworkdayjobs.com/PSU_Academic?locations=cbe735ea2e6d018bc3b657b2c5014812,Workday,high,OK-2hop:OK:6,adapter built
 1220,Villanova University,US,https://www.villanova.edu/,http://jobs.villanova.edu,PeopleAdmin,medium,"OK-2hop:OK:8 | white-label PeopleAdmin, confirmed via atom feed probe",generic scraper
 1221,Washington & Jefferson College,US,https://www.washjeff.edu/,https://www.washjeff.edu/applicantpro/job/Pennsylvania/Washington/Human-Resources-Coordinator/4110192,own website,medium,OK-2hop:OK:3,generic scraper
-1222,Waynesburg University,US,https://www.waynesburg.edu/,http://www.facebook.com/share.php?u=https://www.waynesburg.edu/careers&title=Careers,own website,medium,OK-2hop:OK:2,generic scraper
+1222,Waynesburg University,US,https://www.waynesburg.edu/,https://www.waynesburg.edu/careers,own website,medium,OK-2hop:OK:2 | careers_link rediscovered (old: http://www.facebook.com/share.php?u=https://www.wa),generic scraper
 1223,West Chester University of Pennsylvania,US,https://www.wcupa.edu/,https://www.wcupa.edu/hr/,own website,high,NO_MATCH [playwright];hand-verified-sync,generic scraper
 1224,King's College,US,https://www.kings.edu/,https://www.kings.edu/human-resources/careers.html,own website,medium,OK-2hop:OK:4,generic scraper
 1225,Wilkes University,US,https://www.wilkes.edu/,https://wilkesuniversitycareers.applicantpro.com/jobs/,own website,medium,OK-2hop:OK:2,generic scraper
@@ -995,7 +995,7 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes,scrap
 1240,Caribbean University-Carolina,US,https://www.caribbean.edu/,https://careers.smartrecruiters.com/CaribbeanUniversity,SmartRecruiters,high,OK:9,adapter built
 1241,Universidad Ana G. Mendez-Carolina Campus,US,https://uagm.edu/,https://jobs.uagm.edu/Home?lang=es,own website,medium,OK:5,generic scraper
 1242,University of Puerto Rico-Carolina,US,https://www.uprc.edu/,https://carolina-upr-csm.symplicity.com/,own website,high,OK-2hop:OK:10,generic scraper
-1243,University of Puerto Rico at Cayey,US,https://www.cayey.upr.edu/,https://www.cayey.upr.edu/oficina-de-recursos-humanos/,own website,high,NO_MATCH [playwright];hand-verified-sync,generic scraper
+1243,University of Puerto Rico at Cayey,US,https://www.cayey.upr.edu/,https://www.cayey.upr.edu/oficina-de-recursos-humanos/,own website,high,NO_MATCH [playwright];hand-verified-sync | careers_link rediscovered (old: https://www.cayey.upr.edu/oficina-de-recursos-huma),generic scraper
 1244,Inter American University of Puerto Rico-Fajardo,US,https://www.fajardo.inter.edu/,https://fajardo.inter.edu/empleos/,own website,high,playwright_failed:Error;hand-verified-sync,generic scraper
 1245,Inter American University of Puerto Rico-Guayama,US,https://www.guayama.inter.edu/,https://www.inter.edu/conocenos/empleos-3/,own website,high,OK:7 | careers_link rediscovered from homepage (old: https://iaupr.elluciancrmrecruit.com/Apply),generic scraper
 1246,Atlantic University,US,https://www.atlanticu.edu/,https://www.indeed.com/cmp/Atlantic-University-1/jobs,own website,medium,OK:2,generic scraper

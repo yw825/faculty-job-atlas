@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 458
 SCHOOL_NAME = 'Benedictine College'
-CAREERS_LINK = 'https://recruiting.paylocity.com/recruiting/jobs/Details/3764624/Benedictine-College/AssistantAssociate-Professor-of-Psychology'
+CAREERS_LINK = 'https://www.benedictine.edu/jobs'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

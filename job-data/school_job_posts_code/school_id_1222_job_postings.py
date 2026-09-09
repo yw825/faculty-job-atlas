@@ -31,13 +31,14 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1222
 SCHOOL_NAME = 'Waynesburg University'
-CAREERS_LINK = 'http://www.facebook.com/share.php?u=https://www.waynesburg.edu/careers&title=Careers'
+CAREERS_LINK = 'https://www.waynesburg.edu/careers'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
+    """Generic: careers_link was rediscovered from this school's homepage."""
     html = lib.fetch_rendered(CAREERS_LINK)
     if lib.is_fetch_failure(html):
         raise RuntimeError(html)
