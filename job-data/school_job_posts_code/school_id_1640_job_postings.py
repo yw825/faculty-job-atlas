@@ -37,6 +37,14 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkp
 
 
 def find_links():
+    """NOTE: emptied on purpose. All 12 links this page yields are HR
+    guidance -- "Employment equity", "Salary scales", "Pay equity",
+    "Instructions for external candidates", the French mirror of the same
+    page. Concordia's actual board is SAP SuccessFactors
+    (career17.sapsf.com/career?company=universitc), which renders only
+    "Loading..." without further interaction, and its hcm17 counterpart
+    demands a sign-in. Verified by fetching every link. An empty file is
+    correct until that board can be driven."""
     html = lib.fetch_rendered(CAREERS_LINK)
     if lib.is_fetch_failure(html):
         raise RuntimeError(html)
