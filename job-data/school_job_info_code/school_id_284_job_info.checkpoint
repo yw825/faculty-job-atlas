@@ -1,9 +1,907 @@
 {
-  "raw": {},
-  "rows": {},
+  "raw": {
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303444&PostingSeq=1&SiteId=63000": {
+      "title": "Student Assistant",
+      "description": "Posted: 09/03/2026 Location: CCGA- Main Campus (Brunswick) Department: SGA Student Assistant",
+      "department": "SGA"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303023&PostingSeq=1&SiteId=63000": {
+      "title": "Part Time Faculty, Business",
+      "description": "Posted: 08/31/2026 Location: CCGA- Main Campus (Brunswick) Department: Business Admin & Health Inform Part Time Faculty, Business",
+      "department": "Business Admin & Health Inform"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302940&PostingSeq=1&SiteId=63000": {
+      "title": "Admissions Assistant",
+      "description": "Posted: 08/28/2026 Location: CCGA- Main Campus (Brunswick) Department: Admissions Admissions Assistant",
+      "department": "Admissions"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303132&PostingSeq=1&SiteId=63000": {
+      "title": "Painter",
+      "description": "Posted: 08/28/2026 Location: CCGA- Main Campus (Brunswick) Department: Building Maintenance Painter",
+      "department": "Building Maintenance"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303055&PostingSeq=1&SiteId=63000": {
+      "title": "Student Assistant Student Solution Center",
+      "description": "Posted: 08/28/2026 Location: CCGA- Camden Center Department: Student Center Student Assistant Student Solution Center",
+      "department": "Student Center"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303069&PostingSeq=1&SiteId=63000": {
+      "title": "Event Operations Specialist",
+      "description": "Posted: 08/27/2026 Location: CCGA- Main Campus (Brunswick) Department: Food Services - Contracted Event Operations Specialist",
+      "department": "Food Services - Contracted"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302359&PostingSeq=1&SiteId=63000": {
+      "title": "Work Study - Nursing and Health Science",
+      "description": "Posted: 08/13/2026 Location: CCGA- Main Campus (Brunswick) Department: School of Nursing & Health Sci Work Study - Nursing and Health Science",
+      "department": "School of Nursing & Health Sci"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302226&PostingSeq=1&SiteId=63000": {
+      "title": "Student Assistant- Business Affairs/Auxiliary Services",
+      "description": "Posted: 08/11/2026 Location: CCGA- Main Campus (Brunswick) Department: Business Services Student Assistant- Business Affairs/Auxiliary Services",
+      "department": "Business Services"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302126&PostingSeq=1&SiteId=63000": {
+      "title": "Development Officer - Annual Giving",
+      "description": "Posted: 08/06/2026 Location: CCGA- Main Campus (Brunswick) Department: Advancement Development Officer - Annual Giving",
+      "department": "Advancement"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302111&PostingSeq=1&SiteId=63000": {
+      "title": "Lecturer & Clinical Coordinator for Radiologic Science",
+      "description": "Posted: 08/06/2026 Location: CCGA- Main Campus (Brunswick) Department: Radiologic Science Lecturer & Clinical Coordinator for Radiologic Science",
+      "department": "Radiologic Science"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302117&PostingSeq=1&SiteId=63000": {
+      "title": "Network & Audio Visual Specialist",
+      "description": "Posted: 08/06/2026 Location: CCGA- Main Campus (Brunswick) Department: Technology Services Network & Audio Visual Specialist",
+      "department": "Technology Services"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=301982&PostingSeq=1&SiteId=63000": {
+      "title": "Student Assistant - Natural Sciences Laboratory",
+      "description": "Posted: 08/04/2026 Location: CCGA- Main Campus (Brunswick) Department: Dept of NS Student Assistant - Natural Sciences Laboratory",
+      "department": "Dept of NS"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=301981&PostingSeq=1&SiteId=63000": {
+      "title": "Student Assistant-Natural Sciences Labs (Camden Center)",
+      "description": "Posted: 08/04/2026 Location: CCGA- Main Campus (Brunswick) Department: Dept of NS Student Assistant-Natural Sciences Labs (Camden Center)",
+      "department": "Dept of NS"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=301882&PostingSeq=1&SiteId=63000": {
+      "title": "Director of Residence Life and Housing/Deputy Title IX Coordinator",
+      "description": "Posted: 07/31/2026 Location: CCGA- Main Campus (Brunswick) Department: Residential Life & Housing Director of Residence Life and Housing/Deputy Title IX Coordinator",
+      "department": "Residential Life & Housing"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=301563&PostingSeq=1&SiteId=63000": {
+      "title": "Student Assistant -- ENDEAVOR Center",
+      "description": "Posted: 07/30/2026 Location: CCGA- Main Campus (Brunswick) Department: Service Learning Student Assistant -- ENDEAVOR Center",
+      "department": "Service Learning"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=301615&PostingSeq=1&SiteId=63000": {
+      "title": "Assistant Professor of Mathematics",
+      "description": "Posted: 07/29/2026 Location: CCGA- Main Campus (Brunswick) Department: MDS Assistant Professor of Mathematics",
+      "department": "MDS"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=301812&PostingSeq=1&SiteId=63000": {
+      "title": "Part-Time Radiologic Science Lab and Simulation Assistant",
+      "description": "Posted: 07/29/2026 Location: CCGA- Main Campus (Brunswick) Department: Radiologic Science Part-Time Radiologic Science Lab and Simulation Assistant",
+      "department": "Radiologic Science"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=301817&PostingSeq=1&SiteId=63000": {
+      "title": "Radiologic Science Clinical Instructional Asst.- Part-time",
+      "description": "Posted: 07/29/2026 Location: CCGA- Main Campus (Brunswick) Department: Radiologic Science Radiologic Science Clinical Instructional Asst.- Part-time",
+      "department": "Radiologic Science"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=301452&PostingSeq=1&SiteId=63000": {
+      "title": "Student Assistant - IT Helpdesk",
+      "description": "Posted: 07/27/2026 Location: CCGA- Main Campus (Brunswick) Department: Tech Fees Student Assistant - IT Helpdesk",
+      "department": "Tech Fees"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=300707&PostingSeq=1&SiteId=63000": {
+      "title": "Work Study - Admission/ Enrollment Mgt.",
+      "description": "Posted: 07/13/2026 Location: CCGA- Main Campus (Brunswick) Department: Admissions Work Study - Admission/ Enrollment Mgt.",
+      "department": "Admissions"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=300712&PostingSeq=1&SiteId=63000": {
+      "title": "Student Assistant",
+      "description": "Posted: 07/08/2026 Location: CCGA- Main Campus (Brunswick) Department: Admissions Student Assistant",
+      "department": "Admissions"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=300596&PostingSeq=1&SiteId=63000": {
+      "title": "Student Assistant",
+      "description": "Posted: 07/07/2026 Location: CCGA- Main Campus (Brunswick) Department: Health & Disability Services Student Assistant",
+      "department": "Health & Disability Services"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=300737&PostingSeq=1&SiteId=63000": {
+      "title": "Student Assistant - Audio Visual",
+      "description": "Posted: 07/07/2026 Location: CCGA- Main Campus (Brunswick) Department: Technology Services Student Assistant - Audio Visual",
+      "department": "Technology Services"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=300652&PostingSeq=1&SiteId=63000": {
+      "title": "Work Study - Health & Disability Services",
+      "description": "Posted: 07/07/2026 Location: CCGA- Main Campus (Brunswick) Department: Health & Disability Services Work Study - Health & Disability Services",
+      "department": "Health & Disability Services"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=300382&PostingSeq=1&SiteId=63000": {
+      "title": "Associate Director of Recruitment",
+      "description": "Posted: 07/01/2026 Location: CCGA- Main Campus (Brunswick) Department: Admissions Associate Director of Recruitment",
+      "department": "Admissions"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=300586&PostingSeq=1&SiteId=63000": {
+      "title": "Residence Hall Director",
+      "description": "Posted: 07/01/2026 Location: CCGA- Main Campus (Brunswick) Department: Residential Life & Housing Residence Hall Director",
+      "department": "Residential Life & Housing"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=300235&PostingSeq=1&SiteId=63000": {
+      "title": "Part Time Instructor, Public Administration",
+      "description": "Posted: 06/26/2026 Location: CCGA- Main Campus (Brunswick) Department: CJ & PP Part Time Instructor, Public Administration",
+      "department": "CJ & PP"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=300100&PostingSeq=1&SiteId=63000": {
+      "title": "Client Support Specialist",
+      "description": "Posted: 06/22/2026 Location: CCGA- Main Campus (Brunswick) Department: Technology Services Client Support Specialist",
+      "department": "Technology Services"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=299730&PostingSeq=1&SiteId=63000": {
+      "title": "Work Study - COMPASS",
+      "description": "Posted: 06/16/2026 Location: CCGA- Main Campus (Brunswick) Department: Career & Academic Advising Work Study - COMPASS",
+      "department": "Career & Academic Advising"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=299327&PostingSeq=1&SiteId=63000": {
+      "title": "Groundskeeper",
+      "description": "Posted: 06/04/2026 Location: CCGA- Main Campus (Brunswick) Department: Grounds Groundskeeper",
+      "department": "Grounds"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=276516&PostingSeq=1&SiteId=63000": {
+      "title": "Nursing Clinical Instructional Asst.",
+      "description": "Posted: 06/04/2026 Location: CCGA- Main Campus (Brunswick) Department: BSN Nursing Clinical Instructional Asst.",
+      "department": "BSN"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=298095&PostingSeq=1&SiteId=63000": {
+      "title": "Student Assistant - COMPASS Career & Academic Advising",
+      "description": "Posted: 05/04/2026 Location: CCGA- Main Campus (Brunswick) Department: Career & Academic Advising Student Assistant - COMPASS Career & Academic Advising",
+      "department": "Career & Academic Advising"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=297697&PostingSeq=1&SiteId=63000": {
+      "title": "Coordinator of Programming",
+      "description": "Posted: 04/22/2026 Location: CCGA- Main Campus (Brunswick) Department: Multicultural Programming Coordinator of Programming",
+      "department": "Multicultural Programming"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=297461&PostingSeq=1&SiteId=63000": {
+      "title": "Student Assistant (Campus Activities/Overboard Entertainment)",
+      "description": "Posted: 04/22/2026 Location: CCGA- Main Campus (Brunswick) Department: Entertainment Student Assistant (Campus Activities/Overboard Entertainment)",
+      "department": "Entertainment"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=297289&PostingSeq=1&SiteId=63000": {
+      "title": "Part-Time Instructor of Education and/or Teacher Candidate Field Supervisor",
+      "description": "Posted: 04/20/2026 Location: CCGA- Main Campus (Brunswick) Department: School of Educ & Teacher Prep Part-Time Instructor of Education and/or Teacher Candidate Field Supervisor",
+      "department": "School of Educ & Teacher Prep"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=297393&PostingSeq=1&SiteId=63000": {
+      "title": "Student Assistant (Recreation and Wellness/Intramurals)",
+      "description": "Posted: 04/15/2026 Location: CCGA- Main Campus (Brunswick) Department: Recreation & Intramural Student Assistant (Recreation and Wellness/Intramurals)",
+      "department": "Recreation & Intramural"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=296969&PostingSeq=1&SiteId=63000": {
+      "title": "PT Temp Supplemental Instruction Leader",
+      "description": "Posted: 04/06/2026 Location: CCGA- Main Campus (Brunswick) Department: Academic Tutoring & Instruct PT Temp Supplemental Instruction Leader",
+      "department": "Academic Tutoring & Instruct"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=296940&PostingSeq=1&SiteId=63000": {
+      "title": "Part Time Lecturer-Mathematics",
+      "description": "Posted: 04/06/2026 Location: CCGA- Main Campus (Brunswick) Department: MDS Part Time Lecturer-Mathematics",
+      "department": "MDS"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=296899&PostingSeq=1&SiteId=63000": {
+      "title": "Part-Time Facilities Utility Technician",
+      "description": "Posted: 04/01/2026 Location: CCGA- Main Campus (Brunswick) Department: Building Maintenance Part-Time Facilities Utility Technician",
+      "department": "Building Maintenance"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=289061&PostingSeq=1&SiteId=63000": {
+      "title": "Campus Police Officer",
+      "description": "Posted: 03/13/2026 Location: CCGA- Main Campus (Brunswick) Department: Campus Safety Campus Police Officer",
+      "department": "Campus Safety"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=295761&PostingSeq=1&SiteId=63000": {
+      "title": "Part-Time Police Officer",
+      "description": "Posted: 03/06/2026 Location: CCGA- Main Campus (Brunswick) Department: Campus Safety Part-Time Police Officer",
+      "department": "Campus Safety"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=294430&PostingSeq=1&SiteId=63000": {
+      "title": "Custodian",
+      "description": "Posted: 01/23/2026 Location: CCGA- Main Campus (Brunswick) Department: Custodial Services Custodian",
+      "department": "Custodial Services"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=293566&PostingSeq=1&SiteId=63000": {
+      "title": "Custodian Part Time",
+      "description": "Posted: 12/19/2025 Location: CCGA- Main Campus (Brunswick) Department: Custodial Services Custodian Part Time",
+      "department": "Custodial Services"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=292430&PostingSeq=1&SiteId=63000": {
+      "title": "Part Time Instructor of Chemistry",
+      "description": "Posted: 11/12/2025 Location: CCGA- Main Campus (Brunswick) Department: Dept of NS Part Time Instructor of Chemistry",
+      "department": "Dept of NS"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=292433&PostingSeq=1&SiteId=63000": {
+      "title": "Part Time Instructor of Environmental Science",
+      "description": "Posted: 11/12/2025 Location: CCGA- Main Campus (Brunswick) Department: Dept of NS Part Time Instructor of Environmental Science",
+      "department": "Dept of NS"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=292257&PostingSeq=1&SiteId=63000": {
+      "title": "Part Time Instructor of Data Science",
+      "description": "Posted: 11/10/2025 Location: CCGA- Main Campus (Brunswick) Department: MDS Part Time Instructor of Data Science",
+      "department": "MDS"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=291437&PostingSeq=1&SiteId=63000": {
+      "title": "Student Assistant",
+      "description": "Posted: 10/22/2025 Location: CCGA- Main Campus (Brunswick) Department: Student Affairs Student Assistant",
+      "department": "Student Affairs"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=287407&PostingSeq=1&SiteId=63000": {
+      "title": "Student Assistant Desk Assistant",
+      "description": "Posted: 07/09/2025 Location: CCGA- Main Campus (Brunswick) Department: Residential Life & Housing Student Assistant Desk Assistant",
+      "department": "Residential Life & Housing"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=282011&PostingSeq=1&SiteId=63000": {
+      "title": "Temporary Shuttle Bus Driver",
+      "description": "Posted: 02/14/2025 Location: CCGA- Main Campus (Brunswick) Department: Res Life - Coastal Place Apts Temporary Shuttle Bus Driver",
+      "department": "Res Life - Coastal Place Apts"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=278615&PostingSeq=1&SiteId=63000": {
+      "title": "Work Study - Financial Aid",
+      "description": "Posted: 11/04/2024 Location: CCGA- Main Campus (Brunswick) Department: Financial Aid Work Study - Financial Aid",
+      "department": "Financial Aid"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=277186&PostingSeq=1&SiteId=63000": {
+      "title": "Part Time Faculty, Cyber Security and Information Technology",
+      "description": "Posted: 09/16/2024 Location: CCGA- Main Campus (Brunswick) Department: School of Bus & Pub Aff Part Time Faculty, Cyber Security and Information Technology",
+      "department": "School of Bus & Pub Aff"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=273226&PostingSeq=1&SiteId=63000": {
+      "title": "Student Assistant Game Worker",
+      "description": "Posted: 06/10/2024 Location: CCGA- Main Campus (Brunswick) Department: Athletics-Sports Information Student Assistant Game Worker",
+      "department": "Athletics-Sports Information"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=272199&PostingSeq=1&SiteId=63000": {
+      "title": "Student Assistant - Supplemental Instruction Leader",
+      "description": "Posted: 05/20/2024 Location: CCGA- Main Campus (Brunswick) Department: Academic Tutoring & Instruct Student Assistant - Supplemental Instruction Leader",
+      "department": "Academic Tutoring & Instruct"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=258165&PostingSeq=1&SiteId=63000": {
+      "title": "Part-Time Bus Driver",
+      "description": "Posted: 05/12/2023 Location: CCGA- Main Campus (Brunswick) Department: Athletics-Administration Part-Time Bus Driver",
+      "department": "Athletics-Administration"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=241086&PostingSeq=1&SiteId=63000": {
+      "title": "Part Time Faculty, Information Technology",
+      "description": "Posted: 03/23/2022 Location: CCGA- Main Campus (Brunswick) Department: Business Admin & Health Inform Part Time Faculty, Information Technology",
+      "department": "Business Admin & Health Inform"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=241088&PostingSeq=1&SiteId=63000": {
+      "title": "Part Time Faculty, Sports Management",
+      "description": "Posted: 03/23/2022 Location: CCGA- Main Campus (Brunswick) Department: Business Admin & Health Inform Part Time Faculty, Sports Management",
+      "department": "Business Admin & Health Inform"
+    }
+  },
+  "rows": {
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303444&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303444&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Student Assistant",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "SGA",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303023&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303023&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Part Time Faculty, Business",
+      "position_type": "Unclassified",
+      "job_term": "Part-time",
+      "department_or_school": "Business Admin & Health Inform",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302940&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302940&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Admissions Assistant",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Admissions",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303132&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303132&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Painter",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Building Maintenance",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303055&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303055&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Student Assistant Student Solution Center",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Student Center",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303069&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303069&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Event Operations Specialist",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "Food Services - Contracted",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302359&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302359&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Work Study - Nursing and Health Science",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "School of Nursing & Health Sci",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302226&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302226&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Student Assistant- Business Affairs/Auxiliary Services",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Business Services",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302126&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302126&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Development Officer - Annual Giving",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Advancement",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302111&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302111&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Lecturer & Clinical Coordinator for Radiologic Science",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "Radiologic Science",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302117&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302117&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Network & Audio Visual Specialist",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "Technology Services",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=301982&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=301982&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Student Assistant - Natural Sciences Laboratory",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Dept of NS",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=301981&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=301981&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Student Assistant-Natural Sciences Labs (Camden Center)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Dept of NS",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=301882&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=301882&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Director of Residence Life and Housing/Deputy Title IX Coordinator",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "Residential Life & Housing",
+      "area_key_words": "Residence Life and Housing/Deputy Title IX Coordinator",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=301563&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=301563&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Student Assistant -- ENDEAVOR Center",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Service Learning",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=301615&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=301615&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Assistant Professor of Mathematics",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "MDS",
+      "area_key_words": "Mathematics",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=301812&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=301812&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Part-Time Radiologic Science Lab and Simulation Assistant",
+      "position_type": "Unclassified",
+      "job_term": "Part-time",
+      "department_or_school": "Radiologic Science",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=301817&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=301817&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Radiologic Science Clinical Instructional Asst.- Part-time",
+      "position_type": "Unclassified",
+      "job_term": "Part-time",
+      "department_or_school": "Radiologic Science",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=301452&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=301452&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Student Assistant - IT Helpdesk",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Tech Fees",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=300707&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=300707&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Work Study - Admission/ Enrollment Mgt.",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Admissions",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=300712&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=300712&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Student Assistant",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Admissions",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=300596&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=300596&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Student Assistant",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Health & Disability Services",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=300737&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=300737&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Student Assistant - Audio Visual",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Technology Services",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=300652&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=300652&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Work Study - Health & Disability Services",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Health & Disability Services",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=300382&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=300382&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Associate Director of Recruitment",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Admissions",
+      "area_key_words": "Recruitment",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=300586&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=300586&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Residence Hall Director",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Residential Life & Housing",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=300235&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=300235&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Part Time Instructor, Public Administration",
+      "position_type": "Unclassified",
+      "job_term": "Part-time",
+      "department_or_school": "CJ & PP",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=300100&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=300100&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Client Support Specialist",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "Technology Services",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=299730&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=299730&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Work Study - COMPASS",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Career & Academic Advising",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=299327&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=299327&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Groundskeeper",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Grounds",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=276516&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=276516&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Nursing Clinical Instructional Asst.",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "BSN",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=298095&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=298095&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Student Assistant - COMPASS Career & Academic Advising",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Career & Academic Advising",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=297697&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=297697&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Coordinator of Programming",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "Multicultural Programming",
+      "area_key_words": "Programming",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=297461&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=297461&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Student Assistant (Campus Activities/Overboard Entertainment)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Entertainment",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=297289&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=297289&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Part-Time Instructor of Education and/or Teacher Candidate Field Supervisor",
+      "position_type": "Unclassified",
+      "job_term": "Part-time",
+      "department_or_school": "School of Educ & Teacher Prep",
+      "area_key_words": "Education and/or Teacher Candidate Field Supervisor",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=297393&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=297393&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Student Assistant (Recreation and Wellness/Intramurals)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Recreation & Intramural",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=296969&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=296969&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "PT Temp Supplemental Instruction Leader",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Academic Tutoring & Instruct",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=296940&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=296940&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Part Time Lecturer-Mathematics",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "MDS",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=296899&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=296899&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Part-Time Facilities Utility Technician",
+      "position_type": "Non-academic",
+      "job_term": "Part-time",
+      "department_or_school": "Building Maintenance",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=289061&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=289061&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Campus Police Officer",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Campus Safety",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=295761&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=295761&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Part-Time Police Officer",
+      "position_type": "Unclassified",
+      "job_term": "Part-time",
+      "department_or_school": "Campus Safety",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=294430&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=294430&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Custodian",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Custodial Services",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=293566&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=293566&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Custodian Part Time",
+      "position_type": "Unclassified",
+      "job_term": "Part-time",
+      "department_or_school": "Custodial Services",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=292430&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=292430&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Part Time Instructor of Chemistry",
+      "position_type": "Unclassified",
+      "job_term": "Part-time",
+      "department_or_school": "Dept of NS",
+      "area_key_words": "Chemistry",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=292433&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=292433&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Part Time Instructor of Environmental Science",
+      "position_type": "Unclassified",
+      "job_term": "Part-time",
+      "department_or_school": "Dept of NS",
+      "area_key_words": "Environmental Science",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=292257&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=292257&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Part Time Instructor of Data Science",
+      "position_type": "Unclassified",
+      "job_term": "Part-time",
+      "department_or_school": "MDS",
+      "area_key_words": "Data Science",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=291437&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=291437&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Student Assistant",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Student Affairs",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=287407&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=287407&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Student Assistant Desk Assistant",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Residential Life & Housing",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=282011&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=282011&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Temporary Shuttle Bus Driver",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Res Life - Coastal Place Apts",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=278615&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=278615&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Work Study - Financial Aid",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Financial Aid",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=277186&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=277186&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Part Time Faculty, Cyber Security and Information Technology",
+      "position_type": "Unclassified",
+      "job_term": "Part-time",
+      "department_or_school": "School of Bus & Pub Aff",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=273226&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=273226&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Student Assistant Game Worker",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Athletics-Sports Information",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=272199&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=272199&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Student Assistant - Supplemental Instruction Leader",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Academic Tutoring & Instruct",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=258165&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=258165&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Part-Time Bus Driver",
+      "position_type": "Unclassified",
+      "job_term": "Part-time",
+      "department_or_school": "Athletics-Administration",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=241086&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=241086&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Part Time Faculty, Information Technology",
+      "position_type": "Unclassified",
+      "job_term": "Part-time",
+      "department_or_school": "Business Admin & Health Inform",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=241088&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=241088&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Part Time Faculty, Sports Management",
+      "position_type": "Unclassified",
+      "job_term": "Part-time",
+      "department_or_school": "Business Admin & Health Inform",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    }
+  },
   "school_id": 284,
   "status": "complete",
-  "updated_at": "2026-09-05T03:18:12+00:00",
-  "completed_at": "2026-09-05T03:18:12+00:00",
+  "updated_at": "2026-09-09T05:20:07+00:00",
+  "completed_at": "2026-09-09T05:20:07+00:00",
   "last_error": ""
 }

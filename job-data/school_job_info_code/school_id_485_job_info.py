@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 485
 SCHOOL_NAME = 'Western Kentucky University'
-CAREERS_LINK = 'https://sso.interviewexchange.com/wku/sso.jsp'
+CAREERS_LINK = 'https://www.wku.edu/hr/careers/'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

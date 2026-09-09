@@ -1,9 +1,28 @@
 {
-  "links": [],
+  "links": [
+    "https://www.merrimack.edu/faculty/",
+    "https://www.merrimack.edu/obrien-center/",
+    "https://www.merrimack.edu/academics/advising/",
+    "https://www.merrimack.edu/academics/graduate/fellowships/",
+    "https://www.merrimack.edu/academics/faculty-directory/",
+    "https://www.merrimack.edu/employment_opportunities/ntt-assistant-professor-of-practice-master-of-social-work/",
+    "https://www.merrimack.edu/employment_opportunities/open-rank-clinical-professor-of-athletic-training/",
+    "https://www.merrimack.edu/employment_opportunities/school-counseling-program-director-open-rank-faculty-associate-professor-of-practice-non-tenure-track-12-month/",
+    "https://www.merrimack.edu/employment_opportunities/open-rank-nursing-faculty-full-time-non-tenured-track-open-ended-term-faculty-2/",
+    "https://www.merrimack.edu/employment_opportunities/adjunct-instructor-epidemiology/",
+    "https://www.merrimack.edu/employment_opportunities/adjunct-lecturer-psychology-and-neuroscience/",
+    "https://www.merrimack.edu/employment_opportunities/adjunct-lecturer-psychology/",
+    "https://www.merrimack.edu/employment_opportunities/adjunct-instructor-physics/",
+    "https://www.merrimack.edu/employment_opportunities/adjunct-instructor-mathematics/",
+    "https://www.merrimack.edu/employment_opportunities/adjuncts-medical-surgical-clinical-nursing/",
+    "https://www.merrimack.edu/employment_opportunities/postdoctoral-research-fellow-mechanical-and-electrical-engineering/",
+    "https://www.merrimack.edu/employment_opportunities/postdoctoral-fellow-matern-lab/",
+    "https://www.merrimack.edu/news/tolle-lege-reception-celebrates-faculty-research-scholarship/"
+  ],
   "school_id": 563,
   "status": "complete",
-  "updated_at": "2026-09-08T01:59:19+00:00",
-  "started_at": "2026-09-08T01:59:15+00:00",
-  "completed_at": "2026-09-08T01:59:19+00:00",
+  "updated_at": "2026-09-09T05:16:19+00:00",
+  "started_at": "2026-09-09T05:16:16+00:00",
+  "completed_at": "2026-09-09T05:16:19+00:00",
   "last_error": ""
 }

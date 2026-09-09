@@ -29,6 +29,9 @@ PLATFORM = 'dejobs'
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
+PLATFORM = 'peoplesoft'
+
+
 def main():
     result = lib.run_platform_school(SCHOOL_ID, SCHOOL_NAME, CAREERS_LINK,
                                      CHECKPOINT_PATH, platform=PLATFORM)

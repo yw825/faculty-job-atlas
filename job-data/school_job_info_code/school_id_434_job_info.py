@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 434
 SCHOOL_NAME = 'Marian University'
-CAREERS_LINK = 'https://marian.elluciancrmrecruit.com/Apply/Account/Create?f=a0ee650e-16a5-4b95-b901-c5b3f4d00dd4&o=a3e67df5-dead-4937-a82d-f42c212e56d1&IsInquiry=True'
+CAREERS_LINK = 'https://www.marian.edu/human-resources/index.php'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

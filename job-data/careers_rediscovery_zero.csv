@@ -1,115 +1,115 @@
 school_id,name,old_url,new_url,evidence,verdict
-37,Hendrix College,https://www.hendrix.edu/humanresources/jobs.aspx,https://www.hendrix.edu/after-hendrix/career-success,links=3 sections=0 via browser,found
-165,University of Colorado Colorado Springs,https://cu.taleo.net/careersection/2/moresearch.ftl?lang=en&location=6300103016&portal=101430233&radius=1&radiusType=K&searchExpanded=true,https://hr.uccs.edu/work-at-uccs,links=3 sections=0 via static,found
-168,University of Colorado Denver/Anschutz Medical Campus,https://cu.taleo.net/careersection/2/moresearch.ftl?lang=en,https://www.ucdenver.edu/student-finances,links=3 sections=0 via static,found
-175,Western Colorado University,https://western.wd1.myworkdayjobs.com/WESTERN?locations=f0acdfc60ce81008f9018ce54da70000&jobFamilyGroup=f0acdfc60ce81008d439787fbb740000,https://western.edu/about/directory/human-resources/careers-at-western/,links=3 sections=0 via static,found
+37,Hendrix College,https://www.hendrix.edu/humanresources/jobs.aspx,,,not-found
+165,University of Colorado Colorado Springs,https://cu.taleo.net/careersection/2/moresearch.ftl?lang=en&location=6300103016&portal=101430233&radius=1&radiusType=K&searchExpanded=true,,,not-found
+168,University of Colorado Denver/Anschutz Medical Campus,https://cu.taleo.net/careersection/2/moresearch.ftl?lang=en,https://www.ucdenver.edu/academics/schools-colleges,links=13 sections=1 via static,found
+175,Western Colorado University,https://western.wd1.myworkdayjobs.com/WESTERN?locations=f0acdfc60ce81008f9018ce54da70000&jobFamilyGroup=f0acdfc60ce81008d439787fbb740000,https://www.western.edu/academics/professional-development-opportunities/,links=128 sections=2 via static,found
 199,University of Saint Joseph,https://www.usj.edu/academics/health-care-careers/,,,not-found
 219,Everglades University,https://www.evergladesuniversity.edu/employment-opportunities/,,,not-found
-240,University of Fort Lauderdale,https://uftlathletics.com/sports/2021/6/23/recruiting-questionnaire.aspx,https://uftl.edu/careers,links=6 sections=5 via static,found
-257,Flagler College,https://fa-ewbi-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1,https://www.flagler.edu/about/office-services/human-resources,links=15 sections=0 via static,found
-277,Georgia State University,https://gsu.taleo.net/,https://www.gsu.edu/collegetocareer,links=90 sections=1 via static,found
+240,University of Fort Lauderdale,https://uftlathletics.com/sports/2021/6/23/recruiting-questionnaire.aspx,https://uftl.edu/careers,links=22 sections=5 via static,found
+257,Flagler College,https://fa-ewbi-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1,https://www.flagler.edu/about/office-services/human-resources,links=8 sections=0 via static,found
+277,Georgia State University,https://gsu.taleo.net/,,,not-found
 284,College of Coastal Georgia,https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?FOCUS=Applicant&SiteId=63000,,,not-found
 285,University of West Georgia,https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?FOCUS=Applicant&SiteId=54000,,,not-found
 288,Columbus State University,https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?FOCUS=Applicant&SiteId=30000,,,not-found
-289,University of North Georgia,https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?FOCUS=Applicant&SiteId=53000,https://ung.edu/human-resources/work-opportunities.php,links=3 sections=0 via static,found
-304,Life University,https://life-csm.symplicity.com/employers/?signin_tab=0,http://www.life.edu/about-pages/human-resources/,links=4 sections=0 via static,found
+289,University of North Georgia,https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?FOCUS=Applicant&SiteId=53000,,,not-found
+304,Life University,https://life-csm.symplicity.com/employers/?signin_tab=0,https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=39C3B08FA765F09BC547D09C6AC939C8,links=10 sections=6 via browser,found
 305,Georgia College & State University,https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?FOCUS=Applicant&SiteId=36000,,,not-found
-312,Georgia Southern University,https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?FOCUS=Applicant&SiteId=39000,https://www.georgiasouthern.edu/academics/career-exploration,links=15 sections=0 via static,found
+312,Georgia Southern University,https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?FOCUS=Applicant&SiteId=39000,https://www.georgiasouthern.edu/academics/career-exploration,links=5 sections=0 via static,found
 317,Reinhardt University,https://www.reinhardt.edu/careers/,,,not-found
-346,Graceland University-Lamoni,https://sfp.ocs.oraclecloud.com/graceland/portal/saml),https://www.graceland.edu/about/employment/,links=5 sections=0 via static,found
-352,Dordt University,https://ibmxjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/requisitions?lastSelectedFacet=CATEGORIES&selectedCategoriesFacet=300000008610535,https://www.dordt.edu/about-dordt/job-openings,links=7 sections=2 via static,found
-353,Briar Cliff University,https://Briarcliff.elluciancrmrecruit.com/Apply/Account/ProspectInquiry?f=9b05884a-c1c6-4c53-a445-22ac49ba3594&o=538fedc1-2f8d-4f30-89b1-d13415d0429c,https://www.briarcliff.edu/about/our-employees/careers,links=3 sections=0 via static,found
-369,University of Illinois Urbana-Champaign,https://humanresources.illinois.edu/job-seekers/?utm_source=illinois_homepage&utm_medium=referral&utm_campaign=footer,https://humanresources.illinois.edu/job-seekers/?utm_source=illinois_homepage&utm_medium=referral&utm_campaign=footer,links=17 sections=0 via browser,found
-373,DePaul University,https://ekze.fa.us2.oraclecloud.com/hcmUI/faces/FndOverview?fnd=%3B%3B%3B%3Bfalse%3B256%3B%3B%3B&fndGlobalItemNodeId=PER_HCMPEOPLETOP_FUSE_DIRECTORY,https://www.depaul.edu/employment-at-depaul,links=3 sections=0 via static,found
-391,Northwestern University,https://careers.northwestern.edu,https://www.northwestern.edu/about/mission-vision-priorities/access-opportunity.html,links=5 sections=0 via static,found
-399,Benedictine University,https://benu.csod.com/ux/ats/careersite/5/home?c=benu,https://ben.edu/about/employment-opportunities/,links=6 sections=0 via static,found
-400,Western Illinois University,https://sso.interviewexchange.com/wiu/sso.jsp,https://www.wiu.edu/employment/,links=6 sections=1 via static,found
-403,Illinois State University,https://isu.dc4.pageuppeople.com/default.aspx,https://illinoisstate.edu/academics/majors/interests/,links=5 sections=0 via static,found
+346,Graceland University-Lamoni,https://sfp.ocs.oraclecloud.com/graceland/portal/saml),https://www.graceland.edu/news/graceland-and-grand-view-partner-to-expand-athletic-training-opportunities/,links=10 sections=3 via static,found
+352,Dordt University,https://ibmxjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/requisitions?lastSelectedFacet=CATEGORIES&selectedCategoriesFacet=300000008610535,https://www.dordt.edu/about-dordt/job-openings,links=5 sections=2 via static,found
+353,Briar Cliff University,https://Briarcliff.elluciancrmrecruit.com/Apply/Account/ProspectInquiry?f=9b05884a-c1c6-4c53-a445-22ac49ba3594&o=538fedc1-2f8d-4f30-89b1-d13415d0429c,,,not-found
+369,University of Illinois Urbana-Champaign,https://humanresources.illinois.edu/job-seekers/?utm_source=illinois_homepage&utm_medium=referral&utm_campaign=footer,,,not-found
+373,DePaul University,https://ekze.fa.us2.oraclecloud.com/hcmUI/faces/FndOverview?fnd=%3B%3B%3B%3Bfalse%3B256%3B%3B%3B&fndGlobalItemNodeId=PER_HCMPEOPLETOP_FUSE_DIRECTORY,,,not-found
+391,Northwestern University,https://careers.northwestern.edu,https://www.northwestern.edu/about/mission-vision-priorities/access-opportunity.html,links=10 sections=0 via static,found
+399,Benedictine University,https://benu.csod.com/ux/ats/careersite/5/home?c=benu,,,not-found
+400,Western Illinois University,https://sso.interviewexchange.com/wiu/sso.jsp,,,not-found
+403,Illinois State University,https://isu.dc4.pageuppeople.com/default.aspx,,,not-found
 425,Franklin College,https://franklincollege.edu/about/key-offices/office-of-human-resources/employment-opportunities/,,,not-found
-431,Butler University,https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1,http://www.butler.edu/founders,links=4 sections=1 via static,found
-434,Marian University,https://marian.elluciancrmrecruit.com/Apply/Account/Create?f=a0ee650e-16a5-4b95-b901-c5b3f4d00dd4&o=a3e67df5-dead-4937-a82d-f42c212e56d1&IsInquiry=True,https://www.marian.edu/human-resources/index.php,links=5 sections=0 via static,found
+431,Butler University,https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1,,,not-found
+434,Marian University,https://marian.elluciancrmrecruit.com/Apply/Account/Create?f=a0ee650e-16a5-4b95-b901-c5b3f4d00dd4&o=a3e67df5-dead-4937-a82d-f42c212e56d1&IsInquiry=True,,,not-found
 445,University of Notre Dame,https://jobs.smartrecruiters.com/my-applications/UniversityOfNotreDame?dcr_ci=UniversityOfNotreDame,,,not-found
 447,Earlham College,https://hr.earlham.edu/careers,,,not-found
-452,Rose-Hulman Institute of Technology,https://rosehulman.csod.com/ux/ats/careersite/9/home?c=rosehulman,https://www.rose-hulman.edu/about-us/human-resources/index.html,links=4 sections=1 via static,found
-485,Western Kentucky University,https://sso.interviewexchange.com/wku/sso.jsp,https://www.wku.edu/hr/careers/,links=29 sections=0 via static,found
-487,Lindsey Wilson College,https://lindsey.elluciancrmrecruit.com/Apply/Account/Create,https://www.lindsey.edu/about-lwc/Offices-and-Services/Human-Resources/job-opportunities.cfm,links=2 sections=9 via static,found
+452,Rose-Hulman Institute of Technology,https://rosehulman.csod.com/ux/ats/careersite/9/home?c=rosehulman,,,not-found
+485,Western Kentucky University,https://sso.interviewexchange.com/wku/sso.jsp,https://www.wku.edu/hr/careers/,links=10 sections=0 via static,found
+487,Lindsey Wilson College,https://lindsey.elluciancrmrecruit.com/Apply/Account/Create,https://www.lindsey.edu/about-lwc/Offices-and-Services/Human-Resources/job-opportunities.cfm,links=13 sections=9 via static,found
 502,Brescia University,https://www.brescia.edu/employment/,,,not-found
 503,Kentucky Wesleyan College,https://kwc.edu/about-wesleyan/employment-opportunities/,,,not-found
-513,Southeastern Louisiana University,https://wd503.myworkday.com/ulsselu/,https://www.southeastern.edu/admin/hr/jobs/,links=4 sections=1 via static,found
-521,Tulane University of Louisiana,https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001,https://hr.tulane.edu/jobs,links=12 sections=0 via static,found
+513,Southeastern Louisiana University,https://wd503.myworkday.com/ulsselu/,,,not-found
+521,Tulane University of Louisiana,https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001,,,not-found
 526,Louisiana Tech University,https://ulsltu.wd1.myworkdayjobs.com/LATECHCareers,,,not-found
-528,Louisiana State University-Shreveport,https://lsus.edu2.com/topic/programsteps,https://www.lsus.edu/faculty-and-staff/human-resources/employment-opportunities,links=17 sections=0 via static,found
-530,Amherst College,https://wd5.myworkday.com/amherst/d/home.htmld,https://www.amherst.edu/offices/human_resources,links=8 sections=1 via static,found
-532,University of Massachusetts-Amherst,https://umassamherst.dc4.pageuppeople.com/,https://www.umass.edu/hr/careers,links=9 sections=0 via static,found
-536,Emerson College,https://emerson.wd5.myworkdayjobs.com/en-US/Emerson_College_ft_faculty,https://emerson.edu/careers-at-emerson/,links=4 sections=0 via static,found
-547,Harvard University,https://hr.harvard.edu/careers,https://www.harvard.edu/campus/work-at-harvard/,links=7 sections=0 via static,found
-553,Stonehill College,https://jobs.stonehill.edu/hr/sessions/new,https://www.stonehill.edu/offices-and-services/human-resources/careers-at-stonehill/,links=8 sections=0 via static,found
-563,Merrimack College,https://merrimack-advocate.symplicity.com/care_report/index.php/pid854103,https://www.merrimack.edu/about/offices_services/human_resources/employment_opportunities/,links=18 sections=0 via static,found
+528,Louisiana State University-Shreveport,https://lsus.edu2.com/topic/programsteps,,,not-found
+530,Amherst College,https://wd5.myworkday.com/amherst/d/home.htmld,,,not-found
+532,University of Massachusetts-Amherst,https://umassamherst.dc4.pageuppeople.com/,https://www.umass.edu/careers,links=9 sections=0 via static,found
+536,Emerson College,https://emerson.wd5.myworkdayjobs.com/en-US/Emerson_College_ft_faculty,,,not-found
+547,Harvard University,https://hr.harvard.edu/careers,,,not-found
+553,Stonehill College,https://jobs.stonehill.edu/hr/sessions/new,,,not-found
+563,Merrimack College,https://merrimack-advocate.symplicity.com/care_report/index.php/pid854103,https://www.merrimack.edu/about/offices_services/human_resources/employment_opportunities/,links=36 sections=0 via static,found
 571,American International College,https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=4f7bf2c8-4d1c-459f-99e3-bc1939cfa417&ccId=9201445022114_2&lang=en_US,,,not-found
 599,Mount St. Mary's University,https://inside.msmary.edu/more/human-resources/employment-opportunities/index.html#faculty-jobs,,,not-found
-609,Towson University,https://towson.taleo.net/careersection/ex/jobsearch.ftl,https://www.towson.edu/careercenter/employers/index.html,links=13 sections=0 via static,found
-616,University of Maine at Farmington,#VALUE!,https://fa-ewca-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs?mode=locationhttps://fa-ewca-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs?lastSelectedFacet=LOCATIONS&mode=location&selectedLocationsFacet=300000010042966,links=4 sections=0 via browser,found
+609,Towson University,https://towson.taleo.net/careersection/ex/jobsearch.ftl,,,not-found
+616,University of Maine at Farmington,#VALUE!,,,not-found
 626,Siena Heights University,https://www.sienaheights.edu/past-syllabi-employment-and-financial-aid/,,,not-found
-632,Andrews University,https://andrewsu-advocate.symplicity.com/care_report/index.php/pid627169,https://www.andrews.edu/hr,links=8 sections=0 via static,found
-659,Lake Superior State University,https://lssu.elluciancrmrecruit.com/Apply/Account/Create?f=74d097fd-e977-4014-8c74-57ea15a7d036&o=c32620df-99a6-4d73-825b-e072a3556b81&s=35d02c13-f240-e811-80d9-0a19abd13584&IsInquiry=True,https://jobs.lssu.edu/jobs/search,links=32 sections=1 via static,found
-665,Eastern Michigan University,https://secure.dc4.pageuppeople.com/apply/1092/aw/applicationForm/default.asp,https://careers.emich.edu/jobs/search,links=33 sections=1 via browser,found
-685,Carleton College,https://www.myworkday.com/carleton/d/home.htmld,https://www.carleton.edu/human-resources/employment-opportunities/,links=4 sections=0 via static,found
-686,St Olaf College,https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3,https://wp.stolaf.edu/hr/careers/,links=3 sections=0 via static,found
+632,Andrews University,https://andrewsu-advocate.symplicity.com/care_report/index.php/pid627169,,,not-found
+659,Lake Superior State University,https://lssu.elluciancrmrecruit.com/Apply/Account/Create?f=74d097fd-e977-4014-8c74-57ea15a7d036&o=c32620df-99a6-4d73-825b-e072a3556b81&s=35d02c13-f240-e811-80d9-0a19abd13584&IsInquiry=True,https://jobs.lssu.edu/jobs/search,links=30 sections=1 via static,found
+665,Eastern Michigan University,https://secure.dc4.pageuppeople.com/apply/1092/aw/applicationForm/default.asp,https://careers.emich.edu/jobs/search,links=30 sections=1 via browser,found
+685,Carleton College,https://www.myworkday.com/carleton/d/home.htmld,,,not-found
+686,St Olaf College,https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3,,,not-found
 711,Hannibal-LaGrange University,https://www.hlg.edu/forms/adjunctfacultyapplication/,,,not-found
-736,Webster University,https://recruiting.adp.com/srccar/public/RTI.home?c=1180715&d=ExternalCareerSite,https://www.webster.edu/human-resources/index.php,links=5 sections=1 via static,found
+736,Webster University,https://recruiting.adp.com/srccar/public/RTI.home?c=1180715&d=ExternalCareerSite,,,not-found
 759,Rocky Mountain College,https://www.facebook.com/rockymountaincollege/,,,not-found
 763,University of Providence,https://www.uprovidence.edu/employment/,,,not-found
-780,Davidson College,https://fa-exci-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2,https://davidson.edu/academics/research-opportunities,links=4 sections=0 via static,found
+780,Davidson College,https://fa-exci-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2,,,not-found
 799,Mars Hill University,https://jobs.appone.com/marshilluniversity,https://www.mhu.edu/about/what-to-do-and-see/summer-opportunities-at-mars-hill/,links=5 sections=0 via static,found
 802,University of Mount Olive,https://www.umo.edu/employment/,,,not-found
 829,Bellevue University,https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=191fb38a-3b70-4f49-b37f-cb2eda186474&ccId=9201943470232_2&lang=en_US,https://www.bellevue.edu/bellevue-university-careers/,links=6 sections=0 via static,found
 872,Drew University,https://drew.edu/about/human-resources/employment-opportunities/,,,not-found
-885,Thomas Edison State University,https://tesu.elluciancrmrecruit.com/Apply/Account/ProspectInquiry?f=a5c390e3-cba0-4376-b596-8fba5466af6e&o=8a362f72-262c-48bc-a36d-c5d6e0f75af6&s=c1a80143-768e-e311-a614-00155d01181f,https://www.tesu.edu/about/work-at-tesu/index.php,links=3 sections=0 via static,found
+885,Thomas Edison State University,https://tesu.elluciancrmrecruit.com/Apply/Account/ProspectInquiry?f=a5c390e3-cba0-4376-b596-8fba5466af6e&o=8a362f72-262c-48bc-a36d-c5d6e0f75af6&s=c1a80143-768e-e311-a614-00155d01181f,,,not-found
 917,CUNY Brooklyn College,https://cuny.jobs/campus/brooklyn-college/job-category/faculty/jobs/,,,not-found
-931,St Lawrence University,https://careerhub-clarkson.icims.com/jobs/search?hashed=-625885781&mobile=false&width=1246&height=500&bga=true&needsRedirect=false&jan1offset=-300&jun1offset=-240,https://www.stlawu.edu/careers-outcomes,links=11 sections=0 via static,found
-939,Elmira College,https://www.elmira.edu/welcome-to-elmira/about-ec/careers/careers,https://www.elmira.edu/success-after-elmira/career-professional-development/overview,links=14 sections=0 via static,found
+931,St Lawrence University,https://careerhub-clarkson.icims.com/jobs/search?hashed=-625885781&mobile=false&width=1246&height=500&bga=true&needsRedirect=false&jan1offset=-300&jun1offset=-240,https://www.stlawu.edu/careers-outcomes/planning-your-career,links=11 sections=2 via static,found
+939,Elmira College,https://www.elmira.edu/welcome-to-elmira/about-ec/careers/careers,,,not-found
 983,Dominican University New York,https://www.duny.edu/category/employment-opportunities/,,,not-found
-987,Clarkson University,https://careerhub-clarkson.icims.com,https://www.clarkson.edu/human-resources,links=3 sections=0 via static,found
-1009,Stony Brook University,https://stonybrook-advocate.symplicity.com/collections/reportit/4a9adc9d6aa24c3cf581ea5daa46cd25,https://www.stonybrook.edu/jobs/,links=20 sections=0 via static,found
+987,Clarkson University,https://careerhub-clarkson.icims.com,,,not-found
+1009,Stony Brook University,https://stonybrook-advocate.symplicity.com/collections/reportit/4a9adc9d6aa24c3cf581ea5daa46cd25,https://www.stonybrook.edu/grad/,links=5 sections=0 via static,found
 1014,Rensselaer Polytechnic Institute,https://rpi.dc4.pageuppeople.com/dashboard,,,not-found
-1045,Wright State University-Main Campus,#VALUE!,https://www.wright.edu/degrees-and-programs/profile/career-advancement-skills,links=3 sections=0 via static,found
+1045,Wright State University-Main Campus,#VALUE!,https://www.wright.edu/human-resources,links=83 sections=0 via static,found
 1052,Hiram College,https://www.hiram.edu/about-hiram-college/human-resources/careers-at-hiram/,,,not-found
 1069,Lourdes University,https://recruiting.paylocity.com/recruiting/jobs/All/6800f223-2b60-47fe-ba0e-3602afc127d6/Lourdes-University,,,not-found
-1082,Northwestern Oklahoma State University,https://nwosu.jotform.com/form/app-for-employment-non-exemt,https://www.nwosu.edu/employment/,links=3 sections=1 via static,found
+1082,Northwestern Oklahoma State University,https://nwosu.jotform.com/form/app-for-employment-non-exemt,,,not-found
 1095,Bacone College,https://www.bacone.edu/job-openings/,,,not-found
-1103,University of Tulsa,https://utulsa-ibvjjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1,https://utulsa.edu/student-life/canecareers/,links=15 sections=0 via static,found
-1133,University of Pittsburgh-Bradford,https://cfopitt.taleo.net/careersection/pitt_staff_external/jobdetail.ftl?job=26003465&tz=GMT-04%3A00&tzname=America%2FNew_York,https://www.upb.pitt.edu/maps-directions/employment-opportunities,links=5 sections=0 via static,found
-1177,Allegheny College,https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1,https://allegheny.edu/academics/career-professional-development/,links=5 sections=0 via static,found
-1186,Westminster College,https://my.westminster.edu/ics/Campus_Life/Campus_Groups/Human_Resources__Employment/Overview.jnz,https://www.westminster.edu/employment,links=4 sections=1 via static,found
+1103,University of Tulsa,https://utulsa-ibvjjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1,https://utulsa.edu/hr/employment,links=10 sections=0 via static,found
+1133,University of Pittsburgh-Bradford,https://cfopitt.taleo.net/careersection/pitt_staff_external/jobdetail.ftl?job=26003465&tz=GMT-04%3A00&tzname=America%2FNew_York,,,not-found
+1177,Allegheny College,https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1,,,not-found
+1186,Westminster College,https://my.westminster.edu/ics/Campus_Life/Campus_Groups/Human_Resources__Employment/Overview.jnz,,,not-found
 1191,Peirce College,https://www3.peirce.edu/about-peirce/additional-resources/careers-at-peirce,,,not-found
-1196,Carlow University,https://forms.office.com/r/pLvbzux3Wv,https://www.carlow.edu/about/employment/,links=5 sections=0 via static,found
+1196,Carlow University,https://forms.office.com/r/pLvbzux3Wv,,,not-found
 1202,University of Pittsburgh-Pittsburgh Campus,https://cfopitt.taleo.net/careersection/pitt_internal/jobsearch.ftl?lang=en&portal=10100023232,,,not-found
-1207,Rosemont College,https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=73e335b6-c8b9-44c9-bb2d-c83d54941069&ccId=9200074416396_2&lang=en_US&selectedMenuKey=CurrentOpenings,https://rosemont.edu/college/office/human-resources-careers/,links=8 sections=0 via static,found
-1229,Inter American University of Puerto Rico-Aguadilla,https://iaupr.elluciancrmrecruit.com/Apply/,http://www.inter.edu/about-us/empleos-3/,links=7 sections=0 via browser,found
-1231,Inter American University of Puerto Rico-Arecibo,https://iaupr.elluciancrmrecruit.com/Apply/Account/Create,http://www.arecibo.inter.edu/department/recursos-humanos/,links=4 sections=0 via static,found
+1207,Rosemont College,https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=73e335b6-c8b9-44c9-bb2d-c83d54941069&ccId=9200074416396_2&lang=en_US&selectedMenuKey=CurrentOpenings,,,not-found
+1229,Inter American University of Puerto Rico-Aguadilla,https://iaupr.elluciancrmrecruit.com/Apply/,,,not-found
+1231,Inter American University of Puerto Rico-Arecibo,https://iaupr.elluciancrmrecruit.com/Apply/Account/Create,,,not-found
 1233,University of Puerto Rico-Arecibo,https://upra.edu/recursos-humanos/convocatorias/,,,not-found
-1234,Inter American University of Puerto Rico-Barranquitas,https://iaupr.elluciancrmrecruit.com/Apply,https://www.br.inter.edu/empleos/,links=7 sections=0 via static,found
+1234,Inter American University of Puerto Rico-Barranquitas,https://iaupr.elluciancrmrecruit.com/Apply,,,not-found
 1235,American University of Puerto Rico,https://aupr.edu/empleo-remunerado/,,,not-found
-1245,Inter American University of Puerto Rico-Guayama,https://iaupr.elluciancrmrecruit.com/Apply,https://www.inter.edu/conocenos/empleos-3/,links=19 sections=1 via browser,found
+1245,Inter American University of Puerto Rico-Guayama,https://iaupr.elluciancrmrecruit.com/Apply,,,not-found
 1250,American University of Puerto Rico,https://aupr.edu/empleo-remunerado/,,,not-found
-1253,University of Puerto Rico-Mayaguez,https://www.eventbrite.com/e/38th-job-fair-tickets-1992770470120,https://www.uprm.edu/empleos,links=28 sections=0 via static,found
-1258,Inter American University of Puerto Rico-San German,https://iaupr.elluciancrmrecruit.com/Apply,https://www.inter.edu/about-us/empleos-3/,links=19 sections=1 via browser,found
-1260,Inter American University of Puerto Rico-Metro,https://iaupr.elluciancrmrecruit.com/Apply/Account/Create?returnUrl=%2FApply,https://metro.inter.edu/recursos-humanos/,links=8 sections=0 via browser,found
-1323,The University of Tennessee-Chattanooga,https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/fscmUI/faces/deeplink?objType=IRC_RECRUITING&action=ICE_JOB_SEARCH_RESP,https://blog.utc.edu/news/2026/09/board-certified-eight-utc-dpt-alums-advance-their-physical-therapy-careers/,links=8 sections=0 via static,found
-1332,Lincoln Memorial University,https://www.peopleadmin.com/,https://www.lmunet.edu/office-of-institutional-compliance/index.php,links=35 sections=1 via static,found
-1337,East Tennessee State University,https://fa-evyu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/,https://www.etsu.edu/jobs/default.php,links=4 sections=0 via static,found
-1415,The University of Texas Permian Basin,https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/UTZ_CG/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_SCHJOB&Action=U&FOCUS=Applicant&SiteId=10,https://www.utpb.edu/blogs/2026/08/top-8-jobs-for-petroleum-engineering-graduates,links=5 sections=6 via static,found
-1457,Virginia Polytechnic Institute and State University,https://careers.pageuppeople.com/968/ci/en-us/listing,https://www.vt.edu/advantage/career.html,links=9 sections=0 via static,found
-1512,Central Washington University,https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?FOCUS=Applicant&&siteid=1,https://www.cwu.edu/about/offices/human-resources/careers/index.php,links=10 sections=0 via static,found
-1525,University of Puget Sound,https://www2.pugetsound.jobs/psc/HR92PRD/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_SCHJOB_FL&Action=U&FOCUS=Applicant&siteid=3,https://www.pugetsound.edu/human-resources/work-puget-sound/employment-opportunities,links=4 sections=0 via static,found
-1528,Whitman College,https://whitman-advocate.symplicity.com/public_report/index.php,https://www.whitman.edu/career-prep,links=58 sections=0 via static,found
+1253,University of Puerto Rico-Mayaguez,https://www.eventbrite.com/e/38th-job-fair-tickets-1992770470120,,,not-found
+1258,Inter American University of Puerto Rico-San German,https://iaupr.elluciancrmrecruit.com/Apply,,,not-found
+1260,Inter American University of Puerto Rico-Metro,https://iaupr.elluciancrmrecruit.com/Apply/Account/Create?returnUrl=%2FApply,,,not-found
+1323,The University of Tennessee-Chattanooga,https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/fscmUI/faces/deeplink?objType=IRC_RECRUITING&action=ICE_JOB_SEARCH_RESP,https://blog.utc.edu/news/2026/09/board-certified-eight-utc-dpt-alums-advance-their-physical-therapy-careers/,links=21 sections=0 via static,found
+1332,Lincoln Memorial University,https://www.peopleadmin.com/,,,not-found
+1337,East Tennessee State University,https://fa-evyu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/,,,not-found
+1415,The University of Texas Permian Basin,https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/UTZ_CG/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_SCHJOB&Action=U&FOCUS=Applicant&SiteId=10,https://www.utpb.edu/blogs/2026/08/top-8-jobs-for-petroleum-engineering-graduates,links=112 sections=6 via static,found
+1457,Virginia Polytechnic Institute and State University,https://careers.pageuppeople.com/968/ci/en-us/listing,,,not-found
+1512,Central Washington University,https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?FOCUS=Applicant&&siteid=1,,,not-found
+1525,University of Puget Sound,https://www2.pugetsound.jobs/psc/HR92PRD/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_SCHJOB_FL&Action=U&FOCUS=Applicant&siteid=3,,,not-found
+1528,Whitman College,https://whitman-advocate.symplicity.com/public_report/index.php,https://www.whitman.edu/career-prep,links=10 sections=0 via static,found
 1536,Marian University,https://www.marianuniversity.edu/about-marian/employment/,,,not-found
 1566,Bethany College,https://www.bethanywv.edu/about/employment/,,,not-found
-1570,University of Charleston,https://ucwv.elluciancrmrecruit.com/Apply/Account/Create?f=586ce4f3-d79d-4f52-9540-5138661f6dcd&o=538fedc1-2f8d-4f30-89b1-d13415d0429c&IsInquiry=True,https://www.ucwv.edu/job-postings/,links=14 sections=0 via static,found
+1570,University of Charleston,https://ucwv.elluciancrmrecruit.com/Apply/Account/Create?f=586ce4f3-d79d-4f52-9540-5138661f6dcd&o=538fedc1-2f8d-4f30-89b1-d13415d0429c&IsInquiry=True,https://www.ucwv.edu/job-postings/,links=8 sections=0 via static,found
 1577,Alderson Broaddus University,https://ab.edu/employment/,,,not-found
-1583,University of Wyoming,https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1,https://www.uwyo.edu/hr/index.html,links=11 sections=0 via static,found
+1583,University of Wyoming,https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1,https://www.uwyo.edu/jobs,links=21 sections=0 via static,found
 374,East-West University,,,,not-found
 432,Horizon University,,,,not-found
 1259,Colegio Universitario de San Juan,,,,not-found
 1523,Faith International University,,,,not-found
-1897,Manhattan College,,https://www.manhattan.edu/offices/human-resources/career-opportunities,links=7 sections=0 via static,found
+1897,Manhattan College,,,,not-found

@@ -1,9 +1,16 @@
 {
-  "links": [],
+  "links": [
+    "https://utulsa.edu/about/leadership/faculty/",
+    "https://utulsa.edu/about/leadership/",
+    "https://utulsa.edu/student-life/canecareers/",
+    "https://utulsa.edu/tuition-aid/graduate-financial-assistance/assistantships-fellowships/",
+    "https://utulsa.edu/news/cultivating-cultural-conversations-meet-utulsas-professor-lansana/",
+    "https://utulsa.edu/news/new-alumnus-offered-elite-ibm-position/"
+  ],
   "school_id": 1103,
   "status": "complete",
-  "updated_at": "2026-09-08T02:43:12+00:00",
-  "started_at": "2026-09-08T02:43:09+00:00",
-  "completed_at": "2026-09-08T02:43:12+00:00",
+  "updated_at": "2026-09-09T05:19:21+00:00",
+  "started_at": "2026-09-09T05:19:18+00:00",
+  "completed_at": "2026-09-09T05:19:21+00:00",
   "last_error": ""
 }

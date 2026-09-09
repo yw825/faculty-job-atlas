@@ -31,7 +31,7 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1570
 SCHOOL_NAME = 'University of Charleston'
-CAREERS_LINK = 'https://ucwv.elluciancrmrecruit.com/Apply/Account/Create?f=586ce4f3-d79d-4f52-9540-5138661f6dcd&o=538fedc1-2f8d-4f30-89b1-d13415d0429c&IsInquiry=True'
+CAREERS_LINK = 'https://www.ucwv.edu/job-postings/'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')

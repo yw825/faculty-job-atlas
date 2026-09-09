@@ -1,9 +1,859 @@
 {
-  "raw": {},
-  "rows": {},
+  "raw": {
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303426&PostingSeq=1&SiteId=36000": {
+      "title": "Lecturer",
+      "description": "Posted: 09/09/2026 Location: Georgia College & State Univ Department: Accounting & Business Law Lecturer",
+      "department": "Accounting & Business Law"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302426&PostingSeq=1&SiteId=36000": {
+      "title": "Deal Center Tutoring Assistant",
+      "description": "Posted: 09/08/2026 Location: Georgia College & State Univ Department: Sandra Deal Center Deal Center Tutoring Assistant",
+      "department": "Sandra Deal Center"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303449&PostingSeq=1&SiteId=36000": {
+      "title": "Lecturer of Psychology",
+      "description": "Posted: 09/08/2026 Location: Georgia College & State Univ Department: Psychology Lecturer of Psychology",
+      "department": "Psychology"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303366&PostingSeq=1&SiteId=36000": {
+      "title": "Limited Term Faculty",
+      "description": "Posted: 09/08/2026 Location: Georgia College & State Univ Department: Department of Communication Limited Term Faculty",
+      "department": "Department of Communication"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302008&PostingSeq=1&SiteId=36000": {
+      "title": "Multimedia Producer I",
+      "description": "Posted: 09/08/2026 Location: Georgia College & State Univ Department: University Communications Multimedia Producer I",
+      "department": "University Communications"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=301244&PostingSeq=1&SiteId=36000": {
+      "title": "Custodian I Night Shift",
+      "description": "Posted: 09/04/2026 Location: Georgia College & State Univ Department: Building Services Custodian I Night Shift",
+      "department": "Building Services"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303348&PostingSeq=1&SiteId=36000": {
+      "title": "Outdoor Center Student Assistant",
+      "description": "Posted: 09/04/2026 Location: Georgia College & State Univ Department: Outdoor Center S/S Outdoor Center Student Assistant",
+      "department": "Outdoor Center S/S"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303283&PostingSeq=1&SiteId=36000": {
+      "title": "Assistant Professor of Mathematics",
+      "description": "Posted: 09/03/2026 Location: Georgia College & State Univ Department: Chemistry, Physics & Mathemati Assistant Professor of Mathematics",
+      "department": "Chemistry, Physics & Mathemati"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303195&PostingSeq=1&SiteId=36000": {
+      "title": "Department Chair of Communication",
+      "description": "Posted: 09/03/2026 Location: Georgia College & State Univ Department: Department of Communication Department Chair of Communication",
+      "department": "Department of Communication"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302928&PostingSeq=1&SiteId=36000": {
+      "title": "Federal Work Study Student -  Office of Community Engagement and Belonging",
+      "description": "Posted: 09/03/2026 Location: Georgia College & State Univ Department: C W S P Federal Work Study Student -  Office of Community Engagement and Belonging",
+      "department": "C W S P"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303318&PostingSeq=1&SiteId=36000": {
+      "title": "Global Education Center--Student Assistant 2026",
+      "description": "Posted: 09/03/2026 Location: Georgia College & State Univ Department: International Education Center Global Education Center--Student Assistant 2026",
+      "department": "International Education Center"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303099&PostingSeq=1&SiteId=36000": {
+      "title": "Graduate Assistant - College of Education - Dean's Office",
+      "description": "Posted: 09/03/2026 Location: Georgia College & State Univ Department: Graduate Studies Graduate Assistant - College of Education - Dean's Office",
+      "department": "Graduate Studies"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303294&PostingSeq=1&SiteId=36000": {
+      "title": "Assistant Professor",
+      "description": "Posted: 09/02/2026 Location: Georgia College & State Univ Department: Department of Communication Assistant Professor",
+      "department": "Department of Communication"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302935&PostingSeq=1&SiteId=36000": {
+      "title": "Assistant Professor of Chemistry",
+      "description": "Posted: 09/02/2026 Location: Georgia College & State Univ Department: Chemistry, Physics & Mathemati Assistant Professor of Chemistry",
+      "department": "Chemistry, Physics & Mathemati"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303203&PostingSeq=1&SiteId=36000": {
+      "title": "Financial Aid Advisor",
+      "description": "Posted: 09/02/2026 Location: Georgia College & State Univ Financial Aid Advisor",
+      "department": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303327&PostingSeq=1&SiteId=36000": {
+      "title": "Police Officer",
+      "description": "Posted: 09/02/2026 Location: Georgia College & State Univ Department: Public Safety Police Officer",
+      "department": "Public Safety"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=297021&PostingSeq=1&SiteId=36000": {
+      "title": "Student Assistant - Program Facilitator",
+      "description": "Posted: 09/02/2026 Location: Georgia College & State Univ Department: Academic Engagement Student Assistant - Program Facilitator",
+      "department": "Academic Engagement"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302443&PostingSeq=1&SiteId=36000": {
+      "title": "Custodian I Day Shift",
+      "description": "Posted: 09/01/2026 Location: Georgia College & State Univ Department: Building Services Custodian I Day Shift",
+      "department": "Building Services"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303196&PostingSeq=1&SiteId=36000": {
+      "title": "Department Chair of Chemistry, Physics & Mathematics",
+      "description": "Posted: 09/01/2026 Location: Georgia College & State Univ Department: Chemistry, Physics & Mathemati Department Chair of Chemistry, Physics & Mathematics",
+      "department": "Chemistry, Physics & Mathemati"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303106&PostingSeq=1&SiteId=36000": {
+      "title": "Lecturer - Department of Communications",
+      "description": "Posted: 09/01/2026 Location: Georgia College & State Univ Department: Department of Communication Lecturer - Department of Communications",
+      "department": "Department of Communication"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302985&PostingSeq=1&SiteId=36000": {
+      "title": "Lecturer in Mathematics",
+      "description": "Posted: 09/01/2026 Location: Georgia College & State Univ Department: Chemistry, Physics & Mathemati Lecturer in Mathematics",
+      "department": "Chemistry, Physics & Mathemati"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303126&PostingSeq=1&SiteId=36000": {
+      "title": "Lecturer in Physics",
+      "description": "Posted: 09/01/2026 Location: Georgia College & State Univ Department: Chemistry, Physics & Mathemati Lecturer in Physics",
+      "department": "Chemistry, Physics & Mathemati"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303102&PostingSeq=1&SiteId=36000": {
+      "title": "Lifeguard",
+      "description": "Posted: 09/01/2026 Location: Georgia College & State Univ Department: Production Svcs-General Lifeguard",
+      "department": "Production Svcs-General"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303041&PostingSeq=1&SiteId=36000": {
+      "title": "Student Assistant - Tour Guide",
+      "description": "Posted: 09/01/2026 Location: Georgia College & State Univ Department: Admissions Student Assistant - Tour Guide",
+      "department": "Admissions"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302762&PostingSeq=1&SiteId=36000": {
+      "title": "Student Assistant- Office of Student Engagement",
+      "description": "Posted: 09/01/2026 Location: Georgia College & State Univ Department: Dept of Campus Life Student Assistant- Office of Student Engagement",
+      "department": "Dept of Campus Life"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=296853&PostingSeq=1&SiteId=36000": {
+      "title": "GC THRIVE Peer Mentor",
+      "description": "Posted: 08/28/2026 Location: Georgia College & State Univ Department: Teacher Education GC THRIVE Peer Mentor",
+      "department": "Teacher Education"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302948&PostingSeq=1&SiteId=36000": {
+      "title": "Admissions Counselor",
+      "description": "Posted: 08/27/2026 Location: Georgia College & State Univ Department: Admissions Admissions Counselor",
+      "department": "Admissions"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=298428&PostingSeq=1&SiteId=36000": {
+      "title": "Custodian Lead",
+      "description": "Posted: 08/24/2026 Location: Georgia College & State Univ Department: Building Services Custodian Lead",
+      "department": "Building Services"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302481&PostingSeq=1&SiteId=36000": {
+      "title": "Graduate Admissions CRM Coordinator - Communications & Outreach",
+      "description": "Posted: 08/20/2026 Location: Georgia College & State Univ Department: Graduate Admissions Graduate Admissions CRM Coordinator - Communications & Outreach",
+      "department": "Graduate Admissions"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302483&PostingSeq=1&SiteId=36000": {
+      "title": "Graduate Admissions CRM Coordinator - Processing",
+      "description": "Posted: 08/20/2026 Location: Georgia College & State Univ Department: Graduate Admissions Graduate Admissions CRM Coordinator - Processing",
+      "department": "Graduate Admissions"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=301070&PostingSeq=1&SiteId=36000": {
+      "title": "Department Chair, Management, Marketing and Logistics",
+      "description": "Posted: 08/19/2026 Location: Georgia College & State Univ Department: Management, Marketing & Logist Department Chair, Management, Marketing and Logistics",
+      "department": "Management, Marketing & Logist"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=296544&PostingSeq=1&SiteId=36000": {
+      "title": "Intramural Student Assistant",
+      "description": "Posted: 08/19/2026 Location: Georgia College & State Univ Department: Wellness/Rec Programs Intramural Student Assistant",
+      "department": "Wellness/Rec Programs"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=300706&PostingSeq=1&SiteId=36000": {
+      "title": "Exercise Science Limited Term Lecturer",
+      "description": "Posted: 08/17/2026 Location: Georgia College & State Univ Department: Health & Human Performance Exercise Science Limited Term Lecturer",
+      "department": "Health & Human Performance"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=300312&PostingSeq=1&SiteId=36000": {
+      "title": "Painter I",
+      "description": "Posted: 08/17/2026 Location: Georgia College & State Univ Department: Construction Painter I",
+      "department": "Construction"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302456&PostingSeq=1&SiteId=36000": {
+      "title": "Student Assistant - Admissions",
+      "description": "Posted: 08/17/2026 Location: Georgia College & State Univ Department: Admissions Student Assistant - Admissions",
+      "department": "Admissions"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=297352&PostingSeq=1&SiteId=36000": {
+      "title": "Utility Locate Technician",
+      "description": "Posted: 08/17/2026 Location: Georgia College & State Univ Department: Operations & Maintenance Utility Locate Technician",
+      "department": "Operations & Maintenance"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302356&PostingSeq=1&SiteId=36000": {
+      "title": "Limited Term Faculty - Nursing",
+      "description": "Posted: 08/14/2026 Location: Georgia College & State Univ Department: Nursing Program Operations Limited Term Faculty - Nursing",
+      "department": "Nursing Program Operations"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=301979&PostingSeq=1&SiteId=36000": {
+      "title": "Community Outreach & Development Specialist",
+      "description": "Posted: 08/04/2026 Location: Georgia College & State Univ Department: Sandra Deal Center Community Outreach & Development Specialist",
+      "department": "Sandra Deal Center"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=296119&PostingSeq=1&SiteId=36000": {
+      "title": "Groundskeeper II",
+      "description": "Posted: 08/01/2026 Location: Georgia College & State Univ Department: Landscape & Ground Maintenance Groundskeeper II",
+      "department": "Landscape & Ground Maintenance"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=301166&PostingSeq=1&SiteId=36000": {
+      "title": "Standardized Patient - Casual Labor",
+      "description": "Posted: 07/27/2026 Location: Georgia College & State Univ Department: Nursing Lab Materials Graduate Standardized Patient - Casual Labor",
+      "department": "Nursing Lab Materials Graduate"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=299172&PostingSeq=1&SiteId=36000": {
+      "title": "Assistant Professor - Special Education",
+      "description": "Posted: 07/16/2026 Location: Georgia College & State Univ Department: Teacher Education Assistant Professor - Special Education",
+      "department": "Teacher Education"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=300626&PostingSeq=1&SiteId=36000": {
+      "title": "Graduate Assistant - College of Education: Professional Learning & Innovation",
+      "description": "Posted: 07/10/2026 Location: Georgia College & State Univ Department: Graduate Studies Graduate Assistant - College of Education: Professional Learning & Innovation",
+      "department": "Graduate Studies"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=299370&PostingSeq=1&SiteId=36000": {
+      "title": "Student Assistant - Production Services",
+      "description": "Posted: 06/04/2026 Location: Georgia College & State Univ Department: Production Svcs-S/S Student Assistant - Production Services",
+      "department": "Production Svcs-S/S"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=299371&PostingSeq=1&SiteId=36000": {
+      "title": "Student Assistant - Facilities Reservations",
+      "description": "Posted: 06/03/2026 Location: Georgia College & State Univ Department: Facility Reservations Student Assistant - Facilities Reservations",
+      "department": "Facility Reservations"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=299056&PostingSeq=1&SiteId=36000": {
+      "title": "Sports Info Student Worker",
+      "description": "Posted: 06/01/2026 Location: Georgia College & State Univ Department: Sports Information Sports Info Student Worker",
+      "department": "Sports Information"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=285908&PostingSeq=1&SiteId=36000": {
+      "title": "Part-Time Instructor Music",
+      "description": "Posted: 05/12/2026 Location: Georgia College & State Univ Department: Dean-Arts & Sciences Part-Time Instructor Music",
+      "department": "Dean-Arts & Sciences"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=296914&PostingSeq=1&SiteId=36000": {
+      "title": "Casual Labor - Group Leader-High Achievers Program",
+      "description": "Posted: 04/16/2026 Location: Georgia College & State Univ Department: Continuing Education-General Casual Labor - Group Leader-High Achievers Program",
+      "department": "Continuing Education-General"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=296701&PostingSeq=1&SiteId=36000": {
+      "title": "Student Assistant - Afterschool Achievement",
+      "description": "Posted: 04/14/2026 Location: Georgia College & State Univ Department: Continuing Education-General Student Assistant - Afterschool Achievement",
+      "department": "Continuing Education-General"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=296839&PostingSeq=1&SiteId=36000": {
+      "title": "Student Assistant - Montessori",
+      "description": "Posted: 04/10/2026 Location: Georgia College & State Univ Department: Montessori Childcare Center Student Assistant - Montessori",
+      "department": "Montessori Childcare Center"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=296697&PostingSeq=1&SiteId=36000": {
+      "title": "YES Program: Afterschool Teaching Parapro at Oak Hill Middle School",
+      "description": "Posted: 04/06/2026 Location: Georgia College & State Univ Department: School Cont & Prof Studies YES Program: Afterschool Teaching Parapro at Oak Hill Middle School",
+      "department": "School Cont & Prof Studies"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=296699&PostingSeq=1&SiteId=36000": {
+      "title": "YES Program: Afterschool Teaching Paraprofessional at Lakeview Academy",
+      "description": "Posted: 04/06/2026 Location: Georgia College & State Univ Department: School Cont & Prof Studies YES Program: Afterschool Teaching Paraprofessional at Lakeview Academy",
+      "department": "School Cont & Prof Studies"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=296695&PostingSeq=1&SiteId=36000": {
+      "title": "YES Program: Certfied Afterschool Teacher at Lakeview Academy",
+      "description": "Posted: 04/06/2026 Location: Georgia College & State Univ Department: School Cont & Prof Studies YES Program: Certfied Afterschool Teacher at Lakeview Academy",
+      "department": "School Cont & Prof Studies"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=296694&PostingSeq=1&SiteId=36000": {
+      "title": "YES Program: Certified Afterschool Teacher at OHMS",
+      "description": "Posted: 04/06/2026 Location: Georgia College & State Univ Department: School Cont & Prof Studies YES Program: Certified Afterschool Teacher at OHMS",
+      "department": "School Cont & Prof Studies"
+    }
+  },
+  "rows": {
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303426&PostingSeq=1&SiteId=36000": {
+      "school_id": 305,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303426&PostingSeq=1&SiteId=36000",
+      "job_title_in_post": "Lecturer",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "Accounting & Business Law",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302426&PostingSeq=1&SiteId=36000": {
+      "school_id": 305,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302426&PostingSeq=1&SiteId=36000",
+      "job_title_in_post": "Deal Center Tutoring Assistant",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Sandra Deal Center",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303449&PostingSeq=1&SiteId=36000": {
+      "school_id": 305,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303449&PostingSeq=1&SiteId=36000",
+      "job_title_in_post": "Lecturer of Psychology",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "Psychology",
+      "area_key_words": "Psychology",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303366&PostingSeq=1&SiteId=36000": {
+      "school_id": 305,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303366&PostingSeq=1&SiteId=36000",
+      "job_title_in_post": "Limited Term Faculty",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Department of Communication",
+      "area_key_words": "Limited Term",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302008&PostingSeq=1&SiteId=36000": {
+      "school_id": 305,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302008&PostingSeq=1&SiteId=36000",
+      "job_title_in_post": "Multimedia Producer I",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "University Communications",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=301244&PostingSeq=1&SiteId=36000": {
+      "school_id": 305,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=301244&PostingSeq=1&SiteId=36000",
+      "job_title_in_post": "Custodian I Night Shift",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Building Services",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303348&PostingSeq=1&SiteId=36000": {
+      "school_id": 305,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303348&PostingSeq=1&SiteId=36000",
+      "job_title_in_post": "Outdoor Center Student Assistant",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Outdoor Center S/S",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303283&PostingSeq=1&SiteId=36000": {
+      "school_id": 305,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303283&PostingSeq=1&SiteId=36000",
+      "job_title_in_post": "Assistant Professor of Mathematics",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Chemistry, Physics & Mathemati",
+      "area_key_words": "Mathematics",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303195&PostingSeq=1&SiteId=36000": {
+      "school_id": 305,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303195&PostingSeq=1&SiteId=36000",
+      "job_title_in_post": "Department Chair of Communication",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Department of Communication",
+      "area_key_words": "Communication",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302928&PostingSeq=1&SiteId=36000": {
+      "school_id": 305,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302928&PostingSeq=1&SiteId=36000",
+      "job_title_in_post": "Federal Work Study Student -  Office of Community Engagement and Belonging",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "C W S P",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303318&PostingSeq=1&SiteId=36000": {
+      "school_id": 305,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303318&PostingSeq=1&SiteId=36000",
+      "job_title_in_post": "Global Education Center--Student Assistant 2026",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "International Education Center",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303099&PostingSeq=1&SiteId=36000": {
+      "school_id": 305,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303099&PostingSeq=1&SiteId=36000",
+      "job_title_in_post": "Graduate Assistant - College of Education - Dean's Office",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Graduate Studies",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303294&PostingSeq=1&SiteId=36000": {
+      "school_id": 305,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303294&PostingSeq=1&SiteId=36000",
+      "job_title_in_post": "Assistant Professor",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Department of Communication",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302935&PostingSeq=1&SiteId=36000": {
+      "school_id": 305,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302935&PostingSeq=1&SiteId=36000",
+      "job_title_in_post": "Assistant Professor of Chemistry",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Chemistry, Physics & Mathemati",
+      "area_key_words": "Chemistry",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303203&PostingSeq=1&SiteId=36000": {
+      "school_id": 305,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303203&PostingSeq=1&SiteId=36000",
+      "job_title_in_post": "Financial Aid Advisor",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303327&PostingSeq=1&SiteId=36000": {
+      "school_id": 305,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303327&PostingSeq=1&SiteId=36000",
+      "job_title_in_post": "Police Officer",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Public Safety",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=297021&PostingSeq=1&SiteId=36000": {
+      "school_id": 305,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=297021&PostingSeq=1&SiteId=36000",
+      "job_title_in_post": "Student Assistant - Program Facilitator",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Academic Engagement",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302443&PostingSeq=1&SiteId=36000": {
+      "school_id": 305,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302443&PostingSeq=1&SiteId=36000",
+      "job_title_in_post": "Custodian I Day Shift",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Building Services",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303196&PostingSeq=1&SiteId=36000": {
+      "school_id": 305,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303196&PostingSeq=1&SiteId=36000",
+      "job_title_in_post": "Department Chair of Chemistry, Physics & Mathematics",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Chemistry, Physics & Mathemati",
+      "area_key_words": "Chemistry, Physics & Mathematics",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303106&PostingSeq=1&SiteId=36000": {
+      "school_id": 305,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303106&PostingSeq=1&SiteId=36000",
+      "job_title_in_post": "Lecturer - Department of Communications",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "Department of Communication",
+      "area_key_words": "Department of Communications",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302985&PostingSeq=1&SiteId=36000": {
+      "school_id": 305,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302985&PostingSeq=1&SiteId=36000",
+      "job_title_in_post": "Lecturer in Mathematics",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "Chemistry, Physics & Mathemati",
+      "area_key_words": "Mathematics",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303126&PostingSeq=1&SiteId=36000": {
+      "school_id": 305,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303126&PostingSeq=1&SiteId=36000",
+      "job_title_in_post": "Lecturer in Physics",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "Chemistry, Physics & Mathemati",
+      "area_key_words": "Physics",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303102&PostingSeq=1&SiteId=36000": {
+      "school_id": 305,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303102&PostingSeq=1&SiteId=36000",
+      "job_title_in_post": "Lifeguard",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Production Svcs-General",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303041&PostingSeq=1&SiteId=36000": {
+      "school_id": 305,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303041&PostingSeq=1&SiteId=36000",
+      "job_title_in_post": "Student Assistant - Tour Guide",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Admissions",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302762&PostingSeq=1&SiteId=36000": {
+      "school_id": 305,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302762&PostingSeq=1&SiteId=36000",
+      "job_title_in_post": "Student Assistant- Office of Student Engagement",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Dept of Campus Life",
+      "area_key_words": "Student Engagement",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=296853&PostingSeq=1&SiteId=36000": {
+      "school_id": 305,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=296853&PostingSeq=1&SiteId=36000",
+      "job_title_in_post": "GC THRIVE Peer Mentor",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Teacher Education",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302948&PostingSeq=1&SiteId=36000": {
+      "school_id": 305,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302948&PostingSeq=1&SiteId=36000",
+      "job_title_in_post": "Admissions Counselor",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Admissions",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=298428&PostingSeq=1&SiteId=36000": {
+      "school_id": 305,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=298428&PostingSeq=1&SiteId=36000",
+      "job_title_in_post": "Custodian Lead",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Building Services",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302481&PostingSeq=1&SiteId=36000": {
+      "school_id": 305,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302481&PostingSeq=1&SiteId=36000",
+      "job_title_in_post": "Graduate Admissions CRM Coordinator - Communications & Outreach",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "Graduate Admissions",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302483&PostingSeq=1&SiteId=36000": {
+      "school_id": 305,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302483&PostingSeq=1&SiteId=36000",
+      "job_title_in_post": "Graduate Admissions CRM Coordinator - Processing",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "Graduate Admissions",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=301070&PostingSeq=1&SiteId=36000": {
+      "school_id": 305,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=301070&PostingSeq=1&SiteId=36000",
+      "job_title_in_post": "Department Chair, Management, Marketing and Logistics",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Management, Marketing & Logist",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=296544&PostingSeq=1&SiteId=36000": {
+      "school_id": 305,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=296544&PostingSeq=1&SiteId=36000",
+      "job_title_in_post": "Intramural Student Assistant",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Wellness/Rec Programs",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=300706&PostingSeq=1&SiteId=36000": {
+      "school_id": 305,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=300706&PostingSeq=1&SiteId=36000",
+      "job_title_in_post": "Exercise Science Limited Term Lecturer",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "Health & Human Performance",
+      "area_key_words": "Exercise Science Limited Term",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=300312&PostingSeq=1&SiteId=36000": {
+      "school_id": 305,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=300312&PostingSeq=1&SiteId=36000",
+      "job_title_in_post": "Painter I",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Construction",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302456&PostingSeq=1&SiteId=36000": {
+      "school_id": 305,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302456&PostingSeq=1&SiteId=36000",
+      "job_title_in_post": "Student Assistant - Admissions",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Admissions",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=297352&PostingSeq=1&SiteId=36000": {
+      "school_id": 305,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=297352&PostingSeq=1&SiteId=36000",
+      "job_title_in_post": "Utility Locate Technician",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "Operations & Maintenance",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302356&PostingSeq=1&SiteId=36000": {
+      "school_id": 305,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302356&PostingSeq=1&SiteId=36000",
+      "job_title_in_post": "Limited Term Faculty - Nursing",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Nursing Program Operations",
+      "area_key_words": "Limited Term",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=301979&PostingSeq=1&SiteId=36000": {
+      "school_id": 305,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=301979&PostingSeq=1&SiteId=36000",
+      "job_title_in_post": "Community Outreach & Development Specialist",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "Sandra Deal Center",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=296119&PostingSeq=1&SiteId=36000": {
+      "school_id": 305,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=296119&PostingSeq=1&SiteId=36000",
+      "job_title_in_post": "Groundskeeper II",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Landscape & Ground Maintenance",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=301166&PostingSeq=1&SiteId=36000": {
+      "school_id": 305,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=301166&PostingSeq=1&SiteId=36000",
+      "job_title_in_post": "Standardized Patient - Casual Labor",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Nursing Lab Materials Graduate",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=299172&PostingSeq=1&SiteId=36000": {
+      "school_id": 305,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=299172&PostingSeq=1&SiteId=36000",
+      "job_title_in_post": "Assistant Professor - Special Education",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Teacher Education",
+      "area_key_words": "Special Education",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=300626&PostingSeq=1&SiteId=36000": {
+      "school_id": 305,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=300626&PostingSeq=1&SiteId=36000",
+      "job_title_in_post": "Graduate Assistant - College of Education: Professional Learning & Innovation",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Graduate Studies",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=299370&PostingSeq=1&SiteId=36000": {
+      "school_id": 305,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=299370&PostingSeq=1&SiteId=36000",
+      "job_title_in_post": "Student Assistant - Production Services",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Production Svcs-S/S",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=299371&PostingSeq=1&SiteId=36000": {
+      "school_id": 305,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=299371&PostingSeq=1&SiteId=36000",
+      "job_title_in_post": "Student Assistant - Facilities Reservations",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Facility Reservations",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=299056&PostingSeq=1&SiteId=36000": {
+      "school_id": 305,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=299056&PostingSeq=1&SiteId=36000",
+      "job_title_in_post": "Sports Info Student Worker",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Sports Information",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=285908&PostingSeq=1&SiteId=36000": {
+      "school_id": 305,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=285908&PostingSeq=1&SiteId=36000",
+      "job_title_in_post": "Part-Time Instructor Music",
+      "position_type": "Unclassified",
+      "job_term": "Part-time",
+      "department_or_school": "Dean-Arts & Sciences",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=296914&PostingSeq=1&SiteId=36000": {
+      "school_id": 305,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=296914&PostingSeq=1&SiteId=36000",
+      "job_title_in_post": "Casual Labor - Group Leader-High Achievers Program",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Continuing Education-General",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=296701&PostingSeq=1&SiteId=36000": {
+      "school_id": 305,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=296701&PostingSeq=1&SiteId=36000",
+      "job_title_in_post": "Student Assistant - Afterschool Achievement",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Continuing Education-General",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=296839&PostingSeq=1&SiteId=36000": {
+      "school_id": 305,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=296839&PostingSeq=1&SiteId=36000",
+      "job_title_in_post": "Student Assistant - Montessori",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Montessori Childcare Center",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=296697&PostingSeq=1&SiteId=36000": {
+      "school_id": 305,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=296697&PostingSeq=1&SiteId=36000",
+      "job_title_in_post": "YES Program: Afterschool Teaching Parapro at Oak Hill Middle School",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "School Cont & Prof Studies",
+      "area_key_words": "Parapro",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=296699&PostingSeq=1&SiteId=36000": {
+      "school_id": 305,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=296699&PostingSeq=1&SiteId=36000",
+      "job_title_in_post": "YES Program: Afterschool Teaching Paraprofessional at Lakeview Academy",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "School Cont & Prof Studies",
+      "area_key_words": "Paraprofessional",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=296695&PostingSeq=1&SiteId=36000": {
+      "school_id": 305,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=296695&PostingSeq=1&SiteId=36000",
+      "job_title_in_post": "YES Program: Certfied Afterschool Teacher at Lakeview Academy",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "School Cont & Prof Studies",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=296694&PostingSeq=1&SiteId=36000": {
+      "school_id": 305,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=296694&PostingSeq=1&SiteId=36000",
+      "job_title_in_post": "YES Program: Certified Afterschool Teacher at OHMS",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "School Cont & Prof Studies",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    }
+  },
   "school_id": 305,
   "status": "complete",
-  "updated_at": "2026-09-05T03:20:14+00:00",
-  "completed_at": "2026-09-05T03:20:14+00:00",
+  "updated_at": "2026-09-09T05:21:42+00:00",
+  "completed_at": "2026-09-09T05:21:42+00:00",
   "last_error": ""
 }

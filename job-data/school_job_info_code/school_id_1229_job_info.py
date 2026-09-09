@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1229
 SCHOOL_NAME = 'Inter American University of Puerto Rico-Aguadilla'
-CAREERS_LINK = 'https://iaupr.elluciancrmrecruit.com/Apply/'
+CAREERS_LINK = 'http://www.inter.edu/about-us/empleos-3/'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

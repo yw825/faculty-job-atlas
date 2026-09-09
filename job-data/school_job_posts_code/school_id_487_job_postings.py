@@ -31,7 +31,7 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 487
 SCHOOL_NAME = 'Lindsey Wilson College'
-CAREERS_LINK = 'https://lindsey.elluciancrmrecruit.com/Apply/Account/Create'
+CAREERS_LINK = 'https://www.lindsey.edu/about-lwc/Offices-and-Services/Human-Resources/job-opportunities.cfm'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')

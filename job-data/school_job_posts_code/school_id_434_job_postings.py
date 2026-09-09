@@ -31,7 +31,7 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 434
 SCHOOL_NAME = 'Marian University'
-CAREERS_LINK = 'https://marian.elluciancrmrecruit.com/Apply/Account/Create?f=a0ee650e-16a5-4b95-b901-c5b3f4d00dd4&o=a3e67df5-dead-4937-a82d-f42c212e56d1&IsInquiry=True'
+CAREERS_LINK = 'https://www.marian.edu/human-resources/index.php'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')

@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 240
 SCHOOL_NAME = 'University of Fort Lauderdale'
-CAREERS_LINK = 'https://uftlathletics.com/sports/2021/6/23/recruiting-questionnaire.aspx'
+CAREERS_LINK = 'https://uftl.edu/careers'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

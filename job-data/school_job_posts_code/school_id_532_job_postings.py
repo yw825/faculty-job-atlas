@@ -31,7 +31,7 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 532
 SCHOOL_NAME = 'University of Massachusetts-Amherst'
-CAREERS_LINK = 'https://umassamherst.dc4.pageuppeople.com/'
+CAREERS_LINK = 'https://www.umass.edu/careers'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')

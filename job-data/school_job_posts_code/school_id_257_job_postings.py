@@ -22,16 +22,25 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 257
 SCHOOL_NAME = 'Flagler College'
-CAREERS_LINK = 'https://fa-ewbi-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1'
+CAREERS_LINK = 'https://www.flagler.edu/about/office-services/human-resources'
 ATS_PLATFORM = 'Oracle Cloud HCM'
-PLATFORM = 'oracle'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
+def find_links():
+    """Generic: this school's careers_link was rediscovered from its
+    homepage, so the platform pinned in the old script no longer applies."""
+    html = lib.fetch_rendered(CAREERS_LINK)
+    if lib.is_fetch_failure(html):
+        raise RuntimeError(html)
+    return lib.extract_links(html, CAREERS_LINK,
+                             href_pattern=lib.COMMON_JOB_URL_HINTS,
+                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+
+
 def main():
-    result = lib.run_platform_school(SCHOOL_ID, SCHOOL_NAME, CAREERS_LINK,
-                                     CHECKPOINT_PATH, platform=PLATFORM)
+    result = lib.run_checkpointed(SCHOOL_ID, CHECKPOINT_PATH, find_links)
     err = result.get('last_error', '')
     print(f"{SCHOOL_NAME} (id={SCHOOL_ID}): status={result['status']} "
           f"links={len(result['links'])}" + (f" ERROR: {err}" if err else ''))

@@ -33,7 +33,7 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1045
 SCHOOL_NAME = 'Wright State University-Main Campus'
-CAREERS_LINK = '#VALUE!'
+CAREERS_LINK = 'https://www.wright.edu/human-resources'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')

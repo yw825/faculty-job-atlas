@@ -31,7 +31,7 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 353
 SCHOOL_NAME = 'Briar Cliff University'
-CAREERS_LINK = 'https://Briarcliff.elluciancrmrecruit.com/Apply/Account/ProspectInquiry?f=9b05884a-c1c6-4c53-a445-22ac49ba3594&o=538fedc1-2f8d-4f30-89b1-d13415d0429c'
+CAREERS_LINK = 'https://www.briarcliff.edu/about/our-employees/careers'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')

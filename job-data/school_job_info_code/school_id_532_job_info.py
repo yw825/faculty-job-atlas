@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 532
 SCHOOL_NAME = 'University of Massachusetts-Amherst'
-CAREERS_LINK = 'https://umassamherst.dc4.pageuppeople.com/'
+CAREERS_LINK = 'https://www.umass.edu/careers'
 ATS_PLATFORM = 'PageUp'
 USE_LLM = False
 

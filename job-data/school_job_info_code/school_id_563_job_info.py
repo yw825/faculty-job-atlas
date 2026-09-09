@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 563
 SCHOOL_NAME = 'Merrimack College'
-CAREERS_LINK = 'https://merrimack-advocate.symplicity.com/care_report/index.php/pid854103'
+CAREERS_LINK = 'https://www.merrimack.edu/about/offices_services/human_resources/employment_opportunities/'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

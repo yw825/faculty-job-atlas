@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 487
 SCHOOL_NAME = 'Lindsey Wilson College'
-CAREERS_LINK = 'https://lindsey.elluciancrmrecruit.com/Apply/Account/Create'
+CAREERS_LINK = 'https://www.lindsey.edu/about-lwc/Offices-and-Services/Human-Resources/job-opportunities.cfm'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

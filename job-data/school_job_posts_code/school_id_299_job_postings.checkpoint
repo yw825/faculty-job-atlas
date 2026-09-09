@@ -1,11 +1,8 @@
 {
-  "links": [
-    "https://careers.hprod.onehcm.usg.edu/psp/careers/?cmd=login&languageCd=ENG"
-  ],
+  "links": [],
   "school_id": 299,
-  "status": "complete",
-  "updated_at": "2026-09-08T01:31:42+00:00",
-  "started_at": "2026-09-08T01:31:39+00:00",
-  "completed_at": "2026-09-08T01:31:42+00:00",
-  "last_error": ""
+  "status": "error",
+  "updated_at": "2026-09-09T05:15:26+00:00",
+  "started_at": "2026-09-09T05:13:07+00:00",
+  "last_error": "RuntimeError: PeopleSoft careers page returned no job rows"
 }

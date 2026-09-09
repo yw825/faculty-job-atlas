@@ -31,7 +31,7 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 563
 SCHOOL_NAME = 'Merrimack College'
-CAREERS_LINK = 'https://merrimack-advocate.symplicity.com/care_report/index.php/pid854103'
+CAREERS_LINK = 'https://www.merrimack.edu/about/offices_services/human_resources/employment_opportunities/'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')

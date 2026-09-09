@@ -31,7 +31,7 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 665
 SCHOOL_NAME = 'Eastern Michigan University'
-CAREERS_LINK = 'https://secure.dc4.pageuppeople.com/apply/1092/aw/applicationForm/default.asp'
+CAREERS_LINK = 'https://careers.emich.edu/jobs/search'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')

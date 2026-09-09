@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1245
 SCHOOL_NAME = 'Inter American University of Puerto Rico-Guayama'
-CAREERS_LINK = 'https://iaupr.elluciancrmrecruit.com/Apply'
+CAREERS_LINK = 'https://www.inter.edu/conocenos/empleos-3/'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

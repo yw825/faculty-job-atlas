@@ -339,6 +339,8 @@ def detect_platform(url):
     # DirectEmployers network boards all sit on a bare *.jobs domain
     if host.endswith('.jobs'):
         return 'dejobs'
+    if 'HRS_HRAM_FL' in url or 'onehcm.usg.edu' in host:
+        return 'peoplesoft'
     if 'apply.interfolio.com' in host:
         return 'interfolio'
     if 'paycomonline.net' in host:
@@ -1239,6 +1241,119 @@ def scrape_interfolio(url):
     return links
 
 
+
+def _parse_peoplesoft_rows(text):
+    """Rows out of the results pane's text.
+
+    Parsed field by field rather than as one fixed shape: tenants differ in  in
+    which labelled lines they render. Coastal Georgia emits "Job Family"
+    and "Close Date" lines between Department and Posted Date, which a
+    fixed five-line pattern rejects outright -- it returned zero rows on a
+    page holding 57 jobs."""
+    rows = []
+    chunks = re.split(r'\nJob ID', text)
+    for i in range(1, len(chunks)):
+        head = chunks[i - 1].rstrip().split('\n')
+        title = head[-1].strip() if head else ''
+        chunk = chunks[i]
+        m = re.match(r'\s*(\d+)', chunk)
+        if not m or not title:
+            continue
+        job_id = m.group(1)
+
+        def field(label):
+            fm = re.search(rf'\n{label}([^\n]*)', chunk)
+            return (fm.group(1).strip().replace('\xa0', '') if fm else '')
+
+        rows.append((title, job_id, field('Location'), field('Department'),
+                     field('Posted Date')))
+    return rows
+
+
+def peoplesoft_rows(url):
+    """[(title, job_id, location, department, posted)] for a PeopleSoft
+    Fluid careers site.
+
+    These sites (the Georgia system's shared board, and CWU's own) show
+    nothing until "View All Jobs" is clicked, and then load results by
+    infinite scroll -- so a plain fetch returns 0 postings against
+    Georgia Southern's 195. Everything the info CSV needs except the
+    description is already in the results rows, so they are read there
+    rather than by visiting each posting: the detail pages are bound to a
+    PeopleSoft session and a deep link to one renders only the search
+    scaffolding."""
+    b = get_browser()
+    if b is None:
+        raise RuntimeError('playwright unavailable')
+    page = b.new_page(user_agent=UA)
+    try:
+        page.goto(url, timeout=45000, wait_until='domcontentloaded')
+        page.wait_for_timeout(6000)
+        try:
+            page.click('a:has-text("View All Jobs")', timeout=15000)
+        except Exception:
+            pass                      # some tenants land on results already
+        page.wait_for_timeout(9000)
+        # Scroll until the count is BOTH non-zero and stable for three
+        # consecutive checks. Breaking on an unchanged count alone stopped
+        # at zero whenever the rows had not rendered yet -- which is what
+        # made five Georgia schools fail in a batch run while each worked
+        # when run on its own -- and stopped early at a partial 50 on
+        # tenants that load in pages.
+        expected, seen, stable = None, 0, 0
+        for _i in range(60):
+            body = page.inner_text('body')
+            if expected is None:
+                m = re.search(r'([\d,]+) jobs? found', body)
+                if m:
+                    expected = int(m.group(1).replace(',', ''))
+            n = len(set(re.findall(r'Job ID(\d+)', body)))
+            if expected and n >= expected:
+                break
+            stable = stable + 1 if (n == seen and n > 0) else 0
+            if stable >= 3:
+                break
+            seen = n
+            # Scroll the RESULTS CONTAINER, not the window: PeopleSoft
+            # Fluid renders the list in its own scrollable div, so wheel
+            # events on the page never reach it and the list stops at its
+            # first 50 -- CWU held 99 jobs and returned exactly 50.
+            try:
+                page.evaluate('''() => {
+                    document.querySelectorAll('*').forEach(e => {
+                        if (e.scrollHeight > e.clientHeight + 50) {
+                            e.scrollTop = e.scrollHeight;
+                        }
+                    });
+                }''')
+            except Exception:
+                pass
+            page.mouse.wheel(0, 20000)
+            page.wait_for_timeout(1800)
+        text = page.inner_text('body')
+    finally:
+        page.close()
+    rows = _parse_peoplesoft_rows(text)
+    if not rows:
+        raise RuntimeError('PeopleSoft careers page returned no job rows')
+    return rows
+
+
+def peoplesoft_posting_url(careers_link, job_id):
+    from urllib.parse import urlsplit, parse_qs
+    parts = urlsplit(careers_link)
+    site = (parse_qs(parts.query).get('SiteId') or [''])[0]
+    base = f'https://{parts.netloc}{parts.path}'
+    q = f'?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId={job_id}&PostingSeq=1'
+    if site:
+        q += f'&SiteId={site}'
+    return base + q
+
+
+def scrape_peoplesoft(url):
+    return [peoplesoft_posting_url(url, jid) for _t, jid, _l, _d, _p in peoplesoft_rows(url)]
+
+
 PLATFORM_ADAPTERS = {
     'workday': lambda url, name: scrape_workday(url, school_name=name),
     'corehr': lambda url, name: scrape_corehr(url),
@@ -1255,6 +1370,7 @@ PLATFORM_ADAPTERS = {
     'ucrecruit': lambda url, name: scrape_ucrecruit(url),
     'paycom': lambda url, name: scrape_paycom(url),
     'interfolio': lambda url, name: scrape_interfolio(url),
+    'peoplesoft': lambda url, name: scrape_peoplesoft(url),
     'apella': lambda url, name: scrape_apella(url, name),
     'poland_nauka': lambda url, name: scrape_poland_nauka(url, name),
 }

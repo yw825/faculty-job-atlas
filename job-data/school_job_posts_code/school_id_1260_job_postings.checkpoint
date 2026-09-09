@@ -1,9 +1,18 @@
 {
-  "links": [],
+  "links": [
+    "https://metro.inter.edu/oferta/?programa=online",
+    "https://metro.inter.edu/oferta/?programa=carreras-tecnicas",
+    "https://metro.inter.edu/oferta/?programa=grados-asociados",
+    "https://metro.inter.edu/oferta/?programa=bachilleratos",
+    "https://metro.inter.edu/oferta/?programa=maestrias",
+    "https://metro.inter.edu/oferta/?programa=doctorados",
+    "https://metro.inter.edu/oferta/?programa=certificados-profesionales",
+    "https://metro.inter.edu/oferta/?programa=concentraciones-menores"
+  ],
   "school_id": 1260,
   "status": "complete",
-  "updated_at": "2026-09-08T02:57:37+00:00",
-  "started_at": "2026-09-08T02:57:34+00:00",
-  "completed_at": "2026-09-08T02:57:37+00:00",
+  "updated_at": "2026-09-09T05:17:38+00:00",
+  "started_at": "2026-09-09T05:17:26+00:00",
+  "completed_at": "2026-09-09T05:17:38+00:00",
   "last_error": ""
 }

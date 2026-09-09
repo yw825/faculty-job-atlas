@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 659
 SCHOOL_NAME = 'Lake Superior State University'
-CAREERS_LINK = 'https://lssu.elluciancrmrecruit.com/Apply/Account/Create?f=74d097fd-e977-4014-8c74-57ea15a7d036&o=c32620df-99a6-4d73-825b-e072a3556b81&s=35d02c13-f240-e811-80d9-0a19abd13584&IsInquiry=True'
+CAREERS_LINK = 'https://jobs.lssu.edu/jobs/search'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

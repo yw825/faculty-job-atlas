@@ -31,7 +31,7 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 240
 SCHOOL_NAME = 'University of Fort Lauderdale'
-CAREERS_LINK = 'https://uftlathletics.com/sports/2021/6/23/recruiting-questionnaire.aspx'
+CAREERS_LINK = 'https://uftl.edu/careers'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')

@@ -105,6 +105,29 @@ def job_evidence(html, url):
 _ROOT_PATH_RE = re.compile(r'^/?(?:index\.(?:php|html?|aspx)|home|default\.aspx)?/?$', re.I)
 
 
+# A real careers page says so in its own path. Required as a final gate
+# because structure and posting-furniture together still admitted pages
+# that merely LINK to many things: a UTC blog post, Stony Brook's grad
+# school, Northwestern's mission statement, Whitman's "career-prep".
+_CAREERS_PATH_RE = re.compile(
+    r'career|job|employment|human.?resources|/hr/|vacanc|empleo|recursos', re.I)
+
+_NOT_CAREERS_PATH_RE = re.compile(
+    r'/blogs?/|/news/|/academics/|/grad/|career.(?:exploration|prep|planning|'
+    r'outcomes|services|center|readiness)|planning.your.career|'
+    r'professional-development|schools-colleges|mission-vision|'
+    r'what-to-do|summer-opportunit', re.I)
+
+
+def looks_like_careers_url(url):
+    """Final gate on an accepted page: its own path must name employment
+    and must not name the student-facing version of the same idea."""
+    path = urlsplit(url).path + ('?' + urlsplit(url).query if urlsplit(url).query else '')
+    if _NOT_CAREERS_PATH_RE.search(path):
+        return False
+    return bool(_CAREERS_PATH_RE.search(path))
+
+
 def plausible_candidate(url, base):
     """Reject a candidate before it is ever fetched.
 
@@ -206,7 +229,7 @@ def try_page(url):
             html = static_html
     except Exception:
         pass
-    if html:
+    if html and looks_like_careers_url(url):
         n_links, n_sections, groups = job_evidence(html, url)
         if accepted(n_links, n_sections):
             # Sections are their own evidence -- the postings are the page.
@@ -288,6 +311,8 @@ def main():
                             continue
                         html = lib.fetch_rendered(url, wait_ms=4000) or ''
                         if lib.is_fetch_failure(html):
+                            continue
+                        if not looks_like_careers_url(url):
                             continue
                         nl, ns, groups = job_evidence(html, url)
                         if accepted(nl, ns) and (ns >= 2 or

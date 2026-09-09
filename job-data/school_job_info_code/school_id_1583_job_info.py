@@ -30,7 +30,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1583
 SCHOOL_NAME = 'University of Wyoming'
-CAREERS_LINK = 'https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1'
+CAREERS_LINK = 'https://www.uwyo.edu/jobs'
 ATS_PLATFORM = 'Oracle Cloud HCM'
 USE_LLM = False
 
@@ -40,10 +40,15 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint
 
 
 
+def fetch_detail(url):
+    """Generic: careers_link was rediscovered, so the old platform's bulk
+    reader no longer applies."""
+    return jinfo.fetch_detail_generic(url)
+
+
 def main():
-    result = jinfo.run_school_job_info_bulk(SCHOOL_ID, CAREERS_LINK, 'oracle',
-                                            JOB_POSTINGS_CHECKPOINT, CHECKPOINT_PATH,
-                                            use_llm=USE_LLM)
+    result = jinfo.run_school_job_info(SCHOOL_ID, JOB_POSTINGS_CHECKPOINT, CHECKPOINT_PATH,
+                                       fetch_detail_fn=fetch_detail, use_llm=USE_LLM)
     err = result.get('last_error', '')
     n_ok = sum(1 for r in result['rows'].values() if 'error' not in r)
     print(f"{SCHOOL_NAME} (id={SCHOOL_ID}): status={result['status']} "

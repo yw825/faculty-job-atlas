@@ -1670,11 +1670,31 @@ def fetch_interfolio_bulk(careers_link):
     return out
 
 
+def fetch_peoplesoft_bulk(careers_link):
+    """{posting_url: (title, description, department)} for a PeopleSoft
+    Fluid careers site, read from the search results rows.
+
+    No per-posting fetch: a PeopleSoft detail page is bound to the search
+    session, so a deep link to one renders the search scaffolding and no
+    job text at all. The results rows carry title, department, location
+    and posted date, which is everything the CSV holds except the
+    description."""
+    out = {}
+    for title, job_id, location, dept, posted in jlib.peoplesoft_rows(careers_link):
+        url = jlib.peoplesoft_posting_url(careers_link, job_id)
+        bits = [f'Posted: {posted}' if posted else '',
+                f'Location: {location}' if location else '',
+                f'Department: {dept}' if dept else '', title]
+        out[url] = (title, ' '.join(b for b in bits if b), dept)
+    return out
+
+
 BULK_ADAPTERS = {
     'oracle': fetch_oracle_bulk,
     'smartrecruiters': fetch_smartrecruiters_bulk,
     'adp': fetch_adp_bulk,
     'interfolio': fetch_interfolio_bulk,
+    'peoplesoft': fetch_peoplesoft_bulk,
 }
 
 

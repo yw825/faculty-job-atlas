@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 665
 SCHOOL_NAME = 'Eastern Michigan University'
-CAREERS_LINK = 'https://secure.dc4.pageuppeople.com/apply/1092/aw/applicationForm/default.asp'
+CAREERS_LINK = 'https://careers.emich.edu/jobs/search'
 ATS_PLATFORM = 'PageUp'
 USE_LLM = False
 

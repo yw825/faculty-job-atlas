@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 304
 SCHOOL_NAME = 'Life University'
-CAREERS_LINK = 'https://life-csm.symplicity.com/employers/?signin_tab=0'
+CAREERS_LINK = 'https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=39C3B08FA765F09BC547D09C6AC939C8'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 
