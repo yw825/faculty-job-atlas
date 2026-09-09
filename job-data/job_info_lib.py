@@ -1481,7 +1481,8 @@ def fetch_detail_generic(url):
     # ("www.ucl.ac.uk") or "Just a moment...", so the block has to be
     # detected from the CONTENT, not the status. Where the URL carries the
     # title, that is better than what the page gave us.
-    if _BLOCK_PAGE_RE.search(description[:400]) or _looks_like_hostname(title):
+    if (not (title or '').strip() or _BLOCK_PAGE_RE.search(description[:400])
+            or _looks_like_hostname(title)):
         from_url = title_from_url(url)
         if from_url:
             return from_url, description
@@ -1528,6 +1529,22 @@ def title_from_url(url):
             v = unquote_plus(v).strip()
             if len(v) > 3:
                 return re.sub(r'\s+', ' ', v)
+
+    # Workday and several others put the title in the last PATH segment as
+    # a slug with the requisition appended:
+    # .../job/MacDonald-Harrington/Research-Assistant-1_JR0000079935
+    # McGill needs this -- its posting pages are a JS shell whose static
+    # text is empty and whose CXS detail call fails, so 88 of its 207 rows
+    # had no title at all.
+    segs = [x for x in urlsplit(url).path.split('/') if x]
+    if segs:
+        last = unquote_plus(segs[-1])
+        last = re.sub(r'_(?:JR|R|REQ)?[0-9A-Za-z]*\d{4,}[0-9A-Za-z]*$', '', last)
+        words = [w for w in last.replace('_', '-').split('-') if w]
+        if len(words) >= 2 and not all(w.isdigit() for w in words):
+            guess = ' '.join(words).strip()
+            if 3 < len(guess) < 120:
+                return guess
     return ''
 
 
