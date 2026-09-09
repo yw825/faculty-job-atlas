@@ -112,6 +112,11 @@ _JUNK_TITLE_RE = re.compile(
     r'^(?:careers?|jobs?|job details|job search|search jobs|all opportunities|'
     r'current (?:vacancies|openings)|vacancies|opportunities|page not found|404|error|'
     r'server error|access denied|forbidden|403 error|401 error|'
+    # Bot-protection interstitials, which answer 200 with their own title:
+    # Fraser Valley's postings all came back as "Radware Captcha Page".
+    r'.*captcha (?:page|challenge|verification|required).*|captcha|'
+    r'radware.*|just a moment.*|attention required.*|'
+    r'security check.*|checking your browser.*|one moment.*|'
     r'sign ?in.*|log ?in.*|.*applicant portal.*|home|about us|'
     r'people|results|search results.*|human resources office|view all jobs|self service|'
     r'.*privacy.*|.*accessibilit.*|\d+ gateway.*|we apologize.*|job opportunities|'
