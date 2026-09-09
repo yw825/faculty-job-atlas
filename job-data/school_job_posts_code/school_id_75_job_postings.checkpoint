@@ -1,15 +1,1 @@
-{
-  "links": [
-    "https://app.joinhandshake.com/login?_ga=2.113061952.535718192.1600818091-680758845.1600818091",
-    "https://woodbury.edu/student-life/student-support-services/about-career-services/",
-    "https://woodbury.edu/faculty",
-    "https://woodbury.edu/about/people/employment-opportunities/",
-    "https://woodbury.edu/about/people/faculty/"
-  ],
-  "school_id": 75,
-  "status": "complete",
-  "updated_at": "2026-09-08T01:13:39+00:00",
-  "started_at": "2026-09-08T01:13:36+00:00",
-  "completed_at": "2026-09-08T01:13:39+00:00",
-  "last_error": ""
-}
+{"links": ["https://woodbury.edu/student-life/student-support-services/about-career-services/"], "school_id": 75, "status": "complete", "updated_at": "2026-09-08T01:13:39+00:00", "started_at": "2026-09-08T01:13:36+00:00", "completed_at": "2026-09-08T01:13:39+00:00", "last_error": ""}

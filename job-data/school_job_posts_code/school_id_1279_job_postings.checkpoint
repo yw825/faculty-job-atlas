@@ -1,16 +1,1 @@
-{
-  "links": [
-    "https://jobs.cofc.edu/postings/search?;query=&query_v0_posted_at_date=&435=&query_organizational_tier_3_id=any&query_position_type_id=2&commit=Search",
-    "https://today.charleston.edu/faculty-staff/",
-    "https://charleston.edu/academic-affairs/faculty-administration-manual/index.php",
-    "https://charleston.edu/academic-affairs/faculty-careers.php",
-    "https://charleston.edu/academic-affairs/faculty-information/index.php",
-    "http://jobs.cofc.edu/"
-  ],
-  "school_id": 1279,
-  "status": "complete",
-  "updated_at": "2026-09-08T02:58:32+00:00",
-  "started_at": "2026-09-08T02:58:29+00:00",
-  "completed_at": "2026-09-08T02:58:32+00:00",
-  "last_error": ""
-}
+{"links": ["https://today.charleston.edu/faculty-staff/", "https://charleston.edu/academic-affairs/faculty-administration-manual/index.php", "https://charleston.edu/academic-affairs/faculty-information/index.php"], "school_id": 1279, "status": "complete", "updated_at": "2026-09-08T02:58:32+00:00", "started_at": "2026-09-08T02:58:29+00:00", "completed_at": "2026-09-08T02:58:32+00:00", "last_error": ""}

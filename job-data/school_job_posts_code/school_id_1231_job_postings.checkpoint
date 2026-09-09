@@ -1,14 +1,1 @@
-{
-  "links": [
-    "https://www.onetonline.org/",
-    "https://www.arecibo.inter.edu/solicitud_de_empleo",
-    "https://www.arecibo.inter.edu/igualdad_empleo_y_accion_afirmativa",
-    "https://www.inter.edu/about-us/empleos-3/?search_location=Recinto+de+Arecibo&job_categories&search_keywords"
-  ],
-  "school_id": 1231,
-  "status": "complete",
-  "updated_at": "2026-09-09T05:17:15+00:00",
-  "started_at": "2026-09-09T05:17:05+00:00",
-  "completed_at": "2026-09-09T05:17:15+00:00",
-  "last_error": ""
-}
+{"links": ["https://www.arecibo.inter.edu/solicitud_de_empleo", "https://www.arecibo.inter.edu/igualdad_empleo_y_accion_afirmativa"], "school_id": 1231, "status": "complete", "updated_at": "2026-09-09T05:17:15+00:00", "started_at": "2026-09-09T05:17:05+00:00", "completed_at": "2026-09-09T05:17:15+00:00", "last_error": ""}

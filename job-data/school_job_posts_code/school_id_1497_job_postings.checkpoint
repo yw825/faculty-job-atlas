@@ -1,17 +1,1 @@
-{
-  "links": [
-    "https://www.su.edu/jobs",
-    "https://www.su.edu/career-services/",
-    "https://www.su.edu/faculty-staff/new-faculty-profile-form/",
-    "https://www.su.edu/academics/faculty-handbook/",
-    "https://www.su.edu/faculty-staff/",
-    "https://www.su.edu/academics/academics/athletic-careers-student-athletes/",
-    "https://jobs.silkroad.com/ShenandoahUniversity/EmploymentPortal"
-  ],
-  "school_id": 1497,
-  "status": "complete",
-  "updated_at": "2026-09-08T03:08:27+00:00",
-  "started_at": "2026-09-08T03:08:24+00:00",
-  "completed_at": "2026-09-08T03:08:27+00:00",
-  "last_error": ""
-}
+{"links": ["https://www.su.edu/career-services/", "https://www.su.edu/faculty-staff/new-faculty-profile-form/", "https://www.su.edu/academics/faculty-handbook/", "https://www.su.edu/faculty-staff/", "https://www.su.edu/academics/academics/athletic-careers-student-athletes/"], "school_id": 1497, "status": "complete", "updated_at": "2026-09-08T03:08:27+00:00", "started_at": "2026-09-08T03:08:24+00:00", "completed_at": "2026-09-08T03:08:27+00:00", "last_error": ""}

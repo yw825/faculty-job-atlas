@@ -1,16 +1,1 @@
-{
-  "links": [
-    "https://www.kwu.edu/about/faculty-staff-directory/",
-    "https://www.kwu.edu/about/careers/",
-    "https://www.kwu.edu/student-life/career-services-center/",
-    "https://www.kwu.edu/about/careers/#jobopenings",
-    "https://www.kwu.edu/wp-content/uploads/Faculty_Handbook_BOT-APPROVED_June-2026.pdf",
-    "https://www.kwu.edu/wp-content/uploads/Adjunct-Faculty-Nursing-Clinical-Position-R1-August-2023.pdf"
-  ],
-  "school_id": 476,
-  "status": "complete",
-  "updated_at": "2026-09-08T01:49:12+00:00",
-  "started_at": "2026-09-08T01:49:09+00:00",
-  "completed_at": "2026-09-08T01:49:12+00:00",
-  "last_error": ""
-}
+{"links": ["https://www.kwu.edu/about/faculty-staff-directory/", "https://www.kwu.edu/wp-content/uploads/Faculty_Handbook_BOT-APPROVED_June-2026.pdf", "https://www.kwu.edu/wp-content/uploads/Adjunct-Faculty-Nursing-Clinical-Position-R1-August-2023.pdf"], "school_id": 476, "status": "complete", "updated_at": "2026-09-08T01:49:12+00:00", "started_at": "2026-09-08T01:49:09+00:00", "completed_at": "2026-09-08T01:49:12+00:00", "last_error": ""}

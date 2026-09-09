@@ -1,13 +1,1 @@
-{
-  "links": [
-    "http://umpi.careers.maine.edu/",
-    "https://www.umpi.edu/human-resources/jobs-at-umpi/",
-    "https://www.umpi.edu/human-resources/employee-recognition/zillman-family-professorship/"
-  ],
-  "school_id": 621,
-  "status": "complete",
-  "updated_at": "2026-09-08T02:03:31+00:00",
-  "started_at": "2026-09-08T02:03:28+00:00",
-  "completed_at": "2026-09-08T02:03:31+00:00",
-  "last_error": ""
-}
+{"links": ["http://umpi.careers.maine.edu/", "https://www.umpi.edu/human-resources/jobs-at-umpi/"], "school_id": 621, "status": "complete", "updated_at": "2026-09-08T02:03:31+00:00", "started_at": "2026-09-08T02:03:28+00:00", "completed_at": "2026-09-08T02:03:31+00:00", "last_error": ""}

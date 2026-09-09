@@ -1,5 +1,9 @@
 {
   "raw": {
+    "https://hrjobs.uindy.edu/uindy/Staff/jobs/101918/benefits-and-compensation-manager": {
+      "title": "Careers",
+      "description": "Careers | Job Application Please ensure Javascript is enabled for purposes of website accessibility"
+    },
     "https://hrjobs.uindy.edu/uindy/Staff/jobs/101894/vp-of-advancement": {
       "title": "Careers",
       "description": "Careers | Job Application Please ensure Javascript is enabled for purposes of website accessibility"
@@ -56,10 +60,6 @@
       "title": "Careers",
       "description": "Careers | Job Application Please ensure Javascript is enabled for purposes of website accessibility"
     },
-    "https://hrjobs.uindy.edu/uindy/Staff/jobs/98877/assistant-director-of-total-rewards": {
-      "title": "Careers",
-      "description": "Careers | Job Application Please ensure Javascript is enabled for purposes of website accessibility"
-    },
     "https://hrjobs.uindy.edu/uindy/Faculty/jobs/98562/german-adjunct-faculty": {
       "title": "Careers",
       "description": "Careers | Job Application Please ensure Javascript is enabled for purposes of website accessibility"
@@ -82,6 +82,17 @@
     }
   },
   "rows": {
+    "https://hrjobs.uindy.edu/uindy/Staff/jobs/101918/benefits-and-compensation-manager": {
+      "school_id": 436,
+      "posting_url": "https://hrjobs.uindy.edu/uindy/Staff/jobs/101918/benefits-and-compensation-manager",
+      "job_title_in_post": "Careers",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
     "https://hrjobs.uindy.edu/uindy/Staff/jobs/101894/vp-of-advancement": {
       "school_id": 436,
       "posting_url": "https://hrjobs.uindy.edu/uindy/Staff/jobs/101894/vp-of-advancement",
@@ -236,17 +247,6 @@
       "deadline_of_application": "",
       "position_start_date": ""
     },
-    "https://hrjobs.uindy.edu/uindy/Staff/jobs/98877/assistant-director-of-total-rewards": {
-      "school_id": 436,
-      "posting_url": "https://hrjobs.uindy.edu/uindy/Staff/jobs/98877/assistant-director-of-total-rewards",
-      "job_title_in_post": "Careers",
-      "position_type": "Unclassified",
-      "job_term": "Full-time",
-      "department_or_school": "",
-      "area_key_words": "",
-      "deadline_of_application": "",
-      "position_start_date": ""
-    },
     "https://hrjobs.uindy.edu/uindy/Faculty/jobs/98562/german-adjunct-faculty": {
       "school_id": 436,
       "posting_url": "https://hrjobs.uindy.edu/uindy/Faculty/jobs/98562/german-adjunct-faculty",
@@ -305,7 +305,7 @@
   },
   "school_id": 436,
   "status": "complete",
-  "updated_at": "2026-09-05T03:45:43+00:00",
-  "completed_at": "2026-09-05T03:45:43+00:00",
+  "updated_at": "2026-09-09T16:46:22+00:00",
+  "completed_at": "2026-09-09T16:46:22+00:00",
   "last_error": ""
 }

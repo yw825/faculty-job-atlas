@@ -1,5 +1,8 @@
 {
   "raw": {
+    "https://nu.outsystemsenterprise.com/FSD/": {
+      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+    },
     "https://hr.northeastern.edu/careers/job-listings/": {
       "title": "Job Listings",
       "description": "Job Listings - Human Resources Careers · Job Listings · Locations · Professional Development · Compensation Program · Employee Recognition · Service Recognition Benefits · Health Benefits · Tuition Assistance · Paid Time Off · Wellness & Life · Retirement · Commuting & Transportation Community · Belonging · Learning & Growth · HR Business Partners · Life on and off Campus About · Our Values · HR Leadership Team · HR Service Center · U.S. Workplace Posters · Canada Workplace Posters · Human Resources Privacy of Personal Data · Contact Us Careers Job Listings Locations Professional Development Compensation Program Employee Recognition Service Recognition Benefits Health Benefits Tuition Assistance Paid Time Off Wellness & Life Retirement Commuting & Transportation Community Belonging Learning & Growth HR Business Partners Life on and off Campus About Our Values HR Leadership Team HR Service Center U.S. Workplace Posters Canada Workplace Posters Human Resources Privacy of Personal Data Contact Us Careers Job Listings Careers Job Listings Locations Professional Development Compensation Program Discover your next horizon with us . At Northeastern, we don’t just provide jobs; we foster a thriving, innovative, global community of the industry’s brightest minds. We are open-minded, friendly, and hard-working professionals defined by our collaborative mindset, welcoming nature, and holistic approach to work. We positively impact communities in and out of the classroom by creating exceptional experiences for students and the world. As an employee, you’ll have the opportunity for personal and professional growth and support in learning, teaching, and working environments. This may include joining an affinity group, taking advantage of our professional development courses, or using our comprehensive suite of healthcare, tuition, and retirement benefits. The possibilities are endless. External Applicants, including contractors working for Northeastern through an external agency and current students, should apply through the External Applicants option. Current Employees, including Full-Time and Temporary Staff and Part-Time Lecturers, should use the Internal Applicants option. Note: NYC campus roles are posted separately . Search and Apply for Jobs External Applicants Internal Applicants “ (Spring Break) is not a break for us. It’s a time for us to catch up and do what work we can while the students are away. Felix Fuentes Building Superintendent, facilities services “ I bleed Northeastern. There is a lot about the university to be proud of, but I think the most important is how well we prepare students to manage and succeed in the world, and be global citizens and lifelong learners. Valeria Ramdin Assistant clinical professor, School of Nursing Federal labor laws require several employment rights notices to be accessible to applicants and employees. You may find those below. Las leyes laborales federales exigen que los solicitantes de empleo y los empleados tengan acceso a varios avisos sobre derechos laborales. Puede encontrarlos abajo. Equal Employment Opportunity (EEOC) – English Comisión Para la Igualdad de Oportunidades en el Empleo (EEOC) – Español Family and Medical Leave Act (FMLA) – English Ley de Ausencia Familiar Y Médica (FMLA) – Español Employee Polygraph Protection Act (EPPA) – English Ley Para La Protección del Empleado contra la Prueba de Polígrafo (EPPA) – Español Human Resources 360 Huntington Ave. Boston, Massachusetts 02115 Careers Job Listings Locations Professional Development Compensation Program Employee Recognition Service Recognition Benefits Health Benefits Tuition Assistance Paid Time Off Wellness & Life Retirement Commuting & Transportation Community Belonging Learning & Growth HR Business Partners Life on and off Campus About Our Values HR Leadership Team HR Service Center U.S. Workplace Posters Canada Workplace Posters Human Resources Privacy of Personal Data Contact Us"
@@ -29,6 +32,9 @@
     }
   },
   "rows": {
+    "https://nu.outsystemsenterprise.com/FSD/": {
+      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+    },
     "https://hr.northeastern.edu/careers/job-listings/": {
       "school_id": 539,
       "posting_url": "https://hr.northeastern.edu/careers/job-listings/",
@@ -101,7 +107,7 @@
   },
   "school_id": 539,
   "status": "complete",
-  "updated_at": "2026-09-05T04:16:04+00:00",
-  "completed_at": "2026-09-05T04:16:04+00:00",
+  "updated_at": "2026-09-09T16:57:39+00:00",
+  "completed_at": "2026-09-09T16:57:39+00:00",
   "last_error": ""
 }

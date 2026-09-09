@@ -1,13 +1,1 @@
-{
-  "links": [
-    "https://www.iit.edu/resources-faculty-and-staff",
-    "https://www.iit.edu/student-experience/career-services-and-internships",
-    "https://www.iit.edu/hr/careers"
-  ],
-  "school_id": 375,
-  "status": "complete",
-  "updated_at": "2026-09-08T01:38:43+00:00",
-  "started_at": "2026-09-08T01:38:39+00:00",
-  "completed_at": "2026-09-08T01:38:43+00:00",
-  "last_error": ""
-}
+{"links": ["https://www.iit.edu/resources-faculty-and-staff", "https://www.iit.edu/student-experience/career-services-and-internships"], "school_id": 375, "status": "complete", "updated_at": "2026-09-08T01:38:43+00:00", "started_at": "2026-09-08T01:38:39+00:00", "completed_at": "2026-09-08T01:38:43+00:00", "last_error": ""}

@@ -27,6 +27,7 @@ later title-based pass can still catch.
 """
 import argparse
 import csv
+import json
 import glob
 import os
 import re
@@ -68,9 +69,20 @@ _CATEGORY_SLUG = re.compile(
 # schooljobs.com/careers/<school>/privacypolicy.
 _NEVER_A_POSTING = re.compile(
     r'about\.instagram\.com|instagram\.com/(?:p|reel)/|/sharer\.php|'
-    r'facebook\.com/share|twitter\.com/share|linkedin\.com/share(?:Article)?|'
+    r'facebook\.com/share|twitter\.com/(?:share|intent)|linkedin\.com/share(?:Article)?|'
     r'/passwordReset|/privacypolicy|/user/(?:ResetPassword|RecoverUserName)|'
-    r'\.(?:atom|rss)(?:\?|$)|/bookmarks\?|[?&]commit=Search', re.I)
+    r'\.(?:atom|rss)(?:\?|$)|/bookmarks\?|[?&]commit=Search|'
+    # jobs.ac.uk carries the four UK schools whose careers_link is a search
+    # on it. Only /job/<id>/<slug> is a posting there; /phd, /recruiters/
+    # and /button/redir/<id> are the aggregator's own navigation and were
+    # being stored as if they were jobs.
+    r'jobs\.ac\.uk/(?!job/)|'
+    # An aggregator's category and locale pages: BI Norwegian's careers_link
+    # was an academicpositions.com employer page, and its "postings" were
+    # "224 Machine Learning jobs", "131 jobs in Belgium" and the same
+    # employer page on eleven country domains.
+    r'academicpositions\.[a-z.]+/(?:jobs/(?:field|country|position|employer)/|employer/)',
+    re.I)
 
 _ID_QUERY = re.compile(r'(?:^|&)[a-z]*(?:job|posting|req|requisition|vacancy|position)?_?id=[^&=]+',
                        re.I)
@@ -80,6 +92,10 @@ _ACTION_PATH = re.compile(r'/(?:bookmarks?|login|log-?in|signin|sign-?in|apply|a
 
 def has_posting_id(url):
     return bool(_ID_QUERY.search(urlsplit(url).query))
+
+
+POSTS_CODE = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                          'school_job_posts_code')
 
 
 def is_furniture(url, path, dominant_prefix, sibling_paths, careers_root):
@@ -274,6 +290,24 @@ def main():
                 w = csv.DictWriter(f, fieldnames=['school_id', 'post_link'])
                 w.writeheader()
                 w.writerows(kept)
+
+            # The job_postings CHECKPOINT has to be cleaned too. job_info
+            # reads ITS link list from the checkpoint, not from this CSV, so
+            # cleaning the CSV alone leaves the furniture in play: Edinburgh
+            # came back with 42 info rows off a 25-row cleaned CSV, and this
+            # is how ".atom feed" rows kept reappearing at Bowdoin. Every
+            # school cleaned here must be re-run for info afterwards.
+            ckpt = os.path.join(POSTS_CODE, f'school_id_{sid}_job_postings.checkpoint')
+            if os.path.exists(ckpt):
+                keep_urls = {r['post_link'] for r in kept}
+                try:
+                    with open(ckpt, encoding='utf-8') as f:
+                        data = json.load(f)
+                    data['links'] = [u for u in data.get('links', []) if u in keep_urls]
+                    with open(ckpt, 'w', encoding='utf-8') as f:
+                        json.dump(data, f)
+                except Exception:
+                    pass
 
     print(f'{"DRY RUN -- " if args.dry_run else ""}{len(files)} files, '
           f'{touched} would change' if args.dry_run else

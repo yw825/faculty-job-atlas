@@ -1,14 +1,1 @@
-{
-  "links": [
-    "https://my.sjf.edu/students/career-readiness/",
-    "https://www.sjf.edu/information-for/faculty/",
-    "https://jobs.sjf.edu/",
-    "https://www.sjf.edu/services/human-resources/career-experience/"
-  ],
-  "school_id": 999,
-  "status": "complete",
-  "updated_at": "2026-09-08T02:34:57+00:00",
-  "started_at": "2026-09-08T02:34:54+00:00",
-  "completed_at": "2026-09-08T02:34:57+00:00",
-  "last_error": ""
-}
+{"links": ["https://my.sjf.edu/students/career-readiness/"], "school_id": 999, "status": "complete", "updated_at": "2026-09-08T02:34:57+00:00", "started_at": "2026-09-08T02:34:54+00:00", "completed_at": "2026-09-08T02:34:57+00:00", "last_error": ""}

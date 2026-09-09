@@ -1,12 +1,1 @@
-{
-  "links": [
-    "https://www.maine.edu/careers/",
-    "https://fa-ewca-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1"
-  ],
-  "school_id": 617,
-  "status": "complete",
-  "updated_at": "2026-09-08T02:03:13+00:00",
-  "started_at": "2026-09-08T02:03:09+00:00",
-  "completed_at": "2026-09-08T02:03:13+00:00",
-  "last_error": ""
-}
+{"links": ["https://fa-ewca-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1"], "school_id": 617, "status": "complete", "updated_at": "2026-09-08T02:03:13+00:00", "started_at": "2026-09-08T02:03:09+00:00", "completed_at": "2026-09-08T02:03:13+00:00", "last_error": ""}

@@ -1,17 +1,1 @@
-{
-  "links": [
-    "https://www.sfasu.edu/hr/prospective-employees/faculty",
-    "https://www.sfasu.edu/hr/faculty-staff/faculty-resources",
-    "https://www.sfasu.edu/hr/managers/advertising-filling-positions",
-    "https://www.sfasu.edu/info-for/faculty-staff",
-    "https://www.sfasu.edu/hr/faculty-staff/benefits",
-    "https://orion.sfasu.edu/courseinformation",
-    "https://www.sfasu.edu/directory"
-  ],
-  "school_id": 1414,
-  "status": "complete",
-  "updated_at": "2026-09-08T03:03:47+00:00",
-  "started_at": "2026-09-08T03:03:43+00:00",
-  "completed_at": "2026-09-08T03:03:47+00:00",
-  "last_error": ""
-}
+{"links": ["https://www.sfasu.edu/hr/faculty-staff/faculty-resources", "https://www.sfasu.edu/hr/managers/advertising-filling-positions", "https://www.sfasu.edu/info-for/faculty-staff", "https://orion.sfasu.edu/courseinformation", "https://www.sfasu.edu/directory"], "school_id": 1414, "status": "complete", "updated_at": "2026-09-08T03:03:47+00:00", "started_at": "2026-09-08T03:03:43+00:00", "completed_at": "2026-09-08T03:03:47+00:00", "last_error": ""}

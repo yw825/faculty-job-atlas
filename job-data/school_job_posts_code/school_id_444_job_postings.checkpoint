@@ -1,13 +1,1 @@
-{
-  "links": [
-    "https://www.saintmarys.edu/career-crossings",
-    "https://www.saintmarys.edu/hr-safety",
-    "http://careers.saintmarys.edu/"
-  ],
-  "school_id": 444,
-  "status": "complete",
-  "updated_at": "2026-09-08T01:45:55+00:00",
-  "started_at": "2026-09-08T01:45:52+00:00",
-  "completed_at": "2026-09-08T01:45:55+00:00",
-  "last_error": ""
-}
+{"links": ["https://www.saintmarys.edu/career-crossings", "https://www.saintmarys.edu/hr-safety"], "school_id": 444, "status": "complete", "updated_at": "2026-09-08T01:45:55+00:00", "started_at": "2026-09-08T01:45:52+00:00", "completed_at": "2026-09-08T01:45:55+00:00", "last_error": ""}

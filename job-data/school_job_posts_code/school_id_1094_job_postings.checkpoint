@@ -1,15 +1,1 @@
-{
-  "links": [
-    "https://ru.edu/current-students/academics/faculty-staff-directory/",
-    "https://ru.edu/about-randall/jobs/",
-    "https://ru.edu/wp-content/uploads/2025/12/Randall-Computer-Science-Posting-S26.pdf",
-    "https://ru.edu/wp-content/uploads/2026/05/Job-Description-Business-Faculty.pdf",
-    "https://ru.edu/about-randall/who-we-are/faculty-staff-directory/"
-  ],
-  "school_id": 1094,
-  "status": "complete",
-  "updated_at": "2026-09-08T02:42:35+00:00",
-  "started_at": "2026-09-08T02:42:32+00:00",
-  "completed_at": "2026-09-08T02:42:35+00:00",
-  "last_error": ""
-}
+{"links": ["https://ru.edu/current-students/academics/faculty-staff-directory/", "https://ru.edu/wp-content/uploads/2025/12/Randall-Computer-Science-Posting-S26.pdf", "https://ru.edu/wp-content/uploads/2026/05/Job-Description-Business-Faculty.pdf", "https://ru.edu/about-randall/who-we-are/faculty-staff-directory/"], "school_id": 1094, "status": "complete", "updated_at": "2026-09-08T02:42:35+00:00", "started_at": "2026-09-08T02:42:32+00:00", "completed_at": "2026-09-08T02:42:35+00:00", "last_error": ""}

@@ -1,15 +1,1 @@
-{
-  "links": [
-    "https://www.goshen.edu/academics/deans-office/",
-    "https://www.goshen.edu/employment/faculty-information-form/",
-    "https://www.goshen.edu/employment/visiting-assistant-professor-of-physiology/",
-    "https://avi-foodsystems.jobs.net/en-US/search?keywords=&location=46526",
-    "https://www.goshen.edu/career-network/jobs/"
-  ],
-  "school_id": 427,
-  "status": "complete",
-  "updated_at": "2026-09-09T05:42:13+00:00",
-  "started_at": "2026-09-09T05:42:09+00:00",
-  "completed_at": "2026-09-09T05:42:13+00:00",
-  "last_error": ""
-}
+{"links": ["https://www.goshen.edu/academics/deans-office/", "https://www.goshen.edu/employment/faculty-information-form/", "https://www.goshen.edu/employment/visiting-assistant-professor-of-physiology/"], "school_id": 427, "status": "complete", "updated_at": "2026-09-09T05:42:13+00:00", "started_at": "2026-09-09T05:42:09+00:00", "completed_at": "2026-09-09T05:42:13+00:00", "last_error": ""}

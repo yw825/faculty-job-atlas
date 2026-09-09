@@ -1,13 +1,1 @@
-{
-  "links": [
-    "https://www.boricuacollege.edu/faculty",
-    "https://www.boricuacollege.edu/job-internship",
-    "https://www.boricuacollege.edu/careers"
-  ],
-  "school_id": 959,
-  "status": "complete",
-  "updated_at": "2026-09-08T02:31:35+00:00",
-  "started_at": "2026-09-08T02:31:32+00:00",
-  "completed_at": "2026-09-08T02:31:35+00:00",
-  "last_error": ""
-}
+{"links": ["https://www.boricuacollege.edu/job-internship"], "school_id": 959, "status": "complete", "updated_at": "2026-09-08T02:31:35+00:00", "started_at": "2026-09-08T02:31:32+00:00", "completed_at": "2026-09-08T02:31:35+00:00", "last_error": ""}

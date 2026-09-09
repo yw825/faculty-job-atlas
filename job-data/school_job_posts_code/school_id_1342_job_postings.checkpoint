@@ -1,14 +1,1 @@
-{
-  "links": [
-    "https://www.maryvillecollege.edu/academics/career-center/",
-    "https://www.maryvillecollege.edu/admissions/tuition-and-fees/commit/",
-    "https://www.maryvillecollege.edu/about/inside/human-resources/careers/",
-    "https://maryville.link/careers"
-  ],
-  "school_id": 1342,
-  "status": "complete",
-  "updated_at": "2026-09-08T03:01:15+00:00",
-  "started_at": "2026-09-08T03:01:10+00:00",
-  "completed_at": "2026-09-08T03:01:15+00:00",
-  "last_error": ""
-}
+{"links": ["https://www.maryvillecollege.edu/academics/career-center/", "https://www.maryvillecollege.edu/admissions/tuition-and-fees/commit/"], "school_id": 1342, "status": "complete", "updated_at": "2026-09-08T03:01:15+00:00", "started_at": "2026-09-08T03:01:10+00:00", "completed_at": "2026-09-08T03:01:15+00:00", "last_error": ""}

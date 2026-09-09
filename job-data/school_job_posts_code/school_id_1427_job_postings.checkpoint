@@ -1,16 +1,1 @@
-{
-  "links": [
-    "https://www.utsa.edu/people-excellence/careers/index.html",
-    "https://www.utsa.edu/people-excellence/new-employees/new-employee-required-paperwork.html",
-    "https://www.utsa.edu/people-excellence/careers/faculty-positions.html",
-    "https://www.utsa.edu/people-excellence/careers/staff-positions.html",
-    "https://www.utsa.edu/people-excellence/careers/student-positions.html",
-    "https://www.utsa.edu/about/careers/"
-  ],
-  "school_id": 1427,
-  "status": "complete",
-  "updated_at": "2026-09-08T03:04:35+00:00",
-  "started_at": "2026-09-08T03:04:32+00:00",
-  "completed_at": "2026-09-08T03:04:35+00:00",
-  "last_error": ""
-}
+{"links": ["https://www.utsa.edu/people-excellence/careers/index.html", "https://www.utsa.edu/people-excellence/careers/faculty-positions.html", "https://www.utsa.edu/people-excellence/careers/staff-positions.html", "https://www.utsa.edu/people-excellence/careers/student-positions.html"], "school_id": 1427, "status": "complete", "updated_at": "2026-09-08T03:04:35+00:00", "started_at": "2026-09-08T03:04:32+00:00", "completed_at": "2026-09-08T03:04:35+00:00", "last_error": ""}

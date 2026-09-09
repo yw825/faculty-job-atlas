@@ -1,17 +1,1 @@
-{
-  "links": [
-    "https://fajardo.inter.edu/oferta-academica/",
-    "https://fajardo.inter.edu/oferta-academica/intertec/",
-    "https://fajardo.inter.edu/oferta-academica/educacion-continua-2/",
-    "https://fajardo.inter.edu/oferta-academica/estudios-subgraduados/",
-    "https://fajardo.inter.edu/oferta-academica/estudios-graduados/",
-    "https://fajardo.inter.edu/oferta-academica/educacion-en-linea/",
-    "https://fajardo.inter.edu/empleos/"
-  ],
-  "school_id": 1244,
-  "status": "complete",
-  "updated_at": "2026-09-08T02:55:13+00:00",
-  "started_at": "2026-09-08T02:55:05+00:00",
-  "completed_at": "2026-09-08T02:55:13+00:00",
-  "last_error": ""
-}
+{"links": ["https://fajardo.inter.edu/oferta-academica/intertec/", "https://fajardo.inter.edu/oferta-academica/educacion-continua-2/", "https://fajardo.inter.edu/oferta-academica/estudios-subgraduados/", "https://fajardo.inter.edu/oferta-academica/estudios-graduados/", "https://fajardo.inter.edu/oferta-academica/educacion-en-linea/"], "school_id": 1244, "status": "complete", "updated_at": "2026-09-08T02:55:13+00:00", "started_at": "2026-09-08T02:55:05+00:00", "completed_at": "2026-09-08T02:55:13+00:00", "last_error": ""}

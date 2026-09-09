@@ -1,15 +1,1 @@
-{
-  "links": [
-    "https://www.elms.edu/academics/center-for-student-success/career-services/",
-    "https://www.elms.edu/dean-of-students/",
-    "https://www.elms.edu/faculty-and-staff-dashboard/",
-    "https://www.higheredjobs.com/institution/search.cfm?University=Elms%20College",
-    "https://jobs.masslive.com/search?keyword=elms+college&location=Springfield%2C+MA&radius_mi=10"
-  ],
-  "school_id": 551,
-  "status": "complete",
-  "updated_at": "2026-09-08T01:57:57+00:00",
-  "started_at": "2026-09-08T01:57:53+00:00",
-  "completed_at": "2026-09-08T01:57:57+00:00",
-  "last_error": ""
-}
+{"links": ["https://www.elms.edu/dean-of-students/", "https://www.elms.edu/faculty-and-staff-dashboard/"], "school_id": 551, "status": "complete", "updated_at": "2026-09-08T01:57:57+00:00", "started_at": "2026-09-08T01:57:53+00:00", "completed_at": "2026-09-08T01:57:57+00:00", "last_error": ""}

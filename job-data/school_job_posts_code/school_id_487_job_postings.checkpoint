@@ -1,13 +1,1 @@
-{
-  "links": [
-    "https://www.lindsey.edu/about-lwc/Offices-and-Services/Human-Resources/job-opportunities.cfm",
-    "https://www.lindsey.edu/academics/Career-Services.cfm",
-    "https://portal.lindsey.edu"
-  ],
-  "school_id": 487,
-  "status": "complete",
-  "updated_at": "2026-09-09T05:16:12+00:00",
-  "started_at": "2026-09-09T05:16:09+00:00",
-  "completed_at": "2026-09-09T05:16:12+00:00",
-  "last_error": ""
-}
+{"links": ["https://www.lindsey.edu/academics/Career-Services.cfm"], "school_id": 487, "status": "complete", "updated_at": "2026-09-09T05:16:12+00:00", "started_at": "2026-09-09T05:16:09+00:00", "completed_at": "2026-09-09T05:16:12+00:00", "last_error": ""}

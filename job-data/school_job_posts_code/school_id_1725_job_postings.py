@@ -30,19 +30,19 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1725
 SCHOOL_NAME = 'BI Norwegian Business School'
-CAREERS_LINK = 'https://academicpositions.com/employer/bi-norwegian-business-school'
+CAREERS_LINK = 'https://bi.easycruit.com/'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                              href_pattern=lib.COMMON_JOB_URL_HINTS,
-                              text_pattern=lib.COMMON_JOB_URL_HINTS)
+    """CUSTOMIZED: careers_link used to be an academicpositions.com EMPLOYER
+    page -- an aggregator -- so this school's "postings" were that site's
+    category pages ("224 Machine Learning jobs", "131 jobs in Belgium") and
+    the same employer page on eleven country domains. BI's own board is
+    EasyCruit."""
+    return lib.scrape_listing(CAREERS_LINK)
 
 
 def main():

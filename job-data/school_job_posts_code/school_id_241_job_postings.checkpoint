@@ -1,15 +1,1 @@
-{
-  "links": [
-    "https://www.beaconcollege.edu/academics/career-preparation/",
-    "https://www.beaconcollege.edu/academics/careertreks/",
-    "https://beaconcollege.sharepoint.com/sites/E-Flame",
-    "https://launcher.myapps.microsoft.com/api/signin/5ff33875-e399-49f6-b460-ce14f3a19d43?tenantId=8d8a3f28-505d-4dc5-99c0-a78958b627b1",
-    "https://www.beaconcollege.edu/career-opportunities/"
-  ],
-  "school_id": 241,
-  "status": "complete",
-  "updated_at": "2026-09-08T01:26:42+00:00",
-  "started_at": "2026-09-08T01:26:39+00:00",
-  "completed_at": "2026-09-08T01:26:42+00:00",
-  "last_error": ""
-}
+{"links": ["https://www.beaconcollege.edu/academics/career-preparation/", "https://www.beaconcollege.edu/academics/careertreks/", "https://beaconcollege.sharepoint.com/sites/E-Flame", "https://launcher.myapps.microsoft.com/api/signin/5ff33875-e399-49f6-b460-ce14f3a19d43?tenantId=8d8a3f28-505d-4dc5-99c0-a78958b627b1"], "school_id": 241, "status": "complete", "updated_at": "2026-09-08T01:26:42+00:00", "started_at": "2026-09-08T01:26:39+00:00", "completed_at": "2026-09-08T01:26:42+00:00", "last_error": ""}

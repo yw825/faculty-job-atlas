@@ -1,16 +1,1 @@
-{
-  "links": [
-    "https://www.ic.edu/deposit",
-    "https://www.ic.edu/careerservices",
-    "https://www.paycomonline.net/v4/ats/web.php/portal/1A1F01429B0D77840F84E7C37F0997E7/jobs/452063",
-    "https://www.paycomonline.net/v4/ats/web.php/portal/1A1F01429B0D77840F84E7C37F0997E7/jobs/452064",
-    "https://www.paycomonline.net/v4/ats/web.php/portal/1A1F01429B0D77840F84E7C37F0997E7/jobs/452065",
-    "https://www.paycomonline.net/v4/ats/web.php/portal/1A1F01429B0D77840F84E7C37F0997E7/jobs/452050"
-  ],
-  "school_id": 394,
-  "status": "complete",
-  "updated_at": "2026-09-08T01:40:07+00:00",
-  "started_at": "2026-09-08T01:40:04+00:00",
-  "completed_at": "2026-09-08T01:40:07+00:00",
-  "last_error": ""
-}
+{"links": ["https://www.paycomonline.net/v4/ats/web.php/portal/1A1F01429B0D77840F84E7C37F0997E7/jobs/452063", "https://www.paycomonline.net/v4/ats/web.php/portal/1A1F01429B0D77840F84E7C37F0997E7/jobs/452064", "https://www.paycomonline.net/v4/ats/web.php/portal/1A1F01429B0D77840F84E7C37F0997E7/jobs/452065", "https://www.paycomonline.net/v4/ats/web.php/portal/1A1F01429B0D77840F84E7C37F0997E7/jobs/452050"], "school_id": 394, "status": "complete", "updated_at": "2026-09-08T01:40:07+00:00", "started_at": "2026-09-08T01:40:04+00:00", "completed_at": "2026-09-08T01:40:07+00:00", "last_error": ""}

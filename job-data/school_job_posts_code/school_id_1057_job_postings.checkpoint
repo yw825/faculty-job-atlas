@@ -1,17 +1,1 @@
-{
-  "links": [
-    "https://osumarion.osu.edu/current-students/career-services",
-    "https://osumarion.osu.edu/current-students/student-jobs",
-    "https://osumarion.osu.edu/about-us/student-advisory-board",
-    "https://osumarion.osu.edu/engineering/career-opportunities-engineering",
-    "https://osumarion.osu.edu/psychology/careers",
-    "https://osumarion.osu.edu/academics/majors/social-work/social-work-career-planning",
-    "https://osumarion.osu.edu/research/faculty-accomplishments"
-  ],
-  "school_id": 1057,
-  "status": "complete",
-  "updated_at": "2026-09-08T02:40:27+00:00",
-  "started_at": "2026-09-08T02:40:22+00:00",
-  "completed_at": "2026-09-08T02:40:27+00:00",
-  "last_error": ""
-}
+{"links": ["https://osumarion.osu.edu/current-students/career-services", "https://osumarion.osu.edu/about-us/student-advisory-board", "https://osumarion.osu.edu/academics/majors/social-work/social-work-career-planning", "https://osumarion.osu.edu/research/faculty-accomplishments"], "school_id": 1057, "status": "complete", "updated_at": "2026-09-08T02:40:27+00:00", "started_at": "2026-09-08T02:40:22+00:00", "completed_at": "2026-09-08T02:40:27+00:00", "last_error": ""}

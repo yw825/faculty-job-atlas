@@ -1,16 +1,1 @@
-{
-  "links": [
-    "https://www.usca.edu/departments/career-services/",
-    "https://www.usca.edu/departments/student-affairs/dean-of-students/",
-    "https://www.usca.edu/departments/academic-affairs/faculty-resources/faculty-manuals/",
-    "https://www.usca.edu/myusca/faculty-staff/",
-    "https://www.usca.edu/departments/human-resources/employment/faculty-recruitment-guide/",
-    "https://www.usca.edu/departments/human-resources/employment/"
-  ],
-  "school_id": 1273,
-  "status": "complete",
-  "updated_at": "2026-09-08T02:58:22+00:00",
-  "started_at": "2026-09-08T02:58:18+00:00",
-  "completed_at": "2026-09-08T02:58:22+00:00",
-  "last_error": ""
-}
+{"links": ["https://www.usca.edu/departments/career-services/", "https://www.usca.edu/departments/student-affairs/dean-of-students/", "https://www.usca.edu/departments/academic-affairs/faculty-resources/faculty-manuals/", "https://www.usca.edu/myusca/faculty-staff/", "https://www.usca.edu/departments/human-resources/employment/faculty-recruitment-guide/"], "school_id": 1273, "status": "complete", "updated_at": "2026-09-08T02:58:22+00:00", "started_at": "2026-09-08T02:58:18+00:00", "completed_at": "2026-09-08T02:58:22+00:00", "last_error": ""}

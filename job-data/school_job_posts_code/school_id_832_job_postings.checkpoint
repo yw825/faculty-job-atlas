@@ -1,15 +1,1 @@
-{
-  "links": [
-    "https://www.midlandu.edu/about/faculty-staff/",
-    "https://www.midlandu.edu/about/careers/",
-    "https://www.midlandu.edu/academics/career-studio/",
-    "https://www.midlandu.edu/student-resources/student-discount-guide/",
-    "https://www.paycomonline.net/v4/ats/web.php/portal/3971D0B7A1DB06DA25282DE787EC51E9/career-page"
-  ],
-  "school_id": 832,
-  "status": "complete",
-  "updated_at": "2026-09-08T02:19:13+00:00",
-  "started_at": "2026-09-08T02:19:07+00:00",
-  "completed_at": "2026-09-08T02:19:13+00:00",
-  "last_error": ""
-}
+{"links": ["https://www.midlandu.edu/about/faculty-staff/", "https://www.midlandu.edu/academics/career-studio/", "https://www.midlandu.edu/student-resources/student-discount-guide/", "https://www.paycomonline.net/v4/ats/web.php/portal/3971D0B7A1DB06DA25282DE787EC51E9/career-page"], "school_id": 832, "status": "complete", "updated_at": "2026-09-08T02:19:13+00:00", "started_at": "2026-09-08T02:19:07+00:00", "completed_at": "2026-09-08T02:19:13+00:00", "last_error": ""}

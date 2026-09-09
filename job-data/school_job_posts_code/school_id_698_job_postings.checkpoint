@@ -1,15 +1,1 @@
-{
-  "links": [
-    "https://career.gustavus.edu/",
-    "https://gustavus.edu/about/administrative-offices/dean-students",
-    "https://gustavus.edu/about/administrative-offices/fellowships",
-    "https://gustavus.edu/humanresources/employment/opportunities/",
-    "https://gustavus.edu/about/administrative-offices/human-resources/employment-opportunities-human-resources"
-  ],
-  "school_id": 698,
-  "status": "complete",
-  "updated_at": "2026-09-08T02:09:41+00:00",
-  "started_at": "2026-09-08T02:09:38+00:00",
-  "completed_at": "2026-09-08T02:09:41+00:00",
-  "last_error": ""
-}
+{"links": ["https://career.gustavus.edu/", "https://gustavus.edu/humanresources/employment/opportunities/", "https://gustavus.edu/about/administrative-offices/human-resources/employment-opportunities-human-resources"], "school_id": 698, "status": "complete", "updated_at": "2026-09-08T02:09:41+00:00", "started_at": "2026-09-08T02:09:38+00:00", "completed_at": "2026-09-08T02:09:41+00:00", "last_error": ""}

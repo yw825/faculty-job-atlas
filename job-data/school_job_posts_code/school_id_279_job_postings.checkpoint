@@ -1,15 +1,1 @@
-{
-  "links": [
-    "https://liveoglethorpe.sharepoint.com/sites/Intranet20",
-    "https://oglethorpe.edu/es/acerca-de-la-universidad-de-oglethorpe/oficinas-y-departamentos/recursos-humanos/empleo/",
-    "https://oglethorpe.edu/academics/faculty/",
-    "https://oglethorpe.edu/life/support/career-development/",
-    "https://oglethorpe.edu/about/offices-departments/human-resources/jobs/"
-  ],
-  "school_id": 279,
-  "status": "complete",
-  "updated_at": "2026-09-08T01:29:11+00:00",
-  "started_at": "2026-09-08T01:29:06+00:00",
-  "completed_at": "2026-09-08T01:29:11+00:00",
-  "last_error": ""
-}
+{"links": ["https://liveoglethorpe.sharepoint.com/sites/Intranet20", "https://oglethorpe.edu/es/acerca-de-la-universidad-de-oglethorpe/oficinas-y-departamentos/recursos-humanos/empleo/", "https://oglethorpe.edu/life/support/career-development/"], "school_id": 279, "status": "complete", "updated_at": "2026-09-08T01:29:11+00:00", "started_at": "2026-09-08T01:29:06+00:00", "completed_at": "2026-09-08T01:29:11+00:00", "last_error": ""}

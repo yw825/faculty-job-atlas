@@ -1,15 +1,1 @@
-{
-  "links": [
-    "https://psuca.edu/university-faculty-directory/",
-    "https://psuca.edu/jobs-opportunities/",
-    "https://psuca.edu/career-center-and-services/",
-    "https://psuca.edu/on-campus-jobs-opportunities/",
-    "http://www.accsc.org/"
-  ],
-  "school_id": 104,
-  "status": "complete",
-  "updated_at": "2026-09-08T01:16:10+00:00",
-  "started_at": "2026-09-08T01:16:07+00:00",
-  "completed_at": "2026-09-08T01:16:10+00:00",
-  "last_error": ""
-}
+{"links": ["https://psuca.edu/university-faculty-directory/", "https://psuca.edu/career-center-and-services/", "https://psuca.edu/on-campus-jobs-opportunities/"], "school_id": 104, "status": "complete", "updated_at": "2026-09-08T01:16:10+00:00", "started_at": "2026-09-08T01:16:07+00:00", "completed_at": "2026-09-08T01:16:10+00:00", "last_error": ""}

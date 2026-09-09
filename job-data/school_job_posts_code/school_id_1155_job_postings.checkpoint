@@ -1,16 +1,1 @@
-{
-  "links": [
-    "https://live-my-arcadia.pantheonsite.io",
-    "https://www.arcadia.edu/admissions/admitted-students",
-    "https://careerlaunchpad.arcadia.edu/",
-    "https://arcadia.isolvedhire.com/jobsearch/",
-    "https://www.arcadia.edu/about-arcadia/offices-facilities-services/human-resources",
-    "https://live-my-arcadia.pantheonsite.io/wp-login.php"
-  ],
-  "school_id": 1155,
-  "status": "complete",
-  "updated_at": "2026-09-08T02:46:48+00:00",
-  "started_at": "2026-09-08T02:46:45+00:00",
-  "completed_at": "2026-09-08T02:46:48+00:00",
-  "last_error": ""
-}
+{"links": ["https://arcadia.isolvedhire.com/jobsearch/", "https://live-my-arcadia.pantheonsite.io/wp-login.php"], "school_id": 1155, "status": "complete", "updated_at": "2026-09-08T02:46:48+00:00", "started_at": "2026-09-08T02:46:45+00:00", "completed_at": "2026-09-08T02:46:48+00:00", "last_error": ""}

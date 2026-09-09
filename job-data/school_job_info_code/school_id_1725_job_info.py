@@ -39,7 +39,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1725
 SCHOOL_NAME = 'BI Norwegian Business School'
-CAREERS_LINK = 'https://academicpositions.com/employer/bi-norwegian-business-school'
+CAREERS_LINK = 'https://bi.easycruit.com/'
 ATS_PLATFORM = 'own website'
 USE_LLM = False  # set True once you have ANTHROPIC_API_KEY configured
 

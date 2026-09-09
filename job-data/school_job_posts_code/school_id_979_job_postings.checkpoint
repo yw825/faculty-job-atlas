@@ -1,14 +1,1 @@
-{
-  "links": [
-    "https://www.nyit.edu/academics/academic-success/career-success-and-experiential-education/",
-    "https://www.nyit.edu/directory",
-    "https://www.nyit.edu/faculty-and-staff",
-    "https://www.nyit.edu/human_resources/careers"
-  ],
-  "school_id": 979,
-  "status": "complete",
-  "updated_at": "2026-09-08T02:32:56+00:00",
-  "started_at": "2026-09-08T02:32:53+00:00",
-  "completed_at": "2026-09-08T02:32:56+00:00",
-  "last_error": ""
-}
+{"links": ["https://www.nyit.edu/academics/academic-success/career-success-and-experiential-education/", "https://www.nyit.edu/directory", "https://www.nyit.edu/faculty-and-staff"], "school_id": 979, "status": "complete", "updated_at": "2026-09-08T02:32:56+00:00", "started_at": "2026-09-08T02:32:53+00:00", "completed_at": "2026-09-08T02:32:56+00:00", "last_error": ""}

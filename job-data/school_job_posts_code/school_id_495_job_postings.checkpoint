@@ -1,13 +1,1 @@
-{
-  "links": [
-    "https://careers.uky.edu/",
-    "https://ukjobs.uky.edu",
-    "https://univofky.wd108.myworkdayjobs.com/UKSS"
-  ],
-  "school_id": 495,
-  "status": "complete",
-  "updated_at": "2026-09-08T01:50:48+00:00",
-  "started_at": "2026-09-08T01:50:42+00:00",
-  "completed_at": "2026-09-08T01:50:48+00:00",
-  "last_error": ""
-}
+{"links": ["https://univofky.wd108.myworkdayjobs.com/UKSS"], "school_id": 495, "status": "complete", "updated_at": "2026-09-08T01:50:48+00:00", "started_at": "2026-09-08T01:50:42+00:00", "completed_at": "2026-09-08T01:50:48+00:00", "last_error": ""}

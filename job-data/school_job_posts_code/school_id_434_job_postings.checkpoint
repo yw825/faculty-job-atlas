@@ -1,16 +1,1 @@
-{
-  "links": [
-    "https://www.marian.edu/current-students/index.php",
-    "https://www.marian.edu/index.php",
-    "https://marian.rec.pro.ukg.net/MAR1500MNUI/JobBoard/fde73847-46d9-4c8a-924e-a28b5c630bfc/?q=&o=postedDateDesc",
-    "http://marian.12twenty.com/jobPostings",
-    "https://www.marian.edu/human-resources/index.php",
-    "https://www.marian.edu/directory/index.php"
-  ],
-  "school_id": 434,
-  "status": "complete",
-  "updated_at": "2026-09-09T05:16:04+00:00",
-  "started_at": "2026-09-09T05:16:01+00:00",
-  "completed_at": "2026-09-09T05:16:04+00:00",
-  "last_error": ""
-}
+{"links": ["https://www.marian.edu/current-students/index.php", "https://www.marian.edu/index.php", "https://marian.rec.pro.ukg.net/MAR1500MNUI/JobBoard/fde73847-46d9-4c8a-924e-a28b5c630bfc/?q=&o=postedDateDesc", "http://marian.12twenty.com/jobPostings", "https://www.marian.edu/directory/index.php"], "school_id": 434, "status": "complete", "updated_at": "2026-09-09T05:16:04+00:00", "started_at": "2026-09-09T05:16:01+00:00", "completed_at": "2026-09-09T05:16:04+00:00", "last_error": ""}

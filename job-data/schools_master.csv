@@ -1363,7 +1363,7 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes,scrap
 1722,Tilburg University,Netherlands,https://www.tilburguniversity.edu/,https://career5.successfactors.eu/career?company=S003974031P&lang=nl_NL&career_ns=job_listing_summary&navBarLevel=JOB_SEARCH&_s.crb=6hYoVmeXY2z6%2bH0%2fMSGj5dWYTs0%3d,SAP SuccessFactors,high,hand-verified-sync,generic scraper (verified working)
 1723,Utrecht University,Netherlands,https://www.uu.nl/,https://www.uu.nl/en/organisation/working-at-utrecht-university/jobs,own website,high,hand-verified-sync,generic scraper
 1724,University of Bergen,Norway,https://www.uib.no/,https://www.jobbnorge.no/search/en?OrderBy=Published&Period=All&employer=724#1,own website,high,hand-verified-sync,generic scraper
-1725,BI Norwegian Business School,Norway,https://www.bi.edu/,https://academicpositions.com/employer/bi-norwegian-business-school,own website,high,hand-verified-sync,generic scraper
+1725,BI Norwegian Business School,Norway,https://www.bi.edu/,https://bi.easycruit.com/,own website,high,"hand-verified-sync | careers_link was an academicpositions.com EMPLOYER page (an aggregator): its ""postings"" were category pages like ""224 Machine Learning jobs"" and the same page on 11 country domains. Real board is EasyCruit.",generic scraper
 1726,University of Oslo,Norway,https://www.uio.no/,https://www.uio.no/english/about/vacancies/academic/,own website,high,hand-verified-sync,generic scraper
 1727,Norwegian University of Science and Technology,Norway,https://www.ntnu.no/,https://www.ntnu.edu/vacancies,own website,high,hand-verified-sync,generic scraper
 1728,AGH University of Krakow,Poland,https://www.agh.edu.pl/,https://bazaogloszen.nauka.gov.pl/wyniki-wyszukiwania/,Poland national portal,high,hand-verified-sync,adapter built
@@ -1532,3 +1532,7 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes,scrap
 1895,MacEwan University,Canada,https://www.macewan.ca/,https://www.macewan.ca/about-macewan/careers/opportunities/,own website,,,generic scraper
 1896,Kwantlen Polytechnic University,Canada,https://www.kpu.ca/,https://tre.tbe.taleo.net/tre01/ats/careers/v2/jobSearch?org=JT63GS&cws=37,Taleo,high,OK-2hop:OK:9,generic scraper (verified working)
 1897,Manhattan College,US,https://www.manhattan.edu/,,,,,
+1898,CATÓLICA-LISBON School of Business & Economics,Portugal,https://clsbe.lisboa.ucp.pt/,https://clsbe.lisboa.ucp.pt/research/research-positions,own website,,added: missing European business/economics school,generic scraper
+1899,Frankfurt School of Finance & Management,Germany,https://www.frankfurt-school.de/,https://jobs.frankfurt-school.de/,own website,,added: missing European business/economics school,generic scraper
+1900,NHH Norwegian School of Economics,Norway,https://www.nhh.no/,https://www.nhh.no/en/about-nhh/vacant-positions/,own website,,added: missing European business/economics school,generic scraper
+1901,IMD Business School,Switzerland,https://www.imd.org/,https://jobs.imd.org/search/,own website,,added: missing European business/economics school,generic scraper

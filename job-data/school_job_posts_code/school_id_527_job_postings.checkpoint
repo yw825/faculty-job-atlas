@@ -1,15 +1,1 @@
-{
-  "links": [
-    "https://www.centenary.edu/directories/offices-services-directory/human-resources/job-opportunities/",
-    "https://www.centenary.edu/directories/offices-services-directory/human-resources/injury-on-the-job/",
-    "http://www.centenary.edu/jobs.",
-    "http://www.centenary.edu/jobs",
-    "https://www.centenary.edu/faculty-staff/"
-  ],
-  "school_id": 527,
-  "status": "complete",
-  "updated_at": "2026-09-08T01:55:00+00:00",
-  "started_at": "2026-09-08T01:54:56+00:00",
-  "completed_at": "2026-09-08T01:55:00+00:00",
-  "last_error": ""
-}
+{"links": ["https://www.centenary.edu/directories/offices-services-directory/human-resources/injury-on-the-job/", "http://www.centenary.edu/jobs.", "https://www.centenary.edu/faculty-staff/"], "school_id": 527, "status": "complete", "updated_at": "2026-09-08T01:55:00+00:00", "started_at": "2026-09-08T01:54:56+00:00", "completed_at": "2026-09-08T01:55:00+00:00", "last_error": ""}

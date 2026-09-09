@@ -1,17 +1,1 @@
-{
-  "links": [
-    "https://www.csm.edu/academics/career-pathways/",
-    "https://www.csm.edu/academics/career-pathways/healthcare/",
-    "https://www.csm.edu/academics/career-pathways/business/",
-    "https://www.csm.edu/academics/career-pathways/education/",
-    "https://www.csm.edu/academics/career-pathways/human-services/",
-    "https://www.csm.edu/academics/career-pathways/science/",
-    "https://www.csm.edu/academics/career-pathways/law-legal-services/"
-  ],
-  "school_id": 839,
-  "status": "complete",
-  "updated_at": "2026-09-08T02:20:17+00:00",
-  "started_at": "2026-09-08T02:20:14+00:00",
-  "completed_at": "2026-09-08T02:20:17+00:00",
-  "last_error": ""
-}
+{"links": ["https://www.csm.edu/academics/career-pathways/healthcare/", "https://www.csm.edu/academics/career-pathways/business/", "https://www.csm.edu/academics/career-pathways/education/", "https://www.csm.edu/academics/career-pathways/human-services/", "https://www.csm.edu/academics/career-pathways/science/", "https://www.csm.edu/academics/career-pathways/law-legal-services/"], "school_id": 839, "status": "complete", "updated_at": "2026-09-08T02:20:17+00:00", "started_at": "2026-09-08T02:20:14+00:00", "completed_at": "2026-09-08T02:20:17+00:00", "last_error": ""}

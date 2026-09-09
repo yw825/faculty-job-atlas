@@ -1,17 +1,1 @@
-{
-  "links": [
-    "https://culver.edu/confirmation-fee-deposit/",
-    "https://culver.edu/gps-core/",
-    "https://culver.edu/academics/moorman-professorship-program/",
-    "https://culver.edu/academics/career-internship-center/",
-    "https://culver.edu/directory/",
-    "https://culver.edu/gps/online-career-development/career-building/",
-    "https://culver.edu/gps/online-career-development/skills-building/"
-  ],
-  "school_id": 703,
-  "status": "complete",
-  "updated_at": "2026-09-08T02:10:11+00:00",
-  "started_at": "2026-09-08T02:10:08+00:00",
-  "completed_at": "2026-09-08T02:10:11+00:00",
-  "last_error": ""
-}
+{"links": ["https://culver.edu/confirmation-fee-deposit/", "https://culver.edu/academics/moorman-professorship-program/", "https://culver.edu/academics/career-internship-center/", "https://culver.edu/directory/", "https://culver.edu/gps/online-career-development/career-building/", "https://culver.edu/gps/online-career-development/skills-building/"], "school_id": 703, "status": "complete", "updated_at": "2026-09-08T02:10:11+00:00", "started_at": "2026-09-08T02:10:08+00:00", "completed_at": "2026-09-08T02:10:11+00:00", "last_error": ""}

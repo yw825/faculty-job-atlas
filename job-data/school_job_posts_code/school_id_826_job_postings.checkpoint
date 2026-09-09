@@ -1,13 +1,1 @@
-{
-  "links": [
-    "https://www.mayvillestate.edu/student-resources/career-services/",
-    "https://www.mayvillestate.edu/student-resources/career-services/career-development-planning/",
-    "https://www.mayvillestate.edu/student-resources/career-services/handshake/"
-  ],
-  "school_id": 826,
-  "status": "complete",
-  "updated_at": "2026-09-08T02:18:42+00:00",
-  "started_at": "2026-09-08T02:18:39+00:00",
-  "completed_at": "2026-09-08T02:18:42+00:00",
-  "last_error": ""
-}
+{"links": ["https://www.mayvillestate.edu/student-resources/career-services/career-development-planning/", "https://www.mayvillestate.edu/student-resources/career-services/handshake/"], "school_id": 826, "status": "complete", "updated_at": "2026-09-08T02:18:42+00:00", "started_at": "2026-09-08T02:18:39+00:00", "completed_at": "2026-09-08T02:18:42+00:00", "last_error": ""}

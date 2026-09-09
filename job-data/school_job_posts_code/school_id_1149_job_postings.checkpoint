@@ -1,15 +1,1 @@
-{
-  "links": [
-    "http://academics.lafayette.edu/our-faculty/",
-    "http://my.lafayette.edu",
-    "https://hr.lafayette.edu/employment/job-opportunities/",
-    "https://provost.lafayette.edu/faculty-positions-available/",
-    "http://hr.lafayette.edu/category/job-opportunity/"
-  ],
-  "school_id": 1149,
-  "status": "complete",
-  "updated_at": "2026-09-08T02:46:35+00:00",
-  "started_at": "2026-09-08T02:46:30+00:00",
-  "completed_at": "2026-09-08T02:46:35+00:00",
-  "last_error": ""
-}
+{"links": ["http://academics.lafayette.edu/our-faculty/", "https://hr.lafayette.edu/employment/job-opportunities/", "https://provost.lafayette.edu/faculty-positions-available/", "http://hr.lafayette.edu/category/job-opportunity/"], "school_id": 1149, "status": "complete", "updated_at": "2026-09-08T02:46:35+00:00", "started_at": "2026-09-08T02:46:30+00:00", "completed_at": "2026-09-08T02:46:35+00:00", "last_error": ""}

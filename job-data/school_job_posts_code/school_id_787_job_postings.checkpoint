@@ -1,15 +1,1 @@
-{
-  "links": [
-    "https://www.methodist.edu/faculty-staff/",
-    "https://www.methodist.edu/offices-services/human-resources/positions-available/",
-    "https://www.methodist.edu/offices-services/human-resources/",
-    "https://www.methodist.edu/academics/awards/",
-    "https://www.methodist.edu/directory"
-  ],
-  "school_id": 787,
-  "status": "complete",
-  "updated_at": "2026-09-08T02:16:43+00:00",
-  "started_at": "2026-09-08T02:16:40+00:00",
-  "completed_at": "2026-09-08T02:16:43+00:00",
-  "last_error": ""
-}
+{"links": ["https://www.methodist.edu/faculty-staff/", "https://www.methodist.edu/offices-services/human-resources/positions-available/", "https://www.methodist.edu/academics/awards/", "https://www.methodist.edu/directory"], "school_id": 787, "status": "complete", "updated_at": "2026-09-08T02:16:43+00:00", "started_at": "2026-09-08T02:16:40+00:00", "completed_at": "2026-09-08T02:16:43+00:00", "last_error": ""}

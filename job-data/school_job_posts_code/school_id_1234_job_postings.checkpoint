@@ -1,18 +1,1 @@
-{
-  "links": [
-    "https://www.inter.edu/conocenos/empleos-3/",
-    "https://www.br.inter.edu/oferta_academica/",
-    "https://www.br.inter.edu/oferta-academica/concentraciones-menores/",
-    "https://www.br.inter.edu/oferta-academica/educacion-continua/",
-    "https://www.br.inter.edu/oferta-academica/educacion-distancia/",
-    "https://www.br.inter.edu/wp-content/uploads/2022/03/SOLICITUD-DE-EMPLEO-REVISADA-2022.pdf",
-    "https://www.br.inter.edu?feed=job_feed&job_types&search_location&job_categories&search_keywords&author",
-    "https://www.br.inter.edu/empleos/"
-  ],
-  "school_id": 1234,
-  "status": "complete",
-  "updated_at": "2026-09-09T05:17:19+00:00",
-  "started_at": "2026-09-09T05:17:16+00:00",
-  "completed_at": "2026-09-09T05:17:19+00:00",
-  "last_error": ""
-}
+{"links": ["https://www.inter.edu/conocenos/empleos-3/", "https://www.br.inter.edu/oferta_academica/", "https://www.br.inter.edu/oferta-academica/concentraciones-menores/", "https://www.br.inter.edu/oferta-academica/educacion-continua/", "https://www.br.inter.edu/oferta-academica/educacion-distancia/", "https://www.br.inter.edu/wp-content/uploads/2022/03/SOLICITUD-DE-EMPLEO-REVISADA-2022.pdf"], "school_id": 1234, "status": "complete", "updated_at": "2026-09-09T05:17:19+00:00", "started_at": "2026-09-09T05:17:16+00:00", "completed_at": "2026-09-09T05:17:19+00:00", "last_error": ""}

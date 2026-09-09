@@ -1,17 +1,1 @@
-{
-  "links": [
-    "https://apply.wabash.edu/apply/status",
-    "https://www.wabash.edu/employment/?job_id=2073",
-    "https://www.wabash.edu/employment/?job_id=2069",
-    "https://www.wabash.edu/employment/?job_id=2072",
-    "https://www.wabash.edu/employment/?job_id=2074",
-    "https://www.wabash.edu/employment/?job_id=2068",
-    "https://www.wabash.edu/news/story/13557"
-  ],
-  "school_id": 419,
-  "status": "complete",
-  "updated_at": "2026-09-08T01:42:37+00:00",
-  "started_at": "2026-09-08T01:42:34+00:00",
-  "completed_at": "2026-09-08T01:42:37+00:00",
-  "last_error": ""
-}
+{"links": ["https://apply.wabash.edu/apply/status", "https://www.wabash.edu/employment/?job_id=2073", "https://www.wabash.edu/employment/?job_id=2069", "https://www.wabash.edu/employment/?job_id=2072", "https://www.wabash.edu/employment/?job_id=2074", "https://www.wabash.edu/employment/?job_id=2068"], "school_id": 419, "status": "complete", "updated_at": "2026-09-08T01:42:37+00:00", "started_at": "2026-09-08T01:42:34+00:00", "completed_at": "2026-09-08T01:42:37+00:00", "last_error": ""}
