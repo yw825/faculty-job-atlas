@@ -46,6 +46,9 @@ _NAV_SEGMENT = re.compile(
     r'about|about-?us|contact|contact-?us|benefits|why-?work|life|culture|diversity|'
     r'students?|staff|faculty|alumni|internal|external|current|new|featured|'
     r'category|categories|department|departments|division|divisions|location|locations|'
+    # Listing endpoints that read like a path segment rather than an action:
+    # SAP SuccessFactors' /jobsearch, and department pages whose last
+    # segment is the section name (mun.ca/.../opportunities/<faculty>/).\n    r'jobsearch|job-search|job-opportunities|job-openings|current-opportunities|'
     r'campus|campuses|type|types|filter|filters|results?|page|pages|view|more)$', re.I)
 
 # "staff-jobs", "faculty-jobs", "student-employment" -- a category, not a job.
@@ -86,7 +89,11 @@ _NEVER_A_POSTING = re.compile(
 
 _ID_QUERY = re.compile(r'(?:^|&)[a-z]*(?:job|posting|req|requisition|vacancy|position)?_?id=[^&=]+',
                        re.I)
-_ACTION_PATH = re.compile(r'/(?:bookmarks?|login|log-?in|signin|sign-?in|apply|application|'
+# /<id>/<slug> -- the shape of a posting URL on most ATSs, whatever comes
+# after it.
+_ID_THEN_SLUG = re.compile(r'/\d{2,}/[a-z0-9%][a-z0-9%\-_.]{3,}', re.I)
+
+_ACTION_PATH = re.compile(r'/(?:bookmarks?|login|log-?in|logon|signin|sign-?in|apply|application|'
                           r'share|email|subscribe|alerts?|register|intro)(?:\.[a-z]+)?/?$', re.I)
 
 
@@ -102,6 +109,10 @@ def is_furniture(url, path, dominant_prefix, sibling_paths, careers_root):
     """Reasons a URL is a section of the site rather than one posting. Each
     returns a short label so the report can say WHY a row was dropped."""
     segs = [s for s in path.split('/') if s]
+    # "index.html" is the same page as "index": without stripping the
+    # extension a listing like .../vacancies/index.html reads as a unique
+    # slug and is kept as if it were one posting.
+    segs = [re.sub(r'\.(?:html?|php|aspx?|jsp|ftl)$', '', s, flags=re.I) for s in segs]
 
     if _NEVER_A_POSTING.search(url):
         return 'share widget / policy / feed URL'
@@ -110,6 +121,13 @@ def is_furniture(url, path, dominant_prefix, sibling_paths, careers_root):
         return 'site root'
     if url.rstrip('/') == (careers_root or '').rstrip('/'):
         return 'the careers link itself'
+
+    # An id segment followed by a slug is a posting whatever the path ends
+    # with. iCIMS addresses every posting as /jobs/<id>/<slug>/job, and
+    # reading that trailing "job" as navigation condemned all 66 of IE
+    # University's real openings.
+    if _ID_THEN_SLUG.search(path):
+        return None
 
     if _ACTION_PATH.search(path):
         return f'action page (/{segs[-1]})'
@@ -152,6 +170,10 @@ def looks_like_posting(path, dominant_prefix, dominant_is_majority, listing_path
     An explicit id still rescues a row from anywhere, since some sites do
     scatter postings across paths."""
     segs = [s for s in path.split('/') if s]
+    # "index.html" is the same page as "index": without stripping the
+    # extension a listing like .../vacancies/index.html reads as a unique
+    # slug and is kept as if it were one posting.
+    segs = [re.sub(r'\.(?:html?|php|aspx?|jsp|ftl)$', '', s, flags=re.I) for s in segs]
     if not segs:
         return False
     last = segs[-1]

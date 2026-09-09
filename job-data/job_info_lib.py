@@ -1214,7 +1214,13 @@ _TITLE_LOOKS_LIKE_JOB_RE = re.compile(
 # so it is dropped rather than kept as a (winning, wrong) short candidate.
 # A page-title segment that names the careers SITE rather than the job.
 _SITE_LABEL_RE = re.compile(
-    r'^(?:careers?|jobs?|employment|job\s+opportunities|work(?:ing)?\s+(?:at|for|with))\b',
+    r'^(?:careers?|jobs?|employment|job\s+opportunities|work(?:ing)?\s+(?:at|for|with))\b'
+    # ...or a left side that ENDS in the site's name for itself. Lethbridge
+    # titles every posting "University of Lethbridge Applicant Portal |
+    # Faculty of Arts & Science - Sessional Lecturer", so the tell is the
+    # trailing label, not the leading word.
+    r'|.{0,60}?(?:applicant\s+portal|careers?|job\s+board|recruitment|vacancies|'
+    r'job\s+opportunities|employment)\s*$',
     re.I)
 
 _LEADING_JUNK_TITLE_RE = re.compile(
@@ -1237,6 +1243,11 @@ def _title_candidates_from_text(raw):
     # at Bowdoin College". The right-hand side is preferred only when the
     # left is recognisably a site/section label.
     if ' | ' in raw:
+        # Entities survive into <title> text on some sites ("Arts &amp;
+        # Science"), and would otherwise be carried into the keyword.
+        import html as _html
+        raw = _html.unescape(raw)
+        candidates[0] = raw
         left, _, right = raw.partition(' | ')
         if _SITE_LABEL_RE.match(left.strip()) and right.strip():
             candidates.insert(0, right.strip())

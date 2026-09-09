@@ -1,9 +1,5 @@
 {
   "raw": {
-    "https://jobs.dayforcehcm.com/en-US/shu/CANDIDATEPORTAL": {
-      "title": "Search Jobs",
-      "description": "Job Board | Dayforce Jobs Skip to Content Sign In Search Jobs Search by job title, keywords, req ID Location Distance Advanced search Save Search Clear All Search Jobs Loading ©2009-2026 Dayforce HCM, Inc. All Rights Reserved. Privacy Policy Cookie Preferences"
-    },
     "https://jobs.dayforcehcm.com/en-US/shu/CANDIDATEPORTAL/recommendedJobs": {
       "title": "Recommended Jobs",
       "description": "Recommended Jobs | Dayforce Jobs Skip to Content Sign In Recommended Jobs Loading ©2009-2026 Dayforce HCM, Inc. All Rights Reserved. Privacy Policy Cookie Preferences"
@@ -110,17 +106,6 @@
     }
   },
   "rows": {
-    "https://jobs.dayforcehcm.com/en-US/shu/CANDIDATEPORTAL": {
-      "school_id": 182,
-      "posting_url": "https://jobs.dayforcehcm.com/en-US/shu/CANDIDATEPORTAL",
-      "job_title_in_post": "Search Jobs",
-      "position_type": "Unclassified",
-      "job_term": "Full-time",
-      "department_or_school": "",
-      "area_key_words": "",
-      "deadline_of_application": "",
-      "position_start_date": ""
-    },
     "https://jobs.dayforcehcm.com/en-US/shu/CANDIDATEPORTAL/recommendedJobs": {
       "school_id": 182,
       "posting_url": "https://jobs.dayforcehcm.com/en-US/shu/CANDIDATEPORTAL/recommendedJobs",
@@ -410,7 +395,7 @@
   },
   "school_id": 182,
   "status": "complete",
-  "updated_at": "2026-09-08T21:40:55+00:00",
-  "completed_at": "2026-09-08T21:40:55+00:00",
+  "updated_at": "2026-09-09T18:23:48+00:00",
+  "completed_at": "2026-09-09T18:23:48+00:00",
   "last_error": ""
 }
