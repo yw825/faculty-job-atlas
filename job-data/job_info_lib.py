@@ -1899,6 +1899,8 @@ def fetch_peoplesoft_bulk(careers_link):
     return out
 
 
+_RAW_CACHE_LIMIT = 20000
+
 BULK_ADAPTERS = {
     'oracle': fetch_oracle_bulk,
     'smartrecruiters': fetch_smartrecruiters_bulk,
@@ -1973,7 +1975,13 @@ def run_school_job_info(school_id, job_postings_checkpoint_path, job_info_checkp
         for url in to_fetch:
             try:
                 title, description = detail_fn(url)
-                ckpt['raw'][url] = {'title': title, 'description': description}
+                # Cap the cached description. It exists so the corpus-wide
+                # keyword statistics can be built in one pass, and 20k
+                # characters is far more than that needs -- while University
+                # College Dublin's pages ran the checkpoint to 214MB of
+                # cached text, past GitHub's 100MB file limit.
+                ckpt['raw'][url] = {'title': title,
+                                    'description': (description or '')[:_RAW_CACHE_LIMIT]}
             except Exception as e:
                 ckpt['raw'][url] = {'error': f'{type(e).__name__}: {e}'}
             save_cb()
