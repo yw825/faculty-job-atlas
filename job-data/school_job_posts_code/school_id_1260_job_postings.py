@@ -31,7 +31,7 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1260
 SCHOOL_NAME = 'Inter American University of Puerto Rico-Metro'
-CAREERS_LINK = 'https://metro.inter.edu/recursos-humanos/'
+CAREERS_LINK = 'https://www.inter.edu/conocenos/empleos-3/'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')

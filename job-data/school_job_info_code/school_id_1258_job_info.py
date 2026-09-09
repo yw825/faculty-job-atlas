@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1258
 SCHOOL_NAME = 'Inter American University of Puerto Rico-San German'
-CAREERS_LINK = 'https://www.inter.edu/about-us/empleos-3/'
+CAREERS_LINK = 'https://www.inter.edu/conocenos/empleos-3/'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

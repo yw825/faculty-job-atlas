@@ -80,6 +80,11 @@ _NEVER_A_POSTING = re.compile(
     # and /button/redir/<id> are the aggregator's own navigation and were
     # being stored as if they were jobs.
     r'jobs\.ac\.uk/(?!job/)|'
+    # A university's PROGRAMME catalogue, which uses the same "offer"
+    # vocabulary as its job board in Spanish: /oferta-academica/ lists
+    # degrees ("Bachilleratos", "Maestrias", "Doctorados"), not vacancies.
+    # Four Inter American campuses had these stored as their postings.
+    r'/oferta-academica/|/oferta/\?programa=|/oferta-academica$|'
     # An aggregator's category and locale pages: BI Norwegian's careers_link
     # was an academicpositions.com employer page, and its "postings" were
     # "224 Machine Learning jobs", "131 jobs in Belgium" and the same

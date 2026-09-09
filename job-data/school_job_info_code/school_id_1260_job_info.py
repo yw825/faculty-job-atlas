@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1260
 SCHOOL_NAME = 'Inter American University of Puerto Rico-Metro'
-CAREERS_LINK = 'https://metro.inter.edu/recursos-humanos/'
+CAREERS_LINK = 'https://www.inter.edu/conocenos/empleos-3/'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1234
 SCHOOL_NAME = 'Inter American University of Puerto Rico-Barranquitas'
-CAREERS_LINK = 'https://www.br.inter.edu/empleos/'
+CAREERS_LINK = 'https://www.inter.edu/conocenos/empleos-3/'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

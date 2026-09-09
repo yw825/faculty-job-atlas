@@ -1256,7 +1256,11 @@ def _title_candidates_from_text(raw):
             candidates.insert(0, right.strip())
 
     cur = raw
-    for sep in (' | ', ' - '):
+    # En/em dash as well as the ASCII hyphen: WordPress job boards append
+    # the site name after an en-dash ("Decano(a) Auxiliar – Universidad
+    # Interamericana de Puerto Rico"), which otherwise rides along into
+    # the title and the keyword.
+    for sep in (' | ', ' - ', ' – ', ' — '):
         if sep in cur:
             cur = cur.split(sep)[0].strip()
             candidates.insert(0, cur)

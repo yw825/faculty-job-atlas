@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1231
 SCHOOL_NAME = 'Inter American University of Puerto Rico-Arecibo'
-CAREERS_LINK = 'http://www.arecibo.inter.edu/department/recursos-humanos/'
+CAREERS_LINK = 'https://www.inter.edu/conocenos/empleos-3/'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 
