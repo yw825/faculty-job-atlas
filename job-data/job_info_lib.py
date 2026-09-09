@@ -1453,15 +1453,38 @@ def fetch_oracle_bulk(careers_link):
         try:
             page = b.new_page(user_agent=jlib.UA)
 
+            seen_requests = []
+
             def on_request(req):
-                if 'recruitingCEJobRequisitions' in req.url and not captured:
-                    captured['headers'] = dict(req.headers)
-                    captured['url'] = req.url
+                if 'recruitingCEJobRequisitions' in req.url:
+                    seen_requests.append((req.url, dict(req.headers)))
 
             page.on('request', on_request)
             with page.expect_request('**/recruitingCEJobRequisitions**', timeout=15000):
                 page.goto(careers_link, timeout=25000, wait_until='domcontentloaded')
-            page.wait_for_timeout(500)
+            page.wait_for_timeout(1500)
+            # Same facets-only first call as scrape_oracle: it reports the
+            # job COUNT but an empty requisitionList, so reading it alone
+            # returned 0 rows for all 6 schools whose postings had just
+            # been recovered. The listing query expands requisitionList.*.
+            def _has_listing():
+                return any('requisitionList.' in u for u, _h in seen_requests)
+
+            if not _has_listing():
+                for selector in ('text=/All Jobs/', 'text=/Search Jobs/',
+                                 'button:has-text("Search")'):
+                    try:
+                        page.click(selector, timeout=5000)
+                        page.wait_for_timeout(6000)
+                    except Exception:
+                        continue
+                    if _has_listing():
+                        break
+            listing = [(u, h) for u, h in seen_requests if 'requisitionList.' in u]
+            if listing or seen_requests:
+                best_url, best_headers = (listing[-1] if listing else seen_requests[0])
+                captured['url'] = best_url
+                captured['headers'] = best_headers
             captured['cookies'] = page.context.cookies()
             last_err = None
             break

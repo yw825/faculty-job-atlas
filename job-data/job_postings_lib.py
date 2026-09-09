@@ -496,15 +496,42 @@ def scrape_oracle(url):
         try:
             page = b.new_page(user_agent=UA)
 
+            seen_requests = []
+
             def on_request(req):
-                if 'recruitingCEJobRequisitions' in req.url and not captured:
-                    captured['headers'] = dict(req.headers)
-                    captured['url'] = req.url
+                if 'recruitingCEJobRequisitions' in req.url:
+                    seen_requests.append((req.url, dict(req.headers)))
 
             page.on('request', on_request)
             with page.expect_request('**/recruitingCEJobRequisitions**', timeout=15000):
                 page.goto(url, timeout=25000, wait_until='domcontentloaded')
-            page.wait_for_timeout(500)
+            page.wait_for_timeout(1500)
+
+            # Some tenants answer the FIRST call with facets only -- it
+            # reports TotalJobsCount=90 and an empty requisitionList, and no
+            # limit/offset/sortBy added to it will make it return the jobs.
+            # The real listing query is a separate call the page makes when
+            # the job list is opened, distinguishable by expanding
+            # requisitionList.* fields. Tulane, Davidson and St Olaf all sat
+            # at 0 postings on the facets call alone.
+            def has_listing():
+                return any('requisitionList.' in u for u, _h in seen_requests)
+
+            if not has_listing():
+                for selector in ('text=/All Jobs/', 'text=/Search Jobs/',
+                                 'button:has-text("Search")'):
+                    try:
+                        page.click(selector, timeout=5000)
+                        page.wait_for_timeout(6000)
+                    except Exception:
+                        continue
+                    if has_listing():
+                        break
+
+            listing = [(u, h) for u, h in seen_requests if 'requisitionList.' in u]
+            best_url, best_headers = (listing[-1] if listing else seen_requests[0])
+            captured['url'] = best_url
+            captured['headers'] = best_headers
             captured['cookies'] = page.context.cookies()
             break
         except Exception as e:

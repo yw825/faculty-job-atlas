@@ -1,9 +1,219 @@
 {
-  "raw": {},
-  "rows": {},
+  "raw": {
+    "https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/2921": {
+      "title": "Oslo Administrative Coordinator, North American Branch Office",
+      "description": "",
+      "department": null
+    },
+    "https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/2667": {
+      "title": "Public Safety Officer",
+      "description": "",
+      "department": null
+    },
+    "https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/2854": {
+      "title": "Recreation Facilities Supervisor",
+      "description": "",
+      "department": null
+    },
+    "https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/2871": {
+      "title": "Assistant or Associate Professor of Engineering Physics",
+      "description": "The Department of Physics and the Engineering Studies Program at St. Olaf College invite applications for a full-time, tenure track position in Engineering Physics at the Assistant or Associate Professor level to begin August 2027.",
+      "department": null
+    },
+    "https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/2839": {
+      "title": "Assistant Professor of Classics",
+      "description": "The Department of Classics at St. Olaf College invites applications for a full-time, tenure track position in Classics at the Assistant Professor level to begin August 2027. ",
+      "department": null
+    },
+    "https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/2816": {
+      "title": "Assistant Track and Field Coach",
+      "description": "",
+      "department": null
+    },
+    "https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/2767": {
+      "title": "Assistant Director for Residence Life Assignments & Business Services",
+      "description": "",
+      "department": null
+    },
+    "https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/2747": {
+      "title": "Assistant Professor of English in Anglophone African Literature",
+      "description": "The Department of English at St. Olaf College invites applications for a full-time, tenure track position in Anglophone African Literature at the Assistant Professor level to begin August 2027. ",
+      "department": null
+    },
+    "https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/2738": {
+      "title": "Assistant Professor of Music (Violin)",
+      "description": "The Department of Music at St. Olaf College invites applications for a full-time, tenure track position in Violin at the rank of Assistant Professor, to begin August 2027.",
+      "department": null
+    },
+    "https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/2739": {
+      "title": "Assistant Professor of Music (Cello)",
+      "description": "The Department of Music at St. Olaf College invites applications for a full-time, tenure track position in Cello at the rank of Assistant Professor, to begin August 2027.",
+      "department": null
+    },
+    "https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/2736": {
+      "title": "Assistant Professor of Statistics and Data Science",
+      "description": "The Department of Mathematics, Statistics, and Computer Science (MSCS) at St. Olaf College invites applications for a full-time, tenure track position in Statistics and Data Science at the Assistant Professor level, to begin August 2027.",
+      "department": null
+    },
+    "https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/2735": {
+      "title": "Assistant Professor of Computer Science",
+      "description": "The Department of Mathematics, Statistics, and Computer Science (MSCS) at St. Olaf College invites applications for a full-time, tenure track position in Computer Science at the Assistant Professor level, to begin August 2027.",
+      "department": null
+    },
+    "https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/2737": {
+      "title": "Assistant Professor of Finance",
+      "description": "The Department of Economics (Business Program) at St. Olaf College invites applications for a full-time, tenure track position in Finance at the Assistant Professor level to begin August 2027. ",
+      "department": null
+    }
+  },
+  "rows": {
+    "https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/2921": {
+      "school_id": 686,
+      "posting_url": "https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/2921",
+      "job_title_in_post": "Oslo Administrative Coordinator, North American Branch Office",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/2667": {
+      "school_id": 686,
+      "posting_url": "https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/2667",
+      "job_title_in_post": "Public Safety Officer",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/2854": {
+      "school_id": 686,
+      "posting_url": "https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/2854",
+      "job_title_in_post": "Recreation Facilities Supervisor",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/2871": {
+      "school_id": 686,
+      "posting_url": "https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/2871",
+      "job_title_in_post": "Assistant or Associate Professor of Engineering Physics",
+      "position_type": "Assistant_Professor; Associate_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Department of Physics and the Engineering Studies Program",
+      "area_key_words": "Engineering Physics",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/2839": {
+      "school_id": 686,
+      "posting_url": "https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/2839",
+      "job_title_in_post": "Assistant Professor of Classics",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Department of Classics",
+      "area_key_words": "Classics",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/2816": {
+      "school_id": 686,
+      "posting_url": "https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/2816",
+      "job_title_in_post": "Assistant Track and Field Coach",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/2767": {
+      "school_id": 686,
+      "posting_url": "https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/2767",
+      "job_title_in_post": "Assistant Director for Residence Life Assignments & Business Services",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/2747": {
+      "school_id": 686,
+      "posting_url": "https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/2747",
+      "job_title_in_post": "Assistant Professor of English in Anglophone African Literature",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Department of English",
+      "area_key_words": "English in Anglophone African Literature",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/2738": {
+      "school_id": 686,
+      "posting_url": "https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/2738",
+      "job_title_in_post": "Assistant Professor of Music (Violin)",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Department of Music",
+      "area_key_words": "Music",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/2739": {
+      "school_id": 686,
+      "posting_url": "https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/2739",
+      "job_title_in_post": "Assistant Professor of Music (Cello)",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Department of Music",
+      "area_key_words": "Music",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/2736": {
+      "school_id": 686,
+      "posting_url": "https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/2736",
+      "job_title_in_post": "Assistant Professor of Statistics and Data Science",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Department of Mathematics, Statistics, and Computer Science",
+      "area_key_words": "Statistics and Data Science",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/2735": {
+      "school_id": 686,
+      "posting_url": "https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/2735",
+      "job_title_in_post": "Assistant Professor of Computer Science",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Department of Mathematics, Statistics, and Computer Science",
+      "area_key_words": "Computer Science",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/2737": {
+      "school_id": 686,
+      "posting_url": "https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/2737",
+      "job_title_in_post": "Assistant Professor of Finance",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Department of Economics",
+      "area_key_words": "Finance",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    }
+  },
   "school_id": 686,
   "status": "complete",
-  "updated_at": "2026-09-05T05:13:34+00:00",
-  "completed_at": "2026-09-05T05:13:34+00:00",
+  "updated_at": "2026-09-09T06:36:31+00:00",
+  "completed_at": "2026-09-09T06:36:31+00:00",
   "last_error": ""
 }
