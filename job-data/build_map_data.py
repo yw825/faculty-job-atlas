@@ -143,7 +143,12 @@ _JUNK_TITLE_RE = re.compile(
     # different schools, and a cookie banner became a job title on 3.
     r'terms of use|terms (?:and|&) conditions|inbox|profile|my profile|'
     r'this site uses cookies.*|cookie (?:policy|notice|preferences)|'
-    r'notifications?|settings|help|sitemap)$', re.I)
+    r'notifications?|settings|help|sitemap|'
+    # Page scaffolding and vendor chrome that a detail fetch picked up as
+    # the title: a nav landmark ("Breadcrumb", on 6 schools), the CMS's own
+    # name ("Modern Campus CMS", on 11), and directory pages.
+    r'breadcrumb|modern campus cms|career services|'
+    r'(?:faculty (?:and|&) staff|staff|employee|campus) directory|directory)$', re.I)
 
 
 # The regex above only catches furniture we can name. The bigger problem is
