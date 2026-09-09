@@ -1418,7 +1418,7 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes,scrap
 1777,University of St Andrews,United Kingdom,https://www.st-andrews.ac.uk/,https://www.vacancies.st-andrews.ac.uk/V2/Vacancy/Index?enc=HRIqN026cS+vCbCYvrmuUlRuC79/39yknYl6JyVFAq0mun48UhH8QAr+8i5zlZ1Iopg1CFFQVvSCOnD76tE5697cs+NZYbkYpVmUd+mthuk=,own website,,,generic scraper
 1778,Australian National University,Australia,https://www.anu.edu.au/,https://jobs.anu.edu.au/jobs/search?page=1&category_uids%5B%5D=37694d529bb555c68f1e76ddc653d496&query=,own website,high,OK-2hop:OK:6,generic scraper
 1779,University of Canberra,Australia,https://www.canberra.edu.au/,https://uctalent.canberra.edu.au/cw/en/listing.html,own website,,,generic scraper
-1780,University of New England,Australia,https://www.une.edu.au/,https://www.une.edu.au/jobs-at-une/current,own website,,,generic scraper
+1780,University of New England,Australia,https://www.une.edu.au/,https://www.une.edu.au/jobs-at-une/current-vacancies,own website,, | careers_link corrected to current-vacancies; page yields no machine-readable postings,generic scraper
 1781,Charles Sturt University,Australia,https://www.csu.edu.au/,https://external-jobs.csu.edu.au/cw/en/listing,own website,,,generic scraper
 1782,Avondale University,Australia,https://www.avondale.edu.au/,https://www.avondale.edu.au/jobs/,own website,,,generic scraper
 1783,Southern Cross University,Australia,https://www.scu.edu.au/,"https://scu.nga.net.au/cp/index.cfm?event=jobs.home&CurATC=SCUV&CurBID=51DD8D38%2D4B88%2D7392%2DACDD%2DED0640CCE5F0&persistVariables=CurATC,CurBID&rmuh=15EDB634969DDC3C00315ACF8D676E85FD9E305F",PageUp/NGA,,,"blocked (CAPTCHA/WAF, confirmed)"

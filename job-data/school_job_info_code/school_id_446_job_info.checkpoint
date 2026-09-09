@@ -1,65 +1,14 @@
 {
   "raw": {
-    "https://www.oak.edu/academics/career-pathways-program/": {
-      "title": "404",
-      "description": "Site Not Configured | 404 Not Found 404 The site you were looking for couldn't be found. This domain is successfully pointed at WP Engine, but is not configured for an account on our platform. If you just signed up, we're still likely creating your account. Did you add this domain to your install ? Did you point DNS to the correct IP address or CNAME ? If you've completed the steps above, or need more help, please contact us and we can help get your site up and running in no time. Hosted by"
-    },
-    "https://www.oak.edu/student-life/student-services/career-services/": {
-      "title": "404",
-      "description": "Site Not Configured | 404 Not Found 404 The site you were looking for couldn't be found. This domain is successfully pointed at WP Engine, but is not configured for an account on our platform. If you just signed up, we're still likely creating your account. Did you add this domain to your install ? Did you point DNS to the correct IP address or CNAME ? If you've completed the steps above, or need more help, please contact us and we can help get your site up and running in no time. Hosted by"
-    },
-    "https://efaculty.oak.edu/login.asp": {
-      "error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_CERT_DATE_INVALID at https://efaculty.oak.edu/login.asp\nCall log:\n  - navigating to \"https://efaculty.oak.edu/login.asp\", waiting until \"domcontentloaded\"\n"
-    },
     "https://www.oak.edu/faculty-staff/": {
-      "title": "404",
-      "description": "Site Not Configured | 404 Not Found 404 The site you were looking for couldn't be found. This domain is successfully pointed at WP Engine, but is not configured for an account on our platform. If you just signed up, we're still likely creating your account. Did you add this domain to your install ? Did you point DNS to the correct IP address or CNAME ? If you've completed the steps above, or need more help, please contact us and we can help get your site up and running in no time. Hosted by"
-    },
-    "https://www.oak.edu/jobs/": {
       "title": "404",
       "description": "Site Not Configured | 404 Not Found 404 The site you were looking for couldn't be found. This domain is successfully pointed at WP Engine, but is not configured for an account on our platform. If you just signed up, we're still likely creating your account. Did you add this domain to your install ? Did you point DNS to the correct IP address or CNAME ? If you've completed the steps above, or need more help, please contact us and we can help get your site up and running in no time. Hosted by"
     }
   },
   "rows": {
-    "https://www.oak.edu/academics/career-pathways-program/": {
-      "school_id": 446,
-      "posting_url": "https://www.oak.edu/academics/career-pathways-program/",
-      "job_title_in_post": "404",
-      "position_type": "Unclassified",
-      "job_term": "Full-time",
-      "department_or_school": "",
-      "area_key_words": "",
-      "deadline_of_application": "",
-      "position_start_date": ""
-    },
-    "https://www.oak.edu/student-life/student-services/career-services/": {
-      "school_id": 446,
-      "posting_url": "https://www.oak.edu/student-life/student-services/career-services/",
-      "job_title_in_post": "404",
-      "position_type": "Unclassified",
-      "job_term": "Full-time",
-      "department_or_school": "",
-      "area_key_words": "",
-      "deadline_of_application": "",
-      "position_start_date": ""
-    },
-    "https://efaculty.oak.edu/login.asp": {
-      "error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_CERT_DATE_INVALID at https://efaculty.oak.edu/login.asp\nCall log:\n  - navigating to \"https://efaculty.oak.edu/login.asp\", waiting until \"domcontentloaded\"\n"
-    },
     "https://www.oak.edu/faculty-staff/": {
       "school_id": 446,
       "posting_url": "https://www.oak.edu/faculty-staff/",
-      "job_title_in_post": "404",
-      "position_type": "Unclassified",
-      "job_term": "Full-time",
-      "department_or_school": "",
-      "area_key_words": "",
-      "deadline_of_application": "",
-      "position_start_date": ""
-    },
-    "https://www.oak.edu/jobs/": {
-      "school_id": 446,
-      "posting_url": "https://www.oak.edu/jobs/",
       "job_title_in_post": "404",
       "position_type": "Unclassified",
       "job_term": "Full-time",
@@ -71,7 +20,7 @@
   },
   "school_id": 446,
   "status": "complete",
-  "updated_at": "2026-09-09T16:49:15+00:00",
-  "completed_at": "2026-09-09T16:49:15+00:00",
+  "updated_at": "2026-09-09T18:36:00+00:00",
+  "completed_at": "2026-09-09T18:36:00+00:00",
   "last_error": ""
 }

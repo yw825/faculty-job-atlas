@@ -1400,6 +1400,11 @@ def fetch_detail_generic(url):
     if not html:
         html = jlib.fetch_rendered(url)
     if jlib.is_fetch_failure(html):
+        # Last resort before giving up: some boards carry the title in the
+        # URL, which survives a block that the page itself does not.
+        from_url = title_from_url(url)
+        if from_url:
+            return from_url, ''
         raise RuntimeError(html)
     from bs4 import BeautifulSoup
     soup = BeautifulSoup(html, 'html.parser')
@@ -1417,7 +1422,43 @@ def fetch_detail_generic(url):
         candidates += _title_candidates_from_text(title_tag.get_text(strip=True))
     title = _pick_best_title(candidates)
     description = soup.get_text(' ', strip=True)
+    # A challenge page answers 200 with a title that is just the hostname
+    # ("www.ucl.ac.uk") or "Just a moment...", so the block has to be
+    # detected from the CONTENT, not the status. Where the URL carries the
+    # title, that is better than what the page gave us.
+    if _BLOCK_PAGE_RE.search(description[:400]) or _looks_like_hostname(title):
+        from_url = title_from_url(url)
+        if from_url:
+            return from_url, description
     return title, description
+
+
+_BLOCK_PAGE_RE = re.compile(
+    r'just a moment|checking your browser|verify you are human|'
+    r'enable javascript and cookies|attention required|cf-browser-verification',
+    re.I)
+
+
+def _looks_like_hostname(text):
+    return bool(re.fullmatch(r'(?:www\.)?[a-z0-9.-]+\.[a-z]{2,}', (text or '').strip(), re.I))
+
+
+def title_from_url(url):
+    """A posting title carried in the URL's own query string.
+
+    Some boards put it there: UCL's postings are
+    /search-ucl-jobs/details?jobId=47398&jobTitle=Lecturer+(Teaching)...
+    All twelve of UCL's sit behind a Cloudflare challenge that no fetch
+    gets past, so the URL is the only place the title survives -- without
+    this they are twelve rows of nothing."""
+    from urllib.parse import urlsplit, parse_qs, unquote_plus
+    q = parse_qs(urlsplit(url).query)
+    for key in ('jobTitle', 'jobtitle', 'title', 'positionTitle', 'jobname'):
+        for v in q.get(key, []):
+            v = unquote_plus(v).strip()
+            if len(v) > 3:
+                return re.sub(r'\s+', ' ', v)
+    return ''
 
 
 def fetch_detail_academicjobsonline(url):

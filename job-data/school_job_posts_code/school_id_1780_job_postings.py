@@ -37,6 +37,9 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkp
 
 
 def find_links():
+    """NOTE: emptied on purpose. Every link this school's careers page
+    yields is site guidance, not a job -- all stored links were "how to apply"/FAQ pages. Verified by fetching all
+    of them. An empty file is correct until its real board is located."""
     html = lib.fetch_rendered(CAREERS_LINK)
     if lib.is_fetch_failure(html):
         raise RuntimeError(html)
