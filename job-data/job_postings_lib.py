@@ -817,7 +817,13 @@ def normalize_platform_url(url):
     applications. It answers 200 and the adapter runs happily against it,
     returning 0 of the university's 87 open positions. Dropping the
     /my-applications/ segment gives the board."""
-    return re.sub(r'(jobs\.smartrecruiters\.com)/my-applications/', r'\1/', url)
+    url = re.sub(r'(jobs\.smartrecruiters\.com)/my-applications/', r'\1/', url)
+    # PageUp serves several sites per instance: /ci/ is the login-gated
+    # internal one, /cw/ the public "Current Opportunities" board. Virginia
+    # Tech's link pointed at /ci/, which renders a login page and zero jobs
+    # while /cw/ lists 20.
+    url = re.sub(r'(careers\.pageuppeople\.com/\d+)/ci/', r'\1/cw/', url)
+    return url
 
 
 def scrape_smartrecruiters(url):
@@ -1420,6 +1426,49 @@ def scrape_structural(url):
             return links
     return extract_links(html, url, href_pattern=COMMON_JOB_URL_HINTS,
                          text_pattern=COMMON_JOB_TEXT_HINTS)
+
+
+def discover_embedded_ats(url, wait_ms=9000):
+    """The real ATS board behind a school page that only EMBEDS one.
+
+    Several schools' careers pages are a shell that loads a hosted board
+    over JS, leaving no posting links in their own HTML -- Texas Woman's
+    "careers-at-twu/jobs/" is an Oracle CX site addressed only by a URL
+    fragment (#en/sites/CX_1), and the board itself lives on
+    ewal.fa.us8.oraclecloud.com. Nothing on the page says so; the only
+    evidence is the requests it makes.
+
+    Returns (platform, board_url) or (None, None).
+    """
+    b = get_browser()
+    if b is None:
+        return (None, None)
+    page = b.new_page(user_agent=UA)
+    seen = []
+    page.on('request', lambda r: seen.append(r.url))
+    try:
+        page.goto(url, timeout=40000, wait_until='domcontentloaded')
+        page.wait_for_timeout(wait_ms)
+    except Exception:
+        pass
+    finally:
+        page.close()
+
+    for request_url in seen:
+        if 'oraclecloud.com' in request_url and 'recruitingCEJobRequisitions' in request_url:
+            host = request_url.split('/hcmRestApi')[0]
+            m = re.search(r'siteNumber=([A-Za-z0-9_]+)', request_url)
+            site = m.group(1) if m else 'CX_1'
+            return ('oracle', f'{host}/hcmUI/CandidateExperience/en/sites/{site}')
+
+    for request_url in seen:
+        parsed = urlparse(request_url)
+        if parsed.netloc == urlparse(url).netloc:
+            continue                  # the school's own assets
+        platform = detect_platform(request_url)
+        if platform:
+            return (platform, request_url)
+    return (None, None)
 
 PLATFORM_ADAPTERS = {
     'workday': lambda url, name: scrape_workday(url, school_name=name),

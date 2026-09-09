@@ -1,8 +1,18 @@
 {
-  "links": [],
+  "links": [
+    "https://humanresources.illinois.edu/campus-holiday-schedule/",
+    "https://humanresources.illinois.edu/benefits-and-well-being/",
+    "https://humanresources.illinois.edu/total-compensation-calculator/",
+    "https://humanresources.illinois.edu/employee-experience/",
+    "https://humanresources.illinois.edu/ai-professional-development-series/",
+    "https://humanresources.illinois.edu/new-supervisor-resources/",
+    "https://humanresources.illinois.edu/services-and-information/",
+    "https://humanresources.illinois.edu/hr-document-library/"
+  ],
   "school_id": 369,
-  "status": "error",
-  "updated_at": "2026-09-08T17:57:25+00:00",
-  "started_at": "2026-09-08T01:37:42+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+  "status": "complete",
+  "updated_at": "2026-09-09T07:17:29+00:00",
+  "started_at": "2026-09-09T07:17:16+00:00",
+  "completed_at": "2026-09-09T07:17:29+00:00",
+  "last_error": ""
 }

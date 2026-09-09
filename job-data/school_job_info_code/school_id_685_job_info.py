@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 685
 SCHOOL_NAME = 'Carleton College'
-CAREERS_LINK = 'https://www.myworkday.com/carleton/d/home.htmld'
+CAREERS_LINK = 'https://carleton.wd1.myworkdayjobs.com/CarletonCareers'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

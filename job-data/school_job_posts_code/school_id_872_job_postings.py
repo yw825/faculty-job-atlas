@@ -38,6 +38,9 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkp
 
 
 def find_links():
+    """Generic. This school's careers page answers 403 to most requests --
+    it succeeds only intermittently, so a low or zero count here is the
+    block, not an empty board."""
     html = lib.fetch_rendered(CAREERS_LINK)
     if lib.is_fetch_failure(html):
         raise RuntimeError(html)

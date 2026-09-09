@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 530
 SCHOOL_NAME = 'Amherst College'
-CAREERS_LINK = 'https://wd5.myworkday.com/amherst/d/home.htmld'
+CAREERS_LINK = 'https://amherst.wd5.myworkdayjobs.com/Amherst_Jobs'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

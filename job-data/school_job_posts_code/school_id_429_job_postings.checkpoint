@@ -1,9 +1,15 @@
 {
-  "links": [],
+  "links": [
+    "https://www.hanover.edu/deposit",
+    "https://www.hanover.edu/about/employment/",
+    "https://www.hanover.edu/admission/admitted/deposit/",
+    "https://www.hanover.edu/academics/faculty/",
+    "https://www.hanover.edu/about/offices/levettcareercenter/"
+  ],
   "school_id": 429,
   "status": "complete",
-  "updated_at": "2026-09-08T01:44:12+00:00",
-  "started_at": "2026-09-08T01:44:10+00:00",
-  "completed_at": "2026-09-08T01:44:12+00:00",
+  "updated_at": "2026-09-09T07:17:34+00:00",
+  "started_at": "2026-09-09T07:17:29+00:00",
+  "completed_at": "2026-09-09T07:17:34+00:00",
   "last_error": ""
 }

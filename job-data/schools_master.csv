@@ -323,7 +323,7 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes,scrap
 444,Saint Mary's College,US,https://www.saintmarys.edu/,https://www.saintmarys.edu/hr,own website,medium,OK-2hop:OK:2,generic scraper
 445,University of Notre Dame,US,https://www.nd.edu/,https://jobs.smartrecruiters.com/UniversityOfNotreDame,SmartRecruiters,high,OK-2hop:OK:9,adapter built
 446,Oakland City University,US,https://www.oak.edu/,https://www.oak.edu/academics/career-pathways-program/,own website,medium,OK-2hop:OK:2,generic scraper
-447,Earlham College,US,https://earlham.edu/,https://hr.earlham.edu/careers,own website,medium,OK:3,generic scraper
+447,Earlham College,US,https://earlham.edu/,https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=af17eb32-b7ad-4f2c-8d25-781ac5b31aa0&ccId=19000101_000001&lang=en_US,ADP,medium,OK:3 | page only EMBEDS an ADP board; using the board directly,generic scraper
 448,Indiana University-East,US,https://www.iue.edu/,https://east.iu.edu/red-wolf-central/academic-career/index.html,own website,medium,OK-2hop:OK:11,generic scraper
 449,Saint Mary-of-the-Woods College,US,https://www.smwc.edu/,https://www.smwc.edu/offices-resources/offices/office-of-people-success-and-opportunity/employment-opportunities/,own website,medium,OK-2hop:OK:3,generic scraper
 450,Indiana University-South Bend,US,https://iusb.edu/,https://indiana.peopleadmin.com/postings/search,PeopleAdmin,high,NO_MATCH [playwright];hand-verified-sync,adapter built
@@ -391,7 +391,7 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes,scrap
 527,Centenary College of Louisiana,US,https://www.centenary.edu/,https://www.centenary.edu/directories/offices-services-directory/human-resources/job-opportunities/,own website,medium,OK-2hop:OK:4,generic scraper
 528,Louisiana State University-Shreveport,US,https://www.lsus.edu/,https://lsus.edu2.com/topic/programsteps,own website,medium,OK-2hop:OK:2,generic scraper
 529,Nicholls State University,US,https://www.nicholls.edu/,https://jobs.nicholls.edu,PeopleAdmin,medium,"OK-2hop:OK:8 | white-label PeopleAdmin, confirmed via atom feed probe",generic scraper
-530,Amherst College,US,https://www.amherst.edu/,https://wd5.myworkday.com/amherst/d/home.htmld,own website,high,OK:6,generic scraper
+530,Amherst College,US,https://www.amherst.edu/,https://amherst.wd5.myworkdayjobs.com/Amherst_Jobs,Workday,high,"OK:6 | was the Workday INTERNAL app (myworkday.com/.../d/home.htmld), not the public board",generic scraper
 531,Hampshire College,US,https://www.hampshire.edu/,https://www.hampshire.edu/offices/human-resources/employment-opportunities,own website,high,NO_MATCH [playwright];hand-verified-sync,generic scraper
 532,University of Massachusetts-Amherst,US,https://www.umass.edu/,https://www.umass.edu/careers,PageUp,high,OK-2hop:OK:6 | careers_link rediscovered from homepage (old: https://umassamherst.dc4.pageuppeople.com/),generic scraper (verified working)
 533,Endicott College,US,https://www.endicott.edu/,https://endicott.wd1.myworkdayjobs.com/Endicott,Workday,high,OK:8,adapter built
@@ -526,7 +526,7 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes,scrap
 680,University of Minnesota-Twin Cities,US,https://twin-cities.umn.edu/,https://hr.umn.edu/jobs/Applicant-Support/Veteran-Employment-Guidance,own website,medium,OK-2hop:OK:4,generic scraper
 683,Minnesota State University Moorhead,US,https://www.mnstate.edu/,https://minnstate.wd115.myworkdayjobs.com/Minnesota_State_Careers?Institution=a7c1912089511000d545deb6e32a0001,Workday,high,OK-2hop:OK:8,adapter built
 684,University of Minnesota-Morris,US,https://morris.umn.edu/,https://hr.umn.edu/jobs/Applicant-Support/Veteran-Employment-Guidance,own website,medium,OK-2hop:OK:4,generic scraper
-685,Carleton College,US,https://www.carleton.edu/,https://www.myworkday.com/carleton/d/home.htmld,own website,high,OK:6,generic scraper
+685,Carleton College,US,https://www.carleton.edu/,https://carleton.wd1.myworkdayjobs.com/CarletonCareers,Workday,high,"OK:6 | was the Workday INTERNAL app (myworkday.com/.../d/home.htmld), not the public board",generic scraper
 686,St Olaf College,US,https://wp.stolaf.edu/,https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3,Oracle Cloud HCM,high,OK-2hop:OK:8,adapter built
 687,Crown College,US,https://www.crown.edu/,https://secure5.entertimeonline.com/ta/CBIZ20706.careers?CareersSearch,own website,medium,OK-2hop:OK:4,generic scraper
 688,Saint Cloud State University,US,https://www.stcloudstate.edu/,https://minnstate.wd115.myworkdayjobs.com/Minnesota_State_Careers,Workday,high,OK-2hop:OK:6 [playwright],adapter built
@@ -1080,7 +1080,7 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes,scrap
 1374,Texas A & M University-Commerce,US,https://www.tamuc.edu/,https://tamus.wd1.myworkdayjobs.com/ETAMU_External,Workday,high,OK-2hop:OK:6,adapter built
 1375,Texas A & M University-Corpus Christi,US,https://www.tamucc.edu/,https://tamus.wd1.myworkdayjobs.com/TAMUCC_External,Workday,high,OK-2hop:OK:6,adapter built
 1380,Southern Methodist University,US,https://www.smu.edu/,https://smu.taleo.net/careersection/ex/jobsearch.ftl?lang=en&portal=101430233,Taleo,high,OK-2hop:OK:8,generic scraper (verified working)
-1382,Texas Woman's University,US,https://www.twu.edu/,https://twu.edu/humanresources/careers-at-twu/jobs/,own website,medium,OK:5,generic scraper
+1382,Texas Woman's University,US,https://www.twu.edu/,https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1,Oracle Cloud HCM,medium,OK:5 | page only EMBEDS an Oracle CX board; using the board host directly,generic scraper
 1383,University of North Texas,US,https://www.unt.edu/,https://careers.untsystem.edu/unt/home,own website,medium,OK:4,generic scraper
 1384,The University of Texas Rio Grande Valley,US,https://www.utrgv.edu/,https://careers.utrgv.edu/postings/search,PeopleAdmin,medium,"OK-2hop:OK:5 | white-label PeopleAdmin, confirmed via atom feed probe",generic scraper
 1385,The University of Texas at El Paso,US,https://www.utep.edu/,https://utep.interviewexchange.com/static/clients/533UTM1/index.jsp,own website,high,OK-2hop:OK:6,generic scraper
@@ -1127,7 +1127,7 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes,scrap
 1451,Westminster University,US,https://www.westminstercollege.edu/,https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=8b104a38-45ac-4682-9e01-117585322eb0,ADP,high,OK-2hop:OK:9,adapter built
 1453,Marymount University,US,https://www.marymount.edu/,https://marymount.wd5.myworkdayjobs.com/Careers,Workday,high,OK:8 [playwright],adapter built
 1456,Randolph-Macon College,US,https://www.rmc.edu/,https://www.rmc.edu/about-rmc/offices-departments/human-resources/employment-opportunities/,own website,high,NO_MATCH [playwright];hand-verified-sync | careers_link rediscovered (old: https://www.rmc.edu/about-rmc/offices-departments/),generic scraper
-1457,Virginia Polytechnic Institute and State University,US,https://www.vt.edu/,https://careers.pageuppeople.com/968/ci/en-us/listing,PageUp,high,OK-2hop:OK:10,generic scraper (verified working)
+1457,Virginia Polytechnic Institute and State University,US,https://www.vt.edu/,https://careers.pageuppeople.com/968/cw/en-us/listing,PageUp,high,OK-2hop:OK:10 | PageUp /ci/ (login site) -> /cw/ (public board),generic scraper (verified working)
 1459,Bridgewater College,US,https://www.bridgewater.edu/,https://www.bridgewater.edu/careers/,own website,medium,OK-2hop:OK:4,generic scraper
 1460,Southern Virginia University,US,https://svu.edu/,https://svu.edu/about/careers/open-rank-professor-of-biology/,own website,medium,OK-2hop:OK:4,generic scraper
 1461,University of Virginia-Main Campus,US,https://www.virginia.edu/,https://jobs.virginia.edu/us/en/uva-faculty-positions,own website,medium,OK-2hop:OK:14,generic scraper

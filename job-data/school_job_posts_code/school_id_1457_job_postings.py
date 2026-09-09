@@ -31,7 +31,7 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1457
 SCHOOL_NAME = 'Virginia Polytechnic Institute and State University'
-CAREERS_LINK = 'https://careers.pageuppeople.com/968/ci/en-us/listing'
+CAREERS_LINK = 'https://careers.pageuppeople.com/968/cw/en-us/listing'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
