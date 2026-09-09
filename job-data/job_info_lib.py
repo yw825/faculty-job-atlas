@@ -1212,6 +1212,11 @@ _TITLE_LOOKS_LIKE_JOB_RE = re.compile(
 # other ATSs stamp this on the <title> tag specifically; the real title
 # comes right after it. A real job title never legitimately opens this way,
 # so it is dropped rather than kept as a (winning, wrong) short candidate.
+# A page-title segment that names the careers SITE rather than the job.
+_SITE_LABEL_RE = re.compile(
+    r'^(?:careers?|jobs?|employment|job\s+opportunities|work(?:ing)?\s+(?:at|for|with))\b',
+    re.I)
+
 _LEADING_JUNK_TITLE_RE = re.compile(
     r'^(?:job\s+)?(?:details|posting\s+details|position\s+details|vacancy\s+details|'
     r'view\s+job|view\s+posting|job\s+description)\s*[-:]\s*', re.I)
@@ -1224,6 +1229,18 @@ def _title_candidates_from_text(raw):
     the tightest job-shaped match before falling back to noisier ones."""
     raw = _LEADING_JUNK_TITLE_RE.sub('', raw).strip()
     candidates = [raw]
+
+    # "Site | Title" as well as "Title | Site". Splitting always to the LEFT
+    # assumes the site name comes last, and PeopleAdmin puts it first --
+    # Bowdoin's pages are titled "Careers at Bowdoin College | Assistant
+    # Professor of Mathematics", so every posting there was named "Careers
+    # at Bowdoin College". The right-hand side is preferred only when the
+    # left is recognisably a site/section label.
+    if ' | ' in raw:
+        left, _, right = raw.partition(' | ')
+        if _SITE_LABEL_RE.match(left.strip()) and right.strip():
+            candidates.insert(0, right.strip())
+
     cur = raw
     for sep in (' | ', ' - '):
         if sep in cur:

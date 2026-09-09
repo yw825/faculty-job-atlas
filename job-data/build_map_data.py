@@ -102,6 +102,12 @@ def _safe_iso(year, month, day):
 # of them carry an academic rank, so they surface inside ordinary searches
 # ("Jobs" and "Information for Managers" were both showing up as Assistant
 # Professor posts near London).
+# Feeds, search pages and the "save this job" action -- URLs that are part
+# of a careers site's machinery rather than a job on it.
+_FEED_OR_SEARCH_URL_RE = re.compile(
+    r'\.(?:atom|rss)(?:\?|$)|/(?:search|bookmarks)(?:\?|/|$)|[?&]commit=Search',
+    re.I)
+
 _JUNK_TITLE_RE = re.compile(
     r'^(?:careers?|jobs?|job details|job search|search jobs|all opportunities|'
     r'current (?:vacancies|openings)|vacancies|opportunities|page not found|404|error|'
@@ -248,6 +254,15 @@ def main():
                 if not title:
                     continue  # a posting with no readable title isn't searchable
                 if _JUNK_TITLE_RE.match(title.rstrip(' .')):
+                    junk_titles += 1
+                    continue
+                if _FEED_OR_SEARCH_URL_RE.search(row.get('posting_url') or ''):
+                    # A feed or a search page is not a posting, whatever it
+                    # is titled. Bowdoin's map entries included
+                    # postings/all_jobs.atom and postings/search.atom, both
+                    # titled "Bowdoin College: All Jobs" and both opening as
+                    # raw XML. prune_stale_info.py removes these at source;
+                    # this is the backstop so one can never reach the map.
                     junk_titles += 1
                     continue
                 geo = coords.get(sid)
