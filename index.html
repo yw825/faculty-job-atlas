@@ -1643,7 +1643,13 @@ function loadJobs(){
   if(JOBS || jobsLoading) return Promise.resolve(JOBS);
   jobsLoading = true;
   countEl.textContent = 'loading postings...';
-  return fetch('postings.json')
+  /* cache: 'reload' bypasses the HTTP cache for this one request.
+     GitHub Pages serves postings.json with max-age=600, and a browser that
+     already has a copy will keep serving it -- so a corrected posting link
+     kept opening the old, broken URL for up to ten minutes after a deploy,
+     and longer for a tab that never reloaded. The payload is fetched once
+     per session, so re-validating it costs nothing noticeable. */
+  return fetch('postings.json', {cache: 'reload'})
     .then(r => { if(!r.ok) throw new Error('HTTP '+r.status); return r.json(); })
     .then(data => { JOBS = data; jobsLoading = false; return data; })
     .catch(err => {
