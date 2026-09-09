@@ -68,10 +68,6 @@
       "title": "Welcome",
       "description": "Welcome - Realize Your Potential: Cornerstone What happened? The Custom login page that you requested is temporarily down for maintenance. What to do? You will be redirected in 10 seconds to a standard login page to access your portal. If you are not automatically redirected, click here ."
     },
-    "https://usm.csod.com/ux/ats/careersite/1/requisition/5512": {
-      "title": "Welcome",
-      "description": "Welcome - Realize Your Potential: Cornerstone What happened? The Custom login page that you requested is temporarily down for maintenance. What to do? You will be redirected in 10 seconds to a standard login page to access your portal. If you are not automatically redirected, click here ."
-    },
     "https://usm.csod.com/ux/ats/careersite/1/requisition/5511": {
       "title": "Welcome",
       "description": "Welcome - Realize Your Potential: Cornerstone What happened? The Custom login page that you requested is temporarily down for maintenance. What to do? You will be redirected in 10 seconds to a standard login page to access your portal. If you are not automatically redirected, click here ."
@@ -697,17 +693,6 @@
     "https://usm.csod.com/ux/ats/careersite/1/requisition/5513": {
       "school_id": 747,
       "posting_url": "https://usm.csod.com/ux/ats/careersite/1/requisition/5513",
-      "job_title_in_post": "Welcome",
-      "position_type": "Unclassified",
-      "job_term": "Full-time",
-      "department_or_school": "",
-      "area_key_words": "",
-      "deadline_of_application": "",
-      "position_start_date": ""
-    },
-    "https://usm.csod.com/ux/ats/careersite/1/requisition/5512": {
-      "school_id": 747,
-      "posting_url": "https://usm.csod.com/ux/ats/careersite/1/requisition/5512",
       "job_title_in_post": "Welcome",
       "position_type": "Unclassified",
       "job_term": "Full-time",
@@ -1940,7 +1925,7 @@
   },
   "school_id": 747,
   "status": "complete",
-  "updated_at": "2026-09-05T05:32:41+00:00",
-  "completed_at": "2026-09-05T05:32:41+00:00",
+  "updated_at": "2026-09-09T19:02:53+00:00",
+  "completed_at": "2026-09-09T19:02:53+00:00",
   "last_error": ""
 }

@@ -5,3 +5,4 @@ Thumbs.db
 __pycache__/
 job-data/*.xlsx
 job-data/~$*
+*.checkpoint.tmp

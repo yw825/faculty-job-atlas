@@ -142,10 +142,18 @@ def is_furniture(url, path, dominant_prefix, sibling_paths, careers_root):
         return f'parent of {kids} other rows'
 
     last = segs[-1]
-    if _NAV_SEGMENT.match(last):
-        return f'section page (/{last})'
-    if _CATEGORY_SLUG.match(last):
-        return f'category page (/{last})'
+    # ...but only when the QUERY does not identify a posting. On several
+    # ATSs the path is the same generic page for every job and the id is a
+    # parameter: ADP serves all of them from
+    # /mascsr/default/mdf/recruitment/recruitment.html?...&jobId=<id>.
+    # Stripping the ".html" (added so .../vacancies/index.html would be
+    # recognised as a listing) turned that path into "recruitment" and made
+    # 32 real ADP postings look like a section page.
+    if not has_posting_id(url):
+        if _NAV_SEGMENT.match(last):
+            return f'section page (/{last})'
+        if _CATEGORY_SLUG.match(last):
+            return f'category page (/{last})'
 
     # Same path as other rows, differing only by query string: those are the
     # listing's own filter links ("?employment_type=Full time").
