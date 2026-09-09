@@ -116,7 +116,7 @@ _JUNK_TITLE_RE = re.compile(
     r'.*privacy.*|.*accessibilit.*|\d+ gateway.*|we apologize.*|job opportunities|'
     r'information for .*|useful information|online application procedures|'
     r'prospective employees.*|current openings.*|explore our employment.*|'
-    r'position title:?|job description|apply now|welcome|overview|staff|faculty|'
+    r'position title:?|job description|apply(?: now)?|welcome|overview|staff|faculty|'
     r'employment|recruitment|our vacancies|work (?:with|for) us|'
     # Generic section headings that a school's careers page uses as its own
     # title, which then inherit a rank from the surrounding description and
@@ -126,7 +126,17 @@ _JUNK_TITLE_RE = re.compile(
     r'faculty positions?|staff positions?|academic positions?|open positions?|'
     r'career development|career opportunities|employment opportunities|'
     r'job openings?|current employment|position openings?|'
-    r'faculty (?:and|&) staff|academic careers?|browse jobs)$', re.I)
+    r'faculty (?:and|&) staff|academic careers?|browse jobs|'
+    # Detail-page chrome that survived the per-school repeat filter because
+    # it sits below that filter's share threshold. Counted in the live map:
+    # "Position Details" 196 rows, "Recruit" 67, "Human Resources" 37,
+    # "Search Jobs (Postings)" 37, "Loading..." 28 (a render that never
+    # finished), "Apply" 13, "Hirezon / Interview Exchange" 5 -- 400 rows
+    # that a reader meets as a job and finds is not one.
+    r'position details|position information|position description|'
+    r'search jobs \(postings\)|loading\.{0,3}|recruit|human resources|'
+    r'career center|hirezon ?/? ?interview exchange|\+ cornerstone ondemand \+|'
+    r'we\'?re hiring!?|job posting|posting details)$', re.I)
 
 
 # The regex above only catches furniture we can name. The bigger problem is

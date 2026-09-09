@@ -1,5 +1,9 @@
 {
   "raw": {
+    "https://www.fau.edu/about/faculty-staff/": {
+      "title": "Faculty & Staff",
+      "description": "Faculty and Staff | Florida Atlantic University Skip to main content FLORIDA ATLANTIC UNIVERSITY students faculty/staff alumni families apply visit give admissions academics research campus life athletics Faculty & Staff QUICK LINKS Workday Canvas MYFAU IT Helpdesk Directory Facilities Request Parking LinkedIn Learning Resources Academic Calendar Course Schedule Emergency FAU Police Human Resources Libraries Photo Database Order Promotional Items Visual Standards Florida Atlantic University 777 Glades Road Boca Raton, FL 33431 Campuses Boca Raton Dania Beach Davie Fort Lauderdale Harbor Branch Jupiter Resources Academic Calendar Employment Opportunities Program Search Parking Report a Concern Transcripts Info Contact Us Directory Emergency & Safety FAU Schools Media Social facebook twitter youtube instagram linkedin Search Programs Request Info Visit Our Campuses If you are experiencing difficulty accessing information on the Florida Atlantic University website due to a disability, visit the website accessibility page. Florida Atlantic University embodies a culture of strategic and collaborative community engagement that results in mutual benefit to the institution and the internal and external communities that it serves. Privacy Policy Regulations & Policies Consumer Information Get Help Site Index Student Accessibility Public Records 2026 Florida Atlantic University ©"
+    },
     "https://www.fau.edu/jobs/": {
       "title": "Innovation & Unbridled Ambition",
       "description": "FAU JOBS | Florida Atlantic University Skip to main content FLORIDA ATLANTIC UNIVERSITY students faculty/staff alumni families apply visit give FAU Home FAU JOBS MENU HOME Home PEOPLE People LIFE AT FAU Life at FAU EXPLORE SOUTH FLORIDA Explore South Florida APPLICANT RESOURCES Applicant Resources APPLY NOW Apply Now FAU JOBS FAU is Where Your Future Begins Join us on our journey in pushing the boundaries of higher education Explore Jobs at FAU Innovation & Unbridled Ambition We have over 30,000 students from all 50 states and over 180 countries, 21 intercollegiate teams, 180 plus degree programs, and an administration that thrives on discovery and excellence. Florida Atlantic’s faculty and staff are trailblazers and innovators with a passion for finding creative solutions while advancing science, art, and technology in all disciplines. Our work environment is a hub of cultures from across the nation and the world, making FAU a place where collaboration flourishes. Student success, excellence, and community engagement are some of our highest values as a university. These values are prominent throughout FAU’s community and are essential to the employee experience. To learn about the vision and mission of FAU, please visit: www.fau.edu Benefits & Wellness At FAU we care about you at work and at home. This is why we put work-life balance at the forefront for our employees. From competitive health benefits and retirement options to employee discounts, state of the art fitness centers and on campus family care options, FAU makes your transition from home to work as smooth as possible. Read more about the benefits we have to offer. Benefits Guide 2023/24 Education We are a place where employees can become students and students can become employees. Our Employee Educational Scholarship Program (EESP) provides employees with the opportunity to continue their educational goals at FAU. Employees who qualify for this program can take up to six credit hours for free per semester. Read more about education opportunities for employees at FAU. Time Off Refresh, find an adventure, or just enjoy some well-earned you time. We understand the importance of taking time for yourself, which is why we have generous time off options available. This includes major holidays, winter break, earned time off, a personal holiday and even a volunteer day to use for a cause you care about. Taking care of yourself is important, especially when you are under the weather. At FAU, you will have the opportunity to take the time you need to recover with our competitive sick leave policy. Learn more about our time off options. Connect with FAU HR facebook instagram “From SeaTech in Ft. Lauderdale to Harbor Branch in Ft. Pierce, FAU’s services stretch over 100 miles. I think this sets us apart from any other university.” Dr. Ali Zilouchian Professor, Computer and Electrical Engineering Florida Atlantic University 777 Glades Road Boca Raton, FL 33431 Campuses Boca Raton Dania Beach Davie Fort Lauderdale Harbor Branch Jupiter Resources Academic Calendar Employment Opportunities Program Search Parking Report a Concern Transcripts Info Contact Us Directory Emergency & Safety FAU Schools Media Social facebook twitter youtube instagram linkedin Search Programs Request Info Visit Our Campuses If you are experiencing difficulty accessing information on the Florida Atlantic University website due to a disability, visit the website accessibility page. Florida Atlantic University embodies a culture of strategic and collaborative community engagement that results in mutual benefit to the institution and the internal and external communities that it serves. Privacy Policy Regulations & Policies Consumer Information Get Help Site Index Student Accessibility Public Records 2026 Florida Atlantic University ©"
@@ -30,6 +34,17 @@
     }
   },
   "rows": {
+    "https://www.fau.edu/about/faculty-staff/": {
+      "school_id": 220,
+      "posting_url": "https://www.fau.edu/about/faculty-staff/",
+      "job_title_in_post": "Faculty & Staff",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
     "https://www.fau.edu/jobs/": {
       "school_id": 220,
       "posting_url": "https://www.fau.edu/jobs/",
@@ -59,7 +74,7 @@
       "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "College of Business' Executive Master of Accounting program",
-      "area_key_words": "",
+      "area_key_words": "physical oceanography; marine materials",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -110,7 +125,7 @@
   },
   "school_id": 220,
   "status": "complete",
-  "updated_at": "2026-09-05T03:07:48+00:00",
-  "completed_at": "2026-09-05T03:07:48+00:00",
+  "updated_at": "2026-09-09T16:33:00+00:00",
+  "completed_at": "2026-09-09T16:33:00+00:00",
   "last_error": ""
 }

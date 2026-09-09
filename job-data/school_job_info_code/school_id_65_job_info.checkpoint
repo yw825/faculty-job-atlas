@@ -1,5 +1,13 @@
 {
   "raw": {
+    "https://arizona.csod.com/ux/ats/careersite/4/requisition/27002": {
+      "title": "Welcome",
+      "description": "Welcome - Realize Your Potential: Cornerstone What happened? The Custom login page that you requested is temporarily down for maintenance. What to do? You will be redirected in 10 seconds to a standard login page to access your portal. If you are not automatically redirected, click here ."
+    },
+    "https://arizona.csod.com/ux/ats/careersite/4/requisition/27001": {
+      "title": "Welcome",
+      "description": "Welcome - Realize Your Potential: Cornerstone What happened? The Custom login page that you requested is temporarily down for maintenance. What to do? You will be redirected in 10 seconds to a standard login page to access your portal. If you are not automatically redirected, click here ."
+    },
     "https://arizona.csod.com/ux/ats/careersite/4/requisition/26998": {
       "title": "Welcome",
       "description": "Welcome - Realize Your Potential: Cornerstone What happened? The Custom login page that you requested is temporarily down for maintenance. What to do? You will be redirected in 10 seconds to a standard login page to access your portal. If you are not automatically redirected, click here ."
@@ -25,6 +33,10 @@
       "description": "Welcome - Realize Your Potential: Cornerstone What happened? The Custom login page that you requested is temporarily down for maintenance. What to do? You will be redirected in 10 seconds to a standard login page to access your portal. If you are not automatically redirected, click here ."
     },
     "https://arizona.csod.com/ux/ats/careersite/4/requisition/26966": {
+      "title": "Welcome",
+      "description": "Welcome - Realize Your Potential: Cornerstone What happened? The Custom login page that you requested is temporarily down for maintenance. What to do? You will be redirected in 10 seconds to a standard login page to access your portal. If you are not automatically redirected, click here ."
+    },
+    "https://arizona.csod.com/ux/ats/careersite/4/requisition/26963": {
       "title": "Welcome",
       "description": "Welcome - Realize Your Potential: Cornerstone What happened? The Custom login page that you requested is temporarily down for maintenance. What to do? You will be redirected in 10 seconds to a standard login page to access your portal. If you are not automatically redirected, click here ."
     },
@@ -197,10 +209,6 @@
       "description": "Welcome - Realize Your Potential: Cornerstone What happened? The Custom login page that you requested is temporarily down for maintenance. What to do? You will be redirected in 10 seconds to a standard login page to access your portal. If you are not automatically redirected, click here ."
     },
     "https://arizona.csod.com/ux/ats/careersite/4/requisition/26924": {
-      "title": "Welcome",
-      "description": "Welcome - Realize Your Potential: Cornerstone What happened? The Custom login page that you requested is temporarily down for maintenance. What to do? You will be redirected in 10 seconds to a standard login page to access your portal. If you are not automatically redirected, click here ."
-    },
-    "https://arizona.csod.com/ux/ats/careersite/4/requisition/26919": {
       "title": "Welcome",
       "description": "Welcome - Realize Your Potential: Cornerstone What happened? The Custom login page that you requested is temporarily down for maintenance. What to do? You will be redirected in 10 seconds to a standard login page to access your portal. If you are not automatically redirected, click here ."
     },
@@ -580,10 +588,6 @@
       "title": "Welcome",
       "description": "Welcome - Realize Your Potential: Cornerstone What happened? The Custom login page that you requested is temporarily down for maintenance. What to do? You will be redirected in 10 seconds to a standard login page to access your portal. If you are not automatically redirected, click here ."
     },
-    "https://arizona.csod.com/ux/ats/careersite/4/requisition/26687": {
-      "title": "Welcome",
-      "description": "Welcome - Realize Your Potential: Cornerstone What happened? The Custom login page that you requested is temporarily down for maintenance. What to do? You will be redirected in 10 seconds to a standard login page to access your portal. If you are not automatically redirected, click here ."
-    },
     "https://arizona.csod.com/ux/ats/careersite/4/requisition/26673": {
       "title": "Welcome",
       "description": "Welcome - Realize Your Potential: Cornerstone What happened? The Custom login page that you requested is temporarily down for maintenance. What to do? You will be redirected in 10 seconds to a standard login page to access your portal. If you are not automatically redirected, click here ."
@@ -705,10 +709,6 @@
       "description": "Welcome - Realize Your Potential: Cornerstone What happened? The Custom login page that you requested is temporarily down for maintenance. What to do? You will be redirected in 10 seconds to a standard login page to access your portal. If you are not automatically redirected, click here ."
     },
     "https://arizona.csod.com/ux/ats/careersite/4/requisition/26505": {
-      "title": "Welcome",
-      "description": "Welcome - Realize Your Potential: Cornerstone What happened? The Custom login page that you requested is temporarily down for maintenance. What to do? You will be redirected in 10 seconds to a standard login page to access your portal. If you are not automatically redirected, click here ."
-    },
-    "https://arizona.csod.com/ux/ats/careersite/4/requisition/26499": {
       "title": "Welcome",
       "description": "Welcome - Realize Your Potential: Cornerstone What happened? The Custom login page that you requested is temporarily down for maintenance. What to do? You will be redirected in 10 seconds to a standard login page to access your portal. If you are not automatically redirected, click here ."
     },
@@ -1314,6 +1314,28 @@
     }
   },
   "rows": {
+    "https://arizona.csod.com/ux/ats/careersite/4/requisition/27002": {
+      "school_id": 65,
+      "posting_url": "https://arizona.csod.com/ux/ats/careersite/4/requisition/27002",
+      "job_title_in_post": "Welcome",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://arizona.csod.com/ux/ats/careersite/4/requisition/27001": {
+      "school_id": 65,
+      "posting_url": "https://arizona.csod.com/ux/ats/careersite/4/requisition/27001",
+      "job_title_in_post": "Welcome",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
     "https://arizona.csod.com/ux/ats/careersite/4/requisition/26998": {
       "school_id": 65,
       "posting_url": "https://arizona.csod.com/ux/ats/careersite/4/requisition/26998",
@@ -1383,6 +1405,17 @@
     "https://arizona.csod.com/ux/ats/careersite/4/requisition/26966": {
       "school_id": 65,
       "posting_url": "https://arizona.csod.com/ux/ats/careersite/4/requisition/26966",
+      "job_title_in_post": "Welcome",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://arizona.csod.com/ux/ats/careersite/4/requisition/26963": {
+      "school_id": 65,
+      "posting_url": "https://arizona.csod.com/ux/ats/careersite/4/requisition/26963",
       "job_title_in_post": "Welcome",
       "position_type": "Unclassified",
       "job_term": "Full-time",
@@ -1856,17 +1889,6 @@
     "https://arizona.csod.com/ux/ats/careersite/4/requisition/26924": {
       "school_id": 65,
       "posting_url": "https://arizona.csod.com/ux/ats/careersite/4/requisition/26924",
-      "job_title_in_post": "Welcome",
-      "position_type": "Unclassified",
-      "job_term": "Full-time",
-      "department_or_school": "",
-      "area_key_words": "",
-      "deadline_of_application": "",
-      "position_start_date": ""
-    },
-    "https://arizona.csod.com/ux/ats/careersite/4/requisition/26919": {
-      "school_id": 65,
-      "posting_url": "https://arizona.csod.com/ux/ats/careersite/4/requisition/26919",
       "job_title_in_post": "Welcome",
       "position_type": "Unclassified",
       "job_term": "Full-time",
@@ -2909,17 +2931,6 @@
       "deadline_of_application": "",
       "position_start_date": ""
     },
-    "https://arizona.csod.com/ux/ats/careersite/4/requisition/26687": {
-      "school_id": 65,
-      "posting_url": "https://arizona.csod.com/ux/ats/careersite/4/requisition/26687",
-      "job_title_in_post": "Welcome",
-      "position_type": "Unclassified",
-      "job_term": "Full-time",
-      "department_or_school": "",
-      "area_key_words": "",
-      "deadline_of_application": "",
-      "position_start_date": ""
-    },
     "https://arizona.csod.com/ux/ats/careersite/4/requisition/26673": {
       "school_id": 65,
       "posting_url": "https://arizona.csod.com/ux/ats/careersite/4/requisition/26673",
@@ -3253,17 +3264,6 @@
     "https://arizona.csod.com/ux/ats/careersite/4/requisition/26505": {
       "school_id": 65,
       "posting_url": "https://arizona.csod.com/ux/ats/careersite/4/requisition/26505",
-      "job_title_in_post": "Welcome",
-      "position_type": "Unclassified",
-      "job_term": "Full-time",
-      "department_or_school": "",
-      "area_key_words": "",
-      "deadline_of_application": "",
-      "position_start_date": ""
-    },
-    "https://arizona.csod.com/ux/ats/careersite/4/requisition/26499": {
-      "school_id": 65,
-      "posting_url": "https://arizona.csod.com/ux/ats/careersite/4/requisition/26499",
       "job_title_in_post": "Welcome",
       "position_type": "Unclassified",
       "job_term": "Full-time",
@@ -4925,7 +4925,7 @@
   },
   "school_id": 65,
   "status": "complete",
-  "updated_at": "2026-09-05T02:23:06+00:00",
-  "completed_at": "2026-09-05T02:23:06+00:00",
+  "updated_at": "2026-09-09T16:14:04+00:00",
+  "completed_at": "2026-09-09T16:14:04+00:00",
   "last_error": ""
 }

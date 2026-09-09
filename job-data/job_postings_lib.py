@@ -435,6 +435,16 @@ def scrape_workday(url, school_name=None):
             raise RuntimeError('no site in workday path')
         site = path_parts[0]
     api = f'https://{parsed.netloc}/wday/cxs/{tenant}/{site}/jobs'
+    # Where a posting's externalPath hangs. The API returns it relative to
+    # the SITE ("/job/NTU-Main-Campus-Singapore/Postdoctoral-Fellow_R000..."),
+    # not to the host root, so joining it against the host alone produces a
+    # URL that 404s. Every posting at these schools was recorded that way --
+    # 778 at Nanyang Technological, 315 at Ottawa, 207 at McGill, all
+    # reading "Page not found." once job_info opened them.
+    if 'myworkdaysite.com' in parsed.netloc:
+        public_base = f'https://{parsed.netloc}/recruiting/{tenant}/{site}'
+    else:
+        public_base = f'https://{parsed.netloc}/{site}'
 
     NON_FACET_PARAMS = {'lastselectedfacet', 'mode', 'source', 'query', 'q'}
     applied_facets = {}
@@ -467,7 +477,9 @@ def scrape_workday(url, school_name=None):
         if not jobs:
             break
         for j in jobs:
-            links.append(urljoin(f'https://{parsed.netloc}', j.get('externalPath', '')))
+            external_path = j.get('externalPath', '')
+            links.append(public_base + external_path if external_path.startswith('/')
+                         else urljoin(public_base + '/', external_path))
         offset += limit
         if total is not None and offset >= total:
             break
