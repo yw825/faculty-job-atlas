@@ -38,12 +38,10 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkp
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    """CUSTOMIZED: careers_link was rediscovered from this school's
+    homepage, and its posting links carry no job word -- found by URL
+    shape instead (the word matcher returns 1 link against 66 real ones)."""
+    return lib.scrape_structural(CAREERS_LINK)
 
 
 def main():

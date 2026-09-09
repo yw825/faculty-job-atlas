@@ -1,9 +1,101 @@
 {
-  "raw": {},
-  "rows": {},
+  "raw": {
+    "https://www.rmc.edu/campus-life/housing-and-dining/": {
+      "title": "Checking your browser",
+      "description": "Checking your browser... Javascript required Checking your browser This will only take a few seconds..."
+    },
+    "https://www.rmc.edu/campus-life/inclusion-belonging/": {
+      "title": "Checking your browser",
+      "description": "Checking your browser... Javascript required Checking your browser This will only take a few seconds..."
+    },
+    "https://www.rmc.edu/campus-life/leadership-service/": {
+      "title": "Checking your browser",
+      "description": "Checking your browser... Javascript required Checking your browser This will only take a few seconds..."
+    },
+    "https://www.rmc.edu/campus-life/religious-spiritual-life/": {
+      "title": "Checking your browser",
+      "description": "Checking your browser... Javascript required Checking your browser This will only take a few seconds..."
+    },
+    "https://www.rmc.edu/campus-life/fraternity-sorority-life/": {
+      "title": "Checking your browser",
+      "description": "Checking your browser... Javascript required Checking your browser This will only take a few seconds..."
+    },
+    "https://www.rmc.edu/campus-life/arts-and-events/": {
+      "title": "Checking your browser",
+      "description": "Checking your browser... Javascript required Checking your browser This will only take a few seconds..."
+    }
+  },
+  "rows": {
+    "https://www.rmc.edu/campus-life/housing-and-dining/": {
+      "school_id": 1456,
+      "posting_url": "https://www.rmc.edu/campus-life/housing-and-dining/",
+      "job_title_in_post": "Checking your browser",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://www.rmc.edu/campus-life/inclusion-belonging/": {
+      "school_id": 1456,
+      "posting_url": "https://www.rmc.edu/campus-life/inclusion-belonging/",
+      "job_title_in_post": "Checking your browser",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://www.rmc.edu/campus-life/leadership-service/": {
+      "school_id": 1456,
+      "posting_url": "https://www.rmc.edu/campus-life/leadership-service/",
+      "job_title_in_post": "Checking your browser",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://www.rmc.edu/campus-life/religious-spiritual-life/": {
+      "school_id": 1456,
+      "posting_url": "https://www.rmc.edu/campus-life/religious-spiritual-life/",
+      "job_title_in_post": "Checking your browser",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://www.rmc.edu/campus-life/fraternity-sorority-life/": {
+      "school_id": 1456,
+      "posting_url": "https://www.rmc.edu/campus-life/fraternity-sorority-life/",
+      "job_title_in_post": "Checking your browser",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://www.rmc.edu/campus-life/arts-and-events/": {
+      "school_id": 1456,
+      "posting_url": "https://www.rmc.edu/campus-life/arts-and-events/",
+      "job_title_in_post": "Checking your browser",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    }
+  },
   "school_id": 1456,
   "status": "complete",
-  "updated_at": "2026-09-05T19:32:48+00:00",
-  "completed_at": "2026-09-05T19:32:48+00:00",
+  "updated_at": "2026-09-09T06:18:56+00:00",
+  "completed_at": "2026-09-09T06:18:56+00:00",
   "last_error": ""
 }

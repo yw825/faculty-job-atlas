@@ -1,9 +1,21 @@
 {
-  "links": [],
+  "links": [
+    "https://www.southeastern.edu/admissions-and-aid/",
+    "https://www.southeastern.edu/majors-and-minors/",
+    "https://www.southeastern.edu/college-of-arts-humanities-and-social-sciences/",
+    "https://www.southeastern.edu/college-of-business/",
+    "https://www.southeastern.edu/college-of-education-health-and-human-sciences/",
+    "https://www.southeastern.edu/college-of-nursing/",
+    "https://www.southeastern.edu/college-of-science-and-technology/",
+    "https://www.southeastern.edu/college-of-honors-and-excellence/",
+    "https://www.southeastern.edu/offices-and-services/",
+    "https://www.southeastern.edu/employee-directory/",
+    "https://www.southeastern.edu/request-information/"
+  ],
   "school_id": 513,
   "status": "complete",
-  "updated_at": "2026-09-08T01:53:54+00:00",
-  "started_at": "2026-09-08T01:53:50+00:00",
-  "completed_at": "2026-09-08T01:53:54+00:00",
+  "updated_at": "2026-09-09T06:13:54+00:00",
+  "started_at": "2026-09-09T06:13:48+00:00",
+  "completed_at": "2026-09-09T06:13:54+00:00",
   "last_error": ""
 }

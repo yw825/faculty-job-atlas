@@ -274,7 +274,7 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes,scrap
 387,Southern Illinois University-Edwardsville,US,https://www.siue.edu/,https://apply.interfolio.com/69563/positions,own website,high,OK-2hop:OK:15,generic scraper
 389,Elmhurst University,US,https://www.elmhurst.edu/,https://apply.workable.com/elmhurst-edu/,own website,high,OK:8,generic scraper
 390,Eureka College,US,https://www.eureka.edu/,https://www.eureka.edu/employment,own website,medium,OK-2hop:OK:2,generic scraper
-391,Northwestern University,US,https://www.northwestern.edu/,https://careers.northwestern.edu,own website,medium,OK-2hop:OK:7,generic scraper
+391,Northwestern University,US,https://www.northwestern.edu/,https://www.northwestern.edu/offices/human-resources/careers,own website,medium,OK-2hop:OK:7 | careers_link rediscovered (old: https://careers.northwestern.edu),generic scraper
 392,Knox College,US,https://www.knox.edu/,https://www.knox.edu/employment-at-knox/faculty,own website,medium,OK-2hop:OK:11,generic scraper
 393,Greenville University,US,https://www.greenville.edu/,https://recruiting.paylocity.com/Recruiting/Jobs/All/d5acfd2f-a668-4134-9285-d94527cdadde/Greenville-University?location=Greenville%20University&department=Faculty,own website,medium,OK-2hop:OK:12,generic scraper
 394,Illinois College,US,https://www.ic.edu/,https://www.ic.edu/employment,own website,medium,OK-2hop:OK:3,generic scraper
@@ -321,7 +321,7 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes,scrap
 442,Manchester University,US,https://www.manchester.edu/,https://www.manchester.edu/employment-opportunities/,own website,medium,OK-2hop:OK:5,generic scraper
 443,Holy Cross College,US,https://www.hcc-nd.edu/,https://www.hcc-nd.edu/career-opportunities/,own website,medium,OK-2hop:OK:3,generic scraper
 444,Saint Mary's College,US,https://www.saintmarys.edu/,https://www.saintmarys.edu/hr,own website,medium,OK-2hop:OK:2,generic scraper
-445,University of Notre Dame,US,https://www.nd.edu/,https://jobs.smartrecruiters.com/my-applications/UniversityOfNotreDame?dcr_ci=UniversityOfNotreDame,SmartRecruiters,high,OK-2hop:OK:9,adapter built
+445,University of Notre Dame,US,https://www.nd.edu/,https://jobs.smartrecruiters.com/UniversityOfNotreDame,SmartRecruiters,high,OK-2hop:OK:9,adapter built
 446,Oakland City University,US,https://www.oak.edu/,https://www.oak.edu/academics/career-pathways-program/,own website,medium,OK-2hop:OK:2,generic scraper
 447,Earlham College,US,https://earlham.edu/,https://hr.earlham.edu/careers,own website,medium,OK:3,generic scraper
 448,Indiana University-East,US,https://www.iue.edu/,https://east.iu.edu/red-wolf-central/academic-career/index.html,own website,medium,OK-2hop:OK:11,generic scraper
@@ -378,7 +378,7 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes,scrap
 508,Asbury University,US,https://www.asbury.edu/,https://jobs.asbury.edu/,own website,medium,OK-2hop:OK:5,generic scraper
 509,Louisiana State University-Alexandria,US,https://www.lsua.edu/,https://lsu.wd1.myworkdayjobs.com/LSU,Workday,high,OK-2hop:OK:8,adapter built
 510,Louisiana State University and Agricultural & Mechanical College,US,https://www.lsu.edu/,https://lsu.wd1.myworkdayjobs.com/LSU,Workday,high,OK-2hop:OK:8,adapter built
-513,Southeastern Louisiana University,US,https://www.southeastern.edu/,https://wd503.myworkday.com/ulsselu/,own website,high,OK:6,generic scraper
+513,Southeastern Louisiana University,US,https://www.southeastern.edu/,https://www.southeastern.edu/about/employment,own website,high,OK:6 | careers_link rediscovered (old: https://wd503.myworkday.com/ulsselu/),generic scraper
 514,University of Louisiana at Lafayette,US,https://www.louisiana.edu/,https://louisiana.csod.com/ats/careersite/search.aspx?site=1&c=louisiana,Cornerstone OnDemand,high,OK-2hop:OK:8,adapter built
 515,McNeese State University,US,https://www.mcneese.edu/,https://www.mcneese.edu/financial-aid/gainful-employment-disclosure-information/,own website,medium,OK-2hop:OK:2,generic scraper
 516,University of Louisiana at Monroe,US,https://www.ulm.edu/,https://agency.governmentjobs.com/louisiana/default.cfm?&promotionaljobs=0&transfer=0&jobType[0]=Faculty&sort=PositionTitle%7CAscending,own website,high,OK-2hop:OK:6,generic scraper
@@ -1094,7 +1094,7 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes,scrap
 1400,University of St Thomas,US,https://www.stthom.edu/,https://stthom.applicantpro.com/jobs/,own website,medium,OK-2hop:OK:2,generic scraper
 1401,Sam Houston State University,US,https://www.shsu.edu/,https://www.shsu.edu/offices-departments/career-success-center/index.php,own website,medium,OK-2hop:OK:2,generic scraper
 1403,University of Dallas,US,https://udallas.edu/,https://udallas.edu/offices-services/human-resources/open-positions.php,own website,medium,OK-2hop:OK:3,generic scraper
-1405,Schreiner University,US,https://www.schreiner.edu/,https://schreiner.edu/careers/,own website,medium,OK:2,generic scraper
+1405,Schreiner University,US,https://www.schreiner.edu/,https://schreiner.edu/careers/,own website,medium,OK:2 | careers_link rediscovered (old: https://schreiner.edu/careers/),generic scraper
 1406,Texas A&M University-Central Texas,US,https://tamuct.edu/,https://tamus.wd1.myworkdayjobs.com/TAMUCT_External,Workday,medium,OK-2hop:OK:6,adapter built
 1407,Texas A & M University-Kingsville,US,https://www.tamuk.edu/,https://tamus.wd1.myworkdayjobs.com/TAMUK_External,Workday,high,OK-2hop:OK:6 [playwright],adapter built
 1408,Texas A & M International University,US,https://www.tamiu.edu/,https://tamus.wd1.myworkdayjobs.com/TAMIU_External,Workday,medium,OK-2hop:OK:2,adapter built
@@ -1126,7 +1126,7 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes,scrap
 1450,Western Governors University,US,https://www.wgu.edu/,https://jobs.wgu.edu/academic-careers,own website,medium,OK-2hop:OK:14,generic scraper
 1451,Westminster University,US,https://www.westminstercollege.edu/,https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=8b104a38-45ac-4682-9e01-117585322eb0,ADP,high,OK-2hop:OK:9,adapter built
 1453,Marymount University,US,https://www.marymount.edu/,https://marymount.wd5.myworkdayjobs.com/Careers,Workday,high,OK:8 [playwright],adapter built
-1456,Randolph-Macon College,US,https://www.rmc.edu/,https://www.rmc.edu/about-rmc/offices-departments/human-resources/employment-opportunities/,own website,high,NO_MATCH [playwright];hand-verified-sync,generic scraper
+1456,Randolph-Macon College,US,https://www.rmc.edu/,https://www.rmc.edu/about-rmc/offices-departments/human-resources/employment-opportunities/,own website,high,NO_MATCH [playwright];hand-verified-sync | careers_link rediscovered (old: https://www.rmc.edu/about-rmc/offices-departments/),generic scraper
 1457,Virginia Polytechnic Institute and State University,US,https://www.vt.edu/,https://careers.pageuppeople.com/968/ci/en-us/listing,PageUp,high,OK-2hop:OK:10,generic scraper (verified working)
 1459,Bridgewater College,US,https://www.bridgewater.edu/,https://www.bridgewater.edu/careers/,own website,medium,OK-2hop:OK:4,generic scraper
 1460,Southern Virginia University,US,https://svu.edu/,https://svu.edu/about/careers/open-rank-professor-of-biology/,own website,medium,OK-2hop:OK:4,generic scraper

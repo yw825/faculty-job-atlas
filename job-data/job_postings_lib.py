@@ -781,7 +781,20 @@ def scrape_ultipro(url):
     return links
 
 
+def normalize_platform_url(url):
+    """Repairs careers links that point at a platform's CANDIDATE PORTAL
+    rather than its job board.
+
+    Notre Dame's link is jobs.smartrecruiters.com/my-applications/
+    UniversityOfNotreDame -- the page an applicant uses to track their own
+    applications. It answers 200 and the adapter runs happily against it,
+    returning 0 of the university's 87 open positions. Dropping the
+    /my-applications/ segment gives the board."""
+    return re.sub(r'(jobs\.smartrecruiters\.com)/my-applications/', r'\1/', url)
+
+
 def scrape_smartrecruiters(url):
+    url = normalize_platform_url(url)
     """https://jobs.smartrecruiters.com/<Company>/... -> public REST API,
     api.smartrecruiters.com/v1/companies/<Company>/postings."""
     m = re.search(r'smartrecruiters\.com/([^/?#]+)', url)
@@ -1353,6 +1366,33 @@ def peoplesoft_posting_url(careers_link, job_id):
 def scrape_peoplesoft(url):
     return [peoplesoft_posting_url(url, jid) for _t, jid, _l, _d, _p in peoplesoft_rows(url)]
 
+
+
+def scrape_structural(url):
+    """Postings found by URL SHAPE rather than by job words.
+
+    For careers pages whose posting links carry no job word at all --
+    Northwestern's HR listing has 66 of them and the word matcher finds 1.
+    Takes the best-scoring group of same-shaped sibling links (deep_probe's
+    test), falling back to the word matcher when no group stands out."""
+    import sys as _sys, os as _os
+    _sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
+    import deep_probe
+
+    html = fetch_rendered(url, wait_ms=5000)
+    if is_fetch_failure(html) or not html:
+        raise RuntimeError(html or 'page did not load')
+    groups = deep_probe.find_posting_groups(html, url)
+    if groups:
+        _template, members, _score = groups[0]
+        links = []
+        for u, _t in members:
+            if u.rstrip('/') != url.rstrip('/') and u not in links:
+                links.append(u)
+        if len(links) >= 3:
+            return links
+    return extract_links(html, url, href_pattern=COMMON_JOB_URL_HINTS,
+                         text_pattern=COMMON_JOB_TEXT_HINTS)
 
 PLATFORM_ADAPTERS = {
     'workday': lambda url, name: scrape_workday(url, school_name=name),

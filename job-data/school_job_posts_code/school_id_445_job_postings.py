@@ -22,7 +22,7 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 445
 SCHOOL_NAME = 'University of Notre Dame'
-CAREERS_LINK = 'https://jobs.smartrecruiters.com/my-applications/UniversityOfNotreDame?dcr_ci=UniversityOfNotreDame'
+CAREERS_LINK = 'https://jobs.smartrecruiters.com/UniversityOfNotreDame'
 ATS_PLATFORM = 'SmartRecruiters'
 PLATFORM = 'smartrecruiters'
 

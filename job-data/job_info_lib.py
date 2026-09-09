@@ -1524,6 +1524,7 @@ def fetch_smartrecruiters_bulk(careers_link):
     title, department and location for every posting; only the description
     needs a per-posting call, and that call returns clean structured
     sections rather than a page whose visible text is mostly chrome."""
+    careers_link = jlib.normalize_platform_url(careers_link)
     import time as _time
     from html import unescape
 

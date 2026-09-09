@@ -31,19 +31,17 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 513
 SCHOOL_NAME = 'Southeastern Louisiana University'
-CAREERS_LINK = 'https://wd503.myworkday.com/ulsselu/'
+CAREERS_LINK = 'https://www.southeastern.edu/about/employment'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    """CUSTOMIZED: careers_link was rediscovered from this school's
+    homepage, and its posting links carry no job word -- found by URL
+    shape instead (the word matcher returns 1 link against 66 real ones)."""
+    return lib.scrape_structural(CAREERS_LINK)
 
 
 def main():

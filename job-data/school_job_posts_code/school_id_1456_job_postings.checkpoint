@@ -1,9 +1,16 @@
 {
-  "links": [],
+  "links": [
+    "https://www.rmc.edu/campus-life/housing-and-dining/",
+    "https://www.rmc.edu/campus-life/inclusion-belonging/",
+    "https://www.rmc.edu/campus-life/leadership-service/",
+    "https://www.rmc.edu/campus-life/religious-spiritual-life/",
+    "https://www.rmc.edu/campus-life/fraternity-sorority-life/",
+    "https://www.rmc.edu/campus-life/arts-and-events/"
+  ],
   "school_id": 1456,
   "status": "complete",
-  "updated_at": "2026-09-08T03:06:08+00:00",
-  "started_at": "2026-09-08T03:06:06+00:00",
-  "completed_at": "2026-09-08T03:06:08+00:00",
+  "updated_at": "2026-09-09T06:14:05+00:00",
+  "started_at": "2026-09-09T06:14:00+00:00",
+  "completed_at": "2026-09-09T06:14:05+00:00",
   "last_error": ""
 }

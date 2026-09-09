@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 391
 SCHOOL_NAME = 'Northwestern University'
-CAREERS_LINK = 'https://careers.northwestern.edu'
+CAREERS_LINK = 'https://www.northwestern.edu/offices/human-resources/careers'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 
