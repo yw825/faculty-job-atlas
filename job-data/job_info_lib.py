@@ -1638,10 +1638,43 @@ def fetch_adp_bulk(careers_link):
     return out
 
 
+def fetch_interfolio_bulk(careers_link):
+    """{posting_url: (title, description, department)} for a whole
+    Interfolio board in one paginated API loop.
+
+    The board API already carries description, qualifications and the
+    hiring unit, so nothing is gained by opening 158 Angular pages one at
+    a time -- and quite a lot is lost, since each would need a browser."""
+    from bs4 import BeautifulSoup
+
+    out = {}
+    for r in jlib.interfolio_positions(careers_link):
+        pid = r.get('id')
+        if not pid:
+            continue
+        parts = [r.get('description') or '', r.get('qualifications') or '',
+                 r.get('instructions') or '']
+        text = BeautifulSoup(' '.join(parts), 'html.parser').get_text(' ', strip=True)
+        # The dates the CSV wants are already here; prepending them lets
+        # the shared date parsing find them without a second fetch.
+        head = []
+        if r.get('open_date_raw'):
+            head.append(f"Posted: {r['open_date_raw']}")
+        if r.get('close_date_raw'):
+            head.append(f"Deadline: {r['close_date_raw']}")
+        if r.get('location'):
+            head.append(f"Location: {r['location']}")
+        description = ' '.join(head + [text])
+        out[f'https://apply.interfolio.com/{pid}'] = (
+            (r.get('name') or '').strip(), description, (r.get('unit_name') or '').strip())
+    return out
+
+
 BULK_ADAPTERS = {
     'oracle': fetch_oracle_bulk,
     'smartrecruiters': fetch_smartrecruiters_bulk,
     'adp': fetch_adp_bulk,
+    'interfolio': fetch_interfolio_bulk,
 }
 
 

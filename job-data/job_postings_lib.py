@@ -339,6 +339,8 @@ def detect_platform(url):
     # DirectEmployers network boards all sit on a bare *.jobs domain
     if host.endswith('.jobs'):
         return 'dejobs'
+    if 'apply.interfolio.com' in host:
+        return 'interfolio'
     if 'paycomonline.net' in host:
         return 'paycom'
     # UC Recruit instances are recruit*/apo-recruit hosts under a UC campus
@@ -1161,6 +1163,82 @@ def scrape_corehr(url):
             f'p_display_apply_ind=Y&p_recruitment_id={jid}' for jid in ids]
 
 
+
+def _interfolio_board_id(url):
+    """The job-board id out of an apply.interfolio.com careers link."""
+    m = re.search(r'apply\.interfolio\.com/(\d+)', url)
+    return m.group(1) if m else None
+
+
+def interfolio_positions(url):
+    """Every position on an Interfolio job board, as parsed API records.
+
+    apply.interfolio.com is an Angular app -- a plain fetch returns
+    unrendered templates ("{{$ctrl.$state.data.pageTitle}}"), which is why
+    these schools all sat at 0-1 rows. The board is backed by a public
+    JSON API that carries the description, unit and dates as well, so
+    job_info reads it in bulk instead of visiting 158 pages.
+
+    NOTE the two Interfolio id namespaces, which are easy to confuse and
+    cost a wrong conclusion here once: /byc-search/<id>/public_job_boards
+    is the BOARD (31694 -> "Case Western Reserve University Positions",
+    158 openings), while /dossier-api/positions/<id> is a single POSITION
+    that happens to share the number (31694 -> a Millikin University job).
+    The careers links use the board namespace."""
+    board = _interfolio_board_id(url)
+    if not board:
+        raise RuntimeError(f'no Interfolio board id in {url!r}')
+    api = f'https://logic.interfolio.com/byc-search/{board}/public_job_boards'
+    out, page, total = [], 1, None
+    while page <= 60:
+        status, body = fetch_static(api if page == 1 else f'{api}?page={page}')
+        if status != 200 or not body:
+            break
+        try:
+            data = json.loads(body)
+        except ValueError:
+            break
+        results = data.get('results') or []
+        if not results:
+            break
+        out.extend(results)
+        total = data.get('total_count', total)
+        if total is not None and len(out) >= total:
+            break
+        page += 1
+    if not out:
+        # The id may be a POSITION rather than a board -- some schools'
+        # careers_link is a link to one opening (Simpson College's 191426
+        # is its "Director of Human Resources"). Confirmed a real posting
+        # for the right institution, so it is kept rather than errored.
+        status, body = fetch_static(
+            f'https://logic.interfolio.com/dossier-api/positions/{board}')
+        if status == 200 and body:
+            try:
+                one = json.loads(body)
+            except ValueError:
+                one = None
+            if one and one.get('position_id'):
+                return [{'id': one['position_id'],
+                         'name': one.get('position_name') or '',
+                         'unit_name': one.get('institution') or '',
+                         'description': one.get('landing_page_description') or '',
+                         'qualifications': one.get('qualifications') or '',
+                         'location': one.get('location') or ''}]
+        raise RuntimeError(f'Interfolio board {board} returned no positions')
+    return out
+
+
+def scrape_interfolio(url):
+    seen, links = set(), []
+    for r in interfolio_positions(url):
+        pid = r.get('id')
+        if pid and pid not in seen:
+            seen.add(pid)
+            links.append(f'https://apply.interfolio.com/{pid}')
+    return links
+
+
 PLATFORM_ADAPTERS = {
     'workday': lambda url, name: scrape_workday(url, school_name=name),
     'corehr': lambda url, name: scrape_corehr(url),
@@ -1176,6 +1254,7 @@ PLATFORM_ADAPTERS = {
     'dejobs': lambda url, name: scrape_dejobs(url),
     'ucrecruit': lambda url, name: scrape_ucrecruit(url),
     'paycom': lambda url, name: scrape_paycom(url),
+    'interfolio': lambda url, name: scrape_interfolio(url),
     'apella': lambda url, name: scrape_apella(url, name),
     'poland_nauka': lambda url, name: scrape_poland_nauka(url, name),
 }
