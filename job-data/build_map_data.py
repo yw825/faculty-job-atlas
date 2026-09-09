@@ -136,7 +136,13 @@ _JUNK_TITLE_RE = re.compile(
     r'position details|position information|position description|'
     r'search jobs \(postings\)|loading\.{0,3}|recruit|human resources|'
     r'career center|hirezon ?/? ?interview exchange|\+ cornerstone ondemand \+|'
-    r'we\'?re hiring!?|job posting|posting details)$', re.I)
+    r'we\'?re hiring!?|job posting|posting details|'
+    # One ATS's own navigation, which its detail pages use as the page
+    # title: "Terms Of Use", "Inbox" and "Profile" each appeared on 42
+    # different schools, and a cookie banner became a job title on 3.
+    r'terms of use|terms (?:and|&) conditions|inbox|profile|my profile|'
+    r'this site uses cookies.*|cookie (?:policy|notice|preferences)|'
+    r'notifications?|settings|help|sitemap)$', re.I)
 
 
 # The regex above only catches furniture we can name. The bigger problem is
