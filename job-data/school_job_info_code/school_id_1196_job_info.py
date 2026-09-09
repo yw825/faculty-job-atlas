@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1196
 SCHOOL_NAME = 'Carlow University'
-CAREERS_LINK = 'https://forms.office.com/r/pLvbzux3Wv'
+CAREERS_LINK = 'https://www.carlow.edu/about/administration/departments/human-resources/'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1186
 SCHOOL_NAME = 'Westminster College'
-CAREERS_LINK = 'https://my.westminster.edu/ics/Campus_Life/Campus_Groups/Human_Resources__Employment/Overview.jnz'
+CAREERS_LINK = 'https://www.westminster.edu/about/community/employment.cfm'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

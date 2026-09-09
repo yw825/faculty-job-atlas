@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1253
 SCHOOL_NAME = 'University of Puerto Rico-Mayaguez'
-CAREERS_LINK = 'https://www.eventbrite.com/e/38th-job-fair-tickets-1992770470120'
+CAREERS_LINK = 'https://www.uprm.edu/empleos/'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

@@ -1392,6 +1392,32 @@ def fetch_detail_generic(url):
     return title, description
 
 
+def fetch_detail_academicjobsonline(url):
+    """AcademicJobsOnline posting pages.
+
+    Their <title> and <h1> are both the site's own name
+    ("AcademicJobsOnline.org"), so the generic reader labels every posting
+    at a school with that instead of the job -- 8 of 8 for Stony Brook.
+    The real title is a labelled field in the body ("Position Title: ..."),
+    and the <h2> carries the hiring department."""
+    from bs4 import BeautifulSoup
+
+    status, html = jlib.fetch_static(url)
+    if not html or status != 200:
+        html = jlib.fetch_rendered(url, wait_ms=4000)
+    if jlib.is_fetch_failure(html) or not html:
+        raise RuntimeError(html or 'academicjobsonline page did not load')
+
+    soup = BeautifulSoup(html, 'html.parser')
+    text = soup.get_text(' ', strip=True)
+    m = re.search(r'Position Title:\s*(.+?)\s+Position (?:Type|Location|ID):', text)
+    title = m.group(1).strip() if m else ''
+    if not title:
+        h2 = soup.find('h2')
+        title = h2.get_text(' ', strip=True) if h2 else ''
+    return title, text
+
+
 def fetch_detail_inline(url):
     """Detail reader for an inline-listing school, where every opening is a
     SECTION of one page and the posting "url" is that page plus a #slug.

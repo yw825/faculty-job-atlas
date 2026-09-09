@@ -48,7 +48,11 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint
 
 
 def fetch_detail(url):
-    return jinfo.fetch_detail_generic(url)
+    """CUSTOMIZED: AcademicJobsOnline pages title themselves
+    "AcademicJobsOnline.org" in both <title> and <h1>, so the generic
+    reader labels every posting that. The real title is the body's
+    "Position Title:" field."""
+    return jinfo.fetch_detail_academicjobsonline(url)
 
 
 def main():

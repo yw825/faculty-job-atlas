@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 799
 SCHOOL_NAME = 'Mars Hill University'
-CAREERS_LINK = 'https://jobs.appone.com/marshilluniversity'
+CAREERS_LINK = 'https://www.universityjob.com/employment/MHUHR'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

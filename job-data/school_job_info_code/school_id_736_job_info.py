@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 736
 SCHOOL_NAME = 'Webster University'
-CAREERS_LINK = 'https://recruiting.adp.com/srccar/public/RTI.home?c=1180715&d=ExternalCareerSite'
+CAREERS_LINK = 'https://www.webster.edu/human-resources/index.php'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

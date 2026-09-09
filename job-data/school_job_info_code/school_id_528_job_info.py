@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 528
 SCHOOL_NAME = 'Louisiana State University-Shreveport'
-CAREERS_LINK = 'https://lsus.edu2.com/topic/programsteps'
+CAREERS_LINK = 'https://www.lsus.edu/faculty-and-staff/human-resources/employment-opportunities'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

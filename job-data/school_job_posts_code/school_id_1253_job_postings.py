@@ -31,19 +31,23 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1253
 SCHOOL_NAME = 'University of Puerto Rico-Mayaguez'
-CAREERS_LINK = 'https://www.eventbrite.com/e/38th-job-fair-tickets-1992770470120'
+CAREERS_LINK = 'https://www.uprm.edu/empleos/'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    """NOTE: careers_link was corrected by hand to this school's real
+    employment page, which is the right page for a human -- but it is NOT
+    machine-readable as a listing: it links out to an ATS or names no
+    postings, and every extractor tried returned the site's navigation
+    ("Find Your Way Around Campus!", "Sign in to your account") rather
+    than jobs. Those rows were removed; an empty file is correct here
+    until this school's real board is located."""
+    """CUSTOMIZED: careers_link was corrected by hand (was an Eventbrite ticket page for a job fair).
+    Postings are matched by job word first, by repeated URL shape second."""
+    return lib.scrape_listing(CAREERS_LINK)
 
 
 def main():

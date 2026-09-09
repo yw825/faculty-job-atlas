@@ -1470,6 +1470,38 @@ def discover_embedded_ats(url, wait_ms=9000):
             return (platform, request_url)
     return (None, None)
 
+
+def scrape_listing(url):
+    """Postings by keyword first, by URL shape second.
+
+    Keyword matching is the more precise of the two and is trusted whenever
+    it finds a real run of postings. Shape matching has the better recall
+    but will happily return a site's navigation when a page has no postings
+    at all, so it is only consulted when keywords come up short -- which is
+    the case on listings whose links carry no job word (Northwestern: 1 by
+    keyword, 66 by shape)."""
+    html = fetch_rendered(url, wait_ms=5000)
+    if is_fetch_failure(html) or not html:
+        raise RuntimeError(html or 'page did not load')
+    by_word = extract_links(html, url, href_pattern=COMMON_JOB_URL_HINTS,
+                            text_pattern=COMMON_JOB_TEXT_HINTS)
+    if len(by_word) >= 3:
+        return by_word
+
+    import sys as _sys, os as _os
+    _sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
+    import deep_probe
+    groups = deep_probe.find_posting_groups(html, url)
+    if groups:
+        _t, members, _sc = groups[0]
+        shaped = []
+        for u, _txt in members:
+            if u.rstrip('/') != url.rstrip('/') and u not in shaped:
+                shaped.append(u)
+        if len(shaped) >= 3:
+            return shaped
+    return by_word
+
 PLATFORM_ADAPTERS = {
     'workday': lambda url, name: scrape_workday(url, school_name=name),
     'corehr': lambda url, name: scrape_corehr(url),

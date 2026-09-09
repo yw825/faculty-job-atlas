@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1009
 SCHOOL_NAME = 'Stony Brook University'
-CAREERS_LINK = 'https://stonybrook-advocate.symplicity.com/collections/reportit/4a9adc9d6aa24c3cf581ea5daa46cd25'
+CAREERS_LINK = 'https://academicjobsonline.org/ajo/SBU'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 
@@ -38,13 +38,11 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """This school's own detail-page logic, owned by this file. The default
-    renders the page, picks the most job-title-shaped heading, and takes the
-    visible text as the description. Override when a posting page needs
-    something else -- a nested iframe, a cookie gate, a PDF, or a title that
-    only exists in <title> (all of which came up in the non-US set)."""
-    return jinfo.fetch_detail_generic(url)
-
+    """CUSTOMIZED: AcademicJobsOnline pages title themselves
+    "AcademicJobsOnline.org" in both <title> and <h1>, so the generic
+    reader labels every posting that. The real title is the body's
+    "Position Title:" field."""
+    return jinfo.fetch_detail_academicjobsonline(url)
 
 
 def main():

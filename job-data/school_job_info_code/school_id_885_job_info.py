@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 885
 SCHOOL_NAME = 'Thomas Edison State University'
-CAREERS_LINK = 'https://tesu.elluciancrmrecruit.com/Apply/Account/ProspectInquiry?f=a5c390e3-cba0-4376-b596-8fba5466af6e&o=8a362f72-262c-48bc-a36d-c5d6e0f75af6&s=c1a80143-768e-e311-a614-00155d01181f'
+CAREERS_LINK = 'https://www.tesu.edu/about/work-at-tesu/index.php'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

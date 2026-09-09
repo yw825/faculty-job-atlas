@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 759
 SCHOOL_NAME = 'Rocky Mountain College'
-CAREERS_LINK = 'https://www.facebook.com/rockymountaincollege/'
+CAREERS_LINK = 'https://rocky.edu/employment/'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

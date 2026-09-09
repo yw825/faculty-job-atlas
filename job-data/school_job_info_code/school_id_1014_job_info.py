@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1014
 SCHOOL_NAME = 'Rensselaer Polytechnic Institute'
-CAREERS_LINK = 'https://rpi.dc4.pageuppeople.com/dashboard'
+CAREERS_LINK = 'https://careers.rpi.edu/jobs/search'
 ATS_PLATFORM = 'PageUp'
 USE_LLM = False
 

@@ -31,23 +31,18 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1009
 SCHOOL_NAME = 'Stony Brook University'
-CAREERS_LINK = 'https://stonybrook-advocate.symplicity.com/collections/reportit/4a9adc9d6aa24c3cf581ea5daa46cd25'
+CAREERS_LINK = 'https://academicjobsonline.org/ajo/SBU'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
-def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+PLATFORM = 'academicjobsonline'
 
 
 def main():
-    result = lib.run_checkpointed(SCHOOL_ID, CHECKPOINT_PATH, find_links)
+    result = lib.run_platform_school(SCHOOL_ID, SCHOOL_NAME, CAREERS_LINK,
+                                     CHECKPOINT_PATH, platform=PLATFORM)
     err = result.get('last_error', '')
     print(f"{SCHOOL_NAME} (id={SCHOOL_ID}): status={result['status']} "
           f"links={len(result['links'])}" + (f" ERROR: {err}" if err else ''))

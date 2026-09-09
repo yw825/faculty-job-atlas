@@ -31,19 +31,23 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 632
 SCHOOL_NAME = 'Andrews University'
-CAREERS_LINK = 'https://andrewsu-advocate.symplicity.com/care_report/index.php/pid627169'
+CAREERS_LINK = 'https://www.andrews.edu/admres/jobs'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    """NOTE: careers_link was corrected by hand to this school's real
+    employment page, which is the right page for a human -- but it is NOT
+    machine-readable as a listing: it links out to an ATS or names no
+    postings, and every extractor tried returned the site's navigation
+    ("Find Your Way Around Campus!", "Sign in to your account") rather
+    than jobs. Those rows were removed; an empty file is correct here
+    until this school's real board is located."""
+    """CUSTOMIZED: careers_link was corrected by hand (was a Symplicity incident-report portal).
+    Postings are matched by job word first, by repeated URL shape second."""
+    return lib.scrape_listing(CAREERS_LINK)
 
 
 def main():

@@ -31,19 +31,16 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1014
 SCHOOL_NAME = 'Rensselaer Polytechnic Institute'
-CAREERS_LINK = 'https://rpi.dc4.pageuppeople.com/dashboard'
+CAREERS_LINK = 'https://careers.rpi.edu/jobs/search'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    """CUSTOMIZED: careers_link was corrected by hand (was the PageUp recruiter DASHBOARD, not the public board).
+    Postings are matched by job word first, by repeated URL shape second."""
+    return lib.scrape_listing(CAREERS_LINK)
 
 
 def main():

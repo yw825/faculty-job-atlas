@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 632
 SCHOOL_NAME = 'Andrews University'
-CAREERS_LINK = 'https://andrewsu-advocate.symplicity.com/care_report/index.php/pid627169'
+CAREERS_LINK = 'https://www.andrews.edu/admres/jobs'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

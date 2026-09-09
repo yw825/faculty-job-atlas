@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 400
 SCHOOL_NAME = 'Western Illinois University'
-CAREERS_LINK = 'https://sso.interviewexchange.com/wiu/sso.jsp'
+CAREERS_LINK = 'https://www.wiu.edu/employment/faculty-admin.php'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1528
 SCHOOL_NAME = 'Whitman College'
-CAREERS_LINK = 'https://whitman-advocate.symplicity.com/public_report/index.php'
+CAREERS_LINK = 'https://www.whitman.edu/human-resources/employment-opportunities'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 
