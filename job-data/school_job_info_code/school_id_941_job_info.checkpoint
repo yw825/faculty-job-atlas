@@ -59,10 +59,199 @@
     "https://www.fredonia.edu/jobofferdetails.jsp?JOBID=169138": {
       "title": "Page Not Found",
       "description": "Page Not Found | Fredonia.edu Skip to main content News/Events Map/Tour Give Info For Current Students Incoming Students Parents/Families Faculty/Staff Alumni Bicentennial Celebration Apply Click to go to the homepage. News/Events Map/Tour Give Info For Current Students Incoming Students Parents/Families Faculty/Staff Alumni Bicentennial Celebration Apply About Fast Facts Events Calendar Community Diversity and Inclusion Leadership Academics Majors & Programs Summer Sessions Winter Session J-Term Study Abroad Academic Advising Continuing & Community Ed Admissions Accepted Students First-Year Transfer International Graduate Visit Fredonia Virtual Tour Scholarships & Aid Financial Aid Scholarships Student Life Housing Dining Clubs & Organizations Health, Wellness & Support Athletics & Recreation × search Page Not Found The requested web page could not be found. Search the Fredonia website: × search Or, go to the Fredonia homepage Contact Us | 716-673-3111 Campus Map Who do I contact for ... ? Emergencies & Closings Faculty/Staff Directory Careers Logins Email FREDLearn fredPASS My.FRED Starfish YourConnection Tracker Answers Drupal Login Drupal Help Click to go to the homepage. © 2025 State University of New York at Fredonia - 280 Central Avenue - Fredonia, NY Non-Discrimination Statement | Campus Safety Report | Privacy | Accessibility We use cookies on this site to enhance your user experience By clicking any link on this page you are giving your consent for us to set cookies. OK, I Agree"
+    },
+    "https://fredonia.interviewexchange.com/static/clients/471SFM1/index.jsp?CATID=1525": {
+      "error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://fredonia.interviewexchange.com/static/clients/471SFM1/index.jsp?CATID=1525\", waiting until \"domcontentloaded\"\n"
+    },
+    "http://fsa.fredonia.edu/Employment/CurrentOpenings.aspx": {
+      "title": "Server Error",
+      "description": "403 - Forbidden: Access is denied. Server Error 403 - Forbidden: Access is denied. You do not have permission to view this directory or page using the credentials that you supplied."
     }
   },
-  "rows": {},
+  "rows": {
+    "https://www.fredonia.edu/jobofferdetails.jsp?JOBID=201747": {
+      "school_id": 941,
+      "posting_url": "https://www.fredonia.edu/jobofferdetails.jsp?JOBID=201747",
+      "job_title_in_post": "Page Not Found",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://www.fredonia.edu/jobofferdetails.jsp?JOBID=199780": {
+      "school_id": 941,
+      "posting_url": "https://www.fredonia.edu/jobofferdetails.jsp?JOBID=199780",
+      "job_title_in_post": "Page Not Found",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://www.fredonia.edu/jobofferdetails.jsp?JOBID=197379": {
+      "school_id": 941,
+      "posting_url": "https://www.fredonia.edu/jobofferdetails.jsp?JOBID=197379",
+      "job_title_in_post": "Page Not Found",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://www.fredonia.edu/jobofferdetails.jsp?JOBID=197377": {
+      "school_id": 941,
+      "posting_url": "https://www.fredonia.edu/jobofferdetails.jsp?JOBID=197377",
+      "job_title_in_post": "Page Not Found",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://www.fredonia.edu/jobofferdetails.jsp?JOBID=195801": {
+      "school_id": 941,
+      "posting_url": "https://www.fredonia.edu/jobofferdetails.jsp?JOBID=195801",
+      "job_title_in_post": "Page Not Found",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://www.fredonia.edu/jobofferdetails.jsp?JOBID=195800": {
+      "school_id": 941,
+      "posting_url": "https://www.fredonia.edu/jobofferdetails.jsp?JOBID=195800",
+      "job_title_in_post": "Page Not Found",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://www.fredonia.edu/jobofferdetails.jsp?JOBID=203633": {
+      "school_id": 941,
+      "posting_url": "https://www.fredonia.edu/jobofferdetails.jsp?JOBID=203633",
+      "job_title_in_post": "Page Not Found",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://www.fredonia.edu/jobofferdetails.jsp?JOBID=203631": {
+      "school_id": 941,
+      "posting_url": "https://www.fredonia.edu/jobofferdetails.jsp?JOBID=203631",
+      "job_title_in_post": "Page Not Found",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://www.fredonia.edu/jobofferdetails.jsp?JOBID=199465": {
+      "school_id": 941,
+      "posting_url": "https://www.fredonia.edu/jobofferdetails.jsp?JOBID=199465",
+      "job_title_in_post": "Page Not Found",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://www.fredonia.edu/jobofferdetails.jsp?JOBID=124528": {
+      "school_id": 941,
+      "posting_url": "https://www.fredonia.edu/jobofferdetails.jsp?JOBID=124528",
+      "job_title_in_post": "Page Not Found",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://www.fredonia.edu/jobofferdetails.jsp?JOBID=201312": {
+      "school_id": 941,
+      "posting_url": "https://www.fredonia.edu/jobofferdetails.jsp?JOBID=201312",
+      "job_title_in_post": "Page Not Found",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://www.fredonia.edu/jobofferdetails.jsp?JOBID=200458": {
+      "school_id": 941,
+      "posting_url": "https://www.fredonia.edu/jobofferdetails.jsp?JOBID=200458",
+      "job_title_in_post": "Page Not Found",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://www.fredonia.edu/jobofferdetails.jsp?JOBID=199333": {
+      "school_id": 941,
+      "posting_url": "https://www.fredonia.edu/jobofferdetails.jsp?JOBID=199333",
+      "job_title_in_post": "Page Not Found",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://www.fredonia.edu/jobofferdetails.jsp?JOBID=131953": {
+      "school_id": 941,
+      "posting_url": "https://www.fredonia.edu/jobofferdetails.jsp?JOBID=131953",
+      "job_title_in_post": "Page Not Found",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://www.fredonia.edu/jobofferdetails.jsp?JOBID=169138": {
+      "school_id": 941,
+      "posting_url": "https://www.fredonia.edu/jobofferdetails.jsp?JOBID=169138",
+      "job_title_in_post": "Page Not Found",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fredonia.interviewexchange.com/static/clients/471SFM1/index.jsp?CATID=1525": {
+      "error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://fredonia.interviewexchange.com/static/clients/471SFM1/index.jsp?CATID=1525\", waiting until \"domcontentloaded\"\n"
+    },
+    "http://fsa.fredonia.edu/Employment/CurrentOpenings.aspx": {
+      "school_id": 941,
+      "posting_url": "http://fsa.fredonia.edu/Employment/CurrentOpenings.aspx",
+      "job_title_in_post": "Server Error",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    }
+  },
   "school_id": 941,
-  "status": "in_progress",
-  "updated_at": "2026-09-09T19:11:23+00:00"
+  "status": "complete",
+  "updated_at": "2026-09-09T19:11:50+00:00",
+  "completed_at": "2026-09-09T19:11:50+00:00",
+  "last_error": ""
 }

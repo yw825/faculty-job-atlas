@@ -52,18 +52,6 @@
       "title": "Welcome",
       "description": "Welcome - Realize Your Potential: Cornerstone What happened? The Custom login page that you requested is temporarily down for maintenance. What to do? You will be redirected in 10 seconds to a standard login page to access your portal. If you are not automatically redirected, click here ."
     },
-    "https://nsuok.csod.com/ux/ats/careersite/4/requisition/5909": {
-      "title": "Welcome",
-      "description": "Welcome - Realize Your Potential: Cornerstone What happened? The Custom login page that you requested is temporarily down for maintenance. What to do? You will be redirected in 10 seconds to a standard login page to access your portal. If you are not automatically redirected, click here ."
-    },
-    "https://nsuok.csod.com/ux/ats/careersite/4/requisition/5908": {
-      "title": "Welcome",
-      "description": "Welcome - Realize Your Potential: Cornerstone What happened? The Custom login page that you requested is temporarily down for maintenance. What to do? You will be redirected in 10 seconds to a standard login page to access your portal. If you are not automatically redirected, click here ."
-    },
-    "https://nsuok.csod.com/ux/ats/careersite/4/requisition/5907": {
-      "title": "Welcome",
-      "description": "Welcome - Realize Your Potential: Cornerstone What happened? The Custom login page that you requested is temporarily down for maintenance. What to do? You will be redirected in 10 seconds to a standard login page to access your portal. If you are not automatically redirected, click here ."
-    },
     "https://nsuok.csod.com/ux/ats/careersite/4/requisition/5903": {
       "title": "Welcome",
       "description": "Welcome - Realize Your Potential: Cornerstone What happened? The Custom login page that you requested is temporarily down for maintenance. What to do? You will be redirected in 10 seconds to a standard login page to access your portal. If you are not automatically redirected, click here ."
@@ -245,39 +233,6 @@
       "deadline_of_application": "",
       "position_start_date": ""
     },
-    "https://nsuok.csod.com/ux/ats/careersite/4/requisition/5909": {
-      "school_id": 1101,
-      "posting_url": "https://nsuok.csod.com/ux/ats/careersite/4/requisition/5909",
-      "job_title_in_post": "Welcome",
-      "position_type": "Unclassified",
-      "job_term": "Full-time",
-      "department_or_school": "",
-      "area_key_words": "",
-      "deadline_of_application": "",
-      "position_start_date": ""
-    },
-    "https://nsuok.csod.com/ux/ats/careersite/4/requisition/5908": {
-      "school_id": 1101,
-      "posting_url": "https://nsuok.csod.com/ux/ats/careersite/4/requisition/5908",
-      "job_title_in_post": "Welcome",
-      "position_type": "Unclassified",
-      "job_term": "Full-time",
-      "department_or_school": "",
-      "area_key_words": "",
-      "deadline_of_application": "",
-      "position_start_date": ""
-    },
-    "https://nsuok.csod.com/ux/ats/careersite/4/requisition/5907": {
-      "school_id": 1101,
-      "posting_url": "https://nsuok.csod.com/ux/ats/careersite/4/requisition/5907",
-      "job_title_in_post": "Welcome",
-      "position_type": "Unclassified",
-      "job_term": "Full-time",
-      "department_or_school": "",
-      "area_key_words": "",
-      "deadline_of_application": "",
-      "position_start_date": ""
-    },
     "https://nsuok.csod.com/ux/ats/careersite/4/requisition/5903": {
       "school_id": 1101,
       "posting_url": "https://nsuok.csod.com/ux/ats/careersite/4/requisition/5903",
@@ -380,7 +335,7 @@
   },
   "school_id": 1101,
   "status": "complete",
-  "updated_at": "2026-09-05T18:07:27+00:00",
-  "completed_at": "2026-09-05T18:07:27+00:00",
+  "updated_at": "2026-09-09T19:23:25+00:00",
+  "completed_at": "2026-09-09T19:23:25+00:00",
   "last_error": ""
 }

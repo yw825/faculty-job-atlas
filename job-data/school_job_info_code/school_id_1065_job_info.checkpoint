@@ -19,10 +19,6 @@
     "https://www.ursuline.edu/inside-ursuline/employment/inside-ursuline/employment/inside-ursuline/employment/job-opportunities": {
       "title": "Server Error",
       "description": "403 Forbidden Server Error 403 Forbidden You do not have permission to access this document. That's what you can do Reload Page Back to Previous Page Home Page"
-    },
-    "https://www.ursuline.edu/inside-ursuline/employment/inside-ursuline/employment/academics/continuing-education/career-training/overview": {
-      "title": "Server Error",
-      "description": "403 Forbidden Server Error 403 Forbidden You do not have permission to access this document. That's what you can do Reload Page Back to Previous Page Home Page"
     }
   },
   "rows": {
@@ -80,22 +76,11 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
-    },
-    "https://www.ursuline.edu/inside-ursuline/employment/inside-ursuline/employment/academics/continuing-education/career-training/overview": {
-      "school_id": 1065,
-      "posting_url": "https://www.ursuline.edu/inside-ursuline/employment/inside-ursuline/employment/academics/continuing-education/career-training/overview",
-      "job_title_in_post": "Server Error",
-      "position_type": "Unclassified",
-      "job_term": "Full-time",
-      "department_or_school": "",
-      "area_key_words": "",
-      "deadline_of_application": "",
-      "position_start_date": ""
     }
   },
   "school_id": 1065,
   "status": "complete",
-  "updated_at": "2026-09-09T17:27:11+00:00",
-  "completed_at": "2026-09-09T17:27:11+00:00",
+  "updated_at": "2026-09-09T19:22:44+00:00",
+  "completed_at": "2026-09-09T19:22:44+00:00",
   "last_error": ""
 }

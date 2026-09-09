@@ -1234,6 +1234,9 @@ def _title_candidates_from_text(raw):
     the untrimmed original -- so a caller trying candidates in order finds
     the tightest job-shaped match before falling back to noisier ones."""
     raw = _LEADING_JUNK_TITLE_RE.sub('', raw).strip()
+    # Taleo appends the requisition number to its page title ("Business
+    # Analyst  (2601322)"); it is an id, not part of the job's name.
+    raw = re.sub(r'\s*\((?:\d{4,}|[A-Z]{1,4}[-_]?\d{3,})\)\s*$', '', raw).strip()
     candidates = [raw]
 
     # "Site | Title" as well as "Title | Site". Splitting always to the LEFT
@@ -1391,10 +1394,12 @@ def fetch_detail_generic(url):
             pass                      # fall through to the browser
 
     html = ''
+    used_static = False
     try:
         status, static_html = jlib.fetch_static(url)
         if status == 200 and static_html and len(static_html) > 3000:
             html = static_html
+            used_static = True
     except Exception:
         pass
     if not html:
@@ -1418,9 +1423,59 @@ def fetch_detail_generic(url):
     for heading in soup.find_all(['h1', 'h2']):
         candidates += _title_candidates_from_text(heading.get_text(strip=True))
     title_tag = soup.find('title')
+    title_tag_candidates = []
     if title_tag:
-        candidates += _title_candidates_from_text(title_tag.get_text(strip=True))
-    title = _pick_best_title(candidates)
+        title_tag_candidates = _title_candidates_from_text(title_tag.get_text(strip=True))
+        candidates += title_tag_candidates
+    # Drop the site's own chrome before choosing: Otago's posting pages
+    # carry h1 "Current Vacancies" and h2 "Human Resources" above a <title>
+    # of "Job Description - Business Analyst", and the chrome headings win
+    # on position alone unless they are taken out of the running.
+    non_chrome = [c for c in candidates
+                  if not _CHROME_TITLE_RE.match(c.strip().rstrip(' .'))]
+    title = _pick_best_title(non_chrome or candidates)
+
+    # When no heading named a rank, the <title> tag is the better witness:
+    # Otago's posting pages head with "Current Vacancies" / "Employment
+    # Status" while the tag says "Job Description - Business Analyst".
+    if title and not _TITLE_LOOKS_LIKE_JOB_RE.search(title):
+        tag_only = [c for c in title_tag_candidates
+                    if not _CHROME_TITLE_RE.match(c.strip().rstrip(' .'))]
+        if tag_only:
+            title = _pick_best_title(tag_only)
+
+    # The page may have come from the cheap static route and given us the
+    # site's chrome rather than the job: MacEwan's postings all read "About
+    # Us" and Otago's "Human Resources" that way, while the SAME pages
+    # rendered give "Assistant Professor, Sustainability Studies" and "Job
+    # Description - Business Analyst". So a chrome title is treated as a
+    # reason to pay for the browser, not as an answer.
+    if used_static and not _TITLE_LOOKS_LIKE_JOB_RE.search(title or ''):
+        rendered = jlib.fetch_rendered(url, wait_ms=6000)
+        if rendered and not jlib.is_fetch_failure(rendered):
+            soup = BeautifulSoup(rendered, 'html.parser')
+            recand, retag = [], []
+            for heading in soup.find_all(['h1', 'h2']):
+                recand += _title_candidates_from_text(heading.get_text(strip=True))
+            tt = soup.find('title')
+            if tt:
+                retag = _title_candidates_from_text(tt.get_text(strip=True))
+                recand += retag
+            recand = [c for c in recand
+                      if not _CHROME_TITLE_RE.match(c.strip().rstrip(' .'))] or recand
+            better = _pick_best_title(recand)
+            # Same preference as above: with no rank named in a heading,
+            # the rendered <title> is the better witness.
+            if better and not _TITLE_LOOKS_LIKE_JOB_RE.search(better):
+                tag_only = [c for c in retag
+                            if not _CHROME_TITLE_RE.match(c.strip().rstrip(' .'))]
+                if tag_only:
+                    better = _pick_best_title(tag_only)
+            if better and (_TITLE_LOOKS_LIKE_JOB_RE.search(better)
+                           or not _CHROME_TITLE_RE.match(better.strip().rstrip(' .'))):
+                title = better
+                soup = BeautifulSoup(rendered, 'html.parser')
+
     description = soup.get_text(' ', strip=True)
     # A challenge page answers 200 with a title that is just the hostname
     # ("www.ucl.ac.uk") or "Just a moment...", so the block has to be
@@ -1432,6 +1487,21 @@ def fetch_detail_generic(url):
             return from_url, description
     return title, description
 
+
+# Titles a careers site gives every page: the school's own sections, and
+# an ATS's frame headings.
+_CHROME_TITLE_RE = re.compile(
+    r'^(?:about(?: us)?|home|human resources|ressources humaines|careers?|'
+    r'jobs?|employment|current vacancies|job opportunities|opportunities|'
+    r'job details|job search|search jobs|welcome|overview|contact(?: us)?|'
+    r'staff|faculty|our people|work (?:with|for) us|applicant portal|'
+    # The section headings an ATS puts above each block of a posting. They
+    # sit in h2/h3 ahead of the real title and win on document order.
+    r'opportunity|primary location|how to apply|qualifications|'
+    r'responsibilities|requirements|benefits|salary|compensation|'
+    r'closing date|posting details|position details|job description|'
+    r'information for staff|equal opportunity employer|apply now|'
+    r'summary|description|details|location|department|share this)$', re.I)
 
 _BLOCK_PAGE_RE = re.compile(
     r'just a moment|checking your browser|verify you are human|'
