@@ -60,6 +60,18 @@ _CATEGORY_SLUG = re.compile(
 # and Cornerstone's are ...?jobId=.. -- so "same path, different query"
 # cannot by itself mean "filter link". An id parameter with a value marks a
 # posting; a path that performs an action on one marks a bookmark or login.
+# URLs that are never a posting whatever their shape: social share
+# widgets, a platform's own policy/account pages, and feed endpoints. These
+# survive the path-based rules because the interesting part sits in a query
+# string or on another company's domain -- 154 rows across 66 schools,
+# including facebook.com/sharer.php?u=<the careers page> and
+# schooljobs.com/careers/<school>/privacypolicy.
+_NEVER_A_POSTING = re.compile(
+    r'about\.instagram\.com|instagram\.com/(?:p|reel)/|/sharer\.php|'
+    r'facebook\.com/share|twitter\.com/share|linkedin\.com/share(?:Article)?|'
+    r'/passwordReset|/privacypolicy|/user/(?:ResetPassword|RecoverUserName)|'
+    r'\.(?:atom|rss)(?:\?|$)|/bookmarks\?|[?&]commit=Search', re.I)
+
 _ID_QUERY = re.compile(r'(?:^|&)[a-z]*(?:job|posting|req|requisition|vacancy|position)?_?id=[^&=]+',
                        re.I)
 _ACTION_PATH = re.compile(r'/(?:bookmarks?|login|log-?in|signin|sign-?in|apply|application|'
@@ -74,6 +86,9 @@ def is_furniture(url, path, dominant_prefix, sibling_paths, careers_root):
     """Reasons a URL is a section of the site rather than one posting. Each
     returns a short label so the report can say WHY a row was dropped."""
     segs = [s for s in path.split('/') if s]
+
+    if _NEVER_A_POSTING.search(url):
+        return 'share widget / policy / feed URL'
 
     if not segs:
         return 'site root'
