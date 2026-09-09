@@ -1,45 +1,15 @@
 {
   "raw": {
-    "https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=0DB1CFB7BAA1AF7EF9E6616BC163C95A": {
-      "title": "Loading...",
-      "description": "Loading... You need to enable JavaScript to run this app."
-    },
-    "https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=0DB1CFB7BAA1AF7EF9E6616BC163C95A&fromClientSide=true&jpt=8892220909197170224931c1fc2f93e5": {
-      "title": "Loading...",
-      "description": "Loading... You need to enable JavaScript to run this app."
-    },
     "https://www.paycomonline.net/v4/ats/web.php/portal/0DB1CFB7BAA1AF7EF9E6616BC163C95A/career-page?jpt=8892220909197170224931c1fc2f93e5": {
       "title": "Loading...",
       "description": "Loading... You need to enable JavaScript to run this app."
     },
-    "https://www.sbc.edu/human-resources/employment-opportunities/": {
-      "title": "Employment Opportunities",
-      "description": "Employment Opportunities • Sweet Briar College Request Info Visit Apply Give Shop Menu Close Admissions Academics Student Life Athletics Riding Alumnae About News & Events MySBC Human Resources Employment Opportunities Employment Opportunities Sweet Briar College is a women’s liberal arts institution, located in Central Virginia approximately 12 miles north of Lynchburg and 60 miles south of Charlottesville. Founded in 1901, the College’s curriculum encompasses a comprehensive baccalaureate program in the arts, sciences, and humanities, as well as graduate programs in education. It is one of two women’s colleges in the United States offering an ABET-accredited engineering degree program. As an Equal Opportunity Employer, Sweet Briar College is committed to enhancing our community and encourages applications from qualified individuals with varied backgrounds, experiences and ideas who would increase the diversity of the College. Faculty & Staff Positions Job postings will be removed once they are filled. current job openings Student Employment Opportunities Current student job openings Applying For Student Employment If you see a position you are interested in above, please apply through Paycom , and keep the following in mind: Be prepared for a potential interview. Have an updated résumé, references, and your course schedule ready for review. Human Resources does not make hiring decisions for campus student employment in other departments. If you are selected for a position, the hiring supervisor will submit an intent to hire form to Human Resources. Once received, Human Resources will email you the electronic copy that you can either sign electronically or in person to the Human Resources office. If you are currently employed by the College, Human Resources will send an email with the date the student may begin work, along with the position title and rate of pay. If you have never worked at Sweet Briar as a student employee, you must complete the following requirement through the Paycom link that is sent to you once the intent to hire form is received and processed by Human Resources before starting work: Confidentiality Agreement Form I-9: Employment Eligibility Verification (actual/official documents must be presented to a HR Representative for review, photographs and copies of the documents will not be accepted) Form W-4: Employee’s Withholding Allowance Certificate Form VA-4: Personal Exemption Worksheet Direct Deposit Authorization Once these steps are completed, Human Resources will send an email with the date the student may begin work. Human Resources Employment Opportunities Benefits Living on Campus Meet Our Team Notaries Public Title IX Information For Visitors Prospective Students Current Students Current Parents & Families Faculty & Staff Alumnae Job Applicants Helpful Links A-Z Index News and Events Contacts Book Shop Emergency Information Title IX Privacy Policy Editor Login © Sweet Briar College | 134 Chapel Road, Sweet Briar, VA 24595 | 434-381-6100 Back to top"
+    "https://www.sbc.edu/faculty-staff/": {
+      "title": "Faculty & Staff",
+      "description": "Faculty & Staff • Sweet Briar College Request Info Visit Apply Give Shop Menu Close Admissions Academics Student Life Athletics Riding Alumnae About News & Events MySBC Faculty & Staff Welcome, faculty and staff! We’ve created this page to help you find what you’re looking for on the website quickly and easily. Below is a list of resources you might find useful. If you don’t see the page that you need, please feel free to contact us at communications@sbc.edu . Campus Tools and Services Email ( Gmail ) Human Resources Canvas mySBC Work Orders — Physical Plant, Technology Services, and Telecom ( SBC Help Desk ) Order Textbooks Vixen Swag Book Shop News Sweet Briar College News Publications Sweet Briar College Magazine Social Media Alumnifire Facebook Instagram TikTok YouTube Event Calendars Public Calendar of Events Alumnae Events Career Services Information For Visitors Prospective Students Current Students Current Parents & Families Faculty & Staff Alumnae Job Applicants Helpful Links A-Z Index News and Events Contacts Book Shop Emergency Information Title IX Privacy Policy Editor Login © Sweet Briar College | 134 Chapel Road, Sweet Briar, VA 24595 | 434-381-6100 Back to top"
     }
   },
   "rows": {
-    "https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=0DB1CFB7BAA1AF7EF9E6616BC163C95A": {
-      "school_id": 1490,
-      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=0DB1CFB7BAA1AF7EF9E6616BC163C95A",
-      "job_title_in_post": "Loading...",
-      "position_type": "Unclassified",
-      "job_term": "Full-time",
-      "department_or_school": "",
-      "area_key_words": "",
-      "deadline_of_application": "",
-      "position_start_date": ""
-    },
-    "https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=0DB1CFB7BAA1AF7EF9E6616BC163C95A&fromClientSide=true&jpt=8892220909197170224931c1fc2f93e5": {
-      "school_id": 1490,
-      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=0DB1CFB7BAA1AF7EF9E6616BC163C95A&fromClientSide=true&jpt=8892220909197170224931c1fc2f93e5",
-      "job_title_in_post": "Loading...",
-      "position_type": "Unclassified",
-      "job_term": "Full-time",
-      "department_or_school": "",
-      "area_key_words": "",
-      "deadline_of_application": "",
-      "position_start_date": ""
-    },
     "https://www.paycomonline.net/v4/ats/web.php/portal/0DB1CFB7BAA1AF7EF9E6616BC163C95A/career-page?jpt=8892220909197170224931c1fc2f93e5": {
       "school_id": 1490,
       "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/0DB1CFB7BAA1AF7EF9E6616BC163C95A/career-page?jpt=8892220909197170224931c1fc2f93e5",
@@ -51,10 +21,10 @@
       "deadline_of_application": "",
       "position_start_date": ""
     },
-    "https://www.sbc.edu/human-resources/employment-opportunities/": {
+    "https://www.sbc.edu/faculty-staff/": {
       "school_id": 1490,
-      "posting_url": "https://www.sbc.edu/human-resources/employment-opportunities/",
-      "job_title_in_post": "Employment Opportunities",
+      "posting_url": "https://www.sbc.edu/faculty-staff/",
+      "job_title_in_post": "Faculty & Staff",
       "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
@@ -65,7 +35,7 @@
   },
   "school_id": 1490,
   "status": "complete",
-  "updated_at": "2026-09-05T19:38:19+00:00",
-  "completed_at": "2026-09-05T19:38:19+00:00",
+  "updated_at": "2026-09-09T17:39:03+00:00",
+  "completed_at": "2026-09-09T17:39:03+00:00",
   "last_error": ""
 }

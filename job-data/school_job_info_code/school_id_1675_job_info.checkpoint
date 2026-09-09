@@ -1,16 +1,24 @@
 {
   "raw": {
     "https://iablgs.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/571": {
-      "error": "not present in bulk fetch result"
+      "title": "Event Manager",
+      "description": "",
+      "department": null
     },
     "https://iablgs.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/574": {
-      "error": "not present in bulk fetch result"
+      "title": "Senior Accountant Foundations & Gifts",
+      "description": "",
+      "department": null
     },
     "https://iablgs.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/578": {
-      "error": "not present in bulk fetch result"
+      "title": "Front Desk Receptionist",
+      "description": "",
+      "department": null
     },
     "https://iablgs.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/453": {
-      "error": "not present in bulk fetch result"
+      "title": "Front Desk Executive",
+      "description": "",
+      "department": null
     },
     "https://iablgs.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/527": {
       "error": "not present in bulk fetch result"
@@ -54,16 +62,48 @@
   },
   "rows": {
     "https://iablgs.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/571": {
-      "error": "not present in bulk fetch result"
+      "school_id": 1675,
+      "posting_url": "https://iablgs.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/571",
+      "job_title_in_post": "Event Manager",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     },
     "https://iablgs.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/574": {
-      "error": "not present in bulk fetch result"
+      "school_id": 1675,
+      "posting_url": "https://iablgs.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/574",
+      "job_title_in_post": "Senior Accountant Foundations & Gifts",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     },
     "https://iablgs.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/578": {
-      "error": "not present in bulk fetch result"
+      "school_id": 1675,
+      "posting_url": "https://iablgs.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/578",
+      "job_title_in_post": "Front Desk Receptionist",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     },
     "https://iablgs.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/453": {
-      "error": "not present in bulk fetch result"
+      "school_id": 1675,
+      "posting_url": "https://iablgs.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/453",
+      "job_title_in_post": "Front Desk Executive",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     },
     "https://iablgs.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/527": {
       "error": "not present in bulk fetch result"
@@ -107,7 +147,7 @@
   },
   "school_id": 1675,
   "status": "complete",
-  "updated_at": "2026-09-03T18:57:07+00:00",
-  "completed_at": "2026-09-03T18:57:07+00:00",
+  "updated_at": "2026-09-09T17:51:20+00:00",
+  "completed_at": "2026-09-09T17:51:20+00:00",
   "last_error": ""
 }

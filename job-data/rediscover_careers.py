@@ -51,7 +51,23 @@ MASTER = os.path.join(HERE, 'schools_master.csv')
 _CAREERS_HINT_RE = re.compile(
     r'employment|career|job|vacanc|work[- ]?(?:with|for|at)|hiring|'
     r'human[- ]resources|\bhr\b|join[- ](?:us|our)|opportunit|'
-    r'empleo|recursos[- ]humanos|vacante|trabaj|convocatoria', re.I)
+    r'empleo|recursos[- ]humanos|vacante|trabaj|convocatoria|'
+    # The homepage hunt found nothing for any Italian, Catalan or Turkish
+    # university because it only spoke English and Spanish: Sapienza's nav
+    # says "Bandi e concorsi", Barcelona's "Treballa amb nosaltres", METU's
+    # "Kariyer". Non-English Europe is most of what is still missing, so the
+    # major languages of the set are listed here.
+    r'bandi|concors|lavora[- ]con[- ]noi|opportunit|'                 # Italian
+    r'treballa|convocat|ofertes|'                                     # Catalan
+    r'kariyer|i[sş][- ]ilan|personel|duyuru|'                         # Turkish
+    r'stellen|karriere|besch[aä]ftigung|'                             # German
+    r'emplois?|recrutement|carri[eè]re|postes|'                       # French
+    r'vacature|werken[- ]bij|'                                        # Dutch
+    r'ledige[- ]stillinger|stilling|jobb|'                            # Norwegian/Danish
+    r'lediga[- ](?:jobb|tj[aä]nster)|anst[aä]llning|'                 # Swedish
+    r'ty[oö]paikat|rekrytointi|'                                      # Finnish
+    r'praca|oferty|rekrutacja|'                                       # Polish
+    r'emprego|candidatur', re.I)
 
 # ...but not to the STUDENT side of the same site. These are the pages that
 # cost the most false accepts: they sit in the same nav, use the same
@@ -110,7 +126,10 @@ _ROOT_PATH_RE = re.compile(r'^/?(?:index\.(?:php|html?|aspx)|home|default\.aspx)
 # that merely LINK to many things: a UTC blog post, Stony Brook's grad
 # school, Northwestern's mission statement, Whitman's "career-prep".
 _CAREERS_PATH_RE = re.compile(
-    r'career|job|employment|human.?resources|/hr/|vacanc|empleo|recursos', re.I)
+    r'career|job|employment|human.?resources|/hr/|vacanc|empleo|recursos|'
+    r'bandi|concors|lavora|treballa|convocat|kariyer|ilan|personel|stellen|'
+    r'karriere|emploi|recrutement|carriere|vacature|werken|stilling|jobb|'
+    r'anst[aä]llning|tyopaikat|rekrytointi|praca|rekrutacja|emprego', re.I)
 
 _NOT_CAREERS_PATH_RE = re.compile(
     r'/blogs?/|/news/|/academics/|/grad/|career.(?:exploration|prep|planning|'

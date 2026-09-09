@@ -1,9 +1,5 @@
 {
   "raw": {
-    "https://facultypositions.asu.edu/": {
-      "title": "Positions",
-      "description": "Positions - ASU Academic Personnel Positions Skip to content Report an accessibility problem ASU home My ASU Colleges and schools Sign in Search ASU Positions - ASU Academic Personnel Positions Positions Back to top Maps and Locations Jobs Directory Contact ASU My ASU Copyright and Trademark Accessibility Privacy Terms of Use Emergency"
-    },
     "https://apply.interfolio.com/188288": {
       "title": "Apply",
       "description": "Apply - Interfolio {{$ctrl.$state.data.pageTitle}} - Apply - Interfolio"
@@ -46,17 +42,6 @@
     }
   },
   "rows": {
-    "https://facultypositions.asu.edu/": {
-      "school_id": 62,
-      "posting_url": "https://facultypositions.asu.edu/",
-      "job_title_in_post": "Positions",
-      "position_type": "Unclassified",
-      "job_term": "Full-time",
-      "department_or_school": "",
-      "area_key_words": "",
-      "deadline_of_application": "",
-      "position_start_date": ""
-    },
     "https://apply.interfolio.com/188288": {
       "school_id": 62,
       "posting_url": "https://apply.interfolio.com/188288",
@@ -170,7 +155,7 @@
   },
   "school_id": 62,
   "status": "complete",
-  "updated_at": "2026-09-08T21:23:12+00:00",
-  "completed_at": "2026-09-08T21:23:12+00:00",
+  "updated_at": "2026-09-09T18:13:13+00:00",
+  "completed_at": "2026-09-09T18:13:13+00:00",
   "last_error": ""
 }

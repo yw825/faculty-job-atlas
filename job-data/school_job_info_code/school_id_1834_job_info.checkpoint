@@ -86,9 +86,7 @@
       "department": null
     },
     "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/25260625": {
-      "title": "Senior Executive Officer, Academic Registry",
-      "description": "This position sits under the Academic Registry at our Kowloon Tong campus. The core responsibilities are supporting the management of the existing Student Information System.\n",
-      "department": null
+      "error": "not present in bulk fetch result"
     },
     "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/25260736": {
       "title": "Senior Finance Manager / Finance Manager (Special Projects)",
@@ -106,9 +104,7 @@
       "department": null
     },
     "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/25260815": {
-      "title": "Executive Officer, Academic Registry",
-      "description": "This position sits under the Academic Registry at our Kowloon Tong campus. The core responsibilities are providing support to study programme administration, course registration, class timetabling, examination arrangement, student graduation matters, production of diplomas.",
-      "department": null
+      "error": "not present in bulk fetch result"
     },
     "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270049": {
       "title": "Human Resources Manager, School of Continuing Education",
@@ -161,9 +157,7 @@
       "department": null
     },
     "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270119": {
-      "title": "Research Associate, Department of Computer Science",
-      "description": "This position sits under the Department of Computer Science at our Kowloon Tong campus. The core responsibilities are designing and developing the front-end interactive interface (UI/UX) and the mobile application of the 「醫靈方」 Chinese medicine intelligent teaching and learning platform. ",
-      "department": null
+      "error": "not present in bulk fetch result"
     },
     "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270120": {
       "title": "Research Assistant, Department of Computer Science",
@@ -291,14 +285,10 @@
       "department": null
     },
     "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270070": {
-      "title": "Information Technology Manager (Application Delivery & Support), School of Continuing Education",
-      "description": "This position sits under the School of Continuing Education. The core responsibilities are lead and own the Application DevOps function, including application development, support, maintenance, release management, service reliability, and continuous improvement across the application portfolio and etc.",
-      "department": null
+      "error": "not present in bulk fetch result"
     },
     "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/25260789": {
-      "title": "Systems Analyst (IT Business Analyst), School of Continuing Education",
-      "description": "This position sits under the School of Continuing Education. The successful candidate will play an important role in supporting, maintaining, and modernizing legacy applications while contributing to new system development, supporting the transformation journey in a complex and evolving environment.",
-      "department": null
+      "error": "not present in bulk fetch result"
     },
     "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270047": {
       "title": "Associate Professor / Assistant Professor, School of Chinese Medicine",
@@ -311,9 +301,7 @@
       "department": null
     },
     "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/25260594": {
-      "title": "Senior Information Technology Officer (IT Training)",
-      "description": "This position sits under the Office of Information Technology at our Kowloon Tong campus. The core responsibilities are performing user training and changing management function, driving user adoption of new IT services to support the University's IT strategy and goals.",
-      "department": null
+      "error": "not present in bulk fetch result"
     },
     "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270080": {
       "title": "Officer, Graduate School",
@@ -386,7 +374,7 @@
       "department": null
     },
     "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270060": {
-      "title": "Senior Digital Experience Specialist",
+      "title": "Senior Digital Experience Specialist, Office of Information Technology",
       "description": "This position sits under the Office of Information Technology at our Kowloon Tong campus. The core responsibilities are partnering with internal IT team members and other stakeholders to coordinate and support the migration of legacy websites to Adobe Experience Cloud or alternative CMS platforms.",
       "department": null
     },
@@ -406,9 +394,7 @@
       "department": null
     },
     "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/25260712": {
-      "title": "Assistant Engineer (Operation Maintenance Services)",
-      "description": "This position sits under the Estates Office at our Kowloon Tong campus. The core responsibilities are taking part in the day-to-day electrical and mechanical (E&M) plant operations including routine maintenance, emergency repair and resume the failure part in case of system breakdown.\n",
-      "department": null
+      "error": "not present in bulk fetch result"
     },
     "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270038": {
       "title": "Part-time Lecturer, School of Creative Arts",
@@ -456,19 +442,13 @@
       "department": null
     },
     "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/25260817": {
-      "title": "Project Assistant (Talented Athletes Direct Admission Scheme)",
-      "description": "This position sits under the Faculty of Arts and Social Sciences at our Kowloon Tong campus. The core responsibilities are liaising with the academic and other administrative staff for any matters relating to TADAS, admission, such as student admission.\n",
-      "department": null
+      "error": "not present in bulk fetch result"
     },
     "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/25260808": {
-      "title": "Assistant Learning Technology Developer, Language Centre",
-      "description": "This position sits under the Language Centre at our Kowloon Tong campus. The core responsibilities are assisting to research, evaluate, and compile Artificial Intelligence (AI) tools and applications for student-focused independent language learning.\n",
-      "department": null
+      "error": "not present in bulk fetch result"
     },
     "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/25260684": {
-      "title": "主管 (設施及校園管理)，物業處",
-      "description": "此職位隸屬於我們九龍塘校園的物業處。主要職責是負責安排及督導下屬及外判公司處理大學校園清潔衞生、校園巡查、搬運及場地佈置。",
-      "department": null
+      "error": "not present in bulk fetch result"
     },
     "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/25260775": {
       "title": "Lecturer I / Lecturer II / Assistant Lecturer (Accounting)",
@@ -509,14 +489,10 @@
       "department": null
     },
     "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/25260146": {
-      "title": "Information Technology Manager (Workflow / Cloud / AI)",
-      "description": "This position sits under the Office of Information Technology at our Kowloon Tong campus. The core responsibilities are assisting to design, develop, and manage automated workflows solutions to streamline administrative and academic operations.",
-      "department": null
+      "error": "not present in bulk fetch result"
     },
     "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/25260466": {
-      "title": "Information Technology Manager (Workflow and RPA)",
-      "description": "This position sits under the Office of Information Technology at our Kowloon Tong campus. The core responsibilities are assisting to design, develop, and manage automated workflows solutions to streamline administrative and academic operations.\n",
-      "department": null
+      "error": "not present in bulk fetch result"
     },
     "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/25260765": {
       "title": "Senior Manager (Entrepreneurship and Funding), Knowledge Transfer Office",
@@ -610,14 +586,10 @@
       "department": null
     },
     "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/25260655": {
-      "title": "Senior Project Assistant / Project Assistant",
-      "description": "This position sits under the Academy of Wellness and Human Development at our Kowloon Tong campus. The core responsibilities are assisting the Supervisor(s) with administration duties related to general office operations and academic programmes, including but not limited to student admissions, curriculum and quality assurance matters, course enrollment, accreditation exercises, etc.",
-      "department": null
+      "error": "not present in bulk fetch result"
     },
     "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/25260274": {
-      "title": "Information Technology Manager (Data Analytics)",
-      "description": "This position sits under the Office of Information Technology at our Kowloon Tong campus. The core responsibilities are guiding the design of data plan, working closely with a range of stakeholders including the rest of the architecture team, business users (both academic and administrative), and data providers.\n",
-      "department": null
+      "error": "not present in bulk fetch result"
     },
     "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/25260628": {
       "title": "Senior Research Assistant / Research Assistant, Faculty of Arts and Social Sciences",
@@ -650,7 +622,7 @@
       "department": null
     },
     "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/25260534": {
-      "title": "Senior Research Assistant / Research Assistant",
+      "title": "Senior Research Assistant/Research Assistant,Faculty of Arts and Social Sciences",
       "description": "This position sits under the Office of Dean of Arts and Social Sciences at our Kowloon Tong campus. The core responsibilities are assisting in data collection and management of ongoing research projects, including conducting surveys, interviews, and focus groups with students and stakeholders.\n",
       "department": null
     },
@@ -668,9 +640,7 @@
       "department": null
     },
     "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/25260441": {
-      "title": "Assistant Professor / Research Assistant Professor in Psychology and / or Education",
-      "description": "This position sits under the Academy of Wellness and Human Development at our Kowloon Tong campus. The core responsibilities are playing a key role in teaching and developing courses, as well as supervising postgraduate students in these areas. Teaching in different programmes in the Academy and/or Faculty is expected.",
-      "department": null
+      "error": "not present in bulk fetch result"
     },
     "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/25260430": {
       "title": "Professor / Associate Professor / Assistant Professor, Department of Biology",
@@ -757,7 +727,7 @@
       "position_type": "Non-academic",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "procurement; contract management; assistant manager",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -768,7 +738,7 @@
       "position_type": "Non-academic",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "cloud; system modernization; manager student",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -779,7 +749,7 @@
       "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "Student Affairs; affairs; student; housing officer office",
+      "area_key_words": "Student Affairs",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -790,7 +760,7 @@
       "position_type": "Non-academic",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "Information Technology; analyst special project; systems analyst special; special project office",
+      "area_key_words": "Information Technology",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -801,7 +771,7 @@
       "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "Department of Accountancy, Economics and Finance",
-      "area_key_words": "Accountancy, Economics and Finance; accountancy economics; finance; executive officer",
+      "area_key_words": "Accountancy, Economics and Finance",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -812,7 +782,7 @@
       "position_type": "Non-academic",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "global engagement manager; assistant global engagement; international",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -823,7 +793,7 @@
       "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "School of Continuing Education",
-      "area_key_words": "Continuing Education; executive; continuing; director",
+      "area_key_words": "Continuing Education",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -834,7 +804,7 @@
       "position_type": "Non-academic",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "analyst programmer student; senior analyst programmer; systems",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -844,8 +814,8 @@
       "job_title_in_post": "Executive Officer (Creative Hub)",
       "position_type": "Unclassified",
       "job_term": "Full-time",
-      "department_or_school": "School of Creative Arts at our Kowloon Tong campus",
-      "area_key_words": "executive officer creative; officer creative hub; curriculum resource management",
+      "department_or_school": "School of Creative Arts",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -855,8 +825,8 @@
       "job_title_in_post": "Assistant Programme Manager/ Senior Programme Officer",
       "position_type": "Non-academic",
       "job_term": "Full-time",
-      "department_or_school": "",
-      "area_key_words": "programme; manager senior; committees system management",
+      "department_or_school": "School of Continuing Education",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -867,7 +837,7 @@
       "position_type": "Unclassified",
       "job_term": "Part-time",
       "department_or_school": "",
-      "area_key_words": "counselling development; development officer part-time; officer part-time counselling",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -878,7 +848,7 @@
       "position_type": "Non-academic",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "engagement office; senior multimedia specialist; reliable content delivery",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -900,7 +870,7 @@
       "position_type": "Assistant_Professor",
       "job_term": "Full-time",
       "department_or_school": "Centre for Chinese Herbal Medicine Drug Development",
-      "area_key_words": "medicine drug development; chinese herbal medicine; herbal medicine drug",
+      "area_key_words": "pharmacological mechanisms of CHM; phytochemistry",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -911,7 +881,7 @@
       "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "Music; technical; academy; officer",
+      "area_key_words": "Music",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -922,7 +892,7 @@
       "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "School of Continuing Education",
-      "area_key_words": "Continuing Education; student development assistant; continuing; education",
+      "area_key_words": "Continuing Education",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -933,20 +903,12 @@
       "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "alumni affairs office; director senior officer; officer alumni affairs",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
     "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/25260625": {
-      "school_id": 1834,
-      "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/25260625",
-      "job_title_in_post": "Senior Executive Officer, Academic Registry",
-      "position_type": "Unclassified",
-      "job_term": "Full-time",
-      "department_or_school": "",
-      "area_key_words": "academic registry; executive officer academic; senior executive officer",
-      "deadline_of_application": "",
-      "position_start_date": ""
+      "error": "not present in bulk fetch result"
     },
     "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/25260736": {
       "school_id": 1834,
@@ -955,7 +917,7 @@
       "position_type": "Non-academic",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "finance; manager special projects; transformation initiatives collaborating",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -966,7 +928,7 @@
       "position_type": "Non-academic",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "finance manager; accounting; manager finance",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -977,20 +939,12 @@
       "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "Finance; finance special projects; business partnering; assistant director",
+      "area_key_words": "Finance",
       "deadline_of_application": "",
       "position_start_date": ""
     },
     "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/25260815": {
-      "school_id": 1834,
-      "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/25260815",
-      "job_title_in_post": "Executive Officer, Academic Registry",
-      "position_type": "Unclassified",
-      "job_term": "Full-time",
-      "department_or_school": "",
-      "area_key_words": "academic registry; executive officer academic; timetabling examination arrangement",
-      "deadline_of_application": "",
-      "position_start_date": ""
+      "error": "not present in bulk fetch result"
     },
     "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270049": {
       "school_id": 1834,
@@ -999,7 +953,7 @@
       "position_type": "Non-academic",
       "job_term": "Full-time",
       "department_or_school": "School of Continuing Education",
-      "area_key_words": "Continuing Education; human resources manager; appointee; continuing",
+      "area_key_words": "Continuing Education",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1010,7 +964,7 @@
       "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "executive officer; officer assistant executive; materials",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1021,7 +975,7 @@
       "position_type": "Non-academic",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "analyst programmer; programmer financial; programmer analyst",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1032,7 +986,7 @@
       "position_type": "Non-academic",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "finance; accounting; budgeting section",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1043,7 +997,7 @@
       "position_type": "Non-academic",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "Geography, Sociology and International Studies; geography sociology; international studies; research assistant academy",
+      "area_key_words": "Geography, Sociology and International Studies",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1054,7 +1008,7 @@
       "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "sports facilities assistant; assistant sports facilities; facilities assistant sports",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1065,7 +1019,7 @@
       "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "estates office; engineer estates; electrical",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1076,7 +1030,7 @@
       "position_type": "Non-academic",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "research office; assistant manager research; administering internal research",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1087,7 +1041,7 @@
       "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "procurement; finance; assistant director",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1098,20 +1052,12 @@
       "position_type": "Non-academic",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "purchasing; services; procurement",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
     "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270119": {
-      "school_id": 1834,
-      "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270119",
-      "job_title_in_post": "Research Associate, Department of Computer Science",
-      "position_type": "Research_Fellow",
-      "job_term": "Full-time",
-      "department_or_school": "Department of Computer Science",
-      "area_key_words": "Computer Science; computer; research associate; science",
-      "deadline_of_application": "",
-      "position_start_date": ""
+      "error": "not present in bulk fetch result"
     },
     "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270120": {
       "school_id": 1834,
@@ -1120,7 +1066,7 @@
       "position_type": "Non-academic",
       "job_term": "Full-time",
       "department_or_school": "Department of Computer Science",
-      "area_key_words": "Computer Science; computer; science; data",
+      "area_key_words": "Computer Science",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1131,7 +1077,7 @@
       "position_type": "Non-academic",
       "job_term": "Full-time",
       "department_or_school": "School of Continuing Education",
-      "area_key_words": "Continuing Education; systems analyst; continuing; development",
+      "area_key_words": "Continuing Education",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1142,7 +1088,7 @@
       "position_type": "Unclassified",
       "job_term": "Part-time",
       "department_or_school": "",
-      "area_key_words": "Visual Arts; visual; programme; arts",
+      "area_key_words": "Visual Arts",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1153,7 +1099,7 @@
       "position_type": "Non-academic",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "Music; communication manager creative; creative hub academy; manager creative hub",
+      "area_key_words": "Music",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1164,7 +1110,7 @@
       "position_type": "Non-academic",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "Music; creative hub; finance manager creative; hub academy",
+      "area_key_words": "Music",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1175,7 +1121,7 @@
       "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "library; counter; services",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1186,7 +1132,7 @@
       "position_type": "Non-academic",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "engagement; comprehensive strategies; communication marketing",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1197,7 +1143,7 @@
       "position_type": "Non-academic",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "technology manager digital; manager digital services; maintaining robust backend",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1207,8 +1153,8 @@
       "job_title_in_post": "Technical Manager (Creative Hub), Academy of Music",
       "position_type": "Non-academic",
       "job_term": "Full-time",
-      "department_or_school": "School of Creative Arts at our Kowloon Tong campus",
-      "area_key_words": "Music; technical manager creative; asset; creative hub academy",
+      "department_or_school": "School of Creative Arts",
+      "area_key_words": "Music",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1219,7 +1165,7 @@
       "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "library; international standards; processing arranging",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1230,7 +1176,7 @@
       "position_type": "Non-academic",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "chinese nationalism; tourism; research",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1241,7 +1187,7 @@
       "position_type": "Non-academic",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "research assistant; assistant research; senior research",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1252,7 +1198,7 @@
       "position_type": "Non-academic",
       "job_term": "Full-time",
       "department_or_school": "School of Continuing Education",
-      "area_key_words": "Continuing Education; income; accounting; continuing",
+      "area_key_words": "Continuing Education",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1263,7 +1209,7 @@
       "position_type": "Non-academic",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "analyst artificial intelligence; systems analyst artificial; senior systems analyst",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1274,7 +1220,7 @@
       "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "sports facilities assistant; assistant sports facilities; facilities assistant sports",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1285,7 +1231,7 @@
       "position_type": "Non-academic",
       "job_term": "Full-time",
       "department_or_school": "School of Creative Arts",
-      "area_key_words": "Creative Arts; creative; arts; dean office",
+      "area_key_words": "Creative Arts",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1296,7 +1242,7 @@
       "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "Information Technology; administrative executive office; technology; appointments handling correspondence",
+      "area_key_words": "Information Technology",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1307,7 +1253,7 @@
       "position_type": "Non-academic",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "assistant global engagement; global engagement manager; senior officer",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1318,7 +1264,7 @@
       "position_type": "Non-academic",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "Information Technology; digital; specialist office; technology",
+      "area_key_words": "Information Technology",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1329,7 +1275,7 @@
       "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "estates office; administrative assistant estates; assistant officer administrative",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1340,7 +1286,7 @@
       "position_type": "Non-academic",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "employee; engagement; awareness connection",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1351,7 +1297,7 @@
       "position_type": "Non-academic",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "technology officer network; officer network unit; design implementation operation",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1362,7 +1308,7 @@
       "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "Music; orchestra; officer academy; facility bookings equipment",
+      "area_key_words": "Music",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1373,7 +1319,7 @@
       "position_type": "Non-academic",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "language; formulating implementing; continuous development",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1384,31 +1330,15 @@
       "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "human resources; resources shared services; assistant officer human",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
     "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270070": {
-      "school_id": 1834,
-      "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270070",
-      "job_title_in_post": "Information Technology Manager (Application Delivery & Support), School of Continuing Education",
-      "position_type": "Non-academic",
-      "job_term": "Full-time",
-      "department_or_school": "School of Continuing Education",
-      "area_key_words": "Continuing Education; delivery; continuing; technology manager",
-      "deadline_of_application": "",
-      "position_start_date": ""
+      "error": "not present in bulk fetch result"
     },
     "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/25260789": {
-      "school_id": 1834,
-      "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/25260789",
-      "job_title_in_post": "Systems Analyst (IT Business Analyst), School of Continuing Education",
-      "position_type": "Non-academic",
-      "job_term": "Full-time",
-      "department_or_school": "School of Continuing Education",
-      "area_key_words": "Continuing Education; analyst; continuing; business",
-      "deadline_of_application": "",
-      "position_start_date": ""
+      "error": "not present in bulk fetch result"
     },
     "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270047": {
       "school_id": 1834,
@@ -1417,7 +1347,7 @@
       "position_type": "Assistant_Professor; Associate_Professor",
       "job_term": "Full-time",
       "department_or_school": "School of Chinese Medicine",
-      "area_key_words": "Chinese Medicine; medicine; chinese; professor",
+      "area_key_words": "Chinese Medicine; English",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1428,20 +1358,12 @@
       "position_type": "Unclassified",
       "job_term": "Part-time",
       "department_or_school": "",
-      "area_key_words": "library; project assistant part-time; performing data indexing",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
     "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/25260594": {
-      "school_id": 1834,
-      "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/25260594",
-      "job_title_in_post": "Senior Information Technology Officer (IT Training)",
-      "position_type": "Unclassified",
-      "job_term": "Full-time",
-      "department_or_school": "",
-      "area_key_words": "training; technology officer; user",
-      "deadline_of_application": "",
-      "position_start_date": ""
+      "error": "not present in bulk fetch result"
     },
     "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270080": {
       "school_id": 1834,
@@ -1450,7 +1372,7 @@
       "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "graduate; student lifecycle; officer",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1461,7 +1383,7 @@
       "position_type": "Non-academic",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "Council and Court Secretariat and Legal; court secretariat; council; legal",
+      "area_key_words": "Council and Court Secretariat and Legal",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1472,7 +1394,7 @@
       "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "Business; dean; assistant executive officer; executive officer office",
+      "area_key_words": "Business",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1482,8 +1404,8 @@
       "job_title_in_post": "Technical Officer / Assistant Technical Officer",
       "position_type": "Unclassified",
       "job_term": "Full-time",
-      "department_or_school": "",
-      "area_key_words": "technical; officer assistant; off-campus office located",
+      "department_or_school": "Institute for Innovation and Translation",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1494,7 +1416,7 @@
       "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "Business; dean; assistant executive officer; executive officer office",
+      "area_key_words": "Business",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1504,8 +1426,8 @@
       "job_title_in_post": "Senior Information Technology Manager (Applications & Integration)",
       "position_type": "Non-academic",
       "job_term": "Full-time",
-      "department_or_school": "School of Continuing Education at our Kowloon Tong campus",
-      "area_key_words": "landscape; modernisation; strategic",
+      "department_or_school": "School of Continuing Education",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1516,7 +1438,7 @@
       "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "School of Continuing Education",
-      "area_key_words": "Continuing Education; accounting; continuing; education",
+      "area_key_words": "Continuing Education",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1527,7 +1449,7 @@
       "position_type": "Non-academic",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "language; executive officer; coordinators",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1538,7 +1460,7 @@
       "position_type": "Non-academic",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "manager strategic analysis; institutional; relations",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1548,8 +1470,8 @@
       "job_title_in_post": "Senior Executive Officer/Executive Officer, Office of the Dean of Creative Arts",
       "position_type": "Unclassified",
       "job_term": "Full-time",
-      "department_or_school": "School of Creative Arts at our Kowloon Tong campus",
-      "area_key_words": "Creative Arts; executive officer; creative; officer executive",
+      "department_or_school": "School of Creative Arts",
+      "area_key_words": "Creative Arts",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1560,7 +1482,7 @@
       "position_type": "Non-academic",
       "job_term": "Full-time",
       "department_or_school": "School of Continuing Education",
-      "area_key_words": "Continuing Education; senior system engineer; systems analyst senior; analyst senior system",
+      "area_key_words": "Continuing Education",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1571,7 +1493,7 @@
       "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "School of Continuing Education",
-      "area_key_words": "Continuing Education; human resources; resources officer; continuing",
+      "area_key_words": "Continuing Education",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1582,7 +1504,7 @@
       "position_type": "Non-academic",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "communication; public relations office; manager assistant manager",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1593,18 +1515,18 @@
       "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "public relations office; communication; senior officer officer",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
     "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270060": {
       "school_id": 1834,
       "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270060",
-      "job_title_in_post": "Senior Digital Experience Specialist",
+      "job_title_in_post": "Senior Digital Experience Specialist, Office of Information Technology",
       "position_type": "Non-academic",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "senior digital; specialist; alternative cms platforms",
+      "area_key_words": "Information Technology",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1615,7 +1537,7 @@
       "position_type": "Non-academic",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "manager learning; development; designing targeted learning",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1626,7 +1548,7 @@
       "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "library; digital; prototyping user-friendly web",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1637,20 +1559,12 @@
       "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "technology officer end; end user computing; officer end user",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
     "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/25260712": {
-      "school_id": 1834,
-      "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/25260712",
-      "job_title_in_post": "Assistant Engineer (Operation Maintenance Services)",
-      "position_type": "Unclassified",
-      "job_term": "Full-time",
-      "department_or_school": "",
-      "area_key_words": "engineer operation maintenance; operation maintenance services; assistant engineer operation",
-      "deadline_of_application": "",
-      "position_start_date": ""
+      "error": "not present in bulk fetch result"
     },
     "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270038": {
       "school_id": 1834,
@@ -1659,7 +1573,7 @@
       "position_type": "Lecturer",
       "job_term": "Part-time",
       "department_or_school": "School of Creative Arts",
-      "area_key_words": "Creative Arts; creative; part-time lecturer; arts",
+      "area_key_words": "Creative Arts",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1670,7 +1584,7 @@
       "position_type": "Non-academic",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "nursing; general manager; training",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1681,7 +1595,7 @@
       "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "School of Continuing Education",
-      "area_key_words": "Continuing Education; student development officer; development officer student; officer student development",
+      "area_key_words": "Continuing Education",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1692,7 +1606,7 @@
       "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "assistant director international; director international office; international office assistant",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1703,7 +1617,7 @@
       "position_type": "Non-academic",
       "job_term": "Full-time",
       "department_or_school": "School of Continuing Education",
-      "area_key_words": "assistant project manager; manager senior executive; project manager senior",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1714,7 +1628,7 @@
       "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "School of Continuing Education",
-      "area_key_words": "Continuing Education; senior human resources; human resources officer; continuing",
+      "area_key_words": "Continuing Education",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1725,7 +1639,7 @@
       "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "School of Business",
-      "area_key_words": "Business; programme; student development initiatives; managing student development",
+      "area_key_words": "Business",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1736,7 +1650,7 @@
       "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "School of Continuing Education",
-      "area_key_words": "Continuing Education; senior executive officer; various; continuing",
+      "area_key_words": "Continuing Education",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1744,45 +1658,21 @@
       "school_id": 1834,
       "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/25260816",
       "job_title_in_post": "Professor/Associate Professor/Assistant Professor in Government and International Studies",
-      "position_type": "Assistant_Professor; Associate_Professor",
+      "position_type": "Assistant_Professor; Associate_Professor; Full_Professor",
       "job_term": "Full-time",
-      "department_or_school": "Faculty of Arts and Social Sciences at our Kowloon Tong campus",
-      "area_key_words": "Government and International Studies; government; professor; international",
+      "department_or_school": "Faculty of Arts and Social Sciences",
+      "area_key_words": "Government and International Studies; European Government",
       "deadline_of_application": "",
       "position_start_date": ""
     },
     "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/25260817": {
-      "school_id": 1834,
-      "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/25260817",
-      "job_title_in_post": "Project Assistant (Talented Athletes Direct Admission Scheme)",
-      "position_type": "Unclassified",
-      "job_term": "Full-time",
-      "department_or_school": "Faculty of Arts and Social Sciences at our Kowloon Tong campus",
-      "area_key_words": "admission; assistant talented athletes; project assistant talented",
-      "deadline_of_application": "",
-      "position_start_date": ""
+      "error": "not present in bulk fetch result"
     },
     "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/25260808": {
-      "school_id": 1834,
-      "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/25260808",
-      "job_title_in_post": "Assistant Learning Technology Developer, Language Centre",
-      "position_type": "Unclassified",
-      "job_term": "Full-time",
-      "department_or_school": "",
-      "area_key_words": "language; assistant learning technology; learning technology developer",
-      "deadline_of_application": "",
-      "position_start_date": ""
+      "error": "not present in bulk fetch result"
     },
     "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/25260684": {
-      "school_id": 1834,
-      "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/25260684",
-      "job_title_in_post": "主管 (設施及校園管理)，物業處",
-      "position_type": "Unclassified",
-      "job_term": "Full-time",
-      "department_or_school": "",
-      "area_key_words": "",
-      "deadline_of_application": "",
-      "position_start_date": ""
+      "error": "not present in bulk fetch result"
     },
     "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/25260775": {
       "school_id": 1834,
@@ -1790,8 +1680,8 @@
       "job_title_in_post": "Lecturer I / Lecturer II / Assistant Lecturer (Accounting)",
       "position_type": "Lecturer",
       "job_term": "Part-time",
-      "department_or_school": "",
-      "area_key_words": "lecturer; coordinate; accounting",
+      "department_or_school": "School of Continuing Education",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1805,7 +1695,7 @@
       "position_type": "Non-academic",
       "job_term": "Full-time",
       "department_or_school": "Centre for Quantitative Systems Biology",
-      "area_key_words": "quantitative systems biology; research; drug discovery collaborate",
+      "area_key_words": "immuno-oncology studies; drug discovery",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1816,7 +1706,7 @@
       "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "School of Chinese Medicine",
-      "area_key_words": "Chinese Medicine; technical instructor; medicine; chinese",
+      "area_key_words": "Chinese Medicine",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1827,7 +1717,7 @@
       "position_type": "Lecturer",
       "job_term": "Full-time",
       "department_or_school": "School of Chinese Medicine",
-      "area_key_words": "Chinese Medicine; lecturer; medicine; chinese",
+      "area_key_words": "Chinese Medicine; execute quality assurance",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1838,7 +1728,7 @@
       "position_type": "Lecturer",
       "job_term": "Full-time",
       "department_or_school": "School of Chinese Medicine",
-      "area_key_words": "Chinese Medicine; medicine; chinese; students",
+      "area_key_words": "Chinese Medicine",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1849,7 +1739,7 @@
       "position_type": "Assistant_Professor",
       "job_term": "Full-time",
       "department_or_school": "Department of Mathematics",
-      "area_key_words": "Mathematics; research assistant professor; conducting high-impact research; mathematics research assistant",
+      "area_key_words": "Mathematics",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1860,31 +1750,15 @@
       "position_type": "Non-academic",
       "job_term": "Full-time",
       "department_or_school": "School of Business",
-      "area_key_words": "Business; programme; assistant manager senior; marketing",
+      "area_key_words": "Business",
       "deadline_of_application": "",
       "position_start_date": ""
     },
     "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/25260146": {
-      "school_id": 1834,
-      "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/25260146",
-      "job_title_in_post": "Information Technology Manager (Workflow / Cloud / AI)",
-      "position_type": "Non-academic",
-      "job_term": "Full-time",
-      "department_or_school": "",
-      "area_key_words": "manager workflow cloud; technology manager workflow; automated workflows solutions",
-      "deadline_of_application": "",
-      "position_start_date": ""
+      "error": "not present in bulk fetch result"
     },
     "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/25260466": {
-      "school_id": 1834,
-      "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/25260466",
-      "job_title_in_post": "Information Technology Manager (Workflow and RPA)",
-      "position_type": "Non-academic",
-      "job_term": "Full-time",
-      "department_or_school": "",
-      "area_key_words": "technology manager workflow; automated workflows solutions; manage automated workflows",
-      "deadline_of_application": "",
-      "position_start_date": ""
+      "error": "not present in bulk fetch result"
     },
     "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/25260765": {
       "school_id": 1834,
@@ -1893,7 +1767,7 @@
       "position_type": "Non-academic",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "transfer office; entrepreneurship; senior manager",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1904,7 +1778,7 @@
       "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "estates office; officer estates; maintenance management duties",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1914,8 +1788,8 @@
       "job_title_in_post": "Postdoctoral Research Fellow / Senior Research Assistant in clinical research",
       "position_type": "Research_Fellow",
       "job_term": "Full-time",
-      "department_or_school": "School of Chinese Medicine at our Kowloon Tong campus",
-      "area_key_words": "clinical; study; postdoctoral research fellow",
+      "department_or_school": "School of Chinese Medicine",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1926,7 +1800,7 @@
       "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "School of Continuing Education",
-      "area_key_words": "Continuing Education; assistant programme officer; education; continuing",
+      "area_key_words": "Continuing Education",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1936,8 +1810,8 @@
       "job_title_in_post": "Research Assistant (TCM-driven mental wellness hub)",
       "position_type": "Non-academic",
       "job_term": "Full-time",
-      "department_or_school": "School of Chinese Medicine at our Kowloon Tong campus",
-      "area_key_words": "research assistant tcm-driven; assistant tcm-driven mental; tcm-driven mental wellness",
+      "department_or_school": "School of Chinese Medicine",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1948,7 +1822,7 @@
       "position_type": "Assistant_Professor; Associate_Professor",
       "job_term": "Full-time",
       "department_or_school": "School of Chinese Medicine",
-      "area_key_words": "Chinese Medicine; professor; medicine; chinese",
+      "area_key_words": "Chinese Medicine",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1959,7 +1833,7 @@
       "position_type": "Non-academic",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "cloud migration; manager system modernisation; technology manager system",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1970,7 +1844,7 @@
       "position_type": "Non-academic",
       "job_term": "Full-time",
       "department_or_school": "School of Chinese Medicine",
-      "area_key_words": "Chinese Medicine; medicine; chinese; senior research assistant",
+      "area_key_words": "Chinese Medicine",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1981,7 +1855,7 @@
       "position_type": "Research_Fellow",
       "job_term": "Full-time",
       "department_or_school": "School of Chinese Medicine",
-      "area_key_words": "Chinese Medicine; post-doctoral research fellow; medicine; chinese",
+      "area_key_words": "Chinese Medicine",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1989,10 +1863,10 @@
       "school_id": 1834,
       "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/25260691",
       "job_title_in_post": "Associate Professor / Professor, Department of Journalism",
-      "position_type": "Associate_Professor",
+      "position_type": "Associate_Professor; Full_Professor",
       "job_term": "Full-time",
       "department_or_school": "Department of Journalism",
-      "area_key_words": "Journalism; associate professor professor; journalism associate professor; research strengths",
+      "area_key_words": "Journalism",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -2000,10 +1874,10 @@
       "school_id": 1834,
       "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/25260692",
       "job_title_in_post": "Professor of Practice/ Associate Professor of Practice, Department of Journalism",
-      "position_type": "Associate_Professor",
+      "position_type": "Associate_Professor; Full_Professor",
       "job_term": "Full-time",
       "department_or_school": "Department of Journalism",
-      "area_key_words": "Practice, Department of Journalism; journalism; practice; professor",
+      "area_key_words": "Practice/ Associate Professor of Practice, Department of Journalism",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -2014,7 +1888,7 @@
       "position_type": "Assistant_Professor",
       "job_term": "Full-time",
       "department_or_school": "Department of Computer Science",
-      "area_key_words": "Computer Science; computer; science; research assistant professor",
+      "area_key_words": "Computer Science",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -2022,10 +1896,10 @@
       "school_id": 1834,
       "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/25260689",
       "job_title_in_post": "Professor / Associate Professor / Assistant Professor in Sports Science",
-      "position_type": "Assistant_Professor; Associate_Professor",
+      "position_type": "Assistant_Professor; Associate_Professor; Full_Professor",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "Sports Science; professor; graduate; sports",
+      "area_key_words": "Sports Science",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -2039,7 +1913,7 @@
       "position_type": "Lecturer",
       "job_term": "Part-time",
       "department_or_school": "",
-      "area_key_words": "Visual Arts; visual; part-time lecturer artt; lecturer artt academy",
+      "area_key_words": "Visual Arts",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -2050,7 +1924,7 @@
       "position_type": "Assistant_Professor",
       "job_term": "Full-time",
       "department_or_school": "Department of Biology",
-      "area_key_words": "Biology; research assistant professor; involves investigating; rna capping",
+      "area_key_words": "Biology",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -2061,10 +1935,10 @@
       "school_id": 1834,
       "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/24250409",
       "job_title_in_post": "Chair Professor/ Professor/ Associate Professor in OBHRM / Strategic Management",
-      "position_type": "Associate_Professor",
+      "position_type": "Associate_Professor; Full_Professor",
       "job_term": "Full-time",
-      "department_or_school": "Department of Management, Marketing and Information Systems at our Kowloon Tong campus",
-      "area_key_words": "management; professor; obhrm strategic",
+      "department_or_school": "Department of Management, Marketing and Information Systems",
+      "area_key_words": "OBHRM / Strategic Management; Management: Organisational Behaviour; Human Resources Management",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -2074,32 +1948,16 @@
       "job_title_in_post": "Senior Research Assistant (Clinical Research)",
       "position_type": "Non-academic",
       "job_term": "Full-time",
-      "department_or_school": "School of Chinese Medicine at our Kowloon Tong campus",
-      "area_key_words": "clinical; senior research assistant; coordinating participant recruitment",
+      "department_or_school": "School of Chinese Medicine",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
     "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/25260655": {
-      "school_id": 1834,
-      "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/25260655",
-      "job_title_in_post": "Senior Project Assistant / Project Assistant",
-      "position_type": "Unclassified",
-      "job_term": "Full-time",
-      "department_or_school": "",
-      "area_key_words": "project assistant; senior project; assistant project",
-      "deadline_of_application": "",
-      "position_start_date": ""
+      "error": "not present in bulk fetch result"
     },
     "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/25260274": {
-      "school_id": 1834,
-      "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/25260274",
-      "job_title_in_post": "Information Technology Manager (Data Analytics)",
-      "position_type": "Non-academic",
-      "job_term": "Full-time",
-      "department_or_school": "",
-      "area_key_words": "data; analytics; technology manager",
-      "deadline_of_application": "",
-      "position_start_date": ""
+      "error": "not present in bulk fetch result"
     },
     "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/25260628": {
       "school_id": 1834,
@@ -2108,7 +1966,7 @@
       "position_type": "Non-academic",
       "job_term": "Full-time",
       "department_or_school": "Faculty of Arts and Social Sciences",
-      "area_key_words": "Arts and Social Sciences; social sciences; arts; research assistant",
+      "area_key_words": "Arts and Social Sciences",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -2119,7 +1977,7 @@
       "position_type": "Research_Fellow",
       "job_term": "Full-time",
       "department_or_school": "Department of Biology",
-      "area_key_words": "Biology; post-doctoral research fellow; endoplasmic reticulum-mediated protein; reticulum-mediated protein quality",
+      "area_key_words": "Biology",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -2130,7 +1988,7 @@
       "position_type": "Full_Professor",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "Practice and Director, Academy of Film; professor professor; film; director",
+      "area_key_words": "Practice and Director, Academy of Film",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -2141,7 +1999,7 @@
       "position_type": "Assistant_Professor",
       "job_term": "Full-time",
       "department_or_school": "Department of Computer Science",
-      "area_key_words": "Computer Science; computer; science; research assistant professor",
+      "area_key_words": "Computer Science",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -2152,7 +2010,7 @@
       "position_type": "Lecturer",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "lecturer; transdisciplinary teaching general; translation intercultural studies",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -2160,21 +2018,21 @@
       "school_id": 1834,
       "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/25260541",
       "job_title_in_post": "Professor / Associate Professor / Assistant Professor in Language and Culture",
-      "position_type": "Assistant_Professor; Associate_Professor",
+      "position_type": "Assistant_Professor; Associate_Professor; Full_Professor",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "Language and Culture; professor; culture; language",
+      "area_key_words": "Language and Culture",
       "deadline_of_application": "",
       "position_start_date": ""
     },
     "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/25260534": {
       "school_id": 1834,
       "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/25260534",
-      "job_title_in_post": "Senior Research Assistant / Research Assistant",
+      "job_title_in_post": "Senior Research Assistant/Research Assistant,Faculty of Arts and Social Sciences",
       "position_type": "Non-academic",
       "job_term": "Full-time",
-      "department_or_school": "",
-      "area_key_words": "research assistant; assistant research; senior research",
+      "department_or_school": "Faculty of Arts and Social Sciences",
+      "area_key_words": "Arts and Social Sciences",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -2182,10 +2040,10 @@
       "school_id": 1834,
       "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/25260500",
       "job_title_in_post": "Professor / Associate Professor / Assistant Professor in Management Information Systems",
-      "position_type": "Assistant_Professor; Associate_Professor",
+      "position_type": "Assistant_Professor; Associate_Professor; Full_Professor",
       "job_term": "Full-time",
-      "department_or_school": "Department of Management, Marketing and Information Systems at our Kowloon Tong campus",
-      "area_key_words": "Management Information Systems; professor; management; systems",
+      "department_or_school": "Department of Management, Marketing and Information Systems",
+      "area_key_words": "Management Information Systems",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -2199,29 +2057,21 @@
       "position_type": "Lecturer",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "psychology; lecturer; supervising postgraduate students",
+      "area_key_words": "Psychology and/or Education",
       "deadline_of_application": "",
       "position_start_date": ""
     },
     "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/25260441": {
-      "school_id": 1834,
-      "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/25260441",
-      "job_title_in_post": "Assistant Professor / Research Assistant Professor in Psychology and / or Education",
-      "position_type": "Assistant_Professor",
-      "job_term": "Full-time",
-      "department_or_school": "",
-      "area_key_words": "assistant professor; professor research assistant; psychology",
-      "deadline_of_application": "",
-      "position_start_date": ""
+      "error": "not present in bulk fetch result"
     },
     "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/25260430": {
       "school_id": 1834,
       "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/25260430",
       "job_title_in_post": "Professor / Associate Professor / Assistant Professor, Department of Biology",
-      "position_type": "Assistant_Professor; Associate_Professor",
+      "position_type": "Assistant_Professor; Associate_Professor; Full_Professor",
       "job_term": "Full-time",
       "department_or_school": "Department of Biology",
-      "area_key_words": "Biology; professor; associate; programmes teaching undergraduate",
+      "area_key_words": "Biology",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -2231,8 +2081,8 @@
       "job_title_in_post": "Post-Doctoral Research Fellow (Sleep and Mental Health Research)",
       "position_type": "Research_Fellow",
       "job_term": "Full-time",
-      "department_or_school": "School of Chinese Medicine at our Kowloon Tong campus",
-      "area_key_words": "research fellow sleep; mental health research; post-doctoral research fellow",
+      "department_or_school": "School of Chinese Medicine",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -2243,7 +2093,7 @@
       "position_type": "Assistant_Professor; Associate_Professor",
       "job_term": "Full-time",
       "department_or_school": "Department of Chemistry",
-      "area_key_words": "Chemistry; professor; associate; foster interdisciplinary collaborations",
+      "area_key_words": "Chemistry",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -2254,10 +2104,10 @@
       "school_id": 1834,
       "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/25260400",
       "job_title_in_post": "Professor / Associate Professor / Assistant Professor, Department of Computer Science",
-      "position_type": "Assistant_Professor; Associate_Professor",
+      "position_type": "Assistant_Professor; Associate_Professor; Full_Professor",
       "job_term": "Full-time",
       "department_or_school": "Department of Computer Science",
-      "area_key_words": "Computer Science; professor; computer; science",
+      "area_key_words": "Computer Science",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -2268,7 +2118,7 @@
       "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "Internal Audit; audit; internal; director",
+      "area_key_words": "Internal Audit",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -2279,7 +2129,7 @@
       "position_type": "Non-academic",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "research assistant sleep; mental health research; assistant senior research",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -2292,8 +2142,8 @@
       "job_title_in_post": "Lecturer II / Assistant Lecturer in Communication",
       "position_type": "Lecturer",
       "job_term": "Full-time",
-      "department_or_school": "",
-      "area_key_words": "Communication; lecturer; students; coordinate experiential learning",
+      "department_or_school": "College of International Education",
+      "area_key_words": "Communication",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -2304,7 +2154,7 @@
       "position_type": "Non-academic",
       "job_term": "Full-time",
       "department_or_school": "Department of Biology",
-      "area_key_words": "Biology; research projects relating; neuromuscular junctions; local translation",
+      "area_key_words": "Biology",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -2312,10 +2162,10 @@
       "school_id": 1834,
       "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/25260287",
       "job_title_in_post": "Chair Professor / Professor / Associate Professor / Assistant Professor / Research Assistant Professor in Accounting",
-      "position_type": "Assistant_Professor; Associate_Professor",
+      "position_type": "Assistant_Professor; Associate_Professor; Full_Professor",
       "job_term": "Full-time",
-      "department_or_school": "Department of Accountancy, Economics and Finance at our Kowloon Tong campus",
-      "area_key_words": "Accounting; professor; chair; postgraduate",
+      "department_or_school": "Department of Accountancy, Economics and Finance",
+      "area_key_words": "Accounting; PhD programmes",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -2326,7 +2176,7 @@
       "position_type": "Non-academic",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "estates office; senior manager administration; accounting estates",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -2337,7 +2187,7 @@
       "position_type": "Non-academic",
       "job_term": "Full-time",
       "department_or_school": "Department of Accountancy, Economics and Finance",
-      "area_key_words": "Accountancy, Economics and Finance; economics; accountancy; finance",
+      "area_key_words": "Accountancy, Economics and Finance; particularly on topics of learning; behavioral economics",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -2348,7 +2198,7 @@
       "position_type": "Non-academic",
       "job_term": "Full-time",
       "department_or_school": "Department of Management, Marketing and Information Systems",
-      "area_key_words": "Management, Marketing and Information Systems; management marketing; systems; conducting literature reviews",
+      "area_key_words": "Management, Marketing and Information Systems",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -2358,8 +2208,8 @@
       "job_title_in_post": "Post-doctoral Fellow / Senior Research Assistant / Research Assistant",
       "position_type": "Research_Fellow",
       "job_term": "Full-time",
-      "department_or_school": "School of Chinese Medicine at our Kowloon Tong campus",
-      "area_key_words": "post-doctoral fellow senior; fellow senior research; research assistant",
+      "department_or_school": "School of Chinese Medicine",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -2370,14 +2220,14 @@
       "position_type": "Lecturer",
       "job_term": "Full-time",
       "department_or_school": "College of International Education",
-      "area_key_words": "English, College of International Education; international education; lecturer; english",
+      "area_key_words": "English, College of International Education",
       "deadline_of_application": "",
       "position_start_date": ""
     }
   },
   "school_id": 1834,
   "status": "complete",
-  "updated_at": "2026-09-03T15:48:26+00:00",
-  "completed_at": "2026-09-03T15:48:26+00:00",
+  "updated_at": "2026-09-09T18:03:09+00:00",
+  "completed_at": "2026-09-09T18:03:09+00:00",
   "last_error": ""
 }

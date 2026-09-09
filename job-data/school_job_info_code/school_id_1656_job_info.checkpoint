@@ -13,19 +13,23 @@
       "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/15552": {
-      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+      "title": "Welcome",
+      "description": "Welcome - Realize Your Potential: Cornerstone"
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/15551": {
-      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+      "title": "Welcome",
+      "description": "Welcome - Realize Your Potential: Cornerstone"
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/15542": {
-      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+      "title": "Welcome",
+      "description": "Welcome - Realize Your Potential: Cornerstone"
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/15515": {
       "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/13868": {
-      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+      "title": "Welcome",
+      "description": "Welcome - Realize Your Potential: Cornerstone"
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/15547": {
       "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
@@ -37,14 +41,16 @@
       "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/15546": {
-      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+      "title": "Welcome",
+      "description": "Welcome - Realize Your Potential: Cornerstone"
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/15545": {
       "title": "Welcome",
       "description": "Welcome - Realize Your Potential: Cornerstone"
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/15544": {
-      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+      "title": "Welcome",
+      "description": "Welcome - Realize Your Potential: Cornerstone"
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/15534": {
       "title": "Welcome",
@@ -61,27 +67,30 @@
       "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/15535": {
-      "title": "Welcome",
-      "description": "Welcome - Realize Your Potential: Cornerstone"
+      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/14857": {
-      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
-    },
-    "https://usask.csod.com/ux/ats/careersite/14/requisition/15531": {
-      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
-    },
-    "https://usask.csod.com/ux/ats/careersite/14/requisition/15501": {
-      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
-    },
-    "https://usask.csod.com/ux/ats/careersite/14/requisition/15236": {
-      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
-    },
-    "https://usask.csod.com/ux/ats/careersite/14/requisition/15528": {
       "title": "Welcome",
       "description": "Welcome - Realize Your Potential: Cornerstone"
     },
-    "https://usask.csod.com/ux/ats/careersite/14/requisition/15525": {
+    "https://usask.csod.com/ux/ats/careersite/14/requisition/15531": {
+      "title": "Welcome",
+      "description": "Welcome - Realize Your Potential: Cornerstone"
+    },
+    "https://usask.csod.com/ux/ats/careersite/14/requisition/15501": {
+      "title": "Welcome",
+      "description": "Welcome - Realize Your Potential: Cornerstone"
+    },
+    "https://usask.csod.com/ux/ats/careersite/14/requisition/15236": {
+      "title": "Welcome",
+      "description": "Welcome - Realize Your Potential: Cornerstone"
+    },
+    "https://usask.csod.com/ux/ats/careersite/14/requisition/15528": {
       "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+    },
+    "https://usask.csod.com/ux/ats/careersite/14/requisition/15525": {
+      "title": "Welcome",
+      "description": "Welcome - Realize Your Potential: Cornerstone"
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/15485": {
       "title": "Welcome",
@@ -91,11 +100,11 @@
       "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/15510": {
-      "title": "Welcome",
-      "description": "Welcome - Realize Your Potential: Cornerstone"
+      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/15508": {
-      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+      "title": "Welcome",
+      "description": "Welcome - Realize Your Potential: Cornerstone"
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/14566": {
       "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
@@ -113,46 +122,48 @@
       "description": "Welcome - Realize Your Potential: Cornerstone"
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/15500": {
-      "title": "Welcome",
-      "description": "Welcome - Realize Your Potential: Cornerstone"
+      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/15499": {
       "title": "Welcome",
       "description": "Welcome - Realize Your Potential: Cornerstone"
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/15497": {
-      "title": "Welcome",
-      "description": "Welcome - Realize Your Potential: Cornerstone"
+      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/15495": {
+      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+    },
+    "https://usask.csod.com/ux/ats/careersite/14/requisition/15174": {
       "title": "Welcome",
       "description": "Welcome - Realize Your Potential: Cornerstone"
     },
-    "https://usask.csod.com/ux/ats/careersite/14/requisition/15174": {
-      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
-    },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/15480": {
-      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+      "title": "Welcome",
+      "description": "Welcome - Realize Your Potential: Cornerstone"
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/15379": {
-      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+      "title": "Welcome",
+      "description": "Welcome - Realize Your Potential: Cornerstone"
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/15482": {
-      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+      "title": "Welcome",
+      "description": "Welcome - Realize Your Potential: Cornerstone"
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/15473": {
       "title": "Welcome",
       "description": "Welcome - Realize Your Potential: Cornerstone"
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/15281": {
+      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+    },
+    "https://usask.csod.com/ux/ats/careersite/14/requisition/15434": {
       "title": "Welcome",
       "description": "Welcome - Realize Your Potential: Cornerstone"
     },
-    "https://usask.csod.com/ux/ats/careersite/14/requisition/15434": {
-      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
-    },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/15407": {
-      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+      "title": "Welcome",
+      "description": "Welcome - Realize Your Potential: Cornerstone"
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/15406": {
       "title": "Welcome",
@@ -176,21 +187,21 @@
       "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/14976": {
-      "title": "Welcome",
-      "description": "Welcome - Realize Your Potential: Cornerstone"
+      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/14951": {
-      "title": "Welcome",
-      "description": "Welcome - Realize Your Potential: Cornerstone"
+      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/14937": {
-      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+      "title": "Welcome",
+      "description": "Welcome - Realize Your Potential: Cornerstone"
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/14901": {
       "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/14900": {
-      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+      "title": "Welcome",
+      "description": "Welcome - Realize Your Potential: Cornerstone"
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/14733": {
       "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
@@ -200,21 +211,23 @@
       "description": "Welcome - Realize Your Potential: Cornerstone"
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/14568": {
-      "title": "Welcome",
-      "description": "Welcome - Realize Your Potential: Cornerstone"
+      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/14292": {
       "title": "Welcome",
       "description": "Welcome - Realize Your Potential: Cornerstone"
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/14023": {
-      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+      "title": "Welcome",
+      "description": "Welcome - Realize Your Potential: Cornerstone"
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/13581": {
-      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+      "title": "Welcome",
+      "description": "Welcome - Realize Your Potential: Cornerstone"
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/13564": {
-      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+      "title": "Welcome",
+      "description": "Welcome - Realize Your Potential: Cornerstone"
     }
   },
   "rows": {
@@ -231,19 +244,51 @@
       "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/15552": {
-      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+      "school_id": 1656,
+      "posting_url": "https://usask.csod.com/ux/ats/careersite/14/requisition/15552",
+      "job_title_in_post": "Welcome",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/15551": {
-      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+      "school_id": 1656,
+      "posting_url": "https://usask.csod.com/ux/ats/careersite/14/requisition/15551",
+      "job_title_in_post": "Welcome",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/15542": {
-      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+      "school_id": 1656,
+      "posting_url": "https://usask.csod.com/ux/ats/careersite/14/requisition/15542",
+      "job_title_in_post": "Welcome",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/15515": {
       "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/13868": {
-      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+      "school_id": 1656,
+      "posting_url": "https://usask.csod.com/ux/ats/careersite/14/requisition/13868",
+      "job_title_in_post": "Welcome",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/15547": {
       "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
@@ -255,7 +300,15 @@
       "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/15546": {
-      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+      "school_id": 1656,
+      "posting_url": "https://usask.csod.com/ux/ats/careersite/14/requisition/15546",
+      "job_title_in_post": "Welcome",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/15545": {
       "school_id": 1656,
@@ -269,7 +322,15 @@
       "position_start_date": ""
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/15544": {
-      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+      "school_id": 1656,
+      "posting_url": "https://usask.csod.com/ux/ats/careersite/14/requisition/15544",
+      "job_title_in_post": "Welcome",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/15534": {
       "school_id": 1656,
@@ -300,31 +361,11 @@
       "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/15535": {
-      "school_id": 1656,
-      "posting_url": "https://usask.csod.com/ux/ats/careersite/14/requisition/15535",
-      "job_title_in_post": "Welcome",
-      "position_type": "Unclassified",
-      "job_term": "Full-time",
-      "department_or_school": "",
-      "area_key_words": "",
-      "deadline_of_application": "",
-      "position_start_date": ""
+      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/14857": {
-      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
-    },
-    "https://usask.csod.com/ux/ats/careersite/14/requisition/15531": {
-      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
-    },
-    "https://usask.csod.com/ux/ats/careersite/14/requisition/15501": {
-      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
-    },
-    "https://usask.csod.com/ux/ats/careersite/14/requisition/15236": {
-      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
-    },
-    "https://usask.csod.com/ux/ats/careersite/14/requisition/15528": {
       "school_id": 1656,
-      "posting_url": "https://usask.csod.com/ux/ats/careersite/14/requisition/15528",
+      "posting_url": "https://usask.csod.com/ux/ats/careersite/14/requisition/14857",
       "job_title_in_post": "Welcome",
       "position_type": "Unclassified",
       "job_term": "Full-time",
@@ -333,8 +374,52 @@
       "deadline_of_application": "",
       "position_start_date": ""
     },
-    "https://usask.csod.com/ux/ats/careersite/14/requisition/15525": {
+    "https://usask.csod.com/ux/ats/careersite/14/requisition/15531": {
+      "school_id": 1656,
+      "posting_url": "https://usask.csod.com/ux/ats/careersite/14/requisition/15531",
+      "job_title_in_post": "Welcome",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://usask.csod.com/ux/ats/careersite/14/requisition/15501": {
+      "school_id": 1656,
+      "posting_url": "https://usask.csod.com/ux/ats/careersite/14/requisition/15501",
+      "job_title_in_post": "Welcome",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://usask.csod.com/ux/ats/careersite/14/requisition/15236": {
+      "school_id": 1656,
+      "posting_url": "https://usask.csod.com/ux/ats/careersite/14/requisition/15236",
+      "job_title_in_post": "Welcome",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://usask.csod.com/ux/ats/careersite/14/requisition/15528": {
       "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+    },
+    "https://usask.csod.com/ux/ats/careersite/14/requisition/15525": {
+      "school_id": 1656,
+      "posting_url": "https://usask.csod.com/ux/ats/careersite/14/requisition/15525",
+      "job_title_in_post": "Welcome",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/15485": {
       "school_id": 1656,
@@ -351,8 +436,11 @@
       "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/15510": {
+      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+    },
+    "https://usask.csod.com/ux/ats/careersite/14/requisition/15508": {
       "school_id": 1656,
-      "posting_url": "https://usask.csod.com/ux/ats/careersite/14/requisition/15510",
+      "posting_url": "https://usask.csod.com/ux/ats/careersite/14/requisition/15508",
       "job_title_in_post": "Welcome",
       "position_type": "Unclassified",
       "job_term": "Full-time",
@@ -360,9 +448,6 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
-    },
-    "https://usask.csod.com/ux/ats/careersite/14/requisition/15508": {
-      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/14566": {
       "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
@@ -401,15 +486,7 @@
       "position_start_date": ""
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/15500": {
-      "school_id": 1656,
-      "posting_url": "https://usask.csod.com/ux/ats/careersite/14/requisition/15500",
-      "job_title_in_post": "Welcome",
-      "position_type": "Unclassified",
-      "job_term": "Full-time",
-      "department_or_school": "",
-      "area_key_words": "",
-      "deadline_of_application": "",
-      "position_start_date": ""
+      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/15499": {
       "school_id": 1656,
@@ -423,19 +500,14 @@
       "position_start_date": ""
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/15497": {
-      "school_id": 1656,
-      "posting_url": "https://usask.csod.com/ux/ats/careersite/14/requisition/15497",
-      "job_title_in_post": "Welcome",
-      "position_type": "Unclassified",
-      "job_term": "Full-time",
-      "department_or_school": "",
-      "area_key_words": "",
-      "deadline_of_application": "",
-      "position_start_date": ""
+      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/15495": {
+      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+    },
+    "https://usask.csod.com/ux/ats/careersite/14/requisition/15174": {
       "school_id": 1656,
-      "posting_url": "https://usask.csod.com/ux/ats/careersite/14/requisition/15495",
+      "posting_url": "https://usask.csod.com/ux/ats/careersite/14/requisition/15174",
       "job_title_in_post": "Welcome",
       "position_type": "Unclassified",
       "job_term": "Full-time",
@@ -444,17 +516,38 @@
       "deadline_of_application": "",
       "position_start_date": ""
     },
-    "https://usask.csod.com/ux/ats/careersite/14/requisition/15174": {
-      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
-    },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/15480": {
-      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+      "school_id": 1656,
+      "posting_url": "https://usask.csod.com/ux/ats/careersite/14/requisition/15480",
+      "job_title_in_post": "Welcome",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/15379": {
-      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+      "school_id": 1656,
+      "posting_url": "https://usask.csod.com/ux/ats/careersite/14/requisition/15379",
+      "job_title_in_post": "Welcome",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/15482": {
-      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+      "school_id": 1656,
+      "posting_url": "https://usask.csod.com/ux/ats/careersite/14/requisition/15482",
+      "job_title_in_post": "Welcome",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/15473": {
       "school_id": 1656,
@@ -468,8 +561,11 @@
       "position_start_date": ""
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/15281": {
+      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+    },
+    "https://usask.csod.com/ux/ats/careersite/14/requisition/15434": {
       "school_id": 1656,
-      "posting_url": "https://usask.csod.com/ux/ats/careersite/14/requisition/15281",
+      "posting_url": "https://usask.csod.com/ux/ats/careersite/14/requisition/15434",
       "job_title_in_post": "Welcome",
       "position_type": "Unclassified",
       "job_term": "Full-time",
@@ -478,11 +574,16 @@
       "deadline_of_application": "",
       "position_start_date": ""
     },
-    "https://usask.csod.com/ux/ats/careersite/14/requisition/15434": {
-      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
-    },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/15407": {
-      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+      "school_id": 1656,
+      "posting_url": "https://usask.csod.com/ux/ats/careersite/14/requisition/15407",
+      "job_title_in_post": "Welcome",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/15406": {
       "school_id": 1656,
@@ -527,19 +628,14 @@
       "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/14976": {
-      "school_id": 1656,
-      "posting_url": "https://usask.csod.com/ux/ats/careersite/14/requisition/14976",
-      "job_title_in_post": "Welcome",
-      "position_type": "Unclassified",
-      "job_term": "Full-time",
-      "department_or_school": "",
-      "area_key_words": "",
-      "deadline_of_application": "",
-      "position_start_date": ""
+      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/14951": {
+      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+    },
+    "https://usask.csod.com/ux/ats/careersite/14/requisition/14937": {
       "school_id": 1656,
-      "posting_url": "https://usask.csod.com/ux/ats/careersite/14/requisition/14951",
+      "posting_url": "https://usask.csod.com/ux/ats/careersite/14/requisition/14937",
       "job_title_in_post": "Welcome",
       "position_type": "Unclassified",
       "job_term": "Full-time",
@@ -547,15 +643,20 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
-    },
-    "https://usask.csod.com/ux/ats/careersite/14/requisition/14937": {
-      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/14901": {
       "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/14900": {
-      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+      "school_id": 1656,
+      "posting_url": "https://usask.csod.com/ux/ats/careersite/14/requisition/14900",
+      "job_title_in_post": "Welcome",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/14733": {
       "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
@@ -572,15 +673,7 @@
       "position_start_date": ""
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/14568": {
-      "school_id": 1656,
-      "posting_url": "https://usask.csod.com/ux/ats/careersite/14/requisition/14568",
-      "job_title_in_post": "Welcome",
-      "position_type": "Unclassified",
-      "job_term": "Full-time",
-      "department_or_school": "",
-      "area_key_words": "",
-      "deadline_of_application": "",
-      "position_start_date": ""
+      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/14292": {
       "school_id": 1656,
@@ -594,18 +687,42 @@
       "position_start_date": ""
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/14023": {
-      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+      "school_id": 1656,
+      "posting_url": "https://usask.csod.com/ux/ats/careersite/14/requisition/14023",
+      "job_title_in_post": "Welcome",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/13581": {
-      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+      "school_id": 1656,
+      "posting_url": "https://usask.csod.com/ux/ats/careersite/14/requisition/13581",
+      "job_title_in_post": "Welcome",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/13564": {
-      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+      "school_id": 1656,
+      "posting_url": "https://usask.csod.com/ux/ats/careersite/14/requisition/13564",
+      "job_title_in_post": "Welcome",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1656,
   "status": "complete",
-  "updated_at": "2026-09-03T05:25:30+00:00",
-  "completed_at": "2026-09-03T05:25:30+00:00",
+  "updated_at": "2026-09-09T17:48:36+00:00",
+  "completed_at": "2026-09-09T17:48:36+00:00",
   "last_error": ""
 }

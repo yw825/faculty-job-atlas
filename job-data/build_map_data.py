@@ -111,7 +111,8 @@ _FEED_OR_SEARCH_URL_RE = re.compile(
 _JUNK_TITLE_RE = re.compile(
     r'^(?:careers?|jobs?|job details|job search|search jobs|all opportunities|'
     r'current (?:vacancies|openings)|vacancies|opportunities|page not found|404|error|'
-    r'server error|access denied|sign ?in.*|log ?in.*|.*applicant portal.*|home|about us|'
+    r'server error|access denied|forbidden|403 error|401 error|'
+    r'sign ?in.*|log ?in.*|.*applicant portal.*|home|about us|'
     r'people|results|search results.*|human resources office|view all jobs|self service|'
     r'.*privacy.*|.*accessibilit.*|\d+ gateway.*|we apologize.*|job opportunities|'
     r'information for .*|useful information|online application procedures|'
