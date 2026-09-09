@@ -1398,9 +1398,18 @@ def peoplesoft_rows(url):
 
 
 def peoplesoft_posting_url(careers_link, job_id):
+    """A deep link to one PeopleSoft posting.
+
+    The SiteId is what makes it work. Without it the same URL renders the
+    generic "Careers" scaffolding instead of the job -- which is what
+    Puget Sound's map links did, because its careers link spells the
+    parameter "siteid" and the lookup here was case-sensitive. PeopleSoft
+    accepts either spelling, so the search must too.
+    """
     from urllib.parse import urlsplit, parse_qs
     parts = urlsplit(careers_link)
-    site = (parse_qs(parts.query).get('SiteId') or [''])[0]
+    query = {k.lower(): v for k, v in parse_qs(parts.query).items()}
+    site = (query.get('siteid') or [''])[0]
     base = f'https://{parts.netloc}{parts.path}'
     q = f'?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId={job_id}&PostingSeq=1'
     if site:

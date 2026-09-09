@@ -1273,7 +1273,7 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes,scrap
 1629,Laurentian University,Canada,https://www.laurentian.ca/,https://laurentian.ca/about/careers/faculty-vacancies,own website,medium,OK-2hop:OK:13,generic scraper
 1630,Lakehead University,Canada,https://www.lakeheadu.ca/,https://www.lakeheadu.ca/faculty-and-staff/departments/services/hr/employment-opportunities/faculty,own website,medium,OK-2hop:OK:1,generic scraper
 1631,OCAD University,Canada,https://www.ocadu.ca/,https://tre.tbe.taleo.net/tre01/ats/careers/v2/searchResults?org=OCADU&cws=37,Taleo,high,OK-2hop:OK:9,generic scraper (verified working)
-1632,Toronto Metropolitan University,Canada,https://www.torontomu.ca/,https://careers.torontomu.ca/psc/hrcgprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_SCHJOB_FL&Action=U,own website,medium,OK-2hop:OK:4,generic scraper
+1632,Toronto Metropolitan University,Canada,https://www.torontomu.ca/,https://careers.torontomu.ca/psc/hrcgprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_SCHJOB_FL&Action=U&SiteId=1,own website,medium,OK-2hop:OK:4 | SiteId=1 discovered by probe; PeopleSoft deep links need it or they render the search page,generic scraper
 1633,University of Toronto,Canada,https://www.utoronto.ca/,https://jobs.utoronto.ca/go/All-Opportunities/2607117/,own website,medium,OK-2hop:OK:4,generic scraper
 1634,York University,Canada,https://www.yorku.ca/,https://www.yorku.ca/vpepc/faculty-affairs/faculty-positions/,own website,medium,OK-2hop:OK:3,generic scraper
 1635,University of Waterloo,Canada,https://www.uwaterloo.ca/,https://uwaterloo.ca/careers/current-opportunities/faculty-opportunities,own website,medium,OK-2hop:OK:3,generic scraper

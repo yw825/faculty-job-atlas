@@ -1884,11 +1884,12 @@ def fetch_peoplesoft_bulk(careers_link):
     """{posting_url: (title, description, department)} for a PeopleSoft
     Fluid careers site, read from the search results rows.
 
-    No per-posting fetch: a PeopleSoft detail page is bound to the search
-    session, so a deep link to one renders the search scaffolding and no
-    job text at all. The results rows carry title, department, location
-    and posted date, which is everything the CSV holds except the
-    description."""
+    No per-posting fetch: the results rows already carry title, department,
+    location and posted date, which is everything the CSV holds except the
+    description, and reading them costs one page load rather than N.
+    (The deep links themselves DO work -- see
+    job_postings_lib.peoplesoft_posting_url -- provided the SiteId is
+    carried through.)"""
     out = {}
     for title, job_id, location, dept, posted in jlib.peoplesoft_rows(careers_link):
         url = jlib.peoplesoft_posting_url(careers_link, job_id)
