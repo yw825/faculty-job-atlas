@@ -15,11 +15,11 @@ school_id,posting_url,job_title_in_post,position_type,job_term,department_or_sch
 1275,https://uscjobs.sc.edu/postings/211915,Accountant/Fiscal Analyst III,Non-academic,Full-time,,,"September 21, 2026",07/09/2026
 1275,https://uscjobs.sc.edu/postings/162509,Assistant Professor,Assistant_Professor,Full-time,Department of Mathematics,,,08/16/2024
 1275,https://uscjobs.sc.edu/postings/194643,Assistant Professor,Assistant_Professor,Full-time,,real; finance,,"August 16, 2026"
-1275,https://uscjobs.sc.edu/postings/205576,Developmental and Cognitive Psychology Instructor,Assistant_Professor; Associate_Professor; Full_Professor,Full-time,faculty of the Department of Psychology,Cognitive Development,,"August 16, 2026"
+1275,https://uscjobs.sc.edu/postings/205576,Developmental and Cognitive Psychology Instructor,Assistant_Professor; Associate_Professor; Full_Professor,Full-time,faculty of the Department of Psychology,Developmental and Cognitive Psychology; Cognitive Development,,"August 16, 2026"
 1275,https://uscjobs.sc.edu/postings/211022,Post Doctoral Fellow,Research_Fellow,Full-time,,,"January 31, 2027",07/01/2026
 1275,https://uscjobs.sc.edu/postings/161443,Position Attributes,Lecturer,Part-time,,person,,01/10/2022
 1275,https://uscjobs.sc.edu/postings/212843,Administrative Assistant,Non-academic,Part-time,,,,10/01/2026
-1275,https://uscjobs.sc.edu/postings/178106,Academic Success and Bar Preparation Instructor,Unclassified,Full-time,,law school academic success,,10/01/2024
+1275,https://uscjobs.sc.edu/postings/178106,Academic Success and Bar Preparation Instructor,Unclassified,Full-time,,Academic Success and Bar Preparation; law school academic success,,10/01/2024
 1275,https://uscjobs.sc.edu/postings/200847,Department Chair,Unclassified,Full-time,Department of Computer Science and Engineering,promoting interdisciplinary sponsored research; ensuring the highest standards of,"March 24, 2026",08/16/2026
 1275,https://uscjobs.sc.edu/postings/209716,Student Affairs Office Assistant,Unclassified,Part-time,,,,08/25/2025
 1275,https://uscjobs.sc.edu/postings/197871,Student Sustainability Steward,Unclassified,Part-time,,,,12/03/2025
@@ -27,7 +27,7 @@ school_id,posting_url,job_title_in_post,position_type,job_term,department_or_sch
 1275,https://uscjobs.sc.edu/postings/211503,Position Attributes,Non-academic,Part-time,,,"September 30, 2026",09/01/2026
 1275,https://uscjobs.sc.edu/postings/161484,Research Specialist I,Non-academic,Full-time,Department of Drug Discovery and Biomedical Sciences,,,08/15/2022
 1275,https://uscjobs.sc.edu/postings/190685,Position Attributes,Unclassified,Part-time,,,,08/11/2025
-1275,https://uscjobs.sc.edu/postings/202369,Health Sciences Endowed Professor,Full_Professor,Full-time,College of Nursing invites applications for a Health Sciences Endowed Professor position,maternal child,,08/16/2026
+1275,https://uscjobs.sc.edu/postings/202369,Health Sciences Endowed Professor,Full_Professor,Full-time,College of Nursing invites applications for a Health Sciences Endowed Professor position,Health Sciences Endowed; maternal child,,08/16/2026
 1275,https://uscjobs.sc.edu/postings/210665,Esports Arena Desk Assistant,Unclassified,Part-time,Department of Recreation,,,10/23/2023
 1275,https://uscjobs.sc.edu/postings/161419,Position Attributes,Unclassified,Part-time,,,,07/18/2019
 1275,https://uscjobs.sc.edu/postings/212757,Social Media Coordinator,Non-academic,Full-time,,,"October 16, 2026",10/16/2026
@@ -89,7 +89,7 @@ school_id,posting_url,job_title_in_post,position_type,job_term,department_or_sch
 1275,https://uscjobs.sc.edu/postings/161401,Position Attributes,Unclassified,Part-time,,,,02/16/2018
 1275,https://uscjobs.sc.edu/postings/212621,Position Attributes,Unclassified,Part-time,School of Nursing and may vary based on the simulation and course schedule,,"September 8, 2026",10/01/2026
 1275,https://uscjobs.sc.edu/postings/211965,Recruitment Coordinator,Non-academic,Part-time,College of Pharmacy,,"October 4, 2026",08/19/2026
-1275,https://uscjobs.sc.edu/postings/167807,Temporary Instructor for EPI Summer Semester,Unclassified,Part-time,,TEFL certificate,05/15/2024,05/22/2024
+1275,https://uscjobs.sc.edu/postings/167807,Temporary Instructor for EPI Summer Semester,Unclassified,Part-time,,Temporary; TEFL certificate,05/15/2024,05/22/2024
 1275,https://uscjobs.sc.edu/postings/196128,Research Coordinator,Non-academic,Full-time,,,,11/01/2025
 1275,https://uscjobs.sc.edu/postings/206352,Graduate Assistant for the Women's Soccer Program,Unclassified,Part-time,Department of Athletics,,,08/01/2026
 1275,https://uscjobs.sc.edu/postings/211210,Position Attributes,Non-academic,Part-time,School of Law within the field of law enforcement leadership education,,,08/16/2026
@@ -149,7 +149,7 @@ school_id,posting_url,job_title_in_post,position_type,job_term,department_or_sch
 1275,https://uscjobs.sc.edu/postings/210912,Post Doctoral Researcher,Research_Fellow,Full-time,,polymer materials; process chemistry,"September 18, 2026",09/01/2026
 1275,https://uscjobs.sc.edu/postings/161436,Position Attributes,Lecturer,Part-time,,person,,01/10/2022
 1275,https://uscjobs.sc.edu/postings/212815,Program Coordinator,Non-academic,Full-time,College of Arts and Sciences Department CAS Belle W,marine science; coastal,"October 17, 2026",09/16/2026
-1275,https://uscjobs.sc.edu/postings/175318,"Smart State Chair and Director (Center for Data Analysis, Simulation, Imaging, and Visualization)",Research_Fellow,Full-time,"Center for Data Analysis, Simulation, Imaging, and Visualization",SmartState Center; center’s major thrust area,,08/16/2025
+1275,https://uscjobs.sc.edu/postings/175318,"Smart State Chair and Director (Center for Data Analysis, Simulation, Imaging, and Visualization)",Research_Fellow,Full-time,"Center for Data Analysis, Simulation, Imaging, and Visualization",Smart State; SmartState Center; center’s major thrust area,,08/16/2025
 1275,https://uscjobs.sc.edu/postings/200386,Position Attributes,Non-academic,Part-time,,,,02/02/2026
 1275,https://uscjobs.sc.edu/postings/209447,Position Attributes,Unclassified,Part-time,,,,08/15/2026
 1275,https://uscjobs.sc.edu/postings/161374,Position Attributes,Unclassified,Part-time,,,,08/16/2021
@@ -160,7 +160,7 @@ school_id,posting_url,job_title_in_post,position_type,job_term,department_or_sch
 1275,https://uscjobs.sc.edu/postings/161473,Position Attributes,Non-academic,Part-time,,,,10/17/2022
 1275,https://uscjobs.sc.edu/postings/186820,Graduate Assistant for Athletic Marketing and Revenue Generation,Unclassified,Part-time,,Fan Experience,,08/01/2025
 1275,https://uscjobs.sc.edu/postings/201905,Research Specialist III,Non-academic,Full-time,,,,06/14/2024
-1275,https://uscjobs.sc.edu/postings/210390,HR Rep/Assistant to Chair,Non-academic,Full-time,Department of Mathematics,,"September 10, 2026",07/27/2026
+1275,https://uscjobs.sc.edu/postings/210390,HR Rep/Assistant to Chair,Non-academic,Full-time,Department of Mathematics,HR Rep/Assistant to,"September 10, 2026",07/27/2026
 1275,https://uscjobs.sc.edu/postings/161411,Position Attributes,Unclassified,Part-time,,,,03/16/2019
 1275,https://uscjobs.sc.edu/postings/212690,Attendant Care Nurse,Unclassified,Full-time,"Center for Disability Resources, School of Medicine, University of South Carolina",,"September 11, 2026",09/16/2026
 1275,https://uscjobs.sc.edu/postings/212039,Assistant Dean for Admissions,Unclassified,Full-time,School of Law State Pay Range Unclassified USC Market Range MRL,,"September 19, 2026",09/01/2026
@@ -206,7 +206,7 @@ school_id,posting_url,job_title_in_post,position_type,job_term,department_or_sch
 1275,https://uscjobs.sc.edu/postings/208443,Building and Grounds Specialist,Non-academic,Full-time,,,,07/01/2026
 1275,https://uscjobs.sc.edu/postings/211463,Administrative Assistant,Unclassified,Full-time,,,,09/28/2026
 1275,https://uscjobs.sc.edu/postings/161483,Laboratory Specialist II,Non-academic,Full-time,,,,08/01/2022
-1275,https://uscjobs.sc.edu/postings/190116,Fitness Instructor,Unclassified,Part-time,Department of Campus Recreation is seeking qualified fitness instructors to teach group fitness,,,08/25/2025
+1275,https://uscjobs.sc.edu/postings/190116,Fitness Instructor,Unclassified,Part-time,Department of Campus Recreation is seeking qualified fitness instructors to teach group fitness,Fitness,,08/25/2025
 1275,https://uscjobs.sc.edu/postings/202367,Dunn-Shealy Endowed Professor of Nursing,Full_Professor,Full-time,,Nursing; oncology; cancer,,08/16/2026
 1275,https://uscjobs.sc.edu/postings/210664,Building Services Housekeeper,Non-academic,Part-time,,,,08/16/2026
 1275,https://uscjobs.sc.edu/postings/161418,Position Attributes,Unclassified,Part-time,,,,08/16/2020
@@ -306,7 +306,7 @@ school_id,posting_url,job_title_in_post,position_type,job_term,department_or_sch
 1275,https://uscjobs.sc.edu/postings/174965,Adjunct Instructor in French,Unclassified,Part-time,,French,,01/13/2025
 1275,https://uscjobs.sc.edu/postings/199861,HyFlex Student Assistant,Unclassified,Part-time,,,,01/05/2026
 1275,https://uscjobs.sc.edu/postings/209332,Student Assistant,Non-academic,Part-time,,,,08/17/2026
-1275,https://uscjobs.sc.edu/postings/159657,Group Fitness Instructor,Unclassified,Part-time,,,,01/08/2024
+1275,https://uscjobs.sc.edu/postings/159657,Group Fitness Instructor,Unclassified,Part-time,,Group Fitness,,01/08/2024
 1275,https://uscjobs.sc.edu/postings/212283,Senior Compliance Analyst,Non-academic,Full-time,,,"September 8, 2026",08/25/2026
 1275,https://uscjobs.sc.edu/postings/211654,Finance and Operations Manager,Non-academic,Full-time,,,"September 27, 2026",09/16/2026
 1275,https://uscjobs.sc.edu/postings/161505,Lab Technician,Non-academic,Part-time,College of Arts and Sciences Department CAS Belle W,,,06/26/2023

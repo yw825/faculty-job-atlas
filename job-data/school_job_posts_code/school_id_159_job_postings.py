@@ -38,12 +38,15 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkp
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    """CUSTOMIZED: this school writes each opening as a SECTION of its
+    careers page -- there is no per-job link to collect, which is why every
+    link-based scraper returned 0 row(s) against 1 real openings
+    on the page.
+
+    Each section becomes CAREERS_LINK + '#' + a slug of its own heading,
+    and school_id_159_job_info.py resolves that fragment back to the
+    section's text."""
+    return lib.scrape_inline_listing(CAREERS_LINK)
 
 
 def main():

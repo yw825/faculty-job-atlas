@@ -9,7 +9,7 @@ school_id,posting_url,job_title_in_post,position_type,job_term,department_or_sch
 793,https://spartantalent.uncg.edu/postings/34571,Coordinator for Student Athletic Support Services,Non-academic,Full-time,,,,
 793,https://spartantalent.uncg.edu/postings/35870,Assistant Professor of Psychology,Assistant_Professor,Full-time,Department of Psychology,Psychology; perspective on teaching,"October 15, 2027","August 1, 2027"
 793,https://spartantalent.uncg.edu/postings/35639,Assistant Professor of Media Production,Assistant_Professor,Full-time,Department of Media Studies,Media Production,"September 1, 2026","August 1, 2027"
-793,https://spartantalent.uncg.edu/postings/23172,Elder Law Adjunct Instructor (Temporary),Unclassified,Full-time,,,07/01/2022,
+793,https://spartantalent.uncg.edu/postings/23172,Elder Law Adjunct Instructor (Temporary),Unclassified,Full-time,,Elder Law Adjunct,07/01/2022,
 793,https://spartantalent.uncg.edu/postings/35825,Business Officer,Unclassified,Full-time,,cross-departmental research; effective programs,,
 793,https://spartantalent.uncg.edu/postings/35405,Senior Financial Aid Counselor,Unclassified,Full-time,,,,
 793,https://spartantalent.uncg.edu/postings/34777,Lecturer in Information Systems,Lecturer,Part-time,Department of Information Systems and Supply Chain Management,Information Systems; Cone Health,,"August 1, 2026"
@@ -17,7 +17,7 @@ school_id,posting_url,job_title_in_post,position_type,job_term,department_or_sch
 793,https://spartantalent.uncg.edu/postings/35650,Project Manager (Journey),Non-academic,Full-time,,,,
 793,https://spartantalent.uncg.edu/postings/35423,Technical Coordinator,Non-academic,Part-time,"School of Dance, School of Music, School of Theatre, and the Arts Administration program",,,
 793,https://spartantalent.uncg.edu/postings/27073,Student Support Facilitator,Unclassified,Full-time,,,,
-793,https://spartantalent.uncg.edu/postings/35832,Clinical Psychology Assistant Professor,Assistant_Professor,Full-time,Department of Psychology,early childhood development; encourages collaboration; perspective on teaching,"October 1, 2026","August 1, 2027"
+793,https://spartantalent.uncg.edu/postings/35832,Clinical Psychology Assistant Professor,Assistant_Professor,Full-time,Department of Psychology,Psychology Assistant; early childhood development; encourages collaboration; perspective on teaching,"October 1, 2026","August 1, 2027"
 793,https://spartantalent.uncg.edu/postings/35017,Associate Vice Chancellor of Enrollment Management,Unclassified,Full-time,,Enrollment Management,,
 793,https://spartantalent.uncg.edu/postings/35886,Administrative Assistant,Unclassified,Full-time,,,09/20/2026,
 793,https://spartantalent.uncg.edu/postings/35681,Systems and Infrastructure Generalist,Non-academic,Full-time,,,,
@@ -28,7 +28,7 @@ school_id,posting_url,job_title_in_post,position_type,job_term,department_or_sch
 793,https://spartantalent.uncg.edu/postings/35894,Classification & Compensation Operations HR Specialist,Non-academic,Full-time,,,09/18/2026,
 793,https://spartantalent.uncg.edu/postings/35710,Assistant Director of Grounds,Unclassified,Full-time,,Grounds,,
 793,https://spartantalent.uncg.edu/postings/35461,Lead Accounts Payable Specialist,Non-academic,Full-time,,,,
-793,https://spartantalent.uncg.edu/postings/31449,Certified Registered Nurse Anesthetist Faculty,Unclassified,Part-time,Center of Excellence in Promoting the Pedagogical Expertise of Faculty,,,"August 1, 2025"
+793,https://spartantalent.uncg.edu/postings/31449,Certified Registered Nurse Anesthetist Faculty,Unclassified,Part-time,Center of Excellence in Promoting the Pedagogical Expertise of Faculty,Certified Registered Nurse Anesthetist,,"August 1, 2025"
 793,https://spartantalent.uncg.edu/postings/35841,Assistant Professor of Media Studies,Assistant_Professor,Full-time,Department of Media Studies,Media Studies; internet subcultures; immersive media; History of Emerging Media,"October 1, 2026","August 1, 2027"
 793,https://spartantalent.uncg.edu/postings/35723,"Assistant Professor of Information, Library, & Research Sciences",Assistant_Professor,Full-time,"Department of Information, Library, & Research Sciences","Information, Library, & Research Sciences; Digital resource management Contracting; Information Science degree accredited; online environments primarily","September 28, 2026","August 1, 2027"
 793,https://spartantalent.uncg.edu/postings/35234,Assistant Director,Unclassified,Full-time,,,,
@@ -55,7 +55,7 @@ school_id,posting_url,job_title_in_post,position_type,job_term,department_or_sch
 793,https://spartantalent.uncg.edu/postings/35628,Academic Records Specialist,Non-academic,Full-time,,,,
 793,https://spartantalent.uncg.edu/postings/35807,Administrative Support Specialist,Non-academic,Full-time,School of Education without administrative support,,,
 793,https://spartantalent.uncg.edu/postings/35347,Assistant/Associate/Full Professor,Assistant_Professor; Associate_Professor; Full_Professor,Full-time,Center of Excellence in Promoting the Pedagogical Expertise of Faculty,chronic disease prevention; health disparities,,
-793,https://spartantalent.uncg.edu/postings/34734,Nurse Practitioner Faculty,Assistant_Professor; Associate_Professor; Full_Professor,Full-time,Center of Excellence in Promoting the Pedagogical Expertise of Faculty,,,
+793,https://spartantalent.uncg.edu/postings/34734,Nurse Practitioner Faculty,Assistant_Professor; Associate_Professor; Full_Professor,Full-time,Center of Excellence in Promoting the Pedagogical Expertise of Faculty,Nurse Practitioner,,
 793,https://spartantalent.uncg.edu/postings/35871,Physical Chemistry - Assistant Professor- Tenure Track,Assistant_Professor,Full-time,Department of Chemistry and Biochemistry,,10/01/2026,
 793,https://spartantalent.uncg.edu/postings/35640,Salesforce Application Administrator,Non-academic,Full-time,,,,
 793,https://spartantalent.uncg.edu/postings/25110,Early Childhood Teacher Assistant/Floater and Substitute,Unclassified,Full-time,Department of Human Development and Family Studies,,,
@@ -90,4 +90,4 @@ school_id,posting_url,job_title_in_post,position_type,job_term,department_or_sch
 793,https://spartantalent.uncg.edu/postings/35905,Building and Environmental Technician,Non-academic,Full-time,,,09/19/2026,
 793,https://spartantalent.uncg.edu/postings/35853,Building and Environmental Technician,Non-academic,Full-time,,,09/14/2026,
 793,https://spartantalent.uncg.edu/postings/35589,Program Specialist,Non-academic,Full-time,,,,
-793,https://spartantalent.uncg.edu/postings/33841,Lecturers/Visiting Faculty/Clinical Faculty,Unclassified,Full-time,College of Arts and Sciences,,11/30/2026,
+793,https://spartantalent.uncg.edu/postings/33841,Lecturers/Visiting Faculty/Clinical Faculty,Unclassified,Full-time,College of Arts and Sciences,Lecturers/Visiting,11/30/2026,

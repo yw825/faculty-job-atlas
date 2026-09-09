@@ -38,13 +38,10 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """This school's own detail-page logic, owned by this file. The default
-    renders the page, picks the most job-title-shaped heading, and takes the
-    visible text as the description. Override when a posting page needs
-    something else -- a nested iframe, a cookie gate, a PDF, or a title that
-    only exists in <title> (all of which came up in the non-US set)."""
-    return jinfo.fetch_detail_generic(url)
-
+    """CUSTOMIZED: postings here are sections of one page, addressed as
+    CAREERS_LINK#<slug>. Resolves the fragment back to that section alone
+    -- the generic reader would hand every posting the whole page."""
+    return jinfo.fetch_detail_inline(url)
 
 
 def main():

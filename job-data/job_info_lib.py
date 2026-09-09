@@ -480,6 +480,42 @@ def _strip_trailing_institution(text):
 # subject, so their presence means the capture ran past the real subject
 # into surrounding sentence text -- safer to return nothing than something
 # this wrong.
+# Titles that put the field first and the rank last -- "Tenure Track
+# Political Science Professor", "Mathematics Instructor". Leading
+# employment-type and rank modifiers are consumed so they don't end up
+# inside the captured subject.
+_SUBJECT_THEN_RANK_RE = re.compile(
+    r'^(?:(?:Tenure[- ]Track|Tenured|Full[- ]Time|Part[- ]Time|Visiting|'
+    r'Clinical|Adjunct|Assistant|Associate|Senior|Open[- ]Rank)\s+)*'
+    # The subject itself must not BE a rank word: without this the
+    # optional-modifier group gives up its match and "Adjunct Instructor"
+    # reads "Adjunct" as the field.
+    r'(?!(?:' + _NON_SUBJECT_LEAD + r'|Part|Full|Open|Clinical|Tenure|'
+    r'Research|Teaching)\b)'
+    r'([A-Z][A-Za-z0-9&\'/ ]{2,60}?)\s+'
+    # "Teaching"/"Research"/"Clinical" sit between the field and the rank
+    # ("Biotechnology Teaching Faculty") and belong to neither.
+    r'(?:(?:Teaching|Research|Clinical)\s+)?'
+    r'(?:Professor|Instructor|Lecturer|Faculty|Chair)\b')
+
+# A captured "subject" ending in an institution or committee noun is the
+# school's own name, not a field -- "Pomona College Faculty Committees"
+# yielded "Pomona".
+_SUBJECT_IS_INSTITUTION_RE = re.compile(
+    r'\b(?:College|University|School|Institute|Academy|Committees?|Office|'
+    r'Department|Division|Center|Centre)\s*$', re.I)
+
+# Used to tell a colon half that names a FIELD from one that names a rank.
+_INLINE_RANKISH_RE = re.compile(
+    r'\b(?:professor|lecturer|instructor|adjunct|faculty|position|positions|'
+    r'fellow|dean|chair|tenure[- ]track|full[- ]time|part[- ]time)\b', re.I)
+
+# Employment terms that follow a dash where a subject would sit.
+_EMPLOYMENT_TERM_RE = re.compile(
+    r'^(?:temporary|permanent|on[- ]call|per[- ]diem|full[- ]?time|'
+    r'part[- ]?time|remote|hybrid|on[- ]site|ongoing|as needed|casual|'
+    r'seasonal|substitute|pooled?|various|multiple|tbd|open)\b', re.I)
+
 _NOT_A_SUBJECT_RE = re.compile(r'\b(?:is|will|offering|position\s+as|click\s+here)\b', re.I)
 
 
@@ -494,11 +530,55 @@ def extract_primary_keyword(title):
     not a clause break). Returns '' if the title states no explicit subject
     this way (many postings don't, e.g. "Research Fellow - Department of
     Pharmacy - ...")."""
-    role_clause = re.split(r'\s[-–—]\s*', title, maxsplit=1)[0]
+    parts = re.split(r'\s[-–—]\s*', title)
+    role_clause = parts[0]
     m = _FOCUS_SUBJECT_RE.search(role_clause) or _RANK_SUBJECT_RE.search(role_clause)
     if not m:
+        # Subject BEFORE the rank word rather than after an in/of clause:
+        # "Tenure Track Political Science Professor" (Monmouth). The in/of
+        # patterns return nothing on these, which left every such posting
+        # with no subject at all and unfindable by the map's subject search.
+        m = _SUBJECT_THEN_RANK_RE.search(role_clause)
+    if not m:
+        # Subject after the dash, when everything before it is rank and
+        # employment-type words: "Part-Time Adjunct - Religious Studies",
+        # "Adjunct Instructor - English" (Monmouth, Penn State).
+        # Only when the clause BEFORE the dash actually names an academic
+        # rank. Without that guard the rule reads the employment terms off
+        # any staff posting -- "Lifeguard - Temporary" gave "Temporary",
+        # "Van Driver - On Call" gave "On Call".
+        if _INLINE_RANKISH_RE.search(role_clause):
+            for tail in parts[1:]:
+                tail = tail.strip()
+                if (re.fullmatch(r'[A-Z][A-Za-z0-9&\'/ ]{2,60}', tail)
+                        and not re.match(r'(?:' + _NON_SUBJECT_LEAD + r')\b', tail, re.I)
+                        and not _EMPLOYMENT_TERM_RE.match(tail)):
+                    m = re.match(r'(.+)', tail)
+                    break
+    if not m:
+        # Colon-separated titles pair a rank with a field on either side:
+        # "Psychology: Adjunct Position" and "Adjunct Position:
+        # Community-Based Strategies for Social Change" (St Thomas
+        # Aquinas). Whichever side isn't rank words is the subject.
+        halves = [h.strip() for h in title.split(':', 1)]
+        # One half must name a rank for the other to be its subject --
+        # otherwise any colon title qualifies ("Meliora: What it Means to
+        # Be 'Ever Better'" was returning "Meliora").
+        if len(halves) == 2 and any(_INLINE_RANKISH_RE.search(h) for h in halves):
+            for half in halves:
+                if (2 < len(half) < 70 and half[:1].isupper()
+                        and not re.match(r'(?:' + _NON_SUBJECT_LEAD + r')\b', half, re.I)
+                        and not _INLINE_RANKISH_RE.search(half)):
+                    m = re.match(r'(.+)', half)
+                    break
+    if not m:
         return ''
-    subject = _strip_trailing_institution(m.group(1).strip())
+    raw = m.group(1).strip()
+    # Checked BEFORE stripping: _strip_trailing_institution turns "Pomona
+    # College" into "Pomona", which then reads like a perfectly good field.
+    if _SUBJECT_IS_INSTITUTION_RE.search(raw):
+        return ''
+    subject = _strip_trailing_institution(raw).rstrip('] ) } ,;'.strip() + ' ')
     return '' if _NOT_A_SUBJECT_RE.search(subject) else subject
 
 
@@ -1310,6 +1390,39 @@ def fetch_detail_generic(url):
     title = _pick_best_title(candidates)
     description = soup.get_text(' ', strip=True)
     return title, description
+
+
+def fetch_detail_inline(url):
+    """Detail reader for an inline-listing school, where every opening is a
+    SECTION of one page and the posting "url" is that page plus a #slug.
+
+    The rest of the pipeline assumes 1 posting = 1 URL. These schools break
+    that -- Dubuque publishes 24 openings on a single page with nothing to
+    click through to -- so job_postings_lib.extract_inline_postings mints a
+    fragment per section and this resolves it back, returning ONLY that
+    section's own text. Without the split, all 24 postings would come back
+    with the same 117KB page as their description and the same title.
+    """
+    page_url, _, slug = url.partition('#')
+    if not slug:
+        return fetch_detail_generic(url)
+
+    html = ''
+    try:
+        status, static_html = jlib.fetch_static(page_url)
+        if status == 200 and static_html and len(static_html) > 3000:
+            html = static_html
+    except Exception:
+        pass
+    if not html:
+        html = jlib.fetch_rendered(page_url, wait_ms=5000)
+    if jlib.is_fetch_failure(html):
+        raise RuntimeError(html)
+
+    for section_url, title, body in jlib.extract_inline_postings(html, page_url):
+        if section_url.rsplit('#', 1)[-1] == slug:
+            return title, body
+    raise RuntimeError(f'inline section #{slug} no longer on page')
 
 
 # --------------------------------------------------------------------------

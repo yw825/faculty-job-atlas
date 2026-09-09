@@ -107,9 +107,31 @@ def fetch_static(url, method='GET', json_body=None, timeout=20, extra_headers=No
             r = requests.post(url, json=json_body, headers=headers, timeout=timeout)
         else:
             r = requests.get(url, headers=headers, timeout=timeout)
-        return r.status_code, r.text
+        return r.status_code, _decoded(r)
     except requests.RequestException as e:
         return None, str(e)
+
+
+def _decoded(response):
+    """response.text, but without requests' latin-1 default.
+
+    When a server sends text/html with no charset, requests decodes as
+    ISO-8859-1 per RFC 2616 -- so every UTF-8 page that omits the header
+    comes back as mojibake. King's College's "Athletic Facilities
+    Coordinator \u2013 Betzler Complex" was being stored with the en-dash
+    rendered as "\u00e2\u20ac\u201c", and the same corruption reaches any
+    title with a dash, curly quote or accent on the static path.
+
+    UTF-8 is tried first because it is what the overwhelming majority of
+    these pages actually are, and a strict decode either succeeds or
+    proves the bytes are something else."""
+    declared = 'charset' in (response.headers.get('content-type') or '').lower()
+    if not declared:
+        try:
+            return response.content.decode('utf-8')
+        except UnicodeDecodeError:
+            response.encoding = response.apparent_encoding or response.encoding
+    return response.text
 
 
 def fetch_rendered(url, wait_ms=2000, actions=None, timeout=25000):
@@ -1173,3 +1195,137 @@ def run_platform_school(school_id, name, careers_link, checkpoint_path, platform
         return adapter(careers_link, name)
 
     return run_checkpointed(school_id, checkpoint_path, find_links)
+
+
+# --------------------------------------------------------------------------
+# Inline listings: schools that publish each opening as a SECTION of one
+# page, with nothing to click through to. There is no per-posting URL to
+# record, so each section is addressed by a fragment on the listing URL
+# (#<slug of its heading>), which job_info_lib.fetch_detail_inline resolves
+# back to that section's own text.
+# --------------------------------------------------------------------------
+
+_INLINE_ROLE_RE = re.compile(
+    r'professor|lecturer|instructor|teacher|faculty|adjunct|postdoc|fellow|dean|'
+    r'chair|coordinator|director|manager|specialist|technician|counselor|'
+    r'librarian|nurse|analyst|assistant|associate|advisor|officer|engineer', re.I)
+
+# Section headings that are the page's own furniture, not a posting.
+_INLINE_SKIP_RE = re.compile(
+    r'^(?:staff|faculty|administration|graduate assistants?|benefits|'
+    r'how to apply|apply|contact|overview|about|breadcrumb|search|menu|'
+    r'employment|human resources|equal opportunity|notes?|categories)\b', re.I)
+
+# A COLLECTIVE heading names a bucket of jobs, not a job: Quincy's
+# "Non-Faculty Openings", Mercyhurst's "Open Graduate Assistant Positions",
+# Southwestern's "Principal Faculty Responsibilities". Each carries a role
+# word and reads like a title, so only the trailing noun separates them
+# from "Assistant Professor of Nursing". Singular "Position" is left alone
+# -- St Thomas Aquinas titles two real postings "Psychology: Adjunct
+# Position" and "Adjunct Position: Community-Based Strategies".
+_INLINE_COLLECTIVE_RE = re.compile(
+    r'\b(?:openings?|positions|opportunities|vacancies|responsibilities|'
+    r'support|development|benefits|information|process|requirements|'
+    r'qualifications|listings?)\s*$', re.I)   # not "pool": an adjunct
+                                              # pool is a real opening
+
+
+def _slugify(text, limit=60):
+    slug = re.sub(r'[^a-z0-9]+', '-', text.lower()).strip('-')
+    return slug[:limit].strip('-')
+
+
+def extract_inline_postings(html, base_url):
+    """[(posting_url_with_fragment, title, section_text)] for a page whose
+    openings are written as sections rather than links.
+
+    The heading LEVEL is chosen by evidence rather than assumed: whichever
+    of h2/h3/h4/strong yields the most role-naming headings wins. Dubuque
+    puts its 36 postings in <h3> under <h2> category banners ("STAFF",
+    "FACULTY"), so picking h2 would return four categories and picking h3
+    returns the actual jobs.
+
+    Each section runs from its heading to the next heading of the same
+    level, which is what gives job_info a description to read."""
+    soup = BeautifulSoup(html, 'html.parser')
+    scope = soup.select_one('main') or soup.select_one('article') or soup
+
+    best_level, best_headings = None, []
+    for level in ('h2', 'h3', 'h4', 'strong'):
+        headings = []
+        for el in scope.find_all(level):
+            text = el.get_text(' ', strip=True)
+            if not (3 < len(text) < 120):
+                continue
+            if _INLINE_SKIP_RE.match(text) or not _INLINE_ROLE_RE.search(text):
+                continue
+            # A heading is a name, not a sentence -- Whittier uses <h2> for a
+            # line of prose ("The Whittier College Teacher Education Program
+            # invites applicants...") which otherwise reads as a posting.
+            if text.endswith('.') or text.count(' ') > 12:
+                continue
+            # One bare word is a label, not a job name (Tennessee Wesleyan's
+            # "Adjunct", which swallowed the whole page as its description).
+            # Trailing punctuation stripped first: Southwestern's
+            # "Generous Faculty Development Support:" slipped past the
+            # end-anchored test purely on its colon.
+            if text.count(' ') < 1 or _INLINE_COLLECTIVE_RE.search(text.rstrip(' :;.-–—')):
+                continue
+            headings.append((el, text))
+        if len(headings) > len(best_headings):
+            best_level, best_headings = level, headings
+
+    if not best_headings:
+        return []
+
+    heading_elements = {id(el) for el, _t in best_headings}
+
+    out, seen = [], set()
+    for el, title in best_headings:
+        # Walked in DOCUMENT order, not as siblings: these headings are
+        # usually wrapped in their own container, so next_siblings finds
+        # nothing and every description comes back empty (confirmed on
+        # Dubuque, where all 24 sections had 0-byte bodies).
+        parts = []
+        own = set(id(d) for d in el.descendants)
+        for node in el.find_all_next(string=True):
+            # find_all_next walks descendants too, so the heading's OWN text
+            # arrives first and would trip the stop check immediately --
+            # which is why every section came back empty.
+            if id(node) in own:
+                continue
+            parent = node.parent
+            stop = False
+            while parent is not None:
+                if getattr(parent, 'name', None) == best_level and id(parent) in heading_elements:
+                    stop = True
+                    break
+                parent = parent.parent
+            if stop:
+                break
+            text = str(node).strip()
+            if text:
+                parts.append(text)
+            if sum(len(p) for p in parts) > 20000:
+                break
+        slug = _slugify(title)
+        body = ' '.join(parts)[:20000]
+        # A heading with no substance under it is a label, not a posting.
+        # This is also what makes a one-posting page (Whittier) safe to
+        # accept: the single section carries a real description.
+        if not slug or slug in seen or len(body) < 200:
+            continue
+        seen.add(slug)
+        out.append((f'{base_url}#{slug}', title, body))
+    return out
+
+
+def scrape_inline_listing(url):
+    """find_links() for an inline-listing school."""
+    html = fetch_rendered(url, wait_ms=5000)
+    if is_fetch_failure(html) or not html:
+        raise RuntimeError(html or 'inline listing fetch failed')
+    postings = extract_inline_postings(html, url)
+    if not postings:
+        raise RuntimeError('no inline posting sections found')
+    return [u for u, _title, _text in postings]

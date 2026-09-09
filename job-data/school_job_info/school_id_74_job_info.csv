@@ -1,11 +1,11 @@
 school_id,posting_url,job_title_in_post,position_type,job_term,department_or_school,area_key_words,deadline_of_application,position_start_date
 74,https://aprecruit.berkeley.edu/JPF04104,Lecturer Pool,Lecturer,Part-time,College of Letters & Science,Physics,"May 5, 2026",
-74,https://aprecruit.berkeley.edu/JPF04536,Instructor Pool – Mathematics and Statistics – UC Berkeley Extension (JPF04536),Unclassified,Part-time,,,"October 2, 2025",
+74,https://aprecruit.berkeley.edu/JPF04536,Instructor Pool – Mathematics and Statistics – UC Berkeley Extension (JPF04536),Unclassified,Part-time,,Mathematics and Statistics,"October 2, 2025",
 74,https://aprecruit.berkeley.edu/JPF04687,"Instructor Pool – Biology, Chemistry, and Physics",Unclassified,Part-time,,Experience Classroom Teaching Experience Synchronous,"October 6, 2025",
-74,https://aprecruit.berkeley.edu/JPF04723,Instructor Pool – Online Business Programs – UC Berkeley Extension (JPF04723),Unclassified,Part-time,,,"October 2, 2025",
-74,https://aprecruit.berkeley.edu/JPF04748,Instructor Pool – Humanities and Languages – UC Berkeley Extension (JPF04748),Unclassified,Part-time,,,"September 9, 2025",
-74,https://aprecruit.berkeley.edu/JPF04783,Instructor Pool – Editing and Technical Communication – UC Berkeley Extension (JPF04783),Unclassified,Part-time,,,"September 22, 2025",
-74,https://aprecruit.berkeley.edu/JPF04930,Instructor Pool – College Admissions Advising and TESOL – UC Berkeley Extension (JPF04930),Unclassified,Part-time,,English,"September 26, 2025",
+74,https://aprecruit.berkeley.edu/JPF04723,Instructor Pool – Online Business Programs – UC Berkeley Extension (JPF04723),Unclassified,Part-time,,Online Business Programs,"October 2, 2025",
+74,https://aprecruit.berkeley.edu/JPF04748,Instructor Pool – Humanities and Languages – UC Berkeley Extension (JPF04748),Unclassified,Part-time,,Humanities and Languages,"September 9, 2025",
+74,https://aprecruit.berkeley.edu/JPF04783,Instructor Pool – Editing and Technical Communication – UC Berkeley Extension (JPF04783),Unclassified,Part-time,,Editing and Technical Communication,"September 22, 2025",
+74,https://aprecruit.berkeley.edu/JPF04930,Instructor Pool – College Admissions Advising and TESOL – UC Berkeley Extension (JPF04930),Unclassified,Part-time,,College Admissions Advising and TESOL; English,"September 26, 2025",
 74,https://aprecruit.berkeley.edu/JPF04931,Lecturer Pool,Lecturer,Full-time,Department of Architecture,Architectural History,,
 74,https://aprecruit.berkeley.edu/JPF04932,Lecturer Pool,Lecturer,Full-time,Department of Architecture,Architectural History,,
 74,https://aprecruit.berkeley.edu/JPF04934,Lecturer Pool,Lecturer,Full-time,College of Environmental Design,,,
@@ -19,7 +19,7 @@ school_id,posting_url,job_title_in_post,position_type,job_term,department_or_sch
 74,https://aprecruit.berkeley.edu/JPF04969,Lecturer Pool (Part-time),Lecturer,Part-time,Department of Civil and Environmental Engineering,Civil Infrastructure,"June 10, 2025",1/1/2026
 74,https://aprecruit.berkeley.edu/JPF04973,Lecturer (in lieu of GSI) Pool,Lecturer,Full-time,College of Chemistry,,"June 14, 2025",
 74,https://aprecruit.berkeley.edu/JPF04975,Lecturer,Lecturer,Part-time,Department of Plant and Microbial Biology,microbial biology,"June 17, 2025",
-74,https://aprecruit.berkeley.edu/JPF04984,Instructor Pool – Writing and Literature – UC Berkeley Extension (JPF04984),Unclassified,Part-time,,,"September 26, 2025",
+74,https://aprecruit.berkeley.edu/JPF04984,Instructor Pool – Writing and Literature – UC Berkeley Extension (JPF04984),Unclassified,Part-time,,Writing and Literature,"September 26, 2025",
 74,https://aprecruit.berkeley.edu/JPF05016,Instructor Pool,Unclassified,Part-time,,asynchronous online,"October 6, 2025",
 74,https://aprecruit.berkeley.edu/JPF05018,Lecturer Pool,Lecturer,Part-time,College of Letters & Science,Tibetan languages,"October 24, 2025","January 1, 2026"
 74,https://aprecruit.berkeley.edu/JPF05067,Lecturer,Lecturer,Full-time,School of Business,Accounting,"September 15, 2025",
@@ -32,16 +32,16 @@ school_id,posting_url,job_title_in_post,position_type,job_term,department_or_sch
 74,https://aprecruit.berkeley.edu/JPF05161,Lecturer Pool,Lecturer,Part-time,College of Letters & Science,Department of,"September 25, 2025",
 74,https://aprecruit.berkeley.edu/JPF05165,Recruit,Unclassified,Full-time,College of Environmental Design,,"October 25, 2025",
 74,https://aprecruit.berkeley.edu/JPF05171,Lecturer Pool – Cognitive Science – ISSP– College of Letters & Science (JPF05171),Lecturer,Full-time,College of Letters & Science,Cognitive Science Program,"October 10, 2025",
-74,https://aprecruit.berkeley.edu/JPF05173,Lecturer – Global Poverty and Practice Minor,Lecturer,Full-time,College of Letters & Science,,"November 26, 2025",
+74,https://aprecruit.berkeley.edu/JPF05173,Lecturer – Global Poverty and Practice Minor,Lecturer,Full-time,College of Letters & Science,Global Poverty and Practice Minor,"November 26, 2025",
 74,https://aprecruit.berkeley.edu/JPF05174,Lecturer Pool,Lecturer,Full-time,College of Letters & Science,modern world history,"November 13, 2025",
-74,https://aprecruit.berkeley.edu/JPF05175,Lecturer Pool – Global Studies,Lecturer,Full-time,College of Letters & Science,Cultural Repatriation,"December 12, 2025",
+74,https://aprecruit.berkeley.edu/JPF05175,Lecturer Pool – Global Studies,Lecturer,Full-time,College of Letters & Science,Global Studies; Cultural Repatriation,"December 12, 2025",
 74,https://aprecruit.berkeley.edu/JPF05198,Lecturer Pool,Lecturer,Part-time,Department of East Asian Languages & Cultures,Japanese,"November 7, 2025","January 1, 2026"
 74,https://aprecruit.berkeley.edu/JPF05200,Lecturer,Lecturer,Part-time,Department of Integrative Biology,Integrative Biology courses,,
 74,https://aprecruit.berkeley.edu/JPF05201,Junior Specialist/Assistant Specialist,Non-academic,Full-time,Institute for Business & Social Impact,applying rigorous methods; economic development,"November 2, 2025",2/16/2026
 74,https://aprecruit.berkeley.edu/JPF05204,Lecturer Pool,Lecturer,Full-time,College of Letters & Science,Ethnic Studies,"December 5, 2025",
 74,https://aprecruit.berkeley.edu/JPF05208,Lecturer,Lecturer,Part-time,School of Law,United States law,"May 28, 2026",
 74,https://aprecruit.berkeley.edu/JPF05209,Lecturer,Lecturer,Full-time,School of Business,Economic Analysis,"December 22, 2025",
-74,https://aprecruit.berkeley.edu/JPF05218,"Lecturer Pool –All Specializations (To Include: Science, Technology, and Medicine)",Lecturer,Part-time,Department of History,Early Modern Europe,"January 1, 2026",
+74,https://aprecruit.berkeley.edu/JPF05218,"Lecturer Pool –All Specializations (To Include: Science, Technology, and Medicine)",Lecturer,Part-time,Department of History,"Science, Technology, and Medicine; Early Modern Europe","January 1, 2026",
 74,https://aprecruit.berkeley.edu/JPF05223,Lecturer,Lecturer,Full-time,Department of Astronomy,astronomy,"January 16, 2026",
 74,https://aprecruit.berkeley.edu/JPF05231,Lecturer,Lecturer,Part-time,School of Law,United States law,"June 7, 2026",
 74,https://aprecruit.berkeley.edu/JPF05232,Lecturer,Lecturer,Part-time,School of Law,United States law,"April 6, 2026",
@@ -65,7 +65,7 @@ school_id,posting_url,job_title_in_post,position_type,job_term,department_or_sch
 74,https://aprecruit.berkeley.edu/JPF05292,Lecturer Pool (part time),Lecturer,Part-time,Department of Bioengineering,,"February 28, 2026",8/1/26
 74,https://aprecruit.berkeley.edu/JPF05299,Postdoc,Research_Fellow,Full-time,College of Letters & Science,,"April 22, 2026",
 74,https://aprecruit.berkeley.edu/JPF05302,Lecturer Pool,Lecturer,Full-time,College of Letters & Science,College Writing Programs,"April 15, 2026",
-74,https://aprecruit.berkeley.edu/JPF05308,Extension Instructor Assistant Pool – Berkeley Haas Global Access Program (BHGAP),Unclassified,Part-time,,,"April 3, 2026",
+74,https://aprecruit.berkeley.edu/JPF05308,Extension Instructor Assistant Pool – Berkeley Haas Global Access Program (BHGAP),Unclassified,Part-time,,Extension,"April 3, 2026",
 74,https://aprecruit.berkeley.edu/JPF05309,Lecturer Pool,Lecturer,Part-time,Department of Scandinavian,English on Nordic topics,"March 19, 2026",
 74,https://aprecruit.berkeley.edu/JPF05311,Lecturer Pool,Lecturer,Part-time,Department of Slavic Languages and Literatures,English on Slavic topics,"March 13, 2026",
 74,https://aprecruit.berkeley.edu/JPF05316,Lecturer,Lecturer,Full-time,Center for Developing Economies,,"April 1, 2026",7/1/2026
@@ -84,7 +84,7 @@ school_id,posting_url,job_title_in_post,position_type,job_term,department_or_sch
 74,https://aprecruit.berkeley.edu/JPF05342,Lecturer – Management of Organizations – Haas School of Business (JPF05342),Lecturer,Full-time,School of Business,Management of Organizations,"May 1, 2026",
 74,https://aprecruit.berkeley.edu/JPF05343,Lecturer Pool – Spanish – Department of Spanish & Portuguese (JPF05343),Lecturer,Full-time,Department of Spanish & Portuguese,English on Spanish topics,"April 10, 2026",
 74,https://aprecruit.berkeley.edu/JPF05346,Lecturer Pool,Lecturer,Part-time,College of Natural Resources,climate solutions,"April 13, 2026",
-74,https://aprecruit.berkeley.edu/JPF05348,"Health Science Clinical Faculty Pool – HS Clinical Instructor, HS Assistant/Associate/Full Clinical Professor",Full_Professor,Full-time,School of Optometry and Vision Science,Berkeley Optometry partner off-campus clinics,"April 17, 2026",
+74,https://aprecruit.berkeley.edu/JPF05348,"Health Science Clinical Faculty Pool – HS Clinical Instructor, HS Assistant/Associate/Full Clinical Professor",Full_Professor,Full-time,School of Optometry and Vision Science,Health Science; Berkeley Optometry partner off-campus clinics,"April 17, 2026",
 74,https://aprecruit.berkeley.edu/JPF05357,Lecturer Pool,Lecturer,Part-time,College of Chemistry,Chemical Engineering Car; American Cancer Society; though candidates,"May 12, 2026",
 74,https://aprecruit.berkeley.edu/JPF05360,Lecturer-(UGIS) Media Studies Major ProgramApply nowto Lecturer-(UGIS) Media Studies Major Program,Lecturer,Part-time,College of Letters & Science,,"May 26, 2026",
 74,https://aprecruit.berkeley.edu/JPF05366,Lecturer- Brilliance of Berkeley,Lecturer,Full-time,College of Letters & Science,Berkeley,"August 17, 2026",
@@ -94,7 +94,7 @@ school_id,posting_url,job_title_in_post,position_type,job_term,department_or_sch
 74,https://aprecruit.berkeley.edu/JPF05371,Lecturer,Lecturer,Full-time,School of Law,legal research,"May 21, 2026",
 74,https://aprecruit.berkeley.edu/JPF05372,Lecturer – LL.M. Legal Research and Writing,Lecturer,Part-time,School of Law,PowerPoint; legal research,"May 20, 2026",
 74,https://aprecruit.berkeley.edu/JPF05375,Lecturer Pool,Lecturer,Full-time,Department of Political Science,,"June 30, 2026",
-74,https://aprecruit.berkeley.edu/JPF05377,Instructor Pool – Construction and Sustainable Management – UC Berkeley Extension (JPF05377),Unclassified,Part-time,,,"July 16, 2026",
+74,https://aprecruit.berkeley.edu/JPF05377,Instructor Pool – Construction and Sustainable Management – UC Berkeley Extension (JPF05377),Unclassified,Part-time,,Construction and Sustainable Management,"July 16, 2026",
 74,https://aprecruit.berkeley.edu/JPF05378,Lecturer,Lecturer,Part-time,College of Letters & Science,NEU courses,"June 2, 2026",7/1/2026
 74,https://aprecruit.berkeley.edu/JPF05382,Assistant Professor,Assistant_Professor,Full-time,Department of Plant and Microbial Biology,Energy Biosciences Institute; Plant Gene Expression Center,,"July 1, 2027"
 74,https://aprecruit.berkeley.edu/JPF05386,Lecturer,Lecturer,Part-time,School of Law,United States law,"June 16, 2026",
@@ -110,8 +110,8 @@ school_id,posting_url,job_title_in_post,position_type,job_term,department_or_sch
 74,https://aprecruit.berkeley.edu/JPF05411,Lecturer,Lecturer,Full-time,School of Business,Public Policy,"September 2, 2026",
 74,https://aprecruit.berkeley.edu/JPF05412,Lecturer,Lecturer,Full-time,School of Business,Responsible Business,"September 1, 2026",
 74,https://aprecruit.berkeley.edu/JPF05415,Assistant Professor,Assistant_Professor,Full-time,Department of Rhetoric,interdisciplinary study of law; politics contributes; Department's Public Discourse concentration,,"July 1, 2027"
-74,https://aprecruit.berkeley.edu/JPF05417,"Assistant Professor – Management of Organizations, Entrepreneurship and Innovation – Haas School of BusinessApply nowto Assistant Professor – Management of Organizations, Entrepreneurship and Innovation – Haas School of Business",Assistant_Professor,Full-time,School of Business,entrepreneurship; Evaluations Additional Research Paper,,"July 1, 2027"
-74,https://aprecruit.berkeley.edu/JPF05419,Assistant Professor – Behavioral Marketing – Haas School of Business (JPF05419),Assistant_Professor,Full-time,School of Business,,,"July 1, 2027"
+74,https://aprecruit.berkeley.edu/JPF05417,"Assistant Professor – Management of Organizations, Entrepreneurship and Innovation – Haas School of BusinessApply nowto Assistant Professor – Management of Organizations, Entrepreneurship and Innovation – Haas School of Business",Assistant_Professor,Full-time,School of Business,Haas School of BusinessApply nowto Assistant Professor; entrepreneurship; Evaluations Additional Research Paper,,"July 1, 2027"
+74,https://aprecruit.berkeley.edu/JPF05419,Assistant Professor – Behavioral Marketing – Haas School of Business (JPF05419),Assistant_Professor,Full-time,School of Business,Behavioral Marketing,,"July 1, 2027"
 74,https://aprecruit.berkeley.edu/JPF05420,Assistant Professor,Assistant_Professor,Full-time,School of Business,,,"July 1, 2027"
 74,https://aprecruit.berkeley.edu/JPF05421,Assistant Professor,Assistant_Professor,Full-time,School of Business,economics; Evaluations Additional Research Paper,,"July 1, 2027"
 74,https://aprecruit.berkeley.edu/JPF05422,Assistant Professor,Assistant_Professor,Full-time,School of Business,Evaluations Additional Research Paper,,"July 1, 2027"
@@ -124,7 +124,7 @@ school_id,posting_url,job_title_in_post,position_type,job_term,department_or_sch
 74,https://aprecruit.berkeley.edu/JPF05436,Assistant Professor,Assistant_Professor,Full-time,School of Law,Civil Rights; discrimination on the basis of,,"July 1, 2027"
 74,https://aprecruit.berkeley.edu/JPF05437,Lecturer Pool,Lecturer,Full-time,Center for Entrepreneurship & Technology,housed,"July 22, 2026",
 74,https://aprecruit.berkeley.edu/JPF05440,Professor/Assistant Professor – Environmental Law,Assistant_Professor; Full_Professor,Full-time,School of Law,natural resources law; environmental law,,"July 1, 2027"
-74,https://aprecruit.berkeley.edu/JPF05441,"Assistant Professor – Colonial Latin America, Spanish & Portuguese  – Department of Spanish and PortugueseApply nowto Assistant Professor – Colonial Latin America, Spanish & Portuguese  – Department of Spanish and Portuguese",Assistant_Professor,Full-time,Department of Spanish and Portuguese,Indigenous languages; Portuguese; Spanish,,"July 1, 2027"
+74,https://aprecruit.berkeley.edu/JPF05441,"Assistant Professor – Colonial Latin America, Spanish & Portuguese  – Department of Spanish and PortugueseApply nowto Assistant Professor – Colonial Latin America, Spanish & Portuguese  – Department of Spanish and Portuguese",Assistant_Professor,Full-time,Department of Spanish and Portuguese,Department of Spanish and Portuguese; Indigenous languages; Portuguese; Spanish,,"July 1, 2027"
 74,https://aprecruit.berkeley.edu/JPF05442,Lecturer Pool,Lecturer,Full-time,College of Letters & Science,,"July 10, 2026",
 74,https://aprecruit.berkeley.edu/JPF05444,Lecturer Pool,Lecturer,Part-time,College of Engineering,,"August 11, 2026",
 74,https://aprecruit.berkeley.edu/JPF05445,Assistant Project Scientist-Herbert Wertheim School of Optomery and Vision Science (JPF05445),Research_Fellow,Full-time,School of Optomery and Vision Science,Optomery and Vision Science,"July 8, 2026",
@@ -134,7 +134,7 @@ school_id,posting_url,job_title_in_post,position_type,job_term,department_or_sch
 74,https://aprecruit.berkeley.edu/JPF05454,Postdoc Employee-The Building Blocks of Cognition Laboratory,Research_Fellow,Full-time,College of Letters & Science,Cognition Laboratory,"July 15, 2026",
 74,https://aprecruit.berkeley.edu/JPF05455,Recruit,Non-academic,Full-time,Center for the Tebtunis Papyri,library’s existing holdings; gaps,"July 10, 2026",
 74,https://aprecruit.berkeley.edu/JPF05458,Assistant Professor,Assistant_Professor,Full-time,College of Letters & Science,intellectual engagement; formal semantics; well,,"July 1, 2027"
-74,https://aprecruit.berkeley.edu/JPF05461,Assistant Professor- Indigeneities/Indigenous Feminisms From a Humanities Perspective – Department of Gender and Women's StudiesApply nowto Assistant Professor- Indigeneities/Indigenous Feminisms From a Humanities Perspective – Department of Gender and Women's Studies,Assistant_Professor,Full-time,Department of Gender and Women's Studies,,,"July 1, 2027"
+74,https://aprecruit.berkeley.edu/JPF05461,Assistant Professor- Indigeneities/Indigenous Feminisms From a Humanities Perspective – Department of Gender and Women's StudiesApply nowto Assistant Professor- Indigeneities/Indigenous Feminisms From a Humanities Perspective – Department of Gender and Women's Studies,Assistant_Professor,Full-time,Department of Gender and Women's Studies,Department of Gender and Women's Studies,,"July 1, 2027"
 74,https://aprecruit.berkeley.edu/JPF05462,Assistant Professor,Assistant_Professor,Full-time,College of Letters & Science,record of innovative research; art history of the Medieval,,"July 1, 2027"
 74,https://aprecruit.berkeley.edu/JPF05463,Assistant Professor,Assistant_Professor,Full-time,Department of Architecture,methods shape architectural design; inquiry concerned,,"July 1, 2027"
 74,https://aprecruit.berkeley.edu/JPF05464,Assistant/Associate/Full Professor in Housing Planning and Policy- Department of City and Regional PlanningApply nowto Assistant/Associate/Full Professor in Housing Planning and Policy- Department of City and Regional Planning,Assistant_Professor; Associate_Professor; Full_Professor,Full-time,Department of City and Regional Planning,Housing Planning and Policy- Department of City and Regional Planning; using any of a number; global contexts,,"July 1, 2027"
@@ -154,8 +154,8 @@ school_id,posting_url,job_title_in_post,position_type,job_term,department_or_sch
 74,https://aprecruit.berkeley.edu/JPF05489,Assistant Professor –Ecology-  Integrative Biology (JPF05489),Assistant_Professor,Full-time,College of Letters & Science,marine systems; invertebrates,,"July 1, 2027"
 74,https://aprecruit.berkeley.edu/JPF05491,Junior/Assistant Specialist,Non-academic,Full-time,College of Letters & Science,,"August 17, 2026",
 74,https://aprecruit.berkeley.edu/JPF05492,Assistant or Associate Researcher,Research_Fellow,Full-time,School of Education,,"August 7, 2026",
-74,https://aprecruit.berkeley.edu/JPF05494,Assistant Professor – African History,Assistant_Professor,Full-time,Department of History,,,07/01/2027
-74,https://aprecruit.berkeley.edu/JPF05495,"Assistant Professor – Modern German Literature, broadly framed, or Applied Language Studies – Department of GermanApply nowto Assistant Professor – Modern German Literature, broadly framed, or Applied Language Studies – Department of German",Assistant_Professor,Full-time,Department of German,German-taught courses,,"July 1, 2027"
+74,https://aprecruit.berkeley.edu/JPF05494,Assistant Professor – African History,Assistant_Professor,Full-time,Department of History,African History,,07/01/2027
+74,https://aprecruit.berkeley.edu/JPF05495,"Assistant Professor – Modern German Literature, broadly framed, or Applied Language Studies – Department of GermanApply nowto Assistant Professor – Modern German Literature, broadly framed, or Applied Language Studies – Department of German",Assistant_Professor,Full-time,Department of German,Department of GermanApply nowto Assistant Professor; German-taught courses,,"July 1, 2027"
 74,https://aprecruit.berkeley.edu/JPF05496,Assistant Professor -Assyriology (Cuneiform Cultures)- Department of Middle Eastern Languages and CulturesApply nowto Assistant Professor -Assyriology (Cuneiform Cultures)- Department of Middle Eastern Languages and Cultures,Assistant_Professor,Full-time,Department of Middle Eastern Languages and Cultures,ancient Mesopotamia,,7/1/2027
 74,https://aprecruit.berkeley.edu/JPF05497,Assistant Professor,Assistant_Professor,Full-time,School of Public Policy,policy-analysis institutions; organizational behavior,,7/1/2027
 74,https://aprecruit.berkeley.edu/JPF05499,Lecturer Pool,Lecturer,Full-time,College of Letters & Sciences,human geography,"August 19, 2026",

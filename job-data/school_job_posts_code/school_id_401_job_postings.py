@@ -41,36 +41,15 @@ POSTING_PATTERN = 'www.monmouthcollege.edu/offices/hr/<*>'
 
 
 def find_links():
-    """CUSTOMIZED: postings on this site are the links matching one repeated
-    URL shape, found structurally rather than by keyword and then confirmed
-    by opening two of them and checking they read like job postings
-    (title_role=0 degree=0 furniture=0 len=3275; title_role=0 degree=0 furniture=5 len=25835).
+    """CUSTOMIZED: this school writes each opening as a SECTION of its
+    careers page -- there is no per-job link to collect, which is why every
+    link-based scraper returned 0 row(s) against 13 real openings
+    on the page.
 
-        www.monmouthcollege.edu/offices/hr/<*>
-
-    The generic job-word filter returned 0 link(s) here against 2
-    actually on the page -- this site's posting URLs carry no job word at
-    all, which is why matching on words missed them."""
-    import sys, os
-    sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-    from bs4 import BeautifulSoup
-    from urllib.parse import urljoin
-    import deep_probe
-
-    html = lib.fetch_rendered(CAREERS_LINK, wait_ms=5000)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    soup = BeautifulSoup(html, 'html.parser')
-    out = []
-    for a in soup.find_all('a', href=True):
-        href = a['href'].strip()
-        if not href or href.startswith(('#', 'mailto:', 'javascript:', 'tel:')):
-            continue
-        if deep_probe.templatize(href, CAREERS_LINK) == POSTING_PATTERN:
-            full = urljoin(CAREERS_LINK, href)
-            if full not in out:
-                out.append(full)
-    return out
+    Each section becomes CAREERS_LINK + '#' + a slug of its own heading,
+    and school_id_401_job_info.py resolves that fragment back to the
+    section's text."""
+    return lib.scrape_inline_listing(CAREERS_LINK)
 
 
 def main():
