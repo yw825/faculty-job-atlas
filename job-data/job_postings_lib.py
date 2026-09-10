@@ -341,6 +341,8 @@ def detect_platform(url):
         return 'dejobs'
     if 'HRS_HRAM_FL' in url or 'onehcm.usg.edu' in host:
         return 'peoplesoft'
+    if 'schooljobs.com' in host:
+        return 'schooljobs'
     if 'apply.interfolio.com' in host:
         return 'interfolio'
     if 'paycomonline.net' in host:
@@ -702,20 +704,41 @@ def scrape_adp(url):
     cc_id = (qs.get('ccId') or ['19000101_000001'])[0]
     lang = (qs.get('lang') or ['en_US'])[0]
 
-    api = (f'https://{parsed.netloc}/mascsr/default/careercenter/public/events/'
-           f'staffing/v1/job-requisitions?cid={cid}&timeStamp={int(time.time()*1000)}')
-    status, text = fetch_static(api, extra_headers={'Accept': 'application/json'})
-    if status != 200:
-        raise RuntimeError(f'adp api status={status}')
-    data = json.loads(text)
-
-    links = []
-    for req in data.get('jobRequisitions', []):
-        item_id = req.get('itemID')
-        if not item_id:
-            continue
-        links.append(f'https://{parsed.netloc}/mascsr/default/mdf/recruitment/'
-                     f'recruitment.html?cid={cid}&ccId={cc_id}&jobId={item_id}&lang={lang}')
+    # The API returns 20 requisitions per call regardless of $top, and
+    # reports the real size in meta.totalNumber. Reading only the first
+    # response silently truncated every ADP school to its first 20 jobs --
+    # Ohio Wesleyan advertises 69. $skip is what actually moves the window.
+    base = (f'https://{parsed.netloc}/mascsr/default/careercenter/public/events/'
+            f'staffing/v1/job-requisitions?cid={cid}')
+    links, seen = [], set()
+    skip, total = 0, None
+    for _page in range(40):
+        api = f'{base}&timeStamp={int(time.time() * 1000)}&$skip={skip}'
+        status, text = fetch_static(api, extra_headers={'Accept': 'application/json'})
+        if status != 200:
+            if skip == 0:
+                raise RuntimeError(f'adp api status={status}')
+            break
+        data = json.loads(text)
+        batch = data.get('jobRequisitions') or []
+        if not batch:
+            break
+        if total is None:
+            total = (data.get('meta') or {}).get('totalNumber')
+        added = 0
+        for req in batch:
+            item_id = req.get('itemID')
+            if not item_id or item_id in seen:
+                continue
+            seen.add(item_id)
+            added += 1
+            links.append(f'https://{parsed.netloc}/mascsr/default/mdf/recruitment/'
+                         f'recruitment.html?cid={cid}&ccId={cc_id}&jobId={item_id}&lang={lang}')
+        if added == 0:                      # the window stopped moving
+            break
+        if total is not None and len(seen) >= total:
+            break
+        skip += len(batch)
     return links
 
 
@@ -1523,6 +1546,58 @@ def scrape_listing(url):
             return shaped
     return by_word
 
+
+_SCHOOLJOBS_JOB_RE = re.compile(r'/careers/[^/\s"\']+/jobs/\d+/[^\s"\'<>]+', re.I)
+
+
+def scrape_schooljobs(url):
+    """SchoolJobs (NeoGov) boards, following their pagination.
+
+    The board shows TEN postings per page and reports the real total in
+    its own text -- Stetson advertises 42. Reading only what the first
+    page renders is why 35 schools on this platform held 250 postings
+    between them, an average of seven each.
+
+    Any filter already on the careers link (most of ours carry
+    ?jobType[0]=Faculty) is preserved; only &page= is added.
+    """
+    from urllib.parse import urlsplit, urlunsplit, parse_qsl, urlencode, urljoin
+
+    parts = urlsplit(url)
+    query = [(k, v) for k, v in parse_qsl(parts.query, keep_blank_values=True)
+             if k.lower() != 'page']
+
+    links, seen = [], set()
+    for page in range(1, 21):
+        paged = urlunsplit((parts.scheme, parts.netloc, parts.path,
+                            urlencode(query + [('page', page)], doseq=True), ''))
+        html = fetch_rendered(paged, wait_ms=8000)
+        if is_fetch_failure(html) or not html:
+            break
+        found = set()
+        for m in _SCHOOLJOBS_JOB_RE.finditer(html):
+            found.add(urljoin(f'https://{parts.netloc}', m.group(0)))
+        fresh = [u for u in sorted(found) if u not in seen]
+        if not fresh:
+            break                      # pagination exhausted
+        for u in fresh:
+            seen.add(u)
+            links.append(u)
+    if not links and query:
+        # The careers link's own filter (most of ours carry
+        # ?jobType[0]=Faculty) can legitimately match nothing on a given
+        # day -- Hawaii's faculty filter reports 0 while its board shows
+        # 10. An empty filtered view is not evidence the school is not
+        # hiring, so fall back to the unfiltered board rather than
+        # recording nothing.
+        unfiltered = urlunsplit((parts.scheme, parts.netloc, parts.path, '', ''))
+        if unfiltered.rstrip('/') != url.rstrip('/'):
+            return scrape_schooljobs(unfiltered)
+    if not links:
+        raise RuntimeError('schooljobs board returned no postings')
+    return links
+
+
 PLATFORM_ADAPTERS = {
     'workday': lambda url, name: scrape_workday(url, school_name=name),
     'corehr': lambda url, name: scrape_corehr(url),
@@ -1539,6 +1614,7 @@ PLATFORM_ADAPTERS = {
     'ucrecruit': lambda url, name: scrape_ucrecruit(url),
     'paycom': lambda url, name: scrape_paycom(url),
     'interfolio': lambda url, name: scrape_interfolio(url),
+    'schooljobs': lambda url, name: scrape_schooljobs(url),
     'peoplesoft': lambda url, name: scrape_peoplesoft(url),
     'apella': lambda url, name: scrape_apella(url, name),
     'poland_nauka': lambda url, name: scrape_poland_nauka(url, name),

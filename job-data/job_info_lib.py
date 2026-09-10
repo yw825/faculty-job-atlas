@@ -1233,6 +1233,16 @@ def _title_candidates_from_text(raw):
     Site" yields, in order, "Dept: Title at Employer", "Dept: Title", then
     the untrimmed original -- so a caller trying candidates in order finds
     the tightest job-shaped match before falling back to noisier ones."""
+    # Collapse the whitespace first: headings often wrap, and a heading
+    # that spans lines ("SUNY Polytechnic Institute\n\tJob Posting:
+    # Assistant Professor of Data Science") otherwise keeps the newline and
+    # never matches any of the patterns below.
+    raw = re.sub(r'\s+', ' ', raw).strip()
+    # "<School> Job Posting: <title>" -- Interview Exchange puts the
+    # institution ahead of the job in its one <h1>.
+    m = re.search(r'\bjob\s+(?:posting|opening|title)\s*[:\-]\s*(.+)$', raw, re.I)
+    if m and len(m.group(1).strip()) > 3:
+        raw = m.group(1).strip()
     raw = _LEADING_JUNK_TITLE_RE.sub('', raw).strip()
     # Taleo appends the requisition number to its page title ("Business
     # Analyst  (2601322)"); it is an id, not part of the job's name.

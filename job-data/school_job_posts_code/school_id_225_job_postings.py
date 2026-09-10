@@ -31,23 +31,18 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 225
 SCHOOL_NAME = 'Stetson University'
-CAREERS_LINK = 'https://www.stetson.edu/administration/human-resources/job-opportunities.php'
+CAREERS_LINK = 'https://www.schooljobs.com/careers/stetson'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
-def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+PLATFORM = 'schooljobs'
 
 
 def main():
-    result = lib.run_checkpointed(SCHOOL_ID, CHECKPOINT_PATH, find_links)
+    result = lib.run_platform_school(SCHOOL_ID, SCHOOL_NAME, CAREERS_LINK,
+                                     CHECKPOINT_PATH, platform=PLATFORM)
     err = result.get('last_error', '')
     print(f"{SCHOOL_NAME} (id={SCHOOL_ID}): status={result['status']} "
           f"links={len(result['links'])}" + (f" ERROR: {err}" if err else ''))

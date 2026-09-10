@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1047
 SCHOOL_NAME = 'Ohio Wesleyan University'
-CAREERS_LINK = 'https://careers.owu.edu/ambassadors/'
+CAREERS_LINK = 'https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=a2082ac8-6363-4a1c-92d0-adacd9e4f844&ccId=19000101_000001&lang=en_US'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

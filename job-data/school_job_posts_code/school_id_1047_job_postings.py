@@ -31,23 +31,18 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1047
 SCHOOL_NAME = 'Ohio Wesleyan University'
-CAREERS_LINK = 'https://careers.owu.edu/ambassadors/'
+CAREERS_LINK = 'https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=a2082ac8-6363-4a1c-92d0-adacd9e4f844&ccId=19000101_000001&lang=en_US'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
-def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+PLATFORM = 'adp'
 
 
 def main():
-    result = lib.run_checkpointed(SCHOOL_ID, CHECKPOINT_PATH, find_links)
+    result = lib.run_platform_school(SCHOOL_ID, SCHOOL_NAME, CAREERS_LINK,
+                                     CHECKPOINT_PATH, platform=PLATFORM)
     err = result.get('last_error', '')
     print(f"{SCHOOL_NAME} (id={SCHOOL_ID}): status={result['status']} "
           f"links={len(result['links'])}" + (f" ERROR: {err}" if err else ''))

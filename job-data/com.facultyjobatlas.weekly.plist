@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.facultyjobatlas.weekly</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/bash</string>
+        <string>/Users/yusiwei/Downloads/My fun/faculty-job-atlas/job-data/weekly_refresh.sh</string>
+    </array>
+
+    <!-- Sunday at 02:00. launchd runs a missed job as soon as the machine
+         is next awake, so a Mac that was asleep still gets its refresh
+         rather than skipping the week. -->
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Weekday</key><integer>0</integer>
+        <key>Hour</key><integer>2</integer>
+        <key>Minute</key><integer>0</integer>
+    </dict>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/yusiwei/Downloads/My fun/faculty-job-atlas/job-data</string>
+
+    <!-- The script writes its own dated log; these catch anything that
+         escapes before that redirect takes effect. -->
+    <key>StandardOutPath</key>
+    <string>/Users/yusiwei/Downloads/My fun/faculty-job-atlas/job-data/refresh_logs/launchd.out</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/yusiwei/Downloads/My fun/faculty-job-atlas/job-data/refresh_logs/launchd.err</string>
+
+    <key>RunAtLoad</key>
+    <false/>
+
+    <!-- A full refresh is hours of network work; do not let it be killed
+         for being idle-heavy. -->
+    <key>ProcessType</key>
+    <string>Background</string>
+    <key>LowPriorityIO</key>
+    <true/>
+</dict>
+</plist>

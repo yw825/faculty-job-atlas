@@ -1,1 +1,8 @@
-{"links": ["https://www.schooljobs.com/careers/lamar/inbox", "https://www.schooljobs.com/careers/lamar/profilesettings", "https://www.schooljobs.com/careers/lamar/termsofuse", "https://www.schooljobs.com/careers/lamar/accessibilitystatement", "https://www.schooljobs.com/careers/lamar/promotionaljobs"], "school_id": 1369, "status": "complete", "updated_at": "2026-09-08T03:01:53+00:00", "started_at": "2026-09-08T03:01:50+00:00", "completed_at": "2026-09-08T03:01:53+00:00", "last_error": ""}
+{
+  "links": [],
+  "school_id": 1369,
+  "status": "error",
+  "updated_at": "2026-09-10T07:26:59+00:00",
+  "started_at": "2026-09-10T07:26:41+00:00",
+  "last_error": "RuntimeError: schooljobs board returned no postings"
+}

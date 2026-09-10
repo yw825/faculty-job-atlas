@@ -1,1 +1,8 @@
-{"links": ["https://www.schooljobs.com/careers/alma/inbox", "https://www.schooljobs.com/careers/alma/profilesettings", "https://www.schooljobs.com/careers/alma/termsofuse", "https://www.schooljobs.com/careers/alma/accessibilitystatement", "https://www.schooljobs.com/careers/alma/promotionaljobs"], "school_id": 629, "status": "complete", "updated_at": "2026-09-08T02:04:26+00:00", "started_at": "2026-09-08T02:04:23+00:00", "completed_at": "2026-09-08T02:04:26+00:00", "last_error": ""}
+{
+  "links": [],
+  "school_id": 629,
+  "status": "error",
+  "updated_at": "2026-09-10T06:54:46+00:00",
+  "started_at": "2026-09-10T06:54:29+00:00",
+  "last_error": "RuntimeError: schooljobs board returned no postings"
+}

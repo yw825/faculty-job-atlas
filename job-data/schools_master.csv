@@ -153,7 +153,7 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes,scrap
 221,Lynn University,US,https://www.lynn.edu/,https://www.lynn.edu/employment,own website,medium,OK:2 [playwright],generic scraper
 222,University of Miami,US,https://www.miami.edu/,https://careers.miami.edu/,own website,medium,OK:7,generic scraper
 224,Embry-Riddle Aeronautical University-Daytona Beach,US,https://daytonabeach.erau.edu/,https://embryriddle.wd1.myworkdayjobs.com/External,Workday,high,OK-2hop:OK:8,adapter built
-225,Stetson University,US,https://www.stetson.edu/,https://www.stetson.edu/administration/human-resources/job-opportunities.php,own website,medium,OK:6 [playwright],generic scraper
+225,Stetson University,US,https://www.stetson.edu/,https://www.schooljobs.com/careers/stetson,SchoolJobs,medium,OK:6 [playwright] | careers_link was the HR page; postings live on its SchoolJobs board,generic scraper
 228,Nova Southeastern University,US,https://www.nova.edu/,https://www.nova.edu/resources/employment.html,own website,medium,OK-2hop:OK:4,generic scraper
 229,Florida Gulf Coast University,US,https://www.fgcu.edu/,https://jobs.fgcu.edu/jobs/search/search-page-faculty,own website,medium,OK-2hop:OK:14,generic scraper
 231,University of Florida,US,https://www.ufl.edu/,https://jobs.ufl.edu/career-growth/professional-development/,own website,medium,OK-2hop:OK:7,generic scraper
@@ -822,7 +822,7 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes,scrap
 1044,University of Dayton,US,https://udayton.edu/,https://careers.pageuppeople.com/875/cw/en-us/subscribe,PageUp,high,OK-2hop:OK:10,generic scraper (verified working)
 1045,Wright State University-Main Campus,US,https://www.wright.edu/,https://www.wright.edu/human-resources,own website,medium,OK-2hop:OK:2;hand-verified-sync | careers_link rediscovered from homepage (old: #VALUE!),generic scraper
 1046,Defiance College,US,https://www.defiance.edu/,https://www.defiance.edu/employment-opportunities/,own website,medium,OK-2hop:OK:3,generic scraper
-1047,Ohio Wesleyan University,US,https://www.owu.edu/,https://careers.owu.edu/ambassadors/,own website,medium,OK-2hop:OK:5,generic scraper
+1047,Ohio Wesleyan University,US,https://www.owu.edu/,https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=a2082ac8-6363-4a1c-92d0-adacd9e4f844&ccId=19000101_000001&lang=en_US,ADP,medium,"OK-2hop:OK:5 | careers_link was careers.owu.edu, a STUDENT career-services site; the employer board is ADP",generic scraper
 1048,The University of Findlay,US,https://findlay.edu/,https://findlay.wd5.myworkdayjobs.com/careers,Workday,high,OK:8,adapter built
 1049,Kenyon College,US,https://www.kenyon.edu/,https://www.kenyon.edu/offices-and-services/office-of-human-resources/job-opportunities/,own website,medium,OK-2hop:OK:4,generic scraper
 1050,Denison University,US,https://www.denison.edu/,https://apply.interfolio.com/11076/positions,own website,high,OK-2hop:OK:7,generic scraper

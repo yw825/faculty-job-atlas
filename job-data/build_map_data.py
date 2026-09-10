@@ -30,7 +30,7 @@ import glob
 import json
 import os
 import re
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
@@ -212,6 +212,43 @@ def load_school_meta():
     return meta
 
 
+FIRST_SEEN_PATH = os.path.join(HERE, 'posting_first_seen.csv')
+
+# How far back a posting still counts as worth dating in the payload. The
+# map's "new" filter never looks further than this.
+RECENT_DAYS = 30
+
+
+def load_first_seen():
+    """posting_url -> the date it was first observed.
+
+    Kept in its own file rather than derived from the CSVs, because
+    "new" cannot be recovered after the fact: a posting that appears and
+    is scraped looks identical to one that has been there for months. The
+    ledger is the only record of when each URL first showed up.
+    """
+    seen = {}
+    if os.path.exists(FIRST_SEEN_PATH):
+        with open(FIRST_SEEN_PATH, encoding='utf-8') as f:
+            for row in csv.DictReader(f):
+                url = (row.get('posting_url') or '').strip()
+                if url:
+                    seen[url] = (row.get('first_seen') or '').strip()
+    return seen
+
+
+def save_first_seen(seen):
+    """Written back with every URL still known, so the ledger does not grow
+    without bound as postings close -- but note a URL that DISAPPEARS and
+    returns is treated as new again, which is the honest reading: the
+    school re-posted it."""
+    with open(FIRST_SEEN_PATH, 'w', newline='', encoding='utf-8') as f:
+        w = csv.writer(f)
+        w.writerow(['posting_url', 'first_seen'])
+        for url, date in sorted(seen.items()):
+            w.writerow([url, date])
+
+
 def load_coords():
     """school_id -> (lat, lon, city) parsed out of the map page's own school
     arrays, so postings land on exactly the markers the map already uses
@@ -330,6 +367,7 @@ def main():
                     'u': (row.get('posting_url') or '').strip(),  # trimmed below
                     'x': normalize_date(row.get('deadline_of_application')),
                     'b': normalize_date(row.get('position_start_date')),
+                    'n': '',      # first_seen, filled in below
                 })
 
     # Second pass: drop per-school repeated furniture now that every row for
@@ -344,6 +382,43 @@ def main():
         junk_titles += before - len(postings)
         still_used = {q['s'] for q in postings}
         schools_used = {k: v for k, v in schools_used.items() if k in still_used}
+
+    # Stamp when each posting was first observed, BEFORE the URLs below are
+    # shortened -- the ledger keys on the full URL. A posting already in the
+    # ledger keeps its original date; anything unseen is dated today, which
+    # on the very first run means everything is "first seen" now. That is
+    # correct rather than convenient: we genuinely do not know when these
+    # were posted, and pretending otherwise would mark the whole map new.
+    first_seen = load_first_seen()
+    today = date.today().isoformat()
+    recent_cutoff = (date.today() - timedelta(days=RECENT_DAYS)).isoformat()
+    # The FIRST run stamps every posting with that day's date. None of them
+    # are actually new -- we simply had no record before. So the earliest
+    # date in the ledger is the baseline, and the map treats anything
+    # bearing it as pre-existing. Without this the first week would report
+    # 32,717 new postings, which is worse than reporting none.
+    baseline = min(first_seen.values()) if first_seen else today
+    live_urls = set()
+    new_count = 0
+    for post in postings:
+        url = post['u']
+        if not url:
+            continue
+        live_urls.add(url)
+        if url not in first_seen:
+            first_seen[url] = today
+            if today != baseline:
+                new_count += 1
+        # Only RECENT dates ride in the payload. The map only ever asks
+        # "is this new?", and stamping all 32k postings with a date they
+        # will keep forever cost 0.55 MB for information nothing reads.
+        # The ledger on disk still holds every date.
+        if first_seen[url] >= recent_cutoff:
+            post['n'] = first_seen[url]
+        else:
+            post.pop('n', None)
+    # Drop closed postings from the ledger so it tracks the live set.
+    save_first_seen({u: d for u, d in first_seen.items() if u in live_urls})
 
     # URLs are the single biggest field (2.17 MB of a 6.45 MB payload) and
     # are near-identical within a school -- same host and path prefix, one
@@ -369,6 +444,8 @@ def main():
         'generated': datetime.now().isoformat(timespec='seconds'),
         'scrape_dates': sorted({d for d in seen_on.values() if d}),
         'count': len(postings),
+        'first_seen_new': new_count,
+        'baseline': baseline,
         'schools': schools_used,
         'postings': postings,
     }
@@ -384,6 +461,7 @@ def main():
     with_deadline = sum(1 for p in postings if p['x'])
     asst = sum(1 for p in postings if 'Assistant_Professor' in p['p'])
     print(f'  dropped {junk_titles} rows whose title is careers-site furniture, not a job')
+    print(f'  first seen today (new since last run): {new_count}')
     print(f'  Assistant Professor postings: {asst}')
     print(f'  with parsed start date: {with_start} ({100 * with_start / max(len(postings), 1):.0f}%)')
     print(f'  with parsed deadline:   {with_deadline} '

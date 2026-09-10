@@ -534,6 +534,7 @@
         <div class="check-group">
           <span class="field-label" style="margin-bottom:0;">Availability</span>
           <label class="check-row"><input type="checkbox" id="f-job-available" checked> Available now</label>
+          <label class="check-row"><input type="checkbox" id="f-job-new"> New since last refresh</label>
           <div class="hint" id="job-date-hint"></div>
         </div>
         <hr class="panel-divider">
@@ -1468,6 +1469,7 @@ clearBtn.addEventListener('click', function(){
     document.querySelectorAll('.f-subject').forEach(el => { el.checked = false; });
     fJobTitle.checked = false;
     fJobAvailable.checked = true;
+    fJobNew.checked = false;
   }
   boundsFilterActive = false;
   liveViewActive = false;
@@ -1602,6 +1604,7 @@ const jobsControls = document.getElementById('jobs-controls');
 const jobSubjectInput = document.getElementById('job-subject');
 const jobDateHint = document.getElementById('job-date-hint');
 const fJobAvailable = document.getElementById('f-job-available');
+const fJobNew = document.getElementById('f-job-new');
 const fJobTitle = document.getElementById('f-job-title');
 
 /* Subject match runs over department_or_school + area_key_words, per the
@@ -1769,6 +1772,7 @@ function jobsMatchingFilters(ignoreSubjects, ignoreRanks){
   const subKey = asiaSelect ? asiaSelect.value : 'all';
   const todayIso = new Date().toISOString().slice(0,10);
   const onlyAvailable = fJobAvailable.checked;
+  const onlyNew = fJobNew.checked;
   const withTitle = fJobTitle.checked;
   const nameTerm = searchInput.value.trim().toLowerCase();
   const subjects = selectedSubjects();
@@ -1839,6 +1843,13 @@ function jobsMatchingFilters(ignoreSubjects, ignoreRanks){
     if(onlyAvailable){
       if(j.x && j.x < todayIso) return false;
       if(j.b && j.b < todayIso) return false;
+    }
+    /* "New" means: first seen by a refresh AFTER the baseline. The baseline
+       is the first run, when every posting was recorded at once -- none of
+       those are new, we just had no record before. j.n is only present for
+       postings first seen in the last 30 days. */
+    if(onlyNew){
+      if(!j.n || !JOBS || !JOBS.baseline || j.n <= JOBS.baseline) return false;
     }
     return true;
   });
@@ -1967,7 +1978,7 @@ jobSubjectInput.addEventListener('input', function(){ if(jobsMode) applyJobFilte
 document.querySelectorAll('.f-job-rank').forEach(function(el){
   el.addEventListener('change', function(){ if(jobsMode) applyJobFilters(); });
 });
-[fJobAvailable, fJobTitle].forEach(function(el){
+[fJobAvailable, fJobNew, fJobTitle].forEach(function(el){
   el.addEventListener('change', function(){ if(jobsMode) applyJobFilters(); });
 });
 

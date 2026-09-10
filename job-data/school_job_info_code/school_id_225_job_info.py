@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 225
 SCHOOL_NAME = 'Stetson University'
-CAREERS_LINK = 'https://www.stetson.edu/administration/human-resources/job-opportunities.php'
+CAREERS_LINK = 'https://www.schooljobs.com/careers/stetson'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 
