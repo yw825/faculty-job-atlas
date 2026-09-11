@@ -67,7 +67,7 @@ say "1/6 postings"
 "$PYTHON" run_all_countries.py --stage postings --redo --timeout 300
 
 say "2/6 clean furniture from link sets and checkpoints"
-"$PYTHON" clean_job_posts.py --report "cleaning_report_$STAMP.csv" | head -20
+"$PYTHON" clean_job_posts.py --report "refresh_logs/cleaning_report_$STAMP.csv" | head -20
 
 say "3/6 info (only newly seen postings are fetched)"
 "$PYTHON" run_all_countries.py --stage info --timeout 900
@@ -105,3 +105,4 @@ echo
 echo "refresh finished $(date)"
 # Keep the last 12 weeks of logs.
 ls -1t "$LOGDIR"/refresh_*.log 2>/dev/null | tail -n +13 | xargs -r rm -f
+ls -1t "$LOGDIR"/cleaning_report_*.csv 2>/dev/null | tail -n +13 | xargs -r rm -f

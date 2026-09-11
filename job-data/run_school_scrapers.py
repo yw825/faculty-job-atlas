@@ -145,7 +145,9 @@ def main():
     if args.limit:
         todo = todo[:args.limit]
 
-    log_path = os.path.join(HERE, f'run_log_{args.country}_{args.stage}.csv')
+    os.makedirs(os.path.join(HERE, 'refresh_logs'), exist_ok=True)
+    log_path = os.path.join(HERE, 'refresh_logs',
+                            f'run_log_{args.country}_{args.stage}.csv')
     print(f'{args.country} {args.stage}: {len(todo)} schools to run '
           f'(timeout {args.timeout}s each)', flush=True)
 
