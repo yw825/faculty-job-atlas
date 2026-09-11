@@ -22,6 +22,19 @@ set -uo pipefail
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$ROOT/job-data" || exit 1
 
+# launchd runs with a minimal PATH, where "python3" is /usr/bin/python3 --
+# the SYSTEM interpreter, which has none of this project's dependencies
+# (bs4, playwright, requests, pypdf all live in the pyenv install). A job
+# that resolved python3 from PATH would fail on its first import, weekly,
+# silently. The interpreter is therefore pinned to an absolute path,
+# written in at install time, and checked before any work starts.
+PYTHON="/Users/yusiwei/.pyenv/versions/3.10.14/bin/python3"
+
+if [ ! -x "$PYTHON" ]; then
+  echo "FATAL: interpreter $PYTHON not found. Re-run setup_refresh.sh." >&2
+  exit 1
+fi
+
 LOGDIR="$ROOT/job-data/refresh_logs"
 mkdir -p "$LOGDIR"
 STAMP="$(date +%Y-%m-%d)"
@@ -34,25 +47,30 @@ echo "=============================================================="
 
 say(){ echo; echo "--- $* ($(date +%H:%M:%S)) ---"; }
 
+if ! "$PYTHON" -c "import bs4, playwright, requests" 2>/dev/null; then
+  echo "FATAL: $PYTHON is missing dependencies (bs4/playwright/requests)." >&2
+  exit 1
+fi
+
 say "1/6 postings"
-python3 run_all_countries.py --stage postings --redo --timeout 300
+"$PYTHON" run_all_countries.py --stage postings --redo --timeout 300
 
 say "2/6 clean furniture from link sets and checkpoints"
-python3 clean_job_posts.py --report "cleaning_report_$STAMP.csv" | head -20
+"$PYTHON" clean_job_posts.py --report "cleaning_report_$STAMP.csv" | head -20
 
 say "3/6 info (only newly seen postings are fetched)"
-python3 run_all_countries.py --stage info --timeout 900
+"$PYTHON" run_all_countries.py --stage info --timeout 900
 
 say "4/6 prune stale info rows"
-python3 prune_stale_info.py | head -5
+"$PYTHON" prune_stale_info.py | head -5
 
 say "5/6 rebuild map"
-python3 build_map_data.py | tail -8
+"$PYTHON" build_map_data.py | tail -8
 
 say "6/6 publish"
 cd "$ROOT" || exit 1
 if [ -n "$(git status --porcelain)" ]; then
-  NEW=$(python3 -c "
+  NEW=$("$PYTHON" -c "
 import json
 d=json.load(open('postings.json'))
 print(d.get('first_seen_new', 0))
