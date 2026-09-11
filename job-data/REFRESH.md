@@ -76,3 +76,34 @@ If the push fails the run still commits locally, and says so, so nothing
 is lost -- resolve it by hand and push.
 
 Logs older than 12 weeks are deleted automatically.
+
+## If Python moves
+
+`weekly_refresh.sh` calls an **absolute** interpreter path, currently:
+
+```
+/Users/yusiwei/.pyenv/versions/3.10.14/bin/python3
+```
+
+This is deliberate. launchd runs with a minimal PATH where `python3` is
+`/usr/bin/python3` -- the system interpreter, which has none of this
+project's dependencies. A job that resolved `python3` from PATH would fail
+on its first import, weekly, in silence.
+
+If you upgrade or move Python, edit the `PYTHON=` line at the top of
+`weekly_refresh.sh`. The script refuses to start if that path is gone, and
+checks `bs4`/`playwright`/`requests` import before doing any work, so a
+broken interpreter fails loudly in the log's first lines rather than
+halfway through a scrape.
+
+## Does it actually publish?
+
+Yes -- verified, not assumed. A real `git push` was run from a stripped
+environment (`env -i`, minimal PATH, no interactive shell) and succeeded:
+the osxkeychain credential helper serves the GitHub credential without a
+login session. Note that `git push --dry-run` is NOT a valid test here --
+this repo is public, so ref discovery succeeds without any credential at
+all and reports "Everything up-to-date" whether auth works or not.
+
+If a push ever does fail, the run still commits locally and the log says
+`PUSH FAILED -- committed locally, resolve by hand`, so no work is lost.
