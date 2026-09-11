@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
     <key>Label</key>
-    <string>com.facultyjobatlas.weekly</string>
+    <string>com.facultyjobatlas.nightly</string>
 
     <key>ProgramArguments</key>
     <array>
         <string>/bin/bash</string>
-        <string>/Users/yusiwei/Downloads/My fun/faculty-job-atlas/job-data/weekly_refresh.sh</string>
+        <string>/Users/yusiwei/Downloads/My fun/faculty-job-atlas/job-data/nightly_refresh.sh</string>
     </array>
 
-    <!-- Sunday at 02:00. launchd runs a missed job as soon as the machine
-         is next awake, so a Mac that was asleep still gets its refresh
-         rather than skipping the week. -->
+    <!-- Every night at 22:00. A full pass takes roughly 4-6 hours, so it
+         finishes in the small hours and the morning's map is current.
+         launchd runs a missed firing as soon as the machine is next awake,
+         so a night the Mac was asleep is caught up rather than skipped. -->
     <key>StartCalendarInterval</key>
     <dict>
-        <key>Weekday</key><integer>0</integer>
-        <key>Hour</key><integer>2</integer>
+        <key>Hour</key><integer>22</integer>
         <key>Minute</key><integer>0</integer>
     </dict>
 

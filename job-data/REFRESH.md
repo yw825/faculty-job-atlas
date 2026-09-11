@@ -1,16 +1,23 @@
-# Weekly refresh
+# Nightly refresh
 
 Re-scrapes every school, finds new postings, rebuilds the map and pushes.
+
+Runs **every night at 22:00**. A full pass takes roughly 4-6 hours, so it
+finishes overnight and the map is current by morning.
 
 ## Install the schedule (once)
 
 ```bash
-cp job-data/com.facultyjobatlas.weekly.plist ~/Library/LaunchAgents/
-launchctl load ~/Library/LaunchAgents/com.facultyjobatlas.weekly.plist
+cp job-data/com.facultyjobatlas.nightly.plist ~/Library/LaunchAgents/
+launchctl load ~/Library/LaunchAgents/com.facultyjobatlas.nightly.plist
 ```
 
-Runs **Sunday 02:00**. If the Mac is asleep then, launchd runs it as soon
-as the machine is next awake rather than skipping the week.
+If the Mac is asleep at 22:00, launchd runs the job as soon as the machine
+is next awake rather than skipping the night.
+
+Only one pass runs at a time: a lock file makes a second start exit
+immediately, so a run that goes long cannot be overlapped by the next
+night's firing and corrupt the checkpoints both would write.
 
 Check it is registered:
 
@@ -21,13 +28,13 @@ launchctl list | grep facultyjobatlas
 Stop it:
 
 ```bash
-launchctl unload ~/Library/LaunchAgents/com.facultyjobatlas.weekly.plist
+launchctl unload ~/Library/LaunchAgents/com.facultyjobatlas.nightly.plist
 ```
 
 ## Run it by hand
 
 ```bash
-bash job-data/weekly_refresh.sh          # same thing, right now
+bash job-data/nightly_refresh.sh          # same thing, right now
 tail -f job-data/refresh_logs/refresh_$(date +%F).log
 ```
 
@@ -57,7 +64,8 @@ first observed. It is the only record of that -- once a posting has been
 scraped it looks identical to one that has been up for months, so this
 cannot be reconstructed later. Do not delete it.
 
-The map has a **"New since last refresh"** checkbox under Availability.
+The map has a **"New since last refresh"** checkbox under Availability --
+with a nightly cadence that means "found last night".
 
 The first run set every posting's date to the same day. Those are not new,
 we simply had no record before, so the earliest date in the ledger is
@@ -70,16 +78,16 @@ The first genuinely new postings will appear after the next refresh.
 grep -E "^---|new postings|pushed|FAILED" job-data/refresh_logs/refresh_*.log | tail -20
 ```
 
-The commit message carries the count: `Weekly refresh 2026-09-14: 137 new postings`.
+The commit message carries the count: `Nightly refresh 2026-09-14: 137 new postings`.
 
 If the push fails the run still commits locally, and says so, so nothing
 is lost -- resolve it by hand and push.
 
-Logs older than 12 weeks are deleted automatically.
+The last 12 logs are kept; older ones are deleted automatically.
 
 ## If Python moves
 
-`weekly_refresh.sh` calls an **absolute** interpreter path, currently:
+`nightly_refresh.sh` calls an **absolute** interpreter path, currently:
 
 ```
 /Users/yusiwei/.pyenv/versions/3.10.14/bin/python3
@@ -91,7 +99,7 @@ project's dependencies. A job that resolved `python3` from PATH would fail
 on its first import, weekly, in silence.
 
 If you upgrade or move Python, edit the `PYTHON=` line at the top of
-`weekly_refresh.sh`. The script refuses to start if that path is gone, and
+`nightly_refresh.sh`. The script refuses to start if that path is gone, and
 checks `bs4`/`playwright`/`requests` import before doing any work, so a
 broken interpreter fails loudly in the log's first lines rather than
 halfway through a scrape.

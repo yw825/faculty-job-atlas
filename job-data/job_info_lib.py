@@ -560,6 +560,25 @@ def extract_primary_keyword(title):
         # "Psychology: Adjunct Position" and "Adjunct Position:
         # Community-Based Strategies for Social Change" (St Thomas
         # Aquinas). Whichever side isn't rank words is the subject.
+        # "<rank clause>, <subject>" -- Bucknell titles every professional
+        # track post "Open Rank, Professional Track Faculty, Business
+        # Analytics", and Workday schools commonly use "Assistant
+        # Professor, Management". The subject is the LAST comma-separated
+        # part, kept only when what precedes it is rank words, so an
+        # enumerated subject ("Mathematics, Statistics and Insurance") is
+        # not mistaken for one.
+        parts_c = [c.strip() for c in title.split(',')]
+        if len(parts_c) >= 2:
+            tail = re.sub(r'\s*\([^)]*\)\s*$', '', parts_c[-1]).strip()
+            head = ', '.join(parts_c[:-1])
+            if (2 < len(tail) < 60 and tail[:1].isupper()
+                    and _INLINE_RANKISH_RE.search(head)
+                    and not _INLINE_RANKISH_RE.search(tail)
+                    and not _EMPLOYMENT_TERM_RE.match(tail)
+                    and not re.match(r'(?:' + _NON_SUBJECT_LEAD + r')\b', tail, re.I)):
+                m = re.match(r'(.+)', tail)
+
+    if not m:
         halves = [h.strip() for h in title.split(':', 1)]
         # One half must name a rank for the other to be its subject --
         # otherwise any colon title qualifies ("Meliora: What it Means to
@@ -578,6 +597,11 @@ def extract_primary_keyword(title):
     # College" into "Pomona", which then reads like a perfectly good field.
     if _SUBJECT_IS_INSTITUTION_RE.search(raw):
         return ''
+    # A trailing employment term is not part of the field: "Professor of
+    # Physics, Full-Time" names Physics.
+    raw = re.sub(r',\s*(?:full[- ]?time|part[- ]?time|tenure[- ]track|tenured|'
+                 r'temporary|permanent|visiting|adjunct|non[- ]tenure[- ]track|'
+                 r'fixed[- ]term|remote|hybrid)\s*$', '', raw, flags=re.I).strip()
     subject = _strip_trailing_institution(raw).rstrip('] ) } ,;'.strip() + ' ')
     return '' if _NOT_A_SUBJECT_RE.search(subject) else subject
 

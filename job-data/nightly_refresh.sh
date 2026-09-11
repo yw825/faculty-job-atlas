@@ -1,7 +1,7 @@
 #!/bin/bash
-# Weekly full refresh of the Faculty Job Atlas.
+# Nightly full refresh of the Faculty Job Atlas.
 #
-# Run by launchd (see com.facultyjobatlas.weekly.plist) or by hand:
+# Run by launchd (see com.facultyjobatlas.nightly.plist) or by hand:
 #     bash job-data/weekly_refresh.sh
 #
 # Stages, in the order that matters:
@@ -34,6 +34,17 @@ if [ ! -x "$PYTHON" ]; then
   echo "FATAL: interpreter $PYTHON not found. Re-run setup_refresh.sh." >&2
   exit 1
 fi
+
+# A nightly cadence can overlap: if one pass runs long, the next fires
+# while it is still going, and two scrapers writing the same checkpoints
+# would corrupt them. The lock makes a second start exit immediately.
+LOCK="$ROOT/job-data/.refresh.lock"
+if [ -e "$LOCK" ] && kill -0 "$(cat "$LOCK" 2>/dev/null)" 2>/dev/null; then
+  echo "refresh already running (pid $(cat "$LOCK")); exiting" >&2
+  exit 0
+fi
+echo $$ > "$LOCK"
+trap 'rm -f "$LOCK"' EXIT
 
 LOGDIR="$ROOT/job-data/refresh_logs"
 mkdir -p "$LOGDIR"
@@ -76,7 +87,7 @@ d=json.load(open('postings.json'))
 print(d.get('first_seen_new', 0))
 ")
   git add -A
-  git commit -q -m "Weekly refresh $STAMP: $NEW new postings
+  git commit -q -m "Nightly refresh $STAMP: $NEW new postings
 
 Automated run of job-data/weekly_refresh.sh.
 
