@@ -2,8 +2,14 @@
 
 Re-scrapes every school, finds new postings, rebuilds the map and pushes.
 
-Runs **every night at 22:00**. A full pass takes roughly 4-6 hours, so it
-finishes overnight and the map is current by morning.
+Runs **every day at 09:00**. A full pass takes roughly 4-6 hours, so the
+map is current by early afternoon.
+
+It runs in the daytime on purpose: this is a laptop, and a closed lid puts
+it to sleep regardless of any setting. The script runs `caffeinate` for its
+whole duration, so the Mac will not idle-sleep mid-run while the lid is
+open. If the lid is closed mid-run, the pass is suspended and carries on
+when the Mac wakes -- nothing is corrupted, the map is just later.
 
 ## Install the schedule (once)
 
@@ -12,8 +18,9 @@ cp job-data/com.facultyjobatlas.nightly.plist ~/Library/LaunchAgents/
 launchctl load ~/Library/LaunchAgents/com.facultyjobatlas.nightly.plist
 ```
 
-If the Mac is asleep at 22:00, launchd runs the job as soon as the machine
-is next awake rather than skipping the night.
+If the Mac is asleep or closed at 09:00, launchd runs the job as soon as the
+machine is next awake rather than skipping the day. No scheduled wake
+(`pmset repeat`) is needed.
 
 Only one pass runs at a time: a lock file makes a second start exit
 immediately, so a run that goes long cannot be overlapped by the next

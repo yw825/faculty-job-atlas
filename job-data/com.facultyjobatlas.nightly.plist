@@ -8,28 +8,29 @@
     <key>ProgramArguments</key>
     <array>
         <string>/bin/bash</string>
-        <string>/Users/yusiwei/Downloads/My fun/faculty-job-atlas/job-data/nightly_refresh.sh</string>
+        <string>/Users/yusiwei/Library/CloudStorage/OneDrive-Personal/faculty-job-atlas/job-data/nightly_refresh.sh</string>
     </array>
 
-    <!-- Every night at 22:00. A full pass takes roughly 4-6 hours, so it
-         finishes in the small hours and the morning's map is current.
-         launchd runs a missed firing as soon as the machine is next awake,
-         so a night the Mac was asleep is caught up rather than skipped. -->
+    <!-- Every day at 09:00, while the Mac is normally open and in use: a
+         full pass takes roughly 4-6 hours, and a laptop with its lid shut
+         sleeps no matter what. launchd runs a missed firing as soon as the
+         machine is next awake, so a morning the Mac was closed is caught
+         up when it is opened rather than skipped. -->
     <key>StartCalendarInterval</key>
     <dict>
-        <key>Hour</key><integer>22</integer>
+        <key>Hour</key><integer>9</integer>
         <key>Minute</key><integer>0</integer>
     </dict>
 
     <key>WorkingDirectory</key>
-    <string>/Users/yusiwei/Downloads/My fun/faculty-job-atlas/job-data</string>
+    <string>/Users/yusiwei/Library/CloudStorage/OneDrive-Personal/faculty-job-atlas/job-data</string>
 
     <!-- The script writes its own dated log; these catch anything that
          escapes before that redirect takes effect. -->
     <key>StandardOutPath</key>
-    <string>/Users/yusiwei/Downloads/My fun/faculty-job-atlas/job-data/refresh_logs/launchd.out</string>
+    <string>/Users/yusiwei/Library/CloudStorage/OneDrive-Personal/faculty-job-atlas/job-data/refresh_logs/launchd.out</string>
     <key>StandardErrorPath</key>
-    <string>/Users/yusiwei/Downloads/My fun/faculty-job-atlas/job-data/refresh_logs/launchd.err</string>
+    <string>/Users/yusiwei/Library/CloudStorage/OneDrive-Personal/faculty-job-atlas/job-data/refresh_logs/launchd.err</string>
 
     <key>RunAtLoad</key>
     <false/>

@@ -10,9 +10,9 @@
     "https://humanresources.illinois.edu/hr-document-library/"
   ],
   "school_id": 369,
-  "status": "complete",
-  "updated_at": "2026-09-09T07:17:29+00:00",
+  "status": "error",
+  "updated_at": "2026-09-14T17:48:30+00:00",
   "started_at": "2026-09-09T07:17:16+00:00",
   "completed_at": "2026-09-09T07:17:29+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
 }

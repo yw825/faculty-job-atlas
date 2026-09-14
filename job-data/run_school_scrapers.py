@@ -50,7 +50,12 @@ INFO_CODE = os.path.join(HERE, 'school_job_info_code')
 VERIFY_FMT = os.path.join(HERE, 'careers_link_verification_{country}.csv')
 
 
-class Timeout(Exception):
+# BaseException, not Exception: nearly every scraper wraps each page in
+# `except Exception` so one bad posting can't sink the school, and those
+# handlers were swallowing the alarm. Temasek Polytechnic's title loop ate
+# it and ran 45 minutes past a 300s limit, stalling the whole refresh. The
+# libraries' `finally` blocks still save checkpoints on the way out.
+class Timeout(BaseException):
     pass
 
 

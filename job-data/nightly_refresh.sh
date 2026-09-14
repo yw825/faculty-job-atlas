@@ -46,6 +46,15 @@ fi
 echo $$ > "$LOCK"
 trap 'rm -f "$LOCK"' EXIT
 
+# launchd jobs hold no power assertion, and this Mac idle-sleeps after a
+# minute, so a multi-hour pass would be suspended almost as soon as the
+# user stepped away. caffeinate blocks idle sleep (and, on AC, system
+# sleep) until this script exits. It is started from inside the script
+# rather than wrapping it in the plist so /bin/bash stays the launched
+# binary -- the one granted Full Disk Access for the OneDrive folder.
+# Closing the lid still sleeps the Mac; the run then resumes on wake.
+caffeinate -i -s -w $$ &
+
 LOGDIR="$ROOT/job-data/refresh_logs"
 mkdir -p "$LOGDIR"
 STAMP="$(date +%Y-%m-%d)"

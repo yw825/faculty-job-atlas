@@ -1,1 +1,16 @@
-{"links": ["https://www.york.edu/about/employment.php#staff", "https://www.york.edu/about/employment.php#ga"], "school_id": 845, "status": "complete", "updated_at": "2026-09-08T02:21:18+00:00", "started_at": "2026-09-08T02:20:53+00:00", "last_error": ""}
+{
+  "links": [
+    "https://www.york.edu/about/employment.php#staff",
+    "https://www.york.edu/about/employment.php#ga",
+    "https://www.york.edu/academics/faculty-directory/index.php",
+    "https://www.york.edu/faculty-and-staff/index.php",
+    "https://www.york.edu/about/employment.php#faculty",
+    "https://www.york.edu/financial-aid/work-study.php"
+  ],
+  "school_id": 845,
+  "status": "complete",
+  "updated_at": "2026-09-14T18:30:55+00:00",
+  "started_at": "2026-09-08T02:20:53+00:00",
+  "last_error": "",
+  "completed_at": "2026-09-14T18:30:55+00:00"
+}
