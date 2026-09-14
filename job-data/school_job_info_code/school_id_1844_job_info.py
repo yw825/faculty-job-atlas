@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1844 - The Hong Kong Polytechnic University (Hong Kong)
 ATS platform: own website
-Careers link: https://jobs.polyu.edu.hk/academic
+Careers link: https://jobs.polyu.edu.hk/academic.php
 
 No bulk info adapter applies to this school -- fetch_detail(url) below
 visits each posting page individually and is THIS SCHOOL'S OWN detail-page
@@ -39,7 +39,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1844
 SCHOOL_NAME = 'The Hong Kong Polytechnic University'
-CAREERS_LINK = 'https://jobs.polyu.edu.hk/academic'
+CAREERS_LINK = 'https://jobs.polyu.edu.hk/academic.php'
 ATS_PLATFORM = 'own website'
 USE_LLM = False  # set True once you have ANTHROPIC_API_KEY configured
 

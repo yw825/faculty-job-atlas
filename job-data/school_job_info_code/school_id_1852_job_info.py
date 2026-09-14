@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1852 - Macao University of Science and Technology (Macau)
 ATS platform: own website
-Careers link: https://careers.must.edu.mo/?locale=en_US
+Careers link: https://careers.must.edu.mo/recruitment-latest?locale=en_US
 
 No bulk info adapter applies to this school -- fetch_detail(url) below
 visits each posting page individually and is THIS SCHOOL'S OWN detail-page
@@ -39,7 +39,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1852
 SCHOOL_NAME = 'Macao University of Science and Technology'
-CAREERS_LINK = 'https://careers.must.edu.mo/?locale=en_US'
+CAREERS_LINK = 'https://careers.must.edu.mo/recruitment-latest?locale=en_US'
 ATS_PLATFORM = 'own website'
 USE_LLM = False  # set True once you have ANTHROPIC_API_KEY configured
 

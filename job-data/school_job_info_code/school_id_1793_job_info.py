@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1793 - University of Wollongong (Australia)
 ATS platform: own website
-Careers link: https://www.uow.edu.au/about/jobs/jobs-available/
+Careers link: https://ejgl.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOW/jobs
 
 No bulk info adapter applies to this school -- fetch_detail(url) below
 visits each posting page individually and is THIS SCHOOL'S OWN detail-page
@@ -39,7 +39,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1793
 SCHOOL_NAME = 'University of Wollongong'
-CAREERS_LINK = 'https://www.uow.edu.au/about/jobs/jobs-available/'
+CAREERS_LINK = 'https://ejgl.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOW/jobs'
 ATS_PLATFORM = 'own website'
 USE_LLM = False  # set True once you have ANTHROPIC_API_KEY configured
 

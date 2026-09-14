@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1707 - University of Bologna (Italy)
 ATS platform: own website
-Careers link: https://www.unibo.it/it/ateneo/lavora-con-noi/docenti-e-ricercatori-1
+Careers link: https://bandi.unibo.it/didattica/incarichi-insegnamento
 
 No bulk info adapter applies to this school -- fetch_detail(url) below
 visits each posting page individually and is THIS SCHOOL'S OWN detail-page
@@ -39,7 +39,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1707
 SCHOOL_NAME = 'University of Bologna'
-CAREERS_LINK = 'https://www.unibo.it/it/ateneo/lavora-con-noi/docenti-e-ricercatori-1'
+CAREERS_LINK = 'https://bandi.unibo.it/didattica/incarichi-insegnamento'
 ATS_PLATFORM = 'own website'
 USE_LLM = False  # set True once you have ANTHROPIC_API_KEY configured
 

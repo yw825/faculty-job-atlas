@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 1780 - University of New England (Australia)
 ATS platform: own website
-Careers link: https://www.une.edu.au/jobs-at-une/current
+Careers link: https://www.une.edu.au/jobs-at-une/current-vacancies
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -30,7 +30,7 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1780
 SCHOOL_NAME = 'University of New England'
-CAREERS_LINK = 'https://www.une.edu.au/jobs-at-une/current'
+CAREERS_LINK = 'https://www.une.edu.au/jobs-at-une/current-vacancies'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
