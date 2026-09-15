@@ -534,7 +534,13 @@
         <div class="check-group">
           <span class="field-label" style="margin-bottom:0;">Availability</span>
           <label class="check-row"><input type="checkbox" id="f-job-available" checked> Available now</label>
-          <label class="check-row"><input type="checkbox" id="f-job-new"> New since last refresh</label>
+          <label class="field-label" for="f-job-new" style="margin:6px 0 0;">First seen</label>
+          <select id="f-job-new">
+            <option value="any" selected>Any time</option>
+            <option value="latest">Found in the latest refresh</option>
+            <option value="7">Last 7 days</option>
+            <option value="30">Last 30 days</option>
+          </select>
           <div class="hint" id="job-date-hint"></div>
         </div>
         <hr class="panel-divider">
@@ -1469,7 +1475,7 @@ clearBtn.addEventListener('click', function(){
     document.querySelectorAll('.f-subject').forEach(el => { el.checked = false; });
     fJobTitle.checked = false;
     fJobAvailable.checked = true;
-    fJobNew.checked = false;
+    fJobNew.value = 'any';
   }
   boundsFilterActive = false;
   liveViewActive = false;
@@ -1594,6 +1600,32 @@ function applyRegion(){
    refinements that say plainly how many postings they can judge.
 ------------------------------------------------------------------- */
 let JOBS = null;            // {schools:{sid:{...}}, postings:[...]}
+/* "First seen" filter. Every posting first seen in the last 30 days carries
+   its date in j.n. The latest refresh is the newest such date; postings
+   bearing the baseline (the first run, which recorded everything at once)
+   are never counted as new. */
+let latestSeenFor = null, latestSeenDate = null;
+function latestRefreshDate(){
+  if(!JOBS) return null;
+  if(latestSeenFor !== JOBS){
+    latestSeenFor = JOBS; latestSeenDate = null;
+    for(const j of JOBS.postings){
+      if(j.n && (!JOBS.baseline || j.n > JOBS.baseline) && (!latestSeenDate || j.n > latestSeenDate)) latestSeenDate = j.n;
+    }
+  }
+  return latestSeenDate;
+}
+function localIsoDaysAgo(days){
+  const d = new Date(); d.setDate(d.getDate() - days);
+  return new Date(d.getTime() - d.getTimezoneOffset() * 60000).toISOString().slice(0,10);
+}
+function labelLatestRefresh(){
+  const opt = document.querySelector('#f-job-new option[value="latest"]');
+  const day = latestRefreshDate();
+  if(!opt || !day) return;
+  const nice = new Date(day + 'T00:00:00').toLocaleDateString('en-US', {month:'short', day:'numeric'});
+  opt.textContent = 'Found in the latest refresh (' + nice + ')';
+}
 var jobsMode = false;
 let jobsLoading = false;
 let jobMarkerIndex = [];    // [{sid, marker, jobs:[...]}] for the current filter
@@ -1654,7 +1686,7 @@ function loadJobs(){
      per session, so re-validating it costs nothing noticeable. */
   return fetch('postings.json', {cache: 'reload'})
     .then(r => { if(!r.ok) throw new Error('HTTP '+r.status); return r.json(); })
-    .then(data => { JOBS = data; jobsLoading = false; return data; })
+    .then(data => { JOBS = data; jobsLoading = false; labelLatestRefresh(); return data; })
     .catch(err => {
       jobsLoading = false;
       countEl.textContent = 'could not load postings';
@@ -1772,7 +1804,10 @@ function jobsMatchingFilters(ignoreSubjects, ignoreRanks){
   const subKey = asiaSelect ? asiaSelect.value : 'all';
   const todayIso = new Date().toISOString().slice(0,10);
   const onlyAvailable = fJobAvailable.checked;
-  const onlyNew = fJobNew.checked;
+  const newMode = fJobNew.value;
+  const newSince = newMode === 'latest' ? (latestRefreshDate() || '9999-12-31')
+                 : (newMode === '7' || newMode === '30') ? localIsoDaysAgo(+newMode)
+                 : null;
   const withTitle = fJobTitle.checked;
   const nameTerm = searchInput.value.trim().toLowerCase();
   const subjects = selectedSubjects();
@@ -1844,12 +1879,11 @@ function jobsMatchingFilters(ignoreSubjects, ignoreRanks){
       if(j.x && j.x < todayIso) return false;
       if(j.b && j.b < todayIso) return false;
     }
-    /* "New" means: first seen by a refresh AFTER the baseline. The baseline
-       is the first run, when every posting was recorded at once -- none of
-       those are new, we just had no record before. j.n is only present for
-       postings first seen in the last 30 days. */
-    if(onlyNew){
-      if(!j.n || !JOBS || !JOBS.baseline || j.n <= JOBS.baseline) return false;
+    /* "First seen": j.n is the date a refresh first saw the posting, present
+       only for the last 30 days. The baseline is the first run, when every
+       posting was recorded at once -- none of those are new. */
+    if(newSince){
+      if(!j.n || !JOBS || !JOBS.baseline || j.n <= JOBS.baseline || j.n < newSince) return false;
     }
     return true;
   });
