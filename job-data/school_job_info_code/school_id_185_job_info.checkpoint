@@ -119,6 +119,11 @@
       "title": "Assistant/Associate Director of Major Gifts",
       "description": "",
       "department": null
+    },
+    "https://trincore-ibvxjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/97": {
+      "title": "Associate Director of Enrollment Experiences",
+      "description": "",
+      "department": null
     }
   },
   "rows": {
@@ -385,11 +390,22 @@
       "area_key_words": "Major Gifts",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://trincore-ibvxjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/97": {
+      "school_id": 185,
+      "posting_url": "https://trincore-ibvxjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/97",
+      "job_title_in_post": "Associate Director of Enrollment Experiences",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Enrollment Experiences",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 185,
   "status": "complete",
-  "updated_at": "2026-09-05T03:03:02+00:00",
-  "completed_at": "2026-09-05T03:03:02+00:00",
+  "updated_at": "2026-09-15T01:31:55+00:00",
+  "completed_at": "2026-09-15T01:31:55+00:00",
   "last_error": ""
 }

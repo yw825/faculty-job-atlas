@@ -64,6 +64,26 @@
       "title": "Assistant Professor of Finance",
       "description": "The Department of Economics (Business Program) at St. Olaf College invites applications for a full-time, tenure track position in Finance at the Assistant Professor level to begin August 2027. ",
       "department": null
+    },
+    "https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/2971": {
+      "title": "Chief Information Officer for Libraries and IT",
+      "description": "",
+      "department": null
+    },
+    "https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/2944": {
+      "title": "Area Coordinator",
+      "description": "",
+      "department": null
+    },
+    "https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/2948": {
+      "title": "Counselor .75 FTE",
+      "description": "",
+      "department": null
+    },
+    "https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/2979": {
+      "title": "Custodian",
+      "description": "",
+      "department": null
     }
   },
   "rows": {
@@ -209,11 +229,55 @@
       "area_key_words": "Finance",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/2971": {
+      "school_id": 686,
+      "posting_url": "https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/2971",
+      "job_title_in_post": "Chief Information Officer for Libraries and IT",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/2944": {
+      "school_id": 686,
+      "posting_url": "https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/2944",
+      "job_title_in_post": "Area Coordinator",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/2948": {
+      "school_id": 686,
+      "posting_url": "https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/2948",
+      "job_title_in_post": "Counselor .75 FTE",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/2979": {
+      "school_id": 686,
+      "posting_url": "https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/2979",
+      "job_title_in_post": "Custodian",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 686,
   "status": "complete",
-  "updated_at": "2026-09-09T06:36:31+00:00",
-  "completed_at": "2026-09-09T06:36:31+00:00",
+  "updated_at": "2026-09-15T03:18:38+00:00",
+  "completed_at": "2026-09-15T03:18:38+00:00",
   "last_error": ""
 }

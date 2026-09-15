@@ -9,6 +9,11 @@
       "title": "Adjunct Lecturer - Interior Design, Pool",
       "description": "The Pittsburg State University School of Construction is accepting applications for a part-time, in-person, temporary Adjunct Lecturer to teach Interior Design, History of Design 1, Detailing and Working Drawings, or Interior Design Studio course for the Fall 2026 semester.",
       "department": null
+    },
+    "https://ebyf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/76": {
+      "title": "Adjunct Lecturer",
+      "description": "The Pittsburg State University School of History, Philosophy, and Social Sciences is accepting applications for a part-time, in-person, temporary Adjunct Lecturer to teach for the Fall/Spring semester with a specific need in Social Work.",
+      "department": null
     }
   },
   "rows": {
@@ -30,6 +35,17 @@
       "position_type": "Lecturer",
       "job_term": "Part-time",
       "department_or_school": "",
+      "area_key_words": "Pool; Interior Design",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://ebyf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/76": {
+      "school_id": 475,
+      "posting_url": "https://ebyf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/76",
+      "job_title_in_post": "Adjunct Lecturer",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
@@ -37,7 +53,7 @@
   },
   "school_id": 475,
   "status": "complete",
-  "updated_at": "2026-09-05T03:54:54+00:00",
-  "completed_at": "2026-09-05T03:54:54+00:00",
+  "updated_at": "2026-09-15T02:22:05+00:00",
+  "completed_at": "2026-09-15T02:22:05+00:00",
   "last_error": ""
 }

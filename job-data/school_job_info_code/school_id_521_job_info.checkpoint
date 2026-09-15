@@ -449,6 +449,46 @@
       "title": "Visiting Assistant Professor",
       "description": "The Department of Classical Studies at Tulane University has been approved to make a one-year, non-tenure-track appointment at the rank of visiting assistant professor (VAP). The appointment will begin July 1, 2026, and is renewable with successful performance and contingent on funding. We are seeking a broadly trained Hellenist.",
       "department": null
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/1919": {
+      "title": "Postdoctoral Fellow - Computer Science (Ming)",
+      "description": "Postdoctoral Fellow - Computer Science - The postdoctoral researcher will work with Dr. Jiang Ming’s group on a language-based security research program that supports the transition from legacy C/C++ software to memory-safe Rust. ",
+      "department": null
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/1093": {
+      "title": "Postdoctoral Fellow",
+      "description": "The Center for Inter-American Policy and Research (CIPR) invites applications for five (5) research fellowships for the Academic Year of 2027-2028, some with program administration duties and others with light teaching. Applications from the social sciences in the fields of international relations, international political economy, comparative politics, political sociology, and policy studies are preferred. Latin American expertise and Spanish or Portuguese fluency required. Fellows will be selected based on intellectual merit, experience, the potential impact of their planned research for CIPR programs, and teaching needs of the host department.",
+      "department": null
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/1869": {
+      "title": "Postdoctoral Fellow",
+      "description": "Postdoctoral Fellow in Community Flood Risk Reduction - This Postdoctoral Fellow will work primarily with Dr. Simone Domingue, Research Assistant Professor. Her lab conducts actionable and equity-oriented research for Gulf Coast communities experiencing disruption from environmental change and climate-related disasters.",
+      "department": null
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/1829": {
+      "title": "Postdoctoral Fellow",
+      "description": "The Physics and Engineering Physics Department at Tulane University and the Quantum and Condensed Matter Physics Group in the Theoretical Division of Los Alamos National Laboratory (LANL) have an immediate opening of a postdoctoral position in the area of computational materials physics. The postdoc will focus on applying first-principles density functional/time-dependent density functional theory (DFT, TDDFT) and high-throughput approaches in combination with machine learning techniques for discovery and inverse design of novel 2D d-electron materials, including those with non-trivial topological properties. The work will be a combination of development and implementation of TDDFT models for magnonic excitations, development of computational workflows, and applying existing DFT codes.  ",
+      "department": null
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/1853": {
+      "title": "Assistant Professor Transplant Infectious Diseases",
+      "description": "",
+      "department": null
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/1857": {
+      "title": "Assistant or Associate Professor of Medicine- Rheumatology",
+      "description": "Short Position Description",
+      "department": null
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/1874": {
+      "title": "Assistant Professor",
+      "description": "Tulane University School of Medicine’s Department of Surgery, Division Oncological Surgery is currently seeking a highly qualified board certified/board eligible candidate for a Colorectal clinical faculty position at one of its affiliated programs at the Assistant Professor rank.",
+      "department": null
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/1881": {
+      "title": "Postdoctoral Fellow",
+      "description": "The Tulane Global Humanities Center (TGHC) at Tulane University invites applications for an Editorial Humanities postdoctoral fellow. \n\nThis position is designed for postdoctoral candidates who are interested in pursuing careers in academic publishing, editorial work, and/or public humanities, or exploring career options while developing professional skills. The primary expectation is to provide operational support for the work of Public Culture, an eminent scholarly journal in the humanities and humanistic social sciences, whose editorial sponsorship (i.e., editorial home) has recently moved to Tulane’s TGHC. This will involve the reading and evaluation of unsolicited manuscripts and, working with the journal’s Editor-in-Chief, Managing Editor, and Senior Editorial Board, the shepherding of articles and other materials through the editorial and publication process. \n\n\n",
+      "department": null
     }
   },
   "rows": {
@@ -1372,7 +1412,7 @@
       "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "",
+      "area_key_words": "Nursing",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1441,11 +1481,99 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": "July 1, 2026"
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/1919": {
+      "school_id": 521,
+      "posting_url": "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/1919",
+      "job_title_in_post": "Postdoctoral Fellow - Computer Science (Ming)",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/1093": {
+      "school_id": 521,
+      "posting_url": "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/1093",
+      "job_title_in_post": "Postdoctoral Fellow",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/1869": {
+      "school_id": 521,
+      "posting_url": "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/1869",
+      "job_title_in_post": "Postdoctoral Fellow",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/1829": {
+      "school_id": 521,
+      "posting_url": "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/1829",
+      "job_title_in_post": "Postdoctoral Fellow",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "Division of Los Alamos National Laboratory",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/1853": {
+      "school_id": 521,
+      "posting_url": "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/1853",
+      "job_title_in_post": "Assistant Professor Transplant Infectious Diseases",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/1857": {
+      "school_id": 521,
+      "posting_url": "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/1857",
+      "job_title_in_post": "Assistant or Associate Professor of Medicine- Rheumatology",
+      "position_type": "Assistant_Professor; Associate_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Medicine- Rheumatology",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/1874": {
+      "school_id": 521,
+      "posting_url": "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/1874",
+      "job_title_in_post": "Assistant Professor",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/1881": {
+      "school_id": 521,
+      "posting_url": "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/1881",
+      "job_title_in_post": "Postdoctoral Fellow",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 521,
   "status": "complete",
-  "updated_at": "2026-09-09T06:36:20+00:00",
-  "completed_at": "2026-09-09T06:36:20+00:00",
+  "updated_at": "2026-09-15T02:39:58+00:00",
+  "completed_at": "2026-09-15T02:39:58+00:00",
   "last_error": ""
 }

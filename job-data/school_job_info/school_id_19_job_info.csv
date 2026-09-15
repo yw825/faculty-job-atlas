@@ -1,5 +1,5 @@
 school_id,posting_url,job_title_in_post,position_type,job_term,department_or_school,area_key_words,deadline_of_application,position_start_date
-19,https://jobs.montevallo.edu/postings/10310,"Clinical Instructor, Speech-Language Pathology (Full Time)",Unclassified,Full-time,,Speech-Language Pathology graduate students,,03/20/2026
+19,https://jobs.montevallo.edu/postings/10310,"Clinical Instructor, Speech-Language Pathology (Full Time)",Unclassified,Full-time,,Speech-Language Pathology,,03/20/2026
 19,https://jobs.montevallo.edu/pools/10496,Vitae Bank 2026-2027 College of Education and Human Development (Pool),Unclassified,Part-time,College of Education and Human Development,Education and Human Development,,
 19,https://jobs.montevallo.edu/postings/10524,"Student Office Assistant, Counseling Services",Unclassified,Part-time,,,,08/20/2026
 19,https://jobs.montevallo.edu/pools/7975,Search Jobs (Postings),Unclassified,Full-time,,,,
@@ -82,7 +82,7 @@ school_id,posting_url,job_title_in_post,position_type,job_term,department_or_sch
 19,https://jobs.montevallo.edu/postings/10441,Tutoring Coordinator,Non-academic,Full-time,,,,
 19,https://jobs.montevallo.edu/postings/10171,Graduate Assistant I,Unclassified,Part-time,,,,01/05/2026
 19,https://jobs.montevallo.edu/pools/10488,Vitae Bank 2026-2027 College of Health Professions (Pool),Unclassified,Part-time,College of Health Professions,Health Professions,,
-19,https://jobs.montevallo.edu/postings/10507,"Open Rank, Instructor (Tenure or Non-tenure Track), Nursing",Assistant_Professor; Associate_Professor; Full_Professor,Full-time,,,,01/04/2027
+19,https://jobs.montevallo.edu/postings/10507,"Open Rank, Instructor (Tenure or Non-tenure Track), Nursing",Assistant_Professor; Associate_Professor; Full_Professor,Full-time,,Nursing,,01/04/2027
 19,https://jobs.montevallo.edu/postings/10056,Graduate Assistant I,Unclassified,Part-time,,,,08/20/2025
 19,https://jobs.montevallo.edu/pools/7967,Search Jobs (Postings),Unclassified,Full-time,,,,
 19,https://jobs.montevallo.edu/postings/10444,Graduate Assistant I,Unclassified,Part-time,,,,08/19/2026
@@ -92,3 +92,8 @@ school_id,posting_url,job_title_in_post,position_type,job_term,department_or_sch
 19,https://jobs.montevallo.edu/postings/10447,Administrative Assistant III,Unclassified,Full-time,College of Health Professions marketing and communication efforts,,,
 19,https://jobs.montevallo.edu/postings/10061,"Student Office Assistant, Teaching Leadership and Technology",Unclassified,Part-time,,Technology Department Teaching Leadership,,08/12/2025
 19,https://jobs.montevallo.edu/pools/7971,Search Jobs (Postings),Unclassified,Full-time,,,,
+19,https://jobs.montevallo.edu/postings/10531,"Coordinator, Educational Technology",Non-academic,Full-time,,,,
+19,https://jobs.montevallo.edu/postings/10526,"Assistant Professor, Counseling (Tenure-Track)",Assistant_Professor,Full-time,,Counseling; counselor education; CACREP,,01/04/2027
+19,https://jobs.montevallo.edu/postings/10529,Assistant Director of Media Relations,Unclassified,Full-time,,Media Relations,,
+19,https://jobs.montevallo.edu/postings/10525,"Open-Rank, Tenure-Track Faculty in Counseling",Assistant_Professor; Associate_Professor; Full_Professor,Full-time,,Counseling; Wellness Clinic,,01/04/2027
+19,https://jobs.montevallo.edu/postings/10528,"Assistant Supervisor, Custodial Services",Unclassified,Full-time,,,,

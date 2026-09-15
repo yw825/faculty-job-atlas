@@ -124,6 +124,11 @@
       "title": "PT Group Fitness Instructor, Fitness",
       "description": "Group Fitness Instructors strive to live out the vision, mission and core values of the Office of  Recreation & Wellness through fun and interactive and encouraging group experience that can  improve over all health, fitness and well-being.  This is a position in which the Group Fitness  Instructor is expected to lead a group of participants through group fitness classes. The GFI  creatively designs classes that are safe for participants including proper use of equipment and  movement. Administrative duties include timely communication with the supervisor and participants, keeping participant counts and maintaining knowledge of current industry  standards. ",
       "department": null
+    },
+    "https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2170": {
+      "title": "Booking Coordinator & Event Operations Assistant, Athletics (Part-Time)",
+      "description": "This position reports primarily to the Associate Athletic Director – Capital Projects & Event Management, with secondary reporting lines to the Assistant Athletic Director for Events & Facilities and the Assistant Director of Internal Operations. The role is designed to support the generation of revenue by maximizing external athletic facility rentals while also supporting the management of ancillary events in athletic facilities (including Hinkle Fieldhouse) for sporting events and external events.",
+      "department": null
     }
   },
   "rows": {
@@ -145,7 +150,7 @@
       "position_type": "Unclassified",
       "job_term": "Part-time",
       "department_or_school": "",
-      "area_key_words": "",
+      "area_key_words": "Butler Athletics",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -167,7 +172,7 @@
       "position_type": "Assistant_Professor; Associate_Professor",
       "job_term": "Full-time",
       "department_or_school": "College of Education and Human Development",
-      "area_key_words": "School Counseling specialization on a",
+      "area_key_words": "Counselor Education; School Counseling specialization on a",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -178,7 +183,7 @@
       "position_type": "Lecturer",
       "job_term": "Full-time",
       "department_or_school": "College of Education and Human Development",
-      "area_key_words": "School Counseling specialization on a",
+      "area_key_words": "Counselor Education; School Counseling specialization on a",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -189,7 +194,7 @@
       "position_type": "Assistant_Professor",
       "job_term": "Full-time",
       "department_or_school": "Department of Mathematical Sciences",
-      "area_key_words": "Statistics",
+      "area_key_words": "Mathematical Sciences; Statistics",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -233,7 +238,7 @@
       "position_type": "Assistant_Professor",
       "job_term": "Full-time",
       "department_or_school": "Department of Engineering in the College of Liberal Arts and Sciences",
-      "area_key_words": "",
+      "area_key_words": "Engineering",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -244,7 +249,7 @@
       "position_type": "Assistant_Professor",
       "job_term": "Full-time",
       "department_or_school": "Department of Psychology",
-      "area_key_words": "",
+      "area_key_words": "Psychology",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -255,7 +260,7 @@
       "position_type": "Assistant_Professor",
       "job_term": "Full-time",
       "department_or_school": "Department of Psychology",
-      "area_key_words": "",
+      "area_key_words": "Psychology",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -266,7 +271,7 @@
       "position_type": "Assistant_Professor",
       "job_term": "Full-time",
       "department_or_school": "College of Liberal Arts and Sciences",
-      "area_key_words": "",
+      "area_key_words": "Neuroscience",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -277,7 +282,7 @@
       "position_type": "Assistant_Professor",
       "job_term": "Full-time",
       "department_or_school": "Department of Biological Sciences",
-      "area_key_words": "Curriculum courses",
+      "area_key_words": "Biology; Curriculum courses",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -401,11 +406,22 @@
       "area_key_words": "PT Group Fitness",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2170": {
+      "school_id": 431,
+      "posting_url": "https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2170",
+      "job_title_in_post": "Booking Coordinator & Event Operations Assistant, Athletics (Part-Time)",
+      "position_type": "Non-academic",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 431,
   "status": "complete",
-  "updated_at": "2026-09-09T06:36:04+00:00",
-  "completed_at": "2026-09-09T06:36:04+00:00",
+  "updated_at": "2026-09-15T02:15:35+00:00",
+  "completed_at": "2026-09-15T02:15:35+00:00",
   "last_error": ""
 }

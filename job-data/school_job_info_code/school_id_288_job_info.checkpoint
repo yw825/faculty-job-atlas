@@ -364,6 +364,16 @@
       "title": "Part-Time Continuing and Professional Education Instructors/Learning Facilitators",
       "description": "Posted: 03/10/2025 Location: Columbus State University Department: Continuing & Professional Educ Part-Time Continuing and Professional Education Instructors/Learning Facilitators",
       "department": "Continuing & Professional Educ"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303770&PostingSeq=1&SiteId=30000": {
+      "title": "Work Study Student - Athletics",
+      "description": "Posted: 09/14/2026 Location: Columbus State University Department: College Workstudy Pgm-Fed Work Study Student - Athletics",
+      "department": "College Workstudy Pgm-Fed"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303740&PostingSeq=1&SiteId=30000": {
+      "title": "Student Applied Research Fellow",
+      "description": "Posted: 09/11/2026 Location: Columbus State University Department: Business Academic Programs Student Applied Research Fellow",
+      "department": "Business Academic Programs"
     }
   },
   "rows": {
@@ -825,7 +835,7 @@
       "position_type": "Unclassified",
       "job_term": "Part-time",
       "department_or_school": "School of Nursing",
-      "area_key_words": "",
+      "area_key_words": "Nursing",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -924,7 +934,7 @@
       "position_type": "Unclassified",
       "job_term": "Part-time",
       "department_or_school": "Dept Kinesiology & Health Sci",
-      "area_key_words": "",
+      "area_key_words": "Physical Activity & Wellness Program",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -935,7 +945,7 @@
       "position_type": "Unclassified",
       "job_term": "Part-time",
       "department_or_school": "School of Nursing",
-      "area_key_words": "",
+      "area_key_words": "Nursing",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1169,11 +1179,33 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303770&PostingSeq=1&SiteId=30000": {
+      "school_id": 288,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303770&PostingSeq=1&SiteId=30000",
+      "job_title_in_post": "Work Study Student - Athletics",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "College Workstudy Pgm-Fed",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303740&PostingSeq=1&SiteId=30000": {
+      "school_id": 288,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303740&PostingSeq=1&SiteId=30000",
+      "job_title_in_post": "Student Applied Research Fellow",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "Business Academic Programs",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 288,
   "status": "complete",
-  "updated_at": "2026-09-09T05:20:49+00:00",
-  "completed_at": "2026-09-09T05:20:49+00:00",
+  "updated_at": "2026-09-15T01:56:42+00:00",
+  "completed_at": "2026-09-15T01:56:42+00:00",
   "last_error": ""
 }

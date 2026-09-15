@@ -15,6 +15,10 @@
     "https://academicjobs.uchicago.edu/": {
       "title": "Academic Jobs",
       "description": "Academic Jobs | The University of Chicago The University of Chicago Academic Jobs The University of Chicago Academic Jobs University of Chicago Edward H. Levi Hall 5801 South Ellis Avenue Chicago, IL 60637 Office of the Provost Human Resources Job Board Feedback © The University of Chicago"
+    },
+    "https://arcs.uchicago.edu/rpt-policies-processes/": {
+      "title": "Review, Promotion and Tenure Module: Policies and Guides*",
+      "description": "Review Promotion and Tenure Module: Policies & Guides | Academic Recruitment and Careers System (ARCS) Log In to ARCS Home About Institutional Partners Modules FAQs Academic Recruitment Academic Career Activities Review, Promotion and Tenure Training Policies & Processes Academic Recruitment Module: Policies & Guides Review Promotion and Tenure Module: Policies & Guides Academic Job Board Contact Us Select Page Review, Promotion and Tenure Module: Policies and Guides * Have a policy or process related question? Please contact us . Download Review, Promotion and Tenure Administrator's Guide More content will be added to this section as resources are developed. © 2017 The University of Chicago All rights reserved Log In to ARCS"
     }
   },
   "rows": {
@@ -61,11 +65,22 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://arcs.uchicago.edu/rpt-policies-processes/": {
+      "school_id": 382,
+      "posting_url": "https://arcs.uchicago.edu/rpt-policies-processes/",
+      "job_title_in_post": "Review, Promotion and Tenure Module: Policies and Guides*",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 382,
   "status": "complete",
-  "updated_at": "2026-09-05T03:35:08+00:00",
-  "completed_at": "2026-09-05T03:35:08+00:00",
+  "updated_at": "2026-09-15T02:12:16+00:00",
+  "completed_at": "2026-09-15T02:12:16+00:00",
   "last_error": ""
 }

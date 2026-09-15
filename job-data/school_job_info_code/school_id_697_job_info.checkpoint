@@ -79,6 +79,10 @@
     "https://staffemployment-stthomas.icims.com/jobs/9604/assistant-director%2c-athletic-events-%26-operations-%28arena%29/job": {
       "title": "University Of St. Thomas (MN)",
       "description": "University Of St. Thomas (MN)"
+    },
+    "https://staffemployment-stthomas.icims.com/jobs/9651/prep-cook-food-service-worker---evening-shift/job": {
+      "title": "Prep Cook/Food Service Worker",
+      "description": "Prep Cook/Food Service Worker - Evening Shift in St. Paul, Minnesota | Careers at St. Paul Skip Branding"
     }
   },
   "rows": {
@@ -301,11 +305,22 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://staffemployment-stthomas.icims.com/jobs/9651/prep-cook-food-service-worker---evening-shift/job": {
+      "school_id": 697,
+      "posting_url": "https://staffemployment-stthomas.icims.com/jobs/9651/prep-cook-food-service-worker---evening-shift/job",
+      "job_title_in_post": "Prep Cook/Food Service Worker",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 697,
   "status": "complete",
-  "updated_at": "2026-09-05T05:17:02+00:00",
-  "completed_at": "2026-09-05T05:17:02+00:00",
+  "updated_at": "2026-09-15T03:23:48+00:00",
+  "completed_at": "2026-09-15T03:23:48+00:00",
   "last_error": ""
 }

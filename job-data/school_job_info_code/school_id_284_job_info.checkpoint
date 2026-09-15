@@ -279,6 +279,16 @@
       "title": "Part Time Faculty, Sports Management",
       "description": "Posted: 03/23/2022 Location: CCGA- Main Campus (Brunswick) Department: Business Admin & Health Inform Part Time Faculty, Sports Management",
       "department": "Business Admin & Health Inform"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302112&PostingSeq=1&SiteId=63000": {
+      "title": "Student Assistant-Groundskeeper",
+      "description": "Posted: 09/11/2026 Location: CCGA- Main Campus (Brunswick) Department: Grounds Student Assistant-Groundskeeper",
+      "department": "Grounds"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303184&PostingSeq=1&SiteId=63000": {
+      "title": "Student Assistant-Campus Safety",
+      "description": "Posted: 09/10/2026 Location: CCGA- Main Campus (Brunswick) Department: Campus Safety Student Assistant-Campus Safety",
+      "department": "Campus Safety"
     }
   },
   "rows": {
@@ -300,7 +310,7 @@
       "position_type": "Unclassified",
       "job_term": "Part-time",
       "department_or_school": "Business Admin & Health Inform",
-      "area_key_words": "",
+      "area_key_words": "Business",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -575,7 +585,7 @@
       "position_type": "Unclassified",
       "job_term": "Part-time",
       "department_or_school": "CJ & PP",
-      "area_key_words": "",
+      "area_key_words": "Public Administration",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -839,7 +849,7 @@
       "position_type": "Unclassified",
       "job_term": "Part-time",
       "department_or_school": "School of Bus & Pub Aff",
-      "area_key_words": "",
+      "area_key_words": "Cyber Security and Information Technology",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -883,7 +893,7 @@
       "position_type": "Unclassified",
       "job_term": "Part-time",
       "department_or_school": "Business Admin & Health Inform",
-      "area_key_words": "",
+      "area_key_words": "Information Technology",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -894,6 +904,28 @@
       "position_type": "Unclassified",
       "job_term": "Part-time",
       "department_or_school": "Business Admin & Health Inform",
+      "area_key_words": "Sports Management",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302112&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302112&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Student Assistant-Groundskeeper",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Grounds",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303184&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303184&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Student Assistant-Campus Safety",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Campus Safety",
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
@@ -901,7 +933,7 @@
   },
   "school_id": 284,
   "status": "complete",
-  "updated_at": "2026-09-09T05:20:07+00:00",
-  "completed_at": "2026-09-09T05:20:07+00:00",
+  "updated_at": "2026-09-15T01:56:00+00:00",
+  "completed_at": "2026-09-15T01:56:00+00:00",
   "last_error": ""
 }

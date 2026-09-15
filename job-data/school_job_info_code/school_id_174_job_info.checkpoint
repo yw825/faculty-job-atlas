@@ -367,6 +367,22 @@
     "https://unco.csod.com/ux/ats/careersite/1/requisition/655": {
       "title": "Welcome",
       "description": "Welcome - Realize Your Potential: Cornerstone What happened? The Custom login page that you requested is temporarily down for maintenance. What to do? You will be redirected in 10 seconds to a standard login page to access your portal. If you are not automatically redirected, click here ."
+    },
+    "https://unco.csod.com/ux/ats/careersite/1/requisition/1091": {
+      "title": "Welcome - Realize Your Potential: Cornerstone",
+      "description": "Welcome - Realize Your Potential: Cornerstone What happened? The Custom login page that you requested is temporarily down for maintenance. What to do? You will be redirected in 10 seconds to a standard login page to access your portal. If you are not automatically redirected, click here ."
+    },
+    "https://unco.csod.com/ux/ats/careersite/1/requisition/1088": {
+      "title": "Welcome - Realize Your Potential: Cornerstone",
+      "description": "Welcome - Realize Your Potential: Cornerstone What happened? The Custom login page that you requested is temporarily down for maintenance. What to do? You will be redirected in 10 seconds to a standard login page to access your portal. If you are not automatically redirected, click here ."
+    },
+    "https://unco.csod.com/ux/ats/careersite/1/requisition/1087": {
+      "title": "Welcome - Realize Your Potential: Cornerstone",
+      "description": "Welcome - Realize Your Potential: Cornerstone What happened? The Custom login page that you requested is temporarily down for maintenance. What to do? You will be redirected in 10 seconds to a standard login page to access your portal. If you are not automatically redirected, click here ."
+    },
+    "https://unco.csod.com/ux/ats/careersite/1/requisition/1086": {
+      "title": "Welcome - Realize Your Potential: Cornerstone",
+      "description": "Welcome - Realize Your Potential: Cornerstone What happened? The Custom login page that you requested is temporarily down for maintenance. What to do? You will be redirected in 10 seconds to a standard login page to access your portal. If you are not automatically redirected, click here ."
     }
   },
   "rows": {
@@ -1381,11 +1397,55 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://unco.csod.com/ux/ats/careersite/1/requisition/1091": {
+      "school_id": 174,
+      "posting_url": "https://unco.csod.com/ux/ats/careersite/1/requisition/1091",
+      "job_title_in_post": "Welcome - Realize Your Potential: Cornerstone",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://unco.csod.com/ux/ats/careersite/1/requisition/1088": {
+      "school_id": 174,
+      "posting_url": "https://unco.csod.com/ux/ats/careersite/1/requisition/1088",
+      "job_title_in_post": "Welcome - Realize Your Potential: Cornerstone",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://unco.csod.com/ux/ats/careersite/1/requisition/1087": {
+      "school_id": 174,
+      "posting_url": "https://unco.csod.com/ux/ats/careersite/1/requisition/1087",
+      "job_title_in_post": "Welcome - Realize Your Potential: Cornerstone",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://unco.csod.com/ux/ats/careersite/1/requisition/1086": {
+      "school_id": 174,
+      "posting_url": "https://unco.csod.com/ux/ats/careersite/1/requisition/1086",
+      "job_title_in_post": "Welcome - Realize Your Potential: Cornerstone",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 174,
   "status": "complete",
-  "updated_at": "2026-09-09T18:22:06+00:00",
-  "completed_at": "2026-09-09T18:22:06+00:00",
+  "updated_at": "2026-09-15T01:30:32+00:00",
+  "completed_at": "2026-09-15T01:30:32+00:00",
   "last_error": ""
 }

@@ -111,7 +111,7 @@
       "position_type": "Lecturer",
       "job_term": "Part-time",
       "department_or_school": "School of Nursing and Health Sciences",
-      "area_key_words": "REQUIREMENTS Prelicensure",
+      "area_key_words": "School of Nursing and Health Sciences; REQUIREMENTS Prelicensure",
       "deadline_of_application": "",
       "position_start_date": "January 1, 2022"
     },
@@ -122,7 +122,7 @@
       "position_type": "Lecturer",
       "job_term": "Part-time",
       "department_or_school": "department for Jewish Studies",
-      "area_key_words": "Jewish studies courses",
+      "area_key_words": "History and Politics department for Jewish Studies; Jewish studies courses",
       "deadline_of_application": "",
       "position_start_date": "January 1, 2022"
     },
@@ -133,14 +133,14 @@
       "position_type": "Lecturer",
       "job_term": "Part-time",
       "department_or_school": "School of Business",
-      "area_key_words": "",
+      "area_key_words": "School of Business",
       "deadline_of_application": "April 08, 2026",
       "position_start_date": "January 1, 2022"
     }
   },
   "school_id": 123,
   "status": "complete",
-  "updated_at": "2026-09-05T02:36:43+00:00",
-  "completed_at": "2026-09-05T02:36:43+00:00",
+  "updated_at": "2026-09-15T01:18:27+00:00",
+  "completed_at": "2026-09-15T01:18:27+00:00",
   "last_error": ""
 }

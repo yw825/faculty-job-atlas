@@ -111,6 +111,14 @@
     "https://a.cms.omniupdate.com/11/?skin=oucampus&account=south_alabama&site=www&action=de&path=/departments/academicaffairs/facultyposition.pcf": {
       "title": "Modern Campus CMS",
       "description": "Log In - Modern Campus CMS Modern Campus CMS Logo Modern Campus CMS Help Support Community Feedback Log in to your account Username LOGIN Reset Password Change Password Please enter a new password for user in account . New Password Reset Cancel System Announcements We're sorry; the system could not log you in. The authentication server returned the following error message: Reset Password Password reset instructions will be emailed to the address entered below. Username SUBMIT Back to Login Page Reset Password Your request was successfull. You will receive an email containing a link to reset your password. Back to Login Page Javascript Disabled Modern Campus CMS requires Javascript. Please enable Javascript in your browser settings."
+    },
+    "https://www.southalabama.edu/departments/academicaffairs/resources/academicaffairspostings/7458-ot-adwithrevisions-appr.pdf": {
+      "title": "FACULTY POSITION",
+      "description": "UNIVERSITY OF SOUTH ALABAMA \nDEPARTMENT OF OCCUPATIONAL THERAPY \nFACULTY POSITION \nThe University of South Alabama (USA) invites nominations and applications for an Assistant Professor or \nAssistant Professor of Instruction in the Department of Occupational Therapy. This position is a twelve-\nmonth position and may be appointed as either non-tenure track or tenure track, depending on the \ncandidate’s qualiﬁcations. USA is a doctoral/research-intensive institution oﬀering a variety of \nundergraduate and graduate programs. USA is located in the historic southern city of Mobile on \nbeautiful Mobile Bay close to the Gulf Coast beaches and a short drive to New Orleans.  This innovative \nOccupational Therapy Doctorate program (OTD) is organized around occupational performance areas \nand has an outstanding reputation.   \nQualiﬁcations: Applicants must have an earned doctorate in Occupational Therapy or related ﬁeld \n(advanced OTD, PhD, EdD, etc.) and hold an OT license from the Alabama State Board of Occupational \nTherapy. Candidates without a current Alabama State license must be eligible for State licensure. Recent \nclinical OT experience with adult populations with concentration with geriatric clients is preferred, \nhowever, other relevant clinical experience will also be considered. Previous teaching experience and a \nrecord of scholarly productivity are highly valued. This position is a twelve-month faculty position with \nexpectations for scholarly productivity. Candidates seeking the Assistant Professor position on the tenure \ntrack should hold a Ph.D. and must also demonstrate a record of scholarly achievement within the \nprofession.   Candidates seeking a non-tenure track appointment (e.g. Assistant Professor or Assistant \nProfessor of Instruction) need to have the above listed credentials. \nTeam-oriented applicants are highly desired.  Successful candidates will be prepared to teach courses in \nthe areas of geriatrics, adults, low vision, as well as general OT assessments and intervention topics. This \nfaculty position includes advising OTD students, directing/mentoring doctoral capstone students, \ncontributing to scholarship in the profession, and providing service to the profession and institution. \nCandidates should possess excellent interpersonal, organizational, and problem-solving skills. Salary is \ncompetitive and dependent on qualiﬁcations and experience. \nApplying \nReview of applications will begin immediately and continue until ﬁlled. Please apply by submitting \na letter of interest and a curriculum vitae to Dr. Casey Brock, Search Committee Chair, University of South \nAlabama, HAHN 2027, 5721 USA Dr. North, Mobile, AL 36688.  Email to cwbrock@southalabama.edu  or \nphone 251-445-9222. \n \nThe University of South Alabama is an Equal Opportunity Employer and does not discriminate on \nthe basis of race, color, national origin, sex, pregnancy, sexual orientation, gender identity, gender \nexpression, religion, age, genetic information, disability, protected veteran status or any other \napplicable legally protected basis. "
+    },
+    "https://www.southalabama.edu/departments/academicaffairs/resources/academicaffairspostings/3325-asstprof-math-081527.pdf": {
+      "title": "Tenure-Track Position Mathematics",
+      "description": " \nTenure-Track Position Mathematics  \n \nThe Department of Mathematics and Statistics at the University of South Alabama invites   \napplications for a full-time (9 month), tenure-track position at the rank of assistant professor \nin mathematics, starting August 15, 2027.  Applicants should possess an earned doctoral degree \nin mathematics or a closely related field. Applicants should have a strong commitment to both \nresearch and teaching.  Research faculty members typically receive a reassigned course load of \nthree classes in the fall and two classes in the spring semesters to help facilitate their on-going \npeer-reviewed research. \n \nReview of applications will begin on November 6, 2026, and continue until the position is \nfilled. \n \nApplications should be submitted online at www.mathjobs.org, and should include a cover \nletter, curriculum vitae, research statement, teaching statement, and three signed letters of \nrecommendation (at least one of which should specifically address teaching). We cannot \naccept applications submitted directly to department faculty. \n \nApplicants invited for a campus interview must also arrange to have all official graduate and \nundergraduate transcripts sent directly by the Registrars of all colleges and universities attended to \nDr. Mark Colarusso either electronically at mcolarusso@southalabama.edu or by mail at the \nfollowing address:  \n  \nDepartment of Mathematics and Statistics  \nUniversity of South Alabama  \n411 University Blvd N \nMobile, Alabama 36688-0002 \n \nFurther information is available at: \nhttps://www.southalabama.edu/colleges/artsandsci/mathstat/ \n \nThe University of South Alabama is an Equal Opportunity Employer and does not discriminate on \nthe basis of race, color, national origin, sex, pregnancy, sexual orientation, gender identity, gender \nexpression, religion, age, genetic information, disability, protected veteran status or any other \napplicable legally protected basis. \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n "
     }
   },
   "rows": {
@@ -352,7 +360,7 @@
       "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "College of Education and Professional Studies",
-      "area_key_words": "UTeach courses",
+      "area_key_words": "UTEACH SOUTH PROGRAM; UTeach courses",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -421,11 +429,33 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://www.southalabama.edu/departments/academicaffairs/resources/academicaffairspostings/7458-ot-adwithrevisions-appr.pdf": {
+      "school_id": 18,
+      "posting_url": "https://www.southalabama.edu/departments/academicaffairs/resources/academicaffairspostings/7458-ot-adwithrevisions-appr.pdf",
+      "job_title_in_post": "FACULTY POSITION",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "DEPARTMENT OF OCCUPATIONAL THERAPY",
+      "area_key_words": "intervention topics",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://www.southalabama.edu/departments/academicaffairs/resources/academicaffairspostings/3325-asstprof-math-081527.pdf": {
+      "school_id": 18,
+      "posting_url": "https://www.southalabama.edu/departments/academicaffairs/resources/academicaffairspostings/3325-asstprof-math-081527.pdf",
+      "job_title_in_post": "Tenure-Track Position Mathematics",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Department of Mathematics and Statistics",
+      "area_key_words": "",
+      "deadline_of_application": "November 6, 2026",
+      "position_start_date": ""
     }
   },
   "school_id": 18,
   "status": "complete",
-  "updated_at": "2026-09-09T16:10:28+00:00",
-  "completed_at": "2026-09-09T16:10:28+00:00",
+  "updated_at": "2026-09-15T00:46:50+00:00",
+  "completed_at": "2026-09-15T00:46:50+00:00",
   "last_error": ""
 }
