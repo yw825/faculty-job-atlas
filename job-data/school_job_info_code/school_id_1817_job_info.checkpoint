@@ -29,6 +29,11 @@
       "title": "Teacher Early Childhood",
       "description": "VU TAFE is seeking a motivated and industry-experienced Teacher - Early Childhood to join the Early Childhood and Community Services Department.",
       "department": null
+    },
+    "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18440": {
+      "title": "Safer Community Advisor (TAFE)",
+      "description": "Working within the Safer Community function, the Safer Community Advisor supports early intervention, coordinated case management and continuous improvement across TAFE student safety and support pathways.",
+      "department": null
     }
   },
   "rows": {
@@ -39,7 +44,7 @@
       "position_type": "Non-academic",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "clinical placements; placements administrator; administrator clinical",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -50,7 +55,7 @@
       "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "College of Trades, Hospitality and Technology",
-      "area_key_words": "building; advanced; diploma",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -61,7 +66,7 @@
       "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "electrotechnology; sessional; industry-current",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -72,7 +77,7 @@
       "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "tafe sessional tae; tae tafe; training",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -83,7 +88,7 @@
       "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "international; tafe strategy; lead",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -94,14 +99,25 @@
       "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "early childhood; teacher early; industry-experienced teacher",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18440": {
+      "school_id": 1817,
+      "posting_url": "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18440",
+      "job_title_in_post": "Safer Community Advisor (TAFE)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     }
   },
   "school_id": 1817,
   "status": "complete",
-  "updated_at": "2026-09-03T15:28:57+00:00",
-  "completed_at": "2026-09-03T15:28:57+00:00",
+  "updated_at": "2026-09-14T22:46:13+00:00",
+  "completed_at": "2026-09-14T22:46:13+00:00",
   "last_error": ""
 }

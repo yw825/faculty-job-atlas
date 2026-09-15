@@ -9,6 +9,11 @@
       "title": "Sports Information Coordinator \"VI\" (2026-13-32)",
       "description": "CUPE 1393\nSports Information Coordinator \"VI\" in the Department of Athletics & Recreational Services",
       "department": null
+    },
+    "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4123": {
+      "title": "Maintenance Manager (2026-MP-18)",
+      "description": "Managerial & Professional - Maintenance Manager, Facility Services (2026-MP-18)",
+      "department": null
     }
   },
   "rows": {
@@ -19,7 +24,7 @@
       "position_type": "Assistant_Professor",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "Political Science; assistant professor; political; two-year",
+      "area_key_words": "Political Science",
       "deadline_of_application": "",
       "position_start_date": "July 1, 2027"
     },
@@ -30,14 +35,25 @@
       "position_type": "Non-academic",
       "job_term": "Full-time",
       "department_or_school": "Department of Athletics & Recreational Services",
-      "area_key_words": "coordinator; sports; athletics recreational services",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4123": {
+      "school_id": 1637,
+      "posting_url": "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4123",
+      "job_title_in_post": "Maintenance Manager (2026-MP-18)",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     }
   },
   "school_id": 1637,
   "status": "complete",
-  "updated_at": "2026-09-03T04:57:40+00:00",
-  "completed_at": "2026-09-03T04:57:40+00:00",
+  "updated_at": "2026-09-14T23:04:37+00:00",
+  "completed_at": "2026-09-14T23:04:37+00:00",
   "last_error": ""
 }

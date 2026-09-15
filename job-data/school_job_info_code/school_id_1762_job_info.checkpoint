@@ -57,7 +57,7 @@
       "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "link; talents; below",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -79,7 +79,7 @@
       "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "School of Languages",
-      "area_key_words": "courses; major; literature",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -90,7 +90,7 @@
       "position_type": "Non-academic",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "accommodations; conditions; academic life",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -101,7 +101,7 @@
       "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "projects cip civic; cip civic involvement; civic involvement projects",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -112,7 +112,7 @@
       "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "internship; career; professional life",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -123,7 +123,7 @@
       "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "School of Economics, MIT, Michigan, Stanford and Yale",
-      "area_key_words": "exchange programs exchange; programs exchange programs; abroad",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -133,8 +133,8 @@
       "job_title_in_post": "Assistant Professor of Materials Science and Nano Engineering",
       "position_type": "Assistant_Professor",
       "job_term": "Full-time",
-      "department_or_school": "",
-      "area_key_words": "Materials Science and Nano Engineering; materials science; kamp; assistant professor",
+      "department_or_school": "Faculty of Engineering and Natural Sciences",
+      "area_key_words": "Materials Science and Nano Engineering",
       "deadline_of_application": "September 15, 2026",
       "position_start_date": ""
     },
@@ -144,8 +144,8 @@
       "job_title_in_post": "Assistant Professor of Visual Arts and Communications Design",
       "position_type": "Assistant_Professor",
       "job_term": "Full-time",
-      "department_or_school": "",
-      "area_key_words": "Visual Arts and Communications Design; design; kamp; assistant professor",
+      "department_or_school": "Faculty of Arts and Social Sciences",
+      "area_key_words": "Visual Arts and Communications Design",
       "deadline_of_application": "September 15, 2026",
       "position_start_date": ""
     },
@@ -153,10 +153,10 @@
       "school_id": 1762,
       "posting_url": "https://www.sabanciuniv.edu/tr/node/1197",
       "job_title_in_post": "Full-Time Faculty Position in Business Analytics & Information Systems Sabanci Business School, Sabanci University",
-      "position_type": "Full_Professor",
+      "position_type": "Assistant_Professor; Associate_Professor; Full_Professor",
       "job_term": "Full-time",
-      "department_or_school": "",
-      "area_key_words": "analytics; sabanci; systems",
+      "department_or_school": "Center of Excellence in Finance",
+      "area_key_words": "artificial intelligence; business analytics",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -167,7 +167,7 @@
       "position_type": "Unclassified",
       "job_term": "Part-time",
       "department_or_school": "",
-      "area_key_words": "fdp-nspt-; course; reference code",
+      "area_key_words": "FDP-NSPT-2026",
       "deadline_of_application": "August 31, 2026",
       "position_start_date": "September 1, 2026"
     },
@@ -178,14 +178,14 @@
       "position_type": "Unclassified",
       "job_term": "Part-time",
       "department_or_school": "",
-      "area_key_words": "Freshman Science Course; professional teaching assistant; fdp-nsta-; course",
+      "area_key_words": "Freshman Science Course; Assistant Part-time Position",
       "deadline_of_application": "August 31, 2026",
       "position_start_date": ""
     }
   },
   "school_id": 1762,
   "status": "complete",
-  "updated_at": "2026-09-03T14:18:00+00:00",
-  "completed_at": "2026-09-03T14:18:00+00:00",
+  "updated_at": "2026-09-15T00:32:45+00:00",
+  "completed_at": "2026-09-15T00:32:45+00:00",
   "last_error": ""
 }

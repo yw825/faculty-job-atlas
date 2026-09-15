@@ -27,6 +27,18 @@
     "https://careers.mcmaster.ca/psp/prcsprd/EMPLOYEE/HRMS/c/HRS_HRAM.HRS_APP_SCHJOB.GBL?Page=HRS_APP_SCHJOB&Action=U&FOCUS=Applicant&SiteId=1004&cmd=uninav&Rnode=HRMS&uninavpath=Root{PORTAL_ROOT_OBJECT}.Portal Objects{PORTAL_BASE_DATA}.Navigation Collections{CO_NAVIGATION_COLLECTIONS}.Custom Tabs{PAPP_CUSTOM_TABS}&customTab=MCM_TAB_TEACH_POS&IgnoreParamTempl=customTab": {
       "title": "Teaching Assistants",
       "description": "Teaching Assistants Favorites Main Menu Menu not sorted. Click to sort in ascending order. Human Resources Self Service Set Up SACR Worklist Reporting Tools PeopleTools GT eForms WorkCenter My Preferences Portal Objects Navigation Collections Custom Tabs Recent Search Results Refine Search Search Prompt Popup mrs Skip to Main Content Back to Working at McMaster My Page Staff Positions Sessional Faculty Faculty Positions Teaching Assistants Add to Favorites Please Enter a Unique Description for this Favorite *Description Related Content New Window Close"
+    },
+    "https://careers.mcmaster.ca/psp/prcsprd/EMPLOYEE/SA/s/WEBLIB_PTAL.ISCRIPT1.FieldFormula.IScript_PTAL_DASHBOARD?tab=G3WORKCENTER&FolderPath=PORTAL_ROOT_OBJECT.G3WORKCENTER_LINK&IsFolder=false&IgnoreParamTempl=FolderPath%2cIsFolder": {
+      "title": "GT eForms WorkCenter",
+      "description": "GT eForms WorkCenter Skip to Main Content Favorites : Recently Used GT eForms WorkCenter Career Opportunities Personal Details : Main Menu : Menu not sorted. Click to sort in ascending order. Human Resources Self Service Set Up SACR Worklist Reporting Tools PeopleTools GT eForms WorkCenter My Preferences GT eForms WorkCenter Recent Search Results Refine Search Search Prompt Popup mrs Back to Working at McMaster Add to Favorites Please Enter a Unique Description for this Favorite *Description Related Content New Window Close GT eForms WorkCenter Reload Personalize eForms Reports"
+    },
+    "https://careers.mcmaster.ca/psp/prcsprd/EMPLOYEE/SA/c/PTGP_MENU.PTGP_USERPREF_FL.GBL?FolderPath=PORTAL_ROOT_OBJECT.NUI_STRUCTURE_CONTENT.PORTAL_GROUPLETS.PTFL_PEOPLETOOLS.PT_PTGP_USERPREF_FL_GBL&IsFolder=false&IgnoreParamTempl=FolderPath%2cIsFolder": {
+      "title": "My Personalizations",
+      "description": "My Personalizations Skip to Main Content Press Control+M to start dragging object ptnbsid=oXONdm5NQZq%2bxNVJMOpeE%2fvlzoc%3d Back My Preferences Search Category Name Current search category:Search Category Name Search keywords Search suggestions have been displayed. Use the arrow keys to review the results. Search in... Search Category Name Search Within 2 rows 1 All Categories 2 See Less See All Recently Visited Clear All 50 rows Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results See More Other Suggestions 50 rows Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results No results to display Actions New Window Notifications Home Search Add to Homepage Add to NavBar Add to Favorites NavBar Help Sign Out My Preferences More Actions Preference Item List Please wait for the initialization to finish. Preference Item List Previous Next Previous Next Step ID PSFT_CS---PT_PTGP_USER_PERS_FL_GBL Step Label General Settings General Settings General Settings Save General Options Accessibility Layout Screen reader mode off Screen reader mode on Regional Settings Decimal Separator Date Format DDMMYY MMDDYY YYMMDD Date Separator Time Format 12 hour clock 24 hour clock Digit Group Separator Smart Prompt Options Smart Prompt Display order Most Frequent first Smart Drop-Down Options Smart Drop-Down Display order Most Frequent first Supplementary Panel Related Information"
+    },
+    "https://careers.mcmaster.ca/psp/prcsprd/EMPLOYEE/SA/h/?tab=DEFAULT": {
+      "title": "Employee-facing registry content",
+      "description": "Employee-facing registry content Favorites : Main Menu : Menu not sorted. Click to sort in ascending order. Human Resources Self Service Set Up SACR Worklist Reporting Tools PeopleTools GT eForms WorkCenter My Preferences : Recent Search Results Refine Search Search Prompt Popup mrs Back to Working at McMaster My Page Staff Positions Sessional Faculty Faculty Positions Teaching Assistants Add to Favorites Please Enter a Unique Description for this Favorite *Description : : : My Page &ptlayout=N"
     }
   },
   "rows": {
@@ -106,11 +118,44 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://careers.mcmaster.ca/psp/prcsprd/EMPLOYEE/SA/s/WEBLIB_PTAL.ISCRIPT1.FieldFormula.IScript_PTAL_DASHBOARD?tab=G3WORKCENTER&FolderPath=PORTAL_ROOT_OBJECT.G3WORKCENTER_LINK&IsFolder=false&IgnoreParamTempl=FolderPath%2cIsFolder": {
+      "school_id": 1619,
+      "posting_url": "https://careers.mcmaster.ca/psp/prcsprd/EMPLOYEE/SA/s/WEBLIB_PTAL.ISCRIPT1.FieldFormula.IScript_PTAL_DASHBOARD?tab=G3WORKCENTER&FolderPath=PORTAL_ROOT_OBJECT.G3WORKCENTER_LINK&IsFolder=false&IgnoreParamTempl=FolderPath%2cIsFolder",
+      "job_title_in_post": "GT eForms WorkCenter",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.mcmaster.ca/psp/prcsprd/EMPLOYEE/SA/c/PTGP_MENU.PTGP_USERPREF_FL.GBL?FolderPath=PORTAL_ROOT_OBJECT.NUI_STRUCTURE_CONTENT.PORTAL_GROUPLETS.PTFL_PEOPLETOOLS.PT_PTGP_USERPREF_FL_GBL&IsFolder=false&IgnoreParamTempl=FolderPath%2cIsFolder": {
+      "school_id": 1619,
+      "posting_url": "https://careers.mcmaster.ca/psp/prcsprd/EMPLOYEE/SA/c/PTGP_MENU.PTGP_USERPREF_FL.GBL?FolderPath=PORTAL_ROOT_OBJECT.NUI_STRUCTURE_CONTENT.PORTAL_GROUPLETS.PTFL_PEOPLETOOLS.PT_PTGP_USERPREF_FL_GBL&IsFolder=false&IgnoreParamTempl=FolderPath%2cIsFolder",
+      "job_title_in_post": "My Personalizations",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.mcmaster.ca/psp/prcsprd/EMPLOYEE/SA/h/?tab=DEFAULT": {
+      "school_id": 1619,
+      "posting_url": "https://careers.mcmaster.ca/psp/prcsprd/EMPLOYEE/SA/h/?tab=DEFAULT",
+      "job_title_in_post": "Employee-facing registry content",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1619,
   "status": "complete",
-  "updated_at": "2026-09-09T18:44:52+00:00",
-  "completed_at": "2026-09-09T18:44:52+00:00",
+  "updated_at": "2026-09-14T22:58:20+00:00",
+  "completed_at": "2026-09-14T22:58:20+00:00",
   "last_error": ""
 }

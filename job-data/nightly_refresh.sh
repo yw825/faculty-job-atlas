@@ -79,7 +79,13 @@ say "2/6 clean furniture from link sets and checkpoints"
 "$PYTHON" clean_job_posts.py --report "refresh_logs/cleaning_report_$STAMP.csv" | head -20
 
 say "3/6 info (only newly seen postings are fetched)"
-"$PYTHON" run_all_countries.py --stage info --timeout 900
+# --redo is required. Without it the runner skips every school whose info
+# checkpoint already says 'complete' -- i.e. every school after its first
+# run -- so postings found later were scraped but never fetched and never
+# reached the map (17,183 links had piled up by 2026-09-14). --redo does not
+# re-fetch: run_school_job_info only fetches URLs missing from the
+# checkpoint's raw cache, so this stays incremental.
+"$PYTHON" run_all_countries.py --stage info --redo --timeout 900
 
 say "4/6 prune stale info rows"
 "$PYTHON" prune_stale_info.py | head -5

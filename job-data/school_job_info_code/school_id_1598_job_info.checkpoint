@@ -80,7 +80,7 @@
       "position_type": "Assistant_Professor; Associate_Professor",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "social studies; studies education; edid",
+      "area_key_words": "Social Studies Education; secondary school Social Studies",
       "deadline_of_application": "August 21, 2026",
       "position_start_date": "January 1, 2027"
     },
@@ -90,8 +90,8 @@
       "job_title_in_post": "Assistant Professor",
       "position_type": "Assistant_Professor",
       "job_term": "Full-time",
-      "department_or_school": "",
-      "area_key_words": "ocean; marine; mechanical",
+      "department_or_school": "Department of Mechanical Engineering",
+      "area_key_words": "Clean Energy Systems; Biomedical Systems",
       "deadline_of_application": "September 6, 2026",
       "position_start_date": ""
     },
@@ -99,10 +99,10 @@
       "school_id": 1598,
       "posting_url": "https://www.uvic.ca/faculty-staff/careers/faculty-and-librarian-postings/current/meng_220_161.php",
       "job_title_in_post": "Assistant Professor",
-      "position_type": "Assistant_Professor; Research_Fellow",
+      "position_type": "Assistant_Professor",
       "job_term": "Full-time",
-      "department_or_school": "Department of Mechanical Engineering at the rank of Assistant Professor",
-      "area_key_words": "mechatronics; robotics; mechanical",
+      "department_or_school": "Department of Mechanical Engineering",
+      "area_key_words": "Clean Energy Systems; Biomedical Systems",
       "deadline_of_application": "October 2, 2026",
       "position_start_date": ""
     },
@@ -110,10 +110,10 @@
       "school_id": 1598,
       "posting_url": "https://www.uvic.ca/faculty-staff/careers/faculty-and-librarian-postings/current/musi_230-087.php",
       "job_title_in_post": "String Quartet: Assistant Teaching Professors",
-      "position_type": "Full_Professor",
+      "position_type": "Non-academic",
       "job_term": "Part-time",
       "department_or_school": "",
-      "area_key_words": "music; string; quartet",
+      "area_key_words": "Professors Requirements Additional information Contact",
       "deadline_of_application": "",
       "position_start_date": "July 1, 2027"
     },
@@ -124,7 +124,7 @@
       "position_type": "Full_Professor",
       "job_term": "Full-time",
       "department_or_school": "Faculty of Humanities",
-      "area_key_words": "writing; atwp; assistant teaching professor",
+      "area_key_words": "Writing Studies; Professor Assistant Teaching Professor Requirements",
       "deadline_of_application": "September 10, 2026",
       "position_start_date": ""
     },
@@ -135,7 +135,7 @@
       "position_type": "Full_Professor",
       "job_term": "Full-time",
       "department_or_school": "Faculty of Humanities",
-      "area_key_words": "writing; composition; atwp",
+      "area_key_words": "Scholarship of Teaching; Composition; Professor Assistant Teaching Professor Requirements",
       "deadline_of_application": "September 10, 2026",
       "position_start_date": ""
     },
@@ -146,7 +146,7 @@
       "position_type": "Associate_Professor",
       "job_term": "Full-time",
       "department_or_school": "Faculty of Law",
-      "area_key_words": "legal; aspiration research; indigenous law",
+      "area_key_words": "Aspiration; Indigenous community-engaged research; Indigenous governance",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -156,8 +156,8 @@
       "job_title_in_post": "Assistant Teaching Professor",
       "position_type": "Full_Professor",
       "job_term": "Full-time",
-      "department_or_school": "",
-      "area_key_words": "mathematics; statistics; mathematical sciences",
+      "department_or_school": "Department of Mathematics and Statistics",
+      "area_key_words": "Professor Start Date",
       "deadline_of_application": "December 1, 2026",
       "position_start_date": "July 1, 2027"
     },
@@ -178,8 +178,8 @@
       "job_title_in_post": "Aspiration Research Chair",
       "position_type": "Associate_Professor",
       "job_term": "Full-time",
-      "department_or_school": "",
-      "area_key_words": "aspiration research; research chair; studies",
+      "department_or_school": "Faculty of Humanities",
+      "area_key_words": "Aspiration",
       "deadline_of_application": "August 28, 2026",
       "position_start_date": "January 1, 2027"
     },
@@ -230,7 +230,7 @@
   },
   "school_id": 1598,
   "status": "complete",
-  "updated_at": "2026-09-03T04:05:08+00:00",
-  "completed_at": "2026-09-03T04:05:08+00:00",
+  "updated_at": "2026-09-14T22:52:23+00:00",
+  "completed_at": "2026-09-14T22:52:23+00:00",
   "last_error": ""
 }

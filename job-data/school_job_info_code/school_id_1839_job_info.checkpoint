@@ -354,6 +354,30 @@
     },
     "https://lingnan.csod.com/ux/ats/careersite/4/requisition/2267": {
       "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+    },
+    "https://lingnan.csod.com/ux/ats/careersite/4/requisition/3090": {
+      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+    },
+    "https://lingnan.csod.com/ux/ats/careersite/4/requisition/3089": {
+      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+    },
+    "https://lingnan.csod.com/ux/ats/careersite/4/requisition/3088": {
+      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+    },
+    "https://lingnan.csod.com/ux/ats/careersite/4/requisition/3086": {
+      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+    },
+    "https://lingnan.csod.com/ux/ats/careersite/4/requisition/3087": {
+      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+    },
+    "https://lingnan.csod.com/ux/ats/careersite/4/requisition/3084": {
+      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+    },
+    "https://lingnan.csod.com/ux/ats/careersite/4/requisition/3083": {
+      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+    },
+    "https://lingnan.csod.com/ux/ats/careersite/4/requisition/3085": {
+      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
     }
   },
   "rows": {
@@ -1096,11 +1120,35 @@
     },
     "https://lingnan.csod.com/ux/ats/careersite/4/requisition/2267": {
       "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+    },
+    "https://lingnan.csod.com/ux/ats/careersite/4/requisition/3090": {
+      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+    },
+    "https://lingnan.csod.com/ux/ats/careersite/4/requisition/3089": {
+      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+    },
+    "https://lingnan.csod.com/ux/ats/careersite/4/requisition/3088": {
+      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+    },
+    "https://lingnan.csod.com/ux/ats/careersite/4/requisition/3086": {
+      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+    },
+    "https://lingnan.csod.com/ux/ats/careersite/4/requisition/3087": {
+      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+    },
+    "https://lingnan.csod.com/ux/ats/careersite/4/requisition/3084": {
+      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+    },
+    "https://lingnan.csod.com/ux/ats/careersite/4/requisition/3083": {
+      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+    },
+    "https://lingnan.csod.com/ux/ats/careersite/4/requisition/3085": {
+      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
     }
   },
   "school_id": 1839,
   "status": "complete",
-  "updated_at": "2026-09-09T22:30:58+00:00",
-  "completed_at": "2026-09-09T22:30:58+00:00",
+  "updated_at": "2026-09-14T23:34:33+00:00",
+  "completed_at": "2026-09-14T23:34:33+00:00",
   "last_error": ""
 }

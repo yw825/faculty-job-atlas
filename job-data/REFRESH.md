@@ -47,8 +47,15 @@ tail -f job-data/refresh_logs/refresh_$(date +%F).log
 
 Expect **4-6 hours**. Most of it is the postings stage, which visits every
 school. The detail stage is cheap after the first run: `job_info` keeps a
-checkpoint of postings it has already read, so it only fetches URLs that
-are new this week.
+checkpoint of postings it has already read, so it only fetches URLs it has
+not seen before.
+
+That only holds because stage 3 runs with `--redo`. Without it, the runner
+skips any school whose info checkpoint says `complete` -- every school
+after its first run -- so new postings were scraped but never fetched and
+never reached the map. By 2026-09-14 that had silently left 17,183 links
+off the map, including open faculty posts at Cambridge, NUS and HKU.
+`--redo` does not refetch what is cached; it only stops the skip.
 
 ## What it does, and why in this order
 

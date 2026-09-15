@@ -34,6 +34,16 @@
       "title": "Lecturer in Professional Practice",
       "description": "You are invited to join our team of Computing and Design staff responsible for delivering the Waikato University Bachelor of Design in Interface at the University of Waikato Joint Institute at Hangzhou City University in China.\n\nPosting closes: 2026-09-04",
       "department": null
+    },
+    "https://elhs.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/1003884": {
+      "title": "The Kaipukahu University of Waikato Writer in Residence 2027",
+      "description": "\n\nPosting closes: 2026-10-16",
+      "department": null
+    },
+    "https://elhs.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/1003888": {
+      "title": "Lecturer in Education",
+      "description": "Shape the future of education through research-informed teaching, impactful research and meaningful engagement at Waikato. We have multiple Lectureship roles available.\n\nPosting closes: 2026-10-10",
+      "department": null
     }
   },
   "rows": {
@@ -44,7 +54,7 @@
       "position_type": "Associate_Professor; Lecturer",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "Arts Education; arts; education; lecturer senior lecturer",
+      "area_key_words": "Arts Education",
       "deadline_of_application": "2026-09-24",
       "position_start_date": ""
     },
@@ -55,7 +65,7 @@
       "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "The Psychology Centre; psychology; director; experienced clinical psychologist",
+      "area_key_words": "",
       "deadline_of_application": "2026-09-27",
       "position_start_date": ""
     },
@@ -66,7 +76,7 @@
       "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "associate director pou; director pou mat; pou mat uranga",
+      "area_key_words": "",
       "deadline_of_application": "2026-09-14",
       "position_start_date": ""
     },
@@ -77,7 +87,7 @@
       "position_type": "Lecturer",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "Psychological Criminology; criminology; psychological; teaching fellow",
+      "area_key_words": "Psychological Criminology",
       "deadline_of_application": "2026-09-06",
       "position_start_date": ""
     },
@@ -88,7 +98,7 @@
       "position_type": "Research_Fellow",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "Sport; postdoctoral; women health; wellbeing",
+      "area_key_words": "Sport",
       "deadline_of_application": "2026-09-10",
       "position_start_date": ""
     },
@@ -99,7 +109,7 @@
       "position_type": "Associate_Professor; Lecturer",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "Disability and Inclusion; disability; inclusion; associate professor",
+      "area_key_words": "Disability and Inclusion",
       "deadline_of_application": "2026-09-11",
       "position_start_date": ""
     },
@@ -110,14 +120,36 @@
       "position_type": "Lecturer",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "Professional Practice; professional; practice; design",
+      "area_key_words": "Professional Practice",
       "deadline_of_application": "2026-09-04",
+      "position_start_date": ""
+    },
+    "https://elhs.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/1003884": {
+      "school_id": 1827,
+      "posting_url": "https://elhs.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/1003884",
+      "job_title_in_post": "The Kaipukahu University of Waikato Writer in Residence 2027",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Waikato Writer in Residence 2027",
+      "deadline_of_application": "2026-10-16",
+      "position_start_date": ""
+    },
+    "https://elhs.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/1003888": {
+      "school_id": 1827,
+      "posting_url": "https://elhs.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/1003888",
+      "job_title_in_post": "Lecturer in Education",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Education",
+      "deadline_of_application": "2026-10-10",
       "position_start_date": ""
     }
   },
   "school_id": 1827,
   "status": "complete",
-  "updated_at": "2026-09-03T15:38:47+00:00",
-  "completed_at": "2026-09-03T15:38:47+00:00",
+  "updated_at": "2026-09-15T00:06:03+00:00",
+  "completed_at": "2026-09-15T00:06:03+00:00",
   "last_error": ""
 }

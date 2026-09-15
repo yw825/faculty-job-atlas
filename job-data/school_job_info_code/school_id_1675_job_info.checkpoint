@@ -58,6 +58,21 @@
     },
     "https://iablgs.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/532": {
       "error": "not present in bulk fetch result"
+    },
+    "https://iablgs.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/581": {
+      "title": "Associate Director, Total Rewards",
+      "description": "",
+      "department": null
+    },
+    "https://iablgs.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/585": {
+      "title": "Coordinator, Faculty Support - STR",
+      "description": "",
+      "department": null
+    },
+    "https://iablgs.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/553": {
+      "title": "Senior Officer, Treasury",
+      "description": "",
+      "department": null
     }
   },
   "rows": {
@@ -143,11 +158,44 @@
     },
     "https://iablgs.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/532": {
       "error": "not present in bulk fetch result"
+    },
+    "https://iablgs.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/581": {
+      "school_id": 1675,
+      "posting_url": "https://iablgs.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/581",
+      "job_title_in_post": "Associate Director, Total Rewards",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://iablgs.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/585": {
+      "school_id": 1675,
+      "posting_url": "https://iablgs.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/585",
+      "job_title_in_post": "Coordinator, Faculty Support - STR",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "STR",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://iablgs.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/553": {
+      "school_id": 1675,
+      "posting_url": "https://iablgs.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/553",
+      "job_title_in_post": "Senior Officer, Treasury",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1675,
   "status": "complete",
-  "updated_at": "2026-09-09T17:51:20+00:00",
-  "completed_at": "2026-09-09T17:51:20+00:00",
+  "updated_at": "2026-09-14T23:20:55+00:00",
+  "completed_at": "2026-09-14T23:20:55+00:00",
   "last_error": ""
 }

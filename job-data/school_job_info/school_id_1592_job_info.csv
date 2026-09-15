@@ -79,7 +79,7 @@ school_id,posting_url,job_title_in_post,position_type,job_term,department_or_sch
 1592,https://tru.hua.hrsmart.com/hr/ats/Posting/view/34935,"Director, Integrated Planning & Effectiveness - (01248.5)",Assistant_Professor; Associate_Professor; Full_Professor,Part-time,,Institutional Research; higher education,28/8/2026,14/9/2026
 1592,https://tru.hua.hrsmart.com/hr/ats/Posting/view/34884,Sessional - Faculty - Fall 2026 - (02050.11811),Unclassified,Full-time,,,17/7/2026,9/9/2026
 1592,https://tru.hua.hrsmart.com/hr/ats/Posting/view/34690,Assistant Teaching Professor - SON (1.5-year LTC) - (02052.974),Full_Professor,Full-time,"School of Nursing, BScN program, invites applications for one",,16/7/2026,1/8/2026
-1592,https://tru.hua.hrsmart.com/hr/ats/Posting/view/34907,"Sessional - Faculty CMNS 1290-07, CMNS 1810-RE3/TO1, CMNS 2290-01 & CMNS 2290-02 - (02050.11818)",Unclassified,Full-time,,professional writing,15/7/2026,9/9/2026
+1592,https://tru.hua.hrsmart.com/hr/ats/Posting/view/34907,"Sessional - Faculty CMNS 1290-07, CMNS 1810-RE3/TO1, CMNS 2290-01 & CMNS 2290-02 - (02050.11818)",Unclassified,Full-time,,CMNS 2290-01 & CMNS 2290-02 -; professional writing,15/7/2026,9/9/2026
 1592,https://tru.hua.hrsmart.com/hr/ats/Posting/view/34898,Sessional - Faculty CMNS 1250-01 & CMNS 2550-01 - (02050.11816),Unclassified,Full-time,,,15/7/2026,9/9/2026
 1592,https://tru.hua.hrsmart.com/hr/ats/Posting/view/34891,Sessional - Faculty RESP 2590; RESP 2680; RESP 2570 - (02050.11814),Unclassified,Full-time,,,15/7/2026,8/9/2026
 1592,https://tru.hua.hrsmart.com/hr/ats/Posting/view/34812,Sessional - Faculty NURS 6430 - Clinical Faculty - (02050.11792),Unclassified,Full-time,"School of Nursing, Master of Nursing",,14/7/2026,11/1/2027
@@ -93,11 +93,11 @@ school_id,posting_url,job_title_in_post,position_type,job_term,department_or_sch
 1592,https://tru.hua.hrsmart.com/hr/ats/Posting/view/34597,"Sessional - Faculty (PSYC 1110, 1210, & 3720) - (02050.11749)",Unclassified,Full-time,,social psychology,3/6/2026,9/9/2026
 1592,https://tru.hua.hrsmart.com/hr/ats/Posting/view/34614,"Administrative Assistant to the Faculty of Adventure Studies, Culinary Arts and Tourism Management (FACT) - (00517.9)",Non-academic,Part-time,"Faculty of Adventure Studies, Culinary Arts and Tourism Management","Adventure Studies, Culinary Arts and Tourism Management; PowerPoint; Excel",2/6/2026,8/6/2026
 1592,https://tru.hua.hrsmart.com/hr/ats/Posting/view/34559,Sessional - Faculty (HIST 1120) - (02050.11744),Unclassified,Full-time,,,29/5/2026,2/9/2026
-1592,https://tru.hua.hrsmart.com/hr/ats/Posting/view/34522,"Sessional - Faculty - GEOL 1110, GEOL 2025, GEOL 2070 - (02050.11733)",Unclassified,Full-time,Department of Physical Sciences,,27/5/2026,8/9/2026
+1592,https://tru.hua.hrsmart.com/hr/ats/Posting/view/34522,"Sessional - Faculty - GEOL 1110, GEOL 2025, GEOL 2070 - (02050.11733)",Unclassified,Full-time,Department of Physical Sciences,GEOL 2070 -,27/5/2026,8/9/2026
 1592,https://tru.hua.hrsmart.com/hr/ats/Posting/view/34527,Sessional - Faculty - Adventure Studies - (02050.11735),Non-academic,Part-time,department for the upcoming school year,,22/5/2026,1/8/2026
 1592,https://tru.hua.hrsmart.com/hr/ats/Posting/view/34410,Sessional - Faculty (MKTG 2430) - (02050.11704),Unclassified,Full-time,,,22/5/2026,1/9/2026
 1592,https://tru.hua.hrsmart.com/hr/ats/Posting/view/34409,Sessional - Faculty (MNGT 1710) - (02050.11703),Unclassified,Full-time,,,22/5/2026,1/9/2026
-1592,https://tru.hua.hrsmart.com/hr/ats/Posting/view/34248,"Sessional - Faculty Biology - BIOL 1040, BIOL 2170 - (02050.11640)",Unclassified,Full-time,Department of Biological Sciences,Assistant supervision,15/5/2026,25/5/2026
+1592,https://tru.hua.hrsmart.com/hr/ats/Posting/view/34248,"Sessional - Faculty Biology - BIOL 1040, BIOL 2170 - (02050.11640)",Unclassified,Full-time,Department of Biological Sciences,BIOL 2170 -; Assistant supervision,15/5/2026,25/5/2026
 1592,https://tru.hua.hrsmart.com/hr/ats/Posting/view/34320,Sessional - Faculty (FNLG 2000) - (02050.11653),Lecturer,Full-time,,Secwepemcts,4/5/2026,9/9/2026
 1592,https://tru.hua.hrsmart.com/hr/ats/Posting/view/34317,Sessional - Faculty (THTR 1110) - (02050.11652),Unclassified,Full-time,"Department of Literatures, Languages, and Performing Arts",,4/5/2026,11/1/2027
 1592,https://tru.hua.hrsmart.com/hr/ats/Posting/view/34316,Sessional - Faculty (THTR 3410) - (02050.11651),Unclassified,Full-time,"Department of Literatures, Languages, and Performing Arts",,4/5/2026,11/1/2027
@@ -128,3 +128,14 @@ school_id,posting_url,job_title_in_post,position_type,job_term,department_or_sch
 1592,https://tru.hua.hrsmart.com/hr/ats/Posting/view/32121,Sessional - Faculty (HIST 2250) - (02050.11046),Unclassified,Full-time,,,23/10/2025,5/1/2026
 1592,https://tru.hua.hrsmart.com/hr/ats/Posting/view/32807,Sessional - Faculty- CMNS 1160-02 & CMNS 3800-01 - (02050.11265),Unclassified,Full-time,,professional communication,29/8/2025,3/9/2025
 1592,https://tru.hua.hrsmart.com/hr/ats/Posting/view/31617,Instructor - non credit courses (PTIC) - (02063.2582),Non-academic,Part-time,,,17/6/2025,23/6/2025
+1592,https://tru.hua.hrsmart.com/hr/ats/Posting/view/35448,Sessional - Faculty (VTEC 1120 & 2120) - (02050.11993),Unclassified,Full-time,,Duties Teaching laboratory sessions,16/9/2026,21/9/2026
+1592,https://tru.hua.hrsmart.com/hr/ats/Posting/view/35418,Career Education Assistant - (00072.35),Non-academic,Part-time,,,23/9/2026,28/9/2026
+1592,https://tru.hua.hrsmart.com/hr/ats/Posting/view/35415,"IT Client Services Analyst, Auxiliary/On-Call - (00562.9)",Non-academic,Part-time,,,23/9/2026,1/10/2026
+1592,https://tru.hua.hrsmart.com/hr/ats/Posting/view/35408,Assistant Teaching Professor - Bob Gaglardi School of Business and Economics Voluntary International Assignment - (02081.44),Full_Professor,Full-time,School of Business and Economics Voluntary International Assignment,Economics Vol,23/9/2026,28/11/2026
+1592,https://tru.hua.hrsmart.com/hr/ats/Posting/view/35409,Assistant Teaching Professor - Bob Gaglardi School of Business and Economics Voluntary International Assignment - (02081.45),Full_Professor,Full-time,School of Business and Economics Voluntary International Assignment,Economics Vol,23/9/2026,14/12/2026
+1592,https://tru.hua.hrsmart.com/hr/ats/Posting/view/35420,Sessional - Faculty (MATH 1650) - (02050.11981),Unclassified,Full-time,,,8/9/2026,1/9/2026
+1592,https://tru.hua.hrsmart.com/hr/ats/Posting/view/35389,"Sessional - Faculty (VTEC 1220, 2250, 2120 & 2220) - (02050.11979)",Unclassified,Full-time,,Vet Tech program,21/9/2026,21/9/2026
+1592,https://tru.hua.hrsmart.com/hr/ats/Posting/view/35350,"Learning Strategist, Faculty of Arts - (00520.4)",Unclassified,Part-time,Faculty of Arts,Arts,21/9/2026,21/9/2026
+1592,https://tru.hua.hrsmart.com/hr/ats/Posting/view/35410,Enterprise Systems Supervisor - (00487.2),Non-academic,Part-time,,,21/9/2026,19/10/2026
+1592,https://tru.hua.hrsmart.com/hr/ats/Posting/view/35387,"Administrative Assistant, Office of Equity, Diversity, Inclusion and Anti-Racism - (00582.1)",Unclassified,Part-time,,"Equity, Diversity, Inclusion and Anti-Racism",18/9/2026,1/10/2026
+1592,https://tru.hua.hrsmart.com/hr/ats/Posting/view/35388,"Learning Strategist, Equity, Diversity, Inclusion and Anti-Racism (EDI and AR) - (00580.1)",Unclassified,Part-time,,,18/9/2026,1/10/2026
