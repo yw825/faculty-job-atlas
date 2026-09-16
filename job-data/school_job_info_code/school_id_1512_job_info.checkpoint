@@ -492,6 +492,21 @@
       "title": "Temporary/Hourly Pool - Clerical",
       "description": "Posted: 03/01/2026 Location: Ellensburg, WA Department: Provost Office Temporary/Hourly Pool - Clerical",
       "department": "Provost Office"
+    },
+    "https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=7551&PostingSeq=1&SiteId=1": {
+      "title": "Financial Aid Counselor",
+      "description": "Posted: 09/11/2026 Location: Ellensburg, WA Department: Financial Aid and Scholarships Financial Aid Counselor",
+      "department": "Financial Aid and Scholarships"
+    },
+    "https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=7547&PostingSeq=1&SiteId=1": {
+      "title": "Aviation Safety and Promotion Coordinator (Program Specialist 2)",
+      "description": "Posted: 09/10/2026 Location: Ellensburg, WA Department: Aviation Aviation Safety and Promotion Coordinator (Program Specialist 2)",
+      "department": "Aviation"
+    },
+    "https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=7546&PostingSeq=1&SiteId=1": {
+      "title": "Director of Financial Aid and Scholarships",
+      "description": "Posted: 09/10/2026 Location: Ellensburg, WA Department: Financial Aid and Scholarships Director of Financial Aid and Scholarships",
+      "department": "Financial Aid and Scholarships"
     }
   },
   "rows": {
@@ -1121,7 +1136,7 @@
       "position_type": "Lecturer",
       "job_term": "Full-time",
       "department_or_school": "Computer Science",
-      "area_key_words": "",
+      "area_key_words": "Online",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1575,11 +1590,44 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=7551&PostingSeq=1&SiteId=1": {
+      "school_id": 1512,
+      "posting_url": "https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=7551&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Financial Aid Counselor",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Financial Aid and Scholarships",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=7547&PostingSeq=1&SiteId=1": {
+      "school_id": 1512,
+      "posting_url": "https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=7547&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Aviation Safety and Promotion Coordinator (Program Specialist 2)",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "Aviation",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=7546&PostingSeq=1&SiteId=1": {
+      "school_id": 1512,
+      "posting_url": "https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=7546&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Director of Financial Aid and Scholarships",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Financial Aid and Scholarships",
+      "area_key_words": "Financial Aid and Scholarships",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1512,
   "status": "complete",
-  "updated_at": "2026-09-09T23:14:11+00:00",
-  "completed_at": "2026-09-09T23:14:11+00:00",
+  "updated_at": "2026-09-16T01:29:30+00:00",
+  "completed_at": "2026-09-16T01:29:30+00:00",
   "last_error": ""
 }

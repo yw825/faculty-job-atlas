@@ -42,9 +42,9 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/055E28882001FE667534B0880CFCD275/jobs/93251"
   ],
   "school_id": 868,
-  "status": "complete",
-  "updated_at": "2026-09-14T18:34:10+00:00",
+  "status": "error",
+  "updated_at": "2026-09-15T17:25:22+00:00",
   "started_at": "2026-09-08T17:52:40+00:00",
   "completed_at": "2026-09-14T18:34:10+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: no paycom postings found"
 }

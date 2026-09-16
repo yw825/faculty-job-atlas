@@ -22,7 +22,7 @@ school_id,posting_url,job_title_in_post,position_type,job_term,department_or_sch
 740,https://jobs.missouristate.edu/postings/87853,Associate Professor (Nursing),Associate_Professor,Part-time,"College of Health and Human Services, and the University goals",,,01/11/2027
 740,https://jobs.missouristate.edu/postings/88065,Part-time Bear POWER Program Assistant (10-month Aug-May),Unclassified,Part-time,,,,
 740,https://jobs.missouristate.edu/postings/87945,Student Worker,Unclassified,Part-time,,,09/11/2026,
-740,https://jobs.missouristate.edu/postings/87847,"Associate Professor, Animal Science",Associate_Professor,Part-time,College of Agriculture is expected,applied beef cattle production; animal science dependent upon training,,"August 1, 2026"
+740,https://jobs.missouristate.edu/postings/87847,"Associate Professor, Animal Science",Associate_Professor,Part-time,College of Agriculture is expected,Animal Science; applied beef cattle production; beef production,,"August 1, 2026"
 740,https://jobs.missouristate.edu/postings/88040,Admissions Counselor,Unclassified,Part-time,,,,
 740,https://jobs.missouristate.edu/postings/87781,"Custodian I, Residence Life, Housing, and Dining Services",Unclassified,Part-time,,,,
 740,https://jobs.missouristate.edu/postings/87839,Custodian I,Unclassified,Part-time,,,,
@@ -31,7 +31,7 @@ school_id,posting_url,job_title_in_post,position_type,job_term,department_or_sch
 740,https://jobs.missouristate.edu/postings/87929,Residence Hall Director,Non-academic,Part-time,"Department of Residence Life, Housing and Dining Services and the University",,,
 740,https://jobs.missouristate.edu/postings/88016,Assistant Professor (Organic Chemistry),Assistant_Professor,Part-time,Department of Chemistry and Biochemistry,robust plan of independent research; feasible; Departmental,"October 22, 2026",08/09/2027
 740,https://jobs.missouristate.edu/postings/87663,ResNet Technology Consultant – Residence Life Computer Support,Unclassified,Part-time,,,09/30/2026,
-740,https://jobs.missouristate.edu/postings/87873,"Part-Time CDL Bus Driver, West Plains",Unclassified,Part-time,,,,
+740,https://jobs.missouristate.edu/postings/87873,"Part-Time CDL Bus Driver, West Plains",Unclassified,Part-time,,West Plains,,
 740,https://jobs.missouristate.edu/postings/87834,Maintenance Electrician,Unclassified,Part-time,,,,
 740,https://jobs.missouristate.edu/postings/87510,Backstage Worker,Unclassified,Part-time,,,11/01/2026,
 740,https://jobs.missouristate.edu/postings/87868,"Part-Time Physician, Coordinator of Medical Services",Non-academic,Part-time,,Medical Services,,
@@ -48,7 +48,7 @@ school_id,posting_url,job_title_in_post,position_type,job_term,department_or_sch
 740,https://jobs.missouristate.edu/postings/87855,Clinical Assistant Professor of Financial Planning -9 month appt,Assistant_Professor,Part-time,,Financial Planning; introduction,,01/11/2027
 740,https://jobs.missouristate.edu/postings/88068,Student Assistant,Unclassified,Part-time,,,09/25/2026,
 740,https://jobs.missouristate.edu/postings/87950,"Administrative Assistant I (Residence Life, Housing and Dining Services)",Unclassified,Part-time,,,,
-740,https://jobs.missouristate.edu/postings/87850,"Assistant Professor, Library (E-Resource & Serials) 12-month appointment",Assistant_Professor,Part-time,,professional service appropriate,,"February 1, 2027"
+740,https://jobs.missouristate.edu/postings/87850,"Assistant Professor, Library (E-Resource & Serials) 12-month appointment",Assistant_Professor,Part-time,,Library (E-Resource & Serials) 12-month appointment; professional service appropriate,,"February 1, 2027"
 740,https://jobs.missouristate.edu/postings/88050,"Director, New Student Orientation",Unclassified,Part-time,,,,
 740,https://jobs.missouristate.edu/postings/87790,Boiler Operator II,Unclassified,Part-time,,,,
 740,https://jobs.missouristate.edu/postings/87842,"Physician, Coordinator of Medical Services",Non-academic,Part-time,,Medical Services,,
@@ -75,9 +75,9 @@ school_id,posting_url,job_title_in_post,position_type,job_term,department_or_sch
 740,https://jobs.missouristate.edu/postings/87857,Part-time Construction Technician I or II,Non-academic,Part-time,,,,
 740,https://jobs.missouristate.edu/postings/87793,Custodian I,Unclassified,Part-time,,,,
 740,https://jobs.missouristate.edu/postings/87953,"Coordinator, Ph.D. Programs and Training Grants",Non-academic,Part-time,,,,
-740,https://jobs.missouristate.edu/postings/87852,"Assistant Professor (School of Health Sciences, Public Health) 9-month appointment",Assistant_Professor,Part-time,School of Health Sciences,professional service appropriate,,"August 1, 2026"
+740,https://jobs.missouristate.edu/postings/87852,"Assistant Professor (School of Health Sciences, Public Health) 9-month appointment",Assistant_Professor,Part-time,School of Health Sciences,Public Health) 9-month appointment; professional service appropriate,,"August 1, 2026"
 740,https://jobs.missouristate.edu/postings/88060,University Advancement Communications Specialist,Non-academic,Part-time,,,,
-740,https://jobs.missouristate.edu/postings/87846,"Assistant Professor, Animal Science",Assistant_Professor,Part-time,College of Agriculture is expected,applied beef cattle production; professional service appropriate; animal science dependent upon training,,"August 1, 2026"
+740,https://jobs.missouristate.edu/postings/87846,"Assistant Professor, Animal Science",Assistant_Professor,Part-time,College of Agriculture is expected,Animal Science; applied beef cattle production; professional service appropriate; beef production,,"August 1, 2026"
 740,https://jobs.missouristate.edu/postings/88037,Maintenance Technician II,Non-academic,Part-time,,,,
 740,https://jobs.missouristate.edu/postings/87780,Custodian I,Unclassified,Part-time,,,,
 740,https://jobs.missouristate.edu/postings/87940,Administrative Assistant III (Facilities Management),Unclassified,Part-time,,,,
@@ -104,7 +104,7 @@ school_id,posting_url,job_title_in_post,position_type,job_term,department_or_sch
 740,https://jobs.missouristate.edu/postings/87854,Assistant Professor (Nursing),Assistant_Professor,Part-time,"College of Health and Human Services, and the University goals",professional service appropriate,,01/11/2027
 740,https://jobs.missouristate.edu/postings/88067,BearPass Card Office Assistant,Unclassified,Part-time,,,09/15/2026,
 740,https://jobs.missouristate.edu/postings/87946,Student Worker,Unclassified,Part-time,,,09/11/2026,
-740,https://jobs.missouristate.edu/postings/87848,"Clinical Instructor (School of Teaching, Learning & Developmental Science)-9 month appt",Unclassified,Part-time,,,,08/10/2026
+740,https://jobs.missouristate.edu/postings/87848,"Clinical Instructor (School of Teaching, Learning & Developmental Science)-9 month appt",Unclassified,Part-time,,Learning & Developmental Science)-9 month appt,,08/10/2026
 740,https://jobs.missouristate.edu/postings/88049,Campus Safety Specialist,Non-academic,Part-time,,,,
 740,https://jobs.missouristate.edu/postings/87788,Construction Technician II,Non-academic,Part-time,,,,
 740,https://jobs.missouristate.edu/postings/87841,Network Analyst,Non-academic,Part-time,,,,
@@ -133,7 +133,44 @@ school_id,posting_url,job_title_in_post,position_type,job_term,department_or_sch
 740,https://jobs.missouristate.edu/postings/87952,Campus Safety Specialist,Non-academic,Part-time,,,,
 740,https://jobs.missouristate.edu/postings/87851,Clinical Assistant Professor (Nursing),Assistant_Professor,Part-time,School of Nursing is searching for eight,prelicensure BSN program,,"August 10, 2026"
 740,https://jobs.missouristate.edu/postings/88059,Administrative Specialist II (McQueary College of Health & Human Services),Non-academic,Part-time,College of Health and Human Services Student Success and Advisement Center,,,
-740,https://jobs.missouristate.edu/postings/87845,"Instructor, ITC 9 month appt",Unclassified,Part-time,,Management Information Systems,,"August 1, 2026"
+740,https://jobs.missouristate.edu/postings/87845,"Instructor, ITC 9 month appt",Unclassified,Part-time,,ITC 9 month appt; Management Information Systems,,"August 1, 2026"
 740,https://jobs.missouristate.edu/postings/88036,Maintenance Technician II,Non-academic,Part-time,,,,
 740,https://jobs.missouristate.edu/postings/87776,Academic Administrative Assistant III (School of Nursing),Unclassified,Part-time,School of Nursing,,,
 740,https://jobs.missouristate.edu/postings/87938,Theatre & Dance Scenic Painters,Unclassified,Part-time,Department of Theatre and Dance,,11/25/2026,
+740,https://jobs.missouristate.edu/postings/88102,Physician Assistant,Non-academic,Part-time,,,,
+740,https://jobs.missouristate.edu/postings/88095,Missouri State University Applicant Portal,Unclassified,Part-time,,,,
+740,https://jobs.missouristate.edu/postings/88087,"Autism Resource Specialist (Remote from Kansas City, St. Louis or Central Missouri)",Non-academic,Part-time,,service providers,,
+740,https://jobs.missouristate.edu/postings/88152,"Assistant Director, Office for Institutional Compliance",Non-academic,Part-time,,,,
+740,https://jobs.missouristate.edu/postings/88143,Assistant Director Ozarks Clean Fuels Coalition,Unclassified,Part-time,,,,
+740,https://jobs.missouristate.edu/postings/88115,HVAC Specialist I,Non-academic,Part-time,,,,
+740,https://jobs.missouristate.edu/postings/88107,Missouri State University Applicant Portal,Unclassified,Part-time,,,,
+740,https://jobs.missouristate.edu/postings/88098,Missouri State University Applicant Portal,Unclassified,Part-time,,,,
+740,https://jobs.missouristate.edu/postings/88089,Student AI & Automation Specialist,Non-academic,Part-time,,,09/22/2026,
+740,https://jobs.missouristate.edu/postings/88146,Clinical Assistant Professor (Nursing),Assistant_Professor,Part-time,School of Nursing is searching for eight,prelicensure BSN program,,"August 10, 2026"
+740,https://jobs.missouristate.edu/postings/88126,Maintenance Technician II,Non-academic,Part-time,,,,
+740,https://jobs.missouristate.edu/postings/88110,Administrative Specialist II (Disability Resource Center),Non-academic,Part-time,,,,
+740,https://jobs.missouristate.edu/postings/88101,Missouri State University Applicant Portal,Non-academic,Part-time,,,,
+740,https://jobs.missouristate.edu/postings/88094,Construction Technician II,Non-academic,Part-time,,,,
+740,https://jobs.missouristate.edu/postings/88148,Assistant Professor (Social Studies and/or History Education),Assistant_Professor,Part-time,,professional service appropriate; Secondary Social Science methods,,08/01/2027
+740,https://jobs.missouristate.edu/postings/88142,Residence Hall Director,Non-academic,Part-time,"Department of Residence Life, Housing and Dining Services and the University",,,
+740,https://jobs.missouristate.edu/postings/88114,Clinical Assistant Professor of Financial Planning -9 month appt,Assistant_Professor,Part-time,,Financial Planning; introduction,,01/11/2027
+740,https://jobs.missouristate.edu/postings/88103,Missouri State University Applicant Portal,Non-academic,Part-time,,,,
+740,https://jobs.missouristate.edu/postings/88096,"Autism Resource Specialist-BCBA (Remote from Kansas City, St. Louis or Central Missouri)",Non-academic,Part-time,,service providers,,
+740,https://jobs.missouristate.edu/postings/88088,"Administrative Assistant I (Residence Life, Housing and Dining Services)",Unclassified,Part-time,,,,
+740,https://jobs.missouristate.edu/postings/88154,"Coordinator, Ph.D. Programs and Training Grants",Non-academic,Part-time,,,,
+740,https://jobs.missouristate.edu/postings/88145,Academic Administrative Assistant III (School of Nursing),Unclassified,Part-time,School of Nursing,,,
+740,https://jobs.missouristate.edu/postings/88121,Assistant Professor (Political Science,Assistant_Professor,Part-time,,professional service appropriate; quantitative methods,,08/01/2027
+740,https://jobs.missouristate.edu/postings/88109,Part-Time Administrative Specialist (Receptionist/Medical Records),Non-academic,Part-time,,,,
+740,https://jobs.missouristate.edu/postings/88100,Missouri State University Applicant Portal,Unclassified,Part-time,,,,
+740,https://jobs.missouristate.edu/postings/88093,Missouri State University Applicant Portal,Unclassified,Part-time,,,,
+740,https://jobs.missouristate.edu/postings/88147,Assistant Professor (Early American History),Assistant_Professor,Part-time,,professional service appropriate; Revolutionary Era,,08/01/2027
+740,https://jobs.missouristate.edu/postings/88134,Missouri State University Applicant Portal,Unclassified,Part-time,,,,
+740,https://jobs.missouristate.edu/postings/88111,Research Administration Specialist,Non-academic,Part-time,,,,
+740,https://jobs.missouristate.edu/postings/88166,Clinical Assistant Professor (Nursing),Assistant_Professor,Part-time,School of Nursing is searching for eight,prelicensure BSN program,,"August 10, 2026"
+740,https://jobs.missouristate.edu/postings/88155,"Assistant Director, Office for Institutional Compliance",Non-academic,Part-time,,,,
+740,https://jobs.missouristate.edu/postings/88168,"Coordinator of Residence Life, Leadership Development and Programming",Non-academic,Part-time,,"Residence Life, Leadership Development and Programming",,
+740,https://jobs.missouristate.edu/postings/88159,Benefits Specialist,Non-academic,Part-time,,,,
+740,https://jobs.missouristate.edu/postings/88165,"Assistant Professor, Library (E-Resource & Serials) 12-month appointment",Assistant_Professor,Part-time,,Library (E-Resource & Serials) 12-month appointment; professional service appropriate,,"February 1, 2027"
+740,https://jobs.missouristate.edu/postings/88167,Assistant Professor (Physical Therapy) -12 month appt,Assistant_Professor,Part-time,,professional service appropriate,,01/01/2027
+740,https://jobs.missouristate.edu/postings/88158,"Coordinator, Ph.D. Programs and Training Grants",Non-academic,Part-time,,,,
+740,https://jobs.missouristate.edu/postings/88163,Clinical Assistant Professor of Financial Planning -9 month appt,Assistant_Professor,Part-time,,Financial Planning; introduction,,01/11/2027

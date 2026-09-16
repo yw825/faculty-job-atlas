@@ -244,6 +244,31 @@
       "title": "Premier Club Coach - Baseball",
       "description": "The Premier Baseball Head Coach oversees all aspects of the college’s Premier Club Baseball program, ",
       "department": null
+    },
+    "https://hcps.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/507": {
+      "title": "Coordinator for Pharmacy (Pharmacy Practice and Pharmacy Sciences)",
+      "description": "",
+      "department": null
+    },
+    "https://hcps.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/529": {
+      "title": "Senior Marketing Strategist",
+      "description": "",
+      "department": null
+    },
+    "https://hcps.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/513": {
+      "title": "Research Associate",
+      "description": "",
+      "department": null
+    },
+    "https://hcps.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/522": {
+      "title": "Student Care Case Manager",
+      "description": "",
+      "department": null
+    },
+    "https://hcps.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/528": {
+      "title": "Public Safety Officer (9:00 pm - 7:00 am)",
+      "description": "Creighton University is looking for an overnight Public Safety Officer to fill an opening on our 9:00 pm - 7:00 am shift (10 Hour shifts). \n\nOfficers protect life and property, demonstrating integrity, community engagement, and sound judgment under pressure. They respond to emergency and non-emergency calls, apply crime prevention techniques, and conduct investigations using surveillance and access records. Officers handle fire and security alarms, provide first aid, engage with students, enforce parking regulations, and assist with vehicle issues. They may also take on dispatcher duties or other assignments as needed.\n\n",
+      "department": null
     }
   },
   "rows": {
@@ -342,7 +367,7 @@
       "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "",
+      "area_key_words": "Executive Education",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -785,11 +810,66 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://hcps.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/507": {
+      "school_id": 840,
+      "posting_url": "https://hcps.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/507",
+      "job_title_in_post": "Coordinator for Pharmacy (Pharmacy Practice and Pharmacy Sciences)",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://hcps.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/529": {
+      "school_id": 840,
+      "posting_url": "https://hcps.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/529",
+      "job_title_in_post": "Senior Marketing Strategist",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://hcps.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/513": {
+      "school_id": 840,
+      "posting_url": "https://hcps.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/513",
+      "job_title_in_post": "Research Associate",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://hcps.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/522": {
+      "school_id": 840,
+      "posting_url": "https://hcps.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/522",
+      "job_title_in_post": "Student Care Case Manager",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://hcps.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/528": {
+      "school_id": 840,
+      "posting_url": "https://hcps.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/528",
+      "job_title_in_post": "Public Safety Officer (9:00 pm - 7:00 am)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 840,
   "status": "complete",
-  "updated_at": "2026-09-05T16:14:04+00:00",
-  "completed_at": "2026-09-05T16:14:04+00:00",
+  "updated_at": "2026-09-15T21:24:32+00:00",
+  "completed_at": "2026-09-15T21:24:32+00:00",
   "last_error": ""
 }

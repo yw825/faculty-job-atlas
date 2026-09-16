@@ -714,6 +714,11 @@
       "title": "Graduate Assistant for University Advancement",
       "description": "Posted: 09/09/2026 Location: UWG Recruiting Location Department: Development Graduate Assistant for University Advancement",
       "department": "Development"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303824&PostingSeq=1&SiteId=54000": {
+      "title": "Food Service Worker",
+      "description": "Posted: 09/15/2026 Location: UWG Recruiting Location Department: Food Services Food Service Worker",
+      "department": "Food Services"
     }
   },
   "rows": {
@@ -2289,11 +2294,22 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303824&PostingSeq=1&SiteId=54000": {
+      "school_id": 285,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303824&PostingSeq=1&SiteId=54000",
+      "job_title_in_post": "Food Service Worker",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Food Services",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 285,
   "status": "complete",
-  "updated_at": "2026-09-15T01:56:22+00:00",
-  "completed_at": "2026-09-15T01:56:22+00:00",
+  "updated_at": "2026-09-15T20:09:57+00:00",
+  "completed_at": "2026-09-15T20:09:57+00:00",
   "last_error": ""
 }

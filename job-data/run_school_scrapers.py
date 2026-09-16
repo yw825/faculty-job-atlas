@@ -50,16 +50,17 @@ INFO_CODE = os.path.join(HERE, 'school_job_info_code')
 VERIFY_FMT = os.path.join(HERE, 'careers_link_verification_{country}.csv')
 
 
-# BaseException, not Exception: nearly every scraper wraps each page in
-# `except Exception` so one bad posting can't sink the school, and those
-# handlers were swallowing the alarm. Temasek Polytechnic's title loop ate
-# it and ran 45 minutes past a 300s limit, stalling the whole refresh. The
-# libraries' `finally` blocks still save checkpoints on the way out.
-class Timeout(BaseException):
-    pass
+# The per-school limit is a BaseException (job_postings_lib.ScrapeTimeout),
+# not Exception: nearly every scraper wraps each page in `except Exception`
+# so one bad posting can't sink the school, and those handlers swallowed an
+# Exception-based alarm -- Temasek Polytechnic's title loop ate it and ran
+# 45 minutes past a 300s limit. The libraries' `finally` blocks still save
+# checkpoints on the way out.
+Timeout = lib.ScrapeTimeout
 
 
 def _alarm(signum, frame):
+    lib.mark_school_deadline()      # lets the dead-session guard re-raise the limit
     raise Timeout()
 
 
@@ -192,12 +193,17 @@ def main():
         finally:
             signal.alarm(0)
 
+        # A timeout that lands mid page-load kills Playwright's session, and
+        # the scraper's own `finally: page.close()` then replaces the Timeout
+        # with a "session is dead" error. Label by the clock, not the text.
+        if status == 'error' and time.time() - t0 >= args.timeout:
+            status, err = 'timeout', f'exceeded {args.timeout}s ({err[:100]})'
+
         if status not in ('complete',):
-            # Never let one school's blown-up browser poison the rest.
-            try:
-                lib.close_browser()
-            except Exception:
-                pass
+            # Never let one school's blown-up browser poison the rest -- and
+            # never ask it to close itself: close() on a dead session is what
+            # spun this process at 100% CPU for hours (Temasek, WashU).
+            lib.reset_browser()
 
         counts[status if status in counts else 'error'] = \
             counts.get(status if status in counts else 'error', 0) + 1

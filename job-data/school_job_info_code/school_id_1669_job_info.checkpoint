@@ -1099,6 +1099,31 @@
       "title": "DTU Tenure Track Researcher in Climate Change Impacts on Pavement Infrastructure - DTU Sustain",
       "description": "We seek an emerging research leader with the vision and ambition to develop an internationally recognized research programme dealing with modelling climate change impacts on pavement infrastructure and investigating adaptation strategies to address these impacts.",
       "department": null
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8193": {
+      "title": "Eksternt lektorat i Bygningsdesign - Akustik - DTU Construct",
+      "description": "Institut for Byggeri og Mekanisk Teknologi søger ekstern lektor indenfor bygningsakustik til at indgå i Bygningsdesignuddannelsen.",
+      "department": null
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8192": {
+      "title": "Want to help rethink the foundation of the internet? Become a PhD student at DTU Electro",
+      "description": "You will join an international research environment developing new ways of transmitting data - more energy-efficiently, more scalably, and with fewer active components.",
+      "department": null
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8191": {
+      "title": "Part-time External Relations & Ecosystem Associate - DTU Space",
+      "description": "Join DTU Space Ventures as our External Relations & Ecosystem Associate. You'll support our digital presence, help run workshops and pitch events, and assist in spotting technology transfer opportunities linking Danish innovators to the wider European space network.",
+      "department": null
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8194": {
+      "title": "Process Specialist for E-beam and UV Lithography - DTU Nanolab",
+      "description": "DTU Nanolab seeks an experienced process specialist in e-beam and UV lithography. The role includes process development, equipment maintenance, QC, and user training on advanced lithography systems. Ideal candidates have an MSc/PhD and strong cleanroom, e-beam, and UV lithography expertise. ",
+      "department": null
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8195": {
+      "title": "Part-time academic employee - DTU Physics",
+      "description": "Academic employee for quantum hardware remote control development. Working hours are on average 16 hours per week",
+      "department": null
     }
   },
   "rows": {
@@ -3521,11 +3546,66 @@
       "area_key_words": "Climate Change Impacts on Pavement Infrastructure",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8193": {
+      "school_id": 1669,
+      "posting_url": "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8193",
+      "job_title_in_post": "Eksternt lektorat i Bygningsdesign - Akustik - DTU Construct",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8192": {
+      "school_id": 1669,
+      "posting_url": "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8192",
+      "job_title_in_post": "Want to help rethink the foundation of the internet? Become a PhD student at DTU Electro",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8191": {
+      "school_id": 1669,
+      "posting_url": "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8191",
+      "job_title_in_post": "Part-time External Relations & Ecosystem Associate - DTU Space",
+      "position_type": "Unclassified",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "DTU Space",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8194": {
+      "school_id": 1669,
+      "posting_url": "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8194",
+      "job_title_in_post": "Process Specialist for E-beam and UV Lithography - DTU Nanolab",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8195": {
+      "school_id": 1669,
+      "posting_url": "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8195",
+      "job_title_in_post": "Part-time academic employee - DTU Physics",
+      "position_type": "Unclassified",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "DTU Physics",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1669,
   "status": "complete",
-  "updated_at": "2026-09-14T23:20:01+00:00",
-  "completed_at": "2026-09-14T23:20:01+00:00",
+  "updated_at": "2026-09-16T02:42:58+00:00",
+  "completed_at": "2026-09-16T02:42:58+00:00",
   "last_error": ""
 }

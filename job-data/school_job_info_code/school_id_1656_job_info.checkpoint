@@ -325,6 +325,13 @@
     "https://usask.csod.com/ux/ats/careersite/14/requisition/15006": {
       "title": "Welcome - Realize Your Potential: Cornerstone",
       "description": "Welcome - Realize Your Potential: Cornerstone"
+    },
+    "https://usask.csod.com/ux/ats/careersite/14/requisition/15594": {
+      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+    },
+    "https://usask.csod.com/ux/ats/careersite/14/requisition/15550": {
+      "title": "Welcome - Realize Your Potential: Cornerstone",
+      "description": "Welcome - Realize Your Potential: Cornerstone"
     }
   },
   "rows": {
@@ -961,11 +968,25 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://usask.csod.com/ux/ats/careersite/14/requisition/15594": {
+      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+    },
+    "https://usask.csod.com/ux/ats/careersite/14/requisition/15550": {
+      "school_id": 1656,
+      "posting_url": "https://usask.csod.com/ux/ats/careersite/14/requisition/15550",
+      "job_title_in_post": "Welcome - Realize Your Potential: Cornerstone",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1656,
   "status": "complete",
-  "updated_at": "2026-09-14T23:16:57+00:00",
-  "completed_at": "2026-09-14T23:16:57+00:00",
+  "updated_at": "2026-09-16T02:41:54+00:00",
+  "completed_at": "2026-09-16T02:41:54+00:00",
   "last_error": ""
 }

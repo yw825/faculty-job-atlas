@@ -314,6 +314,11 @@
       "title": "Facilities Data Specialist",
       "description": "Posted: 09/09/2026 Location: Georgia College & State Univ Department: Facilities Planning Facilities Data Specialist",
       "department": "Facilities Planning"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303708&PostingSeq=1&SiteId=36000": {
+      "title": "Lecturer of Anatomy and Physiology",
+      "description": "Posted: 09/15/2026 Location: Georgia College & State Univ Department: Biological & Environmental Sci Lecturer of Anatomy and Physiology",
+      "department": "Biological & Environmental Sci"
     }
   },
   "rows": {
@@ -1009,11 +1014,22 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303708&PostingSeq=1&SiteId=36000": {
+      "school_id": 305,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303708&PostingSeq=1&SiteId=36000",
+      "job_title_in_post": "Lecturer of Anatomy and Physiology",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "Biological & Environmental Sci",
+      "area_key_words": "Anatomy and Physiology",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 305,
   "status": "complete",
-  "updated_at": "2026-09-15T02:00:45+00:00",
-  "completed_at": "2026-09-15T02:00:45+00:00",
+  "updated_at": "2026-09-15T20:14:26+00:00",
+  "completed_at": "2026-09-15T20:14:26+00:00",
   "last_error": ""
 }

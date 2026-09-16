@@ -129,6 +129,21 @@
       "title": "Booking Coordinator & Event Operations Assistant, Athletics (Part-Time)",
       "description": "This position reports primarily to the Associate Athletic Director – Capital Projects & Event Management, with secondary reporting lines to the Assistant Athletic Director for Events & Facilities and the Assistant Director of Internal Operations. The role is designed to support the generation of revenue by maximizing external athletic facility rentals while also supporting the management of ancillary events in athletic facilities (including Hinkle Fieldhouse) for sporting events and external events.",
       "department": null
+    },
+    "https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2180": {
+      "title": "Assistant Professor, Psychology",
+      "description": "The Department of Psychology at Butler University (Indianapolis, IN) invites applications for a tenure-track Assistant Professor in Biological or Cognitive Psychology to start in August 2027. We seek a colleague who is committed to inclusive undergraduate teaching and collaborative research with undergraduate students. The Butler Psychology Department values candidates who share our commitment to engagement and inclusion of students, faculty, and staff with diverse backgrounds, perspectives, and experiences.",
+      "department": null
+    },
+    "https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2181": {
+      "title": "Assistant Professor of Music Education",
+      "description": "FACULTY POSITION IN GENERAL MUSIC EDUCATION BEGINNING AUGUST 2027\n\nPOSITION: Assistant Professor of Music Education, tenure-track\n\nRANK AND SALARY: Competitive and commensurate with experience and qualifications.",
+      "department": null
+    },
+    "https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2184": {
+      "title": "Area Coordinator",
+      "description": "The Area Coordinator serves as a member of the Residence Life team that provides vision and direction for their residential community for an undergraduate on-campus population of 2700 with a 3-year campus live on requirement. The Area Coordinator is responsible for the management and supervision of one of four residential areas, each housing approximately 500-700 residents and direct supervision and evaluation of the Resident Assistant student staff of 12-19.\n\nLive-In Benefits:\n- Furnished Apartment\n- Utilities \n- Assigned Parking Space\n- Meal Plan (Academic Year)\n- Laundry\n- Gym Membership (on campus)\n- Pets Welcome\n",
+      "department": null
     }
   },
   "rows": {
@@ -417,11 +432,44 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2180": {
+      "school_id": 431,
+      "posting_url": "https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2180",
+      "job_title_in_post": "Assistant Professor, Psychology",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Department of Psychology",
+      "area_key_words": "Psychology",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2181": {
+      "school_id": 431,
+      "posting_url": "https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2181",
+      "job_title_in_post": "Assistant Professor of Music Education",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Music Education",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2184": {
+      "school_id": 431,
+      "posting_url": "https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2184",
+      "job_title_in_post": "Area Coordinator",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 431,
   "status": "complete",
-  "updated_at": "2026-09-15T02:15:35+00:00",
-  "completed_at": "2026-09-15T02:15:35+00:00",
+  "updated_at": "2026-09-15T20:22:30+00:00",
+  "completed_at": "2026-09-15T20:22:30+00:00",
   "last_error": ""
 }

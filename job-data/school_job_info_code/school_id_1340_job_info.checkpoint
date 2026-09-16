@@ -23,6 +23,10 @@
     "https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=DEB43C3FD051B594AA4F4829C8587DC3&filters[positiontype][]=71": {
       "title": "Loading...",
       "description": "Loading... You need to enable JavaScript to run this app."
+    },
+    "https://www.cumberland.edu/faculty-login/": {
+      "title": "Faculty Login",
+      "description": "Faculty Login - Cumberland University Skip to content About Alumni Directory News Events Give Select Language ​ ▼ Student Login Faculty Login Login Search for: Academics Admissions Financial Athletics Student Life Apply Now Student Login Faculty Login Login Search for: Facebook Twitter Instagram LinkedIn Youtube Academics Admissions Financial Athletics Student Life Apply Now About Alumni Directory News Events Give Facebook Twitter Instagram LinkedIn Youtube Faculty and Staff Login Cumberland University employees can access a variety of online resources that are intended to provide support and enhance their experiences. Intranet Faculty/Staff Email Advocate/Academic Integrity Form Scholarship Application CANVAS Student First Faculty Login Intranet Cumberland University’s intranet portal provides employees with relevant forms and resources they may need during their career at Cumberland. Once logged in, employees can access Paycom/HR, submit IT and facilities requests, access Cumberland University’s brand guide, submit design requests, and more. Login Faculty & Staff Email Email is a significant channel for professional communication and a way to receive important campus news and updates. Login to your Cumberland Gmail account to access your email. Gmail Log In Advocate/Academic Integrity Form At Cumberland University, students, faculty, and staff are expected to act with the highest level of integrity at all times. When necessary, employees may submit a detailed Public Incident Report to be reviewed by the Dean of Students and addressed accordingly. File Report Scholarship Application If you are working with a student to find a scholarship that best fits their criteria, please direct them to this form. Fill Out Application CANVAS Canvas is an online course management tool you will utilize to display course related content. Canvas Log In Student First Faculty Login Student First Faculty Portal is your online tool that allows you to manage attendance and grades for all your classes. Student First Log In Password Reset New to Cumberland or just forgot your password? Use the button below for an account password reset. Reset Password Care Connection The Care Team is committed to serving our community by aiding students who encounter barriers that may limit their success. The team promotes the academic, social, and mental well-being of students and provides supportive care, connections to campus and community resources.  Anyone can submit a Care Connection regarding a student(s) health, safety, and overall well being. Learn More Event Reservation and Request The Event Reservation Form should be used to request facility space for events, meetings, and other on-campus gatherings. Submit reservation request Event Setup Form The Event Setup Form should be used to request event setups for events. ALL event setup requests must be submitted at least two weeks prior to the date of the event. Submit setup form Incident Report Form Cumberland University encourages all members of the University community who believe that they have witnessed, experienced, or are aware of conduct that constitutes hazing in violation of this policy to report the violation to the Dean of Students or Campus Security. Incident report form Transform your future and shape the world around you. Beyond Get In Touch 615-444-2562 800-467-0562 615-444-2569 (fax) 1 Cumberland Square Lebanon, TN 37087-3408 Student Login Faculty Login Facebook Twitter Instagram LinkedIn Youtube About + - Accreditation + - Alumni + - Athletics + - Employment + - Policies & Consumer Information + - COVID-19 + - News + - Admissions + - Undergraduate + - Graduate + - Dual Enrollment + - Parents + - Academics + - Bookstore + - Catalog + - Programs + - Registrar + - Student Success + - Vise Library + - Financial + - Start FAFSA + - Tuition and Fees + - Student Life + - Dining + - Residence Life + - Offices & Services + - Academic Coaches + - Campus Security + - Counseling Services + - Health Services + - Office of Accessibility + - Office of Information Technology + - Office of Advancement + - Office of Marketing and Communications + - Title IX + - 2026 Cumberland University Sitemap Privacy Policy Original text Rate this translation Your feedback will be used to help improve Google Translate Close ×"
     }
   },
   "rows": {
@@ -91,11 +95,22 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://www.cumberland.edu/faculty-login/": {
+      "school_id": 1340,
+      "posting_url": "https://www.cumberland.edu/faculty-login/",
+      "job_title_in_post": "Faculty Login",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1340,
   "status": "complete",
-  "updated_at": "2026-09-09T19:31:16+00:00",
-  "completed_at": "2026-09-09T19:31:16+00:00",
+  "updated_at": "2026-09-16T00:45:12+00:00",
+  "completed_at": "2026-09-16T00:45:12+00:00",
   "last_error": ""
 }

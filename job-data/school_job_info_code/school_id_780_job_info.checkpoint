@@ -224,6 +224,31 @@
       "title": "Physical Plant Temporary Summer Worker",
       "description": "Perform a variety of facilities maintenance work to include grounds and mechanical general type duties in support of physical plant summer tasks throughout college-owned facilities. ",
       "department": null
+    },
+    "https://fa-exci-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/1040": {
+      "title": "Assistant Professor of English",
+      "description": "The Department of English at Davidson College invites applications for a full-time tenure-track position in Creative Nonfiction and the Literature of the Sciences at the Assistant Professor level, beginning July 1, 2027. An M.F.A. or Ph.D. in Creative Writing is expected by the date of appointment, along with a strong record of publication in creative nonfiction. Undergraduate teaching experience is preferred. Davidson is particularly interested in candidates dedicated to undergraduate teaching and to a sustained creative practice.",
+      "department": null
+    },
+    "https://fa-exci-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/1031": {
+      "title": "Campus Police Officer",
+      "description": "Davidson campus police are sworn law enforcement officers and hold all the same powers as North Carolina municipal and county police officers granted under state statue 74-G.  They maintain close relationships with other area police departments and work closely with the Davidson Police Department on community outreach initiatives and crime prevention.  ",
+      "department": null
+    },
+    "https://fa-exci-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/1005": {
+      "title": "Assistant Equipment Manager",
+      "description": "This position will work with Olympic Sport coaches to guide them with ordering, embellishment, inventory, and distribution for Olympic Sports teams. Adheres to OSHA requirements, and NCAA regulations with regard to equipment safety and compliance. ",
+      "department": null
+    },
+    "https://fa-exci-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/1039": {
+      "title": "Dining Services Supervisor - Davis Cafe",
+      "description": "The Dining Services Supervisor is responsible and accountable for supervision of associates in a fast paced, excellence focused college food service operation. This is a 9-month, 40 hour per week position and is required to work nights and weekends. The person working this position will have primary supervisory/ manager on duty responsibilities in one of the dining operations but may be assigned to other areas as needed. The Dining Services Supervisor monitors individual performances of all associates under their care, including training, coaching, and motivation. ",
+      "department": null
+    },
+    "https://fa-exci-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/1041": {
+      "title": "Guest Services Temp",
+      "description": "Join our Guest House Team at Davidson College!  The Carnegie Guest House is a bed and breakfast located on Davidson's campus.  Guests are typically alumni of the college, parents of current students, or prospective students and their families.  We are seeking a positive individual to perform general housekeeping, interact with our overnight guests, help set up breakfast each morning, assist with guest check-in/check-out, and support the supervising staff with day to day operations. ",
+      "department": null
     }
   },
   "rows": {
@@ -721,11 +746,66 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://fa-exci-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/1040": {
+      "school_id": 780,
+      "posting_url": "https://fa-exci-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/1040",
+      "job_title_in_post": "Assistant Professor of English",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Department of English",
+      "area_key_words": "English",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-exci-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/1031": {
+      "school_id": 780,
+      "posting_url": "https://fa-exci-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/1031",
+      "job_title_in_post": "Campus Police Officer",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-exci-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/1005": {
+      "school_id": 780,
+      "posting_url": "https://fa-exci-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/1005",
+      "job_title_in_post": "Assistant Equipment Manager",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-exci-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/1039": {
+      "school_id": 780,
+      "posting_url": "https://fa-exci-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/1039",
+      "job_title_in_post": "Dining Services Supervisor - Davis Cafe",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-exci-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/1041": {
+      "school_id": 780,
+      "posting_url": "https://fa-exci-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/1041",
+      "job_title_in_post": "Guest Services Temp",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 780,
   "status": "complete",
-  "updated_at": "2026-09-09T06:36:44+00:00",
-  "completed_at": "2026-09-09T06:36:44+00:00",
+  "updated_at": "2026-09-15T21:09:27+00:00",
+  "completed_at": "2026-09-15T21:09:27+00:00",
   "last_error": ""
 }

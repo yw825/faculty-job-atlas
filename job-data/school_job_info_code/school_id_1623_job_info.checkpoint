@@ -39,6 +39,10 @@
     "https://ontariotechu.csod.com/ux/ats/careersite/4/requisition/2243": {
       "title": "+ Cornerstone OnDemand +",
       "description": "+ Cornerstone OnDemand + Password Login 26.2.4.17 | Forgot Password?"
+    },
+    "https://ontariotechu.csod.com/ux/ats/careersite/4/requisition/2246": {
+      "title": "+ Cornerstone OnDemand +",
+      "description": "+ Cornerstone OnDemand + Password Login 26.2.4.17 | Forgot Password?"
     }
   },
   "rows": {
@@ -151,11 +155,22 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://ontariotechu.csod.com/ux/ats/careersite/4/requisition/2246": {
+      "school_id": 1623,
+      "posting_url": "https://ontariotechu.csod.com/ux/ats/careersite/4/requisition/2246",
+      "job_title_in_post": "+ Cornerstone OnDemand +",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1623,
   "status": "complete",
-  "updated_at": "2026-09-14T22:59:06+00:00",
-  "completed_at": "2026-09-14T22:59:06+00:00",
+  "updated_at": "2026-09-16T02:37:54+00:00",
+  "completed_at": "2026-09-16T02:37:54+00:00",
   "last_error": ""
 }

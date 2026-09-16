@@ -1,9 +1,47 @@
 {
-  "raw": {},
-  "rows": {},
+  "raw": {
+    "https://rocky.edu/faculty-staff/": {
+      "title": "faculty staff",
+      "description": ""
+    },
+    "https://rocky.edu/career-services/": {
+      "title": "career services",
+      "description": ""
+    },
+    "https://rocky.edu/wp-content/uploads/2026/02/application-faculty_2026.pdf": {
+      "error": "RuntimeError: pdf fetch failed status=403"
+    }
+  },
+  "rows": {
+    "https://rocky.edu/faculty-staff/": {
+      "school_id": 759,
+      "posting_url": "https://rocky.edu/faculty-staff/",
+      "job_title_in_post": "faculty staff",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://rocky.edu/career-services/": {
+      "school_id": 759,
+      "posting_url": "https://rocky.edu/career-services/",
+      "job_title_in_post": "career services",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://rocky.edu/wp-content/uploads/2026/02/application-faculty_2026.pdf": {
+      "error": "RuntimeError: pdf fetch failed status=403"
+    }
+  },
   "school_id": 759,
   "status": "complete",
-  "updated_at": "2026-09-14T21:36:19+00:00",
-  "completed_at": "2026-09-14T21:36:19+00:00",
+  "updated_at": "2026-09-15T20:53:39+00:00",
+  "completed_at": "2026-09-15T20:53:39+00:00",
   "last_error": ""
 }

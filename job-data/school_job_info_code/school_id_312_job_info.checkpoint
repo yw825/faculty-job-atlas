@@ -1134,6 +1134,16 @@
       "title": "Student Assistant - Rehabilitation and Independent Living - Disability Personal Trainer (Fall 2026)",
       "description": "Posted: 07/16/2026 Location: Statesboro, Georgia Department: Ctr for Rehab.& Indep. Living Student Assistant - Rehabilitation and Independent Living - Disability Personal Trainer (Fall 2026)",
       "department": "Ctr for Rehab.& Indep. Living"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303780&PostingSeq=1&SiteId=39000": {
+      "title": "Project Manager I - Building Envelope",
+      "description": "Posted: 09/14/2026 Location: Statesboro, Georgia Department: Facilities Plan Design/Constr Project Manager I - Building Envelope",
+      "department": "Facilities Plan Design/Constr"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302265&PostingSeq=1&SiteId=39000": {
+      "title": "Compliance Specialist - Internal Audit, Risk & Compliance",
+      "description": "Posted: 08/11/2026 Location: Statesboro, Georgia Department: Int Audit, Risk & Compliance Compliance Specialist - Internal Audit, Risk & Compliance",
+      "department": "Int Audit, Risk & Compliance"
     }
   },
   "rows": {
@@ -3633,11 +3643,33 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303780&PostingSeq=1&SiteId=39000": {
+      "school_id": 312,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303780&PostingSeq=1&SiteId=39000",
+      "job_title_in_post": "Project Manager I - Building Envelope",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "Facilities Plan Design/Constr",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302265&PostingSeq=1&SiteId=39000": {
+      "school_id": 312,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302265&PostingSeq=1&SiteId=39000",
+      "job_title_in_post": "Compliance Specialist - Internal Audit, Risk & Compliance",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "Int Audit, Risk & Compliance",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 312,
   "status": "complete",
-  "updated_at": "2026-09-15T02:01:46+00:00",
-  "completed_at": "2026-09-15T02:01:46+00:00",
+  "updated_at": "2026-09-15T20:14:54+00:00",
+  "completed_at": "2026-09-15T20:14:54+00:00",
   "last_error": ""
 }

@@ -75,6 +75,34 @@
     "https://academic.careers.columbia.edu/#assistant-professor-of-medical-psychology-in-psychiatry-at-c": {
       "title": "Assistant Professor of Medical Psychology (in Psychiatry) at CUMC",
       "description": "ngIf: item.close_date ngIf: !item.close_date Open until filled end ngIf: !item.close_date · ngIf: item.discipline Psychiatry end ngRepeat: item in filteredResults  | orderBy:sortKey:true | limitTo : itemLimit : itemLimit * (page -1) Faculty - All Ranks - Instructor /Assistant Professor / Associate Professor/ Professor  (All Surgical Specialities) ngIf: item.close_date ngIf: !item.close_date Open until filled end ngIf: !item.close_date · ngIf: item.discipline Surgery end ngRepeat: item in filteredResults  | orderBy:sortKey:true | limitTo : itemLimit : itemLimit * (page -1)"
+    },
+    "https://academic.careers.columbia.edu/#postdoctoral-research-fellow": {
+      "title": "Postdoctoral Research Fellow",
+      "description": "ngIf: item.close_date ngIf: !item.close_date Open until filled end ngIf: !item.close_date · ngIf: item.discipline Neurology end ngRepeat: item in filteredResults  | orderBy:sortKey:true | limitTo : itemLimit : itemLimit * (page -1) Faculty- All Ranks (Assistant, Associate, Professor) - Associate Director, Regulatory & Safety, PET Center ngIf: item.close_date ngIf: !item.close_date Open until filled end ngIf: !item.close_date · ngIf: item.discipline Radiology end ngRepeat: item in filteredResults  | orderBy:sortKey:true | limitTo : itemLimit : itemLimit * (page -1)"
+    },
+    "https://academic.careers.columbia.edu/#assistant-professor-of-pediatrics-at-cumc": {
+      "title": "Assistant Professor of Pediatrics at CUMC",
+      "description": "ngIf: item.close_date ngIf: !item.close_date Open until filled end ngIf: !item.close_date · ngIf: item.discipline Pediatrics end ngRepeat: item in filteredResults  | orderBy:sortKey:true | limitTo : itemLimit : itemLimit * (page -1)"
+    },
+    "https://academic.careers.columbia.edu/#senior-staff-associate": {
+      "title": "Senior Staff Associate",
+      "description": "ngIf: item.close_date ngIf: !item.close_date Open until filled end ngIf: !item.close_date · ngIf: item.discipline Pediatrics end ngRepeat: item in filteredResults  | orderBy:sortKey:true | limitTo : itemLimit : itemLimit * (page -1)"
+    },
+    "https://academic.careers.columbia.edu/#assistant-professor": {
+      "title": "Assistant Professor",
+      "description": "ngIf: item.close_date ngIf: !item.close_date Open until filled end ngIf: !item.close_date · ngIf: item.discipline Arts and Sciences Core - Academic end ngRepeat: item in filteredResults  | orderBy:sortKey:true | limitTo : itemLimit : itemLimit * (page -1)"
+    },
+    "https://academic.careers.columbia.edu/#assistant-professor-of-evolutionary-biology": {
+      "title": "Assistant Professor of Evolutionary Biology",
+      "description": "ngIf: item.close_date ngIf: !item.close_date Open until filled end ngIf: !item.close_date · ngIf: item.discipline Department of Ecology, Evolution and Environmental Biology end ngRepeat: item in filteredResults  | orderBy:sortKey:true | limitTo : itemLimit : itemLimit * (page -1)"
+    },
+    "https://academic.careers.columbia.edu/#open-rank-instructor-assistant-professor-associate-professor": {
+      "title": "Open Rank: Instructor/Assistant Professor/Associate Professor/Professor_GEM",
+      "description": "ngIf: item.close_date ngIf: !item.close_date Open until filled end ngIf: !item.close_date · ngIf: item.discipline Emergency Medicine end ngRepeat: item in filteredResults  | orderBy:sortKey:true | limitTo : itemLimit : itemLimit * (page -1)"
+    },
+    "https://academic.careers.columbia.edu/#instructor-in-dermatology-physician-scientist": {
+      "title": "Instructor in Dermatology - Physician/Scientist",
+      "description": "ngIf: item.close_date ngIf: !item.close_date Open until filled end ngIf: !item.close_date · ngIf: item.discipline Dermatology end ngRepeat: item in filteredResults  | orderBy:sortKey:true | limitTo : itemLimit : itemLimit * (page -1)"
     }
   },
   "rows": {
@@ -286,11 +314,88 @@
       "area_key_words": "Medical Psychology",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://academic.careers.columbia.edu/#postdoctoral-research-fellow": {
+      "school_id": 965,
+      "posting_url": "https://academic.careers.columbia.edu/#postdoctoral-research-fellow",
+      "job_title_in_post": "Postdoctoral Research Fellow",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://academic.careers.columbia.edu/#assistant-professor-of-pediatrics-at-cumc": {
+      "school_id": 965,
+      "posting_url": "https://academic.careers.columbia.edu/#assistant-professor-of-pediatrics-at-cumc",
+      "job_title_in_post": "Assistant Professor of Pediatrics at CUMC",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Pediatrics at CUMC",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://academic.careers.columbia.edu/#senior-staff-associate": {
+      "school_id": 965,
+      "posting_url": "https://academic.careers.columbia.edu/#senior-staff-associate",
+      "job_title_in_post": "Senior Staff Associate",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://academic.careers.columbia.edu/#assistant-professor": {
+      "school_id": 965,
+      "posting_url": "https://academic.careers.columbia.edu/#assistant-professor",
+      "job_title_in_post": "Assistant Professor",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://academic.careers.columbia.edu/#assistant-professor-of-evolutionary-biology": {
+      "school_id": 965,
+      "posting_url": "https://academic.careers.columbia.edu/#assistant-professor-of-evolutionary-biology",
+      "job_title_in_post": "Assistant Professor of Evolutionary Biology",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Evolutionary Biology",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://academic.careers.columbia.edu/#open-rank-instructor-assistant-professor-associate-professor": {
+      "school_id": 965,
+      "posting_url": "https://academic.careers.columbia.edu/#open-rank-instructor-assistant-professor-associate-professor",
+      "job_title_in_post": "Open Rank: Instructor/Assistant Professor/Associate Professor/Professor_GEM",
+      "position_type": "Assistant_Professor; Associate_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Open Rank",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://academic.careers.columbia.edu/#instructor-in-dermatology-physician-scientist": {
+      "school_id": 965,
+      "posting_url": "https://academic.careers.columbia.edu/#instructor-in-dermatology-physician-scientist",
+      "job_title_in_post": "Instructor in Dermatology - Physician/Scientist",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Dermatology",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 965,
   "status": "complete",
-  "updated_at": "2026-09-09T01:37:02+00:00",
-  "completed_at": "2026-09-09T01:37:02+00:00",
+  "updated_at": "2026-09-15T22:34:49+00:00",
+  "completed_at": "2026-09-15T22:34:49+00:00",
   "last_error": ""
 }

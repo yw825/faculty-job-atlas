@@ -63,6 +63,10 @@
     "https://careers.must.edu.mo/recruitment-latest-details?0=673&from=RecruitmentLatest": {
       "title": "招聘網-澳門科技大學",
       "description": "招聘網-澳門科技大學 很抱歉，如果不啟用JavaScript，網站將無法正常運作。請開啟後繼續。"
+    },
+    "https://careers.must.edu.mo/recruitment-latest-details?0=680&from=RecruitmentLatest": {
+      "title": "招聘網-澳門科技大學",
+      "description": "招聘網-澳門科技大學 很抱歉，如果不啟用JavaScript，網站將無法正常運作。請開啟後繼續。"
     }
   },
   "rows": {
@@ -241,11 +245,22 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://careers.must.edu.mo/recruitment-latest-details?0=680&from=RecruitmentLatest": {
+      "school_id": 1852,
+      "posting_url": "https://careers.must.edu.mo/recruitment-latest-details?0=680&from=RecruitmentLatest",
+      "job_title_in_post": "招聘網-澳門科技大學",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1852,
   "status": "complete",
-  "updated_at": "2026-09-14T23:50:50+00:00",
-  "completed_at": "2026-09-14T23:50:50+00:00",
+  "updated_at": "2026-09-16T03:02:03+00:00",
+  "completed_at": "2026-09-16T03:02:03+00:00",
   "last_error": ""
 }

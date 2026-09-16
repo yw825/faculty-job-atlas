@@ -1,8 +1,13 @@
 {
-  "links": [],
+  "links": [
+    "https://rocky.edu/faculty-staff/",
+    "https://rocky.edu/career-services/",
+    "https://rocky.edu/wp-content/uploads/2026/02/application-faculty_2026.pdf"
+  ],
   "school_id": 759,
-  "status": "error",
-  "updated_at": "2026-09-14T18:26:27+00:00",
+  "status": "complete",
+  "updated_at": "2026-09-15T17:17:51+00:00",
   "started_at": "2026-09-14T18:26:20+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+  "last_error": "",
+  "completed_at": "2026-09-15T17:17:51+00:00"
 }

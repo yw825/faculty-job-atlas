@@ -40,10 +40,13 @@ detailed progress; run_checkpointed only guarantees no *already-found* link
 is ever lost across runs, and that a total connection failure is recorded
 as 'error', never silently read back as "confirmed zero postings".
 """
+import asyncio
 import csv
 import json
 import os
 import re
+import signal
+import subprocess
 import time
 from datetime import datetime, timezone
 from urllib.parse import urlparse, urlsplit, urljoin, parse_qs
@@ -82,6 +85,119 @@ def close_browser():
     if _pw:
         _pw.stop()
         _pw = None
+
+
+# --------------------------------------------------------------------------
+# Surviving a dead Playwright session.
+#
+# The runner's SIGALRM timeout can land inside a Playwright call, and a
+# browser can crash mid-page. Either way Playwright's dispatcher greenlet
+# dies, and every later sync call -- including the page.close() in nearly
+# every scraper's `finally` and close_browser() itself -- loops forever in
+# SyncBase._sync (`while not task.done(): dispatcher.switch()` returns at
+# once on a dead greenlet). That spun Temasek Polytechnic's run and
+# Washington University's at 100% CPU for hours, stalling whole refreshes.
+#
+# _guarded_sync is Playwright 1.62's _sync with one addition: if the
+# dispatcher is dead, raise an ordinary Error instead of spinning. Scrapers'
+# own `except Exception` handlers then see a normal failure. reset_browser()
+# then discards the session without calling into it, so the next school
+# starts a fresh browser. Re-check _guarded_sync against _sync_base.py when
+# upgrading Playwright.
+# --------------------------------------------------------------------------
+
+class ScrapeTimeout(BaseException):
+    """The per-school wall-clock limit (raised by run_school_scrapers' SIGALRM
+    handler). BaseException so a scraper's `except Exception` can't swallow
+    it."""
+
+
+# Set when the limit fires, cleared by reset_browser(). A limit that lands
+# mid page-load kills the Playwright session, and the scraper's own
+# `finally: page.close()` then hits the dead session -- if that raised an
+# ordinary Error it would REPLACE the ScrapeTimeout, get caught by the
+# scraper's `except Exception`, and the school would carry on past its limit
+# caching "session is dead" as each posting's result (seen on Washington
+# University, 2026-09-14). While this is set, the guard re-raises the limit.
+_school_deadline_passed = False
+
+
+def mark_school_deadline():
+    global _school_deadline_passed
+    _school_deadline_passed = True
+
+
+def clear_school_deadline():
+    global _school_deadline_passed
+    _school_deadline_passed = False
+
+
+def _install_dead_session_guard():
+    try:
+        import greenlet
+        from playwright._impl import _sync_base
+        from playwright._impl._errors import Error as PlaywrightError
+    except ImportError:
+        return
+
+    def _dead_session():
+        if _school_deadline_passed:
+            return ScrapeTimeout()
+        return PlaywrightError("Playwright session is dead (dispatcher stopped)")
+
+    def _guarded_sync(self, coro):
+        __tracebackhide__ = True
+        if self._loop.is_closed():
+            coro.close()
+            raise PlaywrightError("Event loop is closed! Is Playwright already stopped?")
+        if self._dispatcher_fiber.dead:
+            coro.close()
+            raise _dead_session()
+        g_self = greenlet.getcurrent()
+        task = self._loop.create_task(coro)
+        setattr(task, "__pw_stack__", _sync_base._capture_stack_trace())
+        setattr(task, "__pw_stack_trace__", _sync_base.traceback.extract_stack(limit=10))
+        task.add_done_callback(lambda _: g_self.switch())
+        while not task.done():
+            if self._dispatcher_fiber.dead:
+                task.cancel()
+                raise _dead_session()
+            self._dispatcher_fiber.switch()
+        asyncio._set_running_loop(self._loop)
+        return task.result()
+
+    _sync_base.SyncBase._sync = _guarded_sync
+
+
+if sync_playwright is not None:
+    _install_dead_session_guard()
+
+
+def _descendant_pids(pid):
+    out = []
+    ps = subprocess.run(['pgrep', '-P', str(pid)], capture_output=True, text=True)
+    for child in ps.stdout.split():
+        out.append(int(child))
+        out.extend(_descendant_pids(int(child)))
+    return out
+
+
+def reset_browser():
+    """Drop the shared browser WITHOUT asking it to close -- use after any
+    failed school. Kills this process's Playwright driver and browser
+    processes, forgets the session, and clears the event loop Playwright
+    left marked as running (otherwise the next sync_playwright().start()
+    refuses with "using Playwright Sync API inside the asyncio loop")."""
+    global _pw, _browser
+    for pid in reversed(_descendant_pids(os.getpid())):
+        try:
+            os.kill(pid, signal.SIGKILL)
+        except ProcessLookupError:
+            pass
+    _browser = None
+    _pw = None
+    asyncio._set_running_loop(None)
+    clear_school_deadline()
 
 
 def now_iso():

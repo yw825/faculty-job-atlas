@@ -1,1 +1,16 @@
-{"links": ["https://www.warren-wilson.edu/admission/first-year-students/", "https://www.warren-wilson.edu/admission/transfer-students/", "https://www.warren-wilson.edu/admission/international-students/", "https://www.warren-wilson.edu/admission/graduate-students/", "https://www.warren-wilson.edu/admission/tuition-and-aid/"], "school_id": 813, "status": "complete", "updated_at": "2026-09-14T18:29:16+00:00", "started_at": "2026-09-08T02:18:10+00:00", "completed_at": "2026-09-14T18:29:16+00:00", "last_error": ""}
+{
+  "links": [
+    "https://www.warren-wilson.edu/admission/first-year-students/",
+    "https://www.warren-wilson.edu/admission/transfer-students/",
+    "https://www.warren-wilson.edu/admission/international-students/",
+    "https://www.warren-wilson.edu/admission/graduate-students/",
+    "https://www.warren-wilson.edu/admission/tuition-and-aid/",
+    "https://www.warren-wilson.edu/admission/new-students-spring/"
+  ],
+  "school_id": 813,
+  "status": "complete",
+  "updated_at": "2026-09-15T17:20:49+00:00",
+  "started_at": "2026-09-08T02:18:10+00:00",
+  "completed_at": "2026-09-15T17:20:49+00:00",
+  "last_error": ""
+}

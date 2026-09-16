@@ -43,6 +43,10 @@
     "https://viterbo.applicantpro.com/jobsearch/?classification=Adjunct_Faculty_Positions": {
       "title": "Current Job Listings",
       "description": "Job Listings - Viterbo University Jobs Current Job Listings Jobs Login Sign Up For Job Alerts! Resources 2025 Annual Security and Fire Safety Report Administrative and Hourly Positions Faculty Positions Adjunct Faculty Positions About La Crosse Campus Map Holiday Schedule Hiring Software Maintained by isolved Talent Acquisition - © 2026 Refresh"
+    },
+    "https://viterbo.applicantpro.com/jobsearch/?classification=Adjunct_College_of_Business_Leadership_Ethics": {
+      "title": "Job Listings",
+      "description": "Job Listings - Viterbo University Jobs Current Job Listings Jobs Login Below is a list of the current openings at Viterbo University. Click on the job title to learn more about the opening. Search Jobs Clear Filters City State Employment Type Department Pay Frequency Number of Jobs: 3 Sort By Adjunct Professor -Education La Crosse, WI, USA | Academics - School of Education | Adjunct - Semester Contract Posted: Aug 31, 2026 Closing Date: Until Filled View Job Adjunct Professor Pool - College of Business and Leadership La Crosse, WI, USA | Academics - College of Business, Leadership, Ethics | Adjunct - Semester Contract Posted: Aug 31, 2026 Closing Date: Until Filled View Job Adjunct Professor-Accounting La Crosse, WI, USA | Academics - College of Business, Leadership, Ethics | Adjunct - Semester Contract Posted: Aug 31, 2026 Closing Date: Until Filled View Job Sign Up For Job Alerts! Name You must type a name. Email You must type a valid email. Location (city, state or zip code) You must select a location. Accept Terms of Service I agree to the terms of service and privacy policy. You must accept the terms of service and privacy policy. Send Me Jobs Would you like Refer.io to send you similar jobs from other employers? Yes, daily! Yes, weekly! No, thanks. Please type the job title you are interested in: Job title You must type a job title. We'll send some jobs to you in the next 30 minutes. If you don't see them, check your spam folder. Next Resume Input Select file Resume File You must select a file. Upload Resume upload later Thank you for subscribing to receive job alerts. You should start receiving emails in the next week. Your file is uploading. Please wait a few seconds. Enter your phone number if you'd like to receive job alerts for in via text message. Phone number You must type a phone number. Please indicate if you agree to Refer.io's Subscriber Communication Policy . Please indicate if you agree to Refer.io's Subscriber Communication Policy. Select an option Yes, I agree to be contacted by text messages No, I do not agree to receive text messages You must agree to our Subscriber Communication Policy in order to receive text messages from Refer.io. Yes, why not? Not now Refer.io can assist in your job search. Please answer the following questions to amplify your search results. Education status Education status In School Graduated Never Attended Partially completed You must select an education status answer. Work status Work status Currently employed Out of work Temporary job You must select a work status answer. Job search status Job search status Actively looking for a job Passively looking for a job Not looking for a job You must select a job search status answer. Seeking for Employment goal Similar Job to What I Do Now Progress to a Higher Job in the Same Field Jump to a New Field of Work You must select a seeking status answer. Job type Job type Full Time Part Time From Home You must select a job type answer. Next powered by Refer.io Refer.io Resources 2025 Annual Security and Fire Safety Report Administrative and Hourly Positions Faculty Positions Adjunct Faculty Positions About La Crosse Campus Map Holiday Schedule Follow Us On Social Media Hiring Software Maintained by isolved Talent Acquisition - © 2026 Refresh"
     }
   },
   "rows": {
@@ -130,7 +134,7 @@
       "position_type": "Full_Professor",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "",
+      "area_key_words": "Education",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -166,11 +170,22 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://viterbo.applicantpro.com/jobsearch/?classification=Adjunct_College_of_Business_Leadership_Ethics": {
+      "school_id": 1542,
+      "posting_url": "https://viterbo.applicantpro.com/jobsearch/?classification=Adjunct_College_of_Business_Leadership_Ethics",
+      "job_title_in_post": "Job Listings",
+      "position_type": "Unclassified",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1542,
   "status": "complete",
-  "updated_at": "2026-09-09T00:25:13+00:00",
-  "completed_at": "2026-09-09T00:25:13+00:00",
+  "updated_at": "2026-09-16T02:05:13+00:00",
+  "completed_at": "2026-09-16T02:05:13+00:00",
   "last_error": ""
 }

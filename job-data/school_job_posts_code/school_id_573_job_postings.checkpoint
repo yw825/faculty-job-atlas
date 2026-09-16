@@ -59,9 +59,9 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/3C67A483237F6A324625AB95D568B0C1/jobs/48064"
   ],
   "school_id": 573,
-  "status": "complete",
-  "updated_at": "2026-09-14T18:10:51+00:00",
+  "status": "error",
+  "updated_at": "2026-09-15T17:01:53+00:00",
   "started_at": "2026-09-08T17:52:04+00:00",
   "completed_at": "2026-09-14T18:10:51+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: no paycom postings found"
 }
