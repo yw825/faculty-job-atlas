@@ -1708,6 +1708,7 @@ function loadJobs(){
    of these fields. */
 const SUBJECT_AREAS = [
   ['Business Analytics',           'business analytics|data analytics|\\banalytics\\b|operations research|decision scienc'],
+  ['Operations Research',          'operations research|operations management|management scien|decision scien|optimi[sz]ation|stochastic|queue?ing|supply chain|logistics|industrial engineer'],
   ['Data Science & AI',            'data scienc|artificial intelligence|machine learning|deep learning|data mining'],
   ['Information Systems',          'information system|management information|information technolog|informatics'],
   ['Statistics',                   'statistic|biostatistic|probabilit|econometric'],
@@ -1870,14 +1871,16 @@ function jobsMatchingFilters(ignoreSubjects, ignoreRanks){
       const hay = jobSearchText(j, withTitle);
       if(!terms.every(t => hay.indexOf(t) !== -1)) return false;
     }
-    // "Available now" judges only on dates the posting actually states: a
-    // closing date already past means gone, and a start date already past
-    // means the posting is stale. A posting that states neither is KEPT --
-    // silence is not evidence that a job has closed, and most postings are
-    // silent (only a minority give either date).
+    // "Available now" judges ONLY on the closing date: past means gone.
+    // The start date is deliberately ignored -- it is when the post begins,
+    // not when applications close, so a start date in the past says nothing
+    // about whether the job is still open. Filtering on it hid 1,277
+    // postings that state a closing date still in the future (631 of them
+    // faculty), Bucknell's Business Analytics opening among them.
+    // A posting that states no closing date is KEPT -- silence is not
+    // evidence that a job has closed, and most postings are silent.
     if(onlyAvailable){
       if(j.x && j.x < todayIso) return false;
-      if(j.b && j.b < todayIso) return false;
     }
     /* "First seen": j.n is the date a refresh first saw the posting, present
        only for the last 30 days. The baseline is the first run, when every
@@ -1951,14 +1954,12 @@ function applyJobFilters(){
   updateSubjectCounts(jobsMatchingFilters(true, false), fJobTitle.checked);
   updateRankCounts(jobsMatchingFilters(false, true));
 
-  // How honest the optional date filters can be, stated rather than implied.
-  const withStart = jobs.filter(j => j.b).length;
+  // How honest the optional date filter can be, stated rather than implied.
   const withDeadline = jobs.filter(j => j.x).length;
-  const dated = jobs.filter(j => j.b || j.x).length;
   jobDateHint.textContent = jobs.length
-    ? 'Drops postings whose closing date has passed, or whose start date has. '+
-      dated+' of '+jobs.length+' shown state either date ('+withDeadline+' a closing date, '+
-      withStart+' a start date); the rest state neither and are kept.'
+    ? 'Drops postings whose closing date has passed. A start date in the past '+
+      'is ignored -- it says nothing about whether applications closed. '+
+      withDeadline+' of '+jobs.length+' shown state a closing date; the rest state none and are kept.'
     : '';
 
   const bySchool = new Map();
