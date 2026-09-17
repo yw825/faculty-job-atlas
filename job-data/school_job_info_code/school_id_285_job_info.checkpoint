@@ -719,6 +719,31 @@
       "title": "Food Service Worker",
       "description": "Posted: 09/15/2026 Location: UWG Recruiting Location Department: Food Services Food Service Worker",
       "department": "Food Services"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303883&PostingSeq=1&SiteId=54000": {
+      "title": "Graduate Assistant for School Counseling",
+      "description": "Posted: 09/16/2026 Location: UWG Recruiting Location Department: Coun, Higher Ed, & Speech Lang Graduate Assistant for School Counseling",
+      "department": "Coun, Higher Ed, & Speech Lang"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303872&PostingSeq=1&SiteId=54000": {
+      "title": "Food Service - Lead",
+      "description": "Posted: 09/15/2026 Location: UWG Recruiting Location Department: Food Services Food Service - Lead",
+      "department": "Food Services"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303839&PostingSeq=1&SiteId=54000": {
+      "title": "HVAC/R Technician Associate",
+      "description": "Posted: 09/15/2026 Location: UWG Recruiting Location Department: FDS - Building Maintenance HVAC/R Technician Associate",
+      "department": "FDS - Building Maintenance"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303830&PostingSeq=1&SiteId=54000": {
+      "title": "Student Assistant - Library Circulation",
+      "description": "Posted: 09/15/2026 Location: UWG Recruiting Location Department: Library Student Assistant - Library Circulation",
+      "department": "Library"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302541&PostingSeq=1&SiteId=54000": {
+      "title": "Student Assistant - Bluestone Social Media Manager",
+      "description": "Posted: 08/17/2026 Location: UWG Recruiting Location Department: School of Comm,Film, and Media Student Assistant - Bluestone Social Media Manager",
+      "department": "School of Comm,Film, and Media"
     }
   },
   "rows": {
@@ -2305,11 +2330,66 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303883&PostingSeq=1&SiteId=54000": {
+      "school_id": 285,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303883&PostingSeq=1&SiteId=54000",
+      "job_title_in_post": "Graduate Assistant for School Counseling",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Coun, Higher Ed, & Speech Lang",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303872&PostingSeq=1&SiteId=54000": {
+      "school_id": 285,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303872&PostingSeq=1&SiteId=54000",
+      "job_title_in_post": "Food Service - Lead",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Food Services",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303839&PostingSeq=1&SiteId=54000": {
+      "school_id": 285,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303839&PostingSeq=1&SiteId=54000",
+      "job_title_in_post": "HVAC/R Technician Associate",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "FDS - Building Maintenance",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303830&PostingSeq=1&SiteId=54000": {
+      "school_id": 285,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303830&PostingSeq=1&SiteId=54000",
+      "job_title_in_post": "Student Assistant - Library Circulation",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Library",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302541&PostingSeq=1&SiteId=54000": {
+      "school_id": 285,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302541&PostingSeq=1&SiteId=54000",
+      "job_title_in_post": "Student Assistant - Bluestone Social Media Manager",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "School of Comm,Film, and Media",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 285,
   "status": "complete",
-  "updated_at": "2026-09-15T20:09:57+00:00",
-  "completed_at": "2026-09-15T20:09:57+00:00",
+  "updated_at": "2026-09-16T21:01:08+00:00",
+  "completed_at": "2026-09-16T21:01:08+00:00",
   "last_error": ""
 }

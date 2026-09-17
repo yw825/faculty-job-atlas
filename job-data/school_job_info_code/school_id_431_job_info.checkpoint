@@ -144,6 +144,16 @@
       "title": "Area Coordinator",
       "description": "The Area Coordinator serves as a member of the Residence Life team that provides vision and direction for their residential community for an undergraduate on-campus population of 2700 with a 3-year campus live on requirement. The Area Coordinator is responsible for the management and supervision of one of four residential areas, each housing approximately 500-700 residents and direct supervision and evaluation of the Resident Assistant student staff of 12-19.\n\nLive-In Benefits:\n- Furnished Apartment\n- Utilities \n- Assigned Parking Space\n- Meal Plan (Academic Year)\n- Laundry\n- Gym Membership (on campus)\n- Pets Welcome\n",
       "department": null
+    },
+    "https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2191": {
+      "title": "Assistant Professor, History",
+      "description": "The Department of History, Anthropology, and Classics at Butler University invites applications for a full-time, tenure-track Assistant Professor in Latin American history starting in August 2027. We seek a Latin American historian with an innovative and potentially interdisciplinary approach to the discipline. We are particularly interested in candidates whose teaching and research complement and expand the department’s existing areas of expertise and course offerings. \n",
+      "department": null
+    },
+    "https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2187": {
+      "title": "FT Research Technician",
+      "description": "This research assistant is a grant-funded position to support a recently awarded research grant from the LEAP program of the Burroughs-Wellcome Foundation. This research assistant will work full-time in the organic chemistry laboratory performing organic synthesis and characterization.",
+      "department": null
     }
   },
   "rows": {
@@ -465,11 +475,33 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2191": {
+      "school_id": 431,
+      "posting_url": "https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2191",
+      "job_title_in_post": "Assistant Professor, History",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Department of History, Anthropology, and Classics",
+      "area_key_words": "History",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2187": {
+      "school_id": 431,
+      "posting_url": "https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2187",
+      "job_title_in_post": "FT Research Technician",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 431,
   "status": "complete",
-  "updated_at": "2026-09-15T20:22:30+00:00",
-  "completed_at": "2026-09-15T20:22:30+00:00",
+  "updated_at": "2026-09-16T21:12:21+00:00",
+  "completed_at": "2026-09-16T21:12:21+00:00",
   "last_error": ""
 }

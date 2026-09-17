@@ -489,6 +489,21 @@
       "title": "Postdoctoral Fellow",
       "description": "The Tulane Global Humanities Center (TGHC) at Tulane University invites applications for an Editorial Humanities postdoctoral fellow. \n\nThis position is designed for postdoctoral candidates who are interested in pursuing careers in academic publishing, editorial work, and/or public humanities, or exploring career options while developing professional skills. The primary expectation is to provide operational support for the work of Public Culture, an eminent scholarly journal in the humanities and humanistic social sciences, whose editorial sponsorship (i.e., editorial home) has recently moved to Tulane’s TGHC. This will involve the reading and evaluation of unsolicited manuscripts and, working with the journal’s Editor-in-Chief, Managing Editor, and Senior Editorial Board, the shepherding of articles and other materials through the editorial and publication process. \n\n\n",
       "department": null
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/1762": {
+      "title": "Professor of Practice",
+      "description": "The Department of River Coastal Science and Engineering at Tulane University invites applications for a Professor of Practice position to begin on August 1, 2027. The initial appointment will be for three years, with the possibility of renewal. This is a 9-month teaching-focused appointment with a 3+3 teaching load. Candidates must hold a PhD (or MS with extensive professional experience) in Civil Engineering. We seek a candidate with background and experience in the Structural or Geotechnical Engineering area. Specific teaching responsibilities will include: River Structures, Coastal Structures, Professional Development, Geotechnical Engineering, and  Capstone Design.Tulane University is a private Carnegie-R1 university and a member of the prestigious Association of American Universities (AAU). Tulane brings together bold and creative scholars, scientists, and students who are committed to crossing boundaries.ent. New Orleans location.",
+      "department": null
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/1945": {
+      "title": "Postdoctoral Fellow",
+      "description": "A Postdoctoral Fellow position available in the Department of Pathology and Laboratory Medicine at Tulane University School of Medicine. ",
+      "department": null
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/1883": {
+      "title": "Professor",
+      "description": "Open Rank Faculty Position in Epidemiology\n\nThe Department of Epidemiology at Tulane University’s Celia Scott Weatherhead School of Public Health and Tropical Medicine invites applications for an open-rank tenure-track or tenured faculty position. We seek an outstanding investigator to assume a leadership role in the Bogalusa Heart Study (BHS) and help shape the next era of this landmark longitudinal cohort. For more than 50 years, the Bogalusa Heart Study has followed children and adults in a community in southeastern Louisiana. It is one of the world’s longest-running health studies, notable for a biracial population and location in the rural south. and has generated an extraordinary body of research on cardiovascular and life-course health. \n\n",
+      "department": null
     }
   },
   "rows": {
@@ -1569,11 +1584,44 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/1762": {
+      "school_id": 521,
+      "posting_url": "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/1762",
+      "job_title_in_post": "Professor of Practice",
+      "position_type": "Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Department of River Coastal Science and Engineering",
+      "area_key_words": "Practice",
+      "deadline_of_application": "August 1, 2027",
+      "position_start_date": ""
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/1945": {
+      "school_id": 521,
+      "posting_url": "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/1945",
+      "job_title_in_post": "Postdoctoral Fellow",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "Department of Pathology and Laboratory Medicine",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/1883": {
+      "school_id": 521,
+      "posting_url": "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/1883",
+      "job_title_in_post": "Professor",
+      "position_type": "Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Department of Epidemiology",
+      "area_key_words": "life-course health; cardiovascular",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 521,
   "status": "complete",
-  "updated_at": "2026-09-15T20:28:29+00:00",
-  "completed_at": "2026-09-15T20:28:29+00:00",
+  "updated_at": "2026-09-16T21:19:08+00:00",
+  "completed_at": "2026-09-16T21:19:08+00:00",
   "last_error": ""
 }

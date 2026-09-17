@@ -75,6 +75,10 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/4271964D5A23CB0A237D41AAC40830FA/jobs/125132": {
       "title": "Loading...",
       "description": "Loading... You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/4271964D5A23CB0A237D41AAC40830FA/jobs/83246": {
+      "title": "Campus Security Officer PT",
+      "description": "Campus Security Officer PT You need to enable JavaScript to run this app. Careers Sign In Create Account Campus Security Officer PT Hot Job Emory, VA 24327; Marion, VA 24354 Apply Overview Salary Range $20.00 Hourly Position Type Part Time Staff Job Shift Any Education Level High School Apply Description About this position: Emory & Henry University Campus Police Department is now accepting applications for the position of part-time Police or Campus Safety Officer for the Emory and Marion Campuses. This part-time position is a pooled position and will be utilized primarily for operational relief on a periodic basis. Qualifications About our ideal candidate: This position requires a Department of Criminal Justice Services (CSO) certification. The training to obtain this certification will be provided by our department. Candidates for this position must possess a high school degree or equivalent, be at least 21 years of age, and have a valid driver’s license. A background check/criminal history will be conducted. Experience in the law enforcement or security field is a plus. Terms of Use | Privacy Policy | © 2026 Paycom | All Rights Reserved. X This website uses cookies to customize and improve your experience. If you are a California resident, you may be entitled to certain rights regarding your personal information. Additional information about our data collection practices and location specific notices is available on our privacy policy. Accept Cookies"
     }
   },
   "rows": {
@@ -286,11 +290,22 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/4271964D5A23CB0A237D41AAC40830FA/jobs/83246": {
+      "school_id": 1463,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/4271964D5A23CB0A237D41AAC40830FA/jobs/83246",
+      "job_title_in_post": "Campus Security Officer PT",
+      "position_type": "Unclassified",
+      "job_term": "Part-time",
+      "department_or_school": "Department of Criminal Justice Services",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1463,
   "status": "complete",
-  "updated_at": "2026-09-16T01:19:57+00:00",
-  "completed_at": "2026-09-16T01:19:57+00:00",
+  "updated_at": "2026-09-16T22:52:14+00:00",
+  "completed_at": "2026-09-16T22:52:14+00:00",
   "last_error": ""
 }

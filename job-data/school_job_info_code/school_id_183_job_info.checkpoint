@@ -259,6 +259,14 @@
     "https://jobs.hr.uconn.edu/cw/en-us/job/499014/qualified-craft-worker-plumbing-and-steamfitting-multiple-positionsvarious-work-schedules-four-positions": {
       "title": "UConn Careers",
       "description": "UConn Careers | UConn Careers | University of Connecticut"
+    },
+    "https://jobs.hr.uconn.edu/cw/en-us/job/499852/human-resources-assistant-uea-3": {
+      "title": "UConn Careers",
+      "description": "UConn Careers | UConn Careers | University of Connecticut"
+    },
+    "https://jobs.hr.uconn.edu/cw/en-us/job/499413/water-pollution-control-operator-1-40-hour-work-week-work-schedule-tbd-dependent-on-operating-needs-1st-shift-sunday-thursday-or-1st-shift-tuesday-saturday-1-position": {
+      "title": "UConn Careers",
+      "description": "UConn Careers | UConn Careers | University of Connecticut"
     }
   },
   "rows": {
@@ -976,11 +984,33 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://jobs.hr.uconn.edu/cw/en-us/job/499852/human-resources-assistant-uea-3": {
+      "school_id": 183,
+      "posting_url": "https://jobs.hr.uconn.edu/cw/en-us/job/499852/human-resources-assistant-uea-3",
+      "job_title_in_post": "UConn Careers",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://jobs.hr.uconn.edu/cw/en-us/job/499413/water-pollution-control-operator-1-40-hour-work-week-work-schedule-tbd-dependent-on-operating-needs-1st-shift-sunday-thursday-or-1st-shift-tuesday-saturday-1-position": {
+      "school_id": 183,
+      "posting_url": "https://jobs.hr.uconn.edu/cw/en-us/job/499413/water-pollution-control-operator-1-40-hour-work-week-work-schedule-tbd-dependent-on-operating-needs-1st-shift-sunday-thursday-or-1st-shift-tuesday-saturday-1-position",
+      "job_title_in_post": "UConn Careers",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 183,
   "status": "complete",
-  "updated_at": "2026-09-15T20:05:06+00:00",
-  "completed_at": "2026-09-15T20:05:06+00:00",
+  "updated_at": "2026-09-16T20:56:39+00:00",
+  "completed_at": "2026-09-16T20:56:39+00:00",
   "last_error": ""
 }

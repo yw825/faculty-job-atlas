@@ -29,8 +29,8 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1428
 SCHOOL_NAME = 'Trinity University'
-CAREERS_LINK = 'https://trinity.edu/hr/careers'
-ATS_PLATFORM = 'own website'
+CAREERS_LINK = 'https://trinity.wd1.myworkdayjobs.com/Trinity_University'
+ATS_PLATFORM = 'Workday'
 USE_LLM = False
 
 JOB_POSTINGS_CHECKPOINT = os.path.join(

@@ -839,6 +839,46 @@
       "title": "Full Time Temporary Central Receiving Utility Worker (978454)",
       "description": "",
       "department": null
+    },
+    "https://fa-evyu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/967": {
+      "title": "PRN Patient Care Specialist, JCCHC",
+      "description": "",
+      "department": null
+    },
+    "https://fa-evyu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1291": {
+      "title": "Temporary Professional- Ortho (M&M and PEC)",
+      "description": "",
+      "department": null
+    },
+    "https://fa-evyu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1292": {
+      "title": "Temporary Professional- Ortho (Research)",
+      "description": "",
+      "department": null
+    },
+    "https://fa-evyu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1293": {
+      "title": "Temporary Professional - Surgery",
+      "description": "",
+      "department": null
+    },
+    "https://fa-evyu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1297": {
+      "title": "Temporary Exempt Faculty",
+      "description": "",
+      "department": null
+    },
+    "https://fa-evyu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1313": {
+      "title": "Senior Physical Security Technician",
+      "description": "",
+      "department": null
+    },
+    "https://fa-evyu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1296": {
+      "title": "Records Analyst 2, Office of the Registrar (132050)",
+      "description": "",
+      "department": null
+    },
+    "https://fa-evyu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1306": {
+      "title": "Custodian",
+      "description": "",
+      "department": null
     }
   },
   "rows": {
@@ -2689,11 +2729,99 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://fa-evyu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/967": {
+      "school_id": 1337,
+      "posting_url": "https://fa-evyu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/967",
+      "job_title_in_post": "PRN Patient Care Specialist, JCCHC",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-evyu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1291": {
+      "school_id": 1337,
+      "posting_url": "https://fa-evyu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1291",
+      "job_title_in_post": "Temporary Professional- Ortho (M&M and PEC)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-evyu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1292": {
+      "school_id": 1337,
+      "posting_url": "https://fa-evyu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1292",
+      "job_title_in_post": "Temporary Professional- Ortho (Research)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-evyu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1293": {
+      "school_id": 1337,
+      "posting_url": "https://fa-evyu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1293",
+      "job_title_in_post": "Temporary Professional - Surgery",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-evyu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1297": {
+      "school_id": 1337,
+      "posting_url": "https://fa-evyu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1297",
+      "job_title_in_post": "Temporary Exempt Faculty",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Temporary Exempt",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-evyu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1313": {
+      "school_id": 1337,
+      "posting_url": "https://fa-evyu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1313",
+      "job_title_in_post": "Senior Physical Security Technician",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-evyu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1296": {
+      "school_id": 1337,
+      "posting_url": "https://fa-evyu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1296",
+      "job_title_in_post": "Records Analyst 2, Office of the Registrar (132050)",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-evyu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1306": {
+      "school_id": 1337,
+      "posting_url": "https://fa-evyu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1306",
+      "job_title_in_post": "Custodian",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1337,
   "status": "complete",
-  "updated_at": "2026-09-16T00:45:02+00:00",
-  "completed_at": "2026-09-16T00:45:02+00:00",
+  "updated_at": "2026-09-16T22:45:24+00:00",
+  "completed_at": "2026-09-16T22:45:24+00:00",
   "last_error": ""
 }

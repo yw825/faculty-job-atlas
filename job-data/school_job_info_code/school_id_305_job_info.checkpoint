@@ -319,6 +319,21 @@
       "title": "Lecturer of Anatomy and Physiology",
       "description": "Posted: 09/15/2026 Location: Georgia College & State Univ Department: Biological & Environmental Sci Lecturer of Anatomy and Physiology",
       "department": "Biological & Environmental Sci"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303391&PostingSeq=1&SiteId=36000": {
+      "title": "Assistant Professor of Aquatic Biology GCSU 2027",
+      "description": "Posted: 09/16/2026 Location: Georgia College & State Univ Department: Biological & Environmental Sci Assistant Professor of Aquatic Biology GCSU 2027",
+      "department": "Biological & Environmental Sci"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303689&PostingSeq=1&SiteId=36000": {
+      "title": "Customer Relations Management (Slate) Captain",
+      "description": "Posted: 09/16/2026 Location: Georgia College & State Univ Department: Enrollment Management Customer Relations Management (Slate) Captain",
+      "department": "Enrollment Management"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303750&PostingSeq=1&SiteId=36000": {
+      "title": "Office Coordinator II",
+      "description": "Posted: 09/16/2026 Location: Georgia College & State Univ Department: Resident Dining Office Coordinator II",
+      "department": "Resident Dining"
     }
   },
   "rows": {
@@ -1025,11 +1040,44 @@
       "area_key_words": "Anatomy and Physiology",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303391&PostingSeq=1&SiteId=36000": {
+      "school_id": 305,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303391&PostingSeq=1&SiteId=36000",
+      "job_title_in_post": "Assistant Professor of Aquatic Biology GCSU 2027",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Biological & Environmental Sci",
+      "area_key_words": "Aquatic Biology GCSU 2027",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303689&PostingSeq=1&SiteId=36000": {
+      "school_id": 305,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303689&PostingSeq=1&SiteId=36000",
+      "job_title_in_post": "Customer Relations Management (Slate) Captain",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Enrollment Management",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303750&PostingSeq=1&SiteId=36000": {
+      "school_id": 305,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303750&PostingSeq=1&SiteId=36000",
+      "job_title_in_post": "Office Coordinator II",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "Resident Dining",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 305,
   "status": "complete",
-  "updated_at": "2026-09-15T20:14:26+00:00",
-  "completed_at": "2026-09-15T20:14:26+00:00",
+  "updated_at": "2026-09-16T21:05:17+00:00",
+  "completed_at": "2026-09-16T21:05:17+00:00",
   "last_error": ""
 }

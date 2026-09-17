@@ -14,7 +14,7 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes,scrap
 21,Amridge University,US,https://www.amridgeuniversity.edu/,http://www.amridgeuniversity.edu/about/employment/,own website,medium,OK:2,generic scraper
 22,Auburn University at Montgomery,US,https://www.aum.edu/,https://jobs.aum.edu/aum-careers-home/jobs?tags2=Faculty,own website,medium,OK-2hop:OK:16,generic scraper
 28,Troy University,US,https://www.troy.edu/,https://www.troyuniversityjobs.com/postings/search?utf8=%E2%9C%93&query=&query_v0_posted_at_date=&3481%5B%5D=3&225=&435=&commit=Search,PeopleAdmin,high,"OK:7 | white-label PeopleAdmin, confirmed via atom feed probe",generic scraper
-30,The University of Alabama,US,https://www.ua.edu/,https://careers.ua.edu/faculty,own website,medium,OK-2hop:OK:16,generic scraper
+30,The University of Alabama,US,https://www.ua.edu/,https://careers.ua.edu/jobs/search,own website,medium,OK-2hop:OK:16,generic scraper
 32,Henderson State University,US,https://www.hsu.edu/,https://phe.tbe.taleo.net/phe02/ats/careers/v2/jobSearch?act=redirectCwsV2&cws=48&org=ARKASTAT2,Taleo,high,OK-2hop:OK:13,generic scraper (verified working)
 34,Lyon College,US,https://www.lyon.edu/,http://www.lyon.edu/employment,own website,medium,OK-2hop:OK:5,generic scraper
 35,University of the Ozarks,US,https://ozarks.edu/,https://ozarks.edu/about/employment/,own website,medium,OK-2hop:OK:2,generic scraper
@@ -1108,7 +1108,7 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes,scrap
 1424,St. Mary's University,US,https://www.stmarytx.edu/,https://www.stmarytx.edu/about/jobs/,own website,medium,OK-2hop:OK:3,generic scraper
 1425,Texas A&M University-San Antonio,US,https://www.tamusa.edu/,https://tamus.wd1.myworkdayjobs.com/TAMUSA_External,Workday,high,OK-2hop:OK:8,adapter built
 1427,The University of Texas at San Antonio,US,https://www.utsa.edu/,https://www.utsa.edu/people-excellence/careers/,own website,medium,OK-2hop:OK:2,generic scraper
-1428,Trinity University,US,https://new.trinity.edu/,https://trinity.edu/hr/careers,own website,high,playwright_failed:Error;hand-verified-sync,generic scraper
+1428,Trinity University,US,https://new.trinity.edu/,https://trinity.wd1.myworkdayjobs.com/Trinity_University,Workday,high,playwright_failed:Error;hand-verified-sync,generic scraper
 1429,University of the Incarnate Word,US,https://www.uiw.edu/,https://jobs.uiw.edu/postings/search,PeopleAdmin,medium,"OK-2hop:OK:5 | white-label PeopleAdmin, confirmed via atom feed probe",generic scraper
 1430,Texas State University,US,https://www.txst.edu/,https://jobs.hr.txstate.edu/postings/search?utf8=%E2%9C%93&query=&query_v0_posted_at_date=&query_position_type_id%5B%5D=2&435=&commit=Search,PeopleAdmin,medium,"OK-2hop:OK:6 | white-label PeopleAdmin, confirmed via atom feed probe",generic scraper
 1431,Texas Lutheran University,US,https://www.tlu.edu/,https://www.tlu.edu/about-tlu/careers-at-tlu/faculty-positions/,own website,medium,OK-2hop:OK:11,generic scraper

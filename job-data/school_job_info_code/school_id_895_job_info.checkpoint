@@ -291,6 +291,10 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/2881FFE43C19E2921F626A9C2B366153/jobs/237086": {
       "title": "Loading...",
       "description": "Loading... You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/2881FFE43C19E2921F626A9C2B366153/jobs/237718": {
+      "title": "Student Employee",
+      "description": "Student Employee (52875) You need to enable JavaScript to run this app. Careers Sign In Create Account Student Employee (52875) Las Vegas, NM 87701 Apply Overview Salary Range $14.00 Hourly Position Type Part Time - Reg Education Level High School or GED Travel Percentage None Category Student Apply Description Assist with data entry and maintaining department records. Prepare and organize documents and informational materials. Help organize and distribute department communications and announcements. Assist faculty and staff with special projects and program-related administrative tasks as assigned. Qualifications Current graduate student at NMHU. Preferred Qualifications: Dependable, professional, and punctual with a strong work ethic. Ability to prioritize tasks, manage multiple responsibilities, and meet deadlines. Demonstrated organizational skills and attention to detail. Excellent verbal and written communication skills. Demonstrated professional dispositions. Share job details to Terms of Use | Privacy Policy | © 2026 Paycom | All Rights Reserved. X This website uses cookies to customize and improve your experience. If you are a California resident, you may be entitled to certain rights regarding your personal information. Additional information about our data collection practices and location specific notices is available on our privacy policy. Accept Cookies"
     }
   },
   "rows": {
@@ -1096,11 +1100,22 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/2881FFE43C19E2921F626A9C2B366153/jobs/237718": {
+      "school_id": 895,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/2881FFE43C19E2921F626A9C2B366153/jobs/237718",
+      "job_title_in_post": "Student Employee",
+      "position_type": "Unclassified",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 895,
   "status": "complete",
-  "updated_at": "2026-09-15T22:14:07+00:00",
-  "completed_at": "2026-09-15T22:14:07+00:00",
+  "updated_at": "2026-09-16T21:50:07+00:00",
+  "completed_at": "2026-09-16T21:50:07+00:00",
   "last_error": ""
 }

@@ -384,6 +384,12 @@
     },
     "https://lingnan.csod.com/ux/ats/careersite/4/requisition/3091": {
       "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+    },
+    "https://lingnan.csod.com/ux/ats/careersite/4/requisition/3094": {
+      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+    },
+    "https://lingnan.csod.com/ux/ats/careersite/4/requisition/3093": {
+      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
     }
   },
   "rows": {
@@ -1156,11 +1162,17 @@
     },
     "https://lingnan.csod.com/ux/ats/careersite/4/requisition/3091": {
       "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+    },
+    "https://lingnan.csod.com/ux/ats/careersite/4/requisition/3094": {
+      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+    },
+    "https://lingnan.csod.com/ux/ats/careersite/4/requisition/3093": {
+      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
     }
   },
   "school_id": 1839,
   "status": "complete",
-  "updated_at": "2026-09-16T02:50:33+00:00",
-  "completed_at": "2026-09-16T02:50:33+00:00",
+  "updated_at": "2026-09-16T23:31:20+00:00",
+  "completed_at": "2026-09-16T23:31:20+00:00",
   "last_error": ""
 }

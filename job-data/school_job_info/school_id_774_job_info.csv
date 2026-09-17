@@ -50,7 +50,7 @@ school_id,posting_url,job_title_in_post,position_type,job_term,department_or_sch
 774,https://unc.peopleadmin.com/postings/324390,UNC-Chapel Hill Employment Opportunities | Clinical Instructor,Non-academic,Part-time,School of Medicine has a rich tradition of excellence and care,,,08/03/2026
 774,https://unc.peopleadmin.com/postings/318612,UNC-Chapel Hill Employment Opportunities | Open Rank Physician Scientist for MPS,Assistant_Professor; Associate_Professor; Full_Professor,Part-time,Division of Genetics and Metabolism in the Department of Pediatrics,special interest,,10/01/2025
 774,https://unc.peopleadmin.com/postings/324752,UNC-Chapel Hill Employment Opportunities | Post-Doc Research Associate - Bachelder Lab (DPMP),Research_Fellow,Part-time,School of Pharmacy,,,
-774,https://unc.peopleadmin.com/postings/320911,UNC-Chapel Hill Employment Opportunities | Post-Doc Research Associate,Research_Fellow,Part-time,College of Arts and Sciences,reinforcement learning; large language models,09/14/2026,10/01/2026
+774,https://unc.peopleadmin.com/postings/320911,UNC-Chapel Hill Employment Opportunities | Post-Doc Research Associate,Research_Fellow,Part-time,College of Arts and Sciences,reinforcement learning; multimodal learning,09/14/2026,10/01/2026
 774,https://unc.peopleadmin.com/postings/324941,UNC-Chapel Hill Employment Opportunities | Research Assistant,Non-academic,Part-time,,Clinical Core,09/09/2026,
 774,https://unc.peopleadmin.com/postings/299365,UNC-Chapel Hill Employment Opportunities | Postdoctoral Fellow,Research_Fellow,Part-time,School of Medicine has a rich tradition of excellence and care,allergy; immunology,,09/05/2022
 774,https://unc.peopleadmin.com/postings/323978,UNC-Chapel Hill Employment Opportunities | Post-Doc Research Associate,Research_Fellow,Part-time,Center of Regulatory Science,tobacco control policy research; systems,,
@@ -187,7 +187,7 @@ school_id,posting_url,job_title_in_post,position_type,job_term,department_or_sch
 774,https://unc.peopleadmin.com/postings/325058,UNC-Chapel Hill Employment Opportunities | Event Specialist – Event Services,Non-academic,Part-time,,,09/09/2026,09/14/2026
 774,https://unc.peopleadmin.com/postings/314013,UNC-Chapel Hill Employment Opportunities | Post-Doc Research Associate - Dr. Nguyen&#39;s lab,Research_Fellow,Part-time,School of Pharmacy,,,
 774,https://unc.peopleadmin.com/postings/324479,UNC-Chapel Hill Employment Opportunities | Post-Doc Research Associate - Williams Lab,Research_Fellow,Part-time,,,,
-774,https://unc.peopleadmin.com/postings/318763,UNC-Chapel Hill Employment Opportunities,Assistant_Professor; Associate_Professor; Full_Professor,Part-time,"Center for Health Services Research, and the Lineberger Comprehensive Cancer Center",order; outcomes,,07/01/2026
+774,https://unc.peopleadmin.com/postings/318763,UNC-Chapel Hill Employment Opportunities,Assistant_Professor; Associate_Professor; Full_Professor,Part-time,"Center for Health Services Research, and the Lineberger Comprehensive Cancer Center",outcomes; order,,07/01/2026
 774,https://unc.peopleadmin.com/postings/324781,UNC-Chapel Hill Employment Opportunities | Dental Assistant,Unclassified,Part-time,School of Dentistry,,09/22/2026,
 774,https://unc.peopleadmin.com/postings/321876,UNC-Chapel Hill Employment Opportunities | Assistant Vice Chancellor of ServiceFirst Health Affairs Shared Services,Non-academic,Part-time,,ServiceFirst Health Affairs Shared Services; Research Administration services along; customer service,"July 13, 2026",08/17/2026
 774,https://unc.peopleadmin.com/postings/324978,UNC-Chapel Hill Employment Opportunities | Laboratory Research Technician,Non-academic,Part-time,,,09/13/2026,09/28/2026
@@ -239,7 +239,7 @@ school_id,posting_url,job_title_in_post,position_type,job_term,department_or_sch
 774,https://unc.peopleadmin.com/postings/325010,UNC-Chapel Hill Employment Opportunities,Non-academic,Part-time,,,09/21/2026,12/07/2026
 774,https://unc.peopleadmin.com/postings/302744,UNC-Chapel Hill Employment Opportunities | Post-Doc Research Associate,Research_Fellow,Part-time,,role of histone post-translational modifications,,
 774,https://unc.peopleadmin.com/postings/324289,UNC-Chapel Hill Employment Opportunities | Admin Support Specialist,Non-academic,Part-time,Department of Applied Physical Sciences,,09/09/2026,
-774,https://unc.peopleadmin.com/postings/318595,UNC-Chapel Hill Employment Opportunities,Assistant_Professor; Associate_Professor; Full_Professor; Research_Fellow,Part-time,School of Medicine has a rich tradition of excellence and care,particularly those; data science,,12/01/2025
+774,https://unc.peopleadmin.com/postings/318595,UNC-Chapel Hill Employment Opportunities,Assistant_Professor; Associate_Professor; Full_Professor; Research_Fellow,Part-time,School of Medicine has a rich tradition of excellence and care,particularly those; academic medical,,12/01/2025
 774,https://unc.peopleadmin.com/postings/324716,UNC-Chapel Hill Employment Opportunities | Assistant Professor,Assistant_Professor,Part-time,School of Pharmacy,,,08/01/2027
 774,https://unc.peopleadmin.com/postings/320502,UNC-Chapel Hill Employment Opportunities,Assistant_Professor; Associate_Professor; Full_Professor,Part-time,,,,06/01/2026
 774,https://unc.peopleadmin.com/postings/324927,UNC-Chapel Hill Employment Opportunities | Associate Director for Financial Aid Training and Staff Development,Assistant_Professor; Associate_Professor; Full_Professor,Part-time,,,09/17/2026,10/12/2026
@@ -572,3 +572,35 @@ school_id,posting_url,job_title_in_post,position_type,job_term,department_or_sch
 774,https://unc.peopleadmin.com/postings/325411,UNC-Chapel Hill Employment Opportunities,Unclassified,Part-time,School of Medicine Finance and Research Service Center,,09/28/2026,10/12/2026
 774,https://unc.peopleadmin.com/postings/325397,Research Associate,Research_Fellow,Part-time,Institute for Risk Management and Insurance Innovation,Insurance Innovation,09/17/2026,09/21/2026
 774,https://unc.peopleadmin.com/postings/325465,UNC-Chapel Hill Employment Opportunities,Unclassified,Part-time,,,,03/01/2026
+774,https://unc.peopleadmin.com/postings/325526,"Chair, Department of Emergency Medicine",Assistant_Professor; Associate_Professor; Full_Professor,Part-time,Department of Emergency Medicine,Emergency Medicine,,07/01/2027
+774,https://unc.peopleadmin.com/postings/325516,Adjunct Instructor,Non-academic,Part-time,faculty for each course,online,10/16/2026,
+774,https://unc.peopleadmin.com/postings/325496,Adjunct Instructor,Unclassified,Part-time,Department of Family Medicine,,09/18/2026,08/31/2026
+774,https://unc.peopleadmin.com/postings/325478,Electric Distribution Systems (EDS) Engineering Technician,Non-academic,Part-time,,,09/24/2026,
+774,https://unc.peopleadmin.com/postings/325549,UNC-Chapel Hill Employment Opportunities,Unclassified,Part-time,,Schools of UNC; without accommodation,10/07/2026,11/09/2026
+774,https://unc.peopleadmin.com/postings/325543,Soc/Clin Research Specialist,Non-academic,Part-time,"Department of Pediatrics, Division of Critical Care Medicine",clinical care environment; conveying information,09/19/2026,10/05/2026
+774,https://unc.peopleadmin.com/postings/325529,Associate Director of Development,Unclassified,Part-time,,Development,10/06/2026,11/01/2026
+774,https://unc.peopleadmin.com/postings/325519,Admin Support Specialist,Non-academic,Part-time,,,09/18/2026,09/28/2026
+774,https://unc.peopleadmin.com/postings/325510,Teaching Assistant Professor,Assistant_Professor,Part-time,"Department of City and Regional Planning, University of North Carolina",urban; regional; Assistant Professor Appointment Type Fixed,11/03/2026,07/01/2027
+774,https://unc.peopleadmin.com/postings/325480,UNC-Chapel Hill Employment Opportunities,Unclassified,Part-time,,,09/25/2026,
+774,https://unc.peopleadmin.com/postings/325472,Director of Energy Management,Non-academic,Part-time,,Energy Management,10/15/2026,12/14/2026
+774,https://unc.peopleadmin.com/postings/325545,Admin Support Specialist for Regional Programs TEMP,Non-academic,Part-time,,,09/21/2026,10/12/2026
+774,https://unc.peopleadmin.com/postings/325536,Research Assistant,Non-academic,Part-time,Center for Health Promotion and Disease Prevention,PowerPoint,09/22/2026,10/01/2026
+774,https://unc.peopleadmin.com/postings/325522,Research Data Scientist,Unclassified,Part-time,,graph analysis Experience; computer vision,09/30/2026,11/02/2026
+774,https://unc.peopleadmin.com/postings/325512,UNC-Chapel Hill Employment Opportunities,Non-academic,Part-time,,,10/16/2026,
+774,https://unc.peopleadmin.com/postings/325489,UNC-Chapel Hill Employment Opportunities,Unclassified,Part-time,,,09/18/2026,10/01/2026
+774,https://unc.peopleadmin.com/postings/325474,UNC-Chapel Hill Employment Opportunities,Assistant_Professor; Associate_Professor; Full_Professor,Part-time,,,10/01/2026,11/02/2026
+774,https://unc.peopleadmin.com/postings/325548,UNC-Chapel Hill Employment Opportunities,Unclassified,Part-time,,,10/06/2026,11/02/2026
+774,https://unc.peopleadmin.com/postings/325542,Soc/Clin Research Specialist,Non-academic,Part-time,,,09/22/2026,09/28/2026
+774,https://unc.peopleadmin.com/postings/325527,UNC-Chapel Hill Employment Opportunities,Unclassified,Part-time,,,09/28/2026,
+774,https://unc.peopleadmin.com/postings/325517,Clinical Research Assistant,Non-academic,Part-time,,Word,09/23/2026,
+774,https://unc.peopleadmin.com/postings/325497,UNC-Chapel Hill Employment Opportunities,Unclassified,Part-time,,,,03/01/2026
+774,https://unc.peopleadmin.com/postings/325479,UNC-Chapel Hill Employment Opportunities,Unclassified,Part-time,,,09/25/2026,
+774,https://unc.peopleadmin.com/postings/325471,Post-Doc Research Associate,Research_Fellow,Part-time,School of Medicine has a rich tradition of excellence and care,,09/22/2026,
+774,https://unc.peopleadmin.com/postings/325544,UNC-Chapel Hill Employment Opportunities,Assistant_Professor; Associate_Professor; Full_Professor,Part-time,School of Medicine has a rich tradition of excellence and care,,,01/01/2027
+774,https://unc.peopleadmin.com/postings/325534,Hazardous Radioactive Materials Specialist,Non-academic,Part-time,,,09/30/2026,
+774,https://unc.peopleadmin.com/postings/325520,Social/Clinical Research Assistant,Non-academic,Part-time,"Department of Radiology, Epidemiology Research Team",,09/21/2026,
+774,https://unc.peopleadmin.com/postings/325511,Assistant Professor,Assistant_Professor,Part-time,"Department of City and Regional Planning, University of North Carolina",urban; regional; Economic Development Techniques,11/05/2026,07/01/2027
+774,https://unc.peopleadmin.com/postings/325482,UNC-Chapel Hill Employment Opportunities,Unclassified,Part-time,,,09/25/2026,
+774,https://unc.peopleadmin.com/postings/325473,UNC-Chapel Hill Employment Opportunities,Non-academic,Part-time,,,09/28/2026,
+774,https://unc.peopleadmin.com/postings/325546,UNC-Chapel Hill Employment Opportunities,Non-academic,Part-time,,,09/30/2026,10/12/2026
+774,https://unc.peopleadmin.com/postings/325537,UNC-Chapel Hill Employment Opportunities,Unclassified,Part-time,,,09/25/2026,

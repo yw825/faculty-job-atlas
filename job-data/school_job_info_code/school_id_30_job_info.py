@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 30
 SCHOOL_NAME = 'The University of Alabama'
-CAREERS_LINK = 'https://careers.ua.edu/faculty'
+CAREERS_LINK = 'https://careers.ua.edu/jobs/search'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

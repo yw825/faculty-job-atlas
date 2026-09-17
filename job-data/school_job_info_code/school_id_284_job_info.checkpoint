@@ -294,6 +294,11 @@
       "title": "Assistant Softball Coach",
       "description": "Posted: 09/15/2026 Location: CCGA- Main Campus (Brunswick) Department: Athletics-Administration Assistant Softball Coach",
       "department": "Athletics-Administration"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303813&PostingSeq=1&SiteId=63000": {
+      "title": "Admissions Counselor/Recruiter",
+      "description": "Posted: 09/16/2026 Location: CCGA- Main Campus (Brunswick) Department: Admissions Admissions Counselor/Recruiter",
+      "department": "Admissions"
     }
   },
   "rows": {
@@ -945,11 +950,22 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303813&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303813&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Admissions Counselor/Recruiter",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Admissions",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 284,
   "status": "complete",
-  "updated_at": "2026-09-15T20:09:33+00:00",
-  "completed_at": "2026-09-15T20:09:33+00:00",
+  "updated_at": "2026-09-16T21:00:46+00:00",
+  "completed_at": "2026-09-16T21:00:46+00:00",
   "last_error": ""
 }

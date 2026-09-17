@@ -10,9 +10,9 @@
     "https://humanresources.illinois.edu/hr-document-library/"
   ],
   "school_id": 369,
-  "status": "error",
-  "updated_at": "2026-09-15T16:39:11+00:00",
+  "status": "complete",
+  "updated_at": "2026-09-16T17:48:29+00:00",
   "started_at": "2026-09-09T07:17:16+00:00",
-  "completed_at": "2026-09-09T07:17:29+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://humanresources.illinois.edu/job-seekers/?utm_source=illinois_homepage&utm_medium=referral&utm_campaign=footer\", waiting until \"domcontentloaded\"\n"
+  "completed_at": "2026-09-16T17:48:29+00:00",
+  "last_error": ""
 }

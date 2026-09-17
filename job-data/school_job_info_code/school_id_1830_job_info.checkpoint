@@ -54,6 +54,11 @@
       "title": "Kairuruku | Research Fellow in HTS Motors",
       "description": "Contribute to groundbreaking research in this 24-month fixed-term, full-time academic position with Paihau - Robinson Research Institute.",
       "department": null
+    },
+    "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010071": {
+      "title": "Pūkenga/Pukenga Matua | Lecturer/Senior Lecturer in Educational Psychology",
+      "description": "Permanent, full-time academic role for an expert in trauma-transformative support and wellbeing.",
+      "department": null
     }
   },
   "rows": {
@@ -177,11 +182,22 @@
       "area_key_words": "HTS Motors; full-time academic position",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010071": {
+      "school_id": 1830,
+      "posting_url": "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010071",
+      "job_title_in_post": "Pūkenga/Pukenga Matua | Lecturer/Senior Lecturer in Educational Psychology",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Educational Psychology",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1830,
   "status": "complete",
-  "updated_at": "2026-09-16T03:07:01+00:00",
-  "completed_at": "2026-09-16T03:07:01+00:00",
+  "updated_at": "2026-09-16T23:49:03+00:00",
+  "completed_at": "2026-09-16T23:49:03+00:00",
   "last_error": ""
 }

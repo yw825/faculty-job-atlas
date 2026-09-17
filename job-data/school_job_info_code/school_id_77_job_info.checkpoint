@@ -79,6 +79,10 @@
     "https://careers.csudh.edu/en-us/job/557171/temporary-faculty-pool-special-education": {
       "title": "index",
       "description": "index"
+    },
+    "https://careers.csudh.edu/en-us/job/556894/temporary-faculty-pool-liberal-studies": {
+      "title": "index",
+      "description": "index"
     }
   },
   "rows": {
@@ -301,11 +305,22 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://careers.csudh.edu/en-us/job/556894/temporary-faculty-pool-liberal-studies": {
+      "school_id": 77,
+      "posting_url": "https://careers.csudh.edu/en-us/job/556894/temporary-faculty-pool-liberal-studies",
+      "job_title_in_post": "index",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 77,
   "status": "complete",
-  "updated_at": "2026-09-15T19:59:22+00:00",
-  "completed_at": "2026-09-15T19:59:22+00:00",
+  "updated_at": "2026-09-16T20:52:27+00:00",
+  "completed_at": "2026-09-16T20:52:27+00:00",
   "last_error": ""
 }

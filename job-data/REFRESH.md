@@ -50,7 +50,8 @@ school. The detail stage is cheap after the first run: `job_info` keeps a
 checkpoint of postings it has already read, so it only fetches URLs it has
 not seen before.
 
-That only holds because stage 3 runs with `--redo`. Without it, the runner
+That only holds because the info stage (step 4) runs with `--redo`. Without
+it, the runner
 skips any school whose info checkpoint says `complete` -- every school
 after its first run -- so new postings were scraped but never fetched and
 never reached the map. By 2026-09-14 that had silently left 17,183 links
@@ -61,15 +62,72 @@ off the map, including open faculty posts at Cambridge, NUS and HKU.
 
 1. **postings** - re-scrape each school's listing for links
 2. **clean** - strip furniture from the link sets *and their checkpoints*
-3. **info** - fetch detail for newly seen postings only
-4. **prune** - drop info rows whose URL is no longer in the posts CSV
-5. **build** - rebuild `postings.json`, stamp first-seen dates
-6. **publish** - commit and push
+3. **mathjobs** - pull mathjobs.org, the only place many mathematics,
+   statistics and operations research faculty posts are advertised
+4. **info** - fetch detail for newly seen postings only
+5. **prune** - drop info rows whose URL is no longer in the posts CSV
+6. **build** - rebuild `postings.json`, stamp first-seen dates
+7. **publish** - commit and push
 
-Step 2 must come before step 3. `job_info` reads its link list from the
+Clean must come before info. `job_info` reads its link list from the
 `job_postings` checkpoint, not from the posts CSV, so cleaning afterwards
 would leave the furniture in play for another week. That exact ordering
 mistake is why Bowdoin's Atom feeds kept reappearing on the map.
+
+## MathJobs
+
+`mathjobs_source.py` (stage 3) adds mathjobs.org, where most mathematics,
+statistics and operations research faculty jobs are advertised. Many
+departments post there and nowhere else: Tufts' applied mathematics
+assistant professorship never appears on jobs.tufts.edu, and before this
+stage existed the corpus held **zero** mathjobs links.
+
+It costs **one HTTP request**. The deadline-sorted listing returns every
+open position (604 on 2026-09-16) with institution, title and deadline
+inline, so no position page is fetched. That matters: mathjobs' robots.txt
+sets `Crawl-delay: 5`, and fetching 604 detail pages would be 50 minutes of
+crawling every night. Detail rows are filled in from the listing, so the
+info stage finds nothing left to fetch for these postings.
+
+It runs **after clean and before info**. Run before cleaning, every mathjobs
+link would be dropped as "outside this school's posting path" -- a school's
+own site is always its dominant prefix -- which is also why
+`clean_job_posts.py` exempts `mathjobs.org/jobs/list/<id>` explicitly.
+
+**Matching schools is the fiddly part, and it is exact on purpose.**
+`schools_master.csv` uses IPEDS-style campus names ("Purdue
+University-Main Campus") while mathjobs writes "Purdue University,
+Mathematics". Two looser rules were tried and both put real postings in the
+wrong place:
+
+* Keying on the text before the first comma added **17 duplicate schools**
+  and filed every Cal State campus under Bakersfield.
+* Accepting any school whose words were a *subset* of the employer's filed
+  **23 positions under the wrong university** -- Central China Normal
+  University under Central College (Iowa), Virginia Tech under the
+  University of Virginia, Duke Kunshan under Duke, and Jane Street Capital
+  under Capital University.
+
+An institution's distinguishing words must now **equal** a school's, tried
+on the institution alone and then institution + campus. That places 526 of
+604 positions.
+
+**It never adds a school.** The other 44 institutions go to
+`refresh_logs/mathjobs_review_<date>.csv` and are otherwise ignored, because
+an unmatched employer is as often an alias of a school already in the list
+(Virginia Tech, Humboldt-Universität zu Berlin) as a genuinely new
+institution (New Uzbekistan University), and that judgement belongs to a
+person.
+
+An earlier version did register them automatically. It added duplicates of
+schools already present under their campus names, admitted trading firms as
+"schools", and geocoded four Korean universities into Moldova -- mathjobs
+writes "Korea, The Republic of", which a geocoder resolves to Transnistria.
+All of that was removed.
+
+```bash
+python3 mathjobs_source.py --dry-run        # report, write nothing
+```
 
 ## Seeing what is new
 
@@ -78,8 +136,10 @@ first observed. It is the only record of that -- once a posting has been
 scraped it looks identical to one that has been up for months, so this
 cannot be reconstructed later. Do not delete it.
 
-The map has a **"New since last refresh"** checkbox under Availability --
-with a nightly cadence that means "found last night".
+The map has a **First seen** dropdown under Availability: "found in the
+latest refresh" (its label carries that run's date), last 7 days, or last 30
+days. It replaced a single checkbox that showed everything found since
+tracking began, which could not tell one run's finds from the next.
 
 The first run set every posting's date to the same day. Those are not new,
 we simply had no record before, so the earliest date in the ledger is

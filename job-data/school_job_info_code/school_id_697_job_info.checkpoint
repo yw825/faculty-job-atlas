@@ -83,6 +83,14 @@
     "https://staffemployment-stthomas.icims.com/jobs/9651/prep-cook-food-service-worker---evening-shift/job": {
       "title": "Prep Cook/Food Service Worker",
       "description": "Prep Cook/Food Service Worker - Evening Shift in St. Paul, Minnesota | Careers at St. Paul Skip Branding"
+    },
+    "https://staffemployment-stthomas.icims.com/jobs/9667/catering-supervisor/job": {
+      "title": "Catering Supervisor in St. Paul, Minnesota",
+      "description": "Catering Supervisor in St. Paul, Minnesota | Careers at St. Paul Skip Branding"
+    },
+    "https://staffemployment-stthomas.icims.com/jobs/9666/accounts-payable-coordinator/job": {
+      "title": "Accounts Payable Coordinator in St. Paul, Minnesota",
+      "description": "Accounts Payable Coordinator in St. Paul, Minnesota | Careers at St. Paul Skip Branding"
     }
   },
   "rows": {
@@ -316,11 +324,33 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://staffemployment-stthomas.icims.com/jobs/9667/catering-supervisor/job": {
+      "school_id": 697,
+      "posting_url": "https://staffemployment-stthomas.icims.com/jobs/9667/catering-supervisor/job",
+      "job_title_in_post": "Catering Supervisor in St. Paul, Minnesota",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://staffemployment-stthomas.icims.com/jobs/9666/accounts-payable-coordinator/job": {
+      "school_id": 697,
+      "posting_url": "https://staffemployment-stthomas.icims.com/jobs/9666/accounts-payable-coordinator/job",
+      "job_title_in_post": "Accounts Payable Coordinator in St. Paul, Minnesota",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 697,
   "status": "complete",
-  "updated_at": "2026-09-15T20:44:27+00:00",
-  "completed_at": "2026-09-15T20:44:27+00:00",
+  "updated_at": "2026-09-16T21:32:48+00:00",
+  "completed_at": "2026-09-16T21:32:48+00:00",
   "last_error": ""
 }

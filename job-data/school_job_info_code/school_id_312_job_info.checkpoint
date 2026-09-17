@@ -1144,6 +1144,21 @@
       "title": "Compliance Specialist - Internal Audit, Risk & Compliance",
       "description": "Posted: 08/11/2026 Location: Statesboro, Georgia Department: Int Audit, Risk & Compliance Compliance Specialist - Internal Audit, Risk & Compliance",
       "department": "Int Audit, Risk & Compliance"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303879&PostingSeq=1&SiteId=39000": {
+      "title": "Assistant Director of Fraternity and Sorority Life",
+      "description": "Posted: 09/16/2026 Location: Statesboro, Georgia Department: Fraternity & Sorority Life Assistant Director of Fraternity and Sorority Life",
+      "department": "Fraternity & Sorority Life"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303897&PostingSeq=1&SiteId=39000": {
+      "title": "HVAC Journeyman",
+      "description": "Posted: 09/16/2026 Location: Georgia Southern - Savannah Department: Armstrong Facility Ops HVAC Journeyman",
+      "department": "Armstrong Facility Ops"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303811&PostingSeq=1&SiteId=39000": {
+      "title": "Student Assistant - Smoovie - Student Team Member (Fall 2026)",
+      "description": "Posted: 09/16/2026 Location: Statesboro, Georgia Department: Smoovie Student Assistant - Smoovie - Student Team Member (Fall 2026)",
+      "department": "Smoovie"
     }
   },
   "rows": {
@@ -3665,11 +3680,44 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303879&PostingSeq=1&SiteId=39000": {
+      "school_id": 312,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303879&PostingSeq=1&SiteId=39000",
+      "job_title_in_post": "Assistant Director of Fraternity and Sorority Life",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Fraternity & Sorority Life",
+      "area_key_words": "Fraternity and Sorority Life",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303897&PostingSeq=1&SiteId=39000": {
+      "school_id": 312,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303897&PostingSeq=1&SiteId=39000",
+      "job_title_in_post": "HVAC Journeyman",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Armstrong Facility Ops",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303811&PostingSeq=1&SiteId=39000": {
+      "school_id": 312,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303811&PostingSeq=1&SiteId=39000",
+      "job_title_in_post": "Student Assistant - Smoovie - Student Team Member (Fall 2026)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Smoovie",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 312,
   "status": "complete",
-  "updated_at": "2026-09-15T20:14:54+00:00",
-  "completed_at": "2026-09-15T20:14:54+00:00",
+  "updated_at": "2026-09-16T21:05:43+00:00",
+  "completed_at": "2026-09-16T21:05:43+00:00",
   "last_error": ""
 }

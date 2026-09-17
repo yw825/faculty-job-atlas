@@ -44,6 +44,11 @@
       "title": "Public Safety Officer",
       "description": "The Public Safety Patrol Officer is responsible for ensuring the safety and security of all college property and community members, both on campus and on other College property.  Duties include patrolling the campus on foot and in college-owned vehicles; responding to emergencies and determining the appropriate course of action; responding to calls for service, conducting investigations, and writing reports; monitoring campus buildings, including fire alarm, system trouble alarm, and security video systems; providing security escort and unlock services for students and employees as requested; providing emergency first aid and/or requesting other medical services as needed; attending special events and sporting events; and enforcing parking regulations.  Officers must be willing to work a flexible schedule including weekdays, weekends, and holidays over three (3) shifts per day.\n",
       "department": null
+    },
+    "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/329": {
+      "title": "Assistant Coach, Women's Basketball",
+      "description": "The Women’s Basketball Assistant Coach is responsible for assisting the Head Coach in the administration of all aspects of the sport program including but not limited to coaching and teaching of students, recruiting, game and practice preparation and execution, fund-raising/friend raising, budget management, compliance with NCAA and conference rules/regulations, participation as a member of the College community and with all collaborative departmental functions as needed. ",
+      "department": null
     }
   },
   "rows": {
@@ -87,7 +92,7 @@
       "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "practice preparation",
+      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -145,11 +150,22 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/329": {
+      "school_id": 1177,
+      "posting_url": "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/329",
+      "job_title_in_post": "Assistant Coach, Women's Basketball",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1177,
   "status": "complete",
-  "updated_at": "2026-09-15T23:44:36+00:00",
-  "completed_at": "2026-09-15T23:44:36+00:00",
+  "updated_at": "2026-09-16T22:19:12+00:00",
+  "completed_at": "2026-09-16T22:19:12+00:00",
   "last_error": ""
 }

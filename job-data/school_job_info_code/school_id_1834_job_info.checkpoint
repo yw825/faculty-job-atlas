@@ -912,6 +912,31 @@
       "title": "Assistant Manager, Research Postgraduate Programme (PhD)",
       "description": "This position sits under the Office of The Dean of Business at our Kowloon Tong campus. The core responsibilities are managing the full spectrum of administration and operation of the Research Postgraduate (RPg) programme.",
       "department": null
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270190": {
+      "title": "Assistant Programme Officer, School of Continuing Education",
+      "description": "This position sits under the School of Continuing Education. The appointee is expected to carry out general administrative duties for the Division of Continuing and Professional Education.",
+      "department": null
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270191": {
+      "title": "Programme Officer, School of Continuing Education",
+      "description": "This position sits under the School of Continuing Education. The appointee will be responsible for academic programme administration for Continuing and Professional Education Division.",
+      "department": null
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270193": {
+      "title": "Information Technology Manager (Cybersecurity and Network), School of Continuing Education",
+      "description": "This position sits under the School of Continuing Education. The appointee will support the planning, implementation, operation, and continuous improvement of the School’s cybersecurity and network infrastructure.",
+      "department": null
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270196": {
+      "title": "Project Assistant, Academy of Wellness and Human Development",
+      "description": "This position sits under the Academy of Wellness and Human Development Office at our Kowloon Tong campus. The core responsibilities are assisting the programme leadership with daily administration, maintaining accurate records and timely communications.",
+      "department": null
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270197": {
+      "title": "Senior Research Assistant, Academy of Wellness and Human Development",
+      "description": "This position sits under the Academy of Wellness and Human Development Office at our Kowloon Tong campus. The core responsibilities are providing administrative and managerial support.",
+      "department": null
     }
   },
   "rows": {
@@ -2847,11 +2872,66 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270190": {
+      "school_id": 1834,
+      "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270190",
+      "job_title_in_post": "Assistant Programme Officer, School of Continuing Education",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "School of Continuing Education",
+      "area_key_words": "Continuing Education",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270191": {
+      "school_id": 1834,
+      "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270191",
+      "job_title_in_post": "Programme Officer, School of Continuing Education",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "School of Continuing Education",
+      "area_key_words": "Continuing Education",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270193": {
+      "school_id": 1834,
+      "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270193",
+      "job_title_in_post": "Information Technology Manager (Cybersecurity and Network), School of Continuing Education",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "School of Continuing Education",
+      "area_key_words": "Continuing Education",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270196": {
+      "school_id": 1834,
+      "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270196",
+      "job_title_in_post": "Project Assistant, Academy of Wellness and Human Development",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Wellness and Human Development",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270197": {
+      "school_id": 1834,
+      "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270197",
+      "job_title_in_post": "Senior Research Assistant, Academy of Wellness and Human Development",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Wellness and Human Development",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1834,
   "status": "complete",
-  "updated_at": "2026-09-16T02:49:11+00:00",
-  "completed_at": "2026-09-16T02:49:11+00:00",
+  "updated_at": "2026-09-16T23:30:38+00:00",
+  "completed_at": "2026-09-16T23:30:38+00:00",
   "last_error": ""
 }

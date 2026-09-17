@@ -34,6 +34,16 @@
       "title": "Safer Community Advisor (TAFE)",
       "description": "Working within the Safer Community function, the Safer Community Advisor supports early intervention, coordinated case management and continuous improvement across TAFE student safety and support pathways.",
       "department": null
+    },
+    "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18337": {
+      "title": "Senior Counsellor",
+      "description": "As a Senior Counsellor, you will support student wellbeing, safety and academic success by delivering evidence-based counselling, mental health assessments, risk management and therapeutic interventions, while collaborating with stakeholders to enhance wellbeing programs and counselling services across Victoria University.",
+      "department": null
+    },
+    "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18461": {
+      "title": "Teacher Sport",
+      "description": "Working closely with the Manager, Hospitality, Tourism and Events, academic staff and Western Bulldogs colleagues, you will lead curriculum design and help create course structures, unit content and assessments that are industry-aligned and support employability skills and pathways to further study. ",
+      "department": null
     }
   },
   "rows": {
@@ -113,11 +123,33 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18337": {
+      "school_id": 1817,
+      "posting_url": "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18337",
+      "job_title_in_post": "Senior Counsellor",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18461": {
+      "school_id": 1817,
+      "posting_url": "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18461",
+      "job_title_in_post": "Teacher Sport",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1817,
   "status": "complete",
-  "updated_at": "2026-09-16T02:31:52+00:00",
-  "completed_at": "2026-09-16T02:31:52+00:00",
+  "updated_at": "2026-09-16T23:03:26+00:00",
+  "completed_at": "2026-09-16T23:03:26+00:00",
   "last_error": ""
 }

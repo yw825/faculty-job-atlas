@@ -16,9 +16,9 @@
     "https://jobs.anu.edu.au/jobs/postdoctoral-fellow-canberra-act-act-australia-32d81648-860c-4173-948d-9ff36ec44f6b"
   ],
   "school_id": 1778,
-  "status": "complete",
-  "updated_at": "2026-09-15T18:34:55+00:00",
+  "status": "error",
+  "updated_at": "2026-09-16T19:40:14+00:00",
   "started_at": "2026-09-02T22:33:21+00:00",
   "completed_at": "2026-09-15T18:34:55+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
 }

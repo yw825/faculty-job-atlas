@@ -109,6 +109,11 @@ def has_posting_id(url):
 POSTS_CODE = os.path.join(os.path.dirname(os.path.abspath(__file__)),
                           'school_job_posts_code')
 
+# Postings that live on a shared board rather than the school's own site.
+# mathjobs.org/jobs/list/<id> addresses exactly one position; the rules
+# below reason from "this school's own posting path" and would drop it.
+_AGGREGATOR_POSTING = re.compile(r'^https?://(?:www\.)?mathjobs\.org/jobs/list/\d+', re.I)
+
 
 def is_furniture(url, path, dominant_prefix, sibling_paths, careers_root):
     """Reasons a URL is a section of the site rather than one posting. Each
@@ -251,6 +256,14 @@ def clean_school(path_csv, careers_root=None):
     for r in rows:
         u = r['post_link']
         p = paths[u]
+        # An aggregator posting is a posting even though it sits on another
+        # host: mathjobs.org/jobs/list/<id> is one job, and every rule below
+        # that reasons from "this school's own posting path" would drop it
+        # (a school's own site is always the dominant prefix). Without this
+        # the mathjobs source would be undone by the next nightly clean.
+        if _AGGREGATOR_POSTING.search(u):
+            kept.append(r)
+            continue
         why = is_furniture(u, p, dominant_prefix, path_list, careers_root)
         if (why is None and len(by_path[p]) > 1 and urlsplit(u).query
                 and not has_posting_id(u)):

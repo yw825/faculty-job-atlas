@@ -124,6 +124,11 @@
       "title": "First-year Enrollment Counselor",
       "description": "First-Year Enrollment Counselor\n\nBatten University seeks an enthusiastic, relationship-focused, and highly motivated individual to serve as a First-Year Enrollment Counselor. This full-time position plays an important role in advancing the University’s enrollment goals by recruiting, engaging, and supporting prospective first-year students and their families throughout the college search, application, and enrollment process.\n\nThe successful candidate will demonstrate enthusiasm for Batten University and an ability to effectively communicate and champion the mission, programs, and opportunities of a small, private liberal arts and sciences university.",
       "department": null
+    },
+    "https://fa-ewic-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/168": {
+      "title": "Director of Global Engagement",
+      "description": "Director of Global Engagement\nBatten University\n\nBatten University invites applications for the position of Director of Global Engagement. The position is a full-\ntime, 12-month staff position that reports to the Provost and Vice President. The Director of Global\nEngagement’s primary responsibilities are to administer study away experience, both short and long term, and\nto support international students on campus. The director coordinates study away programs and assists faculty\nwith the development and offering of domestic and international study away courses. The Director also serves\nas the Principal Designated School Official (PDSO) and Responsible Officer (RO), administering the\nuniversity’s F-1 and J-1 programs and ensuring institutional compliance with applicable federal immigration\nregulations and reporting requirements.",
+      "department": null
     }
   },
   "rows": {
@@ -401,11 +406,22 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://fa-ewic-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/168": {
+      "school_id": 1495,
+      "posting_url": "https://fa-ewic-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/168",
+      "job_title_in_post": "Director of Global Engagement",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Global Engagement",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1495,
   "status": "complete",
-  "updated_at": "2026-09-16T01:24:27+00:00",
-  "completed_at": "2026-09-16T01:24:27+00:00",
+  "updated_at": "2026-09-16T22:52:40+00:00",
+  "completed_at": "2026-09-16T22:52:40+00:00",
   "last_error": ""
 }

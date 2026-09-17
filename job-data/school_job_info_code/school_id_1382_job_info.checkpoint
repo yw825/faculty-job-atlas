@@ -644,6 +644,16 @@
       "title": "Recruitment Specialist - Office of Human Resources",
       "description": "Performs advanced professional work supporting the university’s employment processes and search and selection procedures, including full-cycle recruitment for all hiring across the Texas Woman’s University System. This position contributes to the development and continuous refinement of Recruitment initiatives in alignment with organizational goals and workforce strategies, operating under limited supervision and in close collaboration with the Manager of Recruitment.",
       "department": null
+    },
+    "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/12978": {
+      "title": "Assistant Professor - Department of Social Sciences & Historic",
+      "description": "",
+      "department": null
+    },
+    "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/12963": {
+      "title": "Admissions Coordinator - School of Human Sciences",
+      "description": "Performs responsible work in the process of advising prospective students for professional programs housed within the Department by providing support during the process of admissions. Responsible for working with applicants and students in an effort to achieve their educational and professional goals. Work is performed under minimal supervision and performance evaluation is based upon completion of assignments and results obtained. The performance evaluation is conducted through the performance evaluation system and in accordance with the University Policies & Procedures. ",
+      "department": null
     }
   },
   "rows": {
@@ -2065,11 +2075,33 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/12978": {
+      "school_id": 1382,
+      "posting_url": "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/12978",
+      "job_title_in_post": "Assistant Professor - Department of Social Sciences & Historic",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Department of Social Sciences & Historic",
+      "area_key_words": "Department of Social Sciences & Historic",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/12963": {
+      "school_id": 1382,
+      "posting_url": "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/12963",
+      "job_title_in_post": "Admissions Coordinator - School of Human Sciences",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "School of Human Sciences",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1382,
   "status": "complete",
-  "updated_at": "2026-09-16T00:55:20+00:00",
-  "completed_at": "2026-09-16T00:55:20+00:00",
+  "updated_at": "2026-09-16T22:48:15+00:00",
+  "completed_at": "2026-09-16T22:48:15+00:00",
   "last_error": ""
 }
