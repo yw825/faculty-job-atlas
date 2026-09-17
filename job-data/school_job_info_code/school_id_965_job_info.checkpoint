@@ -103,6 +103,10 @@
     "https://academic.careers.columbia.edu/#instructor-in-dermatology-physician-scientist": {
       "title": "Instructor in Dermatology - Physician/Scientist",
       "description": "ngIf: item.close_date ngIf: !item.close_date Open until filled end ngIf: !item.close_date · ngIf: item.discipline Dermatology end ngRepeat: item in filteredResults  | orderBy:sortKey:true | limitTo : itemLimit : itemLimit * (page -1)"
+    },
+    "https://academic.careers.columbia.edu/#assistant-associate-professor-of-medicine-at-the-cumc": {
+      "title": "Assistant / Associate Professor of Medicine at the CUMC",
+      "description": "ngIf: item.close_date ngIf: !item.close_date Open until filled end ngIf: !item.close_date · ngIf: item.discipline Medicine - Digestive and Liver Diseases end ngRepeat: item in filteredResults  | orderBy:sortKey:true | limitTo : itemLimit : itemLimit * (page -1)"
     }
   },
   "rows": {
@@ -391,11 +395,22 @@
       "area_key_words": "Dermatology",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://academic.careers.columbia.edu/#assistant-associate-professor-of-medicine-at-the-cumc": {
+      "school_id": 965,
+      "posting_url": "https://academic.careers.columbia.edu/#assistant-associate-professor-of-medicine-at-the-cumc",
+      "job_title_in_post": "Assistant / Associate Professor of Medicine at the CUMC",
+      "position_type": "Assistant_Professor; Associate_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Medicine at the CUMC",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 965,
   "status": "complete",
-  "updated_at": "2026-09-16T21:54:44+00:00",
-  "completed_at": "2026-09-16T21:54:44+00:00",
+  "updated_at": "2026-09-17T20:44:11+00:00",
+  "completed_at": "2026-09-17T20:44:11+00:00",
   "last_error": ""
 }

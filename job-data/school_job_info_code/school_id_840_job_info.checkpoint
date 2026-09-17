@@ -269,6 +269,21 @@
       "title": "Public Safety Officer (9:00 pm - 7:00 am)",
       "description": "Creighton University is looking for an overnight Public Safety Officer to fill an opening on our 9:00 pm - 7:00 am shift (10 Hour shifts). \n\nOfficers protect life and property, demonstrating integrity, community engagement, and sound judgment under pressure. They respond to emergency and non-emergency calls, apply crime prevention techniques, and conduct investigations using surveillance and access records. Officers handle fire and security alarms, provide first aid, engage with students, enforce parking regulations, and assist with vehicle issues. They may also take on dispatcher duties or other assignments as needed.\n\n",
       "department": null
+    },
+    "https://hcps.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/518": {
+      "title": "Manager of Financial Aid - School of Medicine",
+      "description": "",
+      "department": null
+    },
+    "https://hcps.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/45": {
+      "title": "Postdoctoral Research Fellow - Pharmacology & Neuro Ops",
+      "description": "",
+      "department": null
+    },
+    "https://hcps.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/536": {
+      "title": "Diabetes Educator",
+      "description": "",
+      "department": null
     }
   },
   "rows": {
@@ -865,11 +880,44 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://hcps.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/518": {
+      "school_id": 840,
+      "posting_url": "https://hcps.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/518",
+      "job_title_in_post": "Manager of Financial Aid - School of Medicine",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "School of Medicine",
+      "area_key_words": "Financial Aid",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://hcps.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/45": {
+      "school_id": 840,
+      "posting_url": "https://hcps.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/45",
+      "job_title_in_post": "Postdoctoral Research Fellow - Pharmacology & Neuro Ops",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Pharmacology & Neuro Ops",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://hcps.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/536": {
+      "school_id": 840,
+      "posting_url": "https://hcps.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/536",
+      "job_title_in_post": "Diabetes Educator",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 840,
   "status": "complete",
-  "updated_at": "2026-09-16T21:42:37+00:00",
-  "completed_at": "2026-09-16T21:42:37+00:00",
+  "updated_at": "2026-09-17T20:31:00+00:00",
+  "completed_at": "2026-09-17T20:31:00+00:00",
   "last_error": ""
 }

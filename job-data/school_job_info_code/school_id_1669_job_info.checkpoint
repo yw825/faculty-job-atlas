@@ -1124,6 +1124,51 @@
       "title": "Part-time academic employee - DTU Physics",
       "description": "Academic employee for quantum hardware remote control development. Working hours are on average 16 hours per week",
       "department": null
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8201": {
+      "title": "Postdoc in Organic Batteries - DTU Energy",
+      "description": "Join DTU Energy and work on design, synthesis, characterization and performance testing of novel bio-based organic active materials for Na-ion batteries by combining organic chemistry and electrochemistry in close collaboration with experts at DTU Bioengineering.",
+      "department": null
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8205": {
+      "title": "Postdocs in Development of high-performance Power Converters and Drives with Edge computing and Machine Learning capabilities - DTU Wind",
+      "description": "Join 2-year Postdoc projects developing ML-enabled, edge-intelligent power converters and motor drives for the green energy transition. Work with leading researchers and industry to advance ML, control, and monitoring for smarter, flexible, and reliable energy systems.",
+      "department": null
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8200": {
+      "title": "PhD scholarship in Satellite Magnetic Monitoring of Ocean Dynamics - DTU Space",
+      "description": "PhD position in Satellite Magnetic Monitoring of Ocean Dynamics. Computational modelling and analysis of satellite measurements to place new constraints on ocean processes.",
+      "department": null
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8203": {
+      "title": "PhD scholarship in Modelling of Ionospheric Currents - DTU Space",
+      "description": "PhD position in Modelling of Ionospheric Currents. Computational modelling and analysis of ionospheric currents and their induced counterpart using ground magnetic field data.",
+      "department": null
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8208": {
+      "title": "PhD scholarship in Mathematical Modeling for Health Policy - DTU Management",
+      "description": "The DTU Department of Management seeks a PhD candidate in operations management to complete a funded health policy modeling research project. The ideal candidate will have a desire to improve health policy through mathematical modeling and have a background in management science, computer science, quantitative health policy, or a related field.",
+      "department": null
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8204": {
+      "title": "PhD scholarship in Adaptive Control for Demand-side Flexibility Exploitation - DTU Compute",
+      "description": "The PhD project involves the development and testing of adaptive control algorithms for incentive-based exploitation of demand-side flexibility. Specifically, we will use demand response models to determine dynamic price signals in real time in order to shift consumer demand to solve grid problems.",
+      "department": null
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8209": {
+      "title": "PhD scholarship in CO2 valorization by integrated electrochemistry and chemical catalysis - DTU Chemistry",
+      "description": "PhD position at DTU Chemistry on integrated electrocatalytic CO2 valorization. Join an international, interdisciplinary project with KTH to develop sustainable catalytic processes for decarbonized chemical manufacturing.",
+      "department": null
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8215": {
+      "title": "Associate Professor or DTU Tenure Track Assistant Professor in Sustainable Travel Behaviour - DTU Management",
+      "description": "Are your interests within sustainable travel behaviour? DTU Management is looking for an Associate Professor or Tenure Track Assistant Professor in Sustainable Travel Behaviour to join our Transportation Science Division. ",
+      "department": null
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8210": {
+      "title": "Presse- og kommunikationsmedarbejder – Afd. for Kommunikation og Medier",
+      "description": "Du bliver en del af et specialiseret presseteam på fire personer og skal være med til at styrke DTU's synlighed, position og gennemslagskraft i samfundsdebatten og nyhedsbilledet med afsæt i DTU's strategi 2026-2031.\nDu vil få tæt kontakt til DTU’s øverste ledelse, ligesom du vil få rig lejlighed til at formidle historier om forskning fra nogle af landets skarpeste hjerner.",
+      "department": null
     }
   },
   "rows": {
@@ -3601,11 +3646,110 @@
       "area_key_words": "DTU Physics",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8201": {
+      "school_id": 1669,
+      "posting_url": "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8201",
+      "job_title_in_post": "Postdoc in Organic Batteries - DTU Energy",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Organic Batteries",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8205": {
+      "school_id": 1669,
+      "posting_url": "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8205",
+      "job_title_in_post": "Postdocs in Development of high-performance Power Converters and Drives with Edge computing and Machine Learning capabilities - DTU Wind",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8200": {
+      "school_id": 1669,
+      "posting_url": "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8200",
+      "job_title_in_post": "PhD scholarship in Satellite Magnetic Monitoring of Ocean Dynamics - DTU Space",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Satellite Magnetic Monitoring of Ocean Dynamics",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8203": {
+      "school_id": 1669,
+      "posting_url": "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8203",
+      "job_title_in_post": "PhD scholarship in Modelling of Ionospheric Currents - DTU Space",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Modelling of Ionospheric Currents",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8208": {
+      "school_id": 1669,
+      "posting_url": "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8208",
+      "job_title_in_post": "PhD scholarship in Mathematical Modeling for Health Policy - DTU Management",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Mathematical Modeling for Health Policy",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8204": {
+      "school_id": 1669,
+      "posting_url": "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8204",
+      "job_title_in_post": "PhD scholarship in Adaptive Control for Demand-side Flexibility Exploitation - DTU Compute",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Adaptive Control for Demand-side Flexibility Exploitation",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8209": {
+      "school_id": 1669,
+      "posting_url": "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8209",
+      "job_title_in_post": "PhD scholarship in CO2 valorization by integrated electrochemistry and chemical catalysis - DTU Chemistry",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "CO2 valorization by integrated electrochemistry and chemical catalysis",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8215": {
+      "school_id": 1669,
+      "posting_url": "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8215",
+      "job_title_in_post": "Associate Professor or DTU Tenure Track Assistant Professor in Sustainable Travel Behaviour - DTU Management",
+      "position_type": "Assistant_Professor; Associate_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Sustainable Travel Behaviour",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8210": {
+      "school_id": 1669,
+      "posting_url": "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8210",
+      "job_title_in_post": "Presse- og kommunikationsmedarbejder – Afd. for Kommunikation og Medier",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1669,
-  "status": "error",
-  "updated_at": "2026-09-16T23:17:21+00:00",
-  "completed_at": "2026-09-16T02:42:58+00:00",
-  "last_error": "RuntimeError: oracle session capture failed: Timeout 15000ms exceeded while waiting for event \"request\"\n=========================== logs ===========================\nwaiting for request **/recruitingCEJobRequisitions**\n============================================================"
+  "status": "complete",
+  "updated_at": "2026-09-17T21:53:11+00:00",
+  "completed_at": "2026-09-17T21:53:11+00:00",
+  "last_error": ""
 }

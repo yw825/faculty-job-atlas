@@ -1159,6 +1159,26 @@
       "title": "Student Assistant - Smoovie - Student Team Member (Fall 2026)",
       "description": "Posted: 09/16/2026 Location: Statesboro, Georgia Department: Smoovie Student Assistant - Smoovie - Student Team Member (Fall 2026)",
       "department": "Smoovie"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303884&PostingSeq=1&SiteId=39000": {
+      "title": "Administrative Assistant I",
+      "description": "Posted: 09/17/2026 Location: Statesboro, Georgia Department: Eagle Dining Services Administrative Assistant I",
+      "department": "Eagle Dining Services"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303886&PostingSeq=1&SiteId=39000": {
+      "title": "Assistant Manager - Dining Commons",
+      "description": "Posted: 09/17/2026 Location: Statesboro, Georgia Department: Dining Commons Assistant Manager - Dining Commons",
+      "department": "Dining Commons"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303838&PostingSeq=1&SiteId=39000": {
+      "title": "Student Assistant - Student Accessibility Resource Center - Office Assistant (Fall 2026)",
+      "description": "Posted: 09/17/2026 Location: Statesboro, Georgia Department: Student Accessibility Resr Ctr Student Assistant - Student Accessibility Resource Center - Office Assistant (Fall 2026)",
+      "department": "Student Accessibility Resr Ctr"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303874&PostingSeq=1&SiteId=39000": {
+      "title": "Temporary Faculty Criminal Justice and Criminology",
+      "description": "Posted: 09/17/2026 Location: Statesboro, Georgia Department: Criminal Justice & Criminology Temporary Faculty Criminal Justice and Criminology",
+      "department": "Criminal Justice & Criminology"
     }
   },
   "rows": {
@@ -3713,11 +3733,55 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303884&PostingSeq=1&SiteId=39000": {
+      "school_id": 312,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303884&PostingSeq=1&SiteId=39000",
+      "job_title_in_post": "Administrative Assistant I",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Eagle Dining Services",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303886&PostingSeq=1&SiteId=39000": {
+      "school_id": 312,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303886&PostingSeq=1&SiteId=39000",
+      "job_title_in_post": "Assistant Manager - Dining Commons",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "Dining Commons",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303838&PostingSeq=1&SiteId=39000": {
+      "school_id": 312,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303838&PostingSeq=1&SiteId=39000",
+      "job_title_in_post": "Student Assistant - Student Accessibility Resource Center - Office Assistant (Fall 2026)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Student Accessibility Resr Ctr",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303874&PostingSeq=1&SiteId=39000": {
+      "school_id": 312,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303874&PostingSeq=1&SiteId=39000",
+      "job_title_in_post": "Temporary Faculty Criminal Justice and Criminology",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Criminal Justice & Criminology",
+      "area_key_words": "Temporary",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 312,
   "status": "complete",
-  "updated_at": "2026-09-16T21:05:43+00:00",
-  "completed_at": "2026-09-16T21:05:43+00:00",
+  "updated_at": "2026-09-17T19:55:34+00:00",
+  "completed_at": "2026-09-17T19:55:34+00:00",
   "last_error": ""
 }

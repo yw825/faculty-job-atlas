@@ -879,6 +879,11 @@
       "title": "Custodian",
       "description": "",
       "department": null
+    },
+    "https://fa-evyu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1258": {
+      "title": "Assistant/Associate Professor of Physiology",
+      "description": "",
+      "department": null
     }
   },
   "rows": {
@@ -2817,11 +2822,22 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://fa-evyu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1258": {
+      "school_id": 1337,
+      "posting_url": "https://fa-evyu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1258",
+      "job_title_in_post": "Assistant/Associate Professor of Physiology",
+      "position_type": "Assistant_Professor; Associate_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Physiology",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1337,
   "status": "complete",
-  "updated_at": "2026-09-16T22:45:24+00:00",
-  "completed_at": "2026-09-16T22:45:24+00:00",
+  "updated_at": "2026-09-17T21:25:59+00:00",
+  "completed_at": "2026-09-17T21:25:59+00:00",
   "last_error": ""
 }

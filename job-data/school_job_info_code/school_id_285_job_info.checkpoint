@@ -744,6 +744,11 @@
       "title": "Student Assistant - Bluestone Social Media Manager",
       "description": "Posted: 08/17/2026 Location: UWG Recruiting Location Department: School of Comm,Film, and Media Student Assistant - Bluestone Social Media Manager",
       "department": "School of Comm,Film, and Media"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303842&PostingSeq=1&SiteId=54000": {
+      "title": "Assistant Director of Housing Administration",
+      "description": "Posted: 09/16/2026 Location: UWG Recruiting Location Department: Housing Programs Assistant Director of Housing Administration",
+      "department": "Housing Programs"
     }
   },
   "rows": {
@@ -2385,11 +2390,22 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303842&PostingSeq=1&SiteId=54000": {
+      "school_id": 285,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303842&PostingSeq=1&SiteId=54000",
+      "job_title_in_post": "Assistant Director of Housing Administration",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Housing Programs",
+      "area_key_words": "Housing Administration",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 285,
   "status": "complete",
-  "updated_at": "2026-09-16T21:01:08+00:00",
-  "completed_at": "2026-09-16T21:01:08+00:00",
+  "updated_at": "2026-09-17T19:51:09+00:00",
+  "completed_at": "2026-09-17T19:51:09+00:00",
   "last_error": ""
 }

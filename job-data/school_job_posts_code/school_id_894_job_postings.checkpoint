@@ -50,9 +50,9 @@
     "https://careers.nmsu.edu/jobs/fiscal-assistant-iii-las-cruces-new-mexico-united-states"
   ],
   "school_id": 894,
-  "status": "error",
-  "updated_at": "2026-09-16T18:36:55+00:00",
+  "status": "complete",
+  "updated_at": "2026-09-17T17:25:13+00:00",
   "started_at": "2026-09-08T02:26:25+00:00",
-  "completed_at": "2026-09-15T17:29:12+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+  "completed_at": "2026-09-17T17:25:13+00:00",
+  "last_error": ""
 }

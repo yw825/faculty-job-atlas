@@ -119,6 +119,10 @@
     "https://maritime.interviewexchange.com/jobofferdetails.jsp?JOBID=194281": {
       "title": "Hirezon / Interview Exchange",
       "description": "Hirezon / Interview Exchange - WAF The resource you requested is not authorized. Your IP: 2605:ad80:ffff:5097:7c94:fcba:1ce0:2bc0 Cloudflare Ray ID: a38889bff833d938"
+    },
+    "https://maritime.interviewexchange.com/jobofferdetails.jsp?JOBID=204866": {
+      "title": "Just a moment...",
+      "description": "Just a moment... maritime.interviewexchange.com Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. Verification successful. Waiting for maritime.interviewexchange.com to respond Enable JavaScript and cookies to continue Ray ID: a3caf5719d14fda5 Performance and Security by Cloudflare Privacy"
     }
   },
   "rows": {
@@ -451,11 +455,22 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://maritime.interviewexchange.com/jobofferdetails.jsp?JOBID=204866": {
+      "school_id": 1013,
+      "posting_url": "https://maritime.interviewexchange.com/jobofferdetails.jsp?JOBID=204866",
+      "job_title_in_post": "Just a moment...",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1013,
   "status": "complete",
-  "updated_at": "2026-09-16T21:56:05+00:00",
-  "completed_at": "2026-09-16T21:56:05+00:00",
+  "updated_at": "2026-09-17T20:46:18+00:00",
+  "completed_at": "2026-09-17T20:46:18+00:00",
   "last_error": ""
 }

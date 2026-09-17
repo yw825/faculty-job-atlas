@@ -91,6 +91,10 @@
     "https://staffemployment-stthomas.icims.com/jobs/9666/accounts-payable-coordinator/job": {
       "title": "Accounts Payable Coordinator in St. Paul, Minnesota",
       "description": "Accounts Payable Coordinator in St. Paul, Minnesota | Careers at St. Paul Skip Branding"
+    },
+    "https://staffemployment-stthomas.icims.com/jobs/9670/assistant-director%2c-athletic-communications/job": {
+      "title": "Assistant Director, Athletic Communications in St. Paul, Minnesota",
+      "description": "Assistant Director, Athletic Communications in St. Paul, Minnesota | Careers at St. Paul Skip Branding"
     }
   },
   "rows": {
@@ -346,11 +350,22 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://staffemployment-stthomas.icims.com/jobs/9670/assistant-director%2c-athletic-communications/job": {
+      "school_id": 697,
+      "posting_url": "https://staffemployment-stthomas.icims.com/jobs/9670/assistant-director%2c-athletic-communications/job",
+      "job_title_in_post": "Assistant Director, Athletic Communications in St. Paul, Minnesota",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 697,
   "status": "complete",
-  "updated_at": "2026-09-16T21:32:48+00:00",
-  "completed_at": "2026-09-16T21:32:48+00:00",
+  "updated_at": "2026-09-17T20:17:51+00:00",
+  "completed_at": "2026-09-17T20:17:51+00:00",
   "last_error": ""
 }

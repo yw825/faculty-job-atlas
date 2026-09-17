@@ -3,9 +3,9 @@
     "https://www.oak.edu/faculty-staff/"
   ],
   "school_id": 446,
-  "status": "complete",
-  "updated_at": "2026-09-16T17:59:09+00:00",
+  "status": "error",
+  "updated_at": "2026-09-17T16:45:35+00:00",
   "started_at": "2026-09-08T01:46:13+00:00",
   "completed_at": "2026-09-16T17:59:09+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.oak.edu/academics/career-pathways-program/\nCall log:\n  - navigating to \"https://www.oak.edu/academics/career-pathways-program/\", waiting until \"domcontentloaded\"\n"
 }

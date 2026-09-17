@@ -507,6 +507,11 @@
       "title": "Director of Financial Aid and Scholarships",
       "description": "Posted: 09/10/2026 Location: Ellensburg, WA Department: Financial Aid and Scholarships Director of Financial Aid and Scholarships",
       "department": "Financial Aid and Scholarships"
+    },
+    "https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=7553&PostingSeq=1&SiteId=1": {
+      "title": "Food Service Worker Lead",
+      "description": "Posted: 09/16/2026 Location: Ellensburg, WA Department: SURC Kitchen Food Service Worker Lead",
+      "department": "SURC Kitchen"
     }
   },
   "rows": {
@@ -1623,11 +1628,22 @@
       "area_key_words": "Financial Aid and Scholarships",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=7553&PostingSeq=1&SiteId=1": {
+      "school_id": 1512,
+      "posting_url": "https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=7553&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Food Service Worker Lead",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "SURC Kitchen",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1512,
   "status": "complete",
-  "updated_at": "2026-09-16T22:53:52+00:00",
-  "completed_at": "2026-09-16T22:53:52+00:00",
+  "updated_at": "2026-09-17T21:31:59+00:00",
+  "completed_at": "2026-09-17T21:31:59+00:00",
   "last_error": ""
 }
