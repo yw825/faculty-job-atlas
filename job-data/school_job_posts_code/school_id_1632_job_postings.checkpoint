@@ -123,9 +123,9 @@
     "https://careers.torontomu.ca/psc/hrcgprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=398309&PostingSeq=1&SiteId=1"
   ],
   "school_id": 1632,
-  "status": "complete",
-  "updated_at": "2026-09-17T18:38:05+00:00",
+  "status": "error",
+  "updated_at": "2026-09-19T04:43:19+00:00",
   "started_at": "2026-09-09T05:17:40+00:00",
   "completed_at": "2026-09-17T18:38:05+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: PeopleSoft careers page returned no job rows"
 }

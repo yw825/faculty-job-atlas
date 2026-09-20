@@ -1,1 +1,20 @@
-{"links": ["https://jobs.wrexham.ac.uk/Registration/", "https://jobs.wrexham.ac.uk/display.aspx?id=1253&pid=0&tabId=230", "https://jobs.wrexham.ac.uk/display.aspx?id=1929&pid=0&tabId=230", "https://jobs.wrexham.ac.uk/display.aspx?id=1354&pid=0&tabId=230", "https://jobs.wrexham.ac.uk/display.aspx?id=1947&pid=0&tabId=230", "https://jobs.wrexham.ac.uk/display.aspx?id=1493&pid=0&tabId=230", "https://jobs.wrexham.ac.uk/Terms", "https://jobs.wrexham.ac.uk/Subs/", "https://jobs.wrexham.ac.uk/display.aspx?id=1947&pid=0", "https://jobs.wrexham.ac.uk/display.aspx?id=1493&pid=0"], "school_id": 1868, "status": "complete", "updated_at": "2026-09-17T19:24:31+00:00", "started_at": "2026-09-02T22:42:45+00:00", "completed_at": "2026-09-17T19:24:31+00:00", "last_error": ""}
+{
+  "links": [
+    "https://jobs.wrexham.ac.uk/Registration/",
+    "https://jobs.wrexham.ac.uk/display.aspx?id=1253&pid=0&tabId=230",
+    "https://jobs.wrexham.ac.uk/display.aspx?id=1929&pid=0&tabId=230",
+    "https://jobs.wrexham.ac.uk/display.aspx?id=1354&pid=0&tabId=230",
+    "https://jobs.wrexham.ac.uk/display.aspx?id=1947&pid=0&tabId=230",
+    "https://jobs.wrexham.ac.uk/display.aspx?id=1493&pid=0&tabId=230",
+    "https://jobs.wrexham.ac.uk/Terms",
+    "https://jobs.wrexham.ac.uk/Subs/",
+    "https://jobs.wrexham.ac.uk/display.aspx?id=1947&pid=0",
+    "https://jobs.wrexham.ac.uk/display.aspx?id=1493&pid=0"
+  ],
+  "school_id": 1868,
+  "status": "error",
+  "updated_at": "2026-09-19T16:54:34+00:00",
+  "started_at": "2026-09-02T22:42:45+00:00",
+  "completed_at": "2026-09-17T19:24:31+00:00",
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://jobs.wrexham.ac.uk/vacancies.aspx\", waiting until \"domcontentloaded\"\n"
+}

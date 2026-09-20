@@ -148,8 +148,8 @@
     }
   },
   "school_id": 1357,
-  "status": "complete",
-  "updated_at": "2026-09-17T21:26:25+00:00",
+  "status": "error",
+  "updated_at": "2026-09-20T06:12:14+00:00",
   "completed_at": "2026-09-17T21:26:25+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: oracle session capture failed: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions?location=Pulaski%2C+TN%2C+United+States&locationId=300000010467855&locationLevel=city&mode=location&radius=25&radiusUnit=MI\", waiting until \"domcontentloaded\"\n"
 }

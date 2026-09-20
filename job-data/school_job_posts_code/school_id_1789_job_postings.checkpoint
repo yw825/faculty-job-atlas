@@ -168,9 +168,9 @@
     "https://external-careers.jobs.unsw.edu.au/en/job/543103/senior-reporting-analyst"
   ],
   "school_id": 1789,
-  "status": "complete",
-  "updated_at": "2026-09-17T18:26:15+00:00",
+  "status": "error",
+  "updated_at": "2026-09-19T04:26:41+00:00",
   "started_at": "2026-09-03T22:00:41+00:00",
   "completed_at": "2026-09-17T18:26:15+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://external-careers.jobs.unsw.edu.au/en/listing/?page=1&page-items=100\nCall log:\n  - navigating to \"https://external-careers.jobs.unsw.edu.au/en/listing/?page=1&page-items=100\", waiting until \"domcontentloaded\"\n"
 }

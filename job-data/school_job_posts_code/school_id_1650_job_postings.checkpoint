@@ -13,9 +13,9 @@
     "https://www.uqat.ca/uqat/faire-carriere/"
   ],
   "school_id": 1650,
-  "status": "complete",
-  "updated_at": "2026-09-17T18:40:06+00:00",
+  "status": "error",
+  "updated_at": "2026-09-19T04:46:07+00:00",
   "started_at": "2026-09-02T22:20:48+00:00",
   "completed_at": "2026-09-17T18:40:06+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.uqat.ca/uqat/faire-carriere/#jobsEnseignement\nCall log:\n  - navigating to \"https://www.uqat.ca/uqat/faire-carriere/#jobsEnseignement\", waiting until \"domcontentloaded\"\n"
 }

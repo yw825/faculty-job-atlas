@@ -391,9 +391,9 @@
     "https://arizona.csod.com/ux/ats/careersite/4/requisition/26523"
   ],
   "school_id": 65,
-  "status": "complete",
-  "updated_at": "2026-09-17T16:04:21+00:00",
+  "status": "error",
+  "updated_at": "2026-09-18T16:55:20+00:00",
   "started_at": "2026-09-08T01:12:50+00:00",
   "completed_at": "2026-09-17T16:04:21+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: cornerstone token capture failed: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://arizona.csod.com/ux/ats/careersite/4/home?c=arizona&cfdd[0][id]=227&cfdd[0][options][0]=306\nCall log:\n  - navigating to \"https://arizona.csod.com/ux/ats/careersite/4/home?c=arizona&cfdd[0][id]=227&cfdd[0][options][0]=306\", waiting until \"networkidle\"\n"
 }

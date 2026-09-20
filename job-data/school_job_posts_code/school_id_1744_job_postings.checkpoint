@@ -84,9 +84,9 @@
     "https://careers-ieedu.icims.com/jobs/3179/junior-manager-undergraduate-programs-europe-%26-central-asia/job"
   ],
   "school_id": 1744,
-  "status": "complete",
-  "updated_at": "2026-09-17T19:20:04+00:00",
+  "status": "error",
+  "updated_at": "2026-09-19T10:38:49+00:00",
   "started_at": "2026-09-03T20:17:35+00:00",
   "completed_at": "2026-09-17T19:20:04+00:00",
-  "last_error": ""
+  "last_error": "TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://careers-ieedu.icims.com/jobs/search?ss=1\", waiting until \"domcontentloaded\"\n"
 }

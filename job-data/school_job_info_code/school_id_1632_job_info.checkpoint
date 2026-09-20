@@ -1870,8 +1870,8 @@
     }
   },
   "school_id": 1632,
-  "status": "complete",
-  "updated_at": "2026-09-17T21:49:12+00:00",
+  "status": "error",
+  "updated_at": "2026-09-20T11:20:27+00:00",
   "completed_at": "2026-09-17T21:49:12+00:00",
-  "last_error": ""
+  "last_error": "TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://careers.torontomu.ca/psc/hrcgprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_SCHJOB_FL&Action=U&SiteId=1\", waiting until \"domcontentloaded\"\n"
 }

@@ -376,6 +376,15 @@
     "https://usask.csod.com/ux/ats/careersite/14/requisition/15567": {
       "title": "Welcome - Realize Your Potential: Cornerstone",
       "description": "Welcome - Realize Your Potential: Cornerstone"
+    },
+    "https://usask.csod.com/ux/ats/careersite/14/requisition/15609": {
+      "error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://usask.csod.com/ux/ats/careersite/14/requisition/15609\", waiting until \"domcontentloaded\"\n"
+    },
+    "https://usask.csod.com/ux/ats/careersite/14/requisition/15608": {
+      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+    },
+    "https://usask.csod.com/ux/ats/careersite/14/requisition/15606": {
+      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
     }
   },
   "rows": {
@@ -1084,11 +1093,20 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://usask.csod.com/ux/ats/careersite/14/requisition/15609": {
+      "error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://usask.csod.com/ux/ats/careersite/14/requisition/15609\", waiting until \"domcontentloaded\"\n"
+    },
+    "https://usask.csod.com/ux/ats/careersite/14/requisition/15608": {
+      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+    },
+    "https://usask.csod.com/ux/ats/careersite/14/requisition/15606": {
+      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
     }
   },
   "school_id": 1656,
   "status": "complete",
-  "updated_at": "2026-09-17T21:51:52+00:00",
-  "completed_at": "2026-09-17T21:51:52+00:00",
+  "updated_at": "2026-09-20T12:36:59+00:00",
+  "completed_at": "2026-09-20T12:36:59+00:00",
   "last_error": ""
 }

@@ -618,8 +618,8 @@
     }
   },
   "school_id": 1763,
-  "status": "complete",
-  "updated_at": "2026-09-17T22:24:12+00:00",
+  "status": "error",
+  "updated_at": "2026-09-20T13:49:54+00:00",
   "completed_at": "2026-09-17T22:24:12+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: oracle session capture failed: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://edzz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_6001/jobs?lastSelectedFacet=CATEGORIES&selectedCategoriesFacet=300000002904064\nCall log:\n  - navigating to \"https://edzz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_6001/jobs?lastSelectedFacet=CATEGORIES&selectedCategoriesFacet=300000002904064\", waiting until \"domcontentloaded\"\n"
 }

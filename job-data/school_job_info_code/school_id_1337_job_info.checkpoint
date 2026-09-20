@@ -2836,8 +2836,8 @@
     }
   },
   "school_id": 1337,
-  "status": "complete",
-  "updated_at": "2026-09-17T21:25:59+00:00",
+  "status": "error",
+  "updated_at": "2026-09-20T06:05:07+00:00",
   "completed_at": "2026-09-17T21:25:59+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: oracle session capture failed: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://fa-evyu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/\", waiting until \"domcontentloaded\"\n"
 }

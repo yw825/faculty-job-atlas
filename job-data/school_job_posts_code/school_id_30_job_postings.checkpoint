@@ -142,9 +142,9 @@
     "https://careers.ua.edu/jobs/administrative-assistant-ii-530126-tuscaloosa-alabama-united-states"
   ],
   "school_id": 30,
-  "status": "complete",
-  "updated_at": "2026-09-17T16:01:53+00:00",
+  "status": "error",
+  "updated_at": "2026-09-18T16:54:52+00:00",
   "started_at": "2026-09-08T01:10:33+00:00",
   "completed_at": "2026-09-17T16:01:53+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://careers.ua.edu/jobs/search?page=1\nCall log:\n  - navigating to \"https://careers.ua.edu/jobs/search?page=1\", waiting until \"domcontentloaded\"\n"
 }

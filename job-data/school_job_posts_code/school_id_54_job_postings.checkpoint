@@ -5,9 +5,9 @@
     "https://careers.nau.edu/jobs/assistant-clinical-professor-occupational-therapy-phoenix-arizona-united-states-flagstaff"
   ],
   "school_id": 54,
-  "status": "complete",
-  "updated_at": "2026-09-17T16:04:02+00:00",
+  "status": "error",
+  "updated_at": "2026-09-18T16:55:11+00:00",
   "started_at": "2026-09-08T01:12:41+00:00",
   "completed_at": "2026-09-17T16:04:02+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://careers.nau.edu/jobs/search?page=1&category_uids%5B%5D=16877518cdbd46262a1b4a995c2a65c2&query=\nCall log:\n  - navigating to \"https://careers.nau.edu/jobs/search?page=1&category_uids%5B%5D=16877518cdbd46262a1b4a995c2a65c2&query=\", waiting until \"domcontentloaded\"\n"
 }

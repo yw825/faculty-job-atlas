@@ -33,9 +33,9 @@
     "https://careers.utas.edu.au/en/job/503786/head-school-of-psychological-sciences"
   ],
   "school_id": 1809,
-  "status": "complete",
-  "updated_at": "2026-09-17T18:29:16+00:00",
+  "status": "error",
+  "updated_at": "2026-09-19T04:27:34+00:00",
   "started_at": "2026-09-02T22:35:35+00:00",
   "completed_at": "2026-09-17T18:29:16+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://careers.utas.edu.au/en/listing/\nCall log:\n  - navigating to \"https://careers.utas.edu.au/en/listing/\", waiting until \"domcontentloaded\"\n"
 }

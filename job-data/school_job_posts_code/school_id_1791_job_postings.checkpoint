@@ -1,9 +1,9 @@
 {
   "links": [],
   "school_id": 1791,
-  "status": "complete",
-  "updated_at": "2026-09-17T18:26:49+00:00",
+  "status": "error",
+  "updated_at": "2026-09-19T04:26:48+00:00",
   "started_at": "2026-09-17T18:26:46+00:00",
   "completed_at": "2026-09-17T18:26:49+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://recruitment.uts.edu.au/OA_HTML/OA.jsp?OAFunc=IRC_VIS_HOME_NEW_JOBS&_ti=620357091&oapc=2&oas=1N5G4mzcqWkf6lkmKhbEMw..\nCall log:\n  - navigating to \"https://recruitment.uts.edu.au/OA_HTML/OA.jsp?OAFunc=IRC_VIS_HOME_NEW_JOBS&_ti=620357091&oapc=2&oas=1N5G4mzcqWkf6lkmKhbEMw..\", waiting until \"domcontentloaded\"\n"
 }

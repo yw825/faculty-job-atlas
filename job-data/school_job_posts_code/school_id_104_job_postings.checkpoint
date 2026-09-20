@@ -1,1 +1,13 @@
-{"links": ["https://psuca.edu/university-faculty-directory/", "https://psuca.edu/career-center-and-services/", "https://psuca.edu/on-campus-jobs-opportunities/"], "school_id": 104, "status": "complete", "updated_at": "2026-09-17T16:06:43+00:00", "started_at": "2026-09-08T01:16:07+00:00", "completed_at": "2026-09-17T16:06:43+00:00", "last_error": ""}
+{
+  "links": [
+    "https://psuca.edu/university-faculty-directory/",
+    "https://psuca.edu/career-center-and-services/",
+    "https://psuca.edu/on-campus-jobs-opportunities/"
+  ],
+  "school_id": 104,
+  "status": "error",
+  "updated_at": "2026-09-19T01:17:27+00:00",
+  "started_at": "2026-09-08T01:16:07+00:00",
+  "completed_at": "2026-09-17T16:06:43+00:00",
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://psuca.edu/jobs-opportunities/\nCall log:\n  - navigating to \"https://psuca.edu/jobs-opportunities/\", waiting until \"domcontentloaded\"\n"
+}

@@ -143,6 +143,18 @@
     "https://uleth.peopleadmin.ca/postings/9338": {
       "title": "Program Assistant (Full-Time, Continuing)",
       "description": "University of Lethbridge Applicant Portal | Program Assistant (Full-Time, Continuing) Skip to Main Content Toggle navigation Home Search Jobs Log In /Create Account Help Program Assistant (Full-Time, Continuing) Bookmark this Posting Print Preview | Apply for this Job Posting Details Position Information Job Title Program Assistant (Full-Time, Continuing) About the University At the University of Lethbridge, we speak in perspectives. We are located in the heart of traditional Blackfoot Confederacy territory in southern Alberta with campuses in Lethbridge and Calgary. ULethbridge is more than a place to learn — it’s a place to build a career and make a lasting impact. We are one of Canada’s top universities and leading research institutions with more than 8,000 undergraduate and graduate students. We are an inclusive university that values diverse experiences and backgrounds. Our people are our greatest strength, and we are dedicated to fostering growth and success for all of our people. Together, we transform lives and communities. Position Details The Program Assistant plays a central role in administering and promoting the Co-operative Education program at the University of Lethbridge, serving as the primary point of contact for students, industry/employers, and the university community. With a focus on facilitating program operations, the role involves processing and coordinating central operational activities as an Orbis database super-user, ensuring accurate communication among stakeholders locally, nationally, and internationally. The success of the Co-op program is emphasized as integral to student engagement, career development, and the overall strategic objectives and reputation of the University. Position Qualifications Minimum: Office Administration Diploma Preferred: Bachelor’s Degree, 1-2 years of experience in an administrative position, background in HR Required: Experience with database systems, administrative processes, partner support (customer service), FOIP training, excellent organizational skills; verbal and written communication skills and attention to detail. Starting Salary Range (at 1.0 FTE) $5,000.00 - $5,589.00 monthly Full Salary Range (at 1.0 FTE) $5,000.00 - $6,177.00 monthly (AUPE - Grade 9) Campus Lethbridge Employment Group AUPE Position Category Posting Detail Information Open Date 09/14/2026 Close Date 09/21/2026 Open Until Filled Desired Start Date 10/19/2026 Position End Date (if temporary) Special Instructions to Applicants Employment Equity The University of Lethbridge invites applications from all qualified candidates; however, in accordance with Canadian immigration requirements, Canadian citizens and permanent residents will be given preference. The University of Lethbridge is committed to providing an inclusive and barrier-free work environment, including through all aspects of the hiring process. If you require support during the hiring process, please contact Human Resources at human.resources@uleth.ca so that accommodations can be put in place to support you. All private information received in relation to your request for support will be kept confidential, only information required to facilitate the accommodation will be shared with the selection committee. Supplemental Questions Required fields are indicated with an asterisk (*). Documents Needed To Apply Required Documents Resume Cover Letter Optional Documents Additional Documents The University is located on traditional Blackfoot Confederacy territory. We honour the Blackfoot people and their traditional ways of knowing in caring for this land, as well as all Indigenous Peoples who have helped shape and continue to strengthen our University community. ©2020 University of Lethbridge | 4401 University Drive, Lethbridge, Alberta T1K 3M4 To ensure the security of your data, you will be logged out due to inactivity in 3 minutes at . Any data not saved will be lost. Click 'OK' to keep your session active."
+    },
+    "https://uleth.peopleadmin.ca/postings/9340": {
+      "error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://uleth.peopleadmin.ca/postings/9340\nCall log:\n  - navigating to \"https://uleth.peopleadmin.ca/postings/9340\", waiting until \"domcontentloaded\"\n"
+    },
+    "https://uleth.peopleadmin.ca/postings/9342": {
+      "error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://uleth.peopleadmin.ca/postings/9342\nCall log:\n  - navigating to \"https://uleth.peopleadmin.ca/postings/9342\", waiting until \"domcontentloaded\"\n"
+    },
+    "https://uleth.peopleadmin.ca/postings/9341": {
+      "error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://uleth.peopleadmin.ca/postings/9341\nCall log:\n  - navigating to \"https://uleth.peopleadmin.ca/postings/9341\", waiting until \"domcontentloaded\"\n"
+    },
+    "https://uleth.peopleadmin.ca/postings/9344": {
+      "error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://uleth.peopleadmin.ca/postings/9344\nCall log:\n  - navigating to \"https://uleth.peopleadmin.ca/postings/9344\", waiting until \"domcontentloaded\"\n"
     }
   },
   "rows": {
@@ -541,11 +553,23 @@
       "area_key_words": "Continuing",
       "deadline_of_application": "09/21/2026",
       "position_start_date": ""
+    },
+    "https://uleth.peopleadmin.ca/postings/9340": {
+      "error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://uleth.peopleadmin.ca/postings/9340\nCall log:\n  - navigating to \"https://uleth.peopleadmin.ca/postings/9340\", waiting until \"domcontentloaded\"\n"
+    },
+    "https://uleth.peopleadmin.ca/postings/9342": {
+      "error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://uleth.peopleadmin.ca/postings/9342\nCall log:\n  - navigating to \"https://uleth.peopleadmin.ca/postings/9342\", waiting until \"domcontentloaded\"\n"
+    },
+    "https://uleth.peopleadmin.ca/postings/9341": {
+      "error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://uleth.peopleadmin.ca/postings/9341\nCall log:\n  - navigating to \"https://uleth.peopleadmin.ca/postings/9341\", waiting until \"domcontentloaded\"\n"
+    },
+    "https://uleth.peopleadmin.ca/postings/9344": {
+      "error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://uleth.peopleadmin.ca/postings/9344\nCall log:\n  - navigating to \"https://uleth.peopleadmin.ca/postings/9344\", waiting until \"domcontentloaded\"\n"
     }
   },
   "school_id": 1589,
   "status": "complete",
-  "updated_at": "2026-09-17T21:45:50+00:00",
-  "completed_at": "2026-09-17T21:45:50+00:00",
+  "updated_at": "2026-09-20T10:11:27+00:00",
+  "completed_at": "2026-09-20T10:11:27+00:00",
   "last_error": ""
 }

@@ -21,9 +21,9 @@
     "https://ozarks.edu/news/author-illustrator-to-discuss-new-book-on-arkansas-women-musicians/"
   ],
   "school_id": 35,
-  "status": "complete",
-  "updated_at": "2026-09-17T16:02:12+00:00",
+  "status": "error",
+  "updated_at": "2026-09-18T16:55:00+00:00",
   "started_at": "2026-09-08T01:10:48+00:00",
   "completed_at": "2026-09-17T16:02:12+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://ozarks.edu/about/employment/\nCall log:\n  - navigating to \"https://ozarks.edu/about/employment/\", waiting until \"domcontentloaded\"\n"
 }

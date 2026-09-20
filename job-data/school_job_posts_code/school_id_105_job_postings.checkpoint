@@ -214,9 +214,9 @@
     "https://recruit.apo.ucla.edu/JPF11345"
   ],
   "school_id": 105,
-  "status": "complete",
-  "updated_at": "2026-09-17T16:06:43+00:00",
+  "status": "error",
+  "updated_at": "2026-09-19T01:17:27+00:00",
   "started_at": "2026-09-08T17:41:05+00:00",
   "completed_at": "2026-09-17T16:06:43+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: uc recruit fetch failed status=None"
 }

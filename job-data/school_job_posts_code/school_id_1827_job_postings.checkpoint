@@ -11,9 +11,9 @@
     "https://elhs.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/1003888"
   ],
   "school_id": 1827,
-  "status": "complete",
-  "updated_at": "2026-09-17T19:03:44+00:00",
+  "status": "error",
+  "updated_at": "2026-09-19T05:48:32+00:00",
   "started_at": "2026-09-02T22:36:57+00:00",
   "completed_at": "2026-09-17T19:03:44+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: oracle session capture failed: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://elhs.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/jobs?lastSelectedFacet=TITLES&mode=location&selectedTitlesFacet=UOW_ACADEMIC\", waiting until \"domcontentloaded\"\n"
 }

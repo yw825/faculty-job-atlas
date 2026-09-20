@@ -42,9 +42,9 @@
     "https://phe.tbe.taleo.net/phe02/ats/careers/v2/viewRequisition?org=ARKASTAT2&cws=56&rid=39835"
   ],
   "school_id": 41,
-  "status": "complete",
-  "updated_at": "2026-09-17T16:02:34+00:00",
+  "status": "error",
+  "updated_at": "2026-09-18T16:55:06+00:00",
   "started_at": "2026-09-08T01:11:23+00:00",
   "completed_at": "2026-09-17T16:02:34+00:00",
-  "last_error": ""
+  "last_error": "Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://phe.tbe.taleo.net/phe02/ats/careers/v2/searchResults?org=ARKASTAT2&cws=56&act=sort&sortColumn=1&sortOrder=A\nCall log:\n  - navigating to \"https://phe.tbe.taleo.net/phe02/ats/careers/v2/searchResults?org=ARKASTAT2&cws=56&act=sort&sortColumn=1&sortOrder=A\", waiting until \"domcontentloaded\"\n"
 }

@@ -3,6 +3,6 @@
   "rows": {},
   "school_id": 1323,
   "status": "error",
-  "updated_at": "2026-09-17T21:25:17+00:00",
+  "updated_at": "2026-09-20T05:57:07+00:00",
   "last_error": "RuntimeError: oracle session capture failed: Timeout 15000ms exceeded while waiting for event \"request\"\n=========================== logs ===========================\nwaiting for request **/recruitingCEJobRequisitions**\n============================================================"
 }

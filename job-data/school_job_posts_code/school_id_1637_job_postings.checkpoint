@@ -6,9 +6,9 @@
     "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4106"
   ],
   "school_id": 1637,
-  "status": "complete",
-  "updated_at": "2026-09-17T18:38:29+00:00",
+  "status": "error",
+  "updated_at": "2026-09-19T04:45:26+00:00",
   "started_at": "2026-09-02T22:19:43+00:00",
   "completed_at": "2026-09-17T18:38:29+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: oracle session capture failed: Timeout 15000ms exceeded while waiting for event \"request\"\n=========================== logs ===========================\nwaiting for request **/recruitingCEJobRequisitions**\n============================================================"
 }

@@ -4,9 +4,9 @@
     "https://www.amridgeuniversity.edu/studentservices/careerservices/"
   ],
   "school_id": 21,
-  "status": "complete",
-  "updated_at": "2026-09-17T16:01:26+00:00",
+  "status": "error",
+  "updated_at": "2026-09-18T16:54:20+00:00",
   "started_at": "2026-09-08T01:10:21+00:00",
   "completed_at": "2026-09-17T16:01:26+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at http://www.amridgeuniversity.edu/about/employment/\nCall log:\n  - navigating to \"http://www.amridgeuniversity.edu/about/employment/\", waiting until \"domcontentloaded\"\n"
 }

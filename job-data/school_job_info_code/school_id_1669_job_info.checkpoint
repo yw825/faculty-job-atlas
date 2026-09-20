@@ -1169,6 +1169,21 @@
       "title": "Presse- og kommunikationsmedarbejder – Afd. for Kommunikation og Medier",
       "description": "Du bliver en del af et specialiseret presseteam på fire personer og skal være med til at styrke DTU's synlighed, position og gennemslagskraft i samfundsdebatten og nyhedsbilledet med afsæt i DTU's strategi 2026-2031.\nDu vil få tæt kontakt til DTU’s øverste ledelse, ligesom du vil få rig lejlighed til at formidle historier om forskning fra nogle af landets skarpeste hjerner.",
       "department": null
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8220": {
+      "title": "Administrationschef - DTU Kemiteknik",
+      "description": "Vil du stå i spidsen for en stærk administration og være en central del af ledelsen på et internationalt førende institut i udvikling, hvor vi hver dag arbejder målrettet på at løse nogle af samfundets vigtigste industrielle udfordringer?",
+      "department": null
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8218": {
+      "title": "PhD Scholarships in Engineering of Quantum Light Sources and System Architecture for Photonic Quantum Computing - DTU Electro",
+      "description": "The Quantum Light Sources Group at DTU Electro is seeking candidates for PhD Scholarships in the field of design, simulation and optical characterization of highly efficient solid-state sources of single indistinguishable photons as well as in the engineering of system architecture for photonic quantum information technology. ",
+      "department": null
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8222": {
+      "title": "Postdoc in Experimental Optical Materials Discovery - DTU Physics",
+      "description": "DTU Physics seeks a talented and motivated postdoctoral researcher for a 2-year position in experimental nanophotonics and optical materials discovery. The goal is to identify, characterize and utilize emerging optical materials with high refractive index and low losses, that can enable more efficient light trapping in nanostructured thin-film solar cells.",
+      "department": null
     }
   },
   "rows": {
@@ -3745,11 +3760,44 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8220": {
+      "school_id": 1669,
+      "posting_url": "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8220",
+      "job_title_in_post": "Administrationschef - DTU Kemiteknik",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8218": {
+      "school_id": 1669,
+      "posting_url": "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8218",
+      "job_title_in_post": "PhD Scholarships in Engineering of Quantum Light Sources and System Architecture for Photonic Quantum Computing - DTU Electro",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Engineering of Quantum Light Sources and System Architecture for Photonic Quantum Computing",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8222": {
+      "school_id": 1669,
+      "posting_url": "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8222",
+      "job_title_in_post": "Postdoc in Experimental Optical Materials Discovery - DTU Physics",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Experimental Optical Materials Discovery",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1669,
   "status": "complete",
-  "updated_at": "2026-09-17T21:53:11+00:00",
-  "completed_at": "2026-09-17T21:53:11+00:00",
+  "updated_at": "2026-09-20T13:23:55+00:00",
+  "completed_at": "2026-09-20T13:23:55+00:00",
   "last_error": ""
 }

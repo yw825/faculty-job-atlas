@@ -1,1 +1,28 @@
-{"links": ["http://www.lyon.edu/ar-professor-of-the-year", "http://www.lyon.edu/scottish-arts-summer-school-instructors", "http://www.lyon.edu/fine-arts-faculty", "http://www.lyon.edu/lyon-fellows", "http://www.lyon.edu/why-Lyon-Fellows", "http://www.lyon.edu/fellows-curriculum", "http://www.lyon.edu/fellows", "http://www.lyon.edu/honors-fellows-capstone-podcasts", "http://www.lyon.edu/humanities-faculty", "http://www.lyon.edu/irb-board-composition", "http://www.lyon.edu/math-science-faculty", "http://www.lyon.edu/deposit", "http://www.lyon.edu/career-center", "http://www.lyon.edu/career-planning", "http://www.lyon.edu/job-search-tools", "http://www.lyon.edu/career-pathways-podcast", "http://www.lyon.edu/resources-for-faculty-and-staff", "http://www.lyon.edu/dean-of-students"], "school_id": 34, "status": "complete", "updated_at": "2026-09-17T16:02:04+00:00", "started_at": "2026-09-08T01:10:44+00:00", "completed_at": "2026-09-17T16:02:04+00:00", "last_error": ""}
+{
+  "links": [
+    "http://www.lyon.edu/ar-professor-of-the-year",
+    "http://www.lyon.edu/scottish-arts-summer-school-instructors",
+    "http://www.lyon.edu/fine-arts-faculty",
+    "http://www.lyon.edu/lyon-fellows",
+    "http://www.lyon.edu/why-Lyon-Fellows",
+    "http://www.lyon.edu/fellows-curriculum",
+    "http://www.lyon.edu/fellows",
+    "http://www.lyon.edu/honors-fellows-capstone-podcasts",
+    "http://www.lyon.edu/humanities-faculty",
+    "http://www.lyon.edu/irb-board-composition",
+    "http://www.lyon.edu/math-science-faculty",
+    "http://www.lyon.edu/deposit",
+    "http://www.lyon.edu/career-center",
+    "http://www.lyon.edu/career-planning",
+    "http://www.lyon.edu/job-search-tools",
+    "http://www.lyon.edu/career-pathways-podcast",
+    "http://www.lyon.edu/resources-for-faculty-and-staff",
+    "http://www.lyon.edu/dean-of-students"
+  ],
+  "school_id": 34,
+  "status": "error",
+  "updated_at": "2026-09-18T16:54:57+00:00",
+  "started_at": "2026-09-08T01:10:44+00:00",
+  "completed_at": "2026-09-17T16:02:04+00:00",
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at http://www.lyon.edu/employment\nCall log:\n  - navigating to \"http://www.lyon.edu/employment\", waiting until \"domcontentloaded\"\n"
+}

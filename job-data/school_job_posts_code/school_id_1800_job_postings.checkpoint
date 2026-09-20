@@ -1,1 +1,22 @@
-{"links": ["https://careers.cqu.edu.au/lp/Working%20at%20CQUni/4f4d12b50e9d145e/?locale=en_GB", "https://careers.cqu.edu.au/job/Rockhampton-Casual-Academic-Learning-Adviser-%28ITAP%29-QLD/1357966266/", "https://careers.cqu.edu.au/job/Sydney-Senior-Lecturer-Social-Work-NSW/1366184066/", "https://careers.cqu.edu.au/job/Cairns-Associate-Professor-Clinical-Exercise-Physiology-QLD/1366179066/", "https://careers.cqu.edu.au/job/Brisbane-LecturerSenior-Lecturer-Chiropractic-QLD/1365814466/", "https://careers.cqu.edu.au/job/Cairns-LecturerSenior-Lecturer-Medical-Imaging-QLD/1365514166/", "https://careers.cqu.edu.au/job/Rockhampton-LecturerSenior-Lecturer-Psychology-%28Undergraduate%29-QLD/1367203066/", "https://careers.cqu.edu.au/job/Rockhampton-Professor-Nursing-QLD/1331553566/", "https://careers.cqu.edu.au/job/Rockhampton-Associate-Professor-Nursing-QLD/1367016366/", "https://careers.cqu.edu.au/job/Brisbane-Postdoctoral-Research-Fellow-Health-Services-Evaluation-QLD/1366825166/", "https://careers.cqu.edu.au/job/Rockhampton-Senior-Lecturer-First-Nations-Curriculum-QLD/1366796966/", "https://careers.cqu.edu.au/job/Rockhampton-Lecturer-Senior-Lecturer-Psychology-%28Undergraduate%29-QLD/1367203066/"], "school_id": 1800, "status": "complete", "updated_at": "2026-09-17T18:28:11+00:00", "started_at": "2026-09-02T22:35:00+00:00", "completed_at": "2026-09-17T18:28:11+00:00", "last_error": ""}
+{
+  "links": [
+    "https://careers.cqu.edu.au/lp/Working%20at%20CQUni/4f4d12b50e9d145e/?locale=en_GB",
+    "https://careers.cqu.edu.au/job/Rockhampton-Casual-Academic-Learning-Adviser-%28ITAP%29-QLD/1357966266/",
+    "https://careers.cqu.edu.au/job/Sydney-Senior-Lecturer-Social-Work-NSW/1366184066/",
+    "https://careers.cqu.edu.au/job/Cairns-Associate-Professor-Clinical-Exercise-Physiology-QLD/1366179066/",
+    "https://careers.cqu.edu.au/job/Brisbane-LecturerSenior-Lecturer-Chiropractic-QLD/1365814466/",
+    "https://careers.cqu.edu.au/job/Cairns-LecturerSenior-Lecturer-Medical-Imaging-QLD/1365514166/",
+    "https://careers.cqu.edu.au/job/Rockhampton-LecturerSenior-Lecturer-Psychology-%28Undergraduate%29-QLD/1367203066/",
+    "https://careers.cqu.edu.au/job/Rockhampton-Professor-Nursing-QLD/1331553566/",
+    "https://careers.cqu.edu.au/job/Rockhampton-Associate-Professor-Nursing-QLD/1367016366/",
+    "https://careers.cqu.edu.au/job/Brisbane-Postdoctoral-Research-Fellow-Health-Services-Evaluation-QLD/1366825166/",
+    "https://careers.cqu.edu.au/job/Rockhampton-Senior-Lecturer-First-Nations-Curriculum-QLD/1366796966/",
+    "https://careers.cqu.edu.au/job/Rockhampton-Lecturer-Senior-Lecturer-Psychology-%28Undergraduate%29-QLD/1367203066/"
+  ],
+  "school_id": 1800,
+  "status": "error",
+  "updated_at": "2026-09-19T04:27:11+00:00",
+  "started_at": "2026-09-02T22:35:00+00:00",
+  "completed_at": "2026-09-17T18:28:11+00:00",
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://careers.cqu.edu.au/go/Academic-&-ELICOS-Jobs/7956910/\nCall log:\n  - navigating to \"https://careers.cqu.edu.au/go/Academic-&-ELICOS-Jobs/7956910/\", waiting until \"domcontentloaded\"\n"
+}

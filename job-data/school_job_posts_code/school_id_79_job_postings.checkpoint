@@ -1,1 +1,17 @@
-{"links": ["https://webapps.cmc.edu/jobs/faculty/pre_profile.php", "https://webapps.cmc.edu/jobs/faculty/faculty_opening_detail.php?PostingID=18083", "https://webapps.cmc.edu/jobs/faculty/faculty_opening_detail.php?PostingID=18082", "https://webapps.cmc.edu/jobs/faculty/faculty_opening_detail.php?PostingID=17082", "https://webapps.cmc.edu/jobs/faculty/faculty_opening_detail.php?PostingID=17081", "https://webapps.cmc.edu/jobs/faculty/faculty_opening_detail.php?PostingID=17080", "https://webapps.cmc.edu/jobs/faculty/faculty_opening_detail.php?PostingID=17078"], "school_id": 79, "status": "complete", "updated_at": "2026-09-17T16:04:55+00:00", "started_at": "2026-09-08T01:14:07+00:00", "completed_at": "2026-09-17T16:04:55+00:00", "last_error": ""}
+{
+  "links": [
+    "https://webapps.cmc.edu/jobs/faculty/pre_profile.php",
+    "https://webapps.cmc.edu/jobs/faculty/faculty_opening_detail.php?PostingID=18083",
+    "https://webapps.cmc.edu/jobs/faculty/faculty_opening_detail.php?PostingID=18082",
+    "https://webapps.cmc.edu/jobs/faculty/faculty_opening_detail.php?PostingID=17082",
+    "https://webapps.cmc.edu/jobs/faculty/faculty_opening_detail.php?PostingID=17081",
+    "https://webapps.cmc.edu/jobs/faculty/faculty_opening_detail.php?PostingID=17080",
+    "https://webapps.cmc.edu/jobs/faculty/faculty_opening_detail.php?PostingID=17078"
+  ],
+  "school_id": 79,
+  "status": "error",
+  "updated_at": "2026-09-18T19:59:14+00:00",
+  "started_at": "2026-09-08T01:14:07+00:00",
+  "completed_at": "2026-09-17T16:04:55+00:00",
+  "last_error": "TimeoutError: BrowserType.launch: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Users/yusiwei/Library/Caches/ms-playwright/chromium_headless_shell-1234/chrome-headless-shell-mac-arm64/chrome-headless-shell --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,Translate,AutoDeElevate,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=/var/folders/88/jcs6kzbj0jl13vb3kjb9vrnc0000gn/T/playwright_chromiumdev_profile-CRGPUS --remote-debugging-pipe --no-startup-window\n  - <launched> pid=45380\n"
+}

@@ -14,9 +14,9 @@
     "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010071"
   ],
   "school_id": 1830,
-  "status": "complete",
-  "updated_at": "2026-09-17T19:04:07+00:00",
+  "status": "error",
+  "updated_at": "2026-09-19T05:50:21+00:00",
   "started_at": "2026-09-02T22:37:15+00:00",
   "completed_at": "2026-09-17T19:04:07+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: oracle session capture failed: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs?lastSelectedFacet=CATEGORIES&selectedCategoriesFacet=300000002931158\nCall log:\n  - navigating to \"https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs?lastSelectedFacet=CATEGORIES&selectedCategoriesFacet=300000002931158\", waiting until \"domcontentloaded\"\n"
 }

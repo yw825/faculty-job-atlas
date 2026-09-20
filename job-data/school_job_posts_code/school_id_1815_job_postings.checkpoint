@@ -1,9 +1,9 @@
 {
   "links": [],
   "school_id": 1815,
-  "status": "complete",
-  "updated_at": "2026-09-17T18:30:07+00:00",
+  "status": "error",
+  "updated_at": "2026-09-19T04:28:10+00:00",
   "started_at": "2026-09-17T18:30:02+00:00",
   "completed_at": "2026-09-17T18:30:07+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://swinjobs.nga.net.au/cp/index.cfm?event=jobs.listJobs&jobListid=1e31354d-ae80-9f9a-6321-5b3e8846b9e0&AudienceTypeCode=EXT&unpersistVars=CurATC,CurBID,jobListid&rmuh=A703045E85CF1618241426410433C711F3C4108C\", waiting until \"domcontentloaded\"\n"
 }

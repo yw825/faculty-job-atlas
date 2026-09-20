@@ -1,1 +1,12 @@
-{"links": ["https://www.aib.edu.au/study-with-us/career-growth/", "https://www.aib.edu.au/students/handbook/wellbeing-and-inclusion/"], "school_id": 1804, "status": "complete", "updated_at": "2026-09-17T18:28:54+00:00", "started_at": "2026-09-02T22:35:18+00:00", "completed_at": "2026-09-17T18:28:54+00:00", "last_error": ""}
+{
+  "links": [
+    "https://www.aib.edu.au/study-with-us/career-growth/",
+    "https://www.aib.edu.au/students/handbook/wellbeing-and-inclusion/"
+  ],
+  "school_id": 1804,
+  "status": "error",
+  "updated_at": "2026-09-19T04:27:23+00:00",
+  "started_at": "2026-09-02T22:35:18+00:00",
+  "completed_at": "2026-09-17T18:28:54+00:00",
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.aib.edu.au/about-us/positions-available/\nCall log:\n  - navigating to \"https://www.aib.edu.au/about-us/positions-available/\", waiting until \"domcontentloaded\"\n"
+}

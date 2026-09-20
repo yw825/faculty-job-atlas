@@ -1,1 +1,14 @@
-{"links": ["https://www.rh.ulaval.ca/emplois-disponibles/personnel-enseignant-et-de-recherche/personnes-chargees-de-cours", "https://www.rh.ulaval.ca/emplois-disponibles/personnel-enseignant-et-de-recherche/personnes-chargees-denseignement-en-medecine", "https://www.rh.ulaval.ca/emplois-disponibles/personnel-enseignant-et-de-recherche/professionnelles-et-professionnels-de-recherche", "https://www.rh.ulaval.ca/emplois-disponibles/personnel-enseignant-et-de-recherche/personnes-stagiaires-postdoctorales"], "school_id": 1647, "status": "complete", "updated_at": "2026-09-17T18:39:56+00:00", "started_at": "2026-09-02T22:20:39+00:00", "completed_at": "2026-09-17T18:39:56+00:00", "last_error": ""}
+{
+  "links": [
+    "https://www.rh.ulaval.ca/emplois-disponibles/personnel-enseignant-et-de-recherche/personnes-chargees-de-cours",
+    "https://www.rh.ulaval.ca/emplois-disponibles/personnel-enseignant-et-de-recherche/personnes-chargees-denseignement-en-medecine",
+    "https://www.rh.ulaval.ca/emplois-disponibles/personnel-enseignant-et-de-recherche/professionnelles-et-professionnels-de-recherche",
+    "https://www.rh.ulaval.ca/emplois-disponibles/personnel-enseignant-et-de-recherche/personnes-stagiaires-postdoctorales"
+  ],
+  "school_id": 1647,
+  "status": "error",
+  "updated_at": "2026-09-19T04:45:58+00:00",
+  "started_at": "2026-09-02T22:20:39+00:00",
+  "completed_at": "2026-09-17T18:39:56+00:00",
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.rh.ulaval.ca/emplois-disponibles/personnel-enseignant-et-de-recherche\nCall log:\n  - navigating to \"https://www.rh.ulaval.ca/emplois-disponibles/personnel-enseignant-et-de-recherche\", waiting until \"domcontentloaded\"\n"
+}

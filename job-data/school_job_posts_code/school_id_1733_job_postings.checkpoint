@@ -1,9 +1,8 @@
 {
   "links": [],
   "school_id": 1733,
-  "status": "complete",
-  "updated_at": "2026-09-17T19:05:31+00:00",
-  "started_at": "2026-09-17T19:05:28+00:00",
-  "completed_at": "2026-09-17T19:05:31+00:00",
-  "last_error": ""
+  "status": "error",
+  "updated_at": "2026-09-19T06:56:23+00:00",
+  "started_at": "2026-09-19T06:32:00+00:00",
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.uc.pt/en/adai/open-positions/\", waiting until \"domcontentloaded\"\n"
 }

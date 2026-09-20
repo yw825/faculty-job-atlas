@@ -937,6 +937,16 @@
       "title": "Senior Research Assistant, Academy of Wellness and Human Development",
       "description": "This position sits under the Academy of Wellness and Human Development Office at our Kowloon Tong campus. The core responsibilities are providing administrative and managerial support.",
       "department": null
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270189": {
+      "title": "Senior Executive Officer, Academic Registry",
+      "description": "This position sits under the Academic Registry Office at our Kowloon Tong campus. The core responsibilities are supporting the end-to-end operation of undergraduate admissions, including reviewing and vetting applications, communicating with applicants and academic units, issuing offers, verifying documentation, and facilitating enrolment procedures.",
+      "department": null
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270201": {
+      "title": "Programme Officer, Undergraduate Studies Section",
+      "description": "This position sits under the Office of Dean of Business at our Kowloon Tong campus. The core responsibilities are coordinating and managing student development initiatives, including the Student Ambassador Programme and related activities.",
+      "department": null
     }
   },
   "rows": {
@@ -2927,11 +2937,33 @@
       "area_key_words": "Wellness and Human Development",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270189": {
+      "school_id": 1834,
+      "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270189",
+      "job_title_in_post": "Senior Executive Officer, Academic Registry",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270201": {
+      "school_id": 1834,
+      "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270201",
+      "job_title_in_post": "Programme Officer, Undergraduate Studies Section",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1834,
   "status": "complete",
-  "updated_at": "2026-09-17T21:58:14+00:00",
-  "completed_at": "2026-09-17T21:58:14+00:00",
+  "updated_at": "2026-09-20T13:27:13+00:00",
+  "completed_at": "2026-09-20T13:27:13+00:00",
   "last_error": ""
 }

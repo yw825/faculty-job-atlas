@@ -222,9 +222,9 @@
     "https://apol-recruit.ucsd.edu/JPF04663"
   ],
   "school_id": 95,
-  "status": "complete",
-  "updated_at": "2026-09-17T16:06:11+00:00",
+  "status": "error",
+  "updated_at": "2026-09-18T23:15:22+00:00",
   "started_at": "2026-09-08T17:41:04+00:00",
   "completed_at": "2026-09-17T16:06:11+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: uc recruit fetch failed status=None"
 }

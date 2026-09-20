@@ -118,9 +118,9 @@
     "https://aprecruit.ucmerced.edu/JPF02232"
   ],
   "school_id": 108,
-  "status": "complete",
-  "updated_at": "2026-09-17T16:06:56+00:00",
+  "status": "error",
+  "updated_at": "2026-09-19T02:08:31+00:00",
   "started_at": "2026-09-08T17:41:06+00:00",
   "completed_at": "2026-09-17T16:06:56+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: uc recruit fetch failed status=None"
 }

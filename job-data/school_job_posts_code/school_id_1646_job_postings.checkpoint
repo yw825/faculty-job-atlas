@@ -1,9 +1,9 @@
 {
   "links": [],
   "school_id": 1646,
-  "status": "complete",
-  "updated_at": "2026-09-17T18:39:52+00:00",
+  "status": "error",
+  "updated_at": "2026-09-19T04:45:53+00:00",
   "started_at": "2026-09-17T18:39:46+00:00",
   "completed_at": "2026-09-17T18:39:52+00:00",
-  "last_error": ""
+  "last_error": "Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://tre.tbe.taleo.net/tre01/ats/careers/v2/jobSearch?act=redirectCwsV2&cws=43&org=NYQEDG\nCall log:\n  - navigating to \"https://tre.tbe.taleo.net/tre01/ats/careers/v2/jobSearch?act=redirectCwsV2&cws=43&org=NYQEDG\", waiting until \"domcontentloaded\"\n"
 }
