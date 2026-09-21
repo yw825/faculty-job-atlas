@@ -1,14 +1,1 @@
-{
-  "links": [
-    "https://academicjobsonline.org/ajo/jobs/32359",
-    "https://academicjobsonline.org/ajo/jobs/32196",
-    "https://academicjobsonline.org/ajo/jobs/32289",
-    "https://academicjobsonline.org/ajo/jobs/32020"
-  ],
-  "school_id": 81,
-  "status": "error",
-  "updated_at": "2026-09-18T20:28:53+00:00",
-  "started_at": "2026-09-08T01:14:12+00:00",
-  "completed_at": "2026-09-17T16:04:59+00:00",
-  "last_error": "RuntimeError: ajo fetch failed status=None"
-}
+{"links": ["https://academicjobsonline.org/ajo/jobs/32359", "https://academicjobsonline.org/ajo/jobs/32196", "https://academicjobsonline.org/ajo/jobs/32289", "https://academicjobsonline.org/ajo/jobs/32020"], "school_id": 81, "status": "complete", "updated_at": "2026-09-20T17:09:31+00:00", "started_at": "2026-09-08T01:14:12+00:00", "completed_at": "2026-09-20T17:09:31+00:00", "last_error": ""}

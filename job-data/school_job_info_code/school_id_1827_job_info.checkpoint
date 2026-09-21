@@ -44,6 +44,11 @@
       "title": "Lecturer in Education",
       "description": "Shape the future of education through research-informed teaching, impactful research and meaningful engagement at Waikato. We have multiple Lectureship roles available.\n\nPosting closes: 2026-10-10",
       "department": null
+    },
+    "https://elhs.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/1003892": {
+      "title": "Regional Clinical Lead",
+      "description": "Combine your clinical and leadership experience to help build the future of medicine at the University of Waikato.\n\nPosting closes: 2026-10-28",
+      "department": null
     }
   },
   "rows": {
@@ -145,11 +150,22 @@
       "area_key_words": "Education",
       "deadline_of_application": "2026-10-10",
       "position_start_date": ""
+    },
+    "https://elhs.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/1003892": {
+      "school_id": 1827,
+      "posting_url": "https://elhs.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/1003892",
+      "job_title_in_post": "Regional Clinical Lead",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "2026-10-28",
+      "position_start_date": ""
     }
   },
   "school_id": 1827,
   "status": "complete",
-  "updated_at": "2026-09-20T13:46:39+00:00",
-  "completed_at": "2026-09-20T13:46:39+00:00",
+  "updated_at": "2026-09-21T01:44:08+00:00",
+  "completed_at": "2026-09-21T01:44:08+00:00",
   "last_error": ""
 }

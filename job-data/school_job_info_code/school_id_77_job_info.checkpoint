@@ -83,6 +83,10 @@
     "https://careers.csudh.edu/en-us/job/556894/temporary-faculty-pool-liberal-studies": {
       "title": "index",
       "description": "index"
+    },
+    "https://careers.csudh.edu/en-us/job/562366/msw-internship-program-manager": {
+      "title": "msw internship program manager",
+      "description": ""
     }
   },
   "rows": {
@@ -316,11 +320,22 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://careers.csudh.edu/en-us/job/562366/msw-internship-program-manager": {
+      "school_id": 77,
+      "posting_url": "https://careers.csudh.edu/en-us/job/562366/msw-internship-program-manager",
+      "job_title_in_post": "msw internship program manager",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 77,
   "status": "complete",
-  "updated_at": "2026-09-19T17:49:12+00:00",
-  "completed_at": "2026-09-19T17:49:12+00:00",
+  "updated_at": "2026-09-20T23:58:15+00:00",
+  "completed_at": "2026-09-20T23:58:15+00:00",
   "last_error": ""
 }

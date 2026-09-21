@@ -23,7 +23,7 @@
   ],
   "school_id": 91,
   "status": "error",
-  "updated_at": "2026-09-18T23:15:21+00:00",
+  "updated_at": "2026-09-20T17:25:37+00:00",
   "started_at": "2026-09-08T01:14:57+00:00",
   "completed_at": "2026-09-17T16:06:08+00:00",
   "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://careers.pageuppeople.com/873/eb/en-us/filter/?job-mail-subscribe-privacy=agree&search-keyword=&work-type=instructional%20faculty%20-%20temporary%2flecturer&work-type=instructional%20faculty%20%e2%80%93%20tenured%2ftenure-track\nCall log:\n  - navigating to \"https://careers.pageuppeople.com/873/eb/en-us/filter/?job-mail-subscribe-privacy=agree&search-keyword=&work-type=instructional%20faculty%20-%20temporary%2flecturer&work-type=instructional%20faculty%20%e2%80%93%20tenured%2ftenure-track\", waiting until \"domcontentloaded\"\n"

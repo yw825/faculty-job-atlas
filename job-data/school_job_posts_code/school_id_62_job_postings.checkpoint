@@ -14,7 +14,7 @@
   ],
   "school_id": 62,
   "status": "error",
-  "updated_at": "2026-09-18T16:55:14+00:00",
+  "updated_at": "2026-09-20T16:57:35+00:00",
   "started_at": "2026-09-08T01:12:45+00:00",
   "completed_at": "2026-09-17T16:04:05+00:00",
   "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://facultypositions.asu.edu/#/api/Home/_InterfolioPostings\nCall log:\n  - navigating to \"https://facultypositions.asu.edu/#/api/Home/_InterfolioPostings\", waiting until \"domcontentloaded\"\n"

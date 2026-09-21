@@ -5,7 +5,7 @@
   ],
   "school_id": 68,
   "status": "error",
-  "updated_at": "2026-09-18T16:55:24+00:00",
+  "updated_at": "2026-09-20T16:57:40+00:00",
   "started_at": "2026-09-08T01:13:03+00:00",
   "completed_at": "2026-09-17T16:04:27+00:00",
   "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://careers.humboldt.edu/hm/en-us/filter/?work-type=faculty\nCall log:\n  - navigating to \"https://careers.humboldt.edu/hm/en-us/filter/?work-type=faculty\", waiting until \"domcontentloaded\"\n"

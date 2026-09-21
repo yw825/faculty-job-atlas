@@ -130,9 +130,9 @@
     "https://pacific.peopleadmin.com/postings/32743"
   ],
   "school_id": 155,
-  "status": "complete",
-  "updated_at": "2026-09-17T16:08:54+00:00",
+  "status": "error",
+  "updated_at": "2026-09-20T20:47:27+00:00",
   "started_at": "2026-09-08T01:20:29+00:00",
   "completed_at": "2026-09-17T16:08:54+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: peopleadmin atom status=None"
 }

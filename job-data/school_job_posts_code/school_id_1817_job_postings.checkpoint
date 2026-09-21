@@ -11,9 +11,9 @@
     "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18461"
   ],
   "school_id": 1817,
-  "status": "error",
-  "updated_at": "2026-09-19T04:28:53+00:00",
+  "status": "complete",
+  "updated_at": "2026-09-20T23:00:37+00:00",
   "started_at": "2026-09-02T22:36:12+00:00",
-  "completed_at": "2026-09-17T18:30:18+00:00",
-  "last_error": "RuntimeError: oracle session capture failed: Timeout 15000ms exceeded while waiting for event \"request\"\n=========================== logs ===========================\nwaiting for request **/recruitingCEJobRequisitions**\n============================================================"
+  "completed_at": "2026-09-20T23:00:37+00:00",
+  "last_error": ""
 }

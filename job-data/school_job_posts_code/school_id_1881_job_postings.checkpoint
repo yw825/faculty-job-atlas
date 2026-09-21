@@ -2,8 +2,7 @@
   "links": [],
   "school_id": 1881,
   "status": "error",
-  "updated_at": "2026-09-19T17:14:47+00:00",
-  "started_at": "2026-09-17T19:26:17+00:00",
-  "completed_at": "2026-09-17T19:26:21+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://vacancies.leedsbeckett.ac.uk/ce0984li_webrecruitment/wrd/run/ETREC105GF?USESSION=C59F66C55E2608EA1C843755BE73D602&WVID=7412577lKO&LANG=USA\", waiting until \"domcontentloaded\"\n"
+  "updated_at": "2026-09-20T23:54:30+00:00",
+  "started_at": "2026-09-20T23:54:27+00:00",
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_NETWORK_CHANGED at https://vacancies.leedsbeckett.ac.uk/ce0984li_webrecruitment/wrd/run/ETREC105GF?USESSION=C59F66C55E2608EA1C843755BE73D602&WVID=7412577lKO&LANG=USA\nCall log:\n  - navigating to \"https://vacancies.leedsbeckett.ac.uk/ce0984li_webrecruitment/wrd/run/ETREC105GF?USESSION=C59F66C55E2608EA1C843755BE73D602&WVID=7412577lKO&LANG=USA\", waiting until \"domcontentloaded\"\n"
 }

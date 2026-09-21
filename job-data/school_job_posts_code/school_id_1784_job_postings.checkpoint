@@ -8,8 +8,8 @@
   ],
   "school_id": 1784,
   "status": "error",
-  "updated_at": "2026-09-19T04:26:23+00:00",
+  "updated_at": "2026-09-20T22:31:22+00:00",
   "started_at": "2026-09-14T19:50:33+00:00",
   "completed_at": "2026-09-17T18:25:43+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.newcastle.edu.au/our-uni/jobs/job-vacancies/external\nCall log:\n  - navigating to \"https://www.newcastle.edu.au/our-uni/jobs/job-vacancies/external\", waiting until \"domcontentloaded\"\n"
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.newcastle.edu.au/our-uni/jobs/job-vacancies/external\", waiting until \"domcontentloaded\"\n"
 }

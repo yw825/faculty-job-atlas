@@ -2,8 +2,8 @@
   "raw": {},
   "rows": {},
   "school_id": 571,
-  "status": "error",
-  "updated_at": "2026-09-20T03:08:39+00:00",
-  "completed_at": "2026-09-17T20:11:38+00:00",
-  "last_error": "RuntimeError: adp api status=None"
+  "status": "complete",
+  "updated_at": "2026-09-21T00:24:49+00:00",
+  "completed_at": "2026-09-21T00:24:49+00:00",
+  "last_error": ""
 }

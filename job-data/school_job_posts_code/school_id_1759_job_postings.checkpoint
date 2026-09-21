@@ -1,8 +1,9 @@
 {
   "links": [],
   "school_id": 1759,
-  "status": "error",
-  "updated_at": "2026-09-19T12:43:44+00:00",
-  "started_at": "2026-09-19T12:35:33+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_NETWORK_CHANGED at https://www.academicjobs.com/employers/middle-east-technical-university/8994/jobs\nCall log:\n  - navigating to \"https://www.academicjobs.com/employers/middle-east-technical-university/8994/jobs\", waiting until \"domcontentloaded\"\n"
+  "status": "complete",
+  "updated_at": "2026-09-20T23:50:17+00:00",
+  "started_at": "2026-09-20T23:50:14+00:00",
+  "completed_at": "2026-09-20T23:50:17+00:00",
+  "last_error": ""
 }

@@ -1,9 +1,9 @@
 {
   "links": [],
   "school_id": 1884,
-  "status": "complete",
-  "updated_at": "2026-09-19T05:05:28+00:00",
+  "status": "error",
+  "updated_at": "2026-09-20T23:24:52+00:00",
   "started_at": "2026-09-19T05:05:24+00:00",
   "completed_at": "2026-09-19T05:05:28+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://my.corehr.com/pls/tudrecruit/erq_search_version_4.start_search_with_params\nCall log:\n  - navigating to \"https://my.corehr.com/pls/tudrecruit/erq_search_version_4.start_search_with_params\", waiting until \"domcontentloaded\"\n"
 }

@@ -1,17 +1,1 @@
-{
-  "links": [
-    "https://www.stmarys-ca.edu/offices-services/career-center",
-    "https://www.stmarys-ca.edu/student-life/dean-of-students",
-    "https://www.stmarys-ca.edu/faculty-directory",
-    "https://www.stmarys-ca.edu/offices-services/academic-affairs#deans",
-    "https://www.stmarys-ca.edu/faculty-development",
-    "https://www.stmarys-ca.edu/offices-services/human-resources/jobs-saint-marys-college",
-    "https://www.stmarys-ca.edu/offices-services/academic-affairs/deans-honor-list/previous-years"
-  ],
-  "school_id": 109,
-  "status": "error",
-  "updated_at": "2026-09-19T02:18:19+00:00",
-  "started_at": "2026-09-08T01:17:08+00:00",
-  "completed_at": "2026-09-17T16:06:59+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.stmarys-ca.edu/offices-services/academic-affairs/faculty-openings\nCall log:\n  - navigating to \"https://www.stmarys-ca.edu/offices-services/academic-affairs/faculty-openings\", waiting until \"domcontentloaded\"\n"
-}
+{"links": ["https://www.stmarys-ca.edu/offices-services/career-center", "https://www.stmarys-ca.edu/student-life/dean-of-students", "https://www.stmarys-ca.edu/faculty-directory", "https://www.stmarys-ca.edu/offices-services/academic-affairs#deans", "https://www.stmarys-ca.edu/faculty-development", "https://www.stmarys-ca.edu/offices-services/human-resources/jobs-saint-marys-college", "https://www.stmarys-ca.edu/offices-services/academic-affairs/deans-honor-list/previous-years"], "school_id": 109, "status": "complete", "updated_at": "2026-09-20T18:52:55+00:00", "started_at": "2026-09-08T01:17:08+00:00", "completed_at": "2026-09-20T18:52:55+00:00", "last_error": ""}

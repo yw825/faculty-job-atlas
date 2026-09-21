@@ -72,9 +72,9 @@
     "https://laverne.peopleadmin.com/postings/15722"
   ],
   "school_id": 97,
-  "status": "error",
-  "updated_at": "2026-09-18T23:15:22+00:00",
+  "status": "complete",
+  "updated_at": "2026-09-20T17:31:49+00:00",
   "started_at": "2026-09-08T01:15:52+00:00",
-  "completed_at": "2026-09-17T16:06:11+00:00",
-  "last_error": "RuntimeError: peopleadmin atom status=None"
+  "completed_at": "2026-09-20T17:31:49+00:00",
+  "last_error": ""
 }

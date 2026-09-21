@@ -21,8 +21,8 @@
   ],
   "school_id": 1751,
   "status": "error",
-  "updated_at": "2026-09-19T11:29:53+00:00",
+  "updated_at": "2026-09-20T23:47:51+00:00",
   "started_at": "2026-09-02T22:30:48+00:00",
   "completed_at": "2026-09-17T19:20:59+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.uu.se/en/about-uu/join-us/jobs-and-vacancies\", waiting until \"domcontentloaded\"\n"
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.uu.se/en/about-uu/join-us/jobs-and-vacancies\nCall log:\n  - navigating to \"https://www.uu.se/en/about-uu/join-us/jobs-and-vacancies\", waiting until \"domcontentloaded\"\n"
 }

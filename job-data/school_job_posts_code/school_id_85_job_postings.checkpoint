@@ -216,12 +216,14 @@
     "https://recruit.ucdavis.edu/JPF07868",
     "https://recruit.ucdavis.edu/JPF07883",
     "https://recruit.ucdavis.edu/JPF07893",
-    "https://recruit.ucdavis.edu/JPF07896"
+    "https://recruit.ucdavis.edu/JPF07896",
+    "https://recruit.ucdavis.edu/JPF07779",
+    "https://recruit.ucdavis.edu/JPF07899"
   ],
   "school_id": 85,
-  "status": "error",
-  "updated_at": "2026-09-18T22:14:18+00:00",
+  "status": "complete",
+  "updated_at": "2026-09-20T17:16:09+00:00",
   "started_at": "2026-09-08T17:41:03+00:00",
-  "completed_at": "2026-09-17T16:05:11+00:00",
-  "last_error": "RuntimeError: uc recruit fetch failed status=None"
+  "completed_at": "2026-09-20T17:16:09+00:00",
+  "last_error": ""
 }

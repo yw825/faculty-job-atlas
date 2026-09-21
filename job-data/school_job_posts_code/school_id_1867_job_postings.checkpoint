@@ -1,9 +1,30 @@
 {
-  "links": [],
+  "links": [
+    "https://www.careers.hrp.gov.sg/sap/bc/ui5_ui5/sap/ZGERCFA004/index.html?search-keyword=temasek#/JobDescription/18071376/005056a3-d347-1fe1-ad89-0fb8b4ec82be",
+    "https://www.careers.hrp.gov.sg/sap/bc/ui5_ui5/sap/ZGERCFA004/index.html?search-keyword=temasek#/JobDescription/18061146/005056a3-53e2-1fd1-aca8-66960469f40b",
+    "https://www.careers.hrp.gov.sg/sap/bc/ui5_ui5/sap/ZGERCFA004/index.html?search-keyword=temasek#/JobDescription/18037161/005056a3-d347-1fe1-aaf8-5bbe55f582bc",
+    "https://www.careers.hrp.gov.sg/sap/bc/ui5_ui5/sap/ZGERCFA004/index.html?search-keyword=temasek#/JobDescription/18037160/005056a3-d347-1fe1-aaf8-5b97147f22bc",
+    "https://www.careers.hrp.gov.sg/sap/bc/ui5_ui5/sap/ZGERCFA004/index.html?search-keyword=temasek#/JobDescription/18037159/005056a3-d347-1fe1-aaf8-5b79ba9ce2bc",
+    "https://www.careers.hrp.gov.sg/sap/bc/ui5_ui5/sap/ZGERCFA004/index.html?search-keyword=temasek#/JobDescription/18037158/005056a3-d347-1fe1-aaf8-5c0957bc02bc",
+    "https://www.careers.hrp.gov.sg/sap/bc/ui5_ui5/sap/ZGERCFA004/index.html?search-keyword=temasek#/JobDescription/18033087/005056a3-d347-1fe1-aadf-3a01e39c42bc",
+    "https://www.careers.hrp.gov.sg/sap/bc/ui5_ui5/sap/ZGERCFA004/index.html?search-keyword=temasek#/JobDescription/18033050/005056a3-d347-1fe1-aadf-3577dac882bc",
+    "https://www.careers.hrp.gov.sg/sap/bc/ui5_ui5/sap/ZGERCFA004/index.html?search-keyword=temasek#/JobDescription/18028522/005056a3-53e2-1fd1-aac6-0c433b5d1409",
+    "https://www.careers.hrp.gov.sg/sap/bc/ui5_ui5/sap/ZGERCFA004/index.html?search-keyword=temasek#/JobDescription/18020044/005056a3-d347-1fe1-a9fa-a4bb68c162bc",
+    "https://www.careers.hrp.gov.sg/sap/bc/ui5_ui5/sap/ZGERCFA004/index.html?search-keyword=temasek#/JobDescription/18020024/005056a3-d347-1fe1-a9fa-9bca6c98c2bc",
+    "https://www.careers.hrp.gov.sg/sap/bc/ui5_ui5/sap/ZGERCFA004/index.html?search-keyword=temasek#/JobDescription/18005171/005056a3-53e2-1fd1-a9e1-7c273efcf408",
+    "https://www.careers.hrp.gov.sg/sap/bc/ui5_ui5/sap/ZGERCFA004/index.html?search-keyword=temasek#/JobDescription/18005170/005056a3-53e2-1fd1-a9e1-7bc85d95b408",
+    "https://www.careers.hrp.gov.sg/sap/bc/ui5_ui5/sap/ZGERCFA004/index.html?search-keyword=temasek#/JobDescription/17994921/005056a3-53e2-1fd1-a8e3-c6a361f81406",
+    "https://www.careers.hrp.gov.sg/sap/bc/ui5_ui5/sap/ZGERCFA004/index.html?search-keyword=temasek#/JobDescription/17964601/005056a3-d347-1fe1-a781-6d4f9de442b4",
+    "https://www.careers.hrp.gov.sg/sap/bc/ui5_ui5/sap/ZGERCFA004/index.html?search-keyword=temasek#/JobDescription/17956367/005056a3-53e2-1fd1-a6cf-2a7447c2d402",
+    "https://www.careers.hrp.gov.sg/sap/bc/ui5_ui5/sap/ZGERCFA004/index.html?search-keyword=temasek#/JobDescription/17899594/005056a3-53e2-1fd1-a3a4-6fc238873402",
+    "https://www.careers.hrp.gov.sg/sap/bc/ui5_ui5/sap/ZGERCFA004/index.html?search-keyword=temasek#/JobDescription/17879080/005056a3-d347-1fe1-a2a5-eda0d4eea2ad",
+    "https://www.careers.hrp.gov.sg/sap/bc/ui5_ui5/sap/ZGERCFA004/index.html?search-keyword=temasek#/JobDescription/17842865/005056a3-53e2-1fd1-a0aa-90e604acf402",
+    "https://www.careers.hrp.gov.sg/sap/bc/ui5_ui5/sap/ZGERCFA004/index.html?search-keyword=temasek#/JobDescription/17832097/005056a3-53e2-1fd1-9ff8-384af4e85401"
+  ],
   "school_id": 1867,
-  "status": "error",
-  "updated_at": "2026-09-19T09:19:12+00:00",
+  "status": "complete",
+  "updated_at": "2026-09-20T23:43:26+00:00",
   "started_at": "2026-09-02T22:42:38+00:00",
-  "completed_at": "2026-09-02T22:42:43+00:00",
-  "last_error": "RuntimeError: could not load job list after 3 attempts: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.careers.hrp.gov.sg/sap/bc/ui5_ui5/sap/ZGERCFA004/index.html?search-keyword=temasek\nCall log:\n  - navigating to \"https://www.careers.hrp.gov.sg/sap/bc/ui5_ui5/sap/ZGERCFA004/index.html?search-keyword=temasek\", waiting until \"domcontentloaded\"\n"
+  "completed_at": "2026-09-20T23:43:26+00:00",
+  "last_error": ""
 }

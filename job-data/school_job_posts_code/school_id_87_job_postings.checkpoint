@@ -24,8 +24,8 @@
   ],
   "school_id": 87,
   "status": "error",
-  "updated_at": "2026-09-18T22:32:19+00:00",
+  "updated_at": "2026-09-20T17:23:51+00:00",
   "started_at": "2026-09-08T01:14:48+00:00",
   "completed_at": "2026-09-17T16:05:14+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://careers.fresnostate.edu/en-us/filter/?search-keyword=&job-mail-subscribe-privacy=agree&work-type=instructional%20faculty%20-%20temporary%2flecturer&work-type=instructional%20faculty%20%e2%80%93%20tenured%2ftenure-track&work-type=non-instructional%20faculty%20(coach%2fcounselor%2flibrarian)&work-type=teaching%20associate&location=&category=\nCall log:\n  - navigating to \"https://careers.fresnostate.edu/en-us/filter/?search-keyword=&job-mail-subscribe-privacy=agree&work-type=instructional%20faculty%20-%20temporary%2flecturer&work-type=instructional%20faculty%20%e2%80%93%20tenured%2ftenure-track&work-type=non-instructional%20faculty%20(coach%2fcounselor%2flibrarian)&work-type=teaching%20associate&location=&category=\", waiting until \"domcontentloaded\"\n"
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://careers.fresnostate.edu/en-us/filter/?search-keyword=&job-mail-subscribe-privacy=agree&work-type=instructional%20faculty%20-%20temporary%2flecturer&work-type=instructional%20faculty%20%e2%80%93%20tenured%2ftenure-track&work-type=non-instructional%20faculty%20(coach%2fcounselor%2flibrarian)&work-type=teaching%20associate&location=&category=\", waiting until \"domcontentloaded\"\n"
 }

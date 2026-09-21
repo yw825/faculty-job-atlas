@@ -18,8 +18,8 @@
   ],
   "school_id": 2,
   "status": "error",
-  "updated_at": "2026-09-18T16:53:52+00:00",
+  "updated_at": "2026-09-20T16:06:45+00:00",
   "started_at": "2026-09-08T01:09:47+00:00",
   "completed_at": "2026-09-17T16:00:23+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://careers.alaska.edu/jobs/search/faculty-jobs?page=1&cities%5B%5D=Anchorage&query=\nCall log:\n  - navigating to \"https://careers.alaska.edu/jobs/search/faculty-jobs?page=1&cities%5B%5D=Anchorage&query=\", waiting until \"domcontentloaded\"\n"
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://careers.alaska.edu/jobs/search/faculty-jobs?page=1&cities%5B%5D=Anchorage&query=\", waiting until \"domcontentloaded\"\n"
 }

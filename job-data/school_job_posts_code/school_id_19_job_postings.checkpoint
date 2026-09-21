@@ -105,7 +105,7 @@
   ],
   "school_id": 19,
   "status": "error",
-  "updated_at": "2026-09-18T16:54:18+00:00",
+  "updated_at": "2026-09-20T16:32:57+00:00",
   "started_at": "2026-09-08T07:31:56+00:00",
   "completed_at": "2026-09-17T16:01:21+00:00",
   "last_error": "RuntimeError: peopleadmin atom status=None"

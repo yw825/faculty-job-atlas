@@ -1,12 +1,1 @@
-{
-  "links": [
-    "https://uqo.ca/emplois",
-    "https://uqo.ca/docs/42706"
-  ],
-  "school_id": 1639,
-  "status": "error",
-  "updated_at": "2026-09-19T04:45:38+00:00",
-  "started_at": "2026-09-02T22:19:53+00:00",
-  "completed_at": "2026-09-17T18:38:38+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://uqo.ca/direction-services/decanat-gestion-academique/postes-professeurs\nCall log:\n  - navigating to \"https://uqo.ca/direction-services/decanat-gestion-academique/postes-professeurs\", waiting until \"domcontentloaded\"\n"
-}
+{"links": ["https://uqo.ca/emplois", "https://uqo.ca/docs/42706"], "school_id": 1639, "status": "complete", "updated_at": "2026-09-20T23:09:11+00:00", "started_at": "2026-09-02T22:19:53+00:00", "completed_at": "2026-09-20T23:09:11+00:00", "last_error": ""}

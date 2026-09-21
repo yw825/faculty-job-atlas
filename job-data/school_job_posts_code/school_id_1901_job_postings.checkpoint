@@ -1,11 +1,1 @@
-{
-  "links": [
-    "https://jobs.imd.org/job/Lausanne-Printshop-Specialist/1368838657/"
-  ],
-  "school_id": 1901,
-  "status": "error",
-  "updated_at": "2026-09-19T11:53:24+00:00",
-  "started_at": "2026-09-09T17:24:13+00:00",
-  "completed_at": "2026-09-17T19:21:55+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://jobs.imd.org/search/\nCall log:\n  - navigating to \"https://jobs.imd.org/search/\", waiting until \"domcontentloaded\"\n"
-}
+{"links": ["https://jobs.imd.org/job/Lausanne-Printshop-Specialist/1368838657/", "https://jobs.imd.org/job/Lausanne-MBA-Participant-Experience-Coordinator-Intern/1372596957/", "https://jobs.imd.org/job/Lausanne-Career-Development-Center-Intern/1372594357/", "https://jobs.imd.org/job/Lausanne-Digital-Alumni-Engagement-Intern/1372588757/"], "school_id": 1901, "status": "complete", "updated_at": "2026-09-20T23:49:37+00:00", "started_at": "2026-09-09T17:24:13+00:00", "completed_at": "2026-09-20T23:49:37+00:00", "last_error": ""}

@@ -1,17 +1,1 @@
-{
-  "links": [
-    "https://www.oxy.edu/sites/default/files/0820-Associate%20or%20Full%20Professor-UEP.pdf",
-    "https://www.oxy.edu/sites/default/files/0731-Professor-Assistant-Associate-Full-DepartmentOfPolitics.pdf",
-    "https://www.oxy.edu/sites/default/files/0722-Department%20of%20Kinesiology-Assistant%20Professor-Exercise%20Physiology.pdf",
-    "https://indd.adobe.com/view/5beceb0c-e586-4ff8-ae03-90ce1e9a7fa6",
-    "https://www.oxy.edu/about-oxy/oxy-outcomes",
-    "https://www.oxy.edu/student-life/career-services",
-    "https://www.oxy.edu/current-faculty-staff"
-  ],
-  "school_id": 103,
-  "status": "error",
-  "updated_at": "2026-09-19T01:17:14+00:00",
-  "started_at": "2026-09-08T01:16:05+00:00",
-  "completed_at": "2026-09-17T16:06:37+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.oxy.edu/working-oxy/faculty-positions\nCall log:\n  - navigating to \"https://www.oxy.edu/working-oxy/faculty-positions\", waiting until \"domcontentloaded\"\n"
-}
+{"links": ["https://www.oxy.edu/sites/default/files/0820-Associate%20or%20Full%20Professor-UEP.pdf", "https://www.oxy.edu/sites/default/files/0731-Professor-Assistant-Associate-Full-DepartmentOfPolitics.pdf", "https://www.oxy.edu/sites/default/files/0722-Department%20of%20Kinesiology-Assistant%20Professor-Exercise%20Physiology.pdf", "https://indd.adobe.com/view/5beceb0c-e586-4ff8-ae03-90ce1e9a7fa6", "https://www.oxy.edu/about-oxy/oxy-outcomes", "https://www.oxy.edu/student-life/career-services", "https://www.oxy.edu/current-faculty-staff"], "school_id": 103, "status": "complete", "updated_at": "2026-09-20T18:23:52+00:00", "started_at": "2026-09-08T01:16:05+00:00", "completed_at": "2026-09-20T18:23:52+00:00", "last_error": ""}

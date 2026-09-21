@@ -19,8 +19,8 @@
   ],
   "school_id": 98,
   "status": "error",
-  "updated_at": "2026-09-18T23:15:27+00:00",
+  "updated_at": "2026-09-20T17:56:59+00:00",
   "started_at": "2026-09-08T01:15:53+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://csucareers.calstate.edu/en-us/filter/?=&leftNavSearchFormQuery=&=&search=&search-keyword=&job-mail-subscribe-privacy=agree&work-type=instructional%20faculty%20-%20temporary%2flecturer&work-type=instructional%20faculty%20%e2%80%93%20tenured%2ftenure-track&location=long%20beach&job-mail-subscribe-privacy=agree\nCall log:\n  - navigating to \"https://csucareers.calstate.edu/en-us/filter/?=&leftNavSearchFormQuery=&=&search=&search-keyword=&job-mail-subscribe-privacy=agree&work-type=instructional%20faculty%20-%20temporary%2flecturer&work-type=instructional%20faculty%20%e2%80%93%20tenured%2ftenure-track&location=long%20beach&job-mail-subscribe-privacy=agree\", waiting until \"domcontentloaded\"\n",
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://csucareers.calstate.edu/en-us/filter/?=&leftNavSearchFormQuery=&=&search=&search-keyword=&job-mail-subscribe-privacy=agree&work-type=instructional%20faculty%20-%20temporary%2flecturer&work-type=instructional%20faculty%20%e2%80%93%20tenured%2ftenure-track&location=long%20beach&job-mail-subscribe-privacy=agree\", waiting until \"domcontentloaded\"\n",
   "completed_at": "2026-09-17T16:06:20+00:00"
 }

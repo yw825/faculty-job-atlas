@@ -4,9 +4,9 @@
     "https://www.yorku.ca/vpepc/faculty-affairs/wp-content/uploads/sites/698/2026/06/HH_CLA_NURS5_Ex.pdf"
   ],
   "school_id": 1634,
-  "status": "error",
-  "updated_at": "2026-09-19T04:43:57+00:00",
+  "status": "complete",
+  "updated_at": "2026-09-20T23:08:49+00:00",
   "started_at": "2026-09-03T18:14:51+00:00",
-  "completed_at": "2026-09-17T18:38:14+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.yorku.ca/vpepc/faculty-affairs/faculty-positions/\", waiting until \"domcontentloaded\"\n"
+  "completed_at": "2026-09-20T23:08:49+00:00",
+  "last_error": ""
 }

@@ -1,9 +1,9 @@
 {
   "links": [],
   "school_id": 168,
-  "status": "complete",
-  "updated_at": "2026-09-17T16:10:22+00:00",
+  "status": "error",
+  "updated_at": "2026-09-20T21:12:48+00:00",
   "started_at": "2026-09-17T16:10:19+00:00",
   "completed_at": "2026-09-17T16:10:22+00:00",
-  "last_error": ""
+  "last_error": "Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://cu.taleo.net/careersection/2/moresearch.ftl?lang=en\nCall log:\n  - navigating to \"https://cu.taleo.net/careersection/2/moresearch.ftl?lang=en\", waiting until \"domcontentloaded\"\n"
 }

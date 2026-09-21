@@ -1642,8 +1642,8 @@
     }
   },
   "school_id": 1512,
-  "status": "error",
-  "updated_at": "2026-09-20T07:18:19+00:00",
-  "completed_at": "2026-09-17T21:31:59+00:00",
-  "last_error": "TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?FOCUS=Applicant&&siteid=1\", waiting until \"domcontentloaded\"\n"
+  "status": "complete",
+  "updated_at": "2026-09-21T00:55:53+00:00",
+  "completed_at": "2026-09-21T00:55:53+00:00",
+  "last_error": ""
 }

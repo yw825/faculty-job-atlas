@@ -211,12 +211,22 @@
     "https://recruit.apo.ucla.edu/JPF11341",
     "https://recruit.apo.ucla.edu/JPF11343",
     "https://recruit.apo.ucla.edu/JPF11344",
-    "https://recruit.apo.ucla.edu/JPF11345"
+    "https://recruit.apo.ucla.edu/JPF11345",
+    "https://recruit.apo.ucla.edu/JPF11231",
+    "https://recruit.apo.ucla.edu/JPF11235",
+    "https://recruit.apo.ucla.edu/JPF11268",
+    "https://recruit.apo.ucla.edu/JPF11330",
+    "https://recruit.apo.ucla.edu/JPF11332",
+    "https://recruit.apo.ucla.edu/JPF11346",
+    "https://recruit.apo.ucla.edu/JPF11348",
+    "https://recruit.apo.ucla.edu/JPF11349",
+    "https://recruit.apo.ucla.edu/JPF11351",
+    "https://recruit.apo.ucla.edu/JPF11354"
   ],
   "school_id": 105,
-  "status": "error",
-  "updated_at": "2026-09-19T01:17:27+00:00",
+  "status": "complete",
+  "updated_at": "2026-09-20T18:29:27+00:00",
   "started_at": "2026-09-08T17:41:05+00:00",
-  "completed_at": "2026-09-17T16:06:43+00:00",
-  "last_error": "RuntimeError: uc recruit fetch failed status=None"
+  "completed_at": "2026-09-20T18:29:27+00:00",
+  "last_error": ""
 }

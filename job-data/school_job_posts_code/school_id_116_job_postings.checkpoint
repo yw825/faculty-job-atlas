@@ -23,9 +23,9 @@
     "https://careers.cpp.edu/po/en-us/job/558585/civil-engineering-construction-engineering-and-management-assistant-professor"
   ],
   "school_id": 116,
-  "status": "complete",
-  "updated_at": "2026-09-17T16:07:24+00:00",
+  "status": "error",
+  "updated_at": "2026-09-20T19:00:25+00:00",
   "started_at": "2026-09-08T01:17:33+00:00",
   "completed_at": "2026-09-17T16:07:24+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://careers.cpp.edu/po/en-us/filter/?search-keyword=&work-type=instructional%20faculty%20-%20temporary%2flecturer&work-type=instructional%20faculty%20%e2%80%93%20tenured%2ftenure-track&job-mail-subscribe-privacy=agree\", waiting until \"domcontentloaded\"\n"
 }

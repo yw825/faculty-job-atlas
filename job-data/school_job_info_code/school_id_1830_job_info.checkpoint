@@ -59,6 +59,16 @@
       "title": "Pūkenga/Pukenga Matua | Lecturer/Senior Lecturer in Educational Psychology",
       "description": "Permanent, full-time academic role for an expert in trauma-transformative support and wellbeing.",
       "department": null
+    },
+    "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010075": {
+      "title": "Pūkenga/Pūkenga Matua | Lecturer/Senior Lecturer in Nursing",
+      "description": "Permanent, full-time academic position to lead the development of our nursing programmes.",
+      "department": null
+    },
+    "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010098": {
+      "title": "Kairuruku | Research Assistant in New Zealand Sign Language Linguistics",
+      "description": "Eight-month, part-time position supporting crucial Deaf studies and NZSL research.",
+      "department": null
     }
   },
   "rows": {
@@ -193,11 +203,33 @@
       "area_key_words": "Educational Psychology",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010075": {
+      "school_id": 1830,
+      "posting_url": "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010075",
+      "job_title_in_post": "Pūkenga/Pūkenga Matua | Lecturer/Senior Lecturer in Nursing",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Nursing",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010098": {
+      "school_id": 1830,
+      "posting_url": "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010098",
+      "job_title_in_post": "Kairuruku | Research Assistant in New Zealand Sign Language Linguistics",
+      "position_type": "Non-academic",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "New Zealand Sign Language Linguistics",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1830,
   "status": "complete",
-  "updated_at": "2026-09-20T13:46:48+00:00",
-  "completed_at": "2026-09-20T13:46:48+00:00",
+  "updated_at": "2026-09-21T01:44:17+00:00",
+  "completed_at": "2026-09-21T01:44:17+00:00",
   "last_error": ""
 }

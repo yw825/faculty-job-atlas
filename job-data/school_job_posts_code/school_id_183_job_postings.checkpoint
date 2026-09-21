@@ -65,9 +65,9 @@
     "https://jobs.hr.uconn.edu/cw/en-us/job/499384/residence-hall-director"
   ],
   "school_id": 183,
-  "status": "complete",
-  "updated_at": "2026-09-17T16:11:25+00:00",
+  "status": "error",
+  "updated_at": "2026-09-20T21:45:42+00:00",
   "started_at": "2026-09-08T07:32:10+00:00",
-  "last_error": "",
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://jobs.hr.uconn.edu/cw/en-us/filter/?search-keyword=&job-mail-subscribe-privacy=agree\", waiting until \"domcontentloaded\"\n",
   "completed_at": "2026-09-17T16:11:25+00:00"
 }

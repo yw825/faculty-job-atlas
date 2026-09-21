@@ -1,9 +1,9 @@
 {
   "links": [],
   "school_id": 1802,
-  "status": "error",
-  "updated_at": "2026-09-19T04:27:18+00:00",
-  "started_at": "2026-09-17T18:28:41+00:00",
-  "completed_at": "2026-09-17T18:28:46+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://usq.nga.net.au/cp/index.cfm?audiencetypecode=ext\nCall log:\n  - navigating to \"https://usq.nga.net.au/cp/index.cfm?audiencetypecode=ext\", waiting until \"domcontentloaded\"\n"
+  "status": "complete",
+  "updated_at": "2026-09-20T22:59:15+00:00",
+  "started_at": "2026-09-20T22:59:11+00:00",
+  "completed_at": "2026-09-20T22:59:15+00:00",
+  "last_error": ""
 }

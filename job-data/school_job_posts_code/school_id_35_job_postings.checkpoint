@@ -18,12 +18,14 @@
     "https://ozarks.edu/news/lilly-endowment-makes-500k-gift-to-support-town-square-collaborative/",
     "https://ozarks.edu/news/u-of-o-enhances-student-experience-with-macbook-neo-initiative/",
     "https://ozarks.edu/news/garcia-23-to-receive-young-alumni-service-award/",
-    "https://ozarks.edu/news/author-illustrator-to-discuss-new-book-on-arkansas-women-musicians/"
+    "https://ozarks.edu/news/author-illustrator-to-discuss-new-book-on-arkansas-women-musicians/",
+    "https://ozarks.edu/news/dr-tiwari-is-co-editor-of-new-book-on-plant-microbe-interactions/",
+    "https://ozarks.edu/news/hardgrave-18-to-receive-2026-young-alumni-achievement-award/"
   ],
   "school_id": 35,
-  "status": "error",
-  "updated_at": "2026-09-18T16:55:00+00:00",
+  "status": "complete",
+  "updated_at": "2026-09-20T16:49:50+00:00",
   "started_at": "2026-09-08T01:10:48+00:00",
-  "completed_at": "2026-09-17T16:02:12+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://ozarks.edu/about/employment/\nCall log:\n  - navigating to \"https://ozarks.edu/about/employment/\", waiting until \"domcontentloaded\"\n"
+  "completed_at": "2026-09-20T16:49:50+00:00",
+  "last_error": ""
 }

@@ -244,8 +244,8 @@
     }
   },
   "school_id": 114,
-  "status": "error",
-  "updated_at": "2026-09-19T18:17:34+00:00",
-  "completed_at": "2026-09-17T19:36:35+00:00",
-  "last_error": "RuntimeError: Interfolio board 44328 returned no positions"
+  "status": "complete",
+  "updated_at": "2026-09-20T23:59:53+00:00",
+  "completed_at": "2026-09-20T23:59:53+00:00",
+  "last_error": ""
 }

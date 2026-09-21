@@ -1460,8 +1460,8 @@
     }
   },
   "school_id": 619,
-  "status": "error",
-  "updated_at": "2026-09-20T03:51:49+00:00",
-  "completed_at": "2026-09-17T20:14:31+00:00",
-  "last_error": "RuntimeError: oracle session capture failed: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://fa-ewca-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions?lastSelectedFacet=ORGANIZATIONS&mode=location&selectedOrganizationsFacet=300000014113612\nCall log:\n  - navigating to \"https://fa-ewca-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions?lastSelectedFacet=ORGANIZATIONS&mode=location&selectedOrganizationsFacet=300000014113612\", waiting until \"domcontentloaded\"\n"
+  "status": "complete",
+  "updated_at": "2026-09-21T00:26:38+00:00",
+  "completed_at": "2026-09-21T00:26:38+00:00",
+  "last_error": ""
 }

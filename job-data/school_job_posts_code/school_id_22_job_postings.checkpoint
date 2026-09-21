@@ -26,8 +26,8 @@
   ],
   "school_id": 22,
   "status": "error",
-  "updated_at": "2026-09-18T16:54:23+00:00",
+  "updated_at": "2026-09-20T16:34:36+00:00",
   "started_at": "2026-09-08T01:10:25+00:00",
   "completed_at": "2026-09-17T16:01:31+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://jobs.aum.edu/aum-careers-home/jobs?tags2=Faculty\nCall log:\n  - navigating to \"https://jobs.aum.edu/aum-careers-home/jobs?tags2=Faculty\", waiting until \"domcontentloaded\"\n"
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://jobs.aum.edu/aum-careers-home/jobs?tags2=Faculty\", waiting until \"domcontentloaded\"\n"
 }

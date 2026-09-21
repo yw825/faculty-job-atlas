@@ -169,8 +169,8 @@
   ],
   "school_id": 1789,
   "status": "error",
-  "updated_at": "2026-09-19T04:26:41+00:00",
+  "updated_at": "2026-09-20T22:39:02+00:00",
   "started_at": "2026-09-03T22:00:41+00:00",
   "completed_at": "2026-09-17T18:26:15+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://external-careers.jobs.unsw.edu.au/en/listing/?page=1&page-items=100\nCall log:\n  - navigating to \"https://external-careers.jobs.unsw.edu.au/en/listing/?page=1&page-items=100\", waiting until \"domcontentloaded\"\n"
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://external-careers.jobs.unsw.edu.au/en/listing/?page=1&page-items=100\", waiting until \"domcontentloaded\"\n"
 }

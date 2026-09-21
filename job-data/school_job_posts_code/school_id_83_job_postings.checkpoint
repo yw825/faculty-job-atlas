@@ -8,8 +8,8 @@
   ],
   "school_id": 83,
   "status": "error",
-  "updated_at": "2026-09-18T21:31:07+00:00",
+  "updated_at": "2026-09-20T17:10:45+00:00",
   "started_at": "2026-09-08T01:14:15+00:00",
   "completed_at": "2026-09-17T16:05:06+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at http://www.scrippscollege.edu/hr/faculty\nCall log:\n  - navigating to \"http://www.scrippscollege.edu/hr/faculty\", waiting until \"domcontentloaded\"\n"
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"http://www.scrippscollege.edu/hr/faculty\", waiting until \"domcontentloaded\"\n"
 }

@@ -68,8 +68,8 @@
     }
   },
   "school_id": 1637,
-  "status": "error",
-  "updated_at": "2026-09-20T12:06:06+00:00",
-  "completed_at": "2026-09-17T21:50:30+00:00",
-  "last_error": "RuntimeError: oracle session capture failed: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs?sortBy=POSTING_DATES_DESC\nCall log:\n  - navigating to \"https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs?sortBy=POSTING_DATES_DESC\", waiting until \"domcontentloaded\"\n"
+  "status": "complete",
+  "updated_at": "2026-09-21T01:19:26+00:00",
+  "completed_at": "2026-09-21T01:19:26+00:00",
+  "last_error": ""
 }

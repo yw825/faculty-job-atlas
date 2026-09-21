@@ -1,9 +1,9 @@
 {
   "links": [],
   "school_id": 1736,
-  "status": "error",
-  "updated_at": "2026-09-19T08:23:21+00:00",
-  "started_at": "2026-09-17T19:06:30+00:00",
-  "completed_at": "2026-09-17T19:06:36+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://resurseumane.ase.ro/\", waiting until \"domcontentloaded\"\n"
+  "status": "complete",
+  "updated_at": "2026-09-20T23:36:42+00:00",
+  "started_at": "2026-09-20T23:36:36+00:00",
+  "completed_at": "2026-09-20T23:36:42+00:00",
+  "last_error": ""
 }

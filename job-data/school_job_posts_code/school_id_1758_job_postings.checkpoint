@@ -43,9 +43,9 @@
   ],
   "school_id": 1758,
   "careers_link": "https://w3.bilkent.edu.tr/bilkent/open-academic-positions/",
-  "status": "error",
-  "updated_at": "2026-09-19T11:55:00+00:00",
+  "status": "complete",
+  "updated_at": "2026-09-20T23:49:50+00:00",
   "platform": "generic",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://w3.bilkent.edu.tr/bilkent/open-academic-positions/\", waiting until \"domcontentloaded\"\n",
-  "completed_at": "2026-09-17T19:22:06+00:00"
+  "last_error": "",
+  "completed_at": "2026-09-20T23:49:50+00:00"
 }

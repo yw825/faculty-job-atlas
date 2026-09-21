@@ -25,9 +25,9 @@
     "https://careers.csub.edu/en-us/job/561724/instructional-student-assistants-for-chemistry-and-biochemistry"
   ],
   "school_id": 72,
-  "status": "error",
-  "updated_at": "2026-09-18T16:55:29+00:00",
+  "status": "complete",
+  "updated_at": "2026-09-20T17:03:01+00:00",
   "started_at": "2026-09-08T01:13:08+00:00",
-  "completed_at": "2026-09-17T16:04:33+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://careers.csub.edu/en-us/filter/?search-keyword=&work-type=instructional%20faculty%20-%20temporary%2flecturer&work-type=instructional%20faculty%20%e2%80%93%20tenured%2ftenure-track&work-type=instructional%20student%20assistant&work-type=non-instructional%20faculty%20(coach%2fcounselor%2flibrarian)&work-type=teaching%20associate&job-mail-subscribe-privacy=agree\nCall log:\n  - navigating to \"https://careers.csub.edu/en-us/filter/?search-keyword=&work-type=instructional%20faculty%20-%20temporary%2flecturer&work-type=instructional%20faculty%20%e2%80%93%20tenured%2ftenure-track&work-type=instructional%20student%20assistant&work-type=non-instructional%20faculty%20(coach%2fcounselor%2flibrarian)&work-type=teaching%20associate&job-mail-subscribe-privacy=agree\", waiting until \"domcontentloaded\"\n"
+  "completed_at": "2026-09-20T17:03:01+00:00",
+  "last_error": ""
 }

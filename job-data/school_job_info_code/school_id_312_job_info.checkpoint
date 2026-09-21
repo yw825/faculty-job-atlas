@@ -3780,8 +3780,8 @@
     }
   },
   "school_id": 312,
-  "status": "error",
-  "updated_at": "2026-09-19T22:09:28+00:00",
-  "completed_at": "2026-09-17T19:55:34+00:00",
-  "last_error": "TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?FOCUS=Applicant&SiteId=39000\", waiting until \"domcontentloaded\"\n"
+  "status": "complete",
+  "updated_at": "2026-09-21T00:14:26+00:00",
+  "completed_at": "2026-09-21T00:14:26+00:00",
+  "last_error": ""
 }

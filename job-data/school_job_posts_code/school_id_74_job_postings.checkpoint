@@ -186,7 +186,7 @@
   ],
   "school_id": 74,
   "status": "error",
-  "updated_at": "2026-09-18T16:55:30+00:00",
+  "updated_at": "2026-09-20T17:03:04+00:00",
   "started_at": "2026-09-08T17:41:03+00:00",
   "completed_at": "2026-09-17T16:04:34+00:00",
   "last_error": "RuntimeError: uc recruit fetch failed status=None"

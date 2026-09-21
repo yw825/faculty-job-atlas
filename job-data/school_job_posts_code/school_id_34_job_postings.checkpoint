@@ -21,8 +21,8 @@
   ],
   "school_id": 34,
   "status": "error",
-  "updated_at": "2026-09-18T16:54:57+00:00",
+  "updated_at": "2026-09-20T16:48:13+00:00",
   "started_at": "2026-09-08T01:10:44+00:00",
   "completed_at": "2026-09-17T16:02:04+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at http://www.lyon.edu/employment\nCall log:\n  - navigating to \"http://www.lyon.edu/employment\", waiting until \"domcontentloaded\"\n"
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"http://www.lyon.edu/employment\", waiting until \"domcontentloaded\"\n"
 }
