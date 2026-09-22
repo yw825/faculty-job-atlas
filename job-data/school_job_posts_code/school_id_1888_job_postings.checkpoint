@@ -8,12 +8,14 @@
     "https://www.ru.nl/node/88064",
     "https://www.ru.nl/node/89555",
     "https://www.ru.nl/node/89115",
-    "https://www.ru.nl/node/89469"
+    "https://www.ru.nl/node/89469",
+    "https://www.ru.nl/node/89729",
+    "https://www.ru.nl/node/89072"
   ],
   "school_id": 1888,
-  "status": "error",
-  "updated_at": "2026-09-20T23:32:31+00:00",
+  "status": "complete",
+  "updated_at": "2026-09-22T02:52:44+00:00",
   "started_at": "2026-09-02T22:44:21+00:00",
-  "completed_at": "2026-09-17T19:03:08+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.ru.nl/werken-bij/vacatures\nCall log:\n  - navigating to \"https://www.ru.nl/werken-bij/vacatures\", waiting until \"domcontentloaded\"\n"
+  "completed_at": "2026-09-22T02:52:44+00:00",
+  "last_error": ""
 }

@@ -69,6 +69,21 @@
       "title": "Kairuruku | Research Assistant in New Zealand Sign Language Linguistics",
       "description": "Eight-month, part-time position supporting crucial Deaf studies and NZSL research.",
       "department": null
+    },
+    "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010096": {
+      "title": "Academic Appointments in Industrial Design, ZZU",
+      "description": "Permanent, full-time opportunity to teach in a global, contemporary programme in China.",
+      "department": null
+    },
+    "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010094": {
+      "title": "Academic Appointments in Architecture, ZZU",
+      "description": "Teach architecture in China in this permanent, full-time role.",
+      "department": null
+    },
+    "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010095": {
+      "title": "Academic Appointments in Landscape Architecture, ZZU",
+      "description": "Permanent, full-time opportunity in Zhengzhou, China to teach Landscape Architecture.",
+      "department": null
     }
   },
   "rows": {
@@ -225,11 +240,44 @@
       "area_key_words": "New Zealand Sign Language Linguistics",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010096": {
+      "school_id": 1830,
+      "posting_url": "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010096",
+      "job_title_in_post": "Academic Appointments in Industrial Design, ZZU",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Industrial Design, ZZU; China",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010094": {
+      "school_id": 1830,
+      "posting_url": "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010094",
+      "job_title_in_post": "Academic Appointments in Architecture, ZZU",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Architecture, ZZU",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010095": {
+      "school_id": 1830,
+      "posting_url": "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010095",
+      "job_title_in_post": "Academic Appointments in Landscape Architecture, ZZU",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Landscape Architecture, ZZU",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1830,
   "status": "complete",
-  "updated_at": "2026-09-21T01:44:17+00:00",
-  "completed_at": "2026-09-21T01:44:17+00:00",
+  "updated_at": "2026-09-22T15:59:38+00:00",
+  "completed_at": "2026-09-22T15:59:38+00:00",
   "last_error": ""
 }

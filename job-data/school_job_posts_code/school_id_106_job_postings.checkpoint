@@ -87,7 +87,7 @@
   ],
   "school_id": 106,
   "status": "error",
-  "updated_at": "2026-09-20T18:35:28+00:00",
+  "updated_at": "2026-09-21T18:32:10+00:00",
   "started_at": "2026-09-08T01:16:35+00:00",
   "completed_at": "2026-09-17T16:06:49+00:00",
   "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://usccareers.usc.edu/search-jobs\", waiting until \"domcontentloaded\"\n"

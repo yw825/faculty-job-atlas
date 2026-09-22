@@ -196,8 +196,8 @@
     }
   },
   "school_id": 1501,
-  "status": "complete",
-  "updated_at": "2026-09-21T00:55:00+00:00",
+  "status": "error",
+  "updated_at": "2026-09-22T14:53:14+00:00",
   "completed_at": "2026-09-21T00:55:00+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: oracle session capture failed: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://champlain-ibumjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs\", waiting until \"domcontentloaded\"\n"
 }

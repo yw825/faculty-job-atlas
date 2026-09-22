@@ -43,7 +43,7 @@
   ],
   "school_id": 41,
   "status": "error",
-  "updated_at": "2026-09-20T16:55:57+00:00",
+  "updated_at": "2026-09-21T17:20:27+00:00",
   "started_at": "2026-09-08T01:11:23+00:00",
   "completed_at": "2026-09-17T16:02:34+00:00",
   "last_error": "Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://phe.tbe.taleo.net/phe02/ats/careers/v2/searchResults?org=ARKASTAT2&cws=56&act=sort&sortColumn=1&sortOrder=A\nCall log:\n  - navigating to \"https://phe.tbe.taleo.net/phe02/ats/careers/v2/searchResults?org=ARKASTAT2&cws=56&act=sort&sortColumn=1&sortOrder=A\", waiting until \"domcontentloaded\"\n"

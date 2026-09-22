@@ -635,6 +635,34 @@
       "title": "Fall 2026 - HTA708 AA Posting - Dr. Rick Oh",
       "description": "Posted: 09/17/2026 Location: Toronto, ON Department: TRSM Hospital. & Tourism Mgmt Fall 2026 - HTA708 AA Posting - Dr. Rick Oh",
       "department": "TRSM Hospital. & Tourism Mgmt"
+    },
+    "https://careers.torontomu.ca/psc/hrcgprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=398353&PostingSeq=1&SiteId=1": {
+      "title": "2026 Fall 2 Chang School Exam Invigilator",
+      "description": "Posted: 09/21/2026 Location: Toronto, ON Department: CE, Client Support & Logistics 2026 Fall 2 Chang School Exam Invigilator",
+      "department": "CE, Client Support & Logistics"
+    },
+    "https://careers.torontomu.ca/psc/hrcgprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=397081&PostingSeq=1&SiteId=1": {
+      "title": "F26 Soc Teaching Assistant SOC105(1-4, 13-16) SK 4 roles",
+      "description": "Posted: 09/21/2026 Location: Toronto, ON Department: Arts, Sociology F26 Soc Teaching Assistant SOC105(1-4, 13-16) SK 4 roles",
+      "department": "Arts, Sociology"
+    },
+    "https://careers.torontomu.ca/psc/hrcgprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=398207&PostingSeq=1&SiteId=1": {
+      "title": "Fall 2026 Dept of Civil Engineering - Midterm Exam Invigilator (CIVIL MASc & PhD Applicants Only)",
+      "description": "Posted: 09/21/2026 Location: Toronto, ON Department: FEAS, Civil Engineering Fall 2026 Dept of Civil Engineering - Midterm Exam Invigilator (CIVIL MASc & PhD Applicants Only)",
+      "department": "FEAS, Civil Engineering"
+    },
+    "https://careers.torontomu.ca/psc/hrcgprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=398351&PostingSeq=1&SiteId=1": {
+      "error": "not present in bulk fetch result"
+    },
+    "https://careers.torontomu.ca/psc/hrcgprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=398348&PostingSeq=1&SiteId=1": {
+      "title": "GCM Lab Monitor - RESTRICTED",
+      "description": "Posted: 09/21/2026 Location: Toronto, ON Department: TheCreativeSchool-GCM GCM Lab Monitor - RESTRICTED",
+      "department": "TheCreativeSchool-GCM"
+    },
+    "https://careers.torontomu.ca/psc/hrcgprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=398339&PostingSeq=1&SiteId=1": {
+      "title": "LAW122 Academic Assistant Undergraduate - Shokouh Abadi - Fall 2026",
+      "description": "Posted: 09/21/2026 Location: Toronto, ON Department: TRSM Law and Business LAW122 Academic Assistant Undergraduate - Shokouh Abadi - Fall 2026",
+      "department": "TRSM Law and Business"
     }
   },
   "rows": {
@@ -2011,11 +2039,69 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://careers.torontomu.ca/psc/hrcgprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=398353&PostingSeq=1&SiteId=1": {
+      "school_id": 1632,
+      "posting_url": "https://careers.torontomu.ca/psc/hrcgprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=398353&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "2026 Fall 2 Chang School Exam Invigilator",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "CE, Client Support & Logistics",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.torontomu.ca/psc/hrcgprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=397081&PostingSeq=1&SiteId=1": {
+      "school_id": 1632,
+      "posting_url": "https://careers.torontomu.ca/psc/hrcgprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=397081&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "F26 Soc Teaching Assistant SOC105(1-4, 13-16) SK 4 roles",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Arts, Sociology",
+      "area_key_words": "Assistant SOC",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.torontomu.ca/psc/hrcgprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=398207&PostingSeq=1&SiteId=1": {
+      "school_id": 1632,
+      "posting_url": "https://careers.torontomu.ca/psc/hrcgprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=398207&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Fall 2026 Dept of Civil Engineering - Midterm Exam Invigilator (CIVIL MASc & PhD Applicants Only)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "FEAS, Civil Engineering",
+      "area_key_words": "Civil Engineering",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.torontomu.ca/psc/hrcgprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=398351&PostingSeq=1&SiteId=1": {
+      "error": "not present in bulk fetch result"
+    },
+    "https://careers.torontomu.ca/psc/hrcgprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=398348&PostingSeq=1&SiteId=1": {
+      "school_id": 1632,
+      "posting_url": "https://careers.torontomu.ca/psc/hrcgprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=398348&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "GCM Lab Monitor - RESTRICTED",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "TheCreativeSchool-GCM",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.torontomu.ca/psc/hrcgprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=398339&PostingSeq=1&SiteId=1": {
+      "school_id": 1632,
+      "posting_url": "https://careers.torontomu.ca/psc/hrcgprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=398339&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "LAW122 Academic Assistant Undergraduate - Shokouh Abadi - Fall 2026",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "TRSM Law and Business",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1632,
   "status": "complete",
-  "updated_at": "2026-09-21T01:19:08+00:00",
-  "completed_at": "2026-09-21T01:19:08+00:00",
+  "updated_at": "2026-09-22T15:32:51+00:00",
+  "completed_at": "2026-09-22T15:32:51+00:00",
   "last_error": ""
 }

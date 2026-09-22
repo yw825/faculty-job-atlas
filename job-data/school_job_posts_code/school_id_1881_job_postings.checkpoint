@@ -1,8 +1,9 @@
 {
   "links": [],
   "school_id": 1881,
-  "status": "error",
-  "updated_at": "2026-09-20T23:54:30+00:00",
-  "started_at": "2026-09-20T23:54:27+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_NETWORK_CHANGED at https://vacancies.leedsbeckett.ac.uk/ce0984li_webrecruitment/wrd/run/ETREC105GF?USESSION=C59F66C55E2608EA1C843755BE73D602&WVID=7412577lKO&LANG=USA\nCall log:\n  - navigating to \"https://vacancies.leedsbeckett.ac.uk/ce0984li_webrecruitment/wrd/run/ETREC105GF?USESSION=C59F66C55E2608EA1C843755BE73D602&WVID=7412577lKO&LANG=USA\", waiting until \"domcontentloaded\"\n"
+  "status": "complete",
+  "updated_at": "2026-09-22T03:11:31+00:00",
+  "started_at": "2026-09-22T03:11:28+00:00",
+  "completed_at": "2026-09-22T03:11:31+00:00",
+  "last_error": ""
 }

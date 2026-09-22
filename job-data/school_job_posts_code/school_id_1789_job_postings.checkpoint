@@ -165,12 +165,20 @@
     "https://external-careers.jobs.unsw.edu.au/en/job/542811/senior-business-analyst-d365-crm",
     "https://external-careers.jobs.unsw.edu.au/en/job/543042/finance-support-services-officer",
     "https://external-careers.jobs.unsw.edu.au/en/job/543062/development-project-officer",
-    "https://external-careers.jobs.unsw.edu.au/en/job/543103/senior-reporting-analyst"
+    "https://external-careers.jobs.unsw.edu.au/en/job/543103/senior-reporting-analyst",
+    "https://external-careers.jobs.unsw.edu.au/en/job/540926/change-analyst",
+    "https://external-careers.jobs.unsw.edu.au/en/job/542896/communications-officer-internal",
+    "https://external-careers.jobs.unsw.edu.au/en/job/542978/team-leader-recognition-of-prior-learning",
+    "https://external-careers.jobs.unsw.edu.au/en/job/543015/lecturer-physiotherapy-clinical-educator",
+    "https://external-careers.jobs.unsw.edu.au/en/job/543017/lecturer-in-physiotherapy-cardiorespiratory-and-acute-hospital-care",
+    "https://external-careers.jobs.unsw.edu.au/en/job/543253/administrator",
+    "https://external-careers.jobs.unsw.edu.au/en/job/540940/senior-solution-business-analyst-hybrid",
+    "https://external-careers.jobs.unsw.edu.au/en/job/542881/technology-manager"
   ],
   "school_id": 1789,
-  "status": "error",
-  "updated_at": "2026-09-20T22:39:02+00:00",
+  "status": "complete",
+  "updated_at": "2026-09-21T22:18:19+00:00",
   "started_at": "2026-09-03T22:00:41+00:00",
-  "completed_at": "2026-09-17T18:26:15+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://external-careers.jobs.unsw.edu.au/en/listing/?page=1&page-items=100\", waiting until \"domcontentloaded\"\n"
+  "completed_at": "2026-09-21T22:18:19+00:00",
+  "last_error": ""
 }

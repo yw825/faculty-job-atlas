@@ -1,9 +1,9 @@
 {
   "links": [],
   "school_id": 1797,
-  "status": "complete",
-  "updated_at": "2026-09-20T22:58:31+00:00",
+  "status": "error",
+  "updated_at": "2026-09-21T22:54:49+00:00",
   "started_at": "2026-09-20T22:58:28+00:00",
   "completed_at": "2026-09-20T22:58:31+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://qut.nga.net.au/cp/index.cfm?event=jobs.listJobs&jobListid=73e3bb51-1aa7-db29-2ea3-52af99b4f747\nCall log:\n  - navigating to \"https://qut.nga.net.au/cp/index.cfm?event=jobs.listJobs&jobListid=73e3bb51-1aa7-db29-2ea3-52af99b4f747\", waiting until \"domcontentloaded\"\n"
 }

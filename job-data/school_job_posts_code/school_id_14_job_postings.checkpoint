@@ -30,7 +30,7 @@
   ],
   "school_id": 14,
   "status": "error",
-  "updated_at": "2026-09-20T16:26:45+00:00",
+  "updated_at": "2026-09-21T16:42:25+00:00",
   "started_at": "2026-09-08T01:10:09+00:00",
   "completed_at": "2026-09-17T16:01:06+00:00",
   "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://careers.jsu.edu/jobs/search?page=1&category_uids%5B%5D=6221c7f16b88a1e8462b2d492ce7977f&query=\nCall log:\n  - navigating to \"https://careers.jsu.edu/jobs/search?page=1&category_uids%5B%5D=6221c7f16b88a1e8462b2d492ce7977f&query=\", waiting until \"domcontentloaded\"\n"

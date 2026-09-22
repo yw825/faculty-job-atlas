@@ -1,8 +1,9 @@
 {
   "links": [],
   "school_id": 1713,
-  "status": "error",
-  "updated_at": "2026-09-20T23:26:26+00:00",
-  "started_at": "2026-09-20T23:26:24+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_NETWORK_CHANGED at https://www.academicjobs.com/sapienza-university-of-rome-jobs\nCall log:\n  - navigating to \"https://www.academicjobs.com/sapienza-university-of-rome-jobs\", waiting until \"domcontentloaded\"\n"
+  "status": "complete",
+  "updated_at": "2026-09-22T02:44:58+00:00",
+  "started_at": "2026-09-22T02:44:55+00:00",
+  "completed_at": "2026-09-22T02:44:58+00:00",
+  "last_error": ""
 }

@@ -26,7 +26,7 @@
   ],
   "school_id": 152,
   "status": "error",
-  "updated_at": "2026-09-20T20:28:30+00:00",
+  "updated_at": "2026-09-21T20:29:45+00:00",
   "started_at": "2026-09-08T01:20:21+00:00",
   "completed_at": "2026-09-17T16:08:46+00:00",
   "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://careers.csumb.edu/en-us/filter/?search-keyword=&job-mail-subscribe-privacy=agree\", waiting until \"domcontentloaded\"\n"

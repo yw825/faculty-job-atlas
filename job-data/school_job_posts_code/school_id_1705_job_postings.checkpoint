@@ -1,9 +1,9 @@
 {
   "links": [],
   "school_id": 1705,
-  "status": "error",
-  "updated_at": "2026-09-20T23:24:46+00:00",
-  "started_at": "2026-09-19T05:03:59+00:00",
-  "completed_at": "2026-09-19T05:04:02+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://my.corehr.com/pls/ucdrecruit/erq_search_version_4.start_search_with_params\nCall log:\n  - navigating to \"https://my.corehr.com/pls/ucdrecruit/erq_search_version_4.start_search_with_params\", waiting until \"domcontentloaded\"\n"
+  "status": "complete",
+  "updated_at": "2026-09-22T02:41:45+00:00",
+  "started_at": "2026-09-22T02:41:42+00:00",
+  "completed_at": "2026-09-22T02:41:45+00:00",
+  "last_error": ""
 }

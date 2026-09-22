@@ -29,7 +29,7 @@
   ],
   "school_id": 144,
   "status": "error",
-  "updated_at": "2026-09-20T20:18:40+00:00",
+  "updated_at": "2026-09-21T19:49:07+00:00",
   "started_at": "2026-09-08T01:18:58+00:00",
   "completed_at": "2026-09-17T16:08:23+00:00",
   "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://careersmanager.pageuppeople.com/873/sm/en-us/filter/?job-mail-subscribe-privacy=agree&search-keyword=&work-type=instructional%20faculty%20-%20temporary%2flecturer&work-type=instructional%20faculty%20%e2%80%93%20tenured%2ftenure-track\", waiting until \"domcontentloaded\"\n"

@@ -104,9 +104,9 @@
     "https://jobs.montevallo.edu/postings/10539"
   ],
   "school_id": 19,
-  "status": "error",
-  "updated_at": "2026-09-20T16:32:57+00:00",
+  "status": "complete",
+  "updated_at": "2026-09-21T16:50:07+00:00",
   "started_at": "2026-09-08T07:31:56+00:00",
-  "completed_at": "2026-09-17T16:01:21+00:00",
-  "last_error": "RuntimeError: peopleadmin atom status=None"
+  "completed_at": "2026-09-21T16:50:07+00:00",
+  "last_error": ""
 }

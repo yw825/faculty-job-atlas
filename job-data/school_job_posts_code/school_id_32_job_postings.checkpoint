@@ -7,9 +7,9 @@
     "https://phe.tbe.taleo.net/phe02/ats/careers/v2/viewRequisition?org=ARKASTAT2&cws=48&rid=39570"
   ],
   "school_id": 32,
-  "status": "complete",
-  "updated_at": "2026-09-20T16:42:19+00:00",
+  "status": "error",
+  "updated_at": "2026-09-21T17:05:15+00:00",
   "started_at": "2026-09-08T01:10:37+00:00",
   "completed_at": "2026-09-20T16:42:19+00:00",
-  "last_error": ""
+  "last_error": "TimeoutError: Locator.click: Timeout 5000ms exceeded.\nCall log:\n  - waiting for locator(\"a.oracletaleocwsv2-panel-number\").first\n    - locator resolved to <a href=\"#\" tabindex=\"0\" class=\"oracletaleocwsv2-panel-number\" onclick=\"mobileFormSubmit('#TBE_theForm');\">4</a>\n  - attempting click action\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - performing click action\n"
 }

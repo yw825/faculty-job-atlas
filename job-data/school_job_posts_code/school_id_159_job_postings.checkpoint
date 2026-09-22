@@ -3,9 +3,9 @@
     "https://www.whittier.edu/humanresources/faculty#adjunct-faculty-education-and-child-development-pool"
   ],
   "school_id": 159,
-  "status": "complete",
-  "updated_at": "2026-09-20T20:55:09+00:00",
+  "status": "error",
+  "updated_at": "2026-09-21T20:52:36+00:00",
   "started_at": "2026-09-09T01:29:29+00:00",
   "completed_at": "2026-09-20T20:55:09+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.whittier.edu/humanresources/faculty\nCall log:\n  - navigating to \"https://www.whittier.edu/humanresources/faculty\", waiting until \"domcontentloaded\"\n"
 }

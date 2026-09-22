@@ -1460,8 +1460,8 @@
     }
   },
   "school_id": 1415,
-  "status": "complete",
-  "updated_at": "2026-09-21T00:53:22+00:00",
+  "status": "error",
+  "updated_at": "2026-09-22T06:00:20+00:00",
   "completed_at": "2026-09-21T00:53:22+00:00",
-  "last_error": ""
+  "last_error": "TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/UTZ_CG/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_SCHJOB&Action=U&FOCUS=Applicant&SiteId=10\", waiting until \"domcontentloaded\"\n"
 }

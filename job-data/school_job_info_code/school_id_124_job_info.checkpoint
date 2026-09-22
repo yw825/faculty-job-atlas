@@ -36,8 +36,8 @@
     }
   },
   "school_id": 124,
-  "status": "error",
-  "updated_at": "2026-09-21T00:02:33+00:00",
-  "completed_at": "2026-09-19T18:22:51+00:00",
-  "last_error": "RuntimeError: adp api status=None"
+  "status": "complete",
+  "updated_at": "2026-09-22T03:15:03+00:00",
+  "completed_at": "2026-09-22T03:15:03+00:00",
+  "last_error": ""
 }

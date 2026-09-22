@@ -182,12 +182,15 @@
     "https://aprecruit.berkeley.edu/JPF05339",
     "https://aprecruit.berkeley.edu/JPF05541",
     "https://aprecruit.berkeley.edu/JPF05532",
-    "https://aprecruit.berkeley.edu/JPF05546"
+    "https://aprecruit.berkeley.edu/JPF05546",
+    "https://aprecruit.berkeley.edu/JPF05460",
+    "https://aprecruit.berkeley.edu/JPF05490",
+    "https://aprecruit.berkeley.edu/JPF05561"
   ],
   "school_id": 74,
-  "status": "error",
-  "updated_at": "2026-09-20T17:03:04+00:00",
+  "status": "complete",
+  "updated_at": "2026-09-21T17:38:36+00:00",
   "started_at": "2026-09-08T17:41:03+00:00",
-  "completed_at": "2026-09-17T16:04:34+00:00",
-  "last_error": "RuntimeError: uc recruit fetch failed status=None"
+  "completed_at": "2026-09-21T17:38:36+00:00",
+  "last_error": ""
 }

@@ -29,8 +29,8 @@
   ],
   "school_id": 76,
   "status": "error",
-  "updated_at": "2026-09-20T17:03:07+00:00",
+  "updated_at": "2026-09-21T17:46:14+00:00",
   "started_at": "2026-09-08T01:13:39+00:00",
   "completed_at": "2026-09-17T16:04:43+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://jobs.csuci.edu/en-us/listing/\nCall log:\n  - navigating to \"https://jobs.csuci.edu/en-us/listing/\", waiting until \"domcontentloaded\"\n"
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://jobs.csuci.edu/en-us/listing/\", waiting until \"domcontentloaded\"\n"
 }

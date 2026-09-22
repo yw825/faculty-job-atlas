@@ -9,9 +9,9 @@
     "https://woodbury.edu/admissions/undergraduate-admission/student-ambassadors/"
   ],
   "school_id": 75,
-  "status": "error",
-  "updated_at": "2026-09-20T17:03:06+00:00",
+  "status": "complete",
+  "updated_at": "2026-09-21T17:40:12+00:00",
   "started_at": "2026-09-08T01:13:36+00:00",
-  "completed_at": "2026-09-17T16:04:40+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://woodbury.edu/about/people/employment-opportunities/\nCall log:\n  - navigating to \"https://woodbury.edu/about/people/employment-opportunities/\", waiting until \"domcontentloaded\"\n"
+  "completed_at": "2026-09-21T17:40:12+00:00",
+  "last_error": ""
 }

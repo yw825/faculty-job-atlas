@@ -5,7 +5,7 @@
   ],
   "school_id": 147,
   "status": "error",
-  "updated_at": "2026-09-20T20:26:54+00:00",
+  "updated_at": "2026-09-21T20:12:03+00:00",
   "started_at": "2026-09-08T01:19:51+00:00",
   "completed_at": "2026-09-17T16:08:38+00:00",
   "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.westmont.edu/office-provost/open-positions\", waiting until \"domcontentloaded\"\n"

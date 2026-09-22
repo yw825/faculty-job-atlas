@@ -6,9 +6,9 @@
     "https://www.alaskapacific.edu/career/it-support-technician/"
   ],
   "school_id": 1,
-  "status": "error",
-  "updated_at": "2026-09-20T16:06:16+00:00",
+  "status": "complete",
+  "updated_at": "2026-09-21T16:13:28+00:00",
   "started_at": "2026-09-08T01:09:44+00:00",
-  "completed_at": "2026-09-17T16:00:16+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.alaskapacific.edu/about/employment/#openings\nCall log:\n  - navigating to \"https://www.alaskapacific.edu/about/employment/#openings\", waiting until \"domcontentloaded\"\n"
+  "completed_at": "2026-09-21T16:13:28+00:00",
+  "last_error": ""
 }

@@ -28,7 +28,7 @@
   ],
   "school_id": 18,
   "status": "error",
-  "updated_at": "2026-09-20T16:32:56+00:00",
+  "updated_at": "2026-09-21T16:50:04+00:00",
   "started_at": "2026-09-08T01:10:15+00:00",
   "completed_at": "2026-09-17T16:01:20+00:00",
   "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.southalabama.edu/departments/academicaffairs/facultyposition.html\", waiting until \"domcontentloaded\"\n"

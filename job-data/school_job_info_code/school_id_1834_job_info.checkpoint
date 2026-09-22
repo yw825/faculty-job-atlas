@@ -947,6 +947,16 @@
       "title": "Programme Officer, Undergraduate Studies Section",
       "description": "This position sits under the Office of Dean of Business at our Kowloon Tong campus. The core responsibilities are coordinating and managing student development initiatives, including the Student Ambassador Programme and related activities.",
       "department": null
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270205": {
+      "title": "Assistant Manager, Academic Registry",
+      "description": "This position sits under the Academic Registry Office at our Kowloon Tong campus. The core responsibilities are supporting the preparation and follow-up activities for institutional reviews and external quality audits conducted by the University Grants Committee such as the QAC quality audit.",
+      "department": null
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270208": {
+      "title": "Professor / Associate Professor / Assistant Professor (Computer Science)",
+      "description": "This position sits under the Department of Computer Science Office at our Kowloon Tong campus. The core responsibilities are performing high-impact research, teaching and supervising students at undergraduate and postgraduate levels.",
+      "department": null
     }
   },
   "rows": {
@@ -2959,11 +2969,33 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270205": {
+      "school_id": 1834,
+      "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270205",
+      "job_title_in_post": "Assistant Manager, Academic Registry",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270208": {
+      "school_id": 1834,
+      "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270208",
+      "job_title_in_post": "Professor / Associate Professor / Assistant Professor (Computer Science)",
+      "position_type": "Assistant_Professor; Associate_Professor; Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Department of Computer Science Office",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1834,
   "status": "complete",
-  "updated_at": "2026-09-21T01:28:28+00:00",
-  "completed_at": "2026-09-21T01:28:28+00:00",
+  "updated_at": "2026-09-22T15:40:37+00:00",
+  "completed_at": "2026-09-22T15:40:37+00:00",
   "last_error": ""
 }

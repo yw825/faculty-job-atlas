@@ -24,6 +24,6 @@
     "https://csucareers.calstate.edu/en-us/job/555686/202627-ay-lecturer-pool-anthropology"
   ],
   "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://csucareers.calstate.edu/en-us/filter/?=&leftNavSearchFormQuery=&=&search=&search-keyword=&job-mail-subscribe-privacy=agree&work-type=instructional%20faculty%20-%20temporary%2flecturer&work-type=instructional%20faculty%20%e2%80%93%20tenured%2ftenure-track&location=los%20angeles&job-mail-subscribe-privacy=agree\", waiting until \"domcontentloaded\"\n",
-  "updated_at": "2026-09-20T18:22:22+00:00",
+  "updated_at": "2026-09-21T18:24:37+00:00",
   "started_at": "2026-09-14T17:17:09+00:00"
 }

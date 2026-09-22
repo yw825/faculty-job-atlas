@@ -100,7 +100,7 @@
   ],
   "school_id": 174,
   "status": "error",
-  "updated_at": "2026-09-20T21:21:52+00:00",
+  "updated_at": "2026-09-21T21:32:42+00:00",
   "started_at": "2026-09-08T01:21:55+00:00",
   "completed_at": "2026-09-17T16:10:36+00:00",
   "last_error": "RuntimeError: cornerstone token capture failed: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://unco.csod.com/ux/ats/careersite/1/home?c=unco\", waiting until \"networkidle\"\n"

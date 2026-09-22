@@ -17,8 +17,8 @@
   ],
   "school_id": 1778,
   "status": "error",
-  "updated_at": "2026-09-20T22:02:36+00:00",
+  "updated_at": "2026-09-21T21:55:37+00:00",
   "started_at": "2026-09-02T22:33:21+00:00",
   "completed_at": "2026-09-15T18:34:55+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://jobs.anu.edu.au/jobs/search?page=1&category_uids%5B%5D=37694d529bb555c68f1e76ddc653d496&query=\nCall log:\n  - navigating to \"https://jobs.anu.edu.au/jobs/search?page=1&category_uids%5B%5D=37694d529bb555c68f1e76ddc653d496&query=\", waiting until \"domcontentloaded\"\n"
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://jobs.anu.edu.au/jobs/search?page=1&category_uids%5B%5D=37694d529bb555c68f1e76ddc653d496&query=\", waiting until \"domcontentloaded\"\n"
 }

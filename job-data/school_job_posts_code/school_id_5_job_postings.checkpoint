@@ -19,7 +19,7 @@
   ],
   "school_id": 5,
   "status": "error",
-  "updated_at": "2026-09-20T16:16:25+00:00",
+  "updated_at": "2026-09-21T16:28:36+00:00",
   "started_at": "2026-09-08T01:09:56+00:00",
   "completed_at": "2026-09-17T16:00:37+00:00",
   "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://jobs.auburn.edu/auburn-careers-home/jobs?tags2=Faculty&page=1\", waiting until \"domcontentloaded\"\n"

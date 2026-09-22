@@ -115,12 +115,13 @@
     "https://aprecruit.ucmerced.edu/JPF02226",
     "https://aprecruit.ucmerced.edu/JPF02227",
     "https://aprecruit.ucmerced.edu/JPF02228",
-    "https://aprecruit.ucmerced.edu/JPF02232"
+    "https://aprecruit.ucmerced.edu/JPF02232",
+    "https://aprecruit.ucmerced.edu/JPF02233"
   ],
   "school_id": 108,
-  "status": "error",
-  "updated_at": "2026-09-20T18:45:14+00:00",
+  "status": "complete",
+  "updated_at": "2026-09-21T18:51:25+00:00",
   "started_at": "2026-09-08T17:41:06+00:00",
-  "completed_at": "2026-09-17T16:06:56+00:00",
-  "last_error": "RuntimeError: uc recruit fetch failed status=None"
+  "completed_at": "2026-09-21T18:51:25+00:00",
+  "last_error": ""
 }

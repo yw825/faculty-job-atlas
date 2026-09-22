@@ -385,6 +385,17 @@
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/15606": {
       "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+    },
+    "https://usask.csod.com/ux/ats/careersite/14/requisition/15612": {
+      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+    },
+    "https://usask.csod.com/ux/ats/careersite/14/requisition/15610": {
+      "title": "Welcome - Realize Your Potential: Cornerstone",
+      "description": "Welcome - Realize Your Potential: Cornerstone"
+    },
+    "https://usask.csod.com/ux/ats/careersite/14/requisition/15607": {
+      "title": "Welcome - Realize Your Potential: Cornerstone",
+      "description": "Welcome - Realize Your Potential: Cornerstone"
     }
   },
   "rows": {
@@ -1102,11 +1113,36 @@
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/15606": {
       "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+    },
+    "https://usask.csod.com/ux/ats/careersite/14/requisition/15612": {
+      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+    },
+    "https://usask.csod.com/ux/ats/careersite/14/requisition/15610": {
+      "school_id": 1656,
+      "posting_url": "https://usask.csod.com/ux/ats/careersite/14/requisition/15610",
+      "job_title_in_post": "Welcome - Realize Your Potential: Cornerstone",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://usask.csod.com/ux/ats/careersite/14/requisition/15607": {
+      "school_id": 1656,
+      "posting_url": "https://usask.csod.com/ux/ats/careersite/14/requisition/15607",
+      "job_title_in_post": "Welcome - Realize Your Potential: Cornerstone",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1656,
   "status": "complete",
-  "updated_at": "2026-09-21T01:21:48+00:00",
-  "completed_at": "2026-09-21T01:21:48+00:00",
+  "updated_at": "2026-09-22T15:36:20+00:00",
+  "completed_at": "2026-09-22T15:36:20+00:00",
   "last_error": ""
 }

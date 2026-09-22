@@ -27,9 +27,9 @@
     "https://careers.csustan.edu/st/en-us/job/551260/parttime-lecturer-pool-sscp-university-supervisors-in-teacher-education"
   ],
   "school_id": 157,
-  "status": "complete",
-  "updated_at": "2026-09-20T20:47:34+00:00",
+  "status": "error",
+  "updated_at": "2026-09-21T20:44:58+00:00",
   "started_at": "2026-09-08T01:20:34+00:00",
   "completed_at": "2026-09-20T20:47:34+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://careers.csustan.edu/st/en-us/filter/?job-mail-subscribe-privacy=agree&search-keyword=&work-type=instructional%20faculty%20-%20temporary%2flecturer&work-type=instructional%20faculty%20%E2%80%93%20tenured%2ftenure-track&work-type=non-instructional%20faculty%20(coach%2fcounselor%2flibrarian)&category=unit%203%20-%20cfa%20-%20california%20faculty%20association\", waiting until \"domcontentloaded\"\n"
 }
