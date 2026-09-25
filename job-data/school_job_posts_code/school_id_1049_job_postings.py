@@ -1,22 +1,20 @@
 """
 Job postings scraper for school_id 1049 - Kenyon College (US)
-ATS platform: own website
-Careers link: https://www.kenyon.edu/offices-and-services/office-of-human-resources/job-opportunities/
+ATS platform: own website (PageUp career site)
+Careers link: https://careers.kenyon.edu/jobs/search
 
 No shared ATS platform adapter applies to this school -- find_links() below
-is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
-directly to fix or improve results for Kenyon College; nothing here affects any
-other school's script.
+is THIS SCHOOL'S OWN scraping logic, owned entirely by this file.
 
-Link check (ok): 13 posting-shaped links found.
+The careers link was Kenyon's HR "job opportunities" page, which describes
+how to apply rather than listing openings, so the thirteen links collected
+from it were site navigation. The board is careers.kenyon.edu.
 
-Starting point (not a tuned answer): fetch the careers page with JS
-rendered, then keep every link whose href or visible text looks
-job/vacancy/posting-shaped (job_postings_lib.COMMON_JOB_URL_HINTS). If that
-under- or over-collects, narrow the pattern to this site's real posting URL
-shape (the single most common fix -- a generic filter also matches a site's
-own navigation), add a click/scroll step via fetch_rendered's `actions`
-argument, or follow pagination with a second fetch and merge the results.
+Its postings render only under /jobs/search, after the page's own JS runs
+behind an AWS WAF challenge, and each posting's URL is a pure SLUG with no
+numeric id (/jobs/director-of-grants-gambier-oh-ohio-united-states) -- so
+id-shaped patterns find nothing even once the page has rendered. Matching
+the slug path directly is what works.
 
 Writes school_job_posts/school_id_1049_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1049_job_postings.checkpoint next to this script.
@@ -24,6 +22,7 @@ Checkpointed to school_id_1049_job_postings.checkpoint next to this script.
 import os
 import re
 import sys
+from urllib.parse import urljoin, urlparse
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.dirname(HERE))
@@ -31,19 +30,35 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1049
 SCHOOL_NAME = 'Kenyon College'
-CAREERS_LINK = 'https://www.kenyon.edu/offices-and-services/office-of-human-resources/job-opportunities/'
+CAREERS_LINK = 'https://careers.kenyon.edu/jobs/search'
 ATS_PLATFORM = 'own website'
+
+HOST = 'careers.kenyon.edu'
+POSTING_PATH = re.compile(r'^/jobs/(?!search\b)[a-z0-9][a-z0-9\-]{8,200}$', re.I)
+RENDER_WAIT_MS = 16000
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
+    from bs4 import BeautifulSoup
+    html = lib.fetch_rendered(CAREERS_LINK, wait_ms=RENDER_WAIT_MS)
     if lib.is_fetch_failure(html):
         raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    soup = BeautifulSoup(html, 'html.parser')
+    links, seen = [], set()
+    for a in soup.find_all('a', href=True):
+        full = urljoin(CAREERS_LINK, a['href'].strip())
+        parsed = urlparse(full)
+        if parsed.netloc != HOST or not POSTING_PATH.match(parsed.path):
+            continue
+        clean = f'https://{HOST}{parsed.path}'
+        if clean not in seen:
+            seen.add(clean)
+            links.append(clean)
+    if not links:
+        raise RuntimeError('kenyon job search rendered no postings')
+    return links
 
 
 def main():
