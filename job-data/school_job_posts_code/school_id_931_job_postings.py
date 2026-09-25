@@ -1,14 +1,20 @@
 """
-Job postings scraper for school_id 931 - St Lawrence University (US)
-ATS platform: iCIMS (detected: icims)
-Careers link: https://careerhub-clarkson.icims.com/jobs/search?hashed=-625885781&mobile=false&width=1246&height=500&bga=true&needsRedirect=false&jan1offset=-300&jun1offset=-240
+Job postings scraper for school_id 931 - St Lawrence University
+ATS platform: PeopleAdmin (detected: peopleadmin)
+Careers link: https://employment.stlawu.edu/
 
-St Lawrence University runs on a shared ATS platform -- every school on icims uses the
-same underlying site software, so this calls the shared
-job_postings_lib.scrape_icims adapter rather than duplicating
-platform-specific logic here. If results for THIS ONE school need a tweak
-that shouldn't apply to every icims school, define find_links() below
-and pass it to run_checkpointed instead of editing the shared adapter.
+St Lawrence University runs on a shared ATS platform, so this calls the shared
+job_postings_lib.scrape_peopleadmin adapter rather than duplicating
+platform-specific logic here.
+
+The previous careers link did not reach this board -- it pointed at a careers landing page, a staff-only board or another
+university's board
+so the school collected navigation links or nothing at all. This board was
+verified live on 2026-09-24 and returned 22 postings.
+
+If results for THIS ONE school need a tweak that shouldn't apply to every
+peopleadmin school, define find_links() below and pass it to run_checkpointed
+instead of editing the shared adapter.
 
 Writes school_job_posts/school_id_931_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_931_job_postings.checkpoint next to this script.
@@ -22,9 +28,9 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 931
 SCHOOL_NAME = 'St Lawrence University'
-CAREERS_LINK = 'https://careerhub-clarkson.icims.com/jobs/search?hashed=-625885781&mobile=false&width=1246&height=500&bga=true&needsRedirect=false&jan1offset=-300&jun1offset=-240'
-ATS_PLATFORM = 'iCIMS'
-PLATFORM = 'icims'
+CAREERS_LINK = 'https://employment.stlawu.edu/'
+ATS_PLATFORM = 'PeopleAdmin'
+PLATFORM = 'peopleadmin'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 

@@ -1,28 +1,25 @@
 """
-Job postings scraper for school_id 1021 - University of Mount Union (US)
-ATS platform: own website
-Careers link: https://www.schooljobs.com/careers/mountunion/faculty?jobType[0]=Faculty&sort=PositionTitle%7CAscending
+Job postings scraper for school_id 1021 - University of Mount Union
+ATS platform: SchoolJobs (NeoGov) (detected: schooljobs)
+Careers link: https://www.schooljobs.com/careers/mountunion
 
-No shared ATS platform adapter applies to this school -- find_links() below
-is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
-directly to fix or improve results for University of Mount Union; nothing here affects any
-other school's script.
+University of Mount Union runs on a shared ATS platform, so this calls the shared
+job_postings_lib.scrape_schooljobs adapter rather than duplicating
+platform-specific logic here.
 
-Link check (ok): 13 posting-shaped links found.
+The previous careers link did not reach this board -- it pointed at a careers landing page, a staff-only board or another
+university's board
+so the school collected navigation links or nothing at all. This board was
+verified live on 2026-09-24 and returned 7 postings.
 
-Starting point (not a tuned answer): fetch the careers page with JS
-rendered, then keep every link whose href or visible text looks
-job/vacancy/posting-shaped (job_postings_lib.COMMON_JOB_URL_HINTS). If that
-under- or over-collects, narrow the pattern to this site's real posting URL
-shape (the single most common fix -- a generic filter also matches a site's
-own navigation), add a click/scroll step via fetch_rendered's `actions`
-argument, or follow pagination with a second fetch and merge the results.
+If results for THIS ONE school need a tweak that shouldn't apply to every
+schooljobs school, define find_links() below and pass it to run_checkpointed
+instead of editing the shared adapter.
 
 Writes school_job_posts/school_id_1021_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1021_job_postings.checkpoint next to this script.
 """
 import os
-import re
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -31,13 +28,11 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1021
 SCHOOL_NAME = 'University of Mount Union'
-CAREERS_LINK = 'https://www.schooljobs.com/careers/mountunion/faculty?jobType[0]=Faculty&sort=PositionTitle%7CAscending'
-ATS_PLATFORM = 'own website'
+CAREERS_LINK = 'https://www.schooljobs.com/careers/mountunion'
+ATS_PLATFORM = 'SchoolJobs (NeoGov)'
+PLATFORM = 'schooljobs'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
-
-
-PLATFORM = 'schooljobs'
 
 
 def main():

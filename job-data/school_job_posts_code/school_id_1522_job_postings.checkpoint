@@ -1,8 +1,14 @@
 {
-  "links": [],
+  "links": [
+    "https://www.schooljobs.com/careers/whitworth/jobs/5449406/custodian",
+    "https://www.schooljobs.com/careers/whitworth/jobs/5458452/administrative-coordinator-health-sciences",
+    "https://www.schooljobs.com/careers/whitworth/jobs/5463625/graduate-admissions-counselor",
+    "https://www.schooljobs.com/careers/whitworth/jobs/5481017/assistant-director-advising-and-retention"
+  ],
   "school_id": 1522,
-  "status": "error",
-  "updated_at": "2026-09-24T18:53:29+00:00",
-  "started_at": "2026-09-10T07:27:58+00:00",
-  "last_error": "RuntimeError: schooljobs board returned no postings"
+  "status": "complete",
+  "updated_at": "2026-09-25T06:25:14+00:00",
+  "started_at": "2026-09-25T06:24:56+00:00",
+  "completed_at": "2026-09-25T06:25:14+00:00",
+  "last_error": ""
 }

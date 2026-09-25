@@ -1,28 +1,25 @@
 """
-Job postings scraper for school_id 1478 - University of Lynchburg (US)
-ATS platform: own website
-Careers link: https://www.lynchburg.edu/about/human-resources/jobs/
+Job postings scraper for school_id 1478 - University of Lynchburg
+ATS platform: Paycom (detected: paycom)
+Careers link: https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=06E60EB4A3425A1B8B2E3A5F3F1E2A6F&fromClientSide=true
 
-No shared ATS platform adapter applies to this school -- find_links() below
-is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
-directly to fix or improve results for University of Lynchburg; nothing here affects any
-other school's script.
+University of Lynchburg runs on a shared ATS platform, so this calls the shared
+job_postings_lib.scrape_paycom adapter rather than duplicating
+platform-specific logic here.
 
-Link check (ok): 4 posting-shaped links found.
+The previous careers link did not reach this board -- it pointed at a careers landing page, a staff-only board or another
+university's board
+so the school collected navigation links or nothing at all. This board was
+verified live on 2026-09-24 and returned 12 postings.
 
-Starting point (not a tuned answer): fetch the careers page with JS
-rendered, then keep every link whose href or visible text looks
-job/vacancy/posting-shaped (job_postings_lib.COMMON_JOB_URL_HINTS). If that
-under- or over-collects, narrow the pattern to this site's real posting URL
-shape (the single most common fix -- a generic filter also matches a site's
-own navigation), add a click/scroll step via fetch_rendered's `actions`
-argument, or follow pagination with a second fetch and merge the results.
+If results for THIS ONE school need a tweak that shouldn't apply to every
+paycom school, define find_links() below and pass it to run_checkpointed
+instead of editing the shared adapter.
 
 Writes school_job_posts/school_id_1478_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1478_job_postings.checkpoint next to this script.
 """
 import os
-import re
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -31,23 +28,16 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1478
 SCHOOL_NAME = 'University of Lynchburg'
-CAREERS_LINK = 'https://www.lynchburg.edu/about/human-resources/jobs/'
-ATS_PLATFORM = 'own website'
+CAREERS_LINK = 'https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=06E60EB4A3425A1B8B2E3A5F3F1E2A6F&fromClientSide=true'
+ATS_PLATFORM = 'Paycom'
+PLATFORM = 'paycom'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
-def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
-
-
 def main():
-    result = lib.run_checkpointed(SCHOOL_ID, CHECKPOINT_PATH, find_links)
+    result = lib.run_platform_school(SCHOOL_ID, SCHOOL_NAME, CAREERS_LINK,
+                                     CHECKPOINT_PATH, platform=PLATFORM)
     err = result.get('last_error', '')
     print(f"{SCHOOL_NAME} (id={SCHOOL_ID}): status={result['status']} "
           f"links={len(result['links'])}" + (f" ERROR: {err}" if err else ''))

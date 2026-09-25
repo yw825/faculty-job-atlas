@@ -1,14 +1,27 @@
 """
 Job postings scraper for school_id 175 - Western Colorado University (US)
 ATS platform: Workday (detected: workday)
-Careers link: https://western.wd1.myworkdayjobs.com/WESTERN?locations=f0acdfc60ce81008f9018ce54da70000&jobFamilyGroup=f0acdfc60ce81008d439787fbb740000
+Careers link: https://western.wd1.myworkdayjobs.com/WESTERN
 
-Western Colorado University runs on a shared ATS platform -- every school on workday uses the
-same underlying site software, so this calls the shared
+Western Colorado University runs on a shared ATS platform -- every school on
+workday uses the same underlying site software, so this calls the shared
 job_postings_lib.scrape_workday adapter rather than duplicating
 platform-specific logic here. If results for THIS ONE school need a tweak
 that shouldn't apply to every workday school, define find_links() below
 and pass it to run_checkpointed instead of editing the shared adapter.
+
+The careers link used to carry two Workday facet filters:
+
+    ?locations=f0acdfc60ce81008f9018ce54da70000
+    &jobFamilyGroup=f0acdfc60ce81008d439787fbb740000
+
+Those facet ids no longer select anything, so the board answered every run
+with an empty result set and the school recorded zero postings -- which read
+as "no openings" rather than as a broken filter. The unfiltered board
+returns the university's actual openings (4 when checked, among them "Head
+Alpine Ski Coach" and "Academic and Success Advisor"), so the facets are
+dropped here. A facet id is a Workday-internal key, not a stable public
+identifier, so pinning one in a careers link is worth avoiding generally.
 
 Writes school_job_posts/school_id_175_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_175_job_postings.checkpoint next to this script.
@@ -22,7 +35,7 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 175
 SCHOOL_NAME = 'Western Colorado University'
-CAREERS_LINK = 'https://western.wd1.myworkdayjobs.com/WESTERN?locations=f0acdfc60ce81008f9018ce54da70000&jobFamilyGroup=f0acdfc60ce81008d439787fbb740000'
+CAREERS_LINK = 'https://western.wd1.myworkdayjobs.com/WESTERN'
 ATS_PLATFORM = 'Workday'
 PLATFORM = 'workday'
 

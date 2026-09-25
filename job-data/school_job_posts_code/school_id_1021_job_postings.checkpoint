@@ -1,8 +1,17 @@
 {
-  "links": [],
+  "links": [
+    "https://www.schooljobs.com/careers/mountunion/jobs/5353551/part-time-security-officer",
+    "https://www.schooljobs.com/careers/mountunion/jobs/5425488/university-counselor",
+    "https://www.schooljobs.com/careers/mountunion/jobs/5436387/housekeeper",
+    "https://www.schooljobs.com/careers/mountunion/jobs/5453199/security-officer",
+    "https://www.schooljobs.com/careers/mountunion/jobs/5461983/multimedia-content-specialist",
+    "https://www.schooljobs.com/careers/mountunion/jobs/5465382/assistant-professor-biochemistry-chemistry",
+    "https://www.schooljobs.com/careers/mountunion/jobs/5490518/athletic-director"
+  ],
   "school_id": 1021,
-  "status": "error",
-  "updated_at": "2026-09-24T18:15:08+00:00",
-  "started_at": "2026-09-10T07:15:22+00:00",
-  "last_error": "RuntimeError: schooljobs board returned no postings"
+  "status": "complete",
+  "updated_at": "2026-09-25T06:22:55+00:00",
+  "started_at": "2026-09-25T06:22:37+00:00",
+  "completed_at": "2026-09-25T06:22:55+00:00",
+  "last_error": ""
 }

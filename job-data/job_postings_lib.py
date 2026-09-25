@@ -463,6 +463,8 @@ def detect_platform(url):
         return 'interfolio'
     if 'paycomonline.net' in host:
         return 'paycom'
+    if 'recruitingbypaycor.com' in host:
+        return 'paycor'
     # UC Recruit instances are recruit*/apo-recruit hosts under a UC campus
     if re.match(r'^(?:ap)?recruit(?:\.[a-z]+)?\.[a-z]+\.edu$', host) or \
             re.match(r'^apol-recruit\.[a-z]+\.edu$', host):
@@ -496,6 +498,14 @@ def detect_platform(url):
         return 'icims'
     if 'ultipro.com' in host:
         return 'ultipro'
+    # UKG Ready "TA" career sites -- same vendor as ultipro, different product
+    # and a different URL shape; scrape_ultipro cannot parse these. The same
+    # product is served from at least three host families (confirmed live:
+    # onehcm.com for Simpson, entertimeonline.com for Crown and Colby-Sawyer,
+    # saashr.com for Carroll University, whose board lists 38 jobs).
+    if (('onehcm.com' in host or 'entertimeonline.com' in host
+         or 'saashr.com' in host) and '/ta/' in parsed.path):
+        return 'ultipro_ta'
     if host == 'my.corehr.com':
         return 'corehr'
     return None
@@ -956,6 +966,92 @@ def scrape_ultipro(url):
         if skip >= total:
             break
         time.sleep(0.3)
+    return links
+
+
+def scrape_ultipro_ta(url):
+    """UKG Ready "TA" career sites -- secure*.onehcm.com/ta/<Company>.careers
+    and secure*.entertimeonline.com/ta/<Company>.careers.
+
+    A different product from scrape_ultipro's UltiPro JobBoard despite the
+    shared vendor: the path is "/ta/<Company>.careers", which does not parse
+    as "/<tenant>/JobBoard/<id>", so that adapter rejects these outright.
+
+    The listing is script-built -- a plain fetch returns a ~31KB shell whose
+    only hrefs are three stylesheets -- but the page's own XHR is public and
+    needs no auth: /ta/rest/ui/recruitment/companies/%7C<Company>/
+    job-requisitions. Each row carries an `id`, and <Company>.careers?ShowJob=
+    <id> renders that posting for a human (confirmed live: Crown College's
+    537208004 renders "Assistant/Associate Professor of Nursing"), so the
+    stored link opens the job rather than the search page.
+    """
+    parsed = urlparse(url)
+    m = re.match(r'^/ta/([^/.]+)\.(?:careers|jobs)', parsed.path, re.I)
+    if not m:
+        raise RuntimeError('could not parse ukg-ready TA company from url')
+    company = m.group(1)
+
+    # Several tenants serve the board from a NUMBERED node ("secure5") while
+    # the careers link names the bare host; the REST API only answers on the
+    # node actually serving the board, so try the bare host then the node.
+    hosts = [parsed.netloc]
+    if parsed.netloc.startswith('secure.'):
+        hosts.append(parsed.netloc.replace('secure.', 'secure5.', 1))
+
+    jobs, good_host = {}, None
+    for host in hosts:
+        base = (f'https://{host}/ta/rest/ui/recruitment/companies/'
+                f'%7C{company}/job-requisitions')
+        offset, limit = 0, 50
+        for _page in range(40):
+            status, text = fetch_static(f'{base}?offset={offset}&limit={limit}',
+                                        extra_headers={'Accept': 'application/json'})
+            if status != 200:
+                break
+            try:
+                reqs = json.loads(text).get('job_requisitions') or []
+            except (ValueError, AttributeError):
+                break
+            fresh = [r for r in reqs if r.get('id') and r['id'] not in jobs]
+            for r in fresh:
+                jobs[r['id']] = r.get('job_title') or ''
+            if not fresh or len(reqs) < limit:
+                break
+            offset += limit
+            time.sleep(0.3)
+        if jobs:
+            good_host = host
+            break
+    if not jobs:
+        raise RuntimeError('ukg-ready TA board returned no requisitions')
+    return [f'https://{good_host}/ta/{company}.careers?ShowJob={jid}'
+            for jid in jobs]
+
+
+def scrape_paycor(url):
+    """Paycor Recruiting (recruitingbypaycor.com). The board home is
+    /career/CareerHome.action?clientId=<id>, and each posting is
+    /career/JobIntroduction.action?clientId=<id>&id=<job id>.
+
+    The listing is rendered client-side, so a plain fetch returns a shell
+    with no postings in it; fetch_rendered surfaces the JobIntroduction
+    links (confirmed live: Cleary University 16, Bushnell University 14).
+    Five schools in schools_master sit on this vendor and detect_platform
+    did not know it, so each fell through to a generic careers-page scrape.
+    """
+    m = re.search(r'clientId=([0-9a-zA-Z]+)', url)
+    if not m:
+        raise RuntimeError('no clientId in paycor url')
+    home = ('https://recruitingbypaycor.com/career/CareerHome.action'
+            f'?clientId={m.group(1)}')
+    html = fetch_rendered(home, wait_ms=8000)
+    if is_fetch_failure(html):
+        raise RuntimeError(html[:90])
+    pat = re.compile(r'https://recruitingbypaycor\.com/career/'
+                     r'JobIntroduction\.action\?[^\s"\'<>]+', re.I)
+    links = sorted(set(pat.findall(html)))
+    if not links:
+        raise RuntimeError('paycor board returned no postings')
     return links
 
 
@@ -1741,6 +1837,8 @@ PLATFORM_ADAPTERS = {
     'adp': lambda url, name: scrape_adp(url),
     'icims': lambda url, name: scrape_icims(url),
     'ultipro': lambda url, name: scrape_ultipro(url),
+    'ultipro_ta': lambda url, name: scrape_ultipro_ta(url),
+    'paycor': lambda url, name: scrape_paycor(url),
     'smartrecruiters': lambda url, name: scrape_smartrecruiters(url),
     'academicjobsonline': lambda url, name: scrape_academicjobsonline(url),
     'dejobs': lambda url, name: scrape_dejobs(url),

@@ -1,7 +1,13 @@
 """
 Job postings scraper for school_id 1332 - Lincoln Memorial University (US)
 ATS platform: PeopleAdmin (detected: peopleadmin)
-Careers link: https://www.peopleadmin.com/
+Careers link: https://careers.lmunet.edu/
+
+The careers link was https://www.peopleadmin.com/ -- the VENDOR's marketing
+homepage rather than Lincoln Memorial's tenant, so the adapter asked
+www.peopleadmin.com for an Atom feed and got a 404 on every run. The
+university's own employment page links to careers.lmunet.edu, whose
+/postings/all_jobs.atom answers with 146 entries.
 
 Lincoln Memorial University runs on a shared ATS platform -- every school on peopleadmin uses the
 same underlying site software, so this calls the shared
@@ -22,7 +28,7 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1332
 SCHOOL_NAME = 'Lincoln Memorial University'
-CAREERS_LINK = 'https://www.peopleadmin.com/'
+CAREERS_LINK = 'https://careers.lmunet.edu/'
 ATS_PLATFORM = 'PeopleAdmin'
 PLATFORM = 'peopleadmin'
 
