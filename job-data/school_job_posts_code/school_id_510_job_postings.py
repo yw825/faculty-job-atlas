@@ -1,16 +1,29 @@
 """
 Job postings scraper for school_id 510 - Louisiana State University and Agricultural & Mechanical College (US)
 ATS platform: Workday (detected: workday)
-Careers link: https://lsu.wd1.myworkdayjobs.com/LSU
+Careers link: https://lsu.wd1.myworkdayjobs.com/LSU?hiringCompany=7a9995fc77aa101f333e6ab01401289b
 
-Louisiana State University and Agricultural & Mechanical College runs on a shared ATS platform -- every school on workday uses the
-same underlying site software, so this calls the shared
-job_postings_lib.scrape_workday adapter rather than duplicating
-platform-specific logic here. If results for THIS ONE school need a tweak
-that shouldn't apply to every workday school, define find_links() below
-and pass it to run_checkpointed instead of editing the shared adapter.
+Louisiana State University and Agricultural & Mechanical College runs on a
+shared ATS platform -- every school on workday uses the same underlying site
+software, so this calls the shared job_postings_lib.scrape_workday adapter
+rather than duplicating platform-specific logic here. If results for THIS
+ONE school need a tweak that shouldn't apply to every workday school, define
+find_links() below and pass it to run_checkpointed instead of editing the
+shared adapter.
 
-NOTE: 2 schools list against this same URL, so this listing carries every one of their postings, not just this school's: Louisiana State University-Alexandria.
+The LSU board is shared across the whole system: unfiltered it returns 280
+postings belonging to five employers (A&M 182, Eunice 36, the Agricultural
+Center 33, Alexandria 22, Pennington Biomedical 7). Both LSU schools here
+were pointed at it unfiltered and so held an identical 359 links each --
+Alexandria's postings also appeared under this school.
+
+The dimension that separates them is the "hiringCompany" facet, not a
+location one. scrape_workday forwards any query parameter it does not
+recognise as navigation into the API's appliedFacets, so pinning the id in
+the careers link is all that is needed: A&M returns 182 of the 280.
+
+Note the Agricultural Center is a SEPARATE hiring company from this school
+despite the shared name, and is not included here.
 
 Writes school_job_posts/school_id_510_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_510_job_postings.checkpoint next to this script.
@@ -24,7 +37,8 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 510
 SCHOOL_NAME = 'Louisiana State University and Agricultural & Mechanical College'
-CAREERS_LINK = 'https://lsu.wd1.myworkdayjobs.com/LSU'
+CAREERS_LINK = ('https://lsu.wd1.myworkdayjobs.com/LSU'
+                '?hiringCompany=7a9995fc77aa101f333e6ab01401289b')
 ATS_PLATFORM = 'Workday'
 PLATFORM = 'workday'
 
