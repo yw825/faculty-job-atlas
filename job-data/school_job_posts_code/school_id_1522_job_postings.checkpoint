@@ -2,7 +2,7 @@
   "links": [],
   "school_id": 1522,
   "status": "error",
-  "updated_at": "2026-09-17T18:18:50+00:00",
+  "updated_at": "2026-09-24T18:53:29+00:00",
   "started_at": "2026-09-10T07:27:58+00:00",
   "last_error": "RuntimeError: schooljobs board returned no postings"
 }

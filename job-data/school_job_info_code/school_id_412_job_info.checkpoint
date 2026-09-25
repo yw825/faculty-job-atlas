@@ -75,6 +75,22 @@
     "https://uis.csod.com/ux/ats/careersite/1/requisition/1331": {
       "title": "+ Cornerstone OnDemand +",
       "description": "+ Cornerstone OnDemand + Log In (HR Only) Logging in... Applicant Tracking System Login Username Password Remember Username Check this box to save your username for future logins Inherit Login Language Apply login language to application UIS Employee Login Self Reg Forgot Username? | Forgot password? Need help logging in? Contact us! What happened? The Custom login page that you requested is temporarily down for maintenance. What to do? You will be redirected in 10 seconds to a standard login page to access your portal. If you are not automatically redirected, click here ."
+    },
+    "https://uis.csod.com/ux/ats/careersite/1/requisition/1332": {
+      "title": "+ Cornerstone OnDemand +",
+      "description": "+ Cornerstone OnDemand + Log In (HR Only) Logging in... Applicant Tracking System Login Username Password Remember Username Check this box to save your username for future logins Inherit Login Language Apply login language to application UIS Employee Login Self Reg Forgot Username? | Forgot password? Need help logging in? Contact us! What happened? The Custom login page that you requested is temporarily down for maintenance. What to do? You will be redirected in 10 seconds to a standard login page to access your portal. If you are not automatically redirected, click here ."
+    },
+    "https://uis.csod.com/ux/ats/careersite/1/requisition/1322": {
+      "title": "+ Cornerstone OnDemand +",
+      "description": "+ Cornerstone OnDemand + Log In (HR Only) Logging in... Applicant Tracking System Login Username Password Remember Username Check this box to save your username for future logins Inherit Login Language Apply login language to application UIS Employee Login Self Reg Forgot Username? | Forgot password? Need help logging in? Contact us! What happened? The Custom login page that you requested is temporarily down for maintenance. What to do? You will be redirected in 10 seconds to a standard login page to access your portal. If you are not automatically redirected, click here ."
+    },
+    "https://uis.csod.com/ux/ats/careersite/1/requisition/1323": {
+      "title": "+ Cornerstone OnDemand +",
+      "description": "+ Cornerstone OnDemand + Log In (HR Only) Logging in... Applicant Tracking System Login Username Password Remember Username Check this box to save your username for future logins Inherit Login Language Apply login language to application UIS Employee Login Self Reg Forgot Username? | Forgot password? Need help logging in? Contact us! What happened? The Custom login page that you requested is temporarily down for maintenance. What to do? You will be redirected in 10 seconds to a standard login page to access your portal. If you are not automatically redirected, click here ."
+    },
+    "https://uis.csod.com/ux/ats/careersite/1/requisition/1330": {
+      "title": "+ Cornerstone OnDemand +",
+      "description": "+ Cornerstone OnDemand + Log In (HR Only) Logging in... Applicant Tracking System Login Username Password Remember Username Check this box to save your username for future logins Inherit Login Language Apply login language to application UIS Employee Login Self Reg Forgot Username? | Forgot password? Need help logging in? Contact us! What happened? The Custom login page that you requested is temporarily down for maintenance. What to do? You will be redirected in 10 seconds to a standard login page to access your portal. If you are not automatically redirected, click here ."
     }
   },
   "rows": {
@@ -286,11 +302,55 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://uis.csod.com/ux/ats/careersite/1/requisition/1332": {
+      "school_id": 412,
+      "posting_url": "https://uis.csod.com/ux/ats/careersite/1/requisition/1332",
+      "job_title_in_post": "+ Cornerstone OnDemand +",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://uis.csod.com/ux/ats/careersite/1/requisition/1322": {
+      "school_id": 412,
+      "posting_url": "https://uis.csod.com/ux/ats/careersite/1/requisition/1322",
+      "job_title_in_post": "+ Cornerstone OnDemand +",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://uis.csod.com/ux/ats/careersite/1/requisition/1323": {
+      "school_id": 412,
+      "posting_url": "https://uis.csod.com/ux/ats/careersite/1/requisition/1323",
+      "job_title_in_post": "+ Cornerstone OnDemand +",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://uis.csod.com/ux/ats/careersite/1/requisition/1330": {
+      "school_id": 412,
+      "posting_url": "https://uis.csod.com/ux/ats/careersite/1/requisition/1330",
+      "job_title_in_post": "+ Cornerstone OnDemand +",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 412,
   "status": "complete",
-  "updated_at": "2026-09-22T03:32:07+00:00",
-  "completed_at": "2026-09-22T03:32:07+00:00",
+  "updated_at": "2026-09-24T20:29:22+00:00",
+  "completed_at": "2026-09-24T20:29:22+00:00",
   "last_error": ""
 }

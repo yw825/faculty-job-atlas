@@ -1,17 +1,1 @@
-{
-  "links": [
-    "http://www.outlook.com/saumag.edu",
-    "https://www.saumag.edu/faculty-staff",
-    "https://www.saumag.edu/career-services",
-    "https://www.saumag.edu/human-resources/employment-opportunities/",
-    "https://www.saumag.edu/human-resources/category/employment-opportunities/admin/",
-    "https://www.saumag.edu/human-resources/2026/06/24/instructor-of-agriculture/",
-    "https://www.saumag.edu/human-resources/2026/05/05/assistant-professor-of-human-performance-sports-sciences-exercise-science-strength-conditioning/"
-  ],
-  "school_id": 47,
-  "status": "error",
-  "updated_at": "2026-09-21T17:20:30+00:00",
-  "started_at": "2026-09-08T01:12:37+00:00",
-  "completed_at": "2026-09-17T16:03:59+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.saumag.edu/human-resources/category/employment-opportunities/faculty-positions/\nCall log:\n  - navigating to \"https://www.saumag.edu/human-resources/category/employment-opportunities/faculty-positions/\", waiting until \"domcontentloaded\"\n"
-}
+{"links": ["http://www.outlook.com/saumag.edu", "https://www.saumag.edu/faculty-staff", "https://www.saumag.edu/career-services", "https://www.saumag.edu/human-resources/employment-opportunities/", "https://www.saumag.edu/human-resources/category/employment-opportunities/admin/", "https://www.saumag.edu/human-resources/2026/06/24/instructor-of-agriculture/", "https://www.saumag.edu/human-resources/2026/05/05/assistant-professor-of-human-performance-sports-sciences-exercise-science-strength-conditioning/"], "school_id": 47, "status": "complete", "updated_at": "2026-09-24T16:33:31+00:00", "started_at": "2026-09-08T01:12:37+00:00", "completed_at": "2026-09-24T16:33:31+00:00", "last_error": ""}

@@ -1,13 +1,1 @@
-{
-  "links": [
-    "https://mitchell.libguides.com/facultystafftech",
-    "https://mitchell.edu/integrative-career-development/",
-    "https://mitchell.edu/academic-programs/academics-faculty/"
-  ],
-  "school_id": 193,
-  "status": "error",
-  "updated_at": "2026-09-20T22:02:32+00:00",
-  "started_at": "2026-09-08T01:23:18+00:00",
-  "completed_at": "2026-09-17T16:12:01+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_NETWORK_CHANGED at https://mitchell.edu/careers/\nCall log:\n  - navigating to \"https://mitchell.edu/careers/\", waiting until \"domcontentloaded\"\n"
-}
+{"links": ["https://mitchell.libguides.com/facultystafftech", "https://mitchell.edu/integrative-career-development/", "https://mitchell.edu/academic-programs/academics-faculty/"], "school_id": 193, "status": "complete", "updated_at": "2026-09-24T16:43:34+00:00", "started_at": "2026-09-08T01:23:18+00:00", "completed_at": "2026-09-24T16:43:34+00:00", "last_error": ""}

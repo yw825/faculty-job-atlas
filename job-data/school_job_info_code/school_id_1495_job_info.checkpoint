@@ -420,8 +420,8 @@
     }
   },
   "school_id": 1495,
-  "status": "error",
-  "updated_at": "2026-09-22T12:33:49+00:00",
-  "completed_at": "2026-09-21T00:54:37+00:00",
-  "last_error": "RuntimeError: oracle session capture failed: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://fa-ewic-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions\", waiting until \"domcontentloaded\"\n"
+  "status": "complete",
+  "updated_at": "2026-09-24T23:10:39+00:00",
+  "completed_at": "2026-09-24T23:10:39+00:00",
+  "last_error": ""
 }

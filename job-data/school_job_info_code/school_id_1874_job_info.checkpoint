@@ -79,6 +79,26 @@
     "https://work4.northumbria.ac.uk/hcmUI/CandidateExperience/en/sites/CX_1/job/4243": {
       "title": "404",
       "description": "404 - File or directory not found. Server Error 404 - File or directory not found. The resource you are looking for might have been removed, had its name changed, or is temporarily unavailable."
+    },
+    "https://work4.northumbria.ac.uk/hcmUI/CandidateExperience/en/sites/CX_1/job/4035": {
+      "title": "404",
+      "description": "404 - File or directory not found. Server Error 404 - File or directory not found. The resource you are looking for might have been removed, had its name changed, or is temporarily unavailable."
+    },
+    "https://work4.northumbria.ac.uk/hcmUI/CandidateExperience/en/sites/CX_1/job/4263": {
+      "title": "404",
+      "description": "404 - File or directory not found. Server Error 404 - File or directory not found. The resource you are looking for might have been removed, had its name changed, or is temporarily unavailable."
+    },
+    "https://work4.northumbria.ac.uk/hcmUI/CandidateExperience/en/sites/CX_1/job/4234": {
+      "title": "404",
+      "description": "404 - File or directory not found. Server Error 404 - File or directory not found. The resource you are looking for might have been removed, had its name changed, or is temporarily unavailable."
+    },
+    "https://work4.northumbria.ac.uk/hcmUI/CandidateExperience/en/sites/CX_1/job/4246": {
+      "title": "404",
+      "description": "404 - File or directory not found. Server Error 404 - File or directory not found. The resource you are looking for might have been removed, had its name changed, or is temporarily unavailable."
+    },
+    "https://work4.northumbria.ac.uk/hcmUI/CandidateExperience/en/sites/CX_1/job/4275": {
+      "title": "404",
+      "description": "404 - File or directory not found. Server Error 404 - File or directory not found. The resource you are looking for might have been removed, had its name changed, or is temporarily unavailable."
     }
   },
   "rows": {
@@ -301,11 +321,66 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://work4.northumbria.ac.uk/hcmUI/CandidateExperience/en/sites/CX_1/job/4035": {
+      "school_id": 1874,
+      "posting_url": "https://work4.northumbria.ac.uk/hcmUI/CandidateExperience/en/sites/CX_1/job/4035",
+      "job_title_in_post": "404",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://work4.northumbria.ac.uk/hcmUI/CandidateExperience/en/sites/CX_1/job/4263": {
+      "school_id": 1874,
+      "posting_url": "https://work4.northumbria.ac.uk/hcmUI/CandidateExperience/en/sites/CX_1/job/4263",
+      "job_title_in_post": "404",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://work4.northumbria.ac.uk/hcmUI/CandidateExperience/en/sites/CX_1/job/4234": {
+      "school_id": 1874,
+      "posting_url": "https://work4.northumbria.ac.uk/hcmUI/CandidateExperience/en/sites/CX_1/job/4234",
+      "job_title_in_post": "404",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://work4.northumbria.ac.uk/hcmUI/CandidateExperience/en/sites/CX_1/job/4246": {
+      "school_id": 1874,
+      "posting_url": "https://work4.northumbria.ac.uk/hcmUI/CandidateExperience/en/sites/CX_1/job/4246",
+      "job_title_in_post": "404",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://work4.northumbria.ac.uk/hcmUI/CandidateExperience/en/sites/CX_1/job/4275": {
+      "school_id": 1874,
+      "posting_url": "https://work4.northumbria.ac.uk/hcmUI/CandidateExperience/en/sites/CX_1/job/4275",
+      "job_title_in_post": "404",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1874,
   "status": "complete",
-  "updated_at": "2026-09-22T16:13:37+00:00",
-  "completed_at": "2026-09-22T16:13:37+00:00",
+  "updated_at": "2026-09-25T00:04:50+00:00",
+  "completed_at": "2026-09-25T00:04:50+00:00",
   "last_error": ""
 }

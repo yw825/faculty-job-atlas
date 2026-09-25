@@ -1,8 +1,9 @@
 {
   "links": [],
   "school_id": 165,
-  "status": "error",
-  "updated_at": "2026-09-21T21:09:45+00:00",
-  "started_at": "2026-09-21T21:09:45+00:00",
-  "last_error": "Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://cu.taleo.net/careersection/2/moresearch.ftl?lang=en&location=6300103016&portal=101430233&radius=1&radiusType=K&searchExpanded=true\nCall log:\n  - navigating to \"https://cu.taleo.net/careersection/2/moresearch.ftl?lang=en&location=6300103016&portal=101430233&radius=1&radiusType=K&searchExpanded=true\", waiting until \"domcontentloaded\"\n"
+  "status": "complete",
+  "updated_at": "2026-09-24T16:41:16+00:00",
+  "started_at": "2026-09-24T16:41:12+00:00",
+  "completed_at": "2026-09-24T16:41:16+00:00",
+  "last_error": ""
 }

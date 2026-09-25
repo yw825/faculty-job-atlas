@@ -654,6 +654,36 @@
       "title": "Admissions Coordinator - School of Human Sciences",
       "description": "Performs responsible work in the process of advising prospective students for professional programs housed within the Department by providing support during the process of admissions. Responsible for working with applicants and students in an effort to achieve their educational and professional goals. Work is performed under minimal supervision and performance evaluation is based upon completion of assignments and results obtained. The performance evaluation is conducted through the performance evaluation system and in accordance with the University Policies & Procedures. ",
       "department": null
+    },
+    "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/12990": {
+      "title": "General Services Clerk - Facilities Management",
+      "description": "Performs basic clerical and manual work in the shipment, receipt, and delivery of university property and materials; and inventory of property. Work is performed under supervision of the Supervisor, Warehouse Services and performance is based upon completion of assignments and results obtained. The performance evaluation is conducted through the performance evaluation system and in accordance with the University Policies & Procedures.",
+      "department": null
+    },
+    "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/12995": {
+      "title": "Senior Director of Development, Merrilee Alexander Kick College of Business and Entrepreneurship - University Advancement",
+      "description": "The Senior Director of Development, Merrilee A. Kick College of Business and Entrepreneurship and Planned Giving is a frontline fundraiser for the College and overees the planned giving program for the Office of Institutional Advancement. The Senior Director of Development and Planned Giving (SrDoD) identifies, cultivates, and solicits gifts from individuals and foundations with a special focus on securing gifts of $25,000+. He or she is responsible for the creation and implementation of fundraising strategies, proposals and associated activities for the MAK College of Business. This position reports to the Vice President for University Advancement with a dotted line to the Executive Dean of the MAK College. ",
+      "department": null
+    },
+    "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/12984": {
+      "title": "Senior Manager - College of Arts and Sciences Operations",
+      "description": "Performs responsible work in managing the day-to-day operations and strategic projects of the College. This position requires a high level of initiative, judgment, and independent critical thinking in order to handle a variety of complex decisions and administrative responsibilities. This position requires exceptional organizational abilities, attention to detail, and time management skills.  An individual in this position has the capacity to work independently while also collaborating effectively with teams and executives.",
+      "department": null
+    },
+    "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/12992": {
+      "title": "Financial Aid Counselor I - Financial Aid",
+      "description": "The Financial Aid Counselor I is responsible for assisting with the administration of the financial aid programs at Texas Woman’s University, including the Denton, Dallas and Houston campuses. This position is responsible for effectively managing student inquiries and providing exceptional customer service concerning applying for and availability of financial assistance opportunities.  This position is responsible for explaining federal, state and university policies, procedures and regulations pertaining to financial aid. ",
+      "department": null
+    },
+    "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/12968": {
+      "title": "Lead Mover - Facilities Mangement",
+      "description": "Performs manual work in the transfer and relocation of furniture, equipment, and quantity or bulk items.  This position assists with the physical set up of special events.  Work is performed under general supervision and performance is based upon completion of assignments and results obtained.  The performance evaluation is conducted through the performance evaluation system and in accordance with the University Policies & Procedures.",
+      "department": null
+    },
+    "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/12971": {
+      "title": "Coordinator STEM Student Services - School of the Sciences-Biology",
+      "description": "",
+      "department": null
     }
   },
   "rows": {
@@ -2097,11 +2127,77 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/12990": {
+      "school_id": 1382,
+      "posting_url": "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/12990",
+      "job_title_in_post": "General Services Clerk - Facilities Management",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/12995": {
+      "school_id": 1382,
+      "posting_url": "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/12995",
+      "job_title_in_post": "Senior Director of Development, Merrilee Alexander Kick College of Business and Entrepreneurship - University Advancement",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "College of Business and Entrepreneurship",
+      "area_key_words": "Development, Merrilee Alexander Kick College of Business and Entrepreneurship",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/12984": {
+      "school_id": 1382,
+      "posting_url": "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/12984",
+      "job_title_in_post": "Senior Manager - College of Arts and Sciences Operations",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "College of Arts and Sciences Operations",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/12992": {
+      "school_id": 1382,
+      "posting_url": "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/12992",
+      "job_title_in_post": "Financial Aid Counselor I - Financial Aid",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/12968": {
+      "school_id": 1382,
+      "posting_url": "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/12968",
+      "job_title_in_post": "Lead Mover - Facilities Mangement",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/12971": {
+      "school_id": 1382,
+      "posting_url": "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/12971",
+      "job_title_in_post": "Coordinator STEM Student Services - School of the Sciences-Biology",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1382,
   "status": "complete",
-  "updated_at": "2026-09-22T04:03:23+00:00",
-  "completed_at": "2026-09-22T04:03:23+00:00",
+  "updated_at": "2026-09-24T22:58:43+00:00",
+  "completed_at": "2026-09-24T22:58:43+00:00",
   "last_error": ""
 }

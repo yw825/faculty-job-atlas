@@ -34,6 +34,10 @@
     },
     "https://www.kings.edu/human-resources/careers.html#doctorate-in-educational-leadership-ed-d-program-director": {
       "error": "RuntimeError: inline section #doctorate-in-educational-leadership-ed-d-program-director no longer on page"
+    },
+    "https://www.kings.edu/human-resources/careers.html#ed-d-program-director": {
+      "title": "Ed.D. Program Director",
+      "description": "King’s College, Wilkes-Barre, PA, seeks its inaugural Ed.D. Program Director, a position in line with the College’s strategic commitment to continued development of outstanding programming in the field of education. The Ed.D. Program Director, in collaboration with the Education Department, will administer the doctorate in Educational Leadership program. Administrative responsibilities include programmatic leadership, recruitment, assessment, retention, advocacy, and academic success responsibilities. Reporting to the Associate Dean of Education, the Director will oversee the program while balancing online teaching, scholarship, and service. The successful candidate will possess an earned doctorate in education, experience supporting dissertation work and online teaching, and an understanding of current issues and future directions in educational leadership. The candidate will demonstrate attention to detail, an innovative spirit, collaborative and problem-solving skills, and an ability to garner the respect of peers. Evidence of professional accomplishments commensurate with senior faculty rank (associate professor or professor) is expected, as is strong support of the Catholic identity and mission of King's College, and commitment to the principles of diversity, fairness, and public service. To apply, send one *.pdf file containing a letter of application, teaching statement, CV, and list of three references to careers@kings.edu . References will not be contacted until later in the search process. Review of applications will begin on November 20, 2026. This 12-month position begins on July 1, 2027. King’s College is a private, Catholic, teaching college of the liberal arts & sciences and professional programs sponsored by the Congregation of Holy Cross. King’s pursues excellence in teaching, learning, and scholarship through a rigorous curriculum, nationally accredited professional programs, and personal attention to student formation in a nurturing community. The College is located near downtown Wilkes-Barre, on the edge of the Pocono Mountains. King’s is committed to recruiting a diverse faculty and student body and welcomes applications from persons of traditionally under-represented groups. Graduate Assistant Coach, Part Time Classification : Exempt, part time, stipend Department/Division : Athletics, Student Affairs Reports To : Head Coach and AVP of Intercollegiate Athletics Openings within Men’s Lacrosse and Swim Programs Job Function The Graduate Assistant Coach is responsible for assisting the Head Coach with the organization and administration all aspects of the College’s NCAA Division III Varsity program. This individual will develop a positive and transformational environment that fosters academic and athletic success that is consistent with the mission of the College, its Catholic identity, and the values of the Congregation of Holy Cross. Essential Elements Assist Head Coach to actively recruit qualified student athletes that meet the academic standards and profile of the College; identify potential student athletes through off campus recruitment and coordination of on campus visits. Create and sustain an atmosphere that promotes academic, athletic, and personal growth resulting in overall success of student athletes. Assist Head Coach in building and sustaining a reputable program evidenced by annual competitive success against MAC and non-conference competition. Assist with the planning and implementation of practice plans at the direction of the Head Coach. Facilitate and implement opportunities that promote cultural diversity and inclusion within the program (racial, ethnic, gender, sexual orientation, national origin, and religion). Perform tasks at the discretion of the Head Coach including but not limited to fundraising, organizing community service and recruitment. Adhere to all NCAA and conference rules and regulations. Work for Athletics by performing administrative tasks in addition to responsibilities within the team. Be an on-call person for Residence Life during break periods for Athletics. (For Athletic Communications) Provide complete coverage for sports as assigned, including live stats, video streams, social media content, and maintenance of athletic pages on King’s College athletics website. Required Skills, Training, and Expertise Bachelor’s degree awarded from an accredited college or university (minimum credential). Knowledge of the sport, preferably participating at the collegiate level. First Aid, CPR and AED certification. Ability to operate a motor vehicle with a good driving record and be approved by the College’s insurance carrier and Human Resources Department. This includes holding a valid US Driver’s License. Computer proficiency and aptitude, including knowledge and use of Microsoft Office, Slate or similar systems, and various recruiting and game editing programs. Demonstrated supervisory and management skills. Valid Clearances, including PA State Police, Child Abuse, and FBI Fingerprints are required. (For Athletic Communications) Working knowledge of NCAA Genius Live Stats, StatCrew, or Presto, Sidearm website or Adobe software preferred. Physical Conditions High volume of work hours is required during the competitive season. Practices, games and recruiting efforts require consistent night and weekend work. Travel on charter buses and vans occurs often. Individuals will need to actively move during practices and games."
     }
   },
   "rows": {
@@ -127,11 +131,22 @@
     },
     "https://www.kings.edu/human-resources/careers.html#doctorate-in-educational-leadership-ed-d-program-director": {
       "error": "RuntimeError: inline section #doctorate-in-educational-leadership-ed-d-program-director no longer on page"
+    },
+    "https://www.kings.edu/human-resources/careers.html#ed-d-program-director": {
+      "school_id": 1224,
+      "posting_url": "https://www.kings.edu/human-resources/careers.html#ed-d-program-director",
+      "job_title_in_post": "Ed.D. Program Director",
+      "position_type": "Associate_Professor",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "November 20, 2026",
+      "position_start_date": "July 1, 2027"
     }
   },
   "school_id": 1224,
   "status": "complete",
-  "updated_at": "2026-09-22T03:58:39+00:00",
-  "completed_at": "2026-09-22T03:58:39+00:00",
+  "updated_at": "2026-09-24T22:31:56+00:00",
+  "completed_at": "2026-09-24T22:31:56+00:00",
   "last_error": ""
 }

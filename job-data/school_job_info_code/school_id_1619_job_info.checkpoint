@@ -39,6 +39,10 @@
     "https://careers.mcmaster.ca/psp/prcsprd/EMPLOYEE/SA/h/?tab=DEFAULT": {
       "title": "Employee-facing registry content",
       "description": "Employee-facing registry content Favorites : Main Menu : Menu not sorted. Click to sort in ascending order. Human Resources Self Service Set Up SACR Worklist Reporting Tools PeopleTools GT eForms WorkCenter My Preferences : Recent Search Results Refine Search Search Prompt Popup mrs Back to Working at McMaster My Page Staff Positions Sessional Faculty Faculty Positions Teaching Assistants Add to Favorites Please Enter a Unique Description for this Favorite *Description : : : My Page &ptlayout=N"
+    },
+    "https://careers.mcmaster.ca/psp/prcsprd/EMPLOYEE/SA/c/NUI_FRAMEWORK.PT_AGSTARTPAGE_NUI.GBL?CONTEXTIDPARAMS=TEMPLATE_ID%3aPTPPNAVCOL&scname=ADMN_SUPPORT_AND_DOCUMENTATION&PTPPB_GROUPLET_ID=ADMN_SC_PGT_SUPPORT_AND_DOCUME&FolderPath=PORTAL_ROOT_OBJECT.NUI_STRUCTURE_CONTENT.PORTAL_GROUPLETS.MCM_TILE_FLDR_SUPPORT.MCM_DASH_SUPPORT_LINK&IsFolder=false&IgnoreParamTempl=FolderPath%2cIsFolder": {
+      "title": "Support and Documentation",
+      "description": "Support and Documentation Skip to Main Content Press Control+M to start dragging object ptnbsid=23W4h6eVnDIwskHeDsBXrlgvzlU%3d Back Support and Documentation Search Category Name Current search category:Search Category Name Search keywords Search suggestions have been displayed. Use the arrow keys to review the results. Search in... Search Category Name Search Within 2 rows 1 All Categories 2 See Less See All Recently Visited Clear All 50 rows Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results See More Other Suggestions 50 rows Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results Search Results No results to display Actions New Window Notifications Home Search Add to Homepage Add to NavBar Add to Favorites NavBar My Preferences Help Sign Out Support and Documentation More Actions Navigation Area Please wait for the initialization to finish. Navigation Area Previous Next Exit Previous Next Step ID MCM_POLICIES_LNK Step Label Policies Policies Step ID MCM_TILE_STM2 Step Label Self-Triage Matrix Self-Triage Matrix Step ID MCM_FS_HOW_TO_GUIDES Step Label How-To Guide (Finance) How-To Guide (Finance) Step ID MCM_HR_RESOURCE_HUB Step Label Mosaic HR Resource Hub Mosaic HR Resource Hub"
     }
   },
   "rows": {
@@ -151,11 +155,22 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://careers.mcmaster.ca/psp/prcsprd/EMPLOYEE/SA/c/NUI_FRAMEWORK.PT_AGSTARTPAGE_NUI.GBL?CONTEXTIDPARAMS=TEMPLATE_ID%3aPTPPNAVCOL&scname=ADMN_SUPPORT_AND_DOCUMENTATION&PTPPB_GROUPLET_ID=ADMN_SC_PGT_SUPPORT_AND_DOCUME&FolderPath=PORTAL_ROOT_OBJECT.NUI_STRUCTURE_CONTENT.PORTAL_GROUPLETS.MCM_TILE_FLDR_SUPPORT.MCM_DASH_SUPPORT_LINK&IsFolder=false&IgnoreParamTempl=FolderPath%2cIsFolder": {
+      "school_id": 1619,
+      "posting_url": "https://careers.mcmaster.ca/psp/prcsprd/EMPLOYEE/SA/c/NUI_FRAMEWORK.PT_AGSTARTPAGE_NUI.GBL?CONTEXTIDPARAMS=TEMPLATE_ID%3aPTPPNAVCOL&scname=ADMN_SUPPORT_AND_DOCUMENTATION&PTPPB_GROUPLET_ID=ADMN_SC_PGT_SUPPORT_AND_DOCUME&FolderPath=PORTAL_ROOT_OBJECT.NUI_STRUCTURE_CONTENT.PORTAL_GROUPLETS.MCM_TILE_FLDR_SUPPORT.MCM_DASH_SUPPORT_LINK&IsFolder=false&IgnoreParamTempl=FolderPath%2cIsFolder",
+      "job_title_in_post": "Support and Documentation",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1619,
   "status": "complete",
-  "updated_at": "2026-09-22T15:31:20+00:00",
-  "completed_at": "2026-09-22T15:31:20+00:00",
+  "updated_at": "2026-09-24T23:31:42+00:00",
+  "completed_at": "2026-09-24T23:31:42+00:00",
   "last_error": ""
 }

@@ -13,12 +13,19 @@
     "https://jobs.anu.edu.au/jobs/senior-lecturer-associate-professor-professor-canberra-act-act-australia",
     "https://jobs.anu.edu.au/jobs/postdoctoral-fellow-canberra-act-act-australia-d4e3a316-09a3-4e7f-a6af-8ed25046408e",
     "https://jobs.anu.edu.au/jobs/director-research-school-of-astronomy-and-astrophysics-canberra-act-act-australia",
-    "https://jobs.anu.edu.au/jobs/postdoctoral-fellow-canberra-act-act-australia-32d81648-860c-4173-948d-9ff36ec44f6b"
+    "https://jobs.anu.edu.au/jobs/postdoctoral-fellow-canberra-act-act-australia-32d81648-860c-4173-948d-9ff36ec44f6b",
+    "https://jobs.anu.edu.au/jobs/casual-sessional-academic-school-of-computing-canberra-act-act-australia",
+    "https://jobs.anu.edu.au/jobs/deputy-vice-chancellor-education-canberra-act-act-australia",
+    "https://jobs.anu.edu.au/jobs/lecturer-senior-lecturer-canberra-act-act-australia-f7042774-fefa-496c-8e59-12b9fd5dd145",
+    "https://jobs.anu.edu.au/jobs/casual-sessional-academic-canberra-act-act-australia-bda77708-d37a-4a5d-bc21-a8b9fa3fbea4",
+    "https://jobs.anu.edu.au/jobs/lecturer-in-philosophy-continuing-2-positions-canberra-act-act-australia",
+    "https://jobs.anu.edu.au/jobs/postdoctoral-research-fellow-canberra-act-act-australia-dc892957-43e7-4788-a271-aec869fe00d9",
+    "https://jobs.anu.edu.au/jobs/postdoctoral-fellow-canberra-act-act-australia-61dabc96-40bd-414e-99aa-2a223dc099c5"
   ],
   "school_id": 1778,
-  "status": "error",
-  "updated_at": "2026-09-21T21:55:37+00:00",
+  "status": "complete",
+  "updated_at": "2026-09-24T18:58:48+00:00",
   "started_at": "2026-09-02T22:33:21+00:00",
-  "completed_at": "2026-09-15T18:34:55+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://jobs.anu.edu.au/jobs/search?page=1&category_uids%5B%5D=37694d529bb555c68f1e76ddc653d496&query=\", waiting until \"domcontentloaded\"\n"
+  "completed_at": "2026-09-24T18:58:48+00:00",
+  "last_error": ""
 }

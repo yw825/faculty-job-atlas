@@ -21,9 +21,11 @@
     "https://csucareers.calstate.edu/en-us/job/555792/202627-ay-lecturer-pool-college-of-natural-social-sciences",
     "https://csucareers.calstate.edu/en-us/job/555383/202627-ay-lecturer-pool-civil-engineering",
     "https://csucareers.calstate.edu/en-us/job/555676/202627-ay-lecturer-pool-nutrition-and-food-science",
-    "https://csucareers.calstate.edu/en-us/job/555686/202627-ay-lecturer-pool-anthropology"
+    "https://csucareers.calstate.edu/en-us/job/555686/202627-ay-lecturer-pool-anthropology",
+    "https://www.calstate.edu/csu-system/faculty-staff"
   ],
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://csucareers.calstate.edu/en-us/filter/?=&leftNavSearchFormQuery=&=&search=&search-keyword=&job-mail-subscribe-privacy=agree&work-type=instructional%20faculty%20-%20temporary%2flecturer&work-type=instructional%20faculty%20%e2%80%93%20tenured%2ftenure-track&location=los%20angeles&job-mail-subscribe-privacy=agree\", waiting until \"domcontentloaded\"\n",
-  "updated_at": "2026-09-21T18:24:37+00:00",
-  "started_at": "2026-09-14T17:17:09+00:00"
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content.",
+  "updated_at": "2026-09-24T16:36:59+00:00",
+  "started_at": "2026-09-14T17:17:09+00:00",
+  "completed_at": "2026-09-24T00:15:36+00:00"
 }

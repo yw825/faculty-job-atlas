@@ -39,12 +39,17 @@
     "https://phe.tbe.taleo.net/phe02/ats/careers/v2/viewRequisition?org=ARKASTAT2&cws=56&rid=39832",
     "https://phe.tbe.taleo.net/phe02/ats/careers/v2/viewRequisition?org=ARKASTAT2&cws=56&rid=39831",
     "https://phe.tbe.taleo.net/phe02/ats/careers/v2/viewRequisition?org=ARKASTAT2&cws=56&rid=39830",
-    "https://phe.tbe.taleo.net/phe02/ats/careers/v2/viewRequisition?org=ARKASTAT2&cws=56&rid=39835"
+    "https://phe.tbe.taleo.net/phe02/ats/careers/v2/viewRequisition?org=ARKASTAT2&cws=56&rid=39835",
+    "https://phe.tbe.taleo.net/phe02/ats/careers/v2/viewRequisition?org=ARKASTAT2&cws=56&rid=39876",
+    "https://phe.tbe.taleo.net/phe02/ats/careers/v2/viewRequisition?org=ARKASTAT2&cws=56&rid=39860",
+    "https://phe.tbe.taleo.net/phe02/ats/careers/v2/viewRequisition?org=ARKASTAT2&cws=56&rid=39867",
+    "https://phe.tbe.taleo.net/phe02/ats/careers/v2/viewRequisition?org=ARKASTAT2&cws=56&rid=39868",
+    "https://phe.tbe.taleo.net/phe02/ats/careers/v2/viewRequisition?org=ARKASTAT2&cws=56&rid=39875"
   ],
   "school_id": 41,
-  "status": "error",
-  "updated_at": "2026-09-21T17:20:27+00:00",
+  "status": "complete",
+  "updated_at": "2026-09-24T16:31:59+00:00",
   "started_at": "2026-09-08T01:11:23+00:00",
-  "completed_at": "2026-09-17T16:02:34+00:00",
-  "last_error": "Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://phe.tbe.taleo.net/phe02/ats/careers/v2/searchResults?org=ARKASTAT2&cws=56&act=sort&sortColumn=1&sortOrder=A\nCall log:\n  - navigating to \"https://phe.tbe.taleo.net/phe02/ats/careers/v2/searchResults?org=ARKASTAT2&cws=56&act=sort&sortColumn=1&sortOrder=A\", waiting until \"domcontentloaded\"\n"
+  "completed_at": "2026-09-24T16:31:59+00:00",
+  "last_error": ""
 }

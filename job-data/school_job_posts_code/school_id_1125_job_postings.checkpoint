@@ -17,12 +17,13 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/62D4FBF25A09F3EBE58345A7B7B899F9/jobs/80301",
     "https://www.paycomonline.net/v4/ats/web.php/portal/62D4FBF25A09F3EBE58345A7B7B899F9/jobs/82055",
     "https://www.paycomonline.net/v4/ats/web.php/portal/62D4FBF25A09F3EBE58345A7B7B899F9/jobs/80448",
-    "https://www.paycomonline.net/v4/ats/web.php/portal/62D4FBF25A09F3EBE58345A7B7B899F9/jobs/80467"
+    "https://www.paycomonline.net/v4/ats/web.php/portal/62D4FBF25A09F3EBE58345A7B7B899F9/jobs/80467",
+    "https://www.paycomonline.net/v4/ats/web.php/portal/62D4FBF25A09F3EBE58345A7B7B899F9/jobs/110765"
   ],
   "school_id": 1125,
-  "status": "error",
-  "updated_at": "2026-09-17T17:50:19+00:00",
+  "status": "complete",
+  "updated_at": "2026-09-24T18:25:30+00:00",
   "started_at": "2026-09-08T17:53:40+00:00",
-  "completed_at": "2026-09-16T19:05:10+00:00",
-  "last_error": "RuntimeError: no paycom postings found"
+  "completed_at": "2026-09-24T18:25:30+00:00",
+  "last_error": ""
 }

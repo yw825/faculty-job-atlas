@@ -20,12 +20,16 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/455703",
     "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/457621",
     "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/461213",
-    "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/461190"
+    "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/461190",
+    "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/463533",
+    "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/463558",
+    "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/463703",
+    "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/464051"
   ],
   "school_id": 138,
   "status": "error",
-  "updated_at": "2026-09-21T19:33:50+00:00",
+  "updated_at": "2026-09-24T16:39:05+00:00",
   "started_at": "2026-09-08T17:49:08+00:00",
-  "completed_at": "2026-09-16T17:19:42+00:00",
-  "last_error": "TimeoutError: Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=1A449B35167BB40706C055A54E4FB0DA\", waiting until \"domcontentloaded\"\n"
+  "completed_at": "2026-09-24T00:17:08+00:00",
+  "last_error": "RuntimeError: no paycom postings found"
 }

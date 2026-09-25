@@ -37,12 +37,14 @@
     "https://www.schooljobs.com/careers/fresnoedu/jobs/5449185/ministry-administrative-assistant",
     "https://www.schooljobs.com/careers/fresnoedu/jobs/5454874/entrepreneurship-administrative-assistant",
     "https://www.schooljobs.com/careers/fresnoedu/jobs/5461764/piano-accompanist",
-    "https://www.schooljobs.com/careers/fresnoedu/jobs/5479985/campus-safety-officer"
+    "https://www.schooljobs.com/careers/fresnoedu/jobs/5479985/campus-safety-officer",
+    "https://www.schooljobs.com/careers/fresnoedu/jobs/5491290/adjunct-faculty-in-disability-ministry-concepts",
+    "https://www.schooljobs.com/careers/fresnoedu/jobs/5489461/marketing-strategist-and-administrative-assistant"
   ],
   "school_id": 88,
-  "status": "error",
-  "updated_at": "2026-09-21T18:01:22+00:00",
+  "status": "complete",
+  "updated_at": "2026-09-24T16:36:22+00:00",
   "started_at": "2026-09-10T06:10:47+00:00",
-  "completed_at": "2026-09-17T16:05:59+00:00",
-  "last_error": "RuntimeError: schooljobs board returned no postings"
+  "completed_at": "2026-09-24T16:36:22+00:00",
+  "last_error": ""
 }

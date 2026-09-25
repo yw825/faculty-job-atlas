@@ -99,12 +99,13 @@
     "https://recruit.ucsc.edu/JPF02132",
     "https://recruit.ucsc.edu/JPF02134",
     "https://recruit.ucsc.edu/JPF02135",
-    "https://recruit.ucsc.edu/JPF02133"
+    "https://recruit.ucsc.edu/JPF02133",
+    "https://recruit.ucsc.edu/JPF02136"
   ],
   "school_id": 150,
-  "status": "error",
-  "updated_at": "2026-09-21T20:12:06+00:00",
+  "status": "complete",
+  "updated_at": "2026-09-24T16:39:56+00:00",
   "started_at": "2026-09-08T17:41:07+00:00",
-  "completed_at": "2026-09-20T20:26:58+00:00",
-  "last_error": "RuntimeError: uc recruit fetch failed status=None"
+  "completed_at": "2026-09-24T16:39:56+00:00",
+  "last_error": ""
 }

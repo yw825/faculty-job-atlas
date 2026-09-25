@@ -22,12 +22,13 @@
     "https://careers.csumb.edu/en-us/job/558784/accountant",
     "https://careers.csumb.edu/en-us/job/562072/assistant-professor-of-psychology",
     "https://careers.csumb.edu/en-us/job/562016/dean-of-the-college-of-science",
-    "https://careers.csumb.edu/en-us/job/562216/assistant-professor-of-history"
+    "https://careers.csumb.edu/en-us/job/562216/assistant-professor-of-history",
+    "https://careers.csumb.edu/en-us/job/562437/enrollment-marketing-communications-specialist"
   ],
   "school_id": 152,
   "status": "error",
-  "updated_at": "2026-09-21T20:29:45+00:00",
+  "updated_at": "2026-09-24T16:39:59+00:00",
   "started_at": "2026-09-08T01:20:21+00:00",
-  "completed_at": "2026-09-17T16:08:46+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://careers.csumb.edu/en-us/filter/?search-keyword=&job-mail-subscribe-privacy=agree\", waiting until \"domcontentloaded\"\n"
+  "completed_at": "2026-09-24T00:17:41+00:00",
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
 }

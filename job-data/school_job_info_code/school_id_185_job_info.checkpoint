@@ -124,6 +124,16 @@
       "title": "Associate Director of Enrollment Experiences",
       "description": "",
       "department": null
+    },
+    "https://trincore-ibvxjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/101": {
+      "title": "Administrative Assistant, Advancement",
+      "description": "",
+      "department": null
+    },
+    "https://trincore-ibvxjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/100": {
+      "title": "HRIS Analyst",
+      "description": "",
+      "department": null
     }
   },
   "rows": {
@@ -401,11 +411,33 @@
       "area_key_words": "Enrollment Experiences",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://trincore-ibvxjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/101": {
+      "school_id": 185,
+      "posting_url": "https://trincore-ibvxjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/101",
+      "job_title_in_post": "Administrative Assistant, Advancement",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://trincore-ibvxjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/100": {
+      "school_id": 185,
+      "posting_url": "https://trincore-ibvxjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/100",
+      "job_title_in_post": "HRIS Analyst",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 185,
   "status": "complete",
-  "updated_at": "2026-09-22T03:18:55+00:00",
-  "completed_at": "2026-09-22T03:18:55+00:00",
+  "updated_at": "2026-09-24T20:16:01+00:00",
+  "completed_at": "2026-09-24T20:16:01+00:00",
   "last_error": ""
 }

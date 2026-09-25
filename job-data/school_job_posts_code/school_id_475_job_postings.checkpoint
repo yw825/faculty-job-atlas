@@ -5,9 +5,9 @@
     "https://ebyf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/76"
   ],
   "school_id": 475,
-  "status": "complete",
-  "updated_at": "2026-09-17T16:48:26+00:00",
+  "status": "error",
+  "updated_at": "2026-09-24T17:21:37+00:00",
   "started_at": "2026-09-08T01:49:05+00:00",
   "completed_at": "2026-09-17T16:48:26+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: oracle session capture failed: Timeout 15000ms exceeded while waiting for event \"request\"\n=========================== logs ===========================\nwaiting for request **/recruitingCEJobRequisitions**\n============================================================"
 }

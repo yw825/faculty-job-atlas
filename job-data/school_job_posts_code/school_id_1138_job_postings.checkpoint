@@ -13,9 +13,9 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/04C041120ED4B4CA39C09ACAC69625CF/jobs/341450"
   ],
   "school_id": 1138,
-  "status": "error",
-  "updated_at": "2026-09-17T17:51:25+00:00",
+  "status": "complete",
+  "updated_at": "2026-09-24T18:26:32+00:00",
   "started_at": "2026-09-08T17:53:49+00:00",
-  "completed_at": "2026-09-16T19:06:10+00:00",
-  "last_error": "RuntimeError: no paycom postings found"
+  "completed_at": "2026-09-24T18:26:32+00:00",
+  "last_error": ""
 }

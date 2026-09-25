@@ -105,12 +105,23 @@
     "https://phf.tbe.taleo.net/phf03/ats/careers/v2/viewRequisition?org=CALTECH&cws=37&rid=11139",
     "https://phf.tbe.taleo.net/phf03/ats/careers/v2/viewRequisition?org=CALTECH&cws=37&rid=11135",
     "https://phf.tbe.taleo.net/phf03/ats/careers/v2/viewRequisition?org=CALTECH&cws=37&rid=11137",
-    "https://phf.tbe.taleo.net/phf03/ats/careers/v2/viewRequisition?org=CALTECH&cws=37&rid=11144"
+    "https://phf.tbe.taleo.net/phf03/ats/careers/v2/viewRequisition?org=CALTECH&cws=37&rid=11144",
+    "https://phf.tbe.taleo.net/phf03/ats/careers/v2/viewRequisition?org=CALTECH&cws=37&rid=11143",
+    "https://phf.tbe.taleo.net/phf03/ats/careers/v2/viewRequisition?org=CALTECH&cws=37&rid=11159",
+    "https://phf.tbe.taleo.net/phf03/ats/careers/v2/viewRequisition?org=CALTECH&cws=37&rid=11152",
+    "https://phf.tbe.taleo.net/phf03/ats/careers/v2/viewRequisition?org=CALTECH&cws=37&rid=11142",
+    "https://phf.tbe.taleo.net/phf03/ats/careers/v2/viewRequisition?org=CALTECH&cws=37&rid=11146",
+    "https://phf.tbe.taleo.net/phf03/ats/careers/v2/viewRequisition?org=CALTECH&cws=37&rid=11145",
+    "https://phf.tbe.taleo.net/phf03/ats/careers/v2/viewRequisition?org=CALTECH&cws=37&rid=11132",
+    "https://phf.tbe.taleo.net/phf03/ats/careers/v2/viewRequisition?org=CALTECH&cws=37&rid=11125",
+    "https://phf.tbe.taleo.net/phf03/ats/careers/v2/viewRequisition?org=CALTECH&cws=37&rid=11126",
+    "https://phf.tbe.taleo.net/phf03/ats/careers/v2/viewRequisition?org=CALTECH&cws=37&rid=11128",
+    "https://phf.tbe.taleo.net/phf03/ats/careers/v2/viewRequisition?org=CALTECH&cws=37&rid=11141"
   ],
   "school_id": 115,
-  "status": "error",
-  "updated_at": "2026-09-21T19:02:49+00:00",
+  "status": "complete",
+  "updated_at": "2026-09-24T16:38:03+00:00",
   "started_at": "2026-09-08T01:17:17+00:00",
-  "completed_at": "2026-09-17T16:07:21+00:00",
-  "last_error": "TimeoutError: Locator.click: Timeout 5000ms exceeded.\nCall log:\n  - waiting for locator(\"a.oracletaleocwsv2-panel-number\").first\n"
+  "completed_at": "2026-09-24T16:38:03+00:00",
+  "last_error": ""
 }

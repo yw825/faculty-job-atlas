@@ -21,12 +21,16 @@
     "https://careers.csudh.edu/en-us/job/557600/temporary-faculty-pool-dance-program",
     "https://careers.csudh.edu/en-us/job/557171/temporary-faculty-pool-special-education",
     "https://careers.csudh.edu/en-us/job/556894/temporary-faculty-pool-liberal-studies",
-    "https://careers.csudh.edu/en-us/job/562366/msw-internship-program-manager"
+    "https://careers.csudh.edu/en-us/job/562366/msw-internship-program-manager",
+    "https://careers.csudh.edu/en-us/job/562457/temporary-faculty-pool-finance",
+    "https://careers.csudh.edu/en-us/job/562441/temporary-faculty-pool-communications-journalism-program",
+    "https://careers.csudh.edu/en-us/job/562444/temporary-faculty-pool-communications-film-television-and-media",
+    "https://careers.csudh.edu/en-us/job/562445/temporary-faculty-pool-communicationadvertisingpublic-relations"
   ],
   "school_id": 77,
-  "status": "error",
-  "updated_at": "2026-09-21T17:47:44+00:00",
+  "status": "complete",
+  "updated_at": "2026-09-24T16:34:40+00:00",
   "started_at": "2026-09-09T06:57:58+00:00",
-  "completed_at": "2026-09-20T17:09:16+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://careers.csudh.edu/en-us/filter/?ie=utf-8&q=&search-keyword=&work-type=instructional%20faculty%20-%20temporary%2flecturer&work-type=instructional%20faculty%20%e2%80%93%20tenured%2ftenure-track&work-type=non-instructional%20faculty%20(coach%2fcounselor%2flibrarian)&category=unit%203%20-%20cfa%20-%20california%20faculty%20association&category=faculty&job-mail-subscribe-privacy=agree\", waiting until \"domcontentloaded\"\n"
+  "completed_at": "2026-09-24T16:34:40+00:00",
+  "last_error": ""
 }

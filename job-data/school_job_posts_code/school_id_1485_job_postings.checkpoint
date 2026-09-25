@@ -1,1 +1,14 @@
-{"links": ["https://vcujobs.com/featured-jobs", "https://virginia-commonwealth-university.career-pages.com/jobs/search/faculty-adjunct", "https://virginia-commonwealth-university.career-pages.com/jobs/search/temporary-hourly", "https://virginia-commonwealth-university.career-pages.com/jobs/search/postdocs"], "school_id": 1485, "status": "complete", "updated_at": "2026-09-17T18:15:36+00:00", "started_at": "2026-09-08T03:07:57+00:00", "completed_at": "2026-09-17T18:15:36+00:00", "last_error": ""}
+{
+  "links": [
+    "https://vcujobs.com/featured-jobs",
+    "https://virginia-commonwealth-university.career-pages.com/jobs/search/faculty-adjunct",
+    "https://virginia-commonwealth-university.career-pages.com/jobs/search/temporary-hourly",
+    "https://virginia-commonwealth-university.career-pages.com/jobs/search/postdocs"
+  ],
+  "school_id": 1485,
+  "status": "error",
+  "updated_at": "2026-09-24T18:50:29+00:00",
+  "started_at": "2026-09-08T03:07:57+00:00",
+  "completed_at": "2026-09-17T18:15:36+00:00",
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+}

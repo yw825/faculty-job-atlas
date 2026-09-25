@@ -1,12 +1,1 @@
-{
-  "links": [
-    "https://undergrad.nova.edu/academics/center-academic-professional-success/career-development.html",
-    "https://www.nova.edu/resources/faculty-staff.html"
-  ],
-  "school_id": 228,
-  "status": "error",
-  "updated_at": "2026-09-17T16:15:24+00:00",
-  "started_at": "2026-09-08T01:25:51+00:00",
-  "completed_at": "2026-09-16T17:27:10+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_SSL_UNRECOGNIZED_NAME_ALERT at https://www.nova.edu/resources/employment.html\nCall log:\n  - navigating to \"https://www.nova.edu/resources/employment.html\", waiting until \"domcontentloaded\"\n"
-}
+{"links": ["https://undergrad.nova.edu/academics/center-academic-professional-success/career-development.html", "https://www.nova.edu/resources/faculty-staff.html"], "school_id": 228, "status": "complete", "updated_at": "2026-09-24T16:47:21+00:00", "started_at": "2026-09-08T01:25:51+00:00", "completed_at": "2026-09-24T16:47:21+00:00", "last_error": ""}

@@ -957,6 +957,51 @@
       "title": "Professor / Associate Professor / Assistant Professor (Computer Science)",
       "description": "This position sits under the Department of Computer Science Office at our Kowloon Tong campus. The core responsibilities are performing high-impact research, teaching and supervising students at undergraduate and postgraduate levels.",
       "department": null
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270171": {
+      "title": "Research Assistant Professor, Department of Biology",
+      "description": "This position sits under the Department of Biology at our Kowloon Tong campus. The position involves investigating the mechanism and function of RNA capping.",
+      "department": null
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270174": {
+      "title": "Research Assistant Professor, Department of Mathematics",
+      "description": "This position sits under the Department of Mathematics Office at our Kowloon Tong campus. The core responsibilities are researching in areas such as applied probability, spatial statistics, and stochastic processes.",
+      "department": null
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270199": {
+      "title": "Senior Scientific Officer, Centre for Exercise Science and Medicine",
+      "description": "This position sits under the Centre for Exercise Science and Medicine Office at our Kowloon Tong campus. The core responsibilities are leading the daily operation of CESAME laboratories, facilities, and research platforms.",
+      "department": null
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270210": {
+      "title": "Research Associate, Department of Computer Science",
+      "description": "This position sits under the Department of Computer Science Office at our Kowloon Tong campus. The core responsibilities are designing and developing the front-end interactive interface (UI/UX) and the mobile application of the 「醫靈方」 Chinese medicine intelligent teaching and learning platform.",
+      "department": null
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270211": {
+      "title": "Research Assistant, Department of Computer Science",
+      "description": "This position sits under the Department of Computer Science Office at our Kowloon Tong campus. The core responsibilities are undertaking data engineering work on large-scale Chinese medicine corpora, including in-depth data cleaning, structured format conversion and de-duplication.",
+      "department": null
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270212": {
+      "title": "Research Assistant, Department of Biology",
+      "description": "This position sits under the Department of Biology at our Kowloon Tong campus. The core responsibilities are working under the supervision of Dr. C.W. Lee on research projects relating to m6A modification and local translation of mRNA in the development of neuromuscular junctions. ",
+      "department": null
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270214": {
+      "title": "Post-Doctoral Research Fellow, Department of Biology",
+      "description": "This position sits under the Department of Biology Office at our Kowloon Tong campus. The core responsibilities are investigating the molecular mechanisms of endoplasmic reticulum-mediated protein quality control using Arabidopsis thaliana as a convenient genetic model system.",
+      "department": null
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270215": {
+      "title": "Research Assistant, Centre for Quantitative Systems Biology",
+      "description": "This position sits under the Centre for Quantitative Systems Biology Office at our Kowloon Tong campus. The core responsibilities are conducting cutting-edge research in immuno-oncology studies and drug discovery, collaborating with experts in the field, and developing new biomedical platforms for translational cancer research.",
+      "department": null
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270217": {
+      "title": "Senior Executive Officer / Executive Officer, University Engagement Office",
+      "description": "This position sits under the University Engagement Office at our Kowloon Tong campus. The core responsibilities are supporting the planning, coordination and execution of university-wide events, engagement initiatives and marketing campaigns.",
+      "department": null
     }
   },
   "rows": {
@@ -2991,11 +3036,110 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270171": {
+      "school_id": 1834,
+      "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270171",
+      "job_title_in_post": "Research Assistant Professor, Department of Biology",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Department of Biology",
+      "area_key_words": "Biology",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270174": {
+      "school_id": 1834,
+      "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270174",
+      "job_title_in_post": "Research Assistant Professor, Department of Mathematics",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Department of Mathematics",
+      "area_key_words": "Mathematics",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270199": {
+      "school_id": 1834,
+      "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270199",
+      "job_title_in_post": "Senior Scientific Officer, Centre for Exercise Science and Medicine",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Centre for Exercise Science and Medicine",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270210": {
+      "school_id": 1834,
+      "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270210",
+      "job_title_in_post": "Research Associate, Department of Computer Science",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "Department of Computer Science",
+      "area_key_words": "Computer Science",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270211": {
+      "school_id": 1834,
+      "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270211",
+      "job_title_in_post": "Research Assistant, Department of Computer Science",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "Department of Computer Science",
+      "area_key_words": "Computer Science",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270212": {
+      "school_id": 1834,
+      "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270212",
+      "job_title_in_post": "Research Assistant, Department of Biology",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "Department of Biology",
+      "area_key_words": "Biology",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270214": {
+      "school_id": 1834,
+      "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270214",
+      "job_title_in_post": "Post-Doctoral Research Fellow, Department of Biology",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "Department of Biology",
+      "area_key_words": "Biology",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270215": {
+      "school_id": 1834,
+      "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270215",
+      "job_title_in_post": "Research Assistant, Centre for Quantitative Systems Biology",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "Centre for Quantitative Systems Biology",
+      "area_key_words": "developing new biomedical platforms; immuno-oncology studies",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270217": {
+      "school_id": 1834,
+      "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270217",
+      "job_title_in_post": "Senior Executive Officer / Executive Officer, University Engagement Office",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1834,
   "status": "complete",
-  "updated_at": "2026-09-22T15:40:37+00:00",
-  "completed_at": "2026-09-22T15:40:37+00:00",
+  "updated_at": "2026-09-24T23:38:31+00:00",
+  "completed_at": "2026-09-24T23:38:31+00:00",
   "last_error": ""
 }

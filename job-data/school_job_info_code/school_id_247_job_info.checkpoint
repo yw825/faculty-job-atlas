@@ -107,6 +107,14 @@
     "https://myhr.fiu.edu/psc/hcm/EMPLOYEE/HRMS/c/HRS_HRAM_EMP_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST&Action=U&JobOpeningId=536013&postingseq=1&SiteId=1&REL_ACTION=Yes&FOCUS=Employee": {
       "title": "FIU",
       "description": "FIU | Login Florida International University Attention! Javascipt is required to login. Human Resources Username Password Trouble logging in? This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply. Having trouble logging in? Get Help Manage Account Terms of Use The use of Florida International University's information technology resources is contingent upon proper authorization. By logging in to this system, you agree to abide by all applicable federal, state, and local laws, State of Florida Board of Governors rules, and University rules, regulations and policies. You also understand that the misuse or misappropriation of the University's information technology resources or violation of any applicable law, rule, regulation or University policy, may result in the revocation of your access privileges. Tools & Resources Phonebook (Directory) University Calendar Campus Maps FIU.edu Careers at FIU Connect FIU News Social Directory © 2021 Florida International University | Website by Division of Information Technology | Web/Accessibility | Website Feedback"
+    },
+    "https://myhr.fiu.edu/psc/hcm/EMPLOYEE/HRMS/c/HRS_HRAM_EMP_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST&Action=U&JobOpeningId=538200&postingseq=1&SiteId=1&REL_ACTION=Yes&FOCUS=Employee": {
+      "title": "FIU",
+      "description": "FIU | Login Florida International University Attention! Javascipt is required to login. Human Resources Username Password Trouble logging in? This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply. Having trouble logging in? Get Help Manage Account Terms of Use The use of Florida International University's information technology resources is contingent upon proper authorization. By logging in to this system, you agree to abide by all applicable federal, state, and local laws, State of Florida Board of Governors rules, and University rules, regulations and policies. You also understand that the misuse or misappropriation of the University's information technology resources or violation of any applicable law, rule, regulation or University policy, may result in the revocation of your access privileges. Tools & Resources Phonebook (Directory) University Calendar Campus Maps FIU.edu Careers at FIU Connect FIU News Social Directory © 2021 Florida International University | Website by Division of Information Technology | Web/Accessibility | Website Feedback"
+    },
+    "https://myhr.fiu.edu/psc/hcm/EMPLOYEE/HRMS/c/HRS_HRAM_EMP_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST&Action=U&JobOpeningId=535765&postingseq=1&SiteId=1&REL_ACTION=Yes&FOCUS=Employee": {
+      "title": "504 Gateway Time-out",
+      "description": "504 Gateway Time-out 504 Gateway Time-out Microsoft-Azure-Application-Gateway/v2"
     }
   },
   "rows": {
@@ -406,11 +414,33 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://myhr.fiu.edu/psc/hcm/EMPLOYEE/HRMS/c/HRS_HRAM_EMP_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST&Action=U&JobOpeningId=538200&postingseq=1&SiteId=1&REL_ACTION=Yes&FOCUS=Employee": {
+      "school_id": 247,
+      "posting_url": "https://myhr.fiu.edu/psc/hcm/EMPLOYEE/HRMS/c/HRS_HRAM_EMP_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST&Action=U&JobOpeningId=538200&postingseq=1&SiteId=1&REL_ACTION=Yes&FOCUS=Employee",
+      "job_title_in_post": "FIU",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://myhr.fiu.edu/psc/hcm/EMPLOYEE/HRMS/c/HRS_HRAM_EMP_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST&Action=U&JobOpeningId=535765&postingseq=1&SiteId=1&REL_ACTION=Yes&FOCUS=Employee": {
+      "school_id": 247,
+      "posting_url": "https://myhr.fiu.edu/psc/hcm/EMPLOYEE/HRMS/c/HRS_HRAM_EMP_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST&Action=U&JobOpeningId=535765&postingseq=1&SiteId=1&REL_ACTION=Yes&FOCUS=Employee",
+      "job_title_in_post": "504 Gateway Time-out",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 247,
   "status": "complete",
-  "updated_at": "2026-09-22T03:20:14+00:00",
-  "completed_at": "2026-09-22T03:20:14+00:00",
+  "updated_at": "2026-09-24T20:18:30+00:00",
+  "completed_at": "2026-09-24T20:18:30+00:00",
   "last_error": ""
 }

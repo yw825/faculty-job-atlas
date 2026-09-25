@@ -95,6 +95,22 @@
     "https://staffemployment-stthomas.icims.com/jobs/9670/assistant-director%2c-athletic-communications/job": {
       "title": "Assistant Director, Athletic Communications in St. Paul, Minnesota",
       "description": "Assistant Director, Athletic Communications in St. Paul, Minnesota | Careers at St. Paul Skip Branding"
+    },
+    "https://staffemployment-stthomas.icims.com/jobs/9664/editor-iii-%28.625-fte%29/job": {
+      "title": "Editor III (.625 FTE) in St. Paul, Minnesota",
+      "description": "Editor III (.625 FTE) in St. Paul, Minnesota | Careers at St. Paul Skip Branding"
+    },
+    "https://staffemployment-stthomas.icims.com/jobs/9663/coordinator-ii/job": {
+      "title": "Coordinator II in Minneapolis, Minnesota",
+      "description": "Coordinator II in Minneapolis, Minnesota | Careers at Minneapolis Skip Branding"
+    },
+    "https://staffemployment-stthomas.icims.com/jobs/9669/staff-accountant/job": {
+      "title": "Staff Accountant in St. Paul, Minnesota",
+      "description": "Staff Accountant in St. Paul, Minnesota | Careers at St. Paul Skip Branding"
+    },
+    "https://staffemployment-stthomas.icims.com/jobs/9651/prep-cook-food-service-worker/job": {
+      "title": "Prep Cook/Food Service Worker in St. Paul, Minnesota",
+      "description": "Prep Cook/Food Service Worker in St. Paul, Minnesota | Careers at St. Paul Skip Branding"
     }
   },
   "rows": {
@@ -361,11 +377,55 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://staffemployment-stthomas.icims.com/jobs/9664/editor-iii-%28.625-fte%29/job": {
+      "school_id": 697,
+      "posting_url": "https://staffemployment-stthomas.icims.com/jobs/9664/editor-iii-%28.625-fte%29/job",
+      "job_title_in_post": "Editor III (.625 FTE) in St. Paul, Minnesota",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://staffemployment-stthomas.icims.com/jobs/9663/coordinator-ii/job": {
+      "school_id": 697,
+      "posting_url": "https://staffemployment-stthomas.icims.com/jobs/9663/coordinator-ii/job",
+      "job_title_in_post": "Coordinator II in Minneapolis, Minnesota",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Minneapolis, Minnesota",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://staffemployment-stthomas.icims.com/jobs/9669/staff-accountant/job": {
+      "school_id": 697,
+      "posting_url": "https://staffemployment-stthomas.icims.com/jobs/9669/staff-accountant/job",
+      "job_title_in_post": "Staff Accountant in St. Paul, Minnesota",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://staffemployment-stthomas.icims.com/jobs/9651/prep-cook-food-service-worker/job": {
+      "school_id": 697,
+      "posting_url": "https://staffemployment-stthomas.icims.com/jobs/9651/prep-cook-food-service-worker/job",
+      "job_title_in_post": "Prep Cook/Food Service Worker in St. Paul, Minnesota",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 697,
   "status": "complete",
-  "updated_at": "2026-09-22T03:45:11+00:00",
-  "completed_at": "2026-09-22T03:45:11+00:00",
+  "updated_at": "2026-09-24T20:53:23+00:00",
+  "completed_at": "2026-09-24T20:53:23+00:00",
   "last_error": ""
 }

@@ -64,12 +64,15 @@
     "https://external.jobs.uwa.edu.au/jobs/senior-building-officer-crawley-wa-australia",
     "https://external.jobs.uwa.edu.au/jobs/furniture-library-and-removal-assistant-crawley-wa-australia",
     "https://external.jobs.uwa.edu.au/jobs/campus-space-coordinator-crawley-wa-australia",
-    "https://external.jobs.uwa.edu.au/jobs/research-officer-painting-stories-project-crawley-wa-australia"
+    "https://external.jobs.uwa.edu.au/jobs/research-officer-painting-stories-project-crawley-wa-australia",
+    "https://external.jobs.uwa.edu.au/jobs/student-advisor-crawley-wa-australia-b9d80d42-d5ed-4738-8618-d537c535daac",
+    "https://external.jobs.uwa.edu.au/jobs/student-assistant-crawley-wa-australia-1a8cd44c-0884-45ae-b713-4e5eb3c2b64b",
+    "https://external.jobs.uwa.edu.au/jobs/talent-acquisition-advisor-crawley-wa-australia-1bfcb1a7-187f-48cf-9547-85aaadeed989"
   ],
   "school_id": 1822,
-  "status": "error",
-  "updated_at": "2026-09-22T02:10:07+00:00",
+  "status": "complete",
+  "updated_at": "2026-09-24T19:05:19+00:00",
   "started_at": "2026-09-02T22:36:37+00:00",
-  "completed_at": "2026-09-20T23:01:17+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+  "completed_at": "2026-09-24T19:05:19+00:00",
+  "last_error": ""
 }

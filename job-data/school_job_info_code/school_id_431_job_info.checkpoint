@@ -154,6 +154,31 @@
       "title": "FT Research Technician",
       "description": "This research assistant is a grant-funded position to support a recently awarded research grant from the LEAP program of the Burroughs-Wellcome Foundation. This research assistant will work full-time in the organic chemistry laboratory performing organic synthesis and characterization.",
       "department": null
+    },
+    "https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2201": {
+      "title": "Gifts and Records Specialist",
+      "description": "This position supports the University’s fundraising efforts by ensuring gift and constituent data is managed accurately, efficiently, and in compliance with applicable standards. The incumbent functions as a data steward, responsible for overseeing the daily operations of gift processing, data integrity, and reporting, while ensuring adherence to IRS regulations, University policies, and industry best practices (CASE guidelines). This role requires analytical and problem-solving skills, meticulous attention to detail, the ability to exercise discretion with sensitive information, and the ability to manage multiple priorities.",
+      "department": null
+    },
+    "https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2203": {
+      "title": "Associate Director of Career Mentoring",
+      "description": "The Associate Director of Career Mentoring leads the university-wide implementation of Career Mentoring for All, advancing Butler’s commitment to ensure every student benefits from meaningful career mentoring throughout their undergraduate experience. The positions builds and sustains a scalable mentoring model that helps students develop career readiness, build professional networks, connect academic and experiential learning to their goals and prepare for life after Butler.\n\nWorking across colleges and divisions, the Associate Director leads the network of Career Mentors and College-Based Career Mentor Leads. The position ensures a consistent, high-quality student experience while supporting appropriate college-level adaption and building the capacity of those delivering career mentoring across the University.",
+      "department": null
+    },
+    "https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2196": {
+      "title": "Business Advisor - CISBDC",
+      "description": "The Business Advisor at the Indiana Small Business Development Center (ISBDC) is a dynamic role focused on providing direct support and counsel to small businesses within an eight-county region, including the Indianapolis metropolitan area. The Business Advisor will be responsible for advising and guiding small businesses in various stages of development, conducting training sessions, and tracking client progress using the Neoserra Client Management System (CMS). This role demands compliance with both federal Small Business Administration (SBA) standards and the standards set by the State of Indiana Economic Development Corporation, host of the ISBDC network.",
+      "department": null
+    },
+    "https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2194": {
+      "title": "Associate Director of Student Activities",
+      "description": "This Associate Director contributes to our vibrant campus environment through the support and development of student organizations. This position will be the primary point of contact for tools and services that support our 200+ student organization community. This Associate Director will specifically focus on facilitating organizational training, assisting in the development of leadership curriculum, and planning co-curricular programs that enhance student wellbeing and engagement. The Associate Director of Student Activities- Student Organizations/Leadership Development will collaborate with organization leaders and campus stakeholders to enhance the holistic development of the Butler University student body.",
+      "department": null
+    },
+    "https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2212": {
+      "title": "Bulldog Club Assistant",
+      "description": "The Bulldog Club is an important part of supporting Butler University Athletics by engaging and recognizing our generous donors and fans. We are seeking dependable, professional, and enthusiastic part-time employees to assist with hospitality operations during home football and men’s basketball games.\n\nHospitality attendants help create a welcoming experience for Bulldog Club members by assisting with check-in, verifying access, distributing wristbands, and supporting hospitality spaces before and during games.",
+      "department": null
     }
   },
   "rows": {
@@ -497,11 +522,66 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2201": {
+      "school_id": 431,
+      "posting_url": "https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2201",
+      "job_title_in_post": "Gifts and Records Specialist",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2203": {
+      "school_id": 431,
+      "posting_url": "https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2203",
+      "job_title_in_post": "Associate Director of Career Mentoring",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Career Mentoring",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2196": {
+      "school_id": 431,
+      "posting_url": "https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2196",
+      "job_title_in_post": "Business Advisor - CISBDC",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2194": {
+      "school_id": 431,
+      "posting_url": "https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2194",
+      "job_title_in_post": "Associate Director of Student Activities",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Student Activities",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2212": {
+      "school_id": 431,
+      "posting_url": "https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2212",
+      "job_title_in_post": "Bulldog Club Assistant",
+      "position_type": "Unclassified",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 431,
   "status": "complete",
-  "updated_at": "2026-09-22T03:34:12+00:00",
-  "completed_at": "2026-09-22T03:34:12+00:00",
+  "updated_at": "2026-09-24T20:30:28+00:00",
+  "completed_at": "2026-09-24T20:30:28+00:00",
   "last_error": ""
 }

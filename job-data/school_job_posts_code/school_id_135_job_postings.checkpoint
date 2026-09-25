@@ -1,15 +1,1 @@
-{
-  "links": [
-    "https://www.sandiego.edu/outcomes/careers/graduate-school.php",
-    "https://www.sandiego.edu/outcomes/careers/volunteer-service.php",
-    "https://www.sandiego.edu/outcomes/careers/graduate/",
-    "https://www.sandiego.edu/outcomes/careers/alumni-highlights.php",
-    "https://www.sandiego.edu/outcomes/careers/why-hire-usd.php"
-  ],
-  "school_id": 135,
-  "status": "error",
-  "updated_at": "2026-09-21T19:26:06+00:00",
-  "started_at": "2026-09-08T01:18:19+00:00",
-  "completed_at": "2026-09-17T16:07:57+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.sandiego.edu/outcomes/careers/\nCall log:\n  - navigating to \"https://www.sandiego.edu/outcomes/careers/\", waiting until \"domcontentloaded\"\n"
-}
+{"links": ["https://www.sandiego.edu/outcomes/careers/graduate-school.php", "https://www.sandiego.edu/outcomes/careers/volunteer-service.php", "https://www.sandiego.edu/outcomes/careers/graduate/", "https://www.sandiego.edu/outcomes/careers/alumni-highlights.php", "https://www.sandiego.edu/outcomes/careers/why-hire-usd.php"], "school_id": 135, "status": "complete", "updated_at": "2026-09-24T16:38:55+00:00", "started_at": "2026-09-08T01:18:19+00:00", "completed_at": "2026-09-24T16:38:55+00:00", "last_error": ""}

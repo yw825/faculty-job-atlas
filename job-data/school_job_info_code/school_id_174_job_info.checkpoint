@@ -387,6 +387,18 @@
     "https://unco.csod.com/ux/ats/careersite/1/requisition/1090": {
       "title": "Welcome - Realize Your Potential: Cornerstone",
       "description": "Welcome - Realize Your Potential: Cornerstone"
+    },
+    "https://unco.csod.com/ux/ats/careersite/1/requisition/1093": {
+      "title": "Welcome - Realize Your Potential: Cornerstone",
+      "description": "Welcome - Realize Your Potential: Cornerstone What happened? The Custom login page that you requested is temporarily down for maintenance. What to do? You will be redirected in 10 seconds to a standard login page to access your portal. If you are not automatically redirected, click here ."
+    },
+    "https://unco.csod.com/ux/ats/careersite/1/requisition/1092": {
+      "title": "Welcome - Realize Your Potential: Cornerstone",
+      "description": "Welcome - Realize Your Potential: Cornerstone What happened? The Custom login page that you requested is temporarily down for maintenance. What to do? You will be redirected in 10 seconds to a standard login page to access your portal. If you are not automatically redirected, click here ."
+    },
+    "https://unco.csod.com/ux/ats/careersite/1/requisition/1089": {
+      "title": "Welcome - Realize Your Potential: Cornerstone",
+      "description": "Welcome - Realize Your Potential: Cornerstone What happened? The Custom login page that you requested is temporarily down for maintenance. What to do? You will be redirected in 10 seconds to a standard login page to access your portal. If you are not automatically redirected, click here ."
     }
   },
   "rows": {
@@ -1456,11 +1468,44 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://unco.csod.com/ux/ats/careersite/1/requisition/1093": {
+      "school_id": 174,
+      "posting_url": "https://unco.csod.com/ux/ats/careersite/1/requisition/1093",
+      "job_title_in_post": "Welcome - Realize Your Potential: Cornerstone",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://unco.csod.com/ux/ats/careersite/1/requisition/1092": {
+      "school_id": 174,
+      "posting_url": "https://unco.csod.com/ux/ats/careersite/1/requisition/1092",
+      "job_title_in_post": "Welcome - Realize Your Potential: Cornerstone",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://unco.csod.com/ux/ats/careersite/1/requisition/1089": {
+      "school_id": 174,
+      "posting_url": "https://unco.csod.com/ux/ats/careersite/1/requisition/1089",
+      "job_title_in_post": "Welcome - Realize Your Potential: Cornerstone",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 174,
   "status": "complete",
-  "updated_at": "2026-09-22T03:18:24+00:00",
-  "completed_at": "2026-09-22T03:18:24+00:00",
+  "updated_at": "2026-09-24T20:15:26+00:00",
+  "completed_at": "2026-09-24T20:15:26+00:00",
   "last_error": ""
 }

@@ -1,8 +1,9 @@
 {
   "links": [],
   "school_id": 168,
-  "status": "error",
-  "updated_at": "2026-09-21T21:17:23+00:00",
-  "started_at": "2026-09-21T21:15:55+00:00",
-  "last_error": "TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://cu.taleo.net/careersection/2/moresearch.ftl?lang=en\", waiting until \"domcontentloaded\"\n"
+  "status": "complete",
+  "updated_at": "2026-09-24T16:41:48+00:00",
+  "started_at": "2026-09-24T16:41:44+00:00",
+  "completed_at": "2026-09-24T16:41:48+00:00",
+  "last_error": ""
 }

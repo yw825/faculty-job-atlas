@@ -249,6 +249,16 @@
       "title": "Guest Services Temp",
       "description": "Join our Guest House Team at Davidson College!  The Carnegie Guest House is a bed and breakfast located on Davidson's campus.  Guests are typically alumni of the college, parents of current students, or prospective students and their families.  We are seeking a positive individual to perform general housekeeping, interact with our overnight guests, help set up breakfast each morning, assist with guest check-in/check-out, and support the supervising staff with day to day operations. ",
       "department": null
+    },
+    "https://fa-exci-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/1043": {
+      "title": "Registered Nurse - PRN",
+      "description": "The Temporary PRN Registered Nurse provides primary care nursing services in an outpatient clinic during the Fall and Spring semesters. ",
+      "department": null
+    },
+    "https://fa-exci-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/1045": {
+      "title": "Assistant Director Housing Operations",
+      "description": "The Assistant Director of Housing Operations at Davidson College is a full-time, twelve-month, salaried position reporting to the Associate Director of Housing Operations and Facilities. The Assistant Director leads the day-to-day administration of residential housing operations, including assignments, occupancy management, housing systems, student support, transitional housing, and process improvement. The position serves as the departmental subject matter expert for StarRez and housing-related data and directly supervises the Coordinator of Housing & Facilities. The Assistant Director collaborates with Residence Life, Physical Plant, Technology & Innovation, and other campus partners to ensure effective, efficient, and student-centered housing operations.",
+      "department": null
     }
   },
   "rows": {
@@ -801,11 +811,33 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://fa-exci-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/1043": {
+      "school_id": 780,
+      "posting_url": "https://fa-exci-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/1043",
+      "job_title_in_post": "Registered Nurse - PRN",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-exci-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/1045": {
+      "school_id": 780,
+      "posting_url": "https://fa-exci-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/1045",
+      "job_title_in_post": "Assistant Director Housing Operations",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 780,
   "status": "complete",
-  "updated_at": "2026-09-22T03:47:25+00:00",
-  "completed_at": "2026-09-22T03:47:25+00:00",
+  "updated_at": "2026-09-24T21:16:12+00:00",
+  "completed_at": "2026-09-24T21:16:12+00:00",
   "last_error": ""
 }

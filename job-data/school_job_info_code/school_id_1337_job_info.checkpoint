@@ -884,6 +884,49 @@
       "title": "Assistant/Associate Professor of Physiology",
       "description": "",
       "department": null
+    },
+    "https://fa-evyu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1328": {
+      "title": "Assistant Professor of Popular Literature and Director of English Secondary Education",
+      "description": "",
+      "department": null
+    },
+    "https://fa-evyu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1011": {
+      "title": "Temporary Office Assistant - Center for Community Engagement[978361]",
+      "description": "",
+      "department": null
+    },
+    "https://fa-evyu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1335": {
+      "error": "not present in bulk fetch result"
+    },
+    "https://fa-evyu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1064": {
+      "title": "Assistant/Associate Professor",
+      "description": "",
+      "department": null
+    },
+    "https://fa-evyu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1265": {
+      "title": "Pediatric Neonatologist - Assistant/Associate/Professor",
+      "description": "",
+      "department": null
+    },
+    "https://fa-evyu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1305": {
+      "title": "Librarian (Quillen College of Medicine)",
+      "description": "",
+      "department": null
+    },
+    "https://fa-evyu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1311": {
+      "title": "Assistant Professor, Addictionologist",
+      "description": "",
+      "department": null
+    },
+    "https://fa-evyu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1143": {
+      "title": "Executive Aide",
+      "description": "",
+      "department": null
+    },
+    "https://fa-evyu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1318": {
+      "title": "Assistant Professor of Costume Design",
+      "description": "",
+      "department": null
     }
   },
   "rows": {
@@ -2833,11 +2876,102 @@
       "area_key_words": "Physiology",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://fa-evyu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1328": {
+      "school_id": 1337,
+      "posting_url": "https://fa-evyu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1328",
+      "job_title_in_post": "Assistant Professor of Popular Literature and Director of English Secondary Education",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Popular Literature and Director of English Secondary Education",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-evyu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1011": {
+      "school_id": 1337,
+      "posting_url": "https://fa-evyu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1011",
+      "job_title_in_post": "Temporary Office Assistant - Center for Community Engagement[978361]",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-evyu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1335": {
+      "error": "not present in bulk fetch result"
+    },
+    "https://fa-evyu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1064": {
+      "school_id": 1337,
+      "posting_url": "https://fa-evyu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1064",
+      "job_title_in_post": "Assistant/Associate Professor",
+      "position_type": "Assistant_Professor; Associate_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-evyu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1265": {
+      "school_id": 1337,
+      "posting_url": "https://fa-evyu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1265",
+      "job_title_in_post": "Pediatric Neonatologist - Assistant/Associate/Professor",
+      "position_type": "Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-evyu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1305": {
+      "school_id": 1337,
+      "posting_url": "https://fa-evyu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1305",
+      "job_title_in_post": "Librarian (Quillen College of Medicine)",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-evyu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1311": {
+      "school_id": 1337,
+      "posting_url": "https://fa-evyu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1311",
+      "job_title_in_post": "Assistant Professor, Addictionologist",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Addictionologist",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-evyu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1143": {
+      "school_id": 1337,
+      "posting_url": "https://fa-evyu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1143",
+      "job_title_in_post": "Executive Aide",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-evyu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1318": {
+      "school_id": 1337,
+      "posting_url": "https://fa-evyu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1318",
+      "job_title_in_post": "Assistant Professor of Costume Design",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Costume Design",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1337,
   "status": "complete",
-  "updated_at": "2026-09-22T04:02:26+00:00",
-  "completed_at": "2026-09-22T04:02:26+00:00",
+  "updated_at": "2026-09-24T22:52:33+00:00",
+  "completed_at": "2026-09-24T22:52:33+00:00",
   "last_error": ""
 }

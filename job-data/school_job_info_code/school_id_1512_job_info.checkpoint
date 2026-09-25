@@ -512,6 +512,16 @@
       "title": "Food Service Worker Lead",
       "description": "Posted: 09/16/2026 Location: Ellensburg, WA Department: SURC Kitchen Food Service Worker Lead",
       "department": "SURC Kitchen"
+    },
+    "https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=7557&PostingSeq=1&SiteId=1": {
+      "title": "CEPS Advisor - Outreach & Recruitment Specialist",
+      "description": "Posted: 09/18/2026 Location: Ellensburg, WA Department: CEPS Deans Operating CEPS Advisor - Outreach & Recruitment Specialist",
+      "department": "CEPS Deans Operating"
+    },
+    "https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=7559&PostingSeq=1&SiteId=1": {
+      "title": "Assistant Professor of Mathematics Education",
+      "description": "Posted: 09/17/2026 Location: Ellensburg, WA Department: Science and Mathematics Ed Assistant Professor of Mathematics Education",
+      "department": "Science and Mathematics Ed"
     }
   },
   "rows": {
@@ -1639,11 +1649,33 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=7557&PostingSeq=1&SiteId=1": {
+      "school_id": 1512,
+      "posting_url": "https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=7557&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "CEPS Advisor - Outreach & Recruitment Specialist",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "CEPS Deans Operating",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=7559&PostingSeq=1&SiteId=1": {
+      "school_id": 1512,
+      "posting_url": "https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=7559&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Assistant Professor of Mathematics Education",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Science and Mathematics Ed",
+      "area_key_words": "Mathematics Education",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1512,
-  "status": "error",
-  "updated_at": "2026-09-22T15:20:07+00:00",
-  "completed_at": "2026-09-21T00:55:53+00:00",
-  "last_error": "TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?FOCUS=Applicant&&siteid=1\", waiting until \"domcontentloaded\"\n"
+  "status": "complete",
+  "updated_at": "2026-09-24T23:12:30+00:00",
+  "completed_at": "2026-09-24T23:12:30+00:00",
+  "last_error": ""
 }

@@ -89,6 +89,11 @@
       "title": "Student Employment Coordinator",
       "description": "",
       "department": null
+    },
+    "https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/3034": {
+      "title": "Chief Information Officer",
+      "description": "",
+      "department": null
     }
   },
   "rows": {
@@ -289,11 +294,22 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/3034": {
+      "school_id": 686,
+      "posting_url": "https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/3034",
+      "job_title_in_post": "Chief Information Officer",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 686,
   "status": "complete",
-  "updated_at": "2026-09-22T03:45:05+00:00",
-  "completed_at": "2026-09-22T03:45:05+00:00",
+  "updated_at": "2026-09-24T20:52:26+00:00",
+  "completed_at": "2026-09-24T20:52:26+00:00",
   "last_error": ""
 }

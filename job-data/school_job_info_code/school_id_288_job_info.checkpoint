@@ -374,6 +374,21 @@
       "title": "Student Applied Research Fellow",
       "description": "Posted: 09/11/2026 Location: Columbus State University Department: Business Academic Programs Student Applied Research Fellow",
       "department": "Business Academic Programs"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304053&PostingSeq=1&SiteId=30000": {
+      "title": "CSU Foundations Controller",
+      "description": "Posted: 09/21/2026 Location: Columbus State University Department: University Advancement-Acctg CSU Foundations Controller",
+      "department": "University Advancement-Acctg"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304029&PostingSeq=1&SiteId=30000": {
+      "title": "Part-Time Lecturer, German",
+      "description": "Posted: 09/18/2026 Location: Columbus State University Department: Dept Of Modern & Classical Lan Part-Time Lecturer, German",
+      "department": "Dept Of Modern & Classical Lan"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304033&PostingSeq=1&SiteId=30000": {
+      "title": "Part-time Language Coach, German",
+      "description": "Posted: 09/18/2026 Location: Columbus State University Department: Dept Of Modern & Classical Lan Part-time Language Coach, German",
+      "department": "Dept Of Modern & Classical Lan"
     }
   },
   "rows": {
@@ -1201,11 +1216,44 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304053&PostingSeq=1&SiteId=30000": {
+      "school_id": 288,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304053&PostingSeq=1&SiteId=30000",
+      "job_title_in_post": "CSU Foundations Controller",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "University Advancement-Acctg",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304029&PostingSeq=1&SiteId=30000": {
+      "school_id": 288,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304029&PostingSeq=1&SiteId=30000",
+      "job_title_in_post": "Part-Time Lecturer, German",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "Dept Of Modern & Classical Lan",
+      "area_key_words": "German",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304033&PostingSeq=1&SiteId=30000": {
+      "school_id": 288,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304033&PostingSeq=1&SiteId=30000",
+      "job_title_in_post": "Part-time Language Coach, German",
+      "position_type": "Unclassified",
+      "job_term": "Part-time",
+      "department_or_school": "Dept Of Modern & Classical Lan",
+      "area_key_words": "German",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 288,
   "status": "complete",
-  "updated_at": "2026-09-22T03:22:19+00:00",
-  "completed_at": "2026-09-22T03:22:19+00:00",
+  "updated_at": "2026-09-24T20:20:51+00:00",
+  "completed_at": "2026-09-24T20:20:51+00:00",
   "last_error": ""
 }

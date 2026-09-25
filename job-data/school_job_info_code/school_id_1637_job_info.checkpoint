@@ -19,6 +19,16 @@
       "title": "Undergraduate Education Administrator (2026-13-33)",
       "description": "CUPE 1393 Undergraduate Education Administrator 'IV' - Schulich School of Medicine & Dentistry - Windsor Campus (substitute until approx. March 1, 2027)",
       "department": null
+    },
+    "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3635": {
+      "title": "Research Coordinator - Inclusive Excellence \"VII\" (2026-13-34)",
+      "description": "CUPE 1393 - Substitute Vacancy\nResearch Coordinator – Inclusive Excellence \"VII\" in the Office of Research & Integrity Services",
+      "department": null
+    },
+    "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3666": {
+      "title": "Communications Specialist \"V\" (2026-13-35)",
+      "description": "CUPE 1393 - Substitute Vacancy\nCommunications Specialist \"V\" in the Department of Public Affairs and Communications",
+      "department": null
     }
   },
   "rows": {
@@ -65,11 +75,33 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3635": {
+      "school_id": 1637,
+      "posting_url": "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3635",
+      "job_title_in_post": "Research Coordinator - Inclusive Excellence \"VII\" (2026-13-34)",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3666": {
+      "school_id": 1637,
+      "posting_url": "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3666",
+      "job_title_in_post": "Communications Specialist \"V\" (2026-13-35)",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "Department of Public Affairs and Communications",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1637,
   "status": "complete",
-  "updated_at": "2026-09-22T15:33:48+00:00",
-  "completed_at": "2026-09-22T15:33:48+00:00",
+  "updated_at": "2026-09-24T23:33:52+00:00",
+  "completed_at": "2026-09-24T23:33:52+00:00",
   "last_error": ""
 }

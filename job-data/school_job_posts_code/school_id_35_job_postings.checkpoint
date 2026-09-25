@@ -20,12 +20,15 @@
     "https://ozarks.edu/news/garcia-23-to-receive-young-alumni-service-award/",
     "https://ozarks.edu/news/author-illustrator-to-discuss-new-book-on-arkansas-women-musicians/",
     "https://ozarks.edu/news/dr-tiwari-is-co-editor-of-new-book-on-plant-microbe-interactions/",
-    "https://ozarks.edu/news/hardgrave-18-to-receive-2026-young-alumni-achievement-award/"
+    "https://ozarks.edu/news/hardgrave-18-to-receive-2026-young-alumni-achievement-award/",
+    "https://ozarks.edu/news/thorp-96-to-receive-2026-alumni-achievement-award/",
+    "https://ozarks.edu/news/u-of-o-named-a-top-10-university-for-20th-straight-year/",
+    "https://ozarks.edu/news/crow-10-publishes-sixth-childrens-book/"
   ],
   "school_id": 35,
-  "status": "error",
-  "updated_at": "2026-09-21T17:12:50+00:00",
+  "status": "complete",
+  "updated_at": "2026-09-24T16:31:25+00:00",
   "started_at": "2026-09-08T01:10:48+00:00",
-  "completed_at": "2026-09-20T16:49:50+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://ozarks.edu/about/employment/\", waiting until \"domcontentloaded\"\n"
+  "completed_at": "2026-09-24T16:31:25+00:00",
+  "last_error": ""
 }

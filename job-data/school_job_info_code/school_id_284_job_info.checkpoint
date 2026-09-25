@@ -299,6 +299,16 @@
       "title": "Admissions Counselor/Recruiter",
       "description": "Posted: 09/16/2026 Location: CCGA- Main Campus (Brunswick) Department: Admissions Admissions Counselor/Recruiter",
       "department": "Admissions"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304056&PostingSeq=1&SiteId=63000": {
+      "title": "Career & Academic Advisor",
+      "description": "Posted: 09/22/2026 Location: CCGA- Main Campus (Brunswick) Department: Career & Academic Advising Career & Academic Advisor",
+      "department": "Career & Academic Advising"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303922&PostingSeq=1&SiteId=63000": {
+      "title": "Student Assistant",
+      "description": "Posted: 09/22/2026 Location: CCGA- Main Campus (Brunswick) Department: Library Student Assistant",
+      "department": "Library"
     }
   },
   "rows": {
@@ -961,11 +971,33 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304056&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304056&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Career & Academic Advisor",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Career & Academic Advising",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303922&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303922&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Student Assistant",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Library",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 284,
   "status": "complete",
-  "updated_at": "2026-09-22T03:21:31+00:00",
-  "completed_at": "2026-09-22T03:21:31+00:00",
+  "updated_at": "2026-09-24T20:20:04+00:00",
+  "completed_at": "2026-09-24T20:20:04+00:00",
   "last_error": ""
 }

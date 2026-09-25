@@ -107,6 +107,38 @@
     "https://academic.careers.columbia.edu/#assistant-associate-professor-of-medicine-at-the-cumc": {
       "title": "Assistant / Associate Professor of Medicine at the CUMC",
       "description": "ngIf: item.close_date ngIf: !item.close_date Open until filled end ngIf: !item.close_date · ngIf: item.discipline Medicine - Digestive and Liver Diseases end ngRepeat: item in filteredResults  | orderBy:sortKey:true | limitTo : itemLimit : itemLimit * (page -1)"
+    },
+    "https://academic.careers.columbia.edu/#assistant-professor-of-pediatric-at-cumc-newborn-nursery": {
+      "title": "Assistant Professor of Pediatric at CUMC -Newborn Nursery",
+      "description": "ngIf: item.close_date ngIf: !item.close_date Open until filled end ngIf: !item.close_date · ngIf: item.discipline Pediatrics end ngRepeat: item in filteredResults  | orderBy:sortKey:true | limitTo : itemLimit : itemLimit * (page -1)"
+    },
+    "https://academic.careers.columbia.edu/#instructor-in-pediatrics-non-invasive-imaging-at-cumc": {
+      "title": "Instructor in Pediatrics (Non-Invasive Imaging) at CUMC",
+      "description": "ngIf: item.close_date ngIf: !item.close_date Open until filled end ngIf: !item.close_date · ngIf: item.discipline Pediatrics end ngRepeat: item in filteredResults  | orderBy:sortKey:true | limitTo : itemLimit : itemLimit * (page -1) Staff Associate II ngIf: item.close_date ngIf: !item.close_date Open until filled end ngIf: !item.close_date · ngIf: item.discipline Environmental Health Science end ngRepeat: item in filteredResults  | orderBy:sortKey:true | limitTo : itemLimit : itemLimit * (page -1)"
+    },
+    "https://academic.careers.columbia.edu/#newsday-david-laventhol-visiting-professor-open-rank-profess": {
+      "title": "Newsday/David Laventhol Visiting Professor (Open Rank: Professor/Associate Professor/Assistant Professor)",
+      "description": "ngIf: item.close_date ngIf: !item.close_date Open until filled end ngIf: !item.close_date · ngIf: item.discipline Columbia Journalism School end ngRepeat: item in filteredResults  | orderBy:sortKey:true | limitTo : itemLimit : itemLimit * (page -1)"
+    },
+    "https://academic.careers.columbia.edu/#joan-konner-visiting-professor-of-journalism-open-rank-profe": {
+      "title": "Joan Konner Visiting Professor of Journalism  (Open Rank: Professor/Associate Professor/Assistant Professor)",
+      "description": "ngIf: item.close_date ngIf: !item.close_date Open until filled end ngIf: !item.close_date · ngIf: item.discipline Columbia Journalism School end ngRepeat: item in filteredResults  | orderBy:sortKey:true | limitTo : itemLimit : itemLimit * (page -1)"
+    },
+    "https://academic.careers.columbia.edu/#associate-professor-professor": {
+      "title": "Associate Professor/Professor",
+      "description": "ngIf: item.close_date ngIf: !item.close_date Open until filled end ngIf: !item.close_date · ngIf: item.discipline Department of Psychology end ngRepeat: item in filteredResults  | orderBy:sortKey:true | limitTo : itemLimit : itemLimit * (page -1)"
+    },
+    "https://academic.careers.columbia.edu/#associate-research-scientist-magnetically-confined-plasma-re": {
+      "title": "Associate Research Scientist - Magnetically Confined Plasma Research",
+      "description": "ngIf: item.close_date ngIf: !item.close_date Open until filled end ngIf: !item.close_date · ngIf: item.discipline Applied Physics and Applied Mathematics end ngRepeat: item in filteredResults  | orderBy:sortKey:true | limitTo : itemLimit : itemLimit * (page -1)"
+    },
+    "https://academic.careers.columbia.edu/#open-rank-assistant-associate-professor-of-ophthalmology-at": {
+      "title": "Open Rank: Assistant/Associate/Professor of Ophthalmology at CUMC",
+      "description": "ngIf: item.close_date ngIf: !item.close_date Open until filled end ngIf: !item.close_date · ngIf: item.discipline Ophthalmology end ngRepeat: item in filteredResults  | orderBy:sortKey:true | limitTo : itemLimit : itemLimit * (page -1)"
+    },
+    "https://academic.careers.columbia.edu/#lecturer-in-japanese-language": {
+      "title": "Lecturer in Japanese Language",
+      "description": "ngIf: item.close_date ngIf: !item.close_date Open until filled end ngIf: !item.close_date · ngIf: item.discipline Department of East Asian Language and Culture end ngRepeat: item in filteredResults  | orderBy:sortKey:true | limitTo : itemLimit : itemLimit * (page -1)"
     }
   },
   "rows": {
@@ -406,11 +438,99 @@
       "area_key_words": "Medicine at the CUMC",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://academic.careers.columbia.edu/#assistant-professor-of-pediatric-at-cumc-newborn-nursery": {
+      "school_id": 965,
+      "posting_url": "https://academic.careers.columbia.edu/#assistant-professor-of-pediatric-at-cumc-newborn-nursery",
+      "job_title_in_post": "Assistant Professor of Pediatric at CUMC -Newborn Nursery",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Pediatric at CUMC",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://academic.careers.columbia.edu/#instructor-in-pediatrics-non-invasive-imaging-at-cumc": {
+      "school_id": 965,
+      "posting_url": "https://academic.careers.columbia.edu/#instructor-in-pediatrics-non-invasive-imaging-at-cumc",
+      "job_title_in_post": "Instructor in Pediatrics (Non-Invasive Imaging) at CUMC",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Pediatrics",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://academic.careers.columbia.edu/#newsday-david-laventhol-visiting-professor-open-rank-profess": {
+      "school_id": 965,
+      "posting_url": "https://academic.careers.columbia.edu/#newsday-david-laventhol-visiting-professor-open-rank-profess",
+      "job_title_in_post": "Newsday/David Laventhol Visiting Professor (Open Rank: Professor/Associate Professor/Assistant Professor)",
+      "position_type": "Assistant_Professor; Associate_Professor; Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Newsday/David Laventhol Visiting",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://academic.careers.columbia.edu/#joan-konner-visiting-professor-of-journalism-open-rank-profe": {
+      "school_id": 965,
+      "posting_url": "https://academic.careers.columbia.edu/#joan-konner-visiting-professor-of-journalism-open-rank-profe",
+      "job_title_in_post": "Joan Konner Visiting Professor of Journalism  (Open Rank: Professor/Associate Professor/Assistant Professor)",
+      "position_type": "Assistant_Professor; Associate_Professor; Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Journalism",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://academic.careers.columbia.edu/#associate-professor-professor": {
+      "school_id": 965,
+      "posting_url": "https://academic.careers.columbia.edu/#associate-professor-professor",
+      "job_title_in_post": "Associate Professor/Professor",
+      "position_type": "Associate_Professor; Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://academic.careers.columbia.edu/#associate-research-scientist-magnetically-confined-plasma-re": {
+      "school_id": 965,
+      "posting_url": "https://academic.careers.columbia.edu/#associate-research-scientist-magnetically-confined-plasma-re",
+      "job_title_in_post": "Associate Research Scientist - Magnetically Confined Plasma Research",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://academic.careers.columbia.edu/#open-rank-assistant-associate-professor-of-ophthalmology-at": {
+      "school_id": 965,
+      "posting_url": "https://academic.careers.columbia.edu/#open-rank-assistant-associate-professor-of-ophthalmology-at",
+      "job_title_in_post": "Open Rank: Assistant/Associate/Professor of Ophthalmology at CUMC",
+      "position_type": "Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Ophthalmology at CUMC",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://academic.careers.columbia.edu/#lecturer-in-japanese-language": {
+      "school_id": 965,
+      "posting_url": "https://academic.careers.columbia.edu/#lecturer-in-japanese-language",
+      "job_title_in_post": "Lecturer in Japanese Language",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Japanese Language",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 965,
   "status": "complete",
-  "updated_at": "2026-09-22T03:51:24+00:00",
-  "completed_at": "2026-09-22T03:51:24+00:00",
+  "updated_at": "2026-09-24T21:52:27+00:00",
+  "completed_at": "2026-09-24T21:52:27+00:00",
   "last_error": ""
 }

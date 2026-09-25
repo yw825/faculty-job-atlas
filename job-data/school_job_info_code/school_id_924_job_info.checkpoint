@@ -27,6 +27,22 @@
     "https://canisiusuniversity-puzzlehr.icims.com/jobs/11538/administrative-associate/job": {
       "title": "",
       "description": ""
+    },
+    "https://canisiusuniversity-puzzlehr.icims.com/jobs/12350/facilities-operations-coordinator/job": {
+      "title": "Facilities Operations Coordinator in Buffalo, New York",
+      "description": "Facilities Operations Coordinator in Buffalo, New York | Careers at Buffalo, New York Skip Branding"
+    },
+    "https://canisiusuniversity-puzzlehr.icims.com/jobs/12316/administrative-associate/job": {
+      "title": "Administrative Associate in Buffalo, New York",
+      "description": "Administrative Associate in Buffalo, New York | Careers at Buffalo, New York Skip Branding"
+    },
+    "https://canisiusuniversity-puzzlehr.icims.com/jobs/12315/executive-associate-for-academic-affairs/job": {
+      "title": "Executive Associate for Academic Affairs in Buffalo, New York",
+      "description": "Executive Associate for Academic Affairs in Buffalo, New York | Careers at Buffalo, New York Skip Branding"
+    },
+    "https://canisiusuniversity-puzzlehr.icims.com/jobs/12314/director-of-grants-%26-foundation-relations/job": {
+      "title": "Director of Grants & Foundation Relations in Buffalo, New York",
+      "description": "Director of Grants & Foundation Relations in Buffalo, New York | Careers at Buffalo, New York Skip Branding"
     }
   },
   "rows": {
@@ -106,11 +122,55 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://canisiusuniversity-puzzlehr.icims.com/jobs/12350/facilities-operations-coordinator/job": {
+      "school_id": 924,
+      "posting_url": "https://canisiusuniversity-puzzlehr.icims.com/jobs/12350/facilities-operations-coordinator/job",
+      "job_title_in_post": "Facilities Operations Coordinator in Buffalo, New York",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Buffalo, New York",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://canisiusuniversity-puzzlehr.icims.com/jobs/12316/administrative-associate/job": {
+      "school_id": 924,
+      "posting_url": "https://canisiusuniversity-puzzlehr.icims.com/jobs/12316/administrative-associate/job",
+      "job_title_in_post": "Administrative Associate in Buffalo, New York",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Buffalo, New York",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://canisiusuniversity-puzzlehr.icims.com/jobs/12315/executive-associate-for-academic-affairs/job": {
+      "school_id": 924,
+      "posting_url": "https://canisiusuniversity-puzzlehr.icims.com/jobs/12315/executive-associate-for-academic-affairs/job",
+      "job_title_in_post": "Executive Associate for Academic Affairs in Buffalo, New York",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Buffalo, New York",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://canisiusuniversity-puzzlehr.icims.com/jobs/12314/director-of-grants-%26-foundation-relations/job": {
+      "school_id": 924,
+      "posting_url": "https://canisiusuniversity-puzzlehr.icims.com/jobs/12314/director-of-grants-%26-foundation-relations/job",
+      "job_title_in_post": "Director of Grants & Foundation Relations in Buffalo, New York",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Grants & Foundation Relations in Buffalo, New York",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 924,
   "status": "complete",
-  "updated_at": "2026-09-22T03:50:43+00:00",
-  "completed_at": "2026-09-22T03:50:43+00:00",
+  "updated_at": "2026-09-24T21:45:15+00:00",
+  "completed_at": "2026-09-24T21:45:15+00:00",
   "last_error": ""
 }

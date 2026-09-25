@@ -63,6 +63,10 @@
     "https://mville.exacthire.com/apply?section=0&jobs=[]&myAccount=1": {
       "title": "ExactHire",
       "description": "ExactHire"
+    },
+    "https://mville.exacthire.com/job/189724": {
+      "title": "Clinical Assistant Professor: Full Time Faculty, Pre-Licensure Nursing, Job In Manhattanville University At Purchase, NY",
+      "description": "Clinical Assistant Professor: Full Time Faculty, Pre-Licensure Nursing, Job In Manhattanville University At Purchase, NY"
     }
   },
   "rows": {
@@ -241,11 +245,22 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://mville.exacthire.com/job/189724": {
+      "school_id": 991,
+      "posting_url": "https://mville.exacthire.com/job/189724",
+      "job_title_in_post": "Clinical Assistant Professor: Full Time Faculty, Pre-Licensure Nursing, Job In Manhattanville University At Purchase, NY",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 991,
   "status": "complete",
-  "updated_at": "2026-09-22T03:52:14+00:00",
-  "completed_at": "2026-09-22T03:52:14+00:00",
+  "updated_at": "2026-09-24T21:54:12+00:00",
+  "completed_at": "2026-09-24T21:54:12+00:00",
   "last_error": ""
 }

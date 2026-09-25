@@ -59,6 +59,11 @@
       "title": "Adjunct Instructor",
       "description": "Champlain College invites dynamic professionals and educators to join our on-campus adjunct faculty across multiple academic programs. This is your opportunity to shape the next generation of innovators while maintaining your professional pursuits.",
       "department": null
+    },
+    "https://champlain-ibumjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/51": {
+      "title": "Assistant Director of Admissions",
+      "description": "Ready to build Champlain's presence in one of the most competitive college admissions markets in the country? Champlain College is seeking an experienced, results-oriented admissions professional to lead recruitment across two high-priority territories: Massachusetts and the West Coast.",
+      "department": null
     }
   },
   "rows": {
@@ -193,11 +198,22 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://champlain-ibumjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/51": {
+      "school_id": 1501,
+      "posting_url": "https://champlain-ibumjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/51",
+      "job_title_in_post": "Assistant Director of Admissions",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Admissions",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1501,
-  "status": "error",
-  "updated_at": "2026-09-22T14:53:14+00:00",
-  "completed_at": "2026-09-21T00:55:00+00:00",
-  "last_error": "RuntimeError: oracle session capture failed: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://champlain-ibumjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs\", waiting until \"domcontentloaded\"\n"
+  "status": "complete",
+  "updated_at": "2026-09-24T23:11:03+00:00",
+  "completed_at": "2026-09-24T23:11:03+00:00",
+  "last_error": ""
 }

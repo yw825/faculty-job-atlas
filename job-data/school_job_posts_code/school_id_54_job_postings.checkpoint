@@ -1,13 +1,1 @@
-{
-  "links": [
-    "https://careers.nau.edu/jobs/mechanical-engineering-part-time-instructor-flagstaff-arizona-united-states",
-    "https://careers.nau.edu/jobs/assistant-teaching-professor-mechanical-engineering-flagstaff-arizona-united-states-c240a296-dd6c-4373-94c2-f1d8531691b8",
-    "https://careers.nau.edu/jobs/assistant-clinical-professor-occupational-therapy-phoenix-arizona-united-states-flagstaff"
-  ],
-  "school_id": 54,
-  "status": "error",
-  "updated_at": "2026-09-21T17:22:03+00:00",
-  "started_at": "2026-09-08T01:12:41+00:00",
-  "completed_at": "2026-09-20T16:57:32+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://careers.nau.edu/jobs/search?page=1&category_uids%5B%5D=16877518cdbd46262a1b4a995c2a65c2&query=\", waiting until \"domcontentloaded\"\n"
-}
+{"links": ["https://careers.nau.edu/jobs/mechanical-engineering-part-time-instructor-flagstaff-arizona-united-states", "https://careers.nau.edu/jobs/assistant-teaching-professor-mechanical-engineering-flagstaff-arizona-united-states-c240a296-dd6c-4373-94c2-f1d8531691b8", "https://careers.nau.edu/jobs/assistant-clinical-professor-occupational-therapy-phoenix-arizona-united-states-flagstaff"], "school_id": 54, "status": "complete", "updated_at": "2026-09-24T16:33:34+00:00", "started_at": "2026-09-08T01:12:41+00:00", "completed_at": "2026-09-24T16:33:34+00:00", "last_error": ""}

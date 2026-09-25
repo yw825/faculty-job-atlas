@@ -115,6 +115,14 @@
     "https://wilkesuniversitycareers.applicantpro.com/jobs/4211032": {
       "title": "Assistant Professor of Sports Management",
       "description": "Assistant Professor of Sports Management - Wilkes-Barre, PA - Wilkes University Jobs Jobs Login Apply Now You have JavaScript disabled on your browser. You will not be able to apply for this position without enabling javascript. If you need assistance with enabling javascript, please click here for assistance. * Fields Are Required What is your full name? First Name Last Name How can we contact you? Email Phone Number Number Type Home Cell Work What is your preferred method of communication? Email Text Message Please indicate if you agree to isolved Talent Acquisition's Applicant Communication Policy . Yes, I agree to be contacted by text messages No, I do not agree to receive text messages I agree to isolved Talent Acquisition's Privacy Policy and Terms of Service .* Apply for this Position Apply for this Position Sign Up For Job Alerts! Resources Jobs Listings Home Wilkes University Website Employee Benefits Information Student Work Study Program Hiring Software Maintained by isolved Talent Acquisition - © 2026 Refresh Search the FAQ here Go Common Questions"
+    },
+    "https://wilkesuniversitycareers.applicantpro.com/jobs/4221764": {
+      "title": "Assistant Professor, Electrical Engineering",
+      "description": "Assistant Professor, Electrical Engineering - Wilkes-Barre, PA - Wilkes University Jobs Jobs Login Apply Now You have JavaScript disabled on your browser. You will not be able to apply for this position without enabling javascript. If you need assistance with enabling javascript, please click here for assistance. * Fields Are Required What is your full name? First Name Last Name How can we contact you? Email Phone Number Number Type Home Cell Work What is your preferred method of communication? Email Text Message Please indicate if you agree to isolved Talent Acquisition's Applicant Communication Policy . Yes, I agree to be contacted by text messages No, I do not agree to receive text messages I agree to isolved Talent Acquisition's Privacy Policy and Terms of Service .* Apply for this Position Apply for this Position Sign Up For Job Alerts! Resources Jobs Listings Home Wilkes University Website Employee Benefits Information Student Work Study Program Hiring Software Maintained by isolved Talent Acquisition - © 2026 Refresh Search the FAQ here Go Common Questions"
+    },
+    "https://wilkesuniversitycareers.applicantpro.com/jobs/4221678": {
+      "title": "Director of Athletic Recruitment & Student Success",
+      "description": "Director of Athletic Recruitment & Student Success - Wilkes-Barre, PA - Wilkes University Jobs Jobs Login Apply Now You have JavaScript disabled on your browser. You will not be able to apply for this position without enabling javascript. If you need assistance with enabling javascript, please click here for assistance. * Fields Are Required What is your full name? First Name Last Name How can we contact you? Email Phone Number Number Type Home Cell Work What is your preferred method of communication? Email Text Message Please indicate if you agree to isolved Talent Acquisition's Applicant Communication Policy . Yes, I agree to be contacted by text messages No, I do not agree to receive text messages I agree to isolved Talent Acquisition's Privacy Policy and Terms of Service .* Apply for this Position Apply for this Position Sign Up For Job Alerts! Resources Jobs Listings Home Wilkes University Website Employee Benefits Information Student Work Study Program Hiring Software Maintained by isolved Talent Acquisition - © 2026 Refresh Search the FAQ here Go Common Questions"
     }
   },
   "rows": {
@@ -436,11 +444,33 @@
       "area_key_words": "Sports Management",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://wilkesuniversitycareers.applicantpro.com/jobs/4221764": {
+      "school_id": 1225,
+      "posting_url": "https://wilkesuniversitycareers.applicantpro.com/jobs/4221764",
+      "job_title_in_post": "Assistant Professor, Electrical Engineering",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Electrical Engineering",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://wilkesuniversitycareers.applicantpro.com/jobs/4221678": {
+      "school_id": 1225,
+      "posting_url": "https://wilkesuniversitycareers.applicantpro.com/jobs/4221678",
+      "job_title_in_post": "Director of Athletic Recruitment & Student Success",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Athletic Recruitment & Student Success",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1225,
   "status": "complete",
-  "updated_at": "2026-09-22T03:58:40+00:00",
-  "completed_at": "2026-09-22T03:58:40+00:00",
+  "updated_at": "2026-09-24T22:31:57+00:00",
+  "completed_at": "2026-09-24T22:31:57+00:00",
   "last_error": ""
 }

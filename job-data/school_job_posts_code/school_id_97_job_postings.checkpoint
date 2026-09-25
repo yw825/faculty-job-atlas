@@ -69,12 +69,14 @@
     "https://laverne.peopleadmin.com/postings/15299",
     "https://laverne.peopleadmin.com/postings/15719",
     "https://laverne.peopleadmin.com/postings/15720",
-    "https://laverne.peopleadmin.com/postings/15722"
+    "https://laverne.peopleadmin.com/postings/15722",
+    "https://laverne.peopleadmin.com/postings/15729",
+    "https://laverne.peopleadmin.com/postings/15728"
   ],
   "school_id": 97,
-  "status": "error",
-  "updated_at": "2026-09-21T18:10:53+00:00",
+  "status": "complete",
+  "updated_at": "2026-09-24T16:36:39+00:00",
   "started_at": "2026-09-08T01:15:52+00:00",
-  "completed_at": "2026-09-20T17:31:49+00:00",
-  "last_error": "RuntimeError: peopleadmin atom status=None"
+  "completed_at": "2026-09-24T16:36:39+00:00",
+  "last_error": ""
 }

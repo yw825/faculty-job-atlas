@@ -39,6 +39,10 @@
     "https://a.cms.omniupdate.com/11/?skin=oucampus&account=uhd&site=www&action=de&path=/hr/careers/temporary-employment.pcf": {
       "title": "Modern Campus CMS",
       "description": "Log In - Modern Campus CMS Modern Campus CMS Logo Modern Campus CMS Help Support Community Feedback Log in to your account Username LOGIN Reset Password Change Password Please enter a new password for user in account . New Password Reset Cancel System Announcements We're sorry; the system could not log you in. The authentication server returned the following error message: Reset Password Password reset instructions will be emailed to the address entered below. Username SUBMIT Back to Login Page Reset Password Your request was successfull. You will receive an email containing a link to reset your password. Back to Login Page Javascript Disabled Modern Campus CMS requires Javascript. Please enable Javascript in your browser settings."
+    },
+    "https://www.uhd.edu/hr/careers/former-foster-preference.html": {
+      "title": "Former Foster Preference",
+      "description": "Former Foster Preference | University of Houston-Downtown Skip to main content Request Info Apply AccessUHD myUHD Give Search Request Info Apply AccessUHD myUHD Give Quick Links Quick Links Academic Calendar Academic Affairs Admissions Advising Bookstore Canvas Center for Career and Professional Development Directory Events Calendar Financial Aid Gatormail Human Resources Information Technology Library myUHD Parking P.A.S.S. Police Department Strategic Plan Student Business Services Student Life Testing Services Transcripts UHD News About UHD About UHD About UHD Careers at UHD Community Engagement Data Analytics & Institutional Research Mission & Vision News Office of the President Points of Pride Quick Facts Strategic Plan Shared Values Student Achievement Information for ... Prospective Students Current Students Faculty/Staff Alumni Visitors Campus Locations All Locations UHD at Northwest UHD at 1801 UHD at LSC-CyFair UHD at LSC-Kingwood Academics Academics Colleges Marilyn Davies College of Business College of Humanities and Social Sciences College of Public Service College of Sciences and Technology Academic Affairs Academic Calendar Bookstore Catalog Class Schedule Center for Math & Statistics Support Continuing Education Degrees & Majors Honors Program Library Off Campus Instructional Sites Office of Study Abroad Tutoring Resources UHD Online Writing & Reading Center Admissions & Aid Admissions & Aid Admissions Apply to UHD Enrollment Management Financial Aid Scholarships Student Business Services Student Jobs Transfer Students Tuition & Fees The lowest tuition of any public university in Houston, plus scholarships to bring\n                                             it down further. Find Your Scholarship Student Success Student Success Academic Support Center Transfer Academy Accessible Education Center Center for Career and Professional Development Center for Math & Statistics Support Gator Success Institute Library Office of Study Abroad Registrar Student Counseling Services Student Government Association Student Handbook Student Health Services Student Success and Student Life Testing Services The Writing and Reading Center Tutoring Resources Veteran Services Student Life Student Life Bookstore Catalog Dateline Downtown Dean of Students Events Calendar eSports Gator Resource Center iRadio Sports & Fitness Student Leadership & Involvement Student Organizations Student Success and Student Life UHD / Human Resources / Careers at UHD / Former Foster Preference Former Foster Preference Navigate This Section HR Home Careers at UHD Student Employment Temporary Employment Veteran's Preference Former Foster Preference Benefits In compliance with Texas Code Chapter 672 , the University of Houston–Downtown is provides a preference in employment to eligible\n                           applicants who were once foster children who meet minimum qualifications and any special\n                           qualifications for the position to which they apply. The required preferences do not\n                           compel the university to appoint a former foster; however, they do require that those\n                           who meet the former foster preference eligibility be appointed when their application\n                           assessment, combined with the former foster's preference, is equal to, or higher than\n                           that of a non-eligible applicant. Eligible applicants receive this preference when they meet both following criteria: Were under Texas Department of Family and Protective Services (DFPS) permanent managing\n                              conservatorship on the day before their 18th birthday Are 25 years of age or younger at the time of application The preference does not require the university to hire an applicant but does require\n                              appropriate consideration consistent with state law. For more details regarding the Employment Preference for Former Foster Children, please\n                           contact our liaison in Human Resources at careers@uhd.edu . See room for improvement? Fill out this HR Website Feedback Form to provide input. One Main Street Houston, TX 77002 713-221-8000 Visitor Parking & Ride Share 201 Girard Street Houston, TX 77002 A–Z Index Academic Affairs Accessible Education Center Accreditation Campus Carry Policy Canvas Compact with Texans Directory Human Resources Information Technology Library Mental Health Resources Parking & Transportation Services Quality Enhancement Plan Student Achievement © 2026 University of Houston-Downtown Report a problem with this page University of Houston System Privacy Notice Fraud Reporting Fraud & Non-Compliance Hotline Linking Notice Open Records Institutional Resume State Required Reports Texas Homeland Security Texas Public Information Act (TPIA) Texas.gov HB 2504 TRAIL Sexual Misconduct & Discrimination Reporting University Policies Texas Veterans Portal Student Issue or Concern Report"
     }
   },
   "rows": {
@@ -151,11 +155,22 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://www.uhd.edu/hr/careers/former-foster-preference.html": {
+      "school_id": 1399,
+      "posting_url": "https://www.uhd.edu/hr/careers/former-foster-preference.html",
+      "job_title_in_post": "Former Foster Preference",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Department of Family and Protective Services",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1399,
   "status": "complete",
-  "updated_at": "2026-09-22T04:03:32+00:00",
-  "completed_at": "2026-09-22T04:03:32+00:00",
+  "updated_at": "2026-09-24T23:00:30+00:00",
+  "completed_at": "2026-09-24T23:00:30+00:00",
   "last_error": ""
 }

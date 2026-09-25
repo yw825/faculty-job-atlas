@@ -73,6 +73,21 @@
       "title": "Senior Officer, Treasury",
       "description": "",
       "department": null
+    },
+    "https://iablgs.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/593": {
+      "title": "Senior Manager, Product Marketing",
+      "description": "",
+      "department": null
+    },
+    "https://iablgs.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/594": {
+      "title": "Senior Manager, B2B Marketing",
+      "description": "",
+      "department": null
+    },
+    "https://iablgs.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/601": {
+      "title": "Coordinator, Faculty Support",
+      "description": "",
+      "department": null
     }
   },
   "rows": {
@@ -191,11 +206,44 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://iablgs.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/593": {
+      "school_id": 1675,
+      "posting_url": "https://iablgs.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/593",
+      "job_title_in_post": "Senior Manager, Product Marketing",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://iablgs.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/594": {
+      "school_id": 1675,
+      "posting_url": "https://iablgs.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/594",
+      "job_title_in_post": "Senior Manager, B2B Marketing",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://iablgs.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/601": {
+      "school_id": 1675,
+      "posting_url": "https://iablgs.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/601",
+      "job_title_in_post": "Coordinator, Faculty Support",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1675,
   "status": "complete",
-  "updated_at": "2026-09-22T15:38:50+00:00",
-  "completed_at": "2026-09-22T15:38:50+00:00",
+  "updated_at": "2026-09-24T23:36:56+00:00",
+  "completed_at": "2026-09-24T23:36:56+00:00",
   "last_error": ""
 }

@@ -118,6 +118,11 @@
     },
     "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4385": {
       "error": "not present in bulk fetch result"
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4416": {
+      "title": "Assistant Professor (tenure-track), Global 18th -Century Literatures",
+      "description": "",
+      "department": null
     }
   },
   "rows": {
@@ -371,11 +376,22 @@
     },
     "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4385": {
       "error": "not present in bulk fetch result"
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4416": {
+      "school_id": 1587,
+      "posting_url": "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4416",
+      "job_title_in_post": "Assistant Professor (tenure-track), Global 18th -Century Literatures",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Century Literatures",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1587,
   "status": "complete",
-  "updated_at": "2026-09-22T15:28:44+00:00",
-  "completed_at": "2026-09-22T15:28:44+00:00",
+  "updated_at": "2026-09-24T23:27:41+00:00",
+  "completed_at": "2026-09-24T23:27:41+00:00",
   "last_error": ""
 }

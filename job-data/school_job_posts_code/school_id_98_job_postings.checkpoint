@@ -15,12 +15,18 @@
     "https://csucareers.calstate.edu/en-us/job/554173/fulltime-lecturer-associate-director-of-forensics-speech-and-debate",
     "https://csucareers.calstate.edu/en-us/job/554406/fulltime-lecturer-asld-1-to-3academic-years-appointment-renewable",
     "https://csucareers.calstate.edu/en-us/job/561789/assistant-professor-of-biological-sciences-marine-invertebrate-zoologist",
-    "https://csucareers.calstate.edu/en-us/job/561756/assistant-professor-of-biological-sciences-physiologist"
+    "https://csucareers.calstate.edu/en-us/job/561756/assistant-professor-of-biological-sciences-physiologist",
+    "https://csucareers.calstate.edu/en-us/job/562029/associatefull-professor-of-chemistry-with-tenure-the-john-and-elizabeth-leonard-endowed-chair-of-environmental-chemistry-full-professor-rank-will-be-considered-for-exceptional-and-experienced-candidates",
+    "https://csucareers.calstate.edu/en-us/job/561867/assistant-professor-of-dance",
+    "https://csucareers.calstate.edu/en-us/job/561740/assistant-professor-of-earth-science",
+    "https://csucareers.calstate.edu/en-us/job/561750/assistant-professor-of-earth-science",
+    "https://csucareers.calstate.edu/en-us/job/561577/fulltime-lecturer-of-interpreting",
+    "https://csucareers.calstate.edu/en-us/job/561334/assistant-professor-of-translation-studies"
   ],
   "school_id": 98,
   "status": "error",
-  "updated_at": "2026-09-21T18:23:08+00:00",
+  "updated_at": "2026-09-24T16:36:46+00:00",
   "started_at": "2026-09-08T01:15:53+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://csucareers.calstate.edu/en-us/filter/?=&leftNavSearchFormQuery=&=&search=&search-keyword=&job-mail-subscribe-privacy=agree&work-type=instructional%20faculty%20-%20temporary%2flecturer&work-type=instructional%20faculty%20%e2%80%93%20tenured%2ftenure-track&location=long%20beach&job-mail-subscribe-privacy=agree\", waiting until \"domcontentloaded\"\n",
-  "completed_at": "2026-09-17T16:06:20+00:00"
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content.",
+  "completed_at": "2026-09-24T00:15:27+00:00"
 }
