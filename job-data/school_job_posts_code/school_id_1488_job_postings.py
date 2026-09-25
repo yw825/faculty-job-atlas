@@ -1,22 +1,22 @@
 """
 Job postings scraper for school_id 1488 - Roanoke College (US)
-ATS platform: own website
-Careers link: https://www.roanoke.edu/inside/human_resources/jobs_roanoke
+ATS platform: JobScore
+Careers link: https://careers.jobscore.com/careers/roanokecollege
 
 No shared ATS platform adapter applies to this school -- find_links() below
-is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
-directly to fix or improve results for Roanoke College; nothing here affects any
-other school's script.
+is THIS SCHOOL'S OWN scraping logic, owned entirely by this file.
 
-Link check (ok): 11 posting-shaped links found.
+Roanoke does not host its openings. Its careers link was
+roanoke.edu/inside/human_resources/jobs_roanoke, from which the generic
+filter collected eleven navigation links (academic program pages, alumni
+content) and no postings.
 
-Starting point (not a tuned answer): fetch the careers page with JS
-rendered, then keep every link whose href or visible text looks
-job/vacancy/posting-shaped (job_postings_lib.COMMON_JOB_URL_HINTS). If that
-under- or over-collects, narrow the pattern to this site's real posting URL
-shape (the single most common fix -- a generic filter also matches a site's
-own navigation), add a click/scroll step via fetch_rendered's `actions`
-argument, or follow pagination with a second fetch and merge the results.
+The college's board is JobScore. Note roanoke.edu/jobs is not usable as a
+substitute: it returns a megabyte of HTML containing zero job links, because
+the listing is injected by script -- the vendor board is the only route.
+
+Postings are linked relatively (/careers/roanokecollege/jobs/<slug>-<id>),
+so they are resolved against the JobScore host here.
 
 Writes school_job_posts/school_id_1488_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1488_job_postings.checkpoint next to this script.
@@ -24,6 +24,7 @@ Checkpointed to school_id_1488_job_postings.checkpoint next to this script.
 import os
 import re
 import sys
+from urllib.parse import urljoin, urlparse
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.dirname(HERE))
@@ -31,19 +32,34 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1488
 SCHOOL_NAME = 'Roanoke College'
-CAREERS_LINK = 'https://www.roanoke.edu/inside/human_resources/jobs_roanoke'
-ATS_PLATFORM = 'own website'
+CAREERS_LINK = 'https://careers.jobscore.com/careers/roanokecollege'
+ATS_PLATFORM = 'JobScore'
+
+HOST = 'careers.jobscore.com'
+POSTING_PATH = re.compile(r'^/careers/roanokecollege/jobs/[A-Za-z0-9][\w\-]{6,160}$')
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
+    from bs4 import BeautifulSoup
+    html = lib.fetch_rendered(CAREERS_LINK, wait_ms=9000)
     if lib.is_fetch_failure(html):
         raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    soup = BeautifulSoup(html, 'html.parser')
+    links, seen = [], set()
+    for a in soup.find_all('a', href=True):
+        full = urljoin(CAREERS_LINK, a['href'].strip())
+        parsed = urlparse(full)
+        if parsed.netloc != HOST or not POSTING_PATH.match(parsed.path):
+            continue
+        clean = f'https://{HOST}{parsed.path}'
+        if clean not in seen:
+            seen.add(clean)
+            links.append(clean)
+    if not links:
+        raise RuntimeError('roanoke jobscore board listed no postings')
+    return links
 
 
 def main():

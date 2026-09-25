@@ -1,14 +1,22 @@
 """
 Job postings scraper for school_id 346 - Graceland University-Lamoni (US)
 ATS platform: Oracle Cloud HCM (detected: oracle)
-Careers link: https://sfp.ocs.oraclecloud.com/graceland/portal/saml)
+Careers link: https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions
 
-Graceland University-Lamoni runs on a shared ATS platform -- every school on oracle uses the
-same underlying site software, so this calls the shared
+Graceland University-Lamoni runs on a shared ATS platform -- every school on
+oracle uses the same underlying site software, so this calls the shared
 job_postings_lib.scrape_oracle adapter rather than duplicating
 platform-specific logic here. If results for THIS ONE school need a tweak
-that shouldn't apply to every oracle school, define find_links() below
-and pass it to run_checkpointed instead of editing the shared adapter.
+that shouldn't apply to every oracle school, define find_links() below and
+pass it to run_checkpointed instead of editing the shared adapter.
+
+The careers link was https://sfp.ocs.oraclecloud.com/graceland/portal/saml)
+-- note the trailing parenthesis, a copy/paste artefact that had been stored
+verbatim. Even with it removed that host is a SAML sign-in portal, not a job
+board, and the adapter timed out waiting for a job request that never came.
+
+Graceland's board is its own Oracle tenant, ibqcjb, found on the
+university's employment page. It returns 16 postings.
 
 Writes school_job_posts/school_id_346_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_346_job_postings.checkpoint next to this script.
@@ -22,7 +30,8 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 346
 SCHOOL_NAME = 'Graceland University-Lamoni'
-CAREERS_LINK = 'https://sfp.ocs.oraclecloud.com/graceland/portal/saml)'
+CAREERS_LINK = ('https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/'
+                'en/sites/CX_1/requisitions')
 ATS_PLATFORM = 'Oracle Cloud HCM'
 PLATFORM = 'oracle'
 
