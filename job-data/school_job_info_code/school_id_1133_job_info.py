@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1133
 SCHOOL_NAME = 'University of Pittsburgh-Bradford'
-CAREERS_LINK = 'https://cfopitt.taleo.net/careersection/pitt_staff_external/jobdetail.ftl?job=26003465&tz=GMT-04%3A00&tzname=America%2FNew_York'
+CAREERS_LINK = 'https://cfopitt.taleo.net/careersection/pitt_staff_external/jobsearch.ftl'
 ATS_PLATFORM = 'Taleo'
 USE_LLM = False
 

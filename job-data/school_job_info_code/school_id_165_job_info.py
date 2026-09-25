@@ -29,8 +29,8 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 165
 SCHOOL_NAME = 'University of Colorado Colorado Springs'
-CAREERS_LINK = 'https://cu.taleo.net/careersection/2/moresearch.ftl?lang=en&location=6300103016&portal=101430233&radius=1&radiusType=K&searchExpanded=true'
-ATS_PLATFORM = 'Taleo'
+CAREERS_LINK = 'https://jobs.colorado.edu/jobs/SearchJobs'
+ATS_PLATFORM = 'own website'
 USE_LLM = False
 
 JOB_POSTINGS_CHECKPOINT = os.path.join(

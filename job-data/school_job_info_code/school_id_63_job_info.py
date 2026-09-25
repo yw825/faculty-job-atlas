@@ -29,8 +29,8 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 63
 SCHOOL_NAME = 'Arizona State University Campus Immersion'
-CAREERS_LINK = 'https://facultypositions.asu.edu/#/api/Home/_InterfolioPostings'
-ATS_PLATFORM = 'own website'
+CAREERS_LINK = 'https://apply.interfolio.com/9635/positions'
+ATS_PLATFORM = 'Interfolio'
 USE_LLM = False
 
 JOB_POSTINGS_CHECKPOINT = os.path.join(

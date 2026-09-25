@@ -1429,9 +1429,26 @@ def interfolio_positions(url):
 
 
 def scrape_interfolio(url):
+    """Interfolio gives every posting TWO ids and they are not aliases.
+
+    A board row carries `id` (the board's internal number) and
+    `legacy_position_id` (the number in the public apply.interfolio.com
+    URL). Building links from `id` produced URLs that open a DIFFERENT
+    university's posting: Notre Dame's board id 191646 opens a Stony Brook
+    biomedical professorship, London Business School's 192002 opens a
+    Rochester economics post, Arizona State's 189895 opens a UVA law chair.
+    1,086 postings across 30 schools were stored that way -- Penn 523,
+    UVA-Wise 205, Case Western 182 -- every one of them pointing at someone
+    else's job, which is worse than missing the posting entirely.
+
+    legacy_position_id is populated on every row of every board checked
+    (326 rows across five boards, never equal to `id`), so the fallback
+    below should not fire; it exists so a board that ever omits it degrades
+    to the old behaviour rather than dropping the posting.
+    """
     seen, links = set(), []
     for r in interfolio_positions(url):
-        pid = r.get('id')
+        pid = r.get('legacy_position_id') or r.get('id')
         if pid and pid not in seen:
             seen.add(pid)
             links.append(f'https://apply.interfolio.com/{pid}')

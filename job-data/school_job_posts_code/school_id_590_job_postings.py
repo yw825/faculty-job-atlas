@@ -1,25 +1,10 @@
 """
-Job postings scraper for school_id 590 - Johns Hopkins University (US)
+Job postings scraper for school_id 590 - Johns Hopkins University
 ATS platform: own website
-Careers link: https://facultyjobs.jhu.edu
+Careers link: https://facultyjobs.jhu.edu/positions
 
-No shared ATS platform adapter applies to this school -- find_links() below
-is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
-directly to fix or improve results for Johns Hopkins University; nothing here affects any
-other school's script.
-
-Link check (ok): 5 posting-shaped links found -- rendered.
-
-Starting point (not a tuned answer): fetch the careers page with JS
-rendered, then keep every link whose href or visible text looks
-job/vacancy/posting-shaped (job_postings_lib.COMMON_JOB_URL_HINTS). If that
-under- or over-collects, narrow the pattern to this site's real posting URL
-shape (the single most common fix -- a generic filter also matches a site's
-own navigation), add a click/scroll step via fetch_rendered's `actions`
-argument, or follow pagination with a second fetch and merge the results.
-
-Writes school_job_posts/school_id_590_job_posts.csv (school_id, post_link).
-Checkpointed to school_id_590_job_postings.checkpoint next to this script.
+facultyjobs.jhu.edu renders client-side; the old link collected six
+navigation entries and no jobs.
 """
 import os
 import re
@@ -31,19 +16,42 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 590
 SCHOOL_NAME = 'Johns Hopkins University'
-CAREERS_LINK = 'https://facultyjobs.jhu.edu'
+CAREERS_LINK = 'https://facultyjobs.jhu.edu/positions'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
+# The faculty site is a Vue app: a plain fetch returns a 694-byte shell, which
+# is why this school sat at six navigation links. It is backed by a public
+# paginated JSON API carrying every posting -- 240 across 13 pages.
+API = 'https://facultyjobs.jhu.edu/api/positions?page={page}'
+MAX_PAGES = 40
+
+
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    links, page, total_pages = [], 1, None
+    while page <= MAX_PAGES:
+        status, body = lib.fetch_static(API.format(page=page),
+                                        extra_headers={'Accept': 'application/json'})
+        if status != 200 or not body:
+            break
+        import json
+        result = (json.loads(body).get('result') or {})
+        positions = result.get('positions') or []
+        if not positions:
+            break
+        for p in positions:
+            pid = p.get('legacyPositionId') or p.get('id')
+            if pid:
+                links.append(f'https://apply.interfolio.com/{pid}')
+        total_pages = result.get('totalPages') or 1
+        if page >= total_pages:
+            break
+        page += 1
+    if not links:
+        raise RuntimeError('johns hopkins api returned no positions')
+    return links
 
 
 def main():

@@ -1,17 +1,11 @@
 """
-Job postings scraper for school_id 277 - Georgia State University (US)
-ATS platform: Taleo (detected: taleo)
-Careers link: https://gsu.taleo.net/
+Job postings scraper for school_id 277 - Georgia State University
+ATS platform: PeopleAdmin
+Careers link: https://facultycareers.gsu.edu/postings/search
 
-Georgia State University runs on a shared ATS platform -- every school on taleo uses the
-same underlying site software, so this calls the shared
-job_postings_lib.scrape_taleo adapter rather than duplicating
-platform-specific logic here. If results for THIS ONE school need a tweak
-that shouldn't apply to every taleo school, define find_links() below
-and pass it to run_checkpointed instead of editing the shared adapter.
-
-Writes school_job_posts/school_id_277_job_posts.csv (school_id, post_link).
-Checkpointed to school_id_277_job_postings.checkpoint next to this script.
+gsu.taleo.net answers with an SSO redirect stub (saml20authnrequestservlet),
+not a job board, so this school sat at zero. Its faculty postings are on a
+PeopleAdmin board, which serves 30 openings over plain HTTP.
 """
 import os
 import sys
@@ -22,9 +16,9 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 277
 SCHOOL_NAME = 'Georgia State University'
-CAREERS_LINK = 'https://gsu.taleo.net/'
-ATS_PLATFORM = 'Taleo'
-PLATFORM = 'taleo'
+CAREERS_LINK = 'https://facultycareers.gsu.edu/postings/search'
+ATS_PLATFORM = 'PeopleAdmin'
+PLATFORM = 'peopleadmin'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 

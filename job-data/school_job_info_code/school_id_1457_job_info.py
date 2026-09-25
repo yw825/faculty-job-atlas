@@ -29,8 +29,8 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1457
 SCHOOL_NAME = 'Virginia Polytechnic Institute and State University'
-CAREERS_LINK = 'https://careers.pageuppeople.com/968/cw/en-us/listing'
-ATS_PLATFORM = 'PageUp'
+CAREERS_LINK = 'https://jobs.apply.vt.edu/jobs/search/search-page-faculty'
+ATS_PLATFORM = 'own website'
 USE_LLM = False
 
 JOB_POSTINGS_CHECKPOINT = os.path.join(

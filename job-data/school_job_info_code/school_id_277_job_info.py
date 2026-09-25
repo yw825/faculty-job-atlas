@@ -29,8 +29,8 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 277
 SCHOOL_NAME = 'Georgia State University'
-CAREERS_LINK = 'https://gsu.taleo.net/'
-ATS_PLATFORM = 'Taleo'
+CAREERS_LINK = 'https://facultycareers.gsu.edu/postings/search'
+ATS_PLATFORM = 'PeopleAdmin'
 USE_LLM = False
 
 JOB_POSTINGS_CHECKPOINT = os.path.join(

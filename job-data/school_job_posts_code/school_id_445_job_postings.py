@@ -1,19 +1,12 @@
 """
-Job postings scraper for school_id 445 - University of Notre Dame (US)
-ATS platform: SmartRecruiters (detected: smartrecruiters)
-Careers link: https://jobs.smartrecruiters.com/my-applications/UniversityOfNotreDame?dcr_ci=UniversityOfNotreDame
+Job postings scraper for school_id 445 - University of Notre Dame
+ATS platform: own website
+Careers link: https://facultypositions.nd.edu/
 
-University of Notre Dame runs on a shared ATS platform -- every school on smartrecruiters uses the
-same underlying site software, so this calls the shared
-job_postings_lib.scrape_smartrecruiters adapter rather than duplicating
-platform-specific logic here. If results for THIS ONE school need a tweak
-that shouldn't apply to every smartrecruiters school, define find_links() below
-and pass it to run_checkpointed instead of editing the shared adapter.
-
-Writes school_job_posts/school_id_445_job_posts.csv (school_id, post_link).
-Checkpointed to school_id_445_job_postings.checkpoint next to this script.
+SmartRecruiters carries Notre Dame's staff jobs, not its faculty openings.
 """
 import os
+import re
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -22,16 +15,31 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 445
 SCHOOL_NAME = 'University of Notre Dame'
-CAREERS_LINK = 'https://jobs.smartrecruiters.com/UniversityOfNotreDame'
-ATS_PLATFORM = 'SmartRecruiters'
-PLATFORM = 'smartrecruiters'
+CAREERS_LINK = 'https://facultypositions.nd.edu/'
+ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
+# Notre Dame runs SmartRecruiters for staff and Interfolio for faculty. The
+# SmartRecruiters board (160 links) carries no faculty postings, so this reads
+# the university's own faculty page, which lists every Interfolio opening.
+LISTING = 'https://facultypositions.nd.edu/'
+RENDER_WAIT_MS = 9000
+
+
+def find_links():
+    html = lib.fetch_rendered(LISTING, wait_ms=RENDER_WAIT_MS)
+    if lib.is_fetch_failure(html):
+        raise RuntimeError(html)
+    ids = sorted(set(re.findall(r'apply\.interfolio\.com/(\d+)', html)), key=int)
+    if not ids:
+        raise RuntimeError('notre dame faculty page listed no positions')
+    return [f'https://apply.interfolio.com/{i}' for i in ids]
+
+
 def main():
-    result = lib.run_platform_school(SCHOOL_ID, SCHOOL_NAME, CAREERS_LINK,
-                                     CHECKPOINT_PATH, platform=PLATFORM)
+    result = lib.run_checkpointed(SCHOOL_ID, CHECKPOINT_PATH, find_links)
     err = result.get('last_error', '')
     print(f"{SCHOOL_NAME} (id={SCHOOL_ID}): status={result['status']} "
           f"links={len(result['links'])}" + (f" ERROR: {err}" if err else ''))

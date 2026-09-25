@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1202
 SCHOOL_NAME = 'University of Pittsburgh-Pittsburgh Campus'
-CAREERS_LINK = 'https://cfopitt.taleo.net/careersection/pitt_internal/jobsearch.ftl?lang=en&portal=10100023232'
+CAREERS_LINK = 'https://cfopitt.taleo.net/careersection/pitt_faculty_external/jobsearch.ftl'
 ATS_PLATFORM = 'Taleo'
 USE_LLM = False
 

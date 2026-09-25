@@ -29,8 +29,8 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 168
 SCHOOL_NAME = 'University of Colorado Denver/Anschutz Medical Campus'
-CAREERS_LINK = 'https://cu.taleo.net/careersection/2/moresearch.ftl?lang=en'
-ATS_PLATFORM = 'Taleo'
+CAREERS_LINK = 'https://jobs.colorado.edu/jobs/SearchJobs'
+ATS_PLATFORM = 'own website'
 USE_LLM = False
 
 JOB_POSTINGS_CHECKPOINT = os.path.join(

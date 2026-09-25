@@ -1,17 +1,10 @@
 """
-Job postings scraper for school_id 1133 - University of Pittsburgh-Bradford (US)
-ATS platform: Taleo (detected: taleo)
-Careers link: https://cfopitt.taleo.net/careersection/pitt_staff_external/jobdetail.ftl?job=26003465&tz=GMT-04%3A00&tzname=America%2FNew_York
+Job postings scraper for school_id 1133 - University of Pittsburgh-Bradford
+ATS platform: Taleo
+Careers link: https://cfopitt.taleo.net/careersection/pitt_staff_external/jobsearch.ftl
 
-University of Pittsburgh-Bradford runs on a shared ATS platform -- every school on taleo uses the
-same underlying site software, so this calls the shared
-job_postings_lib.scrape_taleo adapter rather than duplicating
-platform-specific logic here. If results for THIS ONE school need a tweak
-that shouldn't apply to every taleo school, define find_links() below
-and pass it to run_checkpointed instead of editing the shared adapter.
-
-Writes school_job_posts/school_id_1133_job_posts.csv (school_id, post_link).
-Checkpointed to school_id_1133_job_postings.checkpoint next to this script.
+The careers link pointed at ONE job (jobdetail.ftl?job=26003465) rather than
+a listing. This career section renders 25 job links directly in its HTML.
 """
 import os
 import sys
@@ -22,7 +15,7 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1133
 SCHOOL_NAME = 'University of Pittsburgh-Bradford'
-CAREERS_LINK = 'https://cfopitt.taleo.net/careersection/pitt_staff_external/jobdetail.ftl?job=26003465&tz=GMT-04%3A00&tzname=America%2FNew_York'
+CAREERS_LINK = 'https://cfopitt.taleo.net/careersection/pitt_staff_external/jobsearch.ftl'
 ATS_PLATFORM = 'Taleo'
 PLATFORM = 'taleo'
 

@@ -1,17 +1,10 @@
 """
-Job postings scraper for school_id 1675 - INSEAD (France)
-ATS platform: Oracle Cloud HCM (detected: oracle)
-Careers link: https://iablgs.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs?mode=location
+Job postings scraper for school_id 1675 - INSEAD
+ATS platform: Interfolio
+Careers link: https://apply.interfolio.com/46334/positions
 
-INSEAD runs on a shared ATS platform -- every school on oracle uses the
-exact same underlying site software, so this calls the shared
-job_postings_lib.scrape_oracle adapter rather than duplicating
-platform-specific API logic here. If results for this ONE school still need
-a tweak that shouldn't apply to every oracle school, override find_links
-below instead of editing the shared adapter.
-
-Writes school_job_posts/school_id_1675_job_posts.csv (school_id, post_link).
-Checkpointed to school_id_1675_job_postings.checkpoint next to this script.
+The Oracle Cloud candidate portal returned 20 links, none of them faculty
+postings. INSEAD's faculty openings are on Interfolio board 46334.
 """
 import os
 import sys
@@ -22,15 +15,16 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1675
 SCHOOL_NAME = 'INSEAD'
-CAREERS_LINK = 'https://iablgs.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs?mode=location'
-ATS_PLATFORM = 'Oracle Cloud HCM'
-PLATFORM = 'oracle'
+CAREERS_LINK = 'https://apply.interfolio.com/46334/positions'
+ATS_PLATFORM = 'Interfolio'
+PLATFORM = 'interfolio'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def main():
-    result = lib.run_platform_school(SCHOOL_ID, SCHOOL_NAME, CAREERS_LINK, CHECKPOINT_PATH, platform=PLATFORM)
+    result = lib.run_platform_school(SCHOOL_ID, SCHOOL_NAME, CAREERS_LINK,
+                                     CHECKPOINT_PATH, platform=PLATFORM)
     err = result.get('last_error', '')
     print(f"{SCHOOL_NAME} (id={SCHOOL_ID}): status={result['status']} "
           f"links={len(result['links'])}" + (f" ERROR: {err}" if err else ''))

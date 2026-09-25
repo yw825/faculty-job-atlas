@@ -35,8 +35,8 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1675
 SCHOOL_NAME = 'INSEAD'
-CAREERS_LINK = 'https://iablgs.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1?utm_medium=direct'
-ATS_PLATFORM = 'Oracle Cloud HCM'
+CAREERS_LINK = 'https://apply.interfolio.com/46334/positions'
+ATS_PLATFORM = 'Interfolio'
 PLATFORM = 'oracle'
 USE_LLM = False  # set True once you have ANTHROPIC_API_KEY configured
 
@@ -44,9 +44,17 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(HERE, '..', 'school_job_posts_code', f'sc
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 
+def fetch_detail(url):
+    """INSEAD's faculty openings are Interfolio postings, read individually.
+    main() used to call the bulk path pinned to 'oracle', which timed out
+    waiting for a recruitingCEJobRequisitions request that the Interfolio
+    board never makes."""
+    return jinfo.fetch_detail_generic(url)
+
+
 def main():
-    result = jinfo.run_school_job_info_bulk(SCHOOL_ID, CAREERS_LINK, PLATFORM,
-                                             JOB_POSTINGS_CHECKPOINT, CHECKPOINT_PATH, use_llm=USE_LLM)
+    result = jinfo.run_school_job_info(SCHOOL_ID, JOB_POSTINGS_CHECKPOINT, CHECKPOINT_PATH,
+                                       fetch_detail_fn=fetch_detail, use_llm=USE_LLM)
     err = result.get('last_error', '')
     n_ok = sum(1 for r in result['rows'].values() if 'error' not in r)
     print(f"{SCHOOL_NAME} (id={SCHOOL_ID}): status={result['status']} "

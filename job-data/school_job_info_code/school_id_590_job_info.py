@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 590
 SCHOOL_NAME = 'Johns Hopkins University'
-CAREERS_LINK = 'https://facultyjobs.jhu.edu'
+CAREERS_LINK = 'https://facultyjobs.jhu.edu/positions'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

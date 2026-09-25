@@ -29,8 +29,8 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 204
 SCHOOL_NAME = 'George Washington University'
-CAREERS_LINK = 'https://careers.gwu.edu/'
-ATS_PLATFORM = 'own website'
+CAREERS_LINK = 'https://www.gwu.jobs/postings/search'
+ATS_PLATFORM = 'PeopleAdmin'
 USE_LLM = False
 
 JOB_POSTINGS_CHECKPOINT = os.path.join(
