@@ -1,1 +1,17 @@
-{"links": ["https://nl.edu/faculty-and-staff/", "https://nl.edu/employment/adjunct-applicant-process/", "https://twitter.com/nlujobs"], "school_id": 377, "status": "complete", "updated_at": "2026-09-24T17:10:32+00:00", "started_at": "2026-09-08T01:38:47+00:00", "completed_at": "2026-09-24T17:10:32+00:00", "last_error": ""}
+{
+  "links": [
+    "https://nl.edu/faculty-and-staff/",
+    "https://nl.edu/employment/adjunct-applicant-process/",
+    "https://twitter.com/nlujobs",
+    "https://nl.edu/student-services/career-bridge/",
+    "https://nl.edu/employment/",
+    "https://nl.edu/faculty/",
+    "https://nl.edu/jobs/"
+  ],
+  "school_id": 377,
+  "status": "complete",
+  "updated_at": "2026-09-25T16:39:36+00:00",
+  "started_at": "2026-09-08T01:38:47+00:00",
+  "completed_at": "2026-09-25T16:39:36+00:00",
+  "last_error": ""
+}

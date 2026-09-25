@@ -1,1 +1,16 @@
-{"links": ["https://services.miu.edu/human-resources/faculty/returning-faculty/", "https://services.miu.edu/human-resources/faculty/apply/guest-lecturer/", "https://www.miu.edu/campus-directory"], "school_id": 340, "status": "complete", "updated_at": "2026-09-24T17:05:55+00:00", "started_at": "2026-09-08T01:34:48+00:00", "completed_at": "2026-09-24T17:05:55+00:00", "last_error": ""}
+{
+  "links": [
+    "https://services.miu.edu/human-resources/faculty/returning-faculty/",
+    "https://services.miu.edu/human-resources/faculty/apply/guest-lecturer/",
+    "https://www.miu.edu/campus-directory",
+    "https://faculty.miu.edu/",
+    "https://faculty.miu.edu",
+    "https://services.miu.edu/human-resources/faculty/"
+  ],
+  "school_id": 340,
+  "status": "complete",
+  "updated_at": "2026-09-25T16:35:14+00:00",
+  "started_at": "2026-09-08T01:34:48+00:00",
+  "completed_at": "2026-09-25T16:35:14+00:00",
+  "last_error": ""
+}

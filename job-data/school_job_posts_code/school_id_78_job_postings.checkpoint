@@ -24,12 +24,17 @@
     "https://jobs.csuchico.edu/ch/en-us/job/562005/assistant-professor-of-sport-exercise-psychology-social-scientist",
     "https://jobs.csuchico.edu/ch/en-us/job/561635/assistant-professor-position-college-of-agriculture",
     "https://jobs.csuchico.edu/ch/en-us/job/562254/assistant-tenuretrack-professor-of-biology-specializing-in-microbiology",
-    "https://jobs.csuchico.edu/ch/en-us/job/562348/202728-lecturer-pool-department-of-psychology-chico-state-at-lake-tahoe-community-college"
+    "https://jobs.csuchico.edu/ch/en-us/job/562348/202728-lecturer-pool-department-of-psychology-chico-state-at-lake-tahoe-community-college",
+    "https://jobs.csuchico.edu/en-us/listing/",
+    "https://jobs.csuchico.edu/ch/en-us/subscribe/",
+    "https://jobs.csuchico.edu/ch/en-us/Search/?search-keyword=&work-type=instructional+faculty+-+temporary%2flecturer%2cinstructional+faculty+%e2%80%93+tenured%2ftenure-track%2cvisiting+faculty%2cnon-instructional+faculty+(coach%2fCounselor%2flibrarian)&_gl=1*nuuf33*global_ga*Nzc4ODA3ODIwLjE3ODc4NzUwODE.*global_ga_VM2YX7L78G*czE3ODc4NzUwODAkbzEkZzEkdDE3ODc4NzUwOTAkajUwJGwwJGgw&subscribe=true",
+    "https://jobs.csuchico.edu/ch/en-us/job/562313/assistant-tenuretrack-professor-for-communication-sciences-and-disorders",
+    "https://jobs.csuchico.edu/ch/en-us/search/?search-keyword=&work-type=instructional+faculty+-+temporary%2flecturer%2cinstructional+faculty+%e2%80%93+tenured%2ftenure-track%2cvisiting+faculty%2cnon-instructional+faculty+(coach%2fCounselor%2flibrarian)&job-mail-subscribe-privacy=agree&_gl=1*nuuf33*global_ga*Nzc4ODA3ODIwLjE3ODc4NzUwODE.*global_ga_VM2YX7L78G*czE3ODc4NzUwODAkbzEkZzEkdDE3ODc4NzUwOTAkajUwJGwwJGgw&page=2&page-items=20"
   ],
   "school_id": 78,
-  "status": "error",
-  "updated_at": "2026-09-24T16:34:46+00:00",
+  "status": "complete",
+  "updated_at": "2026-09-25T16:06:04+00:00",
   "started_at": "2026-09-08T01:14:05+00:00",
-  "completed_at": "2026-09-21T17:47:52+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+  "completed_at": "2026-09-25T16:06:04+00:00",
+  "last_error": ""
 }

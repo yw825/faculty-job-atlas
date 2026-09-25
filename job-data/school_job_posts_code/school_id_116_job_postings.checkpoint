@@ -26,9 +26,9 @@
     "https://careers.cpp.edu/po/en-us/job/562204/electromechanical-engineering-technology-assistant-professor"
   ],
   "school_id": 116,
-  "status": "complete",
-  "updated_at": "2026-09-24T16:38:06+00:00",
+  "status": "error",
+  "updated_at": "2026-09-25T16:08:47+00:00",
   "started_at": "2026-09-08T01:17:33+00:00",
   "completed_at": "2026-09-24T16:38:06+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
 }

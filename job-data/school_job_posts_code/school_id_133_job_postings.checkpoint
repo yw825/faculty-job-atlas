@@ -25,12 +25,17 @@
     "https://careers.sdsu.edu/en-us/job/561796/assistant-professor-of-political-science-public-law",
     "https://careers.sdsu.edu/en-us/job/561370/assistant-professor-of-biliteracy-education-spanishenglish",
     "https://careers.sdsu.edu/en-us/job/562101/associatefull-professor-for-dissemination-implementation-science",
-    "https://careers.sdsu.edu/en-us/job/561856/assistant-professor-of-chemistry-and-biochemistry"
+    "https://careers.sdsu.edu/en-us/job/561856/assistant-professor-of-chemistry-and-biochemistry",
+    "https://careers.sdsu.edu/en-us/subscribe/",
+    "https://careers.sdsu.edu/en-us/Search/?search-keyword=&work-type=instructional+faculty+-+temporary%2flecturer%2cinstructional+faculty+%e2%80%93+tenured%2ftenure-track&subscribe=true",
+    "https://careers.sdsu.edu/en-us/job/562036/assistant-professor-of-exercise-and-nutritional-sciences",
+    "https://careers.sdsu.edu/en-us/search/?search-keyword=&work-type=instructional+faculty+-+temporary%2flecturer%2cinstructional+faculty+%e2%80%93+tenured%2ftenure-track&job-mail-subscribe-privacy=agree&page=2&page-items=20",
+    "https://bfa.sdsu.edu/hr/jobs"
   ],
   "school_id": 133,
-  "status": "error",
-  "updated_at": "2026-09-24T16:38:45+00:00",
+  "status": "complete",
+  "updated_at": "2026-09-25T16:09:16+00:00",
   "started_at": "2026-09-08T01:18:17+00:00",
-  "completed_at": "2026-09-24T00:16:51+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+  "completed_at": "2026-09-25T16:09:16+00:00",
+  "last_error": ""
 }

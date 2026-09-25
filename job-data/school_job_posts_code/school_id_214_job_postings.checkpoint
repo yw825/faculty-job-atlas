@@ -1,1 +1,15 @@
-{"links": ["https://www.udel.edu/faculty-staff/faculty-affairs/"], "school_id": 214, "status": "complete", "updated_at": "2026-09-24T16:45:07+00:00", "started_at": "2026-09-08T01:24:33+00:00", "completed_at": "2026-09-24T16:45:07+00:00", "last_error": ""}
+{
+  "links": [
+    "https://www.udel.edu/faculty-staff/faculty-affairs/",
+    "https://www.udel.edu/faculty-staff/human-resources/careers/",
+    "https://www.udel.edu/apply/career-outcomes/",
+    "https://www.udel.edu/students/career/",
+    "https://www.udel.edu/faculty-staff/"
+  ],
+  "school_id": 214,
+  "status": "complete",
+  "updated_at": "2026-09-25T16:14:57+00:00",
+  "started_at": "2026-09-08T01:24:33+00:00",
+  "completed_at": "2026-09-25T16:14:57+00:00",
+  "last_error": ""
+}

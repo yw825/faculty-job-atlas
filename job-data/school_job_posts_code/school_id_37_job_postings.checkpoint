@@ -1,1 +1,14 @@
-{"links": ["https://www.hendrix.edu/facultystaff/", "https://via.hendrix.edu/academics/the-faculty/", "https://via.hendrix.edu/after-hendrix/career-success"], "school_id": 37, "status": "complete", "updated_at": "2026-09-24T16:31:43+00:00", "started_at": "2026-09-16T17:13:49+00:00", "completed_at": "2026-09-24T16:31:43+00:00", "last_error": ""}
+{
+  "links": [
+    "https://www.hendrix.edu/facultystaff/",
+    "https://via.hendrix.edu/academics/the-faculty/",
+    "https://via.hendrix.edu/after-hendrix/career-success",
+    "https://www.hendrix.edu/jobs"
+  ],
+  "school_id": 37,
+  "status": "complete",
+  "updated_at": "2026-09-25T16:03:00+00:00",
+  "started_at": "2026-09-16T17:13:49+00:00",
+  "completed_at": "2026-09-25T16:03:00+00:00",
+  "last_error": ""
+}

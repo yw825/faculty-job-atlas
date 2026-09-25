@@ -29,12 +29,19 @@
     "https://jobs.calpoly.edu/sl/en-us/job/560200/assistant-professor-of-sociology-race-theory-and-methods-2728",
     "https://jobs.calpoly.edu/sl/en-us/job/562028/assistant-professor-in-architectural-engineering-ay-2728",
     "https://jobs.calpoly.edu/sl/en-us/job/562134/parttime-lecturer-pool-industrial-technology-ay-2627-solano-campus",
-    "https://jobs.calpoly.edu/sl/en-us/job/560198/assistant-professor-of-geography-socioeconomic-geography-2728"
+    "https://jobs.calpoly.edu/sl/en-us/job/560198/assistant-professor-of-geography-socioeconomic-geography-2728",
+    "https://jobs.calpoly.edu",
+    "https://jobs.calpoly.edu/sl/en-us/filter/?search-keyword=&work-type=instructional+faculty+-+temporary%2flecturer%2cinstructional+faculty+%e2%80%93+tenured%2ftenure-track&job-mail-subscribe-privacy=agree",
+    "https://careers.pageuppeople.com/873/sl/en-us/subscribe/",
+    "https://jobs.calpoly.edu/sl/en-us/Search/?search-keyword=&work-type=instructional+faculty+-+temporary%2flecturer%2cinstructional+faculty+%e2%80%93+tenured%2ftenure-track&subscribe=true",
+    "https://jobs.calpoly.edu/sl/en-us/job/561654/full-time-lecturer-industrial-engineering-ay-2728",
+    "https://jobs.calpoly.edu/sl/en-us/job/560311/assistantassociate-professor-equine-production-and-management",
+    "https://jobs.calpoly.edu/sl/en-us/search/?search-keyword=&work-type=instructional+faculty+-+temporary%2flecturer%2cinstructional+faculty+%e2%80%93+tenured%2ftenure-track&job-mail-subscribe-privacy=agree&page=2&page-items=20"
   ],
   "school_id": 143,
-  "status": "error",
-  "updated_at": "2026-09-24T16:39:27+00:00",
+  "status": "complete",
+  "updated_at": "2026-09-25T16:09:43+00:00",
   "started_at": "2026-09-08T01:18:55+00:00",
-  "completed_at": "2026-09-24T00:17:20+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+  "completed_at": "2026-09-25T16:09:43+00:00",
+  "last_error": ""
 }

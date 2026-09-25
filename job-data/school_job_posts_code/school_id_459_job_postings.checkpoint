@@ -1,1 +1,14 @@
-{"links": ["https://www.bakeru.edu/deposit", "https://www.bakeru.edu/student-experience/academic-and-career-success", "https://www.bakeru.edu/faculty-staff-resources"], "school_id": 459, "status": "complete", "updated_at": "2026-09-24T17:20:05+00:00", "started_at": "2026-09-08T01:47:42+00:00", "completed_at": "2026-09-24T17:20:05+00:00", "last_error": ""}
+{
+  "links": [
+    "https://www.bakeru.edu/deposit",
+    "https://www.bakeru.edu/student-experience/academic-and-career-success",
+    "https://www.bakeru.edu/faculty-staff-resources",
+    "https://www.bakeru.edu/about-baker/careers-baker"
+  ],
+  "school_id": 459,
+  "status": "complete",
+  "updated_at": "2026-09-25T16:49:01+00:00",
+  "started_at": "2026-09-08T01:47:42+00:00",
+  "completed_at": "2026-09-25T16:49:01+00:00",
+  "last_error": ""
+}

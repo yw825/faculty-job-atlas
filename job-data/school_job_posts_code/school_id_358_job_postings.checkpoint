@@ -1,1 +1,16 @@
-{"links": ["https://collegeofidaho.edu/academics/undergrad/career-sectors/law-policy-public", "https://collegeofidaho.edu/academics/undergrad/career-sectors/creative", "https://collegeofidaho.edu/academics/undergrad/career-sectors/business-technology"], "school_id": 358, "status": "complete", "updated_at": "2026-09-24T17:07:38+00:00", "started_at": "2026-09-08T01:37:14+00:00", "completed_at": "2026-09-24T17:07:38+00:00", "last_error": ""}
+{
+  "links": [
+    "https://collegeofidaho.edu/academics/undergrad/career-sectors/law-policy-public",
+    "https://collegeofidaho.edu/academics/undergrad/career-sectors/creative",
+    "https://collegeofidaho.edu/academics/undergrad/career-sectors/business-technology",
+    "https://collegeofidaho.edu/academics/undergrad/career-sectors/",
+    "https://www.collegeofidaho.edu/academics/career",
+    "https://collegeofidaho.edu/careers"
+  ],
+  "school_id": 358,
+  "status": "complete",
+  "updated_at": "2026-09-25T16:36:28+00:00",
+  "started_at": "2026-09-08T01:37:14+00:00",
+  "completed_at": "2026-09-25T16:36:28+00:00",
+  "last_error": ""
+}
