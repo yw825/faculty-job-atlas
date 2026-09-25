@@ -3,14 +3,22 @@ Job postings scraper for school_id 860 - Rutgers University-Camden (US)
 ATS platform: PeopleAdmin (detected: peopleadmin)
 Careers link: https://jobs.rutgers.edu/postings/search
 
-Rutgers University-Camden runs on a shared ATS platform -- every school on peopleadmin uses the
-same underlying site software, so this calls the shared
-job_postings_lib.scrape_peopleadmin adapter rather than duplicating
-platform-specific logic here. If results for THIS ONE school need a tweak
-that shouldn't apply to every peopleadmin school, define find_links() below
-and pass it to run_checkpointed instead of editing the shared adapter.
+Rutgers runs one PeopleAdmin board for the whole university, and three of
+our schools sit on it -- Camden, New Brunswick and Newark. The shared
+scrape_peopleadmin adapter cannot separate them: it builds its feed URL from
+the HOST alone (https://<netloc>/postings/all_jobs.atom), discarding path and
+query, so any campus filter placed in the careers link is thrown away and
+every school on the host receives an identical 905 postings.
 
-NOTE: 2 schools list against this same URL, so this listing carries every one of their postings, not just this school's: Rutgers University-New Brunswick.
+So this school defines its own find_links() instead, which is what the
+adapter's docstring recommends for a per-school tweak.
+
+Rutgers' Atom feed carries fields beyond the Atom standard -- school,
+divisiondepartment, posting_number -- and "school" names the chancellor's
+unit: "Camden Chancellor's Office-L2" (64), "New Brunswick Chancellor-L2"
+(234), "Newark Chancellor-L2" (43), "RBHS Chancellor-L2" (514, the
+biomedical and health sciences division, which is not one of our schools).
+Filtering on that field is exact, so no guessing from prose is involved.
 
 Writes school_job_posts/school_id_860_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_860_job_postings.checkpoint next to this script.
@@ -26,14 +34,37 @@ SCHOOL_ID = 860
 SCHOOL_NAME = 'Rutgers University-Camden'
 CAREERS_LINK = 'https://jobs.rutgers.edu/postings/search'
 ATS_PLATFORM = 'PeopleAdmin'
-PLATFORM = 'peopleadmin'
+
+ATOM = 'https://jobs.rutgers.edu/postings/all_jobs.atom'
+# Matched against the feed's own <school> field, not against free text.
+CAMPUS = 'Camden'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
+def find_links():
+    from bs4 import BeautifulSoup
+    status, text = lib.fetch_static(ATOM)
+    if status != 200 or not text:
+        raise RuntimeError(f'rutgers atom status={status}')
+    soup = BeautifulSoup(text, 'xml')
+    links, seen = [], set()
+    for entry in soup.find_all('entry'):
+        school = entry.find('school')
+        if not school or CAMPUS.lower() not in school.get_text().lower():
+            continue
+        link = entry.find('link')
+        href = link.get('href') if link is not None and link.has_attr('href') else None
+        if href and href not in seen:
+            seen.add(href)
+            links.append(href)
+    if not links:
+        raise RuntimeError(f'no rutgers postings whose school names {CAMPUS!r}')
+    return links
+
+
 def main():
-    result = lib.run_platform_school(SCHOOL_ID, SCHOOL_NAME, CAREERS_LINK,
-                                     CHECKPOINT_PATH, platform=PLATFORM)
+    result = lib.run_checkpointed(SCHOOL_ID, CHECKPOINT_PATH, find_links)
     err = result.get('last_error', '')
     print(f"{SCHOOL_NAME} (id={SCHOOL_ID}): status={result['status']} "
           f"links={len(result['links'])}" + (f" ERROR: {err}" if err else ''))
