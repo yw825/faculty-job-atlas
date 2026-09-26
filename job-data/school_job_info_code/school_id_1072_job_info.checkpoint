@@ -633,6 +633,14 @@
     "https://university-of-toledo-careers.career-pages.com/jobs/.job-component-details-6ea41c3e14a8f9b7a2b9122c917c2582 .job-component-list-category .collapse": {
       "title": ".job component details 6ea41c3e14a8f9b7a2b9122c917c2582 .job component list category .collapse",
       "description": ""
+    },
+    "https://careers.utoledo.edu/jobs/program-coordinator-iactl-main-campus-academic-toledo-oh-ohio-united-states": {
+      "title": "program coordinator iactl main campus academic toledo oh ohio united states",
+      "description": ""
+    },
+    "https://university-of-toledo-careers.career-pages.com/jobs/.job-component-details-ab3efa6a90242c9d6fc992be95839fcf .job-component-list-category .collapse": {
+      "title": "ClinchTalent / Error / 404",
+      "description": "ClinchTalent / Error / 404 OOPS! You got a 404 error."
     }
   },
   "rows": {
@@ -2368,11 +2376,33 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://careers.utoledo.edu/jobs/program-coordinator-iactl-main-campus-academic-toledo-oh-ohio-united-states": {
+      "school_id": 1072,
+      "posting_url": "https://careers.utoledo.edu/jobs/program-coordinator-iactl-main-campus-academic-toledo-oh-ohio-united-states",
+      "job_title_in_post": "program coordinator iactl main campus academic toledo oh ohio united states",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://university-of-toledo-careers.career-pages.com/jobs/.job-component-details-ab3efa6a90242c9d6fc992be95839fcf .job-component-list-category .collapse": {
+      "school_id": 1072,
+      "posting_url": "https://university-of-toledo-careers.career-pages.com/jobs/.job-component-details-ab3efa6a90242c9d6fc992be95839fcf .job-component-list-category .collapse",
+      "job_title_in_post": "ClinchTalent / Error / 404",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1072,
   "status": "complete",
-  "updated_at": "2026-09-24T22:09:58+00:00",
-  "completed_at": "2026-09-24T22:09:58+00:00",
+  "updated_at": "2026-09-25T21:26:50+00:00",
+  "completed_at": "2026-09-25T21:26:50+00:00",
   "last_error": ""
 }

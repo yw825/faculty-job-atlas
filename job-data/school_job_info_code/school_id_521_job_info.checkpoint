@@ -569,6 +569,16 @@
       "title": "Postdoctoral Fellow",
       "description": "A postdoctoral position is available in the laboratory of Dr. Bilon Khambu at TUSOM. We seek a highly motivated and talented scientist to join an interdisciplinary research program focused on liver biology, liver immunology, hematology, and chronic liver diseases, including liver injury, inflammation, fibrosis, cirrhosis, and acute-on-chronic liver failure (ACLF).",
       "department": null
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/1989": {
+      "title": "Professor - Chief, Division of Allergy. Clinical Immunology, and Rheumatology",
+      "description": "",
+      "department": null
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2000": {
+      "title": "Assistant Professor",
+      "description": "Physical Medicine and Rehabilitation Physician ",
+      "department": null
     }
   },
   "rows": {
@@ -1825,11 +1835,33 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/1989": {
+      "school_id": 521,
+      "posting_url": "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/1989",
+      "job_title_in_post": "Professor - Chief, Division of Allergy. Clinical Immunology, and Rheumatology",
+      "position_type": "Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Division of Allergy",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2000": {
+      "school_id": 521,
+      "posting_url": "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2000",
+      "job_title_in_post": "Assistant Professor",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 521,
   "status": "complete",
-  "updated_at": "2026-09-24T20:35:03+00:00",
-  "completed_at": "2026-09-24T20:35:03+00:00",
+  "updated_at": "2026-09-25T20:11:45+00:00",
+  "completed_at": "2026-09-25T20:11:45+00:00",
   "last_error": ""
 }

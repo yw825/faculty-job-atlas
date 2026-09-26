@@ -139,6 +139,10 @@
     "https://academic.careers.columbia.edu/#lecturer-in-japanese-language": {
       "title": "Lecturer in Japanese Language",
       "description": "ngIf: item.close_date ngIf: !item.close_date Open until filled end ngIf: !item.close_date · ngIf: item.discipline Department of East Asian Language and Culture end ngRepeat: item in filteredResults  | orderBy:sortKey:true | limitTo : itemLimit : itemLimit * (page -1)"
+    },
+    "https://academic.careers.columbia.edu/#open-rank-associate-research-scientist-instructor-assistant": {
+      "title": "Open Rank: Associate Research Scientist/Instructor/Assistant Professor/Associate Professor/Professor",
+      "description": "ngIf: item.close_date ngIf: !item.close_date Open until filled end ngIf: !item.close_date · ngIf: item.discipline Pathology end ngRepeat: item in filteredResults  | orderBy:sortKey:true | limitTo : itemLimit : itemLimit * (page -1)"
     }
   },
   "rows": {
@@ -526,11 +530,22 @@
       "area_key_words": "Japanese Language",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://academic.careers.columbia.edu/#open-rank-associate-research-scientist-instructor-assistant": {
+      "school_id": 965,
+      "posting_url": "https://academic.careers.columbia.edu/#open-rank-associate-research-scientist-instructor-assistant",
+      "job_title_in_post": "Open Rank: Associate Research Scientist/Instructor/Assistant Professor/Associate Professor/Professor",
+      "position_type": "Assistant_Professor; Associate_Professor; Full_Professor; Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Open Rank",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 965,
   "status": "complete",
-  "updated_at": "2026-09-24T21:52:27+00:00",
-  "completed_at": "2026-09-24T21:52:27+00:00",
+  "updated_at": "2026-09-25T21:18:30+00:00",
+  "completed_at": "2026-09-25T21:18:30+00:00",
   "last_error": ""
 }

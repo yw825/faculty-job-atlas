@@ -824,6 +824,16 @@
       "title": "TEMP PT Reentry Transportation Driver",
       "description": "Posted: 09/24/2026 Location: UWG Recruiting Location Department: Social Sciences TEMP PT Reentry Transportation Driver",
       "department": "Social Sciences"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304217&PostingSeq=1&SiteId=54000": {
+      "title": "Coordinator of Double Wolf Pathways",
+      "description": "Posted: 09/25/2026 Location: UWG Recruiting Location Department: Graduate School Coordinator of Double Wolf Pathways",
+      "department": "Graduate School"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304278&PostingSeq=1&SiteId=54000": {
+      "title": "Student Assistant - ITS Client Services Asset Management and Procurement",
+      "description": "Posted: 09/25/2026 Location: UWG Recruiting Location Department: Information Technology Student Assistant - ITS Client Services Asset Management and Procurement",
+      "department": "Information Technology"
     }
   },
   "rows": {
@@ -2641,11 +2651,33 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304217&PostingSeq=1&SiteId=54000": {
+      "school_id": 285,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304217&PostingSeq=1&SiteId=54000",
+      "job_title_in_post": "Coordinator of Double Wolf Pathways",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "Graduate School",
+      "area_key_words": "Double Wolf Pathways",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304278&PostingSeq=1&SiteId=54000": {
+      "school_id": 285,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304278&PostingSeq=1&SiteId=54000",
+      "job_title_in_post": "Student Assistant - ITS Client Services Asset Management and Procurement",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Information Technology",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 285,
   "status": "complete",
-  "updated_at": "2026-09-24T20:20:28+00:00",
-  "completed_at": "2026-09-24T20:20:28+00:00",
+  "updated_at": "2026-09-25T19:49:18+00:00",
+  "completed_at": "2026-09-25T19:49:18+00:00",
   "last_error": ""
 }

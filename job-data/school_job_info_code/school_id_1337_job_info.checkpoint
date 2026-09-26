@@ -927,6 +927,16 @@
       "title": "Assistant Professor of Costume Design",
       "description": "",
       "department": null
+    },
+    "https://fa-evyu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1321": {
+      "title": "Academic Advisor",
+      "description": "",
+      "department": null
+    },
+    "https://fa-evyu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1327": {
+      "title": "PRN Pediatric Nurse Practitioner Floater, Nursing Office of Practice",
+      "description": "",
+      "department": null
     }
   },
   "rows": {
@@ -2967,11 +2977,33 @@
       "area_key_words": "Costume Design",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://fa-evyu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1321": {
+      "school_id": 1337,
+      "posting_url": "https://fa-evyu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1321",
+      "job_title_in_post": "Academic Advisor",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-evyu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1327": {
+      "school_id": 1337,
+      "posting_url": "https://fa-evyu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1327",
+      "job_title_in_post": "PRN Pediatric Nurse Practitioner Floater, Nursing Office of Practice",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Practice",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1337,
   "status": "complete",
-  "updated_at": "2026-09-24T22:52:33+00:00",
-  "completed_at": "2026-09-24T22:52:33+00:00",
+  "updated_at": "2026-09-25T22:08:35+00:00",
+  "completed_at": "2026-09-25T22:08:35+00:00",
   "last_error": ""
 }

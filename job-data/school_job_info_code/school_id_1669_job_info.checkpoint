@@ -1354,6 +1354,26 @@
       "title": "Indkøbskoordinator og systemsuperbruger til DTU Sustain",
       "description": "Drømmer du om et job, hvor du kan bruge din administrative værktøjskasse til noget, der gør en forskel for forskning og samfund? Så har vi måske dit næste job som Indkøbskoordinator og Superbruger på DTU Sustain.",
       "department": null
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8281": {
+      "title": "PhD scholarship in Sustainable Indoor Solar Cells for Ambient Light Energy Harvesting in IoT Applications - DTU Electro",
+      "description": "Are you interested in developing thin-film solar cells designed to operate efficiently under indoor lighting and thereby contributing to the green transition? At DTU Electro, you will have the opportunity to break new ground by harvesting energy from ambient light and help pave the way towards sustainable technologies.",
+      "department": null
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8280": {
+      "title": "Laborantpraktikant på DTU Energi",
+      "description": "Er du i gang med at uddanne dig til laborant og på udkig efter en spændende praktikmulighed?\nDTU Energi, Team Chemistry søger en motiveret og samarbejdsorienteret laborantpraktikant til en 1-årig praktikstilling med start den 1. februar 2027.\n",
+      "department": null
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8286": {
+      "title": "PhD scholarship in Polymer Synthesis by use of CRP Techniques - DTU Chemical Engineering",
+      "description": "If you are excited by using advanced polymerization techniques to create innovative materials and move fundamental research closer to practical applications, this could be the PhD project for you.\n",
+      "department": null
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8285": {
+      "title": "Postdoc in Decision Modeling for Health Policy - DTU Management",
+      "description": "The DTU Department of Management seeks a Postdoctoral Research Fellow in operations management to complete a funded health policy modeling research project. The ideal candidate will have a desire to improve health policy through mathematical modeling and have a background in management science, computer science, quantitative health policy, or a related field.",
+      "department": null
     }
   },
   "rows": {
@@ -4337,11 +4357,55 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8281": {
+      "school_id": 1669,
+      "posting_url": "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8281",
+      "job_title_in_post": "PhD scholarship in Sustainable Indoor Solar Cells for Ambient Light Energy Harvesting in IoT Applications - DTU Electro",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Sustainable Indoor Solar Cells for Ambient Light Energy Harvesting in IoT Applications",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8280": {
+      "school_id": 1669,
+      "posting_url": "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8280",
+      "job_title_in_post": "Laborantpraktikant på DTU Energi",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8286": {
+      "school_id": 1669,
+      "posting_url": "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8286",
+      "job_title_in_post": "PhD scholarship in Polymer Synthesis by use of CRP Techniques - DTU Chemical Engineering",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Polymer Synthesis by use of CRP Techniques",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8285": {
+      "school_id": 1669,
+      "posting_url": "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8285",
+      "job_title_in_post": "Postdoc in Decision Modeling for Health Policy - DTU Management",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Decision Modeling for Health Policy",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1669,
   "status": "complete",
-  "updated_at": "2026-09-24T23:35:44+00:00",
-  "completed_at": "2026-09-24T23:35:44+00:00",
+  "updated_at": "2026-09-25T23:15:31+00:00",
+  "completed_at": "2026-09-25T23:15:31+00:00",
   "last_error": ""
 }

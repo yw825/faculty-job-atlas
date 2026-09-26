@@ -7,6 +7,10 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/019DF7F6E271614BAB2785B88C6A379F/jobs/223343": {
       "title": "Loading...",
       "description": "Loading... You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/019DF7F6E271614BAB2785B88C6A379F/jobs/232922": {
+      "title": "Loading...",
+      "description": "Loading... You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -31,11 +35,22 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/019DF7F6E271614BAB2785B88C6A379F/jobs/232922": {
+      "school_id": 215,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/019DF7F6E271614BAB2785B88C6A379F/jobs/232922",
+      "job_title_in_post": "Loading...",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 215,
   "status": "complete",
-  "updated_at": "2026-09-24T20:17:05+00:00",
-  "completed_at": "2026-09-24T20:17:05+00:00",
+  "updated_at": "2026-09-25T19:39:13+00:00",
+  "completed_at": "2026-09-25T19:39:13+00:00",
   "last_error": ""
 }

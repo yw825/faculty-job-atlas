@@ -1579,6 +1579,36 @@
       "title": "Program Coordinator of Military Science",
       "description": "Posted: 09/18/2026 Location: UNG-Dahlonega, GA Department: Cadet Leadership Academy Program Coordinator of Military Science",
       "department": "Cadet Leadership Academy"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304181&PostingSeq=1&SiteId=53000": {
+      "title": "Assistant Director for Operations and Cadet Leader Development",
+      "description": "Posted: 09/25/2026 Location: UNG-Dahlonega, GA Department: Cadet Leadership Academy Assistant Director for Operations and Cadet Leader Development",
+      "department": "Cadet Leadership Academy"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304164&PostingSeq=1&SiteId=53000": {
+      "title": "Part-Time IT Systems Technician",
+      "description": "Posted: 09/25/2026 Location: UNG-Dahlonega, GA Department: IT Academic Computing Part-Time IT Systems Technician",
+      "department": "IT Academic Computing"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=300475&PostingSeq=1&SiteId=53000": {
+      "title": "Academic Advisor I",
+      "description": "Posted: 09/24/2026 Location: UNG-Dahlonega, GA Department: Academic Advising Academic Advisor I",
+      "department": "Academic Advising"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304138&PostingSeq=1&SiteId=53000": {
+      "title": "Assistant Professor in Biology",
+      "description": "Posted: 09/24/2026 Location: UNG - Gainesville Department: Biology Assistant Professor in Biology",
+      "department": "Biology"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304145&PostingSeq=1&SiteId=53000": {
+      "title": "Assistant Professor in Biology",
+      "description": "Posted: 09/24/2026 Location: UNG - Gainesville Department: Biology Assistant Professor in Biology",
+      "department": "Biology"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304142&PostingSeq=1&SiteId=53000": {
+      "title": "Assistant Professor in Biology",
+      "description": "Posted: 09/24/2026 Location: UNG - Gainesville Department: Biology Assistant Professor in Biology",
+      "department": "Biology"
     }
   },
   "rows": {
@@ -5057,11 +5087,77 @@
       "area_key_words": "Military Science",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304181&PostingSeq=1&SiteId=53000": {
+      "school_id": 289,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304181&PostingSeq=1&SiteId=53000",
+      "job_title_in_post": "Assistant Director for Operations and Cadet Leader Development",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Cadet Leadership Academy",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304164&PostingSeq=1&SiteId=53000": {
+      "school_id": 289,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304164&PostingSeq=1&SiteId=53000",
+      "job_title_in_post": "Part-Time IT Systems Technician",
+      "position_type": "Non-academic",
+      "job_term": "Part-time",
+      "department_or_school": "IT Academic Computing",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=300475&PostingSeq=1&SiteId=53000": {
+      "school_id": 289,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=300475&PostingSeq=1&SiteId=53000",
+      "job_title_in_post": "Academic Advisor I",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Academic Advising",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304138&PostingSeq=1&SiteId=53000": {
+      "school_id": 289,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304138&PostingSeq=1&SiteId=53000",
+      "job_title_in_post": "Assistant Professor in Biology",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Biology",
+      "area_key_words": "Biology",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304145&PostingSeq=1&SiteId=53000": {
+      "school_id": 289,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304145&PostingSeq=1&SiteId=53000",
+      "job_title_in_post": "Assistant Professor in Biology",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Biology",
+      "area_key_words": "Biology",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304142&PostingSeq=1&SiteId=53000": {
+      "school_id": 289,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304142&PostingSeq=1&SiteId=53000",
+      "job_title_in_post": "Assistant Professor in Biology",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Biology",
+      "area_key_words": "Biology",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 289,
   "status": "complete",
-  "updated_at": "2026-09-24T20:21:29+00:00",
-  "completed_at": "2026-09-24T20:21:29+00:00",
+  "updated_at": "2026-09-25T19:50:15+00:00",
+  "completed_at": "2026-09-25T19:50:15+00:00",
   "last_error": ""
 }

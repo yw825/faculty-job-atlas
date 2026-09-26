@@ -684,6 +684,16 @@
       "title": "Coordinator STEM Student Services - School of the Sciences-Biology",
       "description": "",
       "department": null
+    },
+    "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/12997": {
+      "title": "Tenure-Track Assistant Professor of Dance - School of the Arts & Design-Dance",
+      "description": "",
+      "department": null
+    },
+    "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/12996": {
+      "title": "Groundskeeper II - Facilities Management",
+      "description": "Performs moderately heavy manual work in the care and maintenance of grounds or greenhouse operations.  Work involves the care and maintenance of plants, shrubs, and lawns.  This classification involves more specialized work duties and receives less supervision than the Groundskeeper I class.  Work is performed under supervision according to specific instructions and performance is based upon completion of assignments and results obtained. The performance evaluation is conducted through the performance evaluation system and in accordance with the University Policies & Procedures.",
+      "department": null
     }
   },
   "rows": {
@@ -2193,11 +2203,33 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/12997": {
+      "school_id": 1382,
+      "posting_url": "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/12997",
+      "job_title_in_post": "Tenure-Track Assistant Professor of Dance - School of the Arts & Design-Dance",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Dance",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/12996": {
+      "school_id": 1382,
+      "posting_url": "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/12996",
+      "job_title_in_post": "Groundskeeper II - Facilities Management",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1382,
   "status": "complete",
-  "updated_at": "2026-09-24T22:58:43+00:00",
-  "completed_at": "2026-09-24T22:58:43+00:00",
+  "updated_at": "2026-09-25T22:19:19+00:00",
+  "completed_at": "2026-09-25T22:19:19+00:00",
   "last_error": ""
 }

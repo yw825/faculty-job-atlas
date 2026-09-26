@@ -1,15 +1,1 @@
-{
-  "links": [
-    "https://careers.umich.edu/help-and-faq",
-    "https://careers.umich.edu/career-development",
-    "https://careers.umich.edu/security-and-safety-annual-report",
-    "https://careers.umich.edu/temporary-employment",
-    "https://careers.umich.edu/student-employment"
-  ],
-  "school_id": 634,
-  "status": "complete",
-  "updated_at": "2026-09-25T17:06:55+00:00",
-  "started_at": "2026-09-08T02:04:57+00:00",
-  "completed_at": "2026-09-25T17:06:55+00:00",
-  "last_error": ""
-}
+{"links": ["https://careers.umich.edu/help-and-faq", "https://careers.umich.edu/career-development", "https://careers.umich.edu/security-and-safety-annual-report"], "school_id": 634, "status": "complete", "updated_at": "2026-09-25T17:06:55+00:00", "started_at": "2026-09-08T02:04:57+00:00", "completed_at": "2026-09-25T17:06:55+00:00", "last_error": ""}

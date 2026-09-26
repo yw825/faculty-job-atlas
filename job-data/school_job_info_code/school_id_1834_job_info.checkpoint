@@ -1002,6 +1002,16 @@
       "title": "Senior Executive Officer / Executive Officer, University Engagement Office",
       "description": "This position sits under the University Engagement Office at our Kowloon Tong campus. The core responsibilities are supporting the planning, coordination and execution of university-wide events, engagement initiatives and marketing campaigns.",
       "department": null
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270195": {
+      "title": "Assistant Academic Services Manager/ Senior Academic Services Officer, SCE",
+      "description": "This position sits under the School of Continuing Education Office at our Kowloon Tong campus. The core responsibilities are planning, coordinating and executing outreach/student recruitment activities.",
+      "department": null
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270213": {
+      "title": "Senior Manager, Academic Registry",
+      "description": "This position sits under the Academic Registry Office at our Kowloon Tong campus. The core responsibilities are supporting the head in formulating admission strategies and goals and overseeing the overall arrangements concerning local and non-local admissions.",
+      "department": null
     }
   },
   "rows": {
@@ -3135,11 +3145,33 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270195": {
+      "school_id": 1834,
+      "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270195",
+      "job_title_in_post": "Assistant Academic Services Manager/ Senior Academic Services Officer, SCE",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "School of Continuing Education Office",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270213": {
+      "school_id": 1834,
+      "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270213",
+      "job_title_in_post": "Senior Manager, Academic Registry",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1834,
   "status": "complete",
-  "updated_at": "2026-09-24T23:38:31+00:00",
-  "completed_at": "2026-09-24T23:38:31+00:00",
+  "updated_at": "2026-09-25T23:26:18+00:00",
+  "completed_at": "2026-09-25T23:26:18+00:00",
   "last_error": ""
 }

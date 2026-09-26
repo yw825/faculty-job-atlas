@@ -9,6 +9,11 @@
       "title": "Studentermedhjælpere til Syddansk Universitetsbibliotek, Odense",
       "description": "Vi søger 2 studentermedhjælpere til ansættelse snarest muligt og et ugentlig timetal på 6 timer. Stillingerne er til besættelse for en periode på et år med mulighed for forlængelse.",
       "department": null
+    },
+    "https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/4312": {
+      "title": "Bibliotekar med godt kendskab til det sundhedsvidenskabelige område, sans for detaljer og god service",
+      "description": "Syddansk Universitetsbibliotek (SDUB) søger en ny kollega til Licenskontoret i Afdeling for Informationsressourcer på universitetsbiblioteket i Odense. ",
+      "department": null
     }
   },
   "rows": {
@@ -33,11 +38,22 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/4312": {
+      "school_id": 1892,
+      "posting_url": "https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/4312",
+      "job_title_in_post": "Bibliotekar med godt kendskab til det sundhedsvidenskabelige område, sans for detaljer og god service",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1892,
   "status": "complete",
-  "updated_at": "2026-09-24T23:35:56+00:00",
-  "completed_at": "2026-09-24T23:35:56+00:00",
+  "updated_at": "2026-09-25T23:15:46+00:00",
+  "completed_at": "2026-09-25T23:15:46+00:00",
   "last_error": ""
 }

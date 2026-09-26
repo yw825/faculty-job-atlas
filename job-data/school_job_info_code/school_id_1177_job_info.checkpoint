@@ -49,6 +49,16 @@
       "title": "Assistant Coach, Women's Basketball",
       "description": "The Women’s Basketball Assistant Coach is responsible for assisting the Head Coach in the administration of all aspects of the sport program including but not limited to coaching and teaching of students, recruiting, game and practice preparation and execution, fund-raising/friend raising, budget management, compliance with NCAA and conference rules/regulations, participation as a member of the College community and with all collaborative departmental functions as needed. ",
       "department": null
+    },
+    "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/332": {
+      "title": "Assistant Professor of Computer and Information Science",
+      "description": "This is a tenure-track faculty position at the academic rank of Assistant Professor in the Computer and Information Science department. Primary responsibilities include teaching, scholarship, and service. This position reports to the Chair of Computer and Information Science. Primary responsibilities are teaching in computer and information science with a full-time course load which, given load calculations, equates to four courses, including labs, each year.  Ideal candidates will have experience and success teaching computational courses at the undergraduate college level and an active research agenda in computer and information science. Preference will be given to candidates whose research is in Systems or a related field. Candidates are expected to have a terminal degree at the time of appointment. ",
+      "department": null
+    },
+    "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/333": {
+      "title": "Assistant Professor of Computer and Information Science",
+      "description": "This is a tenure-track faculty position at the academic rank of Assistant Professor in the Computer and Information Science department. Primary responsibilities include teaching, scholarship, and service. This position reports to the Chair of Computer and Information Science. Primary responsibilities are teaching in computer and information science with a full-time course load which, given load calculations, equates to four courses, including labs, each year.  Ideal candidates will have experience and success teaching computational courses at the undergraduate college level and an active research agenda in computer and information science. Preference will be given to candidates whose research is in Artificial Intelligence, Computer Security, or a related field. Candidates are expected to have a terminal degree at the time of appointment. ",
+      "department": null
     }
   },
   "rows": {
@@ -92,7 +102,7 @@
       "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "",
+      "area_key_words": "practice preparation",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -158,14 +168,36 @@
       "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "",
+      "area_key_words": "practice preparation",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/332": {
+      "school_id": 1177,
+      "posting_url": "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/332",
+      "job_title_in_post": "Assistant Professor of Computer and Information Science",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Computer and Information Science; labs",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/333": {
+      "school_id": 1177,
+      "posting_url": "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/333",
+      "job_title_in_post": "Assistant Professor of Computer and Information Science",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Computer and Information Science; labs",
       "deadline_of_application": "",
       "position_start_date": ""
     }
   },
   "school_id": 1177,
   "status": "complete",
-  "updated_at": "2026-09-24T22:24:12+00:00",
-  "completed_at": "2026-09-24T22:24:12+00:00",
+  "updated_at": "2026-09-25T21:40:03+00:00",
+  "completed_at": "2026-09-25T21:40:03+00:00",
   "last_error": ""
 }

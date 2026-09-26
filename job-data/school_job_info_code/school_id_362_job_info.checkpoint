@@ -255,6 +255,10 @@
     "https://isu.csod.com/ux/ats/careersite/5/requisition/2822": {
       "title": "+ Cornerstone OnDemand +",
       "description": "+ Cornerstone OnDemand + Password Login 26.2.5.24 | Forgot Password?"
+    },
+    "https://isu.csod.com/ux/ats/careersite/5/requisition/2828": {
+      "title": "+ Cornerstone OnDemand +",
+      "description": "+ Cornerstone OnDemand + Password Login 26.2.5.25 | Forgot Password?"
     }
   },
   "rows": {
@@ -961,11 +965,22 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://isu.csod.com/ux/ats/careersite/5/requisition/2828": {
+      "school_id": 362,
+      "posting_url": "https://isu.csod.com/ux/ats/careersite/5/requisition/2828",
+      "job_title_in_post": "+ Cornerstone OnDemand +",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 362,
   "status": "complete",
-  "updated_at": "2026-09-24T20:27:28+00:00",
-  "completed_at": "2026-09-24T20:27:28+00:00",
+  "updated_at": "2026-09-25T19:56:40+00:00",
+  "completed_at": "2026-09-25T19:56:40+00:00",
   "last_error": ""
 }

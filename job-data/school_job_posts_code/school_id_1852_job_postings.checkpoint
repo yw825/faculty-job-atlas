@@ -17,12 +17,13 @@
     "https://careers.must.edu.mo/recruitment-latest-details?0=687&from=RecruitmentLatest",
     "https://careers.must.edu.mo/recruitment-latest-details?0=673&from=RecruitmentLatest",
     "https://careers.must.edu.mo/recruitment-latest-details?0=680&from=RecruitmentLatest",
-    "https://careers.must.edu.mo/recruitment-latest-details?0=713&from=RecruitmentLatest"
+    "https://careers.must.edu.mo/recruitment-latest-details?0=713&from=RecruitmentLatest",
+    "https://careers.must.edu.mo/recruitment-latest-details?0=683&from=RecruitmentLatest"
   ],
   "school_id": 1852,
-  "status": "error",
-  "updated_at": "2026-09-24T19:32:14+00:00",
+  "status": "complete",
+  "updated_at": "2026-09-25T18:58:30+00:00",
   "started_at": "2026-09-03T20:22:46+00:00",
-  "completed_at": "2026-09-22T02:50:23+00:00",
-  "last_error": "TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://careers.must.edu.mo/recruitment-latest?locale=en_US\", waiting until \"domcontentloaded\"\n"
+  "completed_at": "2026-09-25T18:58:30+00:00",
+  "last_error": ""
 }

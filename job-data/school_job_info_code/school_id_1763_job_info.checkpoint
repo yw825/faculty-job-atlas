@@ -226,6 +226,21 @@
       "title": "Senior Research Technician - Department of Cardiovascular Sciences - 107219 - Grade 5",
       "description": "This full-time position (35 hours/week) funded by British Heart Foundation. The post is within the College of Medicine and Health, School of Medical Sciences, Department of Cardiovascular Sciences supporting the research work of Dr Julie Rayes. The technician will be working with animal models of sickle cell disease, performing intravital imaging microscopy, processing organs for histology, performing cell isolation from blood and bone marrow.\n\nPosting closes: 2026-10-14",
       "department": null
+    },
+    "https://edzz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_6001/job/9857": {
+      "title": "Research Fellow - School of History and Cultures - 107842S26 - Grade 7",
+      "description": "This is a 0.5 FTE Research Fellow post for a fixed term of 18 months. The successful candidate will join an established research team at the University of Birmingham, working closely with Principal Investigator Dr Katie Bank and Co-Investigator Professor Stephen Bullivant (St Mary’s Twickenham) to deliver the next phase of the Singing and the Human Spirit project. \n\n\nPosting closes: 2026-10-11",
+      "department": null
+    },
+    "https://edzz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_6001/job/9930": {
+      "title": "Biostatistician - Cancer Research (UK) Clinical Trials Unit - 103295 - Grade 7",
+      "description": "The post holder will contribute to methodological and clinical research through the design and analysis of CRCTU’s clinical trials. The post holder will work alongside a large number of biostatisticians specialising in specific disease, trial phase and methodological areas in adult and paediatric oncology. \n\nPosting closes: 2026-10-18",
+      "department": null
+    },
+    "https://edzz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_6001/job/9985": {
+      "title": "Research Fellow - School of Psychology - 107919 - Grade 7",
+      "description": "To create and contribute to the creation of knowledge by collaborating with Professor Elaine Fox in establishing a research programme in experimental psychopathology. This will include  computer programming of behavioural experiments, participant recruitment and data collection, analysis of data, secondary data analyses from existing datasets, interpretation of data analysis and write up of scientific paper. Collaboration will also be required with preparing grant funding applications.\n\nPosting closes: 2026-10-07",
+      "department": null
     }
   },
   "rows": {
@@ -695,11 +710,44 @@
       "area_key_words": "",
       "deadline_of_application": "2026-10-14",
       "position_start_date": ""
+    },
+    "https://edzz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_6001/job/9857": {
+      "school_id": 1763,
+      "posting_url": "https://edzz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_6001/job/9857",
+      "job_title_in_post": "Research Fellow - School of History and Cultures - 107842S26 - Grade 7",
+      "position_type": "Research_Fellow",
+      "job_term": "Part-time",
+      "department_or_school": "School of History and Cultures",
+      "area_key_words": "School of History and Cultures",
+      "deadline_of_application": "2026-10-11",
+      "position_start_date": ""
+    },
+    "https://edzz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_6001/job/9930": {
+      "school_id": 1763,
+      "posting_url": "https://edzz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_6001/job/9930",
+      "job_title_in_post": "Biostatistician - Cancer Research (UK) Clinical Trials Unit - 103295 - Grade 7",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "2026-10-18",
+      "position_start_date": ""
+    },
+    "https://edzz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_6001/job/9985": {
+      "school_id": 1763,
+      "posting_url": "https://edzz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_6001/job/9985",
+      "job_title_in_post": "Research Fellow - School of Psychology - 107919 - Grade 7",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "School of Psychology",
+      "area_key_words": "School of Psychology; experimental psychopathology",
+      "deadline_of_application": "2026-10-07",
+      "position_start_date": ""
     }
   },
   "school_id": 1763,
   "status": "complete",
-  "updated_at": "2026-09-25T00:03:01+00:00",
-  "completed_at": "2026-09-25T00:03:01+00:00",
+  "updated_at": "2026-09-26T00:08:48+00:00",
+  "completed_at": "2026-09-26T00:08:48+00:00",
   "last_error": ""
 }
