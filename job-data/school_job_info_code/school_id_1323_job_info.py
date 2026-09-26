@@ -1,7 +1,14 @@
 """
 Job info scraper for school_id 1323 - The University of Tennessee-Chattanooga (US)
 ATS platform: Oracle Cloud HCM
-Careers link: https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/fscmUI/faces/deeplink?objType=IRC_RECRUITING&action=ICE_JOB_SEARCH_RESP
+Careers link: https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions?lastSelectedFacet=LOCATIONS&mode=location&selectedLocationsFacet=300000010467888
+
+This link was left behind when the POSTINGS scraper was repointed: it still
+named the old fscmUI deeplink, which never issues a job request, so the bulk
+oracle adapter timed out waiting for one ("oracle session capture failed")
+and the school's 36 postings got no detail rows at all. It now matches the
+postings scraper, including the LOCATIONS facet that restricts the
+university-wide board to the Chattanooga campus.
 
 Reads posting URLs from school_id_1323_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -30,7 +37,10 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1323
 SCHOOL_NAME = 'The University of Tennessee-Chattanooga'
-CAREERS_LINK = 'https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/fscmUI/faces/deeplink?objType=IRC_RECRUITING&action=ICE_JOB_SEARCH_RESP'
+CAREERS_LINK = ('https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/'
+                'CandidateExperience/en/sites/CX_1/requisitions'
+                '?lastSelectedFacet=LOCATIONS&mode=location'
+                '&selectedLocationsFacet=300000010467888')
 ATS_PLATFORM = 'Oracle Cloud HCM'
 USE_LLM = False
 

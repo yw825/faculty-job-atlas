@@ -1,8 +1,577 @@
 {
-  "raw": {},
-  "rows": {},
+  "raw": {
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/10054": {
+      "title": "Collections Specialist, Office of the Bursar - UT Chattanooga",
+      "description": "Collections Specialist (Financial Associate 2 – MR06) Office of the Bursar - UT Chattanooga\n\n",
+      "department": null
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/10067": {
+      "title": "HUB Advisor, Student Success Center, College of Arts and Sciences - UT Chattanooga",
+      "description": "HUB Advisor (Student Services Professional 1 – MR07), Student Success Center, College of Arts and Sciences - UT Chattanooga \n",
+      "department": null
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/9936": {
+      "title": "Research Integrity Compliance Officer, Office of Research Integrity - UT Chattanooga",
+      "description": "Research Integrity Compliance Officer-IRB and IACUC (Audit and Compliance Officer 1 – MR10) Office of Research Integrity - UT Chattanooga\n\n",
+      "department": null
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/9999": {
+      "title": "Coordinator Of Student Conduct (Office of Student Conduct)- UT Chattanooga (50439975)",
+      "description": "The Coordinator of Student Conduct and Student Conduct Investigator serves as a member of the Office of Student Conduct. ",
+      "department": null
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/10051": {
+      "title": "Human Resources Consultant-Chatt Clinical Medical Education",
+      "description": "Market Range: 11\nHiring Salary: $4,600.03 - $5,520.39/Monthly\n",
+      "department": null
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/9774": {
+      "title": "Temporary Dean's Executive Assistant-Chatt Clinical Medical Education",
+      "description": "Market Range: 06\nHiring Salary: $19.67/Hourly\n",
+      "department": null
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/9836": {
+      "title": "Assistant Director of Pre-Health Advising, The HUB, College of Arts and Sciences - UT Chattanooga",
+      "description": "Assistant Director of Pre-Health Advising (Student Services Professional 1 - MR11), The HUB, College of Arts and Sciences - UT Chattanooga",
+      "department": null
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7875": {
+      "title": "Part-Time Golf Groundskeeper, UTC Athletics",
+      "description": "Part-Time Golf Groundskeeper (Facilities Services Building and Grounds Asst 2 – MR03) UTC Intercollegiate Athletics, University of Tennessee at Chattanooga\n\n",
+      "department": null
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8154": {
+      "title": "Administrative Associate 2-Chatt Emergency Medicine",
+      "description": "Market Range: 05\nHiring Salary: $18.54/Hourly\n",
+      "department": null
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/9481": {
+      "title": "Provost and Senior Vice Chancellor of Academic Affairs, University of Tennessee at Chattanooga",
+      "description": "The University of Tennessee at Chattanooga seeks an innovative, collaborative, and visionary academic leader to serve as its next Provost and Senior Vice Chancellor for Academic Affairs. Reporting directly to the Chancellor, the Provost serves as the University of Tennessee at Chattanooga's chief academic officer and provides strategic leadership for the university's academic enterprise. The Provost advances the university's mission by fostering excellence in teaching, research, scholarship, and creative activity while ensuring academic quality, innovation, integrity, and student success.",
+      "department": null
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/9520": {
+      "title": "Assistant Bursar Fees - Office of the Bursar - UT Chattanooga",
+      "description": "Assistant Bursar Fees (IT Administrator/Analyst 1 – MR10) Office of the Bursar - UT Chattanooga\n\n",
+      "department": null
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/9416": {
+      "title": "EMSA Business & Technology Coordinator, VC Enrollment Management - UT Chattanooga",
+      "description": "The EMSA Business & Technology Coordinator independently analyzes divisional business and technology needs and coordinates solutions across Enrollment Management and Student Affairs. ",
+      "department": null
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/9429": {
+      "title": "Financial Aid Coordinator, State & University Programs - UT Chattanooga",
+      "description": "Reporting the Associate Director of Scholarships and State Aid, the Financial Aid Coordinator – State and University Programs is responsible for the coordinating, awarding, and monitoring of university and Tennessee state scholarship and grant programs totaling more than $14 million annually. ",
+      "department": null
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7449": {
+      "title": "Admissions Recruiter, Undergraduate Admissions - UT Chattanooga",
+      "description": "The primary purpose of an admissions counselor is to serve as a liaison between the university and the community at large. ",
+      "department": null
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/9400": {
+      "title": "Instructor - College of Medicine (Chattanooga, TN)",
+      "description": "The University of Tennessee Health Science Center, College of Medicine-Chattanooga, is seeking part-time non-tenured Instructor.  ",
+      "department": null
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/624": {
+      "title": "Lead Teacher, Children's Center",
+      "description": "The Lead Teacher provides a high-quality early childhood program which ensures a safe and nurturing environment that promotes the physical, social, emotional, and cognitive development of young children while responding to the needs of families; serves as a role model and mentor to students during field experience at the Children's Center; and follows the curriculum in place to aid with helping the student workers and observers understand early childhood while using hands on curriculum.",
+      "department": null
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/9310": {
+      "title": "Learning Specialist and Athletics Advisor, UTC Athletics - UT Chattanooga",
+      "description": "Learning Specialist and Athletics Advisor (Student Services Professional 1 – MR07) UTC Intercollegiate Athletics - UT Chattanooga\n\n",
+      "department": null
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/9074": {
+      "title": "Senior Associate Director of Student Financial Aid and Scholarships - UTC Chattanooga",
+      "description": "The Senior Associate Director of Student Financial Aid and Scholarships provides senior-level operational leadership within the Office of Student Financial Aid and Scholarships at the University of Tennessee at Chattanooga (UTC). ",
+      "department": null
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/9287": {
+      "title": "Assistant Professor - College of Medicine (Chattanooga, TN)",
+      "description": "The University of Tennessee Health Science Center, College of Medicine-Chattanooga, is seeking part-time non-tenured Assistant Professor",
+      "department": null
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8979": {
+      "title": "Assistant Athletic Trainer, Intercollegiate Athletics - UT Chattanooga",
+      "description": "Assistant Athletic Trainer (Athletics Sports Performance 1 – MR07) UTC Intercollegiate Athletics - UT Chattanooga\n",
+      "department": null
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8743": {
+      "title": "Financial Analyst, Office of Budget & Finance - UT Chattanooga",
+      "description": "Financial Analyst (Financial Professional 1 – MR10) Office of Budget and Finance - UT Chattanooga\n",
+      "department": null
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8626": {
+      "title": "Undergraduate Admissions and Orientation Coordinator - UT Chattanooga",
+      "description": "The Undergraduate Admissions and Orientation Coordinator assist in the planning and execution of large-scale recruitment events. ",
+      "department": null
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8493": {
+      "title": "Police Officer - UTC Police Department, UT Chattanooga",
+      "description": "Police Officer (Public Safety Police Officer – MR07) UTC Police Department, UT Chattanooga\n\n",
+      "department": null
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8438": {
+      "title": "Custodial Tech, Housing and Residence Life",
+      "description": "Custodial Tech (Facilities Services Building and Grounds Assistant 1 – MR02) Housing and Residence Life\n",
+      "department": null
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8255": {
+      "title": "Sr. Building & Grounds Servicer - Facilities, Planning, and Management",
+      "description": "Senior Building and Grounds Servicer (Facilities Services B&G Assistant 2 – MR03) Facilities, Planning, and Management, University of Tennessee at Chattanooga\n",
+      "department": null
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8151": {
+      "title": "Program Counselor, Upward Bound Math Science",
+      "description": "Program Counselor (Student Services Professional 1 – MR07) Upward Bound Math/Science, University of Tennessee, Chattanooga\n",
+      "department": null
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7971": {
+      "error": "not present in bulk fetch result"
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7119": {
+      "title": "Assistant Teacher, Children's Center",
+      "description": "The University of Tennessee at Chattanooga is seeking multiple full time assistant teachers to support the Children’s Center.",
+      "department": null
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/6074": {
+      "title": "Post-Doctoral Research Assistant, Probasco Distinguished Chair of Free Enterprise, College of Business - UT Chattanooga",
+      "description": "",
+      "department": null
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/6350": {
+      "title": "Assistant Professor - College of Medicine, Chattanooga  TN",
+      "description": "",
+      "department": null
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/6010": {
+      "title": "HVAC Assistant Controls Technician - Facilities, Planning, and Management",
+      "description": "HVAC Assistant Controls Technician (Facilities Svcs Trades Specialist 4 – MR09) Facilities, Planning, and Management - University of Tennessee at Chattanooga\n\n",
+      "department": null
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4662": {
+      "title": "College of Medicine-Chattanooga - Open Rank Instructor",
+      "description": "The University of Tennessee Health Science Center, College of Medicine-Chattanooga is seeking a full-time, non-tenured Open Rank Instructor to Professor faculty position. ",
+      "department": null
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3662": {
+      "title": "Project Manager - Facilities, Planning, and Management",
+      "description": "Project Manager (Facilities Services Design Professional 2 – MR12) Facilities, Planning, and Management\n",
+      "department": null
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3325": {
+      "title": "Technical Assistant, UTC McKenzie Arena",
+      "description": "Technical Assistant (Facilities Services Trades Specialist 1 – MR05)\n",
+      "department": null
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1724": {
+      "title": "Senior Custodian - Facilities, Planning, and Management",
+      "description": "The Senior Custodian (Facilities B&G Assistant 1 – MR01) performs routine cleaning, housekeeping, and upkeep of campus buildings or area of assignment. ",
+      "department": null
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/188": {
+      "title": "Open Rank Professor - Surgery (Chattanooga)",
+      "description": "The University of Tennessee Health Science Center invites applications for the position of Open rank Professor- Vascular Surgery in the Department of Surgery, College of Medicine Chattanooga at UTHSC, in Chattanooga, TN.\n\nThe Open-rank Professor will support clinical and academic efforts by delivering direct patient care for University Surgical Associates.  Additionally, this position will be involved in the education and supervision of Surgery residents & medical students at UTHSC-COM- Chattanooga.",
+      "department": null
+    }
+  },
+  "rows": {
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/10054": {
+      "school_id": 1323,
+      "posting_url": "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/10054",
+      "job_title_in_post": "Collections Specialist, Office of the Bursar - UT Chattanooga",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/10067": {
+      "school_id": 1323,
+      "posting_url": "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/10067",
+      "job_title_in_post": "HUB Advisor, Student Success Center, College of Arts and Sciences - UT Chattanooga",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "College of Arts and Sciences",
+      "area_key_words": "Arts and Sciences",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/9936": {
+      "school_id": 1323,
+      "posting_url": "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/9936",
+      "job_title_in_post": "Research Integrity Compliance Officer, Office of Research Integrity - UT Chattanooga",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Research Integrity",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/9999": {
+      "school_id": 1323,
+      "posting_url": "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/9999",
+      "job_title_in_post": "Coordinator Of Student Conduct (Office of Student Conduct)- UT Chattanooga (50439975)",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/10051": {
+      "school_id": 1323,
+      "posting_url": "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/10051",
+      "job_title_in_post": "Human Resources Consultant-Chatt Clinical Medical Education",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/9774": {
+      "school_id": 1323,
+      "posting_url": "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/9774",
+      "job_title_in_post": "Temporary Dean's Executive Assistant-Chatt Clinical Medical Education",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/9836": {
+      "school_id": 1323,
+      "posting_url": "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/9836",
+      "job_title_in_post": "Assistant Director of Pre-Health Advising, The HUB, College of Arts and Sciences - UT Chattanooga",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "College of Arts and Sciences",
+      "area_key_words": "Pre-Health Advising, The HUB, College of Arts and Sciences",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7875": {
+      "school_id": 1323,
+      "posting_url": "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7875",
+      "job_title_in_post": "Part-Time Golf Groundskeeper, UTC Athletics",
+      "position_type": "Unclassified",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "UTC Athletics",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8154": {
+      "school_id": 1323,
+      "posting_url": "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8154",
+      "job_title_in_post": "Administrative Associate 2-Chatt Emergency Medicine",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/9481": {
+      "school_id": 1323,
+      "posting_url": "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/9481",
+      "job_title_in_post": "Provost and Senior Vice Chancellor of Academic Affairs, University of Tennessee at Chattanooga",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Academic Affairs, University of Tennessee at Chattanooga",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/9520": {
+      "school_id": 1323,
+      "posting_url": "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/9520",
+      "job_title_in_post": "Assistant Bursar Fees - Office of the Bursar - UT Chattanooga",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/9416": {
+      "school_id": 1323,
+      "posting_url": "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/9416",
+      "job_title_in_post": "EMSA Business & Technology Coordinator, VC Enrollment Management - UT Chattanooga",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/9429": {
+      "school_id": 1323,
+      "posting_url": "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/9429",
+      "job_title_in_post": "Financial Aid Coordinator, State & University Programs - UT Chattanooga",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7449": {
+      "school_id": 1323,
+      "posting_url": "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7449",
+      "job_title_in_post": "Admissions Recruiter, Undergraduate Admissions - UT Chattanooga",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/9400": {
+      "school_id": 1323,
+      "posting_url": "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/9400",
+      "job_title_in_post": "Instructor - College of Medicine (Chattanooga, TN)",
+      "position_type": "Unclassified",
+      "job_term": "Part-time",
+      "department_or_school": "College of Medicine",
+      "area_key_words": "TN",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/624": {
+      "school_id": 1323,
+      "posting_url": "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/624",
+      "job_title_in_post": "Lead Teacher, Children's Center",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/9310": {
+      "school_id": 1323,
+      "posting_url": "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/9310",
+      "job_title_in_post": "Learning Specialist and Athletics Advisor, UTC Athletics - UT Chattanooga",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/9074": {
+      "school_id": 1323,
+      "posting_url": "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/9074",
+      "job_title_in_post": "Senior Associate Director of Student Financial Aid and Scholarships - UTC Chattanooga",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Student Financial Aid and Scholarships",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/9287": {
+      "school_id": 1323,
+      "posting_url": "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/9287",
+      "job_title_in_post": "Assistant Professor - College of Medicine (Chattanooga, TN)",
+      "position_type": "Assistant_Professor",
+      "job_term": "Part-time",
+      "department_or_school": "College of Medicine",
+      "area_key_words": "TN",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8979": {
+      "school_id": 1323,
+      "posting_url": "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8979",
+      "job_title_in_post": "Assistant Athletic Trainer, Intercollegiate Athletics - UT Chattanooga",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8743": {
+      "school_id": 1323,
+      "posting_url": "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8743",
+      "job_title_in_post": "Financial Analyst, Office of Budget & Finance - UT Chattanooga",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Budget & Finance",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8626": {
+      "school_id": 1323,
+      "posting_url": "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8626",
+      "job_title_in_post": "Undergraduate Admissions and Orientation Coordinator - UT Chattanooga",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8493": {
+      "school_id": 1323,
+      "posting_url": "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8493",
+      "job_title_in_post": "Police Officer - UTC Police Department, UT Chattanooga",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8438": {
+      "school_id": 1323,
+      "posting_url": "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8438",
+      "job_title_in_post": "Custodial Tech, Housing and Residence Life",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8255": {
+      "school_id": 1323,
+      "posting_url": "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8255",
+      "job_title_in_post": "Sr. Building & Grounds Servicer - Facilities, Planning, and Management",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8151": {
+      "school_id": 1323,
+      "posting_url": "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/8151",
+      "job_title_in_post": "Program Counselor, Upward Bound Math Science",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7971": {
+      "error": "not present in bulk fetch result"
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7119": {
+      "school_id": 1323,
+      "posting_url": "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7119",
+      "job_title_in_post": "Assistant Teacher, Children's Center",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/6074": {
+      "school_id": 1323,
+      "posting_url": "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/6074",
+      "job_title_in_post": "Post-Doctoral Research Assistant, Probasco Distinguished Chair of Free Enterprise, College of Business - UT Chattanooga",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "College of Business",
+      "area_key_words": "Free Enterprise, College of Business",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/6350": {
+      "school_id": 1323,
+      "posting_url": "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/6350",
+      "job_title_in_post": "Assistant Professor - College of Medicine, Chattanooga  TN",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "College of Medicine, Chattanooga  TN",
+      "area_key_words": "Chattanooga  TN",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/6010": {
+      "school_id": 1323,
+      "posting_url": "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/6010",
+      "job_title_in_post": "HVAC Assistant Controls Technician - Facilities, Planning, and Management",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4662": {
+      "school_id": 1323,
+      "posting_url": "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4662",
+      "job_title_in_post": "College of Medicine-Chattanooga - Open Rank Instructor",
+      "position_type": "Assistant_Professor; Associate_Professor; Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Medicine-Chattanooga",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3662": {
+      "school_id": 1323,
+      "posting_url": "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3662",
+      "job_title_in_post": "Project Manager - Facilities, Planning, and Management",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3325": {
+      "school_id": 1323,
+      "posting_url": "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3325",
+      "job_title_in_post": "Technical Assistant, UTC McKenzie Arena",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1724": {
+      "school_id": 1323,
+      "posting_url": "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1724",
+      "job_title_in_post": "Senior Custodian - Facilities, Planning, and Management",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/188": {
+      "school_id": 1323,
+      "posting_url": "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/188",
+      "job_title_in_post": "Open Rank Professor - Surgery (Chattanooga)",
+      "position_type": "Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Department of Surgery, College of Medicine Chattanooga",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    }
+  },
   "school_id": 1323,
-  "status": "error",
-  "updated_at": "2026-09-25T21:54:01+00:00",
-  "last_error": "RuntimeError: oracle session capture failed: Timeout 15000ms exceeded while waiting for event \"request\"\n=========================== logs ===========================\nwaiting for request **/recruitingCEJobRequisitions**\n============================================================"
+  "status": "complete",
+  "updated_at": "2026-09-26T04:31:55+00:00",
+  "last_error": "",
+  "completed_at": "2026-09-26T04:31:55+00:00"
 }

@@ -1893,7 +1893,15 @@ def fetch_interfolio_bulk(careers_link):
 
     out = {}
     for r in jlib.interfolio_positions(careers_link):
-        pid = r.get('id')
+        # MUST match what scrape_interfolio stores, which is legacy_position_id
+        # -- the number in the public apply.interfolio.com URL -- not the
+        # board's internal `id`. The two are different postings at different
+        # universities. Keying on `id` here built URLs that no posting had,
+        # so every current posting failed its lookup with "not present in
+        # bulk fetch result": 437 rows across 28 schools, and the only rows
+        # that still classified cleanly were stale ones cached under the old
+        # scheme. See job_postings_lib.scrape_interfolio for the same rule.
+        pid = r.get('legacy_position_id') or r.get('id')
         if not pid:
             continue
         parts = [r.get('description') or '', r.get('qualifications') or '',

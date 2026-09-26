@@ -1,7 +1,15 @@
 """
 Job info scraper for school_id 346 - Graceland University-Lamoni (US)
 ATS platform: Oracle Cloud HCM
-Careers link: https://sfp.ocs.oraclecloud.com/graceland/portal/saml)
+Careers link: https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions
+
+This link was left behind when the POSTINGS scraper was repointed: it still
+named sfp.ocs.oraclecloud.com/graceland/portal/saml) -- a SAML sign-in
+portal, and note the trailing parenthesis, a copy/paste artefact stored
+verbatim. The bulk oracle adapter timed out waiting for a job request that
+never came ("oracle session capture failed"), so the school's 16 postings
+got no detail rows. It now matches the postings scraper: Graceland's own
+Oracle tenant.
 
 Reads posting URLs from school_id_346_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -30,7 +38,8 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 346
 SCHOOL_NAME = 'Graceland University-Lamoni'
-CAREERS_LINK = 'https://sfp.ocs.oraclecloud.com/graceland/portal/saml)'
+CAREERS_LINK = ('https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/'
+                'en/sites/CX_1/requisitions')
 ATS_PLATFORM = 'Oracle Cloud HCM'
 USE_LLM = False
 

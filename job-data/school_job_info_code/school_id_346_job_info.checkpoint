@@ -1,8 +1,267 @@
 {
-  "raw": {},
-  "rows": {},
+  "raw": {
+    "https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/424": {
+      "title": "Assistant Professor Math",
+      "description": "TENURE TRACK ASSISTANT PROFESSOR IN MATHEMATICS - Lamoni Campus",
+      "department": null
+    },
+    "https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/431": {
+      "title": "Admin Asst - Academic Affairs",
+      "description": "Administrative Assistant to the Vice President for Academic Affairs\n\nThe Administrative Assistant provides administrative and organizational support to the Vice President for Academic Affairs and the Office of Academic Affairs. This person helps keep daily operations, meetings, events, and communications running smoothly while managing details that require accuracy, discretion, and follow-through.",
+      "department": null
+    },
+    "https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/432": {
+      "title": "Staff Accountant - (PT)",
+      "description": "The part-time Staff Accountant supports the Accounting Services team by performing a variety of accounting, reconciliation, reporting, compliance, and audit support functions.  This position is responsible for maintaining accurate financial records, preparing monthly accounting entries, assisting with gift and endowment accounting, supporting grant accounting processes, and helping ensure compliance with state and federal requirements.",
+      "department": null
+    },
+    "https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/430": {
+      "title": "Senior Financial Analyst",
+      "description": "",
+      "department": null
+    },
+    "https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/406": {
+      "title": "DPT Faculty",
+      "description": "Graceland University seeks core faculty member for their hybrid, accelerated program DPT program.   Graceland University is a private, non-profit institution of approximately 1,450 undergraduate and graduate students. Founded in 1895 with the support of the Community of Christ, it is recognized by the Princeton Review as \"Best in the Midwest\" since 2012. Graceland University is seeking an innovative candidate for a full-time (12-month) Core faculty appointment with clinical rank commensurate with experience for its Doctor of Physical Therapy (DPT) program in Independence, Missouri.  The content area focus is neuromuscular patient management.  Other areas may include foundational courses such as PT fundamentals, human physiology, therapeutic interventions, and prosthetics.",
+      "department": null
+    },
+    "https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/297": {
+      "title": "Assistant Professor of Chemistry",
+      "description": "",
+      "department": null
+    },
+    "https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/376": {
+      "title": "Admissions Coordinator - Independence",
+      "description": "IC- Admissions Coordinator ",
+      "department": null
+    },
+    "https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/375": {
+      "title": "Adjunct Faculty - Visual & Performing Arts",
+      "description": "Adjunct Instructor of Voice",
+      "department": null
+    },
+    "https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/342": {
+      "title": "Vice President for Student Life",
+      "description": "",
+      "department": null
+    },
+    "https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/341": {
+      "title": "Adjunct Faculty - Visual & Performing Arts",
+      "description": "Art Adjunct Faculty for Fall 2026",
+      "department": null
+    },
+    "https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/333": {
+      "title": "Adjunct Faculty - Humanities",
+      "description": "",
+      "department": null
+    },
+    "https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/332": {
+      "title": "Adjunct Faculty - DPT",
+      "description": "",
+      "department": null
+    },
+    "https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/324": {
+      "title": "Assistant Professor of Physical Education",
+      "description": "",
+      "department": null
+    },
+    "https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/56": {
+      "title": "Assistant Professor of Nursing 12-month",
+      "description": "12-month faculty position to serve as AGACNP track coordinator for the AGACNP track in the MSN program. The track coordinator is responsible for managing student issues and working closely with the Associate Dean for Graduate Programs in the School of Nursing on teaching responsibilities. This is an online program with travel required at least once per trimester for campus sessions and for on-site graduation. Additional in-person faculty meeting may be required. ",
+      "department": null
+    },
+    "https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/79": {
+      "title": "Faculty Associate - Nursing",
+      "description": "",
+      "department": null
+    },
+    "https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/6": {
+      "title": "Adjunct Faculty Nursing",
+      "description": "",
+      "department": null
+    }
+  },
+  "rows": {
+    "https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/424": {
+      "school_id": 346,
+      "posting_url": "https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/424",
+      "job_title_in_post": "Assistant Professor Math",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/431": {
+      "school_id": 346,
+      "posting_url": "https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/431",
+      "job_title_in_post": "Admin Asst - Academic Affairs",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/432": {
+      "school_id": 346,
+      "posting_url": "https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/432",
+      "job_title_in_post": "Staff Accountant - (PT)",
+      "position_type": "Unclassified",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/430": {
+      "school_id": 346,
+      "posting_url": "https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/430",
+      "job_title_in_post": "Senior Financial Analyst",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/406": {
+      "school_id": 346,
+      "posting_url": "https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/406",
+      "job_title_in_post": "DPT Faculty",
+      "position_type": "Assistant_Professor; Associate_Professor; Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "DPT",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/297": {
+      "school_id": 346,
+      "posting_url": "https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/297",
+      "job_title_in_post": "Assistant Professor of Chemistry",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Chemistry",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/376": {
+      "school_id": 346,
+      "posting_url": "https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/376",
+      "job_title_in_post": "Admissions Coordinator - Independence",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/375": {
+      "school_id": 346,
+      "posting_url": "https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/375",
+      "job_title_in_post": "Adjunct Faculty - Visual & Performing Arts",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Visual & Performing Arts",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/342": {
+      "school_id": 346,
+      "posting_url": "https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/342",
+      "job_title_in_post": "Vice President for Student Life",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/341": {
+      "school_id": 346,
+      "posting_url": "https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/341",
+      "job_title_in_post": "Adjunct Faculty - Visual & Performing Arts",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Visual & Performing Arts",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/333": {
+      "school_id": 346,
+      "posting_url": "https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/333",
+      "job_title_in_post": "Adjunct Faculty - Humanities",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Humanities",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/332": {
+      "school_id": 346,
+      "posting_url": "https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/332",
+      "job_title_in_post": "Adjunct Faculty - DPT",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "DPT",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/324": {
+      "school_id": 346,
+      "posting_url": "https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/324",
+      "job_title_in_post": "Assistant Professor of Physical Education",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Physical Education",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/56": {
+      "school_id": 346,
+      "posting_url": "https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/56",
+      "job_title_in_post": "Assistant Professor of Nursing 12-month",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "School of Nursing on teaching responsibilities",
+      "area_key_words": "Nursing 12-month; School of Nursing on teaching",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/79": {
+      "school_id": 346,
+      "posting_url": "https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/79",
+      "job_title_in_post": "Faculty Associate - Nursing",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Nursing",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/6": {
+      "school_id": 346,
+      "posting_url": "https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/6",
+      "job_title_in_post": "Adjunct Faculty Nursing",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    }
+  },
   "school_id": 346,
-  "status": "error",
-  "updated_at": "2026-09-25T19:55:59+00:00",
-  "last_error": "RuntimeError: oracle session capture failed: Timeout 15000ms exceeded while waiting for event \"request\"\n=========================== logs ===========================\nwaiting for request **/recruitingCEJobRequisitions**\n============================================================"
+  "status": "complete",
+  "updated_at": "2026-09-26T04:32:02+00:00",
+  "last_error": "",
+  "completed_at": "2026-09-26T04:32:02+00:00"
 }
