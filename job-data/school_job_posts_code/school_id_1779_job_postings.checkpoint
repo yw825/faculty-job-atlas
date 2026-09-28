@@ -21,9 +21,9 @@
     "https://uctalent.canberra.edu.au/cw/en/job/504696/lecturer-in-occupational-therapy"
   ],
   "school_id": 1779,
-  "status": "complete",
-  "updated_at": "2026-09-25T18:25:46+00:00",
+  "status": "error",
+  "updated_at": "2026-09-28T01:02:00+00:00",
   "started_at": "2026-09-02T22:33:26+00:00",
   "completed_at": "2026-09-25T18:25:46+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
 }

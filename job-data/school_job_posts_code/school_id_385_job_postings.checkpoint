@@ -1,1 +1,11 @@
-{"links": ["https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=000e9ccc-ecf1-448b-b0fb-65f550062347"], "school_id": 385, "status": "complete", "updated_at": "2026-09-25T16:42:21+00:00", "started_at": "2026-09-08T01:39:14+00:00", "completed_at": "2026-09-25T16:42:21+00:00", "last_error": ""}
+{
+  "links": [
+    "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=000e9ccc-ecf1-448b-b0fb-65f550062347"
+  ],
+  "school_id": 385,
+  "status": "error",
+  "updated_at": "2026-09-27T04:56:11+00:00",
+  "started_at": "2026-09-08T01:39:14+00:00",
+  "completed_at": "2026-09-25T16:42:21+00:00",
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.tiu.edu/human-resources/\", waiting until \"domcontentloaded\"\n"
+}

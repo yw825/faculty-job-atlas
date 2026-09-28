@@ -11,6 +11,10 @@
     "https://rosehulman.csod.com/ux/ats/careersite/9/requisition/795": {
       "title": "Sign in to your account",
       "description": "Sign in to your account Trying to sign you in Cancel Terms of use Privacy & cookies ..."
+    },
+    "https://rosehulman.csod.com/ux/ats/careersite/9/requisition/799": {
+      "title": "Sign in to your account",
+      "description": "Sign in to your account"
     }
   },
   "rows": {
@@ -46,11 +50,22 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://rosehulman.csod.com/ux/ats/careersite/9/requisition/799": {
+      "school_id": 452,
+      "posting_url": "https://rosehulman.csod.com/ux/ats/careersite/9/requisition/799",
+      "job_title_in_post": "Sign in to your account",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 452,
   "status": "complete",
-  "updated_at": "2026-09-25T20:03:50+00:00",
-  "completed_at": "2026-09-25T20:03:50+00:00",
+  "updated_at": "2026-09-28T17:48:12+00:00",
+  "completed_at": "2026-09-28T17:48:12+00:00",
   "last_error": ""
 }

@@ -220,9 +220,9 @@
     "https://waynetalent.csod.com/ux/ats/careersite/2/requisition/3647"
   ],
   "school_id": 636,
-  "status": "complete",
-  "updated_at": "2026-09-25T17:07:09+00:00",
+  "status": "error",
+  "updated_at": "2026-09-27T20:38:49+00:00",
   "started_at": "2026-09-08T02:05:03+00:00",
   "completed_at": "2026-09-25T17:07:09+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: cornerstone token capture failed: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://waynetalent.csod.com/ux/ats/careersite/2/home?c=waynetalent\", waiting until \"networkidle\"\n"
 }

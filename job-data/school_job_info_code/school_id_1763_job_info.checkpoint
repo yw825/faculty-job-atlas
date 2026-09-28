@@ -241,6 +241,11 @@
       "title": "Research Fellow - School of Psychology - 107919 - Grade 7",
       "description": "To create and contribute to the creation of knowledge by collaborating with Professor Elaine Fox in establishing a research programme in experimental psychopathology. This will include  computer programming of behavioural experiments, participant recruitment and data collection, analysis of data, secondary data analyses from existing datasets, interpretation of data analysis and write up of scientific paper. Collaboration will also be required with preparing grant funding applications.\n\nPosting closes: 2026-10-07",
       "department": null
+    },
+    "https://edzz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_6001/job/10046": {
+      "title": "Research Fellow - Department of Cancer and Genomic Sciences - 106039 - Grade 7",
+      "description": "A Bone Cancer Research Trust/GOSH funded Research Fellow post, starting January 2027 within the lab of Prof. Clare Davies (https://www.claredavieslab.org/) and Dr. Susanne Gatz at the Department of Cancer and Genomic Sciences, investigating oncogenic mechanisms of the arginine methylatrasnferase, PRMT5, in Ewing sarcoma focusing on the DNA damage response and splicing.\n\nPosting closes: 2026-10-19",
+      "department": null
     }
   },
   "rows": {
@@ -743,11 +748,22 @@
       "area_key_words": "School of Psychology; experimental psychopathology",
       "deadline_of_application": "2026-10-07",
       "position_start_date": ""
+    },
+    "https://edzz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_6001/job/10046": {
+      "school_id": 1763,
+      "posting_url": "https://edzz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_6001/job/10046",
+      "job_title_in_post": "Research Fellow - Department of Cancer and Genomic Sciences - 106039 - Grade 7",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "Department of Cancer and Genomic Sciences",
+      "area_key_words": "Department of Cancer and Genomic Sciences",
+      "deadline_of_application": "2026-10-19",
+      "position_start_date": ""
     }
   },
   "school_id": 1763,
   "status": "complete",
-  "updated_at": "2026-09-26T00:08:48+00:00",
-  "completed_at": "2026-09-26T00:08:48+00:00",
+  "updated_at": "2026-09-28T19:26:42+00:00",
+  "completed_at": "2026-09-28T19:26:42+00:00",
   "last_error": ""
 }

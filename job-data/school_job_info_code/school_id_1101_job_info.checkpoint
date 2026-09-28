@@ -131,6 +131,22 @@
     "https://nsuok.csod.com/ux/ats/careersite/4/requisition/5887": {
       "title": "+ Cornerstone OnDemand +",
       "description": "+ Cornerstone OnDemand + Log In Logging in... Username: Password: Remember Username Check this box to save your username for future logins Inherit Login Language Apply login language to application Forgot password? SSO Click here! Self Reg Click here! Need Help? recruitemployee@nsuok.edu © Cornerstone OnDemand. All Rights Reserved. What happened? The Custom login page that you requested is temporarily down for maintenance. What to do? You will be redirected in 10 seconds to a standard login page to access your portal. If you are not automatically redirected, click here ."
+    },
+    "https://nsuok.csod.com/ux/ats/careersite/4/requisition/5821": {
+      "title": "+ Cornerstone OnDemand +",
+      "description": "+ Cornerstone OnDemand + Log In Logging in... Username: Password: Remember Username Check this box to save your username for future logins Inherit Login Language Apply login language to application Forgot password? SSO Click here! Self Reg Click here! Need Help? recruitemployee@nsuok.edu © Cornerstone OnDemand. All Rights Reserved. What happened? The Custom login page that you requested is temporarily down for maintenance. What to do? You will be redirected in 10 seconds to a standard login page to access your portal. If you are not automatically redirected, click here ."
+    },
+    "https://nsuok.csod.com/ux/ats/careersite/4/requisition/5936": {
+      "title": "+ Cornerstone OnDemand +",
+      "description": "+ Cornerstone OnDemand + Log In Logging in... Username: Password: Remember Username Check this box to save your username for future logins Inherit Login Language Apply login language to application Forgot password? SSO Click here! Self Reg Click here! Need Help? recruitemployee@nsuok.edu © Cornerstone OnDemand. All Rights Reserved. What happened? The Custom login page that you requested is temporarily down for maintenance. What to do? You will be redirected in 10 seconds to a standard login page to access your portal. If you are not automatically redirected, click here ."
+    },
+    "https://nsuok.csod.com/ux/ats/careersite/4/requisition/5935": {
+      "title": "+ Cornerstone OnDemand +",
+      "description": "+ Cornerstone OnDemand + Log In Logging in... Username: Password: Remember Username Check this box to save your username for future logins Inherit Login Language Apply login language to application Forgot password? SSO Click here! Self Reg Click here! Need Help? recruitemployee@nsuok.edu © Cornerstone OnDemand. All Rights Reserved. What happened? The Custom login page that you requested is temporarily down for maintenance. What to do? You will be redirected in 10 seconds to a standard login page to access your portal. If you are not automatically redirected, click here ."
+    },
+    "https://nsuok.csod.com/ux/ats/careersite/4/requisition/5934": {
+      "title": "+ Cornerstone OnDemand +",
+      "description": "+ Cornerstone OnDemand + Log In Logging in... Username: Password: Remember Username Check this box to save your username for future logins Inherit Login Language Apply login language to application Forgot password? SSO Click here! Self Reg Click here! Need Help? recruitemployee@nsuok.edu © Cornerstone OnDemand. All Rights Reserved. What happened? The Custom login page that you requested is temporarily down for maintenance. What to do? You will be redirected in 10 seconds to a standard login page to access your portal. If you are not automatically redirected, click here ."
     }
   },
   "rows": {
@@ -496,11 +512,55 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://nsuok.csod.com/ux/ats/careersite/4/requisition/5821": {
+      "school_id": 1101,
+      "posting_url": "https://nsuok.csod.com/ux/ats/careersite/4/requisition/5821",
+      "job_title_in_post": "+ Cornerstone OnDemand +",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://nsuok.csod.com/ux/ats/careersite/4/requisition/5936": {
+      "school_id": 1101,
+      "posting_url": "https://nsuok.csod.com/ux/ats/careersite/4/requisition/5936",
+      "job_title_in_post": "+ Cornerstone OnDemand +",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://nsuok.csod.com/ux/ats/careersite/4/requisition/5935": {
+      "school_id": 1101,
+      "posting_url": "https://nsuok.csod.com/ux/ats/careersite/4/requisition/5935",
+      "job_title_in_post": "+ Cornerstone OnDemand +",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://nsuok.csod.com/ux/ats/careersite/4/requisition/5934": {
+      "school_id": 1101,
+      "posting_url": "https://nsuok.csod.com/ux/ats/careersite/4/requisition/5934",
+      "job_title_in_post": "+ Cornerstone OnDemand +",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1101,
   "status": "complete",
-  "updated_at": "2026-09-25T21:29:07+00:00",
-  "completed_at": "2026-09-25T21:29:07+00:00",
+  "updated_at": "2026-09-28T18:25:06+00:00",
+  "completed_at": "2026-09-28T18:25:06+00:00",
   "last_error": ""
 }

@@ -1,1 +1,35 @@
-{"links": ["https://www.mtu.edu/faculty-staff/", "https://www.mtu.edu/career/students/resumes-letters/", "https://www.mtu.edu/career/students/networking/", "https://www.mtu.edu/career/students/jobs-intern/", "https://www.mtu.edu/career/students/career-path/", "https://www.mtu.edu/career/on-campus-jobs/", "https://www.mtu.edu/career/fair/", "https://www.mtu.edu/career/events/", "https://www.mtu.edu/career/faculty-staff/classroom/", "https://www.mtu.edu/career/events/presentations/", "https://www.mtu.edu/career/faculty-staff/champions/", "https://www.mtu.edu/career/connect/data/", "https://www.mtu.edu/career/connect/portraits/", "https://mtu.joinhandshake.com/job-search/10083757?curations=13837&per_page=25&page=1", "https://mtu.joinhandshake.com/job-search/10126423?per_page=25&employmentTypes=2&sort=relevance&curations=26608&page=1", "https://www.mtu.edu/career/on-campus-jobs/hiring-huskies/", "https://mtu.joinhandshake.com/job-search/10896818?per_page=25&employmentTypes=2&sort=relevance&curations=26608&page=1", "https://www.mtu.edu/success/now-hiring/", "https://jobs.mitalent.org/job-seeker/jobsearch-results?job_city=Houghton&job_radius=50&job_time_frame=30", "https://www.mtu.edu/forest/about/job-postings/", "https://www.mtu.edu/deanofstudents/", "https://www.instagram.com/mtucareer", "https://www.linkedin.com/company/mtu-career-services", "https://www.youtube.com/mtucareer", "https://a.cms.omniupdate.com/11/?skin=oucampus&account=MTU&site=www&action=de&path=/career/on-campus-jobs/index.pcf"], "school_id": 647, "status": "complete", "updated_at": "2026-09-25T17:07:42+00:00", "started_at": "2026-09-08T02:05:32+00:00", "completed_at": "2026-09-25T17:07:42+00:00", "last_error": ""}
+{
+  "links": [
+    "https://www.mtu.edu/faculty-staff/",
+    "https://www.mtu.edu/career/students/resumes-letters/",
+    "https://www.mtu.edu/career/students/networking/",
+    "https://www.mtu.edu/career/students/jobs-intern/",
+    "https://www.mtu.edu/career/students/career-path/",
+    "https://www.mtu.edu/career/on-campus-jobs/",
+    "https://www.mtu.edu/career/fair/",
+    "https://www.mtu.edu/career/events/",
+    "https://www.mtu.edu/career/faculty-staff/classroom/",
+    "https://www.mtu.edu/career/events/presentations/",
+    "https://www.mtu.edu/career/faculty-staff/champions/",
+    "https://www.mtu.edu/career/connect/data/",
+    "https://www.mtu.edu/career/connect/portraits/",
+    "https://mtu.joinhandshake.com/job-search/10083757?curations=13837&per_page=25&page=1",
+    "https://mtu.joinhandshake.com/job-search/10126423?per_page=25&employmentTypes=2&sort=relevance&curations=26608&page=1",
+    "https://www.mtu.edu/career/on-campus-jobs/hiring-huskies/",
+    "https://mtu.joinhandshake.com/job-search/10896818?per_page=25&employmentTypes=2&sort=relevance&curations=26608&page=1",
+    "https://www.mtu.edu/success/now-hiring/",
+    "https://jobs.mitalent.org/job-seeker/jobsearch-results?job_city=Houghton&job_radius=50&job_time_frame=30",
+    "https://www.mtu.edu/forest/about/job-postings/",
+    "https://www.mtu.edu/deanofstudents/",
+    "https://www.instagram.com/mtucareer",
+    "https://www.linkedin.com/company/mtu-career-services",
+    "https://www.youtube.com/mtucareer",
+    "https://a.cms.omniupdate.com/11/?skin=oucampus&account=MTU&site=www&action=de&path=/career/on-campus-jobs/index.pcf"
+  ],
+  "school_id": 647,
+  "status": "error",
+  "updated_at": "2026-09-27T22:13:38+00:00",
+  "started_at": "2026-09-08T02:05:32+00:00",
+  "completed_at": "2026-09-25T17:07:42+00:00",
+  "last_error": "TimeoutError: BrowserType.launch: Timeout 180000ms exceeded.\nCall log:\n  - <launching> /Users/yusiwei/Library/Caches/ms-playwright/chromium_headless_shell-1234/chrome-headless-shell-mac-arm64/chrome-headless-shell --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-edgeupdater --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,BlockOriginHeaderModificationOnRedirect,Translate,AutoDeElevate,OptimizationHints,msForceBrowserSignIn,msEdgeUpdateLaunchServicesPreferredVersion --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --disable-updater-scheduler --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=/var/folders/88/jcs6kzbj0jl13vb3kjb9vrnc0000gn/T/playwright_chromiumdev_profile-0Ew7bg --remote-debugging-pipe --no-startup-window\n  - <launched> pid=70958\n"
+}

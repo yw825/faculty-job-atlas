@@ -22,9 +22,9 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/16D5A72295BEEA4BBF29A0DA73DAF892/jobs/170769"
   ],
   "school_id": 237,
-  "status": "complete",
-  "updated_at": "2026-09-25T16:17:49+00:00",
+  "status": "error",
+  "updated_at": "2026-09-26T17:55:47+00:00",
   "started_at": "2026-09-25T06:21:22+00:00",
   "completed_at": "2026-09-25T16:17:49+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: no paycom postings found"
 }

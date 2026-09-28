@@ -143,6 +143,26 @@
     "https://academic.careers.columbia.edu/#open-rank-associate-research-scientist-instructor-assistant": {
       "title": "Open Rank: Associate Research Scientist/Instructor/Assistant Professor/Associate Professor/Professor",
       "description": "ngIf: item.close_date ngIf: !item.close_date Open until filled end ngIf: !item.close_date · ngIf: item.discipline Pathology end ngRepeat: item in filteredResults  | orderBy:sortKey:true | limitTo : itemLimit : itemLimit * (page -1)"
+    },
+    "https://academic.careers.columbia.edu/#associate-professor-or-professor-and-chair-department-of-soc": {
+      "title": "Associate Professor or Professor and Chair, Department of Sociomedical Sciences",
+      "description": "ngIf: item.close_date ngIf: !item.close_date Open until filled end ngIf: !item.close_date · ngIf: item.discipline Sociomedical Sciences end ngRepeat: item in filteredResults  | orderBy:sortKey:true | limitTo : itemLimit : itemLimit * (page -1)"
+    },
+    "https://academic.careers.columbia.edu/#legal-research-fellow-ii": {
+      "title": "Legal Research Fellow II",
+      "description": "ngIf: item.close_date ngIf: !item.close_date Open until filled end ngIf: !item.close_date · ngIf: item.discipline Columbia Law School end ngRepeat: item in filteredResults  | orderBy:sortKey:true | limitTo : itemLimit : itemLimit * (page -1)"
+    },
+    "https://academic.careers.columbia.edu/#assistant-professor-position-in-luso-brazilian-cultural-stud": {
+      "title": "Assistant Professor position in Luso-Brazilian cultural studies since 1800",
+      "description": "ngIf: item.close_date ngIf: !item.close_date Open until filled end ngIf: !item.close_date · ngIf: item.discipline Department of Latin American and Iberian Cultures end ngRepeat: item in filteredResults  | orderBy:sortKey:true | limitTo : itemLimit : itemLimit * (page -1) Staff Associate II ngIf: item.close_date ngIf: !item.close_date Open until filled end ngIf: !item.close_date · ngIf: item.discipline Environmental Health Science end ngRepeat: item in filteredResults  | orderBy:sortKey:true | limitTo : itemLimit : itemLimit * (page -1)"
+    },
+    "https://academic.careers.columbia.edu/#associate-professor-or-professor": {
+      "title": "Associate Professor or Professor",
+      "description": "ngIf: item.close_date ngIf: !item.close_date Open until filled end ngIf: !item.close_date · ngIf: item.discipline Department of Mathematics end ngRepeat: item in filteredResults  | orderBy:sortKey:true | limitTo : itemLimit : itemLimit * (page -1)"
+    },
+    "https://academic.careers.columbia.edu/#assistant-professor-in-mathematics": {
+      "title": "Assistant Professor in Mathematics",
+      "description": "ngIf: item.close_date ngIf: !item.close_date Open until filled end ngIf: !item.close_date · ngIf: item.discipline Department of Mathematics end ngRepeat: item in filteredResults  | orderBy:sortKey:true | limitTo : itemLimit : itemLimit * (page -1)"
     }
   },
   "rows": {
@@ -541,11 +561,66 @@
       "area_key_words": "Open Rank",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://academic.careers.columbia.edu/#associate-professor-or-professor-and-chair-department-of-soc": {
+      "school_id": 965,
+      "posting_url": "https://academic.careers.columbia.edu/#associate-professor-or-professor-and-chair-department-of-soc",
+      "job_title_in_post": "Associate Professor or Professor and Chair, Department of Sociomedical Sciences",
+      "position_type": "Associate_Professor; Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Department of Sociomedical Sciences",
+      "area_key_words": "Sociomedical Sciences",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://academic.careers.columbia.edu/#legal-research-fellow-ii": {
+      "school_id": 965,
+      "posting_url": "https://academic.careers.columbia.edu/#legal-research-fellow-ii",
+      "job_title_in_post": "Legal Research Fellow II",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://academic.careers.columbia.edu/#assistant-professor-position-in-luso-brazilian-cultural-stud": {
+      "school_id": 965,
+      "posting_url": "https://academic.careers.columbia.edu/#assistant-professor-position-in-luso-brazilian-cultural-stud",
+      "job_title_in_post": "Assistant Professor position in Luso-Brazilian cultural studies since 1800",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Luso-Brazilian cultural studies since 1800",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://academic.careers.columbia.edu/#associate-professor-or-professor": {
+      "school_id": 965,
+      "posting_url": "https://academic.careers.columbia.edu/#associate-professor-or-professor",
+      "job_title_in_post": "Associate Professor or Professor",
+      "position_type": "Associate_Professor; Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://academic.careers.columbia.edu/#assistant-professor-in-mathematics": {
+      "school_id": 965,
+      "posting_url": "https://academic.careers.columbia.edu/#assistant-professor-in-mathematics",
+      "job_title_in_post": "Assistant Professor in Mathematics",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Mathematics",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 965,
   "status": "complete",
-  "updated_at": "2026-09-25T21:18:30+00:00",
-  "completed_at": "2026-09-25T21:18:30+00:00",
+  "updated_at": "2026-09-28T18:19:39+00:00",
+  "completed_at": "2026-09-28T18:19:39+00:00",
   "last_error": ""
 }

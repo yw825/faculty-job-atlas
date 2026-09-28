@@ -522,6 +522,26 @@
       "title": "Assistant Professor of Mathematics Education",
       "description": "Posted: 09/17/2026 Location: Ellensburg, WA Department: Science and Mathematics Ed Assistant Professor of Mathematics Education",
       "department": "Science and Mathematics Ed"
+    },
+    "https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=7527&PostingSeq=1&SiteId=1": {
+      "title": "Admissions Counselor",
+      "description": "Posted: 09/25/2026 Location: Ellensburg, WA Department: Admissions Admissions Counselor",
+      "department": "Admissions"
+    },
+    "https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=7569&PostingSeq=1&SiteId=1": {
+      "title": "Associate Vice President - Student Engagement and Success",
+      "description": "Posted: 09/25/2026 Location: Ellensburg, WA Department: Student Dev & Belonging Associate Vice President - Student Engagement and Success",
+      "department": "Student Dev & Belonging"
+    },
+    "https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=7570&PostingSeq=1&SiteId=1": {
+      "title": "Program Specialist 3 - Business Services",
+      "description": "Posted: 09/25/2026 Location: Ellensburg, WA Department: Business Services Program Specialist 3 - Business Services",
+      "department": "Business Services"
+    },
+    "https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=7541&PostingSeq=1&SiteId=1": {
+      "title": "Senior Network Engineer",
+      "description": "Posted: 09/25/2026 Location: Ellensburg, WA Department: Networks & Operations Senior Network Engineer",
+      "department": "Networks & Operations"
     }
   },
   "rows": {
@@ -1671,11 +1691,55 @@
       "area_key_words": "Mathematics Education",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=7527&PostingSeq=1&SiteId=1": {
+      "school_id": 1512,
+      "posting_url": "https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=7527&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Admissions Counselor",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Admissions",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=7569&PostingSeq=1&SiteId=1": {
+      "school_id": 1512,
+      "posting_url": "https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=7569&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Associate Vice President - Student Engagement and Success",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Student Dev & Belonging",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=7570&PostingSeq=1&SiteId=1": {
+      "school_id": 1512,
+      "posting_url": "https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=7570&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Program Specialist 3 - Business Services",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "Business Services",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=7541&PostingSeq=1&SiteId=1": {
+      "school_id": 1512,
+      "posting_url": "https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=7541&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Senior Network Engineer",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Networks & Operations",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1512,
   "status": "complete",
-  "updated_at": "2026-09-25T22:51:45+00:00",
-  "completed_at": "2026-09-25T22:51:45+00:00",
+  "updated_at": "2026-09-28T18:40:28+00:00",
+  "completed_at": "2026-09-28T18:40:28+00:00",
   "last_error": ""
 }

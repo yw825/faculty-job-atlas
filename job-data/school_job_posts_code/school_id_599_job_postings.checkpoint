@@ -1,9 +1,8 @@
 {
   "links": [],
   "school_id": 599,
-  "status": "complete",
-  "updated_at": "2026-09-25T17:03:33+00:00",
-  "started_at": "2026-09-25T17:03:30+00:00",
-  "completed_at": "2026-09-25T17:03:33+00:00",
-  "last_error": ""
+  "status": "error",
+  "updated_at": "2026-09-27T14:14:41+00:00",
+  "started_at": "2026-09-27T13:30:46+00:00",
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
 }

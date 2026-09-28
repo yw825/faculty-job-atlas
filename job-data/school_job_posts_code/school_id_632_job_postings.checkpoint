@@ -1,1 +1,13 @@
-{"links": ["https://www.andrews.edu/admres/jobs/show/staff_hourly", "https://www.andrews.edu/admres/jobs/show/staff_salary", "https://www.andrews.edu/HR/emp_jobs.html"], "school_id": 632, "status": "complete", "updated_at": "2026-09-25T17:06:45+00:00", "started_at": "2026-09-14T18:15:30+00:00", "completed_at": "2026-09-25T17:06:45+00:00", "last_error": ""}
+{
+  "links": [
+    "https://www.andrews.edu/admres/jobs/show/staff_hourly",
+    "https://www.andrews.edu/admres/jobs/show/staff_salary",
+    "https://www.andrews.edu/HR/emp_jobs.html"
+  ],
+  "school_id": 632,
+  "status": "error",
+  "updated_at": "2026-09-27T19:53:28+00:00",
+  "started_at": "2026-09-14T18:15:30+00:00",
+  "completed_at": "2026-09-25T17:06:45+00:00",
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.andrews.edu/admres/jobs\", waiting until \"domcontentloaded\"\n"
+}

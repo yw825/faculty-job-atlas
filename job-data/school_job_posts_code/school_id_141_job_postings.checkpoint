@@ -40,7 +40,7 @@
   ],
   "school_id": 141,
   "status": "error",
-  "updated_at": "2026-09-25T16:09:38+00:00",
+  "updated_at": "2026-09-26T17:45:29+00:00",
   "started_at": "2026-09-08T01:18:53+00:00",
   "completed_at": "2026-09-24T16:39:23+00:00",
   "last_error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."

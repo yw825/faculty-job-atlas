@@ -8,9 +8,9 @@
     "https://emmanuel.interviewexchange.com/jobofferdetails.jsp?JOBID=204973"
   ],
   "school_id": 537,
-  "status": "complete",
-  "updated_at": "2026-09-25T16:57:33+00:00",
+  "status": "error",
+  "updated_at": "2026-09-27T06:45:20+00:00",
   "started_at": "2026-09-08T01:56:52+00:00",
   "completed_at": "2026-09-25T16:57:33+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://emmanuel.interviewexchange.com/static/clients/13EM1/listJobs.jsp;jsessionid=47B469F5FF02B2ECA11624165C411A0F\", waiting until \"domcontentloaded\"\n"
 }

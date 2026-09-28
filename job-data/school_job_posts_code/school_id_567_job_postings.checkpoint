@@ -3,9 +3,9 @@
     "https://annamaria.edu/working-at-anna-maria/faculty-staff-jobs/"
   ],
   "school_id": 567,
-  "status": "complete",
-  "updated_at": "2026-09-25T17:00:11+00:00",
+  "status": "error",
+  "updated_at": "2026-09-27T07:51:50+00:00",
   "started_at": "2026-09-08T01:59:28+00:00",
   "completed_at": "2026-09-25T17:00:11+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://annamaria.edu/work-at-anna-maria/\", waiting until \"domcontentloaded\"\n"
 }
