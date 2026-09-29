@@ -29,11 +29,13 @@ school_id_1907_job_info.checkpoint next to this script -- kill-and-resume,
 per-posting granularity.
 """
 import os
+import re
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.dirname(HERE))
 import job_info_lib as jinfo
+import job_postings_lib as jlib
 
 SCHOOL_ID = 1907
 SCHOOL_NAME = 'North Carolina Agricultural and Technical State University'
@@ -46,8 +48,40 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 
+SITE_NAME = re.compile(r'^\s*NCAT Applicant Portal\s*$', re.I)
+PAGE_TITLE = re.compile(r'<title[^>]*>(.*?)</title>', re.S | re.I)
+PORTAL_PREFIX = re.compile(r'^\s*NCAT Applicant Portal\s*\|\s*(.+?)\s*$', re.I)
+
+
 def fetch_detail(url):
-    return jinfo.fetch_detail_generic(url)
+    """Contract: return a (title, description) 2-tuple, not a dict.
+
+    PeopleAdmin posting pages here have NO <h1>; the job name is in an <h2>
+    and the page <title> reads "NCAT Applicant Portal | <job>". The shared
+    title cleaner keeps the left of " | " unless the left looks like a site
+    label, and "NCAT Applicant Portal" does not match that test, so 27 of
+    132 rows were stored as the portal's name instead of the job -- all of
+    them non-academic titles, since a title carrying a rank word ("Assistant/
+    Associate Professor") is job-shaped enough to win on its own.
+
+    Fixed per-school rather than in the shared cleaner, which serves ~1540
+    other schools. Only rows whose title IS exactly the portal name are
+    touched; a good title is never overwritten."""
+    title, description = jinfo.fetch_detail_generic(url)
+    if not title or not SITE_NAME.match(title):
+        return title, description
+    try:
+        status, html = jlib.fetch_static(url, timeout=20)
+    except Exception:
+        return title, description
+    if status != 200 or not html:
+        return title, description
+    match = PAGE_TITLE.search(html)
+    if not match:
+        return title, description
+    text = ' '.join(re.sub(r'<[^>]*>', ' ', match.group(1)).split())
+    real = PORTAL_PREFIX.match(text)
+    return (real.group(1), description) if real else (title, description)
 
 
 def main():
