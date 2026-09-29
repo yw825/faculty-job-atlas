@@ -1,22 +1,34 @@
 """
 Job postings scraper for school_id 187 - Central Connecticut State University (US)
-ATS platform: own website
-Careers link: https://www.ccsu.edu/hr/administrative/faculty/management
+ATS platform: PCRecruiter
+Careers link: https://host.pcrecruiter.net/pcrbin/jobboard.aspx?uid=central%20connecticut%20state%20university.centralconnecticutstateuniversity
 
 No shared ATS platform adapter applies to this school -- find_links() below
-is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
-directly to fix or improve results for Central Connecticut State University; nothing here affects any
-other school's script.
+is THIS SCHOOL'S OWN scraping logic, owned entirely by this file.
 
-Link check (ok): 5 posting-shaped links found.
+WHY THIS WAS REPOINTED
+It used to point at https://www.ccsu.edu/hr/administrative/faculty/management
+and run the generic COMMON_JOB_URL_HINTS filter over it. That page never
+contains a single job: CCSU embeds its PCRecruiter board in an IFRAME,
+loaded by www2.pcrecruiter.net/pcrimg/inc/pcrframehost.js, so the postings
+live on host.pcrecruiter.net and are invisible to anything reading the
+outer page. The old "5 posting-shaped links found" check passed because the
+generic filter matched CCSU's own HR navigation (/hr/job-opportunities,
+/hr/new-employee-information and the like) -- department pages, not jobs.
+This was caught when a real posting the school was advertising could not be
+found anywhere in the checkpoint.
 
-Starting point (not a tuned answer): fetch the careers page with JS
-rendered, then keep every link whose href or visible text looks
-job/vacancy/posting-shaped (job_postings_lib.COMMON_JOB_URL_HINTS). If that
-under- or over-collects, narrow the pattern to this site's real posting URL
-shape (the single most common fix -- a generic filter also matches a site's
-own navigation), add a click/scroll step via fetch_rendered's `actions`
-argument, or follow pagination with a second fetch and merge the results.
+THE LINK FORMAT IS A CHOICE
+The board's own anchors carry an opaque session-ish token:
+  ?action=detail&recordid=<N>&pcr-id=fGNlbnRyYWxjb25uZWN0aWN1dHN0YXRl...
+Those are NOT used here. The same detail page is served from the stable
+account id instead -- ?action=detail&recordid=<N>&uid=<uid> -- which is
+verified to return the posting (recordid 125219375561299 -> "Assistant
+Professor of MIS", 54 KB). A bare recordid with neither parameter returns
+"Internal Error", so one of the two is required and `uid` is the one that
+does not look like it expires.
+
+The board is plain server-rendered HTML (~20 KB), so no browser is needed.
 
 Writes school_job_posts/school_id_187_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_187_job_postings.checkpoint next to this script.
@@ -31,19 +43,25 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 187
 SCHOOL_NAME = 'Central Connecticut State University'
-CAREERS_LINK = 'https://www.ccsu.edu/hr/administrative/faculty/management'
-ATS_PLATFORM = 'own website'
+UID = 'central%20connecticut%20state%20university.centralconnecticutstateuniversity'
+CAREERS_LINK = 'https://host.pcrecruiter.net/pcrbin/jobboard.aspx?uid=' + UID
+ATS_PLATFORM = 'PCRecruiter'
+
+RECORD_ID = re.compile(r'recordid=(\d+)')
+DETAIL_URL = ('https://host.pcrecruiter.net/pcrbin/jobboard.aspx'
+              '?action=detail&recordid={}&uid=' + UID)
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    status, html = lib.fetch_static(CAREERS_LINK, timeout=25)
+    if status != 200 or not html:
+        raise RuntimeError(f'ccsu pcrecruiter board returned http={status}')
+    ids = sorted(set(RECORD_ID.findall(html)), key=int)
+    if not ids:
+        raise RuntimeError('ccsu pcrecruiter board listed no postings')
+    return [DETAIL_URL.format(i) for i in ids]
 
 
 def main():

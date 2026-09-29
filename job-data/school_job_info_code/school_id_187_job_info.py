@@ -1,7 +1,14 @@
 """
 Job info scraper for school_id 187 - Central Connecticut State University (US)
-ATS platform: own website
-Careers link: https://www.ccsu.edu/hr/administrative/faculty/management
+ATS platform: PCRecruiter
+Careers link: https://host.pcrecruiter.net/pcrbin/jobboard.aspx?uid=central%20connecticut%20state%20university.centralconnecticutstateuniversity
+
+The postings scraper was repointed from CCSU's own HR page to the
+PCRecruiter board it embeds in an iframe (see that script for why). Nothing
+needed to change here: this stage reads URLs out of the postings checkpoint
+rather than the careers link, and a PCRecruiter detail page is ordinary
+server-rendered HTML with the job name in <title> ("Assistant Professor of
+MIS"), which the generic detail fetcher handles.
 
 Reads posting URLs from school_id_187_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
