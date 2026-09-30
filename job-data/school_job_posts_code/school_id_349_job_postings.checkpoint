@@ -17,9 +17,9 @@
     "https://www.nwciowa.edu/employment/openings/450/assistant-professor-of-strategic-communication"
   ],
   "school_id": 349,
-  "status": "error",
-  "updated_at": "2026-09-27T00:11:24+00:00",
+  "status": "complete",
+  "updated_at": "2026-09-29T17:39:19+00:00",
   "started_at": "2026-09-08T01:36:02+00:00",
-  "completed_at": "2026-09-25T16:35:47+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.nwciowa.edu/employment\", waiting until \"domcontentloaded\"\n"
+  "completed_at": "2026-09-29T17:39:19+00:00",
+  "last_error": ""
 }

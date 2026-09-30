@@ -1,8 +1,9 @@
 {
   "links": [],
   "school_id": 609,
-  "status": "error",
-  "updated_at": "2026-09-27T16:16:37+00:00",
-  "started_at": "2026-09-27T15:47:12+00:00",
-  "last_error": "TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://towson.taleo.net/careersection/ex/jobsearch.ftl\", waiting until \"domcontentloaded\"\n"
+  "status": "complete",
+  "updated_at": "2026-09-29T18:12:16+00:00",
+  "started_at": "2026-09-29T18:12:06+00:00",
+  "completed_at": "2026-09-29T18:12:16+00:00",
+  "last_error": ""
 }

@@ -34,9 +34,9 @@
     "https://careers.csusb.edu/sb/en-us/job/562558/department-of-special-education-rehabilitation-counseling-parttime-lecturer-pool-special-education"
   ],
   "school_id": 126,
-  "status": "error",
-  "updated_at": "2026-09-26T17:33:03+00:00",
+  "status": "complete",
+  "updated_at": "2026-09-29T17:09:50+00:00",
   "started_at": "2026-09-08T01:18:10+00:00",
-  "completed_at": "2026-09-25T16:09:03+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+  "completed_at": "2026-09-29T17:09:50+00:00",
+  "last_error": ""
 }

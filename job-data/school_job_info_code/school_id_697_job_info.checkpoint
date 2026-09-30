@@ -111,6 +111,14 @@
     "https://staffemployment-stthomas.icims.com/jobs/9651/prep-cook-food-service-worker/job": {
       "title": "Prep Cook/Food Service Worker in St. Paul, Minnesota",
       "description": "Prep Cook/Food Service Worker in St. Paul, Minnesota | Careers at St. Paul Skip Branding"
+    },
+    "https://staffemployment-stthomas.icims.com/jobs/9714/administrative-assistant-to-vice-president-of-university-advancement/job": {
+      "title": "Administrative Assistant to Vice President of University Advancement in Minneapolis & St. Paul, Minnesota",
+      "description": "Administrative Assistant to Vice President of University Advancement in Minneapolis & St. Paul, Minnesota | Careers at Minneapolis & St. Paul"
+    },
+    "https://staffemployment-stthomas.icims.com/jobs/9711/program-manager%2c-graduate-%26-alumni-career-services/job": {
+      "title": "Program Manager, Graduate & Alumni Career Services in St. Paul, Minnesota",
+      "description": "Program Manager, Graduate & Alumni Career Services in St. Paul, Minnesota | Careers at St. Paul Skip Branding"
     }
   },
   "rows": {
@@ -421,11 +429,33 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://staffemployment-stthomas.icims.com/jobs/9714/administrative-assistant-to-vice-president-of-university-advancement/job": {
+      "school_id": 697,
+      "posting_url": "https://staffemployment-stthomas.icims.com/jobs/9714/administrative-assistant-to-vice-president-of-university-advancement/job",
+      "job_title_in_post": "Administrative Assistant to Vice President of University Advancement in Minneapolis & St. Paul, Minnesota",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://staffemployment-stthomas.icims.com/jobs/9711/program-manager%2c-graduate-%26-alumni-career-services/job": {
+      "school_id": 697,
+      "posting_url": "https://staffemployment-stthomas.icims.com/jobs/9711/program-manager%2c-graduate-%26-alumni-career-services/job",
+      "job_title_in_post": "Program Manager, Graduate & Alumni Career Services in St. Paul, Minnesota",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 697,
   "status": "complete",
-  "updated_at": "2026-09-28T18:06:12+00:00",
-  "completed_at": "2026-09-28T18:06:12+00:00",
+  "updated_at": "2026-09-30T00:58:45+00:00",
+  "completed_at": "2026-09-30T00:58:45+00:00",
   "last_error": ""
 }

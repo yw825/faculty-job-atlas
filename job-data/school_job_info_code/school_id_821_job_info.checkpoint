@@ -19,6 +19,10 @@
     "https://a.cms.omniupdate.com/11/?skin=dickinsonstate&account=dickinsonstate&site=www&action=de&path=/about/employment/open-positions/index.pcf": {
       "title": "Modern Campus CMS",
       "description": "Log In - Modern Campus CMS Modern Campus CMS Logo Modern Campus CMS Help Support Community Feedback Log in to your account Username LOGIN Reset Password Change Password Please enter a new password for user in account . New Password Reset Cancel System Announcements We're sorry; the system could not log you in. The authentication server returned the following error message: Reset Password Password reset instructions will be emailed to the address entered below. Username SUBMIT Back to Login Page Reset Password Your request was successfull. You will receive an email containing a link to reset your password. Back to Login Page Javascript Disabled Modern Campus CMS requires Javascript. Please enable Javascript in your browser settings."
+    },
+    "https://p15.courseval.net/etw/ets/et.asp?nxappid=DS2&nxmid=start": {
+      "title": "NDUS Portal",
+      "description": "NDUS Portal NDUS Portal - Log In NDUS Portal Log In The NDUS Portal requires authentication using your NDUS identifier. User ID Password All users of systems provided by the North Dakota University System agree to abide by the policies and procedures of the NDUS and the laws of the State of North Dakota. Campus Connection users also agree to abide by the Campus Connection User Agreement. Log In Trouble Logging In? If you are experiencing any difficulties getting logged into the system, please use the links below. NDUS System Status User ID and Password Help Help Desk Support Campus Connection Guest Page Copyright 2026 North Dakota University System. All rights reserved."
     }
   },
   "rows": {
@@ -76,11 +80,22 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://p15.courseval.net/etw/ets/et.asp?nxappid=DS2&nxmid=start": {
+      "school_id": 821,
+      "posting_url": "https://p15.courseval.net/etw/ets/et.asp?nxappid=DS2&nxmid=start",
+      "job_title_in_post": "NDUS Portal",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 821,
   "status": "complete",
-  "updated_at": "2026-09-28T18:12:44+00:00",
-  "completed_at": "2026-09-28T18:12:44+00:00",
+  "updated_at": "2026-09-30T01:46:36+00:00",
+  "completed_at": "2026-09-30T01:46:36+00:00",
   "last_error": ""
 }

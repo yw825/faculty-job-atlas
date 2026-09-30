@@ -2,7 +2,7 @@
   "links": [],
   "school_id": 373,
   "status": "error",
-  "updated_at": "2026-09-27T03:14:22+00:00",
+  "updated_at": "2026-09-29T17:43:23+00:00",
   "started_at": "2026-09-09T06:28:52+00:00",
-  "last_error": "RuntimeError: oracle session capture failed: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://ekze.fa.us2.oraclecloud.com/hcmUI/faces/FndOverview?fnd=%3B%3B%3B%3Bfalse%3B256%3B%3B%3B&fndGlobalItemNodeId=PER_HCMPEOPLETOP_FUSE_DIRECTORY\", waiting until \"domcontentloaded\"\n"
+  "last_error": "RuntimeError: oracle session capture failed: Timeout 15000ms exceeded while waiting for event \"request\"\n=========================== logs ===========================\nwaiting for request **/recruitingCEJobRequisitions**\n============================================================"
 }

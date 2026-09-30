@@ -542,6 +542,11 @@
       "title": "Senior Network Engineer",
       "description": "Posted: 09/25/2026 Location: Ellensburg, WA Department: Networks & Operations Senior Network Engineer",
       "department": "Networks & Operations"
+    },
+    "https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=7575&PostingSeq=1&SiteId=1": {
+      "title": "Program Assistant",
+      "description": "Posted: 09/29/2026 Location: Ellensburg, WA Department: Testing Services Program Assistant",
+      "department": "Testing Services"
     }
   },
   "rows": {
@@ -1735,11 +1740,22 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=7575&PostingSeq=1&SiteId=1": {
+      "school_id": 1512,
+      "posting_url": "https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=7575&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Program Assistant",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Testing Services",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1512,
   "status": "complete",
-  "updated_at": "2026-09-28T18:40:28+00:00",
-  "completed_at": "2026-09-28T18:40:28+00:00",
+  "updated_at": "2026-09-30T03:24:06+00:00",
+  "completed_at": "2026-09-30T03:24:06+00:00",
   "last_error": ""
 }

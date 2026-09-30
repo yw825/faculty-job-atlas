@@ -864,6 +864,21 @@
       "title": "Federal Work Study - Newnan Student Services",
       "description": "Posted: 03/02/2026 Location: UWG Recruiting Location Department: VP of Student Affairs Federal Work Study - Newnan Student Services",
       "department": "VP of Student Affairs"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304373&PostingSeq=1&SiteId=54000": {
+      "title": "Nursing Simulations Operations Specialist",
+      "description": "Posted: 09/29/2026 Location: UWG Recruiting Location Department: Nursing Nursing Simulations Operations Specialist",
+      "department": "Nursing"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304253&PostingSeq=1&SiteId=54000": {
+      "title": "Lecturer - Psychology",
+      "description": "Posted: 09/28/2026 Location: UWG Recruiting Location Department: Psychology Lecturer - Psychology",
+      "department": "Psychology"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304368&PostingSeq=1&SiteId=54000": {
+      "title": "Nursing Simulation Operations Technician",
+      "description": "Posted: 09/28/2026 Location: UWG Recruiting Location Department: Nursing Nursing Simulation Operations Technician",
+      "department": "Nursing"
     }
   },
   "rows": {
@@ -2769,11 +2784,44 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304373&PostingSeq=1&SiteId=54000": {
+      "school_id": 285,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304373&PostingSeq=1&SiteId=54000",
+      "job_title_in_post": "Nursing Simulations Operations Specialist",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "Nursing",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304253&PostingSeq=1&SiteId=54000": {
+      "school_id": 285,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304253&PostingSeq=1&SiteId=54000",
+      "job_title_in_post": "Lecturer - Psychology",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "Psychology",
+      "area_key_words": "Psychology",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304368&PostingSeq=1&SiteId=54000": {
+      "school_id": 285,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304368&PostingSeq=1&SiteId=54000",
+      "job_title_in_post": "Nursing Simulation Operations Technician",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "Nursing",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 285,
   "status": "complete",
-  "updated_at": "2026-09-28T17:38:22+00:00",
-  "completed_at": "2026-09-28T17:38:22+00:00",
+  "updated_at": "2026-09-29T23:28:04+00:00",
+  "completed_at": "2026-09-29T23:28:04+00:00",
   "last_error": ""
 }

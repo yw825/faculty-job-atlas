@@ -1,1 +1,13 @@
-{"links": ["https://www.grandview.edu/academics/registrar/deans-presidents-list", "https://www.grandview.edu/about/directory/careers-at-gv/policies", "https://www.paycomonline.net/v4/ats/web.php/portal/DC20BB66F0C9CF9F562615950604C1D5/career-page#join-talent-community"], "school_id": 336, "status": "complete", "updated_at": "2026-09-26T23:10:39+00:00", "started_at": "2026-09-08T01:34:36+00:00", "completed_at": "2026-09-26T23:10:39+00:00", "last_error": ""}
+{
+  "links": [
+    "https://www.grandview.edu/academics/registrar/deans-presidents-list",
+    "https://www.grandview.edu/about/directory/careers-at-gv/policies",
+    "https://www.paycomonline.net/v4/ats/web.php/portal/DC20BB66F0C9CF9F562615950604C1D5/career-page#join-talent-community"
+  ],
+  "school_id": 336,
+  "status": "error",
+  "updated_at": "2026-09-29T17:37:29+00:00",
+  "started_at": "2026-09-08T01:34:36+00:00",
+  "completed_at": "2026-09-26T23:10:39+00:00",
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.grandview.edu/about/directory/careers-at-gv\", waiting until \"domcontentloaded\"\n"
+}

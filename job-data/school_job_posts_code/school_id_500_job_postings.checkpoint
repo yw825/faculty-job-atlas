@@ -1,11 +1,1 @@
-{
-  "links": [
-    "https://www.moreheadstate.edu/student-support/career-ready/internships"
-  ],
-  "school_id": 500,
-  "status": "error",
-  "updated_at": "2026-09-27T05:11:57+00:00",
-  "started_at": "2026-09-08T01:51:24+00:00",
-  "completed_at": "2026-09-25T16:53:11+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.moreheadstate.edu/about-msu/leadership/administration/human-resources/careers\", waiting until \"domcontentloaded\"\n"
-}
+{"links": ["https://www.moreheadstate.edu/student-support/career-ready/internships"], "school_id": 500, "status": "complete", "updated_at": "2026-09-29T17:58:02+00:00", "started_at": "2026-09-08T01:51:24+00:00", "completed_at": "2026-09-29T17:58:02+00:00", "last_error": ""}

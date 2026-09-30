@@ -11,9 +11,9 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/0360F3B5A2EC741788B51C99C6E17513/jobs/391979"
   ],
   "school_id": 499,
-  "status": "error",
-  "updated_at": "2026-09-27T05:06:59+00:00",
+  "status": "complete",
+  "updated_at": "2026-09-29T17:57:58+00:00",
   "started_at": "2026-09-08T17:51:45+00:00",
-  "completed_at": "2026-09-25T16:53:07+00:00",
-  "last_error": "Error: Page.goto: net::ERR_SOCKET_NOT_CONNECTED at https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=0360F3B5A2EC741788B51C99C6E17513&jpt=\nCall log:\n  - navigating to \"https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=0360F3B5A2EC741788B51C99C6E17513&jpt=\", waiting until \"domcontentloaded\"\n"
+  "completed_at": "2026-09-29T17:57:58+00:00",
+  "last_error": ""
 }

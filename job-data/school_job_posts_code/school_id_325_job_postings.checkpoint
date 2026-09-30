@@ -1,1 +1,15 @@
-{"links": ["https://www.governmentjobs.com/careers/hawaiiedu/inbox", "https://www.governmentjobs.com/careers/hawaiiedu/profilesettings", "https://www.governmentjobs.com/careers/hawaiiedu/promotionaljobs", "https://www.governmentjobs.com/careers/hawaiiedu/termsofuse", "https://www.governmentjobs.com/careers/hawaiiedu/accessibilitystatement"], "school_id": 325, "status": "error", "updated_at": "2026-09-26T21:42:29+00:00", "started_at": "2026-09-08T01:34:10+00:00", "completed_at": "2026-09-25T16:34:13+00:00", "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.governmentjobs.com/careers/hawaiiedu?jobType[0]=Faculty&sort=PositionTitle%7CAscending\", waiting until \"domcontentloaded\"\n"}
+{
+  "links": [
+    "https://www.governmentjobs.com/careers/hawaiiedu/inbox",
+    "https://www.governmentjobs.com/careers/hawaiiedu/profilesettings",
+    "https://www.governmentjobs.com/careers/hawaiiedu/promotionaljobs",
+    "https://www.governmentjobs.com/careers/hawaiiedu/termsofuse",
+    "https://www.governmentjobs.com/careers/hawaiiedu/accessibilitystatement"
+  ],
+  "school_id": 325,
+  "status": "error",
+  "updated_at": "2026-09-29T17:35:18+00:00",
+  "started_at": "2026-09-08T01:34:10+00:00",
+  "completed_at": "2026-09-25T16:34:13+00:00",
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.governmentjobs.com/careers/hawaiiedu?jobType[0]=Faculty&sort=PositionTitle%7CAscending\", waiting until \"domcontentloaded\"\n"
+}

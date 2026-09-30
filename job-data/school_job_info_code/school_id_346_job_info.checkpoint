@@ -79,6 +79,11 @@
       "title": "Adjunct Faculty Nursing",
       "description": "",
       "department": null
+    },
+    "https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/439": {
+      "title": "Director of Intercultural Programs",
+      "description": "This professional champions the retention, holistic success, and community integration of international students. Serving as a Designated School Official (DSO), the role ensures full alignment with federal immigration statutes and institutional guidelines while offering expert counsel on F1 Student Immigration Status Regulations, travel, medical coverage, employment authorization, tax software navigation (such as Sprintax), and university procedures.\n\nBeyond compliance, the position orchestrates onboarding and orientation pathways, helps scholars navigate cultural adaptation, designs intercultural workshops, and partners closely with internal departments to elevate the global student experience. Additional responsibilities may be delegated by the Vice President or Dean of Student Life",
+      "department": null
     }
   },
   "rows": {
@@ -257,11 +262,22 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/439": {
+      "school_id": 346,
+      "posting_url": "https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/439",
+      "job_title_in_post": "Director of Intercultural Programs",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Intercultural Programs",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 346,
   "status": "complete",
-  "updated_at": "2026-09-28T17:44:44+00:00",
+  "updated_at": "2026-09-29T23:40:49+00:00",
   "last_error": "",
-  "completed_at": "2026-09-28T17:44:44+00:00"
+  "completed_at": "2026-09-29T23:40:49+00:00"
 }

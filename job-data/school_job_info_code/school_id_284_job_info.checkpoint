@@ -309,6 +309,11 @@
       "title": "Student Assistant",
       "description": "Posted: 09/22/2026 Location: CCGA- Main Campus (Brunswick) Department: Library Student Assistant",
       "department": "Library"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304342&PostingSeq=1&SiteId=63000": {
+      "title": "HVAC Technician-Resdiential",
+      "description": "Posted: 09/28/2026 Location: CCGA- Main Campus (Brunswick) Department: Building Maintenance HVAC Technician-Resdiential",
+      "department": "Building Maintenance"
     }
   },
   "rows": {
@@ -993,11 +998,22 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304342&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304342&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "HVAC Technician-Resdiential",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "Building Maintenance",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 284,
   "status": "complete",
-  "updated_at": "2026-09-28T17:37:57+00:00",
-  "completed_at": "2026-09-28T17:37:57+00:00",
+  "updated_at": "2026-09-29T23:27:07+00:00",
+  "completed_at": "2026-09-29T23:27:07+00:00",
   "last_error": ""
 }

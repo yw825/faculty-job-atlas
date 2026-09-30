@@ -15,6 +15,14 @@
     "https://rosehulman.csod.com/ux/ats/careersite/9/requisition/799": {
       "title": "Sign in to your account",
       "description": "Sign in to your account"
+    },
+    "https://rosehulman.csod.com/ux/ats/careersite/9/requisition/805": {
+      "title": "Redirecting",
+      "description": "Redirecting"
+    },
+    "https://rosehulman.csod.com/ux/ats/careersite/9/requisition/806": {
+      "title": "Sign in to your account",
+      "description": "Sign in to your account"
     }
   },
   "rows": {
@@ -61,11 +69,33 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://rosehulman.csod.com/ux/ats/careersite/9/requisition/805": {
+      "school_id": 452,
+      "posting_url": "https://rosehulman.csod.com/ux/ats/careersite/9/requisition/805",
+      "job_title_in_post": "Redirecting",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://rosehulman.csod.com/ux/ats/careersite/9/requisition/806": {
+      "school_id": 452,
+      "posting_url": "https://rosehulman.csod.com/ux/ats/careersite/9/requisition/806",
+      "job_title_in_post": "Sign in to your account",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 452,
   "status": "complete",
-  "updated_at": "2026-09-28T17:48:12+00:00",
-  "completed_at": "2026-09-28T17:48:12+00:00",
+  "updated_at": "2026-09-29T23:57:02+00:00",
+  "completed_at": "2026-09-29T23:57:02+00:00",
   "last_error": ""
 }

@@ -494,6 +494,26 @@
       "title": "Manager of Retail Services & Merchandise",
       "description": "The University of Maine is a community of more than 11,900 undergraduate and graduate students, and 2,500 employees located on the Orono campus, the regional campus in Machias, and throughout the state. UMaine is a land, sea and space grant university, and maintains a leadership role as the University of Maine System's flagship institution. UMaine is the state's public research university and a Carnegie R1 top-tier research institution, dedicated to providing excellent teaching, research and service for Maine, the nation and the world.",
       "department": null
+    },
+    "https://fa-ewca-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3185": {
+      "title": "Senior Academic Scheduling Coordinator",
+      "description": "The University of Maine is a community of more than 11,900 undergraduate and graduate students, and 2,500 employees located on the Orono campus, the regional campus in Machias, and throughout the state. UMaine is a land, sea and space grant university, and maintains a leadership role as the University of Maine System's flagship institution. UMaine is the state's public research university and a Carnegie R1 top-tier research institution, dedicated to providing excellent teaching, research and service for Maine, the nation and the world.",
+      "department": null
+    },
+    "https://fa-ewca-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3207": {
+      "title": "Assistant Director of CRM Operations",
+      "description": "The University of Maine is a community of more than 11,900 undergraduate and graduate students, and 2,500 employees located on the Orono campus, the regional campus in Machias, and throughout the state. UMaine is a land, sea and space grant university, and maintains a leadership role as the University of Maine System's flagship institution. UMaine is the state's public research university and a Carnegie R1 top-tier research institution, dedicated to providing excellent teaching, research and service for Maine, the nation and the world.",
+      "department": null
+    },
+    "https://fa-ewca-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3209": {
+      "title": "Graduation Specialist",
+      "description": "The University of Maine is a community of more than 11,900 undergraduate and graduate students, and 2,500 employees located on the Orono campus, the regional campus in Machias, and throughout the state. UMaine is a land, sea and space grant university, and maintains a leadership role as the University of Maine System's flagship institution. UMaine is the state's public research university and a Carnegie R1 top-tier research institution, dedicated to providing excellent teaching, research and service for Maine, the nation and the world.",
+      "department": null
+    },
+    "https://fa-ewca-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3217": {
+      "title": "Lead Equipment Operator",
+      "description": "The University of Maine is a community of more than 11,900 undergraduate and graduate students, and 2,500 employees located on the Orono campus, the regional campus in Machias, and throughout the state. UMaine is a land, sea and space grant university, and maintains a leadership role as the University of Maine System's flagship institution. UMaine is the state's public research university and a Carnegie R1 top-tier research institution, dedicated to providing excellent teaching, research and service for Maine, the nation and the world.",
+      "department": null
     }
   },
   "rows": {
@@ -1585,11 +1605,55 @@
       "area_key_words": "Retail Services & Merchandise",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://fa-ewca-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3185": {
+      "school_id": 619,
+      "posting_url": "https://fa-ewca-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3185",
+      "job_title_in_post": "Senior Academic Scheduling Coordinator",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewca-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3207": {
+      "school_id": 619,
+      "posting_url": "https://fa-ewca-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3207",
+      "job_title_in_post": "Assistant Director of CRM Operations",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "CRM Operations",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewca-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3209": {
+      "school_id": 619,
+      "posting_url": "https://fa-ewca-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3209",
+      "job_title_in_post": "Graduation Specialist",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewca-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3217": {
+      "school_id": 619,
+      "posting_url": "https://fa-ewca-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3217",
+      "job_title_in_post": "Lead Equipment Operator",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 619,
   "status": "complete",
-  "updated_at": "2026-09-28T17:57:50+00:00",
-  "completed_at": "2026-09-28T17:57:50+00:00",
+  "updated_at": "2026-09-30T00:33:08+00:00",
+  "completed_at": "2026-09-30T00:33:08+00:00",
   "last_error": ""
 }

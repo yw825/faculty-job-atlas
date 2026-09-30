@@ -394,6 +394,21 @@
       "title": "Accounting Assistant",
       "description": "Posted: 09/25/2026 Location: Columbus State University Department: Business Office Accounting Assistant",
       "department": "Business Office"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304391&PostingSeq=1&SiteId=30000": {
+      "title": "Work Study Student - Assistant Admissions Counselor",
+      "description": "Posted: 09/29/2026 Location: Columbus State University Department: College Workstudy Pgm-Fed Work Study Student - Assistant Admissions Counselor",
+      "department": "College Workstudy Pgm-Fed"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304390&PostingSeq=1&SiteId=30000": {
+      "title": "Work Study Student - Communications & Marketing Assistant",
+      "description": "Posted: 09/29/2026 Location: Columbus State University Department: College Workstudy Pgm-Fed Work Study Student - Communications & Marketing Assistant",
+      "department": "College Workstudy Pgm-Fed"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304344&PostingSeq=1&SiteId=30000": {
+      "title": "Work Study Student - Strategic Communication & Marketing",
+      "description": "Posted: 09/28/2026 Location: Columbus State University Department: College Workstudy Pgm-Fed Work Study Student - Strategic Communication & Marketing",
+      "department": "College Workstudy Pgm-Fed"
     }
   },
   "rows": {
@@ -1265,11 +1280,44 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304391&PostingSeq=1&SiteId=30000": {
+      "school_id": 288,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304391&PostingSeq=1&SiteId=30000",
+      "job_title_in_post": "Work Study Student - Assistant Admissions Counselor",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "College Workstudy Pgm-Fed",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304390&PostingSeq=1&SiteId=30000": {
+      "school_id": 288,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304390&PostingSeq=1&SiteId=30000",
+      "job_title_in_post": "Work Study Student - Communications & Marketing Assistant",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "College Workstudy Pgm-Fed",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304344&PostingSeq=1&SiteId=30000": {
+      "school_id": 288,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304344&PostingSeq=1&SiteId=30000",
+      "job_title_in_post": "Work Study Student - Strategic Communication & Marketing",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "College Workstudy Pgm-Fed",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 288,
   "status": "complete",
-  "updated_at": "2026-09-28T17:38:43+00:00",
-  "completed_at": "2026-09-28T17:38:43+00:00",
+  "updated_at": "2026-09-29T23:28:40+00:00",
+  "completed_at": "2026-09-29T23:28:40+00:00",
   "last_error": ""
 }

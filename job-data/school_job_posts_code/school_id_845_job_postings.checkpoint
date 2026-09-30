@@ -8,9 +8,9 @@
     "https://www.york.edu/financial-aid/work-study.php"
   ],
   "school_id": 845,
-  "status": "complete",
-  "updated_at": "2026-09-27T23:57:51+00:00",
+  "status": "error",
+  "updated_at": "2026-09-29T18:31:59+00:00",
   "started_at": "2026-09-08T02:20:53+00:00",
-  "last_error": "",
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.york.edu/about/employment.php#faculty\", waiting until \"domcontentloaded\"\n",
   "completed_at": "2026-09-27T23:57:51+00:00"
 }

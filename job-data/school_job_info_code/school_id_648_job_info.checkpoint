@@ -135,6 +135,10 @@
     "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d096d0d55a019731393c7f56d9&amp;id=8a7885a8a0abfd5001a0d96b4d4e1a57&amp;source=&amp;lang=en": {
       "title": "Cleary University",
       "description": "Cleary University Home Sorry, this job is no longer active. You can view our main careers page by clicking here powered by Cleary University"
+    },
+    "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d096d0d55a019731393c7f56d9&amp;id=8a7887a8a0abfc8001a0ed3a990a7ffe&amp;source=&amp;lang=en": {
+      "title": "Cleary University",
+      "description": "Cleary University Home Sorry, this job is no longer active. You can view our main careers page by clicking here powered by Cleary University"
     }
   },
   "rows": {
@@ -511,11 +515,22 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d096d0d55a019731393c7f56d9&amp;id=8a7887a8a0abfc8001a0ed3a990a7ffe&amp;source=&amp;lang=en": {
+      "school_id": 648,
+      "posting_url": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d096d0d55a019731393c7f56d9&amp;id=8a7887a8a0abfc8001a0ed3a990a7ffe&amp;source=&amp;lang=en",
+      "job_title_in_post": "Cleary University",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 648,
   "status": "complete",
-  "updated_at": "2026-09-28T18:04:18+00:00",
-  "completed_at": "2026-09-28T18:04:18+00:00",
+  "updated_at": "2026-09-30T00:46:01+00:00",
+  "completed_at": "2026-09-30T00:46:01+00:00",
   "last_error": ""
 }

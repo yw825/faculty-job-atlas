@@ -134,6 +134,11 @@
       "title": "HRIS Analyst",
       "description": "",
       "department": null
+    },
+    "https://trincore-ibvxjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/99": {
+      "title": "Associate Director of Parent and Family Giving",
+      "description": "",
+      "department": null
     }
   },
   "rows": {
@@ -433,11 +438,22 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://trincore-ibvxjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/99": {
+      "school_id": 185,
+      "posting_url": "https://trincore-ibvxjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/99",
+      "job_title_in_post": "Associate Director of Parent and Family Giving",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Parent and Family Giving",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 185,
   "status": "complete",
-  "updated_at": "2026-09-28T17:34:01+00:00",
-  "completed_at": "2026-09-28T17:34:01+00:00",
+  "updated_at": "2026-09-29T23:11:26+00:00",
+  "completed_at": "2026-09-29T23:11:26+00:00",
   "last_error": ""
 }

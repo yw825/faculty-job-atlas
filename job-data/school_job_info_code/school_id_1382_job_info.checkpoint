@@ -694,6 +694,21 @@
       "title": "Groundskeeper II - Facilities Management",
       "description": "Performs moderately heavy manual work in the care and maintenance of grounds or greenhouse operations.  Work involves the care and maintenance of plants, shrubs, and lawns.  This classification involves more specialized work duties and receives less supervision than the Groundskeeper I class.  Work is performed under supervision according to specific instructions and performance is based upon completion of assignments and results obtained. The performance evaluation is conducted through the performance evaluation system and in accordance with the University Policies & Procedures.",
       "department": null
+    },
+    "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/12999": {
+      "title": "Visiting Assistant Clinical Professor - Nursing Houston",
+      "description": "To Apply: Candidates must submit a letter of application, a current curriculum vitae, all undergraduate and graduate transcripts, and a current Nursing license.\n\nA successful Faculty applicant will have demonstrated clinical expertise in a focused area of Nursing. This tenure-track position includes didactic and clinical teaching across both Undergraduate and Graduate Nursing programs. Faculty responsibilities will include teaching, scholarship, and academic service.\n\nAll applicants must be eligible for RN licensure in the state of Texas. A preferred applicant will have an earned Doctorate in Nursing.",
+      "department": null
+    },
+    "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/13001": {
+      "title": "Senior Administrative Assistant - Faculty Affairs",
+      "description": "Provides principal administrative support to the Faculty Commons. Responsible for clerical and office management duties, serving as the frontline communicator for the office. Assists with records and data management, and event and program support. Performs both standardized and non-standardized work requiring independent judgment to set priorities, maintain records, and support faculty, staff, and administration.",
+      "department": null
+    },
+    "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/13000": {
+      "title": "Course Assistant - School of Education",
+      "description": "Course Assistant - School of Education",
+      "department": null
     }
   },
   "rows": {
@@ -2225,11 +2240,44 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/12999": {
+      "school_id": 1382,
+      "posting_url": "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/12999",
+      "job_title_in_post": "Visiting Assistant Clinical Professor - Nursing Houston",
+      "position_type": "Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Nursing Houston",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/13001": {
+      "school_id": 1382,
+      "posting_url": "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/13001",
+      "job_title_in_post": "Senior Administrative Assistant - Faculty Affairs",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/13000": {
+      "school_id": 1382,
+      "posting_url": "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/13000",
+      "job_title_in_post": "Course Assistant - School of Education",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "School of Education",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1382,
   "status": "complete",
-  "updated_at": "2026-09-28T18:35:30+00:00",
-  "completed_at": "2026-09-28T18:35:30+00:00",
+  "updated_at": "2026-09-30T02:54:24+00:00",
+  "completed_at": "2026-09-30T02:54:24+00:00",
   "last_error": ""
 }

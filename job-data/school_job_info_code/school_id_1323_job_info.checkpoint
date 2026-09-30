@@ -177,6 +177,21 @@
       "title": "Open Rank Professor - Surgery (Chattanooga)",
       "description": "The University of Tennessee Health Science Center invites applications for the position of Open rank Professor- Vascular Surgery in the Department of Surgery, College of Medicine Chattanooga at UTHSC, in Chattanooga, TN.\n\nThe Open-rank Professor will support clinical and academic efforts by delivering direct patient care for University Surgical Associates.  Additionally, this position will be involved in the education and supervision of Surgery residents & medical students at UTHSC-COM- Chattanooga.",
       "department": null
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/10143": {
+      "title": "Administrative Associate, Department of Engineering Management and Technology, College of Engineering and Computer Science - UT Chattanooga",
+      "description": "Administrative Associate (Administrative Associate 3 - MR06), Department of Engineering Management and Technology, College of Engineering and Computer Science - UT Chattanooga",
+      "department": null
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/9907": {
+      "title": "Technology Support Center Manager, Information Technology - UT Chattanooga",
+      "description": "Technology Support Center Manager (Information Technology Technician 4 – MR09) Office of Information Technology - UT Chattanooga\n\n",
+      "department": null
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/10125": {
+      "title": "Class Scheduling Coordinator, Office of the Registrar - UT Chattanooga",
+      "description": "Class Scheduling Coordinator (Student Services Associate 2 - MR06), Office of the University Registrar - UT Chattanooga",
+      "department": null
     }
   },
   "rows": {
@@ -567,11 +582,44 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/10143": {
+      "school_id": 1323,
+      "posting_url": "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/10143",
+      "job_title_in_post": "Administrative Associate, Department of Engineering Management and Technology, College of Engineering and Computer Science - UT Chattanooga",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "College of Engineering and Computer Science",
+      "area_key_words": "Engineering Management and Technology, College of Engineering and Computer Science",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/9907": {
+      "school_id": 1323,
+      "posting_url": "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/9907",
+      "job_title_in_post": "Technology Support Center Manager, Information Technology - UT Chattanooga",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/10125": {
+      "school_id": 1323,
+      "posting_url": "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/10125",
+      "job_title_in_post": "Class Scheduling Coordinator, Office of the Registrar - UT Chattanooga",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1323,
   "status": "complete",
-  "updated_at": "2026-09-28T18:34:02+00:00",
+  "updated_at": "2026-09-30T02:48:55+00:00",
   "last_error": "",
-  "completed_at": "2026-09-28T18:34:02+00:00"
+  "completed_at": "2026-09-30T02:48:55+00:00"
 }

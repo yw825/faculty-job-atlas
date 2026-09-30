@@ -59,12 +59,15 @@
     "https://smu.taleo.net/careersection/ex/jobdetail.ftl?job=DEA00000509",
     "https://smu.taleo.net/careersection/ex/jobdetail.ftl?job=MEA00000165",
     "https://smu.taleo.net/careersection/ex/jobdetail.ftl?job=PRO00000399",
-    "https://smu.taleo.net/careersection/ex/jobdetail.ftl?job=CON00000039"
+    "https://smu.taleo.net/careersection/ex/jobdetail.ftl?job=CON00000039",
+    "https://smu.taleo.net/careersection/ex/jobdetail.ftl?job=DEA00000516",
+    "https://smu.taleo.net/careersection/ex/jobdetail.ftl?job=STU00000149",
+    "https://smu.taleo.net/careersection/ex/jobdetail.ftl?job=STU00000150"
   ],
   "school_id": 1380,
   "status": "complete",
-  "updated_at": "2026-09-28T00:46:57+00:00",
+  "updated_at": "2026-09-29T19:34:23+00:00",
   "started_at": "2026-09-08T03:02:06+00:00",
-  "completed_at": "2026-09-28T00:46:57+00:00",
+  "completed_at": "2026-09-29T19:34:23+00:00",
   "last_error": ""
 }

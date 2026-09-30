@@ -1012,6 +1012,11 @@
       "title": "Senior Manager, Academic Registry",
       "description": "This position sits under the Academic Registry Office at our Kowloon Tong campus. The core responsibilities are supporting the head in formulating admission strategies and goals and overseeing the overall arrangements concerning local and non-local admissions.",
       "department": null
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270206": {
+      "title": "Knowledge Transfer Officer",
+      "description": "This position sits under the Knowledge Transfer Office at our Kowloon Tong campus. The core responsibilities are supporting the development and implementation of strategies to transfer knowledge and technology from the research outcomes of the University to our industry partners and other stakeholders.",
+      "department": null
     }
   },
   "rows": {
@@ -3167,11 +3172,22 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270206": {
+      "school_id": 1834,
+      "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270206",
+      "job_title_in_post": "Knowledge Transfer Officer",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1834,
   "status": "complete",
-  "updated_at": "2026-09-28T18:55:39+00:00",
-  "completed_at": "2026-09-28T18:55:39+00:00",
+  "updated_at": "2026-09-30T05:50:32+00:00",
+  "completed_at": "2026-09-30T05:50:32+00:00",
   "last_error": ""
 }

@@ -49,6 +49,11 @@
       "title": "Regional Clinical Lead",
       "description": "Combine your clinical and leadership experience to help build the future of medicine at the University of Waikato.\n\nPosting closes: 2026-10-28",
       "department": null
+    },
+    "https://elhs.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/1003921": {
+      "title": "Associate Dean of Māori",
+      "description": "Strategic academic leadership in Māori education alongside a substantive continuing Senior Lecturer or Associate Professor role.\n\nPosting closes: 2026-10-26",
+      "department": null
     }
   },
   "rows": {
@@ -161,11 +166,22 @@
       "area_key_words": "",
       "deadline_of_application": "2026-10-28",
       "position_start_date": ""
+    },
+    "https://elhs.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/1003921": {
+      "school_id": 1827,
+      "posting_url": "https://elhs.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/1003921",
+      "job_title_in_post": "Associate Dean of Māori",
+      "position_type": "Associate_Professor; Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "2026-10-26",
+      "position_start_date": ""
     }
   },
   "school_id": 1827,
   "status": "complete",
-  "updated_at": "2026-09-28T19:18:47+00:00",
-  "completed_at": "2026-09-28T19:18:47+00:00",
+  "updated_at": "2026-09-30T06:43:58+00:00",
+  "completed_at": "2026-09-30T06:43:58+00:00",
   "last_error": ""
 }

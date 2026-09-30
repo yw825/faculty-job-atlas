@@ -1,13 +1,1 @@
-{
-  "links": [
-    "https://collegeofidaho.edu/academics/undergrad/career-sectors/law-policy-public",
-    "https://collegeofidaho.edu/academics/undergrad/career-sectors/creative",
-    "https://collegeofidaho.edu/academics/undergrad/career-sectors/business-technology"
-  ],
-  "school_id": 358,
-  "status": "error",
-  "updated_at": "2026-09-27T01:30:11+00:00",
-  "started_at": "2026-09-08T01:37:14+00:00",
-  "completed_at": "2026-09-25T16:36:28+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://collegeofidaho.edu/academics/undergrad/career-sectors/health-scientific-research\", waiting until \"domcontentloaded\"\n"
-}
+{"links": ["https://collegeofidaho.edu/academics/undergrad/career-sectors/law-policy-public", "https://collegeofidaho.edu/academics/undergrad/career-sectors/creative", "https://collegeofidaho.edu/academics/undergrad/career-sectors/business-technology"], "school_id": 358, "status": "complete", "updated_at": "2026-09-29T17:40:11+00:00", "started_at": "2026-09-08T01:37:14+00:00", "completed_at": "2026-09-29T17:40:11+00:00", "last_error": ""}

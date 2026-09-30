@@ -99,6 +99,10 @@
     "https://secure5.entertimeonline.com/ta/CBIZ20706.careers?ShowJob=419762381": {
       "title": "CBIZ20706:Career Search",
       "description": "CBIZ20706:Career Search Skip to Main Content Log in Error Message Oh no! Job Requisition is no longer active. OK OK"
+    },
+    "https://secure5.entertimeonline.com/ta/CBIZ20706.careers?ShowJob=537246336": {
+      "title": "CBIZ20706:Career Search",
+      "description": "CBIZ20706:Career Search Skip to Main Content Log in Assistant Baseball Coach Show All Jobs Apply Show Map Location 8700 College View Drive,\n    \n                      Saint Bonifacius, MN, 55375,\n                      United States Employee Type Coach - Stipend Description Additional Information Base Pay From 25,000"
     }
   },
   "rows": {
@@ -376,11 +380,22 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://secure5.entertimeonline.com/ta/CBIZ20706.careers?ShowJob=537246336": {
+      "school_id": 687,
+      "posting_url": "https://secure5.entertimeonline.com/ta/CBIZ20706.careers?ShowJob=537246336",
+      "job_title_in_post": "CBIZ20706:Career Search",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 687,
   "status": "complete",
-  "updated_at": "2026-09-28T18:05:54+00:00",
-  "completed_at": "2026-09-28T18:05:54+00:00",
+  "updated_at": "2026-09-30T00:54:05+00:00",
+  "completed_at": "2026-09-30T00:54:05+00:00",
   "last_error": ""
 }

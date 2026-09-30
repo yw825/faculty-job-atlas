@@ -9,9 +9,9 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/0DB1CFB7BAA1AF7EF9E6616BC163C95A/jobs/193576"
   ],
   "school_id": 1490,
-  "status": "complete",
-  "updated_at": "2026-09-28T00:54:38+00:00",
+  "status": "error",
+  "updated_at": "2026-09-29T19:51:25+00:00",
   "started_at": "2026-09-25T06:24:50+00:00",
   "completed_at": "2026-09-28T00:54:38+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: no paycom postings found"
 }

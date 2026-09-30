@@ -579,6 +579,27 @@
       "title": "Assistant Professor",
       "description": "Physical Medicine and Rehabilitation Physician ",
       "department": null
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2007": {
+      "error": "not present in bulk fetch result"
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2023": {
+      "error": "not present in bulk fetch result"
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2030": {
+      "error": "not present in bulk fetch result"
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2003": {
+      "error": "not present in bulk fetch result"
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2020": {
+      "error": "not present in bulk fetch result"
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2025": {
+      "error": "not present in bulk fetch result"
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2032": {
+      "error": "not present in bulk fetch result"
     }
   },
   "rows": {
@@ -1857,11 +1878,32 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2007": {
+      "error": "not present in bulk fetch result"
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2023": {
+      "error": "not present in bulk fetch result"
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2030": {
+      "error": "not present in bulk fetch result"
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2003": {
+      "error": "not present in bulk fetch result"
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2020": {
+      "error": "not present in bulk fetch result"
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2025": {
+      "error": "not present in bulk fetch result"
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2032": {
+      "error": "not present in bulk fetch result"
     }
   },
   "school_id": 521,
   "status": "complete",
-  "updated_at": "2026-09-28T17:51:03+00:00",
-  "completed_at": "2026-09-28T17:51:03+00:00",
+  "updated_at": "2026-09-30T00:09:42+00:00",
+  "completed_at": "2026-09-30T00:09:42+00:00",
   "last_error": ""
 }

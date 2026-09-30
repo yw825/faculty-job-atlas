@@ -404,6 +404,26 @@
       "title": "Assistant Professor of Curriculum and Instruction",
       "description": "Posted: 09/24/2026 Location: Georgia College & State Univ Department: Professional Learning & Innova Assistant Professor of Curriculum and Instruction",
       "department": "Professional Learning & Innova"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303895&PostingSeq=1&SiteId=36000": {
+      "title": "Student Assistant - The Learning Center 26/27",
+      "description": "Posted: 09/29/2026 Location: Georgia College & State Univ Department: The Learning Center Student Assistant - The Learning Center 26/27",
+      "department": "The Learning Center"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304280&PostingSeq=1&SiteId=36000": {
+      "title": "Systems Administrator- Advanced",
+      "description": "Posted: 09/29/2026 Location: Georgia College & State Univ Department: Academic Technology Systems Administrator- Advanced",
+      "department": "Academic Technology"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303977&PostingSeq=1&SiteId=36000": {
+      "title": "Associate Director of Development",
+      "description": "Posted: 09/28/2026 Location: Georgia College & State Univ Department: University Advancement Associate Director of Development",
+      "department": "University Advancement"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304023&PostingSeq=1&SiteId=36000": {
+      "title": "Senior Director of Principal, Planned and Estate Giving (Impact Giving)",
+      "description": "Posted: 09/28/2026 Location: Georgia College & State Univ Department: University Advancement Senior Director of Principal, Planned and Estate Giving (Impact Giving)",
+      "department": "University Advancement"
     }
   },
   "rows": {
@@ -1297,11 +1317,55 @@
       "area_key_words": "Curriculum and Instruction",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303895&PostingSeq=1&SiteId=36000": {
+      "school_id": 305,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303895&PostingSeq=1&SiteId=36000",
+      "job_title_in_post": "Student Assistant - The Learning Center 26/27",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "The Learning Center",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304280&PostingSeq=1&SiteId=36000": {
+      "school_id": 305,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304280&PostingSeq=1&SiteId=36000",
+      "job_title_in_post": "Systems Administrator- Advanced",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "Academic Technology",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303977&PostingSeq=1&SiteId=36000": {
+      "school_id": 305,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303977&PostingSeq=1&SiteId=36000",
+      "job_title_in_post": "Associate Director of Development",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "University Advancement",
+      "area_key_words": "Development",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304023&PostingSeq=1&SiteId=36000": {
+      "school_id": 305,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304023&PostingSeq=1&SiteId=36000",
+      "job_title_in_post": "Senior Director of Principal, Planned and Estate Giving (Impact Giving)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "University Advancement",
+      "area_key_words": "Principal, Planned and Estate Giving",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 305,
   "status": "complete",
-  "updated_at": "2026-09-28T17:42:27+00:00",
-  "completed_at": "2026-09-28T17:42:27+00:00",
+  "updated_at": "2026-09-29T23:33:03+00:00",
+  "completed_at": "2026-09-29T23:33:03+00:00",
   "last_error": ""
 }

@@ -1,1 +1,18 @@
-{"links": ["https://jobs.sunderland.ac.uk/display.aspx?id=1253&pid=0&tabId=230", "https://jobs.sunderland.ac.uk/Terms", "https://jobs.sunderland.ac.uk/display.aspx?id=1354&pid=0&tabId=230", "https://jobs.sunderland.ac.uk/display.aspx?id=1493&pid=0&tabId=230", "https://jobs.sunderland.ac.uk/display.aspx?id=1253&pid=0", "https://jobs.sunderland.ac.uk/Subs/", "https://jobs.sunderland.ac.uk/display.aspx?id=1354&pid=0", "https://jobs.sunderland.ac.uk/display.aspx?id=1493&pid=0"], "school_id": 1882, "status": "complete", "updated_at": "2026-09-28T17:18:27+00:00", "started_at": "2026-09-02T22:43:50+00:00", "completed_at": "2026-09-28T17:18:27+00:00", "last_error": ""}
+{
+  "links": [
+    "https://jobs.sunderland.ac.uk/display.aspx?id=1253&pid=0&tabId=230",
+    "https://jobs.sunderland.ac.uk/Terms",
+    "https://jobs.sunderland.ac.uk/display.aspx?id=1354&pid=0&tabId=230",
+    "https://jobs.sunderland.ac.uk/display.aspx?id=1493&pid=0&tabId=230",
+    "https://jobs.sunderland.ac.uk/display.aspx?id=1253&pid=0",
+    "https://jobs.sunderland.ac.uk/Subs/",
+    "https://jobs.sunderland.ac.uk/display.aspx?id=1354&pid=0",
+    "https://jobs.sunderland.ac.uk/display.aspx?id=1493&pid=0"
+  ],
+  "school_id": 1882,
+  "status": "error",
+  "updated_at": "2026-09-29T22:22:43+00:00",
+  "started_at": "2026-09-02T22:43:50+00:00",
+  "completed_at": "2026-09-28T17:18:27+00:00",
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://jobs.sunderland.ac.uk/vacancies.aspx?cat=all\", waiting until \"domcontentloaded\"\n"
+}

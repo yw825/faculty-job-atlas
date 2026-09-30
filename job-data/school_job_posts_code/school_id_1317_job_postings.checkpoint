@@ -10,9 +10,9 @@
     "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=08ce06d2-27ab-4676-8c36-86d2c62ffacf&ccId=19000101_000001&jobId=9200955477688_1&lang=en_US"
   ],
   "school_id": 1317,
-  "status": "complete",
-  "updated_at": "2026-09-28T00:42:50+00:00",
+  "status": "error",
+  "updated_at": "2026-09-29T19:28:36+00:00",
   "started_at": "2026-09-08T02:59:37+00:00",
   "completed_at": "2026-09-28T00:42:50+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: adp api status=None"
 }

@@ -484,6 +484,16 @@
       "title": "Building Automation Systems Technician or Specialist",
       "description": "Posted: 09/22/2026 Location: Odessa, TX Department: Facilities Management Building Automation Systems Technician or Specialist",
       "department": "Facilities Management"
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/UTZ_CG/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16434&PostingSeq=1&SiteId=10": {
+      "title": "Admissions Operations Coordinator",
+      "description": "Posted: 09/28/2026 Location: Odessa, TX Department: Admissions Admissions Operations Coordinator",
+      "department": "Admissions"
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/UTZ_CG/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16433&PostingSeq=1&SiteId=10": {
+      "title": "Senior Institutional Effectiveness Analyst",
+      "description": "Posted: 09/28/2026 Location: Odessa, TX Department: Inst Effect Research & Plng Senior Institutional Effectiveness Analyst",
+      "department": "Inst Effect Research & Plng"
     }
   },
   "rows": {
@@ -1553,11 +1563,33 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/UTZ_CG/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16434&PostingSeq=1&SiteId=10": {
+      "school_id": 1415,
+      "posting_url": "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/UTZ_CG/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16434&PostingSeq=1&SiteId=10",
+      "job_title_in_post": "Admissions Operations Coordinator",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "Admissions",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/UTZ_CG/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16433&PostingSeq=1&SiteId=10": {
+      "school_id": 1415,
+      "posting_url": "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/UTZ_CG/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16433&PostingSeq=1&SiteId=10",
+      "job_title_in_post": "Senior Institutional Effectiveness Analyst",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "Inst Effect Research & Plng",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1415,
   "status": "complete",
-  "updated_at": "2026-09-28T18:37:09+00:00",
-  "completed_at": "2026-09-28T18:37:09+00:00",
+  "updated_at": "2026-09-30T02:59:51+00:00",
+  "completed_at": "2026-09-30T02:59:51+00:00",
   "last_error": ""
 }

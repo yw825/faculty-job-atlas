@@ -9,9 +9,9 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/0AFB6B93B59D609A2037FAB5547D9B02/jobs/30220"
   ],
   "school_id": 969,
-  "status": "complete",
-  "updated_at": "2026-09-28T00:11:34+00:00",
+  "status": "error",
+  "updated_at": "2026-09-29T18:46:04+00:00",
   "started_at": "2026-09-08T17:53:34+00:00",
   "completed_at": "2026-09-28T00:11:34+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: no paycom postings found"
 }

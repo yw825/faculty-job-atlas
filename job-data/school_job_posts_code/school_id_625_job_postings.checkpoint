@@ -1,15 +1,1 @@
-{
-  "links": [
-    "https://www.adrian.edu/academics/academics/career-planning/job-search#content-wrapper",
-    "https://www.adrian.edu/academics/academics/career-planning/job-search#footer",
-    "https://www.adrian.edu/admissions/graduate-studies",
-    "https://www.adrian.edu/academics/academics/career-planning/academics/career-planning",
-    "https://www.adrian.edu/academics/academics/career-planning/admissions/enrollment-deposit"
-  ],
-  "school_id": 625,
-  "status": "error",
-  "updated_at": "2026-09-27T18:33:05+00:00",
-  "started_at": "2026-09-08T02:03:38+00:00",
-  "completed_at": "2026-09-25T17:05:28+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_NETWORK_CHANGED at https://www.adrian.edu/academics/academics/career-planning/job-search\nCall log:\n  - navigating to \"https://www.adrian.edu/academics/academics/career-planning/job-search\", waiting until \"domcontentloaded\"\n"
-}
+{"links": ["https://www.adrian.edu/academics/academics/career-planning/job-search#content-wrapper", "https://www.adrian.edu/academics/academics/career-planning/job-search#footer", "https://www.adrian.edu/admissions/graduate-studies", "https://www.adrian.edu/academics/academics/career-planning/academics/career-planning", "https://www.adrian.edu/academics/academics/career-planning/admissions/enrollment-deposit"], "school_id": 625, "status": "complete", "updated_at": "2026-09-29T18:14:37+00:00", "started_at": "2026-09-08T02:03:38+00:00", "completed_at": "2026-09-29T18:14:37+00:00", "last_error": ""}
