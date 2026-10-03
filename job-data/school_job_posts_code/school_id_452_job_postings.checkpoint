@@ -8,9 +8,9 @@
     "https://rosehulman.csod.com/ux/ats/careersite/9/requisition/806"
   ],
   "school_id": 452,
-  "status": "complete",
-  "updated_at": "2026-09-29T17:53:11+00:00",
+  "status": "error",
+  "updated_at": "2026-10-02T18:04:03+00:00",
   "started_at": "2026-09-15T16:49:59+00:00",
-  "completed_at": "2026-09-29T17:53:11+00:00",
-  "last_error": ""
+  "completed_at": "2026-09-30T17:49:05+00:00",
+  "last_error": "RuntimeError: cornerstone token capture failed: Timeout 15000ms exceeded while waiting for event \"request\"\n=========================== logs ===========================\nwaiting for request **/rec-job-search/external/jobs\n============================================================"
 }

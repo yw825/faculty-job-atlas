@@ -13,9 +13,9 @@
     "https://elhs.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/1003921"
   ],
   "school_id": 1827,
-  "status": "complete",
-  "updated_at": "2026-09-29T21:45:00+00:00",
+  "status": "error",
+  "updated_at": "2026-10-02T21:57:52+00:00",
   "started_at": "2026-09-02T22:36:57+00:00",
-  "completed_at": "2026-09-29T21:45:00+00:00",
-  "last_error": ""
+  "completed_at": "2026-10-01T22:56:59+00:00",
+  "last_error": "RuntimeError: oracle session capture failed: Timeout 15000ms exceeded while waiting for event \"request\"\n=========================== logs ===========================\nwaiting for request **/recruitingCEJobRequisitions**\n============================================================"
 }

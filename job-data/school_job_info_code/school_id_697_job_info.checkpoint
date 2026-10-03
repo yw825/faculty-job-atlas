@@ -119,6 +119,18 @@
     "https://staffemployment-stthomas.icims.com/jobs/9711/program-manager%2c-graduate-%26-alumni-career-services/job": {
       "title": "Program Manager, Graduate & Alumni Career Services in St. Paul, Minnesota",
       "description": "Program Manager, Graduate & Alumni Career Services in St. Paul, Minnesota | Careers at St. Paul Skip Branding"
+    },
+    "https://staffemployment-stthomas.icims.com/jobs/9717/campus-minister/job": {
+      "title": "Campus Minister in St. Paul, Minnesota",
+      "description": "Campus Minister in St. Paul, Minnesota | Careers at St. Paul Skip Branding"
+    },
+    "https://staffemployment-stthomas.icims.com/jobs/9716/dishwasher---day-shift/job": {
+      "title": "Dishwasher",
+      "description": "Dishwasher - Day Shift in St. Paul, Minnesota | Careers at St. Paul"
+    },
+    "https://staffemployment-stthomas.icims.com/jobs/9723/public-safety-officer-%28security-officer%29/job": {
+      "title": "Public Safety Officer (Security Officer) in St. Paul, Minnesota",
+      "description": "Public Safety Officer (Security Officer) in St. Paul, Minnesota | Careers at St. Paul"
     }
   },
   "rows": {
@@ -451,11 +463,44 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://staffemployment-stthomas.icims.com/jobs/9717/campus-minister/job": {
+      "school_id": 697,
+      "posting_url": "https://staffemployment-stthomas.icims.com/jobs/9717/campus-minister/job",
+      "job_title_in_post": "Campus Minister in St. Paul, Minnesota",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://staffemployment-stthomas.icims.com/jobs/9716/dishwasher---day-shift/job": {
+      "school_id": 697,
+      "posting_url": "https://staffemployment-stthomas.icims.com/jobs/9716/dishwasher---day-shift/job",
+      "job_title_in_post": "Dishwasher",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://staffemployment-stthomas.icims.com/jobs/9723/public-safety-officer-%28security-officer%29/job": {
+      "school_id": 697,
+      "posting_url": "https://staffemployment-stthomas.icims.com/jobs/9723/public-safety-officer-%28security-officer%29/job",
+      "job_title_in_post": "Public Safety Officer (Security Officer) in St. Paul, Minnesota",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 697,
   "status": "complete",
-  "updated_at": "2026-09-30T00:58:45+00:00",
-  "completed_at": "2026-09-30T00:58:45+00:00",
+  "updated_at": "2026-10-03T01:40:43+00:00",
+  "completed_at": "2026-10-03T01:40:43+00:00",
   "last_error": ""
 }

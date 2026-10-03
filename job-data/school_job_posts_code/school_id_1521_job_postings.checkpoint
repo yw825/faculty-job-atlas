@@ -10,8 +10,8 @@
   ],
   "school_id": 1521,
   "status": "error",
-  "updated_at": "2026-09-29T19:57:36+00:00",
+  "updated_at": "2026-10-02T20:45:44+00:00",
   "started_at": "2026-09-08T03:10:43+00:00",
-  "completed_at": "2026-09-28T00:57:20+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://employment.gonzaga.edu/jobs/search?page=1&category_uids%5B%5D=ccb5730a856e3e50b7226edb37c1facb&query=\", waiting until \"domcontentloaded\"\n"
+  "completed_at": "2026-09-30T19:34:35+00:00",
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
 }

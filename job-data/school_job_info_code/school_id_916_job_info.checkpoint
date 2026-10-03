@@ -11,6 +11,9 @@
     "https://mountsaintvincent.edu/employment-opportunities/#heop-counselor": {
       "title": "HEOP Counselor",
       "description": "Posted 23 days ago On-site The Bronx, New York, United States 528 - HEOP Program Full time Posted 23 days ago Show more University of Mount Saint Vincent does not discriminate on the basis of race, sex, color, religion, age, national origin, marital status, disability, veteran status, genetic information, sexual orientation, gender identity or any other reason prohibited by law in provision of employment opportunities and benefits. View website Help SVGs not supported by this browser. Accessibility SVGs not supported by this browser. Cookie settings Powered by Workable This website uses cookies to improve user’s experience, personalise ads and analyse traffic. You can accept all cookies, decline all optional cookies, or manage your cookie settings. To learn more, view our cookies policy . Cookies settings Accept all Decline all"
+    },
+    "https://mountsaintvincent.edu/employment-opportunities/#director-of-presidential-operations": {
+      "error": "RuntimeError: inline section #director-of-presidential-operations no longer on page"
     }
   },
   "rows": {
@@ -46,11 +49,14 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://mountsaintvincent.edu/employment-opportunities/#director-of-presidential-operations": {
+      "error": "RuntimeError: inline section #director-of-presidential-operations no longer on page"
     }
   },
   "school_id": 916,
   "status": "complete",
-  "updated_at": "2026-09-30T02:01:58+00:00",
-  "completed_at": "2026-09-30T02:01:58+00:00",
+  "updated_at": "2026-10-03T02:45:32+00:00",
+  "completed_at": "2026-10-03T02:45:32+00:00",
   "last_error": ""
 }

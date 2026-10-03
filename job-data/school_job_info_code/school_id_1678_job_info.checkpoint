@@ -251,6 +251,30 @@
     "https://hec.csod.com/ux/ats/careersite/1/requisition/313": {
       "title": "+ Cornerstone OnDemand +",
       "description": "+ Cornerstone OnDemand + Connexion Logging in... Bienvenue dans l'espace emploi HEC Paris Username Password Remember Username Check this box to save your username for future logins Inherit Login Language Apply login language to application SSO Login Self Reg | Mot de passe oublié? Besoin d'aide. Cliquez ici What happened? The Custom login page that you requested is temporarily down for maintenance. What to do? You will be redirected in 10 seconds to a standard login page to access your portal. If you are not automatically redirected, click here ."
+    },
+    "https://hec.csod.com/ux/ats/careersite/1/requisition/319": {
+      "title": "Welcome - Realize Your Potential: Cornerstone",
+      "description": "Welcome - Realize Your Potential: Cornerstone What happened? The Custom login page that you requested is temporarily down for maintenance. What to do? You will be redirected in 10 seconds to a standard login page to access your portal. If you are not automatically redirected, click here ."
+    },
+    "https://hec.csod.com/ux/ats/careersite/1/requisition/318": {
+      "title": "Welcome - Realize Your Potential: Cornerstone",
+      "description": "Welcome - Realize Your Potential: Cornerstone What happened? The Custom login page that you requested is temporarily down for maintenance. What to do? You will be redirected in 10 seconds to a standard login page to access your portal. If you are not automatically redirected, click here ."
+    },
+    "https://hec.csod.com/ux/ats/careersite/1/requisition/317": {
+      "title": "Welcome - Realize Your Potential: Cornerstone",
+      "description": "Welcome - Realize Your Potential: Cornerstone What happened? The Custom login page that you requested is temporarily down for maintenance. What to do? You will be redirected in 10 seconds to a standard login page to access your portal. If you are not automatically redirected, click here ."
+    },
+    "https://hec.csod.com/ux/ats/careersite/1/requisition/316": {
+      "title": "Welcome - Realize Your Potential: Cornerstone",
+      "description": "Welcome - Realize Your Potential: Cornerstone What happened? The Custom login page that you requested is temporarily down for maintenance. What to do? You will be redirected in 10 seconds to a standard login page to access your portal. If you are not automatically redirected, click here ."
+    },
+    "https://hec.csod.com/ux/ats/careersite/1/requisition/322": {
+      "title": "+ Cornerstone OnDemand +",
+      "description": "+ Cornerstone OnDemand + Connexion Logging in... Bienvenue dans l'espace emploi HEC Paris Username Password Remember Username Check this box to save your username for future logins Inherit Login Language Apply login language to application SSO Login Self Reg | Mot de passe oublié? Besoin d'aide. Cliquez ici What happened? The Custom login page that you requested is temporarily down for maintenance. What to do? You will be redirected in 10 seconds to a standard login page to access your portal. If you are not automatically redirected, click here ."
+    },
+    "https://hec.csod.com/ux/ats/careersite/1/requisition/320": {
+      "title": "+ Cornerstone OnDemand +",
+      "description": "+ Cornerstone OnDemand + Connexion Logging in... Bienvenue dans l'espace emploi HEC Paris Username Password Remember Username Check this box to save your username for future logins Inherit Login Language Apply login language to application SSO Login Self Reg | Mot de passe oublié? Besoin d'aide. Cliquez ici What happened? The Custom login page that you requested is temporarily down for maintenance. What to do? You will be redirected in 10 seconds to a standard login page to access your portal. If you are not automatically redirected, click here ."
     }
   },
   "rows": {
@@ -946,11 +970,77 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://hec.csod.com/ux/ats/careersite/1/requisition/319": {
+      "school_id": 1678,
+      "posting_url": "https://hec.csod.com/ux/ats/careersite/1/requisition/319",
+      "job_title_in_post": "Welcome - Realize Your Potential: Cornerstone",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://hec.csod.com/ux/ats/careersite/1/requisition/318": {
+      "school_id": 1678,
+      "posting_url": "https://hec.csod.com/ux/ats/careersite/1/requisition/318",
+      "job_title_in_post": "Welcome - Realize Your Potential: Cornerstone",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://hec.csod.com/ux/ats/careersite/1/requisition/317": {
+      "school_id": 1678,
+      "posting_url": "https://hec.csod.com/ux/ats/careersite/1/requisition/317",
+      "job_title_in_post": "Welcome - Realize Your Potential: Cornerstone",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://hec.csod.com/ux/ats/careersite/1/requisition/316": {
+      "school_id": 1678,
+      "posting_url": "https://hec.csod.com/ux/ats/careersite/1/requisition/316",
+      "job_title_in_post": "Welcome - Realize Your Potential: Cornerstone",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://hec.csod.com/ux/ats/careersite/1/requisition/322": {
+      "school_id": 1678,
+      "posting_url": "https://hec.csod.com/ux/ats/careersite/1/requisition/322",
+      "job_title_in_post": "+ Cornerstone OnDemand +",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://hec.csod.com/ux/ats/careersite/1/requisition/320": {
+      "school_id": 1678,
+      "posting_url": "https://hec.csod.com/ux/ats/careersite/1/requisition/320",
+      "job_title_in_post": "+ Cornerstone OnDemand +",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1678,
   "status": "complete",
-  "updated_at": "2026-09-30T05:30:44+00:00",
-  "completed_at": "2026-09-30T05:30:44+00:00",
+  "updated_at": "2026-10-03T07:14:34+00:00",
+  "completed_at": "2026-10-03T07:14:34+00:00",
   "last_error": ""
 }

@@ -1,8 +1,9 @@
 {
   "links": [],
   "school_id": 1759,
-  "status": "error",
-  "updated_at": "2026-09-29T22:08:43+00:00",
-  "started_at": "2026-09-29T22:07:42+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.academicjobs.com/employers/middle-east-technical-university/8994/jobs\", waiting until \"domcontentloaded\"\n"
+  "status": "complete",
+  "updated_at": "2026-10-02T22:21:20+00:00",
+  "started_at": "2026-10-02T22:21:13+00:00",
+  "completed_at": "2026-10-02T22:21:20+00:00",
+  "last_error": ""
 }

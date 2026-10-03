@@ -179,6 +179,21 @@
       "title": "Bulldog Club Assistant",
       "description": "The Bulldog Club is an important part of supporting Butler University Athletics by engaging and recognizing our generous donors and fans. We are seeking dependable, professional, and enthusiastic part-time employees to assist with hospitality operations during home football and men’s basketball games.\n\nHospitality attendants help create a welcoming experience for Bulldog Club members by assisting with check-in, verifying access, distributing wristbands, and supporting hospitality spaces before and during games.",
       "department": null
+    },
+    "https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2210": {
+      "title": "Global Patient Safety and Pharmacovigilance Fellow with Butler, Eli Lilly and Company, and the FDA",
+      "description": "Fellows will begin with the academic sector at Butler University for 4 months, move into their industry setting at Eli Lilly and Company for 12 months, and finish with an 8-month experience with the FDA.",
+      "department": null
+    },
+    "https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2211": {
+      "title": "Global Patient Safety and Regulatory Fellow with Butler, Regeneron, and the FDA",
+      "description": "Fellows will begin with the academic sector at Butler University for 4 months, move into their industry setting at Eli Lilly and Company for 12 months, and finish with an 8-month experience with the FDA.will continue to provide high-quality safety and regulatory experiences. ",
+      "department": null
+    },
+    "https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2217": {
+      "title": "Admission Counselor",
+      "description": "The admission counselor role promotes and represents the university to prospective students and families and assists them throughout their college search and enrollment process. This position reports to an Associate Director of Admission and is responsible for all aspects of recruiting prospective first year (and transfer) students. This position will support multiple recruitment projects and programs and use a strategic approach to territory management with the guidance and support of the senior admission team. This role serves in a primarily on-campus capacity during the regular work week with flexibility based on required travel and approved work from home options that may include one to two days a week depending on season/workload.",
+      "department": null
     }
   },
   "rows": {
@@ -577,11 +592,44 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2210": {
+      "school_id": 431,
+      "posting_url": "https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2210",
+      "job_title_in_post": "Global Patient Safety and Pharmacovigilance Fellow with Butler, Eli Lilly and Company, and the FDA",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2211": {
+      "school_id": 431,
+      "posting_url": "https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2211",
+      "job_title_in_post": "Global Patient Safety and Regulatory Fellow with Butler, Regeneron, and the FDA",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2217": {
+      "school_id": 431,
+      "posting_url": "https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2217",
+      "job_title_in_post": "Admission Counselor",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 431,
   "status": "error",
-  "updated_at": "2026-09-29T23:51:50+00:00",
-  "completed_at": "2026-09-28T17:47:43+00:00",
+  "updated_at": "2026-10-03T00:18:43+00:00",
+  "completed_at": "2026-10-02T02:11:37+00:00",
   "last_error": "RuntimeError: oracle session capture failed: Timeout 15000ms exceeded while waiting for event \"request\"\n=========================== logs ===========================\nwaiting for request **/recruitingCEJobRequisitions**\n============================================================"
 }

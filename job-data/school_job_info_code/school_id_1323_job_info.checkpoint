@@ -192,6 +192,16 @@
       "title": "Class Scheduling Coordinator, Office of the Registrar - UT Chattanooga",
       "description": "Class Scheduling Coordinator (Student Services Associate 2 - MR06), Office of the University Registrar - UT Chattanooga",
       "department": null
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/9280": {
+      "title": "Clerkship Coordinator-Chattanooga Internal Medicine",
+      "description": "Market Range: 07\nHiring Salary: $20.65/Hourly\n",
+      "department": null
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/10212": {
+      "title": "Accounting Specialist, Office of the Bursar - UT Chattanooga",
+      "description": "Accounting Specialist (Financial Associate 2 – MR06) Office of the Bursar - UT Chattanooga\n\n",
+      "department": null
     }
   },
   "rows": {
@@ -615,11 +625,33 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/9280": {
+      "school_id": 1323,
+      "posting_url": "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/9280",
+      "job_title_in_post": "Clerkship Coordinator-Chattanooga Internal Medicine",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/10212": {
+      "school_id": 1323,
+      "posting_url": "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/10212",
+      "job_title_in_post": "Accounting Specialist, Office of the Bursar - UT Chattanooga",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1323,
   "status": "complete",
-  "updated_at": "2026-09-30T02:48:55+00:00",
+  "updated_at": "2026-10-03T04:18:08+00:00",
   "last_error": "",
-  "completed_at": "2026-09-30T02:48:55+00:00"
+  "completed_at": "2026-10-03T04:18:08+00:00"
 }

@@ -314,6 +314,11 @@
       "title": "HVAC Technician-Resdiential",
       "description": "Posted: 09/28/2026 Location: CCGA- Main Campus (Brunswick) Department: Building Maintenance HVAC Technician-Resdiential",
       "department": "Building Maintenance"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304495&PostingSeq=1&SiteId=63000": {
+      "title": "Athletics Administrative Assistant (Student Worker)",
+      "description": "Posted: 10/02/2026 Location: CCGA- Main Campus (Brunswick) Department: Athletics-Administration Athletics Administrative Assistant (Student Worker)",
+      "department": "Athletics-Administration"
     }
   },
   "rows": {
@@ -1009,11 +1014,22 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304495&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304495&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Athletics Administrative Assistant (Student Worker)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Athletics-Administration",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 284,
   "status": "complete",
-  "updated_at": "2026-09-29T23:27:07+00:00",
-  "completed_at": "2026-09-29T23:27:07+00:00",
+  "updated_at": "2026-10-02T23:32:09+00:00",
+  "completed_at": "2026-10-02T23:32:09+00:00",
   "last_error": ""
 }

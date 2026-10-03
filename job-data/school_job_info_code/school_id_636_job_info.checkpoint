@@ -885,6 +885,34 @@
     },
     "https://waynetalent.csod.com/ux/ats/careersite/2/requisition/3557": {
       "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+    },
+    "https://waynetalent.csod.com/ux/ats/careersite/2/requisition/3659": {
+      "title": "Welcome - Realize Your Potential: Cornerstone",
+      "description": "Welcome - Realize Your Potential: Cornerstone"
+    },
+    "https://waynetalent.csod.com/ux/ats/careersite/2/requisition/3666": {
+      "title": "Welcome - Realize Your Potential: Cornerstone",
+      "description": "Welcome - Realize Your Potential: Cornerstone What happened? The Custom login page that you requested is temporarily down for maintenance. What to do? You will be redirected in 10 seconds to a standard login page to access your portal. If you are not automatically redirected, click here ."
+    },
+    "https://waynetalent.csod.com/ux/ats/careersite/2/requisition/3670": {
+      "title": "Welcome - Realize Your Potential: Cornerstone",
+      "description": "Welcome - Realize Your Potential: Cornerstone"
+    },
+    "https://waynetalent.csod.com/ux/ats/careersite/2/requisition/3664": {
+      "title": "Welcome - Realize Your Potential: Cornerstone",
+      "description": "Welcome - Realize Your Potential: Cornerstone What happened? The Custom login page that you requested is temporarily down for maintenance. What to do? You will be redirected in 10 seconds to a standard login page to access your portal. If you are not automatically redirected, click here ."
+    },
+    "https://waynetalent.csod.com/ux/ats/careersite/2/requisition/3661": {
+      "title": "Welcome - Realize Your Potential: Cornerstone",
+      "description": "Welcome - Realize Your Potential: Cornerstone What happened? The Custom login page that you requested is temporarily down for maintenance. What to do? You will be redirected in 10 seconds to a standard login page to access your portal. If you are not automatically redirected, click here ."
+    },
+    "https://waynetalent.csod.com/ux/ats/careersite/2/requisition/3660": {
+      "title": "Welcome - Realize Your Potential: Cornerstone",
+      "description": "Welcome - Realize Your Potential: Cornerstone What happened? The Custom login page that you requested is temporarily down for maintenance. What to do? You will be redirected in 10 seconds to a standard login page to access your portal. If you are not automatically redirected, click here ."
+    },
+    "https://waynetalent.csod.com/ux/ats/careersite/2/requisition/3658": {
+      "title": "Welcome - Realize Your Potential: Cornerstone",
+      "description": "Welcome - Realize Your Potential: Cornerstone What happened? The Custom login page that you requested is temporarily down for maintenance. What to do? You will be redirected in 10 seconds to a standard login page to access your portal. If you are not automatically redirected, click here ."
     }
   },
   "rows": {
@@ -3313,11 +3341,88 @@
     },
     "https://waynetalent.csod.com/ux/ats/careersite/2/requisition/3557": {
       "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+    },
+    "https://waynetalent.csod.com/ux/ats/careersite/2/requisition/3659": {
+      "school_id": 636,
+      "posting_url": "https://waynetalent.csod.com/ux/ats/careersite/2/requisition/3659",
+      "job_title_in_post": "Welcome - Realize Your Potential: Cornerstone",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://waynetalent.csod.com/ux/ats/careersite/2/requisition/3666": {
+      "school_id": 636,
+      "posting_url": "https://waynetalent.csod.com/ux/ats/careersite/2/requisition/3666",
+      "job_title_in_post": "Welcome - Realize Your Potential: Cornerstone",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://waynetalent.csod.com/ux/ats/careersite/2/requisition/3670": {
+      "school_id": 636,
+      "posting_url": "https://waynetalent.csod.com/ux/ats/careersite/2/requisition/3670",
+      "job_title_in_post": "Welcome - Realize Your Potential: Cornerstone",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://waynetalent.csod.com/ux/ats/careersite/2/requisition/3664": {
+      "school_id": 636,
+      "posting_url": "https://waynetalent.csod.com/ux/ats/careersite/2/requisition/3664",
+      "job_title_in_post": "Welcome - Realize Your Potential: Cornerstone",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://waynetalent.csod.com/ux/ats/careersite/2/requisition/3661": {
+      "school_id": 636,
+      "posting_url": "https://waynetalent.csod.com/ux/ats/careersite/2/requisition/3661",
+      "job_title_in_post": "Welcome - Realize Your Potential: Cornerstone",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://waynetalent.csod.com/ux/ats/careersite/2/requisition/3660": {
+      "school_id": 636,
+      "posting_url": "https://waynetalent.csod.com/ux/ats/careersite/2/requisition/3660",
+      "job_title_in_post": "Welcome - Realize Your Potential: Cornerstone",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://waynetalent.csod.com/ux/ats/careersite/2/requisition/3658": {
+      "school_id": 636,
+      "posting_url": "https://waynetalent.csod.com/ux/ats/careersite/2/requisition/3658",
+      "job_title_in_post": "Welcome - Realize Your Potential: Cornerstone",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 636,
   "status": "complete",
-  "updated_at": "2026-09-30T00:42:31+00:00",
-  "completed_at": "2026-09-30T00:42:31+00:00",
+  "updated_at": "2026-10-03T01:33:26+00:00",
+  "completed_at": "2026-10-03T01:33:26+00:00",
   "last_error": ""
 }

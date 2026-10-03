@@ -16,9 +16,9 @@
     "https://www.marianuniversity.edu/sabre-cafe-manager-special-events-support/"
   ],
   "school_id": 1536,
-  "status": "complete",
-  "updated_at": "2026-09-29T20:04:36+00:00",
+  "status": "error",
+  "updated_at": "2026-10-02T20:48:14+00:00",
   "started_at": "2026-09-25T06:29:17+00:00",
-  "completed_at": "2026-09-29T20:04:36+00:00",
-  "last_error": ""
+  "completed_at": "2026-09-30T19:36:22+00:00",
+  "last_error": "RuntimeError: marian employment page listed no role-titled links"
 }

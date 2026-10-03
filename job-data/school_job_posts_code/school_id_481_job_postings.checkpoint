@@ -33,9 +33,9 @@
     "https://jobs.wichita.edu/jobs/jaks-construction-coordinator-student-assistant-wichita-kansas-united-states"
   ],
   "school_id": 481,
-  "status": "complete",
-  "updated_at": "2026-09-29T17:56:06+00:00",
+  "status": "error",
+  "updated_at": "2026-10-02T18:08:05+00:00",
   "started_at": "2026-09-08T01:49:22+00:00",
-  "completed_at": "2026-09-29T17:56:06+00:00",
-  "last_error": ""
+  "completed_at": "2026-09-30T17:51:41+00:00",
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
 }

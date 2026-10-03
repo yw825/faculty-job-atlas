@@ -44,6 +44,11 @@
       "title": "Senior Brand Ambassador - Nashville Region - UT Southern",
       "description": "This is a remote position serving the Nashville metropolitan area. Applicants must live within a 30-45 mile radius of Nashville to be considered for employment or be willing to relocate. The Senior Brand Ambassador – Nashville Region serves as the primary recruitment and enrollment representative for the University of Tennessee Southern within the Nashville and North Middle Tennessee market area. ",
       "department": null
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/10184": {
+      "title": "Adjunct Business Professor - UTS",
+      "description": "The University is seeking an experienced and student-focused Adjunct Business Faculty member to teach undergraduate courses in business, management, information systems, entrepreneurship, and agricultural business. The successful candidate will bring relevant academic and/or professional experience and a commitment to providing students with engaging, practical, and career-focused learning experiences.",
+      "department": null
     }
   },
   "rows": {
@@ -145,11 +150,22 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/10184": {
+      "school_id": 1357,
+      "posting_url": "https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/10184",
+      "job_title_in_post": "Adjunct Business Professor - UTS",
+      "position_type": "Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Business; information systems",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1357,
   "status": "complete",
-  "updated_at": "2026-09-30T02:51:28+00:00",
-  "completed_at": "2026-09-30T02:51:28+00:00",
+  "updated_at": "2026-10-03T04:23:53+00:00",
+  "completed_at": "2026-10-03T04:23:53+00:00",
   "last_error": ""
 }

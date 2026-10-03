@@ -89,6 +89,41 @@
       "title": "Kaituruki | Tutor in Law",
       "description": "Support students with their legal studies in this fixed-term, part-time tutoring position.",
       "department": null
+    },
+    "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010133": {
+      "title": "Kaituruki | Tutor (LAWS111)",
+      "description": "Fixed-term, part-time tutor role to support the Faculty of Law's intensive summer offering.",
+      "department": null
+    },
+    "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010138": {
+      "title": "Kaituruki | Teaching Assistant in Tort Law",
+      "description": "Help students excel in their legal studies in this fixed-term, part-time position.",
+      "department": null
+    },
+    "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010134": {
+      "title": "Kaituruki | Teaching Assistant in 100-Level Law",
+      "description": "Coordinate our Law tutorial operations in this fixed-term, part-time position.",
+      "department": null
+    },
+    "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010135": {
+      "title": "Kaituruki | Tutor in 200-Level Law",
+      "description": "Prepare and deliver tutorials in this fixed-term, part-time role for the 2027 academic year.",
+      "department": null
+    },
+    "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010144": {
+      "title": "Pūkenga/Pūkenga Matua | Lecturer/Senior Lecturer in Political Science or International Relations",
+      "description": "Permanent academic position to shape teaching and research on politics in Aotearoa and the world. ",
+      "department": null
+    },
+    "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010136": {
+      "title": "Kaituruki | Teaching Assistants in Law",
+      "description": "Support students in this fixed-term, part-time role within the Faculty of Law.",
+      "department": null
+    },
+    "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010137": {
+      "title": "Kaituruki Matua | Senior Tutor in Tort Law",
+      "description": "Fixed-term, part-time role delivering course content for LAWS212.",
+      "department": null
     }
   },
   "rows": {
@@ -132,7 +167,7 @@
       "position_type": "Lecturer",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "Architecture",
+      "area_key_words": "Architecture; full-time role",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -143,7 +178,7 @@
       "position_type": "Lecturer",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "",
+      "area_key_words": "full-time role",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -154,7 +189,7 @@
       "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "this permanent",
+      "area_key_words": "this permanent; full-time role",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -289,11 +324,88 @@
       "area_key_words": "Law",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010133": {
+      "school_id": 1830,
+      "posting_url": "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010133",
+      "job_title_in_post": "Kaituruki | Tutor (LAWS111)",
+      "position_type": "Unclassified",
+      "job_term": "Part-time",
+      "department_or_school": "Faculty of Law's intensive summer offering",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010138": {
+      "school_id": 1830,
+      "posting_url": "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010138",
+      "job_title_in_post": "Kaituruki | Teaching Assistant in Tort Law",
+      "position_type": "Unclassified",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "Tort Law",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010134": {
+      "school_id": 1830,
+      "posting_url": "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010134",
+      "job_title_in_post": "Kaituruki | Teaching Assistant in 100-Level Law",
+      "position_type": "Unclassified",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010135": {
+      "school_id": 1830,
+      "posting_url": "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010135",
+      "job_title_in_post": "Kaituruki | Tutor in 200-Level Law",
+      "position_type": "Unclassified",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010144": {
+      "school_id": 1830,
+      "posting_url": "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010144",
+      "job_title_in_post": "Pūkenga/Pūkenga Matua | Lecturer/Senior Lecturer in Political Science or International Relations",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Political Science or International Relations; politics; world",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010136": {
+      "school_id": 1830,
+      "posting_url": "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010136",
+      "job_title_in_post": "Kaituruki | Teaching Assistants in Law",
+      "position_type": "Unclassified",
+      "job_term": "Part-time",
+      "department_or_school": "Faculty of Law",
+      "area_key_words": "Law",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010137": {
+      "school_id": 1830,
+      "posting_url": "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010137",
+      "job_title_in_post": "Kaituruki Matua | Senior Tutor in Tort Law",
+      "position_type": "Unclassified",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "Tort Law",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1830,
   "status": "complete",
-  "updated_at": "2026-09-30T06:44:30+00:00",
-  "completed_at": "2026-09-30T06:44:30+00:00",
+  "updated_at": "2026-10-03T08:07:58+00:00",
+  "completed_at": "2026-10-03T08:07:58+00:00",
   "last_error": ""
 }

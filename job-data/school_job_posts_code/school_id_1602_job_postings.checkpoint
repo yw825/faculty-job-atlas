@@ -11,9 +11,9 @@
     "https://plus.avanti.ca/job-board/5da7a070-4efb-4f6e-b846-5d1e55cc2abe/73fc8a2d-9d38-4dee-bcc9-ecdd20cb4a29/view?LOCALE=en-CA&SEARCH=UWFA-RAS"
   ],
   "school_id": 1602,
-  "status": "error",
-  "updated_at": "2026-09-29T20:56:12+00:00",
+  "status": "complete",
+  "updated_at": "2026-10-02T21:14:03+00:00",
   "started_at": "2026-09-03T18:47:11+00:00",
-  "completed_at": "2026-09-28T01:11:32+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://plus.avanti.ca/job-board/5da7a070-4efb-4f6e-b846-5d1e55cc2abe/abc8cefc-8900-4f89-a11a-169e8102b2be/view?LOCALE=en-CA&SEARCH=UWFA-RAS\", waiting until \"domcontentloaded\"\n"
+  "completed_at": "2026-10-02T21:14:03+00:00",
+  "last_error": ""
 }

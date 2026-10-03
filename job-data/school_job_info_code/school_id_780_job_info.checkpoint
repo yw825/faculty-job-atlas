@@ -259,6 +259,16 @@
       "title": "Assistant Director Housing Operations",
       "description": "The Assistant Director of Housing Operations at Davidson College is a full-time, twelve-month, salaried position reporting to the Associate Director of Housing Operations and Facilities. The Assistant Director leads the day-to-day administration of residential housing operations, including assignments, occupancy management, housing systems, student support, transitional housing, and process improvement. The position serves as the departmental subject matter expert for StarRez and housing-related data and directly supervises the Coordinator of Housing & Facilities. The Assistant Director collaborates with Residence Life, Physical Plant, Technology & Innovation, and other campus partners to ensure effective, efficient, and student-centered housing operations.",
       "department": null
+    },
+    "https://fa-exci-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/1050": {
+      "title": "Rare Materials Cataloger & Collections Manager",
+      "description": "Davidson College Library seeks a Rare Materials Cataloger and Collections Manager to enhance discovery of our collection of rare books and historic maps. Serving as a collaborative member of the Archives & Special Collections team, this position will play a pivotal role in connecting collections to learners in Davidson’s new George Lawrence Abernethy Library by accessioning, cataloging, and digitizing rare materials, implementing collections care tasks and projects, and assisting in the design and preparation of exhibits, programs, and instruction sessions.",
+      "department": null
+    },
+    "https://fa-exci-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/1051": {
+      "title": "Coordinator for Housing Operations",
+      "description": "The Coordinator for Housing Operations at Davidson College supports the daily administrative and operational functions of the Residence Life Office (RLO). This position coordinates assigned housing operations processes and serves as a key resource for students, families, faculty, and staff regarding housing-related questions and services. The Coordinator plays a critical role in supporting housing assignments, occupancy processes, room changes, summer housing, billing coordination, hall access, asset inventory, and housing system administration. The position is responsible for maintaining accurate housing data, coordinating assigned functional areas, and ensuring processes are carried out efficiently, consistently, and in accordance with established policies and procedures.\n",
+      "department": null
     }
   },
   "rows": {
@@ -833,11 +843,33 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://fa-exci-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/1050": {
+      "school_id": 780,
+      "posting_url": "https://fa-exci-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/1050",
+      "job_title_in_post": "Rare Materials Cataloger & Collections Manager",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-exci-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/1051": {
+      "school_id": 780,
+      "posting_url": "https://fa-exci-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/1051",
+      "job_title_in_post": "Coordinator for Housing Operations",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 780,
-  "status": "complete",
-  "updated_at": "2026-09-30T01:36:53+00:00",
-  "completed_at": "2026-09-30T01:36:53+00:00",
-  "last_error": ""
+  "status": "error",
+  "updated_at": "2026-10-03T02:20:14+00:00",
+  "completed_at": "2026-10-01T01:00:43+00:00",
+  "last_error": "RuntimeError: oracle session capture failed: Timeout 15000ms exceeded while waiting for event \"request\"\n=========================== logs ===========================\nwaiting for request **/recruitingCEJobRequisitions**\n============================================================"
 }

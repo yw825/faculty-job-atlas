@@ -9,14 +9,14 @@ school_id,posting_url,job_title_in_post,position_type,job_term,department_or_sch
 277,https://facultycareers.gsu.edu/postings/7390,Part-Time BUSINESS Instructor,Unclassified,Part-time,,BUSINESS; semester Percentage Of Time Posting,07/31/2027,09/04/2026
 277,https://facultycareers.gsu.edu/postings/6669,Professor,Full_Professor,Full-time,Institute for Biomedical Sciences is a multidisciplinary research and education institute,,01/16/2025,08/01/2025
 277,https://facultycareers.gsu.edu/postings/7433,Part-Time GEOLOGY AND ENVIRONMENTAL SCIENCE Instructor,Unclassified,Part-time,,GEOLOGY AND ENVIRONMENTAL SCIENCE; ENVIRONMENTAL SCIENCE courses on the,07/31/2027,09/17/2026
-277,https://facultycareers.gsu.edu/postings/7205,Georgia State University |Applicant Portal,Unclassified,Full-time,,person,,08/24/2026
+277,https://facultycareers.gsu.edu/postings/7205,Georgia State University |Applicant Portal,Unclassified,Full-time,,,,08/24/2026
 277,https://facultycareers.gsu.edu/postings/6759,Limited-Term Instructor of GEOLOGY,Unclassified,Part-time,,GEOLOGY,06/30/2025,08/01/2025
-277,https://facultycareers.gsu.edu/postings/7394,Part-Time POLITICAL SCIENCE Instructor,Unclassified,Part-time,,POLITICAL SCIENCE,07/31/2027,09/08/2026
+277,https://facultycareers.gsu.edu/postings/7394,Part-Time POLITICAL SCIENCE Instructor,Unclassified,Part-time,,POLITICAL SCIENCE; collegiate,07/31/2027,09/08/2026
 277,https://facultycareers.gsu.edu/postings/7230,"Professor of Practice, Heirs’ Property Clinic",Full_Professor,Part-time,College of Law,Heirs’ Property Clinic; each of the following instructional,08/17/2026,10/01/2026
 277,https://facultycareers.gsu.edu/postings/6677,Assistant Professor of Criminal Justice and Criminology,Assistant_Professor,Full-time,Department of Criminal Justice and Criminology,Criminal Justice and Criminology; Criminal Justice Review; each of the following instructional,12/02/2025,08/01/2026
 277,https://facultycareers.gsu.edu/postings/7437,Part-Time SPORT MANAGEMENT Instructor,Unclassified,Part-time,,SPORT MANAGEMENT,07/31/2027,09/17/2026
 277,https://facultycareers.gsu.edu/postings/6790,Professor of Practice,Full_Professor,Full-time,Department of Computer Information Systems,Practice; each of the following instructional,,05/01/2026
-277,https://facultycareers.gsu.edu/postings/7399,Part-Time PSYCHOLOGY Instructor,Unclassified,Part-time,,PSYCHOLOGY,07/31/2027,09/11/2026
+277,https://facultycareers.gsu.edu/postings/7399,Part-Time PSYCHOLOGY Instructor,Unclassified,Part-time,,PSYCHOLOGY; collegiate,07/31/2027,09/11/2026
 277,https://facultycareers.gsu.edu/postings/7251,Part-Time ENGLISH Instructor (Applicant Pool),Unclassified,Part-time,,ENGLISH; collegiate level Ability,07/31/2027,08/01/2026
 277,https://facultycareers.gsu.edu/postings/6682,"Open-Rank Assistant/Associate/Full Professor, School of Nursing (Tenure-Track/Tenured)",Assistant_Professor; Associate_Professor; Full_Professor,Full-time,School of Nursing,Nursing; securing external funding; focused area; each of the following instructional,11/17/2025,08/01/2026
 277,https://facultycareers.gsu.edu/postings/7441,Assistant Professor of World Languages Education,Assistant_Professor,Full-time,College of Education and Human Development,World Languages Education; standards-based World Languages pedagogy; issues; each of the following instructional,10/15/2026,08/01/2027
@@ -46,7 +46,7 @@ school_id,posting_url,job_title_in_post,position_type,job_term,department_or_sch
 277,https://facultycareers.gsu.edu/postings/7430,Part-Time BIOLOGY Instructor,Unclassified,Part-time,,BIOLOGY; collegiate level Ability,07/31/2027,09/17/2026
 277,https://facultycareers.gsu.edu/postings/7198,Clinical Assistant Professor,Assistant_Professor,Full-time,Department of Public Management and Policy,Policy Analytics; Innovation; each of the following instructional,"June 15, 2026",08/01/2026
 277,https://facultycareers.gsu.edu/postings/6746,Part-Time ART Instructor,Unclassified,Part-time,Department of Fine Arts,ART,,01/05/2026
-277,https://facultycareers.gsu.edu/postings/7392,Part-Time HISTORY Instructor,Unclassified,Part-time,,HISTORY,07/31/2027,09/08/2026
+277,https://facultycareers.gsu.edu/postings/7392,Part-Time HISTORY Instructor,Unclassified,Part-time,,HISTORY; collegiate,07/31/2027,09/08/2026
 277,https://facultycareers.gsu.edu/postings/6675,Clinical Instructor of Nutrition (Non-Tenure Track),Unclassified,Full-time,Department of Nutrition is housed within the Byrdine F,Nutrition; each of the following instructional,10/22/2025,08/01/2026
 277,https://facultycareers.gsu.edu/postings/7435,Part-Time EXERCISE SCIENCE Instructor,Unclassified,Part-time,,EXERCISE SCIENCE,07/31/2027,09/17/2026
 277,https://facultycareers.gsu.edu/postings/7208,Assistant Professor of Exercise Physiology,Assistant_Professor,Full-time,Department of Kinesiology and Health in the College of Education and Human Development,Exercise Physiology; physiological responses; teaching summer courses,10/19/2026,08/01/2027
@@ -68,10 +68,18 @@ school_id,posting_url,job_title_in_post,position_type,job_term,department_or_sch
 277,https://facultycareers.gsu.edu/postings/7415,Part-Time CRIMINAL JUSTICE Instructor,Unclassified,Part-time,,CRIMINAL JUSTICE; collegiate level Ability,07/31/2027,09/16/2026
 277,https://facultycareers.gsu.edu/postings/6904,Limited-Term Instructor of Mathematics,Unclassified,Part-time,,Mathematics; PreCalculus The ability,,08/01/2026
 277,https://facultycareers.gsu.edu/postings/7287,Clinical Assistant Professor of Educational Leadership,Assistant_Professor,Full-time,"College of Education and Human Development, offers graduate degrees and certificates",Educational Leadership; hybrid formats Ability,10/15/2026,08/01/2027
-277,https://facultycareers.gsu.edu/postings/6733,Limited-Term Instructor of PSYCHOLOGY,Unclassified,Part-time,department for up to three additional semesters,PSYCHOLOGY,,08/26/2024
+277,https://facultycareers.gsu.edu/postings/6733,Limited-Term Instructor of PSYCHOLOGY,Unclassified,Part-time,department for up to three additional semesters,PSYCHOLOGY; collegiate,,08/26/2024
 277,https://facultycareers.gsu.edu/postings/7450,Limited-Term Instructor of BUSINESS,Unclassified,Part-time,,BUSINESS,,01/01/2025
 277,https://facultycareers.gsu.edu/postings/7419,Part-Time AFRICAN-AMERICAN STUDIES Instructor,Unclassified,Part-time,,collegiate level Ability,07/31/2027,09/16/2026
 277,https://facultycareers.gsu.edu/postings/6908,Limited-Term Instructor of Kinesiology and Health,Unclassified,Part-time,,Kinesiology and Health; Health a minimum of a,07/31/2027,08/03/2026
 277,https://facultycareers.gsu.edu/postings/7458,Assistant Professor of Dental Hygiene,Assistant_Professor,Part-time,,Dental Hygiene; each of the following instructional,11/30/2026,08/02/2027
 277,https://facultycareers.gsu.edu/postings/7308,Assistant Professor of School Psychology,Assistant_Professor,Full-time,Department of Counseling and Psychological Services,School Psychology; meaningful practice; applying evidence-based treatments; each of the following instructional,10/23/2026,08/01/2027
 277,https://facultycareers.gsu.edu/postings/6736,Part-Time Instructor of Journalism,Unclassified,Part-time,,Journalism,,01/05/2026
+277,https://facultycareers.gsu.edu/postings/7475,Lecturer of Biology,Lecturer,Full-time,Department of Life and Earth Sciences,Biology; each of the following instructional,11/30/2026,08/01/2027
+277,https://facultycareers.gsu.edu/postings/7477,Lecturer of Political Science,Lecturer,Full-time,,Political Science; each of the following instructional,11/30/2026,08/01/2027
+277,https://facultycareers.gsu.edu/postings/7481,Lecturer of Psychology,Lecturer,Full-time,,Psychology; each of the following instructional,11/30/2026,08/02/2027
+277,https://facultycareers.gsu.edu/postings/7474,Assistant Professor of English,Assistant_Professor,Full-time,,English; each of the following instructional,11/30/2026,08/02/2027
+277,https://facultycareers.gsu.edu/postings/7476,Lecturer of Mathematics,Lecturer,Full-time,,Mathematics; each of the following instructional,11/30/2026,08/01/2027
+277,https://facultycareers.gsu.edu/postings/7479,Lecturer of English,Lecturer,Full-time,,English; Portfolio Unofficial Transcript of all,11/30/2026,08/01/2027
+277,https://facultycareers.gsu.edu/postings/7486,Assistant Professor of Music,Assistant_Professor,Full-time,,Music; each of the following instructional,11/30/2026,08/01/2027
+277,https://facultycareers.gsu.edu/postings/7484,Assistant Professor of Kinesiology & Health,Assistant_Professor,Part-time,,Kinesiology & Health; each of the following instructional,11/30/2026,08/01/2027

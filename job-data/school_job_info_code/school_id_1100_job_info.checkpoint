@@ -282,6 +282,22 @@
     "https://jobs.okstate.edu/jobs/assistant-professor-of-finance-213361-stillwater-oklahoma-united-states-payne-county": {
       "title": "Assistant Professor of Finance 213361",
       "description": "Assistant Professor of Finance 213361 - Stillwater, Oklahoma, United States - Payne County, Oklahoma, United States"
+    },
+    "https://jobs.okstate.edu/jobs/post-doctoral-fellow-population-ecology-of-black-bear-bf9467-stillwater-oklahoma-united-states": {
+      "title": "post doctoral fellow population ecology of black bear bf9467 stillwater oklahoma united states",
+      "description": "JavaScript is disabled In order to continue, we need to verify that you're not a robot.\n        This requires JavaScript. Enable JavaScript and then reload the page."
+    },
+    "https://jobs.okstate.edu/jobs/visiting-assistant-professor-af7767-stillwater-oklahoma-united-states": {
+      "title": "Visiting Assistant Professor AF7767",
+      "description": "Visiting Assistant Professor AF7767 - Stillwater, Oklahoma, United States"
+    },
+    "https://jobs.okstate.edu/jobs/open-rank-professor-of-computer-science-af9557-stillwater-oklahoma-united-states": {
+      "title": "Open Rank Professor of Computer Science AF9557",
+      "description": "Open Rank Professor of Computer Science AF9557 - Stillwater, Oklahoma, United States"
+    },
+    "https://jobs.okstate.edu/jobs/instructor-john-deere-df9985-okmulgee-oklahoma-united-states": {
+      "title": "Instructor",
+      "description": "Instructor - John Deere #DF9985 - Okmulgee, Oklahoma, United States"
     }
   },
   "rows": {
@@ -1057,11 +1073,55 @@
       "area_key_words": "Finance 213361",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://jobs.okstate.edu/jobs/post-doctoral-fellow-population-ecology-of-black-bear-bf9467-stillwater-oklahoma-united-states": {
+      "school_id": 1100,
+      "posting_url": "https://jobs.okstate.edu/jobs/post-doctoral-fellow-population-ecology-of-black-bear-bf9467-stillwater-oklahoma-united-states",
+      "job_title_in_post": "post doctoral fellow population ecology of black bear bf9467 stillwater oklahoma united states",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://jobs.okstate.edu/jobs/visiting-assistant-professor-af7767-stillwater-oklahoma-united-states": {
+      "school_id": 1100,
+      "posting_url": "https://jobs.okstate.edu/jobs/visiting-assistant-professor-af7767-stillwater-oklahoma-united-states",
+      "job_title_in_post": "Visiting Assistant Professor AF7767",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://jobs.okstate.edu/jobs/open-rank-professor-of-computer-science-af9557-stillwater-oklahoma-united-states": {
+      "school_id": 1100,
+      "posting_url": "https://jobs.okstate.edu/jobs/open-rank-professor-of-computer-science-af9557-stillwater-oklahoma-united-states",
+      "job_title_in_post": "Open Rank Professor of Computer Science AF9557",
+      "position_type": "Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Computer Science AF9557",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://jobs.okstate.edu/jobs/instructor-john-deere-df9985-okmulgee-oklahoma-united-states": {
+      "school_id": 1100,
+      "posting_url": "https://jobs.okstate.edu/jobs/instructor-john-deere-df9985-okmulgee-oklahoma-united-states",
+      "job_title_in_post": "Instructor",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1100,
   "status": "complete",
-  "updated_at": "2026-09-30T02:24:53+00:00",
-  "completed_at": "2026-09-30T02:24:53+00:00",
+  "updated_at": "2026-10-03T03:25:42+00:00",
+  "completed_at": "2026-10-03T03:25:42+00:00",
   "last_error": ""
 }

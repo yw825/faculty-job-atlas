@@ -39,6 +39,10 @@
     "https://a.cms.omniupdate.com/11/?skin=newhaven&account=newhaven&site=www&action=de&path=/about/employment/job-opportunities/index.pcf": {
       "title": "Sign in to your account",
       "description": "Sign in to your account Sign in Can’t access your account? This is a University of New Haven system and/or network. You must be authorized to use these resources. Network traffic will be logged/monitored for security purposes. Unauthorized or criminal use is prohibited. By using these resources, you agree to abide by https://newhaven.edu/aup and all relevant state & federal laws. Sign-in options Terms of use Privacy & cookies ..."
+    },
+    "https://www.newhaven.edu/about/employment/job-opportunities/": {
+      "title": "Open Positions",
+      "description": "Open Positions - University of New Haven We use cookies to improve your experience. Please read our Privacy Policy or click Accept . × Skip to Main Content Skip to Footer Main Menu search Close Menu Search Search Close Menu Request Info Visit Apply Give search Request Info Visit Apply Give About About the University of New Haven Mission Statement and Core Values Accreditation Facts & Figures Awards & Affiliations University Leadership Board of Governors Offices & Departments Campus Locations & Maps State-of-the-Art Facilities The Elevation Center Employment at the University Strategic Plan Info for Visitors, Parking & Shuttles Title IX and Equal Opportunity Academics Academics at the University of New Haven Academic Programs College of Arts and Sciences Pompea College of Business Henry C. Lee College of Criminal Justice and Forensic Sciences Tagliatela College of Engineering School of Health Sciences University Interdisciplinary Collaborative Academic Administration Academic Calendar and Course Schedules Course Catalog Core Curriculum Library Academic Centers and Institutes Honors Societies Student Success and Support Study Abroad Verto Education Study Abroad Experience Admissions Admissions Overview Apply Request Information Undergraduate Admissions Graduate Admissions International Students Online Programs Tuition & Financial Aid Net Price Calculator Pre-College Programs & Opportunities for High School Students Student Life Student Life at the University of New Haven Student Affairs and Dean of Students Office Get Involved! Living on Campus Dining Career Development Safety & Security Accessibility Health & Wellness Commuter Resources Campus Store Commencement New Student Orientation Research Research at the University of New Haven Labs & Research Groups Faculty Research Student Fellowships & Research Summer Undergraduate Research Fellowships (SURF) Grants & Sponsored Programs News & Events Latest News and Media Coverage University News Releases The Charger Blog In the Media University Magazine Charger 360 University Events Calendar Undergraduate Admissions Events Graduate Admissions Events Info For: Riyadh, Saudi Arabia Campus Alumni & Friends Athletics Camps & Conferences Corporate Partners Employers Faculty & Staff Directory Inclusion Military & Veteran Affairs Parents & Families Safety & Security Work at UNewHaven myCharger (login required) Info For: Riyadh, Saudi Arabia Campus Alumni & Friends Athletics Camps & Conferences Corporate Partners Employers Faculty & Staff Directory Inclusion Military & Veteran Affairs Parents & Families Safety & Security Work at UNewHaven myCharger (login required) Close Menu Employment at the University of New Haven Employment and Human Resources Main Page Open Positions Employee Core Competencies Equal Opportunity in Employment Statements Wrongful Conduct Reporting Human Resources for Current Employees (myCharger login required) < Return to About University of New Haven Section Open Positions at the University of New Haven Annual Security and Fire Safety Report The University of New Haven's Annual Security and Fire Safety Report is available\n                     for public review and inspection. The Jeanne Clery Disclosure of Campus Security Policy\n                     and Campus Crime Statistics Act (Clery Act) is a federal law that requires all colleges\n                     and universities to annually disclose information about crime on and around their\n                     campuses. A paper copy will be provided upon request. Requests can be made to the\n                     Department of Public Safety at (203) 932-7013 . Clery Report Webpage View Report (PDF) Also of Interest: Art & Design | University of New Haven... Make Your Gift Awards and Affiliations 300 Boston Post Road West Haven, CT 06516 (203) 932-7000 (800) 342-5864 Admissions News and Media Campus Locations and Maps Public Safety Library Employment Give Faculty & Staff Directory Emergency Notifications Strategic Plan Information Technology Support myCharger Alumni Email Title IX Social Media Instagram Facebook TikTok LinkedIn X YouTube Send Us Feedback Online Privacy Statement Online Accessibility Equal Opportunity and Wrongful Conduct Reporting"
     }
   },
   "rows": {
@@ -151,11 +155,22 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://www.newhaven.edu/about/employment/job-opportunities/": {
+      "school_id": 200,
+      "posting_url": "https://www.newhaven.edu/about/employment/job-opportunities/",
+      "job_title_in_post": "Open Positions",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "College of Arts and Sciences Pompea College of Business Henry C",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 200,
   "status": "complete",
-  "updated_at": "2026-09-29T23:13:17+00:00",
-  "completed_at": "2026-09-29T23:13:17+00:00",
+  "updated_at": "2026-10-02T23:18:00+00:00",
+  "completed_at": "2026-10-02T23:18:00+00:00",
   "last_error": ""
 }

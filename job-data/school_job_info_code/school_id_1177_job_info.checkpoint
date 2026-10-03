@@ -64,6 +64,16 @@
       "title": "Seasonal Assistant Coach, Women's Basketball",
       "description": "The Part Time Assistant Coach is responsible for assisting the Head Coach in the administration of all aspects of the sport program including but not limited to coaching and teaching of students, recruiting, game and practice preparation and execution, compliance with NCAA and conference rules/regulations, participation as a member of the College community and with all collaborative departmental functions as needed",
       "department": null
+    },
+    "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/339": {
+      "title": "Assistant Professor of Psychology",
+      "description": "",
+      "department": null
+    },
+    "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/338": {
+      "title": "Grant Accountant or Sr. Grant Accountant",
+      "description": "The grant accountant oversees the financial administration of federal, state, local, and private grants. This role ensures that all expenditures strictly align with grant agreements, prepares required financial reports, and coordinates fund draws or invoicing. Serve as the link between Foundation and Corporate Relations (FCR), programmatic staff, financial services, and funding age. Apply Generally Accepted Accounting Principles (GAAP) to maintain and analyze financial records and reports. Prepare comprehensive financial statements and reports, supporting informed decision-making and strategic planning.",
+      "department": null
     }
   },
   "rows": {
@@ -209,11 +219,33 @@
       "area_key_words": "practice preparation",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/339": {
+      "school_id": 1177,
+      "posting_url": "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/339",
+      "job_title_in_post": "Assistant Professor of Psychology",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Psychology",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/338": {
+      "school_id": 1177,
+      "posting_url": "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/338",
+      "job_title_in_post": "Grant Accountant or Sr. Grant Accountant",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1177,
   "status": "complete",
-  "updated_at": "2026-09-30T02:31:34+00:00",
-  "completed_at": "2026-09-30T02:31:34+00:00",
+  "updated_at": "2026-10-03T03:39:23+00:00",
+  "completed_at": "2026-10-03T03:39:23+00:00",
   "last_error": ""
 }

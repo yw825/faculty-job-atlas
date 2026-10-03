@@ -31,9 +31,9 @@
     "https://careers.jsu.edu/jobs/assistant-professor-biology-genetics-jacksonville-al-main-campus-alabama-united-states"
   ],
   "school_id": 14,
-  "status": "complete",
-  "updated_at": "2026-09-29T17:01:23+00:00",
+  "status": "error",
+  "updated_at": "2026-10-02T17:02:15+00:00",
   "started_at": "2026-09-08T01:10:09+00:00",
-  "completed_at": "2026-09-29T17:01:23+00:00",
-  "last_error": ""
+  "completed_at": "2026-10-01T17:04:25+00:00",
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
 }

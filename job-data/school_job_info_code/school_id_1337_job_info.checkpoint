@@ -977,6 +977,16 @@
       "title": "HR Assistant",
       "description": "",
       "department": null
+    },
+    "https://fa-evyu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1342": {
+      "title": "Registered Nurse, University Student Health Center",
+      "description": "",
+      "department": null
+    },
+    "https://fa-evyu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1341": {
+      "title": "Patient Care Specialist, JCCHC, College of Nursing",
+      "description": "",
+      "department": null
     }
   },
   "rows": {
@@ -3127,11 +3137,33 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://fa-evyu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1342": {
+      "school_id": 1337,
+      "posting_url": "https://fa-evyu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1342",
+      "job_title_in_post": "Registered Nurse, University Student Health Center",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-evyu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1341": {
+      "school_id": 1337,
+      "posting_url": "https://fa-evyu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1341",
+      "job_title_in_post": "Patient Care Specialist, JCCHC, College of Nursing",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "College of Nursing",
+      "area_key_words": "Nursing",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1337,
   "status": "complete",
-  "updated_at": "2026-09-30T02:50:04+00:00",
-  "completed_at": "2026-09-30T02:50:04+00:00",
+  "updated_at": "2026-10-03T04:21:56+00:00",
+  "completed_at": "2026-10-03T04:21:56+00:00",
   "last_error": ""
 }

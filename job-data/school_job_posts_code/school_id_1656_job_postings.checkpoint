@@ -142,12 +142,28 @@
     "https://usask.csod.com/ux/ats/careersite/14/requisition/15638",
     "https://usask.csod.com/ux/ats/careersite/14/requisition/15618",
     "https://usask.csod.com/ux/ats/careersite/14/requisition/15633",
-    "https://usask.csod.com/ux/ats/careersite/14/requisition/15628"
+    "https://usask.csod.com/ux/ats/careersite/14/requisition/15628",
+    "https://usask.csod.com/ux/ats/careersite/14/requisition/15660",
+    "https://usask.csod.com/ux/ats/careersite/14/requisition/15659",
+    "https://usask.csod.com/ux/ats/careersite/14/requisition/15658",
+    "https://usask.csod.com/ux/ats/careersite/14/requisition/15655",
+    "https://usask.csod.com/ux/ats/careersite/14/requisition/15653",
+    "https://usask.csod.com/ux/ats/careersite/14/requisition/15648",
+    "https://usask.csod.com/ux/ats/careersite/14/requisition/15645",
+    "https://usask.csod.com/ux/ats/careersite/14/requisition/15644",
+    "https://usask.csod.com/ux/ats/careersite/14/requisition/15643",
+    "https://usask.csod.com/ux/ats/careersite/14/requisition/15642",
+    "https://usask.csod.com/ux/ats/careersite/14/requisition/15637",
+    "https://usask.csod.com/ux/ats/careersite/14/requisition/15626",
+    "https://usask.csod.com/ux/ats/careersite/14/requisition/15619",
+    "https://usask.csod.com/ux/ats/careersite/14/requisition/15657",
+    "https://usask.csod.com/ux/ats/careersite/14/requisition/15654",
+    "https://usask.csod.com/ux/ats/careersite/14/requisition/15647"
   ],
   "school_id": 1656,
-  "status": "error",
-  "updated_at": "2026-09-29T21:06:49+00:00",
+  "status": "complete",
+  "updated_at": "2026-10-02T21:22:35+00:00",
   "started_at": "2026-09-02T22:21:22+00:00",
-  "completed_at": "2026-09-28T01:17:06+00:00",
-  "last_error": "RuntimeError: cornerstone token capture failed: Timeout 15000ms exceeded while waiting for event \"request\"\n=========================== logs ===========================\nwaiting for request **/rec-job-search/external/jobs\n============================================================"
+  "completed_at": "2026-10-02T21:22:35+00:00",
+  "last_error": ""
 }

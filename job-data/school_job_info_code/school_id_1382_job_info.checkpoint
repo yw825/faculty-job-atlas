@@ -709,6 +709,26 @@
       "title": "Course Assistant - School of Education",
       "description": "Course Assistant - School of Education",
       "department": null
+    },
+    "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/13010": {
+      "title": "Power Plant Operator - Facilties Management",
+      "description": "Performs highly skilled technical operations and maintenance work in the installation, service, and repair of central plant and auxiliary heating and air-conditioning systems and related equipment. Responsibilities include the efficient operation and maintenance of the university’s central utility plant equipment, installation, troubleshooting, and repair of heating and air-conditioning systems.  Work is performed under general supervision and performance is based upon completion of assignments and results obtained.  The performance evaluation is conducted through the performance evaluation system and in accordance with the University Policies & Procedures.",
+      "department": null
+    },
+    "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/13009": {
+      "title": "Groundskeeper I - Facilities Management",
+      "description": "Performs moderately heavy manual work in the care and maintenance of grounds. Work involves the care and maintenance of plants, shrubs, lawns and assisting with the installation and maintenance of sprinkler systems. Work is performed under supervision according to specific instructions and performance is based upon completion of assignments and results obtained. The performance evaluation is conducted through the performance evaluation system and in accordance with the University Policies & Procedures.",
+      "department": null
+    },
+    "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/13007": {
+      "title": "Business Manager - Center for Student Involvement",
+      "description": "Performs responsible administrative duties in the business operation of the Department. Responsibilities include business management for departmental budgets, financial and statistical reporting, completion of personnel transactions, office purchasing, requisitions, travel, reimbursements, completion of surveys, maintenance of capital inventory and operational program expenses. Performs technical clerical work involving the coordination of day-to-day operations, including exercise of independent judgment. Work is performed under general supervision and performance evaluation is based upon completion of assignments and results obtained. The performance evaluation is conducted through the performance evaluation system and in accordance with the University Policies & Procedures. ",
+      "department": null
+    },
+    "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/13008": {
+      "title": "Assistant Clinical Professor - Nursing Denton",
+      "description": "Texas Woman’s University College of Nursing is comprised of three large campuses located in the cities of Denton, Dallas, and Houston. Our distinguished faculty are committed to excellence in teaching, practice, service and scholarship. The incumbent will be part of the Denton campus faculty. Denton, Texas is often characterized as a college town with two Universities within its city limits. With enrollment of over 15,000 students, Texas Woman’s University (TWU) is the nation’s largest university primarily for women.",
+      "department": null
     }
   },
   "rows": {
@@ -2273,11 +2293,55 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/13010": {
+      "school_id": 1382,
+      "posting_url": "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/13010",
+      "job_title_in_post": "Power Plant Operator - Facilties Management",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/13009": {
+      "school_id": 1382,
+      "posting_url": "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/13009",
+      "job_title_in_post": "Groundskeeper I - Facilities Management",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/13007": {
+      "school_id": 1382,
+      "posting_url": "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/13007",
+      "job_title_in_post": "Business Manager - Center for Student Involvement",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "Center for Student Involvement",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/13008": {
+      "school_id": 1382,
+      "posting_url": "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/13008",
+      "job_title_in_post": "Assistant Clinical Professor - Nursing Denton",
+      "position_type": "Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Nursing Denton",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1382,
   "status": "complete",
-  "updated_at": "2026-09-30T02:54:24+00:00",
-  "completed_at": "2026-09-30T02:54:24+00:00",
+  "updated_at": "2026-10-03T04:31:02+00:00",
+  "completed_at": "2026-10-03T04:31:02+00:00",
   "last_error": ""
 }
