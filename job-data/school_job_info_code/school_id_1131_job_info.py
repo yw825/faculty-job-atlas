@@ -1,7 +1,18 @@
 """
 Job info scraper for school_id 1131 - Lehigh University (US)
-ATS platform: PageUp
-Careers link: http://careers.pageuppeople.com/865/cw/en-us/listing
+ATS platform: own website
+Careers link: https://facultyjobs.lehigh.edu/faculty
+
+The postings scraper was repointed off the PageUp board (which yielded 51
+links, mostly hr.lehigh.edu policy pages, and 46 info rows titled "Main
+navigation") to the faculty board enumerated by
+facultyjobs.lehigh.edu/sitemap.xml -- see that script for why the sitemap is
+the only level that lists the jobs.
+
+Nothing needed to change here: each posting is a /node/<id> page carrying
+its title in <h1> ("Assistant Professor of Organic Chemistry"), which the
+generic detail fetcher reads correctly, so no per-school override is
+warranted.
 
 Reads posting URLs from school_id_1131_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
