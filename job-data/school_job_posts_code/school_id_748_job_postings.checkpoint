@@ -24,7 +24,7 @@
   ],
   "school_id": 748,
   "status": "error",
-  "updated_at": "2026-10-02T18:58:16+00:00",
+  "updated_at": "2026-10-05T18:41:10+00:00",
   "started_at": "2026-09-08T17:52:31+00:00",
   "completed_at": "2026-09-30T18:25:05+00:00",
   "last_error": "RuntimeError: no paycom postings found"

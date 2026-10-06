@@ -409,6 +409,11 @@
       "title": "Work Study Student - Strategic Communication & Marketing",
       "description": "Posted: 09/28/2026 Location: Columbus State University Department: College Workstudy Pgm-Fed Work Study Student - Strategic Communication & Marketing",
       "department": "College Workstudy Pgm-Fed"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304581&PostingSeq=1&SiteId=30000": {
+      "title": "Part-Time Lecturer of Political Science",
+      "description": "Posted: 10/02/2026 Location: Columbus State University Department: Policy, Justice &Public Safety Part-Time Lecturer of Political Science",
+      "department": "Policy, Justice &Public Safety"
     }
   },
   "rows": {
@@ -1313,11 +1318,22 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304581&PostingSeq=1&SiteId=30000": {
+      "school_id": 288,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304581&PostingSeq=1&SiteId=30000",
+      "job_title_in_post": "Part-Time Lecturer of Political Science",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "Policy, Justice &Public Safety",
+      "area_key_words": "Political Science",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 288,
   "status": "complete",
-  "updated_at": "2026-10-02T23:33:16+00:00",
-  "completed_at": "2026-10-02T23:33:16+00:00",
+  "updated_at": "2026-10-05T22:19:55+00:00",
+  "completed_at": "2026-10-05T22:19:55+00:00",
   "last_error": ""
 }

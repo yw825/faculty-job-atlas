@@ -499,6 +499,11 @@
       "title": "Senior Slate CRM Developer - Information Technology Services (ITS)",
       "description": "Posted: 09/30/2026 Location: Odessa, TX Department: Information Technology Service Senior Slate CRM Developer - Information Technology Services (ITS)",
       "department": "Information Technology Service"
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/UTZ_CG/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16497&PostingSeq=1&SiteId=10": {
+      "title": "Graduate Advisor - College of Business",
+      "description": "Posted: 10/05/2026 Location: Odessa, TX Department: College of Business Graduate Advisor - College of Business",
+      "department": "College of Business"
     }
   },
   "rows": {
@@ -1601,11 +1606,22 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/UTZ_CG/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16497&PostingSeq=1&SiteId=10": {
+      "school_id": 1415,
+      "posting_url": "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/UTZ_CG/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16497&PostingSeq=1&SiteId=10",
+      "job_title_in_post": "Graduate Advisor - College of Business",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "College of Business",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1415,
   "status": "complete",
-  "updated_at": "2026-10-03T04:41:13+00:00",
-  "completed_at": "2026-10-03T04:41:13+00:00",
+  "updated_at": "2026-10-06T01:03:10+00:00",
+  "completed_at": "2026-10-06T01:03:10+00:00",
   "last_error": ""
 }

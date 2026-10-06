@@ -600,6 +600,11 @@
     },
     "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2032": {
       "error": "not present in bulk fetch result"
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2057": {
+      "title": "Visiting Research Professor",
+      "description": "The Murphy Institute’s Center for Ethics (CE) at Tulane University is pleased to announce that applications are now open for the 2027-2028 CE Faculty Fellowship Program. These fellowships are available to support outstanding faculty whose teaching and research focus on ethics; political and social philosophy; moral psychology, agency and responsibility; philosophy of law; political theory; or questions of moral choice in areas such as (but not restricted to) business, government, law, economics, public health and medicine. ",
+      "department": null
     }
   },
   "rows": {
@@ -1899,11 +1904,22 @@
     },
     "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2032": {
       "error": "not present in bulk fetch result"
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2057": {
+      "school_id": 521,
+      "posting_url": "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2057",
+      "job_title_in_post": "Visiting Research Professor",
+      "position_type": "Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Center for Ethics",
+      "area_key_words": "ethics",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 521,
   "status": "complete",
-  "updated_at": "2026-10-03T00:39:28+00:00",
-  "completed_at": "2026-10-03T00:39:28+00:00",
+  "updated_at": "2026-10-05T22:53:11+00:00",
+  "completed_at": "2026-10-05T22:53:11+00:00",
   "last_error": ""
 }

@@ -1,13 +1,1 @@
-{
-  "links": [
-    "https://www.georgetowncollege.edu/about-gc/leadership/faculty-staff/",
-    "https://www.georgetowncollege.edu/academics/resources/career-preparation/",
-    "https://www.georgetowncollege.edu/admissions/admitted-students/pay-your-deposit/"
-  ],
-  "school_id": 491,
-  "status": "error",
-  "updated_at": "2026-10-02T18:10:09+00:00",
-  "started_at": "2026-09-08T01:50:28+00:00",
-  "completed_at": "2026-09-30T17:53:06+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.georgetowncollege.edu/careers-georgetown-college\", waiting until \"domcontentloaded\"\n"
-}
+{"links": ["https://www.georgetowncollege.edu/about-gc/leadership/faculty-staff/", "https://www.georgetowncollege.edu/academics/resources/career-preparation/", "https://www.georgetowncollege.edu/admissions/admitted-students/pay-your-deposit/"], "school_id": 491, "status": "complete", "updated_at": "2026-10-05T18:11:47+00:00", "started_at": "2026-09-08T01:50:28+00:00", "completed_at": "2026-10-05T18:11:47+00:00", "last_error": ""}

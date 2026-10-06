@@ -735,6 +735,26 @@
     "https://usm.csod.com/ux/ats/careersite/1/requisition/5561": {
       "title": "+ Cornerstone OnDemand +",
       "description": "+ Cornerstone OnDemand + Log In Logging in... Username: Password: Remember Username Check this box to save your username for future logins Inherit Login Language Apply login language to application Forgot password? Forgot Username? Single Sign On Click here! Self Registration Click here! Need help logging in? Contact us! © Cornerstone OnDemand. All Rights Reserved. What happened? The Custom login page that you requested is temporarily down for maintenance. What to do? You will be redirected in 10 seconds to a standard login page to access your portal. If you are not automatically redirected, click here ."
+    },
+    "https://usm.csod.com/ux/ats/careersite/1/requisition/5601": {
+      "title": "Welcome - Realize Your Potential: Cornerstone",
+      "description": "Welcome - Realize Your Potential: Cornerstone What happened? The Custom login page that you requested is temporarily down for maintenance. What to do? You will be redirected in 10 seconds to a standard login page to access your portal. If you are not automatically redirected, click here ."
+    },
+    "https://usm.csod.com/ux/ats/careersite/1/requisition/5600": {
+      "title": "+ Cornerstone OnDemand +",
+      "description": "+ Cornerstone OnDemand + Log In Logging in... Username: Password: Remember Username Check this box to save your username for future logins Inherit Login Language Apply login language to application Forgot password? Forgot Username? Single Sign On Click here! Self Registration Click here! Need help logging in? Contact us! © Cornerstone OnDemand. All Rights Reserved. What happened? The Custom login page that you requested is temporarily down for maintenance. What to do? You will be redirected in 10 seconds to a standard login page to access your portal. If you are not automatically redirected, click here ."
+    },
+    "https://usm.csod.com/ux/ats/careersite/1/requisition/5597": {
+      "title": "+ Cornerstone OnDemand +",
+      "description": "+ Cornerstone OnDemand + Log In Logging in... Username: Password: Remember Username Check this box to save your username for future logins Inherit Login Language Apply login language to application Forgot password? Forgot Username? Single Sign On Click here! Self Registration Click here! Need help logging in? Contact us! © Cornerstone OnDemand. All Rights Reserved. What happened? The Custom login page that you requested is temporarily down for maintenance. What to do? You will be redirected in 10 seconds to a standard login page to access your portal. If you are not automatically redirected, click here ."
+    },
+    "https://usm.csod.com/ux/ats/careersite/1/requisition/5594": {
+      "title": "+ Cornerstone OnDemand +",
+      "description": "+ Cornerstone OnDemand + Log In Logging in... Username: Password: Remember Username Check this box to save your username for future logins Inherit Login Language Apply login language to application Forgot password? Forgot Username? Single Sign On Click here! Self Registration Click here! Need help logging in? Contact us! © Cornerstone OnDemand. All Rights Reserved. What happened? The Custom login page that you requested is temporarily down for maintenance. What to do? You will be redirected in 10 seconds to a standard login page to access your portal. If you are not automatically redirected, click here ."
+    },
+    "https://usm.csod.com/ux/ats/careersite/1/requisition/5577": {
+      "title": "+ Cornerstone OnDemand +",
+      "description": "+ Cornerstone OnDemand + Log In Logging in... Username: Password: Remember Username Check this box to save your username for future logins Inherit Login Language Apply login language to application Forgot password? Forgot Username? Single Sign On Click here! Self Registration Click here! Need help logging in? Contact us! © Cornerstone OnDemand. All Rights Reserved. What happened? The Custom login page that you requested is temporarily down for maintenance. What to do? You will be redirected in 10 seconds to a standard login page to access your portal. If you are not automatically redirected, click here ."
     }
   },
   "rows": {
@@ -2761,11 +2781,66 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://usm.csod.com/ux/ats/careersite/1/requisition/5601": {
+      "school_id": 747,
+      "posting_url": "https://usm.csod.com/ux/ats/careersite/1/requisition/5601",
+      "job_title_in_post": "Welcome - Realize Your Potential: Cornerstone",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://usm.csod.com/ux/ats/careersite/1/requisition/5600": {
+      "school_id": 747,
+      "posting_url": "https://usm.csod.com/ux/ats/careersite/1/requisition/5600",
+      "job_title_in_post": "+ Cornerstone OnDemand +",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://usm.csod.com/ux/ats/careersite/1/requisition/5597": {
+      "school_id": 747,
+      "posting_url": "https://usm.csod.com/ux/ats/careersite/1/requisition/5597",
+      "job_title_in_post": "+ Cornerstone OnDemand +",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://usm.csod.com/ux/ats/careersite/1/requisition/5594": {
+      "school_id": 747,
+      "posting_url": "https://usm.csod.com/ux/ats/careersite/1/requisition/5594",
+      "job_title_in_post": "+ Cornerstone OnDemand +",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://usm.csod.com/ux/ats/careersite/1/requisition/5577": {
+      "school_id": 747,
+      "posting_url": "https://usm.csod.com/ux/ats/careersite/1/requisition/5577",
+      "job_title_in_post": "+ Cornerstone OnDemand +",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 747,
   "status": "complete",
-  "updated_at": "2026-10-03T01:56:46+00:00",
-  "completed_at": "2026-10-03T01:56:46+00:00",
+  "updated_at": "2026-10-05T23:35:17+00:00",
+  "completed_at": "2026-10-05T23:35:17+00:00",
   "last_error": ""
 }

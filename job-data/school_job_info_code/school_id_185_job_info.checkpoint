@@ -139,6 +139,11 @@
       "title": "Associate Director of Parent and Family Giving",
       "description": "",
       "department": null
+    },
+    "https://trincore-ibvxjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/102": {
+      "title": "Senior Associate Director of Advancement Informations Systems",
+      "description": "",
+      "department": null
     }
   },
   "rows": {
@@ -449,11 +454,22 @@
       "area_key_words": "Parent and Family Giving",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://trincore-ibvxjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/102": {
+      "school_id": 185,
+      "posting_url": "https://trincore-ibvxjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/102",
+      "job_title_in_post": "Senior Associate Director of Advancement Informations Systems",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Advancement Informations Systems",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 185,
   "status": "complete",
-  "updated_at": "2026-10-02T23:14:48+00:00",
-  "completed_at": "2026-10-02T23:14:48+00:00",
+  "updated_at": "2026-10-05T22:12:41+00:00",
+  "completed_at": "2026-10-05T22:12:41+00:00",
   "last_error": ""
 }

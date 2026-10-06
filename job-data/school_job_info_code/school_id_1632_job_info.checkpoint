@@ -863,6 +863,21 @@
       "title": "Contract Lecturer - Unit 1-DST501 Rethinking Disability (1 section Winter 2027 online)",
       "description": "Posted: 10/01/2026 Location: Toronto, ON Department: FCS, Disability Studies Contract Lecturer - Unit 1-DST501 Rethinking Disability (1 section Winter 2027 online)",
       "department": "FCS, Disability Studies"
+    },
+    "https://careers.torontomu.ca/psc/hrcgprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=398200&PostingSeq=1&SiteId=1": {
+      "title": "Digital Media Specialist",
+      "description": "Posted: 10/05/2026 Location: Toronto, ON Department: Bridging Divides Digital Media Specialist",
+      "department": "Bridging Divides"
+    },
+    "https://careers.torontomu.ca/psc/hrcgprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=398595&PostingSeq=1&SiteId=1": {
+      "title": "Operations Manager, Bridging Divides",
+      "description": "Posted: 10/05/2026 Location: Toronto, ON Department: Bridging Divides Operations Manager, Bridging Divides",
+      "department": "Bridging Divides"
+    },
+    "https://careers.torontomu.ca/psc/hrcgprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=398589&PostingSeq=1&SiteId=1": {
+      "title": "Academic Assistant - NC8201 (Dietetics)",
+      "description": "Posted: 10/04/2026 Location: Toronto, ON Department: FCS, School of Nutrition Academic Assistant - NC8201 (Dietetics)",
+      "department": "FCS, School of Nutrition"
     }
   },
   "rows": {
@@ -2737,11 +2752,44 @@
       "area_key_words": "Contract",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://careers.torontomu.ca/psc/hrcgprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=398200&PostingSeq=1&SiteId=1": {
+      "school_id": 1632,
+      "posting_url": "https://careers.torontomu.ca/psc/hrcgprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=398200&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Digital Media Specialist",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "Bridging Divides",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.torontomu.ca/psc/hrcgprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=398595&PostingSeq=1&SiteId=1": {
+      "school_id": 1632,
+      "posting_url": "https://careers.torontomu.ca/psc/hrcgprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=398595&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Operations Manager, Bridging Divides",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "Bridging Divides",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.torontomu.ca/psc/hrcgprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=398589&PostingSeq=1&SiteId=1": {
+      "school_id": 1632,
+      "posting_url": "https://careers.torontomu.ca/psc/hrcgprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=398589&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Academic Assistant - NC8201 (Dietetics)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "FCS, School of Nutrition",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1632,
   "status": "complete",
-  "updated_at": "2026-10-03T06:03:48+00:00",
-  "completed_at": "2026-10-03T06:03:48+00:00",
+  "updated_at": "2026-10-06T01:57:15+00:00",
+  "completed_at": "2026-10-06T01:57:15+00:00",
   "last_error": ""
 }

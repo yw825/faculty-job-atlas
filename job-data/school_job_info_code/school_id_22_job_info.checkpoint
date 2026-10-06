@@ -139,6 +139,13 @@
     "https://jobs-aum.icims.com/jobs/10421/login": {
       "title": "Login",
       "description": "Login Skip Branding Skip to Main Content Internal\n                                Candidates Returning\n                                Candidate Candidate\n                                        Dashboard Manage Job Alerts Toggle navigation Careers\n                                    Home Apply\n                                    Process Search Jobs Faculty Jobs Staff Jobs Student Jobs Internal\n                                    Candidates Returning Candidate Candidate\n                                            Dashboard Manage Job Alerts Faculty and Staff Resources Privacy Policy Campus Map Public\n                                    Safety/AUM Police Dept admissions@aum.edu 334-244-3000 A University In Motion 2026 All Rights Reserved. Auburn University at\n                        Montgomery. Privacy Policy ."
+    },
+    "https://jobs.aum.edu/aum-careers-home/jobs/8920?lang=en-us": {
+      "title": "AUM Careers Home",
+      "description": "AUM Careers Home Skip to Main Content Internal Candidates Returning Candidate Candidate Dashboard Manage Job Alerts Toggle navigation Careers Home Apply Process Search Jobs Faculty Jobs Staff Jobs Student Jobs Internal Candidates Returning Candidate Candidate Dashboard Manage Job Alerts 404 The page you are looking for no longer exists. We’re sorry, but it looks like this job may be no longer available or does not exist. Please click here to perform a new job search. See jobs by: Categories Locations Faculty and Staff Resources Privacy Policy Campus Map Public Safety/AUM Police Dept admissions@aum.edu 334-244-3000 A University In Motion 2026 All Rights Reserved. Auburn University at Montgomery. Privacy Policy . Cookies are used on this site to assist in continually improving the candidate experience and all the interaction data we store of our visitors is anonymous. Learn more about your rights on our Privacy Policy page. Okay x"
+    },
+    "https://jobs-aum.icims.com/jobs/8920/login": {
+      "error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://jobs-aum.icims.com/jobs/8920/login\", waiting until \"domcontentloaded\"\n"
     }
   },
   "rows": {
@@ -526,11 +533,25 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://jobs.aum.edu/aum-careers-home/jobs/8920?lang=en-us": {
+      "school_id": 22,
+      "posting_url": "https://jobs.aum.edu/aum-careers-home/jobs/8920?lang=en-us",
+      "job_title_in_post": "AUM Careers Home",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://jobs-aum.icims.com/jobs/8920/login": {
+      "error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://jobs-aum.icims.com/jobs/8920/login\", waiting until \"domcontentloaded\"\n"
     }
   },
   "school_id": 22,
   "status": "complete",
-  "updated_at": "2026-10-02T22:32:48+00:00",
-  "completed_at": "2026-10-02T22:32:48+00:00",
+  "updated_at": "2026-10-05T21:58:56+00:00",
+  "completed_at": "2026-10-05T21:58:56+00:00",
   "last_error": ""
 }

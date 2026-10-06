@@ -16,9 +16,9 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/A99CE46A67143A8F77A8C7BDEA7155DA/jobs/565450"
   ],
   "school_id": 497,
-  "status": "error",
-  "updated_at": "2026-10-02T18:10:58+00:00",
+  "status": "complete",
+  "updated_at": "2026-10-05T18:12:18+00:00",
   "started_at": "2026-09-25T06:21:38+00:00",
-  "completed_at": "2026-09-29T17:57:46+00:00",
-  "last_error": "RuntimeError: no paycom postings found"
+  "completed_at": "2026-10-05T18:12:18+00:00",
+  "last_error": ""
 }

@@ -34,6 +34,11 @@
       "title": "Education Assistant (2026-13-36)",
       "description": "CUPE 1393 - Education Assistant \"IV\" in the Schulich School of Medicine & Dentistry - Windsor Program",
       "department": null
+    },
+    "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4270": {
+      "title": "Human Resources Business Partner",
+      "description": "Managerial & Professional - Temporary - Human Resources Business Partner - (2026-MP-19)",
+      "department": null
     }
   },
   "rows": {
@@ -113,11 +118,22 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4270": {
+      "school_id": 1637,
+      "posting_url": "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4270",
+      "job_title_in_post": "Human Resources Business Partner",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1637,
   "status": "complete",
-  "updated_at": "2026-10-03T06:05:38+00:00",
-  "completed_at": "2026-10-03T06:05:38+00:00",
+  "updated_at": "2026-10-06T01:59:11+00:00",
+  "completed_at": "2026-10-06T01:59:11+00:00",
   "last_error": ""
 }

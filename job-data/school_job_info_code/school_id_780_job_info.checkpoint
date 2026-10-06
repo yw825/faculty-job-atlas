@@ -269,6 +269,21 @@
       "title": "Coordinator for Housing Operations",
       "description": "The Coordinator for Housing Operations at Davidson College supports the daily administrative and operational functions of the Residence Life Office (RLO). This position coordinates assigned housing operations processes and serves as a key resource for students, families, faculty, and staff regarding housing-related questions and services. The Coordinator plays a critical role in supporting housing assignments, occupancy processes, room changes, summer housing, billing coordination, hall access, asset inventory, and housing system administration. The position is responsible for maintaining accurate housing data, coordinating assigned functional areas, and ensuring processes are carried out efficiently, consistently, and in accordance with established policies and procedures.\n",
       "department": null
+    },
+    "https://fa-exci-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/1047": {
+      "title": "Senior Stewardship Advisor",
+      "description": "The Senior Stewardship Advisor plays a critical role in strengthening ties between Davidson College and its most generous benefactors. Reporting to the Director of Donor Relations, this position leads the strategy, development, and execution of personalized, high-touch stewardship plans for principal-level donors and prospects.\n\nWorking closely with the Vice President for College Relations, frontline fundraisers, and campus partners, the Senior Stewardship Advisor translates donor generosity into compelling impact narratives, facilitates meaningful connections between donors and campus leadership, and creates bespoke engagement strategies that inspire ongoing philanthropic commitment.",
+      "department": null
+    },
+    "https://fa-exci-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/1052": {
+      "title": "Maintenance Mechanic",
+      "description": "The purpose of this position is to assist the HVAC/ Plumbing  trades in the maintenance & repair of campus buildings, college housing and plant campus buildings, college housing and plant equipment.",
+      "department": null
+    },
+    "https://fa-exci-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/1054": {
+      "title": "Director of Human Resources, Employee Experience",
+      "description": "Davidson College seeks an agile, hands-on, and forward-thinking Director, Employee Experience to serve as a key operational leader and strategic thought partner for internal stakeholders, including constituents, direct reports, and the broader HR Team. This role is built for a seasoned HR leader who thrives both in developing proactive, high-level strategy and working directly \"in the weeds\"—managing modern HR operations, driving digital workflows, and fostering an inclusive, high-performing workplace culture. \n\nLeading a team of three (two HR Generalists and a Front Desk/Operations Coordinator), this position will directly oversee end-to-end employee lifecycles, talent acquisition, employee relations, and offboarding, all key functions in engaging our employees at Davidson College.  The ideal candidate brings proven leadership experience, deep familiarity with modern HR technology, and a track record of elevating employee engagement across a diverse community. ",
+      "department": null
     }
   },
   "rows": {
@@ -865,11 +880,44 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://fa-exci-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/1047": {
+      "school_id": 780,
+      "posting_url": "https://fa-exci-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/1047",
+      "job_title_in_post": "Senior Stewardship Advisor",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-exci-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/1052": {
+      "school_id": 780,
+      "posting_url": "https://fa-exci-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/1052",
+      "job_title_in_post": "Maintenance Mechanic",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-exci-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/1054": {
+      "school_id": 780,
+      "posting_url": "https://fa-exci-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/1054",
+      "job_title_in_post": "Director of Human Resources, Employee Experience",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Human Resources, Employee Experience",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 780,
-  "status": "error",
-  "updated_at": "2026-10-03T02:20:14+00:00",
-  "completed_at": "2026-10-01T01:00:43+00:00",
-  "last_error": "RuntimeError: oracle session capture failed: Timeout 15000ms exceeded while waiting for event \"request\"\n=========================== logs ===========================\nwaiting for request **/recruitingCEJobRequisitions**\n============================================================"
+  "status": "complete",
+  "updated_at": "2026-10-05T23:45:53+00:00",
+  "completed_at": "2026-10-05T23:45:53+00:00",
+  "last_error": ""
 }

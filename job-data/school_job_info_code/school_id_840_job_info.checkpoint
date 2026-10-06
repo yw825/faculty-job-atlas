@@ -334,6 +334,41 @@
       "title": "Assistant Director of Student-Athlete Academic Services",
       "description": "",
       "department": null
+    },
+    "https://hcps.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/533": {
+      "title": "Clinical Research Coordinator",
+      "description": "",
+      "department": null
+    },
+    "https://hcps.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/534": {
+      "title": "GME Program Manager -Infectious Disease/Child Psychiatry",
+      "description": "This Program Manager position will support the Infectious Disease Fellowship and the Child/Adolescent Psychiatry Fellowship.",
+      "department": null
+    },
+    "https://hcps.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/537": {
+      "title": "Coordinator - SPAHP Office of Research",
+      "description": "",
+      "department": null
+    },
+    "https://hcps.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/540": {
+      "title": "Senior Library Specialist",
+      "description": "",
+      "department": null
+    },
+    "https://hcps.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/545": {
+      "title": "EHR Informaticist",
+      "description": "\n",
+      "department": null
+    },
+    "https://hcps.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/556": {
+      "title": "Part-Time Shuttle Driver (Days) – Creighton University (Great for Extra Income)",
+      "description": "Creighton University is seeking dependable, service-oriented, experienced Shuttle Drivers to support campus transportation. \nCDL DRIVERS HIGHLY PREFERRED but not required. \n\nLooking to add part-time drivers for the evening / night schedules.   10 - 30 hrs/week driver schedules available.   Varied schedules available between the hours of 7:00 am - 5:00 pm, Monday- Friday.  Some weekend work may be available for those with CDL's . \n\nThis is more than a driving job—it’s an opportunity to serve a vibrant university community while enjoying flexible, part-time work in a welcoming environment.",
+      "department": null
+    },
+    "https://hcps.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/557": {
+      "title": "Part-Time Shuttle Driver (Evenings/Nights) – Creighton University (Great for Extra Income)",
+      "description": "Creighton University is seeking dependable, service-oriented, experienced Shuttle Drivers to support campus transportation. \nCDL DRIVERS HIGHLY PREFERRED but not required. \n\nLooking to add part-time drivers for the evening / night shifts.   Flexible driving schedules are available, ranging from 10 to 30 hours per week.   Shifts are offered between 3:00 pm and 2:00 a. m., Monday through Friday, as well as weekends.  \n\nThis is more than a driving job—it’s an opportunity to serve a vibrant university community while enjoying flexible, part-time work in a welcoming environment.",
+      "department": null
     }
   },
   "rows": {
@@ -1073,11 +1108,88 @@
       "area_key_words": "Student-Athlete Academic Services",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://hcps.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/533": {
+      "school_id": 840,
+      "posting_url": "https://hcps.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/533",
+      "job_title_in_post": "Clinical Research Coordinator",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://hcps.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/534": {
+      "school_id": 840,
+      "posting_url": "https://hcps.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/534",
+      "job_title_in_post": "GME Program Manager -Infectious Disease/Child Psychiatry",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://hcps.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/537": {
+      "school_id": 840,
+      "posting_url": "https://hcps.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/537",
+      "job_title_in_post": "Coordinator - SPAHP Office of Research",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://hcps.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/540": {
+      "school_id": 840,
+      "posting_url": "https://hcps.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/540",
+      "job_title_in_post": "Senior Library Specialist",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://hcps.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/545": {
+      "school_id": 840,
+      "posting_url": "https://hcps.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/545",
+      "job_title_in_post": "EHR Informaticist",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://hcps.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/556": {
+      "school_id": 840,
+      "posting_url": "https://hcps.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/556",
+      "job_title_in_post": "Part-Time Shuttle Driver (Days) – Creighton University (Great for Extra Income)",
+      "position_type": "Unclassified",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://hcps.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/557": {
+      "school_id": 840,
+      "posting_url": "https://hcps.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/557",
+      "job_title_in_post": "Part-Time Shuttle Driver (Evenings/Nights) – Creighton University (Great for Extra Income)",
+      "position_type": "Unclassified",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 840,
-  "status": "error",
-  "updated_at": "2026-10-03T02:35:27+00:00",
-  "completed_at": "2026-10-01T01:13:45+00:00",
-  "last_error": "RuntimeError: oracle session capture failed: Timeout 15000ms exceeded while waiting for event \"request\"\n=========================== logs ===========================\nwaiting for request **/recruitingCEJobRequisitions**\n============================================================"
+  "status": "complete",
+  "updated_at": "2026-10-06T00:01:35+00:00",
+  "completed_at": "2026-10-06T00:01:35+00:00",
+  "last_error": ""
 }

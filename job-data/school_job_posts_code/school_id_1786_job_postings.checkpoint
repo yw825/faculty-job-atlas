@@ -7,9 +7,9 @@
     "https://candidate.aurion.cloud/acu/production/career/signup?afterAction="
   ],
   "school_id": 1786,
-  "status": "error",
-  "updated_at": "2026-10-02T20:59:23+00:00",
+  "status": "complete",
+  "updated_at": "2026-10-05T20:34:25+00:00",
   "started_at": "2026-09-02T22:33:59+00:00",
-  "completed_at": "2026-09-30T19:40:29+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.acu.edu.au/about-acu/careers-at-acu/how-to-apply/job-vacancies\", waiting until \"domcontentloaded\"\n"
+  "completed_at": "2026-10-05T20:34:25+00:00",
+  "last_error": ""
 }

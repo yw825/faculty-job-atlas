@@ -123,6 +123,14 @@
     "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d0821e1a630182266519e502b6&amp;id=8a7883a8a0abfc6b01a0e9df62473be3&amp;source=&amp;lang=en": {
       "title": "",
       "description": "Sorry, this job is no longer active. You can view our main careers page by clicking here powered by For further details on Bushnell University, please visit our website at https://www.bushnell.edu/careers"
+    },
+    "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d0821e1a630182266519e502b6&amp;id=8a78879ea0f4259701a10cdca04e72cb&amp;source=&amp;lang=en": {
+      "title": "",
+      "description": "Sorry, this job is no longer active. You can view our main careers page by clicking here powered by For further details on Bushnell University, please visit our website at https://www.bushnell.edu/careers"
+    },
+    "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d0821e1a630182266519e502b6&amp;id=8a7887a8a0abfc8001a0ea0e33f85bcb&amp;source=&amp;lang=en": {
+      "title": "",
+      "description": "Sorry, this job is no longer active. You can view our main careers page by clicking here powered by For further details on Bushnell University, please visit our website at https://www.bushnell.edu/careers"
     }
   },
   "rows": {
@@ -466,11 +474,33 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d0821e1a630182266519e502b6&amp;id=8a78879ea0f4259701a10cdca04e72cb&amp;source=&amp;lang=en": {
+      "school_id": 1108,
+      "posting_url": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d0821e1a630182266519e502b6&amp;id=8a78879ea0f4259701a10cdca04e72cb&amp;source=&amp;lang=en",
+      "job_title_in_post": "",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d0821e1a630182266519e502b6&amp;id=8a7887a8a0abfc8001a0ea0e33f85bcb&amp;source=&amp;lang=en": {
+      "school_id": 1108,
+      "posting_url": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d0821e1a630182266519e502b6&amp;id=8a7887a8a0abfc8001a0ea0e33f85bcb&amp;source=&amp;lang=en",
+      "job_title_in_post": "",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1108,
   "status": "complete",
-  "updated_at": "2026-10-03T03:28:06+00:00",
-  "completed_at": "2026-10-03T03:28:06+00:00",
+  "updated_at": "2026-10-06T00:28:58+00:00",
+  "completed_at": "2026-10-06T00:28:58+00:00",
   "last_error": ""
 }

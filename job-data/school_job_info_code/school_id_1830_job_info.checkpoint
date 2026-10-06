@@ -124,6 +124,11 @@
       "title": "Kaituruki Matua | Senior Tutor in Tort Law",
       "description": "Fixed-term, part-time role delivering course content for LAWS212.",
       "department": null
+    },
+    "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010150": {
+      "title": "Pūkenga/Pūkenga Matua | Lecturer/Senior Lecturer in Educational Psychology",
+      "description": "Permanent academic position to advance understanding of learning and human development.",
+      "department": null
     }
   },
   "rows": {
@@ -401,11 +406,22 @@
       "area_key_words": "Tort Law",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010150": {
+      "school_id": 1830,
+      "posting_url": "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010150",
+      "job_title_in_post": "Pūkenga/Pūkenga Matua | Lecturer/Senior Lecturer in Educational Psychology",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Educational Psychology",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1830,
   "status": "complete",
-  "updated_at": "2026-10-03T08:07:58+00:00",
-  "completed_at": "2026-10-03T08:07:58+00:00",
+  "updated_at": "2026-10-06T03:10:57+00:00",
+  "completed_at": "2026-10-06T03:10:57+00:00",
   "last_error": ""
 }

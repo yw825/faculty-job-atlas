@@ -1,15 +1,1 @@
-{
-  "links": [
-    "https://www.sfasu.edu/hr/faculty-staff/faculty-resources",
-    "https://www.sfasu.edu/hr/managers/advertising-filling-positions",
-    "https://www.sfasu.edu/info-for/faculty-staff",
-    "https://orion.sfasu.edu/courseinformation",
-    "https://www.sfasu.edu/directory"
-  ],
-  "school_id": 1414,
-  "status": "error",
-  "updated_at": "2026-10-02T20:31:19+00:00",
-  "started_at": "2026-09-08T03:03:43+00:00",
-  "completed_at": "2026-09-30T19:25:20+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.sfasu.edu/hr\", waiting until \"domcontentloaded\"\n"
-}
+{"links": ["https://www.sfasu.edu/hr/faculty-staff/faculty-resources", "https://www.sfasu.edu/hr/managers/advertising-filling-positions", "https://www.sfasu.edu/info-for/faculty-staff", "https://orion.sfasu.edu/courseinformation", "https://www.sfasu.edu/directory"], "school_id": 1414, "status": "complete", "updated_at": "2026-10-05T19:47:57+00:00", "started_at": "2026-09-08T03:03:43+00:00", "completed_at": "2026-10-05T19:47:57+00:00", "last_error": ""}

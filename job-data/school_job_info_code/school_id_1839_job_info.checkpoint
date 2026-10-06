@@ -405,6 +405,15 @@
     },
     "https://lingnan.csod.com/ux/ats/careersite/4/requisition/3099": {
       "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+    },
+    "https://lingnan.csod.com/ux/ats/careersite/4/requisition/3101": {
+      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+    },
+    "https://lingnan.csod.com/ux/ats/careersite/4/requisition/3102": {
+      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+    },
+    "https://lingnan.csod.com/ux/ats/careersite/4/requisition/3100": {
+      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
     }
   },
   "rows": {
@@ -1198,11 +1207,20 @@
     },
     "https://lingnan.csod.com/ux/ats/careersite/4/requisition/3099": {
       "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+    },
+    "https://lingnan.csod.com/ux/ats/careersite/4/requisition/3101": {
+      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+    },
+    "https://lingnan.csod.com/ux/ats/careersite/4/requisition/3102": {
+      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+    },
+    "https://lingnan.csod.com/ux/ats/careersite/4/requisition/3100": {
+      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
     }
   },
   "school_id": 1839,
   "status": "complete",
-  "updated_at": "2026-10-03T07:32:04+00:00",
-  "completed_at": "2026-10-03T07:32:04+00:00",
+  "updated_at": "2026-10-06T02:18:57+00:00",
+  "completed_at": "2026-10-06T02:18:57+00:00",
   "last_error": ""
 }

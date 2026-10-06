@@ -1664,6 +1664,26 @@
       "title": "Student Assistant - CRI - Southern Adventures Bike Mechanic (Spring 2027)",
       "description": "Posted: 10/02/2026 Location: Statesboro, Georgia Department: RAC Operations Student Assistant - CRI - Southern Adventures Bike Mechanic (Spring 2027)",
       "department": "RAC Operations"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304579&PostingSeq=1&SiteId=39000": {
+      "title": "Assistant Professor Mathematical Sciences",
+      "description": "Posted: 10/05/2026 Location: Statesboro, Georgia Department: Mathematical Science, Dept of Assistant Professor Mathematical Sciences",
+      "department": "Mathematical Science, Dept of"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304546&PostingSeq=1&SiteId=39000": {
+      "title": "Assistant Professor Public History, Historic Preservation, and Museum Studies",
+      "description": "Posted: 10/05/2026 Location: Statesboro, Georgia Department: History, Department of Assistant Professor Public History, Historic Preservation, and Museum Studies",
+      "department": "History, Department of"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304556&PostingSeq=1&SiteId=39000": {
+      "title": "Student Assistant - Alumni Relations - Office Assistant (Fall 2026)",
+      "description": "Posted: 10/05/2026 Location: Statesboro, Georgia Department: Office of Alumni Relations Student Assistant - Alumni Relations - Office Assistant (Fall 2026)",
+      "department": "Office of Alumni Relations"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304534&PostingSeq=1&SiteId=39000": {
+      "title": "Systems Software Developer, Intermediate",
+      "description": "Posted: 10/05/2026 Location: Georgia Southern - Remote Work Department: Development Systems Software Developer, Intermediate",
+      "department": "Development"
     }
   },
   "rows": {
@@ -5329,11 +5349,55 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304579&PostingSeq=1&SiteId=39000": {
+      "school_id": 312,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304579&PostingSeq=1&SiteId=39000",
+      "job_title_in_post": "Assistant Professor Mathematical Sciences",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Mathematical Science, Dept of",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304546&PostingSeq=1&SiteId=39000": {
+      "school_id": 312,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304546&PostingSeq=1&SiteId=39000",
+      "job_title_in_post": "Assistant Professor Public History, Historic Preservation, and Museum Studies",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "History, Department of",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304556&PostingSeq=1&SiteId=39000": {
+      "school_id": 312,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304556&PostingSeq=1&SiteId=39000",
+      "job_title_in_post": "Student Assistant - Alumni Relations - Office Assistant (Fall 2026)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Office of Alumni Relations",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304534&PostingSeq=1&SiteId=39000": {
+      "school_id": 312,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304534&PostingSeq=1&SiteId=39000",
+      "job_title_in_post": "Systems Software Developer, Intermediate",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Development",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 312,
   "status": "complete",
-  "updated_at": "2026-10-02T23:41:12+00:00",
-  "completed_at": "2026-10-02T23:41:12+00:00",
+  "updated_at": "2026-10-05T22:24:09+00:00",
+  "completed_at": "2026-10-05T22:24:09+00:00",
   "last_error": ""
 }

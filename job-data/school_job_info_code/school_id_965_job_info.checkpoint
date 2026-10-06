@@ -203,6 +203,14 @@
     "https://academic.careers.columbia.edu/#all-ranks-instructor-assistant-professor-associate-professor": {
       "title": "All Ranks: Instructor, Assistant Professor, Associate Professor, or Professor at the CUMC",
       "description": "ngIf: item.close_date ngIf: !item.close_date Open until filled end ngIf: !item.close_date · ngIf: item.discipline Neurology end ngRepeat: item in filteredResults  | orderBy:sortKey:true | limitTo : itemLimit : itemLimit * (page -1)"
+    },
+    "https://academic.careers.columbia.edu/#open-rank-assistant-professor-associate-professor-professor": {
+      "title": "Open Rank: Assistant Professor/Associate Professor/Professor of Psychiatry (Computational Psychiatry - Tenure Track)",
+      "description": "ngIf: item.close_date ngIf: !item.close_date Open until filled end ngIf: !item.close_date · ngIf: item.discipline Psychiatry end ngRepeat: item in filteredResults  | orderBy:sortKey:true | limitTo : itemLimit : itemLimit * (page -1)"
+    },
+    "https://academic.careers.columbia.edu/#assistant-professor-associate-professor-of-visual-arts-tenur": {
+      "title": "Assistant Professor/Associate Professor of Visual Arts (tenure-track)",
+      "description": "ngIf: item.close_date ngIf: !item.close_date Open until filled end ngIf: !item.close_date · ngIf: item.discipline School of the Arts end ngRepeat: item in filteredResults  | orderBy:sortKey:true | limitTo : itemLimit : itemLimit * (page -1)"
     }
   },
   "rows": {
@@ -766,11 +774,33 @@
       "area_key_words": "All Ranks",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://academic.careers.columbia.edu/#open-rank-assistant-professor-associate-professor-professor": {
+      "school_id": 965,
+      "posting_url": "https://academic.careers.columbia.edu/#open-rank-assistant-professor-associate-professor-professor",
+      "job_title_in_post": "Open Rank: Assistant Professor/Associate Professor/Professor of Psychiatry (Computational Psychiatry - Tenure Track)",
+      "position_type": "Assistant_Professor; Associate_Professor; Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Psychiatry",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://academic.careers.columbia.edu/#assistant-professor-associate-professor-of-visual-arts-tenur": {
+      "school_id": 965,
+      "posting_url": "https://academic.careers.columbia.edu/#assistant-professor-associate-professor-of-visual-arts-tenur",
+      "job_title_in_post": "Assistant Professor/Associate Professor of Visual Arts (tenure-track)",
+      "position_type": "Assistant_Professor; Associate_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Visual Arts",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 965,
   "status": "complete",
-  "updated_at": "2026-10-03T02:50:18+00:00",
-  "completed_at": "2026-10-03T02:50:18+00:00",
+  "updated_at": "2026-10-06T00:16:23+00:00",
+  "completed_at": "2026-10-06T00:16:23+00:00",
   "last_error": ""
 }

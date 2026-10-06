@@ -71,9 +71,9 @@
     "https://hec.csod.com/ux/ats/careersite/1/requisition/320"
   ],
   "school_id": 1678,
-  "status": "complete",
-  "updated_at": "2026-10-02T21:27:23+00:00",
+  "status": "error",
+  "updated_at": "2026-10-05T21:05:49+00:00",
   "started_at": "2026-09-02T22:23:55+00:00",
   "completed_at": "2026-10-02T21:27:23+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: cornerstone token capture failed: Timeout 15000ms exceeded while waiting for event \"request\"\n=========================== logs ===========================\nwaiting for request **/rec-job-search/external/jobs\n============================================================"
 }

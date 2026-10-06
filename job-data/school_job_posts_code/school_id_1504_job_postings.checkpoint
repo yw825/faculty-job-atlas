@@ -11,9 +11,9 @@
     "https://stmichaels-ibukjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/5"
   ],
   "school_id": 1504,
-  "status": "complete",
-  "updated_at": "2026-10-02T20:43:01+00:00",
+  "status": "error",
+  "updated_at": "2026-10-05T20:12:39+00:00",
   "started_at": "2026-09-25T17:37:23+00:00",
   "completed_at": "2026-10-02T20:43:01+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: oracle session capture failed: Timeout 15000ms exceeded while waiting for event \"request\"\n=========================== logs ===========================\nwaiting for request **/recruitingCEJobRequisitions**\n============================================================"
 }

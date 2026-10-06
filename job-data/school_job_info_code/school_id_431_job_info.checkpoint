@@ -194,6 +194,11 @@
       "title": "Admission Counselor",
       "description": "The admission counselor role promotes and represents the university to prospective students and families and assists them throughout their college search and enrollment process. This position reports to an Associate Director of Admission and is responsible for all aspects of recruiting prospective first year (and transfer) students. This position will support multiple recruitment projects and programs and use a strategic approach to territory management with the guidance and support of the senior admission team. This role serves in a primarily on-campus capacity during the regular work week with flexibility based on required travel and approved work from home options that may include one to two days a week depending on season/workload.",
       "department": null
+    },
+    "https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2222": {
+      "title": "Ticketing Assistant, Athletics (Part-Time)",
+      "description": "This position supports the daily operations and event-day execution of the Athletics Ticket Office by providing high-quality customer service and transactional support to fans, students, and donors. The role is responsible for processing ticket sales, managing venue box office operations during athletic contests and external events, and ensuring precise financial reconciliation. Through reliable shift coverage and fan-focused problem-solving, this position enhances the overall event experience while supporting department revenue goals across all athletic facilities.",
+      "department": null
     }
   },
   "rows": {
@@ -625,11 +630,22 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2222": {
+      "school_id": 431,
+      "posting_url": "https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2222",
+      "job_title_in_post": "Ticketing Assistant, Athletics (Part-Time)",
+      "position_type": "Unclassified",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 431,
-  "status": "error",
-  "updated_at": "2026-10-03T00:18:43+00:00",
-  "completed_at": "2026-10-02T02:11:37+00:00",
-  "last_error": "RuntimeError: oracle session capture failed: Timeout 15000ms exceeded while waiting for event \"request\"\n=========================== logs ===========================\nwaiting for request **/recruitingCEJobRequisitions**\n============================================================"
+  "status": "complete",
+  "updated_at": "2026-10-05T22:37:01+00:00",
+  "completed_at": "2026-10-05T22:37:01+00:00",
+  "last_error": ""
 }

@@ -532,6 +532,12 @@
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/15647": {
       "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+    },
+    "https://usask.csod.com/ux/ats/careersite/14/requisition/15667": {
+      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+    },
+    "https://usask.csod.com/ux/ats/careersite/14/requisition/15661": {
+      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
     }
   },
   "rows": {
@@ -1459,11 +1465,17 @@
     },
     "https://usask.csod.com/ux/ats/careersite/14/requisition/15647": {
       "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+    },
+    "https://usask.csod.com/ux/ats/careersite/14/requisition/15667": {
+      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+    },
+    "https://usask.csod.com/ux/ats/careersite/14/requisition/15661": {
+      "error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
     }
   },
   "school_id": 1656,
   "status": "complete",
-  "updated_at": "2026-10-03T07:03:47+00:00",
-  "completed_at": "2026-10-03T07:03:47+00:00",
+  "updated_at": "2026-10-06T02:02:22+00:00",
+  "completed_at": "2026-10-06T02:02:22+00:00",
   "last_error": ""
 }

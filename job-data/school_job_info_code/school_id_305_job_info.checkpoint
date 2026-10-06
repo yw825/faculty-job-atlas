@@ -444,6 +444,16 @@
       "title": "HVAC Technician I",
       "description": "Posted: 10/01/2026 Location: Georgia College & State Univ Department: Operations & Maintenance HVAC Technician I",
       "department": "Operations & Maintenance"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304438&PostingSeq=1&SiteId=36000": {
+      "title": "Federal Work Study Student - Creative Arts Therapy",
+      "description": "Posted: 10/05/2026 Location: Georgia College & State Univ Department: C W S P Federal Work Study Student - Creative Arts Therapy",
+      "department": "C W S P"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304310&PostingSeq=1&SiteId=36000": {
+      "title": "Skilled Trades Worker",
+      "description": "Posted: 10/02/2026 Location: Georgia College & State Univ Department: Operations & Maintenance Skilled Trades Worker",
+      "department": "Operations & Maintenance"
     }
   },
   "rows": {
@@ -1425,11 +1435,33 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304438&PostingSeq=1&SiteId=36000": {
+      "school_id": 305,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304438&PostingSeq=1&SiteId=36000",
+      "job_title_in_post": "Federal Work Study Student - Creative Arts Therapy",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "C W S P",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304310&PostingSeq=1&SiteId=36000": {
+      "school_id": 305,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304310&PostingSeq=1&SiteId=36000",
+      "job_title_in_post": "Skilled Trades Worker",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Operations & Maintenance",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 305,
   "status": "complete",
-  "updated_at": "2026-10-02T23:39:45+00:00",
-  "completed_at": "2026-10-02T23:39:45+00:00",
+  "updated_at": "2026-10-05T22:23:38+00:00",
+  "completed_at": "2026-10-05T22:23:38+00:00",
   "last_error": ""
 }

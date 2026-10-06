@@ -195,6 +195,14 @@
     "https://jobs.auburn.edu/auburn-careers-home/jobs/10397?lang=en-us": {
       "title": "Assistant Professor, Theatre in Auburn University, AL",
       "description": "Assistant Professor, Theatre in Auburn University, AL | Auburn University Skip to Main Content Internal Candidates Returning Candidate Candidate Dashboard Manage Job Alerts Toggle navigation Jobs Home Apply Process Search Jobs Internal Candidates Returning Candidate Candidate Dashboard Manage Job Alerts Stay Connected Join Our Talent Network Connect with Auburn HR Contact Us Auburn, Alabama 36849 (334) 844-4000 Website Feedback Campus Links Auburn University at Montgomery Alabama Cooperative Extension System Alabama Agricultural Experiment Station Visitors Guide to Campus Resources Campus Safety/Emergency Preparedness Distance and Continuing Education Office of Information Technology Employment Equal Opportunity Compliance Accessibility Privacy Statement A-Z Index Copyright © 2026 Scroll to top Cookies are used on this site to assist in continually improving the candidate experience and all the interaction data we store of our visitors is anonymous. Learn more about your rights on our Privacy Policy page. Okay x"
+    },
+    "https://jobs.auburn.edu/auburn-careers-home/jobs/10126?lang=en-us": {
+      "title": "Curricular Coordinator in Auburn University, AL",
+      "description": "Curricular Coordinator in Auburn University, AL | Auburn University Skip to Main Content Internal Candidates Returning Candidate Candidate Dashboard Manage Job Alerts Toggle navigation Jobs Home Apply Process Search Jobs Internal Candidates Returning Candidate Candidate Dashboard Manage Job Alerts Stay Connected Join Our Talent Network Connect with Auburn HR Contact Us Auburn, Alabama 36849 (334) 844-4000 Website Feedback Campus Links Auburn University at Montgomery Alabama Cooperative Extension System Alabama Agricultural Experiment Station Visitors Guide to Campus Resources Campus Safety/Emergency Preparedness Distance and Continuing Education Office of Information Technology Employment Equal Opportunity Compliance Accessibility Privacy Statement A-Z Index Copyright © 2026 Scroll to top Cookies are used on this site to assist in continually improving the candidate experience and all the interaction data we store of our visitors is anonymous. Learn more about your rights on our Privacy Policy page. Okay x"
+    },
+    "https://jobs.auburn.edu/auburn-careers-home/jobs/9128?lang=en-us": {
+      "title": "Professor, Associate Professor, Assistant Professor in Auburn University, AL",
+      "description": "Professor, Associate Professor, Assistant Professor in Auburn University, AL | Auburn University Skip to Main Content Internal Candidates Returning Candidate Candidate Dashboard Manage Job Alerts Toggle navigation Jobs Home Apply Process Search Jobs Internal Candidates Returning Candidate Candidate Dashboard Manage Job Alerts Stay Connected Join Our Talent Network Connect with Auburn HR Contact Us Auburn, Alabama 36849 (334) 844-4000 Website Feedback Campus Links Auburn University at Montgomery Alabama Cooperative Extension System Alabama Agricultural Experiment Station Visitors Guide to Campus Resources Campus Safety/Emergency Preparedness Distance and Continuing Education Office of Information Technology Employment Equal Opportunity Compliance Accessibility Privacy Statement A-Z Index Copyright © 2026 Scroll to top Cookies are used on this site to assist in continually improving the candidate experience and all the interaction data we store of our visitors is anonymous. Learn more about your rights on our Privacy Policy page. Okay x"
     }
   },
   "rows": {
@@ -736,11 +744,33 @@
       "area_key_words": "Auburn University, AL",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://jobs.auburn.edu/auburn-careers-home/jobs/10126?lang=en-us": {
+      "school_id": 5,
+      "posting_url": "https://jobs.auburn.edu/auburn-careers-home/jobs/10126?lang=en-us",
+      "job_title_in_post": "Curricular Coordinator in Auburn University, AL",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Auburn University, AL",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://jobs.auburn.edu/auburn-careers-home/jobs/9128?lang=en-us": {
+      "school_id": 5,
+      "posting_url": "https://jobs.auburn.edu/auburn-careers-home/jobs/9128?lang=en-us",
+      "job_title_in_post": "Professor, Associate Professor, Assistant Professor in Auburn University, AL",
+      "position_type": "Assistant_Professor; Associate_Professor; Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Auburn University, AL",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 5,
   "status": "complete",
-  "updated_at": "2026-10-02T22:31:19+00:00",
-  "completed_at": "2026-10-02T22:31:19+00:00",
+  "updated_at": "2026-10-05T21:57:42+00:00",
+  "completed_at": "2026-10-05T21:57:42+00:00",
   "last_error": ""
 }

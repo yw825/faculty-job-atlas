@@ -128,6 +128,11 @@
       "title": "Assistant Professors of Library & Information Studies",
       "description": "",
       "department": null
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4455": {
+      "title": "Assistant Professor - Tenure Track (Indigenous Literature)",
+      "description": "",
+      "department": null
     }
   },
   "rows": {
@@ -403,11 +408,22 @@
       "area_key_words": "Library & Information Studies",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4455": {
+      "school_id": 1587,
+      "posting_url": "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4455",
+      "job_title_in_post": "Assistant Professor - Tenure Track (Indigenous Literature)",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1587,
   "status": "complete",
-  "updated_at": "2026-10-03T05:50:39+00:00",
-  "completed_at": "2026-10-03T05:50:39+00:00",
+  "updated_at": "2026-10-06T01:38:20+00:00",
+  "completed_at": "2026-10-06T01:38:20+00:00",
   "last_error": ""
 }
