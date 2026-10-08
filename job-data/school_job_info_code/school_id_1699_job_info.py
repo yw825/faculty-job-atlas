@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1699 - Eötvös Loránd University (Hungary)
 ATS platform: own website
-Careers link: https://www.elte.hu/en/work-opportunities
+Careers link: https://www.elte.hu/allaspalyazatok
 
 No bulk info adapter applies to this school -- fetch_detail(url) below
 visits each posting page individually and is THIS SCHOOL'S OWN detail-page
@@ -39,7 +39,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1699
 SCHOOL_NAME = 'Eötvös Loránd University'
-CAREERS_LINK = 'https://www.elte.hu/en/work-opportunities'
+CAREERS_LINK = 'https://www.elte.hu/allaspalyazatok'
 ATS_PLATFORM = 'own website'
 USE_LLM = False  # set True once you have ANTHROPIC_API_KEY configured
 
@@ -47,8 +47,29 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(HERE, '..', 'school_job_posts_code', f'sc
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 
+_ROWS = None
+
+
 def fetch_detail(url):
-    return jinfo.fetch_detail_generic(url)
+    """CUSTOMIZED: the call PDF opens on a public-service reference line
+    ("KÖZSZOLGÁLLÁS sorszám: ..."), not the post, so the title, unit and
+    dates come from the vacancy table row (with the English rank added) and
+    the PDF supplies the description."""
+    global _ROWS
+    if _ROWS is None:
+        import importlib.util
+        spec = importlib.util.spec_from_file_location(
+            'elte_postings', os.path.join(HERE, '..', 'school_job_posts_code',
+                                          f'school_id_{SCHOOL_ID}_job_postings.py'))
+        postings = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(postings)
+        _ROWS = postings.rows()
+    title, row_text = _ROWS.get(url, ('', ''))
+    import re
+    m = re.search(r'Closing Date: (\d{4})\.(\d{2})\.(\d{2})', row_text)
+    head = f'Closing Date: {m.group(3)}/{m.group(2)}/{m.group(1)} ' if m else ''
+    _pdf_title, text = jinfo.fetch_detail_pdf(url)
+    return title or _pdf_title, head + row_text + ' ' + text
 
 
 def main():

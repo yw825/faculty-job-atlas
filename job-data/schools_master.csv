@@ -1329,7 +1329,7 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes,scrap
 1692,Ludwig Maximilian University of Munich,Germany,https://www.lmu.de/,https://www.lmu.de/en/about-lmu/working-at-lmu/job-portal/academic-staff/,own website,high,hand-verified-sync,generic scraper
 1693,Technical University of Munich,Germany,https://www.tum.de/,https://portal.mytum.de/jobs/professuren,own website,high,hand-verified-sync,generic scraper
 1698,Corvinus University of Budapest,Hungary,https://www.uni-corvinus.hu/,https://www.uni-corvinus.hu/ind/career-opportunities-at-corvinus/career-in-academia/?lang=en,own website,high,hand-verified-sync,generic scraper
-1699,Eötvös Loránd University,Hungary,https://www.elte.hu/,https://www.elte.hu/en/work-opportunities,own website,high,hand-verified-sync,generic scraper
+1699,Eötvös Loránd University,Hungary,https://www.elte.hu/,https://www.elte.hu/allaspalyazatok,own website,high,hand-verified-sync,generic scraper
 1700,Central European University,Hungary,https://www.ceu.edu/,https://careers.ceu.edu/go/Academic-Career-Opportunities/9273755/,own website,high,hand-verified-sync,generic scraper
 1701,University of Iceland,Iceland,https://www.hi.is/,https://english.hi.is/about-ui/working-ui/vacancies,own website,high,hand-verified-sync,generic scraper
 1702,University College Cork,Ireland,https://www.ucc.ie/,https://my.corehr.com/pls/uccrecruit/erq_search_package.search_form?p_company=5023&p_internal_external=E,CoreHR,high,hand-verified-sync,adapter built
