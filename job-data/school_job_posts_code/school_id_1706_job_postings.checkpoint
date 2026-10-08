@@ -1,9 +1,11 @@
 {
-  "links": [],
+  "links": [
+    "https://my.corehr.com/pls/nuigrecruit/erq_jobspec_version_4.jobspec?p_id=011948"
+  ],
   "school_id": 1706,
   "status": "complete",
-  "updated_at": "2026-10-05T21:24:06+00:00",
+  "updated_at": "2026-10-08T18:32:29+00:00",
   "started_at": "2026-10-05T21:24:01+00:00",
-  "completed_at": "2026-10-05T21:24:06+00:00",
+  "completed_at": "2026-10-08T18:32:29+00:00",
   "last_error": ""
 }

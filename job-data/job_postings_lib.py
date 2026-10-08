@@ -1459,6 +1459,100 @@ def scrape_corehr(url):
 
 
 
+_CORE_HR_SPEC_RE = re.compile(r"viewTheJobSpec\('([^']+)'\)")
+_CORE_HR_GENERIC_TEXT = re.compile(r'^(?:job spec|job description|more|apply|details)\b', re.I)
+_CORE_HR_SEARCH_CACHE = {}
+
+
+def corehr_search(search_page_url, competition_type=None, max_pages=50):
+    """[(posting_url, title)] for a CoreHR board, the way a visitor gets them:
+    open the search page, press Search, then follow "Next".
+
+    Search is the callErecruitDoSearch form, POSTed to
+    erq_search_version_4.start_search_with_params. Opening that endpoint
+    directly (a bare GET, which is what the old careers links did) returns no
+    jobs. "Next" is another POST (searchv4navigateresultsforward, carrying
+    p_start_from) that relies on the search held in the session cookie, so
+    one requests.Session is kept for the whole walk. The search page may be
+    the school's own site (University of Galway embeds the form, with an
+    absolute action) or a my.corehr.com search_form URL.
+
+    `competition_type` pins p_competition_type (e.g. 'ACAD' for Galway's
+    "Academic Vacancies" button); otherwise every select is set to
+    ALLOPTIONS, which is what plain "Search" sends.
+
+    Each posting is stored as .../erq_jobspec_version_4.jobspec?p_id=<id>:
+    CoreHR's own share link, a public page that forwards straight to the job.
+    (The display_form URL scrape_corehr builds now answers a GET with 403.)
+    Titles are returned too because some tenants' job pages carry none --
+    Trinity's open on "Role Summary" -- so the info stage takes the title
+    from the results row."""
+    import requests
+    from urllib.parse import urljoin
+
+    key = (search_page_url, competition_type)
+    if key in _CORE_HR_SEARCH_CACHE:
+        return _CORE_HR_SEARCH_CACHE[key]
+
+    session = requests.Session()
+    session.headers.update({'User-Agent': UA, 'Accept-Language': 'en;q=0.9'})
+    page = session.get(search_page_url, timeout=30)
+    if page.status_code != 200:
+        raise RuntimeError(f'corehr search page status={page.status_code}')
+    soup = BeautifulSoup(page.text, 'html.parser')
+    form = soup.find('form', attrs={'name': 'callErecruitDoSearch'})
+    if form is None:
+        raise RuntimeError('corehr: no callErecruitDoSearch form on ' + search_page_url)
+    data = {i['name']: i.get('value') or '' for i in form.find_all('input') if i.get('name')}
+    for sel in form.find_all('select'):
+        if sel.get('name'):
+            options = [o.get('value') for o in sel.find_all('option')]
+            data[sel['name']] = 'ALLOPTIONS' if 'ALLOPTIONS' in options else (options[0] if options else '')
+    if competition_type:
+        data['p_competition_type'] = competition_type
+    action = urljoin(page.url, form['action'])
+    tenant = re.search(r'/pls/([^/]+)/', action)
+    if not tenant:
+        raise RuntimeError('corehr: no tenant in search action ' + action)
+    spec_base = f'https://my.corehr.com/pls/{tenant.group(1)}/erq_jobspec_version_4.jobspec?p_id='
+
+    found, expected = {}, None
+    response = session.post(action, data=data, timeout=30)
+    for _ in range(max_pages):
+        if response.status_code != 200:
+            raise RuntimeError(f'corehr results status={response.status_code}')
+        results = BeautifulSoup(response.text, 'html.parser')
+        text = results.get_text(' ', strip=True)
+        m = re.search(r'Your search returned (\d+) results?', text) or re.search(r'Displaying \d+ to \d+ of (\d+)', text)
+        if m and expected is None:
+            expected = int(m.group(1))
+        fresh = 0
+        for a in results.find_all('a'):
+            hit = _CORE_HR_SPEC_RE.search((a.get('href') or '') + (a.get('onclick') or ''))
+            if not hit:
+                continue
+            label = re.sub(r'\s+', ' ', a.get_text(' ', strip=True))
+            jid = hit.group(1)
+            if jid not in found:
+                found[jid] = ''
+                fresh += 1
+            if label and not found[jid] and not _CORE_HR_GENERIC_TEXT.match(label):
+                found[jid] = label
+        forward = results.find('form', attrs={'name': 'searchv4navigateresultsforward'})
+        has_next = any('searchv4navigateresultsforward' in (a.get('onclick') or '')
+                       for a in results.find_all('a'))
+        if not fresh or forward is None or not has_next:
+            break
+        fdata = {i['name']: i.get('value') or '' for i in forward.find_all('input') if i.get('name')}
+        response = session.post(urljoin(response.url, forward['action']), data=fdata, timeout=30)
+
+    if expected is not None and len(found) < expected:
+        raise RuntimeError(f'corehr: board reports {expected} results but paging reached {len(found)}')
+    out = [(spec_base + jid, title) for jid, title in found.items()]
+    _CORE_HR_SEARCH_CACHE[key] = out
+    return out
+
+
 def _interfolio_board_id(url):
     """The job-board id out of an apply.interfolio.com careers link."""
     m = re.search(r'apply\.interfolio\.com/(\d+)', url)
@@ -1825,6 +1919,114 @@ def scrape_schooljobs(url):
     if not links:
         raise RuntimeError('schooljobs board returned no postings')
     return links
+
+
+def _fetch_rendered_retry(url, wait_ms, tries=3):
+    """fetch_rendered, retried with a longer wait each time: some boards
+    (csucareers.calstate.edu) reload themselves once after a bot check, and
+    reading too early fails with "page is navigating and changing the
+    content"."""
+    html = ''
+    for attempt in range(tries):
+        html = fetch_rendered(url, wait_ms=wait_ms * (attempt + 1) + 4000 * attempt)
+        if html and not is_fetch_failure(html):
+            return html
+    raise RuntimeError(html or f'fetch failed: {url}')
+
+
+def scrape_matching(url, posting_re, render=False, wait_ms=4000):
+    """Links on one page whose absolute URL matches `posting_re`. Static
+    first unless `render`; falls back to a rendered load when the static
+    page fails or matches nothing (JS-built lists, bot walls)."""
+    html = ''
+    if not render:
+        status, html = fetch_static(url, timeout=30)
+        if status != 200:
+            html = ''
+    links = [u for u in extract_links(html, url) if posting_re.search(u)] if html else []
+    if not links:
+        html = _fetch_rendered_retry(url, wait_ms)
+        links = [u for u in extract_links(html, url) if posting_re.search(u)]
+    return links
+
+
+def scrape_paged_board(url, posting_re, max_pages=30, wait_ms=3000):
+    """Every link matching `posting_re` (tested against the absolute URL)
+    across ?page=1..N of a listing. Stops on the first page that adds no new
+    link -- these boards answer past-the-end pages with 200 and recycled or
+    empty content, never an error."""
+    from urllib.parse import urlsplit, urlunsplit, parse_qsl, urlencode
+
+    parts = urlsplit(url)
+    query = [(k, v) for k, v in parse_qsl(parts.query, keep_blank_values=True)
+             if k.lower() != 'page']
+    links, seen = [], set()
+    for page in range(1, max_pages + 1):
+        paged = urlunsplit((parts.scheme, parts.netloc, parts.path,
+                            urlencode(query + [('page', page)], doseq=True), ''))
+        try:
+            html = _fetch_rendered_retry(paged, wait_ms)
+        except RuntimeError:
+            if page == 1:
+                raise
+            break
+        fresh = [u for u in extract_links(html, paged)
+                 if posting_re.search(u) and u not in seen]
+        if not fresh:
+            break
+        for u in fresh:
+            seen.add(u)
+            links.append(u)
+    return links
+
+
+_PAGEUP_JOB_RE = re.compile(r'/[a-z]{2}-[a-z]{2}/job/(\d+)(?:/|$)', re.I)
+
+
+def scrape_pageup(url, wait_ms=4000):
+    """PageUp career sites (every CSU campus board).
+
+    The filtered listing shows 20 postings and a "More Jobs" link; reading
+    only the first page is why San Jose State stored 24 of its 153 faculty
+    postings. The More Jobs href carries the board's own filter in the
+    /search/ form, so it is followed with page-items raised and page walked.
+    Only #search-results is read: the page also holds a hidden "Current
+    opportunities" block that is not bound by the filter."""
+    from urllib.parse import urljoin
+
+    def postings(html, base):
+        soup = BeautifulSoup(html, 'html.parser')
+        scope = soup.select_one('#search-results') or soup
+        out = {}
+        for a in scope.find_all('a', href=True):
+            m = _PAGEUP_JOB_RE.search(a['href'])
+            if m:
+                out.setdefault(m.group(1), urljoin(base, a['href']).split('?')[0])
+        return out, scope
+
+    first = _fetch_rendered_retry(url, wait_ms)
+    if 'id="search-results"' not in first and "id='search-results'" not in first:
+        # a half-loaded page, not an empty board: an empty board still
+        # renders the block, with no rows in it
+        first = _fetch_rendered_retry(url, wait_ms * 3)
+        if 'search-results' not in first:
+            raise RuntimeError('pageup: no #search-results block on ' + url)
+    found, scope = postings(first, url)
+    more = scope.find('a', href=re.compile(r'[?&]page=2\b'))
+    if more:
+        nxt = urljoin(url, more['href'])
+        nxt = re.sub(r'([?&])page-items=\d+', r'\g<1>page-items=100', nxt)
+        if 'page-items=' not in nxt:
+            nxt += '&page-items=100'
+        for page in range(1, 30):
+            paged = re.sub(r'([?&])page=\d+', rf'\g<1>page={page}', nxt)
+            got, _ = postings(_fetch_rendered_retry(paged, wait_ms), paged)
+            fresh = [k for k in got if k not in found]
+            for k in fresh:
+                found[k] = got[k]
+            if not fresh and page > 1:
+                break
+    return list(found.values())
 
 
 PLATFORM_ADAPTERS = {

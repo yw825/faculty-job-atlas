@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 115 - California Institute of Technology (US)
 ATS platform: Taleo
-Careers link: https://phf.tbe.taleo.net/phf03/ats/careers/v2/jobSearch?act=redirectCwsV2&cws=37&org=CALTECH
+Careers link: https://phf.tbe.taleo.net/phf03/ats/careers/v2/searchResults?org=CALTECH&cws=37
 
 Reads posting URLs from school_id_115_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 115
 SCHOOL_NAME = 'California Institute of Technology'
-CAREERS_LINK = 'https://phf.tbe.taleo.net/phf03/ats/careers/v2/jobSearch?act=redirectCwsV2&cws=37&org=CALTECH'
+CAREERS_LINK = 'https://phf.tbe.taleo.net/phf03/ats/careers/v2/searchResults?org=CALTECH&cws=37'
 ATS_PLATFORM = 'Taleo'
 USE_LLM = False
 

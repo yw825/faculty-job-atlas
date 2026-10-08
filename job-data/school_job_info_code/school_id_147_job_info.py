@@ -38,13 +38,19 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """This school's own detail-page logic, owned by this file. The default
-    renders the page, picks the most job-title-shaped heading, and takes the
-    visible text as the description. Override when a posting page needs
-    something else -- a nested iframe, a cookie gate, a PDF, or a title that
-    only exists in <title> (all of which came up in the non-US set)."""
-    return jinfo.fetch_detail_generic(url)
-
+    """CUSTOMIZED: a Westmont opening is one card (#<Salesforce job id>) in
+    the open-positions page's job list. Read with the postings script's own
+    renderer and card parser so both sides agree on what a card is."""
+    import importlib.util
+    spec = importlib.util.spec_from_file_location(
+        'westmont_postings', os.path.join(HERE, '..', 'school_job_posts_code',
+                                          f'school_id_{SCHOOL_ID}_job_postings.py'))
+    postings = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(postings)
+    for card_url, title, description in postings.cards(postings.rendered_page()):
+        if card_url == url:
+            return title, description
+    raise RuntimeError('job card no longer on the page: ' + url)
 
 
 def main():

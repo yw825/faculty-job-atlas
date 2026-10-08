@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 115 - California Institute of Technology (US)
 ATS platform: Taleo (detected: taleo)
-Careers link: https://phf.tbe.taleo.net/phf03/ats/careers/v2/jobSearch?act=redirectCwsV2&cws=37&org=CALTECH
+Careers link: https://phf.tbe.taleo.net/phf03/ats/careers/v2/searchResults?org=CALTECH&cws=37
 
 California Institute of Technology runs on a shared ATS platform -- every school on taleo uses the
 same underlying site software, so this calls the shared
@@ -22,7 +22,7 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 115
 SCHOOL_NAME = 'California Institute of Technology'
-CAREERS_LINK = 'https://phf.tbe.taleo.net/phf03/ats/careers/v2/jobSearch?act=redirectCwsV2&cws=37&org=CALTECH'
+CAREERS_LINK = 'https://phf.tbe.taleo.net/phf03/ats/careers/v2/searchResults?org=CALTECH&cws=37'
 ATS_PLATFORM = 'Taleo'
 PLATFORM = 'taleo'
 

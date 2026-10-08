@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 155 - University of the Pacific (US)
 ATS platform: PeopleAdmin (detected: peopleadmin)
-Careers link: https://pacific.peopleadmin.com/postings/search?utf8=‚úì&query=&query_v0_posted_at_date=&1195%5B%5D=any&query_position_type_id%5B%5D=6&commit=Search
+Careers link: https://pacific.peopleadmin.com/postings/search?utf8=%E2%9C%93&query=&query_v0_posted_at_date=&1195%5B%5D=any&query_position_type_id%5B%5D=6&commit=Search
 
 University of the Pacific runs on a shared ATS platform -- every school on peopleadmin uses the
 same underlying site software, so this calls the shared
@@ -22,7 +22,7 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 155
 SCHOOL_NAME = 'University of the Pacific'
-CAREERS_LINK = 'https://pacific.peopleadmin.com/postings/search?utf8=‚úì&query=&query_v0_posted_at_date=&1195%5B%5D=any&query_position_type_id%5B%5D=6&commit=Search'
+CAREERS_LINK = 'https://pacific.peopleadmin.com/postings/search?utf8=%E2%9C%93&query=&query_v0_posted_at_date=&1195%5B%5D=any&query_position_type_id%5B%5D=6&commit=Search'
 ATS_PLATFORM = 'PeopleAdmin'
 PLATFORM = 'peopleadmin'
 

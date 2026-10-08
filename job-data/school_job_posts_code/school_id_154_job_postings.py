@@ -10,13 +10,12 @@ other school's script.
 
 Link check (review): 2 posting-shaped links found -- rendered few job-shaped links.
 
-Starting point (not a tuned answer): fetch the careers page with JS
-rendered, then keep every link whose href or visible text looks
-job/vacancy/posting-shaped (job_postings_lib.COMMON_JOB_URL_HINTS). If that
-under- or over-collects, narrow the pattern to this site's real posting URL
-shape (the single most common fix -- a generic filter also matches a site's
-own navigation), add a click/scroll step via fetch_rendered's `actions`
-argument, or follow pagination with a second fetch and merge the results.
+TUNED FIND_LINKS
+Openings are listed inside the page's <article> under "Current Openings";
+everything outside it is site navigation, which is what the generic filter
+used to store. On 2026-10-07 the article read "No openings available.", so
+no posting has been seen yet to pin a URL shape -- any link the article
+gains is taken as an opening.
 
 Writes school_job_posts/school_id_154_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_154_job_postings.checkpoint next to this script.
@@ -38,12 +37,18 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkp
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    from bs4 import BeautifulSoup
+    status, html = lib.fetch_static(CAREERS_LINK, timeout=30)
+    if status != 200 or not html:
+        html = lib._fetch_rendered_retry(CAREERS_LINK, 4000)
+    article = BeautifulSoup(html, 'html.parser').select_one('article')
+    if article is None:
+        raise RuntimeError('humphreys: no article on the careers page')
+    if re.search(r'No openings available', article.get_text(' ', strip=True), re.I):
+        return []
+    page = CAREERS_LINK.rstrip('/')
+    return [u for u in lib.extract_links(str(article), CAREERS_LINK)
+            if u.split('#')[0].rstrip('/') != page]
 
 
 def main():

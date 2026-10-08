@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 155 - University of the Pacific (US)
 ATS platform: PeopleAdmin
-Careers link: https://pacific.peopleadmin.com/postings/search?utf8=‚úì&query=&query_v0_posted_at_date=&1195%5B%5D=any&query_position_type_id%5B%5D=6&commit=Search
+Careers link: https://pacific.peopleadmin.com/postings/search?utf8=%E2%9C%93&query=&query_v0_posted_at_date=&1195%5B%5D=any&query_position_type_id%5B%5D=6&commit=Search
 
 Reads posting URLs from school_id_155_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 155
 SCHOOL_NAME = 'University of the Pacific'
-CAREERS_LINK = 'https://pacific.peopleadmin.com/postings/search?utf8=‚úì&query=&query_v0_posted_at_date=&1195%5B%5D=any&query_position_type_id%5B%5D=6&commit=Search'
+CAREERS_LINK = 'https://pacific.peopleadmin.com/postings/search?utf8=%E2%9C%93&query=&query_v0_posted_at_date=&1195%5B%5D=any&query_position_type_id%5B%5D=6&commit=Search'
 ATS_PLATFORM = 'PeopleAdmin'
 USE_LLM = False
 

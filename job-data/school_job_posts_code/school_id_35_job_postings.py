@@ -10,13 +10,10 @@ other school's script.
 
 Link check (ok): 3 posting-shaped links found.
 
-Starting point (not a tuned answer): fetch the careers page with JS
-rendered, then keep every link whose href or visible text looks
-job/vacancy/posting-shaped (job_postings_lib.COMMON_JOB_URL_HINTS). If that
-under- or over-collects, narrow the pattern to this site's real posting URL
-shape (the single most common fix -- a generic filter also matches a site's
-own navigation), add a click/scroll step via fetch_rendered's `actions`
-argument, or follow pagination with a second fetch and merge the results.
+TUNED FIND_LINKS
+Each opening is a PDF ad (/wp-content/uploads/<ad>.pdf) linked from a
+paragraph of the employment article. Other PDFs on the page -- the Clery
+report -- are buttons, not paragraph links, so the selector skips them.
 
 Writes school_job_posts/school_id_35_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_35_job_postings.checkpoint next to this script.
@@ -41,36 +38,18 @@ POSTING_PATTERN = 'ozarks.edu/news/<*>'
 
 
 def find_links():
-    """CUSTOMIZED: postings on this site are the links matching one repeated
-    URL shape, found structurally rather than by keyword and then confirmed
-    by opening two of them and checking they read like job postings
-    (title_role=1 degree=0 furniture=1 len=10265; title_role=0 degree=0 furniture=1 len=10390).
-
-        ozarks.edu/news/<*>
-
-    The generic job-word filter returned 9 link(s) here against 12
-    actually on the page -- this site's posting URLs carry no job word at
-    all, which is why matching on words missed them."""
-    import sys, os
-    sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
     from bs4 import BeautifulSoup
     from urllib.parse import urljoin
-    import deep_probe
-
-    html = lib.fetch_rendered(CAREERS_LINK, wait_ms=5000)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
+    status, html = lib.fetch_static(CAREERS_LINK, timeout=30)
+    if status != 200 or not html:
+        html = lib._fetch_rendered_retry(CAREERS_LINK, 4000)
     soup = BeautifulSoup(html, 'html.parser')
-    out = []
-    for a in soup.find_all('a', href=True):
-        href = a['href'].strip()
-        if not href or href.startswith(('#', 'mailto:', 'javascript:', 'tel:')):
-            continue
-        if deep_probe.templatize(href, CAREERS_LINK) == POSTING_PATTERN:
-            full = urljoin(CAREERS_LINK, href)
-            if full not in out:
-                out.append(full)
-    return out
+    links = []
+    for a in soup.select('article p a[href$=".pdf"]'):
+        url = urljoin(CAREERS_LINK, a['href'])
+        if '/wp-content/uploads/' in url and url not in links:
+            links.append(url)
+    return links
 
 
 def main():

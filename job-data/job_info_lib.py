@@ -1922,6 +1922,89 @@ def fetch_interfolio_bulk(careers_link):
     return out
 
 
+def fetch_detail_interfolio(url):
+    """(title, description) for ONE apply.interfolio.com/<id> posting, for
+    schools that link Interfolio postings from their own page rather than
+    from a whole board. Uses the public single-position API; the posting
+    page itself is an Angular shell the generic reader cannot read."""
+    from bs4 import BeautifulSoup
+
+    m = re.search(r'apply\.interfolio\.com/(\d+)', url)
+    if not m:
+        raise RuntimeError(f'not an Interfolio posting url: {url}')
+    status, body = jlib.fetch_static(
+        f'https://logic.interfolio.com/dossier-api/positions/{m.group(1)}')
+    if status != 200 or not body:
+        raise RuntimeError(f'interfolio position api status={status}')
+    r = json.loads(body)
+    parts = [r.get('landing_page_description') or '', r.get('qualifications') or '',
+             r.get('application_instructions') or '']
+    text = BeautifulSoup(' '.join(parts), 'html.parser').get_text(' ', strip=True)
+    head = [f"Department: {r['institution']}" if r.get('institution') else '',
+            f"Location: {r['location']}" if r.get('location') else '']
+    return (r.get('position_name') or '').strip(), ' '.join(h for h in head + [text] if h)
+
+
+def fetch_detail_corehr(url):
+    """(title, description) for a CoreHR posting stored as
+    .../erq_jobspec_version_4.jobspec?p_id=<id> (see
+    job_postings_lib.corehr_search). That page is a stub whose only content is
+    a hidden form it auto-submits to display_form, so the form is read and
+    POSTed here exactly as the browser would. Title may come back '' --
+    Trinity's job pages have no title element -- in which case the caller
+    takes it from the search results."""
+    import requests
+    from bs4 import BeautifulSoup
+    from urllib.parse import urljoin
+
+    session = requests.Session()
+    session.headers.update({'User-Agent': jlib.UA, 'Accept-Language': 'en;q=0.9'})
+    stub = session.get(url, timeout=30)
+    if stub.status_code != 200:
+        raise RuntimeError(f'corehr jobspec status={stub.status_code}')
+    form = BeautifulSoup(stub.text, 'html.parser').find('form')
+    if form is None:
+        raise RuntimeError('corehr jobspec stub has no form (job withdrawn?)')
+    data = {i['name']: i.get('value') or '' for i in form.find_all('input') if i.get('name')}
+    page = session.post(urljoin(stub.url, form['action']), data=data, timeout=30)
+    if page.status_code != 200:
+        raise RuntimeError(f'corehr display_form status={page.status_code}')
+    soup = BeautifulSoup(page.text, 'html.parser')
+    for tag in soup(['script', 'style']):
+        tag.decompose()
+    cells = soup.find_all('td', class_=re.compile(r'^erq_searchv4_heading'))
+    if not cells:
+        raise RuntimeError('corehr job page has no vacancy details')
+    heading = soup.find('td', class_='erq_searchv4_heading1')
+    title = heading.get_text(' ', strip=True) if heading else ''
+    description = re.sub(r'\s+', ' ', ' '.join(c.get_text(' ', strip=True) for c in cells))
+    # Closing dates come as CoreHR's field ("Close Date : 27-Oct-2026 12:00")
+    # or in the ad's prose ("Closing date: Friday, 9th October 2026", "12:00
+    # noon (local Irish time) on 13 October 2026"). extract_deadline reads
+    # neither, so the first one found is restated up front as dd/mm/yyyy.
+    from datetime import datetime
+    day = None
+    m = re.search(r'Clos\w* Date\s*:\s*(\d{1,2})-([A-Za-z]{3})-(\d{4})', description)
+    if m:
+        try:
+            day = datetime.strptime(' '.join(m.groups()), '%d %b %Y')
+        except ValueError:
+            pass
+    if day is None:
+        m = re.search(r'(?:closing date|deadline)[^;]{0,90}?\b(\d{1,2})(?:st|nd|rd|th)?(?:\s+of)?[\s-]+'
+                      r'([A-Za-z]{3,9})\.?[\s-]+(\d{4})', description, re.I)
+        if m:
+            for fmt in ('%d %B %Y', '%d %b %Y'):
+                try:
+                    day = datetime.strptime(' '.join(m.groups()), fmt)
+                    break
+                except ValueError:
+                    pass
+    if day:
+        description = f'Closing Date: {day:%d/%m/%Y} ' + description
+    return title, description[:20000]
+
+
 def fetch_peoplesoft_bulk(careers_link):
     """{posting_url: (title, description, department)} for a PeopleSoft
     Fluid careers site, read from the search results rows.

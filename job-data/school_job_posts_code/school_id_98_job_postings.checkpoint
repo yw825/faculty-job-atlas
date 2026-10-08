@@ -1,6 +1,15 @@
 {
   "links": [
-    "https://www.calstate.edu/csu-system/faculty-staff",
+    "https://csucareers.calstate.edu/en-us/job/561935/fulltime-lecturer-academic-year-recreation-and-leisure-studies",
+    "https://csucareers.calstate.edu/en-us/job/562592/assistant-professor-school-psychology",
+    "https://csucareers.calstate.edu/en-us/job/562029/associatefull-professor-of-chemistry-with-tenure-the-john-and-elizabeth-leonard-endowed-chair-of-environmental-chemistry-full-professor-rank-will-be-considered-for-exceptional-and-experienced-candidates",
+    "https://csucareers.calstate.edu/en-us/job/561867/assistant-professor-of-dance",
+    "https://csucareers.calstate.edu/en-us/job/561740/assistant-professor-of-earth-science",
+    "https://csucareers.calstate.edu/en-us/job/561750/assistant-professor-of-earth-science",
+    "https://csucareers.calstate.edu/en-us/job/561577/fulltime-lecturer-of-interpreting",
+    "https://csucareers.calstate.edu/en-us/job/561334/assistant-professor-of-translation-studies",
+    "https://csucareers.calstate.edu/en-us/job/561789/assistant-professor-of-biological-sciences-marine-invertebrate-zoologist",
+    "https://csucareers.calstate.edu/en-us/job/561756/assistant-professor-of-biological-sciences-physiologist",
     "https://csucareers.calstate.edu/en-us/job/560248/assistant-professor-of-health-disparitieshealth-psychology",
     "https://csucareers.calstate.edu/en-us/job/559848/assistant-professor-of-nutrition-and-dietetics",
     "https://csucareers.calstate.edu/en-us/job/559702/assistant-professor-of-finance",
@@ -11,22 +20,12 @@
     "https://csucareers.calstate.edu/en-us/job/559855/assistant-professor-of-public-administration",
     "https://csucareers.calstate.edu/en-us/job/559901/assistant-professor-of-mathematics-education",
     "https://csucareers.calstate.edu/en-us/job/559670/assistant-professor-of-strategyorganization-theory-2-open-positions",
-    "https://csucareers.calstate.edu/en-us/job/559681/assistant-professor-of-information-systems-2-open-positions",
-    "https://csucareers.calstate.edu/en-us/job/554173/fulltime-lecturer-associate-director-of-forensics-speech-and-debate",
-    "https://csucareers.calstate.edu/en-us/job/554406/fulltime-lecturer-asld-1-to-3academic-years-appointment-renewable",
-    "https://csucareers.calstate.edu/en-us/job/561789/assistant-professor-of-biological-sciences-marine-invertebrate-zoologist",
-    "https://csucareers.calstate.edu/en-us/job/561756/assistant-professor-of-biological-sciences-physiologist",
-    "https://csucareers.calstate.edu/en-us/job/562029/associatefull-professor-of-chemistry-with-tenure-the-john-and-elizabeth-leonard-endowed-chair-of-environmental-chemistry-full-professor-rank-will-be-considered-for-exceptional-and-experienced-candidates",
-    "https://csucareers.calstate.edu/en-us/job/561867/assistant-professor-of-dance",
-    "https://csucareers.calstate.edu/en-us/job/561740/assistant-professor-of-earth-science",
-    "https://csucareers.calstate.edu/en-us/job/561750/assistant-professor-of-earth-science",
-    "https://csucareers.calstate.edu/en-us/job/561577/fulltime-lecturer-of-interpreting",
-    "https://csucareers.calstate.edu/en-us/job/561334/assistant-professor-of-translation-studies"
+    "https://csucareers.calstate.edu/en-us/job/559681/assistant-professor-of-information-systems-2-open-positions"
   ],
   "school_id": 98,
-  "status": "error",
-  "updated_at": "2026-10-05T17:08:52+00:00",
+  "status": "complete",
+  "updated_at": "2026-10-07T19:43:04+00:00",
   "started_at": "2026-09-08T01:15:53+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content.",
-  "completed_at": "2026-09-24T00:15:27+00:00"
+  "last_error": "",
+  "completed_at": "2026-10-07T19:43:04+00:00"
 }

@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 46 - University of Arkansas at Little Rock (US)
 ATS platform: Workday
-Careers link: https://uasys.wd5.myworkdayjobs.com/UASYS?hiringCompany=720b21cbdf2401e26b5b1759c4019006&locations=17a66cdad982014d322b8c49ca003c4a&timeType=8676082fcc89011e20fa6c2e71495700
+Careers link: https://uasys.wd5.myworkdayjobs.com/UASYS?hiringCompany=720b21cbdf2401e26b5b1759c4019006
 
 Reads posting URLs from school_id_46_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 46
 SCHOOL_NAME = 'University of Arkansas at Little Rock'
-CAREERS_LINK = 'https://uasys.wd5.myworkdayjobs.com/UASYS?hiringCompany=720b21cbdf2401e26b5b1759c4019006&locations=17a66cdad982014d322b8c49ca003c4a&timeType=8676082fcc89011e20fa6c2e71495700'
+CAREERS_LINK = 'https://uasys.wd5.myworkdayjobs.com/UASYS?hiringCompany=720b21cbdf2401e26b5b1759c4019006'
 ATS_PLATFORM = 'Workday'
 USE_LLM = False
 

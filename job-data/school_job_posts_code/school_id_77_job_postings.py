@@ -10,13 +10,10 @@ other school's script.
 
 Link check (ok): 26 posting-shaped links found -- rendered.
 
-Starting point (not a tuned answer): fetch the careers page with JS
-rendered, then keep every link whose href or visible text looks
-job/vacancy/posting-shaped (job_postings_lib.COMMON_JOB_URL_HINTS). If that
-under- or over-collects, narrow the pattern to this site's real posting URL
-shape (the single most common fix -- a generic filter also matches a site's
-own navigation), add a click/scroll step via fetch_rendered's `actions`
-argument, or follow pagination with a second fetch and merge the results.
+TUNED FIND_LINKS
+This is a PageUp board. Postings are <board>/en-us/job/<id>/<slug>, read
+only from the #search-results block; the "More Jobs" pager is followed to
+the end (lib.scrape_pageup), because the first page shows just 20.
 
 Writes school_job_posts/school_id_77_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_77_job_postings.checkpoint next to this script.
@@ -41,9 +38,7 @@ POSTING_PATTERN = 'careers.csudh.edu/en-us/job/<*>/<*>'
 
 
 def find_links():
-    """CUSTOMIZED: postings here carry no job word in the link, so they are
-    found by URL shape instead of by keyword."""
-    return lib.scrape_structural(CAREERS_LINK)
+    return lib.scrape_pageup(CAREERS_LINK)
 
 
 def main():

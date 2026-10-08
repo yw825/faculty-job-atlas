@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 102 - Mount Saint Mary's University (US)
 ATS platform: own website
-Careers link: https://www.msmu.edu/about-the-mount/university-offices/administration--finance/human-resources/employment-opportunities/
+Careers link: https://msmu.interviewexchange.com/static/clients/496MSM1/index.jsp?catid=1245&type=
 
 Reads posting URLs from school_id_102_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 102
 SCHOOL_NAME = 'Mount Saint Mary\'s University'
-CAREERS_LINK = 'https://www.msmu.edu/about-the-mount/university-offices/administration--finance/human-resources/employment-opportunities/'
+CAREERS_LINK = 'https://msmu.interviewexchange.com/static/clients/496MSM1/index.jsp?catid=1245&type='
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

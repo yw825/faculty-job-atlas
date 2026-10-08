@@ -10,13 +10,13 @@ other school's script.
 
 Link check (ok): 11 posting-shaped links found.
 
-Starting point (not a tuned answer): fetch the careers page with JS
-rendered, then keep every link whose href or visible text looks
-job/vacancy/posting-shaped (job_postings_lib.COMMON_JOB_URL_HINTS). If that
-under- or over-collects, narrow the pattern to this site's real posting URL
-shape (the single most common fix -- a generic filter also matches a site's
-own navigation), add a click/scroll step via fetch_rendered's `actions`
-argument, or follow pagination with a second fetch and merge the results.
+TUNED FIND_LINKS
+This is an iCIMS "Jibe" site; the listing page renders 10 at a time, so
+the JSON API behind it (/api/jobs) is read instead. jobs.auburn.edu and
+jobs.aum.edu serve ONE shared Auburn-system feed -- both return the same 76
+faculty jobs -- so the campus is pinned with tags1=AUM (tags1 is "Auburn"
+for the main campus, "AUM" for Montgomery). Postings are stored as
+/aum-careers-home/jobs/<req_id>?lang=en-us, the form already in the checkpoint.
 
 Writes school_job_posts/school_id_22_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_22_job_postings.checkpoint next to this script.
@@ -37,13 +37,30 @@ ATS_PLATFORM = 'own website'
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
+API = 'https://jobs.aum.edu/api/jobs'
+CAMPUS_TAG = 'AUM'
+POSTING_URL = 'https://jobs.aum.edu/aum-careers-home/jobs/{}?lang=en-us'
+
+
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    import json
+    links, page, total = [], 1, None
+    while page <= 30:
+        status, text = lib.fetch_static(
+            f'{API}?tags2=Faculty&tags1={CAMPUS_TAG}&page={page}&limit=50', timeout=30)
+        if status != 200:
+            raise RuntimeError(f'jibe api status={status}')
+        data = json.loads(text)
+        total = data.get('totalCount', 0)
+        jobs = data.get('jobs') or []
+        for j in jobs:
+            req = j.get('data', {}).get('req_id')
+            if req and POSTING_URL.format(req) not in links:
+                links.append(POSTING_URL.format(req))
+        if not jobs or len(links) >= total:
+            break
+        page += 1
+    return links
 
 
 def main():

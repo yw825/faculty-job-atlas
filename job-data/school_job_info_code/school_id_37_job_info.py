@@ -38,13 +38,23 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """This school's own detail-page logic, owned by this file. The default
-    renders the page, picks the most job-title-shaped heading, and takes the
-    visible text as the description. Override when a posting page needs
-    something else -- a nested iframe, a cookie gate, a PDF, or a title that
-    only exists in <title> (all of which came up in the non-US set)."""
-    return jinfo.fetch_detail_generic(url)
-
+    """CUSTOMIZED: a Hendrix posting (jobs.aspx?gnk=job&gni=<id>) shows the
+    job inside a Paycor iframe; the outer page is only navigation. Read the
+    frame with the postings script's own helper."""
+    import importlib.util
+    from bs4 import BeautifulSoup
+    spec = importlib.util.spec_from_file_location(
+        'hendrix_postings', os.path.join(HERE, '..', 'school_job_posts_code',
+                                         f'school_id_{SCHOOL_ID}_job_postings.py'))
+    postings = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(postings)
+    soup = BeautifulSoup(postings.paycor_frame_html(url, ready_selector='#gnewtonCareerBody'), 'html.parser')
+    for tag in soup(['script', 'style']):
+        tag.decompose()
+    body = soup.select_one('#gnewtonCareerBody') or soup
+    text = re.sub(r'\s+', ' ', body.get_text(' ', strip=True))
+    m = re.search(r'Position:\s*(.+?)\s+Location:', text)
+    return (m.group(1) if m else ''), text[:20000]
 
 
 def main():

@@ -1,30 +1,13 @@
 """
 Job info scraper for school_id 1703 - Dublin City University (Ireland)
 ATS platform: CoreHR
-Careers link: https://my.corehr.com/pls/dcurecruit/erq_search_version_4.start_search_with_params
+Careers link: https://my.corehr.com/pls/dcurecruit/erq_search_package.search_form?p_company=1&p_internal_external=E
 
-No bulk info adapter applies to this school -- fetch_detail(url) below
-visits each posting page individually and is THIS SCHOOL'S OWN detail-page
-logic, owned entirely by this file (mirrors how find_links() works in this
-school's job_postings script). Edit it directly if Dublin City University's posting pages
-need something the default doesn't handle (a click to reveal full text, a
-login wall, a non-obvious title element, etc.); nothing here affects any
-other school's script.
-
-Default: render the page, take the first heading (or <title>) as the job
-title and the page's visible text as the description.
-
-Reads posting URLs from school_id_1703_job_postings.checkpoint (this
-school's job_postings run) and classifies each one (position_type,
-job_term, department_or_school, area_key_words, deadline_of_application,
-position_start_date, job_title_in_post). area_key_words combines a
-rule-based primary keyword read off the title's own rank clause (e.g.
-"Assistant Professor in X" -> "X") with supporting keywords -- by default
-scored via local TF-IDF against this school's OTHER postings (no API
-needed); pass use_llm=True below instead if you have ANTHROPIC_API_KEY
-configured, for an LLM read of each description instead (higher quality,
-not validated in the session that wrote this script -- no credentials
-were available there).
+Each posting (.../erq_jobspec_version_4.jobspec?p_id=<id>) is a stub page that
+auto-submits a form to the job's details; jinfo.fetch_detail_corehr submits it
+and reads the vacancy-details cells. Where a job page has no title of its own,
+the title is taken from the search-results row (same search the postings
+script runs, cached for the run).
 
 Writes school_job_info/school_id_1703_job_info.csv. Checkpointed to
 school_id_1703_job_info.checkpoint next to this script -- kill-and-resume,
@@ -39,8 +22,9 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1703
 SCHOOL_NAME = 'Dublin City University'
-CAREERS_LINK = 'https://my.corehr.com/pls/dcurecruit/erq_search_version_4.start_search_with_params'
+CAREERS_LINK = 'https://my.corehr.com/pls/dcurecruit/erq_search_package.search_form?p_company=1&p_internal_external=E'
 ATS_PLATFORM = 'CoreHR'
+COMPETITION_TYPE = None
 USE_LLM = False  # set True once you have ANTHROPIC_API_KEY configured
 
 JOB_POSTINGS_CHECKPOINT = os.path.join(HERE, '..', 'school_job_posts_code', f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
@@ -48,7 +32,10 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint
 
 
 def fetch_detail(url):
-    return jinfo.fetch_detail_generic(url)
+    title, description = jinfo.fetch_detail_corehr(url)
+    if not title:
+        title = dict(jinfo.jlib.corehr_search(CAREERS_LINK, COMPETITION_TYPE)).get(url, '')
+    return title, description
 
 
 def main():

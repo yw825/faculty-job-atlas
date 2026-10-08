@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 32 - Henderson State University (US)
 ATS platform: Taleo (detected: taleo)
-Careers link: https://phe.tbe.taleo.net/phe02/ats/careers/v2/jobSearch?act=redirectCwsV2&cws=48&org=ARKASTAT2
+Careers link: https://phe.tbe.taleo.net/phe02/ats/careers/v2/searchResults?org=ARKASTAT2&cws=48
 
 Henderson State University runs on a shared ATS platform -- every school on taleo uses the
 same underlying site software, so this calls the shared
@@ -22,7 +22,7 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 32
 SCHOOL_NAME = 'Henderson State University'
-CAREERS_LINK = 'https://phe.tbe.taleo.net/phe02/ats/careers/v2/jobSearch?act=redirectCwsV2&cws=48&org=ARKASTAT2'
+CAREERS_LINK = 'https://phe.tbe.taleo.net/phe02/ats/careers/v2/searchResults?org=ARKASTAT2&cws=48'
 ATS_PLATFORM = 'Taleo'
 PLATFORM = 'taleo'
 

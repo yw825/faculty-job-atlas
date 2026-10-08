@@ -25,8 +25,9 @@ That is percent-encoded, so the literal pattern below does not match it; and
 even an unencoded variant would only ever yield the posting URL itself, not
 the twitter one. A looser "contains JobDetail" test would have kept them.
 
-The board does not paginate -- ?page=2 returns the same 25 postings -- so
-there is no page walk here, unlike SKEMA and EDHEC.
+The board shows 25 per page ("1-25 of 32") and ignores ?page=N -- which
+once made it look unpaginated. It pages with &jobOffset=N, so offsets are
+walked in steps of 25 until one adds nothing.
 
 Writes school_job_posts/school_id_162_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_162_job_postings.checkpoint next to this script.
@@ -45,18 +46,28 @@ CAREERS_LINK = ('https://jobs.colorado.edu/jobs/SearchJobs/'
                 '?6110=13216702&6110_format=2267&listFilterMode=1')
 ATS_PLATFORM = 'own website'
 
+MAX_PAGES = 20
+
 POSTING = re.compile(r'https://jobs\.colorado\.edu/jobs/JobDetail/[^"\'?<>\s]+')
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    status, html = lib.fetch_static(CAREERS_LINK, timeout=25)
-    if status != 200 or not html:
-        html = lib.fetch_rendered(CAREERS_LINK)
-        if lib.is_fetch_failure(html):
-            raise RuntimeError(html)
-    links = sorted(set(POSTING.findall(html)))
+    links = []
+    for offset in range(0, 25 * MAX_PAGES, 25):
+        url = f'{CAREERS_LINK}&jobRecordsPerPage=25&jobOffset={offset}'
+        status, html = lib.fetch_static(url, timeout=25)
+        if status != 200 or not html:
+            html = lib.fetch_rendered(url)
+            if lib.is_fetch_failure(html):
+                if offset == 0:
+                    raise RuntimeError(html)
+                break
+        fresh = [u for u in dict.fromkeys(POSTING.findall(html)) if u not in links]
+        if not fresh:
+            break
+        links.extend(fresh)
     if not links:
         raise RuntimeError('cu boulder board listed no JobDetail postings')
     return links

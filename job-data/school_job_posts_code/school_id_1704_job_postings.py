@@ -1,27 +1,24 @@
 """
 Job postings scraper for school_id 1704 - Trinity College Dublin (Ireland)
 ATS platform: CoreHR
-Careers link: https://my.corehr.com/pls/trrecruit/erq_search_version_4.start_search_with_params
+Careers link: https://my.corehr.com/pls/trrecruit/erq_search_package.search_form?p_company=1&p_internal_external=E
 
-No shared ATS platform adapter applies to this school -- find_links() below
-is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
-directly to fix or improve results for Trinity College Dublin; nothing here affects any
-other school's script.
+HOW THIS BOARD IS READ
+The board is CoreHR. Opening its start_search_with_params URL directly shows
+no jobs: a visitor has to open the search page and press "Search", which
+POSTs the callErecruitDoSearch form, then press "Next" for each further page
+of results. lib.corehr_search does exactly that in one session and stores
+each job as CoreHR's own share link, .../erq_jobspec_version_4.jobspec?p_id=<id>,
+which opens that job directly. It refuses a result short of the board's own
+"Your search returned N results" count.
 
-Starting point (not a tuned answer): fetch the careers page rendered (JS
-included), then keep every link whose href or visible text looks
-job/vacancy/posting-shaped (job_postings_lib.COMMON_JOB_URL_HINTS). If this
-under- or over-collects for this school, narrow/widen that pattern, add a
-click/scroll step via fetch_rendered's `actions` argument (see
-job_postings_lib.scrape_taleo for a real example of clicking through a
-search-results page), or follow a department/pagination link with a second
-fetch_rendered/fetch_static call and merge the results.
+Trinity's job pages carry no title element (they open on "Role Summary"), so
+the info script takes each title from the search-results row instead.
 
 Writes school_job_posts/school_id_1704_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1704_job_postings.checkpoint next to this script.
 """
 import os
-import re
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -30,19 +27,15 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1704
 SCHOOL_NAME = 'Trinity College Dublin'
-CAREERS_LINK = 'https://my.corehr.com/pls/trrecruit/erq_search_version_4.start_search_with_params'
+CAREERS_LINK = 'https://my.corehr.com/pls/trrecruit/erq_search_package.search_form?p_company=1&p_internal_external=E'
 ATS_PLATFORM = 'CoreHR'
+COMPETITION_TYPE = None
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                              href_pattern=lib.COMMON_JOB_URL_HINTS,
-                              text_pattern=lib.COMMON_JOB_URL_HINTS)
+    return [url for url, _title in lib.corehr_search(CAREERS_LINK, COMPETITION_TYPE)]
 
 
 def main():

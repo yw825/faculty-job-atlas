@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 46 - University of Arkansas at Little Rock (US)
 ATS platform: Workday (detected: workday)
-Careers link: https://uasys.wd5.myworkdayjobs.com/UASYS?hiringCompany=720b21cbdf2401e26b5b1759c4019006&locations=17a66cdad982014d322b8c49ca003c4a&timeType=8676082fcc89011e20fa6c2e71495700
+Careers link: https://uasys.wd5.myworkdayjobs.com/UASYS?hiringCompany=720b21cbdf2401e26b5b1759c4019006
 
 University of Arkansas at Little Rock runs on a shared ATS platform -- every school on workday uses the
 same underlying site software, so this calls the shared
@@ -22,7 +22,7 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 46
 SCHOOL_NAME = 'University of Arkansas at Little Rock'
-CAREERS_LINK = 'https://uasys.wd5.myworkdayjobs.com/UASYS?hiringCompany=720b21cbdf2401e26b5b1759c4019006&locations=17a66cdad982014d322b8c49ca003c4a&timeType=8676082fcc89011e20fa6c2e71495700'
+CAREERS_LINK = 'https://uasys.wd5.myworkdayjobs.com/UASYS?hiringCompany=720b21cbdf2401e26b5b1759c4019006'
 ATS_PLATFORM = 'Workday'
 PLATFORM = 'workday'
 

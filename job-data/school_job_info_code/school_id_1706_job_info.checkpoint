@@ -1,9 +1,26 @@
 {
-  "raw": {},
-  "rows": {},
+  "raw": {
+    "https://my.corehr.com/pls/nuigrecruit/erq_jobspec_version_4.jobspec?p_id=011948": {
+      "title": "Established Professor",
+      "description": "Closing Date: 22/10/2026 Established Professor of Tumour Immunology, Full time, Permanent Applications are invited for an appointment as Established Professor of Tumour Immunology at University of Galway. This is a permanent, full-time position based in the Discipline of Advanced Therapies, School of Medicine, College of Medicine and Health. The University of Galway is a research-intensive institution with a strong commitment to excellence in teaching and research. The University’s strategic research priorities include Regenerative Medicine and Advanced Therapies, within which this appointment will play a key leadership role. For informal enquiries, please contact Prof. Matthew Griffin, Email: matthew.griffin@universityofgalway.ie Phone: +353 (0)91 495436 Additional information on the School of Medicine is available at: https://www.universityofgalway.ie/medicine-nursing-and-health-sciences/ Information on the University's Strategic Plan is available at: Strategy | Straitéis 2025-30 - University of Galway Salary: €147,198 to €186,094 p.a (applicable to new entrants effective from January, 2011) This appointment will be made on the Established Professor scale in line with current Government pay policy and in accordance with the terms and conditions of the University’s Remuneration policy. QA321-Updated-PP-Remuneration.pdf (universityofgalway.ie) Closing date for receipt of applications is 17:00 (Irish Time) on 22nd October 2026. It will not be possible to consider applications received after the closing date. Garda vetting may apply. Appointments will be conditional on work authorisation validation. Further details are available at Employment permits For more information and Application Form please see website: Jobs - University of Galway Applications should be submitted online. Please see further information on how to apply here: E-Recruit - University of Galway and Guidelines for On-line Applications (universityofgalway.ie) Please note that appointment to posts advertised will be dependent upon University approval, together with the terms of the Employment Control Framework for the higher education sector. At the University of Galway, we celebrate diversity and believe that every candidate can bring unique perspectives, talents and approaches to our University community. We actively encourage applications from all backgrounds regardless of race, religion, ethnicity, gender, family status, civil status, membership of the Traveller community, sexual orientation, disability or age. We value flexibility and recognise that a work-life balance is essential.¿ We offer flexible working arrangements, including hybrid options, to accommodate the diverse needs of our staff. Our commitment to inclusivity extends beyond recruitment as we foster a friendly and supportive work environment, where all work styles are valued and respected. Join us in shaping a workplace that thrives on diversity, creativity and collaboration. University of Galway is an equal opportunities employer."
+    }
+  },
+  "rows": {
+    "https://my.corehr.com/pls/nuigrecruit/erq_jobspec_version_4.jobspec?p_id=011948": {
+      "school_id": 1706,
+      "posting_url": "https://my.corehr.com/pls/nuigrecruit/erq_jobspec_version_4.jobspec?p_id=011948",
+      "job_title_in_post": "Established Professor",
+      "position_type": "Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "School of Medicine, College of Medicine and Health",
+      "area_key_words": "Established",
+      "deadline_of_application": "22/10/2026",
+      "position_start_date": ""
+    }
+  },
   "school_id": 1706,
   "status": "complete",
-  "updated_at": "2026-10-06T02:26:20+00:00",
-  "completed_at": "2026-10-06T02:26:20+00:00",
+  "updated_at": "2026-10-08T18:38:02+00:00",
+  "completed_at": "2026-10-08T18:38:02+00:00",
   "last_error": ""
 }

@@ -1,9 +1,20 @@
 {
-  "links": [],
+  "links": [
+    "https://my.corehr.com/pls/dcurecruit/erq_jobspec_version_4.jobspec?p_id=003497",
+    "https://my.corehr.com/pls/dcurecruit/erq_jobspec_version_4.jobspec?p_id=003496",
+    "https://my.corehr.com/pls/dcurecruit/erq_jobspec_version_4.jobspec?p_id=003503",
+    "https://my.corehr.com/pls/dcurecruit/erq_jobspec_version_4.jobspec?p_id=003465",
+    "https://my.corehr.com/pls/dcurecruit/erq_jobspec_version_4.jobspec?p_id=003495",
+    "https://my.corehr.com/pls/dcurecruit/erq_jobspec_version_4.jobspec?p_id=003499",
+    "https://my.corehr.com/pls/dcurecruit/erq_jobspec_version_4.jobspec?p_id=003502",
+    "https://my.corehr.com/pls/dcurecruit/erq_jobspec_version_4.jobspec?p_id=003500",
+    "https://my.corehr.com/pls/dcurecruit/erq_jobspec_version_4.jobspec?p_id=003501",
+    "https://my.corehr.com/pls/dcurecruit/erq_jobspec_version_4.jobspec?p_id=003498"
+  ],
   "school_id": 1703,
   "status": "complete",
-  "updated_at": "2026-10-05T21:21:45+00:00",
+  "updated_at": "2026-10-08T18:32:17+00:00",
   "started_at": "2026-10-05T21:21:38+00:00",
-  "completed_at": "2026-10-05T21:21:45+00:00",
+  "completed_at": "2026-10-08T18:32:17+00:00",
   "last_error": ""
 }

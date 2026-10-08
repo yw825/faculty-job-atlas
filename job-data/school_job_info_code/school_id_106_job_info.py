@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 106 - University of Southern California (US)
 ATS platform: own website
-Careers link: https://usccareers.usc.edu/search-jobs
+Careers link: https://usccareers.usc.edu/category/faculty-jobs/1728-1209/40020/1
 
 Reads posting URLs from school_id_106_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 106
 SCHOOL_NAME = 'University of Southern California'
-CAREERS_LINK = 'https://usccareers.usc.edu/search-jobs'
+CAREERS_LINK = 'https://usccareers.usc.edu/category/faculty-jobs/1728-1209/40020/1'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

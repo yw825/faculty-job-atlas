@@ -10,13 +10,12 @@ other school's script.
 
 Link check (review): 2 posting-shaped links found -- rendered few job-shaped links.
 
-Starting point (not a tuned answer): fetch the careers page with JS
-rendered, then keep every link whose href or visible text looks
-job/vacancy/posting-shaped (job_postings_lib.COMMON_JOB_URL_HINTS). If that
-under- or over-collects, narrow the pattern to this site's real posting URL
-shape (the single most common fix -- a generic filter also matches a site's
-own navigation), add a click/scroll step via fetch_rendered's `actions`
-argument, or follow pagination with a second fetch and merge the results.
+TUNED FIND_LINKS
+Two kinds of opening: leadership searches announced as pages named
+/the-university-of-west-alabama-seeks-<role>/, and everything else on UWA's
+Interfolio board (tenant 16278), which the page embeds as a widget. The board
+is read through the Interfolio API rather than the rendered widget; both
+returned the same 44 postings on 2026-10-07.
 
 Writes school_job_posts/school_id_15_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_15_job_postings.checkpoint next to this script.
@@ -37,13 +36,19 @@ ATS_PLATFORM = 'own website'
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
+POSTING_RE = re.compile(r'^https://(?:www\.uwa\.edu/the-university-of-west-alabama-seeks-[^/?#]+/?|apply\.interfolio\.com/\d+)$', re.I)
+
+
+SEARCH_PAGE_RE = re.compile(r'^https://www\.uwa\.edu/the-university-of-west-alabama-seeks-[^/?#]+/?$', re.I)
+INTERFOLIO_BOARD = 'https://apply.interfolio.com/16278'
+
+
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    status, html = lib.fetch_static(CAREERS_LINK, timeout=30)
+    if status != 200 or not html:
+        html = lib._fetch_rendered_retry(CAREERS_LINK, 4000)
+    searches = [u for u in lib.extract_links(html, CAREERS_LINK) if SEARCH_PAGE_RE.search(u)]
+    return searches + lib.scrape_interfolio(INTERFOLIO_BOARD)
 
 
 def main():

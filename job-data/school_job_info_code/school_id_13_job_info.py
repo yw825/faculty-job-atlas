@@ -38,13 +38,23 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """This school's own detail-page logic, owned by this file. The default
-    renders the page, picks the most job-title-shaped heading, and takes the
-    visible text as the description. Override when a posting page needs
-    something else -- a nested iframe, a cookie gate, a PDF, or a title that
-    only exists in <title> (all of which came up in the non-US set)."""
-    return jinfo.fetch_detail_generic(url)
-
+    """CUSTOMIZED: every UAH posting is a #section of one page. The postings
+    script's sections() is what minted the #slug, so the same function reads
+    it back -- loaded from there rather than copied, so the two cannot drift."""
+    import importlib.util
+    spec = importlib.util.spec_from_file_location(
+        'uah_postings', os.path.join(HERE, '..', 'school_job_posts_code',
+                                     f'school_id_{SCHOOL_ID}_job_postings.py'))
+    postings = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(postings)
+    page_url, _, slug = url.partition('#')
+    status, html = jinfo.jlib.fetch_static(page_url, timeout=30)
+    if status != 200 or not html:
+        html = jinfo.jlib.fetch_rendered(page_url, wait_ms=5000)
+    for section_url, title, body in postings.sections(html, page_url):
+        if section_url.rsplit('#', 1)[-1] == slug:
+            return title, body
+    raise RuntimeError(f'section #{slug} no longer on page')
 
 
 def main():

@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 42 - University of Arkansas Grantham (US)
 ATS platform: Workday (detected: workday)
-Careers link: https://uasys.wd5.myworkdayjobs.com/UASYS?q=grantham
+Careers link: https://uasys.wd5.myworkdayjobs.com/UASYS?hiringCompany=c41ed0aa0c011014bf1ac061ff760000
 
 University of Arkansas Grantham runs on a shared ATS platform -- every school on workday uses the
 same underlying site software, so this calls the shared
@@ -22,7 +22,7 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 42
 SCHOOL_NAME = 'University of Arkansas Grantham'
-CAREERS_LINK = 'https://uasys.wd5.myworkdayjobs.com/UASYS?q=grantham'
+CAREERS_LINK = 'https://uasys.wd5.myworkdayjobs.com/UASYS?hiringCompany=c41ed0aa0c011014bf1ac061ff760000'
 ATS_PLATFORM = 'Workday'
 PLATFORM = 'workday'
 

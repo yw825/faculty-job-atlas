@@ -38,11 +38,23 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """CUSTOMIZED: AcademicJobsOnline pages title themselves
-    "AcademicJobsOnline.org" in both <title> and <h1>, so the generic
-    reader labels every posting that. The real title is the body's
-    "Position Title:" field."""
-    return jinfo.fetch_detail_academicjobsonline(url)
+    """CUSTOMIZED: each opening is an accordion tab (#<accordion id>) on the
+    faculty-jobs page; read with the postings script's own tab parser. Older
+    AcademicJobsOnline links keep their dedicated reader, because AJO titles
+    every page "AcademicJobsOnline.org" and only its "Position Title:" field
+    carries the real title."""
+    if 'academicjobsonline.org' in url:
+        return jinfo.fetch_detail_academicjobsonline(url)
+    import importlib.util
+    spec = importlib.util.spec_from_file_location(
+        'pomona_postings', os.path.join(HERE, '..', 'school_job_posts_code',
+                                        f'school_id_{SCHOOL_ID}_job_postings.py'))
+    postings = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(postings)
+    for tab_url, title, body in postings.tabs(postings.page_html()):
+        if tab_url == url:
+            return title, body
+    raise RuntimeError('tab no longer on the page: ' + url)
 
 
 def main():

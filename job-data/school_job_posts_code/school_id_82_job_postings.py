@@ -10,13 +10,13 @@ other school's script.
 
 Link check (ok): 8 posting-shaped links found.
 
-Starting point (not a tuned answer): fetch the careers page with JS
-rendered, then keep every link whose href or visible text looks
-job/vacancy/posting-shaped (job_postings_lib.COMMON_JOB_URL_HINTS). If that
-under- or over-collects, narrow the pattern to this site's real posting URL
-shape (the single most common fix -- a generic filter also matches a site's
-own navigation), add a click/scroll step via fetch_rendered's `actions`
-argument, or follow pagination with a second fetch and merge the results.
+TUNED FIND_LINKS
+Openings are accordion tabs on this page, grouped under "Tenure Track
+Positions" and "Temporary Faculty Positions"; clicking a tab opens the full
+ad. Each tab has a stable data-accordion-id, so each opening is stored as
+this page plus #<that id> (e.g. #assistant-professor-of-biology). The apply
+links inside the tabs (AcademicJobsOnline, Workday) are not stored
+separately. tabs() and page_html() are reused by this school's info script.
 
 Writes school_job_posts/school_id_82_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_82_job_postings.checkpoint next to this script.
@@ -37,13 +37,28 @@ ATS_PLATFORM = 'own website'
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
+def tabs(html, base_url=CAREERS_LINK):
+    """[(url#accordion-id, title, body)] -- one per accordion tab."""
+    from bs4 import BeautifulSoup
+    soup = BeautifulSoup(html, 'html.parser')
+    out = []
+    for header in soup.select('.js-accordion__header[data-accordion-id]'):
+        content = header.find_next_sibling('div')
+        body = content.get_text(' ', strip=True) if content else ''
+        out.append((f"{base_url}#{header['data-accordion-id']}",
+                    header.get_text(' ', strip=True), body[:20000]))
+    return out
+
+
+def page_html():
+    status, html = lib.fetch_static(CAREERS_LINK, timeout=30)
+    if status != 200 or not html:
+        html = lib._fetch_rendered_retry(CAREERS_LINK, 4000)
+    return html
+
+
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    return [u for u, _t, _b in tabs(page_html())]
 
 
 def main():

@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 135 - University of San Diego (US)
 ATS platform: own website
-Careers link: https://www.sandiego.edu/outcomes/careers/
+Careers link: https://jobs.sandiego.edu/jobs/search
 
 Reads posting URLs from school_id_135_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 135
 SCHOOL_NAME = 'University of San Diego'
-CAREERS_LINK = 'https://www.sandiego.edu/outcomes/careers/'
+CAREERS_LINK = 'https://jobs.sandiego.edu/jobs/search'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

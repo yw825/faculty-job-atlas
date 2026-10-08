@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 61 - Embry-Riddle Aeronautical University-Prescott (US)
 ATS platform: Workday
-Careers link: https://embryriddle.wd1.myworkdayjobs.com/External?workerSubType=ac0092a9a0de01b90ceaa516fb097e1d
+Careers link: https://embryriddle.wd1.myworkdayjobs.com/External?workerSubType=ac0092a9a0de01b90ceaa516fb097e1d&locations=ac0092a9a0de01a77df34f44000a465d
 
 Reads posting URLs from school_id_61_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 61
 SCHOOL_NAME = 'Embry-Riddle Aeronautical University-Prescott'
-CAREERS_LINK = 'https://embryriddle.wd1.myworkdayjobs.com/External?workerSubType=ac0092a9a0de01b90ceaa516fb097e1d'
+CAREERS_LINK = 'https://embryriddle.wd1.myworkdayjobs.com/External?workerSubType=ac0092a9a0de01b90ceaa516fb097e1d&locations=ac0092a9a0de01a77df34f44000a465d'
 ATS_PLATFORM = 'Workday'
 USE_LLM = False
 
