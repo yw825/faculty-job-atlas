@@ -47,8 +47,38 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(HERE, '..', 'school_job_posts_code', f'sc
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 
+_POSTINGS = None
+
+
 def fetch_detail(url):
-    return jinfo.fetch_detail_generic(url)
+    """CUSTOMIZED: Njoyn job pages sit behind a Radware bot wall that blocks
+    headless browsers, so each page is read in the installed Chrome (the
+    postings script's njoyn_page, which also spaces requests out)."""
+    global _POSTINGS
+    import re
+    from bs4 import BeautifulSoup
+    if _POSTINGS is None:
+        import importlib.util
+        spec = importlib.util.spec_from_file_location(
+            'njoyn_postings', os.path.join(HERE, '..', 'school_job_posts_code',
+                                           f'school_id_{SCHOOL_ID}_job_postings.py'))
+        _POSTINGS = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(_POSTINGS)
+    soup = BeautifulSoup(_POSTINGS.njoyn_page(url), 'html.parser')
+    generic = re.compile(r'(?i)career|job postings?')
+    candidates = []
+    kw = soup.find('meta', attrs={'name': 'keywords'})
+    if kw and kw.get('content'):
+        candidates.append(kw['content'].split(' - ', 2)[-1])  # strip only "<School> - Careers - "
+    og = soup.find('meta', attrs={'property': 'og:title'})
+    if og and og.get('content'):
+        candidates.append(og['content'])
+    candidates += [h.get_text(' ', strip=True) for h in soup.find_all('h1')]
+    title = next((c.strip() for c in candidates if c and c.strip() and not generic.search(c)), '')
+    for tag in soup(['script', 'style', 'nav', 'header', 'footer']):
+        tag.decompose()
+    text = re.sub(r'\s+', ' ', soup.get_text(' ', strip=True))
+    return title[:200], text[:20000]
 
 
 def main():

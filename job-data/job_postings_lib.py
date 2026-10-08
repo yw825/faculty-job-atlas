@@ -77,8 +77,29 @@ def get_browser():
     return _browser
 
 
+_real_chrome = None
+
+
+def get_real_chrome():
+    """The installed Google Chrome, in a visible window, on the shared
+    Playwright session. Some bot walls (Radware, in front of Njoyn) block the
+    bundled headless Chromium -- headless Chrome too -- yet pass a normal
+    Chrome window. Use only where that is proven necessary: it opens a window
+    on screen, and a visible window needs the logged-in GUI session (the
+    launchd job runs in it)."""
+    global _pw, _real_chrome
+    if _real_chrome is None and sync_playwright is not None:
+        if _pw is None:
+            _pw = sync_playwright().start()
+        _real_chrome = _pw.chromium.launch(channel='chrome', headless=False)
+    return _real_chrome
+
+
 def close_browser():
-    global _pw, _browser
+    global _pw, _browser, _real_chrome
+    if _real_chrome:
+        _real_chrome.close()
+        _real_chrome = None
     if _browser:
         _browser.close()
         _browser = None
@@ -188,13 +209,14 @@ def reset_browser():
     processes, forgets the session, and clears the event loop Playwright
     left marked as running (otherwise the next sync_playwright().start()
     refuses with "using Playwright Sync API inside the asyncio loop")."""
-    global _pw, _browser
+    global _pw, _browser, _real_chrome
     for pid in reversed(_descendant_pids(os.getpid())):
         try:
             os.kill(pid, signal.SIGKILL)
         except ProcessLookupError:
             pass
     _browser = None
+    _real_chrome = None
     _pw = None
     asyncio._set_running_loop(None)
     clear_school_deadline()
