@@ -48,7 +48,22 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint
 
 
 def fetch_detail(url):
-    return jinfo.fetch_detail_generic(url)
+    """CUSTOMIZED: most SFU postings are a #section of a faculty page; read
+    it back with the postings script's own section parser. Research-chair
+    postings are whole pages and use the generic reader."""
+    if '#' not in url:
+        return jinfo.fetch_detail_generic(url)
+    import importlib.util
+    spec = importlib.util.spec_from_file_location(
+        'sfu_postings', os.path.join(HERE, '..', 'school_job_posts_code',
+                                     f'school_id_{SCHOOL_ID}_job_postings.py'))
+    postings = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(postings)
+    page_url = url.split('#')[0]
+    for section_url, title, body in postings.toggles(postings.page(page_url), page_url):
+        if section_url == url:
+            return title, body
+    raise RuntimeError('section no longer on the page: ' + url)
 
 
 def main():

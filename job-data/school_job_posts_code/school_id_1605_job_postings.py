@@ -13,6 +13,12 @@ to the parent page. Fetching that iframe URL directly instead finds real
 entry, a generic mailing-list signup rather than a specific opening,
 excluded explicitly.
 
+TUNED FIND_LINKS
+The #job-listings section of the job-postings page is an iframe of the
+JazzHR board, yorkvilleuniversity.applytojob.com/apply/jobs/, which is read
+directly; each opening is .../apply/jobs/details/<id> (stored without the
+trailing "?&").
+
 Writes school_job_posts/school_id_1605_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1605_job_postings.checkpoint next to this script.
 """
@@ -35,23 +41,19 @@ JOB_BOARD_URL = 'https://yorkvilleuniversity.applytojob.com/apply/jobs/'
 DETAILS_RE = re.compile(r'/jobs/details/')
 
 
+POSTING_RE = re.compile(r'^https://yorkvilleuniversity\.applytojob\.com/apply/jobs/details/[A-Za-z0-9]+', re.I)
+
+
+BOARD = 'https://yorkvilleuniversity.applytojob.com/apply/jobs/'
+POSTING_RE = re.compile(r'^https://yorkvilleuniversity\.applytojob\.com/apply/jobs/details/[A-Za-z0-9]+', re.I)
+
+
 def find_links():
-    html = lib.fetch_rendered(JOB_BOARD_URL)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    from bs4 import BeautifulSoup
-    soup = BeautifulSoup(html, 'html.parser')
-    links, seen = [], set()
-    for a in soup.find_all('a', href=True):
-        href = a['href']
-        if not DETAILS_RE.search(href):
-            continue
-        if a.get_text(' ', strip=True) == 'Talent Community':
-            continue
-        full = lib.urljoin(JOB_BOARD_URL, href)
-        if full not in seen:
-            seen.add(full)
-            links.append(full)
+    links = []
+    for url in lib.scrape_matching(BOARD, POSTING_RE):
+        url = POSTING_RE.match(url).group(0)
+        if url not in links:
+            links.append(url)
     return links
 
 

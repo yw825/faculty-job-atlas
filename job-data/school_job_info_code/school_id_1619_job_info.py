@@ -47,8 +47,25 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(HERE, '..', 'school_job_posts_code', f'sc
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 
+_ROWS = None
+
+
 def fetch_detail(url):
-    return jinfo.fetch_detail_generic(url)
+    """CUSTOMIZED: a McMaster posting is a row (#job-<id>) of the PeopleSoft
+    search -- there is no stable detail URL -- so its title and row text come
+    from the postings script's rows(), fetched once per run."""
+    global _ROWS
+    if _ROWS is None:
+        import importlib.util
+        spec = importlib.util.spec_from_file_location(
+            'mcmaster_postings', os.path.join(HERE, '..', 'school_job_posts_code',
+                                              f'school_id_{SCHOOL_ID}_job_postings.py'))
+        postings = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(postings)
+        _ROWS = {u: (t, x) for u, t, x in postings.rows()}
+    if url not in _ROWS:
+        raise RuntimeError('job no longer listed: ' + url)
+    return _ROWS[url]
 
 
 def main():

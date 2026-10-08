@@ -1,9 +1,161 @@
 {
-  "raw": {},
-  "rows": {},
+  "raw": {
+    "https://viprecprod.ad.umanitoba.ca/A#req-50451": {
+      "title": "Assistant or Associate Professor & CRC Tier 2",
+      "description": "Assistant or Associate Professor & CRC Tier 2 | Requisition No: 50451 - Category:  FULL TIME ACADEMICS | Full time -  Permanent | Manitoba | Bannatyne Campus [021] | Oct/06/2026 | Research Associate - Health Data management and Analysis"
+    },
+    "https://viprecprod.ad.umanitoba.ca/A#req-50390": {
+      "title": "Research Associate - Health Data management and Analysis",
+      "description": "Research Associate - Health Data management and Analysis | Requisition No: 50390 - Category:  RESEARCH ACADEMICS | Full time - Temporary | Manitoba | Bannatyne Campus [021] | Oct/02/2026 | Assistant or Associate Professor, Space Systems Design"
+    },
+    "https://viprecprod.ad.umanitoba.ca/A#req-50225": {
+      "title": "Assistant or Associate Professor, Space Systems Design",
+      "description": "Assistant or Associate Professor, Space Systems Design | Requisition No: 50225 - Category:  FULL TIME ACADEMICS | Full time -  Permanent | Manitoba | Fort Garry Campus [011] | Sep/25/2026 | Assistant Professor"
+    },
+    "https://viprecprod.ad.umanitoba.ca/A#req-50239": {
+      "title": "Assistant Professor",
+      "description": "Assistant Professor | Requisition No: 50239 - Category:  FULL TIME ACADEMICS | Full time -  Permanent | Manitoba | Fort Garry Campus [011] | Sep/25/2026 | Assistant Professor"
+    },
+    "https://viprecprod.ad.umanitoba.ca/A#req-50114": {
+      "title": "Assistant Professor",
+      "description": "Assistant Professor | Requisition No: 50114 - Category:  FULL TIME ACADEMICS | Full time - Temporary | Manitoba | Bannatyne Campus [021] | Sep/22/2026 | Section of Cardiology, Cardiac Sciences Program"
+    },
+    "https://viprecprod.ad.umanitoba.ca/A#req-50009": {
+      "title": "Section of Cardiology, Cardiac Sciences Program",
+      "description": "Section of Cardiology, Cardiac Sciences Program | Requisition No: 50009 - Category:  FULL TIME ACADEMICS | Full time - Temporary | Manitoba | Bannatyne Campus [021] | Sep/22/2026 | Assistant Professor, Clinical Psychology"
+    },
+    "https://viprecprod.ad.umanitoba.ca/A#req-50093": {
+      "title": "Assistant Professor, Clinical Psychology",
+      "description": "Assistant Professor, Clinical Psychology | Requisition No: 50093 - Category:  FULL TIME ACADEMICS | Full time -  Permanent | Manitoba | Fort Garry Campus [011] | Sep/21/2026 | Postgraduate Faculty Lead, Academic Curriculum"
+    },
+    "https://viprecprod.ad.umanitoba.ca/A#req-50101": {
+      "title": "Postgraduate Faculty Lead, Academic Curriculum",
+      "description": "Postgraduate Faculty Lead, Academic Curriculum | Requisition No: 50101 - Category:  EXCLUDED SUPPORT STAFF | Part Time - Temporary | Manitoba | Bannatyne Campus [021] | Sep/21/2026 | Asst. Prof. - Environ. & the Law (Can. Impact+ Emerg Leader)"
+    },
+    "https://viprecprod.ad.umanitoba.ca/A#req-49966": {
+      "title": "Asst. Prof. - Environ. & the Law (Can. Impact+ Emerg Leader)",
+      "description": "Asst. Prof. - Environ. & the Law (Can. Impact+ Emerg Leader) | Requisition No: 49966 - Category:  FULL TIME ACADEMICS | Full time -  Permanent | Manitoba | Fort Garry Campus [011] | Sep/17/2026 | Assistant Professor, Computer Engineering"
+    },
+    "https://viprecprod.ad.umanitoba.ca/A#req-50025": {
+      "title": "Assistant Professor, Computer Engineering",
+      "description": "Assistant Professor, Computer Engineering | Requisition No: 50025 - Category:  FULL TIME ACADEMICS | Full time -  Permanent | Manitoba | Fort Garry Campus [011] | Sep/16/2026 | 1 | 2 | 3 | 4 | 5 | Empty | Processing ..."
+    }
+  },
+  "rows": {
+    "https://viprecprod.ad.umanitoba.ca/A#req-50451": {
+      "school_id": 1601,
+      "posting_url": "https://viprecprod.ad.umanitoba.ca/A#req-50451",
+      "job_title_in_post": "Assistant or Associate Professor & CRC Tier 2",
+      "position_type": "Assistant_Professor; Associate_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://viprecprod.ad.umanitoba.ca/A#req-50390": {
+      "school_id": 1601,
+      "posting_url": "https://viprecprod.ad.umanitoba.ca/A#req-50390",
+      "job_title_in_post": "Research Associate - Health Data management and Analysis",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://viprecprod.ad.umanitoba.ca/A#req-50225": {
+      "school_id": 1601,
+      "posting_url": "https://viprecprod.ad.umanitoba.ca/A#req-50225",
+      "job_title_in_post": "Assistant or Associate Professor, Space Systems Design",
+      "position_type": "Assistant_Professor; Associate_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Space Systems Design",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://viprecprod.ad.umanitoba.ca/A#req-50239": {
+      "school_id": 1601,
+      "posting_url": "https://viprecprod.ad.umanitoba.ca/A#req-50239",
+      "job_title_in_post": "Assistant Professor",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://viprecprod.ad.umanitoba.ca/A#req-50114": {
+      "school_id": 1601,
+      "posting_url": "https://viprecprod.ad.umanitoba.ca/A#req-50114",
+      "job_title_in_post": "Assistant Professor",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://viprecprod.ad.umanitoba.ca/A#req-50009": {
+      "school_id": 1601,
+      "posting_url": "https://viprecprod.ad.umanitoba.ca/A#req-50009",
+      "job_title_in_post": "Section of Cardiology, Cardiac Sciences Program",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Cardiology, Cardiac Sciences Program",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://viprecprod.ad.umanitoba.ca/A#req-50093": {
+      "school_id": 1601,
+      "posting_url": "https://viprecprod.ad.umanitoba.ca/A#req-50093",
+      "job_title_in_post": "Assistant Professor, Clinical Psychology",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Clinical Psychology",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://viprecprod.ad.umanitoba.ca/A#req-50101": {
+      "school_id": 1601,
+      "posting_url": "https://viprecprod.ad.umanitoba.ca/A#req-50101",
+      "job_title_in_post": "Postgraduate Faculty Lead, Academic Curriculum",
+      "position_type": "Unclassified",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "Postgraduate",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://viprecprod.ad.umanitoba.ca/A#req-49966": {
+      "school_id": 1601,
+      "posting_url": "https://viprecprod.ad.umanitoba.ca/A#req-49966",
+      "job_title_in_post": "Asst. Prof. - Environ. & the Law (Can. Impact+ Emerg Leader)",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://viprecprod.ad.umanitoba.ca/A#req-50025": {
+      "school_id": 1601,
+      "posting_url": "https://viprecprod.ad.umanitoba.ca/A#req-50025",
+      "job_title_in_post": "Assistant Professor, Computer Engineering",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Computer Engineering",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    }
+  },
   "school_id": 1601,
   "status": "complete",
-  "updated_at": "2026-10-06T01:40:28+00:00",
-  "completed_at": "2026-10-06T01:40:28+00:00",
+  "updated_at": "2026-10-08T20:14:26+00:00",
+  "completed_at": "2026-10-08T20:14:26+00:00",
   "last_error": ""
 }

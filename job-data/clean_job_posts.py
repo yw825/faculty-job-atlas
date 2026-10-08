@@ -300,6 +300,20 @@ def clean_school(path_csv, careers_root=None):
     return kept, dropped
 
 
+def is_tuned(sid):
+    """A school whose postings script matches its board's exact posting URL
+    shape (marked "TUNED FIND_LINKS" in its docstring) already emits only
+    postings. The shape inference here then only does harm: it dropped
+    Polytechnique Montreal's professor ads, Algoma's Google Drive faculty ad
+    and a Concordia JMSB ad as "outside this school's posting path"."""
+    path = os.path.join(POSTS_CODE, f'school_id_{sid}_job_postings.py')
+    try:
+        with open(path, encoding='utf-8') as f:
+            return 'TUNED FIND_LINKS' in f.read(4000)
+    except OSError:
+        return False
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--dry-run', action='store_true')
@@ -324,6 +338,8 @@ def main():
     touched = 0
     for path_csv in files:
         sid = os.path.basename(path_csv).split('_')[2]
+        if is_tuned(sid):
+            continue
         kept, dropped = clean_school(path_csv, careers.get(sid))
         before = len(kept) + len(dropped)
         total_before += before

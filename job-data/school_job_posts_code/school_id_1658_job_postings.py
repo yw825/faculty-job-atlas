@@ -8,14 +8,12 @@ is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
 directly to fix or improve results for TU Wien; nothing here affects any
 other school's script.
 
-Starting point (not a tuned answer): fetch the careers page rendered (JS
-included), then keep every link whose href or visible text looks
-job/vacancy/posting-shaped (job_postings_lib.COMMON_JOB_URL_HINTS). If this
-under- or over-collects for this school, narrow/widen that pattern, add a
-click/scroll step via fetch_rendered's `actions` argument (see
-job_postings_lib.scrape_taleo for a real example of clicking through a
-search-results page), or follow a department/pagination link with a second
-fetch_rendered/fetch_static call and merge the results.
+TUNED FIND_LINKS
+Each opening is jobs.tuwien.ac.at/Job/<id>; the list is built
+client-side, so pages are rendered. The professor-profile filter in this
+link was empty on 2026-10-08 (per the audit note) while academic posts --
+the example is a PraeDoc university assistant -- sit under the
+scientific-staff profiles, so both filters are read.
 
 Writes school_job_posts/school_id_1658_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1658_job_postings.checkpoint next to this script.
@@ -36,13 +34,22 @@ ATS_PLATFORM = 'own website'
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
+POSTING_RE = re.compile(r'^https://jobs\.tuwien\.ac\.at/Job/\d+$', re.I)
+# The professor profiles (this link) are usually empty; academic hiring is
+# mostly under the scientific-staff profiles (PraeDoc/PostDoc assistants,
+# Senior Lecturer/Scientist, doctoral college), which are read as well.
+SCIENTIFIC_STAFF = ('https://jobs.tuwien.ac.at/jobs?jobProfiles=Doktoratskolleg|Senior%20Lecturer|'
+                    'Senior%20Scientist|Universit%C3%A4tsassistent_in%20PraeDoc|'
+                    'Universit%C3%A4tsassistent_in%20PostDoc')
+
+
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                              href_pattern=lib.COMMON_JOB_URL_HINTS,
-                              text_pattern=lib.COMMON_JOB_URL_HINTS)
+    links = []
+    for listing in (CAREERS_LINK, SCIENTIFIC_STAFF):
+        for url in lib.scrape_matching(listing, POSTING_RE, render=True):
+            if url not in links:
+                links.append(url)
+    return links
 
 
 def main():

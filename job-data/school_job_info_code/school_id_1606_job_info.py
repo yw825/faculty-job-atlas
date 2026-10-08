@@ -48,7 +48,16 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint
 
 
 def fetch_detail(url):
-    return jinfo.fetch_detail_generic(url)
+    """CUSTOMIZED: crandallu.ca answers 403 to the shared library's dated
+    "Chrome/120" user agent, so a current one is swapped in for this one
+    request only (restored after, since other schools share the module)."""
+    saved = jinfo.jlib.UA
+    jinfo.jlib.UA = ('Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 '
+                     '(KHTML, like Gecko) Chrome/128.0 Safari/537.36')
+    try:
+        return jinfo.fetch_detail_generic(url)
+    finally:
+        jinfo.jlib.UA = saved
 
 
 def main():

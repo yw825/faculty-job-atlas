@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 1634 - York University (Canada)
 ATS platform: own website
-Careers link: https://www.yorku.ca/vpepc/faculty-affairs/faculty-positions/
+Careers link: https://www.yorku.ca/unit/vpf/full-time-faculty-positions/
 
 CUSTOMIZED (confirmed live): postings are listed inside a "All Available
 Faculty Positions" accordion, one section per faculty/school. The links are
@@ -19,6 +19,10 @@ scoped to just the accordion's own content area instead: every link inside
 a kt-accordion-panel-inner block, excluding the ">>Visit the X website"
 per-faculty nav links that live in the same panels.
 
+TUNED FIND_LINKS
+Each opening is a PDF ad under /unit/vpf/wp-content/uploads/, linked from
+the full-time faculty positions page.
+
 Writes school_job_posts/school_id_1634_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1634_job_postings.checkpoint next to this script.
 """
@@ -32,29 +36,17 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1634
 SCHOOL_NAME = 'York University'
-CAREERS_LINK = 'https://www.yorku.ca/vpepc/faculty-affairs/faculty-positions/'
+CAREERS_LINK = 'https://www.yorku.ca/unit/vpf/full-time-faculty-positions/'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
+POSTING_RE = re.compile(r'^https://www\.yorku\.ca/unit/vpf/wp-content/uploads/[^?#]+\.pdf$', re.I)
+
+
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    from bs4 import BeautifulSoup
-    soup = BeautifulSoup(html, 'html.parser')
-    links, seen = [], set()
-    for panel in soup.find_all(class_='kt-accordion-panel-inner'):
-        for a in panel.find_all('a', href=True):
-            text = a.get_text(' ', strip=True)
-            if text.startswith('>>'):
-                continue  # "Visit the X website" -- a faculty homepage link, not a posting
-            full = lib.urljoin(CAREERS_LINK, a['href'])
-            if full not in seen:
-                seen.add(full)
-                links.append(full)
-    return links
+    return lib.scrape_matching(CAREERS_LINK, POSTING_RE)
 
 
 def main():

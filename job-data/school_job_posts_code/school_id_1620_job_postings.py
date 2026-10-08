@@ -8,14 +8,12 @@ is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
 directly to fix or improve results for Queen's University; nothing here affects any
 other school's script.
 
-Starting point (not a tuned answer): fetch the careers page rendered (JS
-included), then keep every link whose href or visible text looks
-job/vacancy/posting-shaped (job_postings_lib.COMMON_JOB_URL_HINTS). If this
-under- or over-collects for this school, narrow/widen that pattern, add a
-click/scroll step via fetch_rendered's `actions` argument (see
-job_postings_lib.scrape_taleo for a real example of clicking through a
-search-results page), or follow a department/pagination link with a second
-fetch_rendered/fetch_static call and merge the results.
+TUNED FIND_LINKS
+The page is grouped by faculty; each faculty has a collapsible
+"Tenure-track positions" button whose panel (aria-controls ->
+card-body-<id>) links that faculty's postings -- department pages, PDF ads,
+the occasional SharePoint file. Every link in those panels is a posting;
+the sibling "Links to other academic positions" panels are not read.
 
 Writes school_job_posts/school_id_1620_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1620_job_postings.checkpoint next to this script.
@@ -37,12 +35,22 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkp
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                              href_pattern=lib.COMMON_JOB_URL_HINTS,
-                              text_pattern=lib.COMMON_JOB_URL_HINTS)
+    from bs4 import BeautifulSoup
+    from urllib.parse import urljoin
+    status, html = lib.fetch_static(CAREERS_LINK, timeout=30)
+    if status != 200 or not html:
+        html = lib._fetch_rendered_retry(CAREERS_LINK, 4000)
+    soup = BeautifulSoup(html, 'html.parser')
+    links = []
+    for button in soup.select('button[aria-controls]'):
+        if 'tenure-track positions' not in button.get_text(' ', strip=True).lower():
+            continue
+        panel = soup.find(id=button['aria-controls'])
+        for a in (panel.find_all('a', href=True) if panel else []):
+            url = urljoin(CAREERS_LINK, a['href'].strip())
+            if url.startswith('http') and url not in links:
+                links.append(url)
+    return links
 
 
 def main():

@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1646 - École des Hautes Études Commerciales (HEC Montréal) (Canada)
 ATS platform: Taleo
-Careers link: https://tre.tbe.taleo.net/tre01/ats/careers/v2/jobSearch?act=redirectCwsV2&cws=42&org=NYQEDG
+Careers link: https://tre.tbe.taleo.net/tre01/ats/careers/v2/searchResults?org=NYQEDG&cws=43
 
 No bulk info adapter applies to this school -- fetch_detail(url) below
 visits each posting page individually and is THIS SCHOOL'S OWN detail-page
@@ -39,7 +39,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1646
 SCHOOL_NAME = 'École des Hautes Études Commerciales (HEC Montréal)'
-CAREERS_LINK = 'https://tre.tbe.taleo.net/tre01/ats/careers/v2/jobSearch?act=redirectCwsV2&cws=42&org=NYQEDG'
+CAREERS_LINK = 'https://tre.tbe.taleo.net/tre01/ats/careers/v2/searchResults?org=NYQEDG&cws=43'
 ATS_PLATFORM = 'Taleo'
 USE_LLM = False  # set True once you have ANTHROPIC_API_KEY configured
 

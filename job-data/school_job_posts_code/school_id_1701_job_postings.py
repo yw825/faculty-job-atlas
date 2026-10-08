@@ -8,14 +8,11 @@ is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
 directly to fix or improve results for University of Iceland; nothing here affects any
 other school's script.
 
-Starting point (not a tuned answer): fetch the careers page rendered (JS
-included), then keep every link whose href or visible text looks
-job/vacancy/posting-shaped (job_postings_lib.COMMON_JOB_URL_HINTS). If this
-under- or over-collects for this school, narrow/widen that pattern, add a
-click/scroll step via fetch_rendered's `actions` argument (see
-job_postings_lib.scrape_taleo for a real example of clicking through a
-search-results page), or follow a department/pagination link with a second
-fetch_rendered/fetch_static call and merge the results.
+TUNED FIND_LINKS
+Openings are written INLINE: each vacancy is a div whose id is a slug of
+its title, holding the title and a "Further information" accordion with
+the full ad. Each is stored as this page plus #<that id>; vacancies() is
+reused by the info script to read one back.
 
 Writes school_job_posts/school_id_1701_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1701_job_postings.checkpoint next to this script.
@@ -36,13 +33,33 @@ ATS_PLATFORM = 'own website'
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
+def vacancies(html, base_url=CAREERS_LINK):
+    """[(page#id, title, text)] -- each vacancy is a div with its own id
+    (a slug of the title) inside the vacancies section."""
+    from bs4 import BeautifulSoup
+    soup = BeautifulSoup(html, 'html.parser')
+    out = []
+    for section in soup.select('qz-section.paragraph--vacancies'):
+        for item in section.find_all('div', id=True):
+            heading = item.find(['h2', 'h3'])
+            title = heading.get_text(' ', strip=True) if heading else ''
+            text = item.get_text(' ', strip=True)
+            if title and title.lower() != 'further information' and len(text) > 300:
+                url = f"{base_url}#{item['id']}"
+                if url not in [u for u, _t, _x in out]:
+                    out.append((url, title, re.sub(r'\s+', ' ', text)[:20000]))
+    return out
+
+
+def page_html():
+    status, html = lib.fetch_static(CAREERS_LINK, timeout=30)
+    if status != 200 or 'paragraph--vacancies' not in (html or ''):
+        html = lib._fetch_rendered_retry(CAREERS_LINK, 5000)
+    return html
+
+
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                              href_pattern=lib.COMMON_JOB_URL_HINTS,
-                              text_pattern=lib.COMMON_JOB_URL_HINTS)
+    return [u for u, _t, _x in vacancies(page_html())]
 
 
 def main():

@@ -110,15 +110,6 @@
       "description": "",
       "department": null
     },
-    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4394": {
-      "error": "not present in bulk fetch result"
-    },
-    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4376": {
-      "error": "not present in bulk fetch result"
-    },
-    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4385": {
-      "error": "not present in bulk fetch result"
-    },
     "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4416": {
       "title": "Assistant Professor (tenure-track), Global 18th -Century Literatures",
       "description": "",
@@ -131,6 +122,21 @@
     },
     "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4455": {
       "title": "Assistant Professor - Tenure Track (Indigenous Literature)",
+      "description": "",
+      "department": null
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4394": {
+      "title": "Assistant/Associate Professor - Monogastric Nutrition",
+      "description": "",
+      "department": null
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4376": {
+      "title": "Tenured or Tenure-Track Faculty Position in Accounting",
+      "description": "",
+      "department": null
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4385": {
+      "title": "Teaching Professor (Assistant or Associate) in Women’s and Gender Studies and Political Science",
       "description": "",
       "department": null
     }
@@ -378,15 +384,6 @@
       "deadline_of_application": "",
       "position_start_date": ""
     },
-    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4394": {
-      "error": "not present in bulk fetch result"
-    },
-    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4376": {
-      "error": "not present in bulk fetch result"
-    },
-    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4385": {
-      "error": "not present in bulk fetch result"
-    },
     "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4416": {
       "school_id": 1587,
       "posting_url": "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4416",
@@ -419,11 +416,44 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4394": {
+      "school_id": 1587,
+      "posting_url": "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4394",
+      "job_title_in_post": "Assistant/Associate Professor - Monogastric Nutrition",
+      "position_type": "Assistant_Professor; Associate_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Monogastric Nutrition",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4376": {
+      "school_id": 1587,
+      "posting_url": "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4376",
+      "job_title_in_post": "Tenured or Tenure-Track Faculty Position in Accounting",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Accounting",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4385": {
+      "school_id": 1587,
+      "posting_url": "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4385",
+      "job_title_in_post": "Teaching Professor (Assistant or Associate) in Women’s and Gender Studies and Political Science",
+      "position_type": "Assistant_Professor; Associate_Professor; Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1587,
   "status": "complete",
-  "updated_at": "2026-10-06T01:38:20+00:00",
-  "completed_at": "2026-10-06T01:38:20+00:00",
+  "updated_at": "2026-10-08T20:12:39+00:00",
+  "completed_at": "2026-10-08T20:12:39+00:00",
   "last_error": ""
 }

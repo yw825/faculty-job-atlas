@@ -48,7 +48,14 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint
 
 
 def fetch_detail(url):
-    return jinfo.fetch_detail_generic(url)
+    """CUSTOMIZED: Cornerstone requisition pages redirect once after loading,
+    and a read that lands mid-redirect fails ("page is navigating"); retry."""
+    for attempt in range(3):
+        try:
+            return jinfo.fetch_detail_generic(url)
+        except RuntimeError as e:
+            if 'navigating' not in str(e) or attempt == 2:
+                raise
 
 
 def main():

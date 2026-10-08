@@ -8,14 +8,13 @@ is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
 directly to fix or improve results for University of the Fraser Valley; nothing here affects any
 other school's script.
 
-Starting point (not a tuned answer): fetch the careers page rendered (JS
-included), then keep every link whose href or visible text looks
-job/vacancy/posting-shaped (job_postings_lib.COMMON_JOB_URL_HINTS). If this
-under- or over-collects for this school, narrow/widen that pattern, add a
-click/scroll step via fetch_rendered's `actions` argument (see
-job_postings_lib.scrape_taleo for a real example of clicking through a
-search-results page), or follow a department/pagination link with a second
-fetch_rendered/fetch_static call and merge the results.
+TUNED FIND_LINKS
+Njoyn board. Its job links carry a per-visit session token (tbtoken,
+chk), so each posting is stored token-free as xweb.asp?clid=<clid>&
+Page=JobDetails&Jobid=<id>&BRID=<id>&lang=1. The site sits behind a
+Radware bot check; when it serves the block page the run errors out instead
+of recording "no jobs". UNVERIFIED (2026-10-08): the token-free detail link
+could not be opened while the block was up -- check one by hand.
 
 Writes school_job_posts/school_id_1590_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1590_job_postings.checkpoint next to this script.
@@ -36,13 +35,21 @@ ATS_PLATFORM = 'Njoyn'
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
+LISTING = 'https://ufv.njoyn.com/CL3/xweb/Xweb.asp?page=joblisting&CLID=56144'
+JOB_RE = re.compile(r'Jobid=([A-Z0-9-]+)(?:&(?:amp;)?BRID=(\d+))?', re.I)
+
+
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                              href_pattern=lib.COMMON_JOB_URL_HINTS,
-                              text_pattern=lib.COMMON_JOB_URL_HINTS)
+    html = lib._fetch_rendered_retry(LISTING, 6000)
+    if 'Radware' in html or 'solve this CAPTCHA' in html:
+        raise RuntimeError('njoyn: blocked by the Radware bot check')
+    jobs = {}
+    for jid, brid in JOB_RE.findall(html):
+        jobs.setdefault(jid.upper(), brid)
+    # Njoyn's own links carry a per-visit tbtoken/chk; storing those would
+    # mint a "new" posting on every run, so the token-free form is stored.
+    return [f'https://ufv.njoyn.com/CL3/xweb/xweb.asp?clid=56144&Page=JobDetails&Jobid={jid}' + (f'&BRID={brid}' if brid else '') + '&lang=1'
+            for jid, brid in jobs.items()]
 
 
 def main():

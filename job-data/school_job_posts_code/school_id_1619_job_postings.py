@@ -8,14 +8,15 @@ is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
 directly to fix or improve results for McMaster University; nothing here affects any
 other school's script.
 
-Starting point (not a tuned answer): fetch the careers page rendered (JS
-included), then keep every link whose href or visible text looks
-job/vacancy/posting-shaped (job_postings_lib.COMMON_JOB_URL_HINTS). If this
-under- or over-collects for this school, narrow/widen that pattern, add a
-click/scroll step via fetch_rendered's `actions` argument (see
-job_postings_lib.scrape_taleo for a real example of clicking through a
-search-results page), or follow a department/pagination link with a second
-fetch_rendered/fetch_static call and merge the results.
+TUNED FIND_LINKS
+McMaster's faculty tab is a classic PeopleSoft job search inside the
+portal (frame HRS_APP_SCHJOB). Postings open via postback only and the
+PeopleSoft deep link (Page=HRS_APP_JBPST&JobOpeningId=...) demands a
+sign-in, so no posting has a stable URL. Each row's title ends with its Job
+ID ("... - 78991"), so each posting is stored as this listing plus
+#job-<id>; rows() walks the 25-per-page list with the "next" postback in
+one session, and the info script reads title/department/location/posted
+date from the row.
 
 Writes school_job_posts/school_id_1619_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1619_job_postings.checkpoint next to this script.
@@ -36,13 +37,55 @@ ATS_PLATFORM = 'own website'
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
+TITLE_RE = re.compile(r'^Display details of (.+?)\s*-\s*(\d+)\s*$')
+COUNTER_RE = re.compile(r'(\d+)-(\d+) of (\d+)')
+
+
+def rows():
+    """[(listing#job-<id>, title, row text)] for every faculty posting. The
+    list lives in a PeopleSoft frame inside the portal and pages 25 at a
+    time through a postback "next" button, so it is walked in one session."""
+    from bs4 import BeautifulSoup
+    b = lib.get_browser()
+    page = b.new_page(user_agent=lib.UA)
+    out, seen = [], set()
+    try:
+        page.goto(CAREERS_LINK, timeout=45000, wait_until='domcontentloaded')
+        frame = None
+        for _ in range(40):
+            frame = next((f for f in page.frames if 'matches found' in f.content()), None)
+            if frame:
+                break
+            page.wait_for_timeout(500)
+        if frame is None:
+            raise RuntimeError('mcmaster: job list frame did not load')
+        for _ in range(20):
+            soup = BeautifulSoup(frame.content(), 'html.parser')
+            for a in soup.select('a[id^="POSTINGLINK$"]'):
+                m = TITLE_RE.match(a.get('title') or '')
+                if not m or m.group(2) in seen:
+                    continue
+                seen.add(m.group(2))
+                row = a.find_parent('tr', id=re.compile(r'^trHRS_AGNT_RSLT_I'))
+                text = re.sub(r'\s+', ' ', row.get_text(' ', strip=True)) if row else m.group(1)
+                out.append((f'{CAREERS_LINK}#job-{m.group(2)}', m.group(1), text))
+            counter = COUNTER_RE.search(soup.get_text(' ', strip=True))
+            if not counter or int(counter.group(2)) >= int(counter.group(3)):
+                break
+            before = counter.group(0)
+            frame.click('a[id="HRS_AGNT_RSLT_I$hdown$0"]')
+            for _ in range(40):
+                page.wait_for_timeout(500)
+                now = COUNTER_RE.search(BeautifulSoup(frame.content(), 'html.parser').get_text(' ', strip=True))
+                if now and now.group(0) != before:
+                    break
+    finally:
+        page.close()
+    return out
+
+
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                              href_pattern=lib.COMMON_JOB_URL_HINTS,
-                              text_pattern=lib.COMMON_JOB_URL_HINTS)
+    return [u for u, _t, _x in rows()]
 
 
 def main():

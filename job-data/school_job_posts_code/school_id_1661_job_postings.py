@@ -8,14 +8,11 @@ is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
 directly to fix or improve results for Université Libre de Bruxelles; nothing here affects any
 other school's script.
 
-Starting point (not a tuned answer): fetch the careers page rendered (JS
-included), then keep every link whose href or visible text looks
-job/vacancy/posting-shaped (job_postings_lib.COMMON_JOB_URL_HINTS). If this
-under- or over-collects for this school, narrow/widen that pattern, add a
-click/scroll step via fetch_rendered's `actions` argument (see
-job_postings_lib.scrape_taleo for a real example of clicking through a
-search-results page), or follow a department/pagination link with a second
-fetch_rendered/fetch_static call and merge the results.
+TUNED FIND_LINKS
+Each faculty page (e.g. the Solvay page) lists its vacancies as "Lire
+l'annonce" links to cwfront.ulb.ac.be -- vacacad/vacancies/download/<id>
+or greffe/.../pdf/prod/<id>.pdf. The "liste complete" page carries every
+faculty's vacancies at once, so it is read instead of each faculty page.
 
 Writes school_job_posts/school_id_1661_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1661_job_postings.checkpoint next to this script.
@@ -36,13 +33,14 @@ ATS_PLATFORM = 'own website'
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
+FULL_LIST = ('https://www.ulb.be/fr/vacances-d-emplois-academiques-et-scientifiques/'
+             'liste-complete-des-vacances-academiques-et-scientifiques')
+POSTING_RE = re.compile(r'^https://cwfront\.ulb\.ac\.be/(?:vacacad/vacancies/download/\d+'
+                        r'|greffe/modules/vac/data/sources/pdf/prod/\d+\.pdf)$', re.I)
+
+
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                              href_pattern=lib.COMMON_JOB_URL_HINTS,
-                              text_pattern=lib.COMMON_JOB_URL_HINTS)
+    return lib.scrape_matching(FULL_LIST, POSTING_RE)
 
 
 def main():

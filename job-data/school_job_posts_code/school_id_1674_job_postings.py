@@ -8,14 +8,11 @@ is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
 directly to fix or improve results for ESSEC Business School; nothing here affects any
 other school's script.
 
-Starting point (not a tuned answer): fetch the careers page rendered (JS
-included), then keep every link whose href or visible text looks
-job/vacancy/posting-shaped (job_postings_lib.COMMON_JOB_URL_HINTS). If this
-under- or over-collects for this school, narrow/widen that pattern, add a
-click/scroll step via fetch_rendered's `actions` argument (see
-job_postings_lib.scrape_taleo for a real example of clicking through a
-search-results page), or follow a department/pagination link with a second
-fetch_rendered/fetch_static call and merge the results.
+TUNED FIND_LINKS
+The audit marked this school "0 post": nothing was listed, so no posting
+URL shape could be pinned. Until one appears, only main-content links whose
+TEXT names an academic role are kept, which stops the generic scraper's
+navigation links (careers hub, repository, alumni pages) being stored.
 
 Writes school_job_posts/school_id_1674_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1674_job_postings.checkpoint next to this script.
@@ -36,13 +33,29 @@ ATS_PLATFORM = 'own website'
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
+ROLE_RE = re.compile(r'professor|professeur|lecturer|chargé|charge de cours|postdoc|post-doc|'
+                     r'postdoctoral|chercheur|researcher|faculty|enseignant|chair|chaire', re.I)
+
+
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                              href_pattern=lib.COMMON_JOB_URL_HINTS,
-                              text_pattern=lib.COMMON_JOB_URL_HINTS)
+    """No opening was listed when this was written ("0 post" in the audit),
+    so there is no posting URL shape to match yet: keep only links inside
+    the page's main content whose own text names an academic role."""
+    from bs4 import BeautifulSoup
+    from urllib.parse import urljoin
+    html = lib._fetch_rendered_retry(CAREERS_LINK, 5000)
+    soup = BeautifulSoup(html, 'html.parser')
+    for tag in soup(['nav', 'header', 'footer', 'script', 'style']):
+        tag.decompose()
+    main = soup.select_one('main') or soup
+    links = []
+    for a in main.find_all('a', href=True):
+        url = urljoin(CAREERS_LINK, a['href'].strip())
+        text = a.get_text(' ', strip=True)
+        if (url.startswith('http') and ROLE_RE.search(text) and url.split('#')[0] != CAREERS_LINK.split('#')[0]
+                and not re.search(r'/(?:opportunities|offres)/[^/]+/?$', url) and url not in links):
+            links.append(url)
+    return links
 
 
 def main():

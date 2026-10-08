@@ -8,14 +8,11 @@ is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
 directly to fix or improve results for Crandall University; nothing here affects any
 other school's script.
 
-Starting point (not a tuned answer): fetch the careers page rendered (JS
-included), then keep every link whose href or visible text looks
-job/vacancy/posting-shaped (job_postings_lib.COMMON_JOB_URL_HINTS). If this
-under- or over-collects for this school, narrow/widen that pattern, add a
-click/scroll step via fetch_rendered's `actions` argument (see
-job_postings_lib.scrape_taleo for a real example of clicking through a
-search-results page), or follow a department/pagination link with a second
-fetch_rendered/fetch_static call and merge the results.
+TUNED FIND_LINKS
+Each opening is a PDF ad under /crandallwp20/wp-content/uploads/<yyyy>/<mm>/.
+The site's firewall rejects the shared library's dated user agent with 403,
+so the page is fetched with BROWSER_UA (the info script does the same for
+the PDFs).
 
 Writes school_job_posts/school_id_1606_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1606_job_postings.checkpoint next to this script.
@@ -36,13 +33,18 @@ ATS_PLATFORM = 'own website'
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
+# This site's firewall answers 403 to the shared library's "Chrome/120" user
+# agent (any current one passes), so this school sends its own.
+BROWSER_UA = ('Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 '
+              '(KHTML, like Gecko) Chrome/128.0 Safari/537.36')
+POSTING_RE = re.compile(r'^https://www\.crandallu\.ca/crandallwp20/wp-content/uploads/\d{4}/\d{2}/[^/?#]+\.pdf$', re.I)
+
+
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                              href_pattern=lib.COMMON_JOB_URL_HINTS,
-                              text_pattern=lib.COMMON_JOB_URL_HINTS)
+    status, html = lib.fetch_static(CAREERS_LINK, timeout=30, extra_headers={'User-Agent': BROWSER_UA})
+    if status != 200:
+        raise RuntimeError(f'crandall employment page status={status}')
+    return [u for u in lib.extract_links(html, CAREERS_LINK) if POSTING_RE.search(u)]
 
 
 def main():

@@ -8,14 +8,13 @@ is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
 directly to fix or improve results for Ludwig Maximilian University of Munich; nothing here affects any
 other school's script.
 
-Starting point (not a tuned answer): fetch the careers page rendered (JS
-included), then keep every link whose href or visible text looks
-job/vacancy/posting-shaped (job_postings_lib.COMMON_JOB_URL_HINTS). If this
-under- or over-collects for this school, narrow/widen that pattern, add a
-click/scroll step via fetch_rendered's `actions` argument (see
-job_postings_lib.scrape_taleo for a real example of clicking through a
-search-results page), or follow a department/pagination link with a second
-fetch_rendered/fetch_static call and merge the results.
+TUNED FIND_LINKS
+LMU's job lists are a BITE widget (jobs.b-ite.com) fed by a search API,
+called here directly with LMU's public widget key. Professorships (01_prof)
+and academic staff (02_wiss) are read in BOTH languages -- each language
+is a separate posting with its own id, and the example was only in the
+English set -- then deduplicated by job number (anr), keeping English.
+Each opening is job-portal.lmu.de/jobposting/<id>.
 
 Writes school_job_posts/school_id_1692_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1692_job_postings.checkpoint next to this script.
@@ -36,13 +35,26 @@ ATS_PLATFORM = 'own website'
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
+BITE_SEARCH = 'https://jobs.b-ite.com/api/v1/postings/search'
+BITE_KEY = '7d4ebad4ecdfd3e99a89596c85c5e4be21cd9c12'   # LMU's public widget key
+ACADEMIC_GROUPS = ['01_prof', '02_wiss']                # professorships, academic staff
+
+
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                              href_pattern=lib.COMMON_JOB_URL_HINTS,
-                              text_pattern=lib.COMMON_JOB_URL_HINTS)
+    import requests
+    headers = {'User-Agent': lib.UA, 'Origin': 'https://www.lmu.de', 'Referer': 'https://www.lmu.de/'}
+    by_number = {}
+    for locale in ('en', 'de'):                         # English first: it wins a tie
+        body = {'key': BITE_KEY, 'channel': 0, 'locale': locale,
+                'page': {'offset': 0, 'num': 1000},
+                'filter': {'locale': {'in': [locale]},
+                           'custom.beschaeftigtengruppe': {'in': ACADEMIC_GROUPS}}}
+        r = requests.post(BITE_SEARCH, json=body, headers=headers, timeout=30)
+        if r.status_code != 200:
+            raise RuntimeError(f'lmu bite search status={r.status_code}')
+        for post in r.json().get('jobPostings', []):
+            by_number.setdefault(post.get('anr') or post['url'], post['url'].split('?')[0])
+    return list(by_number.values())
 
 
 def main():

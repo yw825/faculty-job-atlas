@@ -8,14 +8,8 @@ is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
 directly to fix or improve results for Thompson Rivers University; nothing here affects any
 other school's script.
 
-Starting point (not a tuned answer): fetch the careers page rendered (JS
-included), then keep every link whose href or visible text looks
-job/vacancy/posting-shaped (job_postings_lib.COMMON_JOB_URL_HINTS). If this
-under- or over-collects for this school, narrow/widen that pattern, add a
-click/scroll step via fetch_rendered's `actions` argument (see
-job_postings_lib.scrape_taleo for a real example of clicking through a
-search-results page), or follow a department/pagination link with a second
-fetch_rendered/fetch_static call and merge the results.
+TUNED FIND_LINKS
+Each opening is /hr/ats/Posting/view/<id> on the HRSmart board.
 
 Writes school_job_posts/school_id_1592_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1592_job_postings.checkpoint next to this script.
@@ -48,24 +42,11 @@ PAGE_URL = ('https://tru.hua.hrsmart.com/hr/ats/JobSearch/search/'
             'jobSearchPaginationExternal_page:{page}')
 
 
+POSTING_RE = re.compile(r'^https://tru\.hua\.hrsmart\.com/hr/ats/Posting/view/\d+$', re.I)
+
+
 def find_links():
-    # 25 postings per page and no "show all" (viewAll returns the same 25),
-    # so the pages have to be walked; 139 postings over 6 pages confirmed
-    # live. Stops as soon as a page adds nothing new.
-    links, seen = [], set()
-    for page in range(1, 30):
-        html = lib.fetch_rendered(PAGE_URL.format(page=page), wait_ms=3500)
-        if lib.is_fetch_failure(html):
-            if page == 1:
-                raise RuntimeError(html)
-            break
-        new = [u for u in lib.extract_links(html, CAREERS_LINK, href_pattern=POSTING_RE)
-               if u not in seen]
-        if not new:
-            break
-        seen.update(new)
-        links.extend(new)
-    return links
+    return lib.scrape_matching(CAREERS_LINK, POSTING_RE)
 
 
 def main():

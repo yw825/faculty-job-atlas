@@ -8,14 +8,10 @@ is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
 directly to fix or improve results for Sciences Po; nothing here affects any
 other school's script.
 
-Starting point (not a tuned answer): fetch the careers page rendered (JS
-included), then keep every link whose href or visible text looks
-job/vacancy/posting-shaped (job_postings_lib.COMMON_JOB_URL_HINTS). If this
-under- or over-collects for this school, narrow/widen that pattern, add a
-click/scroll step via fetch_rendered's `actions` argument (see
-job_postings_lib.scrape_taleo for a real example of clicking through a
-search-results page), or follow a department/pagination link with a second
-fetch_rendered/fetch_static call and merge the results.
+TUNED FIND_LINKS
+Sciences Po's page links its Talentsoft board; the board's full list
+(liste-toutes-offres.aspx?all=1) holds every offer ("28 offres" on
+2026-10-08), each /offre-de-emploi/emploi-<slug>_<id>.aspx.
 
 Writes school_job_posts/school_id_1681_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1681_job_postings.checkpoint next to this script.
@@ -36,13 +32,12 @@ ATS_PLATFORM = 'own website'
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
+LISTING = 'https://sciencespo-career.talent-soft.com/offre-de-emploi/liste-toutes-offres.aspx?all=1&mode=layer'
+POSTING_RE = re.compile(r'^https://sciencespo-career\.talent-soft\.com/offre-de-emploi/emploi-[^/?#]+_\d+\.aspx$', re.I)
+
+
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                              href_pattern=lib.COMMON_JOB_URL_HINTS,
-                              text_pattern=lib.COMMON_JOB_URL_HINTS)
+    return lib.scrape_matching(LISTING, POSTING_RE, render=True)
 
 
 def main():

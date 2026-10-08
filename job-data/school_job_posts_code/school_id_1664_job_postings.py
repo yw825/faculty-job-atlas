@@ -8,14 +8,11 @@ is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
 directly to fix or improve results for KU Leuven; nothing here affects any
 other school's script.
 
-Starting point (not a tuned answer): fetch the careers page rendered (JS
-included), then keep every link whose href or visible text looks
-job/vacancy/posting-shaped (job_postings_lib.COMMON_JOB_URL_HINTS). If this
-under- or over-collects for this school, narrow/widen that pattern, add a
-click/scroll step via fetch_rendered's `actions` argument (see
-job_postings_lib.scrape_taleo for a real example of clicking through a
-search-results page), or follow a department/pagination link with a second
-fetch_rendered/fetch_static call and merge the results.
+TUNED FIND_LINKS
+The professor list is a web component fed by a search API
+(icts-p-fii-toep-component-filter2.../api/projects/Jobsite_professor/search),
+which is called directly; each hit's id becomes the posting URL
+www.kuleuven.be/personeel/jobsite/jobs/<id>.
 
 Writes school_job_posts/school_id_1664_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1664_job_postings.checkpoint next to this script.
@@ -36,13 +33,29 @@ ATS_PLATFORM = 'own website'
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
+SEARCH_API = ('https://icts-p-fii-toep-component-filter2.cloud.icts.kuleuven.be/'
+              'api/projects/Jobsite_professor/search?lang=nl&page={page}')
+POSTING_URL = 'https://www.kuleuven.be/personeel/jobsite/jobs/{}'
+
+
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                              href_pattern=lib.COMMON_JOB_URL_HINTS,
-                              text_pattern=lib.COMMON_JOB_URL_HINTS)
+    import json
+    links, total = [], None
+    for page in range(0, 30):          # 0-based; page=1 is the SECOND page
+        status, text = lib.fetch_static(SEARCH_API.format(page=page), method='POST', timeout=30,
+                                        json_body={'_locale': 'nl', 'environment': 'production', 'release': ''})
+        if status != 200:
+            raise RuntimeError(f'kuleuven search api status={status}')
+        data = json.loads(text)
+        total = data.get('total_nb_hits', total)
+        hits = data.get('hits') or []
+        fresh = [POSTING_URL.format(h['_id']) for h in hits if POSTING_URL.format(h['_id']) not in links]
+        if not fresh:
+            break
+        links.extend(fresh)
+        if total is not None and len(links) >= total:
+            break
+    return links
 
 
 def main():

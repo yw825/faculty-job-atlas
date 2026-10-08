@@ -48,7 +48,15 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint
 
 
 def fetch_detail(url):
-    return jinfo.fetch_detail_generic(url)
+    """CUSTOMIZED: the call's text is only in its PDF, whose link is minted
+    per browser session; the postings script's posting_pdf_text() fetches it."""
+    import importlib.util
+    spec = importlib.util.spec_from_file_location(
+        'frankfurt_postings', os.path.join(HERE, '..', 'school_job_posts_code',
+                                           f'school_id_{SCHOOL_ID}_job_postings.py'))
+    postings = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(postings)
+    return postings.posting_pdf_text(url)
 
 
 def main():

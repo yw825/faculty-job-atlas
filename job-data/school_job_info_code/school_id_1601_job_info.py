@@ -48,7 +48,19 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint
 
 
 def fetch_detail(url):
-    return jinfo.fetch_detail_generic(url)
+    """CUSTOMIZED: a Manitoba posting is a row (#req-<n>) of the listing --
+    the site gives no stable per-job URL -- so read the row back with the
+    postings script's own parser."""
+    import importlib.util
+    spec = importlib.util.spec_from_file_location(
+        'umanitoba_postings', os.path.join(HERE, '..', 'school_job_posts_code',
+                                           f'school_id_{SCHOOL_ID}_job_postings.py'))
+    postings = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(postings)
+    for row_url, title, text in postings.rows(postings.page_html()):
+        if row_url == url:
+            return title, text
+    raise RuntimeError('requisition no longer listed: ' + url)
 
 
 def main():

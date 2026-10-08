@@ -8,14 +8,11 @@ is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
 directly to fix or improve results for Université du Québec en Outaouais; nothing here affects any
 other school's script.
 
-Starting point (not a tuned answer): fetch the careers page rendered (JS
-included), then keep every link whose href or visible text looks
-job/vacancy/posting-shaped (job_postings_lib.COMMON_JOB_URL_HINTS). If this
-under- or over-collects for this school, narrow/widen that pattern, add a
-click/scroll step via fetch_rendered's `actions` argument (see
-job_postings_lib.scrape_taleo for a real example of clicking through a
-search-results page), or follow a department/pagination link with a second
-fetch_rendered/fetch_static call and merge the results.
+TUNED FIND_LINKS
+Each opening is a document, uqo.ca/docs/<id>, linked by its discipline
+("Kinésiologie"). The page links other documents the same way -- the
+candidate guide, the employment-equity programme -- so links whose text
+names a guide or policy are skipped.
 
 Writes school_job_posts/school_id_1639_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1639_job_postings.checkpoint next to this script.
@@ -36,13 +33,25 @@ ATS_PLATFORM = 'own website'
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
+POSTING_RE = re.compile(r'^https://uqo\.ca/docs/\d+$', re.I)
+
+
+DOC_RE = re.compile(r'^https://uqo\.ca/docs/\d+$', re.I)
+NOT_A_POSTING_RE = re.compile(r'guide|égalité|egalite|équité|equite|politique|règlement|reglement|convention', re.I)
+
+
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                              href_pattern=lib.COMMON_JOB_URL_HINTS,
-                              text_pattern=lib.COMMON_JOB_URL_HINTS)
+    from bs4 import BeautifulSoup
+    from urllib.parse import urljoin
+    status, html = lib.fetch_static(CAREERS_LINK, timeout=30)
+    if status != 200 or not html:
+        html = lib._fetch_rendered_retry(CAREERS_LINK, 4000)
+    links = []
+    for a in BeautifulSoup(html, 'html.parser').find_all('a', href=True):
+        url = urljoin(CAREERS_LINK, a['href'])
+        if DOC_RE.search(url) and not NOT_A_POSTING_RE.search(a.get_text(' ', strip=True)) and url not in links:
+            links.append(url)
+    return links
 
 
 def main():

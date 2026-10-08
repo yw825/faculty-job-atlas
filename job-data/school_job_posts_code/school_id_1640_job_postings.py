@@ -8,14 +8,12 @@ is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
 directly to fix or improve results for Concordia University; nothing here affects any
 other school's script.
 
-Starting point (not a tuned answer): fetch the careers page rendered (JS
-included), then keep every link whose href or visible text looks
-job/vacancy/posting-shaped (job_postings_lib.COMMON_JOB_URL_HINTS). If this
-under- or over-collects for this school, narrow/widen that pattern, add a
-click/scroll step via fetch_rendered's `actions` argument (see
-job_postings_lib.scrape_taleo for a real example of clicking through a
-search-results page), or follow a department/pagination link with a second
-fetch_rendered/fetch_static call and merge the results.
+TUNED FIND_LINKS
+Two steps: the openings page links each faculty's jobs page
+(/<faculty>/about/jobs.html, plus the library's), and those link each ad.
+Hubs link the CMS path /content/shared/en/jobs/<unit>/<slug>.html, stored
+as its public form /jobs/<unit>/<slug>.html. Invigilator postings (under
+/<faculty>/about/jobs/invigila...) are not academic posts and do not match.
 
 Writes school_job_posts/school_id_1640_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1640_job_postings.checkpoint next to this script.
@@ -36,21 +34,17 @@ ATS_PLATFORM = 'own website'
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
+HUB_RE = re.compile(r'^https://(?:www\.concordia\.ca/[^/?#]+/about/jobs\.html|library\.concordia\.ca/about/jobs/)$', re.I)
+POSTING_RE = re.compile(r'^https://www\.concordia\.ca/(?:content/shared/en/)?jobs/[^/?#]+/[^/?#]+\.html$', re.I)
+
+
+def public_url(url):
+    # hubs link the CMS path; the public page is /jobs/<unit>/<slug>.html
+    return url.replace('/content/shared/en/jobs/', '/jobs/')
+
+
 def find_links():
-    """NOTE: emptied on purpose. All 12 links this page yields are HR
-    guidance -- "Employment equity", "Salary scales", "Pay equity",
-    "Instructions for external candidates", the French mirror of the same
-    page. Concordia's actual board is SAP SuccessFactors
-    (career17.sapsf.com/career?company=universitc), which renders only
-    "Loading..." without further interaction, and its hcm17 counterpart
-    demands a sign-in. Verified by fetching every link. An empty file is
-    correct until that board can be driven."""
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                              href_pattern=lib.COMMON_JOB_URL_HINTS,
-                              text_pattern=lib.COMMON_JOB_URL_HINTS)
+    return lib.scrape_two_hop(CAREERS_LINK, HUB_RE, POSTING_RE, normalize=public_url)
 
 
 def main():

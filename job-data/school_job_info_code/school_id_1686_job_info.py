@@ -48,7 +48,27 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint
 
 
 def fetch_detail(url):
-    return jinfo.fetch_detail_generic(url)
+    """CUSTOMIZED: hu-berlin.de serves an Anubis proof-of-work page first;
+    wait for it to clear (the challenge page has no <main>) before reading."""
+    import re
+    from bs4 import BeautifulSoup
+
+    def wait_for_page(page):
+        try:
+            page.wait_for_function(
+                "!/not a bot/i.test(document.title) && !!document.querySelector('main h1')",
+                timeout=45000)
+        except Exception:
+            pass
+    html = jinfo.jlib.fetch_rendered(url, wait_ms=1500, actions=wait_for_page, timeout=45000)
+    if jinfo.jlib.is_fetch_failure(html) or re.search(r'<title>[^<]*not a bot', html or '', re.I):
+        raise RuntimeError('hu-berlin: page did not clear the Anubis challenge')
+    soup = BeautifulSoup(html, 'html.parser')
+    main = soup.select_one('main') or soup
+    for tag in main(['script', 'style', 'nav']):
+        tag.decompose()
+    h1 = main.select_one('h1')
+    return (h1.get_text(' ', strip=True) if h1 else ''), re.sub(r'\s+', ' ', main.get_text(' ', strip=True))[:20000]
 
 
 def main():

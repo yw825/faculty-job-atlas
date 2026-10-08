@@ -1950,7 +1950,38 @@ def scrape_matching(url, posting_re, render=False, wait_ms=4000):
     return links
 
 
-def scrape_paged_board(url, posting_re, max_pages=30, wait_ms=3000):
+def scrape_two_hop(url, hub_re, posting_re, render=False, normalize=None, wait_ms=4000):
+    """Postings that sit one level down: the careers page links HUB pages
+    (one per faculty / institute / department), and each hub links the
+    postings. Postings linked straight from the careers page are kept too.
+    `normalize`, if given, maps a matched URL to the form to store."""
+    def load(u):
+        if not render:
+            status, html = fetch_static(u, timeout=30)
+            if status == 200 and html:
+                return html
+        return _fetch_rendered_retry(u, wait_ms)
+
+    top = load(url)
+    found = extract_links(top, url)
+    hubs = [u for u in dict.fromkeys(found) if hub_re.search(u) and u.split('#')[0] != url.split('#')[0]]
+    pages = [(url, found)]
+    for hub in hubs:
+        try:
+            pages.append((hub, extract_links(load(hub), hub)))
+        except RuntimeError:
+            continue                 # one dead hub should not lose the rest
+    links = []
+    for _page, anchors in pages:
+        for u in anchors:
+            if posting_re.search(u):
+                u = normalize(u) if normalize else u
+                if u not in links:
+                    links.append(u)
+    return links
+
+
+def scrape_paged_board(url, posting_re, max_pages=30, wait_ms=3000, first_page=1):
     """Every link matching `posting_re` (tested against the absolute URL)
     across ?page=1..N of a listing. Stops on the first page that adds no new
     link -- these boards answer past-the-end pages with 200 and recycled or
@@ -1961,13 +1992,13 @@ def scrape_paged_board(url, posting_re, max_pages=30, wait_ms=3000):
     query = [(k, v) for k, v in parse_qsl(parts.query, keep_blank_values=True)
              if k.lower() != 'page']
     links, seen = [], set()
-    for page in range(1, max_pages + 1):
+    for page in range(first_page, first_page + max_pages):
         paged = urlunsplit((parts.scheme, parts.netloc, parts.path,
                             urlencode(query + [('page', page)], doseq=True), ''))
         try:
             html = _fetch_rendered_retry(paged, wait_ms)
         except RuntimeError:
-            if page == 1:
+            if page == first_page:
                 raise
             break
         fresh = [u for u in extract_links(html, paged)
@@ -1977,6 +2008,70 @@ def scrape_paged_board(url, posting_re, max_pages=30, wait_ms=3000):
         for u in fresh:
             seen.add(u)
             links.append(u)
+    return links
+
+
+_SF_JOB_HREF_RE = re.compile(r'href="((?:https?://[^"/]+)?/job/[^"]+/\d+/)"', re.I)
+_SF_COUNT_RE = re.compile(r'(?:Showing|Results)\s+(\d+)\s*(?:to|-|–)\s*(\d+)\s+of\s+(\d+)', re.I)
+
+
+def scrape_successfactors(url, max_pages=40):
+    """SAP SuccessFactors career sites (careers.<school>/go/<Category>/<id>/,
+    jobs.<school>/search/?...). A posting is /job/<slug>/<numeric id>/.
+
+    Listings show 20 or 25 and say so ("Showing 1 to 20 of 21 Jobs");
+    Guelph's faculty category hides its 21st job on page 2. A /go/ page
+    takes the next offset as a path segment (/go/<name>/<id>/20/), a
+    /search/ page as &startrow=N. Pages are walked until the reported total
+    is reached or a page adds nothing."""
+    from urllib.parse import urlsplit, urlunsplit, urljoin
+
+    parts = urlsplit(url)
+    is_go = '/go/' in parts.path
+
+    def page_url(offset):
+        if offset == 0:
+            return url
+        if is_go:
+            path = re.sub(r'/\d+/?$', '', parts.path.rstrip('/')) if re.search(
+                r'/go/[^/]+/\d+/\d+/?$', parts.path) else parts.path.rstrip('/')
+            return urlunsplit((parts.scheme, parts.netloc, f'{path}/{offset}/', parts.query, ''))
+        query = re.sub(r'(?:^|&)startrow=\d+', '', parts.query).lstrip('&')
+        return urlunsplit((parts.scheme, parts.netloc, parts.path,
+                           (query + '&' if query else '') + f'startrow={offset}', ''))
+
+    def load(u):
+        status, html = fetch_static(u, timeout=30)
+        if status != 200 or not _SF_JOB_HREF_RE.search(html or ''):
+            html = _fetch_rendered_retry(u, 4000)
+        return html
+
+    links, offset, total = [], 0, None
+    for _ in range(max_pages):
+        html = load(page_url(offset))
+        import html as _html
+        found = [urljoin(url, _html.unescape(h)) for h in _SF_JOB_HREF_RE.findall(html)]
+        have = {re.search(r'/(\d+)/$', u).group(1) for u in links}
+        fresh = []
+        for u in found:
+            jid = re.search(r'/(\d+)/$', u).group(1)
+            if jid not in have:
+                have.add(jid)
+                fresh.append(u)
+        text = re.sub(r'<[^>]+>', ' ', html)
+        m = _SF_COUNT_RE.search(text)
+        if m and total is None:
+            total = int(m.group(3))
+        if not fresh:
+            break
+        links.extend(fresh)
+        if total is not None and len(links) >= total:
+            break
+        # the counter's own page size; each job is linked ~3 times per page,
+        # so counting hrefs would overshoot into unrelated results
+        distinct = len({re.search(r'/(\d+)/$', u).group(1) for u in found})
+        step = int(m.group(2)) - int(m.group(1)) + 1 if m else 0
+        offset += step if step > 0 else distinct
     return links
 
 

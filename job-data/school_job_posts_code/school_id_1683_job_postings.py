@@ -10,6 +10,10 @@ posting (e.g. "/1no3ttx2zu") that don't contain any job-shaped keyword the
 generic default's filter looks for. This walks every page up to the
 confirmed last-page number and keeps links matching that slug shape.
 
+TUNED FIND_LINKS
+Each opening is recrutement.psl.eu/<10-character id>; the board's own
+pages (nos-offres, ...) do not have that shape.
+
 Writes school_job_posts/school_id_1683_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1683_job_postings.checkpoint next to this script.
 """
@@ -38,45 +42,11 @@ POSTING_HOST = 'recrutement.psl.eu'
 LAST_PAGE_RE = re.compile(r'[?&]page=(\d+)')
 
 
+POSTING_RE = re.compile(r'^https://recrutement\.psl\.eu/[a-z0-9]{10}$', re.I)
+
+
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    from bs4 import BeautifulSoup
-
-    def page_links(page_html, base_url):
-        soup = BeautifulSoup(page_html, 'html.parser')
-        out = []
-        for a in soup.find_all('a', href=True):
-            href = a['href']
-            resolved = lib.urljoin(base_url, href)
-            parts = lib.urlsplit(resolved)
-            if parts.netloc == POSTING_HOST and SLUG_RE.match(parts.path or ''):
-                out.append(resolved)
-        return out
-
-    soup = BeautifulSoup(html, 'html.parser')
-    last_page = 0
-    for a in soup.find_all('a', href=True):
-        m = LAST_PAGE_RE.search(a['href'])
-        if m:
-            last_page = max(last_page, int(m.group(1)))
-
-    seen, links = set(), []
-    for u in page_links(html, CAREERS_LINK):
-        if u not in seen:
-            seen.add(u)
-            links.append(u)
-    for page_num in range(1, last_page + 1):
-        page_url = f'{CAREERS_LINK}?page={page_num}'
-        page_html = lib.fetch_rendered(page_url)
-        if lib.is_fetch_failure(page_html):
-            continue
-        for u in page_links(page_html, page_url):
-            if u not in seen:
-                seen.add(u)
-                links.append(u)
-    return links
+    return lib.scrape_matching(CAREERS_LINK, POSTING_RE)
 
 
 def main():

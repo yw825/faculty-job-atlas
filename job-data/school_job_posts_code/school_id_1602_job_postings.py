@@ -14,6 +14,12 @@ second path segment -- so the real per-posting URLs can be built directly
 from the data-testid UUIDs without clicking anything. Confirmed live: 6
 unique UUIDs found, matching the page's own "Jobs (6)" count.
 
+TUNED FIND_LINKS
+Avanti job board, filtered to the faculty association (SEARCH=UWFA-RAS).
+The list renders job cards with no hrefs; each card's id is in its
+data-testid ("public-jobs-job-<uuid>-..."), and the posting URL is
+job-board/<board>/<uuid>/view with the same filter.
+
 Writes school_job_posts/school_id_1602_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1602_job_postings.checkpoint next to this script.
 """
@@ -35,22 +41,17 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkp
 JOB_TESTID_RE = re.compile(r'public-jobs-job-([0-9a-f-]{36})-id-text')
 
 
+POSTING_RE = re.compile(r'^https://plus\.avanti\.ca/job-board/5da7a070-4efb-4f6e-b846-5d1e55cc2abe/(?!abc8cefc-8900-4f89-a11a-169e8102b2be)[0-9a-f-]{36}/view', re.I)
+
+
+BOARD = 'https://plus.avanti.ca/job-board/5da7a070-4efb-4f6e-b846-5d1e55cc2abe'
+JOB_ID_RE = re.compile(r'data-testid="public-jobs-job-([0-9a-f-]{36})-', re.I)
+
+
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    from bs4 import BeautifulSoup
-    soup = BeautifulSoup(html, 'html.parser')
-    parsed = lib.urlsplit(CAREERS_LINK)
-    company_id = parsed.path.strip('/').split('/')[1]
-    ids, links = set(), []
-    for el in soup.find_all(attrs={'data-testid': JOB_TESTID_RE}):
-        m = JOB_TESTID_RE.search(el['data-testid'])
-        job_id = m.group(1)
-        if job_id not in ids:
-            ids.add(job_id)
-            links.append(f'{parsed.scheme}://{parsed.netloc}/job-board/{company_id}/{job_id}/view?{parsed.query}')
-    return links
+    html = lib._fetch_rendered_retry(CAREERS_LINK, 8000)
+    ids = list(dict.fromkeys(JOB_ID_RE.findall(html)))
+    return [f'{BOARD}/{jid}/view?LOCALE=en-CA&SEARCH=UWFA-RAS' for jid in ids]
 
 
 def main():

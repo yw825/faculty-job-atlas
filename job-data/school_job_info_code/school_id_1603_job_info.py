@@ -47,8 +47,40 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(HERE, '..', 'school_job_posts_code', f'sc
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 
+# www.stu.ca serves its certificate without the intermediates (Let's Encrypt
+# YE1 -> Root YE, cross-signed by ISRG Root X2). Browsers fetch those via
+# AIA; requests does not, so every PDF failed CERTIFICATE_VERIFY_FAILED.
+# The two intermediates are added to certifi's bundle for this school only --
+# verification stays on, and the chain still ends at a trusted root.
+_INTERMEDIATES = ('http://ye1.i.lencr.org/', 'http://ye.i.lencr.org/')
+_BUNDLE = None
+
+
+def _ca_bundle():
+    global _BUNDLE
+    if _BUNDLE is None:
+        import ssl, tempfile, certifi
+        pems = [open(certifi.where()).read()]
+        for aia in _INTERMEDIATES:
+            pems.append(ssl.DER_cert_to_PEM_cert(jinfo.jlib.requests.get(aia, timeout=20).content))
+        fd, path = tempfile.mkstemp(suffix='.pem')
+        with os.fdopen(fd, 'w') as f:
+            f.write('\n'.join(pems))
+        _BUNDLE = path
+    return _BUNDLE
+
+
 def fetch_detail(url):
-    return jinfo.fetch_detail_generic(url)
+    """CUSTOMIZED: PDF ads on www.stu.ca, fetched with the completed
+    certificate chain (see _ca_bundle)."""
+    import io
+    from pypdf import PdfReader
+    r = jinfo.jlib.requests.get(url, headers={'User-Agent': jinfo.jlib.UA}, timeout=30, verify=_ca_bundle())
+    if r.status_code != 200:
+        raise RuntimeError(f'pdf fetch failed status={r.status_code}')
+    text = '\n'.join((page.extract_text() or '') for page in PdfReader(io.BytesIO(r.content)).pages)
+    lines = [l.strip() for l in text.splitlines() if l.strip()]
+    return jinfo._pick_best_title(lines[:20]), text
 
 
 def main():

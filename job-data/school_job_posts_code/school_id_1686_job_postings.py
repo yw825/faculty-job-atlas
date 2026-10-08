@@ -8,14 +8,12 @@ is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
 directly to fix or improve results for Humboldt University of Berlin; nothing here affects any
 other school's script.
 
-Starting point (not a tuned answer): fetch the careers page rendered (JS
-included), then keep every link whose href or visible text looks
-job/vacancy/posting-shaped (job_postings_lib.COMMON_JOB_URL_HINTS). If this
-under- or over-collects for this school, narrow/widen that pattern, add a
-click/scroll step via fetch_rendered's `actions` argument (see
-job_postings_lib.scrape_taleo for a real example of clicking through a
-search-results page), or follow a department/pagination link with a second
-fetch_rendered/fetch_static call and merge the results.
+TUNED FIND_LINKS
+Each opening is /working-at-the-hu/jobs/details/<slug>. hu-berlin.de is
+behind Anubis, a proof-of-work bot check: the browser solves it and the
+page then reloads with the job list, so the scraper waits (up to 45 s) for
+a job link to appear, and reports an error rather than "no jobs" if the
+challenge never clears.
 
 Writes school_job_posts/school_id_1686_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1686_job_postings.checkpoint next to this script.
@@ -36,13 +34,38 @@ ATS_PLATFORM = 'own website'
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
-def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
+POSTING_RE = re.compile(r'^https://www\.hu-berlin\.de/en/university/working-at-the-hu/jobs/details/[^/?#]+$', re.I)
+
+
+POSTING_RE = re.compile(r'^https://www\.hu-berlin\.de/en/university/working-at-the-hu/jobs/details/[^/?#]+$', re.I)
+LISTING = 'https://www.hu-berlin.de/en/university/working-at-the-hu/jobs'
+
+
+def _attempt():
+    def wait_for_jobs(page):
+        # hu-berlin.de sits behind Anubis: the first response is a
+        # proof-of-work page that solves itself and then loads the real one
+        try:
+            page.wait_for_selector('a[href*="/jobs/details/"]', timeout=45000)
+        except Exception:
+            pass
+    html = lib.fetch_rendered(LISTING, wait_ms=2000, actions=wait_for_jobs, timeout=45000)
     if lib.is_fetch_failure(html):
         raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                              href_pattern=lib.COMMON_JOB_URL_HINTS,
-                              text_pattern=lib.COMMON_JOB_URL_HINTS)
+    links = [u for u in dict.fromkeys(lib.extract_links(html, LISTING)) if POSTING_RE.search(u)]
+    if not links and 'anubis' in html.lower():
+        raise RuntimeError('hu-berlin: still on the Anubis challenge page')
+    return links
+
+
+def find_links():
+    # the proof-of-work page sometimes fails to clear on a busy run; a
+    # second fresh attempt usually gets through
+    try:
+        return _attempt()
+    except RuntimeError:
+        lib.reset_browser()
+        return _attempt()
 
 
 def main():

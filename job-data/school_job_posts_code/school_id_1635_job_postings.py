@@ -8,14 +8,13 @@ is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
 directly to fix or improve results for University of Waterloo; nothing here affects any
 other school's script.
 
-Starting point (not a tuned answer): fetch the careers page rendered (JS
-included), then keep every link whose href or visible text looks
-job/vacancy/posting-shaped (job_postings_lib.COMMON_JOB_URL_HINTS). If this
-under- or over-collects for this school, narrow/widen that pattern, add a
-click/scroll step via fetch_rendered's `actions` argument (see
-job_postings_lib.scrape_taleo for a real example of clicking through a
-search-results page), or follow a department/pagination link with a second
-fetch_rendered/fetch_static call and merge the results.
+TUNED FIND_LINKS
+Two steps, two sources. The faculty-opportunities page links each
+faculty's own openings page (Arts, Health, Engineering, Math, Environment,
+Science); those link PDF ads (/<faculty>/sites/default/files/...pdf) or,
+in Engineering, an ad page. Several units instead post on Waterloo's Online
+Faculty Application System, whose home page lists the hiring units and
+each unit its jobs (ofas.uwaterloo.ca/job-details/<id>); both are merged.
 
 Writes school_job_posts/school_id_1635_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1635_job_postings.checkpoint next to this script.
@@ -36,13 +35,22 @@ ATS_PLATFORM = 'own website'
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
+HUB_RE = re.compile(r'^https://uwaterloo\.ca/(?!careers/)[^/?#]+/(?:[^?#]*/)?'
+                    r'(?:faculty-positions-available|employment|faculty-openings|'
+                    r'employment-opportunities)$', re.I)
+POSTING_RE = re.compile(r'^https://(?:uwaterloo\.ca/[^/?#]+/sites/default/files/[^?#]+\.pdf'
+                        r'|uwaterloo\.ca/engineering/(?:faculty-opening|full-professor)[^/?#]*'
+                        r'|ofas\.uwaterloo\.ca/job-details/\d+)$', re.I)
+OFAS_HOME = 'https://ofas.uwaterloo.ca/'
+OFAS_UNIT_RE = re.compile(r'^https://ofas\.uwaterloo\.ca/available-positions-in/[^/?#]+$', re.I)
+
+
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                              href_pattern=lib.COMMON_JOB_URL_HINTS,
-                              text_pattern=lib.COMMON_JOB_URL_HINTS)
+    links = lib.scrape_two_hop(CAREERS_LINK, HUB_RE, POSTING_RE)
+    for url in lib.scrape_two_hop(OFAS_HOME, OFAS_UNIT_RE, POSTING_RE):
+        if url not in links:
+            links.append(url)
+    return links
 
 
 def main():

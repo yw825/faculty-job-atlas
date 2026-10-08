@@ -48,7 +48,18 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint
 
 
 def fetch_detail(url):
-    return jinfo.fetch_detail_generic(url)
+    """CUSTOMIZED: each vacancy is a #section of the vacancies page; read it
+    back with the postings script's own parser."""
+    import importlib.util
+    spec = importlib.util.spec_from_file_location(
+        'iceland_postings', os.path.join(HERE, '..', 'school_job_posts_code',
+                                         f'school_id_{SCHOOL_ID}_job_postings.py'))
+    postings = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(postings)
+    for item_url, title, text in postings.vacancies(postings.page_html()):
+        if item_url == url:
+            return title, text
+    raise RuntimeError('vacancy no longer on the page: ' + url)
 
 
 def main():

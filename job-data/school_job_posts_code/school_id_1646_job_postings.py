@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 1646 - École des Hautes Études Commerciales (HEC Montréal) (Canada)
 ATS platform: Taleo (detected: taleo)
-Careers link: https://tre.tbe.taleo.net/tre01/ats/careers/v2/jobSearch?act=redirectCwsV2&cws=43&org=NYQEDG
+Careers link: https://tre.tbe.taleo.net/tre01/ats/careers/v2/searchResults?org=NYQEDG&cws=43
 
 École des Hautes Études Commerciales (HEC Montréal) runs on a shared ATS platform -- every school on taleo uses the
 exact same underlying site software, so this calls the shared
@@ -9,6 +9,10 @@ job_postings_lib.scrape_taleo adapter rather than duplicating
 platform-specific API logic here. If results for this ONE school still need
 a tweak that shouldn't apply to every taleo school, override find_links
 below instead of editing the shared adapter.
+
+TUNED FIND_LINKS
+Taleo board, read with the shared Taleo adapter from its searchResults
+page; each opening is viewRequisition?org=NYQEDG&cws=43&rid=<id>.
 
 Writes school_job_posts/school_id_1646_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1646_job_postings.checkpoint next to this script.
@@ -22,11 +26,15 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1646
 SCHOOL_NAME = 'École des Hautes Études Commerciales (HEC Montréal)'
-CAREERS_LINK = 'https://tre.tbe.taleo.net/tre01/ats/careers/v2/jobSearch?act=redirectCwsV2&cws=43&org=NYQEDG'
+CAREERS_LINK = 'https://tre.tbe.taleo.net/tre01/ats/careers/v2/searchResults?org=NYQEDG&cws=43'
 ATS_PLATFORM = 'Taleo'
 PLATFORM = 'taleo'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
+
+
+def find_links():
+    return lib.scrape_taleo(CAREERS_LINK)
 
 
 def main():

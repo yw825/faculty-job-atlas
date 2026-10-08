@@ -8,14 +8,11 @@ is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
 directly to fix or improve results for Sorbonne University; nothing here affects any
 other school's script.
 
-Starting point (not a tuned answer): fetch the careers page rendered (JS
-included), then keep every link whose href or visible text looks
-job/vacancy/posting-shaped (job_postings_lib.COMMON_JOB_URL_HINTS). If this
-under- or over-collects for this school, narrow/widen that pattern, add a
-click/scroll step via fetch_rendered's `actions` argument (see
-job_postings_lib.scrape_taleo for a real example of clicking through a
-search-results page), or follow a department/pagination link with a second
-fetch_rendered/fetch_static call and merge the results.
+TUNED FIND_LINKS
+Talentsoft board: the full list (list-of-all-jobs.aspx?all=1) links every
+offer as /offre-de-emploi/emploi-<slug>_<id>.aspx (French form; the English
+/job/job-<slug>_<id>.aspx is the same offer), deduplicated by id. The list
+takes ~10 s to render.
 
 Writes school_job_posts/school_id_1682_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1682_job_postings.checkpoint next to this script.
@@ -36,13 +33,22 @@ ATS_PLATFORM = 'own website'
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
+FULL_LIST = 'https://jobs.sorbonne-universite.fr/job/list-of-all-jobs.aspx?all=1&mode=layer'
+POSTING_RE = re.compile(r'^https://jobs\.sorbonne-universite\.fr/job/job-[^/?#]+_\d+\.aspx$', re.I)
+
+
+FULL_LIST = 'https://jobs.sorbonne-universite.fr/job/list-of-all-jobs.aspx?all=1&mode=layer'
+POSTING_RE = re.compile(r'^https://jobs\.sorbonne-universite\.fr/(?:offre-de-emploi/emploi|job/job)-[^/?#]+_\d+\.aspx$', re.I)
+
+
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                              href_pattern=lib.COMMON_JOB_URL_HINTS,
-                              text_pattern=lib.COMMON_JOB_URL_HINTS)
+    html = lib._fetch_rendered_retry(FULL_LIST, 10000)
+    by_id = {}
+    for url in lib.extract_links(html, FULL_LIST):
+        m = POSTING_RE.match(url)
+        if m:
+            by_id.setdefault(re.search(r'_(\d+)\.aspx$', url).group(1), url)
+    return list(by_id.values())
 
 
 def main():

@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1659 - University of Vienna (Austria)
 ATS platform: own website
-Careers link: https://jobs.univie.ac.at/go/Tenure-Track-(E)/8877301/
+Careers link: https://jobs.univie.ac.at/search/?createNewAlert=false&q=&optionsFacetsDD_department=&optionsFacetsDD_customfield3=&optionsFacetsDD_customfield2=&optionsFacetsDD_facility=
 
 No bulk info adapter applies to this school -- fetch_detail(url) below
 visits each posting page individually and is THIS SCHOOL'S OWN detail-page
@@ -39,7 +39,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1659
 SCHOOL_NAME = 'University of Vienna'
-CAREERS_LINK = 'https://jobs.univie.ac.at/go/Tenure-Track-(E)/8877301/'
+CAREERS_LINK = 'https://jobs.univie.ac.at/search/?createNewAlert=false&q=&optionsFacetsDD_department=&optionsFacetsDD_customfield3=&optionsFacetsDD_customfield2=&optionsFacetsDD_facility='
 ATS_PLATFORM = 'own website'
 USE_LLM = False  # set True once you have ANTHROPIC_API_KEY configured
 

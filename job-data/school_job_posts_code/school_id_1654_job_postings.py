@@ -11,6 +11,10 @@ href="#"/JS-only, with a cookie-consent overlay that has to be dismissed
 first or it intercepts the click. Confirmed live: 12 postings on page 1,
 1 more on page 2 (13 total).
 
+TUNED FIND_LINKS
+Each opening is atlas.workland.com/work/<id>/<slug>; the UQTR board
+paginates (?page=N), renders slowly, and is walked until a page adds nothing.
+
 Writes school_job_posts/school_id_1654_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1654_job_postings.checkpoint next to this script.
 """
@@ -37,38 +41,14 @@ def _work_links(html, base_url):
             if a['href'].startswith('/work/')]
 
 
+POSTING_RE = re.compile(r'^https://atlas\.workland\.com/work/\d+/[^/?#]+$', re.I)
+
+
+POSTING_RE = re.compile(r'^https://atlas\.workland\.com/work/\d+/[^/?#]+', re.I)
+
+
 def find_links():
-    b = lib.get_browser()
-    if b is None:
-        raise RuntimeError('playwright unavailable')
-    page = b.new_page(user_agent=lib.UA)
-    links, seen = [], set()
-    try:
-        page.goto(CAREERS_LINK, timeout=25000, wait_until='domcontentloaded')
-        page.wait_for_timeout(3000)
-        try:
-            accept = page.get_by_text('I accept', exact=True)
-            if accept.count() > 0:
-                accept.first.click(timeout=3000)
-                page.wait_for_timeout(1000)
-        except Exception:
-            pass
-        page.wait_for_timeout(3000)
-        for u in _work_links(page.content(), CAREERS_LINK):
-            if u not in seen:
-                seen.add(u)
-                links.append(u)
-        next_page = page.locator('a.page-link', has_text='2')
-        if next_page.count() > 0:
-            next_page.first.click(timeout=5000)
-            page.wait_for_timeout(5000)
-            for u in _work_links(page.content(), CAREERS_LINK):
-                if u not in seen:
-                    seen.add(u)
-                    links.append(u)
-    finally:
-        page.close()
-    return links
+    return lib.scrape_paged_board(CAREERS_LINK, POSTING_RE, wait_ms=8000)
 
 
 def main():
