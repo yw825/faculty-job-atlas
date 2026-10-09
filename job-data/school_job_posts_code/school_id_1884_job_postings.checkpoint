@@ -1,9 +1,17 @@
 {
-  "links": [],
+  "links": [
+    "https://my.corehr.com/pls/tudrecruit/erq_jobspec_version_4.jobspec?p_id=045423",
+    "https://my.corehr.com/pls/tudrecruit/erq_jobspec_version_4.jobspec?p_id=045383",
+    "https://my.corehr.com/pls/tudrecruit/erq_jobspec_version_4.jobspec?p_id=045163",
+    "https://my.corehr.com/pls/tudrecruit/erq_jobspec_version_4.jobspec?p_id=045363",
+    "https://my.corehr.com/pls/tudrecruit/erq_jobspec_version_4.jobspec?p_id=045263",
+    "https://my.corehr.com/pls/tudrecruit/erq_jobspec_version_4.jobspec?p_id=045324",
+    "https://my.corehr.com/pls/tudrecruit/erq_jobspec_version_4.jobspec?p_id=045283"
+  ],
   "school_id": 1884,
   "status": "complete",
-  "updated_at": "2026-10-05T21:25:16+00:00",
+  "updated_at": "2026-10-09T17:49:20+00:00",
   "started_at": "2026-10-05T21:25:10+00:00",
-  "completed_at": "2026-10-05T21:25:16+00:00",
+  "completed_at": "2026-10-09T17:49:20+00:00",
   "last_error": ""
 }

@@ -1,9 +1,71 @@
 {
-  "raw": {},
-  "rows": {},
+  "raw": {
+    "https://my.corehr.com/pls/mturecruit/erq_jobspec_version_4.jobspec?p_id=028056": {
+      "title": "Assistant Lecturer - Pharmacy (9 hrs per week) (Kerry Campus)",
+      "description": "Assistant Lecturer - Pharmacy (9 hrs per week) (Kerry Campus) "
+    },
+    "https://my.corehr.com/pls/mturecruit/erq_jobspec_version_4.jobspec?p_id=028055": {
+      "title": "Grade V - NEDS (National Entrepreneurship Development Scheme)",
+      "description": "Grade V - NEDS (National Entrepreneurship Development Scheme) "
+    },
+    "https://my.corehr.com/pls/mturecruit/erq_jobspec_version_4.jobspec?p_id=028057": {
+      "title": "Lecturer - Bioprocessing & Biomanufacturing (Kerry Campus)",
+      "description": "Lecturer - Bioprocessing & Biomanufacturing (Kerry Campus) "
+    },
+    "https://my.corehr.com/pls/mturecruit/erq_jobspec_version_4.jobspec?p_id=027995": {
+      "title": "Research Assistant - Circular BioEconomy & Irish Bioresources",
+      "description": "Research Assistant - Circular BioEconomy & Irish Bioresources "
+    }
+  },
+  "rows": {
+    "https://my.corehr.com/pls/mturecruit/erq_jobspec_version_4.jobspec?p_id=028056": {
+      "school_id": 1885,
+      "posting_url": "https://my.corehr.com/pls/mturecruit/erq_jobspec_version_4.jobspec?p_id=028056",
+      "job_title_in_post": "Assistant Lecturer - Pharmacy (9 hrs per week) (Kerry Campus)",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://my.corehr.com/pls/mturecruit/erq_jobspec_version_4.jobspec?p_id=028055": {
+      "school_id": 1885,
+      "posting_url": "https://my.corehr.com/pls/mturecruit/erq_jobspec_version_4.jobspec?p_id=028055",
+      "job_title_in_post": "Grade V - NEDS (National Entrepreneurship Development Scheme)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://my.corehr.com/pls/mturecruit/erq_jobspec_version_4.jobspec?p_id=028057": {
+      "school_id": 1885,
+      "posting_url": "https://my.corehr.com/pls/mturecruit/erq_jobspec_version_4.jobspec?p_id=028057",
+      "job_title_in_post": "Lecturer - Bioprocessing & Biomanufacturing (Kerry Campus)",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://my.corehr.com/pls/mturecruit/erq_jobspec_version_4.jobspec?p_id=027995": {
+      "school_id": 1885,
+      "posting_url": "https://my.corehr.com/pls/mturecruit/erq_jobspec_version_4.jobspec?p_id=027995",
+      "job_title_in_post": "Research Assistant - Circular BioEconomy & Irish Bioresources",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    }
+  },
   "school_id": 1885,
   "status": "complete",
-  "updated_at": "2026-10-06T02:27:11+00:00",
-  "completed_at": "2026-10-06T02:27:11+00:00",
+  "updated_at": "2026-10-09T17:50:18+00:00",
+  "completed_at": "2026-10-09T17:50:18+00:00",
   "last_error": ""
 }

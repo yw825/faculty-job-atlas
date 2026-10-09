@@ -1,9 +1,14 @@
 {
-  "links": [],
+  "links": [
+    "https://my.corehr.com/pls/mturecruit/erq_jobspec_version_4.jobspec?p_id=028056",
+    "https://my.corehr.com/pls/mturecruit/erq_jobspec_version_4.jobspec?p_id=028055",
+    "https://my.corehr.com/pls/mturecruit/erq_jobspec_version_4.jobspec?p_id=028057",
+    "https://my.corehr.com/pls/mturecruit/erq_jobspec_version_4.jobspec?p_id=027995"
+  ],
   "school_id": 1885,
   "status": "complete",
-  "updated_at": "2026-10-05T21:25:48+00:00",
+  "updated_at": "2026-10-09T17:49:22+00:00",
   "started_at": "2026-10-05T21:25:42+00:00",
-  "completed_at": "2026-10-05T21:25:48+00:00",
+  "completed_at": "2026-10-09T17:49:22+00:00",
   "last_error": ""
 }

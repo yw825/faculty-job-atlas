@@ -1,7 +1,7 @@
 """
-Job info scraper for school_id 1885 - Munster Technological University (Ireland)
+Job info scraper for school_id 1911 - Dundalk Institute of Technology (Ireland)
 ATS platform: CoreHR
-Careers link: https://my.corehr.com/pls/mturecruit/erq_search_package.search_form?p_company=1&p_internal_external=E
+Careers link: https://my.corehr.com/pls/esbshedkitrecruit/erq_search_package.search_form?p_company=14&p_internal_external=E
 
 Each posting (.../erq_jobspec_version_4.jobspec?p_id=<id>) is a stub page that
 auto-submits a form to the job's details; jinfo.fetch_detail_corehr submits it
@@ -9,8 +9,8 @@ and reads the vacancy-details cells. Where a job page has no title of its own,
 the title is taken from the search-results row (same search the postings
 script runs, cached for the run).
 
-Writes school_job_info/school_id_1885_job_info.csv. Checkpointed to
-school_id_1885_job_info.checkpoint next to this script -- kill-and-resume,
+Writes school_job_info/school_id_1911_job_info.csv. Checkpointed to
+school_id_1911_job_info.checkpoint next to this script -- kill-and-resume,
 per-posting granularity.
 """
 import os
@@ -20,9 +20,9 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.dirname(HERE))
 import job_info_lib as jinfo
 
-SCHOOL_ID = 1885
-SCHOOL_NAME = 'Munster Technological University'
-CAREERS_LINK = 'https://my.corehr.com/pls/mturecruit/erq_search_package.search_form?p_company=1&p_internal_external=E'
+SCHOOL_ID = 1911
+SCHOOL_NAME = 'Dundalk Institute of Technology'
+CAREERS_LINK = 'https://my.corehr.com/pls/esbshedkitrecruit/erq_search_package.search_form?p_company=14&p_internal_external=E'
 ATS_PLATFORM = 'CoreHR'
 COMPETITION_TYPE = None
 USE_LLM = False  # set True once you have ANTHROPIC_API_KEY configured

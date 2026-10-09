@@ -1,7 +1,7 @@
 """
-Job postings scraper for school_id 1884 - Technological University Dublin (Ireland)
+Job postings scraper for school_id 1915 - South East Technological University (Ireland)
 ATS platform: CoreHR
-Careers link: https://my.corehr.com/pls/tudrecruit/erq_search_package.search_form?p_company=1&p_internal_external=E
+Careers link: https://my.corehr.com/pls/esbsheseturecruit/erq_search_package.search_form?p_company=1&p_internal_external=E
 
 HOW THIS BOARD IS READ
 The board is CoreHR. Opening its start_search_with_params URL directly shows
@@ -12,8 +12,8 @@ each job as CoreHR's own share link, .../erq_jobspec_version_4.jobspec?p_id=<id>
 which opens that job directly. It refuses a result short of the board's own
 "Your search returned N results" count.
 
-Writes school_job_posts/school_id_1884_job_posts.csv (school_id, post_link).
-Checkpointed to school_id_1884_job_postings.checkpoint next to this script.
+Writes school_job_posts/school_id_1915_job_posts.csv (school_id, post_link).
+Checkpointed to school_id_1915_job_postings.checkpoint next to this script.
 """
 import os
 import sys
@@ -22,9 +22,9 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.dirname(HERE))
 import job_postings_lib as lib
 
-SCHOOL_ID = 1884
-SCHOOL_NAME = 'Technological University Dublin'
-CAREERS_LINK = 'https://my.corehr.com/pls/tudrecruit/erq_search_package.search_form?p_company=1&p_internal_external=E'
+SCHOOL_ID = 1915
+SCHOOL_NAME = 'South East Technological University'
+CAREERS_LINK = 'https://my.corehr.com/pls/esbsheseturecruit/erq_search_package.search_form?p_company=1&p_internal_external=E'
 ATS_PLATFORM = 'CoreHR'
 COMPETITION_TYPE = None
 

@@ -1978,6 +1978,12 @@ def fetch_detail_corehr(url):
     heading = soup.find('td', class_='erq_searchv4_heading1')
     title = heading.get_text(' ', strip=True) if heading else ''
     description = re.sub(r'\s+', ' ', ' '.join(c.get_text(' ', strip=True) for c in cells))
+    # TU Dublin's tenant puts the bare closing date ("30-Oct-2026") where other
+    # tenants put the title: treat it as the deadline and let the caller take
+    # the title from the search results.
+    if re.fullmatch(r'\d{1,2}-[A-Za-z]{3}-\d{4}', title):
+        description = f'Close Date : {title} ' + description
+        title = ''
     # Closing dates come as CoreHR's field ("Close Date : 27-Oct-2026 12:00")
     # or in the ad's prose ("Closing date: Friday, 9th October 2026", "12:00
     # noon (local Irish time) on 13 October 2026"). extract_deadline reads
