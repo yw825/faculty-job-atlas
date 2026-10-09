@@ -24,7 +24,24 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint
 
 
 def fetch_detail(url):
-    return jinfo.fetch_detail_generic(url)
+    """Title and deadline from the research-positions table row that links
+    this PDF ("Assistant Professor in Quantitative Marketing", "October 1st,
+    2026"); description from the PDF itself."""
+    import re
+    from bs4 import BeautifulSoup
+    status, html = jinfo.jlib.fetch_static(CAREERS_LINK, timeout=40)
+    title, lead = '', ''
+    if status == 200:
+        for row in BeautifulSoup(html, 'html.parser').find_all('tr'):
+            a = row.find('a', href=True)
+            if a and a['href'].split('/')[-1] == url.split('/')[-1]:
+                cells = [c.get_text(' ', strip=True) for c in row.find_all('td')]
+                title = re.sub(r'\s*Download PDF\s*$', '', cells[0]) if cells else ''
+                if len(cells) >= 3:
+                    lead = f'Deadline: {cells[-2]} '
+                break
+    pdf_title, text = jinfo.fetch_detail_pdf(url)
+    return (title or pdf_title)[:250], (lead + re.sub(r'\s+', ' ', text))[:20000]
 
 
 def main():

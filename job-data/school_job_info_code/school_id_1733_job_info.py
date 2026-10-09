@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1733 - Universidade de Coimbra (Portugal)
 ATS platform: own website
-Careers link: https://www.uc.pt/en/adai/open-positions/
+Careers link: https://www.apply.uc.pt/
 
 No bulk info adapter applies to this school -- fetch_detail(url) below
 visits each posting page individually and is THIS SCHOOL'S OWN detail-page
@@ -11,8 +11,8 @@ need something the default doesn't handle (a click to reveal full text, a
 login wall, a non-obvious title element, etc.); nothing here affects any
 other school's script.
 
-Default: render the page, take the first heading (or <title>) as the job
-title and the page's visible text as the description.
+TUNED: fetch_detail builds the call from its UC Apply record (rank, area,
+sub-area, seats, application dates, contract type).
 
 Reads posting URLs from school_id_1733_job_postings.checkpoint (this
 school's job_postings run) and classifies each one (position_type,
@@ -39,7 +39,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1733
 SCHOOL_NAME = 'Universidade de Coimbra'
-CAREERS_LINK = 'https://www.uc.pt/en/adai/open-positions/'
+CAREERS_LINK = 'https://www.apply.uc.pt/'
 ATS_PLATFORM = 'own website'
 USE_LLM = False  # set True once you have ANTHROPIC_API_KEY configured
 
@@ -48,7 +48,33 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint
 
 
 def fetch_detail(url):
-    return jinfo.fetch_detail_generic(url)
+    """The call's UC Apply record (the procedure page is a JavaScript app):
+    "Full Professor: Chemistry / Organic Chemistry, ..." plus the opening
+    and closing dates, seats and contract terms."""
+    import re
+    key = url.rstrip('/').rsplit('/', 1)[-1]
+    rec = jinfo.jlib.uc_apply_calls().get(key)
+    if rec is None:
+        raise RuntimeError('call not in UC Apply search')
+    rank = (rec.get('professional_category_key') or '').replace('_', ' ').title() or 'Faculty position'
+    area = re.sub(r'\s+', ' ', (rec.get('area') or {}).get('en') or (rec.get('area') or {}).get('pt') or '').strip()
+    sub = re.sub(r'\s+', ' ', (rec.get('sub_area') or {}).get('en') or '').strip()
+    if sub.strip(' -./').lower() in ('', 'n/a', 'na', 'n.a', '---', area.lower()):
+        sub = ''
+    title = f'{rank}: {area}' + (f' / {sub}' if sub else '')
+    fmt = lambda d: '/'.join(reversed(d.split('-'))) if d else ''
+    parts = []
+    if rec.get('applications_end'):
+        parts.append('Closing Date: ' + fmt(rec['applications_end']))
+    if rec.get('applications_start'):
+        parts.append('Applications open: ' + fmt(rec['applications_start']))
+    if rec.get('publish_date'):
+        parts.append('Posted Date: ' + fmt(rec['publish_date']))
+    parts.append(f"Reference: {rec.get('prefix') or ''}{rec.get('code') or ''}")
+    parts.append(f"Positions: {rec.get('number_of_seats') or 1}")
+    parts.append(f"Contract: {(rec.get('term_type') or '').replace('_', ' ')}; competition: {rec.get('category_type') or ''}")
+    parts.append(f"Universidade de Coimbra -- {rank} in {area}" + (f' ({sub})' if sub else '') + '.')
+    return title[:250], ' '.join(parts)
 
 
 def main():

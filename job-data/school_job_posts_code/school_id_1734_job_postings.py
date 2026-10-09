@@ -1,25 +1,20 @@
 """
 Job postings scraper for school_id 1734 - Universidade de Lisboa (Portugal)
-ATS platform: own website
 Careers link: https://www.ulisboa.pt/en/info/recruitment
 
-No shared ATS platform adapter applies to this school -- find_links() below
-is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
-directly to fix or improve results for Universidade de Lisboa; nothing here affects any
-other school's script.
-
-Starting point (not a tuned answer): fetch the careers page rendered (JS
-included), then keep every link whose href or visible text looks
-job/vacancy/posting-shaped (job_postings_lib.COMMON_JOB_URL_HINTS). If this
-under- or over-collects for this school, narrow/widen that pattern, add a
-click/scroll step via fetch_rendered's `actions` argument (see
-job_postings_lib.scrape_taleo for a real example of clicking through a
-search-results page), or follow a department/pagination link with a second
-fetch_rendered/fetch_static call and merge the results.
+TUNED FIND_LINKS
+ULisboa's recruitment list covers every school of the university (Técnico,
+Faculties of Sciences, Medicine, Law, ...): pages ?page=0.. of
+/en/recrutamento/<edital> calls, newest first. Each call page states the
+Professional Category, Unit and Deadline (dd/mm/yyyy); calls past their
+deadline are skipped, and since the list is newest first, paging stops after
+8 closed calls in a row. The old scraper stored the edital PDFs instead of
+the call pages (the user's example is a call page).
 
 Writes school_job_posts/school_id_1734_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1734_job_postings.checkpoint next to this script.
 """
+import datetime
 import os
 import re
 import sys
@@ -37,12 +32,32 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkp
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                              href_pattern=lib.COMMON_JOB_URL_HINTS,
-                              text_pattern=lib.COMMON_JOB_URL_HINTS)
+    today = datetime.date.today()
+    calls = []
+    for page in range(0, 20):
+        status, html = lib.fetch_static(f'{CAREERS_LINK}?page={page}', timeout=40)
+        if status != 200:
+            if page == 0:
+                raise RuntimeError(f'recruitment list status={status}')
+            break
+        new = [h for h in re.findall(r'href="(/en/recrutamento/[^"#?]+)"', html) if h not in calls]
+        if not new:
+            break
+        calls += new
+    links, closed_run = [], 0
+    for path in calls:
+        url = 'https://www.ulisboa.pt' + path
+        status, html = lib.fetch_static(url, timeout=40)
+        m = re.search(r'Deadline\s*</[^>]+>\s*(?:<[^>]+>\s*)*(\d{2})/(\d{2})/(\d{4})', html or '') \
+            or re.search(r'Deadline\D{0,200}?(\d{2})/(\d{2})/(\d{4})', re.sub(r'<[^>]+>', ' ', html or ''))
+        if m and datetime.date(int(m[3]), int(m[2]), int(m[1])) < today:
+            closed_run += 1
+            if closed_run >= 8:
+                break
+            continue
+        closed_run = 0
+        links.append(url)
+    return links
 
 
 def main():

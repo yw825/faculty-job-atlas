@@ -1,25 +1,19 @@
 """
 Job postings scraper for school_id 1732 - Nova School of Business and Economics (Portugal)
-ATS platform: own website
-Careers link: https://www.novasbe.unl.pt/en/about-us/join-our-school/faculty-and-researchers?_gl=1*1dkl70r*_up*MQ..*_ga*MTQ3NjQyMTUwOC4xNzg4Mjg5Nzc1*_ga_NRJH2682FN*czE3ODgyODk3NzMkbzEkZzAkdDE3ODgyODk3NzMkajYwJGwwJGg3NTg5MTkxNDk.
+Careers link: https://www.novasbe.unl.pt/en/about-us/join-our-school/faculty-and-researchers
 
-No shared ATS platform adapter applies to this school -- find_links() below
-is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
-directly to fix or improve results for Nova School of Business and Economics; nothing here affects any
-other school's script.
-
-Starting point (not a tuned answer): fetch the careers page rendered (JS
-included), then keep every link whose href or visible text looks
-job/vacancy/posting-shaped (job_postings_lib.COMMON_JOB_URL_HINTS). If this
-under- or over-collects for this school, narrow/widen that pattern, add a
-click/scroll step via fetch_rendered's `actions` argument (see
-job_postings_lib.scrape_taleo for a real example of clicking through a
-search-results page), or follow a department/pagination link with a second
-fetch_rendered/fetch_static call and merge the results.
+TUNED FIND_LINKS
+Nova SBE's "Faculty & Researchers" page (rendered -- the static HTML
+lacks the openings) shows the CURRENT openings as announcement PDFs in a
+carousel, followed by a "Previous Openings" section of past notices and
+their "Definitive List" results. Only PDF links before "Previous Openings"
+are collected; the old scraper also took past notices, a 2019 call and
+the PhD job-market candidates page.
 
 Writes school_job_posts/school_id_1732_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1732_job_postings.checkpoint next to this script.
 """
+import datetime
 import os
 import re
 import sys
@@ -30,19 +24,26 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1732
 SCHOOL_NAME = 'Nova School of Business and Economics'
-CAREERS_LINK = 'https://www.novasbe.unl.pt/en/about-us/join-our-school/faculty-and-researchers?_gl=1*1dkl70r*_up*MQ..*_ga*MTQ3NjQyMTUwOC4xNzg4Mjg5Nzc1*_ga_NRJH2682FN*czE3ODgyODk3NzMkbzEkZzAkdDE3ODgyODk3NzMkajYwJGwwJGg3NTg5MTkxNDk.'
+CAREERS_LINK = 'https://www.novasbe.unl.pt/en/about-us/join-our-school/faculty-and-researchers'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                              href_pattern=lib.COMMON_JOB_URL_HINTS,
-                              text_pattern=lib.COMMON_JOB_URL_HINTS)
+    html = lib._fetch_rendered_retry(CAREERS_LINK, 5000)
+    if 'Previous Openings' not in html and 'Faculty' not in html:
+        raise RuntimeError('faculty page did not render')
+    current = html.split('Previous Openings', 1)[0]
+    from urllib.parse import urljoin
+    links = []
+    for href, label in re.findall(r'<a[^>]+href="([^"]+\.pdf[^"]*)"[^>]*>(.*?)</a>', current, re.S | re.I):
+        if re.search(r'(?i)definitive|lista|result', label + href):
+            continue
+        url = urljoin('https://www.novasbe.unl.pt/', href.replace('&amp;', '&'))
+        if url not in links:
+            links.append(url)
+    return links
 
 
 def main():

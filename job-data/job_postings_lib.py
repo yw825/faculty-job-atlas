@@ -1351,6 +1351,45 @@ def scrape_poland_nauka(url, school_name):
     return [u for u, inst, exp in nauka_listing() if _fold(inst).startswith(prefix) and still_open(exp)]
 
 
+# University of Coimbra's UC Apply (apply.uc.pt): a Nuxt app whose search
+# results come from a JSON service; a plain GET of its /search page returns
+# only the home page. Group keys are UC Apply's own procedure types.
+UC_APPLY_GROUPS = {'69536e': 'Docentes', '619953': 'Investigadores', '723541': 'Investigadores DL 57'}
+_UC_APPLY_CACHE = {}
+
+
+def uc_apply_calls(groups=tuple(UC_APPLY_GROUPS)):
+    """{procedure key: record} for every UC Apply procedure of the given
+    types (professors and researchers by default -- research grants,
+    technical staff and managers are other groups), cached per process.
+    A record carries professional_category_key, area/sub_area in pt and en,
+    applications_start/end and number_of_seats; the public page of one call
+    is https://www.apply.uc.pt/procedure/<key>."""
+    if groups in _UC_APPLY_CACHE:
+        return _UC_APPLY_CACHE[groups]
+    headers = {'Accept': 'application/json', 'Referer': 'https://www.apply.uc.pt/',
+               'Origin': 'https://www.apply.uc.pt'}
+    out = {}
+    for group in groups:
+        page = 1
+        while page <= 40:
+            body = {'items': {'pagination': {'current_page': page, 'active_limit': 30},
+                              'filters': [{'field_name': 'group_key', 'comparison_operator': '==',
+                                           'value': group, 'logical_operator': 'AND'}]}}
+            status, text = fetch_static('https://applynext.fw.uc.pt/v1/search', method='POST',
+                                        json_body=body, timeout=40, extra_headers=headers)
+            if status != 200:
+                raise RuntimeError(f'UC Apply search status={status}')
+            items = json.loads(text)['items']
+            for rec in items.get('items') or []:
+                out[rec['key']] = rec
+            if page >= (items.get('pagination') or {}).get('total_pages', 1):
+                break
+            page += 1
+    _UC_APPLY_CACHE[groups] = out
+    return out
+
+
 # --------------------------------------------------------------------------
 # Taleo: covers both product UIs seen in this dataset.
 #  - TBE ("...tbe.taleo.net/.../jobSearch?...")): a search-FORM page whose

@@ -11,8 +11,8 @@ need something the default doesn't handle (a click to reveal full text, a
 login wall, a non-obvious title element, etc.); nothing here affects any
 other school's script.
 
-Default: render the page, take the first heading (or <title>) as the job
-title and the page's visible text as the description.
+TUNED: fetch_detail reads the call page's fields (category, area, unit,
+deadline) and gives an English title.
 
 Reads posting URLs from school_id_1734_job_postings.checkpoint (this
 school's job_postings run) and classifies each one (position_type,
@@ -48,7 +48,35 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint
 
 
 def fetch_detail(url):
-    return jinfo.fetch_detail_generic(url)
+    """A ULisboa call page: the h1 is the Portuguese edital title ("Edital
+    n.º 1236/2026 concurso para dois professores catedráticos, na área
+    disciplinar de Psicologia Aplicada"); the English Professional Category
+    and Unit fields give "Full Professor, Psicologia Aplicada - Faculty of
+    Psychology". The Deadline is restated as a Closing Date."""
+    import re
+    from bs4 import BeautifulSoup
+    status, html = jinfo.jlib.fetch_static(url, timeout=40)
+    if status != 200:
+        raise RuntimeError(f'call page status={status}')
+    soup = BeautifulSoup(html, 'html.parser')
+    main = soup.find('main') or soup
+    for tag in main(['script', 'style', 'nav', 'header', 'footer']):
+        tag.decompose()
+    text = re.sub(r'\s+', ' ', main.get_text(' ', strip=True))
+    stop = r'(?= (?:Código|Professional Category|N\.º de Vagas|Career|Deadline|Unit|Tipo de Oferta|Target|Characterisation|Perfil|Anexos)\b)'
+    field = lambda k: (re.search(k + r' (.+?)' + stop, text) or [None, ''])[1].strip()
+    h1 = soup.find('h1')
+    head = re.sub(r'\s+', ' ', h1.get_text(' ', strip=True)) if h1 else ''
+    area = (re.search(r'(?i)área(?: disciplinar)? (?:de|em) (.+)$', head) or [None, ''])[1].strip(' .')
+    area = re.sub(r'\s*\(exec_senten[çc]a\)', '', area)
+    ranks = [(r'catedr', 'Full Professor'), (r'associad', 'Associate Professor'), (r'auxiliar', 'Assistant Professor'),
+             (r'coordenador', 'Coordinating Professor'), (r'adjunt', 'Adjunct Professor'), (r'investigador', 'Researcher')]
+    rank = field('Professional Category') or next((en for pt, en in ranks if re.search(r'(?i)professor(?:es)? ' + pt + '|' + pt + r'\w* ', head)), 'Faculty position')
+    unit = field('Unit')
+    title = rank + (f', {area}' if area else '') + (f' - {unit}' if unit else '')
+    deadline = field('Deadline')
+    lead = (f'Closing Date: {deadline} ' if re.match(r'\d{2}/\d{2}/\d{4}', deadline) else '') + (f'Department: {unit} ' if unit else '')
+    return title[:250], (lead + head + ' ' + text)[:20000]
 
 
 def main():

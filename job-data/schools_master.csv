@@ -1362,8 +1362,8 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes,scrap
 1729,Jagiellonian University,Poland,https://www.uj.edu.pl/,https://bazaogloszen.nauka.gov.pl/wyniki-wyszukiwania/,Poland national portal,high,hand-verified-sync,adapter built
 1730,University of Warsaw,Poland,https://www.uw.edu.pl/,https://bazaogloszen.nauka.gov.pl/wyniki-wyszukiwania/,Poland national portal,high,hand-verified-sync,adapter built
 1731,Warsaw School of Economics,Poland,https://www.sgh.waw.pl/,https://bazaogloszen.nauka.gov.pl/wyniki-wyszukiwania/,Poland national portal,high,hand-verified-sync,adapter built
-1732,Nova School of Business and Economics,Portugal,https://www.novasbe.unl.pt/,https://www.novasbe.unl.pt/en/about-us/join-our-school/faculty-and-researchers?_gl=1*1dkl70r*_up*MQ..*_ga*MTQ3NjQyMTUwOC4xNzg4Mjg5Nzc1*_ga_NRJH2682FN*czE3ODgyODk3NzMkbzEkZzAkdDE3ODgyODk3NzMkajYwJGwwJGg3NTg5MTkxNDk.,own website,high,hand-verified-sync,generic scraper
-1733,Universidade de Coimbra,Portugal,https://www.uc.pt/,https://www.uc.pt/en/adai/open-positions/,own website,high,hand-verified-sync,generic scraper
+1732,Nova School of Business and Economics,Portugal,https://www.novasbe.unl.pt/,https://www.novasbe.unl.pt/en/about-us/join-our-school/faculty-and-researchers,own website,high,hand-verified-sync,generic scraper
+1733,Universidade de Coimbra,Portugal,https://www.uc.pt/,https://www.apply.uc.pt/,own website,high,hand-verified-sync,generic scraper
 1734,Universidade de Lisboa,Portugal,https://www.ulisboa.pt/,https://www.ulisboa.pt/en/info/recruitment,own website,high,hand-verified-sync,generic scraper
 1735,Universidade do Porto,Portugal,https://www.up.pt/,https://sigarra.up.pt/up/en/p/recrutamento,own website,high,hand-verified-sync,generic scraper
 1739,ESADE Business School,Spain,https://www.esade.edu/,https://esadefaculty.teamtailor.com/jobs,own website,high,hand-verified-sync,generic scraper

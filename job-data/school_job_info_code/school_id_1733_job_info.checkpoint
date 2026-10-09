@@ -1,9 +1,86 @@
 {
-  "raw": {},
-  "rows": {},
+  "raw": {
+    "https://www.apply.uc.pt/procedure/uyve28i66jcpfp4x": {
+      "title": "Full Professor: Chemistry / Organic Chemistry, Polymer Chemistry or Photochemistry",
+      "description": "Closing Date: 20/11/2026 Applications open: 12/10/2026 Posted Date: 09/10/2026 Reference: IT136-26-28 Positions: 1 Contract: indefinite; competition: international Universidade de Coimbra -- Full Professor in Chemistry (Organic Chemistry, Polymer Chemistry or Photochemistry)."
+    },
+    "https://www.apply.uc.pt/procedure/w857ex138y9yvdlp": {
+      "title": "Full Professor: Information Science",
+      "description": "Closing Date: 02/11/2026 Applications open: 21/09/2026 Posted Date: 18/09/2026 Reference: IT136-26-34 Positions: 1 Contract: indefinite; competition: international Universidade de Coimbra -- Full Professor in Information Science."
+    },
+    "https://www.apply.uc.pt/procedure/dmnrfnzrwvj3afw0": {
+      "title": "Assistant Professor: Artistic Studies / Music Studies - Music Theory and Analysis and Music Performance Studies",
+      "description": "Closing Date: 10/11/2026 Applications open: 29/09/2026 Posted Date: 28/09/2026 Reference: IT136-26-37 Positions: 1 Contract: indefinite; competition: international Universidade de Coimbra -- Assistant Professor in Artistic Studies (Music Studies - Music Theory and Analysis and Music Performance Studies)."
+    },
+    "https://www.apply.uc.pt/procedure/y5n8i52elgqkma3d": {
+      "title": "Full Professor: Direito / Juridico-Empresariais",
+      "description": "Closing Date: 06/11/2026 Applications open: 25/09/2026 Posted Date: 24/09/2026 Reference: IT136-26-35 Positions: 1 Contract: indefinite fp; competition: international Universidade de Coimbra -- Full Professor in Direito (Juridico-Empresariais)."
+    },
+    "https://www.apply.uc.pt/procedure/n27xeui3r94sxj69": {
+      "title": "Full Professor: Mechanical Engineering",
+      "description": "Closing Date: 28/10/2026 Applications open: 16/09/2026 Posted Date: 15/09/2026 Reference: IT136-26-43 Positions: 1 Contract: indefinite; competition: international Universidade de Coimbra -- Full Professor in Mechanical Engineering."
+    }
+  },
+  "rows": {
+    "https://www.apply.uc.pt/procedure/uyve28i66jcpfp4x": {
+      "school_id": 1733,
+      "posting_url": "https://www.apply.uc.pt/procedure/uyve28i66jcpfp4x",
+      "job_title_in_post": "Full Professor: Chemistry / Organic Chemistry, Polymer Chemistry or Photochemistry",
+      "position_type": "Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Polymer Chemistry or Photochemistry",
+      "deadline_of_application": "20/11/2026",
+      "position_start_date": ""
+    },
+    "https://www.apply.uc.pt/procedure/w857ex138y9yvdlp": {
+      "school_id": 1733,
+      "posting_url": "https://www.apply.uc.pt/procedure/w857ex138y9yvdlp",
+      "job_title_in_post": "Full Professor: Information Science",
+      "position_type": "Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Information Science",
+      "deadline_of_application": "02/11/2026",
+      "position_start_date": ""
+    },
+    "https://www.apply.uc.pt/procedure/dmnrfnzrwvj3afw0": {
+      "school_id": 1733,
+      "posting_url": "https://www.apply.uc.pt/procedure/dmnrfnzrwvj3afw0",
+      "job_title_in_post": "Assistant Professor: Artistic Studies / Music Studies - Music Theory and Analysis and Music Performance Studies",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Music Theory and Analysis and Music Performance Studies",
+      "deadline_of_application": "10/11/2026",
+      "position_start_date": ""
+    },
+    "https://www.apply.uc.pt/procedure/y5n8i52elgqkma3d": {
+      "school_id": 1733,
+      "posting_url": "https://www.apply.uc.pt/procedure/y5n8i52elgqkma3d",
+      "job_title_in_post": "Full Professor: Direito / Juridico-Empresariais",
+      "position_type": "Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Direito / Juridico-Empresariais",
+      "deadline_of_application": "06/11/2026",
+      "position_start_date": ""
+    },
+    "https://www.apply.uc.pt/procedure/n27xeui3r94sxj69": {
+      "school_id": 1733,
+      "posting_url": "https://www.apply.uc.pt/procedure/n27xeui3r94sxj69",
+      "job_title_in_post": "Full Professor: Mechanical Engineering",
+      "position_type": "Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Mechanical Engineering",
+      "deadline_of_application": "28/10/2026",
+      "position_start_date": ""
+    }
+  },
   "school_id": 1733,
   "status": "complete",
-  "updated_at": "2026-10-06T03:18:14+00:00",
-  "completed_at": "2026-10-06T03:18:14+00:00",
+  "updated_at": "2026-10-09T19:16:14+00:00",
+  "completed_at": "2026-10-09T19:16:14+00:00",
   "last_error": ""
 }

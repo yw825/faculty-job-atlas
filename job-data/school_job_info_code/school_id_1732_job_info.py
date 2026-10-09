@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1732 - Nova School of Business and Economics (Portugal)
 ATS platform: own website
-Careers link: https://www.novasbe.unl.pt/en/about-us/join-our-school/faculty-and-researchers?_gl=1*1dkl70r*_up*MQ..*_ga*MTQ3NjQyMTUwOC4xNzg4Mjg5Nzc1*_ga_NRJH2682FN*czE3ODgyODk3NzMkbzEkZzAkdDE3ODgyODk3NzMkajYwJGwwJGg3NTg5MTkxNDk.
+Careers link: https://www.novasbe.unl.pt/en/about-us/join-our-school/faculty-and-researchers
 
 No bulk info adapter applies to this school -- fetch_detail(url) below
 visits each posting page individually and is THIS SCHOOL'S OWN detail-page
@@ -11,8 +11,7 @@ need something the default doesn't handle (a click to reveal full text, a
 login wall, a non-obvious title element, etc.); nothing here affects any
 other school's script.
 
-Default: render the page, take the first heading (or <title>) as the job
-title and the page's visible text as the description.
+TUNED: fetch_detail reads the announcement PDF.
 
 Reads posting URLs from school_id_1732_job_postings.checkpoint (this
 school's job_postings run) and classifies each one (position_type,
@@ -39,7 +38,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1732
 SCHOOL_NAME = 'Nova School of Business and Economics'
-CAREERS_LINK = 'https://www.novasbe.unl.pt/en/about-us/join-our-school/faculty-and-researchers?_gl=1*1dkl70r*_up*MQ..*_ga*MTQ3NjQyMTUwOC4xNzg4Mjg5Nzc1*_ga_NRJH2682FN*czE3ODgyODk3NzMkbzEkZzAkdDE3ODgyODk3NzMkajYwJGwwJGg3NTg5MTkxNDk.'
+CAREERS_LINK = 'https://www.novasbe.unl.pt/en/about-us/join-our-school/faculty-and-researchers'
 ATS_PLATFORM = 'own website'
 USE_LLM = False  # set True once you have ANTHROPIC_API_KEY configured
 
@@ -48,7 +47,13 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint
 
 
 def fetch_detail(url):
-    return jinfo.fetch_detail_generic(url)
+    """An announcement PDF; its first lines name the position."""
+    import re
+    title, text = jinfo.fetch_detail_pdf(url)
+    lines = [l.strip() for l in text.splitlines() if l.strip()]
+    pick = next((l for l in lines[:25] if re.search(r'(?i)professor|faculty|position|researcher|lecturer', l) and len(l) < 160), '')
+    pick = re.sub(r'\s+(?:at|in|of|for)$', '', pick)
+    return (pick or title)[:250], re.sub(r'\s+', ' ', text)[:20000]
 
 
 def main():
