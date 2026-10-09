@@ -2048,6 +2048,51 @@ def fetch_detail_mur(url):
     return title[:250], (head + body)[:20000]
 
 
+_NAUKA_RANKS = [('profesor uczelni', 'University Professor'), ('profesor', 'Full Professor'),
+                ('starszy wykladowca', 'Senior Lecturer'), ('wykladowca', 'Lecturer'),
+                ('adiunkt', 'Assistant Professor'), ('asystent', 'Assistant'),
+                ('post-doc', 'Postdoctoral Researcher'), ('postdoc', 'Postdoctoral Researcher'),
+                ('stazysta podoktorski', 'Postdoctoral Researcher'), ('doktorant', 'PhD Student')]
+_NAUKA_TYPES = [('badawczo-dydaktyczn', 'research and teaching'), ('dydaktyczn', 'teaching'),
+                ('badawcz', 'research')]
+
+
+def fetch_detail_nauka(url):
+    """(title, description) for a bazaogloszen.nauka.gov.pl offer. The page
+    heading is rank / post type / field / discipline in separate elements,
+    which the generic reader glued together ("Adiunkt lub adiunktkastanowisko
+    badawcze,Dzie..."); here they are read separately and the rank is given
+    in English: "Assistant Professor (Adiunkt): research, nauki prawne"."""
+    from bs4 import BeautifulSoup
+    status, html = jlib.fetch_static(url, timeout=30)
+    if status != 200 or not html:
+        raise RuntimeError(f'nauka offer status={status}')
+    soup = BeautifulSoup(html, 'html.parser')
+    article = soup.select_one('main article') or soup
+    h1 = article.find('h1')
+    parts = [p.strip(' ,') for p in (h1.get_text('|', strip=True).split('|') if h1 else []) if p.strip(' ,')]
+    rank_pl = parts[0] if parts else ''
+    folded = jlib._fold(rank_pl)
+    rank = next((en for pl, en in _NAUKA_RANKS if folded.startswith(pl)), rank_pl)
+    post = next((en for pl, en in _NAUKA_TYPES for x in parts[1:] if pl in jlib._fold(x)), '')
+    discipline = parts[-1] if len(parts) > 2 and not parts[-1].lower().startswith('dziedzina') else ''
+    title = f'{rank} ({rank_pl.split(" lub ")[0]})' if rank != rank_pl else rank_pl
+    extra = ', '.join(x for x in (post, discipline) if x)
+    title = f'{title}: {extra}' if extra else title
+    header = article.select_one('header')
+    unit = header.select_one('.job-institution-data') if header else None
+    exp = article.select_one('.job-expire .expires, .expires')
+    for tag in article(['script', 'style', 'aside', 'nav']):
+        tag.decompose()
+    body = re.sub(r'\s+', ' ', article.get_text(' ', strip=True))
+    head = []
+    if exp and re.match(r'\d{2}\.\d{2}\.\d{4}', exp.get_text(strip=True)):
+        head.append('Closing Date: ' + exp.get_text(strip=True).replace('.', '/'))
+    if unit:
+        head.append('Department: ' + unit.get_text(', ', strip=True))
+    return title[:250], (' '.join(head) + ' ' + body)[:20000]
+
+
 def fetch_peoplesoft_bulk(careers_link):
     """{posting_url: (title, description, department)} for a PeopleSoft
     Fluid careers site, read from the search results rows.

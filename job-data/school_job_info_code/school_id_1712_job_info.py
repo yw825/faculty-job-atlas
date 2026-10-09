@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1712 - LUISS Guido Carli (Italy)
 ATS platform: own website
-Careers link: https://bandi.mur.gov.it/profcalls.php/public/cercaJobs?jv_comp_status_id=2-3&bb_type_code=LUISS&idsettore=%25&idgsd24=%25&idqualifica=%25&azione=cerca
+Careers link: https://www.luiss.it/en/university/governance/faculty/recruitment
 
 No bulk info adapter applies to this school -- fetch_detail(url) below
 visits each posting page individually and is THIS SCHOOL'S OWN detail-page
@@ -11,8 +11,7 @@ need something the default doesn't handle (a click to reveal full text, a
 login wall, a non-obvious title element, etc.); nothing here affects any
 other school's script.
 
-Default: render the page, take the first heading (or <title>) as the job
-title and the page's visible text as the description.
+TUNED: fetch_detail reads the call's full h1 and its deadline.
 
 Reads posting URLs from school_id_1712_job_postings.checkpoint (this
 school's job_postings run) and classifies each one (position_type,
@@ -39,7 +38,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1712
 SCHOOL_NAME = 'LUISS Guido Carli'
-CAREERS_LINK = 'https://bandi.mur.gov.it/profcalls.php/public/cercaJobs?jv_comp_status_id=2-3&bb_type_code=LUISS&idsettore=%25&idgsd24=%25&idqualifica=%25&azione=cerca'
+CAREERS_LINK = 'https://www.luiss.it/en/university/governance/faculty/recruitment'
 ATS_PLATFORM = 'own website'
 USE_LLM = False  # set True once you have ANTHROPIC_API_KEY configured
 
@@ -48,9 +47,33 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint
 
 
 def fetch_detail(url):
-    """CUSTOMIZED: postings are calls on bandi.mur.gov.it; jinfo.fetch_detail_mur
-    builds an English title (rank: subject) and restates the deadline."""
-    return jinfo.fetch_detail_mur(url)
+    """LUISS call pages are plain English HTML. The h1 holds the whole call
+    name ("No. 1 call for a Tenure-Track Assistant Professor - academic
+    discipline group 12/GIUR-17 - Philosophy of law ..."); the generic reader
+    cut it at the first dash, losing the field, so it is read here and the
+    "No. 1 call for a(n)" lead-in dropped. "Deadline : Thursday 15 October
+    2026" is restated as a Closing Date."""
+    import datetime
+    import re
+    from bs4 import BeautifulSoup
+    status, html = jinfo.jlib.fetch_static(url, timeout=40)
+    if status != 200:
+        raise RuntimeError(f'call page status={status}')
+    soup = BeautifulSoup(html, 'html.parser')
+    main = soup.find('main') or soup
+    h1 = main.find('h1') or soup.find('h1')
+    title = re.sub(r'\s+', ' ', h1.get_text(' ', strip=True)) if h1 else ''
+    title = re.sub(r'(?i)^no\.?\s*\d+\s+call for (?:an?\s+)?', '', title)
+    for tag in main(['script', 'style', 'nav', 'header', 'footer']):
+        tag.decompose()
+    body = re.sub(r'\s+', ' ', main.get_text(' ', strip=True))
+    m = re.search(r'Deadline\s*:?\s*(?:\w+day\s+)?(\d{1,2} \w+ \d{4})', body)
+    if m:
+        try:
+            body = 'Closing Date: ' + datetime.datetime.strptime(m[1], '%d %B %Y').strftime('%d/%m/%Y') + ' ' + body
+        except ValueError:
+            pass
+    return title[:250], body[:20000]
 
 
 def main():

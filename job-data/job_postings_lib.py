@@ -1282,36 +1282,73 @@ GREEK_NAME_MAP = {
     'Aristotle University of Thessaloniki': 'ΑΡΙΣΤΟΤΕΛΕΙΟ',
 }
 
+# Institution names as the portal prints them, accent-folded ("ł" -> "l"),
+# matched as a PREFIX of a listing's institution: AGH appears as "Akademia
+# Gorniczo-Hutnicza im. St. Staszica w Krakowie".
 POLAND_NAME_MAP = {
-    'AGH University of Krakow': 'Akademia Gorniczo-Hutnicza',
-    'Jagiellonian University': 'Uniwersytet Jagiellonski',
-    'University of Warsaw': 'Uniwersytet Warszawski',
-    'Warsaw School of Economics': 'Szkola Glowna Handlowa',
+    'AGH University of Krakow': 'akademia gorniczo-hutnicza',
+    'Jagiellonian University': 'uniwersytet jagiellonski',
+    'University of Warsaw': 'uniwersytet warszawski',
+    'Warsaw School of Economics': 'szkola glowna handlowa',
 }
+_NAUKA_CACHE = {}
+
+
+def _fold(text):
+    import unicodedata
+    text = (text or '').replace('ł', 'l').replace('Ł', 'L')
+    return unicodedata.normalize('NFKD', text).encode('ascii', 'ignore').decode().lower().strip()
+
+
+def nauka_listing(max_pages=80):
+    """[(posting url, institution, expiry)] for EVERY current offer on
+    bazaogloszen.nauka.gov.pl (~1,400 over ~29 pages, ~1 min), cached for
+    the process so several schools in one run share it. The site has no
+    institution filter, and keyword search is fuzzy and incomplete (AGH:
+    2 hits for its full name, 8 for "AGH"; SGH only found as "SGH"), so the
+    whole list is read and filtered by each offer's own institution line."""
+    if 'all' in _NAUKA_CACHE:
+        return _NAUKA_CACHE['all']
+    out, seen = [], set()
+    for page in range(1, max_pages + 1):
+        status, html = fetch_static('https://bazaogloszen.nauka.gov.pl/wyniki-wyszukiwania/'
+                                    f'?search_keywords=&search_per_page=50&search_page={page}', timeout=40)
+        if status != 200:
+            if page == 1:
+                raise RuntimeError(f'nauka listing status={status}')
+            break
+        arts = BeautifulSoup(html, 'html.parser').find_all('article', class_=re.compile(r'\bjob_listing\b'))
+        fresh = 0
+        for art in arts:
+            a = art.select_one('.job-title a')
+            inst = art.select_one('.job-institution-name')
+            exp = art.select_one('.job-expire .expires, .expires')
+            if a and a.get('href') and a['href'] not in seen:
+                seen.add(a['href'])
+                out.append((a['href'], inst.get_text(' ', strip=True) if inst else '',
+                            exp.get_text(' ', strip=True) if exp else ''))
+                fresh += 1
+        if not arts or not fresh:
+            break
+        time.sleep(0.3)
+    _NAUKA_CACHE['all'] = out
+    return out
 
 
 def scrape_poland_nauka(url, school_name):
-    base = 'https://bazaogloszen.nauka.gov.pl/wyniki-wyszukiwania/'
-    keyword = POLAND_NAME_MAP.get(school_name, school_name)
-    links, page_num = [], 1
-    for _ in range(10):
-        params_url = f'{base}?search_keywords={requests.utils.quote(keyword)}&search_per_page=50&search_page={page_num}'
-        status, html = fetch_static(params_url)
-        if status != 200:
-            break
-        soup = BeautifulSoup(html, 'html.parser')
-        articles = soup.find_all('article', class_=re.compile(r'\bjob_listing\b'))
-        if not articles:
-            break
-        for art in articles:
-            title_a = art.select_one('.job-title a')
-            if title_a and title_a.get('href'):
-                links.append(title_a['href'])
-        if len(articles) < 50:
-            break
-        page_num += 1
-        time.sleep(0.3)
-    return links
+    """A Polish university's offers on the national portal, chosen by the
+    institution printed on each listing -- not by keyword hits, which pulled
+    the Medical University, SWPS and others into Warsaw's results."""
+    prefix = POLAND_NAME_MAP.get(school_name, _fold(school_name))
+    import datetime as dt
+    today = dt.date.today()
+
+    def still_open(exp):
+        m = re.match(r'(\d{2})\.(\d{2})\.(\d{4})', exp)
+        return not m or dt.date(int(m[3]), int(m[2]), int(m[1])) >= today
+    # The portal keeps some offers listed after "Wazne do" has passed (SGH's
+    # three lecturer calls closed 13.07.2026 still showed in October).
+    return [u for u, inst, exp in nauka_listing() if _fold(inst).startswith(prefix) and still_open(exp)]
 
 
 # --------------------------------------------------------------------------

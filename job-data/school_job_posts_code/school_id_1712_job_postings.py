@@ -1,24 +1,22 @@
 """
 Job postings scraper for school_id 1712 - LUISS Guido Carli (Italy)
-Source: bandi.mur.gov.it (Ministero dell'Universita e della Ricerca)
-Careers link: https://bandi.mur.gov.it/profcalls.php/public/cercaJobs?jv_comp_status_id=2-3&bb_type_code=LUISS&idsettore=%25&idgsd24=%25&idqualifica=%25&azione=cerca
+Careers link: https://www.luiss.it/en/university/governance/faculty/recruitment
 
 TUNED FIND_LINKS
-Italian universities must publish their professor calls (chiamata dei
-professori, prima/seconda fascia) and fixed-term / tenure-track researcher
-calls (ricercatori a tempo determinato) on the Ministry's national portal.
-This school's open calls are read there by its portal code (LUISS); each
-call is bandi.mur.gov.it/<profcalls|jobs>.php/public/job/id_job/<id>. The
-university's own pages were replaced on 2026-10-09 because they were not
-job boards (Bocconi's linked its PhD job-market candidates; Bologna's only
-teaching contracts; Padua's whole official notice board). Teaching
-contracts, research contracts and research grants are deliberately not
-collected.
+LUISS lists its open faculty calls in English under Faculty > Recruitment:
+"Recruitment of tenured faculty" (full/associate professor calls) and
+"Recruiting researchers" (tenure-track assistant professors), each with a
+"List of open calls" whose entries are /en/university/bandi/<slug> pages;
+calls past their deadline are dropped; expired calls also sit on separate "past-calls" pages and are not followed. The
+national MUR portal (used 2026-10-09 morning) showed only 1 of them.
+Contract-teaching and research-contractor pages are not collected.
 
 Writes school_job_posts/school_id_1712_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1712_job_postings.checkpoint next to this script.
 """
+import datetime
 import os
+import re
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -27,15 +25,40 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1712
 SCHOOL_NAME = 'LUISS Guido Carli'
-CAREERS_LINK = 'https://bandi.mur.gov.it/profcalls.php/public/cercaJobs?jv_comp_status_id=2-3&bb_type_code=LUISS&idsettore=%25&idgsd24=%25&idqualifica=%25&azione=cerca'
-ATS_PLATFORM = 'MUR bandi (national portal)'
-MUR_CODE = 'LUISS'
+CAREERS_LINK = 'https://www.luiss.it/en/university/governance/faculty/recruitment'
+ATS_PLATFORM = 'own website'
+SECTIONS = ('recruitment-tenured-faculty', 'recruiting-researchers')
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    return lib.scrape_mur(MUR_CODE)
+    from urllib.parse import urljoin
+    links = []
+    for section in SECTIONS:
+        status, html = lib.fetch_static(f'{CAREERS_LINK}/{section}', timeout=40)
+        if status != 200:
+            raise RuntimeError(f'{section} status={status}')
+        for href in re.findall(r'href="(/en/university/bandi/[^"#?]+)"', html):
+            url = urljoin('https://www.luiss.it', href)
+            if url not in links:
+                links.append(url)
+    # The "open" lists keep calls past their deadline (two tenure-track calls
+    # closing 31 August 2026 were still listed in October), so each call's
+    # "Deadline : <weekday> 15 October 2026" is checked.
+    today = datetime.date.today()
+    still_open = []
+    for url in links:
+        status, html = lib.fetch_static(url, timeout=40)
+        m = re.search(r'Deadline\s*:?\s*(?:\w+day\s+)?(\d{1,2} \w+ \d{4})', re.sub(r'<[^>]+>', ' ', html or ''))
+        if m:
+            try:
+                if datetime.datetime.strptime(m[1], '%d %B %Y').date() < today:
+                    continue
+            except ValueError:
+                pass
+        still_open.append(url)
+    return still_open
 
 
 def main():

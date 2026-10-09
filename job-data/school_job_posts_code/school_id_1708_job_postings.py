@@ -1,41 +1,52 @@
 """
 Job postings scraper for school_id 1708 - Bocconi University (Italy)
-Source: bandi.mur.gov.it (Ministero dell'Universita e della Ricerca)
-Careers link: https://bandi.mur.gov.it/profcalls.php/public/cercaJobs?jv_comp_status_id=2-3&bb_type_code=BOCCONI&idsettore=%25&idgsd24=%25&idqualifica=%25&azione=cerca
+Careers link: https://jobmarket.unibocconi.eu/
 
 TUNED FIND_LINKS
-Italian universities must publish their professor calls (chiamata dei
-professori, prima/seconda fascia) and fixed-term / tenure-track researcher
-calls (ricercatori a tempo determinato) on the Ministry's national portal.
-This school's open calls are read there by its portal code (BOCCONI); each
-call is bandi.mur.gov.it/<profcalls|jobs>.php/public/job/id_job/<id>. The
-university's own pages were replaced on 2026-10-09 because they were not
-job boards (Bocconi's linked its PhD job-market candidates; Bologna's only
-teaching contracts; Padua's whole official notice board). Teaching
-contracts, research contracts and research grants are deliberately not
-collected.
+Bocconi's own faculty job market (jobmarket.unibocconi.eu) lists every
+faculty call -- assistant, associate and full professor -- as a table row
+<tr id="N"> with "ID N / Publication / Deadline", the position and the
+department; each call is jobmarket.unibocconi.eu/?id=N. The table also keeps
+calls whose deadline has passed, so only rows with a deadline of today or
+later are collected (the user's note on this school). The national MUR
+portal, used 2026-10-09 morning, carried only 1 of Bocconi's ~30 calls:
+as a private university Bocconi hires internationally outside it.
 
 Writes school_job_posts/school_id_1708_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1708_job_postings.checkpoint next to this script.
 """
+import datetime as dt
 import os
+import re
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.dirname(HERE))
 import job_postings_lib as lib
+from bs4 import BeautifulSoup
 
 SCHOOL_ID = 1708
 SCHOOL_NAME = 'Bocconi University'
-CAREERS_LINK = 'https://bandi.mur.gov.it/profcalls.php/public/cercaJobs?jv_comp_status_id=2-3&bb_type_code=BOCCONI&idsettore=%25&idgsd24=%25&idqualifica=%25&azione=cerca'
-ATS_PLATFORM = 'MUR bandi (national portal)'
-MUR_CODE = 'BOCCONI'
+CAREERS_LINK = 'https://jobmarket.unibocconi.eu/'
+ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    return lib.scrape_mur(MUR_CODE)
+    status, html = lib.fetch_static(CAREERS_LINK, timeout=40)
+    if status != 200:
+        raise RuntimeError(f'job market status={status}')
+    today = dt.date.today()
+    links = []
+    for tr in BeautifulSoup(html, 'html.parser').find_all('tr', id=re.compile(r'^\d+$')):
+        m = re.search(r'Deadline\s*(\d{2})/(\d{2})/(\d{4})', tr.get_text(' ', strip=True))
+        if m and dt.date(int(m[3]), int(m[2]), int(m[1])) < today:
+            continue
+        links.append(f'https://jobmarket.unibocconi.eu/?id={tr["id"]}')
+    if not links and 'Deadline' not in html:
+        raise RuntimeError('job market table not found')
+    return links
 
 
 def main():

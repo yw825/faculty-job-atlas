@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1708 - Bocconi University (Italy)
 ATS platform: own website
-Careers link: https://bandi.mur.gov.it/profcalls.php/public/cercaJobs?jv_comp_status_id=2-3&bb_type_code=BOCCONI&idsettore=%25&idgsd24=%25&idqualifica=%25&azione=cerca
+Careers link: https://jobmarket.unibocconi.eu/
 
 No bulk info adapter applies to this school -- fetch_detail(url) below
 visits each posting page individually and is THIS SCHOOL'S OWN detail-page
@@ -11,8 +11,8 @@ need something the default doesn't handle (a click to reveal full text, a
 login wall, a non-obvious title element, etc.); nothing here affects any
 other school's script.
 
-Default: render the page, take the first heading (or <title>) as the job
-title and the page's visible text as the description.
+TUNED: fetch_detail reads the call's row (position, department, sector,
+deadline) and the English position-details PDF.
 
 Reads posting URLs from school_id_1708_job_postings.checkpoint (this
 school's job_postings run) and classifies each one (position_type,
@@ -39,7 +39,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1708
 SCHOOL_NAME = 'Bocconi University'
-CAREERS_LINK = 'https://bandi.mur.gov.it/profcalls.php/public/cercaJobs?jv_comp_status_id=2-3&bb_type_code=BOCCONI&idsettore=%25&idgsd24=%25&idqualifica=%25&azione=cerca'
+CAREERS_LINK = 'https://jobmarket.unibocconi.eu/'
 ATS_PLATFORM = 'own website'
 USE_LLM = False  # set True once you have ANTHROPIC_API_KEY configured
 
@@ -48,9 +48,51 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint
 
 
 def fetch_detail(url):
-    """CUSTOMIZED: postings are calls on bandi.mur.gov.it; jinfo.fetch_detail_mur
-    builds an English title (rank: subject) and restates the deadline."""
-    return jinfo.fetch_detail_mur(url)
+    """The call's row on jobmarket.unibocconi.eu/?id=N gives the position,
+    department, scientific sector and deadline; the description is the
+    English "Position Details" PDF when there is one, else the "Job opening"
+    PDF (the official notice, often Italian)."""
+    import re
+    from bs4 import BeautifulSoup
+    # The main table, not the call's own ?id page: only the main table's row
+    # carries the position ("Assistant Professor").
+    call_id = url.rsplit('=', 1)[-1]
+    tr = None
+    for page in (CAREERS_LINK, url):
+        status, html = jinfo.jlib.fetch_static(page, timeout=40)
+        if status == 200:
+            tr = BeautifulSoup(html, 'html.parser').find('tr', id=call_id)
+            if tr is not None:
+                break
+    if tr is None:
+        raise RuntimeError('call row not found')
+    nxt = tr.find_next_sibling('tr')
+    cells = [td.get_text(' ', strip=True) for td in tr.find_all('td')]
+    lines = [d.get_text(' ', strip=True) for d in tr.find_all('td')[1].find_all('div')] if len(cells) > 1 else []
+    rank = lines[0] if lines and not lines[0].startswith('Dept') else 'Faculty position'
+    dept = next((x for x in lines[1:] if x.startswith('Dept')), '')
+    sector = cells[2] if len(cells) > 2 else ''
+    sector = ', '.join(dict.fromkeys(x.strip() for x in sector.split(',') if x.strip()))
+    title = ', '.join(x for x in (rank, dept, sector.title() if sector.isupper() else sector) if x)
+    head = []
+    m = re.search(r'Deadline\s*(\d{2}/\d{2}/\d{4})', cells[0] if cells else '')
+    if m:
+        head.append('Closing Date: ' + m[1])
+    m = re.search(r'(?:Publication|G\.U\.[^0-9]*\d+)\s*(\d{2}/\d{2}/\d{4})', cells[0] if cells else '')
+    if m:
+        head.append('Posted Date: ' + m[1])
+    if dept:
+        head.append('Department: ' + dept.replace('Dept. ', ''))
+    pdfs = {a.get_text(strip=True): a['href'] for a in (nxt.find_all('a', href=True) if nxt else [])}
+    body = ''
+    for label in ('Position Details (ENG)', 'Job opening', 'Position Details (ITA)'):
+        if label in pdfs:
+            try:
+                body = jinfo.fetch_detail_pdf(pdfs[label])[1]
+                break
+            except Exception:
+                continue
+    return title[:250], (' '.join(head) + ' ' + re.sub(r'\s+', ' ', body))[:20000]
 
 
 def main():
