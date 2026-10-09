@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1859 - Singapore Management University (Singapore)
-ATS platform: own website
-Careers link: https://careers.smu.edu.sg/faculty-recruitment
+ATS platform: Taleo
+Careers link: https://smucareers.taleo.net/careersection/smu_ext_ft/jobsearch.ftl
 
 No bulk info adapter applies to this school -- fetch_detail(url) below
 visits each posting page individually and is THIS SCHOOL'S OWN detail-page
@@ -39,8 +39,8 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1859
 SCHOOL_NAME = 'Singapore Management University'
-CAREERS_LINK = 'https://careers.smu.edu.sg/faculty-recruitment'
-ATS_PLATFORM = 'own website'
+CAREERS_LINK = 'https://smucareers.taleo.net/careersection/smu_ext_ft/jobsearch.ftl'
+ATS_PLATFORM = 'Taleo'
 USE_LLM = False  # set True once you have ANTHROPIC_API_KEY configured
 
 JOB_POSTINGS_CHECKPOINT = os.path.join(HERE, '..', 'school_job_posts_code', f'school_id_{SCHOOL_ID}_job_postings.checkpoint')

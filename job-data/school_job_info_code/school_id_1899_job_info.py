@@ -24,6 +24,8 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint
 
 
 def fetch_detail(url):
+    if 'apply.interfolio.com' in url:
+        return jinfo.fetch_detail_interfolio(url)
     return jinfo.fetch_detail_generic(url)
 
 

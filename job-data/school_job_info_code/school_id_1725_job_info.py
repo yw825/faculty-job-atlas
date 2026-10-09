@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1725 - BI Norwegian Business School (Norway)
 ATS platform: own website
-Careers link: https://academicpositions.com/employer/bi-norwegian-business-school
+Careers link: https://www.bi.no/en/about-bi/vacant-positions/
 
 No bulk info adapter applies to this school -- fetch_detail(url) below
 visits each posting page individually and is THIS SCHOOL'S OWN detail-page
@@ -39,7 +39,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1725
 SCHOOL_NAME = 'BI Norwegian Business School'
-CAREERS_LINK = 'https://bi.easycruit.com/'
+CAREERS_LINK = 'https://www.bi.no/en/about-bi/vacant-positions/'
 ATS_PLATFORM = 'own website'
 USE_LLM = False  # set True once you have ANTHROPIC_API_KEY configured
 
@@ -47,8 +47,23 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(HERE, '..', 'school_job_posts_code', f'sc
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 
-def fetch_detail(url):
+def _fetch_detail_base(url):
     return jinfo.fetch_detail_generic(url)
+
+
+def fetch_detail(url):
+    """EasyCruit pages head with "Handelshøyskolen BI <department>"; the job title
+    follows " - " and is repeated ("<dept> - Eksamensassistent Eksamensassistent")."""
+    import re
+    title, text = _fetch_detail_base(url)
+    if (title or '').startswith('Handelsh'):
+        head = (text or '').split('Send application')[0].split('Søk på stillingen')[0]
+        part = head.split(' - ')[-1].strip()
+        part = re.split(r'\s+Handelsh\S+ BI\b', part)[0].strip()
+        rep = re.match(r'(.+?)\s+\1$', part)
+        if part:
+            title = rep.group(1) if rep else part
+    return title, text
 
 
 def main():

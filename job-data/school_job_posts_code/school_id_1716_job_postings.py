@@ -19,6 +19,11 @@ fetch_rendered/fetch_static call and merge the results.
 
 Writes school_job_posts/school_id_1716_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1716_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+UvA's werkenbij board shows 10 vacancies per page (?o=0,10,20,...);
+the old scraper read page 1 only and kept its menu links. Postings are
+/vacatures/<slug>-<id>; pages are walked until one adds nothing.
 """
 import os
 import re
@@ -37,12 +42,19 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkp
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                              href_pattern=lib.COMMON_JOB_URL_HINTS,
-                              text_pattern=lib.COMMON_JOB_URL_HINTS)
+    host = re.match(r'https?://[^/]+', CAREERS_LINK).group(0)
+    links = []
+    for offset in range(0, 600, 10):
+        status, html = lib.fetch_static(f'{CAREERS_LINK}?o={offset}', timeout=40)
+        if status != 200:
+            if offset == 0:
+                raise RuntimeError(f'vacancies status={status}')
+            break
+        new = [host + p for p in re.findall(r'href="(?:https?://[^/"]+)?(/vacatures/[a-z0-9-]+-\d+)"', html) if host + p not in links]
+        if not new:
+            break
+        links += new
+    return links
 
 
 def main():

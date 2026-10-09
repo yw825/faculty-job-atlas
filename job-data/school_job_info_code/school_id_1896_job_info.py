@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1896 - Kwantlen Polytechnic University (Canada)
 ATS platform: Taleo
-Careers link: https://tre.tbe.taleo.net/tre01/ats/careers/v2/jobSearch?org=JT63GS&cws=37
+Careers link: https://tre.tbe.taleo.net/tre01/ats/careers/v2/searchResults?org=JT63GS&cws=37
 
 No bulk info adapter applies to this school -- fetch_detail(url) below
 visits each posting page individually and is THIS SCHOOL'S OWN detail-page
@@ -39,7 +39,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1896
 SCHOOL_NAME = 'Kwantlen Polytechnic University'
-CAREERS_LINK = 'https://tre.tbe.taleo.net/tre01/ats/careers/v2/jobSearch?org=JT63GS&cws=37'
+CAREERS_LINK = 'https://tre.tbe.taleo.net/tre01/ats/careers/v2/searchResults?org=JT63GS&cws=37'
 ATS_PLATFORM = 'Taleo'
 USE_LLM = False  # set True once you have ANTHROPIC_API_KEY configured
 
@@ -47,8 +47,19 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(HERE, '..', 'school_job_posts_code', f'sc
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 
-def fetch_detail(url):
+def _fetch_detail_base(url):
     return jinfo.fetch_detail_generic(url)
+
+
+def fetch_detail(url):
+    """Taleo Business Edition pages head every job "Position Description"; the title
+    follows it in the text, before "Department/Faculty"."""
+    import re
+    title, text = _fetch_detail_base(url)
+    m = re.search(r'Position Description\s+(.+?)\s+(?:Department/Faculty|Home Campus|Employment Duration)', text or '')
+    if m and re.match(r'(?i)position description', title or ''):
+        title = m.group(1).strip()
+    return title, text
 
 
 def main():

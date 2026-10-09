@@ -32,8 +32,12 @@ Two caveats on that link, both deliberate:
 
 Writes school_job_posts/school_id_1905_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1905_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Kept: Workday postings only (not the em-lyon China recruitment page).
 """
 import os
+import re
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -50,7 +54,7 @@ FACULTY_CALL = 'https://en.em-lyon.com.cn/research/faculty/recruitment-of-teache
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
-def find_links():
+def _page_links():
     links = set(lib.scrape_workday(CAREERS_LINK, school_name=SCHOOL_NAME))
     try:
         status, html = lib.fetch_static(FACULTY_CALL, timeout=25)
@@ -61,6 +65,14 @@ def find_links():
     except Exception as exc:  # never lose the Workday requisitions over this
         print(f'  note: faculty call page unreachable ({type(exc).__name__}), skipped')
     return sorted(links)
+
+
+POSTING_RE = re.compile(r'myworkdayjobs\.com/.+_R-\d+')
+
+
+def find_links():
+    """Only real postings, not the page's menus and images."""
+    return [u for u in _page_links() if POSTING_RE.search(u)]
 
 
 def main():

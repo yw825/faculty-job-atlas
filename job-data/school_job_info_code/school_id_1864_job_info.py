@@ -47,8 +47,29 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(HERE, '..', 'school_job_posts_code', f'sc
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 
-def fetch_detail(url):
+def _fetch_detail_base(url):
     return jinfo.fetch_detail_generic(url)
+
+
+def fetch_detail(url):
+    """Careers@Gov (SAP HRP) pages are titled "Find A Job"; the job title precedes the
+    agency name, and "Closing on 25 Oct 2026" is restated as a Closing Date."""
+    import re
+    title, text = _fetch_detail_base(url)
+    if 'Job posting expired' in (text or ''):
+        raise RuntimeError('job posting expired')
+    m = re.search(r'search-button\s+(.+?)\s+Ngee Ann Polytechnic\b', text or '')
+    if m and (title or '').strip().lower() == 'find a job':
+        t = m.group(1).strip()
+        title = t.title() if t.isupper() else t
+    c = re.search(r'Closing on (\d{1,2} \w{3} \d{4})', text or '')
+    if c:
+        import datetime
+        try:
+            text = 'Closing Date: ' + datetime.datetime.strptime(c.group(1), '%d %b %Y').strftime('%d/%m/%Y') + ' ' + text
+        except ValueError:
+            pass
+    return title, text
 
 
 def main():

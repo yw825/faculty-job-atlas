@@ -19,6 +19,11 @@ fetch_rendered/fetch_static call and merge the results.
 
 Writes school_job_posts/school_id_1722_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1722_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Tilburg's classic SuccessFactors list shows 10 per page ("pagina 1 van 3");
+the "Volgende pagina" button is clicked until a page adds nothing. A posting
+is stored by its career_job_req_id without the per-session _s.crb token.
 """
 import os
 import re
@@ -37,12 +42,22 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkp
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                              href_pattern=lib.COMMON_JOB_URL_HINTS,
-                              text_pattern=lib.COMMON_JOB_URL_HINTS)
+    ids = []
+
+    def walk(page):
+        for _ in range(30):
+            new = [x for x in re.findall(r'career_job_req_id=(\d+)', page.content()) if x not in ids]
+            ids.extend(new)
+            nxt = page.query_selector('[title="Volgende pagina"], [aria-label="Volgende pagina"]')
+            if not new or not nxt:
+                break
+            nxt.click()
+            page.wait_for_timeout(4000)
+    html = lib.fetch_rendered(CAREERS_LINK, wait_ms=5000, actions=walk, timeout=90000)
+    if not ids:
+        raise RuntimeError(html[:200] if html else 'list did not render')
+    return ['https://career5.successfactors.eu/career?career_ns=job_listing&company=S003974031P'
+            f'&navBarLevel=JOB_SEARCH&rcm_site_locale=nl_NL&career_job_req_id={i}' for i in ids]
 
 
 def main():

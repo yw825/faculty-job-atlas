@@ -19,6 +19,10 @@ fetch_rendered/fetch_static call and merge the results.
 
 Writes school_job_posts/school_id_1721_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1721_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+EUR's overview is paged (?page=0,1,2,...); postings are
+/working-at-eur/vacancies/<slug> (not "overview", job alerts or share links).
 """
 import os
 import re
@@ -37,12 +41,19 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkp
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                              href_pattern=lib.COMMON_JOB_URL_HINTS,
-                              text_pattern=lib.COMMON_JOB_URL_HINTS)
+    links = []
+    for page in range(0, 30):
+        status, html = lib.fetch_static(f'{CAREERS_LINK}?page={page}', timeout=40)
+        if status != 200:
+            if page == 0:
+                raise RuntimeError(f'overview status={status}')
+            break
+        new = ['https://www.eur.nl' + p for p in re.findall(r'href="(?:https://www\.eur\.nl)?(/en/working-at-eur/vacancies/(?!overview)[a-z0-9-]+)"', html)
+               if 'https://www.eur.nl' + p not in links]
+        if not new:
+            break
+        links += new
+    return links
 
 
 def main():

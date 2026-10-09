@@ -47,8 +47,16 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(HERE, '..', 'school_job_posts_code', f'sc
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 
-def fetch_detail(url):
+def _fetch_detail_base(url):
     return jinfo.fetch_detail_generic(url)
+
+
+def fetch_detail(url):
+    """NUS titles end in " Job Details"; that suffix is dropped."""
+    import re
+    title, text = _fetch_detail_base(url)
+    title = re.sub(r'\s*Job Details\s*$', '', title or '')
+    return title, text
 
 
 def main():

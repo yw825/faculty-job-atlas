@@ -1,15 +1,60 @@
 {
   "raw": {
-    "https://earth.ipm.edu.mo/store/uploads/recruitment/notification/60d84-2.1-_-pt-saa-ts-2601_upload.pdf": {
-      "title": "",
-      "description": "\n\n\n\n"
+    "https://earth.ipm.edu.mo/store/uploads/recruitment/notification/41388-en.pdf": {
+      "title": "Recruitment of 8 Full-time Lecturers (area of Artificial Intelligence / Big Health) (University) Town* (2526-FCA-009)",
+      "description": " "
+    },
+    "https://earth.ipm.edu.mo/store/uploads/recruitment/notification/42f02-_en.pdf": {
+      "title": "Recruitment of 7 Full-time Associate Professors (area of Artificial Intelligence / Big Health) (University) Town* (2526-FCA-008)",
+      "description": " "
+    },
+    "https://earth.ipm.edu.mo/store/uploads/recruitment/notification/d3bb0-2526fca005_notice-for-full-time-academic-staff-recruitment_en.pdf": {
+      "title": "Recruitment of 2 Full-time Professors (area of Computer Applied Technology in Doctor of Philosophy in Computer Applied Technology Programme) (2526-FCA-005)",
+      "description": " "
+    },
+    "https://earth.ipm.edu.mo/store/uploads/recruitment/notification/16881-_en.pdf": {
+      "title": "Recruitment of 2 Full-time Associate Professors (area of Intelligent Education) (2526-CAI-004)",
+      "description": " "
     }
   },
   "rows": {
-    "https://earth.ipm.edu.mo/store/uploads/recruitment/notification/60d84-2.1-_-pt-saa-ts-2601_upload.pdf": {
+    "https://earth.ipm.edu.mo/store/uploads/recruitment/notification/41388-en.pdf": {
       "school_id": 1850,
-      "posting_url": "https://earth.ipm.edu.mo/store/uploads/recruitment/notification/60d84-2.1-_-pt-saa-ts-2601_upload.pdf",
-      "job_title_in_post": "",
+      "posting_url": "https://earth.ipm.edu.mo/store/uploads/recruitment/notification/41388-en.pdf",
+      "job_title_in_post": "Recruitment of 8 Full-time Lecturers (area of Artificial Intelligence / Big Health) (University) Town* (2526-FCA-009)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://earth.ipm.edu.mo/store/uploads/recruitment/notification/42f02-_en.pdf": {
+      "school_id": 1850,
+      "posting_url": "https://earth.ipm.edu.mo/store/uploads/recruitment/notification/42f02-_en.pdf",
+      "job_title_in_post": "Recruitment of 7 Full-time Associate Professors (area of Artificial Intelligence / Big Health) (University) Town* (2526-FCA-008)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://earth.ipm.edu.mo/store/uploads/recruitment/notification/d3bb0-2526fca005_notice-for-full-time-academic-staff-recruitment_en.pdf": {
+      "school_id": 1850,
+      "posting_url": "https://earth.ipm.edu.mo/store/uploads/recruitment/notification/d3bb0-2526fca005_notice-for-full-time-academic-staff-recruitment_en.pdf",
+      "job_title_in_post": "Recruitment of 2 Full-time Professors (area of Computer Applied Technology in Doctor of Philosophy in Computer Applied Technology Programme) (2526-FCA-005)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://earth.ipm.edu.mo/store/uploads/recruitment/notification/16881-_en.pdf": {
+      "school_id": 1850,
+      "posting_url": "https://earth.ipm.edu.mo/store/uploads/recruitment/notification/16881-_en.pdf",
+      "job_title_in_post": "Recruitment of 2 Full-time Associate Professors (area of Intelligent Education) (2526-CAI-004)",
       "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
@@ -20,7 +65,7 @@
   },
   "school_id": 1850,
   "status": "complete",
-  "updated_at": "2026-10-06T02:49:07+00:00",
-  "completed_at": "2026-10-06T02:49:07+00:00",
+  "updated_at": "2026-10-09T20:06:46+00:00",
+  "completed_at": "2026-10-09T20:06:46+00:00",
   "last_error": ""
 }

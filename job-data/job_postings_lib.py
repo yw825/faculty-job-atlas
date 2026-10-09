@@ -1390,6 +1390,48 @@ def uc_apply_calls(groups=tuple(UC_APPLY_GROUPS)):
     return out
 
 
+def scrape_sf_rmk(base, brand='', category_id=0, locale='en_GB', max_pages=60):
+    """SuccessFactors Career Site Builder boards whose results are loaded by
+    JavaScript (careers.nus.edu.sg, careers.singaporetech.edu.sg): the
+    static page and its rendered first view show only 10 of 52/157 jobs and
+    there is no pager link to follow. The page's own data service is
+    POST <base>/services/recruiting/v1/jobs (pageNumber 0.., 10 per page,
+    totalJobs given); `brand` and `category_id` are the /go/<Category>/<id>/
+    page's values. A posting is <base>/job/<urlTitle>/<id>-<locale>.
+
+    The service's default order is unstable between requests -- pages
+    overlap, and walking all 16 of SIT's pages found 140 of 157 jobs -- so
+    results are sorted by 'date', the one sortBy value that pages cleanly
+    (157/157); every page is walked until an empty one or the total."""
+    import html as _html
+    base = base.rstrip('/')
+    sess = requests.Session()
+    sess.headers.update({'User-Agent': UA, 'Accept': 'application/json'})
+    sess.get(base + '/', timeout=30)
+    links, total, page = [], None, 0
+    while page < max_pages:
+        body = {'locale': locale, 'pageNumber': page, 'sortBy': 'date', 'keywords': '', 'location': '',
+                'facetFilters': {}, 'brand': brand, 'skills': [], 'categoryId': category_id,
+                'alertId': '', 'rcmCandidateId': ''}
+        r = sess.post(base + '/services/recruiting/v1/jobs', json=body, timeout=40)
+        if r.status_code != 200:
+            raise RuntimeError(f'SF jobs service status={r.status_code}')
+        data = r.json()
+        if 'jobSearchResult' not in data and page:
+            break  # past the last page the service answers without results
+        total = data.get('totalJobs', total)
+        rows = data.get('jobSearchResult') or []
+        for row in rows:
+            job = row.get('response') or {}
+            url = f"{base}/job/{_html.unescape(job.get('urlTitle') or 'job')}/{job.get('id')}-{locale}"
+            if job.get('id') and url not in links:
+                links.append(url)
+        if not rows or (total is not None and len(links) >= total):
+            break
+        page += 1
+    return links
+
+
 # --------------------------------------------------------------------------
 # Taleo: covers both product UIs seen in this dataset.
 #  - TBE ("...tbe.taleo.net/.../jobSearch?...")): a search-FORM page whose

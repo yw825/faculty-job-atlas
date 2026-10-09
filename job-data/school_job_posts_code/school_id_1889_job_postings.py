@@ -19,6 +19,11 @@ fetch_rendered/fetch_static call and merge the results.
 
 Writes school_job_posts/school_id_1889_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1889_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+TU/e's overview shows 12 vacancies and a "more" button that adds 12 per
+click (43 in all); it is clicked until it disappears. Postings are
+/vacancy-overview/<slug> (not the filter links the old scraper kept).
 """
 import os
 import re
@@ -37,12 +42,29 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkp
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                              href_pattern=lib.COMMON_JOB_URL_HINTS,
-                              text_pattern=lib.COMMON_JOB_URL_HINTS)
+    def load_all(page):
+        # A cookie banner covers the page in a fresh browser; the "Load
+        # more" link is only clickable once it is dismissed.
+        deny = page.query_selector('button:has-text("Deny")')
+        if deny and deny.is_visible():
+            deny.click()
+            page.wait_for_timeout(2000)
+        for _ in range(20):
+            more = page.query_selector('button:has-text("more"), a:has-text("Load more"), '
+                                       'button:has-text("Show more"), a:has-text("Show more")')
+            if not more or not more.is_visible():
+                break
+            more.click()
+            page.wait_for_timeout(2500)
+    html = lib.fetch_rendered(CAREERS_LINK, wait_ms=5000, actions=load_all, timeout=90000)
+    if not html or lib.is_fetch_failure(html):
+        raise RuntimeError(html or 'overview did not render')
+    links = []
+    for slug in re.findall(r'/en/working-at-tue/vacancy-overview/([a-z0-9-]+)"', html):
+        url = f'https://www.tue.nl/en/working-at-tue/vacancy-overview/{slug}'
+        if url not in links:
+            links.append(url)
+    return links
 
 
 def main():

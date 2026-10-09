@@ -11,8 +11,8 @@ need something the default doesn't handle (a click to reveal full text, a
 login wall, a non-obvious title element, etc.); nothing here affects any
 other school's script.
 
-Default: render the page, take the first heading (or <title>) as the job
-title and the page's visible text as the description.
+TUNED: a posting is a card (#<Reference>) on the board; fetch_detail reads
+the card -- the advertisement itself is not visible to guests.
 
 Reads posting URLs from school_id_1829_job_postings.checkpoint (this
 school's job_postings run) and classifies each one (position_type,
@@ -47,8 +47,35 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(HERE, '..', 'school_job_posts_code', f'sc
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 
+_CARDS = {}
+
+
 def fetch_detail(url):
-    return jinfo.fetch_detail_generic(url)
+    """Title, unit, contract type, reference and closing date from the job's
+    card on the board (rendered once per run). "19-Oct-2026 11:00 PM" is
+    restated as Closing Date: 19/10/2026."""
+    import datetime
+    import importlib.util
+    import re
+    if not _CARDS:
+        path = os.path.join(HERE, '..', 'school_job_posts_code', f'school_id_{SCHOOL_ID}_job_postings.py')
+        spec = importlib.util.spec_from_file_location('massey_postings', path)
+        mod = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(mod)
+        for ref, title, text in mod.board_cards():
+            _CARDS[ref] = (title, text)
+    ref = url.rsplit('#', 1)[-1]
+    if ref not in _CARDS:
+        raise RuntimeError(f'{ref} no longer on the board')
+    title, text = _CARDS[ref]
+    lead = ''
+    m = re.search(r'(\d{1,2}-[A-Za-z]{3}-\d{4})', text)
+    if m:
+        lead = 'Closing Date: ' + datetime.datetime.strptime(m[1], '%d-%b-%Y').strftime('%d/%m/%Y') + ' '
+    unit = [f for f in text.split(' | ') if f not in (title, 'Massey University') and not re.search(r'\d{4}|^JR-|^(Ongoing|Fixed-Term|Casual)$', f)]
+    if unit:
+        lead += f'Department: {unit[0]} '
+    return title[:250], f'{lead}{title}. Massey University. {text}'
 
 
 def main():

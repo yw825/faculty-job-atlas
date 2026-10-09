@@ -23,8 +23,19 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 
-def fetch_detail(url):
+def _fetch_detail_base(url):
     return jinfo.fetch_detail_generic(url)
+
+
+def fetch_detail(url):
+    """Jobbnorge pages: when the first heading is a section name ("About the position"),
+    the real title is the page title "<title> (<job id>) | <employer>"."""
+    import re
+    title, text = _fetch_detail_base(url)
+    m = re.match(r'\s*(.+?) \(\d{5,}\) \|', text or '')
+    if m and (not title or re.match(r'(?i)about the position|ledig stilling|om stillingen', title)):
+        title = m.group(1)
+    return title, text
 
 
 def main():

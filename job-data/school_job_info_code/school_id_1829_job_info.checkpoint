@@ -1,26 +1,581 @@
 {
   "raw": {
-    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/LogOn/?returnUrl=%2fT1Default%2fCiAnywhere%2fWeb%2fMASSEY%2fOrganisationManagement%2fJobBoardEnquiry%3ff%3d%2524ORG.REC.EXJOBB.ENQ%26suite%3dCES%26G%3d5bca84fd-f451-42ff-a6d8-98078988867f": {
-      "title": "Log On",
-      "description": "Log On - CiA Change to Accessibility Mode JavaScript disabled is not supported. Please enable JavaScript in your browser. User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36 OK This website uses cookies to ensure you have the best browsing experience. By continuing to use the application you are agreeing to our use of cookies. Log On - CiA CiA Login Page Log on using Log on using Massey SSO by clicking here! Log on using your details User name or email address Password Log On Keep me logged on Accessibility Mode Accessibility Mode Checking this option will set CiA to a mode that is optimised to be read by screen readers and to be used by people with no or limited vision. Some of the visual elements used in the CiA desktop interface are disabled or simplified in this mode.<br/><br/>If required, the display mode can be changed under Options > Settings once you have logged on. Forgotten password? close popup Close Enterprise software, incredibly simple Powered by TechnologyOne Email errors Copy to clipboard Close Configure"
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2456": {
+      "title": "Associate Director - International",
+      "description": "Closing Date: 20/10/2026 Department: Global Engagement - International Relations Associate Director - International. Massey University. 20-Oct-2026 11:00 PM | JR-2456 | Associate Director - International | Massey University | Global Engagement - International Relations | Ongoing"
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2417": {
+      "title": "Associate Professor - Nursing",
+      "description": "Closing Date: 19/10/2026 Department: School of Nursing Associate Professor - Nursing. Massey University. 19-Oct-2026 11:00 PM | JR-2417 | Associate Professor - Nursing | Massey University | School of Nursing | Ongoing"
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2474": {
+      "title": "Chief People and Culture Officer",
+      "description": "Closing Date: 26/10/2026 Department: People and Culture Chief People and Culture Officer. Massey University. 26-Oct-2026 9:00 AM | JR-2474 | Chief People and Culture Officer | Massey University | People and Culture | Ongoing"
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2326": {
+      "title": "Companion Animal Practicing Veterinarian/Senior Practicing Veterinarian",
+      "description": "Closing Date: 27/10/2026 Department: SVS - CAH Community Practice/Radiology Companion Animal Practicing Veterinarian/Senior Practicing Veterinarian. Massey University. 27-Oct-2026 11:00 PM | JR-2326 | Companion Animal Practicing Veterinarian/Senior Practicing Veterinarian | Massey University | SVS - CAH Community Practice/Radiology | Ongoing"
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-1830": {
+      "title": "Companion Animal Rotating Intern",
+      "description": "Closing Date: 31/03/2028 Department: Interns Companion Animal Rotating Intern. Massey University. 31-Mar-2028 11:30 PM | JR-1830 | Companion Animal Rotating Intern | Massey University | Interns | Fixed-Term"
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2475": {
+      "title": "Deputy Vice-Chancellor Academic",
+      "description": "Closing Date: 26/10/2026 Department: DVC Academic Deputy Vice-Chancellor Academic. Massey University. 26-Oct-2026 9:00 AM | JR-2475 | Deputy Vice-Chancellor Academic | Massey University | DVC Academic | Ongoing"
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2476": {
+      "title": "Deputy Vice-Chancellor Research & Enterprise",
+      "description": "Closing Date: 26/10/2026 Department: DVC Research and Enterprise Deputy Vice-Chancellor Research & Enterprise. Massey University. 26-Oct-2026 9:00 AM | JR-2476 | Deputy Vice-Chancellor Research & Enterprise | Massey University | DVC Research and Enterprise | Ongoing"
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2489": {
+      "title": "Deputy Vice-Chancellor Students & Growth",
+      "description": "Closing Date: 26/10/2026 Department: DVC Students and Growth Deputy Vice-Chancellor Students & Growth. Massey University. 26-Oct-2026 9:00 AM | JR-2489 | Deputy Vice-Chancellor Students & Growth | Massey University | DVC Students and Growth | Ongoing"
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2461": {
+      "title": "Estates Service Desk Administrator",
+      "description": "Closing Date: 23/10/2026 Department: EM - Service Desk (AKL/WLG) Estates Service Desk Administrator. Massey University. 23-Oct-2026 11:00 PM | JR-2461 | Estates Service Desk Administrator | Massey University | EM - Service Desk (AKL/WLG) | Fixed-Term"
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2421": {
+      "title": "Food Services Manager",
+      "description": "Closing Date: 13/10/2026 Department: EM - Commercial Services (MAN) Food Services Manager. Massey University. 13-Oct-2026 11:00 PM | JR-2421 | Food Services Manager | Massey University | EM - Commercial Services (MAN) | Ongoing"
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2457": {
+      "title": "Large Animal Veterinary Technician",
+      "description": "Closing Date: 08/11/2026 Department: SVS - VTH Large Animal Services Large Animal Veterinary Technician. Massey University. 08-Nov-2026 11:00 PM | JR-2457 | Large Animal Veterinary Technician | Massey University | SVS - VTH Large Animal Services | Fixed-Term"
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2400": {
+      "title": "Lecturer in Public Health",
+      "description": "Closing Date: 11/10/2026 Department: School of Health Sciences Lecturer in Public Health. Massey University. 11-Oct-2026 11:30 PM | JR-2400 | Lecturer in Public Health | Massey University | School of Health Sciences | Ongoing"
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2365": {
+      "title": "Lecturer/Senior Lecturer",
+      "description": "Closing Date: 23/10/2026 Department: School of Accountancy, Economics and Finance (AKL) Lecturer/Senior Lecturer. Massey University. 23-Oct-2026 11:00 PM | JR-2365 | Lecturer/Senior Lecturer | Massey University | School of Accountancy, Economics and Finance (AKL) | Ongoing"
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2386": {
+      "title": "Lecturer/Senior Lecturer Education & Educational & Developmental Psychology",
+      "description": "Closing Date: 11/10/2026 Department: IoE - Academic Staff Lecturer/Senior Lecturer Education & Educational & Developmental Psychology. Massey University. 11-Oct-2026 11:00 PM | JR-2386 | Lecturer/Senior Lecturer Education & Educational & Developmental Psychology | Massey University | IoE - Academic Staff | Ongoing"
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-1673": {
+      "title": "Locum Veterinarian in Small Animal Referral Surgery",
+      "description": "Closing Date: 17/02/2027 Department: VTH Surgery Locum Veterinarian in Small Animal Referral Surgery. Massey University. 17-Feb-2027 11:30 PM | JR-1673 | Locum Veterinarian in Small Animal Referral Surgery | Massey University | VTH Surgery | Casual"
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2459": {
+      "title": "Manager Te Paepoto Contact Centre",
+      "description": "Closing Date: 25/10/2026 Department: SE - Te Paepoto Manager Te Paepoto Contact Centre. Massey University. 25-Oct-2026 11:00 PM | JR-2459 | Manager Te Paepoto Contact Centre | Massey University | SE - Te Paepoto | Ongoing"
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2447": {
+      "title": "Operations Manager",
+      "description": "Closing Date: 18/10/2026 Department: Global Partnership Operations Manager. Massey University. 18-Oct-2026 11:00 PM | JR-2447 | Operations Manager | Massey University | Global Partnership | Ongoing"
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2431": {
+      "title": "Postdoctoral Fellow - Plant-based Ingredients Functionality",
+      "description": "Closing Date: 14/10/2026 Department: RI - Food Science Postdoctoral Fellow - Plant-based Ingredients Functionality. Massey University. 14-Oct-2026 11:00 PM | JR-2431 | Postdoctoral Fellow - Plant-based Ingredients Functionality | Massey University | RI - Food Science | Fixed-Term"
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2428": {
+      "title": "Practicing Veterinarian/Senior Practicing Veterinarian",
+      "description": "Closing Date: 30/10/2026 Department: SVS - VTH Companion Animal Hospital Practicing Veterinarian/Senior Practicing Veterinarian. Massey University. 30-Oct-2026 11:00 PM | JR-2428 | Practicing Veterinarian/Senior Practicing Veterinarian | Massey University | SVS - VTH Companion Animal Hospital | Ongoing"
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2166": {
+      "title": "Practicing Veterinarian/Senior Practicing Veterinarian in Wildlife Pathology",
+      "description": "Closing Date: 15/11/2026 Department: SVS - Wildbase Practicing Veterinarian/Senior Practicing Veterinarian in Wildlife Pathology. Massey University. 15-Nov-2026 11:00 PM | JR-2166 | Practicing Veterinarian/Senior Practicing Veterinarian in Wildlife Pathology | Massey University | SVS - Wildbase | Fixed-Term"
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2480": {
+      "title": "Principal Systems Engineer",
+      "description": "Closing Date: 01/11/2026 Department: ITS - Enterprise Services Principal Systems Engineer. Massey University. 01-Nov-2026 11:00 PM | JR-2480 | Principal Systems Engineer | Massey University | ITS - Enterprise Services | Ongoing"
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2164": {
+      "title": "Research Assistant",
+      "description": "Closing Date: 30/06/2027 Department: SVS - Wildbase Research Assistant. Massey University. 30-Jun-2027 11:30 PM | JR-2164 | Research Assistant | Massey University | SVS - Wildbase | Casual"
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2450": {
+      "title": "Research Post-Award Advisor",
+      "description": "Closing Date: 01/11/2026 Department: RO - Researcher Development and Impact Research Post-Award Advisor. Massey University. 01-Nov-2026 11:00 PM | JR-2450 | Research Post-Award Advisor | Massey University | RO - Researcher Development and Impact | Ongoing"
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2425": {
+      "title": "Research Systems Support Analyst",
+      "description": "Closing Date: 25/10/2026 Department: RO - Research Systems and Reporting Research Systems Support Analyst. Massey University. 25-Oct-2026 11:00 PM | JR-2425 | Research Systems Support Analyst | Massey University | RO - Research Systems and Reporting | Ongoing"
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2396": {
+      "title": "Senior Change Manager",
+      "description": "Closing Date: 21/10/2026 Department: ITS - Digital Enablement Senior Change Manager. Massey University. 21-Oct-2026 11:00 PM | JR-2396 | Senior Change Manager | Massey University | ITS - Digital Enablement | Fixed-Term"
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2418": {
+      "title": "Senior Lecturer - Nursing",
+      "description": "Closing Date: 19/10/2026 Department: School of Nursing Senior Lecturer - Nursing. Massey University. 19-Oct-2026 11:00 PM | JR-2418 | Senior Lecturer - Nursing | Massey University | School of Nursing | Ongoing"
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2372": {
+      "title": "Senior Lecturer/Associate Professor - Education & Counselling",
+      "description": "Closing Date: 15/10/2026 Department: IoE - Academic Staff Senior Lecturer/Associate Professor - Education & Counselling. Massey University. 15-Oct-2026 11:00 PM | JR-2372 | Senior Lecturer/Associate Professor - Education & Counselling | Massey University | IoE - Academic Staff | Ongoing"
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2373": {
+      "title": "Senior Lecturer/Associate Professor - Speech Language Therapy",
+      "description": "Closing Date: 15/10/2026 Department: IoE - Academic Staff Senior Lecturer/Associate Professor - Speech Language Therapy. Massey University. 15-Oct-2026 11:00 PM | JR-2373 | Senior Lecturer/Associate Professor - Speech Language Therapy | Massey University | IoE - Academic Staff | Ongoing"
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2374": {
+      "title": "Senior Lecturer/Associate Professor in Farm Management",
+      "description": "Closing Date: 26/10/2026 Department: SAE - Agriculture - Team 2 Senior Lecturer/Associate Professor in Farm Management. Massey University. 26-Oct-2026 11:00 PM | JR-2374 | Senior Lecturer/Associate Professor in Farm Management | Massey University | SAE - Agriculture - Team 2 | Ongoing"
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2408": {
+      "title": "Senior Research Technician / Research Technician - Dairy Material Science and Technology",
+      "description": "Closing Date: 18/10/2026 Department: SFTNS - Dairy Material Science and Technology Senior Research Technician / Research Technician - Dairy Material Science and Technology. Massey University. 18-Oct-2026 11:00 PM | JR-2408 | Senior Research Technician / Research Technician - Dairy Material Science and Technology | Massey University | SFTNS - Dairy Material Science and Technology | Fixed-Term"
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2468": {
+      "title": "Student Achievement Coach",
+      "description": "Closing Date: 25/10/2026 Department: SE - Student Achievement Student Achievement Coach. Massey University. 25-Oct-2026 11:00 PM | JR-2468 | Student Achievement Coach | Massey University | SE - Student Achievement | Ongoing"
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2453": {
+      "title": "Student Support Liaison Advisor",
+      "description": "Closing Date: 20/10/2026 Department: SE - Student Advice and Information (AKL) Student Support Liaison Advisor. Massey University. 20-Oct-2026 11:00 PM | JR-2453 | Student Support Liaison Advisor | Massey University | SE - Student Advice and Information (AKL) | Ongoing"
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2406": {
+      "title": "Tutor/Senior Tutor - Foundation Education",
+      "description": "Closing Date: 11/10/2026 Department: TTW - Foundation Education (AKL) Tutor/Senior Tutor - Foundation Education. Massey University. 11-Oct-2026 11:00 PM | JR-2406 | Tutor/Senior Tutor - Foundation Education | Massey University | TTW - Foundation Education (AKL) | Ongoing"
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2401": {
+      "title": "Tutor/Senior Tutor in Biosciences",
+      "description": "Closing Date: 11/10/2026 Department: School of Health Sciences Tutor/Senior Tutor in Biosciences. Massey University. 11-Oct-2026 11:00 PM | JR-2401 | Tutor/Senior Tutor in Biosciences | Massey University | School of Health Sciences | Ongoing"
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2310": {
+      "title": "Tutor/Senior Tutor in Public Health",
+      "description": "Closing Date: 25/10/2026 Department: School of Health Sciences Tutor/Senior Tutor in Public Health. Massey University. 25-Oct-2026 11:00 PM | JR-2310 | Tutor/Senior Tutor in Public Health | Massey University | School of Health Sciences | Ongoing"
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2236": {
+      "title": "Veterinarian/Senior Veterinarian in Small Animal Referral Surgery",
+      "description": "Closing Date: 24/10/2026 Department: SVS - VTH Surgery Veterinarian/Senior Veterinarian in Small Animal Referral Surgery. Massey University. 24-Oct-2026 11:00 PM | JR-2236 | Veterinarian/Senior Veterinarian in Small Animal Referral Surgery | Massey University | SVS - VTH Surgery | Ongoing"
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2434": {
+      "title": "Veterinary Nurse - Emergency and Critical Care",
+      "description": "Closing Date: 21/10/2026 Department: SVS - VTH MU Pet Emergency Centre Veterinary Nurse - Emergency and Critical Care. Massey University. 21-Oct-2026 11:00 PM | JR-2434 | Veterinary Nurse - Emergency and Critical Care | Massey University | SVS - VTH MU Pet Emergency Centre | Ongoing"
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2455": {
+      "title": "VetMAP Kaiarahi/Coordinator",
+      "description": "Closing Date: 01/11/2026 Department: SVS - VetEd - Rimu VetMAP Kaiarahi/Coordinator. Massey University. 01-Nov-2026 11:00 PM | JR-2455 | VetMAP Kaiarahi/Coordinator | Massey University | SVS - VetEd - Rimu | Ongoing"
     }
   },
   "rows": {
-    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/LogOn/?returnUrl=%2fT1Default%2fCiAnywhere%2fWeb%2fMASSEY%2fOrganisationManagement%2fJobBoardEnquiry%3ff%3d%2524ORG.REC.EXJOBB.ENQ%26suite%3dCES%26G%3d5bca84fd-f451-42ff-a6d8-98078988867f": {
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2456": {
       "school_id": 1829,
-      "posting_url": "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/LogOn/?returnUrl=%2fT1Default%2fCiAnywhere%2fWeb%2fMASSEY%2fOrganisationManagement%2fJobBoardEnquiry%3ff%3d%2524ORG.REC.EXJOBB.ENQ%26suite%3dCES%26G%3d5bca84fd-f451-42ff-a6d8-98078988867f",
-      "job_title_in_post": "Log On",
+      "posting_url": "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2456",
+      "job_title_in_post": "Associate Director - International",
       "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "",
-      "deadline_of_application": "",
+      "deadline_of_application": "20/10/2026",
+      "position_start_date": ""
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2417": {
+      "school_id": 1829,
+      "posting_url": "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2417",
+      "job_title_in_post": "Associate Professor - Nursing",
+      "position_type": "Associate_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "School of Nursing Associate Professor",
+      "area_key_words": "Nursing",
+      "deadline_of_application": "19/10/2026",
+      "position_start_date": ""
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2474": {
+      "school_id": 1829,
+      "posting_url": "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2474",
+      "job_title_in_post": "Chief People and Culture Officer",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "26/10/2026",
+      "position_start_date": ""
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2326": {
+      "school_id": 1829,
+      "posting_url": "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2326",
+      "job_title_in_post": "Companion Animal Practicing Veterinarian/Senior Practicing Veterinarian",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "27/10/2026",
+      "position_start_date": ""
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-1830": {
+      "school_id": 1829,
+      "posting_url": "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-1830",
+      "job_title_in_post": "Companion Animal Rotating Intern",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "31/03/2028",
+      "position_start_date": ""
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2475": {
+      "school_id": 1829,
+      "posting_url": "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2475",
+      "job_title_in_post": "Deputy Vice-Chancellor Academic",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "26/10/2026",
+      "position_start_date": ""
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2476": {
+      "school_id": 1829,
+      "posting_url": "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2476",
+      "job_title_in_post": "Deputy Vice-Chancellor Research & Enterprise",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "26/10/2026",
+      "position_start_date": ""
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2489": {
+      "school_id": 1829,
+      "posting_url": "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2489",
+      "job_title_in_post": "Deputy Vice-Chancellor Students & Growth",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "26/10/2026",
+      "position_start_date": ""
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2461": {
+      "school_id": 1829,
+      "posting_url": "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2461",
+      "job_title_in_post": "Estates Service Desk Administrator",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "23/10/2026",
+      "position_start_date": ""
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2421": {
+      "school_id": 1829,
+      "posting_url": "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2421",
+      "job_title_in_post": "Food Services Manager",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "13/10/2026",
+      "position_start_date": ""
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2457": {
+      "school_id": 1829,
+      "posting_url": "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2457",
+      "job_title_in_post": "Large Animal Veterinary Technician",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "08/11/2026",
+      "position_start_date": ""
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2400": {
+      "school_id": 1829,
+      "posting_url": "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2400",
+      "job_title_in_post": "Lecturer in Public Health",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "School of Health Sciences Lecturer in Public Health",
+      "area_key_words": "Public Health",
+      "deadline_of_application": "11/10/2026",
+      "position_start_date": ""
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2365": {
+      "school_id": 1829,
+      "posting_url": "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2365",
+      "job_title_in_post": "Lecturer/Senior Lecturer",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "School of Accountancy, Economics and Finance",
+      "area_key_words": "",
+      "deadline_of_application": "23/10/2026",
+      "position_start_date": ""
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2386": {
+      "school_id": 1829,
+      "posting_url": "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2386",
+      "job_title_in_post": "Lecturer/Senior Lecturer Education & Educational & Developmental Psychology",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "11/10/2026",
+      "position_start_date": ""
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-1673": {
+      "school_id": 1829,
+      "posting_url": "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-1673",
+      "job_title_in_post": "Locum Veterinarian in Small Animal Referral Surgery",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Small Animal Referral Surgery",
+      "deadline_of_application": "17/02/2027",
+      "position_start_date": ""
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2459": {
+      "school_id": 1829,
+      "posting_url": "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2459",
+      "job_title_in_post": "Manager Te Paepoto Contact Centre",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "25/10/2026",
+      "position_start_date": ""
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2447": {
+      "school_id": 1829,
+      "posting_url": "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2447",
+      "job_title_in_post": "Operations Manager",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "18/10/2026",
+      "position_start_date": ""
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2431": {
+      "school_id": 1829,
+      "posting_url": "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2431",
+      "job_title_in_post": "Postdoctoral Fellow - Plant-based Ingredients Functionality",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "14/10/2026",
+      "position_start_date": ""
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2428": {
+      "school_id": 1829,
+      "posting_url": "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2428",
+      "job_title_in_post": "Practicing Veterinarian/Senior Practicing Veterinarian",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "30/10/2026",
+      "position_start_date": ""
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2166": {
+      "school_id": 1829,
+      "posting_url": "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2166",
+      "job_title_in_post": "Practicing Veterinarian/Senior Practicing Veterinarian in Wildlife Pathology",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Wildlife Pathology",
+      "deadline_of_application": "15/11/2026",
+      "position_start_date": ""
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2480": {
+      "school_id": 1829,
+      "posting_url": "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2480",
+      "job_title_in_post": "Principal Systems Engineer",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "01/11/2026",
+      "position_start_date": ""
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2164": {
+      "school_id": 1829,
+      "posting_url": "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2164",
+      "job_title_in_post": "Research Assistant",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "30/06/2027",
+      "position_start_date": ""
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2450": {
+      "school_id": 1829,
+      "posting_url": "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2450",
+      "job_title_in_post": "Research Post-Award Advisor",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "01/11/2026",
+      "position_start_date": ""
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2425": {
+      "school_id": 1829,
+      "posting_url": "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2425",
+      "job_title_in_post": "Research Systems Support Analyst",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "25/10/2026",
+      "position_start_date": ""
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2396": {
+      "school_id": 1829,
+      "posting_url": "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2396",
+      "job_title_in_post": "Senior Change Manager",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "21/10/2026",
+      "position_start_date": ""
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2418": {
+      "school_id": 1829,
+      "posting_url": "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2418",
+      "job_title_in_post": "Senior Lecturer - Nursing",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "School of Nursing Senior Lecturer",
+      "area_key_words": "Nursing",
+      "deadline_of_application": "19/10/2026",
+      "position_start_date": ""
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2372": {
+      "school_id": 1829,
+      "posting_url": "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2372",
+      "job_title_in_post": "Senior Lecturer/Associate Professor - Education & Counselling",
+      "position_type": "Associate_Professor; Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Education & Counselling",
+      "deadline_of_application": "15/10/2026",
+      "position_start_date": ""
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2373": {
+      "school_id": 1829,
+      "posting_url": "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2373",
+      "job_title_in_post": "Senior Lecturer/Associate Professor - Speech Language Therapy",
+      "position_type": "Associate_Professor; Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Speech Language Therapy",
+      "deadline_of_application": "15/10/2026",
+      "position_start_date": ""
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2374": {
+      "school_id": 1829,
+      "posting_url": "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2374",
+      "job_title_in_post": "Senior Lecturer/Associate Professor in Farm Management",
+      "position_type": "Associate_Professor; Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Farm Management",
+      "deadline_of_application": "26/10/2026",
+      "position_start_date": ""
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2408": {
+      "school_id": 1829,
+      "posting_url": "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2408",
+      "job_title_in_post": "Senior Research Technician / Research Technician - Dairy Material Science and Technology",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "18/10/2026",
+      "position_start_date": ""
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2468": {
+      "school_id": 1829,
+      "posting_url": "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2468",
+      "job_title_in_post": "Student Achievement Coach",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "25/10/2026",
+      "position_start_date": ""
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2453": {
+      "school_id": 1829,
+      "posting_url": "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2453",
+      "job_title_in_post": "Student Support Liaison Advisor",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "20/10/2026",
+      "position_start_date": ""
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2406": {
+      "school_id": 1829,
+      "posting_url": "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2406",
+      "job_title_in_post": "Tutor/Senior Tutor - Foundation Education",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "11/10/2026",
+      "position_start_date": ""
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2401": {
+      "school_id": 1829,
+      "posting_url": "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2401",
+      "job_title_in_post": "Tutor/Senior Tutor in Biosciences",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Biosciences",
+      "deadline_of_application": "11/10/2026",
+      "position_start_date": ""
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2310": {
+      "school_id": 1829,
+      "posting_url": "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2310",
+      "job_title_in_post": "Tutor/Senior Tutor in Public Health",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Public Health",
+      "deadline_of_application": "25/10/2026",
+      "position_start_date": ""
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2236": {
+      "school_id": 1829,
+      "posting_url": "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2236",
+      "job_title_in_post": "Veterinarian/Senior Veterinarian in Small Animal Referral Surgery",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Small Animal Referral Surgery",
+      "deadline_of_application": "24/10/2026",
+      "position_start_date": ""
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2434": {
+      "school_id": 1829,
+      "posting_url": "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2434",
+      "job_title_in_post": "Veterinary Nurse - Emergency and Critical Care",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "21/10/2026",
+      "position_start_date": ""
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2455": {
+      "school_id": 1829,
+      "posting_url": "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2455",
+      "job_title_in_post": "VetMAP Kaiarahi/Coordinator",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "01/11/2026",
       "position_start_date": ""
     }
   },
   "school_id": 1829,
   "status": "complete",
-  "updated_at": "2026-10-06T03:10:10+00:00",
-  "completed_at": "2026-10-06T03:10:10+00:00",
+  "updated_at": "2026-10-09T19:43:13+00:00",
+  "completed_at": "2026-10-09T19:43:13+00:00",
   "last_error": ""
 }

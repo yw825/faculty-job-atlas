@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 1892 - University of Southern Denmark (Denmark)
 ATS platform: Oracle Cloud HCM (detected: oracle)
-Careers link: https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/da/sites/CX_1001/requisitions?keyword=Universitetsbibliotek&mode=location
+Careers link: https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs
 
 University of Southern Denmark runs on a shared ATS platform -- every school on oracle uses the
 exact same underlying site software, so this calls the shared
@@ -22,7 +22,7 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1892
 SCHOOL_NAME = 'University of Southern Denmark'
-CAREERS_LINK = 'https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/da/sites/CX_1001/requisitions?keyword=Universitetsbibliotek&mode=location'
+CAREERS_LINK = 'https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs'
 ATS_PLATFORM = 'Oracle Cloud HCM'
 PLATFORM = 'oracle'
 

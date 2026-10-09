@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1856 - Macau Millennium College (Macau)
 ATS platform: own website
-Careers link: https://mmc.edu.mo/blog/contact_zh_hk/1284/
+Careers link: https://mmc.edu.mo/blog/category/notice_zh_hk/
 
 No bulk info adapter applies to this school -- fetch_detail(url) below
 visits each posting page individually and is THIS SCHOOL'S OWN detail-page
@@ -39,7 +39,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1856
 SCHOOL_NAME = 'Macau Millennium College'
-CAREERS_LINK = 'https://mmc.edu.mo/blog/contact_zh_hk/1284/'
+CAREERS_LINK = 'https://mmc.edu.mo/blog/category/notice_zh_hk/'
 ATS_PLATFORM = 'own website'
 USE_LLM = False  # set True once you have ANTHROPIC_API_KEY configured
 

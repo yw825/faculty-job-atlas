@@ -20,6 +20,12 @@ blank forms, not tied to any specific opening).
 
 Writes school_job_posts/school_id_1850_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1850_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+MPU's recruitment page has an Academic Staff tab (#tab-aca) of collapsible
+boxes, one per call ("Recruitment of 8 Full-time Lecturers ... (2526-FCA-009)");
+each call's "Recruitment Notice" PDF is stored. Non-academic calls (the
+other tab) are not collected.
 """
 import os
 import re
@@ -38,26 +44,20 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkp
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
     from bs4 import BeautifulSoup
-    soup = BeautifulSoup(html, 'html.parser')
-    # This page declares <base href="https://earth.ipm.edu.mo/store/"/>, so
-    # relative hrefs ("./uploads/...") must resolve against THAT, not
-    # against CAREERS_LINK itself -- confirmed live: resolving against
-    # CAREERS_LINK (the plain, correct approach on any page without a
-    # <base> tag) produced a URL that 500'd; the browser's own
-    # base-tag-aware resolution (el.href) gave the real, 200-status PDF URL.
-    base_tag = soup.find('base', href=True)
-    base_url = base_tag['href'] if base_tag else CAREERS_LINK
+    from urllib.parse import urljoin
+    status, html = lib.fetch_static(CAREERS_LINK, timeout=40)
+    if status != 200:
+        raise RuntimeError(f'recruitment page status={status}')
+    tab = BeautifulSoup(html, 'html.parser').find(id='tab-aca')
+    if tab is None:
+        raise RuntimeError('academic tab not found')
     links = []
-    for box in soup.find_all('div', class_='box'):
-        if 'application closed' in box.get_text(' ', strip=True).lower():
-            continue
-        a = box.find('a', href=True)
-        if a:
-            links.append(lib.urljoin(base_url, a['href']))
+    for box in tab.select('.box'):
+        items = [(li.get_text(' ', strip=True), a['href']) for li in box.select('li') for a in li.find_all('a', href=re.compile(r'\.pdf'))]
+        pick = next((h for t, h in items if re.search(r'(?i)recruitment notice', t)), items[-1][1] if items else None)
+        if pick:
+            links.append(urljoin('https://earth.ipm.edu.mo/store/', pick))
     return links
 
 

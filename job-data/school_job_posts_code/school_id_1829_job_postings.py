@@ -1,21 +1,17 @@
 """
 Job postings scraper for school_id 1829 - Massey University (New Zealand)
-ATS platform: own website
-Careers link: https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/OrganisationManagement/JobBoardEnquiry?f=%24ORG.REC.EXJOBB.ENQ&suite=CES&G=5bca84fd-f451-42ff-a6d8-98078988867f
+Careers link: https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES
 
-No shared ATS platform adapter applies to this school -- find_links() below
-is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
-directly to fix or improve results for Massey University; nothing here affects any
-other school's script.
-
-Starting point (not a tuned answer): fetch the careers page rendered (JS
-included), then keep every link whose href or visible text looks
-job/vacancy/posting-shaped (job_postings_lib.COMMON_JOB_URL_HINTS). If this
-under- or over-collects for this school, narrow/widen that pattern, add a
-click/scroll step via fetch_rendered's `actions` argument (see
-job_postings_lib.scrape_taleo for a real example of clicking through a
-search-results page), or follow a department/pagination link with a second
-fetch_rendered/fetch_static call and merge the results.
+TUNED FIND_LINKS
+Massey's job board is TechnologyOne CiAnywhere. The public entry point
+(linked from massey.ac.nz/about/jobs-at-massey) redirects to a
+JobBoardEnquiry URL with a per-session G=<guid>; such a URL -- the old
+careers link and the one in the audit sheet alike -- later redirects to the
+staff LOG ON page, so the public entry point is stored instead. All jobs
+(~40) are cards on one rendered page; a job has NO stable URL of its own
+(Apply links carry a session hash and the Advertisement panel is disabled
+for guests), so each is stored as the public board URL + "#<Reference>"
+(e.g. #JR-2417) -- the same scheme as Manitoba/McMaster.
 
 Writes school_job_posts/school_id_1829_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1829_job_postings.checkpoint next to this script.
@@ -30,19 +26,40 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1829
 SCHOOL_NAME = 'Massey University'
-CAREERS_LINK = 'https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/OrganisationManagement/JobBoardEnquiry?f=%24ORG.REC.EXJOBB.ENQ&suite=CES&G=5bca84fd-f451-42ff-a6d8-98078988867f'
+CAREERS_LINK = 'https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
+def board_cards():
+    """[(reference, title, card text)] for every job card on the board."""
+    from bs4 import BeautifulSoup
+
+    def wait_for_cards(page):
+        page.wait_for_selector('.thumbnailItem img[alt^="Image for"]', timeout=60000)
+        page.wait_for_timeout(2000)
+    html = lib.fetch_rendered(CAREERS_LINK, wait_ms=3000, actions=wait_for_cards, timeout=90000)
+    if not html or lib.is_fetch_failure(html):
+        raise RuntimeError(html or 'board did not render')
+    if 'Log On - CiA' in html and 'thumbnailItem' not in html:
+        raise RuntimeError('redirected to the staff log-on page')
+    out = []
+    for card in BeautifulSoup(html, 'html.parser').select('.thumbnailItem'):
+        img = card.find('img', alt=re.compile(r'^Image for '))
+        ref = card.select_one('.thbFld_JOBREQJobId .editorField')
+        if not img or not ref:
+            continue
+        title = img['alt'][len('Image for '):].strip()
+        fields = [d.get('title') or d.get_text(' ', strip=True) for d in card.select('.editorField')]
+        out.append((ref.get_text(strip=True), title, ' | '.join(f for f in fields if f)))
+    if not out:
+        raise RuntimeError('no job cards found')
+    return out
+
+
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                              href_pattern=lib.COMMON_JOB_URL_HINTS,
-                              text_pattern=lib.COMMON_JOB_URL_HINTS)
+    return [f'{CAREERS_LINK}#{ref}' for ref, _title, _text in board_cards()]
 
 
 def main():

@@ -19,6 +19,12 @@ fetch_rendered/fetch_static call and merge the results.
 
 Writes school_job_posts/school_id_1715_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1715_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+uni.lu's job list sits behind a CloudFront firewall that blocks the bundled
+headless browser; installed Chrome (lib.get_real_chrome) passes. The list
+shows 9 jobs and a "Load more" button, clicked until it disappears.
+Postings are /en/jobs/<slug>/.
 """
 import os
 import re
@@ -37,12 +43,27 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkp
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                              href_pattern=lib.COMMON_JOB_URL_HINTS,
-                              text_pattern=lib.COMMON_JOB_URL_HINTS)
+    page = lib.get_real_chrome().new_page()
+    try:
+        page.goto(CAREERS_LINK, timeout=90000)
+        page.wait_for_timeout(6000)
+        for _ in range(30):
+            more = page.query_selector('button:has-text("Load more"), a:has-text("Load more")')
+            if not more or not more.is_visible():
+                break
+            more.click()
+            page.wait_for_timeout(2500)
+        html = page.content()
+    finally:
+        page.close()
+    links = []
+    for href in re.findall(r'href="((?:https://www\.uni\.lu)?/en/jobs/[a-z0-9-]+/?)"', html):
+        url = href if href.startswith('http') else 'https://www.uni.lu' + href
+        if url not in links:
+            links.append(url)
+    if not links:
+        raise RuntimeError('no jobs on the page (blocked?)')
+    return links
 
 
 def main():

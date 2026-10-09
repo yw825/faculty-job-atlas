@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1724 - University of Bergen (Norway)
 ATS platform: own website
-Careers link: https://www.jobbnorge.no/search/en?OrderBy=Published&Period=All&employer=724#1
+Careers link: https://www.uib.no/en/positions
 
 No bulk info adapter applies to this school -- fetch_detail(url) below
 visits each posting page individually and is THIS SCHOOL'S OWN detail-page
@@ -39,7 +39,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1724
 SCHOOL_NAME = 'University of Bergen'
-CAREERS_LINK = 'https://www.jobbnorge.no/search/en?OrderBy=Published&Period=All&employer=724#1'
+CAREERS_LINK = 'https://www.uib.no/en/positions'
 ATS_PLATFORM = 'own website'
 USE_LLM = False  # set True once you have ANTHROPIC_API_KEY configured
 
@@ -47,8 +47,19 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(HERE, '..', 'school_job_posts_code', f'sc
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 
-def fetch_detail(url):
+def _fetch_detail_base(url):
     return jinfo.fetch_detail_generic(url)
+
+
+def fetch_detail(url):
+    """Jobbnorge pages: when the first heading is a section name ("About the position"),
+    the real title is the page title "<title> (<job id>) | <employer>"."""
+    import re
+    title, text = _fetch_detail_base(url)
+    m = re.match(r'\s*(.+?) \(\d{5,}\) \|', text or '')
+    if m and (not title or re.match(r'(?i)about the position|ledig stilling|om stillingen', title)):
+        title = m.group(1)
+    return title, text
 
 
 def main():

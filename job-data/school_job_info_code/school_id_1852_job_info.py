@@ -11,8 +11,7 @@ need something the default doesn't handle (a click to reveal full text, a
 login wall, a non-obvious title element, etc.); nothing here affects any
 other school's script.
 
-Default: render the page, take the first heading (or <title>) as the job
-title and the page's visible text as the description.
+TUNED: pages are a JavaScript app; read rendered, title before 職位編碼.
 
 Reads posting URLs from school_id_1852_job_postings.checkpoint (this
 school's job_postings run) and classifies each one (position_type,
@@ -48,7 +47,24 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint
 
 
 def fetch_detail(url):
-    return jinfo.fetch_detail_generic(url)
+    """MUST's posting page is a JavaScript app (the static HTML is only the site
+    name). Rendered, the title sits between the 登入/註冊 links and the
+    職位編碼 (position code) field; 招聘部門 is the department."""
+    import re
+    html = jinfo.jlib.fetch_rendered(url, wait_ms=6000)
+    if not html or jinfo.jlib.is_fetch_failure(html):
+        raise RuntimeError(html or 'page did not render')
+    from bs4 import BeautifulSoup
+    text = re.sub(r'\s+', ' ', BeautifulSoup(html, 'html.parser').get_text(' ', strip=True))
+    m = re.search(r'註冊\s+(.+?)\s+職位編碼', text)
+    if not m:
+        raise RuntimeError('posting not shown (closed?)')
+    dept = re.search(r'招聘部門\s+(\S+)', text)
+    lead = f'Department: {dept.group(1)} ' if dept else ''
+    title = m.group(1).strip()
+    if dept and re.match(r'(?i)^[\s/]*(?:(?:assistant|associate|full|distinguished|chair)\s+)?professor(?:[\s/]+(?:(?:assistant|associate|full)\s+)?professor)*\s*$', title):
+        title = f'{title} - {dept.group(1)}'
+    return title[:250], (lead + text[m.start(1):])[:20000]
 
 
 def main():

@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1892 - University of Southern Denmark (Denmark)
 ATS platform: Oracle Cloud HCM (detected: oracle)
-Careers link: https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/da/sites/CX_1001/requisitions?keyword=Universitetsbibliotek&mode=location
+Careers link: https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs
 
 University of Southern Denmark runs on a shared ATS platform with a bulk info adapter --
 job_info_lib.fetch_oracle_bulk gets title/department/description/
@@ -35,7 +35,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1892
 SCHOOL_NAME = 'University of Southern Denmark'
-CAREERS_LINK = 'https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/da/sites/CX_1001/requisitions?keyword=Universitetsbibliotek&mode=location'
+CAREERS_LINK = 'https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs'
 ATS_PLATFORM = 'Oracle Cloud HCM'
 PLATFORM = 'oracle'
 USE_LLM = False  # set True once you have ANTHROPIC_API_KEY configured

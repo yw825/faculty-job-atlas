@@ -47,8 +47,17 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(HERE, '..', 'school_job_posts_code', f'sc
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 
-def fetch_detail(url):
+def _fetch_detail_base(url):
     return jinfo.fetch_detail_generic(url)
+
+
+def fetch_detail(url):
+    """Some vacancies open behind a log-in wall titled "Inloggen"; the title is
+    then taken from the vacancy's slug ("medewerker-student-admissions")."""
+    title, text = _fetch_detail_base(url)
+    if (title or '').strip().lower() in ('inloggen', 'log in', 'login'):
+        title = url.rstrip('/').rsplit('/', 1)[-1].replace('-', ' ').capitalize()
+    return title, text
 
 
 def main():

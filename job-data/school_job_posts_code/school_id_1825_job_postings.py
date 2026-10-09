@@ -36,13 +36,20 @@ ATS_PLATFORM = 'own website'
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
-def find_links():
+def _page_links():
     html = lib.fetch_rendered(CAREERS_LINK)
     if lib.is_fetch_failure(html):
         raise RuntimeError(html)
     return lib.extract_links(html, CAREERS_LINK,
                               href_pattern=lib.COMMON_JOB_URL_HINTS,
                               text_pattern=lib.COMMON_JOB_URL_HINTS)
+
+
+def find_links():
+    """Only /jobdetails postings -- the board also links a sign-in page
+    (search?isSignedIn=candidate), which was being stored as a job titled
+    "Account access"."""
+    return [u for u in _page_links() if '/jobdetails' in u]
 
 
 def main():

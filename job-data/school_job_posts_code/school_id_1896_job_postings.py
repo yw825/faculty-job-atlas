@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 1896 - Kwantlen Polytechnic University (Canada)
 ATS platform: Taleo (detected: taleo)
-Careers link: https://tre.tbe.taleo.net/tre01/ats/careers/v2/jobSearch?org=JT63GS&cws=37
+Careers link: https://tre.tbe.taleo.net/tre01/ats/careers/v2/searchResults?org=JT63GS&cws=37
 
 Kwantlen Polytechnic University runs on a shared ATS platform -- every school on taleo uses the
 exact same underlying site software, so this calls the shared
@@ -22,7 +22,7 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1896
 SCHOOL_NAME = 'Kwantlen Polytechnic University'
-CAREERS_LINK = 'https://tre.tbe.taleo.net/tre01/ats/careers/v2/jobSearch?org=JT63GS&cws=37'
+CAREERS_LINK = 'https://tre.tbe.taleo.net/tre01/ats/careers/v2/searchResults?org=JT63GS&cws=37'
 ATS_PLATFORM = 'Taleo'
 PLATFORM = 'taleo'
 

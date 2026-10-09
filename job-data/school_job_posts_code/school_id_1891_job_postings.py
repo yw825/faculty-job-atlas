@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 1891 - Aalborg University (Denmark)
 ATS platform: own website
-Careers link: https://www.vacancies.aau.dk/
+Careers link: https://www.vacancies.aau.dk/scientific-positions
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -19,6 +19,10 @@ fetch_rendered/fetch_static call and merge the results.
 
 Writes school_job_posts/school_id_1891_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1891_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Careers link corrected in the audit sheet to the scientific-positions list,
+which renders its vacancies as show-vacancy/vacancyId/<n> links.
 """
 import os
 import re
@@ -30,19 +34,20 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1891
 SCHOOL_NAME = 'Aalborg University'
-CAREERS_LINK = 'https://www.vacancies.aau.dk/'
+CAREERS_LINK = 'https://www.vacancies.aau.dk/scientific-positions'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                              href_pattern=lib.COMMON_JOB_URL_HINTS,
-                              text_pattern=lib.COMMON_JOB_URL_HINTS)
+    html = lib._fetch_rendered_retry(CAREERS_LINK, 5000)
+    links = []
+    for href in re.findall(r'href="([^"]*show-vacancy/vacancyId/\d+)[^"]*"', html):
+        url = href if href.startswith('http') else 'https://www.vacancies.aau.dk' + href
+        if url not in links:
+            links.append(url)
+    return links
 
 
 def main():

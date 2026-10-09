@@ -4,8 +4,12 @@ Careers link: https://www.nhh.no/en/about-nhh/vacant-positions/
 
 Writes school_job_posts/school_id_1900_job_posts.csv. Checkpointed to
 school_id_1900_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Kept: Jobbnorge job pages only (not the page itself or its share buttons).
 """
 import os
+import re
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -20,9 +24,18 @@ ATS_PLATFORM = 'own website'
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
-def find_links():
+def _page_links():
     """Job word first, repeated URL shape second (lib.scrape_listing)."""
     return lib.scrape_listing(CAREERS_LINK)
+
+
+POSTING_RE = re.compile(r'jobbnorge\.no/.*/(?:job|stilling)/\d+')
+
+
+def find_links():
+    """Only real postings: the page also links its menus, careers home and
+    share buttons, which were being stored as jobs."""
+    return [u for u in _page_links() if POSTING_RE.search(u)]
 
 
 def main():

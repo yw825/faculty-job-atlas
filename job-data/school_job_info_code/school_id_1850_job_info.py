@@ -11,8 +11,7 @@ need something the default doesn't handle (a click to reveal full text, a
 login wall, a non-obvious title element, etc.); nothing here affects any
 other school's script.
 
-Default: render the page, take the first heading (or <title>) as the job
-title and the page's visible text as the description.
+TUNED: title from the call's box on the recruitment page, text from its PDF.
 
 Reads posting URLs from school_id_1850_job_postings.checkpoint (this
 school's job_postings run) and classifies each one (position_type,
@@ -48,7 +47,21 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint
 
 
 def fetch_detail(url):
-    return jinfo.fetch_detail_generic(url)
+    """The call's title ("Recruitment of 8 Full-time Lecturers (area of ...)")
+    from its box in the Academic Staff tab; description from the notice PDF."""
+    import re
+    from bs4 import BeautifulSoup
+    title = ''
+    status, html = jinfo.jlib.fetch_static(CAREERS_LINK, timeout=40)
+    if status == 200:
+        tab = BeautifulSoup(html, 'html.parser').find(id='tab-aca')
+        for box in (tab.select('.box') if tab else []):
+            if any(a['href'].split('/')[-1] == url.split('/')[-1] for a in box.find_all('a', href=True)):
+                title = box.select_one('.box-title').get_text(' ', strip=True)
+                break
+    pdf_title, text = jinfo.fetch_detail_pdf(url)
+    title = re.sub(r'_Job Vacancies at .*?(?=\(|$)', ' ', title or pdf_title)
+    return re.sub(r'\s+', ' ', title).strip()[:250], re.sub(r'\s+', ' ', text)[:20000]
 
 
 def main():

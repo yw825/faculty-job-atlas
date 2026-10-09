@@ -19,6 +19,11 @@ fetch_rendered/fetch_static call and merge the results.
 
 Writes school_job_posts/school_id_1853_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1853_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+City University of Macau's job-application category is a WordPress archive,
+10 posts per page (/page/2/, /page/3/); postings are dated posts
+/en/YYYY/MM/DD/<slug>/.
 """
 import os
 import re
@@ -37,12 +42,19 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkp
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                              href_pattern=lib.COMMON_JOB_URL_HINTS,
-                              text_pattern=lib.COMMON_JOB_URL_HINTS)
+    links = []
+    for page in range(1, 30):
+        url = CAREERS_LINK if page == 1 else f'{CAREERS_LINK.rstrip("/")}/page/{page}/'
+        status, html = lib.fetch_static(url, timeout=40)
+        if status != 200:
+            if page == 1:
+                raise RuntimeError(f'category status={status}')
+            break
+        new = [u for u in re.findall(r'href="(https://hro\.cityu\.edu\.mo/en/20\d\d/\d\d/\d\d/[a-z0-9-]+/)"', html) if u not in links]
+        if not new:
+            break
+        links += new
+    return links
 
 
 def main():

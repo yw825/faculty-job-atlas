@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 1725 - BI Norwegian Business School (Norway)
 ATS platform: own website
-Careers link: https://academicpositions.com/employer/bi-norwegian-business-school
+Careers link: https://www.bi.no/en/about-bi/vacant-positions/
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -19,6 +19,11 @@ fetch_rendered/fetch_static call and merge the results.
 
 Writes school_job_posts/school_id_1725_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1725_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Careers link corrected in the audit sheet to bi.no's vacant-positions page,
+which does not expose the jobs in its HTML; the jobs are read from BI's
+EasyCruit board (BOARD), where the audit's example is.
 """
 import os
 import re
@@ -30,7 +35,8 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1725
 SCHOOL_NAME = 'BI Norwegian Business School'
-CAREERS_LINK = 'https://bi.easycruit.com/'
+CAREERS_LINK = 'https://www.bi.no/en/about-bi/vacant-positions/'
+BOARD = 'https://bi.easycruit.com/'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
@@ -42,7 +48,7 @@ def find_links():
     category pages ("224 Machine Learning jobs", "131 jobs in Belgium") and
     the same employer page on eleven country domains. BI's own board is
     EasyCruit."""
-    return lib.scrape_listing(CAREERS_LINK)
+    return lib.scrape_listing(BOARD)
 
 
 def main():

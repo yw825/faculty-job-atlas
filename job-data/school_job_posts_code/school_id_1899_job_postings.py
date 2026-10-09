@@ -4,8 +4,14 @@ Careers link: https://jobs.frankfurt-school.de/
 
 Writes school_job_posts/school_id_1899_job_posts.csv. Checkpointed to
 school_id_1899_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Staff jobs are on jobs.frankfurt-school.de (/en/jobs/<id>/<slug>; the /de/
+duplicates and list page are dropped); faculty positions are posted on
+Interfolio (board 31504, found 2026-10-09), which is read too.
 """
 import os
+import re
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -21,8 +27,18 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkp
 
 
 def find_links():
-    """Job word first, repeated URL shape second (lib.scrape_listing)."""
-    return lib.scrape_listing(CAREERS_LINK)
+    status, html = lib.fetch_static(CAREERS_LINK, timeout=40)
+    if status != 200:
+        raise RuntimeError(f'jobs status={status}')
+    links = []
+    for path in re.findall(r'href="(?:https://jobs\.frankfurt-school\.de)?(/en/jobs/\d+/[a-z0-9-]+)"', html):
+        if 'https://jobs.frankfurt-school.de' + path not in links:
+            links.append('https://jobs.frankfurt-school.de' + path)
+    try:
+        links += lib.scrape_interfolio('https://apply.interfolio.com/31504/positions')
+    except RuntimeError:
+        pass  # no faculty positions open
+    return links
 
 
 def main():

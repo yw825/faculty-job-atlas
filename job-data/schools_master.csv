@@ -1354,8 +1354,8 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes,scrap
 1721,Erasmus University Rotterdam,Netherlands,https://www.eur.nl/,https://www.eur.nl/en/working-at-eur/vacancies/overview,own website,high,hand-verified-sync,generic scraper
 1722,Tilburg University,Netherlands,https://www.tilburguniversity.edu/,https://career5.successfactors.eu/career?company=S003974031P&lang=nl_NL&career_ns=job_listing_summary&navBarLevel=JOB_SEARCH&_s.crb=6hYoVmeXY2z6%2bH0%2fMSGj5dWYTs0%3d,SAP SuccessFactors,high,hand-verified-sync,generic scraper (verified working)
 1723,Utrecht University,Netherlands,https://www.uu.nl/,https://www.uu.nl/en/organisation/working-at-utrecht-university/jobs,own website,high,hand-verified-sync,generic scraper
-1724,University of Bergen,Norway,https://www.uib.no/,https://www.jobbnorge.no/search/en?OrderBy=Published&Period=All&employer=724#1,own website,high,hand-verified-sync,generic scraper
-1725,BI Norwegian Business School,Norway,https://www.bi.edu/,https://bi.easycruit.com/,own website,high,"hand-verified-sync | careers_link was an academicpositions.com EMPLOYER page (an aggregator): its ""postings"" were category pages like ""224 Machine Learning jobs"" and the same page on 11 country domains. Real board is EasyCruit.",generic scraper
+1724,University of Bergen,Norway,https://www.uib.no/,https://www.uib.no/en/positions,own website,high,hand-verified-sync,generic scraper
+1725,BI Norwegian Business School,Norway,https://www.bi.edu/,https://www.bi.no/en/about-bi/vacant-positions/,own website,high,"hand-verified-sync | careers_link was an academicpositions.com EMPLOYER page (an aggregator): its ""postings"" were category pages like ""224 Machine Learning jobs"" and the same page on 11 country domains. Real board is EasyCruit.",generic scraper
 1726,University of Oslo,Norway,https://www.uio.no/,https://www.uio.no/english/about/vacancies/academic/,own website,high,hand-verified-sync,generic scraper
 1727,Norwegian University of Science and Technology,Norway,https://www.ntnu.no/,https://www.ntnu.edu/vacancies,own website,high,hand-verified-sync,generic scraper
 1728,AGH University of Krakow,Poland,https://www.agh.edu.pl/,https://bazaogloszen.nauka.gov.pl/wyniki-wyszukiwania/,Poland national portal,high,hand-verified-sync,adapter built
@@ -1450,7 +1450,7 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes,scrap
 1826,University of Otago,New Zealand,https://www.otago.ac.nz/,https://otago.taleo.net/careersection/2/moresearch.ftl,Taleo,high,Direct Taleo career section job list,generic scraper (verified working)
 1827,University of Waikato,New Zealand,https://www.waikato.ac.nz/,https://elhs.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/jobs?lastSelectedFacet=TITLES&mode=location&selectedTitlesFacet=UOW_ACADEMIC,Oracle Cloud HCM,high,Direct current vacancies listing page,adapter built
 1828,Lincoln University,New Zealand,https://www.lincoln.ac.nz/,https://careers.lincoln.ac.nz/search,own website,high,Direct search/listings page,generic scraper
-1829,Massey University,New Zealand,https://www.massey.ac.nz/,https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/OrganisationManagement/JobBoardEnquiry?f=%24ORG.REC.EXJOBB.ENQ&suite=CES&G=5bca84fd-f451-42ff-a6d8-98078988867f,own website,high,Confirmed direct listing link on jobs-at-massey hub page,generic scraper
+1829,Massey University,New Zealand,https://www.massey.ac.nz/,https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES,own website,high,Confirmed direct listing link on jobs-at-massey hub page,generic scraper
 1830,Victoria University of Wellington,New Zealand,https://www.wgtn.ac.nz/,https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs?lastSelectedFacet=CATEGORIES&selectedCategoriesFacet=300000002931158,Oracle Cloud HCM,high,Confirmed direct portal link from wgtn.ac.nz/jobs hub page,adapter built
 1831,City University of Hong Kong,Hong Kong,https://www.cityu.edu.hk/,https://jobs1.cityu.edu.hk/apply/Default.aspx?jobtype=ACAD,own website,high,"CityUHK e-Recruitment System, filtered to academic job type",generic scraper
 1833,HKCT Institute of Higher Education,Hong Kong,https://www.hkct.edu.hk/,https://www.hkct.edu.hk/en/abouthkct/join-us,own website,high,Join Us page directly lists current academic/admin openings,generic scraper
@@ -1475,10 +1475,10 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes,scrap
 1852,Macao University of Science and Technology,Macau,https://www.must.edu.mo/,https://careers.must.edu.mo/recruitment-latest?locale=en_US,own website,high,Dedicated recruitment system subdomain,generic scraper
 1853,City University of Macau,Macau,https://www.cityu.edu.mo/,https://hro.cityu.edu.mo/en/category/job-application/,own website,high,hand-verified-sync,generic scraper
 1855,Macau Institute of Management,Macau,https://www.mim.edu.mo/,https://www.mim.edu.mo/?list_102/,own website,high,hand-verified-sync,generic scraper
-1856,Macau Millennium College,Macau,https://www.mmc.edu.mo/,https://mmc.edu.mo/blog/contact_zh_hk/1284/,own website,high,hand-verified-sync,generic scraper
+1856,Macau Millennium College,Macau,https://www.mmc.edu.mo/,https://mmc.edu.mo/blog/category/notice_zh_hk/,own website,high,hand-verified-sync,generic scraper
 1857,National University of Singapore,Singapore,https://www.nus.edu.sg/,https://careers.nus.edu.sg/Acadpositions/go/Academic-Positions-Tenure-Track/732844/,own website,high,Direct academic positions listing page;hand-verified-sync,generic scraper
 1858,Nanyang Technological University,Singapore,https://www.ntu.edu.sg/,https://ntu.wd3.myworkdayjobs.com/Careers,Workday,high,Direct Workday careers listing,adapter built
-1859,Singapore Management University,Singapore,https://www.smu.edu.sg/,https://careers.smu.edu.sg/faculty-recruitment,own website,high,Direct faculty recruitment listing page,generic scraper
+1859,Singapore Management University,Singapore,https://www.smu.edu.sg/,https://smucareers.taleo.net/careersection/smu_ext_ft/jobsearch.ftl,Taleo,high,Direct faculty recruitment listing page,generic scraper
 1860,Singapore Institute of Technology,Singapore,https://www.singaporetech.edu.sg/,https://careers.singaporetech.edu.sg/search/?q=&searchResultView=LIST,own website,high,Confirmed direct portal linked from singaporetech.edu.sg/careers hub;hand-verified-sync,generic scraper
 1861,Singapore University of Social Sciences,Singapore,https://www.suss.edu.sg/,https://careers.suss.edu.sg/go/Academic-Appointments/4634610/,own website,high,hand-verified-sync,generic scraper
 1862,Singapore University of Technology and Design,Singapore,https://www.sutd.edu.sg/,https://careers.sutd.edu.sg/search/?createNewAlert=false&q=&optionsFacetsDD_facility=&optionsFacetsDD_department=,own website,high,Confirmed direct portal linked from sutd.edu.sg/about/careers hub;hand-verified-sync,generic scraper
@@ -1509,12 +1509,12 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes,scrap
 1888,Radboud University,Netherlands,https://www.ru.nl/,https://www.ru.nl/werken-bij/vacatures,own website,high,hand-verified-sync,generic scraper
 1889,Eindhoven University of Technology,Netherlands,https://www.tue.nl/,https://www.tue.nl/en/working-at-tue/vacancy-overview,own website,high,hand-verified-sync,generic scraper
 1890,University of Gothenburg,Sweden,https://www.gu.se/,https://www.gu.se/en/work-at-the-university-of-gothenburg/vacancies,own website,high,hand-verified-sync,generic scraper
-1891,Aalborg University,Denmark,https://www.aau.dk/,https://www.vacancies.aau.dk/,own website,high,hand-verified-sync,generic scraper
-1892,University of Southern Denmark,Denmark,https://www.sdu.dk/,https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/da/sites/CX_1001/requisitions?keyword=Universitetsbibliotek&mode=location,Oracle Cloud HCM,high,OK-2hop:OK:6,adapter built
+1891,Aalborg University,Denmark,https://www.aau.dk/,https://www.vacancies.aau.dk/scientific-positions,own website,high,hand-verified-sync,generic scraper
+1892,University of Southern Denmark,Denmark,https://www.sdu.dk/,https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs,Oracle Cloud HCM,high,OK-2hop:OK:6,adapter built
 1893,University of Vaasa,Finland,https://www.uwasa.fi/,https://uva.rekrytointi.com/paikat/?o=A_LOJ&list=6&lang=en,Finnish gov recruitment portal,,,generic scraper (verified working)
 1894,University of Oulu,Finland,https://www.oulu.fi/,https://oulunyliopisto.varbi.com/en/,own website,,,generic scraper
 1895,MacEwan University,Canada,https://www.macewan.ca/,https://www.macewan.ca/about-macewan/careers/opportunities/,own website,,,generic scraper
-1896,Kwantlen Polytechnic University,Canada,https://www.kpu.ca/,https://tre.tbe.taleo.net/tre01/ats/careers/v2/jobSearch?org=JT63GS&cws=37,Taleo,high,OK-2hop:OK:9,generic scraper (verified working)
+1896,Kwantlen Polytechnic University,Canada,https://www.kpu.ca/,https://tre.tbe.taleo.net/tre01/ats/careers/v2/searchResults?org=JT63GS&cws=37,Taleo,high,OK-2hop:OK:9,generic scraper (verified working)
 1897,Manhattan College,US,https://www.manhattan.edu/,,,,,
 1898,CATÓLICA-LISBON School of Business & Economics,Portugal,https://clsbe.lisboa.ucp.pt/,https://clsbe.lisboa.ucp.pt/research/research-positions,own website,,added: missing European business/economics school,generic scraper
 1899,Frankfurt School of Finance & Management,Germany,https://www.frankfurt-school.de/,https://jobs.frankfurt-school.de/,own website,,added: missing European business/economics school,generic scraper

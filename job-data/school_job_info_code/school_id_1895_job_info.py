@@ -47,8 +47,19 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(HERE, '..', 'school_job_posts_code', f'sc
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 
-def fetch_detail(url):
+def _fetch_detail_base(url):
     return jinfo.fetch_detail_generic(url)
+
+
+def fetch_detail(url):
+    """A competition page whose Opportunity section never filled in (the posting is
+    gone) comes back titled "Opportunity Details" with no job text; it is an error,
+    not a job."""
+    import re
+    title, text = _fetch_detail_base(url)
+    if (title or '').strip() == 'Opportunity Details':
+        raise RuntimeError('posting has no content (closed or withdrawn)')
+    return title, text
 
 
 def main():

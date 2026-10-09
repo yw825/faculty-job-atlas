@@ -47,8 +47,19 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(HERE, '..', 'school_job_posts_code', f'sc
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 
-def fetch_detail(url):
+def _fetch_detail_base(url):
     return jinfo.fetch_detail_generic(url)
+
+
+def fetch_detail(url):
+    """Ten calls share the title "Professor/Associate Professor/Assistant Professor";
+    the unit named at the end of the post URL is appended."""
+    import re
+    title, text = _fetch_detail_base(url)
+    m = re.search(r'/(?:[a-z]+-)*?professor-((?:faculty|school|institute|college)-[a-z0-9-]+?)(?:-\d+)?/?$', url)
+    if m and re.match(r'(?i)^(?:(?:assistant |associate |full )?professor\s*/?\s*)+$', title.strip()):
+        title = f"{title} - {m.group(1).replace('-', ' ').title()}"
+    return title, text
 
 
 def main():

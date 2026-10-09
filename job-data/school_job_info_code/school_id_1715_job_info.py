@@ -11,8 +11,7 @@ need something the default doesn't handle (a click to reveal full text, a
 login wall, a non-obvious title element, etc.); nothing here affects any
 other school's script.
 
-Default: render the page, take the first heading (or <title>) as the job
-title and the page's visible text as the description.
+TUNED: pages read through installed Chrome (CloudFront blocks the bundled browser).
 
 Reads posting URLs from school_id_1715_job_postings.checkpoint (this
 school's job_postings run) and classifies each one (position_type,
@@ -48,7 +47,35 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint
 
 
 def fetch_detail(url):
-    return jinfo.fetch_detail_generic(url)
+    """uni.lu sits behind CloudFront, which answers the bundled headless
+    browser with "ERROR: The request could not be satisfied"; installed Chrome
+    passes. Title = the page's h1."""
+    import re
+    from bs4 import BeautifulSoup
+    import time
+    # CloudFront starts answering 403 after a few quick page loads, so pages
+    # are spaced out and a 403 is retried after a pause.
+    title, html = '', ''
+    for wait in (6, 45, 120):
+        time.sleep(wait)
+        page = jinfo.jlib.get_real_chrome().new_page()
+        try:
+            page.goto(url, timeout=90000)
+            page.wait_for_timeout(4000)
+            html = page.content()
+        finally:
+            page.close()
+        h1 = BeautifulSoup(html, 'html.parser').find('h1')
+        title = h1.get_text(' ', strip=True) if h1 else ''
+        if title and not re.search(r'403 ERROR|could not be satisfied', title):
+            break
+    soup = BeautifulSoup(html, 'html.parser')
+    if not title or re.search(r'403 ERROR|could not be satisfied', title):
+        raise RuntimeError('blocked by CloudFront (403)')
+    main = soup.find('main') or soup
+    for tag in main(['script', 'style', 'nav', 'header', 'footer']):
+        tag.decompose()
+    return title[:250], re.sub(r'\s+', ' ', main.get_text(' ', strip=True))[:20000]
 
 
 def main():

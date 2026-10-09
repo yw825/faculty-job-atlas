@@ -19,6 +19,10 @@ fetch_rendered/fetch_static call and merge the results.
 
 Writes school_job_posts/school_id_1886_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1886_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+All vacancies are in the static page; postings are /vacature/<slug>-<id>/
+(the rendered link filter kept only 21 of 30 and missed the example).
 """
 import os
 import re
@@ -37,12 +41,15 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkp
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                              href_pattern=lib.COMMON_JOB_URL_HINTS,
-                              text_pattern=lib.COMMON_JOB_URL_HINTS)
+    status, html = lib.fetch_static(CAREERS_LINK, timeout=40)
+    if status != 200:
+        raise RuntimeError(f'vacancies status={status}')
+    links = []
+    for path in re.findall(r'href="(?:https://werkenbij\.rug\.nl)?(/vacature/[a-z0-9-]+-\d+/)', html):
+        url = f'https://werkenbij.rug.nl{path}?lang=en'
+        if url not in links:
+            links.append(url)
+    return links
 
 
 def main():
