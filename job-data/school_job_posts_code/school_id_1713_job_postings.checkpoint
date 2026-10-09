@@ -1,9 +1,11 @@
 {
-  "links": [],
+  "links": [
+    "https://bandi.mur.gov.it/jobs.php/public/job/id_job/152743"
+  ],
   "school_id": 1713,
-  "status": "error",
-  "updated_at": "2026-10-05T21:30:03+00:00",
+  "status": "complete",
+  "updated_at": "2026-10-09T18:12:36+00:00",
   "started_at": "2026-10-02T21:43:09+00:00",
-  "completed_at": "2026-10-02T21:43:13+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.academicjobs.com/sapienza-university-of-rome-jobs\", waiting until \"domcontentloaded\"\n"
+  "completed_at": "2026-10-09T18:12:36+00:00",
+  "last_error": ""
 }

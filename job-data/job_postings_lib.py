@@ -2097,6 +2097,37 @@ def scrape_successfactors(url, max_pages=40):
     return links
 
 
+MUR_SECTIONS = ('profcalls', 'jobs')     # professor calls; fixed-term/tenure-track researcher calls
+
+
+def mur_search_url(code, section='profcalls'):
+    """Open calls of one university on the Ministry's national portal."""
+    from urllib.parse import urlencode
+    q = {'jv_comp_status_id': '2-3', 'bb_type_code': code, 'idsettore': '%', 'idgsd24': '%',
+         'idqualifica': '%', 'azione': 'cerca'}
+    return f'https://bandi.mur.gov.it/{section}.php/public/cercaJobs?' + urlencode(q)
+
+
+def scrape_mur(code, sections=MUR_SECTIONS):
+    """Italian universities must publish professor calls (chiamata dei
+    professori) and researcher calls (ricercatori a tempo determinato) on
+    bandi.mur.gov.it. `code` is the portal's university code (bb_type_code,
+    e.g. UNIBO, BOCCONI, ROMA1). jv_comp_status_id=2-3 is "open"; the filter
+    only applies when azione=cerca is sent -- without it the portal returns
+    every call it has ever held (910 at Bologna). Each call is
+    .../<section>.php/public/job/id_job/<id>."""
+    links = []
+    for section in sections:
+        status, html = fetch_static(mur_search_url(code, section), timeout=40)
+        if status != 200:
+            raise RuntimeError(f'mur {section} search status={status}')
+        for jid in re.findall(r'/public/job/id_job/(\d+)', html):
+            url = f'https://bandi.mur.gov.it/{section}.php/public/job/id_job/{jid}'
+            if url not in links:
+                links.append(url)
+    return links
+
+
 _PAGEUP_JOB_RE = re.compile(r'/[a-z]{2}-[a-z]{2}/job/(\d+)(?:/|$)', re.I)
 
 

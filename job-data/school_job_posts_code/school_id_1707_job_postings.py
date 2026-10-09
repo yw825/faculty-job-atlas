@@ -1,20 +1,24 @@
 """
 Job postings scraper for school_id 1707 - University of Bologna (Italy)
-ATS platform: own website
-Careers link: https://bandi.unibo.it/didattica/incarichi-insegnamento
+Source: bandi.mur.gov.it (Ministero dell'Universita e della Ricerca)
+Careers link: https://bandi.mur.gov.it/profcalls.php/public/cercaJobs?jv_comp_status_id=2-3&bb_type_code=UNIBO&idsettore=%25&idgsd24=%25&idqualifica=%25&azione=cerca
 
-CUSTOMIZED (confirmed live): the original careers_link
-(unibo.it/.../docenti-e-ricercatori-1) was timing out on every fetch
-attempt; this replacement URL, given directly, works and lists real
-postings under bandi.unibo.it/s/<department>/<slug> -- a pattern the
-generic default's job-shaped filter doesn't match (Italian bando/bandi
-titles, no English job-shaped keyword).
+TUNED FIND_LINKS
+Italian universities must publish their professor calls (chiamata dei
+professori, prima/seconda fascia) and fixed-term / tenure-track researcher
+calls (ricercatori a tempo determinato) on the Ministry's national portal.
+This school's open calls are read there by its portal code (UNIBO); each
+call is bandi.mur.gov.it/<profcalls|jobs>.php/public/job/id_job/<id>. The
+university's own pages were replaced on 2026-10-09 because they were not
+job boards (Bocconi's linked its PhD job-market candidates; Bologna's only
+teaching contracts; Padua's whole official notice board). Teaching
+contracts, research contracts and research grants are deliberately not
+collected.
 
 Writes school_job_posts/school_id_1707_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1707_job_postings.checkpoint next to this script.
 """
 import os
-import re
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -23,19 +27,15 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1707
 SCHOOL_NAME = 'University of Bologna'
-CAREERS_LINK = 'https://bandi.unibo.it/didattica/incarichi-insegnamento'
-ATS_PLATFORM = 'own website'
+CAREERS_LINK = 'https://bandi.mur.gov.it/profcalls.php/public/cercaJobs?jv_comp_status_id=2-3&bb_type_code=UNIBO&idsettore=%25&idgsd24=%25&idqualifica=%25&azione=cerca'
+ATS_PLATFORM = 'MUR bandi (national portal)'
+MUR_CODE = 'UNIBO'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
-POSTING_RE = re.compile(r'bandi\.unibo\.it/s/')
-
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK, href_pattern=POSTING_RE)
+    return lib.scrape_mur(MUR_CODE)
 
 
 def main():

@@ -1,27 +1,24 @@
 """
 Job postings scraper for school_id 1712 - LUISS Guido Carli (Italy)
-ATS platform: own website
-Careers link: https://www.luiss.it/en/university/governance/faculty/recruitment
+Source: bandi.mur.gov.it (Ministero dell'Universita e della Ricerca)
+Careers link: https://bandi.mur.gov.it/profcalls.php/public/cercaJobs?jv_comp_status_id=2-3&bb_type_code=LUISS&idsettore=%25&idgsd24=%25&idqualifica=%25&azione=cerca
 
-No shared ATS platform adapter applies to this school -- find_links() below
-is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
-directly to fix or improve results for LUISS Guido Carli; nothing here affects any
-other school's script.
-
-Starting point (not a tuned answer): fetch the careers page rendered (JS
-included), then keep every link whose href or visible text looks
-job/vacancy/posting-shaped (job_postings_lib.COMMON_JOB_URL_HINTS). If this
-under- or over-collects for this school, narrow/widen that pattern, add a
-click/scroll step via fetch_rendered's `actions` argument (see
-job_postings_lib.scrape_taleo for a real example of clicking through a
-search-results page), or follow a department/pagination link with a second
-fetch_rendered/fetch_static call and merge the results.
+TUNED FIND_LINKS
+Italian universities must publish their professor calls (chiamata dei
+professori, prima/seconda fascia) and fixed-term / tenure-track researcher
+calls (ricercatori a tempo determinato) on the Ministry's national portal.
+This school's open calls are read there by its portal code (LUISS); each
+call is bandi.mur.gov.it/<profcalls|jobs>.php/public/job/id_job/<id>. The
+university's own pages were replaced on 2026-10-09 because they were not
+job boards (Bocconi's linked its PhD job-market candidates; Bologna's only
+teaching contracts; Padua's whole official notice board). Teaching
+contracts, research contracts and research grants are deliberately not
+collected.
 
 Writes school_job_posts/school_id_1712_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1712_job_postings.checkpoint next to this script.
 """
 import os
-import re
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -30,19 +27,15 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1712
 SCHOOL_NAME = 'LUISS Guido Carli'
-CAREERS_LINK = 'https://www.luiss.it/en/university/governance/faculty/recruitment'
-ATS_PLATFORM = 'own website'
+CAREERS_LINK = 'https://bandi.mur.gov.it/profcalls.php/public/cercaJobs?jv_comp_status_id=2-3&bb_type_code=LUISS&idsettore=%25&idgsd24=%25&idqualifica=%25&azione=cerca'
+ATS_PLATFORM = 'MUR bandi (national portal)'
+MUR_CODE = 'LUISS'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                              href_pattern=lib.COMMON_JOB_URL_HINTS,
-                              text_pattern=lib.COMMON_JOB_URL_HINTS)
+    return lib.scrape_mur(MUR_CODE)
 
 
 def main():

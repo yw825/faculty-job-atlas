@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1712 - LUISS Guido Carli (Italy)
 ATS platform: own website
-Careers link: https://www.luiss.it/en/university/governance/faculty/recruitment
+Careers link: https://bandi.mur.gov.it/profcalls.php/public/cercaJobs?jv_comp_status_id=2-3&bb_type_code=LUISS&idsettore=%25&idgsd24=%25&idqualifica=%25&azione=cerca
 
 No bulk info adapter applies to this school -- fetch_detail(url) below
 visits each posting page individually and is THIS SCHOOL'S OWN detail-page
@@ -39,7 +39,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1712
 SCHOOL_NAME = 'LUISS Guido Carli'
-CAREERS_LINK = 'https://www.luiss.it/en/university/governance/faculty/recruitment'
+CAREERS_LINK = 'https://bandi.mur.gov.it/profcalls.php/public/cercaJobs?jv_comp_status_id=2-3&bb_type_code=LUISS&idsettore=%25&idgsd24=%25&idqualifica=%25&azione=cerca'
 ATS_PLATFORM = 'own website'
 USE_LLM = False  # set True once you have ANTHROPIC_API_KEY configured
 
@@ -48,7 +48,9 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint
 
 
 def fetch_detail(url):
-    return jinfo.fetch_detail_generic(url)
+    """CUSTOMIZED: postings are calls on bandi.mur.gov.it; jinfo.fetch_detail_mur
+    builds an English title (rank: subject) and restates the deadline."""
+    return jinfo.fetch_detail_mur(url)
 
 
 def main():

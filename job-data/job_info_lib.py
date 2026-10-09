@@ -2011,6 +2011,43 @@ def fetch_detail_corehr(url):
     return title, description[:20000]
 
 
+_MUR_RANKS = [('professore di prima fascia', 'Full Professor'),
+              ('professore di seconda fascia', 'Associate Professor'),
+              ('ricercatore a tempo determinato', 'Researcher (fixed-term)'),
+              ('ricercatore', 'Researcher')]
+
+
+def fetch_detail_mur(url):
+    """(title, description) for a bandi.mur.gov.it call. The page labels
+    every field in Italian; the title is built as "<English rank>: <subject>",
+    the subject being the English project title when it says something
+    specific, else the disciplinary sector (S.S.D.). The Italian deadline
+    label is restated as "Closing Date: dd/mm/yyyy" for extract_deadline.
+    No en dash in the title: the shared title cleaner cuts at " - "/" – "."""
+    from bs4 import BeautifulSoup
+    status, html = jlib.fetch_static(url, timeout=30)
+    if status != 200 or not html:
+        raise RuntimeError(f'mur call status={status}')
+    text = re.sub(r'\s+', ' ', BeautifulSoup(html, 'html.parser').get_text(' ', strip=True))
+    start = text.find('Bando per ')
+    if start < 0:
+        raise RuntimeError('mur call page has no "Bando per" section')
+    body = text[start:]
+    kind = re.match(r'Bando per (.+?) Descrizione', body)
+    kind = (kind.group(1) if kind else '').lower()
+    rank = next((en for it, en in _MUR_RANKS if it in kind), kind.title())
+    en = re.search(r'Titolo del progetto di ricerca in inglese (.+?) Descrizione sintetica', body)
+    en = en.group(1).strip() if en else ''
+    ssd = re.search(r'S\.S\.D\.? (?:[A-Z]+-\d+/[A-Z]|[A-Z]+-[A-Z]/\d+|[A-Z-]+\d+/?[A-Z]?)\s*-\s*(.+?) (?:Destinatari|Numero|G\.S\.D|Settore)', body)
+    generic = re.compile(r'(?i)selection procedure|selective procedure|call for applications|fixed[- ]term researcher positions?\b|procedura|positions? (?:of|as) (?:full|associate|tenured)|\bart\. ?\d+|^\d+ (?:permanent )?positions?')
+    subject = en if en and not generic.search(en) else (ssd.group(1) if ssd else en)
+    subject = re.sub(r'\s+[-\u2013\u2014]\s+', ': ', subject)
+    title = f'{rank}: {subject}' if subject else rank
+    m = re.search(r'Data di scadenza del bando (\d{2}/\d{2}/\d{4})', body)
+    head = f'Closing Date: {m.group(1)} ' if m else ''
+    return title[:250], (head + body)[:20000]
+
+
 def fetch_peoplesoft_bulk(careers_link):
     """{posting_url: (title, description, department)} for a PeopleSoft
     Fluid careers site, read from the search results rows.

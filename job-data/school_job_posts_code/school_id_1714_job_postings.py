@@ -1,31 +1,24 @@
 """
 Job postings scraper for school_id 1714 - Politecnico di Torino (Italy)
-ATS platform: own website
-Careers link: https://careers.polito.it/default.aspx?qualificaAggr=DO
+Source: bandi.mur.gov.it (Ministero dell'Universita e della Ricerca)
+Careers link: https://bandi.mur.gov.it/profcalls.php/public/cercaJobs?jv_comp_status_id=2-3&bb_type_code=POLITO&idsettore=%25&idgsd24=%25&idqualifica=%25&azione=cerca
 
-PARTIALLY CUSTOMIZED (confirmed live, not fully solved): this is a
-DevExpress ASPX app. Every listed posting is a plain
-`javascript:btnSelezioneClick('<ref>')` handler with no real href at all --
-but the ref code itself (e.g. "85/26/IR") is right there in the onclick
-text, so it's read directly rather than clicked. Confirmed live: the
-`qualificaAggr=DO` filter in CAREERS_LINK currently matches nothing
-("Nessun risultato trovato con il filtro selezionato") and the app falls
-back to showing ALL 19 open postings across every category, unfiltered --
-so this may currently return more than what "DO" alone would once that
-category has real openings again.
-
-NOT solved: only the first 10 of those 19 postings render by default; the
-rest sit behind a "Visualizza altri dati" (show more) button that would
-not click through in this session -- clicks landed on the loading overlay
-regardless of a normal click, force click, or a JS-dispatched click.
-Whoever picks this up next should try intercepting the underlying
-DevExpress callback request instead of clicking the button.
+TUNED FIND_LINKS
+Italian universities must publish their professor calls (chiamata dei
+professori, prima/seconda fascia) and fixed-term / tenure-track researcher
+calls (ricercatori a tempo determinato) on the Ministry's national portal.
+This school's open calls are read there by its portal code (POLITO); each
+call is bandi.mur.gov.it/<profcalls|jobs>.php/public/job/id_job/<id>. The
+university's own pages were replaced on 2026-10-09 because they were not
+job boards (Bocconi's linked its PhD job-market candidates; Bologna's only
+teaching contracts; Padua's whole official notice board). Teaching
+contracts, research contracts and research grants are deliberately not
+collected.
 
 Writes school_job_posts/school_id_1714_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1714_job_postings.checkpoint next to this script.
 """
 import os
-import re
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -34,25 +27,15 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1714
 SCHOOL_NAME = 'Politecnico di Torino'
-CAREERS_LINK = 'https://careers.polito.it/default.aspx?qualificaAggr=DO'
-ATS_PLATFORM = 'own website'
+CAREERS_LINK = 'https://bandi.mur.gov.it/profcalls.php/public/cercaJobs?jv_comp_status_id=2-3&bb_type_code=POLITO&idsettore=%25&idgsd24=%25&idqualifica=%25&azione=cerca'
+ATS_PLATFORM = 'MUR bandi (national portal)'
+MUR_CODE = 'POLITO'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
-SELEZIONE_RE = re.compile(r"btnSelezioneClick\('([^']+)'\)")
-
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    refs = SELEZIONE_RE.findall(html)
-    seen, links = set(), []
-    for ref in refs:
-        if ref not in seen:
-            seen.add(ref)
-            links.append(f'{CAREERS_LINK}#selezione={ref.replace("/", "-")}')
-    return links
+    return lib.scrape_mur(MUR_CODE)
 
 
 def main():
