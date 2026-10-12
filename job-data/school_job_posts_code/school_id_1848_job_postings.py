@@ -17,6 +17,11 @@ to contain a rank/role word, which none of those four do.
 
 Writes school_job_posts/school_id_1848_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1848_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+UOW College Hong Kong publishes its vacancies as expandable sections of this one page
+(header selector "a.accordion-title"); a job has no URL of its own, so each is stored
+as the page URL + "#<title slug>" (lib.accordion_items).
 """
 import os
 import re
@@ -37,20 +42,7 @@ ROLE_WORD_RE = re.compile(r'\b(lecturers?|professors?|instructors?|officers?|cle
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    from bs4 import BeautifulSoup
-    soup = BeautifulSoup(html, 'html.parser')
-    links = []
-    for item in soup.find_all('li', class_='accordion-item'):
-        tab_link = item.find('a', href=lambda h: h and h.startswith('#tab-'))
-        if not tab_link:
-            continue
-        title = tab_link.get_text(' ', strip=True)
-        if ROLE_WORD_RE.search(title):
-            links.append(lib.urljoin(CAREERS_LINK, tab_link['href']))
-    return links
+    return [f'{CAREERS_LINK}#{slug}' for slug, _title, _body in lib.accordion_items(CAREERS_LINK, 'a.accordion-title', render=True)]
 
 
 def main():

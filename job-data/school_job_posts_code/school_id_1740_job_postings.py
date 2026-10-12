@@ -19,6 +19,12 @@ fetch_rendered/fetch_static call and merge the results.
 
 Writes school_job_posts/school_id_1740_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1740_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+IESE's own board (Teamtailor) carries staff and faculty-support jobs; its
+faculty positions are posted on Interfolio (board 21638, found 2026-10-09),
+which is read too. Postings: jobs.iese.edu/jobs/<id>-<slug> and
+apply.interfolio.com/<id>.
 """
 import os
 import re
@@ -40,9 +46,12 @@ def find_links():
     html = lib.fetch_rendered(CAREERS_LINK)
     if lib.is_fetch_failure(html):
         raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                              href_pattern=lib.COMMON_JOB_URL_HINTS,
-                              text_pattern=lib.COMMON_JOB_URL_HINTS)
+    links = list(dict.fromkeys(u.split('?')[0] for u in lib.extract_links(html, CAREERS_LINK) if re.search(r'jobs\.iese\.edu/jobs/\d+-', u)))
+    try:
+        links += lib.scrape_interfolio('https://apply.interfolio.com/21638/positions')
+    except RuntimeError:
+        pass  # no faculty positions open
+    return links
 
 
 def main():

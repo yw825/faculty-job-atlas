@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 1875 - De Montfort University (United Kingdom)
 ATS platform: own website
-Careers link: https://www.jobs.ac.uk/search/?keywords=De%20Montfort%20University
+Careers link: https://careers.dmu.ac.uk/search/?q=&searchResultView=LIST
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -19,6 +19,11 @@ fetch_rendered/fetch_static call and merge the results.
 
 Writes school_job_posts/school_id_1875_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1875_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Careers link corrected in the audit to DMU's own SuccessFactors Career Site
+Builder board, read through its data service (lib.scrape_sf_rmk). The old
+jobs.ac.uk keyword search mixed in other employers.
 """
 import os
 import re
@@ -30,19 +35,14 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1875
 SCHOOL_NAME = 'De Montfort University'
-CAREERS_LINK = 'https://www.jobs.ac.uk/search/?keywords=De%20Montfort%20University'
+CAREERS_LINK = 'https://careers.dmu.ac.uk/search/?q=&searchResultView=LIST'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                              href_pattern=lib.COMMON_JOB_URL_HINTS,
-                              text_pattern=lib.COMMON_JOB_URL_HINTS)
+    return lib.scrape_sf_rmk('https://careers.dmu.ac.uk')
 
 
 def main():

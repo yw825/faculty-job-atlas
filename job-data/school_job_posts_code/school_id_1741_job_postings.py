@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 1741 - Universitat Politècnica de Catalunya (Spain)
 ATS platform: own website
-Careers link: https://www.upc.edu/en/the-upc/the-institution/jobs-at-the-upc
+Careers link: https://treballa.upc.edu/ca/convocatories-de-concursos
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -19,6 +19,14 @@ fetch_rendered/fetch_static call and merge the results.
 
 Writes school_job_posts/school_id_1741_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1741_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+UPC's teaching and research staff (PDI) competitions are published on
+treballa.upc.edu, one page per category (civil servant, permanent,
+associate, temporary, Serra Hunter); each lists its calls as "Resolucio ..."
+links followed by "ESTAT: OBERTA" while open. Only open calls are kept.
+(The ReachMee example in the audit row belongs to the University of
+Gothenburg -- same board id and key as Gothenburg's own link.)
 """
 import os
 import re
@@ -30,19 +38,36 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1741
 SCHOOL_NAME = 'Universitat Politècnica de Catalunya'
-CAREERS_LINK = 'https://www.upc.edu/en/the-upc/the-institution/jobs-at-the-upc'
+CAREERS_LINK = 'https://treballa.upc.edu/ca/convocatories-de-concursos'
 ATS_PLATFORM = 'own website'
+
+CATEGORY_PAGES = ('Concursos-pdi-funcionari', 'Concursos-pdi-laboral-permanent', 'concursos-professorat-associat',
+                  'Concursos-pdi-laboral-temporal', 'Concursos-serra-hunter')
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                              href_pattern=lib.COMMON_JOB_URL_HINTS,
-                              text_pattern=lib.COMMON_JOB_URL_HINTS)
+    from bs4 import BeautifulSoup
+    links = []
+    for page in CATEGORY_PAGES:
+        status, html = lib.fetch_static(f'{CAREERS_LINK}/{page}', timeout=40)
+        if status != 200:
+            continue
+        body = BeautifulSoup(html, 'html.parser').find(id='content') or BeautifulSoup(html, 'html.parser')
+        calls = [a for a in body.find_all('a', href=True) if re.search(r'/resol', a['href']) and page.lower() in a['href'].lower()]
+        text = body.get_text(' ', strip=True)
+        for i, a in enumerate(calls):
+            label = a.get_text(' ', strip=True)
+            if not label.lower().startswith('resoluci'):
+                continue
+            start = text.find(label)
+            nxt = next((text.find(b.get_text(' ', strip=True), start + len(label)) for b in calls[i + 1:]
+                        if b.get_text(' ', strip=True).lower().startswith('resoluci')), -1)
+            segment = text[start:nxt if nxt > start else start + 700]
+            if re.search(r'ESTAT:\s*OBERTA', segment) and a['href'] not in links:
+                links.append(a['href'])
+    return links
 
 
 def main():

@@ -4,8 +4,12 @@ Careers link: https://jobs.imd.org/search/
 
 Writes school_job_posts/school_id_1901_job_posts.csv. Checkpointed to
 school_id_1901_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Kept: /job/<slug>/<id>/ postings only.
 """
 import os
+import re
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -20,9 +24,17 @@ ATS_PLATFORM = 'own website'
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
-def find_links():
+def _page_links():
     """Job word first, repeated URL shape second (lib.scrape_listing)."""
     return lib.scrape_listing(CAREERS_LINK)
+
+
+POSTING_RE = re.compile(r'jobs\.imd\.org/job/')
+
+
+def find_links():
+    """Only real postings, not the page's menus, share buttons or sign-in links."""
+    return list(dict.fromkeys(u for u in _page_links() if POSTING_RE.search(u)))
 
 
 def main():

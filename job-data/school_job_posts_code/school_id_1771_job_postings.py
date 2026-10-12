@@ -19,6 +19,10 @@ fetch_rendered/fetch_static call and merge the results.
 
 Writes school_job_posts/school_id_1771_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1771_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+The search list shows 10 of ~57 and pages in place with a "Next" button
+(lib.scrape_click_pages). Postings are /jobs/<id>-<slug>.
 """
 import os
 import re
@@ -37,12 +41,7 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkp
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                              href_pattern=lib.COMMON_JOB_URL_HINTS,
-                              text_pattern=lib.COMMON_JOB_URL_HINTS)
+    return lib.scrape_click_pages(CAREERS_LINK, re.compile(r'kcl\.ac\.uk/jobs/\d+-[a-z0-9-]+$'), 'button:has-text("Next")')
 
 
 def main():

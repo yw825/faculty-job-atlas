@@ -11,8 +11,7 @@ need something the default doesn't handle (a click to reveal full text, a
 login wall, a non-obvious title element, etc.); nothing here affects any
 other school's script.
 
-Default: render the page, take the first heading (or <title>) as the job
-title and the page's visible text as the description.
+TUNED: read from the TalentLink data service (title, department, sections, closing date).
 
 Reads posting URLs from school_id_1774_job_postings.checkpoint (this
 school's job_postings run) and classifies each one (position_type,
@@ -43,12 +42,16 @@ CAREERS_LINK = 'https://www.ucl.ac.uk/work-at-ucl/search-ucl-jobs'
 ATS_PLATFORM = 'own website'
 USE_LLM = False  # set True once you have ANTHROPIC_API_KEY configured
 
+TALENTLINK = ('emea5-foc.lumessetalentlink.com', 'Q1KFK026203F3VBQBLO8M8M07', '52', 'https://www.ucl.ac.uk/')
+
 JOB_POSTINGS_CHECKPOINT = os.path.join(HERE, '..', 'school_job_posts_code', f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 
 def fetch_detail(url):
-    return jinfo.fetch_detail_generic(url)
+    if 'apply.interfolio.com' in url:
+        return jinfo.fetch_detail_interfolio(url)
+    return jinfo.fetch_detail_talentlink(url, *TALENTLINK)
 
 
 def main():

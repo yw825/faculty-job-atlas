@@ -1432,6 +1432,497 @@ def scrape_sf_rmk(base, brand='', category_id=0, locale='en_GB', max_pages=60):
     return links
 
 
+def scrape_click_pages(url, link_re, next_selector=None, wait_ms=5000, step_ms=3000, max_pages=80,
+                       before=None, real_chrome=False, scan_html=False):
+    """Posting links from a rendered list that pages IN PLACE -- a "Next"
+    button with no URL of its own (LSE, St Andrews, KCL), a "load more"
+    control, or more rows on scroll (Manchester, NTU). After each step the
+    hrefs matching `link_re` (a compiled regex, searched in the absolute URL)
+    are collected; the walk ends when a step adds none. `next_selector` is a
+    Playwright selector; without one (or once it is gone) the page is
+    scrolled to the bottom instead. `before(page)` runs once after load
+    (dismiss a cookie banner, submit a search form). `real_chrome` uses the
+    installed Chrome for sites that block the bundled browser. `scan_html`
+    also takes quoted URLs anywhere in the HTML -- LSE and St Andrews keep
+    the posting URL in a "View job" button's data attribute, not an <a>."""
+    from urllib.parse import urljoin
+    browser = get_real_chrome() if real_chrome else get_browser()
+    if browser is None:
+        raise RuntimeError('no browser available')
+    page = browser.new_page() if real_chrome else browser.new_page(user_agent=UA)
+    links = []
+    try:
+        page.goto(url, timeout=90000, wait_until='domcontentloaded')
+        page.wait_for_timeout(wait_ms)
+        if before:
+            before(page)
+        idle = 0
+        for _ in range(max_pages):
+            hrefs = page.eval_on_selector_all('a[href]', 'els => els.map(e => e.getAttribute("href"))')
+            if scan_html:
+                hrefs = hrefs + re.findall(r'"(https?://[^"\s]+)"', page.content())
+            new = 0
+            for href in hrefs:
+                full = urljoin(page.url, href or '')
+                if link_re.search(full) and full not in links:
+                    links.append(full)
+                    new += 1
+            idle = 0 if new else idle + 1
+            if idle >= 2:
+                break
+            nxt = None
+            if next_selector:  # the first VISIBLE match: pages often keep hidden duplicates
+                nxt = next((el for el in page.query_selector_all(next_selector) if el.is_visible()), None)
+            if nxt and nxt.is_visible() and nxt.is_enabled():
+                try:
+                    nxt.click(timeout=5000)
+                except Exception:
+                    # a cookie banner or chat widget covers the button (LSE)
+                    nxt.evaluate('e => e.click()')
+            elif next_selector and not new:
+                break
+            else:
+                page.mouse.wheel(0, 40000)
+                page.evaluate('window.scrollTo(0, document.body.scrollHeight)')
+            page.wait_for_timeout(step_ms)
+    finally:
+        page.close()
+    return links
+
+
+_TALENTLINK_CACHE = {}
+
+
+def talentlink_jobs(host, tech_id, sort_by, referer=''):
+    """Every job on a Lumesse TalentLink board (Bristol, Imperial, UCL), as
+    the records its own page loads: {'id', 'jobFields': {jobTitle,
+    DPOSTINGEND (ms), jobNumber, SLOVLIST.. (faculty/department)},
+    'customFields': [{title, content (HTML)}]}. The universities' search
+    pages sit behind bot walls (Bristol "Content blocked", Imperial
+    CloudFront, UCL Cloudflare) but only embed this service, which answers a
+    public guest login: POST https://<host>/fo/rest/jobs with headers
+    username "<tech_id>:guest:FO", password "guest". `sort_by` must be the
+    site's own key (Bristol 28, Imperial DPOSTINGSTART, UCL 52) -- any other
+    value is a 500. Cached per process for the info stage."""
+    key = (host, tech_id)
+    if key in _TALENTLINK_CACHE:
+        return _TALENTLINK_CACHE[key]
+    headers = {'User-Agent': UA, 'username': f'{tech_id}:guest:FO', 'password': 'guest', 'lumesse-language': 'UK',
+               'Accept': 'application/json, text/javascript, */*; q=0.01', 'Content-Type': 'application/json',
+               'Referer': referer}
+    jobs, first, total = [], 0, None
+    while first < 5000:
+        r = requests.post(f'https://{host}/fo/rest/jobs?firstResult={first}&maxResults=100&sortBy={sort_by}&sortOrder=desc',
+                          headers=headers, data=json.dumps({'searchCriteria': {}}), timeout=60)
+        if r.status_code != 200:
+            raise RuntimeError(f'TalentLink status={r.status_code}')
+        data = r.json()
+        total = (data.get('globals') or {}).get('jobsCount', total)
+        page = data.get('jobs') or []
+        jobs += page
+        first += 100
+        if not page or (total is not None and len(jobs) >= total):
+            break
+    _TALENTLINK_CACHE[key] = jobs
+    return jobs
+
+
+def scrape_jobs_ac_uk(employer, max_pages=20):
+    """A UK university's adverts on jobs.ac.uk, the sector's shared board,
+    for schools whose own board cannot be read (Warwick's shows a human
+    check). jobs.ac.uk has no employer URL filter and its keyword search is
+    fuzzy -- "University of Edinburgh" returned 52 ads of which 16 belonged
+    to Glasgow, Cambridge, Heriot-Watt and others -- so each result's own
+    employer line must equal `employer` (ignoring a leading "The")."""
+    from urllib.parse import quote
+    want = re.sub(r'^the\s+', '', employer.strip().lower())
+    links = []
+    for page in range(max_pages):
+        status, html = fetch_static('https://www.jobs.ac.uk/search/?keywords=' + quote(employer)
+                                    + f'&pageSize=25&startIndex={page * 25 + 1}', timeout=40)
+        if status != 200:
+            if page == 0:
+                raise RuntimeError(f'jobs.ac.uk status={status}')
+            break
+        soup = BeautifulSoup(html, 'html.parser')
+        anchors = soup.find_all('a', href=re.compile(r'^/job/[A-Z0-9]+/'))
+        if not anchors:
+            break
+        fresh = 0
+        for a in anchors:
+            card = a.find_parent(class_=re.compile(r'j-search-result__result')) or a.find_parent('div')
+            emp = card.select_one('.j-search-result__employer, [class*="employer"]') if card else None
+            name = re.sub(r'^the\s+', '', emp.get_text(' ', strip=True).lower()) if emp else ''
+            url = 'https://www.jobs.ac.uk' + a['href'].split('?')[0]
+            if url in links:
+                continue
+            fresh += 1
+            if name == want:
+                links.append(url)
+        if not fresh:
+            break
+    return links
+
+
+def scrape_oracle_rest(base, site, lang='en'):
+    """Oracle Recruiting Cloud postings read straight from the public REST
+    service (/hcmRestApi/.../recruitingCEJobRequisitions, finder findReqs),
+    50 per call, for boards where scrape_oracle's browser session capture
+    never sees the request (Edinburgh's elxw host). A posting is
+    <base>/hcmUI/CandidateExperience/<lang>/sites/<site>/job/<Id>."""
+    base = base.rstrip('/')
+    links, offset, total = [], 0, None
+    while offset < 5000:
+        url = (f'{base}/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true'
+               f'&expand=requisitionList.secondaryLocations&finder=findReqs;siteNumber={site},'
+               f'facetsList=LOCATIONS,limit=50,offset={offset},sortBy=POSTING_DATES_DESC')
+        status, text = fetch_static(url, timeout=40, extra_headers={'Accept': 'application/json'})
+        if status != 200:
+            raise RuntimeError(f'Oracle REST status={status}')
+        item = (json.loads(text).get('items') or [{}])[0]
+        total = item.get('TotalJobsCount', total)
+        rows = item.get('requisitionList') or []
+        for row in rows:
+            url = f"{base}/hcmUI/CandidateExperience/{lang}/sites/{site}/job/{row['Id']}"
+            if url not in links:
+                links.append(url)
+        offset += 50
+        if not rows or (total is not None and len(links) >= int(total)):
+            break
+    return links
+
+
+def scrape_pageup_listing(listing_url):
+    """Classic PageUp boards (<host>[/<n>]/cw/en/listing/, /en-us/listing/, or
+    a /filter/?... link carrying the board's own filters): the list shows 20
+    with a "More jobs" link; asking for page=1&page-items=500 returns the
+    whole (filtered) board in one page (Monash 61). Some hosts answer plain
+    requests with an empty 202 (an AWS WAF check; La Trobe, Canberra, UConn)
+    -- those are rendered. Postings are .../job/<id>/<slug>; the /cw/ and
+    /mob/ path prefixes are views of the same posting and are dropped only
+    when the link itself has none."""
+    from urllib.parse import urljoin
+    base = listing_url.split('#')[0]
+    base = re.sub(r'[?&]page(?:-items)?=\d+', '', base)
+    stem = base + ('&' if '?' in base else ('' if base.endswith('/') else '/') + '?')
+    links, seen, render = [], set(), False
+    for page in range(1, 20):  # 500 is the largest page PageUp serves (UF has more)
+        url = f'{stem}page={page}&page-items=500'
+        html = ''
+        if not render:
+            status, html = fetch_static(url, timeout=40)
+            render = status != 200 or '/job/' not in (html or '')
+        if render:
+            html = _fetch_rendered_retry(url, 5000)
+        soup = BeautifulSoup(html or '', 'html.parser')
+        scope = soup.select_one('#search-results, #recent-jobs-content, .search-results') or soup
+        fresh = 0
+        for a in scope.find_all('a', href=re.compile(r'/job/\d+/')):
+            m = re.search(r'/job/(\d+)/', a['href'])
+            if m.group(1) not in seen:
+                seen.add(m.group(1))
+                links.append(urljoin(url, a['href'].split('?')[0]))
+                fresh += 1
+        if fresh < 400:
+            break
+    return links
+
+
+def scrape_query_pages(template, link_re, start=1, max_pages=80, render=False):
+    """Posting links from a list paged by a URL parameter. `template` has a
+    {p} placeholder for the page number (jobs/search?page={p}); hrefs whose
+    absolute URL matches `link_re` are kept, and paging stops at the first
+    page that adds none (past-the-end pages recycle content). `render` loads
+    each page in the browser for lists built by JavaScript."""
+    from urllib.parse import urljoin
+    links = []
+    for page in range(start, start + max_pages):
+        url = template.format(p=page)
+        if not render:
+            status, html = fetch_static(url, timeout=40)
+            if page == start and (status == 202 or (status == 200 and not link_re.search(html or ''))):
+                render = True  # an empty 202 (AWS WAF check) or a JS-built list: load it in the browser
+            elif status != 200:
+                if page == start:
+                    raise RuntimeError(f'list status={status}')
+                break
+        if render:
+            html = _fetch_rendered_retry(url, 5000)
+        new = 0
+        for href in re.findall(r'href=["\']([^"\']+)["\']', html or ''):
+            full = urljoin(url, href.replace('&amp;', '&')).split('#')[0]
+            if link_re.search(full) and full not in links:
+                links.append(full)
+                new += 1
+        if not new:
+            break
+    return links
+
+
+def scrape_the_unijobs(recruiter, max_pages=20):
+    """A university's adverts on Times Higher Education Unijobs, for boards
+    that cannot be read at all (the Australian NGA.net boards answer every
+    page, the list included, with an AWS "Human Verification" captcha). The
+    keyword search is fuzzy ("Queensland University of Technology" returns
+    Sunshine Coast and UQ), so a result is kept only when its recruiter line
+    equals `recruiter` (case-insensitive)."""
+    from urllib.parse import quote
+    want = recruiter.strip().lower()
+    links, seen = [], set()
+    for page in range(1, max_pages + 1):
+        status, html = fetch_static('https://www.timeshighereducation.com/unijobs/listings/?Keywords='
+                                    + quote(recruiter) + f'&Page={page}', timeout=40)
+        if status != 200:
+            if page == 1:
+                raise RuntimeError(f'THE unijobs status={status}')
+            break
+        items = BeautifulSoup(html, 'html.parser').select('li.lister__item')
+        fresh = 0
+        for item in items:
+            a = item.select_one('h3 a')
+            rec = item.select_one('.lister__meta-item--recruiter')
+            if not a or a['href'].strip() in seen:
+                continue
+            seen.add(a['href'].strip())
+            fresh += 1
+            if rec and rec.get_text(strip=True).lower() == want:
+                links.append('https://www.timeshighereducation.com' + a['href'].strip())
+        if not items or not fresh:
+            break
+    return links
+
+
+_T1_CACHE = {}
+
+
+def t1_board_cards(public_url):
+    """[(reference, title, card text)] for every job card on a TechnologyOne
+    CiAnywhere job board (Massey, Charles Darwin). `public_url` is the
+    board's public entry, .../Public/Function/$ORG.REC.EXJOBB.ENQ/<portal>
+    ?suite=CES -- JobBoardEnquiry links with G=/h=/t= values are per-session
+    and later redirect to the staff LOG ON page. Jobs have no URL of their
+    own; callers store public_url + "#<reference>". Cached per process."""
+    if public_url in _T1_CACHE:
+        return _T1_CACHE[public_url]
+
+    def wait_for_cards(page):
+        page.wait_for_selector('.thumbnailItem img[alt^="Image for"]', timeout=60000)
+        page.wait_for_timeout(2000)
+    html = fetch_rendered(public_url, wait_ms=3000, actions=wait_for_cards, timeout=90000)
+    if not html or is_fetch_failure(html):
+        raise RuntimeError(html or 'board did not render')
+    if 'Log On - CiA' in html and 'thumbnailItem' not in html:
+        raise RuntimeError('redirected to the staff log-on page')
+    out = []
+    for card in BeautifulSoup(html, 'html.parser').select('.thumbnailItem'):
+        img = card.find('img', alt=re.compile(r'^Image for '))
+        ref = card.select_one('.thbFld_JOBREQJobId .editorField')
+        if not img or not ref:
+            continue
+        title = img['alt'][len('Image for '):].strip()
+        fields = [d.get('title') or d.get_text(' ', strip=True) for d in card.select('.editorField')]
+        out.append((ref.get_text(strip=True), title, ' | '.join(f for f in fields if f)))
+    if not out:
+        raise RuntimeError('no job cards found')
+    _T1_CACHE[public_url] = out
+    return out
+
+
+_ACCORDION_CACHE = {}
+
+
+def accordion_items(url, header_selector, render=False, min_body=80):
+    """[(slug, title, body text)] for job adverts published as expandable
+    sections of ONE page (Chu Hai, Saint Francis, UOW College HK): each
+    `header_selector` element is a job title and the element after it (or
+    after its parent) is the advert. Such jobs have no URL; callers store
+    url + "#<slug>" where slug is the title lower-cased with non-alphanumerics
+    as hyphens (stable across loads, unlike jQuery's ui-id-N). Headers with
+    under `min_body` characters of body are group headings, not jobs.
+    Cached per process."""
+    key = (url, header_selector)
+    if key in _ACCORDION_CACHE:
+        return _ACCORDION_CACHE[key]
+    if render:
+        html = _fetch_rendered_retry(url, 5000)
+    else:
+        status, html = fetch_static(url, timeout=40)
+        if status != 200:
+            raise RuntimeError(f'page status={status}')
+    out, seen = [], set()
+    for head in BeautifulSoup(html, 'html.parser').select(header_selector):
+        title = re.sub(r'\s+', ' ', head.get_text(' ', strip=True))
+        target = (head.get('href') or '').lstrip('#') or head.get('aria-controls') or ''
+        up2 = head.find_parent().find_parent() if head.find_parent() is not None else None
+        candidates = [up2.find(id=target) if target and up2 is not None else None]
+        node = head
+        for _ in range(3):  # the advert may follow the header, its wrapper, or the wrapper's wrapper
+            if node is None:
+                break
+            candidates.append(node.find_next_sibling())
+            node = node.parent
+        texts = [re.sub(r'\s+', ' ', c.get_text(' ', strip=True)) for c in candidates if c is not None]
+        body = next((t for t in texts if len(t) >= min_body), '')
+        slug = re.sub(r'[^a-z0-9]+', '-', title.lower()).strip('-')[:120]
+        if not title or len(body) < min_body or slug in seen:
+            continue
+        seen.add(slug)
+        out.append((slug, title, body))
+    _ACCORDION_CACHE[key] = out
+    return out
+
+
+# University of Colorado system board (cu.taleo.net, career section 2):
+# Anschutz Medical Campus (Aurora), CU Denver, Colorado Springs and System
+# Administration. CU Boulder is NOT here -- it has its own site,
+# jobs.colorado.edu. A campus is recognised by the name its postings open with.
+CU_TALEO = 'https://cu.taleo.net/careersection/2/'
+CU_CAMPUS = {
+    'anschutz': {'city': 'Aurora', 'names': ('anschutz',)},
+    'denver': {'city': 'Denver', 'names': ('university of colorado denver', 'cu denver')},
+    'colorado_springs': {'city': 'Colorado Springs', 'names': ('colorado springs', 'uccs')},
+}
+_CU_CACHE = {}
+
+
+def cu_taleo_jobs():
+    """[{'no': contest number, 'title', 'locations': [...], 'posted'}] for
+    every posting on the CU system Taleo board, from the search service the
+    page itself calls (POST rest/jobboard/searchjobs, 25 per page). The
+    shared scrape_taleo reader finds nothing here: the list is filled by
+    JavaScript and its rows open jobdetail.ftl with no job in the URL."""
+    if 'jobs' in _CU_CACHE:
+        return _CU_CACHE['jobs']
+    session = requests.Session()
+    session.headers.update({'User-Agent': UA})
+    session.get(CU_TALEO + 'moresearch.ftl?lang=en', timeout=40)
+    headers = {'tz': 'GMT-06:00', 'tzname': 'America/Denver', 'Content-Type': 'application/json',
+               'Accept': 'application/json', 'X-Requested-With': 'XMLHttpRequest',
+               'Referer': CU_TALEO + 'moresearch.ftl?lang=en'}
+    empty = lambda ids: [{'id': i, 'selectedValues': []} for i in ids]
+    out, seen = [], set()
+    for page in range(1, 200):
+        body = {'multilineEnabled': False,
+                'sortingSelection': {'sortBySelectionParam': '3', 'ascendingSortingOrder': 'false'},
+                'fieldData': {'fields': {'KEYWORD': '', 'LOCATION': ''}, 'valid': True},
+                'filterSelectionParam': {'searchFilterSelections': empty(('POSTING_DATE', 'LOCATION', 'JOB_FIELD', 'ORGANIZATION'))},
+                'advancedSearchFiltersSelectionParam': {'searchFilterSelections': empty(
+                    ('ORGANIZATION', 'LOCATION', 'JOB_FIELD', 'JOB_NUMBER', 'URGENT_JOB', 'EMPLOYEE_STATUS',
+                     'STUDY_LEVEL', 'WILL_TRAVEL', 'JOB_SHIFT'))},
+                'pageNo': page}
+        r = session.post('https://cu.taleo.net/careersection/rest/jobboard/searchjobs?lang=en&portal=101430233',
+                         json=body, headers=headers, timeout=40)
+        if r.status_code != 200:
+            raise RuntimeError(f'CU Taleo search status={r.status_code}')
+        rows = r.json().get('requisitionList') or []
+        fresh = 0
+        for row in rows:
+            if row['contestNo'] in seen:
+                continue
+            seen.add(row['contestNo'])
+            fresh += 1
+            col = row.get('column') or ['', '', '']
+            try:
+                locations = json.loads(col[1]) if col[1].startswith('[') else [col[1]]
+            except ValueError:
+                locations = [col[1]]
+            out.append({'no': row['contestNo'], 'title': col[0], 'locations': locations, 'posted': col[2] if len(col) > 2 else ''})
+        if not rows or not fresh:
+            break
+    if not out:
+        raise RuntimeError('CU Taleo search returned no postings')
+    _CU_CACHE['jobs'] = out
+    return out
+
+
+def cu_taleo_detail(no):
+    """One CU posting's fields, from the data its page embeds in
+    api.fillList('requisitionDescriptionInterface', 'descRequisition', [...])
+    (the visible HTML is an empty template): title, category ("Faculty",
+    "University Staff"), description (opens with the campus name), posted
+    and closing text. Cached per process."""
+    from urllib.parse import unquote
+    if no in _CU_CACHE:
+        return _CU_CACHE[no]
+    status, html = fetch_static(f'{CU_TALEO}jobdetail.ftl?job={no}&lang=en', timeout=40)
+    if status != 200:
+        raise RuntimeError(f'CU posting status={status}')
+    m = re.search(r"api\.fillList\('requisitionDescriptionInterface', 'descRequisition', \[(.*?)\]\);", html or '', re.S)
+    if not m:
+        raise RuntimeError('posting data not found (closed?)')
+    vals = [unquote(v).replace('!$!', ' ').replace('!*!', ' ') for v in re.findall(r"'((?:[^'\\]|\\.)*)'", m.group(1))]
+    text = lambda v: re.sub(r'\s+', ' ', BeautifulSoup(v, 'html.parser').get_text(' ', strip=True))
+    get = lambda i: text(vals[i]) if len(vals) > i else ''
+    detail = {'title': get(9), 'no': get(10), 'category': get(11), 'description': get(12),
+              'job_field': get(24), 'workplace': get(26), 'org': get(28), 'location': get(29),
+              'schedule': get(31), 'posted': get(33), 'closes': get(35)}
+    _CU_CACHE[no] = detail
+    return detail
+
+
+def scrape_cu_campus(campus):
+    """Posting URLs of one CU campus ('anschutz', 'denver',
+    'colorado_springs'): jobs whose listed location is the campus city, plus
+    jobs listed as "Multiple Locations" / "Hybrid" / "United States" whose
+    posting opens with the campus name."""
+    spec = CU_CAMPUS[campus]
+    cities = {c['city'] for c in CU_CAMPUS.values()}
+    links = []
+    for job in cu_taleo_jobs():
+        mine = spec['city'] in job['locations']
+        if not mine and not (set(job['locations']) & cities):
+            try:
+                head = cu_taleo_detail(job['no'])['description'][:200].lower()
+            except RuntimeError:
+                continue
+            mine = any(name in head for name in spec['names'])
+        if mine:
+            links.append(f"{CU_TALEO}jobdetail.ftl?job={job['no']}&lang=en")
+    return links
+
+
+# University of Connecticut board (PageUp, jobs.hr.uconn.edu): one board for
+# all campuses, with a "location" filter. A campus takes the filter values
+# listed for it; Storrs (the main campus) takes every value no other campus
+# claims (extension centres, "Other - please see posting").
+UCONN_BOARD = 'https://jobs.hr.uconn.edu/en-us/'
+UCONN_CAMPUS = {
+    'avery_point': ('UConn Avery Point',),
+    'stamford': ('UConn Stamford',),
+    'waterbury': ('UConn Waterbury',),
+    'hartford': ('UConn Hartford', 'School of Law', 'School of Social Work'),
+    'farmington': ('UConn Health (Farmington)',),
+    'storrs': None,
+}
+_UCONN_CACHE = {}
+
+
+def scrape_uconn_campus(campus):
+    """Posting URLs (.../en-us/job/<id>/<slug>) of one UConn campus."""
+    from urllib.parse import quote, urljoin
+    if 'locations' not in _UCONN_CACHE:
+        html = _fetch_rendered_retry(UCONN_BOARD + 'listing/', 5000)
+        soup = BeautifulSoup(html, 'html.parser')
+        _UCONN_CACHE['locations'] = [i.get('value') for i in soup.find_all('input', attrs={'name': 'location'}) if i.get('value')]
+        if not _UCONN_CACHE['locations']:
+            raise RuntimeError('UConn location filter not found')
+    wanted = UCONN_CAMPUS[campus]
+    if wanted is None:
+        claimed = {v for vals in UCONN_CAMPUS.values() if vals for v in vals}
+        wanted = [v for v in _UCONN_CACHE['locations'] if v not in claimed]
+    links, seen = [], set()
+    for value in wanted:
+        if value not in _UCONN_CACHE['locations']:
+            continue  # no job at this location today
+        url = f'{UCONN_BOARD}filter/?search-keyword=&location={quote(value)}&page=1&page-items=500'
+        html = _fetch_rendered_retry(url, 5000)
+        for href, job in re.findall(r'href="([^"]*/job/(\d+)/[^"?#]*)', html):
+            if job not in seen:
+                seen.add(job)
+                links.append(urljoin(UCONN_BOARD, re.sub(r'^/(?:cw|mob)/', '/', href)))
+    return links
+
+
 # --------------------------------------------------------------------------
 # Taleo: covers both product UIs seen in this dataset.
 #  - TBE ("...tbe.taleo.net/.../jobSearch?...")): a search-FORM page whose

@@ -2093,6 +2093,162 @@ def fetch_detail_nauka(url):
     return title[:250], (' '.join(head) + ' ' + body)[:20000]
 
 
+def fetch_detail_talentlink(url, host, tech_id, sort_by, referer=''):
+    """(title, description) for a TalentLink posting (…jobId=<n>) from the
+    board's own records (jlib.talentlink_jobs): title, faculty/department
+    fields, the advert's sections, and DPOSTINGEND restated as a Closing
+    Date. The universities' pages themselves are behind bot walls."""
+    import datetime
+    from bs4 import BeautifulSoup
+    m = re.search(r'jobId=(\d+)', url)
+    if not m:
+        raise RuntimeError('no jobId in url')
+    job = next((j for j in jlib.talentlink_jobs(host, tech_id, sort_by, referer) if str(j.get('id')) == m.group(1)), None)
+    if job is None:
+        raise RuntimeError('job no longer on the board')
+    f = job.get('jobFields') or {}
+    title = (f.get('jobTitle') or f.get('SJOBTITLE') or '').strip()
+    lead = []
+    end = str(f.get('DPOSTINGEND') or '')
+    if end.isdigit():
+        lead.append('Closing Date: ' + datetime.datetime.utcfromtimestamp(int(end) / 1000).strftime('%d/%m/%Y'))
+    units = [str(v) for k, v in f.items() if re.match(r'SLOVLIST|SDPTNAME', k) and v and str(v) != 'None']
+    if units:
+        lead.append('Department: ' + '; '.join(dict.fromkeys(units)))
+    if f.get('jobNumber'):
+        lead.append(f"Reference: {f['jobNumber']}")
+    body = ' '.join(f"{c.get('title') or ''}: " + BeautifulSoup(c.get('content') or '', 'html.parser').get_text(' ', strip=True)
+                    for c in job.get('customFields') or [])
+    return title[:250], re.sub(r'\s+', ' ', ' '.join(lead) + ' ' + body)[:20000]
+
+
+def fetch_detail_oracle_rest(url):
+    """(title, description) for one Oracle Recruiting Cloud posting
+    (.../sites/<site>/job/<Id>) from the public REST detail service; the
+    closing date (ExternalPostedEndDate) and Department lead the text."""
+    from bs4 import BeautifulSoup
+    m = re.search(r'^(https://[^/]+)/.*?/sites/([^/]+)/job/(\w+)', url)
+    if not m:
+        raise RuntimeError('not an Oracle job url')
+    api = (f'{m.group(1)}/hcmRestApi/resources/latest/recruitingCEJobRequisitionDetails?expand=all&onlyData=true'
+           f'&finder=ById;Id=%22{m.group(3)}%22,siteNumber={m.group(2)}')
+    status, text = jlib.fetch_static(api, timeout=40, extra_headers={'Accept': 'application/json'})
+    if status != 200:
+        raise RuntimeError(f'Oracle detail status={status}')
+    items = json.loads(text).get('items') or []
+    if not items:
+        raise RuntimeError('posting not found (closed)')
+    it = items[0]
+    lead = []
+    end = it.get('ExternalPostedEndDate') or ''
+    if re.match(r'\d{4}-\d{2}-\d{2}', end):
+        lead.append(f'Closing Date: {end[8:10]}/{end[5:7]}/{end[:4]}')
+    if it.get('Department'):
+        lead.append(f"Department: {it['Department']}")
+    for key in ('Category', 'JobFunction', 'JobSchedule', 'PrimaryLocation'):
+        if it.get(key):
+            lead.append(f'{key}: {it[key]}')
+    body = ' '.join(BeautifulSoup(it.get(k) or '', 'html.parser').get_text(' ', strip=True)
+                    for k in ('ShortDescriptionStr', 'ExternalDescriptionStr', 'OrganizationDescriptionStr',
+                              'ExternalQualificationsStr', 'ExternalResponsibilitiesStr'))
+    return (it.get('Title') or '').strip()[:250], re.sub(r'\s+', ' ', ' '.join(lead) + ' ' + body)[:20000]
+
+
+def fetch_detail_accordion(url, header_selector, render=False):
+    """(title, description) for a job published as an expandable section of
+    one page (url = page + "#<slug>", see jlib.accordion_items)."""
+    page, _, slug = url.partition('#')
+    item = next((it for it in jlib.accordion_items(page, header_selector, render=render) if it[0] == slug), None)
+    if item is None:
+        raise RuntimeError('section no longer on the page')
+    return item[1][:250], f'{item[1]}. {item[2]}'[:20000]
+
+
+def fetch_detail_cu_taleo(url):
+    """(title, description) for a CU system Taleo posting
+    (jobdetail.ftl?job=<n>), from the fields its page embeds
+    (jlib.cu_taleo_detail). The category ("Faculty", "University Staff") and
+    dates lead the text."""
+    m = re.search(r'[?&]job=(\w+)', url)
+    if not m:
+        raise RuntimeError('no job number in url')
+    d = jlib.cu_taleo_detail(m.group(1))
+    if not d['title']:
+        raise RuntimeError('posting has no title (closed?)')
+    lead = []
+    close = re.match(r'([A-Z][a-z]{2}) (\d{1,2}), (\d{4})', d['closes'])
+    if close:
+        import datetime
+        lead.append('Closing Date: ' + datetime.datetime.strptime(close.group(0), '%b %d, %Y').strftime('%m/%d/%Y'))
+    if d['posted']:
+        lead.append(f"Posted Date: {d['posted']}")
+    if d['category']:
+        lead.append(f"Job category: {d['category']}")
+    if d['org']:
+        lead.append(f"Department: {re.sub(r'^[0-9]+ - ', '', d['org'])}")
+    if d['schedule']:
+        lead.append(f"Schedule: {d['schedule']}")
+    return d['title'][:250], (' '.join(lead) + ' ' + d['description'])[:20000]
+
+
+def fetch_detail_pageup(url):
+    """(title, description) for a classic PageUp posting (.../job/<id>/<slug>).
+    These pages head with the SITE's name -- every Monash posting was titled
+    "Job Search - Jobs at Monash", Deakin's "Deakin", Canberra's "Jobs at UC"
+    -- while the advert sits in #job-content. The title is the opening words
+    of that block that spell out the URL slug (so punctuation and case come
+    from the page), falling back to the slug itself. Hosts that answer plain
+    requests with an empty 202 are rendered."""
+    from bs4 import BeautifulSoup
+    status, html = jlib.fetch_static(url, timeout=40)
+    if status != 200 or 'job-content' not in (html or ''):
+        html = jlib.fetch_rendered(url, wait_ms=5000)
+        if jlib.is_fetch_failure(html):
+            raise RuntimeError(html)
+    soup = BeautifulSoup(html, 'html.parser')
+    block = soup.select_one('#job-content') or soup.select_one('#job-details')
+    if block is None:
+        raise RuntimeError('posting content not found (closed?)')
+    for tag in block(['script', 'style']):
+        tag.decompose()
+    text = re.sub(r'\s+', ' ', block.get_text(' ', strip=True))
+    slug = url.split('?')[0].rstrip('/').rsplit('/', 1)[-1]
+    norm = lambda v: re.sub(r'[^a-z0-9]', '', v.lower())
+    target, title = norm(slug), ''
+    heading = block.find(['h1', 'h2', 'h3'])
+    if heading and norm(heading.get_text()) and norm(heading.get_text())[:12] == target[:12]:
+        title = heading.get_text(' ', strip=True)
+    elif target and norm(text).startswith(target[:max(8, len(target) // 2)]):
+        words = []
+        for word in text.split(' '):
+            words.append(word)
+            if len(norm(' '.join(words))) >= len(target):
+                break
+        title = ' '.join(words)
+    if not title:
+        title = slug.replace('-', ' ').title()
+    return title.strip(' -|')[:250], text[:20000]
+
+
+def fetch_detail_rendered_h1(url, wait_ms=7000, skip=r'(?i)^(log ?in|sign in|menu|search|cookie.*|connect with .*)$'):
+    """(title, description) from a page that only shows the job once its
+    JavaScript has run (Notre Dame Australia, uzhcareer, Western Sydney,
+    Lingnan's Cornerstone): rendered, first <h1> that is not site chrome."""
+    from bs4 import BeautifulSoup
+    html = jlib.fetch_rendered(url, wait_ms=wait_ms)
+    if not html or jlib.is_fetch_failure(html):
+        raise RuntimeError(html or 'page did not render')
+    soup = BeautifulSoup(html, 'html.parser')
+    title = next((re.sub(r'\s+', ' ', h.get_text(' ', strip=True)) for h in soup.find_all('h1')
+                  if h.get_text(strip=True) and not re.match(skip, h.get_text(' ', strip=True).strip())), '')
+    if not title:
+        raise RuntimeError('no job heading on the page (closed or blocked)')
+    body = soup.find('main') or soup.body or soup
+    for tag in body(['script', 'style', 'nav', 'header', 'footer']):
+        tag.decompose()
+    return title[:250], re.sub(r'\s+', ' ', body.get_text(' ', strip=True))[:20000]
+
+
 def fetch_peoplesoft_bulk(careers_link):
     """{posting_url: (title, description, department)} for a PeopleSoft
     Fluid careers site, read from the search results rows.

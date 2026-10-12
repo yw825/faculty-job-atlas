@@ -19,6 +19,11 @@ fetch_rendered/fetch_static call and merge the results.
 
 Writes school_job_posts/school_id_1780_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1780_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+UNE's current-vacancies page embeds its HR system (hr.une.edu.au, WK8127);
+the vacancy list is WK8127$APP.QueryList and each vacancy is
+WK8127$APP.draw_attachments?P_VACANCY_REF_NO=<n> (the anchor the audit quotes).
 """
 import os
 import re
@@ -33,19 +38,17 @@ SCHOOL_NAME = 'University of New England'
 CAREERS_LINK = 'https://www.une.edu.au/jobs-at-une/current-vacancies'
 ATS_PLATFORM = 'own website'
 
+BASE = 'https://hr.une.edu.au/ords/concept_ords/'
+
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    """NOTE: emptied on purpose. Every link this school's careers page
-    yields is site guidance, not a job -- all stored links were "how to apply"/FAQ pages. Verified by fetching all
-    of them. An empty file is correct until its real board is located."""
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                              href_pattern=lib.COMMON_JOB_URL_HINTS,
-                              text_pattern=lib.COMMON_JOB_URL_HINTS)
+    status, html = lib.fetch_static(BASE + 'WK8127$APP.QueryList?Z_ORDER_BY=1', timeout=40)
+    if status != 200:
+        raise RuntimeError(f'vacancy list status={status}')
+    refs = list(dict.fromkeys(re.findall(r'P_VACANCY_REF_NO=(\d+)', html)))
+    return [f'{BASE}WK8127$APP.draw_attachments?P_VACANCY_REF_NO={r}' for r in refs]
 
 
 def main():

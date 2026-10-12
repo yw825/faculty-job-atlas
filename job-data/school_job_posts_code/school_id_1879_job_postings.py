@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 1879 - University of Greenwich (United Kingdom)
 ATS platform: own website
-Careers link: https://jobs.gre.ac.uk/vacancies.aspx?cat=407
+Careers link: https://jobs.gre.ac.uk/vacancies.aspx?cat=-1
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -19,6 +19,9 @@ fetch_rendered/fetch_static call and merge the results.
 
 Writes school_job_posts/school_id_1879_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1879_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Kept: Vacancy.aspx?ref=<n> postings only (not the display.aspx info pages, log-on or registration links).
 """
 import os
 import re
@@ -30,19 +33,27 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1879
 SCHOOL_NAME = 'University of Greenwich'
-CAREERS_LINK = 'https://jobs.gre.ac.uk/vacancies.aspx?cat=407'
+CAREERS_LINK = 'https://jobs.gre.ac.uk/vacancies.aspx?cat=-1'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
-def find_links():
+def _page_links():
     html = lib.fetch_rendered(CAREERS_LINK)
     if lib.is_fetch_failure(html):
         raise RuntimeError(html)
     return lib.extract_links(html, CAREERS_LINK,
                               href_pattern=lib.COMMON_JOB_URL_HINTS,
                               text_pattern=lib.COMMON_JOB_URL_HINTS)
+
+
+POSTING_RE = re.compile(r'(?i)/vacancy\.aspx\?ref=')
+
+
+def find_links():
+    """Only real postings, not the page's menus, share buttons or sign-in links."""
+    return list(dict.fromkeys(u for u in _page_links() if POSTING_RE.search(u)))
 
 
 def main():

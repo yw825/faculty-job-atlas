@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1741 - Universitat Politècnica de Catalunya (Spain)
 ATS platform: own website
-Careers link: https://www.upc.edu/en/the-upc/the-institution/jobs-at-the-upc
+Careers link: https://treballa.upc.edu/ca/convocatories-de-concursos
 
 No bulk info adapter applies to this school -- fetch_detail(url) below
 visits each posting page individually and is THIS SCHOOL'S OWN detail-page
@@ -39,7 +39,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1741
 SCHOOL_NAME = 'Universitat Politècnica de Catalunya'
-CAREERS_LINK = 'https://www.upc.edu/en/the-upc/the-institution/jobs-at-the-upc'
+CAREERS_LINK = 'https://treballa.upc.edu/ca/convocatories-de-concursos'
 ATS_PLATFORM = 'own website'
 USE_LLM = False  # set True once you have ANTHROPIC_API_KEY configured
 

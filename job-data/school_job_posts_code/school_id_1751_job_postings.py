@@ -19,6 +19,11 @@ fetch_rendered/fetch_static call and merge the results.
 
 Writes school_job_posts/school_id_1751_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1751_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Uppsala's vacancies page shows only 5 featured jobs; all ~89 are on its
+Varbi board (uu.varbi.com/en/), whose ids are the ones the university's own
+job page takes (.../job-details?query=<id>, the audit's example form).
 """
 import os
 import re
@@ -33,16 +38,17 @@ SCHOOL_NAME = 'Uppsala University'
 CAREERS_LINK = 'https://www.uu.se/en/about-uu/join-us/jobs-and-vacancies'
 ATS_PLATFORM = 'own website'
 
+VARBI = 'https://uu.varbi.com/en/'
+JOB_URL = 'https://www.uu.se/en/about-uu/join-us/jobs-and-vacancies/job-details?query={id}'
+
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                              href_pattern=lib.COMMON_JOB_URL_HINTS,
-                              text_pattern=lib.COMMON_JOB_URL_HINTS)
+    status, html = lib.fetch_static(VARBI, timeout=40)
+    if status != 200:
+        raise RuntimeError(f'Varbi list status={status}')
+    return [JOB_URL.format(id=i) for i in dict.fromkeys(re.findall(r'jobID:(\d+)', html))]
 
 
 def main():

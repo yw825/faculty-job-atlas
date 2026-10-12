@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1879 - University of Greenwich (United Kingdom)
 ATS platform: own website
-Careers link: https://jobs.gre.ac.uk/vacancies.aspx?cat=407
+Careers link: https://jobs.gre.ac.uk/vacancies.aspx?cat=-1
 
 No bulk info adapter applies to this school -- fetch_detail(url) below
 visits each posting page individually and is THIS SCHOOL'S OWN detail-page
@@ -39,7 +39,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1879
 SCHOOL_NAME = 'University of Greenwich'
-CAREERS_LINK = 'https://jobs.gre.ac.uk/vacancies.aspx?cat=407'
+CAREERS_LINK = 'https://jobs.gre.ac.uk/vacancies.aspx?cat=-1'
 ATS_PLATFORM = 'own website'
 USE_LLM = False  # set True once you have ANTHROPIC_API_KEY configured
 

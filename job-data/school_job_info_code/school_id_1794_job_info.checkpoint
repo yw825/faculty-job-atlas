@@ -1,15 +1,285 @@
 {
   "raw": {
-    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/LogOn/?returnUrl=%2fT1Default%2fCiAnywhere%2fWeb%2fCDU%2fOrganisationManagement%2fJobBoardEnquiry%3ff%3d%2524ORG.REC.EXJOBB.ENQ%26h%3dP4qJOSCldv%26t%3d1B453F2F%26suite%3dCES%26pagekey%3d20260902210555": {
-      "title": "Log On",
-      "description": "Log On - CiA Change to Accessibility Mode JavaScript disabled is not supported. Please enable JavaScript in your browser. User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36 OK This website uses cookies to ensure you have the best browsing experience. By continuing to use the application you are agreeing to our use of cookies. Log On - CiA CiA Login Page Log on using Log on using Office 365 Keep me logged on Accessibility Mode Accessibility Mode Checking this option will set CiA to a mode that is optimised to be read by screen readers and to be used by people with no or limited vision. Some of the visual elements used in the CiA desktop interface are disabled or simplified in this mode.<br/><br/>If required, the display mode can be changed under Options > Settings once you have logged on. close popup Close Enterprise software, incredibly simple Powered by TechnologyOne Email errors Copy to clipboard Close Configure"
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#casual-lecturing-ug-nursing": {
+      "title": "Casual - Lecturing - UG Nursing",
+      "description": "Casual - Lecturing - UG Nursing. Charles Darwin University. Employment type: Casual."
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#casual-clinical-educator-ot-health-hub-20386": {
+      "title": "Casual Clinical Educator - OT Health Hub - 20386",
+      "description": "Casual Clinical Educator - OT Health Hub - 20386. Charles Darwin University. Employment type: Casual."
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#casual-dest-vet-tutor": {
+      "title": "Casual DEST (VET) Tutor",
+      "description": "Casual DEST (VET) Tutor. Charles Darwin University. Employment type: Casual."
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#casual-he-academic-engineering-eng212": {
+      "title": "Casual HE Academic - Engineering - ENG212",
+      "description": "Casual HE Academic - Engineering - ENG212. Charles Darwin University. Employment type: Casual."
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#casual-marking-psychology": {
+      "title": "Casual Marking - Psychology",
+      "description": "Casual Marking - Psychology. Charles Darwin University. Employment type: Casual."
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#director-planning-and-performance": {
+      "title": "Director Planning and Performance",
+      "description": "Director Planning and Performance. Charles Darwin University. Employment type: Fixed Term."
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#evaluation-and-impact-lead-student-equity": {
+      "title": "Evaluation and Impact Lead - Student Equity",
+      "description": "Evaluation and Impact Lead - Student Equity. Charles Darwin University. Employment type: Fixed Term."
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#executive-assistant-and-finance-officer": {
+      "title": "Executive Assistant and Finance Officer",
+      "description": "Executive Assistant and Finance Officer. Charles Darwin University. Employment type: Contingent Continuing."
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#farm-stud-overseer": {
+      "title": "Farm & Stud Overseer",
+      "description": "Farm & Stud Overseer. Charles Darwin University. Employment type: Continuing."
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#lecturer-agriculture-animal-care": {
+      "title": "Lecturer - Agriculture & Animal Care",
+      "description": "Lecturer - Agriculture & Animal Care. Charles Darwin University. Employment type: Continuing."
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#lecturer-carpentry-construction": {
+      "title": "Lecturer - Carpentry & Construction",
+      "description": "Lecturer - Carpentry & Construction. Charles Darwin University. Employment type: Continuing."
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#lecturer-construction": {
+      "title": "Lecturer - Construction",
+      "description": "Lecturer - Construction. Charles Darwin University. Employment type: Continuing."
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#lecturer-electrotechnology": {
+      "title": "Lecturer - Electrotechnology",
+      "description": "Lecturer - Electrotechnology. Charles Darwin University. Employment type: Continuing."
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#lecturer-heavy-vehicle": {
+      "title": "Lecturer - Heavy Vehicle",
+      "description": "Lecturer - Heavy Vehicle. Charles Darwin University. Employment type: Continuing."
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#professional-experience-supervisor-casual-nt": {
+      "title": "Professional Experience Supervisor – Casual (NT)",
+      "description": "Professional Experience Supervisor – Casual (NT). Charles Darwin University. Employment type: Casual."
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#senior-lecturer-population-health": {
+      "title": "Senior Lecturer Population Health",
+      "description": "Senior Lecturer Population Health. Charles Darwin University. Employment type: Continuing."
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#senior-research-fellow-translational-research": {
+      "title": "Senior Research Fellow, Translational Research",
+      "description": "Senior Research Fellow, Translational Research. Charles Darwin University. Employment type: Fixed Term."
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#senior-research-fellow-associate-professor-maternal-child-health-reseach": {
+      "title": "Senior Research Fellow/Associate Professor Maternal & Child Health Reseach",
+      "description": "Senior Research Fellow/Associate Professor Maternal & Child Health Reseach. Charles Darwin University. Employment type: Fixed Term."
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#technical-officer-automotive": {
+      "title": "Technical Officer - Automotive",
+      "description": "Technical Officer - Automotive. Charles Darwin University. Employment type: Continuing."
     }
   },
   "rows": {
-    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/LogOn/?returnUrl=%2fT1Default%2fCiAnywhere%2fWeb%2fCDU%2fOrganisationManagement%2fJobBoardEnquiry%3ff%3d%2524ORG.REC.EXJOBB.ENQ%26h%3dP4qJOSCldv%26t%3d1B453F2F%26suite%3dCES%26pagekey%3d20260902210555": {
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#casual-lecturing-ug-nursing": {
       "school_id": 1794,
-      "posting_url": "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/LogOn/?returnUrl=%2fT1Default%2fCiAnywhere%2fWeb%2fCDU%2fOrganisationManagement%2fJobBoardEnquiry%3ff%3d%2524ORG.REC.EXJOBB.ENQ%26h%3dP4qJOSCldv%26t%3d1B453F2F%26suite%3dCES%26pagekey%3d20260902210555",
-      "job_title_in_post": "Log On",
+      "posting_url": "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#casual-lecturing-ug-nursing",
+      "job_title_in_post": "Casual - Lecturing - UG Nursing",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#casual-clinical-educator-ot-health-hub-20386": {
+      "school_id": 1794,
+      "posting_url": "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#casual-clinical-educator-ot-health-hub-20386",
+      "job_title_in_post": "Casual Clinical Educator - OT Health Hub - 20386",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#casual-dest-vet-tutor": {
+      "school_id": 1794,
+      "posting_url": "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#casual-dest-vet-tutor",
+      "job_title_in_post": "Casual DEST (VET) Tutor",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#casual-he-academic-engineering-eng212": {
+      "school_id": 1794,
+      "posting_url": "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#casual-he-academic-engineering-eng212",
+      "job_title_in_post": "Casual HE Academic - Engineering - ENG212",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#casual-marking-psychology": {
+      "school_id": 1794,
+      "posting_url": "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#casual-marking-psychology",
+      "job_title_in_post": "Casual Marking - Psychology",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#director-planning-and-performance": {
+      "school_id": 1794,
+      "posting_url": "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#director-planning-and-performance",
+      "job_title_in_post": "Director Planning and Performance",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#evaluation-and-impact-lead-student-equity": {
+      "school_id": 1794,
+      "posting_url": "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#evaluation-and-impact-lead-student-equity",
+      "job_title_in_post": "Evaluation and Impact Lead - Student Equity",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#executive-assistant-and-finance-officer": {
+      "school_id": 1794,
+      "posting_url": "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#executive-assistant-and-finance-officer",
+      "job_title_in_post": "Executive Assistant and Finance Officer",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#farm-stud-overseer": {
+      "school_id": 1794,
+      "posting_url": "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#farm-stud-overseer",
+      "job_title_in_post": "Farm & Stud Overseer",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#lecturer-agriculture-animal-care": {
+      "school_id": 1794,
+      "posting_url": "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#lecturer-agriculture-animal-care",
+      "job_title_in_post": "Lecturer - Agriculture & Animal Care",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Agriculture & Animal Care",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#lecturer-carpentry-construction": {
+      "school_id": 1794,
+      "posting_url": "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#lecturer-carpentry-construction",
+      "job_title_in_post": "Lecturer - Carpentry & Construction",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Carpentry & Construction",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#lecturer-construction": {
+      "school_id": 1794,
+      "posting_url": "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#lecturer-construction",
+      "job_title_in_post": "Lecturer - Construction",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Construction",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#lecturer-electrotechnology": {
+      "school_id": 1794,
+      "posting_url": "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#lecturer-electrotechnology",
+      "job_title_in_post": "Lecturer - Electrotechnology",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Electrotechnology",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#lecturer-heavy-vehicle": {
+      "school_id": 1794,
+      "posting_url": "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#lecturer-heavy-vehicle",
+      "job_title_in_post": "Lecturer - Heavy Vehicle",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Heavy Vehicle",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#professional-experience-supervisor-casual-nt": {
+      "school_id": 1794,
+      "posting_url": "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#professional-experience-supervisor-casual-nt",
+      "job_title_in_post": "Professional Experience Supervisor – Casual (NT)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#senior-lecturer-population-health": {
+      "school_id": 1794,
+      "posting_url": "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#senior-lecturer-population-health",
+      "job_title_in_post": "Senior Lecturer Population Health",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#senior-research-fellow-translational-research": {
+      "school_id": 1794,
+      "posting_url": "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#senior-research-fellow-translational-research",
+      "job_title_in_post": "Senior Research Fellow, Translational Research",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Translational Research",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#senior-research-fellow-associate-professor-maternal-child-health-reseach": {
+      "school_id": 1794,
+      "posting_url": "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#senior-research-fellow-associate-professor-maternal-child-health-reseach",
+      "job_title_in_post": "Senior Research Fellow/Associate Professor Maternal & Child Health Reseach",
+      "position_type": "Associate_Professor; Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#technical-officer-automotive": {
+      "school_id": 1794,
+      "posting_url": "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#technical-officer-automotive",
+      "job_title_in_post": "Technical Officer - Automotive",
       "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
@@ -20,7 +290,7 @@
   },
   "school_id": 1794,
   "status": "complete",
-  "updated_at": "2026-10-06T01:26:40+00:00",
-  "completed_at": "2026-10-06T01:26:40+00:00",
+  "updated_at": "2026-10-12T19:55:03+00:00",
+  "completed_at": "2026-10-12T19:55:03+00:00",
   "last_error": ""
 }

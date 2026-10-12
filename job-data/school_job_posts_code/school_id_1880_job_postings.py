@@ -19,6 +19,11 @@ fetch_rendered/fetch_static call and merge the results.
 
 Writes school_job_posts/school_id_1880_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1880_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+eArcu board: 12 jobs per page, paged by links whose href carries
+movejump_page=<n> (with a per-load pagestamp), clicked in one rendered
+session. Postings are /jobs/vacancy/<slug>/<id>/description/.
 """
 import os
 import re
@@ -37,12 +42,23 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkp
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                              href_pattern=lib.COMMON_JOB_URL_HINTS,
-                              text_pattern=lib.COMMON_JOB_URL_HINTS)
+    found = []
+
+    def walk(page):
+        for n in range(2, 60):
+            for href in re.findall(r'href="([^"]*/jobs/vacancy/[^"/]+/\d+/description/?)"', page.content()):
+                url = 'https://manmetjobs.mmu.ac.uk' + href if href.startswith('/') else href
+                if url not in found:
+                    found.append(url)
+            nxt = page.query_selector(f'a[href*="movejump_page={n}&"], a[href*="movejump_page={n}"]')
+            if not nxt:
+                break
+            nxt.click()
+            page.wait_for_timeout(4000)
+    html = lib.fetch_rendered(CAREERS_LINK, wait_ms=6000, actions=walk, timeout=90000)
+    if not found:
+        raise RuntimeError(html[:200] if html else 'board did not render')
+    return found
 
 
 def main():

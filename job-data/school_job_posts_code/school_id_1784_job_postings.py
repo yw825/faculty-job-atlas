@@ -19,6 +19,11 @@ fetch_rendered/fetch_static call and merge the results.
 
 Writes school_job_posts/school_id_1784_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1784_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Newcastle's vacancies page hands off to LiveHire, where the jobs are
+(the audit's example is a LiveHire posting); the LiveHire careers list is
+rendered and scrolled. Postings are /careers/universityofnewcastle/job/<a>/<b>/<slug>.
 """
 import os
 import re
@@ -33,19 +38,13 @@ SCHOOL_NAME = 'University of Newcastle'
 CAREERS_LINK = 'https://www.newcastle.edu.au/our-uni/jobs/job-vacancies/external'
 ATS_PLATFORM = 'own website'
 
+BOARD = 'https://www.livehire.com/careers/universityofnewcastle/jobs'
+
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    """NOTE: emptied on purpose. Every link this school's careers page
-    yields is site guidance, not a job -- all stored links were application-process/benefits pages. Verified by fetching all
-    of them. An empty file is correct until its real board is located."""
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                              href_pattern=lib.COMMON_JOB_URL_HINTS,
-                              text_pattern=lib.COMMON_JOB_URL_HINTS)
+    return [u.split('?')[0] for u in lib.scrape_click_pages(BOARD, re.compile(r'/careers/universityofnewcastle/job/[A-Z0-9]+/[A-Z0-9]+'))]
 
 
 def main():

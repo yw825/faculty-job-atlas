@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 1881 - Leeds Beckett University (United Kingdom)
 ATS platform: own website
-Careers link: https://vacancies.leedsbeckett.ac.uk/ce0984li_webrecruitment/wrd/run/ETREC105GF?USESSION=C59F66C55E2608EA1C843755BE73D602&WVID=7412577lKO&LANG=USA
+Careers link: https://vacancies.leedsbeckett.ac.uk/ce0984li_webrecruitment/wrd/run/ETREC105GF.open?WVID=7412577lKO&LANG=USA
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -19,6 +19,12 @@ fetch_rendered/fetch_static call and merge the results.
 
 Writes school_job_posts/school_id_1881_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1881_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Unit4 web recruitment: the search form's button is submitted, results show
+10 per page with a "Next" button (BU_NEXT), and vacancy links carry a
+per-visit USESSION. Postings are stored session-free as
+ETREC107GF.open?VACANCY_ID=<id>&WVID=..&LANG=USA, which opens the job.
 """
 import os
 import re
@@ -30,19 +36,38 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1881
 SCHOOL_NAME = 'Leeds Beckett University'
-CAREERS_LINK = 'https://vacancies.leedsbeckett.ac.uk/ce0984li_webrecruitment/wrd/run/ETREC105GF?USESSION=C59F66C55E2608EA1C843755BE73D602&WVID=7412577lKO&LANG=USA'
+CAREERS_LINK = 'https://vacancies.leedsbeckett.ac.uk/ce0984li_webrecruitment/wrd/run/ETREC105GF.open?WVID=7412577lKO&LANG=USA'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                              href_pattern=lib.COMMON_JOB_URL_HINTS,
-                              text_pattern=lib.COMMON_JOB_URL_HINTS)
+    ids = []
+    base = 'https://vacancies.leedsbeckett.ac.uk/ce0984li_webrecruitment/wrd/run/'
+
+    def walk(page):
+        try:
+            with page.expect_navigation(timeout=30000, wait_until='networkidle'):
+                page.click('[id="BU_SEARCH.FRM_BUTTON.ET_BASE.1-1"]')
+        except Exception:
+            pass
+        for _ in range(40):
+            page.wait_for_timeout(4000)
+            new = [i for i in re.findall(r'VACANCY_ID(?:%3d|%3D|=)(\w+)', page.content()) if i not in ids]
+            ids.extend(dict.fromkeys(new))
+            nxt = page.query_selector('[id="BU_NEXT.FRM_BUTTON.ET_BASE.1-1-1_link"]')
+            if not new or not nxt or not nxt.is_visible():
+                break
+            try:  # the visible "Next" is a link beside a hidden submit input
+                with page.expect_navigation(timeout=20000, wait_until='networkidle'):
+                    nxt.evaluate('e => e.click()')
+            except Exception:
+                pass
+    lib.fetch_rendered(base + 'ETREC105GF.open?WVID=7412577lKO&LANG=USA', wait_ms=4000, actions=walk, timeout=90000)
+    if not ids:
+        raise RuntimeError('no vacancies found (search did not run)')
+    return [f'{base}ETREC107GF.open?VACANCY_ID={i}&WVID=7412577lKO&LANG=USA' for i in ids]
 
 
 def main():

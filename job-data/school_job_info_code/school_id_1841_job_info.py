@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1841 - Technological and Higher Education Institute of Hong Kong (Hong Kong)
 ATS platform: own website
-Careers link: https://www.thei.edu.hk/about-thei/career-opportunities
+Careers link: https://thei.edu.hk/career-opportunities/
 
 No bulk info adapter applies to this school -- fetch_detail(url) below
 visits each posting page individually and is THIS SCHOOL'S OWN detail-page
@@ -39,7 +39,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1841
 SCHOOL_NAME = 'Technological and Higher Education Institute of Hong Kong'
-CAREERS_LINK = 'https://www.thei.edu.hk/about-thei/career-opportunities'
+CAREERS_LINK = 'https://thei.edu.hk/career-opportunities/'
 ATS_PLATFORM = 'own website'
 USE_LLM = False  # set True once you have ANTHROPIC_API_KEY configured
 

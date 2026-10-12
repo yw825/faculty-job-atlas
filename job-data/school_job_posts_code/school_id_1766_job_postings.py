@@ -19,6 +19,12 @@ fetch_rendered/fetch_static call and merge the results.
 
 Writes school_job_posts/school_id_1766_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1766_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Warwick's own board (warwick-careers.tal.net) answers with a "Quick Check
+Needed" human check, so its adverts are read from jobs.ac.uk -- which Warwick
+itself runs -- keeping only results whose employer line is Warwick
+(lib.scrape_jobs_ac_uk).
 """
 import os
 import re
@@ -37,12 +43,7 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkp
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                              href_pattern=lib.COMMON_JOB_URL_HINTS,
-                              text_pattern=lib.COMMON_JOB_URL_HINTS)
+    return lib.scrape_jobs_ac_uk('University of Warwick')
 
 
 def main():

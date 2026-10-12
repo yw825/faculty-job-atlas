@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1768 - University of Glasgow (United Kingdom)
 ATS platform: own website
-Careers link: https://www.jobs.gla.ac.uk/jobs?source=google.com
+Careers link: https://www.jobs.gla.ac.uk/jobs
 
 No bulk info adapter applies to this school -- fetch_detail(url) below
 visits each posting page individually and is THIS SCHOOL'S OWN detail-page
@@ -39,7 +39,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1768
 SCHOOL_NAME = 'University of Glasgow'
-CAREERS_LINK = 'https://www.jobs.gla.ac.uk/jobs?source=google.com'
+CAREERS_LINK = 'https://www.jobs.gla.ac.uk/jobs'
 ATS_PLATFORM = 'own website'
 USE_LLM = False  # set True once you have ANTHROPIC_API_KEY configured
 

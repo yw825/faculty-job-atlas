@@ -19,6 +19,13 @@ fetch_rendered/fetch_static call and merge the results.
 
 Writes school_job_posts/school_id_1770_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1770_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Imperial's job search page is a Lumesse TalentLink widget behind a bot wall
+(the bundled browser gets a block page); the widget's own data service is
+read with its public guest login (lib.talentlink_jobs). A posting is the
+search page's details URL with ?jobId=<id> (the jobTitle parameter in the
+audit's example is decorative).
 """
 import os
 import re
@@ -33,16 +40,15 @@ SCHOOL_NAME = 'Imperial College London'
 CAREERS_LINK = 'https://www.imperial.ac.uk/jobs/search-jobs/?'
 ATS_PLATFORM = 'own website'
 
+TALENTLINK = ('emea3.recruitmentplatform.com', 'PMMFK026203F3VBQB8NLOV4CQ', 'DPOSTINGSTART', 'https://www.imperial.ac.uk/')
+JOB_URL = 'https://www.imperial.ac.uk/jobs/search-jobs/description/index.php?jobId={id}'
+
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                              href_pattern=lib.COMMON_JOB_URL_HINTS,
-                              text_pattern=lib.COMMON_JOB_URL_HINTS)
+    links = [JOB_URL.format(id=job['id']) for job in lib.talentlink_jobs(*TALENTLINK)]
+    return links
 
 
 def main():

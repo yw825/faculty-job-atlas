@@ -23,6 +23,11 @@ per-headcount link existing on the page, which it doesn't.
 
 Writes school_job_posts/school_id_1835_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1835_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Chu Hai publishes its vacancies as expandable sections of this one page
+(header selector "div.accordion-title h3"); a job has no URL of its own, so each is stored
+as the page URL + "#<title slug>" (lib.accordion_items).
 """
 import os
 import re
@@ -44,20 +49,7 @@ NO_OPENING_RE = re.compile(r'currently no job opening', re.I)
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    from bs4 import BeautifulSoup
-    category_pages = [CAREERS_LINK] + lib.extract_links(html, CAREERS_LINK, href_pattern=CATEGORY_LINK_RE)
-    links = []
-    for url in category_pages:
-        page_html = html if url == CAREERS_LINK else lib.fetch_rendered(url)
-        if lib.is_fetch_failure(page_html):
-            continue
-        text = BeautifulSoup(page_html, 'html.parser').get_text(' ', strip=True)
-        if not NO_OPENING_RE.search(text):
-            links.append(url)
-    return links
+    return [f'{CAREERS_LINK}#{slug}' for slug, _title, _body in lib.accordion_items(CAREERS_LINK, 'div.accordion-title h3')]
 
 
 def main():

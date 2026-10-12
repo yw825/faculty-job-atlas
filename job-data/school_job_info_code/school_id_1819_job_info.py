@@ -11,8 +11,7 @@ need something the default doesn't handle (a click to reveal full text, a
 login wall, a non-obvious title element, etc.); nothing here affects any
 other school's script.
 
-Default: render the page, take the first heading (or <title>) as the job
-title and the page's visible text as the description.
+TUNED: read from the JobAdder widget's job-details feed.
 
 Reads posting URLs from school_id_1819_job_postings.checkpoint (this
 school's job_postings run) and classifies each one (position_type,
@@ -48,7 +47,23 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint
 
 
 def fetch_detail(url):
-    return jinfo.fetch_detail_generic(url)
+    """JobAdder's RenderJobDetails feed (JSONP wrapping an HTML fragment)
+    for the ?ja-job=<id> posting."""
+    import json
+    import re
+    from bs4 import BeautifulSoup
+    job = re.search(r'ja-job=(\d+)', url).group(1)
+    status, text = jinfo.jlib.fetch_static('https://apps.jobadder.com/widgets/V1/Jobs/RenderJobDetails?callback=cb'
+                                           f'&key=AU6_klpob7rbkadenmkicx2r7fya7a&jobId={job}', timeout=40)
+    if status != 200:
+        raise RuntimeError(f'JobAdder details status={status}')
+    m = re.match(r'\s*cb\((.*)\)\s*;?\s*$', text, re.S)
+    soup = BeautifulSoup(json.loads(m.group(1)) if m else text, 'html.parser')
+    h2 = soup.find(['h2', 'h1'])
+    title = h2.get_text(' ', strip=True) if h2 else ''
+    if not title:
+        raise RuntimeError('job no longer listed')
+    return title[:250], re.sub(r'\s+', ' ', soup.get_text(' ', strip=True))[:20000]
 
 
 def main():

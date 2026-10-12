@@ -11,8 +11,7 @@ need something the default doesn't handle (a click to reveal full text, a
 login wall, a non-obvious title element, etc.); nothing here affects any
 other school's script.
 
-Default: render the page, take the first heading (or <title>) as the job
-title and the page's visible text as the description.
+TUNED: a posting is a section (#<title slug>) of the vacancies page; title = its header, text = the section.
 
 Reads posting URLs from school_id_1840_job_postings.checkpoint (this
 school's job_postings run) and classifies each one (position_type,
@@ -48,7 +47,7 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint
 
 
 def fetch_detail(url):
-    return jinfo.fetch_detail_generic(url)
+    return jinfo.fetch_detail_accordion(url, 'a.accordion-btn')
 
 
 def main():

@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1753 - EPFL (Switzerland)
 ATS platform: own website
-Careers link: https://www.epfl.ch/about/working/working-at-epfl/job-openings/
+Careers link: https://www.epfl.ch/about/working/page-26457-en-html/
 
 No bulk info adapter applies to this school -- fetch_detail(url) below
 visits each posting page individually and is THIS SCHOOL'S OWN detail-page
@@ -39,7 +39,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1753
 SCHOOL_NAME = 'EPFL'
-CAREERS_LINK = 'https://www.epfl.ch/about/working/working-at-epfl/job-openings/'
+CAREERS_LINK = 'https://www.epfl.ch/about/working/page-26457-en-html/'
 ATS_PLATFORM = 'own website'
 USE_LLM = False  # set True once you have ANTHROPIC_API_KEY configured
 
@@ -47,8 +47,17 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(HERE, '..', 'school_job_posts_code', f'sc
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 
-def fetch_detail(url):
+def _fetch_detail_base(url):
     return jinfo.fetch_detail_generic(url)
+
+
+def fetch_detail(url):
+    """A listed position whose page is gone comes back as "Page not found"; it is an error, not a job."""
+    import re
+    title, text = _fetch_detail_base(url)
+    if re.match(r'(?i)page not found', title or ''):
+        raise RuntimeError('position page not found (removed)')
+    return title, text
 
 
 def main():

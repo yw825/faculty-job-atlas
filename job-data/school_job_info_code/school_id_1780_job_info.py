@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1780 - University of New England (Australia)
 ATS platform: own website
-Careers link: https://www.une.edu.au/jobs-at-une/current
+Careers link: https://www.une.edu.au/jobs-at-une/current-vacancies
 
 No bulk info adapter applies to this school -- fetch_detail(url) below
 visits each posting page individually and is THIS SCHOOL'S OWN detail-page
@@ -11,8 +11,7 @@ need something the default doesn't handle (a click to reveal full text, a
 login wall, a non-obvious title element, etc.); nothing here affects any
 other school's script.
 
-Default: render the page, take the first heading (or <title>) as the job
-title and the page's visible text as the description.
+TUNED: the vacancy page needs the list's form state (a bare request is a 500); title and row come from the vacancy list.
 
 Reads posting URLs from school_id_1780_job_postings.checkpoint (this
 school's job_postings run) and classifies each one (position_type,
@@ -48,7 +47,21 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint
 
 
 def fetch_detail(url):
-    return jinfo.fetch_detail_generic(url)
+    """Title from the vacancy list (WK8127$APP.QueryList), where each vacancy
+    is an anchor carrying its reference number."""
+    import re
+    from bs4 import BeautifulSoup
+    ref = re.search(r'P_VACANCY_REF_NO=(\d+)', url).group(1)
+    status, html = jinfo.jlib.fetch_static('https://hr.une.edu.au/ords/concept_ords/WK8127$APP.QueryList?Z_ORDER_BY=1', timeout=40)
+    if status != 200:
+        raise RuntimeError(f'vacancy list status={status}')
+    for a in BeautifulSoup(html, 'html.parser').find_all('a', href=re.compile(r'P_VACANCY_REF_NO=' + ref + r'\b')):
+        title = a.get_text(' ', strip=True)
+        row = a.find_parent('tr')
+        text = re.sub(r'\s+', ' ', row.get_text(' ', strip=True)) if row else title
+        if title:
+            return title[:250], f'{title}. University of New England. Reference {ref}. {text}'
+    raise RuntimeError('vacancy no longer listed')
 
 
 def main():

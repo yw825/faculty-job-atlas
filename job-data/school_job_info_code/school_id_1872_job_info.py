@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1872 - Sheffield Hallam University (United Kingdom)
 ATS platform: own website
-Careers link: https://www.jobs.ac.uk/search/?keywords=Sheffield%20Hallam%20University
+Careers link: https://my.corehr.com/pls/shurecruit/erq_search_package.search_form?p_company=1&p_internal_external=E
 
 No bulk info adapter applies to this school -- fetch_detail(url) below
 visits each posting page individually and is THIS SCHOOL'S OWN detail-page
@@ -11,8 +11,7 @@ need something the default doesn't handle (a click to reveal full text, a
 login wall, a non-obvious title element, etc.); nothing here affects any
 other school's script.
 
-Default: render the page, take the first heading (or <title>) as the job
-title and the page's visible text as the description.
+TUNED: CoreHR job page via jinfo.fetch_detail_corehr; title falls back to the results row.
 
 Reads posting URLs from school_id_1872_job_postings.checkpoint (this
 school's job_postings run) and classifies each one (position_type,
@@ -39,7 +38,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1872
 SCHOOL_NAME = 'Sheffield Hallam University'
-CAREERS_LINK = 'https://www.jobs.ac.uk/search/?keywords=Sheffield%20Hallam%20University'
+CAREERS_LINK = 'https://my.corehr.com/pls/shurecruit/erq_search_package.search_form?p_company=1&p_internal_external=E'
 ATS_PLATFORM = 'own website'
 USE_LLM = False  # set True once you have ANTHROPIC_API_KEY configured
 
@@ -48,7 +47,10 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint
 
 
 def fetch_detail(url):
-    return jinfo.fetch_detail_generic(url)
+    title, description = jinfo.fetch_detail_corehr(url)
+    if not title:
+        title = dict(jinfo.jlib.corehr_search(CAREERS_LINK)).get(url, '')
+    return title, description
 
 
 def main():

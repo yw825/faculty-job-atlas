@@ -17,6 +17,14 @@ Posting URLs are of the form:
 
 Writes school_job_posts/school_id_1774_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1774_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+UCL's job search page is a Lumesse TalentLink widget behind a bot wall
+(the bundled browser gets a block page); the widget's own data service is
+read with its public guest login (lib.talentlink_jobs). A posting is the
+search page's details URL with ?jobId=<id> (the jobTitle parameter in the
+audit's example is decorative).
+UCL School of Management faculty posts on Interfolio are added.
 """
 import os
 import re
@@ -32,58 +40,20 @@ SCHOOL_NAME = 'University College London'
 CAREERS_LINK = 'https://www.ucl.ac.uk/work-at-ucl/search-ucl-jobs'
 ATS_PLATFORM = 'own website'
 
+TALENTLINK = ('emea5-foc.lumessetalentlink.com', 'Q1KFK026203F3VBQBLO8M8M07', '52', 'https://www.ucl.ac.uk/')
+JOB_URL = 'https://www.ucl.ac.uk/work-at-ucl/search-ucl-jobs/details?jobId={id}'
+
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 JOB_ID_RE = re.compile(r'href="([^"]*details\?jobId=\d+[^"]*)"')
 
 
 def find_links():
-    b = lib.get_browser()
-    if b is None:
-        raise RuntimeError('playwright unavailable')
-
-    page = b.new_page(user_agent=lib.UA)
-    try:
-        page.goto(CAREERS_LINK, timeout=25000, wait_until='domcontentloaded')
-        page.wait_for_timeout(2000)
-        try:
-            page.get_by_text('Accept all cookies', exact=False).first.click(timeout=3000)
-        except Exception:
-            pass
-        page.wait_for_timeout(3000)
-        try:
-            page.get_by_text('Search', exact=True).first.click(timeout=3000)
-        except Exception:
-            pass
-        page.wait_for_timeout(3000)
-
-        for _ in range(30):
-            try:
-                btn = page.get_by_text('Show more results', exact=False)
-                if btn.count() == 0:
-                    break
-                btn.first.click(timeout=3000)
-                page.wait_for_timeout(1500)
-            except Exception:
-                break
-
-        html = page.content()
-    finally:
-        page.close()
-
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-
-    links = []
-    seen = set()
-    for href in JOB_ID_RE.findall(html):
-        href = unescape(href)
-        if not href.startswith('http'):
-            href = 'https://www.ucl.ac.uk' + href
-        m = re.search(r'jobId=(\d+)', href)
-        if m and m.group(1) not in seen:
-            seen.add(m.group(1))
-            links.append(href)
+    links = [JOB_URL.format(id=job['id']) for job in lib.talentlink_jobs(*TALENTLINK)]
+    try:  # the School of Management posts its faculty jobs on Interfolio (board 21805)
+        links += lib.scrape_interfolio('https://apply.interfolio.com/21805/positions')
+    except RuntimeError:
+        pass
     return links
 
 

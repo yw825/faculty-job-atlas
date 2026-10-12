@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 1841 - Technological and Higher Education Institute of Hong Kong (Hong Kong)
 ATS platform: own website
-Careers link: https://www.thei.edu.hk/about-thei/career-opportunities
+Careers link: https://thei.edu.hk/career-opportunities/
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -19,6 +19,11 @@ fetch_rendered/fetch_static call and merge the results.
 
 Writes school_job_posts/school_id_1841_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1841_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+THEi's own vacancies are posts on thei.edu.hk/career-opportunities/ whose
+slug carries the reference ("...-ref-o-thei-..."), the form of the audit's
+example; the old scraper kept the parent VTC group's job pages instead.
 """
 import os
 import re
@@ -30,19 +35,17 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1841
 SCHOOL_NAME = 'Technological and Higher Education Institute of Hong Kong'
-CAREERS_LINK = 'https://www.thei.edu.hk/about-thei/career-opportunities'
+CAREERS_LINK = 'https://thei.edu.hk/career-opportunities/'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                              href_pattern=lib.COMMON_JOB_URL_HINTS,
-                              text_pattern=lib.COMMON_JOB_URL_HINTS)
+    status, html = lib.fetch_static(CAREERS_LINK, timeout=40)
+    if status != 200:
+        raise RuntimeError(f'careers status={status}')
+    return list(dict.fromkeys(re.findall(r'href="(https://thei\.edu\.hk/[a-z0-9-]*-ref-[a-z0-9-]+/)"', html)))
 
 
 def main():

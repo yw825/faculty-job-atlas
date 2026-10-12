@@ -47,8 +47,21 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(HERE, '..', 'school_job_posts_code', f'sc
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 
-def fetch_detail(url):
+def _fetch_detail_base(url):
     return jinfo.fetch_detail_generic(url)
+
+
+def fetch_detail(url):
+    """Each area page is headed "Assistant professor positions"; its own name is "Available position: <job> | Chalmers"."""
+    import re
+    title, text = _fetch_detail_base(url)
+    m = re.search(r'^\s*Available position: (.+?) \| Chalmers', text or '')
+    if m and re.match(r'(?i)^assistant professor positions$', (title or '').strip()):
+        title = m.group(1).strip()
+    elif re.match(r'(?i)^assistant professor positions$', (title or '').strip()):
+        area = url.rstrip('/').rsplit('/', 1)[-1].replace('-', ' ').title()
+        title = f'Assistant Professor in {area}'
+    return title, text
 
 
 def main():

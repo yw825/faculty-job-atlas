@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1881 - Leeds Beckett University (United Kingdom)
 ATS platform: own website
-Careers link: https://vacancies.leedsbeckett.ac.uk/ce0984li_webrecruitment/wrd/run/ETREC105GF?USESSION=C59F66C55E2608EA1C843755BE73D602&WVID=7412577lKO&LANG=USA
+Careers link: https://vacancies.leedsbeckett.ac.uk/ce0984li_webrecruitment/wrd/run/ETREC105GF.open?WVID=7412577lKO&LANG=USA
 
 No bulk info adapter applies to this school -- fetch_detail(url) below
 visits each posting page individually and is THIS SCHOOL'S OWN detail-page
@@ -39,7 +39,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1881
 SCHOOL_NAME = 'Leeds Beckett University'
-CAREERS_LINK = 'https://vacancies.leedsbeckett.ac.uk/ce0984li_webrecruitment/wrd/run/ETREC105GF?USESSION=C59F66C55E2608EA1C843755BE73D602&WVID=7412577lKO&LANG=USA'
+CAREERS_LINK = 'https://vacancies.leedsbeckett.ac.uk/ce0984li_webrecruitment/wrd/run/ETREC105GF.open?WVID=7412577lKO&LANG=USA'
 ATS_PLATFORM = 'own website'
 USE_LLM = False  # set True once you have ANTHROPIC_API_KEY configured
 
@@ -47,8 +47,18 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(HERE, '..', 'school_job_posts_code', f'sc
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 
-def fetch_detail(url):
+def _fetch_detail_base(url):
     return jinfo.fetch_detail_generic(url)
+
+
+def fetch_detail(url):
+    """Static pages are headed "Job profile"; the job name stands between the attachments and "Job description"."""
+    import re
+    title, text = _fetch_detail_base(url)
+    m = re.search(r'(?:\.pdf|Attachments)\s+([^.]{3,140}?)\s+Job description', text or '')
+    if m and re.match(r'(?i)job profile', (title or '').strip()):
+        title = m.group(1).strip()
+    return title, text
 
 
 def main():

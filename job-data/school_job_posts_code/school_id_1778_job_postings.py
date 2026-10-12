@@ -19,6 +19,11 @@ fetch_rendered/fetch_static call and merge the results.
 
 Writes school_job_posts/school_id_1778_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1778_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+PageUp board paged by /jobs/search?page=N; pages are walked
+until one adds nothing. Postings are /jobs/<slug>; menu and search links are
+not kept.
 """
 import os
 import re
@@ -37,12 +42,8 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkp
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                              href_pattern=lib.COMMON_JOB_URL_HINTS,
-                              text_pattern=lib.COMMON_JOB_URL_HINTS)
+    return lib.scrape_query_pages('https://jobs.anu.edu.au/jobs/search?page={p}&category_uids%5B%5D=37694d529bb555c68f1e76ddc653d496&query=',
+                                  re.compile(r'jobs\.anu\.edu\.au/jobs/(?!search)[a-z0-9-]+$'))
 
 
 def main():

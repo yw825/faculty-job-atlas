@@ -1368,10 +1368,10 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes,scrap
 1735,Universidade do Porto,Portugal,https://www.up.pt/,https://sigarra.up.pt/up/en/p/recrutamento,own website,high,hand-verified-sync,generic scraper
 1739,ESADE Business School,Spain,https://www.esade.edu/,https://esadefaculty.teamtailor.com/jobs,own website,high,hand-verified-sync,generic scraper
 1740,IESE Business School,Spain,https://www.iese.edu/,https://jobs.iese.edu/,own website,high,hand-verified-sync,generic scraper
-1741,Universitat Politècnica de Catalunya,Spain,https://www.upc.edu/,https://www.upc.edu/en/the-upc/the-institution/jobs-at-the-upc,own website,high,hand-verified-sync,generic scraper
-1742,Universitat Pompeu Fabra,Spain,https://www.upf.edu/,https://www.academicjobs.com/universitat-pompeu-fabra-jobs,own website,high,hand-verified-sync,generic scraper
-1743,Universitat de Barcelona,Spain,https://www.ub.edu/,https://www.academicjobs.com/universitat-de-barcelona-jobs,own website,high,hand-verified-sync,generic scraper
-1744,IE University,Spain,https://www.ie.edu/,https://careers-ieedu.icims.com/jobs/search?ss=1,iCIMS,high,OK-2hop:OK:10,adapter built
+1741,Universitat Politècnica de Catalunya,Spain,https://www.upc.edu/,https://treballa.upc.edu/ca/convocatories-de-concursos,own website,high,hand-verified-sync,generic scraper
+1742,Universitat Pompeu Fabra,Spain,https://www.upf.edu/,https://www.upf.edu/en/web/politiques/ofertes-de-treball,own website,high,hand-verified-sync,generic scraper
+1743,Universitat de Barcelona,Spain,https://www.ub.edu/,https://seu.ub.edu/ofertaPublicaCategoriaPublic/categories,own website,high,hand-verified-sync,generic scraper
+1744,IE University,Spain,https://www.ie.edu/,https://apply.interfolio.com/36317/positions,iCIMS,high,OK-2hop:OK:10,adapter built
 1745,Universidad Autónoma de Madrid,Spain,https://www.uam.es/,https://www.uam.es/uam/en/investigacion/ofertas-empleo,own website,high,hand-verified-sync,generic scraper
 1746,Universidad Complutense de Madrid,Spain,https://www.ucm.es/,https://www.ucm.es/empleo-ucm,own website,high,hand-verified-sync,generic scraper
 1747,Chalmers University of Technology,Sweden,https://www.chalmers.se/,https://www.chalmers.se/en/about-chalmers/work-with-us/assistant-professor-positions/,own website,high,hand-verified-sync,generic scraper
@@ -1380,7 +1380,7 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes,scrap
 1750,Stockholm School of Economics,Sweden,https://www.hhs.se/,https://jobs.hhs.se/job-vacancies,own website,high,hand-verified-sync,generic scraper
 1751,Uppsala University,Sweden,https://www.uu.se/,https://www.uu.se/en/about-uu/join-us/jobs-and-vacancies,own website,high,hand-verified-sync,generic scraper
 1752,University of Geneva,Switzerland,https://www.unige.ch/,https://jobs.unige.ch/www/wd_portal.search_results?p_web_site_id=1&p_category_id=1&p_show_results=Y&p_form_type=CHECKBOX&p1=51&p1_val=Any&p2=46&p2_val=Any&p_text=,own website,high,hand-verified-sync,generic scraper
-1753,EPFL,Switzerland,https://www.epfl.ch/,https://www.epfl.ch/about/working/working-at-epfl/job-openings/,own website,high,hand-verified-sync,generic scraper
+1753,EPFL,Switzerland,https://www.epfl.ch/,https://www.epfl.ch/about/working/page-26457-en-html/,own website,high,hand-verified-sync,generic scraper
 1754,University of Lausanne,Switzerland,https://www.unil.ch/,https://career5.successfactors.eu/career?company=universitdP&career_ns=job_listing_summary&navBarLevel=JOB_SEARCH&_s.crb=PsccOVQ6GYtc2oETUbXzVmM3LAk%3d,SAP SuccessFactors,high,hand-verified-sync,generic scraper (verified working)
 1755,University of St. Gallen,Switzerland,https://www.unisg.ch/,https://www.unisg.ch/en/university/working-at-hsg/jobs/,own website,high,hand-verified-sync,generic scraper
 1756,ETH Zurich,Switzerland,https://www.ethz.ch/,https://ethz.ch/en/the-eth-zurich/working-teaching-and-research/faculty/faculty-affairs/ausgeschriebene-professuren.html,own website,high,hand-verified-sync,generic scraper
@@ -1389,8 +1389,8 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes,scrap
 1764,University of Bristol,United Kingdom,https://www.bristol.ac.uk/,https://www.bristol.ac.uk/jobs/find/,own website,,,generic scraper
 1765,University of Cambridge,United Kingdom,https://www.cam.ac.uk/,https://www.cam.ac.uk/jobs/search,own website,,,generic scraper
 1766,University of Warwick,United Kingdom,https://www.warwick.ac.uk/,https://warwick-careers.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/user-11595/xf-287774c8e052/candidate/jobboard/vacancy/3/adv/,own website,,,generic scraper
-1767,University of Edinburgh,United Kingdom,https://www.ed.ac.uk/,https://www.jobs.ac.uk/search/?keywords=University%20of%20Edinburgh,own website,,,generic scraper
-1768,University of Glasgow,United Kingdom,https://www.gla.ac.uk/,https://www.jobs.gla.ac.uk/jobs?source=google.com,own website,,,generic scraper
+1767,University of Edinburgh,United Kingdom,https://www.ed.ac.uk/,https://elxw.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs?mode=location,own website,,,generic scraper
+1768,University of Glasgow,United Kingdom,https://www.gla.ac.uk/,https://www.jobs.gla.ac.uk/jobs,own website,,,generic scraper
 1769,University of Leeds,United Kingdom,https://www.leeds.ac.uk/,https://jobs.leeds.ac.uk/vacancies.aspx?cat=200,own website,,,generic scraper
 1770,Imperial College London,United Kingdom,https://www.imperial.ac.uk/,https://www.imperial.ac.uk/jobs/search-jobs/?,own website,,,generic scraper
 1771,King's College London,United Kingdom,https://www.kcl.ac.uk/,https://www.kcl.ac.uk/jobs/search?term=,own website,,,generic scraper
@@ -1398,7 +1398,7 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes,scrap
 1773,London School of Economics and Political Science,United Kingdom,https://www.lse.ac.uk/,https://jobs.lse.ac.uk/V2/Vacancy/Index?enc=HRIqN026cS+vCbCYvrmuUlRuC79/39yknYl6JyVFAq0mun48UhH8QAr+8i5zlZ1Iopg1CFFQVvSCOnD76tE5697cs+NZYbkYpVmUd+mthuk=,own website,,,generic scraper
 1774,University College London,United Kingdom,https://www.ucl.ac.uk/,https://www.ucl.ac.uk/work-at-ucl/search-ucl-jobs,own website,,,generic scraper
 1775,University of Manchester,United Kingdom,https://www.manchester.ac.uk/,https://www.jobs.manchester.ac.uk/Home/Job,own website,,,generic scraper
-1776,University of Oxford,United Kingdom,https://www.ox.ac.uk/,https://my.corehr.com/pls/uoxrecruit/erq_search_version_4.start_search_with_params?p_company=10&p_internal_external=E&p_display_in_irish=N&p_competition_type=AC&p_force_type=E,CoreHR,,,"blocked (CAPTCHA/WAF, confirmed)"
+1776,University of Oxford,United Kingdom,https://www.ox.ac.uk/,https://my.corehr.com/pls/uoxrecruit/erq_search_package.search_form?p_company=10&p_internal_external=E,CoreHR,,,"blocked (CAPTCHA/WAF, confirmed)"
 1777,University of St Andrews,United Kingdom,https://www.st-andrews.ac.uk/,https://www.vacancies.st-andrews.ac.uk/V2/Vacancy/Index?enc=HRIqN026cS+vCbCYvrmuUlRuC79/39yknYl6JyVFAq0mun48UhH8QAr+8i5zlZ1Iopg1CFFQVvSCOnD76tE5697cs+NZYbkYpVmUd+mthuk=,own website,,,generic scraper
 1778,Australian National University,Australia,https://www.anu.edu.au/,https://jobs.anu.edu.au/jobs/search?page=1&category_uids%5B%5D=37694d529bb555c68f1e76ddc653d496&query=,own website,high,OK-2hop:OK:6,generic scraper
 1779,University of Canberra,Australia,https://www.canberra.edu.au/,https://uctalent.canberra.edu.au/cw/en/listing.html,own website,,,generic scraper
@@ -1414,10 +1414,10 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes,scrap
 1789,University of New South Wales,Australia,https://www.unsw.edu.au/,https://external-careers.jobs.unsw.edu.au/,own website,,,generic scraper
 1790,University of Sydney,Australia,https://www.sydney.edu.au/,https://usyd.wd105.myworkdayjobs.com/USYD_EXTERNAL_CAREER_SITE/jobs,Workday,high,OK-2hop:OK:8 [playwright],adapter built
 1791,University of Technology Sydney,Australia,https://www.uts.edu.au/,https://recruitment.uts.edu.au/OA_HTML/OA.jsp?OAFunc=IRC_VIS_HOME_NEW_JOBS&_ti=620357091&oapc=2&oas=1N5G4mzcqWkf6lkmKhbEMw..,own website,,,generic scraper
-1792,Western Sydney University,Australia,https://www.westernsydney.edu.au/,https://www.westernsydney.edu.au/careers/jobs,own website,high,OK-2hop:OK:7,generic scraper
+1792,Western Sydney University,Australia,https://www.westernsydney.edu.au/,https://careers.westernsydney.edu.au/jobs,own website,high,OK-2hop:OK:7,generic scraper
 1793,University of Wollongong,Australia,https://www.uow.edu.au/,https://ejgl.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOW/jobs,Oracle Cloud HCM,,,generic scraper
-1794,Charles Darwin University,Australia,https://www.cdu.edu.au/,https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/OrganisationManagement/JobBoardEnquiry?f=%24ORG.REC.EXJOBB.ENQ&h=P4qJOSCldv&t=1B453F2F&suite=CES&pagekey=20260902210555,own website,,,generic scraper
-1796,Griffith University,Australia,https://www.griffith.edu.au/,https://jobs.smartrecruiters.com/GriffithUniversity/careers,SmartRecruiters,,,generic scraper
+1794,Charles Darwin University,Australia,https://www.cdu.edu.au/,https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES,own website,,,generic scraper
+1796,Griffith University,Australia,https://www.griffith.edu.au/,https://www.griffith.edu.au/jobs/search-jobs,SmartRecruiters,,,generic scraper
 1797,Queensland University of Technology,Australia,https://www.qut.edu.au/,https://qut.nga.net.au/cp/index.cfm?event=jobs.listJobs&jobListid=73e3bb51-1aa7-db29-2ea3-52af99b4f747,PageUp/NGA,,,"blocked (CAPTCHA/WAF, confirmed)"
 1798,University of Queensland,Australia,https://www.uq.edu.au/,https://uq.wd3.myworkdayjobs.com/uqcareers,Workday,,,adapter built
 1799,Bond University,Australia,https://www.bond.edu.au/,https://bond.edu.au/our-university/careers-at-bond/jobs-at-bond,own website,,,generic scraper
@@ -1457,11 +1457,10 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes,scrap
 1834,Hong Kong Baptist University,Hong Kong,https://www.hkbu.edu.hk/,https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/requisitions,Oracle Cloud HCM,high,Linked from HRO employment opportunities page (hro.hkbu.edu.hk),adapter built
 1835,Hong Kong Chu Hai College,Hong Kong,https://www.chuhai.edu.hk/,https://www.chuhai.edu.hk/en/page/jobs?id=b9f07df8-bc36-430a-91ea-b8f196e36f18,own website,high,Direct careers page listing open-rank academic and dean positions,generic scraper
 1836,Hong Kong Metropolitan University,Hong Kong,https://www.hkmu.edu.hk/,https://hkmu.taleo.net/careersection/ex_full_time/jobsearch.ftl?lang=en&portal=101430233,Taleo,,,generic scraper (verified working)
-1837,Hong Kong Nang Yan College of Higher Education,Hong Kong,https://www.ny.edu.hk/,,,,,
 1838,Hong Kong Shue Yan University,Hong Kong,https://www.hksyu.edu/,https://www.hksyu.edu/en/snippets/external-vacancy,own website,high,External Vacancies page,generic scraper
 1839,Lingnan University,Hong Kong,https://www.ln.edu.hk/,https://lingnan.csod.com/ux/ats/careersite/4/home?c=lingnan&cfdd[0][id]=151&cfdd[0][options][0]=101,Cornerstone OnDemand,high,CSOD careersite linked from ln.edu.hk/job-vacancies (Lingnan-60 Global Talent Recruitment),adapter built
 1840,Saint Francis University,Hong Kong,https://www.sfu.edu.hk/,https://www.sfu.edu.hk/en/career/academic-teaching-positions/index.html,own website,high,Academic/Teaching Positions page,generic scraper
-1841,Technological and Higher Education Institute of Hong Kong,Hong Kong,https://www.thei.edu.hk/,https://www.thei.edu.hk/about-thei/career-opportunities,own website,high,Career Opportunities page listing Teaching and Academic Posts,generic scraper
+1841,Technological and Higher Education Institute of Hong Kong,Hong Kong,https://www.thei.edu.hk/,https://thei.edu.hk/career-opportunities/,own website,high,Career Opportunities page listing Teaching and Academic Posts,generic scraper
 1842,The Chinese University of Hong Kong,Hong Kong,https://www.cuhk.edu.hk/,https://cuhk.taleo.net/careersection/cu_career_teach/jobsearch.ftl?lang=en&portal=10115020119,Taleo,high,"Professoriate, Teaching & Research Academic Posts search portal (career.cuhk.edu.hk redirects to HRO page linking here)",generic scraper (verified working)
 1843,The Hang Seng University of Hong Kong,Hong Kong,https://www.hsu.edu.hk/,https://www.hsu.edu.hk/en/job-opportunities/,own website,high,Job Openings page,generic scraper
 1844,The Hong Kong Polytechnic University,Hong Kong,https://www.polyu.edu.hk/,https://jobs.polyu.edu.hk/academic.php,own website,high,"Academic/Teaching/Clinical Posts listing, linked from polyu.edu.hk/hro/careers external advertisements hub",generic scraper
@@ -1490,16 +1489,16 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes,scrap
 1868,Wrexham University,United Kingdom,https://www.wrexham.ac.uk/,https://jobs.wrexham.ac.uk/vacancies.aspx,own website,,,generic scraper
 1869,Aston University,United Kingdom,https://www.aston.ac.uk/,https://jobs.aston.ac.uk/vacancies.aspx?cat=-1,own website,,,generic scraper
 1870,Coventry University,United Kingdom,https://www.coventry.ac.uk/,https://cugcareers.coventry.ac.uk/search/?createNewAlert=false&q=&optionsFacetsDD_department=Academic&optionsFacetsDD_customfield1=&optionsFacetsDD_location=&_gl=1*4rwdec*_up*MQ..*_ga*OTEyMDYwNzk3LjE3ODc5NTQwMjM.*_ga_7VZC8X705P*czE3ODc5NTQwMjIkbzEkZzAkdDE3ODc5NTQwMjIkajYwJGwwJGgw*_ga_LJPXFS1LDK*czE3ODc5NTQwMjIkbzEkZzAkdDE3ODc5NTQwMjIkajYwJGwwJGgw*_ga_2LG4LME95N*czE3ODc5NTQwMjIkbzEkZzAkdDE3ODc5NTQwMjIkajYwJGwwJGgxODY2NTQ2OTQz,own website,,,generic scraper
-1871,Nottingham Trent University,United Kingdom,https://www.ntu.ac.uk/,https://www.jobs.ac.uk/search/?keywords=Nottingham%20Trent%20University,own website,,,generic scraper
-1872,Sheffield Hallam University,United Kingdom,https://www.shu.ac.uk/,https://www.jobs.ac.uk/search/?keywords=Sheffield%20Hallam%20University,own website,,,generic scraper
+1871,Nottingham Trent University,United Kingdom,https://www.ntu.ac.uk/,https://vacancies.ntu.ac.uk/Home/Job,own website,,,generic scraper
+1872,Sheffield Hallam University,United Kingdom,https://www.shu.ac.uk/,https://my.corehr.com/pls/shurecruit/erq_search_package.search_form?p_company=1&p_internal_external=E,own website,,,generic scraper
 1874,Northumbria University,United Kingdom,https://www.northumbria.ac.uk/,https://work4.northumbria.ac.uk/#en/sites/CX_1001/jobs,Oracle Cloud HCM,,,generic scraper
-1875,De Montfort University,United Kingdom,https://www.dmu.ac.uk/,https://www.jobs.ac.uk/search/?keywords=De%20Montfort%20University,own website,,,generic scraper
-1876,Oxford Brookes University,United Kingdom,https://www.brookes.ac.uk/,https://my.corehr.com/pls/oburecruit/erq_search_version_4.start_search_with_params,CoreHR,,,"blocked (CAPTCHA/WAF, confirmed)"
+1875,De Montfort University,United Kingdom,https://www.dmu.ac.uk/,https://careers.dmu.ac.uk/search/?q=&searchResultView=LIST,own website,,,generic scraper
+1876,Oxford Brookes University,United Kingdom,https://www.brookes.ac.uk/,https://my.corehr.com/pls/oburecruit/erq_search_package.search_form?p_company=1&p_internal_external=E,CoreHR,,,"blocked (CAPTCHA/WAF, confirmed)"
 1877,Kingston University,United Kingdom,https://www.kingston.ac.uk/,https://jobs.kingston.ac.uk/home.html#filter=p_web_site_id%3D5815%26p_published_to%3DWWW%26p_language%3DDEFAULT%26p_direct%3DY%26p_format%3DMOBILE%26p_include_exclude_from_list%3DN%26p_search%3D,own website,,,generic scraper
 1878,Middlesex University,United Kingdom,https://www.mdx.ac.uk/,https://jobs.mdx.ac.uk/vacancies.aspx?cat=200,own website,,,generic scraper
-1879,University of Greenwich,United Kingdom,https://www.gre.ac.uk/,https://jobs.gre.ac.uk/vacancies.aspx?cat=407,own website,,,generic scraper
+1879,University of Greenwich,United Kingdom,https://www.gre.ac.uk/,https://jobs.gre.ac.uk/vacancies.aspx?cat=-1,own website,,,generic scraper
 1880,Manchester Metropolitan University,United Kingdom,https://www.mmu.ac.uk/,https://manmetjobs.mmu.ac.uk/jobs/vacancy/find/results/,own website,,,generic scraper
-1881,Leeds Beckett University,United Kingdom,https://www.leedsbeckett.ac.uk/,https://vacancies.leedsbeckett.ac.uk/ce0984li_webrecruitment/wrd/run/ETREC105GF?USESSION=C59F66C55E2608EA1C843755BE73D602&WVID=7412577lKO&LANG=USA,own website,,,generic scraper
+1881,Leeds Beckett University,United Kingdom,https://www.leedsbeckett.ac.uk/,https://vacancies.leedsbeckett.ac.uk/ce0984li_webrecruitment/wrd/run/ETREC105GF.open?WVID=7412577lKO&LANG=USA,own website,,,generic scraper
 1882,University of Sunderland,United Kingdom,https://www.sunderland.ac.uk/,https://jobs.sunderland.ac.uk/vacancies.aspx?cat=all,own website,,,generic scraper
 1883,University of Limerick,Ireland,https://www.ul.ie/,https://my.corehr.com/pls/esbsheulrecruit/erq_search_package.search_form?p_company=1&p_internal_external=E,CoreHR,high,hand-verified-sync,adapter built
 1884,Technological University Dublin,Ireland,https://www.tudublin.ie/,https://my.corehr.com/pls/tudrecruit/erq_search_package.search_form?p_company=1&p_internal_external=E,CoreHR,high,hand-verified-sync,adapter built

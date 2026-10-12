@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1871 - Nottingham Trent University (United Kingdom)
 ATS platform: own website
-Careers link: https://www.jobs.ac.uk/search/?keywords=Nottingham%20Trent%20University
+Careers link: https://vacancies.ntu.ac.uk/Home/Job
 
 No bulk info adapter applies to this school -- fetch_detail(url) below
 visits each posting page individually and is THIS SCHOOL'S OWN detail-page
@@ -39,7 +39,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1871
 SCHOOL_NAME = 'Nottingham Trent University'
-CAREERS_LINK = 'https://www.jobs.ac.uk/search/?keywords=Nottingham%20Trent%20University'
+CAREERS_LINK = 'https://vacancies.ntu.ac.uk/Home/Job'
 ATS_PLATFORM = 'own website'
 USE_LLM = False  # set True once you have ANTHROPIC_API_KEY configured
 
@@ -47,8 +47,18 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(HERE, '..', 'school_job_posts_code', f'sc
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 
-def fetch_detail(url):
+def _fetch_detail_base(url):
     return jinfo.fetch_detail_generic(url)
+
+
+def fetch_detail(url):
+    """The page title is the site name ("... - Job Information | Apply for <job>"); the job name follows "Apply for"."""
+    import re
+    title, text = _fetch_detail_base(url)
+    m = re.search(r'Apply for (.+?) Cookie Policy', text or '')
+    if m and re.match(r'(?i)(the university of manchester|ntu)\b', (title or '').strip()):
+        title = m.group(1).strip()
+    return title, text
 
 
 def main():

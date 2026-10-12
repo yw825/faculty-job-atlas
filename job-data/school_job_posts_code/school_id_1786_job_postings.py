@@ -19,7 +19,14 @@ fetch_rendered/fetch_static call and merge the results.
 
 Writes school_job_posts/school_id_1786_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1786_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+ACU's vacancies page is filled by a JSON service
+(eresponse.acu.edu.au/HRAPIS/api/AcuVacancies); each vacancy opens on the
+Aurion candidate portal as .../career/vacancies/<vacancyKey>/edit, the form
+of the audit's example.
 """
+import json
 import os
 import re
 import sys
@@ -33,16 +40,16 @@ SCHOOL_NAME = 'Australian Catholic University'
 CAREERS_LINK = 'https://www.acu.edu.au/about-acu/careers-at-acu/how-to-apply/job-vacancies'
 ATS_PLATFORM = 'own website'
 
+API = 'https://eresponse.acu.edu.au/HRAPIS/api/AcuVacancies'
+
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                              href_pattern=lib.COMMON_JOB_URL_HINTS,
-                              text_pattern=lib.COMMON_JOB_URL_HINTS)
+    status, text = lib.fetch_static(API, timeout=40)
+    if status != 200:
+        raise RuntimeError(f'ACU vacancies status={status}')
+    return [f"https://candidate.aurion.cloud/acu/production/career/vacancies/{v['vacancyKey']}/edit" for v in json.loads(text)]
 
 
 def main():

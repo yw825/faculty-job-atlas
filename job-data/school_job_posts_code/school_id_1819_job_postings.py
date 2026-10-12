@@ -19,6 +19,11 @@ fetch_rendered/fetch_static call and merge the results.
 
 Writes school_job_posts/school_id_1819_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1819_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Curtin's vacancies page is a JobAdder widget; its list feed
+(apps.jobadder.com/widgets/V1/Jobs/RenderJobList, JSONP) is read with
+jobsPerPage=200. A posting is the page's own ?ja-job=<id> link.
 """
 import os
 import re
@@ -33,16 +38,17 @@ SCHOOL_NAME = 'Curtin University'
 CAREERS_LINK = 'https://staff.curtin.edu.au/job-vacancies/'
 ATS_PLATFORM = 'own website'
 
+JOBADDER_KEY = 'AU6_klpob7rbkadenmkicx2r7fya7a'
+
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                              href_pattern=lib.COMMON_JOB_URL_HINTS,
-                              text_pattern=lib.COMMON_JOB_URL_HINTS)
+    status, text = lib.fetch_static(f'https://apps.jobadder.com/widgets/V1/Jobs/RenderJobList?callback=cb&key={JOBADDER_KEY}&jobsPerPage=200', timeout=40)
+    if status != 200:
+        raise RuntimeError(f'JobAdder list status={status}')
+    ids = list(dict.fromkeys(re.findall(r'data-job-id=\\?"(\d+)', text)))
+    return [f'https://staff.curtin.edu.au/job-vacancies/?ja-job={i}' for i in ids]
 
 
 def main():

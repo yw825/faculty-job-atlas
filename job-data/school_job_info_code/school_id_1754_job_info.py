@@ -47,8 +47,19 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(HERE, '..', 'school_job_posts_code', f'sc
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 
-def fetch_detail(url):
+def _fetch_detail_base(url):
     return jinfo.fetch_detail_generic(url)
+
+
+def fetch_detail(url):
+    """Classic SuccessFactors pages title a job "Career Opportunities: <job>";
+    the prefix is dropped, and the sign-in page is an error, not a job."""
+    import re
+    title, text = _fetch_detail_base(url)
+    title = re.sub(r'^Career Opportunities:\s*', '', title or '').strip()
+    if re.match(r'(?i)sign in$', title) or not title:
+        raise RuntimeError('posting opened the sign-in page')
+    return title, text
 
 
 def main():

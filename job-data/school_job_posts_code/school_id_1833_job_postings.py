@@ -14,6 +14,9 @@ scopes strictly to the section with id="academic".
 
 Writes school_job_posts/school_id_1833_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1833_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Kept: vacancy pages /abouthkct/join-us/<code> only.
 """
 import os
 import re
@@ -31,7 +34,7 @@ ATS_PLATFORM = 'own website'
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
-def find_links():
+def _page_links():
     html = lib.fetch_rendered(CAREERS_LINK)
     if lib.is_fetch_failure(html):
         raise RuntimeError(html)
@@ -50,6 +53,14 @@ def find_links():
             seen.add(full)
             links.append(full)
     return links
+
+
+POSTING_RE = re.compile(r'hkct\.edu\.hk/(?:en/)?abouthkct/join-us/[A-Za-z0-9-]+$')
+
+
+def find_links():
+    """Only real postings, not the page's menus, share buttons or sign-in links."""
+    return list(dict.fromkeys(u for u in _page_links() if POSTING_RE.search(u)))
 
 
 def main():

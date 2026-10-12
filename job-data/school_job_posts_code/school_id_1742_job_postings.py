@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 1742 - Universitat Pompeu Fabra (Spain)
 ATS platform: own website
-Careers link: https://www.academicjobs.com/universitat-pompeu-fabra-jobs
+Careers link: https://www.upf.edu/en/web/politiques/ofertes-de-treball
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -19,6 +19,13 @@ fetch_rendered/fetch_static call and merge the results.
 
 Writes school_job_posts/school_id_1742_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1742_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+The audit's corrected link is the job-offers page of UPF's Department of
+Political and Social Sciences (posts .../asset_publisher/<key>/content/<slug>);
+UPF's faculty and research positions across departments are posted on
+Interfolio (board 40362, ~100 postings), which is read too. The old
+academicjobs.com aggregator link returned nothing.
 """
 import os
 import re
@@ -30,19 +37,26 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1742
 SCHOOL_NAME = 'Universitat Pompeu Fabra'
-CAREERS_LINK = 'https://www.academicjobs.com/universitat-pompeu-fabra-jobs'
+CAREERS_LINK = 'https://www.upf.edu/en/web/politiques/ofertes-de-treball'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                              href_pattern=lib.COMMON_JOB_URL_HINTS,
-                              text_pattern=lib.COMMON_JOB_URL_HINTS)
+    links = []
+    status, html = lib.fetch_static(CAREERS_LINK, timeout=40)
+    if status == 200:
+        for href in re.findall(r'href="([^"]*/ofertes-de-treball/-/asset_publisher/[^"?]+/content/[^"?]+)', html):
+            url = href if href.startswith('http') else 'https://www.upf.edu' + href
+            if url not in links:
+                links.append(url)
+    try:
+        links += [u for u in lib.scrape_interfolio('https://apply.interfolio.com/40362/positions') if u not in links]
+    except RuntimeError:
+        if not links:
+            raise
+    return links
 
 
 def main():

@@ -19,6 +19,12 @@ fetch_rendered/fetch_static call and merge the results.
 
 Writes school_job_posts/school_id_1845_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1845_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+HKUST's academic-careers page links two systems: PeopleSoft postings
+(HRS_CE ... JobOpeningId=<n>) and Interfolio (apply.interfolio.com/<n>, the
+audit's example). The page shows only part of the Interfolio jobs, so the
+whole Interfolio board (21935) is read as well; menu links are dropped.
 """
 import os
 import re
@@ -37,12 +43,18 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkp
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
+    html = lib.fetch_rendered(CAREERS_LINK, wait_ms=5000)
     if lib.is_fetch_failure(html):
         raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                              href_pattern=lib.COMMON_JOB_URL_HINTS,
-                              text_pattern=lib.COMMON_JOB_URL_HINTS)
+    links = []
+    for href in re.findall(r'href="([^"]+)"', html):
+        href = href.replace('&amp;', '&')
+        if re.search(r'JobOpeningId=\d+|apply\.interfolio\.com/\d+$', href) and href not in links:
+            links.append(href)
+    for url in lib.scrape_interfolio('https://apply.interfolio.com/21935/positions'):
+        if url not in links:
+            links.append(url)
+    return links
 
 
 def main():

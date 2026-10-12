@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 1753 - EPFL (Switzerland)
 ATS platform: own website
-Careers link: https://www.epfl.ch/about/working/working-at-epfl/job-openings/
+Careers link: https://www.epfl.ch/about/working/page-26457-en-html/
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -19,6 +19,10 @@ fetch_rendered/fetch_static call and merge the results.
 
 Writes school_job_posts/school_id_1753_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1753_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Careers link corrected in the audit to EPFL's faculty-positions page, which
+links each open call as /about/working/faculty-position(s)-in-<field>/.
 """
 import os
 import re
@@ -30,19 +34,17 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1753
 SCHOOL_NAME = 'EPFL'
-CAREERS_LINK = 'https://www.epfl.ch/about/working/working-at-epfl/job-openings/'
+CAREERS_LINK = 'https://www.epfl.ch/about/working/page-26457-en-html/'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                              href_pattern=lib.COMMON_JOB_URL_HINTS,
-                              text_pattern=lib.COMMON_JOB_URL_HINTS)
+    status, html = lib.fetch_static(CAREERS_LINK, timeout=40)
+    if status != 200:
+        raise RuntimeError(f'faculty positions status={status}')
+    return list(dict.fromkeys(re.findall(r'href="(https://www\.epfl\.ch/about/working/faculty-positions?-in-[a-z0-9-]+/)"', html)))
 
 
 def main():

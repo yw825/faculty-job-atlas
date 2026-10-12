@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1743 - Universitat de Barcelona (Spain)
 ATS platform: own website
-Careers link: https://www.academicjobs.com/universitat-de-barcelona-jobs
+Careers link: https://seu.ub.edu/ofertaPublicaCategoriaPublic/categories
 
 No bulk info adapter applies to this school -- fetch_detail(url) below
 visits each posting page individually and is THIS SCHOOL'S OWN detail-page
@@ -11,8 +11,7 @@ need something the default doesn't handle (a click to reveal full text, a
 login wall, a non-obvious title element, etc.); nothing here affects any
 other school's script.
 
-Default: render the page, take the first heading (or <title>) as the job
-title and the page's visible text as the description.
+TUNED: title from the calls list (Catalan), text from the call's page.
 
 Reads posting URLs from school_id_1743_job_postings.checkpoint (this
 school's job_postings run) and classifies each one (position_type,
@@ -39,16 +38,39 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1743
 SCHOOL_NAME = 'Universitat de Barcelona'
-CAREERS_LINK = 'https://www.academicjobs.com/universitat-de-barcelona-jobs'
+CAREERS_LINK = 'https://seu.ub.edu/ofertaPublicaCategoriaPublic/categories'
 ATS_PLATFORM = 'own website'
 USE_LLM = False  # set True once you have ANTHROPIC_API_KEY configured
+
+_TITLES = {}
 
 JOB_POSTINGS_CHECKPOINT = os.path.join(HERE, '..', 'school_job_posts_code', f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 
 def fetch_detail(url):
-    return jinfo.fetch_detail_generic(url)
+    """The call page lists its published documents; the call's name comes
+    from the calls list."""
+    import importlib.util
+    import re
+    from bs4 import BeautifulSoup
+    if not _TITLES:
+        path = os.path.join(HERE, '..', 'school_job_posts_code', f'school_id_{SCHOOL_ID}_job_postings.py')
+        spec = importlib.util.spec_from_file_location('ub_postings', path)
+        mod = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(mod)
+        _TITLES.update(dict(mod.open_calls()))
+    status, html = jinfo.jlib.fetch_static(url, timeout=40)
+    if status != 200:
+        raise RuntimeError(f'call page status={status}')
+    soup = BeautifulSoup(html, 'html.parser')
+    main = soup.find(id='contingut') or soup.find('main') or soup
+    for tag in main(['script', 'style', 'nav', 'header', 'footer']):
+        tag.decompose()
+    title = _TITLES.get(url, '')
+    if not title:
+        raise RuntimeError('call no longer open')
+    return title[:250], (title + '. ' + re.sub(r'\s+', ' ', main.get_text(' ', strip=True)))[:20000]
 
 
 def main():

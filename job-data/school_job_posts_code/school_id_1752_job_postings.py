@@ -19,6 +19,10 @@ fetch_rendered/fetch_static call and merge the results.
 
 Writes school_job_posts/school_id_1752_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1752_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+The search results show 10 per page (p_start=1,11,21,...); postings are wd_portal.show_job?...p_web_page_id=<n>
+(not the view_blob attachments).
 """
 import os
 import re
@@ -37,12 +41,23 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkp
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                              href_pattern=lib.COMMON_JOB_URL_HINTS,
-                              text_pattern=lib.COMMON_JOB_URL_HINTS)
+    # Pages after the first only answer inside the session (cookie) that
+    # loaded page 1; a fresh request gets an empty redirect stub.
+    session = lib.requests.Session()
+    session.headers.update({'User-Agent': lib.UA})
+    ids = []
+    for start in range(1, 2000, 10):
+        url = CAREERS_LINK if start == 1 else f'{CAREERS_LINK}&p_start={start}&p_order_by='
+        r = session.get(url, headers={'Referer': CAREERS_LINK}, timeout=40)
+        if r.status_code != 200:
+            if start == 1:
+                raise RuntimeError(f'search status={r.status_code}')
+            break
+        new = [i for i in dict.fromkeys(re.findall(r'wd_portal\.show_job\?p_web_site_id=1&(?:amp;)?p_web_page_id=(\d+)', r.text)) if i not in ids]
+        if not new:
+            break
+        ids += new
+    return [f'https://jobs.unige.ch/www/wd_portal.show_job?p_web_site_id=1&p_web_page_id={i}' for i in ids]
 
 
 def main():

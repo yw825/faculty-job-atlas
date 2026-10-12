@@ -19,6 +19,10 @@ fetch_rendered/fetch_static call and merge the results.
 
 Writes school_job_posts/school_id_1775_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1775_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+The jobs page loads its cards 12 at a time from /Home/_JobCard?Skip=N as you
+scroll; the cards are fetched directly until a page adds nothing.
 """
 import os
 import re
@@ -37,12 +41,19 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkp
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                              href_pattern=lib.COMMON_JOB_URL_HINTS,
-                              text_pattern=lib.COMMON_JOB_URL_HINTS)
+    host = re.match(r'https?://[^/]+', CAREERS_LINK).group(0)
+    ids = []
+    for skip in range(0, 2400, 12):
+        status, html = lib.fetch_static(f'{host}/Home/_JobCard?Skip={skip}', timeout=40)
+        if status != 200:
+            if skip == 0:
+                raise RuntimeError(f'job cards status={status}')
+            break
+        new = list(dict.fromkeys(i for i in re.findall(r'JobDetail\?JobId=(\d+)', html) if i not in ids))
+        if not new:
+            break
+        ids += new
+    return [f'{host}/Job/JobDetail?JobId={i}' for i in ids]
 
 
 def main():

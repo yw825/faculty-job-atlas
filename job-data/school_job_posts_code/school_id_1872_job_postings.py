@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 1872 - Sheffield Hallam University (United Kingdom)
 ATS platform: own website
-Careers link: https://www.jobs.ac.uk/search/?keywords=Sheffield%20Hallam%20University
+Careers link: https://my.corehr.com/pls/shurecruit/erq_search_package.search_form?p_company=1&p_internal_external=E
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -19,6 +19,11 @@ fetch_rendered/fetch_static call and merge the results.
 
 Writes school_job_posts/school_id_1872_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1872_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+CoreHR board: the search form is POSTed and its "Next" form followed in one
+session (lib.corehr_search), as for the Irish universities. Postings are the
+public erq_jobspec_version_4.jobspec?p_id=<id> stubs.
 """
 import os
 import re
@@ -30,19 +35,14 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1872
 SCHOOL_NAME = 'Sheffield Hallam University'
-CAREERS_LINK = 'https://www.jobs.ac.uk/search/?keywords=Sheffield%20Hallam%20University'
+CAREERS_LINK = 'https://my.corehr.com/pls/shurecruit/erq_search_package.search_form?p_company=1&p_internal_external=E'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                              href_pattern=lib.COMMON_JOB_URL_HINTS,
-                              text_pattern=lib.COMMON_JOB_URL_HINTS)
+    return [url for url, _title in lib.corehr_search(CAREERS_LINK)]
 
 
 def main():

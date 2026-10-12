@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1794 - Charles Darwin University (Australia)
 ATS platform: own website
-Careers link: https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/OrganisationManagement/JobBoardEnquiry?f=%24ORG.REC.EXJOBB.ENQ&h=g8S08OtlKn&t=1B3F7FAD&suite=CES&pagekey=20260829135729
+Careers link: https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES
 
 No bulk info adapter applies to this school -- fetch_detail(url) below
 visits each posting page individually and is THIS SCHOOL'S OWN detail-page
@@ -11,8 +11,7 @@ need something the default doesn't handle (a click to reveal full text, a
 login wall, a non-obvious title element, etc.); nothing here affects any
 other school's script.
 
-Default: render the page, take the first heading (or <title>) as the job
-title and the page's visible text as the description.
+TUNED: a posting is a row (#<title slug>) of the job table; read from the row.
 
 Reads posting URLs from school_id_1794_job_postings.checkpoint (this
 school's job_postings run) and classifies each one (position_type,
@@ -39,16 +38,32 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1794
 SCHOOL_NAME = 'Charles Darwin University'
-CAREERS_LINK = 'https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/OrganisationManagement/JobBoardEnquiry?f=%24ORG.REC.EXJOBB.ENQ&h=g8S08OtlKn&t=1B3F7FAD&suite=CES&pagekey=20260829135729'
+CAREERS_LINK = 'https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES'
 ATS_PLATFORM = 'own website'
 USE_LLM = False  # set True once you have ANTHROPIC_API_KEY configured
+
+_ROWS = {}
 
 JOB_POSTINGS_CHECKPOINT = os.path.join(HERE, '..', 'school_job_posts_code', f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 
 def fetch_detail(url):
-    return jinfo.fetch_detail_generic(url)
+    """Title and employee type from the job's row on the board (the
+    advertisement panel is not available to guests)."""
+    import importlib.util
+    if not _ROWS:
+        path = os.path.join(HERE, '..', 'school_job_posts_code', f'school_id_{SCHOOL_ID}_job_postings.py')
+        spec = importlib.util.spec_from_file_location('cdu_postings', path)
+        mod = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(mod)
+        for slug, title, kind in mod.board_rows():
+            _ROWS[slug] = (title, kind)
+    slug = url.rsplit('#', 1)[-1]
+    if slug not in _ROWS:
+        raise RuntimeError('job no longer on the board')
+    title, kind = _ROWS[slug]
+    return title[:250], f'{title}. Charles Darwin University. Employment type: {kind}.'
 
 
 def main():

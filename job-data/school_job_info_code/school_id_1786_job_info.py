@@ -11,8 +11,7 @@ need something the default doesn't handle (a click to reveal full text, a
 login wall, a non-obvious title element, etc.); nothing here affects any
 other school's script.
 
-Default: render the page, take the first heading (or <title>) as the job
-title and the page's visible text as the description.
+TUNED: read from ACU's vacancy JSON service (title, unit, closing date, synopsis).
 
 Reads posting URLs from school_id_1786_job_postings.checkpoint (this
 school's job_postings run) and classifies each one (position_type,
@@ -48,7 +47,31 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint
 
 
 def fetch_detail(url):
-    return jinfo.fetch_detail_generic(url)
+    """The Aurion portal page needs a sign-up; the vacancy's record in ACU's
+    own JSON service has the title, organisation unit, location, closing
+    date ("13-OCT-2026") and synopsis."""
+    import datetime
+    import json
+    import re
+    from bs4 import BeautifulSoup
+    key = url.rstrip('/').split('/')[-2]
+    status, text = jinfo.jlib.fetch_static('https://eresponse.acu.edu.au/HRAPIS/api/AcuVacancies', timeout=40)
+    if status != 200:
+        raise RuntimeError(f'ACU vacancies status={status}')
+    v = next((x for x in json.loads(text) if x.get('vacancyKey') == key), None)
+    if v is None:
+        raise RuntimeError('vacancy no longer listed')
+    lead = []
+    try:
+        lead.append('Closing Date: ' + datetime.datetime.strptime(v.get('closingDate') or '', '%d-%b-%Y').strftime('%d/%m/%Y'))
+    except ValueError:
+        pass
+    if v.get('organisationUnit'):
+        lead.append(f"Department: {v['organisationUnit']}")
+    if v.get('location'):
+        lead.append(f"Location: {v['location']}")
+    body = BeautifulSoup(v.get('synopsis') or '', 'html.parser').get_text(' ', strip=True)
+    return (v.get('positionTitle') or '').strip()[:250], re.sub(r'\s+', ' ', ' '.join(lead) + ' ' + body)[:20000]
 
 
 def main():

@@ -47,8 +47,25 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(HERE, '..', 'school_job_posts_code', f'sc
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 
-def fetch_detail(url):
+def _fetch_detail_base(url):
     return jinfo.fetch_detail_generic(url)
+
+
+def fetch_detail(url):
+    """Interfolio postings are read through the Interfolio reader."""
+    import re
+    if 'apply.interfolio.com' in url:
+        return jinfo.fetch_detail_interfolio(url)
+    if '/psp/' in url:  # PeopleSoft: the /psp/ wrapper renders nothing; /psc/ is the content page
+        html = jinfo.jlib.fetch_rendered(url.replace('/psp/', '/psc/'), wait_ms=9000)
+        from bs4 import BeautifulSoup
+        text = re.sub(r'\s+', ' ', BeautifulSoup(html or '', 'html.parser').get_text(' ', strip=True))
+        m = re.search(r'Job Description (.+?) Job Title:', text)
+        if not m:
+            raise RuntimeError('PeopleSoft posting did not load')
+        return m.group(1).strip()[:250], text[:20000]
+    title, text = _fetch_detail_base(url)
+    return title, text
 
 
 def main():
