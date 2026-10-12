@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 237 - Warner University (US)
 ATS platform: own website
-Careers link: https://warner.edu/offices/human-resources/careers/
+Careers link: https://www.paycomonline.net/v4/ats/web.php/portal/16D5A72295BEEA4BBF29A0DA73DAF892/career-page
 
 Reads posting URLs from school_id_237_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 237
 SCHOOL_NAME = 'Warner University'
-CAREERS_LINK = 'https://warner.edu/offices/human-resources/careers/'
+CAREERS_LINK = 'https://www.paycomonline.net/v4/ats/web.php/portal/16D5A72295BEEA4BBF29A0DA73DAF892/career-page'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

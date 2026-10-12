@@ -33,18 +33,38 @@ CAREERS_LINK = 'https://search.careers.fiu.edu/?role=employee&sort=newest'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 
+_JOBS = {}
+
 JOB_POSTINGS_CHECKPOINT = os.path.join(
     HERE, '..', 'school_job_posts_code', f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """This school's own detail-page logic, owned by this file. The default
-    renders the page, picks the most job-title-shaped heading, and takes the
-    visible text as the description. Override when a posting page needs
-    something else -- a nested iframe, a cookie gate, a PDF, or a title that
-    only exists in <title> (all of which came up in the non-US set)."""
-    return jinfo.fetch_detail_generic(url)
-
+    """The posting's record in search.careers.fiu.edu/api/jobs (fetched once
+    per run): title, business unit, department, job family, description."""
+    import json
+    import re
+    from bs4 import BeautifulSoup
+    if not _JOBS:
+        status, text = jinfo.jlib.fetch_static('https://search.careers.fiu.edu/api/jobs', timeout=60)
+        if status != 200:
+            raise RuntimeError(f'FIU jobs service status={status}')
+        for j in json.loads(text)['JOB_POSTINGS']:
+            _JOBS[str(j.get('JOB_OPENING_ID'))] = j
+    m = re.search(r'JobOpeningId=(\d+)', url)
+    job = _JOBS.get(m.group(1)) if m else None
+    if job is None:
+        raise RuntimeError('posting no longer listed')
+    lead = []
+    if job.get('OPEN_DT'):
+        lead.append(f"Posted Date: {job['OPEN_DT'][:10]}")
+    if job.get('DEPARTMENT'):
+        lead.append(f"Department: {job['DEPARTMENT']}")
+    for key, label in (('BUSINESS_UNIT', 'College'), ('JOB_FAMILY', 'Job family'), ('LOCATION', 'Location')):
+        if job.get(key):
+            lead.append(f'{label}: {job[key]}')
+    body = BeautifulSoup(job.get('DESCRIPTION') or '', 'html.parser').get_text(' ', strip=True)
+    return (job.get('POSTING_TITLE') or '').strip()[:250], re.sub(r'\s+', ' ', ' '.join(lead) + ' ' + body)[:20000]
 
 
 def main():

@@ -20,7 +20,14 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_247_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_247_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+FIU's job search page loads every posting from its own JSON service
+(search.careers.fiu.edu/api/jobs, ~790 postings); the page shows 12 and
+"Show more" buttons. A posting is the service's public URL
+(pslinks.fiu.edu ... JobOpeningId=<n>).
 """
+import json
 import os
 import re
 import sys
@@ -38,12 +45,10 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkp
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    status, text = lib.fetch_static('https://search.careers.fiu.edu/api/jobs', timeout=60)
+    if status != 200:
+        raise RuntimeError(f'FIU jobs service status={status}')
+    return list(dict.fromkeys(j['URL'] for j in json.loads(text)['JOB_POSTINGS'] if j.get('URL')))
 
 
 def main():

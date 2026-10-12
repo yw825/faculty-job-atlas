@@ -1,5 +1,5 @@
 """
-Job info scraper for school_id 162 - University of Colorado Boulder (US)
+Job info scraper for school_id 162 - University of Colorado-Boulder (US)
 ATS platform: own website
 Careers link: https://jobs.colorado.edu/jobs/SearchJobs/?6110=13216702&6110_format=2267&listFilterMode=1
 
@@ -28,7 +28,7 @@ sys.path.insert(0, os.path.dirname(HERE))
 import job_info_lib as jinfo
 
 SCHOOL_ID = 162
-SCHOOL_NAME = 'University of Colorado Boulder'
+SCHOOL_NAME = 'University of Colorado-Boulder'
 CAREERS_LINK = 'https://jobs.colorado.edu/jobs/SearchJobs/?6110=13216702&6110_format=2267&listFilterMode=1'
 ATS_PLATFORM = 'own website'
 USE_LLM = False

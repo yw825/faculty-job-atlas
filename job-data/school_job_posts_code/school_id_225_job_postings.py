@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 225 - Stetson University (US)
 ATS platform: own website
-Careers link: https://www.stetson.edu/administration/human-resources/job-opportunities.php
+Careers link: https://www.schooljobs.com/careers/stetson/delandfaculty
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -20,6 +20,10 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_225_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_225_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+The board is paged by ?page=N (the plain page is an empty 202, so it is
+rendered); pages are walked until one adds nothing and only postings are kept.
 """
 import os
 import re
@@ -31,7 +35,7 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 225
 SCHOOL_NAME = 'Stetson University'
-CAREERS_LINK = 'https://www.schooljobs.com/careers/stetson'
+CAREERS_LINK = 'https://www.schooljobs.com/careers/stetson/delandfaculty'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
@@ -40,9 +44,13 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkp
 PLATFORM = 'schooljobs'
 
 
+def find_links():
+    return [u.split('?')[0] for u in lib.scrape_query_pages('https://www.schooljobs.com/careers/stetson/delandfaculty?page={p}',
+                                                           re.compile(r'/careers/stetson/(?:[A-Za-z]+/)?jobs/\d+'), render=True)]
+
+
 def main():
-    result = lib.run_platform_school(SCHOOL_ID, SCHOOL_NAME, CAREERS_LINK,
-                                     CHECKPOINT_PATH, platform=PLATFORM)
+    result = lib.run_checkpointed(SCHOOL_ID, CHECKPOINT_PATH, find_links)
     err = result.get('last_error', '')
     print(f"{SCHOOL_NAME} (id={SCHOOL_ID}): status={result['status']} "
           f"links={len(result['links'])}" + (f" ERROR: {err}" if err else ''))

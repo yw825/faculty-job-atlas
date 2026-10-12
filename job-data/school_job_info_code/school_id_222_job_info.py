@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 222 - University of Miami (US)
 ATS platform: own website
-Careers link: https://careers.miami.edu/
+Careers link: https://careers.miami.edu/us/en/c/faculty-jobs
 
 Reads posting URLs from school_id_222_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 222
 SCHOOL_NAME = 'University of Miami'
-CAREERS_LINK = 'https://careers.miami.edu/'
+CAREERS_LINK = 'https://careers.miami.edu/us/en/c/faculty-jobs'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

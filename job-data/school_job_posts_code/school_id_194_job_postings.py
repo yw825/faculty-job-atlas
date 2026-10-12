@@ -1,30 +1,19 @@
 """
 Job postings scraper for school_id 194 - University of Connecticut-Stamford (US)
-ATS platform: own website
-Careers link: https://jobs.hr.uconn.edu/mob/en-us/listing/
+Careers link: https://jobs.hr.uconn.edu/en-us/filter/?search-keyword=&location=UConn%20Stamford
 
-No shared ATS platform adapter applies to this school -- find_links() below
-is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
-directly to fix or improve results for University of Connecticut-Stamford; nothing here affects any
-other school's script.
-
-Link check (ok): 7 posting-shaped links found -- rendered.
-
-NOTE: 2 schools list against this same URL, so this listing carries every one of their postings, not just this school's: University of Connecticut-Waterbury Campus.
-
-Starting point (not a tuned answer): fetch the careers page with JS
-rendered, then keep every link whose href or visible text looks
-job/vacancy/posting-shaped (job_postings_lib.COMMON_JOB_URL_HINTS). If that
-under- or over-collects, narrow the pattern to this site's real posting URL
-shape (the single most common fix -- a generic filter also matches a site's
-own navigation), add a click/scroll step via fetch_rendered's `actions`
-argument, or follow pagination with a second fetch and merge the results.
+TUNED FIND_LINKS
+One of the University of Connecticut campuses: UConn has a single PageUp
+board (jobs.hr.uconn.edu) with a "location" filter, and each campus has its
+own school_id (Storrs, Avery Point, Stamford, Waterbury, Hartford,
+Farmington/UConn Health; there is no general "University of Connecticut"
+entry). This campus takes its filter values -- see lib.UCONN_CAMPUS; Storrs
+takes every value no other campus claims. A posting is /en-us/job/<id>/<slug>.
 
 Writes school_job_posts/school_id_194_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_194_job_postings.checkpoint next to this script.
 """
 import os
-import re
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -33,19 +22,15 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 194
 SCHOOL_NAME = 'University of Connecticut-Stamford'
-CAREERS_LINK = 'https://jobs.hr.uconn.edu/mob/en-us/listing/'
-ATS_PLATFORM = 'own website'
+CAREERS_LINK = 'https://jobs.hr.uconn.edu/en-us/filter/?search-keyword=&location=UConn%20Stamford'
+ATS_PLATFORM = 'PageUp'
+CAMPUS = 'stamford'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    return lib.scrape_uconn_campus(CAMPUS)
 
 
 def main():

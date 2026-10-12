@@ -20,6 +20,10 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_200_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_200_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+The job-opportunities page embeds newhaven.hrmdirect.com in a frame; its
+list (job-openings.php) is read directly. Postings are job-opening.php?req=<n>.
 """
 import os
 import re
@@ -34,16 +38,16 @@ SCHOOL_NAME = 'University of New Haven'
 CAREERS_LINK = 'https://www.newhaven.edu:443/about/employment/job-opportunities/index.php'
 ATS_PLATFORM = 'own website'
 
+BOARD = 'https://newhaven.hrmdirect.com/employment/'
+
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    status, html = lib.fetch_static(BOARD + 'job-openings.php?sort=td&search=true&nohd=&dept=-1&city=-1&state=-1', timeout=40)
+    if status != 200:
+        raise RuntimeError(f'job openings status={status}')
+    return [f'{BOARD}job-opening.php?req={r}&&#job' for r in dict.fromkeys(re.findall(r'job-opening\.php\?req=(\d+)', html))]
 
 
 def main():

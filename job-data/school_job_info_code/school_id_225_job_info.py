@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 225 - Stetson University (US)
 ATS platform: own website
-Careers link: https://www.stetson.edu/administration/human-resources/job-opportunities.php
+Careers link: https://www.schooljobs.com/careers/stetson/delandfaculty
 
 Reads posting URLs from school_id_225_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 225
 SCHOOL_NAME = 'Stetson University'
-CAREERS_LINK = 'https://www.schooljobs.com/careers/stetson'
+CAREERS_LINK = 'https://www.schooljobs.com/careers/stetson/delandfaculty'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 198 - University of Hartford (US)
 ATS platform: PeopleAdmin
-Careers link: https://hartford.peopleadmin.com/
+Careers link: https://hartford.peopleadmin.com/postings/search?utf8=%E2%9C%93&query=&query_v0_posted_at_date=&query_position_type_id%5B%5D=3&query_position_type_id%5B%5D=4&435=&commit=Search
 
 Reads posting URLs from school_id_198_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 198
 SCHOOL_NAME = 'University of Hartford'
-CAREERS_LINK = 'https://hartford.peopleadmin.com/'
+CAREERS_LINK = 'https://hartford.peopleadmin.com/postings/search?utf8=%E2%9C%93&query=&query_v0_posted_at_date=&query_position_type_id%5B%5D=3&query_position_type_id%5B%5D=4&435=&commit=Search'
 ATS_PLATFORM = 'PeopleAdmin'
 USE_LLM = False
 

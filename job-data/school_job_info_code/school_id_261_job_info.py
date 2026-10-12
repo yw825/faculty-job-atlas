@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 261 - Florida State University (US)
 ATS platform: own website
-Careers link: https://hr.fsu.edu/working-fsu/prospective-employees/faculty-careers
+Careers link: https://jobs.omni.fsu.edu/psc/sprdhr_er/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_SCHJOB_FL&Action=U
 
 Reads posting URLs from school_id_261_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 261
 SCHOOL_NAME = 'Florida State University'
-CAREERS_LINK = 'https://hr.fsu.edu/working-fsu/prospective-employees/faculty-careers'
+CAREERS_LINK = 'https://jobs.omni.fsu.edu/psc/sprdhr_er/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_SCHJOB_FL&Action=U'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 
@@ -38,13 +38,17 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """This school's own detail-page logic, owned by this file. The default
-    renders the page, picks the most job-title-shaped heading, and takes the
-    visible text as the description. Override when a posting page needs
-    something else -- a nested iframe, a cookie gate, a PDF, or a title that
-    only exists in <title> (all of which came up in the non-US set)."""
-    return jinfo.fetch_detail_generic(url)
-
+    """Rendered job page: "... Previous Job Job Title <title> Next Job Apply for Job Job ID <n> ..."."""
+    import re
+    from bs4 import BeautifulSoup
+    html = jinfo.jlib.fetch_rendered(url, wait_ms=8000)
+    if not html or jinfo.jlib.is_fetch_failure(html):
+        raise RuntimeError(html or 'page did not render')
+    text = re.sub(r'\s+', ' ', BeautifulSoup(html, 'html.parser').get_text(' ', strip=True))
+    m = re.search(r'Job Title\s+(.+?)\s+(?:Next Job|Apply for Job)', text) or re.search(r'Previous Job\s+(.+?)\s+(?:Next Job|Apply for Job)', text)
+    if not m:
+        raise RuntimeError('job description not shown (closed?)')
+    return m.group(1).strip()[:250], text[text.find(m.group(1)):][:20000]
 
 
 def main():

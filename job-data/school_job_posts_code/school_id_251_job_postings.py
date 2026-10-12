@@ -20,6 +20,11 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_251_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_251_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+stu.edu/jobs frames the university's Paycom portal; the old scraper resolved
+the portal's relative job links against stu.edu, which gave 404 pages. The
+Paycom portal is read directly with the shared adapter.
 """
 import os
 import re
@@ -38,9 +43,7 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkp
 
 
 def find_links():
-    """CUSTOMIZED: postings here carry no job word in the link, so they are
-    found by URL shape instead of by keyword."""
-    return lib.scrape_structural(CAREERS_LINK)
+    return lib.PLATFORM_ADAPTERS['paycom']('https://www.paycomonline.net/v4/ats/web.php/portal/36B3F450786FDD30DEED3E70ECBB75B9/career-page', SCHOOL_NAME)
 
 
 def main():

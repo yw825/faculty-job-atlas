@@ -1,12 +1,21 @@
 """
-Job postings scraper for school_id 168 - University of Colorado Denver/Anschutz Medical Campus
-ATS platform: own website
-Careers link: https://jobs.colorado.edu/jobs/SearchJobs
+Job postings scraper for school_id 168 - University of Colorado-Denver (US)
+Careers link: https://cu.taleo.net/careersection/2/moresearch.ftl?lang=en
 
-The CU system Taleo board has no per-job URLs; Boulder's board does.
+TUNED FIND_LINKS
+One of the University of Colorado campuses on the CU system Taleo board
+(cu.taleo.net): Anschutz Medical Campus (Aurora), Denver and Colorado
+Springs share it, each with its own school_id; CU Boulder (162) has its own
+site. This campus's postings are the board's jobs located in its city, plus
+"Multiple Locations"/"Hybrid" jobs whose text opens with the campus name
+(lib.scrape_cu_campus). Until 2026-10-12 ids 165 and 168 read
+jobs.colorado.edu, which is Boulder's board, so they listed Boulder's jobs.
+A posting is jobdetail.ftl?job=<job number>.
+
+Writes school_job_posts/school_id_168_job_posts.csv (school_id, post_link).
+Checkpointed to school_id_168_job_postings.checkpoint next to this script.
 """
 import os
-import re
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -14,38 +23,16 @@ sys.path.insert(0, os.path.dirname(HERE))
 import job_postings_lib as lib
 
 SCHOOL_ID = 168
-SCHOOL_NAME = 'University of Colorado Denver/Anschutz Medical Campus'
-CAREERS_LINK = 'https://jobs.colorado.edu/jobs/SearchJobs'
-ATS_PLATFORM = 'own website'
+SCHOOL_NAME = 'University of Colorado-Denver'
+CAREERS_LINK = 'https://cu.taleo.net/careersection/2/moresearch.ftl?lang=en'
+ATS_PLATFORM = 'Taleo (CU system)'
+CAMPUS = 'denver'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
-# cu.taleo.net keeps the requisition in session state: clicking a row lands on
-# a bare jobdetail.ftl with no ?job= parameter, so there is no per-job URL to
-# store. Boulder's own board does have them, and covers the CU campuses.
-LISTING = 'https://jobs.colorado.edu/jobs/SearchJobs/?jobOffset={offset}'
-PAGE_SIZE = 25
-MAX_PAGES = 30
-POSTING = re.compile(r'/jobs/JobDetail/[A-Za-z0-9][A-Za-z0-9%\-]{4,90}/\d+')
-
-
 def find_links():
-    seen, links = set(), []
-    for page in range(MAX_PAGES):
-        status, body = lib.fetch_static(LISTING.format(offset=page * PAGE_SIZE))
-        if status != 200 or not body:
-            break
-        found = [f'https://jobs.colorado.edu{p}' for p in POSTING.findall(body)]
-        fresh = [u for u in found if u not in seen]
-        if not fresh:
-            break
-        for u in fresh:
-            seen.add(u)
-            links.append(u)
-    if not links:
-        raise RuntimeError('colorado listing returned no postings')
-    return links
+    return lib.scrape_cu_campus(CAMPUS)
 
 
 def main():

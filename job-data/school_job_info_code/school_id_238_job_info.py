@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 238 - Florida Southern College (US)
 ATS platform: own website
-Careers link: http://www.guestservices.com/our-people/careers/
+Careers link: https://portal.flsouthern.edu/ICS/Employment_App/
 
 Reads posting URLs from school_id_238_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 238
 SCHOOL_NAME = 'Florida Southern College'
-CAREERS_LINK = 'http://www.guestservices.com/our-people/careers/'
+CAREERS_LINK = 'https://portal.flsouthern.edu/ICS/Employment_App/'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

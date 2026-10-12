@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 240 - University of Fort Lauderdale (US)
 ATS platform: own website
-Careers link: https://uftlathletics.com/sports/2021/6/23/recruiting-questionnaire.aspx
+Careers link: https://uftl.edu/career-center/
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -20,6 +20,11 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_240_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_240_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Careers link corrected in the audit to the career-center page, where each
+opening is a bold <h2> heading followed by its text; a job has no URL, so
+each is stored as the page URL + "#<title slug>" (lib.accordion_items).
 """
 import os
 import re
@@ -31,19 +36,14 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 240
 SCHOOL_NAME = 'University of Fort Lauderdale'
-CAREERS_LINK = 'https://uftl.edu/careers'
+CAREERS_LINK = 'https://uftl.edu/career-center/'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    return [f'{CAREERS_LINK}#{slug}' for slug, _t, _b in lib.accordion_items(CAREERS_LINK, 'h2:has(> b)', min_body=40)]
 
 
 def main():

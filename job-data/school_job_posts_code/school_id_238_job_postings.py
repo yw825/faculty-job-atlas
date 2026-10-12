@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 238 - Florida Southern College (US)
 ATS platform: own website
-Careers link: http://www.guestservices.com/our-people/careers/
+Careers link: https://portal.flsouthern.edu/ICS/Employment_App/
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -20,6 +20,13 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_238_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_238_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Careers link corrected in the audit to the Jenzabar portal's Employment
+App. Its positions grid is filled by an ASP.NET postback that an automated
+visit does not get (the page shows only the portal chrome), and positions
+have no URL of their own. Until that is solved nothing is collected, rather
+than storing the portal's menu links as jobs (UNRESOLVED 2026-10-12).
 """
 import os
 import re
@@ -31,19 +38,17 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 238
 SCHOOL_NAME = 'Florida Southern College'
-CAREERS_LINK = 'http://www.guestservices.com/our-people/careers/'
+CAREERS_LINK = 'https://portal.flsouthern.edu/ICS/Employment_App/'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
+    html = lib.fetch_rendered(CAREERS_LINK, wait_ms=6000)
     if lib.is_fetch_failure(html):
         raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    return []  # see the note above: the positions grid is not reachable
 
 
 def main():

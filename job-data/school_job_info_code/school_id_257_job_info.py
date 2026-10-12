@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 257 - Flagler College (US)
 ATS platform: Oracle Cloud HCM
-Careers link: https://fa-ewbi-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1
+Careers link: https://fa-ewbi-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs?mode=location
 
 Reads posting URLs from school_id_257_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -30,7 +30,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 257
 SCHOOL_NAME = 'Flagler College'
-CAREERS_LINK = 'https://www.flagler.edu/about/office-services/human-resources'
+CAREERS_LINK = 'https://fa-ewbi-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs?mode=location'
 ATS_PLATFORM = 'Oracle Cloud HCM'
 USE_LLM = False
 
@@ -41,9 +41,7 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint
 
 
 def fetch_detail(url):
-    """Generic: careers_link was rediscovered, so the old platform's bulk
-    reader no longer applies."""
-    return jinfo.fetch_detail_generic(url)
+    return jinfo.fetch_detail_oracle_rest(url)
 
 
 def main():

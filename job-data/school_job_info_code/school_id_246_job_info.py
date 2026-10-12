@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 246 - Barry University (US)
 ATS platform: own website
-Careers link: https://www.barry.edu/en/human-resources/
+Careers link: https://barryu.wd5.myworkdayjobs.com/BarryU/jobs
 
 Reads posting URLs from school_id_246_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 246
 SCHOOL_NAME = 'Barry University'
-CAREERS_LINK = 'https://www.barry.edu/en/human-resources/'
+CAREERS_LINK = 'https://barryu.wd5.myworkdayjobs.com/BarryU/jobs'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

@@ -1524,6 +1524,14 @@ def fetch_detail_generic(url):
         from_url = title_from_url(url)
         if from_url:
             return from_url, description
+    # PeopleAdmin titles every posting "<School> Employment Site | <job>" (or
+    # "<School> Portal | <job>"); when the site half was the one picked --
+    # 44 of GWU's 103 postings read "George Washington Employment Site" --
+    # the job half is taken instead.
+    site_job = re.match(r'\s*([^|]{3,80}?)\s*\|\s*(.+?)\s+Skip to Main Content', description[:400])
+    if (site_job and (title or '').strip() == site_job.group(1).strip()
+            and re.search(r'(?i)(employment site|portal|careers|jobs)$', site_job.group(1).strip())):
+        title = site_job.group(2).strip()
     return title, description
 
 

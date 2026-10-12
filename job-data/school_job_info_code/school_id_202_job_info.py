@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 202 - American University (US)
 ATS platform: own website
-Careers link: https://www.american.edu/hr/
+Careers link: https://american.wd1.myworkdayjobs.com/en-US/AU/
 
 Reads posting URLs from school_id_202_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 202
 SCHOOL_NAME = 'American University'
-CAREERS_LINK = 'https://www.american.edu/hr/'
+CAREERS_LINK = 'https://american.wd1.myworkdayjobs.com/en-US/AU/'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

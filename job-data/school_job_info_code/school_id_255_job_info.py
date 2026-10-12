@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 255 - University of West Florida (US)
 ATS platform: own website
-Careers link: https://uwf.edu/careers
+Careers link: https://careers.uwf.edu/faculty
 
 Reads posting URLs from school_id_255_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 255
 SCHOOL_NAME = 'University of West Florida'
-CAREERS_LINK = 'https://uwf.edu/careers'
+CAREERS_LINK = 'https://careers.uwf.edu/faculty'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

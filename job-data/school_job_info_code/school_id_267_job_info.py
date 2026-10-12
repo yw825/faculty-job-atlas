@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 267 - Trinity College of Florida (US)
 ATS platform: own website
-Careers link: https://www.trinitycollege.edu/gainful-employment/
+Careers link: https://www.trinitycollege.edu/careers/
 
 Reads posting URLs from school_id_267_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 267
 SCHOOL_NAME = 'Trinity College of Florida'
-CAREERS_LINK = 'https://www.trinitycollege.edu/gainful-employment/'
+CAREERS_LINK = 'https://www.trinitycollege.edu/careers/'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

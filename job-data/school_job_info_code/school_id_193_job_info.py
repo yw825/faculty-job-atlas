@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 193 - Mitchell College (US)
 ATS platform: own website
-Careers link: https://mitchell.edu/careers/
+Careers link: https://phx.us-west.paycomonline.net/v4/ats/web.php/portal/9458F32E9190B17D00CF93BCC3CDE534/career-page
 
 Reads posting URLs from school_id_193_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 193
 SCHOOL_NAME = 'Mitchell College'
-CAREERS_LINK = 'https://mitchell.edu/careers/'
+CAREERS_LINK = 'https://phx.us-west.paycomonline.net/v4/ats/web.php/portal/9458F32E9190B17D00CF93BCC3CDE534/career-page'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

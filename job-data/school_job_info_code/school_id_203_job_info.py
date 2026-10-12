@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 203 - Gallaudet University (US)
 ATS platform: own website
-Careers link: https://gallaudet.edu/academic-career-success/
+Careers link: https://gallaudet.wd1.myworkdayjobs.com/GUCareers
 
 Reads posting URLs from school_id_203_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 203
 SCHOOL_NAME = 'Gallaudet University'
-CAREERS_LINK = 'https://gallaudet.edu/academic-career-success/'
+CAREERS_LINK = 'https://gallaudet.wd1.myworkdayjobs.com/GUCareers'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 201 - Eastern Connecticut State University (US)
 ATS platform: own website
-Careers link: https://easternctstateuniversity.applytojob.com/apply/Zz4qJq9Kac/Assistant-Professor-Of-Nursing-Tenure-Track
+Careers link: https://easternctstateuniversity.applytojob.com/apply
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -20,6 +20,9 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_201_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_201_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Careers link corrected in the audit to the JazzHR board; postings are /apply/<code>/<slug>.
 """
 import os
 import re
@@ -31,22 +34,17 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 201
 SCHOOL_NAME = 'Eastern Connecticut State University'
-CAREERS_LINK = 'https://easternctstateuniversity.applytojob.com/apply/Zz4qJq9Kac/Assistant-Professor-Of-Nursing-Tenure-Track'
+CAREERS_LINK = 'https://easternctstateuniversity.applytojob.com/apply'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    """CUSTOMIZED: this school writes each opening as a SECTION of its
-    careers page -- there is no per-job link to collect, which is why every
-    link-based scraper returned 0 row(s) against 1 real openings
-    on the page.
-
-    Each section becomes CAREERS_LINK + '#' + a slug of its own heading,
-    and school_id_201_job_info.py resolves that fragment back to the
-    section's text."""
-    return lib.scrape_inline_listing(CAREERS_LINK)
+    status, html = lib.fetch_static(CAREERS_LINK, timeout=40)
+    if status != 200:
+        raise RuntimeError(f'board status={status}')
+    return list(dict.fromkeys(re.findall(r'href="(https://easternctstateuniversity\.applytojob\.com/apply/[A-Za-z0-9]+/[^"?]+)', html)))
 
 
 def main():

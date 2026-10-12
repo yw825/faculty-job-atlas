@@ -38,13 +38,21 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """This school's own detail-page logic, owned by this file. The default
-    renders the page, picks the most job-title-shaped heading, and takes the
-    visible text as the description. Override when a posting page needs
-    something else -- a nested iframe, a cookie gate, a PDF, or a title that
-    only exists in <title> (all of which came up in the non-US set)."""
-    return jinfo.fetch_detail_generic(url)
-
+    """A plain request returns the job ("Position: <title> Location: ..."); a
+    browser load is redirected to the college's careers page, which frames it."""
+    import re
+    from bs4 import BeautifulSoup
+    status, html = jinfo.jlib.fetch_static(url, timeout=40)
+    if status != 200:
+        raise RuntimeError(f'Paycor job status={status}')
+    soup = BeautifulSoup(html, 'html.parser')
+    for tag in soup(['script', 'style']):
+        tag.decompose()
+    text = re.sub(r'\s+', ' ', soup.get_text(' ', strip=True).replace('\xa0', ' '))
+    m = re.search(r'Position:\s*(.+?)\s+Location:', text)
+    if not m:
+        raise RuntimeError('job not shown (closed?)')
+    return m.group(1).strip()[:250], text[:20000]
 
 
 def main():

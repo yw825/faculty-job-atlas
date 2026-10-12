@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 201 - Eastern Connecticut State University (US)
 ATS platform: own website
-Careers link: https://easternctstateuniversity.applytojob.com/apply/Zz4qJq9Kac/Assistant-Professor-Of-Nursing-Tenure-Track
+Careers link: https://easternctstateuniversity.applytojob.com/apply
 
 Reads posting URLs from school_id_201_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 201
 SCHOOL_NAME = 'Eastern Connecticut State University'
-CAREERS_LINK = 'https://easternctstateuniversity.applytojob.com/apply/Zz4qJq9Kac/Assistant-Professor-Of-Nursing-Tenure-Track'
+CAREERS_LINK = 'https://easternctstateuniversity.applytojob.com/apply'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

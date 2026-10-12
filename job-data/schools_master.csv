@@ -99,84 +99,82 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes,scrap
 159,Whittier College,US,https://www.whittier.edu/,https://www.whittier.edu/humanresources/faculty,own website,medium,OK-2hop:OK:3,generic scraper
 160,Adams State University,US,https://www.adams.edu/,https://adams.wd1.myworkdayjobs.com/ASU?jobFamilyGroup=17a14ea6887710013425d08f0be90001,Workday,high,OK-2hop:OK:9,adapter built
 161,Colorado State University Global,US,https://csuglobal.edu/,https://faculty-csuglobal.icims.com/,iCIMS,high,OK-2hop:OK:6,adapter built
-162,University of Colorado Boulder,US,https://www.colorado.edu/,https://jobs.colorado.edu/jobs/SearchJobs/?6110=13216702&6110_format=2267&listFilterMode=1,own website,high,OK-2hop:OK:8,generic scraper
+162,University of Colorado-Boulder,US,https://www.colorado.edu/,https://jobs.colorado.edu/jobs/SearchJobs/?6110=13216702&6110_format=2267&listFilterMode=1,own website,high,OK-2hop:OK:8,generic scraper
 163,Colorado College,US,https://www.coloradocollege.edu/,https://jobs.coloradocollege.edu/jobs/search?page=1&employment_type_uids%5B%5D=af4b3dfad1990996aeb4c3915f93088f&query=,own website,medium,OK-2hop:OK:5,generic scraper
-165,University of Colorado Colorado Springs,US,https://www.uccs.edu/,https://jobs.colorado.edu/jobs/SearchJobs,own website,high,OK-2hop:OK:6,generic scraper (verified working)
+165,University of Colorado-Colorado Springs,US,https://www.uccs.edu/,https://cu.taleo.net/careersection/2/moresearch.ftl?lang=en&location=6300103016&portal=101430233&radius=1&radiusType=K&searchExpanded=true,Taleo (CU system),high,OK-2hop:OK:6,custom scraper (campus filter)
 166,Metropolitan State University of Denver,US,https://www.msudenver.edu/,https://msudenver.wd1.myworkdayjobs.com/MSUDenver?jobFamilyGroup=8d65815eea0f1001bc3bbe0cff1b0000,Workday,high,OK-2hop:OK:8,adapter built
 167,Regis University,US,https://www.regis.edu/,https://regis.wd501.myworkdayjobs.com/en-US/RegisUniversity?workerSubType=fc38a5df8390014dab5ec5517918b909,Workday,high,OK-2hop:OK:8,adapter built
-168,University of Colorado Denver/Anschutz Medical Campus,US,https://www.ucdenver.edu/,https://jobs.colorado.edu/jobs/SearchJobs,own website,high,OK-2hop:OK:9,generic scraper (verified working)
+168,University of Colorado-Denver,US,https://www.ucdenver.edu/,https://cu.taleo.net/careersection/2/moresearch.ftl?lang=en,Taleo (CU system),high,OK-2hop:OK:9,custom scraper (campus filter)
 169,University of Denver,US,https://www.du.edu/,https://jobs.du.edu/en-us/filter/?search=&search-keyword=&work-type=adjunct%20faculty&work-type=faculty%20full-time&job-mail-subscribe-privacy=agree,own website,medium,OK:5,generic scraper
 170,Fort Lewis College,US,https://fortlewis.edu/,https://fortlewiscollege.wd1.myworkdayjobs.com/FLC,Workday,high,OK-2hop:OK:8,adapter built
 171,Colorado State University-Fort Collins,US,https://colostate.edu/,https://csusystem.wd12.myworkdayjobs.com/fortcollins_careers?jobFamilyGroup=c42207b011c11000d2dd549d70320000&locations=c42207b011c11000e4a225433e0b0000,Workday,not_found,playwright_failed:Error,adapter built
 172,Colorado School of Mines,US,https://www.mines.edu/,https://mines.wd1.myworkdayjobs.com/Mines_Careers?jobFamilyGroup=85a299df18611045ecca88cb10a70000,Workday,medium,OK-2hop:OK:5,adapter built
 173,Colorado Mesa University,US,https://www.coloradomesa.edu/,https://coloradomesa.wd501.myworkdayjobs.com/CMUCareers?jobFamilyGroup=b27d1ee81d9410015e55e09cd01e0000,Workday,high,OK-2hop:OK:11,adapter built
 174,University of Northern Colorado,US,https://www.unco.edu/,https://unco.csod.com/ux/ats/careersite/1/home?c=unco,Cornerstone OnDemand,high,OK:8,adapter built
-175,Western Colorado University,US,https://www.western.edu/,https://western.wd1.myworkdayjobs.com/WESTERN?locations=f0acdfc60ce81008f9018ce54da70000&jobFamilyGroup=f0acdfc60ce81008d439787fbb740000,Workday,high,OK-2hop:OK:8,adapter built
+175,Western Colorado University,US,https://www.western.edu/,https://western.wd1.myworkdayjobs.com/WESTERN,Workday,high,OK-2hop:OK:8,adapter built
 178,Colorado State University Pueblo,US,https://www.csupueblo.edu/,https://csusystem.wd12.myworkdayjobs.com/en-US/pueblo_careers?locations=c42207b011c11000e4a22ee1cf1e0000&jobFamilyGroup=c42207b011c11000d2dd549d70320000,Workday,high,OK-2hop:OK:8,adapter built
 179,University of Bridgeport,US,https://www.bridgeport.edu/,https://www.paycomonline.net/v4/ats/web.php/portal/A1640D81A59AFDAFC5501F5B06EF1B08/career-page,Paycom,medium,OK-2hop:OK:3,generic scraper
 180,Western Connecticut State University,US,https://www.wcsu.edu/,http://wcsu.edu/hr/employment/current-opportunities/,own website,medium,OK-2hop:OK:4,generic scraper
 181,Fairfield University,US,https://fairfield.edu/,https://ffd.wd1.myworkdayjobs.com/EmploymentOpportunities?jobFamilyGroup=744fdc6270fe01eb4c7fbb71b6825329,Workday,high,OK-2hop:OK:8,adapter built
 182,Sacred Heart University,US,https://www.sacredheart.edu/,https://jobs.dayforcehcm.com/shu/CANDIDATEPORTAL,own website,medium,OK-2hop:OK:5,generic scraper
-183,University of Connecticut-Avery Point,US,https://averypoint.uconn.edu/,https://jobs.hr.uconn.edu/cw/en-us/filter/?search-keyword=&job-mail-subscribe-privacy=agree,own website,not_found,NO_MATCH [playwright],generic scraper
+183,University of Connecticut-Avery Point,US,https://averypoint.uconn.edu/,https://jobs.hr.uconn.edu/en-us/filter/?search-keyword=&location=UConn%20Avery%20Point,PageUp,not_found,NO_MATCH [playwright],custom scraper (campus filter)
 184,Quinnipiac University,US,https://www.qu.edu/,https://career.qu.edu/en-us/filter/?job-mail-subscribe-privacy=agree&search-keyword=&category=faculty,own website,medium,OK-2hop:OK:5,generic scraper
 185,Trinity College,US,https://www.trincoll.edu/,https://trincore-ibvxjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs,Oracle Cloud HCM,high,OK-2hop:OK:6,adapter built
 186,Wesleyan University,US,https://www.wesleyan.edu/,https://wesleyan.wd5.myworkdayjobs.com/careers?jobFamilyGroup=2f94686d89e0100a36c029ae4aa50000,Workday,high,OK-2hop:OK:8,adapter built
-187,Central Connecticut State University,US,https://www.ccsu.edu/,https://host.pcrecruiter.net/pcrbin/jobboard.aspx?uid=central%20connecticut%20state%20university.centralconnecticutstateuniversity,PCRecruiter,high,repointed 2026-09-29; ccsu.edu HR page embeds the PCRecruiter board in an iframe (pcrframehost.js) so the outer page has 0 jobs -- the old generic filter was matching HR nav pages; board links built with stable &uid= not the expiring &pcr-id= token,generic scraper (verified working)
+187,Central Connecticut State University,US,https://www.ccsu.edu/,https://www.ccsu.edu/hr/administrative/faculty/management,PCRecruiter,high,repointed 2026-09-29; ccsu.edu HR page embeds the PCRecruiter board in an iframe (pcrframehost.js) so the outer page has 0 jobs -- the old generic filter was matching HR nav pages; board links built with stable &uid= not the expiring &pcr-id= token,generic scraper (verified working)
 188,Charter Oak State College,US,https://www.charteroak.edu/,https://www.charteroak.edu/aboutus/employment.php,own website,medium,OK-2hop:OK:2,generic scraper
-189,Albertus Magnus College,US,https://www.albertus.edu/,https://www.albertus.edu/employment/,own website,medium,OK-2hop:OK:2,generic scraper
+189,Albertus Magnus College,US,https://www.albertus.edu/,https://www.paycomonline.net/v4/ats/web.php/portal/0FE17D4AFBB66F4F196ABBBA1DF3DF85/career-page,own website,medium,OK-2hop:OK:2,generic scraper
 190,Southern Connecticut State University,US,https://www.southernct.edu/,https://inside.southernct.edu/human-resources/jobs,own website,medium,OK-2hop:OK:5,generic scraper
 191,Yale University,US,https://www.yale.edu/,https://academicpositions.yale.edu/,own website,medium,OK-2hop:OK:9,generic scraper
 192,Connecticut College,US,https://www.conncoll.edu/,https://conncoll.peopleadmin.com/postings/search?utf8=%E2%9C%93&query=&query_v0_posted_at_date=&query_position_type_id%5B%5D=2&435=&query_organizational_tier_3_id%5B%5D=any&commit=Search,PeopleAdmin,high,OK-2hop:OK:10,adapter built
-193,Mitchell College,US,https://www.mitchell.edu/,https://mitchell.edu/careers/,own website,medium,OK-2hop:OK:2,generic scraper
-194,University of Connecticut-Stamford,US,https://stamford.uconn.edu/,https://jobs.hr.uconn.edu/mob/en-us/listing/,own website,high,NO_MATCH [playwright];hand-verified-sync,generic scraper
-195,University of Connecticut,US,https://uconn.edu/,https://jobs.uconn.edu/,own website,medium,OK-2hop:OK:5,generic scraper
-197,University of Connecticut-Waterbury Campus,US,https://waterbury.uconn.edu/,https://jobs.hr.uconn.edu/mob/en-us/listing/,own website,high,NO_MATCH [playwright];hand-verified-sync,generic scraper
-198,University of Hartford,US,https://www.hartford.edu/,https://hartford.peopleadmin.com/,PeopleAdmin,high,OK-2hop:OK:6,adapter built
-199,University of Saint Joseph,US,https://www.usj.edu/,https://www.usj.edu/academics/health-care-careers/,own website,medium,OK-2hop:OK:2,generic scraper
+193,Mitchell College,US,https://www.mitchell.edu/,https://phx.us-west.paycomonline.net/v4/ats/web.php/portal/9458F32E9190B17D00CF93BCC3CDE534/career-page,own website,medium,OK-2hop:OK:2,generic scraper
+194,University of Connecticut-Stamford,US,https://stamford.uconn.edu/,https://jobs.hr.uconn.edu/en-us/filter/?search-keyword=&location=UConn%20Stamford,PageUp,high,NO_MATCH [playwright];hand-verified-sync,custom scraper (campus filter)
+195,University of Connecticut-Storrs,US,https://uconn.edu/,https://jobs.hr.uconn.edu/en-us/listing/,PageUp,medium,OK-2hop:OK:5,custom scraper (campus filter)
+197,University of Connecticut-Waterbury,US,https://waterbury.uconn.edu/,https://jobs.hr.uconn.edu/en-us/filter/?search-keyword=&location=UConn%20Waterbury,PageUp,high,NO_MATCH [playwright];hand-verified-sync,custom scraper (campus filter)
+198,University of Hartford,US,https://www.hartford.edu/,https://hartford.peopleadmin.com/postings/search?utf8=%E2%9C%93&query=&query_v0_posted_at_date=&query_position_type_id%5B%5D=3&query_position_type_id%5B%5D=4&435=&commit=Search,PeopleAdmin,high,OK-2hop:OK:6,adapter built
+199,University of Saint Joseph,US,https://www.usj.edu/,https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=35a5d7d3-e147-49ce-99d9-63ae0a4ffb39&ccId=19000101_000001&lang=en_US,own website,medium,OK-2hop:OK:2,generic scraper
 200,University of New Haven,US,https://www.newhaven.edu/,https://www.newhaven.edu:443/about/employment/job-opportunities/index.php,own website,medium,OK-2hop:OK:7,generic scraper
-201,Eastern Connecticut State University,US,https://www.easternct.edu/,https://easternctstateuniversity.applytojob.com/apply/Zz4qJq9Kac/Assistant-Professor-Of-Nursing-Tenure-Track,own website,high,OK-2hop:OK:8,generic scraper
-202,American University,US,https://www.american.edu/,https://www.american.edu/hr/,own website,medium,OK:3 [playwright],generic scraper
-203,Gallaudet University,US,https://www.gallaudet.edu/,https://gallaudet.edu/academic-career-success/,own website,medium,OK-2hop:OK:11 [playwright],generic scraper
+201,Eastern Connecticut State University,US,https://www.easternct.edu/,https://easternctstateuniversity.applytojob.com/apply,own website,high,OK-2hop:OK:8,generic scraper
+202,American University,US,https://www.american.edu/,https://american.wd1.myworkdayjobs.com/en-US/AU/,own website,medium,OK:3 [playwright],generic scraper
+203,Gallaudet University,US,https://www.gallaudet.edu/,https://gallaudet.wd1.myworkdayjobs.com/GUCareers,own website,medium,OK-2hop:OK:11 [playwright],generic scraper
 204,George Washington University,US,https://www.gwu.edu/,https://www.gwu.jobs/postings/search,PeopleAdmin,medium,OK-2hop:OK:5,generic scraper
 205,Georgetown University,US,https://www.georgetown.edu/,https://georgetown.wd1.myworkdayjobs.com/Georgetown_Admin_Careers,Workday,high,OK-2hop:OK:6 [playwright],adapter built
 209,Trinity Washington University,US,https://www.trinitydc.edu/,https://www2.trinitydc.edu/hr/employment-openings/,own website,medium,OK-2hop:OK:4,generic scraper
 213,Wilmington University,US,https://www.wilmu.edu/,https://phh.tbe.taleo.net/phh02/ats/careers/v2/searchResults?org=WILMU&cws=60,Taleo,high,OK-2hop:OK:13,generic scraper (verified working)
-214,University of Delaware,US,https://www.udel.edu/,https://www.udel.edu/apply/career-outcomes/,own website,medium,OK-2hop:OK:2,generic scraper
+214,University of Delaware,US,https://www.udel.edu/,https://careers.udel.edu/cw/en-us/listing/,own website,medium,OK-2hop:OK:2,generic scraper
 215,Goldey-Beacom College,US,https://www.gbc.edu/,https://www.paycomonline.net/v4/ats/web.php/portal/019DF7F6E271614BAB2785B88C6A379F/career-page,Paycom,medium,OK-2hop:OK:11,generic scraper
 217,Ave Maria University,US,https://www.avemaria.edu/,https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=70cb71c1-96f8-4956-8cce-ce625b0b2943&ccId=19000101_000001&type=JS&lang=en_US,ADP,high,OK:9,adapter built
 218,Webber International University,US,https://www.webber.edu/,https://www.webber.edu/jobs-at-webber/,own website,medium,OK-2hop:OK:2,generic scraper
-219,Everglades University,US,https://www.evergladesuniversity.edu/,https://www.evergladesuniversity.edu/employment-opportunities/,own website,medium,OK-2hop:OK:3 [playwright],generic scraper
-220,Florida Atlantic University,US,https://www.fau.edu/,https://www.fau.edu/jobs/,own website,medium,OK-2hop:OK:2,generic scraper
-221,Lynn University,US,https://www.lynn.edu/,https://www.lynn.edu/employment,own website,medium,OK:2 [playwright],generic scraper
-222,University of Miami,US,https://www.miami.edu/,https://careers.miami.edu/,own website,medium,OK:7,generic scraper
+219,Everglades University,US,https://www.evergladesuniversity.edu/,https://evergladesuniversity.isolvedhire.com/jobs/,own website,medium,OK-2hop:OK:3 [playwright],generic scraper
+220,Florida Atlantic University,US,https://www.fau.edu/,https://fau.wd1.myworkdayjobs.com/FAU,own website,medium,OK-2hop:OK:2,generic scraper
+221,Lynn University,US,https://www.lynn.edu/,https://lynn.wd5.myworkdayjobs.com/Careers,own website,medium,OK:2 [playwright],generic scraper
+222,University of Miami,US,https://www.miami.edu/,https://careers.miami.edu/us/en/c/faculty-jobs,own website,medium,OK:7,generic scraper
 224,Embry-Riddle Aeronautical University-Daytona Beach,US,https://daytonabeach.erau.edu/,https://embryriddle.wd1.myworkdayjobs.com/External,Workday,high,OK-2hop:OK:8,adapter built
-225,Stetson University,US,https://www.stetson.edu/,https://www.schooljobs.com/careers/stetson,SchoolJobs,medium,OK:6 [playwright] | careers_link was the HR page; postings live on its SchoolJobs board,generic scraper
-228,Nova Southeastern University,US,https://www.nova.edu/,https://www.nova.edu/resources/employment.html,own website,medium,OK-2hop:OK:4,generic scraper
+225,Stetson University,US,https://www.stetson.edu/,https://www.schooljobs.com/careers/stetson/delandfaculty,SchoolJobs,medium,OK:6 [playwright] | careers_link was the HR page; postings live on its SchoolJobs board,generic scraper
+228,Nova Southeastern University,US,https://www.nova.edu/,https://nsucareers.nova.edu/jobs/search/faculty-jobs,own website,medium,OK-2hop:OK:4,generic scraper
 229,Florida Gulf Coast University,US,https://www.fgcu.edu/,https://jobs.fgcu.edu/jobs/search/search-page-faculty,own website,medium,OK-2hop:OK:14,generic scraper
-231,University of Florida,US,https://www.ufl.edu/,https://jobs.ufl.edu/career-growth/professional-development/,own website,medium,OK-2hop:OK:7,generic scraper
+231,University of Florida,US,https://www.ufl.edu/,https://explore.jobs.ufl.edu/en-us/listing/,own website,medium,OK-2hop:OK:7,generic scraper
 235,Jacksonville University,US,https://www.ju.edu/index.php,https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=77bf9053-07ed-47ba-b601-d78b61854199&ccId=9200563802212_2&lang=en_US,ADP,high,OK-2hop:OK:16,adapter built
 236,University of North Florida,US,https://www.unf.edu/,https://unf.wd5.myworkdayjobs.com/unfjobs,Workday,high,OK:8,adapter built
-237,Warner University,US,https://www.warner.edu/academics/undergraduate_programs/admissions/criteria-for-admission/,https://warner.edu/offices/human-resources/careers/,own website,medium,OK-2hop:OK:3 [playwright],generic scraper
-238,Florida Southern College,US,https://www.flsouthern.edu/,http://www.guestservices.com/our-people/careers/,own website,medium,OK-2hop:OK:4,generic scraper
-240,University of Fort Lauderdale,US,https://uftl.edu/,https://uftl.edu/careers,own website,medium,OK-2hop:OK:1 | careers_link rediscovered from homepage (old: https://uftlathletics.com/sports/2021/6/23/recruiting-questi),generic scraper
+237,Warner University,US,https://www.warner.edu/academics/undergraduate_programs/admissions/criteria-for-admission/,https://www.paycomonline.net/v4/ats/web.php/portal/16D5A72295BEEA4BBF29A0DA73DAF892/career-page,own website,medium,OK-2hop:OK:3 [playwright],generic scraper
+238,Florida Southern College,US,https://www.flsouthern.edu/,https://portal.flsouthern.edu/ICS/Employment_App/,own website,medium,OK-2hop:OK:4,generic scraper
+240,University of Fort Lauderdale,US,https://uftl.edu/,https://uftl.edu/career-center/,own website,medium,OK-2hop:OK:1 | careers_link rediscovered from homepage (old: https://uftlathletics.com/sports/2021/6/23/recruiting-questi),generic scraper
 241,Beacon College,US,https://www.beaconcollege.edu/,https://www.beaconcollege.edu/career-opportunities/,own website,medium,OK-2hop:OK:3,generic scraper
 242,Florida Institute of Technology,US,https://www.fit.edu/,https://floridatech.wd5.myworkdayjobs.com/FloridaTechCareers,Workday,high,OK-2hop:OK:6,adapter built
 244,Albizu University-Miami,US,https://www.albizu.edu/,https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=89df2234-abda-481d-9d9f-d75161691110&ccId=19000101_000001&type=JS&lang=en_US,ADP,high,OK-2hop:OK:7,adapter built
-246,Barry University,US,https://www.barry.edu/,https://www.barry.edu/en/human-resources/,own website,medium,OK-2hop:OK:4,generic scraper
+246,Barry University,US,https://www.barry.edu/,https://barryu.wd5.myworkdayjobs.com/BarryU/jobs,own website,medium,OK-2hop:OK:4,generic scraper
 247,Florida International University,US,https://www.fiu.edu/,https://search.careers.fiu.edu/?role=employee&sort=newest,own website,medium,OK-2hop:OK:4,generic scraper
-248,Polytechnic University of Puerto Rico-Miami,US,https://www.pupr.edu/miami/,https://pupr.edu/hr/,own website,high,NO_MATCH [playwright];hand-verified-sync,generic scraper
-249,Trinity International University-Florida,US,https://tiu.edu/florida/,https://www.tiu.edu/human-resources/,own website,high,NO_MATCH [playwright];hand-verified-sync,generic scraper
+249,Trinity International University-Florida,US,https://tiu.edu/florida/,https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=000e9ccc-ecf1-448b-b0fb-65f550062347,own website,high,NO_MATCH [playwright];hand-verified-sync,generic scraper
 251,St. Thomas University,US,https://www.stu.edu/,https://www.stu.edu/jobs,own website,medium,OK:5,generic scraper
-253,Polytechnic University of Puerto Rico-Orlando,US,https://www.pupr.edu/orlando,https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=5388a0c5-18fe-449e-b500-098740269275&ccId=19000101_000001&type=JS&lang=en_US,ADP,high,OK-2hop:OK:9,adapter built
-254,University of Central Florida,US,https://www.ucf.edu/,https://ucf.wd1.myworkdayjobs.com/athletics,Workday,high,OK-2hop:OK:8,adapter built
-255,University of West Florida,US,https://uwf.edu/,https://uwf.edu/careers,own website,medium,OK:4,generic scraper
-257,Flagler College,US,https://www.flagler.edu/,https://www.flagler.edu/about/office-services/human-resources,Oracle Cloud HCM,high,OK-2hop:OK:8 | careers_link rediscovered from homepage (old: https://fa-ewbi-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/Can),adapter built
+254,University of Central Florida,US,https://www.ucf.edu/,https://jobs.ucf.edu/jobs/search,Workday,high,OK-2hop:OK:8,adapter built
+255,University of West Florida,US,https://uwf.edu/,https://careers.uwf.edu/faculty,own website,medium,OK:4,generic scraper
+257,Flagler College,US,https://www.flagler.edu/,https://fa-ewbi-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs?mode=location,Oracle Cloud HCM,high,OK-2hop:OK:8 | careers_link rediscovered from homepage (old: https://fa-ewbi-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/Can),adapter built
 258,Saint Leo University,US,https://www.saintleo.edu/,https://saintleo.wd503.myworkdayjobs.com/en-US/SLU,Workday,high,OK:8,adapter built
 259,Eckerd College,US,https://www.eckerd.edu/,https://eckerd.exacthire.com/,own website,medium,OK-2hop:OK:3,generic scraper
-261,Florida State University,US,https://www.fsu.edu/,https://hr.fsu.edu/working-fsu/prospective-employees/faculty-careers,own website,medium,OK-2hop:OK:11,generic scraper
+261,Florida State University,US,https://www.fsu.edu/,https://jobs.omni.fsu.edu/psc/sprdhr_er/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_SCHJOB_FL&Action=U,own website,medium,OK-2hop:OK:11,generic scraper
 265,The University of Tampa,US,https://www.ut.edu/,https://utampa.wd1.myworkdayjobs.com/Faculty,Workday,high,OK-2hop:OK:11,adapter built
-266,University of South Florida,US,https://www.usf.edu/,https://jobs.usf.edu/,own website,medium,OK:7,generic scraper
-267,Trinity College of Florida,US,https://trinitycollege.edu/,https://www.trinitycollege.edu/gainful-employment/,own website,medium,OK-2hop:OK:2,generic scraper
+266,University of South Florida,US,https://www.usf.edu/,https://jobs.usf.edu/hcmUI/CandidateExperience/en/sites/USF/jobs?lastSelectedFacet=CATEGORIES&selectedCategoriesFacet=300000015432176,own website,medium,OK:7,generic scraper
+267,Trinity College of Florida,US,https://trinitycollege.edu/,https://www.trinitycollege.edu/careers/,own website,medium,OK-2hop:OK:2,generic scraper
 270,Rollins College,US,https://www.rollins.edu/,https://jobs.rollins.edu/jobs/search?page=1&employment_type_uids%5B%5D=d91743ca44174bbd090511f6296aee4a&employment_type_uids%5B%5D=84166d8d43b4a50451c61120f9f39415&query=,own website,medium,OK-2hop:OK:16,generic scraper
 271,Georgia Southwestern State University,US,https://gsw.edu/,https://www.gsw.edu/human-resources/careers,own website,medium,OK-2hop:OK:4,generic scraper
 272,University of Georgia,US,https://www.uga.edu/,https://www.ugajobsearch.com/postings/search?utf8=%E2%9C%93&query=&query_v0_posted_at_date=&225=&436=&query_position_type_id%5B%5D=7&query_position_type_id%5B%5D=8&commit=Search,PeopleAdmin,medium,"OK-2hop:OK:4 [playwright] | white-label PeopleAdmin, confirmed via atom feed probe",generic scraper
@@ -1532,3 +1530,6 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes,scrap
 1914,National College of Ireland,Ireland,https://www.ncirl.ie/,https://www.vacancies.ncirl.ie/jobs?source=ncirl.ie,own website,high,added 2026-10-09 by user in xlsx,generic scraper
 1915,South East Technological University,Ireland,https://www.setu.ie/,https://my.corehr.com/pls/esbsheseturecruit/erq_search_package.search_form?p_company=1&p_internal_external=E,CoreHR,high,added 2026-10-09 by user in xlsx,adapter built
 1916,"Institute of Art, Design and Technology",Ireland,https://iadt.ie/,https://my.corehr.com/pls/iadtrecruit/erq_search_package.search_form?p_company=1&p_internal_external=E,CoreHR,high,added 2026-10-09 by user in xlsx,adapter built
+1917,University of Colorado-Anschutz Medical Campus,US,https://www.cuanschutz.edu/,https://cu.taleo.net/careersection/2/moresearch.ftl?lang=en,Taleo (CU system),high,campus split 2026-10-12,custom scraper (campus filter)
+1918,University of Connecticut-Hartford,US,https://hartford.uconn.edu/,https://jobs.hr.uconn.edu/en-us/filter/?search-keyword=&location=UConn%20Hartford,PageUp,high,campus split 2026-10-12,custom scraper (campus filter)
+1919,University of Connecticut-Farmington (UConn Health),US,https://health.uconn.edu/,https://jobs.hr.uconn.edu/en-us/filter/?search-keyword=&location=UConn%20Health%20(Farmington),PageUp,high,campus split 2026-10-12,custom scraper (campus filter)

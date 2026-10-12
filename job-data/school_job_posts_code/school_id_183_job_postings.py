@@ -1,28 +1,19 @@
 """
 Job postings scraper for school_id 183 - University of Connecticut-Avery Point (US)
-ATS platform: own website
-Careers link: https://jobs.hr.uconn.edu/cw/en-us/filter/?search-keyword=&job-mail-subscribe-privacy=agree
+Careers link: https://jobs.hr.uconn.edu/en-us/filter/?search-keyword=&location=UConn%20Avery%20Point
 
-No shared ATS platform adapter applies to this school -- find_links() below
-is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
-directly to fix or improve results for University of Connecticut-Avery Point; nothing here affects any
-other school's script.
-
-Link check (ok): 55 posting-shaped links found -- rendered.
-
-Starting point (not a tuned answer): fetch the careers page with JS
-rendered, then keep every link whose href or visible text looks
-job/vacancy/posting-shaped (job_postings_lib.COMMON_JOB_URL_HINTS). If that
-under- or over-collects, narrow the pattern to this site's real posting URL
-shape (the single most common fix -- a generic filter also matches a site's
-own navigation), add a click/scroll step via fetch_rendered's `actions`
-argument, or follow pagination with a second fetch and merge the results.
+TUNED FIND_LINKS
+One of the University of Connecticut campuses: UConn has a single PageUp
+board (jobs.hr.uconn.edu) with a "location" filter, and each campus has its
+own school_id (Storrs, Avery Point, Stamford, Waterbury, Hartford,
+Farmington/UConn Health; there is no general "University of Connecticut"
+entry). This campus takes its filter values -- see lib.UCONN_CAMPUS; Storrs
+takes every value no other campus claims. A posting is /en-us/job/<id>/<slug>.
 
 Writes school_job_posts/school_id_183_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_183_job_postings.checkpoint next to this script.
 """
 import os
-import re
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -31,46 +22,15 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 183
 SCHOOL_NAME = 'University of Connecticut-Avery Point'
-CAREERS_LINK = 'https://jobs.hr.uconn.edu/cw/en-us/filter/?search-keyword=&job-mail-subscribe-privacy=agree'
-ATS_PLATFORM = 'own website'
+CAREERS_LINK = 'https://jobs.hr.uconn.edu/en-us/filter/?search-keyword=&location=UConn%20Avery%20Point'
+ATS_PLATFORM = 'PageUp'
+CAMPUS = 'avery_point'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
-POSTING_PATTERN = 'jobs.hr.uconn.edu/cw/en-us/job/<*>/<*>'
-
-
 def find_links():
-    """CUSTOMIZED: postings on this site are the links matching one repeated
-    URL shape, found structurally rather than by keyword and then confirmed
-    by opening two of them and checking they read like job postings
-    (title_role=0 degree=0 furniture=4 len=11700; title_role=0 degree=0 furniture=5 len=17600).
-
-        jobs.hr.uconn.edu/cw/en-us/job/<*>/<*>
-
-    The generic job-word filter returned 0 link(s) here against 47
-    actually on the page -- this site's posting URLs carry no job word at
-    all, which is why matching on words missed them."""
-    import sys, os
-    sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-    from bs4 import BeautifulSoup
-    from urllib.parse import urljoin
-    import deep_probe
-
-    html = lib.fetch_rendered(CAREERS_LINK, wait_ms=5000)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    soup = BeautifulSoup(html, 'html.parser')
-    out = []
-    for a in soup.find_all('a', href=True):
-        href = a['href'].strip()
-        if not href or href.startswith(('#', 'mailto:', 'javascript:', 'tel:')):
-            continue
-        if deep_probe.templatize(href, CAREERS_LINK) == POSTING_PATTERN:
-            full = urljoin(CAREERS_LINK, href)
-            if full not in out:
-                out.append(full)
-    return out
+    return lib.scrape_uconn_campus(CAMPUS)
 
 
 def main():

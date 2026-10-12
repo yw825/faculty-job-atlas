@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 189 - Albertus Magnus College (US)
 ATS platform: own website
-Careers link: https://www.albertus.edu/employment/
+Careers link: https://www.paycomonline.net/v4/ats/web.php/portal/0FE17D4AFBB66F4F196ABBBA1DF3DF85/career-page
 
 Reads posting URLs from school_id_189_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 189
 SCHOOL_NAME = 'Albertus Magnus College'
-CAREERS_LINK = 'https://www.albertus.edu/employment/'
+CAREERS_LINK = 'https://www.paycomonline.net/v4/ats/web.php/portal/0FE17D4AFBB66F4F196ABBBA1DF3DF85/career-page'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 
