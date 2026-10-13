@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 350 - William Penn University (US)
 ATS platform: own website
-Careers link: https://www.wmpenn.edu/adjunct-instructor-in-english-adjunct-faculty-position/
+Careers link: https://www.wmpenn.edu/get-to-know-wpu/employment/
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -20,6 +20,10 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_350_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_350_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Careers link corrected in the audit to the employment page, which links
+one page per opening (faculty, staff and graduate-assistant positions).
 """
 import os
 import re
@@ -31,19 +35,16 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 350
 SCHOOL_NAME = 'William Penn University'
-CAREERS_LINK = 'https://www.wmpenn.edu/adjunct-instructor-in-english-adjunct-faculty-position/'
+CAREERS_LINK = 'https://www.wmpenn.edu/get-to-know-wpu/employment/'
 ATS_PLATFORM = 'own website'
+
+POSTING_RE = re.compile(r'^https://www\.wmpenn\.edu/(?:employment/[a-z0-9-]+|[a-z0-9-]+-(?:position|graduate-assistant|ga))/?$')
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    return lib.scrape_matching(CAREERS_LINK, POSTING_RE, render=True)
 
 
 def main():

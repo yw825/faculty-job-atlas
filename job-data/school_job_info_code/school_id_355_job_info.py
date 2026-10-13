@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 355 - Buena Vista University (US)
 ATS platform: own website
-Careers link: https://www.bvu.edu/en/undergraduate-on-campus/careers--outcomes/
+Careers link: https://secure10.saashr.com/ta/6013429.careers?rnd=ZJV&%40rtm=1&JobsSearch=1&lang=en-US
 
 Reads posting URLs from school_id_355_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 355
 SCHOOL_NAME = 'Buena Vista University'
-CAREERS_LINK = 'https://www.bvu.edu/en/undergraduate-on-campus/careers--outcomes/'
+CAREERS_LINK = 'https://secure10.saashr.com/ta/6013429.careers?rnd=ZJV&%40rtm=1&JobsSearch=1&lang=en-US'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 
@@ -37,7 +37,7 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
     HERE, '..', 'school_job_posts_code', f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
-def fetch_detail(url):
+def _fetch_detail_base(url):
     """This school's own detail-page logic, owned by this file. The default
     renders the page, picks the most job-title-shaped heading, and takes the
     visible text as the description. Override when a posting page needs
@@ -45,6 +45,16 @@ def fetch_detail(url):
     only exists in <title> (all of which came up in the non-US set)."""
     return jinfo.fetch_detail_generic(url)
 
+
+
+def fetch_detail(url):
+    """The page heading is the site name ("6013429:Career Search"); the job title follows "Log in"."""
+    import re
+    title, text = _fetch_detail_base(url)
+    m = re.search(r'Log in\s+(.+?)\s+Show All Jobs', text[:600])
+    if m:
+        title = m.group(1)
+    return title, text
 
 
 def main():

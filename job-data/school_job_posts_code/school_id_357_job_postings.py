@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 357 - Boise State University (US)
 ATS platform: own website
-Careers link: https://www.boisestate.edu/jobs/boise-state-faculty-careers/
+Careers link: https://jobs.boisestate.edu/jobs/search?page=1&query=&employment_type_uids%5B%5D=5b3578fa40683d2f59e52894bb5c37ff
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -20,6 +20,10 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_357_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_357_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+The board lists the filtered jobs over ?page=N; only /jobs/<slug> pages are
+postings (the search, alerts and category pages share the prefix).
 """
 import os
 import re
@@ -31,19 +35,17 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 357
 SCHOOL_NAME = 'Boise State University'
-CAREERS_LINK = 'https://www.boisestate.edu/jobs/boise-state-faculty-careers/'
+CAREERS_LINK = 'https://jobs.boisestate.edu/jobs/search?page=1&query=&employment_type_uids%5B%5D=5b3578fa40683d2f59e52894bb5c37ff'
 ATS_PLATFORM = 'own website'
+
+POSTING_RE = re.compile(r'^https://jobs\.boisestate\.edu/jobs/(?!search\b|job-alerts\b|job-categories\b)'
+                        r'[a-z0-9][a-z0-9-]+$', re.I)
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    return lib.scrape_paged_board(CAREERS_LINK, POSTING_RE)
 
 
 def main():

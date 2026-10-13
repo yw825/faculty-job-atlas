@@ -37,7 +37,7 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
     HERE, '..', 'school_job_posts_code', f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
-def fetch_detail(url):
+def _fetch_detail_base(url):
     """This school's own detail-page logic, owned by this file. The default
     renders the page, picks the most job-title-shaped heading, and takes the
     visible text as the description. Override when a posting page needs
@@ -45,6 +45,17 @@ def fetch_detail(url):
     only exists in <title> (all of which came up in the non-US set)."""
     return jinfo.fetch_detail_generic(url)
 
+
+
+def fetch_detail(url):
+    """Paylocity headings read "Central College - <job>"; keep the job."""
+    import re
+    title, text = _fetch_detail_base(url)
+    m = re.match(r'\s*Central College - (.+?)\s+\.ot-sdk', text[:400]) or re.match(r'\s*Central College - (.{3,120}?)\s{2,}', text[:400])
+    if m and (title or '').strip() == 'Central College':
+        title = m.group(1)
+    title = re.sub(r'^Central College - ', '', title or '')
+    return title, text
 
 
 def main():

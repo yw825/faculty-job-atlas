@@ -30,7 +30,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 352
 SCHOOL_NAME = 'Dordt University'
-CAREERS_LINK = 'https://www.dordt.edu/about-dordt/job-openings'
+CAREERS_LINK = 'https://ibmxjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/requisitions?lastSelectedFacet=CATEGORIES&selectedCategoriesFacet=300000008610535'
 ATS_PLATFORM = 'Oracle Cloud HCM'
 USE_LLM = False
 

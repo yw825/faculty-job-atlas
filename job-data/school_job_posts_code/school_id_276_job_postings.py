@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 276 - Georgia Institute of Technology-Main Campus (US)
 ATS platform: own website
-Careers link: https://hr.gatech.edu/employment/careers
+Careers link: https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?FOCUS=Applicant&SiteId=03000
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -20,6 +20,11 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_276_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_276_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+The audit points to the University System of Georgia's shared PeopleSoft
+board. Its address never changes, so the school's own section is opened by
+SiteId=03000; the rows are read with the shared peoplesoft reader.
 """
 import os
 import re
@@ -31,19 +36,14 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 276
 SCHOOL_NAME = 'Georgia Institute of Technology-Main Campus'
-CAREERS_LINK = 'https://hr.gatech.edu/employment/careers'
+CAREERS_LINK = 'https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?FOCUS=Applicant&SiteId=03000'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    return lib.PLATFORM_ADAPTERS['peoplesoft'](CAREERS_LINK, SCHOOL_NAME)
 
 
 def main():

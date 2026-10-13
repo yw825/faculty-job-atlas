@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 345 - University of Iowa (US)
 ATS platform: own website
-Careers link: https://jobs.uiowa.edu/
+Careers link: https://jobs.uiowa.edu/jobSearch/faculty/
 
 Reads posting URLs from school_id_345_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 345
 SCHOOL_NAME = 'University of Iowa'
-CAREERS_LINK = 'https://jobs.uiowa.edu/'
+CAREERS_LINK = 'https://jobs.uiowa.edu/jobSearch/faculty/'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 
@@ -38,13 +38,18 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """This school's own detail-page logic, owned by this file. The default
-    renders the page, picks the most job-title-shaped heading, and takes the
-    visible text as the description. Override when a posting page needs
-    something else -- a nested iframe, a cookie gate, a PDF, or a title that
-    only exists in <title> (all of which came up in the non-US set)."""
-    return jinfo.fetch_detail_generic(url)
-
+    from bs4 import BeautifulSoup
+    status, html = jinfo.jlib.fetch_static(url, timeout=40)
+    if status != 200:
+        raise RuntimeError(f'requisition status={status}')
+    soup = BeautifulSoup(html, 'html.parser')
+    heads = [re.sub(r'\s+', ' ', h.get_text(' ', strip=True)) for h in soup.select('h1, h2, h3')]
+    at = next((i for i, h in enumerate(heads) if h.startswith('Requisition #')), None)
+    title = next((h for h in reversed(heads[:at or 0]) if h), '')
+    if not title or 'Jobs@UIowa' in title:
+        raise RuntimeError('requisition not on the page (closed?)')
+    text = re.sub(r'\s+', ' ', soup.get_text(' ', strip=True))
+    return title[:250], text[text.find(title):][:20000]
 
 
 def main():

@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 354 - Morningside University (US)
 ATS platform: own website
-Careers link: https://www.morningside.edu/about/employment/adjunct-instructors-rosen-school-of-business
+Careers link: https://www.morningside.edu/?job_category=full-time
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -20,6 +20,10 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_354_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_354_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Careers link corrected in the audit to the full-time job list; postings
+are /about/employment/<slug> pages.
 """
 import os
 import re
@@ -31,22 +35,16 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 354
 SCHOOL_NAME = 'Morningside University'
-CAREERS_LINK = 'https://www.morningside.edu/about/employment/adjunct-instructors-rosen-school-of-business'
+CAREERS_LINK = 'https://www.morningside.edu/?job_category=full-time'
 ATS_PLATFORM = 'own website'
+
+POSTING_RE = re.compile(r'^https://www\.morningside\.edu/about/employment/[a-z0-9-]+$')
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    """CUSTOMIZED: this school writes each opening as a SECTION of its
-    careers page -- there is no per-job link to collect, which is why every
-    link-based scraper returned 0 row(s) against 1 real openings
-    on the page.
-
-    Each section becomes CAREERS_LINK + '#' + a slug of its own heading,
-    and school_id_354_job_info.py resolves that fragment back to the
-    section's text."""
-    return lib.scrape_inline_listing(CAREERS_LINK)
+    return lib.scrape_matching(CAREERS_LINK, POSTING_RE, render=True, wait_ms=6000)
 
 
 def main():

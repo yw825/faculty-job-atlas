@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 358 - The College of Idaho (US)
 ATS platform: own website
-Careers link: https://collegeofidaho.edu/academics/undergrad/career-sectors/health-scientific-research
+Careers link: https://collegeofidaho.edu/careers
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -20,6 +20,10 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_358_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_358_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+The old link was a student career-sectors page. Openings are the PDF
+adverts linked from /careers (the audit's example is one of them).
 """
 import os
 import re
@@ -31,19 +35,16 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 358
 SCHOOL_NAME = 'The College of Idaho'
-CAREERS_LINK = 'https://collegeofidaho.edu/academics/undergrad/career-sectors/health-scientific-research'
+CAREERS_LINK = 'https://collegeofidaho.edu/careers'
 ATS_PLATFORM = 'own website'
+
+POSTING_RE = re.compile(r'^https://collegeofidaho\.edu/wp-content/uploads/\d{4}/\d{2}/[^/]+\.pdf$', re.I)
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    return lib.scrape_matching(CAREERS_LINK, POSTING_RE)
 
 
 def main():

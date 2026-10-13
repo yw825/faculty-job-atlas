@@ -20,6 +20,10 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_351_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_351_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Central's openings are Paylocity job pages linked from the page; the
+audit found no faculty opening among them.
 """
 import os
 import re
@@ -37,13 +41,21 @@ ATS_PLATFORM = 'own website'
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
-def find_links():
+def _page_links():
     html = lib.fetch_rendered(CAREERS_LINK)
     if lib.is_fetch_failure(html):
         raise RuntimeError(html)
     return lib.extract_links(html, CAREERS_LINK,
                              href_pattern=lib.COMMON_JOB_URL_HINTS,
                              text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+
+
+POSTING_RE = re.compile(r'recruiting\.paylocity\.com/recruiting/jobs/Details/\d+')
+
+
+def find_links():
+    """Only real postings, not the page's menus, share buttons or sign-in links."""
+    return list(dict.fromkeys(u for u in _page_links() if POSTING_RE.search(u)))
 
 
 def main():

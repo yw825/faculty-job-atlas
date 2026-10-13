@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 345 - University of Iowa (US)
 ATS platform: own website
-Careers link: https://jobs.uiowa.edu/
+Careers link: https://jobs.uiowa.edu/jobSearch/faculty/
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -20,6 +20,10 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_345_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_345_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Careers link corrected in the audit to the faculty job search. Its results
+page with no college chosen lists every open faculty requisition.
 """
 import os
 import re
@@ -31,19 +35,22 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 345
 SCHOOL_NAME = 'University of Iowa'
-CAREERS_LINK = 'https://jobs.uiowa.edu/'
+CAREERS_LINK = 'https://jobs.uiowa.edu/jobSearch/faculty/'
 ATS_PLATFORM = 'own website'
+
+RESULTS = 'https://jobs.uiowa.edu/jobSearch/faculty/searchResults.php?submit=Search+For+Openings&searchType=FACULTY'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    status, html = lib.fetch_static(RESULTS, timeout=40)
+    if status != 200:
+        raise RuntimeError(f'search status={status}')
+    ids = dict.fromkeys(re.findall(r'/faculty/view/(\d+)', html))
+    if not ids:
+        raise RuntimeError('faculty search returned no requisitions')
+    return [f'https://jobs.uiowa.edu/faculty/view/{i}' for i in ids]
 
 
 def main():

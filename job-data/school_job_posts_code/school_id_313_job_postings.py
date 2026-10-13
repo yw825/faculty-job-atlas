@@ -20,6 +20,10 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_313_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_313_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Openings are the rows of the page's job table; each links a page at the
+site root, so the table is the only way to tell them from other pages.
 """
 import os
 import re
@@ -38,12 +42,12 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkp
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    from bs4 import BeautifulSoup
+    from urllib.parse import urljoin
+    soup = BeautifulSoup(lib._fetch_rendered_retry(CAREERS_LINK, 6000), 'html.parser')
+    links = [urljoin(CAREERS_LINK, a['href']).replace('//', '/').replace(':/', '://')
+             for a in soup.select('table.job-postings a[href]')]
+    return list(dict.fromkeys(links))
 
 
 def main():

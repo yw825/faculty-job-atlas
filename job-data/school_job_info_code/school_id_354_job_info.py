@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 354 - Morningside University (US)
 ATS platform: own website
-Careers link: https://www.morningside.edu/about/employment/adjunct-instructors-rosen-school-of-business
+Careers link: https://www.morningside.edu/?job_category=full-time
 
 Reads posting URLs from school_id_354_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 354
 SCHOOL_NAME = 'Morningside University'
-CAREERS_LINK = 'https://www.morningside.edu/about/employment/adjunct-instructors-rosen-school-of-business'
+CAREERS_LINK = 'https://www.morningside.edu/?job_category=full-time'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

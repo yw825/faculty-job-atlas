@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 350 - William Penn University (US)
 ATS platform: own website
-Careers link: https://www.wmpenn.edu/adjunct-instructor-in-english-adjunct-faculty-position/
+Careers link: https://www.wmpenn.edu/get-to-know-wpu/employment/
 
 Reads posting URLs from school_id_350_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 350
 SCHOOL_NAME = 'William Penn University'
-CAREERS_LINK = 'https://www.wmpenn.edu/adjunct-instructor-in-english-adjunct-faculty-position/'
+CAREERS_LINK = 'https://www.wmpenn.edu/get-to-know-wpu/employment/'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 
@@ -37,7 +37,7 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
     HERE, '..', 'school_job_posts_code', f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
-def fetch_detail(url):
+def _fetch_detail_base(url):
     """This school's own detail-page logic, owned by this file. The default
     renders the page, picks the most job-title-shaped heading, and takes the
     visible text as the description. Override when a posting page needs
@@ -45,6 +45,16 @@ def fetch_detail(url):
     only exists in <title> (all of which came up in the non-US set)."""
     return jinfo.fetch_detail_generic(url)
 
+
+
+def fetch_detail(url):
+    """Page titles read "<job> - ADJUNCT POSITION - William Penn University"; keep the job, with its subject."""
+    import re
+    title, text = _fetch_detail_base(url)
+    m = re.match(r'\s*(.{3,200}?)\s+-\s+William Penn University', text)
+    if m:
+        title = re.sub(r'(?i)\s*-\s*(?:[a-z]+\s+)*position$', '', m.group(1)).strip()
+    return title, text
 
 
 def main():

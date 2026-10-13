@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 340 - Maharishi International University (US)
 ATS platform: own website
-Careers link: https://services.miu.edu/human-resources/faculty-positions-available/
+Careers link: https://services.miu.edu/human-resources/faculty/
 
 Reads posting URLs from school_id_340_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,22 +29,40 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 340
 SCHOOL_NAME = 'Maharishi International University'
-CAREERS_LINK = 'https://services.miu.edu/human-resources/faculty-positions-available/'
+CAREERS_LINK = 'https://services.miu.edu/human-resources/faculty/'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
+
+POSITIONS_PAGE = 'https://services.miu.edu/human-resources/faculty/faculty-positions-available/'
+
+
+def positions():
+    """[(slug, title, text)] -- every advert on the page opens "POSITION TITLE:"."""
+    from bs4 import BeautifulSoup
+    soup = BeautifulSoup(jinfo.jlib._fetch_rendered_retry(POSITIONS_PAGE, 5000), 'html.parser')
+    for tag in soup(['script', 'style', 'nav', 'header', 'footer']):
+        tag.decompose()
+    text = re.sub(r'\s+', ' ', soup.get_text(' ', strip=True))
+    out = []
+    for block in re.split(r'(?=POSITION TITLE:)', text)[1:]:
+        m = re.match(r'POSITION TITLE:\s*(.+?)\s+(?:DUTIES|REQUIREMENTS|QUALIFICATIONS|DEPARTMENT|LOCATION)\b', block)
+        title = (m.group(1) if m else block[15:95]).strip(' :-')
+        slug = re.sub(r'[^a-z0-9]+', '-', title.lower()).strip('-')[:80] or 'position'
+        if slug in [s for s, _t, _b in out]:
+            slug = f'{slug}-{len(out) + 1}'
+        out.append((slug, title, block[:20000]))
+    return out
 
 JOB_POSTINGS_CHECKPOINT = os.path.join(
     HERE, '..', 'school_job_posts_code', f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """This school's own detail-page logic, owned by this file. The default
-    renders the page, picks the most job-title-shaped heading, and takes the
-    visible text as the description. Override when a posting page needs
-    something else -- a nested iframe, a cookie gate, a PDF, or a title that
-    only exists in <title> (all of which came up in the non-US set)."""
-    return jinfo.fetch_detail_generic(url)
-
+    slug = url.partition('#')[2]
+    for s, title, text in positions():
+        if s == slug:
+            return title[:250], text
+    raise RuntimeError('position no longer on the page')
 
 
 def main():

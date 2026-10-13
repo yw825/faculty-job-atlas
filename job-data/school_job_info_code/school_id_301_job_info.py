@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 301 - Mercer University (US)
 ATS platform: own website
-Careers link: https://hr.mercer.edu/prospective-employees/career-opportunities/
+Careers link: https://merceruniversity.wd1.myworkdayjobs.com/en-US/external
 
 Reads posting URLs from school_id_301_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 301
 SCHOOL_NAME = 'Mercer University'
-CAREERS_LINK = 'https://hr.mercer.edu/prospective-employees/career-opportunities/'
+CAREERS_LINK = 'https://merceruniversity.wd1.myworkdayjobs.com/en-US/external'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

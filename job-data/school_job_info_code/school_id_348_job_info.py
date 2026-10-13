@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 348 - Cornell College (US)
 ATS platform: own website
-Careers link: https://www.cornellcollege.edu/human-resources/employment/
+Careers link: https://recruiting2.ultipro.com/COR1036CORN/JobBoard/30d770d7-3983-4bf1-867a-479db251bad8/?q=&o=postedDateDesc
 
 Reads posting URLs from school_id_348_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 348
 SCHOOL_NAME = 'Cornell College'
-CAREERS_LINK = 'https://www.cornellcollege.edu/human-resources/employment/'
+CAREERS_LINK = 'https://recruiting2.ultipro.com/COR1036CORN/JobBoard/30d770d7-3983-4bf1-867a-479db251bad8/?q=&o=postedDateDesc'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

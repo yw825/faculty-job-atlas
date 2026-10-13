@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 325 - University of Hawaii-West Oahu (US)
 ATS platform: own website
-Careers link: https://www.governmentjobs.com/careers/hawaiiedu?jobType[0]=Faculty&sort=PositionTitle%7CAscending
+Careers link: https://www.schooljobs.com/careers/hawaiiedu?sort=PositionTitle%7CAscending
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -20,6 +20,12 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_325_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_325_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+The University of Hawaii has one NEOGOV board for all ten campuses. The
+old link's ?jobType[0]=Faculty filter matches nothing there (its job types
+are "Full-Time Permanent" etc.), which is why it showed 0 jobs. UH West O'ahu's
+postings are the ones whose Department opens with the campus name.
 """
 import os
 import re
@@ -31,19 +37,16 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 325
 SCHOOL_NAME = 'University of Hawaii-West Oahu'
-CAREERS_LINK = 'https://www.governmentjobs.com/careers/hawaiiedu?jobType[0]=Faculty&sort=PositionTitle%7CAscending'
+CAREERS_LINK = 'https://www.schooljobs.com/careers/hawaiiedu?sort=PositionTitle%7CAscending'
 ATS_PLATFORM = 'own website'
+
+CAMPUS = 'west_oahu'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    return lib.scrape_uh_campus(CAMPUS)
 
 
 def main():

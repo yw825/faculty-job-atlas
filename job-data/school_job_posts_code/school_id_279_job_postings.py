@@ -20,6 +20,10 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_279_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_279_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+The Jobs page has no list of its own: it embeds the college's Paycom board
+(the audit's example is that page's body), so the board is read directly.
 """
 import os
 import re
@@ -34,16 +38,13 @@ SCHOOL_NAME = 'Oglethorpe University'
 CAREERS_LINK = 'https://oglethorpe.edu/about/offices-departments/human-resources/jobs/'
 ATS_PLATFORM = 'own website'
 
+BOARD = 'https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=E89EC0BE36E642B4CF9B1208D8AFD807'
+
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    return lib.scrape_paycom(BOARD)
 
 
 def main():

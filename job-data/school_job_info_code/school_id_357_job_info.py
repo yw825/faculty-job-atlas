@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 357 - Boise State University (US)
 ATS platform: own website
-Careers link: https://www.boisestate.edu/jobs/boise-state-faculty-careers/
+Careers link: https://jobs.boisestate.edu/jobs/search?page=1&query=&employment_type_uids%5B%5D=5b3578fa40683d2f59e52894bb5c37ff
 
 Reads posting URLs from school_id_357_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 357
 SCHOOL_NAME = 'Boise State University'
-CAREERS_LINK = 'https://www.boisestate.edu/jobs/boise-state-faculty-careers/'
+CAREERS_LINK = 'https://jobs.boisestate.edu/jobs/search?page=1&query=&employment_type_uids%5B%5D=5b3578fa40683d2f59e52894bb5c37ff'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 
@@ -37,7 +37,7 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
     HERE, '..', 'school_job_posts_code', f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
-def fetch_detail(url):
+def _fetch_detail_base(url):
     """This school's own detail-page logic, owned by this file. The default
     renders the page, picks the most job-title-shaped heading, and takes the
     visible text as the description. Override when a posting page needs
@@ -45,6 +45,16 @@ def fetch_detail(url):
     only exists in <title> (all of which came up in the non-US set)."""
     return jinfo.fetch_detail_generic(url)
 
+
+
+def fetch_detail(url):
+    """Page titles read "<job> - <city>, Idaho, United States"; the shared splitter cuts "Adjunct - Mathematics" at the dash."""
+    import re
+    title, text = _fetch_detail_base(url)
+    m = re.match(r'\s*(.{3,200}) - [^-]+, United States Back to', text[:400])
+    if m:
+        title = m.group(1).strip()
+    return title, text
 
 
 def main():

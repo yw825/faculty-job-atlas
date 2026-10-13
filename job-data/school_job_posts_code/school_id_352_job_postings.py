@@ -12,8 +12,14 @@ and pass it to run_checkpointed instead of editing the shared adapter.
 
 Writes school_job_posts/school_id_352_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_352_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+The audit keeps Dordt's Oracle board with its faculty category selected;
+it had no faculty posting open when audited.
+Read with the shared oracle reader.
 """
 import os
+import re
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -22,21 +28,14 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 352
 SCHOOL_NAME = 'Dordt University'
-CAREERS_LINK = 'https://www.dordt.edu/about-dordt/job-openings'
+CAREERS_LINK = 'https://ibmxjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/requisitions?lastSelectedFacet=CATEGORIES&selectedCategoriesFacet=300000008610535'
 ATS_PLATFORM = 'Oracle Cloud HCM'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    """Generic: this school's careers_link was rediscovered from its
-    homepage, so the platform pinned in the old script no longer applies."""
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    return lib.PLATFORM_ADAPTERS['oracle'](CAREERS_LINK, SCHOOL_NAME)
 
 
 def main():

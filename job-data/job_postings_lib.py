@@ -1941,6 +1941,161 @@ def scrape_uconn_campus(campus):
 #    CUHK: 99 postings recovered across 5 pages of ~25).
 # --------------------------------------------------------------------------
 
+def scrape_peopleadmin_search(url, max_pages=80):
+    """PeopleAdmin postings matching the filters on a /postings/search link
+    (position type, department ...). The Atom feed scrape_peopleadmin reads
+    ignores those filters and returns the whole board -- the University of
+    Guam's faculty filter shows 3 postings, the feed 33. The search itself
+    pages with &page=N, 30 a page, so that is what is followed."""
+    host = '{0.scheme}://{0.netloc}'.format(urlparse(url))
+    base = re.sub(r'([?&])page=\d+&?', r'\1', url).rstrip('?&')
+    template = base.replace('{', '{{').replace('}', '}}') + ('&' if '?' in base else '?') + 'page={p}'
+    return scrape_query_pages(template, re.compile('^' + re.escape(host) + r'/postings/\d+$'),
+                              max_pages=max_pages)
+
+
+_NEOGOV_CACHE = {}
+
+
+def neogov_rows(agency, max_pages=120):
+    """[(url, title, location, job type, department)] for every posting on a
+    NEOGOV board (schooljobs.com/careers/<agency>), read from the list
+    fragment the board itself pages with, 10 a page.
+
+    The board's jobType filter only matches a job type's FULL name, which is
+    why the "?jobType[0]=Faculty" links several schools carry report 0 jobs:
+    Hawaii's types are "Full-Time Permanent" and the like, Hawaii Pacific's
+    "Faculty - Regular Full Time". Reading the rows lets a caller filter on
+    the type or the department itself. Cached per process."""
+    if agency in _NEOGOV_CACHE:
+        return _NEOGOV_CACHE[agency]
+    rows, seen = [], set()
+    for page in range(1, max_pages + 1):
+        status, html = fetch_static(
+            f'https://www.schooljobs.com/careers/home/index?agency={agency}'
+            f'&sort=PositionTitle&isDescendingSort=false&page={page}',
+            timeout=40, extra_headers={'X-Requested-With': 'XMLHttpRequest'})
+        if status != 200:
+            if page == 1:
+                raise RuntimeError(f'neogov list status={status}')
+            break
+        fresh = 0
+        for item in BeautifulSoup(html, 'html.parser').select('li.list-item'):
+            link = item.find('a', href=re.compile(r'/jobs/\d+'))
+            if link is None:
+                continue
+            url = 'https://www.schooljobs.com' + link['href'].split('?')[0]
+            if url in seen:
+                continue
+            seen.add(url)
+            fresh += 1
+            meta = [re.sub(r'\s+', ' ', li.get_text(' ', strip=True)) for li in item.select('.list-meta li')]
+            plain = [m for m in meta if not re.match(r'(Category|Department|Division):', m)]
+            dept = next((m.split(':', 1)[1].strip() for m in meta if m.startswith('Department:')), '')
+            rows.append((url, re.sub(r'\s+', ' ', link.get_text(' ', strip=True)),
+                         plain[0] if plain else '', plain[1] if len(plain) > 1 else '', dept))
+        if not fresh:
+            break
+    if not rows:
+        raise RuntimeError('neogov board returned no postings')
+    _NEOGOV_CACHE[agency] = rows
+    return rows
+
+
+# University of Hawaii system board (schooljobs.com/careers/hawaiiedu): ten
+# campuses and the system offices on one list. A posting's Department opens
+# with its campus name ("University of Hawai'i at Manoa - College of ...").
+UH_CAMPUS = {
+    'hilo': "University of Hawai'i at Hilo",
+    'manoa': "University of Hawai'i at Manoa",
+    'west_oahu': "University of Hawai'i - West O'ahu",
+}
+
+
+def scrape_uh_campus(campus):
+    """Postings on the University of Hawaii board whose department belongs
+    to `campus` (a UH_CAMPUS key)."""
+    name = UH_CAMPUS[campus]
+    links = []
+    for url, _title, _loc, _type, dept in neogov_rows('hawaiiedu'):
+        dept = re.sub(r'^\(EVA\)\s*', '', dept)
+        if dept.startswith(name) or (campus == 'manoa' and dept.startswith('Manoa ')):
+            links.append(url)
+    return links
+
+
+def scrape_paycor_frame(page_url, wait_ms=8000):
+    """Paycor postings shown inside a school's own page. Some Paycor boards
+    refuse to open on their own -- Wartburg's CareerHome address bounces
+    straight back to wartburg.edu/hr/positions/ -- so the list only exists
+    inside the iframe on the school's page. Returns each posting as
+    JobIntroduction.action?clientId=<id>&id=<job>, without the tracking
+    parameters and HTML escapes the frame's own links carry."""
+    b = get_browser()
+    if b is None:
+        raise RuntimeError('playwright unavailable')
+    page = b.new_page(user_agent=UA)
+    found = []
+    try:
+        page.goto(page_url, timeout=60000, wait_until='domcontentloaded')
+        for _ in range(5):            # the frame can take half a minute on a busy machine
+            page.wait_for_timeout(wait_ms)
+            for frame in page.frames:
+                try:
+                    html = frame.content()
+                except Exception:
+                    continue
+                found += re.findall(r'JobIntroduction\.action\?clientId=([0-9a-zA-Z]+)&(?:amp;)?id=([0-9a-zA-Z]+)', html)
+            if found:
+                break
+    finally:
+        page.close()
+    return list(dict.fromkeys(
+        f'https://recruitingbypaycor.com/career/JobIntroduction.action?clientId={c}&id={j}' for c, j in found))
+
+
+_JICS_CACHE = {}
+
+
+def jenzabar_positions(url):
+    """[(slug, title, department, classification, type, posted)] from a
+    Jenzabar JICS "Employment Opportunities" portlet (Upper Iowa's
+    my.uiu.edu). The list only appears once "Search positions" is pressed
+    and each row opens by ASP.NET postback, so a posting has no URL of its
+    own: callers store url + "#<slug>" (title lower-cased, non-alphanumerics
+    as hyphens). Cached per process."""
+    if url in _JICS_CACHE:
+        return _JICS_CACHE[url]
+    b = get_browser()
+    if b is None:
+        raise RuntimeError('playwright unavailable')
+    page = b.new_page(user_agent=UA)
+    try:
+        page.goto(url, timeout=60000, wait_until='domcontentloaded')
+        page.wait_for_timeout(4000)
+        page.click('input[type=submit][value="Search positions"]', timeout=15000)
+        page.wait_for_selector('table.PositionSearchGridView, #pg0_V_psSearch_divSearchText', timeout=30000)
+        page.wait_for_timeout(3000)
+        html = page.content()
+    finally:
+        page.close()
+    if 'Search Results' not in html:
+        raise RuntimeError('jenzabar search did not return a results section')
+    rows, seen = [], set()
+    table = BeautifulSoup(html, 'html.parser').select_one('table.PositionSearchGridView')
+    for tr in (table.find_all('tr') if table is not None else []):
+        cells = [re.sub(r'\s+', ' ', td.get_text(' ', strip=True)) for td in tr.find_all('td')]
+        if len(cells) < 5 or not cells[0]:
+            continue
+        slug = re.sub(r'[^a-z0-9]+', '-', cells[0].lower()).strip('-')[:120]
+        if slug in seen:              # same title in two departments
+            slug = f'{slug}-{len(rows) + 1}'
+        seen.add(slug)
+        rows.append((slug, cells[0], cells[1], cells[2], cells[3], cells[4]))
+    _JICS_CACHE[url] = rows
+    return rows
+
+
 TALEO_POSTING_HREF_RE = re.compile(r'(viewRequisition|applyRequisition|jobdetail\.ftl)', re.I)
 
 

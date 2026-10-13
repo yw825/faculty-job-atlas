@@ -23,10 +23,8 @@ Checkpointed to school_id_238_job_postings.checkpoint next to this script.
 
 TUNED FIND_LINKS
 Careers link corrected in the audit to the Jenzabar portal's Employment
-App. Its positions grid is filled by an ASP.NET postback that an automated
-visit does not get (the page shows only the portal chrome), and positions
-have no URL of their own. Until that is solved nothing is collected, rather
-than storing the portal's menu links as jobs (UNRESOLVED 2026-10-12).
+App. Its positions table appears once "Search positions" is pressed and rows
+open by postback, so each is stored as the page plus #<title slug>.
 """
 import os
 import re
@@ -45,10 +43,7 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkp
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK, wait_ms=6000)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return []  # see the note above: the positions grid is not reachable
+    return [f'{CAREERS_LINK}#{row[0]}' for row in lib.jenzabar_positions(CAREERS_LINK)]
 
 
 def main():

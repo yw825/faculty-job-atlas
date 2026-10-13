@@ -1846,16 +1846,35 @@ def fetch_adp_bulk(careers_link):
     base = (f'https://{parsed.netloc}/mascsr/default/careercenter/public/events/'
             f'staffing/v1/job-requisitions')
 
-    status, text = jlib.fetch_static(f'{base}?cid={cid}&timeStamp={int(_time.time()*1000)}',
-                                     extra_headers={'Accept': 'application/json'})
-    if status != 200:
-        raise RuntimeError(f'adp api status={status}')
+    # The list call returns 20 requisitions whatever $top says; $skip moves
+    # the window (job_postings_lib.scrape_adp pages the same way). Reading
+    # only the first response left every posting past the 20th with no row
+    # -- Chaminade lists 50.
+    reqs, seen, skip, total = [], set(), 0, None
+    for _page in range(40):
+        status, text = jlib.fetch_static(
+            f'{base}?cid={cid}&timeStamp={int(_time.time()*1000)}&$skip={skip}',
+            extra_headers={'Accept': 'application/json'})
+        if status != 200:
+            if skip == 0:
+                raise RuntimeError(f'adp api status={status}')
+            break
+        data = json.loads(text)
+        batch = data.get('jobRequisitions') or []
+        fresh = [r for r in batch if r.get('itemID') and r['itemID'] not in seen]
+        if not fresh:
+            break
+        seen.update(r['itemID'] for r in fresh)
+        reqs += fresh
+        if total is None:
+            total = (data.get('meta') or {}).get('totalNumber')
+        if total is not None and len(seen) >= total:
+            break
+        skip += len(batch)
 
     out = {}
-    for req in json.loads(text).get('jobRequisitions', []):
+    for req in reqs:
         item_id = req.get('itemID')
-        if not item_id:
-            continue
         url = (f'https://{parsed.netloc}/mascsr/default/mdf/recruitment/'
                f'recruitment.html?cid={cid}&ccId={cc_id}&jobId={item_id}&lang={lang}')
         title = (req.get('requisitionTitle') or '').strip()
@@ -2170,6 +2189,140 @@ def fetch_detail_accordion(url, header_selector, render=False):
     if item is None:
         raise RuntimeError('section no longer on the page')
     return item[1][:250], f'{item[1]}. {item[2]}'[:20000]
+
+
+def fetch_detail_jsonld(url):
+    """(title, description) from the page's schema.org JobPosting block.
+    The ApplicantPro family (applicantpro.com, applicantlist.com,
+    applicantpool.com) draws the advert with JavaScript, so its visible
+    text is a "javascript disabled" notice, but the same advert is in the
+    page source as JSON-LD -- with the full title, where the <title> tag
+    reads "Adjunct Instructor - Math - Cedar Rapids, IA - ... Jobs" and the
+    shared splitter would keep only "Adjunct Instructor"."""
+    from bs4 import BeautifulSoup
+    import json as _json
+    status, html = jlib.fetch_static(url, timeout=40)
+    if status != 200:
+        raise RuntimeError(f'job page status={status}')
+    for block in BeautifulSoup(html, 'html.parser').select('script[type="application/ld+json"]'):
+        try:
+            data = _json.loads(block.get_text(), strict=False)
+        except ValueError:
+            continue
+        for item in (data if isinstance(data, list) else [data]):
+            if isinstance(item, dict) and item.get('@type') == 'JobPosting' and item.get('title'):
+                body = BeautifulSoup(item.get('description') or '', 'html.parser').get_text(' ', strip=True)
+                org = (item.get('hiringOrganization') or {}).get('name') or ''
+                title = re.sub(r'\s+', ' ', item['title']).strip()
+                return title[:250], re.sub(r'\s+', ' ', f'{title}. {org}. {body}')[:20000]
+    raise RuntimeError('no JobPosting block on the page')
+
+
+def fetch_detail_applicantpro(url):
+    """(title, description) for an ApplicantPro-family posting: the JSON-LD
+    block when the page has one, otherwise the rendered advert (Lewis-Clark
+    State's board is the newer build with no JSON-LD), titled from the
+    <title> tag minus its " - <City>, <ST> - <School> Jobs" tail."""
+    from bs4 import BeautifulSoup
+    try:
+        return fetch_detail_jsonld(url)
+    except RuntimeError as exc:
+        if 'no JobPosting block' not in str(exc):
+            raise
+    soup = BeautifulSoup(jlib._fetch_rendered_retry(url, 6000), 'html.parser')
+    page_title = re.sub(r'\s+', ' ', soup.title.get_text(' ', strip=True)) if soup.title else ''
+    m = re.match(r'(.+?) - [^-]+, [A-Z]{2} - .+ Jobs$', page_title)
+    title = m.group(1) if m else page_title
+    for tag in soup(['script', 'style', 'nav', 'header', 'footer']):
+        tag.decompose()
+    text = re.sub(r'\s+', ' ', soup.get_text(' ', strip=True))
+    if not title or len(text) < 400:
+        raise RuntimeError('advert did not render (closed?)')
+    return title[:250], text[:20000]
+
+
+def fetch_detail_peopleadmin(url):
+    """(title, description) for a PeopleAdmin posting. The page's first
+    heading is "Position Details" or the portal's name, and the shared
+    splitter cuts "Assistant Professor - Exercise Psychology" at the dash;
+    the full title is the last part of the <title> text, which the page
+    text opens with: "<site> | <job title> Skip to Main Content"."""
+    title, description = fetch_detail_generic(url)
+    m = re.match(r'\s*(.+?)\s+Skip to Main Content', (description or '')[:500])
+    if m and '|' in m.group(1):
+        title = m.group(1).rsplit('|', 1)[1].strip()
+    if not title:
+        raise RuntimeError('posting not on the page (closed?)')
+    return title[:250], description
+
+
+def fetch_detail_paycom(url):
+    """(title, description) for a Paycom posting. The rendered text opens
+    "<job title> You need to enable JavaScript to run this app."; taking the
+    title there keeps "Adjunct Faculty - Chiropractic Science (618)" whole
+    and never returns the "Loading..." placeholder of a slow page."""
+    title, description = fetch_detail_generic(url)
+    m = re.match(r'\s*(.{3,200}?)\s+You need to enable JavaScript', description or '')
+    if m:
+        title = m.group(1)
+    if not title or title.strip().lower().startswith('loading'):
+        title, description = fetch_detail_rendered_h1(url, 9000)
+    if not title or title.strip().lower().startswith('loading'):
+        raise RuntimeError('posting did not render (closed?)')
+    return title[:250], description
+
+
+def fetch_detail_neogov(url):
+    """(title, description) for a NEOGOV posting (schooljobs.com/careers/
+    <agency>/jobs/<id>/...). The job is in the static page; the generic
+    reader's text is the whole 100KB shell (sign-in forms, privacy text)
+    with the advert somewhere inside. The job title is the heading the
+    advert's own panel opens with (the agency name is a heading too)."""
+    from bs4 import BeautifulSoup
+    status, html = jlib.fetch_static(url, timeout=40)
+    if status != 200:
+        raise RuntimeError(f'job page status={status}')
+    soup = BeautifulSoup(html, 'html.parser')
+    body = soup.select_one('.tab-content') or soup.select_one('#details-info')
+    if body is None:
+        raise RuntimeError('posting not on the page (closed?)')
+    text = re.sub(r'\s+', ' ', body.get_text(' ', strip=True)).lstrip('\ufeff ')
+    heads = [re.sub(r'\s+', ' ', h.get_text(' ', strip=True)) for h in soup.select('h1, h2')]
+    title = max((h for h in heads if h and text.startswith(h)), key=len, default='')
+    if not title:
+        raise RuntimeError('posting not on the page (closed?)')
+    return title[:250], text[:20000]
+
+
+def fetch_detail_icims(url):
+    """(title, description) for an iCIMS posting. The advert sits in an
+    iframe, so the outer page reads "<job> in <city> | Careers at ..." with
+    a few hundred characters of chrome; ?in_iframe=1 returns the advert
+    itself."""
+    from bs4 import BeautifulSoup
+    status, html = jlib.fetch_static(url.split('?')[0] + '?in_iframe=1', timeout=40)
+    if status != 200:
+        raise RuntimeError(f'job page status={status}')
+    soup = BeautifulSoup(html, 'html.parser')
+    head = soup.find('h1')
+    body = soup.select_one('.iCIMS_JobContent') or soup.select_one('.iCIMS_MainWrapper')
+    if head is None or body is None:
+        raise RuntimeError('posting not on the page (closed?)')
+    title = re.sub(r'\s+', ' ', head.get_text(' ', strip=True))
+    text = re.sub(r'\s+', ' ', body.get_text(' ', strip=True))
+    return title[:250], re.sub(r'^Welcome page Returning Candidate\? Log back in! ', '', text)[:20000]
+
+
+def fetch_detail_paycor(url):
+    """(title, description) for a Paycor posting (JobIntroduction.action).
+    The page has no heading; the advert opens "Position: <title> Location:"."""
+    title, description = fetch_detail_generic(url)
+    m = re.match(r'\s*Position:\s*(.+?)\s+Location:', description or '')
+    if m:
+        title = m.group(1)
+    if not title:
+        raise RuntimeError('posting not on the page (closed?)')
+    return title[:250], description
 
 
 def fetch_detail_cu_taleo(url):

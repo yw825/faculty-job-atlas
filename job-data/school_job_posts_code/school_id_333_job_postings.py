@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 333 - Saint Ambrose University (US)
 ATS platform: own website
-Careers link: https://sau.edu/about-sau/employment/
+Careers link: https://stambroseuniv.applicantlist.com/jobs/
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -20,6 +20,12 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_333_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_333_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Careers link corrected in the audit to the school's ApplicantPro board,
+whose list is drawn by JavaScript.
+The board writes its own host with a capital S (Stambroseuniv...), so job
+ids are collected and the links rebuilt on the lower-case host.
 """
 import os
 import re
@@ -31,19 +37,18 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 333
 SCHOOL_NAME = 'Saint Ambrose University'
-CAREERS_LINK = 'https://sau.edu/about-sau/employment/'
+CAREERS_LINK = 'https://stambroseuniv.applicantlist.com/jobs/'
 ATS_PLATFORM = 'own website'
+
+POSTING_RE = re.compile(r'^https://stambroseuniv\.applicantlist\.com/jobs/\d+/?$')
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    html = lib._fetch_rendered_retry(CAREERS_LINK, 6000)
+    ids = dict.fromkeys(re.findall(r'applicantlist\.com/jobs/(\d+)', html, re.I))
+    return [f'https://stambroseuniv.applicantlist.com/jobs/{i}' for i in ids]
 
 
 def main():
