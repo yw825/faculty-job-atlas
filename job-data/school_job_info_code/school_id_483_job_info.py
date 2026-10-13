@@ -33,18 +33,17 @@ CAREERS_LINK = 'https://www.unionky.edu/about/human-resources/employment-opportu
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 
+DOC_RE = r'^https://irp\.cdn-website\.com/[^?]+\.pdf$'
+
+SKIP = r'(?i)calendar|campus map|handbook|catalog'
+
 JOB_POSTINGS_CHECKPOINT = os.path.join(
     HERE, '..', 'school_job_posts_code', f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """This school's own detail-page logic, owned by this file. The default
-    renders the page, picks the most job-title-shaped heading, and takes the
-    visible text as the description. Override when a posting page needs
-    something else -- a nested iframe, a cookie gate, a PDF, or a title that
-    only exists in <title> (all of which came up in the non-US set)."""
-    return jinfo.fetch_detail_generic(url)
-
+    """an advert published as a document; its title is the link text on the listing page."""
+    return jinfo.fetch_detail_linked_document(url, jinfo.jlib.linked_documents(CAREERS_LINK, DOC_RE, skip_text=SKIP, render=True))
 
 
 def main():

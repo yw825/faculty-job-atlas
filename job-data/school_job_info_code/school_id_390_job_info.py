@@ -33,18 +33,15 @@ CAREERS_LINK = 'https://www.eureka.edu/employment'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 
+CLIENT = '8a7883c6889839e90188a0ea78030210'
+
 JOB_POSTINGS_CHECKPOINT = os.path.join(
     HERE, '..', 'school_job_posts_code', f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """This school's own detail-page logic, owned by this file. The default
-    renders the page, picks the most job-title-shaped heading, and takes the
-    visible text as the description. Override when a posting page needs
-    something else -- a nested iframe, a cookie gate, a PDF, or a title that
-    only exists in <title> (all of which came up in the non-US set)."""
-    return jinfo.fetch_detail_generic(url)
-
+    """the opening's Paycor advert, read inside the college's employment page."""
+    return jinfo.fetch_detail_paycor(url, parent=CAREERS_LINK)
 
 
 def main():

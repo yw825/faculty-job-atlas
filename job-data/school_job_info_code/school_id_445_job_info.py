@@ -41,12 +41,8 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint
 
 
 def fetch_detail(url):
-    """Notre Dame's faculty openings are Interfolio postings, so each one is
-    read individually. main() used to call the bulk path pinned to
-    'smartrecruiters', which failed on every run once the school was
-    repointed at its faculty page: that adapter parses a company slug out of
-    a smartrecruiters URL, and facultypositions.nd.edu has none."""
-    return jinfo.fetch_detail_generic(url)
+    """Notre Dame's faculty openings are Interfolio postings, read from Interfolio's own position service (the rendered page often shows only "Apply")."""
+    return jinfo.fetch_detail_interfolio(url)
 
 
 def main():

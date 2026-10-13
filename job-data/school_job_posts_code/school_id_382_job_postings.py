@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 382 - University of Chicago (US)
 ATS platform: own website
-Careers link: https://voices.uchicago.edu/interfolio/academic-jobs/
+Careers link: https://academicjobs.uchicago.edu/positions
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -20,6 +20,11 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_382_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_382_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Careers link corrected in the audit to the University's academic jobs
+site. Its list shows 10 of several hundred positions and pages by a
+"show N" drop-down, which is set to its largest value.
 """
 import os
 import re
@@ -31,19 +36,16 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 382
 SCHOOL_NAME = 'University of Chicago'
-CAREERS_LINK = 'https://voices.uchicago.edu/interfolio/academic-jobs/'
+CAREERS_LINK = 'https://academicjobs.uchicago.edu/positions'
 ATS_PLATFORM = 'own website'
+
+POSTING_RE = re.compile(r'^https://academicjobs\.uchicago\.edu/positions/\d+$')
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    return lib.scrape_page_size_all(CAREERS_LINK, POSTING_RE)
 
 
 def main():

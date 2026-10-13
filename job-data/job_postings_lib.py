@@ -869,6 +869,11 @@ def scrape_adp(url):
             break
         data = json.loads(text)
         batch = data.get('jobRequisitions') or []
+        if not batch and skip == 0 and '&ccId=' not in base and cc_id != '19000101_000001':
+            # Georgetown College's board (workforcenow.cloud.adp.com) lists
+            # nothing unless its own career-centre id rides along.
+            base += f'&ccId={cc_id}'
+            continue
         if not batch:
             break
         if total is None:
@@ -2024,18 +2029,28 @@ def scrape_uh_campus(campus):
     return links
 
 
-def scrape_paycor_frame(page_url, wait_ms=8000):
-    """Paycor postings shown inside a school's own page. Some Paycor boards
-    refuse to open on their own -- Wartburg's CareerHome address bounces
-    straight back to wartburg.edu/hr/positions/ -- so the list only exists
-    inside the iframe on the school's page. Returns each posting as
-    JobIntroduction.action?clientId=<id>&id=<job>, without the tracking
-    parameters and HTML escapes the frame's own links carry."""
-    b = get_browser()
-    if b is None:
-        raise RuntimeError('playwright unavailable')
-    page = b.new_page(user_agent=UA)
-    found = []
+_PAYCOR_FRAME_CACHE = {}
+
+
+def paycor_frame_jobs(page_url, wait_ms=8000, real_chrome=False):
+    """[(client id, job id, title)] for the Paycor board shown inside a
+    school page (or the board page itself). Some Paycor boards refuse to
+    open on their own -- Wartburg's CareerHome address bounces straight back
+    to wartburg.edu/hr/positions/ -- so the list only exists inside the
+    iframe on the school's page. The link text is kept because some
+    tenants' adverts carry no title of their own. `real_chrome` is for
+    school pages that refuse the headless browser. Cached per process."""
+    key = (page_url, real_chrome)
+    if key in _PAYCOR_FRAME_CACHE:
+        return _PAYCOR_FRAME_CACHE[key]
+    if real_chrome:
+        page = get_real_chrome().new_page()
+    else:
+        b = get_browser()
+        if b is None:
+            raise RuntimeError('playwright unavailable')
+        page = b.new_page(user_agent=UA)
+    jobs = []
     try:
         page.goto(page_url, timeout=60000, wait_until='domcontentloaded')
         for _ in range(5):            # the frame can take half a minute on a busy machine
@@ -2045,13 +2060,30 @@ def scrape_paycor_frame(page_url, wait_ms=8000):
                     html = frame.content()
                 except Exception:
                     continue
-                found += re.findall(r'JobIntroduction\.action\?clientId=([0-9a-zA-Z]+)&(?:amp;)?id=([0-9a-zA-Z]+)', html)
-            if found:
+                for a in BeautifulSoup(html, 'html.parser').find_all('a', href=True):
+                    m = re.search(r'JobIntroduction\.action\?clientId=([0-9a-zA-Z]+)&(?:amp;)?id=([0-9a-zA-Z]+)', a['href'])
+                    if m:
+                        title = a.get('ns-qa') or re.sub(r'\s+', ' ', a.get_text(' ', strip=True))
+                        jobs.append((m.group(1), m.group(2), title.strip()))
+            if jobs:
                 break
     finally:
         page.close()
-    return list(dict.fromkeys(
-        f'https://recruitingbypaycor.com/career/JobIntroduction.action?clientId={c}&id={j}' for c, j in found))
+    seen, out = set(), []
+    for client, job, title in jobs:
+        if job not in seen:
+            seen.add(job)
+            out.append((client, job, title))
+    _PAYCOR_FRAME_CACHE[key] = out
+    return out
+
+
+def scrape_paycor_frame(page_url, wait_ms=8000, real_chrome=False):
+    """Paycor postings shown inside a school's own page, each as
+    JobIntroduction.action?clientId=<id>&id=<job> -- without the tracking
+    parameters and HTML escapes the frame's own links carry."""
+    return [f'https://recruitingbypaycor.com/career/JobIntroduction.action?clientId={c}&id={j}'
+            for c, j, _title in paycor_frame_jobs(page_url, wait_ms, real_chrome)]
 
 
 _JICS_CACHE = {}
@@ -2094,6 +2126,397 @@ def jenzabar_positions(url):
         rows.append((slug, cells[0], cells[1], cells[2], cells[3], cells[4]))
     _JICS_CACHE[url] = rows
     return rows
+
+
+_PAYCOM_PREVIEW_CACHE = {}
+
+
+def paycom_previews(url):
+    """[(posting url, title, position type, locations)] for every job on a
+    Paycom board, read from the list service the portal itself calls
+    (.../api/ats/job-posting-previews/search). scrape_paycom returns only
+    the links; this also returns each job's location text, which is the
+    only thing that separates the campuses of a school whose campuses share
+    one board (Ottawa University: Ottawa KS, Overland Park KS, Brookfield
+    WI, Surprise AZ, plus "ALL LOCATIONS"). The location filter never
+    changes the page address, so there is no per-campus link to read.
+
+    The service wants the session token the portal obtains on load, so the
+    portal is opened once, its own first search request is captured, and
+    the same request is replayed with a page size that covers the board.
+    Cached per process."""
+    m = re.search(r'(?:clientkey=|/portal/)([A-Za-z0-9]{20,})', url)
+    if not m:
+        raise RuntimeError('no client key in paycom url')
+    key = m.group(1)
+    if key in _PAYCOM_PREVIEW_CACHE:
+        return _PAYCOM_PREVIEW_CACHE[key]
+    b = get_browser()
+    if b is None:
+        raise RuntimeError('playwright unavailable')
+    portal = f'https://www.paycomonline.net/v4/ats/web.php/portal/{key}/career-page'
+    page = b.new_page(user_agent=UA)
+    captured = []
+    page.on('request', lambda r: captured.append(r) if 'job-posting-previews/search' in r.url else None)
+    try:
+        page.goto(portal, timeout=60000, wait_until='domcontentloaded')
+        for _ in range(20):
+            if captured:
+                break
+            page.wait_for_timeout(1000)
+        if not captured:
+            raise RuntimeError('paycom portal made no job search request')
+        first = captured[0]
+        body = json.loads(first.post_data or '{}')
+        rows, skip, total = [], 0, None
+        for _ in range(40):
+            body.update(skip=skip, take=100)
+            resp = page.request.post(first.url, data=json.dumps(body), headers=first.headers)
+            if resp.status != 200:
+                raise RuntimeError(f'paycom search status={resp.status}')
+            data = resp.json()
+            batch = data.get('jobPostingPreviews') or []
+            total = data.get('jobPostingPreviewsCount', total)
+            rows += batch
+            skip += len(batch)
+            if not batch or (total is not None and skip >= total):
+                break
+    finally:
+        page.close()
+    out, seen = [], set()
+    for job in rows:
+        jid = job.get('jobId')
+        if not jid or jid in seen:
+            continue
+        seen.add(jid)
+        out.append((f'https://www.paycomonline.net/v4/ats/web.php/portal/{key}/jobs/{jid}',
+                    (job.get('jobTitle') or '').strip(), (job.get('positionType') or '').strip(),
+                    (job.get('locations') or '').strip()))
+    _PAYCOM_PREVIEW_CACHE[key] = out
+    return out
+
+
+_NEOGOV_JOBS_CACHE = {}
+
+
+def neogov_jobs(agency, folder='', max_pages=120):
+    """[{url, title, location, type, category, department}] for a NEOGOV
+    board, or for one department folder of a shared board (Northwestern
+    State's jobs are /careers/louisiana/northwesternstate, which the list
+    service knows as agency=louisiana&departmentFolder=northwesternstate).
+    `type` is the job type without its trailing salary note. Postings are
+    addressed on the host the careers link uses (schooljobs.com here; callers
+    may swap in governmentjobs.com, the same site)."""
+    key = (agency, folder)
+    if key in _NEOGOV_JOBS_CACHE:
+        return _NEOGOV_JOBS_CACHE[key]
+    jobs, seen = [], set()
+    for page in range(1, max_pages + 1):
+        status, html = fetch_static(
+            f'https://www.schooljobs.com/careers/home/index?agency={agency}'
+            + (f'&departmentFolder={folder}' if folder else '')
+            + f'&sort=PositionTitle&isDescendingSort=false&page={page}',
+            timeout=40, extra_headers={'X-Requested-With': 'XMLHttpRequest'})
+        if status != 200:
+            if page == 1:
+                raise RuntimeError(f'neogov list status={status}')
+            break
+        fresh = 0
+        for item in BeautifulSoup(html, 'html.parser').select('li.list-item'):
+            link = item.find('a', href=re.compile(r'/jobs/\d+'))
+            if link is None:
+                continue
+            url = 'https://www.schooljobs.com' + link['href'].split('?')[0]
+            if url in seen:
+                continue
+            seen.add(url)
+            fresh += 1
+            meta = [re.sub(r'\s+', ' ', li.get_text(' ', strip=True)) for li in item.select('.list-meta li')]
+            plain = [m for m in meta if not re.match(r'(Category|Department|Division):', m)]
+            field = lambda name: next((m.split(':', 1)[1].strip() for m in meta if m.startswith(name + ':')), '')
+            job_type = re.sub(r'\s+-\s+(?:\$|See\b|Depends\b|Commensurate\b|Negotiable\b|DOE\b|Not\b).*$', '',
+                              plain[1] if len(plain) > 1 else '').strip()
+            jobs.append({'url': url, 'title': re.sub(r'\s+', ' ', link.get_text(' ', strip=True)),
+                         'location': plain[0] if plain else '', 'type': job_type,
+                         'category': field('Category'), 'department': field('Department')})
+        if not fresh:
+            break
+    _NEOGOV_JOBS_CACHE[key] = jobs
+    return jobs
+
+
+def scrape_neogov_filtered(url):
+    """Postings on a NEOGOV board that the careers link's jobType filter is
+    MEANT to select. The board's own filter matches a job type's full name
+    only, so "?jobType[0]=Faculty" shows 0 jobs on a board whose types are
+    "Adjunct Faculty" / "Full-Time Faculty" / "9 Month Faculty" -- the
+    source of several "0 post" audit notes. Rule: a type that equals the
+    filter wins (Southern Illinois has a type called exactly "Faculty");
+    otherwise every job whose type or category CONTAINS the filter word is
+    taken. No filter on the link means the whole board. Unlike
+    scrape_schooljobs this never falls back to the unfiltered board, and an
+    empty result is a valid answer."""
+    from urllib.parse import urlsplit, parse_qsl
+    parts = urlsplit(url)
+    segs = [p for p in parts.path.split('/') if p]
+    if 'careers' not in segs or len(segs) < segs.index('careers') + 2:
+        raise RuntimeError('no agency in neogov url')
+    rest = segs[segs.index('careers') + 1:]
+    agency, folder = rest[0], (rest[1] if len(rest) > 1 and rest[1] != 'jobs' else '')
+    wanted = [v.strip().lower() for k, v in parse_qsl(parts.query) if k.lower().startswith('jobtype') and v.strip()]
+    jobs = neogov_jobs(agency, folder)
+    if not jobs and not wanted:
+        raise RuntimeError('neogov board returned no postings')
+    if wanted:
+        exact = [j for j in jobs if j['type'].lower() in wanted]
+        jobs = exact or [j for j in jobs if any(w in j['type'].lower() or w in j['category'].lower() for w in wanted)]
+    host = parts.netloc or 'www.schooljobs.com'
+    return [j['url'].replace('www.schooljobs.com', host) if host.endswith('governmentjobs.com') else j['url'] for j in jobs]
+
+
+def scrape_cornerstone_site(url):
+    """Cornerstone postings as the careers link itself shows them. The
+    shared scrape_cornerstone reads the whole board; this replays the
+    page's own search request, so a filter carried by the link
+    (...&cfdd[0][id]=276&cfdd[0][options][0]=849, Illinois' faculty
+    category) is kept. Postings are returned as
+    .../careersite/<n>/home/requisition/<id>?c=<client>, the address the
+    site itself uses -- the shorter /requisition/<id> form opens a sign-in
+    page for some tenants."""
+    b = get_browser()
+    if b is None:
+        raise RuntimeError('playwright unavailable')
+    page = b.new_page(user_agent=UA)
+    captured = []
+    page.on('request', lambda r: captured.append(r) if 'rec-job-search/external/jobs' in r.url else None)
+    try:
+        page.goto(url, timeout=60000, wait_until='domcontentloaded')
+        for _ in range(25):
+            if captured:
+                break
+            page.wait_for_timeout(1000)
+        if not captured:
+            raise RuntimeError('cornerstone page made no job search request')
+        first = captured[0]
+        body = json.loads(first.post_data or '{}')
+        ids, total, page_no = [], None, 1
+        for _ in range(60):
+            body.update(pageNumber=page_no, pageSize=25)
+            resp = page.request.post(first.url, data=json.dumps(body), headers=first.headers)
+            if resp.status != 200:
+                raise RuntimeError(f'cornerstone search status={resp.status}')
+            data = resp.json().get('data', {})
+            reqs = data.get('requisitions') or []
+            total = data.get('totalCount', total)
+            ids += [r.get('requisitionId') for r in reqs if r.get('requisitionId')]
+            if not reqs or (total is not None and len(ids) >= total):
+                break
+            page_no += 1
+    finally:
+        page.close()
+    parsed = urlparse(url)
+    client = (parse_qs(parsed.query).get('c') or [parsed.netloc.split('.')[0]])[0]
+    site = body.get('careerSitePageId') or body.get('careerSiteId')
+    return [f'https://{parsed.netloc}/ux/ats/careersite/{site}/home/requisition/{i}?c={client}'
+            for i in dict.fromkeys(ids)]
+
+
+def scrape_workable(url):
+    """Workable boards (apply.workable.com/<account>/). The page shows ten
+    jobs and a "Show more" button; its data service
+    (POST /api/v3/accounts/<account>/jobs) pages by a token. A posting is
+    /<account>/j/<shortcode>/."""
+    m = re.search(r'apply\.workable\.com/([^/?#]+)', url)
+    if not m:
+        raise RuntimeError('no workable account in url')
+    account = m.group(1)
+    body = {'query': '', 'location': [], 'department': [], 'worktype': [], 'remote': []}
+    links = []
+    for _ in range(60):
+        status, text = fetch_static(f'https://apply.workable.com/api/v3/accounts/{account}/jobs',
+                                    method='POST', json_body=body, timeout=40)
+        if status != 200:
+            raise RuntimeError(f'workable jobs status={status}')
+        data = json.loads(text)
+        for job in data.get('results') or []:
+            link = f"https://apply.workable.com/{account}/j/{job.get('shortcode')}/"
+            if job.get('shortcode') and link not in links:
+                links.append(link)
+        if not data.get('nextPage') or not data.get('results'):
+            break
+        body['token'] = data['nextPage']
+    return links
+
+
+def bamboohr_jobs(sub):
+    """[{id, jobOpeningName, departmentLabel, ...}] from a BambooHR careers
+    site (<sub>.bamboohr.com/careers); the page is an app over
+    /careers/list. A posting is /careers/<id>."""
+    status, text = fetch_static(f'https://{sub}.bamboohr.com/careers/list', timeout=40,
+                                extra_headers={'Accept': 'application/json'})
+    if status != 200:
+        raise RuntimeError(f'bamboohr list status={status}')
+    return json.loads(text).get('result') or []
+
+
+def scrape_paylocity_list(url):
+    """Paylocity job lists (recruiting.paylocity.com/Recruiting/Jobs/All/<guid>
+    or /List/<n>): the jobs are a JSON block in the page ("Jobs":[{"JobId":...}]),
+    drawn by script, so the HTML has no job links. `url` may carry the
+    board's own ?department= / ?location= filters, which are applied here
+    as the page applies them. A posting is /Recruiting/Jobs/Details/<JobId>."""
+    from urllib.parse import urlsplit, parse_qsl
+    status, html = fetch_static(url, timeout=40)
+    if status != 200:
+        raise RuntimeError(f'paylocity list status={status}')
+    m = re.search(r'"Jobs":(\[.*?\])\s*[,}]\s*"', html, re.S) or re.search(r'"Jobs":(\[.*\])', html, re.S)
+    if not m:
+        raise RuntimeError('paylocity page has no job data')
+    try:
+        jobs = json.JSONDecoder().raw_decode(html, m.start(1))[0]
+    except ValueError:
+        raise RuntimeError('paylocity job data unreadable')
+    want = {k.lower(): v.strip().lower() for k, v in parse_qsl(urlsplit(url).query)}
+    links = []
+    for job in jobs:
+        dept = (job.get('HiringDepartment') or job.get('Department') or '').strip().lower()
+        loc = (job.get('LocationName') or '').strip().lower()
+        if want.get('department') and dept != want['department']:
+            continue
+        if want.get('location') and loc != want['location']:
+            continue
+        if job.get('JobId'):
+            links.append(f"https://recruiting.paylocity.com/Recruiting/Jobs/Details/{job['JobId']}")
+    return list(dict.fromkeys(links))
+
+
+def scrape_interviewexchange(url, host=None):
+    """InterviewExchange postings linked from `url` (the board itself, or a
+    school page that links or embeds it), as
+    https://<client>.interviewexchange.com/jobofferdetails.jsp?JOBID=<id>.
+    The board's links are relative and pages link the apply form
+    (candapply.jsp) as often as the advert, so job ids are collected and
+    the advert address rebuilt."""
+    html = _fetch_rendered_retry(url, 6000)
+    host = host or urlparse(url).netloc
+    if not host.endswith('interviewexchange.com'):
+        m = re.search(r'([a-z0-9-]+\.interviewexchange\.com)', html)
+        if not m:
+            raise RuntimeError('no interviewexchange board on the page')
+        host = m.group(1)
+    ids = dict.fromkeys(re.findall(r'(?:jobofferdetails|candapply)\.jsp\?JOBID=(\d+)', html))
+    return [f'https://{host}/jobofferdetails.jsp?JOBID={i}' for i in ids]
+
+
+def scrape_taleo_classic(list_url):
+    """Classic Taleo job lists (joblist.ftl) whose rows are "#" links that
+    open the advert by script. The page carries every listed job's number
+    in its hidden state field ("(Job Number\\: 2600001D)"); a posting is
+    jobdetail.ftl?job=<number>. Columbia College Chicago lists 16."""
+    html = _fetch_rendered_retry(list_url, 7000)
+    numbers = dict.fromkeys(re.findall(r'Job Number(?:%5C)?\\?:\s*([0-9A-Za-z_-]+)\)', html))
+    if not numbers:
+        raise RuntimeError('taleo list shows no job numbers')
+    base = list_url.split('joblist.ftl')[0]
+    return [f'{base}jobdetail.ftl?job={n}' for n in numbers]
+
+
+def scrape_page_size_all(url, link_re, select_selector='select', wait_ms=6000):
+    """Posting links from a list that is paged IN the page by a "show N
+    entries" drop-down (DataTables and the like): KU's faculty list shows 25
+    of 31, the University of Chicago's 10 of 383, and neither has a
+    next-page link to follow. Every such drop-down is set to its largest
+    choice (or "All"), then the links matching `link_re` are read."""
+    from urllib.parse import urljoin
+    b = get_browser()
+    if b is None:
+        raise RuntimeError('playwright unavailable')
+    page = b.new_page(user_agent=UA)
+    try:
+        page.goto(url, timeout=60000, wait_until='domcontentloaded')
+        page.wait_for_timeout(wait_ms)
+        for sel in page.query_selector_all(select_selector):
+            best, best_n = None, -1
+            for opt in sel.query_selector_all('option'):
+                value = (opt.get_attribute('value') or '').strip()
+                label = (opt.inner_text() or '').strip().lower()
+                n = 10 ** 9 if value == '-1' or label == 'all' else (int(value) if value.isdigit() else -1)
+                if n > best_n:
+                    best, best_n = value, n
+            if best is not None and best_n > 0:
+                try:
+                    sel.select_option(best)
+                    page.wait_for_timeout(3500)
+                except Exception:
+                    continue
+        html = page.content()
+    finally:
+        page.close()
+    links = []
+    for href in re.findall(r'href=["\']([^"\']+)["\']', html):
+        full = urljoin(url, href.replace('&amp;', '&')).split('#')[0]
+        if link_re.search(full) and full not in links:
+            links.append(full)
+    return links
+
+
+def fetch_real_chrome(url, wait_ms=8000):
+    """Page HTML read with the installed Chrome rather than the bundled
+    headless browser. A few school sites answer the headless browser with
+    "403 Forbidden" or a "Checking your browser..." page that never clears
+    (Franklin College, Brescia, Hanover) but serve a normal browser at once.
+    No check is solved or bypassed -- if a real browser is challenged too,
+    this raises like any other failed load."""
+    page = get_real_chrome().new_page()
+    try:
+        page.goto(url, timeout=60000, wait_until='domcontentloaded')
+        page.wait_for_timeout(wait_ms)
+        html = page.content()
+    finally:
+        page.close()
+    if is_fetch_failure(html) or re.search(r'<title>\s*(?:403\b|Checking your browser|Just a moment)', html or '', re.I):
+        raise RuntimeError('page refused the browser')
+    return html
+
+
+_LINKED_DOC_CACHE = {}
+
+
+def linked_documents(url, href_re, skip_text=None, only_text=None, render=False, real_chrome=False):
+    """[(absolute url, link text)] for the documents a page links in its
+    main content -- small colleges publish each opening as a PDF or Word
+    file whose only title is the link text ("Faculty: Adjunct Nursing
+    Clinical Position"). Menus, header and footer are dropped; `href_re`
+    selects the files, `skip_text` / `only_text` (regexes on the link text)
+    separate adverts from handbooks and forms. Cached per process."""
+    from urllib.parse import urljoin
+    key = (url, href_re, skip_text, only_text)
+    if key in _LINKED_DOC_CACHE:
+        return _LINKED_DOC_CACHE[key]
+    if real_chrome:
+        html = fetch_real_chrome(url)
+    elif render:
+        html = _fetch_rendered_retry(url, 5000)
+    else:
+        status, html = fetch_static(url, timeout=40)
+        if status != 200 or not html:
+            html = _fetch_rendered_retry(url, 5000)
+    soup = BeautifulSoup(html, 'html.parser')
+    base = (soup.find('base', href=True) or {}).get('href') or url
+    for tag in soup.select('nav, header, footer, script, style'):
+        tag.decompose()
+    out, seen = [], set()
+    for a in soup.find_all('a', href=True):
+        full = urljoin(base, a['href'].strip()).split('#')[0]
+        text = re.sub(r'\s+', ' ', a.get_text(' ', strip=True))
+        if not re.search(href_re, full) or full in seen:
+            continue
+        if (skip_text and re.search(skip_text, text)) or (only_text and not re.search(only_text, text)):
+            continue
+        seen.add(full)
+        out.append((full, text))
+    _LINKED_DOC_CACHE[key] = out
+    return out
 
 
 TALEO_POSTING_HREF_RE = re.compile(r'(viewRequisition|applyRequisition|jobdetail\.ftl)', re.I)

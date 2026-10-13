@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 392 - Knox College
 ATS platform: ADP Workforce Now (detected: adp)
-Careers link: https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=ced18917-a7d8-4729-8bf3-9b2aa345c933&ccId=19000101_000001&type=JS&lang=en_US
+Careers link: https://www.knox.edu/employment-at-knox/faculty
 
 Knox College runs on a shared ATS platform, so this calls the shared
 job_postings_lib.scrape_adp adapter rather than duplicating
@@ -18,8 +18,13 @@ instead of editing the shared adapter.
 
 Writes school_job_posts/school_id_392_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_392_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+The faculty page links each opening as a PDF under Faculty_Job_Listings.
+The faculty page links each opening as a PDF under Faculty_Job_Listings.
 """
 import os
+import re
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -28,16 +33,23 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 392
 SCHOOL_NAME = 'Knox College'
-CAREERS_LINK = 'https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=ced18917-a7d8-4729-8bf3-9b2aa345c933&ccId=19000101_000001&type=JS&lang=en_US'
+CAREERS_LINK = 'https://www.knox.edu/employment-at-knox/faculty'
 ATS_PLATFORM = 'ADP Workforce Now'
 PLATFORM = 'adp'
+
+POSTING_RE = re.compile(r'/documents/HR/Faculty_Job_Listings/[^/]+\.pdf$')
+
+DOC_RE = r'/documents/HR/Faculty_Job_Listings/[^/]+\.pdf$'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
+def find_links():
+    return [link for link, _text in lib.linked_documents(CAREERS_LINK, DOC_RE)]
+
+
 def main():
-    result = lib.run_platform_school(SCHOOL_ID, SCHOOL_NAME, CAREERS_LINK,
-                                     CHECKPOINT_PATH, platform=PLATFORM)
+    result = lib.run_checkpointed(SCHOOL_ID, CHECKPOINT_PATH, find_links)
     err = result.get('last_error', '')
     print(f"{SCHOOL_NAME} (id={SCHOOL_ID}): status={result['status']} "
           f"links={len(result['links'])}" + (f" ERROR: {err}" if err else ''))

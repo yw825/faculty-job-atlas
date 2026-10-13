@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 528 - Louisiana State University-Shreveport (US)
 ATS platform: own website
-Careers link: https://lsus.edu2.com/topic/programsteps
+Careers link: https://www.lsus.edu/faculty-and-staff/human-resources/employment-opportunities
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -20,6 +20,10 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_528_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_528_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Faculty openings are Word documents linked from the page (the audit's
+example); classified staff openings link to the state's NEOGOV board.
 """
 import os
 import re
@@ -34,20 +38,13 @@ SCHOOL_NAME = 'Louisiana State University-Shreveport'
 CAREERS_LINK = 'https://www.lsus.edu/faculty-and-staff/human-resources/employment-opportunities'
 ATS_PLATFORM = 'own website'
 
+DOC_RE = r'(?:/Documents/HR/Job%20Opportunities/[^/]+\.docx$|governmentjobs\.com/careers/louisiana/jobs/\d+/)'
+
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    """NOTE: careers_link was corrected by hand to this school's real
-    employment page, which is the right page for a human -- but it is NOT
-    machine-readable as a listing: it links out to an ATS or names no
-    postings, and every extractor tried returned the site's navigation
-    ("Find Your Way Around Campus!", "Sign in to your account") rather
-    than jobs. Those rows were removed; an empty file is correct here
-    until this school's real board is located."""
-    """CUSTOMIZED: careers_link was corrected by hand (was a course-catalog page on a marketing subdomain).
-    Postings are matched by job word first, by repeated URL shape second."""
-    return lib.scrape_listing(CAREERS_LINK)
+    return [link for link, _text in lib.linked_documents(CAREERS_LINK, DOC_RE, render=True)]
 
 
 def main():

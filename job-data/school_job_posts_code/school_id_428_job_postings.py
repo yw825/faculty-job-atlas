@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 428 - DePauw University (US)
 ATS platform: own website
-Careers link: https://www.depauw.edu/offices/human-resources/employment/
+Careers link: https://www.depauw.edu/offices/academic-affairs/open-faculty-positions-2/
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -20,6 +20,11 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_428_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_428_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Careers link corrected in the audit to the open-faculty-positions page,
+which links each opening on DePauw's Workday board. Only the openings that
+page lists are kept, in the board's own address form.
 """
 import os
 import re
@@ -31,19 +36,20 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 428
 SCHOOL_NAME = 'DePauw University'
-CAREERS_LINK = 'https://www.depauw.edu/offices/human-resources/employment/'
+CAREERS_LINK = 'https://www.depauw.edu/offices/academic-affairs/open-faculty-positions-2/'
 ATS_PLATFORM = 'own website'
+
+BOARD = 'https://depauw.wd5.myworkdayjobs.com/DePauw_University'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    html = lib._fetch_rendered_retry(CAREERS_LINK, 5000)
+    listed = set(re.findall(r'myworkdayjobs\.com/[^"\']*?/details/([^"\'?#/]+)', html))
+    if not listed:
+        raise RuntimeError('faculty positions page lists no Workday postings')
+    return [u for u in lib.PLATFORM_ADAPTERS['workday'](BOARD, SCHOOL_NAME) if u.rsplit('/', 1)[1] in listed]
 
 
 def main():

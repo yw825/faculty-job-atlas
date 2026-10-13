@@ -20,6 +20,14 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_460_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_460_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+The open-positions page links each opening by its upper-case title to a
+page at the site root.
+The open-positions page lists each opening in a table, linked by its
+title to a page at the site root (the site menu shares that link shape).
+The open-positions page lists each opening in a table, linked by its
+title to a page at the site root (the site menu shares that link shape).
 """
 import os
 import re
@@ -34,16 +42,17 @@ SCHOOL_NAME = 'Emporia State University'
 CAREERS_LINK = 'https://hr.hornet365.com/open-positions'
 ATS_PLATFORM = 'own website'
 
+SKIP = ('/password-help', '/open-positions')
+
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    from bs4 import BeautifulSoup
+    from urllib.parse import urljoin
+    soup = BeautifulSoup(lib._fetch_rendered_retry(CAREERS_LINK, 5000), 'html.parser')
+    links = [urljoin(CAREERS_LINK, a['href']) for a in soup.select('div.table-wrapper a[href]') if re.fullmatch(r'/[a-z0-9-]+', a['href'])]
+    return list(dict.fromkeys(links))
 
 
 def main():

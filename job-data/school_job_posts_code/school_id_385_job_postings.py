@@ -22,6 +22,9 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_385_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_385_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+The HR page's "Faculty & Staff Openings" button opens the university's ADP board.
 """
 import os
 import re
@@ -36,16 +39,13 @@ SCHOOL_NAME = 'Trinity International University-Illinois'
 CAREERS_LINK = 'https://www.tiu.edu/human-resources/'
 ATS_PLATFORM = 'own website'
 
+BOARD = 'https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=000e9ccc-ecf1-448b-b0fb-65f550062347&ccId=19000101_000001&lang=en_US'
+
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    return lib.PLATFORM_ADAPTERS['adp'](BOARD, SCHOOL_NAME)
 
 
 def main():

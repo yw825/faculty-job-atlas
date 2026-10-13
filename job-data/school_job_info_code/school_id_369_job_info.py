@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 369 - University of Illinois Urbana-Champaign (US)
 ATS platform: own website
-Careers link: https://humanresources.illinois.edu/job-seekers/?utm_source=illinois_homepage&utm_medium=referral&utm_campaign=footer
+Careers link: https://illinois.csod.com/ux/ats/careersite/1/home?c=illinois&cfdd[0][id]=276&cfdd[0][options][0]=849
 
 Reads posting URLs from school_id_369_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 369
 SCHOOL_NAME = 'University of Illinois Urbana-Champaign'
-CAREERS_LINK = 'https://humanresources.illinois.edu/job-seekers/?utm_source=illinois_homepage&utm_medium=referral&utm_campaign=footer'
+CAREERS_LINK = 'https://illinois.csod.com/ux/ats/careersite/1/home?c=illinois&cfdd[0][id]=276&cfdd[0][options][0]=849'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 
@@ -38,13 +38,8 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """This school's own detail-page logic, owned by this file. The default
-    renders the page, picks the most job-title-shaped heading, and takes the
-    visible text as the description. Override when a posting page needs
-    something else -- a nested iframe, a cookie gate, a PDF, or a title that
-    only exists in <title> (all of which came up in the non-US set)."""
-    return jinfo.fetch_detail_generic(url)
-
+    """Cornerstone posting; the title is the text before "| Job Details"."""
+    return jinfo.fetch_detail_cornerstone(url)
 
 
 def main():

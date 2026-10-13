@@ -33,18 +33,15 @@ CAREERS_LINK = 'https://www.quincy.edu/about/work-at-qu/job-openings/'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 
+HEADER = 'details > summary'
+
 JOB_POSTINGS_CHECKPOINT = os.path.join(
     HERE, '..', 'school_job_posts_code', f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """This school's own detail-page logic, owned by this file. The default
-    renders the page, picks the most job-title-shaped heading, and takes the
-    visible text as the description. Override when a posting page needs
-    something else -- a nested iframe, a cookie gate, a PDF, or a title that
-    only exists in <title> (all of which came up in the non-US set)."""
-    return jinfo.fetch_detail_generic(url)
-
+    """one expandable section of the page."""
+    return jinfo.fetch_detail_accordion(url, HEADER, render=True)
 
 
 def main():

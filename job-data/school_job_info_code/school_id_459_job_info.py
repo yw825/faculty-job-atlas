@@ -33,18 +33,18 @@ CAREERS_LINK = 'https://www.bakeru.edu/about-baker/careers-baker'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 
+HEADER = 'li.accordion-item > button'
+
 JOB_POSTINGS_CHECKPOINT = os.path.join(
     HERE, '..', 'school_job_posts_code', f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """This school's own detail-page logic, owned by this file. The default
-    renders the page, picks the most job-title-shaped heading, and takes the
-    visible text as the description. Override when a posting page needs
-    something else -- a nested iframe, a cookie gate, a PDF, or a title that
-    only exists in <title> (all of which came up in the non-US set)."""
-    return jinfo.fetch_detail_generic(url)
-
+    """one expandable section of the careers page. Its heading is the office and
+    posting date; the job title is in the section's own text."""
+    title, text = jinfo.fetch_detail_accordion(url, HEADER, render=True)
+    m = re.search(r'\bThe ([A-Z][\w&,/\- ]{5,90}?) (?:provides|is responsible|is a|will|reports|serves|leads|oversees|manages)\b', text)
+    return (m.group(1) if m else title)[:250], text
 
 
 def main():

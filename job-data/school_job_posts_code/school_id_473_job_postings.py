@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 473 - Ottawa University-Ottawa (US)
 ATS platform: Paycom (detected: paycom)
-Careers link: https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=AB201C499D53A5D603D5BE296513B383
+Careers link: https://www.paycomonline.net/v4/ats/web.php/portal/AB201C499D53A5D603D5BE296513B383/career-page
 
 Ottawa University-Ottawa runs on a shared ATS platform -- every school on paycom uses the
 same underlying site software, so this calls the shared
@@ -14,8 +14,14 @@ NOTE: 3 schools list against this same URL, so this listing carries every one of
 
 Writes school_job_posts/school_id_473_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_473_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+All Ottawa University campuses share one Paycom board and its location
+filter has no address of its own, so this campus's postings are the ones
+whose location names Ottawa, KS (plus the few marked "ALL LOCATIONS").
 """
 import os
+import re
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -24,16 +30,21 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 473
 SCHOOL_NAME = 'Ottawa University-Ottawa'
-CAREERS_LINK = 'https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=AB201C499D53A5D603D5BE296513B383'
+CAREERS_LINK = 'https://www.paycomonline.net/v4/ats/web.php/portal/AB201C499D53A5D603D5BE296513B383/career-page'
 ATS_PLATFORM = 'Paycom'
 PLATFORM = 'paycom'
+
+PLACES = ('Ottawa, KS', 'ALL LOCATIONS')
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
+def find_links():
+    return [url for url, _title, _type, where in lib.paycom_previews(CAREERS_LINK) if any(p in where for p in PLACES)]
+
+
 def main():
-    result = lib.run_platform_school(SCHOOL_ID, SCHOOL_NAME, CAREERS_LINK,
-                                     CHECKPOINT_PATH, platform=PLATFORM)
+    result = lib.run_checkpointed(SCHOOL_ID, CHECKPOINT_PATH, find_links)
     err = result.get('last_error', '')
     print(f"{SCHOOL_NAME} (id={SCHOOL_ID}): status={result['status']} "
           f"links={len(result['links'])}" + (f" ERROR: {err}" if err else ''))

@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 434 - Marian University (US)
 ATS platform: own website
-Careers link: https://marian.elluciancrmrecruit.com/Apply/Account/Create?f=a0ee650e-16a5-4b95-b901-c5b3f4d00dd4&o=a3e67df5-dead-4937-a82d-f42c212e56d1&IsInquiry=True
+Careers link: https://marian.rec.pro.ukg.net/MAR1500MNUI/JobBoard/fde73847-46d9-4c8a-924e-a28b5c630bfc/?q=&o=postedDateDesc
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -20,6 +20,9 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_434_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_434_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Careers link corrected in the audit to the university's UKG job board.
 """
 import os
 import re
@@ -31,19 +34,14 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 434
 SCHOOL_NAME = 'Marian University'
-CAREERS_LINK = 'https://www.marian.edu/human-resources/index.php'
+CAREERS_LINK = 'https://marian.rec.pro.ukg.net/MAR1500MNUI/JobBoard/fde73847-46d9-4c8a-924e-a28b5c630bfc/?q=&o=postedDateDesc'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    return lib.scrape_ultipro(CAREERS_LINK)
 
 
 def main():

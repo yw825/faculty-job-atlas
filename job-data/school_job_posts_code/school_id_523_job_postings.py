@@ -1,11 +1,11 @@
 """
-Job postings scraper for school_id 523 - University of New Orleans (US)
+Job postings scraper for school_id 523 - Louisiana State University-New Orleans (US)
 ATS platform: own website
-Careers link: https://www.uno.edu/careers
+Careers link: https://ulsuno.wd1.myworkdayjobs.com/UniversityOfNewOrleans?jobFamilyGroup=2c405185165b01e821851c53b0022f7b
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
-directly to fix or improve results for University of New Orleans; nothing here affects any
+directly to fix or improve results for Louisiana State University-New Orleans; nothing here affects any
 other school's script.
 
 Link check (ok): 5 posting-shaped links found.
@@ -20,6 +20,11 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_523_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_523_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Careers link corrected to the university's own Workday board with its
+Faculty job category selected (unfiltered it also lists state-contract staff
+jobs in Baton Rouge).
 """
 import os
 import re
@@ -30,20 +35,15 @@ sys.path.insert(0, os.path.dirname(HERE))
 import job_postings_lib as lib
 
 SCHOOL_ID = 523
-SCHOOL_NAME = 'University of New Orleans'
-CAREERS_LINK = 'https://www.uno.edu/careers'
+SCHOOL_NAME = 'Louisiana State University-New Orleans'
+CAREERS_LINK = 'https://ulsuno.wd1.myworkdayjobs.com/UniversityOfNewOrleans?jobFamilyGroup=2c405185165b01e821851c53b0022f7b'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    return lib.PLATFORM_ADAPTERS['workday'](CAREERS_LINK, SCHOOL_NAME)
 
 
 def main():

@@ -1,9 +1,9 @@
 """
-Job info scraper for school_id 417 - Trine University-Regional/Non-Traditional Campuses (US)
-ATS platform: own website
-Careers link: https://www.trine.edu/human-resources/careers/index.aspx
+Job info scraper for school_id 1924 - Louisiana State University-Health Sciences Center New Orleans (US)
+ATS platform: Workday
+Careers link: https://careers.lsuhsc.edu/jobs/search?page=1&employment_type_uids%5B%5D=9290c84c437e451fd084a786a6367d37&query=
 
-Reads posting URLs from school_id_417_job_postings.checkpoint (this
+Reads posting URLs from school_id_1924_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
 position_type, job_term, department_or_school, area_key_words,
 deadline_of_application, position_start_date.
@@ -15,8 +15,8 @@ and 1 read out of its teaching sentences. Set USE_LLM = True once
 ANTHROPIC_API_KEY is available for a real read of those sentences instead
 of the local heuristic.
 
-Writes school_job_info/school_id_417_job_info.csv. Checkpointed to
-school_id_417_job_info.checkpoint next to this script -- kill-and-resume,
+Writes school_job_info/school_id_1924_job_info.csv. Checkpointed to
+school_id_1924_job_info.checkpoint next to this script -- kill-and-resume,
 per-posting granularity.
 """
 import os
@@ -27,10 +27,10 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.dirname(HERE))
 import job_info_lib as jinfo
 
-SCHOOL_ID = 417
-SCHOOL_NAME = 'Trine University-Regional/Non-Traditional Campuses'
-CAREERS_LINK = 'https://www.trine.edu/human-resources/careers/index.aspx'
-ATS_PLATFORM = 'own website'
+SCHOOL_ID = 1924
+SCHOOL_NAME = 'Louisiana State University-Health Sciences Center New Orleans'
+CAREERS_LINK = 'https://careers.lsuhsc.edu/jobs/search?page=1&employment_type_uids%5B%5D=9290c84c437e451fd084a786a6367d37&query='
+ATS_PLATFORM = 'Workday'
 USE_LLM = False
 
 JOB_POSTINGS_CHECKPOINT = os.path.join(
@@ -38,13 +38,8 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """This school's own detail-page logic, owned by this file. The default
-    renders the page, picks the most job-title-shaped heading, and takes the
-    visible text as the description. Override when a posting page needs
-    something else -- a nested iframe, a cookie gate, a PDF, or a title that
-    only exists in <title> (all of which came up in the non-US set)."""
-    return jinfo.fetch_detail_generic(url)
-
+    """the page text opens "<job> - <city>, <state>, United States"; the full title is taken there."""
+    return jinfo.fetch_detail_board_title(url)
 
 
 def main():

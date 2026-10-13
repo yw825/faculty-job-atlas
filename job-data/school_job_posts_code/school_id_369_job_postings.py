@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 369 - University of Illinois Urbana-Champaign (US)
 ATS platform: own website
-Careers link: https://humanresources.illinois.edu/job-seekers/?utm_source=illinois_homepage&utm_medium=referral&utm_campaign=footer
+Careers link: https://illinois.csod.com/ux/ats/careersite/1/home?c=illinois&cfdd[0][id]=276&cfdd[0][options][0]=849
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -20,6 +20,11 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_369_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_369_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Read with the page's own search request, so a filter carried by the link
+(cfdd = the faculty category) is kept, and postings are stored in the
+.../home/requisition/<id>?c=<client> form the site itself uses.
 """
 import os
 import re
@@ -31,16 +36,14 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 369
 SCHOOL_NAME = 'University of Illinois Urbana-Champaign'
-CAREERS_LINK = 'https://humanresources.illinois.edu/job-seekers/?utm_source=illinois_homepage&utm_medium=referral&utm_campaign=footer'
+CAREERS_LINK = 'https://illinois.csod.com/ux/ats/careersite/1/home?c=illinois&cfdd[0][id]=276&cfdd[0][options][0]=849'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    """CUSTOMIZED: postings here carry no job word in the link, so they are
-    found by URL shape instead of by keyword."""
-    return lib.scrape_structural(CAREERS_LINK)
+    return lib.scrape_cornerstone_site(CAREERS_LINK)
 
 
 def main():

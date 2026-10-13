@@ -1,9 +1,9 @@
 """
-Job postings scraper for school_id 510 - Louisiana State University and Agricultural & Mechanical College (US)
+Job postings scraper for school_id 510 - Louisiana State University-Baton Rouge (US)
 ATS platform: Workday (detected: workday)
-Careers link: https://lsu.wd1.myworkdayjobs.com/LSU?hiringCompany=7a9995fc77aa101f333e6ab01401289b
+Careers link: https://lsu.wd1.myworkdayjobs.com/LSU?hiringCompany=7a9995fc77aa101f333e6ab01401289b&workerSubType=7a9995fc77aa101fcf3b27f556ddb30b
 
-Louisiana State University and Agricultural & Mechanical College runs on a
+Louisiana State University-Baton Rouge runs on a
 shared ATS platform -- every school on workday uses the same underlying site
 software, so this calls the shared job_postings_lib.scrape_workday adapter
 rather than duplicating platform-specific logic here. If results for THIS
@@ -27,8 +27,13 @@ despite the shared name, and is not included here.
 
 Writes school_job_posts/school_id_510_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_510_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+LSU's Workday board serves several campuses; the link carries the board's
+own Campus Location and Job Type (Faculty) filters for the Baton Rouge campus.
 """
 import os
+import re
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -36,18 +41,20 @@ sys.path.insert(0, os.path.dirname(HERE))
 import job_postings_lib as lib
 
 SCHOOL_ID = 510
-SCHOOL_NAME = 'Louisiana State University and Agricultural & Mechanical College'
-CAREERS_LINK = ('https://lsu.wd1.myworkdayjobs.com/LSU'
-                '?hiringCompany=7a9995fc77aa101f333e6ab01401289b')
+SCHOOL_NAME = 'Louisiana State University-Baton Rouge'
+CAREERS_LINK = 'https://lsu.wd1.myworkdayjobs.com/LSU?hiringCompany=7a9995fc77aa101f333e6ab01401289b&workerSubType=7a9995fc77aa101fcf3b27f556ddb30b'
 ATS_PLATFORM = 'Workday'
 PLATFORM = 'workday'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
+def find_links():
+    return lib.PLATFORM_ADAPTERS['workday'](CAREERS_LINK, SCHOOL_NAME)
+
+
 def main():
-    result = lib.run_platform_school(SCHOOL_ID, SCHOOL_NAME, CAREERS_LINK,
-                                     CHECKPOINT_PATH, platform=PLATFORM)
+    result = lib.run_checkpointed(SCHOOL_ID, CHECKPOINT_PATH, find_links)
     err = result.get('last_error', '')
     print(f"{SCHOOL_NAME} (id={SCHOOL_ID}): status={result['status']} "
           f"links={len(result['links'])}" + (f" ERROR: {err}" if err else ''))

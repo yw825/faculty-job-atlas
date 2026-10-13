@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 403 - Illinois State University (US)
 ATS platform: PageUp
-Careers link: https://isu.dc4.pageuppeople.com/default.aspx
+Careers link: https://jobsearch.illinoisstate.edu/jobs/search?page=1&category_uids%5B%5D=04e451b99f7be4e2ae6aaaa4b2934fb9&query=
 
 Reads posting URLs from school_id_403_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 403
 SCHOOL_NAME = 'Illinois State University'
-CAREERS_LINK = 'https://isu.dc4.pageuppeople.com/default.aspx'
+CAREERS_LINK = 'https://jobsearch.illinoisstate.edu/jobs/search?page=1&category_uids%5B%5D=04e451b99f7be4e2ae6aaaa4b2934fb9&query='
 ATS_PLATFORM = 'PageUp'
 USE_LLM = False
 
@@ -38,13 +38,8 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """This school's own detail-page logic, owned by this file. The default
-    renders the page, picks the most job-title-shaped heading, and takes the
-    visible text as the description. Override when a posting page needs
-    something else -- a nested iframe, a cookie gate, a PDF, or a title that
-    only exists in <title> (all of which came up in the non-US set)."""
-    return jinfo.fetch_detail_generic(url)
-
+    """the page text opens "<job> - <city>, <state>, United States"; the full title is taken there."""
+    return jinfo.fetch_detail_board_title(url)
 
 
 def main():

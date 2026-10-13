@@ -20,6 +20,12 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_413_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_413_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+NEOGOV board read from its list service. The board's jobType filter only
+matches a type's full name, so a link filtered on "Faculty" can show 0 jobs
+while "Adjunct Faculty" postings are open; the filter is applied as meant
+(exact type first, otherwise types/categories containing the word).
 """
 import os
 import re
@@ -40,9 +46,12 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkp
 PLATFORM = 'schooljobs'
 
 
+def find_links():
+    return lib.scrape_neogov_filtered(CAREERS_LINK)
+
+
 def main():
-    result = lib.run_platform_school(SCHOOL_ID, SCHOOL_NAME, CAREERS_LINK,
-                                     CHECKPOINT_PATH, platform=PLATFORM)
+    result = lib.run_checkpointed(SCHOOL_ID, CHECKPOINT_PATH, find_links)
     err = result.get('last_error', '')
     print(f"{SCHOOL_NAME} (id={SCHOOL_ID}): status={result['status']} "
           f"links={len(result['links'])}" + (f" ERROR: {err}" if err else ''))

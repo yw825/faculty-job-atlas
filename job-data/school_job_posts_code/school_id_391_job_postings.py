@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 391 - Northwestern University (US)
 ATS platform: own website
-Careers link: https://careers.northwestern.edu
+Careers link: https://careers.northwestern.edu/psc/hrnu_er/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_SCHJOB_FL&Action=U
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -20,6 +20,10 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_391_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_391_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Careers link corrected in the audit to Northwestern's PeopleSoft careers
+site, read with the shared peoplesoft reader.
 """
 import os
 import re
@@ -31,17 +35,14 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 391
 SCHOOL_NAME = 'Northwestern University'
-CAREERS_LINK = 'https://www.northwestern.edu/offices/human-resources/careers'
+CAREERS_LINK = 'https://careers.northwestern.edu/psc/hrnu_er/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_SCHJOB_FL&Action=U'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    """CUSTOMIZED: careers_link was rediscovered from this school's
-    homepage, and its posting links carry no job word -- found by URL
-    shape instead (the word matcher returns 1 link against 66 real ones)."""
-    return lib.scrape_structural(CAREERS_LINK)
+    return lib.PLATFORM_ADAPTERS['peoplesoft'](CAREERS_LINK, SCHOOL_NAME)
 
 
 def main():

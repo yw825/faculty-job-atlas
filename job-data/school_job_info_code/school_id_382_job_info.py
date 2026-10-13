@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 382 - University of Chicago (US)
 ATS platform: own website
-Careers link: https://voices.uchicago.edu/interfolio/academic-jobs/
+Careers link: https://academicjobs.uchicago.edu/positions
 
 Reads posting URLs from school_id_382_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 382
 SCHOOL_NAME = 'University of Chicago'
-CAREERS_LINK = 'https://voices.uchicago.edu/interfolio/academic-jobs/'
+CAREERS_LINK = 'https://academicjobs.uchicago.edu/positions'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 
@@ -38,13 +38,18 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """This school's own detail-page logic, owned by this file. The default
-    renders the page, picks the most job-title-shaped heading, and takes the
-    visible text as the description. Override when a posting page needs
-    something else -- a nested iframe, a cookie gate, a PDF, or a title that
-    only exists in <title> (all of which came up in the non-US set)."""
-    return jinfo.fetch_detail_generic(url)
-
+    """the position's record in the site's own data service."""
+    from bs4 import BeautifulSoup
+    import json
+    pid = url.rstrip('/').rsplit('/', 1)[1]
+    status, text = jinfo.jlib.fetch_static(f'https://academicjobs.uchicago.edu/api/index.php/solr/select/?q=id:{pid}', timeout=40)
+    docs = (json.loads(text).get('response') or {}).get('docs') if status == 200 else None
+    if not docs:
+        raise RuntimeError('position not in the data service (closed?)')
+    d = docs[0]
+    body = ' '.join(BeautifulSoup(d.get(k) or '', 'html.parser').get_text(' ', strip=True) for k in ('description', 'qualifications', 'instructions'))
+    text = f"{d.get('name')}. {d.get('unit_name') or ''}. Position type: {d.get('type_name') or ''}. Posted: {d.get('open_date') or ''}. {body}"
+    return (d.get('name') or '')[:250], re.sub(r'\s+', ' ', text)[:20000]
 
 
 def main():

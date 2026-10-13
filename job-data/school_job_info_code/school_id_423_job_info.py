@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 423 - Purdue University Fort Wayne (US)
 ATS platform: own website
-Careers link: https://purdueuniversity.valhalla.stage.jobs2web.com/FW
+Careers link: https://careers.purdue.edu/FW/go/FW-Faculty/7720100/
 
 Reads posting URLs from school_id_423_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 423
 SCHOOL_NAME = 'Purdue University Fort Wayne'
-CAREERS_LINK = 'https://purdueuniversity.valhalla.stage.jobs2web.com/FW'
+CAREERS_LINK = 'https://careers.purdue.edu/FW/go/FW-Faculty/7720100/'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 
@@ -38,13 +38,11 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """This school's own detail-page logic, owned by this file. The default
-    renders the page, picks the most job-title-shaped heading, and takes the
-    visible text as the description. Override when a posting page needs
-    something else -- a nested iframe, a cookie gate, a PDF, or a title that
-    only exists in <title> (all of which came up in the non-US set)."""
-    return jinfo.fetch_detail_generic(url)
-
+    """Page titles read "<job> Job Details | Purdue University"; keep the job."""
+    title, text = jinfo.fetch_detail_generic(url)
+    m = re.match(r'\s*(.{3,200}?) Job Details \| Purdue University', text[:400])
+    title = m.group(1) if m else re.sub(r'\s+Job Details$', '', title or '')
+    return title, text
 
 
 def main():

@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 428 - DePauw University (US)
 ATS platform: own website
-Careers link: https://www.depauw.edu/offices/human-resources/employment/
+Careers link: https://www.depauw.edu/offices/academic-affairs/open-faculty-positions-2/
 
 Reads posting URLs from school_id_428_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 428
 SCHOOL_NAME = 'DePauw University'
-CAREERS_LINK = 'https://www.depauw.edu/offices/human-resources/employment/'
+CAREERS_LINK = 'https://www.depauw.edu/offices/academic-affairs/open-faculty-positions-2/'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 
@@ -38,13 +38,8 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """This school's own detail-page logic, owned by this file. The default
-    renders the page, picks the most job-title-shaped heading, and takes the
-    visible text as the description. Override when a posting page needs
-    something else -- a nested iframe, a cookie gate, a PDF, or a title that
-    only exists in <title> (all of which came up in the non-US set)."""
-    return jinfo.fetch_detail_generic(url)
-
+    """Workday posting, from the board's own job service."""
+    return jinfo.fetch_detail_workday(url)
 
 
 def main():

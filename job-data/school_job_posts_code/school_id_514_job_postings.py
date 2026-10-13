@@ -1,9 +1,9 @@
 """
-Job postings scraper for school_id 514 - University of Louisiana at Lafayette (US)
+Job postings scraper for school_id 514 - University of Louisiana-Lafayette (US)
 ATS platform: Cornerstone OnDemand (detected: cornerstone)
 Careers link: https://louisiana.csod.com/ats/careersite/search.aspx?site=1&c=louisiana
 
-University of Louisiana at Lafayette runs on a shared ATS platform -- every school on cornerstone uses the
+University of Louisiana-Lafayette runs on a shared ATS platform -- every school on cornerstone uses the
 same underlying site software, so this calls the shared
 job_postings_lib.scrape_cornerstone adapter rather than duplicating
 platform-specific logic here. If results for THIS ONE school need a tweak
@@ -12,8 +12,14 @@ and pass it to run_checkpointed instead of editing the shared adapter.
 
 Writes school_job_posts/school_id_514_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_514_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Read with the page's own search request, so a filter carried by the link
+(cfdd = the faculty category) is kept, and postings are stored in the
+.../home/requisition/<id>?c=<client> form the site itself uses.
 """
 import os
+import re
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -21,7 +27,7 @@ sys.path.insert(0, os.path.dirname(HERE))
 import job_postings_lib as lib
 
 SCHOOL_ID = 514
-SCHOOL_NAME = 'University of Louisiana at Lafayette'
+SCHOOL_NAME = 'University of Louisiana-Lafayette'
 CAREERS_LINK = 'https://louisiana.csod.com/ats/careersite/search.aspx?site=1&c=louisiana'
 ATS_PLATFORM = 'Cornerstone OnDemand'
 PLATFORM = 'cornerstone'
@@ -29,9 +35,12 @@ PLATFORM = 'cornerstone'
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
+def find_links():
+    return lib.scrape_cornerstone_site(CAREERS_LINK)
+
+
 def main():
-    result = lib.run_platform_school(SCHOOL_ID, SCHOOL_NAME, CAREERS_LINK,
-                                     CHECKPOINT_PATH, platform=PLATFORM)
+    result = lib.run_checkpointed(SCHOOL_ID, CHECKPOINT_PATH, find_links)
     err = result.get('last_error', '')
     print(f"{SCHOOL_NAME} (id={SCHOOL_ID}): status={result['status']} "
           f"links={len(result['links'])}" + (f" ERROR: {err}" if err else ''))

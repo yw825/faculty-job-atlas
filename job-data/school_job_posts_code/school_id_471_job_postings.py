@@ -23,6 +23,10 @@ which is why that is the careers link here.
 
 Writes school_job_posts/school_id_471_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_471_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+jobs.bethelks.edu forwards to the current-position-openings page; each
+opening is a page under it (the audit found no faculty opening).
 """
 import os
 import re
@@ -43,28 +47,14 @@ POSTING_PATH = re.compile(
     r'^/about/who-we-are/career-opportunities/current-position-openings/'
     r'[a-z0-9][a-z0-9\-]{3,120}/?$', re.I)
 
+LIST = 'https://forms.bethelks.edu/about/who-we-are/career-opportunities/current-position-openings'
+POSTING_RE = re.compile(r'^https://forms\.bethelks\.edu/about/who-we-are/career-opportunities/current-position-openings/[a-z0-9-]+$')
+
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    from bs4 import BeautifulSoup
-    html = lib.fetch_rendered(CAREERS_LINK, wait_ms=8000)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    soup = BeautifulSoup(html, 'html.parser')
-    links, seen = [], set()
-    for a in soup.find_all('a', href=True):
-        full = urljoin(CAREERS_LINK, a['href'].strip())
-        parsed = urlparse(full)
-        if parsed.netloc != HOST or not POSTING_PATH.match(parsed.path):
-            continue
-        clean = f'https://{HOST}{parsed.path}'
-        if clean not in seen:
-            seen.add(clean)
-            links.append(clean)
-    if not links:
-        raise RuntimeError('bethel current-position-openings listed no postings')
-    return links
+    return lib.scrape_matching(LIST, POSTING_RE, render=True)
 
 
 def main():

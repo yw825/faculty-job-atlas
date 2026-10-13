@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 509 - Louisiana State University-Alexandria (US)
 ATS platform: Workday
-Careers link: https://lsu.wd1.myworkdayjobs.com/LSU
+Careers link: https://lsu.wd1.myworkdayjobs.com/LSU?hiringCompany=7a9995fc77aa101f333e7b1c1f7228b5&workerSubType=7a9995fc77aa101fcf3b27f556ddb30b
 
 Reads posting URLs from school_id_509_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 509
 SCHOOL_NAME = 'Louisiana State University-Alexandria'
-CAREERS_LINK = 'https://lsu.wd1.myworkdayjobs.com/LSU'
+CAREERS_LINK = 'https://lsu.wd1.myworkdayjobs.com/LSU?hiringCompany=7a9995fc77aa101f333e7b1c1f7228b5&workerSubType=7a9995fc77aa101fcf3b27f556ddb30b'
 ATS_PLATFORM = 'Workday'
 USE_LLM = False
 
@@ -38,13 +38,8 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """This school's own detail-page logic, owned by this file. The default
-    renders the page, picks the most job-title-shaped heading, and takes the
-    visible text as the description. Override when a posting page needs
-    something else -- a nested iframe, a cookie gate, a PDF, or a title that
-    only exists in <title> (all of which came up in the non-US set)."""
-    return jinfo.fetch_detail_generic(url)
-
+    """Workday posting, from the board's own job service."""
+    return jinfo.fetch_detail_workday(url)
 
 
 def main():

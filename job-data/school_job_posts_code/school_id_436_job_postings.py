@@ -20,6 +20,10 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_436_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_436_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+hrjobs.uindy.edu forwards to the university's board on jobs.keldair.com;
+openings are /uindy/<Staff|Faculty>/jobs/<id>/<slug>.
 """
 import os
 import re
@@ -34,16 +38,14 @@ SCHOOL_NAME = 'University of Indianapolis'
 CAREERS_LINK = 'https://hrjobs.uindy.edu'
 ATS_PLATFORM = 'own website'
 
+BOARD = 'https://jobs.keldair.com/uindy'
+POSTING_RE = re.compile(r'^https://jobs\.keldair\.com/uindy/[A-Za-z-]+/jobs/\d+/[^/?#]+$')
+
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    return lib.scrape_matching(BOARD, POSTING_RE, render=True, wait_ms=7000)
 
 
 def main():

@@ -1,11 +1,11 @@
 """
-Job postings scraper for school_id 455 - Purdue University-Main Campus (US)
+Job postings scraper for school_id 455 - Purdue University-West Lafayette (US)
 ATS platform: own website
-Careers link: https://careers.purdue.edu/content/Job-Seeker/
+Careers link: https://careers.purdue.edu/go/West-Lafayette-Faculty/7721600/
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
-directly to fix or improve results for Purdue University-Main Campus; nothing here affects any
+directly to fix or improve results for Purdue University-West Lafayette; nothing here affects any
 other school's script.
 
 Link check (ok): 9 posting-shaped links found.
@@ -20,6 +20,10 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_455_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_455_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Purdue's careers site has a section per campus; this is the West Lafayette (incl. Indianapolis)
+faculty category, read from the site's own job service.
 """
 import os
 import re
@@ -30,20 +34,19 @@ sys.path.insert(0, os.path.dirname(HERE))
 import job_postings_lib as lib
 
 SCHOOL_ID = 455
-SCHOOL_NAME = 'Purdue University-Main Campus'
-CAREERS_LINK = 'https://careers.purdue.edu/content/Job-Seeker/'
+SCHOOL_NAME = 'Purdue University-West Lafayette'
+CAREERS_LINK = 'https://careers.purdue.edu/go/West-Lafayette-Faculty/7721600/'
 ATS_PLATFORM = 'own website'
+
+BRAND = ''
+CATEGORY = 7721600
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    links = lib.scrape_sf_rmk('https://careers.purdue.edu', brand=BRAND, category_id=CATEGORY, locale='en_US')
+    return [u.replace('https://careers.purdue.edu/job/', f'https://careers.purdue.edu/{BRAND}/job/') if BRAND else u for u in links]
 
 
 def main():

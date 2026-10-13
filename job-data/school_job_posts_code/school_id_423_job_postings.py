@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 423 - Purdue University Fort Wayne (US)
 ATS platform: own website
-Careers link: https://purdueuniversity.valhalla.stage.jobs2web.com/FW
+Careers link: https://careers.purdue.edu/FW/go/FW-Faculty/7720100/
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -20,6 +20,10 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_423_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_423_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Purdue's careers site has a section per campus; this is the Fort Wayne
+faculty category, read from the site's own job service.
 """
 import os
 import re
@@ -31,19 +35,18 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 423
 SCHOOL_NAME = 'Purdue University Fort Wayne'
-CAREERS_LINK = 'https://purdueuniversity.valhalla.stage.jobs2web.com/FW'
+CAREERS_LINK = 'https://careers.purdue.edu/FW/go/FW-Faculty/7720100/'
 ATS_PLATFORM = 'own website'
+
+BRAND = 'FW'
+CATEGORY = 7720100
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    links = lib.scrape_sf_rmk('https://careers.purdue.edu', brand=BRAND, category_id=CATEGORY, locale='en_US')
+    return [u.replace('https://careers.purdue.edu/job/', f'https://careers.purdue.edu/{BRAND}/job/') if BRAND else u for u in links]
 
 
 def main():

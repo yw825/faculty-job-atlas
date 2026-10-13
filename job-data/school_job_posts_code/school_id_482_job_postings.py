@@ -20,6 +20,12 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_482_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_482_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Each opening is a block of the page under "Faculty Positions" or
+"Administrator and Staff Positions" (the audit's example is the heading);
+stored as the page plus #<title slug>. Filled positions are a plain list
+below and are not blocks.
 """
 import os
 import re
@@ -34,16 +40,13 @@ SCHOOL_NAME = 'Southwestern College'
 CAREERS_LINK = 'https://www.sckans.edu/about/employment/'
 ATS_PLATFORM = 'own website'
 
+HEADER = 'div.toggle-text > div:first-child'
+
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    return [f'{CAREERS_LINK}#{slug}' for slug, _t, _b in lib.accordion_items(CAREERS_LINK, HEADER, render=True)]
 
 
 def main():

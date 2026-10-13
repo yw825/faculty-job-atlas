@@ -20,6 +20,16 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_394_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_394_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+The employment page embeds the college's Paycom board (the audit's example
+is a posting there); the board is read directly.
+The employment page links its faculty openings directly (they are not on the
+public list of the college's Paycom board) and embeds the board for the
+rest; both are read.
+The employment page links its faculty openings directly (they are not on the
+public list of the college's Paycom board) and embeds the board for the
+rest; both are read.
 """
 import os
 import re
@@ -34,16 +44,15 @@ SCHOOL_NAME = 'Illinois College'
 CAREERS_LINK = 'https://www.ic.edu/employment'
 ATS_PLATFORM = 'own website'
 
+BOARD = 'https://www.paycomonline.net/v4/ats/web.php/portal/1A1F01429B0D77840F84E7C37F0997E7/career-page'
+
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    html = lib._fetch_rendered_retry(CAREERS_LINK, 5000)
+    listed = [f'https://www.paycomonline.net{p}' for p in re.findall(r'paycomonline\.net(/v4/ats/web\.php/portal/[A-Za-z0-9]+/jobs/\d+)', html)]
+    return list(dict.fromkeys(listed + [row[0] for row in lib.paycom_previews(BOARD)]))
 
 
 def main():

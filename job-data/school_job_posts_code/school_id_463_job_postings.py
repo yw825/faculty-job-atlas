@@ -20,6 +20,10 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_463_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_463_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Openings are the PDF adverts linked from the employment page.
+Openings are the PDF adverts linked from the employment page.
 """
 import os
 import re
@@ -34,16 +38,16 @@ SCHOOL_NAME = 'Tabor College'
 CAREERS_LINK = 'https://tabor.edu/about/employment/'
 ATS_PLATFORM = 'own website'
 
+POSTING_RE = re.compile(r'^https://tabor\.edu/wp-content/uploads/\d{4}/\d{2}/[^/]+\.pdf$')
+
+DOC_RE = r'^https://tabor\.edu/wp-content/uploads/\d{4}/\d{2}/[^/]+\.pdf$'
+SKIP = r'(?i)handbook|application|policy'
+
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    return [link for link, _text in lib.linked_documents(CAREERS_LINK, DOC_RE, skip_text=SKIP)]
 
 
 def main():

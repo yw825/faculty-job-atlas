@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 360 - University of Idaho (US)
 ATS platform: PeopleAdmin
-Careers link: https://uidaho.peopleadmin.com/
+Careers link: https://uidaho.peopleadmin.com/postings/search?query=&query_v0_posted_at_date=&query_position_type_id%5B%5D=2&commit=Search
 
 Reads posting URLs from school_id_360_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 360
 SCHOOL_NAME = 'University of Idaho'
-CAREERS_LINK = 'https://uidaho.peopleadmin.com/'
+CAREERS_LINK = 'https://uidaho.peopleadmin.com/postings/search?query=&query_v0_posted_at_date=&query_position_type_id%5B%5D=2&commit=Search'
 ATS_PLATFORM = 'PeopleAdmin'
 USE_LLM = False
 
@@ -38,13 +38,12 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """This school's own detail-page logic, owned by this file. The default
-    renders the page, picks the most job-title-shaped heading, and takes the
-    visible text as the description. Override when a posting page needs
-    something else -- a nested iframe, a cookie gate, a PDF, or a title that
-    only exists in <title> (all of which came up in the non-US set)."""
-    return jinfo.fetch_detail_generic(url)
-
+    """PeopleAdmin posting. Idaho titles many postings by class only ("Regular Faculty"); the unit is added to those."""
+    title, text = jinfo.fetch_detail_peopleadmin(url)
+    unit = re.search(r'Primary Unit\s+(.{2,80}?)\s+Employee Category', text)
+    if unit and ' - ' not in title and unit.group(1).lower() not in title.lower():
+        title = f'{title} - {unit.group(1)}'
+    return title, text
 
 
 def main():

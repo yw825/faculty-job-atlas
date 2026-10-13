@@ -1,9 +1,191 @@
 {
-  "raw": {},
-  "rows": {},
+  "raw": {
+    "https://franklincollege.edu/wp-content/uploads/2026/07/Job-Admissions-Enrollment-Assistant-2025.pdf": {
+      "title": "Admissions Enrollment Assistant",
+      "description": "Admissions Enrollment Assistant. Admissions Enrollment Assistant"
+    },
+    "https://franklincollege.edu/wp-content/uploads/2026/10/Job-description-Director-Academic-Resources.pdf": {
+      "title": "Director of Academic Resources & Title III Project Coordinator",
+      "description": "Director of Academic Resources & Title III Project Coordinator. Director of Academic Resources & Title III Project Coordinator"
+    },
+    "https://franklincollege.edu/wp-content/uploads/2026/08/Job-Financial-Aid-Advisor-2026.pdf": {
+      "title": "Financial Aid Advisor",
+      "description": "Financial Aid Advisor. Financial Aid Advisor"
+    },
+    "https://franklincollege.edu/wp-content/uploads/2026/10/General-Trades-Technician-Oct-2026-1-2.pdf": {
+      "title": "General Trades Technician",
+      "description": "General Trades Technician. General Trades Technician"
+    },
+    "https://franklincollege.edu/wp-content/uploads/2026/09/HVAC-Technician-9-Sept-2026-1.pdf": {
+      "title": "HVAC Technician",
+      "description": "HVAC Technician. HVAC Technician"
+    },
+    "https://franklincollege.edu/wp-content/uploads/2026/10/Job-Student-Success-Coach-Athletes-Transfers.pdf": {
+      "title": "Student Success Coach (Athletes & Transfers)",
+      "description": "Student Success Coach (Athletes & Transfers). Student Success Coach (Athletes & Transfers)"
+    },
+    "https://franklincollege.edu/wp-content/uploads/2026/10/Job-Student-Success-Coach-Financial-Literacy-Work-Study.pdf": {
+      "title": "Student Success Coach (Financial Literacy & Work Study)",
+      "description": "Student Success Coach (Financial Literacy & Work Study). Student Success Coach (Financial Literacy & Work Study)"
+    },
+    "https://franklincollege.edu/wp-content/uploads/2026/09/Job-2026-Assistant-Professor-of-Athletic-Training.pdf": {
+      "title": "Assistant Professor of Athletic Training",
+      "description": "Assistant Professor of Athletic Training. Assistant Professor of Athletic Training"
+    },
+    "https://franklincollege.edu/wp-content/uploads/2026/09/Assistant-Professor-of-Computing-Tenure-Track-2026-FINAL-1.pdf": {
+      "title": "Assistant Professor of Computing – Tenure Track",
+      "description": "Assistant Professor of Computing – Tenure Track. Assistant Professor of Computing – Tenure Track"
+    },
+    "https://franklincollege.edu/wp-content/uploads/2026/09/Assistant-Professor-of-Mathematics-Tenure-Track-2026-FINAL.pdf": {
+      "title": "Assistant Professor of Mathematics – Tenure Track",
+      "description": "Assistant Professor of Mathematics – Tenure Track. Assistant Professor of Mathematics – Tenure Track"
+    },
+    "https://franklincollege.edu/wp-content/uploads/2026/09/Assistant-Professor-of-Practice-in-Finance_2026-27-FINAL.pdf": {
+      "title": "Assistant Professor of Practice in Finance",
+      "description": "Assistant Professor of Practice in Finance. Assistant Professor of Practice in Finance"
+    },
+    "https://franklincollege.edu/wp-content/uploads/2026/09/Job-TT-Assistant-Professor-of-Psychology-Fall-2026-Final.pdf": {
+      "title": "Assistant Professor of Psychology – Tenure Track",
+      "description": "Assistant Professor of Psychology – Tenure Track. Assistant Professor of Psychology – Tenure Track"
+    }
+  },
+  "rows": {
+    "https://franklincollege.edu/wp-content/uploads/2026/07/Job-Admissions-Enrollment-Assistant-2025.pdf": {
+      "school_id": 425,
+      "posting_url": "https://franklincollege.edu/wp-content/uploads/2026/07/Job-Admissions-Enrollment-Assistant-2025.pdf",
+      "job_title_in_post": "Admissions Enrollment Assistant",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://franklincollege.edu/wp-content/uploads/2026/10/Job-description-Director-Academic-Resources.pdf": {
+      "school_id": 425,
+      "posting_url": "https://franklincollege.edu/wp-content/uploads/2026/10/Job-description-Director-Academic-Resources.pdf",
+      "job_title_in_post": "Director of Academic Resources & Title III Project Coordinator",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Academic Resources & Title III Project Coordinator",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://franklincollege.edu/wp-content/uploads/2026/08/Job-Financial-Aid-Advisor-2026.pdf": {
+      "school_id": 425,
+      "posting_url": "https://franklincollege.edu/wp-content/uploads/2026/08/Job-Financial-Aid-Advisor-2026.pdf",
+      "job_title_in_post": "Financial Aid Advisor",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://franklincollege.edu/wp-content/uploads/2026/10/General-Trades-Technician-Oct-2026-1-2.pdf": {
+      "school_id": 425,
+      "posting_url": "https://franklincollege.edu/wp-content/uploads/2026/10/General-Trades-Technician-Oct-2026-1-2.pdf",
+      "job_title_in_post": "General Trades Technician",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://franklincollege.edu/wp-content/uploads/2026/09/HVAC-Technician-9-Sept-2026-1.pdf": {
+      "school_id": 425,
+      "posting_url": "https://franklincollege.edu/wp-content/uploads/2026/09/HVAC-Technician-9-Sept-2026-1.pdf",
+      "job_title_in_post": "HVAC Technician",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://franklincollege.edu/wp-content/uploads/2026/10/Job-Student-Success-Coach-Athletes-Transfers.pdf": {
+      "school_id": 425,
+      "posting_url": "https://franklincollege.edu/wp-content/uploads/2026/10/Job-Student-Success-Coach-Athletes-Transfers.pdf",
+      "job_title_in_post": "Student Success Coach (Athletes & Transfers)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://franklincollege.edu/wp-content/uploads/2026/10/Job-Student-Success-Coach-Financial-Literacy-Work-Study.pdf": {
+      "school_id": 425,
+      "posting_url": "https://franklincollege.edu/wp-content/uploads/2026/10/Job-Student-Success-Coach-Financial-Literacy-Work-Study.pdf",
+      "job_title_in_post": "Student Success Coach (Financial Literacy & Work Study)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://franklincollege.edu/wp-content/uploads/2026/09/Job-2026-Assistant-Professor-of-Athletic-Training.pdf": {
+      "school_id": 425,
+      "posting_url": "https://franklincollege.edu/wp-content/uploads/2026/09/Job-2026-Assistant-Professor-of-Athletic-Training.pdf",
+      "job_title_in_post": "Assistant Professor of Athletic Training",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Athletic Training",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://franklincollege.edu/wp-content/uploads/2026/09/Assistant-Professor-of-Computing-Tenure-Track-2026-FINAL-1.pdf": {
+      "school_id": 425,
+      "posting_url": "https://franklincollege.edu/wp-content/uploads/2026/09/Assistant-Professor-of-Computing-Tenure-Track-2026-FINAL-1.pdf",
+      "job_title_in_post": "Assistant Professor of Computing – Tenure Track",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Computing",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://franklincollege.edu/wp-content/uploads/2026/09/Assistant-Professor-of-Mathematics-Tenure-Track-2026-FINAL.pdf": {
+      "school_id": 425,
+      "posting_url": "https://franklincollege.edu/wp-content/uploads/2026/09/Assistant-Professor-of-Mathematics-Tenure-Track-2026-FINAL.pdf",
+      "job_title_in_post": "Assistant Professor of Mathematics – Tenure Track",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Mathematics",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://franklincollege.edu/wp-content/uploads/2026/09/Assistant-Professor-of-Practice-in-Finance_2026-27-FINAL.pdf": {
+      "school_id": 425,
+      "posting_url": "https://franklincollege.edu/wp-content/uploads/2026/09/Assistant-Professor-of-Practice-in-Finance_2026-27-FINAL.pdf",
+      "job_title_in_post": "Assistant Professor of Practice in Finance",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Practice in Finance",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://franklincollege.edu/wp-content/uploads/2026/09/Job-TT-Assistant-Professor-of-Psychology-Fall-2026-Final.pdf": {
+      "school_id": 425,
+      "posting_url": "https://franklincollege.edu/wp-content/uploads/2026/09/Job-TT-Assistant-Professor-of-Psychology-Fall-2026-Final.pdf",
+      "job_title_in_post": "Assistant Professor of Psychology – Tenure Track",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Psychology",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    }
+  },
   "school_id": 425,
   "status": "complete",
-  "updated_at": "2026-10-05T22:36:33+00:00",
-  "completed_at": "2026-10-05T22:36:33+00:00",
+  "updated_at": "2026-10-13T22:55:24+00:00",
+  "completed_at": "2026-10-13T22:55:24+00:00",
   "last_error": ""
 }

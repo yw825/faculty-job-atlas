@@ -1850,10 +1850,10 @@ def fetch_adp_bulk(careers_link):
     # the window (job_postings_lib.scrape_adp pages the same way). Reading
     # only the first response left every posting past the 20th with no row
     # -- Chaminade lists 50.
-    reqs, seen, skip, total = [], set(), 0, None
+    reqs, seen, skip, total, cc_param = [], set(), 0, None, ''
     for _page in range(40):
         status, text = jlib.fetch_static(
-            f'{base}?cid={cid}&timeStamp={int(_time.time()*1000)}&$skip={skip}',
+            f'{base}?cid={cid}{cc_param}&timeStamp={int(_time.time()*1000)}&$skip={skip}',
             extra_headers={'Accept': 'application/json'})
         if status != 200:
             if skip == 0:
@@ -1861,6 +1861,9 @@ def fetch_adp_bulk(careers_link):
             break
         data = json.loads(text)
         batch = data.get('jobRequisitions') or []
+        if not batch and skip == 0 and not cc_param and cc_id != '19000101_000001':
+            cc_param = f'&ccId={cc_id}'      # some boards answer only with their career-centre id
+            continue
         fresh = [r for r in batch if r.get('itemID') and r['itemID'] not in seen]
         if not fresh:
             break
@@ -1895,7 +1898,7 @@ def fetch_adp_bulk(careers_link):
                 parts.append(f'Location: {city}')
                 break
 
-        d_status, d_text = jlib.fetch_static(f'{base}/{item_id}?cid={cid}',
+        d_status, d_text = jlib.fetch_static(f'{base}/{item_id}?cid={cid}{cc_param}',
                                              extra_headers={'Accept': 'application/json'})
         if d_status == 200:
             try:
@@ -2247,6 +2250,18 @@ def fetch_detail_peopleadmin(url):
     splitter cuts "Assistant Professor - Exercise Psychology" at the dash;
     the full title is the last part of the <title> text, which the page
     text opens with: "<site> | <job title> Skip to Main Content"."""
+    from bs4 import BeautifulSoup
+    # The posting is in the plain response; a browser is only the fallback
+    # (it is ten times slower, which matters on an 800-posting board).
+    status, html = jlib.fetch_static(url, timeout=40)
+    if status == 200 and html and '<title' in html:
+        soup = BeautifulSoup(html, 'html.parser')
+        page_title = re.sub(r'\s+', ' ', soup.title.get_text(' ', strip=True)) if soup.title else ''
+        for tag in soup(['script', 'style']):
+            tag.decompose()
+        text = re.sub(r'\s+', ' ', soup.get_text(' ', strip=True))
+        if '|' in page_title and len(text) > 600:
+            return page_title.rsplit('|', 1)[1].strip()[:250], text[:20000]
     title, description = fetch_detail_generic(url)
     m = re.match(r'\s*(.+?)\s+Skip to Main Content', (description or '')[:500])
     if m and '|' in m.group(1):
@@ -2269,6 +2284,201 @@ def fetch_detail_paycom(url):
         title, description = fetch_detail_rendered_h1(url, 9000)
     if not title or title.strip().lower().startswith('loading'):
         raise RuntimeError('posting did not render (closed?)')
+    return title[:250], description
+
+
+def fetch_detail_docx(url):
+    """(title, description) for an opening published as a Word document
+    (LSU Shreveport links one .docx per faculty opening). A .docx is a zip
+    whose word/document.xml holds the text; the title is the first line
+    that reads like a job title."""
+    import io
+    import zipfile
+    r = jlib.requests.get(url, headers={'User-Agent': jlib.UA}, timeout=40)
+    if r.status_code != 200:
+        raise RuntimeError(f'docx fetch failed status={r.status_code}')
+    try:
+        xml = zipfile.ZipFile(io.BytesIO(r.content)).read('word/document.xml').decode('utf-8', 'replace')
+    except (zipfile.BadZipFile, KeyError):
+        raise RuntimeError('not a readable .docx document')
+    paras = []
+    for para in re.findall(r'<w:p[ >].*?</w:p>', xml, re.S):
+        text = unescape(''.join(re.findall(r'<w:t[^>]*>([^<]*)</w:t>', para))).strip()
+        if text:
+            paras.append(re.sub(r'\s+', ' ', text))
+    if not paras:
+        raise RuntimeError('document has no text')
+    return _pick_best_title(paras[:20]), '\n'.join(paras)[:20000]
+
+
+def fetch_detail_linked_document(url, listed):
+    """(title, description) for an advert published as a PDF or Word file.
+    `listed` is jlib.linked_documents(...) for the page that links it: the
+    link text there is the job title (the file's own first line is often a
+    letterhead). If the file cannot be read the title alone is returned."""
+    title = next((text for link, text in listed if link == url), '')
+    if re.fullmatch(r'(?i)(click )?here|pdf|download|apply|more|link|view|details?', title.strip()):
+        title = ''            # "...submit your resume by clicking here": not a title
+    try:
+        if url.lower().split('?')[0].endswith('.docx'):
+            doc_title, text = fetch_detail_docx(url)
+        else:
+            doc_title, text = fetch_detail_pdf(url)
+    except Exception:
+        if not title:
+            raise
+        doc_title, text = '', title
+    title = title or doc_title
+    if not title:
+        raise RuntimeError('document has no title')
+    return title[:250], f'{title}. {text}'[:20000]
+
+
+def fetch_detail_workable(url):
+    """(title, description) for a Workable posting, from the board's data
+    service -- the page title reads "<job> - <school>" and the shared
+    splitter cuts "Adjunct Faculty Pool - Accounting / Finance" at the dash."""
+    from bs4 import BeautifulSoup
+    m = re.search(r'apply\.workable\.com/([^/]+)/j/([A-Za-z0-9]+)', url)
+    if not m:
+        raise RuntimeError('not a workable posting url')
+    status, text = jlib.fetch_static(f'https://apply.workable.com/api/v2/accounts/{m.group(1)}/jobs/{m.group(2)}',
+                                     timeout=40, extra_headers={'Accept': 'application/json'})
+    if status != 200:
+        raise RuntimeError(f'workable job status={status}')
+    job = json.loads(text)
+    title = re.sub(r'\s+', ' ', job.get('title') or '').strip()
+    if not title:
+        raise RuntimeError('posting has no title (closed?)')
+    parts = [' / '.join(job.get('department') or []) if isinstance(job.get('department'), list) else (job.get('department') or '')]
+    for key in ('description', 'requirements', 'benefits'):
+        parts.append(BeautifulSoup(job.get(key) or '', 'html.parser').get_text(' ', strip=True))
+    return title[:250], re.sub(r'\s+', ' ', f"{title}. " + ' '.join(p for p in parts if p))[:20000]
+
+
+def fetch_detail_bamboohr(url):
+    """(title, description) for a BambooHR posting (<sub>.bamboohr.com/careers/<id>),
+    from its /detail service; the page itself is an app shell."""
+    from bs4 import BeautifulSoup
+    status, text = jlib.fetch_static(url.split('?')[0].rstrip('/') + '/detail', timeout=40,
+                                     extra_headers={'Accept': 'application/json'})
+    if status != 200:
+        raise RuntimeError(f'bamboohr detail status={status}')
+    job = (json.loads(text).get('result') or {}).get('jobOpening') or {}
+    title = re.sub(r'\s+', ' ', job.get('jobOpeningName') or '').strip()
+    if not title:
+        raise RuntimeError('posting has no title (closed?)')
+    body = BeautifulSoup(job.get('description') or '', 'html.parser').get_text(' ', strip=True)
+    dept = job.get('departmentLabel') or ''
+    return title[:250], re.sub(r'\s+', ' ', f"{title}. Department: {dept}. {job.get('employmentStatusLabel') or ''}. {body}")[:20000]
+
+
+def fetch_detail_interviewexchange(url):
+    """(title, description) for an InterviewExchange advert. The page text
+    opens "<School>\nJob Posting: <title> <School>"; taking the title there
+    keeps a title the shared splitter would cut at " - "."""
+    title, description = fetch_detail_generic(url)
+    m = re.match(r'\s*([^\n]{3,90})\n\s*Job Posting:\s*(.+?)\s+\1', description or '', re.S)
+    if m:
+        title = re.sub(r'\s+', ' ', m.group(2))
+    if not title:
+        raise RuntimeError('posting not on the page (closed?)')
+    return title[:250], description
+
+
+_BOARD_PAGE = {}
+
+
+def fetch_detail_board_title(url):
+    """(title, description) for boards whose <title> reads
+    "<job title> - <City>, <State>, United States" (the jobs.<school>.edu /
+    careers.<school>.edu family). The full title is taken there; the shared
+    splitter cuts "Adjunct - Mathematics" or "ASSISTANT PROFESSOR - CLINICAL,
+    PSYCHIATRY" at the dash.
+
+    These boards sit behind a rate-triggered check: plain requests get an
+    empty 202 and a burst of fresh browser sessions gets a "Human
+    Verification" page (67 of Kansas State's 98 postings came back with
+    that as their title). So ONE browser tab is kept for the whole run --
+    it passes the silent check once and keeps its cookie -- postings are
+    opened in it one at a time, and a verification page is raised as an
+    error: never stored as a posting, never solved."""
+    from bs4 import BeautifulSoup
+    page = _BOARD_PAGE.get('page')
+    if page is None or page.is_closed():
+        browser = jlib.get_browser()
+        if browser is None:
+            raise RuntimeError('playwright unavailable')
+        page = browser.new_context(user_agent=jlib.UA).new_page()
+        _BOARD_PAGE['page'] = page
+    html = ''
+    for attempt in range(3):
+        try:
+            page.goto(url, timeout=45000, wait_until='domcontentloaded')
+            page.wait_for_timeout(1200 + 6000 * attempt)
+            html = page.content()
+        except Exception as exc:
+            # A crashed or closed tab stays dead: start a fresh one.
+            try:
+                page.context.close()
+            except Exception:
+                pass
+            _BOARD_PAGE.pop('page', None)
+            if attempt == 2:
+                raise RuntimeError(f'job page did not load: {str(exc)[:120]}')
+            browser = jlib.get_browser()
+            page = browser.new_context(user_agent=jlib.UA).new_page()
+            _BOARD_PAGE['page'] = page
+            continue
+        head = re.search(r'<title[^>]*>(.*?)</title>', html, re.S)
+        if head and head.group(1).strip() and 'Human Verification' not in head.group(1):
+            break
+    soup = BeautifulSoup(html, 'html.parser')
+    page_title = re.sub(r'\s+', ' ', soup.title.get_text(' ', strip=True)) if soup.title else ''
+    if 'Human Verification' in page_title or not page_title:
+        raise RuntimeError('board answered with its human-verification page (rate limit)')
+    m = re.match(r'(.{3,200}) - [^-]+, United States\b', page_title)
+    title = (m.group(1) if m else page_title).strip()
+    for tag in soup(['script', 'style', 'nav', 'header', 'footer']):
+        tag.decompose()
+    text = re.sub(r'\s+', ' ', soup.get_text(' ', strip=True))
+    if len(text) < 300:
+        raise RuntimeError('posting not on the page (closed?)')
+    return title[:250], f'{page_title} {text}'[:20000]
+
+
+def fetch_detail_cornerstone(url):
+    """(title, description) for a Cornerstone posting. The rendered text
+    opens "<job title> | Job Details"; taking the title there keeps
+    "... Lecturer - Mechanical Science and Engineering" whole."""
+    title, description = fetch_detail_generic(url)
+    text = description or ''
+    # The "<title> | Job Details" line opens the text on most loads and
+    # follows "Back to Search" on the rest (where the text opens "Sign In").
+    m = (re.search(r'Back to Search\s+(.{3,250}?)\s*\|\s*Job Details\b', text[:1500])
+         or (None if text.lstrip().startswith('Sign In') else re.match(r'\s*(.{3,250}?)\s*\|\s*Job Details\b', text)))
+    if m:
+        title = m.group(1)
+    if not title or re.fullmatch(r'(?i)(sign in|job details)', title.strip()):
+        raise RuntimeError('posting not on the page (closed?)')
+    return title[:250], description
+
+
+def fetch_detail_paylocity(url):
+    """(title, description) for a Paylocity posting: its JobPosting block
+    when present, otherwise the rendered page, whose text opens
+    "<School> - <job title>"."""
+    try:
+        return fetch_detail_jsonld(url)
+    except RuntimeError as exc:
+        if 'no JobPosting block' not in str(exc):
+            raise
+    title, description = fetch_detail_generic(url)
+    m = re.match(r'\s*[^\n]{3,80}? - (.{3,200}?)\s+(?:\.ot-sdk|Apply\b|Job Details\b)', description or '')
+    if m:
+        title = m.group(1)
+    if not title or re.search(r'(?i)job not found', title + ' ' + (description or '')[:200]):
+        raise RuntimeError('posting is closed (Job Not Found)')
     return title[:250], description
 
 
@@ -2313,13 +2523,73 @@ def fetch_detail_icims(url):
     return title[:250], re.sub(r'^Welcome page Returning Candidate\? Log back in! ', '', text)[:20000]
 
 
-def fetch_detail_paycor(url):
-    """(title, description) for a Paycor posting (JobIntroduction.action).
-    The page has no heading; the advert opens "Position: <title> Location:"."""
+def fetch_detail_paycor(url, parent=None, real_chrome=False):
+    """(title, description) for a Paycor posting (JobIntroduction.action
+    ?clientId=..&id=..). The advert has no heading; its text carries
+    "Position: <title> Location:".
+
+    Some boards only exist inside the school's own page: opened directly,
+    the posting bounces to that page and reads as "Augustana College job
+    opportunities". For those pass `parent` (the school page): it is opened
+    with ?gnk=job&gni=<id>, which makes its Paycor frame show the posting,
+    and the frame is read. `real_chrome` is for parents that refuse the
+    headless browser (Hanover)."""
+    def pick(text):
+        m = re.search(r'Position:\s*(.+?)\s+Location:', text or '')
+        return re.sub(r'\s+', ' ', m.group(1)).strip() if m else ''
+
+    if not parent:
+        title, description = fetch_detail_generic(url)
+        found = pick((description or '')[:1500])
+        if not found:
+            raise RuntimeError('posting not on the page (closed, or the board only opens inside the school page)')
+        return found[:250], description
+
+    job = re.search(r'[?&](?:id|gni)=([0-9a-zA-Z]+)', url)
+    if not job:
+        raise RuntimeError('no posting id in paycor url')
+    target = parent + ('&' if '?' in parent else '?') + f'gnk=job&gni={job.group(1)}&lang=en'
+    if real_chrome:
+        page = jlib.get_real_chrome().new_page()
+    else:
+        page = jlib.get_browser().new_page(user_agent=jlib.UA)
+    text = ''
+    try:
+        page.goto(target, timeout=60000, wait_until='domcontentloaded')
+        for _ in range(6):
+            page.wait_for_timeout(5000)
+            for frame in page.frames:
+                if 'paycor' not in frame.url:
+                    continue
+                try:
+                    body = frame.inner_text('body')
+                except Exception:
+                    continue
+                if 'JobIntroduction' in frame.url and len(body) > 200:
+                    text = re.sub(r'\s+', ' ', body)
+            if text:
+                break
+    finally:
+        page.close()
+    found = pick(text[:1500])
+    if not found:
+        # Some tenants' adverts have no "Position:" line; the list's own link
+        # text is the title then.
+        found = next((t for _c, j, t in jlib.paycor_frame_jobs(parent, real_chrome=real_chrome) if j == job.group(1)), '')
+    if not found or len(text) < 200:
+        raise RuntimeError('posting did not open in the page frame (closed?)')
+    return found[:250], f'{found}. {text}'[:20000]
+
+
+def fetch_detail_title_before(url, tail):
+    """(title, description) where the job title is the page text up to a
+    site-name tail -- `tail` is a regex such as r'\s*\|\s*NEIU' for a page
+    that reads "Assistant Professor - Social Work | NEIU ...". Keeps titles
+    the shared splitter would cut at " - "."""
     title, description = fetch_detail_generic(url)
-    m = re.match(r'\s*Position:\s*(.+?)\s+Location:', description or '')
+    m = re.match(r'\s*(.{3,220}?)' + tail, description or '')
     if m:
-        title = m.group(1)
+        title = m.group(1).strip()
     if not title:
         raise RuntimeError('posting not on the page (closed?)')
     return title[:250], description

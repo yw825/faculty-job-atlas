@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 402 - North Central College (US)
 ATS platform: own website
-Careers link: https://www.northcentralcollege.edu/academic-affairs/staff-openings
+Careers link: https://northcentralcollege.peopleadmin.com/postings/search?utf8=%E2%9C%93&query=&query_v0_posted_at_date=&query_organizational_tier_3_id%5B%5D=any&435=&query_position_type_id%5B%5D=any&commit=Search
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -20,6 +20,11 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_402_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_402_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+The careers link is a PeopleAdmin search; the search itself is paged so any
+filter on the link (position type, campus) is kept -- the board's Atom feed
+ignores filters.
 """
 import os
 import re
@@ -31,19 +36,14 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 402
 SCHOOL_NAME = 'North Central College'
-CAREERS_LINK = 'https://www.northcentralcollege.edu/academic-affairs/staff-openings'
+CAREERS_LINK = 'https://northcentralcollege.peopleadmin.com/postings/search?utf8=%E2%9C%93&query=&query_v0_posted_at_date=&query_organizational_tier_3_id%5B%5D=any&435=&query_position_type_id%5B%5D=any&commit=Search'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    return lib.scrape_peopleadmin_search(CAREERS_LINK)
 
 
 def main():

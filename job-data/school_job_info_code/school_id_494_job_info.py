@@ -38,13 +38,20 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """This school's own detail-page logic, owned by this file. The default
-    renders the page, picks the most job-title-shaped heading, and takes the
-    visible text as the description. Override when a posting page needs
-    something else -- a nested iframe, a cookie gate, a PDF, or a title that
-    only exists in <title> (all of which came up in the non-US set)."""
-    return jinfo.fetch_detail_generic(url)
-
+    """a Recruiterbox opening shown inside the employment page (address = page + #op-<id>-<slug>)."""
+    page = jinfo.jlib.get_browser().new_page(user_agent=jinfo.jlib.UA)
+    try:
+        page.goto(url, timeout=60000, wait_until='domcontentloaded')
+        page.wait_for_timeout(9000)
+        head = page.query_selector('.rbox-job-title')
+        box = page.query_selector('.rbox-opening-detail')
+        title = re.sub(r'\s+', ' ', head.inner_text()).strip() if head else ''
+        text = re.sub(r'\s+', ' ', box.inner_text()) if box else ''
+    finally:
+        page.close()
+    if not title or len(text) < 200:
+        raise RuntimeError('opening no longer listed')
+    return title[:250], text[:20000]
 
 
 def main():

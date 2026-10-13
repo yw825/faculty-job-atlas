@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 434 - Marian University (US)
 ATS platform: own website
-Careers link: https://marian.elluciancrmrecruit.com/Apply/Account/Create?f=a0ee650e-16a5-4b95-b901-c5b3f4d00dd4&o=a3e67df5-dead-4937-a82d-f42c212e56d1&IsInquiry=True
+Careers link: https://marian.rec.pro.ukg.net/MAR1500MNUI/JobBoard/fde73847-46d9-4c8a-924e-a28b5c630bfc/?q=&o=postedDateDesc
 
 Reads posting URLs from school_id_434_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 434
 SCHOOL_NAME = 'Marian University'
-CAREERS_LINK = 'https://www.marian.edu/human-resources/index.php'
+CAREERS_LINK = 'https://marian.rec.pro.ukg.net/MAR1500MNUI/JobBoard/fde73847-46d9-4c8a-924e-a28b5c630bfc/?q=&o=postedDateDesc'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

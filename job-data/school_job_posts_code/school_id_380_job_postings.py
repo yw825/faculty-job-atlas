@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 380 - Roosevelt University (US)
 ATS platform: PeopleAdmin (detected: peopleadmin)
-Careers link: https://jobs.roosevelt.edu:443/postings/search
+Careers link: https://jobs.roosevelt.edu/postings/search
 
 Roosevelt University runs on a shared ATS platform -- every school on peopleadmin uses the
 same underlying site software, so this calls the shared
@@ -12,8 +12,14 @@ and pass it to run_checkpointed instead of editing the shared adapter.
 
 Writes school_job_posts/school_id_380_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_380_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+The careers link is a PeopleAdmin search; the search itself is paged so any
+filter on the link (position type, campus) is kept -- the board's Atom feed
+ignores filters.
 """
 import os
+import re
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -22,16 +28,19 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 380
 SCHOOL_NAME = 'Roosevelt University'
-CAREERS_LINK = 'https://jobs.roosevelt.edu:443/postings/search'
+CAREERS_LINK = 'https://jobs.roosevelt.edu/postings/search'
 ATS_PLATFORM = 'PeopleAdmin'
 PLATFORM = 'peopleadmin'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
+def find_links():
+    return lib.scrape_peopleadmin_search(CAREERS_LINK)
+
+
 def main():
-    result = lib.run_platform_school(SCHOOL_ID, SCHOOL_NAME, CAREERS_LINK,
-                                     CHECKPOINT_PATH, platform=PLATFORM)
+    result = lib.run_checkpointed(SCHOOL_ID, CHECKPOINT_PATH, find_links)
     err = result.get('last_error', '')
     print(f"{SCHOOL_NAME} (id={SCHOOL_ID}): status={result['status']} "
           f"links={len(result['links'])}" + (f" ERROR: {err}" if err else ''))

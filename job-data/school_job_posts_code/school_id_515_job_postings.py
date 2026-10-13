@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 515 - McNeese State University (US)
 ATS platform: own website
-Careers link: https://www.mcneese.edu/financial-aid/gainful-employment-disclosure-information/
+Careers link: https://www.schooljobs.com/careers/mcneese/
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -20,6 +20,12 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_515_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_515_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+NEOGOV board read from its list service. The board's jobType filter only
+matches a type's full name, so a link filtered on "Faculty" can show 0 jobs
+while "Adjunct Faculty" postings are open; the filter is applied as meant
+(exact type first, otherwise types/categories containing the word).
 """
 import os
 import re
@@ -31,19 +37,14 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 515
 SCHOOL_NAME = 'McNeese State University'
-CAREERS_LINK = 'https://www.mcneese.edu/financial-aid/gainful-employment-disclosure-information/'
+CAREERS_LINK = 'https://www.schooljobs.com/careers/mcneese/'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    return lib.scrape_neogov_filtered(CAREERS_LINK)
 
 
 def main():

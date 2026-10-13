@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 368 - Blackburn College (US)
 ATS platform: own website
-Careers link: https://blackburn.edu/jobs/
+Careers link: https://blackburn-staff.apscareerportal.com/jobs?locale=en-US
 
 Reads posting URLs from school_id_368_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 368
 SCHOOL_NAME = 'Blackburn College'
-CAREERS_LINK = 'https://blackburn.edu/jobs/'
+CAREERS_LINK = 'https://blackburn-staff.apscareerportal.com/jobs?locale=en-US'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

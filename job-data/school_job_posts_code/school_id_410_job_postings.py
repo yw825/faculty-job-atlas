@@ -20,6 +20,10 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_410_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_410_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+The faculty page lists each opening as a teaser with a "read more" link to
+its own page at the site root.
 """
 import os
 import re
@@ -38,12 +42,11 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkp
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    from bs4 import BeautifulSoup
+    soup = BeautifulSoup(lib._fetch_rendered_retry(CAREERS_LINK, 5000), 'html.parser')
+    links = [a['href'] for a in soup.find_all('a', href=True)
+             if a.get_text(strip=True).lower() == 'read more' and a['href'].startswith('https://www.rockford.edu/')]
+    return list(dict.fromkeys(links))
 
 
 def main():

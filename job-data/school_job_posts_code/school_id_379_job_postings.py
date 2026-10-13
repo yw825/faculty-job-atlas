@@ -20,6 +20,10 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_379_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_379_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+The faculty page links one page per college, and each college page links
+its openings (the audit's example is reached that way).
 """
 import os
 import re
@@ -34,16 +38,14 @@ SCHOOL_NAME = 'Northeastern Illinois University'
 CAREERS_LINK = 'https://www.neiu.edu/about/working-here/employment-opportunities/faculty-employment-opportunities'
 ATS_PLATFORM = 'own website'
 
+HUB_RE = re.compile(r'^https://www\.neiu\.edu/(?:academics/colleges-departments/.+/(?:faculty-)?employment-opportunities|libraries/about-neiu-libraries/neiu-libraries-jobs)$')
+POSTING_RE = re.compile(r'^https://www\.neiu\.edu/[a-z0-9-]*(?:faculty|professor|instructor|lecturer|librarian)[a-z0-9-]*$')
+
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    return lib.scrape_two_hop(CAREERS_LINK, HUB_RE, POSTING_RE, render=True)
 
 
 def main():

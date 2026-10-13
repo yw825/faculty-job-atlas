@@ -1,5 +1,5 @@
 """
-Job info scraper for school_id 514 - University of Louisiana at Lafayette (US)
+Job info scraper for school_id 514 - University of Louisiana-Lafayette (US)
 ATS platform: Cornerstone OnDemand
 Careers link: https://louisiana.csod.com/ats/careersite/search.aspx?site=1&c=louisiana
 
@@ -28,7 +28,7 @@ sys.path.insert(0, os.path.dirname(HERE))
 import job_info_lib as jinfo
 
 SCHOOL_ID = 514
-SCHOOL_NAME = 'University of Louisiana at Lafayette'
+SCHOOL_NAME = 'University of Louisiana-Lafayette'
 CAREERS_LINK = 'https://louisiana.csod.com/ats/careersite/search.aspx?site=1&c=louisiana'
 ATS_PLATFORM = 'Cornerstone OnDemand'
 USE_LLM = False
@@ -38,13 +38,8 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """This school's own detail-page logic, owned by this file. The default
-    renders the page, picks the most job-title-shaped heading, and takes the
-    visible text as the description. Override when a posting page needs
-    something else -- a nested iframe, a cookie gate, a PDF, or a title that
-    only exists in <title> (all of which came up in the non-US set)."""
-    return jinfo.fetch_detail_generic(url)
-
+    """Cornerstone posting; the title is the text before "| Job Details"."""
+    return jinfo.fetch_detail_cornerstone(url)
 
 
 def main():

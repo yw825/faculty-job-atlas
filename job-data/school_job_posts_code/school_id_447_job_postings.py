@@ -20,6 +20,9 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_447_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_447_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+hr.earlham.edu/careers forwards to Earlham's ADP board.
 """
 import os
 import re
@@ -31,8 +34,10 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 447
 SCHOOL_NAME = 'Earlham College'
-CAREERS_LINK = 'https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=af17eb32-b7ad-4f2c-8d25-781ac5b31aa0&ccId=19000101_000001&lang=en_US'
+CAREERS_LINK = 'https://hr.earlham.edu/careers'
 ATS_PLATFORM = 'own website'
+
+BOARD = 'https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=af17eb32-b7ad-4f2c-8d25-781ac5b31aa0&ccId=19000101_000001&lang=en_US'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
@@ -40,9 +45,12 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkp
 PLATFORM = 'adp'
 
 
+def find_links():
+    return lib.PLATFORM_ADAPTERS['adp'](BOARD, SCHOOL_NAME)
+
+
 def main():
-    result = lib.run_platform_school(SCHOOL_ID, SCHOOL_NAME, CAREERS_LINK,
-                                     CHECKPOINT_PATH, platform=PLATFORM)
+    result = lib.run_checkpointed(SCHOOL_ID, CHECKPOINT_PATH, find_links)
     err = result.get('last_error', '')
     print(f"{SCHOOL_NAME} (id={SCHOOL_ID}): status={result['status']} "
           f"links={len(result['links'])}" + (f" ERROR: {err}" if err else ''))

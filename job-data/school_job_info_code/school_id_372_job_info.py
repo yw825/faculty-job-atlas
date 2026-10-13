@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 372 - Columbia College Chicago (US)
 ATS platform: own website
-Careers link: https://about.colum.edu/provost/faculty-careers/index
+Careers link: https://colum.taleo.net/careersection/ex/joblist.ftl
 
 Reads posting URLs from school_id_372_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 372
 SCHOOL_NAME = 'Columbia College Chicago'
-CAREERS_LINK = 'https://about.colum.edu/provost/faculty-careers/index'
+CAREERS_LINK = 'https://colum.taleo.net/careersection/ex/joblist.ftl'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

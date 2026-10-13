@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 400 - Western Illinois University (US)
 ATS platform: own website
-Careers link: https://sso.interviewexchange.com/wiu/sso.jsp
+Careers link: https://wiu.interviewexchange.com/static/clients/467WIM1/index.jsp?c=1098
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -20,6 +20,9 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_400_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_400_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Careers link corrected in the audit to the university's InterviewExchange board.
 """
 import os
 import re
@@ -31,23 +34,14 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 400
 SCHOOL_NAME = 'Western Illinois University'
-CAREERS_LINK = 'https://www.wiu.edu/employment/faculty-admin.php'
+CAREERS_LINK = 'https://wiu.interviewexchange.com/static/clients/467WIM1/index.jsp?c=1098'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    """NOTE: careers_link was corrected by hand to this school's real
-    employment page, which is the right page for a human -- but it is NOT
-    machine-readable as a listing: it links out to an ATS or names no
-    postings, and every extractor tried returned the site's navigation
-    ("Find Your Way Around Campus!", "Sign in to your account") rather
-    than jobs. Those rows were removed; an empty file is correct here
-    until this school's real board is located."""
-    """CUSTOMIZED: careers_link was corrected by hand (was an InterviewExchange SSO login page).
-    Postings are matched by job word first, by repeated URL shape second."""
-    return lib.scrape_listing(CAREERS_LINK)
+    return lib.scrape_interviewexchange(CAREERS_LINK)
 
 
 def main():

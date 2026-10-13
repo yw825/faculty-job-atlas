@@ -20,6 +20,13 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_416_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_416_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Openings are the .aspx pages under /human-resources/careers/.
+Openings are the .aspx pages the careers page lists in its body (the side
+menu links HR pages with the same shape).
+Openings are the .aspx pages the careers page lists in its body (the side
+menu links HR pages with the same shape).
 """
 import os
 import re
@@ -34,16 +41,17 @@ SCHOOL_NAME = 'Trine University'
 CAREERS_LINK = 'https://www.trine.edu/human-resources/careers/'
 ATS_PLATFORM = 'own website'
 
+POSTING_RE = re.compile(r'^https://www\.trine\.edu/human-resources/careers/(?!index\.aspx)[a-z0-9-]+\.aspx$')
+
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    from bs4 import BeautifulSoup
+    from urllib.parse import urljoin
+    soup = BeautifulSoup(lib._fetch_rendered_retry(CAREERS_LINK, 5000), 'html.parser')
+    links = [urljoin(CAREERS_LINK, a['href']) for a in soup.select('div.wysiwyg li a[href]')]
+    return list(dict.fromkeys(u for u in links if POSTING_RE.search(u)))
 
 
 def main():

@@ -20,6 +20,9 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_503_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_503_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+The employment page sends applicants to the college's ADP board (the audit's example is a posting there); the page itself refuses automated visits.
 """
 import os
 import re
@@ -34,16 +37,13 @@ SCHOOL_NAME = 'Kentucky Wesleyan College'
 CAREERS_LINK = 'https://kwc.edu/about-wesleyan/employment-opportunities/'
 ATS_PLATFORM = 'own website'
 
+BOARD = 'https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=ea140efe-1732-44c1-829b-3174a0374cac&ccId=19000101_000003&lang=en_US'
+
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    return lib.PLATFORM_ADAPTERS['adp'](BOARD, SCHOOL_NAME)
 
 
 def main():
