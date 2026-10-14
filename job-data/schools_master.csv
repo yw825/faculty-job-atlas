@@ -274,7 +274,7 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes,scrap
 394,Illinois College,US,https://www.ic.edu/,https://www.ic.edu/employment,own website,medium,OK-2hop:OK:3,generic scraper
 395,University of St Francis,US,https://www.stfrancis.edu/,https://stfrancis.peopleadmin.com/postings/search,own website,medium,OK-2hop:OK:2,generic scraper
 396,Lake Forest College,US,https://www.lakeforest.edu/,https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=42c57bd5-6043-4b07-a424-fa124627e8d0&ccId=19000101_000001&lang=en_US,own website,medium,OK-2hop:OK:3,generic scraper
-397,McKendree University,US,https://www.mckendree.edu/,https://www.schooljobs.com/careers/mckendree?jobType[0]=Adjunct%20Faculty&sort=PositionTitle%7CAscending,own website,high,OK:8,generic scraper
+397,McKendree University,US,https://www.mckendree.edu/,https://www.schooljobs.com/careers/mckendree?jobType[0]=Full-Time%20Faculty&jobType[1]=Adjunct%20Faculty&sort=PositionTitle%7CAscending,own website,high,OK:8,generic scraper
 399,Benedictine University,US,https://ben.edu/,https://benu.csod.com/ux/ats/careersite/5/home?c=benu,Cornerstone OnDemand,high,OK-2hop:OK:6,adapter built
 400,Western Illinois University,US,https://www.wiu.edu/,https://wiu.interviewexchange.com/static/clients/467WIM1/index.jsp?c=1098,own website,high,OK:6 | careers_link corrected (was an InterviewExchange SSO login page),generic scraper
 401,Monmouth College,US,https://www.monmouthcollege.edu/,https://www.monmouthcollege.edu/offices/hr/employment-opportunities/,own website,medium,OK-2hop:OK:4,generic scraper

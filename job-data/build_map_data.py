@@ -27,12 +27,15 @@ This first build backfills it from each school's scrape timestamp.
 import collections
 import csv
 import glob
+import sys
 import json
 import os
 import re
 from datetime import date, datetime, timedelta
 
 HERE = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, HERE)
+from faculty_filter import is_faculty  # noqa: E402
 ROOT = os.path.dirname(HERE)
 INFO_DIR = os.path.join(HERE, 'school_job_info')
 POSTS_CODE_DIR = os.path.join(HERE, 'school_job_posts_code')
@@ -313,6 +316,7 @@ def main():
     schools_used = {}
     skipped_no_coords = set()
     junk_titles = 0
+    non_faculty = 0
     for path in sorted(glob.glob(os.path.join(INFO_DIR, '*.csv'))):
         with open(path, encoding='utf-8') as f:
             for row in csv.DictReader(f):
@@ -334,6 +338,11 @@ def main():
                     # raw XML. prune_stale_info.py removes these at source;
                     # this is the backstop so one can never reach the map.
                     junk_titles += 1
+                    continue
+                if not is_faculty(title, (row.get('position_type') or '').split('; '), sid):
+                    # Faculty jobs and postdocs only (see faculty_filter.py);
+                    # the info CSV keeps every posting, the map does not.
+                    non_faculty += 1
                     continue
                 geo = coords.get(sid)
                 if not geo:
@@ -461,6 +470,7 @@ def main():
     with_deadline = sum(1 for p in postings if p['x'])
     asst = sum(1 for p in postings if 'Assistant_Professor' in p['p'])
     print(f'  dropped {junk_titles} rows whose title is careers-site furniture, not a job')
+    print(f'  dropped {non_faculty} staff, student and other non-faculty postings')
     print(f'  first seen today (new since last run): {new_count}')
     print(f'  Assistant Professor postings: {asst}')
     print(f'  with parsed start date: {with_start} ({100 * with_start / max(len(postings), 1):.0f}%)')
