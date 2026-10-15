@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 613 - University of New England (US)
 ATS platform: PeopleAdmin
-Careers link: https://une.peopleadmin.com/
+Careers link: https://une.peopleadmin.com/postings/search?utf8=%E2%9C%93&query=&query_v0_posted_at_date=&811%5B%5D=1&commit=Search
 
 Reads posting URLs from school_id_613_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 613
 SCHOOL_NAME = 'University of New England'
-CAREERS_LINK = 'https://une.peopleadmin.com/'
+CAREERS_LINK = 'https://une.peopleadmin.com/postings/search?utf8=%E2%9C%93&query=&query_v0_posted_at_date=&811%5B%5D=1&commit=Search'
 ATS_PLATFORM = 'PeopleAdmin'
 USE_LLM = False
 
@@ -38,13 +38,8 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """This school's own detail-page logic, owned by this file. The default
-    renders the page, picks the most job-title-shaped heading, and takes the
-    visible text as the description. Override when a posting page needs
-    something else -- a nested iframe, a cookie gate, a PDF, or a title that
-    only exists in <title> (all of which came up in the non-US set)."""
-    return jinfo.fetch_detail_generic(url)
-
+    """PeopleAdmin posting; the title is the last part of the page's <title> text."""
+    return jinfo.fetch_detail_peopleadmin(url)
 
 
 def main():

@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 659 - Lake Superior State University (US)
 ATS platform: own website
-Careers link: https://lssu.elluciancrmrecruit.com/Apply/Account/Create?f=74d097fd-e977-4014-8c74-57ea15a7d036&o=c32620df-99a6-4d73-825b-e072a3556b81&s=35d02c13-f240-e811-80d9-0a19abd13584&IsInquiry=True
+Careers link: https://jobs.lssu.edu/jobs/search
 
 Reads posting URLs from school_id_659_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -38,13 +38,8 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """This school's own detail-page logic, owned by this file. The default
-    renders the page, picks the most job-title-shaped heading, and takes the
-    visible text as the description. Override when a posting page needs
-    something else -- a nested iframe, a cookie gate, a PDF, or a title that
-    only exists in <title> (all of which came up in the non-US set)."""
-    return jinfo.fetch_detail_generic(url)
-
+    """the page text opens "<job> - <city>, <state>, United States"; the full title is taken there."""
+    return jinfo.fetch_detail_board_title(url)
 
 
 def main():

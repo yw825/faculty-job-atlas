@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 373 - DePaul University (US)
 ATS platform: Oracle Cloud HCM (detected: oracle)
-Careers link: https://ekze.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs
+Careers link: https://apply.interfolio.com/32267/positions
 
 DePaul University runs on a shared ATS platform -- every school on oracle uses the
 same underlying site software, so this calls the shared
@@ -15,6 +15,8 @@ Checkpointed to school_id_373_job_postings.checkpoint next to this script.
 
 TUNED FIND_LINKS
 Careers link corrected in the audit to DePaul's Oracle board.
+DePaul's Oracle board (the audit's link) carries staff jobs; its faculty
+openings (130) are on Interfolio board 32267. Both are read.
 """
 import os
 import re
@@ -26,15 +28,17 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 373
 SCHOOL_NAME = 'DePaul University'
-CAREERS_LINK = 'https://ekze.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs'
+CAREERS_LINK = 'https://apply.interfolio.com/32267/positions'
 ATS_PLATFORM = 'Oracle Cloud HCM'
 PLATFORM = 'oracle'
+
+STAFF_BOARD = 'https://ekze.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    return lib.PLATFORM_ADAPTERS['oracle'](CAREERS_LINK, SCHOOL_NAME)
+    return list(dict.fromkeys(lib.scrape_interfolio(CAREERS_LINK) + lib.PLATFORM_ADAPTERS['oracle'](STAFF_BOARD, SCHOOL_NAME)))
 
 
 def main():

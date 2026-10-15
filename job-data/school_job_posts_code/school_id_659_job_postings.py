@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 659 - Lake Superior State University (US)
 ATS platform: own website
-Careers link: https://lssu.elluciancrmrecruit.com/Apply/Account/Create?f=74d097fd-e977-4014-8c74-57ea15a7d036&o=c32620df-99a6-4d73-825b-e072a3556b81&s=35d02c13-f240-e811-80d9-0a19abd13584&IsInquiry=True
+Careers link: https://jobs.lssu.edu/jobs/search
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -20,6 +20,10 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_659_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_659_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+The board lists its jobs over ?page=N, keeping the link's own filters
+(employment type); only /jobs/<slug> pages are postings.
 """
 import os
 import re
@@ -34,16 +38,13 @@ SCHOOL_NAME = 'Lake Superior State University'
 CAREERS_LINK = 'https://jobs.lssu.edu/jobs/search'
 ATS_PLATFORM = 'own website'
 
+POSTING_RE = re.compile(r'^https://jobs\.lssu\.edu/jobs/(?!search\b|job-alerts\b|job-categories\b)[a-z0-9][a-z0-9-]+$', re.I)
+
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    return lib.scrape_paged_board(CAREERS_LINK, POSTING_RE)
 
 
 def main():

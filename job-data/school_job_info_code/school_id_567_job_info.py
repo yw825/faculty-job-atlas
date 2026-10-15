@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 567 - Anna Maria College (US)
 ATS platform: own website
-Careers link: https://annamaria.edu/work-at-anna-maria/
+Careers link: https://annamaria.edu/work-at-anna-maria/faculty-staff-jobs/
 
 Reads posting URLs from school_id_567_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 567
 SCHOOL_NAME = 'Anna Maria College'
-CAREERS_LINK = 'https://annamaria.edu/work-at-anna-maria/'
+CAREERS_LINK = 'https://annamaria.edu/work-at-anna-maria/faculty-staff-jobs/'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

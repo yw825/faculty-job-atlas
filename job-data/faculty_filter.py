@@ -31,8 +31,11 @@ CORE = re.compile(r"(?i)professor|lecturer|\badjunct|post-?doc|postdoktor|post-d
 # ("Faculté de droit et de criminologie"), the Québec universities'
 # professor-call pages ("2026-11",
 # "Offre d'emploi") and RWTH's professorship page. Everything there that is
-# not explicitly excluded is kept.
-FACULTY_ONLY_BOARDS = {1639, 1650, 1665, 1684}
+# not explicitly excluded is kept. The Minnesota State universities' links
+# select the IFO (Inter Faculty Organization) bargaining unit, so every job
+# on them is a faculty appointment ("Clinical Education Director - Athletic
+# Training Program" at Moorhead).
+FACULTY_ONLY_BOARDS = {1639, 1650, 1665, 1684, 666, 674, 675, 683, 688, 694}
 
 
 def is_faculty(title, ranks=(), school_id=None):

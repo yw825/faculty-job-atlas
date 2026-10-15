@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 606 - St. Mary's College of Maryland (US)
 ATS platform: own website
-Careers link: https://apply.interfolio.com/190337
+Careers link: https://www.smcm.edu/human-resources/employment-opportunities/
 
 Reads posting URLs from school_id_606_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 606
 SCHOOL_NAME = 'St. Mary\'s College of Maryland'
-CAREERS_LINK = 'https://apply.interfolio.com/190337'
+CAREERS_LINK = 'https://www.smcm.edu/human-resources/employment-opportunities/'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 
@@ -37,14 +37,14 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
     HERE, '..', 'school_job_posts_code', f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
+def fetch_detail(url):
+    """an Interfolio posting linked from the school's page."""
+    return jinfo.fetch_detail_interfolio(url)
+
+
 def main():
-    # Bulk: the Interfolio board API returns title, description, unit and
-    # dates for every posting in one paginated call, so no per-posting
-    # page visit is needed (and each would need a browser -- the posting
-    # pages are an Angular app).
-    result = jinfo.run_school_job_info_bulk(SCHOOL_ID, CAREERS_LINK, 'interfolio',
-                                            JOB_POSTINGS_CHECKPOINT, CHECKPOINT_PATH,
-                                            use_llm=USE_LLM)
+    result = jinfo.run_school_job_info(SCHOOL_ID, JOB_POSTINGS_CHECKPOINT, CHECKPOINT_PATH,
+                                       fetch_detail_fn=fetch_detail, use_llm=USE_LLM)
     err = result.get('last_error', '')
     n_ok = sum(1 for r in result['rows'].values() if 'error' not in r)
     print(f"{SCHOOL_NAME} (id={SCHOOL_ID}): status={result['status']} "

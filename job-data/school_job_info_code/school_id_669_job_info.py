@@ -1,7 +1,7 @@
 """
-Job info scraper for school_id 669 - Saint Johns University (US)
+Job info scraper for school_id 669 - College of Saint Benedict and Saint John's University (US)
 ATS platform: own website
-Careers link: https://www.schooljobs.com/careers/osb?jobType[0]=Faculty&sort=PositionTitle%7CAscending
+Careers link: https://www.schooljobs.com/careers/osb
 
 Reads posting URLs from school_id_669_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -28,8 +28,8 @@ sys.path.insert(0, os.path.dirname(HERE))
 import job_info_lib as jinfo
 
 SCHOOL_ID = 669
-SCHOOL_NAME = 'Saint Johns University'
-CAREERS_LINK = 'https://www.schooljobs.com/careers/osb?jobType[0]=Faculty&sort=PositionTitle%7CAscending'
+SCHOOL_NAME = "College of Saint Benedict and Saint John's University"
+CAREERS_LINK = 'https://www.schooljobs.com/careers/osb'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 
@@ -38,13 +38,8 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """This school's own detail-page logic, owned by this file. The default
-    renders the page, picks the most job-title-shaped heading, and takes the
-    visible text as the description. Override when a posting page needs
-    something else -- a nested iframe, a cookie gate, a PDF, or a title that
-    only exists in <title> (all of which came up in the non-US set)."""
-    return jinfo.fetch_detail_generic(url)
-
+    """NEOGOV posting, read from the advert's own panel."""
+    return jinfo.fetch_detail_neogov(url)
 
 
 def main():

@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 685 - Carleton College (US)
 ATS platform: own website
-Careers link: https://www.myworkday.com/carleton/d/home.htmld
+Careers link: https://carleton.wd1.myworkdayjobs.com/CarletonCareers?jobFamilyGroup=e4c1fd5caef9100db008b7cafb480000
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -20,6 +20,10 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_685_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_685_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+The audit's link is Carleton's Workday board with its Faculty job family
+selected.
 """
 import os
 import re
@@ -31,7 +35,7 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 685
 SCHOOL_NAME = 'Carleton College'
-CAREERS_LINK = 'https://carleton.wd1.myworkdayjobs.com/CarletonCareers'
+CAREERS_LINK = 'https://carleton.wd1.myworkdayjobs.com/CarletonCareers?jobFamilyGroup=e4c1fd5caef9100db008b7cafb480000'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
@@ -40,9 +44,12 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkp
 PLATFORM = 'workday'
 
 
+def find_links():
+    return lib.PLATFORM_ADAPTERS['workday'](CAREERS_LINK, SCHOOL_NAME)
+
+
 def main():
-    result = lib.run_platform_school(SCHOOL_ID, SCHOOL_NAME, CAREERS_LINK,
-                                     CHECKPOINT_PATH, platform=PLATFORM)
+    result = lib.run_checkpointed(SCHOOL_ID, CHECKPOINT_PATH, find_links)
     err = result.get('last_error', '')
     print(f"{SCHOOL_NAME} (id={SCHOOL_ID}): status={result['status']} "
           f"links={len(result['links'])}" + (f" ERROR: {err}" if err else ''))

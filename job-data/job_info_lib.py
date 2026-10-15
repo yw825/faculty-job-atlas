@@ -54,6 +54,7 @@ import json
 import math
 import os
 import re
+import time
 from html import unescape
 from urllib.parse import parse_qs, urlparse
 
@@ -1366,6 +1367,23 @@ def fetch_detail_workday(url):
     doesn't state at all; both are prepended to the description so the
     existing date extractors can find them."""
     parsed = urlparse(url)
+    if parsed.netloc.endswith('.myworkdaysite.com'):
+        # .../recruiting/<tenant>/<site>/job/... (Wellesley): same CXS service
+        # under /wday/cxs/<tenant>/<site>/ on that host.
+        segs = [x for x in parsed.path.split('/') if x]
+        if 'recruiting' in segs and 'job' in segs:
+            i = segs.index('recruiting')
+            api = f"https://{parsed.netloc}/wday/cxs/{segs[i + 1]}/{segs[i + 2]}/" + '/'.join(segs[segs.index('job'):])
+            status, text = jlib.fetch_static(api, extra_headers={'Accept': 'application/json'})
+            if status == 200 and text:
+                info = json.loads(text).get('jobPostingInfo', {})
+                if info.get('title'):
+                    from bs4 import BeautifulSoup
+                    body = BeautifulSoup(info.get('jobDescription') or '', 'html.parser').get_text(' ', strip=True)
+                    dates = ' '.join(x for x in (f"Posted: {info.get('postedOn')}" if info.get('postedOn') else '',
+                                                  f"Start date: {info.get('startDate')}" if info.get('startDate') else '') if x)
+                    return info['title'][:250], re.sub(r'\s+', ' ', f"{dates} {info['title']}. {body}")[:20000]
+        raise RuntimeError('myworkdaysite posting not served (closed?)')
     m = _WORKDAY_HOST_RE.match(parsed.netloc)
     if not m:
         raise RuntimeError('not a workday posting url')
@@ -2377,13 +2395,34 @@ def fetch_detail_interviewexchange(url):
     """(title, description) for an InterviewExchange advert. The page text
     opens "<School>\nJob Posting: <title> <School>"; taking the title there
     keeps a title the shared splitter would cut at " - "."""
+    time.sleep(3)   # Cloudflare rate-limits the host (error 1015) when read quickly
     title, description = fetch_detail_generic(url)
+    if re.search(r'(?i)\bWAF\b.{0,40}not authorized|error code: 1015', (description or '')[:400]):
+        raise RuntimeError('InterviewExchange WAF block (rate limit) -- retry later')
     m = re.match(r'\s*([^\n]{3,90})\n\s*Job Posting:\s*(.+?)\s+\1', description or '', re.S)
     if m:
         title = re.sub(r'\s+', ' ', m.group(2))
     if not title:
         raise RuntimeError('posting not on the page (closed?)')
     return title[:250], description
+
+
+def fetch_detail_ultipro(url):
+    """UKG (UltiPro) OpportunityDetail page: rendered headless it answers
+    "You are using an unsupported browser" (Hood's titles came back blank),
+    but the static page embeds the opportunity as JSON ("Title",
+    "Description"), which is read instead."""
+    status, html = jlib.fetch_static(url, timeout=40)
+    if status != 200 or not html:
+        raise RuntimeError(f'page status={status}')
+    m = re.search(r'"Title":"((?:[^"\\]|\\.)*)"', html)
+    if not m:
+        raise RuntimeError('no opportunity on the page (closed?)')
+    title = json.loads(f'"{m.group(1)}"')
+    d = re.search(r'"Description":"((?:[^"\\]|\\.)*)"', html)
+    from bs4 import BeautifulSoup
+    body = BeautifulSoup(json.loads(f'"{d.group(1)}"'), 'html.parser').get_text(' ', strip=True) if d else ''
+    return title[:250], re.sub(r'\s+', ' ', f'{title}. {body}')[:20000]
 
 
 _BOARD_PAGE = {}
@@ -2680,7 +2719,7 @@ def fetch_detail_rendered_h1(url, wait_ms=7000, skip=r'(?i)^(log ?in|sign in|men
     return title[:250], re.sub(r'\s+', ' ', body.get_text(' ', strip=True))[:20000]
 
 
-def fetch_peoplesoft_bulk(careers_link):
+def fetch_peoplesoft_bulk(careers_link, rows=None):
     """{posting_url: (title, description, department)} for a PeopleSoft
     Fluid careers site, read from the search results rows.
 
@@ -2691,13 +2730,19 @@ def fetch_peoplesoft_bulk(careers_link):
     job_postings_lib.peoplesoft_posting_url -- provided the SiteId is
     carried through.)"""
     out = {}
-    for title, job_id, location, dept, posted in jlib.peoplesoft_rows(careers_link):
+    for title, job_id, location, dept, posted in (jlib.peoplesoft_rows(careers_link) if rows is None else rows):
         url = jlib.peoplesoft_posting_url(careers_link, job_id)
         bits = [f'Posted: {posted}' if posted else '',
                 f'Location: {location}' if location else '',
                 f'Department: {dept}' if dept else '', title]
         out[url] = (title, ' '.join(b for b in bits if b), dept)
     return out
+
+
+def fetch_umn_bulk(campus):
+    """fetch_peoplesoft_bulk for one University of Minnesota campus (see
+    job_postings_lib.umn_campus_rows)."""
+    return fetch_peoplesoft_bulk(jlib.UMN_SEARCH, rows=jlib.umn_campus_rows(campus))
 
 
 _RAW_CACHE_LIMIT = 20000

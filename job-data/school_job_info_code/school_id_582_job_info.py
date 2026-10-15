@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 582 - Assumption University (US)
 ATS platform: own website
-Careers link: https://recruiting.paylocity.com/recruiting/jobs/All/0ceaa085-bdf4-42db-8905-07c4a3c989e1/Assumption-University-Staff
+Careers link: https://recruiting.paylocity.com/recruiting/jobs/All/f76cb02a-754f-43db-a7c2-5ce37cc9ae48/Assumption-University-Faculty
 
 Reads posting URLs from school_id_582_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 582
 SCHOOL_NAME = 'Assumption University'
-CAREERS_LINK = 'https://recruiting.paylocity.com/recruiting/jobs/All/0ceaa085-bdf4-42db-8905-07c4a3c989e1/Assumption-University-Staff'
+CAREERS_LINK = 'https://recruiting.paylocity.com/recruiting/jobs/All/f76cb02a-754f-43db-a7c2-5ce37cc9ae48/Assumption-University-Faculty'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 
@@ -38,13 +38,8 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """This school's own detail-page logic, owned by this file. The default
-    renders the page, picks the most job-title-shaped heading, and takes the
-    visible text as the description. Override when a posting page needs
-    something else -- a nested iframe, a cookie gate, a PDF, or a title that
-    only exists in <title> (all of which came up in the non-US set)."""
-    return jinfo.fetch_detail_generic(url)
-
+    """Paylocity posting, from the page's JobPosting block."""
+    return jinfo.fetch_detail_paylocity(url)
 
 
 def main():

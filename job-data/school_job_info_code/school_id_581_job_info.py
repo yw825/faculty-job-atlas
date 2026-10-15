@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 581 - Williams College (US)
 ATS platform: own website
-Careers link: https://employment.williams.edu/
+Careers link: https://employment.williams.edu/faculty-positions/
 
 Reads posting URLs from school_id_581_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 581
 SCHOOL_NAME = 'Williams College'
-CAREERS_LINK = 'https://employment.williams.edu/'
+CAREERS_LINK = 'https://employment.williams.edu/faculty-positions/'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

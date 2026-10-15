@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 531 - Hampshire College (US)
 ATS platform: ADP Workforce Now (detected: adp)
-Careers link: https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=2723009e-ce54-4ba5-b0ed-f82b1e791964&ccId=19000101_000003&lang=en_US
+Careers link: https://www.hampshire.edu/offices/human-resources/employment-opportunities
 
 Hampshire College runs on a shared ATS platform, so this calls the shared
 job_postings_lib.scrape_adp adapter rather than duplicating platform-specific
@@ -21,8 +21,13 @@ schools. It will collect normally once it does.
 
 Writes school_job_posts/school_id_531_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_531_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+The HR page embeds the college's ADP board, which is read directly (the
+audit found no posting open).
 """
 import os
+import re
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -31,18 +36,21 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 531
 SCHOOL_NAME = 'Hampshire College'
-CAREERS_LINK = ('https://workforcenow.adp.com/mascsr/default/mdf/recruitment/'
-                'recruitment.html?cid=2723009e-ce54-4ba5-b0ed-f82b1e791964'
-                '&ccId=19000101_000003&lang=en_US')
+CAREERS_LINK = 'https://www.hampshire.edu/offices/human-resources/employment-opportunities'
 ATS_PLATFORM = 'ADP Workforce Now'
 PLATFORM = 'adp'
+
+BOARD = 'https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=2723009e-ce54-4ba5-b0ed-f82b1e791964&ccId=19000101_000003&lang=en_US'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
+def find_links():
+    return lib.PLATFORM_ADAPTERS['adp'](BOARD, SCHOOL_NAME)
+
+
 def main():
-    result = lib.run_platform_school(SCHOOL_ID, SCHOOL_NAME, CAREERS_LINK,
-                                     CHECKPOINT_PATH, platform=PLATFORM)
+    result = lib.run_checkpointed(SCHOOL_ID, CHECKPOINT_PATH, find_links)
     err = result.get('last_error', '')
     print(f"{SCHOOL_NAME} (id={SCHOOL_ID}): status={result['status']} "
           f"links={len(result['links'])}" + (f" ERROR: {err}" if err else ''))

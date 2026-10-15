@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 598 - University of Maryland-College Park (US)
 ATS platform: Workday (detected: workday)
-Careers link: https://umd.wd1.myworkdayjobs.com/UMCP
+Careers link: https://umd.wd1.myworkdayjobs.com/UMCP?workerSubType=87e92a4cca141000c7996897710c0000&workerSubType=87e92a4cca141000c79966b87c490001
 
 University of Maryland-College Park runs on a shared ATS platform -- every school on workday uses the
 same underlying site software, so this calls the shared
@@ -12,8 +12,13 @@ and pass it to run_checkpointed instead of editing the shared adapter.
 
 Writes school_job_posts/school_id_598_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_598_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+The audit's link is UMD's Workday board with its own Faculty worker-type
+filters selected.
 """
 import os
+import re
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -22,16 +27,19 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 598
 SCHOOL_NAME = 'University of Maryland-College Park'
-CAREERS_LINK = 'https://umd.wd1.myworkdayjobs.com/UMCP'
+CAREERS_LINK = 'https://umd.wd1.myworkdayjobs.com/UMCP?workerSubType=87e92a4cca141000c7996897710c0000&workerSubType=87e92a4cca141000c79966b87c490001'
 ATS_PLATFORM = 'Workday'
 PLATFORM = 'workday'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
+def find_links():
+    return lib.PLATFORM_ADAPTERS['workday'](CAREERS_LINK, SCHOOL_NAME)
+
+
 def main():
-    result = lib.run_platform_school(SCHOOL_ID, SCHOOL_NAME, CAREERS_LINK,
-                                     CHECKPOINT_PATH, platform=PLATFORM)
+    result = lib.run_checkpointed(SCHOOL_ID, CHECKPOINT_PATH, find_links)
     err = result.get('last_error', '')
     print(f"{SCHOOL_NAME} (id={SCHOOL_ID}): status={result['status']} "
           f"links={len(result['links'])}" + (f" ERROR: {err}" if err else ''))

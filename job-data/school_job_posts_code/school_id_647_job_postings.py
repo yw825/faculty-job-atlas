@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 647 - Michigan Technological University (US)
 ATS platform: own website
-Careers link: https://www.mtu.edu/career/on-campus-jobs/index.html
+Careers link: https://www.employment.mtu.edu/en-us/filter/?job-mail-subscribe-privacy=agree&search-keyword=&work-type=faculty
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -20,6 +20,10 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_647_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_647_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+PageUp board; the audit's link carries the board's own work-type (faculty)
+filter, kept by asking for the filtered list 500 at a time.
 """
 import os
 import re
@@ -31,19 +35,14 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 647
 SCHOOL_NAME = 'Michigan Technological University'
-CAREERS_LINK = 'https://www.mtu.edu/career/on-campus-jobs/index.html'
+CAREERS_LINK = 'https://www.employment.mtu.edu/en-us/filter/?job-mail-subscribe-privacy=agree&search-keyword=&work-type=faculty'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    return lib.scrape_pageup_listing(CAREERS_LINK)
 
 
 def main():

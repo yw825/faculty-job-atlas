@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 373 - DePaul University (US)
 ATS platform: Oracle Cloud HCM
-Careers link: https://ekze.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs
+Careers link: https://apply.interfolio.com/32267/positions
 
 Reads posting URLs from school_id_373_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -30,7 +30,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 373
 SCHOOL_NAME = 'DePaul University'
-CAREERS_LINK = 'https://ekze.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs'
+CAREERS_LINK = 'https://apply.interfolio.com/32267/positions'
 ATS_PLATFORM = 'Oracle Cloud HCM'
 USE_LLM = False
 
@@ -40,11 +40,23 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint
 
 
 
+def fetch_detail(url):
+    """a faculty-board posting (Interfolio / PeopleAdmin) or a staff-board one
+    (Oracle / Workday), read with that platform's reader."""
+    if 'interfolio.com' in url:
+        return jinfo.fetch_detail_interfolio(url)
+    if 'peopleadmin.com' in url:
+        return jinfo.fetch_detail_peopleadmin(url)
+    if 'oraclecloud.com' in url:
+        return jinfo.fetch_detail_oracle_rest(url)
+    if 'myworkdayjobs.com' in url:
+        return jinfo.fetch_detail_workday(url)
+    return jinfo.fetch_detail_generic(url)
+
+
 def main():
-    # Bulk: the Oracle list call already carries title, department and description.
-    result = jinfo.run_school_job_info_bulk(SCHOOL_ID, CAREERS_LINK, 'oracle',
-                                            JOB_POSTINGS_CHECKPOINT, CHECKPOINT_PATH,
-                                            use_llm=USE_LLM)
+    result = jinfo.run_school_job_info(SCHOOL_ID, JOB_POSTINGS_CHECKPOINT, CHECKPOINT_PATH,
+                                       fetch_detail_fn=fetch_detail, use_llm=USE_LLM)
     err = result.get('last_error', '')
     n_ok = sum(1 for r in result['rows'].values() if 'error' not in r)
     print(f"{SCHOOL_NAME} (id={SCHOOL_ID}): status={result['status']} "

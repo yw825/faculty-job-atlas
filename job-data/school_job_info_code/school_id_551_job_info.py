@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 551 - College of Our Lady of the Elms (US)
 ATS platform: own website
-Careers link: https://www.elms.edu/about-elms/administrative-offices/human-resources/employment/
+Careers link: https://www.higheredjobs.com/institution/search.cfm?University=Elms%20College
 
 Reads posting URLs from school_id_551_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 551
 SCHOOL_NAME = 'College of Our Lady of the Elms'
-CAREERS_LINK = 'https://www.elms.edu/about-elms/administrative-offices/human-resources/employment/'
+CAREERS_LINK = 'https://www.higheredjobs.com/institution/search.cfm?University=Elms%20College'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

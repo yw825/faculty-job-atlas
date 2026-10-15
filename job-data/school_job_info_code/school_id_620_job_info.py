@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 620 - University of Southern Maine (US)
 ATS platform: own website
-Careers link: https://usm.careers.maine.edu/
+Careers link: https://fa-ewca-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions?lastSelectedFacet=ORGANIZATIONS&selectedOrganizationsFacet=300000014113625
 
 Reads posting URLs from school_id_620_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 620
 SCHOOL_NAME = 'University of Southern Maine'
-CAREERS_LINK = 'https://usm.careers.maine.edu/'
+CAREERS_LINK = 'https://fa-ewca-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions?lastSelectedFacet=ORGANIZATIONS&selectedOrganizationsFacet=300000014113625'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 
@@ -38,13 +38,8 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """This school's own detail-page logic, owned by this file. The default
-    renders the page, picks the most job-title-shaped heading, and takes the
-    visible text as the description. Override when a posting page needs
-    something else -- a nested iframe, a cookie gate, a PDF, or a title that
-    only exists in <title> (all of which came up in the non-US set)."""
-    return jinfo.fetch_detail_generic(url)
-
+    """Oracle posting, from the board's public REST detail."""
+    return jinfo.fetch_detail_oracle_rest(url)
 
 
 def main():

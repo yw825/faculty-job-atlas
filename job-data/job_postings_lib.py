@@ -1569,7 +1569,7 @@ def scrape_jobs_ac_uk(employer, max_pages=20):
     return links
 
 
-def scrape_oracle_rest(base, site, lang='en'):
+def scrape_oracle_rest(base, site, lang='en', facets=''):
     """Oracle Recruiting Cloud postings read straight from the public REST
     service (/hcmRestApi/.../recruitingCEJobRequisitions, finder findReqs),
     50 per call, for boards where scrape_oracle's browser session capture
@@ -1580,7 +1580,7 @@ def scrape_oracle_rest(base, site, lang='en'):
     while offset < 5000:
         url = (f'{base}/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true'
                f'&expand=requisitionList.secondaryLocations&finder=findReqs;siteNumber={site},'
-               f'facetsList=LOCATIONS,limit=50,offset={offset},sortBy=POSTING_DATES_DESC')
+               f'facetsList=LOCATIONS,limit=50,offset={offset},{facets + "," if facets else ""}sortBy=POSTING_DATES_DESC')
         status, text = fetch_static(url, timeout=40, extra_headers={'Accept': 'application/json'})
         if status != 200:
             raise RuntimeError(f'Oracle REST status={status}')
@@ -1595,6 +1595,101 @@ def scrape_oracle_rest(base, site, lang='en'):
         if not rows or (total is not None and len(links) >= int(total)):
             break
     return links
+
+
+def scrape_oracle_link(url):
+    """scrape_oracle_rest for a board link, keeping the link's own filters
+    (selectedOrganizationsFacet=..., selectedCategoriesFacet=...,
+    selectedLocationsFacet=...): the University of Maine System's one board
+    is split per campus by its Organization filter."""
+    from urllib.parse import urlsplit, parse_qs
+    parts = urlsplit(url)
+    m = re.search(r'/CandidateExperience/([^/]+)/sites/([^/?#]+)', parts.path)
+    if not m:
+        raise RuntimeError(f'not an Oracle candidate-experience link: {url}')
+    facets = ','.join(f'{k}={v[0]}' for k, v in parse_qs(parts.query).items()
+                      if re.fullmatch(r'selected\w+Facet', k))
+    return scrape_oracle_rest(f'https://{parts.netloc}', m.group(2), lang=m.group(1), facets=facets)
+
+
+def adp_myjobs(url):
+    """[(posting_url, title, description_html)] for an ADP "MyJobs" career
+    site (myjobs.adp.com/<site>/cx/job-listing). The list is a single-page
+    app whose job service needs the session token the page itself obtains, so
+    the page is opened once and its own search request replayed with a page
+    size of 100. A posting is .../cx/job-details?reqId=<reqId>."""
+    m = re.match(r'(https://myjobs\.adp\.com/[^/]+)/cx', url)
+    if not m:
+        raise RuntimeError(f'not an ADP MyJobs link: {url}')
+    b = get_browser()
+    if b is None:
+        raise RuntimeError('playwright unavailable')
+    page = b.new_page(user_agent=UA)
+    seen = []
+    page.on('request', lambda r: seen.append((r.url, r.headers)) if 'job-requisitions/apply-custom-filters' in r.url else None)
+    try:
+        page.goto(url, timeout=60000, wait_until='domcontentloaded')
+        for _ in range(20):
+            if seen:
+                break
+            page.wait_for_timeout(1000)
+        if not seen:
+            raise RuntimeError('ADP MyJobs: the page made no job search request')
+        api, headers = seen[0]
+        headers = {k: v for k, v in headers.items() if not k.lower().startswith('sec-')}
+        out, skip = [], 0
+        while skip < 2000:
+            r = page.request.get(re.sub(r'\$top=\d+', f'$top=100&$skip={skip}', api), headers=headers)
+            if r.status != 200:
+                raise RuntimeError(f'ADP MyJobs search status={r.status}')
+            reqs = r.json().get('jobRequisitions') or []
+            for j in reqs:
+                out.append((f"{m.group(1)}/cx/job-details?reqId={j['reqId']}",
+                            j.get('publishedJobTitle') or j.get('jobTitle') or '',
+                            (j.get('jobDescription') or '') + (j.get('jobQualifications') or '')))
+            if len(reqs) < 100:
+                break
+            skip += 100
+    finally:
+        page.close()
+    return list({u: (u, t, d) for u, t, d in out}.values())
+
+
+# University of Michigan: one board (careers.umich.edu) for the three
+# campuses. Faculty openings sit under four "career interest" categories
+# (Instructional - Regular / - Regular Clinical, LEO Lecturers, Research
+# Fellows = postdocs); the site takes one category per search and pages by
+# ?page=0,1,... The campus is its work_location filter: Dearborn 1, Flint 2;
+# Ann Arbor is everything else (Ann Arbor campus, Michigan Medicine, other
+# Michigan sites).
+UMICH_INTERESTS = (230, 240, 265, 660)
+UMICH_LOCATION = {'Dearborn': '1', 'Flint': '2'}
+
+
+def umich_job_ids(query):
+    ids = []
+    for page in range(60):
+        status, html = fetch_static(f'https://careers.umich.edu/search-jobs?{query}&page={page}', timeout=40)
+        if status != 200:
+            raise RuntimeError(f'umich search status={status}')
+        fresh = [i for i in dict.fromkeys(re.findall(r'/job_detail/(\d+)/', html)) if i not in ids]
+        if not fresh:
+            break
+        ids.extend(fresh)
+    return ids
+
+
+def scrape_umich_campus(campus):
+    picked = []
+    for ci in UMICH_INTERESTS:
+        if campus in UMICH_LOCATION:
+            picked += umich_job_ids(f'career_interest={ci}&work_location={UMICH_LOCATION[campus]}')
+        else:
+            other = set()
+            for loc in UMICH_LOCATION.values():
+                other.update(umich_job_ids(f'career_interest={ci}&work_location={loc}'))
+            picked += [i for i in umich_job_ids(f'career_interest={ci}&work_location=All') if i not in other]
+    return [f'https://careers.umich.edu/job_detail/{i}' for i in dict.fromkeys(picked)]
 
 
 def scrape_pageup_listing(listing_url):
@@ -2883,9 +2978,12 @@ def _parse_peoplesoft_rows(text):
     return rows
 
 
-def peoplesoft_rows(url):
+def peoplesoft_rows(url, facets=()):
     """[(title, job_id, location, department, posted)] for a PeopleSoft
-    Fluid careers site.
+    Fluid careers site. `facets`: labels of the search's own filter entries
+    to tick first ("Faculty" -> the "Faculty (167)" entry); ticked entries of
+    one group combine with OR. Needed where the board holds more jobs than
+    the 300 it will display (Minnesota: 715).
 
     These sites (the Georgia system's shared board, and CWU's own) show
     nothing until "View All Jobs" is clicked, and then load results by
@@ -2907,6 +3005,12 @@ def peoplesoft_rows(url):
         except Exception:
             pass                      # some tenants land on results already
         page.wait_for_timeout(9000)
+        for label in facets:
+            entry = page.get_by_text(re.compile('^' + re.escape(label) + r' \(\d+\)$'))
+            if not entry.count():
+                raise RuntimeError(f'PeopleSoft filter entry {label!r} not found')
+            entry.first.click()
+            page.wait_for_timeout(6000)
         # Scroll until the count is BOTH non-zero and stable for three
         # consecutive checks. Breaking on an unchanged count alone stopped
         # at zero whenever the rows had not rendered yet -- which is what
@@ -2974,6 +3078,28 @@ def peoplesoft_posting_url(careers_link, job_id):
 
 def scrape_peoplesoft(url):
     return [peoplesoft_posting_url(url, jid) for _t, jid, _l, _d, _p in peoplesoft_rows(url)]
+
+
+# University of Minnesota: one PeopleSoft board (hr.myu.umn.edu) for all
+# campuses, 700+ jobs of which it displays 300. Ticking the Faculty and
+# Professionals-in-Training (postdocs) job types brings it under that cap;
+# the campus is each row's Location. Austin (Hormel Institute), St Cloud and
+# "All Other" rows belong to Twin Cities units.
+UMN_SEARCH = ('https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL'
+              '?Page=HRS_APP_SCHJOB_FL&Action=U')
+UMN_FACETS = ('Faculty', 'Professionals-in-Training')
+UMN_OWN_CAMPUSES = ('Duluth', 'Morris', 'Crookston', 'Rochester')
+
+
+def umn_campus_rows(campus):
+    rows = peoplesoft_rows(UMN_SEARCH, facets=UMN_FACETS)
+    if campus == 'Twin Cities':
+        return [r for r in rows if r[2] not in UMN_OWN_CAMPUSES]
+    return [r for r in rows if r[2] == campus]
+
+
+def scrape_umn_campus(campus):
+    return [peoplesoft_posting_url(UMN_SEARCH, r[1]) for r in umn_campus_rows(campus)]
 
 
 

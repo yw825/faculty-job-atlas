@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 579 - Westfield State University (US)
 ATS platform: own website
-Careers link: https://careers.westfield.ma.edu/labor-market-insights/
+Careers link: https://westfield.interviewexchange.com/static/clients/482WSM1/index.jsp
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -20,6 +20,9 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_579_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_579_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+InterviewExchange board; job ids are collected and the advert address rebuilt.
 """
 import os
 import re
@@ -31,19 +34,14 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 579
 SCHOOL_NAME = 'Westfield State University'
-CAREERS_LINK = 'https://careers.westfield.ma.edu/labor-market-insights/'
+CAREERS_LINK = 'https://westfield.interviewexchange.com/static/clients/482WSM1/index.jsp'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    return lib.scrape_interviewexchange(CAREERS_LINK)
 
 
 def main():

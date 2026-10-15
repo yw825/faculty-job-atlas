@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 563 - Merrimack College (US)
 ATS platform: own website
-Careers link: https://merrimack-advocate.symplicity.com/care_report/index.php/pid854103
+Careers link: https://www.merrimack.edu/about/offices_services/human_resources/employment_opportunities/#faculty
 
 Reads posting URLs from school_id_563_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 563
 SCHOOL_NAME = 'Merrimack College'
-CAREERS_LINK = 'https://www.merrimack.edu/about/offices_services/human_resources/employment_opportunities/'
+CAREERS_LINK = 'https://www.merrimack.edu/about/offices_services/human_resources/employment_opportunities/#faculty'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

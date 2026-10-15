@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 566 - Wheaton College (Massachusetts) (US)
 ATS platform: own website
-Careers link: https://www.wheatoncollege.edu/academics/life-and-career-design-institute/
+Careers link: https://jobs.wheatoncollege.edu/postings/search?query=&query_v0_posted_at_date=&query_organizational_tier_3_id=any&365=3&commit=Search&_gl=1*1472nys*_gcl_au*NjQ5OTMwNTYyLjE3OTIwMDM4MzM.
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -20,6 +20,11 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_566_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_566_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+The careers link is a PeopleAdmin search; the search itself is paged so any
+filter on the link (position type) is kept -- the board's Atom feed ignores
+filters.
 """
 import os
 import re
@@ -31,19 +36,14 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 566
 SCHOOL_NAME = 'Wheaton College (Massachusetts)'
-CAREERS_LINK = 'https://www.wheatoncollege.edu/academics/life-and-career-design-institute/'
+CAREERS_LINK = 'https://jobs.wheatoncollege.edu/postings/search?query=&query_v0_posted_at_date=&query_organizational_tier_3_id=any&365=3&commit=Search&_gl=1*1472nys*_gcl_au*NjQ5OTMwNTYyLjE3OTIwMDM4MzM.'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    return lib.scrape_peopleadmin_search(CAREERS_LINK)
 
 
 def main():

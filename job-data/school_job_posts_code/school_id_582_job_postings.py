@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 582 - Assumption University (US)
 ATS platform: own website
-Careers link: https://recruiting.paylocity.com/recruiting/jobs/All/0ceaa085-bdf4-42db-8905-07c4a3c989e1/Assumption-University-Staff
+Careers link: https://recruiting.paylocity.com/recruiting/jobs/All/f76cb02a-754f-43db-a7c2-5ce37cc9ae48/Assumption-University-Faculty
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -20,6 +20,10 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_582_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_582_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Careers link corrected in the audit to Assumption's Paylocity faculty list;
+the jobs are a data block in the page.
 """
 import os
 import re
@@ -31,19 +35,14 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 582
 SCHOOL_NAME = 'Assumption University'
-CAREERS_LINK = 'https://recruiting.paylocity.com/recruiting/jobs/All/0ceaa085-bdf4-42db-8905-07c4a3c989e1/Assumption-University-Staff'
+CAREERS_LINK = 'https://recruiting.paylocity.com/recruiting/jobs/All/f76cb02a-754f-43db-a7c2-5ce37cc9ae48/Assumption-University-Faculty'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    return lib.scrape_paylocity_list(CAREERS_LINK)
 
 
 def main():

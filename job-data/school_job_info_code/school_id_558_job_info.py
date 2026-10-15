@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 558 - University of Massachusetts-Lowell (US)
 ATS platform: own website
-Careers link: https://www.uml.edu/academics/programs/?career=undergraduate&utm_source=home
+Careers link: https://explorejobs.uml.edu/en-us/filter/?search-keyword=&work-type=faculty%20full%20time&work-type=faculty%20part%20time%2fadjunct
 
 Reads posting URLs from school_id_558_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 558
 SCHOOL_NAME = 'University of Massachusetts-Lowell'
-CAREERS_LINK = 'https://www.uml.edu/academics/programs/?career=undergraduate&utm_source=home'
+CAREERS_LINK = 'https://explorejobs.uml.edu/en-us/filter/?search-keyword=&work-type=faculty%20full%20time&work-type=faculty%20part%20time%2fadjunct'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 
@@ -38,13 +38,8 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """This school's own detail-page logic, owned by this file. The default
-    renders the page, picks the most job-title-shaped heading, and takes the
-    visible text as the description. Override when a posting page needs
-    something else -- a nested iframe, a cookie gate, a PDF, or a title that
-    only exists in <title> (all of which came up in the non-US set)."""
-    return jinfo.fetch_detail_generic(url)
-
+    """PageUp posting."""
+    return jinfo.fetch_detail_pageup(url)
 
 
 def main():

@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 590 - Johns Hopkins University (US)
 ATS platform: own website
-Careers link: https://facultyjobs.jhu.edu
+Careers link: https://facultyjobs.jhu.edu/positions
 
 Reads posting URLs from school_id_590_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,

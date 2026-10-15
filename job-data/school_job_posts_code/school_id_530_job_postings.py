@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 530 - Amherst College (US)
 ATS platform: own website
-Careers link: https://wd5.myworkday.com/amherst/d/home.htmld
+Careers link: https://apply.interfolio.com/9535/positions
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -20,6 +20,10 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_530_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_530_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Amherst's Workday board (the audit's link) carries staff jobs; its faculty
+openings are on Interfolio board 9535. Both are read.
 """
 import os
 import re
@@ -31,8 +35,10 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 530
 SCHOOL_NAME = 'Amherst College'
-CAREERS_LINK = 'https://amherst.wd5.myworkdayjobs.com/Amherst_Jobs'
+CAREERS_LINK = 'https://apply.interfolio.com/9535/positions'
 ATS_PLATFORM = 'own website'
+
+STAFF_BOARD = 'https://amherst.wd5.myworkdayjobs.com/Amherst_Jobs'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
@@ -40,9 +46,12 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkp
 PLATFORM = 'workday'
 
 
+def find_links():
+    return list(dict.fromkeys(lib.scrape_interfolio(CAREERS_LINK) + lib.PLATFORM_ADAPTERS['workday'](STAFF_BOARD, SCHOOL_NAME)))
+
+
 def main():
-    result = lib.run_platform_school(SCHOOL_ID, SCHOOL_NAME, CAREERS_LINK,
-                                     CHECKPOINT_PATH, platform=PLATFORM)
+    result = lib.run_checkpointed(SCHOOL_ID, CHECKPOINT_PATH, find_links)
     err = result.get('last_error', '')
     print(f"{SCHOOL_NAME} (id={SCHOOL_ID}): status={result['status']} "
           f"links={len(result['links'])}" + (f" ERROR: {err}" if err else ''))

@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 637 - Michigan State University (US)
 ATS platform: own website
-Careers link: https://careers.msu.edu/homepage
+Careers link: https://careers.msu.edu/jobs/search?page=1&employment_type_uids%5B%5D=602f657c9cdc8d10a519b35941d5688e&employment_type_uids%5B%5D=30c2d65e1bff7c02a39b78266368afee&query=
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -20,6 +20,10 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_637_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_637_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+The board lists its jobs over ?page=N, keeping the link's own filters
+(employment type); only /jobs/<slug> pages are postings.
 """
 import os
 import re
@@ -31,19 +35,16 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 637
 SCHOOL_NAME = 'Michigan State University'
-CAREERS_LINK = 'https://careers.msu.edu/homepage'
+CAREERS_LINK = 'https://careers.msu.edu/jobs/search?page=1&employment_type_uids%5B%5D=602f657c9cdc8d10a519b35941d5688e&employment_type_uids%5B%5D=30c2d65e1bff7c02a39b78266368afee&query='
 ATS_PLATFORM = 'own website'
+
+POSTING_RE = re.compile(r'^https://careers\.msu\.edu/jobs/(?!search\b|job-alerts\b|job-categories\b)[a-z0-9][a-z0-9-]+$', re.I)
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    return lib.scrape_paged_board(CAREERS_LINK, POSTING_RE)
 
 
 def main():

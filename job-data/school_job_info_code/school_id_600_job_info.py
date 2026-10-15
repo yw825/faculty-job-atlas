@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 600
 SCHOOL_NAME = 'Hood College'
-CAREERS_LINK = 'https://recruiting.ultipro.com/HOO1003HOODC/JobBoard/58a51caa-edd5-4489-a43e-478413a6c821/?q=&o=postedDateDesc This new address will ne'
+CAREERS_LINK = 'https://recruiting.ultipro.com/HOO1003HOODC/JobBoard/58a51caa-edd5-4489-a43e-478413a6c821/?q=&o=postedDateDesc'
 ATS_PLATFORM = 'UKG/Ultipro'
 USE_LLM = False
 
@@ -38,13 +38,8 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """This school's own detail-page logic, owned by this file. The default
-    renders the page, picks the most job-title-shaped heading, and takes the
-    visible text as the description. Override when a posting page needs
-    something else -- a nested iframe, a cookie gate, a PDF, or a title that
-    only exists in <title> (all of which came up in the non-US set)."""
-    return jinfo.fetch_detail_generic(url)
-
+    """UKG (UltiPro) posting, from the opportunity JSON embedded in the page."""
+    return jinfo.fetch_detail_ultipro(url)
 
 
 def main():

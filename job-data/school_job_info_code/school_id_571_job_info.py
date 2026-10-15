@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 571 - American International College (US)
 ATS platform: ADP
-Careers link: https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=4f7bf2c8-4d1c-459f-99e3-bc1939cfa417&ccId=9201445022114_2&lang=en_US
+Careers link: https://www.higheredjobs.com/institution/search.cfm?University=American%20International%20College
 
 Reads posting URLs from school_id_571_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -30,7 +30,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 571
 SCHOOL_NAME = 'American International College'
-CAREERS_LINK = 'https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=4f7bf2c8-4d1c-459f-99e3-bc1939cfa417&ccId=9201445022114_2&lang=en_US'
+CAREERS_LINK = 'https://www.higheredjobs.com/institution/search.cfm?University=American%20International%20College'
 ATS_PLATFORM = 'ADP'
 USE_LLM = False
 
@@ -40,10 +40,14 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint
 
 
 
+def fetch_detail(url):
+    """HigherEdJobs advert (rendered; first heading is the job title)."""
+    return jinfo.fetch_detail_generic(url)
+
+
 def main():
-    result = jinfo.run_school_job_info_bulk(SCHOOL_ID, CAREERS_LINK, 'adp',
-                                            JOB_POSTINGS_CHECKPOINT, CHECKPOINT_PATH,
-                                            use_llm=USE_LLM)
+    result = jinfo.run_school_job_info(SCHOOL_ID, JOB_POSTINGS_CHECKPOINT, CHECKPOINT_PATH,
+                                       fetch_detail_fn=fetch_detail, use_llm=USE_LLM)
     err = result.get('last_error', '')
     n_ok = sum(1 for r in result['rows'].values() if 'error' not in r)
     print(f"{SCHOOL_NAME} (id={SCHOOL_ID}): status={result['status']} "

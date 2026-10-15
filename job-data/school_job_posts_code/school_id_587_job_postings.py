@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 587 - University of Maryland Global Campus (US)
 ATS platform: own website
-Careers link: https://careers.umgc.edu/faculty.html
+Careers link: https://careers.umgc.edu/jobs/
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -20,6 +20,10 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_587_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_587_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+UMGC's careers site lists every opening (staff and the Adjunct / Collegiate
+Faculty categories) over ?page_jobs=N; postings are /job/<slug>-<ref>/.
 """
 import os
 import re
@@ -31,19 +35,23 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 587
 SCHOOL_NAME = 'University of Maryland Global Campus'
-CAREERS_LINK = 'https://careers.umgc.edu/faculty.html'
+CAREERS_LINK = 'https://careers.umgc.edu/jobs/'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    links = []
+    for n in range(1, 60):
+        status, html = lib.fetch_static(f'{CAREERS_LINK}?page_jobs={n}', timeout=40)
+        if status != 200:
+            break
+        fresh = [u for u in dict.fromkeys(lib.urljoin(CAREERS_LINK, h) for h in re.findall(r'href="(/job/[a-z0-9-]+-\d+/)"', html)) if u not in links]
+        if not fresh:
+            break
+        links += fresh
+    return links
 
 
 def main():

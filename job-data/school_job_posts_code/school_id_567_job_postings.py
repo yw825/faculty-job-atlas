@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 567 - Anna Maria College (US)
 ATS platform: own website
-Careers link: https://annamaria.edu/work-at-anna-maria/
+Careers link: https://annamaria.edu/work-at-anna-maria/faculty-staff-jobs/
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -20,6 +20,12 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_567_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_567_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Careers link corrected in the audit to the faculty & staff jobs page (read
+statically -- the site does not finish loading in a browser). Openings would
+be pages or PDFs linked under it; the audit found none.
+
 """
 import os
 import re
@@ -31,19 +37,23 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 567
 SCHOOL_NAME = 'Anna Maria College'
-CAREERS_LINK = 'https://annamaria.edu/work-at-anna-maria/'
+CAREERS_LINK = 'https://annamaria.edu/work-at-anna-maria/faculty-staff-jobs/'
 ATS_PLATFORM = 'own website'
+
+POSTING_RE = re.compile(r'^https://annamaria\.edu/(?:work-at-anna-maria/faculty-staff-jobs/[a-z0-9-]+/$|wp-content/uploads/.+(?:job|position|faculty|professor|adjunct).*\.pdf$)', re.I)
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    status, html = None, ''
+    for _try in range(3):
+        status, html = lib.fetch_static(CAREERS_LINK, timeout=90)
+        if status == 200:
+            break
+    if status != 200:
+        raise RuntimeError(f'jobs page status={status}')
+    return [u for u in lib.extract_links(html, CAREERS_LINK) if POSTING_RE.search(u)]
 
 
 def main():

@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 665 - Eastern Michigan University (US)
 ATS platform: own website
-Careers link: https://secure.dc4.pageuppeople.com/apply/1092/aw/applicationForm/default.asp
+Careers link: https://careers.emich.edu/jobs/search
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -20,6 +20,10 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_665_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_665_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+The board lists its jobs over ?page=N, keeping the link's own filters
+(employment type); only /jobs/<slug> pages are postings.
 """
 import os
 import re
@@ -34,16 +38,13 @@ SCHOOL_NAME = 'Eastern Michigan University'
 CAREERS_LINK = 'https://careers.emich.edu/jobs/search'
 ATS_PLATFORM = 'own website'
 
+POSTING_RE = re.compile(r'^https://careers\.emich\.edu/jobs/(?!search\b|job-alerts\b|job-categories\b)[a-z0-9][a-z0-9-]+$', re.I)
+
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    return lib.scrape_paged_board(CAREERS_LINK, POSTING_RE)
 
 
 def main():

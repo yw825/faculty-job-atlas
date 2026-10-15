@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 566 - Wheaton College (Massachusetts) (US)
 ATS platform: own website
-Careers link: https://www.wheatoncollege.edu/academics/life-and-career-design-institute/
+Careers link: https://jobs.wheatoncollege.edu/postings/search?query=&query_v0_posted_at_date=&query_organizational_tier_3_id=any&365=3&commit=Search&_gl=1*1472nys*_gcl_au*NjQ5OTMwNTYyLjE3OTIwMDM4MzM.
 
 Reads posting URLs from school_id_566_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 566
 SCHOOL_NAME = 'Wheaton College (Massachusetts)'
-CAREERS_LINK = 'https://www.wheatoncollege.edu/academics/life-and-career-design-institute/'
+CAREERS_LINK = 'https://jobs.wheatoncollege.edu/postings/search?query=&query_v0_posted_at_date=&query_organizational_tier_3_id=any&365=3&commit=Search&_gl=1*1472nys*_gcl_au*NjQ5OTMwNTYyLjE3OTIwMDM4MzM.'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 
@@ -38,13 +38,8 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """This school's own detail-page logic, owned by this file. The default
-    renders the page, picks the most job-title-shaped heading, and takes the
-    visible text as the description. Override when a posting page needs
-    something else -- a nested iframe, a cookie gate, a PDF, or a title that
-    only exists in <title> (all of which came up in the non-US set)."""
-    return jinfo.fetch_detail_generic(url)
-
+    """PeopleAdmin posting; the title is the last part of the page's <title> text."""
+    return jinfo.fetch_detail_peopleadmin(url)
 
 
 def main():
