@@ -2402,6 +2402,11 @@ def fetch_detail_interviewexchange(url):
     m = re.match(r'\s*([^\n]{3,90})\n\s*Job Posting:\s*(.+?)\s+\1', description or '', re.S)
     if m:
         title = re.sub(r'\s+', ' ', m.group(2))
+    else:
+        # some boards indent the heading ("Clark University \n\tJob Posting: ...")
+        j = re.search(r'Job Posting:\s*([^\n]+)', title or '')
+        if j:
+            title = j.group(1).strip()
     if not title:
         raise RuntimeError('posting not on the page (closed?)')
     return title[:250], description
