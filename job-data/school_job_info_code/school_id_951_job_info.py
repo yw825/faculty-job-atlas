@@ -1,5 +1,5 @@
 """
-Job info scraper for school_id 951 - CUNY York College (US)
+Job info scraper for school_id 951 - CUNY-York College (US)
 ATS platform: own website
 Careers link: https://cuny.jobs/campus/york-college/job-category/faculty/jobs/
 
@@ -28,7 +28,7 @@ sys.path.insert(0, os.path.dirname(HERE))
 import job_info_lib as jinfo
 
 SCHOOL_ID = 951
-SCHOOL_NAME = 'CUNY York College'
+SCHOOL_NAME = "CUNY-York College"
 CAREERS_LINK = 'https://cuny.jobs/campus/york-college/job-category/faculty/jobs/'
 ATS_PLATFORM = 'own website'
 USE_LLM = False

@@ -1,5 +1,5 @@
 """
-Job info scraper for school_id 1018 - Binghamton University (US)
+Job info scraper for school_id 1018 - SUNY-Binghamton University (US)
 ATS platform: own website
 Careers link: https://www.binghamton.edu/offices/human-resources/jobs/
 
@@ -28,7 +28,7 @@ sys.path.insert(0, os.path.dirname(HERE))
 import job_info_lib as jinfo
 
 SCHOOL_ID = 1018
-SCHOOL_NAME = 'Binghamton University'
+SCHOOL_NAME = "SUNY-Binghamton University"
 CAREERS_LINK = 'https://www.binghamton.edu/offices/human-resources/jobs/'
 ATS_PLATFORM = 'own website'
 USE_LLM = False

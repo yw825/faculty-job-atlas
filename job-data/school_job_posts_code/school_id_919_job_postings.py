@@ -1,5 +1,5 @@
 """
-Job postings scraper for school_id 919 - CUNY New York City College of Technology (US)
+Job postings scraper for school_id 919 - CUNY-New York City College of Technology (US)
 ATS platform: own website (detected: dejobs)
 Careers link: https://cuny.jobs/campus/new-york-city-college-of-technology/job-category/faculty/jobs/
 
@@ -21,7 +21,7 @@ sys.path.insert(0, os.path.dirname(HERE))
 import job_postings_lib as lib
 
 SCHOOL_ID = 919
-SCHOOL_NAME = 'CUNY New York City College of Technology'
+SCHOOL_NAME = "CUNY-New York City College of Technology"
 CAREERS_LINK = 'https://cuny.jobs/campus/new-york-city-college-of-technology/job-category/faculty/jobs/'
 ATS_PLATFORM = 'own website'
 PLATFORM = 'dejobs'

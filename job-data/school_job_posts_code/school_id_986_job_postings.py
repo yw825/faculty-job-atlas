@@ -1,5 +1,5 @@
 """
-Job postings scraper for school_id 986 - SUNY College at Plattsburgh (US)
+Job postings scraper for school_id 986 - SUNY-Plattsburgh (US)
 ATS platform: own website
 Careers link: https://www.plattsburgh.edu/about/offices-divisions/administration-finance/human-resources/jobs/index.html
 
@@ -30,7 +30,7 @@ sys.path.insert(0, os.path.dirname(HERE))
 import job_postings_lib as lib
 
 SCHOOL_ID = 986
-SCHOOL_NAME = 'SUNY College at Plattsburgh'
+SCHOOL_NAME = "SUNY-Plattsburgh"
 CAREERS_LINK = 'https://www.plattsburgh.edu/about/offices-divisions/administration-finance/human-resources/jobs/index.html'
 ATS_PLATFORM = 'own website'
 

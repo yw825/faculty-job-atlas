@@ -1,5 +1,5 @@
 """
-Job info scraper for school_id 954 - State University of New York at New Paltz (US)
+Job info scraper for school_id 954 - SUNY-New Paltz (US)
 ATS platform: own website
 Careers link: https://www.newpaltz.edu/hr/displayjobs.php?type=Faculty
 
@@ -28,7 +28,7 @@ sys.path.insert(0, os.path.dirname(HERE))
 import job_info_lib as jinfo
 
 SCHOOL_ID = 954
-SCHOOL_NAME = 'State University of New York at New Paltz'
+SCHOOL_NAME = "SUNY-New Paltz"
 CAREERS_LINK = 'https://www.newpaltz.edu/hr/displayjobs.php?type=Faculty'
 ATS_PLATFORM = 'own website'
 USE_LLM = False

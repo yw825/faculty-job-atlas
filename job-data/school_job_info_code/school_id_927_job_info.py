@@ -1,5 +1,5 @@
 """
-Job info scraper for school_id 927 - SUNY Buffalo State University (US)
+Job info scraper for school_id 927 - SUNY-Buffalo State University (US)
 ATS platform: PeopleAdmin
 Careers link: https://jobs.buffalostate.edu/
 
@@ -28,7 +28,7 @@ sys.path.insert(0, os.path.dirname(HERE))
 import job_info_lib as jinfo
 
 SCHOOL_ID = 927
-SCHOOL_NAME = 'SUNY Buffalo State University'
+SCHOOL_NAME = "SUNY-Buffalo State University"
 CAREERS_LINK = 'https://jobs.buffalostate.edu/'
 ATS_PLATFORM = 'PeopleAdmin'
 USE_LLM = False

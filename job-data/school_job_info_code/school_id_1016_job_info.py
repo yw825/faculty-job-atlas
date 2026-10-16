@@ -1,5 +1,5 @@
 """
-Job info scraper for school_id 1016 - SUNY Polytechnic Institute (US)
+Job info scraper for school_id 1016 - SUNY-Polytechnic Institute (US)
 ATS platform: own website
 Careers link: https://sunypoly.interviewexchange.com/static/clients/511SPM1/hiring.jsp
 
@@ -28,7 +28,7 @@ sys.path.insert(0, os.path.dirname(HERE))
 import job_info_lib as jinfo
 
 SCHOOL_ID = 1016
-SCHOOL_NAME = 'SUNY Polytechnic Institute'
+SCHOOL_NAME = "SUNY-Polytechnic Institute"
 CAREERS_LINK = 'https://sunypoly.interviewexchange.com/static/clients/511SPM1/hiring.jsp'
 ATS_PLATFORM = 'own website'
 USE_LLM = False

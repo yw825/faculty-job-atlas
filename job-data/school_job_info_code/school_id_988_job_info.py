@@ -1,5 +1,5 @@
 """
-Job info scraper for school_id 988 - SUNY College at Potsdam (US)
+Job info scraper for school_id 988 - SUNY-Potsdam (US)
 ATS platform: PeopleAdmin
 Careers link: https://employment.potsdam.edu/postings/search
 
@@ -28,7 +28,7 @@ sys.path.insert(0, os.path.dirname(HERE))
 import job_info_lib as jinfo
 
 SCHOOL_ID = 988
-SCHOOL_NAME = 'SUNY College at Potsdam'
+SCHOOL_NAME = "SUNY-Potsdam"
 CAREERS_LINK = 'https://employment.potsdam.edu/postings/search'
 ATS_PLATFORM = 'PeopleAdmin'
 USE_LLM = False

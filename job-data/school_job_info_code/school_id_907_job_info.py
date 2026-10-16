@@ -1,5 +1,5 @@
 """
-Job info scraper for school_id 907 - University at Albany (US)
+Job info scraper for school_id 907 - SUNY-University at Albany (US)
 ATS platform: own website
 Careers link: https://albany.interviewexchange.com/jobsearchfrm.jsp
 
@@ -28,7 +28,7 @@ sys.path.insert(0, os.path.dirname(HERE))
 import job_info_lib as jinfo
 
 SCHOOL_ID = 907
-SCHOOL_NAME = 'University at Albany'
+SCHOOL_NAME = "SUNY-University at Albany"
 CAREERS_LINK = 'https://albany.interviewexchange.com/jobsearchfrm.jsp'
 ATS_PLATFORM = 'own website'
 USE_LLM = False

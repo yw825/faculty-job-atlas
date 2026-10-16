@@ -1,5 +1,5 @@
 """
-Job postings scraper for school_id 930 - SUNY College of Technology at Canton (US)
+Job postings scraper for school_id 930 - SUNY-Canton (US)
 ATS platform: own website
 Careers link: https://canton-accommodate.symplicity.com/
 
@@ -30,7 +30,7 @@ sys.path.insert(0, os.path.dirname(HERE))
 import job_postings_lib as lib
 
 SCHOOL_ID = 930
-SCHOOL_NAME = 'SUNY College of Technology at Canton'
+SCHOOL_NAME = "SUNY-Canton"
 CAREERS_LINK = 'https://canton-accommodate.symplicity.com/'
 ATS_PLATFORM = 'own website'
 

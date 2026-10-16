@@ -1,5 +1,5 @@
 """
-Job info scraper for school_id 962 - CUNY Graduate School and University Center (US)
+Job info scraper for school_id 962 - CUNY-Graduate Center (US)
 ATS platform: own website
 Careers link: https://cuny.jobs/campus/graduate-center/job-category/faculty/jobs/
 
@@ -28,7 +28,7 @@ sys.path.insert(0, os.path.dirname(HERE))
 import job_info_lib as jinfo
 
 SCHOOL_ID = 962
-SCHOOL_NAME = 'CUNY Graduate School and University Center'
+SCHOOL_NAME = "CUNY-Graduate Center"
 CAREERS_LINK = 'https://cuny.jobs/campus/graduate-center/job-category/faculty/jobs/'
 ATS_PLATFORM = 'own website'
 USE_LLM = False

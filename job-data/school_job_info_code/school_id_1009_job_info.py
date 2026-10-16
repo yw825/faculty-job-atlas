@@ -1,5 +1,5 @@
 """
-Job info scraper for school_id 1009 - Stony Brook University (US)
+Job info scraper for school_id 1009 - SUNY-Stony Brook University (US)
 ATS platform: own website
 Careers link: https://stonybrook-advocate.symplicity.com/collections/reportit/4a9adc9d6aa24c3cf581ea5daa46cd25
 
@@ -28,7 +28,7 @@ sys.path.insert(0, os.path.dirname(HERE))
 import job_info_lib as jinfo
 
 SCHOOL_ID = 1009
-SCHOOL_NAME = 'Stony Brook University'
+SCHOOL_NAME = "SUNY-Stony Brook University"
 CAREERS_LINK = 'https://academicjobsonline.org/ajo/SBU'
 ATS_PLATFORM = 'own website'
 USE_LLM = False

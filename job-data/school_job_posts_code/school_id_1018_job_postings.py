@@ -1,5 +1,5 @@
 """
-Job postings scraper for school_id 1018 - Binghamton University (US)
+Job postings scraper for school_id 1018 - SUNY-Binghamton University (US)
 ATS platform: own website
 Careers link: https://www.binghamton.edu/offices/human-resources/jobs/
 
@@ -30,7 +30,7 @@ sys.path.insert(0, os.path.dirname(HERE))
 import job_postings_lib as lib
 
 SCHOOL_ID = 1018
-SCHOOL_NAME = 'Binghamton University'
+SCHOOL_NAME = "SUNY-Binghamton University"
 CAREERS_LINK = 'https://www.binghamton.edu/offices/human-resources/jobs/'
 ATS_PLATFORM = 'own website'
 

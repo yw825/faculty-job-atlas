@@ -1,5 +1,5 @@
 """
-Job postings scraper for school_id 1011 - SUNY College of Environmental Science and Forestry (US)
+Job postings scraper for school_id 1011 - SUNY-College of Environmental Science and Forestry (US)
 ATS platform: own website
 Careers link: https://esf.interviewexchange.com/static/clients/444ESM1/index.jsp
 
@@ -30,7 +30,7 @@ sys.path.insert(0, os.path.dirname(HERE))
 import job_postings_lib as lib
 
 SCHOOL_ID = 1011
-SCHOOL_NAME = 'SUNY College of Environmental Science and Forestry'
+SCHOOL_NAME = "SUNY-College of Environmental Science and Forestry"
 CAREERS_LINK = 'https://esf.interviewexchange.com/static/clients/444ESM1/index.jsp'
 ATS_PLATFORM = 'own website'
 

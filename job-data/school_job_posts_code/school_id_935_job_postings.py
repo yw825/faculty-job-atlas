@@ -1,5 +1,5 @@
 """
-Job postings scraper for school_id 935 - State University of New York at Cortland (US)
+Job postings scraper for school_id 935 - SUNY-Cortland (US)
 ATS platform: own website
 Careers link: https://www2.cortland.edu/offices/hr/jobs
 
@@ -30,7 +30,7 @@ sys.path.insert(0, os.path.dirname(HERE))
 import job_postings_lib as lib
 
 SCHOOL_ID = 935
-SCHOOL_NAME = 'State University of New York at Cortland'
+SCHOOL_NAME = "SUNY-Cortland"
 CAREERS_LINK = 'https://www2.cortland.edu/offices/hr/jobs'
 ATS_PLATFORM = 'own website'
 

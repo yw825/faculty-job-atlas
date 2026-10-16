@@ -1,5 +1,5 @@
 """
-Job info scraper for school_id 980 - SUNY Old Westbury (US)
+Job info scraper for school_id 980 - SUNY-Old Westbury (US)
 ATS platform: own website
 Careers link: https://oldwestbury.interviewexchange.com/static/clients/519OWM1/index.jsp
 
@@ -28,7 +28,7 @@ sys.path.insert(0, os.path.dirname(HERE))
 import job_info_lib as jinfo
 
 SCHOOL_ID = 980
-SCHOOL_NAME = 'SUNY Old Westbury'
+SCHOOL_NAME = "SUNY-Old Westbury"
 CAREERS_LINK = 'https://oldwestbury.interviewexchange.com/static/clients/519OWM1/index.jsp'
 ATS_PLATFORM = 'own website'
 USE_LLM = False

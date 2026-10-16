@@ -1,5 +1,5 @@
 """
-Job postings scraper for school_id 943 - SUNY College at Geneseo (US)
+Job postings scraper for school_id 943 - SUNY-Geneseo (US)
 ATS platform: own website
 Careers link: https://www.geneseo.edu/provost/applying-for-faculty-positions
 
@@ -30,7 +30,7 @@ sys.path.insert(0, os.path.dirname(HERE))
 import job_postings_lib as lib
 
 SCHOOL_ID = 943
-SCHOOL_NAME = 'SUNY College at Geneseo'
+SCHOOL_NAME = "SUNY-Geneseo"
 CAREERS_LINK = 'https://www.geneseo.edu/provost/applying-for-faculty-positions'
 ATS_PLATFORM = 'own website'
 

@@ -1,5 +1,5 @@
 """
-Job postings scraper for school_id 912 - SUNY Brockport (US)
+Job postings scraper for school_id 912 - SUNY-Brockport (US)
 ATS platform: own website
 Careers link: https://www.brockport.edu/support/human-resources/careers/
 
@@ -30,7 +30,7 @@ sys.path.insert(0, os.path.dirname(HERE))
 import job_postings_lib as lib
 
 SCHOOL_ID = 912
-SCHOOL_NAME = 'SUNY Brockport'
+SCHOOL_NAME = "SUNY-Brockport"
 CAREERS_LINK = 'https://www.brockport.edu/support/human-resources/careers/'
 ATS_PLATFORM = 'own website'
 

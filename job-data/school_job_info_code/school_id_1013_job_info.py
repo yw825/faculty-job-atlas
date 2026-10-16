@@ -1,5 +1,5 @@
 """
-Job info scraper for school_id 1013 - SUNY Maritime College (US)
+Job info scraper for school_id 1013 - SUNY-Maritime College (US)
 ATS platform: own website
 Careers link: https://maritime.interviewexchange.com/static/clients/373SMM1/index.jsp;jsessionid=107D5B11653B69221F22BF3DD4622539
 
@@ -28,7 +28,7 @@ sys.path.insert(0, os.path.dirname(HERE))
 import job_info_lib as jinfo
 
 SCHOOL_ID = 1013
-SCHOOL_NAME = 'SUNY Maritime College'
+SCHOOL_NAME = "SUNY-Maritime College"
 CAREERS_LINK = 'https://maritime.interviewexchange.com/static/clients/373SMM1/index.jsp;jsessionid=107D5B11653B69221F22BF3DD4622539'
 ATS_PLATFORM = 'own website'
 USE_LLM = False

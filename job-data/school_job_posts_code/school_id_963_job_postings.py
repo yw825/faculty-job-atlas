@@ -1,5 +1,5 @@
 """
-Job postings scraper for school_id 963 - CUNY Hunter College (US)
+Job postings scraper for school_id 963 - CUNY-Hunter College (US)
 ATS platform: own website (detected: dejobs)
 Careers link: https://cuny.jobs/campus/hunter-college/job-category/faculty/jobs/
 
@@ -21,7 +21,7 @@ sys.path.insert(0, os.path.dirname(HERE))
 import job_postings_lib as lib
 
 SCHOOL_ID = 963
-SCHOOL_NAME = 'CUNY Hunter College'
+SCHOOL_NAME = "CUNY-Hunter College"
 CAREERS_LINK = 'https://cuny.jobs/campus/hunter-college/job-category/faculty/jobs/'
 ATS_PLATFORM = 'own website'
 PLATFORM = 'dejobs'

@@ -1,5 +1,5 @@
 """
-Job postings scraper for school_id 1007 - College of Staten Island CUNY (US)
+Job postings scraper for school_id 1007 - CUNY-College of Staten Island (US)
 ATS platform: own website (detected: dejobs)
 Careers link: https://cuny.jobs/campus/college-of-staten-island/job-category/faculty/jobs/
 
@@ -21,7 +21,7 @@ sys.path.insert(0, os.path.dirname(HERE))
 import job_postings_lib as lib
 
 SCHOOL_ID = 1007
-SCHOOL_NAME = 'College of Staten Island CUNY'
+SCHOOL_NAME = "CUNY-College of Staten Island"
 CAREERS_LINK = 'https://cuny.jobs/campus/college-of-staten-island/job-category/faculty/jobs/'
 ATS_PLATFORM = 'own website'
 PLATFORM = 'dejobs'

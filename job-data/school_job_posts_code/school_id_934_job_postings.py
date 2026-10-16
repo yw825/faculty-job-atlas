@@ -1,5 +1,5 @@
 """
-Job postings scraper for school_id 934 - SUNY College of Agriculture and Technology at Cobleskill (US)
+Job postings scraper for school_id 934 - SUNY-Cobleskill (US)
 ATS platform: own website
 Careers link: https://cobleskill.interviewexchange.com/static/clients/474SCM1/index.jsp
 
@@ -30,7 +30,7 @@ sys.path.insert(0, os.path.dirname(HERE))
 import job_postings_lib as lib
 
 SCHOOL_ID = 934
-SCHOOL_NAME = 'SUNY College of Agriculture and Technology at Cobleskill'
+SCHOOL_NAME = "SUNY-Cobleskill"
 CAREERS_LINK = 'https://cobleskill.interviewexchange.com/static/clients/474SCM1/index.jsp'
 ATS_PLATFORM = 'own website'
 

@@ -1,5 +1,5 @@
 """
-Job info scraper for school_id 984 - State University of New York at Oswego (US)
+Job info scraper for school_id 984 - SUNY-Oswego (US)
 ATS platform: own website
 Careers link: https://oswego.interviewexchange.com/static/clients/313OSM1/index.jsp
 
@@ -28,7 +28,7 @@ sys.path.insert(0, os.path.dirname(HERE))
 import job_info_lib as jinfo
 
 SCHOOL_ID = 984
-SCHOOL_NAME = 'State University of New York at Oswego'
+SCHOOL_NAME = "SUNY-Oswego"
 CAREERS_LINK = 'https://oswego.interviewexchange.com/static/clients/313OSM1/index.jsp'
 ATS_PLATFORM = 'own website'
 USE_LLM = False

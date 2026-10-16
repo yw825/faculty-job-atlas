@@ -1,5 +1,5 @@
 """
-Job postings scraper for school_id 992 - SUNY at Purchase College (US)
+Job postings scraper for school_id 992 - SUNY-Purchase College (US)
 ATS platform: PeopleAdmin (detected: peopleadmin)
 Careers link: https://jobs.purchase.edu/
 
@@ -21,7 +21,7 @@ sys.path.insert(0, os.path.dirname(HERE))
 import job_postings_lib as lib
 
 SCHOOL_ID = 992
-SCHOOL_NAME = 'SUNY at Purchase College'
+SCHOOL_NAME = "SUNY-Purchase College"
 CAREERS_LINK = 'https://jobs.purchase.edu/'
 ATS_PLATFORM = 'PeopleAdmin'
 PLATFORM = 'peopleadmin'

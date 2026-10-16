@@ -1,5 +1,5 @@
 """
-Job info scraper for school_id 964 - CUNY John Jay College of Criminal Justice (US)
+Job info scraper for school_id 964 - CUNY-John Jay College of Criminal Justice (US)
 ATS platform: own website
 Careers link: https://cuny.jobs/campus/john-jay-college-of-criminal-justice/job-category/faculty/jobs/
 
@@ -28,7 +28,7 @@ sys.path.insert(0, os.path.dirname(HERE))
 import job_info_lib as jinfo
 
 SCHOOL_ID = 964
-SCHOOL_NAME = 'CUNY John Jay College of Criminal Justice'
+SCHOOL_NAME = "CUNY-John Jay College of Criminal Justice"
 CAREERS_LINK = 'https://cuny.jobs/campus/john-jay-college-of-criminal-justice/job-category/faculty/jobs/'
 ATS_PLATFORM = 'own website'
 USE_LLM = False

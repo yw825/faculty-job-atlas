@@ -1,5 +1,5 @@
 """
-Job postings scraper for school_id 913 - CUNY Lehman College (US)
+Job postings scraper for school_id 913 - CUNY-Lehman College (US)
 ATS platform: own website (detected: dejobs)
 Careers link: https://cuny.jobs/campus/lehman-college/job-category/faculty/jobs/
 
@@ -21,7 +21,7 @@ sys.path.insert(0, os.path.dirname(HERE))
 import job_postings_lib as lib
 
 SCHOOL_ID = 913
-SCHOOL_NAME = 'CUNY Lehman College'
+SCHOOL_NAME = "CUNY-Lehman College"
 CAREERS_LINK = 'https://cuny.jobs/campus/lehman-college/job-category/faculty/jobs/'
 ATS_PLATFORM = 'own website'
 PLATFORM = 'dejobs'

@@ -1,5 +1,5 @@
 """
-Job info scraper for school_id 1003 - Empire State University (US)
+Job info scraper for school_id 1003 - SUNY-Empire State University (US)
 ATS platform: own website
 Careers link: https://esc.interviewexchange.com/static/clients/397ESM1/index.jsp?catid=802
 
@@ -28,7 +28,7 @@ sys.path.insert(0, os.path.dirname(HERE))
 import job_info_lib as jinfo
 
 SCHOOL_ID = 1003
-SCHOOL_NAME = 'Empire State University'
+SCHOOL_NAME = "SUNY-Empire State University"
 CAREERS_LINK = 'https://esc.interviewexchange.com/static/clients/397ESM1/index.jsp?catid=802'
 ATS_PLATFORM = 'own website'
 USE_LLM = False

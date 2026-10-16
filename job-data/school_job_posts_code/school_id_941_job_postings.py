@@ -1,5 +1,5 @@
 """
-Job postings scraper for school_id 941 - SUNY at Fredonia (US)
+Job postings scraper for school_id 941 - SUNY-Fredonia (US)
 ATS platform: own website
 Careers link: https://www.fredonia.edu/about/offices/human-resources/jobs
 
@@ -30,7 +30,7 @@ sys.path.insert(0, os.path.dirname(HERE))
 import job_postings_lib as lib
 
 SCHOOL_ID = 941
-SCHOOL_NAME = 'SUNY at Fredonia'
+SCHOOL_NAME = "SUNY-Fredonia"
 CAREERS_LINK = 'https://www.fredonia.edu/about/offices/human-resources/jobs'
 ATS_PLATFORM = 'own website'
 

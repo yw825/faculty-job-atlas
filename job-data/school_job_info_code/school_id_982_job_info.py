@@ -1,5 +1,5 @@
 """
-Job info scraper for school_id 982 - SUNY Oneonta (US)
+Job info scraper for school_id 982 - SUNY-Oneonta (US)
 ATS platform: own website
 Careers link: https://oneonta.interviewexchange.com/static/clients/336ONM1/index.jsp
 
@@ -28,7 +28,7 @@ sys.path.insert(0, os.path.dirname(HERE))
 import job_info_lib as jinfo
 
 SCHOOL_ID = 982
-SCHOOL_NAME = 'SUNY Oneonta'
+SCHOOL_NAME = "SUNY-Oneonta"
 CAREERS_LINK = 'https://oneonta.interviewexchange.com/static/clients/336ONM1/index.jsp'
 ATS_PLATFORM = 'own website'
 USE_LLM = False

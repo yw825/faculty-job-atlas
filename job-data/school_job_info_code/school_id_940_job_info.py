@@ -1,5 +1,5 @@
 """
-Job info scraper for school_id 940 - Farmingdale State College (US)
+Job info scraper for school_id 940 - SUNY-Farmingdale State College (US)
 ATS platform: own website
 Careers link: https://farmingdale.interviewexchange.com/static/clients/383FAM1/index.jsp
 
@@ -28,7 +28,7 @@ sys.path.insert(0, os.path.dirname(HERE))
 import job_info_lib as jinfo
 
 SCHOOL_ID = 940
-SCHOOL_NAME = 'Farmingdale State College'
+SCHOOL_NAME = "SUNY-Farmingdale State College"
 CAREERS_LINK = 'https://farmingdale.interviewexchange.com/static/clients/383FAM1/index.jsp'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
