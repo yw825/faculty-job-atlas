@@ -35,7 +35,8 @@ from datetime import date, datetime, timedelta
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
-from faculty_filter import is_faculty  # noqa: E402
+from faculty_filter import is_faculty
+from dedupe import dedupe  # noqa: E402
 ROOT = os.path.dirname(HERE)
 INFO_DIR = os.path.join(HERE, 'school_job_info')
 POSTS_CODE_DIR = os.path.join(HERE, 'school_job_posts_code')
@@ -288,6 +289,9 @@ def load_coords():
                     'state': o.get('state', ''),
                     'region': region,
                     'sub': sub,
+                    # used by dedupe.py to tell a system's main campus
+                    'research': o.get('research') or '',
+                    'size': sum(v for v in (o.get('biz'), o.get('cs'), o.get('stat')) if isinstance(v, (int, float))),
                 }
     return coords
 
@@ -392,6 +396,12 @@ def main():
         still_used = {q['s'] for q in postings}
         schools_used = {k: v for k, v in schools_used.items() if k in still_used}
 
+    # Duplicates (see dedupe.py): one posting under several campuses of a
+    # system that shares a board, and the same advert re-posted by a school.
+    postings, dup_stats = dedupe(postings, meta, coords, load_first_seen())
+    still_used = {q['s'] for q in postings}
+    schools_used = {k: v for k, v in schools_used.items() if k in still_used}
+
     # Stamp when each posting was first observed, BEFORE the URLs below are
     # shortened -- the ledger keys on the full URL. A posting already in the
     # ledger keeps its original date; anything unseen is dated today, which
@@ -463,6 +473,8 @@ def main():
 
     size_mb = os.path.getsize(OUT_PATH) / 1e6
     print(f'wrote {OUT_PATH} -- {len(postings)} postings, {size_mb:.2f} MB')
+    print(f"  removed {dup_stats['cross_school']} postings listed under another campus too, "
+          f"{dup_stats['reposted']} re-posted copies of the same advert")
     if skipped_no_coords:
         print(f'skipped {len(skipped_no_coords)} schools with no coordinates: '
               f'{sorted(skipped_no_coords)[:10]}')
