@@ -50,11 +50,6 @@
       "description": "Posted: 09/02/2026 Location: Dalton State College Department: Public Safety Police Officer",
       "department": "Public Safety"
     },
-    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302660&PostingSeq=1&SiteId=69000": {
-      "title": "Dual Enrollment Coordinator",
-      "description": "Posted: 08/18/2026 Location: Dalton State College Department: Admissions Dual Enrollment Coordinator",
-      "department": "Admissions"
-    },
     "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=301184&PostingSeq=1&SiteId=69000": {
       "title": "Assistant/Associate Professor of Mathematics Education (Tenure Track)",
       "description": "Posted: 07/20/2026 Location: Dalton State College Department: School of Education Assistant/Associate Professor of Mathematics Education (Tenure Track)",
@@ -64,16 +59,6 @@
       "title": "Part Time Instructor of Mathematics Education",
       "description": "Posted: 07/13/2026 Location: Dalton State College Department: School of Education Part Time Instructor of Mathematics Education",
       "department": "School of Education"
-    },
-    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=300540&PostingSeq=1&SiteId=69000": {
-      "title": "Enrollment Advisor",
-      "description": "Posted: 07/02/2026 Location: Dalton State College Department: Customer Service Enrollment Advisor",
-      "department": "Customer Service"
-    },
-    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=299936&PostingSeq=1&SiteId=69000": {
-      "title": "Grounds Maintenance Worker",
-      "description": "Posted: 06/18/2026 Location: Dalton State College Department: Landscape & Ground Maintenance Grounds Maintenance Worker",
-      "department": "Landscape & Ground Maintenance"
     },
     "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=300005&PostingSeq=1&SiteId=69000": {
       "title": "Mental Health Therapist",
@@ -149,6 +134,16 @@
       "title": "Part-Time Instructor of Mathematics",
       "description": "Posted: 03/07/2023 Location: Dalton State College Department: Mathematics & Technology Part-Time Instructor of Mathematics",
       "department": "Mathematics & Technology"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304870&PostingSeq=1&SiteId=69000": {
+      "title": "Admissions Recruiter",
+      "description": "Posted: 10/14/2026 Location: Dalton State College Department: Admissions Admissions Recruiter",
+      "department": "Admissions"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304709&PostingSeq=1&SiteId=69000": {
+      "title": "Nursing Laboratory Coordinator",
+      "description": "Posted: 10/13/2026 Location: Dalton State College Department: School of Nursing Nursing Laboratory Coordinator",
+      "department": "School of Nursing"
     }
   },
   "rows": {
@@ -262,17 +257,6 @@
       "deadline_of_application": "",
       "position_start_date": ""
     },
-    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302660&PostingSeq=1&SiteId=69000": {
-      "school_id": 290,
-      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302660&PostingSeq=1&SiteId=69000",
-      "job_title_in_post": "Dual Enrollment Coordinator",
-      "position_type": "Non-academic",
-      "job_term": "Full-time",
-      "department_or_school": "Admissions",
-      "area_key_words": "",
-      "deadline_of_application": "",
-      "position_start_date": ""
-    },
     "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=301184&PostingSeq=1&SiteId=69000": {
       "school_id": 290,
       "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=301184&PostingSeq=1&SiteId=69000",
@@ -292,28 +276,6 @@
       "job_term": "Part-time",
       "department_or_school": "School of Education",
       "area_key_words": "Mathematics Education",
-      "deadline_of_application": "",
-      "position_start_date": ""
-    },
-    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=300540&PostingSeq=1&SiteId=69000": {
-      "school_id": 290,
-      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=300540&PostingSeq=1&SiteId=69000",
-      "job_title_in_post": "Enrollment Advisor",
-      "position_type": "Unclassified",
-      "job_term": "Full-time",
-      "department_or_school": "Customer Service",
-      "area_key_words": "",
-      "deadline_of_application": "",
-      "position_start_date": ""
-    },
-    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=299936&PostingSeq=1&SiteId=69000": {
-      "school_id": 290,
-      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=299936&PostingSeq=1&SiteId=69000",
-      "job_title_in_post": "Grounds Maintenance Worker",
-      "position_type": "Unclassified",
-      "job_term": "Full-time",
-      "department_or_school": "Landscape & Ground Maintenance",
-      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -481,11 +443,33 @@
       "area_key_words": "Mathematics",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304870&PostingSeq=1&SiteId=69000": {
+      "school_id": 290,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304870&PostingSeq=1&SiteId=69000",
+      "job_title_in_post": "Admissions Recruiter",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Admissions",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304709&PostingSeq=1&SiteId=69000": {
+      "school_id": 290,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304709&PostingSeq=1&SiteId=69000",
+      "job_title_in_post": "Nursing Laboratory Coordinator",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "School of Nursing",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 290,
   "status": "complete",
-  "updated_at": "2026-10-13T02:22:33+00:00",
-  "completed_at": "2026-10-13T02:22:33+00:00",
+  "updated_at": "2026-10-16T18:39:36+00:00",
+  "completed_at": "2026-10-16T18:39:36+00:00",
   "last_error": ""
 }

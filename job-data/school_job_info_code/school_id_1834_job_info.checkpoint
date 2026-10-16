@@ -1,10 +1,5 @@
 {
   "raw": {
-    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/25260597": {
-      "title": "Assistant Manager (Procurement & Contract Management)",
-      "description": "This position sits under the Office of Information Technology at our Kowloon Tong campus. The core responsibilities are managing the development and execution of IT procurement and contracts, ensuring they align with organisational goals and comply with legal and regulatory requirements.",
-      "department": null
-    },
     "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270012": {
       "title": "Senior IT Manager (Student Information System Modernization and Cloud Migration)",
       "description": "This position sits under the Office of Information Technology at our Kowloon Tong campus. The core responsibilities are leading and overseeing strategic initiatives focused on modernising SIS and migrating IT applications to cloud.",
@@ -13,11 +8,6 @@
     "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270153": {
       "title": "Senior Systems Analyst (Special Project), Office of Information Technology",
       "description": "This position sits under the Office of Information Technology at our Kowloon Tong campus. The core responsibilities are mapping and documenting interfaces between legacy and new systems, ensuring seamless integration and efficient data transfer.",
-      "department": null
-    },
-    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270143": {
-      "title": "Executive Officer, Department of Accountancy, Economics and Finance",
-      "description": "This position sits under the Department of Accountancy, Economics and Finance Office at our Kowloon Tong campus. The core responsibilities are providing comprehensive administrative, secretarial, and operational support to the Department, with a strong focus on academic matters and effective liaison with internal stakeholders to achieve smooth coordination of departmental and School activities.",
       "department": null
     },
     "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270149": {
@@ -530,11 +520,6 @@
       "description": "This position sits under the Research Office at our Kowloon Tong campus. The core responsibilities are providing strategic and operational leadership for the University’s external research-funding portfolio, and establishing annual priorities, service standards and performance measures.",
       "department": null
     },
-    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270168": {
-      "title": "Assistant Manager, Research Postgraduate Programme (PhD)",
-      "description": "This position sits under the Office of The Dean of Business at our Kowloon Tong campus. The core responsibilities are managing the full spectrum of administration and operation of the Research Postgraduate (RPg) programme.",
-      "department": null
-    },
     "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270190": {
       "title": "Assistant Programme Officer, School of Continuing Education",
       "description": "This position sits under the School of Continuing Education. The appointee is expected to carry out general administrative duties for the Division of Continuing and Professional Education.",
@@ -789,20 +774,69 @@
       "title": "Information Technology Manager (Digital Enablement and Solution)",
       "description": "This position sits under the Office of Information Technology at our Kowloon Tong campus. The core responsibilities are acting as the primary intake point for digital experience requirements from cross-department stakeholders.",
       "department": null
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270256": {
+      "title": "Assistant Manager / Senior Executive Officer (Human Resources and Finance)",
+      "description": "This position sits under the Academy of Music at our Kowloon Tong campus. The core responsibilities are assisting the financial planning and monitoring processes for JC Project MuSE and other education projects.",
+      "department": null
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270257": {
+      "title": "Assistant Manager / Senior Executive Officer (Curriculum and Programme)",
+      "description": "This position sits under the Academy of Music at our Kowloon Tong campus. The core responsibility is supporting the preparation and execution of the week-to-week instrumental training programme.",
+      "department": null
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270259": {
+      "title": "Part-time Lecturer (various positions), Academy of Visual Arts",
+      "description": "This position sits under the Academy of Visual Arts at our Kowloon Tong campus. The core responsibility is teaching Art History and Theory courses for visual arts students as well as non-major students at undergraduate level.",
+      "department": null
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270265": {
+      "title": "Assistant Purchasing Manager, Finance Office",
+      "description": "This position sits under the Finance Office at our Kowloon Tong campus. The core responsibilities are assisting in the management of the procurement function and overseeing the daily operation of the Auxiliary Services.",
+      "department": null
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270266": {
+      "title": "Purchasing Officer / Assistant Purchasing Officer, Finance Office",
+      "description": "This position sits under the Finance Office at our Kowloon Tong campus. The core responsibilities are order processing, managing invitations to tender, sourcing goods and services, and conducting quotation analyses.",
+      "department": null
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270271": {
+      "title": "Digital Experience Specialist, Office of Information Technology",
+      "description": "This position sits under the Office of Information Technology at our Kowloon Tong campus. The core responsibilities are participating in website development projects and managing user satisfaction and success.",
+      "department": null
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270273": {
+      "title": "Senior Accounting Manager (Treasury, Income Collection and Payment), SCE",
+      "description": "This position sits under the School of Continuing Education. The core responsibilities are leading and overseeing the operations of the Treasury, Income Collection and Payment teams.",
+      "department": null
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270277": {
+      "title": "Director, International Office",
+      "description": "This position sits under the International Office at our Kowloon Tong campus. The core responsibilities are providing strategic leadership for the Office, advancing HKBU's internationalisation agenda, and leading institution-wide strategies in global partnerships, international education, student mobility, and student integration.",
+      "department": null
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270231": {
+      "title": "Student Development Officer, School of Continuing Education",
+      "description": "This position sits under the School of Continuing Education at the Shek Mun (Shatin) campus. The core responsibilities are providing support for the administration of the SCE Student Development Centre (SDC) at Shek Mun Campus and a broad range of student services and activities.",
+      "department": null
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270247": {
+      "title": "Chair Professor/Professor/Associate Professor/Assistant Professor (Mathematics)",
+      "description": "This position sits under the Department of Mathematics at our Kowloon Tong campus. Preference will be given to applicants specialising in applied/computational mathematics or statistics, especially with numerical partial differential equations, scientific computing, data science, or an area which complements the Department’s research profile.",
+      "department": null
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270250": {
+      "title": "Senior Executive Officer, Research Postgraduate Programme",
+      "description": "This position sits under the Office of the Dean of Business at our Kowloon Tong campus. The core responsibilities are managing the end-to-end administrative processes for the RPg programmes, including admissions, registration, examinations, and scholarships/studentships.",
+      "department": null
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270252": {
+      "title": "Research Assistant Professor, Department of Physics",
+      "description": "This position sits under the Department of Physics at our Kowloon Tong campus. The core responsibilities are overseeing the day-to-day operation of the laboratory including enforcement of safety and good laboratory practices as well as maintenance of supply with research materials and instrumentations.",
+      "department": null
     }
   },
   "rows": {
-    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/25260597": {
-      "school_id": 1834,
-      "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/25260597",
-      "job_title_in_post": "Assistant Manager (Procurement & Contract Management)",
-      "position_type": "Non-academic",
-      "job_term": "Full-time",
-      "department_or_school": "",
-      "area_key_words": "",
-      "deadline_of_application": "",
-      "position_start_date": ""
-    },
     "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270012": {
       "school_id": 1834,
       "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270012",
@@ -822,17 +856,6 @@
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "Information Technology",
-      "deadline_of_application": "",
-      "position_start_date": ""
-    },
-    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270143": {
-      "school_id": 1834,
-      "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270143",
-      "job_title_in_post": "Executive Officer, Department of Accountancy, Economics and Finance",
-      "position_type": "Unclassified",
-      "job_term": "Full-time",
-      "department_or_school": "Department of Accountancy, Economics and Finance",
-      "area_key_words": "Accountancy, Economics and Finance",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -1958,17 +1981,6 @@
       "deadline_of_application": "",
       "position_start_date": ""
     },
-    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270168": {
-      "school_id": 1834,
-      "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270168",
-      "job_title_in_post": "Assistant Manager, Research Postgraduate Programme (PhD)",
-      "position_type": "Non-academic",
-      "job_term": "Full-time",
-      "department_or_school": "",
-      "area_key_words": "",
-      "deadline_of_application": "",
-      "position_start_date": ""
-    },
     "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270190": {
       "school_id": 1834,
       "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270190",
@@ -2529,11 +2541,143 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270256": {
+      "school_id": 1834,
+      "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270256",
+      "job_title_in_post": "Assistant Manager / Senior Executive Officer (Human Resources and Finance)",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270257": {
+      "school_id": 1834,
+      "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270257",
+      "job_title_in_post": "Assistant Manager / Senior Executive Officer (Curriculum and Programme)",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270259": {
+      "school_id": 1834,
+      "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270259",
+      "job_title_in_post": "Part-time Lecturer (various positions), Academy of Visual Arts",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "Visual Arts; Theory courses",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270265": {
+      "school_id": 1834,
+      "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270265",
+      "job_title_in_post": "Assistant Purchasing Manager, Finance Office",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270266": {
+      "school_id": 1834,
+      "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270266",
+      "job_title_in_post": "Purchasing Officer / Assistant Purchasing Officer, Finance Office",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270271": {
+      "school_id": 1834,
+      "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270271",
+      "job_title_in_post": "Digital Experience Specialist, Office of Information Technology",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Information Technology",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270273": {
+      "school_id": 1834,
+      "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270273",
+      "job_title_in_post": "Senior Accounting Manager (Treasury, Income Collection and Payment), SCE",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "School of Continuing Education",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270277": {
+      "school_id": 1834,
+      "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270277",
+      "job_title_in_post": "Director, International Office",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270231": {
+      "school_id": 1834,
+      "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270231",
+      "job_title_in_post": "Student Development Officer, School of Continuing Education",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "School of Continuing Education",
+      "area_key_words": "Continuing Education",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270247": {
+      "school_id": 1834,
+      "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270247",
+      "job_title_in_post": "Chair Professor/Professor/Associate Professor/Assistant Professor (Mathematics)",
+      "position_type": "Assistant_Professor; Associate_Professor; Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Department of Mathematics",
+      "area_key_words": "computational mathematics; scientific computing",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270250": {
+      "school_id": 1834,
+      "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270250",
+      "job_title_in_post": "Senior Executive Officer, Research Postgraduate Programme",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270252": {
+      "school_id": 1834,
+      "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270252",
+      "job_title_in_post": "Research Assistant Professor, Department of Physics",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Department of Physics",
+      "area_key_words": "Physics",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1834,
   "status": "complete",
-  "updated_at": "2026-10-12T19:49:22+00:00",
-  "completed_at": "2026-10-12T19:49:22+00:00",
+  "updated_at": "2026-10-16T19:17:55+00:00",
+  "completed_at": "2026-10-16T19:17:55+00:00",
   "last_error": ""
 }

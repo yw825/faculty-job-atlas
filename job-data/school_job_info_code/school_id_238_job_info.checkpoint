@@ -136,10 +136,6 @@
       "title": "Gen Maint Crewmember and Setups Lead",
       "description": "Gen Maint Crewmember and Setups Lead. Department: Facilities Maintenance 2. Classification: Staff. Full Time. Posted: 05/14/2026."
     },
-    "https://portal.flsouthern.edu/ICS/Employment_App/#general-maintenance-crewmember": {
-      "title": "General Maintenance Crewmember",
-      "description": "General Maintenance Crewmember. Department: Facilities Maintenance 2. Classification: Staff. Full Time. Posted: 08/22/2025."
-    },
     "https://portal.flsouthern.edu/ICS/Employment_App/#hr-compliance-specialist-and-title-ix-coordinator": {
       "title": "HR Compliance Specialist and Title IX Coordinator",
       "description": "HR Compliance Specialist and Title IX Coordinator. Department: Business Affairs. Classification: Staff. Full Time. Posted: 07/30/2026."
@@ -187,6 +183,10 @@
     "https://portal.flsouthern.edu/ICS/Employment_App/#tutor-roberts-center-academy": {
       "title": "Tutor - Roberts Center Academy",
       "description": "Tutor - Roberts Center Academy. Department: . Classification: Staff. Part Time. Posted: None specified."
+    },
+    "https://portal.flsouthern.edu/ICS/Employment_App/#assistant-professor-of-architecture": {
+      "title": "Assistant Professor of Architecture",
+      "description": "Assistant Professor of Architecture. Department: Architecture. Classification: Faculty. Full Time. Posted: 10/13/2026."
     }
   },
   "rows": {
@@ -564,17 +564,6 @@
       "deadline_of_application": "",
       "position_start_date": ""
     },
-    "https://portal.flsouthern.edu/ICS/Employment_App/#general-maintenance-crewmember": {
-      "school_id": 238,
-      "posting_url": "https://portal.flsouthern.edu/ICS/Employment_App/#general-maintenance-crewmember",
-      "job_title_in_post": "General Maintenance Crewmember",
-      "position_type": "Unclassified",
-      "job_term": "Full-time",
-      "department_or_school": "",
-      "area_key_words": "",
-      "deadline_of_application": "",
-      "position_start_date": ""
-    },
     "https://portal.flsouthern.edu/ICS/Employment_App/#hr-compliance-specialist-and-title-ix-coordinator": {
       "school_id": 238,
       "posting_url": "https://portal.flsouthern.edu/ICS/Employment_App/#hr-compliance-specialist-and-title-ix-coordinator",
@@ -706,11 +695,22 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://portal.flsouthern.edu/ICS/Employment_App/#assistant-professor-of-architecture": {
+      "school_id": 238,
+      "posting_url": "https://portal.flsouthern.edu/ICS/Employment_App/#assistant-professor-of-architecture",
+      "job_title_in_post": "Assistant Professor of Architecture",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Architecture",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 238,
   "status": "complete",
-  "updated_at": "2026-10-13T02:17:07+00:00",
-  "completed_at": "2026-10-13T02:17:07+00:00",
+  "updated_at": "2026-10-16T18:37:57+00:00",
+  "completed_at": "2026-10-16T18:37:57+00:00",
   "last_error": ""
 }

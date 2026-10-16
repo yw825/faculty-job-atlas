@@ -5,11 +5,6 @@
       "description": "Posted: 10/15/2026 Location: Valley City Department: Technology Services Chief Information Officer",
       "department": "Technology Services"
     },
-    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960092&PostingSeq=1&SiteId=1": {
-      "title": "VCSU Student Worker – Equipment and Laundry Attendant",
-      "description": "Posted: 10/08/2026 Location: Valley City Department: Athletics - Administration VCSU Student Worker – Equipment and Laundry Attendant",
-      "department": "Athletics - Administration"
-    },
     "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960081&PostingSeq=1&SiteId=1": {
       "title": "VCSU Student Building Services Assistant - CFA",
       "description": "Posted: 10/07/2026 Location: Valley City Department: Facilities Services VCSU Student Building Services Assistant - CFA",
@@ -159,17 +154,6 @@
       "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "Technology Services",
-      "area_key_words": "",
-      "deadline_of_application": "",
-      "position_start_date": ""
-    },
-    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960092&PostingSeq=1&SiteId=1": {
-      "school_id": 828,
-      "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960092&PostingSeq=1&SiteId=1",
-      "job_title_in_post": "VCSU Student Worker – Equipment and Laundry Attendant",
-      "position_type": "Unclassified",
-      "job_term": "Full-time",
-      "department_or_school": "Athletics - Administration",
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
@@ -485,7 +469,7 @@
   },
   "school_id": 828,
   "status": "complete",
-  "updated_at": "2026-10-16T01:08:09+00:00",
-  "completed_at": "2026-10-16T01:08:09+00:00",
+  "updated_at": "2026-10-16T18:48:25+00:00",
+  "completed_at": "2026-10-16T18:48:25+00:00",
   "last_error": ""
 }

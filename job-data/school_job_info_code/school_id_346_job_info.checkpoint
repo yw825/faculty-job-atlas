@@ -69,6 +69,11 @@
       "title": "Assistant Professor of Criminal Justice",
       "description": "",
       "department": null
+    },
+    "https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/446": {
+      "title": "Assistant Professor of Humanities",
+      "description": "The Humanities Department at Graceland University invites applications for a tenure-track Assistant Professor of Humanities to begin August 2027. Ph.D. in Composition and Rhetoric, English, Social Change, or a related field required by time of appointment. ",
+      "department": null
     }
   },
   "rows": {
@@ -225,11 +230,22 @@
       "area_key_words": "Criminal Justice",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/446": {
+      "school_id": 346,
+      "posting_url": "https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/446",
+      "job_title_in_post": "Assistant Professor of Humanities",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Humanities",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 346,
   "status": "complete",
-  "updated_at": "2026-10-13T02:19:56+00:00",
+  "updated_at": "2026-10-16T18:41:00+00:00",
   "last_error": "",
-  "completed_at": "2026-10-13T02:19:56+00:00"
+  "completed_at": "2026-10-16T18:41:00+00:00"
 }

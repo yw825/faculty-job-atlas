@@ -40,11 +40,6 @@
       "description": "Posted: 08/25/2026 Location: ABAC Recruiting Location Department: Academic Dean - Part Time Fac Adjunct Faculty, Health and Wellness/Physical Education",
       "department": "Academic Dean - Part Time Fac"
     },
-    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302269&PostingSeq=1&SiteId=57000": {
-      "title": "Stores and Shops Salesclerk Floater",
-      "description": "Posted: 08/07/2026 Location: Tifton, GA Department: Bookstore Stores and Shops Salesclerk Floater",
-      "department": "Bookstore"
-    },
     "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302205&PostingSeq=1&SiteId=57000": {
       "title": "Assistant/Associate Professor of Chemistry",
       "description": "Posted: 08/06/2026 Location: Tifton, GA Department: Science Department Assistant/Associate Professor of Chemistry",
@@ -114,6 +109,16 @@
       "title": "Adjunct Faculty, Department of History and Political Science",
       "description": "Posted: 04/30/2021 Location: Tifton, GA Department: Academic Dean - Part Time Fac Adjunct Faculty, Department of History and Political Science",
       "department": "Academic Dean - Part Time Fac"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304939&PostingSeq=1&SiteId=57000": {
+      "title": "Budget Analyst",
+      "description": "Posted: 10/14/2026 Location: Tifton, GA Department: Fiscal Affairs Office Budget Analyst",
+      "department": "Fiscal Affairs Office"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=301617&PostingSeq=1&SiteId=57000": {
+      "title": "Athletic Trainer",
+      "description": "Posted: 07/23/2026 Location: Tifton, GA Department: Health Center Athletic Trainer",
+      "department": "Health Center"
     }
   },
   "rows": {
@@ -202,17 +207,6 @@
       "job_term": "Part-time",
       "department_or_school": "Academic Dean - Part Time Fac",
       "area_key_words": "Health and Wellness/Physical Education",
-      "deadline_of_application": "",
-      "position_start_date": ""
-    },
-    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302269&PostingSeq=1&SiteId=57000": {
-      "school_id": 314,
-      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302269&PostingSeq=1&SiteId=57000",
-      "job_title_in_post": "Stores and Shops Salesclerk Floater",
-      "position_type": "Unclassified",
-      "job_term": "Full-time",
-      "department_or_school": "Bookstore",
-      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -369,11 +363,33 @@
       "area_key_words": "History and Political Science",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304939&PostingSeq=1&SiteId=57000": {
+      "school_id": 314,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304939&PostingSeq=1&SiteId=57000",
+      "job_title_in_post": "Budget Analyst",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "Fiscal Affairs Office",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=301617&PostingSeq=1&SiteId=57000": {
+      "school_id": 314,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=301617&PostingSeq=1&SiteId=57000",
+      "job_title_in_post": "Athletic Trainer",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Health Center",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 314,
   "status": "complete",
-  "updated_at": "2026-10-13T02:23:55+00:00",
-  "completed_at": "2026-10-13T02:23:55+00:00",
+  "updated_at": "2026-10-16T18:40:34+00:00",
+  "completed_at": "2026-10-16T18:40:34+00:00",
   "last_error": ""
 }

@@ -30,19 +30,9 @@
       "description": "Permanent, full-time opportunity in Zhengzhou, China to teach Landscape Architecture.",
       "department": null
     },
-    "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010133": {
-      "title": "Kaituruki | Tutor (LAWS111)",
-      "description": "Fixed-term, part-time tutor role to support the Faculty of Law's intensive summer offering.",
-      "department": null
-    },
     "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010138": {
       "title": "Kaituruki | Teaching Assistant in Tort Law",
       "description": "Help students excel in their legal studies in this fixed-term, part-time position.",
-      "department": null
-    },
-    "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010134": {
-      "title": "Kaituruki | Teaching Assistant in 100-Level Law",
-      "description": "Coordinate our Law tutorial operations in this fixed-term, part-time position.",
       "department": null
     },
     "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010135": {
@@ -68,6 +58,11 @@
     "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010150": {
       "title": "Pūkenga/Pūkenga Matua | Lecturer/Senior Lecturer in Educational Psychology",
       "description": "Permanent academic position to advance understanding of learning and human development.",
+      "department": null
+    },
+    "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010214": {
+      "title": "Kairuruku | Research Assistant (Next Generation Ore Project)",
+      "description": "Join the Clean Materials Team in this fixed-term, full-time contract.",
       "department": null
     }
   },
@@ -138,17 +133,6 @@
       "deadline_of_application": "",
       "position_start_date": ""
     },
-    "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010133": {
-      "school_id": 1830,
-      "posting_url": "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010133",
-      "job_title_in_post": "Kaituruki | Tutor (LAWS111)",
-      "position_type": "Unclassified",
-      "job_term": "Part-time",
-      "department_or_school": "Faculty of Law's intensive summer offering",
-      "area_key_words": "",
-      "deadline_of_application": "",
-      "position_start_date": ""
-    },
     "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010138": {
       "school_id": 1830,
       "posting_url": "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010138",
@@ -157,17 +141,6 @@
       "job_term": "Part-time",
       "department_or_school": "",
       "area_key_words": "Tort Law",
-      "deadline_of_application": "",
-      "position_start_date": ""
-    },
-    "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010134": {
-      "school_id": 1830,
-      "posting_url": "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010134",
-      "job_title_in_post": "Kaituruki | Teaching Assistant in 100-Level Law",
-      "position_type": "Unclassified",
-      "job_term": "Part-time",
-      "department_or_school": "",
-      "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -225,11 +198,22 @@
       "area_key_words": "Educational Psychology",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010214": {
+      "school_id": 1830,
+      "posting_url": "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010214",
+      "job_title_in_post": "Kairuruku | Research Assistant (Next Generation Ore Project)",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1830,
   "status": "complete",
-  "updated_at": "2026-10-09T19:43:17+00:00",
-  "completed_at": "2026-10-09T19:43:17+00:00",
+  "updated_at": "2026-10-16T19:17:38+00:00",
+  "completed_at": "2026-10-16T19:17:38+00:00",
   "last_error": ""
 }

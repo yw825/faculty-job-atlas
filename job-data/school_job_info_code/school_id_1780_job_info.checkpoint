@@ -27,6 +27,14 @@
     "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225311": {
       "title": "Student Pathways Officer",
       "description": "Student Pathways Officer. University of New England. Reference 225311. 225311 Student Pathways Officer Professional - Continuing, full-time - HEO5 Student Pathways 18-OCT-2026 11:59:59 pm"
+    },
+    "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225313": {
+      "title": "Senior Lecturer / Associate Professor in Rural Medicine",
+      "description": "Senior Lecturer / Associate Professor in Rural Medicine. University of New England. Reference 225313. 225313 Senior Lecturer / Associate Professor in Rural Medicine Academic - Continuing, full-time - Level C/D School of Rural Medicine 08-NOV-2026 11:59:59 pm"
+    },
+    "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225314": {
+      "title": "Lecturer/Senior Lecturer in Rural Medicine (Armidale based)",
+      "description": "Lecturer/Senior Lecturer in Rural Medicine (Armidale based). University of New England. Reference 225314. 225314 Lecturer/Senior Lecturer in Rural Medicine (Armidale based) Academic - Continuing, Part-time - Level B/C School of Rural Medicine 01-NOV-2026 11:59:59 pm"
     }
   },
   "rows": {
@@ -106,11 +114,33 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225313": {
+      "school_id": 1780,
+      "posting_url": "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225313",
+      "job_title_in_post": "Senior Lecturer / Associate Professor in Rural Medicine",
+      "position_type": "Associate_Professor; Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Rural Medicine",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225314": {
+      "school_id": 1780,
+      "posting_url": "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225314",
+      "job_title_in_post": "Lecturer/Senior Lecturer in Rural Medicine (Armidale based)",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "Rural Medicine",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1780,
   "status": "complete",
-  "updated_at": "2026-10-12T20:25:06+00:00",
-  "completed_at": "2026-10-12T20:25:06+00:00",
+  "updated_at": "2026-10-16T19:14:04+00:00",
+  "completed_at": "2026-10-16T19:14:04+00:00",
   "last_error": ""
 }

@@ -89,6 +89,16 @@
       "title": "University Police Officer",
       "description": "Pittsburg State University is accepting applications for a University Police Officer in the department of Police and Public Safety that is responsible for patrolling University property to enforce laws, ordinances, and regulations.",
       "department": null
+    },
+    "https://ebyf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/162": {
+      "title": "Maintenance & Repair Worker",
+      "description": "Pittsburg State University is accepting applications for a Maintenance & Repair Worker. The primary function of the Maintenance and Repair Worker is to perform or assist with general maintenance and repair tasks in assigned areas. Positions assigned to the job may also have maintenance related cleaning responsibilities, including mechanical spaces, equipment and roof areas.",
+      "department": null
+    },
+    "https://ebyf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/196": {
+      "title": "Boiler Technician",
+      "description": "Pittsburg State University is accepting applications for a Boiler Technician in the Facility Operations department. The primary function of this position is to perform the operation, maintenance, repair, and monitoring of the boiler plant, steam distribution system, and related equipment to ensure the safe and efficient delivery of steam and hot water to campus facilities.",
+      "department": null
     }
   },
   "rows": {
@@ -289,11 +299,33 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://ebyf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/162": {
+      "school_id": 475,
+      "posting_url": "https://ebyf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/162",
+      "job_title_in_post": "Maintenance & Repair Worker",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://ebyf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/196": {
+      "school_id": 475,
+      "posting_url": "https://ebyf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/196",
+      "job_title_in_post": "Boiler Technician",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 475,
   "status": "complete",
-  "updated_at": "2026-10-13T22:52:03+00:00",
-  "completed_at": "2026-10-13T22:52:03+00:00",
+  "updated_at": "2026-10-16T18:43:18+00:00",
+  "completed_at": "2026-10-16T18:43:18+00:00",
   "last_error": ""
 }

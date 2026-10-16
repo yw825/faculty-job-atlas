@@ -1,9 +1,26 @@
 {
-  "raw": {},
-  "rows": {},
+  "raw": {
+    "https://my.corehr.com/pls/iadtrecruit/erq_jobspec_version_4.jobspec?p_id=007423": {
+      "title": "Caretaker - Fixed-Term for 12 months - Ref: 84/26",
+      "description": "Closing Date: 23/10/2026 Caretaker - Fixed-Term for 12 months - Ref: 84/26 Please refer to the attached Candidate Information Booklet for full details regarding the role. Contact Email : recruitment@iadt.ie Close Date : 23-Oct-2026 12:00 Contact Person : recruitment@iadt.ie"
+    }
+  },
+  "rows": {
+    "https://my.corehr.com/pls/iadtrecruit/erq_jobspec_version_4.jobspec?p_id=007423": {
+      "school_id": 1916,
+      "posting_url": "https://my.corehr.com/pls/iadtrecruit/erq_jobspec_version_4.jobspec?p_id=007423",
+      "job_title_in_post": "Caretaker - Fixed-Term for 12 months - Ref: 84/26",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "23/10/2026",
+      "position_start_date": ""
+    }
+  },
   "school_id": 1916,
   "status": "complete",
-  "updated_at": "2026-10-09T17:51:26+00:00",
-  "completed_at": "2026-10-09T17:51:26+00:00",
+  "updated_at": "2026-10-16T19:21:00+00:00",
+  "completed_at": "2026-10-16T19:21:00+00:00",
   "last_error": ""
 }

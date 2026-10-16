@@ -590,6 +590,11 @@
       "title": "Nursing Full-Time Faculty",
       "description": "The Tulane University Program of Nursing is seeking a faculty member for a full-time nurse educator position in the New Orleans Metropolitan area.  Candidates will receive an academic appointment at Tulane University School of Medicine at the Assistant or Associate Professor level, dependent on previous academic accomplishments and experience.",
       "department": null
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2051": {
+      "title": "Assistant Professor",
+      "description": "The Department of Mathematics at Tulane University invites applications for a tenure-track Assistant Professor position in Probability and Statistics. We seek outstanding candidates with active research programs in the fields of probability or mathematical statistics, and we particularly welcome candidates whose work has interdisciplinary applications in the biological, medical, social, chemical, or physical sciences. The successful candidate will develop a strong research program, contribute to undergraduate and graduate education, and participate actively in the intellectual and service activities of the department. The School of Science and Engineering provides exceptional opportunities for collaboration across disciplines and supports the development of cutting-edge research and educational initiatives. Tulane University is a member of the prestigious Association of American Universities and is classified as an R1, community-engaged institution.",
+      "department": null
     }
   },
   "rows": {
@@ -1867,11 +1872,22 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2051": {
+      "school_id": 521,
+      "posting_url": "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2051",
+      "job_title_in_post": "Assistant Professor",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Department of Mathematics",
+      "area_key_words": "mathematical statistics",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 521,
   "status": "complete",
-  "updated_at": "2026-10-13T22:33:25+00:00",
-  "completed_at": "2026-10-13T22:33:25+00:00",
+  "updated_at": "2026-10-16T18:44:19+00:00",
+  "completed_at": "2026-10-16T18:44:19+00:00",
   "last_error": ""
 }

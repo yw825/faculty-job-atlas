@@ -1,128 +1,32 @@
 {
   "raw": {
-    "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3863": {
-      "title": "Two-year Assistant Professor Appointment in Political Science",
-      "description": "The University of Windsor’s Department of Political Science, in the Faculty of Arts, Humanities and Social Sciences seeks applications for Two-Year Limited-term Assistant Professor position commencing as early as July 1, 2027.",
+    "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4305": {
+      "title": "Associate General Counsel - Solicitor (2026-MP-21)",
+      "description": "Managerial & Professional Vacancy \nAssociate General Counsel - Solicitor in the Office of Legal Services",
       "department": null
     },
-    "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3823": {
-      "title": "Sports Information Coordinator \"VI\" (2026-13-32)",
-      "description": "CUPE 1393\nSports Information Coordinator \"VI\" in the Department of Athletics & Recreational Services",
-      "department": null
-    },
-    "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4123": {
-      "title": "Maintenance Manager (2026-MP-18)",
-      "description": "Managerial & Professional - Maintenance Manager, Facility Services (2026-MP-18)",
-      "department": null
-    },
-    "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4106": {
-      "title": "Undergraduate Education Administrator (2026-13-33)",
-      "description": "CUPE 1393 Undergraduate Education Administrator 'IV' - Schulich School of Medicine & Dentistry - Windsor Campus (substitute until approx. March 1, 2027)",
-      "department": null
-    },
-    "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3635": {
-      "title": "Research Coordinator - Inclusive Excellence \"VII\" (2026-13-34)",
-      "description": "CUPE 1393 - Substitute Vacancy\nResearch Coordinator – Inclusive Excellence \"VII\" in the Office of Research & Integrity Services",
-      "department": null
-    },
-    "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3666": {
-      "title": "Communications Specialist \"V\" (2026-13-35)",
-      "description": "CUPE 1393 - Substitute Vacancy\nCommunications Specialist \"V\" in the Department of Public Affairs and Communications",
-      "department": null
-    },
-    "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4273": {
-      "title": "Education Assistant (2026-13-36)",
-      "description": "CUPE 1393 - Education Assistant \"IV\" in the Schulich School of Medicine & Dentistry - Windsor Program",
-      "department": null
-    },
-    "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4270": {
-      "title": "Human Resources Business Partner",
-      "description": "Managerial & Professional - Temporary - Human Resources Business Partner - (2026-MP-19)",
+    "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4194": {
+      "title": "Academic Initiatives Officer (2026-MP-20)",
+      "description": "Managerial & Professional Vacancy\nAcademic Initiatives Officer in the Office of the Provost",
       "department": null
     }
   },
   "rows": {
-    "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3863": {
+    "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4305": {
       "school_id": 1637,
-      "posting_url": "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3863",
-      "job_title_in_post": "Two-year Assistant Professor Appointment in Political Science",
-      "position_type": "Assistant_Professor",
-      "job_term": "Full-time",
-      "department_or_school": "",
-      "area_key_words": "Political Science",
-      "deadline_of_application": "",
-      "position_start_date": "July 1, 2027"
-    },
-    "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3823": {
-      "school_id": 1637,
-      "posting_url": "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3823",
-      "job_title_in_post": "Sports Information Coordinator \"VI\" (2026-13-32)",
-      "position_type": "Non-academic",
-      "job_term": "Full-time",
-      "department_or_school": "Department of Athletics & Recreational Services",
-      "area_key_words": "",
-      "deadline_of_application": "",
-      "position_start_date": ""
-    },
-    "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4123": {
-      "school_id": 1637,
-      "posting_url": "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4123",
-      "job_title_in_post": "Maintenance Manager (2026-MP-18)",
-      "position_type": "Non-academic",
-      "job_term": "Full-time",
-      "department_or_school": "",
-      "area_key_words": "",
-      "deadline_of_application": "",
-      "position_start_date": ""
-    },
-    "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4106": {
-      "school_id": 1637,
-      "posting_url": "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4106",
-      "job_title_in_post": "Undergraduate Education Administrator (2026-13-33)",
-      "position_type": "Non-academic",
-      "job_term": "Full-time",
-      "department_or_school": "School of Medicine & Dentistry",
-      "area_key_words": "",
-      "deadline_of_application": "",
-      "position_start_date": ""
-    },
-    "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3635": {
-      "school_id": 1637,
-      "posting_url": "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3635",
-      "job_title_in_post": "Research Coordinator - Inclusive Excellence \"VII\" (2026-13-34)",
-      "position_type": "Non-academic",
-      "job_term": "Full-time",
-      "department_or_school": "",
-      "area_key_words": "",
-      "deadline_of_application": "",
-      "position_start_date": ""
-    },
-    "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3666": {
-      "school_id": 1637,
-      "posting_url": "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3666",
-      "job_title_in_post": "Communications Specialist \"V\" (2026-13-35)",
-      "position_type": "Non-academic",
-      "job_term": "Full-time",
-      "department_or_school": "Department of Public Affairs and Communications",
-      "area_key_words": "",
-      "deadline_of_application": "",
-      "position_start_date": ""
-    },
-    "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4273": {
-      "school_id": 1637,
-      "posting_url": "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4273",
-      "job_title_in_post": "Education Assistant (2026-13-36)",
+      "posting_url": "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4305",
+      "job_title_in_post": "Associate General Counsel - Solicitor (2026-MP-21)",
       "position_type": "Unclassified",
       "job_term": "Full-time",
-      "department_or_school": "School of Medicine & Dentistry",
+      "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
     },
-    "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4270": {
+    "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4194": {
       "school_id": 1637,
-      "posting_url": "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4270",
-      "job_title_in_post": "Human Resources Business Partner",
+      "posting_url": "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4194",
+      "job_title_in_post": "Academic Initiatives Officer (2026-MP-20)",
       "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
@@ -133,7 +37,7 @@
   },
   "school_id": 1637,
   "status": "complete",
-  "updated_at": "2026-10-08T20:15:37+00:00",
-  "completed_at": "2026-10-08T20:15:37+00:00",
+  "updated_at": "2026-10-16T19:02:00+00:00",
+  "completed_at": "2026-10-16T19:02:00+00:00",
   "last_error": ""
 }

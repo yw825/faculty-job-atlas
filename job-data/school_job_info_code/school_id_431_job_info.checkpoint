@@ -1,10 +1,5 @@
 {
   "raw": {
-    "https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2164": {
-      "title": "Assistant Director of the Office of Sponsored Programs",
-      "description": "The Assistant Director of the Office of Sponsored Programs will oversee research compliance and sponsored programs administration for Butler University. This includes IRB, IACUC, IBC, and FCOI as well as assisting the OSP director, faculty, and staff in the preparation, review, and submission of proposals for contracts or grants to external partners. The role requires in-depth knowledge about research in higher education as well as maintaining knowledge of federal and state laws. This position contributes to Butler's objectives by ensuring research policy and laws are followed by all individuals taking part in externally funded research at Butler. Oversees responsible conduct of research training and other activities that promote integrity in research and ensure compliance with relevant policies and regulations. Assists in developing and implementing OSP strategic plans and goals.      ",
-      "department": null
-    },
     "https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1691": {
       "title": "Fan Game-Day Ambassador (Part-Time), Butler Athletics",
       "description": "Join the team that brings Butler Basketball to life inside historic Hinkle Fieldhouse and Butler Football to the Bud and Jackie Sellick Bowl. Fan Engagement Ambassadors are the welcoming faces of Butler Athletics—creating a safe, enjoyable, and memorable experience for every guest. With a focus on service, enthusiasm, and school pride, Ambassadors represent The Butler Way at every event.\n\nThis part-time role is perfect for individuals who enjoy connecting with people, contributing to a team, and being part of the excitement on game day.",
@@ -142,17 +137,6 @@
     }
   },
   "rows": {
-    "https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2164": {
-      "school_id": 431,
-      "posting_url": "https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2164",
-      "job_title_in_post": "Assistant Director of the Office of Sponsored Programs",
-      "position_type": "Unclassified",
-      "job_term": "Full-time",
-      "department_or_school": "",
-      "area_key_words": "Sponsored Programs; higher education",
-      "deadline_of_application": "",
-      "position_start_date": ""
-    },
     "https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1691": {
       "school_id": 431,
       "posting_url": "https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1691",
@@ -453,7 +437,7 @@
   },
   "school_id": 431,
   "status": "complete",
-  "updated_at": "2026-10-13T22:48:47+00:00",
-  "completed_at": "2026-10-13T22:48:47+00:00",
+  "updated_at": "2026-10-16T18:42:47+00:00",
+  "completed_at": "2026-10-16T18:42:47+00:00",
   "last_error": ""
 }

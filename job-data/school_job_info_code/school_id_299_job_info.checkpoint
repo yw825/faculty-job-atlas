@@ -295,11 +295,6 @@
       "description": "Posted: 08/03/2026 Location: Georgia Gwinnett College Department: Network & Telecommunications Network Engineer III",
       "department": "Network & Telecommunications"
     },
-    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=301934&PostingSeq=1&SiteId=40000": {
-      "title": "One Stop Shop Manager",
-      "description": "Posted: 08/03/2026 Location: Georgia Gwinnett College Department: One Stop Shop One Stop Shop Manager",
-      "department": "One Stop Shop"
-    },
     "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=301942&PostingSeq=1&SiteId=40000": {
       "title": "Associate Director of Admissions",
       "description": "Posted: 07/31/2026 Location: Georgia Gwinnett College Department: Recruitment & Admissions Associate Director of Admissions",
@@ -829,6 +824,21 @@
       "title": "Part-Time Campus Police Officer",
       "description": "Posted: 07/23/2024 Location: Georgia Gwinnett College Department: Public Safety Part-Time Campus Police Officer",
       "department": "Public Safety"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304704&PostingSeq=1&SiteId=40000": {
+      "title": "Student Assistant - Intramural Sports",
+      "description": "Posted: 10/16/2026 Location: Georgia Gwinnett College Department: Recreation/Program Activity Student Assistant - Intramural Sports",
+      "department": "Recreation/Program Activity"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304748&PostingSeq=1&SiteId=40000": {
+      "title": "Federal Work Study - GGC Student Influencer",
+      "description": "Posted: 10/15/2026 Location: Georgia Gwinnett College Department: Fed. Work Study Program Federal Work Study - GGC Student Influencer",
+      "department": "Fed. Work Study Program"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304889&PostingSeq=1&SiteId=40000": {
+      "title": "HVAC Technician",
+      "description": "Posted: 10/13/2026 Location: Georgia Gwinnett College Department: Physical Plant Bldg HVAC Technician",
+      "department": "Physical Plant Bldg"
     }
   },
   "rows": {
@@ -1477,17 +1487,6 @@
       "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "Network & Telecommunications",
-      "area_key_words": "",
-      "deadline_of_application": "",
-      "position_start_date": ""
-    },
-    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=301934&PostingSeq=1&SiteId=40000": {
-      "school_id": 299,
-      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=301934&PostingSeq=1&SiteId=40000",
-      "job_title_in_post": "One Stop Shop Manager",
-      "position_type": "Non-academic",
-      "job_term": "Full-time",
-      "department_or_school": "One Stop Shop",
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
@@ -2657,11 +2656,44 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304704&PostingSeq=1&SiteId=40000": {
+      "school_id": 299,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304704&PostingSeq=1&SiteId=40000",
+      "job_title_in_post": "Student Assistant - Intramural Sports",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Recreation/Program Activity",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304748&PostingSeq=1&SiteId=40000": {
+      "school_id": 299,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304748&PostingSeq=1&SiteId=40000",
+      "job_title_in_post": "Federal Work Study - GGC Student Influencer",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Fed. Work Study Program",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304889&PostingSeq=1&SiteId=40000": {
+      "school_id": 299,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304889&PostingSeq=1&SiteId=40000",
+      "job_title_in_post": "HVAC Technician",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "Physical Plant Bldg",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 299,
   "status": "complete",
-  "updated_at": "2026-10-13T02:23:06+00:00",
-  "completed_at": "2026-10-13T02:23:06+00:00",
+  "updated_at": "2026-10-16T18:40:03+00:00",
+  "completed_at": "2026-10-16T18:40:03+00:00",
   "last_error": ""
 }

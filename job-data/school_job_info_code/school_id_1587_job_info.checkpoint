@@ -1,10 +1,5 @@
 {
   "raw": {
-    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4268": {
-      "title": "Assistant/Associate Professor in Forest Hydrology",
-      "description": "",
-      "department": null
-    },
     "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4270": {
       "title": "Chair and Associate Professor/Professor",
       "description": "",
@@ -35,18 +30,8 @@
       "description": "",
       "department": null
     },
-    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/3840": {
-      "title": "Endowed Chair (Assistant/Associate Professor) in Indigenous Forestry",
-      "description": "",
-      "department": null
-    },
     "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4037": {
       "title": "Assistant / Associate Professor",
-      "description": "",
-      "department": null
-    },
-    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/3238": {
-      "title": "AMHSP Academic Division Director and Clinical Zone Section Chief, Rheumatology",
       "description": "",
       "department": null
     },
@@ -87,11 +72,6 @@
     },
     "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/3784": {
       "title": "Tenured or Tenure-Track Cluster of Assistant, Associate, or Full Professor Positions in Mining Engineering (Geostatistics)",
-      "description": "",
-      "department": null
-    },
-    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/3694": {
-      "title": "Tenured or Tenure-Track Cluster of Assistant, Associate, or Full Professor Positions in Steel Structures",
       "description": "",
       "department": null
     },
@@ -139,20 +119,74 @@
       "title": "Teaching Professor (Assistant or Associate) in Women’s and Gender Studies and Political Science",
       "description": "",
       "department": null
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4484": {
+      "title": "Assistant Professor in Music Theory",
+      "description": "",
+      "department": null
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4515": {
+      "title": "Assistant Professor",
+      "description": "",
+      "department": null
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4521": {
+      "title": "Department Chair, Obstetrics and Gynecology",
+      "description": "",
+      "department": null
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4522": {
+      "title": "Department Chair, Emergency Medicine",
+      "description": "",
+      "department": null
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4494": {
+      "title": "Contingent Tenure-Track Assistant Professor, Health Systems Leadership and Transformation",
+      "description": "",
+      "department": null
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4499": {
+      "title": "AMHSP Position Gastroenterology, Nutrition",
+      "description": "",
+      "department": null
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4483": {
+      "title": "Assistant Professor, Visual Communication Design (Design Studies) - Tenure Track",
+      "description": "",
+      "department": null
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4402": {
+      "title": "Assistant/Associate Professor",
+      "description": "",
+      "department": null
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4468": {
+      "title": "Assistant Professor - Psychology",
+      "description": "",
+      "department": null
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4477": {
+      "title": "Assistant Professor, Microeconomics",
+      "description": "",
+      "department": null
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4478": {
+      "title": "Assistant Professor, Macroeconomics",
+      "description": "",
+      "department": null
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4426": {
+      "title": "Assistant/Associate Professor - Prosthodontics",
+      "description": "",
+      "department": null
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4465": {
+      "title": "Assistant Professor in Women’s and Gender Studies",
+      "description": "",
+      "department": null
     }
   },
   "rows": {
-    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4268": {
-      "school_id": 1587,
-      "posting_url": "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4268",
-      "job_title_in_post": "Assistant/Associate Professor in Forest Hydrology",
-      "position_type": "Assistant_Professor; Associate_Professor",
-      "job_term": "Full-time",
-      "department_or_school": "",
-      "area_key_words": "Forest Hydrology",
-      "deadline_of_application": "",
-      "position_start_date": ""
-    },
     "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4270": {
       "school_id": 1587,
       "posting_url": "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4270",
@@ -219,33 +253,11 @@
       "deadline_of_application": "",
       "position_start_date": ""
     },
-    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/3840": {
-      "school_id": 1587,
-      "posting_url": "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/3840",
-      "job_title_in_post": "Endowed Chair (Assistant/Associate Professor) in Indigenous Forestry",
-      "position_type": "Assistant_Professor; Associate_Professor",
-      "job_term": "Full-time",
-      "department_or_school": "",
-      "area_key_words": "Indigenous Forestry",
-      "deadline_of_application": "",
-      "position_start_date": ""
-    },
     "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4037": {
       "school_id": 1587,
       "posting_url": "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4037",
       "job_title_in_post": "Assistant / Associate Professor",
       "position_type": "Assistant_Professor; Associate_Professor",
-      "job_term": "Full-time",
-      "department_or_school": "",
-      "area_key_words": "",
-      "deadline_of_application": "",
-      "position_start_date": ""
-    },
-    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/3238": {
-      "school_id": 1587,
-      "posting_url": "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/3238",
-      "job_title_in_post": "AMHSP Academic Division Director and Clinical Zone Section Chief, Rheumatology",
-      "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "",
@@ -337,17 +349,6 @@
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "Mining Engineering",
-      "deadline_of_application": "",
-      "position_start_date": ""
-    },
-    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/3694": {
-      "school_id": 1587,
-      "posting_url": "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/3694",
-      "job_title_in_post": "Tenured or Tenure-Track Cluster of Assistant, Associate, or Full Professor Positions in Steel Structures",
-      "position_type": "Full_Professor",
-      "job_term": "Full-time",
-      "department_or_school": "",
-      "area_key_words": "Steel Structures",
       "deadline_of_application": "",
       "position_start_date": ""
     },
@@ -449,11 +450,154 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4484": {
+      "school_id": 1587,
+      "posting_url": "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4484",
+      "job_title_in_post": "Assistant Professor in Music Theory",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Music Theory",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4515": {
+      "school_id": 1587,
+      "posting_url": "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4515",
+      "job_title_in_post": "Assistant Professor",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4521": {
+      "school_id": 1587,
+      "posting_url": "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4521",
+      "job_title_in_post": "Department Chair, Obstetrics and Gynecology",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4522": {
+      "school_id": 1587,
+      "posting_url": "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4522",
+      "job_title_in_post": "Department Chair, Emergency Medicine",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4494": {
+      "school_id": 1587,
+      "posting_url": "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4494",
+      "job_title_in_post": "Contingent Tenure-Track Assistant Professor, Health Systems Leadership and Transformation",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Health Systems Leadership and Transformation",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4499": {
+      "school_id": 1587,
+      "posting_url": "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4499",
+      "job_title_in_post": "AMHSP Position Gastroenterology, Nutrition",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Nutrition",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4483": {
+      "school_id": 1587,
+      "posting_url": "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4483",
+      "job_title_in_post": "Assistant Professor, Visual Communication Design (Design Studies) - Tenure Track",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4402": {
+      "school_id": 1587,
+      "posting_url": "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4402",
+      "job_title_in_post": "Assistant/Associate Professor",
+      "position_type": "Assistant_Professor; Associate_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4468": {
+      "school_id": 1587,
+      "posting_url": "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4468",
+      "job_title_in_post": "Assistant Professor - Psychology",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Psychology",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4477": {
+      "school_id": 1587,
+      "posting_url": "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4477",
+      "job_title_in_post": "Assistant Professor, Microeconomics",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Microeconomics",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4478": {
+      "school_id": 1587,
+      "posting_url": "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4478",
+      "job_title_in_post": "Assistant Professor, Macroeconomics",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Macroeconomics",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4426": {
+      "school_id": 1587,
+      "posting_url": "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4426",
+      "job_title_in_post": "Assistant/Associate Professor - Prosthodontics",
+      "position_type": "Assistant_Professor; Associate_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Prosthodontics",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4465": {
+      "school_id": 1587,
+      "posting_url": "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4465",
+      "job_title_in_post": "Assistant Professor in Women’s and Gender Studies",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1587,
   "status": "complete",
-  "updated_at": "2026-10-08T20:12:39+00:00",
-  "completed_at": "2026-10-08T20:12:39+00:00",
+  "updated_at": "2026-10-16T19:00:44+00:00",
+  "completed_at": "2026-10-16T19:00:44+00:00",
   "last_error": ""
 }

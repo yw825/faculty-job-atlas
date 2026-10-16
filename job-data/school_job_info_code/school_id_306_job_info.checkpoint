@@ -5,11 +5,6 @@
       "description": "Posted: 10/12/2026 Location: Clayton State University Bursar (Director of Student Financial Services)",
       "department": ""
     },
-    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304511&PostingSeq=1&SiteId=28000": {
-      "title": "Cashier",
-      "description": "Posted: 10/08/2026 Location: Clayton State University Department: Bursar's Office Cashier",
-      "department": "Bursar's Office"
-    },
     "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304702&PostingSeq=1&SiteId=28000": {
       "title": "Network Engineer",
       "description": "Posted: 10/07/2026 Location: Clayton State University Department: Infrastructure Services Network Engineer",
@@ -139,6 +134,16 @@
       "title": "Assistant Controller of Grants & Financial Reporting",
       "description": "Posted: 02/11/2026 Location: Clayton State University Department: Office of Accounting Services Assistant Controller of Grants & Financial Reporting",
       "department": "Office of Accounting Services"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304963&PostingSeq=1&SiteId=28000": {
+      "title": "Director SubDiv/Unit AD",
+      "description": "Posted: 10/15/2026 Location: Clayton State University Department: VP for University Advancement Director SubDiv/Unit AD",
+      "department": "VP for University Advancement"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304901&PostingSeq=1&SiteId=28000": {
+      "title": "Cashier",
+      "description": "Posted: 10/13/2026 Location: Clayton State University Department: Bursar's Office Cashier",
+      "department": "Bursar's Office"
     }
   },
   "rows": {
@@ -149,17 +154,6 @@
       "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "",
-      "deadline_of_application": "",
-      "position_start_date": ""
-    },
-    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304511&PostingSeq=1&SiteId=28000": {
-      "school_id": 306,
-      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304511&PostingSeq=1&SiteId=28000",
-      "job_title_in_post": "Cashier",
-      "position_type": "Unclassified",
-      "job_term": "Full-time",
-      "department_or_school": "Bursar's Office",
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
@@ -449,11 +443,33 @@
       "area_key_words": "Grants & Financial Reporting",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304963&PostingSeq=1&SiteId=28000": {
+      "school_id": 306,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304963&PostingSeq=1&SiteId=28000",
+      "job_title_in_post": "Director SubDiv/Unit AD",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "VP for University Advancement",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304901&PostingSeq=1&SiteId=28000": {
+      "school_id": 306,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304901&PostingSeq=1&SiteId=28000",
+      "job_title_in_post": "Cashier",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Bursar's Office",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 306,
   "status": "complete",
-  "updated_at": "2026-10-13T02:23:37+00:00",
-  "completed_at": "2026-10-13T02:23:37+00:00",
+  "updated_at": "2026-10-16T18:40:21+00:00",
+  "completed_at": "2026-10-16T18:40:21+00:00",
   "last_error": ""
 }

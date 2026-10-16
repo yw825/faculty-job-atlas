@@ -12,10 +12,6 @@
       "title": "CRM & Student Success Systems Administrator",
       "description": "CRM & Student Success Systems Administrator. Department: Enrollment Management. Classification: Staff. Full Time. Posted: 10/08/2026."
     },
-    "https://my.uiu.edu/ICS/Employment_Opportunities.jnz#dir-prison-ed-north-la-recruit-shreveport-la": {
-      "title": "Dir, Prison Ed/North LA Recruit (Shreveport, LA)",
-      "description": "Dir, Prison Ed/North LA Recruit (Shreveport, LA). Department: Online Admissions. Classification: Staff. Full Time. Posted: 10/01/2026."
-    },
     "https://my.uiu.edu/ICS/Employment_Opportunities.jnz#director-grant-project": {
       "title": "Director, Grant Project",
       "description": "Director, Grant Project. Department: Enrollment Management. Classification: Staff. Full Time. Posted: 10/08/2026."
@@ -24,10 +20,6 @@
       "title": "Enrollment Coordinator, Cedar Rapids",
       "description": "Enrollment Coordinator, Cedar Rapids. Department: Mid Central Region - Cedar Rapids. Classification: Staff. Full Time. Posted: 08/26/2026."
     },
-    "https://my.uiu.edu/ICS/Employment_Opportunities.jnz#enrollment-coordinator-omaha-council-bluffs": {
-      "title": "Enrollment Coordinator, Omaha/Council Bluffs",
-      "description": "Enrollment Coordinator, Omaha/Council Bluffs. Department: National Market Admissions. Classification: Staff. Full Time. Posted: 07/20/2026."
-    },
     "https://my.uiu.edu/ICS/Employment_Opportunities.jnz#grounds-technician-i": {
       "title": "Grounds Technician I",
       "description": "Grounds Technician I. Department: Facilities Management & Services - Maintenance/Grounds. Classification: Staff. Full Time. Posted: 07/14/2026."
@@ -35,6 +27,10 @@
     "https://my.uiu.edu/ICS/Employment_Opportunities.jnz#school-counselor-adjunct-instructor-msc": {
       "title": "School Counselor Adjunct Instructor MSC",
       "description": "School Counselor Adjunct Instructor MSC. Department: Master of Science in Counseling. Classification: Faculty. Part Time. Posted: 10/05/2026."
+    },
+    "https://my.uiu.edu/ICS/Employment_Opportunities.jnz#director-workforce-partnership": {
+      "title": "Director, Workforce Partnership",
+      "description": "Director, Workforce Partnership. Department: Enrollment Management. Classification: Staff. Full Time. Posted: 10/15/2026."
     }
   },
   "rows": {
@@ -71,17 +67,6 @@
       "deadline_of_application": "",
       "position_start_date": ""
     },
-    "https://my.uiu.edu/ICS/Employment_Opportunities.jnz#dir-prison-ed-north-la-recruit-shreveport-la": {
-      "school_id": 341,
-      "posting_url": "https://my.uiu.edu/ICS/Employment_Opportunities.jnz#dir-prison-ed-north-la-recruit-shreveport-la",
-      "job_title_in_post": "Dir, Prison Ed/North LA Recruit (Shreveport, LA)",
-      "position_type": "Unclassified",
-      "job_term": "Full-time",
-      "department_or_school": "",
-      "area_key_words": "",
-      "deadline_of_application": "",
-      "position_start_date": ""
-    },
     "https://my.uiu.edu/ICS/Employment_Opportunities.jnz#director-grant-project": {
       "school_id": 341,
       "posting_url": "https://my.uiu.edu/ICS/Employment_Opportunities.jnz#director-grant-project",
@@ -97,17 +82,6 @@
       "school_id": 341,
       "posting_url": "https://my.uiu.edu/ICS/Employment_Opportunities.jnz#enrollment-coordinator-cedar-rapids",
       "job_title_in_post": "Enrollment Coordinator, Cedar Rapids",
-      "position_type": "Non-academic",
-      "job_term": "Full-time",
-      "department_or_school": "",
-      "area_key_words": "",
-      "deadline_of_application": "",
-      "position_start_date": ""
-    },
-    "https://my.uiu.edu/ICS/Employment_Opportunities.jnz#enrollment-coordinator-omaha-council-bluffs": {
-      "school_id": 341,
-      "posting_url": "https://my.uiu.edu/ICS/Employment_Opportunities.jnz#enrollment-coordinator-omaha-council-bluffs",
-      "job_title_in_post": "Enrollment Coordinator, Omaha/Council Bluffs",
       "position_type": "Non-academic",
       "job_term": "Full-time",
       "department_or_school": "",
@@ -136,11 +110,22 @@
       "area_key_words": "School Counselor Adjunct",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://my.uiu.edu/ICS/Employment_Opportunities.jnz#director-workforce-partnership": {
+      "school_id": 341,
+      "posting_url": "https://my.uiu.edu/ICS/Employment_Opportunities.jnz#director-workforce-partnership",
+      "job_title_in_post": "Director, Workforce Partnership",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
     }
   },
   "school_id": 341,
   "status": "complete",
-  "updated_at": "2026-10-13T02:19:35+00:00",
-  "completed_at": "2026-10-13T02:19:35+00:00",
+  "updated_at": "2026-10-16T18:40:59+00:00",
+  "completed_at": "2026-10-16T18:40:59+00:00",
   "last_error": ""
 }

@@ -1,16 +1,64 @@
 {
   "raw": {
-    "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18495": {
-      "title": "Senior Educator, LND",
-      "description": "Leads foundation skills support across WMEP, improving student outcomes, staff capability, engagement, participation and success.",
+    "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18457": {
+      "title": "Teaching Focused Academic Mechanical Engineering",
+      "description": "We are seeking an enthusiastic and committed Teaching Focused Academic Mechanical Engineering to join the College of Sport, Health and Engineering. This continuing Level B role is focused on high quality teaching within VU's modernised Engineering curriculum, with particular emphasis on contemporary Mechanical Engineering practice, integrated and project based learning, student success and strong industry connection. VU's Strategic Plan 2022-2030 sets the ambition to be one of the leading impact driven universities in the world by 2030.",
+      "department": null
+    },
+    "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18456": {
+      "title": "Teaching Focused Academic Construction Management",
+      "description": "We are seeking an enthusiastic and committed Teaching Focused Academic Construction Management to join the College of Sport, Health and Engineering. This continuing Level B role is focused on high-quality teaching and academic capability in Quantity Surveying within VU's Construction Management programs, with strong emphasis on student success, professional currency, accreditation and industry connection. VU's Strategic Plan 2022-2030 sets the ambition to be one of the leading impact driven universities in the world by 2030.",
+      "department": null
+    },
+    "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18536": {
+      "title": "Senior Coordinator - Academic Workload",
+      "description": "Shape academic workforce planning at VU.",
+      "department": null
+    },
+    "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18494": {
+      "title": "Contact Centre Agent - Casual Professional",
+      "description": "Passionate about delivering exceptional customer service? Join our high-performing Student Contact Centre team and support current and future students through meaningful interactions across multiple channels. \n\n",
       "department": null
     }
   },
   "rows": {
-    "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18495": {
+    "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18457": {
       "school_id": 1817,
-      "posting_url": "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18495",
-      "job_title_in_post": "Senior Educator, LND",
+      "posting_url": "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18457",
+      "job_title_in_post": "Teaching Focused Academic Mechanical Engineering",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "College of Sport, Health and Engineering",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18456": {
+      "school_id": 1817,
+      "posting_url": "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18456",
+      "job_title_in_post": "Teaching Focused Academic Construction Management",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "College of Sport, Health and Engineering",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18536": {
+      "school_id": 1817,
+      "posting_url": "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18536",
+      "job_title_in_post": "Senior Coordinator - Academic Workload",
+      "position_type": "Non-academic",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18494": {
+      "school_id": 1817,
+      "posting_url": "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18494",
+      "job_title_in_post": "Contact Centre Agent - Casual Professional",
       "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
@@ -21,7 +69,7 @@
   },
   "school_id": 1817,
   "status": "complete",
-  "updated_at": "2026-10-12T19:58:58+00:00",
-  "completed_at": "2026-10-12T19:58:58+00:00",
+  "updated_at": "2026-10-16T19:16:45+00:00",
+  "completed_at": "2026-10-16T19:16:45+00:00",
   "last_error": ""
 }

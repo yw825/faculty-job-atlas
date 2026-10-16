@@ -64,17 +64,29 @@
       "title": "Senior Lecturer Population Health",
       "description": "Senior Lecturer Population Health. Charles Darwin University. Employment type: Continuing."
     },
-    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#senior-research-fellow-translational-research": {
-      "title": "Senior Research Fellow, Translational Research",
-      "description": "Senior Research Fellow, Translational Research. Charles Darwin University. Employment type: Fixed Term."
-    },
     "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#senior-research-fellow-associate-professor-maternal-child-health-reseach": {
       "title": "Senior Research Fellow/Associate Professor Maternal & Child Health Reseach",
       "description": "Senior Research Fellow/Associate Professor Maternal & Child Health Reseach. Charles Darwin University. Employment type: Fixed Term."
     },
-    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#technical-officer-automotive": {
-      "title": "Technical Officer - Automotive",
-      "description": "Technical Officer - Automotive. Charles Darwin University. Employment type: Continuing."
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#graphic-designer": {
+      "title": "Graphic Designer",
+      "description": "Graphic Designer. Charles Darwin University. Employment type: Continuing."
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#international-admissions-officer": {
+      "title": "International Admissions Officer",
+      "description": "International Admissions Officer. Charles Darwin University. Employment type: Continuing."
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#lecturer-fitness": {
+      "title": "Lecturer - Fitness",
+      "description": "Lecturer - Fitness. Charles Darwin University. Employment type: Continuing."
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#lecturer-ict-cyber-security-digital": {
+      "title": "Lecturer - ICT, Cyber Security & Digital",
+      "description": "Lecturer - ICT, Cyber Security & Digital. Charles Darwin University. Employment type: Continuing."
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#lecturer-nutrition-and-dietetics": {
+      "title": "Lecturer Nutrition and Dietetics",
+      "description": "Lecturer Nutrition and Dietetics. Charles Darwin University. Employment type: Fixed Term."
     }
   },
   "rows": {
@@ -254,17 +266,6 @@
       "deadline_of_application": "",
       "position_start_date": ""
     },
-    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#senior-research-fellow-translational-research": {
-      "school_id": 1794,
-      "posting_url": "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#senior-research-fellow-translational-research",
-      "job_title_in_post": "Senior Research Fellow, Translational Research",
-      "position_type": "Research_Fellow",
-      "job_term": "Full-time",
-      "department_or_school": "",
-      "area_key_words": "Translational Research",
-      "deadline_of_application": "",
-      "position_start_date": ""
-    },
     "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#senior-research-fellow-associate-professor-maternal-child-health-reseach": {
       "school_id": 1794,
       "posting_url": "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#senior-research-fellow-associate-professor-maternal-child-health-reseach",
@@ -276,11 +277,55 @@
       "deadline_of_application": "",
       "position_start_date": ""
     },
-    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#technical-officer-automotive": {
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#graphic-designer": {
       "school_id": 1794,
-      "posting_url": "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#technical-officer-automotive",
-      "job_title_in_post": "Technical Officer - Automotive",
+      "posting_url": "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#graphic-designer",
+      "job_title_in_post": "Graphic Designer",
       "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#international-admissions-officer": {
+      "school_id": 1794,
+      "posting_url": "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#international-admissions-officer",
+      "job_title_in_post": "International Admissions Officer",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#lecturer-fitness": {
+      "school_id": 1794,
+      "posting_url": "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#lecturer-fitness",
+      "job_title_in_post": "Lecturer - Fitness",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Fitness",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#lecturer-ict-cyber-security-digital": {
+      "school_id": 1794,
+      "posting_url": "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#lecturer-ict-cyber-security-digital",
+      "job_title_in_post": "Lecturer - ICT, Cyber Security & Digital",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Cyber Security & Digital",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#lecturer-nutrition-and-dietetics": {
+      "school_id": 1794,
+      "posting_url": "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#lecturer-nutrition-and-dietetics",
+      "job_title_in_post": "Lecturer Nutrition and Dietetics",
+      "position_type": "Lecturer",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "",
@@ -290,7 +335,7 @@
   },
   "school_id": 1794,
   "status": "complete",
-  "updated_at": "2026-10-12T19:55:03+00:00",
-  "completed_at": "2026-10-12T19:55:03+00:00",
+  "updated_at": "2026-10-16T19:15:11+00:00",
+  "completed_at": "2026-10-16T19:15:11+00:00",
   "last_error": ""
 }

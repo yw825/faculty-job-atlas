@@ -1,10 +1,5 @@
 {
   "raw": {
-    "https://elhs.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/1003884": {
-      "title": "The Kaipukahu University of Waikato Writer in Residence 2027",
-      "description": "\n\nPosting closes: 2026-10-16",
-      "department": null
-    },
     "https://elhs.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/1003892": {
       "title": "Regional Clinical Lead",
       "description": "Combine your clinical and leadership experience to help build the future of medicine at the University of Waikato.\n\nPosting closes: 2026-10-28",
@@ -32,17 +27,6 @@
     }
   },
   "rows": {
-    "https://elhs.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/1003884": {
-      "school_id": 1827,
-      "posting_url": "https://elhs.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/1003884",
-      "job_title_in_post": "The Kaipukahu University of Waikato Writer in Residence 2027",
-      "position_type": "Unclassified",
-      "job_term": "Full-time",
-      "department_or_school": "",
-      "area_key_words": "Waikato Writer in Residence 2027",
-      "deadline_of_application": "2026-10-16",
-      "position_start_date": ""
-    },
     "https://elhs.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/1003892": {
       "school_id": 1827,
       "posting_url": "https://elhs.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/1003892",
@@ -101,7 +85,7 @@
   },
   "school_id": 1827,
   "status": "complete",
-  "updated_at": "2026-10-09T19:43:04+00:00",
-  "completed_at": "2026-10-09T19:43:04+00:00",
+  "updated_at": "2026-10-16T19:17:21+00:00",
+  "completed_at": "2026-10-16T19:17:21+00:00",
   "last_error": ""
 }
