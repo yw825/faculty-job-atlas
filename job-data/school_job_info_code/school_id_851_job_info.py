@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 851 - Southern New Hampshire University (US)
 ATS platform: own website
-Careers link: https://jobs.snhu.edu/en/career-areas/online-teaching-jobs/
+Careers link: https://jobs.snhu.edu/en/jobs/
 
 Reads posting URLs from school_id_851_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 851
 SCHOOL_NAME = 'Southern New Hampshire University'
-CAREERS_LINK = 'https://jobs.snhu.edu/en/career-areas/online-teaching-jobs/'
+CAREERS_LINK = 'https://jobs.snhu.edu/en/jobs/'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

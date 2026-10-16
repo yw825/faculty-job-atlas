@@ -11,8 +11,7 @@ need something the default doesn't handle (a click to reveal full text, a
 login wall, a non-obvious title element, etc.); nothing here affects any
 other school's script.
 
-Default: render the page, take the first heading (or <title>) as the job
-title and the page's visible text as the description.
+TUNED: Cornerstone posting page (rendered).
 
 Reads posting URLs from school_id_1656_job_postings.checkpoint (this
 school's job_postings run) and classifies each one (position_type,
@@ -48,19 +47,13 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint
 
 
 def fetch_detail(url):
-    """CUSTOMIZED: Cornerstone requisition pages redirect once after loading,
-    and a read that lands mid-redirect fails ("page is navigating"); retry."""
-    for attempt in range(3):
-        try:
-            return jinfo.fetch_detail_generic(url)
-        except RuntimeError as e:
-            if 'navigating' not in str(e) or attempt == 2:
-                raise
+    """Cornerstone posting page (rendered)."""
+    return jinfo.fetch_detail_cornerstone(url)
 
 
 def main():
     result = jinfo.run_school_job_info(SCHOOL_ID, JOB_POSTINGS_CHECKPOINT, CHECKPOINT_PATH,
-                                        fetch_detail_fn=fetch_detail, use_llm=USE_LLM)
+                                       fetch_detail_fn=fetch_detail, use_llm=USE_LLM)
     err = result.get('last_error', '')
     n_ok = sum(1 for r in result['rows'].values() if 'error' not in r)
     print(f"{SCHOOL_NAME} (id={SCHOOL_ID}): status={result['status']} "

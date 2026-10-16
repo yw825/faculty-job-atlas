@@ -1692,6 +1692,55 @@ def scrape_umich_campus(campus):
     return [f'https://careers.umich.edu/job_detail/{i}' for i in dict.fromkeys(picked)]
 
 
+
+# North Dakota University System: one PeopleSoft board (prd.hcm.ndus.edu,
+# SiteId=1) for NDSU, Minot State, Dickinson State, Mayville State, Valley
+# City State and five two-year colleges. The campus is the search's own
+# "Business Unit" filter, which has no address of its own, so it is ticked
+# on the page. (UND has its own board.)
+NDUS_SEARCH = ('https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL'
+               '?FOCUS=Applicant&SiteId=1')
+
+
+def ndus_rows(business_unit):
+    return peoplesoft_rows(NDUS_SEARCH, facets=(business_unit,))
+
+
+def scrape_ndus_campus(business_unit):
+    return [peoplesoft_posting_url(NDUS_SEARCH, r[1]) for r in ndus_rows(business_unit)]
+
+
+# Fairleigh Dickinson: one PeopleAdmin board (jobs.fdu.edu) for its campuses
+# and no campus filter in the search; every posting carries a "Campus:" row
+# ("Florham Campus, Madison, NJ", "Metropolitan Campus, Teaneck, NJ",
+# "Vancouver, British Columbia Canada"), read from each posting page.
+FDU_BOARD = 'https://jobs.fdu.edu/postings/search'
+
+
+def fdu_postings():
+    """[(url, campus, title)] for every posting on the FDU board."""
+    if 'fdu' in _FDU_CACHE:
+        return _FDU_CACHE['fdu']
+    out = []
+    for url in scrape_peopleadmin_search(FDU_BOARD):
+        status, html = fetch_static(url, timeout=40)
+        fields = {}
+        for tr in BeautifulSoup(html or '', 'html.parser').select('tr'):
+            th, td = tr.find('th'), tr.find('td')
+            if th and td:
+                fields[th.get_text(' ', strip=True).rstrip(':')] = td.get_text(' ', strip=True)
+        out.append((url, fields.get('Campus', ''), fields.get('Job Title', '')))
+    _FDU_CACHE['fdu'] = out
+    return out
+
+
+_FDU_CACHE = {}
+
+
+def scrape_fdu_campus(word):
+    """Postings whose Campus row names `word` (Florham / Metropolitan / Vancouver)."""
+    return [u for u, campus, _t in fdu_postings() if word.lower() in campus.lower()]
+
 def scrape_pageup_listing(listing_url):
     """Classic PageUp boards (<host>[/<n>]/cw/en/listing/, /en-us/listing/, or
     a /filter/?... link carrying the board's own filters): the list shows 20
@@ -3007,6 +3056,10 @@ def peoplesoft_rows(url, facets=()):
         page.wait_for_timeout(9000)
         for label in facets:
             entry = page.get_by_text(re.compile('^' + re.escape(label) + r' \(\d+\)$'))
+            for _w in range(10):          # the filter pane can render late (NDSU, 2026-10-15)
+                if entry.count():
+                    break
+                page.wait_for_timeout(1500)
             if not entry.count():
                 raise RuntimeError(f'PeopleSoft filter entry {label!r} not found')
             entry.first.click()
@@ -3495,7 +3548,10 @@ PLATFORM_ADAPTERS = {
     'corehr': lambda url, name: scrape_corehr(url),
     'oracle': lambda url, name: scrape_oracle(url),
     'taleo': lambda url, name: scrape_taleo(url),
-    'cornerstone': lambda url, name: scrape_cornerstone(url),
+    # scrape_cornerstone stored .../careersite/<n>/requisition/<id>, which opens the
+    # site's welcome or login page (8 schools sat at 0 on the map); the site
+    # reader stores .../home/requisition/<id>?c=<client> and keeps cfdd filters.
+    'cornerstone': lambda url, name: scrape_cornerstone_site(url),
     'peopleadmin': lambda url, name: scrape_peopleadmin(url),
     'adp': lambda url, name: scrape_adp(url),
     'icims': lambda url, name: scrape_icims(url),

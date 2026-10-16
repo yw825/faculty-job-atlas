@@ -29,22 +29,28 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 799
 SCHOOL_NAME = 'Mars Hill University'
-CAREERS_LINK = 'https://www.universityjob.com/employment/MHUHR'
+CAREERS_LINK = 'https://jobs.appone.com/marshilluniversity'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
+
+_POSTS = None
 
 JOB_POSTINGS_CHECKPOINT = os.path.join(
     HERE, '..', 'school_job_posts_code', f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """This school's own detail-page logic, owned by this file. The default
-    renders the page, picks the most job-title-shaped heading, and takes the
-    visible text as the description. Override when a posting page needs
-    something else -- a nested iframe, a cookie gate, a PDF, or a title that
-    only exists in <title> (all of which came up in the non-US set)."""
-    return jinfo.fetch_detail_generic(url)
-
+    """one AppOne job post (title from the board's job-post service, text from the page)."""
+    import json
+    global _POSTS
+    if _POSTS is None:
+        st, text = jinfo.jlib.fetch_static('https://jobs.appone.com/api/portal/v1/companyjobposts/marshilluniversity', timeout=40)
+        _POSTS = {j['jobPostUrl']: j for j in json.loads(text).get('jobPosts') or []}
+    j = _POSTS.get(url)
+    if not j:
+        raise RuntimeError('post no longer listed')
+    _t, body = jinfo.fetch_detail_generic(url)
+    return j['jobTitle'][:250], f"{j['jobTitle']}. {j.get('jobType') or ''}. {j.get('location') or ''}. Posted {j.get('datePosted') or ''}. {body}"[:20000]
 
 
 def main():

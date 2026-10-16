@@ -1,7 +1,7 @@
 """
-Job info scraper for school_id 793 - University of North Carolina at Greensboro (US)
+Job info scraper for school_id 793 - University of North Carolina-Greensboro (US)
 ATS platform: PeopleAdmin
-Careers link: https://spartantalent.uncg.edu/postings/search
+Careers link: https://spartantalent.uncg.edu/postings/search?query=&732%5B%5D=9&732%5B%5D=10&732%5B%5D=15&732%5B%5D=11&732%5B%5D=6&732%5B%5D=14&commit=Search
 
 Reads posting URLs from school_id_793_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -28,8 +28,8 @@ sys.path.insert(0, os.path.dirname(HERE))
 import job_info_lib as jinfo
 
 SCHOOL_ID = 793
-SCHOOL_NAME = 'University of North Carolina at Greensboro'
-CAREERS_LINK = 'https://spartantalent.uncg.edu/postings/search'
+SCHOOL_NAME = 'University of North Carolina-Greensboro'
+CAREERS_LINK = 'https://spartantalent.uncg.edu/postings/search?query=&732%5B%5D=9&732%5B%5D=10&732%5B%5D=15&732%5B%5D=11&732%5B%5D=6&732%5B%5D=14&commit=Search'
 ATS_PLATFORM = 'PeopleAdmin'
 USE_LLM = False
 
@@ -38,13 +38,8 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """This school's own detail-page logic, owned by this file. The default
-    renders the page, picks the most job-title-shaped heading, and takes the
-    visible text as the description. Override when a posting page needs
-    something else -- a nested iframe, a cookie gate, a PDF, or a title that
-    only exists in <title> (all of which came up in the non-US set)."""
-    return jinfo.fetch_detail_generic(url)
-
+    """PeopleAdmin posting; the title is the last part of the page's <title> text."""
+    return jinfo.fetch_detail_peopleadmin(url)
 
 
 def main():

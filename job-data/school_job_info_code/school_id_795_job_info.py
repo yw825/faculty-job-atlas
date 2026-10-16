@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 795 - Lenoir-Rhyne University (US)
 ATS platform: own website
-Careers link: https://www.lr.edu/work-at-lr/human-resources
+Careers link: https://www.lr.edu/work-at-lr
 
 Reads posting URLs from school_id_795_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 795
 SCHOOL_NAME = 'Lenoir-Rhyne University'
-CAREERS_LINK = 'https://www.lr.edu/work-at-lr/human-resources'
+CAREERS_LINK = 'https://www.lr.edu/work-at-lr'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

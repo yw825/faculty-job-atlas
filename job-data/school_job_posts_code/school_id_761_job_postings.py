@@ -20,6 +20,9 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_761_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_761_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Montana Tech's JazzHR board; postings are /apply/<id>/<slug>.
 """
 import os
 import re
@@ -34,16 +37,13 @@ SCHOOL_NAME = 'Montana Technological University'
 CAREERS_LINK = 'https://montanatechuniversity.applytojob.com/apply'
 ATS_PLATFORM = 'own website'
 
+POSTING_RE = re.compile(r'^https?://montanatechuniversity\.applytojob\.com/apply/\w+/')
+
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    return lib.scrape_matching(CAREERS_LINK, POSTING_RE, render=True)
 
 
 def main():

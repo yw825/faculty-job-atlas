@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 860 - Rutgers University-Camden (US)
 ATS platform: PeopleAdmin (detected: peopleadmin)
-Careers link: https://jobs.rutgers.edu/postings/search
+Careers link: https://jobs.rutgers.edu/postings/search?query=&query_position_type_id%5B%5D=6&2201%5B%5D=2&commit=Search
 
 Rutgers runs one PeopleAdmin board for the whole university, and three of
 our schools sit on it -- Camden, New Brunswick and Newark. The shared
@@ -22,8 +22,14 @@ Filtering on that field is exact, so no guessing from prose is involved.
 
 Writes school_job_posts/school_id_860_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_860_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+The careers link is a PeopleAdmin search; the search itself is paged so the
+link's own filters (position type, campus) are kept -- the board's Atom
+feed ignores filters.
 """
 import os
+import re
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -32,7 +38,7 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 860
 SCHOOL_NAME = 'Rutgers University-Camden'
-CAREERS_LINK = 'https://jobs.rutgers.edu/postings/search'
+CAREERS_LINK = 'https://jobs.rutgers.edu/postings/search?query=&query_position_type_id%5B%5D=6&2201%5B%5D=2&commit=Search'
 ATS_PLATFORM = 'PeopleAdmin'
 
 ATOM = 'https://jobs.rutgers.edu/postings/all_jobs.atom'
@@ -43,24 +49,7 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkp
 
 
 def find_links():
-    from bs4 import BeautifulSoup
-    status, text = lib.fetch_static(ATOM)
-    if status != 200 or not text:
-        raise RuntimeError(f'rutgers atom status={status}')
-    soup = BeautifulSoup(text, 'xml')
-    links, seen = [], set()
-    for entry in soup.find_all('entry'):
-        school = entry.find('school')
-        if not school or CAMPUS.lower() not in school.get_text().lower():
-            continue
-        link = entry.find('link')
-        href = link.get('href') if link is not None and link.has_attr('href') else None
-        if href and href not in seen:
-            seen.add(href)
-            links.append(href)
-    if not links:
-        raise RuntimeError(f'no rutgers postings whose school names {CAMPUS!r}')
-    return links
+    return lib.scrape_peopleadmin_search(CAREERS_LINK)
 
 
 def main():

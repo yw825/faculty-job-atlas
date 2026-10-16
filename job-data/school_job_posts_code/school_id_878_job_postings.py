@@ -20,6 +20,10 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_878_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_878_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+jobs.njit.edu is NJIT's Workday site under its own name; it is read from the
+Workday tenant (njit.wd108).
 """
 import os
 import re
@@ -34,16 +38,13 @@ SCHOOL_NAME = 'New Jersey Institute of Technology'
 CAREERS_LINK = 'https://jobs.njit.edu'
 ATS_PLATFORM = 'own website'
 
+BOARD = 'https://njit.wd108.myworkdayjobs.com/NJIT_Careers'
+
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    return lib.PLATFORM_ADAPTERS['workday'](BOARD, SCHOOL_NAME)
 
 
 def main():

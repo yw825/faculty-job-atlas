@@ -1,7 +1,7 @@
 """
-Job postings scraper for school_id 735 - Washington University in St Louis (US)
+Job postings scraper for school_id 735 - Washington University in St Louis-Danforth Campus (US)
 ATS platform: Workday (detected: workday)
-Careers link: https://wustl.wd1.myworkdayjobs.com/External
+Careers link: https://apply.interfolio.com/16487/positions
 
 Washington University in St Louis runs on a shared ATS platform -- every school on workday uses the
 same underlying site software, so this calls the shared
@@ -12,8 +12,13 @@ and pass it to run_checkpointed instead of editing the shared adapter.
 
 Writes school_job_posts/school_id_735_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_735_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+WashU's Workday site is staff and clinical jobs; Danforth Campus faculty
+openings are on Interfolio board 16487 (the audit's corrected link).
 """
 import os
+import re
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -21,17 +26,20 @@ sys.path.insert(0, os.path.dirname(HERE))
 import job_postings_lib as lib
 
 SCHOOL_ID = 735
-SCHOOL_NAME = 'Washington University in St Louis'
-CAREERS_LINK = 'https://wustl.wd1.myworkdayjobs.com/External'
+SCHOOL_NAME = 'Washington University in St Louis-Danforth Campus'
+CAREERS_LINK = 'https://apply.interfolio.com/16487/positions'
 ATS_PLATFORM = 'Workday'
 PLATFORM = 'workday'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
+def find_links():
+    return lib.scrape_interfolio(CAREERS_LINK)
+
+
 def main():
-    result = lib.run_platform_school(SCHOOL_ID, SCHOOL_NAME, CAREERS_LINK,
-                                     CHECKPOINT_PATH, platform=PLATFORM)
+    result = lib.run_checkpointed(SCHOOL_ID, CHECKPOINT_PATH, find_links)
     err = result.get('last_error', '')
     print(f"{SCHOOL_NAME} (id={SCHOOL_ID}): status={result['status']} "
           f"links={len(result['links'])}" + (f" ERROR: {err}" if err else ''))

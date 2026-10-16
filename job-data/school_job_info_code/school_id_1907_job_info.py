@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1907 - North Carolina Agricultural and Technical State University (US)
 ATS platform: PeopleAdmin
-Careers link: https://jobs.ncat.edu/postings/search
+Careers link: https://jobs.ncat.edu/postings/search?query=&2000%5B%5D=2&2000%5B%5D=3&commit=Search
 
 No bulk info adapter applies to this school -- fetch_detail(url) below
 visits each posting page individually and is THIS SCHOOL'S OWN detail-page
@@ -39,7 +39,7 @@ import job_postings_lib as jlib
 
 SCHOOL_ID = 1907
 SCHOOL_NAME = 'North Carolina Agricultural and Technical State University'
-CAREERS_LINK = 'https://jobs.ncat.edu/postings/search'
+CAREERS_LINK = 'https://jobs.ncat.edu/postings/search?query=&2000%5B%5D=2&2000%5B%5D=3&commit=Search'
 ATS_PLATFORM = 'PeopleAdmin'
 USE_LLM = False
 
@@ -54,34 +54,8 @@ PORTAL_PREFIX = re.compile(r'^\s*NCAT Applicant Portal\s*\|\s*(.+?)\s*$', re.I)
 
 
 def fetch_detail(url):
-    """Contract: return a (title, description) 2-tuple, not a dict.
-
-    PeopleAdmin posting pages here have NO <h1>; the job name is in an <h2>
-    and the page <title> reads "NCAT Applicant Portal | <job>". The shared
-    title cleaner keeps the left of " | " unless the left looks like a site
-    label, and "NCAT Applicant Portal" does not match that test, so 27 of
-    132 rows were stored as the portal's name instead of the job -- all of
-    them non-academic titles, since a title carrying a rank word ("Assistant/
-    Associate Professor") is job-shaped enough to win on its own.
-
-    Fixed per-school rather than in the shared cleaner, which serves ~1540
-    other schools. Only rows whose title IS exactly the portal name are
-    touched; a good title is never overwritten."""
-    title, description = jinfo.fetch_detail_generic(url)
-    if not title or not SITE_NAME.match(title):
-        return title, description
-    try:
-        status, html = jlib.fetch_static(url, timeout=20)
-    except Exception:
-        return title, description
-    if status != 200 or not html:
-        return title, description
-    match = PAGE_TITLE.search(html)
-    if not match:
-        return title, description
-    text = ' '.join(re.sub(r'<[^>]*>', ' ', match.group(1)).split())
-    real = PORTAL_PREFIX.match(text)
-    return (real.group(1), description) if real else (title, description)
+    """PeopleAdmin posting; the title is the last part of the page's <title> text."""
+    return jinfo.fetch_detail_peopleadmin(url)
 
 
 def main():

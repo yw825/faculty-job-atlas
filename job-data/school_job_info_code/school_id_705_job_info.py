@@ -33,18 +33,22 @@ CAREERS_LINK = 'https://www.ccis.edu/careers/jobs'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 
+_ADVERTS = None
+
 JOB_POSTINGS_CHECKPOINT = os.path.join(
     HERE, '..', 'school_job_posts_code', f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """This school's own detail-page logic, owned by this file. The default
-    renders the page, picks the most job-title-shaped heading, and takes the
-    visible text as the description. Override when a posting page needs
-    something else -- a nested iframe, a cookie gate, a PDF, or a title that
-    only exists in <title> (all of which came up in the non-US set)."""
-    return jinfo.fetch_detail_generic(url)
-
+    """the opening's Paycor advert (the stored address is the school page with
+    ?gni=<id>), opened inside the school page as the board requires."""
+    global _ADVERTS
+    if _ADVERTS is None:
+        _ADVERTS = {u.rsplit('id=', 1)[1].split('&')[0]: u for u in jinfo.jlib.scrape_paycor_frame(CAREERS_LINK)}
+    gni = re.search(r'gni=([0-9a-zA-Z]+)', url).group(1)
+    if gni not in _ADVERTS:
+        raise RuntimeError('opening no longer listed')
+    return jinfo.fetch_detail_paycor(_ADVERTS[gni], parent=CAREERS_LINK)
 
 
 def main():

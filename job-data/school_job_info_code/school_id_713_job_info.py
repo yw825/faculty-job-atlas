@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 713 - Missouri Southern State University (US)
 ATS platform: own website
-Careers link: https://www.mssu.edu/financial-services/human-resources/eeoc.php
+Careers link: https://www.mssu.edu/financial-services/human-resources/open-positions-clear-company.php
 
 Reads posting URLs from school_id_713_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 713
 SCHOOL_NAME = 'Missouri Southern State University'
-CAREERS_LINK = 'https://www.mssu.edu/financial-services/human-resources/eeoc.php'
+CAREERS_LINK = 'https://www.mssu.edu/financial-services/human-resources/open-positions-clear-company.php'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

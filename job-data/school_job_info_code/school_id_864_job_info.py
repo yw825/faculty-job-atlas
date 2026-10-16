@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 864 - Centenary University (US)
 ATS platform: own website
-Careers link: https://www.instagram.com/p/DcMh4Y-oP_M/
+Careers link: https://www.higheredjobs.com/institution/search.cfm?University=Centenary%20University
 
 Reads posting URLs from school_id_864_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 864
 SCHOOL_NAME = 'Centenary University'
-CAREERS_LINK = 'https://www.instagram.com/p/DcMh4Y-oP_M/'
+CAREERS_LINK = 'https://www.higheredjobs.com/institution/search.cfm?University=Centenary%20University'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

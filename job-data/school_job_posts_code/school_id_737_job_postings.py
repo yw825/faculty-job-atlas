@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 737 - Drury University (US)
 ATS platform: own website
-Careers link: https://www.drury.edu/hr/drury-university-jobs/
+Careers link: https://www.drury.edu/academic-affairs/open-faculty-positions/
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -20,6 +20,10 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_737_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_737_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Careers link corrected in the audit to the open-faculty-positions page; each
+opening is an expandable section.
 """
 import os
 import re
@@ -31,19 +35,16 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 737
 SCHOOL_NAME = 'Drury University'
-CAREERS_LINK = 'https://www.drury.edu/hr/drury-university-jobs/'
+CAREERS_LINK = 'https://www.drury.edu/academic-affairs/open-faculty-positions/'
 ATS_PLATFORM = 'own website'
+
+HEADER = 'h4.gdlr-core-toggle-box-item-title'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    return [f'{CAREERS_LINK}#{slug}' for slug, _t, _b in lib.accordion_items(CAREERS_LINK, HEADER, render=False)]
 
 
 def main():

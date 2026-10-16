@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 802 - University of Mount Olive (US)
 ATS platform: own website
-Careers link: https://www.umo.edu/employment/
+Careers link: https://umo.edu/employment/
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -20,6 +20,11 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_802_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_802_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+The employment page builds its list from a data service the page itself calls
+(key read from the page each time); each opening is the page with #<slug>
+(the audit's example).
 """
 import os
 import re
@@ -31,19 +36,24 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 802
 SCHOOL_NAME = 'University of Mount Olive'
-CAREERS_LINK = 'https://www.umo.edu/employment/'
+CAREERS_LINK = 'https://umo.edu/employment/'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    import json, urllib.request
+    def get(url, headers=None):
+        req = urllib.request.Request(url, headers=dict({'User-Agent': 'Mozilla/5.0'}, **(headers or {})))
+        return urllib.request.urlopen(req, timeout=40).read().decode('utf-8', 'replace')
+    html = get(CAREERS_LINK)
+    base = re.search(r"SUPABASE_URL\s*=\s*'([^']+)'", html)
+    key = re.search(r"SUPABASE_ANON_KEY\s*=\s*'([^']+)'", html)
+    if not (base and key):
+        raise RuntimeError('employment page no longer names its data service')
+    rows = json.loads(get(base.group(1) + '/rest/v1/jobs?select=slug&active=eq.true', {'apikey': key.group(1), 'Authorization': 'Bearer ' + key.group(1)}))
+    return [f"{CAREERS_LINK}#{j['slug']}" for j in rows]
 
 
 def main():

@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 837 - University of Nebraska-Lincoln (US)
 ATS platform: PeopleAdmin
-Careers link: https://employment.unl.edu/postings/search?utf8=%E2%9C%93&query=&query_v0_posted_at_date=&query_organizational_tier_3_id%5B%5D=any&1257=&1258%5B%5D=3&1258%5B%5D=7&commit=Search
+Careers link: https://employment.unl.edu/postings/search?query=&1258%5B%5D=2&1258%5B%5D=3&1258%5B%5D=6&1258%5B%5D=7&commit=Search
 
 Reads posting URLs from school_id_837_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 837
 SCHOOL_NAME = 'University of Nebraska-Lincoln'
-CAREERS_LINK = 'https://employment.unl.edu/postings/search?utf8=%E2%9C%93&query=&query_v0_posted_at_date=&query_organizational_tier_3_id%5B%5D=any&1257=&1258%5B%5D=3&1258%5B%5D=7&commit=Search'
+CAREERS_LINK = 'https://employment.unl.edu/postings/search?query=&1258%5B%5D=2&1258%5B%5D=3&1258%5B%5D=6&1258%5B%5D=7&commit=Search'
 ATS_PLATFORM = 'PeopleAdmin'
 USE_LLM = False
 
@@ -38,13 +38,8 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """This school's own detail-page logic, owned by this file. The default
-    renders the page, picks the most job-title-shaped heading, and takes the
-    visible text as the description. Override when a posting page needs
-    something else -- a nested iframe, a cookie gate, a PDF, or a title that
-    only exists in <title> (all of which came up in the non-US set)."""
-    return jinfo.fetch_detail_generic(url)
-
+    """PeopleAdmin posting; the title is the last part of the page's <title> text."""
+    return jinfo.fetch_detail_peopleadmin(url)
 
 
 def main():

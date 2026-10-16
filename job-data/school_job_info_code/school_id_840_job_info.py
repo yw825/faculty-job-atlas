@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 840 - Creighton University (US)
 ATS platform: Oracle Cloud HCM
-Careers link: https://hcps.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs
+Careers link: https://www.creighton.edu/creighton-faculty-career
 
 Reads posting URLs from school_id_840_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -30,7 +30,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 840
 SCHOOL_NAME = 'Creighton University'
-CAREERS_LINK = 'https://hcps.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs'
+CAREERS_LINK = 'https://www.creighton.edu/creighton-faculty-career'
 ATS_PLATFORM = 'Oracle Cloud HCM'
 USE_LLM = False
 
@@ -40,10 +40,14 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint
 
 
 
+def fetch_detail(url):
+    """a Creighton faculty-opening page (rendered)."""
+    return jinfo.fetch_detail_generic(url)
+
+
 def main():
-    result = jinfo.run_school_job_info_bulk(SCHOOL_ID, CAREERS_LINK, 'oracle',
-                                            JOB_POSTINGS_CHECKPOINT, CHECKPOINT_PATH,
-                                            use_llm=USE_LLM)
+    result = jinfo.run_school_job_info(SCHOOL_ID, JOB_POSTINGS_CHECKPOINT, CHECKPOINT_PATH,
+                                       fetch_detail_fn=fetch_detail, use_llm=USE_LLM)
     err = result.get('last_error', '')
     n_ok = sum(1 for r in result['rows'].values() if 'error' not in r)
     print(f"{SCHOOL_NAME} (id={SCHOOL_ID}): status={result['status']} "

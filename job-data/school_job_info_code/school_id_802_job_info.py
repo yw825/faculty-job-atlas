@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 802 - University of Mount Olive (US)
 ATS platform: own website
-Careers link: https://www.umo.edu/employment/
+Careers link: https://umo.edu/employment/
 
 Reads posting URLs from school_id_802_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,22 +29,33 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 802
 SCHOOL_NAME = 'University of Mount Olive'
-CAREERS_LINK = 'https://www.umo.edu/employment/'
+CAREERS_LINK = 'https://umo.edu/employment/'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
+
+_ROWS = None
 
 JOB_POSTINGS_CHECKPOINT = os.path.join(
     HERE, '..', 'school_job_posts_code', f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """This school's own detail-page logic, owned by this file. The default
-    renders the page, picks the most job-title-shaped heading, and takes the
-    visible text as the description. Override when a posting page needs
-    something else -- a nested iframe, a cookie gate, a PDF, or a title that
-    only exists in <title> (all of which came up in the non-US set)."""
-    return jinfo.fetch_detail_generic(url)
-
+    """one opening from the data service the employment page itself calls (title,
+    department, type, description)."""
+    import json, urllib.request
+    global _ROWS
+    if _ROWS is None:
+        def get(u, h=None):
+            return urllib.request.urlopen(urllib.request.Request(u, headers=dict({'User-Agent': 'Mozilla/5.0'}, **(h or {}))), timeout=40).read().decode('utf-8', 'replace')
+        html = get(CAREERS_LINK)
+        base = re.search(r"SUPABASE_URL\s*=\s*'([^']+)'", html).group(1); key = re.search(r"SUPABASE_ANON_KEY\s*=\s*'([^']+)'", html).group(1)
+        _ROWS = {r['slug']: r for r in json.loads(get(base + '/rest/v1/jobs?select=*&active=eq.true', {'apikey': key, 'Authorization': 'Bearer ' + key}))}
+    r = _ROWS.get(url.partition('#')[2])
+    if not r:
+        raise RuntimeError('opening no longer listed')
+    from bs4 import BeautifulSoup
+    body = BeautifulSoup(r.get('description') or '', 'html.parser').get_text(' ', strip=True)
+    return r['title'][:250], re.sub(r'\s+', ' ', f"{r['title']}. Department: {r.get('department') or ''}. {r.get('type') or ''}. Posted {r.get('posted_date') or ''}. {body}")[:20000]
 
 
 def main():

@@ -20,6 +20,11 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_799_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_799_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Mars Hill's AppOne board; postings are apply.appone.com/job/<id>.
+Mars Hill's AppOne board; the jobs come from the board's own public job-post
+service (the page is an app).
 """
 import os
 import re
@@ -31,23 +36,20 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 799
 SCHOOL_NAME = 'Mars Hill University'
-CAREERS_LINK = 'https://www.universityjob.com/employment/MHUHR'
+CAREERS_LINK = 'https://jobs.appone.com/marshilluniversity'
 ATS_PLATFORM = 'own website'
+
+POSTING_RE = re.compile(r'^https://apply\.appone\.com/job/[0-9a-f]+')
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    """NOTE: careers_link was corrected by hand to this school's real
-    employment page, which is the right page for a human -- but it is NOT
-    machine-readable as a listing: it links out to an ATS or names no
-    postings, and every extractor tried returned the site's navigation
-    ("Find Your Way Around Campus!", "Sign in to your account") rather
-    than jobs. Those rows were removed; an empty file is correct here
-    until this school's real board is located."""
-    """CUSTOMIZED: careers_link was corrected by hand (AppOne board errors; this is the board the school itself publishes to).
-    Postings are matched by job word first, by repeated URL shape second."""
-    return lib.scrape_listing(CAREERS_LINK)
+    import json
+    status, text = lib.fetch_static('https://jobs.appone.com/api/portal/v1/companyjobposts/marshilluniversity', timeout=40)
+    if status != 200:
+        raise RuntimeError(f'appone status={status}')
+    return [j['jobPostUrl'] for j in json.loads(text).get('jobPosts') or []]
 
 
 def main():

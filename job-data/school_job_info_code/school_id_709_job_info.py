@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 709 - Westminster College (US)
 ATS platform: own website
-Careers link: https://recruiting.paylocity.com/recruiting/jobs/All/a5d7af06-7587-4fed-8c04-2df22f7d0e9b/Westminster-College?location=Westminster%20College%20-%20Fulton%2C%20MO&department=All%20Departments
+Careers link: https://www.westminster.edu/about/community/employment.cfm
 
 Reads posting URLs from school_id_709_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,22 +29,19 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 709
 SCHOOL_NAME = 'Westminster College'
-CAREERS_LINK = 'https://recruiting.paylocity.com/recruiting/jobs/All/a5d7af06-7587-4fed-8c04-2df22f7d0e9b/Westminster-College?location=Westminster%20College%20-%20Fulton%2C%20MO&department=All%20Departments'
+CAREERS_LINK = 'https://www.westminster.edu/about/community/employment.cfm'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
+
+POSTING_RE = re.compile(r'^https://www\.westminster\.edu/about/community/hr/pdf/.+\.pdf$')
 
 JOB_POSTINGS_CHECKPOINT = os.path.join(
     HERE, '..', 'school_job_posts_code', f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """This school's own detail-page logic, owned by this file. The default
-    renders the page, picks the most job-title-shaped heading, and takes the
-    visible text as the description. Override when a posting page needs
-    something else -- a nested iframe, a cookie gate, a PDF, or a title that
-    only exists in <title> (all of which came up in the non-US set)."""
-    return jinfo.fetch_detail_generic(url)
-
+    """an advert published as a PDF; its title is the link text on the listing page."""
+    return jinfo.fetch_detail_linked_document(url, jinfo.jlib.linked_documents(CAREERS_LINK, POSTING_RE, render=True))
 
 
 def main():

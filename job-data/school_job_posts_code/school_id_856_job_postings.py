@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 856 - Plymouth State University (US)
 ATS platform: Workday (detected: workday)
-Careers link: https://usnh.wd5.myworkdayjobs.com/Careers
+Careers link: https://usnh.wd5.myworkdayjobs.com/Careers?locations=1ec6efc4979310011704b2725e0c0000&workerSubType=b4f41dd8de101000c45c0fa670c90000&workerSubType=b4f41dd8de101000c45c0d3fc2a10001&workerSubType=b4f41dd8de101000c45c0e733dc30002
 
 Plymouth State University runs on a shared ATS platform -- every school on workday uses the
 same underlying site software, so this calls the shared
@@ -14,8 +14,13 @@ NOTE: 3 schools list against this same URL, so this listing carries every one of
 
 Writes school_job_posts/school_id_856_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_856_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Workday board; the link carries the board's own filters (institution or
+location, and faculty worker types / bargaining unit).
 """
 import os
+import re
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -24,16 +29,19 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 856
 SCHOOL_NAME = 'Plymouth State University'
-CAREERS_LINK = 'https://usnh.wd5.myworkdayjobs.com/Careers'
+CAREERS_LINK = 'https://usnh.wd5.myworkdayjobs.com/Careers?locations=1ec6efc4979310011704b2725e0c0000&workerSubType=b4f41dd8de101000c45c0fa670c90000&workerSubType=b4f41dd8de101000c45c0d3fc2a10001&workerSubType=b4f41dd8de101000c45c0e733dc30002'
 ATS_PLATFORM = 'Workday'
 PLATFORM = 'workday'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
+def find_links():
+    return lib.PLATFORM_ADAPTERS['workday'](CAREERS_LINK, SCHOOL_NAME)
+
+
 def main():
-    result = lib.run_platform_school(SCHOOL_ID, SCHOOL_NAME, CAREERS_LINK,
-                                     CHECKPOINT_PATH, platform=PLATFORM)
+    result = lib.run_checkpointed(SCHOOL_ID, CHECKPOINT_PATH, find_links)
     err = result.get('last_error', '')
     print(f"{SCHOOL_NAME} (id={SCHOOL_ID}): status={result['status']} "
           f"links={len(result['links'])}" + (f" ERROR: {err}" if err else ''))

@@ -1,5 +1,5 @@
 """
-Job postings scraper for school_id 766 - The University of Montana (US)
+Job postings scraper for school_id 766 - University of Montana-Missoula (US)
 ATS platform: own website
 Careers link: https://apply.interfolio.com/53871/positions
 
@@ -20,6 +20,9 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_766_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_766_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+University of Montana's faculty openings are on its Interfolio board.
 """
 import os
 import re
@@ -30,7 +33,7 @@ sys.path.insert(0, os.path.dirname(HERE))
 import job_postings_lib as lib
 
 SCHOOL_ID = 766
-SCHOOL_NAME = 'The University of Montana'
+SCHOOL_NAME = 'University of Montana-Missoula'
 CAREERS_LINK = 'https://apply.interfolio.com/53871/positions'
 ATS_PLATFORM = 'own website'
 
@@ -40,9 +43,12 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkp
 PLATFORM = 'interfolio'
 
 
+def find_links():
+    return lib.scrape_interfolio(CAREERS_LINK)
+
+
 def main():
-    result = lib.run_platform_school(SCHOOL_ID, SCHOOL_NAME, CAREERS_LINK,
-                                     CHECKPOINT_PATH, platform=PLATFORM)
+    result = lib.run_checkpointed(SCHOOL_ID, CHECKPOINT_PATH, find_links)
     err = result.get('last_error', '')
     print(f"{SCHOOL_NAME} (id={SCHOOL_ID}): status={result['status']} "
           f"links={len(result['links'])}" + (f" ERROR: {err}" if err else ''))

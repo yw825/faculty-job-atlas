@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 713 - Missouri Southern State University (US)
 ATS platform: own website
-Careers link: https://www.mssu.edu/financial-services/human-resources/eeoc.php
+Careers link: https://www.mssu.edu/financial-services/human-resources/open-positions-clear-company.php
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -20,6 +20,11 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_713_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_713_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Careers link corrected in the audit to the open-positions page, which embeds
+MSSU's HRM Direct list; postings are job-opening.php?req=<n>.
+The open-positions page embeds MSSU's HRM Direct list, which is read directly.
 """
 import os
 import re
@@ -31,19 +36,18 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 713
 SCHOOL_NAME = 'Missouri Southern State University'
-CAREERS_LINK = 'https://www.mssu.edu/financial-services/human-resources/eeoc.php'
+CAREERS_LINK = 'https://www.mssu.edu/financial-services/human-resources/open-positions-clear-company.php'
 ATS_PLATFORM = 'own website'
+
+POSTING_RE = re.compile(r'^https://mssu\.hrmdirect\.com/employment/job-opening\.php\?req=\d+')
+
+BOARD = 'https://mssu.hrmdirect.com/employment/job-openings.php?search=true'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    return lib.scrape_matching(BOARD, POSTING_RE, render=False)
 
 
 def main():

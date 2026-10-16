@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 759 - Rocky Mountain College (US)
 ATS platform: own website
-Careers link: https://www.facebook.com/rockymountaincollege/
+Careers link: https://rocky.edu/employment/
 
 Reads posting URLs from school_id_759_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,

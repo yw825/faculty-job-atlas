@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 710 - William Woods University (US)
 ATS platform: own website
-Careers link: https://www.williamwoods.edu/employment/adjunct-faculty-employment/
+Careers link: https://portals.williamwoods.edu/employment/current_positions_fs.aspx
 
 Reads posting URLs from school_id_710_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 710
 SCHOOL_NAME = 'William Woods University'
-CAREERS_LINK = 'https://www.williamwoods.edu/employment/adjunct-faculty-employment/'
+CAREERS_LINK = 'https://portals.williamwoods.edu/employment/current_positions_fs.aspx'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 
@@ -38,13 +38,12 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """This school's own detail-page logic, owned by this file. The default
-    renders the page, picks the most job-title-shaped heading, and takes the
-    visible text as the description. Override when a posting page needs
-    something else -- a nested iframe, a cookie gate, a PDF, or a title that
-    only exists in <title> (all of which came up in the non-US set)."""
-    return jinfo.fetch_detail_generic(url)
-
+    """William Woods job pages state "Job Title: <job> Department:"."""
+    title, text = jinfo.fetch_detail_generic(url)
+    m = re.search(r'Job Title:\s*(.{3,200}?)\s+Department:', text)
+    if not m:
+        raise RuntimeError('posting not on the page (closed?)')
+    return m.group(1), text
 
 
 def main():

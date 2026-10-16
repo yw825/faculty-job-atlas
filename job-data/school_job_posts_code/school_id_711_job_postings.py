@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 711 - Hannibal-LaGrange University (US)
 ATS platform: own website
-Careers link: https://www.hlg.edu/forms/adjunctfacultyapplication/
+Careers link: https://www.hlg.edu/about-hlgu/employment-opportunities/
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -20,6 +20,10 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_711_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_711_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Careers link corrected in the audit to the employment page; openings are
+/job_opening/<slug>/.
 """
 import os
 import re
@@ -31,19 +35,18 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 711
 SCHOOL_NAME = 'Hannibal-LaGrange University'
-CAREERS_LINK = 'https://www.hlg.edu/forms/adjunctfacultyapplication/'
+CAREERS_LINK = 'https://www.hlg.edu/about-hlgu/employment-opportunities/'
 ATS_PLATFORM = 'own website'
+
+POSTING_RE = re.compile(r'^https://www\.hlg\.edu/job_opening/[a-z0-9-]+/$')
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    html = lib.fetch_real_chrome(CAREERS_LINK, wait_ms=8000)
+    html = html[1] if isinstance(html, tuple) else html
+    return list(dict.fromkeys(u for u in lib.extract_links(html or '', CAREERS_LINK) if POSTING_RE.search(u)))
 
 
 def main():

@@ -38,13 +38,16 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """This school's own detail-page logic, owned by this file. The default
-    renders the page, picks the most job-title-shaped heading, and takes the
-    visible text as the description. Override when a posting page needs
-    something else -- a nested iframe, a cookie gate, a PDF, or a title that
-    only exists in <title> (all of which came up in the non-US set)."""
-    return jinfo.fetch_detail_generic(url)
-
+    """a PDF advert, or a UKG Ready page (job between "Log in" and "Show All Jobs")."""
+    title, text = jinfo.fetch_detail_generic(url)
+    m = re.search(r'Log in\s+(.{3,150}?)\s+Show All Jobs', text[:600])
+    if m:
+        title = m.group(1)
+    elif url.lower().endswith('.pdf'):
+        h = re.search(r'((?:Assistant|Associate|Visiting|Adjunct|Full)?\s*(?:Professor|Lecturer|Instructor)[^.]{0,80}?)(?:\s{2,}|\.|$)', re.sub(r'\s+', ' ', text)[:600])
+        if h:
+            title = h.group(1).strip()
+    return title, text
 
 
 def main():

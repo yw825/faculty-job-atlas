@@ -20,6 +20,10 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_777_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_777_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+The careers page sends applicants to Queens' ADP board (the audit's example
+is a posting there); the board is read directly.
 """
 import os
 import re
@@ -34,16 +38,13 @@ SCHOOL_NAME = 'Queens University of Charlotte'
 CAREERS_LINK = 'https://www.queens.edu/careers/why-work-at-queens/career-opportunities-at-queens/'
 ATS_PLATFORM = 'own website'
 
+BOARD = 'https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=c5d58c2c-6169-4d6b-af26-5bdc70dfd129&ccId=9200805924344_3&lang=en_US'
+
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    return lib.PLATFORM_ADAPTERS['adp'](BOARD, SCHOOL_NAME)
 
 
 def main():

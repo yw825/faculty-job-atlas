@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 721 - Missouri Valley College (US)
 ATS platform: own website
-Careers link: https://www.moval.edu/?post_type=page&p=524
+Careers link: https://www.moval.edu/employment-opportunities/#openings
 
 Reads posting URLs from school_id_721_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 721
 SCHOOL_NAME = 'Missouri Valley College'
-CAREERS_LINK = 'https://www.moval.edu/?post_type=page&p=524'
+CAREERS_LINK = 'https://www.moval.edu/employment-opportunities/#openings'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

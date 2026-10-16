@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 851 - Southern New Hampshire University (US)
 ATS platform: own website
-Careers link: https://jobs.snhu.edu/en/career-areas/online-teaching-jobs/
+Careers link: https://jobs.snhu.edu/en/jobs/
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -20,6 +20,9 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_851_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_851_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+SNHU's careers site lists jobs over ?page=N; postings are /en/jobs/r<id>/<slug>/.
 """
 import os
 import re
@@ -31,19 +34,16 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 851
 SCHOOL_NAME = 'Southern New Hampshire University'
-CAREERS_LINK = 'https://jobs.snhu.edu/en/career-areas/online-teaching-jobs/'
+CAREERS_LINK = 'https://jobs.snhu.edu/en/jobs/'
 ATS_PLATFORM = 'own website'
+
+POSTING_RE = re.compile(r'^https://jobs\.snhu\.edu/en/jobs/r\d+/[a-z0-9-]+/$')
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    return lib.scrape_paged_board(CAREERS_LINK, POSTING_RE)
 
 
 def main():

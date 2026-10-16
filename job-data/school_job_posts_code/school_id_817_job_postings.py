@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 817 - Salem College (US)
 ATS platform: own website
-Careers link: https://www.salem.edu/about/employment/limitedtermcustodian/
+Careers link: https://www.salem.edu/about/employment/#open
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -20,6 +20,9 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_817_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_817_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+The employment page embeds Salem's Paycom board; the board is read directly.
 """
 import os
 import re
@@ -31,19 +34,16 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 817
 SCHOOL_NAME = 'Salem College'
-CAREERS_LINK = 'https://www.salem.edu/about/employment/limitedtermcustodian/'
+CAREERS_LINK = 'https://www.salem.edu/about/employment/#open'
 ATS_PLATFORM = 'own website'
+
+BOARD = 'https://www.paycomonline.net/v4/ats/web.php/portal/F9BC0E3EF21EBFD06396ABA365BF2DCF/career-page'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    return [row[0] for row in lib.paycom_previews(BOARD)]
 
 
 def main():

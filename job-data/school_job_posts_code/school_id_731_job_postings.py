@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 731 - Maryville University of Saint Louis (US)
 ATS platform: own website
-Careers link: https://careers.maryville.edu/?_ga=2.65064999.867605969.1689610591-885137803.1623179314
+Careers link: https://myjobs.adp.com/facultyandstaffmaryvilleuniversityexternalcs/cx
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -20,6 +20,9 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_731_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_731_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+ADP MyJobs career site; its own job search is replayed (100 per call).
 """
 import os
 import re
@@ -31,19 +34,14 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 731
 SCHOOL_NAME = 'Maryville University of Saint Louis'
-CAREERS_LINK = 'https://careers.maryville.edu/?_ga=2.65064999.867605969.1689610591-885137803.1623179314'
+CAREERS_LINK = 'https://myjobs.adp.com/facultyandstaffmaryvilleuniversityexternalcs/cx'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    return [u for u, _t, _d in lib.adp_myjobs(CAREERS_LINK)]
 
 
 def main():

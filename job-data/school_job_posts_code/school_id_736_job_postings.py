@@ -20,6 +20,10 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_736_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_736_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+The audit's link is Webster's ADP Recruiting site, which now sends applicants
+to ADP MyJobs (the audit's example is a posting there); read via MyJobs.
 """
 import os
 import re
@@ -31,23 +35,16 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 736
 SCHOOL_NAME = 'Webster University'
-CAREERS_LINK = 'https://www.webster.edu/human-resources/index.php'
+CAREERS_LINK = 'https://recruiting.adp.com/srccar/public/RTI.home?c=1180715&d=ExternalCareerSite'
 ATS_PLATFORM = 'own website'
+
+BOARD = 'https://myjobs.adp.com/websteruniversity/cx/job-listing'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    """NOTE: careers_link was corrected by hand to this school's real
-    employment page, which is the right page for a human -- but it is NOT
-    machine-readable as a listing: it links out to an ATS or names no
-    postings, and every extractor tried returned the site's navigation
-    ("Find Your Way Around Campus!", "Sign in to your account") rather
-    than jobs. Those rows were removed; an empty file is correct here
-    until this school's real board is located."""
-    """CUSTOMIZED: careers_link was corrected by hand (ADP board renders a landing page needing interaction).
-    Postings are matched by job word first, by repeated URL shape second."""
-    return lib.scrape_listing(CAREERS_LINK)
+    return [u for u, _t, _d in lib.adp_myjobs(BOARD)]
 
 
 def main():

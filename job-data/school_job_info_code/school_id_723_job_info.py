@@ -33,18 +33,26 @@ CAREERS_LINK = 'https://cottey.edu/employment/'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 
+_TEXTS = None
+
 JOB_POSTINGS_CHECKPOINT = os.path.join(
     HERE, '..', 'school_job_posts_code', f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """This school's own detail-page logic, owned by this file. The default
-    renders the page, picks the most job-title-shaped heading, and takes the
-    visible text as the description. Override when a posting page needs
-    something else -- a nested iframe, a cookie gate, a PDF, or a title that
-    only exists in <title> (all of which came up in the non-US set)."""
+    """a PDF advert (title = its heading) or an HR Alliance posting (a script-only
+    page; title = the link text on the employment page)."""
+    global _TEXTS
+    if 'hralliance' in url:
+        if _TEXTS is None:
+            from bs4 import BeautifulSoup
+            html = jinfo.jlib._fetch_rendered_retry(CAREERS_LINK, 5000)
+            _TEXTS = {a['href'].replace('&amp;', '&'): a.get_text(' ', strip=True) for a in BeautifulSoup(html, 'html.parser').find_all('a', href=True) if 'hralliance' in a['href']}
+        title = next((t for h, t in _TEXTS.items() if h.split('&')[0] == url.split('&')[0]), '')
+        if not title:
+            raise RuntimeError('posting no longer listed')
+        return title[:250], f'{title}. Cottey College.'
     return jinfo.fetch_detail_generic(url)
-
 
 
 def main():
