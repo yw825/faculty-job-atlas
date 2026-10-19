@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 1047 - Ohio Wesleyan University (US)
 ATS platform: own website
-Careers link: https://careers.owu.edu/ambassadors/
+Careers link: https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=a2082ac8-6363-4a1c-92d0-adacd9e4f844&ccId=19000101_000001&lang=en_US
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it

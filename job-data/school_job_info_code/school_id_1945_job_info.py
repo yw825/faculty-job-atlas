@@ -1,0 +1,59 @@
+"""
+Job info scraper for school_id 1945 - CUNY-School of Law (US)
+ATS platform: cuny.jobs
+Careers link: https://cuny.jobs/campus/cuny-school-of-law/job-category/faculty/jobs/
+
+Reads posting URLs from school_id_1945_job_postings.checkpoint (this
+school's job_postings run) and classifies each one: job_title_in_post,
+position_type, job_term, department_or_school, area_key_words,
+deadline_of_application, position_start_date.
+
+Writes school_job_info/school_id_1945_job_info.csv. Checkpointed to
+school_id_1945_job_info.checkpoint next to this script -- kill-and-resume,
+per-posting granularity.
+"""
+import os
+import re
+import sys
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, os.path.dirname(HERE))
+import job_info_lib as jinfo
+
+SCHOOL_ID = 1945
+SCHOOL_NAME = "CUNY-School of Law"
+CAREERS_LINK = 'https://cuny.jobs/campus/cuny-school-of-law/job-category/faculty/jobs/'
+ATS_PLATFORM = 'cuny.jobs'
+USE_LLM = False
+
+_JOBS = None
+
+JOB_POSTINGS_CHECKPOINT = os.path.join(
+    HERE, '..', 'school_job_posts_code', f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
+CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
+
+def fetch_detail(url):
+    """one job of the college's cuny.jobs feed (title + full description), read once
+    for the whole college in a normal Chrome window."""
+    global _JOBS
+    if _JOBS is None:
+        _JOBS = {u: (t, d) for u, t, d in jinfo.jlib.cuny_jobs(CAREERS_LINK)}
+    if url not in _JOBS:
+        raise RuntimeError('no longer in the college feed')
+    title, html = _JOBS[url]
+    from bs4 import BeautifulSoup
+    return title[:250], re.sub(r'\s+', ' ', f'{title}. ' + BeautifulSoup(html, 'html.parser').get_text(' ', strip=True))[:20000]
+
+
+def main():
+    result = jinfo.run_school_job_info(SCHOOL_ID, JOB_POSTINGS_CHECKPOINT, CHECKPOINT_PATH,
+                                       fetch_detail_fn=fetch_detail, use_llm=USE_LLM)
+    err = result.get('last_error', '')
+    n_ok = sum(1 for r in result['rows'].values() if 'error' not in r)
+    print(f"{SCHOOL_NAME} (id={SCHOOL_ID}): status={result['status']} "
+          f"rows={n_ok}/{len(result['rows'])}" + (f" ERROR: {err}" if err else ''))
+    jinfo.close_browser()
+
+
+if __name__ == '__main__':
+    main()

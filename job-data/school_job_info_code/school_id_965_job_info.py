@@ -38,10 +38,8 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """CUSTOMIZED: postings here are sections of one page, addressed as
-    CAREERS_LINK#<slug>. Resolves the fragment back to that section alone
-    -- the generic reader would hand every posting the whole page."""
-    return jinfo.fetch_detail_inline(url)
+    """Interfolio posting."""
+    return jinfo.fetch_detail_interfolio(url)
 
 
 def main():

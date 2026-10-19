@@ -20,6 +20,9 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_985_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_985_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Each opening is /careers/?jobId=<id> on the careers page (a ClearCompany feed).
 """
 import os
 import re
@@ -34,16 +37,13 @@ SCHOOL_NAME = 'Paul Smiths College of Arts and Science'
 CAREERS_LINK = 'https://www.paulsmiths.edu/careers/'
 ATS_PLATFORM = 'own website'
 
+DOC_RE = r'paulsmiths\.edu/careers/\?jobId=[0-9a-f-]+$'
+
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    return [link for link, _text in lib.linked_documents(CAREERS_LINK, DOC_RE, render=True)]
 
 
 def main():

@@ -20,6 +20,11 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_888_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_888_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+jobs.monmouth.edu is a UKG (UltiPro) JobBoard under the school's domain; its
+search API answers only on recruiting.ultipro.com (all 74 postings; the page
+shows 50).
 """
 import os
 import re
@@ -34,16 +39,13 @@ SCHOOL_NAME = 'Monmouth University'
 CAREERS_LINK = 'https://jobs.monmouth.edu/'
 ATS_PLATFORM = 'own website'
 
+BOARD = 'https://recruiting.ultipro.com/MON1000MON/JobBoard/d4da5ea7-24db-4f02-a484-7497ffffb76d/'
+
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    return lib.scrape_ultipro(BOARD)
 
 
 def main():

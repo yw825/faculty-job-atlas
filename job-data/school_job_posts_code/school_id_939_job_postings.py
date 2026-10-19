@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 939 - Elmira College (US)
 ATS platform: own website
-Careers link: https://www.elmira.edu/welcome-to-elmira/about-ec/careers/employment-opportunities/overview
+Careers link: https://www.elmira.edu/welcome-to-elmira/about-ec/careers/employment-opportunities/faculty-positions
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file.
@@ -18,8 +18,12 @@ whose path contains "welcome-to-elmira" more than once is rejected.
 
 Writes school_job_posts/school_id_939_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_939_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Faculty openings are pages under /faculty-positions/.
 """
 import os
+import re
 import sys
 from urllib.parse import urljoin, urlparse
 
@@ -29,8 +33,7 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 939
 SCHOOL_NAME = 'Elmira College'
-CAREERS_LINK = ('https://www.elmira.edu/welcome-to-elmira/about-ec/careers/'
-                'employment-opportunities/overview')
+CAREERS_LINK = 'https://www.elmira.edu/welcome-to-elmira/about-ec/careers/employment-opportunities/faculty-positions'
 ATS_PLATFORM = 'own website'
 
 HOST = 'www.elmira.edu'
@@ -39,39 +42,13 @@ SECTIONS = [f'{BASE}/faculty-positions',
             f'{BASE}/staff-positions',
             f'{BASE}/administrator-positions']
 
+POSTING_RE = re.compile(r'^https://www\.elmira\.edu/.+/faculty-positions/[a-z0-9-]+$')
+
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    from bs4 import BeautifulSoup
-    links, seen, failures = [], set(), []
-    for section in SECTIONS:
-        url = f'https://{HOST}{section}'
-        html = lib.fetch_rendered(url, wait_ms=8000)
-        if lib.is_fetch_failure(html):
-            failures.append(f'{section}: {html[:50]}')
-            continue
-        soup = BeautifulSoup(html, 'html.parser')
-        for a in soup.find_all('a', href=True):
-            full = urljoin(url, a['href'].strip())
-            parsed = urlparse(full)
-            if parsed.netloc != HOST:
-                continue
-            path = parsed.path.rstrip('/')
-            # must sit UNDER this section, and not be the section itself
-            if not path.startswith(section) or path == section:
-                continue
-            # breadcrumb links repeat the site prefix inside the path
-            if path.count('welcome-to-elmira') > 1:
-                continue
-            clean = f'https://{HOST}{path}'
-            if clean not in seen:
-                seen.add(clean)
-                links.append(clean)
-    if not links:
-        raise RuntimeError('no postings in any elmira section; '
-                           + ' | '.join(failures))
-    return links
+    return lib.scrape_matching(CAREERS_LINK, POSTING_RE, render=True, wait_ms=5000)
 
 
 def main():

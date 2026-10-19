@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 983 - Dominican University New York (US)
 ATS platform: own website
-Careers link: https://www.duny.edu/category/employment-opportunities/
+Careers link: https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=5343bd75-9ae4-4e31-8242-ccbb66b5305b&ccId=19000101_000001&type=JS&lang=en_US&selectedMenuKey=CareerCenter
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -20,6 +20,9 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_983_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_983_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Careers link corrected in the audit to the college's ADP board.
 """
 import os
 import re
@@ -31,19 +34,14 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 983
 SCHOOL_NAME = 'Dominican University New York'
-CAREERS_LINK = 'https://www.duny.edu/category/employment-opportunities/'
+CAREERS_LINK = 'https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=5343bd75-9ae4-4e31-8242-ccbb66b5305b&ccId=19000101_000001&type=JS&lang=en_US&selectedMenuKey=CareerCenter'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    return lib.PLATFORM_ADAPTERS['adp'](CAREERS_LINK, SCHOOL_NAME)
 
 
 def main():

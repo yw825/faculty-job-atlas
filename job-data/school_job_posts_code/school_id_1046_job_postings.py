@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 1046 - Defiance College (US)
 ATS platform: own website
-Careers link: https://www.defiance.edu/employment-opportunities/
+Careers link: https://www.defiance.edu/employment-opportunities/#faculty
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -20,6 +20,11 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_1046_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1046_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Openings are listed on the employment page (faculty section).
+Openings are paragraphs under "Faculty Positions" and "Part-time Faculty
+Positions" on the employment page (no posting pages).
 """
 import os
 import re
@@ -31,19 +36,21 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1046
 SCHOOL_NAME = 'Defiance College'
-CAREERS_LINK = 'https://www.defiance.edu/employment-opportunities/'
+CAREERS_LINK = 'https://www.defiance.edu/employment-opportunities/#faculty'
 ATS_PLATFORM = 'own website'
+
+POSTING_RE = re.compile(r'^https://www\.defiance\.edu/(?:employment-opportunities/[a-z0-9-]+/|wp-content/uploads/.+\.pdf)$')
+
+START = r'^Faculty Positions'
+
+STOP = r'^Administrative'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    page = CAREERS_LINK.split('#')[0]
+    return [f'{page}#{slug}' for slug, _t, _b in lib.section_openings(page, START, STOP)]
 
 
 def main():

@@ -33,15 +33,15 @@ CAREERS_LINK = 'https://stac.edu/offices/human-resources/employment-opportunitie
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 
+HEADER = 'button.accordion__item-heading'
+
 JOB_POSTINGS_CHECKPOINT = os.path.join(
     HERE, '..', 'school_job_posts_code', f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """CUSTOMIZED: postings here are sections of one page, addressed as
-    CAREERS_LINK#<slug>. Resolves the fragment back to that section alone
-    -- the generic reader would hand every posting the whole page."""
-    return jinfo.fetch_detail_inline(url)
+    """one expandable section of the faculty-positions page."""
+    return jinfo.fetch_detail_accordion(url, HEADER)
 
 
 def main():

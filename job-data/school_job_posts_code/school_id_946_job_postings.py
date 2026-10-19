@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 946 - Colgate University (US)
 ATS platform: own website
-Careers link: https://www.colgate.edu/success-after-colgate
+Careers link: https://www.colgate.edu/jobs-colgate/faculty-positions
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -20,6 +20,9 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_946_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_946_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Faculty openings are expandable sections of the faculty-positions page.
 """
 import os
 import re
@@ -31,19 +34,17 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 946
 SCHOOL_NAME = 'Colgate University'
-CAREERS_LINK = 'https://www.colgate.edu/success-after-colgate'
+CAREERS_LINK = 'https://www.colgate.edu/jobs-colgate/faculty-positions'
 ATS_PLATFORM = 'own website'
+
+HEADER = 'details > summary'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    page = CAREERS_LINK.split('#')[0]
+    return [f'{page}#{slug}' for slug, _t, _b in lib.accordion_items(page, HEADER, render=False)]
 
 
 def main():

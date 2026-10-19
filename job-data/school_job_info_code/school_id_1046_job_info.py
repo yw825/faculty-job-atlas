@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1046 - Defiance College (US)
 ATS platform: own website
-Careers link: https://www.defiance.edu/employment-opportunities/
+Careers link: https://www.defiance.edu/employment-opportunities/#faculty
 
 Reads posting URLs from school_id_1046_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,22 +29,25 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1046
 SCHOOL_NAME = 'Defiance College'
-CAREERS_LINK = 'https://www.defiance.edu/employment-opportunities/'
+CAREERS_LINK = 'https://www.defiance.edu/employment-opportunities/#faculty'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
+
+START = r'^Faculty Positions'
+
+STOP = r'^Administrative'
 
 JOB_POSTINGS_CHECKPOINT = os.path.join(
     HERE, '..', 'school_job_posts_code', f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """This school's own detail-page logic, owned by this file. The default
-    renders the page, picks the most job-title-shaped heading, and takes the
-    visible text as the description. Override when a posting page needs
-    something else -- a nested iframe, a cookie gate, a PDF, or a title that
-    only exists in <title> (all of which came up in the non-US set)."""
-    return jinfo.fetch_detail_generic(url)
-
+    """an opening written as a paragraph of the employment page (url #<slug>)."""
+    page, slug = url.split('#', 1)
+    for s, title, body in jinfo.jlib.section_openings(page, START, STOP):
+        if s == slug:
+            return title, f'{title}. {body}'
+    raise RuntimeError('opening no longer on the page')
 
 
 def main():

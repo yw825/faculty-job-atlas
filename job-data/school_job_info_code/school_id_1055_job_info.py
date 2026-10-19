@@ -1,7 +1,7 @@
 """
-Job info scraper for school_id 1055 - Ohio State University-Lima Campus (US)
+Job info scraper for school_id 1055 - Ohio State University-Lima (US)
 ATS platform: own website
-Careers link: https://lima.osu.edu/weserve/weserve-volunteer-opportunities
+Careers link: https://osu.wd1.myworkdayjobs.com/OSUCareers?jobFamilyGroup=67612469e2ea01a29e348f105b01ff10&jobFamilyGroup=4636ab80487a01dbec7abc635c010515
 
 Reads posting URLs from school_id_1055_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -28,8 +28,8 @@ sys.path.insert(0, os.path.dirname(HERE))
 import job_info_lib as jinfo
 
 SCHOOL_ID = 1055
-SCHOOL_NAME = 'Ohio State University-Lima Campus'
-CAREERS_LINK = 'https://lima.osu.edu/weserve/weserve-volunteer-opportunities'
+SCHOOL_NAME = "Ohio State University-Lima"
+CAREERS_LINK = 'https://osu.wd1.myworkdayjobs.com/OSUCareers?jobFamilyGroup=67612469e2ea01a29e348f105b01ff10&jobFamilyGroup=4636ab80487a01dbec7abc635c010515'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 
@@ -38,13 +38,8 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """This school's own detail-page logic, owned by this file. The default
-    renders the page, picks the most job-title-shaped heading, and takes the
-    visible text as the description. Override when a posting page needs
-    something else -- a nested iframe, a cookie gate, a PDF, or a title that
-    only exists in <title> (all of which came up in the non-US set)."""
-    return jinfo.fetch_detail_generic(url)
-
+    """Workday posting, from the board's own job service."""
+    return jinfo.fetch_detail_workday(url)
 
 
 def main():

@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1009 - SUNY-Stony Brook University (US)
 ATS platform: own website
-Careers link: https://stonybrook-advocate.symplicity.com/collections/reportit/4a9adc9d6aa24c3cf581ea5daa46cd25
+Careers link: https://apply.interfolio.com/15355/positions
 
 Reads posting URLs from school_id_1009_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1009
 SCHOOL_NAME = "SUNY-Stony Brook University"
-CAREERS_LINK = 'https://academicjobsonline.org/ajo/SBU'
+CAREERS_LINK = 'https://apply.interfolio.com/15355/positions'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 
@@ -38,11 +38,8 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """CUSTOMIZED: AcademicJobsOnline pages title themselves
-    "AcademicJobsOnline.org" in both <title> and <h1>, so the generic
-    reader labels every posting that. The real title is the body's
-    "Position Title:" field."""
-    return jinfo.fetch_detail_academicjobsonline(url)
+    """Interfolio posting, from the board's public data service."""
+    return jinfo.fetch_detail_interfolio(url)
 
 
 def main():

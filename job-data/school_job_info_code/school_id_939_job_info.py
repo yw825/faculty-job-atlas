@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 939 - Elmira College (US)
 ATS platform: own website
-Careers link: https://www.elmira.edu/welcome-to-elmira/about-ec/careers/careers
+Careers link: https://www.elmira.edu/welcome-to-elmira/about-ec/careers/employment-opportunities/faculty-positions
 
 Reads posting URLs from school_id_939_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 939
 SCHOOL_NAME = 'Elmira College'
-CAREERS_LINK = 'https://www.elmira.edu/welcome-to-elmira/about-ec/careers/careers'
+CAREERS_LINK = 'https://www.elmira.edu/welcome-to-elmira/about-ec/careers/employment-opportunities/faculty-positions'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

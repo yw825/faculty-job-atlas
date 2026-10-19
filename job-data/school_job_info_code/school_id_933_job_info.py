@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 933 - Hamilton College (US)
 ATS platform: own website
-Careers link: https://www.hamilton.edu/offices/human-resources/employment/job-opportunities
+Careers link: https://www.hamilton.edu/offices/human-resources/employment/job-opportunities-list?action=display&category=Faculty&Go=Go
 
 Reads posting URLs from school_id_933_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 933
 SCHOOL_NAME = 'Hamilton College'
-CAREERS_LINK = 'https://www.hamilton.edu/offices/human-resources/employment/job-opportunities'
+CAREERS_LINK = 'https://www.hamilton.edu/offices/human-resources/employment/job-opportunities-list?action=display&category=Faculty&Go=Go'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

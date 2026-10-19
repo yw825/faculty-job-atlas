@@ -20,6 +20,10 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_954_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_954_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+New Paltz's faculty openings page is fed by its PeopleAdmin board, read with
+the board's Faculty position type.
 """
 import os
 import re
@@ -34,6 +38,8 @@ SCHOOL_NAME = "SUNY-New Paltz"
 CAREERS_LINK = 'https://www.newpaltz.edu/hr/displayjobs.php?type=Faculty'
 ATS_PLATFORM = 'own website'
 
+BOARD = 'https://jobs.newpaltz.edu/postings/search?query=&query_position_type_id%5B%5D=3&commit=Search'
+
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
@@ -41,36 +47,7 @@ POSTING_PATTERN = 'www.newpaltz.edu/hr/employment-opportunities/<*>'
 
 
 def find_links():
-    """CUSTOMIZED: postings on this site are the links matching one repeated
-    URL shape, found structurally rather than by keyword and then confirmed
-    by opening two of them and checking they read like job postings
-    (title_role=0 degree=0 furniture=2 len=4865; title_role=0 degree=0 furniture=0 len=3613).
-
-        www.newpaltz.edu/hr/employment-opportunities/<*>
-
-    The generic job-word filter returned 5 link(s) here against 6
-    actually on the page -- this site's posting URLs carry no job word at
-    all, which is why matching on words missed them."""
-    import sys, os
-    sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-    from bs4 import BeautifulSoup
-    from urllib.parse import urljoin
-    import deep_probe
-
-    html = lib.fetch_rendered(CAREERS_LINK, wait_ms=5000)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    soup = BeautifulSoup(html, 'html.parser')
-    out = []
-    for a in soup.find_all('a', href=True):
-        href = a['href'].strip()
-        if not href or href.startswith(('#', 'mailto:', 'javascript:', 'tel:')):
-            continue
-        if deep_probe.templatize(href, CAREERS_LINK) == POSTING_PATTERN:
-            full = urljoin(CAREERS_LINK, href)
-            if full not in out:
-                out.append(full)
-    return out
+    return lib.scrape_peopleadmin_search(BOARD)
 
 
 def main():

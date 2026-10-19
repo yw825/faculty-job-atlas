@@ -38,13 +38,19 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """This school's own detail-page logic, owned by this file. The default
-    renders the page, picks the most job-title-shaped heading, and takes the
-    visible text as the description. Override when a posting page needs
-    something else -- a nested iframe, a cookie gate, a PDF, or a title that
-    only exists in <title> (all of which came up in the non-US set)."""
-    return jinfo.fetch_detail_generic(url)
-
+    """The site sits behind Cloudflare's automatic check ("Just a moment..."), which
+the headless browser often does not pass; real Chrome passes it on its own
+(nothing is solved). The job title is the page's h1."""
+    from bs4 import BeautifulSoup
+    html = jinfo.jlib.fetch_real_chrome(url)
+    soup = BeautifulSoup(html or '', 'html.parser')
+    h1 = soup.find('h1')
+    title = h1.get_text(' ', strip=True) if h1 else ''
+    if not title or 'Just a moment' in (soup.title.get_text() if soup.title else ''):
+        raise RuntimeError('posting did not load (bot check or closed)')
+    for tag in soup(['script', 'style', 'nav', 'header', 'footer']):
+        tag.decompose()
+    return title[:250], re.sub(r'\s+', ' ', soup.get_text(' ', strip=True))[:20000]
 
 
 def main():

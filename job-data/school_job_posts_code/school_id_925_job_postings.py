@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 925 - D'Youville  University (US)
 ATS platform: own website
-Careers link: https://dyouville-university.prismhr-hire.com/job/726161/college-of-osteopathic-medicine-chair-primary-care
+Careers link: https://dyouville-university.prismhr-hire.com/
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -20,6 +20,9 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_925_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_925_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+D'Youville's PrismHR board; postings are /job/<id>/<slug>.
 """
 import os
 import re
@@ -31,22 +34,16 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 925
 SCHOOL_NAME = 'D\'Youville  University'
-CAREERS_LINK = 'https://dyouville-university.prismhr-hire.com/job/726161/college-of-osteopathic-medicine-chair-primary-care'
+CAREERS_LINK = 'https://dyouville-university.prismhr-hire.com/'
 ATS_PLATFORM = 'own website'
+
+POSTING_RE = re.compile(r'^https://dyouville-university\.prismhr-hire\.com/job/\d+/')
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    """CUSTOMIZED: this school writes each opening as a SECTION of its
-    careers page -- there is no per-job link to collect, which is why every
-    link-based scraper returned 0 row(s) against 1 real openings
-    on the page.
-
-    Each section becomes CAREERS_LINK + '#' + a slug of its own heading,
-    and school_id_925_job_info.py resolves that fragment back to the
-    section's text."""
-    return lib.scrape_inline_listing(CAREERS_LINK)
+    return lib.scrape_matching(CAREERS_LINK, POSTING_RE, render=True, wait_ms=5000)
 
 
 def main():

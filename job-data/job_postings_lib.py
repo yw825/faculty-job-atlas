@@ -996,7 +996,7 @@ def scrape_ultipro(url):
     return links
 
 
-def scrape_ultipro_ta(url):
+def scrape_ultipro_ta(url, categories=None):
     """UKG Ready "TA" career sites -- secure*.onehcm.com/ta/<Company>.careers
     and secure*.entertimeonline.com/ta/<Company>.careers.
 
@@ -1011,6 +1011,13 @@ def scrape_ultipro_ta(url):
     <id> renders that posting for a human (confirmed live: Crown College's
     537208004 renders "Assistant/Associate Professor of Nursing"), so the
     stored link opens the job rather than the search page.
+
+    The API pages by `size`, not `limit` (which it ignores, serving 100), and
+    an offset past the first page comes back empty even when `total` says
+    more exist -- Pace lists 117 and only 100 were read -- so one call asks
+    for the whole board. `categories` (a regex) keeps only requisitions with
+    a matching job category ("FT Faculty", "Adjunct") on boards that mix
+    student and staff jobs with faculty ones.
     """
     parsed = urlparse(url)
     m = re.match(r'^/ta/([^/.]+)\.(?:careers|jobs)', parsed.path, re.I)
@@ -1029,9 +1036,9 @@ def scrape_ultipro_ta(url):
     for host in hosts:
         base = (f'https://{host}/ta/rest/ui/recruitment/companies/'
                 f'%7C{company}/job-requisitions')
-        offset, limit = 0, 50
+        offset, limit = 0, 200          # the largest size the API accepts
         for _page in range(40):
-            status, text = fetch_static(f'{base}?offset={offset}&limit={limit}',
+            status, text = fetch_static(f'{base}?offset={offset}&size={limit}',
                                         extra_headers={'Accept': 'application/json'})
             if status != 200:
                 break
@@ -1041,6 +1048,9 @@ def scrape_ultipro_ta(url):
                 break
             fresh = [r for r in reqs if r.get('id') and r['id'] not in jobs]
             for r in fresh:
+                if categories and not any(re.search(categories, c or '') for c in r.get('job_categories') or []):
+                    jobs.setdefault(r['id'], None)        # seen, not kept
+                    continue
                 jobs[r['id']] = r.get('job_title') or ''
             if not fresh or len(reqs) < limit:
                 break
@@ -1052,7 +1062,7 @@ def scrape_ultipro_ta(url):
     if not jobs:
         raise RuntimeError('ukg-ready TA board returned no requisitions')
     return [f'https://{good_host}/ta/{company}.careers?ShowJob={jid}'
-            for jid in jobs]
+            for jid, title in jobs.items() if title is not None]
 
 
 def scrape_paycor(url):
@@ -1741,6 +1751,78 @@ def scrape_fdu_campus(word):
     """Postings whose Campus row names `word` (Florham / Metropolitan / Vancouver)."""
     return [u for u, campus, _t in fdu_postings() if word.lower() in campus.lower()]
 
+
+# CUNY: cuny.jobs serves every college's faculty openings at
+# /campus/<slug>/job-category/faculty/jobs/, but the whole site sits behind an
+# AWS WAF bot check -- plain requests get an empty 202, and quick repeated
+# loads trip "Max challenge attempts exceeded". A normal Chrome window passes
+# the check, so the college's RSS feed (title, link, full description, 10 per
+# page, ?page=N) is read there, slowly.
+_CUNY_CACHE = {}
+
+
+def cuny_jobs(listing_url, max_pages=30, pause_ms=6000):
+    """[(posting_url, title, description_html)] for one cuny.jobs listing."""
+    import html as _html
+    if listing_url in _CUNY_CACHE:
+        return _CUNY_CACHE[listing_url]
+    feed = listing_url.rstrip('/') + '/feeds/rss/'
+    b = get_real_chrome()
+    page = b.new_page()
+    out, seen = [], set()
+    try:
+        for n in range(1, max_pages + 1):
+            page.goto(feed + (f'?page={n}' if n > 1 else ''), timeout=60000)
+            page.wait_for_timeout(pause_ms)
+            text = _html.unescape(page.inner_text('body'))
+            if 'Max challenge attempts' in text:
+                raise RuntimeError('cuny.jobs bot check refused the page')
+            fresh = 0
+            for item in re.findall(r'<item>(.*?)</item>', text, re.S):
+                link = re.search(r'<link>\s*(.*?)\s*</link>', item, re.S)
+                title = re.search(r'<title>\s*(.*?)\s*</title>', item, re.S)
+                desc = re.search(r'<description>(.*?)</description>', item, re.S)
+                if link and link.group(1) not in seen:
+                    seen.add(link.group(1)); fresh += 1
+                    out.append((link.group(1).strip(), (title.group(1) if title else '').strip(), desc.group(1) if desc else ''))
+            if fresh < 10:
+                break
+    finally:
+        page.close()
+    _CUNY_CACHE[listing_url] = out
+    return out
+
+
+def scrape_cuny(listing_url):
+    return [u for u, _t, _d in cuny_jobs(listing_url)]
+
+
+# Wright State: one PeopleAdmin board (jobs.wright.edu) for the Dayton campus
+# and the Lake Campus (Celina), with no campus field; Lake Campus postings are
+# the ones whose Department names it ("Lake Campus Acad & Instructnal Svcs").
+_WRIGHT_CACHE = {}
+
+
+def wright_state_postings(search_url):
+    """[(url, department)] for the board's (filtered) search."""
+    if search_url not in _WRIGHT_CACHE:
+        out = []
+        for url in scrape_peopleadmin_search(search_url):
+            status, html = fetch_static(url, timeout=40)
+            dept = ''
+            for tr in BeautifulSoup(html or '', 'html.parser').select('tr'):
+                th, td = tr.find('th'), tr.find('td')
+                if th and td and th.get_text(strip=True).startswith('Department'):
+                    dept = td.get_text(' ', strip=True)
+                    break
+            out.append((url, dept))
+        _WRIGHT_CACHE[search_url] = out
+    return _WRIGHT_CACHE[search_url]
+
+
+def scrape_wright_state(search_url, lake):
+    return [u for u, d in wright_state_postings(search_url) if bool(re.search(r'(?i)\blake\b', d)) == lake]
+
 def scrape_pageup_listing(listing_url):
     """Classic PageUp boards (<host>[/<n>]/cw/en/listing/, /en-us/listing/, or
     a /filter/?... link carrying the board's own filters): the list shows 20
@@ -1880,7 +1962,42 @@ def t1_board_cards(public_url):
 _ACCORDION_CACHE = {}
 
 
-def accordion_items(url, header_selector, render=False, min_body=80):
+def section_openings(url, start_re, stop_re, render=True):
+    """[(slug, title, body text)] for openings written as plain paragraphs in
+    a section of one page (Defiance: under "Faculty Positions" and "Part-time
+    Faculty Positions", each opening is a short line followed by its
+    advert). The section runs from the h2 matching `start_re` to the h2
+    matching `stop_re`; a title is a paragraph or heading of under 90
+    characters that does not end in a full stop ("There are no ... at this
+    time." is not one), and its body is everything up to the next title.
+    Callers store url + "#<slug>"."""
+    html = _fetch_rendered_retry(url, 5000) if render else fetch_static(url, timeout=40)[1]
+    soup = BeautifulSoup(html or '', 'html.parser')
+    starts = [h for h in soup.find_all('h2') if re.search(start_re, h.get_text(' ', strip=True))]
+    if not starts:
+        raise RuntimeError('section heading not found on ' + url)
+    out, cur = [], None
+    for el in starts[-1].find_all_next(['h2', 'h3', 'h4', 'p', 'li']):
+        text = re.sub(r'\s+', ' ', el.get_text(' ', strip=True))
+        if el.name == 'h2' and re.search(stop_re, text):
+            break
+        if el.name == 'h2' or not text:
+            continue
+        if len(text) < 90 and not text.endswith('.') and el.name in ('p', 'h3', 'h4') and not el.find('a'):
+            cur = [text, []]
+            out.append(cur)
+        elif cur is not None:
+            cur[1].append(text)
+    result, seen = [], set()
+    for title, body in out:
+        slug = re.sub(r'[^a-z0-9]+', '-', title.lower()).strip('-')[:120]
+        if body and slug not in seen:
+            seen.add(slug)
+            result.append((slug, title, ' '.join(body)))
+    return result
+
+
+def accordion_items(url, header_selector, render=False, min_body=80, real_chrome=False):
     """[(slug, title, body text)] for job adverts published as expandable
     sections of ONE page (Chu Hai, Saint Francis, UOW College HK): each
     `header_selector` element is a job title and the element after it (or
@@ -1892,7 +2009,10 @@ def accordion_items(url, header_selector, render=False, min_body=80):
     key = (url, header_selector)
     if key in _ACCORDION_CACHE:
         return _ACCORDION_CACHE[key]
-    if render:
+    if real_chrome:   # pages that refuse headless browsers (Hiram: 403)
+        html = fetch_real_chrome(url, wait_ms=8000)
+        html = html[1] if isinstance(html, tuple) else html
+    elif render:
         html = _fetch_rendered_retry(url, 5000)
     else:
         status, html = fetch_static(url, timeout=40)
@@ -2971,6 +3091,48 @@ def interfolio_positions(url):
     return out
 
 
+def columbia_positions(url='https://academic.careers.columbia.edu/'):
+    """Columbia's academic search site (an Angular page over its Interfolio
+    data) shows 30 of ~640 positions per page; the whole list sits in the
+    page's own scope (`filteredResults`) once loaded. Its JSON endpoint
+    (/json/cu_faculty_search/extended) sits behind a Cloudflare check that
+    plain requests fail, so the list is read from the rendered page."""
+    box = {}
+    get = ("() => { try { const s = angular.element(document.querySelector('.search-results')).scope();"
+           " return (s && s.filteredResults) ? JSON.stringify(s.filteredResults) : '' } catch (e) { return '' } }")
+
+    def act(page):
+        for _ in range(8):
+            box['d'] = page.evaluate(get)
+            if box['d']:
+                return
+            page.wait_for_timeout(4000)
+
+    html = fetch_rendered(url, wait_ms=8000, actions=act)
+    if is_fetch_failure(html) or not box.get('d'):
+        raise RuntimeError('columbia: position list did not load')
+    return json.loads(box['d'])
+
+
+def scrape_columbia(url='https://academic.careers.columbia.edu/'):
+    """Columbia postings as public Interfolio links (legacy_position_id -- the
+    board's own `id` opens another school's job, see scrape_interfolio).
+    Positions whose Interfolio status is closed, filled or cancelled are
+    still listed by the site and are skipped, as are the K-8 school's and
+    the nursery's."""
+    links = []
+    for r in columbia_positions(url):
+        status = ((r.get('position_status') or {}).get('position_status') or {}).get('name') or ''
+        if re.search(r'(?i)closed|filled|cancel', status):
+            continue
+        if re.search(r'(?i)K-8|Tompkins', r.get('position_type_name') or ''):
+            continue
+        pid = r.get('legacy_position_id')
+        if pid:
+            links.append(f'https://apply.interfolio.com/{pid}')
+    return links
+
+
 def scrape_interfolio(url):
     """Interfolio gives every posting TWO ids and they are not aliases.
 
@@ -3562,7 +3724,9 @@ PLATFORM_ADAPTERS = {
     'academicjobsonline': lambda url, name: scrape_academicjobsonline(url),
     'dejobs': lambda url, name: scrape_dejobs(url),
     'ucrecruit': lambda url, name: scrape_ucrecruit(url),
-    'paycom': lambda url, name: scrape_paycom(url),
+    # the old page-scraping reader stopped finding postings (2026-10-19); the
+    # board's own search service (paycom_previews) still lists them all
+    'paycom': lambda url, name: [row[0] for row in paycom_previews(url)],
     'interfolio': lambda url, name: scrape_interfolio(url),
     'schooljobs': lambda url, name: scrape_schooljobs(url),
     'peoplesoft': lambda url, name: scrape_peoplesoft(url),

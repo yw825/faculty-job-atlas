@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 912 - SUNY-Brockport (US)
 ATS platform: own website
-Careers link: https://www.brockport.edu/support/human-resources/careers/
+Careers link: https://www.schooljobs.com/careers/brockport?jobType[0]=Faculty%20Full-Time&jobType[1]=Adjunct%20Part-Time&sort=PositionTitle%7CAscending
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -20,6 +20,9 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_912_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_912_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+NEOGOV board read from its list service (a jobType filter on the link is applied as meant).
 """
 import os
 import re
@@ -31,19 +34,14 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 912
 SCHOOL_NAME = "SUNY-Brockport"
-CAREERS_LINK = 'https://www.brockport.edu/support/human-resources/careers/'
+CAREERS_LINK = 'https://www.schooljobs.com/careers/brockport?jobType[0]=Faculty%20Full-Time&jobType[1]=Adjunct%20Part-Time&sort=PositionTitle%7CAscending'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    return lib.scrape_neogov_filtered(CAREERS_LINK)
 
 
 def main():

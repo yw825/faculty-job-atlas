@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 919 - CUNY-New York City College of Technology (US)
 ATS platform: own website
-Careers link: https://cuny.jobs/campus/new-york-city-college-of-technology/job-category/faculty/jobs/
+Careers link: https://cuny.jobs/campus/nyc-college-of-technology/job-category/faculty/jobs/
 
 Reads posting URLs from school_id_919_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,22 +29,27 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 919
 SCHOOL_NAME = "CUNY-New York City College of Technology"
-CAREERS_LINK = 'https://cuny.jobs/campus/new-york-city-college-of-technology/job-category/faculty/jobs/'
+CAREERS_LINK = 'https://cuny.jobs/campus/nyc-college-of-technology/job-category/faculty/jobs/'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
+
+_JOBS = None
 
 JOB_POSTINGS_CHECKPOINT = os.path.join(
     HERE, '..', 'school_job_posts_code', f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """This school's own detail-page logic, owned by this file. The default
-    renders the page, picks the most job-title-shaped heading, and takes the
-    visible text as the description. Override when a posting page needs
-    something else -- a nested iframe, a cookie gate, a PDF, or a title that
-    only exists in <title> (all of which came up in the non-US set)."""
-    return jinfo.fetch_detail_generic(url)
-
+    """one job of the college's cuny.jobs feed (title + full description), read once
+    for the whole college in a normal Chrome window."""
+    global _JOBS
+    if _JOBS is None:
+        _JOBS = {u: (t, d) for u, t, d in jinfo.jlib.cuny_jobs(CAREERS_LINK)}
+    if url not in _JOBS:
+        raise RuntimeError('no longer in the college feed')
+    title, html = _JOBS[url]
+    from bs4 import BeautifulSoup
+    return title[:250], re.sub(r'\s+', ' ', f'{title}. ' + BeautifulSoup(html, 'html.parser').get_text(' ', strip=True))[:20000]
 
 
 def main():

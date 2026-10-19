@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 1014 - Rensselaer Polytechnic Institute (US)
 ATS platform: own website
-Careers link: https://rpi.dc4.pageuppeople.com/dashboard
+Careers link: https://careers.rpi.edu/jobs/search
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it

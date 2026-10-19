@@ -14,8 +14,13 @@ NOTE: 3 schools list against this same URL, so this listing carries every one of
 
 Writes school_job_posts/school_id_1058_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1058_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Miami's faculty Workday site; Middletown has no location value until it posts
+a job, so postings whose location path names Middletown are kept.
 """
 import os
+import re
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -31,9 +36,12 @@ PLATFORM = 'workday'
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
+def find_links():
+    return [u for u in lib.PLATFORM_ADAPTERS['workday'](CAREERS_LINK, SCHOOL_NAME) if re.search(r'/job/[^/]*Middletown', u, re.I)]
+
+
 def main():
-    result = lib.run_platform_school(SCHOOL_ID, SCHOOL_NAME, CAREERS_LINK,
-                                     CHECKPOINT_PATH, platform=PLATFORM)
+    result = lib.run_checkpointed(SCHOOL_ID, CHECKPOINT_PATH, find_links)
     err = result.get('last_error', '')
     print(f"{SCHOOL_NAME} (id={SCHOOL_ID}): status={result['status']} "
           f"links={len(result['links'])}" + (f" ERROR: {err}" if err else ''))

@@ -33,18 +33,18 @@ CAREERS_LINK = 'https://www.bard.edu/humanresources/employment/'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 
+DOC_RE = r'bard\.edu/humanresources/descriptions/\?id=\d+$'
+
 JOB_POSTINGS_CHECKPOINT = os.path.join(
     HERE, '..', 'school_job_posts_code', f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """This school's own detail-page logic, owned by this file. The default
-    renders the page, picks the most job-title-shaped heading, and takes the
-    visible text as the description. Override when a posting page needs
-    something else -- a nested iframe, a cookie gate, a PDF, or a title that
-    only exists in <title> (all of which came up in the non-US set)."""
-    return jinfo.fetch_detail_generic(url)
-
+    """the description pages carry no job heading (most read "Job Opportunities at
+Bard College"); the title is the link text on the employment page."""
+    listed = dict(jinfo.jlib.linked_documents(CAREERS_LINK, DOC_RE))
+    title, text = jinfo.fetch_detail_generic(url)
+    return (listed.get(url) or title), text
 
 
 def main():

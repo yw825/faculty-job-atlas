@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 961 - CUNY-City College (US)
 ATS platform: own website (detected: dejobs)
-Careers link: https://cuny.jobs/campus/city-college/job-category/faculty/jobs/
+Careers link: https://cuny.jobs/campus/city-college-of-new-york/job-category/faculty/jobs/
 
 CUNY City College runs on a shared ATS platform -- every school on dejobs uses the
 same underlying site software, so this calls the shared
@@ -12,8 +12,13 @@ and pass it to run_checkpointed instead of editing the shared adapter.
 
 Writes school_job_posts/school_id_961_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_961_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+cuny.jobs campus + faculty category, read from its RSS feed in a normal Chrome
+window (the site has an AWS bot check).
 """
 import os
+import re
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -22,16 +27,19 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 961
 SCHOOL_NAME = "CUNY-City College"
-CAREERS_LINK = 'https://cuny.jobs/campus/city-college/job-category/faculty/jobs/'
+CAREERS_LINK = 'https://cuny.jobs/campus/city-college-of-new-york/job-category/faculty/jobs/'
 ATS_PLATFORM = 'own website'
 PLATFORM = 'dejobs'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
+def find_links():
+    return lib.scrape_cuny(CAREERS_LINK)
+
+
 def main():
-    result = lib.run_platform_school(SCHOOL_ID, SCHOOL_NAME, CAREERS_LINK,
-                                     CHECKPOINT_PATH, platform=PLATFORM)
+    result = lib.run_checkpointed(SCHOOL_ID, CHECKPOINT_PATH, find_links)
     err = result.get('last_error', '')
     print(f"{SCHOOL_NAME} (id={SCHOOL_ID}): status={result['status']} "
           f"links={len(result['links'])}" + (f" ERROR: {err}" if err else ''))

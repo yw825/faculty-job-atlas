@@ -20,6 +20,10 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_1008_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1008_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+The HR openings page links Wagner's Oracle board by category; the faculty
+category (the audit's example) is read.
 """
 import os
 import re
@@ -34,16 +38,13 @@ SCHOOL_NAME = 'Wagner College'
 CAREERS_LINK = 'https://wagner.edu/hr/hr_openings/'
 ATS_PLATFORM = 'own website'
 
+BOARD = 'https://fa-exad-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs?lastSelectedFacet=CATEGORIES&selectedCategoriesFacet=300000011582329'
+
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    return lib.scrape_oracle_link(BOARD)
 
 
 def main():

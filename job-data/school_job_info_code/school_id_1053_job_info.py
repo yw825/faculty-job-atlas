@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1053 - Kent State University at Kent (US)
 ATS platform: own website
-Careers link: https://jobs.kent.edu/
+Careers link: https://jobs.kent.edu/jobs/search/faculty
 
 Reads posting URLs from school_id_1053_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1053
 SCHOOL_NAME = 'Kent State University at Kent'
-CAREERS_LINK = 'https://jobs.kent.edu/'
+CAREERS_LINK = 'https://jobs.kent.edu/jobs/search/faculty'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 
@@ -38,13 +38,8 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """This school's own detail-page logic, owned by this file. The default
-    renders the page, picks the most job-title-shaped heading, and takes the
-    visible text as the description. Override when a posting page needs
-    something else -- a nested iframe, a cookie gate, a PDF, or a title that
-    only exists in <title> (all of which came up in the non-US set)."""
-    return jinfo.fetch_detail_generic(url)
-
+    """the page text opens "<job> - <city>, <state>, United States"; the full title is taken there."""
+    return jinfo.fetch_detail_board_title(url)
 
 
 def main():

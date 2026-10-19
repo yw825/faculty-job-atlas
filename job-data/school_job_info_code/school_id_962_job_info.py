@@ -33,18 +33,23 @@ CAREERS_LINK = 'https://cuny.jobs/campus/graduate-center/job-category/faculty/jo
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 
+_JOBS = None
+
 JOB_POSTINGS_CHECKPOINT = os.path.join(
     HERE, '..', 'school_job_posts_code', f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """This school's own detail-page logic, owned by this file. The default
-    renders the page, picks the most job-title-shaped heading, and takes the
-    visible text as the description. Override when a posting page needs
-    something else -- a nested iframe, a cookie gate, a PDF, or a title that
-    only exists in <title> (all of which came up in the non-US set)."""
-    return jinfo.fetch_detail_generic(url)
-
+    """one job of the college's cuny.jobs feed (title + full description), read once
+    for the whole college in a normal Chrome window."""
+    global _JOBS
+    if _JOBS is None:
+        _JOBS = {u: (t, d) for u, t, d in jinfo.jlib.cuny_jobs(CAREERS_LINK)}
+    if url not in _JOBS:
+        raise RuntimeError('no longer in the college feed')
+    title, html = _JOBS[url]
+    from bs4 import BeautifulSoup
+    return title[:250], re.sub(r'\s+', ' ', f'{title}. ' + BeautifulSoup(html, 'html.parser').get_text(' ', strip=True))[:20000]
 
 
 def main():

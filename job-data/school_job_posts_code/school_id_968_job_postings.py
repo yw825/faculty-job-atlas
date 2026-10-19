@@ -20,6 +20,11 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_968_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_968_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Marymount Manhattan is now Northeastern University's New York City campus
+(audit note: handle with Northeastern). Its openings: Northeastern's Workday
+board, location New York, NY.
 """
 import os
 import re
@@ -34,16 +39,13 @@ SCHOOL_NAME = 'Marymount Manhattan College'
 CAREERS_LINK = 'https://service.northeastern.edu/hr?id=kb_article_view&sysparm_article=KB000024399&sys_kb_id=0216c71c47168f10c5a12675d36d43c8&spa=1'
 ATS_PLATFORM = 'own website'
 
+BOARD = 'https://northeastern.wd1.myworkdayjobs.com/careers?locations=9925484e5d991000df958beea1460000'
+
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    return lib.PLATFORM_ADAPTERS['workday'](BOARD, SCHOOL_NAME)
 
 
 def main():

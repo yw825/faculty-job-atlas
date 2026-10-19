@@ -20,6 +20,10 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_899_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_899_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Every opening is a PDF in /hr/ linked from the employment page; the link
+text is its title (the pay-grade table and application form are skipped).
 """
 import os
 import re
@@ -34,16 +38,15 @@ SCHOOL_NAME = 'New Mexico Institute of Mining and Technology'
 CAREERS_LINK = 'https://www.nmt.edu/hr/employment.php'
 ATS_PLATFORM = 'own website'
 
+DOC_RE = r'nmt\.edu/hr/[^?#]+\.pdf$'
+
+SKIP = r'(?i)pay grades|employment application'
+
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    return [link for link, _text in lib.linked_documents(CAREERS_LINK, DOC_RE, skip_text=SKIP)]
 
 
 def main():

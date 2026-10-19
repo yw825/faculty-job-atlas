@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 1045 - Wright State University-Main Campus (US)
 ATS platform: own website
-Careers link: #VALUE!
+Careers link: https://jobs.wright.edu/postings/search
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -22,6 +22,11 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_1045_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1045_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Wright State's one PeopleAdmin board (Faculty/Instructional category) serves
+Dayton and the Lake Campus with no campus field; postings whose Department
+names the Lake Campus belong to row 1029.
 """
 import os
 import re
@@ -33,19 +38,16 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1045
 SCHOOL_NAME = 'Wright State University-Main Campus'
-CAREERS_LINK = 'https://www.wright.edu/human-resources'
+CAREERS_LINK = 'https://jobs.wright.edu/postings/search'
 ATS_PLATFORM = 'own website'
+
+BOARD = 'https://jobs.wright.edu/postings/search?query=&643%5B%5D=3&commit=Search'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    return lib.scrape_wright_state(BOARD, lake=False)
 
 
 def main():

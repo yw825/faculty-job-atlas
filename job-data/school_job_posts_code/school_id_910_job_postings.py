@@ -20,6 +20,10 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_910_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_910_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Every opening is a /humanresources/descriptions/?id=<n> page linked from the
+employment page (the generic reader also took faculty-directory links).
 """
 import os
 import re
@@ -34,16 +38,13 @@ SCHOOL_NAME = 'Bard College'
 CAREERS_LINK = 'https://www.bard.edu/humanresources/employment/'
 ATS_PLATFORM = 'own website'
 
+DOC_RE = r'bard\.edu/humanresources/descriptions/\?id=\d+$'
+
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    return [link for link, _text in lib.linked_documents(CAREERS_LINK, DOC_RE)]
 
 
 def main():

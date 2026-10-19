@@ -2202,11 +2202,11 @@ def fetch_detail_oracle_rest(url):
     return (it.get('Title') or '').strip()[:250], re.sub(r'\s+', ' ', ' '.join(lead) + ' ' + body)[:20000]
 
 
-def fetch_detail_accordion(url, header_selector, render=False):
+def fetch_detail_accordion(url, header_selector, render=False, real_chrome=False):
     """(title, description) for a job published as an expandable section of
     one page (url = page + "#<slug>", see jlib.accordion_items)."""
     page, _, slug = url.partition('#')
-    item = next((it for it in jlib.accordion_items(page, header_selector, render=render) if it[0] == slug), None)
+    item = next((it for it in jlib.accordion_items(page, header_selector, render=render, real_chrome=real_chrome) if it[0] == slug), None)
     if item is None:
         raise RuntimeError('section no longer on the page')
     return item[1][:250], f'{item[1]}. {item[2]}'[:20000]
@@ -2430,6 +2430,31 @@ def fetch_detail_ultipro(url):
     return title[:250], re.sub(r'\s+', ' ', f'{title}. {body}')[:20000]
 
 
+def fetch_detail_ukg_ready(url):
+    """(title, description) for a UKG Ready posting (<host>/ta/<Company>.careers
+    ?ShowJob=<id>), from the board's public requisition API -- the page
+    itself is script-built. The job category and employee type ("FT
+    Faculty", "Adjunct") lead the text."""
+    from bs4 import BeautifulSoup
+    m = re.match(r'https://([^/]+)/ta/([^/.]+)\.(?:careers|jobs)\?.*?ShowJob=(\d+)', url, re.I)
+    if not m:
+        raise RuntimeError('not a UKG Ready posting url')
+    host, company, jid = m.groups()
+    status, text = jlib.fetch_static(
+        f'https://{host}/ta/rest/ui/recruitment/companies/%7C{company}/job-requisitions/{jid}',
+        extra_headers={'Accept': 'application/json'})
+    if status != 200:
+        raise RuntimeError(f'requisition api status={status} (closed?)')
+    d = json.loads(text)
+    title = (d.get('job_title') or '').strip()
+    if not title:
+        raise RuntimeError('requisition has no title (closed?)')
+    lead = ' '.join(filter(None, ['Job category: ' + ', '.join(d.get('job_categories') or []),
+                                  'Employee type: ' + ((d.get('employee_type') or {}).get('name') or '')]))
+    body = BeautifulSoup(d.get('job_preview') or d.get('job_description') or '', 'html.parser').get_text(' ', strip=True)
+    return title[:250], re.sub(r'\s+', ' ', f'{title}. {lead}. {body}')[:20000]
+
+
 _BOARD_PAGE = {}
 
 
@@ -2483,6 +2508,9 @@ def fetch_detail_board_title(url):
         raise RuntimeError('board answered with its human-verification page (rate limit)')
     m = re.match(r'(.{3,200}) - [^-]+, United States\b', page_title)
     title = (m.group(1) if m else page_title).strip()
+    if title.startswith('Search Page'):
+        # a closed posting redirects to the board's search page
+        raise RuntimeError('posting not on the page (closed?)')
     for tag in soup(['script', 'style', 'nav', 'header', 'footer']):
         tag.decompose()
     text = re.sub(r'\s+', ' ', soup.get_text(' ', strip=True))

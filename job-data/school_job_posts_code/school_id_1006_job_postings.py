@@ -20,6 +20,9 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_1006_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1006_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Faculty openings are expandable sections of the faculty-positions page.
 """
 import os
 import re
@@ -34,19 +37,14 @@ SCHOOL_NAME = 'St. Thomas Aquinas College'
 CAREERS_LINK = 'https://stac.edu/offices/human-resources/employment-opportunities/faculty-positions/'
 ATS_PLATFORM = 'own website'
 
+HEADER = 'button.accordion__item-heading'
+
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    """CUSTOMIZED: this school writes each opening as a SECTION of its
-    careers page -- there is no per-job link to collect, which is why every
-    link-based scraper returned 0 row(s) against 2 real openings
-    on the page.
-
-    Each section becomes CAREERS_LINK + '#' + a slug of its own heading,
-    and school_id_1006_job_info.py resolves that fragment back to the
-    section's text."""
-    return lib.scrape_inline_listing(CAREERS_LINK)
+    page = CAREERS_LINK.split('#')[0]
+    return [f'{page}#{slug}' for slug, _t, _b in lib.accordion_items(page, HEADER, render=False)]
 
 
 def main():

@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 912 - SUNY-Brockport (US)
 ATS platform: own website
-Careers link: https://www.brockport.edu/support/human-resources/careers/
+Careers link: https://www.schooljobs.com/careers/brockport?jobType[0]=Faculty%20Full-Time&jobType[1]=Adjunct%20Part-Time&sort=PositionTitle%7CAscending
 
 Reads posting URLs from school_id_912_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 912
 SCHOOL_NAME = "SUNY-Brockport"
-CAREERS_LINK = 'https://www.brockport.edu/support/human-resources/careers/'
+CAREERS_LINK = 'https://www.schooljobs.com/careers/brockport?jobType[0]=Faculty%20Full-Time&jobType[1]=Adjunct%20Part-Time&sort=PositionTitle%7CAscending'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 
@@ -38,13 +38,8 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """This school's own detail-page logic, owned by this file. The default
-    renders the page, picks the most job-title-shaped heading, and takes the
-    visible text as the description. Override when a posting page needs
-    something else -- a nested iframe, a cookie gate, a PDF, or a title that
-    only exists in <title> (all of which came up in the non-US set)."""
-    return jinfo.fetch_detail_generic(url)
-
+    """NEOGOV posting, read from the advert's own panel."""
+    return jinfo.fetch_detail_neogov(url)
 
 
 def main():
