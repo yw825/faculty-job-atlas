@@ -20,6 +20,9 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_1068_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1068_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Faculty openings are pages linked from the faculty-openings page.
 """
 import os
 import re
@@ -34,16 +37,15 @@ SCHOOL_NAME = 'Franciscan University of Steubenville'
 CAREERS_LINK = 'http://franciscan.edu/faculty-openings/'
 ATS_PLATFORM = 'own website'
 
+DOC_RE = r'^https?://franciscan\.edu/[a-z0-9-]+/$'
+
+ONLY = r'(?i)professor|faculty|instructor|lecturer|postdoc|chair|dean'
+
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    return [link for link, _text in lib.linked_documents(CAREERS_LINK, DOC_RE, only_text=ONLY, render=True)]
 
 
 def main():

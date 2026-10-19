@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1186 - Westminster College (US)
 ATS platform: own website
-Careers link: https://my.westminster.edu/ics/Campus_Life/Campus_Groups/Human_Resources__Employment/Overview.jnz
+Careers link: https://www.westminster.edu/about/community/employment.cfm
 
 Reads posting URLs from school_id_1186_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -33,18 +33,21 @@ CAREERS_LINK = 'https://www.westminster.edu/about/community/employment.cfm'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 
+START = r'^Faculty Positions'
+
+STOP = r'^(Physical Plant|Support Staff|Statement)'
+
 JOB_POSTINGS_CHECKPOINT = os.path.join(
     HERE, '..', 'school_job_posts_code', f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """This school's own detail-page logic, owned by this file. The default
-    renders the page, picks the most job-title-shaped heading, and takes the
-    visible text as the description. Override when a posting page needs
-    something else -- a nested iframe, a cookie gate, a PDF, or a title that
-    only exists in <title> (all of which came up in the non-US set)."""
-    return jinfo.fetch_detail_generic(url)
-
+    """an opening written as a paragraph of the employment page (url #<slug>)."""
+    page, slug = url.split('#', 1)
+    for s, title, body in jinfo.jlib.section_openings(page, START, STOP):
+        if s == slug:
+            return title, f'{title}. {body}'
+    raise RuntimeError('opening no longer on the page')
 
 
 def main():

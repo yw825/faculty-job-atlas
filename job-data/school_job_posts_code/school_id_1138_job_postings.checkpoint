@@ -1,22 +1,18 @@
 {
   "links": [
+    "https://www.paycomonline.net/v4/ats/web.php/portal/04C041120ED4B4CA39C09ACAC69625CF/jobs/344842",
+    "https://www.paycomonline.net/v4/ats/web.php/portal/04C041120ED4B4CA39C09ACAC69625CF/jobs/349127",
+    "https://www.paycomonline.net/v4/ats/web.php/portal/04C041120ED4B4CA39C09ACAC69625CF/jobs/341450",
     "https://www.paycomonline.net/v4/ats/web.php/portal/04C041120ED4B4CA39C09ACAC69625CF/jobs/339840",
-    "https://www.paycomonline.net/v4/ats/web.php/portal/04C041120ED4B4CA39C09ACAC69625CF/jobs/338226",
-    "https://www.paycomonline.net/v4/ats/web.php/portal/04C041120ED4B4CA39C09ACAC69625CF/jobs/335998",
     "https://www.paycomonline.net/v4/ats/web.php/portal/04C041120ED4B4CA39C09ACAC69625CF/jobs/335968",
     "https://www.paycomonline.net/v4/ats/web.php/portal/04C041120ED4B4CA39C09ACAC69625CF/jobs/328673",
-    "https://www.paycomonline.net/v4/ats/web.php/portal/04C041120ED4B4CA39C09ACAC69625CF/jobs/320825",
-    "https://www.paycomonline.net/v4/ats/web.php/portal/04C041120ED4B4CA39C09ACAC69625CF/jobs/315797",
     "https://www.paycomonline.net/v4/ats/web.php/portal/04C041120ED4B4CA39C09ACAC69625CF/jobs/314471",
-    "https://www.paycomonline.net/v4/ats/web.php/portal/04C041120ED4B4CA39C09ACAC69625CF/jobs/308051",
-    "https://www.paycomonline.net/v4/ats/web.php/portal/04C041120ED4B4CA39C09ACAC69625CF/jobs/305412",
-    "https://www.paycomonline.net/v4/ats/web.php/portal/04C041120ED4B4CA39C09ACAC69625CF/jobs/341450",
-    "https://www.paycomonline.net/v4/ats/web.php/portal/04C041120ED4B4CA39C09ACAC69625CF/jobs/344842"
+    "https://www.paycomonline.net/v4/ats/web.php/portal/04C041120ED4B4CA39C09ACAC69625CF/jobs/308051"
   ],
   "school_id": 1138,
-  "status": "error",
-  "updated_at": "2026-10-05T19:22:53+00:00",
+  "status": "complete",
+  "updated_at": "2026-10-19T20:17:30+00:00",
   "started_at": "2026-09-08T17:53:49+00:00",
-  "completed_at": "2026-09-29T19:05:13+00:00",
-  "last_error": "RuntimeError: no paycom postings found"
+  "completed_at": "2026-10-19T20:17:30+00:00",
+  "last_error": ""
 }

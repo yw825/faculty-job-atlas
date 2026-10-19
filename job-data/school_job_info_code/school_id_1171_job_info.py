@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1171 - Saint Vincent College (US)
 ATS platform: own website
-Careers link: https://www.stvincent.edu/resources/careers.html
+Careers link: https://www2.appone.com/Search/Search.aspx?ServerVar=saintvincentcollege.appone.com
 
 Reads posting URLs from school_id_1171_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1171
 SCHOOL_NAME = 'Saint Vincent College'
-CAREERS_LINK = 'https://www.stvincent.edu/resources/careers.html'
+CAREERS_LINK = 'https://www2.appone.com/Search/Search.aspx?ServerVar=saintvincentcollege.appone.com'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 
@@ -38,13 +38,10 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """This school's own detail-page logic, owned by this file. The default
-    renders the page, picks the most job-title-shaped heading, and takes the
-    visible text as the description. Override when a posting page needs
-    something else -- a nested iframe, a cookie gate, a PDF, or a title that
-    only exists in <title> (all of which came up in the non-US set)."""
-    return jinfo.fetch_detail_generic(url)
-
+    """AppOne pages read "Job Information: <title> Job"."""
+    title, text = jinfo.fetch_detail_generic(url)
+    m = re.search(r'Job Information:\s*(.{3,200}?)\s+Job\b', text[:1500])
+    return (m.group(1) if m else title), text
 
 
 def main():

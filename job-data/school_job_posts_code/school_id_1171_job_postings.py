@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 1171 - Saint Vincent College (US)
 ATS platform: own website
-Careers link: https://www.stvincent.edu/resources/careers.html
+Careers link: https://www2.appone.com/Search/Search.aspx?ServerVar=saintvincentcollege.appone.com
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -20,6 +20,11 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_1171_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1171_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Saint Vincent's AppOne (Paychex) board: each posting is MainInfoReq.asp?R_ID=<n>.
+Saint Vincent's AppOne (Paychex) board, browsed by category: each posting is
+MainInfoReq.asp?R_ID=<n>.
 """
 import os
 import re
@@ -31,19 +36,18 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1171
 SCHOOL_NAME = 'Saint Vincent College'
-CAREERS_LINK = 'https://www.stvincent.edu/resources/careers.html'
+CAREERS_LINK = 'https://www2.appone.com/Search/Search.aspx?ServerVar=saintvincentcollege.appone.com'
 ATS_PLATFORM = 'own website'
+
+POSTING_RE = re.compile(r'/appone/MainInfoReq\.asp\?R_ID=\d+', re.I)
+
+BOARD = 'https://recruiting.myapps.paychex.com/appone/Branding/ReqTemplate/BrowseAllJobsbyCategory.asp?Type=REQ&FromID=1&ClientID=26368&B_ID=91&JobCode=0&CountryID=3&LanguageID=2&servervar=saintvincentcollege.appone.com'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    return lib.scrape_matching(BOARD, POSTING_RE, render=True, wait_ms=6000)
 
 
 def main():

@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 1149 - Lafayette College (US)
 ATS platform: own website
-Careers link: http://hr.lafayette.edu/employment/job-opportunities/
+Careers link: https://provost.lafayette.edu/faculty-positions-available/
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -20,6 +20,9 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_1149_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1149_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Each opening is a provost-site page linked from the positions page.
 """
 import os
 import re
@@ -31,19 +34,20 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1149
 SCHOOL_NAME = 'Lafayette College'
-CAREERS_LINK = 'http://hr.lafayette.edu/employment/job-opportunities/'
+CAREERS_LINK = 'https://provost.lafayette.edu/faculty-positions-available/'
 ATS_PLATFORM = 'own website'
+
+DOC_RE = r'^https://provost\.lafayette\.edu/[a-z0-9-]+/$'
+
+ONLY = r'(?i)professor|lecturer|instructor|postdoc|fellow|director|dean|chair|department'
+
+POSTING_RE = re.compile(r'^https://provost\.lafayette\.edu/(\d{4}-\d{2}-[a-z0-9-]+|[a-z0-9-]*(?:prof|vap|asst|lecturer|postdoc|fellow|instructor)[a-z0-9-]*)/$')
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    return lib.scrape_matching(CAREERS_LINK, POSTING_RE, render=True, wait_ms=6000)
 
 
 def main():

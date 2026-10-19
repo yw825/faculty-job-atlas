@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 1205 - Alvernia University (US)
 ATS platform: own website
-Careers link: https://www.alvernia.edu/community-engagement/holleran-center-community-and-global-engagement/holleran-center-community-service%C2%A0
+Careers link: https://www.alvernia.edu/faculty-staff/human-resources/employment-opportunities
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -20,6 +20,9 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_1205_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1205_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+The careers page sends applicants to this ADP Workforce Now board (whole board).
 """
 import os
 import re
@@ -31,8 +34,10 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1205
 SCHOOL_NAME = 'Alvernia University'
-CAREERS_LINK = 'https://www.alvernia.edu/community-engagement/holleran-center-community-and-global-engagement/holleran-center-community-service%C2%A0'
+CAREERS_LINK = 'https://www.alvernia.edu/faculty-staff/human-resources/employment-opportunities'
 ATS_PLATFORM = 'own website'
+
+BOARD = 'https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=1b9ea04c-142e-4aa7-8d21-45439ca5b76b&ccId=19000101_000001&lang=en_US'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
@@ -41,36 +46,7 @@ POSTING_PATTERN = 'www.alvernia.edu/<*>'
 
 
 def find_links():
-    """CUSTOMIZED: postings on this site are the links matching one repeated
-    URL shape, found structurally rather than by keyword and then confirmed
-    by opening two of them and checking they read like job postings
-    (title_role=0 degree=0 furniture=2 len=12820; title_role=0 degree=0 furniture=2 len=8496).
-
-        www.alvernia.edu/<*>
-
-    The generic job-word filter returned 7 link(s) here against 12
-    actually on the page -- this site's posting URLs carry no job word at
-    all, which is why matching on words missed them."""
-    import sys, os
-    sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-    from bs4 import BeautifulSoup
-    from urllib.parse import urljoin
-    import deep_probe
-
-    html = lib.fetch_rendered(CAREERS_LINK, wait_ms=5000)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    soup = BeautifulSoup(html, 'html.parser')
-    out = []
-    for a in soup.find_all('a', href=True):
-        href = a['href'].strip()
-        if not href or href.startswith(('#', 'mailto:', 'javascript:', 'tel:')):
-            continue
-        if deep_probe.templatize(href, CAREERS_LINK) == POSTING_PATTERN:
-            full = urljoin(CAREERS_LINK, href)
-            if full not in out:
-                out.append(full)
-    return out
+    return lib.scrape_adp(BOARD)
 
 
 def main():

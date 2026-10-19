@@ -1988,6 +1988,9 @@ def fetch_detail_interfolio(url):
     parts = [r.get('landing_page_description') or '', r.get('qualifications') or '',
              r.get('application_instructions') or '']
     text = BeautifulSoup(' '.join(parts), 'html.parser').get_text(' ', strip=True)
+    if not (r.get('position_name') or '').strip():
+        # a closed position can answer 200 with an empty record (28 of Penn's)
+        raise RuntimeError('interfolio position has no name (closed?)')
     head = [f"Department: {r['institution']}" if r.get('institution') else '',
             f"Location: {r['location']}" if r.get('location') else '']
     return (r.get('position_name') or '').strip(), ' '.join(h for h in head + [text] if h)

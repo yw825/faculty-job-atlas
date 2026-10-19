@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1222 - Waynesburg University (US)
 ATS platform: own website
-Careers link: http://www.facebook.com/share.php?u=https://www.waynesburg.edu/careers&title=Careers
+Careers link: https://www.waynesburg.edu/careers
 
 Reads posting URLs from school_id_1222_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -33,18 +33,16 @@ CAREERS_LINK = 'https://www.waynesburg.edu/careers'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 
+HEADER = 'h2.accordion__heading'
+
 JOB_POSTINGS_CHECKPOINT = os.path.join(
     HERE, '..', 'school_job_posts_code', f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """This school's own detail-page logic, owned by this file. The default
-    renders the page, picks the most job-title-shaped heading, and takes the
-    visible text as the description. Override when a posting page needs
-    something else -- a nested iframe, a cookie gate, a PDF, or a title that
-    only exists in <title> (all of which came up in the non-US set)."""
-    return jinfo.fetch_detail_generic(url)
-
+    """an advert written as an expandable section of the careers page (url #<slug>)."""
+    title, text = jinfo.fetch_detail_accordion(url, HEADER, render=True)
+    return title, text
 
 
 def main():

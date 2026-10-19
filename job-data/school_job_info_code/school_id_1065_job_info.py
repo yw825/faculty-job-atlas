@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1065 - Ursuline College (US)
 ATS platform: own website
-Careers link: https://www.ursuline.edu/inside-ursuline/employment/inside-ursuline/employment/job-opportunities
+Careers link: https://www.ursuline.edu/inside-ursuline/employment/job-opportunities
 
 Reads posting URLs from school_id_1065_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1065
 SCHOOL_NAME = 'Ursuline College'
-CAREERS_LINK = 'https://www.ursuline.edu/inside-ursuline/employment/inside-ursuline/employment/job-opportunities'
+CAREERS_LINK = 'https://www.ursuline.edu/inside-ursuline/employment/job-opportunities'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

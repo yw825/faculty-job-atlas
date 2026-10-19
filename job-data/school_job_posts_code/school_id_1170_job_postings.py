@@ -20,6 +20,12 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_1170_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1170_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+The careers page embeds a Paycor (Newton) board (?gnk=job&gni=<id> on the page is the
+Paycor job id); the board itself is read.
+The careers page holds a Paycor board in a frame; opened directly the board bounces
+back to the school page, so the frame is read (lib.scrape_paycor_frame).
 """
 import os
 import re
@@ -34,16 +40,13 @@ SCHOOL_NAME = 'Cairn University-Langhorne'
 CAREERS_LINK = 'https://cairn.edu/hr/jobs/'
 ATS_PLATFORM = 'own website'
 
+BOARD = 'https://recruitingbypaycor.com/career/CareerHome.action?clientId=8a7883c66a70ac34016a7fb2097a14b9'
+
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    return lib.scrape_paycor_frame(CAREERS_LINK)
 
 
 def main():

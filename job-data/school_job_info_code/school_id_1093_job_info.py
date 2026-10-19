@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1093 - Cameron University (US)
 ATS platform: own website
-Careers link: https://jobs.silkroad.com/Cameron/Careers/jobs/1802
+Careers link: https://jobs.silkroad.com/Cameron/Careers/jobs
 
 Reads posting URLs from school_id_1093_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1093
 SCHOOL_NAME = 'Cameron University'
-CAREERS_LINK = 'https://jobs.silkroad.com/Cameron/Careers/jobs/1802'
+CAREERS_LINK = 'https://jobs.silkroad.com/Cameron/Careers/jobs'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

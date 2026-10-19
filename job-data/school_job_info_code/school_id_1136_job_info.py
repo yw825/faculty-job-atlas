@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1136 - DeSales University (US)
 ATS platform: own website
-Careers link: https://recruitingbypaycor.com/career/CareerHome.action?clientId=8a7883d0930d0e990193232e613f0336
+Careers link: https://www.desales.edu/about/employment
 
 Reads posting URLs from school_id_1136_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,22 +29,20 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1136
 SCHOOL_NAME = 'DeSales University'
-CAREERS_LINK = 'https://recruitingbypaycor.com/career/CareerHome.action?clientId=8a7883d0930d0e990193232e613f0336'
+CAREERS_LINK = 'https://www.desales.edu/about/employment'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
+
+HEADER = 'h2#sectionTitle2 + div.accordion button.accordionTrigger'
 
 JOB_POSTINGS_CHECKPOINT = os.path.join(
     HERE, '..', 'school_job_posts_code', f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """This school's own detail-page logic, owned by this file. The default
-    renders the page, picks the most job-title-shaped heading, and takes the
-    visible text as the description. Override when a posting page needs
-    something else -- a nested iframe, a cookie gate, a PDF, or a title that
-    only exists in <title> (all of which came up in the non-US set)."""
-    return jinfo.fetch_detail_generic(url)
-
+    """an advert written as an expandable section of the careers page (url #<slug>); the
+row title keeps its "Full-Time:" / "Adjunct:" prefix (without it some read "Biology")."""
+    return jinfo.fetch_detail_accordion(url, HEADER, render=True)
 
 
 def main():

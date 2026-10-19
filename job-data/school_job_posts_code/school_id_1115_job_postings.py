@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 1115 - George Fox University (US)
 ATS platform: ApplicantPool (three separate boards)
-Careers link: https://www.georgefox.edu/offices/hr/careers/index.html
+Careers link: https://georgefoxfaculty.applicantpool.com/jobs/
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file.
@@ -14,6 +14,9 @@ three boards are read here and their postings unioned.
 
 Writes school_job_posts/school_id_1115_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1115_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+ApplicantPool faculty board.
 """
 import os
 import re
@@ -25,31 +28,21 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1115
 SCHOOL_NAME = 'George Fox University'
-CAREERS_LINK = 'https://www.georgefox.edu/offices/hr/careers/index.html'
+CAREERS_LINK = 'https://georgefoxfaculty.applicantpool.com/jobs/'
 ATS_PLATFORM = 'ApplicantPool'
 
-BOARDS = ['https://georgefoxfaculty.applicantpool.com/jobs/',
-          'https://georgefoxstaff.applicantpool.com/jobs/',
-          'https://georgefoxadjunct.applicantpool.com/jobs/']
-POSTING = re.compile(r'https://georgefox[a-z]*\.applicantpool\.com/jobs/\d+')
+# Faculty and adjunct openings sit on two ApplicantPool boards (the staff board is left out).
+BOARDS = ('https://georgefoxfaculty.applicantpool.com/jobs/',
+          'https://georgefoxadjunct.applicantpool.com/jobs/')
+POSTING_RE = re.compile(r'^https://georgefox(?:faculty|adjunct)\.applicantpool\.com/jobs/\d+$')
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    links, seen, failures = [], set(), []
+    links = []
     for board in BOARDS:
-        html = lib.fetch_rendered(board, wait_ms=8000)
-        if lib.is_fetch_failure(html):
-            failures.append(f'{board}: {html[:60]}')
-            continue
-        for u in sorted(set(POSTING.findall(html))):
-            if u not in seen:
-                seen.add(u)
-                links.append(u)
-    if not links:
-        raise RuntimeError('no postings on any george fox board; '
-                           + ' | '.join(failures))
+        links += [u for u in lib.scrape_matching(board, POSTING_RE, render=True, wait_ms=6000) if u not in links]
     return links
 
 

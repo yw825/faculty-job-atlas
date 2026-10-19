@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 1144 - Misericordia University (US)
 ATS platform: own website
-Careers link: https://www.misericordia.edu/campus-community/other-offices/human-resources/employment-opportunities
+Careers link: https://www.misericordia.edu/campus-community/other-offices/human-resources/employment-opportunities/faculty-employee-opportunities
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -20,6 +20,9 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_1144_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1144_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+The careers page sends applicants to this ADP Workforce Now board (whole board).
 """
 import os
 import re
@@ -31,19 +34,16 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1144
 SCHOOL_NAME = 'Misericordia University'
-CAREERS_LINK = 'https://www.misericordia.edu/campus-community/other-offices/human-resources/employment-opportunities'
+CAREERS_LINK = 'https://www.misericordia.edu/campus-community/other-offices/human-resources/employment-opportunities/faculty-employee-opportunities'
 ATS_PLATFORM = 'own website'
+
+BOARD = 'https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=d687b185-ab48-45f0-afcf-5b1ceb8d32ea&ccId=9200921635429_3&lang=en_US'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    return lib.scrape_adp(BOARD)
 
 
 def main():

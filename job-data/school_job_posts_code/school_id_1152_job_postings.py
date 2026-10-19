@@ -20,6 +20,9 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_1152_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1152_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Openings are accordion items (each with a PDF).
 """
 import os
 import re
@@ -34,16 +37,14 @@ SCHOOL_NAME = 'Mercyhurst University'
 CAREERS_LINK = 'https://www.mercyhurst.edu/human-resources/jobs'
 ATS_PLATFORM = 'own website'
 
+HEADER = 'button.component-accordion__item-heading'
+
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    page = CAREERS_LINK.split('#')[0]
+    return [f'{page}#{slug}' for slug, _t, _b in lib.accordion_items(page, HEADER, render=True)]
 
 
 def main():

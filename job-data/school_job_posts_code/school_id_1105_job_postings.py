@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 1105 - Southern Oregon University (US)
 ATS platform: own website
-Careers link: https://hrs.sou.edu/working-at-sou/search-jobs/
+Careers link: https://sou.wd1.myworkdayjobs.com/Southern_Oregon_University?jobFamilyGroup=edc27d4214f21000cad5ca246d830001
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -20,6 +20,9 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_1105_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1105_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Workday board; the link's facets (job family / location) are kept.
 """
 import os
 import re
@@ -31,19 +34,14 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1105
 SCHOOL_NAME = 'Southern Oregon University'
-CAREERS_LINK = 'https://hrs.sou.edu/working-at-sou/search-jobs/'
+CAREERS_LINK = 'https://sou.wd1.myworkdayjobs.com/Southern_Oregon_University?jobFamilyGroup=edc27d4214f21000cad5ca246d830001'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    return lib.PLATFORM_ADAPTERS['workday'](CAREERS_LINK, SCHOOL_NAME)
 
 
 def main():

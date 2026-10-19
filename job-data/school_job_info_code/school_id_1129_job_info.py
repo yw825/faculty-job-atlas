@@ -33,18 +33,17 @@ CAREERS_LINK = 'https://www.neumann.edu/about/humanresources/employment#Faculty'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 
+HEADER = '#Faculty h3'
+
 JOB_POSTINGS_CHECKPOINT = os.path.join(
     HERE, '..', 'school_job_posts_code', f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """This school's own detail-page logic, owned by this file. The default
-    renders the page, picks the most job-title-shaped heading, and takes the
-    visible text as the description. Override when a posting page needs
-    something else -- a nested iframe, a cookie gate, a PDF, or a title that
-    only exists in <title> (all of which came up in the non-US set)."""
-    return jinfo.fetch_detail_generic(url)
-
+    """an advert written as an expandable section of the careers page (url #<slug>)."""
+    title, text = jinfo.fetch_detail_accordion(url, HEADER, render=True)
+    title = re.sub(r'^Job Title:\s*', '', title).strip()
+    return title, text
 
 
 def main():

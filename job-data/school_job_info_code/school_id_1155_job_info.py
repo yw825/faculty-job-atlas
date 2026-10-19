@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1155 - Arcadia University (US)
 ATS platform: own website
-Careers link: https://www.arcadia.edu/about-arcadia/offices-facilities-services/human-resources
+Careers link: https://arcadia.isolvedhire.com/jobsearch/
 
 Reads posting URLs from school_id_1155_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1155
 SCHOOL_NAME = 'Arcadia University'
-CAREERS_LINK = 'https://www.arcadia.edu/about-arcadia/offices-facilities-services/human-resources'
+CAREERS_LINK = 'https://arcadia.isolvedhire.com/jobsearch/'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

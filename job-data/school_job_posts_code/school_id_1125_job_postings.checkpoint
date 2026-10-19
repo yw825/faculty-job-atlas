@@ -3,16 +3,9 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/62D4FBF25A09F3EBE58345A7B7B899F9/jobs/57646",
     "https://www.paycomonline.net/v4/ats/web.php/portal/62D4FBF25A09F3EBE58345A7B7B899F9/jobs/95718",
     "https://www.paycomonline.net/v4/ats/web.php/portal/62D4FBF25A09F3EBE58345A7B7B899F9/jobs/87597",
-    "https://www.paycomonline.net/v4/ats/web.php/portal/62D4FBF25A09F3EBE58345A7B7B899F9/jobs/96969",
-    "https://www.paycomonline.net/v4/ats/web.php/portal/62D4FBF25A09F3EBE58345A7B7B899F9/jobs/103681",
-    "https://www.paycomonline.net/v4/ats/web.php/portal/62D4FBF25A09F3EBE58345A7B7B899F9/jobs/106681",
     "https://www.paycomonline.net/v4/ats/web.php/portal/62D4FBF25A09F3EBE58345A7B7B899F9/jobs/95748",
-    "https://www.paycomonline.net/v4/ats/web.php/portal/62D4FBF25A09F3EBE58345A7B7B899F9/jobs/105512",
     "https://www.paycomonline.net/v4/ats/web.php/portal/62D4FBF25A09F3EBE58345A7B7B899F9/jobs/57614",
-    "https://www.paycomonline.net/v4/ats/web.php/portal/62D4FBF25A09F3EBE58345A7B7B899F9/jobs/105311",
-    "https://www.paycomonline.net/v4/ats/web.php/portal/62D4FBF25A09F3EBE58345A7B7B899F9/jobs/96232",
-    "https://www.paycomonline.net/v4/ats/web.php/portal/62D4FBF25A09F3EBE58345A7B7B899F9/jobs/79615",
-    "https://www.paycomonline.net/v4/ats/web.php/portal/62D4FBF25A09F3EBE58345A7B7B899F9/jobs/78788",
+    "https://www.paycomonline.net/v4/ats/web.php/portal/62D4FBF25A09F3EBE58345A7B7B899F9/jobs/113892",
     "https://www.paycomonline.net/v4/ats/web.php/portal/62D4FBF25A09F3EBE58345A7B7B899F9/jobs/108883",
     "https://www.paycomonline.net/v4/ats/web.php/portal/62D4FBF25A09F3EBE58345A7B7B899F9/jobs/80301",
     "https://www.paycomonline.net/v4/ats/web.php/portal/62D4FBF25A09F3EBE58345A7B7B899F9/jobs/82055",
@@ -21,9 +14,9 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/62D4FBF25A09F3EBE58345A7B7B899F9/jobs/110765"
   ],
   "school_id": 1125,
-  "status": "error",
-  "updated_at": "2026-10-05T19:21:35+00:00",
+  "status": "complete",
+  "updated_at": "2026-10-19T20:17:22+00:00",
   "started_at": "2026-09-08T17:53:40+00:00",
-  "completed_at": "2026-10-02T19:52:40+00:00",
-  "last_error": "RuntimeError: no paycom postings found"
+  "completed_at": "2026-10-19T20:17:22+00:00",
+  "last_error": ""
 }

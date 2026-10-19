@@ -1086,7 +1086,11 @@ def scrape_paycor(url):
         raise RuntimeError(html[:90])
     pat = re.compile(r'https://recruitingbypaycor\.com/career/'
                      r'JobIntroduction\.action\?[^\s"\'<>]+', re.I)
-    links = sorted(set(pat.findall(html)))
+    # hrefs are read from the raw HTML, so "&amp;" must be undone: kept
+    # as-is the id arrives as a parameter named "amp;id" and the posting
+    # page opens the board (Bushnell, Mount Aloysius).
+    import html as _html
+    links = sorted(set(_html.unescape(u) for u in pat.findall(html)))
     if not links:
         raise RuntimeError('paycor board returned no postings')
     return links
@@ -3089,6 +3093,97 @@ def interfolio_positions(url):
                          'location': one.get('location') or ''}]
         raise RuntimeError(f'Interfolio board {board} returned no positions')
     return out
+
+
+def wp_job_manager_links(site, max_pages=20):
+    """Job links from a WordPress "WP Job Manager" board through its own list
+    service (<site>/jm-ajax/get_listings/), which the page calls as you
+    scroll: Antioch's employment page renders 22 of its 84 jobs. Postings
+    are <site>/job/<slug>/."""
+    from urllib.parse import urljoin
+    links = []
+    for page in range(1, max_pages + 1):
+        status, text = fetch_static(f"{site.rstrip('/')}/jm-ajax/get_listings/?per_page=100&page={page}",
+                                    extra_headers={'Accept': 'application/json'})
+        if status != 200:
+            raise RuntimeError(f'jm-ajax status={status}')
+        data = json.loads(text)
+        fresh = [urljoin(site, h) for h in re.findall(r'href="([^"]*/job/[^"]+)"', data.get('html') or '')]
+        fresh = [h for h in dict.fromkeys(fresh) if h not in links]
+        links.extend(fresh)
+        if not fresh or page >= int(data.get('max_num_pages') or 1):
+            break
+    return links
+
+
+def scrape_interfolio_located(boards, include=None, exclude=None):
+    """Public Interfolio links (legacy_position_id) from one or more boards,
+    kept by the position's own location text: a regex `include` must match
+    and `exclude` must not. OU's Norman (16123) and Health Campus (46259)
+    boards both carry Tulsa jobs ("Tulsa, OK", "OU Polytechnic Institute in
+    Tulsa"), which belong to the OU-Tulsa row."""
+    links = []
+    for board in boards:
+        for r in interfolio_positions(board):
+            loc = str(r.get('location') or '')
+            if include and not re.search(include, loc):
+                continue
+            if exclude and re.search(exclude, loc):
+                continue
+            pid = r.get('legacy_position_id') or r.get('id')
+            link = f'https://apply.interfolio.com/{pid}'
+            if pid and link not in links:
+                links.append(link)
+    return links
+
+
+def taleo_rest_jobs(host, section, portal, location_ids=(), max_pages=40):
+    """jobdetail links from a Taleo career section's REST search
+    (/careersection/rest/jobboard/searchjobs), optionally filtered by
+    LOCATION facet ids. The classic jobsearch.ftl page ignores a location
+    parameter in its address, so a campus of a system sharing one section
+    (Pitt: Pittsburgh 14100023232, Johnstown 12300023232, Bradford
+    10100023232, Greensburg 11900023232) is read here. 25 per page."""
+    sess = requests.Session()
+    sess.headers.update({'User-Agent': UA, 'Accept': 'application/json', 'Content-Type': 'application/json',
+                         'tz': 'GMT-04:00', 'tzname': 'America/New_York'})
+    sess.get(f'https://{host}/careersection/{section}/jobsearch.ftl?lang=en', timeout=30)
+    links, total = [], None
+    for page in range(1, max_pages + 1):
+        body = {'multilineEnabled': False,
+                'sortingSelection': {'sortBySelectionParam': '3', 'ascendingSortingOrder': 'false'},
+                'fieldData': {'fields': {'KEYWORD': '', 'LOCATION': '', 'ORGANIZATION': ''}, 'valid': True},
+                'filterSelectionParam': {'searchFilterSelections': [
+                    {'id': 'POSTING_DATE', 'selectedValues': []},
+                    {'id': 'LOCATION', 'selectedValues': list(location_ids)},
+                    {'id': 'JOB_FIELD', 'selectedValues': []},
+                    {'id': 'ORGANIZATION', 'selectedValues': []}]},
+                'advancedSearchFiltersSelectionParam': {'searchFilterSelections': []},
+                'pageNo': page}
+        r = sess.post(f'https://{host}/careersection/rest/jobboard/searchjobs?lang=en&portal={portal}', json=body, timeout=40)
+        d = r.json()
+        if d.get('careerSectionUnAvailable'):
+            raise RuntimeError('taleo: career section unavailable (wrong portal number?)')
+        reqs = d.get('requisitionList') or []
+        if total is None:
+            total = (d.get('pagingData') or {}).get('totalCount') or 0
+        fresh = 0
+        for q in reqs:
+            link = f"https://{host}/careersection/{section}/jobdetail.ftl?job={q['contestNo']}&lang=en"
+            if link not in links:
+                links.append(link)
+                fresh += 1
+        if not fresh or len(links) >= total:
+            break
+        time.sleep(0.5)
+    return links
+
+
+def scrape_paycom_types(url, types_re):
+    """Paycom postings whose position type matches `types_re` (UCO's portal
+    holds Student, Staff, Faculty and Adjunct jobs in one list; its Faculty
+    and Adjunct links are only saved searches of that list)."""
+    return [link for link, _title, ptype, _loc in paycom_previews(url) if re.search(types_re, ptype or '')]
 
 
 def columbia_positions(url='https://academic.careers.columbia.edu/'):

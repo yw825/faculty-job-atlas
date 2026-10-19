@@ -20,6 +20,9 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_1060_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1060_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Openings are pages under human-resources/ linked from the careers page sections.
 """
 import os
 import re
@@ -34,6 +37,8 @@ SCHOOL_NAME = 'Muskingum University'
 CAREERS_LINK = 'https://www.muskingum.edu/human-resources/careers'
 ATS_PLATFORM = 'own website'
 
+DOC_RE = r'muskingum\.edu/human-resources/(?!careers|benefits|wellness|financial|retirement|paid-time|campus-amenities|forms|student-employment|policies|staff-council)[a-z0-9-]+$'
+
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
@@ -41,36 +46,7 @@ POSTING_PATTERN = 'www.muskingum.edu/human-resources/<*>'
 
 
 def find_links():
-    """CUSTOMIZED: postings on this site are the links matching one repeated
-    URL shape, found structurally rather than by keyword and then confirmed
-    by opening two of them and checking they read like job postings
-    (title_role=1 degree=0 furniture=3 len=8241; title_role=0 degree=0 furniture=3 len=7608).
-
-        www.muskingum.edu/human-resources/<*>
-
-    The generic job-word filter returned 3 link(s) here against 11
-    actually on the page -- this site's posting URLs carry no job word at
-    all, which is why matching on words missed them."""
-    import sys, os
-    sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-    from bs4 import BeautifulSoup
-    from urllib.parse import urljoin
-    import deep_probe
-
-    html = lib.fetch_rendered(CAREERS_LINK, wait_ms=5000)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    soup = BeautifulSoup(html, 'html.parser')
-    out = []
-    for a in soup.find_all('a', href=True):
-        href = a['href'].strip()
-        if not href or href.startswith(('#', 'mailto:', 'javascript:', 'tel:')):
-            continue
-        if deep_probe.templatize(href, CAREERS_LINK) == POSTING_PATTERN:
-            full = urljoin(CAREERS_LINK, href)
-            if full not in out:
-                out.append(full)
-    return out
+    return [link for link, _text in lib.linked_documents(CAREERS_LINK, DOC_RE, render=True)]
 
 
 def main():

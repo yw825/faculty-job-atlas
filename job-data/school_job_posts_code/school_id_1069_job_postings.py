@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 1069 - Lourdes University (US)
 ATS platform: own website
-Careers link: https://recruiting.paylocity.com/recruiting/jobs/All/6800f223-2b60-47fe-ba0e-3602afc127d6/Lourdes-University
+Careers link: https://www.academicjobs.com/employers/lourdes-university/4696
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -31,7 +31,7 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1069
 SCHOOL_NAME = 'Lourdes University'
-CAREERS_LINK = 'https://recruiting.paylocity.com/recruiting/jobs/All/6800f223-2b60-47fe-ba0e-3602afc127d6/Lourdes-University'
+CAREERS_LINK = 'https://www.academicjobs.com/employers/lourdes-university/4696'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')

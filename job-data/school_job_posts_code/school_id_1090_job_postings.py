@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 1090 - University of Central Oklahoma (US)
 ATS platform: own website
-Careers link: https://www.uco.edu/offices/people-culture/hr/
+Careers link: https://www.paycomonline.net/v4/ats/web.php/portal/05027ACF42B26FF3DD70CE4664A18E9F/career-page?jobSearchSettingsId=7383
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -20,6 +20,11 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_1090_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1090_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+UCO's Paycom portal holds Student, Staff, Faculty and Adjunct jobs; the careers
+link is its Faculty list, and the Adjunct list is a second saved search of the
+same board, so both position types are kept.
 """
 import os
 import re
@@ -31,19 +36,14 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1090
 SCHOOL_NAME = 'University of Central Oklahoma'
-CAREERS_LINK = 'https://www.uco.edu/offices/people-culture/hr/'
+CAREERS_LINK = 'https://www.paycomonline.net/v4/ats/web.php/portal/05027ACF42B26FF3DD70CE4664A18E9F/career-page?jobSearchSettingsId=7383'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    return lib.scrape_paycom_types(CAREERS_LINK, r'^(Faculty|Adjunct)$')
 
 
 def main():

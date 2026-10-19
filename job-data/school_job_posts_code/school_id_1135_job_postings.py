@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 1135 - Dickinson College
 ATS platform: Workday (detected: workday)
-Careers link: https://dickinson.wd108.myworkdayjobs.com/Jobs
+Careers link: https://jobs.dickinson.edu/
 
 Dickinson College runs on a shared ATS platform, so this calls the shared
 job_postings_lib.scrape_workday adapter rather than duplicating
@@ -18,8 +18,12 @@ instead of editing the shared adapter.
 
 Writes school_job_posts/school_id_1135_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1135_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+jobs.dickinson.edu opens Dickinson's Workday site (all 18 jobs; one Faculty job family).
 """
 import os
+import re
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -28,16 +32,21 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1135
 SCHOOL_NAME = 'Dickinson College'
-CAREERS_LINK = 'https://dickinson.wd108.myworkdayjobs.com/Jobs'
+CAREERS_LINK = 'https://jobs.dickinson.edu/'
 ATS_PLATFORM = 'Workday'
 PLATFORM = 'workday'
+
+BOARD = 'https://dickinson.wd108.myworkdayjobs.com/Jobs'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
+def find_links():
+    return lib.PLATFORM_ADAPTERS['workday'](BOARD, SCHOOL_NAME)
+
+
 def main():
-    result = lib.run_platform_school(SCHOOL_ID, SCHOOL_NAME, CAREERS_LINK,
-                                     CHECKPOINT_PATH, platform=PLATFORM)
+    result = lib.run_checkpointed(SCHOOL_ID, CHECKPOINT_PATH, find_links)
     err = result.get('last_error', '')
     print(f"{SCHOOL_NAME} (id={SCHOOL_ID}): status={result['status']} "
           f"links={len(result['links'])}" + (f" ERROR: {err}" if err else ''))

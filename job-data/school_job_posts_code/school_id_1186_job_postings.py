@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 1186 - Westminster College (US)
 ATS platform: own website
-Careers link: https://my.westminster.edu/ics/Campus_Life/Campus_Groups/Human_Resources__Employment/Overview.jnz
+Careers link: https://www.westminster.edu/about/community/employment.cfm
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -20,6 +20,9 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_1186_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1186_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Openings are paragraphs under "Faculty Positions" on the employment page.
 """
 import os
 import re
@@ -34,20 +37,16 @@ SCHOOL_NAME = 'Westminster College'
 CAREERS_LINK = 'https://www.westminster.edu/about/community/employment.cfm'
 ATS_PLATFORM = 'own website'
 
+START = r'^Faculty Positions'
+
+STOP = r'^(Physical Plant|Support Staff|Statement)'
+
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    """NOTE: careers_link was corrected by hand to this school's real
-    employment page, which is the right page for a human -- but it is NOT
-    machine-readable as a listing: it links out to an ATS or names no
-    postings, and every extractor tried returned the site's navigation
-    ("Find Your Way Around Campus!", "Sign in to your account") rather
-    than jobs. Those rows were removed; an empty file is correct here
-    until this school's real board is located."""
-    """CUSTOMIZED: careers_link was corrected by hand (was an authenticated campus-portal (ICS) page).
-    Postings are matched by job word first, by repeated URL shape second."""
-    return lib.scrape_listing(CAREERS_LINK)
+    page = CAREERS_LINK.split('#')[0]
+    return [f'{page}#{slug}' for slug, _t, _b in lib.section_openings(page, START, STOP)]
 
 
 def main():

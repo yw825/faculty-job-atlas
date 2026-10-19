@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1134 - Bryn Mawr College (US)
 ATS platform: Workday
-Careers link: https://brynmawr.wd12.myworkdayjobs.com/External
+Careers link: https://www.brynmawr.edu/inside/academic-information/office-provost/open-faculty-positions
 
 Reads posting URLs from school_id_1134_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1134
 SCHOOL_NAME = 'Bryn Mawr College'
-CAREERS_LINK = 'https://brynmawr.wd12.myworkdayjobs.com/External'
+CAREERS_LINK = 'https://www.brynmawr.edu/inside/academic-information/office-provost/open-faculty-positions'
 ATS_PLATFORM = 'Workday'
 USE_LLM = False
 

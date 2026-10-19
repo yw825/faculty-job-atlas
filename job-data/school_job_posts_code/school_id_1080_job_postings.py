@@ -20,6 +20,12 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_1080_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1080_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+YSU's NEOGOV board, Faculty folder.
+YSU's NEOGOV board, Faculty folder (19; the paged SchoolJobs reader got nothing).
+YSU's NEOGOV board: the Faculty folder holds the full-time faculty jobs; part-time
+faculty (78) are in the main list, typed "Part-time Faculty". Both are kept.
 """
 import os
 import re
@@ -34,16 +40,14 @@ SCHOOL_NAME = 'Youngstown State University'
 CAREERS_LINK = 'http://www.governmentjobs.com/careers/ysu/Faculty?jobType[0]=Faculty&sort=PositionTitle%7CAscending'
 ATS_PLATFORM = 'own website'
 
+BOARD = 'https://www.schooljobs.com/careers/ysu/Faculty?jobType[0]=Faculty'
+
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    jobs = lib.neogov_jobs('ysu', 'Faculty') + [j for j in lib.neogov_jobs('ysu') if j['type'] == 'Part-time Faculty']
+    return list(dict.fromkeys(j['url'] for j in jobs))
 
 
 def main():

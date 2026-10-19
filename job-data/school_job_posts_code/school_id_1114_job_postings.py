@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 1114 - Western Oregon University (US)
 ATS platform: own website
-Careers link: https://wou.edu/hr/employment/jobs/
+Careers link: https://wou.edu/hr/employment/jobs/#FacultyPositions
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -20,6 +20,10 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_1114_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1114_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Openings are PDF announcements; faculty ones are named F<number> (Faculty Openings
+and Faculty Pools sections).
 """
 import os
 import re
@@ -31,19 +35,16 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1114
 SCHOOL_NAME = 'Western Oregon University'
-CAREERS_LINK = 'https://wou.edu/hr/employment/jobs/'
+CAREERS_LINK = 'https://wou.edu/hr/employment/jobs/#FacultyPositions'
 ATS_PLATFORM = 'own website'
+
+DOC_RE = r'cdn\.wou\.edu/hr/files/\d+/\d+/F[^/]*\.pdf$'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    return [link for link, _text in lib.linked_documents(CAREERS_LINK, DOC_RE, render=True)]
 
 
 def main():

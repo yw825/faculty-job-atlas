@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1193 - Temple University (US)
 ATS platform: own website
-Careers link: https://careers.temple.edu/careers-temple/search-and-apply-jobs
+Careers link: https://temple.taleo.net/careersection/tu_ex_faculty/jobsearch.ftl?lang=en
 
 Reads posting URLs from school_id_1193_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1193
 SCHOOL_NAME = 'Temple University'
-CAREERS_LINK = 'https://careers.temple.edu/careers-temple/search-and-apply-jobs'
+CAREERS_LINK = 'https://temple.taleo.net/careersection/tu_ex_faculty/jobsearch.ftl?lang=en'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1202 - University of Pittsburgh-Pittsburgh Campus (US)
 ATS platform: Taleo
-Careers link: https://cfopitt.taleo.net/careersection/pitt_internal/jobsearch.ftl?lang=en&portal=10100023232
+Careers link: https://cfopitt.taleo.net/careersection/pitt_faculty_external/jobsearch.ftl?lang=en
 
 Reads posting URLs from school_id_1202_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1202
 SCHOOL_NAME = 'University of Pittsburgh-Pittsburgh Campus'
-CAREERS_LINK = 'https://cfopitt.taleo.net/careersection/pitt_faculty_external/jobsearch.ftl'
+CAREERS_LINK = 'https://cfopitt.taleo.net/careersection/pitt_faculty_external/jobsearch.ftl?lang=en'
 ATS_PLATFORM = 'Taleo'
 USE_LLM = False
 
@@ -38,13 +38,11 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """This school's own detail-page logic, owned by this file. The default
-    renders the page, picks the most job-title-shaped heading, and takes the
-    visible text as the description. Override when a posting page needs
-    something else -- a nested iframe, a cookie gate, a PDF, or a title that
-    only exists in <title> (all of which came up in the non-US set)."""
-    return jinfo.fetch_detail_generic(url)
-
+    """Pitt's page heads "Job Description - <title> (<number>)"; the generic reader cut the
+title at its first dash."""
+    title, text = jinfo.fetch_detail_generic(url)
+    m = re.match(r'\s*Job Description - (.{3,250}?) \(\d+\)', text)
+    return (m.group(1) if m else title), text
 
 
 def main():

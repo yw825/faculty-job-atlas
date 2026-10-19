@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 1196 - Carlow University (US)
 ATS platform: own website
-Careers link: https://forms.office.com/r/pLvbzux3Wv
+Careers link: https://www.carlow.edu/about/employment/
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -20,6 +20,12 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_1196_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1196_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+The careers page embeds a Paycor (Newton) board (?gnk=job&gni=<id> on the page is the
+Paycor job id); the board itself is read.
+The careers page holds a Paycor board in a frame; opened directly the board bounces
+back to the school page, so the frame is read (lib.scrape_paycor_frame).
 """
 import os
 import re
@@ -31,23 +37,16 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1196
 SCHOOL_NAME = 'Carlow University'
-CAREERS_LINK = 'https://www.carlow.edu/about/administration/departments/human-resources/'
+CAREERS_LINK = 'https://www.carlow.edu/about/employment/'
 ATS_PLATFORM = 'own website'
+
+BOARD = 'https://recruitingbypaycor.com/career/CareerHome.action?clientId=8a7883d061f94ddb0162022ae9e952fc'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    """NOTE: careers_link was corrected by hand to this school's real
-    employment page, which is the right page for a human -- but it is NOT
-    machine-readable as a listing: it links out to an ATS or names no
-    postings, and every extractor tried returned the site's navigation
-    ("Find Your Way Around Campus!", "Sign in to your account") rather
-    than jobs. Those rows were removed; an empty file is correct here
-    until this school's real board is located."""
-    """CUSTOMIZED: careers_link was corrected by hand (was a Microsoft Office Forms survey).
-    Postings are matched by job word first, by repeated URL shape second."""
-    return lib.scrape_listing(CAREERS_LINK)
+    return lib.scrape_paycor_frame(CAREERS_LINK)
 
 
 def main():

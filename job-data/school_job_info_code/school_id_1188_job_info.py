@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1188 - Drexel University (US)
 ATS platform: own website
-Careers link: https://drexel.edu/hr/working-here/career-opportunities
+Careers link: https://careers.drexel.edu/jobs/search?_gl=1%2Anfs5qz%2A_ga%2AODM4MTgzMzQ3LjE3Mzk1MDA1ODM.%2A_ga_6KJ1PNLE19%2AczE3OTI0Mzc4MjMkbzE2MyRnMCR0MTc5MjQzNzgyMyRqNjAkbDAkaDA.
 
 Reads posting URLs from school_id_1188_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1188
 SCHOOL_NAME = 'Drexel University'
-CAREERS_LINK = 'https://drexel.edu/hr/working-here/career-opportunities'
+CAREERS_LINK = 'https://careers.drexel.edu/jobs/search?_gl=1%2Anfs5qz%2A_ga%2AODM4MTgzMzQ3LjE3Mzk1MDA1ODM.%2A_ga_6KJ1PNLE19%2AczE3OTI0Mzc4MjMkbzE2MyRnMCR0MTc5MjQzNzgyMyRqNjAkbDAkaDA.'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 
@@ -38,13 +38,8 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """This school's own detail-page logic, owned by this file. The default
-    renders the page, picks the most job-title-shaped heading, and takes the
-    visible text as the description. Override when a posting page needs
-    something else -- a nested iframe, a cookie gate, a PDF, or a title that
-    only exists in <title> (all of which came up in the non-US set)."""
-    return jinfo.fetch_detail_generic(url)
-
+    """careers.drexel.edu posting."""
+    return jinfo.fetch_detail_board_title(url)
 
 
 def main():

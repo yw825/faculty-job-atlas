@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1149 - Lafayette College (US)
 ATS platform: own website
-Careers link: http://hr.lafayette.edu/employment/job-opportunities/
+Careers link: https://provost.lafayette.edu/faculty-positions-available/
 
 Reads posting URLs from school_id_1149_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1149
 SCHOOL_NAME = 'Lafayette College'
-CAREERS_LINK = 'http://hr.lafayette.edu/employment/job-opportunities/'
+CAREERS_LINK = 'https://provost.lafayette.edu/faculty-positions-available/'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

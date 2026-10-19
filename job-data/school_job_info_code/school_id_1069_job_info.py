@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1069 - Lourdes University (US)
 ATS platform: own website
-Careers link: https://recruiting.paylocity.com/recruiting/jobs/All/6800f223-2b60-47fe-ba0e-3602afc127d6/Lourdes-University
+Careers link: https://www.academicjobs.com/employers/lourdes-university/4696
 
 Reads posting URLs from school_id_1069_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1069
 SCHOOL_NAME = 'Lourdes University'
-CAREERS_LINK = 'https://recruiting.paylocity.com/recruiting/jobs/All/6800f223-2b60-47fe-ba0e-3602afc127d6/Lourdes-University'
+CAREERS_LINK = 'https://www.academicjobs.com/employers/lourdes-university/4696'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

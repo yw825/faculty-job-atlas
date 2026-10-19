@@ -20,6 +20,9 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_1079_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1079_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Antioch's WP Job Manager board; its list service holds every job (the page shows 22).
 """
 import os
 import re
@@ -38,12 +41,7 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkp
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    return lib.wp_job_manager_links('https://www.antioch.edu')
 
 
 def main():

@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 1071 - Tiffin University (US)
 ATS platform: own website
-Careers link: https://recruiting.paylocity.com/recruiting/jobs/All/d48417f4-7a59-4e2c-b5f0-6f1677141828/Tiffin-University
+Careers link: https://www.tiffin.edu/about/offices-departments/human-resources/current-job-listings/
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -20,6 +20,9 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_1071_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1071_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Openings are PDFs on the listing page; the link text is the title.
 """
 import os
 import re
@@ -31,19 +34,16 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1071
 SCHOOL_NAME = 'Tiffin University'
-CAREERS_LINK = 'https://recruiting.paylocity.com/recruiting/jobs/All/d48417f4-7a59-4e2c-b5f0-6f1677141828/Tiffin-University'
+CAREERS_LINK = 'https://www.tiffin.edu/about/offices-departments/human-resources/current-job-listings/'
 ATS_PLATFORM = 'own website'
+
+DOC_RE = r'tiffin\.edu/wp-content/uploads/[^?#]+\.pdf$'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    return [link for link, _text in lib.linked_documents(CAREERS_LINK, DOC_RE, render=True)]
 
 
 def main():

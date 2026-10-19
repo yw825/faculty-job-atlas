@@ -1,7 +1,7 @@
 """
-Job info scraper for school_id 1100 - Oklahoma State University-Main Campus (US)
+Job info scraper for school_id 1100 - Oklahoma State University-Stillwater (US)
 ATS platform: own website
-Careers link: https://jobs.okstate.edu/jobs/search/search-page-oklahoma-state?page=1&employment_type_uids%5B%5D=369d5b24d91990b57f28e9ebbee41ffa&employment_type_uids%5B%5D=5c5da7ec2907fcbb8822ceda56aa53d0&query=
+Careers link: https://jobs.okstate.edu/jobs/search/search-page-oklahoma-state?page=1&employment_type_uids%5B%5D=5c5da7ec2907fcbb8822ceda56aa53d0&employment_type_uids%5B%5D=369d5b24d91990b57f28e9ebbee41ffa&dropdown_field_2_uids%5B%5D=a995ee9d3e791bb4266bea380bedb381
 
 Reads posting URLs from school_id_1100_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -28,8 +28,8 @@ sys.path.insert(0, os.path.dirname(HERE))
 import job_info_lib as jinfo
 
 SCHOOL_ID = 1100
-SCHOOL_NAME = 'Oklahoma State University-Main Campus'
-CAREERS_LINK = 'https://jobs.okstate.edu/jobs/search/search-page-oklahoma-state?page=1&employment_type_uids%5B%5D=369d5b24d91990b57f28e9ebbee41ffa&employment_type_uids%5B%5D=5c5da7ec2907fcbb8822ceda56aa53d0&query='
+SCHOOL_NAME = "Oklahoma State University-Stillwater"
+CAREERS_LINK = 'https://jobs.okstate.edu/jobs/search/search-page-oklahoma-state?page=1&employment_type_uids%5B%5D=5c5da7ec2907fcbb8822ceda56aa53d0&employment_type_uids%5B%5D=369d5b24d91990b57f28e9ebbee41ffa&dropdown_field_2_uids%5B%5D=a995ee9d3e791bb4266bea380bedb381'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 
@@ -38,13 +38,8 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """This school's own detail-page logic, owned by this file. The default
-    renders the page, picks the most job-title-shaped heading, and takes the
-    visible text as the description. Override when a posting page needs
-    something else -- a nested iframe, a cookie gate, a PDF, or a title that
-    only exists in <title> (all of which came up in the non-US set)."""
-    return jinfo.fetch_detail_generic(url)
-
+    """jobs.okstate.edu posting."""
+    return jinfo.fetch_detail_board_title(url)
 
 
 def main():

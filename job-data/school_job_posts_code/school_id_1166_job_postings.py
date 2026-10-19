@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 1166 - University of Pittsburgh-Johnstown (US)
 ATS platform: own website
-Careers link: https://www.johnstown.pitt.edu/node/384
+Careers link: https://cfopitt.taleo.net/careersection/pitt_faculty_external/jobsearch.ftl?lang=en
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -20,6 +20,10 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_1166_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1166_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Pitt's faculty Taleo section serves every campus; its search service is filtered
+by the City facet (Johnstown). The page address cannot carry that filter.
 """
 import os
 import re
@@ -31,19 +35,16 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1166
 SCHOOL_NAME = 'University of Pittsburgh-Johnstown'
-CAREERS_LINK = 'https://www.johnstown.pitt.edu/node/384'
+CAREERS_LINK = 'https://cfopitt.taleo.net/careersection/pitt_faculty_external/jobsearch.ftl?lang=en'
 ATS_PLATFORM = 'own website'
+
+CITY = '12300023232'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    return lib.taleo_rest_jobs('cfopitt.taleo.net', 'pitt_faculty_external', '12100023232', [CITY])
 
 
 def main():

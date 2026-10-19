@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1115 - George Fox University (US)
 ATS platform: own website
-Careers link: https://www.georgefox.edu/offices/hr/careers/index.html
+Careers link: https://georgefoxfaculty.applicantpool.com/jobs/
 
 Reads posting URLs from school_id_1115_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1115
 SCHOOL_NAME = 'George Fox University'
-CAREERS_LINK = 'https://www.georgefox.edu/offices/hr/careers/index.html'
+CAREERS_LINK = 'https://georgefoxfaculty.applicantpool.com/jobs/'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 
