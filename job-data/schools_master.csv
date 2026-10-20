@@ -1017,7 +1017,7 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes,scrap
 1369,Lamar University,US,https://www.lamar.edu/,https://www.schooljobs.com/careers/lamar/jobInterestCards/categories?jobType[0]=Faculty&sort=PositionTitle%7CAscending,own website,high,OK-2hop:OK:10,generic scraper
 1372,West Texas A & M University,US,https://www.wtamu.edu/,https://tamus.wd1.myworkdayjobs.com/WTAMU_External,Workday,not_found,NO_MATCH [playwright],adapter built
 1373,Texas A & M University-College Station,US,https://www.tamu.edu/,https://faculty.tamu.edu/,own website,high,OK:6,generic scraper
-1374,Texas A & M University-Commerce,US,https://www.tamuc.edu/,https://tamus.wd1.myworkdayjobs.com/ETAMU_External,Workday,high,OK-2hop:OK:6,adapter built
+1374,East Texas A&M University,US,https://www.tamuc.edu/,https://tamus.wd1.myworkdayjobs.com/ETAMU_External,Workday,high,OK-2hop:OK:6,adapter built
 1375,Texas A & M University-Corpus Christi,US,https://www.tamucc.edu/,https://tamus.wd1.myworkdayjobs.com/TAMUCC_External,Workday,high,OK-2hop:OK:6,adapter built
 1380,Southern Methodist University,US,https://www.smu.edu/,https://smu.taleo.net/careersection/ex/jobsearch.ftl?lang=en&portal=101430233,Taleo,high,OK-2hop:OK:8,generic scraper (verified working)
 1382,Texas Woman's University,US,https://www.twu.edu/,https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1,Oracle Cloud HCM,medium,OK:5 | page only EMBEDS an Oracle CX board; using the board host directly,generic scraper

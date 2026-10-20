@@ -1,5 +1,5 @@
 """
-Job postings scraper for school_id 1374 - Texas A & M University-Commerce (US)
+Job postings scraper for school_id 1374 - East Texas A&M University (US)
 ATS platform: Workday (detected: workday)
 Careers link: https://tamus.wd1.myworkdayjobs.com/ETAMU_External
 
@@ -21,7 +21,7 @@ sys.path.insert(0, os.path.dirname(HERE))
 import job_postings_lib as lib
 
 SCHOOL_ID = 1374
-SCHOOL_NAME = 'Texas A & M University-Commerce'
+SCHOOL_NAME = "East Texas A&M University"
 CAREERS_LINK = 'https://tamus.wd1.myworkdayjobs.com/ETAMU_External'
 ATS_PLATFORM = 'Workday'
 PLATFORM = 'workday'
