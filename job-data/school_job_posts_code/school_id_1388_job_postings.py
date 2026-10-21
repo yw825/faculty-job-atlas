@@ -16,6 +16,7 @@ Checkpointed to school_id_1388_job_postings.checkpoint next to this script.
 TUNED FIND_LINKS
 PeopleAdmin search; the link's own filters are kept.
 The careers link filters on a field (1175) the search form no longer has, so it matches almost nothing; the whole board is read (the map keeps faculty jobs).
+User 2026-10-20: the careers link (field 1175 = 2) is correct; Texas Wesleyan simply has no faculty openings now. The link itself is read.
 """
 import os
 import re
@@ -37,7 +38,7 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkp
 
 
 def find_links():
-    return lib.scrape_peopleadmin_search(BOARD)
+    return lib.scrape_peopleadmin_search(CAREERS_LINK)
 
 
 def main():
