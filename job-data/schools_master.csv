@@ -1023,7 +1023,7 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes,scrap
 1382,Texas Woman's University,US,https://www.twu.edu/,https://twu.edu/humanresources/careers-at-twu/jobs/,Oracle Cloud HCM,medium,OK:5 | page only EMBEDS an Oracle CX board; using the board host directly,generic scraper
 1383,University of North Texas,US,https://www.unt.edu/,https://careers.untsystem.edu/jobs/search/unt?page=1&employment_type_uids%5B%5D=2f8fc7f566a075e03e0fa608b5d27aa1&query=,own website,medium,OK:4,generic scraper
 1384,The University of Texas Rio Grande Valley,US,https://www.utrgv.edu/,https://careers.utrgv.edu/postings/search?query=&query_position_type_id%5B%5D=2&query_position_type_id%5B%5D=3&commit=Search,PeopleAdmin,medium,"OK-2hop:OK:5 | white-label PeopleAdmin, confirmed via atom feed probe",generic scraper
-1385,The University of Texas at El Paso,US,https://www.utep.edu/,https://utep.interviewexchange.com/static/clients/533UTM1/index.jsp?catid=1632,own website,high,OK-2hop:OK:6,generic scraper
+1385,The University of Texas at El Paso,US,https://www.utep.edu/,https://utep.interviewexchange.com/static/clients/533UTM1/index.jsp,own website,high,OK-2hop:OK:6,generic scraper
 1387,Texas Christian University,US,https://www.tcu.edu/,https://jobs.tcu.edu/jobs/search/faculty-jobs,own website,medium,OK:7,generic scraper
 1388,Texas Wesleyan University,US,https://www.txwes.edu/,https://txwes.peopleadmin.com/postings/search?&query=&query_v0_posted_at_date=&435=&query_organizational_tier_3_id=any&1175=2&commit=Search,PeopleAdmin,high,OK-2hop:OK:6,adapter built
 1389,Southwestern University,US,https://www.southwestern.edu/,https://www.schooljobs.com/careers/southwestern,own website,high,OK-2hop:OK:11,generic scraper

@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 1385 - The University of Texas at El Paso (US)
 ATS platform: own website
-Careers link: https://utep.interviewexchange.com/static/clients/533UTM1/index.jsp?catid=1632
+Careers link: https://utep.interviewexchange.com/static/clients/533UTM1/index.jsp
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -23,6 +23,8 @@ Checkpointed to school_id_1385_job_postings.checkpoint next to this script.
 
 TUNED FIND_LINKS
 UTEP's InterviewExchange lists jobs per category page (index.jsp?catid=...); catid 1632 per the user, 2026-10-20.
+UTEP's InterviewExchange board lists jobs only on its category pages (one per college:
+index.jsp?catid=1632 Business, 1970 Nursing, ...); every category linked from the index is read.
 """
 import os
 import re
@@ -34,14 +36,22 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1385
 SCHOOL_NAME = 'The University of Texas at El Paso'
-CAREERS_LINK = 'https://utep.interviewexchange.com/static/clients/533UTM1/index.jsp?catid=1632'
+CAREERS_LINK = 'https://utep.interviewexchange.com/static/clients/533UTM1/index.jsp'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    return lib.scrape_interviewexchange(CAREERS_LINK)
+    from urllib.parse import urljoin
+    html = lib._fetch_rendered_retry(CAREERS_LINK, 9000)
+    cats = list(dict.fromkeys(re.findall(r'index\.jsp\?catid=(\d+)', html)))
+    if not cats:
+        raise RuntimeError('no category pages on the UTEP board')
+    links = []
+    for cat in cats:
+        links += [u for u in lib.scrape_interviewexchange(urljoin(CAREERS_LINK, f'index.jsp?catid={cat}')) if u not in links]
+    return links
 
 
 def main():
