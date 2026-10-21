@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1298 - Newberry College (US)
 ATS platform: own website
-Careers link: https://www.newberry.edu/employment
+Careers link: https://www.paycomonline.net/v4/ats/web.php/portal/CBB2694288FE9606215883F78F64E0A2/career-page
 
 Reads posting URLs from school_id_1298_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1298
 SCHOOL_NAME = 'Newberry College'
-CAREERS_LINK = 'https://www.newberry.edu/employment'
+CAREERS_LINK = 'https://www.paycomonline.net/v4/ats/web.php/portal/CBB2694288FE9606215883F78F64E0A2/career-page'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 
@@ -38,13 +38,8 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """This school's own detail-page logic, owned by this file. The default
-    renders the page, picks the most job-title-shaped heading, and takes the
-    visible text as the description. Override when a posting page needs
-    something else -- a nested iframe, a cookie gate, a PDF, or a title that
-    only exists in <title> (all of which came up in the non-US set)."""
-    return jinfo.fetch_detail_generic(url)
-
+    """Paycom posting."""
+    return jinfo.fetch_detail_paycom(url)
 
 
 def main():

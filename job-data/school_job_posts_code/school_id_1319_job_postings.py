@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 1319 - University of South Dakota (US)
 ATS platform: PeopleAdmin (detected: peopleadmin)
-Careers link: https://yourfuture.sdbor.edu/postings/search
+Careers link: https://yourfuture.sdbor.edu/postings/search?utf8=%E2%9C%93&query=&query_v0_posted_at_date=&query_position_type_id%5B%5D=3&435=&query_organizational_tier_1_id%5B%5D=1259&225=&commit=Search
 
 University of South Dakota runs on a shared ATS platform -- every school on peopleadmin uses the
 same underlying site software, so this calls the shared
@@ -14,8 +14,12 @@ NOTE: 2 schools list against this same URL, so this listing carries every one of
 
 Writes school_job_posts/school_id_1319_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1319_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+PeopleAdmin search; the link's own filters are kept.
 """
 import os
+import re
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -24,16 +28,19 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1319
 SCHOOL_NAME = 'University of South Dakota'
-CAREERS_LINK = 'https://yourfuture.sdbor.edu/postings/search'
+CAREERS_LINK = 'https://yourfuture.sdbor.edu/postings/search?utf8=%E2%9C%93&query=&query_v0_posted_at_date=&query_position_type_id%5B%5D=3&435=&query_organizational_tier_1_id%5B%5D=1259&225=&commit=Search'
 ATS_PLATFORM = 'PeopleAdmin'
 PLATFORM = 'peopleadmin'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
+def find_links():
+    return lib.scrape_peopleadmin_search(CAREERS_LINK)
+
+
 def main():
-    result = lib.run_platform_school(SCHOOL_ID, SCHOOL_NAME, CAREERS_LINK,
-                                     CHECKPOINT_PATH, platform=PLATFORM)
+    result = lib.run_checkpointed(SCHOOL_ID, CHECKPOINT_PATH, find_links)
     err = result.get('last_error', '')
     print(f"{SCHOOL_NAME} (id={SCHOOL_ID}): status={result['status']} "
           f"links={len(result['links'])}" + (f" ERROR: {err}" if err else ''))

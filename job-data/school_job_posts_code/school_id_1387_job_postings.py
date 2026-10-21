@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 1387 - Texas Christian University (US)
 ATS platform: own website
-Careers link: https://jobs.tcu.edu
+Careers link: https://jobs.tcu.edu/jobs/search/faculty-jobs
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -20,6 +20,9 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_1387_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1387_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Career-pages board, paged; the link's filters are kept.
 """
 import os
 import re
@@ -31,19 +34,16 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1387
 SCHOOL_NAME = 'Texas Christian University'
-CAREERS_LINK = 'https://jobs.tcu.edu'
+CAREERS_LINK = 'https://jobs.tcu.edu/jobs/search/faculty-jobs'
 ATS_PLATFORM = 'own website'
+
+POSTING_RE = re.compile(r'^https://jobs\.tcu\.edu/jobs/(?!search)[a-z0-9-]+$')
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    return lib.scrape_paged_board(CAREERS_LINK, POSTING_RE)
 
 
 def main():

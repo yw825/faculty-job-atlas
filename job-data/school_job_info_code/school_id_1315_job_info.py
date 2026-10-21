@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1315 - Augustana University (US)
 ATS platform: own website
-Careers link: https://www.augie.edu/faculty-positions
+Careers link: https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=026eaaee-2102-4004-840c-8e8ad42d78b1&ccId=19000101_000001&type=JS&lang=en_US
 
 Reads posting URLs from school_id_1315_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1315
 SCHOOL_NAME = 'Augustana University'
-CAREERS_LINK = 'https://www.augie.edu/faculty-positions'
+CAREERS_LINK = 'https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=026eaaee-2102-4004-840c-8e8ad42d78b1&ccId=19000101_000001&type=JS&lang=en_US'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 
@@ -37,19 +37,11 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
     HERE, '..', 'school_job_posts_code', f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
-def fetch_detail(url):
-    """This school's own detail-page logic, owned by this file. The default
-    renders the page, picks the most job-title-shaped heading, and takes the
-    visible text as the description. Override when a posting page needs
-    something else -- a nested iframe, a cookie gate, a PDF, or a title that
-    only exists in <title> (all of which came up in the non-US set)."""
-    return jinfo.fetch_detail_generic(url)
-
-
-
 def main():
-    result = jinfo.run_school_job_info(SCHOOL_ID, JOB_POSTINGS_CHECKPOINT, CHECKPOINT_PATH,
-                                       fetch_detail_fn=fetch_detail, use_llm=USE_LLM)
+    # ADP's public API gives each requisition's title and description.
+    result = jinfo.run_school_job_info_bulk(SCHOOL_ID, CAREERS_LINK, 'adp',
+                                            JOB_POSTINGS_CHECKPOINT, CHECKPOINT_PATH,
+                                            use_llm=USE_LLM)
     err = result.get('last_error', '')
     n_ok = sum(1 for r in result['rows'].values() if 'error' not in r)
     print(f"{SCHOOL_NAME} (id={SCHOOL_ID}): status={result['status']} "

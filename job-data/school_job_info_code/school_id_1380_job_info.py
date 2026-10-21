@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1380 - Southern Methodist University (US)
 ATS platform: Taleo
-Careers link: https://smu.taleo.net/careersection/ex/jobsearch.ftl?lang=en&portal=101430233
+Careers link: https://www.smu.edu/businessfinance/hr/workingatsmu/faculty-careers
 
 Reads posting URLs from school_id_1380_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1380
 SCHOOL_NAME = 'Southern Methodist University'
-CAREERS_LINK = 'https://smu.taleo.net/careersection/ex/jobsearch.ftl?lang=en&portal=101430233'
+CAREERS_LINK = 'https://www.smu.edu/businessfinance/hr/workingatsmu/faculty-careers'
 ATS_PLATFORM = 'Taleo'
 USE_LLM = False
 
@@ -38,13 +38,8 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """This school's own detail-page logic, owned by this file. The default
-    renders the page, picks the most job-title-shaped heading, and takes the
-    visible text as the description. Override when a posting page needs
-    something else -- a nested iframe, a cookie gate, a PDF, or a title that
-    only exists in <title> (all of which came up in the non-US set)."""
-    return jinfo.fetch_detail_generic(url)
-
+    """Interfolio posting."""
+    return jinfo.fetch_detail_interfolio(url)
 
 
 def main():

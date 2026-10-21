@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 1312 - Dakota Wesleyan University (US)
 ATS platform: own website
-Careers link: https://www.dwu.edu/employment
+Careers link: https://dwu.hireclick.com/jobboard/
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -31,7 +31,7 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1312
 SCHOOL_NAME = 'Dakota Wesleyan University'
-CAREERS_LINK = 'https://www.dwu.edu/employment'
+CAREERS_LINK = 'https://dwu.hireclick.com/jobboard/'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')

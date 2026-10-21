@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1357 - The University of Tennessee Southern (US)
 ATS platform: Oracle Cloud HCM
-Careers link: https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions?location=Pulaski%2C+TN%2C+United+States&locationId=300000010467855&locationLevel=city&mode=location&radius=25&radiusUnit=MI
+Careers link: https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs?selectedCategoriesFacet=300000024535357&selectedOrganizationsFacet=300000014275326
 
 Reads posting URLs from school_id_1357_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -30,7 +30,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1357
 SCHOOL_NAME = 'The University of Tennessee Southern'
-CAREERS_LINK = 'https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions?location=Pulaski%2C+TN%2C+United+States&locationId=300000010467855&locationLevel=city&mode=location&radius=25&radiusUnit=MI'
+CAREERS_LINK = 'https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs?selectedCategoriesFacet=300000024535357&selectedOrganizationsFacet=300000014275326'
 ATS_PLATFORM = 'Oracle Cloud HCM'
 USE_LLM = False
 
@@ -40,10 +40,14 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint
 
 
 
+def fetch_detail(url):
+    """Oracle Recruiting Cloud posting."""
+    return jinfo.fetch_detail_oracle_rest(url)
+
+
 def main():
-    result = jinfo.run_school_job_info_bulk(SCHOOL_ID, CAREERS_LINK, 'oracle',
-                                            JOB_POSTINGS_CHECKPOINT, CHECKPOINT_PATH,
-                                            use_llm=USE_LLM)
+    result = jinfo.run_school_job_info(SCHOOL_ID, JOB_POSTINGS_CHECKPOINT, CHECKPOINT_PATH,
+                                       fetch_detail_fn=fetch_detail, use_llm=USE_LLM)
     err = result.get('last_error', '')
     n_ok = sum(1 for r in result['rows'].values() if 'error' not in r)
     print(f"{SCHOOL_NAME} (id={SCHOOL_ID}): status={result['status']} "

@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1297 - Coker University (US)
 ATS platform: own website
-Careers link: https://www.coker.edu/offices-services/careers/faculty-jobs/
+Careers link: https://coker.isolvedhire.com/iframe/mobile/
 
 Reads posting URLs from school_id_1297_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1297
 SCHOOL_NAME = 'Coker University'
-CAREERS_LINK = 'https://www.coker.edu/offices-services/careers/faculty-jobs/'
+CAREERS_LINK = 'https://coker.isolvedhire.com/iframe/mobile/'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

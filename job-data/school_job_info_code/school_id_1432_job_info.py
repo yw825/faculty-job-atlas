@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1432 - Austin College (US)
 ATS platform: own website
-Careers link: https://www.austincollege.edu/human-resources/careers
+Careers link: https://www.austincollege.edu/human-resources/careers?tag_id=360
 
 Reads posting URLs from school_id_1432_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1432
 SCHOOL_NAME = 'Austin College'
-CAREERS_LINK = 'https://www.austincollege.edu/human-resources/careers'
+CAREERS_LINK = 'https://www.austincollege.edu/human-resources/careers?tag_id=360'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

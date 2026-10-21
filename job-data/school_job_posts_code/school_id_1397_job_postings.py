@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 1397 - University of Houston (US)
 ATS platform: own website (PageUp career site)
-Careers link: https://careers.uh.edu/jobs/search
+Careers link: https://careers.uh.edu/jobs/search?page=1&category_uids%5B%5D=db3c1fb9609f486fa85f3e228dd5f7e2&category_uids%5B%5D=d3b80de9ada098478edbd5589a0ffeee&dropdown_field_1_uids%5B%5D=ec5c8a258322f40341774cadcfac91f9
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file.
@@ -22,6 +22,9 @@ used here.
 
 Writes school_job_posts/school_id_1397_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1397_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Career-pages board, paged; the link's filters are kept.
 """
 import os
 import re
@@ -34,35 +37,20 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1397
 SCHOOL_NAME = 'University of Houston'
-CAREERS_LINK = 'https://careers.uh.edu/jobs/search'
+CAREERS_LINK = 'https://careers.uh.edu/jobs/search?page=1&category_uids%5B%5D=db3c1fb9609f486fa85f3e228dd5f7e2&category_uids%5B%5D=d3b80de9ada098478edbd5589a0ffeee&dropdown_field_1_uids%5B%5D=ec5c8a258322f40341774cadcfac91f9'
 ATS_PLATFORM = 'own website'
 
 HOST = 'careers.uh.edu'
 POSTING_PATH = re.compile(r'^/jobs/(?!search\b)[a-z0-9][a-z0-9\-]{8,200}$', re.I)
 RENDER_WAIT_MS = 16000
 
+POSTING_RE = re.compile(r'^https://careers\.uh\.edu/jobs/(?!search)[a-z0-9-]+$')
+
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    from bs4 import BeautifulSoup
-    html = lib.fetch_rendered(CAREERS_LINK, wait_ms=RENDER_WAIT_MS)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    soup = BeautifulSoup(html, 'html.parser')
-    links, seen = [], set()
-    for a in soup.find_all('a', href=True):
-        full = urljoin(CAREERS_LINK, a['href'].strip())
-        parsed = urlparse(full)
-        if parsed.netloc != HOST or not POSTING_PATH.match(parsed.path):
-            continue
-        clean = f'https://{HOST}{parsed.path}'
-        if clean not in seen:
-            seen.add(clean)
-            links.append(clean)
-    if not links:
-        raise RuntimeError('houston job search rendered no postings')
-    return links
+    return lib.scrape_paged_board(CAREERS_LINK, POSTING_RE)
 
 
 def main():

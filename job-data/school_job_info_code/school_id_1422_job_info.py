@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1422 - Hallmark University (US)
 ATS platform: own website
-Careers link: https://careers.hallmarkuniversity.edu/jobs/instructional-designer/
+Careers link: https://careers.hallmarkuniversity.edu/
 
 Reads posting URLs from school_id_1422_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1422
 SCHOOL_NAME = 'Hallmark University'
-CAREERS_LINK = 'https://careers.hallmarkuniversity.edu/jobs/instructional-designer/'
+CAREERS_LINK = 'https://careers.hallmarkuniversity.edu/'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

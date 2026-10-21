@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1397 - University of Houston (US)
 ATS platform: own website
-Careers link: https://www.uh.edu/human-resources/careers/
+Careers link: https://careers.uh.edu/jobs/search?page=1&category_uids%5B%5D=db3c1fb9609f486fa85f3e228dd5f7e2&category_uids%5B%5D=d3b80de9ada098478edbd5589a0ffeee&dropdown_field_1_uids%5B%5D=ec5c8a258322f40341774cadcfac91f9
 
 Reads posting URLs from school_id_1397_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1397
 SCHOOL_NAME = 'University of Houston'
-CAREERS_LINK = 'https://www.uh.edu/human-resources/careers/'
+CAREERS_LINK = 'https://careers.uh.edu/jobs/search?page=1&category_uids%5B%5D=db3c1fb9609f486fa85f3e228dd5f7e2&category_uids%5B%5D=d3b80de9ada098478edbd5589a0ffeee&dropdown_field_1_uids%5B%5D=ec5c8a258322f40341774cadcfac91f9'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 
@@ -38,13 +38,8 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """This school's own detail-page logic, owned by this file. The default
-    renders the page, picks the most job-title-shaped heading, and takes the
-    visible text as the description. Override when a posting page needs
-    something else -- a nested iframe, a cookie gate, a PDF, or a title that
-    only exists in <title> (all of which came up in the non-US set)."""
-    return jinfo.fetch_detail_generic(url)
-
+    """career-pages posting."""
+    return jinfo.fetch_detail_board_title(url)
 
 
 def main():

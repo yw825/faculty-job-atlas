@@ -1,0 +1,59 @@
+"""
+Job info scraper for school_id 1967 - Texas A & M University-Galveston (US)
+ATS platform: own website
+Careers link: https://faculty.tamu.edu/
+
+Reads posting URLs from school_id_1967_job_postings.checkpoint (this
+school's job_postings run) and classifies each one: job_title_in_post,
+position_type, job_term, department_or_school, area_key_words,
+deadline_of_application, position_start_date.
+
+Writes school_job_info/school_id_1967_job_info.csv. Checkpointed to
+school_id_1967_job_info.checkpoint next to this script -- kill-and-resume,
+per-posting granularity.
+"""
+import os
+import re
+import sys
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, os.path.dirname(HERE))
+import job_info_lib as jinfo
+
+SCHOOL_ID = 1967
+SCHOOL_NAME = "Texas A & M University-Galveston"
+CAREERS_LINK = 'https://faculty.tamu.edu/'
+ATS_PLATFORM = 'own website'
+USE_LLM = False
+
+JOB_POSTINGS_CHECKPOINT = os.path.join(
+    HERE, '..', 'school_job_posts_code', f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
+CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
+
+def fetch_detail(url):
+    """TAMU faculty-board posting: the full title is in #_mainContent__title (the shared splitter cut
+"Open Rank - Clinical (General Dentist)" at the dash)."""
+    from bs4 import BeautifulSoup
+    html = jinfo.jlib.fetch_rendered(url, wait_ms=4000)
+    if jinfo.jlib.is_fetch_failure(html):
+        raise RuntimeError(html[:90])
+    soup = BeautifulSoup(html, 'html.parser')
+    head = soup.select_one('#_mainContent__title')
+    if head is None or not head.get_text(strip=True):
+        raise RuntimeError('posting not on the page (closed?)')
+    main = soup.find('main') or soup
+    return head.get_text(' ', strip=True)[:250], re.sub(r'\s+', ' ', main.get_text(' ', strip=True))[:20000]
+
+
+def main():
+    result = jinfo.run_school_job_info(SCHOOL_ID, JOB_POSTINGS_CHECKPOINT, CHECKPOINT_PATH,
+                                       fetch_detail_fn=fetch_detail, use_llm=USE_LLM)
+    err = result.get('last_error', '')
+    n_ok = sum(1 for r in result['rows'].values() if 'error' not in r)
+    print(f"{SCHOOL_NAME} (id={SCHOOL_ID}): status={result['status']} "
+          f"rows={n_ok}/{len(result['rows'])}" + (f" ERROR: {err}" if err else ''))
+    jinfo.close_browser()
+
+
+if __name__ == '__main__':
+    main()

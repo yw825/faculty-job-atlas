@@ -20,6 +20,9 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_1382_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1382_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+The careers page fronts an Oracle Recruiting Cloud site (CX_1); the whole site is read.
 """
 import os
 import re
@@ -31,8 +34,10 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1382
 SCHOOL_NAME = 'Texas Woman\'s University'
-CAREERS_LINK = 'https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1'
+CAREERS_LINK = 'https://twu.edu/humanresources/careers-at-twu/jobs/'
 ATS_PLATFORM = 'own website'
+
+BOARD = 'https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
@@ -40,9 +45,12 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkp
 PLATFORM = 'oracle'
 
 
+def find_links():
+    return lib.PLATFORM_ADAPTERS['oracle'](BOARD, SCHOOL_NAME)
+
+
 def main():
-    result = lib.run_platform_school(SCHOOL_ID, SCHOOL_NAME, CAREERS_LINK,
-                                     CHECKPOINT_PATH, platform=PLATFORM)
+    result = lib.run_checkpointed(SCHOOL_ID, CHECKPOINT_PATH, find_links)
     err = result.get('last_error', '')
     print(f"{SCHOOL_NAME} (id={SCHOOL_ID}): status={result['status']} "
           f"links={len(result['links'])}" + (f" ERROR: {err}" if err else ''))

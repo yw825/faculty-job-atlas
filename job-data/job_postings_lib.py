@@ -3116,6 +3116,64 @@ def wp_job_manager_links(site, max_pages=20):
     return links
 
 
+def tamu_faculty_jobs(include=None, exclude=None, url='https://faculty.tamu.edu/'):
+    """Texas A&M's faculty job board (faculty.tamu.edu) as JobDetail links,
+    kept by each listing's "Location:" text: `include` / `exclude` are
+    regexes on it. The board serves College Station and the Galveston,
+    McAllen, Fort Worth, Dallas and Qatar sites; Galveston-located postings
+    belong to the Texas A&M University-Galveston row."""
+    from urllib.parse import urljoin
+    soup = BeautifulSoup(_fetch_rendered_retry(url, 9000), 'html.parser')
+    links = []
+    for a in soup.find_all('a', href=re.compile(r'JobDetail\.aspx\?')):
+        box = a.find_parent(['div', 'li', 'tr'])
+        text = re.sub(r'\s+', ' ', box.get_text(' ', strip=True)) if box else ''
+        m = re.search(r'Location:\s*(.+?)\s+Position ID', text)
+        loc = m.group(1) if m else ''
+        if include and not re.search(include, loc):
+            continue
+        if exclude and re.search(exclude, loc):
+            continue
+        link = urljoin(url, a['href'])
+        if link not in links:
+            links.append(link)
+    if not links and not include:
+        raise RuntimeError('tamu faculty board: no postings found')
+    return links
+
+
+def brassring_jobs(url, max_more=80):
+    """Posting links (HomeWithPreLoad?...jobid=<n>) from a BrassRing TG site.
+    The home page shows only ~10 featured jobs; the search has to be run
+    (empty keywords) and "Show More Jobs" clicked until it disappears
+    (Texas Tech: 10 -> 50 of 53)."""
+    def act(page):
+        for sel in ('#searchControls_BUTTON_2', 'button:has-text("Search")', 'input[value=Search]'):
+            try:
+                page.locator(sel).first.click(timeout=5000)
+                page.wait_for_timeout(6000)
+                break
+            except Exception:
+                pass
+        for _ in range(max_more):
+            more = page.locator('#showMoreJobs')
+            if more.count() == 0 or not more.first.is_visible():
+                break
+            try:
+                more.first.click(timeout=5000)
+                page.wait_for_timeout(3000)
+            except Exception:
+                break
+    html = fetch_rendered(url, wait_ms=9000, actions=act, timeout=60000)
+    if is_fetch_failure(html):
+        raise RuntimeError(html[:90])
+    m = re.search(r'partnerid=(\d+)&siteid=(\d+)', url, re.I)
+    if not m:
+        raise RuntimeError('no partnerid/siteid in brassring url')
+    ids = list(dict.fromkeys(re.findall(r'jobid=(\d+)', html)))
+    return [f'https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid={m.group(1)}&siteid={m.group(2)}&PageType=JobDetails&jobid={i}' for i in ids]
+
+
 def scrape_interfolio_located(boards, include=None, exclude=None):
     """Public Interfolio links (legacy_position_id) from one or more boards,
     kept by the position's own location text: a regex `include` must match

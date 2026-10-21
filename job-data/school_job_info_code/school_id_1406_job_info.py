@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1406 - Texas A&M University-Central Texas (US)
 ATS platform: Workday
-Careers link: https://tamus.wd1.myworkdayjobs.com/TAMUCT_External
+Careers link: https://tamus.wd1.myworkdayjobs.com/TAMUCT_External?workerSubType=0e1cd8ed3502012ddf607157e74b7d04
 
 Reads posting URLs from school_id_1406_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1406
 SCHOOL_NAME = 'Texas A&M University-Central Texas'
-CAREERS_LINK = 'https://tamus.wd1.myworkdayjobs.com/TAMUCT_External'
+CAREERS_LINK = 'https://tamus.wd1.myworkdayjobs.com/TAMUCT_External?workerSubType=0e1cd8ed3502012ddf607157e74b7d04'
 ATS_PLATFORM = 'Workday'
 USE_LLM = False
 
@@ -38,13 +38,8 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """This school's own detail-page logic, owned by this file. The default
-    renders the page, picks the most job-title-shaped heading, and takes the
-    visible text as the description. Override when a posting page needs
-    something else -- a nested iframe, a cookie gate, a PDF, or a title that
-    only exists in <title> (all of which came up in the non-US set)."""
-    return jinfo.fetch_detail_generic(url)
-
+    """Workday posting."""
+    return jinfo.fetch_detail_workday(url)
 
 
 def main():

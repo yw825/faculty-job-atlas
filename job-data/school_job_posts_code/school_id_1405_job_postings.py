@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 1405 - Schreiner University (US)
 ATS platform: own website
-Careers link: https://schreiner.edu/careers/
+Careers link: https://schreiner.edu/jobs/
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -20,6 +20,9 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_1405_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1405_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Schreiner's WP Job Manager board; its list service holds every job.
 """
 import os
 import re
@@ -31,17 +34,14 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1405
 SCHOOL_NAME = 'Schreiner University'
-CAREERS_LINK = 'https://schreiner.edu/careers/'
+CAREERS_LINK = 'https://schreiner.edu/jobs/'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    """CUSTOMIZED: careers_link was rediscovered from this school's
-    homepage, and its posting links carry no job word -- found by URL
-    shape instead (the word matcher returns 1 link against 66 real ones)."""
-    return lib.scrape_structural(CAREERS_LINK)
+    return lib.wp_job_manager_links('https://schreiner.edu')
 
 
 def main():

@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 1279 - College of Charleston (US)
 ATS platform: own website
-Careers link: https://charleston.edu/academic-affairs/faculty-careers.php
+Careers link: https://jobs.cofc.edu/postings/search?;query=&query_v0_posted_at_date=&435=&query_organizational_tier_3_id=any&query_position_type_id=2&commit=Search
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -20,6 +20,10 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_1279_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1279_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+PeopleAdmin search; the link's own filters are kept.
+The careers link leaves out the board's Adjunct Faculty type; it is read too (full-time and adjunct faculty).
 """
 import os
 import re
@@ -31,19 +35,16 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1279
 SCHOOL_NAME = 'College of Charleston'
-CAREERS_LINK = 'https://charleston.edu/academic-affairs/faculty-careers.php'
+CAREERS_LINK = 'https://jobs.cofc.edu/postings/search?;query=&query_v0_posted_at_date=&435=&query_organizational_tier_3_id=any&query_position_type_id=2&commit=Search'
 ATS_PLATFORM = 'own website'
+
+BOARD = 'https://jobs.cofc.edu/postings/search?;query=&query_v0_posted_at_date=&435=&query_organizational_tier_3_id=any&query_position_type_id%5B%5D=2&commit=Search&query_position_type_id%5B%5D=4'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    return lib.scrape_peopleadmin_search(BOARD)
 
 
 def main():

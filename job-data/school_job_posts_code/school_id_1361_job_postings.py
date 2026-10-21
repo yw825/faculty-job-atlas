@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 1361 - McMurry University (US)
 ATS platform: BambooHR
-Careers link: https://mcmurry.bamboohr.com/careers
+Careers link: https://oncampusdining.com/mcm/job-opportunities/
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file.
@@ -30,7 +30,7 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1361
 SCHOOL_NAME = 'McMurry University'
-CAREERS_LINK = 'https://mcmurry.bamboohr.com/careers'
+CAREERS_LINK = 'https://oncampusdining.com/mcm/job-opportunities/'
 ATS_PLATFORM = 'BambooHR'
 
 LIST_API = 'https://mcmurry.bamboohr.com/careers/list'

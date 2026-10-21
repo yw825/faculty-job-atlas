@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1415 - The University of Texas Permian Basin (US)
 ATS platform: own website
-Careers link: https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/UTZ_CG/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_SCHJOB&Action=U&FOCUS=Applicant&SiteId=10
+Careers link: https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?FOCUS=Applicant&Page=HRS_APP_SCHJOB&Action=U&FOCUS=Applicant&SiteId=10
 
 Reads posting URLs from school_id_1415_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1415
 SCHOOL_NAME = 'The University of Texas Permian Basin'
-CAREERS_LINK = 'https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/UTZ_CG/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_SCHJOB&Action=U&FOCUS=Applicant&SiteId=10'
+CAREERS_LINK = 'https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?FOCUS=Applicant&Page=HRS_APP_SCHJOB&Action=U&FOCUS=Applicant&SiteId=10'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 
@@ -38,8 +38,7 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def main():
-    # Bulk: PeopleSoft detail pages are bound to the search session, so a
-    # deep link renders no job text -- the results rows are the source.
+    # PeopleSoft detail pages are bound to the search session; the result rows are the source.
     result = jinfo.run_school_job_info_bulk(SCHOOL_ID, CAREERS_LINK, 'peoplesoft',
                                             JOB_POSTINGS_CHECKPOINT, CHECKPOINT_PATH,
                                             use_llm=USE_LLM)

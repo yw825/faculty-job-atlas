@@ -20,6 +20,10 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_1411_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1411_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Texas Tech BrassRing site; each posting is HomeWithPreLoad?...jobid=<n>.
+Texas Tech BrassRing site: the search is run and "Show More Jobs" clicked (lib.brassring_jobs).
 """
 import os
 import re
@@ -34,16 +38,13 @@ SCHOOL_NAME = 'Texas Tech University'
 CAREERS_LINK = 'https://sjobs.brassring.com/TGnewUI/Search/Home/Home?partnerid=25898&siteid=5637#home'
 ATS_PLATFORM = 'own website'
 
+POSTING_RE = re.compile(r'HomeWithPreLoad\?.*jobid=\d+')
+
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    return lib.brassring_jobs(CAREERS_LINK)
 
 
 def main():

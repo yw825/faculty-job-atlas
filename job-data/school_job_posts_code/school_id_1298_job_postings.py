@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 1298 - Newberry College (US)
 ATS platform: own website
-Careers link: https://www.newberry.edu/employment
+Careers link: https://www.paycomonline.net/v4/ats/web.php/portal/CBB2694288FE9606215883F78F64E0A2/career-page
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -20,6 +20,9 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_1298_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1298_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Paycom portal (whole board).
 """
 import os
 import re
@@ -31,19 +34,14 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1298
 SCHOOL_NAME = 'Newberry College'
-CAREERS_LINK = 'https://www.newberry.edu/employment'
+CAREERS_LINK = 'https://www.paycomonline.net/v4/ats/web.php/portal/CBB2694288FE9606215883F78F64E0A2/career-page'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    return lib.PLATFORM_ADAPTERS['paycom'](CAREERS_LINK, SCHOOL_NAME)
 
 
 def main():

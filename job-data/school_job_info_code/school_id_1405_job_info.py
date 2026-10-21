@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1405 - Schreiner University (US)
 ATS platform: own website
-Careers link: https://schreiner.edu/careers/
+Careers link: https://schreiner.edu/jobs/
 
 Reads posting URLs from school_id_1405_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1405
 SCHOOL_NAME = 'Schreiner University'
-CAREERS_LINK = 'https://schreiner.edu/careers/'
+CAREERS_LINK = 'https://schreiner.edu/jobs/'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

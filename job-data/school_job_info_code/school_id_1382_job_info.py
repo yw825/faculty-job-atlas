@@ -29,16 +29,19 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1382
 SCHOOL_NAME = 'Texas Woman\'s University'
-CAREERS_LINK = 'https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1'
+CAREERS_LINK = 'https://twu.edu/humanresources/careers-at-twu/jobs/'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
+
+BOARD = 'https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1'
 
 JOB_POSTINGS_CHECKPOINT = os.path.join(
     HERE, '..', 'school_job_posts_code', f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def main():
-    result = jinfo.run_school_job_info_bulk(SCHOOL_ID, CAREERS_LINK, 'oracle',
+    # Oracle's REST service gives every requisition's title and description.
+    result = jinfo.run_school_job_info_bulk(SCHOOL_ID, BOARD, 'oracle',
                                             JOB_POSTINGS_CHECKPOINT, CHECKPOINT_PATH,
                                             use_llm=USE_LLM)
     err = result.get('last_error', '')

@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1318 - Black Hills State University (US)
 ATS platform: PeopleAdmin
-Careers link: https://yourfuture.sdbor.edu/postings/search
+Careers link: https://yourfuture.sdbor.edu/postings/search?utf8=%E2%9C%93&query=&query_v0_posted_at_date=&query_position_type_id%5B%5D=3&435=&query_organizational_tier_1_id%5B%5D=1252&225=&commit=Search
 
 Reads posting URLs from school_id_1318_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1318
 SCHOOL_NAME = 'Black Hills State University'
-CAREERS_LINK = 'https://yourfuture.sdbor.edu/postings/search'
+CAREERS_LINK = 'https://yourfuture.sdbor.edu/postings/search?utf8=%E2%9C%93&query=&query_v0_posted_at_date=&query_position_type_id%5B%5D=3&435=&query_organizational_tier_1_id%5B%5D=1252&225=&commit=Search'
 ATS_PLATFORM = 'PeopleAdmin'
 USE_LLM = False
 
@@ -38,13 +38,8 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """This school's own detail-page logic, owned by this file. The default
-    renders the page, picks the most job-title-shaped heading, and takes the
-    visible text as the description. Override when a posting page needs
-    something else -- a nested iframe, a cookie gate, a PDF, or a title that
-    only exists in <title> (all of which came up in the non-US set)."""
-    return jinfo.fetch_detail_generic(url)
-
+    """PeopleAdmin posting."""
+    return jinfo.fetch_detail_peopleadmin(url)
 
 
 def main():

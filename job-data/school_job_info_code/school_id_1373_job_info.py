@@ -38,13 +38,18 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """This school's own detail-page logic, owned by this file. The default
-    renders the page, picks the most job-title-shaped heading, and takes the
-    visible text as the description. Override when a posting page needs
-    something else -- a nested iframe, a cookie gate, a PDF, or a title that
-    only exists in <title> (all of which came up in the non-US set)."""
-    return jinfo.fetch_detail_generic(url)
-
+    """TAMU faculty-board posting: the full title is in #_mainContent__title (the shared splitter cut
+"Open Rank - Clinical (General Dentist)" at the dash)."""
+    from bs4 import BeautifulSoup
+    html = jinfo.jlib.fetch_rendered(url, wait_ms=4000)
+    if jinfo.jlib.is_fetch_failure(html):
+        raise RuntimeError(html[:90])
+    soup = BeautifulSoup(html, 'html.parser')
+    head = soup.select_one('#_mainContent__title')
+    if head is None or not head.get_text(strip=True):
+        raise RuntimeError('posting not on the page (closed?)')
+    main = soup.find('main') or soup
+    return head.get_text(' ', strip=True)[:250], re.sub(r'\s+', ' ', main.get_text(' ', strip=True))[:20000]
 
 
 def main():

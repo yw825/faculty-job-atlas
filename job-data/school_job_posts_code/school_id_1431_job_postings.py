@@ -20,6 +20,9 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_1431_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1431_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Openings are accordion rows on the faculty-positions page.
 """
 import os
 import re
@@ -34,6 +37,8 @@ SCHOOL_NAME = 'Texas Lutheran University'
 CAREERS_LINK = 'https://www.tlu.edu/about-tlu/careers-at-tlu/faculty-positions/'
 ATS_PLATFORM = 'own website'
 
+HEADER = 'button.wp-block-accordion-heading__toggle'
+
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
@@ -41,36 +46,8 @@ POSTING_PATTERN = 'www.tlu.edu/about-tlu/careers-at-tlu/<*>'
 
 
 def find_links():
-    """CUSTOMIZED: postings on this site are the links matching one repeated
-    URL shape, found structurally rather than by keyword and then confirmed
-    by opening two of them and checking they read like job postings
-    (title_role=0 degree=0 furniture=7 len=47715; title_role=0 degree=0 furniture=0 len=4371).
-
-        www.tlu.edu/about-tlu/careers-at-tlu/<*>
-
-    The generic job-word filter returned 3 link(s) here against 5
-    actually on the page -- this site's posting URLs carry no job word at
-    all, which is why matching on words missed them."""
-    import sys, os
-    sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-    from bs4 import BeautifulSoup
-    from urllib.parse import urljoin
-    import deep_probe
-
-    html = lib.fetch_rendered(CAREERS_LINK, wait_ms=5000)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    soup = BeautifulSoup(html, 'html.parser')
-    out = []
-    for a in soup.find_all('a', href=True):
-        href = a['href'].strip()
-        if not href or href.startswith(('#', 'mailto:', 'javascript:', 'tel:')):
-            continue
-        if deep_probe.templatize(href, CAREERS_LINK) == POSTING_PATTERN:
-            full = urljoin(CAREERS_LINK, href)
-            if full not in out:
-                out.append(full)
-    return out
+    page = CAREERS_LINK.split('#')[0]
+    return [f'{page}#{slug}' for slug, _t, _b in lib.accordion_items(page, HEADER, render=True)]
 
 
 def main():

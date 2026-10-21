@@ -1,0 +1,71 @@
+{
+  "raw": {
+    "https://www.mdanderson.org/about-md-anderson/careers/clinical-faculty-positions.html#req-00094609-153459-job-title-assistant-associate-professor-term-tenure-term-tenure-track": {
+      "title": "Assistant/Associate/Professor, Term-Tenure/Term-Tenure Track",
+      "description": "Req #: 00094609-153459 Job Title: Assistant/Associate/Professor, Term-Tenure/Term-Tenure Track. The University of Texas MD Anderson Cancer Center is seeking multiple tenured/tenure-track Assistant/Associate/Full Professors to lead excellence in clinical care, investigation, and performance."
+    },
+    "https://www.mdanderson.org/about-md-anderson/careers/clinical-faculty-positions.html#req-00065620-231212-job-title-assistant-associate-professor-tenure-tenure-track": {
+      "title": "Assistant/Associate/Professor, Tenure/Tenure Track",
+      "description": "Req #: 00065620-231212 Job Title: Assistant/Associate/Professor, Tenure/Tenure Track. The University of Texas MD Anderson Cancer Center is seeking multiple tenured/tenure-track Assistant/Associate/Full Professors to direct cutting-edge basic, translational, clinical, population, or data science research programs."
+    },
+    "https://www.mdanderson.org/about-md-anderson/careers/research-faculty-positions.html#req-00065620-231212-job-title-assistant-associate-professor-tenure-tenure-track": {
+      "title": "Assistant/Associate/Professor, Tenure/Tenure Track",
+      "description": "Req #: 00065620-231212 Job Title: Assistant/Associate/Professor, Tenure/Tenure Track. The University of Texas MD Anderson Cancer Center is seeking multiple tenured/tenure-track Assistant/Associate/Full Professors to direct cutting-edge basic, translational, clinical, population, or data science research programs."
+    },
+    "https://www.mdanderson.org/about-md-anderson/careers/research-faculty-positions.html#req-00097023-230523-job-title-assistant-professor-research-faculty-appointment-rfa": {
+      "title": "Assistant Professor, Research Faculty Appointment (RFA)",
+      "description": "Req #: 00097023 - 230523 Job Title: Assistant Professor, Research Faculty Appointment (RFA). The Department of Pediatrics is recruiting an Assistant Professor, non-tenure track Research Faculty Appointment. Refer to the Shulin Li Laboratory web page for additional information about this program."
+    }
+  },
+  "rows": {
+    "https://www.mdanderson.org/about-md-anderson/careers/clinical-faculty-positions.html#req-00094609-153459-job-title-assistant-associate-professor-term-tenure-term-tenure-track": {
+      "school_id": 1973,
+      "posting_url": "https://www.mdanderson.org/about-md-anderson/careers/clinical-faculty-positions.html#req-00094609-153459-job-title-assistant-associate-professor-term-tenure-term-tenure-track",
+      "job_title_in_post": "Assistant/Associate/Professor, Term-Tenure/Term-Tenure Track",
+      "position_type": "Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://www.mdanderson.org/about-md-anderson/careers/clinical-faculty-positions.html#req-00065620-231212-job-title-assistant-associate-professor-tenure-tenure-track": {
+      "school_id": 1973,
+      "posting_url": "https://www.mdanderson.org/about-md-anderson/careers/clinical-faculty-positions.html#req-00065620-231212-job-title-assistant-associate-professor-tenure-tenure-track",
+      "job_title_in_post": "Assistant/Associate/Professor, Tenure/Tenure Track",
+      "position_type": "Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://www.mdanderson.org/about-md-anderson/careers/research-faculty-positions.html#req-00065620-231212-job-title-assistant-associate-professor-tenure-tenure-track": {
+      "school_id": 1973,
+      "posting_url": "https://www.mdanderson.org/about-md-anderson/careers/research-faculty-positions.html#req-00065620-231212-job-title-assistant-associate-professor-tenure-tenure-track",
+      "job_title_in_post": "Assistant/Associate/Professor, Tenure/Tenure Track",
+      "position_type": "Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://www.mdanderson.org/about-md-anderson/careers/research-faculty-positions.html#req-00097023-230523-job-title-assistant-professor-research-faculty-appointment-rfa": {
+      "school_id": 1973,
+      "posting_url": "https://www.mdanderson.org/about-md-anderson/careers/research-faculty-positions.html#req-00097023-230523-job-title-assistant-professor-research-faculty-appointment-rfa",
+      "job_title_in_post": "Assistant Professor, Research Faculty Appointment (RFA)",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    }
+  },
+  "school_id": 1973,
+  "status": "complete",
+  "updated_at": "2026-10-21T00:15:38+00:00",
+  "completed_at": "2026-10-21T00:15:38+00:00",
+  "last_error": ""
+}

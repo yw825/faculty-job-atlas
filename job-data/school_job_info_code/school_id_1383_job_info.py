@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1383 - University of North Texas (US)
 ATS platform: own website
-Careers link: https://careers.untsystem.edu/unt/home
+Careers link: https://careers.untsystem.edu/jobs/search/unt?page=1&employment_type_uids%5B%5D=2f8fc7f566a075e03e0fa608b5d27aa1&query=
 
 Reads posting URLs from school_id_1383_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1383
 SCHOOL_NAME = 'University of North Texas'
-CAREERS_LINK = 'https://careers.untsystem.edu/unt/home'
+CAREERS_LINK = 'https://careers.untsystem.edu/jobs/search/unt?page=1&employment_type_uids%5B%5D=2f8fc7f566a075e03e0fa608b5d27aa1&query='
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 
@@ -38,13 +38,8 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """This school's own detail-page logic, owned by this file. The default
-    renders the page, picks the most job-title-shaped heading, and takes the
-    visible text as the description. Override when a posting page needs
-    something else -- a nested iframe, a cookie gate, a PDF, or a title that
-    only exists in <title> (all of which came up in the non-US set)."""
-    return jinfo.fetch_detail_generic(url)
-
+    """career-pages posting."""
+    return jinfo.fetch_detail_board_title(url)
 
 
 def main():

@@ -20,6 +20,11 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_1351_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1351_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Belmont's Cornerstone careersite under jobs.belmont.edu.
+jobs.belmont.edu is Belmont's Cornerstone careersite; its postings opened on that host show the list, so the
+csod.com site is read (all pages).
 """
 import os
 import re
@@ -34,16 +39,15 @@ SCHOOL_NAME = 'Belmont University'
 CAREERS_LINK = 'https://jobs.belmont.edu'
 ATS_PLATFORM = 'own website'
 
+POSTING_RE = re.compile(r'/ux/ats/careersite/\d+/home/requisition/\d+\?c=belmont')
+
+BOARD = 'https://belmont.csod.com/ux/ats/careersite/10/home?c=belmont'
+
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    return lib.scrape_cornerstone_site(BOARD)
 
 
 def main():

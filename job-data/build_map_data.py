@@ -27,6 +27,7 @@ This first build backfills it from each school's scrape timestamp.
 import collections
 import csv
 import glob
+import html
 import sys
 import json
 import os
@@ -370,6 +371,11 @@ def main():
                 # which is a slow first paint for a page that also has to
                 # load the basemap. The searchable text is likewise built
                 # client-side from title+kw+dept rather than shipped.
+                # Titles read from raw HTML can keep entities ("Theatre &amp;
+                # Performance", "Comptroller&#39;s Office") -- 257 did; the
+                # page shows them literally, so they are decoded here.
+                title = html.unescape(title)
+                dept = html.unescape(dept)
                 postings.append({
                     's': sid,
                     't': title,

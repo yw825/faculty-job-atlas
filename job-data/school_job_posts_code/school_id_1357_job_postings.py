@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 1357 - The University of Tennessee Southern (US)
 ATS platform: Oracle Cloud HCM (detected: oracle)
-Careers link: https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions?location=Pulaski%2C+TN%2C+United+States&locationId=300000010467855&locationLevel=city&mode=location&radius=25&radiusUnit=MI
+Careers link: https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs?selectedCategoriesFacet=300000024535357&selectedOrganizationsFacet=300000014275326
 
 The University of Tennessee Southern runs on a shared ATS platform -- every school on oracle uses the
 same underlying site software, so this calls the shared
@@ -12,8 +12,12 @@ and pass it to run_checkpointed instead of editing the shared adapter.
 
 Writes school_job_posts/school_id_1357_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1357_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Oracle Recruiting Cloud site; the link's facets (category / business unit / location) are kept.
 """
 import os
+import re
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -22,16 +26,21 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1357
 SCHOOL_NAME = 'The University of Tennessee Southern'
-CAREERS_LINK = 'https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions?location=Pulaski%2C+TN%2C+United+States&locationId=300000010467855&locationLevel=city&mode=location&radius=25&radiusUnit=MI'
+CAREERS_LINK = 'https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs?selectedCategoriesFacet=300000024535357&selectedOrganizationsFacet=300000014275326'
 ATS_PLATFORM = 'Oracle Cloud HCM'
 PLATFORM = 'oracle'
+
+BOARD = 'https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs?selectedCategoriesFacet=300000024535357&selectedOrganizationsFacet=300000014275326'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
+def find_links():
+    return lib.scrape_oracle_link(BOARD)
+
+
 def main():
-    result = lib.run_platform_school(SCHOOL_ID, SCHOOL_NAME, CAREERS_LINK,
-                                     CHECKPOINT_PATH, platform=PLATFORM)
+    result = lib.run_checkpointed(SCHOOL_ID, CHECKPOINT_PATH, find_links)
     err = result.get('last_error', '')
     print(f"{SCHOOL_NAME} (id={SCHOOL_ID}): status={result['status']} "
           f"links={len(result['links'])}" + (f" ERROR: {err}" if err else ''))
