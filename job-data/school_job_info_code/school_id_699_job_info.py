@@ -38,7 +38,7 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """UKG (UltiPro) posting, from the opportunity JSON embedded in the page."""
+    """UKG (UltiPro) posting."""
     return jinfo.fetch_detail_ultipro(url)
 
 

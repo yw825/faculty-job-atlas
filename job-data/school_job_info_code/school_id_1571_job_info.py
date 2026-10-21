@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1571 - Davis & Elkins College (US)
 ATS platform: own website
-Careers link: https://www.dewv.edu/explore/employment/
+Careers link: https://www.dewv.edu/explore/employment/open-positions/
 
 Reads posting URLs from school_id_1571_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1571
 SCHOOL_NAME = 'Davis & Elkins College'
-CAREERS_LINK = 'https://www.dewv.edu/explore/employment/'
+CAREERS_LINK = 'https://www.dewv.edu/explore/employment/open-positions/'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

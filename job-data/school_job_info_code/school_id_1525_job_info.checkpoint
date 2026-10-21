@@ -1,18 +1,38 @@
 {
   "raw": {
+    "https://www2.pugetsound.jobs/psc/HR92PRD/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=8976&PostingSeq=1&SiteId=3": {
+      "title": "Assistant Professor of Public Health",
+      "description": "Posted: 10/12/2026 Location: Public Health Department: Public Health Assistant Professor of Public Health",
+      "department": "Public Health"
+    },
+    "https://www2.pugetsound.jobs/psc/HR92PRD/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=8975&PostingSeq=1&SiteId=3": {
+      "title": "Director, Master of Education in Counseling Program",
+      "description": "Posted: 10/12/2026 Location: School of Education Department: School of Education-MEd Director, Master of Education in Counseling Program",
+      "department": "School of Education-MEd"
+    },
+    "https://www2.pugetsound.jobs/psc/HR92PRD/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=8966&PostingSeq=1&SiteId=3": {
+      "title": "Assistant Professor - Economics",
+      "description": "Posted: 10/01/2026 Location: Economics Department: Economics Assistant Professor - Economics",
+      "department": "Economics"
+    },
+    "https://www2.pugetsound.jobs/psc/HR92PRD/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=8965&PostingSeq=1&SiteId=3": {
+      "title": "Tenure Track Assistant Professor - Occupational Therapy",
+      "description": "Posted: 09/29/2026 Location: Occupational Therapy Department: Occupational Therapy Tenure Track Assistant Professor - Occupational Therapy",
+      "department": "Occupational Therapy"
+    },
     "https://www2.pugetsound.jobs/psc/HR92PRD/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=8954&PostingSeq=1&SiteId=3": {
       "title": "Assistant Professor - Physics",
       "description": "Posted: 09/04/2026 Location: Physics Department: Physics Assistant Professor - Physics",
       "department": "Physics"
     },
     "https://www2.pugetsound.jobs/psc/HR92PRD/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=8947&PostingSeq=1&SiteId=3": {
-      "title": "Assistant Professor, Management (tenure track)",
-      "description": "Posted: 08/27/2026 Location: Business & Leadership Department: Business & Leadership Admin Assistant Professor, Management (tenure track)",
+      "title": "Assistant Professor - Management (tenure track)",
+      "description": "Posted: 08/27/2026 Location: Business & Leadership Department: Business & Leadership Admin Assistant Professor - Management (tenure track)",
       "department": "Business & Leadership Admin"
     },
     "https://www2.pugetsound.jobs/psc/HR92PRD/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=8946&PostingSeq=1&SiteId=3": {
-      "title": "Assistant Professor of Business Analytics",
-      "description": "Posted: 08/25/2026 Location: Business & Leadership Department: Business & Leadership Admin Assistant Professor of Business Analytics",
+      "title": "Assistant Professor - Business Analytics",
+      "description": "Posted: 08/25/2026 Location: Business & Leadership Department: Business & Leadership Admin Assistant Professor - Business Analytics",
       "department": "Business & Leadership Admin"
     },
     "https://www2.pugetsound.jobs/psc/HR92PRD/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=8944&PostingSeq=1&SiteId=3": {
@@ -37,6 +57,50 @@
     }
   },
   "rows": {
+    "https://www2.pugetsound.jobs/psc/HR92PRD/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=8976&PostingSeq=1&SiteId=3": {
+      "school_id": 1525,
+      "posting_url": "https://www2.pugetsound.jobs/psc/HR92PRD/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=8976&PostingSeq=1&SiteId=3",
+      "job_title_in_post": "Assistant Professor of Public Health",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Public Health",
+      "area_key_words": "Public Health",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://www2.pugetsound.jobs/psc/HR92PRD/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=8975&PostingSeq=1&SiteId=3": {
+      "school_id": 1525,
+      "posting_url": "https://www2.pugetsound.jobs/psc/HR92PRD/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=8975&PostingSeq=1&SiteId=3",
+      "job_title_in_post": "Director, Master of Education in Counseling Program",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "School of Education-MEd",
+      "area_key_words": "Education in Counseling Program",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://www2.pugetsound.jobs/psc/HR92PRD/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=8966&PostingSeq=1&SiteId=3": {
+      "school_id": 1525,
+      "posting_url": "https://www2.pugetsound.jobs/psc/HR92PRD/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=8966&PostingSeq=1&SiteId=3",
+      "job_title_in_post": "Assistant Professor - Economics",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Economics",
+      "area_key_words": "Economics",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://www2.pugetsound.jobs/psc/HR92PRD/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=8965&PostingSeq=1&SiteId=3": {
+      "school_id": 1525,
+      "posting_url": "https://www2.pugetsound.jobs/psc/HR92PRD/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=8965&PostingSeq=1&SiteId=3",
+      "job_title_in_post": "Tenure Track Assistant Professor - Occupational Therapy",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Occupational Therapy",
+      "area_key_words": "Occupational Therapy",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
     "https://www2.pugetsound.jobs/psc/HR92PRD/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=8954&PostingSeq=1&SiteId=3": {
       "school_id": 1525,
       "posting_url": "https://www2.pugetsound.jobs/psc/HR92PRD/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=8954&PostingSeq=1&SiteId=3",
@@ -51,7 +115,7 @@
     "https://www2.pugetsound.jobs/psc/HR92PRD/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=8947&PostingSeq=1&SiteId=3": {
       "school_id": 1525,
       "posting_url": "https://www2.pugetsound.jobs/psc/HR92PRD/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=8947&PostingSeq=1&SiteId=3",
-      "job_title_in_post": "Assistant Professor, Management (tenure track)",
+      "job_title_in_post": "Assistant Professor - Management (tenure track)",
       "position_type": "Assistant_Professor",
       "job_term": "Full-time",
       "department_or_school": "Business & Leadership Admin",
@@ -62,7 +126,7 @@
     "https://www2.pugetsound.jobs/psc/HR92PRD/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=8946&PostingSeq=1&SiteId=3": {
       "school_id": 1525,
       "posting_url": "https://www2.pugetsound.jobs/psc/HR92PRD/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=8946&PostingSeq=1&SiteId=3",
-      "job_title_in_post": "Assistant Professor of Business Analytics",
+      "job_title_in_post": "Assistant Professor - Business Analytics",
       "position_type": "Assistant_Professor",
       "job_term": "Full-time",
       "department_or_school": "Business & Leadership Admin",
@@ -116,8 +180,8 @@
     }
   },
   "school_id": 1525,
-  "status": "error",
-  "updated_at": "2026-10-06T01:15:57+00:00",
-  "completed_at": "2026-09-09T23:14:44+00:00",
-  "last_error": "KeyError: 'dejobs'"
+  "status": "complete",
+  "updated_at": "2026-10-21T18:58:18+00:00",
+  "completed_at": "2026-10-21T18:58:18+00:00",
+  "last_error": ""
 }

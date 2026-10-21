@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 1513 - Northwest University (US)
 ATS platform: own website
-Careers link: http://careers.cccu.org/jobs
+Careers link: https://www.northwestu.edu/jobs
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -20,6 +20,9 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_1513_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1513_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Faculty openings are /jobs/faculty/<slug> pages.
 """
 import os
 import re
@@ -31,19 +34,16 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1513
 SCHOOL_NAME = 'Northwest University'
-CAREERS_LINK = 'http://careers.cccu.org/jobs'
+CAREERS_LINK = 'https://www.northwestu.edu/jobs'
 ATS_PLATFORM = 'own website'
+
+POSTING_RE = re.compile(r'^https://www\.northwestu\.edu/jobs/faculty/[a-z0-9-]+$')
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    return lib.scrape_matching(CAREERS_LINK, POSTING_RE, render=True, wait_ms=6000)
 
 
 def main():

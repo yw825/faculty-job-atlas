@@ -20,6 +20,9 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_1517_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1517_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+CityU's InterviewExchange board lists jobs on its category pages (index.jsp?catid=...); every category is read.
 """
 import os
 import re
@@ -38,12 +41,14 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkp
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    from urllib.parse import urljoin
+    html = lib._fetch_rendered_retry(CAREERS_LINK, 9000)
+    cats = list(dict.fromkeys(re.findall(r'index\.jsp\?catid=(\d+)', html)))
+    links = []
+    for cat in cats or [None]:
+        page = urljoin(CAREERS_LINK.split(';')[0], f'index.jsp?catid={cat}') if cat else CAREERS_LINK
+        links += [u for u in lib.scrape_interviewexchange(page) if u not in links]
+    return links
 
 
 def main():

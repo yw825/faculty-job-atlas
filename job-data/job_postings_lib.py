@@ -3174,6 +3174,54 @@ def brassring_jobs(url, max_more=80):
     return [f'https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid={m.group(1)}&siteid={m.group(2)}&PageType=JobDetails&jobid={i}' for i in ids]
 
 
+def uw_academic_jobs(include=None, exclude=None, url='https://ap.washington.edu/ahr/academic-jobs/'):
+    """University of Washington academic jobs page (all three campuses on one
+    list; its unit_id parameter is ignored). Each item carries a
+    .ap-job-location ("Seattle, WA", "Bothell, WA", "University of Washington
+    Tacoma"); `include` / `exclude` are regexes on it. Returns the
+    position-details links."""
+    soup = BeautifulSoup(_fetch_rendered_retry(url, 7000), 'html.parser')
+    links = []
+    for li in soup.select('li.ap-job-item'):
+        loc_el = li.select_one('.ap-job-location')
+        loc = loc_el.get_text(' ', strip=True) if loc_el else ''
+        if include and not re.search(include, loc):
+            continue
+        if exclude and re.search(exclude, loc):
+            continue
+        a = li.find('a', href=re.compile(r'position-details'))
+        if a and a['href'] not in links:
+            links.append(a['href'])
+    if not soup.select('li.ap-job-item'):
+        raise RuntimeError('UW academic jobs page: no items')
+    return links
+
+
+def ultipro_located(url, cities):
+    """UKG (UltiPro) postings whose location city is one of `cities` (a
+    regex), for a multi-campus board (Herzing: St. Louis Park = Minneapolis,
+    Brookfield, Kenosha, ...). Postings with no location are left out."""
+    parsed = urlparse(url)
+    m = re.match(r'^(/[^/]+/JobBoard/[^/]+?)(?:/|$)', parsed.path)
+    if not m:
+        raise RuntimeError('could not parse ultipro tenant/board path')
+    api = f'https://{parsed.netloc}{m.group(1)}/JobBoardView/LoadSearchResults'
+    payload = {'opportunitySearch': {'Top': 500, 'Skip': 0, 'QueryString': '',
+                                     'OrderBy': [{'Value': 'postedDateDesc', 'PropertyName': 'PostedDate', 'Ascending': False}],
+                                     'Filters': []},
+               'matchCriteria': {'PreferredJobs': [], 'Educations': [], 'LicenseAndCertifications': [],
+                                 'Skills': [], 'hasNoLicenses': False, 'SkippedSkills': []}}
+    status, text = fetch_static(api, method='POST', json_body=payload, extra_headers={'Accept': 'application/json'})
+    if status != 200:
+        raise RuntimeError(f'ultipro api status={status}')
+    links = []
+    for o in json.loads(text).get('opportunities') or []:
+        towns = [((loc.get('Address') or {}).get('City') or '') for loc in (o.get('Locations') or [])]
+        if any(re.search(cities, t) for t in towns):
+            links.append(f'https://{parsed.netloc}{m.group(1)}/OpportunityDetail?opportunityId={o.get("Id")}')
+    return links
+
+
 def scrape_interfolio_located(boards, include=None, exclude=None):
     """Public Interfolio links (legacy_position_id) from one or more boards,
     kept by the position's own location text: a regex `include` must match

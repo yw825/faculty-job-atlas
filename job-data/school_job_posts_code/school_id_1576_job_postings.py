@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 1576 - West Virginia University (US)
 ATS platform: own website
-Careers link: https://careers.wvu.edu/career-opportunities/internal-and-external-faculty-portal
+Careers link: https://wvu.taleo.net/careersection/faculty/jobsearch.ftl?lang=en&portal=26100021550
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -22,6 +22,9 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_1576_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1576_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+WVU's faculty Taleo section serves every campus; its search service is filtered by the City facet (Morgantown).
 """
 import os
 import re
@@ -33,19 +36,16 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1576
 SCHOOL_NAME = 'West Virginia University'
-CAREERS_LINK = 'https://careers.wvu.edu/career-opportunities/internal-and-external-faculty-portal'
+CAREERS_LINK = 'https://wvu.taleo.net/careersection/faculty/jobsearch.ftl?lang=en&portal=26100021550'
 ATS_PLATFORM = 'own website'
+
+CITY = '10700120139'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    return lib.taleo_rest_jobs('wvu.taleo.net', 'faculty', '26100021550', [CITY])
 
 
 def main():

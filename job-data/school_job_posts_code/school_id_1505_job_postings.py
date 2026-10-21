@@ -1,7 +1,7 @@
 """
-Job postings scraper for school_id 1505 - Northern Vermont University (US)
+Job postings scraper for school_id 1505 - Vermont State University-Johnson (US)
 ATS platform: Workday (detected: workday)
-Careers link: https://vsc.wd108.myworkdayjobs.com/VTSU
+Careers link: https://vsc.wd108.myworkdayjobs.com/VTSU?jobFamilyGroup=c6524e89e5a81000e34dd1c454830000&jobFamilyGroup=c6524e89e5a81000e34f3bc69de80000&jobFamilyGroup=c6524e89e5a81000e34edb0d7fdd0000&locations=c6524e89e5a81000e345f88519280000
 
 Northern Vermont University runs on a shared ATS platform -- every school on workday uses the
 same underlying site software, so this calls the shared
@@ -14,8 +14,12 @@ NOTE: 2 schools list against this same URL, so this listing carries every one of
 
 Writes school_job_posts/school_id_1505_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1505_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Workday site; the link's facets (job family / campus location) are kept.
 """
 import os
+import re
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -23,17 +27,20 @@ sys.path.insert(0, os.path.dirname(HERE))
 import job_postings_lib as lib
 
 SCHOOL_ID = 1505
-SCHOOL_NAME = 'Northern Vermont University'
-CAREERS_LINK = 'https://vsc.wd108.myworkdayjobs.com/VTSU'
+SCHOOL_NAME = "Vermont State University-Johnson"
+CAREERS_LINK = 'https://vsc.wd108.myworkdayjobs.com/VTSU?jobFamilyGroup=c6524e89e5a81000e34dd1c454830000&jobFamilyGroup=c6524e89e5a81000e34f3bc69de80000&jobFamilyGroup=c6524e89e5a81000e34edb0d7fdd0000&locations=c6524e89e5a81000e345f88519280000'
 ATS_PLATFORM = 'Workday'
 PLATFORM = 'workday'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
+def find_links():
+    return lib.PLATFORM_ADAPTERS['workday'](CAREERS_LINK, SCHOOL_NAME)
+
+
 def main():
-    result = lib.run_platform_school(SCHOOL_ID, SCHOOL_NAME, CAREERS_LINK,
-                                     CHECKPOINT_PATH, platform=PLATFORM)
+    result = lib.run_checkpointed(SCHOOL_ID, CHECKPOINT_PATH, find_links)
     err = result.get('last_error', '')
     print(f"{SCHOOL_NAME} (id={SCHOOL_ID}): status={result['status']} "
           f"links={len(result['links'])}" + (f" ERROR: {err}" if err else ''))

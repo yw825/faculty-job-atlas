@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1531 - Beloit College (US)
 ATS platform: own website
-Careers link: https://www.beloit.edu/offices/human-resources/
+Careers link: https://www.beloit.edu/offices/human-resources/faculty-staff-opportunities/
 
 Reads posting URLs from school_id_1531_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1531
 SCHOOL_NAME = 'Beloit College'
-CAREERS_LINK = 'https://www.beloit.edu/offices/human-resources/'
+CAREERS_LINK = 'https://www.beloit.edu/offices/human-resources/faculty-staff-opportunities/'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

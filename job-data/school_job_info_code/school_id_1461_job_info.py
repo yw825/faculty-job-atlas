@@ -1,5 +1,5 @@
 """
-Job info scraper for school_id 1461 - University of Virginia-Main Campus (US)
+Job info scraper for school_id 1461 - University of Virginia-Charlottesville (US)
 ATS platform: own website
 Careers link: https://jobs.virginia.edu/us/en/uva-faculty-positions
 
@@ -28,7 +28,7 @@ sys.path.insert(0, os.path.dirname(HERE))
 import job_info_lib as jinfo
 
 SCHOOL_ID = 1461
-SCHOOL_NAME = 'University of Virginia-Main Campus'
+SCHOOL_NAME = "University of Virginia-Charlottesville"
 CAREERS_LINK = 'https://jobs.virginia.edu/us/en/uva-faculty-positions'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
@@ -38,13 +38,8 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """This school's own detail-page logic, owned by this file. The default
-    renders the page, picks the most job-title-shaped heading, and takes the
-    visible text as the description. Override when a posting page needs
-    something else -- a nested iframe, a cookie gate, a PDF, or a title that
-    only exists in <title> (all of which came up in the non-US set)."""
-    return jinfo.fetch_detail_generic(url)
-
+    """Interfolio posting."""
+    return jinfo.fetch_detail_interfolio(url)
 
 
 def main():

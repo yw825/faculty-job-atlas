@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 1456 - Randolph-Macon College (US)
 ATS platform: ADP Workforce Now (detected: adp)
-Careers link: https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=0885b537-c9f5-47f8-aa4f-0ad7bbebf412
+Careers link: https://www.rmc.edu/about-rmc/offices-departments/human-resources/employment-opportunities/
 
 Randolph-Macon College runs on a shared ATS platform, so this calls the
 shared job_postings_lib.scrape_adp adapter rather than duplicating
@@ -25,8 +25,7 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1456
 SCHOOL_NAME = 'Randolph-Macon College'
-CAREERS_LINK = ('https://workforcenow.adp.com/mascsr/default/mdf/recruitment/'
-                'recruitment.html?cid=0885b537-c9f5-47f8-aa4f-0ad7bbebf412')
+CAREERS_LINK = 'https://www.rmc.edu/about-rmc/offices-departments/human-resources/employment-opportunities/'
 ATS_PLATFORM = 'ADP Workforce Now'
 PLATFORM = 'adp'
 

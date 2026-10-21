@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1484 - Radford University (US)
 ATS platform: own website
-Careers link: https://jobs.radford.edu/
+Careers link: https://jobs.radford.edu/jobs/search?page=1&employment_type_uids%5B%5D=1cc1b6b11d0a968eeb5de4ea139112a7&employment_type_uids%5B%5D=d62ff0ab03a5da826a64366d140bfcb7
 
 Reads posting URLs from school_id_1484_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1484
 SCHOOL_NAME = 'Radford University'
-CAREERS_LINK = 'https://jobs.radford.edu/'
+CAREERS_LINK = 'https://jobs.radford.edu/jobs/search?page=1&employment_type_uids%5B%5D=1cc1b6b11d0a968eeb5de4ea139112a7&employment_type_uids%5B%5D=d62ff0ab03a5da826a64366d140bfcb7'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 
@@ -38,13 +38,8 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """This school's own detail-page logic, owned by this file. The default
-    renders the page, picks the most job-title-shaped heading, and takes the
-    visible text as the description. Override when a posting page needs
-    something else -- a nested iframe, a cookie gate, a PDF, or a title that
-    only exists in <title> (all of which came up in the non-US set)."""
-    return jinfo.fetch_detail_generic(url)
-
+    """career-pages posting."""
+    return jinfo.fetch_detail_board_title(url)
 
 
 def main():

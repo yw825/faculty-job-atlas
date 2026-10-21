@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1522 - Whitworth University (US)
 ATS platform: own website
-Careers link: https://www.schooljobs.com/careers/whitworth/staff?jobType[0]=Faculty&sort=PositionTitle%7CAscending
+Careers link: https://www.whitworth.edu/cms/administration/human-resource-services/faculty-lecturer-employment-opportunities/
 
 Reads posting URLs from school_id_1522_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1522
 SCHOOL_NAME = 'Whitworth University'
-CAREERS_LINK = 'https://www.schooljobs.com/careers/whitworth/staff?jobType[0]=Faculty&sort=PositionTitle%7CAscending'
+CAREERS_LINK = 'https://www.whitworth.edu/cms/administration/human-resource-services/faculty-lecturer-employment-opportunities/'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

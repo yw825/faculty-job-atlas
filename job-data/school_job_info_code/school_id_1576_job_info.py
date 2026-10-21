@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1576 - West Virginia University (US)
 ATS platform: own website
-Careers link: https://careers.wvu.edu/career-opportunities/internal-and-external-faculty-portal
+Careers link: https://wvu.taleo.net/careersection/faculty/jobsearch.ftl?lang=en&portal=26100021550
 
 Reads posting URLs from school_id_1576_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1576
 SCHOOL_NAME = 'West Virginia University'
-CAREERS_LINK = 'https://careers.wvu.edu/career-opportunities/internal-and-external-faculty-portal'
+CAREERS_LINK = 'https://wvu.taleo.net/careersection/faculty/jobsearch.ftl?lang=en&portal=26100021550'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 
@@ -38,13 +38,10 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """This school's own detail-page logic, owned by this file. The default
-    renders the page, picks the most job-title-shaped heading, and takes the
-    visible text as the description. Override when a posting page needs
-    something else -- a nested iframe, a cookie gate, a PDF, or a title that
-    only exists in <title> (all of which came up in the non-US set)."""
-    return jinfo.fetch_detail_generic(url)
-
+    """Taleo page heads "Job Description - <title> (<number>)"."""
+    title, text = jinfo.fetch_detail_generic(url)
+    m = re.match(r'\s*Job Description - (.{3,250}?) \(\d+\)', text)
+    return (m.group(1) if m else title), text
 
 
 def main():

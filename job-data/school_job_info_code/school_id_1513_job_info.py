@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1513 - Northwest University (US)
 ATS platform: own website
-Careers link: http://careers.cccu.org/jobs
+Careers link: https://www.northwestu.edu/jobs
 
 Reads posting URLs from school_id_1513_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1513
 SCHOOL_NAME = 'Northwest University'
-CAREERS_LINK = 'http://careers.cccu.org/jobs'
+CAREERS_LINK = 'https://www.northwestu.edu/jobs'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

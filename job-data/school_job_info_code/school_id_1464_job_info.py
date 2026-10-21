@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1464 - George Mason University (US)
 ATS platform: own website
-Careers link: https://jobs.gmu.edu
+Careers link: https://listings.jobs.gmu.edu/jobs/search?page=1&employment_type_uids%5B%5D=76eac4faa1bd47b64352f08e20333104&employment_type_uids%5B%5D=b30257f97203b03e48c7d701964c9c2c&employment_type_uids%5B%5D=a876dcada2f37b330a51f6b6cd87091f&employment_type_uids%5B%5D=36caa64374a633147204a7009f2d715f
 
 Reads posting URLs from school_id_1464_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1464
 SCHOOL_NAME = 'George Mason University'
-CAREERS_LINK = 'https://jobs.gmu.edu'
+CAREERS_LINK = 'https://listings.jobs.gmu.edu/jobs/search?page=1&employment_type_uids%5B%5D=76eac4faa1bd47b64352f08e20333104&employment_type_uids%5B%5D=b30257f97203b03e48c7d701964c9c2c&employment_type_uids%5B%5D=a876dcada2f37b330a51f6b6cd87091f&employment_type_uids%5B%5D=36caa64374a633147204a7009f2d715f'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 
@@ -38,13 +38,8 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """This school's own detail-page logic, owned by this file. The default
-    renders the page, picks the most job-title-shaped heading, and takes the
-    visible text as the description. Override when a posting page needs
-    something else -- a nested iframe, a cookie gate, a PDF, or a title that
-    only exists in <title> (all of which came up in the non-US set)."""
-    return jinfo.fetch_detail_generic(url)
-
+    """career-pages posting."""
+    return jinfo.fetch_detail_board_title(url)
 
 
 def main():

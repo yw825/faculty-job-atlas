@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1570 - University of Charleston (US)
 ATS platform: own website
-Careers link: https://ucwv.elluciancrmrecruit.com/Apply/Account/Create?f=586ce4f3-d79d-4f52-9540-5138661f6dcd&o=538fedc1-2f8d-4f30-89b1-d13415d0429c&IsInquiry=True
+Careers link: https://www.ucwv.edu/job-postings/
 
 Reads posting URLs from school_id_1570_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,

@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 1547 - Alverno College (US)
 ATS platform: own website
-Careers link: https://www.alverno.edu/Career-Recruit-a-Grad
+Careers link: https://www.alverno.edu/careers#current
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -20,6 +20,9 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_1547_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1547_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+The careers page lists Alverno's UKG Ready board; the board is read.
 """
 import os
 import re
@@ -31,19 +34,16 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1547
 SCHOOL_NAME = 'Alverno College'
-CAREERS_LINK = 'https://www.alverno.edu/Career-Recruit-a-Grad'
+CAREERS_LINK = 'https://www.alverno.edu/careers#current'
 ATS_PLATFORM = 'own website'
+
+BOARD = 'https://secure7.saashr.com/ta/6213991.careers?CareersSearch'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    return lib.scrape_ultipro_ta(BOARD)
 
 
 def main():

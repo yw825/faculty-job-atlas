@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 1583 - University of Wyoming (US)
 ATS platform: Oracle Cloud HCM (detected: oracle)
-Careers link: https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1
+Careers link: https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001
 
 University of Wyoming runs on a shared ATS platform -- every school on oracle uses the
 same underlying site software, so this calls the shared
@@ -12,8 +12,12 @@ and pass it to run_checkpointed instead of editing the shared adapter.
 
 Writes school_job_posts/school_id_1583_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1583_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Oracle Recruiting Cloud site (whole site).
 """
 import os
+import re
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -22,21 +26,14 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1583
 SCHOOL_NAME = 'University of Wyoming'
-CAREERS_LINK = 'https://www.uwyo.edu/jobs'
+CAREERS_LINK = 'https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001'
 ATS_PLATFORM = 'Oracle Cloud HCM'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    """Generic: this school's careers_link was rediscovered from its
-    homepage, so the platform pinned in the old script no longer applies."""
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    return lib.PLATFORM_ADAPTERS['oracle'](CAREERS_LINK, SCHOOL_NAME)
 
 
 def main():

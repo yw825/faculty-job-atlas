@@ -1,5 +1,5 @@
 """
-Job info scraper for school_id 1498 - University of Virginia's College at Wise (US)
+Job info scraper for school_id 1498 - University of Virginia-College at Wise (US)
 ATS platform: own website
 Careers link: https://apply.interfolio.com/50272/positions
 
@@ -28,7 +28,7 @@ sys.path.insert(0, os.path.dirname(HERE))
 import job_info_lib as jinfo
 
 SCHOOL_ID = 1498
-SCHOOL_NAME = 'University of Virginia\'s College at Wise'
+SCHOOL_NAME = "University of Virginia-College at Wise"
 CAREERS_LINK = 'https://apply.interfolio.com/50272/positions'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
@@ -37,14 +37,14 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
     HERE, '..', 'school_job_posts_code', f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
+def fetch_detail(url):
+    """Interfolio posting."""
+    return jinfo.fetch_detail_interfolio(url)
+
+
 def main():
-    # Bulk: the Interfolio board API returns title, description, unit and
-    # dates for every posting in one paginated call, so no per-posting
-    # page visit is needed (and each would need a browser -- the posting
-    # pages are an Angular app).
-    result = jinfo.run_school_job_info_bulk(SCHOOL_ID, CAREERS_LINK, 'interfolio',
-                                            JOB_POSTINGS_CHECKPOINT, CHECKPOINT_PATH,
-                                            use_llm=USE_LLM)
+    result = jinfo.run_school_job_info(SCHOOL_ID, JOB_POSTINGS_CHECKPOINT, CHECKPOINT_PATH,
+                                       fetch_detail_fn=fetch_detail, use_llm=USE_LLM)
     err = result.get('last_error', '')
     n_ok = sum(1 for r in result['rows'].values() if 'error' not in r)
     print(f"{SCHOOL_NAME} (id={SCHOOL_ID}): status={result['status']} "

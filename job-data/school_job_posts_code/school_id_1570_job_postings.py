@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 1570 - University of Charleston (US)
 ATS platform: own website
-Careers link: https://ucwv.elluciancrmrecruit.com/Apply/Account/Create?f=586ce4f3-d79d-4f52-9540-5138661f6dcd&o=538fedc1-2f8d-4f30-89b1-d13415d0429c&IsInquiry=True
+Careers link: https://www.ucwv.edu/job-postings/
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -20,6 +20,9 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_1570_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1570_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Job postings list, paged (/job-postings/page/N/).
 """
 import os
 import re
@@ -34,16 +37,13 @@ SCHOOL_NAME = 'University of Charleston'
 CAREERS_LINK = 'https://www.ucwv.edu/job-postings/'
 ATS_PLATFORM = 'own website'
 
+POSTING_RE = re.compile(r'^https://www\.ucwv\.edu/job-postings/(?!page/|campus-location/)[a-z0-9-]+/$')
+
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    return list(dict.fromkeys(lib.scrape_matching(CAREERS_LINK, POSTING_RE, render=True) + lib.scrape_query_pages('https://www.ucwv.edu/job-postings/page/{p}/', POSTING_RE, start=2, render=True)))
 
 
 def main():

@@ -41,6 +41,7 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint
 
 
 def main():
+    # Oracle's REST service gives every requisition's title and description.
     result = jinfo.run_school_job_info_bulk(SCHOOL_ID, CAREERS_LINK, 'oracle',
                                             JOB_POSTINGS_CHECKPOINT, CHECKPOINT_PATH,
                                             use_llm=USE_LLM)

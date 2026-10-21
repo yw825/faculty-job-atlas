@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1474 - Virginia Military Institute (US)
 ATS platform: own website
-Careers link: https://www.vmi.edu/job-openings/
+Careers link: https://www.vmi.edu/job-categories/teaching-faculty/
 
 Reads posting URLs from school_id_1474_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1474
 SCHOOL_NAME = 'Virginia Military Institute'
-CAREERS_LINK = 'https://www.vmi.edu/job-openings/'
+CAREERS_LINK = 'https://www.vmi.edu/job-categories/teaching-faculty/'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

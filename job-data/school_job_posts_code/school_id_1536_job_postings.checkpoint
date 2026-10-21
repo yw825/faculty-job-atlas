@@ -1,24 +1,22 @@
 {
   "links": [
-    "https://www.marianuniversity.edu/adjunct-faculty-open-application-pool/",
-    "https://www.marianuniversity.edu/adjunct-accounting/",
-    "https://www.marianuniversity.edu/adjunct-professor-business/",
-    "https://www.marianuniversity.edu/adjunct-construction-management/",
-    "https://www.marianuniversity.edu/education-adjunct/",
-    "https://www.marianuniversity.edu/instructional-adjunct-graduate-nursing/",
-    "https://www.marianuniversity.edu/adjunct-mathematics/",
-    "https://www.marianuniversity.edu/adjunct-professor-social-work/",
-    "https://www.marianuniversity.edu/adjunct-undergraduate-nursing/",
-    "https://www.marianuniversity.edu/assistant-mens-bowling-coach/",
-    "https://www.marianuniversity.edu/assistant-coach-temporary/",
-    "https://www.marianuniversity.edu/director-of-hospitality/",
-    "https://www.marianuniversity.edu/financial-aid-counselor-advisor/",
-    "https://www.marianuniversity.edu/sabre-cafe-manager-special-events-support/"
+    "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=f55424be-e1cb-45f4-b714-c1a238aabae7&ccId=19000101_000001&jobId=9201083136452_1&lang=en_US",
+    "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=f55424be-e1cb-45f4-b714-c1a238aabae7&ccId=19000101_000001&jobId=9201082877216_1&lang=en_US",
+    "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=f55424be-e1cb-45f4-b714-c1a238aabae7&ccId=19000101_000001&jobId=9201082249029_1&lang=en_US",
+    "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=f55424be-e1cb-45f4-b714-c1a238aabae7&ccId=19000101_000001&jobId=9201081339996_1&lang=en_US",
+    "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=f55424be-e1cb-45f4-b714-c1a238aabae7&ccId=19000101_000001&jobId=9201081068551_1&lang=en_US",
+    "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=f55424be-e1cb-45f4-b714-c1a238aabae7&ccId=19000101_000001&jobId=9201079667493_1&lang=en_US",
+    "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=f55424be-e1cb-45f4-b714-c1a238aabae7&ccId=19000101_000001&jobId=9201079607852_1&lang=en_US",
+    "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=f55424be-e1cb-45f4-b714-c1a238aabae7&ccId=19000101_000001&jobId=9201074602873_1&lang=en_US",
+    "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=f55424be-e1cb-45f4-b714-c1a238aabae7&ccId=19000101_000001&jobId=9201076677955_1&lang=en_US",
+    "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=f55424be-e1cb-45f4-b714-c1a238aabae7&ccId=19000101_000001&jobId=9201076733506_1&lang=en_US",
+    "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=f55424be-e1cb-45f4-b714-c1a238aabae7&ccId=19000101_000001&jobId=9201076734784_1&lang=en_US",
+    "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=f55424be-e1cb-45f4-b714-c1a238aabae7&ccId=19000101_000001&jobId=9201078934044_1&lang=en_US"
   ],
   "school_id": 1536,
-  "status": "error",
-  "updated_at": "2026-10-05T20:23:15+00:00",
+  "status": "complete",
+  "updated_at": "2026-10-21T18:50:59+00:00",
   "started_at": "2026-09-25T06:29:17+00:00",
-  "completed_at": "2026-09-30T19:36:22+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.marianuniversity.edu/about-marian/employment/\", waiting until \"domcontentloaded\"\n"
+  "completed_at": "2026-10-21T18:50:59+00:00",
+  "last_error": ""
 }

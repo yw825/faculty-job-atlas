@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1460 - Southern Virginia University (US)
 ATS platform: own website
-Careers link: https://svu.edu/about/careers/open-rank-professor-of-biology/
+Careers link: https://svu.edu/about/careers/
 
 Reads posting URLs from school_id_1460_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1460
 SCHOOL_NAME = 'Southern Virginia University'
-CAREERS_LINK = 'https://svu.edu/about/careers/open-rank-professor-of-biology/'
+CAREERS_LINK = 'https://svu.edu/about/careers/'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

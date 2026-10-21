@@ -1,24 +1,23 @@
 {
   "links": [
+    "https://www.paycomonline.net/v4/ats/web.php/portal/06E60EB4A3425A1B8B2E3A5F3F1E2A6F/jobs/312503",
+    "https://www.paycomonline.net/v4/ats/web.php/portal/06E60EB4A3425A1B8B2E3A5F3F1E2A6F/jobs/312354",
+    "https://www.paycomonline.net/v4/ats/web.php/portal/06E60EB4A3425A1B8B2E3A5F3F1E2A6F/jobs/312080",
+    "https://www.paycomonline.net/v4/ats/web.php/portal/06E60EB4A3425A1B8B2E3A5F3F1E2A6F/jobs/310539",
+    "https://www.paycomonline.net/v4/ats/web.php/portal/06E60EB4A3425A1B8B2E3A5F3F1E2A6F/jobs/310527",
     "https://www.paycomonline.net/v4/ats/web.php/portal/06E60EB4A3425A1B8B2E3A5F3F1E2A6F/jobs/310266",
     "https://www.paycomonline.net/v4/ats/web.php/portal/06E60EB4A3425A1B8B2E3A5F3F1E2A6F/jobs/310248",
     "https://www.paycomonline.net/v4/ats/web.php/portal/06E60EB4A3425A1B8B2E3A5F3F1E2A6F/jobs/310112",
-    "https://www.paycomonline.net/v4/ats/web.php/portal/06E60EB4A3425A1B8B2E3A5F3F1E2A6F/jobs/308715",
-    "https://www.paycomonline.net/v4/ats/web.php/portal/06E60EB4A3425A1B8B2E3A5F3F1E2A6F/jobs/307576",
     "https://www.paycomonline.net/v4/ats/web.php/portal/06E60EB4A3425A1B8B2E3A5F3F1E2A6F/jobs/306201",
-    "https://www.paycomonline.net/v4/ats/web.php/portal/06E60EB4A3425A1B8B2E3A5F3F1E2A6F/jobs/305917",
-    "https://www.paycomonline.net/v4/ats/web.php/portal/06E60EB4A3425A1B8B2E3A5F3F1E2A6F/jobs/303689",
     "https://www.paycomonline.net/v4/ats/web.php/portal/06E60EB4A3425A1B8B2E3A5F3F1E2A6F/jobs/303640",
     "https://www.paycomonline.net/v4/ats/web.php/portal/06E60EB4A3425A1B8B2E3A5F3F1E2A6F/jobs/299434",
     "https://www.paycomonline.net/v4/ats/web.php/portal/06E60EB4A3425A1B8B2E3A5F3F1E2A6F/jobs/264246",
-    "https://www.paycomonline.net/v4/ats/web.php/portal/06E60EB4A3425A1B8B2E3A5F3F1E2A6F/jobs/96638",
-    "https://www.paycomonline.net/v4/ats/web.php/portal/06E60EB4A3425A1B8B2E3A5F3F1E2A6F/jobs/310539",
-    "https://www.paycomonline.net/v4/ats/web.php/portal/06E60EB4A3425A1B8B2E3A5F3F1E2A6F/jobs/310527"
+    "https://www.paycomonline.net/v4/ats/web.php/portal/06E60EB4A3425A1B8B2E3A5F3F1E2A6F/jobs/96638"
   ],
   "school_id": 1478,
-  "status": "error",
-  "updated_at": "2026-10-05T19:55:31+00:00",
+  "status": "complete",
+  "updated_at": "2026-10-21T18:49:09+00:00",
   "started_at": "2026-09-25T06:24:40+00:00",
-  "completed_at": "2026-10-02T20:40:18+00:00",
-  "last_error": "RuntimeError: no paycom postings found"
+  "completed_at": "2026-10-21T18:49:09+00:00",
+  "last_error": ""
 }

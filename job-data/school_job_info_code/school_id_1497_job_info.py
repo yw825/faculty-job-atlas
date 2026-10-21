@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1497 - Shenandoah University (US)
 ATS platform: own website
-Careers link: https://jobs.silkroad.com/ShenandoahUniversity/EmploymentPortal
+Careers link: https://jobs.silkroad.com/ShenandoahUniversity/ShenandoahUniversity/
 
 Reads posting URLs from school_id_1497_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1497
 SCHOOL_NAME = 'Shenandoah University'
-CAREERS_LINK = 'https://jobs.silkroad.com/ShenandoahUniversity/EmploymentPortal'
+CAREERS_LINK = 'https://jobs.silkroad.com/ShenandoahUniversity/ShenandoahUniversity/'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

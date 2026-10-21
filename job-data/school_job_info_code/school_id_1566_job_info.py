@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1566 - Bethany College (US)
 ATS platform: own website
-Careers link: https://www.bethanywv.edu/about/employment/
+Careers link: https://www.higheredjobs.com/institution/search.cfm?aID=2641
 
 Reads posting URLs from school_id_1566_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1566
 SCHOOL_NAME = 'Bethany College'
-CAREERS_LINK = 'https://www.bethanywv.edu/about/employment/'
+CAREERS_LINK = 'https://www.higheredjobs.com/institution/search.cfm?aID=2641'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

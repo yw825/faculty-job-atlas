@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 1449 - University of Utah (US)
 ATS platform: own website
-Careers link: https://careers.utah.edu/employers/recruiting-policies/
+Careers link: https://utah.peopleadmin.com/postings/search?595%5B%5D=2&commit=Search&page=1&utf8=%E2%9C%93
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -20,6 +20,9 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_1449_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1449_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+PeopleAdmin search; the link's own filters are kept.
 """
 import os
 import re
@@ -31,19 +34,14 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1449
 SCHOOL_NAME = 'University of Utah'
-CAREERS_LINK = 'https://careers.utah.edu/employers/recruiting-policies/'
+CAREERS_LINK = 'https://utah.peopleadmin.com/postings/search?595%5B%5D=2&commit=Search&page=1&utf8=%E2%9C%93'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    return lib.scrape_peopleadmin_search(CAREERS_LINK)
 
 
 def main():

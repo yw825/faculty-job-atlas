@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1509 - University of Washington-Bothell Campus (US)
 ATS platform: own website
-Careers link: https://ap.washington.edu/ahr/academic-jobs/?unit_id=29084
+Careers link: https://ap.washington.edu/ahr/academic-jobs/
 
 Reads posting URLs from school_id_1509_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1509
 SCHOOL_NAME = 'University of Washington-Bothell Campus'
-CAREERS_LINK = 'https://ap.washington.edu/ahr/academic-jobs/?unit_id=29084'
+CAREERS_LINK = 'https://ap.washington.edu/ahr/academic-jobs/'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

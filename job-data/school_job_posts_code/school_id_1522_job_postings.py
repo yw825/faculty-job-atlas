@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 1522 - Whitworth University
 ATS platform: SchoolJobs (NeoGov) (detected: schooljobs)
-Careers link: https://www.schooljobs.com/careers/whitworth
+Careers link: https://www.whitworth.edu/cms/administration/human-resource-services/faculty-lecturer-employment-opportunities/
 
 Whitworth University runs on a shared ATS platform, so this calls the shared
 job_postings_lib.scrape_schooljobs adapter rather than duplicating
@@ -28,7 +28,7 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1522
 SCHOOL_NAME = 'Whitworth University'
-CAREERS_LINK = 'https://www.schooljobs.com/careers/whitworth'
+CAREERS_LINK = 'https://www.whitworth.edu/cms/administration/human-resource-services/faculty-lecturer-employment-opportunities/'
 ATS_PLATFORM = 'SchoolJobs (NeoGov)'
 PLATFORM = 'schooljobs'
 

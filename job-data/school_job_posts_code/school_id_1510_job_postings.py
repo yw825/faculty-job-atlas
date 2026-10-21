@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 1510 - Eastern Washington University (US)
 ATS platform: PeopleAdmin (detected: peopleadmin)
-Careers link: https://jobs.hr.ewu.edu/postings/search?utf8=%E2%9C%93&query=Adjunct&query_v0_posted_at_date=&query_position_type_id%5B%5D=any&commit=Search
+Careers link: https://jobs.hr.ewu.edu/jobs/search?page=1&employment_type_uids%5B%5D=263b4e183e2efa820b70c5aec3ae0479&employment_type_uids%5B%5D=bdb918e244451e131b4aa8d6f10651e0
 
 Eastern Washington University runs on a shared ATS platform -- every school on peopleadmin uses the
 same underlying site software, so this calls the shared
@@ -12,8 +12,12 @@ and pass it to run_checkpointed instead of editing the shared adapter.
 
 Writes school_job_posts/school_id_1510_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1510_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+Career-pages board, paged; the link's filters are kept.
 """
 import os
+import re
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -22,16 +26,21 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1510
 SCHOOL_NAME = 'Eastern Washington University'
-CAREERS_LINK = 'https://jobs.hr.ewu.edu/postings/search?utf8=%E2%9C%93&query=Adjunct&query_v0_posted_at_date=&query_position_type_id%5B%5D=any&commit=Search'
+CAREERS_LINK = 'https://jobs.hr.ewu.edu/jobs/search?page=1&employment_type_uids%5B%5D=263b4e183e2efa820b70c5aec3ae0479&employment_type_uids%5B%5D=bdb918e244451e131b4aa8d6f10651e0'
 ATS_PLATFORM = 'PeopleAdmin'
 PLATFORM = 'peopleadmin'
+
+POSTING_RE = re.compile(r'^https://jobs\.(?:hr\.)?ewu\.edu/jobs/(?!search)[a-z0-9-]+$')
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
+def find_links():
+    return lib.scrape_paged_board(CAREERS_LINK, POSTING_RE)
+
+
 def main():
-    result = lib.run_platform_school(SCHOOL_ID, SCHOOL_NAME, CAREERS_LINK,
-                                     CHECKPOINT_PATH, platform=PLATFORM)
+    result = lib.run_checkpointed(SCHOOL_ID, CHECKPOINT_PATH, find_links)
     err = result.get('last_error', '')
     print(f"{SCHOOL_NAME} (id={SCHOOL_ID}): status={result['status']} "
           f"links={len(result['links'])}" + (f" ERROR: {err}" if err else ''))

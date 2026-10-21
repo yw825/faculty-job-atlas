@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 1536 - Marian University (US)
 ATS platform: own website
-Careers link: https://www.marianuniversity.edu/about-marian/employment/
+Careers link: https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=f55424be-e1cb-45f4-b714-c1a238aabae7&ccId=19000101_000001&lang=en_US&selectedMenuKey=CurrentOpenings
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file.
@@ -19,6 +19,9 @@ this matches, restricted to single-segment paths on Marian's own host.
 
 Writes school_job_posts/school_id_1536_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1536_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+ADP Workforce Now board (public API).
 """
 import os
 import re
@@ -31,7 +34,7 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1536
 SCHOOL_NAME = 'Marian University'
-CAREERS_LINK = 'https://www.marianuniversity.edu/about-marian/employment/'
+CAREERS_LINK = 'https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=f55424be-e1cb-45f4-b714-c1a238aabae7&ccId=19000101_000001&lang=en_US&selectedMenuKey=CurrentOpenings'
 ATS_PLATFORM = 'own website'
 
 # The link text of a posting names a role. Deliberately does NOT include bare
@@ -50,29 +53,7 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkp
 
 
 def find_links():
-    from bs4 import BeautifulSoup
-    html = lib.fetch_rendered(CAREERS_LINK, wait_ms=8000)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    soup = BeautifulSoup(html, 'html.parser')
-    links, seen = [], set()
-    for a in soup.find_all('a', href=True):
-        text = a.get_text(' ', strip=True)
-        if not ROLE.search(text):
-            continue
-        full = urljoin(CAREERS_LINK, a['href'].strip())
-        parsed = urlparse(full)
-        if parsed.netloc != 'www.marianuniversity.edu':
-            continue
-        if not SINGLE_SEGMENT.match(parsed.path):
-            continue
-        clean = f'https://{parsed.netloc}{parsed.path}'
-        if clean not in seen:
-            seen.add(clean)
-            links.append(clean)
-    if not links:
-        raise RuntimeError('marian employment page listed no role-titled links')
-    return links
+    return lib.scrape_adp(CAREERS_LINK)
 
 
 def main():

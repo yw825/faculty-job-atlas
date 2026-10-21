@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1457 - Virginia Polytechnic Institute and State University (US)
 ATS platform: PageUp
-Careers link: https://careers.pageuppeople.com/968/ci/en-us/listing
+Careers link: https://jobs.apply.vt.edu/jobs/search?page=1&employment_type_uids%5B%5D=beaf2a59c21052585454b659fedb9e7a&employment_type_uids%5B%5D=9656b3af311ae5c9e88673da8bb39af5
 
 Reads posting URLs from school_id_1457_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1457
 SCHOOL_NAME = 'Virginia Polytechnic Institute and State University'
-CAREERS_LINK = 'https://jobs.apply.vt.edu/jobs/search/search-page-faculty'
+CAREERS_LINK = 'https://jobs.apply.vt.edu/jobs/search?page=1&employment_type_uids%5B%5D=beaf2a59c21052585454b659fedb9e7a&employment_type_uids%5B%5D=9656b3af311ae5c9e88673da8bb39af5'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 
@@ -38,13 +38,8 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """This school's own detail-page logic, owned by this file. The default
-    renders the page, picks the most job-title-shaped heading, and takes the
-    visible text as the description. Override when a posting page needs
-    something else -- a nested iframe, a cookie gate, a PDF, or a title that
-    only exists in <title> (all of which came up in the non-US set)."""
-    return jinfo.fetch_detail_generic(url)
-
+    """career-pages posting."""
+    return jinfo.fetch_detail_board_title(url)
 
 
 def main():

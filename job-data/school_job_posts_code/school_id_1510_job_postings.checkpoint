@@ -1,11 +1,23 @@
 {
   "links": [
-    "https://jobs.hr.ewu.edu/postings/14047"
+    "https://jobs.ewu.edu/jobs/chair-school-of-education-f99983-cheney-washington-united-states",
+    "https://jobs.ewu.edu/jobs/associate-professor-mechanical-engineering-technology-construction-management-technology-f99166-cheney-washington-united-states",
+    "https://jobs.ewu.edu/jobs/assistant-professor-of-marketing-f99745-cheney-washington-united-states",
+    "https://jobs.ewu.edu/jobs/clinical-assistant-nursing-f99164-spokane-washington-united-states",
+    "https://jobs.ewu.edu/jobs/clinical-assistant-clinical-associate-nursing-f99244-spokane-washington-united-states",
+    "https://jobs.ewu.edu/jobs/assistant-lecturer-computer-engineering-f99294-cheney-washington-united-states",
+    "https://jobs.ewu.edu/jobs/assistant-professor-of-sped-generalist-school-of-education-f99812-cheney-washington-united-states",
+    "https://jobs.ewu.edu/jobs/assistant-lecturer-anthropology-f99196-cheney-washington-united-states",
+    "https://jobs.ewu.edu/jobs/assistant-professor-chemistry-biochemistry-physics-forensics-f99167-cheney-washington-united-states",
+    "https://jobs.ewu.edu/jobs/associate-or-full-professor-physical-therapy-f99591-spokane-washington-united-states",
+    "https://jobs.ewu.edu/jobs/nursing-adjunct-professor-part-time-spokane-washington-united-states",
+    "https://jobs.ewu.edu/jobs/lecturer-occupational-therapy-f99221-spokane-washington-united-states",
+    "https://jobs.ewu.edu/jobs/adjunct-professor-part-time-cheney-washington-united-states"
   ],
   "school_id": 1510,
-  "status": "error",
-  "updated_at": "2026-10-05T20:14:30+00:00",
+  "status": "complete",
+  "updated_at": "2026-10-21T18:49:57+00:00",
   "started_at": "2026-09-08T07:35:16+00:00",
-  "completed_at": "2026-09-14T19:41:45+00:00",
-  "last_error": "RuntimeError: peopleadmin atom status=404"
+  "completed_at": "2026-10-21T18:49:57+00:00",
+  "last_error": ""
 }
