@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1385 - The University of Texas at El Paso (US)
 ATS platform: own website
-Careers link: https://utep.interviewexchange.com/static/clients/533UTM1/index.jsp
+Careers link: https://utep.interviewexchange.com/static/clients/533UTM1/index.jsp?catid=1632
 
 Reads posting URLs from school_id_1385_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1385
 SCHOOL_NAME = 'The University of Texas at El Paso'
-CAREERS_LINK = 'https://utep.interviewexchange.com/static/clients/533UTM1/index.jsp'
+CAREERS_LINK = 'https://utep.interviewexchange.com/static/clients/533UTM1/index.jsp?catid=1632'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

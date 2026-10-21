@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1324 - Austin Peay State University (US)
 ATS platform: own website
-Careers link: https://apsu.peopleadmin.com/postings/search?utf8=%E2%9C%93&query=&query_v0_posted_at_date=&314=&query_position_type_id%5B%5D=2&625=&commit=Search
+Careers link: https://ibqzjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001
 
 Reads posting URLs from school_id_1324_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1324
 SCHOOL_NAME = 'Austin Peay State University'
-CAREERS_LINK = 'https://apsu.peopleadmin.com/postings/search?utf8=%E2%9C%93&query=&query_v0_posted_at_date=&314=&query_position_type_id%5B%5D=2&625=&commit=Search'
+CAREERS_LINK = 'https://ibqzjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 
@@ -38,8 +38,8 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """PeopleAdmin posting."""
-    return jinfo.fetch_detail_peopleadmin(url)
+    """Oracle Recruiting Cloud posting."""
+    return jinfo.fetch_detail_oracle_rest(url)
 
 
 def main():

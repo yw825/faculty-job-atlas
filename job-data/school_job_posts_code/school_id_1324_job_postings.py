@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 1324 - Austin Peay State University (US)
 ATS platform: own website
-Careers link: https://apsu.peopleadmin.com/postings/search?utf8=%E2%9C%93&query=&query_v0_posted_at_date=&314=&query_position_type_id%5B%5D=2&625=&commit=Search
+Careers link: https://ibqzjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -23,6 +23,7 @@ Checkpointed to school_id_1324_job_postings.checkpoint next to this script.
 
 TUNED FIND_LINKS
 PeopleAdmin search; the link's own filters are kept.
+APSU moved to Oracle Recruiting Cloud (CX_1001); the whole site is read (user, 2026-10-20).
 """
 import os
 import re
@@ -34,14 +35,14 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1324
 SCHOOL_NAME = 'Austin Peay State University'
-CAREERS_LINK = 'https://apsu.peopleadmin.com/postings/search?utf8=%E2%9C%93&query=&query_v0_posted_at_date=&314=&query_position_type_id%5B%5D=2&625=&commit=Search'
+CAREERS_LINK = 'https://ibqzjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    return lib.scrape_peopleadmin_search(CAREERS_LINK)
+    return lib.scrape_oracle_link(CAREERS_LINK)
 
 
 def main():

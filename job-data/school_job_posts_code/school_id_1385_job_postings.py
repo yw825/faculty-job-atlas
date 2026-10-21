@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 1385 - The University of Texas at El Paso (US)
 ATS platform: own website
-Careers link: https://utep.interviewexchange.com/static/clients/533UTM1/index.jsp
+Careers link: https://utep.interviewexchange.com/static/clients/533UTM1/index.jsp?catid=1632
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -20,6 +20,9 @@ argument, or follow pagination with a second fetch and merge the results.
 
 Writes school_job_posts/school_id_1385_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1385_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+UTEP's InterviewExchange lists jobs per category page (index.jsp?catid=...); catid 1632 per the user, 2026-10-20.
 """
 import os
 import re
@@ -31,19 +34,14 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1385
 SCHOOL_NAME = 'The University of Texas at El Paso'
-CAREERS_LINK = 'https://utep.interviewexchange.com/static/clients/533UTM1/index.jsp'
+CAREERS_LINK = 'https://utep.interviewexchange.com/static/clients/533UTM1/index.jsp?catid=1632'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    html = lib.fetch_rendered(CAREERS_LINK)
-    if lib.is_fetch_failure(html):
-        raise RuntimeError(html)
-    return lib.extract_links(html, CAREERS_LINK,
-                             href_pattern=lib.COMMON_JOB_URL_HINTS,
-                             text_pattern=lib.COMMON_JOB_TEXT_HINTS)
+    return lib.scrape_interviewexchange(CAREERS_LINK)
 
 
 def main():

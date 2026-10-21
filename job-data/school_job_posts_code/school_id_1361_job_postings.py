@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 1361 - McMurry University (US)
 ATS platform: BambooHR
-Careers link: https://oncampusdining.com/mcm/job-opportunities/
+Careers link: https://mcm.edu/careers-at-mcmurry-university/
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file.
@@ -19,9 +19,13 @@ never in that page's HTML. BambooHR publishes them as JSON at
 
 Writes school_job_posts/school_id_1361_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_1361_job_postings.checkpoint next to this script.
+
+TUNED FIND_LINKS
+McMurry's careers page lists its BambooHR postings (user, 2026-10-20; the old link was the dining contractor's).
 """
 import json
 import os
+import re
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -30,35 +34,18 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1361
 SCHOOL_NAME = 'McMurry University'
-CAREERS_LINK = 'https://oncampusdining.com/mcm/job-opportunities/'
+CAREERS_LINK = 'https://mcm.edu/careers-at-mcmurry-university/'
 ATS_PLATFORM = 'BambooHR'
 
 LIST_API = 'https://mcmurry.bamboohr.com/careers/list'
+
+POSTING_RE = re.compile(r'^https://mcmurry\.bamboohr\.com/careers/\d+$')
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    status, text = lib.fetch_static(LIST_API,
-                                    extra_headers={'Accept': 'application/json'})
-    if status != 200 or not text:
-        raise RuntimeError(f'bamboohr careers list status={status}')
-    try:
-        data = json.loads(text)
-    except ValueError as e:
-        raise RuntimeError(f'bamboohr careers list not json: {e}')
-    links, seen = [], set()
-    for row in (data.get('result') or []):
-        jid = row.get('id')
-        if jid is None:
-            continue
-        url = f'{CAREERS_LINK}/{jid}'
-        if url not in seen:
-            seen.add(url)
-            links.append(url)
-    if not links:
-        raise RuntimeError('bamboohr careers list returned no postings')
-    return links
+    return lib.scrape_matching(CAREERS_LINK, POSTING_RE, render=True, wait_ms=7000)
 
 
 def main():

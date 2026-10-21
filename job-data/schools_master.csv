@@ -992,7 +992,7 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes,scrap
 1320,Mount Marty University,US,https://www.mountmarty.edu/,https://recruitingbypaycor.com/career/CareerHome.action?clientId=8a7883c68ab5129a018abce5b6dc034a,own website,medium,OK-2hop:OK:6,generic scraper
 1321,Tennessee Wesleyan University,US,https://www.tnwesleyan.edu/,https://www.tnwesleyan.edu/about/departments/human-resources/,own website,medium,OK-2hop:OK:4,generic scraper
 1323,The University of Tennessee-Chattanooga,US,https://utc.edu/,https://apply.interfolio.com/56358/positions,Oracle Cloud HCM,high,OK-2hop:OK:7,adapter built
-1324,Austin Peay State University,US,https://www.apsu.edu/,https://apsu.peopleadmin.com/postings/search?utf8=%E2%9C%93&query=&query_v0_posted_at_date=&314=&query_position_type_id%5B%5D=2&625=&commit=Search,own website,medium,OK-2hop:OK:3,generic scraper
+1324,Austin Peay State University,US,https://www.apsu.edu/,https://ibqzjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001,own website,medium,OK-2hop:OK:3,generic scraper
 1327,Tennessee Technological University,US,https://www.tntech.edu/,https://jobs.tntech.edu/,own website,medium,OK:7,generic scraper
 1331,Tusculum University,US,https://www.tusculum.edu/,https://www3.tusculum.edu/hr/employment-opportunities/,own website,medium,OK-2hop:OK:4,generic scraper
 1332,Lincoln Memorial University,US,https://www.lmunet.edu/,https://careers.lmunet.edu/postings/search?utf8=%E2%9C%93&query=&query_v0_posted_at_date=&797%5B%5D=3&commit=Search,PeopleAdmin,high,OK-2hop:OK:6,adapter built
@@ -1009,7 +1009,7 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes,scrap
 1356,Vanderbilt University,US,https://www.vanderbilt.edu/,https://www.vanderbilt.edu/provost/jobs/,own website,medium,OK-2hop:OK:2,generic scraper
 1357,The University of Tennessee Southern,US,https://www.utsouthern.edu/,https://fa-ewlq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs?selectedCategoriesFacet=300000024535357&selectedOrganizationsFacet=300000014275326,Oracle Cloud HCM,high,OK-2hop:OK:8,adapter built
 1358,The University of the South,US,https://www.sewanee.edu/,https://www.schooljobs.com/careers/sewanee?category[0]=Faculty&amp;amp;amp;amp;amp;amp;amp;amp;sort=PostingDate%7CDescending&jobType[0]=Faculty&sort=PositionTitle%7CAscending,own website,high,OK-2hop:OK:17,generic scraper
-1361,McMurry University,US,https://mcm.edu/,https://oncampusdining.com/mcm/job-opportunities/,own website,medium,OK-2hop:OK:5,generic scraper
+1361,McMurry University,US,https://mcm.edu/,https://mcm.edu/careers-at-mcmurry-university/,own website,medium,OK-2hop:OK:5,generic scraper
 1362,Sul Ross State University,US,https://www.sulross.edu/,https://sulross.peopleadmin.com/postings/search?utf8=%E2%9C%93&query=&query_v0_posted_at_date=&query_position_type_id%5B%5D=2&435=&commit=Search,PeopleAdmin,high,OK:9,adapter built
 1363,The University of Texas at Arlington,US,https://www.uta.edu/,https://uta.peopleadmin.com/postings/search?query=&query_position_type_id%5B%5D=3&commit=Search,PeopleAdmin,high,OK-2hop:OK:11,adapter built
 1366,Saint Edward's University,US,https://www.stedwards.edu/,http://stedwards.applicantpro.com/jobs/,own website,medium,OK-2hop:OK:3,generic scraper
@@ -1023,7 +1023,7 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes,scrap
 1382,Texas Woman's University,US,https://www.twu.edu/,https://twu.edu/humanresources/careers-at-twu/jobs/,Oracle Cloud HCM,medium,OK:5 | page only EMBEDS an Oracle CX board; using the board host directly,generic scraper
 1383,University of North Texas,US,https://www.unt.edu/,https://careers.untsystem.edu/jobs/search/unt?page=1&employment_type_uids%5B%5D=2f8fc7f566a075e03e0fa608b5d27aa1&query=,own website,medium,OK:4,generic scraper
 1384,The University of Texas Rio Grande Valley,US,https://www.utrgv.edu/,https://careers.utrgv.edu/postings/search?query=&query_position_type_id%5B%5D=2&query_position_type_id%5B%5D=3&commit=Search,PeopleAdmin,medium,"OK-2hop:OK:5 | white-label PeopleAdmin, confirmed via atom feed probe",generic scraper
-1385,The University of Texas at El Paso,US,https://www.utep.edu/,https://utep.interviewexchange.com/static/clients/533UTM1/index.jsp,own website,high,OK-2hop:OK:6,generic scraper
+1385,The University of Texas at El Paso,US,https://www.utep.edu/,https://utep.interviewexchange.com/static/clients/533UTM1/index.jsp?catid=1632,own website,high,OK-2hop:OK:6,generic scraper
 1387,Texas Christian University,US,https://www.tcu.edu/,https://jobs.tcu.edu/jobs/search/faculty-jobs,own website,medium,OK:7,generic scraper
 1388,Texas Wesleyan University,US,https://www.txwes.edu/,https://txwes.peopleadmin.com/postings/search?&query=&query_v0_posted_at_date=&435=&query_organizational_tier_3_id=any&1175=2&commit=Search,PeopleAdmin,high,OK-2hop:OK:6,adapter built
 1389,Southwestern University,US,https://www.southwestern.edu/,https://www.schooljobs.com/careers/southwestern,own website,high,OK-2hop:OK:11,generic scraper
