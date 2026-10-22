@@ -24,12 +24,14 @@ import re
 # math. A match here always keeps the posting, even if NOT_RELEVANT also
 # matches (e.g. "Assistant Professor of Finance and Business Analytics").
 RELEVANT = re.compile(
-    r"(?i)business\s+analytics|business\s+intelligence|"
+    r"(?i)business\s+analytics|business\s+intelligence|decision\s+analytics|"
     r"(?:management\s+)?information\s+systems?|\bMIS\b|decision\s+sciences?|"
-    r"data\s+scien|operations?\s+research|\bORIE\b|"
+    r"data\s+scien|data\s+mining|operations?\s+research|operations?\s+management|\bORIE\b|"
+    r"supply\s+chain|\blogistics\b|"
     r"\bindustrial\b.{0,30}engineer|"
     r"biostatistics|\bstatistics\b|statistical|applied\s+math|computational\s+math|"
-    r"quantitative\s+(?:methods|analysis|finance|biology|psychology)|"
+    r"econometric|"
+    r"quantitative\s+(?:methods|analysis|finance|biology|psychology)|financial\s+engineering|"
     r"machine\s+learning|artificial\s+intelligence|\bAI\b|"
     r"predictive\s+analytics|data\s+analytics"
     # The user's 2026-10-22 call: AI postings are wanted even inside a
@@ -62,20 +64,22 @@ NOT_RELEVANT = re.compile(
     r"allergy\s+and\s+immunology|emergency\s+medicine|family\s+medicine|internal\s+medicine|"
     r"\bphysician\b|neuropatholog|infectious\s+disease|endocrinolog|neonatolog|\bdiabetes\b|"
     r"heart\s+disease|cardiovascular|academic\s+clinician\s+track|clinician[- ]educator|"
-    r"\bperinatal\b|violence\s+prevention|biophysics|"
+    r"\bperinatal\b|violence\s+prevention|biophysics|\bpsychiatrist\b|"
     r"environmental\s+health|occupational\s+health|occupational\s+medicine|"
     # humanities / languages / arts
     r"\benglish\b|literature|\bhistory\b|\bphilosophy\b|\breligion\b|religious\s+studies|theolog|"
     r"linguistics|\bclassics\b|\bLatin\b|ancient\s+Greek|foreign\s+languages?|modern\s+languages?|"
     r"\bSpanish\b|\bFrench\b|\bGerman\b|\bItalian\b|\bChinese\b|\bJapanese\b|\bRussian\b|\bArabic\b|"
     r"\bart\s+(?:history|education)\b|\bfine\s+arts\b|\bstudio\s+art\b|\bmusic\b|\btheatre\b|\btheater\b|"
-    r"\bdance\b|\bdrama\b|graphic\s+design|architectural\s+design|\bfilm\b|\bcinema\b|photography|"
+    r"\bdance\b|\bdrama\b|"
+    r"\bacting\b(?!\s+(?:assistant|associate|professor|instructor|chair|director|dean|head))|"
+    r"graphic\s+design|architectural\s+design|\bfilm\b|\bcinema\b|photography|"
     r"creative\s+writing|\bhumanities\b|"
     # social sciences (non-quantitative)
     r"\bsociology\b|\banthropology\b|political\s+science|\bpsychology\b|social\s+work|"
     r"criminal\s+justice|criminology|\bjournalism\b|\bcommunication(?:s)?\b(?!.{0,30}(?:information\s+systems|analytics))|"
     r"public\s+administration|international\s+relations|gender\s+studies|women'?s\s+studies|"
-    r"ethnic\s+studies|\bcounsel(?:ing|or|ling)\b|"
+    r"sexuality\s+studies|ethnic\s+studies|\bcounsel(?:ing|or|ling)\b|"
     r"\beconomics\b(?!.{0,30}(?:quantitative|econometric|data))|"
     # education / library
     r"\beducation\b(?!al\s+(?:data|technology))|curriculum\s+and\s+instruction|"
@@ -84,7 +88,7 @@ NOT_RELEVANT = re.compile(
     # pure natural / earth sciences
     r"\bbiology\b|\bchemistry\b|\bphysics\b(?!.{0,30}(?:computational|data))|\bgeology\b|"
     r"\bgeography\b|environmental\s+science|earth\s+science|\bastronomy\b|\becology\b|"
-    r"marine\s+(?:science|biology)|\bagricultur|agronomy|animal\s+science|horticulture|"
+    r"marine\s+(?:science|biology|transportation)|\btowing\b|\bagricultur|agronomy|animal\s+science|horticulture|"
     r"\bbotany\b|\bzoology\b|\bentomology\b|\bforestry\b|"
     # law
     r"\blaw\b|legal\s+studies|\bparalegal\b|\bjurisprudence\b|"
@@ -112,11 +116,15 @@ NOT_RELEVANT = re.compile(
 
 
 def is_relevant(title, department='', keywords=''):
+    """Allow-list: keep only a posting that actually names one of the
+    user's three fields (RELEVANT). Flipped from keep-by-default to
+    drop-by-default on 2026-10-22 -- the user's fields are narrow, so an
+    ambiguous posting (no RELEVANT match, title/department says nothing
+    recognizable either way) is dropped rather than guessed as a keep.
+    NOT_RELEVANT is kept only as a reference of what's known-excluded;
+    it no longer drives the decision, since the default is now to drop.
+    """
     text = ' '.join(filter(None, (title, department, keywords)))
     if not text.strip():
-        return True  # nothing to judge by -- don't guess it away
-    if RELEVANT.search(text):
-        return True
-    if NOT_RELEVANT.search(text):
-        return False
-    return True  # ambiguous: leave it for a later, closer pass
+        return True  # truly nothing to judge by -- don't guess it away
+    return bool(RELEVANT.search(text))
