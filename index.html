@@ -1716,8 +1716,10 @@ function loadJobs(){
 const SUBJECT_AREAS = [
   ['Business Analytics',                              'business analytics|data analytics|\\banalytics\\b|decision scienc'],
   ['Information Systems',                             'information system|management information|informatics'],
-  ['Data Science & AI',                                'data scienc|artificial intelligence|\\bAI\\b|machine learning|deep learning|data mining|predictive analytics'],
-  ['Operations Research & Industrial Engineering',     'operations research|operations management|management scien|optimi[sz]ation|stochastic|queue?ing|supply chain|logistics|industrial engineer'],
+  ['Data Science',                                    'data scienc|data mining|predictive analytics'],
+  ['Artificial Intelligence & Machine Learning',      'artificial intelligence|\\bAI\\b|machine learning|deep learning'],
+  ['Operations Research',                             'operations research|operations management|management scien|optimi[sz]ation|stochastic|queue?ing|supply chain|logistics'],
+  ['Industrial Engineering',                          'industrial engineer'],
   ['Statistics',                                       'statistic|biostatistic|probabilit|econometric'],
   ['Mathematics',                                      'mathematic|applied math|computational math|pure math|algebra|geometry|topolog']
 ].map(function(pair){ return { name: pair[0], re: new RegExp(pair[1], 'i') }; });
