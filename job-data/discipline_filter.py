@@ -30,13 +30,13 @@ RELEVANT = re.compile(
     r"\bindustrial\b.{0,30}engineer|"
     r"biostatistics|\bstatistics\b|statistical|applied\s+math|computational\s+math|"
     r"quantitative\s+(?:methods|analysis|finance|biology|psychology)|"
-    r"machine\s+learning|"
+    r"machine\s+learning|artificial\s+intelligence|\bAI\b|"
     r"predictive\s+analytics|data\s+analytics"
-    # Deliberately NOT included: bare "artificial intelligence"/"AI" -- it
-    # shows up as often in medicine, law and philosophy postings ("AI in
-    # Medicine", "AI Ethics") as in the user's own fields, so it cannot
-    # safely override a NOT_RELEVANT match the way "machine learning" or
-    # "data science" can.
+    # The user's 2026-10-22 call: AI postings are wanted even inside a
+    # clinical department ("AI in Medicine", "AI in Healthcare") -- this is
+    # the one override allowed to beat a NOT_RELEVANT clinical-specialty
+    # match (endocrinology, urology, ...). A bare specialty name with no AI
+    # mention still drops.
 )
 
 # Fields clearly outside the three groups. Grouped by area for review; each
