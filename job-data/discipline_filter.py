@@ -27,10 +27,8 @@ RELEVANT = re.compile(
     r"(?i)business\s+analytics|business\s+intelligence|decision\s+analytics|"
     r"(?:management\s+)?information\s+systems?|\bMIS\b|decision\s+sciences?|"
     r"data\s+scien|data\s+mining|operations?\s+research|operations?\s+management|\bORIE\b|"
-    r"supply\s+chain|\blogistics\b|"
     r"\bindustrial\b.{0,30}engineer|"
     r"biostatistics|\bstatistics\b|statistical|applied\s+math|computational\s+math|"
-    r"econometric|"
     r"quantitative\s+(?:methods|analysis|finance|biology|psychology)|financial\s+engineering|"
     r"machine\s+learning|artificial\s+intelligence|\bAI\b|"
     r"predictive\s+analytics|data\s+analytics"
@@ -38,7 +36,24 @@ RELEVANT = re.compile(
     # clinical department ("AI in Medicine", "AI in Healthcare") -- this is
     # the one override allowed to beat a NOT_RELEVANT clinical-specialty
     # match (endocrinology, urology, ...). A bare specialty name with no AI
-    # mention still drops.
+    # mention still drops. Supply chain/logistics/econometrics were pulled
+    # back out on the user's 2026-10-22 follow-up -- they leaked in whole
+    # marketing/economics departments on that one shared word.
+)
+
+# Departments the user explicitly called out as NOT theirs (2026-10-22),
+# even when a RELEVANT word shows up somewhere in that posting's text (AI,
+# data science, statistics, ... used as an adjective inside someone
+# else's field: "AI in Politics", "Data Science in Chemistry", "Robotics"
+# cross-listed under Industrial Engineering). A match here on the
+# department field is an absolute drop -- the user's own example was
+# "Assistant Professor, AI and Politics - Dept. of Political Science",
+# which still has AI in the title, so a title-level override would have
+# defeated the whole point of this list.
+EXCLUDE_DEPT = re.compile(
+    r"(?i)electrical\b.{0,30}(?:and\s+)?computer\s+engineering|\belectrical\s+engineering\b|"
+    r"\beconomics\b|construction\s+management|\bmarketing\b|\bchemistry\b|"
+    r"geological\s+sciences?|\bpolitic|\brobotics\b|supply\s+chain|\blogistics\b"
 )
 
 # Fields clearly outside the three groups. Grouped by area for review; each
@@ -127,4 +142,6 @@ def is_relevant(title, department='', keywords=''):
     text = ' '.join(filter(None, (title, department, keywords)))
     if not text.strip():
         return True  # truly nothing to judge by -- don't guess it away
+    if EXCLUDE_DEPT.search(department or ''):
+        return False
     return bool(RELEVANT.search(text))
