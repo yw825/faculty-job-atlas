@@ -47,7 +47,9 @@ NOT_RELEVANT = re.compile(
     # medicine / health / clinical (incl. the common subspecialty names --
     # a medical school's own listings are otherwise almost all ambiguous:
     # no RELEVANT or NOT_RELEVANT word, just a specialty name)
-    r"\bmedicine\b|\bmedical\b|\bnursing\b|\bdental\b|dentistry|\bpharmacy\b|pharmacolog|"
+    r"\bmedicine\b|\bmedical\b|\bnursing\b|\bdental\b|dentistry|\boral\s+health|craniofacial|"
+    r"orofacial|orthodontic|\bpharmacy\b|pharmacolog|behavioral\s+health|biobehavioral|"
+    r"\bmental\s+health\b|substance\s+(?:use|abuse)\b|"
     r"\bveterinary\b|physical\s+therapy|occupational\s+therapy|speech[- ](?:language\s+)?patholog|"
     r"\baudiology\b|\bradiolog|\bnutrition\b|\bdietetics\b|\bkinesiology\b|exercise\s+science|"
     r"athletic\s+training|\bpublic\s+health\b|\bepidemiology\b|anesthesiolog|\bcardiolog|"
@@ -60,13 +62,15 @@ NOT_RELEVANT = re.compile(
     r"allergy\s+and\s+immunology|emergency\s+medicine|family\s+medicine|internal\s+medicine|"
     r"\bphysician\b|neuropatholog|infectious\s+disease|endocrinolog|neonatolog|\bdiabetes\b|"
     r"heart\s+disease|cardiovascular|academic\s+clinician\s+track|clinician[- ]educator|"
-    r"\bperinatal\b|violence\s+prevention|"
+    r"\bperinatal\b|violence\s+prevention|biophysics|"
+    r"environmental\s+health|occupational\s+health|occupational\s+medicine|"
     # humanities / languages / arts
     r"\benglish\b|literature|\bhistory\b|\bphilosophy\b|\breligion\b|religious\s+studies|theolog|"
     r"linguistics|\bclassics\b|\bLatin\b|ancient\s+Greek|foreign\s+languages?|modern\s+languages?|"
     r"\bSpanish\b|\bFrench\b|\bGerman\b|\bItalian\b|\bChinese\b|\bJapanese\b|\bRussian\b|\bArabic\b|"
     r"\bart\s+(?:history|education)\b|\bfine\s+arts\b|\bstudio\s+art\b|\bmusic\b|\btheatre\b|\btheater\b|"
-    r"\bdance\b|graphic\s+design|\bfilm\b|\bcinema\b|photography|creative\s+writing|\bhumanities\b|"
+    r"\bdance\b|\bdrama\b|graphic\s+design|architectural\s+design|\bfilm\b|\bcinema\b|photography|"
+    r"creative\s+writing|\bhumanities\b|"
     # social sciences (non-quantitative)
     r"\bsociology\b|\banthropology\b|political\s+science|\bpsychology\b|social\s+work|"
     r"criminal\s+justice|criminology|\bjournalism\b|\bcommunication(?:s)?\b(?!.{0,30}(?:information\s+systems|analytics))|"
