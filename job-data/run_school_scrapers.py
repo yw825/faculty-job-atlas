@@ -32,6 +32,7 @@ unless --redo is passed, so an interrupted run picks up where it stopped.
 """
 import argparse
 import csv
+import re
 import importlib.util
 import os
 import signal
@@ -92,11 +93,15 @@ def run_postings(mod):
     """Call the school's run directly rather than its main(), because main()
     closes the shared browser on the way out -- fine for one school on its
     own, ruinous when the next 800 want to reuse it."""
-    if getattr(mod, 'PLATFORM', None):
+    # A script's own find_links() is what its main() runs, and it is often
+    # the reason the script exists (Georgetown: Interfolio + a Workday staff
+    # board). Preferring PLATFORM here sent Georgetown's Interfolio link to
+    # the Workday reader -- 282 scripts define both.
+    if hasattr(mod, 'find_links'):
+        result = lib.run_checkpointed(mod.SCHOOL_ID, mod.CHECKPOINT_PATH, mod.find_links)
+    else:
         result = lib.run_platform_school(mod.SCHOOL_ID, mod.SCHOOL_NAME, mod.CAREERS_LINK,
                                          mod.CHECKPOINT_PATH, platform=mod.PLATFORM)
-    else:
-        result = lib.run_checkpointed(mod.SCHOOL_ID, mod.CHECKPOINT_PATH, mod.find_links)
     return result.get('status', ''), len(result.get('links', [])), result.get('last_error', '')
 
 
@@ -125,10 +130,19 @@ def main():
     ap.add_argument('--timeout', type=int, default=240, help='seconds per school')
     ap.add_argument('--redo', action='store_true', help='re-run schools already complete')
     ap.add_argument('--limit', type=int, default=0)
+    ap.add_argument('--ids', default='',
+                    help='only these school ids: "1,2,3" or @file (one id per line or a JSON list); '
+                         'country may then be "all"')
     args = ap.parse_args()
 
+    ids = set()
+    if args.ids:
+        raw = open(args.ids[1:], encoding='utf-8').read() if args.ids.startswith('@') else args.ids
+        ids = {t for t in re.split(r'[\s,\[\]]+', raw) if t}
     with open(MASTER, encoding='utf-8') as f:
-        schools = [r for r in csv.DictReader(f) if r['country'] == args.country]
+        schools = [r for r in csv.DictReader(f)
+                   if (args.country == 'all' or r['country'] == args.country)
+                   and (not ids or r['school_id'] in ids)]
 
     wanted = {v.strip() for v in args.verdicts.split(',') if v.strip()}
     if wanted:

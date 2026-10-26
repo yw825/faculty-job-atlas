@@ -35,14 +35,36 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 169
 SCHOOL_NAME = 'University of Denver'
-CAREERS_LINK = 'https://jobs.du.edu/en-us/filter/?search=&search-keyword=&work-type=adjunct%20faculty&work-type=faculty%20full-time&job-mail-subscribe-privacy=agree'
+CAREERS_LINK = 'https://jobs.du.edu/jobs/search'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
+_JOB_HREF_RE = re.compile(r'href="(?:https://jobs\.du\.edu)?(/jobs/(?!search)[a-z0-9][^"?#]*)"')
+
+
 def find_links():
-    return lib.scrape_pageup_listing(CAREERS_LINK)
+    """Denver left PageUp for a new board in October 2026 (the old filter
+    link now 404s, "Looking for open faculty positions? View our open
+    roles."). The new one sits behind an AWS WAF check, so pages are
+    rendered; it pages with ?page=N (25 a page) and has no faculty filter,
+    so every job is read and the map's faculty filter does the rest."""
+    links = []
+    for page in range(1, 30):
+        html = lib.fetch_rendered(f'{CAREERS_LINK}?page={page}', wait_ms=3000)
+        if lib.is_fetch_failure(html) or not html:
+            if page == 1:
+                raise RuntimeError(f'denver board not reachable: {html[:80]}')
+            break
+        new = [f'https://jobs.du.edu{h}' for h in _JOB_HREF_RE.findall(html)]
+        new = [u for u in dict.fromkeys(new) if u not in links]
+        if not new:   # past the last page the board repeats the first
+            break
+        links += new
+    if not links:
+        raise RuntimeError('denver board listed no jobs')
+    return links
 
 
 def main():

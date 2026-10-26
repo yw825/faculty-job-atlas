@@ -101,7 +101,18 @@ import json
 d=json.load(open('postings.json'))
 print(d.get('first_seen_new', 0))
 ")
-  git add -A
+  # Not `git add -A`: OneDrive restores files of removed schools, and those
+  # must not be committed back. Tracked changes go in, plus new files that
+  # belong to a school still in schools_master.csv.
+  git add -u
+  git ls-files --others --exclude-standard -z | "$PYTHON" -c "
+import csv, re, sys
+ids = {r['school_id'] for r in csv.DictReader(open('job-data/schools_master.csv', encoding='utf-8'))}
+for p in sys.stdin.read().split('\0'):
+    m = re.search(r'school_id_(\d+)_', p)
+    if m and m.group(1) in ids:
+        print(p)
+" | while IFS= read -r f; do git add -- "$f"; done
   git commit -q -m "Nightly refresh $STAMP: $NEW new postings
 
 Automated run of job-data/weekly_refresh.sh.

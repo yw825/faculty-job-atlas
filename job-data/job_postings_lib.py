@@ -409,6 +409,12 @@ def write_posts_csv(school_id, links, allow_shrink=True):
     return path
 
 
+# A scrape returning under SHRINK_FLOOR of the previous link count (for a
+# school that had at least SHRINK_MIN) is treated as suspect, not as closings.
+SHRINK_FLOOR = 0.4
+SHRINK_MIN = 10
+
+
 def _add_links(ckpt, new_urls):
     seen = set(ckpt['links'])
     added = False
@@ -422,8 +428,8 @@ def _add_links(ckpt, new_urls):
 
 
 # --------------------------------------------------------------------------
-# Checkpoint-driven orchestration. Generic on purpose: it only merges
-# whatever find_links_fn() returns into the checkpoint/CSV and records
+# Checkpoint-driven orchestration. Generic on purpose: it stores whatever
+# find_links_fn() returns as the school's current link set and records
 # success or failure. It never decides HOW to find links -- that's each
 # script's own find_links_fn.
 # --------------------------------------------------------------------------
@@ -442,7 +448,23 @@ def run_checkpointed(school_id, checkpoint_path, find_links_fn):
     save_checkpoint(checkpoint_path, ckpt)
     try:
         links = find_links_fn()
-        _add_links(ckpt, links)
+        fresh = {'links': []}
+        _add_links(fresh, links)
+        old = list(ckpt['links'])
+        if old and len(fresh['links']) < SHRINK_FLOOR * len(old) and len(old) >= SHRINK_MIN:
+            # A board answering with far fewer jobs than last time is more
+            # often a half-loaded page or a broken pager than a mass
+            # closing; keep the old set and say so rather than wipe it.
+            _add_links(ckpt, fresh['links'])
+            ckpt['last_warning'] = (f'{now_iso()}: board returned {len(fresh["links"])} links '
+                                    f'vs {len(old)} before; old set kept')
+        else:
+            # A complete scrape IS the school's current list: links that
+            # were not returned have closed. Merging instead kept every
+            # closed job on the map for good -- the dead Workday links of
+            # 2026-10-26 ("The page you are looking for doesn't exist").
+            ckpt['links'] = fresh['links']
+            ckpt.pop('last_warning', None)
         ckpt['status'] = 'complete'
         ckpt['completed_at'] = now_iso()
         ckpt['last_error'] = ''
@@ -857,7 +879,9 @@ def scrape_adp(url):
     # response silently truncated every ADP school to its first 20 jobs --
     # Ohio Wesleyan advertises 69. $skip is what actually moves the window.
     base = (f'https://{parsed.netloc}/mascsr/default/careercenter/public/events/'
-            f'staffing/v1/job-requisitions?cid={cid}')
+            f'staffing/v1/job-requisitions?cid={cid}&lang={lang}&locale={lang}')
+    # lang/locale as the board's own page sends them: Westminster University's
+    # board answers 500 without them.
     links, seen = [], set()
     skip, total = 0, None
     for _page in range(40):
