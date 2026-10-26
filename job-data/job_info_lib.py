@@ -55,6 +55,7 @@ import math
 import os
 import re
 import time
+from datetime import date
 from html import unescape
 from urllib.parse import parse_qs, urlparse
 
@@ -406,6 +407,87 @@ _POSTED_EXCLUDE = (r'\bclos\w*', r'\bdeadline\b', r'\breview\b', r'(?<!posting\s
 
 def extract_posted_date(description=''):
     return _find_date_near(description or '', _POSTED_INCLUDE, _POSTED_EXCLUDE, window=30)
+
+
+# Free-text date -> ISO (shared with build_map_data).
+_MONTHS = ('january february march april may june july august september '
+           'october november december').split()
+_MONTH_NUM = {m: i + 1 for i, m in enumerate(_MONTHS)}
+_MONTH_NUM.update({m[:3]: i + 1 for i, m in enumerate(_MONTHS)})
+
+_ISO_RE = re.compile(r'\b(\d{4})-(\d{2})-(\d{2})\b')
+_SLASH_RE = re.compile(r'\b(\d{1,2})[/.](\d{1,2})[/.](\d{4}|\d{2})\b')
+_MDY_RE = re.compile(r'\b([A-Za-z]{3,9})\s+(\d{1,2})(?:st|nd|rd|th)?,?\s+(\d{4})\b')
+_DMY_TEXT_RE = re.compile(r'\b(\d{1,2})(?:st|nd|rd|th)?\s+([A-Za-z]{3,9}),?\s+(\d{4})\b')
+_MY_RE = re.compile(r'\b([A-Za-z]{3,9})\s+(\d{4})\b')
+
+
+def normalize_date(value, country=''):
+    """Free text -> ISO 'YYYY-MM-DD', or '' when nothing parses. Postings
+    write dates every way imaginable ("July 1, 2027", "31/03/2031",
+    "1st September 2026", "Autumn 2027"); a month-and-year-only value is
+    pinned to the 1st so it can still be range-filtered.
+
+    A slash date is month-first in the US ("11/05/2026" is November 5) and
+    day-first elsewhere; a part over 12 settles it either way. Reading
+    every one day-first had filed US deadlines a month or more off and
+    dropped any whose day was over 12."""
+    if not value:
+        return ''
+    text = value.strip()
+
+    m = _ISO_RE.search(text)
+    if m:
+        return _safe_iso(int(m.group(1)), int(m.group(2)), int(m.group(3)))
+
+    m = _MDY_RE.search(text)
+    if m:
+        month = _MONTH_NUM.get(m.group(1).lower()[:9]) or _MONTH_NUM.get(m.group(1).lower()[:3])
+        if month:
+            return _safe_iso(int(m.group(3)), month, int(m.group(2)))
+
+    m = _DMY_TEXT_RE.search(text)
+    if m:
+        month = _MONTH_NUM.get(m.group(2).lower()[:9]) or _MONTH_NUM.get(m.group(2).lower()[:3])
+        if month:
+            return _safe_iso(int(m.group(3)), month, int(m.group(1)))
+
+    m = _SLASH_RE.search(text)
+    if m:
+        a, b, year = int(m.group(1)), int(m.group(2)), int(m.group(3))
+        if year < 100:
+            year += 2000
+        month_first = (country or 'US') in ('US', 'USA', 'United States')
+        if a > 12 and b <= 12:
+            month_first = False
+        elif b > 12 and a <= 12:
+            month_first = True
+        return _safe_iso(year, a, b) if month_first else _safe_iso(year, b, a)
+
+    m = _MY_RE.search(text)
+    if m:
+        month = _MONTH_NUM.get(m.group(1).lower()[:9]) or _MONTH_NUM.get(m.group(1).lower()[:3])
+        if month:
+            return _safe_iso(int(m.group(2)), month, 1)
+    return ''
+
+
+def _safe_iso(year, month, day):
+    try:
+        return date(year, month, day).isoformat()
+    except ValueError:
+        return ''
+
+
+# Titles that are a careers site's own furniture rather than a job. These
+# come from listing/search/error pages that a school's link scraper picked up
+# as if they were postings; the scrapers are being fixed school by school,
+# but until then they must not reach the map -- 495 such rows exist, and 167
+# of them carry an academic rank, so they surface inside ordinary searches
+# ("Jobs" and "Information for Managers" were both showing up as Assistant
+# Professor posts near London).
+# Feeds, search pages and the "save this job" action -- URLs that are part
+# of a careers site's machinery rather than a job on it.
 
 
 
@@ -1206,6 +1288,37 @@ def extract_keywords(title, description='', corpus_stats=None, use_llm=False, ll
     return '; '.join(keywords)
 
 
+_COUNTRY_CACHE = {}
+
+
+def school_country(school_id):
+    """The school's country from schools_master.csv ('' if unknown): rank
+    titles mean different things by country (a UK Lecturer is an
+    Assistant Professor; a Singapore Lecturer is teaching-track)."""
+    if not _COUNTRY_CACHE:
+        with open(os.path.join(HERE, 'schools_master.csv'), encoding='utf-8') as f:
+            for r in csv.DictReader(f):
+                try:
+                    _COUNTRY_CACHE[int(r['school_id'])] = r.get('country', '') or ''
+                except (KeyError, TypeError, ValueError):
+                    continue
+    try:
+        return _COUNTRY_CACHE.get(int(school_id), '')
+    except (TypeError, ValueError):
+        return ''
+
+
+def classify_dates(description, country=''):
+    """(deadline, posted_date, start_date) as written in the advert. A
+    deadline with no year is dated from the posted date."""
+    posted = extract_posted_date(description)
+    try:
+        ref = date.fromisoformat(normalize_date(posted, country)) if posted else None
+    except ValueError:
+        ref = None
+    return extract_deadline(description, ref), posted, extract_start_date(description)
+
+
 def classify_row(school_id, url, title, description='', department=None,
                   corpus_stats=None, use_llm=False, llm_client=None):
     """`department`: pass the platform's own structured department field
@@ -1215,19 +1328,21 @@ def classify_row(school_id, url, title, description='', department=None,
     "Birmingham Business School" that don't fit the "Department/School of
     X" pattern extract_department looks for.
     `corpus_stats`/`use_llm`/`llm_client`: see extract_keywords."""
+    country = school_country(school_id)
+    deadline, posted, start = classify_dates(description, country)
     return {
         'school_id': school_id,
         'posting_url': url,
         'job_title_in_post': title.strip(),
-        'position_type': '; '.join(classify_rank(title, description)),
+        'position_type': '; '.join(classify_rank(title, description, country)),
         'job_term': classify_job_term(title, description),
         'department_or_school': department.strip() if department else extract_department(title, description),
         'area_key_words': extract_keywords(title, description, corpus_stats=corpus_stats,
                                             use_llm=use_llm, llm_client=llm_client,
                                             school_id=school_id),
-        'deadline_of_application': extract_deadline(description),
-        'posted_date': extract_posted_date(description),
-        'position_start_date': extract_start_date(description),
+        'deadline_of_application': deadline,
+        'posted_date': posted,
+        'position_start_date': start,
     }
 
 
@@ -1893,7 +2008,10 @@ def fetch_adp_bulk(careers_link):
     reqs, seen, skip, total, cc_param = [], set(), 0, None, ''
     for _page in range(40):
         status, text = jlib.fetch_static(
-            f'{base}?cid={cid}{cc_param}&timeStamp={int(_time.time()*1000)}&$skip={skip}',
+            # lang/locale as the board's own page sends them: Westminster
+            # University's board answers 500 without them
+            f'{base}?cid={cid}{cc_param}&lang={lang}&locale={lang}'
+            f'&timeStamp={int(_time.time()*1000)}&$skip={skip}',
             extra_headers={'Accept': 'application/json'})
         if status != 200:
             if skip == 0:

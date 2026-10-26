@@ -534,6 +534,10 @@
         <div class="check-group">
           <span class="field-label" style="margin-bottom:0;">Availability</span>
           <label class="check-row"><input type="checkbox" id="f-job-available" checked> Available now</label>
+          <label class="check-row"><input type="checkbox" id="f-job-h1b"> Hide jobs that won't sponsor H-1B</label>
+          <div class="hint">US jobs only. Uses the posting's own statement, else the school's published
+            faculty policy. The 2025 $100k H-1B fee applies to new petitions for people outside the US; a change
+            of status inside the US (e.g. F-1 OPT to H-1B) is not charged it.</div>
           <label class="field-label" for="f-job-new" style="margin:6px 0 0;">First seen</label>
           <select id="f-job-new">
             <option value="any" selected>Any time</option>
@@ -1475,6 +1479,7 @@ clearBtn.addEventListener('click', function(){
     document.querySelectorAll('.f-subject').forEach(el => { el.checked = false; });
     fJobTitle.checked = false;
     fJobAvailable.checked = true;
+    fJobH1b.checked = false;
     fJobNew.value = 'any';
   }
   boundsFilterActive = false;
@@ -1636,6 +1641,7 @@ const jobsControls = document.getElementById('jobs-controls');
 const jobSubjectInput = document.getElementById('job-subject');
 const jobDateHint = document.getElementById('job-date-hint');
 const fJobAvailable = document.getElementById('f-job-available');
+const fJobH1b = document.getElementById('f-job-h1b');
 const fJobNew = document.getElementById('f-job-new');
 const fJobTitle = document.getElementById('f-job-title');
 
@@ -1686,6 +1692,25 @@ function jobDateLine(j, short){
   if(j.x) return (short ? 'Deadline: ' : 'Application deadline: ') + prettyDate(j.x);
   if(j.o) return 'Posted: ' + prettyDate(j.o) + (short ? '' : ' (no deadline stated)');
   return (short ? 'Deadline: ' : 'Application deadline: ') + 'not stated';
+}
+
+/* H-1B for a US posting: what the advert itself says wins; otherwise the
+   school's own published faculty policy (job-data/h1b_school_policy.csv);
+   otherwise USCIS's record of approvals, as evidence only. */
+const H1B_POSTING = { yes:'Sponsors (stated in this posting)', limited:'Limited (stated in this posting)',
+                      no:'Not sponsored (stated in this posting)' };
+const H1B_SCHOOL = { yes:'School sponsors faculty', limited:'School sponsors in limited cases',
+                     no:'School does not sponsor' };
+function jobH1b(j){
+  const school = (JOBS && JOBS.schools && JOBS.schools[j.s]) || {};
+  if(school.region !== 'us') return { status:'', text:'' };
+  if(j.v) return { status:j.v, text:H1B_POSTING[j.v] || '', detail:j.vq || '' };
+  const h = school.h1b || {};
+  if(H1B_SCHOOL[h.s]) return { status:h.s, text:H1B_SCHOOL[h.s], detail:h.n || '', url:h.u || '' };
+  const usc = parseInt(h.c || '0', 10);
+  return { status:'unknown', text: usc ? 'Policy not published; USCIS: '+usc+' approvals FY22-23'
+                                      : (h.s === 'unknown' ? 'Policy not published' : 'Not checked yet'),
+           detail:h.n || '' };
 }
 
 function jobDisplayTitle(j){
@@ -1824,6 +1849,7 @@ function jobsMatchingFilters(ignoreSubjects, ignoreRanks){
   const subKey = asiaSelect ? asiaSelect.value : 'all';
   const todayIso = new Date().toISOString().slice(0,10);
   const onlyAvailable = fJobAvailable.checked;
+  const hideNoH1b = fJobH1b.checked;
   const newMode = fJobNew.value;
   const newSince = newMode === 'latest' ? (latestRefreshDate() || '9999-12-31')
                  : (newMode === '7' || newMode === '30') ? localIsoDaysAgo(+newMode)
@@ -1900,6 +1926,7 @@ function jobsMatchingFilters(ignoreSubjects, ignoreRanks){
     if(onlyAvailable){
       if(j.x && j.x < todayIso) return false;
     }
+    if(hideNoH1b && jobH1b(j).status === 'no') return false;
     /* "First seen": j.n is the date a refresh first saw the posting, present
        only for the last 30 days. The baseline is the first run, when every
        posting was recorded at once -- none of those are new. */
@@ -1932,6 +1959,10 @@ function renderJobList(jobs){
       (j.d ? '<div class="job-row-school">'+escapeHtml(j.d)+'</div>' : '')+
       (j.k ? '<div class="job-row-kw">'+escapeHtml(j.k)+'</div>' : '')+
       '<div class="row-loc">'+escapeHtml(jobDateLine(j, false))+'</div>'+
+      (function(){ const h = jobH1b(j); if(!h.text) return '';
+        return '<div class="row-loc" title="'+escapeHtml(h.detail||'')+'">H-1B: '+escapeHtml(h.text)+
+          (h.url ? ' · <a class="pop-link" href="'+escapeHtml(h.url)+'" target="_blank" rel="noopener">policy</a>' : '')+
+          '</div>'; })()+
       (j.u ? '<div class="row-links"><a class="pop-link" href="'+escapeHtml(jobUrl(j))+'" target="_blank" rel="noopener">View posting ↗</a></div>' : '');
     row.addEventListener('click', function(e){
       if(e.target.closest('a')) return;
@@ -1990,7 +2021,8 @@ function applyJobFilters(){
       '<div style="margin:6px 0;" title="'+escapeHtml(j.t)+'">'+
         (j.u ? '<a class="pop-link" href="'+escapeHtml(jobUrl(j))+'" target="_blank" rel="noopener">'+escapeHtml(jobDisplayTitle(j))+'</a>'
              : escapeHtml(jobDisplayTitle(j)))+
-        '<div class="pop-loc">'+escapeHtml(jobDateLine(j, true))+'</div>'+
+        '<div class="pop-loc">'+escapeHtml(jobDateLine(j, true))+
+          (jobH1b(j).text ? ' · H-1B: '+escapeHtml(jobH1b(j).text) : '')+'</div>'+
       '</div>').join('');
     marker.bindPopup(
       '<div class="pop-name">'+escapeHtml(school.name||'')+'</div>'+
@@ -2026,7 +2058,7 @@ jobSubjectInput.addEventListener('input', function(){ if(jobsMode) applyJobFilte
 document.querySelectorAll('.f-job-rank').forEach(function(el){
   el.addEventListener('change', function(){ if(jobsMode) applyJobFilters(); });
 });
-[fJobAvailable, fJobNew, fJobTitle].forEach(function(el){
+[fJobAvailable, fJobH1b, fJobNew, fJobTitle].forEach(function(el){
   el.addEventListener('change', function(){ if(jobsMode) applyJobFilters(); });
 });
 

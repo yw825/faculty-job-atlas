@@ -145,7 +145,8 @@ _RESEARCH_ROLE = _rx(
     r'\bwissenschaftliche')
 _CHAIR = _rx(r'\b(?:endowed|eminent|distinguished)\b.*\b(?:chair|professorship)\b|'
              r'\bdepartment\s+chair\b|\bchair\s+(?:and|&)\s+professor\b|\bchair\s+professor\b')
-_FACULTY = _rx(r'\bfaculty\b|\bprofessorships?\b|\bpositions?\b|\btenure[- ]?track\b|\bopenings?\b')
+_FACULTY = _rx(r'\bfaculty\b|\bprofessorships?\b|\bpositions?\b|\btenure[- ]?track\b|\bopenings?\b|'
+               r'\bcluster\s+hire\b')
 
 # Advert-text signals, used for North American posts whose title says only
 # "Assistant Professor of X": many say "full-time, non-tenure-track" only
@@ -302,9 +303,12 @@ def classify_rank(title, description='', country=''):
             plain_prof = guessed = True
         elif _CHAIR.search(title):
             add(FULL)
-        elif _FACULTY.search(title) or not _NON_ACADEMIC.search(title):
+        elif _FACULTY.search(title) and not _NON_ACADEMIC.search(title):
             # a faculty post that names no rank is open to any rank,
-            # unless the advert says it is a teaching post
+            # unless the advert says it is a teaching post. A title with
+            # no faculty word at all ("Roofer", "IT Support Partner",
+            # "Biostatistician") stays Unclassified -- giving it professor
+            # ranks let staff jobs through the faculty filter
             if _DESC_NTT.search(description) and not _DESC_TT.search(description):
                 add(TEACH)
             else:

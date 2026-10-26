@@ -38,7 +38,8 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 from faculty_filter import is_faculty
 from discipline_filter import is_relevant, subjects_of
-from job_info_lib import extract_deadline, extract_posted_date
+from visa_policy import posting_visa_status
+from job_info_lib import classify_dates, normalize_date
 from rank_classifier import classify_rank
 from dedupe import dedupe  # noqa: E402
 ROOT = os.path.dirname(HERE)
@@ -66,84 +67,6 @@ def advert_text(sid, url):
 
 OUT_PATH = os.path.join(ROOT, 'postings.json')
 
-_MONTHS = ('january february march april may june july august september '
-           'october november december').split()
-_MONTH_NUM = {m: i + 1 for i, m in enumerate(_MONTHS)}
-_MONTH_NUM.update({m[:3]: i + 1 for i, m in enumerate(_MONTHS)})
-
-_ISO_RE = re.compile(r'\b(\d{4})-(\d{2})-(\d{2})\b')
-_SLASH_RE = re.compile(r'\b(\d{1,2})[/.](\d{1,2})[/.](\d{4}|\d{2})\b')
-_MDY_RE = re.compile(r'\b([A-Za-z]{3,9})\s+(\d{1,2})(?:st|nd|rd|th)?,?\s+(\d{4})\b')
-_DMY_TEXT_RE = re.compile(r'\b(\d{1,2})(?:st|nd|rd|th)?\s+([A-Za-z]{3,9}),?\s+(\d{4})\b')
-_MY_RE = re.compile(r'\b([A-Za-z]{3,9})\s+(\d{4})\b')
-
-
-def normalize_date(value, country=''):
-    """Free text -> ISO 'YYYY-MM-DD', or '' when nothing parses. Postings
-    write dates every way imaginable ("July 1, 2027", "31/03/2031",
-    "1st September 2026", "Autumn 2027"); a month-and-year-only value is
-    pinned to the 1st so it can still be range-filtered.
-
-    A slash date is month-first in the US ("11/05/2026" is November 5) and
-    day-first elsewhere; a part over 12 settles it either way. Reading
-    every one day-first had filed US deadlines a month or more off and
-    dropped any whose day was over 12."""
-    if not value:
-        return ''
-    text = value.strip()
-
-    m = _ISO_RE.search(text)
-    if m:
-        return _safe_iso(int(m.group(1)), int(m.group(2)), int(m.group(3)))
-
-    m = _MDY_RE.search(text)
-    if m:
-        month = _MONTH_NUM.get(m.group(1).lower()[:9]) or _MONTH_NUM.get(m.group(1).lower()[:3])
-        if month:
-            return _safe_iso(int(m.group(3)), month, int(m.group(2)))
-
-    m = _DMY_TEXT_RE.search(text)
-    if m:
-        month = _MONTH_NUM.get(m.group(2).lower()[:9]) or _MONTH_NUM.get(m.group(2).lower()[:3])
-        if month:
-            return _safe_iso(int(m.group(3)), month, int(m.group(1)))
-
-    m = _SLASH_RE.search(text)
-    if m:
-        a, b, year = int(m.group(1)), int(m.group(2)), int(m.group(3))
-        if year < 100:
-            year += 2000
-        month_first = (country or 'US') in ('US', 'USA', 'United States')
-        if a > 12 and b <= 12:
-            month_first = False
-        elif b > 12 and a <= 12:
-            month_first = True
-        return _safe_iso(year, a, b) if month_first else _safe_iso(year, b, a)
-
-    m = _MY_RE.search(text)
-    if m:
-        month = _MONTH_NUM.get(m.group(1).lower()[:9]) or _MONTH_NUM.get(m.group(1).lower()[:3])
-        if month:
-            return _safe_iso(int(m.group(2)), month, 1)
-    return ''
-
-
-def _safe_iso(year, month, day):
-    try:
-        return date(year, month, day).isoformat()
-    except ValueError:
-        return ''
-
-
-# Titles that are a careers site's own furniture rather than a job. These
-# come from listing/search/error pages that a school's link scraper picked up
-# as if they were postings; the scrapers are being fixed school by school,
-# but until then they must not reach the map -- 495 such rows exist, and 167
-# of them carry an academic rank, so they surface inside ordinary searches
-# ("Jobs" and "Information for Managers" were both showing up as Assistant
-# Professor posts near London).
-# Feeds, search pages and the "save this job" action -- URLs that are part
-# of a careers site's machinery rather than a job on it.
 _FEED_OR_SEARCH_URL_RE = re.compile(
     r'\.(?:atom|rss)(?:\?|$)|/(?:search|bookmarks)(?:\?|/|$)|[?&]commit=Search',
     re.I)
@@ -347,8 +270,29 @@ def scrape_dates():
     return out
 
 
+H1B_POLICY_PATH = os.path.join(HERE, 'h1b_school_policy.csv')
+
+
+def load_h1b_policy():
+    """school_id -> row of h1b_school_policy.csv: each US school's own
+    stated H-1B policy for faculty (status yes/limited/no/unknown, a one-line
+    note, the source page) and its USCIS FY2022-23 approval count."""
+    out = {}
+    try:
+        with open(H1B_POLICY_PATH, encoding='utf-8') as f:
+            for r in csv.DictReader(f):
+                try:
+                    out[int(r['school_id'])] = r
+                except (KeyError, ValueError):
+                    continue
+    except OSError:
+        pass
+    return out
+
+
 def main():
     meta = load_school_meta()
+    h1b = load_h1b_policy()
     coords = load_coords()
     seen_on = scrape_dates()
 
@@ -407,6 +351,11 @@ def main():
                     'region': geo.get('region', ''),
                     'sub': geo.get('sub', ''),
                     'seen': seen_on.get(sid, ''),
+                    **({'h1b': {k: v for k, v in (
+                        ('s', h1b[sid].get('status', '')), ('n', h1b[sid].get('note', '')),
+                        ('u', h1b[sid].get('source_url', '')),
+                        ('c', h1b[sid].get('uscis_approvals_fy2022_2023', ''))) if v}}
+                       if sid in h1b else {}),
                 }
                 # School name/country/coords live once in `schools`, not on
                 # every posting: repeating them inline made the file 3.6 MB,
@@ -421,30 +370,31 @@ def main():
                 url = (row.get('posting_url') or '').strip()
                 advert = advert_text(sid, url)
                 country = school.get('country', '')
-                # Read from the advert whenever it is kept: the extractor
-                # improves faster than the info CSVs are re-read, and a
-                # stored deadline can be an old wrong pick ("PhD ... by
-                # August 16, 2027"). The CSV only stands in when it isn't.
-                posted = (normalize_date(row.get('posted_date'), country)
-                          or normalize_date(extract_posted_date(advert), country))
-                # a deadline written with no year is dated from when the
-                # advert went up, else from when it was last read
-                ref_iso = posted or seen_on.get(sid) or ''
-                try:
-                    ref = date.fromisoformat(ref_iso)
-                except ValueError:
-                    ref = None
-                deadline = (normalize_date(extract_deadline(advert, ref), country) if advert
-                            else normalize_date(row.get('deadline_of_application'), country))
-                start = normalize_date(row.get('position_start_date'), country)
+                # Dates are read from the advert whenever it is kept, by the
+                # same classify_dates the info stage uses, so a rule change
+                # reaches the map with no CSV re-run; the CSV stands in
+                # only when the advert text isn't kept.
+                if advert:
+                    deadline_raw, posted_raw, start_raw = classify_dates(advert, country)
+                else:
+                    deadline_raw = row.get('deadline_of_application')
+                    posted_raw = row.get('posted_date')
+                    start_raw = row.get('position_start_date')
+                deadline = normalize_date(deadline_raw, country)
+                posted = normalize_date(posted_raw, country)
+                start = normalize_date(start_raw, country)
                 if start and start == posted:
                     # Workday's "startDate" is the posting date, and older
                     # info rows stored it as the job's start.
                     start = ''
+                # H-1B as the advert itself states it (US posts only); the
+                # school's own policy rides on the school, not the posting
+                visa, visa_quote = (posting_visa_status(advert)
+                                    if country in ('US', 'USA', 'United States') else ('', ''))
                 postings.append({
                     's': sid,
                     't': title,
-                    'p': classify_rank(title, advert, school.get('country', '')),
+                    'p': classify_rank(title, advert, country),
                     'f': subjects_of(title, dept, keywords),
                     'j': (row.get('job_term') or '').strip(),
                     'd': dept,
@@ -452,6 +402,7 @@ def main():
                     'u': url,  # trimmed below
                     'x': deadline,
                     'o': posted,
+                    **({'v': visa, 'vq': visa_quote[:220]} if visa else {}),
                     'b': start,
                     'n': '',      # first_seen, filled in below
                 })
