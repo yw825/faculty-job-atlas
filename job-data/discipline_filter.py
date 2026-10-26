@@ -168,3 +168,40 @@ def is_relevant(title, department='', keywords=''):
     if dept_other and not dept_core:
         return False
     return bool(CORE_NARROW.search(keywords)) and not HARD_EXCLUDE.search(keywords)
+
+
+# The map's subject areas, in display order. Each posting is filed under the
+# subjects its title names; if the title names none, its department's; if
+# neither does, its advert keywords'. The page uses these both for the
+# "Subject area" filter and for the card title ("Assistant Professor of
+# Statistics"), so the two always agree.
+SUBJECTS = [
+    ('Business Analytics', re.compile(
+        r"(?i)business\s+analytics|business\s+intelligence|decision\s+analytics|"
+        r"data\s+analytics|predictive\s+analytics|\banalytics\b")),
+    ('Information Systems', re.compile(
+        r"(?i)(?<!geographic\s)(?<!geographical\s)(?<!quantum\s)information\s+systems?|"
+        r"\bMIS\b(?!\s*\(masters\s+in\s+simulation)|\bCIS\b")),
+    ('Data Science', re.compile(r"(?i)data\s+scien|data\s+mining")),
+    ('AI & Machine Learning', re.compile(
+        r"(?i)artificial\s+intelligence|\bAI\b|machine\s+learning|deep\s+learning|"
+        r"natural\s+language\s+processing|\bNLP\b|large\s+language\s+models?|\bLLMs?\b")),
+    ('Operations Research', re.compile(
+        r"(?i)operations?\s+research|operations?\s+management|management\s+science|"
+        r"decision\s+sciences?|optimi[sz]ation|\bORIE\b|stochastic")),
+    ('Industrial Engineering', re.compile(
+        r"(?i)\bindustrial\b.{0,30}engineer|\bindustrial\s+eng\b|\bISE\b")),
+    ('Statistics', re.compile(r"(?i)statistic|econometric|probabilit")),
+    ('Mathematics', re.compile(r"(?i)mathemat|applied\s+math|computational\s+math|\bmath\b")),
+]
+
+
+def subjects_of(title, department='', keywords=''):
+    """Names of the SUBJECTS this posting is filed under (possibly several,
+    possibly none), from the most specific text that names any."""
+    department = re.split(r"(?i)\s+(?:in|within)\s+the\s+", department or '', 1)[0]
+    for text in (title or '', department, keywords or ''):
+        found = [name for name, rx in SUBJECTS if rx.search(text)]
+        if found:
+            return found
+    return []

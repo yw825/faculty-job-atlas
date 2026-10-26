@@ -255,10 +255,89 @@ def classify_position_type(title, description=''):
 
     if not values and _NON_ACADEMIC_RE.search(text):
         values.append('Non-academic')
-    seen, out = set(), []
-    for v in values:
-        if v not in seen:
-            seen.add(v)
+    return refine_position_type(title, values)
+
+
+_PROF_RANKS = ['Assistant_Professor', 'Associate_Professor', 'Full_Professor']
+_TITLE_OPEN_RANK_RE = re.compile(
+    r'\bopen[- ]?rank|\b(?:all|any)\s+(?:academic\s+)?ranks?\b|\brank\s+open\b', re.I)
+_ASST_TO_ASSOC_RE = re.compile(r'\bassistant\s+(?:to|-|–|—)\s+associate\b', re.I)
+_ABBREV_ASST_RE = re.compile(r'\b(?:asst|ast)\b\.?', re.I)
+_ABBREV_ASSOC_RE = re.compile(r'\b(?:assoc|asc)\b\.?', re.I)
+_PROF_WORD_RE = re.compile(r'\bprof(?:essor)?s?\b', re.I)
+# Posts filed under "Lecturer / Teaching": part-time and teaching-only
+# appointments, whatever their title calls the person.
+_TEACHING_RE = re.compile(
+    r'\badjunct\b|\binstructors?\b|\bteaching\s+(?:faculty|stream|track|fellow)|'
+    r'\bpro\s+tem\b|\bsessional\b|\btutor\b|\bdemonstrator\b|\bpart[- ]time\b|'
+    r'\bprofessors?\s+of\s+(?:the\s+)?practice\b|\bclinical[- ]track\b|\bnon[- ]tenure\b|'
+    r'\bcourse\s+(?:instructor|lecturer)\b|\buniversity\s+teacher\b|\blecturers?\b|\bteachers?\b',
+    re.I)
+_RESEARCH_ROLE_RE = re.compile(
+    r'\bscientists?\b|\bresearchers?\b|\bresearch\s+professional\b|\bfellow(?:s|ships?)?\b|'
+    r'\bgroup\s+leader\b', re.I)
+_CHAIR_RE = re.compile(r'\b(?:endowed|eminent|distinguished)\b.*\b(?:chair|professorship)\b|'
+                       r'\bdepartment\s+chair\b|\bchair\s+(?:and|&)\s+professor\b', re.I)
+_FACULTY_RE = re.compile(r'\bfaculty\b|\bprofessorships?\b|\bpositions?\b|\btenure[- ]track\b', re.I)
+
+
+def refine_position_type(title, values):
+    """Read the rank off the title more fully than classify_position_type's
+    first pass, so every post lands under the rank boxes a searcher would
+    tick for it. Takes that pass's values (or a stored position_type split
+    into a list) and returns the corrected list.
+
+    - "Open Rank Professor": the bare "Professor" filed it as Full only;
+      an open-rank title is all three professorial ranks.
+    - "Assistant to Associate Professor", "Asst/Assoc Professor", "Ast/Asc/
+      Full Professor": every rank named, abbreviated or not.
+    - "Adjunct Professor", "Professor of Practice": teaching appointments,
+      not full professorships.
+    - A faculty post that names no rank at all ("Faculty Positions in
+      Information Systems") is open to all three ranks; adjuncts and
+      instructors go to Lecturer / Teaching, scientists and researchers to
+      Research Fellow."""
+    title = title or ''
+    vals = [v for v in values if v and v != 'Unclassified']
+    prof = [v for v in vals if v in _PROF_RANKS]
+
+    if _TITLE_OPEN_RANK_RE.search(title):
+        prof = list(_PROF_RANKS)
+    elif _PROF_WORD_RE.search(title):
+        if _ASST_TO_ASSOC_RE.search(title):
+            prof += ['Assistant_Professor', 'Associate_Professor']
+        if _ABBREV_ASST_RE.search(title):
+            prof.append('Assistant_Professor')
+        if _ABBREV_ASSOC_RE.search(title):
+            prof.append('Associate_Professor')
+        if (prof == ['Full_Professor'] and _TEACHING_RE.search(title)
+                and not re.search(r'\bfull\s+professor', title, re.I)):
+            prof = []
+            vals.append('Lecturer')
+        # "Ast/Asc/Full Professor", "Asst/Assoc Professor": the full-rank
+        # guess from a leftover bare "Professor" no longer applies once the
+        # abbreviations are read -- keep Full only if the title says so.
+        if ('Full_Professor' in prof and (_ABBREV_ASST_RE.search(title) or _ABBREV_ASSOC_RE.search(title))
+                and not re.search(r'\bfull\b|\bprofessor\s*/|/\s*professor\b', title, re.I)):
+            prof = [p for p in prof if p != 'Full_Professor']
+
+    others = [v for v in vals if v not in _PROF_RANKS]
+    if not prof and not any(v in ('Lecturer', 'Research_Fellow') for v in others):
+        # An adjunct or instructor post read as "Non-academic" on a stray
+        # word ("Coordinator", "Developer") is still a teaching post.
+        academic = [v for v in others if v != 'Non-academic']
+        if _TEACHING_RE.search(title):
+            others = academic + ['Lecturer']
+        elif _RESEARCH_ROLE_RE.search(title):
+            others = academic + ['Research_Fellow']
+        elif _CHAIR_RE.search(title):
+            prof, others = ['Full_Professor'], academic
+        elif _FACULTY_RE.search(title) or not others:
+            prof, others = list(_PROF_RANKS), academic
+
+    out = []
+    for v in [p for p in _PROF_RANKS if p in prof] + others:
+        if v not in out:
             out.append(v)
     return out or ['Unclassified']
 

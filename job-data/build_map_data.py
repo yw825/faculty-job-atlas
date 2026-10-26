@@ -37,7 +37,8 @@ from datetime import date, datetime, timedelta
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 from faculty_filter import is_faculty
-from discipline_filter import is_relevant
+from discipline_filter import is_relevant, subjects_of
+from job_info_lib import refine_position_type
 from dedupe import dedupe  # noqa: E402
 ROOT = os.path.dirname(HERE)
 INFO_DIR = os.path.join(HERE, 'school_job_info')
@@ -387,7 +388,9 @@ def main():
                 postings.append({
                     's': sid,
                     't': title,
-                    'p': [t for t in (row.get('position_type') or '').split('; ') if t],
+                    'p': refine_position_type(
+                        title, [t for t in (row.get('position_type') or '').split('; ') if t]),
+                    'f': subjects_of(title, dept, keywords),
                     'j': (row.get('job_term') or '').strip(),
                     'd': dept,
                     'k': keywords,

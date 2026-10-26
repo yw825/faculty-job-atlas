@@ -1665,13 +1665,35 @@ function jobSearchText(j, withTitle){
   return j._s;
 }
 
-function jobRankLabel(types){
-  const map = {
-    Assistant_Professor:'Assistant Prof', Associate_Professor:'Associate Prof',
-    Full_Professor:'Professor', Lecturer:'Lecturer', Research_Fellow:'Research Fellow',
-    'Non-academic':'Non-academic', Unclassified:'Unclassified'
-  };
-  return (types||[]).map(t => map[t] || t);
+/* Each card is titled by what the posting IS, not what the advert calls it:
+   rank + subject, both classified at build time ("Assistant Professor of
+   Statistics"). The rank shown is the one(s) the searcher ticked, so an
+   open-rank post reads "Assistant Professor of ..." under the Assistant box
+   and "Associate Professor of ..." under the Associate box. The advert's own
+   title is kept as the heading's tooltip. */
+const RANK_ORDER = ['Assistant_Professor', 'Associate_Professor', 'Full_Professor', 'Lecturer', 'Research_Fellow'];
+const PROF_WORD = { Assistant_Professor:'Assistant', Associate_Professor:'Associate', Full_Professor:'Full' };
+
+function jobDisplayTitle(j){
+  const own = (j.p || []).filter(r => RANK_ORDER.indexOf(r) !== -1);
+  const sel = selectedRanks();
+  let ranks = sel.length ? own.filter(r => sel.indexOf(r) !== -1) : own;
+  if(!ranks.length) ranks = own;
+  const prof = ranks.filter(r => PROF_WORD[r]);
+  let role, prep = ' in ';
+  if(prof.length){
+    role = (prof.length === 1 && prof[0] === 'Full_Professor')
+      ? 'Professor' : prof.map(r => PROF_WORD[r]).join(' / ') + ' Professor';
+    prep = ' of ';
+  } else if(ranks.indexOf('Lecturer') !== -1){
+    role = 'Lecturer';
+  } else if(ranks.indexOf('Research_Fellow') !== -1){
+    role = 'Postdoc / Research Fellow';
+  } else {
+    role = 'Faculty Position';
+  }
+  const subj = (j.f || []).slice(0, 2).join(' and ');
+  return subj ? role + prep + subj : role;
 }
 
 function loadJobs(){
@@ -1698,31 +1720,26 @@ function loadJobs(){
 }
 
 
-/* Subject areas are a fixed vocabulary rather than free text so the same
-   field can be picked repeatedly and combined. Each entry carries the
-   phrasings postings actually use for it -- a posting says "Dept of
-   Econometrics" or lists "machine learning" as a keyword, never "Data
-   Science & AI" -- and matching stays on department_or_school +
-   area_key_words (plus the title when that switch is on), exactly as the
-   typed search does. Selecting several is an OR: show me anything in any
-   of these fields. */
-/* 2026-10-22: the map itself now only carries postings in these fields
-   (job-data/discipline_filter.py drops the rest at build time -- the
-   user's own call: business analytics/IS/MIS, data science/OR/IE,
-   statistics/applied math, plus AI even inside a clinical department).
-   This list used to cover the whole academic map (Medicine, Biology,
-   Humanities, Law, ...); those rows are gone now since they'd always
-   read zero. */
+/* Subject areas: each posting is filed under them at build time
+   (job-data/discipline_filter.py, subjects_of -> j.f), from its title, else
+   its department, else its advert keywords. The filter and the card title
+   ("Assistant Professor of Statistics") both read j.f, so they always agree.
+   Names must match SUBJECTS in discipline_filter.py. Selecting several is an
+   OR: show me anything in any of these fields. */
 const SUBJECT_AREAS = [
-  ['Business Analytics',                              'business analytics|data analytics|\\banalytics\\b|decision scienc'],
-  ['Information Systems',                             'information system|management information|informatics'],
-  ['Data Science',                                    'data scienc|data mining|predictive analytics'],
-  ['Artificial Intelligence & Machine Learning',      'artificial intelligence|\\bAI\\b|machine learning|deep learning'],
-  ['Operations Research',                             'operations research|operations management|management scien|optimi[sz]ation|stochastic|queue?ing|supply chain|logistics'],
-  ['Industrial Engineering',                          'industrial engineer'],
-  ['Statistics',                                       'statistic|biostatistic|probabilit|econometric'],
-  ['Mathematics',                                      'mathematic|applied math|computational math|pure math|algebra|geometry|topolog']
-].map(function(pair){ return { name: pair[0], re: new RegExp(pair[1], 'i') }; });
+  'Business Analytics',
+  'Information Systems',
+  'Data Science',
+  'AI & Machine Learning',
+  'Operations Research',
+  'Industrial Engineering',
+  'Statistics',
+  'Mathematics'
+].map(function(name){ return { name: name }; });
+
+function jobHasSubject(j, subj){
+  return (j.f || []).indexOf(subj.name) !== -1;
+}
 
 const subjectListEl = document.getElementById('subject-list');
 const subjectClearBtn = document.getElementById('subject-clear');
@@ -1739,10 +1756,6 @@ SUBJECT_AREAS.forEach(function(subj, i){
 function selectedSubjects(){
   return Array.from(document.querySelectorAll('.f-subject:checked'))
               .map(el => SUBJECT_AREAS[parseInt(el.value, 10)]);
-}
-
-function subjectHaystack(j, withTitle){
-  return jobSearchText(j, withTitle);
 }
 
 /* Same idea for rank: without a count beside each one, a rank filter
@@ -1768,7 +1781,7 @@ function updateRankCounts(baseJobs){
 function updateSubjectCounts(baseJobs, withTitle){
   SUBJECT_AREAS.forEach(function(subj, i){
     let n = 0;
-    for(const j of baseJobs){ if(subj.re.test(subjectHaystack(j, withTitle))) n++; }
+    for(const j of baseJobs){ if(jobHasSubject(j, subj)) n++; }
     const el = subjectListEl.querySelector('[data-count-for="'+i+'"]');
     if(el) el.textContent = n ? n : '';
     const row = subjectListEl.querySelector('[data-subject-index="'+i+'"]');
@@ -1856,8 +1869,7 @@ function jobsMatchingFilters(ignoreSubjects, ignoreRanks){
          || angularLngDiff(school.lon, liveCenter.lng) > liveHalfLng) return false;
     }
     if(!ignoreSubjects && subjects.length){
-      const hay = jobSearchText(j, withTitle);
-      if(!subjects.some(sub => sub.re.test(hay))) return false;
+      if(!subjects.some(sub => jobHasSubject(j, sub))) return false;
     }
     if(terms.length){
       const hay = jobSearchText(j, withTitle);
@@ -1900,18 +1912,12 @@ function renderJobList(jobs){
     const school = JOBS.schools[j.s] || {};
     const row = document.createElement('div');
     row.className = 'row';
-    const tags = jobRankLabel(j.p).map(t => '<span class="mini-tag">'+t+'</span>').join('');
-    const where = [school.city, school.country].filter(Boolean).join(', ');
-    const dates = [];
-    if(j.b) dates.push('starts '+j.b);
-    if(j.x) dates.push('closes '+j.x);
     row.innerHTML =
-      '<div class="job-row-title">'+escapeHtml(j.t)+'</div>'+
-      '<div class="job-row-school">'+escapeHtml(school.name||'')+(where ? ' · '+escapeHtml(where) : '')+'</div>'+
+      '<div class="job-row-title" title="'+escapeHtml(j.t)+'">'+escapeHtml(jobDisplayTitle(j))+'</div>'+
+      '<div class="job-row-school">'+escapeHtml(school.name||'')+'</div>'+
       (j.d ? '<div class="job-row-school">'+escapeHtml(j.d)+'</div>' : '')+
       (j.k ? '<div class="job-row-kw">'+escapeHtml(j.k)+'</div>' : '')+
-      (dates.length ? '<div class="row-loc">'+dates.join(' · ')+'</div>' : '')+
-      '<div class="row-tags">'+tags+'</div>'+
+      '<div class="row-loc">Application deadline: '+(j.x ? escapeHtml(j.x) : 'not stated')+'</div>'+
       (j.u ? '<div class="row-links"><a class="pop-link" href="'+escapeHtml(jobUrl(j))+'" target="_blank" rel="noopener">View posting ↗</a></div>' : '');
     row.addEventListener('click', function(e){
       if(e.target.closest('a')) return;
@@ -1967,9 +1973,10 @@ function applyJobFilters(){
     if(!school || school.lat == null) return;
     const marker = L.marker([school.lat, school.lon], { icon: pinIcon(school) });
     const top = list.slice(0, 8).map(j =>
-      '<div style="margin:6px 0;">'+
-        (j.u ? '<a class="pop-link" href="'+escapeHtml(jobUrl(j))+'" target="_blank" rel="noopener">'+escapeHtml(j.t)+'</a>'
-             : escapeHtml(j.t))+
+      '<div style="margin:6px 0;" title="'+escapeHtml(j.t)+'">'+
+        (j.u ? '<a class="pop-link" href="'+escapeHtml(jobUrl(j))+'" target="_blank" rel="noopener">'+escapeHtml(jobDisplayTitle(j))+'</a>'
+             : escapeHtml(jobDisplayTitle(j)))+
+        '<div class="pop-loc">Deadline: '+(j.x ? escapeHtml(j.x) : 'not stated')+'</div>'+
       '</div>').join('');
     marker.bindPopup(
       '<div class="pop-name">'+escapeHtml(school.name||'')+'</div>'+
