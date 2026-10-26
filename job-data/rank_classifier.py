@@ -163,10 +163,12 @@ def _pieces(title):
 
 
 def _professor_ranks(piece):
-    """Ranks named in one title piece that contains a professor phrase."""
+    """(ranks, named) for one title piece that contains a professor phrase;
+    `named` is False when the rank is only a guess (open rank, a bare
+    "Professor") that the advert's own rank statement may narrow."""
     ranks = []
     if _OPEN_RANK.search(piece):
-        return list(PROF_RANKS)
+        return list(PROF_RANKS), False
     if _ASST_WORD.search(piece):
         ranks.append(ASST)
     if _ASSOC_WORD.search(piece):
@@ -178,11 +180,43 @@ def _professor_ranks(piece):
     residue = re.sub(r'(?i)\b(?:assistant|asst|ast|associate|assoc|asc|full|research|teaching|'
                      r'clinical|visiting|adjunct|instructional|chair)\b\.?\s*/?\s*', ' ', piece)
     if not ranks:
-        ranks.append(FULL)
+        return [FULL], False
     elif FULL not in ranks and re.search(r'(?i)(?:^|/|,)\s*professor\b', residue) and \
             len(_PROFESSOR.findall(piece)) > 1:
         ranks.append(FULL)
-    return ranks
+    return ranks, True
+
+
+# "...appointment at the tenured Associate Professor or Full Professor
+# level", "at the rank of Assistant Professor", "Assistant, Associate, or
+# Full Professor rank": the ranks an advert itself says it is hiring at.
+_RANK_WORD = _rx(r'\b(?:rank|level)s?\b')
+_PROMOTION = _rx(r'\bpromot|\beligib|\badvance(?:ment)?\b|\bprogress')
+
+
+def _advert_ranks(description):
+    found = []
+    for m in _RANK_WORD.finditer(description or ''):
+        after = description[m.end():m.end() + 70]
+        if re.match(r'(?i)\s+of\b', after):
+            window = re.split(r'[.;]\s|\bwith\b|\bin\s+the\b', after, 1)[0]
+            lead = description[max(0, m.start() - 40):m.start()]
+        else:
+            window = re.split(r'[.;]\s', description[max(0, m.start() - 60):m.start()])[-1]
+            lead = window
+        if _PROMOTION.search(lead):
+            continue
+        window = re.sub(r'(?i)\bfull[- ]?time\b', ' ', window)
+        if re.search(r'(?i)\bassistant\b', window):
+            found.append(ASST)
+        if re.search(r'(?i)\bassociate\b', window):
+            found.append(ASSOC)
+        if re.search(r'(?i)\bfull\b|(?:,|\bor|/)\s*professor\b', window):
+            found.append(FULL)
+    return [r for r in PROF_RANKS if r in found]
+
+
+_SENIOR = _rx(r'\bsenior\s+(?:faculty|professor|position|hire|scholar)')
 
 
 def classify_rank(title, description='', country=''):
@@ -198,6 +232,7 @@ def classify_rank(title, description='', country=''):
                 out.append(v)
 
     plain_prof = False
+    guessed = False  # professorial ranks inferred, not named in the title
     for piece in _pieces(title):
         if any(rx.search(piece) for rx, _ in _LOCAL):
             for rx, vals in _LOCAL:
@@ -207,7 +242,7 @@ def classify_rank(title, description='', country=''):
                         plain_prof = True
             continue
         if _PROFESSOR.search(piece):
-            ranks = _professor_ranks(piece)
+            ranks, named = _professor_ranks(piece)
             if _RESEARCH_MOD.search(piece) and not _TENURE.search(piece):
                 add(RESEARCH)
             elif _TEACHING_MOD.search(piece) and not _TENURE.search(piece):
@@ -215,6 +250,7 @@ def classify_rank(title, description='', country=''):
             else:
                 add(*ranks)
                 plain_prof = True
+                guessed = guessed or not named
             # "Instructor/Assistant/Associate/Full Professor": the instructor
             # is a separate appointment in the same piece
             if re.search(r'(?i)\binstructor\b|\blecturer\b', piece):
@@ -236,6 +272,7 @@ def classify_rank(title, description='', country=''):
             else:
                 add(*PROF_RANKS)
                 plain_prof = True
+                guessed = True
             continue
         if _LECTURER.search(piece):
             if system == 'british' and not _BRITISH_TEACHING.search(piece):
@@ -260,7 +297,10 @@ def classify_rank(title, description='', country=''):
             add(RESEARCH)
 
     if not out:
-        if _CHAIR.search(title):
+        if _SENIOR.search(title):
+            add(ASSOC, FULL)
+            plain_prof = guessed = True
+        elif _CHAIR.search(title):
             add(FULL)
         elif _FACULTY.search(title) or not _NON_ACADEMIC.search(title):
             # a faculty post that names no rank is open to any rank,
@@ -269,7 +309,19 @@ def classify_rank(title, description='', country=''):
                 add(TEACH)
             else:
                 add(*PROF_RANKS)
-                plain_prof = True
+                plain_prof = guessed = True
+
+    # When the title only implies the rank (open rank, a bare "Professor",
+    # "Senior Faculty-Level Position", no rank at all), the advert's own
+    # statement decides: Binghamton's "Senior Faculty-Level or Equivalent
+    # Position" hires "at the tenured Associate Professor or Full Professor
+    # level", so it is not an Assistant Professor post.
+    # A title that names any rank itself ("Professor / Associate Professor /
+    # Assistant Professor") is taken as written.
+    if guessed and not re.search(r'(?i)\b(?:assistant|associate|asst|assoc|full)\b(?![- ]?time)', title):
+        stated = _advert_ranks(description)
+        if stated:
+            out = [v for v in out if v not in PROF_RANKS] + stated
 
     # A North American "Assistant Professor of X" whose advert says it is
     # non-tenure-track (and never tenure-track) is a teaching post. When the
