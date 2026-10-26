@@ -1,14 +1,14 @@
-school_id,posting_url,job_title_in_post,position_type,job_term,department_or_school,area_key_words,deadline_of_application,position_start_date
-412,https://uis.csod.com/ux/ats/careersite/1/home/requisition/1338?c=uis,Program Coordinator - Disability Specialist,Non-academic,Full-time,,,10/13/2026,
-412,https://uis.csod.com/ux/ats/careersite/1/home/requisition/1337?c=uis,Financial Aid Coordinator,Non-academic,Full-time,"School of Education faculty, and resolving issues",School of Education faculty,10/7/2026,
-412,https://uis.csod.com/ux/ats/careersite/1/home/requisition/1336?c=uis,"Program Coordinator, Academic Governance and Institutional Effectiveness",Non-academic,Full-time,,,10/5/2026,
-412,https://uis.csod.com/ux/ats/careersite/1/home/requisition/1322?c=uis,Manager and Sponsorship Account Executive,Non-academic,Full-time,,,9/21/2026,
-412,https://uis.csod.com/ux/ats/careersite/1/home/requisition/1270?c=uis,"Assistant Professor, Public Management and Policy (MPP/MPA)",Assistant_Professor,Full-time,,Public Management and Policy; policy Evidence of teaching effectiveness,9/9/2026,
-412,https://uis.csod.com/ux/ats/careersite/1/home/requisition/1288?c=uis,"Clinical Assistant or Associate Professor, Engineering Technology (up to 3 positions)",Assistant_Professor; Associate_Professor,Full-time,,Engineering Technology,9/3/2026,"January 1, 2027"
-412,https://uis.csod.com/ux/ats/careersite/1/home/requisition/1287?c=uis,"Assistant or Associate Professor, Engineering Technology (3 positions)",Assistant_Professor; Associate_Professor,Full-time,,Engineering Technology,9/3/2026,"January 1, 2027"
-412,https://uis.csod.com/ux/ats/careersite/1/home/requisition/1320?c=uis,"Executive Director, Innovation and Opportunity",Unclassified,Full-time,,CAPE-delivered,9/1/2026,
-412,https://uis.csod.com/ux/ats/careersite/1/home/requisition/1307?c=uis,Admission Counselor (Campus Based)-Two Vacancies,Unclassified,Full-time,,,8/13/2026,
-412,https://uis.csod.com/ux/ats/careersite/1/home/requisition/868?c=uis,Extra Help Event Attendant - 50 Vacancies,Unclassified,Full-time,,,5/27/2026,
-412,https://uis.csod.com/ux/ats/careersite/1/home/requisition/1084?c=uis,Adjunct (Per Course) Teaching Opportunities,Unclassified,Full-time,"Center for Online Learning, Research and Service",Opportunities Posting Category,,
-412,https://uis.csod.com/ux/ats/careersite/1/home/requisition/869?c=uis,Extra Help Stagehand - 50 vacancies,Unclassified,Full-time,,,9/6/2024,
-412,https://uis.csod.com/ux/ats/careersite/1/home/requisition/840?c=uis,ION Instructor (per course),Unclassified,Full-time,,ION; fully online classroom,8/6/2024,
+school_id,posting_url,job_title_in_post,position_type,job_term,department_or_school,area_key_words,deadline_of_application,position_start_date,posted_date
+412,https://uis.csod.com/ux/ats/careersite/1/home/requisition/1338?c=uis,Program Coordinator - Disability Specialist,Unclassified,Full-time,,,11/6/2026,,10/13/2026
+412,https://uis.csod.com/ux/ats/careersite/1/home/requisition/1337?c=uis,Financial Aid Coordinator,Unclassified,Full-time,"School of Education faculty, and resolving issues",School of Education faculty,10/21/2026,,10/7/2026
+412,https://uis.csod.com/ux/ats/careersite/1/home/requisition/1336?c=uis,"Program Coordinator, Academic Governance and Institutional Effectiveness",Unclassified,Full-time,,,10/19/2026,,10/5/2026
+412,https://uis.csod.com/ux/ats/careersite/1/home/requisition/1322?c=uis,Manager and Sponsorship Account Executive,Unclassified,Full-time,,,10/16/2026,,9/21/2026
+412,https://uis.csod.com/ux/ats/careersite/1/home/requisition/1270?c=uis,"Assistant Professor, Public Management and Policy (MPP/MPA)",Assistant_Professor,Full-time,,Public Management and Policy; policy Evidence of teaching effectiveness,10/19/2026,,9/9/2026
+412,https://uis.csod.com/ux/ats/careersite/1/home/requisition/1288?c=uis,"Clinical Assistant or Associate Professor, Engineering Technology (up to 3 positions)",Associate_Professor; Lecturer,Full-time,,Engineering Technology,10/19/2026,"January 1, 2027",9/3/2026
+412,https://uis.csod.com/ux/ats/careersite/1/home/requisition/1287?c=uis,"Assistant or Associate Professor, Engineering Technology (3 positions)",Associate_Professor,Full-time,,Engineering Technology,10/19/2026,"January 1, 2027",9/3/2026
+412,https://uis.csod.com/ux/ats/careersite/1/home/requisition/1320?c=uis,"Executive Director, Innovation and Opportunity",Unclassified,Full-time,,CAPE-delivered,"September 18, 2026",,9/1/2026
+412,https://uis.csod.com/ux/ats/careersite/1/home/requisition/1307?c=uis,Admission Counselor (Campus Based)-Two Vacancies,Unclassified,Full-time,,,,,8/13/2026
+412,https://uis.csod.com/ux/ats/careersite/1/home/requisition/868?c=uis,Extra Help Event Attendant - 50 Vacancies,Unclassified,Full-time,,,,,5/27/2026
+412,https://uis.csod.com/ux/ats/careersite/1/home/requisition/1084?c=uis,Adjunct (Per Course) Teaching Opportunities,Lecturer,Full-time,"Center for Online Learning, Research and Service",Opportunities Posting Category,,,9/18/2025
+412,https://uis.csod.com/ux/ats/careersite/1/home/requisition/869?c=uis,Extra Help Stagehand - 50 vacancies,Unclassified,Full-time,,,,,9/6/2024
+412,https://uis.csod.com/ux/ats/careersite/1/home/requisition/840?c=uis,ION Instructor (per course),Lecturer,Full-time,,ION; fully online classroom,,,8/6/2024

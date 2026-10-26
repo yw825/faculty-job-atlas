@@ -1,9 +1,9 @@
-school_id,posting_url,job_title_in_post,position_type,job_term,department_or_school,area_key_words,deadline_of_application,position_start_date
-1025,https://www.bluffton.edu/employment/adj-edu-math.aspx,Adjunct Instructor in Education: K-5 Mathematics Methods,Unclassified,Full-time,,K-5 Mathematics Methods; accordance,,
-1025,https://www.bluffton.edu/employment/adj-english.aspx,Adjunct Instructor in English,Unclassified,Full-time,Department of Humanities seeks qualified adjunct faculty to teach undergraduate,English; American literature,,
-1025,https://www.bluffton.edu/employment/stf-academicengagement.aspx,Academic Engagement Specialist,Non-academic,Full-time,,,,
-1025,https://www.bluffton.edu/employment/staff-assistant-athletic-trainer.aspx,Assistant athletic trainer,Unclassified,Full-time,,,,
-1025,https://www.bluffton.edu/employment/stf-bus-driver.aspx,Bus driver,Unclassified,Part-time,,,,
-1025,https://www.bluffton.edu/employment/stf-custodian.aspx,Custodial Services Associate,Unclassified,Full-time,,,,
-1025,https://www.bluffton.edu/employment/stf-finaid-officer-asstdirector.aspx,Financial Aid Officer/Asst. Director of Financial Aid,Unclassified,Full-time,,Financial Aid,,
-1025,https://www.bluffton.edu/employment/ga-contentmanagment.aspx,Graduate Assistant for Content Management,Unclassified,Full-time,,,,
+school_id,posting_url,job_title_in_post,position_type,job_term,department_or_school,area_key_words,deadline_of_application,position_start_date,posted_date
+1025,https://www.bluffton.edu/employment/adj-edu-math.aspx,Adjunct Instructor in Education: K-5 Mathematics Methods,Lecturer,Full-time,,K-5 Mathematics Methods; accordance,,,09/11/26
+1025,https://www.bluffton.edu/employment/adj-english.aspx,Adjunct Instructor in English,Lecturer,Full-time,Department of Humanities seeks qualified adjunct faculty to teach undergraduate,English; American literature,,,08/11/26
+1025,https://www.bluffton.edu/employment/stf-academicengagement.aspx,Academic Engagement Specialist,Unclassified,Full-time,,,,,08/24/26
+1025,https://www.bluffton.edu/employment/staff-assistant-athletic-trainer.aspx,Assistant athletic trainer,Unclassified,Full-time,,,,,07/02/25
+1025,https://www.bluffton.edu/employment/stf-bus-driver.aspx,Bus driver,Unclassified,Part-time,,,,,06/25/25
+1025,https://www.bluffton.edu/employment/stf-custodian.aspx,Custodial Services Associate,Unclassified,Full-time,,,,,06/25/25
+1025,https://www.bluffton.edu/employment/stf-finaid-officer-asstdirector.aspx,Financial Aid Officer/Asst. Director of Financial Aid,Unclassified,Full-time,,Financial Aid,,,10/13/26
+1025,https://www.bluffton.edu/employment/ga-contentmanagment.aspx,Graduate Assistant for Content Management,Unclassified,Full-time,,,,,04/13/26

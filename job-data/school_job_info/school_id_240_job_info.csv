@@ -1,4 +1,4 @@
-school_id,posting_url,job_title_in_post,position_type,job_term,department_or_school,area_key_words,deadline_of_application,position_start_date
-240,https://uftl.edu/career-center/#bursar,Bursar,Unclassified,Full-time,,,,
-240,https://uftl.edu/career-center/#admissions-counselor-evaluator-full-time,Admissions Counselor/Evaluator (Full-Time),Unclassified,Full-time,,,,
-240,https://uftl.edu/career-center/#adjunct-faculty,Adjunct Faculty,Unclassified,Part-time,,ASSIGNMENTS English,,
+school_id,posting_url,job_title_in_post,position_type,job_term,department_or_school,area_key_words,deadline_of_application,position_start_date,posted_date
+240,https://uftl.edu/career-center/#bursar,Bursar,Unclassified,Full-time,,,,,
+240,https://uftl.edu/career-center/#admissions-counselor-evaluator-full-time,Admissions Counselor/Evaluator (Full-Time),Unclassified,Full-time,,,,,
+240,https://uftl.edu/career-center/#adjunct-faculty,Adjunct Faculty,Lecturer,Part-time,,ASSIGNMENTS English,,,

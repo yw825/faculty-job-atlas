@@ -1,34 +1,34 @@
-school_id,posting_url,job_title_in_post,position_type,job_term,department_or_school,area_key_words,deadline_of_application,position_start_date
-1570,https://www.ucwv.edu/job-postings/assistant-professor-associate-professor-or-professor/,"Assistant Professor, Associate Professor, or Professor",Assistant_Professor; Associate_Professor; Full_Professor,Full-time,School of Health Sciences,,,
-1570,https://www.ucwv.edu/job-postings/assistant-associate-professor-of-biology/,Assistant/Associate Professor of Biology,Assistant_Professor; Associate_Professor,Full-time,Department of Natural Sciences,Biology; Physiology lecture,,"August 9, 2027"
-1570,https://www.ucwv.edu/job-postings/assistant-or-associate-professor/,Assistant or Associate Professor,Assistant_Professor; Associate_Professor,Full-time,,Design,,
-1570,https://www.ucwv.edu/job-postings/assistant-or-associate-professor-of-business/,Assistant or Associate Professor of Business,Assistant_Professor; Associate_Professor,Full-time,School of Business core curriculum,Business; Entrepreneurship,,
-1570,https://www.ucwv.edu/job-postings/28030/,Annual Fund Manager,Non-academic,Full-time,,,,
-1570,https://www.ucwv.edu/job-postings/administrative-assistant/,Administrative Assistant,Unclassified,Full-time,,,,
-1570,https://www.ucwv.edu/job-postings/custodial-manager/,Custodial Manager,Non-academic,Full-time,,Receptive,,
-1570,https://www.ucwv.edu/job-postings/program-administrative-coordinator/,Program Administrative Coordinator,Non-academic,Full-time,,,,
-1570,https://www.ucwv.edu/job-postings/international-enrollment-coordinator/,International Enrollment Coordinator,Non-academic,Full-time,,,,
-1570,https://www.ucwv.edu/job-postings/dean/,Dean,Associate_Professor,Full-time,,professor Applications; University website Leading the preparation,,
-1570,https://www.ucwv.edu/job-postings/feed/,Job Postings Archive,Assistant_Professor; Associate_Professor,Full-time,Department of Natural Sciences,,,
-1570,https://www.ucwv.edu/job-postings/assistant-or-associate-professor-of-accounting/,Assistant or Associate Professor of Accounting,Assistant_Professor; Associate_Professor,Full-time,School of Business,Accounting; multiple modalities,,
-1570,https://www.ucwv.edu/job-postings/lab-assistant/,Lab Assistant,Non-academic,Full-time,School of Health Sciences and performs all duties related thereto,,,
-1570,https://www.ucwv.edu/job-postings/assistant-or-associate-professor-doctor-of-executive-leadership-program/,"Assistant or Associate Professor, Doctor of Executive Leadership Program",Assistant_Professor; Associate_Professor,Full-time,,Executive Leadership Program,,
-1570,https://www.ucwv.edu/job-postings/administrative-assistant-part-time/,Administrative Assistant (Part-Time),Unclassified,Part-time,,,,
-1570,https://www.ucwv.edu/job-postings/student-engagement-retention-coordinator/,Student Engagement & Retention Coordinator,Non-academic,Full-time,,,,
-1570,https://www.ucwv.edu/job-postings/data-support-specialist/,Data Support Specialist,Non-academic,Full-time,,,,
-1570,https://www.ucwv.edu/job-postings/barista/,Barista,Unclassified,Full-time,,,,
-1570,https://www.ucwv.edu/job-postings/admissions-counselor-undergraduate-nursing/,Admissions Counselor Undergraduate Nursing,Unclassified,Full-time,,,,
-1570,https://www.ucwv.edu/job-postings/security-patrol-officer/,Security Patrol Officer,Unclassified,Full-time,Dept. of Education for campus crime reporting purposes,,,
-1570,https://www.ucwv.edu/job-postings/join-ucs-food-services-team/,Join UC’s Food Services Team,Unclassified,Full-time,,,,
-1570,https://www.ucwv.edu/job-postings/assistant-professor-of-nursing-adn/,Assistant Professor of Nursing-ADN,Assistant_Professor,Part-time,"School of Health Sciences, and the Capito Department of Nursing",Nursing-ADN; university’s Associate Degree Nursing,,
-1570,https://www.ucwv.edu/job-postings/food-service-and-catering-assistant/,Food Service and Catering Assistant,Non-academic,Full-time,,,,
-1570,https://www.ucwv.edu/job-postings/sous-chef/,Sous Chef,Unclassified,Full-time,,,,
-1570,https://www.ucwv.edu/job-postings/financial-aid-assistant/,Financial Aid Assistant,Unclassified,Full-time,,,,
-1570,https://www.ucwv.edu/job-postings/shuttle-bus-driver-athletics-department/,Shuttle Bus Driver,Assistant_Professor; Associate_Professor; Full_Professor,Part-time,,,,
-1570,https://www.ucwv.edu/job-postings/nursing-faculty/,Nursing Faculty,Unclassified,Part-time,,Nursing; Beckley,,
-1570,https://www.ucwv.edu/job-postings/utility-worker-dishwasher/,Utility Worker / Dishwasher,Unclassified,Full-time,,,,
-1570,https://www.ucwv.edu/job-postings/food-service-worker/,Food Service Worker,Unclassified,Full-time,,,,
-1570,https://www.ucwv.edu/job-postings/grounds-keeper/,Grounds Keeper,Non-academic,Full-time,,,,
-1570,https://www.ucwv.edu/job-postings/grill-cook/,Grill Cook,Non-academic,Full-time,,,,
-1570,https://www.ucwv.edu/job-postings/cashier/,Cashier,Unclassified,Full-time,,,,
-1570,https://www.ucwv.edu/job-postings/cook-2/,Cook,Unclassified,Full-time,,,,
+school_id,posting_url,job_title_in_post,position_type,job_term,department_or_school,area_key_words,deadline_of_application,position_start_date,posted_date
+1570,https://www.ucwv.edu/job-postings/assistant-professor-associate-professor-or-professor/,"Assistant Professor, Associate Professor, or Professor",Assistant_Professor; Associate_Professor; Full_Professor,Full-time,School of Health Sciences,,,,"October 15, 2026"
+1570,https://www.ucwv.edu/job-postings/assistant-associate-professor-of-biology/,Assistant/Associate Professor of Biology,Assistant_Professor; Associate_Professor,Full-time,Department of Natural Sciences,Biology; Physiology lecture,,"August 9, 2027","September 29, 2026"
+1570,https://www.ucwv.edu/job-postings/assistant-or-associate-professor/,Assistant or Associate Professor,Associate_Professor,Full-time,,Design,,,"September 28, 2026"
+1570,https://www.ucwv.edu/job-postings/assistant-or-associate-professor-of-business/,Assistant or Associate Professor of Business,Associate_Professor,Full-time,School of Business core curriculum,Business; Entrepreneurship,,,"September 24, 2026"
+1570,https://www.ucwv.edu/job-postings/28030/,Annual Fund Manager,Unclassified,Full-time,,,,,"September 22, 2026"
+1570,https://www.ucwv.edu/job-postings/administrative-assistant/,Administrative Assistant,Unclassified,Full-time,,,,,"September 15, 2026"
+1570,https://www.ucwv.edu/job-postings/custodial-manager/,Custodial Manager,Unclassified,Full-time,,Receptive,,,"September 15, 2026"
+1570,https://www.ucwv.edu/job-postings/program-administrative-coordinator/,Program Administrative Coordinator,Unclassified,Full-time,,,,,"September 2, 2026"
+1570,https://www.ucwv.edu/job-postings/international-enrollment-coordinator/,International Enrollment Coordinator,Unclassified,Full-time,,,,,"August 25, 2026"
+1570,https://www.ucwv.edu/job-postings/dean/,Dean,Unclassified,Full-time,,professor Applications; University website Leading the preparation,,,"August 20, 2026"
+1570,https://www.ucwv.edu/job-postings/feed/,Job Postings Archive,Unclassified,Full-time,Department of Natural Sciences,,,,
+1570,https://www.ucwv.edu/job-postings/assistant-or-associate-professor-of-accounting/,Assistant or Associate Professor of Accounting,Associate_Professor,Full-time,School of Business,Accounting; multiple modalities,,,"August 20, 2026"
+1570,https://www.ucwv.edu/job-postings/lab-assistant/,Lab Assistant,Unclassified,Full-time,School of Health Sciences and performs all duties related thereto,,,,"August 20, 2026"
+1570,https://www.ucwv.edu/job-postings/assistant-or-associate-professor-doctor-of-executive-leadership-program/,"Assistant or Associate Professor, Doctor of Executive Leadership Program",Associate_Professor,Full-time,,Executive Leadership Program,,,"July 29, 2026"
+1570,https://www.ucwv.edu/job-postings/administrative-assistant-part-time/,Administrative Assistant (Part-Time),Lecturer,Part-time,,,,,"June 18, 2026"
+1570,https://www.ucwv.edu/job-postings/student-engagement-retention-coordinator/,Student Engagement & Retention Coordinator,Unclassified,Full-time,,,,,"March 30, 2026"
+1570,https://www.ucwv.edu/job-postings/data-support-specialist/,Data Support Specialist,Unclassified,Full-time,,,,,"March 30, 2026"
+1570,https://www.ucwv.edu/job-postings/barista/,Barista,Unclassified,Full-time,,,,,"February 17, 2026"
+1570,https://www.ucwv.edu/job-postings/admissions-counselor-undergraduate-nursing/,Admissions Counselor Undergraduate Nursing,Unclassified,Full-time,,,,,"February 17, 2026"
+1570,https://www.ucwv.edu/job-postings/security-patrol-officer/,Security Patrol Officer,Unclassified,Full-time,Dept. of Education for campus crime reporting purposes,,,,"October 28, 2025"
+1570,https://www.ucwv.edu/job-postings/join-ucs-food-services-team/,Join UC’s Food Services Team,Unclassified,Full-time,,,,,"September 30, 2025"
+1570,https://www.ucwv.edu/job-postings/assistant-professor-of-nursing-adn/,Assistant Professor of Nursing-ADN,Assistant_Professor,Part-time,"School of Health Sciences, and the Capito Department of Nursing",Nursing-ADN; university’s Associate Degree Nursing,,,"August 1, 2025"
+1570,https://www.ucwv.edu/job-postings/food-service-and-catering-assistant/,Food Service and Catering Assistant,Unclassified,Full-time,,,,,"June 23, 2025"
+1570,https://www.ucwv.edu/job-postings/sous-chef/,Sous Chef,Unclassified,Full-time,,,,,"June 23, 2025"
+1570,https://www.ucwv.edu/job-postings/financial-aid-assistant/,Financial Aid Assistant,Unclassified,Full-time,,,,,"April 22, 2025"
+1570,https://www.ucwv.edu/job-postings/shuttle-bus-driver-athletics-department/,Shuttle Bus Driver,Unclassified,Part-time,,,,,"April 2, 2025"
+1570,https://www.ucwv.edu/job-postings/nursing-faculty/,Nursing Faculty,Assistant_Professor; Associate_Professor; Full_Professor,Part-time,,Nursing; Beckley,,,"November 8, 2024"
+1570,https://www.ucwv.edu/job-postings/utility-worker-dishwasher/,Utility Worker / Dishwasher,Unclassified,Full-time,,,,,"May 3, 2024"
+1570,https://www.ucwv.edu/job-postings/food-service-worker/,Food Service Worker,Unclassified,Full-time,,,,,"April 30, 2024"
+1570,https://www.ucwv.edu/job-postings/grounds-keeper/,Grounds Keeper,Unclassified,Full-time,,,,,"April 13, 2024"
+1570,https://www.ucwv.edu/job-postings/grill-cook/,Grill Cook,Unclassified,Full-time,,,,,"April 4, 2024"
+1570,https://www.ucwv.edu/job-postings/cashier/,Cashier,Unclassified,Full-time,,,,,"April 4, 2024"
+1570,https://www.ucwv.edu/job-postings/cook-2/,Cook,Unclassified,Full-time,,,,,"April 4, 2024"

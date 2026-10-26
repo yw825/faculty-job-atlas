@@ -1,5 +1,4 @@
-school_id,posting_url,job_title_in_post,position_type,job_term,department_or_school,area_key_words,deadline_of_application,position_start_date
-1529,https://lawrence.peopleadmin.com/postings/2174,"Assistant Professor, Data Science and Statistics",Assistant_Professor,Full-time,"Department of Mathematics, Statistics, and Computer Science",Data Science and Statistics,"October 2, 2026","September 1, 2027"
-1529,https://lawrence.peopleadmin.com/postings/2165,Assistant Professor of Psychology,Assistant_Professor,Full-time,,Psychology; Research Methods on rotation,"September 15, 2026","September 1, 2027"
-1529,https://lawrence.peopleadmin.com/postings/2163,Assistant Professor of Biology,Assistant_Professor,Full-time,,Biology,"September 15, 2026","September 1, 2027"
-1529,https://lawrence.peopleadmin.com/postings/2146,Visiting Assistant Professor of Theatre in Lighting and Sound,Assistant_Professor,Full-time,Department of Theatre Arts,Theatre in Lighting and Sound,,
+school_id,posting_url,job_title_in_post,position_type,job_term,department_or_school,area_key_words,deadline_of_application,position_start_date,posted_date
+1529,https://lawrence.peopleadmin.com/postings/2165,Assistant Professor of Psychology,Assistant_Professor,Full-time,,Psychology; Research Methods on rotation,,"September 1, 2027",
+1529,https://lawrence.peopleadmin.com/postings/2163,Assistant Professor of Biology,Assistant_Professor,Full-time,,Biology,,"September 1, 2027",
+1529,https://lawrence.peopleadmin.com/postings/2146,Visiting Assistant Professor of Theatre in Lighting and Sound,Lecturer,Full-time,Department of Theatre Arts,Theatre in Lighting and Sound,,,

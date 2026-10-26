@@ -1,9 +1,9 @@
-school_id,posting_url,job_title_in_post,position_type,job_term,department_or_school,area_key_words,deadline_of_application,position_start_date
-921,https://assets.sfc.edu/content/uploads/Financial-Aid-Advisor.pdf,Financial Aid Advisor,Unclassified,Full-time,,,,
-921,https://assets.sfc.edu/content/uploads/Lab-Supervisor.pdf,Laboratory Supervisor,Unclassified,Full-time,,,,
-921,https://assets.sfc.edu/content/uploads/HR-Coordinator_2026-08-28-152936_qhgd.pdf,Human Resources Coordinator,Non-academic,Full-time,,,,
-921,https://assets.sfc.edu/content/uploads/Brand-Production-Specialist.pdf,Brand Production Specialist,Non-academic,Full-time,"Department of Marketing, the Brand Production Specialist serves as the primary driver",,,
-921,https://assets.sfc.edu/content/uploads/Assistant-or-Associate-Professor-Nursing-OB-Peds.pdf,Assistant or Associate Professor Nursing OB Peds,Assistant_Professor; Associate_Professor,Full-time,,College-approved courses,,
-921,https://assets.sfc.edu/content/uploads/St._Francis_College_Full-time_Nursing_Faculty2025.pdf,"Department of Nursing, Full-time Faculty (Assistant Professor or Associate Professor or Clinical Lecturer)",Assistant_Professor; Associate_Professor; Lecturer,Full-time,,"Nursing, Full-time Faculty; CCNE-accredited Baccalaureate Nursing",,
-921,https://assets.sfc.edu/content/uploads/Adjunct_Faculty_JobDescription.pdf,Adjunct Faculty,Unclassified,Full-time,,,,
-921,https://assets.sfc.edu/content/uploads/Adjunct-Professor_Biology.pdf,Adjunct Professor of Biology,Full_Professor,Full-time,,Biology; Physiology,,
+school_id,posting_url,job_title_in_post,position_type,job_term,department_or_school,area_key_words,deadline_of_application,position_start_date,posted_date
+921,https://assets.sfc.edu/content/uploads/Financial-Aid-Advisor.pdf,Financial Aid Advisor,Unclassified,Full-time,,,,,
+921,https://assets.sfc.edu/content/uploads/Lab-Supervisor.pdf,Laboratory Supervisor,Unclassified,Full-time,,,,,
+921,https://assets.sfc.edu/content/uploads/HR-Coordinator_2026-08-28-152936_qhgd.pdf,Human Resources Coordinator,Unclassified,Full-time,,,,,
+921,https://assets.sfc.edu/content/uploads/Brand-Production-Specialist.pdf,Brand Production Specialist,Unclassified,Full-time,"Department of Marketing, the Brand Production Specialist serves as the primary driver",,,,
+921,https://assets.sfc.edu/content/uploads/Assistant-or-Associate-Professor-Nursing-OB-Peds.pdf,Assistant or Associate Professor Nursing OB Peds,Associate_Professor,Full-time,,College-approved courses,,,
+921,https://assets.sfc.edu/content/uploads/St._Francis_College_Full-time_Nursing_Faculty2025.pdf,"Department of Nursing, Full-time Faculty (Assistant Professor or Associate Professor or Clinical Lecturer)",Assistant_Professor; Associate_Professor; Lecturer,Full-time,,"Nursing, Full-time Faculty; CCNE-accredited Baccalaureate Nursing",,,
+921,https://assets.sfc.edu/content/uploads/Adjunct_Faculty_JobDescription.pdf,Adjunct Faculty,Lecturer,Full-time,,,,,
+921,https://assets.sfc.edu/content/uploads/Adjunct-Professor_Biology.pdf,Adjunct Professor of Biology,Lecturer,Full-time,,Biology; Physiology,,,

@@ -1,9 +1,9 @@
-school_id,posting_url,job_title_in_post,position_type,job_term,department_or_school,area_key_words,deadline_of_application,position_start_date
-1114,https://cdn.wou.edu/hr/files/2026/07/F2609-JA.pdf,"Instructional Faculty, Elementary Education—Literacy Focus",Unclassified,Full-time,Division of Education and Leadership,Instructional,,
-1114,https://cdn.wou.edu/hr/files/2026/07/F2608-JA.pdf,"Instructional Faculty, Teacher Education – Math and Science",Unclassified,Full-time,Division of Education and Leadership,Instructional; License Eligibility,,
-1114,https://cdn.wou.edu/hr/files/2026/07/F2607-JA.pdf,"Instructional Faculty, Interpreting Studies",Unclassified,Full-time,College of Education,Instructional; DSPS Division,,
-1114,https://cdn.wou.edu/hr/files/2026/10/F2613-Job-Announcement-2.pdf,"Tenure Track Assistant Professor, Exercise Science",Assistant_Professor,Full-time,Division of Health and Exercise Science,Exercise Science,,
-1114,https://cdn.wou.edu/hr/files/2026/03/F-PSY-POOL-2026-JOB-ANNOUNCEMENT.pdf,Adjunct Faculty - Psychology,Unclassified,Part-time,Department of Psychological Sciences in the College of Liberal Arts and Sciences,Psychology; Life-Span Development; Research Methods,,
-1114,https://cdn.wou.edu/hr/files/2026/05/FBUS-JA.pdf,Adjunct Faculty - Business,Unclassified,Full-time,,Business,,
-1114,https://cdn.wou.edu/hr/files/2025/04/F-PRL-POOL-JOB-ANNOUNCEMENT.pdf,Adjunct Faculty - Principal Licensure,Non-academic,Part-time,Division of Education and Leadership,Principal Licensure; asynchronous formats,,
-1114,https://cdn.wou.edu/hr/files/2026/06/F-SUS-2025-JOB-ANNOUNCEMENT.pdf,Adjunct Faculty - Sustainability,Unclassified,Full-time,Department of Sustainability will be responsible for providing,Sustainability,,
+school_id,posting_url,job_title_in_post,position_type,job_term,department_or_school,area_key_words,deadline_of_application,position_start_date,posted_date
+1114,https://cdn.wou.edu/hr/files/2026/07/F2609-JA.pdf,"Instructional Faculty, Elementary Education—Literacy Focus",Assistant_Professor; Associate_Professor; Full_Professor,Full-time,Division of Education and Leadership,Instructional,,,
+1114,https://cdn.wou.edu/hr/files/2026/07/F2608-JA.pdf,"Instructional Faculty, Teacher Education – Math and Science",Lecturer,Full-time,Division of Education and Leadership,Instructional; License Eligibility,,,
+1114,https://cdn.wou.edu/hr/files/2026/07/F2607-JA.pdf,"Instructional Faculty, Interpreting Studies",Assistant_Professor; Associate_Professor; Full_Professor,Full-time,College of Education,Instructional; DSPS Division,,,
+1114,https://cdn.wou.edu/hr/files/2026/10/F2613-Job-Announcement-2.pdf,"Tenure Track Assistant Professor, Exercise Science",Assistant_Professor,Full-time,Division of Health and Exercise Science,Exercise Science,,,
+1114,https://cdn.wou.edu/hr/files/2026/03/F-PSY-POOL-2026-JOB-ANNOUNCEMENT.pdf,Adjunct Faculty - Psychology,Lecturer,Part-time,Department of Psychological Sciences in the College of Liberal Arts and Sciences,Psychology; Life-Span Development; Research Methods,,,
+1114,https://cdn.wou.edu/hr/files/2026/05/FBUS-JA.pdf,Adjunct Faculty - Business,Lecturer,Full-time,,Business,,,
+1114,https://cdn.wou.edu/hr/files/2025/04/F-PRL-POOL-JOB-ANNOUNCEMENT.pdf,Adjunct Faculty - Principal Licensure,Lecturer,Part-time,Division of Education and Leadership,Principal Licensure; asynchronous formats,,,
+1114,https://cdn.wou.edu/hr/files/2026/06/F-SUS-2025-JOB-ANNOUNCEMENT.pdf,Adjunct Faculty - Sustainability,Lecturer,Full-time,Department of Sustainability will be responsible for providing,Sustainability,,,

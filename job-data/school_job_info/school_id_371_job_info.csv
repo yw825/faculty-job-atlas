@@ -1,12 +1,12 @@
-school_id,posting_url,job_title_in_post,position_type,job_term,department_or_school,area_key_words,deadline_of_application,position_start_date
-371,https://chicagostate.peopleadmin.com/postings/17115,Assistant Professor of Doctoral Studies,Assistant_Professor,Part-time,,Doctoral Studies; quantitative research; Higher Education Administration,,
-371,https://chicagostate.peopleadmin.com/postings/16816,"Research &amp; Instruction Librarian, Science",Assistant_Professor,Part-time,,,,
-371,https://chicagostate.peopleadmin.com/postings/16785,Access Services Librarian,Assistant_Professor,Part-time,,,,
-371,https://chicagostate.peopleadmin.com/postings/16756,Assistant Professor - Pharmaceutics,Assistant_Professor,Part-time,school of pharmacy,Pharmaceutics,,
-371,https://chicagostate.peopleadmin.com/postings/16729,Tenure Track Faculty,Assistant_Professor,Part-time,,,,
-371,https://chicagostate.peopleadmin.com/postings/16621,Assistant Professor of Computer Science,Assistant_Professor,Part-time,"Department of Computing, Information and Mathematical Sciences, and Technology",Computer Science; Artificial Intelligence; Machine Learning,,
-371,https://chicagostate.peopleadmin.com/postings/16519,Assistant Professor of Art History,Assistant_Professor,Part-time,,Art History,03/23/2026,
-371,https://chicagostate.peopleadmin.com/postings/16143,Clinical Assistant Professor/ 12 Month,Assistant_Professor,Part-time,School of Pharmacy,,,
-371,https://chicagostate.peopleadmin.com/postings/15830,Part-Time Lecturer/Adjunct (Health Studies),Lecturer,Part-time,,Public Health,,
-371,https://chicagostate.peopleadmin.com/postings/15828,Lecturer (Part-time),Lecturer,Part-time,college of pharmacy,,12/31/2022,
-371,https://chicagostate.peopleadmin.com/postings/15824,Counseling Clinical Faculty,Lecturer,Part-time,,Counseling,01/17/2025,
+school_id,posting_url,job_title_in_post,position_type,job_term,department_or_school,area_key_words,deadline_of_application,position_start_date,posted_date
+371,https://chicagostate.peopleadmin.com/postings/17115,Assistant Professor of Doctoral Studies,Assistant_Professor,Part-time,,Doctoral Studies; quantitative research; Higher Education Administration,,,09/24/2026
+371,https://chicagostate.peopleadmin.com/postings/16816,"Research &amp; Instruction Librarian, Science",Unclassified,Part-time,,,,,06/03/2026
+371,https://chicagostate.peopleadmin.com/postings/16785,Access Services Librarian,Unclassified,Part-time,,,,,
+371,https://chicagostate.peopleadmin.com/postings/16756,Assistant Professor - Pharmaceutics,Assistant_Professor,Part-time,school of pharmacy,Pharmaceutics,,,05/06/2026
+371,https://chicagostate.peopleadmin.com/postings/16729,Tenure Track Faculty,Assistant_Professor; Associate_Professor; Full_Professor,Part-time,,,,,03/01/2026
+371,https://chicagostate.peopleadmin.com/postings/16621,Assistant Professor of Computer Science,Assistant_Professor,Part-time,"Department of Computing, Information and Mathematical Sciences, and Technology",Computer Science; Artificial Intelligence; Machine Learning,,,02/01/2026
+371,https://chicagostate.peopleadmin.com/postings/16519,Assistant Professor of Art History,Assistant_Professor,Part-time,,Art History,03/23/2026,,01/26/2026
+371,https://chicagostate.peopleadmin.com/postings/16143,Clinical Assistant Professor/ 12 Month,Lecturer,Part-time,School of Pharmacy,,,,06/24/2025
+371,https://chicagostate.peopleadmin.com/postings/15830,Part-Time Lecturer/Adjunct (Health Studies),Lecturer,Part-time,,Public Health,,,08/15/2023
+371,https://chicagostate.peopleadmin.com/postings/15828,Lecturer (Part-time),Lecturer,Part-time,college of pharmacy,,12/31/2022,,02/01/2023
+371,https://chicagostate.peopleadmin.com/postings/15824,Counseling Clinical Faculty,Lecturer,Part-time,,Counseling,01/17/2025,,10/01/2024

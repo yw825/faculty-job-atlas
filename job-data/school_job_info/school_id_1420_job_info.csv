@@ -1,42 +1,41 @@
-school_id,posting_url,job_title_in_post,position_type,job_term,department_or_school,area_key_words,deadline_of_application,position_start_date
-1420,https://employment.angelo.edu/postings/8208,Open Rank Social Work Faculty,Assistant_Professor; Associate_Professor; Full_Professor,Full-time,,Social Work,,"January 19, 2027"
-1420,https://employment.angelo.edu/postings/8207,Open Rank Social Work Faculty,Assistant_Professor; Associate_Professor; Full_Professor,Full-time,,Social Work,,"January 19, 2027"
-1420,https://employment.angelo.edu/postings/8198,Associate/Full Professor of Nursing &amp; Program Director,Associate_Professor; Full_Professor,Full-time,,baccalaureate,,
-1420,https://employment.angelo.edu/postings/8197,Department Chair (Political Science and Philosophy),Associate_Professor,Full-time,Department of Political Science and Philosophy,,01/15/2027,
-1420,https://employment.angelo.edu/postings/8180,Open Rank Professor of Exercise Science,Full_Professor,Full-time,Department of Kinesiology in the Archer College of Health and Human Services,Exercise Science; Kinesiology,,
-1420,https://employment.angelo.edu/postings/8179,Assistant Professor of Artificial Intelligence,Assistant_Professor,Full-time,Department of Computer Science,Artificial Intelligence; scholarly publication; externally funded; Computer Science,,
-1420,https://employment.angelo.edu/postings/8134,"Assistant Professor of Art, Video Game Art and Animation",Assistant_Professor,Full-time,Department of Visual and Performing Arts,"Art, Video Game Art and Animation",,
-1420,https://employment.angelo.edu/postings/8133,"Instructor of Art, Video Game Art and Animation",Unclassified,Full-time,Department of Visual and Performing Arts,"Art, Video Game Art and Animation",,
-1420,https://employment.angelo.edu/postings/8100,Assistant Professor of English,Assistant_Professor,Full-time,,English; Participating actively; Advising; advanced undergraduate courses,12/15/2026,
-1420,https://employment.angelo.edu/postings/8017,"Open Rank, Instructor or Tenure Track (Physics &amp; Geoscience)",Assistant_Professor; Associate_Professor; Full_Professor,Full-time,,Geosciences,,
-1420,https://employment.angelo.edu/postings/7840,Instructor of Exercise Science,Unclassified,Full-time,Department of Kinesiology invites applications for an Instructor of Exercise Science position,Exercise Science; Foundations of Kinesiology Principles of,,
-1420,https://employment.angelo.edu/postings/7811,Adjunct (Cybersecurity),Unclassified,Full-time,Department of Computer Science,Cybersecurity,,
-1420,https://employment.angelo.edu/postings/7808,Clinical Instructor of Anatomy &amp; Physiology,Unclassified,Full-time,Department of Health Science Professions,Health Science Professions,,
-1420,https://employment.angelo.edu/postings/7804,Assistant Professor of Latin American History,Assistant_Professor,Full-time,Department of History,Latin American History; Mexican,09/15/2026,
-1420,https://employment.angelo.edu/postings/7676,Instructor of Commercial Aviation / Air Traffic Operations,Unclassified,Full-time,,Commercial Aviation / Air Traffic Operations,,
-1420,https://employment.angelo.edu/postings/7567,Adjunct Instructor of Philosophy,Unclassified,Full-time,,Philosophy,,
-1420,https://employment.angelo.edu/postings/7526,"Open Rank, Tenure or Clinical Professor",Full_Professor,Full-time,,Doctor of Physical Therapy curriculum,,
-1420,https://employment.angelo.edu/postings/7524,Adjunct of Bassoon and Oboe,Unclassified,Full-time,Department of Visual and Performing Arts,Bassoon and Oboe; Woodwind Methods,,
-1420,https://employment.angelo.edu/postings/7523,Adjunct Instructor of Political Science,Unclassified,Full-time,,Political Science,,
-1420,https://employment.angelo.edu/postings/7522,Adjunct (Visual &amp; Performing Arts),Unclassified,Full-time,,,,
-1420,https://employment.angelo.edu/postings/7521,Adjunct (Teacher Education),Unclassified,Full-time,"Department of Teacher Education, which also determines the number and types of courses",Department of Teacher Education,,
-1420,https://employment.angelo.edu/postings/7520,Adjunct (Sociology),Unclassified,Full-time,,,,
-1420,https://employment.angelo.edu/postings/7519,Adjunct (Social Work),Unclassified,Full-time,,,,
-1420,https://employment.angelo.edu/postings/7518,Adjunct (Security Studies and Criminal Justice),Unclassified,Full-time,,,,
-1420,https://employment.angelo.edu/postings/7517,Adjunct (Psychology),Unclassified,Full-time,,,,
-1420,https://employment.angelo.edu/postings/7516,Adjunct (Physics &amp; Geosciences),Unclassified,Full-time,,,,
-1420,https://employment.angelo.edu/postings/7515,Adjunct (Physical Therapy),Unclassified,Full-time,,,,
-1420,https://employment.angelo.edu/postings/7514,Adjunct (Nursing),Unclassified,Full-time,,,,
-1420,https://employment.angelo.edu/postings/7513,Adjunct (Modern Languages),Unclassified,Full-time,,,,
-1420,https://employment.angelo.edu/postings/7512,Adjunct (Mass Media),Unclassified,Full-time,Department of Communication and Mass Media is developing a pool of potential adjuncts,department curriculum such,,
-1420,https://employment.angelo.edu/postings/7511,Adjunct (Management &amp; Marketing),Unclassified,Full-time,,,,
-1420,https://employment.angelo.edu/postings/7510,Adjunct (Kinesiology),Unclassified,Full-time,,,,
-1420,https://employment.angelo.edu/postings/7509,Adjunct (History),Unclassified,Full-time,,,,
-1420,https://employment.angelo.edu/postings/7508,Adjunct (Health Science Professions),Unclassified,Full-time,,,,
-1420,https://employment.angelo.edu/postings/7507,Adjunct (English),Unclassified,Full-time,,,,
-1420,https://employment.angelo.edu/postings/7506,Adjunct (Engineering),Unclassified,Full-time,,,,
-1420,https://employment.angelo.edu/postings/7503,Adjunct (Communication),Unclassified,Full-time,,,,
-1420,https://employment.angelo.edu/postings/7502,Adjunct (Communication),Unclassified,Full-time,,audio production courses,,
-1420,https://employment.angelo.edu/postings/7501,Adjunct (Biology),Unclassified,Full-time,,,,
-1420,https://employment.angelo.edu/postings/7500,"Adjunct (Accounting, Economics &amp; Finance)",Unclassified,Full-time,,Economics &amp; Finance,,
-1420,https://employment.angelo.edu/postings/7499,Adjunct in Business Computer Information Systems,Unclassified,Full-time,,Business Computer Information Systems,,
+school_id,posting_url,job_title_in_post,position_type,job_term,department_or_school,area_key_words,deadline_of_application,position_start_date,posted_date
+1420,https://employment.angelo.edu/postings/8208,Open Rank Social Work Faculty,Assistant_Professor; Associate_Professor; Full_Professor,Full-time,,Social Work,,"January 19, 2027",10/16/2026
+1420,https://employment.angelo.edu/postings/8207,Open Rank Social Work Faculty,Assistant_Professor; Associate_Professor; Full_Professor,Full-time,,Social Work,,"January 19, 2027",10/16/2026
+1420,https://employment.angelo.edu/postings/8198,Associate/Full Professor of Nursing &amp; Program Director,Associate_Professor; Full_Professor,Full-time,,baccalaureate,,,10/14/2026
+1420,https://employment.angelo.edu/postings/8197,Department Chair (Political Science and Philosophy),Full_Professor,Full-time,Department of Political Science and Philosophy,,01/15/2027,,10/14/2026
+1420,https://employment.angelo.edu/postings/8180,Open Rank Professor of Exercise Science,Assistant_Professor; Associate_Professor; Full_Professor,Full-time,Department of Kinesiology in the Archer College of Health and Human Services,Exercise Science; Kinesiology,,,10/08/2026
+1420,https://employment.angelo.edu/postings/8179,Assistant Professor of Artificial Intelligence,Assistant_Professor,Full-time,Department of Computer Science,Artificial Intelligence; scholarly publication; externally funded; Computer Science,11/06/2026,,09/09/2026
+1420,https://employment.angelo.edu/postings/8134,"Assistant Professor of Art, Video Game Art and Animation",Assistant_Professor,Full-time,Department of Visual and Performing Arts,"Art, Video Game Art and Animation",10/19/2026,,09/18/2026
+1420,https://employment.angelo.edu/postings/8133,"Instructor of Art, Video Game Art and Animation",Lecturer,Full-time,Department of Visual and Performing Arts,"Art, Video Game Art and Animation",,,09/18/2026
+1420,https://employment.angelo.edu/postings/8100,Assistant Professor of English,Assistant_Professor,Full-time,,English; Participating actively; Advising; advanced undergraduate courses,12/15/2026,,09/08/2026
+1420,https://employment.angelo.edu/postings/8017,"Open Rank, Instructor or Tenure Track (Physics &amp; Geoscience)",Assistant_Professor; Associate_Professor; Full_Professor,Full-time,,Geosciences,10/02/2026,,08/14/2026
+1420,https://employment.angelo.edu/postings/7840,Instructor of Exercise Science,Lecturer,Full-time,Department of Kinesiology invites applications for an Instructor of Exercise Science position,Exercise Science; Foundations of Kinesiology Principles of,,,06/25/2026
+1420,https://employment.angelo.edu/postings/7811,Adjunct (Cybersecurity),Lecturer,Full-time,Department of Computer Science,Cybersecurity,,,06/15/2026
+1420,https://employment.angelo.edu/postings/7808,Clinical Instructor of Anatomy &amp; Physiology,Lecturer,Full-time,Department of Health Science Professions,Health Science Professions,,,06/15/2026
+1420,https://employment.angelo.edu/postings/7804,Assistant Professor of Latin American History,Assistant_Professor,Full-time,Department of History,Latin American History; Mexican,09/15/2026,,06/11/2026
+1420,https://employment.angelo.edu/postings/7676,Instructor of Commercial Aviation / Air Traffic Operations,Lecturer,Full-time,,Commercial Aviation / Air Traffic Operations,,,04/23/2026
+1420,https://employment.angelo.edu/postings/7567,Adjunct Instructor of Philosophy,Lecturer,Full-time,,Philosophy,,,03/09/2026
+1420,https://employment.angelo.edu/postings/7524,Adjunct of Bassoon and Oboe,Lecturer,Full-time,Department of Visual and Performing Arts,Bassoon and Oboe; Woodwind Methods,,,07/01/2024
+1420,https://employment.angelo.edu/postings/7523,Adjunct Instructor of Political Science,Lecturer,Full-time,,Political Science,,,09/16/2025
+1420,https://employment.angelo.edu/postings/7522,Adjunct (Visual &amp; Performing Arts),Lecturer,Full-time,,,,,02/23/2018
+1420,https://employment.angelo.edu/postings/7521,Adjunct (Teacher Education),Lecturer,Full-time,"Department of Teacher Education, which also determines the number and types of courses",Department of Teacher Education,,,12/20/2017
+1420,https://employment.angelo.edu/postings/7520,Adjunct (Sociology),Lecturer,Full-time,,,,,07/08/2021
+1420,https://employment.angelo.edu/postings/7519,Adjunct (Social Work),Lecturer,Full-time,,,,,08/01/2018
+1420,https://employment.angelo.edu/postings/7518,Adjunct (Security Studies and Criminal Justice),Lecturer,Full-time,,,,,08/22/2017
+1420,https://employment.angelo.edu/postings/7517,Adjunct (Psychology),Lecturer,Full-time,,,,,10/29/2019
+1420,https://employment.angelo.edu/postings/7516,Adjunct (Physics &amp; Geosciences),Lecturer,Full-time,,,,,10/13/2017
+1420,https://employment.angelo.edu/postings/7515,Adjunct (Physical Therapy),Lecturer,Full-time,,,,,07/30/2020
+1420,https://employment.angelo.edu/postings/7514,Adjunct (Nursing),Lecturer,Full-time,,,,,10/25/2017
+1420,https://employment.angelo.edu/postings/7513,Adjunct (Modern Languages),Lecturer,Full-time,,,,,08/06/2021
+1420,https://employment.angelo.edu/postings/7512,Adjunct (Mass Media),Lecturer,Full-time,Department of Communication and Mass Media is developing a pool of potential adjuncts,department curriculum such,,,03/24/2022
+1420,https://employment.angelo.edu/postings/7511,Adjunct (Management &amp; Marketing),Lecturer,Full-time,,,,,02/19/2024
+1420,https://employment.angelo.edu/postings/7510,Adjunct (Kinesiology),Lecturer,Full-time,,,,,02/27/2024
+1420,https://employment.angelo.edu/postings/7509,Adjunct (History),Lecturer,Full-time,,,,,08/07/2019
+1420,https://employment.angelo.edu/postings/7508,Adjunct (Health Science Professions),Lecturer,Full-time,,,,,05/03/2024
+1420,https://employment.angelo.edu/postings/7507,Adjunct (English),Lecturer,Full-time,,,,,06/19/2024
+1420,https://employment.angelo.edu/postings/7506,Adjunct (Engineering),Lecturer,Full-time,,,,,01/16/2024
+1420,https://employment.angelo.edu/postings/7503,Adjunct (Communication),Lecturer,Full-time,,,,,05/18/2022
+1420,https://employment.angelo.edu/postings/7502,Adjunct (Communication),Lecturer,Full-time,,audio production courses,,,04/12/2023
+1420,https://employment.angelo.edu/postings/7501,Adjunct (Biology),Lecturer,Full-time,,,,,11/27/2017
+1420,https://employment.angelo.edu/postings/7500,"Adjunct (Accounting, Economics &amp; Finance)",Lecturer,Full-time,,Economics &amp; Finance,,,11/02/2023
+1420,https://employment.angelo.edu/postings/7499,Adjunct in Business Computer Information Systems,Lecturer,Full-time,,Business Computer Information Systems,,,07/24/2024

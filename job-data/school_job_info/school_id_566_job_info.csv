@@ -1,13 +1,13 @@
-school_id,posting_url,job_title_in_post,position_type,job_term,department_or_school,area_key_words,deadline_of_application,position_start_date
-566,https://jobs.wheatoncollege.edu/postings/4957,Affiliated Instructor,Unclassified,Part-time,,Affiliated,,"June 1, 2023"
-566,https://jobs.wheatoncollege.edu/postings/4956,Professor of the Practice,Full_Professor,Full-time,,Environmental Chemistry,,"June 1, 2023"
-566,https://jobs.wheatoncollege.edu/postings/4949,"Professor of Practice, Film and New Media Studies",Full_Professor,Full-time,"Department of Film, Media, and Communications","Practice, Film and New Media Studies; Media Production",,"June 1, 2023"
-566,https://jobs.wheatoncollege.edu/postings/4944,Professor of the Practice,Full_Professor,Full-time,,Human Anatomy,,"June 1, 2023"
-566,https://jobs.wheatoncollege.edu/postings/4943,Professor of the Practice,Full_Professor,Full-time,,Microbiology,,"June 1, 2023"
-566,https://jobs.wheatoncollege.edu/postings/4942,"Professor of Practice, Digital Media and Communication",Full_Professor,Full-time,,"Practice, Digital Media and Communication",,"June 1, 2023"
-566,https://jobs.wheatoncollege.edu/postings/4921,Practicum Program Supervisor (Elementary/Early Childhood),Non-academic,Part-time,,classified English Learners Possess a,,"June 1, 2023"
-566,https://jobs.wheatoncollege.edu/postings/4916,Visiting Assistant Professor,Assistant_Professor,Full-time,,Python geared towards bioscience majors,,"June 1, 2023"
-566,https://jobs.wheatoncollege.edu/postings/4862,"Affiliated Faculty, Psychology and Neuroscience",Unclassified,Part-time,,Affiliated; Neuroscience,,"June 1, 2023"
-566,https://jobs.wheatoncollege.edu/postings/4814,Pediatrics Clinical Affiliated Instructor,Non-academic,Part-time,,Pediatrics Clinical Affiliated,,"June 1, 2023"
-566,https://jobs.wheatoncollege.edu/postings/4791,Affiliated Faculty: Criminal Justice,Unclassified,Part-time,,Affiliated,,"June 1, 2023"
-566,https://jobs.wheatoncollege.edu/postings/4765,"Medical Surgical Clinical Instructor, Affiliate position",Non-academic,Part-time,,Medical Surgical,,"June 1, 2023"
+school_id,posting_url,job_title_in_post,position_type,job_term,department_or_school,area_key_words,deadline_of_application,position_start_date,posted_date
+566,https://jobs.wheatoncollege.edu/postings/4957,Affiliated Instructor,Lecturer,Part-time,,Affiliated,,"June 1, 2023",10/09/2026
+566,https://jobs.wheatoncollege.edu/postings/4956,Professor of the Practice,Lecturer,Full-time,,Environmental Chemistry,,"June 1, 2023",
+566,https://jobs.wheatoncollege.edu/postings/4949,"Professor of Practice, Film and New Media Studies",Lecturer,Full-time,"Department of Film, Media, and Communications","Practice, Film and New Media Studies; Media Production",,"June 1, 2023",10/05/2026
+566,https://jobs.wheatoncollege.edu/postings/4944,Professor of the Practice,Lecturer,Full-time,,Human Anatomy,,"June 1, 2023",10/05/2026
+566,https://jobs.wheatoncollege.edu/postings/4943,Professor of the Practice,Lecturer,Full-time,,Microbiology,,"June 1, 2023",10/05/2026
+566,https://jobs.wheatoncollege.edu/postings/4942,"Professor of Practice, Digital Media and Communication",Lecturer,Full-time,,"Practice, Digital Media and Communication",,"June 1, 2023",10/05/2026
+566,https://jobs.wheatoncollege.edu/postings/4921,Practicum Program Supervisor (Elementary/Early Childhood),Unclassified,Part-time,,classified English Learners Possess a,,"June 1, 2023",09/17/2026
+566,https://jobs.wheatoncollege.edu/postings/4916,Visiting Assistant Professor,Lecturer,Full-time,,Python geared towards bioscience majors,,"June 1, 2023",09/11/2026
+566,https://jobs.wheatoncollege.edu/postings/4862,"Affiliated Faculty, Psychology and Neuroscience",Assistant_Professor; Associate_Professor; Full_Professor,Part-time,,Affiliated; Neuroscience,,"June 1, 2023",07/24/2026
+566,https://jobs.wheatoncollege.edu/postings/4814,Pediatrics Clinical Affiliated Instructor,Lecturer,Part-time,,Pediatrics Clinical Affiliated,,"June 1, 2023",05/08/2026
+566,https://jobs.wheatoncollege.edu/postings/4791,Affiliated Faculty: Criminal Justice,Assistant_Professor; Associate_Professor; Full_Professor,Part-time,,Affiliated,,"June 1, 2023",04/08/2026
+566,https://jobs.wheatoncollege.edu/postings/4765,"Medical Surgical Clinical Instructor, Affiliate position",Lecturer,Part-time,,Medical Surgical,,"June 1, 2023",02/12/2026

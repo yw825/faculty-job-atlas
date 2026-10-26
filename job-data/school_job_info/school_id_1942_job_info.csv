@@ -1,28 +1,23 @@
-school_id,posting_url,job_title_in_post,position_type,job_term,department_or_school,area_key_words,deadline_of_application,position_start_date
-1942,https://jobs.nccu.edu/postings/38535,"Clinical Instructor – Entrepreneurship / Executive Director, Center for Entrepreneurship and Economic Development (CEED)",Unclassified,Full-time,Center for Entrepreneurship and Economic Development,Center for Entrepreneurship and Economic Development; administration of innovative,07/01/2027,
-1942,https://jobs.nccu.edu/postings/38527,Clinical Instructor - Real Estate / Director of Real Estate Studies,Unclassified,Full-time,School of Business,Real Estate / Director of Real Estate Studies; assessment activities,07/01/2027,
-1942,https://jobs.nccu.edu/postings/38523,Director of Law Library,Unclassified,Full-time,,Law Library; particular field of knowledge; electronic media,07/01/2027,
-1942,https://jobs.nccu.edu/postings/38522,Clinical Professor,Full_Professor,Part-time,,particular field of knowledge; electronic media,07/01/2027,
-1942,https://jobs.nccu.edu/postings/38511,Professor/Chair,Full_Professor,Full-time,"College of Arts, Social Sciences and Humanities is where culture and intellect meet",,01/01/2027,
-1942,https://jobs.nccu.edu/postings/38505,Adjunct (SPAN),Unclassified,Full-time,Department of Language and Literature,Elementary Spanish,12/18/2026,
-1942,https://jobs.nccu.edu/postings/38504,Adjunct (HUM),Unclassified,Full-time,,Arts,12/18/2026,
-1942,https://jobs.nccu.edu/postings/38446,Assistant Professor - Decision Sciences,Assistant_Professor,Full-time,School of Business,Decision Sciences,07/01/2027,
-1942,https://jobs.nccu.edu/postings/38411,Assistant/Associate Professor,Assistant_Professor; Associate_Professor,Part-time,,particular field of knowledge; electronic media,07/01/2027,
-1942,https://jobs.nccu.edu/postings/38388,Assist/Associate Professor,Associate_Professor,Part-time,,Assist/Associate; particular field of knowledge; electronic media,07/01/2027,
-1942,https://jobs.nccu.edu/postings/38320,Director of Legal Writing,Unclassified,Full-time,School of Law was founded to provide opportunities for African Americans to become lawyers,Legal Writing; particular field of knowledge; electronic media; Law program,07/01/2027,
-1942,https://jobs.nccu.edu/postings/38317,Assistant Professor,Assistant_Professor,Full-time,Department of Curriculum and Instruction in the School of Education,special education program,01/04/2027,
-1942,https://jobs.nccu.edu/postings/38273,Clinical Professor of Public Administration,Full_Professor,Full-time,Department of Public Administration,Public Administration; online formats Function Research Describe,01/01/2027,
-1942,https://jobs.nccu.edu/postings/38272,Associate Professor,Associate_Professor,Full-time,Department of Psychology,clinical concentration of the graduate,01/01/2027,
-1942,https://jobs.nccu.edu/postings/38226,Assistant/Associate/Full Professor,Assistant_Professor; Associate_Professor; Full_Professor,Part-time,,particular field of knowledge; electronic media,07/01/2027,
-1942,https://jobs.nccu.edu/postings/38225,Assist/Associate/Full Professor,Associate_Professor; Full_Professor,Part-time,,Assist/Associate/Full; particular field of knowledge; electronic media,07/01/2027,
-1942,https://jobs.nccu.edu/postings/38223,Assistant/Associate/Full Professor,Assistant_Professor; Associate_Professor; Full_Professor,Part-time,,particular field of knowledge; electronic media,07/01/2027,
-1942,https://jobs.nccu.edu/postings/38164,Collaborative Pianist,Unclassified,Full-time,Department of Music faculty,,09/15/2026,
-1942,https://jobs.nccu.edu/postings/38162,Clinical Assistant Professor,Assistant_Professor,Full-time,,,07/01/2026,
-1942,https://jobs.nccu.edu/postings/38083,Lecturer of English,Lecturer,Full-time,Department of Language and Literature,English; Digital Humanities; Service Learning; instructor’s areas of expertise,12/12/2026,
-1942,https://jobs.nccu.edu/postings/37317,Clinical Instructor - Accounting,Unclassified,Full-time,School of Business,Accounting; Management,07/01/2026,
-1942,https://jobs.nccu.edu/postings/36988,Assistant/Associate Professor - Accounting,Assistant_Professor; Associate_Professor,Full-time,School of Business,Accounting,08/01/2026,
-1942,https://jobs.nccu.edu/postings/36601,Clinical Assistant Professor,Assistant_Professor,Full-time,Department of Communication Sciences and Disorders,,07/01/2026,
-1942,https://jobs.nccu.edu/postings/36530,Director of JLC-BBRI/Professor,Full_Professor,Full-time,Division of Research and Economic Development,JLC-BBRI/Professor; Institute interest noted; biomedical causes,01/01/2026,
-1942,https://jobs.nccu.edu/postings/34944,Clinical Assistant Professor,Assistant_Professor,Full-time,,,07/01/2026,
-1942,https://jobs.nccu.edu/postings/34935,Assistant/Associate Professor,Assistant_Professor; Associate_Professor,Full-time,,biological chemistry The successful candidate; molecular biology; biomedical sciences,07/01/2026,
-1942,https://jobs.nccu.edu/postings/34925,Professor,Full_Professor,Full-time,College of Health and Sciences is where cultural and intellectual diversity meet,,07/01/2026,
+school_id,posting_url,job_title_in_post,position_type,job_term,department_or_school,area_key_words,deadline_of_application,position_start_date,posted_date
+1942,https://jobs.nccu.edu/postings/38535,"Clinical Instructor – Entrepreneurship / Executive Director, Center for Entrepreneurship and Economic Development (CEED)",Lecturer,Full-time,Center for Entrepreneurship and Economic Development,Center for Entrepreneurship and Economic Development; administration of innovative,07/01/2027,,10/07/2026
+1942,https://jobs.nccu.edu/postings/38523,Director of Law Library,Unclassified,Full-time,,Law Library; particular field of knowledge; electronic media,07/01/2027,,10/01/2026
+1942,https://jobs.nccu.edu/postings/38522,Clinical Professor,Lecturer,Part-time,,particular field of knowledge; electronic media,07/01/2027,,10/03/2026
+1942,https://jobs.nccu.edu/postings/38511,Professor/Chair,Full_Professor,Full-time,"College of Arts, Social Sciences and Humanities is where culture and intellect meet",,01/01/2027,,09/23/2026
+1942,https://jobs.nccu.edu/postings/38505,Adjunct (SPAN),Lecturer,Full-time,Department of Language and Literature,Elementary Spanish,12/18/2026,,10/11/2026
+1942,https://jobs.nccu.edu/postings/38504,Adjunct (HUM),Lecturer,Full-time,,Arts,12/18/2026,,10/11/2026
+1942,https://jobs.nccu.edu/postings/38411,Assistant/Associate Professor,Assistant_Professor; Associate_Professor,Part-time,,particular field of knowledge; electronic media,07/01/2027,,10/03/2026
+1942,https://jobs.nccu.edu/postings/38388,Assist/Associate Professor,Associate_Professor,Part-time,,Assist/Associate; particular field of knowledge; electronic media,07/01/2027,,10/01/2026
+1942,https://jobs.nccu.edu/postings/38320,Director of Legal Writing,Unclassified,Full-time,School of Law was founded to provide opportunities for African Americans to become lawyers,Legal Writing; particular field of knowledge; electronic media; Law program,07/01/2027,,09/17/2026
+1942,https://jobs.nccu.edu/postings/38272,Associate Professor,Associate_Professor,Full-time,Department of Psychology,clinical concentration of the graduate,01/01/2027,,09/23/2026
+1942,https://jobs.nccu.edu/postings/38226,Assistant/Associate/Full Professor,Assistant_Professor; Associate_Professor; Full_Professor,Part-time,,particular field of knowledge; electronic media,07/01/2027,,09/17/2026
+1942,https://jobs.nccu.edu/postings/38225,Assist/Associate/Full Professor,Associate_Professor; Full_Professor,Part-time,,Assist/Associate/Full; particular field of knowledge; electronic media,07/01/2027,,09/17/2026
+1942,https://jobs.nccu.edu/postings/38223,Assistant/Associate/Full Professor,Assistant_Professor; Associate_Professor; Full_Professor,Part-time,,particular field of knowledge; electronic media,07/01/2027,,09/17/2026
+1942,https://jobs.nccu.edu/postings/38164,Collaborative Pianist,Unclassified,Full-time,Department of Music faculty,,09/15/2026,,08/12/2026
+1942,https://jobs.nccu.edu/postings/38162,Clinical Assistant Professor,Lecturer,Full-time,,,07/01/2026,,09/15/2026
+1942,https://jobs.nccu.edu/postings/37317,Clinical Instructor - Accounting,Lecturer,Full-time,School of Business,Accounting; Management,07/01/2026,,06/19/2025
+1942,https://jobs.nccu.edu/postings/36988,Assistant/Associate Professor - Accounting,Assistant_Professor; Associate_Professor,Full-time,School of Business,Accounting,08/01/2026,,06/02/2026
+1942,https://jobs.nccu.edu/postings/36601,Clinical Assistant Professor,Lecturer,Full-time,Department of Communication Sciences and Disorders,,07/01/2026,,04/23/2026
+1942,https://jobs.nccu.edu/postings/36530,Director of JLC-BBRI/Professor,Full_Professor,Full-time,Division of Research and Economic Development,JLC-BBRI/Professor; Institute interest noted; biomedical causes,01/01/2026,,01/20/2026
+1942,https://jobs.nccu.edu/postings/34944,Clinical Assistant Professor,Lecturer,Full-time,,,07/01/2026,,03/25/2025
+1942,https://jobs.nccu.edu/postings/34935,Assistant/Associate Professor,Assistant_Professor; Associate_Professor,Full-time,,biological chemistry The successful candidate; molecular biology; biomedical sciences,07/01/2026,,03/21/2025
+1942,https://jobs.nccu.edu/postings/34925,Professor,Full_Professor,Full-time,College of Health and Sciences is where cultural and intellectual diversity meet,,07/01/2026,,08/29/2024

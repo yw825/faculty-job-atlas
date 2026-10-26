@@ -1,11 +1,11 @@
-school_id,posting_url,job_title_in_post,position_type,job_term,department_or_school,area_key_words,deadline_of_application,position_start_date
-1319,https://yourfuture.sdbor.edu/postings/50048,"Clinical Faculty, Nursing (QE9756)",Assistant_Professor; Associate_Professor; Full_Professor,Full-time,Department of Nursing,Nursing; direct patient care,11/08/2026,
-1319,https://yourfuture.sdbor.edu/postings/50014,"Assistant Professor, Biology",Assistant_Professor,Full-time,Department of Biology,Biology; candidate’s area of expertise,"November 6, 2026",
-1319,https://yourfuture.sdbor.edu/postings/50006,Assistant or Associate Professor of Audiology,Assistant_Professor; Associate_Professor,Full-time,Department of Communication Sciences and Disorders,Audiology; your area of,11/06/2026,
-1319,https://yourfuture.sdbor.edu/postings/49933,"Faculty, QE9008 (Pharmacology)",Assistant_Professor,Full-time,Division of Biomedical and Translational Sciences,QE9008; Pharmacology,10/31/2026,
-1319,https://yourfuture.sdbor.edu/postings/49868,Accounting Assistant Professor or Assistant Professor of Practice,Assistant_Professor,Full-time,School of Business Physical Location of Position,Practice; accounting,10/18/2026,
-1319,https://yourfuture.sdbor.edu/postings/49475,Clinical Instructor of Dental Hygiene,Unclassified,Full-time,School of Health Sciences in the state and is a leader in interprofessional education,Dental Hygiene,09/20/2026,
-1319,https://yourfuture.sdbor.edu/postings/49259,"Faculty, QE9811 (Physiology)",Assistant_Professor,Full-time,Division of Biomedical and Translational Sciences,QE9811; Human Medical Physiology,"September 7, 2026",
-1319,https://yourfuture.sdbor.edu/postings/48346,Research Assistant Professor - Chemistry,Assistant_Professor,Full-time,Department of the University of South Dakota,Chemistry,04/27/2026,
-1319,https://yourfuture.sdbor.edu/postings/47678,Assistant Professor QE9855,Assistant_Professor,Full-time,Division of Biomedical and Translational Sciences,Systems Physiology,05/09/2026,
-1319,https://yourfuture.sdbor.edu/postings/25548,Adjunct Instructor,Non-academic,Part-time,,Educational Psychology; Human Development,08/04/2021,
+school_id,posting_url,job_title_in_post,position_type,job_term,department_or_school,area_key_words,deadline_of_application,position_start_date,posted_date
+1319,https://yourfuture.sdbor.edu/postings/50048,"Clinical Faculty, Nursing (QE9756)",Lecturer,Full-time,Department of Nursing,Nursing; direct patient care,11/08/2026,,10/08/2026
+1319,https://yourfuture.sdbor.edu/postings/50014,"Assistant Professor, Biology",Assistant_Professor,Full-time,Department of Biology,Biology; candidate’s area of expertise,11/06/2026,,10/06/2026
+1319,https://yourfuture.sdbor.edu/postings/50006,Assistant or Associate Professor of Audiology,Associate_Professor,Full-time,Department of Communication Sciences and Disorders,Audiology; your area of,11/06/2026,,10/06/2026
+1319,https://yourfuture.sdbor.edu/postings/49933,"Faculty, QE9008 (Pharmacology)",Assistant_Professor; Associate_Professor; Full_Professor,Full-time,Division of Biomedical and Translational Sciences,QE9008; Pharmacology,10/31/2026,,09/30/2026
+1319,https://yourfuture.sdbor.edu/postings/49868,Accounting Assistant Professor or Assistant Professor of Practice,Assistant_Professor; Lecturer,Full-time,School of Business Physical Location of Position,Practice; accounting,10/18/2026,,09/18/2026
+1319,https://yourfuture.sdbor.edu/postings/49475,Clinical Instructor of Dental Hygiene,Lecturer,Full-time,School of Health Sciences in the state and is a leader in interprofessional education,Dental Hygiene,09/20/2026,,08/19/2026
+1319,https://yourfuture.sdbor.edu/postings/49259,"Faculty, QE9811 (Physiology)",Assistant_Professor; Associate_Professor; Full_Professor,Full-time,Division of Biomedical and Translational Sciences,QE9811; Human Medical Physiology,09/07/2026,,08/04/2026
+1319,https://yourfuture.sdbor.edu/postings/48346,Research Assistant Professor - Chemistry,Research_Fellow,Full-time,Department of the University of South Dakota,Chemistry,04/27/2026,,03/23/2026
+1319,https://yourfuture.sdbor.edu/postings/47678,Assistant Professor QE9855,Assistant_Professor,Full-time,Division of Biomedical and Translational Sciences,Systems Physiology,05/09/2026,,04/08/2026
+1319,https://yourfuture.sdbor.edu/postings/25548,Adjunct Instructor,Lecturer,Part-time,,Educational Psychology; Human Development,08/04/2021,,08/03/2021

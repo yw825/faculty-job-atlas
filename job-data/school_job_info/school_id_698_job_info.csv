@@ -1,17 +1,8 @@
-school_id,posting_url,job_title_in_post,position_type,job_term,department_or_school,area_key_words,deadline_of_application,position_start_date
-698,https://gustavus.edu/employment/job/2434,Instructor of the Practice (Finance) - Part Time - Business and Economics,Assistant_Professor,Part-time,Center for Faculty Development and Diversity,Business and Economics; Managerial Finance,"September 15, 2026","January 1, 2027"
-698,https://gustavus.edu/employment/job/2451,Visiting Instructor (Economics) - Part Time - Business and Economics,Assistant_Professor,Part-time,Center for Faculty Development and Diversity,Business and Economics,,
-698,https://gustavus.edu/employment/job/2420,"Assistant Professor (GIS and Global Health) - Environment, Geography, and Earth Sciences",Assistant_Professor,Full-time,Center for Faculty Development and Diversity,GIS Ability; health geography Active research agenda; global health Evidence of a,"September 14, 2026","August 15, 2027"
-698,https://gustavus.edu/employment/job/2419,"Assistant Professor (Statistics) - Mathematics, Computer Science, and Statistics",Assistant_Professor,Full-time,Center for Faculty Development and Diversity,Evidence of a commitment,"September 25, 2026","August 15, 2027"
-698,https://gustavus.edu/employment/job/2392,Assistant Professor (Specialty Open) - Nursing,Assistant_Professor,Full-time,Department of Nursing,Nursing; Proficiency,"August 15, 2026","January 1, 2027"
-698,https://gustavus.edu/employment/job/2444,Assistant Professor (Experimental Physics) - Physics,Assistant_Professor,Full-time,Center for Faculty Development and Diversity,Physics,"October 12, 2026","August 15, 2027"
-698,https://gustavus.edu/employment/job/2432,Assistant Professor (Acting and Directing) - Theatre and Dance,Assistant_Professor,Full-time,Center for Faculty Development and Diversity,Theatre and Dance,"September 11, 2026","August 15, 2027"
-698,https://gustavus.edu/employment/job/2448,Assistant Director of Donor Relations - Advancement,Unclassified,Full-time,,Donor Relations,,
-698,https://gustavus.edu/employment/job/2352,Custodian - Custodial and Support Services,Unclassified,Full-time,,,,
-698,https://gustavus.edu/employment/job/2445,Associate Dean of Students - Dean of Students,Non-academic,Full-time,,Students,"October 15, 2026",
-698,https://gustavus.edu/employment/job/2409,Market Place Supervisor - Dining Service,Unclassified,Part-time,,,,
-698,https://gustavus.edu/employment/job/2446,Operating Engineer - Facilities,Unclassified,Full-time,,,,
-698,https://gustavus.edu/employment/job/2452,Financial Planning and Analysis Manager - Finance,Non-academic,Full-time,,,,
-698,https://gustavus.edu/employment/job/2429,Creative Director & Senior Designer - Marketing & Communication,Unclassified,Full-time,,,,
-698,https://gustavus.edu/employment/job/2447,Senior Director of Marketing - Marketing & Communication,Unclassified,Full-time,,Marketing,,
-698,https://gustavus.edu/employment/job/2449,"Academic Administrative Assistant - Physics, MCS, HES, and Sports Management",Unclassified,Full-time,Department of Health & Exercise Science and the Sport Management Program in the Lund Center,Technology Services,,
+school_id,posting_url,job_title_in_post,position_type,job_term,department_or_school,area_key_words,deadline_of_application,position_start_date,posted_date
+698,https://gustavus.edu/employment/job/2434,Instructor of the Practice (Finance) - Part Time - Business and Economics,Lecturer,Part-time,Center for Faculty Development and Diversity,Business and Economics; Managerial Finance,"September 15, 2026","January 1, 2027","Aug 18, 2026"
+698,https://gustavus.edu/employment/job/2451,Visiting Instructor (Economics) - Part Time - Business and Economics,Lecturer,Part-time,Center for Faculty Development and Diversity,Business and Economics,,,"Oct 1, 2026"
+698,https://gustavus.edu/employment/job/2420,"Assistant Professor (GIS and Global Health) - Environment, Geography, and Earth Sciences",Assistant_Professor,Full-time,Center for Faculty Development and Diversity,GIS Ability; health geography Active research agenda; global health Evidence of a,"September 14, 2026","August 15, 2027","Jun 29, 2026"
+698,https://gustavus.edu/employment/job/2419,"Assistant Professor (Statistics) - Mathematics, Computer Science, and Statistics",Assistant_Professor,Full-time,Center for Faculty Development and Diversity,Evidence of a commitment,"September 25, 2026","August 15, 2027","Jun 29, 2026"
+698,https://gustavus.edu/employment/job/2392,Assistant Professor (Specialty Open) - Nursing,Assistant_Professor,Full-time,Department of Nursing,Nursing; Proficiency,"August 15, 2026","January 1, 2027","May 20, 2026"
+698,https://gustavus.edu/employment/job/2444,Assistant Professor (Experimental Physics) - Physics,Assistant_Professor,Full-time,Center for Faculty Development and Diversity,Physics,"October 12, 2026","August 15, 2027","Sept. 14, 2026"
+698,https://gustavus.edu/employment/job/2432,Assistant Professor (Acting and Directing) - Theatre and Dance,Assistant_Professor,Full-time,Center for Faculty Development and Diversity,Theatre and Dance,"September 11, 2026","August 15, 2027","Aug 7, 2026"

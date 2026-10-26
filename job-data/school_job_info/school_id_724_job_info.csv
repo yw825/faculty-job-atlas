@@ -1,11 +1,9 @@
-school_id,posting_url,job_title_in_post,position_type,job_term,department_or_school,area_key_words,deadline_of_application,position_start_date
-724,https://park.wd1.myworkdayjobs.com/ParkUniversityCareers/job/Camp-Pendleton-Campus-Center/Enrollment-Services-Director-I---CA_JR100606,Enrollment Services Director I - CA,Unclassified,Full-time,,,,2026-10-14
-724,https://park.wd1.myworkdayjobs.com/ParkUniversityCareers/job/Parkville-Campus/Academic-Success-Advisor_JR100601,Academic Success Advisor,Unclassified,Full-time,,,,2026-10-02
-724,https://park.wd1.myworkdayjobs.com/ParkUniversityCareers/job/Parkville-Campus/Assistant-Coach-Women-s-Volleyball-PT_JR100600,Assistant Coach Women's Volleyball PT,Unclassified,Part-time,,,,2026-10-01
-724,https://park.wd1.myworkdayjobs.com/ParkUniversityCareers/job/Parkville-MO/Adjunct-Faculty---Interior-Design_JR100592,Adjunct Faculty - Interior Design,Unclassified,Part-time,,Interior Design,,2026-09-21
-724,https://park.wd1.myworkdayjobs.com/ParkUniversityCareers/job/Parkville-Campus/Assistant-Professor-Business-Analytics_JR100591,Assistant Professor Business Analytics,Assistant_Professor,Full-time,,,,2026-09-21
-724,https://park.wd1.myworkdayjobs.com/ParkUniversityCareers/job/Parkville-Campus/Director-Library-Services_JR100581-1,Director Library Services,Non-academic,Full-time,,,,2026-09-17
-724,https://park.wd1.myworkdayjobs.com/ParkUniversityCareers/job/Parkville-Campus/Scholarship-Coordinator_JR100584,Scholarship Coordinator,Non-academic,Full-time,,,,2026-09-10
-724,https://park.wd1.myworkdayjobs.com/ParkUniversityCareers/job/Parkville-MO/Return-of-Title-IV-Specialist_JR100536,Return of Title IV Specialist,Non-academic,Full-time,division of Student Financial Services,Title IV Specialist,,2026-08-10
-724,https://park.wd1.myworkdayjobs.com/ParkUniversityCareers/job/Parkville-MO/Adjunct-Instructor---Nursing-Clinical-Adjunct_JR100018,Adjunct Instructor - Nursing Clinical Adjunct,Unclassified,Part-time,Department of Nursing,Nursing Clinical Adjunct,,2026-01-08
-724,https://park.wd1.myworkdayjobs.com/ParkUniversityCareers/job/Cheyenne-WY/Adjunct-Instructor----Mathematics-MA102--MA120--MA125_JR100003,"Adjunct Instructor -- Mathematics MA102, MA120, MA125",Unclassified,Part-time,,MA125,,2024-12-18
+school_id,posting_url,job_title_in_post,position_type,job_term,department_or_school,area_key_words,deadline_of_application,position_start_date,posted_date
+724,https://park.wd1.myworkdayjobs.com/ParkUniversityCareers/job/Camp-Pendleton-Campus-Center/Enrollment-Services-Director-I---CA_JR100606,Enrollment Services Director I - CA,Unclassified,Full-time,,,,,2026-10-14
+724,https://park.wd1.myworkdayjobs.com/ParkUniversityCareers/job/Parkville-Campus/Academic-Success-Advisor_JR100601,Academic Success Advisor,Unclassified,Full-time,,,,,2026-10-02
+724,https://park.wd1.myworkdayjobs.com/ParkUniversityCareers/job/Parkville-Campus/Assistant-Coach-Women-s-Volleyball-PT_JR100600,Assistant Coach Women's Volleyball PT,Unclassified,Part-time,,,,,2026-10-01
+724,https://park.wd1.myworkdayjobs.com/ParkUniversityCareers/job/Parkville-MO/Adjunct-Faculty---Interior-Design_JR100592,Adjunct Faculty - Interior Design,Lecturer,Part-time,,Interior Design,,,2026-09-21
+724,https://park.wd1.myworkdayjobs.com/ParkUniversityCareers/job/Parkville-Campus/Assistant-Professor-Business-Analytics_JR100591,Assistant Professor Business Analytics,Assistant_Professor,Full-time,,,"October 19, 2026",,2026-09-21
+724,https://park.wd1.myworkdayjobs.com/ParkUniversityCareers/job/Parkville-Campus/Director-Library-Services_JR100581-1,Director Library Services,Unclassified,Full-time,,,,,2026-09-17
+724,https://park.wd1.myworkdayjobs.com/ParkUniversityCareers/job/Parkville-MO/Adjunct-Instructor---Nursing-Clinical-Adjunct_JR100018,Adjunct Instructor - Nursing Clinical Adjunct,Lecturer,Part-time,Department of Nursing,Nursing Clinical Adjunct,,,2026-01-08
+724,https://park.wd1.myworkdayjobs.com/ParkUniversityCareers/job/Cheyenne-WY/Adjunct-Instructor----Mathematics-MA102--MA120--MA125_JR100003,"Adjunct Instructor -- Mathematics MA102, MA120, MA125",Lecturer,Part-time,,MA125,,,2024-12-18

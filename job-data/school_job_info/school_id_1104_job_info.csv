@@ -1,5 +1,5 @@
-school_id,posting_url,job_title_in_post,position_type,job_term,department_or_school,area_key_words,deadline_of_application,position_start_date
-1104,https://swosu.csod.com/ux/ats/careersite/4/home/requisition/752?c=swosu,Instructor of English,Unclassified,Full-time,Department of Language and Literature,English,10/13/2026,8/11/2027
-1104,https://swosu.csod.com/ux/ats/careersite/4/home/requisition/747?c=swosu,Assistant Professor of History/Coordinator of History Education,Assistant_Professor,Full-time,Department of Social Sciences,History/Coordinator of History Education; General Education courses both online,9/16/2026,8/11/2027
-1104,https://swosu.csod.com/ux/ats/careersite/4/home/requisition/742?c=swosu,Nursing Instructor,Non-academic,Full-time,,Nursing,9/3/2026,1/7/2027
-1104,https://swosu.csod.com/ux/ats/careersite/4/home/requisition/719?c=swosu,Assistant Professor of Biology,Assistant_Professor,Full-time,Department of Biological and Biomedical Sciences,Biology; participation,6/1/2026,1/8/2027
+school_id,posting_url,job_title_in_post,position_type,job_term,department_or_school,area_key_words,deadline_of_application,position_start_date,posted_date
+1104,https://swosu.csod.com/ux/ats/careersite/4/home/requisition/752?c=swosu,Instructor of English,Lecturer,Full-time,Department of Language and Literature,English,,8/11/2027,10/13/2026
+1104,https://swosu.csod.com/ux/ats/careersite/4/home/requisition/747?c=swosu,Assistant Professor of History/Coordinator of History Education,Assistant_Professor,Full-time,Department of Social Sciences,History/Coordinator of History Education; General Education courses both online,"November 6, 2026",8/11/2027,9/16/2026
+1104,https://swosu.csod.com/ux/ats/careersite/4/home/requisition/742?c=swosu,Nursing Instructor,Lecturer,Full-time,,Nursing,,1/7/2027,9/3/2026
+1104,https://swosu.csod.com/ux/ats/careersite/4/home/requisition/719?c=swosu,Assistant Professor of Biology,Assistant_Professor,Full-time,Department of Biological and Biomedical Sciences,Biology; participation,"June 1, 2026",1/8/2027,6/1/2026

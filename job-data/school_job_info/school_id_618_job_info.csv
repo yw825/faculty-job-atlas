@@ -1,9 +1,9 @@
-school_id,posting_url,job_title_in_post,position_type,job_term,department_or_school,area_key_words,deadline_of_application,position_start_date
-618,https://apply.interfolio.com/190456,Professor of Africana and Digital and Computational Studies,Full_Professor,Full-time,,Africana and Digital and Computational Studies; Capstone course,,
-618,https://apply.interfolio.com/190237,Assistant Professor of Biology,Assistant_Professor,Full-time,Center for Inclusive Teaching and Learning,Biology; Interactions of Life,"October 7, 2026","July 1, 2027"
-618,https://apply.interfolio.com/191160,Professor of Chemistry and Biochemistry,Full_Professor,Full-time,Department of Chemistry and Biochemistry,Chemistry and Biochemistry; specialty area,"September 15, 2026",
-618,https://apply.interfolio.com/193312,Professor of Digital and Computational Studies,Full_Professor,Full-time,Center for Inclusive Teaching and Learning,Digital and Computational Studies; successful candidates,"October 15, 2026",
-618,https://apply.interfolio.com/193575,Assistant Professor of English,Assistant_Professor,Full-time,Department of English,English; Shakespeare,"October 20, 2026",
-618,https://apply.interfolio.com/192246,Assistant Professor of French and Francophone Studies,Assistant_Professor,Full-time,Department of French and Francophone Studies,French and Francophone Studies; French language courses,"October 15, 2026",
-618,https://apply.interfolio.com/195048,Professor of Mathematics,Full_Professor,Full-time,Center for Inclusive Teaching and Learning,Mathematics; Differential Equations,"November 8, 2026",
-618,https://apply.interfolio.com/190460,Assistant Professor of Physics,Assistant_Professor,Full-time,Department of Earth and Climate Sciences,Physics; advising students,"October 5, 2026",
+school_id,posting_url,job_title_in_post,position_type,job_term,department_or_school,area_key_words,deadline_of_application,position_start_date,posted_date
+618,https://apply.interfolio.com/190456,Professor of Africana and Digital and Computational Studies,Assistant_Professor; Associate_Professor; Full_Professor,Full-time,,Africana and Digital and Computational Studies; Capstone course,01 October 2026,,
+618,https://apply.interfolio.com/190237,Assistant Professor of Biology,Assistant_Professor,Full-time,Center for Inclusive Teaching and Learning,Biology; Interactions of Life,,"July 1, 2027",
+618,https://apply.interfolio.com/191160,Professor of Chemistry and Biochemistry,Assistant_Professor; Associate_Professor; Full_Professor,Full-time,Department of Chemistry and Biochemistry,Chemistry and Biochemistry; specialty area,"September 15, 2026",,
+618,https://apply.interfolio.com/193312,Professor of Digital and Computational Studies,Assistant_Professor; Associate_Professor; Full_Professor,Full-time,Center for Inclusive Teaching and Learning,Digital and Computational Studies; successful candidates,01 July 2027,,
+618,https://apply.interfolio.com/193575,Assistant Professor of English,Assistant_Professor,Full-time,Department of English,English; Shakespeare,"October 20, 2026",,
+618,https://apply.interfolio.com/192246,Assistant Professor of French and Francophone Studies,Assistant_Professor,Full-time,Department of French and Francophone Studies,French and Francophone Studies; French language courses,"October 15, 2026",,
+618,https://apply.interfolio.com/195048,Professor of Mathematics,Assistant_Professor; Associate_Professor; Full_Professor,Full-time,Center for Inclusive Teaching and Learning,Mathematics; Differential Equations,"November 8, 2026",,
+618,https://apply.interfolio.com/190460,Assistant Professor of Physics,Assistant_Professor,Full-time,Department of Earth and Climate Sciences,Physics; advising students,"October 5, 2026",,

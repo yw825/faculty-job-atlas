@@ -5,7 +5,6 @@
     "https://utah.peopleadmin.com/postings/211197",
     "https://utah.peopleadmin.com/postings/211196",
     "https://utah.peopleadmin.com/postings/211195",
-    "https://utah.peopleadmin.com/postings/211172",
     "https://utah.peopleadmin.com/postings/211142",
     "https://utah.peopleadmin.com/postings/211136",
     "https://utah.peopleadmin.com/postings/211008",
@@ -95,7 +94,6 @@
     "https://utah.peopleadmin.com/postings/207725",
     "https://utah.peopleadmin.com/postings/207723",
     "https://utah.peopleadmin.com/postings/207622",
-    "https://utah.peopleadmin.com/postings/207616",
     "https://utah.peopleadmin.com/postings/207546",
     "https://utah.peopleadmin.com/postings/207333",
     "https://utah.peopleadmin.com/postings/207195",
@@ -209,12 +207,14 @@
     "https://utah.peopleadmin.com/postings/199408",
     "https://utah.peopleadmin.com/postings/199407",
     "https://utah.peopleadmin.com/postings/199405",
-    "https://utah.peopleadmin.com/postings/199400"
+    "https://utah.peopleadmin.com/postings/199400",
+    "https://utah.peopleadmin.com/postings/199399",
+    "https://utah.peopleadmin.com/postings/199395"
   ],
   "school_id": 1449,
   "status": "complete",
-  "updated_at": "2026-10-21T18:49:22+00:00",
+  "updated_at": "2026-10-26T20:13:33+00:00",
   "started_at": "2026-09-08T03:05:36+00:00",
-  "completed_at": "2026-10-21T18:49:22+00:00",
+  "completed_at": "2026-10-26T20:13:33+00:00",
   "last_error": ""
 }

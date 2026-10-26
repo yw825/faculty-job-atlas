@@ -1,15 +1,15 @@
-school_id,posting_url,job_title_in_post,position_type,job_term,department_or_school,area_key_words,deadline_of_application,position_start_date
-1112,https://eou.peopleadmin.com/postings/3630,Advanced Clinical Educator (Assistant Professor) – Online MSW Program,Assistant_Professor,Part-time,,Online MSW Program; advanced generalist social work curriculum,11/09/2026,"September 16, 2027"
-1112,https://eou.peopleadmin.com/postings/3622,Assistant Professor of Psychology,Assistant_Professor,Part-time,,Psychology; Lifespan Development,09/28/2026,"September 16, 2027"
-1112,https://eou.peopleadmin.com/postings/3605,Undergrad and Graduate level Environmental Education Adjunct Instructor,Unclassified,Part-time,College of Education,Undergrad and Graduate level Environmental Education Adjunct; teacher licensure,,
-1112,https://eou.peopleadmin.com/postings/3600,Part-Time Instructor of Geography,Unclassified,Part-time,,Geography; Social Sciences serving the General,"August 14, 2026","September 28, 2026"
-1112,https://eou.peopleadmin.com/postings/3573,MSW Practicum Supervisor,Unclassified,Part-time,,,,
-1112,https://eou.peopleadmin.com/postings/3568,Student Teaching Education Supervisor,Unclassified,Part-time,College of Education Supervisor Handbook,Education Supervisor Job Description Summary,,
-1112,https://eou.peopleadmin.com/postings/3508,Graduate Education Leadership Instructor (Principal Licensure),Non-academic,Part-time,College of Education,Graduate Education Leadership; Educational Leadership program,,
-1112,https://eou.peopleadmin.com/postings/3507,Literacy Tutor,Unclassified,Part-time,,,,
-1112,https://eou.peopleadmin.com/postings/3506,Psychology Adjunct Instructor Pool,Unclassified,Full-time,"College of Science, Technology, Mathematics and Health Sciences",Psychology Adjunct; Clinical Interventions,,
-1112,https://eou.peopleadmin.com/postings/3505,Adjunct Onsite Science Instructor SCI310,Unclassified,Part-time,College of STM &HS,Onsite Science; online environment Previous teaching experience,,
-1112,https://eou.peopleadmin.com/postings/3504,Clinical Mental Health Counseling Part-Time Online Educator/Adjunct,Unclassified,Part-time,"College of Science, Technology, Mathematics, and Health Sciences",Clinical Mental Health Counseling,,
-1112,https://eou.peopleadmin.com/postings/3491,Adjunct Instructor - Health &amp; Human Performance,Unclassified,Full-time,"College of Science, Technology, Mathematics and Health Sciences",Human Performance,"October 3, 2025",
-1112,https://eou.peopleadmin.com/postings/3360,Undergrad and Graduate level Education Generalist Adjunct Instructor,Unclassified,Part-time,College of Education,Undergrad and Graduate level Education Generalist Adjunct; Responsibilities Teaching responsibilities,,
-1112,https://eou.peopleadmin.com/postings/1951,Outdoor Activities--Adjunct Pool in Health and Human Performance,Non-academic,Full-time,"College of Science, Technology, Mathematics, and Health Sciences",Health and Human Performance; outdoor activities focused on introductory,,
+school_id,posting_url,job_title_in_post,position_type,job_term,department_or_school,area_key_words,deadline_of_application,position_start_date,posted_date
+1112,https://eou.peopleadmin.com/postings/3630,Advanced Clinical Educator (Assistant Professor) – Online MSW Program,Lecturer,Part-time,,Online MSW Program; advanced generalist social work curriculum,11/09/2026,"September 16, 2027",10/09/2026
+1112,https://eou.peopleadmin.com/postings/3622,Assistant Professor of Psychology,Assistant_Professor,Part-time,,Psychology; Lifespan Development,09/28/2026,"September 16, 2027",08/10/2026
+1112,https://eou.peopleadmin.com/postings/3605,Undergrad and Graduate level Environmental Education Adjunct Instructor,Lecturer,Part-time,College of Education,Undergrad and Graduate level Environmental Education Adjunct; teacher licensure,,,
+1112,https://eou.peopleadmin.com/postings/3600,Part-Time Instructor of Geography,Lecturer,Part-time,,Geography; Social Sciences serving the General,08/14/2026,"September 28, 2026",08/13/2026
+1112,https://eou.peopleadmin.com/postings/3573,MSW Practicum Supervisor,Unclassified,Part-time,,,,,
+1112,https://eou.peopleadmin.com/postings/3568,Student Teaching Education Supervisor,Unclassified,Part-time,College of Education Supervisor Handbook,Education Supervisor Job Description Summary,,,
+1112,https://eou.peopleadmin.com/postings/3508,Graduate Education Leadership Instructor (Principal Licensure),Lecturer,Part-time,College of Education,Graduate Education Leadership; Educational Leadership program,,,
+1112,https://eou.peopleadmin.com/postings/3507,Literacy Tutor,Lecturer,Part-time,,,,,06/02/2025
+1112,https://eou.peopleadmin.com/postings/3506,Psychology Adjunct Instructor Pool,Lecturer,Full-time,"College of Science, Technology, Mathematics and Health Sciences",Psychology Adjunct; Clinical Interventions,,,
+1112,https://eou.peopleadmin.com/postings/3505,Adjunct Onsite Science Instructor SCI310,Lecturer,Part-time,College of STM &HS,Onsite Science; online environment Previous teaching experience,,,
+1112,https://eou.peopleadmin.com/postings/3504,Clinical Mental Health Counseling Part-Time Online Educator/Adjunct,Lecturer,Part-time,"College of Science, Technology, Mathematics, and Health Sciences",Clinical Mental Health Counseling,,,
+1112,https://eou.peopleadmin.com/postings/3491,Adjunct Instructor - Health &amp; Human Performance,Lecturer,Full-time,"College of Science, Technology, Mathematics and Health Sciences",Human Performance,,,10/03/2025
+1112,https://eou.peopleadmin.com/postings/3360,Undergrad and Graduate level Education Generalist Adjunct Instructor,Lecturer,Part-time,College of Education,Undergrad and Graduate level Education Generalist Adjunct; Responsibilities Teaching responsibilities,,,
+1112,https://eou.peopleadmin.com/postings/1951,Outdoor Activities--Adjunct Pool in Health and Human Performance,Lecturer,Full-time,"College of Science, Technology, Mathematics, and Health Sciences",Health and Human Performance; outdoor activities focused on introductory,,,

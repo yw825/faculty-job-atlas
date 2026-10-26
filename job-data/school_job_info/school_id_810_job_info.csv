@@ -1,4 +1,4 @@
-school_id,posting_url,job_title_in_post,position_type,job_term,department_or_school,area_key_words,deadline_of_application,position_start_date
-810,https://ncwu.edu/community/careers/current-openings/faculty-teaching-positions/#professor-of-public-health-open-rank,Professor of Public Health (Open Rank),Full_Professor,Full-time,,Public Health,,
-810,https://ncwu.edu/community/careers/current-openings/faculty-teaching-positions/#adjunct-faculty-positions,ADJUNCT Faculty Positions,Unclassified,Part-time,,ADJUNCT,,
-810,https://ncwu.edu/community/careers/current-openings/faculty-teaching-positions/#adjunct-nursing-clinical-faculty-position,Adjunct Nursing Clinical Faculty Position,Non-academic,Part-time,Department of Nursing,Nursing,,
+school_id,posting_url,job_title_in_post,position_type,job_term,department_or_school,area_key_words,deadline_of_application,position_start_date,posted_date
+810,https://ncwu.edu/community/careers/current-openings/faculty-teaching-positions/#professor-of-public-health-open-rank,Professor of Public Health (Open Rank),Assistant_Professor; Associate_Professor; Full_Professor,Full-time,,Public Health,,,
+810,https://ncwu.edu/community/careers/current-openings/faculty-teaching-positions/#adjunct-faculty-positions,ADJUNCT Faculty Positions,Lecturer,Part-time,,ADJUNCT,,,
+810,https://ncwu.edu/community/careers/current-openings/faculty-teaching-positions/#adjunct-nursing-clinical-faculty-position,Adjunct Nursing Clinical Faculty Position,Lecturer,Part-time,Department of Nursing,Nursing,,,

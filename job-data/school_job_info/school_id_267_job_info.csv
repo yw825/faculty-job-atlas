@@ -1,5 +1,5 @@
-school_id,posting_url,job_title_in_post,position_type,job_term,department_or_school,area_key_words,deadline_of_application,position_start_date
-267,https://www.trinitycollege.edu/faculty-publications/,Faculty Publications,Assistant_Professor,Full-time,,Pastor,,
-267,https://www.trinitycollege.edu/associate-professor-of-business-organizational-leadership/,Associate Professor of Business Organizational Leadership,Associate_Professor,Full-time,College of Florida,Business Organizational Leadership,,
-267,https://www.trinitycollege.edu/assistant-professor-of-general-studies/,Assistant Professor of General Studies,Assistant_Professor,Full-time,College of Florida,General Studies,,
-267,https://www.trinitycollege.edu/general-studies-adjunct-pool/,General Studies Adjunct Pool,Unclassified,Full-time,,,,
+school_id,posting_url,job_title_in_post,position_type,job_term,department_or_school,area_key_words,deadline_of_application,position_start_date,posted_date
+267,https://www.trinitycollege.edu/faculty-publications/,Faculty Publications,Assistant_Professor; Associate_Professor; Full_Professor,Full-time,,Pastor,,,
+267,https://www.trinitycollege.edu/associate-professor-of-business-organizational-leadership/,Associate Professor of Business Organizational Leadership,Associate_Professor,Full-time,College of Florida,Business Organizational Leadership,,,
+267,https://www.trinitycollege.edu/assistant-professor-of-general-studies/,Assistant Professor of General Studies,Assistant_Professor,Full-time,College of Florida,General Studies,,,
+267,https://www.trinitycollege.edu/general-studies-adjunct-pool/,General Studies Adjunct Pool,Lecturer,Full-time,,,,,

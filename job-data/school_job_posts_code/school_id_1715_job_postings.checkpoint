@@ -55,9 +55,9 @@
     "https://www.uni.lu/en/jobs/student-officer-accommodation-50/"
   ],
   "school_id": 1715,
-  "status": "complete",
-  "updated_at": "2026-10-09T20:02:00+00:00",
+  "status": "error",
+  "updated_at": "2026-10-26T22:55:58+00:00",
   "started_at": "2026-09-02T22:27:32+00:00",
   "completed_at": "2026-10-09T20:02:00+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: no jobs on the page (blocked?)"
 }

@@ -1,8 +1,8 @@
-school_id,posting_url,job_title_in_post,position_type,job_term,department_or_school,area_key_words,deadline_of_application,position_start_date
-323,https://www.schooljobs.com/careers/hpu/jobs/5168865/adjunct-nursing-bsn-clinical,Adjunct - Nursing BSN Clinical,Unclassified,Full-time,,Nursing BSN Clinical; unencumbered Hawaii Registered Nurse license,,
-323,https://www.schooljobs.com/careers/hpu/jobs/5168932/adjunct-school-of-education,Adjunct - School of Education,Unclassified,Full-time,School of Education,School of Education,,
-323,https://www.schooljobs.com/careers/hpu/jobs/3763136/adjunct-tesol-special-appointment-faculty,Adjunct - TESOL (Special Appointment Faculty),Unclassified,Part-time,,English,,
-323,https://www.schooljobs.com/careers/hpu/jobs/5473993/assistant-professor-director-of-clinical-education-dpt-nv,"Assistant Professor & Director of Clinical Education, DPT (NV)",Assistant_Professor,Full-time,faculty of any changing trends,"Clinical Education, DPT; colleagues",11/4/2026,
-323,https://www.schooljobs.com/careers/hpu/jobs/5495169/assistant-professor-dpt-hawaii,"Assistant Professor, DPT (Hawaii)",Assistant_Professor,Full-time,,DPT; educational setting,2/1/2027,
-323,https://www.schooljobs.com/careers/hpu/jobs/5168823/mentor-teachers-referred-candidates,Mentor Teachers (Referred Candidates),Non-academic,Full-time,,Private school,,
-323,https://www.schooljobs.com/careers/hpu/jobs/5497860/visiting-assistant-professor-of-biotechnology,Visiting Assistant Professor of Biotechnology,Assistant_Professor,Full-time,,Biotechnology; commercial; microalgae; marine science,10/28/2026,
+school_id,posting_url,job_title_in_post,position_type,job_term,department_or_school,area_key_words,deadline_of_application,position_start_date,posted_date
+323,https://www.schooljobs.com/careers/hpu/jobs/5168865/adjunct-nursing-bsn-clinical,Adjunct - Nursing BSN Clinical,Lecturer,Full-time,,Nursing BSN Clinical; unencumbered Hawaii Registered Nurse license,,,12/11/2025
+323,https://www.schooljobs.com/careers/hpu/jobs/5168932/adjunct-school-of-education,Adjunct - School of Education,Lecturer,Full-time,School of Education,School of Education,,,12/11/2025
+323,https://www.schooljobs.com/careers/hpu/jobs/3763136/adjunct-tesol-special-appointment-faculty,Adjunct - TESOL (Special Appointment Faculty),Lecturer,Part-time,,English,,,12/09/2025
+323,https://www.schooljobs.com/careers/hpu/jobs/5473993/assistant-professor-director-of-clinical-education-dpt-nv,"Assistant Professor & Director of Clinical Education, DPT (NV)",Lecturer,Full-time,faculty of any changing trends,"Clinical Education, DPT; colleagues",11/4/2026,,09/04/2026
+323,https://www.schooljobs.com/careers/hpu/jobs/5495169/assistant-professor-dpt-hawaii,"Assistant Professor, DPT (Hawaii)",Assistant_Professor,Full-time,,DPT; educational setting,2/1/2027,,09/24/2026
+323,https://www.schooljobs.com/careers/hpu/jobs/5168823/mentor-teachers-referred-candidates,Mentor Teachers (Referred Candidates),Lecturer,Full-time,,Private school,,,12/11/2025
+323,https://www.schooljobs.com/careers/hpu/jobs/5497860/visiting-assistant-professor-of-biotechnology,Visiting Assistant Professor of Biotechnology,Lecturer,Full-time,,Biotechnology; commercial; microalgae; marine science,10/28/2026,,09/28/2026

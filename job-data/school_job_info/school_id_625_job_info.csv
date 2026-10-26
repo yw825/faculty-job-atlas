@@ -1,8 +1,8 @@
-school_id,posting_url,job_title_in_post,position_type,job_term,department_or_school,area_key_words,deadline_of_application,position_start_date
-625,https://www.adrian.edu/files/assets/accountingadjunctgraduatelevel-spring2024.pdf,Accounting Adjunct,Unclassified,Part-time,"Department of Business, Accounting and",,,
-625,https://www.adrian.edu/files/assets/adjunctbiologypositionfall2025.pdf,Adjunct Instructor of Biology,Unclassified,Full-time,Department of Biology,Biology,,
-625,https://www.adrian.edu/files/assets/adjunctgconcoursesfall2025.pdf,Great Conversation Adjunct,Unclassified,Part-time,,these areas,,
-625,https://www.adrian.edu/files/assets/adjunctprofessorofphysicsjobdescription.pdf,Physics Adjunct,Unclassified,Full-time,Department of Physics,,,
-625,https://www.adrian.edu/files/assets/interiordesignadjunct-july2023.pdf,Interior Design Adjunct,Unclassified,Part-time,Department of Art and Design,,,
-625,https://www.adrian.edu/files/assets/adjunctprofessorofmathematics-june2025.pdf,Adjunct Professor of Mathematics,Full_Professor,Part-time,,Mathematics,,
-625,https://www.adrian.edu/files/assets/1-spanishadjunct.pdf,Spanish Adjunct,Unclassified,Part-time,Department of Humanities,Spanish literature,,
+school_id,posting_url,job_title_in_post,position_type,job_term,department_or_school,area_key_words,deadline_of_application,position_start_date,posted_date
+625,https://www.adrian.edu/files/assets/accountingadjunctgraduatelevel-spring2024.pdf,Accounting Adjunct,Lecturer,Part-time,"Department of Business, Accounting and",,,,
+625,https://www.adrian.edu/files/assets/adjunctbiologypositionfall2025.pdf,Adjunct Instructor of Biology,Lecturer,Full-time,Department of Biology,Biology,,,
+625,https://www.adrian.edu/files/assets/adjunctgconcoursesfall2025.pdf,Great Conversation Adjunct,Lecturer,Part-time,,these areas,,,
+625,https://www.adrian.edu/files/assets/adjunctprofessorofphysicsjobdescription.pdf,Physics Adjunct,Lecturer,Full-time,Department of Physics,,,,
+625,https://www.adrian.edu/files/assets/interiordesignadjunct-july2023.pdf,Interior Design Adjunct,Lecturer,Part-time,Department of Art and Design,,,,
+625,https://www.adrian.edu/files/assets/adjunctprofessorofmathematics-june2025.pdf,Adjunct Professor of Mathematics,Lecturer,Part-time,,Mathematics,,,
+625,https://www.adrian.edu/files/assets/1-spanishadjunct.pdf,Spanish Adjunct,Lecturer,Part-time,Department of Humanities,Spanish literature,,,

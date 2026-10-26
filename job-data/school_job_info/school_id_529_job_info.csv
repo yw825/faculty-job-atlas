@@ -1,9 +1,9 @@
-school_id,posting_url,job_title_in_post,position_type,job_term,department_or_school,area_key_words,deadline_of_application,position_start_date
-529,https://jobs.nicholls.edu/postings/10518,Instructor of Nursing,Assistant_Professor; Associate_Professor; Full_Professor,Full-time,,Nursing; MSN Program,12/31/2026,
-529,https://jobs.nicholls.edu/postings/10517,Instructor of Education with a Reading Focus,Non-academic,Full-time,,Education with a Reading Focus; Introduction,10/18/2026,"January 13, 2027"
-529,https://jobs.nicholls.edu/postings/10516,Assistant Professor in K - 12 School Leadership,Assistant_Professor,Full-time,,variety of topics,10/18/2026,"January 13, 2027"
-529,https://jobs.nicholls.edu/postings/10515,Assistant Professor in Curriculum and Instruction - Literacy,Assistant_Professor,Full-time,,Curriculum and Instruction; Louisiana HQIM,10/18/2026,"January 13, 2027"
-529,https://jobs.nicholls.edu/postings/10485,Instructor or Assistant Professor of Civil Engineering,Assistant_Professor,Full-time,,Civil Engineering; holding requisite office hours,10/31/2026,
-529,https://jobs.nicholls.edu/postings/10484,Assistant Professor (Finance),Assistant_Professor,Full-time,,,11/15/2026,08/11/2027
-529,https://jobs.nicholls.edu/postings/10454,Instructor/Assistant/Associate Professor in Strategy,Assistant_Professor; Associate_Professor,Full-time,,Strategy,11/30/2026,
-529,https://jobs.nicholls.edu/postings/10452,Instructor/Assistant/Associate Professor in Sales and Marketing,Assistant_Professor; Associate_Professor,Full-time,,Sales and Marketing,11/30/2026,
+school_id,posting_url,job_title_in_post,position_type,job_term,department_or_school,area_key_words,deadline_of_application,position_start_date,posted_date
+529,https://jobs.nicholls.edu/postings/10518,Instructor of Nursing,Lecturer,Full-time,,Nursing; MSN Program,12/31/2026,,09/02/2026
+529,https://jobs.nicholls.edu/postings/10517,Instructor of Education with a Reading Focus,Lecturer,Full-time,,Education with a Reading Focus; Introduction,10/18/2026,"January 13, 2027",10/06/2026
+529,https://jobs.nicholls.edu/postings/10516,Assistant Professor in K - 12 School Leadership,Assistant_Professor,Full-time,,variety of topics,10/18/2026,"January 13, 2027",10/06/2026
+529,https://jobs.nicholls.edu/postings/10515,Assistant Professor in Curriculum and Instruction - Literacy,Assistant_Professor,Full-time,,Curriculum and Instruction; Louisiana HQIM,10/18/2026,"January 13, 2027",10/06/2026
+529,https://jobs.nicholls.edu/postings/10485,Instructor or Assistant Professor of Civil Engineering,Assistant_Professor; Lecturer,Full-time,,Civil Engineering; holding requisite office hours,10/31/2026,,06/23/2026
+529,https://jobs.nicholls.edu/postings/10484,Assistant Professor (Finance),Assistant_Professor,Full-time,,,11/15/2026,08/11/2027,10/01/2026
+529,https://jobs.nicholls.edu/postings/10454,Instructor/Assistant/Associate Professor in Strategy,Assistant_Professor; Associate_Professor; Lecturer,Full-time,,Strategy,11/30/2026,,03/10/2026
+529,https://jobs.nicholls.edu/postings/10452,Instructor/Assistant/Associate Professor in Sales and Marketing,Assistant_Professor; Associate_Professor; Lecturer,Full-time,,Sales and Marketing,11/30/2026,,06/16/2026

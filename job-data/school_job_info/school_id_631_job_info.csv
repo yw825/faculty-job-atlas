@@ -1,128 +1,93 @@
-school_id,posting_url,job_title_in_post,position_type,job_term,department_or_school,area_key_words,deadline_of_application,position_start_date
-631,https://careers.umich.edu/job_detail/284393,Assistant Professor Of Finance,Assistant_Professor,Part-time,SCHOOL OF BUSINESS The Stephen M,Finance,"November 13, 2026",10/14/2026
-631,https://careers.umich.edu/job_detail/284203,ASSISTANT PROFESSOR-PROFESSOR,Assistant_Professor; Full_Professor,Part-time,Department of Pediatrics,implementation science Significant mentorship experience; Doctor of Osteopathic Medicine,"December 1, 2026",10/13/2026
-631,https://careers.umich.edu/job_detail/284083,"PROFESSOR (Full, Associate, Assistant)",Assistant_Professor; Associate_Professor; Full_Professor,Part-time,Department of Nuclear Engineering and Radiological Sciences,,"November 30, 2026",10/09/2026
-631,https://careers.umich.edu/job_detail/283797,"ASST PROFESSOR, ASSOC PROFESSOR, OR PROFESSOR",Full_Professor,Part-time,college of engineering serving the common good,,,10/09/2026
-631,https://careers.umich.edu/job_detail/283807,"ASSOC PROFESSOR, OR PROFESSOR in Sports Analytics",Full_Professor,Part-time,college of engineering serving the common good,Sports Analytics; Decision Analytics; Operations Research,,10/09/2026
-631,https://careers.umich.edu/job_detail/283874,Asst/Assoc/Full PROFESSOR,Full_Professor,Part-time,Department of Climate and Space Sciences and Engineering,,"November 13, 2026",10/08/2026
-631,https://careers.umich.edu/job_detail/283887,ASST PROFESSOR/ASSOCIATE PROFESSOR/PROFESSOR,Associate_Professor; Full_Professor,Part-time,Department of Materials Science and Engineering,,"November 15, 2026",10/07/2026
-631,https://careers.umich.edu/job_detail/283901,Professor/Associate Professor/Assistant Professor,Assistant_Professor; Associate_Professor; Full_Professor,Part-time,Department of Aerospace Engineering,,"December 1, 2026",10/07/2026
-631,https://careers.umich.edu/job_detail/283791,ASST PROFESSOR,Full_Professor,Part-time,Department of Economics,advising students; providing service,"November 7, 2026","August 25, 2027"
-631,https://careers.umich.edu/job_detail/283755,Asst Professor,Full_Professor,Part-time,Department of Human Genetics,Asst; classroom,"November 13, 2026",9/30/2026
-631,https://careers.umich.edu/job_detail/283543,ASST PROFESSOR,Full_Professor,Part-time,Department of American Culture,American cultural studies methodology,"October 23, 2026","August 25, 2027"
-631,https://careers.umich.edu/job_detail/283509,Professor / Associate Professor in Human-Centered Embodied Artificial Intelligence (Robotics),Associate_Professor; Full_Professor,Part-time,College of Engineering,Human-Centered Embodied Artificial Intelligence; human-embodied; academia,"November 1, 2026",9/25/2026
-631,https://careers.umich.edu/job_detail/283397,Assistant Professor/Associate Professor/Professor,Assistant_Professor; Associate_Professor; Full_Professor,Part-time,College of Engineering track,,"November 15, 2026",9/24/2026
-631,https://careers.umich.edu/job_detail/282154,ASSISTANT PROFESSOR/ASSOCIATE PROFESSOR/PROFESSOR,Assistant_Professor; Associate_Professor; Full_Professor,Part-time,,,"November 30, 2026",9/23/2026
-631,https://careers.umich.edu/job_detail/283050,Mary Lou Willard French Endowed Chair,Associate_Professor,Part-time,School of Nursing,Mary Lou Willard French Endowed; Professor; oncology nursing Earned PhD,,9/14/2026
-631,https://careers.umich.edu/job_detail/283076,Assistant Professor in Pharmaceutical Sciences,Assistant_Professor,Part-time,Department of Pharmaceutical Sciences in the University of Michigan,Pharmaceutical Sciences; Biointerfaces Institute; translational science,,9/14/2026
-631,https://careers.umich.edu/job_detail/282699,Assistant Professor of Business Law,Assistant_Professor,Part-time,School of Business,Business Law,"October 15, 2026",9/09/2026
-631,https://careers.umich.edu/job_detail/282822,CLINICAL INSTRUCTOR,Unclassified,Part-time,School of Nursing,Nursing Program,,9/09/2026
-631,https://careers.umich.edu/job_detail/282591,Assistant Professor of Catalan and Spanish Studies,Assistant_Professor,Part-time,Department of Romance Languages and Literatures,Catalan and Spanish Studies,"October 23, 2026","August 25, 2027"
-631,https://careers.umich.edu/job_detail/282601,Clinical Assistant Professor/Clinical Associate Professor/Clinical Professor Pediatric Otolaryngologist Surgeon,Assistant_Professor; Associate_Professor; Full_Professor,Part-time,,,,9/01/2026
-631,https://careers.umich.edu/job_detail/280385,ASST PROFESSOR,Full_Professor,Part-time,Department of Statistics,data science,"November 1, 2026",9/01/2026
-631,https://careers.umich.edu/job_detail/282260,Associate Professor w/ tenure,Associate_Professor,Part-time,"Department of Film, Television, and Media",James Gindin Visiting Artist Series,"November 1, 2026","August 25, 2027"
-631,https://careers.umich.edu/job_detail/281910,Tenure-Track Professor of Urban Technology (Open Rank),Full_Professor,Part-time,Center for Innovation in Detroit,Urban Technology; digital product development,,8/19/2026
-631,https://careers.umich.edu/job_detail/281877,Assistant Professor,Assistant_Professor,Part-time,Department of Asian Languages and Cultures,modern Chinese culture; comparative contexts,"November 1, 2026","August 25, 2027"
-631,https://careers.umich.edu/job_detail/281903,Lico Family Professorship in Social Work,Unclassified,Part-time,School of Social Work,Social Work,,8/19/2026
-631,https://careers.umich.edu/job_detail/280148,"Chief, Division of General Medicine, Department of Internal Medicine",Associate_Professor,Part-time,"Division of General Medicine, Department of Internal Medicine","General Medicine, Department of Internal Medicine",,7/15/2026
-631,https://careers.umich.edu/job_detail/279407,Associate Professor/Professor of Technology & Operations,Associate_Professor; Full_Professor,Part-time,School of Business,Technology & Operations; resilient semiconductor manufacturing; supply-chain,"October 15, 2026",6/28/2026
-631,https://careers.umich.edu/job_detail/278043,ASSOC PROFESSOR / PROFESSOR,Full_Professor,Part-time,Department of Mechanical Engineering,,"October 30, 2026",6/03/2026
-631,https://careers.umich.edu/job_detail/278295,Tenure-Track Professor of Land Use and Resilience (Open Rank),Full_Professor,Part-time,"School for Environment and Sustainability, School of Public Health, and others",Land Use and Resilience; Environmental Planning,,6/01/2026
-631,https://careers.umich.edu/job_detail/277886,Tenure-Track Professor of Real Estate Development (Open Rank),Full_Professor,Part-time,"Center for Real Estate, which hosts an active program of professional engagement and events",Real Estate Development; regional planning; urban; real estate area,,5/19/2026
-631,https://careers.umich.edu/job_detail/251580,DIVISION DIRECTOR-PEDIATRIC GASTROENTEROLOGY,Associate_Professor,Part-time,Division of Gastroenterology,,"July 1, 2026",7/12/2024
-631,https://careers.umich.edu/job_detail/284439,CLINICAL INSTRUCTOR-CLINICAL PROFESSOR,Full_Professor,Part-time,,scholarly activity,,10/15/2026
-631,https://careers.umich.edu/job_detail/284391,Adjunct Clinical Professor / International Education Programs Director,Full_Professor,Part-time,,,,10/14/2026
-631,https://careers.umich.edu/job_detail/284277,CLINICAL LECTURER,Lecturer,Part-time,Department of Pathology,Department of Pathology,,10/12/2026
-631,https://careers.umich.edu/job_detail/284279,CLINICAL LECTURER,Lecturer,Part-time,Department of Pathology,Department of Pathology,,10/12/2026
-631,https://careers.umich.edu/job_detail/284271,CLINICAL LECTURER,Lecturer,Part-time,Department of Pathology,Department of Pathology,,10/12/2026
-631,https://careers.umich.edu/job_detail/284274,CLINICAL LECTURER,Lecturer,Part-time,Department of Pathology,Department of Pathology,,10/12/2026
-631,https://careers.umich.edu/job_detail/284276,CLINICAL LECTURER,Lecturer,Part-time,Department of Pathology,Department of Pathology,,10/12/2026
-631,https://careers.umich.edu/job_detail/284259,CLINICAL LECTURER,Lecturer,Part-time,Department of Pathology,Department of Pathology,,10/12/2026
-631,https://careers.umich.edu/job_detail/284263,CLINICAL LECTURER,Lecturer,Part-time,Department of Pathology,Department of Pathology,,10/12/2026
-631,https://careers.umich.edu/job_detail/284264,CLINICAL LECTURER,Lecturer,Part-time,Department of Pathology,Department of Pathology,,10/12/2026
-631,https://careers.umich.edu/job_detail/284266,CLINICAL LECTURER,Lecturer,Part-time,Department of Pathology,Department of Pathology,,10/12/2026
-631,https://careers.umich.edu/job_detail/284268,CLINICAL LECTURER,Lecturer,Part-time,Department of Pathology,Department of Pathology,,10/12/2026
-631,https://careers.umich.edu/job_detail/284143,CLINICAL LECTURER,Lecturer,Part-time,Department of Pathology,Department of Pathology,,10/09/2026
-631,https://careers.umich.edu/job_detail/284090,CLINICAL INSTRUCTOR-CLINICAL PROFESSOR,Full_Professor,Part-time,Department of Pediatrics,,,10/08/2026
-631,https://careers.umich.edu/job_detail/283730,CLINICAL INSTRUCTOR-CLINICAL PROFESSOR,Full_Professor,Part-time,,,,9/30/2026
-631,https://careers.umich.edu/job_detail/258037,Clinical Assistant Professor/Clinical Associate Professor,Assistant_Professor; Associate_Professor,Part-time,College of Physicians and Surgeons of Canada,Modes of Work Positions,,9/25/2026
-631,https://careers.umich.edu/job_detail/283482,CLINICAL INSTRUCTOR,Assistant_Professor; Associate_Professor; Full_Professor; Research_Fellow,Part-time,Division of Pediatric Psychology,,,9/24/2026
-631,https://careers.umich.edu/job_detail/283042,Clinical Professor,Full_Professor,Part-time,,,,9/21/2026
-631,https://careers.umich.edu/job_detail/282681,"Clinical Track Assistant/Associate Professor of Restorative Dentistry Department of Cariology, Restorative Sciences, and Endodontics (CRSE)",Assistant_Professor; Associate_Professor,Part-time,"Department of Cariology, Restorative Sciences, and Endodontics","Restorative Dentistry Department of Cariology, Restorative Sciences, and Endodontics",,9/03/2026
-631,https://careers.umich.edu/job_detail/282155,CLINICAL ASSISTANT PROFESSOR/CLINICAL ASSOCIATE PROFESSOR,Assistant_Professor; Associate_Professor,Part-time,School of Nursing,nursing programs,"October 31, 2026",8/23/2026
-631,https://careers.umich.edu/job_detail/282156,CLINICAL ASSISSTANT PROFESSOR/CLINICAL ASSOCIATE PROFESSOR,Associate_Professor; Full_Professor,Part-time,School of Nursing,nursing programs,"October 31, 2026",8/23/2026
-631,https://careers.umich.edu/job_detail/282157,CLINICAL ASSISTANT PROFESSOR/CLINICAL ASSOCIATE PROFESSOR,Assistant_Professor; Associate_Professor,Part-time,School of Nursing,nursing programs,"October 31, 2026",8/23/2026
-631,https://careers.umich.edu/job_detail/282158,CLINICAL ASSISTANT PROFESSOR,Assistant_Professor,Part-time,School of Nursing,,"October 31, 2026",8/23/2026
-631,https://careers.umich.edu/job_detail/282024,Clinical Lecturer,Lecturer,Part-time,,Fraternity of Fathers; Parent Cafes,,8/20/2026
-631,https://careers.umich.edu/job_detail/281916,Practice-Track Professor of Urban Technology (Open Rank),Full_Professor,Part-time,Center for Innovation in Detroit,Urban Technology; depending on the candidate's expertise,,8/19/2026
-631,https://careers.umich.edu/job_detail/281878,Clinical Instructor,Assistant_Professor; Associate_Professor,Part-time,"Department of Pediatrics, Division of Pediatric Cardiology",,,8/18/2026
-631,https://careers.umich.edu/job_detail/280043,CLINICAL ASSOC PROF,Assistant_Professor; Associate_Professor,Part-time,Department of Urology,,,7/13/2026
-631,https://careers.umich.edu/job_detail/261947,Medical Director for Neonatology,Assistant_Professor; Associate_Professor,Part-time,,,,6/02/2026
-631,https://careers.umich.edu/job_detail/277390,CLINICAL ASSOC PROF,Assistant_Professor; Associate_Professor,Part-time,Department of Urology,,,5/11/2026
-631,https://careers.umich.edu/job_detail/277392,CLINICAL ASSOC PROF,Assistant_Professor; Associate_Professor,Part-time,Department of Urology,,,5/08/2026
-631,https://careers.umich.edu/job_detail/261950,Faculty - Neonatologist - UMH-Sparrow,Assistant_Professor; Associate_Professor; Full_Professor,Part-time,,Neonatologist,,1/14/2026
-631,https://careers.umich.edu/job_detail/262151,Faculty - Neonatologist - Trinity Health Oakland Hospital,Assistant_Professor; Associate_Professor,Part-time,,Neonatologist,,1/14/2026
-631,https://careers.umich.edu/job_detail/284371,LEO Intermittent Lecturer,Lecturer,Part-time,,LEO Intermittent; remote work mode,,"January 1, 2027"
-631,https://careers.umich.edu/job_detail/284322,LEO Intermittent Lecturer,Lecturer,Part-time,College of Architecture and Urban Planning seeks applicants for a one semester position,LEO Intermittent,"October 23, 2026",10/13/2026
-631,https://careers.umich.edu/job_detail/283982,LEO Lecturer I,Lecturer,Part-time,,LEO,,10/13/2026
-631,https://careers.umich.edu/job_detail/284199,LEO Lecturer I,Lecturer,Part-time,School of Nursing,LEO,,10/12/2026
-631,https://careers.umich.edu/job_detail/284188,LEO Lecturer I,Lecturer,Part-time,School of Nursing,LEO,,10/12/2026
-631,https://careers.umich.edu/job_detail/284193,LEO Lecturer I,Lecturer,Part-time,School of Nursing,LEO,,10/12/2026
-631,https://careers.umich.edu/job_detail/284092,CSE LEO Lecturer III,Lecturer,Part-time,"faculty for professional development, innovation, and research in teaching and learning in CS",CSE LEO; computer science education; own technical area,,10/12/2026
-631,https://careers.umich.edu/job_detail/284174,LEO Lecturer III,Lecturer,Part-time,Department of Linguistics,LEO,,"August 25, 2027"
-631,https://careers.umich.edu/job_detail/284155,LEO Lecturer I,Lecturer,Part-time,"College of Engineering, Center for Entrepreneurship",LEO,,10/09/2026
-631,https://careers.umich.edu/job_detail/284156,LEO Lecturer I,Lecturer,Part-time,"College of Engineering, Center for Entrepreneurship",LEO,,10/09/2026
-631,https://careers.umich.edu/job_detail/283787,LEO Lecturer III,Lecturer,Part-time,College of Engineering and the Medical School,LEO; biomedical engineering courses,"October 15, 2026",10/08/2026
-631,https://careers.umich.edu/job_detail/283986,LEO Lecturer I,Lecturer,Part-time,Department of Ecology and Evolutionary Biology,LEO; United States,,"January 13, 2027"
-631,https://careers.umich.edu/job_detail/283931,Sociology LEO Lecturer I and/or Adjunct Lecturer,Lecturer,Part-time,Department of Sociology,Sociology LEO,"October 19, 2026",10/05/2026
-631,https://careers.umich.edu/job_detail/283861,LEO Lecturer I,Lecturer,Part-time,School of Information,LEO; Deep interest,,10/01/2026
-631,https://careers.umich.edu/job_detail/283863,LEO Lecturer I,Lecturer,Part-time,School of Information,LEO; Deep interest,"October 16, 2026",10/01/2026
-631,https://careers.umich.edu/job_detail/283793,LEO Intermittent Lecturer,Lecturer,Part-time,School of Public Health,LEO Intermittent,,10/01/2026
-631,https://careers.umich.edu/job_detail/283784,Fellowships in Architecture,Lecturer; Research_Fellow,Part-time,College of Architecture and Urban Planning seeks applicants for fellowships in architecture,Architecture,"November 17, 2026",9/30/2026
-631,https://careers.umich.edu/job_detail/283257,Fishman Fellowship,Lecturer,Part-time,College of Architecture and Urban Planning,,"November 8, 2026",9/18/2026
-631,https://careers.umich.edu/job_detail/283121,LEO Lecturer III,Lecturer,Part-time,"Department of Mathematics in the College of Literature, Science, and the Arts",LEO; actuarial mathematics,"December 15, 2026","August 25, 2027"
-631,https://careers.umich.edu/job_detail/283000,LEO Lecturer III,Lecturer,Part-time,Department of Mechanical Engineering,LEO; mechanics of materials,"October 31, 2026",9/14/2026
-631,https://careers.umich.edu/job_detail/280252,LEO Lecturer III,Lecturer,Part-time,"Department of Statistics in the College of Literature, Science, and the Arts",LEO,"November 1, 2026",8/01/2026
-631,https://careers.umich.edu/job_detail/280167,RESEARCH FELLOW,Research_Fellow,Part-time,,,,7/16/2026
-631,https://careers.umich.edu/job_detail/284440,RESEARCH FELLOW,Research_Fellow,Part-time,Department of Neurosurgery,,,10/15/2026
-631,https://careers.umich.edu/job_detail/284446,RESEARCH FELLOW,Research_Fellow,Part-time,Department of Cell & Developmental Biology,molecular biology Background working; cell,,10/15/2026
-631,https://careers.umich.edu/job_detail/284361,Research Fellow,Research_Fellow,Part-time,"Institute of Gerontology, among others",Alzheimer's; Claude,,"November 1, 2026"
-631,https://careers.umich.edu/job_detail/284309,RESEARCH FELLOW,Research_Fellow,Part-time,Department of Pathology,,,10/14/2026
-631,https://careers.umich.edu/job_detail/284290,RESEARCH FELLOW,Research_Fellow,Part-time,Center for Research in Influenza Transmission,Influenza Transmission,,"January 15, 2027"
-631,https://careers.umich.edu/job_detail/284154,RESEARCH FELLOW,Research_Fellow,Part-time,,,,10/14/2026
-631,https://careers.umich.edu/job_detail/283721,RESEARCH FELLOW,Research_Fellow,Part-time,,publication Desired Qualifications* Prior experience; cardiology Develop research protocols,,10/14/2026
-631,https://careers.umich.edu/job_detail/284292,RESEARCH FELLOW,Research_Fellow,Part-time,,,,10/13/2026
-631,https://careers.umich.edu/job_detail/284293,RESEARCH FELLOW,Research_Fellow,Part-time,,,,10/13/2026
-631,https://careers.umich.edu/job_detail/281612,RESEARCH FELLOW,Research_Fellow,Part-time,,environmental health; environmental epidemiology,,10/13/2026
-631,https://careers.umich.edu/job_detail/280575,Postdoctoral Research Fellow,Research_Fellow,Part-time,Division of Cardiovascular Medicine,cardiometabolic disease Track record of; Mendelian randomization,,10/13/2026
-631,https://careers.umich.edu/job_detail/277900,RESEARCH FELLOW,Research_Fellow,Part-time,,,,10/12/2026
-631,https://careers.umich.edu/job_detail/269022,RESEARCH FELLOW,Research_Fellow,Part-time,School of Medicine,translational research; molecular biology,,10/12/2026
-631,https://careers.umich.edu/job_detail/284106,Research Fellow,Research_Fellow,Part-time,Department of Pharmacology,,,10/08/2026
-631,https://careers.umich.edu/job_detail/281728,RESEARCH FELLOW,Research_Fellow,Part-time,,,,10/08/2026
-631,https://careers.umich.edu/job_detail/280086,RESEARCH FELLOW,Research_Fellow,Part-time,Department of Cell & Developmental Biology,cell-based experimental models Modes of; developmental biology research Previous experience,,10/08/2026
-631,https://careers.umich.edu/job_detail/284051,RESEARCH FELLOW,Research_Fellow,Part-time,,,,10/07/2026
-631,https://careers.umich.edu/job_detail/284021,RESEARCH FELLOW,Research_Fellow,Part-time,,therapy resistance; relapse,,10/07/2026
-631,https://careers.umich.edu/job_detail/284029,RESEARCH FELLOW,Research_Fellow,Part-time,,neuroscience A strong publication record; scientific rigor Ability,,10/06/2026
-631,https://careers.umich.edu/job_detail/284023,RESEARCH FELLOW,Research_Fellow,Part-time,,,,10/06/2026
-631,https://careers.umich.edu/job_detail/283700,RESEARCH FELLOW,Research_Fellow,Part-time,"Department of Medicinal Chemistry, College of Pharmacy,",RNA biochemistry; RNA sequencing,,10/05/2026
-631,https://careers.umich.edu/job_detail/283585,RESEARCH FELLOW,Research_Fellow,Part-time,department of Climate and Space Sciences and Engineering,passive radiometric remote sensing Significant; precipitation processes,,10/05/2026
-631,https://careers.umich.edu/job_detail/283886,RESEARCH FELLOW,Research_Fellow,Part-time,School of Public Health,Earth Action Wildland Fires programs; Earth Science,,10/02/2026
-631,https://careers.umich.edu/job_detail/283839,"Postdoctoral Research Fellow, Tai Lab, LSA BioPhysics",Research_Fellow,Part-time,Department of Biophysics,LSA BioPhysics; aggregates of bacterial cells; evolution of microbial,12/31/2026,10/01/2026
-631,https://careers.umich.edu/job_detail/283844,RESEARCH FELLOW,Research_Fellow,Part-time,,,,10/01/2026
-631,https://careers.umich.edu/job_detail/283698,RESEARCH FELLOW,Research_Fellow,Part-time,,,,10/01/2026
-631,https://careers.umich.edu/job_detail/283740,RESEARCH FELLOW,Research_Fellow,Part-time,,,,9/30/2026
-631,https://careers.umich.edu/job_detail/283760,Global Center Postdoctoral Research Fellow,Research_Fellow,Part-time,Center for Climate Change and Transboundary Waters,empirical social science field investigation; riverine community resilience,"November 1, 2026",9/30/2026
-631,https://careers.umich.edu/job_detail/283665,Research Fellowship (2027-2028),Assistant_Professor; Associate_Professor; Full_Professor; Research_Fellow,Part-time,,,,9/29/2026
-631,https://careers.umich.edu/job_detail/283597,Postdoctoral Research: Applying AI in Environment and Sustainability,Research_Fellow,Part-time,School for Environment and Sustainability,Environment and Sustainability,,9/28/2026
-631,https://careers.umich.edu/job_detail/280536,RESEARCH FELLOW,Research_Fellow,Part-time,,,,9/24/2026
-631,https://careers.umich.edu/job_detail/283391,Postdoctoral Research Fellow,Research_Fellow,Part-time,,individual interventions; focused on any level,,9/22/2026
-631,https://careers.umich.edu/job_detail/283286,RESEARCH FELLOW,Research_Fellow,Part-time,Department of Civil and Environmental Engineering,,,"November 1, 2026"
-631,https://careers.umich.edu/job_detail/283274,Research Fellow,Research_Fellow,Part-time,,,,9/21/2026
-631,https://careers.umich.edu/job_detail/283107,RESEARCH FELLOW,Research_Fellow,Part-time,"School of Public Health, Public Policy, or other relevant school",these data,"September 1, 2026",9/17/2026
-631,https://careers.umich.edu/job_detail/277670,RESEARCH FELLOW,Research_Fellow,Part-time,Department of Biomedical Engineering,,,9/17/2026
-631,https://careers.umich.edu/job_detail/282375,Postdoctoral Research Fellow,Research_Fellow,Part-time,Department of Biostatistics,,,8/28/2026
-631,https://careers.umich.edu/job_detail/280963,Research Fellow,Research_Fellow,Part-time,Department of Psychology,quantitative research; study design,,8/24/2026
-631,https://careers.umich.edu/job_detail/280866,Erb Institute Postdoctoral Fellowship,Research_Fellow,Part-time,Institute for Global Sustainable Enterprise,Erb Institute's Affiliated,"July 29, 2026",7/29/2026
-631,https://careers.umich.edu/job_detail/262165,Postdoctoral Research Fellow,Research_Fellow,Part-time,,,,7/01/2026
-631,https://careers.umich.edu/job_detail/267955,RESEARCH FELLOW,Research_Fellow,Part-time,Department of Naval Architecture and Marine Engineering,,,8/28/2025
-631,https://careers.umich.edu/job_detail/263114,RESEARCH FELLOW,Research_Fellow,Part-time,,,,5/05/2025
+school_id,posting_url,job_title_in_post,position_type,job_term,department_or_school,area_key_words,deadline_of_application,position_start_date,posted_date
+631,https://careers.umich.edu/job_detail/284203,ASSISTANT PROFESSOR-PROFESSOR,Assistant_Professor; Full_Professor,Part-time,Department of Pediatrics,implementation science Significant mentorship experience; Doctor of Osteopathic Medicine,"December 1, 2026",10/13/2026,
+631,https://careers.umich.edu/job_detail/283797,"ASST PROFESSOR, ASSOC PROFESSOR, OR PROFESSOR",Assistant_Professor; Associate_Professor; Full_Professor,Part-time,college of engineering serving the common good,,"October 20, 2026",10/09/2026,
+631,https://careers.umich.edu/job_detail/283807,"ASSOC PROFESSOR, OR PROFESSOR in Sports Analytics",Associate_Professor; Full_Professor,Part-time,college of engineering serving the common good,Sports Analytics; Decision Analytics; Operations Research,"November 30, 2026",10/09/2026,
+631,https://careers.umich.edu/job_detail/283874,Asst/Assoc/Full PROFESSOR,Assistant_Professor; Associate_Professor; Full_Professor,Part-time,Department of Climate and Space Sciences and Engineering,,"November 13, 2026",10/08/2026,
+631,https://careers.umich.edu/job_detail/283887,ASST PROFESSOR/ASSOCIATE PROFESSOR/PROFESSOR,Assistant_Professor; Associate_Professor; Full_Professor,Part-time,Department of Materials Science and Engineering,,"November 15, 2026",10/07/2026,
+631,https://careers.umich.edu/job_detail/283901,Professor/Associate Professor/Assistant Professor,Assistant_Professor; Associate_Professor; Full_Professor,Part-time,Department of Aerospace Engineering,,"December 1, 2026",10/07/2026,
+631,https://careers.umich.edu/job_detail/283791,ASST PROFESSOR,Assistant_Professor,Part-time,Department of Economics,advising students; providing service,"November 7, 2026","August 25, 2027",
+631,https://careers.umich.edu/job_detail/283755,Asst Professor,Assistant_Professor,Part-time,Department of Human Genetics,Asst; classroom,"November 13, 2026",9/30/2026,
+631,https://careers.umich.edu/job_detail/283509,Professor / Associate Professor in Human-Centered Embodied Artificial Intelligence (Robotics),Associate_Professor; Full_Professor,Part-time,College of Engineering,Human-Centered Embodied Artificial Intelligence; human-embodied; academia,"December 15, 2026",9/25/2026,
+631,https://careers.umich.edu/job_detail/283397,Assistant Professor/Associate Professor/Professor,Assistant_Professor; Associate_Professor; Full_Professor,Part-time,College of Engineering track,,"November 15, 2026",9/24/2026,
+631,https://careers.umich.edu/job_detail/282154,ASSISTANT PROFESSOR/ASSOCIATE PROFESSOR/PROFESSOR,Assistant_Professor; Associate_Professor; Full_Professor,Part-time,,,"November 30, 2026",9/23/2026,
+631,https://careers.umich.edu/job_detail/283050,Mary Lou Willard French Endowed Chair,Full_Professor,Part-time,School of Nursing,Mary Lou Willard French Endowed; Professor; oncology nursing Earned PhD,,9/14/2026,
+631,https://careers.umich.edu/job_detail/283076,Assistant Professor in Pharmaceutical Sciences,Assistant_Professor,Part-time,Department of Pharmaceutical Sciences in the University of Michigan,Pharmaceutical Sciences; Biointerfaces Institute; translational science,,9/14/2026,
+631,https://careers.umich.edu/job_detail/282699,Assistant Professor of Business Law,Assistant_Professor,Part-time,School of Business,Business Law,"October 15, 2026",9/09/2026,
+631,https://careers.umich.edu/job_detail/282822,CLINICAL INSTRUCTOR,Lecturer,Part-time,School of Nursing,Nursing Program,,9/09/2026,
+631,https://careers.umich.edu/job_detail/282601,Clinical Assistant Professor/Clinical Associate Professor/Clinical Professor Pediatric Otolaryngologist Surgeon,Lecturer,Part-time,,,,9/01/2026,
+631,https://careers.umich.edu/job_detail/280385,ASST PROFESSOR,Assistant_Professor,Part-time,Department of Statistics,data science,"November 1, 2026",9/01/2026,
+631,https://careers.umich.edu/job_detail/282260,Associate Professor w/ tenure,Associate_Professor,Part-time,"Department of Film, Television, and Media",James Gindin Visiting Artist Series,"November 1, 2026","August 25, 2027",
+631,https://careers.umich.edu/job_detail/281877,Assistant Professor,Assistant_Professor,Part-time,Department of Asian Languages and Cultures,modern Chinese culture; comparative contexts,"November 1, 2026","August 25, 2027",
+631,https://careers.umich.edu/job_detail/280148,"Chief, Division of General Medicine, Department of Internal Medicine",Unclassified,Part-time,"Division of General Medicine, Department of Internal Medicine","General Medicine, Department of Internal Medicine",,7/15/2026,
+631,https://careers.umich.edu/job_detail/279407,Associate Professor/Professor of Technology & Operations,Associate_Professor; Full_Professor,Part-time,School of Business,Technology & Operations; resilient semiconductor manufacturing; supply-chain,"October 15, 2026",6/28/2026,
+631,https://careers.umich.edu/job_detail/278043,ASSOC PROFESSOR / PROFESSOR,Associate_Professor; Full_Professor,Part-time,Department of Mechanical Engineering,,"October 30, 2026",6/03/2026,
+631,https://careers.umich.edu/job_detail/251580,DIVISION DIRECTOR-PEDIATRIC GASTROENTEROLOGY,Unclassified,Part-time,Division of Gastroenterology,,"July 1, 2026",7/12/2024,
+631,https://careers.umich.edu/job_detail/284090,CLINICAL INSTRUCTOR-CLINICAL PROFESSOR,Lecturer,Part-time,Department of Pediatrics,,,10/08/2026,
+631,https://careers.umich.edu/job_detail/283730,CLINICAL INSTRUCTOR-CLINICAL PROFESSOR,Lecturer,Part-time,,,,9/30/2026,
+631,https://careers.umich.edu/job_detail/258037,Clinical Assistant Professor/Clinical Associate Professor,Lecturer,Part-time,College of Physicians and Surgeons of Canada,Modes of Work Positions,,9/25/2026,
+631,https://careers.umich.edu/job_detail/283042,Clinical Professor,Lecturer,Part-time,,,,9/21/2026,
+631,https://careers.umich.edu/job_detail/282681,"Clinical Track Assistant/Associate Professor of Restorative Dentistry Department of Cariology, Restorative Sciences, and Endodontics (CRSE)",Lecturer,Part-time,"Department of Cariology, Restorative Sciences, and Endodontics","Restorative Dentistry Department of Cariology, Restorative Sciences, and Endodontics",,9/03/2026,
+631,https://careers.umich.edu/job_detail/282155,CLINICAL ASSISTANT PROFESSOR/CLINICAL ASSOCIATE PROFESSOR,Lecturer,Part-time,School of Nursing,nursing programs,"October 31, 2026",8/23/2026,
+631,https://careers.umich.edu/job_detail/282156,CLINICAL ASSISSTANT PROFESSOR/CLINICAL ASSOCIATE PROFESSOR,Lecturer,Part-time,School of Nursing,nursing programs,"October 31, 2026",8/23/2026,
+631,https://careers.umich.edu/job_detail/282157,CLINICAL ASSISTANT PROFESSOR/CLINICAL ASSOCIATE PROFESSOR,Lecturer,Part-time,School of Nursing,nursing programs,"October 31, 2026",8/23/2026,
+631,https://careers.umich.edu/job_detail/282158,CLINICAL ASSISTANT PROFESSOR,Lecturer,Part-time,School of Nursing,,"October 31, 2026",8/23/2026,
+631,https://careers.umich.edu/job_detail/282024,Clinical Lecturer,Lecturer,Part-time,,Fraternity of Fathers; Parent Cafes,,8/20/2026,
+631,https://careers.umich.edu/job_detail/281878,Clinical Instructor,Lecturer,Part-time,"Department of Pediatrics, Division of Pediatric Cardiology",,,8/18/2026,
+631,https://careers.umich.edu/job_detail/280043,CLINICAL ASSOC PROF,Lecturer,Part-time,Department of Urology,,,7/13/2026,
+631,https://careers.umich.edu/job_detail/261947,Medical Director for Neonatology,Unclassified,Part-time,,,,6/02/2026,
+631,https://careers.umich.edu/job_detail/277390,CLINICAL ASSOC PROF,Lecturer,Part-time,Department of Urology,,,5/11/2026,
+631,https://careers.umich.edu/job_detail/277392,CLINICAL ASSOC PROF,Lecturer,Part-time,Department of Urology,,,5/08/2026,
+631,https://careers.umich.edu/job_detail/261950,Faculty - Neonatologist - UMH-Sparrow,Assistant_Professor; Associate_Professor; Full_Professor,Part-time,,Neonatologist,,1/14/2026,
+631,https://careers.umich.edu/job_detail/262151,Faculty - Neonatologist - Trinity Health Oakland Hospital,Assistant_Professor; Associate_Professor; Full_Professor,Part-time,,Neonatologist,,1/14/2026,
+631,https://careers.umich.edu/job_detail/283982,LEO Lecturer I,Lecturer,Part-time,,LEO,,10/13/2026,
+631,https://careers.umich.edu/job_detail/284199,LEO Lecturer I,Lecturer,Part-time,School of Nursing,LEO,,10/12/2026,
+631,https://careers.umich.edu/job_detail/284188,LEO Lecturer I,Lecturer,Part-time,School of Nursing,LEO,,10/12/2026,
+631,https://careers.umich.edu/job_detail/284193,LEO Lecturer I,Lecturer,Part-time,School of Nursing,LEO,,10/12/2026,
+631,https://careers.umich.edu/job_detail/284174,LEO Lecturer III,Lecturer,Part-time,Department of Linguistics,LEO,,"August 25, 2027",
+631,https://careers.umich.edu/job_detail/283787,LEO Lecturer III,Lecturer,Part-time,College of Engineering and the Medical School,LEO; biomedical engineering courses,"December 31, 2026",10/08/2026,
+631,https://careers.umich.edu/job_detail/283784,Fellowships in Architecture,Research_Fellow,Part-time,College of Architecture and Urban Planning seeks applicants for fellowships in architecture,Architecture,"November 17, 2026",9/30/2026,
+631,https://careers.umich.edu/job_detail/283257,Fishman Fellowship,Research_Fellow,Part-time,College of Architecture and Urban Planning,,"November 8, 2026",9/18/2026,
+631,https://careers.umich.edu/job_detail/283121,LEO Lecturer III,Lecturer,Part-time,"Department of Mathematics in the College of Literature, Science, and the Arts",LEO; actuarial mathematics,"December 15, 2026","August 25, 2027",
+631,https://careers.umich.edu/job_detail/283000,LEO Lecturer III,Lecturer,Part-time,Department of Mechanical Engineering,LEO; mechanics of materials,"October 31, 2026",9/14/2026,
+631,https://careers.umich.edu/job_detail/280252,LEO Lecturer III,Lecturer,Part-time,"Department of Statistics in the College of Literature, Science, and the Arts",LEO,"November 1, 2026",8/01/2026,
+631,https://careers.umich.edu/job_detail/280167,RESEARCH FELLOW,Research_Fellow,Part-time,,,,7/16/2026,
+631,https://careers.umich.edu/job_detail/284440,RESEARCH FELLOW,Research_Fellow,Part-time,Department of Neurosurgery,,,10/15/2026,
+631,https://careers.umich.edu/job_detail/284446,RESEARCH FELLOW,Research_Fellow,Part-time,Department of Cell & Developmental Biology,molecular biology Background working; cell,,10/15/2026,
+631,https://careers.umich.edu/job_detail/284361,Research Fellow,Research_Fellow,Part-time,"Institute of Gerontology, among others",Alzheimer's; Claude,,"November 1, 2026",
+631,https://careers.umich.edu/job_detail/284309,RESEARCH FELLOW,Research_Fellow,Part-time,Department of Pathology,,,10/14/2026,
+631,https://careers.umich.edu/job_detail/284290,RESEARCH FELLOW,Research_Fellow,Part-time,Center for Research in Influenza Transmission,Influenza Transmission,,"January 15, 2027",
+631,https://careers.umich.edu/job_detail/284154,RESEARCH FELLOW,Research_Fellow,Part-time,,,,10/14/2026,
+631,https://careers.umich.edu/job_detail/283721,RESEARCH FELLOW,Research_Fellow,Part-time,,publication Desired Qualifications* Prior experience; cardiology Develop research protocols,,10/14/2026,
+631,https://careers.umich.edu/job_detail/284292,RESEARCH FELLOW,Research_Fellow,Part-time,,,,10/13/2026,
+631,https://careers.umich.edu/job_detail/284293,RESEARCH FELLOW,Research_Fellow,Part-time,,,,10/13/2026,
+631,https://careers.umich.edu/job_detail/281612,RESEARCH FELLOW,Research_Fellow,Part-time,,environmental health; environmental epidemiology,,10/13/2026,
+631,https://careers.umich.edu/job_detail/280575,Postdoctoral Research Fellow,Research_Fellow,Part-time,Division of Cardiovascular Medicine,cardiometabolic disease Track record of; Mendelian randomization,,10/13/2026,
+631,https://careers.umich.edu/job_detail/277900,RESEARCH FELLOW,Research_Fellow,Part-time,,,,10/12/2026,
+631,https://careers.umich.edu/job_detail/269022,RESEARCH FELLOW,Research_Fellow,Part-time,School of Medicine,translational research; molecular biology,,10/12/2026,
+631,https://careers.umich.edu/job_detail/284106,Research Fellow,Research_Fellow,Part-time,Department of Pharmacology,,,10/08/2026,
+631,https://careers.umich.edu/job_detail/280086,RESEARCH FELLOW,Research_Fellow,Part-time,Department of Cell & Developmental Biology,cell-based experimental models Modes of; developmental biology research Previous experience,,10/08/2026,
+631,https://careers.umich.edu/job_detail/284021,RESEARCH FELLOW,Research_Fellow,Part-time,,therapy resistance; relapse,,10/07/2026,
+631,https://careers.umich.edu/job_detail/284029,RESEARCH FELLOW,Research_Fellow,Part-time,,neuroscience A strong publication record; scientific rigor Ability,,10/06/2026,
+631,https://careers.umich.edu/job_detail/284023,RESEARCH FELLOW,Research_Fellow,Part-time,,,,10/06/2026,
+631,https://careers.umich.edu/job_detail/283700,RESEARCH FELLOW,Research_Fellow,Part-time,"Department of Medicinal Chemistry, College of Pharmacy,",RNA biochemistry; RNA sequencing,,10/05/2026,
+631,https://careers.umich.edu/job_detail/283585,RESEARCH FELLOW,Research_Fellow,Part-time,department of Climate and Space Sciences and Engineering,passive radiometric remote sensing Significant; precipitation processes,"November 2, 2026","Dec 1, 2026",
+631,https://careers.umich.edu/job_detail/283886,RESEARCH FELLOW,Research_Fellow,Part-time,School of Public Health,Earth Action Wildland Fires programs; Earth Science,,10/02/2026,
+631,https://careers.umich.edu/job_detail/283839,"Postdoctoral Research Fellow, Tai Lab, LSA BioPhysics",Research_Fellow,Part-time,Department of Biophysics,LSA BioPhysics; aggregates of bacterial cells; evolution of microbial,12/31/2026,10/01/2026,
+631,https://careers.umich.edu/job_detail/283844,RESEARCH FELLOW,Research_Fellow,Part-time,,,,10/01/2026,
+631,https://careers.umich.edu/job_detail/283698,RESEARCH FELLOW,Research_Fellow,Part-time,,,,10/01/2026,
+631,https://careers.umich.edu/job_detail/283740,RESEARCH FELLOW,Research_Fellow,Part-time,,,,9/30/2026,
+631,https://careers.umich.edu/job_detail/283760,Global Center Postdoctoral Research Fellow,Research_Fellow,Part-time,Center for Climate Change and Transboundary Waters,empirical social science field investigation; riverine community resilience,"November 1, 2026",9/30/2026,
+631,https://careers.umich.edu/job_detail/283665,Research Fellowship (2027-2028),Research_Fellow,Part-time,,,,9/29/2026,
+631,https://careers.umich.edu/job_detail/283597,Postdoctoral Research: Applying AI in Environment and Sustainability,Research_Fellow,Part-time,School for Environment and Sustainability,Environment and Sustainability,,9/28/2026,
+631,https://careers.umich.edu/job_detail/280536,RESEARCH FELLOW,Research_Fellow,Part-time,,,,9/24/2026,
+631,https://careers.umich.edu/job_detail/283391,Postdoctoral Research Fellow,Research_Fellow,Part-time,,individual interventions; focused on any level,,9/22/2026,
+631,https://careers.umich.edu/job_detail/283286,RESEARCH FELLOW,Research_Fellow,Part-time,Department of Civil and Environmental Engineering,,,"November 1, 2026",
+631,https://careers.umich.edu/job_detail/283274,Research Fellow,Research_Fellow,Part-time,,,,9/21/2026,
+631,https://careers.umich.edu/job_detail/283107,RESEARCH FELLOW,Research_Fellow,Part-time,"School of Public Health, Public Policy, or other relevant school",these data,"December 1, 2026",9/17/2026,
+631,https://careers.umich.edu/job_detail/277670,RESEARCH FELLOW,Research_Fellow,Part-time,Department of Biomedical Engineering,,,9/17/2026,
+631,https://careers.umich.edu/job_detail/282375,Postdoctoral Research Fellow,Research_Fellow,Part-time,Department of Biostatistics,,,8/28/2026,
+631,https://careers.umich.edu/job_detail/280963,Research Fellow,Research_Fellow,Part-time,Department of Psychology,quantitative research; study design,,8/24/2026,
+631,https://careers.umich.edu/job_detail/280866,Erb Institute Postdoctoral Fellowship,Research_Fellow,Part-time,Institute for Global Sustainable Enterprise,Erb Institute's Affiliated,"December 13, 2026",7/29/2026,
+631,https://careers.umich.edu/job_detail/262165,Postdoctoral Research Fellow,Research_Fellow,Part-time,,,,7/01/2026,
+631,https://careers.umich.edu/job_detail/267955,RESEARCH FELLOW,Research_Fellow,Part-time,Department of Naval Architecture and Marine Engineering,,,8/28/2025,
+631,https://careers.umich.edu/job_detail/263114,RESEARCH FELLOW,Research_Fellow,Part-time,,,,5/05/2025,
