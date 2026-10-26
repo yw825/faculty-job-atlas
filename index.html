@@ -1674,6 +1674,20 @@ function jobSearchText(j, withTitle){
 const RANK_ORDER = ['Assistant_Professor', 'Associate_Professor', 'Full_Professor', 'Lecturer', 'Research_Fellow'];
 const PROF_WORD = { Assistant_Professor:'Assistant', Associate_Professor:'Associate', Full_Professor:'Full' };
 
+const MONTH_ABBR = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+function prettyDate(iso){
+  const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(iso || '');
+  return m ? MONTH_ABBR[+m[2] - 1] + ' ' + m[3] + ', ' + m[1] : iso;
+}
+
+/* The deadline when the posting states one; otherwise the day it was posted
+   (j.o), so there is still a date to judge it by. */
+function jobDateLine(j, short){
+  if(j.x) return (short ? 'Deadline: ' : 'Application deadline: ') + prettyDate(j.x);
+  if(j.o) return 'Posted: ' + prettyDate(j.o) + (short ? '' : ' (no deadline stated)');
+  return (short ? 'Deadline: ' : 'Application deadline: ') + 'not stated';
+}
+
 function jobDisplayTitle(j){
   const own = (j.p || []).filter(r => RANK_ORDER.indexOf(r) !== -1);
   const sel = selectedRanks();
@@ -1917,7 +1931,7 @@ function renderJobList(jobs){
       '<div class="job-row-school">'+escapeHtml(school.name||'')+'</div>'+
       (j.d ? '<div class="job-row-school">'+escapeHtml(j.d)+'</div>' : '')+
       (j.k ? '<div class="job-row-kw">'+escapeHtml(j.k)+'</div>' : '')+
-      '<div class="row-loc">Application deadline: '+(j.x ? escapeHtml(j.x) : 'not stated')+'</div>'+
+      '<div class="row-loc">'+escapeHtml(jobDateLine(j, false))+'</div>'+
       (j.u ? '<div class="row-links"><a class="pop-link" href="'+escapeHtml(jobUrl(j))+'" target="_blank" rel="noopener">View posting ↗</a></div>' : '');
     row.addEventListener('click', function(e){
       if(e.target.closest('a')) return;
@@ -1976,7 +1990,7 @@ function applyJobFilters(){
       '<div style="margin:6px 0;" title="'+escapeHtml(j.t)+'">'+
         (j.u ? '<a class="pop-link" href="'+escapeHtml(jobUrl(j))+'" target="_blank" rel="noopener">'+escapeHtml(jobDisplayTitle(j))+'</a>'
              : escapeHtml(jobDisplayTitle(j)))+
-        '<div class="pop-loc">Deadline: '+(j.x ? escapeHtml(j.x) : 'not stated')+'</div>'+
+        '<div class="pop-loc">'+escapeHtml(jobDateLine(j, true))+'</div>'+
       '</div>').join('');
     marker.bindPopup(
       '<div class="pop-name">'+escapeHtml(school.name||'')+'</div>'+

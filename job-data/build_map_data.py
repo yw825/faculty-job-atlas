@@ -38,11 +38,32 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 from faculty_filter import is_faculty
 from discipline_filter import is_relevant, subjects_of
-from job_info_lib import refine_position_type
+from job_info_lib import extract_deadline, extract_posted_date
+from rank_classifier import classify_rank
 from dedupe import dedupe  # noqa: E402
 ROOT = os.path.dirname(HERE)
 INFO_DIR = os.path.join(HERE, 'school_job_info')
 POSTS_CODE_DIR = os.path.join(HERE, 'school_job_posts_code')
+INFO_CODE_DIR = os.path.join(HERE, 'school_job_info_code')
+
+_advert_cache = {}
+
+
+def advert_text(sid, url):
+    """The advert text the info stage read for this posting (its checkpoint
+    keeps it), or ''. Rank and the posted date are read from it here, so a
+    rule change reaches every posting without re-reading 1,900 boards."""
+    if sid not in _advert_cache:
+        try:
+            with open(os.path.join(INFO_CODE_DIR, f'school_id_{sid}_job_info.checkpoint'),
+                      encoding='utf-8') as f:
+                _advert_cache[sid] = json.load(f).get('raw') or {}
+        except (OSError, ValueError):
+            _advert_cache[sid] = {}
+    entry = _advert_cache[sid].get(url)
+    return (entry.get('description') or '') if isinstance(entry, dict) else ''
+
+
 OUT_PATH = os.path.join(ROOT, 'postings.json')
 
 _MONTHS = ('january february march april may june july august september '
@@ -51,17 +72,22 @@ _MONTH_NUM = {m: i + 1 for i, m in enumerate(_MONTHS)}
 _MONTH_NUM.update({m[:3]: i + 1 for i, m in enumerate(_MONTHS)})
 
 _ISO_RE = re.compile(r'\b(\d{4})-(\d{2})-(\d{2})\b')
-_DMY_RE = re.compile(r'\b(\d{1,2})[/.](\d{1,2})[/.](\d{4})\b')
+_SLASH_RE = re.compile(r'\b(\d{1,2})[/.](\d{1,2})[/.](\d{4}|\d{2})\b')
 _MDY_RE = re.compile(r'\b([A-Za-z]{3,9})\s+(\d{1,2})(?:st|nd|rd|th)?,?\s+(\d{4})\b')
 _DMY_TEXT_RE = re.compile(r'\b(\d{1,2})(?:st|nd|rd|th)?\s+([A-Za-z]{3,9}),?\s+(\d{4})\b')
 _MY_RE = re.compile(r'\b([A-Za-z]{3,9})\s+(\d{4})\b')
 
 
-def normalize_date(value):
+def normalize_date(value, country=''):
     """Free text -> ISO 'YYYY-MM-DD', or '' when nothing parses. Postings
     write dates every way imaginable ("July 1, 2027", "31/03/2031",
     "1st September 2026", "Autumn 2027"); a month-and-year-only value is
-    pinned to the 1st so it can still be range-filtered."""
+    pinned to the 1st so it can still be range-filtered.
+
+    A slash date is month-first in the US ("11/05/2026" is November 5) and
+    day-first elsewhere; a part over 12 settles it either way. Reading
+    every one day-first had filed US deadlines a month or more off and
+    dropped any whose day was over 12."""
     if not value:
         return ''
     text = value.strip()
@@ -82,10 +108,17 @@ def normalize_date(value):
         if month:
             return _safe_iso(int(m.group(3)), month, int(m.group(1)))
 
-    m = _DMY_RE.search(text)
+    m = _SLASH_RE.search(text)
     if m:
-        # day-first: every source using this form here is non-US
-        return _safe_iso(int(m.group(3)), int(m.group(2)), int(m.group(1)))
+        a, b, year = int(m.group(1)), int(m.group(2)), int(m.group(3))
+        if year < 100:
+            year += 2000
+        month_first = (country or 'US') in ('US', 'USA', 'United States')
+        if a > 12 and b <= 12:
+            month_first = False
+        elif b > 12 and a <= 12:
+            month_first = True
+        return _safe_iso(year, a, b) if month_first else _safe_iso(year, b, a)
 
     m = _MY_RE.search(text)
     if m:
@@ -385,18 +418,30 @@ def main():
                 # page shows them literally, so they are decoded here.
                 title = html.unescape(title)
                 dept = html.unescape(dept)
+                url = (row.get('posting_url') or '').strip()
+                advert = advert_text(sid, url)
+                country = school.get('country', '')
+                deadline = (normalize_date(row.get('deadline_of_application'), country)
+                            or normalize_date(extract_deadline(advert), country))
+                posted = (normalize_date(row.get('posted_date'), country)
+                          or normalize_date(extract_posted_date(advert), country))
+                start = normalize_date(row.get('position_start_date'), country)
+                if start and start == posted:
+                    # Workday's "startDate" is the posting date, and older
+                    # info rows stored it as the job's start.
+                    start = ''
                 postings.append({
                     's': sid,
                     't': title,
-                    'p': refine_position_type(
-                        title, [t for t in (row.get('position_type') or '').split('; ') if t]),
+                    'p': classify_rank(title, advert, school.get('country', '')),
                     'f': subjects_of(title, dept, keywords),
                     'j': (row.get('job_term') or '').strip(),
                     'd': dept,
                     'k': keywords,
-                    'u': (row.get('posting_url') or '').strip(),  # trimmed below
-                    'x': normalize_date(row.get('deadline_of_application')),
-                    'b': normalize_date(row.get('position_start_date')),
+                    'u': url,  # trimmed below
+                    'x': deadline,
+                    'o': posted,
+                    'b': start,
                     'n': '',      # first_seen, filled in below
                 })
 

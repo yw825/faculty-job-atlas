@@ -59,6 +59,7 @@ from html import unescape
 from urllib.parse import parse_qs, urlparse
 
 import job_postings_lib as jlib
+from rank_classifier import classify_rank
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT_DIR = os.path.join(HERE, 'school_job_info')
@@ -66,7 +67,7 @@ POSTS_CODE_DIR = os.path.join(HERE, 'school_job_posts_code')
 
 FIELDS = ['school_id', 'posting_url', 'job_title_in_post', 'position_type', 'job_term',
           'department_or_school', 'area_key_words', 'deadline_of_application',
-          'position_start_date']
+          'position_start_date', 'posted_date']
 
 # Re-exported so a per-school script can do `from job_info_lib import fetch_rendered`
 # without a second import line.
@@ -116,230 +117,7 @@ def write_info_csv(school_id, rows_by_url, ordered_urls):
 # for the honesty caveat on area_key_words and department_or_school.
 # --------------------------------------------------------------------------
 
-POSITION_TYPE_VALUES = ('Assistant_Professor', 'Associate_Professor', 'Full_Professor',
-                         'Lecturer', 'Research_Fellow', 'Non-academic')
-
-_BOTH_AP_RE = re.compile(r'assistant\s*(?:/|,|\bor\b)\s*associate\s+professor', re.I)
-_ASSISTANT_PROF_RE = re.compile(r'\bassistant\s+professor\b', re.I)
-_ASSOCIATE_PROF_RE = re.compile(r'\bassociate\s+professor\b', re.I)
-_PROFESSOR_RE = re.compile(r'\bprofessor\b', re.I)
-_LECTURER_RE = re.compile(r'\b(teaching fellow|senior lecturer|lecturer)\b', re.I)
-_RESEARCH_FELLOW_RE = re.compile(
-    r'\b(research fellow|research associate|research scientist|'
-    r'post[- ]?doc(?:toral)?(?:\s+research(?:er)?)?|postdoctoral researcher)\b', re.I)
-_NON_ACADEMIC_RE = re.compile(
-    r'\b(technician|research assistant\b(?!\s+professor)|support officer|administrator|'
-    r'coordinator|manager|analyst|specialist|librarian|clerk)\b', re.I)
-
-
-# An enumerated rank list -- "Marketing Professor (Assistant, Associate, or
-# Full)", "Professor (Assistant/Associate)" -- names every rank the post is
-# open to, but reads as none of the two-word forms above.
-_RANK_LIST_RE = re.compile(
-    r'professor\s*\(([^)]*\b(?:assistant|associate|full)\b[^)]*)\)|'
-    r'\b((?:assistant|associate|full)(?:\s*[,/]\s*|\s+or\s+)'
-    r'(?:assistant|associate|full)(?:(?:\s*[,/]\s*|\s+or\s+)(?:assistant|associate|full))?)'
-    r'\s+professor', re.I)
-
-
-def _rank_values(text, enumerated=False):
-    """Rank names found in one piece of text, or [] for none.
-
-    `enumerated` enables the "a leftover bare Professor is its own rank"
-    rule. That rule is only meaningful for a TITLE, where every word is
-    part of the job's name. Applied to a description it fires on any
-    passing mention of a professor and wrongly marks the post as open to
-    full professors (it inflated Full_Professor from 522 to 913 across the
-    dataset before being restricted here)."""
-    values = []
-    m = _RANK_LIST_RE.search(text)
-    if m:
-        listed = (m.group(1) or m.group(2) or '').lower()
-        if 'assistant' in listed:
-            values.append('Assistant_Professor')
-        if 'associate' in listed:
-            values.append('Associate_Professor')
-        if 'full' in listed:
-            values.append('Full_Professor')
-        # A bare "Professor" standing alongside the junior ranks is its own
-        # rank, not a leftover word: "Chair Professor/Professor/Associate
-        # Professor/Assistant Professor" (the standard Hong Kong phrasing)
-        # is open to full professors too.
-        if enumerated:
-            residue = re.sub(r'\b(?:assistant|associate|full)\s+professors?\b', ' ', text,
-                             flags=re.I)
-            if values and _PROFESSOR_RE.search(residue) and 'Full_Professor' not in values:
-                values.append('Full_Professor')
-        if values:
-            return values
-    if _BOTH_AP_RE.search(text):
-        values += ['Assistant_Professor', 'Associate_Professor']
-    else:
-        if _ASSISTANT_PROF_RE.search(text):
-            values.append('Assistant_Professor')
-        if _ASSOCIATE_PROF_RE.search(text):
-            values.append('Associate_Professor')
-    if not values:
-        return ['Full_Professor'] if _PROFESSOR_RE.search(text) else []
-    # Same reasoning as in the enumerated case above: once the junior ranks
-    # are accounted for, a "Professor" still left over is a rank of its own
-    # ("Chair Professor/Professor/Associate Professor/Assistant Professor").
-    if enumerated:
-        residue = re.sub(r'\b(?:assistant|associate|full)\s+professors?\b', ' ', text, flags=re.I)
-        if _PROFESSOR_RE.search(residue) and 'Full_Professor' not in values:
-            values.append('Full_Professor')
-    return values
-
-
-# "Candidates at all ranks are encouraged to apply", "open rank", "at all
-# levels" -- a posting that names no rank in its title because it is open to
-# every rank. Read as all three professorial ranks rather than as none, so
-# an Assistant Professor search actually finds it (confirmed live: Sabanci
-# University's "Full-Time Faculty Position in Business Analytics &
-# Information Systems" says exactly this, and was being filed as
-# Full_Professor only).
-_OPEN_RANK_RE = re.compile(
-    r'\b(?:at\s+)?(?:all|any)\s+(?:academic\s+)?(?:ranks?|levels?)\b|'
-    r'\bopen[- ]rank\b|\brank\s+(?:is\s+)?(?:open|commensurate|will\s+be\s+commensurate)\b',
-    re.I)
-
-
-def classify_position_type(title, description=''):
-    """Returns a list of POSITION_TYPE_VALUES entries (possibly more than
-    one, e.g. a posting spanning "Assistant or Associate Professor"), or
-    ['Unclassified'] if nothing matched.
-
-    RANK COMES FROM THE TITLE whenever the title names one -- any one,
-    professorial or not. Matching rank words across title+description
-    together was badly over-assigning Full_Professor, because a description
-    says "professor" for all sorts of reasons that aren't the rank on offer:
-    "Lecturer in Business Analytics" came back as Full_Professor AND
-    Lecturer, and Sabanci University's posting was filed as Full_Professor
-    on the strength of "send your documents to Professor Nihat Kasap", a
-    contact name (both confirmed live).
-
-    The description is consulted only when the title names no rank at all,
-    and even then a lone bare "professor" in it is NOT treated as evidence
-    of a full professorship, for the same contact-name reason -- an explicit
-    rank phrase or an open-rank statement is required."""
-    title_ranks = _rank_values(title, enumerated=True)
-    title_lecturer = bool(_LECTURER_RE.search(title))
-    title_fellow = bool(_RESEARCH_FELLOW_RE.search(title))
-    title_names_rank = bool(title_ranks) or title_lecturer or title_fellow
-
-    text = f'{title} {description}'
-    values = []
-    if title_names_rank:
-        values += title_ranks
-        if title_lecturer:
-            values.append('Lecturer')
-        if title_fellow:
-            values.append('Research_Fellow')
-    else:
-        if _OPEN_RANK_RE.search(text):
-            values += ['Assistant_Professor', 'Associate_Professor', 'Full_Professor']
-        else:
-            # explicit two-word ranks only -- a bare "professor" here is as
-            # likely to be a contact name as the job's rank
-            if _BOTH_AP_RE.search(text):
-                values += ['Assistant_Professor', 'Associate_Professor']
-            else:
-                if _ASSISTANT_PROF_RE.search(text):
-                    values.append('Assistant_Professor')
-                if _ASSOCIATE_PROF_RE.search(text):
-                    values.append('Associate_Professor')
-        if _LECTURER_RE.search(text):
-            values.append('Lecturer')
-        if _RESEARCH_FELLOW_RE.search(text):
-            values.append('Research_Fellow')
-
-    if not values and _NON_ACADEMIC_RE.search(text):
-        values.append('Non-academic')
-    return refine_position_type(title, values)
-
-
-_PROF_RANKS = ['Assistant_Professor', 'Associate_Professor', 'Full_Professor']
-_TITLE_OPEN_RANK_RE = re.compile(
-    r'\bopen[- ]?rank|\b(?:all|any)\s+(?:academic\s+)?ranks?\b|\brank\s+open\b', re.I)
-_ASST_TO_ASSOC_RE = re.compile(r'\bassistant\s+(?:to|-|–|—)\s+associate\b', re.I)
-_ABBREV_ASST_RE = re.compile(r'\b(?:asst|ast)\b\.?', re.I)
-_ABBREV_ASSOC_RE = re.compile(r'\b(?:assoc|asc)\b\.?', re.I)
-_PROF_WORD_RE = re.compile(r'\bprof(?:essor)?s?\b', re.I)
-# Posts filed under "Lecturer / Teaching": part-time and teaching-only
-# appointments, whatever their title calls the person.
-_TEACHING_RE = re.compile(
-    r'\badjunct\b|\binstructors?\b|\bteaching\s+(?:faculty|stream|track|fellow)|'
-    r'\bpro\s+tem\b|\bsessional\b|\btutor\b|\bdemonstrator\b|\bpart[- ]time\b|'
-    r'\bprofessors?\s+of\s+(?:the\s+)?practice\b|\bclinical[- ]track\b|\bnon[- ]tenure\b|'
-    r'\bcourse\s+(?:instructor|lecturer)\b|\buniversity\s+teacher\b|\blecturers?\b|\bteachers?\b',
-    re.I)
-_RESEARCH_ROLE_RE = re.compile(
-    r'\bscientists?\b|\bresearchers?\b|\bresearch\s+professional\b|\bfellow(?:s|ships?)?\b|'
-    r'\bgroup\s+leader\b', re.I)
-_CHAIR_RE = re.compile(r'\b(?:endowed|eminent|distinguished)\b.*\b(?:chair|professorship)\b|'
-                       r'\bdepartment\s+chair\b|\bchair\s+(?:and|&)\s+professor\b', re.I)
-_FACULTY_RE = re.compile(r'\bfaculty\b|\bprofessorships?\b|\bpositions?\b|\btenure[- ]track\b', re.I)
-
-
-def refine_position_type(title, values):
-    """Read the rank off the title more fully than classify_position_type's
-    first pass, so every post lands under the rank boxes a searcher would
-    tick for it. Takes that pass's values (or a stored position_type split
-    into a list) and returns the corrected list.
-
-    - "Open Rank Professor": the bare "Professor" filed it as Full only;
-      an open-rank title is all three professorial ranks.
-    - "Assistant to Associate Professor", "Asst/Assoc Professor", "Ast/Asc/
-      Full Professor": every rank named, abbreviated or not.
-    - "Adjunct Professor", "Professor of Practice": teaching appointments,
-      not full professorships.
-    - A faculty post that names no rank at all ("Faculty Positions in
-      Information Systems") is open to all three ranks; adjuncts and
-      instructors go to Lecturer / Teaching, scientists and researchers to
-      Research Fellow."""
-    title = title or ''
-    vals = [v for v in values if v and v != 'Unclassified']
-    prof = [v for v in vals if v in _PROF_RANKS]
-
-    if _TITLE_OPEN_RANK_RE.search(title):
-        prof = list(_PROF_RANKS)
-    elif _PROF_WORD_RE.search(title):
-        if _ASST_TO_ASSOC_RE.search(title):
-            prof += ['Assistant_Professor', 'Associate_Professor']
-        if _ABBREV_ASST_RE.search(title):
-            prof.append('Assistant_Professor')
-        if _ABBREV_ASSOC_RE.search(title):
-            prof.append('Associate_Professor')
-        if (prof == ['Full_Professor'] and _TEACHING_RE.search(title)
-                and not re.search(r'\bfull\s+professor', title, re.I)):
-            prof = []
-            vals.append('Lecturer')
-        # "Ast/Asc/Full Professor", "Asst/Assoc Professor": the full-rank
-        # guess from a leftover bare "Professor" no longer applies once the
-        # abbreviations are read -- keep Full only if the title says so.
-        if ('Full_Professor' in prof and (_ABBREV_ASST_RE.search(title) or _ABBREV_ASSOC_RE.search(title))
-                and not re.search(r'\bfull\b|\bprofessor\s*/|/\s*professor\b', title, re.I)):
-            prof = [p for p in prof if p != 'Full_Professor']
-
-    others = [v for v in vals if v not in _PROF_RANKS]
-    if not prof and not any(v in ('Lecturer', 'Research_Fellow') for v in others):
-        # An adjunct or instructor post read as "Non-academic" on a stray
-        # word ("Coordinator", "Developer") is still a teaching post.
-        academic = [v for v in others if v != 'Non-academic']
-        if _TEACHING_RE.search(title):
-            others = academic + ['Lecturer']
-        elif _RESEARCH_ROLE_RE.search(title):
-            others = academic + ['Research_Fellow']
-        elif _CHAIR_RE.search(title):
-            prof, others = ['Full_Professor'], academic
-        elif _FACULTY_RE.search(title) or not others:
-            prof, others = list(_PROF_RANKS), academic
-
-    out = []
-    for v in [p for p in _PROF_RANKS if p in prof] + others:
-        if v not in out:
-            out.append(v)
-    return out or ['Unclassified']
+# position_type comes from rank_classifier.classify_rank (country-aware).
 
 
 _PART_TIME_RE = re.compile(r'\b(part[- ]time|fractional|0\.\d+\s*fte|\d+%\s*fte)\b', re.I)
@@ -396,8 +174,11 @@ def extract_department(title, description=''):
     return ''
 
 
+# Full names and the usual abbreviations ("Nov 05, 2026" is how Interfolio's
+# position API writes its dates).
 _MONTH_NAMES = (r'january|february|march|april|may|june|july|august|'
-                r'september|october|november|december')
+                r'september|october|november|december|'
+                r'jan\.?|feb\.?|mar\.?|apr\.?|jun\.?|jul\.?|aug\.?|sept?\.?|oct\.?|nov\.?|dec\.?')
 _ISO_DATE_RE = re.compile(r'\b\d{4}-\d{2}-\d{2}\b')
 _SLASH_DATE_RE = re.compile(r'\b\d{1,2}/\d{1,2}/\d{2,4}\b')
 _MONTH_DATE_RE = re.compile(
@@ -463,6 +244,19 @@ def extract_start_date(description=''):
 
 def extract_deadline(description=''):
     return _find_date_near(description or '', _DEADLINE_INCLUDE, _DEADLINE_EXCLUDE)
+
+
+# When the advert went up: shown on the map in place of a deadline the
+# posting doesn't state.
+_POSTED_INCLUDE = (r'\bposted\b', r'\bposting\s+(?:start\s+)?date\b', r'\bpost\s+date\b',
+                   r'\bdate\s+posted\b', r'\bopen(?:ing)?\s+date\b', r'\bdate\s+opened\b',
+                   r'\bpublished\b', r'\badvertised\b', r'\bpublication\s+date\b')
+# "Posting Start Date" is when the advert opened, not the job's start.
+_POSTED_EXCLUDE = (r'\bclos\w*', r'\bdeadline\b', r'\breview\b', r'(?<!posting\s)\bstart\b', r'\bbegin\b')
+
+
+def extract_posted_date(description=''):
+    return _find_date_near(description or '', _POSTED_INCLUDE, _POSTED_EXCLUDE, window=30)
 
 
 
@@ -1276,13 +1070,14 @@ def classify_row(school_id, url, title, description='', department=None,
         'school_id': school_id,
         'posting_url': url,
         'job_title_in_post': title.strip(),
-        'position_type': '; '.join(classify_position_type(title, description)),
+        'position_type': '; '.join(classify_rank(title, description)),
         'job_term': classify_job_term(title, description),
         'department_or_school': department.strip() if department else extract_department(title, description),
         'area_key_words': extract_keywords(title, description, corpus_stats=corpus_stats,
                                             use_llm=use_llm, llm_client=llm_client,
                                             school_id=school_id),
         'deadline_of_application': extract_deadline(description),
+        'posted_date': extract_posted_date(description),
         'position_start_date': extract_start_date(description),
     }
 
@@ -1442,9 +1237,11 @@ def fetch_detail_workday(url):
     43% of the US postings (10,930 of 25,198), so routing them through the
     API instead of a browser is the difference between hours and minutes.
 
-    The JSON also carries postedOn and startDate, which the page text often
-    doesn't state at all; both are prepended to the description so the
-    existing date extractors can find them."""
+    The JSON's startDate is the day the advert was POSTED (postedOn is only
+    the relative "Posted 30+ Days Ago"), not the job's start -- confirmed on
+    Penn State's REQ_0000081225, startDate 2026-08-10 beside "Posted 30+ Days
+    Ago". It is prepended as "Posted:" so the date extractors read it as
+    the posted date."""
     parsed = urlparse(url)
     if parsed.netloc.endswith('.myworkdaysite.com'):
         # .../recruiting/<tenant>/<site>/job/... (Wellesley): same CXS service
@@ -1459,8 +1256,7 @@ def fetch_detail_workday(url):
                 if info.get('title'):
                     from bs4 import BeautifulSoup
                     body = BeautifulSoup(info.get('jobDescription') or '', 'html.parser').get_text(' ', strip=True)
-                    dates = ' '.join(x for x in (f"Posted: {info.get('postedOn')}" if info.get('postedOn') else '',
-                                                  f"Start date: {info.get('startDate')}" if info.get('startDate') else '') if x)
+                    dates = f"Posted: {info['startDate']}" if info.get('startDate') else ''
                     return info['title'][:250], re.sub(r'\s+', ' ', f"{dates} {info['title']}. {body}")[:20000]
         raise RuntimeError('myworkdaysite posting not served (closed?)')
     m = _WORKDAY_HOST_RE.match(parsed.netloc)
@@ -1499,9 +1295,7 @@ def fetch_detail_workday(url):
         body = unescape(re.sub(r'[ \t]+', ' ', body)).strip()
         head = []
         if info.get('startDate'):
-            head.append(f"Start date: {info['startDate']}")
-        if info.get('postedOn'):
-            head.append(f"Posted: {info['postedOn']}")
+            head.append(f"Posted: {info['startDate']}")
         if info.get('timeType'):
             head.append(str(info['timeType']))
         return title, ('\n'.join(head) + '\n\n' + body).strip()
@@ -2071,7 +1865,9 @@ def fetch_detail_interfolio(url):
         # a closed position can answer 200 with an empty record (28 of Penn's)
         raise RuntimeError('interfolio position has no name (closed?)')
     head = [f"Department: {r['institution']}" if r.get('institution') else '',
-            f"Location: {r['location']}" if r.get('location') else '']
+            f"Location: {r['location']}" if r.get('location') else '',
+            f"Posted: {r['start_date']}" if r.get('start_date') else '',
+            f"Deadline: {r['end_date']}" if r.get('end_date') else '']
     return (r.get('position_name') or '').strip(), ' '.join(h for h in head + [text] if h)
 
 
