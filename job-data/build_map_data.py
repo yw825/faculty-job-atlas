@@ -421,10 +421,21 @@ def main():
                 url = (row.get('posting_url') or '').strip()
                 advert = advert_text(sid, url)
                 country = school.get('country', '')
-                deadline = (normalize_date(row.get('deadline_of_application'), country)
-                            or normalize_date(extract_deadline(advert), country))
+                # Read from the advert whenever it is kept: the extractor
+                # improves faster than the info CSVs are re-read, and a
+                # stored deadline can be an old wrong pick ("PhD ... by
+                # August 16, 2027"). The CSV only stands in when it isn't.
                 posted = (normalize_date(row.get('posted_date'), country)
                           or normalize_date(extract_posted_date(advert), country))
+                # a deadline written with no year is dated from when the
+                # advert went up, else from when it was last read
+                ref_iso = posted or seen_on.get(sid) or ''
+                try:
+                    ref = date.fromisoformat(ref_iso)
+                except ValueError:
+                    ref = None
+                deadline = (normalize_date(extract_deadline(advert, ref), country) if advert
+                            else normalize_date(row.get('deadline_of_application'), country))
                 start = normalize_date(row.get('position_start_date'), country)
                 if start and start == posted:
                     # Workday's "startDate" is the posting date, and older

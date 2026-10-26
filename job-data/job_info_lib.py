@@ -220,7 +220,7 @@ def _find_date_near(text, include_signals, exclude_signals, window=70):
     the wrong one for a deadline). Checking that the *other* signal's words
     are absent from the same window is what actually tells them apart."""
     candidates = []
-    for pattern in (_ISO_DATE_RE, _MONTH_DATE_RE, _SLASH_DATE_RE):
+    for pattern in (_ISO_DATE_RE, _MONTH_DATE_RE, _SLASH_DATE_RE, _DMY_TEXT_DATE_RE):
         for m in pattern.finditer(text):
             window_text = text[max(0, m.start() - window):m.start()]
             if (any(re.search(sig, window_text, re.I) for sig in include_signals) and
@@ -233,17 +233,166 @@ def _find_date_near(text, include_signals, exclude_signals, window=70):
 _START_INCLUDE = (r'\bstart\b', r'\bbegin\b', r'\bcommenc\w*', r'\beffective\b', r'\bas of\b')
 _START_EXCLUDE = (r'\bapplication', r'\breview\b', r'\bclos\w*', r'\bdeadline\b')
 
-_DEADLINE_INCLUDE = (r'\bclos\w*', r'\bdeadline\b', r'\bapply\b', r'\bapplications?\b',
-                      r'\breview of applications')
-_DEADLINE_EXCLUDE = (r'\bstart\b', r'\bcommenc\w*', r'\bposition (?:will |is )', r'\bappointment\b')
-
 
 def extract_start_date(description=''):
     return _find_date_near(description or '', _START_INCLUDE, _START_EXCLUDE)
 
 
-def extract_deadline(description=''):
-    return _find_date_near(description or '', _DEADLINE_INCLUDE, _DEADLINE_EXCLUDE)
+_DMY_TEXT_DATE_RE = re.compile(
+    rf'\b(?P<day>\d{{1,2}})(?:st|nd|rd|th)?\s+(?:of\s+)?(?P<month>{_MONTH_NAMES})\s*,?\s+'
+    rf'(?P<year>\d{{4}})\b', re.I)
+
+
+# "Review of applications will begin on October 13", "received by
+# December 1": a month and day with no year.
+_MONTH_DAY_RE = re.compile(
+    rf'\b(?P<month>{_MONTH_NAMES})\s+(?P<day>\d{{1,2}})(?:st|nd|rd|th)?\b(?!\s*,?\s*\d{{4}})'
+    rf'(?![:/.]?\d)', re.I)
+_MONTH_NUMBERS = {name[:3]: i + 1 for i, name in enumerate(
+    'jan feb mar apr may jun jul aug sep oct nov dec'.split())}
+
+
+def _infer_year(month_name, day, ref):
+    """The year of a year-less date: the first time it falls on or after
+    two months before `ref` (the day the advert was posted or read), so a
+    "December 1" read in October is this December and a "January 15" read
+    in November is next January."""
+    import datetime as _dt
+    month = _MONTH_NUMBERS.get(month_name[:3].lower())
+    if not month:
+        return None
+    for year in (ref.year, ref.year + 1):
+        try:
+            d = _dt.date(year, month, int(day))
+        except ValueError:
+            return None
+        if d >= ref - _dt.timedelta(days=60):
+            return year
+    return None
+
+
+def _all_dates(text, ref=None):
+    """(start, end, cleaned) for every date-shaped match, in text order.
+    With `ref` (a date), month-and-day dates with no year are included,
+    their year inferred from it."""
+    out = []
+    for pattern in (_ISO_DATE_RE, _MONTH_DATE_RE, _SLASH_DATE_RE, _DMY_TEXT_DATE_RE):
+        for m in pattern.finditer(text):
+            if pattern is _DMY_TEXT_DATE_RE:
+                cleaned = f"{m.group('day')} {m.group('month').capitalize()} {m.group('year')}"
+            else:
+                cleaned = _clean_date_match(m)
+            out.append((m.start(), m.end(), cleaned))
+    if ref is not None:
+        taken = [(a, b) for a, b, _ in out]
+        for m in _MONTH_DAY_RE.finditer(text):
+            if any(a <= m.start() < b for a, b in taken):
+                continue
+            year = _infer_year(m.group('month'), m.group('day'), ref)
+            if year:
+                out.append((m.start(), m.end(),
+                            f"{m.group('month').rstrip('.').capitalize()} {int(m.group('day'))}, {year}"))
+    out.sort()
+    return out
+
+
+# What an advert says right before its deadline, strongest first. The cue
+# must end within _CUE_GAP characters of the date, which leaves room for a
+# weekday or a time ("received by Monday, November 3, 2026", "Closing
+# Date: 12:00 noon (local Irish time) on 13 October 2026").
+_DEADLINE_CUES = [
+    (100, re.compile(
+        r'\bdeadline\b|\bclosing\s+date\b|\bclose\s+date\b|\bcloses\b|\bclosing\s+on\b|'
+        r'\bapplications?\s+(?:will\s+)?close\b|\bapply\s+by\b|\b(?:applications?\s+)?due\b|'
+        r'\b(?:posting|job\s+posting|advert(?:isement)?|application|vacancy)\s+end\s+date\b|'
+        r'\btime\s+left\s+to\s+apply\b|\bexpir(?:y|ation|es)\s+date\b', re.I)),
+    (90, re.compile(
+        r'\b(?:received|submitted|completed|uploaded|sent|submit(?:ted)?\s+in\s+full)\s+'
+        r'(?:\w+\s+){0,2}?(?:by|before|no\s+later\s+than|on\s+or\s+before|prior\s+to)\b|'
+        r'\bno\s+later\s+than\b|\bon\s+or\s+before\b|'
+        r'\b(?:submit|send|upload)\b[^.;]{0,80}?\b(?:by|before)\b|'
+        r'\bapply\b[^.;]{0,40}?\b(?:by|before)\b|\bbest\s+consideration\b[^.;]{0,30}?(?:date|by|before)?|'
+        r'\bfull\s+consideration\b[^.;]{0,40}?\b(?:by|before)\b|'
+        r'\bpriority\s+(?:deadline|date|consideration|review)\b', re.I)),
+    (80, re.compile(
+        r'\b(?:accepted|considered|open|received)\s+(?:\w+\s+){0,2}?(?:until|through)\b|'
+        r'\baccept(?:ing)?\s+applications\s+(?:\w+\s+){0,2}?(?:until|through)\b', re.I)),
+    (70, re.compile(
+        r'\b(?:review|screening|evaluation|consideration)\s+of\s+(?:\w+\s+){0,2}?'
+        r'(?:applications|applicants|candidates|materials|resumes|files|dossiers)\s+'
+        r'(?:will\s+|to\s+|is\s+expected\s+to\s+)?(?:begin|commence|start)s?\b|'
+        r'\b(?:application|applicant)\s+review\s+(?:will\s+)?(?:begin|commence|start)s?\b|'
+        r'\breview\s+(?:will\s+)?(?:begin|commence|start)s?\b|'
+        r'\bbegin\s+reviewing\b|\bscreening\s+(?:will\s+)?(?:begin|commence)s?\b|'
+        r'\b(?:applications|review)\s+(?:will\s+be\s+)?(?:reviewed|considered)\s+(?:beginning|starting)\b|'
+        r'\breview\s+applications\s+(?:beginning|starting)\b|'
+        r'\b(?:first|initial|priority)\s+(?:consideration|review|application\s+review)\s+date\b|'
+        r'(?<!next\s)(?<!recent\s)\breview\s+date\b', re.I)),
+]
+_CUE_GAP = 60
+# A date read as "applications received by November 8, 2026, will receive
+# full consideration" can also be cued from behind.
+_DEADLINE_AFTER = re.compile(
+    r'^[\s,]*(?:\d{1,2}(?::\d\d)?\s*(?:a\.?m\.?|p\.?m\.?|noon)[^.;]{0,30})?'
+    r'(?:,\s*)?(?:will|to)\s+(?:receive|ensure|be\s+given)\s+(?:full|priority|best)\s+consideration', re.I)
+# Anywhere in the cue's clause, these make it some other date: a degree to
+# be finished by then ("ABD candidates ... completed before September 1"),
+# an appointment's anticipated end.
+_NOT_DEADLINE_CLAUSE = re.compile(
+    r'\bdegree\b|\bph\.?\s?d\b|\bdoctora|\bABD\b|\bdissertation\b|\bconferred\b|\bin\s+hand\b|'
+    r'\bcompleted?\s+(?:all|the)\b|\banticipated\b|\bappointment\b|\bemployment\s+(?:begin|start)|'
+    r'\b(?:to|position\s+will|job\s+will)\s+(?:begin|start)\b', re.I)
+# Between the cue and the date only: the job's start, when the advert went
+# up, a rolling review.
+_NOT_DEADLINE_GAP = re.compile(
+    r'\bstart(?:s|ing)?\b(?!\s+(?:on|reviewing))|\bcommence(?:ment|s)?\s+(?:of|date)\b|'
+    r'\bemployment\b|\beffective\b|\bsemester\b|\bacademic\s+year\b|'
+    r'\bposted\b|\bposting\s+(?:start\s+)?date\b|\bopen\s+date\b|\bdate\s+posted\b|'
+    r'\bwindow\s+open\b|\bpublished\b|\badvertised\b|\b(?:next|most\s+recent)\s+review\b|\bregularly\b', re.I)
+
+
+def extract_deadline(description='', ref=None):
+    """The application deadline stated in an advert, or ''.
+
+    Every date is scored by the strongest deadline cue that ends just before
+    it -- an explicit "Deadline"/"Closing date" outranks "received by",
+    which outranks "accepted until", which outranks "review of applications
+    will begin" -- and the best-scored date wins (the earliest on a tie).
+    Matching "any application word somewhere near a date" picked the wrong
+    one: Binghamton's 204740 says "PhD ... by August 16, 2027" before
+    "Applications received by November 8, 2026, will receive full
+    consideration", and the first was taken as the deadline.
+
+    `ref` is the day the advert was posted or read; it dates a deadline
+    written with no year ("received by December 1"). Without it, today.
+    An explicit label ("Deadline", "Close Date") is trusted whatever else
+    its clause says; the weaker cues are not when the clause is about a
+    degree ("completed before September 1") or an appointment."""
+    import datetime as _dt
+    text = description or ''
+    best = None
+    for start, end, cleaned in _all_dates(text, ref or _dt.date.today()):
+        before = text[max(0, start - 160):start]
+        score = 0
+        for points, cue in _DEADLINE_CUES:
+            for m in cue.finditer(before):
+                gap = before[m.end():]
+                # the cue's own clause, from the last sentence break before it
+                clause = re.split(r'[.;:]\s|\n', before[:m.start()])[-1][-90:] + before[m.start():]
+                # "Open Date  Close Date  <title>  <open date>": a table header,
+                # the first date under it is the open date
+                if points == 100 and re.search(r'(?i)\bopen(?:ing)?\s+date\s*\W{0,3}$', before[:m.start()]):
+                    continue
+                if len(gap) <= _CUE_GAP and (points == 100 or not _NOT_DEADLINE_CLAUSE.search(clause)) \
+                        and not _NOT_DEADLINE_GAP.search(gap) and not re.search(r'[.;]\s', gap):
+                    score = max(score, points)
+        if score < 90 and _DEADLINE_AFTER.match(text[end:end + 90]) \
+                and not _NOT_DEADLINE_CLAUSE.search(before[-90:]) \
+                and not _NOT_DEADLINE_GAP.search(before[-40:]):
+            score = 90
+        if score and (best is None or score > best[0]):
+            best = (score, cleaned)
+    return best[1] if best else ''
 
 
 # When the advert went up: shown on the map in place of a deadline the
