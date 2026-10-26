@@ -1,147 +1,170 @@
 """Which faculty postings the map shows: the user's own fields only.
 
-The user's decision of 2026-10-22 ("I only care about jobs related to me"):
-keep business analytics / information systems / MIS, data science /
-operations research / industrial engineering, and statistics / applied
-math -- drop postings that are clearly in some other field. This is a
-first pass: it removes only what is UNAMBIGUOUSLY outside those fields
-(a title/department/keyword match on medicine, nursing, humanities, pure
-natural science, pure business functions, non-target engineering
-branches, education, law, the arts, ...). A posting that names no
-department this precise, or whose department could plausibly be one of
-the three groups, is left on the map rather than guessed away -- the user
-can prune further once this pass is reviewed.
+The user's fields (2026-10-22): business analytics / information systems /
+MIS; data science / operations research / industrial engineering;
+statistics / applied math; and AI / machine learning. Everything else is
+dropped -- the fields are narrow, so an ambiguous posting is dropped too.
 
-Matching runs over title + department_or_school + area_key_words together,
-since a school's own naming varies (department_or_school is often blank,
-and the discipline then shows up only in the title or the keywords read
-from the advert text).
+The decision reads the posting's own words in order of trust:
+  1. HARD_EXCLUDE anywhere in title or department -> drop. Fields the user
+     named one by one as not theirs, even with AI or data in the title.
+  2. The title. It names the job's own field, so it decides whenever it
+     names one: a narrow core term (statistics, biostatistics, OR, IE, IS,
+     business analytics, applied math) -> keep, whatever else it names;
+     a broader core term (AI, ML, data science) and no other field -> keep; another field and
+     no core field -> drop; both ("AI in Biology") -> the department breaks
+     the tie. Health/clinical and computer-science words don't count as
+     "another field" next to a core term in a title -- the user wants AI in
+     healthcare, and "Computer Science (AI)" is an AI job.
+  3. The department, when the title names no field ("Assistant
+     Professor"): core only -> keep; another field -> drop.
+  4. The advert keywords, only when title and department are both silent
+     or mixed -- and only the narrow terms (operations research, business
+     analytics, ...). Broad words like "AI", "statistical" or "data
+     science" turn up in nearly every advert and don't count here.
 """
 import re
 
-# The three groups, and their close synonyms, as the user described them
-# (2026-10-22): business analytics/IS/MIS; data science/OR/IE; stats/applied
-# math. A match here always keeps the posting, even if NOT_RELEVANT also
-# matches (e.g. "Assistant Professor of Finance and Business Analytics").
-RELEVANT = re.compile(
+CORE = re.compile(
     r"(?i)business\s+analytics|business\s+intelligence|decision\s+analytics|"
-    r"(?:management\s+)?information\s+systems?|\bMIS\b|decision\s+sciences?|"
-    r"data\s+scien|data\s+mining|operations?\s+research|operations?\s+management|\bORIE\b|"
-    r"\bindustrial\b.{0,30}engineer|"
-    r"biostatistics|\bstatistics\b|statistical|applied\s+math|computational\s+math|"
-    r"quantitative\s+(?:methods|analysis|finance|biology|psychology)|financial\s+engineering|"
-    r"machine\s+learning|artificial\s+intelligence|\bAI\b|"
-    r"predictive\s+analytics|data\s+analytics"
-    # The user's 2026-10-22 call: AI postings are wanted even inside a
-    # clinical department ("AI in Medicine", "AI in Healthcare") -- this is
-    # the one override allowed to beat a NOT_RELEVANT clinical-specialty
-    # match (endocrinology, urology, ...). A bare specialty name with no AI
-    # mention still drops. Supply chain/logistics/econometrics were pulled
-    # back out on the user's 2026-10-22 follow-up -- they leaked in whole
-    # marketing/economics departments on that one shared word.
+    r"(?<!geographic\s)(?<!geographical\s)(?:management\s+)?information\s+systems?|"
+    r"\bMIS\b(?!\s*\(masters\s+in\s+simulation)|"
+    r"decision\s+sciences?|management\s+science|"
+    r"data\s+scien|data\s+mining|data\s+analytics|predictive\s+analytics|"
+    r"operations?\s+research|operations?\s+management|\bORIE\b|optimi[sz]ation|"
+    r"\bindustrial\b.{0,30}engineer|\bindustrial\s+eng\b|"
+    r"biostatistic|\bstatistics\b|"
+    r"\bstatistical\s+(?:science|learning|methods|modeling|programming|computing|inference|consulting)|"
+    r"applied\s+math|computational\s+math|"
+    r"machine\s+learning|deep\s+learning|artificial\s+intelligence|\bAI\b|\bAI/ML\b"
 )
 
-# Departments the user explicitly called out as NOT theirs (2026-10-22),
-# even when a RELEVANT word shows up somewhere in that posting's text (AI,
-# data science, statistics, ... used as an adjective inside someone
-# else's field: "AI in Politics", "Data Science in Chemistry", "Robotics"
-# cross-listed under Industrial Engineering). A match here on the
-# department field is an absolute drop -- the user's own example was
-# "Assistant Professor, AI and Politics - Dept. of Political Science",
-# which still has AI in the title, so a title-level override would have
-# defeated the whole point of this list.
-EXCLUDE_DEPT = re.compile(
-    r"(?i)electrical\b.{0,30}(?:and\s+)?computer\s+engineering|\belectrical\s+engineering\b|"
-    r"\beconomics\b|construction\s+management|\bmarketing\b|\bchemistry\b|"
-    r"geological\s+sciences?|\bpolitic|\brobotics\b|supply\s+chain|\blogistics\b"
+# Narrow terms that are trusted even when only the advert keywords say
+# them -- each one names the user's field and little else.
+CORE_NARROW = re.compile(
+    r"(?i)business\s+analytics|"
+    r"(?<!geographic\s)(?<!geographical\s)(?<!quantum\s)information\s+systems|"
+    r"\bMIS\b(?!\s*\(masters\s+in\s+simulation)|decision\s+sciences?|management\s+science|"
+    r"operations\s+research|"
+    r"\bindustrial\b.{0,30}engineer|biostatistic|applied\s+math"
 )
 
-# Fields clearly outside the three groups. Grouped by area for review; each
-# group lists a department/field name, not a job title, so "Professor of
-# Biology" is caught by \bbiology\b in title or department text.
-NOT_RELEVANT = re.compile(
-    r"(?i)"
-    # medicine / health / clinical (incl. the common subspecialty names --
-    # a medical school's own listings are otherwise almost all ambiguous:
-    # no RELEVANT or NOT_RELEVANT word, just a specialty name)
-    r"\bmedicine\b|\bmedical\b|\bnursing\b|\bdental\b|dentistry|\boral\s+health|craniofacial|"
+# A title naming one of these is the user's job whatever else it names
+# ("Biostatistics and Bioinformatics", "Industrial Engineering
+# (Manufacturing Systems)", "Introductory Statistics in Psychology").
+TITLE_STRONG = re.compile(
+    CORE_NARROW.pattern + r"|\bstatistics\b|business\s+intelligence|\bindustrial\s+eng\b")
+
+# Fields the user named as not theirs (2026-10-22, 2026-10-26), dropped
+# even when the posting also names AI, data science or statistics.
+HARD_EXCLUDE = re.compile(
+    r"(?i)electrical|electronic|computer\s+engineering|\bcomputer\s+engr|\bECE\b|"
+    r"\beconomics?\b|economic\s+science|construction\s+management|\bmarketing\b|"
+    r"chemi(?:stry|cal)|biochem|\bchem(?:be)?\b|catalys|geolog|geoscien|geophysic|politic|"
+    r"robotic|embodied\s+AI|"
+    r"supply\s+chain|\blogistics\b"
+)
+
+# Health and clinical fields: another field when they stand alone, but
+# not when the title also names a core field ("AI in Healthcare" stays).
+HEALTH = re.compile(
+    r"(?i)\bmedicine\b|\bmedical\b|\bnursing\b|\bdental\b|dentistry|\boral\s+health|craniofacial|"
     r"orofacial|orthodontic|\bpharmacy\b|pharmacolog|behavioral\s+health|biobehavioral|"
-    r"\bmental\s+health\b|substance\s+(?:use|abuse)\b|"
+    r"\bmental\s+health\b|substance\s+(?:use|abuse)\b|\bhealth\b|"
     r"\bveterinary\b|physical\s+therapy|occupational\s+therapy|speech[- ](?:language\s+)?patholog|"
     r"\baudiology\b|\bradiolog|\bnutrition\b|\bdietetics\b|\bkinesiology\b|exercise\s+science|"
-    r"athletic\s+training|\bpublic\s+health\b|\bepidemiology\b|anesthesiolog|\bcardiolog|"
-    r"\boncology\b|\bneurology\b|neurosurg|neuroscience|\bpsychiatry\b|obstetrics|gynecolog|\bpediatrics\b|"
-    r"\bsurgery\b|\boptometry\b|\bpodiatry\b|clinical\s+(?:education|psychology)|\bdermatolog|"
-    r"\bimmunology\b|\bpathology\b|\bphysiology\b|\banatomy\b|\bgenetics\b|\bmicrobiology\b|"
-    r"\bbiochemistry\b|\btoxicology\b|respiratory\s+(?:therapy|care)|\bparamedic\b|\bmidwifery\b|"
+    r"athletic\s+training|\bepidemiolog|anesthesiolog|\bcardiolog|"
+    r"\boncology\b|\bcancer\b|\bneurology\b|neurosurg|\bpsychiatr|obstetrics|gynecolog|\bpediatric|"
+    r"\bsurgery\b|\boptometry\b|\bpodiatry\b|\bdermatolog|"
+    r"\bimmunology\b|\bpathology\b|\btoxicology\b|respiratory\s+(?:therapy|care)|\bparamedic\b|\bmidwifery\b|"
     r"\burology\b|urologist|endourolog|ophthalmolog|otolaryngolog|gastroenterolog|nephrolog|"
     r"rheumatolog|\bhematolog|pulmonolog|hepatolog|\borthop(?:a)?edic|geriatrics|palliative\s+care|"
-    r"allergy\s+and\s+immunology|emergency\s+medicine|family\s+medicine|internal\s+medicine|"
     r"\bphysician\b|neuropatholog|infectious\s+disease|endocrinolog|neonatolog|\bdiabetes\b|"
-    r"heart\s+disease|cardiovascular|academic\s+clinician\s+track|clinician[- ]educator|"
-    r"\bperinatal\b|violence\s+prevention|biophysics|\bpsychiatrist\b|"
-    r"environmental\s+health|occupational\s+health|occupational\s+medicine|"
-    # humanities / languages / arts
-    r"\benglish\b|literature|\bhistory\b|\bphilosophy\b|\breligion\b|religious\s+studies|theolog|"
-    r"linguistics|\bclassics\b|\bLatin\b|ancient\s+Greek|foreign\s+languages?|modern\s+languages?|"
-    r"\bSpanish\b|\bFrench\b|\bGerman\b|\bItalian\b|\bChinese\b|\bJapanese\b|\bRussian\b|\bArabic\b|"
-    r"\bart\s+(?:history|education)\b|\bfine\s+arts\b|\bstudio\s+art\b|\bmusic\b|\btheatre\b|\btheater\b|"
-    r"\bdance\b|\bdrama\b|"
-    r"\bacting\b(?!\s+(?:assistant|associate|professor|instructor|chair|director|dean|head))|"
-    r"graphic\s+design|architectural\s+design|\bfilm\b|\bcinema\b|photography|"
-    r"creative\s+writing|\bhumanities\b|"
-    # social sciences (non-quantitative)
-    r"\bsociology\b|\banthropology\b|political\s+science|\bpsychology\b|social\s+work|"
-    r"criminal\s+justice|criminology|\bjournalism\b|\bcommunication(?:s)?\b(?!.{0,30}(?:information\s+systems|analytics))|"
-    r"public\s+administration|international\s+relations|gender\s+studies|women'?s\s+studies|"
-    r"sexuality\s+studies|ethnic\s+studies|\bcounsel(?:ing|or|ling)\b|"
-    r"\beconomics\b(?!.{0,30}(?:quantitative|econometric|data))|"
-    # education / library
-    r"\beducation\b(?!al\s+(?:data|technology))|curriculum\s+and\s+instruction|"
-    r"educational\s+leadership|teacher\s+education|early\s+childhood|special\s+education|"
-    r"library\s+science|\blibrarian\b|"
-    # pure natural / earth sciences
-    r"\bbiology\b|\bchemistry\b|\bphysics\b(?!.{0,30}(?:computational|data))|\bgeology\b|"
-    r"\bgeography\b|environmental\s+science|earth\s+science|\bastronomy\b|\becology\b|"
-    r"marine\s+(?:science|biology|transportation)|\btowing\b|\bagricultur|agronomy|animal\s+science|horticulture|"
-    r"\bbotany\b|\bzoology\b|\bentomology\b|\bforestry\b|"
-    # law
-    r"\blaw\b|legal\s+studies|\bparalegal\b|\bjurisprudence\b|"
-    # pure business functions (not analytics/IS/MIS)
-    r"\baccounting\b|\bfinance\b(?!.{0,30}quantitative)|\bmarketing\b|\bmanagement\b(?!.{0,30}information)|"
-    r"entrepreneurship|human\s+resources|organizational\s+behavior|hospitality|"
-    # computer science / electrical & computer engineering, unqualified --
-    # the user's engineering group is data science / OR / IE specifically,
-    # not CS or ECE generally; RELEVANT above still rescues a posting that
-    # also names data science, ML, AI or analytics.
-    r"computer\s+science\b|computer\s+engineering|electrical\b.{0,30}engineering|"
-    r"\bcybersecurity\b|information\s+technology\b(?!.{0,20}(?:analytics|data))|"
-    # non-target engineering branches -- department names routinely read
-    # "X and Engineering" or "X Science and Engineering" (Nuclear Science
-    # and Engineering, Materials Science and Engineering, Civil and
-    # Environmental Engineering), so a short gap is allowed before "engineer"
-    r"\bcivil\b.{0,25}engineer|\bmechanical\b.{0,25}engineer|aero(?:space|astro)\b.{0,25}engineer|"
-    r"\bchemical\b.{0,25}engineer|\bbiomedical\b.{0,25}engineer|bioengineer|biological\s+engineer|"
-    r"\bmaterials\b.{0,25}engineer|\benvironmental\b.{0,25}engineer|\bnuclear\b.{0,25}engineer|"
-    r"\bconstruction\b.{0,25}(?:management|engineer)|\bpetroleum\b.{0,25}engineer|\bmining\b.{0,25}engineer|"
-    r"\bagricultural\b.{0,25}engineer|"
-    # misc
-    r"\barchitecture\b|\bculinary\b|\bathletics\b|\bcoaching\b|\btheology\b"
+    r"heart\s+disease|cardiovascular|clinician|\bperinatal\b|violence\s+prevention|"
+    r"\bdrug\s+discovery|occupational\s+medicine"
 )
+
+# Computer science: another field on its own (a plain CS job isn't the
+# user's), but not next to a core term in a title ("Computer Science --
+# Artificial Intelligence" is an AI job).
+COMPUTING = re.compile(
+    r"(?i)computer\s+science|\bcomputing\b|computer\s+(?:and\s+)?information\s+science|"
+    r"software\s+engineer|\bcyber|information\s+technology|human[- ]computer|\bHCI\b"
+)
+
+# Every other field.
+OTHER = re.compile(
+    r"(?i)"
+    # engineering branches outside data science / OR / IE
+    r"\bcivil\b|\bmechanical\b|mechatronic|aero(?:space|nautic|astro)|astronautic|"
+    r"bio(?:medical|logical)\s+engineer|bioengineer|\bmaterials\b|\bnuclear\b|"
+    r"\benvironmental\s+engineer|\bpetroleum\b|\bmining\b|\bagricultural\b|"
+    r"semiconductor|\benergy\b|\bpower\s+systems|"
+    r"engineering\s+technology|geospatial|"
+    # natural and earth sciences
+    r"\bphysics\b|physical\s+sciences?|astrophysic|\bastronom|\bquantum\b|biophysic|"
+    r"\bbiolog|\becolog|evolution|\bgenetic|genomic|\bomics\b|proteomic|\bmolecular\b|\bcell\b|"
+    r"neuroscien|neuroAI|\bneuro|cognitive|\bbrain\b|physiolog|\banatomy\b|microbiolog|"
+    r"\bgeograph|environmental\s+(?:science|studies)|earth\s+science|\bocean|\bclimate\b|"
+    r"atmospher|\bmarine\b|\bagricultur|agronomy|animal\s+science|horticulture|"
+    r"\bbotany\b|\bzoology\b|\bentomology\b|\bforestry\b|\bwater\b|\bfluid\b|\bplasma\b|"
+    r"synthetic\s+biology|nanobio|\btowing\b|\bmaterials?\b|life\s+sciences?|bioscience|"
+    r"bioinformatic|\benvironment|\bcrops?\b|microbiom|\bengines?\b|\bpower\b(?!\s+analysis)|"
+    r"networking|infrastructure|construction|architect|"
+    # social sciences, education, law
+    r"\bpsycholog|psychometric|\bsociolog|\banthropolog|social\s+work|social\s+science|"
+    r"socioeconomic|criminal\s+justice|criminology|\bjournalism\b|\bcommunication|\bmedia\b|"
+    r"public\s+(?:administration|policy)|international\s+relations|\bgovernment\b|"
+    r"gender|women'?s\s+studies|sexuality|ethnic\s+studies|african\s+american|\bcounsel(?:ing|or|ling)\b|"
+    r"\beducation|learning\s+sciences|curriculum|teacher\s+(?:education|preparation)|early\s+childhood|"
+    r"librar|\bLIS\b|\bwriting\b|copyright|\blaw\b|lawyering|legal|\bparalegal\b|jurisprudence|"
+    # humanities and arts
+    r"\benglish\b|literature|\bhistory\b|\bphilosophy\b|\bethic|\breligio|theolog|"
+    r"linguistic|\bclassics\b|(?<!natural\s)\blanguages?\b(?!\s+(?:models?|processing))|\bSpanish\b|\bFrench\b|\bGerman\b|\bItalian\b|"
+    r"\bChinese\b|\bJapanese\b|\bRussian\b|\bArabic\b|\bfine\s+arts\b|\bstudio\s+art\b|"
+    r"\bart\s+(?:history|education)\b|\bmusic\b|\baudio\b|\btheat(?:re|er)\b|\bdance\b|\bdrama\b|"
+    r"\bacting\b(?!\s+(?:assistant|associate|professor|instructor|chair|director|dean|head))|"
+    r"\bdesign\b|\bfilm\b|\bcinema\b|photography|creative|\bhumanities\b|visual|performance|"
+    # business functions outside analytics / IS / OR
+    r"\baccounting\b|accountancy|\bfinance\b|entrepreneur|human\s+resources|"
+    r"organizational\s+behavior|hospitality|\btourism\b|\bsport|"
+    # misc
+    r"\barchitecture\b|\bculinary\b|\bathletics\b|\bcoaching\b"
+)
+
+
+def _other(text, lenient):
+    if OTHER.search(text):
+        return True
+    return not lenient and bool(HEALTH.search(text) or COMPUTING.search(text))
 
 
 def is_relevant(title, department='', keywords=''):
-    """Allow-list: keep only a posting that actually names one of the
-    user's three fields (RELEVANT). Flipped from keep-by-default to
-    drop-by-default on 2026-10-22 -- the user's fields are narrow, so an
-    ambiguous posting (no RELEVANT match, title/department says nothing
-    recognizable either way) is dropped rather than guessed as a keep.
-    NOT_RELEVANT is kept only as a reference of what's known-excluded;
-    it no longer drives the decision, since the default is now to drop.
-    """
-    text = ' '.join(filter(None, (title, department, keywords)))
-    if not text.strip():
-        return True  # truly nothing to judge by -- don't guess it away
-    if EXCLUDE_DEPT.search(department or ''):
+    title = title or ''
+    department = department or ''
+    keywords = keywords or ''
+    if not (title + department + keywords).strip():
+        return True  # truly nothing to judge by
+    if HARD_EXCLUDE.search(title) or HARD_EXCLUDE.search(department):
         return False
-    return bool(RELEVANT.search(text))
+    if TITLE_STRONG.search(title):
+        return True
+    # "Department of Statistics in the College of Literature, Science, and
+    # the Arts": only the department itself, not its parent college.
+    department = re.split(r"(?i)\s+(?:in|within)\s+the\s+", department, 1)[0]
+
+    dept_core = bool(CORE.search(department))
+    dept_other = _other(department, lenient=False)
+
+    if CORE.search(title):
+        if not _other(title, lenient=True):
+            return True
+        return dept_core and not dept_other
+    if _other(title, lenient=False):
+        return False
+
+    if dept_core and not dept_other:
+        return True
+    if dept_other and not dept_core:
+        return False
+    return bool(CORE_NARROW.search(keywords)) and not HARD_EXCLUDE.search(keywords)
