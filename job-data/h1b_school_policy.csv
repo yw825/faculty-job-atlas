@@ -262,7 +262,7 @@ school_id,name,status,note,source_url,checked,uscis_approvals_fy2022_2023,uscis_
 1205,Alvernia University,unknown,No faculty H-1B policy found on alvernia.edu,,2026-10-26,0,
 1206,Pennsylvania State University-Penn State Berks,yes,"Penn State: Full-time teaching/research faculty needing a doctorate, tenure-line or not; no part-time faculty or staff",https://global.psu.edu/page/who-we-sponsor,2026-10-26,0,
 1219,Pennsylvania State University-University Park,yes,"Penn State: Full-time teaching/research faculty needing a doctorate, tenure-line or not; no part-time faculty or staff",https://global.psu.edu/page/who-we-sponsor,2026-10-26,0,
-1220,Villanova University,,,,,14,VILLANOVA UNIVERSITY
+1220,Villanova University,yes,Faculty sponsored via Provost and international office; plan six months ahead,https://www.villanova.edu/dam/villanova/provost/Recruitment_Guidelines_and_Policy.pdf,2026-10-26,14,VILLANOVA UNIVERSITY
 1224,King's College,unknown,No faculty H-1B policy found on kings.edu,,2026-10-26,1,KING S COLLEGE
 1265,Roger Williams University,unknown,No faculty H-1B policy found on rwu.edu,,2026-10-26,4,ROGER WILLIAMS UNIV; ROGER WILLIAMS UNIVERSITY
 1266,University of Rhode Island,unknown,No faculty H-1B policy found on uri.edu,,2026-10-26,38,RHODE ISLAND COLLEGE; UNIVERSITY OF RHODE ISLAND
@@ -315,31 +315,31 @@ school_id,name,status,note,source_url,checked,uscis_approvals_fy2022_2023,uscis_
 1464,George Mason University,yes,Tenure-track or term faculty and long-term researchers; not adjuncts or part-time,https://oips.gmu.edu/h-1b-visa-info/,2026-10-26,60,GEORGE MASON UNIVERSITY
 1466,Longwood University,unknown,No faculty H-1B policy found on longwood.edu,,2026-10-26,3,LONGWOOD UNIVERSITY
 1474,Virginia Military Institute,unknown,No faculty H-1B policy found on vmi.edu,,2026-10-26,4,VIRGINIA MILITARY INSTITUTE
-1484,Radford University,,,,,7,RADFORD UNIVERSITY
-1491,University of Richmond,,,,,9,UNIVERSITY OF RICHMOND
-1496,William & Mary,,,,,37,COLLEGE OF WILLIAM AND MARY
-1506,Middlebury College,,,,,0,
-1508,Western Washington University,,,,,20,WESTERN WASHINGTON UNIV; WESTERN WASHINGTON UNIVERSITY
-1512,Central Washington University,,,,,5,CENTRAL WASHINGTON UNIV; CENTRAL WASHINGTON UNIVERSITY
-1520,University of Washington-Seattle Campus,,,,,0,
-1525,University of Puget Sound,,,,,3,UNIVERSITY OF PUGET SOUND
-1526,University of Washington-Tacoma Campus,,,,,0,
-1528,Whitman College,,,,,8,WHITMAN COLLEGE
-1529,Lawrence University,,,,,0,
-1534,Saint Norbert College,,,,,0,
-1541,University of Wisconsin-La Crosse,,,,,0,
-1544,University of Wisconsin-Madison,,,,,0,
-1555,University of Wisconsin-Platteville,,,,,0,
-1576,West Virginia University,,,,,128,WEST VIRGINIA UNIV RESEARCH CORPORATION; WEST VIRGINIA UNIVERSITY; WEST VIRGINIA UNIVERSITY RESEARCH CORPORATION
-1582,Wheeling University,,,,,0,
-1583,University of Wyoming,,,,,34,UNIVERSITY OF WYOMING
-1907,North Carolina Agricultural and Technical State University,,,,,0,
-1917,University of Colorado-Anschutz Medical Campus,,,,,0,
-1920,Purdue University Northwest,,,,,0,
-1931,Washington University in St Louis-Medical Campus,,,,,0,
-1938,Rutgers University-Biomedical and Health Sciences,,,,,0,
-1942,North Carolina Central University,,,,,6,NORTH CAROLINA CENTRAL UNIV; NORTH CAROLINA CENTRAL UNIVERSITY
-1943,Winston-Salem State University,,,,,1,WINSTON SALEM STATE UNIV
-1949,CUNY-School of Medicine,,,,,0,
+1484,Radford University,limited,Radford postings: applicants needing new H-1B sponsorship will not be considered,https://jobs.radford.edu/jobs/instructor-special-purpose-nursing-roanoke-virginia-united-states,2026-10-26,7,RADFORD UNIVERSITY
+1491,University of Richmond,unknown,No faculty H-1B policy found on richmond.edu (payroll pages mention H-1B teachers),,2026-10-26,9,UNIVERSITY OF RICHMOND
+1496,William & Mary,yes,"Tenure-track, teaching professors, visiting faculty; not part-time or adjunct",https://www.wm.edu/offices/revescenter/issp/departments/scholarvisas/h1/,2026-10-26,37,COLLEGE OF WILLIAM AND MARY
+1506,Middlebury College,yes,Tenure-track faculty and regular staff when the position and wage qualify,https://www.middlebury.edu/international-student-and-scholar-services/scholars/middlebury-departments,2026-10-26,0,
+1508,Western Washington University,yes,"Full-time instructor and tenure-track faculty, handled by HR with attorneys",https://hr.wwu.edu/immigration-visa-sponsorship,2026-10-26,20,WESTERN WASHINGTON UNIV; WESTERN WASHINGTON UNIVERSITY
+1512,Central Washington University,yes,Full-time tenure-track faculty commonly sponsored when continuing employment is likely,https://www.cwu.edu/about/offices/human-resources/_documents/cwu-demystifying-h1b.pdf,2026-10-26,5,CENTRAL WASHINGTON UNIV; CENTRAL WASHINGTON UNIVERSITY
+1520,University of Washington-Seattle Campus,yes,"Full-time professorial titles (teaching, research, clinical, acting), full-time lecturers, postdocs",https://ap.washington.edu/ahr/visas/scholar-resources/h1b/,2026-10-26,0,
+1525,University of Puget Sound,limited,"Sponsors at its sole discretion by position type, duration and candidate status",https://www.pugetsound.edu/sites/default/files/2021-08/faculty-recruitment-guidelines-2021-2022.pdf,2026-10-26,3,UNIVERSITY OF PUGET SOUND
+1526,University of Washington-Tacoma Campus,yes,UW system: full-time professorial titles and full-time lecturers,https://ap.washington.edu/ahr/visas/scholar-resources/h1b/,2026-10-26,0,
+1528,Whitman College,unknown,No faculty H-1B policy found on whitman.edu,,2026-10-26,8,WHITMAN COLLEGE
+1529,Lawrence University,unknown,No faculty H-1B policy found on lawrence.edu,,2026-10-26,0,
+1534,Saint Norbert College,unknown,No faculty H-1B policy found on snc.edu,,2026-10-26,0,
+1541,University of Wisconsin-La Crosse,yes,HR runs international sponsorship programs; tenure-track also EB-1B; some postings exclude sponsorship,https://www.uwlax.edu/human-resources/employees/international-employees/eb1b-information/,2026-10-26,0,
+1544,University of Wisconsin-Madison,yes,Department-initiated H-1B via IFSS; no obligation to sponsor any hire,https://ifss.wisc.edu/h-1b-employees/,2026-10-26,0,
+1555,University of Wisconsin-Platteville,unknown,No faculty H-1B policy found on uwplatt.edu,,2026-10-26,0,
+1576,West Virginia University,yes,ISSS sponsors H-1B faculty and scholars; no part-time H-1Bs,https://isss.wvu.edu/info-for-departments/department-h-1b-requirements,2026-10-26,128,WEST VIRGINIA UNIV RESEARCH CORPORATION; WEST VIRGINIA UNIVERSITY; WEST VIRGINIA UNIVERSITY RESEARCH CORPORATION
+1582,Wheeling University,yes,Handbook: faculty generally considered for non-immigrant visa sponsorship,https://wheeling.edu/wp-content/uploads/2025/10/Employee-Handbook-2025.pdf,2026-10-26,0,
+1583,University of Wyoming,yes,Faculty incl. non-tenure-track on 3-year rolling contracts; department pays costs,https://www.uwyo.edu/hr/talent-acquisition/h-1binformation.html,2026-10-26,34,UNIVERSITY OF WYOMING
+1907,North Carolina Agricultural and Technical State University,yes,Academic positions of 1-3 year terms; department pays all costs,https://hub.ncat.edu/administration/human-resources/talent-solutions/foreign-national-employment/h1b-visas.php,2026-10-26,0,
+1917,University of Colorado-Anschutz Medical Campus,limited,Some CU Anschutz programs say they cannot accept new H-1B petitions; exceptions case by case,https://medschool.cuanschutz.edu/medicine/education/heartbeat-im-residency-training-program/resources-and-support/job-opportunities,2026-10-26,0,
+1920,Purdue University Northwest,unknown,No H-1B policy on pnw.edu (Purdue West Lafayette sponsors faculty),,2026-10-26,0,
+1931,Washington University in St Louis-Medical Campus,yes,OISS sponsors employee positions incl. faculty; not postdoc fellow titles,https://oiss-dept.wustl.edu/h-1b/sponsorship/,2026-10-26,0,
+1938,Rutgers University-Biomedical and Health Sciences,yes,"Assistant Professor and up (tenure or non-tenure track), instructors/lecturers",https://facultyaffairs.rbhs.rutgers.edu/wp-content/uploads/introduction-to-immigration-sponsorship-at-rutgers.pdf,2026-10-26,0,
+1942,North Carolina Central University,yes,Tenure-track preferred; some research positions; via Office of International Affairs,https://www.nccu.edu/office-international-affairs/immigration-guide,2026-10-26,6,NORTH CAROLINA CENTRAL UNIV; NORTH CAROLINA CENTRAL UNIVERSITY
+1943,Winston-Salem State University,unknown,No faculty H-1B policy found on wssu.edu,,2026-10-26,1,WINSTON SALEM STATE UNIV
+1949,CUNY-School of Medicine,unknown,No faculty H-1B policy found on ccny.cuny.edu,,2026-10-26,0,
 1958,University of Oklahoma-Tulsa,yes,OU system: departments request H-1B via HR Immigration Services,https://hr.ou.edu/Immigration/Department-Representatives/Bring-an-International,2026-10-26,0,
-1961,Langston University,,,,,3,LANGSTON UNIVERSITY
+1961,Langston University,unknown,No faculty H-1B policy found on langston.edu,,2026-10-26,3,LANGSTON UNIVERSITY
