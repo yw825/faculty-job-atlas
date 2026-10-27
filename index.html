@@ -1714,6 +1714,8 @@ function jobH1b(j){
 }
 
 function jobDisplayTitle(j){
+  const t = (j.t || '').replace(/^.*?\s-\sDetails\s-\s/, '').replace(/Apply\s*now.*$/i, '').replace(/\s*Job Details$/i, '').replace(/\s+/g, ' ').trim();
+  if(t) return t;
   const own = (j.p || []).filter(r => RANK_ORDER.indexOf(r) !== -1);
   const sel = selectedRanks();
   let ranks = sel.length ? own.filter(r => sel.indexOf(r) !== -1) : own;
