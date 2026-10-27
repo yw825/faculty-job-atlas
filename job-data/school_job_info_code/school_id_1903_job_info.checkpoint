@@ -86,11 +86,12 @@
       "school_id": 1903,
       "posting_url": "https://www.edhec.edu/en/about-us/apply-at-edhec/assistant-associate-professor-law",
       "job_title_in_post": "Assistant / Associate Professor of law",
-      "position_type": "Assistant_Professor; Associate_Professor",
+      "position_type": "Associate_Professor",
       "job_term": "Part-time",
       "department_or_school": "Centre for Responsible Entrepreneurship",
       "area_key_words": "conviction",
-      "deadline_of_application": "",
+      "deadline_of_application": "February 28, 2026",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.edhec.edu/en/about-us/apply-at-edhec/assistantassociatefull-professor-data-science-machine-learning-econometrics": {
@@ -101,7 +102,8 @@
       "job_term": "Part-time",
       "department_or_school": "Centre for Responsible Entrepreneurship",
       "area_key_words": "Data Science, Machine Learning, Econometrics, or Quantitative Methods",
-      "deadline_of_application": "",
+      "deadline_of_application": "February 28, 2027",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.edhec.edu/en/about-us/apply-at-edhec/assistantassociatefull-professor-entrepreneurship": {
@@ -113,6 +115,7 @@
       "department_or_school": "Centre for Responsible Entrepreneurship",
       "area_key_words": "Entrepreneurship; dynamism",
       "deadline_of_application": "February 28, 2027",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.edhec.edu/en/about-us/apply-at-edhec/assistantassociatefull-professor-finance-lille-campus": {
@@ -123,18 +126,20 @@
       "job_term": "Part-time",
       "department_or_school": "Centre for Responsible Entrepreneurship",
       "area_key_words": "Finance",
-      "deadline_of_application": "",
+      "deadline_of_application": "February 28, 2027",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.edhec.edu/en/about-us/apply-at-edhec/associate-or-full-professor-retail-quantitative-marketing": {
       "school_id": 1903,
       "posting_url": "https://www.edhec.edu/en/about-us/apply-at-edhec/associate-or-full-professor-retail-quantitative-marketing",
       "job_title_in_post": "Associate or Full Professor – Retail & Quantitative Marketing",
-      "position_type": "Associate_Professor; Full_Professor",
+      "position_type": "Full_Professor",
       "job_term": "Part-time",
       "department_or_school": "Centre for Responsible Entrepreneurship",
       "area_key_words": "Retail & Quantitative Marketing; Customer Relationship Management courses",
       "deadline_of_application": "February 28, 2027",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.edhec.edu/en/about-us/apply-at-edhec/associatefull-professor-accounting-financial-accounting-and-auditing": {
@@ -146,6 +151,7 @@
       "department_or_school": "Centre for Responsible Entrepreneurship",
       "area_key_words": "Accounting; corporate reporting; disclosure",
       "deadline_of_application": "February 28, 2027",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.edhec.edu/en/about-us/apply-at-edhec/associatefull-professor-accounting-managerial-accounting": {
@@ -157,6 +163,7 @@
       "department_or_school": "Centre for Responsible Entrepreneurship",
       "area_key_words": "Accounting; management control systems; strategic cost management",
       "deadline_of_application": "February 28, 2027",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.edhec.edu/en/about-us/apply-at-edhec/associatefull-professor-finance-data-science-economics-econometrics-or": {
@@ -167,7 +174,8 @@
       "job_term": "Part-time",
       "department_or_school": "Centre for Responsible Entrepreneurship",
       "area_key_words": "Finance, Data Science, Economics, Econometrics, or Related Fields",
-      "deadline_of_application": "",
+      "deadline_of_application": "February 28, 2027",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.edhec.edu/en/about-us/apply-at-edhec/associatefull-professor-strategy": {
@@ -190,6 +198,7 @@
       "department_or_school": "Centre for Responsible Entrepreneurship",
       "area_key_words": "Strategy; dynamism",
       "deadline_of_application": "February 28, 2027",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.edhec.edu/en/about-us/apply-at-edhec/assistant-associate-or-full-professor-business-ethics-specialization-ethics": {
@@ -295,17 +304,18 @@
       "school_id": 1903,
       "posting_url": "https://www.edhec.edu/en/about-us/apply-at-edhec/content-manager",
       "job_title_in_post": "Content Manager",
-      "position_type": "Non-academic",
+      "position_type": "Unclassified",
       "job_term": "Part-time",
       "department_or_school": "Centre for Responsible Entrepreneurship",
       "area_key_words": "Financial Times; third worldwide",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     }
   },
   "school_id": 1903,
   "status": "complete",
-  "updated_at": "2026-10-16T19:20:56+00:00",
+  "updated_at": "2026-10-27T02:03:11+00:00",
   "last_error": "",
-  "completed_at": "2026-10-16T19:20:56+00:00"
+  "completed_at": "2026-10-27T02:03:11+00:00"
 }

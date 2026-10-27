@@ -23,7 +23,8 @@
       "department_or_school": "College of Arts & Sciences The College of Arts and Sciences",
       "area_key_words": "Psychology; upper-level specialty courses related",
       "deadline_of_application": "November 15, 2026",
-      "position_start_date": "2026-10-13"
+      "posted_date": "2026-10-13",
+      "position_start_date": ""
     },
     "https://lewisandclark.wd5.myworkdayjobs.com/Faculty/job/Undergraduate-Campus/Assistant-Professor-of-Data-Science_R-005020": {
       "school_id": 1116,
@@ -34,23 +35,25 @@
       "department_or_school": "College of Arts & Sciences The College of Arts and Sciences",
       "area_key_words": "Data Science",
       "deadline_of_application": "October 30, 2026",
-      "position_start_date": "2026-08-13"
+      "posted_date": "2026-08-13",
+      "position_start_date": ""
     },
     "https://lewisandclark.wd5.myworkdayjobs.com/Faculty/job/Undergraduate-Campus/Visiting-Assistant-Professor-in-Psychology_R-004975": {
       "school_id": 1116,
       "posting_url": "https://lewisandclark.wd5.myworkdayjobs.com/Faculty/job/Undergraduate-Campus/Visiting-Assistant-Professor-in-Psychology_R-004975",
       "job_title_in_post": "Visiting Assistant Professor in Psychology",
-      "position_type": "Assistant_Professor",
+      "position_type": "Lecturer",
       "job_term": "Full-time",
       "department_or_school": "College of Arts & Sciences The College of Arts and Sciences",
       "area_key_words": "Psychology",
       "deadline_of_application": "",
-      "position_start_date": "2026-07-08"
+      "posted_date": "2026-07-08",
+      "position_start_date": ""
     }
   },
   "school_id": 1116,
   "status": "complete",
-  "updated_at": "2026-10-19T20:25:28+00:00",
-  "completed_at": "2026-10-19T20:25:28+00:00",
+  "updated_at": "2026-10-27T00:54:12+00:00",
+  "completed_at": "2026-10-27T00:54:12+00:00",
   "last_error": ""
 }

@@ -50,7 +50,8 @@
       "job_term": "Full-time",
       "department_or_school": "faculty for research, instructional, developmental, or service projects",
       "area_key_words": "Civil and Environmental Engineering; Environmental Engineering Share",
-      "deadline_of_application": "",
+      "deadline_of_application": "15 November 2026",
+      "posted_date": "October 13, 2026",
       "position_start_date": ""
     },
     "https://www.vmi.edu/job-openings/assistant-professor-of-applied-mathematics-tenure-track/": {
@@ -61,29 +62,32 @@
       "job_term": "Full-time",
       "department_or_school": "faculty for research, instructional, developmental, or service projects",
       "area_key_words": "Applied Mathematics",
-      "deadline_of_application": "",
+      "deadline_of_application": "1 November 2026",
+      "posted_date": "September 21, 2026",
       "position_start_date": ""
     },
     "https://www.vmi.edu/job-openings/instructor-of-biology-non-tenure-track/": {
       "school_id": 1474,
       "posting_url": "https://www.vmi.edu/job-openings/instructor-of-biology-non-tenure-track/",
       "job_title_in_post": "Instructor of Biology (non- tenure track)",
-      "position_type": "Unclassified",
+      "position_type": "Lecturer",
       "job_term": "Full-time",
       "department_or_school": "faculty for research, instructional, developmental, or service projects",
       "area_key_words": "Biology",
       "deadline_of_application": "September 30, 2026",
+      "posted_date": "September 9, 2026",
       "position_start_date": ""
     },
     "https://www.vmi.edu/job-openings/assistant-or-associate-professor-of-mechanical-engineering-tenure-track-3/": {
       "school_id": 1474,
       "posting_url": "https://www.vmi.edu/job-openings/assistant-or-associate-professor-of-mechanical-engineering-tenure-track-3/",
       "job_title_in_post": "Assistant or Associate Professor of Mechanical Engineering (tenure-track)",
-      "position_type": "Assistant_Professor; Associate_Professor",
+      "position_type": "Associate_Professor",
       "job_term": "Full-time",
       "department_or_school": "faculty for research, instructional, developmental, or service projects",
       "area_key_words": "Mechanical Engineering",
       "deadline_of_application": "",
+      "posted_date": "September 4, 2026",
       "position_start_date": ""
     },
     "https://www.vmi.edu/job-openings/assistant-associate-professor-in-psychology-leadership/": {
@@ -95,6 +99,7 @@
       "department_or_school": "faculty for research, instructional, developmental, or service projects",
       "area_key_words": "Psychology/Leadership; Faculty Department Psychology Share Apply",
       "deadline_of_application": "July 1, 2026",
+      "posted_date": "September 2, 2026",
       "position_start_date": ""
     },
     "https://www.vmi.edu/job-openings/assistant-professor-of-arabic-tenure-track/": {
@@ -106,17 +111,19 @@
       "department_or_school": "faculty for research, instructional, developmental, or service projects",
       "area_key_words": "Arabic- Tenure Track; Faculty Department Modern Languages",
       "deadline_of_application": "",
-      "position_start_date": ""
+      "posted_date": "August 28, 2026",
+      "position_start_date": "1 August 2027"
     },
     "https://www.vmi.edu/job-openings/f-t-visiting-assistant-professor-of-english/": {
       "school_id": 1474,
       "posting_url": "https://www.vmi.edu/job-openings/f-t-visiting-assistant-professor-of-english/",
       "job_title_in_post": "F/T Visiting Assistant Professor of English",
-      "position_type": "Assistant_Professor",
+      "position_type": "Lecturer",
       "job_term": "Full-time",
       "department_or_school": "faculty for research, instructional, developmental, or service projects",
       "area_key_words": "English; Curriculum courses",
       "deadline_of_application": "",
+      "posted_date": "August 11, 2026",
       "position_start_date": ""
     },
     "https://www.vmi.edu/job-openings/assistant-professor-of-english-tenure-track/": {
@@ -128,6 +135,7 @@
       "department_or_school": "faculty for research, instructional, developmental, or service projects",
       "area_key_words": "English; contemporary British literature",
       "deadline_of_application": "",
+      "posted_date": "August 11, 2026",
       "position_start_date": ""
     },
     "https://www.vmi.edu/job-openings/supply-chain-management-part-time/": {
@@ -139,23 +147,25 @@
       "department_or_school": "faculty for research, instructional, developmental, or service projects",
       "area_key_words": "Faculty Department Economics",
       "deadline_of_application": "",
+      "posted_date": "January 22, 2026",
       "position_start_date": ""
     },
     "https://www.vmi.edu/job-openings/adjunct-biology-department/": {
       "school_id": 1474,
       "posting_url": "https://www.vmi.edu/job-openings/adjunct-biology-department/",
       "job_title_in_post": "Adjunct- Biology Department",
-      "position_type": "Unclassified",
+      "position_type": "Lecturer",
       "job_term": "Part-time",
       "department_or_school": "faculty for research, instructional, developmental, or service projects",
       "area_key_words": "Faculty Department Biology Share Apply",
       "deadline_of_application": "",
+      "posted_date": "October 10, 2025",
       "position_start_date": ""
     }
   },
   "school_id": 1474,
   "status": "complete",
-  "updated_at": "2026-10-21T18:54:49+00:00",
-  "completed_at": "2026-10-21T18:54:49+00:00",
+  "updated_at": "2026-10-27T01:05:51+00:00",
+  "completed_at": "2026-10-27T01:05:51+00:00",
   "last_error": ""
 }

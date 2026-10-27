@@ -1886,8 +1886,8 @@
     }
   },
   "school_id": 521,
-  "status": "complete",
-  "updated_at": "2026-10-16T18:44:19+00:00",
+  "status": "error",
+  "updated_at": "2026-10-27T00:25:28+00:00",
   "completed_at": "2026-10-16T18:44:19+00:00",
-  "last_error": ""
+  "last_error": "Error: It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead."
 }

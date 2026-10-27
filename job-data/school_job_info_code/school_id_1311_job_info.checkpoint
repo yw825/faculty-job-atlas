@@ -22,33 +22,36 @@
       "school_id": 1311,
       "posting_url": "https://yourfuture.sdbor.edu/postings/50197",
       "job_title_in_post": "Assistant Professor of Practice - Systems Administration",
-      "position_type": "Assistant_Professor",
+      "position_type": "Lecturer",
       "job_term": "Full-time",
       "department_or_school": "College of Computer and Cyber Sciences",
       "area_key_words": "Practice; systems administration",
-      "deadline_of_application": "October 20, 2026",
+      "deadline_of_application": "November 20, 2026",
+      "posted_date": "10/20/2026",
       "position_start_date": ""
     },
     "https://yourfuture.sdbor.edu/postings/50082": {
       "school_id": 1311,
       "posting_url": "https://yourfuture.sdbor.edu/postings/50082",
       "job_title_in_post": "Assistant / Associate Professor - Applied Artificial Intelligence and Offensive Cybersecurity",
-      "position_type": "Assistant_Professor; Associate_Professor",
+      "position_type": "Associate_Professor",
       "job_term": "Full-time",
       "department_or_school": "College of Computer and Cyber Sciences",
       "area_key_words": "Applied Artificial Intelligence and Offensive Cybersecurity",
-      "deadline_of_application": "October 9, 2026",
+      "deadline_of_application": "11/11/2026",
+      "posted_date": "10/09/2026",
       "position_start_date": ""
     },
     "https://yourfuture.sdbor.edu/postings/50075": {
       "school_id": 1311,
       "posting_url": "https://yourfuture.sdbor.edu/postings/50075",
       "job_title_in_post": "Assistant / Associate Professor - Offensive Security &amp; Cyber Operations",
-      "position_type": "Assistant_Professor; Associate_Professor",
+      "position_type": "Associate_Professor",
       "job_term": "Full-time",
       "department_or_school": "College of Computer and Cyber Sciences",
       "area_key_words": "software exploitation; offensive security",
-      "deadline_of_application": "October 9, 2026",
+      "deadline_of_application": "11/11/2026",
+      "posted_date": "10/09/2026",
       "position_start_date": ""
     },
     "https://yourfuture.sdbor.edu/postings/50049": {
@@ -59,13 +62,14 @@
       "job_term": "Full-time",
       "department_or_school": "College of Business & Information Systems",
       "area_key_words": "Economics and Statistics",
-      "deadline_of_application": "November 1, 2026",
+      "deadline_of_application": "11/01/2026",
+      "posted_date": "10/07/2026",
       "position_start_date": ""
     }
   },
   "school_id": 1311,
   "status": "complete",
-  "updated_at": "2026-10-21T00:04:50+00:00",
-  "completed_at": "2026-10-21T00:04:50+00:00",
+  "updated_at": "2026-10-27T01:01:16+00:00",
+  "completed_at": "2026-10-27T01:01:16+00:00",
   "last_error": ""
 }

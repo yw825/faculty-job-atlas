@@ -30,11 +30,12 @@
       "school_id": 767,
       "posting_url": "https://jobs.unca.edu/postings/9285",
       "job_title_in_post": "Adjunct in Department of Chemistry and Biochemistry",
-      "position_type": "Unclassified",
+      "position_type": "Lecturer",
       "job_term": "Full-time",
       "department_or_school": "Department of Chemistry and Biochemistry",
       "area_key_words": "Department of Chemistry and Biochemistry; foundational chemistry curriculum",
       "deadline_of_application": "",
+      "posted_date": "09/25/2026",
       "position_start_date": ""
     },
     "https://jobs.unca.edu/postings/9281": {
@@ -45,7 +46,8 @@
       "job_term": "Full-time",
       "department_or_school": "Department of Economics & Finance",
       "area_key_words": "Finance; financial management; financial economics",
-      "deadline_of_application": "July 1, 2027",
+      "deadline_of_application": "October 12, 2026",
+      "posted_date": "09/23/2026",
       "position_start_date": ""
     },
     "https://jobs.unca.edu/postings/9183": {
@@ -57,6 +59,7 @@
       "department_or_school": "Department of Environmental Science",
       "area_key_words": "Environmental Science; geospatial technologies",
       "deadline_of_application": "",
+      "posted_date": "07/31/2026",
       "position_start_date": ""
     },
     "https://jobs.unca.edu/postings/9182": {
@@ -67,35 +70,38 @@
       "job_term": "Full-time",
       "department_or_school": "Department of Business",
       "area_key_words": "Accounting",
-      "deadline_of_application": "July 1, 2027",
+      "deadline_of_application": "",
+      "posted_date": "07/30/2026",
       "position_start_date": ""
     },
     "https://jobs.unca.edu/postings/9142": {
       "school_id": 767,
       "posting_url": "https://jobs.unca.edu/postings/9142",
       "job_title_in_post": "Adjunct in Department of Physics and Astronomy",
-      "position_type": "Unclassified",
+      "position_type": "Lecturer",
       "job_term": "Full-time",
       "department_or_school": "Department of Physics and Astronomy",
       "area_key_words": "Department of Physics and Astronomy",
       "deadline_of_application": "",
+      "posted_date": "07/21/2026",
       "position_start_date": ""
     },
     "https://jobs.unca.edu/postings/9091": {
       "school_id": 767,
       "posting_url": "https://jobs.unca.edu/postings/9091",
       "job_title_in_post": "Adjunct in Department of Mathematics and Statistics",
-      "position_type": "Unclassified",
+      "position_type": "Lecturer",
       "job_term": "Full-time",
       "department_or_school": "Department of Mathematics and Statistics",
       "area_key_words": "Department of Mathematics and Statistics; Mathematics courses",
       "deadline_of_application": "",
+      "posted_date": "07/09/2026",
       "position_start_date": ""
     }
   },
   "school_id": 767,
   "status": "complete",
-  "updated_at": "2026-10-16T18:47:23+00:00",
-  "completed_at": "2026-10-16T18:47:23+00:00",
+  "updated_at": "2026-10-27T00:42:44+00:00",
+  "completed_at": "2026-10-27T00:42:44+00:00",
   "last_error": ""
 }

@@ -46,6 +46,7 @@
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "2026-09-10",
       "position_start_date": ""
     },
     "https://workforcenow.cloud.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=71919c4b-9ac0-4e36-8f03-d1e5235783c0&ccId=19000101_000001&jobId=38957433_1&lang=en_US": {
@@ -57,6 +58,7 @@
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "2026-08-12",
       "position_start_date": ""
     },
     "https://workforcenow.cloud.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=71919c4b-9ac0-4e36-8f03-d1e5235783c0&ccId=19000101_000001&jobId=26657918_1&lang=en_US": {
@@ -68,28 +70,31 @@
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "2026-07-20",
       "position_start_date": ""
     },
     "https://workforcenow.cloud.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=71919c4b-9ac0-4e36-8f03-d1e5235783c0&ccId=19000101_000001&jobId=24335448_1&lang=en_US": {
       "school_id": 651,
       "posting_url": "https://workforcenow.cloud.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=71919c4b-9ac0-4e36-8f03-d1e5235783c0&ccId=19000101_000001&jobId=24335448_1&lang=en_US",
       "job_title_in_post": "Adjunct Clinical Instructor (Undergraduate Program)",
-      "position_type": "Unclassified",
+      "position_type": "Lecturer",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "2026-07-15",
       "position_start_date": ""
     },
     "https://workforcenow.cloud.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=71919c4b-9ac0-4e36-8f03-d1e5235783c0&ccId=19000101_000001&jobId=24063512_1&lang=en_US": {
       "school_id": 651,
       "posting_url": "https://workforcenow.cloud.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=71919c4b-9ac0-4e36-8f03-d1e5235783c0&ccId=19000101_000001&jobId=24063512_1&lang=en_US",
       "job_title_in_post": "Head Athletic Trainer",
-      "position_type": "Non-academic",
+      "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "2026-07-15",
       "position_start_date": ""
     },
     "https://workforcenow.cloud.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=71919c4b-9ac0-4e36-8f03-d1e5235783c0&ccId=19000101_000001&jobId=22992714_1&lang=en_US": {
@@ -101,23 +106,25 @@
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "2026-07-08",
       "position_start_date": ""
     },
     "https://workforcenow.cloud.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=71919c4b-9ac0-4e36-8f03-d1e5235783c0&ccId=19000101_000001&jobId=20821413_1&lang=en_US": {
       "school_id": 651,
       "posting_url": "https://workforcenow.cloud.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=71919c4b-9ac0-4e36-8f03-d1e5235783c0&ccId=19000101_000001&jobId=20821413_1&lang=en_US",
       "job_title_in_post": "Athletic Trainer",
-      "position_type": "Non-academic",
+      "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "2026-07-08",
       "position_start_date": ""
     }
   },
   "school_id": 651,
   "status": "complete",
-  "updated_at": "2026-10-16T18:45:26+00:00",
-  "completed_at": "2026-10-16T18:45:26+00:00",
+  "updated_at": "2026-10-27T00:35:38+00:00",
+  "completed_at": "2026-10-27T00:35:38+00:00",
   "last_error": ""
 }

@@ -2,8 +2,8 @@
   "raw": {},
   "rows": {},
   "school_id": 531,
-  "status": "complete",
-  "updated_at": "2026-10-16T18:44:06+00:00",
+  "status": "error",
+  "updated_at": "2026-10-27T00:25:28+00:00",
   "completed_at": "2026-10-16T18:44:06+00:00",
-  "last_error": ""
+  "last_error": "KeyError: None"
 }

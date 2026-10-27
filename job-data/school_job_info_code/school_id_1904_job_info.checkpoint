@@ -39,39 +39,43 @@
       "department_or_school": "",
       "area_key_words": "Finance",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://apply.interfolio.com/185351": {
       "school_id": 1904,
       "posting_url": "https://apply.interfolio.com/185351",
       "job_title_in_post": "Teaching Faculty– NEOMA Business School",
-      "position_type": "Unclassified",
+      "position_type": "Lecturer",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "Apr 23, 2026",
       "position_start_date": ""
     },
     "https://apply.interfolio.com/187980": {
       "school_id": 1904,
       "posting_url": "https://apply.interfolio.com/187980",
       "job_title_in_post": "Director of the NEOMA Artificial Intelligence (AI) Research Institute Position",
-      "position_type": "Associate_Professor; Research_Fellow",
+      "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "foundational; outreach",
       "deadline_of_application": "",
+      "posted_date": "Jun 14, 2026",
       "position_start_date": ""
     },
     "https://apply.interfolio.com/187983": {
       "school_id": 1904,
       "posting_url": "https://apply.interfolio.com/187983",
       "job_title_in_post": "Multiple full-time, permanent Associate / Full Professor positions in Artificial Intelligence (AI)",
-      "position_type": "Associate_Professor; Full_Professor",
+      "position_type": "Full_Professor",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "Artificial Intelligence; foundational; outreach",
       "deadline_of_application": "",
+      "posted_date": "Jun 14, 2026",
       "position_start_date": ""
     },
     "https://apply.interfolio.com/188794": {
@@ -83,34 +87,37 @@
       "department_or_school": "",
       "area_key_words": "Strategy, International Business, Geopolitics, Innovation, Sustainability, Entrepreneurship; Excellence: Artificial Intelligence; Future of Work",
       "deadline_of_application": "",
+      "posted_date": "Jun 29, 2026",
       "position_start_date": ""
     },
     "https://apply.interfolio.com/189068": {
       "school_id": 1904,
       "posting_url": "https://apply.interfolio.com/189068",
       "job_title_in_post": "Multiple full-time, permanent Assistant / Associate / Full Professor positions in Financial Accounting and/or Management Control",
-      "position_type": "Assistant_Professor; Associate_Professor; Full_Professor",
+      "position_type": "Full_Professor",
       "job_term": "Full-time",
       "department_or_school": "Institute of Science and Technology",
       "area_key_words": "Financial Accounting and/or Management Control; addressing key issues",
       "deadline_of_application": "",
+      "posted_date": "Jul 06, 2026",
       "position_start_date": ""
     },
     "https://apply.interfolio.com/192571": {
       "school_id": 1904,
       "posting_url": "https://apply.interfolio.com/192571",
       "job_title_in_post": "Full-time permanent Assistant / Associate / Full Professor position in Operations Management/Supply Chain Management",
-      "position_type": "Assistant_Professor; Associate_Professor; Full_Professor",
+      "position_type": "Full_Professor",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "Operations Management/Supply Chain Management",
-      "deadline_of_application": "",
+      "deadline_of_application": "October 15, 2026",
+      "posted_date": "Aug 31, 2026",
       "position_start_date": ""
     }
   },
   "school_id": 1904,
   "status": "complete",
-  "updated_at": "2026-10-16T19:20:49+00:00",
-  "completed_at": "2026-10-16T19:20:49+00:00",
+  "updated_at": "2026-10-27T02:03:12+00:00",
+  "completed_at": "2026-10-27T02:03:12+00:00",
   "last_error": ""
 }

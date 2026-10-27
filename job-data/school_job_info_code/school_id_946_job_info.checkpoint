@@ -51,6 +51,7 @@
       "department_or_school": "Department of Political Science",
       "area_key_words": "International Relations, Political Science",
       "deadline_of_application": "September 21, 2026",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.colgate.edu/jobs-colgate/faculty-positions#tenure-track-assistant-professor-in-paleoclimatology": {
@@ -62,6 +63,7 @@
       "department_or_school": "Department of Earth and Environmental Geosciences",
       "area_key_words": "Paleoclimatology; Liberal Arts Core Curriculum",
       "deadline_of_application": "September 1, 2026",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.colgate.edu/jobs-colgate/faculty-positions#tenure-stream-assistant-professor-in-geography": {
@@ -73,6 +75,7 @@
       "department_or_school": "Department of Campus Safety",
       "area_key_words": "Geography; Geographic Information Systems",
       "deadline_of_application": "September 15, 2026",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.colgate.edu/jobs-colgate/faculty-positions#tenure-stream-assistant-professor-in-statistics": {
@@ -84,6 +87,7 @@
       "department_or_school": "Department of Mathematics",
       "area_key_words": "Statistics",
       "deadline_of_application": "October 12, 2026",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.colgate.edu/jobs-colgate/faculty-positions#university-archivist": {
@@ -95,6 +99,7 @@
       "department_or_school": "Department of Campus Safety",
       "area_key_words": "",
       "deadline_of_application": "September 21, 2026",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.colgate.edu/jobs-colgate/faculty-positions#digital-archivist": {
@@ -106,56 +111,61 @@
       "department_or_school": "faculty of the University Libraries",
       "area_key_words": "",
       "deadline_of_application": "September 21, 2026",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.colgate.edu/jobs-colgate/faculty-positions#associate-director-of-access-services": {
       "school_id": 946,
       "posting_url": "https://www.colgate.edu/jobs-colgate/faculty-positions#associate-director-of-access-services",
       "job_title_in_post": "Associate Director of Access Services",
-      "position_type": "Non-academic",
+      "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "Department of Campus Safety",
       "area_key_words": "Access Services",
       "deadline_of_application": "September 21, 2026",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.colgate.edu/jobs-colgate/faculty-positions#tenure-stream-position-in-gender-economics": {
       "school_id": 946,
       "posting_url": "https://www.colgate.edu/jobs-colgate/faculty-positions#tenure-stream-position-in-gender-economics",
       "job_title_in_post": "Tenure-Stream Position in Gender Economics",
-      "position_type": "Assistant_Professor",
+      "position_type": "Assistant_Professor; Associate_Professor; Full_Professor",
       "job_term": "Full-time",
       "department_or_school": "Department of Campus Safety",
       "area_key_words": "Gender Economics",
       "deadline_of_application": "November 15, 2026",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.colgate.edu/jobs-colgate/faculty-positions#tenure-stream-position-in-behavioral-economics": {
       "school_id": 946,
       "posting_url": "https://www.colgate.edu/jobs-colgate/faculty-positions#tenure-stream-position-in-behavioral-economics",
       "job_title_in_post": "Tenure-Stream Position in Behavioral Economics",
-      "position_type": "Assistant_Professor",
+      "position_type": "Assistant_Professor; Associate_Professor; Full_Professor",
       "job_term": "Full-time",
       "department_or_school": "Department of Campus Safety",
       "area_key_words": "Behavioral Economics",
       "deadline_of_application": "November 15, 2026",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.colgate.edu/jobs-colgate/faculty-positions#fellowship-in-creative-writing-in-fiction": {
       "school_id": 946,
       "posting_url": "https://www.colgate.edu/jobs-colgate/faculty-positions#fellowship-in-creative-writing-in-fiction",
       "job_title_in_post": "Fellowship in Creative Writing in Fiction",
-      "position_type": "Unclassified",
+      "position_type": "Research_Fellow",
       "job_term": "Full-time",
       "department_or_school": "Department of English and Creative Writing can be found here",
       "area_key_words": "Creative Writing in Fiction; first",
       "deadline_of_application": "January 15, 2027",
+      "posted_date": "",
       "position_start_date": ""
     }
   },
   "school_id": 946,
   "status": "complete",
-  "updated_at": "2026-10-19T17:26:44+00:00",
-  "completed_at": "2026-10-19T17:26:44+00:00",
+  "updated_at": "2026-10-27T00:48:38+00:00",
+  "completed_at": "2026-10-27T00:48:38+00:00",
   "last_error": ""
 }

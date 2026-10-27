@@ -37,7 +37,8 @@
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "Psychology; Research Methods on rotation",
-      "deadline_of_application": "September 15, 2026",
+      "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": "September 1, 2027"
     },
     "https://lawrence.peopleadmin.com/postings/2163": {
@@ -48,24 +49,26 @@
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "Biology",
-      "deadline_of_application": "September 15, 2026",
+      "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": "September 1, 2027"
     },
     "https://lawrence.peopleadmin.com/postings/2146": {
       "school_id": 1529,
       "posting_url": "https://lawrence.peopleadmin.com/postings/2146",
       "job_title_in_post": "Visiting Assistant Professor of Theatre in Lighting and Sound",
-      "position_type": "Assistant_Professor",
+      "position_type": "Lecturer",
       "job_term": "Full-time",
       "department_or_school": "Department of Theatre Arts",
       "area_key_words": "Theatre in Lighting and Sound",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     }
   },
   "school_id": 1529,
   "status": "complete",
-  "updated_at": "2026-10-21T18:58:10+00:00",
-  "completed_at": "2026-10-21T18:58:10+00:00",
+  "updated_at": "2026-10-27T01:07:03+00:00",
+  "completed_at": "2026-10-27T01:07:03+00:00",
   "last_error": ""
 }
