@@ -1473,12 +1473,12 @@ document.querySelectorAll('#job-term-block input')
   .forEach(el => el.addEventListener('change', function(){ refreshResults(); }));
 clearBtn.addEventListener('click', function(){
   searchInput.value = '';
-  document.querySelectorAll('#job-term-block input').forEach(el => { el.checked = true; });
+  document.querySelectorAll('#job-term-block input').forEach(el => { el.checked = el.id !== 'f-term-part'; });
   if(jobsMode){
     jobSubjectInput.value = '';
     document.querySelectorAll('.f-subject').forEach(el => { el.checked = false; });
     fJobTitle.checked = false;
-    fJobAvailable.checked = true;
+    fJobAvailable.checked = false;
     fJobH1b.checked = false;
     fJobNew.value = 'any';
   }
@@ -1560,7 +1560,7 @@ function applyRegion(){
     listEl.style.display = '';
     radiusBlockEl.style.display = '';
     legendEl.innerHTML = region.legendHtml || legendEl.innerHTML;
-    document.querySelectorAll('#job-term-block input').forEach(el => { el.checked = true; });
+    document.querySelectorAll('#job-term-block input').forEach(el => { el.checked = el.id !== 'f-term-part'; });
     boundsFilterActive = false;
     crossRegionActive = false;
     liveViewActive = false;
