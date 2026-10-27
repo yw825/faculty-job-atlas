@@ -528,12 +528,12 @@
         </div>
         <div class="check-group" id="job-term-block">
           <span class="field-label" style="margin-bottom:0;">Job term</span>
-          <label class="check-row"><input type="checkbox" id="f-term-full" checked> Full-time</label>
-          <label class="check-row"><input type="checkbox" id="f-term-part"> Part-time</label>
+          <label class="check-row"><input type="checkbox" id="f-term-full" autocomplete="off" checked> Full-time</label>
+          <label class="check-row"><input type="checkbox" id="f-term-part" autocomplete="off"> Part-time</label>
         </div>
         <div class="check-group">
           <span class="field-label" style="margin-bottom:0;">Availability</span>
-          <label class="check-row"><input type="checkbox" id="f-job-available"> Available now</label>
+          <label class="check-row"><input type="checkbox" id="f-job-available" autocomplete="off"> Available now</label>
           <label class="check-row"><input type="checkbox" id="f-job-h1b"> Hide jobs that won't sponsor H-1B</label>
           <div class="hint">US jobs only. Uses the posting's own statement, else the school's published
             faculty policy. The 2025 $100k H-1B fee applies to new petitions for people outside the US; a change
@@ -1469,6 +1469,10 @@ function updateTransitCircle(filtered){
 // Job term is a real filter over postings now (the position-type and
 // subject-area placeholder blocks that used to sit here filtered nothing and
 // have been removed; subject is searched in the jobs panel instead).
+// A browser reload restores checkboxes to their last state, over these defaults.
+document.getElementById('f-term-full').checked = true;
+document.getElementById('f-term-part').checked = false;
+document.getElementById('f-job-available').checked = false;
 document.querySelectorAll('#job-term-block input')
   .forEach(el => el.addEventListener('change', function(){ refreshResults(); }));
 clearBtn.addEventListener('click', function(){
