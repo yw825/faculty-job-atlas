@@ -121,11 +121,41 @@ def write_info_csv(school_id, rows_by_url, ordered_urls):
 # position_type comes from rank_classifier.classify_rank (country-aware).
 
 
-_PART_TIME_RE = re.compile(r'\b(part[- ]time|fractional|0\.\d+\s*fte|\d+%\s*fte)\b', re.I)
+_PART_TIME_RE = re.compile(r'\b(part[- ]?time|fractional|0\.\d+\s*fte|(?<!100)(?<!100\s)\b\d{1,2}\s*%\s*fte)\b', re.I)
+_FULL_TIME_RE = re.compile(r'\bfull[- ]?time\b', re.I)
+_PART_TITLE_RE = re.compile(r'\b(adjunct|pool|per[- ]course|sessional)\b', re.I)
+# "Full/Part Time Status: Full Time" -- a form label naming both; its value decides.
+_TERM_LABEL_RE = re.compile(
+    r'(?i)\b(?:full[- ]?time\s*(?:/|or)\s*part[- ]?time|full\s*(?:/|or)\s*part[- ]?time|'
+    r'part[- ]?time\s*(?:/|or)\s*full[- ]?time)\b(?:\s*status)?\s*[:\-]?\s*(full|part)?')
+# Part-time mentions that are not about this post: department head counts,
+# part-time students/MBA programmes, family-friendly-employer boilerplate.
+_PART_NOISE_RE = re.compile(
+    r'(?i)\d+\s+part[- ]?time\s+(?:instructors|faculty|lecturers|staff|members)|'
+    r'part[- ]?time\s*,?\s*(?:and\s+|or\s+)?(?:executive\s+|online\s+|evening\s+)?'
+    r'(?:mba|students?|programs?|degrees?|study|undergraduate|graduate)|'
+    r'offer\s+(?:flexible\s+)?part[- ]?time|on\s+a\s+part[- ]?time\s*,?\s*(?:flexible|or|and)|'
+    r'part[- ]?time\s+rates|\(typically[^)]{0,30}fte\)')
 
 
 def classify_job_term(title, description=''):
-    return 'Part-time' if _PART_TIME_RE.search(f'{title} {description}') else 'Full-time'
+    """The title decides first, then a "Full/Part Time:" form field, then
+    whichever of full-time / part-time the advert mentions first. A bare
+    "part-time" anywhere used to win, which filed tenure-track posts as
+    part-time over "25 part-time instructors" in a department blurb."""
+    title, description = title or '', description or ''
+    if _PART_TIME_RE.search(title):
+        return 'Part-time'
+    if _FULL_TIME_RE.search(title):
+        return 'Full-time'
+    if _PART_TITLE_RE.search(title) and not re.search(r'(?i)post-?doc', title):
+        return 'Part-time'
+    m = _TERM_LABEL_RE.search(description)
+    if m and m.group(1):
+        return 'Full-time' if m.group(1).lower() == 'full' else 'Part-time'
+    text = _PART_NOISE_RE.sub(' ', _TERM_LABEL_RE.sub(' ', description))
+    p, f = _PART_TIME_RE.search(text), _FULL_TIME_RE.search(text)
+    return 'Part-time' if p and (not f or p.start() < f.start()) else 'Full-time'
 
 
 _DEPT_RE = re.compile(
