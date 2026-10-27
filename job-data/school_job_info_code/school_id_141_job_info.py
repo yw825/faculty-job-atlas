@@ -26,6 +26,8 @@ import sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.dirname(HERE))
 import job_info_lib as jinfo
+import job_postings_lib as jlib
+from bs4 import BeautifulSoup
 
 SCHOOL_ID = 141
 SCHOOL_NAME = 'San Jose State University'
@@ -38,13 +40,21 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """This school's own detail-page logic, owned by this file. The default
-    renders the page, picks the most job-title-shaped heading, and takes the
-    visible text as the description. Override when a posting page needs
-    something else -- a nested iframe, a cookie gate, a PDF, or a title that
-    only exists in <title> (all of which came up in the non-US set)."""
-    return jinfo.fetch_detail_generic(url)
-
+    """The generic reader cut the specialty off the title ("Assistant Professor
+    of Mathematics - Statistics or Data Science") and took the department from a
+    site-wide vaccine banner ("California Department of Public Health"). The
+    page's own h2 holds the full title and #job-details holds only the advert."""
+    # plain HTTP gets an empty 202 bot check; the browser passes it
+    soup = BeautifulSoup(jlib.fetch_rendered(url), 'html.parser')
+    body = soup.select_one('#job-content') or soup
+    h2 = body.find('h2')
+    title = h2.get_text(' ', strip=True) if h2 else ''
+    details = soup.select_one('#job-details') or body
+    m = re.search(r'(?:School/)?Department Name:\s*([^\n]+)', details.get_text('\n', strip=True))
+    desc = details.get_text('\n', strip=True)
+    if m:
+        desc = f'Department: {m.group(1).strip()}\n' + desc
+    return title, desc
 
 
 def main():

@@ -145,6 +145,11 @@ def is_relevant(title, department='', keywords=''):
     keywords = keywords or ''
     if not (title + department + keywords).strip():
         return True  # truly nothing to judge by
+    # "Marketing & Business Analytics - Business Analytics": a specialty named
+    # after the dash outranks the department name before it.
+    spec = re.split(r"\s[-\u2013\u2014]\s", title)[-1] if re.search(r"\s[-\u2013\u2014]\s", title) else ''
+    if spec and TITLE_STRONG.search(spec) and not HARD_EXCLUDE.search(spec):
+        return True
     if HARD_EXCLUDE.search(title) or HARD_EXCLUDE.search(department):
         return False
     if TITLE_STRONG.search(title):
