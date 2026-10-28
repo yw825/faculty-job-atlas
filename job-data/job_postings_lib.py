@@ -2446,7 +2446,11 @@ def paycom_previews(url):
     b = get_browser()
     if b is None:
         raise RuntimeError('playwright unavailable')
-    portal = f'https://www.paycomonline.net/v4/ats/web.php/portal/{key}/career-page'
+    # A board on a regional host (Mitchell: phx.us-west.paycomonline.net)
+    # "does not exist" on www, so keep the host the link names.
+    hm = re.match(r'https?://([a-z0-9.-]*paycomonline\.net)/', url)
+    host = hm.group(1) if hm else 'www.paycomonline.net'
+    portal = f'https://{host}/v4/ats/web.php/portal/{key}/career-page'
     page = b.new_page(user_agent=UA)
     captured = []
     page.on('request', lambda r: captured.append(r) if 'job-posting-previews/search' in r.url else None)
@@ -2481,7 +2485,7 @@ def paycom_previews(url):
         if not jid or jid in seen:
             continue
         seen.add(jid)
-        out.append((f'https://www.paycomonline.net/v4/ats/web.php/portal/{key}/jobs/{jid}',
+        out.append((f'https://{host}/v4/ats/web.php/portal/{key}/jobs/{jid}',
                     (job.get('jobTitle') or '').strip(), (job.get('positionType') or '').strip(),
                     (job.get('locations') or '').strip()))
     _PAYCOM_PREVIEW_CACHE[key] = out
