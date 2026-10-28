@@ -64,6 +64,31 @@
       "title": "Kairuruku | Research Assistant (Next Generation Ore Project)",
       "description": "Join the Clean Materials Team in this fixed-term, full-time contract.",
       "department": null
+    },
+    "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010232": {
+      "title": "Kairuruku | Research Assistant",
+      "description": "Be part of innovative research in this fixed-term, full-time role.",
+      "department": null
+    },
+    "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010231": {
+      "title": "Pūkenga | Lecturer in Industrial Design",
+      "description": "Permanent, full-time role creating future-focused learning experiences in Industrial Design.",
+      "department": null
+    },
+    "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010243": {
+      "title": "Pūkenga/Pūkenga Matua | Lecturer/Senior Lecturer in Political Science or International Relations",
+      "description": "Permanent, full-time academic role to foster student engagement with international politics.",
+      "department": null
+    },
+    "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010206": {
+      "title": "Kaituruki Matua | Senior Tutor in Biological Sciences",
+      "description": "Fixed-term, full-time position to contribute positively to the delivery of laboratory classes.",
+      "department": null
+    },
+    "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010205": {
+      "title": "Pūkenga | Lecturer in Urban and Regional Planning",
+      "description": "Advance the discipline through innovative teaching in this permanent, full-time academic role.",
+      "department": null
     }
   },
   "rows": {
@@ -82,11 +107,12 @@
       "school_id": 1830,
       "posting_url": "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010071",
       "job_title_in_post": "Pūkenga/Pukenga Matua | Lecturer/Senior Lecturer in Educational Psychology",
-      "position_type": "Lecturer",
+      "position_type": "Assistant_Professor; Associate_Professor",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "Educational Psychology",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010075": {
@@ -109,6 +135,7 @@
       "department_or_school": "",
       "area_key_words": "Industrial Design, ZZU; contemporary programme",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010094": {
@@ -120,6 +147,7 @@
       "department_or_school": "",
       "area_key_words": "Architecture, ZZU",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010095": {
@@ -131,6 +159,7 @@
       "department_or_school": "",
       "area_key_words": "Landscape Architecture, ZZU",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010138": {
@@ -159,11 +188,12 @@
       "school_id": 1830,
       "posting_url": "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010144",
       "job_title_in_post": "Pūkenga/Pūkenga Matua | Lecturer/Senior Lecturer in Political Science or International Relations",
-      "position_type": "Lecturer",
+      "position_type": "Assistant_Professor; Associate_Professor",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "Political Science or International Relations",
+      "area_key_words": "Political Science or International Relations; politics; world",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010136": {
@@ -192,28 +222,90 @@
       "school_id": 1830,
       "posting_url": "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010150",
       "job_title_in_post": "Pūkenga/Pūkenga Matua | Lecturer/Senior Lecturer in Educational Psychology",
-      "position_type": "Lecturer",
+      "position_type": "Assistant_Professor; Associate_Professor",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "Educational Psychology",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010214": {
       "school_id": 1830,
       "posting_url": "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010214",
       "job_title_in_post": "Kairuruku | Research Assistant (Next Generation Ore Project)",
-      "position_type": "Non-academic",
+      "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010232": {
+      "school_id": 1830,
+      "posting_url": "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010232",
+      "job_title_in_post": "Kairuruku | Research Assistant",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "this fixed-term",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010231": {
+      "school_id": 1830,
+      "posting_url": "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010231",
+      "job_title_in_post": "Pūkenga | Lecturer in Industrial Design",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Industrial Design",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010243": {
+      "school_id": 1830,
+      "posting_url": "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010243",
+      "job_title_in_post": "Pūkenga/Pūkenga Matua | Lecturer/Senior Lecturer in Political Science or International Relations",
+      "position_type": "Assistant_Professor; Associate_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Political Science or International Relations",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010206": {
+      "school_id": 1830,
+      "posting_url": "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010206",
+      "job_title_in_post": "Kaituruki Matua | Senior Tutor in Biological Sciences",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Biological Sciences",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010205": {
+      "school_id": 1830,
+      "posting_url": "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010205",
+      "job_title_in_post": "Pūkenga | Lecturer in Urban and Regional Planning",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Urban and Regional Planning; full-time academic role",
+      "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     }
   },
   "school_id": 1830,
   "status": "complete",
-  "updated_at": "2026-10-16T19:17:38+00:00",
-  "completed_at": "2026-10-16T19:17:38+00:00",
+  "updated_at": "2026-10-28T00:37:23+00:00",
+  "completed_at": "2026-10-28T00:37:23+00:00",
   "last_error": ""
 }

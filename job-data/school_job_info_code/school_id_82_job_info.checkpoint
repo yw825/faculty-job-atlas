@@ -55,6 +55,7 @@
       "department_or_school": "",
       "area_key_words": "Biology; Plant Physiology",
       "deadline_of_application": "10/01/2026",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.pomona.edu/administration/academic-dean/faculty-jobs#assistant-professor-of-computer-science": {
@@ -66,6 +67,7 @@
       "department_or_school": "",
       "area_key_words": "Computer Science",
       "deadline_of_application": "October 4, 2026",
+      "posted_date": "",
       "position_start_date": "July 1, 2027"
     },
     "https://www.pomona.edu/administration/academic-dean/faculty-jobs#assistant-professor-of-dance": {
@@ -77,6 +79,7 @@
       "department_or_school": "Department of Dance",
       "area_key_words": "Dance; cultural",
       "deadline_of_application": "December 1, 2026",
+      "posted_date": "",
       "position_start_date": "July 1, 2027"
     },
     "https://www.pomona.edu/administration/academic-dean/faculty-jobs#assistant-professor-of-english": {
@@ -88,6 +91,7 @@
       "department_or_school": "",
       "area_key_words": "English; US-Latinx literature",
       "deadline_of_application": "October 15, 2026",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.pomona.edu/administration/academic-dean/faculty-jobs#assistant-professor-of-environmental-analysis-critical-geographer": {
@@ -99,6 +103,7 @@
       "department_or_school": "",
       "area_key_words": "Environmental Analysis",
       "deadline_of_application": "November 1, 2026",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.pomona.edu/administration/academic-dean/faculty-jobs#assistant-professor-of-linguistics-and-cognitive-science": {
@@ -110,6 +115,7 @@
       "department_or_school": "Department of Linguistics and Cognitive Science",
       "area_key_words": "Linguistics and Cognitive Science",
       "deadline_of_application": "September 1, 2026",
+      "posted_date": "",
       "position_start_date": "July 1, 2027"
     },
     "https://www.pomona.edu/administration/academic-dean/faculty-jobs#assistant-professor-of-politics-race-and-ethnic-politics": {
@@ -121,6 +127,7 @@
       "department_or_school": "Department of Politics",
       "area_key_words": "Politics; Race; teaching interests complement those of; Introduction",
       "deadline_of_application": "September 30, 2026",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.pomona.edu/administration/academic-dean/faculty-jobs#assistant-professor-of-psychological-science-and-neuroscience": {
@@ -132,6 +139,7 @@
       "department_or_school": "",
       "area_key_words": "Psychological Science and Neuroscience",
       "deadline_of_application": "October 1, 2026",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.pomona.edu/administration/academic-dean/faculty-jobs#assistant-professor-of-sociology": {
@@ -143,17 +151,19 @@
       "department_or_school": "Department of Sociology",
       "area_key_words": "Sociology",
       "deadline_of_application": "September 9, 2026",
+      "posted_date": "",
       "position_start_date": "July 1, 2027"
     },
     "https://www.pomona.edu/administration/academic-dean/faculty-jobs#one-year-visiting-assistant-professor-of-art-ay27-28": {
       "school_id": 82,
       "posting_url": "https://www.pomona.edu/administration/academic-dean/faculty-jobs#one-year-visiting-assistant-professor-of-art-ay27-28",
       "job_title_in_post": "One year Visiting Assistant Professor of Art (AY27-28)",
-      "position_type": "Assistant_Professor",
+      "position_type": "Lecturer",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "Art; use of technology",
-      "deadline_of_application": "",
+      "deadline_of_application": "November 10, 2026",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.pomona.edu/administration/academic-dean/faculty-jobs#two-year-pomona-college-scholar-in-residence-pre-or-postdoctoral-fellowship": {
@@ -164,13 +174,14 @@
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "",
-      "deadline_of_application": "",
+      "deadline_of_application": "December 1, 2026",
+      "posted_date": "",
       "position_start_date": ""
     }
   },
   "school_id": 82,
   "status": "complete",
-  "updated_at": "2026-10-16T18:34:51+00:00",
-  "completed_at": "2026-10-16T18:34:51+00:00",
+  "updated_at": "2026-10-27T23:02:28+00:00",
+  "completed_at": "2026-10-27T23:02:28+00:00",
   "last_error": ""
 }

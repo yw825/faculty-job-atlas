@@ -24,6 +24,16 @@
       "title": "Postdoctoral Fellow",
       "description": "Postdoctoral Fellow - Institute for Chronic Disease Research (ICDR) - Work within a nationally recognised research institute focused on addressing major chronic disease challenges.\n\nPosting closes: 2026-10-30",
       "department": null
+    },
+    "https://elhs.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/1003993": {
+      "title": "Pūkenga, Pūkenga Matua, Ahonuku or Ahorangi in Kaupapa Māori Psychology",
+      "description": "Help shape the future of Kaupapa Māori Psychology through excellence in research and teaching.\n\nPosting closes: 2026-11-15",
+      "department": null
+    },
+    "https://elhs.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/1003985": {
+      "title": "Postdoctoral Fellow in Crime Science",
+      "description": "Join an international Horizon Europe research project investigating emerging forms of radicalisation and violent extremism.\n\nPosting closes: 2026-11-08",
+      "department": null
     }
   },
   "rows": {
@@ -31,22 +41,24 @@
       "school_id": 1827,
       "posting_url": "https://elhs.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/1003892",
       "job_title_in_post": "Regional Clinical Lead",
-      "position_type": "Unclassified",
+      "position_type": "Lecturer",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "2026-10-28",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://elhs.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/1003921": {
       "school_id": 1827,
       "posting_url": "https://elhs.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/1003921",
       "job_title_in_post": "Associate Dean of Māori",
-      "position_type": "Associate_Professor; Lecturer",
+      "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "2026-10-26",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://elhs.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/1003946": {
@@ -58,6 +70,7 @@
       "department_or_school": "",
       "area_key_words": "Clinical Psychology",
       "deadline_of_application": "2026-11-11",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://elhs.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/1003939": {
@@ -69,6 +82,7 @@
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "2026-10-30",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://elhs.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/1003940": {
@@ -80,12 +94,37 @@
       "department_or_school": "Institute for Chronic Disease Research",
       "area_key_words": "",
       "deadline_of_application": "2026-10-30",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://elhs.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/1003993": {
+      "school_id": 1827,
+      "posting_url": "https://elhs.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/1003993",
+      "job_title_in_post": "Pūkenga, Pūkenga Matua, Ahonuku or Ahorangi in Kaupapa Māori Psychology",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "2026-11-15",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://elhs.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/1003985": {
+      "school_id": 1827,
+      "posting_url": "https://elhs.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/1003985",
+      "job_title_in_post": "Postdoctoral Fellow in Crime Science",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Crime Science",
+      "deadline_of_application": "2026-11-08",
+      "posted_date": "",
       "position_start_date": ""
     }
   },
   "school_id": 1827,
   "status": "complete",
-  "updated_at": "2026-10-16T19:17:21+00:00",
-  "completed_at": "2026-10-16T19:17:21+00:00",
+  "updated_at": "2026-10-28T00:36:46+00:00",
+  "completed_at": "2026-10-28T00:36:46+00:00",
   "last_error": ""
 }

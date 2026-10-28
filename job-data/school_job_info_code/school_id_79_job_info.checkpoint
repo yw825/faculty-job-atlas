@@ -30,11 +30,12 @@
       "school_id": 79,
       "posting_url": "https://webapps.cmc.edu/jobs/faculty/faculty_opening_detail.php?PostingID=18083",
       "job_title_in_post": "Online Faculty Employment Application",
-      "position_type": "Unclassified",
+      "position_type": "Associate_Professor; Full_Professor",
       "job_term": "Full-time",
       "department_or_school": "Department of Integrated Sciences",
       "area_key_words": "Online; general education course taken",
-      "deadline_of_application": "",
+      "deadline_of_application": "September 4, 2026",
+      "posted_date": "",
       "position_start_date": "July 1, 2027"
     },
     "https://webapps.cmc.edu/jobs/faculty/faculty_opening_detail.php?PostingID=18082": {
@@ -46,17 +47,19 @@
       "department_or_school": "Department of Mathematical Sciences",
       "area_key_words": "Online; partial differential equations",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": "July 1, 2027"
     },
     "https://webapps.cmc.edu/jobs/faculty/faculty_opening_detail.php?PostingID=17082": {
       "school_id": 79,
       "posting_url": "https://webapps.cmc.edu/jobs/faculty/faculty_opening_detail.php?PostingID=17082",
       "job_title_in_post": "Online Faculty Employment Application",
-      "position_type": "Associate_Professor",
+      "position_type": "Full_Professor",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "Online",
       "deadline_of_application": "September 11, 2026",
+      "posted_date": "",
       "position_start_date": "July 1, 2027"
     },
     "https://webapps.cmc.edu/jobs/faculty/faculty_opening_detail.php?PostingID=17081": {
@@ -68,6 +71,7 @@
       "department_or_school": "Department of History",
       "area_key_words": "Online",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": "July 1, 2027"
     },
     "https://webapps.cmc.edu/jobs/faculty/faculty_opening_detail.php?PostingID=17080": {
@@ -79,6 +83,7 @@
       "department_or_school": "Department of Government",
       "area_key_words": "Online",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": "July 1, 2027"
     },
     "https://webapps.cmc.edu/jobs/faculty/faculty_opening_detail.php?PostingID=17078": {
@@ -90,12 +95,13 @@
       "department_or_school": "Department of Government",
       "area_key_words": "Online; politics",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": "July 1, 2027"
     }
   },
   "school_id": 79,
   "status": "complete",
-  "updated_at": "2026-10-16T18:34:50+00:00",
-  "completed_at": "2026-10-16T18:34:50+00:00",
+  "updated_at": "2026-10-27T23:02:27+00:00",
+  "completed_at": "2026-10-27T23:02:27+00:00",
   "last_error": ""
 }

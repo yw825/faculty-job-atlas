@@ -39,6 +39,7 @@
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://ozarks.edu/wp-content/uploads/AP-Religion-August-2026.pdf": {
@@ -50,6 +51,7 @@
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://ozarks.edu/wp-content/uploads/Assistant-Mens-Basketball-Coach-Job-Advertisement-2026.pdf": {
@@ -61,17 +63,19 @@
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://ozarks.edu/wp-content/uploads/VPFA-2026.pdf": {
       "school_id": 35,
       "posting_url": "https://ozarks.edu/wp-content/uploads/VPFA-2026.pdf",
       "job_title_in_post": "The University of the Ozarks invites nominations, inquiries, and applications for the position of Vice President for Finance and",
-      "position_type": "Unclassified",
+      "position_type": "Assistant_Professor; Associate_Professor; Full_Professor",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "Vice President for Finance and",
-      "deadline_of_application": "",
+      "deadline_of_application": "January 4, 2027",
+      "posted_date": "",
       "position_start_date": "July 1, 2027"
     },
     "https://ozarks.edu/wp-content/uploads/AP-Info-Science-2026.pdf": {
@@ -83,6 +87,7 @@
       "department_or_school": "",
       "area_key_words": "information science",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://ozarks.edu/wp-content/uploads/Public-Safety-Officer-Overnight-Weekend-2026.pdf": {
@@ -94,6 +99,7 @@
       "department_or_school": "",
       "area_key_words": "Public Safety, the officer patrols campus, monitors access",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://ozarks.edu/wp-content/uploads/Director-of-Ozarks-Momentum-Program-2026.pdf": {
@@ -105,12 +111,13 @@
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     }
   },
   "school_id": 35,
   "status": "complete",
-  "updated_at": "2026-10-16T18:33:55+00:00",
-  "completed_at": "2026-10-16T18:33:55+00:00",
+  "updated_at": "2026-10-27T22:57:02+00:00",
+  "completed_at": "2026-10-27T22:57:02+00:00",
   "last_error": ""
 }

@@ -56,8 +56,8 @@
   ],
   "school_id": 1715,
   "status": "error",
-  "updated_at": "2026-10-26T22:55:58+00:00",
+  "updated_at": "2026-10-27T22:28:55+00:00",
   "started_at": "2026-09-02T22:27:32+00:00",
   "completed_at": "2026-10-09T20:02:00+00:00",
-  "last_error": "RuntimeError: no jobs on the page (blocked?)"
+  "last_error": "Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation"
 }

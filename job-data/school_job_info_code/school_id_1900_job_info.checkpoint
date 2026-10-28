@@ -1,9 +1,43 @@
 {
-  "raw": {},
-  "rows": {},
+  "raw": {
+    "https://www.jobbnorge.no/en/available-jobs/job/310747/associate-professor-in-management-accounting-and-control": {
+      "title": "Associate Professor in Management Accounting and Control (310747)",
+      "description": "Associate Professor in Management Accounting and Control (310747) | NHH Norwegian School of Economics Gå til innhold Gå til sidemeny Jobbnorge.no needs JavaScript for all functions to work properly. Please turn on JavaScript in your browser and try again. Loading... See more jobs Vacant positions -   NHH Norwegian School of Economics PDF Link to startpage Switchboard: +47 75 54 22 20 Support Privacy policy - cookies"
+    },
+    "https://www.jobbnorge.no/en/available-jobs/job/310757/assistant-professor-in-management-accounting-and-control": {
+      "title": "Assistant Professor in Management Accounting and Control (310757)",
+      "description": "Assistant Professor in Management Accounting and Control (310757) | NHH Norwegian School of Economics Gå til innhold Gå til sidemeny Jobbnorge.no needs JavaScript for all functions to work properly. Please turn on JavaScript in your browser and try again. Loading... See more jobs Vacant positions -   NHH Norwegian School of Economics PDF Link to startpage Switchboard: +47 75 54 22 20 Support Privacy policy - cookies"
+    }
+  },
+  "rows": {
+    "https://www.jobbnorge.no/en/available-jobs/job/310747/associate-professor-in-management-accounting-and-control": {
+      "school_id": 1900,
+      "posting_url": "https://www.jobbnorge.no/en/available-jobs/job/310747/associate-professor-in-management-accounting-and-control",
+      "job_title_in_post": "Associate Professor in Management Accounting and Control (310747)",
+      "position_type": "Associate_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Management Accounting and Control",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://www.jobbnorge.no/en/available-jobs/job/310757/assistant-professor-in-management-accounting-and-control": {
+      "school_id": 1900,
+      "posting_url": "https://www.jobbnorge.no/en/available-jobs/job/310757/assistant-professor-in-management-accounting-and-control",
+      "job_title_in_post": "Assistant Professor in Management Accounting and Control (310757)",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Management Accounting and Control",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    }
+  },
   "school_id": 1900,
   "status": "complete",
-  "updated_at": "2026-10-16T19:20:46+00:00",
-  "completed_at": "2026-10-16T19:20:46+00:00",
+  "updated_at": "2026-10-28T00:41:01+00:00",
+  "completed_at": "2026-10-28T00:41:01+00:00",
   "last_error": ""
 }

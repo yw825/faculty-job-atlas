@@ -39,6 +39,38 @@
     "https://viprecprod.ad.umanitoba.ca/A#req-50625": {
       "title": "Assistant Professor in Algebra or Topology",
       "description": "Assistant Professor in Algebra or Topology | Requisition No: 50625 - Category:  FULL TIME ACADEMICS | Full time -  Permanent | Manitoba | Fort Garry Campus [011] | Oct/13/2026 | Assistant or Associate Professor & CRC Tier 2"
+    },
+    "https://viprecprod.ad.umanitoba.ca/A#req-51055": {
+      "title": "Director of Fabrication Facilities",
+      "description": "Director of Fabrication Facilities | Requisition No: 51055 - Category:  EXCLUDED SUPPORT STAFF | Part Time - Temporary | Manitoba | Fort Garry Campus [011] | Oct/27/2026 | Director of Outreach and Engagement"
+    },
+    "https://viprecprod.ad.umanitoba.ca/A#req-51054": {
+      "title": "Director of Outreach and Engagement",
+      "description": "Director of Outreach and Engagement | Requisition No: 51054 - Category:  EXCLUDED SUPPORT STAFF | Part Time - Temporary | Manitoba | Fort Garry Campus [011] | Oct/27/2026 | Instructor I"
+    },
+    "https://viprecprod.ad.umanitoba.ca/A#req-50989": {
+      "title": "Instructor I",
+      "description": "Instructor I | Requisition No: 50989 - Category:  FULL TIME ACADEMICS | Full time -  Permanent | Manitoba | Bannatyne Campus [021] | Oct/22/2026 | Instructor I/ Instructor II/ Senior Instructor"
+    },
+    "https://viprecprod.ad.umanitoba.ca/A#req-50908": {
+      "title": "Instructor I/ Instructor II/ Senior Instructor",
+      "description": "Instructor I/ Instructor II/ Senior Instructor | Requisition No: 50908 - Category:  FULL TIME ACADEMICS | Full time - Temporary | Manitoba | Fort Garry Campus [011] | Oct/21/2026 | Department Head, Engineering Education"
+    },
+    "https://viprecprod.ad.umanitoba.ca/A#req-50913": {
+      "title": "Department Head, Engineering Education",
+      "description": "Department Head, Engineering Education | Requisition No: 50913 - Category:  FULL TIME ACADEMICS | Full time -  Permanent | Manitoba | Fort Garry Campus [011] | Oct/21/2026 | Assistant Professor (Canada Impact+ Emerging Leader)"
+    },
+    "https://viprecprod.ad.umanitoba.ca/A#req-50870": {
+      "title": "Assistant Professor (Canada Impact+ Emerging Leader)",
+      "description": "Assistant Professor (Canada Impact+ Emerging Leader) | Requisition No: 50870 - Category:  FULL TIME ACADEMICS | Full time -  Permanent | Manitoba | Fort Garry Campus [011] | Oct/20/2026 | Assistant, Associate or Full Professor"
+    },
+    "https://viprecprod.ad.umanitoba.ca/A#req-50832": {
+      "title": "Assistant, Associate or Full Professor",
+      "description": "Assistant, Associate or Full Professor | Requisition No: 50832 - Category:  FULL TIME ACADEMICS | Full time -  Permanent | Manitoba | Fort Garry Campus [011] | Oct/19/2026 | CRC Tier 1-Pediatric Translational Research & Clinical Outco"
+    },
+    "https://viprecprod.ad.umanitoba.ca/A#req-50759": {
+      "title": "CRC Tier 1-Pediatric Translational Research & Clinical Outco",
+      "description": "CRC Tier 1-Pediatric Translational Research & Clinical Outco | Requisition No: 50759 - Category:  CANADA RESEARCH CHAIRS | Part Time - Temporary | Manitoba | Bannatyne Campus [021] | Oct/16/2026 | Assistant Professor in Algebra or Topology"
     }
   },
   "rows": {
@@ -46,11 +78,12 @@
       "school_id": 1601,
       "posting_url": "https://viprecprod.ad.umanitoba.ca/A#req-50451",
       "job_title_in_post": "Assistant or Associate Professor & CRC Tier 2",
-      "position_type": "Assistant_Professor; Associate_Professor",
+      "position_type": "Associate_Professor",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://viprecprod.ad.umanitoba.ca/A#req-50390": {
@@ -150,12 +183,109 @@
       "department_or_school": "",
       "area_key_words": "Algebra or Topology",
       "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://viprecprod.ad.umanitoba.ca/A#req-51055": {
+      "school_id": 1601,
+      "posting_url": "https://viprecprod.ad.umanitoba.ca/A#req-51055",
+      "job_title_in_post": "Director of Fabrication Facilities",
+      "position_type": "Unclassified",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "Fabrication Facilities",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://viprecprod.ad.umanitoba.ca/A#req-51054": {
+      "school_id": 1601,
+      "posting_url": "https://viprecprod.ad.umanitoba.ca/A#req-51054",
+      "job_title_in_post": "Director of Outreach and Engagement",
+      "position_type": "Unclassified",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "Outreach and Engagement",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://viprecprod.ad.umanitoba.ca/A#req-50989": {
+      "school_id": 1601,
+      "posting_url": "https://viprecprod.ad.umanitoba.ca/A#req-50989",
+      "job_title_in_post": "Instructor I",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://viprecprod.ad.umanitoba.ca/A#req-50908": {
+      "school_id": 1601,
+      "posting_url": "https://viprecprod.ad.umanitoba.ca/A#req-50908",
+      "job_title_in_post": "Instructor I/ Instructor II/ Senior Instructor",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://viprecprod.ad.umanitoba.ca/A#req-50913": {
+      "school_id": 1601,
+      "posting_url": "https://viprecprod.ad.umanitoba.ca/A#req-50913",
+      "job_title_in_post": "Department Head, Engineering Education",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://viprecprod.ad.umanitoba.ca/A#req-50870": {
+      "school_id": 1601,
+      "posting_url": "https://viprecprod.ad.umanitoba.ca/A#req-50870",
+      "job_title_in_post": "Assistant Professor (Canada Impact+ Emerging Leader)",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://viprecprod.ad.umanitoba.ca/A#req-50832": {
+      "school_id": 1601,
+      "posting_url": "https://viprecprod.ad.umanitoba.ca/A#req-50832",
+      "job_title_in_post": "Assistant, Associate or Full Professor",
+      "position_type": "Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://viprecprod.ad.umanitoba.ca/A#req-50759": {
+      "school_id": 1601,
+      "posting_url": "https://viprecprod.ad.umanitoba.ca/A#req-50759",
+      "job_title_in_post": "CRC Tier 1-Pediatric Translational Research & Clinical Outco",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     }
   },
   "school_id": 1601,
   "status": "complete",
-  "updated_at": "2026-10-16T19:01:05+00:00",
-  "completed_at": "2026-10-16T19:01:05+00:00",
+  "updated_at": "2026-10-27T23:38:14+00:00",
+  "completed_at": "2026-10-27T23:38:14+00:00",
   "last_error": ""
 }

@@ -27,6 +27,7 @@
       "department_or_school": "Faculty of Arts and Social Sciences",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.chuhai.edu.hk/en/page/jobs?id=b9f07df8-bc36-430a-91ea-b8f196e36f18#head-department-of-civil-engineering": {
@@ -38,17 +39,19 @@
       "department_or_school": "Department of Civil Engineering",
       "area_key_words": "Civil Engineering; closely-related field; resilient infrastructure",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.chuhai.edu.hk/en/page/jobs?id=b9f07df8-bc36-430a-91ea-b8f196e36f18#dean-faculty-of-business": {
       "school_id": 1835,
       "posting_url": "https://www.chuhai.edu.hk/en/page/jobs?id=b9f07df8-bc36-430a-91ea-b8f196e36f18#dean-faculty-of-business",
       "job_title_in_post": "Dean, Faculty of Business",
-      "position_type": "Associate_Professor",
+      "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "Faculty of Business",
       "area_key_words": "Business; conduct of good quality teaching",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.chuhai.edu.hk/en/page/jobs?id=b9f07df8-bc36-430a-91ea-b8f196e36f18#lecturer-department-of-chinese-literature": {
@@ -60,12 +63,13 @@
       "department_or_school": "Department of Chinese Literature",
       "area_key_words": "Chinese Literature",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     }
   },
   "school_id": 1835,
   "status": "complete",
-  "updated_at": "2026-10-16T19:17:43+00:00",
-  "completed_at": "2026-10-16T19:17:43+00:00",
+  "updated_at": "2026-10-28T00:12:43+00:00",
+  "completed_at": "2026-10-28T00:12:43+00:00",
   "last_error": ""
 }

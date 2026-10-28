@@ -29,28 +29,30 @@
       "school_id": 1706,
       "posting_url": "https://my.corehr.com/pls/nuigrecruit/erq_jobspec_version_4.jobspec?p_id=011988",
       "job_title_in_post": "Clinical Tutor",
-      "position_type": "Non-academic",
+      "position_type": "Lecturer",
       "job_term": "Part-time",
       "department_or_school": "School of Medicine",
       "area_key_words": "Hospitals The purpose of this",
       "deadline_of_application": "06/11/2026",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://my.corehr.com/pls/nuigrecruit/erq_jobspec_version_4.jobspec?p_id=011990": {
       "school_id": 1706,
       "posting_url": "https://my.corehr.com/pls/nuigrecruit/erq_jobspec_version_4.jobspec?p_id=011990",
       "job_title_in_post": "Lecturer - Contract Type A",
-      "position_type": "Lecturer",
+      "position_type": "Assistant_Professor",
       "job_term": "Part-time",
       "department_or_school": "School of Medicine and employees of the HSE",
       "area_key_words": "Contract Type A",
       "deadline_of_application": "09/11/2026",
+      "posted_date": "",
       "position_start_date": ""
     }
   },
   "school_id": 1706,
   "status": "complete",
-  "updated_at": "2026-10-16T19:07:14+00:00",
-  "completed_at": "2026-10-16T19:07:14+00:00",
+  "updated_at": "2026-10-28T00:15:07+00:00",
+  "completed_at": "2026-10-28T00:15:07+00:00",
   "last_error": ""
 }

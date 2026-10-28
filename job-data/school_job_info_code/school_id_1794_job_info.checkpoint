@@ -87,6 +87,46 @@
     "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#lecturer-nutrition-and-dietetics": {
       "title": "Lecturer Nutrition and Dietetics",
       "description": "Lecturer Nutrition and Dietetics. Charles Darwin University. Employment type: Fixed Term."
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#assets-engineering-officer": {
+      "title": "Assets & Engineering Officer",
+      "description": "Assets & Engineering Officer. Charles Darwin University. Employment type: Continuing."
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#business-intelligence-specialist": {
+      "title": "Business Intelligence Specialist",
+      "description": "Business Intelligence Specialist. Charles Darwin University. Employment type: Continuing."
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#danggalg-first-nations-health-pathway-programcourse-coordinator": {
+      "title": "Danggalg: First Nations Health Pathway ProgramCourse Coordinator",
+      "description": "Danggalg: First Nations Health Pathway ProgramCourse Coordinator. Charles Darwin University. Employment type: Continuing."
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#digital-customer-engagement-manager": {
+      "title": "Digital Customer Engagement Manager",
+      "description": "Digital Customer Engagement Manager. Charles Darwin University. Employment type: Continuing."
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#lecturer-hospitality": {
+      "title": "Lecturer - Hospitality",
+      "description": "Lecturer - Hospitality. Charles Darwin University. Employment type: Fixed Term."
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#lecturer-oral-health": {
+      "title": "Lecturer Oral Health",
+      "description": "Lecturer Oral Health. Charles Darwin University. Employment type: Continuing."
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#lecturer-senior-lecturer-construction-management": {
+      "title": "Lecturer/Senior Lecturer - Construction Management",
+      "description": "Lecturer/Senior Lecturer - Construction Management. Charles Darwin University. Employment type: Continuing."
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#people-partner": {
+      "title": "People Partner",
+      "description": "People Partner. Charles Darwin University. Employment type: Continuing."
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#senior-payroll-officer-compliance": {
+      "title": "Senior Payroll Officer Compliance",
+      "description": "Senior Payroll Officer Compliance. Charles Darwin University. Employment type: Continuing."
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#timetabling-and-examinations-officer": {
+      "title": "Timetabling and Examinations Officer",
+      "description": "Timetabling and Examinations Officer. Charles Darwin University. Employment type: Continuing."
     }
   },
   "rows": {
@@ -99,28 +139,31 @@
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#casual-clinical-educator-ot-health-hub-20386": {
       "school_id": 1794,
       "posting_url": "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#casual-clinical-educator-ot-health-hub-20386",
       "job_title_in_post": "Casual Clinical Educator - OT Health Hub - 20386",
-      "position_type": "Unclassified",
+      "position_type": "Lecturer",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#casual-dest-vet-tutor": {
       "school_id": 1794,
       "posting_url": "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#casual-dest-vet-tutor",
       "job_title_in_post": "Casual DEST (VET) Tutor",
-      "position_type": "Unclassified",
+      "position_type": "Lecturer",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#casual-he-academic-engineering-eng212": {
@@ -132,6 +175,7 @@
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#casual-marking-psychology": {
@@ -143,6 +187,7 @@
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#director-planning-and-performance": {
@@ -204,44 +249,48 @@
       "school_id": 1794,
       "posting_url": "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#lecturer-carpentry-construction",
       "job_title_in_post": "Lecturer - Carpentry & Construction",
-      "position_type": "Lecturer",
+      "position_type": "Assistant_Professor",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "Carpentry & Construction",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#lecturer-construction": {
       "school_id": 1794,
       "posting_url": "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#lecturer-construction",
       "job_title_in_post": "Lecturer - Construction",
-      "position_type": "Lecturer",
+      "position_type": "Assistant_Professor",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "Construction",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#lecturer-electrotechnology": {
       "school_id": 1794,
       "posting_url": "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#lecturer-electrotechnology",
       "job_title_in_post": "Lecturer - Electrotechnology",
-      "position_type": "Lecturer",
+      "position_type": "Assistant_Professor",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "Electrotechnology",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#lecturer-heavy-vehicle": {
       "school_id": 1794,
       "posting_url": "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#lecturer-heavy-vehicle",
       "job_title_in_post": "Lecturer - Heavy Vehicle",
-      "position_type": "Lecturer",
+      "position_type": "Assistant_Professor",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "Heavy Vehicle",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#professional-experience-supervisor-casual-nt": {
@@ -253,6 +302,7 @@
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#senior-lecturer-population-health": {
@@ -286,6 +336,7 @@
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#international-admissions-officer": {
@@ -297,45 +348,169 @@
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#lecturer-fitness": {
       "school_id": 1794,
       "posting_url": "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#lecturer-fitness",
       "job_title_in_post": "Lecturer - Fitness",
-      "position_type": "Lecturer",
+      "position_type": "Assistant_Professor",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "Fitness",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#lecturer-ict-cyber-security-digital": {
       "school_id": 1794,
       "posting_url": "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#lecturer-ict-cyber-security-digital",
       "job_title_in_post": "Lecturer - ICT, Cyber Security & Digital",
-      "position_type": "Lecturer",
+      "position_type": "Assistant_Professor",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "Cyber Security & Digital",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#lecturer-nutrition-and-dietetics": {
       "school_id": 1794,
       "posting_url": "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#lecturer-nutrition-and-dietetics",
       "job_title_in_post": "Lecturer Nutrition and Dietetics",
-      "position_type": "Lecturer",
+      "position_type": "Assistant_Professor",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#assets-engineering-officer": {
+      "school_id": 1794,
+      "posting_url": "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#assets-engineering-officer",
+      "job_title_in_post": "Assets & Engineering Officer",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#business-intelligence-specialist": {
+      "school_id": 1794,
+      "posting_url": "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#business-intelligence-specialist",
+      "job_title_in_post": "Business Intelligence Specialist",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#danggalg-first-nations-health-pathway-programcourse-coordinator": {
+      "school_id": 1794,
+      "posting_url": "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#danggalg-first-nations-health-pathway-programcourse-coordinator",
+      "job_title_in_post": "Danggalg: First Nations Health Pathway ProgramCourse Coordinator",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#digital-customer-engagement-manager": {
+      "school_id": 1794,
+      "posting_url": "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#digital-customer-engagement-manager",
+      "job_title_in_post": "Digital Customer Engagement Manager",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#lecturer-hospitality": {
+      "school_id": 1794,
+      "posting_url": "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#lecturer-hospitality",
+      "job_title_in_post": "Lecturer - Hospitality",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Hospitality",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#lecturer-oral-health": {
+      "school_id": 1794,
+      "posting_url": "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#lecturer-oral-health",
+      "job_title_in_post": "Lecturer Oral Health",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#lecturer-senior-lecturer-construction-management": {
+      "school_id": 1794,
+      "posting_url": "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#lecturer-senior-lecturer-construction-management",
+      "job_title_in_post": "Lecturer/Senior Lecturer - Construction Management",
+      "position_type": "Assistant_Professor; Associate_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Construction Management",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#people-partner": {
+      "school_id": 1794,
+      "posting_url": "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#people-partner",
+      "job_title_in_post": "People Partner",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#senior-payroll-officer-compliance": {
+      "school_id": 1794,
+      "posting_url": "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#senior-payroll-officer-compliance",
+      "job_title_in_post": "Senior Payroll Officer Compliance",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#timetabling-and-examinations-officer": {
+      "school_id": 1794,
+      "posting_url": "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#timetabling-and-examinations-officer",
+      "job_title_in_post": "Timetabling and Examinations Officer",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     }
   },
   "school_id": 1794,
   "status": "complete",
-  "updated_at": "2026-10-16T19:15:11+00:00",
-  "completed_at": "2026-10-16T19:15:11+00:00",
+  "updated_at": "2026-10-27T23:12:31+00:00",
+  "completed_at": "2026-10-27T23:12:31+00:00",
   "last_error": ""
 }

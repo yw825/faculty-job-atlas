@@ -35,6 +35,26 @@
     "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225314": {
       "title": "Lecturer/Senior Lecturer in Rural Medicine (Armidale based)",
       "description": "Lecturer/Senior Lecturer in Rural Medicine (Armidale based). University of New England. Reference 225314. 225314 Lecturer/Senior Lecturer in Rural Medicine (Armidale based) Academic - Continuing, Part-time - Level B/C School of Rural Medicine 01-NOV-2026 11:59:59 pm"
+    },
+    "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225315": {
+      "title": "Manager, Device Services",
+      "description": "Manager, Device Services. University of New England. Reference 225315. 225315 Manager, Device Services Professional - Continuing, full-time - HEO8 Device Services 08-NOV-2026 11:59:59 pm"
+    },
+    "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225316": {
+      "title": "Student Systems Analyst",
+      "description": "Student Systems Analyst. University of New England. Reference 225316. 225316 Student Systems Analyst Professional - Continuing - Full-time - HEO7 Systems Support 01-NOV-2026 11:59:59 pm"
+    },
+    "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225317": {
+      "title": "Project Manager",
+      "description": "Project Manager. University of New England. Reference 225317. 225317 Project Manager Professional - Fixed Term to 23rd October 2027 - Full Time - HEO8A Project Delivery 01-NOV-2026 11:59:59 pm"
+    },
+    "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225319": {
+      "title": "Client Enablement Team Member (Casual)",
+      "description": "Client Enablement Team Member (Casual). University of New England. Reference 225319. 225319 Client Enablement Team Member (Casual) Professional - Casual Role - HEO2 Client Experience and Enablement 15-NOV-2026 11:59:59 pm"
+    },
+    "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225320": {
+      "title": "Lecturer/ Senior Lecturer in Rural Medicine",
+      "description": "Lecturer/ Senior Lecturer in Rural Medicine. University of New England. Reference 225320. 225320 Lecturer/ Senior Lecturer in Rural Medicine Academic - Continuing, Part-time - Level B/C (Hybrid) School of Rural Medicine - Medicine 08-NOV-2026 11:59:59 pm"
     }
   },
   "rows": {
@@ -102,6 +122,7 @@
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225311": {
@@ -119,28 +140,90 @@
       "school_id": 1780,
       "posting_url": "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225313",
       "job_title_in_post": "Senior Lecturer / Associate Professor in Rural Medicine",
-      "position_type": "Associate_Professor; Lecturer",
+      "position_type": "Associate_Professor",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "Rural Medicine",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225314": {
       "school_id": 1780,
       "posting_url": "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225314",
       "job_title_in_post": "Lecturer/Senior Lecturer in Rural Medicine (Armidale based)",
-      "position_type": "Lecturer",
+      "position_type": "Assistant_Professor; Associate_Professor",
       "job_term": "Part-time",
       "department_or_school": "",
       "area_key_words": "Rural Medicine",
       "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225315": {
+      "school_id": 1780,
+      "posting_url": "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225315",
+      "job_title_in_post": "Manager, Device Services",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225316": {
+      "school_id": 1780,
+      "posting_url": "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225316",
+      "job_title_in_post": "Student Systems Analyst",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225317": {
+      "school_id": 1780,
+      "posting_url": "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225317",
+      "job_title_in_post": "Project Manager",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225319": {
+      "school_id": 1780,
+      "posting_url": "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225319",
+      "job_title_in_post": "Client Enablement Team Member (Casual)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225320": {
+      "school_id": 1780,
+      "posting_url": "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225320",
+      "job_title_in_post": "Lecturer/ Senior Lecturer in Rural Medicine",
+      "position_type": "Assistant_Professor; Associate_Professor",
+      "job_term": "Part-time",
+      "department_or_school": "School of Rural Medicine",
+      "area_key_words": "Rural Medicine",
+      "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     }
   },
   "school_id": 1780,
   "status": "complete",
-  "updated_at": "2026-10-16T19:14:04+00:00",
-  "completed_at": "2026-10-16T19:14:04+00:00",
+  "updated_at": "2026-10-27T23:03:51+00:00",
+  "completed_at": "2026-10-27T23:03:51+00:00",
   "last_error": ""
 }

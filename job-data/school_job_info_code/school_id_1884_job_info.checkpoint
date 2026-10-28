@@ -19,6 +19,10 @@
     "https://my.corehr.com/pls/tudrecruit/erq_jobspec_version_4.jobspec?p_id=045403": {
       "title": "Assistant Lecturer in Law (Permanent Wholetime) (Reference: 250a/2026)",
       "description": "Closing Date: 06/11/2026 Close Date : 06-Nov-2026 Job Title : Assistant Lecturer Contact Person : Job ID : 045403 Assistant Lecturer in Law (Permanent Wholetime) (Reference: 250a/2026) 06-Nov-2026"
+    },
+    "https://my.corehr.com/pls/tudrecruit/erq_jobspec_version_4.jobspec?p_id=045623": {
+      "title": "Digital Solutions Developer (2 Posts) ICT Specialist Post (Fixed Term Wholetime up to 31 December 2028) (Reference: 542/2026)",
+      "description": "Closing Date: 06/11/2026 Close Date : 06-Nov-2026 Job Title : Contact Person : Ross Mcguire Job ID : 045623 Digital Solutions Developer (2 Posts) ICT Specialist Post (Fixed Term Wholetime up to 31 December 2028) (Reference: 542/2026) 06-Nov-2026"
     }
   },
   "rows": {
@@ -31,6 +35,7 @@
       "department_or_school": "",
       "area_key_words": "Business Software Development",
       "deadline_of_application": "30/10/2026",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://my.corehr.com/pls/tudrecruit/erq_jobspec_version_4.jobspec?p_id=045383": {
@@ -64,6 +69,7 @@
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "30/10/2026",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://my.corehr.com/pls/tudrecruit/erq_jobspec_version_4.jobspec?p_id=045403": {
@@ -75,12 +81,25 @@
       "department_or_school": "",
       "area_key_words": "Law",
       "deadline_of_application": "06/11/2026",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://my.corehr.com/pls/tudrecruit/erq_jobspec_version_4.jobspec?p_id=045623": {
+      "school_id": 1884,
+      "posting_url": "https://my.corehr.com/pls/tudrecruit/erq_jobspec_version_4.jobspec?p_id=045623",
+      "job_title_in_post": "Digital Solutions Developer (2 Posts) ICT Specialist Post (Fixed Term Wholetime up to 31 December 2028) (Reference: 542/2026)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "06/11/2026",
+      "posted_date": "",
       "position_start_date": ""
     }
   },
   "school_id": 1884,
   "status": "complete",
-  "updated_at": "2026-10-16T19:19:51+00:00",
-  "completed_at": "2026-10-16T19:19:51+00:00",
+  "updated_at": "2026-10-28T00:15:37+00:00",
+  "completed_at": "2026-10-28T00:15:37+00:00",
   "last_error": ""
 }

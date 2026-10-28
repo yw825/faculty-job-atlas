@@ -34,22 +34,24 @@
       "school_id": 1847,
       "posting_url": "https://careers.twc.edu.hk/job/Assistant-Professor-%28Research-Track%29-in-Psychology-and-Social-Sciences-1055/1361659166/",
       "job_title_in_post": "Assistant Professor (Research Track) in Psychology and Social Sciences",
-      "position_type": "Assistant_Professor",
+      "position_type": "Research_Fellow",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "Psychology and Social Sciences; obtaining competitive research funding",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://careers.twc.edu.hk/job/Associate-Professor-%28Research-Track%29-Assistant-Professor-%28Research-Track%29-626/1328284066/": {
       "school_id": 1847,
       "posting_url": "https://careers.twc.edu.hk/job/Associate-Professor-%28Research-Track%29-Assistant-Professor-%28Research-Track%29-626/1328284066/",
       "job_title_in_post": "Associate Professor (Research Track) / Assistant Professor (Research Track)",
-      "position_type": "Assistant_Professor; Associate_Professor",
+      "position_type": "Research_Fellow",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "tertiary education sector",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://careers.twc.edu.hk/job/Associate-ProfessorAssistant-Professor%28Research-Track%29-in-Occupational-Therapy-668/1328873166/": {
@@ -67,33 +69,36 @@
       "school_id": 1847,
       "posting_url": "https://careers.twc.edu.hk/job/Assistant-Professor-%28Research-Track%29-1324/1367795066/",
       "job_title_in_post": "Assistant Professor (Research Track)",
-      "position_type": "Assistant_Professor",
+      "position_type": "Research_Fellow",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "English",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://careers.twc.edu.hk/job/Professor-%28Research-Track%29-635/1328338266/": {
       "school_id": 1847,
       "posting_url": "https://careers.twc.edu.hk/job/Professor-%28Research-Track%29-635/1328338266/",
       "job_title_in_post": "Professor (Research Track)",
-      "position_type": "Full_Professor",
+      "position_type": "Research_Fellow",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "competitive grant acquisition; practice-based research",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://careers.twc.edu.hk/job/Professor-Associate-Professor-%28Research-Track%29-in-Division-of-Science-773/1330947666/": {
       "school_id": 1847,
       "posting_url": "https://careers.twc.edu.hk/job/Professor-Associate-Professor-%28Research-Track%29-in-Division-of-Science-773/1330947666/",
       "job_title_in_post": "Professor / Associate Professor (Research Track) in Division of Science",
-      "position_type": "Associate_Professor; Full_Professor",
+      "position_type": "Full_Professor; Research_Fellow",
       "job_term": "Full-time",
       "department_or_school": "Division of Science",
       "area_key_words": "Division of Science; Forensic Science courses",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://careers.twc.edu.hk/job/Vice-President-%28Research-and-Innovation%29-1065/1361705366/": {
@@ -104,13 +109,14 @@
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "managing complex programmes; securing external funding",
-      "deadline_of_application": "",
+      "deadline_of_application": "26 May 2026",
+      "posted_date": "",
       "position_start_date": ""
     }
   },
   "school_id": 1847,
   "status": "complete",
-  "updated_at": "2026-10-16T19:18:06+00:00",
-  "completed_at": "2026-10-16T19:18:06+00:00",
+  "updated_at": "2026-10-28T00:14:02+00:00",
+  "completed_at": "2026-10-28T00:14:02+00:00",
   "last_error": ""
 }

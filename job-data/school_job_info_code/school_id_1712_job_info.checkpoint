@@ -1,9 +1,43 @@
 {
-  "raw": {},
-  "rows": {},
+  "raw": {
+    "https://www.luiss.it/en/university/bandi/no-1-call-full-professor-academic-discipline-group-13econ-07-management-academic-discipline-field-econ-07a-management-dbm-ord20-152026": {
+      "title": "Full Professor - academic-discipline group 13/ECON-07 - Management, academic-discipline field ECON-07/A - Management – DBM-ORD20%-15/2026",
+      "description": "No. 1 call for a Full Professor - academic-discipline group 13/ECON-07 - Management, academic-discipline field ECON-07/A - Management – DBM-ORD20%-15/2026 Date: 20/10/2026 - 19/11/2026 Call for applications for the appointment of n. 1 Full Professor in the academic-discipline group 13/ECON-07 - Management, academic-discipline field ECON-07/A - Management, within the Department of Business and Management at Luiss Libera Università Internazionale degli Studi Sociali Guido Carli. Selection procedure pursuant to Article 18, paragraph 4-ter of Italian Law No. 240/2010. Competition code DBM-ORD20%-15/2026 Deadline : Thursday, 19 November 2026, at 2:00 p.m. (Central European Time - CET) Submit an application Call for applications"
+    },
+    "https://www.luiss.it/en/university/bandi/no-1-call-full-professor-academic-discipline-group-13econ-09-financial-markets-financial-institutions-corporate-finance-academic-discipline-field-econ-09b-financial-markets-and-institutions-dacf-ord20-142026": {
+      "title": "Full Professor - academic-discipline group 13/ECON-09 – Financial Markets, Financial Institutions, Corporate Finance, academic-discipline field ECON-09/B –Financial Markets and Institutions – DACF-ORD20%-14/2026",
+      "description": "No. 1 call for a Full Professor - academic-discipline group 13/ECON-09 – Financial Markets, Financial Institutions, Corporate Finance, academic-discipline field ECON-09/B –Financial Markets and Institutions – DACF-ORD20%-14/2026 Date: 20/10/2026 - 19/11/2026 Call for applications for the appointment of n. 1 Full Professor in the academic-discipline group 13/ECON-09 – Financial Markets, Financial Institutions, Corporate Finance, academic-discipline field ECON-09/B – Financial Markets and Institutions, within the Department of Accounting and Corporate Finance at Luiss Libera Università Internazionale degli Studi Sociali Guido Carli. Selection procedure pursuant to Article 18, paragraph 4-ter of Italian Law No. 240/2010. Competition code DACF-ORD20%-14/2026 Deadline: Thursday, 19 November 2026, at 2:00 p.m. (Central European Time - CET) Submit an application Call for applications"
+    }
+  },
+  "rows": {
+    "https://www.luiss.it/en/university/bandi/no-1-call-full-professor-academic-discipline-group-13econ-07-management-academic-discipline-field-econ-07a-management-dbm-ord20-152026": {
+      "school_id": 1712,
+      "posting_url": "https://www.luiss.it/en/university/bandi/no-1-call-full-professor-academic-discipline-group-13econ-07-management-academic-discipline-field-econ-07a-management-dbm-ord20-152026",
+      "job_title_in_post": "Full Professor - academic-discipline group 13/ECON-07 - Management, academic-discipline field ECON-07/A - Management – DBM-ORD20%-15/2026",
+      "position_type": "Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Department of Business and Management",
+      "area_key_words": "Management",
+      "deadline_of_application": "19 November 2026",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://www.luiss.it/en/university/bandi/no-1-call-full-professor-academic-discipline-group-13econ-09-financial-markets-financial-institutions-corporate-finance-academic-discipline-field-econ-09b-financial-markets-and-institutions-dacf-ord20-142026": {
+      "school_id": 1712,
+      "posting_url": "https://www.luiss.it/en/university/bandi/no-1-call-full-professor-academic-discipline-group-13econ-09-financial-markets-financial-institutions-corporate-finance-academic-discipline-field-econ-09b-financial-markets-and-institutions-dacf-ord20-142026",
+      "job_title_in_post": "Full Professor - academic-discipline group 13/ECON-09 – Financial Markets, Financial Institutions, Corporate Finance, academic-discipline field ECON-09/B –Financial Markets and Institutions – DACF-ORD20%-14/2026",
+      "position_type": "Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Department of Accounting and Corporate Finance",
+      "area_key_words": "Financial Markets and Institutions",
+      "deadline_of_application": "19 November 2026",
+      "posted_date": "",
+      "position_start_date": ""
+    }
+  },
   "school_id": 1712,
   "status": "complete",
-  "updated_at": "2026-10-16T19:07:19+00:00",
-  "completed_at": "2026-10-16T19:07:19+00:00",
+  "updated_at": "2026-10-28T00:17:03+00:00",
+  "completed_at": "2026-10-28T00:17:03+00:00",
   "last_error": ""
 }

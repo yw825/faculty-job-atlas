@@ -184,6 +184,71 @@
       "title": "Assistant Professor in Women’s and Gender Studies",
       "description": "",
       "department": null
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4523": {
+      "title": "Alberta Health Services Endowed Chair in Emergency Medicine Research",
+      "description": "",
+      "department": null
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4554": {
+      "title": "Assistant Professor (Tenure Track) and Canada Research Chair Tier 2 in Cancer Immunology",
+      "description": "",
+      "department": null
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4418": {
+      "title": "Canada Impact+ Emerging Leader. Assistant Professor in Functional Genomics & Generative Biology for Plant Adaptation",
+      "description": "",
+      "department": null
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4565": {
+      "title": "Tenure Track Faculty Position in Strategy, Entrepreneurship, and Management",
+      "description": "",
+      "department": null
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4536": {
+      "title": "Tier 2 Canada Research Chair (CRC), Pharmacy and Pharmaceutical Sciences",
+      "description": "",
+      "department": null
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4561": {
+      "title": "Canada Impact+ Emerging Leader. Assistant or Associate Professor in Sustainable Transportation Futures",
+      "description": "",
+      "department": null
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4562": {
+      "title": "Tier 2 Canada Research Chair in Rehabilitation Science",
+      "description": "",
+      "department": null
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4506": {
+      "title": "Tier 2 Canada Research Chair in Constitutional Pluralism",
+      "description": "",
+      "department": null
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4538": {
+      "title": "Tenure-Track Position in Computer Systems for AI and High-Performance Computing",
+      "description": "",
+      "department": null
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4539": {
+      "title": "Tenure-Track Position in AI for Health",
+      "description": "",
+      "department": null
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4514": {
+      "title": "Tenure-Track Assistant Professor - Mathematical Foundations of AI and Formal Reasoning",
+      "description": "",
+      "department": null
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4513": {
+      "title": "Tenure-Track Assistant Professor - Analysis",
+      "description": "",
+      "department": null
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4497": {
+      "title": "Assistant or Associate Professor in Environmental / Analytical Chemistry",
+      "description": "",
+      "department": null
     }
   },
   "rows": {
@@ -196,17 +261,19 @@
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4242": {
       "school_id": 1587,
       "posting_url": "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4242",
       "job_title_in_post": "Assistant or Associate Professor",
-      "position_type": "Assistant_Professor; Associate_Professor",
+      "position_type": "Associate_Professor",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4171": {
@@ -218,6 +285,7 @@
       "department_or_school": "Division of Pediatric Cardiology",
       "area_key_words": "Pediatric Cardiology",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/3314": {
@@ -229,6 +297,7 @@
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/3339": {
@@ -257,11 +326,12 @@
       "school_id": 1587,
       "posting_url": "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4037",
       "job_title_in_post": "Assistant / Associate Professor",
-      "position_type": "Assistant_Professor; Associate_Professor",
+      "position_type": "Associate_Professor",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/3862": {
@@ -279,11 +349,12 @@
       "school_id": 1587,
       "posting_url": "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/3860",
       "job_title_in_post": "AMHSP Position Academic Physician in Pulmonary Hypertension and/or Interstitial Lung Disease",
-      "position_type": "Unclassified",
+      "position_type": "Assistant_Professor; Associate_Professor; Full_Professor",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "Pulmonary Hypertension and/or Interstitial Lung Disease",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/3836": {
@@ -295,6 +366,7 @@
       "department_or_school": "",
       "area_key_words": "Engineering Education, Communication, and AI-Enabled Learning",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/3780": {
@@ -356,11 +428,12 @@
       "school_id": 1587,
       "posting_url": "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/3584",
       "job_title_in_post": "Tenured or Tenure Track Faculty - Marketing",
-      "position_type": "Unclassified",
+      "position_type": "Assistant_Professor; Associate_Professor; Full_Professor",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "Marketing",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4348": {
@@ -378,11 +451,12 @@
       "school_id": 1587,
       "posting_url": "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/3538",
       "job_title_in_post": "Assistant / Associate Professor - Periodontology",
-      "position_type": "Assistant_Professor; Associate_Professor",
+      "position_type": "Associate_Professor",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "Periodontology",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4416": {
@@ -394,17 +468,19 @@
       "department_or_school": "",
       "area_key_words": "Century Literatures",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4414": {
       "school_id": 1587,
       "posting_url": "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4414",
       "job_title_in_post": "Assistant Professors of Library & Information Studies",
-      "position_type": "Unclassified",
+      "position_type": "Assistant_Professor",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "Library & Information Studies",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4455": {
@@ -416,6 +492,7 @@
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4394": {
@@ -427,28 +504,31 @@
       "department_or_school": "",
       "area_key_words": "Monogastric Nutrition",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4376": {
       "school_id": 1587,
       "posting_url": "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4376",
       "job_title_in_post": "Tenured or Tenure-Track Faculty Position in Accounting",
-      "position_type": "Unclassified",
+      "position_type": "Assistant_Professor; Associate_Professor; Full_Professor",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "Accounting",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4385": {
       "school_id": 1587,
       "posting_url": "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4385",
       "job_title_in_post": "Teaching Professor (Assistant or Associate) in Women’s and Gender Studies and Political Science",
-      "position_type": "Assistant_Professor; Associate_Professor; Full_Professor",
+      "position_type": "Lecturer",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4484": {
@@ -460,6 +540,7 @@
       "department_or_school": "",
       "area_key_words": "Music Theory",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4515": {
@@ -471,28 +552,31 @@
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4521": {
       "school_id": 1587,
       "posting_url": "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4521",
       "job_title_in_post": "Department Chair, Obstetrics and Gynecology",
-      "position_type": "Unclassified",
+      "position_type": "Full_Professor",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4522": {
       "school_id": 1587,
       "posting_url": "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4522",
       "job_title_in_post": "Department Chair, Emergency Medicine",
-      "position_type": "Unclassified",
+      "position_type": "Full_Professor",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4494": {
@@ -510,11 +594,12 @@
       "school_id": 1587,
       "posting_url": "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4499",
       "job_title_in_post": "AMHSP Position Gastroenterology, Nutrition",
-      "position_type": "Unclassified",
+      "position_type": "Assistant_Professor; Associate_Professor; Full_Professor",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "Nutrition",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4483": {
@@ -526,6 +611,7 @@
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4402": {
@@ -537,6 +623,7 @@
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4468": {
@@ -548,6 +635,7 @@
       "department_or_school": "",
       "area_key_words": "Psychology",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4477": {
@@ -559,6 +647,7 @@
       "department_or_school": "",
       "area_key_words": "Microeconomics",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4478": {
@@ -570,6 +659,7 @@
       "department_or_school": "",
       "area_key_words": "Macroeconomics",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4426": {
@@ -581,6 +671,7 @@
       "department_or_school": "",
       "area_key_words": "Prosthodontics",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4465": {
@@ -592,12 +683,169 @@
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4523": {
+      "school_id": 1587,
+      "posting_url": "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4523",
+      "job_title_in_post": "Alberta Health Services Endowed Chair in Emergency Medicine Research",
+      "position_type": "Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Emergency Medicine Research",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4554": {
+      "school_id": 1587,
+      "posting_url": "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4554",
+      "job_title_in_post": "Assistant Professor (Tenure Track) and Canada Research Chair Tier 2 in Cancer Immunology",
+      "position_type": "Assistant_Professor; Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Cancer Immunology",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4418": {
+      "school_id": 1587,
+      "posting_url": "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4418",
+      "job_title_in_post": "Canada Impact+ Emerging Leader. Assistant Professor in Functional Genomics & Generative Biology for Plant Adaptation",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Functional Genomics & Generative Biology for Plant Adaptation",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4565": {
+      "school_id": 1587,
+      "posting_url": "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4565",
+      "job_title_in_post": "Tenure Track Faculty Position in Strategy, Entrepreneurship, and Management",
+      "position_type": "Assistant_Professor; Associate_Professor; Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Strategy, Entrepreneurship, and Management",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4536": {
+      "school_id": 1587,
+      "posting_url": "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4536",
+      "job_title_in_post": "Tier 2 Canada Research Chair (CRC), Pharmacy and Pharmaceutical Sciences",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Tier 2 Canada",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4561": {
+      "school_id": 1587,
+      "posting_url": "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4561",
+      "job_title_in_post": "Canada Impact+ Emerging Leader. Assistant or Associate Professor in Sustainable Transportation Futures",
+      "position_type": "Associate_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Sustainable Transportation Futures",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4562": {
+      "school_id": 1587,
+      "posting_url": "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4562",
+      "job_title_in_post": "Tier 2 Canada Research Chair in Rehabilitation Science",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Rehabilitation Science",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4506": {
+      "school_id": 1587,
+      "posting_url": "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4506",
+      "job_title_in_post": "Tier 2 Canada Research Chair in Constitutional Pluralism",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Constitutional Pluralism",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4538": {
+      "school_id": 1587,
+      "posting_url": "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4538",
+      "job_title_in_post": "Tenure-Track Position in Computer Systems for AI and High-Performance Computing",
+      "position_type": "Assistant_Professor; Associate_Professor; Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Computer Systems for AI and High-Performance Computing",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4539": {
+      "school_id": 1587,
+      "posting_url": "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4539",
+      "job_title_in_post": "Tenure-Track Position in AI for Health",
+      "position_type": "Assistant_Professor; Associate_Professor; Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "AI for Health",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4514": {
+      "school_id": 1587,
+      "posting_url": "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4514",
+      "job_title_in_post": "Tenure-Track Assistant Professor - Mathematical Foundations of AI and Formal Reasoning",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Mathematical Foundations of AI and Formal Reasoning",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4513": {
+      "school_id": 1587,
+      "posting_url": "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4513",
+      "job_title_in_post": "Tenure-Track Assistant Professor - Analysis",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Analysis",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4497": {
+      "school_id": 1587,
+      "posting_url": "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4497",
+      "job_title_in_post": "Assistant or Associate Professor in Environmental / Analytical Chemistry",
+      "position_type": "Associate_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Environmental / Analytical Chemistry",
+      "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     }
   },
   "school_id": 1587,
   "status": "complete",
-  "updated_at": "2026-10-16T19:00:44+00:00",
-  "completed_at": "2026-10-16T19:00:44+00:00",
+  "updated_at": "2026-10-27T23:30:38+00:00",
+  "completed_at": "2026-10-27T23:30:38+00:00",
   "last_error": ""
 }

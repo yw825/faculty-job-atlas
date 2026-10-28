@@ -22,11 +22,12 @@
       "school_id": 1782,
       "posting_url": "https://www.avondale.edu.au/job/cultural-support-officer/",
       "job_title_in_post": "Cultural Support Officer",
-      "position_type": "Non-academic",
+      "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.avondale.edu.au/jobs/": {
@@ -44,11 +45,12 @@
       "school_id": 1782,
       "posting_url": "https://www.avondale.edu.au/job/associate-lecturer-or-lecturer-counselling/",
       "job_title_in_post": "Associate Lecturer or Lecturer (Counselling)",
-      "position_type": "Lecturer",
+      "position_type": "Assistant_Professor; Lecturer",
       "job_term": "Part-time",
       "department_or_school": "School of Arts & Business",
       "area_key_words": "",
-      "deadline_of_application": "",
+      "deadline_of_application": "24 October 2026",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.avondale.edu.au/job/communications-officer/": {
@@ -65,7 +67,7 @@
   },
   "school_id": 1782,
   "status": "complete",
-  "updated_at": "2026-10-16T19:14:09+00:00",
-  "completed_at": "2026-10-16T19:14:09+00:00",
+  "updated_at": "2026-10-27T23:04:20+00:00",
+  "completed_at": "2026-10-27T23:04:20+00:00",
   "last_error": ""
 }

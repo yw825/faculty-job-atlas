@@ -35,6 +35,7 @@
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://my.corehr.com/pls/esbshedkitrecruit/erq_jobspec_version_4.jobspec?p_id=016317": {
@@ -46,6 +47,7 @@
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://my.corehr.com/pls/esbshedkitrecruit/erq_jobspec_version_4.jobspec?p_id=016283": {
@@ -57,6 +59,7 @@
       "department_or_school": "School of Business and Humanities wishes to recruit an Assistant Lecturer in Social Care",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://my.corehr.com/pls/esbshedkitrecruit/erq_jobspec_version_4.jobspec?p_id=016337": {
@@ -68,34 +71,37 @@
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://my.corehr.com/pls/esbshedkitrecruit/erq_jobspec_version_4.jobspec?p_id=016257": {
       "school_id": 1911,
       "posting_url": "https://my.corehr.com/pls/esbshedkitrecruit/erq_jobspec_version_4.jobspec?p_id=016257",
       "job_title_in_post": "Lecturer in Computing (Animation) #IJ",
-      "position_type": "Lecturer",
+      "position_type": "Assistant_Professor",
       "job_term": "Full-time",
       "department_or_school": "Institute of Technology is seeking to appoint a Lecturer in Computing",
       "area_key_words": "Computing",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://my.corehr.com/pls/esbshedkitrecruit/erq_jobspec_version_4.jobspec?p_id=016280": {
       "school_id": 1911,
       "posting_url": "https://my.corehr.com/pls/esbshedkitrecruit/erq_jobspec_version_4.jobspec?p_id=016280",
       "job_title_in_post": "",
-      "position_type": "Non-academic",
+      "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     }
   },
   "school_id": 1911,
   "status": "complete",
-  "updated_at": "2026-10-16T19:21:27+00:00",
-  "completed_at": "2026-10-16T19:21:27+00:00",
+  "updated_at": "2026-10-28T00:15:55+00:00",
+  "completed_at": "2026-10-28T00:15:55+00:00",
   "last_error": ""
 }

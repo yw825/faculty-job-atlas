@@ -19,6 +19,31 @@
       "title": "Contact Centre Agent - Casual Professional",
       "description": "Passionate about delivering exceptional customer service? Join our high-performing Student Contact Centre team and support current and future students through meaningful interactions across multiple channels. \n\n",
       "department": null
+    },
+    "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18594": {
+      "title": "Clinical Placements Officer",
+      "description": "Support clinical psychology student placements",
+      "department": null
+    },
+    "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/17449": {
+      "title": "Sir Zelman Cowen Dean of Law",
+      "description": "The Sir Zelman Cowen Dean of Law is the academic and civic leader of one of Australia’s most purpose‑driven law schools, based in the heart of Melbourne’s legal precinct. The role leads the Law School’s strategy, people, curriculum, research and partnerships shaping an accessible, applied legal education that delivers real community and societal impact. Named in honour of Sir Zelman Cowen, the Dean stewards a legacy of principled legal thought, public service and inclusive education, while advancing innovation in learning, strong industry and government connections, and a nationally recognised public intellectual program.",
+      "department": null
+    },
+    "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18549": {
+      "title": "Teaching Focused Academic Building Surveying",
+      "description": "Victoria University (VU) is seeking an enthusiastic and committed Lecturer in Building Surveying to join the College of Sport, Health and Engineering. This is an opportunity to strengthen Building Surveying academic capability across our Bachelor of Building Surveying and Graduate Diploma in Building Surveying, contribute to professionally relevant education and support a dynamic Built Environment and Engineering team with strong industry connections.",
+      "department": null
+    },
+    "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18580": {
+      "title": "Academic Sessional Supervisor - Psychology",
+      "description": "Victoria University (VU) is seeking experienced sessional supervisors to provide high-quality supervision to provisional psychologists in VU's Master of Clinical Psychology and Master of Professional Psychology programs. ",
+      "department": null
+    },
+    "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18563": {
+      "title": "Manager, Awards and Graduation",
+      "description": "Lead Awards & Graduations, driving service excellence, process improvement and exceptional student outcomes from completion to graduation.",
+      "department": null
     }
   },
   "rows": {
@@ -26,33 +51,36 @@
       "school_id": 1817,
       "posting_url": "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18457",
       "job_title_in_post": "Teaching Focused Academic Mechanical Engineering",
-      "position_type": "Unclassified",
+      "position_type": "Lecturer",
       "job_term": "Full-time",
       "department_or_school": "College of Sport, Health and Engineering",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18456": {
       "school_id": 1817,
       "posting_url": "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18456",
       "job_title_in_post": "Teaching Focused Academic Construction Management",
-      "position_type": "Unclassified",
+      "position_type": "Lecturer",
       "job_term": "Full-time",
       "department_or_school": "College of Sport, Health and Engineering",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18536": {
       "school_id": 1817,
       "posting_url": "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18536",
       "job_title_in_post": "Senior Coordinator - Academic Workload",
-      "position_type": "Non-academic",
+      "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18494": {
@@ -65,11 +93,71 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18594": {
+      "school_id": 1817,
+      "posting_url": "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18594",
+      "job_title_in_post": "Clinical Placements Officer",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/17449": {
+      "school_id": 1817,
+      "posting_url": "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/17449",
+      "job_title_in_post": "Sir Zelman Cowen Dean of Law",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Law",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18549": {
+      "school_id": 1817,
+      "posting_url": "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18549",
+      "job_title_in_post": "Teaching Focused Academic Building Surveying",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "College of Sport, Health and Engineering",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18580": {
+      "school_id": 1817,
+      "posting_url": "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18580",
+      "job_title_in_post": "Academic Sessional Supervisor - Psychology",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18563": {
+      "school_id": 1817,
+      "posting_url": "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18563",
+      "job_title_in_post": "Manager, Awards and Graduation",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1817,
   "status": "complete",
-  "updated_at": "2026-10-16T19:16:45+00:00",
-  "completed_at": "2026-10-16T19:16:45+00:00",
+  "updated_at": "2026-10-27T23:21:29+00:00",
+  "completed_at": "2026-10-27T23:21:29+00:00",
   "last_error": ""
 }

@@ -7,9 +7,9 @@
     "https://bandi.mur.gov.it/jobs.php/public/job/id_job/152743"
   ],
   "school_id": 1713,
-  "status": "complete",
-  "updated_at": "2026-10-16T18:54:09+00:00",
+  "status": "error",
+  "updated_at": "2026-10-27T22:28:25+00:00",
   "started_at": "2026-10-02T21:43:09+00:00",
   "completed_at": "2026-10-16T18:54:09+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: mur profcalls search status=403"
 }

@@ -19,6 +19,38 @@
     "https://www.apply.uc.pt/procedure/n27xeui3r94sxj69": {
       "title": "Full Professor: Mechanical Engineering",
       "description": "Closing Date: 28/10/2026 Applications open: 16/09/2026 Posted Date: 15/09/2026 Reference: IT136-26-43 Positions: 1 Contract: indefinite; competition: international Universidade de Coimbra -- Full Professor in Mechanical Engineering."
+    },
+    "https://www.apply.uc.pt/procedure/lvyf6agj7co41okt": {
+      "title": "Associate Professor: Health Sciences / Biomedical Sciences and Medical Biophysics",
+      "description": "Closing Date: 02/12/2026 Applications open: 21/10/2026 Posted Date: 20/10/2026 Reference: IT136-26-40 Positions: 1 Contract: indefinite; competition: international Universidade de Coimbra -- Associate Professor in Health Sciences (Biomedical Sciences and Medical Biophysics)."
+    },
+    "https://www.apply.uc.pt/procedure/lvgpjk3eem1jii5m": {
+      "title": "Assistant Professor: Health Sciences, Medicine / Anatomy, specialising in Musculoskeletal Anatomy",
+      "description": "Closing Date: 04/12/2026 Applications open: 23/10/2026 Posted Date: 22/10/2026 Reference: IT136-26-38 Positions: 1 Contract: indefinite; competition: international Universidade de Coimbra -- Assistant Professor in Health Sciences, Medicine (Anatomy, specialising in Musculoskeletal Anatomy)."
+    },
+    "https://www.apply.uc.pt/procedure/yghxis1og6c09f55": {
+      "title": "Associate Professor: Dentistry",
+      "description": "Closing Date: 30/11/2026 Applications open: 20/10/2026 Posted Date: 19/10/2026 Reference: IT136-26-39 Positions: 1 Contract: indefinite; competition: international Universidade de Coimbra -- Associate Professor in Dentistry."
+    },
+    "https://www.apply.uc.pt/procedure/165wkyqm2b0gahfg": {
+      "title": "Associate Professor: Health Sciences / Biomedical Sciences, Medical Biostatistics and Data Science",
+      "description": "Closing Date: 30/11/2026 Applications open: 20/10/2026 Posted Date: 19/10/2026 Reference: IT136-26-41 Positions: 1 Contract: indefinite; competition: international Universidade de Coimbra -- Associate Professor in Health Sciences (Biomedical Sciences, Medical Biostatistics and Data Science)."
+    },
+    "https://www.apply.uc.pt/procedure/yv9nv7j6b7amf3ks": {
+      "title": "Associate Professor: Health Sciences, Medicine / Pharmacology",
+      "description": "Closing Date: 30/11/2026 Applications open: 20/10/2026 Posted Date: 19/10/2026 Reference: IT136-26-42 Positions: 1 Contract: indefinite; competition: international Universidade de Coimbra -- Associate Professor in Health Sciences, Medicine (Pharmacology)."
+    },
+    "https://www.apply.uc.pt/procedure/1buk59iohezopq2w": {
+      "title": "Auxiliary Researcher: Neurogenetics",
+      "description": "Closing Date: 04/11/2026 Applications open: 22/10/2026 Posted Date: 21/10/2026 Reference: IT057-26-38 Positions: 1 Contract: ; competition: international Universidade de Coimbra -- Auxiliary Researcher in Neurogenetics."
+    },
+    "https://www.apply.uc.pt/procedure/hdye0myfy62dl86b": {
+      "title": "Auxiliary Researcher: Experimental Biology and Biomedicine / Science, Technology and Innovation Management",
+      "description": "Closing Date: 02/11/2026 Applications open: 20/10/2026 Posted Date: 19/10/2026 Reference: IT057-26-39 Positions: 1 Contract: ; competition: international Universidade de Coimbra -- Auxiliary Researcher in Experimental Biology and Biomedicine (Science, Technology and Innovation Management)."
+    },
+    "https://www.apply.uc.pt/procedure/hu2920f006ubo0q6": {
+      "title": "Auxiliary Researcher: Music Studies / Music Theory and Analysis",
+      "description": "Closing Date: 05/11/2026 Applications open: 23/10/2026 Posted Date: 22/10/2026 Reference: IT057-26-44 Positions: 2 Contract: ; competition: international Universidade de Coimbra -- Auxiliary Researcher in Music Studies (Music Theory and Analysis)."
     }
   },
   "rows": {
@@ -31,6 +63,7 @@
       "department_or_school": "",
       "area_key_words": "Polymer Chemistry or Photochemistry",
       "deadline_of_application": "20/11/2026",
+      "posted_date": "09/10/2026",
       "position_start_date": ""
     },
     "https://www.apply.uc.pt/procedure/w857ex138y9yvdlp": {
@@ -42,6 +75,7 @@
       "department_or_school": "",
       "area_key_words": "Information Science",
       "deadline_of_application": "02/11/2026",
+      "posted_date": "18/09/2026",
       "position_start_date": ""
     },
     "https://www.apply.uc.pt/procedure/dmnrfnzrwvj3afw0": {
@@ -53,6 +87,7 @@
       "department_or_school": "",
       "area_key_words": "Music Theory and Analysis and Music Performance Studies",
       "deadline_of_application": "10/11/2026",
+      "posted_date": "28/09/2026",
       "position_start_date": ""
     },
     "https://www.apply.uc.pt/procedure/y5n8i52elgqkma3d": {
@@ -64,6 +99,7 @@
       "department_or_school": "",
       "area_key_words": "Direito / Juridico-Empresariais",
       "deadline_of_application": "06/11/2026",
+      "posted_date": "24/09/2026",
       "position_start_date": ""
     },
     "https://www.apply.uc.pt/procedure/n27xeui3r94sxj69": {
@@ -75,12 +111,109 @@
       "department_or_school": "",
       "area_key_words": "Mechanical Engineering",
       "deadline_of_application": "28/10/2026",
+      "posted_date": "15/09/2026",
+      "position_start_date": ""
+    },
+    "https://www.apply.uc.pt/procedure/lvyf6agj7co41okt": {
+      "school_id": 1733,
+      "posting_url": "https://www.apply.uc.pt/procedure/lvyf6agj7co41okt",
+      "job_title_in_post": "Associate Professor: Health Sciences / Biomedical Sciences and Medical Biophysics",
+      "position_type": "Associate_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Health Sciences / Biomedical Sciences and Medical Biophysics",
+      "deadline_of_application": "02/12/2026",
+      "posted_date": "20/10/2026",
+      "position_start_date": ""
+    },
+    "https://www.apply.uc.pt/procedure/lvgpjk3eem1jii5m": {
+      "school_id": 1733,
+      "posting_url": "https://www.apply.uc.pt/procedure/lvgpjk3eem1jii5m",
+      "job_title_in_post": "Assistant Professor: Health Sciences, Medicine / Anatomy, specialising in Musculoskeletal Anatomy",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Musculoskeletal Anatomy",
+      "deadline_of_application": "04/12/2026",
+      "posted_date": "22/10/2026",
+      "position_start_date": ""
+    },
+    "https://www.apply.uc.pt/procedure/yghxis1og6c09f55": {
+      "school_id": 1733,
+      "posting_url": "https://www.apply.uc.pt/procedure/yghxis1og6c09f55",
+      "job_title_in_post": "Associate Professor: Dentistry",
+      "position_type": "Associate_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Dentistry",
+      "deadline_of_application": "30/11/2026",
+      "posted_date": "19/10/2026",
+      "position_start_date": ""
+    },
+    "https://www.apply.uc.pt/procedure/165wkyqm2b0gahfg": {
+      "school_id": 1733,
+      "posting_url": "https://www.apply.uc.pt/procedure/165wkyqm2b0gahfg",
+      "job_title_in_post": "Associate Professor: Health Sciences / Biomedical Sciences, Medical Biostatistics and Data Science",
+      "position_type": "Associate_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Medical Biostatistics and Data Science",
+      "deadline_of_application": "30/11/2026",
+      "posted_date": "19/10/2026",
+      "position_start_date": ""
+    },
+    "https://www.apply.uc.pt/procedure/yv9nv7j6b7amf3ks": {
+      "school_id": 1733,
+      "posting_url": "https://www.apply.uc.pt/procedure/yv9nv7j6b7amf3ks",
+      "job_title_in_post": "Associate Professor: Health Sciences, Medicine / Pharmacology",
+      "position_type": "Associate_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Medicine / Pharmacology",
+      "deadline_of_application": "30/11/2026",
+      "posted_date": "19/10/2026",
+      "position_start_date": ""
+    },
+    "https://www.apply.uc.pt/procedure/1buk59iohezopq2w": {
+      "school_id": 1733,
+      "posting_url": "https://www.apply.uc.pt/procedure/1buk59iohezopq2w",
+      "job_title_in_post": "Auxiliary Researcher: Neurogenetics",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "04/11/2026",
+      "posted_date": "21/10/2026",
+      "position_start_date": ""
+    },
+    "https://www.apply.uc.pt/procedure/hdye0myfy62dl86b": {
+      "school_id": 1733,
+      "posting_url": "https://www.apply.uc.pt/procedure/hdye0myfy62dl86b",
+      "job_title_in_post": "Auxiliary Researcher: Experimental Biology and Biomedicine / Science, Technology and Innovation Management",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "02/11/2026",
+      "posted_date": "19/10/2026",
+      "position_start_date": ""
+    },
+    "https://www.apply.uc.pt/procedure/hu2920f006ubo0q6": {
+      "school_id": 1733,
+      "posting_url": "https://www.apply.uc.pt/procedure/hu2920f006ubo0q6",
+      "job_title_in_post": "Auxiliary Researcher: Music Studies / Music Theory and Analysis",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "05/11/2026",
+      "posted_date": "22/10/2026",
       "position_start_date": ""
     }
   },
   "school_id": 1733,
   "status": "complete",
-  "updated_at": "2026-10-16T19:09:19+00:00",
-  "completed_at": "2026-10-16T19:09:19+00:00",
+  "updated_at": "2026-10-28T00:42:02+00:00",
+  "completed_at": "2026-10-28T00:42:02+00:00",
   "last_error": ""
 }

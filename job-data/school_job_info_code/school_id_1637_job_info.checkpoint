@@ -9,6 +9,11 @@
       "title": "Academic Initiatives Officer (2026-MP-20)",
       "description": "Managerial & Professional Vacancy\nAcademic Initiatives Officer in the Office of the Provost",
       "department": null
+    },
+    "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4320": {
+      "title": "Associate Director, Development (2026-MP-22)",
+      "description": "Managerial & Professional Vacancy\nAssociate Director, Development in the Department of Advancement & Alumni",
+      "department": null
     }
   },
   "rows": {
@@ -21,6 +26,7 @@
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4194": {
@@ -32,12 +38,25 @@
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4320": {
+      "school_id": 1637,
+      "posting_url": "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4320",
+      "job_title_in_post": "Associate Director, Development (2026-MP-22)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Department of Advancement & Alumni",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     }
   },
   "school_id": 1637,
   "status": "complete",
-  "updated_at": "2026-10-16T19:02:00+00:00",
-  "completed_at": "2026-10-16T19:02:00+00:00",
+  "updated_at": "2026-10-27T23:48:59+00:00",
+  "completed_at": "2026-10-27T23:48:59+00:00",
   "last_error": ""
 }

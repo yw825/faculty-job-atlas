@@ -23,6 +23,7 @@
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://jobs.tuwien.ac.at/Job/268294": {
@@ -33,24 +34,26 @@
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "exams Supervision of students Participation; model-based analysis of traction converter; Python",
-      "deadline_of_application": "July 16, 2026",
+      "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://jobs.tuwien.ac.at/Job/272941": {
       "school_id": 1658,
       "posting_url": "https://jobs.tuwien.ac.at/Job/272941",
       "job_title_in_post": "Assistant Professorship (all genders)",
-      "position_type": "Assistant_Professor; Associate_Professor; Research_Fellow",
+      "position_type": "Assistant_Professor; Full_Professor",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "Environment”; Energy; German Experience",
-      "deadline_of_application": "November 26, 2026",
+      "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     }
   },
   "school_id": 1658,
   "status": "complete",
-  "updated_at": "2026-10-16T19:03:43+00:00",
-  "completed_at": "2026-10-16T19:03:43+00:00",
+  "updated_at": "2026-10-27T23:25:40+00:00",
+  "completed_at": "2026-10-27T23:25:40+00:00",
   "last_error": ""
 }
