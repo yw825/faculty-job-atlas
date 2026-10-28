@@ -247,11 +247,21 @@ def main():
 
 
 def _write_log(path, rows):
-    with open(path, 'w', newline='', encoding='utf-8') as f:
-        w = csv.DictWriter(f, fieldnames=['school_id', 'name', 'status', 'count',
-                                          'seconds', 'error'])
-        w.writeheader()
-        w.writerows(rows)
+    # OneDrive briefly locks a file it is syncing ("Resource deadlock
+    # avoided"); losing a log line is better than crashing the run.
+    for attempt in range(5):
+        try:
+            with open(path, 'w', newline='', encoding='utf-8') as f:
+                w = csv.DictWriter(f, fieldnames=['school_id', 'name', 'status', 'count',
+                                                  'seconds', 'error'])
+                w.writeheader()
+                w.writerows(rows)
+            return
+        except OSError as e:
+            if attempt == 4:
+                print(f'  could not write {path}: {e}', flush=True)
+                return
+            time.sleep(3)
 
 
 if __name__ == '__main__':
