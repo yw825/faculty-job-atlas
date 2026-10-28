@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 828 - Valley City State University (US)
 ATS platform: own website
-Careers link: https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?FOCUS=Applicant&SiteId=1
+Careers link: https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_SCHJOB_FL&Action=U
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -35,7 +35,7 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 828
 SCHOOL_NAME = 'Valley City State University'
-CAREERS_LINK = 'https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?FOCUS=Applicant&SiteId=1'
+CAREERS_LINK = 'https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_SCHJOB_FL&Action=U'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')

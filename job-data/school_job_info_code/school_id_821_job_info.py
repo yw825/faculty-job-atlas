@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 821 - Dickinson State University (US)
 ATS platform: own website
-Careers link: https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?FOCUS=Applicant&SiteId=1
+Careers link: https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_SCHJOB_FL&Action=U
 
 Reads posting URLs from school_id_821_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 821
 SCHOOL_NAME = 'Dickinson State University'
-CAREERS_LINK = 'https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?FOCUS=Applicant&SiteId=1'
+CAREERS_LINK = 'https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_SCHJOB_FL&Action=U'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 
