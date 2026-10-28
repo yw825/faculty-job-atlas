@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1456 - Randolph-Macon College (US)
 ATS platform: own website
-Careers link: https://www.rmc.edu/about-rmc/offices-departments/human-resources/employment-opportunities/
+Careers link: https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=0885b537-c9f5-47f8-aa4f-0ad7bbebf412&ccId=9200900703747_2&type=JS&lang=en_US
 
 Reads posting URLs from school_id_1456_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1456
 SCHOOL_NAME = 'Randolph-Macon College'
-CAREERS_LINK = 'https://www.rmc.edu/about-rmc/offices-departments/human-resources/employment-opportunities/'
+CAREERS_LINK = 'https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=0885b537-c9f5-47f8-aa4f-0ad7bbebf412&ccId=9200900703747_2&type=JS&lang=en_US'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

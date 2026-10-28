@@ -880,6 +880,12 @@ def scrape_adp(url):
     # Ohio Wesleyan advertises 69. $skip is what actually moves the window.
     base = (f'https://{parsed.netloc}/mascsr/default/careercenter/public/events/'
             f'staffing/v1/job-requisitions?cid={cid}&lang={lang}&locale={lang}')
+    # One company can run several boards (staff, faculty) told apart only by
+    # ccId. Without it the API answers with the default board: Randolph-Macon's
+    # faculty link read six staff jobs (custodian, landscaping) instead of ten
+    # assistant professorships.
+    if cc_id != '19000101_000001':
+        base += f'&ccId={cc_id}'
     # lang/locale as the board's own page sends them: Westminster University's
     # board answers 500 without them.
     links, seen = [], set()
@@ -893,11 +899,6 @@ def scrape_adp(url):
             break
         data = json.loads(text)
         batch = data.get('jobRequisitions') or []
-        if not batch and skip == 0 and '&ccId=' not in base and cc_id != '19000101_000001':
-            # Georgetown College's board (workforcenow.cloud.adp.com) lists
-            # nothing unless its own career-centre id rides along.
-            base += f'&ccId={cc_id}'
-            continue
         if not batch:
             break
         if total is None:

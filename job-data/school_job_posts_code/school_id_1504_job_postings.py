@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 1504 - Saint Michael's College (US)
 ATS platform: Oracle Cloud HCM (detected: oracle)
-Careers link: https://www.smcvt.edu/offices-and-services/human-resources/
+Careers link: https://stmichaels-ibukjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2
 
 Saint Michael's College runs on a shared ATS platform, so this calls the
 shared job_postings_lib.scrape_oracle adapter rather than duplicating
@@ -31,7 +31,7 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1504
 SCHOOL_NAME = "Saint Michael's College"
-CAREERS_LINK = 'https://www.smcvt.edu/offices-and-services/human-resources/'
+CAREERS_LINK = 'https://stmichaels-ibukjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2'
 ATS_PLATFORM = 'Oracle Cloud HCM'
 PLATFORM = 'oracle'
 
