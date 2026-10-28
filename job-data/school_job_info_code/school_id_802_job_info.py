@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 802 - University of Mount Olive (US)
 ATS platform: own website
-Careers link: https://umo.edu/employment/
+Careers link: https://www.umo.edu/employment/
 
 Reads posting URLs from school_id_802_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 802
 SCHOOL_NAME = 'University of Mount Olive'
-CAREERS_LINK = 'https://umo.edu/employment/'
+CAREERS_LINK = 'https://www.umo.edu/employment/'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

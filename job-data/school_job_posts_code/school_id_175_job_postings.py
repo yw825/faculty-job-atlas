@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 175 - Western Colorado University (US)
 ATS platform: Workday (detected: workday)
-Careers link: https://western.wd1.myworkdayjobs.com/WESTERN
+Careers link: https://western.wd1.myworkdayjobs.com/WESTERN?locations=f0acdfc60ce81008f9018ce54da70000&jobFamilyGroup=f0acdfc60ce81008d439787fbb740000
 
 Western Colorado University runs on a shared ATS platform -- every school on
 workday uses the same underlying site software, so this calls the shared
@@ -35,7 +35,7 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 175
 SCHOOL_NAME = 'Western Colorado University'
-CAREERS_LINK = 'https://western.wd1.myworkdayjobs.com/WESTERN'
+CAREERS_LINK = 'https://western.wd1.myworkdayjobs.com/WESTERN?locations=f0acdfc60ce81008f9018ce54da70000&jobFamilyGroup=f0acdfc60ce81008d439787fbb740000'
 ATS_PLATFORM = 'Workday'
 PLATFORM = 'workday'
 

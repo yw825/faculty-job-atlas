@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 381 - Saint Xavier University (US)
 ATS platform: own website
-Careers link: https://www.schooljobs.com/careers/sxuedu?jobType[0]=Faculty&sort=PositionTitle%7CAscending
+Careers link: https://www.schooljobs.com/careers/sxuedu?jobType[0]=Adjunct%20Faculty&jobType[1]=Full-Time%20Faculty&jobType[2]=Part-Time%20Faculty&sort=PositionTitle%7CAscending
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -37,7 +37,10 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 381
 SCHOOL_NAME = 'Saint Xavier University'
-CAREERS_LINK = 'https://www.schooljobs.com/careers/sxuedu?jobType[0]=Faculty&sort=PositionTitle%7CAscending'
+CAREERS_LINK = 'https://www.schooljobs.com/careers/sxuedu?jobType[0]=Adjunct%20Faculty&jobType[1]=Full-Time%20Faculty&jobType[2]=Part-Time%20Faculty&sort=PositionTitle%7CAscending'
+# Scraped with the board's own Faculty filter: the link above filters by
+# category (which the reader cannot apply) or omits the plain Faculty type.
+BOARD = 'https://www.schooljobs.com/careers/sxuedu?jobType[0]=Faculty&sort=PositionTitle%7CAscending'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
@@ -47,7 +50,7 @@ PLATFORM = 'schooljobs'
 
 
 def find_links():
-    return lib.scrape_neogov_filtered(CAREERS_LINK)
+    return lib.scrape_neogov_filtered(BOARD)
 
 
 def main():

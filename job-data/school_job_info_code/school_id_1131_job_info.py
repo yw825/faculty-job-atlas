@@ -40,7 +40,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1131
 SCHOOL_NAME = 'Lehigh University'
-CAREERS_LINK = 'http://careers.pageuppeople.com/865/cw/en-us/listing'
+CAREERS_LINK = 'https://facultyjobs.lehigh.edu/faculty'
 ATS_PLATFORM = 'PageUp'
 USE_LLM = False
 

@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1488 - Roanoke College (US)
 ATS platform: own website
-Careers link: https://www.roanoke.edu/inside/human_resources/jobs_roanoke
+Careers link: https://careers.jobscore.com/careers/roanokecollege
 
 Reads posting URLs from school_id_1488_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1488
 SCHOOL_NAME = 'Roanoke College'
-CAREERS_LINK = 'https://www.roanoke.edu/inside/human_resources/jobs_roanoke'
+CAREERS_LINK = 'https://careers.jobscore.com/careers/roanokecollege'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

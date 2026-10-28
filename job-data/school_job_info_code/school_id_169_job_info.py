@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 169 - University of Denver (US)
 ATS platform: own website
-Careers link: https://jobs.du.edu/en-us/filter/?search=&search-keyword=&work-type=adjunct%20faculty&work-type=faculty%20full-time&job-mail-subscribe-privacy=agree
+Careers link: https://jobs.du.edu/jobs/search
 
 Reads posting URLs from school_id_169_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 169
 SCHOOL_NAME = 'University of Denver'
-CAREERS_LINK = 'https://jobs.du.edu/en-us/filter/?search=&search-keyword=&work-type=adjunct%20faculty&work-type=faculty%20full-time&job-mail-subscribe-privacy=agree'
+CAREERS_LINK = 'https://jobs.du.edu/jobs/search'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

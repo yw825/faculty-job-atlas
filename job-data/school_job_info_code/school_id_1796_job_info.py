@@ -39,7 +39,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1796
 SCHOOL_NAME = 'Griffith University'
-CAREERS_LINK = 'https://jobs.smartrecruiters.com/GriffithUniversity/careers'
+CAREERS_LINK = 'https://www.griffith.edu.au/jobs/search-jobs'
 ATS_PLATFORM = 'SmartRecruiters'
 USE_LLM = False  # set True once you have ANTHROPIC_API_KEY configured
 

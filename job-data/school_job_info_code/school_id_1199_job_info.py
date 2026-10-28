@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1199 - Duquesne University (US)
 ATS platform: own website
-Careers link: https://www.duq.edu/work-at-du/index.php
+Careers link: https://apply.interfolio.com/11181/positions
 
 Reads posting URLs from school_id_1199_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1199
 SCHOOL_NAME = 'Duquesne University'
-CAREERS_LINK = 'https://www.duq.edu/work-at-du/index.php'
+CAREERS_LINK = 'https://apply.interfolio.com/11181/positions'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

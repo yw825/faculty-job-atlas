@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 513
 SCHOOL_NAME = 'Southeastern Louisiana University'
-CAREERS_LINK = 'https://www.southeastern.edu/about/employment'
+CAREERS_LINK = 'https://ulsselu.wd503.myworkdayjobs.com/SLU'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 883 - Seton Hall University (US)
 ATS platform: own website
-Careers link: http://jobs.shu.edu/cw/en-us/search/?category=Faculty
+Careers link: https://jobs.shu.edu/jobs/search?page=1&query=&category_uids%5B%5D=f44f0dfb366b5640ced6a5fd38122199
 
 Reads posting URLs from school_id_883_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 883
 SCHOOL_NAME = 'Seton Hall University'
-CAREERS_LINK = 'http://jobs.shu.edu/cw/en-us/search/?category=Faculty'
+CAREERS_LINK = 'https://jobs.shu.edu/jobs/search?page=1&query=&category_uids%5B%5D=f44f0dfb366b5640ced6a5fd38122199'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 397 - McKendree University (US)
 ATS platform: own website
-Careers link: https://www.schooljobs.com/careers/mckendree?jobType[0]=Faculty&sort=PositionTitle%7CAscending
+Careers link: https://www.schooljobs.com/careers/mckendree?jobType[0]=Full-Time%20Faculty&jobType[1]=Adjunct%20Faculty&sort=PositionTitle%7CAscending
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -37,7 +37,7 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 397
 SCHOOL_NAME = 'McKendree University'
-CAREERS_LINK = 'https://www.schooljobs.com/careers/mckendree?jobType[0]=Faculty&sort=PositionTitle%7CAscending'
+CAREERS_LINK = 'https://www.schooljobs.com/careers/mckendree?jobType[0]=Full-Time%20Faculty&jobType[1]=Adjunct%20Faculty&sort=PositionTitle%7CAscending'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')

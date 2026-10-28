@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 517 - Northwestern State University of Louisiana (US)
 ATS platform: own website
-Careers link: https://www.governmentjobs.com/careers/louisiana/northwesternstate?jobType[0]=Faculty&sort=PositionTitle%7CAscending
+Careers link: https://www.governmentjobs.com/careers/louisiana/northwesternstate?category[0]=Faculty&sort=PositionTitle%7CAscending
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -37,14 +37,17 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 517
 SCHOOL_NAME = 'Northwestern State University of Louisiana'
-CAREERS_LINK = 'https://www.governmentjobs.com/careers/louisiana/northwesternstate?jobType[0]=Faculty&sort=PositionTitle%7CAscending'
+CAREERS_LINK = 'https://www.governmentjobs.com/careers/louisiana/northwesternstate?category[0]=Faculty&sort=PositionTitle%7CAscending'
+# Scraped with the board's own Faculty filter: the link above filters by
+# category (which the reader cannot apply) or omits the plain Faculty type.
+BOARD = 'https://www.governmentjobs.com/careers/louisiana/northwesternstate?jobType[0]=Faculty&sort=PositionTitle%7CAscending'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
 def find_links():
-    return lib.scrape_neogov_filtered(CAREERS_LINK)
+    return lib.scrape_neogov_filtered(BOARD)
 
 
 def main():

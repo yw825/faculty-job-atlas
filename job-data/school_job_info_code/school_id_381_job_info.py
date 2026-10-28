@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 381 - Saint Xavier University (US)
 ATS platform: own website
-Careers link: https://www.schooljobs.com/careers/sxuedu?jobType[0]=Faculty&sort=PositionTitle%7CAscending
+Careers link: https://www.schooljobs.com/careers/sxuedu?jobType[0]=Adjunct%20Faculty&jobType[1]=Full-Time%20Faculty&jobType[2]=Part-Time%20Faculty&sort=PositionTitle%7CAscending
 
 Reads posting URLs from school_id_381_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 381
 SCHOOL_NAME = 'Saint Xavier University'
-CAREERS_LINK = 'https://www.schooljobs.com/careers/sxuedu?jobType[0]=Faculty&sort=PositionTitle%7CAscending'
+CAREERS_LINK = 'https://www.schooljobs.com/careers/sxuedu?jobType[0]=Adjunct%20Faculty&jobType[1]=Full-Time%20Faculty&jobType[2]=Part-Time%20Faculty&sort=PositionTitle%7CAscending'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

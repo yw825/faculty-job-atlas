@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 519 - Loyola University New Orleans (US)
 ATS platform: own website
-Careers link: https://www.governmentjobs.com/careers/loyno?jobType[0]=Faculty&sort=PositionTitle%7CAscending
+Careers link: https://www.governmentjobs.com/careers/loyno?jobType[0]=9%20Month%20Faculty&sort=PositionTitle%7CAscending
 
 Reads posting URLs from school_id_519_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 519
 SCHOOL_NAME = 'Loyola University New Orleans'
-CAREERS_LINK = 'https://www.governmentjobs.com/careers/loyno?jobType[0]=Faculty&sort=PositionTitle%7CAscending'
+CAREERS_LINK = 'https://www.governmentjobs.com/careers/loyno?jobType[0]=9%20Month%20Faculty&sort=PositionTitle%7CAscending'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 

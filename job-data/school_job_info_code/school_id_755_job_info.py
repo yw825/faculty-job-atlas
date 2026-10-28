@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 755 - Mississippi State University (US)
 ATS platform: own website
-Careers link: https://explore.msujobs.msstate.edu/jobs/search
+Careers link: http://explore.msujobs.msstate.edu/
 
 Reads posting URLs from school_id_755_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 755
 SCHOOL_NAME = 'Mississippi State University'
-CAREERS_LINK = 'https://explore.msujobs.msstate.edu/jobs/search'
+CAREERS_LINK = 'http://explore.msujobs.msstate.edu/'
 ATS_PLATFORM = 'own website'
 USE_LLM = False
 
