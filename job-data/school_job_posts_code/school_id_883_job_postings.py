@@ -22,8 +22,8 @@ Writes school_job_posts/school_id_883_job_posts.csv (school_id, post_link).
 Checkpointed to school_id_883_job_postings.checkpoint next to this script.
 
 TUNED FIND_LINKS
-Seton Hall's PageUp board, read through its #search-results block and
-"More Jobs" paging (the generic reader also kept subscribe/search links).
+Seton Hall's jobs.shu.edu board, Faculty category, read page by page
+(?page=N); posting pages are /jobs/<slug>, minus search/alert links.
 """
 import os
 import re
@@ -41,8 +41,11 @@ ATS_PLATFORM = 'own website'
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
+POSTING_RE = re.compile(r'^https://jobs\.shu\.edu/jobs/(?!search\b|job-alerts\b|job-categories\b)[\w-]+/?$')
+
+
 def find_links():
-    return lib.scrape_pageup(CAREERS_LINK)
+    return lib.scrape_paged_board(CAREERS_LINK, POSTING_RE)
 
 
 def main():
