@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 883 - Seton Hall University (US)
 ATS platform: own website
-Careers link: http://jobs.shu.edu/cw/en-us/search/?category=Faculty
+Careers link: https://jobs.shu.edu/jobs/search?page=1&query=&category_uids%5B%5D=f44f0dfb366b5640ced6a5fd38122199
 
 No shared ATS platform adapter applies to this school -- find_links() below
 is THIS SCHOOL'S OWN scraping logic, owned entirely by this file. Edit it
@@ -35,7 +35,7 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 883
 SCHOOL_NAME = 'Seton Hall University'
-CAREERS_LINK = 'http://jobs.shu.edu/cw/en-us/search/?category=Faculty'
+CAREERS_LINK = 'https://jobs.shu.edu/jobs/search?page=1&query=&category_uids%5B%5D=f44f0dfb366b5640ced6a5fd38122199'
 ATS_PLATFORM = 'own website'
 
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')

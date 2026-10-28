@@ -665,7 +665,7 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes,scrap
 879,Pillar College,US,https://www.pillar.edu/,https://www.pillar.edu/careers,own website,medium,OK-2hop:OK:2,generic scraper
 880,Rutgers University-Newark,US,https://www.newark.rutgers.edu/,https://jobs.rutgers.edu/postings/search?query=&query_position_type_id%5B%5D=6&2201%5B%5D=1&commit=Search,own website,medium,OK-2hop:OK:7,generic scraper
 882,Princeton University,US,https://www.princeton.edu/,https://apply.interfolio.com/14427/positions,own website,medium,OK:9,generic scraper
-883,Seton Hall University,US,https://www.shu.edu/,http://jobs.shu.edu/cw/en-us/search/?category=Faculty,own website,medium,OK-2hop:OK:7,generic scraper
+883,Seton Hall University,US,https://www.shu.edu/,https://jobs.shu.edu/jobs/search?page=1&query=&category_uids%5B%5D=f44f0dfb366b5640ced6a5fd38122199,own website,medium,OK-2hop:OK:7,generic scraper
 884,Fairleigh Dickinson University-Metropolitan Campus,US,https://www.fdu.edu/,https://jobs.fdu.edu/postings/search,own website,medium,OK:2,generic scraper
 885,Thomas Edison State University,US,https://www.tesu.edu/,https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=089b582f-0a35-44db-98f2-170a98083ab9&ccId=19000101_000001&lang=en_US,own website,high,OK:7 | careers_link corrected (was an Ellucian student ADMISSIONS form),generic scraper
 886,Kean University,US,https://www.kean.edu/,https://kean.wd503.myworkdayjobs.com/Kean,Workday,high,OK-2hop:OK:9,adapter built
