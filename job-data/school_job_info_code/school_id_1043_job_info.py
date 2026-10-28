@@ -1,7 +1,7 @@
 """
 Job info scraper for school_id 1043 - Ohio State University-Columbus (US)
 ATS platform: Workday
-Careers link: https://osu.wd1.myworkdayjobs.com/OSUCareers?jobFamilyGroup=67612469e2ea01a29e348f105b01ff10&jobFamilyGroup=4636ab80487a01dbec7abc635c010515&locations=819c1ab743bd01f14b629c006501acb6&locations=e18a59cd58401001b106582a23ba0000&locations=819c1ab743bd0130a44a99006501a2b6
+Careers link: https://osu.wd1.myworkdayjobs.com/OSUCareers?jobFamilyGroup=67612469e2ea01a29e348f105b01ff10
 
 Reads posting URLs from school_id_1043_job_postings.checkpoint (this
 school's job_postings run) and classifies each one: job_title_in_post,
@@ -29,7 +29,7 @@ import job_info_lib as jinfo
 
 SCHOOL_ID = 1043
 SCHOOL_NAME = "Ohio State University-Columbus"
-CAREERS_LINK = 'https://osu.wd1.myworkdayjobs.com/OSUCareers?jobFamilyGroup=67612469e2ea01a29e348f105b01ff10&jobFamilyGroup=4636ab80487a01dbec7abc635c010515&locations=819c1ab743bd01f14b629c006501acb6&locations=e18a59cd58401001b106582a23ba0000&locations=819c1ab743bd0130a44a99006501a2b6'
+CAREERS_LINK = 'https://osu.wd1.myworkdayjobs.com/OSUCareers?jobFamilyGroup=67612469e2ea01a29e348f105b01ff10'
 ATS_PLATFORM = 'Workday'
 USE_LLM = False
 

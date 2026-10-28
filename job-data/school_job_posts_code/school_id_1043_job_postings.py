@@ -1,7 +1,7 @@
 """
 Job postings scraper for school_id 1043 - Ohio State University-Columbus (US)
 ATS platform: Workday (detected: workday)
-Careers link: https://osu.wd1.myworkdayjobs.com/OSUCareers?jobFamilyGroup=67612469e2ea01a29e348f105b01ff10&jobFamilyGroup=4636ab80487a01dbec7abc635c010515&locations=819c1ab743bd01f14b629c006501acb6&locations=e18a59cd58401001b106582a23ba0000&locations=819c1ab743bd0130a44a99006501a2b6
+Careers link: https://osu.wd1.myworkdayjobs.com/OSUCareers?jobFamilyGroup=67612469e2ea01a29e348f105b01ff10
 
 Ohio State University-Main Campus runs on a shared ATS platform -- every school on workday uses the
 same underlying site software, so this calls the shared
@@ -27,7 +27,10 @@ import job_postings_lib as lib
 
 SCHOOL_ID = 1043
 SCHOOL_NAME = "Ohio State University-Columbus"
-CAREERS_LINK = 'https://osu.wd1.myworkdayjobs.com/OSUCareers?jobFamilyGroup=67612469e2ea01a29e348f105b01ff10&jobFamilyGroup=4636ab80487a01dbec7abc635c010515&locations=819c1ab743bd01f14b629c006501acb6&locations=e18a59cd58401001b106582a23ba0000&locations=819c1ab743bd0130a44a99006501a2b6'
+CAREERS_LINK = 'https://osu.wd1.myworkdayjobs.com/OSUCareers?jobFamilyGroup=67612469e2ea01a29e348f105b01ff10'
+# The map links the faculty search above; the scrape adds Post Doctoral and
+# keeps Columbus + College of Medicine (the board also lists hospital jobs).
+BOARD = 'https://osu.wd1.myworkdayjobs.com/OSUCareers?jobFamilyGroup=67612469e2ea01a29e348f105b01ff10&jobFamilyGroup=4636ab80487a01dbec7abc635c010515&locations=819c1ab743bd01f14b629c006501acb6&locations=e18a59cd58401001b106582a23ba0000&locations=819c1ab743bd0130a44a99006501a2b6'
 ATS_PLATFORM = 'Workday'
 PLATFORM = 'workday'
 
@@ -35,7 +38,7 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkp
 
 
 def find_links():
-    return lib.PLATFORM_ADAPTERS['workday'](CAREERS_LINK, SCHOOL_NAME)
+    return lib.PLATFORM_ADAPTERS['workday'](BOARD, SCHOOL_NAME)
 
 
 def main():

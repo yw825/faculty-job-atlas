@@ -796,7 +796,7 @@ school_id,name,country,base_url,careers_link,ats_platform,confidence,notes,scrap
 1039,Capital University,US,https://www.capital.edu/,https://capital.applicantpro.com/jobs/,own website,medium,OK-2hop:OK:2,generic scraper
 1041,Franklin University,US,https://www.franklin.edu/,https://recruiting.ultipro.com/FRA1012FRANK/JobBoard/e51857cc-39da-44b8-a30e-839c982ff791/?q=&o=postedDateDesc,own website,medium,OK-2hop:OK:2,generic scraper
 1042,Ohio Dominican University,US,https://www.ohiodominican.edu/,https://ohiodominican.applicantpro.com/jobsearch/?job_board_classification=Full_Time_Faculty,own website,medium,OK-2hop:OK:4,generic scraper
-1043,Ohio State University-Columbus,US,https://www.osu.edu/,https://osu.wd1.myworkdayjobs.com/OSUCareers?jobFamilyGroup=67612469e2ea01a29e348f105b01ff10&jobFamilyGroup=4636ab80487a01dbec7abc635c010515&locations=819c1ab743bd01f14b629c006501acb6&locations=e18a59cd58401001b106582a23ba0000&locations=819c1ab743bd0130a44a99006501a2b6,Workday,high,OK-2hop:OK:6,adapter built
+1043,Ohio State University-Columbus,US,https://www.osu.edu/,https://osu.wd1.myworkdayjobs.com/OSUCareers?jobFamilyGroup=67612469e2ea01a29e348f105b01ff10,Workday,high,OK-2hop:OK:6,adapter built
 1044,University of Dayton,US,https://udayton.edu/,https://careers.pageuppeople.com/875/cw/en-us/listing/?,PageUp,high,OK-2hop:OK:10,generic scraper (verified working)
 1045,Wright State University-Main Campus,US,https://www.wright.edu/,https://jobs.wright.edu/postings/search,own website,medium,OK-2hop:OK:2;hand-verified-sync | careers_link rediscovered from homepage (old: #VALUE!),generic scraper
 1046,Defiance College,US,https://www.defiance.edu/,https://www.defiance.edu/employment-opportunities/#faculty,own website,medium,OK-2hop:OK:3,generic scraper
