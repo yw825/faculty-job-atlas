@@ -38,11 +38,12 @@
       "school_id": 529,
       "posting_url": "https://jobs.nicholls.edu/postings/10518",
       "job_title_in_post": "Instructor of Nursing",
-      "position_type": "Assistant_Professor; Associate_Professor; Full_Professor",
+      "position_type": "Lecturer",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "Nursing; MSN Program",
       "deadline_of_application": "12/31/2026",
+      "posted_date": "09/02/2026",
       "position_start_date": ""
     },
     "https://jobs.nicholls.edu/postings/10517": {
@@ -82,11 +83,12 @@
       "school_id": 529,
       "posting_url": "https://jobs.nicholls.edu/postings/10485",
       "job_title_in_post": "Instructor or Assistant Professor of Civil Engineering",
-      "position_type": "Assistant_Professor",
+      "position_type": "Assistant_Professor; Lecturer",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "Civil Engineering; holding requisite office hours",
       "deadline_of_application": "10/31/2026",
+      "posted_date": "06/23/2026",
       "position_start_date": ""
     },
     "https://jobs.nicholls.edu/postings/10484": {
@@ -98,34 +100,37 @@
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "11/15/2026",
+      "posted_date": "10/01/2026",
       "position_start_date": "08/11/2027"
     },
     "https://jobs.nicholls.edu/postings/10454": {
       "school_id": 529,
       "posting_url": "https://jobs.nicholls.edu/postings/10454",
       "job_title_in_post": "Instructor/Assistant/Associate Professor in Strategy",
-      "position_type": "Assistant_Professor; Associate_Professor",
+      "position_type": "Assistant_Professor; Associate_Professor; Lecturer",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "Strategy",
       "deadline_of_application": "11/30/2026",
+      "posted_date": "03/10/2026",
       "position_start_date": ""
     },
     "https://jobs.nicholls.edu/postings/10452": {
       "school_id": 529,
       "posting_url": "https://jobs.nicholls.edu/postings/10452",
       "job_title_in_post": "Instructor/Assistant/Associate Professor in Sales and Marketing",
-      "position_type": "Assistant_Professor; Associate_Professor",
+      "position_type": "Assistant_Professor; Associate_Professor; Lecturer",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "Sales and Marketing",
       "deadline_of_application": "11/30/2026",
+      "posted_date": "06/16/2026",
       "position_start_date": ""
     }
   },
   "school_id": 529,
   "status": "complete",
-  "updated_at": "2026-10-16T18:44:04+00:00",
-  "completed_at": "2026-10-16T18:44:04+00:00",
+  "updated_at": "2026-10-29T00:34:14+00:00",
+  "completed_at": "2026-10-29T00:34:14+00:00",
   "last_error": ""
 }

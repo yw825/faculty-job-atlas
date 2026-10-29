@@ -1,5 +1,13 @@
 {
   "links": [
+    "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=f1758074-bb0b-4d6b-8d46-3a90ce325365&ccId=19000101_000001&jobId=9203475393064_86&lang=en_US",
+    "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=f1758074-bb0b-4d6b-8d46-3a90ce325365&ccId=19000101_000001&jobId=9203475307380_93&lang=en_US",
+    "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=f1758074-bb0b-4d6b-8d46-3a90ce325365&ccId=19000101_000001&jobId=9203475307380_55&lang=en_US",
+    "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=f1758074-bb0b-4d6b-8d46-3a90ce325365&ccId=19000101_000001&jobId=9203475310327_89&lang=en_US",
+    "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=f1758074-bb0b-4d6b-8d46-3a90ce325365&ccId=19000101_000001&jobId=9203475310327_51&lang=en_US",
+    "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=f1758074-bb0b-4d6b-8d46-3a90ce325365&ccId=19000101_000001&jobId=9203475393064_42&lang=en_US",
+    "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=f1758074-bb0b-4d6b-8d46-3a90ce325365&ccId=19000101_000001&jobId=9203475393064_3&lang=en_US",
+    "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=f1758074-bb0b-4d6b-8d46-3a90ce325365&ccId=19000101_000001&jobId=9203475307380_9&lang=en_US",
     "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=f1758074-bb0b-4d6b-8d46-3a90ce325365&ccId=19000101_000001&jobId=9203442543391_22&lang=en_US",
     "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=f1758074-bb0b-4d6b-8d46-3a90ce325365&ccId=19000101_000001&jobId=9203442534195_4&lang=en_US",
     "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=f1758074-bb0b-4d6b-8d46-3a90ce325365&ccId=19000101_000001&jobId=9203442267579_1&lang=en_US",
@@ -7,7 +15,6 @@
     "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=f1758074-bb0b-4d6b-8d46-3a90ce325365&ccId=19000101_000001&jobId=9203341860089_1&lang=en_US",
     "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=f1758074-bb0b-4d6b-8d46-3a90ce325365&ccId=19000101_000001&jobId=9203308736773_1&lang=en_US",
     "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=f1758074-bb0b-4d6b-8d46-3a90ce325365&ccId=19000101_000001&jobId=9203277146578_1&lang=en_US",
-    "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=f1758074-bb0b-4d6b-8d46-3a90ce325365&ccId=19000101_000001&jobId=9203277007236_1&lang=en_US",
     "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=f1758074-bb0b-4d6b-8d46-3a90ce325365&ccId=19000101_000001&jobId=9203276759398_1&lang=en_US",
     "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=f1758074-bb0b-4d6b-8d46-3a90ce325365&ccId=19000101_000001&jobId=9203246157757_1&lang=en_US",
     "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=f1758074-bb0b-4d6b-8d46-3a90ce325365&ccId=19000101_000001&jobId=9202766987240_1&lang=en_US",
@@ -15,9 +22,9 @@
     "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=f1758074-bb0b-4d6b-8d46-3a90ce325365&ccId=19000101_000001&jobId=9201502300345_1&lang=en_US"
   ],
   "school_id": 1001,
-  "status": "error",
-  "updated_at": "2026-10-27T19:56:32+00:00",
+  "status": "complete",
+  "updated_at": "2026-10-28T20:30:56+00:00",
   "started_at": "2026-09-08T02:35:00+00:00",
-  "completed_at": "2026-10-26T23:04:01+00:00",
-  "last_error": "RuntimeError: adp api status=None"
+  "completed_at": "2026-10-28T20:30:56+00:00",
+  "last_error": ""
 }

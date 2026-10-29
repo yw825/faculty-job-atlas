@@ -34,11 +34,12 @@
       "school_id": 452,
       "posting_url": "https://rosehulman.csod.com/ux/ats/careersite/9/home/requisition/807?c=rosehulman",
       "job_title_in_post": "Full-Time Visiting Faculty in Physics, Optical Engineering, and NanoEngineering for 2026-2027",
-      "position_type": "Assistant_Professor",
+      "position_type": "Lecturer",
       "job_term": "Full-time",
       "department_or_school": "Department of Physics, Optical Engineering and",
       "area_key_words": "Physics, Optical Engineering, and NanoEngineering for 2026-2027",
-      "deadline_of_application": "10/12/2026",
+      "deadline_of_application": "October 26, 2026",
+      "posted_date": "10/12/2026",
       "position_start_date": ""
     },
     "https://rosehulman.csod.com/ux/ats/careersite/9/home/requisition/798?c=rosehulman": {
@@ -49,7 +50,8 @@
       "job_term": "Full-time",
       "department_or_school": "Department of Chemical Engineering",
       "area_key_words": "Chemical Engineering for 2027-2028",
-      "deadline_of_application": "10/12/2026",
+      "deadline_of_application": "November 11, 2026",
+      "posted_date": "10/12/2026",
       "position_start_date": ""
     },
     "https://rosehulman.csod.com/ux/ats/careersite/9/home/requisition/805?c=rosehulman": {
@@ -60,7 +62,8 @@
       "job_term": "Full-time",
       "department_or_school": "Department of Physics, Optical Engineering and",
       "area_key_words": "Physics for 2027-2028",
-      "deadline_of_application": "9/28/2026",
+      "deadline_of_application": "November 1, 2026",
+      "posted_date": "9/28/2026",
       "position_start_date": ""
     },
     "https://rosehulman.csod.com/ux/ats/careersite/9/home/requisition/806?c=rosehulman": {
@@ -71,18 +74,20 @@
       "job_term": "Full-time",
       "department_or_school": "Institute of Technology",
       "area_key_words": "Mechanical Engineering and Engineering Design for 2027-2028",
-      "deadline_of_application": "9/25/2026",
+      "deadline_of_application": "October 26, 2026",
+      "posted_date": "9/25/2026",
       "position_start_date": ""
     },
     "https://rosehulman.csod.com/ux/ats/careersite/9/home/requisition/801?c=rosehulman": {
       "school_id": 452,
       "posting_url": "https://rosehulman.csod.com/ux/ats/careersite/9/home/requisition/801?c=rosehulman",
       "job_title_in_post": "Tenure Track Faculty or Professor of Practice in Mathematics for 2027-2028",
-      "position_type": "Full_Professor",
+      "position_type": "Lecturer",
       "job_term": "Full-time",
       "department_or_school": "Institute of Technology is an equal opportunity employer",
       "area_key_words": "Practice in Mathematics for 2027-2028; mathematical sciences",
-      "deadline_of_application": "9/15/2026",
+      "deadline_of_application": "October 15, 2026",
+      "posted_date": "9/15/2026",
       "position_start_date": ""
     },
     "https://rosehulman.csod.com/ux/ats/careersite/9/home/requisition/796?c=rosehulman": {
@@ -93,7 +98,8 @@
       "job_term": "Full-time",
       "department_or_school": "Institute of Technology is an equal opportunity employer",
       "area_key_words": "Electrical & Computer Engineering for 2027-2028",
-      "deadline_of_application": "9/15/2026",
+      "deadline_of_application": "Oct. 15, 2026",
+      "posted_date": "9/15/2026",
       "position_start_date": ""
     },
     "https://rosehulman.csod.com/ux/ats/careersite/9/home/requisition/795?c=rosehulman": {
@@ -104,13 +110,14 @@
       "job_term": "Full-time",
       "department_or_school": "Institute of Technology is a top undergraduate STEM college",
       "area_key_words": "Chemistry and Biochemistry for 2027-2028; candidate’s areas of specialization",
-      "deadline_of_application": "9/15/2026",
+      "deadline_of_application": "October 15, 2026",
+      "posted_date": "9/15/2026",
       "position_start_date": ""
     }
   },
   "school_id": 452,
   "status": "complete",
-  "updated_at": "2026-10-16T18:42:59+00:00",
-  "completed_at": "2026-10-16T18:42:59+00:00",
+  "updated_at": "2026-10-29T00:27:37+00:00",
+  "completed_at": "2026-10-29T00:27:37+00:00",
   "last_error": ""
 }

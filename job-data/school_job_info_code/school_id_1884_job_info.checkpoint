@@ -23,6 +23,10 @@
     "https://my.corehr.com/pls/tudrecruit/erq_jobspec_version_4.jobspec?p_id=045623": {
       "title": "Digital Solutions Developer (2 Posts) ICT Specialist Post (Fixed Term Wholetime up to 31 December 2028) (Reference: 542/2026)",
       "description": "Closing Date: 06/11/2026 Close Date : 06-Nov-2026 Job Title : Contact Person : Ross Mcguire Job ID : 045623 Digital Solutions Developer (2 Posts) ICT Specialist Post (Fixed Term Wholetime up to 31 December 2028) (Reference: 542/2026) 06-Nov-2026"
+    },
+    "https://my.corehr.com/pls/tudrecruit/erq_jobspec_version_4.jobspec?p_id=045643": {
+      "title": "Research Assistant Demolition Take Down: Assemblages project (Specified Purpose Wholetime up to December 2029) (Reference: 501/2026)",
+      "description": "Closing Date: 11/11/2026 Close Date : 11-Nov-2026 Job Title : Research Assistant Contact Person : Sarah O'Dwyer Job ID : 045643 Research Assistant Demolition Take Down: Assemblages project (Specified Purpose Wholetime up to December 2029) Reference: 501/2026 11-Nov-2026"
     }
   },
   "rows": {
@@ -95,11 +99,23 @@
       "deadline_of_application": "06/11/2026",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://my.corehr.com/pls/tudrecruit/erq_jobspec_version_4.jobspec?p_id=045643": {
+      "school_id": 1884,
+      "posting_url": "https://my.corehr.com/pls/tudrecruit/erq_jobspec_version_4.jobspec?p_id=045643",
+      "job_title_in_post": "Research Assistant Demolition Take Down: Assemblages project (Specified Purpose Wholetime up to December 2029) (Reference: 501/2026)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "11/11/2026",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1884,
   "status": "complete",
-  "updated_at": "2026-10-28T00:15:37+00:00",
-  "completed_at": "2026-10-28T00:15:37+00:00",
+  "updated_at": "2026-10-29T03:45:03+00:00",
+  "completed_at": "2026-10-29T03:45:03+00:00",
   "last_error": ""
 }

@@ -509,6 +509,11 @@
       "title": "Associate Professor in Public Health: Children and Young People",
       "description": "At the National Institute of Public Health (NIPH), University of Southern Denmark (SDU), a position as Associate Professor in Public Health is hereby advertised with a focus on interdisciplinary, qualitative studies of children’s and young people’s health and well-being, commencing on 15 April 2027 or as soon as possible thereafter.",
       "department": null
+    },
+    "https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/4402": {
+      "title": "Studentermedhjælper til Dekansekretariatet på Det Samfundsvidenskabelige Fakultet, SDU",
+      "description": "",
+      "department": null
     }
   },
   "rows": {
@@ -1711,11 +1716,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": "15 April 2027"
+    },
+    "https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/4402": {
+      "school_id": 1892,
+      "posting_url": "https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/4402",
+      "job_title_in_post": "Studentermedhjælper til Dekansekretariatet på Det Samfundsvidenskabelige Fakultet, SDU",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1892,
   "status": "complete",
-  "updated_at": "2026-10-27T23:49:53+00:00",
-  "completed_at": "2026-10-27T23:49:53+00:00",
+  "updated_at": "2026-10-29T03:39:53+00:00",
+  "completed_at": "2026-10-29T03:39:53+00:00",
   "last_error": ""
 }

@@ -30,12 +30,13 @@
       "school_id": 160,
       "posting_url": "https://adams.wd1.myworkdayjobs.com/ASU/job/Alamosa-Colorado/Visiting-Assistant-Professor-of-Social-Work_R541-1",
       "job_title_in_post": "Visiting Assistant Professor of Social Work",
-      "position_type": "Assistant_Professor",
+      "position_type": "Lecturer",
       "job_term": "Full-time",
       "department_or_school": "Department of Sociology",
       "area_key_words": "Social Work; Department of Sociology",
       "deadline_of_application": "9/30/2026",
-      "position_start_date": "2026-09-03"
+      "posted_date": "2026-09-03",
+      "position_start_date": ""
     },
     "https://adams.wd1.myworkdayjobs.com/ASU/job/Alamosa-Colorado/Assistant-Associate-Professor-of-Counselor-Education_R437": {
       "school_id": 160,
@@ -46,7 +47,8 @@
       "department_or_school": "division of the university is Adams State Online",
       "area_key_words": "Counselor Education; online Masters",
       "deadline_of_application": "11/1/2026",
-      "position_start_date": "2026-09-03"
+      "posted_date": "2026-09-03",
+      "position_start_date": ""
     },
     "https://adams.wd1.myworkdayjobs.com/ASU/job/Alamosa-Colorado/Assistant-Professor-of-Education_R539-1": {
       "school_id": 160,
@@ -57,18 +59,20 @@
       "department_or_school": "School of Education",
       "area_key_words": "Education; college-prep advisors Ability",
       "deadline_of_application": "8/15/2026",
-      "position_start_date": "2026-07-13"
+      "posted_date": "2026-07-13",
+      "position_start_date": "January 11, 2027"
     },
     "https://adams.wd1.myworkdayjobs.com/ASU/job/Alamosa-Colorado/Counselor-Education---Clinical-Faculty-2_R557": {
       "school_id": 160,
       "posting_url": "https://adams.wd1.myworkdayjobs.com/ASU/job/Alamosa-Colorado/Counselor-Education---Clinical-Faculty-2_R557",
       "job_title_in_post": "Counselor Education - Clinical Faculty",
-      "position_type": "Unclassified",
+      "position_type": "Lecturer",
       "job_term": "Full-time",
       "department_or_school": "division of the university is Adams State Online",
       "area_key_words": "",
       "deadline_of_application": "10/19/2026",
-      "position_start_date": "2026-09-14"
+      "posted_date": "2026-09-14",
+      "position_start_date": ""
     },
     "https://adams.wd1.myworkdayjobs.com/ASU/job/Alamosa-Colorado/Assistant-Associate-Professor-of-Biology---Anatomy-and-Physiology_R565-1": {
       "school_id": 160,
@@ -78,8 +82,9 @@
       "job_term": "Full-time",
       "department_or_school": "School of Science, Technology, Engineering, and Mathematics and across campus",
       "area_key_words": "Biology; animal physiology",
-      "deadline_of_application": "",
-      "position_start_date": "2026-10-08"
+      "deadline_of_application": "Nov. 9, 2026",
+      "posted_date": "2026-10-08",
+      "position_start_date": ""
     },
     "https://adams.wd1.myworkdayjobs.com/ASU/job/Alamosa-Colorado/Assistant-Associated-Professor-of-Plant-Biology_R564": {
       "school_id": 160,
@@ -89,13 +94,14 @@
       "job_term": "Full-time",
       "department_or_school": "School of Science, Technology, Engineering, and Mathematics and across campus",
       "area_key_words": "Biology; plant systematics",
-      "deadline_of_application": "",
-      "position_start_date": "2026-10-08"
+      "deadline_of_application": "Nov. 9, 2026",
+      "posted_date": "2026-10-08",
+      "position_start_date": ""
     }
   },
   "school_id": 160,
   "status": "complete",
-  "updated_at": "2026-10-16T18:36:45+00:00",
-  "completed_at": "2026-10-16T18:36:45+00:00",
+  "updated_at": "2026-10-28T23:42:22+00:00",
+  "completed_at": "2026-10-28T23:42:22+00:00",
   "last_error": ""
 }

@@ -43,6 +43,9 @@
     "https://umo.edu/employment/#instructional-designer": {
       "title": "Instructional Designer",
       "description": "Instructional Designer. Department: Teaching Excellence Center. Full-time Staff. Posted 2026-10-14. The University of Mount Olive invites applications for a full-time Instructional Designer within the Teaching Excellence Center, beginning in January 2027. The Instructional Designer works collaboratively with faculty to support high-quality instruction across modalities, with particular emphasis on the integration of artificial intelligence into teaching and learning. Established with support from a federal Title III grant, this position is well suited for an early-career instructional designer seeking to grow their experience while contributing to University-wide initiatives in instructional design, faculty development, artificial intelligence, and educational technology. This is a campus-based position at the University of Mount Olive. Occasional evening and weekend work and travel may be required. Responsibilities include: The Instructional Designer will: Collaborate with faculty to design, develop, and enhance online, hybrid, and technology-enhanced courses. Support the development and implementation of the University’s AI literacy framework and AI-related academic programming, including the integration of AI across general education and discipline-specific curricula. Develop and deliver faculty professional development related to instructional design, AI-enhanced teaching, responsible use of AI, and emerging educational technologies. Support faculty AI learning communities and other opportunities for collaboration and peer learning. Research, pilot, and evaluate educational technologies and AI tools for instructional use. Develop and maintain Moodle courses and instructional resources using learner-centered and adult-learning principles. Conduct course readiness and quality reviews using University expectations and established standards, including Quality Matters, Universal Design for Learning, digital accessibility, and regular and substantive interaction. Provide faculty consultations, coaching, workshops, and other instructional design support. Develop faculty development resources, courses, tutorials, guides, and other materials. Support Title III and other University initiatives related to instructional design, artificial intelligence, faculty development, and educational technology. Maintain appropriate documentation to support assessment, accreditation, grant reporting, and continuous improvement. Minimum Qualifications: Master’s degree in Instructional Design, Educational Technology, Curriculum and Instruction, Learning Sciences, Education, or a closely related field. Minimum of two years of relevant instructional design experience. Knowledge of instructional design principles, adult learning, course design, assessment, and effective teaching practices. Experience with learning management systems and instructional technologies. Knowledge of generative AI and its applications in teaching and learning. Working knowledge of Universal Design for Learning, digital accessibility practices, and WCAG guidelines. Strong written, verbal, interpersonal, project management, and organizational skills. Current Quality Matters credentials or willingness to complete the University-designated Quality Matters professional development pathway within six months of hire and maintain required credentials thereafter. Experience in higher education and/or adult learning environments is preferred. Experience with Moodle, Articulate 360, Rise 360, Camtasia, Microsoft Teams, or comparable technologies is also preferred. To Apply: Interested applicants should submit the following to Tammy Williams at twilliams@umo.edu : Letter of interest Resume Contact information for three professional references, including at least one current or former supervisor One to three examples of work demonstrating experience in instructional design, faculty development, or educational technology. Links, screenshots, or redacted samples are acceptable; a formal portfolio is not required. The University of Mount Olive requires candidates to be legally authorized to work in the United States without requiring current or future visa sponsorship."
+    },
+    "https://umo.edu/employment/#av-technology-support-technician": {
+      "error": "HTTPError: HTTP Error 502: Bad Gateway"
     }
   },
   "rows": {
@@ -55,105 +58,115 @@
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "2026-04-13",
       "position_start_date": ""
     },
     "https://umo.edu/employment/#nursing-faculty": {
       "school_id": 802,
       "posting_url": "https://umo.edu/employment/#nursing-faculty",
       "job_title_in_post": "Nursing Faculty",
-      "position_type": "Unclassified",
+      "position_type": "Assistant_Professor; Associate_Professor; Full_Professor",
       "job_term": "Full-time",
       "department_or_school": "School of Arts & Sciences",
       "area_key_words": "Nursing",
       "deadline_of_application": "",
+      "posted_date": "2026-07-30",
       "position_start_date": ""
     },
     "https://umo.edu/employment/#tsb-asst-dean": {
       "school_id": 802,
       "posting_url": "https://umo.edu/employment/#tsb-asst-dean",
       "job_title_in_post": "Assistant Dean - Tillman School of Business",
-      "position_type": "Non-academic",
+      "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "School of Business",
       "area_key_words": "Tillman School of Business",
       "deadline_of_application": "",
+      "posted_date": "2026-05-15",
       "position_start_date": ""
     },
     "https://umo.edu/employment/#psychology-faculty": {
       "school_id": 802,
       "posting_url": "https://umo.edu/employment/#psychology-faculty",
       "job_title_in_post": "Psychology Faculty",
-      "position_type": "Unclassified",
+      "position_type": "Assistant_Professor; Associate_Professor; Full_Professor",
       "job_term": "Full-time",
       "department_or_school": "School of Arts & Sciences",
       "area_key_words": "Psychology; future",
       "deadline_of_application": "",
+      "posted_date": "2026-04-30",
       "position_start_date": ""
     },
     "https://umo.edu/employment/#finance-faculty": {
       "school_id": 802,
       "posting_url": "https://umo.edu/employment/#finance-faculty",
       "job_title_in_post": "Finance – Faculty",
-      "position_type": "Non-academic",
+      "position_type": "Assistant_Professor; Associate_Professor; Full_Professor",
       "job_term": "Full-time",
       "department_or_school": "School of Business",
       "area_key_words": "problem-solving skills",
       "deadline_of_application": "",
+      "posted_date": "2026-06-15",
       "position_start_date": ""
     },
     "https://umo.edu/employment/#nursing-simulation-laboratory-coordinator": {
       "school_id": 802,
       "posting_url": "https://umo.edu/employment/#nursing-simulation-laboratory-coordinator",
       "job_title_in_post": "Nursing Simulation Laboratory Coordinator",
-      "position_type": "Non-academic",
+      "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "School of Arts & Sciences",
       "area_key_words": "Nursing",
       "deadline_of_application": "",
+      "posted_date": "2026-07-29",
       "position_start_date": ""
     },
     "https://umo.edu/employment/#student-conduct-coordinator": {
       "school_id": 802,
       "posting_url": "https://umo.edu/employment/#student-conduct-coordinator",
       "job_title_in_post": "Student Conduct Coordinator",
-      "position_type": "Non-academic",
+      "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "2026-07-29",
       "position_start_date": ""
     },
     "https://umo.edu/employment/#business-management-faculty": {
       "school_id": 802,
       "posting_url": "https://umo.edu/employment/#business-management-faculty",
       "job_title_in_post": "Business Management Faculty",
-      "position_type": "Unclassified",
+      "position_type": "Assistant_Professor; Associate_Professor; Full_Professor",
       "job_term": "Full-time",
       "department_or_school": "School of Business",
       "area_key_words": "Business Management",
       "deadline_of_application": "",
+      "posted_date": "2026-08-14",
       "position_start_date": ""
     },
     "https://umo.edu/employment/#slate-crm-administrator": {
       "school_id": 802,
       "posting_url": "https://umo.edu/employment/#slate-crm-administrator",
       "job_title_in_post": "Slate CRM Administrator",
-      "position_type": "Non-academic",
+      "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "2026-10-01",
       "position_start_date": ""
     },
     "https://umo.edu/employment/#title-iii-coordinator": {
       "school_id": 802,
       "posting_url": "https://umo.edu/employment/#title-iii-coordinator",
       "job_title_in_post": "Title III Coordinator",
-      "position_type": "Non-academic",
+      "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "2026-10-05",
       "position_start_date": ""
     },
     "https://umo.edu/employment/#instructional-designer": {
@@ -165,12 +178,16 @@
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "2026-10-14",
       "position_start_date": ""
+    },
+    "https://umo.edu/employment/#av-technology-support-technician": {
+      "error": "HTTPError: HTTP Error 502: Bad Gateway"
     }
   },
   "school_id": 802,
   "status": "complete",
-  "updated_at": "2026-10-16T18:47:30+00:00",
-  "completed_at": "2026-10-16T18:47:30+00:00",
+  "updated_at": "2026-10-29T01:10:08+00:00",
+  "completed_at": "2026-10-29T01:10:08+00:00",
   "last_error": ""
 }

@@ -13,8 +13,9 @@
   ],
   "school_id": 985,
   "status": "complete",
-  "updated_at": "2026-10-27T19:51:00+00:00",
+  "updated_at": "2026-10-28T20:23:58+00:00",
   "started_at": "2026-09-08T02:33:34+00:00",
-  "completed_at": "2026-10-27T19:51:00+00:00",
-  "last_error": ""
+  "completed_at": "2026-10-28T20:23:58+00:00",
+  "last_error": "",
+  "last_warning": "2026-10-28T20:23:58+00:00: board returned 0 links vs 10 before; old set kept"
 }

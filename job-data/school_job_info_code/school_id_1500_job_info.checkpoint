@@ -23,6 +23,7 @@
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.bennington.edu/academics/faculty": {
@@ -45,12 +46,13 @@
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     }
   },
   "school_id": 1500,
   "status": "complete",
-  "updated_at": "2026-10-21T18:56:27+00:00",
-  "completed_at": "2026-10-21T18:56:27+00:00",
+  "updated_at": "2026-10-29T02:38:17+00:00",
+  "completed_at": "2026-10-29T02:38:17+00:00",
   "last_error": ""
 }

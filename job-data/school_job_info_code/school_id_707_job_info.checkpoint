@@ -909,6 +909,16 @@
       "title": "Assistant Professor, Tenure Track - Special Education",
       "description": "Posted: 10/08/2026 Location: Columbia Department: Special Education Assistant Professor, Tenure Track - Special Education",
       "department": "Special Education"
+    },
+    "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61551&PostingSeq=1&SiteId=9": {
+      "title": "Assistant Professor of Aerospace Engineering",
+      "description": "Posted: 10/28/2026 Location: Columbia Department: Mechanical & Aerospace Engr Assistant Professor of Aerospace Engineering",
+      "department": "Mechanical & Aerospace Engr"
+    },
+    "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61554&PostingSeq=1&SiteId=9": {
+      "title": "Assistant Professor of Mechanical Engineering",
+      "description": "Posted: 10/28/2026 Location: Columbia Department: Mechanical & Aerospace Engr Assistant Professor of Mechanical Engineering",
+      "department": "Mechanical & Aerospace Engr"
     }
   },
   "rows": {
@@ -3090,11 +3100,35 @@
       "deadline_of_application": "",
       "posted_date": "10/08/2026",
       "position_start_date": ""
+    },
+    "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61551&PostingSeq=1&SiteId=9": {
+      "school_id": 707,
+      "posting_url": "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61551&PostingSeq=1&SiteId=9",
+      "job_title_in_post": "Assistant Professor of Aerospace Engineering",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Mechanical & Aerospace Engr",
+      "area_key_words": "Aerospace Engineering",
+      "deadline_of_application": "",
+      "posted_date": "10/28/2026",
+      "position_start_date": ""
+    },
+    "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61554&PostingSeq=1&SiteId=9": {
+      "school_id": 707,
+      "posting_url": "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61554&PostingSeq=1&SiteId=9",
+      "job_title_in_post": "Assistant Professor of Mechanical Engineering",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Mechanical & Aerospace Engr",
+      "area_key_words": "Mechanical Engineering",
+      "deadline_of_application": "",
+      "posted_date": "10/28/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 707,
   "status": "complete",
-  "updated_at": "2026-10-27T00:38:56+00:00",
-  "completed_at": "2026-10-27T00:38:56+00:00",
+  "updated_at": "2026-10-29T01:00:01+00:00",
+  "completed_at": "2026-10-29T01:00:01+00:00",
   "last_error": ""
 }

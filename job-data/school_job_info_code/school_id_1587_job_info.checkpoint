@@ -249,6 +249,16 @@
       "title": "Assistant or Associate Professor in Environmental / Analytical Chemistry",
       "description": "",
       "department": null
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4573": {
+      "title": "Tenure-Track Position in Community-Engaged Scholarship",
+      "description": "",
+      "department": null
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4582": {
+      "title": "Assistant/Associate/Full Professor, Division of Pediatric Neurology",
+      "description": "",
+      "department": null
     }
   },
   "rows": {
@@ -841,11 +851,35 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4573": {
+      "school_id": 1587,
+      "posting_url": "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4573",
+      "job_title_in_post": "Tenure-Track Position in Community-Engaged Scholarship",
+      "position_type": "Assistant_Professor; Associate_Professor; Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Community-Engaged Scholarship",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4582": {
+      "school_id": 1587,
+      "posting_url": "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4582",
+      "job_title_in_post": "Assistant/Associate/Full Professor, Division of Pediatric Neurology",
+      "position_type": "Assistant_Professor; Associate_Professor; Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Division of Pediatric Neurology",
+      "area_key_words": "Pediatric Neurology",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1587,
   "status": "complete",
-  "updated_at": "2026-10-27T23:30:38+00:00",
-  "completed_at": "2026-10-27T23:30:38+00:00",
+  "updated_at": "2026-10-29T03:14:43+00:00",
+  "completed_at": "2026-10-29T03:14:43+00:00",
   "last_error": ""
 }

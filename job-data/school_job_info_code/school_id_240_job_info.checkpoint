@@ -23,6 +23,7 @@
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://uftl.edu/career-center/#admissions-counselor-evaluator-full-time": {
@@ -34,23 +35,25 @@
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://uftl.edu/career-center/#adjunct-faculty": {
       "school_id": 240,
       "posting_url": "https://uftl.edu/career-center/#adjunct-faculty",
       "job_title_in_post": "Adjunct Faculty",
-      "position_type": "Unclassified",
+      "position_type": "Lecturer",
       "job_term": "Part-time",
       "department_or_school": "",
       "area_key_words": "ASSIGNMENTS English",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     }
   },
   "school_id": 240,
   "status": "complete",
-  "updated_at": "2026-10-16T18:37:42+00:00",
-  "completed_at": "2026-10-16T18:37:42+00:00",
+  "updated_at": "2026-10-28T23:52:19+00:00",
+  "completed_at": "2026-10-28T23:52:19+00:00",
   "last_error": ""
 }

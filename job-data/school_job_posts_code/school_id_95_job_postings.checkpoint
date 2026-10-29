@@ -65,7 +65,6 @@
     "https://apol-recruit.ucsd.edu/JPF04482",
     "https://apol-recruit.ucsd.edu/JPF04483",
     "https://apol-recruit.ucsd.edu/JPF04485",
-    "https://apol-recruit.ucsd.edu/JPF04487",
     "https://apol-recruit.ucsd.edu/JPF04488",
     "https://apol-recruit.ucsd.edu/JPF04490",
     "https://apol-recruit.ucsd.edu/JPF04492",
@@ -229,6 +228,7 @@
     "https://apol-recruit.ucsd.edu/JPF04678",
     "https://apol-recruit.ucsd.edu/JPF04679",
     "https://apol-recruit.ucsd.edu/JPF04680",
+    "https://apol-recruit.ucsd.edu/JPF04681",
     "https://apol-recruit.ucsd.edu/JPF04682",
     "https://apol-recruit.ucsd.edu/JPF04684",
     "https://apol-recruit.ucsd.edu/JPF04686",
@@ -236,8 +236,8 @@
   ],
   "school_id": 95,
   "status": "complete",
-  "updated_at": "2026-10-27T17:07:10+00:00",
+  "updated_at": "2026-10-28T17:29:00+00:00",
   "started_at": "2026-09-08T17:41:04+00:00",
-  "completed_at": "2026-10-27T17:07:10+00:00",
+  "completed_at": "2026-10-28T17:29:00+00:00",
   "last_error": ""
 }

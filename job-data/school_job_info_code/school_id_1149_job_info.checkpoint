@@ -39,6 +39,7 @@
       "department_or_school": "Department of Biology",
       "area_key_words": "well-equipped science center; Neurobiology",
       "deadline_of_application": "August 31, 2026",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://provost.lafayette.edu/2027-28-economics-asst/": {
@@ -50,6 +51,7 @@
       "department_or_school": "",
       "area_key_words": "financial economics; finance",
       "deadline_of_application": "October 15, 2026",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://provost.lafayette.edu/2027-28-ece-asst-prof/": {
@@ -61,6 +63,7 @@
       "department_or_school": "Department of Electrical and Computer Engineering",
       "area_key_words": "candidate’s areas of interest",
       "deadline_of_application": "October 1, 2026",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://provost.lafayette.edu/2027-28-geology-asst-prof/": {
@@ -72,6 +75,7 @@
       "department_or_school": "Department of Geology & Environmental Geosciences",
       "area_key_words": "structural geology",
       "deadline_of_application": "November 16, 2026",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://provost.lafayette.edu/2027-28-relstudies-jewish-studies/": {
@@ -83,34 +87,37 @@
       "department_or_school": "Department of Religious Studies",
       "area_key_words": "Jewish Studies; college interdisciplinary",
       "deadline_of_application": "October 12, 2026",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://provost.lafayette.edu/chemistry-dept-vap-jan-2027/": {
       "school_id": 1149,
       "posting_url": "https://provost.lafayette.edu/chemistry-dept-vap-jan-2027/",
       "job_title_in_post": "Chemistry Department, Visiting Assistant Professor January 2027",
-      "position_type": "Assistant_Professor",
+      "position_type": "Lecturer",
       "job_term": "Full-time",
       "department_or_school": "Department of Chemistry is searching for a Visiting Assistant Professor",
       "area_key_words": "",
-      "deadline_of_application": "",
+      "deadline_of_application": "November 6, 2026",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://provost.lafayette.edu/2026-27-physics-vap/": {
       "school_id": 1149,
       "posting_url": "https://provost.lafayette.edu/2026-27-physics-vap/",
       "job_title_in_post": "2026-27 Physics Department, Visiting Assistant Professor",
-      "position_type": "Assistant_Professor",
+      "position_type": "Lecturer",
       "job_term": "Full-time",
       "department_or_school": "Department of Physics",
       "area_key_words": "",
       "deadline_of_application": "October 2, 2026",
+      "posted_date": "",
       "position_start_date": ""
     }
   },
   "school_id": 1149,
   "status": "complete",
-  "updated_at": "2026-10-19T20:27:53+00:00",
-  "completed_at": "2026-10-19T20:27:53+00:00",
+  "updated_at": "2026-10-29T02:13:00+00:00",
+  "completed_at": "2026-10-29T02:13:00+00:00",
   "last_error": ""
 }

@@ -44,6 +44,11 @@
       "title": "Manager, Awards and Graduation",
       "description": "Lead Awards & Graduations, driving service excellence, process improvement and exceptional student outcomes from completion to graduation.",
       "department": null
+    },
+    "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18583": {
+      "title": "Human Research Ethics Committee",
+      "description": "As an independent community representative, help review research ethics, assess participant impacts, and safeguard rights, wellbeing and dignity.",
+      "department": null
     }
   },
   "rows": {
@@ -153,11 +158,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18583": {
+      "school_id": 1817,
+      "posting_url": "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18583",
+      "job_title_in_post": "Human Research Ethics Committee",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1817,
   "status": "complete",
-  "updated_at": "2026-10-27T23:21:29+00:00",
-  "completed_at": "2026-10-27T23:21:29+00:00",
+  "updated_at": "2026-10-29T03:10:19+00:00",
+  "completed_at": "2026-10-29T03:10:19+00:00",
   "last_error": ""
 }

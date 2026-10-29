@@ -35,6 +35,10 @@
     "https://www.drury.edu/academic-affairs/open-faculty-positions/#visiting-assistant-professor-in-architectural-design-representation": {
       "title": "Visiting Assistant Professor in Architectural Design & Representation",
       "description": "Visiting Assistant Professor in Architectural Design & Representation. The Hammons School of Architecture (HSA) at Drury University invites applications and nominations for a Visiting Assistant Professor in Architectural Design & Representation. This is a full-time, one year appointment beginning in August 2026, with potential for reappointment. HSA seeks talented emerging scholars whose architectural pedagogy, discourse, and practice through technological innovation in design. In particular, those who investigate issues of representation, modeling, making, process, and/or analytics, including – but not limited to – advanced representation, simulation, artificial intelligence, material studies and emerging technologies. This position is designed for promising early-career faculty candidates who look to advance their teaching and scholarship and to join a dedicated faculty of mentors and teachers. The successful candidate will receive the same consideration for faculty development funds that tenure-track and tenured faculty receive. Candidates must hold a graduate degree in architecture and should have an articulated line of inquiry with the potential to advance disciplinary knowledge. The successful individual will teach design studios and core or seminar courses and engage in research related to their areas of expertise. HSA offers a NAAB-accredited, first-professional M.Arch degree in the context of a small private liberal arts university. The school has a historical and ongoing commitment to providing exemplary professional preparation within a broad and interdisciplinary curriculum recognized for fostering critical thinking and skilled stewardship. All HSA students study abroad, participate in professional internships, and attain minors and/or certificates that construct an individualized path through a uniquely interconnected program. Drury University has a long record of effective engagement and activism in the Ozarks. Founded in 1873, the University is in Springfield, Missouri—the center of a metropolitan area approaching 500,000 in population. Additional information about Drury University, the Hammons School of Architecture, and the Springfield area can be found at https://www.drury.edu/ , https://www.drury.edu/architecture/ , and https://www.springfieldmo.org/ , respectively. Review of applications will begin immediately and continue until the position is filled. Applications and nominations are to be emailed to Search Committee Chair Keith Hedges, AIA at khedges@drury.edu . Applications should include (in pdf format): Letter of interest addressing qualifications, scholarship focus, teaching pedagogy, and vision for design education Current curriculum vitae A portfolio of personal and/or student work Contact information for three references"
+    },
+    "https://www.drury.edu/academic-affairs/open-faculty-positions/#clinical-assistant-professor-instructor-of-psychology": {
+      "title": "Clinical Assistant Professor/Instructor of Psychology",
+      "description": "Clinical Assistant Professor/Instructor of Psychology. The Department of Behavioral Sciences at Drury University invites applications for a full-time, non-tenure-track position in Psychology. The appointment will be made at the rank of Clinical Assistant Professor or Instructor, depending on the successful candidate’s academic credentials and licensure status. Candidates should have expertise in clinical psychology or a related discipline. The start date is August 2027. Clinical Assistant Professor: Candidates must have a doctoral, specialist (Ed.S.), or master’s degree in clinical, counseling, or school psychology from a program accredited by the American Psychological Association (APA) or National Association of School Psychologists (NASP). Current, active licensure is required. Instructor: Candidates must have a master’s or doctoral degree in psychology with expertise in clinical psychology or a related discipline. The department is interdisciplinary and offers undergraduate degrees in Clinical and Behavioral Neuroscience, Criminal Justice, Criminology, Psychology, and Sociology. The successful candidate will contribute to an interdisciplinary undergraduate program and may teach introductory psychology, positive psychology, psychopathology, psychological tests and measurement, and/or other related courses. The teaching load is 21 credit hours per academic year for a Clinical Assistant Professor and 24 credit hours per academic year for an Instructor. The successful candidate will receive the same consideration for faculty development funds as tenure-track and tenured faculty. Applications should include a letter of interest addressing the candidate’s qualifications, a current curriculum vitae, a teaching philosophy statement, and official transcripts. Three letters of recommendation are also required. Review of applications will begin immediately and continue until the position is filled. Applications and letters of recommendation should be sent to Search Committee Chair Dr. Callie Gibson, c/o Lori Sechler, at lsechler@drury.edu . Drury University has a long record of effective engagement and activism in the Ozarks. Founded in 1873, the University is located in Springfield, Missouri, the center of a metropolitan area exceeding 500,000 in population. Additional information about Drury University and the Department of Behavioral Sciences can be found at drury.edu ."
     }
   },
   "rows": {
@@ -58,6 +62,7 @@
       "department_or_school": "Department of Mathematics & Computer Science seeks two",
       "area_key_words": "Mathematics & Computer Science",
       "deadline_of_application": "November 6, 2026",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.drury.edu/academic-affairs/open-faculty-positions/#open-rank-tenure-track-faculty-in-electrical-engineering": {
@@ -80,6 +85,7 @@
       "department_or_school": "",
       "area_key_words": "Mechanical Engineering",
       "deadline_of_application": "December 2, 2026",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.drury.edu/academic-affairs/open-faculty-positions/#founding-program-director-master-of-science-in-anesthesiologist-assistant-studies-program": {
@@ -91,17 +97,19 @@
       "department_or_school": "School of Health Sciences",
       "area_key_words": "Science in Anesthesiologist Assistant Studies Program",
       "deadline_of_application": "January 29, 2027",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.drury.edu/academic-affairs/open-faculty-positions/#principal-faculty-physician-assistant-program": {
       "school_id": 737,
       "posting_url": "https://www.drury.edu/academic-affairs/open-faculty-positions/#principal-faculty-physician-assistant-program",
       "job_title_in_post": "Principal Faculty - Physician Assistant Program",
-      "position_type": "Unclassified",
+      "position_type": "Assistant_Professor; Associate_Professor; Full_Professor",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "Principal",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.drury.edu/academic-affairs/open-faculty-positions/#technical-services-coordinator-visiting-assistant-librarian": {
@@ -136,11 +144,23 @@
       "area_key_words": "Architectural Design & Representation",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://www.drury.edu/academic-affairs/open-faculty-positions/#clinical-assistant-professor-instructor-of-psychology": {
+      "school_id": 737,
+      "posting_url": "https://www.drury.edu/academic-affairs/open-faculty-positions/#clinical-assistant-professor-instructor-of-psychology",
+      "job_title_in_post": "Clinical Assistant Professor/Instructor of Psychology",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "Department of Behavioral Sciences",
+      "area_key_words": "Psychology",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 737,
   "status": "complete",
-  "updated_at": "2026-10-16T18:47:13+00:00",
-  "completed_at": "2026-10-16T18:47:13+00:00",
+  "updated_at": "2026-10-29T01:04:27+00:00",
+  "completed_at": "2026-10-29T01:04:27+00:00",
   "last_error": ""
 }

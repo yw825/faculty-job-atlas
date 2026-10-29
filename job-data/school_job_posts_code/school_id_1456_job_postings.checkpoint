@@ -1,20 +1,15 @@
 {
   "links": [
-    "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=0885b537-c9f5-47f8-aa4f-0ad7bbebf412&ccId=19000101_000001&jobId=9207170159761_1&lang=en_US",
-    "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=0885b537-c9f5-47f8-aa4f-0ad7bbebf412&ccId=19000101_000001&jobId=9206796490566_1&lang=en_US",
-    "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=0885b537-c9f5-47f8-aa4f-0ad7bbebf412&ccId=19000101_000001&jobId=9206752704643_1&lang=en_US",
-    "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=0885b537-c9f5-47f8-aa4f-0ad7bbebf412&ccId=19000101_000001&jobId=9206708040515_1&lang=en_US",
-    "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=0885b537-c9f5-47f8-aa4f-0ad7bbebf412&ccId=19000101_000001&jobId=9206312257038_1&lang=en_US",
-    "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=0885b537-c9f5-47f8-aa4f-0ad7bbebf412&ccId=19000101_000001&jobId=9206311565176_1&lang=en_US",
-    "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=0885b537-c9f5-47f8-aa4f-0ad7bbebf412&ccId=19000101_000001&jobId=9207218613637_1&lang=en_US",
-    "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=0885b537-c9f5-47f8-aa4f-0ad7bbebf412&ccId=19000101_000001&jobId=9207219282887_1&lang=en_US",
-    "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=0885b537-c9f5-47f8-aa4f-0ad7bbebf412&ccId=19000101_000001&jobId=9207219177684_1&lang=en_US",
-    "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=0885b537-c9f5-47f8-aa4f-0ad7bbebf412&ccId=19000101_000001&jobId=9207219124067_1&lang=en_US"
+    "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=0885b537-c9f5-47f8-aa4f-0ad7bbebf412&ccId=9200900703747_2&jobId=9207219177684_1&lang=en_US",
+    "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=0885b537-c9f5-47f8-aa4f-0ad7bbebf412&ccId=9200900703747_2&jobId=9207218613637_1&lang=en_US",
+    "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=0885b537-c9f5-47f8-aa4f-0ad7bbebf412&ccId=9200900703747_2&jobId=9206796490566_1&lang=en_US",
+    "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=0885b537-c9f5-47f8-aa4f-0ad7bbebf412&ccId=9200900703747_2&jobId=9206312257038_1&lang=en_US",
+    "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=0885b537-c9f5-47f8-aa4f-0ad7bbebf412&ccId=9200900703747_2&jobId=9206311565176_1&lang=en_US"
   ],
   "school_id": 1456,
-  "status": "error",
-  "updated_at": "2026-10-27T21:08:04+00:00",
+  "status": "complete",
+  "updated_at": "2026-10-28T21:38:22+00:00",
   "started_at": "2026-09-25T06:45:43+00:00",
-  "completed_at": "2026-10-05T19:51:30+00:00",
-  "last_error": "RuntimeError: no cid param in adp url"
+  "completed_at": "2026-10-28T21:38:22+00:00",
+  "last_error": ""
 }

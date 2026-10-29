@@ -27,6 +27,7 @@
       "department_or_school": "",
       "area_key_words": "Psychology",
       "deadline_of_application": "October 1, 2026",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://franciscan.edu/online-master-of-social-work-faculty-position/": {
@@ -44,11 +45,12 @@
       "school_id": 1068,
       "posting_url": "https://franciscan.edu/adjunct-instructor-of-sociology/",
       "job_title_in_post": "Adjunct Instructor of Sociology",
-      "position_type": "Unclassified",
+      "position_type": "Lecturer",
       "job_term": "Part-time",
       "department_or_school": "",
       "area_key_words": "Sociology",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://franciscan.edu/adjunct-professors-of-mathematics-physical-sciences/": {
@@ -65,7 +67,7 @@
   },
   "school_id": 1068,
   "status": "complete",
-  "updated_at": "2026-10-19T20:19:45+00:00",
-  "completed_at": "2026-10-19T20:19:45+00:00",
+  "updated_at": "2026-10-29T01:52:10+00:00",
+  "completed_at": "2026-10-29T01:52:10+00:00",
   "last_error": ""
 }

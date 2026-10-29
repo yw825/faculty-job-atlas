@@ -35,17 +35,19 @@
       "department_or_school": "School of Business",
       "area_key_words": "Business; peer-reviewed",
       "deadline_of_application": "October 15, 2026",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://fa-exad-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/341": {
       "school_id": 1008,
       "posting_url": "https://fa-exad-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/341",
       "job_title_in_post": "Evelyn L. Sprio School of Nursing - Associated Clinical Faculty of Practice",
-      "position_type": "Unclassified",
+      "position_type": "Lecturer",
       "job_term": "Full-time",
       "department_or_school": "School of Nursing",
       "area_key_words": "Nursing",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://fa-exad-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/345": {
@@ -57,6 +59,7 @@
       "department_or_school": "Department of Psychology",
       "area_key_words": "cognitive psychology",
       "deadline_of_application": "November 1, 2026",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://fa-exad-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/346": {
@@ -68,34 +71,37 @@
       "department_or_school": "",
       "area_key_words": "Criminal Justice System",
       "deadline_of_application": "November 1, 2026",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://fa-exad-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/334": {
       "school_id": 1008,
       "posting_url": "https://fa-exad-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/334",
       "job_title_in_post": "Humanities - History - Adjunct Faculty",
-      "position_type": "Unclassified",
+      "position_type": "Lecturer",
       "job_term": "Part-time",
       "department_or_school": "Department of History",
       "area_key_words": "Global History African American History",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://fa-exad-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/269": {
       "school_id": 1008,
       "posting_url": "https://fa-exad-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/269",
       "job_title_in_post": "Physician Assistant Program - Research Coordinator",
-      "position_type": "Non-academic",
+      "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     }
   },
   "school_id": 1008,
   "status": "complete",
-  "updated_at": "2026-10-19T17:34:30+00:00",
-  "completed_at": "2026-10-19T17:34:30+00:00",
+  "updated_at": "2026-10-29T01:45:20+00:00",
+  "completed_at": "2026-10-29T01:45:20+00:00",
   "last_error": ""
 }

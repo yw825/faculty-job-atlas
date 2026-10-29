@@ -31,6 +31,7 @@
       "department_or_school": "",
       "area_key_words": "Mathematics",
       "deadline_of_application": "October 30, 2026",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.austincollege.edu/details/~board/jobs/post/assistant-professor-of-kinesiology": {
@@ -42,17 +43,19 @@
       "department_or_school": "",
       "area_key_words": "Kinesiology; those pursuing graduate study",
       "deadline_of_application": "October 9, 2026",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.austincollege.edu/details/~board/jobs/post/assistant-or-associate-professor-of-philosophy": {
       "school_id": 1432,
       "posting_url": "https://www.austincollege.edu/details/~board/jobs/post/assistant-or-associate-professor-of-philosophy",
       "job_title_in_post": "Assistant or Associate Professor of Philosophy",
-      "position_type": "Assistant_Professor; Associate_Professor",
+      "position_type": "Associate_Professor",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "Philosophy; spring",
       "deadline_of_application": "September 25, 2026",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.austincollege.edu/details/~board/jobs/post/assistant-professor-of-biology-ecology-and-evolutionary-biology": {
@@ -63,7 +66,8 @@
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "Biology",
-      "deadline_of_application": "",
+      "deadline_of_application": "September 18, 2026",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.austincollege.edu/details/~board/jobs/post/assistant-professor-engineering": {
@@ -75,12 +79,13 @@
       "department_or_school": "",
       "area_key_words": "Engineering",
       "deadline_of_application": "October 19, 2026",
+      "posted_date": "",
       "position_start_date": ""
     }
   },
   "school_id": 1432,
   "status": "complete",
-  "updated_at": "2026-10-21T00:13:29+00:00",
-  "completed_at": "2026-10-21T00:13:29+00:00",
+  "updated_at": "2026-10-29T02:31:37+00:00",
+  "completed_at": "2026-10-29T02:31:37+00:00",
   "last_error": ""
 }

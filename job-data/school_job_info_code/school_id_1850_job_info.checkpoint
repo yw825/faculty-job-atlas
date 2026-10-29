@@ -19,6 +19,14 @@
     "https://earth.ipm.edu.mo/store/uploads/recruitment/notification/869d3-2526-fcsd-010_notice-for-full-time-academic-staff-recruitment.pdf": {
       "title": "Recruitment of 2 Full-time Associate Professors (area of Physical Education and Science in Sports) (2526-FCSD-010)",
       "description": " "
+    },
+    "https://earth.ipm.edu.mo/store/uploads/recruitment/notification/4cee5-2627-fca-002_notice-for-full-time-academic-staff-recruitment.pdf": {
+      "title": "Recruitment of 6 Full-time Associate Professors (area of Smart Transportation and Cities) (2627-FCA-002)",
+      "description": " "
+    },
+    "https://earth.ipm.edu.mo/store/uploads/recruitment/notification/2373d-2627fca001_notice-for-full-time-academic-staff-recruitment_en.pdf": {
+      "title": "Recruitment of 6 Full-time Associate Professors (area of Advanced Manufacturing and Robotics) (2627-FCA-001)",
+      "description": " "
     }
   },
   "rows": {
@@ -81,11 +89,35 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://earth.ipm.edu.mo/store/uploads/recruitment/notification/4cee5-2627-fca-002_notice-for-full-time-academic-staff-recruitment.pdf": {
+      "school_id": 1850,
+      "posting_url": "https://earth.ipm.edu.mo/store/uploads/recruitment/notification/4cee5-2627-fca-002_notice-for-full-time-academic-staff-recruitment.pdf",
+      "job_title_in_post": "Recruitment of 6 Full-time Associate Professors (area of Smart Transportation and Cities) (2627-FCA-002)",
+      "position_type": "Associate_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://earth.ipm.edu.mo/store/uploads/recruitment/notification/2373d-2627fca001_notice-for-full-time-academic-staff-recruitment_en.pdf": {
+      "school_id": 1850,
+      "posting_url": "https://earth.ipm.edu.mo/store/uploads/recruitment/notification/2373d-2627fca001_notice-for-full-time-academic-staff-recruitment_en.pdf",
+      "job_title_in_post": "Recruitment of 6 Full-time Associate Professors (area of Advanced Manufacturing and Robotics) (2627-FCA-001)",
+      "position_type": "Associate_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1850,
   "status": "complete",
-  "updated_at": "2026-10-28T00:17:17+00:00",
-  "completed_at": "2026-10-28T00:17:17+00:00",
+  "updated_at": "2026-10-29T03:46:10+00:00",
+  "completed_at": "2026-10-29T03:46:10+00:00",
   "last_error": ""
 }

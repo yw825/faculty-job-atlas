@@ -63,6 +63,7 @@
       "department_or_school": "Center for the Arts",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://cottey.edu/wp-content/uploads/2026/09/Assistant-Professor-of-Psychology-2026-Updated.pdf": {
@@ -74,6 +75,7 @@
       "department_or_school": "faculty of color, and international faculty",
       "area_key_words": "Psychology; Sports",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://cottey.edu/wp-content/uploads/2026/09/Assistant-Professor-in-Business.pdf": {
@@ -85,6 +87,7 @@
       "department_or_school": "college for women, invites",
       "area_key_words": "Business Administration; Entrepreneurship",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://cottey.edu/wp-content/uploads/2026/08/biology-ad-fall-2026.pdf": {
@@ -96,6 +99,7 @@
       "department_or_school": "faculty of color, and international faculty",
       "area_key_words": "Anatomy",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.hralliance.net/Apply/JobInfo.aspx?positionId=46060&locationId=12832": {
@@ -113,11 +117,12 @@
       "school_id": 723,
       "posting_url": "https://www.hralliance.net/Apply/JobInfo.aspx?positionId=48764&locationId=12832",
       "job_title_in_post": "Business office Clerk or coordinator",
-      "position_type": "Non-academic",
+      "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.hralliance.net/Apply/JobInfo.aspx?positionId=48673&locationId=12832": {
@@ -129,6 +134,7 @@
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.hralliance.net/Apply/JobInfo.aspx?positionId=48832&locationId=12832": {
@@ -140,6 +146,7 @@
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.hralliance.net/Apply/JobInfo.aspx?positionId=43716&locationId=12832": {
@@ -151,28 +158,31 @@
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.hralliance.net/Apply/JobInfo.aspx?positionId=48669&locationId=12832": {
       "school_id": 723,
       "posting_url": "https://www.hralliance.net/Apply/JobInfo.aspx?positionId=48669&locationId=12832",
       "job_title_in_post": "Head Women’s Bowling Coach/Athletic Event Coordinator",
-      "position_type": "Non-academic",
+      "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://cottey.edu/wp-content/uploads/2026/06/2026-27-Cottey-College-Benefits-Guide-FINAL.pdf": {
       "school_id": 723,
       "posting_url": "https://cottey.edu/wp-content/uploads/2026/06/2026-27-Cottey-College-Benefits-Guide-FINAL.pdf",
       "job_title_in_post": "COTTEY COLLEGE",
-      "position_type": "Non-academic",
+      "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://cottey.edu/wp-content/uploads/2026/08/Administrative-Manual-2026.pdf": {
@@ -184,6 +194,7 @@
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://cottey.edu/wp-content/uploads/2026/08/Hourly-Manual-2026.pdf": {
@@ -195,12 +206,13 @@
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     }
   },
   "school_id": 723,
   "status": "complete",
-  "updated_at": "2026-10-16T18:47:07+00:00",
-  "completed_at": "2026-10-16T18:47:07+00:00",
+  "updated_at": "2026-10-29T01:03:11+00:00",
+  "completed_at": "2026-10-29T01:03:11+00:00",
   "last_error": ""
 }

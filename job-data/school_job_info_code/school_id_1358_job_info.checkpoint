@@ -26,11 +26,12 @@
       "school_id": 1358,
       "posting_url": "https://www.schooljobs.com/careers/sewanee/jobs/5436981/tenure-track-faculty-mathematics-and-computer-science",
       "job_title_in_post": "Tenure-Track Faculty, Mathematics and Computer Science",
-      "position_type": "Unclassified",
+      "position_type": "Assistant_Professor; Associate_Professor; Full_Professor",
       "job_term": "Full-time",
       "department_or_school": "Department of Mathematics and Computer Science",
       "area_key_words": "Mathematics and Computer Science",
-      "deadline_of_application": "October 15, 2026",
+      "deadline_of_application": "",
+      "posted_date": "08/05/2026",
       "position_start_date": "August 19, 2025"
     },
     "https://www.schooljobs.com/careers/sewanee/jobs/5449661/assistant-professor-in-integrative-biology": {
@@ -42,6 +43,7 @@
       "department_or_school": "Department of Biology",
       "area_key_words": "Integrative Biology",
       "deadline_of_application": "October 1, 2026",
+      "posted_date": "08/14/2026",
       "position_start_date": "August 19, 2025"
     },
     "https://www.schooljobs.com/careers/sewanee/jobs/5467226/tenure-track-faculty-assistant-professor-in-physics": {
@@ -52,7 +54,8 @@
       "job_term": "Full-time",
       "department_or_school": "Department of Physics",
       "area_key_words": "Physics; lecture",
-      "deadline_of_application": "July 1, 2027",
+      "deadline_of_application": "October 1, 2026",
+      "posted_date": "08/31/2026",
       "position_start_date": "August 19, 2025"
     },
     "https://www.schooljobs.com/careers/sewanee/jobs/5468907/tenure-track-assistant-professor-in-environmental-humanities": {
@@ -63,7 +66,8 @@
       "job_term": "Full-time",
       "department_or_school": "College of Arts and Sciences and a School of Theology",
       "area_key_words": "Environmental Humanities; Environment includes",
-      "deadline_of_application": "October 1, 2026",
+      "deadline_of_application": "",
+      "posted_date": "09/01/2026",
       "position_start_date": "August 19, 2025"
     },
     "https://www.schooljobs.com/careers/sewanee/jobs/5506281/tenure-track-assistant-professor-of-art-photography-and-video-arts": {
@@ -75,12 +79,13 @@
       "department_or_school": "Department of Art",
       "area_key_words": "Art- Photography and Video Arts; exhibitions",
       "deadline_of_application": "November 30, 2026",
+      "posted_date": "10/06/2026",
       "position_start_date": "July 1, 2027"
     }
   },
   "school_id": 1358,
   "status": "complete",
-  "updated_at": "2026-10-21T00:06:49+00:00",
-  "completed_at": "2026-10-21T00:06:49+00:00",
+  "updated_at": "2026-10-29T02:27:37+00:00",
+  "completed_at": "2026-10-29T02:27:37+00:00",
   "last_error": ""
 }

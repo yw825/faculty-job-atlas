@@ -294,12 +294,18 @@
     "https://careers.msu.edu/jobs/inst-ast-prof-fixed-term-east-lansing-michigan-united-states-e517a158-9481-4a0d-b8d0-c8a9c43489df",
     "https://careers.msu.edu/jobs/co-director-management-east-lansing-michigan-united-states",
     "https://careers.msu.edu/jobs/research-associate-fixed-term-east-lansing-michigan-united-states-6d86febb-aaa0-4501-a911-349f8da03834",
-    "https://careers.msu.edu/jobs/research-associate-fixed-term-east-lansing-michigan-united-states-c26eae52-0774-4b83-8509-ffaf91cdaf7c"
+    "https://careers.msu.edu/jobs/research-associate-fixed-term-east-lansing-michigan-united-states-c26eae52-0774-4b83-8509-ffaf91cdaf7c",
+    "https://careers.msu.edu/jobs/specialist-outreach-continuing-east-lansing-michigan-united-states-dbad82d9-401e-4a77-9a13-83ed8445a6ea",
+    "https://careers.msu.edu/jobs/specialist-teacher-fixed-term-east-lansing-michigan-united-states-7fe2e02d-3266-436c-9bce-21d2fe1e7391",
+    "https://careers.msu.edu/jobs/postdoctoral-scholar-fixed-term-east-lansing-michigan-united-states-4729a3a1-eb36-4cb1-9f1b-39206240ddf5",
+    "https://careers.msu.edu/jobs/assistant-professor-tenure-system-east-lansing-michigan-united-states-aadbcf96-c803-467b-8953-4ff8db8eefcf",
+    "https://careers.msu.edu/jobs/postdoctoral-scholar-fixed-term-east-lansing-michigan-united-states-b4b85519-d427-456e-a3fb-ad3045704681"
   ],
   "school_id": 637,
   "status": "complete",
-  "updated_at": "2026-10-27T18:32:56+00:00",
+  "updated_at": "2026-10-28T18:53:00+00:00",
   "started_at": "2026-09-08T02:05:10+00:00",
-  "completed_at": "2026-10-27T18:32:56+00:00",
-  "last_error": ""
+  "completed_at": "2026-10-28T18:53:00+00:00",
+  "last_error": "",
+  "last_warning": "2026-10-28T18:53:00+00:00: board returned 90 links vs 295 before; old set kept"
 }

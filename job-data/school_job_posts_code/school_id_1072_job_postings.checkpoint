@@ -186,12 +186,16 @@
     "https://careers.utoledo.edu/jobs/radiation-therapist-1-health-science-campus-hospital-toledo-oh-ohio-united-states-14d47e09-5745-4992-8ce9-a703bb795084",
     "https://careers.utoledo.edu/jobs/assistant-professor-department-of-microbiology-amp-immunology-health-science-campus-college-toledo-oh-ohio-united-states",
     "https://careers.utoledo.edu/jobs/patient-registration-specialist-staffing-pool-health-science-campus-hospital-toledo-oh-ohio-united-states",
-    "https://careers.utoledo.edu/jobs/chair-and-professor-department-of-obstetrics-gynecology-health-science-campus-college-toledo-oh-ohio-united-states"
+    "https://careers.utoledo.edu/jobs/chair-and-professor-department-of-obstetrics-gynecology-health-science-campus-college-toledo-oh-ohio-united-states",
+    "https://careers.utoledo.edu/jobs/executive-assistant-ii-main-campus-administration-toledo-oh-ohio-united-states",
+    "https://careers.utoledo.edu/jobs/assistant-associate-or-full-professor-department-of-surgery-plastic-surgeon-health-science-campus-college-toledo-oh-ohio-united-states",
+    "https://careers.utoledo.edu/jobs/staff-nurse-ops-pacu-health-science-campus-hospital-toledo-oh-ohio-united-states-033205a9-0503-4f80-8cf1-2d89511ea917"
   ],
   "school_id": 1072,
   "status": "complete",
-  "updated_at": "2026-10-27T20:18:21+00:00",
+  "updated_at": "2026-10-28T20:47:54+00:00",
   "started_at": "2026-09-08T02:41:23+00:00",
-  "completed_at": "2026-10-27T20:18:21+00:00",
-  "last_error": ""
+  "completed_at": "2026-10-28T20:47:54+00:00",
+  "last_error": "",
+  "last_warning": "2026-10-28T20:47:54+00:00: board returned 30 links vs 187 before; old set kept"
 }

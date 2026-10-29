@@ -39,6 +39,7 @@
       "department_or_school": "",
       "area_key_words": "Tutoring Services",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.paycomonline.net/v4/ats/web.php/portal/0AFB6B93B59D609A2037FAB5547D9B02/jobs/32235": {
@@ -50,6 +51,7 @@
       "department_or_school": "College of New York",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.paycomonline.net/v4/ats/web.php/portal/0AFB6B93B59D609A2037FAB5547D9B02/jobs/32228": {
@@ -61,6 +63,7 @@
       "department_or_school": "College of New York",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.paycomonline.net/v4/ats/web.php/portal/0AFB6B93B59D609A2037FAB5547D9B02/jobs/32221": {
@@ -72,6 +75,7 @@
       "department_or_school": "",
       "area_key_words": "Academic Affairs & Dean of Faculty",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.paycomonline.net/v4/ats/web.php/portal/0AFB6B93B59D609A2037FAB5547D9B02/jobs/31032": {
@@ -83,6 +87,7 @@
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.paycomonline.net/v4/ats/web.php/portal/0AFB6B93B59D609A2037FAB5547D9B02/jobs/30220": {
@@ -94,23 +99,25 @@
       "department_or_school": "College of New York",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.paycomonline.net/v4/ats/web.php/portal/0AFB6B93B59D609A2037FAB5547D9B02/jobs/28734": {
       "school_id": 969,
       "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/0AFB6B93B59D609A2037FAB5547D9B02/jobs/28734",
       "job_title_in_post": "Adjunct",
-      "position_type": "Unclassified",
+      "position_type": "Lecturer",
       "job_term": "Part-time",
       "department_or_school": "College of New York",
       "area_key_words": "practical project managing experience",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     }
   },
   "school_id": 969,
   "status": "complete",
-  "updated_at": "2026-10-19T17:28:46+00:00",
-  "completed_at": "2026-10-19T17:28:46+00:00",
+  "updated_at": "2026-10-29T01:41:16+00:00",
+  "completed_at": "2026-10-29T01:41:16+00:00",
   "last_error": ""
 }

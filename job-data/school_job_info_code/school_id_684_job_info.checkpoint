@@ -1,9 +1,45 @@
 {
-  "raw": {},
-  "rows": {},
+  "raw": {
+    "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=376675&PostingSeq=1": {
+      "title": "Tenure-Track Assistant Professor of Elementary Education",
+      "description": "Posted: 10/20/2026 Location: Morris Department: M Elementary Education Tenure-Track Assistant Professor of Elementary Education",
+      "department": "M Elementary Education"
+    },
+    "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=376659&PostingSeq=1": {
+      "title": "Tenure-Track, Assistant Professor of Statistics and Data Science - Morris, MN",
+      "description": "Posted: 10/20/2026 Location: Morris Department: M Statistics Tenure-Track, Assistant Professor of Statistics and Data Science - Morris, MN",
+      "department": "M Statistics"
+    }
+  },
+  "rows": {
+    "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=376675&PostingSeq=1": {
+      "school_id": 684,
+      "posting_url": "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=376675&PostingSeq=1",
+      "job_title_in_post": "Tenure-Track Assistant Professor of Elementary Education",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "M Elementary Education",
+      "area_key_words": "Elementary Education",
+      "deadline_of_application": "",
+      "posted_date": "10/20/2026",
+      "position_start_date": ""
+    },
+    "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=376659&PostingSeq=1": {
+      "school_id": 684,
+      "posting_url": "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=376659&PostingSeq=1",
+      "job_title_in_post": "Tenure-Track, Assistant Professor of Statistics and Data Science - Morris, MN",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "M Statistics",
+      "area_key_words": "Statistics and Data Science",
+      "deadline_of_application": "",
+      "posted_date": "10/20/2026",
+      "position_start_date": ""
+    }
+  },
   "school_id": 684,
   "status": "complete",
-  "updated_at": "2026-10-16T18:47:08+00:00",
-  "completed_at": "2026-10-16T18:47:08+00:00",
+  "updated_at": "2026-10-29T00:58:27+00:00",
+  "completed_at": "2026-10-29T00:58:27+00:00",
   "last_error": ""
 }

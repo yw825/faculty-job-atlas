@@ -43,17 +43,19 @@
       "department_or_school": "Department of Economics and Business",
       "area_key_words": "Economics and Business",
       "deadline_of_application": "November 16, 2026",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.randolphcollege.edu/humanresources/faculty-searches/visiting-assistant-professor-of-art-studio-art/": {
       "school_id": 1477,
       "posting_url": "https://www.randolphcollege.edu/humanresources/faculty-searches/visiting-assistant-professor-of-art-studio-art/",
       "job_title_in_post": "Visiting Assistant Professor of Art-Studio Art",
-      "position_type": "Assistant_Professor",
+      "position_type": "Lecturer",
       "job_term": "Full-time",
       "department_or_school": "Department of Art and Art History",
       "area_key_words": "Art-Studio Art; Fall",
       "deadline_of_application": "November 8, 2026",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.randolphcollege.edu/humanresources/faculty-searches/4077/": {
@@ -64,7 +66,8 @@
       "job_term": "Full-time",
       "department_or_school": "Department of Biological Sciences",
       "area_key_words": "Biology; animal physiology; animal nutrition; Anatomy",
-      "deadline_of_application": "",
+      "deadline_of_application": "November 2, 2026",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.randolphcollege.edu/humanresources/faculty-searches/assistant-professor-of-education-generalist/": {
@@ -75,7 +78,8 @@
       "job_term": "Full-time",
       "department_or_school": "center of Virginia,",
       "area_key_words": "Education; evidence-based reading instruction",
-      "deadline_of_application": "",
+      "deadline_of_application": "October 16, 2026",
+      "posted_date": "",
       "position_start_date": "July 1, 2027"
     },
     "https://www.randolphcollege.edu/humanresources/faculty-searches/assistant-professor-of-education-special-education/": {
@@ -86,7 +90,8 @@
       "job_term": "Full-time",
       "department_or_school": "center of Virginia,",
       "area_key_words": "Education; Instructional Approaches",
-      "deadline_of_application": "",
+      "deadline_of_application": "October 16, 2026",
+      "posted_date": "",
       "position_start_date": "July 1, 2027"
     },
     "https://www.randolphcollege.edu/humanresources/faculty-searches/assistant-professor-of-engineering/": {
@@ -98,6 +103,7 @@
       "department_or_school": "",
       "area_key_words": "Engineering",
       "deadline_of_application": "December 1, 2026",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.randolphcollege.edu/humanresources/faculty-searches/assistant-professor-of-psychology/": {
@@ -108,7 +114,8 @@
       "job_term": "Full-time",
       "department_or_school": "Department of Psychological and Cognitive Sciences",
       "area_key_words": "Psychology; quantitative research methodologies; regular teaching rotation",
-      "deadline_of_application": "",
+      "deadline_of_application": "November 30, 2026",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.randolphcollege.edu/humanresources/faculty-searches/3723/": {
@@ -120,12 +127,13 @@
       "department_or_school": "",
       "area_key_words": "Sport and Exercise Studies; Exercise Studies major",
       "deadline_of_application": "December 5, 2026",
+      "posted_date": "",
       "position_start_date": ""
     }
   },
   "school_id": 1477,
   "status": "complete",
-  "updated_at": "2026-10-21T18:55:12+00:00",
-  "completed_at": "2026-10-21T18:55:12+00:00",
+  "updated_at": "2026-10-29T02:36:41+00:00",
+  "completed_at": "2026-10-29T02:36:41+00:00",
   "last_error": ""
 }

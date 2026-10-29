@@ -1,6 +1,6 @@
 {
   "links": [
-    "https://phx.us-west.paycomonline.net/v4/ats/web.php/portal/9458F32E9190B17D00CF93BCC3CDE534/jobs/35457",
+    "https://phx.us-west.paycomonline.net/v4/ats/web.php/portal/9458F32E9190B17D00CF93BCC3CDE534/jobs/45022",
     "https://phx.us-west.paycomonline.net/v4/ats/web.php/portal/9458F32E9190B17D00CF93BCC3CDE534/jobs/30073",
     "https://phx.us-west.paycomonline.net/v4/ats/web.php/portal/9458F32E9190B17D00CF93BCC3CDE534/jobs/40191",
     "https://phx.us-west.paycomonline.net/v4/ats/web.php/portal/9458F32E9190B17D00CF93BCC3CDE534/jobs/37410",
@@ -8,9 +8,9 @@
     "https://phx.us-west.paycomonline.net/v4/ats/web.php/portal/9458F32E9190B17D00CF93BCC3CDE534/jobs/5213"
   ],
   "school_id": 193,
-  "status": "error",
-  "updated_at": "2026-10-27T17:24:27+00:00",
+  "status": "complete",
+  "updated_at": "2026-10-28T18:14:31+00:00",
   "started_at": "2026-09-08T01:23:18+00:00",
-  "completed_at": "2026-10-16T18:12:41+00:00",
-  "last_error": "RuntimeError: paycom portal made no job search request"
+  "completed_at": "2026-10-28T18:14:31+00:00",
+  "last_error": ""
 }

@@ -1369,6 +1369,16 @@
       "title": "Peer Student Academic Coach - Federal Work Study",
       "description": "Posted: 06/01/2026 Location: UNG - Gainesville Department: College Work Study-Grant Peer Student Academic Coach - Federal Work Study",
       "department": "College Work Study-Grant"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305412&PostingSeq=1&SiteId=53000": {
+      "title": "Chemistry/Biochemistry Lab Assistant (TA)- Institutional Student Worker",
+      "description": "Posted: 10/27/2026 Location: UNG-Dahlonega, GA Department: Chemistry & Biochemistry Chemistry/Biochemistry Lab Assistant (TA)- Institutional Student Worker",
+      "department": "Chemistry & Biochemistry"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305414&PostingSeq=1&SiteId=53000": {
+      "title": "Student Facility Staff- Insitutional Student Worker",
+      "description": "Posted: 10/27/2026 Location: UNG-Dahlonega, GA Department: Rec Sports Facilities Student Facility Staff- Insitutional Student Worker",
+      "department": "Rec Sports Facilities"
     }
   },
   "rows": {
@@ -4644,11 +4654,35 @@
       "deadline_of_application": "",
       "posted_date": "06/01/2026",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305412&PostingSeq=1&SiteId=53000": {
+      "school_id": 289,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305412&PostingSeq=1&SiteId=53000",
+      "job_title_in_post": "Chemistry/Biochemistry Lab Assistant (TA)- Institutional Student Worker",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Chemistry & Biochemistry",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "10/27/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305414&PostingSeq=1&SiteId=53000": {
+      "school_id": 289,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305414&PostingSeq=1&SiteId=53000",
+      "job_title_in_post": "Student Facility Staff- Insitutional Student Worker",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Rec Sports Facilities",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "10/27/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 289,
   "status": "complete",
-  "updated_at": "2026-10-27T00:09:13+00:00",
-  "completed_at": "2026-10-27T00:09:13+00:00",
+  "updated_at": "2026-10-29T00:01:12+00:00",
+  "completed_at": "2026-10-29T00:01:12+00:00",
   "last_error": ""
 }

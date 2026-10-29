@@ -42,11 +42,12 @@
       "school_id": 1960,
       "posting_url": "https://jobs.okstate.edu/jobs/clinical-assistant-professor-emergency-medicine-tulsa-oklahoma-united-states-6d58367b-80b0-49d1-95ce-3246328d7fd4",
       "job_title_in_post": "Clinical Assistant Professor - Emergency Medicine",
-      "position_type": "Assistant_Professor",
+      "position_type": "Lecturer",
       "job_term": "Full-time",
       "department_or_school": "CENTER FOR HEALTH SCIENCES",
       "area_key_words": "Emergency Medicine",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://jobs.okstate.edu/jobs/assistant-associate-professor-210218-tulsa-oklahoma-united-states": {
@@ -58,17 +59,19 @@
       "department_or_school": "CENTER FOR HEALTH SCIENCES",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://jobs.okstate.edu/jobs/clinical-assistant-professor-psychologist-gf1739-tulsa-oklahoma-united-states": {
       "school_id": 1960,
       "posting_url": "https://jobs.okstate.edu/jobs/clinical-assistant-professor-psychologist-gf1739-tulsa-oklahoma-united-states",
       "job_title_in_post": "Clinical Assistant Professor – Psychologist GF1739",
-      "position_type": "Assistant_Professor",
+      "position_type": "Lecturer",
       "job_term": "Full-time",
       "department_or_school": "CENTER FOR HEALTH SCIENCES",
       "area_key_words": "Psychologist GF1739",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://jobs.okstate.edu/jobs/post-doctoral-fellowship-gf1740-tulsa-oklahoma-united-states": {
@@ -80,28 +83,31 @@
       "department_or_school": "CENTER FOR HEALTH SCIENCES",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://jobs.okstate.edu/jobs/clinical-assistant-professor-pediatrics-hospitalist-210922-tulsa-oklahoma-united-states": {
       "school_id": 1960,
       "posting_url": "https://jobs.okstate.edu/jobs/clinical-assistant-professor-pediatrics-hospitalist-210922-tulsa-oklahoma-united-states",
       "job_title_in_post": "Clinical Assistant Professor-Pediatrics Hospitalist 210922",
-      "position_type": "Assistant_Professor",
+      "position_type": "Lecturer",
       "job_term": "Full-time",
       "department_or_school": "CENTER FOR HEALTH SCIENCES",
       "area_key_words": "medical students",
-      "deadline_of_application": "",
+      "deadline_of_application": "2026-08-14",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://jobs.okstate.edu/jobs/clinical-assistant-associate-professor-gf9902-tulsa-oklahoma-united-states": {
       "school_id": 1960,
       "posting_url": "https://jobs.okstate.edu/jobs/clinical-assistant-associate-professor-gf9902-tulsa-oklahoma-united-states",
       "job_title_in_post": "Clinical Assistant/Associate Professor GF9902",
-      "position_type": "Assistant_Professor; Associate_Professor",
+      "position_type": "Lecturer",
       "job_term": "Full-time",
       "department_or_school": "CENTER FOR HEALTH SCIENCES",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://jobs.okstate.edu/jobs/clinical-assistant-professor-emergency-medicine-tulsa-oklahoma-united-states": {
@@ -119,11 +125,12 @@
       "school_id": 1960,
       "posting_url": "https://jobs.okstate.edu/jobs/clinical-assistant-professor-psychiatry-inpatient-tulsa-oklahoma-united-states",
       "job_title_in_post": "Clinical Assistant Professor Psychiatry - Inpatient",
-      "position_type": "Assistant_Professor",
+      "position_type": "Lecturer",
       "job_term": "Full-time",
       "department_or_school": "CENTER FOR HEALTH SCIENCES",
       "area_key_words": "Inpatient; Experience All positions",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://jobs.okstate.edu/jobs/postdoctoral-fellowship-gf1744-tulsa-oklahoma-united-states": {
@@ -140,7 +147,7 @@
   },
   "school_id": 1960,
   "status": "complete",
-  "updated_at": "2026-10-19T20:35:54+00:00",
-  "completed_at": "2026-10-19T20:35:54+00:00",
+  "updated_at": "2026-10-29T02:53:41+00:00",
+  "completed_at": "2026-10-29T02:53:41+00:00",
   "last_error": ""
 }

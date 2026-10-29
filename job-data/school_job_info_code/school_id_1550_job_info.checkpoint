@@ -50,6 +50,7 @@
       "department_or_school": "School of Engineering",
       "area_key_words": "Engineering",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.msoe.edu/about-msoe/careers-at-msoe/faculty-positions/": {
@@ -89,28 +90,30 @@
       "school_id": 1550,
       "posting_url": "https://www.msoe.edu/faculty-staff/",
       "job_title_in_post": "Faculty & Staff",
-      "position_type": "Unclassified",
+      "position_type": "Assistant_Professor; Associate_Professor; Full_Professor",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.msoe.edu/campus-experience/dean-of-students/": {
       "school_id": 1550,
       "posting_url": "https://www.msoe.edu/campus-experience/dean-of-students/",
       "job_title_in_post": "Dean of Students Office",
-      "position_type": "Non-academic",
+      "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     }
   },
   "school_id": 1550,
   "status": "complete",
-  "updated_at": "2026-10-21T18:59:30+00:00",
-  "completed_at": "2026-10-21T18:59:30+00:00",
+  "updated_at": "2026-10-29T02:41:57+00:00",
+  "completed_at": "2026-10-29T02:41:57+00:00",
   "last_error": ""
 }

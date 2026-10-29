@@ -30,22 +30,24 @@
       "school_id": 522,
       "posting_url": "https://uhcno.edu/hr/jobs/adjunct-instructor-physics.php",
       "job_title_in_post": "Adjunct Instructor - Physics",
-      "position_type": "Unclassified",
+      "position_type": "Lecturer",
       "job_term": "Part-time",
       "department_or_school": "",
       "area_key_words": "Physics",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://uhcno.edu/hr/jobs/adjunct-instructor-genetics.php": {
       "school_id": 522,
       "posting_url": "https://uhcno.edu/hr/jobs/adjunct-instructor-genetics.php",
       "job_title_in_post": "Adjunct Instructor - Genetics",
-      "position_type": "Unclassified",
+      "position_type": "Lecturer",
       "job_term": "Part-time",
       "department_or_school": "",
       "area_key_words": "Genetics",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://uhcno.edu/hr/jobs/maintenance-staff.php": {
@@ -57,45 +59,49 @@
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://uhcno.edu/hr/jobs/director-facilities-campus-operations.php": {
       "school_id": 522,
       "posting_url": "https://uhcno.edu/hr/jobs/director-facilities-campus-operations.php",
       "job_title_in_post": "Director of Facilities & Campus Operations",
-      "position_type": "Non-academic",
+      "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "Facilities & Campus Operations",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://uhcno.edu/hr/jobs/nursing-faculty.php": {
       "school_id": 522,
       "posting_url": "https://uhcno.edu/hr/jobs/nursing-faculty.php",
       "job_title_in_post": "Nursing Faculty – Full-Time and Part-Time Positions",
-      "position_type": "Unclassified",
+      "position_type": "Lecturer",
       "job_term": "Part-time",
       "department_or_school": "Department of Nursing",
       "area_key_words": "Nursing",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://uhcno.edu/hr/jobs/adjunct-instructor-accounting.php": {
       "school_id": 522,
       "posting_url": "https://uhcno.edu/hr/jobs/adjunct-instructor-accounting.php",
       "job_title_in_post": "Adjunct Instructor - Accounting",
-      "position_type": "Unclassified",
+      "position_type": "Lecturer",
       "job_term": "Part-time",
       "department_or_school": "Department of Business Administration",
       "area_key_words": "Accounting",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     }
   },
   "school_id": 522,
   "status": "complete",
-  "updated_at": "2026-10-16T18:44:02+00:00",
-  "completed_at": "2026-10-16T18:44:02+00:00",
+  "updated_at": "2026-10-29T00:33:59+00:00",
+  "completed_at": "2026-10-29T00:33:59+00:00",
   "last_error": ""
 }

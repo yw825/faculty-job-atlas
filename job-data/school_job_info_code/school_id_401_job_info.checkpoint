@@ -75,6 +75,7 @@
       "department_or_school": "School of Humanities and Civic Engagement",
       "area_key_words": "Catullus",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.monmouthcollege.edu/offices/hr/employment-opportunities/#tenure-track-assistant-professor-of-exercise-science": {
@@ -86,6 +87,7 @@
       "department_or_school": "",
       "area_key_words": "Exercise Science",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.monmouthcollege.edu/offices/hr/employment-opportunities/#tenure-track-political-science-professor": {
@@ -97,72 +99,79 @@
       "department_or_school": "",
       "area_key_words": "Political Science",
       "deadline_of_application": "September 15, 2026",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.monmouthcollege.edu/offices/hr/employment-opportunities/#part-time-adjunct-religious-studies": {
       "school_id": 401,
       "posting_url": "https://www.monmouthcollege.edu/offices/hr/employment-opportunities/#part-time-adjunct-religious-studies",
       "job_title_in_post": "Part-Time Adjunct - Religious Studies",
-      "position_type": "Unclassified",
+      "position_type": "Lecturer",
       "job_term": "Part-time",
       "department_or_school": "School of Humanities and Civic Engagement",
       "area_key_words": "Religious Studies",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.monmouthcollege.edu/offices/hr/employment-opportunities/#part-time-adjunct-biology": {
       "school_id": 401,
       "posting_url": "https://www.monmouthcollege.edu/offices/hr/employment-opportunities/#part-time-adjunct-biology",
       "job_title_in_post": "Part-Time Adjunct - Biology",
-      "position_type": "Unclassified",
+      "position_type": "Lecturer",
       "job_term": "Part-time",
       "department_or_school": "School of Health and Natural Sciences",
       "area_key_words": "Biology",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.monmouthcollege.edu/offices/hr/employment-opportunities/#part-time-adjunct-history": {
       "school_id": 401,
       "posting_url": "https://www.monmouthcollege.edu/offices/hr/employment-opportunities/#part-time-adjunct-history",
       "job_title_in_post": "Part-Time Adjunct - History",
-      "position_type": "Unclassified",
+      "position_type": "Lecturer",
       "job_term": "Part-time",
       "department_or_school": "School of Humanities and Civic Engagement",
       "area_key_words": "History",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.monmouthcollege.edu/offices/hr/employment-opportunities/#part-time-adjunct-philosophy": {
       "school_id": 401,
       "posting_url": "https://www.monmouthcollege.edu/offices/hr/employment-opportunities/#part-time-adjunct-philosophy",
       "job_title_in_post": "Part-Time Adjunct - Philosophy",
-      "position_type": "Unclassified",
+      "position_type": "Lecturer",
       "job_term": "Part-time",
       "department_or_school": "School of Humanities and Civic Engagement",
       "area_key_words": "Philosophy",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.monmouthcollege.edu/offices/hr/employment-opportunities/#part-time-adjunct-sociology": {
       "school_id": 401,
       "posting_url": "https://www.monmouthcollege.edu/offices/hr/employment-opportunities/#part-time-adjunct-sociology",
       "job_title_in_post": "Part-Time Adjunct - Sociology",
-      "position_type": "Unclassified",
+      "position_type": "Lecturer",
       "job_term": "Part-time",
       "department_or_school": "School of Education and Human Development",
       "area_key_words": "Sociology",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.monmouthcollege.edu/offices/hr/employment-opportunities/#preservice-teacher-education-generalist-position": {
       "school_id": 401,
       "posting_url": "https://www.monmouthcollege.edu/offices/hr/employment-opportunities/#preservice-teacher-education-generalist-position",
       "job_title_in_post": "Preservice Teacher Education Generalist Position",
-      "position_type": "Unclassified",
+      "position_type": "Lecturer",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "additional content areas",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.monmouthcollege.edu/offices/hr/employment-opportunities/#tenure-track-marketing-professor": {
@@ -174,6 +183,7 @@
       "department_or_school": "",
       "area_key_words": "Marketing",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.monmouthcollege.edu/offices/hr/employment-opportunities/#director-of-student-wellbeing": {
@@ -185,6 +195,7 @@
       "department_or_school": "",
       "area_key_words": "Student Wellbeing",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.monmouthcollege.edu/offices/hr/employment-opportunities/#assistant-director-of-enrollment-operations": {
@@ -196,6 +207,7 @@
       "department_or_school": "",
       "area_key_words": "Enrollment Operations",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.monmouthcollege.edu/offices/hr/employment-opportunities/#assistant-softball-coach": {
@@ -207,6 +219,7 @@
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.monmouthcollege.edu/offices/hr/employment-opportunities/#assistant-soccer-coach-men-and-women": {
@@ -218,17 +231,19 @@
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.monmouthcollege.edu/offices/hr/employment-opportunities/#part-time-campus-safety-officer": {
       "school_id": 401,
       "posting_url": "https://www.monmouthcollege.edu/offices/hr/employment-opportunities/#part-time-campus-safety-officer",
       "job_title_in_post": "Part-time Campus Safety Officer",
-      "position_type": "Unclassified",
+      "position_type": "Lecturer",
       "job_term": "Part-time",
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.monmouthcollege.edu/offices/hr/employment-opportunities/#men-s-and-women-s-swimming-assistant-coach": {
@@ -240,12 +255,13 @@
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     }
   },
   "school_id": 401,
   "status": "complete",
-  "updated_at": "2026-10-16T18:41:49+00:00",
-  "completed_at": "2026-10-16T18:41:49+00:00",
+  "updated_at": "2026-10-29T00:18:11+00:00",
+  "completed_at": "2026-10-29T00:18:11+00:00",
   "last_error": ""
 }

@@ -47,6 +47,7 @@
       "department_or_school": "Department of Biology",
       "area_key_words": "Biology; campus",
       "deadline_of_application": "October 5, 2026",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://apply.interfolio.com/192513": {
@@ -57,7 +58,8 @@
       "job_term": "Full-time",
       "department_or_school": "Department of Economics in the Williams School of Commerce, Economics, and Politics",
       "area_key_words": "Economics",
-      "deadline_of_application": "",
+      "deadline_of_application": "November 13, 2026",
+      "posted_date": "",
       "position_start_date": "July 1, 2027"
     },
     "https://apply.interfolio.com/189475": {
@@ -68,18 +70,20 @@
       "job_term": "Full-time",
       "department_or_school": "School of Commerce, Economics and Politics",
       "area_key_words": "Business Journalism",
-      "deadline_of_application": "",
+      "deadline_of_application": "Oct. 1, 2026",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://apply.interfolio.com/189553": {
       "school_id": 1475,
       "posting_url": "https://apply.interfolio.com/189553",
       "job_title_in_post": "J. Ramsey Martin Professorship in Philosophy",
-      "position_type": "Assistant_Professor; Associate_Professor; Full_Professor",
+      "position_type": "Full_Professor",
       "job_term": "Full-time",
       "department_or_school": "Department of Philosophy",
       "area_key_words": "Philosophy",
       "deadline_of_application": "October 1, 2026",
+      "posted_date": "",
       "position_start_date": "July 1, 2027"
     },
     "https://apply.interfolio.com/191114": {
@@ -90,7 +94,8 @@
       "job_term": "Full-time",
       "department_or_school": "Department of Physics and Engineering",
       "area_key_words": "Engineering",
-      "deadline_of_application": "",
+      "deadline_of_application": "October 15, 2026",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://apply.interfolio.com/192170": {
@@ -101,18 +106,20 @@
       "job_term": "Full-time",
       "department_or_school": "Department of Physics and Engineering",
       "area_key_words": "Physics",
-      "deadline_of_application": "",
+      "deadline_of_application": "October 21, 2026",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://apply.interfolio.com/193723": {
       "school_id": 1475,
       "posting_url": "https://apply.interfolio.com/193723",
       "job_title_in_post": "Professor of Practice in Engineering",
-      "position_type": "Full_Professor",
+      "position_type": "Lecturer",
       "job_term": "Full-time",
       "department_or_school": "Department of Physics and Engineering",
       "area_key_words": "Practice in Engineering",
-      "deadline_of_application": "",
+      "deadline_of_application": "November 15, 2026",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://apply.interfolio.com/189114": {
@@ -124,23 +131,25 @@
       "department_or_school": "",
       "area_key_words": "Cognitive and Behavioral Science; supervision of student",
       "deadline_of_application": "October 1, 2026",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://apply.interfolio.com/191078": {
       "school_id": 1475,
       "posting_url": "https://apply.interfolio.com/191078",
       "job_title_in_post": "Research and Instruction Librarian for the Social Sciences",
-      "position_type": "Assistant_Professor",
+      "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "School of Law",
       "area_key_words": "liberal arts; campus",
       "deadline_of_application": "September 14, 2026",
+      "posted_date": "",
       "position_start_date": ""
     }
   },
   "school_id": 1475,
   "status": "complete",
-  "updated_at": "2026-10-21T18:54:49+00:00",
-  "completed_at": "2026-10-21T18:54:49+00:00",
+  "updated_at": "2026-10-29T02:36:41+00:00",
+  "completed_at": "2026-10-29T02:36:41+00:00",
   "last_error": ""
 }

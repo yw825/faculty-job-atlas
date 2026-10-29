@@ -38,12 +38,13 @@
       "school_id": 1558,
       "posting_url": "https://wisconsin.wd1.myworkdayjobs.com/UW_Comprehensives/job/River-Falls-WI/Visiting-Assistant-Professor_JR10015988",
       "job_title_in_post": "Visiting Assistant Professor",
-      "position_type": "Assistant_Professor",
+      "position_type": "Lecturer",
       "job_term": "Full-time",
       "department_or_school": "department of Communication Sciences and Disorders",
       "area_key_words": "",
       "deadline_of_application": "",
-      "position_start_date": "2026-10-19"
+      "posted_date": "2026-10-19",
+      "position_start_date": ""
     },
     "https://wisconsin.wd1.myworkdayjobs.com/UW_Comprehensives/job/River-Falls-WI/Assistant-Professor---Geobiology_JR10014131": {
       "school_id": 1558,
@@ -53,19 +54,21 @@
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "Geobiology; Geological Perspectives of Global Change",
-      "deadline_of_application": "",
-      "position_start_date": "2026-10-12"
+      "deadline_of_application": "January 3, 2027",
+      "posted_date": "2026-10-12",
+      "position_start_date": "August 23, 2027"
     },
     "https://wisconsin.wd1.myworkdayjobs.com/UW_Comprehensives/job/River-Falls-WI/Instructional-Designer_JR10014947": {
       "school_id": 1558,
       "posting_url": "https://wisconsin.wd1.myworkdayjobs.com/UW_Comprehensives/job/River-Falls-WI/Instructional-Designer_JR10014947",
       "job_title_in_post": "Instructional Designer",
-      "position_type": "Non-academic",
+      "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "Center for Excellence in Teaching and Learning",
       "area_key_words": "learning technology Collects; disseminates data related; Canvas-based courses",
-      "deadline_of_application": "",
-      "position_start_date": "2026-09-29"
+      "deadline_of_application": "October 23, 2026",
+      "posted_date": "2026-09-29",
+      "position_start_date": ""
     },
     "https://wisconsin.wd1.myworkdayjobs.com/UW_Comprehensives/job/River-Falls-WI/Assistant-Professor---Geology_JR10013293": {
       "school_id": 1558,
@@ -75,8 +78,9 @@
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "Geology; Earth Structures",
-      "deadline_of_application": "",
-      "position_start_date": "2026-08-25"
+      "deadline_of_application": "September 4, 2026",
+      "posted_date": "2026-08-25",
+      "position_start_date": "January 7, 2027"
     },
     "https://wisconsin.wd1.myworkdayjobs.com/UW_Comprehensives/job/River-Falls-WI/Assistant-Professor---DIH-Climate-Resiliency-and-Forage-Production_JR10013581": {
       "school_id": 1558,
@@ -86,8 +90,9 @@
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "DIH Forage Production; forage crop production systems; Crop Science discipline including forage",
-      "deadline_of_application": "",
-      "position_start_date": "2026-08-19"
+      "deadline_of_application": "September 18, 2026",
+      "posted_date": "2026-08-19",
+      "position_start_date": "January 7, 2027"
     },
     "https://wisconsin.wd1.myworkdayjobs.com/UW_Comprehensives/job/River-Falls-WI/Lecturer---College-of-Arts-and-Sciences_JR10001280": {
       "school_id": 1558,
@@ -98,7 +103,8 @@
       "department_or_school": "College of Arts and Sciences",
       "area_key_words": "College of Arts and Sciences",
       "deadline_of_application": "",
-      "position_start_date": "2026-05-07"
+      "posted_date": "2026-05-07",
+      "position_start_date": ""
     },
     "https://wisconsin.wd1.myworkdayjobs.com/UW_Comprehensives/job/River-Falls-WI/Lecturer_JR10000788": {
       "school_id": 1558,
@@ -109,7 +115,8 @@
       "department_or_school": "College of Education, Business and Allied Health",
       "area_key_words": "Business and Allied Health; Finance Business Law Management",
       "deadline_of_application": "",
-      "position_start_date": "2026-05-07"
+      "posted_date": "2026-05-07",
+      "position_start_date": ""
     },
     "https://wisconsin.wd1.myworkdayjobs.com/UW_Comprehensives/job/River-Falls-WI/Lecturer---College-of-Agriculture--Food-and-Environmental-Sciences_JR10001286": {
       "school_id": 1558,
@@ -120,12 +127,13 @@
       "department_or_school": "College of Agriculture, Food and Environmental Sciences",
       "area_key_words": "Food and Environmental Sciences; Food Science",
       "deadline_of_application": "",
-      "position_start_date": "2026-05-07"
+      "posted_date": "2026-05-07",
+      "position_start_date": ""
     }
   },
   "school_id": 1558,
   "status": "complete",
-  "updated_at": "2026-10-21T18:59:47+00:00",
-  "completed_at": "2026-10-21T18:59:47+00:00",
+  "updated_at": "2026-10-29T02:42:20+00:00",
+  "completed_at": "2026-10-29T02:42:20+00:00",
   "last_error": ""
 }

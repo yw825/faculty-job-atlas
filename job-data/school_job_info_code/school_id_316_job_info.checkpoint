@@ -499,6 +499,21 @@
       "title": "Cashier II - Student Financial Services",
       "description": "Posted: 10/16/2026 Location: Valdosta State University Department: Student Financial Services Cashier II - Student Financial Services",
       "department": "Student Financial Services"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304920&PostingSeq=1&SiteId=51000": {
+      "title": "Lecturer of Elementary Education - Department of Teacher Education",
+      "description": "Posted: 10/26/2026 Location: Valdosta State University Department: VState ONL - Education Lecturer of Elementary Education - Department of Teacher Education",
+      "department": "VState ONL - Education"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304935&PostingSeq=1&SiteId=51000": {
+      "title": "Lecturer of Music (Double Bass) - Department of Music",
+      "description": "Posted: 10/26/2026 Location: Valdosta State University Department: Music Lecturer of Music (Double Bass) - Department of Music",
+      "department": "Music"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304986&PostingSeq=1&SiteId=51000": {
+      "title": "Lecturer of Nursing - School of Nursing (12-Month Faculty)",
+      "description": "Posted: 10/26/2026 Location: Valdosta State University Department: School of Nursing Lecturer of Nursing - School of Nursing (12-Month Faculty)",
+      "department": "School of Nursing"
     }
   },
   "rows": {
@@ -1700,11 +1715,47 @@
       "deadline_of_application": "",
       "posted_date": "10/16/2026",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304920&PostingSeq=1&SiteId=51000": {
+      "school_id": 316,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304920&PostingSeq=1&SiteId=51000",
+      "job_title_in_post": "Lecturer of Elementary Education - Department of Teacher Education",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "VState ONL - Education",
+      "area_key_words": "Elementary Education",
+      "deadline_of_application": "",
+      "posted_date": "10/26/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304935&PostingSeq=1&SiteId=51000": {
+      "school_id": 316,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304935&PostingSeq=1&SiteId=51000",
+      "job_title_in_post": "Lecturer of Music (Double Bass) - Department of Music",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "Music",
+      "area_key_words": "Music",
+      "deadline_of_application": "",
+      "posted_date": "10/26/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304986&PostingSeq=1&SiteId=51000": {
+      "school_id": 316,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304986&PostingSeq=1&SiteId=51000",
+      "job_title_in_post": "Lecturer of Nursing - School of Nursing (12-Month Faculty)",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "School of Nursing",
+      "area_key_words": "Nursing",
+      "deadline_of_application": "",
+      "posted_date": "10/26/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 316,
   "status": "complete",
-  "updated_at": "2026-10-27T00:11:38+00:00",
-  "completed_at": "2026-10-27T00:11:38+00:00",
+  "updated_at": "2026-10-29T00:05:23+00:00",
+  "completed_at": "2026-10-29T00:05:23+00:00",
   "last_error": ""
 }

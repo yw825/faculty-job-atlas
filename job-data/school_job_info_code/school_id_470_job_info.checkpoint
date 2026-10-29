@@ -1,1 +1,105 @@
-{"raw": {"https://my.mcpherson.edu/ICS/Employment/Employment_Landing_Page.jnz?portlet=Employment_Position_Application#academic-affairs-administrative-assistant": {"title": "Academic Affairs Administrative Assistant", "description": "Academic Affairs Administrative Assistant. Department: . Classification: Hourly. Full Time. Posted: None specified."}, "https://my.mcpherson.edu/ICS/Employment/Employment_Landing_Page.jnz?portlet=Employment_Position_Application#adjunct": {"title": "ADJUNCT", "description": "ADJUNCT. Department: . Classification: . Full Time. Posted: None specified."}, "https://my.mcpherson.edu/ICS/Employment/Employment_Landing_Page.jnz?portlet=Employment_Position_Application#assistant-professor-of-exercise-science": {"title": "Assistant Professor of Exercise Science", "description": "Assistant Professor of Exercise Science. Department: . Classification: . Full Time. Posted: None specified."}, "https://my.mcpherson.edu/ICS/Employment/Employment_Landing_Page.jnz?portlet=Employment_Position_Application#assistant-tennis-coach-part-time": {"title": "Assistant Tennis Coach Part-Time", "description": "Assistant Tennis Coach Part-Time. Department: Athletics. Classification: Exempt. Part Time. Posted: 12/16/2024."}, "https://my.mcpherson.edu/ICS/Employment/Employment_Landing_Page.jnz?portlet=Employment_Position_Application#controller": {"title": "Controller", "description": "Controller. Department: Business Office. Classification: Exempt. Full Time. Posted: None specified."}, "https://my.mcpherson.edu/ICS/Employment/Employment_Landing_Page.jnz?portlet=Employment_Position_Application#custodial-supervisor": {"title": "Custodial Supervisor", "description": "Custodial Supervisor. Department: Facility Management. Classification: Exempt. Full Time. Posted: None specified."}}, "rows": {"https://my.mcpherson.edu/ICS/Employment/Employment_Landing_Page.jnz?portlet=Employment_Position_Application#academic-affairs-administrative-assistant": {"school_id": 470, "posting_url": "https://my.mcpherson.edu/ICS/Employment/Employment_Landing_Page.jnz?portlet=Employment_Position_Application#academic-affairs-administrative-assistant", "job_title_in_post": "Academic Affairs Administrative Assistant", "position_type": "Unclassified", "job_term": "Full-time", "department_or_school": "", "area_key_words": "", "deadline_of_application": "", "position_start_date": ""}, "https://my.mcpherson.edu/ICS/Employment/Employment_Landing_Page.jnz?portlet=Employment_Position_Application#adjunct": {"school_id": 470, "posting_url": "https://my.mcpherson.edu/ICS/Employment/Employment_Landing_Page.jnz?portlet=Employment_Position_Application#adjunct", "job_title_in_post": "ADJUNCT", "position_type": "Unclassified", "job_term": "Part-time", "department_or_school": "", "area_key_words": "", "deadline_of_application": "", "position_start_date": ""}, "https://my.mcpherson.edu/ICS/Employment/Employment_Landing_Page.jnz?portlet=Employment_Position_Application#assistant-professor-of-exercise-science": {"school_id": 470, "posting_url": "https://my.mcpherson.edu/ICS/Employment/Employment_Landing_Page.jnz?portlet=Employment_Position_Application#assistant-professor-of-exercise-science", "job_title_in_post": "Assistant Professor of Exercise Science", "position_type": "Assistant_Professor", "job_term": "Full-time", "department_or_school": "", "area_key_words": "Exercise Science", "deadline_of_application": "", "position_start_date": ""}, "https://my.mcpherson.edu/ICS/Employment/Employment_Landing_Page.jnz?portlet=Employment_Position_Application#assistant-tennis-coach-part-time": {"school_id": 470, "posting_url": "https://my.mcpherson.edu/ICS/Employment/Employment_Landing_Page.jnz?portlet=Employment_Position_Application#assistant-tennis-coach-part-time", "job_title_in_post": "Assistant Tennis Coach Part-Time", "position_type": "Unclassified", "job_term": "Part-time", "department_or_school": "", "area_key_words": "", "deadline_of_application": "", "position_start_date": ""}, "https://my.mcpherson.edu/ICS/Employment/Employment_Landing_Page.jnz?portlet=Employment_Position_Application#controller": {"school_id": 470, "posting_url": "https://my.mcpherson.edu/ICS/Employment/Employment_Landing_Page.jnz?portlet=Employment_Position_Application#controller", "job_title_in_post": "Controller", "position_type": "Unclassified", "job_term": "Full-time", "department_or_school": "", "area_key_words": "", "deadline_of_application": "", "position_start_date": ""}, "https://my.mcpherson.edu/ICS/Employment/Employment_Landing_Page.jnz?portlet=Employment_Position_Application#custodial-supervisor": {"school_id": 470, "posting_url": "https://my.mcpherson.edu/ICS/Employment/Employment_Landing_Page.jnz?portlet=Employment_Position_Application#custodial-supervisor", "job_title_in_post": "Custodial Supervisor", "position_type": "Unclassified", "job_term": "Full-time", "department_or_school": "", "area_key_words": "", "deadline_of_application": "", "position_start_date": ""}}, "school_id": 470, "status": "complete", "updated_at": "2026-10-16T18:43:07+00:00", "completed_at": "2026-10-16T18:43:07+00:00", "last_error": ""}
+{
+  "raw": {
+    "https://my.mcpherson.edu/ICS/Employment/Employment_Landing_Page.jnz?portlet=Employment_Position_Application#academic-affairs-administrative-assistant": {
+      "title": "Academic Affairs Administrative Assistant",
+      "description": "Academic Affairs Administrative Assistant. Department: . Classification: Hourly. Full Time. Posted: None specified."
+    },
+    "https://my.mcpherson.edu/ICS/Employment/Employment_Landing_Page.jnz?portlet=Employment_Position_Application#adjunct": {
+      "title": "ADJUNCT",
+      "description": "ADJUNCT. Department: . Classification: . Full Time. Posted: None specified."
+    },
+    "https://my.mcpherson.edu/ICS/Employment/Employment_Landing_Page.jnz?portlet=Employment_Position_Application#assistant-professor-of-exercise-science": {
+      "title": "Assistant Professor of Exercise Science",
+      "description": "Assistant Professor of Exercise Science. Department: . Classification: . Full Time. Posted: None specified."
+    },
+    "https://my.mcpherson.edu/ICS/Employment/Employment_Landing_Page.jnz?portlet=Employment_Position_Application#assistant-tennis-coach-part-time": {
+      "title": "Assistant Tennis Coach Part-Time",
+      "description": "Assistant Tennis Coach Part-Time. Department: Athletics. Classification: Exempt. Part Time. Posted: 12/16/2024."
+    },
+    "https://my.mcpherson.edu/ICS/Employment/Employment_Landing_Page.jnz?portlet=Employment_Position_Application#controller": {
+      "title": "Controller",
+      "description": "Controller. Department: Business Office. Classification: Exempt. Full Time. Posted: None specified."
+    },
+    "https://my.mcpherson.edu/ICS/Employment/Employment_Landing_Page.jnz?portlet=Employment_Position_Application#custodial-supervisor": {
+      "title": "Custodial Supervisor",
+      "description": "Custodial Supervisor. Department: Facility Management. Classification: Exempt. Full Time. Posted: None specified."
+    }
+  },
+  "rows": {
+    "https://my.mcpherson.edu/ICS/Employment/Employment_Landing_Page.jnz?portlet=Employment_Position_Application#academic-affairs-administrative-assistant": {
+      "school_id": 470,
+      "posting_url": "https://my.mcpherson.edu/ICS/Employment/Employment_Landing_Page.jnz?portlet=Employment_Position_Application#academic-affairs-administrative-assistant",
+      "job_title_in_post": "Academic Affairs Administrative Assistant",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://my.mcpherson.edu/ICS/Employment/Employment_Landing_Page.jnz?portlet=Employment_Position_Application#adjunct": {
+      "school_id": 470,
+      "posting_url": "https://my.mcpherson.edu/ICS/Employment/Employment_Landing_Page.jnz?portlet=Employment_Position_Application#adjunct",
+      "job_title_in_post": "ADJUNCT",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://my.mcpherson.edu/ICS/Employment/Employment_Landing_Page.jnz?portlet=Employment_Position_Application#assistant-professor-of-exercise-science": {
+      "school_id": 470,
+      "posting_url": "https://my.mcpherson.edu/ICS/Employment/Employment_Landing_Page.jnz?portlet=Employment_Position_Application#assistant-professor-of-exercise-science",
+      "job_title_in_post": "Assistant Professor of Exercise Science",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Exercise Science",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://my.mcpherson.edu/ICS/Employment/Employment_Landing_Page.jnz?portlet=Employment_Position_Application#assistant-tennis-coach-part-time": {
+      "school_id": 470,
+      "posting_url": "https://my.mcpherson.edu/ICS/Employment/Employment_Landing_Page.jnz?portlet=Employment_Position_Application#assistant-tennis-coach-part-time",
+      "job_title_in_post": "Assistant Tennis Coach Part-Time",
+      "position_type": "Unclassified",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "position_start_date": ""
+    },
+    "https://my.mcpherson.edu/ICS/Employment/Employment_Landing_Page.jnz?portlet=Employment_Position_Application#controller": {
+      "school_id": 470,
+      "posting_url": "https://my.mcpherson.edu/ICS/Employment/Employment_Landing_Page.jnz?portlet=Employment_Position_Application#controller",
+      "job_title_in_post": "Controller",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://my.mcpherson.edu/ICS/Employment/Employment_Landing_Page.jnz?portlet=Employment_Position_Application#custodial-supervisor": {
+      "school_id": 470,
+      "posting_url": "https://my.mcpherson.edu/ICS/Employment/Employment_Landing_Page.jnz?portlet=Employment_Position_Application#custodial-supervisor",
+      "job_title_in_post": "Custodial Supervisor",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    }
+  },
+  "school_id": 470,
+  "status": "complete",
+  "updated_at": "2026-10-29T00:28:13+00:00",
+  "completed_at": "2026-10-29T00:28:13+00:00",
+  "last_error": ""
+}

@@ -19,6 +19,7 @@
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.barclaycollege.edu/jobs/?post_type=job_listing&p=5": {
@@ -30,12 +31,13 @@
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     }
   },
   "school_id": 461,
   "status": "complete",
-  "updated_at": "2026-10-16T18:43:02+00:00",
-  "completed_at": "2026-10-16T18:43:02+00:00",
+  "updated_at": "2026-10-29T00:27:41+00:00",
+  "completed_at": "2026-10-29T00:27:41+00:00",
   "last_error": ""
 }

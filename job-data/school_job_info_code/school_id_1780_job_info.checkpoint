@@ -55,6 +55,14 @@
     "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225320": {
       "title": "Lecturer/ Senior Lecturer in Rural Medicine",
       "description": "Lecturer/ Senior Lecturer in Rural Medicine. University of New England. Reference 225320. 225320 Lecturer/ Senior Lecturer in Rural Medicine Academic - Continuing, Part-time - Level B/C (Hybrid) School of Rural Medicine - Medicine 08-NOV-2026 11:59:59 pm"
+    },
+    "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225321": {
+      "title": "Manager Client Experience and Enablement",
+      "description": "Manager Client Experience and Enablement. University of New England. Reference 225321. 225321 Manager Client Experience and Enablement Professional - Continuing - Fulltime - HEO8 Client Experience and Enablement 15-NOV-2026 11:59:59 pm"
+    },
+    "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225322": {
+      "title": "Director, Enterprise Risk and Assurance",
+      "description": "Director, Enterprise Risk and Assurance. University of New England. Reference 225322. 225322 Director, Enterprise Risk and Assurance Executive - 5 Year - Full-time - Fixed Term Contract Governance 18-NOV-2026 11:59:59 pm"
     }
   },
   "rows": {
@@ -219,11 +227,35 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225321": {
+      "school_id": 1780,
+      "posting_url": "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225321",
+      "job_title_in_post": "Manager Client Experience and Enablement",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225322": {
+      "school_id": 1780,
+      "posting_url": "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225322",
+      "job_title_in_post": "Director, Enterprise Risk and Assurance",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1780,
   "status": "complete",
-  "updated_at": "2026-10-27T23:03:51+00:00",
-  "completed_at": "2026-10-27T23:03:51+00:00",
+  "updated_at": "2026-10-29T03:02:02+00:00",
+  "completed_at": "2026-10-29T03:02:02+00:00",
   "last_error": ""
 }

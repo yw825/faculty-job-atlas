@@ -71,6 +71,14 @@
     "https://viprecprod.ad.umanitoba.ca/A#req-50759": {
       "title": "CRC Tier 1-Pediatric Translational Research & Clinical Outco",
       "description": "CRC Tier 1-Pediatric Translational Research & Clinical Outco | Requisition No: 50759 - Category:  CANADA RESEARCH CHAIRS | Part Time - Temporary | Manitoba | Bannatyne Campus [021] | Oct/16/2026 | Assistant Professor in Algebra or Topology"
+    },
+    "https://viprecprod.ad.umanitoba.ca/A#req-51093": {
+      "title": "Canada Research Chair Tier 2 in Sunflower Breeding and Genet",
+      "description": "Canada Research Chair Tier 2 in Sunflower Breeding and Genet | Requisition No: 51093 - Category:  FULL TIME ACADEMICS | Full time -  Permanent | Manitoba | Fort Garry Campus [011] | Oct/28/2026 | Assistant Professor"
+    },
+    "https://viprecprod.ad.umanitoba.ca/A#req-51104": {
+      "title": "Assistant Professor",
+      "description": "Assistant Professor | Requisition No: 51104 - Category:  FULL TIME ACADEMICS | Full time -  Permanent | Manitoba | Fort Garry Campus [011] | Oct/28/2026 | Director of Outreach and Engagement"
     }
   },
   "rows": {
@@ -281,11 +289,35 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://viprecprod.ad.umanitoba.ca/A#req-51093": {
+      "school_id": 1601,
+      "posting_url": "https://viprecprod.ad.umanitoba.ca/A#req-51093",
+      "job_title_in_post": "Canada Research Chair Tier 2 in Sunflower Breeding and Genet",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Sunflower Breeding and Genet",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://viprecprod.ad.umanitoba.ca/A#req-51104": {
+      "school_id": 1601,
+      "posting_url": "https://viprecprod.ad.umanitoba.ca/A#req-51104",
+      "job_title_in_post": "Assistant Professor",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1601,
   "status": "complete",
-  "updated_at": "2026-10-27T23:38:14+00:00",
-  "completed_at": "2026-10-27T23:38:14+00:00",
+  "updated_at": "2026-10-29T03:16:30+00:00",
+  "completed_at": "2026-10-29T03:16:30+00:00",
   "last_error": ""
 }

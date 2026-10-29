@@ -14,28 +14,30 @@
       "school_id": 1145,
       "posting_url": "https://psu.wd1.myworkdayjobs.com/PSU_Academic/job/Penn-State-Wilkes-Barre/Part-Time-Faculty_REQ_0000075198-1",
       "job_title_in_post": "Part-Time Faculty",
-      "position_type": "Unclassified",
+      "position_type": "Lecturer",
       "job_term": "Part-time",
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
-      "position_start_date": "2026-02-04"
+      "posted_date": "2026-02-04",
+      "position_start_date": ""
     },
     "https://psu.wd1.myworkdayjobs.com/PSU_Academic/job/Penn-State-Wilkes-Barre/Part-Time-Faculty_REQ_0000069762-1": {
       "school_id": 1145,
       "posting_url": "https://psu.wd1.myworkdayjobs.com/PSU_Academic/job/Penn-State-Wilkes-Barre/Part-Time-Faculty_REQ_0000069762-1",
       "job_title_in_post": "Part-Time Faculty",
-      "position_type": "Unclassified",
+      "position_type": "Lecturer",
       "job_term": "Part-time",
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
-      "position_start_date": "2025-07-22"
+      "posted_date": "2025-07-22",
+      "position_start_date": ""
     }
   },
   "school_id": 1145,
   "status": "complete",
-  "updated_at": "2026-10-19T20:27:24+00:00",
-  "completed_at": "2026-10-19T20:27:24+00:00",
+  "updated_at": "2026-10-29T02:11:39+00:00",
+  "completed_at": "2026-10-29T02:11:39+00:00",
   "last_error": ""
 }

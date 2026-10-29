@@ -89,6 +89,15 @@
       "title": "Part-time Childcare Worker - Hillsboro/Central Valley",
       "description": "Posted: 04/23/2024 Location: Multiple Department: Child Development Programs Part-time Childcare Worker - Hillsboro/Central Valley",
       "department": "Child Development Programs"
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960153&PostingSeq=1&SiteId=1": {
+      "error": "not present in bulk fetch result"
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960112&PostingSeq=1&SiteId=1": {
+      "error": "not present in bulk fetch result"
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2959555&PostingSeq=1&SiteId=1": {
+      "error": "not present in bulk fetch result"
     }
   },
   "rows": {
@@ -101,39 +110,43 @@
       "department_or_school": "Div Business",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "09/30/2026",
       "position_start_date": ""
     },
     "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2959795&PostingSeq=1&SiteId=1": {
       "school_id": 826,
       "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2959795&PostingSeq=1&SiteId=1",
       "job_title_in_post": "(S) Part-time Childcare Worker - Mayville (MaSU Students Only)",
-      "position_type": "Unclassified",
+      "position_type": "Lecturer",
       "job_term": "Part-time",
       "department_or_school": "Child Development Programs",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "09/03/2026",
       "position_start_date": ""
     },
     "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2959794&PostingSeq=1&SiteId=1": {
       "school_id": 826,
       "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2959794&PostingSeq=1&SiteId=1",
       "job_title_in_post": "Part-time Childcare Worker - Mayville",
-      "position_type": "Unclassified",
+      "position_type": "Lecturer",
       "job_term": "Part-time",
       "department_or_school": "Child Development Programs",
       "area_key_words": "Mayville",
       "deadline_of_application": "",
+      "posted_date": "09/03/2026",
       "position_start_date": ""
     },
     "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2959825&PostingSeq=1&SiteId=1": {
       "school_id": 826,
       "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2959825&PostingSeq=1&SiteId=1",
       "job_title_in_post": "(S) Athletics Student Positions - Work Study Only",
-      "position_type": "Unclassified",
+      "position_type": "Assistant_Professor; Associate_Professor; Full_Professor",
       "job_term": "Full-time",
       "department_or_school": "Athletic Admin",
       "area_key_words": "Work Study Only",
       "deadline_of_application": "",
+      "posted_date": "08/25/2026",
       "position_start_date": ""
     },
     "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2959801&PostingSeq=1&SiteId=1": {
@@ -145,17 +158,19 @@
       "department_or_school": "Student Affairs",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "08/24/2026",
       "position_start_date": ""
     },
     "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2959669&PostingSeq=1&SiteId=1": {
       "school_id": 826,
       "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2959669&PostingSeq=1&SiteId=1",
       "job_title_in_post": "(S) Tutor",
-      "position_type": "Unclassified",
+      "position_type": "Lecturer",
       "job_term": "Full-time",
       "department_or_school": "Learning Services",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "08/06/2026",
       "position_start_date": ""
     },
     "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2959611&PostingSeq=1&SiteId=1": {
@@ -167,6 +182,7 @@
       "department_or_school": "Facilities Services",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "08/03/2026",
       "position_start_date": ""
     },
     "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2959553&PostingSeq=1&SiteId=1": {
@@ -178,17 +194,19 @@
       "department_or_school": "Facilities Services",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "07/31/2026",
       "position_start_date": ""
     },
     "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2959528&PostingSeq=1&SiteId=1": {
       "school_id": 826,
       "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2959528&PostingSeq=1&SiteId=1",
       "job_title_in_post": "Wellness Center Group Fitness Instructor",
-      "position_type": "Unclassified",
+      "position_type": "Lecturer",
       "job_term": "Full-time",
       "department_or_school": "Athletic Admin",
       "area_key_words": "Wellness Center Group Fitness",
       "deadline_of_application": "",
+      "posted_date": "07/22/2026",
       "position_start_date": ""
     },
     "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2957169&PostingSeq=1&SiteId=1": {
@@ -200,28 +218,31 @@
       "department_or_school": "Food Service",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "07/13/2026",
       "position_start_date": ""
     },
     "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2959466&PostingSeq=1&SiteId=1": {
       "school_id": 826,
       "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2959466&PostingSeq=1&SiteId=1",
       "job_title_in_post": "Cook (Part-time)",
-      "position_type": "Unclassified",
+      "position_type": "Lecturer",
       "job_term": "Part-time",
       "department_or_school": "Food Service",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "07/13/2026",
       "position_start_date": ""
     },
     "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2959346&PostingSeq=1&SiteId=1": {
       "school_id": 826,
       "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2959346&PostingSeq=1&SiteId=1",
       "job_title_in_post": "Resident & Student Life Coordinator",
-      "position_type": "Non-academic",
+      "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "Campus Programming",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "06/24/2026",
       "position_start_date": ""
     },
     "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2958909&PostingSeq=1&SiteId=1": {
@@ -233,67 +254,82 @@
       "department_or_school": "Softball",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "04/15/2026",
       "position_start_date": ""
     },
     "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2954570&PostingSeq=1&SiteId=1": {
       "school_id": 826,
       "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2954570&PostingSeq=1&SiteId=1",
       "job_title_in_post": "(T) Swim Instructor",
-      "position_type": "Unclassified",
+      "position_type": "Lecturer",
       "job_term": "Full-time",
       "department_or_school": "Div Health, Phy Ed & Rec",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "09/17/2024",
       "position_start_date": ""
     },
     "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2951538&PostingSeq=1&SiteId=1": {
       "school_id": 826,
       "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2951538&PostingSeq=1&SiteId=1",
       "job_title_in_post": "(S) Part-time Childcare Worker - Grand Forks (MaSU Students Only)",
-      "position_type": "Unclassified",
+      "position_type": "Lecturer",
       "job_term": "Part-time",
       "department_or_school": "Child Development Programs",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "04/23/2024",
       "position_start_date": ""
     },
     "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2951537&PostingSeq=1&SiteId=1": {
       "school_id": 826,
       "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2951537&PostingSeq=1&SiteId=1",
       "job_title_in_post": "(S) Part-time Childcare Worker - Hillsboro/Central Valley (MaSU Students Only)",
-      "position_type": "Unclassified",
+      "position_type": "Lecturer",
       "job_term": "Part-time",
       "department_or_school": "Child Development Programs",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "04/23/2024",
       "position_start_date": ""
     },
     "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2951539&PostingSeq=1&SiteId=1": {
       "school_id": 826,
       "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2951539&PostingSeq=1&SiteId=1",
       "job_title_in_post": "Part-time Childcare Worker - Grand Forks",
-      "position_type": "Unclassified",
+      "position_type": "Lecturer",
       "job_term": "Part-time",
       "department_or_school": "Child Development Programs",
       "area_key_words": "Grand Forks",
       "deadline_of_application": "",
+      "posted_date": "04/23/2024",
       "position_start_date": ""
     },
     "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2951536&PostingSeq=1&SiteId=1": {
       "school_id": 826,
       "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2951536&PostingSeq=1&SiteId=1",
       "job_title_in_post": "Part-time Childcare Worker - Hillsboro/Central Valley",
-      "position_type": "Unclassified",
+      "position_type": "Lecturer",
       "job_term": "Part-time",
       "department_or_school": "Child Development Programs",
       "area_key_words": "Hillsboro/Central Valley",
       "deadline_of_application": "",
+      "posted_date": "04/23/2024",
       "position_start_date": ""
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960153&PostingSeq=1&SiteId=1": {
+      "error": "not present in bulk fetch result"
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960112&PostingSeq=1&SiteId=1": {
+      "error": "not present in bulk fetch result"
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2959555&PostingSeq=1&SiteId=1": {
+      "error": "not present in bulk fetch result"
     }
   },
   "school_id": 826,
   "status": "complete",
-  "updated_at": "2026-10-16T18:48:03+00:00",
-  "completed_at": "2026-10-16T18:48:03+00:00",
+  "updated_at": "2026-10-29T01:18:43+00:00",
+  "completed_at": "2026-10-29T01:18:43+00:00",
   "last_error": ""
 }

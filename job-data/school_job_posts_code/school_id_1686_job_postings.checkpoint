@@ -8,9 +8,9 @@
     "https://www.hu-berlin.de/en/university/working-at-the-hu/jobs/details/w3-professur-fuer-psychologische-methodenlehre-pr-009-26"
   ],
   "school_id": 1686,
-  "status": "complete",
-  "updated_at": "2026-10-27T22:22:20+00:00",
+  "status": "error",
+  "updated_at": "2026-10-28T22:53:14+00:00",
   "started_at": "2026-10-05T21:12:06+00:00",
   "completed_at": "2026-10-27T22:22:20+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: hu-berlin: still on the Anubis challenge page"
 }

@@ -38,7 +38,8 @@
       "job_term": "Full-time",
       "department_or_school": "School of Education",
       "area_key_words": "Special Education; Intellectual Disabilities",
-      "deadline_of_application": "",
+      "deadline_of_application": "October 16, 2026",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.morningside.edu/about/employment/assistant-professor-of-history": {
@@ -49,7 +50,8 @@
       "job_term": "Full-time",
       "department_or_school": "Department of Humanities",
       "area_key_words": "History; European",
-      "deadline_of_application": "",
+      "deadline_of_application": "Oct. 7, 2026",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.morningside.edu/about/employment/assistant-professor-of-counseling-psychology": {
@@ -60,7 +62,8 @@
       "job_term": "Full-time",
       "department_or_school": "Department of Social Sciences",
       "area_key_words": "Counseling Psychology; Individual Counseling",
-      "deadline_of_application": "",
+      "deadline_of_application": "September 30, 2026",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.morningside.edu/about/employment/assistant-associate-professor-of-marketing": {
@@ -72,6 +75,7 @@
       "department_or_school": "School of Business",
       "area_key_words": "Marketing; sales force strategy; Load A full teaching load",
       "deadline_of_application": "September 30, 2026",
+      "posted_date": "",
       "position_start_date": "August 16, 2027"
     },
     "https://www.morningside.edu/about/employment/assistant-associate-professor-of-management-business-administration": {
@@ -83,6 +87,7 @@
       "department_or_school": "School of Business",
       "area_key_words": "Management/Business Administration; full teaching load",
       "deadline_of_application": "September 30, 2026",
+      "posted_date": "",
       "position_start_date": "August 16, 2027"
     },
     "https://www.morningside.edu/about/employment/assistant-associate-professor-of-accounting": {
@@ -94,6 +99,7 @@
       "department_or_school": "School of Business",
       "area_key_words": "Accounting; Load A full teaching load",
       "deadline_of_application": "September 30, 2026",
+      "posted_date": "",
       "position_start_date": "August 16, 2027"
     },
     "https://www.morningside.edu/about/employment/assistant-professor-of-mathematics": {
@@ -105,12 +111,13 @@
       "department_or_school": "Department of Mathematical Sciences",
       "area_key_words": "Mathematics",
       "deadline_of_application": "November 13, 2026",
+      "posted_date": "",
       "position_start_date": "August 16, 2027"
     }
   },
   "school_id": 354,
   "status": "complete",
-  "updated_at": "2026-10-16T18:41:09+00:00",
-  "completed_at": "2026-10-16T18:41:09+00:00",
+  "updated_at": "2026-10-29T00:09:46+00:00",
+  "completed_at": "2026-10-29T00:09:46+00:00",
   "last_error": ""
 }

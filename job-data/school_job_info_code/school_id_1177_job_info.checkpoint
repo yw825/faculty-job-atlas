@@ -84,6 +84,21 @@
       "title": "Adjunct Instructor of Biology",
       "description": "Allegheny College is seeking qualified adjunct faculty to teach Biology courses in support of an RN program. This is a part-time position that reports to the Chair of Biology. Primary teaching responsibilities include Anatomy and Physiology, Medical Microbiology, or Medical Terminology.  Ideal candidates will have experience and success teaching undergraduates or nursing students. Qualified candidates must have a master's degree or Ph.D. in a relevant discipline.  \n\nThe faculty member will maintain professional effectiveness, intellectual integrity, professional currency, and cooperation in all phases of the academic program.",
       "department": null
+    },
+    "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/363": {
+      "error": "not present in bulk fetch result"
+    },
+    "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/364": {
+      "error": "not present in bulk fetch result"
+    },
+    "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/365": {
+      "error": "not present in bulk fetch result"
+    },
+    "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/358": {
+      "error": "not present in bulk fetch result"
+    },
+    "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/359": {
+      "error": "not present in bulk fetch result"
     }
   },
   "rows": {
@@ -96,6 +111,7 @@
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/302": {
@@ -107,6 +123,7 @@
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/294": {
@@ -118,6 +135,7 @@
       "department_or_school": "",
       "area_key_words": "Communication, Media, and Performance; Theatre program",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/280": {
@@ -140,6 +158,7 @@
       "department_or_school": "",
       "area_key_words": "Biology; genetics; given load calculations",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/244": {
@@ -157,11 +176,12 @@
       "school_id": 1177,
       "posting_url": "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/241",
       "job_title_in_post": "Title IX Coordinator (Part-time)",
-      "position_type": "Non-academic",
+      "position_type": "Lecturer",
       "job_term": "Part-time",
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/239": {
@@ -184,6 +204,7 @@
       "department_or_school": "",
       "area_key_words": "Computer and Information Science; given load calculations",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/333": {
@@ -195,6 +216,7 @@
       "department_or_school": "",
       "area_key_words": "Computer and Information Science; given load calculations",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/337": {
@@ -206,6 +228,7 @@
       "department_or_school": "",
       "area_key_words": "practice preparation",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/339": {
@@ -217,6 +240,7 @@
       "department_or_school": "",
       "area_key_words": "Psychology",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/338": {
@@ -228,6 +252,7 @@
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/351": {
@@ -239,45 +264,64 @@
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/350": {
       "school_id": 1177,
       "posting_url": "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/350",
       "job_title_in_post": "Adjunct Instructor of Communication, Media, and Performance",
-      "position_type": "Assistant_Professor; Associate_Professor; Full_Professor",
+      "position_type": "Lecturer",
       "job_term": "Part-time",
       "department_or_school": "Department of Communication, Media and Performance",
       "area_key_words": "Communication, Media, and Performance; Movement Studies program",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/347": {
       "school_id": 1177,
       "posting_url": "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/347",
       "job_title_in_post": "Adjunct Instructor of Communication, Media, and Performance",
-      "position_type": "Assistant_Professor; Associate_Professor; Full_Professor",
+      "position_type": "Lecturer",
       "job_term": "Part-time",
       "department_or_school": "Department of Communication, Media and Performance",
       "area_key_words": "Communication, Media, and Performance; Movement Studies program",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/342": {
       "school_id": 1177,
       "posting_url": "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/342",
       "job_title_in_post": "Adjunct Instructor of Biology",
-      "position_type": "Unclassified",
+      "position_type": "Lecturer",
       "job_term": "Part-time",
       "department_or_school": "",
       "area_key_words": "Biology",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
+    },
+    "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/363": {
+      "error": "not present in bulk fetch result"
+    },
+    "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/364": {
+      "error": "not present in bulk fetch result"
+    },
+    "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/365": {
+      "error": "not present in bulk fetch result"
+    },
+    "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/358": {
+      "error": "not present in bulk fetch result"
+    },
+    "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/359": {
+      "error": "not present in bulk fetch result"
     }
   },
   "school_id": 1177,
   "status": "complete",
-  "updated_at": "2026-10-19T20:30:26+00:00",
-  "completed_at": "2026-10-19T20:30:26+00:00",
+  "updated_at": "2026-10-29T02:16:59+00:00",
+  "completed_at": "2026-10-29T02:16:59+00:00",
   "last_error": ""
 }

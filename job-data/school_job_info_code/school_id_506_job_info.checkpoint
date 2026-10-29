@@ -682,6 +682,15 @@
     },
     "https://careers.eku.edu/jobs/stem-center-learning-assistant-richmond-campus-kentucky-united-states-0f45dd89-ab6c-47e6-a0af-35e3652dea7d": {
       "error": "Error: It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead."
+    },
+    "https://careers.eku.edu/jobs/assistant-curator-bird-museum-richmond-campus-kentucky-united-states": {
+      "error": "Error: It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead."
+    },
+    "https://careers.eku.edu/jobs/group-fitness-instructor-richmond-campus-kentucky-united-states": {
+      "error": "Error: It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead."
+    },
+    "https://careers.eku.edu/jobs/wellness-peer-educator-richmond-campus-kentucky-united-states": {
+      "error": "Error: It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead."
     }
   },
   "rows": {
@@ -2607,11 +2616,20 @@
     },
     "https://careers.eku.edu/jobs/stem-center-learning-assistant-richmond-campus-kentucky-united-states-0f45dd89-ab6c-47e6-a0af-35e3652dea7d": {
       "error": "Error: It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead."
+    },
+    "https://careers.eku.edu/jobs/assistant-curator-bird-museum-richmond-campus-kentucky-united-states": {
+      "error": "Error: It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead."
+    },
+    "https://careers.eku.edu/jobs/group-fitness-instructor-richmond-campus-kentucky-united-states": {
+      "error": "Error: It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead."
+    },
+    "https://careers.eku.edu/jobs/wellness-peer-educator-richmond-campus-kentucky-united-states": {
+      "error": "Error: It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead."
     }
   },
   "school_id": 506,
   "status": "complete",
-  "updated_at": "2026-10-27T00:25:09+00:00",
-  "completed_at": "2026-10-27T00:25:09+00:00",
+  "updated_at": "2026-10-29T00:33:41+00:00",
+  "completed_at": "2026-10-29T00:33:41+00:00",
   "last_error": ""
 }

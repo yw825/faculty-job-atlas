@@ -1,31 +1,13 @@
 {
-  "visited_targets": [
-    "https://mun.ca/academic-careers/opportunities/faculty-of-engineering-and-applied-science/",
-    "https://mun.ca/academic-careers/opportunities/faculty-of-business-administration/",
-    "https://mun.ca/academic-careers/opportunities/school-of-music/",
-    "https://mun.ca/academic-careers/opportunities/school-of-human-kinetics-and-recreation/",
-    "https://mun.ca/academic-careers/opportunities/faculty-of-education/",
-    "https://mun.ca/academic-careers/opportunities/school-of-social-work/",
-    "https://mun.ca/academic-careers/opportunities/",
-    "https://mun.ca/academic-careers/opportunities/faculty-of-nursing/",
-    "https://mun.ca/academic-careers/opportunities/faculty-of-humanities--social-sciences/",
-    "https://mun.ca/academic-careers/opportunities/faculty-of-science/",
-    "https://mun.ca/academic-careers/opportunities/school-of-arctic-and-subarctic-studies/"
-  ],
-  "started_at": "2026-09-02T22:02:31+00:00",
   "links": [
-    "https://careers.mun.ca/nursing/api/careers/file/6812",
     "https://careers.mun.ca/nursing/api/careers/file/6813",
     "https://careers.mun.ca/nursing/api/careers/file/6814",
-    "https://careers.mun.ca/academic/api/careers/file/6756",
-    "https://careers.mun.ca/academic/api/careers/file/6771",
-    "https://careers.mun.ca/academic/api/careers/file/6772"
+    "https://careers.mun.ca/nursing/api/careers/file/6812"
   ],
   "school_id": 1609,
-  "careers_link": "https://mun.ca/academic-careers/opportunities/",
   "status": "complete",
-  "updated_at": "2026-10-27T22:03:29+00:00",
-  "platform": "generic",
-  "completed_at": "2026-10-27T22:03:29+00:00",
+  "updated_at": "2026-10-28T22:35:32+00:00",
+  "started_at": "2026-10-28T22:34:12+00:00",
+  "completed_at": "2026-10-28T22:35:32+00:00",
   "last_error": ""
 }

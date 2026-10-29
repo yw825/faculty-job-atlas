@@ -47,6 +47,7 @@
       "department_or_school": "",
       "area_key_words": "Applied Psychology; Introductory Psychology",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.canton.edu/hr/job-opportunities/faculty/F116.html": {
@@ -58,6 +59,7 @@
       "department_or_school": "",
       "area_key_words": "Legal Studies",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.canton.edu/hr/job-opportunities/faculty/F114.html": {
@@ -69,17 +71,19 @@
       "department_or_school": "",
       "area_key_words": "Veterinary Science",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.canton.edu/hr/job-opportunities/faculty/F113.html": {
       "school_id": 930,
       "posting_url": "https://www.canton.edu/hr/job-opportunities/faculty/F113.html",
       "job_title_in_post": "Entrepreneurship and Marketing",
-      "position_type": "Assistant_Professor",
+      "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "Entrepreneurship courses",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.canton.edu/hr/job-opportunities/faculty/F112.html": {
@@ -91,17 +95,19 @@
       "department_or_school": "",
       "area_key_words": "HVAC",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.canton.edu/hr/job-opportunities/faculty/F45.html": {
       "school_id": 930,
       "posting_url": "https://www.canton.edu/hr/job-opportunities/faculty/F45.html",
       "job_title_in_post": "Nursing (Tenure Track)",
-      "position_type": "Assistant_Professor",
+      "position_type": "Assistant_Professor; Associate_Professor; Full_Professor",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.canton.edu/hr/job-opportunities/faculty/F107.html": {
@@ -113,34 +119,37 @@
       "department_or_school": "",
       "area_key_words": "Physiology course sequence",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.canton.edu/hr/job-opportunities/faculty/F108.html": {
       "school_id": 930,
       "posting_url": "https://www.canton.edu/hr/job-opportunities/faculty/F108.html",
       "job_title_in_post": "Visiting Early Childhood Management PRODIG+ Fellow",
-      "position_type": "Assistant_Professor",
+      "position_type": "Lecturer",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "variety of instructional modalities",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.canton.edu/hr/job-opportunities/faculty/F110.html": {
       "school_id": 930,
       "posting_url": "https://www.canton.edu/hr/job-opportunities/faculty/F110.html",
       "job_title_in_post": "Visiting Funeral Services Admin PRODiG+ Fellow",
-      "position_type": "Unclassified",
+      "position_type": "Lecturer",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "variety of instructional modalities",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     }
   },
   "school_id": 930,
   "status": "complete",
-  "updated_at": "2026-10-19T17:56:36+00:00",
-  "completed_at": "2026-10-19T17:56:36+00:00",
+  "updated_at": "2026-10-29T01:35:19+00:00",
+  "completed_at": "2026-10-29T01:35:19+00:00",
   "last_error": ""
 }

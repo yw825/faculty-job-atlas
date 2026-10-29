@@ -108,6 +108,10 @@
     },
     "https://www.careers.hrp.gov.sg/sap/bc/ui5_ui5/sap/ZGERCFA004/index.html?search-keyword=Ngee%20Ann%20Polytechnic#/JobDescription/18165369/005056a3-53e2-1fd1-b3b1-a0c2c458d40c": {
       "error": "RuntimeError: job posting expired"
+    },
+    "https://www.careers.hrp.gov.sg/sap/bc/ui5_ui5/sap/ZGERCFA004/index.html?search-keyword=Ngee%20Ann%20Polytechnic#/JobDescription/18183960/005056a3-53e2-1fd1-b4e1-a481ccd8140d": {
+      "title": "Lecturer - School Of Design & Environment",
+      "description": "Closing Date: 15/11/2026 Find A Job | Careers@Gov Emphasized Available Values Footer actions skip to content Home Find A Job/ Internship FAQ CONTACT US LOGIN LOG OUT menu-button search-button LECTURER - SCHOOL OF DESIGN & ENVIRONMENT Ngee Ann Polytechnic 03-05 year(s) Fixed Terms, Full-time Closing on 15 Nov 2026 0 Applicant(s) APPLY NOW What the role is This is a 2-year contract position as a Lecturer in the School of Design & Environment. What you will be working on Academic duties Develop and improve the content of modules you are assigned to teach and deliver for full-time and part-time learners Be competent to conduct teaching and delivery of modules in classroom and online setting Set and conduct assessments for the modules you are assigned Lead in the integration of modules content, teaching and delivery to achieve the course objectives Initiate and experiment with new pedagogies or learning technologies to enhance curriculum delivery Non-Academic duties Administrative and other duties to support the management of the school, diploma and modules Duties and responsibilities that may arises to support curriculum development and currency Solve operational problems to ensure efficiency and effectiveness Supervise junior team members to ensure smooth operations What we are looking for Applicants must have strong communication skills and have an inherent passion to teach students in both physical classrooms and online learning environment. Candidate should have at least 3 years of demonstrated experience and be competent to plan, develop and teach at least three of the following areas: Fire Safety Management Mechanical Facilities Property Management Customer Experience Management Project Planning & Management Smart & Green Building Management Besides teaching full time diploma students, the lecturer will also be required to teach Part-Time Courses to learners who are working adults. These classes are usually conducted in the evenings from 6pm to 10pm. About Ngee Ann Polytechnic At Ngee Ann Polytechnic, our nine academic schools offer over 40 full-time diplomas to a growing student population of more than 15,000. As a public tertiary institution, internationally-recognised for its academic excellence and close industry links, NP prides itself on having a dedicated and professional teaching faculty, complete with campus facilities that are among the finest in the world.\n\nAn institution of higher learning, Ngee Ann Polytechnic believes in giving every student an enriching learning experience and every employee the opportunity to build a meaningful career.\n\nIf you are a self-starter with an innovative mind, a versatile person with the drive for all-rounded excellence, and a dedicated team player who shares our vision and values, we invite you to join our inspired team. You might also be interested in LECTURER - SCHOOL OF DESIGN & ENVIRONMENT Ngee Ann Polytechnic Closing on 08 Nov 2026 LECTURER, BIOMEDICAL ENGINEERING - SCHOOL OF ENGINEERING Ngee Ann Polytechnic Closing on 08 Nov 2026 LECTURER, ENGINEERING SCIENCE - SCHOOL OF ENGINEERING Ngee Ann Polytechnic Closing on 08 Nov 2026 LECTURER, DESIGN  - SCHOOL OF DESIGN & ENVIRONMENT Ngee Ann Polytechnic Closing in 4  day(s) LECTURER, CIVIL ENGINEERING - SCHOOL OF DESIGN & ENVIRONMENT Ngee Ann Polytechnic Closing on 15 Nov 2026 SERVICE-LEARNING CATALYST, LECTURER - HMIS Ngee Ann Polytechnic Closing on 15 Nov 2026 ASSOCIATE LECTURER - STUDENT & YOUTH CARE SECTOR - HMIS Ngee Ann Polytechnic Closing in 4  day(s) School of Hospitality - Lecturer (Events & Project Management) Republic Polytechnic Closing in 1  day(s) LECTURER - SCHOOL OF DESIGN & ENVIRONMENT Ngee Ann Polytechnic Closing on 15 Nov 2026 APPLY NOW"
     }
   },
   "rows": {
@@ -405,11 +409,23 @@
     },
     "https://www.careers.hrp.gov.sg/sap/bc/ui5_ui5/sap/ZGERCFA004/index.html?search-keyword=Ngee%20Ann%20Polytechnic#/JobDescription/18165369/005056a3-53e2-1fd1-b3b1-a0c2c458d40c": {
       "error": "RuntimeError: job posting expired"
+    },
+    "https://www.careers.hrp.gov.sg/sap/bc/ui5_ui5/sap/ZGERCFA004/index.html?search-keyword=Ngee%20Ann%20Polytechnic#/JobDescription/18183960/005056a3-53e2-1fd1-b4e1-a481ccd8140d": {
+      "school_id": 1864,
+      "posting_url": "https://www.careers.hrp.gov.sg/sap/bc/ui5_ui5/sap/ZGERCFA004/index.html?search-keyword=Ngee%20Ann%20Polytechnic#/JobDescription/18183960/005056a3-53e2-1fd1-b4e1-a481ccd8140d",
+      "job_title_in_post": "Lecturer - School Of Design & Environment",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "School Of Design & Environment",
+      "area_key_words": "School Of Design & Environment; Part-Time Courses",
+      "deadline_of_application": "15/11/2026",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1864,
   "status": "complete",
-  "updated_at": "2026-10-28T00:44:54+00:00",
-  "completed_at": "2026-10-28T00:44:54+00:00",
+  "updated_at": "2026-10-29T03:54:21+00:00",
+  "completed_at": "2026-10-29T03:54:21+00:00",
   "last_error": ""
 }

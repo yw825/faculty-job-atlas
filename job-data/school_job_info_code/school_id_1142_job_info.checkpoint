@@ -67,17 +67,19 @@
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.ursinus.edu/live/profiles/11445-assistant-director-for-inclusion-and-belonging": {
       "school_id": 1142,
       "posting_url": "https://www.ursinus.edu/live/profiles/11445-assistant-director-for-inclusion-and-belonging",
       "job_title_in_post": "Assistant Director for Inclusion and Belonging",
-      "position_type": "Non-academic",
+      "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "Institute for Inclusion and Equity",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.ursinus.edu/live/profiles/11570-assistant-director-of-admission-transfer-outreach": {
@@ -89,6 +91,7 @@
       "department_or_school": "",
       "area_key_words": "Admission, Transfer Outreach and Recruitment",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.ursinus.edu/live/profiles/11549-campus-safety-officer-ft-pm-shift": {
@@ -100,6 +103,7 @@
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.ursinus.edu/live/profiles/11512-controller": {
@@ -111,6 +115,7 @@
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.ursinus.edu/live/profiles/11564-director-of-camps-and-conferences": {
@@ -122,6 +127,7 @@
       "department_or_school": "",
       "area_key_words": "Camps and Conferences",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.ursinus.edu/live/profiles/11548-director-of-student-accounts": {
@@ -133,6 +139,7 @@
       "department_or_school": "",
       "area_key_words": "Student Accounts",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.ursinus.edu/live/profiles/9046-director-of-disability-and-access": {
@@ -144,6 +151,7 @@
       "department_or_school": "",
       "area_key_words": "Disability and Access",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.ursinus.edu/live/profiles/11394-internship-coordinator": {
@@ -161,11 +169,12 @@
       "school_id": 1142,
       "posting_url": "https://www.ursinus.edu/live/profiles/11540-systems-management-librarian",
       "job_title_in_post": "Systems Management Librarian",
-      "position_type": "Non-academic",
+      "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "Center for Science and the Common Good, providing data, statistical, and geospatial support",
       "area_key_words": "public health; sustainability",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.ursinus.edu/live/profiles/11515-head-coach-womens-flag-football": {
@@ -177,6 +186,7 @@
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.ursinus.edu/live/profiles/11538-head-coach-womens-softball": {
@@ -199,23 +209,25 @@
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.ursinus.edu/live/profiles/11503-apex-fellow-corporate-relations-athletic": {
       "school_id": 1142,
       "posting_url": "https://www.ursinus.edu/live/profiles/11503-apex-fellow-corporate-relations-athletic",
       "job_title_in_post": "APEX Fellow",
-      "position_type": "Unclassified",
+      "position_type": "Research_Fellow",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     }
   },
   "school_id": 1142,
   "status": "complete",
-  "updated_at": "2026-10-19T20:27:21+00:00",
-  "completed_at": "2026-10-19T20:27:21+00:00",
+  "updated_at": "2026-10-29T02:01:08+00:00",
+  "completed_at": "2026-10-29T02:01:08+00:00",
   "last_error": ""
 }

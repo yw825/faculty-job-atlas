@@ -207,6 +207,14 @@
     "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2302": {
       "title": "Veterinary Nurse - Companion Animal Hospital",
       "description": "Closing Date: 08/11/2026 Department: SVS - VTH Frontline Services Veterinary Nurse - Companion Animal Hospital. Massey University. 08-Nov-2026 11:00 PM | JR-2302 | Veterinary Nurse - Companion Animal Hospital | Massey University | SVS - VTH Frontline Services | Ongoing"
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2526": {
+      "title": "Counsellor",
+      "description": "Closing Date: 15/11/2026 Department: SE - Student Health and Counselling (MAN) Counsellor. Massey University. 15-Nov-2026 11:00 PM | JR-2526 | Counsellor | Massey University | SE - Student Health and Counselling (MAN) | Ongoing"
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2509": {
+      "title": "Manager Uncrewed Aircraft Systems - UAS",
+      "description": "Closing Date: 22/11/2026 Department: School of Aviation 1 Manager Uncrewed Aircraft Systems - UAS. Massey University. 22-Nov-2026 11:00 PM | JR-2509 | Manager Uncrewed Aircraft Systems - UAS | Massey University | School of Aviation 1 | Ongoing"
     }
   },
   "rows": {
@@ -818,11 +826,35 @@
       "deadline_of_application": "08/11/2026",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2526": {
+      "school_id": 1829,
+      "posting_url": "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2526",
+      "job_title_in_post": "Counsellor",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "15/11/2026",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2509": {
+      "school_id": 1829,
+      "posting_url": "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2509",
+      "job_title_in_post": "Manager Uncrewed Aircraft Systems - UAS",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "22/11/2026",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1829,
   "status": "complete",
-  "updated_at": "2026-10-28T00:37:15+00:00",
-  "completed_at": "2026-10-28T00:37:15+00:00",
+  "updated_at": "2026-10-29T03:51:23+00:00",
+  "completed_at": "2026-10-29T03:51:23+00:00",
   "last_error": ""
 }

@@ -1,5 +1,5 @@
 school_id,posting_url,job_title_in_post,position_type,job_term,department_or_school,area_key_words,deadline_of_application,position_start_date,posted_date
-1194,https://apply.interfolio.com/188958,Research Associate CDB/AFCRI (CS),Research_Fellow,Full-time,Department of Cell and Developmental Biology,extramural funding proposals; experimental techniques,,,
+1194,https://apply.interfolio.com/188958,Research Associate CDB/AFCRI (CS),Research_Fellow,Full-time,Department of Cell and Developmental Biology,extramural funding proposals; preparing manuscripts,,,
 1194,https://apply.interfolio.com/187117,"Director of the Center of Excellence in Environmental Toxicology, Standing Faculty",Unclassified,Full-time,"Center of Excellence in Environmental Toxicology, Standing Faculty","Excellence in Environmental Toxicology, Standing Faculty; environmental health sciences; closely related","July 23, 2026",,
 1194,https://apply.interfolio.com/185447,Endowed Associate/Full Professor of Special Education,Associate_Professor; Full_Professor,Full-time,,Special Education,"September 15, 2026",,
 1194,https://apply.interfolio.com/174790,Research Associate-ITMAT,Research_Fellow,Full-time,Institute for Translational Medicine and Therapeutics,,,,
@@ -17,7 +17,6 @@ school_id,posting_url,job_title_in_post,position_type,job_term,department_or_sch
 1194,https://apply.interfolio.com/193357,"AC Track Faculty Position, Division of Infectious Diseases - Assistant Professor",Assistant_Professor,Full-time,Division of Infectious Diseases,Infectious Diseases,,,
 1194,https://apply.interfolio.com/193359,"AC Track Faculty Position, Division of Infectious Diseases - Associate or Full Professor",Full_Professor,Full-time,Division of Infectious Diseases,Infectious Diseases,,,
 1194,https://apply.interfolio.com/191785,"AC Track Faculty Position, Gastrointestinal Cancer, Assistant Professor",Assistant_Professor,Full-time,School of Medicine,AC Track,,,
-1194,https://apply.interfolio.com/196045,"AC Track Faculty Position, Palliative Oncology – Assistant Professor",Assistant_Professor,Full-time,School of Medicine,AC Track,"Oct 22, 2028",,"Oct 22, 2026"
 1194,https://apply.interfolio.com/164682,Academic Clinician - GI Hospitalist,Unclassified,Full-time,School of Medicine,Penn medical students,,,
 1194,https://apply.interfolio.com/171407,Academic Clinician Assistant Professor,Assistant_Professor,Full-time,School of Medicine,Academic Clinician Assistant,,,
 1194,https://apply.interfolio.com/163206,Academic Clinician Faculty Position - Senior ranks,Assistant_Professor; Associate_Professor; Full_Professor,Full-time,School of Medicine,Academic Clinician; Penn medical students,,,
@@ -47,6 +46,7 @@ school_id,posting_url,job_title_in_post,position_type,job_term,department_or_sch
 1194,https://apply.interfolio.com/182328,Assistant Professor - Academic Clinician Track - Outpatient Clinic,Assistant_Professor,Full-time,School of Medicine,Academic Clinician Track,,,
 1194,https://apply.interfolio.com/183936,Assistant Professor - Academic Clinician- Cutaneous Oncologist (Dermatology),Assistant_Professor,Full-time,School of Medicine,,,,
 1194,https://apply.interfolio.com/175128,Assistant Professor - Academic Movement Disorders Physician - AC Track,Assistant_Professor,Full-time,School of Medicine,Academic Movement Disorders Physician; well,,,
+1194,https://apply.interfolio.com/196157,Assistant Professor - Academic Neuro-Oncologist - AC Track,Assistant_Professor,Full-time,School of Medicine,AC Track,"Oct 27, 2028",,"Oct 27, 2026"
 1194,https://apply.interfolio.com/193531,Assistant Professor - Clinical Neuropsychologist - AC Track,Assistant_Professor; Lecturer,Full-time,School of Medicine,Clinical Neuropsychologist; evaluation of cognition on collaborative,,,
 1194,https://apply.interfolio.com/194827,Assistant Professor - Clinical/Teaching Faculty in Neurocritical Care - AC Track,Assistant_Professor; Lecturer,Full-time,School of Medicine,Clinical/Teaching Faculty in Neurocritical Care; Behavior Course,,,
 1194,https://apply.interfolio.com/177037,Assistant Professor - Clinician Educator Track - Neonatology,Assistant_Professor,Full-time,School of Medicine,Clinician Educator Track,,,
@@ -120,6 +120,7 @@ school_id,posting_url,job_title_in_post,position_type,job_term,department_or_sch
 1194,https://apply.interfolio.com/169829,"Assistant Professor, AC Track, Adult Congenital Heart Disease",Assistant_Professor,Full-time,School of Medicine,Adult Congenital Heart Disease; well,,,
 1194,https://apply.interfolio.com/172187,"Assistant Professor, AC Track, Developmental and Behavioral Pediatrics",Assistant_Professor,Full-time,School of Medicine,Developmental and Behavioral Pediatrics; well,,,
 1194,https://apply.interfolio.com/170909,"Assistant Professor, AC Track, Division of Allergy and Immunology",Assistant_Professor,Full-time,Division of Allergy and Immunology,Allergy and Immunology; CHOP fellows,,,
+1194,https://apply.interfolio.com/195778,"Assistant Professor, AC Track, Division of Allergy and Immunology",Assistant_Professor,Full-time,Division of Allergy and Immunology,Allergy and Immunology; CHOP fellows,"Oct 26, 2028",,"Oct 26, 2026"
 1194,https://apply.interfolio.com/160383,"Assistant Professor, AC Track, Infectious Diseases (CHOP)",Assistant_Professor,Full-time,School of Medicine,Infectious Diseases; CHOP fellows,,,
 1194,https://apply.interfolio.com/174358,"Assistant Professor, AC Track, Pediatric Rehabilitation Physiatrist",Assistant_Professor,Full-time,School of Medicine,Pediatric Rehabilitation Physiatrist,,,
 1194,https://apply.interfolio.com/168196,"Assistant Professor, Academic Clinician - Division of Pediatric Nephrology",Assistant_Professor,Full-time,Division of Pediatric Nephrology,Division of Pediatric Nephrology; well,,,
@@ -424,12 +425,13 @@ school_id,posting_url,job_title_in_post,position_type,job_term,department_or_sch
 1194,https://apply.interfolio.com/159786,"Research Assistant Professor of Medicine Faculty Position, Division of Endocrinology, Diabetes and Metabolism",Research_Fellow,Full-time,"Division of Endocrinology, Diabetes and Metabolism","Medicine Faculty Position, Division of Endocrinology, Diabetes and Metabolism; genomic architecture; transcriptional regulation",,,
 1194,https://apply.interfolio.com/176419,Research Assistant Professor of Neuroscience,Research_Fellow,Full-time,School of Medicine,Neuroscience,,,
 1194,https://apply.interfolio.com/161096,"Research Assistant Professor, CHOP Neurology",Research_Fellow,Full-time,School of Medicine,CHOP Neurology,,,
-1194,https://apply.interfolio.com/183374,Research Associate,Research_Fellow,Full-time,School of Medicine,,,,
 1194,https://apply.interfolio.com/184434,Research Associate,Research_Fellow,Full-time,School of Medicine,,,,
 1194,https://apply.interfolio.com/185717,Research Associate,Research_Fellow,Full-time,School of Medicine,biological roles of the novel; molecular functions,,,
-1194,https://apply.interfolio.com/166684,Research Associate,Research_Fellow,Full-time,School of Medicine,,,,
-1194,https://apply.interfolio.com/185624,Research Associate,Research_Fellow,Full-time,School of Medicine,HNSCC biology; receive mentoring,,,
+1194,https://apply.interfolio.com/183374,Research Associate,Research_Fellow,Full-time,School of Medicine,,,,
 1194,https://apply.interfolio.com/192452,Research Associate,Research_Fellow,Full-time,School of Medicine,,,,
+1194,https://apply.interfolio.com/185624,Research Associate,Research_Fellow,Full-time,School of Medicine,HNSCC biology; receive mentoring,,,
+1194,https://apply.interfolio.com/166684,Research Associate,Research_Fellow,Full-time,School of Medicine,,,,
+1194,https://apply.interfolio.com/194294,Research Associate    Shi Lab,Research_Fellow,Full-time,School of Medicine,,"Oct 26, 2028",,"Oct 26, 2026"
 1194,https://apply.interfolio.com/191203,Research Associate (Berger Lab),Research_Fellow,Full-time,School of Medicine,,,,
 1194,https://apply.interfolio.com/180877,Research Associate (Wan Lab),Research_Fellow,Full-time,School of Medicine,,,,
 1194,https://apply.interfolio.com/181514,Research Associate - CBIO (Witze),Research_Fellow,Full-time,School of Medicine,,,,
@@ -445,12 +447,12 @@ school_id,posting_url,job_title_in_post,position_type,job_term,department_or_sch
 1194,https://apply.interfolio.com/161705,Research Associate in Genetics of Psychiatric Disorders,Research_Fellow,Full-time,School of Medicine,Genetics of Psychiatric Disorders,,,
 1194,https://apply.interfolio.com/170067,Research Associate in Human Immunology - Laura Su's lab,Research_Fellow,Full-time,School of Medicine,Human Immunology,,,
 1194,https://apply.interfolio.com/187059,Research Associate in Neuroimmunology,Research_Fellow,Full-time,School of Medicine,Neuroimmunology; treat brain diseases using immune; interpreting results of those,,,
-1194,https://apply.interfolio.com/178978,Research Associate in Neuroscience,Research_Fellow,Full-time,School of Medicine,Neuroscience,,,
 1194,https://apply.interfolio.com/192277,Research Associate in Neuroscience,Research_Fellow,Full-time,School of Medicine,Neuroscience; transcriptional regulation; molecular genetics,,,
-1194,https://apply.interfolio.com/172988,Research Associate in Neuroscience,Research_Fellow,Full-time,School of Medicine,Neuroscience,,,
-1194,https://apply.interfolio.com/180815,Research Associate in Neuroscience,Research_Fellow,Full-time,School of Medicine,Neuroscience,,,
-1194,https://apply.interfolio.com/165382,Research Associate in Neuroscience,Research_Fellow,Full-time,School of Medicine,Neuroscience,,,
 1194,https://apply.interfolio.com/189086,Research Associate in Neuroscience,Research_Fellow,Full-time,School of Medicine,Neuroscience,,,
+1194,https://apply.interfolio.com/178978,Research Associate in Neuroscience,Research_Fellow,Full-time,School of Medicine,Neuroscience,,,
+1194,https://apply.interfolio.com/172988,Research Associate in Neuroscience,Research_Fellow,Full-time,School of Medicine,Neuroscience,,,
+1194,https://apply.interfolio.com/165382,Research Associate in Neuroscience,Research_Fellow,Full-time,School of Medicine,Neuroscience,,,
+1194,https://apply.interfolio.com/180815,Research Associate in Neuroscience,Research_Fellow,Full-time,School of Medicine,Neuroscience,,,
 1194,https://apply.interfolio.com/185700,Research Associate in Neuroscience,Research_Fellow,Full-time,School of Medicine,Neuroscience,,,
 1194,https://apply.interfolio.com/167238,Research Associate in Neuroscience,Research_Fellow,Full-time,School of Medicine,Neuroscience,,,
 1194,https://apply.interfolio.com/165095,Research Associate in the Academic Support Staff,Research_Fellow,Full-time,School of Medicine,,,,
@@ -501,18 +503,18 @@ school_id,posting_url,job_title_in_post,position_type,job_term,department_or_sch
 1194,https://apply.interfolio.com/191001,Postdoctoral Fellow,Research_Fellow,Full-time,,,,,
 1194,https://apply.interfolio.com/183045,Postdoctoral Fellow - Reproductive  Biology,Research_Fellow,Full-time,School of Medicine Postdoctoral Fellow,Reproductive  Biology,,,
 1194,https://apply.interfolio.com/175330,Postdoctoral Fellow in Cancer Biology,Research_Fellow,Full-time,,Cancer Biology,,,
-1194,https://apply.interfolio.com/186679,Postdoctoral Fellow in Cardiovascular Disease and Cancer,Research_Fellow,Full-time,,Cardiovascular Disease and Cancer,,,
 1194,https://apply.interfolio.com/182811,Postdoctoral Fellow in computational neuroimaging,Research_Fellow,Full-time,Center for Biomedical Image Computing and Analytics,Alzheimer’s disease,,,
 1194,https://apply.interfolio.com/195388,Postdoctoral Fellow in Social and Psychological Wellbeing and Aging at the University of Pennsylvania,Research_Fellow,Full-time,,Social and Psychological Wellbeing and Aging at the University of Pennsylvania,,,
+1194,https://apply.interfolio.com/196281,Postdoctoral Fellow – Bone Marrow Adipocyte Biology and Maternal Skeletal Health,Research_Fellow,Full-time,Department of Orthopaedic Surgery,Bone Marrow Adipocyte Biology and Maternal Skeletal Health; Fanxin Long; Ling Qin,,,"Oct 23, 2026"
 1194,https://apply.interfolio.com/181002,Postdoctoral Fellowship,Research_Fellow,Full-time,Center for BRCA,,,,
 1194,https://apply.interfolio.com/183891,Postdoctoral Fellowships in AI & Medical Imaging,Research_Fellow,Full-time,,AI & Medical Imaging,,,"Mar 26, 2026"
 1194,https://apply.interfolio.com/196026,Postdoctoral Position in Cancer Metabolism and Molecular Imaging,Research_Fellow,Full-time,,Cancer Metabolism and Molecular Imaging; Penn Image-Guided Interventions Laboratory; directed,,,"Oct 21, 2026"
 1194,https://apply.interfolio.com/180242,Postdoctoral Position in In Vivo Analysis of Basal Ganglia Circuit Function,Research_Fellow,Full-time,,In Vivo Analysis of Basal Ganglia Circuit Function,,,
 1194,https://apply.interfolio.com/189959,Postdoctoral Position in Physiology and Regeneration,Research_Fellow,Full-time,,Physiology and Regeneration,,,
+1194,https://apply.interfolio.com/196441,"Postdoctoral Positions in Functional Transcriptomics, Cell Signaling, and Cancer Immunotherapy",Research_Fellow,Full-time,School of Medicine,"Functional Transcriptomics, Cell Signaling, and Cancer Immunotherapy",,,"Oct 27, 2026"
 1194,https://apply.interfolio.com/190196,Postdoctoral Researcher - Health Services and Health Economics Research,Research_Fellow,Full-time,,,,,
 1194,https://apply.interfolio.com/193626,Postdoctoral Researcher - Interdisciplinary,Research_Fellow,Full-time,,,,,
 1194,https://apply.interfolio.com/187547,Postdoctoral Researcher in AI-Driven Data Curation and Data Integration,Research_Fellow,Full-time,"Department of Biostatistics, Epidemiology, and Informatics",AI-Driven Data Curation and Data Integration,,,"Jun 02, 2026"
-1194,https://apply.interfolio.com/174189,Postdoctoral Researcher in Bio/Statistics and Machine Learning,Research_Fellow,Full-time,,Bio/Statistics and Machine Learning,,,"Sep 18, 2025"
 1194,https://apply.interfolio.com/189763,Postdoctoral Researcher in Cardiovascular Research,Research_Fellow,Full-time,School of Medicine The laboratory of Dr,Cardiovascular Research,,,
 1194,https://apply.interfolio.com/191385,Postdoctoral Researcher in Chromatin Biology and Neuroscience,Research_Fellow,Full-time,Department of Systems Pharmacology and Translational Therapeutics,Chromatin Biology and Neuroscience,,,
 1194,https://apply.interfolio.com/183243,Postdoctoral researcher in neurodegenerative disease and cancer,Research_Fellow,Full-time,School of Medicine The laboratory of Professor Xiaolu Yang,,,,
@@ -522,7 +524,6 @@ school_id,posting_url,job_title_in_post,position_type,job_term,department_or_sch
 1194,https://apply.interfolio.com/191248,Postdoctoral Scientist,Research_Fellow,Full-time,,Western blotting; Contribute,,,
 1194,https://apply.interfolio.com/188949,Postdoctoral Scientist - Ophthalmology,Research_Fellow,Full-time,,,,,
 1194,https://apply.interfolio.com/183230,Postdoctoral Scientist – Mitochondrial Biology,Research_Fellow,Full-time,School of Medicine's Department of Physiology,,,,
-1194,https://apply.interfolio.com/175355,Postoctoral Researcher,Research_Fellow,Full-time,,,,,
 1194,https://apply.interfolio.com/194199,"Postdoctoral Fellowship in Philosophy, Politics and Economics University of Pennsylvania",Research_Fellow,Full-time,,"Philosophy, Politics and Economics University of Pennsylvania",,"July 1, 2027",
 1194,https://apply.interfolio.com/195922,Postdoctoral Fellow - Implementation Science and Dementia Public Health,Research_Fellow,Full-time,"School of Nursing, Philadelphia, PA",Implementation Science and Dementia Public Health,,,"Oct 19, 2026"
 1194,https://apply.interfolio.com/189518,Postdoctoral Fellow in Individualized Care for At-Risk Older Adults,Research_Fellow,Full-time,School of Nursing The NewCourtland Center for Transitions and Health,Individualized Care for At-Risk Older Adults,,,
@@ -570,7 +571,7 @@ school_id,posting_url,job_title_in_post,position_type,job_term,department_or_sch
 1194,https://apply.interfolio.com/193932,Tenure-track Position in Mechanical Engineering and Applied Mechanics (MEAM) 2026-2027,Assistant_Professor; Associate_Professor; Full_Professor,Full-time,School of Engineering and Applied Science,Mechanical Engineering and Applied Mechanics; physiological flows; thermal sciences,"December 4, 2026","July 1, 2027",
 1194,https://apply.interfolio.com/193944,Clinical Instructor –  Care of Women & Infants (NURS 2150),Lecturer,Full-time,School of Nursing,,,,
 1194,https://apply.interfolio.com/177759,Clinical Instructor – Entry-to-Practice Nursing Program (NURS 5040),Lecturer,Full-time,School of Nursing,,,,
-1194,https://apply.interfolio.com/125149,Clinical Simulation Instructor,Lecturer,Part-time,Department of Family and Community Health in the School of Nursing,Simulation; Department of Biobehavioral Health Sciences,,,
+1194,https://apply.interfolio.com/196284,Doctor of Nursing Practice Program Senior or Advanced Senior Lecturer,Lecturer,Full-time,School of Nursing,Nursing Practice Program Senior or Advanced Senior Lecturer,,,"Oct 23, 2026"
 1194,https://apply.interfolio.com/194355,Practice Professor of Nursing-Sexual Reproductive Health & Nurse Midwifery,Lecturer,Full-time,School of Nursing,Nursing-Sexual Reproductive Health & Nurse Midwifery; Gender-Related Nurse Practitioner,,,
 1194,https://apply.interfolio.com/149150,"Assistant Professor, Small Animal Surgical Oncology, Clinician Educator",Lecturer,Full-time,School of Veterinary Medicine,Clinician Educator; soft tissue surgery,,,
 1194,https://apply.interfolio.com/183019,Assistant/Associate Professor of Clinical Small Animal Internal Medicine - Academic Clinician (AC),Lecturer,Full-time,School of Veterinary Medicine,Clinical Small Animal Internal Medicine; busy university teaching,,,

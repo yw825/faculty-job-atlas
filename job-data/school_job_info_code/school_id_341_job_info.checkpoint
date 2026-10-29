@@ -31,6 +31,10 @@
     "https://my.uiu.edu/ICS/Employment_Opportunities.jnz#director-workforce-partnership": {
       "title": "Director, Workforce Partnership",
       "description": "Director, Workforce Partnership. Department: Enrollment Management. Classification: Staff. Full Time. Posted: 10/15/2026."
+    },
+    "https://my.uiu.edu/ICS/Employment_Opportunities.jnz#fisheries-crew-leader": {
+      "title": "Fisheries Crew Leader",
+      "description": "Fisheries Crew Leader. Department: Department of Science and Math. Classification: Staff. Full Time. Posted: 10/27/2026."
     }
   },
   "rows": {
@@ -43,28 +47,31 @@
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "07/10/2026",
       "position_start_date": ""
     },
     "https://my.uiu.edu/ICS/Employment_Opportunities.jnz#coordinator-career-development": {
       "school_id": 341,
       "posting_url": "https://my.uiu.edu/ICS/Employment_Opportunities.jnz#coordinator-career-development",
       "job_title_in_post": "Coordinator, Career Development",
-      "position_type": "Non-academic",
+      "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "10/08/2026",
       "position_start_date": ""
     },
     "https://my.uiu.edu/ICS/Employment_Opportunities.jnz#crm-student-success-systems-administrator": {
       "school_id": 341,
       "posting_url": "https://my.uiu.edu/ICS/Employment_Opportunities.jnz#crm-student-success-systems-administrator",
       "job_title_in_post": "CRM & Student Success Systems Administrator",
-      "position_type": "Non-academic",
+      "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "10/08/2026",
       "position_start_date": ""
     },
     "https://my.uiu.edu/ICS/Employment_Opportunities.jnz#director-grant-project": {
@@ -76,39 +83,43 @@
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "10/08/2026",
       "position_start_date": ""
     },
     "https://my.uiu.edu/ICS/Employment_Opportunities.jnz#enrollment-coordinator-cedar-rapids": {
       "school_id": 341,
       "posting_url": "https://my.uiu.edu/ICS/Employment_Opportunities.jnz#enrollment-coordinator-cedar-rapids",
       "job_title_in_post": "Enrollment Coordinator, Cedar Rapids",
-      "position_type": "Non-academic",
+      "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "08/26/2026",
       "position_start_date": ""
     },
     "https://my.uiu.edu/ICS/Employment_Opportunities.jnz#grounds-technician-i": {
       "school_id": 341,
       "posting_url": "https://my.uiu.edu/ICS/Employment_Opportunities.jnz#grounds-technician-i",
       "job_title_in_post": "Grounds Technician I",
-      "position_type": "Non-academic",
+      "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "07/14/2026",
       "position_start_date": ""
     },
     "https://my.uiu.edu/ICS/Employment_Opportunities.jnz#school-counselor-adjunct-instructor-msc": {
       "school_id": 341,
       "posting_url": "https://my.uiu.edu/ICS/Employment_Opportunities.jnz#school-counselor-adjunct-instructor-msc",
       "job_title_in_post": "School Counselor Adjunct Instructor MSC",
-      "position_type": "Unclassified",
+      "position_type": "Lecturer",
       "job_term": "Part-time",
       "department_or_school": "",
       "area_key_words": "School Counselor Adjunct",
       "deadline_of_application": "",
+      "posted_date": "10/05/2026",
       "position_start_date": ""
     },
     "https://my.uiu.edu/ICS/Employment_Opportunities.jnz#director-workforce-partnership": {
@@ -120,12 +131,25 @@
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "10/15/2026",
+      "position_start_date": ""
+    },
+    "https://my.uiu.edu/ICS/Employment_Opportunities.jnz#fisheries-crew-leader": {
+      "school_id": 341,
+      "posting_url": "https://my.uiu.edu/ICS/Employment_Opportunities.jnz#fisheries-crew-leader",
+      "job_title_in_post": "Fisheries Crew Leader",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Department of Science and Math",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "10/27/2026",
       "position_start_date": ""
     }
   },
   "school_id": 341,
   "status": "complete",
-  "updated_at": "2026-10-16T18:40:59+00:00",
-  "completed_at": "2026-10-16T18:40:59+00:00",
+  "updated_at": "2026-10-29T00:07:51+00:00",
+  "completed_at": "2026-10-29T00:07:51+00:00",
   "last_error": ""
 }

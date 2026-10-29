@@ -19,6 +19,7 @@
       "department_or_school": "Department of Chemistry",
       "area_key_words": "Chemistry",
       "deadline_of_application": "October 30, 2026",
+      "posted_date": "",
       "position_start_date": "September 1, 2027"
     },
     "https://www.knox.edu/documents/HR/Faculty_Job_Listings/Assistant_Professor_of_Biology_2026.pdf": {
@@ -30,12 +31,13 @@
       "department_or_school": "Department of Biology",
       "area_key_words": "Biology",
       "deadline_of_application": "November 1, 2026",
+      "posted_date": "",
       "position_start_date": ""
     }
   },
   "school_id": 392,
   "status": "complete",
-  "updated_at": "2026-10-16T18:41:45+00:00",
-  "completed_at": "2026-10-16T18:41:45+00:00",
+  "updated_at": "2026-10-29T00:17:15+00:00",
+  "completed_at": "2026-10-29T00:17:15+00:00",
   "last_error": ""
 }

@@ -55,8 +55,8 @@
     "https://www.uni.lu/en/jobs/student-officer-accommodation-50/"
   ],
   "school_id": 1715,
-  "status": "error",
-  "updated_at": "2026-10-27T22:28:55+00:00",
+  "status": "in_progress",
+  "updated_at": "2026-10-28T23:04:47+00:00",
   "started_at": "2026-09-02T22:27:32+00:00",
   "completed_at": "2026-10-09T20:02:00+00:00",
   "last_error": "Error: Page.query_selector: Execution context was destroyed, most likely because of a navigation"

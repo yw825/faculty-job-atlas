@@ -18,11 +18,12 @@
       "school_id": 1470,
       "posting_url": "https://www.hsc.edu/faculty-and-staff/dean-of-faculty/faculty-positions-available#tenure-track-computer-science-position",
       "job_title_in_post": "Tenure-track Computer Science Position",
-      "position_type": "Associate_Professor",
+      "position_type": "Assistant_Professor; Associate_Professor; Full_Professor",
       "job_term": "Full-time",
       "department_or_school": "Department of Mathematics and Computer Science",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": "July 1, 2027"
     },
     "https://www.hsc.edu/faculty-and-staff/dean-of-faculty/faculty-positions-available#assistant-professor-of-politics-east-asia": {
@@ -34,6 +35,7 @@
       "department_or_school": "Department of Politics",
       "area_key_words": "Politics; seven courses",
       "deadline_of_application": "October 15, 2026",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.hsc.edu/faculty-and-staff/dean-of-faculty/faculty-positions-available#assistant-professor-of-economics-and-business-applied-microeconomics": {
@@ -45,12 +47,13 @@
       "department_or_school": "",
       "area_key_words": "applied microeconomics field",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     }
   },
   "school_id": 1470,
   "status": "complete",
-  "updated_at": "2026-10-21T18:54:17+00:00",
-  "completed_at": "2026-10-21T18:54:17+00:00",
+  "updated_at": "2026-10-29T02:36:27+00:00",
+  "completed_at": "2026-10-29T02:36:27+00:00",
   "last_error": ""
 }

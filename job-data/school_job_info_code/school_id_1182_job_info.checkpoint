@@ -22,23 +22,25 @@
       "school_id": 1182,
       "posting_url": "https://psu.wd1.myworkdayjobs.com/PSU_Academic/job/Penn-State-Beaver/Adjunct-Human-Resources-Management-Instructor_REQ_0000083431-1",
       "job_title_in_post": "Adjunct Human Resources Management Instructor",
-      "position_type": "Unclassified",
+      "position_type": "Lecturer",
       "job_term": "Part-time",
       "department_or_school": "",
       "area_key_words": "Human Resources Management",
       "deadline_of_application": "",
-      "position_start_date": "2026-10-14"
+      "posted_date": "2026-10-14",
+      "position_start_date": ""
     },
     "https://psu.wd1.myworkdayjobs.com/PSU_Academic/job/Penn-State-Beaver/Part-Time-Electrical-Circuits-Instructor_REQ_0000082695-1": {
       "school_id": 1182,
       "posting_url": "https://psu.wd1.myworkdayjobs.com/PSU_Academic/job/Penn-State-Beaver/Part-Time-Electrical-Circuits-Instructor_REQ_0000082695-1",
       "job_title_in_post": "Part Time Electrical Circuits Instructor",
-      "position_type": "Unclassified",
+      "position_type": "Lecturer",
       "job_term": "Part-time",
       "department_or_school": "",
       "area_key_words": "Electrical Circuits",
       "deadline_of_application": "",
-      "position_start_date": "2026-09-16"
+      "posted_date": "2026-09-16",
+      "position_start_date": ""
     },
     "https://psu.wd1.myworkdayjobs.com/PSU_Academic/job/Penn-State-Beaver/Continuing-Education-Part-Time-IT-Cybersecurity-Instructor_REQ_0000081866-2": {
       "school_id": 1182,
@@ -55,17 +57,18 @@
       "school_id": 1182,
       "posting_url": "https://psu.wd1.myworkdayjobs.com/PSU_Academic/job/Penn-State-Beaver/Part-Time-Healthcare-Instructor---Continuing-Education_REQ_0000068621-2",
       "job_title_in_post": "Part-Time Healthcare Instructor - Continuing Education",
-      "position_type": "Unclassified",
+      "position_type": "Lecturer",
       "job_term": "Part-time",
       "department_or_school": "",
       "area_key_words": "Healthcare",
       "deadline_of_application": "",
-      "position_start_date": "2025-06-23"
+      "posted_date": "2025-06-23",
+      "position_start_date": ""
     }
   },
   "school_id": 1182,
   "status": "complete",
-  "updated_at": "2026-10-19T20:30:45+00:00",
-  "completed_at": "2026-10-19T20:30:45+00:00",
+  "updated_at": "2026-10-29T02:17:17+00:00",
+  "completed_at": "2026-10-29T02:17:17+00:00",
   "last_error": ""
 }
