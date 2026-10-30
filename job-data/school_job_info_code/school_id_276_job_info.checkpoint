@@ -1709,6 +1709,26 @@
       "title": "Human Resources Consultant",
       "description": "Posted: 09/28/2026 Location: Atlanta, Georgia Department: Engineering, College of Human Resources Consultant",
       "department": "Engineering, College of"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305389&PostingSeq=1&SiteId=03000": {
+      "title": "Administrative Manager I",
+      "description": "Posted: 10/29/2026 Location: Atlanta, Georgia Department: Mechanical Engineering Administrative Manager I",
+      "department": "Mechanical Engineering"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305201&PostingSeq=1&SiteId=03000": {
+      "title": "Electrician II",
+      "description": "Posted: 10/29/2026 Location: Atlanta, Georgia Department: I&O Utilities and Energy Electrician II",
+      "department": "I&O Utilities and Energy"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305393&PostingSeq=1&SiteId=03000": {
+      "title": "Instrument Maker III",
+      "description": "Posted: 10/29/2026 Location: Atlanta, Georgia Department: Mechanical Engineering Instrument Maker III",
+      "department": "Mechanical Engineering"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305251&PostingSeq=1&SiteId=03000": {
+      "title": "Human Resources Coordinator",
+      "description": "Posted: 10/28/2026 Location: Atlanta, Georgia Department: College of Design Human Resources Coordinator",
+      "department": "College of Design"
     }
   },
   "rows": {
@@ -5751,11 +5771,59 @@
       "deadline_of_application": "",
       "posted_date": "09/28/2026",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305389&PostingSeq=1&SiteId=03000": {
+      "school_id": 276,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305389&PostingSeq=1&SiteId=03000",
+      "job_title_in_post": "Administrative Manager I",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Mechanical Engineering",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "10/29/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305201&PostingSeq=1&SiteId=03000": {
+      "school_id": 276,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305201&PostingSeq=1&SiteId=03000",
+      "job_title_in_post": "Electrician II",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "I&O Utilities and Energy",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "10/29/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305393&PostingSeq=1&SiteId=03000": {
+      "school_id": 276,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305393&PostingSeq=1&SiteId=03000",
+      "job_title_in_post": "Instrument Maker III",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Mechanical Engineering",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "10/29/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305251&PostingSeq=1&SiteId=03000": {
+      "school_id": 276,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305251&PostingSeq=1&SiteId=03000",
+      "job_title_in_post": "Human Resources Coordinator",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "College of Design",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "10/28/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 276,
   "status": "complete",
-  "updated_at": "2026-10-28T23:58:27+00:00",
-  "completed_at": "2026-10-28T23:58:27+00:00",
+  "updated_at": "2026-10-29T22:58:36+00:00",
+  "completed_at": "2026-10-29T22:58:36+00:00",
   "last_error": ""
 }

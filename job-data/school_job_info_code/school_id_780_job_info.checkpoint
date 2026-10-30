@@ -249,6 +249,16 @@
       "title": "Program Coordinator for SDLI and DCI",
       "description": "Coordinator, Smith Davidson Leadership Initiative and Deliberative Citizenship Programs",
       "department": null
+    },
+    "https://fa-exci-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/1063": {
+      "title": "Admin Assistant II - Office Coordinator",
+      "description": "The Administrative Assistant II role will assist with the day-to-day management and oversight of the Residence Life Office. The Admin II's primary function is to assist the professional staff members within the Residence Life Office and serves as the primary point of contact for internal and external constituents and greets students, employees, families, and visitors to the office.",
+      "department": null
+    },
+    "https://fa-exci-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/1066": {
+      "title": "Moves/Special Events Crew",
+      "description": "",
+      "department": null
     }
   },
   "rows": {
@@ -845,11 +855,35 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://fa-exci-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/1063": {
+      "school_id": 780,
+      "posting_url": "https://fa-exci-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/1063",
+      "job_title_in_post": "Admin Assistant II - Office Coordinator",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://fa-exci-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/1066": {
+      "school_id": 780,
+      "posting_url": "https://fa-exci-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/1066",
+      "job_title_in_post": "Moves/Special Events Crew",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 780,
   "status": "complete",
-  "updated_at": "2026-10-29T01:08:13+00:00",
-  "completed_at": "2026-10-29T01:08:13+00:00",
+  "updated_at": "2026-10-29T23:37:54+00:00",
+  "completed_at": "2026-10-29T23:37:54+00:00",
   "last_error": ""
 }

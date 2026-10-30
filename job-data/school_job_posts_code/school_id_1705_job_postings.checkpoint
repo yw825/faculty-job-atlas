@@ -1,9 +1,11 @@
 {
   "links": [
+    "https://my.corehr.com/pls/ucdrecruit/erq_jobspec_version_4.jobspec?p_id=020206",
     "https://my.corehr.com/pls/ucdrecruit/erq_jobspec_version_4.jobspec?p_id=020173",
     "https://my.corehr.com/pls/ucdrecruit/erq_jobspec_version_4.jobspec?p_id=020138",
     "https://my.corehr.com/pls/ucdrecruit/erq_jobspec_version_4.jobspec?p_id=020053",
     "https://my.corehr.com/pls/ucdrecruit/erq_jobspec_version_4.jobspec?p_id=020175",
+    "https://my.corehr.com/pls/ucdrecruit/erq_jobspec_version_4.jobspec?p_id=020200",
     "https://my.corehr.com/pls/ucdrecruit/erq_jobspec_version_4.jobspec?p_id=020165",
     "https://my.corehr.com/pls/ucdrecruit/erq_jobspec_version_4.jobspec?p_id=020172",
     "https://my.corehr.com/pls/ucdrecruit/erq_jobspec_version_4.jobspec?p_id=020071",
@@ -15,6 +17,7 @@
     "https://my.corehr.com/pls/ucdrecruit/erq_jobspec_version_4.jobspec?p_id=020097",
     "https://my.corehr.com/pls/ucdrecruit/erq_jobspec_version_4.jobspec?p_id=020183",
     "https://my.corehr.com/pls/ucdrecruit/erq_jobspec_version_4.jobspec?p_id=020156",
+    "https://my.corehr.com/pls/ucdrecruit/erq_jobspec_version_4.jobspec?p_id=020207",
     "https://my.corehr.com/pls/ucdrecruit/erq_jobspec_version_4.jobspec?p_id=020195",
     "https://my.corehr.com/pls/ucdrecruit/erq_jobspec_version_4.jobspec?p_id=020139",
     "https://my.corehr.com/pls/ucdrecruit/erq_jobspec_version_4.jobspec?p_id=020176",
@@ -27,9 +30,13 @@
     "https://my.corehr.com/pls/ucdrecruit/erq_jobspec_version_4.jobspec?p_id=020167",
     "https://my.corehr.com/pls/ucdrecruit/erq_jobspec_version_4.jobspec?p_id=020190",
     "https://my.corehr.com/pls/ucdrecruit/erq_jobspec_version_4.jobspec?p_id=020189",
+    "https://my.corehr.com/pls/ucdrecruit/erq_jobspec_version_4.jobspec?p_id=020203",
+    "https://my.corehr.com/pls/ucdrecruit/erq_jobspec_version_4.jobspec?p_id=020205",
+    "https://my.corehr.com/pls/ucdrecruit/erq_jobspec_version_4.jobspec?p_id=020199",
     "https://my.corehr.com/pls/ucdrecruit/erq_jobspec_version_4.jobspec?p_id=020186",
+    "https://my.corehr.com/pls/ucdrecruit/erq_jobspec_version_4.jobspec?p_id=020201",
+    "https://my.corehr.com/pls/ucdrecruit/erq_jobspec_version_4.jobspec?p_id=020202",
     "https://my.corehr.com/pls/ucdrecruit/erq_jobspec_version_4.jobspec?p_id=020180",
-    "https://my.corehr.com/pls/ucdrecruit/erq_jobspec_version_4.jobspec?p_id=020159",
     "https://my.corehr.com/pls/ucdrecruit/erq_jobspec_version_4.jobspec?p_id=020163",
     "https://my.corehr.com/pls/ucdrecruit/erq_jobspec_version_4.jobspec?p_id=020169",
     "https://my.corehr.com/pls/ucdrecruit/erq_jobspec_version_4.jobspec?p_id=020184",
@@ -39,12 +46,13 @@
     "https://my.corehr.com/pls/ucdrecruit/erq_jobspec_version_4.jobspec?p_id=020155",
     "https://my.corehr.com/pls/ucdrecruit/erq_jobspec_version_4.jobspec?p_id=020194",
     "https://my.corehr.com/pls/ucdrecruit/erq_jobspec_version_4.jobspec?p_id=020166",
-    "https://my.corehr.com/pls/ucdrecruit/erq_jobspec_version_4.jobspec?p_id=020161"
+    "https://my.corehr.com/pls/ucdrecruit/erq_jobspec_version_4.jobspec?p_id=020161",
+    "https://my.corehr.com/pls/ucdrecruit/erq_jobspec_version_4.jobspec?p_id=020198"
   ],
   "school_id": 1705,
   "status": "complete",
-  "updated_at": "2026-10-28T22:58:47+00:00",
+  "updated_at": "2026-10-29T22:11:45+00:00",
   "started_at": "2026-10-05T21:23:21+00:00",
-  "completed_at": "2026-10-28T22:58:47+00:00",
+  "completed_at": "2026-10-29T22:11:45+00:00",
   "last_error": ""
 }

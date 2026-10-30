@@ -2,6 +2,7 @@
   "links": [
     "https://phe.tbe.taleo.net/phe02/ats/careers/v2/viewRequisition?org=ARKASTAT2&cws=56&rid=40010",
     "https://phe.tbe.taleo.net/phe02/ats/careers/v2/viewRequisition?org=ARKASTAT2&cws=56&rid=40016",
+    "https://phe.tbe.taleo.net/phe02/ats/careers/v2/viewRequisition?org=ARKASTAT2&cws=56&rid=40030",
     "https://phe.tbe.taleo.net/phe02/ats/careers/v2/viewRequisition?org=ARKASTAT2&cws=56&rid=40025",
     "https://phe.tbe.taleo.net/phe02/ats/careers/v2/viewRequisition?org=ARKASTAT2&cws=56&rid=39973",
     "https://phe.tbe.taleo.net/phe02/ats/careers/v2/viewRequisition?org=ARKASTAT2&cws=56&rid=39741",
@@ -9,7 +10,6 @@
     "https://phe.tbe.taleo.net/phe02/ats/careers/v2/viewRequisition?org=ARKASTAT2&cws=56&rid=39667",
     "https://phe.tbe.taleo.net/phe02/ats/careers/v2/viewRequisition?org=ARKASTAT2&cws=56&rid=39991",
     "https://phe.tbe.taleo.net/phe02/ats/careers/v2/viewRequisition?org=ARKASTAT2&cws=56&rid=39995",
-    "https://phe.tbe.taleo.net/phe02/ats/careers/v2/viewRequisition?org=ARKASTAT2&cws=56&rid=39901",
     "https://phe.tbe.taleo.net/phe02/ats/careers/v2/viewRequisition?org=ARKASTAT2&cws=56&rid=40015",
     "https://phe.tbe.taleo.net/phe02/ats/careers/v2/viewRequisition?org=ARKASTAT2&cws=56&rid=39945",
     "https://phe.tbe.taleo.net/phe02/ats/careers/v2/viewRequisition?org=ARKASTAT2&cws=56&rid=39868",
@@ -18,12 +18,14 @@
     "https://phe.tbe.taleo.net/phe02/ats/careers/v2/viewRequisition?org=ARKASTAT2&cws=56&rid=40006",
     "https://phe.tbe.taleo.net/phe02/ats/careers/v2/viewRequisition?org=ARKASTAT2&cws=56&rid=39884",
     "https://phe.tbe.taleo.net/phe02/ats/careers/v2/viewRequisition?org=ARKASTAT2&cws=56&rid=40018",
-    "https://phe.tbe.taleo.net/phe02/ats/careers/v2/viewRequisition?org=ARKASTAT2&cws=56&rid=40005"
+    "https://phe.tbe.taleo.net/phe02/ats/careers/v2/viewRequisition?org=ARKASTAT2&cws=56&rid=40026",
+    "https://phe.tbe.taleo.net/phe02/ats/careers/v2/viewRequisition?org=ARKASTAT2&cws=56&rid=40005",
+    "https://phe.tbe.taleo.net/phe02/ats/careers/v2/viewRequisition?org=ARKASTAT2&cws=56&rid=40017"
   ],
   "school_id": 41,
   "status": "complete",
-  "updated_at": "2026-10-28T17:24:16+00:00",
+  "updated_at": "2026-10-29T17:06:21+00:00",
   "started_at": "2026-09-08T01:11:23+00:00",
-  "completed_at": "2026-10-28T17:24:16+00:00",
+  "completed_at": "2026-10-29T17:06:21+00:00",
   "last_error": ""
 }

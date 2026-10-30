@@ -719,6 +719,15 @@
     "https://faculty.utexas.edu/career/191069": {
       "title": "English",
       "description": "English - 2026-27 Professional Track Faculty Pool - Faculty Careers - UT Austin UT Austin Home The University of Texas at Austin Faculty Careers All Positions College of Liberal Arts English - 2026-27 Professional Track Faculty Pool Apply now Description The Department of English seeks to develop a pool of candidates for possible temporary/nontenured positions to teach undergraduate and graduate courses. Positions are not available every semester and are contingent upon student enrollment and the availability of funding. Appointments are usually made on a semester-by-semester basis, though sometimes there is departmental need for an annual appointment. Positions are renewable annually, contingent upon budgetary funding and performance. Qualifications A PhD in English or a terminal degree in field and a record of teaching excellence are preferred. Application Instructions Please submit a cover letter, curriculum vitae, and names and contact information of three references. Equal Employment Opportunity Statement The University of Texas at Austin, as an equal opportunity/affirmative action employer, complies with all applicable federal and state laws regarding nondiscrimination and affirmative action. The University is committed to a policy of equal opportunity for all persons and does not discriminate on the basis of race, color, national origin, age, marital status, sex, sexual orientation, gender identity, gender expression, disability, religion, or veteran status in employment, educational programs and activities, and admissions. College / School / Unit College of Liberal Arts Department Department of English Posted Sep 2, 2026 Apply by Aug 15, 2027 Applying UT Austin uses Interfolio to manage the application process. Need help? Contact help and support . Share Email Facebook LinkedIn Twitter UT Austin Home Learn more about UT Contact us Phone 512-475-4363 110 Inner Campus Dr. STOP G1000 Austin, TX 78712-1701 Careers Search Why UT Life & Work Quicklinks UT Austin Home Site Policies Web Privacy Policy Emergency Information Web Accessibility Policy Adobe Reader"
+    },
+    "https://faculty.utexas.edu/career/195218": {
+      "error": "Error: It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead."
+    },
+    "https://faculty.utexas.edu/career/195214": {
+      "error": "Error: It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead."
+    },
+    "https://faculty.utexas.edu/career/195207": {
+      "error": "Error: It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead."
     }
   },
   "rows": {
@@ -2876,11 +2885,20 @@
       "deadline_of_application": "Aug 15, 2027",
       "posted_date": "Sep 2, 2026",
       "position_start_date": ""
+    },
+    "https://faculty.utexas.edu/career/195218": {
+      "error": "Error: It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead."
+    },
+    "https://faculty.utexas.edu/career/195214": {
+      "error": "Error: It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead."
+    },
+    "https://faculty.utexas.edu/career/195207": {
+      "error": "Error: It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead."
     }
   },
   "school_id": 1367,
   "status": "complete",
-  "updated_at": "2026-10-29T02:28:43+00:00",
-  "completed_at": "2026-10-29T02:28:43+00:00",
+  "updated_at": "2026-10-30T00:19:24+00:00",
+  "completed_at": "2026-10-30T00:19:24+00:00",
   "last_error": ""
 }

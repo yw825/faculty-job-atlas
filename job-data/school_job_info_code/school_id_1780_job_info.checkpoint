@@ -63,6 +63,10 @@
     "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225322": {
       "title": "Director, Enterprise Risk and Assurance",
       "description": "Director, Enterprise Risk and Assurance. University of New England. Reference 225322. 225322 Director, Enterprise Risk and Assurance Executive - 5 Year - Full-time - Fixed Term Contract Governance 18-NOV-2026 11:59:59 pm"
+    },
+    "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225323": {
+      "title": "HDR Senior Support Leader",
+      "description": "HDR Senior Support Leader. University of New England. Reference 225323. 225323 HDR Senior Support Leader Professional - Continuing - Full - time - HEO7 Graduate Research School 22-NOV-2026 11:59:59 pm"
     }
   },
   "rows": {
@@ -251,11 +255,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225323": {
+      "school_id": 1780,
+      "posting_url": "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225323",
+      "job_title_in_post": "HDR Senior Support Leader",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1780,
   "status": "complete",
-  "updated_at": "2026-10-29T03:02:02+00:00",
-  "completed_at": "2026-10-29T03:02:02+00:00",
+  "updated_at": "2026-10-30T00:40:47+00:00",
+  "completed_at": "2026-10-30T00:40:47+00:00",
   "last_error": ""
 }

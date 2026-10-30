@@ -691,6 +691,9 @@
     },
     "https://careers.eku.edu/jobs/wellness-peer-educator-richmond-campus-kentucky-united-states": {
       "error": "Error: It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead."
+    },
+    "https://careers.eku.edu/jobs/student-it-associate-richmond-campus-kentucky-united-states": {
+      "error": "Error: It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead."
     }
   },
   "rows": {
@@ -2625,11 +2628,14 @@
     },
     "https://careers.eku.edu/jobs/wellness-peer-educator-richmond-campus-kentucky-united-states": {
       "error": "Error: It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead."
+    },
+    "https://careers.eku.edu/jobs/student-it-associate-richmond-campus-kentucky-united-states": {
+      "error": "Error: It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead."
     }
   },
   "school_id": 506,
   "status": "complete",
-  "updated_at": "2026-10-29T00:33:41+00:00",
-  "completed_at": "2026-10-29T00:33:41+00:00",
+  "updated_at": "2026-10-29T23:18:28+00:00",
+  "completed_at": "2026-10-29T23:18:28+00:00",
   "last_error": ""
 }

@@ -18,12 +18,20 @@
     "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=77bf9053-07ed-47ba-b601-d78b61854199&ccId=9200563802212_2&jobId=9201197727098_1&lang=en_US",
     "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=77bf9053-07ed-47ba-b601-d78b61854199&ccId=9200563802212_2&jobId=9201196538014_1&lang=en_US",
     "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=77bf9053-07ed-47ba-b601-d78b61854199&ccId=9200563802212_2&jobId=9201169687336_1&lang=en_US",
-    "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=77bf9053-07ed-47ba-b601-d78b61854199&ccId=9200563802212_2&jobId=9200557661434_1&lang=en_US"
+    "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=77bf9053-07ed-47ba-b601-d78b61854199&ccId=9200563802212_2&jobId=9200557661434_1&lang=en_US",
+    "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=77bf9053-07ed-47ba-b601-d78b61854199&ccId=9200563802212_2&jobId=9201236572556_1&lang=en_US",
+    "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=77bf9053-07ed-47ba-b601-d78b61854199&ccId=9200563802212_2&jobId=9201235438298_1&lang=en_US",
+    "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=77bf9053-07ed-47ba-b601-d78b61854199&ccId=9200563802212_2&jobId=9201230796538_1&lang=en_US",
+    "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=77bf9053-07ed-47ba-b601-d78b61854199&ccId=9200563802212_2&jobId=9201229034835_1&lang=en_US",
+    "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=77bf9053-07ed-47ba-b601-d78b61854199&ccId=9200563802212_2&jobId=9201221986103_1&lang=en_US",
+    "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=77bf9053-07ed-47ba-b601-d78b61854199&ccId=9200563802212_2&jobId=9201128765012_1&lang=en_US",
+    "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=77bf9053-07ed-47ba-b601-d78b61854199&ccId=9200563802212_2&jobId=9200911832245_1&lang=en_US"
   ],
   "school_id": 235,
   "status": "complete",
-  "updated_at": "2026-10-28T17:49:25+00:00",
+  "updated_at": "2026-10-29T17:32:15+00:00",
   "started_at": "2026-09-08T01:26:04+00:00",
-  "completed_at": "2026-10-28T17:49:25+00:00",
-  "last_error": ""
+  "completed_at": "2026-10-29T17:32:15+00:00",
+  "last_error": "",
+  "last_warning": "2026-10-29T17:32:15+00:00: board returned 7 links vs 19 before; old set kept"
 }

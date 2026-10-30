@@ -14,6 +14,11 @@
       "title": "Associate Director, Development (2026-MP-22)",
       "description": "Managerial & Professional Vacancy\nAssociate Director, Development in the Department of Advancement & Alumni",
       "department": null
+    },
+    "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4329": {
+      "title": "Zone Supervisor - Facility Services Operations",
+      "description": "Managerial & Professional - Zone Supervisor, Facility Services Operations (2026-MP-23)",
+      "department": null
     }
   },
   "rows": {
@@ -52,11 +57,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4329": {
+      "school_id": 1637,
+      "posting_url": "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4329",
+      "job_title_in_post": "Zone Supervisor - Facility Services Operations",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1637,
   "status": "complete",
-  "updated_at": "2026-10-29T03:23:30+00:00",
-  "completed_at": "2026-10-29T03:23:30+00:00",
+  "updated_at": "2026-10-30T00:57:48+00:00",
+  "completed_at": "2026-10-30T00:57:48+00:00",
   "last_error": ""
 }

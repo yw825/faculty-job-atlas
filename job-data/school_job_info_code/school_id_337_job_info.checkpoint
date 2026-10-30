@@ -35,6 +35,10 @@
     "https://clarke.applicantpool.com/jobs/105202": {
       "title": "Security Officer- Part Time",
       "description": "Security Officer- Part Time. Clarke University. At Clarke University, everything we do is focused on making an impact on students so they can positively impact the world. For students, it means a place where more than facts are studied it means new ways of thinking are explored. For faculty and staff, it means more than just coming to work every day it means truly collaborating across the university to put student success first. It also means living and working in a thriving city named one of the \"most livable\" small cities in the country and one of \"Best Green Places\" in the country. The university is currently seeking qualified individuals to serve as part time Security Officers on the Campus Safety and Security team. These positions will work approximately 20 hours per week with variable shifts that will mostly be nights and weekends. Duties to include: following established rounds, monitoring security radio, enforcing parking regulations, opening and closing buildings and monitoring their mechanical operations, assisting police and fire depts. with any on campus incidents, writing security reports, and responding to service/emergency calls as needed. Occasional general light maintenance (changing light bulbs, changing smoke detector batteries, shoveling snow, etc.) will also be required. Hours will vary, but will primarily be nights and weekends . Position requires extensive walking in and outdoors in all weather conditions. Requirements: H.S. diploma, knowledge of procedures involved in building and grounds security work, valid drivers license, and strong customer service/communication skills. Direct experience in security and CPR, AED, first aid, or first responder certification preferred. (A criminal history background check will be completed prior to hire). To apply, please complete our online application at http://clarke.applicantpool.com/jobs . Please upload a current resume directly to this site along with contact information for three references."
+    },
+    "https://clarke.applicantpool.com/jobs/1338468": {
+      "title": "Graduate Assistant- Men's Soccer",
+      "description": "Graduate Assistant- Men's Soccer. Clarke University. Clarke University invites applications for the graduate assistant coaching position in the men's soccer program to begin in January 2027. Responsibilities include assisting with the operation and management of the men's soccer program in accordance with university and NAIA philosophies. A bachelor's degree is required, and applicants must be admitted into a graduate degree program. To apply, upload a current resume and letter of interest at http://clarke.applicantpool.com . Review of applications will begin immediately and continue until the position is filled."
     }
   },
   "rows": {
@@ -143,11 +147,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://clarke.applicantpool.com/jobs/1338468": {
+      "school_id": 337,
+      "posting_url": "https://clarke.applicantpool.com/jobs/1338468",
+      "job_title_in_post": "Graduate Assistant- Men's Soccer",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 337,
   "status": "complete",
-  "updated_at": "2026-10-29T00:07:08+00:00",
-  "completed_at": "2026-10-29T00:07:08+00:00",
+  "updated_at": "2026-10-29T23:06:17+00:00",
+  "completed_at": "2026-10-29T23:06:17+00:00",
   "last_error": ""
 }

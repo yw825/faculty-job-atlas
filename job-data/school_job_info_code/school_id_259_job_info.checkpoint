@@ -67,6 +67,10 @@
     "https://eckerd.exacthire.com/job/210062": {
       "title": "Associate Director of Financial Aid, Job In Eckerd College At St. Petersburg, FL",
       "description": "Associate Director of Financial Aid, Job In Eckerd College At St. Petersburg, FL"
+    },
+    "https://eckerd.exacthire.com/job/210654": {
+      "title": "Assistant Professor of Theatre Design and Technology, tenure-track, Job In Eckerd College At St. Petersburg, FL",
+      "description": "Assistant Professor of Theatre Design and Technology, tenure-track, Job In Eckerd College At St. Petersburg, FL"
     }
   },
   "rows": {
@@ -271,11 +275,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://eckerd.exacthire.com/job/210654": {
+      "school_id": 259,
+      "posting_url": "https://eckerd.exacthire.com/job/210654",
+      "job_title_in_post": "Assistant Professor of Theatre Design and Technology, tenure-track, Job In Eckerd College At St. Petersburg, FL",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 259,
   "status": "complete",
-  "updated_at": "2026-10-28T23:53:59+00:00",
-  "completed_at": "2026-10-28T23:53:59+00:00",
+  "updated_at": "2026-10-29T22:55:45+00:00",
+  "completed_at": "2026-10-29T22:55:45+00:00",
   "last_error": ""
 }

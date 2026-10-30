@@ -27,9 +27,9 @@
     "https://louisiana.csod.com/ux/ats/careersite/1/home/requisition/2584?c=louisiana"
   ],
   "school_id": 514,
-  "status": "complete",
-  "updated_at": "2026-10-28T18:34:53+00:00",
+  "status": "error",
+  "updated_at": "2026-10-29T18:20:44+00:00",
   "started_at": "2026-09-08T01:53:54+00:00",
   "completed_at": "2026-10-28T18:34:53+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: cornerstone page made no job search request"
 }

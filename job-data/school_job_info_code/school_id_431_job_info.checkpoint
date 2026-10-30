@@ -149,6 +149,11 @@
       "title": "Police Dispatcher",
       "description": "The Police Dispatcher supports campus safety and operations at Butler University by receiving calls for assistance, dispatching Public Safety officers, and monitoring alarms and video surveillance systems. This position also coordinates emergency and after-hours service requests, manages electronic building access, and provides responsive, professional customer service to the campus community.\n\nWork Schedule: This is a full-time position working 80 hours over a two-week pay period on a rotating shift schedule. The primary shift is 7:00 p.m. to 7:00 a.m.; however, employees will also be required to work 3:00 p.m. to 11:00 p.m. and 11:00 p.m. to 7:00 a.m. shifts within the same two-week period. Flexibility to accommodate all three shifts is required.",
       "department": null
+    },
+    "https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2253": {
+      "title": "Director of Experiential Learning",
+      "description": "The Director of Experiential Learning serves as the strategic and operational leader responsible for implementing, scaling, and overseeing the university-wide Experiential Learning for All initiative. This position collaborates across academic and administrative units to develop centralized infrastructure, establish systems and processes, implement quality measures, and coordinate university-wide tracking to ensure equitable student access while supporting college ownership of learning. The Director also partners with internal and external stakeholders to integrate high-impact experiential opportunities into degree requirements, academic advising, career mentoring, and the broader Boldly Butler strategic vision.",
+      "department": null
     }
   },
   "rows": {
@@ -503,11 +508,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2253": {
+      "school_id": 431,
+      "posting_url": "https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2253",
+      "job_title_in_post": "Director of Experiential Learning",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Experiential Learning",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 431,
   "status": "complete",
-  "updated_at": "2026-10-29T00:24:50+00:00",
-  "completed_at": "2026-10-29T00:24:50+00:00",
+  "updated_at": "2026-10-29T23:13:09+00:00",
+  "completed_at": "2026-10-29T23:13:09+00:00",
   "last_error": ""
 }

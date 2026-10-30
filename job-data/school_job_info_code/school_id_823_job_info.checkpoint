@@ -527,6 +527,12 @@
     },
     "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2959545&PostingSeq=1&SiteId=1": {
       "error": "not present in bulk fetch result"
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960141&PostingSeq=1&SiteId=1": {
+      "error": "not present in bulk fetch result"
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960159&PostingSeq=1&SiteId=1": {
+      "error": "not present in bulk fetch result"
     }
   },
   "rows": {
@@ -1726,11 +1732,17 @@
     },
     "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2959545&PostingSeq=1&SiteId=1": {
       "error": "not present in bulk fetch result"
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960141&PostingSeq=1&SiteId=1": {
+      "error": "not present in bulk fetch result"
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960159&PostingSeq=1&SiteId=1": {
+      "error": "not present in bulk fetch result"
     }
   },
   "school_id": 823,
   "status": "complete",
-  "updated_at": "2026-10-29T01:17:14+00:00",
-  "completed_at": "2026-10-29T01:17:14+00:00",
+  "updated_at": "2026-10-29T23:41:05+00:00",
+  "completed_at": "2026-10-29T23:41:05+00:00",
   "last_error": ""
 }

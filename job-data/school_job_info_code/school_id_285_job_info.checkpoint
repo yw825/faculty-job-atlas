@@ -884,6 +884,16 @@
       "title": "Print and Mail Operations Specialist",
       "description": "Posted: 10/27/2026 Location: UWG Recruiting Location Department: Duplicating-Xerox Print and Mail Operations Specialist",
       "department": "Duplicating-Xerox"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305458&PostingSeq=1&SiteId=54000": {
+      "title": "eCampus Instructional Designer",
+      "description": "Posted: 10/29/2026 Location: UWG Recruiting Location eCampus Instructional Designer",
+      "department": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305306&PostingSeq=1&SiteId=54000": {
+      "title": "Residential Building Services Associate",
+      "description": "Posted: 10/28/2026 Location: UWG Recruiting Location Department: FDS - Custodial Services Residential Building Services Associate",
+      "department": "FDS - Custodial Services"
     }
   },
   "rows": {
@@ -2988,11 +2998,35 @@
       "deadline_of_application": "",
       "posted_date": "10/27/2026",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305458&PostingSeq=1&SiteId=54000": {
+      "school_id": 285,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305458&PostingSeq=1&SiteId=54000",
+      "job_title_in_post": "eCampus Instructional Designer",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "10/29/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305306&PostingSeq=1&SiteId=54000": {
+      "school_id": 285,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305306&PostingSeq=1&SiteId=54000",
+      "job_title_in_post": "Residential Building Services Associate",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "FDS - Custodial Services",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "10/28/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 285,
   "status": "complete",
-  "updated_at": "2026-10-29T00:00:12+00:00",
-  "completed_at": "2026-10-29T00:00:12+00:00",
+  "updated_at": "2026-10-29T23:00:15+00:00",
+  "completed_at": "2026-10-29T23:00:15+00:00",
   "last_error": ""
 }

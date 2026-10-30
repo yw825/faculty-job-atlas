@@ -5,6 +5,7 @@
     "https://bi.easycruit.com/vacancy/3666269/200453?iso=no",
     "https://bi.easycruit.com/vacancy/3666267/200453?iso=no",
     "https://bi.easycruit.com/vacancy/3665567/45436?iso=no",
+    "https://bi.easycruit.com/vacancy/3664851/200453?iso=no",
     "https://bi.easycruit.com/vacancy/3663827/200453?iso=no",
     "https://bi.easycruit.com/vacancy/3663821/200453?iso=no",
     "https://bi.easycruit.com/vacancy/3663805/200453?iso=no",
@@ -18,9 +19,9 @@
     "https://bi.easycruit.com/vacancy/3658427/44968?iso=no"
   ],
   "school_id": 1725,
-  "status": "error",
-  "updated_at": "2026-10-28T23:13:36+00:00",
+  "status": "complete",
+  "updated_at": "2026-10-29T22:21:23+00:00",
   "started_at": "2026-09-09T17:24:21+00:00",
-  "completed_at": "2026-10-27T22:36:52+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.content: Unable to retrieve content because the page is navigating and changing the content."
+  "completed_at": "2026-10-29T22:21:23+00:00",
+  "last_error": ""
 }

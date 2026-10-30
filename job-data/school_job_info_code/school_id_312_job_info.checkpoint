@@ -1239,6 +1239,21 @@
       "title": "Work Study Student - Dean of Students - Front Desk Assistant (Spring 2027)",
       "description": "Posted: 10/27/2026 Location: Statesboro, Georgia Department: CWSP-Campus Match Work Study Student - Dean of Students - Front Desk Assistant (Spring 2027)",
       "department": "CWSP-Campus Match"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305456&PostingSeq=1&SiteId=39000": {
+      "title": "Academic Advisor I (Applicant Pool)",
+      "description": "Posted: 10/29/2026 Location: Multiple Department: Office of Advising Academic Advisor I (Applicant Pool)",
+      "department": "Office of Advising"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305471&PostingSeq=1&SiteId=39000": {
+      "title": "Medical Assistant - Armstrong",
+      "description": "Posted: 10/29/2026 Location: Georgia Southern - Savannah Department: General Health Services Medical Assistant - Armstrong",
+      "department": "General Health Services"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305480&PostingSeq=1&SiteId=39000": {
+      "title": "Student Assistant - Printing and Postal Services - Front Desk Assistant (Fall 2026)",
+      "description": "Posted: 10/29/2026 Location: Statesboro, Georgia Department: Campus Postal Services Student Assistant - Printing and Postal Services - Front Desk Assistant (Fall 2026)",
+      "department": "Campus Postal Services"
     }
   },
   "rows": {
@@ -4202,11 +4217,47 @@
       "deadline_of_application": "",
       "posted_date": "10/27/2026",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305456&PostingSeq=1&SiteId=39000": {
+      "school_id": 312,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305456&PostingSeq=1&SiteId=39000",
+      "job_title_in_post": "Academic Advisor I (Applicant Pool)",
+      "position_type": "Unclassified",
+      "job_term": "Part-time",
+      "department_or_school": "Office of Advising",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "10/29/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305471&PostingSeq=1&SiteId=39000": {
+      "school_id": 312,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305471&PostingSeq=1&SiteId=39000",
+      "job_title_in_post": "Medical Assistant - Armstrong",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "General Health Services",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "10/29/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305480&PostingSeq=1&SiteId=39000": {
+      "school_id": 312,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305480&PostingSeq=1&SiteId=39000",
+      "job_title_in_post": "Student Assistant - Printing and Postal Services - Front Desk Assistant (Fall 2026)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Campus Postal Services",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "10/29/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 312,
   "status": "complete",
-  "updated_at": "2026-10-29T00:04:37+00:00",
-  "completed_at": "2026-10-29T00:04:37+00:00",
+  "updated_at": "2026-10-29T23:04:21+00:00",
+  "completed_at": "2026-10-29T23:04:21+00:00",
   "last_error": ""
 }

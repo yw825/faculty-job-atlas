@@ -224,6 +224,11 @@
       "title": "Lecturer of English",
       "description": "Posted: 10/19/2026 Location: Americus, Georgia Department: University College Lecturer of English",
       "department": "University College"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305461&PostingSeq=1&SiteId=42000": {
+      "title": "Golf Course Grounds Maintenance Worker",
+      "description": "Posted: 10/29/2026 Location: Americus, Georgia Department: GSW G&CC Grounds Golf Course Grounds Maintenance Worker",
+      "department": "GSW G&CC Grounds"
     }
   },
   "rows": {
@@ -765,11 +770,23 @@
       "deadline_of_application": "",
       "posted_date": "10/19/2026",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305461&PostingSeq=1&SiteId=42000": {
+      "school_id": 271,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305461&PostingSeq=1&SiteId=42000",
+      "job_title_in_post": "Golf Course Grounds Maintenance Worker",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "GSW G&CC Grounds",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "10/29/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 271,
   "status": "complete",
-  "updated_at": "2026-10-28T23:57:47+00:00",
-  "completed_at": "2026-10-28T23:57:47+00:00",
+  "updated_at": "2026-10-29T22:57:50+00:00",
+  "completed_at": "2026-10-29T22:57:50+00:00",
   "last_error": ""
 }

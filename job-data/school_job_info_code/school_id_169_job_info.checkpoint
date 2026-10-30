@@ -474,6 +474,18 @@
     },
     "https://jobs.du.edu/jobs/manager-on-duty-newman-center-for-performing-arts-denver-co-colorado-united-states-513fa4fc-4915-447c-bf50-2c4c847ce81f": {
       "error": "RuntimeError: posting content not found (closed?)"
+    },
+    "https://jobs.du.edu/jobs/building-services-specialist-denver-co-colorado-united-states-226ab08f-77b2-45cc-b842-8e4332395b97": {
+      "error": "RuntimeError: posting content not found (closed?)"
+    },
+    "https://jobs.du.edu/jobs/skilled-trade-assistant-denver-co-colorado-united-states": {
+      "error": "RuntimeError: posting content not found (closed?)"
+    },
+    "https://jobs.du.edu/jobs/maintenance-worker-iv-denver-co-colorado-united-states-174dc64f-9b8f-4f33-af57-bb3041341797": {
+      "error": "RuntimeError: posting content not found (closed?)"
+    },
+    "https://jobs.du.edu/jobs/senior-manager-systems-operations-denver-co-colorado-united-states": {
+      "error": "RuntimeError: posting content not found (closed?)"
     }
   },
   "rows": {
@@ -1294,11 +1306,23 @@
     },
     "https://jobs.du.edu/jobs/manager-on-duty-newman-center-for-performing-arts-denver-co-colorado-united-states-513fa4fc-4915-447c-bf50-2c4c847ce81f": {
       "error": "RuntimeError: posting content not found (closed?)"
+    },
+    "https://jobs.du.edu/jobs/building-services-specialist-denver-co-colorado-united-states-226ab08f-77b2-45cc-b842-8e4332395b97": {
+      "error": "RuntimeError: posting content not found (closed?)"
+    },
+    "https://jobs.du.edu/jobs/skilled-trade-assistant-denver-co-colorado-united-states": {
+      "error": "RuntimeError: posting content not found (closed?)"
+    },
+    "https://jobs.du.edu/jobs/maintenance-worker-iv-denver-co-colorado-united-states-174dc64f-9b8f-4f33-af57-bb3041341797": {
+      "error": "RuntimeError: posting content not found (closed?)"
+    },
+    "https://jobs.du.edu/jobs/senior-manager-systems-operations-denver-co-colorado-united-states": {
+      "error": "RuntimeError: posting content not found (closed?)"
     }
   },
   "school_id": 169,
   "status": "complete",
-  "updated_at": "2026-10-28T23:43:04+00:00",
-  "completed_at": "2026-10-28T23:43:04+00:00",
+  "updated_at": "2026-10-29T22:48:33+00:00",
+  "completed_at": "2026-10-29T22:48:33+00:00",
   "last_error": ""
 }

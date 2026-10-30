@@ -504,6 +504,16 @@
       "title": "Maintenance Mechanic 2",
       "description": "Posted: 10/27/2026 Location: Ellensburg, WA Department: Mechanical Shop Maintenance Mechanic 2",
       "department": "Mechanical Shop"
+    },
+    "https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=7600&PostingSeq=1&SiteId=1": {
+      "title": "IT Customer Support - Journey",
+      "description": "Posted: 10/28/2026 Location: Ellensburg, WA Department: Service Desk IT Customer Support - Journey",
+      "department": "Service Desk"
+    },
+    "https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=7274&PostingSeq=1&SiteId=1": {
+      "title": "Lecturer Pool - Marketing",
+      "description": "Posted: 04/01/2026 Location: Ellensburg, WA Department: Management Lecturer Pool - Marketing",
+      "department": "Management"
     }
   },
   "rows": {
@@ -1718,11 +1728,35 @@
       "deadline_of_application": "",
       "posted_date": "10/27/2026",
       "position_start_date": ""
+    },
+    "https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=7600&PostingSeq=1&SiteId=1": {
+      "school_id": 1512,
+      "posting_url": "https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=7600&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "IT Customer Support - Journey",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Service Desk",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "10/28/2026",
+      "position_start_date": ""
+    },
+    "https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=7274&PostingSeq=1&SiteId=1": {
+      "school_id": 1512,
+      "posting_url": "https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=7274&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Lecturer Pool - Marketing",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "Management",
+      "area_key_words": "Marketing",
+      "deadline_of_application": "",
+      "posted_date": "04/01/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 1512,
   "status": "complete",
-  "updated_at": "2026-10-29T02:40:30+00:00",
-  "completed_at": "2026-10-29T02:40:30+00:00",
+  "updated_at": "2026-10-30T00:29:01+00:00",
+  "completed_at": "2026-10-30T00:29:01+00:00",
   "last_error": ""
 }

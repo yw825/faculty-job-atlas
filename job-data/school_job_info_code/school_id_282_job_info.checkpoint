@@ -2442,6 +2442,26 @@
       "title": "Open Rank Dentistry Faculty, DCG-Pediatric Dentistry",
       "description": "Posted: 10/26/2026 Location: Augusta University Department: DCG-Pediatric Dentistry Open Rank Dentistry Faculty, DCG-Pediatric Dentistry",
       "department": "DCG-Pediatric Dentistry"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303070&PostingSeq=1&SiteId=12000": {
+      "title": "Network Engineer 1",
+      "description": "Posted: 10/29/2026 Location: Augusta University Department: Information Technology Network Engineer 1",
+      "department": "Information Technology"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304811&PostingSeq=1&SiteId=12000": {
+      "title": "Office Specialist",
+      "description": "Posted: 10/29/2026 Location: Summerville Campus Department: SCCS-Computer & Cyber Sciences Office Specialist",
+      "department": "SCCS-Computer & Cyber Sciences"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302086&PostingSeq=1&SiteId=12000": {
+      "title": "Ast Env Svcs Manager",
+      "description": "Posted: 10/28/2026 Location: Augusta University Department: Environmental Services Ast Env Svcs Manager",
+      "department": "Environmental Services"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305446&PostingSeq=1&SiteId=12000": {
+      "title": "Open Rank - Clinical Faculty in Hospice and Palliative Medicine",
+      "description": "Posted: 10/28/2026 Location: Augusta University Department: MCG-Med-Hospital Medicine Open Rank - Clinical Faculty in Hospice and Palliative Medicine",
+      "department": "MCG-Med-Hospital Medicine"
     }
   },
   "rows": {
@@ -8266,11 +8286,59 @@
       "deadline_of_application": "",
       "posted_date": "10/26/2026",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303070&PostingSeq=1&SiteId=12000": {
+      "school_id": 282,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303070&PostingSeq=1&SiteId=12000",
+      "job_title_in_post": "Network Engineer 1",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Information Technology",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "10/29/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304811&PostingSeq=1&SiteId=12000": {
+      "school_id": 282,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304811&PostingSeq=1&SiteId=12000",
+      "job_title_in_post": "Office Specialist",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "SCCS-Computer & Cyber Sciences",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "10/29/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302086&PostingSeq=1&SiteId=12000": {
+      "school_id": 282,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302086&PostingSeq=1&SiteId=12000",
+      "job_title_in_post": "Ast Env Svcs Manager",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Environmental Services",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "10/28/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305446&PostingSeq=1&SiteId=12000": {
+      "school_id": 282,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305446&PostingSeq=1&SiteId=12000",
+      "job_title_in_post": "Open Rank - Clinical Faculty in Hospice and Palliative Medicine",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "MCG-Med-Hospital Medicine",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "10/28/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 282,
   "status": "complete",
-  "updated_at": "2026-10-28T23:59:16+00:00",
-  "completed_at": "2026-10-28T23:59:16+00:00",
+  "updated_at": "2026-10-29T22:59:21+00:00",
+  "completed_at": "2026-10-29T22:59:21+00:00",
   "last_error": ""
 }

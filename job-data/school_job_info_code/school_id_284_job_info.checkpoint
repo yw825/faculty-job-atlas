@@ -304,6 +304,21 @@
       "title": "Network and Access Specialist",
       "description": "Posted: 10/19/2026 Location: CCGA- Main Campus (Brunswick) Department: Technology Services Network and Access Specialist",
       "department": "Technology Services"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305419&PostingSeq=1&SiteId=63000": {
+      "title": "Custodian",
+      "description": "Posted: 10/29/2026 Location: CCGA- Main Campus (Brunswick) Department: Custodial Services Custodian",
+      "department": "Custodial Services"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305405&PostingSeq=1&SiteId=63000": {
+      "title": "Classroom Technology Specialist",
+      "description": "Posted: 10/28/2026 Location: CCGA- Main Campus (Brunswick) Department: Academic Affairs Classroom Technology Specialist",
+      "department": "Academic Affairs"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305403&PostingSeq=1&SiteId=63000": {
+      "title": "Student Success Coach",
+      "description": "Posted: 10/28/2026 Location: CCGA- Main Campus (Brunswick) Department: Academic Affairs Student Success Coach",
+      "department": "Academic Affairs"
     }
   },
   "rows": {
@@ -1034,11 +1049,47 @@
       "deadline_of_application": "",
       "posted_date": "10/19/2026",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305419&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305419&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Custodian",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Custodial Services",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "10/29/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305405&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305405&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Classroom Technology Specialist",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Academic Affairs",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "10/28/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305403&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305403&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Student Success Coach",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Academic Affairs",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "10/28/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 284,
   "status": "complete",
-  "updated_at": "2026-10-28T23:59:43+00:00",
-  "completed_at": "2026-10-28T23:59:43+00:00",
+  "updated_at": "2026-10-29T22:59:49+00:00",
+  "completed_at": "2026-10-29T22:59:49+00:00",
   "last_error": ""
 }

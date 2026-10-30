@@ -1,12 +1,16 @@
 {
   "links": [
+    "https://jobs.du.edu/jobs/building-services-specialist-denver-co-colorado-united-states-226ab08f-77b2-45cc-b842-8e4332395b97",
+    "https://jobs.du.edu/jobs/skilled-trade-assistant-denver-co-colorado-united-states",
+    "https://jobs.du.edu/jobs/maintenance-worker-iv-denver-co-colorado-united-states-174dc64f-9b8f-4f33-af57-bb3041341797",
+    "https://jobs.du.edu/jobs/senior-manager-systems-operations-denver-co-colorado-united-states",
     "https://jobs.du.edu/jobs/manager-on-duty-newman-center-for-performing-arts-denver-co-colorado-united-states-513fa4fc-4915-447c-bf50-2c4c847ce81f",
+    "https://jobs.du.edu/jobs/social-media-manager-denver-co-colorado-united-states",
     "https://jobs.du.edu/jobs/executive-assistant-and-office-operations-manager-office-of-the-general-counsel-denver-co-colorado-united-states",
     "https://jobs.du.edu/jobs/associate-teacher-preschool-prek-fisher-early-learning-center-denver-co-colorado-united-states",
     "https://jobs.du.edu/jobs/content-marketing-specialist-denver-co-colorado-united-states",
     "https://jobs.du.edu/jobs/part-time-front-desk-coordinator-denver-co-colorado-united-states",
     "https://jobs.du.edu/jobs/part-time-event-manager-denver-co-colorado-united-states",
-    "https://jobs.du.edu/jobs/social-media-manager-denver-co-colorado-united-states",
     "https://jobs.du.edu/jobs/team-lead-du-bar-success-program-denver-co-colorado-united-states-c03ebb1a-6d24-4f98-8be0-5ffee676df66",
     "https://jobs.du.edu/jobs/writing-adviser-du-bar-success-program-denver-co-colorado-united-states-8e3a2aa8-f9ac-4870-8edd-21e159dafbd5",
     "https://jobs.du.edu/jobs/coach-du-bar-success-program-denver-co-colorado-united-states-d0c28aee-bb4e-41c0-8a7b-dd8bde8bdb22",
@@ -94,9 +98,9 @@
     "https://jobs.du.edu/jobs/lifeguard-denver-co-colorado-united-states"
   ],
   "school_id": 169,
-  "status": "error",
-  "updated_at": "2026-10-28T17:39:10+00:00",
+  "status": "complete",
+  "updated_at": "2026-10-29T17:22:36+00:00",
   "started_at": "2026-09-08T01:21:49+00:00",
-  "completed_at": "2026-10-27T17:18:06+00:00",
-  "last_error": "RuntimeError: denver board listed no jobs"
+  "completed_at": "2026-10-29T17:22:36+00:00",
+  "last_error": ""
 }

@@ -35,6 +35,10 @@
     "https://my.uiu.edu/ICS/Employment_Opportunities.jnz#fisheries-crew-leader": {
       "title": "Fisheries Crew Leader",
       "description": "Fisheries Crew Leader. Department: Department of Science and Math. Classification: Staff. Full Time. Posted: 10/27/2026."
+    },
+    "https://my.uiu.edu/ICS/Employment_Opportunities.jnz#prospect-manager": {
+      "title": "Prospect Manager",
+      "description": "Prospect Manager. Department: Advancement/Alumni. Classification: Staff. Full Time. Posted: 10/29/2026."
     }
   },
   "rows": {
@@ -145,11 +149,23 @@
       "deadline_of_application": "",
       "posted_date": "10/27/2026",
       "position_start_date": ""
+    },
+    "https://my.uiu.edu/ICS/Employment_Opportunities.jnz#prospect-manager": {
+      "school_id": 341,
+      "posting_url": "https://my.uiu.edu/ICS/Employment_Opportunities.jnz#prospect-manager",
+      "job_title_in_post": "Prospect Manager",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "10/29/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 341,
   "status": "complete",
-  "updated_at": "2026-10-29T00:07:51+00:00",
-  "completed_at": "2026-10-29T00:07:51+00:00",
+  "updated_at": "2026-10-29T23:06:35+00:00",
+  "completed_at": "2026-10-29T23:06:35+00:00",
   "last_error": ""
 }

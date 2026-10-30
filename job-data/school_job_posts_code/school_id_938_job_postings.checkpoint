@@ -1,10 +1,16 @@
 {
   "links": [
-    "https://talenthub.mercy.edu/jobs/associate-director-university-advisement-a00515-dobbs-ferry-ny-new-york-united-states",
+    "https://talenthub.mercy.edu/jobs/associate-professor-faculty-f00195-new-york-united-states",
+    "https://talenthub.mercy.edu/jobs/adjunct-faculty-gen-biology-af7115-new-york-united-states",
+    "https://talenthub.mercy.edu/jobs/adjunct-faculty-anatomy-physiology-af4202-dobbs-ferry-ny-new-york-united-states",
+    "https://talenthub.mercy.edu/jobs/adjunct-faculty-physics-af7010-dobbs-ferry-ny-new-york-united-states",
+    "https://talenthub.mercy.edu/jobs/adjunct-faculty-chemistry-af7010-dobbs-ferry-ny-new-york-united-states",
+    "https://talenthub.mercy.edu/jobs/adjunct-faculty-microbiology-af7115-new-york-united-states",
+    "https://talenthub.mercy.edu/jobs/adjunct-faculty-hlsc-af4115-new-york-united-states",
     "https://talenthub.mercy.edu/jobs/admissions-counselor-p00187-dobbs-ferry-ny-new-york-united-states",
+    "https://talenthub.mercy.edu/jobs/associate-director-university-advisement-a00515-dobbs-ferry-ny-new-york-united-states",
     "https://talenthub.mercy.edu/jobs/open-rank-professor-and-clinical-director-counseling-f00268-dobbs-ferry-ny-new-york-united-states",
     "https://talenthub.mercy.edu/jobs/undergraduate-associate-dean-school-of-nursing-f00622-new-york-united-states",
-    "https://talenthub.mercy.edu/jobs/adjunct-faculty-hlsc-af4115-new-york-united-states",
     "https://talenthub.mercy.edu/jobs/assistant-professor-early-childhood-and-childhood-education-f00632-dobbs-ferry-ny-new-york-united-states",
     "https://talenthub.mercy.edu/jobs/adjunct-faculty-speech-language-pathology-af4110-dobbs-ferry-ny-new-york-united-states",
     "https://talenthub.mercy.edu/jobs/assistant-professor-behavioral-sciences-f00036-new-york-united-states",
@@ -117,9 +123,8 @@
   ],
   "school_id": 938,
   "status": "complete",
-  "updated_at": "2026-10-28T20:00:14+00:00",
+  "updated_at": "2026-10-29T19:38:06+00:00",
   "started_at": "2026-09-08T02:29:57+00:00",
-  "completed_at": "2026-10-28T20:00:14+00:00",
-  "last_error": "",
-  "last_warning": "2026-10-28T20:00:14+00:00: board returned 30 links vs 114 before; old set kept"
+  "completed_at": "2026-10-29T19:38:06+00:00",
+  "last_error": ""
 }

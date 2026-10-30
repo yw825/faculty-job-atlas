@@ -114,6 +114,11 @@
       "title": "Associate Director of External Events",
       "description": "",
       "department": null
+    },
+    "https://ibtsjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/310": {
+      "title": "Assistant Director of Campus Life",
+      "description": "",
+      "department": null
     }
   },
   "rows": {
@@ -388,11 +393,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://ibtsjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/310": {
+      "school_id": 1132,
+      "posting_url": "https://ibtsjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/310",
+      "job_title_in_post": "Assistant Director of Campus Life",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Campus Life",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1132,
   "status": "complete",
-  "updated_at": "2026-10-29T01:59:06+00:00",
-  "completed_at": "2026-10-29T01:59:06+00:00",
+  "updated_at": "2026-10-30T00:12:06+00:00",
+  "completed_at": "2026-10-30T00:12:06+00:00",
   "last_error": ""
 }

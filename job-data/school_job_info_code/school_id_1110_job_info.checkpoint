@@ -115,6 +115,10 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/ABFDAFED645B6920CFDB8559C078F8A5/jobs/357140": {
       "title": "Assistant or Associate Director of Theatre",
       "description": "Assistant or Associate Director of Theatre You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/ABFDAFED645B6920CFDB8559C078F8A5/jobs/357539": {
+      "title": "Principal Faculty - Physician Associate Studies",
+      "description": "Principal Faculty - Physician Associate Studies You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -462,11 +466,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/ABFDAFED645B6920CFDB8559C078F8A5/jobs/357539": {
+      "school_id": 1110,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/ABFDAFED645B6920CFDB8559C078F8A5/jobs/357539",
+      "job_title_in_post": "Principal Faculty - Physician Associate Studies",
+      "position_type": "Assistant_Professor; Associate_Professor; Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Principal",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1110,
   "status": "complete",
-  "updated_at": "2026-10-29T01:57:36+00:00",
-  "completed_at": "2026-10-29T01:57:36+00:00",
+  "updated_at": "2026-10-30T00:10:46+00:00",
+  "completed_at": "2026-10-30T00:10:46+00:00",
   "last_error": ""
 }

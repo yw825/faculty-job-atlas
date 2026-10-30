@@ -246,6 +246,10 @@
     },
     "https://utep.interviewexchange.com/jobofferdetails.jsp?JOBID=206205": {
       "error": "Error: It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead."
+    },
+    "https://utep.interviewexchange.com/jobofferdetails.jsp?JOBID=206275": {
+      "title": "Just a moment...",
+      "description": "Just a moment... utep.interviewexchange.com Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. Verification successful. Waiting for utep.interviewexchange.com to respond Enable JavaScript and cookies to continue Ray ID: a52640c5c8725227 Performance and Security by Cloudflare Privacy"
     }
   },
   "rows": {
@@ -983,11 +987,23 @@
     },
     "https://utep.interviewexchange.com/jobofferdetails.jsp?JOBID=206205": {
       "error": "Error: It looks like you are using Playwright Sync API inside the asyncio loop.\nPlease use the Async API instead."
+    },
+    "https://utep.interviewexchange.com/jobofferdetails.jsp?JOBID=206275": {
+      "school_id": 1385,
+      "posting_url": "https://utep.interviewexchange.com/jobofferdetails.jsp?JOBID=206275",
+      "job_title_in_post": "Just a moment...",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1385,
   "status": "complete",
-  "updated_at": "2026-10-29T02:30:02+00:00",
-  "completed_at": "2026-10-29T02:30:02+00:00",
+  "updated_at": "2026-10-30T00:20:24+00:00",
+  "completed_at": "2026-10-30T00:20:24+00:00",
   "last_error": ""
 }

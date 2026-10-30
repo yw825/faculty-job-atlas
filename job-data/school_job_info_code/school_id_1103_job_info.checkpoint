@@ -244,6 +244,11 @@
       "title": "Intern",
       "description": "",
       "department": null
+    },
+    "https://utulsa-ibvjjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/672": {
+      "title": "Duane H King Post-Doctoral Fellow in HCAR",
+      "description": "The Helmerich Center for American Research at Gilcrease Museum and the University of Tulsa seeks applications for its Duane H. King Postdoctoral Fellowship. The Duane H. King Postdoctoral Fellowship is a 22-month appointment (August 1, 2027-May 31, 2029). The King Postdoctoral Fellow will receive a salary of $40,000, office spaces, and employee benefits through the University of Tulsa. They will teach an undergraduate course each semester and can propose a summer course, student research project, or public-history project for an additional summer stipend. Fellows present research at one works-in-progress seminar, shape and plan symposia and other public programs, regularly conduct research at the Helmerich Center for American Research and McFarlin Library Special Collections (if applicable), and participate in the work of Gilcrease and the intellectual community of the University. Applicants must have earned their Ph.D. by the time of appointment and no earlier than 2025.",
+      "department": null
     }
   },
   "rows": {
@@ -833,11 +838,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://utulsa-ibvjjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/672": {
+      "school_id": 1103,
+      "posting_url": "https://utulsa-ibvjjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/672",
+      "job_title_in_post": "Duane H King Post-Doctoral Fellow in HCAR",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "Center for American Research",
+      "area_key_words": "HCAR",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1103,
   "status": "complete",
-  "updated_at": "2026-10-29T01:57:21+00:00",
-  "completed_at": "2026-10-29T01:57:21+00:00",
+  "updated_at": "2026-10-30T00:10:27+00:00",
+  "completed_at": "2026-10-30T00:10:27+00:00",
   "last_error": ""
 }

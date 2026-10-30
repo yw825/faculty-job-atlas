@@ -44,6 +44,16 @@
       "title": "Lecturer, Senior Lecturer or Associate Professor of the Science Learning Area",
       "description": "Inspire future science educators and help shape the future of Science education through innovative teaching, impactful research and meaningful engagement with schools, communities and the wider profession.\n\nPosting closes: 2026-11-24",
       "department": null
+    },
+    "https://elhs.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/1003990": {
+      "title": "Lecturer, Senior Lecturer or Associate Professor in Health and Physical Education",
+      "description": "Bring your expertise in Health and Physical Education at primary or secondary school level to inspire future educators through innovative teaching, impactful research and meaningful engagement with the profession and community.\n\nPosting closes: 2026-11-29",
+      "department": null
+    },
+    "https://elhs.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/1003965": {
+      "title": "Lecturer, Senior Lecturer or Associate Professor in Technology",
+      "description": "Inspire future educators and help shape the future of Technology education through innovative teaching, impactful research and meaningful engagement with schools, communities and the wider profession. \n\nPosting closes: 2026-11-25",
+      "department": null
     }
   },
   "rows": {
@@ -154,11 +164,35 @@
       "deadline_of_application": "2026-11-24",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://elhs.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/1003990": {
+      "school_id": 1827,
+      "posting_url": "https://elhs.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/1003990",
+      "job_title_in_post": "Lecturer, Senior Lecturer or Associate Professor in Health and Physical Education",
+      "position_type": "Assistant_Professor; Associate_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Health and Physical Education; secondary school level",
+      "deadline_of_application": "2026-11-29",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://elhs.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/1003965": {
+      "school_id": 1827,
+      "posting_url": "https://elhs.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/1003965",
+      "job_title_in_post": "Lecturer, Senior Lecturer or Associate Professor in Technology",
+      "position_type": "Assistant_Professor; Associate_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Technology",
+      "deadline_of_application": "2026-11-25",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1827,
   "status": "complete",
-  "updated_at": "2026-10-29T03:51:12+00:00",
-  "completed_at": "2026-10-29T03:51:12+00:00",
+  "updated_at": "2026-10-30T01:19:20+00:00",
+  "completed_at": "2026-10-30T01:19:20+00:00",
   "last_error": ""
 }

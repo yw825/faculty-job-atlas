@@ -1,7 +1,5 @@
 {
   "links": [
-    "https://my.corehr.com/pls/uoxrecruit/erq_jobspec_version_4.jobspec?p_id=189278",
-    "https://my.corehr.com/pls/uoxrecruit/erq_jobspec_version_4.jobspec?p_id=187206",
     "https://my.corehr.com/pls/uoxrecruit/erq_jobspec_version_4.jobspec?p_id=188890",
     "https://my.corehr.com/pls/uoxrecruit/erq_jobspec_version_4.jobspec?p_id=188942",
     "https://my.corehr.com/pls/uoxrecruit/erq_jobspec_version_4.jobspec?p_id=189438",
@@ -31,10 +29,12 @@
     "https://my.corehr.com/pls/uoxrecruit/erq_jobspec_version_4.jobspec?p_id=189339",
     "https://my.corehr.com/pls/uoxrecruit/erq_jobspec_version_4.jobspec?p_id=189248",
     "https://my.corehr.com/pls/uoxrecruit/erq_jobspec_version_4.jobspec?p_id=188788",
+    "https://my.corehr.com/pls/uoxrecruit/erq_jobspec_version_4.jobspec?p_id=189576",
     "https://my.corehr.com/pls/uoxrecruit/erq_jobspec_version_4.jobspec?p_id=189338",
     "https://my.corehr.com/pls/uoxrecruit/erq_jobspec_version_4.jobspec?p_id=189425",
     "https://my.corehr.com/pls/uoxrecruit/erq_jobspec_version_4.jobspec?p_id=189414",
     "https://my.corehr.com/pls/uoxrecruit/erq_jobspec_version_4.jobspec?p_id=189501",
+    "https://my.corehr.com/pls/uoxrecruit/erq_jobspec_version_4.jobspec?p_id=189601",
     "https://my.corehr.com/pls/uoxrecruit/erq_jobspec_version_4.jobspec?p_id=188955",
     "https://my.corehr.com/pls/uoxrecruit/erq_jobspec_version_4.jobspec?p_id=189315",
     "https://my.corehr.com/pls/uoxrecruit/erq_jobspec_version_4.jobspec?p_id=189267",
@@ -72,6 +72,7 @@
     "https://my.corehr.com/pls/uoxrecruit/erq_jobspec_version_4.jobspec?p_id=189396",
     "https://my.corehr.com/pls/uoxrecruit/erq_jobspec_version_4.jobspec?p_id=189513",
     "https://my.corehr.com/pls/uoxrecruit/erq_jobspec_version_4.jobspec?p_id=189397",
+    "https://my.corehr.com/pls/uoxrecruit/erq_jobspec_version_4.jobspec?p_id=189458",
     "https://my.corehr.com/pls/uoxrecruit/erq_jobspec_version_4.jobspec?p_id=189333",
     "https://my.corehr.com/pls/uoxrecruit/erq_jobspec_version_4.jobspec?p_id=189327",
     "https://my.corehr.com/pls/uoxrecruit/erq_jobspec_version_4.jobspec?p_id=189357",
@@ -85,6 +86,8 @@
     "https://my.corehr.com/pls/uoxrecruit/erq_jobspec_version_4.jobspec?p_id=189408",
     "https://my.corehr.com/pls/uoxrecruit/erq_jobspec_version_4.jobspec?p_id=189560",
     "https://my.corehr.com/pls/uoxrecruit/erq_jobspec_version_4.jobspec?p_id=189372",
+    "https://my.corehr.com/pls/uoxrecruit/erq_jobspec_version_4.jobspec?p_id=189594",
+    "https://my.corehr.com/pls/uoxrecruit/erq_jobspec_version_4.jobspec?p_id=189595",
     "https://my.corehr.com/pls/uoxrecruit/erq_jobspec_version_4.jobspec?p_id=189383",
     "https://my.corehr.com/pls/uoxrecruit/erq_jobspec_version_4.jobspec?p_id=189392",
     "https://my.corehr.com/pls/uoxrecruit/erq_jobspec_version_4.jobspec?p_id=189273",
@@ -96,8 +99,8 @@
   ],
   "school_id": 1776,
   "status": "complete",
-  "updated_at": "2026-10-28T23:30:42+00:00",
+  "updated_at": "2026-10-29T22:36:46+00:00",
   "started_at": "2026-09-03T19:17:21+00:00",
-  "completed_at": "2026-10-28T23:30:42+00:00",
+  "completed_at": "2026-10-29T22:36:46+00:00",
   "last_error": ""
 }

@@ -324,6 +324,9 @@
       "title": "Maintenance Worker III - Facilities Downtown Campus",
       "description": "Posted: 10/26/2026 Location: San Antonio, TX Department: FACILITIES DOWNTOWN CAMPUS Maintenance Worker III - Facilities Downtown Campus",
       "department": "FACILITIES DOWNTOWN CAMPUS"
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16688&PostingSeq=1&SiteId=21": {
+      "error": "not present in bulk fetch result"
     }
   },
   "rows": {
@@ -1098,11 +1101,14 @@
       "deadline_of_application": "",
       "posted_date": "10/26/2026",
       "position_start_date": ""
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16688&PostingSeq=1&SiteId=21": {
+      "error": "not present in bulk fetch result"
     }
   },
   "school_id": 1427,
   "status": "complete",
-  "updated_at": "2026-10-29T02:31:25+00:00",
-  "completed_at": "2026-10-29T02:31:25+00:00",
+  "updated_at": "2026-10-30T00:23:08+00:00",
+  "completed_at": "2026-10-30T00:23:08+00:00",
   "last_error": ""
 }

@@ -514,6 +514,46 @@
       "title": "Studentermedhjælper til Dekansekretariatet på Det Samfundsvidenskabelige Fakultet, SDU",
       "description": "",
       "department": null
+    },
+    "https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/4352": {
+      "title": "Software Engineer for Centre for Software Technology (CST)",
+      "description": "",
+      "department": null
+    },
+    "https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/4371": {
+      "title": "Akademisk medarbejder (deltid) til kemiuddannelsen på SDU i Odense",
+      "description": "",
+      "department": null
+    },
+    "https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/4373": {
+      "title": "Full Professor in Border Studies",
+      "description": "The application deadline is February 1, 2027, at 11.59 PM/23.59 (CET/CEST) ",
+      "department": null
+    },
+    "https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/4400": {
+      "title": "Postdoc Position in AI-improved Robotic Welding Control for Large Steel Structures",
+      "description": "SDU Center for Large Structure Production (LSP), part of the Maersk Mc-Kinney Moller Institute (MMMI), at the University of Southern Denmark (SDU), invites applications for a postdoc position on the topic of AI-improved robotic welding control for large steel structures. The position will be vacant from 1 January 2027 for a period of 2,5 years. The preferred start date is as early as possible in 2027 and the specific start date will be agreed with the successful applicant. Main work location will mostly be at SDU Center for Large Structure Production located at Odense Havn (Odense Port).\n\nThe application deadline is December 10, 2026, at 11:59 PM/23:59 (CET/CEST) ",
+      "department": null
+    },
+    "https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/4401": {
+      "title": "PhD Position in Cheminformatics and Machine Learning",
+      "description": "SDU Life Cycle Engineering at the Department of Green Technology, University of Southern Denmark, invites applications for a PhD position in cheminformatics and machine learning. \n\nThe application deadline is November 12, 2026, at 11:59 PM/23:59 (CET/CEST) ",
+      "department": null
+    },
+    "https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/4405": {
+      "title": "Experienced Project Manager",
+      "description": "Application deadline: 12 November 2026 at 23:59 hours local Danish time.  ",
+      "department": null
+    },
+    "https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/4408": {
+      "title": "Postdoc Positions within Mobile Robotics at SDU Robotics",
+      "description": "SDU Robotics is currently extending the team within mobile robotics. We therefore invite applications for one or more postdoc positions. The position is for a 2-year period with a starting date January 1, 2027, or as soon as possible thereafter. The workplace is at SDU's main campus in Odense, Denmark, and the work is expected to be primarily onsite.\n\nThe application deadline is November 15, 2026, at 11:59 PM/23:59 (CET/CEST) ",
+      "department": null
+    },
+    "https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/4410": {
+      "title": "PhD Position in Process Simulation and Techno-Economic Optimization of Large-Scale Power-to-X Systems",
+      "description": "The Center for Life Cycle Engineering at the Department of Green Technology, University of Southern Denmark (SDU), invites applications for a 3-year PhD position focusing on process simulation, techno-economic assessment, and optimization of large-scale Power-to-X (PtX) systems for the production of renewable fuels and chemicals. The preferred start date is February 1, 2027. \n\nThe application deadline is November 30, 2026, at 11:59 PM/23:59 (CET/CEST) \n",
+      "department": null
     }
   },
   "rows": {
@@ -1728,11 +1768,107 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/4352": {
+      "school_id": 1892,
+      "posting_url": "https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/4352",
+      "job_title_in_post": "Software Engineer for Centre for Software Technology (CST)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Centre for Software Technology",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/4371": {
+      "school_id": 1892,
+      "posting_url": "https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/4371",
+      "job_title_in_post": "Akademisk medarbejder (deltid) til kemiuddannelsen på SDU i Odense",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/4373": {
+      "school_id": 1892,
+      "posting_url": "https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/4373",
+      "job_title_in_post": "Full Professor in Border Studies",
+      "position_type": "Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Border Studies",
+      "deadline_of_application": "February 1, 2027",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/4400": {
+      "school_id": 1892,
+      "posting_url": "https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/4400",
+      "job_title_in_post": "Postdoc Position in AI-improved Robotic Welding Control for Large Steel Structures",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "Center for Large Structure Production",
+      "area_key_words": "AI-improved Robotic Welding Control for Large Steel Structures",
+      "deadline_of_application": "December 10, 2026",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/4401": {
+      "school_id": 1892,
+      "posting_url": "https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/4401",
+      "job_title_in_post": "PhD Position in Cheminformatics and Machine Learning",
+      "position_type": "Assistant_Professor; Associate_Professor; Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Cheminformatics and Machine Learning",
+      "deadline_of_application": "November 12, 2026",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/4405": {
+      "school_id": 1892,
+      "posting_url": "https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/4405",
+      "job_title_in_post": "Experienced Project Manager",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "12 November 2026",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/4408": {
+      "school_id": 1892,
+      "posting_url": "https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/4408",
+      "job_title_in_post": "Postdoc Positions within Mobile Robotics at SDU Robotics",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "November 15, 2026",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/4410": {
+      "school_id": 1892,
+      "posting_url": "https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/4410",
+      "job_title_in_post": "PhD Position in Process Simulation and Techno-Economic Optimization of Large-Scale Power-to-X Systems",
+      "position_type": "Assistant_Professor; Associate_Professor; Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Center for Life Cycle Engineering",
+      "area_key_words": "Process Simulation and Techno-Economic Optimization of Large-Scale Power-to-X Systems",
+      "deadline_of_application": "November 30, 2026",
+      "posted_date": "",
+      "position_start_date": "February 1, 2027"
     }
   },
   "school_id": 1892,
   "status": "complete",
-  "updated_at": "2026-10-29T03:39:53+00:00",
-  "completed_at": "2026-10-29T03:39:53+00:00",
+  "updated_at": "2026-10-30T01:06:45+00:00",
+  "completed_at": "2026-10-30T01:06:45+00:00",
   "last_error": ""
 }

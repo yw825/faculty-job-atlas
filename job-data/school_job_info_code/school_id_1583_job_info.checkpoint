@@ -1244,6 +1244,21 @@
       "title": "Hourly Pooled - Safety and Laboratory Student Technician",
       "description": "Assist the University of Wyoming Safety Specialist in areas such as laboratory inspections, safety eyewash / shower inspections, fume hood inspections, survey instrument calibration.",
       "department": null
+    },
+    "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/262956": {
+      "title": "Assistant Manager, Fleet Maintenance Services",
+      "description": "",
+      "department": null
+    },
+    "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/262966": {
+      "title": "Associate AD, Marketing, Fan Experience & Engagement - Marketing & Branding",
+      "description": "Oversees both the short-term and long-term marketing strategies, fan experience & engagement, and branding initiatives for the Athletic Department.",
+      "department": null
+    },
+    "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/262971": {
+      "title": "Office Associate - Hoyt Shared Staff Center",
+      "description": "Perform advanced office and administrative/management support tasks.",
+      "department": null
     }
   },
   "rows": {
@@ -4215,11 +4230,47 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/262956": {
+      "school_id": 1583,
+      "posting_url": "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/262956",
+      "job_title_in_post": "Assistant Manager, Fleet Maintenance Services",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/262966": {
+      "school_id": 1583,
+      "posting_url": "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/262966",
+      "job_title_in_post": "Associate AD, Marketing, Fan Experience & Engagement - Marketing & Branding",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/262971": {
+      "school_id": 1583,
+      "posting_url": "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/262971",
+      "job_title_in_post": "Office Associate - Hoyt Shared Staff Center",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1583,
   "status": "complete",
-  "updated_at": "2026-10-29T02:43:13+00:00",
-  "completed_at": "2026-10-29T02:43:13+00:00",
+  "updated_at": "2026-10-30T00:30:40+00:00",
+  "completed_at": "2026-10-30T00:30:40+00:00",
   "last_error": ""
 }

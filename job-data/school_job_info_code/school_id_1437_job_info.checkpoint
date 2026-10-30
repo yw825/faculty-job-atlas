@@ -644,6 +644,11 @@
       "title": "Open Rank: Anatomist",
       "description": "Posted: 10/20/2026 Location: Longview, TX Department: Biology Open Rank: Anatomist",
       "department": "Biology"
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16701&PostingSeq=1&SiteId=12": {
+      "title": "Data Integrity and Donor Services Specialist",
+      "description": "Posted: 10/29/2026 Location: Tyler, TX Department: University Advancement Data Integrity and Donor Services Specialist",
+      "department": "University Advancement"
     }
   },
   "rows": {
@@ -2182,11 +2187,23 @@
       "deadline_of_application": "",
       "posted_date": "10/20/2026",
       "position_start_date": ""
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16701&PostingSeq=1&SiteId=12": {
+      "school_id": 1437,
+      "posting_url": "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16701&PostingSeq=1&SiteId=12",
+      "job_title_in_post": "Data Integrity and Donor Services Specialist",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "University Advancement",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "10/29/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 1437,
   "status": "complete",
-  "updated_at": "2026-10-29T02:32:06+00:00",
-  "completed_at": "2026-10-29T02:32:06+00:00",
+  "updated_at": "2026-10-30T00:23:45+00:00",
+  "completed_at": "2026-10-30T00:23:45+00:00",
   "last_error": ""
 }

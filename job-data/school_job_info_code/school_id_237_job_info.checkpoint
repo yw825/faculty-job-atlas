@@ -59,6 +59,10 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/16D5A72295BEEA4BBF29A0DA73DAF892/jobs/173364": {
       "title": "Student Financial Services Specialist",
       "description": "Student Financial Services Specialist You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/16D5A72295BEEA4BBF29A0DA73DAF892/jobs/174208": {
+      "title": "Admissions Specialist",
+      "description": "Admissions Specialist You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -237,11 +241,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/16D5A72295BEEA4BBF29A0DA73DAF892/jobs/174208": {
+      "school_id": 237,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/16D5A72295BEEA4BBF29A0DA73DAF892/jobs/174208",
+      "job_title_in_post": "Admissions Specialist",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 237,
   "status": "complete",
-  "updated_at": "2026-10-28T23:52:19+00:00",
-  "completed_at": "2026-10-28T23:52:19+00:00",
+  "updated_at": "2026-10-29T22:54:47+00:00",
+  "completed_at": "2026-10-29T22:54:47+00:00",
   "last_error": ""
 }

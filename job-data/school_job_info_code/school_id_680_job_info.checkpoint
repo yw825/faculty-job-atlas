@@ -1319,6 +1319,11 @@
       "title": "Post-Doctoral Associate",
       "description": "Posted: 10/19/2026 Location: Twin Cities Department: BMBB Med Dept Administration Post-Doctoral Associate",
       "department": "BMBB Med Dept Administration"
+    },
+    "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=376794&PostingSeq=1": {
+      "title": "Physician – Interventional Psychiatrist (Assistant Professor)",
+      "description": "Posted: 10/29/2026 Location: Twin Cities Department: PSYCH Psychiatry Dept Admin Physician – Interventional Psychiatrist (Assistant Professor)",
+      "department": "PSYCH Psychiatry Dept Admin"
     }
   },
   "rows": {
@@ -4476,11 +4481,23 @@
       "deadline_of_application": "",
       "posted_date": "10/19/2026",
       "position_start_date": ""
+    },
+    "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=376794&PostingSeq=1": {
+      "school_id": 680,
+      "posting_url": "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=376794&PostingSeq=1",
+      "job_title_in_post": "Physician – Interventional Psychiatrist (Assistant Professor)",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "PSYCH Psychiatry Dept Admin",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "10/29/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 680,
   "status": "complete",
-  "updated_at": "2026-10-29T00:57:17+00:00",
-  "completed_at": "2026-10-29T00:57:17+00:00",
+  "updated_at": "2026-10-29T23:32:33+00:00",
+  "completed_at": "2026-10-29T23:32:33+00:00",
   "last_error": ""
 }

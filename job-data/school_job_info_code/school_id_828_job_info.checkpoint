@@ -144,6 +144,9 @@
       "title": "Dual Credit Instructor",
       "description": "Posted: 01/13/2025 Location: Valley City Department: Graduate Studies Dual Credit Instructor",
       "department": "Graduate Studies"
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960162&PostingSeq=1&SiteId=1": {
+      "error": "not present in bulk fetch result"
     }
   },
   "rows": {
@@ -493,11 +496,14 @@
       "deadline_of_application": "",
       "posted_date": "01/13/2025",
       "position_start_date": ""
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960162&PostingSeq=1&SiteId=1": {
+      "error": "not present in bulk fetch result"
     }
   },
   "school_id": 828,
   "status": "complete",
-  "updated_at": "2026-10-29T01:21:04+00:00",
-  "completed_at": "2026-10-29T01:21:04+00:00",
+  "updated_at": "2026-10-29T23:45:06+00:00",
+  "completed_at": "2026-10-29T23:45:06+00:00",
   "last_error": ""
 }

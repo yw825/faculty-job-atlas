@@ -1379,6 +1379,11 @@
       "title": "Student Facility Staff- Insitutional Student Worker",
       "description": "Posted: 10/27/2026 Location: UNG-Dahlonega, GA Department: Rec Sports Facilities Student Facility Staff- Insitutional Student Worker",
       "department": "Rec Sports Facilities"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305254&PostingSeq=1&SiteId=53000": {
+      "title": "Software Asset Administrator",
+      "description": "Posted: 10/28/2026 Location: UNG - Gainesville Department: IT Academic Computing Software Asset Administrator",
+      "department": "IT Academic Computing"
     }
   },
   "rows": {
@@ -4678,11 +4683,23 @@
       "deadline_of_application": "",
       "posted_date": "10/27/2026",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305254&PostingSeq=1&SiteId=53000": {
+      "school_id": 289,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305254&PostingSeq=1&SiteId=53000",
+      "job_title_in_post": "Software Asset Administrator",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "IT Academic Computing",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "10/28/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 289,
   "status": "complete",
-  "updated_at": "2026-10-29T00:01:12+00:00",
-  "completed_at": "2026-10-29T00:01:12+00:00",
+  "updated_at": "2026-10-29T23:01:12+00:00",
+  "completed_at": "2026-10-29T23:01:12+00:00",
   "last_error": ""
 }

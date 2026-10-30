@@ -259,6 +259,11 @@
       "title": "Assistant/Associate/Full Professor, Division of Pediatric Neurology",
       "description": "",
       "department": null
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4557": {
+      "title": "Assistant Professor in Experimental Quantum Matter - Tenure-Track",
+      "description": "",
+      "department": null
     }
   },
   "rows": {
@@ -875,11 +880,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4557": {
+      "school_id": 1587,
+      "posting_url": "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4557",
+      "job_title_in_post": "Assistant Professor in Experimental Quantum Matter - Tenure-Track",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Experimental Quantum Matter",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1587,
   "status": "complete",
-  "updated_at": "2026-10-29T03:14:43+00:00",
-  "completed_at": "2026-10-29T03:14:43+00:00",
+  "updated_at": "2026-10-30T00:50:41+00:00",
+  "completed_at": "2026-10-30T00:50:41+00:00",
   "last_error": ""
 }
