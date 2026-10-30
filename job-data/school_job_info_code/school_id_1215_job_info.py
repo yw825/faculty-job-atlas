@@ -38,11 +38,9 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """PeopleAdmin page title reads "Slippery Rock University | <dept> | <title>| <position no>"; the
-shared reader kept the position number."""
-    title, text = jinfo.fetch_detail_generic(url)
-    m = re.match(r'\s*[^|]+\|[^|]+\|\s*(.{3,200}?)\s*\|\s*[A-Z]\d{4,}', text)
-    return (m.group(1) if m else title), text
+    """PeopleAdmin posting: the Working Title field (the tab title is the
+    posting number)."""
+    return jinfo.fetch_detail_peopleadmin(url)
 
 
 def main():

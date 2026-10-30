@@ -38,7 +38,9 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    return jinfo.fetch_detail_pageup(url)
+    """Denver's jobs.du.edu board (since Oct 2026; the PageUp reader found
+    nothing there): the generic reader takes the JobPosting JSON-LD title."""
+    return jinfo.fetch_detail_generic(url)
 
 
 def main():

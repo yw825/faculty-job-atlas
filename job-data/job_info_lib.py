@@ -54,6 +54,7 @@ import json
 import math
 import os
 import re
+from html import unescape as html_unescape
 import time
 from datetime import date
 from html import unescape
@@ -1398,7 +1399,7 @@ def classify_row(school_id, url, title, description='', department=None,
 _TITLE_LOOKS_LIKE_JOB_RE = re.compile(
     r'\b(professor|lecturer|fellow|instructor|postdoc|post-doctoral|researcher|'
     r'research associate|teaching|technician|scientist|specialist|coordinator|'
-    r'assistant|associate|chair|director|position|tenure)\b', re.I)
+    r'assistant|associate|chair|director|position|tenure|professur|juniorprofessur)\b', re.I)
 
 
 # "Details - <real title> | Job Opportunities | SDSU" -- PageUp and several
@@ -1419,6 +1420,12 @@ _SITE_LABEL_RE = re.compile(
 _LEADING_JUNK_TITLE_RE = re.compile(
     r'^(?:job\s+)?(?:details|posting\s+details|position\s+details|vacancy\s+details|'
     r'view\s+job|view\s+posting|job\s+description)\s*[-:]\s*', re.I)
+
+
+_SITE_TAIL_RE = re.compile(
+    r"(?i)^(?:the\s+)?[\w.&'’ -]{0,60}?(?:universit|universidad|université|universität|college|"
+    r"institut|polytechnic|hochschule|école|careers?|jobs?|employment|recruit|vacanc|portal|"
+    r"job\s+board|hr\b|human\s+resources)[\w.&'’ -]{0,60}$")
 
 
 def _title_candidates_from_text(raw):
@@ -1455,7 +1462,7 @@ def _title_candidates_from_text(raw):
         raw = _html.unescape(raw)
         candidates[0] = raw
         left, _, right = raw.partition(' | ')
-        if _SITE_LABEL_RE.match(left.strip()) and right.strip():
+        if (_SITE_LABEL_RE.match(left.strip()) or _is_site_name(left)) and right.strip():
             candidates.insert(0, right.strip())
 
     cur = raw
@@ -1463,10 +1470,15 @@ def _title_candidates_from_text(raw):
     # the site name after an en-dash ("Decano(a) Auxiliar – Universidad
     # Interamericana de Puerto Rico"), which otherwise rides along into
     # the title and the keyword.
+    # Only a tail that names the site is cut after a dash: cutting every tail
+    # turned "2026-27 AY Lecturer Pool – Statistics" into "2026-27 AY Lecturer
+    # Pool" at every CSU campus, hiding the field from the discipline filter.
     for sep in (' | ', ' - ', ' – ', ' — '):
         if sep in cur:
-            cur = cur.split(sep)[0].strip()
-            candidates.insert(0, cur)
+            head, _, tail = cur.partition(sep)
+            if sep == ' | ' or _SITE_TAIL_RE.search(tail):
+                cur = head.strip()
+                candidates.insert(0, cur)
     if ' at ' in cur:
         candidates.insert(0, cur.split(' at ')[0].strip())
     return candidates
@@ -1484,7 +1496,24 @@ def _looks_like_heading(text):
     return len(text) <= 100 and '. ' not in text.rstrip('.')
 
 
+def _is_site_name(text):
+    """'Dalhousie University', 'Slippery Rock University', 'KU Leuven
+    vacatures': a short line naming only the institution or its jobs site."""
+    t = (text or '').strip()
+    return (len(t.split()) <= 5 and not _TITLE_LOOKS_LIKE_JOB_RE.search(t)
+            and bool(_SITE_TAIL_RE.search(t)))
+
+
 def _pick_best_title(candidates):
+    candidates = [c for c in candidates if not _is_site_name(c)] or candidates
+    # A heading broken across elements ("Assistant Professor of" over
+    # "Assistant Professor of Accounting") ends on a dangling word.
+    candidates = [c for c in candidates
+                  if not re.search(r'(?i)\b(?:of|in|for|and|the|at|to|&)\s*$|[-\u2013,:]\s*$', c or '')] or candidates
+    return _pick_best_title_inner(candidates)
+
+
+def _pick_best_title_inner(candidates):
     """Prefers a candidate that BOTH looks job-shaped (names a rank/the
     word "position") AND looks like a heading rather than a sentence;
     falls back to job-shaped-but-sentence-like, then to the first
@@ -1516,7 +1545,14 @@ def fetch_detail_pdf(url):
     reader = PdfReader(io.BytesIO(r.content))
     text = '\n'.join((page.extract_text() or '') for page in reader.pages)
     lines = [l.strip() for l in text.splitlines() if l.strip()]
-    title = _pick_best_title(lines[:20])
+    # An upper-case heading that wraps ("FULL-TIME ACADEMIC POSITION IN
+    # POLICY-RELEVANT APPLIED" / "MICROECONOMICS") is one title.
+    joined = []
+    for i, l in enumerate(lines[:20]):
+        if l.isupper() and i + 1 < len(lines) and lines[i + 1].isupper() and len(l) + len(lines[i + 1]) < 120:
+            joined.append(f'{l} {lines[i + 1]}')
+    cands = joined + lines[:20]
+    title = _pick_best_title([c for c in cands if not _CHROME_TITLE_RE.match(c.rstrip(' .:'))] or cands)
     return title, text
 
 
@@ -1596,6 +1632,22 @@ def fetch_detail_workday(url):
     raise RuntimeError('workday cxs detail fetch failed')
 
 
+def _jsonld_job_title(soup):
+    """The title from a schema.org JobPosting block, which boards fill from
+    the requisition itself -- exact where page headings are site chrome."""
+    for tag in soup.find_all('script', type='application/ld+json'):
+        try:
+            data = json.loads(tag.string or '')
+        except ValueError:
+            continue
+        for item in (data if isinstance(data, list) else data.get('@graph', [data]) if isinstance(data, dict) else []):
+            if isinstance(item, dict) and item.get('@type') == 'JobPosting':
+                t = re.sub(r'\s+', ' ', html_unescape(str(item.get('title') or ''))).strip()
+                if t and not _CHROME_TITLE_RE.match(t.rstrip(' .')):
+                    return t
+    return ''
+
+
 def fetch_detail_generic(url):
     """Renders the posting page and picks the best-looking title out of
     <h1> and <title> (see _pick_best_title); the description is the page's
@@ -1619,7 +1671,18 @@ def fetch_detail_generic(url):
     html = ''
     used_static = False
     try:
+        # A PDF served without a .pdf ending (Memorial's /api/careers/file/6812,
+        # ULB's /download/18537, Cologne's renderFile?propertyName=flyer) was
+        # read as a web page and stored with a blank title.
+        head = jlib.requests.head(url, headers={'User-Agent': jlib.UA}, timeout=15, allow_redirects=True)
+        if 'pdf' in (head.headers.get('content-type') or '').lower():
+            return fetch_detail_pdf(url)
+    except Exception:
+        pass
+    try:
         status, static_html = jlib.fetch_static(url)
+        if status == 200 and (static_html or '').lstrip().startswith('%PDF'):
+            return fetch_detail_pdf(url)
         if status == 200 and static_html and len(static_html) > 3000:
             html = static_html
             used_static = True
@@ -1636,6 +1699,9 @@ def fetch_detail_generic(url):
         raise RuntimeError(html)
     from bs4 import BeautifulSoup
     soup = BeautifulSoup(html, 'html.parser')
+    ld_title = _jsonld_job_title(soup)
+    if ld_title:
+        return ld_title, soup.get_text(' ', strip=True)
     candidates = []
     # h2 as well as h1: several ATS templates (PageUp among them) reserve
     # <h1> for the SITE's own name ("San Diego State University") and put
@@ -1733,7 +1799,13 @@ _CHROME_TITLE_RE = re.compile(
     r'responsibilities|requirements|benefits|salary|compensation|'
     r'closing date|posting details|position details|job description|'
     r'information for staff|equal opportunity employer|apply now|'
-    r'summary|description|details|location|department|share this)$', re.I)
+    r'summary|description|details|location|department|share this|'
+    # Seen as every posting's "title" on one board or another (2026-10-30).
+    r'position (?:description|summary|announcement|details|search and filters)|'
+    r'recruit|faculty careers|index|loading\.*|career (?:center|search)|current opportunities|'
+    r"we'?re hiring!?|apply|job listings|working (?:with|at) us|questions about the position\s*\??|"
+    r"message d'avertissement|.*:\s*career search|.*»\s*job listings|.*\bvacatures|"
+    r'stellenausschreibungen.*|.*employment (?:opportunities|site)|careers? at .*)$', re.I)
 
 _BLOCK_PAGE_RE = re.compile(
     r'just a moment|checking your browser|verify you are human|'
@@ -2035,7 +2107,21 @@ def fetch_adp_bulk(careers_link):
     # the window (job_postings_lib.scrape_adp pages the same way). Reading
     # only the first response left every posting past the 20th with no row
     # -- Chaminade lists 50.
-    reqs, seen, skip, total, cc_param = [], set(), 0, None, ''
+    # A company's staff and faculty boards differ only by ccId; without it the
+    # API answers with the default (staff) board, so the faculty postings the
+    # link scraper found were "not present in bulk fetch result".
+    # Both the main board and the link's ccId board, as job_postings_lib.
+    # scrape_adp reads them: a faculty board can omit the main board's adjuncts.
+    reqs, seen = [], set()
+    for cc_param in (['', f'&ccId={cc_id}'] if cc_id != '19000101_000001' else ['']):
+        reqs += _adp_board_reqs(base, cid, cc_param, lang, seen)
+    cc_param = f'&ccId={cc_id}' if cc_id != '19000101_000001' else ''
+    return _adp_rows(reqs, parsed, base, cid, cc_id, cc_param, lang)
+
+
+def _adp_board_reqs(base, cid, cc_param, lang, seen):
+    import time as _time
+    reqs, skip, total = [], 0, None
     for _page in range(40):
         status, text = jlib.fetch_static(
             # lang/locale as the board's own page sends them: Westminster
@@ -2049,20 +2135,21 @@ def fetch_adp_bulk(careers_link):
             break
         data = json.loads(text)
         batch = data.get('jobRequisitions') or []
-        if not batch and skip == 0 and not cc_param and cc_id != '19000101_000001':
-            cc_param = f'&ccId={cc_id}'      # some boards answer only with their career-centre id
-            continue
         fresh = [r for r in batch if r.get('itemID') and r['itemID'] not in seen]
-        if not fresh:
+        if not batch or (not fresh and len(batch) < 20):
             break
         seen.update(r['itemID'] for r in fresh)
         reqs += fresh
         if total is None:
             total = (data.get('meta') or {}).get('totalNumber')
-        if total is not None and len(seen) >= total:
+        if total is not None and skip + len(batch) >= total:
             break
         skip += len(batch)
+    return reqs
 
+
+def _adp_rows(reqs, parsed, base, cid, cc_id, cc_param, lang):
+    import time as _time
     out = {}
     for req in reqs:
         item_id = req.get('itemID')
@@ -2453,6 +2540,14 @@ def fetch_detail_peopleadmin(url):
         for tag in soup(['script', 'style']):
             tag.decompose()
         text = re.sub(r'\s+', ' ', soup.get_text(' ', strip=True))
+        # The posting's own title field beats the tab title, which some
+        # portals fill with the posting number (Slippery Rock: "N01211").
+        fields = {th.get_text(' ', strip=True).rstrip(':').lower(): th.find_next('td')
+                  for th in soup.find_all('th') if th.find_next('td')}
+        for key in ('working title', 'position title', 'posting title', 'title', 'job title'):
+            td = fields.get(key)
+            if td and td.get_text(' ', strip=True) and len(text) > 600:
+                return td.get_text(' ', strip=True)[:250], text[:20000]
         if '|' in page_title and len(text) > 600:
             return page_title.rsplit('|', 1)[1].strip()[:250], text[:20000]
     title, description = fetch_detail_generic(url)
@@ -2842,6 +2937,27 @@ def fetch_detail_title_before(url, tail):
     return title[:250], description
 
 
+def fetch_detail_taleo_tbe(url):
+    """Taleo Business Edition (*.tbe.taleo.net .../viewRequisition): every
+    page is titled "Career Center" with h2s "Position Description" / "Hiring
+    Range"; the job title is the first <strong> in the side panel
+    .oracletaleocwsv2-job-description, which also lists Department."""
+    from bs4 import BeautifulSoup
+    status, html = jlib.fetch_static(url, timeout=40)
+    if status != 200 or 'oracletaleocwsv2' not in (html or ''):
+        raise RuntimeError(f'taleo requisition not readable (status={status}, closed?)')
+    soup = BeautifulSoup(html, 'html.parser')
+    panel = soup.select_one('.oracletaleocwsv2-job-description')
+    title = panel.find('strong').get_text(' ', strip=True) if panel and panel.find('strong') else ''
+    if not title:
+        raise RuntimeError('taleo requisition has no title (closed?)')
+    facts = panel.get_text(' | ', strip=True) if panel else ''
+    m = re.search(r'Department \| ([^|]+)', facts)
+    body = soup.select_one('.oracletaleocwsv2-tabs, main, #content') or soup.body
+    desc = (f'Department: {m.group(1).strip()}\n' if m else '') + facts + '\n' + body.get_text(' ', strip=True)
+    return title, desc
+
+
 def fetch_detail_cu_taleo(url):
     """(title, description) for a CU system Taleo posting
     (jobdetail.ftl?job=<n>), from the fields its page embeds
@@ -3000,6 +3116,16 @@ def _classify_from_raw(school_id, links, ckpt, use_llm=False, llm_client=None):
             corpus_stats=corpus_stats, use_llm=use_llm, llm_client=llm_client)
 
 
+def _needs_fetch(entry):
+    """A cached failure or blank read is retried on every run. Caching them
+    for good left jobs blank forever after one bad moment -- a browser that
+    died mid-batch, a bulk API that lagged the board (372 errored and 190
+    blank jobs on 2026-10-30)."""
+    if not entry or 'error' in entry:
+        return True
+    return not (entry.get('title') or '').strip() and not (entry.get('description') or '').strip()
+
+
 def run_school_job_info(school_id, job_postings_checkpoint_path, job_info_checkpoint_path,
                          fetch_detail_fn=None, use_llm=False):
     """For a school with no BULK_ADAPTER: visits each posting URL
@@ -3024,7 +3150,7 @@ def run_school_job_info(school_id, job_postings_checkpoint_path, job_info_checkp
         write_info_csv(school_id, ckpt['rows'], links)
 
     try:
-        to_fetch = [u for u in links if u not in ckpt['raw']]
+        to_fetch = [u for u in links if _needs_fetch(ckpt['raw'].get(u))]
         detail_fn = fetch_detail_fn or fetch_detail_generic
         for url in to_fetch:
             try:
@@ -3038,6 +3164,8 @@ def run_school_job_info(school_id, job_postings_checkpoint_path, job_info_checkp
                                     'description': (description or '')[:_RAW_CACHE_LIMIT]}
             except Exception as e:
                 ckpt['raw'][url] = {'error': f'{type(e).__name__}: {e}'}
+                if re.search(r'(?i)playwright|asyncio loop|target .*closed|browser has been closed', str(e)):
+                    jlib.reset_browser()   # a dead session fails every later URL too
             save_cb()
         _classify_from_raw(school_id, links, ckpt, use_llm=use_llm, llm_client=_make_llm_client(use_llm))
         ckpt['status'] = 'complete'
@@ -3074,7 +3202,7 @@ def run_school_job_info_bulk(school_id, careers_link, platform, job_postings_che
         adapter = BULK_ADAPTERS[platform]
         fetched = adapter(careers_link)
         for url in links:
-            if url in ckpt['raw']:
+            if not _needs_fetch(ckpt['raw'].get(url)):
                 continue
             if url in fetched:
                 title, description, department = fetched[url]

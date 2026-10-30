@@ -139,6 +139,9 @@ def _other(text, lenient):
     return not lenient and bool(HEALTH.search(text) or COMPUTING.search(text))
 
 
+_SUPPLY = re.compile(r"(?i)supply\s+chain|\blogistics\b")
+
+
 def is_relevant(title, department='', keywords=''):
     title = title or ''
     department = department or ''
@@ -149,6 +152,11 @@ def is_relevant(title, department='', keywords=''):
     # after the dash outranks the department name before it.
     spec = re.split(r"\s[-\u2013\u2014]\s", title)[-1] if re.search(r"\s[-\u2013\u2014]\s", title) else ''
     if spec and TITLE_STRONG.search(spec) and not HARD_EXCLUDE.search(spec):
+        return True
+    # "Business Analytics and Supply Chain Management": supply chain alone is
+    # excluded, but not when the title names one of the user's fields too.
+    if TITLE_STRONG.search(title) and not HARD_EXCLUDE.search(_SUPPLY.sub(' ', title)) \
+            and not HARD_EXCLUDE.search(_SUPPLY.sub(' ', department)):
         return True
     if HARD_EXCLUDE.search(title) or HARD_EXCLUDE.search(department):
         return False

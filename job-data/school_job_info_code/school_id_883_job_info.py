@@ -38,8 +38,22 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """PageUp posting: the title is the advert's opening words that spell the URL slug."""
-    return jinfo.fetch_detail_pageup(url)
+    """Seton Hall's own board (jobs.shu.edu/jobs/<slug>): the advert is in the
+    page's JSON-LD JobPosting; the old PageUp reader returned blank titles."""
+    import json
+    from bs4 import BeautifulSoup
+    html = jinfo.jlib.fetch_rendered(url, wait_ms=4000)
+    soup = BeautifulSoup(html, 'html.parser')
+    for tag in soup.find_all('script', type='application/ld+json'):
+        try:
+            data = json.loads(tag.string or '')
+        except ValueError:
+            continue
+        if isinstance(data, dict) and data.get('@type') == 'JobPosting':
+            desc = BeautifulSoup(data.get('description', ''), 'html.parser').get_text('\n', strip=True)
+            return data.get('title', '').strip(), desc
+    el = soup.select_one('[class*="title"]')
+    return (el.get_text(strip=True) if el else ''), soup.get_text('\n', strip=True)
 
 
 def main():

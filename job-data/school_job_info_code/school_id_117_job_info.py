@@ -38,13 +38,18 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """This school's own detail-page logic, owned by this file. The default
-    renders the page, picks the most job-title-shaped heading, and takes the
-    visible text as the description. Override when a posting page needs
-    something else -- a nested iframe, a cookie gate, a PDF, or a title that
-    only exists in <title> (all of which came up in the non-US set)."""
-    return jinfo.fetch_detail_generic(url)
-
+    """Simpson's UKG (onehcm) postings have no title heading; the text reads
+    "Job Title : <title>" (every page was stored as "Career Search")."""
+    import re
+    html = jinfo.jlib.fetch_rendered(url, wait_ms=8000)
+    if jinfo.jlib.is_fetch_failure(html):
+        raise RuntimeError(html)
+    from bs4 import BeautifulSoup
+    text = BeautifulSoup(html, 'html.parser').get_text(' ', strip=True)
+    m = re.search(r'Job Title\s*:\s*(.{3,150}?)\s+(?:Typical Working|Department|Location|Job Description|Reports To|Summary|Position)', text)
+    if not m:
+        raise RuntimeError('posting has no Job Title field (closed?)')
+    return m.group(1).strip(), text
 
 
 def main():

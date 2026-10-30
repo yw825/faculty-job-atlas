@@ -48,7 +48,9 @@ CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint
 
 
 def fetch_detail(url):
-    return jinfo.fetch_detail_generic(url)
+    """PeopleAdmin posting: the title from the posting's own field, not the
+    page heading (which reads "Careers" or the university's name)."""
+    return jinfo.fetch_detail_peopleadmin(url)
 
 
 def main():

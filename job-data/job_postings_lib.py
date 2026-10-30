@@ -72,7 +72,8 @@ _browser = None
 def get_browser():
     global _pw, _browser
     if _browser is None and sync_playwright is not None:
-        _pw = sync_playwright().start()
+        if _pw is None:
+            _start_playwright()
         _browser = _pw.chromium.launch()
     return _browser
 
@@ -90,22 +91,39 @@ def get_real_chrome():
     global _pw, _real_chrome
     if _real_chrome is None and sync_playwright is not None:
         if _pw is None:
-            _pw = sync_playwright().start()
+            _start_playwright()
         _real_chrome = _pw.chromium.launch(channel='chrome', headless=False)
     return _real_chrome
 
 
+def _start_playwright():
+    # Every sync Playwright call leaves its loop marked as running; a session
+    # that died without a clean stop left that mark behind, and the next
+    # start() refused with "using Playwright Sync API inside the asyncio
+    # loop" -- for every later school in the batch (2026-10-29: 11 schools'
+    # job details cached as that error).
+    global _pw
+    asyncio._set_running_loop(None)
+    _pw = sync_playwright().start()
+
+
 def close_browser():
     global _pw, _browser, _real_chrome
-    if _real_chrome:
-        _real_chrome.close()
-        _real_chrome = None
-    if _browser:
-        _browser.close()
-        _browser = None
-    if _pw:
-        _pw.stop()
-        _pw = None
+    try:
+        for b in (_real_chrome, _browser):
+            if b:
+                try:
+                    b.close()
+                except Exception:
+                    pass
+        if _pw:
+            try:
+                _pw.stop()
+            except Exception:
+                pass
+    finally:
+        _real_chrome = _browser = _pw = None
+        asyncio._set_running_loop(None)
 
 
 # --------------------------------------------------------------------------
@@ -878,18 +896,25 @@ def scrape_adp(url):
     # reports the real size in meta.totalNumber. Reading only the first
     # response silently truncated every ADP school to its first 20 jobs --
     # Ohio Wesleyan advertises 69. $skip is what actually moves the window.
-    base = (f'https://{parsed.netloc}/mascsr/default/careercenter/public/events/'
+    root = (f'https://{parsed.netloc}/mascsr/default/careercenter/public/events/'
             f'staffing/v1/job-requisitions?cid={cid}&lang={lang}&locale={lang}')
     # One company can run several boards (staff, faculty) told apart only by
-    # ccId. Without it the API answers with the default board: Randolph-Macon's
-    # faculty link read six staff jobs (custodian, landscaping) instead of ten
-    # assistant professorships.
-    if cc_id != '19000101_000001':
-        base += f'&ccId={cc_id}'
+    # ccId, and the split is not clean: Randolph-Macon's professorships are
+    # only on its ccId board, while Chaminade's and Misericordia's adjuncts
+    # are only on the main one. So both are read and the map's faculty
+    # filter drops the staff jobs. Every link carries the careers link's
+    # ccId; ADP opens a main-board job under it too.
     # lang/locale as the board's own page sends them: Westminster University's
     # board answers 500 without them.
     links, seen = [], set()
-    skip, total = 0, None
+    for base in ([root, f'{root}&ccId={cc_id}'] if cc_id != '19000101_000001' else [root]):
+        links += _adp_board_links(base, parsed.netloc, cid, cc_id, lang, seen)
+    return links
+
+
+def _adp_board_links(base, netloc, cid, cc_id, lang, seen):
+    links = []
+    skip, total, start = 0, None, len(seen)
     for _page in range(40):
         api = f'{base}&timeStamp={int(time.time() * 1000)}&$skip={skip}'
         status, text = fetch_static(api, extra_headers={'Accept': 'application/json'})
@@ -910,11 +935,11 @@ def scrape_adp(url):
                 continue
             seen.add(item_id)
             added += 1
-            links.append(f'https://{parsed.netloc}/mascsr/default/mdf/recruitment/'
+            links.append(f'https://{netloc}/mascsr/default/mdf/recruitment/'
                          f'recruitment.html?cid={cid}&ccId={cc_id}&jobId={item_id}&lang={lang}')
-        if added == 0:                      # the window stopped moving
+        if total is not None and skip + len(batch) >= total:
             break
-        if total is not None and len(seen) >= total:
+        if added == 0 and len(batch) < 20:
             break
         skip += len(batch)
     return links
