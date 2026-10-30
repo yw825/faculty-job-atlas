@@ -1648,6 +1648,19 @@ def _jsonld_job_title(soup):
     return ''
 
 
+def _labelled_job_title(soup):
+    """A "Position Title:" / "Job Title:" form field and the cell after it
+    (Claremont McKenna's pages head with the portal's name)."""
+    for el in soup.find_all(['td', 'th', 'dt', 'label', 'strong', 'b']):
+        label = el.get_text(' ', strip=True)
+        if re.fullmatch(r'(?i)(?:position|job|working|posting|official)\s+title\s*:?', label):
+            nxt = el.find_next(['td', 'dd', 'span', 'div', 'p'])
+            val = re.sub(r'\s+', ' ', nxt.get_text(' ', strip=True)) if nxt else ''
+            if 3 < len(val) <= 200 and not _CHROME_TITLE_RE.match(val.rstrip(' .')):
+                return val
+    return ''
+
+
 def fetch_detail_generic(url):
     """Renders the posting page and picks the best-looking title out of
     <h1> and <title> (see _pick_best_title); the description is the page's
@@ -1699,7 +1712,7 @@ def fetch_detail_generic(url):
         raise RuntimeError(html)
     from bs4 import BeautifulSoup
     soup = BeautifulSoup(html, 'html.parser')
-    ld_title = _jsonld_job_title(soup)
+    ld_title = _jsonld_job_title(soup) or _labelled_job_title(soup)
     if ld_title:
         return ld_title, soup.get_text(' ', strip=True)
     candidates = []
@@ -1710,7 +1723,7 @@ def fetch_detail_generic(url):
     # <title> tag's "Details - " prefixed version. Checked before <title>
     # since on-page headings are typically cleaner than that tag.
     for heading in soup.find_all(['h1', 'h2']):
-        candidates += _title_candidates_from_text(heading.get_text(strip=True))
+        candidates += _title_candidates_from_text(heading.get_text(' ', strip=True))
     title_tag = soup.find('title')
     title_tag_candidates = []
     if title_tag:
@@ -1745,7 +1758,7 @@ def fetch_detail_generic(url):
             soup = BeautifulSoup(rendered, 'html.parser')
             recand, retag = [], []
             for heading in soup.find_all(['h1', 'h2']):
-                recand += _title_candidates_from_text(heading.get_text(strip=True))
+                recand += _title_candidates_from_text(heading.get_text(' ', strip=True))
             tt = soup.find('title')
             if tt:
                 retag = _title_candidates_from_text(tt.get_text(strip=True))

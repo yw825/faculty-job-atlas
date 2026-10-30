@@ -53,9 +53,13 @@ def _page_links():
 POSTING_RE = re.compile(r'/DrakeCareers/job/')
 
 
+# jobs.drake.edu is Drake's Workday site on its own domain; the board renders
+# 3 jobs at a time, so the API behind it is read instead (28 on 2026-10-30).
+WORKDAY = 'https://drake.wd108.myworkdayjobs.com/DrakeCareers'
+
+
 def find_links():
-    """Only real postings, not the page's menus, share buttons or sign-in links."""
-    return list(dict.fromkeys(u for u in _page_links() if POSTING_RE.search(u)))
+    return lib.PLATFORM_ADAPTERS['workday'](WORKDAY, SCHOOL_NAME)
 
 
 def main():
