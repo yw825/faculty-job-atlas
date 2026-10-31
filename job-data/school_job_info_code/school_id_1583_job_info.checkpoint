@@ -1259,6 +1259,26 @@
       "title": "Office Associate - Hoyt Shared Staff Center",
       "description": "Perform advanced office and administrative/management support tasks.",
       "department": null
+    },
+    "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/262922": {
+      "title": "Associate/Full Professor of Marketing - Management & Marketing",
+      "description": "The Department of Management and Marketing in the College of Business at the University of Wyoming invites applications for a full-time, tenure-track position in Marketing at the associate/full level, beginning Fall 2027, with eligibility for the prestigious Dick and Maggie Scarlett Chair of Business Administration. \n\n",
+      "department": null
+    },
+    "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/262962": {
+      "title": "Laboratory Technician II - WSVL",
+      "description": "",
+      "department": null
+    },
+    "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/262969": {
+      "title": "Technician, Senior - Engineering & Physical Sciences Deans Office",
+      "description": "Provide technical support and safety supervision for laboratories in the College of Engineering and Physical Sciences.  Manage, supervise, coordinate and evaluate all functions related to laboratory operations including the design, fabrication, maintenance and repair, and operation of instruments used for educational and research purposes.",
+      "department": null
+    },
+    "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/262972": {
+      "title": "Assistant Director, Business Operations - Engineering & Physical Sciences Deans Office",
+      "description": "Assists the Director of Business Operations in overseeing and performing the business, financial, and personnel functions of the College of Engineering and Physical Sciences. Manage the financial operations of the College of Engineering and Physical Sciences (CEPS). Provide financial planning, forecasting, reporting, and contract negotiations. Develop policy and procedures and manage special projects. Serve as senior level resource and lead for all aspects related to Unrestricted Operating, Tier 1,  state and federal funds, Designated funds and project/grants. Supervise personnel, financial and office activities and services.  Manage and supervise Business Office staff and part-time student workers.  Maintain a strong college perspective on mission, goals, and primary programs. Work in collaboration with the Director, Business Operations concerning operational, financial and personnel activities of CEPS.",
+      "department": null
     }
   },
   "rows": {
@@ -4266,11 +4286,59 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/262922": {
+      "school_id": 1583,
+      "posting_url": "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/262922",
+      "job_title_in_post": "Associate/Full Professor of Marketing - Management & Marketing",
+      "position_type": "Associate_Professor; Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Department of Management and Marketing in the College of Business",
+      "area_key_words": "Marketing",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/262962": {
+      "school_id": 1583,
+      "posting_url": "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/262962",
+      "job_title_in_post": "Laboratory Technician II - WSVL",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/262969": {
+      "school_id": 1583,
+      "posting_url": "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/262969",
+      "job_title_in_post": "Technician, Senior - Engineering & Physical Sciences Deans Office",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "College of Engineering and Physical Sciences",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/262972": {
+      "school_id": 1583,
+      "posting_url": "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/262972",
+      "job_title_in_post": "Assistant Director, Business Operations - Engineering & Physical Sciences Deans Office",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "College of Engineering and Physical Sciences",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1583,
   "status": "complete",
-  "updated_at": "2026-10-30T00:30:40+00:00",
-  "completed_at": "2026-10-30T00:30:40+00:00",
+  "updated_at": "2026-10-31T01:15:17+00:00",
+  "completed_at": "2026-10-31T01:15:17+00:00",
   "last_error": ""
 }

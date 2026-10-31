@@ -1,5 +1,6 @@
 {
   "links": [
+    "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=d687b185-ab48-45f0-afcf-5b1ceb8d32ea&ccId=9200921635429_3&jobId=9205249130076_2&lang=en_US",
     "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=d687b185-ab48-45f0-afcf-5b1ceb8d32ea&ccId=9200921635429_3&jobId=9200993288897_1&lang=en_US",
     "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=d687b185-ab48-45f0-afcf-5b1ceb8d32ea&ccId=9200921635429_3&jobId=9200990472902_1&lang=en_US",
     "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=d687b185-ab48-45f0-afcf-5b1ceb8d32ea&ccId=9200921635429_3&jobId=9200988662427_1&lang=en_US",
@@ -62,9 +63,9 @@
   ],
   "school_id": 1144,
   "status": "complete",
-  "updated_at": "2026-10-29T20:07:32+00:00",
+  "updated_at": "2026-10-30T20:40:55+00:00",
   "started_at": "2026-09-08T02:46:15+00:00",
-  "completed_at": "2026-10-29T20:07:32+00:00",
+  "completed_at": "2026-10-30T20:40:55+00:00",
   "last_error": "",
-  "last_warning": "2026-10-29T20:07:32+00:00: board returned 21 links vs 59 before; old set kept"
+  "last_warning": "2026-10-30T20:40:55+00:00: board returned 21 links vs 60 before; old set kept"
 }

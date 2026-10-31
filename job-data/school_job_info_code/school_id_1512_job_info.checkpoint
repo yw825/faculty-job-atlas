@@ -514,6 +514,11 @@
       "title": "Lecturer Pool - Marketing",
       "description": "Posted: 04/01/2026 Location: Ellensburg, WA Department: Management Lecturer Pool - Marketing",
       "department": "Management"
+    },
+    "https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=7611&PostingSeq=1&SiteId=1": {
+      "title": "Lecturer Pool - Foundations of Library and Information Science",
+      "description": "Posted: 10/30/2026 Location: Remote Department: CWU Libraries Lecturer Pool - Foundations of Library and Information Science",
+      "department": "CWU Libraries"
     }
   },
   "rows": {
@@ -1752,11 +1757,23 @@
       "deadline_of_application": "",
       "posted_date": "04/01/2026",
       "position_start_date": ""
+    },
+    "https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=7611&PostingSeq=1&SiteId=1": {
+      "school_id": 1512,
+      "posting_url": "https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=7611&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Lecturer Pool - Foundations of Library and Information Science",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "CWU Libraries",
+      "area_key_words": "Foundations of Library and Information Science",
+      "deadline_of_application": "",
+      "posted_date": "10/30/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 1512,
   "status": "complete",
-  "updated_at": "2026-10-30T00:29:01+00:00",
-  "completed_at": "2026-10-30T00:29:01+00:00",
+  "updated_at": "2026-10-31T01:12:52+00:00",
+  "completed_at": "2026-10-31T01:12:52+00:00",
   "last_error": ""
 }

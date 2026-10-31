@@ -597,6 +597,7 @@
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://utulsa-ibvjjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/415": {
@@ -854,7 +855,7 @@
   },
   "school_id": 1103,
   "status": "complete",
-  "updated_at": "2026-10-30T00:10:27+00:00",
-  "completed_at": "2026-10-30T00:10:27+00:00",
+  "updated_at": "2026-10-31T00:57:02+00:00",
+  "completed_at": "2026-10-31T00:57:02+00:00",
   "last_error": ""
 }

@@ -22,8 +22,8 @@
     "https://www.schooljobs.com/careers/ssuoh/jobs/5494230/adjunct-faculty-master-of-science-in-nursing-msn",
     "https://www.schooljobs.com/careers/ssuoh/jobs/4379736/clinical-supervisor-dental-hygiene",
     "https://www.schooljobs.com/careers/ssuoh/jobs/4437924/clinical-supervisor-respiratory-therapy",
-    "https://www.schooljobs.com/careers/ssuoh/jobs/5407851/executive-assistant-to-the-office-of-the-president-and-board-relations",
     "https://www.schooljobs.com/careers/ssuoh/jobs/5440423/assistant-professor-of-psychology-biopsychology-social-and-or-developmental-neur",
+    "https://www.schooljobs.com/careers/ssuoh/jobs/5443119/operations-manager-adena",
     "https://www.schooljobs.com/careers/ssuoh/jobs/5478611/life-model-fine-digital-performing-arts",
     "https://www.schooljobs.com/careers/ssuoh/jobs/5507572/assistant-professor-nursing",
     "https://www.schooljobs.com/careers/ssuoh/jobs/5507609/assistant-professor-nursing",
@@ -31,21 +31,20 @@
     "https://www.schooljobs.com/careers/ssuoh/jobs/5525277/head-coach-mens-soccer",
     "https://www.schooljobs.com/careers/ssuoh/jobs/5525847/assistant-professor-certificate-and-credential-programs-chhs-rehabilitation-sc",
     "https://www.schooljobs.com/careers/ssuoh/jobs/4045435/temporary-position-applicant-pool",
+    "https://www.schooljobs.com/careers/ssuoh/jobs/5338955/workforce-education-navigator-star",
     "https://www.schooljobs.com/careers/ssuoh/jobs/5387356/student-employee-math-center-tutor-26-27-academic-year",
     "https://www.schooljobs.com/careers/ssuoh/jobs/5388319/student-employee-athletics-26-27-academic-year",
     "https://www.schooljobs.com/careers/ssuoh/jobs/5388462/student-employee-events-setup-crew-26-27-academic-year",
     "https://www.schooljobs.com/careers/ssuoh/jobs/5415926/student-employee-tutor-student-success-center-26-27-academic-year",
-    "https://www.schooljobs.com/careers/ssuoh/jobs/5443119/operations-manager-adena",
     "https://www.schooljobs.com/careers/ssuoh/jobs/5449113/student-employee-vrcfa-stage-crew-26-27-academic-year",
     "https://www.schooljobs.com/careers/ssuoh/jobs/5464625/student-employee-fine-digital-performing-arts-26-27-academic-year",
     "https://www.schooljobs.com/careers/ssuoh/jobs/5467333/part-time-assistant-coach-athletic-teams",
-    "https://www.schooljobs.com/careers/ssuoh/jobs/5498260/senior-academic-and-career-advisor",
-    "https://www.schooljobs.com/careers/ssuoh/jobs/5338955/workforce-education-navigator-star"
+    "https://www.schooljobs.com/careers/ssuoh/jobs/5498260/senior-academic-and-career-advisor"
   ],
   "school_id": 1066,
-  "status": "error",
-  "updated_at": "2026-10-29T19:57:43+00:00",
+  "status": "complete",
+  "updated_at": "2026-10-30T20:32:11+00:00",
   "started_at": "2026-09-10T07:15:40+00:00",
-  "completed_at": "2026-10-28T20:47:14+00:00",
-  "last_error": "RuntimeError: schooljobs board returned no postings"
+  "completed_at": "2026-10-30T20:32:11+00:00",
+  "last_error": ""
 }

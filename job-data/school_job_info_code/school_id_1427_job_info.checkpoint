@@ -130,11 +130,6 @@
       "description": "Posted: 10/09/2026 Location: San Antonio, TX Department: DESIGN AND CONSTRUCTION Senior Architect - Design & Construction",
       "department": "DESIGN AND CONSTRUCTION"
     },
-    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16511&PostingSeq=1&SiteId=21": {
-      "title": "Sergeant - University Police",
-      "description": "Posted: 10/09/2026 Location: San Antonio, TX Department: UNIVERSITY POLICE Sergeant - University Police",
-      "department": "UNIVERSITY POLICE"
-    },
     "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=15639&PostingSeq=1&SiteId=21": {
       "title": "Plumber II, Facilities Operations and Maintenance",
       "description": "Posted: 10/08/2026 Location: San Antonio, TX Department: FACILITIES OPERATIONS AND MAIN Plumber II, Facilities Operations and Maintenance",
@@ -327,6 +322,26 @@
     },
     "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16688&PostingSeq=1&SiteId=21": {
       "error": "not present in bulk fetch result"
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16681&PostingSeq=1&SiteId=21": {
+      "title": "Lecturer (Part-Time) - College for Health, Community and Policy (HCAP), Psychology",
+      "description": "Posted: 10/30/2026 Location: San Antonio, TX Department: HCAP PSYCHOLOGY Lecturer (Part-Time) - College for Health, Community and Policy (HCAP), Psychology",
+      "department": "HCAP PSYCHOLOGY"
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16692&PostingSeq=1&SiteId=21": {
+      "title": "Lecturer (Part-Time) - College of AI, Cyber and Computing (CAICC), Information Systems and Cybersecurity",
+      "description": "Posted: 10/30/2026 Location: San Antonio, TX Department: CAICC DEPT OF INFO SYS & CYBER Lecturer (Part-Time) - College of AI, Cyber and Computing (CAICC), Information Systems and Cybersecurity",
+      "department": "CAICC DEPT OF INFO SYS & CYBER"
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16677&PostingSeq=1&SiteId=21": {
+      "title": "Business Service Center Specialist III - ETS Operations",
+      "description": "Posted: 10/29/2026 Location: San Antonio, TX Department: ETS OPERATIONS Business Service Center Specialist III - ETS Operations",
+      "department": "ETS OPERATIONS"
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16707&PostingSeq=1&SiteId=21": {
+      "title": "Enterprise Programmer Analyst",
+      "description": "Posted: 10/29/2026 Location: San Antonio, TX Department: ETS APPLICATION DVLPMT SUPPORT Enterprise Programmer Analyst",
+      "department": "ETS APPLICATION DVLPMT SUPPORT"
     }
   },
   "rows": {
@@ -1104,11 +1119,59 @@
     },
     "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16688&PostingSeq=1&SiteId=21": {
       "error": "not present in bulk fetch result"
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16681&PostingSeq=1&SiteId=21": {
+      "school_id": 1427,
+      "posting_url": "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16681&PostingSeq=1&SiteId=21",
+      "job_title_in_post": "Lecturer (Part-Time) - College for Health, Community and Policy (HCAP), Psychology",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "HCAP PSYCHOLOGY",
+      "area_key_words": "Psychology",
+      "deadline_of_application": "",
+      "posted_date": "10/30/2026",
+      "position_start_date": ""
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16692&PostingSeq=1&SiteId=21": {
+      "school_id": 1427,
+      "posting_url": "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16692&PostingSeq=1&SiteId=21",
+      "job_title_in_post": "Lecturer (Part-Time) - College of AI, Cyber and Computing (CAICC), Information Systems and Cybersecurity",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "CAICC DEPT OF INFO SYS & CYBER",
+      "area_key_words": "Information Systems and Cybersecurity",
+      "deadline_of_application": "",
+      "posted_date": "10/30/2026",
+      "position_start_date": ""
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16677&PostingSeq=1&SiteId=21": {
+      "school_id": 1427,
+      "posting_url": "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16677&PostingSeq=1&SiteId=21",
+      "job_title_in_post": "Business Service Center Specialist III - ETS Operations",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "ETS OPERATIONS",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "10/29/2026",
+      "position_start_date": ""
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16707&PostingSeq=1&SiteId=21": {
+      "school_id": 1427,
+      "posting_url": "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16707&PostingSeq=1&SiteId=21",
+      "job_title_in_post": "Enterprise Programmer Analyst",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "ETS APPLICATION DVLPMT SUPPORT",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "10/29/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 1427,
   "status": "complete",
-  "updated_at": "2026-10-30T00:23:08+00:00",
-  "completed_at": "2026-10-30T00:23:08+00:00",
+  "updated_at": "2026-10-31T01:09:33+00:00",
+  "completed_at": "2026-10-31T01:09:33+00:00",
   "last_error": ""
 }

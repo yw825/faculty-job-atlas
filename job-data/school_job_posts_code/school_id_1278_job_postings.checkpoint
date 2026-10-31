@@ -55,8 +55,9 @@
   ],
   "school_id": 1278,
   "status": "complete",
-  "updated_at": "2026-10-29T20:21:28+00:00",
+  "updated_at": "2026-10-30T20:56:35+00:00",
   "started_at": "2026-09-08T02:58:25+00:00",
-  "completed_at": "2026-10-29T20:21:28+00:00",
-  "last_error": ""
+  "completed_at": "2026-10-30T20:56:35+00:00",
+  "last_error": "",
+  "last_warning": "2026-10-30T20:56:35+00:00: board returned 0 links vs 52 before; old set kept"
 }

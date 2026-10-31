@@ -2,7 +2,7 @@
   "links": [],
   "school_id": 1710,
   "status": "error",
-  "updated_at": "2026-10-29T22:12:52+00:00",
+  "updated_at": "2026-10-30T23:13:00+00:00",
   "started_at": "2026-09-03T18:52:22+00:00",
   "completed_at": "2026-10-16T18:54:07+00:00",
   "last_error": "RuntimeError: mur profcalls search status=503"

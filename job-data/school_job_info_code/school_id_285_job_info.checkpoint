@@ -894,6 +894,16 @@
       "title": "Residential Building Services Associate",
       "description": "Posted: 10/28/2026 Location: UWG Recruiting Location Department: FDS - Custodial Services Residential Building Services Associate",
       "department": "FDS - Custodial Services"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305423&PostingSeq=1&SiteId=54000": {
+      "title": "Student Assistant - Peer Academic Coach",
+      "description": "Posted: 10/30/2026 Location: UWG Recruiting Location Department: Dept. of Academic Excellence Student Assistant - Peer Academic Coach",
+      "department": "Dept. of Academic Excellence"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305499&PostingSeq=1&SiteId=54000": {
+      "title": "Student Assistant -Richards College Marketing & Events, Graduate Level",
+      "description": "Posted: 10/30/2026 Location: UWG Recruiting Location Department: College of Business Student Assistant -Richards College Marketing & Events, Graduate Level",
+      "department": "College of Business"
     }
   },
   "rows": {
@@ -3022,11 +3032,35 @@
       "deadline_of_application": "",
       "posted_date": "10/28/2026",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305423&PostingSeq=1&SiteId=54000": {
+      "school_id": 285,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305423&PostingSeq=1&SiteId=54000",
+      "job_title_in_post": "Student Assistant - Peer Academic Coach",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Dept. of Academic Excellence",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "10/30/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305499&PostingSeq=1&SiteId=54000": {
+      "school_id": 285,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305499&PostingSeq=1&SiteId=54000",
+      "job_title_in_post": "Student Assistant -Richards College Marketing & Events, Graduate Level",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "College of Business",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "10/30/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 285,
   "status": "complete",
-  "updated_at": "2026-10-29T23:00:15+00:00",
-  "completed_at": "2026-10-29T23:00:15+00:00",
+  "updated_at": "2026-10-30T23:53:31+00:00",
+  "completed_at": "2026-10-30T23:53:31+00:00",
   "last_error": ""
 }

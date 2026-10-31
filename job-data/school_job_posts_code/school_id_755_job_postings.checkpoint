@@ -316,12 +316,17 @@
     "https://explore.msujobs.msstate.edu/jobs/intermittent-worker-south-ms-area-mississippi-united-states-c9716c99-cb97-4d05-8a19-52b0b814f0eb",
     "https://explore.msujobs.msstate.edu/jobs/intermittent-worker-stoneville-ms-mississippi-united-states-20af2d07-82e4-43f3-b2a4-6210e1924b5d",
     "https://explore.msujobs.msstate.edu/jobs/client-experience-coordinator-main-campus-starkville-ms-mississippi-united-states",
-    "https://explore.msujobs.msstate.edu/jobs/lecturer-meridian-campus-meridian-ms-mississippi-united-states-riley-campus-meridian-ms-riley-center-meridian-ms"
+    "https://explore.msujobs.msstate.edu/jobs/lecturer-meridian-campus-meridian-ms-mississippi-united-states-riley-campus-meridian-ms-riley-center-meridian-ms",
+    "https://explore.msujobs.msstate.edu/jobs/teacher-early-head-start-harrison-county-mississippi-united-states",
+    "https://explore.msujobs.msstate.edu/jobs/intermittent-worker-harrison-county-mississippi-united-states",
+    "https://explore.msujobs.msstate.edu/jobs/intermittent-worker-main-campus-starkville-ms-mississippi-united-states-87028b28-5d4a-4030-9951-b66b94982b33",
+    "https://explore.msujobs.msstate.edu/jobs/extension-associate-main-campus-starkville-ms-mississippi-united-states-24eb7b83-7ed3-4435-906a-8c228a6e08dd"
   ],
   "school_id": 755,
   "status": "complete",
-  "updated_at": "2026-10-29T19:00:46+00:00",
+  "updated_at": "2026-10-30T19:28:15+00:00",
   "started_at": "2026-09-08T02:13:59+00:00",
-  "completed_at": "2026-10-29T19:00:46+00:00",
-  "last_error": ""
+  "completed_at": "2026-10-30T19:28:15+00:00",
+  "last_error": "",
+  "last_warning": "2026-10-30T19:28:15+00:00: board returned 120 links vs 317 before; old set kept"
 }

@@ -719,6 +719,10 @@
     "https://apply.interfolio.com/196390": {
       "title": "Associate Professional Specialist for Princeton Industrial Relations Section-Bleemer Lab",
       "description": "Department: Princeton University: Office of the Dean of the Faculty: Social Sciences: Economics: Industrial Relations Location: Princeton, NJ Posted: Oct 29, 2026 Deadline: Dec 01, 2026 The Industrial Relations Section (IRS) and the Department of Economics seek a highly motivated and experienced specialist to contribute to the research of Professor Zachary Bleemer during the 2027-2028 academic year. Bleemer’s research interests focus on American higher education. His recent work examines changes in the college mobility pipeline, meritocratic consensus and stratification, and the impact of college major restrictions in. The appointment will be made at the rank of Associate Professional Specialist (APS). The APS will contribute towards both the construction of a novel database of 1920-2000 City University of New York student transcripts (employing advanced natural language processing and machine learning techniques). They will then employ those data using a series of econometric and statistical models to investigate the short- and long-run consequences of CUNY's 1970 Open Admissions policy, 1970s fluctuations in state funding support, and 1990s return to selective admissions. They will interpret these findings in context of related frontier scholarship to determine the degree of supermodularity in the return to high-value universities and the value-added return to block grant funding. Responsibilities include: Employing Qwen and Dots LLMs and text analysis tools like LIWC and latent Dirichlet allocation using advanced engineering skills on an encrypted slurm GPU cluster to produce, clean, and categorize computer-readable student transcript records from image and unformatted text files. Using GIS software, subject-specific knowledge, and fuzzy-match algorithms to geolocate schools and addresses and merge individual-level student, voter, housing, survey, Census, and tax data into comprehensive research-grade databases. Employing frontier statistical techniques -- including recentered instruments and a variety of machine-learning algorithms -- to analyze long-run effects of U.S. university admissions and housing policies. Managing undergraduate research assistants, data engineers, and other research staff providing analytical support on related research tasks. Producing draft policy briefs, presentation slides, and academic studies and present findings at regular lab meetings. Assisting with drafting materials for publication. Coordinating and submitting applications for review by Princeton’s Institutional Review Board. The work location for this position is primarily in-person on campus at Princeton University with occasional research trips to Italy. This position is subject to the University's background check policy. This is a one-year term position with the potential for renewal for a second term. This position is not eligible for sponsorship of an H-1B visa requiring consular processing; other visa sponsorships (including H-1B visas not requiring consular processing) may be available, as appropriate. Masters degree in Economics, applied Mathematics, Computer Science, Statistics, or related discipline Prior research experience in the fields of Economics Experience working with real-world data sets, including education or school administrative data Graduate-level coding/algorithm skills and proficiency in statistical programming, especially Stata, R, Python, MATLAB, SAS, LaTeX Proficiency in quantitative text analysis methods, such as LIWC and latent Dirichlet allocation Proficiency in, or experience with, large language models, such as such as Qwen and dots LLM Experience with utilizing cluster computing resources and workflows Strong written and oral communication skills Excellent organizational and time management skills To apply, please provide the following information and documents: Cover letter that briefly describes your academic background, research experience, goals for the future CV Writing sample Three references"
+    },
+    "https://apply.interfolio.com/195066": {
+      "title": "Postdoctoral Researcher",
+      "description": "Department: Princeton University: Office of the Dean of the Faculty: Natural Sciences: Princeton Quantum Initiative Location: Princeton, NJ Posted: Oct 30, 2026 Deadline: Oct 31, 2027 The Princeton Quantum Initiative seeks outstanding applicants for postdoctoral researchers. These highly competitive positions will support research in quantum science and engineering across several departments throughout the university, including physics, electrical engineering, computer science, chemistry, and mechanical engineering. Research areas include foundational quantum science, quantum materials, devices for quantum technologies, and quantum computer science. Appointments will be at the Postdoctoral Research Associate rank or a more senior researcher rank. Postdoctoral appointments will be for one year, renewable annually based on funding and meeting all other requirements. Appointments made at a more senior rank may have multi-year appointments. Applicants should have a strong track record of research excellence in a related field. Applicants should have (or expect to have by the start of the appointment) a PhD in a related discipline (physics, electrical engineering, chemistry, or computer science). The work location for this position is in-person on campus at Princeton University. This position is subject to the University's background check policy. Please include a CV, cover letter, a brief (1-2 page) statement of research interests including faculty member(s) with whom you would want to work, publications list, and three reference letters. Applications will receive full consideration if they are submitted by October 30, 2027 , at 11:59 PM."
     }
   },
   "rows": {
@@ -2875,11 +2879,23 @@
       "deadline_of_application": "Dec 01, 2026",
       "posted_date": "Oct 29, 2026",
       "position_start_date": ""
+    },
+    "https://apply.interfolio.com/195066": {
+      "school_id": 882,
+      "posting_url": "https://apply.interfolio.com/195066",
+      "job_title_in_post": "Postdoctoral Researcher",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "quantum science; electrical engineering",
+      "deadline_of_application": "Oct 31, 2027",
+      "posted_date": "Oct 30, 2026",
+      "position_start_date": ""
     }
   },
   "school_id": 882,
   "status": "complete",
-  "updated_at": "2026-10-29T23:47:36+00:00",
-  "completed_at": "2026-10-29T23:47:36+00:00",
+  "updated_at": "2026-10-31T00:45:50+00:00",
+  "completed_at": "2026-10-31T00:45:50+00:00",
   "last_error": ""
 }

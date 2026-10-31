@@ -160,11 +160,6 @@
       "description": "Posted: 08/21/2026 Location: Minot Department: Humanities, Soc Sci, & Interdi Student Assistant - Looyenga Leadership Center",
       "department": "Humanities, Soc Sci, & Interdi"
     },
-    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2959708&PostingSeq=1&SiteId=1": {
-      "title": "University Supervisor",
-      "description": "Posted: 08/12/2026 Location: Minot Department: Teacher Licensure Programs University Supervisor",
-      "department": "Teacher Licensure Programs"
-    },
     "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2959681&PostingSeq=1&SiteId=1": {
       "title": "Assistant Women's Hockey Coach",
       "description": "Posted: 08/07/2026 Location: Minot Department: Athletics Assistant Women's Hockey Coach",
@@ -381,19 +376,39 @@
       "department": "Facilities Mgmt Administration"
     },
     "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960115&PostingSeq=1&SiteId=1": {
-      "error": "not present in bulk fetch result"
+      "title": "Student - Audio/Visual Assistant",
+      "description": "Posted: 10/26/2026 Location: Minot Department: Performing Arts Student - Audio/Visual Assistant",
+      "department": "Performing Arts"
     },
     "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960138&PostingSeq=1&SiteId=1": {
-      "error": "not present in bulk fetch result"
+      "title": "Adjunct Faculty - Computer Information Systems",
+      "description": "Posted: 10/22/2026 Location: Minot Department: Math, Data, & Technology Adjunct Faculty - Computer Information Systems",
+      "department": "Math, Data, & Technology"
     },
     "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960140&PostingSeq=1&SiteId=1": {
-      "error": "not present in bulk fetch result"
+      "title": "Adjunct Faculty - Dual Credit Math Instructor",
+      "description": "Posted: 10/22/2026 Location: Minot Department: Math & Computer Science Adjunct Faculty - Dual Credit Math Instructor",
+      "department": "Math & Computer Science"
     },
     "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960139&PostingSeq=1&SiteId=1": {
-      "error": "not present in bulk fetch result"
+      "title": "ND-SPARK Undergraduate Research Assistant",
+      "description": "Posted: 10/22/2026 Location: Minot Department: Science ND-SPARK Undergraduate Research Assistant",
+      "department": "Science"
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2959708&PostingSeq=1&SiteId=1": {
+      "title": "University Supervisor",
+      "description": "Posted: 08/12/2026 Location: Minot Department: Teacher Licensure Programs University Supervisor",
+      "department": "Teacher Licensure Programs"
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2959342&PostingSeq=1&SiteId=1": {
+      "title": "Comm Science Graduate Assistant - Simulation Lab",
+      "description": "Posted: 06/16/2026 Location: Minot Department: Research & Sponsored Programs Comm Science Graduate Assistant - Simulation Lab",
+      "department": "Research & Sponsored Programs"
     },
     "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2958941&PostingSeq=1&SiteId=1": {
-      "error": "not present in bulk fetch result"
+      "title": "Graduate Assistant (Sports Information)",
+      "description": "Posted: 04/21/2026 Location: Minot Department: Athletics Graduate Assistant (Sports Information)",
+      "department": "Athletics"
     }
   },
   "rows": {
@@ -1308,24 +1323,81 @@
       "position_start_date": ""
     },
     "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960115&PostingSeq=1&SiteId=1": {
-      "error": "not present in bulk fetch result"
+      "school_id": 827,
+      "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960115&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Student - Audio/Visual Assistant",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Performing Arts",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "10/26/2026",
+      "position_start_date": ""
     },
     "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960138&PostingSeq=1&SiteId=1": {
-      "error": "not present in bulk fetch result"
+      "school_id": 827,
+      "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960138&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Adjunct Faculty - Computer Information Systems",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "Math, Data, & Technology",
+      "area_key_words": "Computer Information Systems",
+      "deadline_of_application": "",
+      "posted_date": "10/22/2026",
+      "position_start_date": ""
     },
     "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960140&PostingSeq=1&SiteId=1": {
-      "error": "not present in bulk fetch result"
+      "school_id": 827,
+      "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960140&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Adjunct Faculty - Dual Credit Math Instructor",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "Math & Computer Science",
+      "area_key_words": "Dual Credit Math Instructor",
+      "deadline_of_application": "",
+      "posted_date": "10/22/2026",
+      "position_start_date": ""
     },
     "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960139&PostingSeq=1&SiteId=1": {
-      "error": "not present in bulk fetch result"
+      "school_id": 827,
+      "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960139&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "ND-SPARK Undergraduate Research Assistant",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Science",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "10/22/2026",
+      "position_start_date": ""
     },
     "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2958941&PostingSeq=1&SiteId=1": {
-      "error": "not present in bulk fetch result"
+      "school_id": 827,
+      "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2958941&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Graduate Assistant (Sports Information)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Athletics",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "04/21/2026",
+      "position_start_date": ""
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2959342&PostingSeq=1&SiteId=1": {
+      "school_id": 827,
+      "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2959342&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Comm Science Graduate Assistant - Simulation Lab",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Research & Sponsored Programs",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "06/16/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 827,
-  "status": "complete",
-  "updated_at": "2026-10-29T23:44:00+00:00",
-  "completed_at": "2026-10-29T23:44:00+00:00",
-  "last_error": ""
+  "status": "error",
+  "updated_at": "2026-10-31T00:40:24+00:00",
+  "completed_at": "2026-10-30T20:21:45+00:00",
+  "last_error": "RuntimeError: PeopleSoft careers page returned no job rows"
 }

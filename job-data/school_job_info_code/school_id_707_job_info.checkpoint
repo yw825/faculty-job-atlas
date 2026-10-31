@@ -919,6 +919,26 @@
       "title": "Assistant Professor of Mechanical Engineering",
       "description": "Posted: 10/28/2026 Location: Columbia Department: Mechanical & Aerospace Engr Assistant Professor of Mechanical Engineering",
       "department": "Mechanical & Aerospace Engr"
+    },
+    "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61541&PostingSeq=1&SiteId=9": {
+      "title": "Academic Forensic Psychiatrist & Fellowship Associate Director (NTT)",
+      "description": "Posted: 10/30/2026 Location: Columbia Department: Psychiatry Academic Forensic Psychiatrist & Fellowship Associate Director (NTT)",
+      "department": "Psychiatry"
+    },
+    "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61542&PostingSeq=1&SiteId=9": {
+      "title": "Academic Perinatal Psychiatrist (NTT)",
+      "description": "Posted: 10/30/2026 Location: Columbia Department: Psychiatry Academic Perinatal Psychiatrist (NTT)",
+      "department": "Psychiatry"
+    },
+    "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61334&PostingSeq=1&SiteId=9": {
+      "title": "Assistant Professor of Medicine (NTT)",
+      "description": "Posted: 10/30/2026 Location: Columbia Department: Medicine-Hematology & Oncology Assistant Professor of Medicine (NTT)",
+      "department": "Medicine-Hematology & Oncology"
+    },
+    "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61558&PostingSeq=1&SiteId=9": {
+      "title": "Assistant/Associate Teaching Professor - Department of Health Sciences",
+      "description": "Posted: 10/29/2026 Location: Columbia Department: Health Sciences Department Assistant/Associate Teaching Professor - Department of Health Sciences",
+      "department": "Health Sciences Department"
     }
   },
   "rows": {
@@ -3124,11 +3144,59 @@
       "deadline_of_application": "",
       "posted_date": "10/28/2026",
       "position_start_date": ""
+    },
+    "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61541&PostingSeq=1&SiteId=9": {
+      "school_id": 707,
+      "posting_url": "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61541&PostingSeq=1&SiteId=9",
+      "job_title_in_post": "Academic Forensic Psychiatrist & Fellowship Associate Director (NTT)",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "Psychiatry",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "10/30/2026",
+      "position_start_date": ""
+    },
+    "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61542&PostingSeq=1&SiteId=9": {
+      "school_id": 707,
+      "posting_url": "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61542&PostingSeq=1&SiteId=9",
+      "job_title_in_post": "Academic Perinatal Psychiatrist (NTT)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Psychiatry",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "10/30/2026",
+      "position_start_date": ""
+    },
+    "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61334&PostingSeq=1&SiteId=9": {
+      "school_id": 707,
+      "posting_url": "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61334&PostingSeq=1&SiteId=9",
+      "job_title_in_post": "Assistant Professor of Medicine (NTT)",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Medicine-Hematology & Oncology",
+      "area_key_words": "Medicine",
+      "deadline_of_application": "",
+      "posted_date": "10/30/2026",
+      "position_start_date": ""
+    },
+    "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61558&PostingSeq=1&SiteId=9": {
+      "school_id": 707,
+      "posting_url": "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61558&PostingSeq=1&SiteId=9",
+      "job_title_in_post": "Assistant/Associate Teaching Professor - Department of Health Sciences",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "Health Sciences Department",
+      "area_key_words": "Department of Health Sciences",
+      "deadline_of_application": "",
+      "posted_date": "10/29/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 707,
   "status": "complete",
-  "updated_at": "2026-10-29T23:34:32+00:00",
-  "completed_at": "2026-10-29T23:34:32+00:00",
+  "updated_at": "2026-10-31T00:25:43+00:00",
+  "completed_at": "2026-10-31T00:25:43+00:00",
   "last_error": ""
 }

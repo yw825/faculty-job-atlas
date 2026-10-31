@@ -14,9 +14,9 @@
     "https://www.careers.hrp.gov.sg/sap/bc/ui5_ui5/sap/ZGERCFA004/index.html?search-keyword=Ngee%20Ann%20Polytechnic#/JobDescription/18183960/005056a3-53e2-1fd1-b4e1-a481ccd8140d"
   ],
   "school_id": 1864,
-  "status": "complete",
-  "updated_at": "2026-10-29T22:29:02+00:00",
+  "status": "error",
+  "updated_at": "2026-10-30T23:28:54+00:00",
   "started_at": "2026-09-03T18:28:03+00:00",
   "completed_at": "2026-10-29T22:29:02+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: could not load job list after 3 attempts: Page.wait_for_selector: Timeout 20000ms exceeded.\nCall log:\n  - waiting for locator(\"a.customJobSearchTitle\") to be visible\n"
 }

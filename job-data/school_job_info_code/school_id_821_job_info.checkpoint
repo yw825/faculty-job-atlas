@@ -260,17 +260,25 @@
       "description": "Posted: 06/02/2022 Location: Dickinson Department: Information Technology Service FWS - ITS Student Assistant Technician",
       "department": "Information Technology Service"
     },
-    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960132&PostingSeq=1&SiteId=1": {
-      "error": "not present in bulk fetch result"
-    },
-    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960133&PostingSeq=1&SiteId=1": {
-      "error": "not present in bulk fetch result"
-    },
-    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960134&PostingSeq=1&SiteId=1": {
-      "error": "not present in bulk fetch result"
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960168&PostingSeq=1&SiteId=1": {
+      "title": "Assistant Professor of Kinesiology and/or Exercise Science",
+      "description": "Posted: 10/29/2026 Location: Dickinson Department: School of Education - Health S Assistant Professor of Kinesiology and/or Exercise Science",
+      "department": "School of Education - Health S"
     },
     "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960158&PostingSeq=1&SiteId=1": {
-      "error": "not present in bulk fetch result"
+      "title": "Human Resources and Payroll Office Manager",
+      "description": "Posted: 10/29/2026 Location: Dickinson Department: HR/Payroll Human Resources and Payroll Office Manager",
+      "department": "HR/Payroll"
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960132&PostingSeq=1&SiteId=1": {
+      "title": "Assistant Professor of Computer Science (non-tenure track, rank doe)",
+      "description": "Posted: 10/20/2026 Location: Dickinson Department: School of Applied Sciences Assistant Professor of Computer Science (non-tenure track, rank doe)",
+      "department": "School of Applied Sciences"
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960133&PostingSeq=1&SiteId=1": {
+      "title": "DSU Heritage Foundation Operations Coordinator",
+      "description": "Posted: 10/20/2026 Location: Dickinson Department: DSU Heritage Foundation DSU Heritage Foundation Operations Coordinator",
+      "department": "DSU Heritage Foundation"
     }
   },
   "rows": {
@@ -895,21 +903,60 @@
       "position_start_date": ""
     },
     "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960132&PostingSeq=1&SiteId=1": {
-      "error": "not present in bulk fetch result"
+      "school_id": 821,
+      "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960132&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Assistant Professor of Computer Science (non-tenure track, rank doe)",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "School of Applied Sciences",
+      "area_key_words": "Computer Science",
+      "deadline_of_application": "",
+      "posted_date": "10/20/2026",
+      "position_start_date": ""
     },
     "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960133&PostingSeq=1&SiteId=1": {
-      "error": "not present in bulk fetch result"
+      "school_id": 821,
+      "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960133&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "DSU Heritage Foundation Operations Coordinator",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "DSU Heritage Foundation",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "10/20/2026",
+      "position_start_date": ""
     },
     "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960134&PostingSeq=1&SiteId=1": {
       "error": "not present in bulk fetch result"
     },
     "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960158&PostingSeq=1&SiteId=1": {
-      "error": "not present in bulk fetch result"
+      "school_id": 821,
+      "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960158&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Human Resources and Payroll Office Manager",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "HR/Payroll",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "10/29/2026",
+      "position_start_date": ""
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960168&PostingSeq=1&SiteId=1": {
+      "school_id": 821,
+      "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960168&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Assistant Professor of Kinesiology and/or Exercise Science",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "School of Education - Health S",
+      "area_key_words": "Kinesiology and/or Exercise Science",
+      "deadline_of_application": "",
+      "posted_date": "10/29/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 821,
-  "status": "complete",
-  "updated_at": "2026-10-29T23:39:54+00:00",
-  "completed_at": "2026-10-29T23:39:54+00:00",
-  "last_error": ""
+  "status": "error",
+  "updated_at": "2026-10-31T00:32:58+00:00",
+  "completed_at": "2026-10-30T20:12:55+00:00",
+  "last_error": "RuntimeError: PeopleSoft careers page returned no job rows"
 }

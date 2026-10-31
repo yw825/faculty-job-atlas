@@ -27,6 +27,18 @@
     "https://my.corehr.com/pls/tudrecruit/erq_jobspec_version_4.jobspec?p_id=045643": {
       "title": "Research Assistant Demolition Take Down: Assemblages project (Specified Purpose Wholetime up to December 2029) (Reference: 501/2026)",
       "description": "Closing Date: 11/11/2026 Close Date : 11-Nov-2026 Job Title : Research Assistant Contact Person : Sarah O'Dwyer Job ID : 045643 Research Assistant Demolition Take Down: Assemblages project (Specified Purpose Wholetime up to December 2029) Reference: 501/2026 11-Nov-2026"
+    },
+    "https://my.corehr.com/pls/tudrecruit/erq_jobspec_version_4.jobspec?p_id=045803": {
+      "title": "Assistant Lecturer in Chemistry Organic Chemistry & Advanced Spectroscopy (Specified Purpose Pro-Rata) (Reference: 477a/2026)",
+      "description": "Closing Date: 13/11/2026 Close Date : 13-Nov-2026 Job Title : Assistant Lecturer Contact Person : John Behan Job ID : 045803 Assistant Lecturer in Chemistry Organic Chemistry & Advanced Spectroscopy (Specified Purpose Pro-Rata) (Reference: 477a/2026) 13-Nov-2026"
+    },
+    "https://my.corehr.com/pls/tudrecruit/erq_jobspec_version_4.jobspec?p_id=045723": {
+      "title": "Building Demand Flexibility Research Assistant Irish Building Stock Observatory (IBSO) – SEAI project (Fixed Term Parttime for up to 2 Years) (Reference: 435/2026)",
+      "description": "Closing Date: 13/11/2026 Close Date : 13-Nov-2026 Job Title : Research Assistant Contact Person : Ciara Ahern Job ID : 045723 Building Demand Flexibility Research Assistant Irish Building Stock Observatory (IBSO) – SEAI project (Fixed Term Parttime for up to 2 Years) (Reference: 435/2026 13-Nov-2026"
+    },
+    "https://my.corehr.com/pls/tudrecruit/erq_jobspec_version_4.jobspec?p_id=045663": {
+      "title": "Building Intelligence & Operations Officer (Grade VII) Irish Building Stock Observatory (IBSO) (2 Posts) (Specified Purpose Wholetime) (Reference: 495a/2026)",
+      "description": "Closing Date: 13/11/2026 Close Date : 13-Nov-2026 Job Title : Administrative Officer - Grade 7 Contact Person : Ciara Ahern Job ID : 045663 Building Intelligence & Operations Officer (Grade VII) Irish Building Stock Observatory (IBSO) (2 Posts) (Specified Purpose Wholetime) (Reference: 495a/2026) 13-Nov-2026"
     }
   },
   "rows": {
@@ -111,11 +123,47 @@
       "deadline_of_application": "11/11/2026",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://my.corehr.com/pls/tudrecruit/erq_jobspec_version_4.jobspec?p_id=045803": {
+      "school_id": 1884,
+      "posting_url": "https://my.corehr.com/pls/tudrecruit/erq_jobspec_version_4.jobspec?p_id=045803",
+      "job_title_in_post": "Assistant Lecturer in Chemistry Organic Chemistry & Advanced Spectroscopy (Specified Purpose Pro-Rata) (Reference: 477a/2026)",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Chemistry Organic Chemistry & Advanced Spectroscopy",
+      "deadline_of_application": "13/11/2026",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://my.corehr.com/pls/tudrecruit/erq_jobspec_version_4.jobspec?p_id=045723": {
+      "school_id": 1884,
+      "posting_url": "https://my.corehr.com/pls/tudrecruit/erq_jobspec_version_4.jobspec?p_id=045723",
+      "job_title_in_post": "Building Demand Flexibility Research Assistant Irish Building Stock Observatory (IBSO) – SEAI project (Fixed Term Parttime for up to 2 Years) (Reference: 435/2026)",
+      "position_type": "Unclassified",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "13/11/2026",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://my.corehr.com/pls/tudrecruit/erq_jobspec_version_4.jobspec?p_id=045663": {
+      "school_id": 1884,
+      "posting_url": "https://my.corehr.com/pls/tudrecruit/erq_jobspec_version_4.jobspec?p_id=045663",
+      "job_title_in_post": "Building Intelligence & Operations Officer (Grade VII) Irish Building Stock Observatory (IBSO) (2 Posts) (Specified Purpose Wholetime) (Reference: 495a/2026)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "13/11/2026",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1884,
   "status": "complete",
-  "updated_at": "2026-10-30T01:13:12+00:00",
-  "completed_at": "2026-10-30T01:13:12+00:00",
+  "updated_at": "2026-10-31T01:49:57+00:00",
+  "completed_at": "2026-10-31T01:49:57+00:00",
   "last_error": ""
 }

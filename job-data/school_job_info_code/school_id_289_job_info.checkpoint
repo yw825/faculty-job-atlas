@@ -1384,6 +1384,26 @@
       "title": "Software Asset Administrator",
       "description": "Posted: 10/28/2026 Location: UNG - Gainesville Department: IT Academic Computing Software Asset Administrator",
       "department": "IT Academic Computing"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305388&PostingSeq=1&SiteId=53000": {
+      "title": "Assistant Professor Psychological Science",
+      "description": "Posted: 10/29/2026 Location: UNG-Dahlonega, GA Department: Psychological Science Assistant Professor Psychological Science",
+      "department": "Psychological Science"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305033&PostingSeq=1&SiteId=53000": {
+      "title": "Associate Department Head and Assistant/Associate Professor",
+      "description": "Posted: 10/29/2026 Location: UNG - Cumming/Forsyth Department: Clinical Mental Health Counsel Associate Department Head and Assistant/Associate Professor",
+      "department": "Clinical Mental Health Counsel"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305394&PostingSeq=1&SiteId=53000": {
+      "title": "Lecturer in Mathematics",
+      "description": "Posted: 10/29/2026 Location: UNG - Oconee Department: Mathematics Lecturer in Mathematics",
+      "department": "Mathematics"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305398&PostingSeq=1&SiteId=53000": {
+      "title": "Part-Time Faculty Computer Science and Cybersecurity",
+      "description": "Posted: 10/29/2026 Location: UNG-Dahlonega, GA Department: Computer Science & Cybersec Part-Time Faculty Computer Science and Cybersecurity",
+      "department": "Computer Science & Cybersec"
     }
   },
   "rows": {
@@ -4695,11 +4715,59 @@
       "deadline_of_application": "",
       "posted_date": "10/28/2026",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305388&PostingSeq=1&SiteId=53000": {
+      "school_id": 289,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305388&PostingSeq=1&SiteId=53000",
+      "job_title_in_post": "Assistant Professor Psychological Science",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Psychological Science",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "10/29/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305033&PostingSeq=1&SiteId=53000": {
+      "school_id": 289,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305033&PostingSeq=1&SiteId=53000",
+      "job_title_in_post": "Associate Department Head and Assistant/Associate Professor",
+      "position_type": "Assistant_Professor; Associate_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Clinical Mental Health Counsel",
+      "area_key_words": "Department Head and Assistant/Associate",
+      "deadline_of_application": "",
+      "posted_date": "10/29/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305394&PostingSeq=1&SiteId=53000": {
+      "school_id": 289,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305394&PostingSeq=1&SiteId=53000",
+      "job_title_in_post": "Lecturer in Mathematics",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "Mathematics",
+      "area_key_words": "Mathematics",
+      "deadline_of_application": "",
+      "posted_date": "10/29/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305398&PostingSeq=1&SiteId=53000": {
+      "school_id": 289,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305398&PostingSeq=1&SiteId=53000",
+      "job_title_in_post": "Part-Time Faculty Computer Science and Cybersecurity",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "Computer Science & Cybersec",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "10/29/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 289,
   "status": "complete",
-  "updated_at": "2026-10-29T23:01:12+00:00",
-  "completed_at": "2026-10-29T23:01:12+00:00",
+  "updated_at": "2026-10-30T23:54:26+00:00",
+  "completed_at": "2026-10-30T23:54:26+00:00",
   "last_error": ""
 }

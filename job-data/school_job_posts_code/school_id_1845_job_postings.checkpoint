@@ -47,6 +47,7 @@
     "https://hrmsxprod.psft.ust.hk:8044/psp/hrmsxprod/EMPLOYEE/HRMS/c/HRS_HRAM.HRS_CE.GBL?Page=HRS_CE_JOB_DTL&Action=A&JobOpeningId=8060&SiteId=1000&PostingSeq=1",
     "https://hrmsxprod.psft.ust.hk:8044/psp/hrmsxprod/EMPLOYEE/HRMS/c/HRS_HRAM.HRS_CE.GBL?Page=HRS_CE_JOB_DTL&Action=A&JobOpeningId=6770&SiteId=1000&PostingSeq=1",
     "https://hrmsxprod.psft.ust.hk:8044/psp/hrmsxprod/EMPLOYEE/HRMS/c/HRS_HRAM.HRS_CE.GBL?Page=HRS_CE_JOB_DTL&Action=A&JobOpeningId=6164&SiteId=1000&PostingSeq=1",
+    "https://apply.interfolio.com/196582",
     "https://apply.interfolio.com/194913",
     "https://apply.interfolio.com/189734",
     "https://apply.interfolio.com/189735",
@@ -76,8 +77,8 @@
   ],
   "school_id": 1845,
   "status": "complete",
-  "updated_at": "2026-10-29T22:10:47+00:00",
+  "updated_at": "2026-10-30T23:10:55+00:00",
   "started_at": "2026-09-02T22:39:42+00:00",
-  "completed_at": "2026-10-29T22:10:47+00:00",
+  "completed_at": "2026-10-30T23:10:55+00:00",
   "last_error": ""
 }

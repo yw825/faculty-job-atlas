@@ -10,9 +10,9 @@
     "https://www.schooljobs.com/careers/otterbein/jobs/5528981/assistant-professor-american-history"
   ],
   "school_id": 1074,
-  "status": "error",
-  "updated_at": "2026-10-29T19:59:57+00:00",
+  "status": "complete",
+  "updated_at": "2026-10-30T20:33:22+00:00",
   "started_at": "2026-09-10T07:21:22+00:00",
-  "completed_at": "2026-10-28T20:48:35+00:00",
-  "last_error": "RuntimeError: schooljobs board returned no postings"
+  "completed_at": "2026-10-30T20:33:22+00:00",
+  "last_error": ""
 }

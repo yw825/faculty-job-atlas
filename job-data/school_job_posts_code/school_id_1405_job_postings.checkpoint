@@ -81,9 +81,9 @@
     "https://schreiner.edu/job/student-telemarketer/"
   ],
   "school_id": 1405,
-  "status": "complete",
-  "updated_at": "2026-10-29T20:42:12+00:00",
+  "status": "error",
+  "updated_at": "2026-10-30T21:16:35+00:00",
   "started_at": "2026-09-09T06:13:54+00:00",
   "completed_at": "2026-10-29T20:42:12+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: jm-ajax status=429"
 }

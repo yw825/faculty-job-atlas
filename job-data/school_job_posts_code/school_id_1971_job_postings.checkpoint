@@ -115,12 +115,17 @@
     "https://careers.uth.tmc.edu/us/en/job/260000NR/Assistant-Professor-LBJ-Orthopedic-Surgery-McGovern-Medical-School",
     "https://careers.uth.tmc.edu/us/en/job/2600012S/Psychiatrist-Outpatient-Adult-Clinical-Faculty-Louis-A-Faillace-MD-Department-of-Psychiatry-Behavioral-Sciences",
     "https://careers.uth.tmc.edu/us/en/job/2600003K/Endowed-Professor-School-of-Behavioral-Health-Sciences",
-    "https://careers.uth.tmc.edu/us/en/job/2600010U/Staff-Physician-Hospitalist-Memorial-Hermann-Systems-locations-Obstetrics-Gynecology-and-Reproductive-Sciences-McGovern-Medical-School"
+    "https://careers.uth.tmc.edu/us/en/job/2600010U/Staff-Physician-Hospitalist-Memorial-Hermann-Systems-locations-Obstetrics-Gynecology-and-Reproductive-Sciences-McGovern-Medical-School",
+    "https://careers.uth.tmc.edu/us/en/job/260000KV/Assistant-Professor-Associate-Professor-Critical-Care-Internal-Medicine-McGovern-Medical",
+    "https://careers.uth.tmc.edu/us/en/job/2600023L/Assistant-Associate-Full-Professor-Cornea-Anterior-Segment-Specialist-Ophthalmology-and-Visual-Science-McGovern-Medical-School",
+    "https://careers.uth.tmc.edu/us/en/job/26000238/Medical-Director-Living-Donor-Kidney-Assistant-Associate-Full-Professor-Surgery-McGovern-Medical-School",
+    "https://careers.uth.tmc.edu/us/en/job/260001PV/Assistant-Associate-Full-Professor-Gynecologic-Oncology-UTMB-Obstetrics-Gynecology-and-Reproductive-Sciences-McGovern-Medical-School"
   ],
   "status": "complete",
   "school_id": 1971,
-  "updated_at": "2026-10-29T21:30:20+00:00",
+  "updated_at": "2026-10-30T22:06:26+00:00",
   "started_at": "2026-10-20T23:59:27+00:00",
-  "completed_at": "2026-10-29T21:30:20+00:00",
-  "last_error": ""
+  "completed_at": "2026-10-30T22:06:26+00:00",
+  "last_error": "",
+  "last_warning": "2026-10-30T22:06:26+00:00: board returned 20 links vs 116 before; old set kept"
 }

@@ -86,19 +86,34 @@
       "department": null
     },
     "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/363": {
-      "error": "not present in bulk fetch result"
+      "title": "Visiting Assistant Professor of Art",
+      "description": "This is a one-year Visiting Assistant Professor position in Painting and Drawing in the Art Department at Allegheny College, from January through December 2027. Primary responsibilities include teaching, scholarship, and service. This position reports to the Art Department Chair, Ian F. Thomas. Primary teaching responsibilities are in painting, with a secondary teaching area in drawing. The full-time teaching load is five courses per year. Ideal candidates will have experience and demonstrated success teaching painting and drawing at the undergraduate college level. Candidates are expected to hold an MFA at the time of appointment. ",
+      "department": null
     },
     "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/364": {
-      "error": "not present in bulk fetch result"
+      "title": "Enterprise Data & Business Intelligence Developer",
+      "description": "The Enterprise Data & Business Intelligence Developer is responsible for the technical implementation, configuration, development, and ongoing support of Allegheny College's enterprise business intelligence and analytics environment, with an initial emphasis on Oracle Fusion Data Intelligence (FDI).",
+      "department": null
     },
     "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/365": {
-      "error": "not present in bulk fetch result"
+      "title": "Project Manager Oracle Student Cloud",
+      "description": "Allegheny College seeks an experienced, results-oriented  Project Manager to lead the implementation of Oracle Student Cloud, a transformational initiative to modernize the College's Student Information System (SIS) and improve the processes supporting the student lifecycle.",
+      "department": null
     },
     "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/358": {
-      "error": "not present in bulk fetch result"
+      "title": "Grounds and Landscaping (PT)",
+      "description": "Under the general supervision of the Grounds Maintenance Supervisor, the General Grounds/Landscaper will be required to perform duties independently according to the broadly prescribed landscaping master plan. These tasks will include planting, pruning and trimming trees and shrubbery on campus. Operate machinery and tools that are required to perform those duties (ie. Skid steer, Mini-Excavator, Tractors, Plow Truck, Trimmers, Saws), snow removal, and other tasks assigned by supervisor. Assist in moving college-owned furniture and materials, as well as performing composting operations as needed. Assists management in obtaining quotes and arranging for services of outside vendors as directed.",
+      "department": null
     },
     "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/359": {
-      "error": "not present in bulk fetch result"
+      "title": "Seasonal Grounds Assistant",
+      "description": "Under the general supervision of the Technology and Grounds Supervisor, the Seasonal Grounds Assistant will perform duties according to the broadly prescribed landscaping master plan for Allegheny College’s 74 facilities and 565 acre campuses. These tasks will include grounds maintenance, composting, event set-ups, moving and related tasks. Performs operational risk management and ensures compliance with work center safety, hazardous material handling, and proper equipment wear. Performs responsibilities; responds to routine/urgent/emergency service calls. Works as part of the Maintenance Department’s team may assist the other Physical Plant teams (Carpentry, Electrical, HVAC/R, Locksmith, Painting, and Plumbing) on projects.\n\n",
+      "department": null
+    },
+    "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/366": {
+      "title": "Public Safety Officer",
+      "description": "The Public Safety Patrol Officer is responsible for ensuring the safety and security of all college property and community members, both on campus and on other College property.  ",
+      "department": null
     }
   },
   "rows": {
@@ -304,24 +319,81 @@
       "position_start_date": ""
     },
     "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/363": {
-      "error": "not present in bulk fetch result"
+      "school_id": 1177,
+      "posting_url": "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/363",
+      "job_title_in_post": "Visiting Assistant Professor of Art",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Art",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     },
     "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/364": {
-      "error": "not present in bulk fetch result"
+      "school_id": 1177,
+      "posting_url": "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/364",
+      "job_title_in_post": "Enterprise Data & Business Intelligence Developer",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     },
     "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/365": {
-      "error": "not present in bulk fetch result"
+      "school_id": 1177,
+      "posting_url": "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/365",
+      "job_title_in_post": "Project Manager Oracle Student Cloud",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     },
     "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/358": {
-      "error": "not present in bulk fetch result"
+      "school_id": 1177,
+      "posting_url": "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/358",
+      "job_title_in_post": "Grounds and Landscaping (PT)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     },
     "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/359": {
-      "error": "not present in bulk fetch result"
+      "school_id": 1177,
+      "posting_url": "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/359",
+      "job_title_in_post": "Seasonal Grounds Assistant",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/366": {
+      "school_id": 1177,
+      "posting_url": "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/366",
+      "job_title_in_post": "Public Safety Officer",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1177,
   "status": "complete",
-  "updated_at": "2026-10-30T00:14:32+00:00",
-  "completed_at": "2026-10-30T00:14:32+00:00",
+  "updated_at": "2026-10-31T00:59:57+00:00",
+  "completed_at": "2026-10-31T00:59:57+00:00",
   "last_error": ""
 }

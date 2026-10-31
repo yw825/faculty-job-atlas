@@ -929,6 +929,26 @@
       "title": "Library Assistant",
       "description": "This position sits under the Library at our Kowloon Tong campus. The core responsibilities are providing in-person user services at the SCA counter.",
       "department": null
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270018": {
+      "title": "Senior Finance Manager / Finance Manager (Special Projects)",
+      "description": "This position sits under the Finance Office at our Kowloon Tong campus. The core responsibilities are leading finance transformation initiatives, collaborating with cross-functional teams to ensure successful implementation.",
+      "department": null
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270284": {
+      "title": "Officer / Assistant Officer, Organisation and Talent Development",
+      "description": "This position sits under the Human Resources Office at our Kowloon Tong campus. The core responsibilities are providing general administrative support to the Office.",
+      "department": null
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270298": {
+      "title": "Manager, Academic Registry",
+      "description": "This position sits under the Academic Registry at our Kowloon Tong campus. The core responsibilities are leading and supervising various admissions schemes for the recruitment of local and non-local students, ensuring high performance and effective teamwork.",
+      "department": null
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270300": {
+      "title": "Assistant Guidance Services Manager, Counselling and Development Section",
+      "description": "This position sits under the Office of Student Affairs at our Kowloon Tong campus. The core responsibilities are collaborating with internal and external parties and professionals to organise and deliver mass programmes, activities and workshops for student leaders and SEN students.",
+      "department": null
     }
   },
   "rows": {
@@ -3155,11 +3175,59 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270018": {
+      "school_id": 1834,
+      "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270018",
+      "job_title_in_post": "Senior Finance Manager / Finance Manager (Special Projects)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270284": {
+      "school_id": 1834,
+      "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270284",
+      "job_title_in_post": "Officer / Assistant Officer, Organisation and Talent Development",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270298": {
+      "school_id": 1834,
+      "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270298",
+      "job_title_in_post": "Manager, Academic Registry",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270300": {
+      "school_id": 1834,
+      "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270300",
+      "job_title_in_post": "Assistant Guidance Services Manager, Counselling and Development Section",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1834,
   "status": "complete",
-  "updated_at": "2026-10-30T01:10:54+00:00",
-  "completed_at": "2026-10-30T01:10:54+00:00",
+  "updated_at": "2026-10-31T01:46:05+00:00",
+  "completed_at": "2026-10-31T01:46:05+00:00",
   "last_error": ""
 }

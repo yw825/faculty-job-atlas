@@ -232,6 +232,7 @@
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#lecturer-agriculture-animal-care": {
@@ -510,7 +511,7 @@
   },
   "school_id": 1794,
   "status": "complete",
-  "updated_at": "2026-10-30T00:43:10+00:00",
-  "completed_at": "2026-10-30T00:43:10+00:00",
+  "updated_at": "2026-10-31T01:27:49+00:00",
+  "completed_at": "2026-10-31T01:27:49+00:00",
   "last_error": ""
 }

@@ -90,17 +90,30 @@
       "description": "Posted: 04/23/2024 Location: Multiple Department: Child Development Programs Part-time Childcare Worker - Hillsboro/Central Valley",
       "department": "Child Development Programs"
     },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960156&PostingSeq=1&SiteId=1": {
+      "title": "University Controller",
+      "description": "Posted: 10/28/2026 Location: Mayville Department: Business Office University Controller",
+      "department": "Business Office"
+    },
     "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960153&PostingSeq=1&SiteId=1": {
-      "error": "not present in bulk fetch result"
+      "title": "(S) Mosquito Research Assistant",
+      "description": "Posted: 10/27/2026 Location: Mayville Department: Physics (S) Mosquito Research Assistant",
+      "department": "Physics"
     },
     "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960112&PostingSeq=1&SiteId=1": {
-      "error": "not present in bulk fetch result"
+      "title": "(S) Lifeguard",
+      "description": "Posted: 10/19/2026 Location: Mayville Department: Div Health, Phy Ed & Rec (S) Lifeguard",
+      "department": "Div Health, Phy Ed & Rec"
     },
     "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2959555&PostingSeq=1&SiteId=1": {
-      "error": "not present in bulk fetch result"
+      "title": "Building Services - Custodial & Security (Evening Hours)",
+      "description": "Posted: 10/19/2026 Location: Mayville Department: Facilities Services Building Services - Custodial & Security (Evening Hours)",
+      "department": "Facilities Services"
     },
-    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960156&PostingSeq=1&SiteId=1": {
-      "error": "not present in bulk fetch result"
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2959619&PostingSeq=1&SiteId=1": {
+      "title": "(S) Kitchen Worker",
+      "description": "Posted: 08/03/2026 Location: Mayville Department: Food Service (S) Kitchen Worker",
+      "department": "Food Service"
     }
   },
   "rows": {
@@ -321,21 +334,69 @@
       "position_start_date": ""
     },
     "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960153&PostingSeq=1&SiteId=1": {
-      "error": "not present in bulk fetch result"
+      "school_id": 826,
+      "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960153&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "(S) Mosquito Research Assistant",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Physics",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "10/27/2026",
+      "position_start_date": ""
     },
     "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960112&PostingSeq=1&SiteId=1": {
-      "error": "not present in bulk fetch result"
+      "school_id": 826,
+      "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960112&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "(S) Lifeguard",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Div Health, Phy Ed & Rec",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "10/19/2026",
+      "position_start_date": ""
     },
     "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2959555&PostingSeq=1&SiteId=1": {
-      "error": "not present in bulk fetch result"
+      "school_id": 826,
+      "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2959555&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Building Services - Custodial & Security (Evening Hours)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Facilities Services",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "10/19/2026",
+      "position_start_date": ""
     },
     "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960156&PostingSeq=1&SiteId=1": {
-      "error": "not present in bulk fetch result"
+      "school_id": 826,
+      "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960156&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "University Controller",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Business Office",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "10/28/2026",
+      "position_start_date": ""
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2959619&PostingSeq=1&SiteId=1": {
+      "school_id": 826,
+      "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2959619&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "(S) Kitchen Worker",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Food Service",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "08/03/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 826,
-  "status": "complete",
-  "updated_at": "2026-10-29T23:42:38+00:00",
-  "completed_at": "2026-10-29T23:42:38+00:00",
-  "last_error": ""
+  "status": "error",
+  "updated_at": "2026-10-31T00:38:02+00:00",
+  "completed_at": "2026-10-30T20:13:20+00:00",
+  "last_error": "RuntimeError: PeopleSoft careers page returned no job rows"
 }

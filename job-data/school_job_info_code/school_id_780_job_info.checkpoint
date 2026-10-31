@@ -259,6 +259,11 @@
       "title": "Moves/Special Events Crew",
       "description": "",
       "department": null
+    },
+    "https://fa-exci-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/1068": {
+      "title": "Counselor / Athletics Mental Health Specialist",
+      "description": "The Counselor / Athletics Mental Health Specialist is a 12-month position that provides counseling services to Davidson College students, with a focus on scholar-athletes. This individual delivers counseling and crisis services, relevant training, consultation, and educational outreach to student-athletes, coaches, and athletics department staff, and interacts as needed with scholar-athletes, parents, department personnel, faculty, deans, and campus counseling services to provide quality care.",
+      "department": null
     }
   },
   "rows": {
@@ -879,11 +884,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://fa-exci-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/1068": {
+      "school_id": 780,
+      "posting_url": "https://fa-exci-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/1068",
+      "job_title_in_post": "Counselor / Athletics Mental Health Specialist",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 780,
   "status": "complete",
-  "updated_at": "2026-10-29T23:37:54+00:00",
-  "completed_at": "2026-10-29T23:37:54+00:00",
+  "updated_at": "2026-10-31T00:30:07+00:00",
+  "completed_at": "2026-10-31T00:30:07+00:00",
   "last_error": ""
 }

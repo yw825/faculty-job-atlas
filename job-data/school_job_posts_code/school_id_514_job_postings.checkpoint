@@ -5,13 +5,13 @@
     "https://louisiana.csod.com/ux/ats/careersite/1/home/requisition/4592?c=louisiana",
     "https://louisiana.csod.com/ux/ats/careersite/1/home/requisition/4442?c=louisiana",
     "https://louisiana.csod.com/ux/ats/careersite/1/home/requisition/4605?c=louisiana",
+    "https://louisiana.csod.com/ux/ats/careersite/1/home/requisition/4597?c=louisiana",
     "https://louisiana.csod.com/ux/ats/careersite/1/home/requisition/4583?c=louisiana",
     "https://louisiana.csod.com/ux/ats/careersite/1/home/requisition/4526?c=louisiana",
     "https://louisiana.csod.com/ux/ats/careersite/1/home/requisition/4582?c=louisiana",
     "https://louisiana.csod.com/ux/ats/careersite/1/home/requisition/4586?c=louisiana",
     "https://louisiana.csod.com/ux/ats/careersite/1/home/requisition/4585?c=louisiana",
     "https://louisiana.csod.com/ux/ats/careersite/1/home/requisition/4534?c=louisiana",
-    "https://louisiana.csod.com/ux/ats/careersite/1/home/requisition/4483?c=louisiana",
     "https://louisiana.csod.com/ux/ats/careersite/1/home/requisition/4572?c=louisiana",
     "https://louisiana.csod.com/ux/ats/careersite/1/home/requisition/4525?c=louisiana",
     "https://louisiana.csod.com/ux/ats/careersite/1/home/requisition/4517?c=louisiana",
@@ -27,9 +27,9 @@
     "https://louisiana.csod.com/ux/ats/careersite/1/home/requisition/2584?c=louisiana"
   ],
   "school_id": 514,
-  "status": "error",
-  "updated_at": "2026-10-29T18:20:44+00:00",
+  "status": "complete",
+  "updated_at": "2026-10-30T18:44:11+00:00",
   "started_at": "2026-09-08T01:53:54+00:00",
-  "completed_at": "2026-10-28T18:34:53+00:00",
-  "last_error": "RuntimeError: cornerstone page made no job search request"
+  "completed_at": "2026-10-30T18:44:11+00:00",
+  "last_error": ""
 }

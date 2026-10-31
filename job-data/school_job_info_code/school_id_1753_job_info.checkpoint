@@ -59,9 +59,6 @@
     "https://www.epfl.ch/about/working/faculty-position-in-architectural-design/": {
       "error": "RuntimeError: position page not found (removed)"
     },
-    "https://www.epfl.ch/about/working/faculty-position-in-theory-of-condensed-matter-and-interacting-quantum-matter/": {
-      "error": "RuntimeError: position page not found (removed)"
-    },
     "https://www.epfl.ch/about/working/faculty-position-in-adaptive-neurotechnologies/": {
       "error": "RuntimeError: position page not found (removed)"
     }
@@ -247,7 +244,7 @@
   },
   "school_id": 1753,
   "status": "complete",
-  "updated_at": "2026-10-30T01:26:17+00:00",
-  "completed_at": "2026-10-30T01:26:17+00:00",
+  "updated_at": "2026-10-31T02:00:25+00:00",
+  "completed_at": "2026-10-31T02:00:25+00:00",
   "last_error": ""
 }

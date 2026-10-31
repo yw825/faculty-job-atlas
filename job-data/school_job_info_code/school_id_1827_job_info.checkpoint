@@ -54,6 +54,11 @@
       "title": "Lecturer, Senior Lecturer or Associate Professor in Technology",
       "description": "Inspire future educators and help shape the future of Technology education through innovative teaching, impactful research and meaningful engagement with schools, communities and the wider profession. \n\nPosting closes: 2026-11-25",
       "department": null
+    },
+    "https://elhs.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/1003956": {
+      "title": "Lecturer, Senior Lecturer or Associate Professor in Social Science",
+      "description": "Contribute to the development of future educators through high-quality teaching, research, postgraduate supervision and professional engagement.\n\nPosting closes: 2026-11-25",
+      "department": null
     }
   },
   "rows": {
@@ -172,7 +177,7 @@
       "position_type": "Assistant_Professor; Associate_Professor",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "Health and Physical Education; secondary school level",
+      "area_key_words": "Health and Physical Education; secondary school level; impactful research",
       "deadline_of_application": "2026-11-29",
       "posted_date": "",
       "position_start_date": ""
@@ -188,11 +193,23 @@
       "deadline_of_application": "2026-11-25",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://elhs.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/1003956": {
+      "school_id": 1827,
+      "posting_url": "https://elhs.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/1003956",
+      "job_title_in_post": "Lecturer, Senior Lecturer or Associate Professor in Social Science",
+      "position_type": "Assistant_Professor; Associate_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Social Science",
+      "deadline_of_application": "2026-11-25",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1827,
   "status": "complete",
-  "updated_at": "2026-10-30T01:19:20+00:00",
-  "completed_at": "2026-10-30T01:19:20+00:00",
+  "updated_at": "2026-10-31T01:53:20+00:00",
+  "completed_at": "2026-10-31T01:53:20+00:00",
   "last_error": ""
 }

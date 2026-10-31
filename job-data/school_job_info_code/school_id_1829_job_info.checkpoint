@@ -215,6 +215,10 @@
     "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2509": {
       "title": "Manager Uncrewed Aircraft Systems - UAS",
       "description": "Closing Date: 22/11/2026 Department: School of Aviation 1 Manager Uncrewed Aircraft Systems - UAS. Massey University. 22-Nov-2026 11:00 PM | JR-2509 | Manager Uncrewed Aircraft Systems - UAS | Massey University | School of Aviation 1 | Ongoing"
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2530": {
+      "title": "Finance Business Partner",
+      "description": "Closing Date: 15/11/2026 Department: FIN - Finance Partnering - Colleges Finance Business Partner. Massey University. 15-Nov-2026 11:00 PM | JR-2530 | Finance Business Partner | Massey University | FIN - Finance Partnering - Colleges | Fixed-Term"
     }
   },
   "rows": {
@@ -850,11 +854,23 @@
       "deadline_of_application": "22/11/2026",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2530": {
+      "school_id": 1829,
+      "posting_url": "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2530",
+      "job_title_in_post": "Finance Business Partner",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "15/11/2026",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1829,
   "status": "complete",
-  "updated_at": "2026-10-30T01:19:33+00:00",
-  "completed_at": "2026-10-30T01:19:33+00:00",
+  "updated_at": "2026-10-31T01:53:57+00:00",
+  "completed_at": "2026-10-31T01:53:57+00:00",
   "last_error": ""
 }

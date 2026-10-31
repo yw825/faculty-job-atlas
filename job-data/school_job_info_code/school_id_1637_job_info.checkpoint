@@ -19,6 +19,11 @@
       "title": "Zone Supervisor - Facility Services Operations",
       "description": "Managerial & Professional - Zone Supervisor, Facility Services Operations (2026-MP-23)",
       "department": null
+    },
+    "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4355": {
+      "title": "Health and Safety Coordinator (2026-MP-23)",
+      "description": "Managerial & Professional Vacancy\nHealth & Safety Coordinator in the Department of Human Resources - Health & Safety (Temporary vacancy)",
+      "department": null
     }
   },
   "rows": {
@@ -69,11 +74,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4355": {
+      "school_id": 1637,
+      "posting_url": "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4355",
+      "job_title_in_post": "Health and Safety Coordinator (2026-MP-23)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Department of Human Resources",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1637,
   "status": "complete",
-  "updated_at": "2026-10-30T00:57:48+00:00",
-  "completed_at": "2026-10-30T00:57:48+00:00",
+  "updated_at": "2026-10-31T01:40:02+00:00",
+  "completed_at": "2026-10-31T01:40:02+00:00",
   "last_error": ""
 }

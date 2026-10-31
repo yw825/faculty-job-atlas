@@ -80,9 +80,6 @@
       "description": "",
       "department": null
     },
-    "https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/3074": {
-      "error": "not present in bulk fetch result"
-    },
     "https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/3080": {
       "title": "Associate Registrar, Data Management and Reporting",
       "description": "",
@@ -105,6 +102,11 @@
     },
     "https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/3102": {
       "title": "Electrician",
+      "description": "",
+      "department": null
+    },
+    "https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/3074": {
+      "title": "Door Technician",
       "description": "",
       "department": null
     }
@@ -301,7 +303,16 @@
       "position_start_date": ""
     },
     "https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/3074": {
-      "error": "not present in bulk fetch result"
+      "school_id": 686,
+      "posting_url": "https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/3074",
+      "job_title_in_post": "Door Technician",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     },
     "https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/3080": {
       "school_id": 686,
@@ -365,7 +376,7 @@
   },
   "school_id": 686,
   "status": "complete",
-  "updated_at": "2026-10-29T23:33:52+00:00",
-  "completed_at": "2026-10-29T23:33:52+00:00",
+  "updated_at": "2026-10-31T00:24:59+00:00",
+  "completed_at": "2026-10-31T00:24:59+00:00",
   "last_error": ""
 }

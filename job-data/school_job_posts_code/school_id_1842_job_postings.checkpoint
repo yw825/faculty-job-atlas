@@ -1,5 +1,12 @@
 {
   "links": [
+    "https://cuhk.taleo.net/careersection/cu_career_teach/jobdetail.ftl?job=260001U9",
+    "https://cuhk.taleo.net/careersection/cu_career_teach/jobdetail.ftl?job=260001UN",
+    "https://cuhk.taleo.net/careersection/cu_career_teach/jobdetail.ftl?job=260001V7",
+    "https://cuhk.taleo.net/careersection/cu_career_teach/jobdetail.ftl?job=260001TS",
+    "https://cuhk.taleo.net/careersection/cu_career_teach/jobdetail.ftl?job=260001TR",
+    "https://cuhk.taleo.net/careersection/cu_career_teach/jobdetail.ftl?job=260001TW",
+    "https://cuhk.taleo.net/careersection/cu_career_teach/jobdetail.ftl?job=260001U4",
     "https://cuhk.taleo.net/careersection/cu_career_teach/jobdetail.ftl?job=2600006V",
     "https://cuhk.taleo.net/careersection/cu_career_teach/jobdetail.ftl?job=260001T6",
     "https://cuhk.taleo.net/careersection/cu_career_teach/jobdetail.ftl?job=2600017C",
@@ -17,7 +24,6 @@
     "https://cuhk.taleo.net/careersection/cu_career_teach/jobdetail.ftl?job=260001PN",
     "https://cuhk.taleo.net/careersection/cu_career_teach/jobdetail.ftl?job=260001QC",
     "https://cuhk.taleo.net/careersection/cu_career_teach/jobdetail.ftl?job=260001PK",
-    "https://cuhk.taleo.net/careersection/cu_career_teach/jobdetail.ftl?job=260001JQ",
     "https://cuhk.taleo.net/careersection/cu_career_teach/jobdetail.ftl?job=260001NZ",
     "https://cuhk.taleo.net/careersection/cu_career_teach/jobdetail.ftl?job=260001OA",
     "https://cuhk.taleo.net/careersection/cu_career_teach/jobdetail.ftl?job=260001MB",
@@ -116,9 +122,8 @@
   ],
   "school_id": 1842,
   "status": "complete",
-  "updated_at": "2026-10-29T22:10:10+00:00",
+  "updated_at": "2026-10-30T23:10:20+00:00",
   "started_at": "2026-09-03T18:11:12+00:00",
-  "completed_at": "2026-10-29T22:10:10+00:00",
-  "last_error": "",
-  "last_warning": "2026-10-29T22:10:10+00:00: board returned 0 links vs 113 before; old set kept"
+  "completed_at": "2026-10-30T23:10:20+00:00",
+  "last_error": ""
 }

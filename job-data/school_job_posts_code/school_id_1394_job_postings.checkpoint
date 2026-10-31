@@ -31,9 +31,9 @@
     "https://apply.interfolio.com/195709"
   ],
   "school_id": 1394,
-  "status": "complete",
-  "updated_at": "2026-10-29T20:40:28+00:00",
+  "status": "error",
+  "updated_at": "2026-10-30T21:15:21+00:00",
   "started_at": "2026-09-25T06:25:44+00:00",
   "completed_at": "2026-10-29T20:40:28+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: rice open-positions page listed no interfolio links"
 }

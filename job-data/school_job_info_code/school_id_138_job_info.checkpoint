@@ -1,68 +1,8 @@
 {
   "raw": {
-    "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/85629": {
-      "title": "Loading...",
-      "description": "Loading... You need to enable JavaScript to run this app."
-    },
-    "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/85665": {
-      "title": "Loading...",
-      "description": "Loading... You need to enable JavaScript to run this app."
-    },
-    "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/85701": {
-      "title": "Loading...",
-      "description": "Loading... You need to enable JavaScript to run this app."
-    },
-    "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/85657": {
-      "title": "Loading...",
-      "description": "Loading... You need to enable JavaScript to run this app."
-    },
-    "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/439900": {
-      "title": "Loading...",
-      "description": "Loading... You need to enable JavaScript to run this app."
-    },
-    "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/85681": {
-      "title": "Loading...",
-      "description": "Loading... You need to enable JavaScript to run this app."
-    },
-    "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/85578": {
-      "title": "Loading...",
-      "description": "Loading... You need to enable JavaScript to run this app."
-    },
-    "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/443987": {
-      "title": "Loading...",
-      "description": "Loading... You need to enable JavaScript to run this app."
-    },
-    "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/444156": {
-      "title": "Loading...",
-      "description": "Loading... You need to enable JavaScript to run this app."
-    },
-    "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/431453": {
-      "title": "Loading...",
-      "description": "Loading... You need to enable JavaScript to run this app."
-    },
-    "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/294963": {
-      "title": "Loading...",
-      "description": "Loading... You need to enable JavaScript to run this app."
-    },
-    "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/85673": {
-      "title": "Loading...",
-      "description": "Loading... You need to enable JavaScript to run this app."
-    },
-    "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/455703": {
-      "title": "Loading...",
-      "description": "Loading... You need to enable JavaScript to run this app."
-    },
-    "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/457621": {
-      "title": "Loading...",
-      "description": "Loading... You need to enable JavaScript to run this app."
-    },
     "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/463533": {
       "title": "AI Engineer",
       "description": "AI Engineer (46606) You need to enable JavaScript to run this app. Careers Sign In Create Account AI Engineer (46606) Fully Remote   •   San Francisco - San Francisco, CA 94105 Apply Overview Salary Range $150,000.00 - $175,000.00 Salary/year Apply Description Golden Gate University Position Description Position Title: AI Engineer Department: Office of the President Reports To: Chief of Staff Classification: Full-Time, Exempt Location: Remote About Golden Gate University Golden Gate University is a private, nonprofit university in San Francisco focused on AI and built for working adults. GGU has served working adults for more than 120 years, and the University is building its future around AI, in its academic programs and in how the institution itself runs. This position is central to the second part. Position Summary The AI Engineer supports the redesign of GGU’s data infrastructure and reporting functions, with AI at the core, in partnership with the University’s executive leadership team. The role has three core responsibilities. First, build the AI tools and workflows that make GGU’s reporting functions more effective and efficient, including required reports to outside agencies and internal reports for University leadership. Second, build AI tools for data analysis in areas of leadership priority, such as enrollment projections and financial projections. Third, design AI tools and workflows to support other leadership priorities as assigned, in coordination with the Vice Provost for Digital Innovation where the work touches the academic experience or shared platforms. The position reports to the President’s Chief of Staff. Essential Duties and Responsibilities Data Reporting Tools and Workflows Support the redesign of the University’s data infrastructure and reporting functions, with AI at the core, in partnership with executive leadership. Build AI tools and workflows to automate data flows from the University’s student information system (Ellucian Colleague) and other core systems. Make the University’s reports faster to produce and more reliable, including required reports to outside agencies and internal reports for leadership. Own the AI stack for institutional reporting and analysis: choose models and platforms, design prompts and agents, test for reliability, and manage integrations and costs. Model, platform, and vendor choices that overlap with the academic technology stack are made in coordination with the Vice Provost for Digital Innovation, who holds technology strategy and vendor management for the academic experience. Keep the University’s data safe, with FERPA compliance, proper access controls, and good data governance, coordinating with the University’s outsourced IT partner on system access and infrastructure and with GGU Digital where data governance touches academic systems. Data Analysis Tools Build AI tools for analysis in areas of leadership priority, such as enrollment projections and financial projections. Work from goals and methods framed by the leadership team, and deliver tools that work and keep working. Turn analyses framed in spreadsheets into durable, self-updating tools. Other Leadership Priorities Design AI tools and workflows in other areas of the University as needs arise, coordinating with the Vice Provost for Digital Innovation on any work that extends into the academic experience. Advise leadership on what AI tools can and cannot do well in institutional operations, and recommend where they will help most. Qualifications Required Demonstrated experience building LLM-based tools used in production, including agent workflows, retrieval, structured extraction, tool use, and evaluation. Strong Python and solid SQL, with enough data engineering experience to connect AI tools to institutional systems reliably. A record of AI tools built, shipped, and maintained. Candidates should be prepared to demonstrate one. The ability to take a well-framed request from a non-technical leader and return a working tool, independently. Excellent communication skills and the ability to work effectively with senior leadership. Preferred Experience in higher education. Experience with Ellucian Colleague or another student information system. Familiarity with FERPA. Compensation The salary range for this position is $150,000 to $175,000 depending on experience. Application Process Interested candidates should submit a letter of interest and resume to Nicholas Bradley at nbradley@ggu.edu. Candidates are encouraged to include a short note about an AI tool they built: what it does, who uses it, and how it has held up. Review of applications will begin immediately and continue until the position is filled. Supplemental Information To apply: Please go to http://www.ggu.edu/jobs to submit an application, letter of interest, and a resume. In applying for a position, candidates sign a consent authorizing a broader inquiry which may include reference checks, a motor vehicle check, and a third-party background check. Golden Gate University is an equal employment opportunity employer. We support inclusive excellence and are committed to creating a safe and welcoming community for all. University policy prohibits discrimination based on race, color, religion/creed, national origin, ancestry, age, sex/gender, sexual orientation, marital status, medical condition, physical or mental disability, gender stereotyping, and gender identity, gender expression, military or veteran status, taking a protected leave (e.g., family medical or pregnancy leave), or on any other basis protected by applicable laws. The University has a strong commitment to the principles of diversity and inclusion, and to maintaining working and learning environments that reinforces these practices. The University welcomes and encourages applications from all demographics. Share job details to Terms of Use | Privacy Policy | © 2026 Paycom | All Rights Reserved. X This website uses cookies to customize and improve your experience. If you are a California resident, you may be entitled to certain rights regarding your personal information. Additional information about our data collection practices and location specific notices is available on our privacy policy. Accept Cookies"
-    },
-    "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/467978": {
-      "title": "Loading...",
-      "description": "Loading... You need to enable JavaScript to run this app."
     },
     "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/471689": {
       "title": "Instructional Designer",
@@ -87,17 +27,77 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/474406": {
       "title": "Learning Experience Designer, Multimedia & Innovation",
       "description": "Learning Experience Designer, Multimedia & Innovation (47034) You need to enable JavaScript to run this app. Careers Sign In Create Account Learning Experience Designer, Multimedia & Innovation (47034) Fully Remote   •   San Francisco - San Francisco, CA 94105 Apply Overview Salary Range $78,000.00 - $90,000.00 Salary/year Apply Description Learning Experience Designer, Multimedia & Innovation Visual Design · Multimedia · Interactive Learning Department eLearning Salary range $78,000–$90,000 annually Reports to Director of Learning Design, Assessment, and Emerging Technology Schedule Full time · Pacific Time working hours Location Remote (U.S.) Compensation: Placement within the posted salary range is based on relevant experience, demonstrated skills, evidence of work quality, and alignment with the position’s responsibilities. Candidates who demonstrate exceptional proficiency in visual design, multimedia production, interactive learning development, and custom LMS templates may be considered for the upper end of the range. Meeting preferred qualifications does not automatically guarantee maximum pay. About the role Create visually distinctive, accessible, and effective digital learning experiences. Translate academic content and instructional ideas into polished course interfaces, multimedia, interactive activities, and reusable design systems—not just concepts or recommendations. How we work You will prototype and produce alongside faculty, instructional designers, and technology colleagues. We value excellent visual judgment, hands-on experimentation, feedback, and reusable solutions that can scale across courses and programs. Projects move between creative production, course development, and rapid problem-solving. Key responsibilities Visual design and learner experience Design engaging digital learning experiences using strong visual hierarchy, typography, composition, and information design. Turn complex academic material into clear graphics, layouts, and meaningful interactive experiences. Apply UX/UI, responsive design, and accessibility principles to navigation and learning content. Templates and multimedia production Create accessible, reusable LMS templates, HTML/CSS layouts, and visual design systems that others can maintain. Produce instructional videos, animation, motion graphics, infographics, and other multimedia assets. Develop interactive scenarios, simulations, branching activities, and learning objects using appropriate tools. Instructional design, innovation, and collaboration Partner with faculty and instructional designers on course design, learning activities, assessments, and development. Build and test learning content; prototype and evaluate AI and emerging technologies for instructional value and usability. Support course quality, accessibility, launches, and one-off faculty requests, including activity and technology testing. Contribute to parallel programs, reusable resources, shared projects, and continuous improvement. Qualifications What you bring Required Five or more years of hands-on digital learning design, visual design, and multimedia development; bachelor’s degree in a related field or equivalent professional experience. Strong portfolio showing original visual judgment and finished multimedia, interactive, or template-based learning products. Expertise in typography, layout, color, visual hierarchy, UX, and accessible, responsive digital design. Experience creating reusable LMS layouts, HTML/CSS templates, or design systems and producing multimedia and interactive learning assets. Proficiency with professional design and production tools such as Adobe Creative Cloud, Figma, Camtasia, H5P, or equivalents. Understanding of instructional design, learning objectives, assessment alignment, and WCAG standards; strong collaboration and delivery skills. Preferred Master’s degree; higher education teaching, course development, or faculty collaboration experience. Custom Brightspace templates, advanced animation/video, simulations, branching activities, JavaScript, or related front-end skills. Experience prototyping with generative AI, usability testing, and refining interactive learning products. Experience scaling visual systems and reusable learning assets across parallel programs. Professional proficiency in written Spanish. Supplemental Information To apply: Please go to http://www.ggu.edu/jobs to submit an application, letter of interest, and a resume. In applying for a position, candidates sign a consent authorizing a broader inquiry which may include reference checks, a motor vehicle check, and a third-party background check. Golden Gate University is an equal employment opportunity employer. We support inclusive excellence and are committed to creating a safe and welcoming community for all. University policy prohibits discrimination based on race, color, religion/creed, national origin, ancestry, age, sex/gender, sexual orientation, marital status, medical condition, physical or mental disability, gender stereotyping, and gender identity, gender expression, military or veteran status, taking a protected leave (e.g., family medical or pregnancy leave), or on any other basis protected by applicable laws. The University has a strong commitment to the principles of diversity and inclusion, and to maintaining working and learning environments that reinforces these practices. The University welcomes and encourages applications from all demographics. Circa Share job details to Terms of Use | Privacy Policy | © 2026 Paycom | All Rights Reserved. X This website uses cookies to customize and improve your experience. If you are a California resident, you may be entitled to certain rights regarding your personal information. Additional information about our data collection practices and location specific notices is available on our privacy policy. Accept Cookies"
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/85629": {
+      "title": "Adjunct Faculty, Finance & Economics, Ageno School of Business",
+      "description": "Adjunct Faculty, Finance & Economics, Ageno School of Business You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/85665": {
+      "title": "Adjunct Faculty, School of Accounting",
+      "description": "Adjunct Faculty, School of Accounting You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/85701": {
+      "title": "Adjunct Faculty, School of Business",
+      "description": "Adjunct Faculty, School of Business You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/85657": {
+      "title": "Adjunct Faculty, School of Law",
+      "description": "Adjunct Faculty, School of Law You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/439900": {
+      "title": "Adjunct Faculty, School of Psychology",
+      "description": "Adjunct Faculty, School of Psychology You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/85681": {
+      "title": "Adjunct Faculty, School of Taxation",
+      "description": "Adjunct Faculty, School of Taxation You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/85578": {
+      "title": "Adjunct Faculty, School of Undergraduate Studies",
+      "description": "Adjunct Faculty, School of Undergraduate Studies You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/443987": {
+      "title": "Assistant General Counsel",
+      "description": "Assistant General Counsel You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/475510": {
+      "title": "Assistant Professor, Industrial-Organizational Psychology (Tenure-Track)",
+      "description": "Assistant Professor, Industrial-Organizational Psychology (Tenure-Track) You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/444156": {
+      "title": "Dean, School of Accounting & Braden School of Taxation",
+      "description": "Dean, School of Accounting & Braden School of Taxation You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/431453": {
+      "title": "Deputy Provost",
+      "description": "Deputy Provost You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/294963": {
+      "title": "Federal Work Study - Reading Partners Tutor",
+      "description": "Federal Work Study - Reading Partners Tutor You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/85673": {
+      "title": "Federal Work Study Employee",
+      "description": "Federal Work Study Employee You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/455703": {
+      "title": "Student Assistant, Division of Student Success",
+      "description": "Student Assistant, Division of Student Success You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/457621": {
+      "title": "Teaching Assistant, School of Psychology",
+      "description": "Teaching Assistant, School of Psychology You need to enable JavaScript to run this app."
     }
   },
   "rows": {
     "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/85629": {
       "school_id": 138,
       "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/85629",
-      "job_title_in_post": "Loading...",
-      "position_type": "Unclassified",
-      "job_term": "Full-time",
-      "department_or_school": "",
-      "area_key_words": "",
+      "job_title_in_post": "Adjunct Faculty, Finance & Economics, Ageno School of Business",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "School of Business",
+      "area_key_words": "Business",
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
@@ -105,11 +105,11 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/85665": {
       "school_id": 138,
       "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/85665",
-      "job_title_in_post": "Loading...",
-      "position_type": "Unclassified",
-      "job_term": "Full-time",
-      "department_or_school": "",
-      "area_key_words": "",
+      "job_title_in_post": "Adjunct Faculty, School of Accounting",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "School of Accounting",
+      "area_key_words": "Accounting",
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
@@ -117,11 +117,11 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/85701": {
       "school_id": 138,
       "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/85701",
-      "job_title_in_post": "Loading...",
-      "position_type": "Unclassified",
-      "job_term": "Full-time",
-      "department_or_school": "",
-      "area_key_words": "",
+      "job_title_in_post": "Adjunct Faculty, School of Business",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "School of Business",
+      "area_key_words": "Business",
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
@@ -129,11 +129,11 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/85657": {
       "school_id": 138,
       "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/85657",
-      "job_title_in_post": "Loading...",
-      "position_type": "Unclassified",
-      "job_term": "Full-time",
-      "department_or_school": "",
-      "area_key_words": "",
+      "job_title_in_post": "Adjunct Faculty, School of Law",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "School of Law",
+      "area_key_words": "Law",
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
@@ -141,11 +141,11 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/439900": {
       "school_id": 138,
       "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/439900",
-      "job_title_in_post": "Loading...",
-      "position_type": "Unclassified",
-      "job_term": "Full-time",
-      "department_or_school": "",
-      "area_key_words": "",
+      "job_title_in_post": "Adjunct Faculty, School of Psychology",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "School of Psychology",
+      "area_key_words": "Psychology",
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
@@ -153,11 +153,11 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/85681": {
       "school_id": 138,
       "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/85681",
-      "job_title_in_post": "Loading...",
-      "position_type": "Unclassified",
-      "job_term": "Full-time",
-      "department_or_school": "",
-      "area_key_words": "",
+      "job_title_in_post": "Adjunct Faculty, School of Taxation",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "School of Taxation",
+      "area_key_words": "Taxation",
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
@@ -165,11 +165,11 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/85578": {
       "school_id": 138,
       "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/85578",
-      "job_title_in_post": "Loading...",
-      "position_type": "Unclassified",
-      "job_term": "Full-time",
-      "department_or_school": "",
-      "area_key_words": "",
+      "job_title_in_post": "Adjunct Faculty, School of Undergraduate Studies",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "School of Undergraduate Studies",
+      "area_key_words": "Undergraduate Studies",
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
@@ -177,7 +177,7 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/443987": {
       "school_id": 138,
       "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/443987",
-      "job_title_in_post": "Loading...",
+      "job_title_in_post": "Assistant General Counsel",
       "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
@@ -189,11 +189,11 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/444156": {
       "school_id": 138,
       "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/444156",
-      "job_title_in_post": "Loading...",
+      "job_title_in_post": "Dean, School of Accounting & Braden School of Taxation",
       "position_type": "Unclassified",
       "job_term": "Full-time",
-      "department_or_school": "",
-      "area_key_words": "",
+      "department_or_school": "School of Accounting & Braden School of Taxation",
+      "area_key_words": "Accounting & Braden School of Taxation",
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
@@ -201,7 +201,7 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/431453": {
       "school_id": 138,
       "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/431453",
-      "job_title_in_post": "Loading...",
+      "job_title_in_post": "Deputy Provost",
       "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
@@ -213,8 +213,8 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/294963": {
       "school_id": 138,
       "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/294963",
-      "job_title_in_post": "Loading...",
-      "position_type": "Unclassified",
+      "job_title_in_post": "Federal Work Study - Reading Partners Tutor",
+      "position_type": "Lecturer",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "",
@@ -225,7 +225,7 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/85673": {
       "school_id": 138,
       "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/85673",
-      "job_title_in_post": "Loading...",
+      "job_title_in_post": "Federal Work Study Employee",
       "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
@@ -237,11 +237,11 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/455703": {
       "school_id": 138,
       "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/455703",
-      "job_title_in_post": "Loading...",
+      "job_title_in_post": "Student Assistant, Division of Student Success",
       "position_type": "Unclassified",
       "job_term": "Full-time",
-      "department_or_school": "",
-      "area_key_words": "",
+      "department_or_school": "Division of Student Success",
+      "area_key_words": "Student Success",
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
@@ -249,11 +249,11 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/457621": {
       "school_id": 138,
       "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/457621",
-      "job_title_in_post": "Loading...",
+      "job_title_in_post": "Teaching Assistant, School of Psychology",
       "position_type": "Unclassified",
       "job_term": "Full-time",
-      "department_or_school": "",
-      "area_key_words": "",
+      "department_or_school": "School of Psychology",
+      "area_key_words": "Psychology; Assistant",
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
@@ -350,11 +350,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/475510": {
+      "school_id": 138,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/475510",
+      "job_title_in_post": "Assistant Professor, Industrial-Organizational Psychology (Tenure-Track)",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Industrial-Organizational Psychology",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 138,
   "status": "complete",
-  "updated_at": "2026-10-29T22:45:50+00:00",
-  "completed_at": "2026-10-29T22:45:50+00:00",
+  "updated_at": "2026-10-30T23:44:49+00:00",
+  "completed_at": "2026-10-30T23:44:49+00:00",
   "last_error": ""
 }

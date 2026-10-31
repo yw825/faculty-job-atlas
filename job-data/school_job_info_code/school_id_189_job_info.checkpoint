@@ -19,6 +19,10 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/0FE17D4AFBB66F4F196ABBBA1DF3DF85/jobs/257108": {
       "title": "Assistant Coach Womens Lacrosse",
       "description": "Assistant Coach Womens Lacrosse You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/0FE17D4AFBB66F4F196ABBBA1DF3DF85/jobs/257398": {
+      "title": "Graduate Assistant Coach Womens Lacrosse",
+      "description": "Graduate Assistant Coach Womens Lacrosse You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -80,11 +84,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/0FE17D4AFBB66F4F196ABBBA1DF3DF85/jobs/257398": {
+      "school_id": 189,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/0FE17D4AFBB66F4F196ABBBA1DF3DF85/jobs/257398",
+      "job_title_in_post": "Graduate Assistant Coach Womens Lacrosse",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 189,
   "status": "complete",
-  "updated_at": "2026-10-29T22:49:28+00:00",
-  "completed_at": "2026-10-29T22:49:28+00:00",
+  "updated_at": "2026-10-30T23:46:56+00:00",
+  "completed_at": "2026-10-30T23:46:56+00:00",
   "last_error": ""
 }

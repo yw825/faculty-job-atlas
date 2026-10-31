@@ -2462,6 +2462,21 @@
       "title": "Open Rank - Clinical Faculty in Hospice and Palliative Medicine",
       "description": "Posted: 10/28/2026 Location: Augusta University Department: MCG-Med-Hospital Medicine Open Rank - Clinical Faculty in Hospice and Palliative Medicine",
       "department": "MCG-Med-Hospital Medicine"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305323&PostingSeq=1&SiteId=12000": {
+      "title": "Data Coordinator 2",
+      "description": "Posted: 10/30/2026 Location: Augusta University Department: MCG-Med-Sickle Cell Program Data Coordinator 2",
+      "department": "MCG-Med-Sickle Cell Program"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305340&PostingSeq=1&SiteId=12000": {
+      "title": "Postdoctoral Fellow",
+      "description": "Posted: 10/30/2026 Location: Augusta University Department: GCC-Georgia Cancer Center Postdoctoral Fellow",
+      "department": "GCC-Georgia Cancer Center"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305410&PostingSeq=1&SiteId=12000": {
+      "title": "Research Assistant - MCG Neurosci and Reg Medicine",
+      "description": "Posted: 10/30/2026 Location: Augusta University Department: MCG-Neurosci & Reg Medicine Research Assistant - MCG Neurosci and Reg Medicine",
+      "department": "MCG-Neurosci & Reg Medicine"
     }
   },
   "rows": {
@@ -8334,11 +8349,47 @@
       "deadline_of_application": "",
       "posted_date": "10/28/2026",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305323&PostingSeq=1&SiteId=12000": {
+      "school_id": 282,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305323&PostingSeq=1&SiteId=12000",
+      "job_title_in_post": "Data Coordinator 2",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "MCG-Med-Sickle Cell Program",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "10/30/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305340&PostingSeq=1&SiteId=12000": {
+      "school_id": 282,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305340&PostingSeq=1&SiteId=12000",
+      "job_title_in_post": "Postdoctoral Fellow",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "GCC-Georgia Cancer Center",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "10/30/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305410&PostingSeq=1&SiteId=12000": {
+      "school_id": 282,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305410&PostingSeq=1&SiteId=12000",
+      "job_title_in_post": "Research Assistant - MCG Neurosci and Reg Medicine",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "MCG-Neurosci & Reg Medicine",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "10/30/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 282,
   "status": "complete",
-  "updated_at": "2026-10-29T22:59:21+00:00",
-  "completed_at": "2026-10-29T22:59:21+00:00",
+  "updated_at": "2026-10-30T23:52:33+00:00",
+  "completed_at": "2026-10-30T23:52:33+00:00",
   "last_error": ""
 }

@@ -649,6 +649,16 @@
       "title": "Data Integrity and Donor Services Specialist",
       "description": "Posted: 10/29/2026 Location: Tyler, TX Department: University Advancement Data Integrity and Donor Services Specialist",
       "department": "University Advancement"
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16720&PostingSeq=1&SiteId=12": {
+      "title": "Asst Professor of Instruction - Chemistry",
+      "description": "Posted: 10/30/2026 Location: Tyler, TX Department: Chemistry Asst Professor of Instruction - Chemistry",
+      "department": "Chemistry"
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16712&PostingSeq=1&SiteId=12": {
+      "title": "Human Resources Generalist",
+      "description": "Posted: 10/30/2026 Location: Tyler, TX Department: Human Resources Human Resources Generalist",
+      "department": "Human Resources"
     }
   },
   "rows": {
@@ -2199,11 +2209,35 @@
       "deadline_of_application": "",
       "posted_date": "10/29/2026",
       "position_start_date": ""
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16720&PostingSeq=1&SiteId=12": {
+      "school_id": 1437,
+      "posting_url": "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16720&PostingSeq=1&SiteId=12",
+      "job_title_in_post": "Asst Professor of Instruction - Chemistry",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Chemistry",
+      "area_key_words": "Instruction",
+      "deadline_of_application": "",
+      "posted_date": "10/30/2026",
+      "position_start_date": ""
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16712&PostingSeq=1&SiteId=12": {
+      "school_id": 1437,
+      "posting_url": "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16712&PostingSeq=1&SiteId=12",
+      "job_title_in_post": "Human Resources Generalist",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Human Resources",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "10/30/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 1437,
   "status": "complete",
-  "updated_at": "2026-10-30T00:23:45+00:00",
-  "completed_at": "2026-10-30T00:23:45+00:00",
+  "updated_at": "2026-10-31T01:10:09+00:00",
+  "completed_at": "2026-10-31T01:10:09+00:00",
   "last_error": ""
 }

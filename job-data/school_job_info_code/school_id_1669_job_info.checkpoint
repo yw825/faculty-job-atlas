@@ -869,6 +869,26 @@
       "title": "Studentermedhjælpere til renrum og laboratorier - DTU Nanolab",
       "description": "Vi søger 3 engagerede og dygtige studentermedhjælpere til at assistere i DTU Nanolabs ISO 14644 klasse 4 og 5 renrum samt tilhørende laboratorier. Du bliver en del af et team, der understøtter forskning, undervisning og daglig drift i et af Danmarks mest avancerede laboratoriemiljøer.",
       "department": null
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8505": {
+      "title": "Teknisk AV-projektleder til udvikling af DTU’s AV-løsninger - IT Service",
+      "description": "Kan du nikke genkendende til ord som AV-kontrolsystemer og online undervisning? Har du en solid erfaring inden for AV? Har du lyst til at arbejde i et stærkt fagligt miljø? Brænder du for AV-teknologi og er frisk på at vokse og forny dig med udviklingen og opgaverne?\n",
+      "department": null
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8509": {
+      "title": "Ambitious Postdoc in Nanoscale 3D Printing or Nanolithography - DTU Construct",
+      "description": "We are looking for an ambitious Post-doc in Nanoscale 3D printing in the research field of 3D ice lithography (3DIL) with a focus on biomedical applications.",
+      "department": null
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8510": {
+      "title": "Sektionsleder til bygherre- og projektledersektion - DTU Campus Service",
+      "description": "Vil du stå i spidsen for en stærk bygherre- og projektledersektion og være med til at udvikle DTU's campusområder? Som sektionsleder for Driftsplanlægning og -projekter får du ansvaret for medarbejdere, projekter og samarbejder, der udvikler og understøtter de fysiske rammer for forskning, undervisning og innovation.",
+      "department": null
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8512": {
+      "title": "Postdoc in Predictive Human Digital Twins for Human-Centred Systems Engineering – DTU Construct",
+      "description": "Join DTU Construct as a postdoc and help shape a new research group: couple personalised Human Digital Twins with digital twins of products, assistive devices and robots, build up our real-world lab for human-technology interaction, and co-supervise students.",
+      "department": null
     }
   },
   "rows": {
@@ -2924,11 +2944,59 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8505": {
+      "school_id": 1669,
+      "posting_url": "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8505",
+      "job_title_in_post": "Teknisk AV-projektleder til udvikling af DTU’s AV-løsninger - IT Service",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8509": {
+      "school_id": 1669,
+      "posting_url": "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8509",
+      "job_title_in_post": "Ambitious Postdoc in Nanoscale 3D Printing or Nanolithography - DTU Construct",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Nanoscale 3D Printing or Nanolithography",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8510": {
+      "school_id": 1669,
+      "posting_url": "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8510",
+      "job_title_in_post": "Sektionsleder til bygherre- og projektledersektion - DTU Campus Service",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8512": {
+      "school_id": 1669,
+      "posting_url": "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8512",
+      "job_title_in_post": "Postdoc in Predictive Human Digital Twins for Human-Centred Systems Engineering – DTU Construct",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Predictive Human Digital Twins for Human-Centred Systems Engineering",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1669,
   "status": "complete",
-  "updated_at": "2026-10-30T01:06:24+00:00",
-  "completed_at": "2026-10-30T01:06:24+00:00",
+  "updated_at": "2026-10-31T01:43:28+00:00",
+  "completed_at": "2026-10-31T01:43:28+00:00",
   "last_error": ""
 }

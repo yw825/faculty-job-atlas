@@ -525,7 +525,8 @@
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
-      "position_start_date": "2026-05-15"
+      "posted_date": "2026-05-15",
+      "position_start_date": ""
     },
     "https://unioncollege.wd5.myworkdayjobs.com/UnionCollegeCareers/job/Union-College-Schenectady-NY/Van-Driver---On-Call_JR100128": {
       "school_id": 1005,
@@ -674,7 +675,7 @@
   },
   "school_id": 1005,
   "status": "complete",
-  "updated_at": "2026-10-30T00:05:53+00:00",
-  "completed_at": "2026-10-30T00:05:53+00:00",
+  "updated_at": "2026-10-31T00:51:11+00:00",
+  "completed_at": "2026-10-31T00:51:11+00:00",
   "last_error": ""
 }

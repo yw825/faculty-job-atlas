@@ -150,12 +150,15 @@
     "https://careers.eku.edu/jobs/senior-analyst-programmer-enterprise-applications-richmond-campus-kentucky-united-states",
     "https://careers.eku.edu/jobs/lecturer-richmond-campus-kentucky-united-states",
     "https://careers.eku.edu/jobs/associate-controller-richmond-campus-kentucky-united-states",
-    "https://careers.eku.edu/jobs/architect-richmond-campus-kentucky-united-states"
+    "https://careers.eku.edu/jobs/architect-richmond-campus-kentucky-united-states",
+    "https://careers.eku.edu/jobs/model-laboratory-school-2026-theatrical-production-set-builder-richmond-campus-kentucky-united-states",
+    "https://careers.eku.edu/jobs/model-lab-school-outreach-coordinator-middle-grades-secondary-teacher-richmond-campus-kentucky-united-states"
   ],
   "school_id": 506,
   "status": "complete",
-  "updated_at": "2026-10-29T18:19:57+00:00",
+  "updated_at": "2026-10-30T18:43:37+00:00",
   "started_at": "2026-09-08T01:52:24+00:00",
-  "completed_at": "2026-10-29T18:19:57+00:00",
-  "last_error": ""
+  "completed_at": "2026-10-30T18:43:37+00:00",
+  "last_error": "",
+  "last_warning": "2026-10-30T18:43:37+00:00: board returned 60 links vs 151 before; old set kept"
 }

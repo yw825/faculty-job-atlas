@@ -123,6 +123,14 @@
     "https://my.corehr.com/pls/nuimrecruit/erq_jobspec_version_4.jobspec?p_id=044803": {
       "title": "User Support Advisor, Microsoft 365 Support, Permanent, Information Technology Services",
       "description": "Closing Date: 29/11/2026 Job Title : User Support Advisor Department : IT Services Vacancy ID : 044803 Closing Date : 29-Nov-2026 Maynooth University wishes to appoint a User Support Advisor (Microsoft 365 Support) on a full-time permanent basis. This appointment at AOII Grade will report to the User Support Manager and be part of the User Support Team within IT Services. The purpose of this role is to provide support, guidance and consultancy to help users effectively utilise the full range of Microsoft 365 tools and platform services. The role focuses on resolving user issues, improving digital confidence, and enabling staff to work productively and collaboratively across the organisation. By supporting day‑to‑day queries, promoting best practices, and helping users adopt new features, the role ensures that individuals can make the most of Microsoft 365 applications while maintaining a smooth and positive technology experience. The ideal candidate will have a strong ICT capability with deep expertise across Microsoft 365 with advanced proficiency in collaboration and productivity applications. They will be familiar with administration portals, and core services such as Exchange Online, SharePoint Online, Teams, OneDrive, Entra ID, and Intune. The successful candidate will be skilled in supporting users and advanced troubleshooting. They will be familiar with Microsoft 365 compliance and data management practices. They will be a strong collaborator with excellent interpersonal and communication skills. Administrative Officer II: €47,387– €67,129 p.a. (9 points) Appointments will be made in accordance with public sector pay provisions. Closing Date: 23:30hrs (local Irish time) on Sunday, 29th of November 2026. Applications must be submitted by the closing date and time specified above. Any applications which are still in progress at the closing time on the specified closing date will be cancelled automatically by the system. Late applications will not be accepted. Maynooth University is an equal opportunities employer The position is subject to the Statutes of the University"
+    },
+    "https://my.corehr.com/pls/nuimrecruit/erq_jobspec_version_4.jobspec?p_id=044823": {
+      "title": "Research Assistant (ReThink/ReDesign), Specified Purpose, Innovation Value Institute",
+      "description": "Closing Date: 15/11/2026 Job Title : Research Assistant Department : Design Innovation Vacancy ID : 044823 Closing Date : 15-Nov-2026 Maynooth University is committed to a strategy in which the primary University goals of excellent research and scholarship and outstanding education are interlinked and equally valued. We are seeking a motivated and technically capable Research Assistant to support our research and engagement programme with Small and Medium Enterprises (SMEs). IVI has developed the ReThink ReDesign programme (https://ivi.ie/rethink-redesign/), which leverages research grants and supports from Enterprise Ireland to assist SMEs on their digital transformation and innovation journey. The successful candidate will contribute to the delivery of research and innovation projects with collaborating organisations, supporting the development of proofs of concept, prototypes, and technical solutions that help SMEs innovate. Working as part of a multidisciplinary team, the candidate will also contribute to research outputs, including case studies, frameworks, methods, and other knowledge assets that capture and disseminate insights from project activities. Research Assistant Level 1: €34,130 p.a. (1 point) Closing Date: 23:30hrs (local Irish time) on Sunday, 15th November 2026. Applications must be submitted by the closing date and time specified above. Any applications which are still in progress at the closing time on the specified closing date will be cancelled automatically by the system. Late applications will not be accepted. Maynooth University is an equal opportunities employer The position is subject to the Statutes of the University"
+    },
+    "https://my.corehr.com/pls/nuimrecruit/erq_jobspec_version_4.jobspec?p_id=044843": {
+      "title": "Research Assistant, Specified Purpose, 0.6FTE, School of Business",
+      "description": "Closing Date: 15/11/2026 Job Title : Research Assistant Department : School of Business Vacancy ID : 044843 Closing Date : 15-Nov-2026 Maynooth University is committed to a strategy in which the primary University goals of excellent research and scholarship and outstanding education are interlinked and equally valued. The International Research on Energy Systems Integration, Education & Environment for Sustainability and Innovation Center (IRESI), is a research centre housed in the School of Business. IRESI's research focuses on propelling sustainable energy systems into the future by helping individuals, organisations and institutions in the pursuit of a cleaner, greener, and more sustainable energy landscape. We are seeking a motivated, analytical, and detail-oriented part-time (0.6 FTE) Data Analytical Research Assistant to support a multidisciplinary research team working on the Research Ireland–funded RENEW project. The successful candidate will primarily contribute to activities related to data analysis, data management, and the development of the Smart Tariff Comparison Tool. Research Assistant Level 1: €34,130 pro rata at 0.6FTE p.a. (1 point) Closing Date: 23:30hrs (local Irish time) on Sunday, 15th November 2026. Applications must be submitted by the closing date and time specified above. Any applications which are still in progress at the closing time on the specified closing date will be cancelled automatically by the system. Late applications will not be accepted. Maynooth University is an equal opportunities employer The position is subject to the Statutes of the University"
     }
   },
   "rows": {
@@ -483,11 +491,35 @@
       "deadline_of_application": "29/11/2026",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://my.corehr.com/pls/nuimrecruit/erq_jobspec_version_4.jobspec?p_id=044823": {
+      "school_id": 1909,
+      "posting_url": "https://my.corehr.com/pls/nuimrecruit/erq_jobspec_version_4.jobspec?p_id=044823",
+      "job_title_in_post": "Research Assistant (ReThink/ReDesign), Specified Purpose, Innovation Value Institute",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "15/11/2026",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://my.corehr.com/pls/nuimrecruit/erq_jobspec_version_4.jobspec?p_id=044843": {
+      "school_id": 1909,
+      "posting_url": "https://my.corehr.com/pls/nuimrecruit/erq_jobspec_version_4.jobspec?p_id=044843",
+      "job_title_in_post": "Research Assistant, Specified Purpose, 0.6FTE, School of Business",
+      "position_type": "Unclassified",
+      "job_term": "Part-time",
+      "department_or_school": "School of Business",
+      "area_key_words": "Business; Energy Systems Integration; Innovation Center",
+      "deadline_of_application": "15/11/2026",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1909,
   "status": "complete",
-  "updated_at": "2026-10-30T01:13:18+00:00",
-  "completed_at": "2026-10-30T01:13:18+00:00",
+  "updated_at": "2026-10-31T01:50:02+00:00",
+  "completed_at": "2026-10-31T01:50:02+00:00",
   "last_error": ""
 }

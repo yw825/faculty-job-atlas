@@ -119,12 +119,14 @@
     "https://talenthub.mercy.edu/jobs/student-worker-lpt-tier3-new-york-united-states",
     "https://talenthub.mercy.edu/jobs/student-worker-sla-pl-tier2-new-york-united-states",
     "https://talenthub.mercy.edu/jobs/student-worker-bio-nat-sci-tier2-dobbs-ferry-ny-new-york-united-states",
-    "https://talenthub.mercy.edu/jobs/adjunct-faculty-school-of-education-new-york-united-states"
+    "https://talenthub.mercy.edu/jobs/adjunct-faculty-school-of-education-new-york-united-states",
+    "https://talenthub.mercy.edu/jobs/project-director-project-rise-a00747-dobbs-ferry-ny-new-york-united-states"
   ],
   "school_id": 938,
   "status": "complete",
-  "updated_at": "2026-10-29T19:38:06+00:00",
+  "updated_at": "2026-10-30T20:03:13+00:00",
   "started_at": "2026-09-08T02:29:57+00:00",
-  "completed_at": "2026-10-29T19:38:06+00:00",
-  "last_error": ""
+  "completed_at": "2026-10-30T20:03:13+00:00",
+  "last_error": "",
+  "last_warning": "2026-10-30T20:03:13+00:00: board returned 30 links vs 120 before; old set kept"
 }

@@ -146,7 +146,9 @@
       "department": "Graduate Studies"
     },
     "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960162&PostingSeq=1&SiteId=1": {
-      "error": "not present in bulk fetch result"
+      "title": "VCSU Student Center Night Manager",
+      "description": "Posted: 10/29/2026 Location: Valley City Department: Std Center, Bkstore & Fd Srv VCSU Student Center Night Manager",
+      "department": "Std Center, Bkstore & Fd Srv"
     }
   },
   "rows": {
@@ -498,12 +500,21 @@
       "position_start_date": ""
     },
     "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960162&PostingSeq=1&SiteId=1": {
-      "error": "not present in bulk fetch result"
+      "school_id": 828,
+      "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960162&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "VCSU Student Center Night Manager",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Std Center, Bkstore & Fd Srv",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "10/29/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 828,
-  "status": "complete",
-  "updated_at": "2026-10-29T23:45:06+00:00",
-  "completed_at": "2026-10-29T23:45:06+00:00",
-  "last_error": ""
+  "status": "error",
+  "updated_at": "2026-10-31T00:42:47+00:00",
+  "completed_at": "2026-10-30T20:15:09+00:00",
+  "last_error": "RuntimeError: PeopleSoft careers page returned no job rows"
 }

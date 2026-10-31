@@ -183,6 +183,26 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/F28471DFA0F4183976163E181A695BE1/jobs/507343": {
       "title": "Adjunct Instructor",
       "description": "Adjunct Instructor You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/F28471DFA0F4183976163E181A695BE1/jobs/508543": {
+      "title": "Administrative Assistant",
+      "description": "Administrative Assistant You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/F28471DFA0F4183976163E181A695BE1/jobs/508539": {
+      "title": "Lead HVAC Technician",
+      "description": "Lead HVAC Technician You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/F28471DFA0F4183976163E181A695BE1/jobs/508529": {
+      "title": "Campus Safety Officer Overnight",
+      "description": "Campus Safety Officer Overnight You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/F28471DFA0F4183976163E181A695BE1/jobs/508525": {
+      "title": "Pep Band Director",
+      "description": "Pep Band Director You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/F28471DFA0F4183976163E181A695BE1/jobs/508521": {
+      "title": "Night Custodian",
+      "description": "Night Custodian You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -735,11 +755,71 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/F28471DFA0F4183976163E181A695BE1/jobs/508543": {
+      "school_id": 955,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/F28471DFA0F4183976163E181A695BE1/jobs/508543",
+      "job_title_in_post": "Administrative Assistant",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/F28471DFA0F4183976163E181A695BE1/jobs/508539": {
+      "school_id": 955,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/F28471DFA0F4183976163E181A695BE1/jobs/508539",
+      "job_title_in_post": "Lead HVAC Technician",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/F28471DFA0F4183976163E181A695BE1/jobs/508529": {
+      "school_id": 955,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/F28471DFA0F4183976163E181A695BE1/jobs/508529",
+      "job_title_in_post": "Campus Safety Officer Overnight",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/F28471DFA0F4183976163E181A695BE1/jobs/508525": {
+      "school_id": 955,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/F28471DFA0F4183976163E181A695BE1/jobs/508525",
+      "job_title_in_post": "Pep Band Director",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/F28471DFA0F4183976163E181A695BE1/jobs/508521": {
+      "school_id": 955,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/F28471DFA0F4183976163E181A695BE1/jobs/508521",
+      "job_title_in_post": "Night Custodian",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 955,
   "status": "complete",
-  "updated_at": "2026-10-29T23:55:28+00:00",
-  "completed_at": "2026-10-29T23:55:28+00:00",
+  "updated_at": "2026-10-31T00:48:45+00:00",
+  "completed_at": "2026-10-31T00:48:45+00:00",
   "last_error": ""
 }

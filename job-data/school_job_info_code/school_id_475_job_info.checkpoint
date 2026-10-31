@@ -134,6 +134,26 @@
       "title": "Assistant Professor of Finance",
       "description": "The Kelce College of Business at Pittsburg State University invites applications for a tenure-earning position in Finance. ",
       "department": null
+    },
+    "https://ebyf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/207": {
+      "title": "Administrative Associate",
+      "description": "Pittsburg State University is accepting applications for an Administrative Associate in the Student Financial Assistant department. The primary function of Administrative Associate is to supervise the welcoming of prospective, incoming and current students, families, and support persons. This position will organize and coordinate office administration and procedures in order to ensure the department’s effectiveness and efficiency.",
+      "department": null
+    },
+    "https://ebyf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/206": {
+      "title": "Assistant Instructional Professor - Construction Management",
+      "description": "Pittsburg State University School of Construction has two (2) openings for full-time non-tenure earning Assistant Instructional Faculty 9-month faculty position to support our 600+ major Construction Management, Construction Engineering Technology, Safety Management and Interior Design programs. First priority will be positions focused on construction methods/materials to support our freshman thru junior courses. Second priority will be a position to support our upper-level contracts/management, capstone courses.  ",
+      "department": null
+    },
+    "https://ebyf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/205": {
+      "title": "Electrician",
+      "description": "Pittsburg State University is accepting applications for an Electrician in the Facility Operations department. The primary function of this position is to operate, maintain, and install lighting and electrical equipment across the campus.",
+      "department": null
+    },
+    "https://ebyf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/208": {
+      "title": "Systems Administrator",
+      "description": "Pittsburg State University is accepting applications for a Systems Administrator in the department of Information Technology Services that is responsible for installing, configuring, and supporting the University’s designated servers and infrastructure by maintaining server hardware and software.",
+      "department": null
     }
   },
   "rows": {
@@ -460,11 +480,59 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://ebyf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/207": {
+      "school_id": 475,
+      "posting_url": "https://ebyf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/207",
+      "job_title_in_post": "Administrative Associate",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://ebyf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/206": {
+      "school_id": 475,
+      "posting_url": "https://ebyf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/206",
+      "job_title_in_post": "Assistant Instructional Professor - Construction Management",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "School of Construction has two",
+      "area_key_words": "Instructional",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://ebyf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/205": {
+      "school_id": 475,
+      "posting_url": "https://ebyf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/205",
+      "job_title_in_post": "Electrician",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://ebyf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/208": {
+      "school_id": 475,
+      "posting_url": "https://ebyf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/208",
+      "job_title_in_post": "Systems Administrator",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 475,
   "status": "complete",
-  "updated_at": "2026-10-29T23:15:24+00:00",
-  "completed_at": "2026-10-29T23:15:24+00:00",
+  "updated_at": "2026-10-31T00:08:37+00:00",
+  "completed_at": "2026-10-31T00:08:37+00:00",
   "last_error": ""
 }
