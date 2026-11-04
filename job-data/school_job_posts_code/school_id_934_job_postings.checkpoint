@@ -2,6 +2,7 @@
   "links": [
     "https://cobleskill.interviewexchange.com/jobofferdetails.jsp?JOBID=205107",
     "https://cobleskill.interviewexchange.com/jobofferdetails.jsp?JOBID=204528",
+    "https://cobleskill.interviewexchange.com/jobofferdetails.jsp?JOBID=206334",
     "https://cobleskill.interviewexchange.com/jobofferdetails.jsp?JOBID=205753",
     "https://cobleskill.interviewexchange.com/jobofferdetails.jsp?JOBID=205671",
     "https://cobleskill.interviewexchange.com/jobofferdetails.jsp?JOBID=205667",
@@ -22,9 +23,8 @@
   ],
   "school_id": 934,
   "status": "complete",
-  "updated_at": "2026-10-30T20:02:17+00:00",
+  "updated_at": "2026-11-04T01:06:34+00:00",
   "started_at": "2026-09-08T02:29:47+00:00",
-  "completed_at": "2026-10-30T20:02:17+00:00",
-  "last_error": "",
-  "last_warning": "2026-10-30T20:02:17+00:00: board returned 0 links vs 19 before; old set kept"
+  "completed_at": "2026-11-04T01:06:34+00:00",
+  "last_error": ""
 }

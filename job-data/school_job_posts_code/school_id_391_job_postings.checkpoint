@@ -538,9 +538,9 @@
     "https://careers.northwestern.edu/psc/hrnu_er/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=33281&PostingSeq=1"
   ],
   "school_id": 391,
-  "status": "complete",
-  "updated_at": "2026-10-30T18:19:05+00:00",
+  "status": "error",
+  "updated_at": "2026-11-03T21:15:29+00:00",
   "started_at": "2026-09-09T06:13:41+00:00",
   "completed_at": "2026-10-30T18:19:05+00:00",
-  "last_error": ""
+  "last_error": "Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://careers.northwestern.edu/psc/hrnu_er/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_SCHJOB_FL&Action=U\nCall log:\n  - navigating to \"https://careers.northwestern.edu/psc/hrnu_er/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_SCHJOB_FL&Action=U\", waiting until \"domcontentloaded\"\n"
 }

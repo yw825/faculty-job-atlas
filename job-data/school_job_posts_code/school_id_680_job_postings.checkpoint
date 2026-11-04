@@ -242,9 +242,9 @@
     "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=340324&PostingSeq=1"
   ],
   "school_id": 680,
-  "status": "complete",
-  "updated_at": "2026-10-30T19:17:45+00:00",
+  "status": "error",
+  "updated_at": "2026-11-03T22:32:30+00:00",
   "started_at": "2026-09-08T02:08:15+00:00",
   "completed_at": "2026-10-30T19:17:45+00:00",
-  "last_error": ""
+  "last_error": "TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_SCHJOB_FL&Action=U\", waiting until \"domcontentloaded\"\n"
 }

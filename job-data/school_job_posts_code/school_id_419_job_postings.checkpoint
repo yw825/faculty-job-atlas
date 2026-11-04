@@ -1,19 +1,8 @@
 {
-  "links": [
-    "https://www.wabash.edu/employment/?job_id=2080",
-    "https://www.wabash.edu/employment/?job_id=2073",
-    "https://www.wabash.edu/employment/?job_id=2074",
-    "https://www.wabash.edu/employment/?job_id=2072",
-    "https://www.wabash.edu/employment/?job_id=2079",
-    "https://www.wabash.edu/employment/?job_id=2075",
-    "https://www.wabash.edu/employment/?job_id=2077",
-    "https://www.wabash.edu/employment/?job_id=2076",
-    "https://www.wabash.edu/employment/?job_id=2078"
-  ],
+  "links": [],
   "school_id": 419,
-  "status": "complete",
-  "updated_at": "2026-10-30T18:23:12+00:00",
-  "started_at": "2026-09-08T01:42:34+00:00",
-  "completed_at": "2026-10-30T18:23:12+00:00",
-  "last_error": ""
+  "status": "error",
+  "updated_at": "2026-11-03T21:17:03+00:00",
+  "started_at": "2026-11-03T21:17:03+00:00",
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.wabash.edu/employment\nCall log:\n  - navigating to \"https://www.wabash.edu/employment\", waiting until \"domcontentloaded\"\n"
 }

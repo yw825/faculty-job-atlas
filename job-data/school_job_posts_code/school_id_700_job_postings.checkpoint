@@ -1,9 +1,8 @@
 {
   "links": [],
   "school_id": 700,
-  "status": "complete",
-  "updated_at": "2026-10-30T19:21:08+00:00",
-  "started_at": "2026-10-30T19:20:57+00:00",
-  "completed_at": "2026-10-30T19:21:08+00:00",
-  "last_error": ""
+  "status": "error",
+  "updated_at": "2026-11-03T22:39:15+00:00",
+  "started_at": "2026-11-03T22:38:48+00:00",
+  "last_error": "RuntimeError: icims: expected nested job-listing frame not found"
 }

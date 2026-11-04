@@ -1,7 +1,6 @@
 {
   "links": [
     "https://aprecruit.ucr.edu/JPF01728",
-    "https://aprecruit.ucr.edu/JPF02191",
     "https://aprecruit.ucr.edu/JPF02199",
     "https://aprecruit.ucr.edu/JPF02210",
     "https://aprecruit.ucr.edu/JPF02218",
@@ -20,13 +19,11 @@
     "https://aprecruit.ucr.edu/JPF02242",
     "https://aprecruit.ucr.edu/JPF02244",
     "https://aprecruit.ucr.edu/JPF02245",
-    "https://aprecruit.ucr.edu/JPF02251",
     "https://aprecruit.ucr.edu/JPF02258",
     "https://aprecruit.ucr.edu/JPF02261",
     "https://aprecruit.ucr.edu/JPF02262",
     "https://aprecruit.ucr.edu/JPF02263",
     "https://aprecruit.ucr.edu/JPF02264",
-    "https://aprecruit.ucr.edu/JPF02265",
     "https://aprecruit.ucr.edu/JPF02266",
     "https://aprecruit.ucr.edu/JPF02267",
     "https://aprecruit.ucr.edu/JPF02268",
@@ -42,7 +39,6 @@
     "https://aprecruit.ucr.edu/JPF02284",
     "https://aprecruit.ucr.edu/JPF02285",
     "https://aprecruit.ucr.edu/JPF02286",
-    "https://aprecruit.ucr.edu/JPF02288",
     "https://aprecruit.ucr.edu/JPF02290",
     "https://aprecruit.ucr.edu/JPF02291",
     "https://aprecruit.ucr.edu/JPF02292",
@@ -94,12 +90,14 @@
     "https://aprecruit.ucr.edu/JPF02370",
     "https://aprecruit.ucr.edu/JPF02371",
     "https://aprecruit.ucr.edu/JPF02372",
-    "https://aprecruit.ucr.edu/JPF02375"
+    "https://aprecruit.ucr.edu/JPF02374",
+    "https://aprecruit.ucr.edu/JPF02375",
+    "https://aprecruit.ucr.edu/JPF02378"
   ],
   "school_id": 121,
   "status": "complete",
-  "updated_at": "2026-10-30T17:14:33+00:00",
-  "started_at": "2026-09-08T17:41:06+00:00",
-  "completed_at": "2026-10-30T17:14:33+00:00",
+  "updated_at": "2026-11-03T17:12:32+00:00",
+  "started_at": "2026-11-02T18:36:47+00:00",
+  "completed_at": "2026-11-03T17:12:32+00:00",
   "last_error": ""
 }

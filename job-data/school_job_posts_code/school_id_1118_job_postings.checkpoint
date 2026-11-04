@@ -51,9 +51,9 @@
     "https://jobs.hrc.pdx.edu/postings/46534"
   ],
   "school_id": 1118,
-  "status": "complete",
-  "updated_at": "2026-10-30T20:38:46+00:00",
+  "status": "error",
+  "updated_at": "2026-11-04T14:28:39+00:00",
   "started_at": "2026-09-08T07:34:28+00:00",
   "completed_at": "2026-10-30T20:38:46+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_NETWORK_CHANGED at https://jobs.hrc.pdx.edu/postings/search?query=&query_position_type_id%5B%5D=3&query_position_type_id%5B%5D=4&commit=Search&page=3\nCall log:\n  - navigating to \"https://jobs.hrc.pdx.edu/postings/search?query=&query_position_type_id%5B%5D=3&query_position_type_id%5B%5D=4&commit=Search&page=3\", waiting until \"domcontentloaded\"\n"
 }

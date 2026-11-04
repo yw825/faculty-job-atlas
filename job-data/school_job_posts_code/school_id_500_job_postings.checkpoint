@@ -1,12 +1,8 @@
 {
-  "links": [
-    "https://moreheadstate.peopleadmin.com/postings/44845",
-    "https://moreheadstate.peopleadmin.com/postings/44148"
-  ],
+  "links": [],
   "school_id": 500,
-  "status": "complete",
-  "updated_at": "2026-10-30T18:42:03+00:00",
-  "started_at": "2026-09-08T01:51:24+00:00",
-  "completed_at": "2026-10-30T18:42:03+00:00",
-  "last_error": ""
+  "status": "error",
+  "updated_at": "2026-11-03T21:20:30+00:00",
+  "started_at": "2026-11-03T21:20:30+00:00",
+  "last_error": "RuntimeError: list status=None"
 }

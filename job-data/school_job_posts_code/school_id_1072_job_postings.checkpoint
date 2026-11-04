@@ -183,10 +183,10 @@
     "https://careers.utoledo.edu/jobs/chair-and-professor-department-of-obstetrics-gynecology-health-science-campus-college-toledo-oh-ohio-united-states"
   ],
   "school_id": 1072,
-  "status": "complete",
-  "updated_at": "2026-10-30T20:32:41+00:00",
+  "status": "error",
+  "updated_at": "2026-11-04T04:43:44+00:00",
   "started_at": "2026-09-08T02:41:23+00:00",
   "completed_at": "2026-10-30T20:32:41+00:00",
-  "last_error": "",
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://university-of-toledo-careers.career-pages.com/jobs/search?page=1\nCall log:\n  - navigating to \"https://university-of-toledo-careers.career-pages.com/jobs/search?page=1\", waiting until \"domcontentloaded\"\n",
   "last_warning": "2026-10-30T20:32:41+00:00: board returned 0 links vs 181 before; old set kept"
 }

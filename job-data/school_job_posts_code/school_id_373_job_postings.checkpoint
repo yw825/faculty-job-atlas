@@ -132,9 +132,9 @@
     "https://ekze.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/1744"
   ],
   "school_id": 373,
-  "status": "complete",
-  "updated_at": "2026-10-30T18:14:30+00:00",
+  "status": "error",
+  "updated_at": "2026-11-03T21:13:11+00:00",
   "started_at": "2026-09-09T06:28:52+00:00",
-  "last_error": "",
+  "last_error": "RuntimeError: oracle session capture failed: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://ekze.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs\", waiting until \"domcontentloaded\"\n",
   "completed_at": "2026-10-30T18:14:30+00:00"
 }

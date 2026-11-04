@@ -1,30 +1,8 @@
 {
-  "links": [
-    "https://www.paycomonline.net/v4/ats/web.php/portal/BC25C89BF322A723B1E209741EE99F00/jobs/354512",
-    "https://www.paycomonline.net/v4/ats/web.php/portal/BC25C89BF322A723B1E209741EE99F00/jobs/353858",
-    "https://www.paycomonline.net/v4/ats/web.php/portal/BC25C89BF322A723B1E209741EE99F00/jobs/353845",
-    "https://www.paycomonline.net/v4/ats/web.php/portal/BC25C89BF322A723B1E209741EE99F00/jobs/351438",
-    "https://www.paycomonline.net/v4/ats/web.php/portal/BC25C89BF322A723B1E209741EE99F00/jobs/351417",
-    "https://www.paycomonline.net/v4/ats/web.php/portal/BC25C89BF322A723B1E209741EE99F00/jobs/351032",
-    "https://www.paycomonline.net/v4/ats/web.php/portal/BC25C89BF322A723B1E209741EE99F00/jobs/351008",
-    "https://www.paycomonline.net/v4/ats/web.php/portal/BC25C89BF322A723B1E209741EE99F00/jobs/349930",
-    "https://www.paycomonline.net/v4/ats/web.php/portal/BC25C89BF322A723B1E209741EE99F00/jobs/347324",
-    "https://www.paycomonline.net/v4/ats/web.php/portal/BC25C89BF322A723B1E209741EE99F00/jobs/336588",
-    "https://www.paycomonline.net/v4/ats/web.php/portal/BC25C89BF322A723B1E209741EE99F00/jobs/331929",
-    "https://www.paycomonline.net/v4/ats/web.php/portal/BC25C89BF322A723B1E209741EE99F00/jobs/329976",
-    "https://www.paycomonline.net/v4/ats/web.php/portal/BC25C89BF322A723B1E209741EE99F00/jobs/323148",
-    "https://www.paycomonline.net/v4/ats/web.php/portal/BC25C89BF322A723B1E209741EE99F00/jobs/316177",
-    "https://www.paycomonline.net/v4/ats/web.php/portal/BC25C89BF322A723B1E209741EE99F00/jobs/240169",
-    "https://www.paycomonline.net/v4/ats/web.php/portal/BC25C89BF322A723B1E209741EE99F00/jobs/178332",
-    "https://www.paycomonline.net/v4/ats/web.php/portal/BC25C89BF322A723B1E209741EE99F00/jobs/172787",
-    "https://www.paycomonline.net/v4/ats/web.php/portal/BC25C89BF322A723B1E209741EE99F00/jobs/156092",
-    "https://www.paycomonline.net/v4/ats/web.php/portal/BC25C89BF322A723B1E209741EE99F00/jobs/97737",
-    "https://www.paycomonline.net/v4/ats/web.php/portal/BC25C89BF322A723B1E209741EE99F00/jobs/86239"
-  ],
+  "links": [],
   "school_id": 1031,
-  "status": "complete",
-  "updated_at": "2026-10-30T20:24:22+00:00",
-  "started_at": "2026-09-08T02:37:30+00:00",
-  "completed_at": "2026-10-30T20:24:22+00:00",
-  "last_error": ""
+  "status": "error",
+  "updated_at": "2026-11-04T01:44:38+00:00",
+  "started_at": "2026-11-04T01:44:35+00:00",
+  "last_error": "Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.paycomonline.net/v4/ats/web.php/portal/BC25C89BF322A723B1E209741EE99F00/career-page\nCall log:\n  - navigating to \"https://www.paycomonline.net/v4/ats/web.php/portal/BC25C89BF322A723B1E209741EE99F00/career-page\", waiting until \"domcontentloaded\"\n"
 }

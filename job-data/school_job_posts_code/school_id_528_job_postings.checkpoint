@@ -21,9 +21,9 @@
     "https://www.governmentjobs.com/careers/louisiana/jobs/5525288/custodian-1-2"
   ],
   "school_id": 528,
-  "status": "complete",
-  "updated_at": "2026-10-30T18:45:09+00:00",
+  "status": "error",
+  "updated_at": "2026-11-03T21:21:21+00:00",
   "started_at": "2026-09-14T18:05:59+00:00",
   "completed_at": "2026-10-30T18:45:09+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.lsus.edu/faculty-and-staff/human-resources/employment-opportunities\nCall log:\n  - navigating to \"https://www.lsus.edu/faculty-and-staff/human-resources/employment-opportunities\", waiting until \"domcontentloaded\"\n"
 }

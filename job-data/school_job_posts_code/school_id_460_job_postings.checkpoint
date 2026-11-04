@@ -1,25 +1,8 @@
 {
-  "links": [
-    "https://hr.hornet365.com/custodial-specialist",
-    "https://hr.hornet365.com/assistant-professor-of-strategic-management---entrepreneurship",
-    "https://hr.hornet365.com/assistant-professor-management---entrepreneurship",
-    "https://hr.hornet365.com/assistant-professor-marketing",
-    "https://hr.hornet365.com/director-for-integrated-communications",
-    "https://hr.hornet365.com/admissions-counselor",
-    "https://hr.hornet365.com/college-access-coordinator",
-    "https://hr.hornet365.com/complex-coordinator",
-    "https://hr.hornet365.com/student-success-coach",
-    "https://hr.hornet365.com/administrative-specialist",
-    "https://hr.hornet365.com/director-of-student-health-services",
-    "https://hr.hornet365.com/director-of-development",
-    "https://hr.hornet365.com/university-police-officer",
-    "https://hr.hornet365.com/2404---assistant-athletic-trainer",
-    "https://hr.hornet365.com/2397-senior-power-plant-operator"
-  ],
+  "links": [],
   "school_id": 460,
-  "status": "complete",
-  "updated_at": "2026-10-30T18:30:45+00:00",
-  "started_at": "2026-09-08T01:47:45+00:00",
-  "completed_at": "2026-10-30T18:30:45+00:00",
-  "last_error": ""
+  "status": "error",
+  "updated_at": "2026-11-03T21:19:16+00:00",
+  "started_at": "2026-11-03T21:19:16+00:00",
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://hr.hornet365.com/open-positions\nCall log:\n  - navigating to \"https://hr.hornet365.com/open-positions\", waiting until \"domcontentloaded\"\n"
 }

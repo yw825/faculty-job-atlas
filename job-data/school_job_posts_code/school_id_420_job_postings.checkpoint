@@ -22,9 +22,9 @@
     "https://www.evansville.edu/offices/hr/employment-detail/3389"
   ],
   "school_id": 420,
-  "status": "complete",
-  "updated_at": "2026-10-30T18:23:19+00:00",
+  "status": "error",
+  "updated_at": "2026-11-03T21:17:06+00:00",
   "started_at": "2026-09-08T01:42:37+00:00",
   "completed_at": "2026-10-30T18:23:19+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.evansville.edu/offices/hr/employment.cfm\nCall log:\n  - navigating to \"https://www.evansville.edu/offices/hr/employment.cfm\", waiting until \"domcontentloaded\"\n"
 }

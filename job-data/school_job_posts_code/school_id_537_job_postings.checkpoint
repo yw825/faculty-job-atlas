@@ -1,17 +1,8 @@
 {
-  "links": [
-    "https://emmanuel.interviewexchange.com/jobofferdetails.jsp?JOBID=206231",
-    "https://emmanuel.interviewexchange.com/jobofferdetails.jsp?JOBID=206071",
-    "https://emmanuel.interviewexchange.com/jobofferdetails.jsp?JOBID=205957",
-    "https://emmanuel.interviewexchange.com/jobofferdetails.jsp?JOBID=205656",
-    "https://emmanuel.interviewexchange.com/jobofferdetails.jsp?JOBID=204965",
-    "https://emmanuel.interviewexchange.com/jobofferdetails.jsp?JOBID=203359",
-    "https://emmanuel.interviewexchange.com/jobofferdetails.jsp?JOBID=203358"
-  ],
+  "links": [],
   "school_id": 537,
-  "status": "complete",
-  "updated_at": "2026-10-30T18:46:59+00:00",
-  "started_at": "2026-09-08T01:56:52+00:00",
-  "completed_at": "2026-10-30T18:46:59+00:00",
-  "last_error": ""
+  "status": "error",
+  "updated_at": "2026-11-03T21:21:36+00:00",
+  "started_at": "2026-11-03T21:21:35+00:00",
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://emmanuel.interviewexchange.com/static/clients/13EM1/listJobs.jsp;jsessionid=47B469F5FF02B2ECA11624165C411A0F\nCall log:\n  - navigating to \"https://emmanuel.interviewexchange.com/static/clients/13EM1/listJobs.jsp;jsessionid=47B469F5FF02B2ECA11624165C411A0F\", waiting until \"domcontentloaded\"\n"
 }

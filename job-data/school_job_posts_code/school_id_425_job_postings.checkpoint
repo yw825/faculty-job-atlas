@@ -16,9 +16,9 @@
     "https://franklincollege.edu/wp-content/uploads/2026/10/Job-Elmon-and-Lucile-Williams-Endowed-Chair-in-Law-and-Public-Service-TT-Political-Science-2026-word.pdf"
   ],
   "school_id": 425,
-  "status": "complete",
-  "updated_at": "2026-10-30T18:24:10+00:00",
+  "status": "error",
+  "updated_at": "2026-11-03T21:17:18+00:00",
   "started_at": "2026-10-06T17:59:47+00:00",
   "completed_at": "2026-10-30T18:24:10+00:00",
-  "last_error": ""
+  "last_error": "Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://franklincollege.edu/about/key-offices/office-of-human-resources/employment-opportunities/\nCall log:\n  - navigating to \"https://franklincollege.edu/about/key-offices/office-of-human-resources/employment-opportunities/\", waiting until \"domcontentloaded\"\n"
 }

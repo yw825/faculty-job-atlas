@@ -19,9 +19,9 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/1051C39EB9AB7F40500A9D465D1FF64D/jobs/472825"
   ],
   "school_id": 1061,
-  "status": "complete",
-  "updated_at": "2026-10-30T20:30:25+00:00",
+  "status": "error",
+  "updated_at": "2026-11-04T04:43:13+00:00",
   "started_at": "2026-09-08T02:40:30+00:00",
   "completed_at": "2026-10-30T20:30:25+00:00",
-  "last_error": ""
+  "last_error": "Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.paycomonline.net/v4/ats/web.php/portal/1051C39EB9AB7F40500A9D465D1FF64D/career-page\nCall log:\n  - navigating to \"https://www.paycomonline.net/v4/ats/web.php/portal/1051C39EB9AB7F40500A9D465D1FF64D/career-page\", waiting until \"domcontentloaded\"\n"
 }

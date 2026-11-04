@@ -35,9 +35,9 @@
     "https://recruiting.paylocity.com/recruiting/jobs/Details/3327261/Benedictine-College/Graduate-Assistant-for-Softball"
   ],
   "school_id": 458,
-  "status": "complete",
-  "updated_at": "2026-10-30T18:30:31+00:00",
+  "status": "error",
+  "updated_at": "2026-11-03T21:19:01+00:00",
   "started_at": "2026-09-09T05:42:13+00:00",
   "completed_at": "2026-10-30T18:30:31+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.benedictine.edu/jobs\nCall log:\n  - navigating to \"https://www.benedictine.edu/jobs\", waiting until \"domcontentloaded\"\n"
 }

@@ -23,9 +23,9 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/DC20BB66F0C9CF9F562615950604C1D5/jobs/10762"
   ],
   "school_id": 336,
-  "status": "complete",
-  "updated_at": "2026-10-30T18:03:01+00:00",
+  "status": "error",
+  "updated_at": "2026-11-03T20:42:38+00:00",
   "started_at": "2026-09-08T01:34:36+00:00",
   "completed_at": "2026-10-30T18:03:01+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: paycom portal made no job search request"
 }

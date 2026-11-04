@@ -3,9 +3,9 @@
     "https://www.martin.edu/_files/ugd/70e340_5b3bc332d0e14745851a09382f88613e.pdf"
   ],
   "school_id": 435,
-  "status": "complete",
-  "updated_at": "2026-10-30T18:27:26+00:00",
+  "status": "error",
+  "updated_at": "2026-11-03T21:18:20+00:00",
   "started_at": "2026-09-08T01:45:08+00:00",
   "completed_at": "2026-10-30T18:27:26+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.martin.edu/human-resources\nCall log:\n  - navigating to \"https://www.martin.edu/human-resources\", waiting until \"domcontentloaded\"\n"
 }

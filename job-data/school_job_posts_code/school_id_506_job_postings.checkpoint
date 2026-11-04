@@ -155,10 +155,10 @@
     "https://careers.eku.edu/jobs/model-lab-school-outreach-coordinator-middle-grades-secondary-teacher-richmond-campus-kentucky-united-states"
   ],
   "school_id": 506,
-  "status": "complete",
-  "updated_at": "2026-10-30T18:43:37+00:00",
+  "status": "error",
+  "updated_at": "2026-11-03T21:20:47+00:00",
   "started_at": "2026-09-08T01:52:24+00:00",
   "completed_at": "2026-10-30T18:43:37+00:00",
-  "last_error": "",
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://careers.eku.edu/jobs/search?page=1\nCall log:\n  - navigating to \"https://careers.eku.edu/jobs/search?page=1\", waiting until \"domcontentloaded\"\n",
   "last_warning": "2026-10-30T18:43:37+00:00: board returned 60 links vs 151 before; old set kept"
 }

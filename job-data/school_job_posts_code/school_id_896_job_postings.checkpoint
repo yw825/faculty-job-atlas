@@ -37,9 +37,9 @@
     "https://www.schooljobs.com/careers/enmu/jobs/5473831/web-developer"
   ],
   "school_id": 896,
-  "status": "complete",
-  "updated_at": "2026-10-30T19:55:07+00:00",
+  "status": "error",
+  "updated_at": "2026-11-04T00:52:56+00:00",
   "started_at": "2026-09-10T07:09:25+00:00",
   "completed_at": "2026-10-30T19:55:07+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: schooljobs board returned no postings"
 }

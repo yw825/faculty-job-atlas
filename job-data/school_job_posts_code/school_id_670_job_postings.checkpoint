@@ -1,9 +1,9 @@
 {
   "links": [],
   "school_id": 670,
-  "status": "complete",
-  "updated_at": "2026-10-30T19:14:49+00:00",
+  "status": "error",
+  "updated_at": "2026-11-03T22:29:17+00:00",
   "started_at": "2026-10-30T19:13:24+00:00",
   "completed_at": "2026-10-30T19:14:49+00:00",
-  "last_error": ""
+  "last_error": "TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_SCHJOB_FL&Action=U\", waiting until \"domcontentloaded\"\n"
 }

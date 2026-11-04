@@ -1,21 +1,8 @@
 {
-  "links": [
-    "https://newmanuniversity.applytojob.com/apply/jobs/details/FDFkVAihRd",
-    "https://newmanuniversity.applytojob.com/apply/jobs/details/VfdVNvxT4D",
-    "https://newmanuniversity.applytojob.com/apply/jobs/details/q4PBCGndr3",
-    "https://newmanuniversity.applytojob.com/apply/jobs/details/vLvKdv2el0",
-    "https://newmanuniversity.applytojob.com/apply/jobs/details/Nr7VJp1lfj",
-    "https://newmanuniversity.applytojob.com/apply/jobs/details/kVdfUJmobX",
-    "https://newmanuniversity.applytojob.com/apply/jobs/details/0nTkLls2ob",
-    "https://newmanuniversity.applytojob.com/apply/jobs/details/djbKoBeO7h",
-    "https://newmanuniversity.applytojob.com/apply/jobs/details/wWvbpUGeKL",
-    "https://newmanuniversity.applytojob.com/apply/jobs/details/GlwJR7zJUD"
-  ],
+  "links": [],
   "school_id": 480,
-  "status": "complete",
-  "updated_at": "2026-10-29T18:10:54+00:00",
-  "started_at": "2026-09-08T01:49:19+00:00",
-  "completed_at": "2026-10-29T18:10:54+00:00",
-  "last_error": "",
-  "last_warning": "2026-10-29T18:10:54+00:00: board returned 1 links vs 10 before; old set kept"
+  "status": "error",
+  "updated_at": "2026-11-03T21:19:53+00:00",
+  "started_at": "2026-11-03T21:19:53+00:00",
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://newmanuniversity.applytojob.com/apply/jobs/\nCall log:\n  - navigating to \"https://newmanuniversity.applytojob.com/apply/jobs/\", waiting until \"domcontentloaded\"\n"
 }

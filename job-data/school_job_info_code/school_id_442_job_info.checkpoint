@@ -344,8 +344,8 @@
     }
   },
   "school_id": 442,
-  "status": "complete",
-  "updated_at": "2026-10-31T00:06:48+00:00",
+  "status": "error",
+  "updated_at": "2026-11-02T22:53:54+00:00",
   "completed_at": "2026-10-31T00:06:48+00:00",
-  "last_error": ""
+  "last_error": "OSError: [Errno 11] Resource deadlock avoided: '/Users/yusiwei/Library/CloudStorage/OneDrive-Personal/faculty-job-atlas/job-data/school_job_info/school_id_442_job_info.csv'"
 }

@@ -23,9 +23,9 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/3A2948EF284B8722FEE42E01FB156C27/jobs/60005"
   ],
   "school_id": 557,
-  "status": "complete",
-  "updated_at": "2026-10-30T18:57:49+00:00",
+  "status": "error",
+  "updated_at": "2026-11-03T21:40:56+00:00",
   "started_at": "2026-09-08T17:51:52+00:00",
   "completed_at": "2026-10-30T18:57:49+00:00",
-  "last_error": ""
+  "last_error": "Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.paycomonline.net/v4/ats/web.php/portal/3A2948EF284B8722FEE42E01FB156C27/career-page\nCall log:\n  - navigating to \"https://www.paycomonline.net/v4/ats/web.php/portal/3A2948EF284B8722FEE42E01FB156C27/career-page\", waiting until \"domcontentloaded\"\n"
 }

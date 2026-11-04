@@ -37,9 +37,9 @@
     "https://myjobs.adp.com/udmercycareers/cx/job-details?reqId=5001207177306"
   ],
   "school_id": 635,
-  "status": "complete",
-  "updated_at": "2026-10-30T19:04:30+00:00",
+  "status": "error",
+  "updated_at": "2026-11-03T22:13:53+00:00",
   "started_at": "2026-09-08T02:05:00+00:00",
   "completed_at": "2026-10-30T19:04:30+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: ADP MyJobs: the page made no job search request"
 }

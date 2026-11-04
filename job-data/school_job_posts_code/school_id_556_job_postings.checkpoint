@@ -10,9 +10,9 @@
     "https://dean.interviewexchange.com/jobofferdetails.jsp?JOBID=205528"
   ],
   "school_id": 556,
-  "status": "complete",
-  "updated_at": "2026-10-30T18:57:40+00:00",
+  "status": "error",
+  "updated_at": "2026-11-03T21:40:55+00:00",
   "started_at": "2026-09-08T01:58:07+00:00",
   "completed_at": "2026-10-30T18:57:40+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://dean.interviewexchange.com/static/clients/546DCM1/index.jsp;jsessionid=B99AF4CBF8F48028C4C2A57CA7B22854;jsessionid=49F38EB85CB1939CD931C68B308F08D5;jsessionid=574D474F3F83E48CEF82024F83FD533A\nCall log:\n  - navigating to \"https://dean.interviewexchange.com/static/clients/546DCM1/index.jsp;jsessionid=B99AF4CBF8F48028C4C2A57CA7B22854;jsessionid=49F38EB85CB1939CD931C68B308F08D5;jsessionid=574D474F3F83E48CEF82024F83FD533A\", waiting until \"domcontentloaded\"\n"
 }

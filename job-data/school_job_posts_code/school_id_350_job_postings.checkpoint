@@ -17,9 +17,9 @@
     "https://www.wmpenn.edu/student-success-program-graduate-assistant"
   ],
   "school_id": 350,
-  "status": "complete",
-  "updated_at": "2026-10-30T18:08:29+00:00",
+  "status": "error",
+  "updated_at": "2026-11-03T20:52:12+00:00",
   "started_at": "2026-09-08T01:36:05+00:00",
   "completed_at": "2026-10-30T18:08:29+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.wmpenn.edu/get-to-know-wpu/employment/\", waiting until \"domcontentloaded\"\n"
 }

@@ -36,9 +36,9 @@
     "https://employment.ku.edu/jobs/faculty/visiting-assistant-professor/33930br"
   ],
   "school_id": 464,
-  "status": "complete",
-  "updated_at": "2026-10-30T18:31:08+00:00",
+  "status": "error",
+  "updated_at": "2026-11-03T21:19:31+00:00",
   "started_at": "2026-09-08T01:47:57+00:00",
   "completed_at": "2026-10-30T18:31:08+00:00",
-  "last_error": ""
+  "last_error": "Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://employment.ku.edu/jobs/faculty\nCall log:\n  - navigating to \"https://employment.ku.edu/jobs/faculty\", waiting until \"domcontentloaded\"\n"
 }

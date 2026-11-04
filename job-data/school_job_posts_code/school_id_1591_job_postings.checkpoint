@@ -1,9 +1,4 @@
 {
-  "visited_targets": [
-    "https://www.sfu.ca/vpacademic/academic-careers/current-openings.html",
-    "https://www.sfu.ca/vpacademic/academic-careers/faculty-positions.html"
-  ],
-  "started_at": "2026-09-02T22:00:55+00:00",
   "links": [
     "https://www.sfu.ca/vpacademic/academic-careers/current-canada-research-chair-opportunities/canada-impact--research-chairs.html",
     "https://www.sfu.ca/vpacademic/academic-careers/faculty-positions/applied-sciences.html#computing-science-lecturer",
@@ -56,10 +51,9 @@
     "https://www.sfu.ca/vpacademic/academic-careers/current-canada-research-chair-opportunities/canada-research-chair---indigenous-health-and-well-being.html"
   ],
   "school_id": 1591,
-  "careers_link": "https://www.sfu.ca/vpacademic/academic-careers/current-openings.html",
   "status": "complete",
-  "updated_at": "2026-10-30T22:39:44+00:00",
-  "platform": "generic",
-  "completed_at": "2026-10-30T22:39:44+00:00",
+  "updated_at": "2026-11-02T19:14:30+00:00",
+  "started_at": "2026-11-02T19:13:33+00:00",
+  "completed_at": "2026-11-02T19:14:30+00:00",
   "last_error": ""
 }

@@ -42,9 +42,9 @@
     "https://www.schooljobs.com/careers/ssuoh/jobs/5498260/senior-academic-and-career-advisor"
   ],
   "school_id": 1066,
-  "status": "complete",
-  "updated_at": "2026-10-30T20:32:11+00:00",
+  "status": "error",
+  "updated_at": "2026-11-04T04:43:27+00:00",
   "started_at": "2026-09-10T07:15:40+00:00",
   "completed_at": "2026-10-30T20:32:11+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: schooljobs board returned no postings"
 }

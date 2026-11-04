@@ -290,12 +290,18 @@
     "https://careers.msu.edu/jobs/ast-asc-full-professor-tenure-system-east-lansing-michigan-united-states-e144babd-a429-4a65-8dc9-e9e457645c85",
     "https://careers.msu.edu/jobs/co-director-management-east-lansing-michigan-united-states",
     "https://careers.msu.edu/jobs/research-associate-fixed-term-east-lansing-michigan-united-states-6d86febb-aaa0-4501-a911-349f8da03834",
-    "https://careers.msu.edu/jobs/research-associate-fixed-term-east-lansing-michigan-united-states-c26eae52-0774-4b83-8509-ffaf91cdaf7c"
+    "https://careers.msu.edu/jobs/research-associate-fixed-term-east-lansing-michigan-united-states-c26eae52-0774-4b83-8509-ffaf91cdaf7c",
+    "https://careers.msu.edu/jobs/inst-ast-professor-fixed-term-east-lansing-michigan-united-states-59117f3e-2e41-4323-aaa8-1bf1535059e3",
+    "https://careers.msu.edu/jobs/inst-ast-prof-fixed-term-east-lansing-michigan-united-states-2a8472e8-a8af-4a85-9157-ae6434001335",
+    "https://careers.msu.edu/jobs/ast-inst-inst-ast-prof-fixed-term-east-lansing-michigan-united-states-2c6c825e-58d1-4094-b66b-d5c42ed6bb4f",
+    "https://careers.msu.edu/jobs/extension-educator-fixed-antrim-michigan-united-states-benzie-grand-traverse-kalkaska-leelanau-manistee",
+    "https://careers.msu.edu/jobs/postdoctoral-scholar-fixed-term-east-lansing-michigan-united-states-11a4deb4-cbc5-4e29-ab13-1aacf2add005"
   ],
   "school_id": 637,
   "status": "complete",
-  "updated_at": "2026-10-30T19:05:40+00:00",
+  "updated_at": "2026-11-03T22:15:19+00:00",
   "started_at": "2026-09-08T02:05:10+00:00",
-  "completed_at": "2026-10-30T19:05:40+00:00",
-  "last_error": ""
+  "completed_at": "2026-11-03T22:15:19+00:00",
+  "last_error": "",
+  "last_warning": "2026-11-03T22:15:19+00:00: board returned 30 links vs 291 before; old set kept"
 }

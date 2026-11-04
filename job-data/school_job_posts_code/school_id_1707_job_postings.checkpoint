@@ -1,17 +1,9 @@
 {
-  "links": [
-    "https://bandi.mur.gov.it/jobs.php/public/job/id_job/152163",
-    "https://bandi.mur.gov.it/jobs.php/public/job/id_job/152164",
-    "https://bandi.mur.gov.it/jobs.php/public/job/id_job/152167",
-    "https://bandi.mur.gov.it/jobs.php/public/job/id_job/152169",
-    "https://bandi.mur.gov.it/jobs.php/public/job/id_job/152565",
-    "https://bandi.mur.gov.it/jobs.php/public/job/id_job/152567",
-    "https://bandi.mur.gov.it/jobs.php/public/job/id_job/152568"
-  ],
+  "links": [],
   "school_id": 1707,
-  "status": "error",
-  "updated_at": "2026-10-30T23:12:57+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-02T19:42:38+00:00",
   "started_at": "2026-09-03T20:20:17+00:00",
-  "completed_at": "2026-10-16T18:54:05+00:00",
-  "last_error": "RuntimeError: mur profcalls search status=503"
+  "completed_at": "2026-11-02T19:42:38+00:00",
+  "last_error": ""
 }

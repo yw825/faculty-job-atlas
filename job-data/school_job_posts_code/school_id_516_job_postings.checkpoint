@@ -1,29 +1,8 @@
 {
-  "links": [
-    "https://www.governmentjobs.com/careers/ulm/jobs/3665780/adjunct-faculty",
-    "https://www.governmentjobs.com/careers/ulm/jobs/5517415/admissions-counselor",
-    "https://www.governmentjobs.com/careers/ulm/jobs/5488983/assistant-or-associate-professor-of-computer-information-systems-program-coordin",
-    "https://www.governmentjobs.com/careers/ulm/jobs/4884122/assistant-professor-of-biology",
-    "https://www.governmentjobs.com/careers/ulm/jobs/5325877/assistant-professor-of-biology",
-    "https://www.governmentjobs.com/careers/ulm/jobs/5491701/assistant-associate-professor-of-psychology",
-    "https://www.governmentjobs.com/careers/ulm/jobs/5206656/assistant-associate-professor-physical-therapy",
-    "https://www.governmentjobs.com/careers/ulm/jobs/5524225/chief-student-affairs-officer",
-    "https://www.governmentjobs.com/careers/ulm/jobs/5517071/clinical-assistant-professor-assistant-professor-of-pharmacy",
-    "https://www.governmentjobs.com/careers/ulm/jobs/5491691/director-of-admissions-operations",
-    "https://www.governmentjobs.com/careers/ulm/jobs/5504698/grants-manager",
-    "https://www.governmentjobs.com/careers/ulm/jobs/5502461/instructor-of-accounting",
-    "https://www.governmentjobs.com/careers/ulm/jobs/5502481/instructor-assistant-or-associate-professor-of-disaster-management-program-coord",
-    "https://www.governmentjobs.com/careers/ulm/jobs/5254160/instructor-assistant-associate-professor-nursing",
-    "https://www.governmentjobs.com/careers/ulm/jobs/5382263/network-telecommunications-specialist-2",
-    "https://www.governmentjobs.com/careers/ulm/jobs/5517103/pharmacist-quality-unit-support",
-    "https://www.governmentjobs.com/careers/ulm/jobs/5529297/provost-and-vice-president-for-academic-affairs",
-    "https://www.governmentjobs.com/careers/ulm/jobs/5475436/visiting-instructor-of-music",
-    "https://www.governmentjobs.com/careers/ulm/jobs/5517428/wet-chemistry-analyst-and-instrumentation-specialist"
-  ],
+  "links": [],
   "school_id": 516,
-  "status": "complete",
-  "updated_at": "2026-10-30T18:44:14+00:00",
-  "started_at": "2026-09-08T01:54:00+00:00",
-  "completed_at": "2026-10-30T18:44:14+00:00",
-  "last_error": ""
+  "status": "error",
+  "updated_at": "2026-11-03T21:20:59+00:00",
+  "started_at": "2026-11-03T21:20:59+00:00",
+  "last_error": "RuntimeError: neogov list status=None"
 }

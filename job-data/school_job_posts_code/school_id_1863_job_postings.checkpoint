@@ -1,5 +1,8 @@
 {
   "links": [
+    "https://sggovterp.wd102.myworkdayjobs.com/PublicServiceCareers/job/Nanyang-Polytechnic/Lecturer-Senior-Lecturer--Intelligent-Robotics---Sch-of-Engineering_JR-10000050254-1",
+    "https://sggovterp.wd102.myworkdayjobs.com/PublicServiceCareers/job/NYP/Senior-Executive--Social-Work-_JR-10000053360",
+    "https://sggovterp.wd102.myworkdayjobs.com/PublicServiceCareers/job/Nanyang-Polytechnic/Asst---Deputy-Director--Marketing---Communications---Comm---Outreach-Dept_JR-10000057045",
     "https://sggovterp.wd102.myworkdayjobs.com/PublicServiceCareers/job/Nanyang-Polytechnic/Lecturer-Senior-Lecturer--Cyber-Security----School-of-Information-Technology_JR-10000033005",
     "https://sggovterp.wd102.myworkdayjobs.com/PublicServiceCareers/job/Nanyang-Polytechnic/Lecturer---Senior-Lecturer--Teaching-Learning----School-of-IT_JR-10000039062",
     "https://sggovterp.wd102.myworkdayjobs.com/PublicServiceCareers/job/Nanyang-Polytechnic/Lecturer-Senior-Lecturer--Fintech----School-of-IT_JR-10000049851",
@@ -33,19 +36,15 @@
     "https://sggovterp.wd102.myworkdayjobs.com/PublicServiceCareers/job/Nanyang-Polytechnic/Lecturer-Snr-Lecturer--Game-Design---Production----Sch-of-Design---Media_JR-10000056235",
     "https://sggovterp.wd102.myworkdayjobs.com/PublicServiceCareers/job/Nanyang-Polytechnic/Lecturer-Snr-Lecturer--Game-Technology----Sch-of-Design---Media_JR-10000056233",
     "https://sggovterp.wd102.myworkdayjobs.com/PublicServiceCareers/job/Nanyang-Polytechnic/Adjunct-Lecturer--HR-Tech--Digitalisation---Analytics----Sch-of-Business-Mgt_JR-10000056350",
-    "https://sggovterp.wd102.myworkdayjobs.com/PublicServiceCareers/job/Nanyang-Polytechnic/Lecturer--Business-Digitalisation----School-of-Business-Management_JR-10000053797",
-    "https://sggovterp.wd102.myworkdayjobs.com/PublicServiceCareers/job/Nanyang-Polytechnic/Lecturer-Snr-Lecturer--Aerospace-Engineering----Sch-of-Engineering_JR-10000051411",
-    "https://sggovterp.wd102.myworkdayjobs.com/PublicServiceCareers/job/Nanyang-Polytechnic/Lecturer-Snr-Lecturer--Biologics---Process-Technology--Sch-of-Applied-Science_JR-10000054002",
-    "https://sggovterp.wd102.myworkdayjobs.com/PublicServiceCareers/job/Nanyang-Polytechnic/Senior-Lead-Executive---Centre-for-Service-Excellence_JR-10000048906",
     "https://sggovterp.wd102.myworkdayjobs.com/PublicServiceCareers/job/Nanyang-Polytechnic/Adjunct-Lecturer---Parademic_JR-10000050883",
     "https://sggovterp.wd102.myworkdayjobs.com/PublicServiceCareers/job/Nanyang-Polytechnic/Lecturer---Senior-Lecturer--Medical-Sciences----School-of-Health---Social-Sciences_JR-10000035150",
     "https://sggovterp.wd102.myworkdayjobs.com/PublicServiceCareers/job/Nanyang-Polytechnic/Lecturer-Senior-Lecturer--Nursing----School-of-Health---Social-Sciences_JR-10000034905",
     "https://sggovterp.wd102.myworkdayjobs.com/PublicServiceCareers/job/Nanyang-Polytechnic/Short-Term-Clinical-Instructor---School-of-Health---Social-Sciences_JR-10000005027-1"
   ],
   "school_id": 1863,
-  "status": "error",
-  "updated_at": "2026-10-30T23:27:46+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-02T19:56:40+00:00",
   "started_at": "2026-09-02T22:42:17+00:00",
-  "completed_at": "2026-10-29T22:27:20+00:00",
-  "last_error": "RuntimeError: workday: facet in URL not resolvable from URL or school name"
+  "completed_at": "2026-11-02T19:56:40+00:00",
+  "last_error": ""
 }

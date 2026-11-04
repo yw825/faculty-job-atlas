@@ -17,9 +17,9 @@
     "https://www.lindsey.edu/about-lwc/Offices-and-Services/Human-Resources/job-opportunities.cfm#part-time-dining-center-seasonal-worker"
   ],
   "school_id": 487,
-  "status": "complete",
-  "updated_at": "2026-10-30T18:35:20+00:00",
+  "status": "error",
+  "updated_at": "2026-11-03T21:20:06+00:00",
   "started_at": "2026-09-09T05:16:09+00:00",
   "completed_at": "2026-10-30T18:35:20+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.lindsey.edu/about-lwc/Offices-and-Services/Human-Resources/job-opportunities.cfm\nCall log:\n  - navigating to \"https://www.lindsey.edu/about-lwc/Offices-and-Services/Human-Resources/job-opportunities.cfm\", waiting until \"domcontentloaded\"\n"
 }

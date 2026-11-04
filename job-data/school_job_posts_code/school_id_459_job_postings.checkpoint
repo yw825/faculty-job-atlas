@@ -1,11 +1,8 @@
 {
-  "links": [
-    "https://www.bakeru.edu/about-baker/careers-baker#office-of-enrollment-and-marketing-posted-september-30-2026"
-  ],
+  "links": [],
   "school_id": 459,
-  "status": "complete",
-  "updated_at": "2026-10-30T18:30:39+00:00",
-  "started_at": "2026-09-08T01:47:42+00:00",
-  "completed_at": "2026-10-30T18:30:39+00:00",
-  "last_error": ""
+  "status": "error",
+  "updated_at": "2026-11-03T21:19:11+00:00",
+  "started_at": "2026-11-03T21:19:05+00:00",
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.bakeru.edu/about-baker/careers-baker\nCall log:\n  - navigating to \"https://www.bakeru.edu/about-baker/careers-baker\", waiting until \"domcontentloaded\"\n"
 }

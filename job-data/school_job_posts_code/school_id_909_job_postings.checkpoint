@@ -10,7 +10,9 @@
     "https://daemen.applicantpro.com/jobs/3951822",
     "https://daemen.applicantpro.com/jobs/4177645",
     "https://daemen.applicantpro.com/jobs/3795269",
+    "https://daemen.applicantpro.com/jobs/4263520",
     "https://daemen.applicantpro.com/jobs/3909105",
+    "https://daemen.applicantpro.com/jobs/4263532",
     "https://daemen.applicantpro.com/jobs/3828074",
     "https://daemen.applicantpro.com/jobs/4116516",
     "https://daemen.applicantpro.com/jobs/3363127",
@@ -20,6 +22,7 @@
     "https://daemen.applicantpro.com/jobs/3428627",
     "https://daemen.applicantpro.com/jobs/3736752",
     "https://daemen.applicantpro.com/jobs/1449027",
+    "https://daemen.applicantpro.com/jobs/4054443",
     "https://daemen.applicantpro.com/jobs/4034482",
     "https://daemen.applicantpro.com/jobs/4229180",
     "https://daemen.applicantpro.com/jobs/4140805",
@@ -37,9 +40,8 @@
   ],
   "school_id": 909,
   "status": "complete",
-  "updated_at": "2026-10-30T19:56:26+00:00",
+  "updated_at": "2026-11-04T00:57:03+00:00",
   "started_at": "2026-09-08T02:27:26+00:00",
-  "completed_at": "2026-10-30T19:56:26+00:00",
-  "last_error": "",
-  "last_warning": "2026-10-30T19:56:26+00:00: board returned 0 links vs 34 before; old set kept"
+  "completed_at": "2026-11-04T00:57:03+00:00",
+  "last_error": ""
 }

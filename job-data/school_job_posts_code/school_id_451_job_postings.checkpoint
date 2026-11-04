@@ -1,16 +1,8 @@
 {
-  "links": [
-    "https://jobs.indstate.edu/postings/57953",
-    "https://jobs.indstate.edu/postings/57854",
-    "https://jobs.indstate.edu/postings/57781",
-    "https://jobs.indstate.edu/postings/56858",
-    "https://jobs.indstate.edu/postings/56526",
-    "https://jobs.indstate.edu/postings/55098"
-  ],
+  "links": [],
   "school_id": 451,
-  "status": "complete",
-  "updated_at": "2026-10-30T18:30:15+00:00",
-  "started_at": "2026-09-08T07:33:31+00:00",
-  "completed_at": "2026-10-30T18:30:15+00:00",
-  "last_error": ""
+  "status": "error",
+  "updated_at": "2026-11-03T21:18:43+00:00",
+  "started_at": "2026-11-03T21:18:43+00:00",
+  "last_error": "RuntimeError: list status=None"
 }

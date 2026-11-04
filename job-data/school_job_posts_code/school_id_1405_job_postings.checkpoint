@@ -1,5 +1,9 @@
 {
   "links": [
+    "https://schreiner.edu/job/student-accounts-counselor/",
+    "https://schreiner.edu/job/associate-director-of-admission/",
+    "https://schreiner.edu/job/security-sergeant-supervisor/",
+    "https://schreiner.edu/job/instructor-of-graphic-design-internship/",
     "https://schreiner.edu/job/schreiner-head-rifle-coach/",
     "https://schreiner.edu/job/director-of-financial-aid-and-student-accounts/",
     "https://schreiner.edu/job/adjunct-in-professions-in-education/",
@@ -9,7 +13,6 @@
     "https://schreiner.edu/job/nursing-instructor-vocational-nursing/",
     "https://schreiner.edu/job/administrative-specialist-for-the-center-for-talent-and-workforce-development/",
     "https://schreiner.edu/job/admissions-counselor/",
-    "https://schreiner.edu/job/assistant-director-of-the-center-for-talent-and-workforce-development/",
     "https://schreiner.edu/job/resident-director/",
     "https://schreiner.edu/job/nursing-academic-success-coordinator/",
     "https://schreiner.edu/job/vocational-nursing-program-coordinator-and-clinical-coordinator/",
@@ -32,7 +35,6 @@
     "https://schreiner.edu/job/admissions-graduate-assistant/",
     "https://schreiner.edu/job/director-of-residence-life/",
     "https://schreiner.edu/job/adjunct-instructor-of-history/",
-    "https://schreiner.edu/job/coordinator-for-schreiner-institute-rotc/",
     "https://schreiner.edu/job/admission-recruiting-assistant-student-worker/",
     "https://schreiner.edu/job/development-and-stewardship-officer/",
     "https://schreiner.edu/job/groundskeeper-i/",
@@ -51,7 +53,6 @@
     "https://schreiner.edu/job/athletic-work-study-level-1-tennis/",
     "https://schreiner.edu/job/athletic-work-study-sports-information/",
     "https://schreiner.edu/job/division-of-nursing-work-study/",
-    "https://schreiner.edu/job/security-sergeant-supervisor/",
     "https://schreiner.edu/job/chemistry-lab/",
     "https://schreiner.edu/job/campus-rec-staff-level-1/",
     "https://schreiner.edu/job/adjunct-chemistry-instructor/",
@@ -81,9 +82,9 @@
     "https://schreiner.edu/job/student-telemarketer/"
   ],
   "school_id": 1405,
-  "status": "error",
-  "updated_at": "2026-10-30T21:16:35+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-04T18:56:10+00:00",
   "started_at": "2026-09-09T06:13:54+00:00",
-  "completed_at": "2026-10-29T20:42:12+00:00",
-  "last_error": "RuntimeError: jm-ajax status=429"
+  "completed_at": "2026-11-04T18:56:10+00:00",
+  "last_error": ""
 }

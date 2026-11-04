@@ -1,22 +1,8 @@
 {
-  "links": [
-    "https://jcu.peopleadmin.com/postings/4260",
-    "https://jcu.peopleadmin.com/postings/4259",
-    "https://jcu.peopleadmin.com/postings/4258",
-    "https://jcu.peopleadmin.com/postings/4257",
-    "https://jcu.peopleadmin.com/postings/4245",
-    "https://jcu.peopleadmin.com/postings/4233",
-    "https://jcu.peopleadmin.com/postings/4216",
-    "https://jcu.peopleadmin.com/postings/4211",
-    "https://jcu.peopleadmin.com/postings/4196",
-    "https://jcu.peopleadmin.com/postings/4195",
-    "https://jcu.peopleadmin.com/postings/4062",
-    "https://jcu.peopleadmin.com/postings/4058"
-  ],
+  "links": [],
   "school_id": 1073,
-  "status": "complete",
-  "updated_at": "2026-10-30T20:32:58+00:00",
-  "started_at": "2026-09-08T02:41:27+00:00",
-  "completed_at": "2026-10-30T20:32:58+00:00",
-  "last_error": ""
+  "status": "error",
+  "updated_at": "2026-11-04T04:43:45+00:00",
+  "started_at": "2026-11-04T04:43:45+00:00",
+  "last_error": "RuntimeError: list status=None"
 }

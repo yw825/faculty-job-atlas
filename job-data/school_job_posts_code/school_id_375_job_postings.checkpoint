@@ -12,9 +12,9 @@
     "https://www.iit.edu/hr/careers?jobId=443435d3-9dc7-b47a-cd82-e11bbfa0e7ae"
   ],
   "school_id": 375,
-  "status": "complete",
-  "updated_at": "2026-10-30T18:14:47+00:00",
+  "status": "error",
+  "updated_at": "2026-11-03T21:14:42+00:00",
   "started_at": "2026-09-08T01:38:39+00:00",
   "completed_at": "2026-10-30T18:14:47+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.iit.edu/hr/careers\nCall log:\n  - navigating to \"https://www.iit.edu/hr/careers\", waiting until \"domcontentloaded\"\n"
 }

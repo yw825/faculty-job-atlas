@@ -67,9 +67,9 @@
     "https://jobsearch.illinoisstate.edu/jobs/instructional-assistant-professor-or-lecturer-economics-creating-a-pool-normal-illinois-illinois-united-states"
   ],
   "school_id": 403,
-  "status": "complete",
-  "updated_at": "2026-10-30T18:21:15+00:00",
+  "status": "error",
+  "updated_at": "2026-11-03T21:16:27+00:00",
   "started_at": "2026-10-06T17:57:14+00:00",
   "completed_at": "2026-10-30T18:21:15+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://jobsearch.illinoisstate.edu/jobs/search?category_uids%5B%5D=04e451b99f7be4e2ae6aaaa4b2934fb9&query=&page=1\nCall log:\n  - navigating to \"https://jobsearch.illinoisstate.edu/jobs/search?category_uids%5B%5D=04e451b99f7be4e2ae6aaaa4b2934fb9&query=&page=1\", waiting until \"domcontentloaded\"\n"
 }

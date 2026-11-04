@@ -1,9 +1,12 @@
 {
-  "links": [],
+  "links": [
+    "https://my.corehr.com/pls/esbshetusrecruit/erq_jobspec_version_4.jobspec?p_id=017493",
+    "https://my.corehr.com/pls/esbshetusrecruit/erq_jobspec_version_4.jobspec?p_id=017492"
+  ],
   "school_id": 1913,
   "status": "complete",
-  "updated_at": "2026-10-30T23:12:31+00:00",
+  "updated_at": "2026-11-02T19:42:05+00:00",
   "started_at": "2026-10-30T23:12:31+00:00",
-  "completed_at": "2026-10-30T23:12:31+00:00",
+  "completed_at": "2026-11-02T19:42:05+00:00",
   "last_error": ""
 }
