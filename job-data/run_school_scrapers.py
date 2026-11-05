@@ -35,6 +35,9 @@ import csv
 import re
 import importlib.util
 import os
+import sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import onedrive_io  # noqa: F401  (retry OneDrive's sync locks)
 import signal
 import sys
 import time

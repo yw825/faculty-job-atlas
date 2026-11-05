@@ -44,7 +44,6 @@ if [ -e "$LOCK" ] && kill -0 "$(cat "$LOCK" 2>/dev/null)" 2>/dev/null; then
   exit 0
 fi
 echo $$ > "$LOCK"
-trap 'rm -f "$LOCK"' EXIT
 
 # launchd jobs hold no power assertion, and this Mac idle-sleeps after a
 # minute, so a multi-hour pass would be suspended almost as soon as the
@@ -58,8 +57,16 @@ caffeinate -i -s -w $$ &
 LOGDIR="$ROOT/job-data/refresh_logs"
 mkdir -p "$LOGDIR"
 STAMP="$(date +%Y-%m-%d)"
-LOG="$LOGDIR/refresh_$STAMP.log"
+# The live log is written OUTSIDE OneDrive. On 2026-11-02 OneDrive locked the
+# log in refresh_logs mid-run and every later line was lost, so nobody could
+# see the run stop. The finished log is copied into refresh_logs on exit,
+# however the run ends.
+LIVE_LOGDIR="$HOME/Library/Logs/faculty-job-atlas"
+mkdir -p "$LIVE_LOGDIR"
+LOG="$LIVE_LOGDIR/refresh_$STAMP.log"
+trap 'for i in 1 2 3 4 5; do cp -f "$LOG" "$LOGDIR/" 2>/dev/null && break; sleep 5; done; rm -f "$LOCK"' EXIT
 exec >>"$LOG" 2>&1
+echo "(live log: $LOG)"
 
 echo "=============================================================="
 echo "refresh started $(date)"
@@ -131,4 +138,5 @@ echo
 echo "refresh finished $(date)"
 # Keep the last 12 weeks of logs.
 ls -1t "$LOGDIR"/refresh_*.log 2>/dev/null | tail -n +13 | xargs -r rm -f
+ls -1t "$LIVE_LOGDIR"/refresh_*.log 2>/dev/null | tail -n +13 | xargs -r rm -f
 ls -1t "$LOGDIR"/cleaning_report_*.csv 2>/dev/null | tail -n +13 | xargs -r rm -f

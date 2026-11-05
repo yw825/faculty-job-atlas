@@ -44,6 +44,7 @@ import asyncio
 import csv
 import json
 import os
+import onedrive_io  # noqa: F401  (retry OneDrive's sync locks)
 import re
 import signal
 import subprocess
@@ -386,11 +387,14 @@ COMMON_JOB_TEXT_HINTS = re.compile(
 def load_checkpoint(path):
     if not os.path.exists(path):
         return {}
+    # Only a corrupt or vanished file counts as empty. Any other read error
+    # is raised: returning {} made a school start from scratch and disarmed
+    # the shrink guard, which compares against the old link set.
     try:
         with open(path, 'r', encoding='utf-8') as f:
             data = json.load(f)
             return data if isinstance(data, dict) else {}
-    except (json.JSONDecodeError, OSError):
+    except (json.JSONDecodeError, FileNotFoundError):
         return {}
 
 

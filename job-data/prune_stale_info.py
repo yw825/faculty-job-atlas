@@ -32,6 +32,9 @@ import argparse
 import csv
 import glob
 import os
+import sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import onedrive_io  # noqa: F401  (retry OneDrive's sync locks)
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 POSTS = os.path.join(HERE, 'school_job_posts')
