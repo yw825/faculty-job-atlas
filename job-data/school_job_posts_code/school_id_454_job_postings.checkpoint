@@ -1,8 +1,17 @@
 {
-  "links": [],
+  "links": [
+    "https://apply.interfolio.com/192561",
+    "https://apply.interfolio.com/195168",
+    "https://apply.interfolio.com/195666",
+    "https://apply.interfolio.com/193924",
+    "https://apply.interfolio.com/193719",
+    "https://apply.interfolio.com/183017",
+    "https://apply.interfolio.com/193878"
+  ],
   "school_id": 454,
-  "status": "error",
-  "updated_at": "2026-11-03T21:18:49+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-05T18:41:37+00:00",
   "started_at": "2026-11-03T21:18:49+00:00",
-  "last_error": "RuntimeError: Interfolio board 16338 returned no positions"
+  "last_error": "",
+  "completed_at": "2026-11-05T18:41:37+00:00"
 }

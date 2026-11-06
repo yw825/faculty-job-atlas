@@ -1,8 +1,538 @@
 {
-  "raw": {},
-  "rows": {},
+  "raw": {
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305366&PostingSeq=1&SiteId=69000": {
+      "title": "Assistant Director for Student Engagement",
+      "description": "Posted: 10/27/2026 Location: Dalton State College Department: Dean of Students Assistant Director for Student Engagement",
+      "department": "Dean of Students"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305244&PostingSeq=1&SiteId=69000": {
+      "title": "Financial Aid Counselor",
+      "description": "Posted: 10/23/2026 Location: Dalton State College Department: Financial Aid Financial Aid Counselor",
+      "department": "Financial Aid"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305252&PostingSeq=1&SiteId=69000": {
+      "title": "Part time - Peer Education Specialist",
+      "description": "Posted: 10/23/2026 Location: Dalton State College Department: Advising Center Part time - Peer Education Specialist",
+      "department": "Advising Center"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304870&PostingSeq=1&SiteId=69000": {
+      "title": "Admissions Recruiter",
+      "description": "Posted: 10/14/2026 Location: Dalton State College Department: Admissions Admissions Recruiter",
+      "department": "Admissions"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304709&PostingSeq=1&SiteId=69000": {
+      "title": "Nursing Laboratory Coordinator",
+      "description": "Posted: 10/13/2026 Location: Dalton State College Department: School of Nursing Nursing Laboratory Coordinator",
+      "department": "School of Nursing"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304688&PostingSeq=1&SiteId=69000": {
+      "title": "Executive Assistant to the Vice President for Institutional Advancement",
+      "description": "Posted: 10/07/2026 Location: Dalton State College Department: Foundation Office Executive Assistant to the Vice President for Institutional Advancement",
+      "department": "Foundation Office"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304499&PostingSeq=1&SiteId=69000": {
+      "title": "Accountant I",
+      "description": "Posted: 10/02/2026 Location: Dalton State College Department: Business/Bursar's Office Accountant I",
+      "department": "Business/Bursar's Office"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304426&PostingSeq=1&SiteId=69000": {
+      "title": "Assistant Director of Admissions for Communications and Operations",
+      "description": "Posted: 09/30/2026 Location: Dalton State College Department: Admissions Assistant Director of Admissions for Communications and Operations",
+      "department": "Admissions"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303979&PostingSeq=1&SiteId=69000": {
+      "title": "Assistant Professor of Biology (Tenure Track)",
+      "description": "Posted: 09/22/2026 Location: Dalton State College Department: Dept of Natural Sciences Assistant Professor of Biology (Tenure Track)",
+      "department": "Dept of Natural Sciences"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302954&PostingSeq=1&SiteId=69000": {
+      "title": "Lecturer/Assistant Professor of English",
+      "description": "Posted: 09/16/2026 Location: Dalton State College Department: Department of English Lecturer/Assistant Professor of English",
+      "department": "Department of English"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303592&PostingSeq=1&SiteId=69000": {
+      "title": "Skilled Maintenance Worker",
+      "description": "Posted: 09/16/2026 Location: Dalton State College Department: Building Maintenance Skilled Maintenance Worker",
+      "department": "Building Maintenance"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303641&PostingSeq=1&SiteId=69000": {
+      "title": "Nursing Educator/Full-Time Faculty Position (Tenure Track)",
+      "description": "Posted: 09/14/2026 Location: Dalton State College Department: School of Nursing Nursing Educator/Full-Time Faculty Position (Tenure Track)",
+      "department": "School of Nursing"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303498&PostingSeq=1&SiteId=69000": {
+      "title": "Human Resources Coordinator",
+      "description": "Posted: 09/09/2026 Location: Dalton State College Department: Human Resources Human Resources Coordinator",
+      "department": "Human Resources"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303103&PostingSeq=1&SiteId=69000": {
+      "title": "Transfer Credit and Veterans Affairs Coordinator",
+      "description": "Posted: 09/08/2026 Location: Dalton State College Department: Office of the Registrar Transfer Credit and Veterans Affairs Coordinator",
+      "department": "Office of the Registrar"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303267&PostingSeq=1&SiteId=69000": {
+      "title": "Police Officer",
+      "description": "Posted: 09/02/2026 Location: Dalton State College Department: Public Safety Police Officer",
+      "department": "Public Safety"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=301184&PostingSeq=1&SiteId=69000": {
+      "title": "Assistant/Associate Professor of Mathematics Education (Tenure Track)",
+      "description": "Posted: 07/20/2026 Location: Dalton State College Department: School of Education Assistant/Associate Professor of Mathematics Education (Tenure Track)",
+      "department": "School of Education"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=300872&PostingSeq=1&SiteId=69000": {
+      "title": "Part Time Instructor of Mathematics Education",
+      "description": "Posted: 07/13/2026 Location: Dalton State College Department: School of Education Part Time Instructor of Mathematics Education",
+      "department": "School of Education"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=300005&PostingSeq=1&SiteId=69000": {
+      "title": "Mental Health Therapist",
+      "description": "Posted: 06/18/2026 Location: Dalton State College Department: Counseling Mental Health Therapist",
+      "department": "Counseling"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=299696&PostingSeq=1&SiteId=69000": {
+      "title": "Part-Time Instructor Business Administration",
+      "description": "Posted: 06/18/2026 Location: Dalton State College Department: School of Business Admin Part-Time Instructor Business Administration",
+      "department": "School of Business Admin"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=289558&PostingSeq=1&SiteId=69000": {
+      "title": "Communications and Security Officer",
+      "description": "Posted: 08/21/2025 Location: Dalton State College Department: Public Safety Communications and Security Officer",
+      "department": "Public Safety"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=287161&PostingSeq=1&SiteId=69000": {
+      "title": "Part-Time Instructor of Social Work",
+      "description": "Posted: 06/26/2025 Location: Dalton State College Department: School of Social Work Part-Time Instructor of Social Work",
+      "department": "School of Social Work"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=274753&PostingSeq=1&SiteId=69000": {
+      "title": "Part-Time Instructor of Life Science",
+      "description": "Posted: 07/11/2024 Location: Dalton State College Department: Dept of Natural Sciences Part-Time Instructor of Life Science",
+      "department": "Dept of Natural Sciences"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=271283&PostingSeq=1&SiteId=69000": {
+      "title": "Part-Time Instructor of English",
+      "description": "Posted: 04/18/2024 Location: Dalton State College Department: Department of English Part-Time Instructor of English",
+      "department": "Department of English"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=264532&PostingSeq=1&SiteId=69000": {
+      "title": "Part-time Instructors in Physical Sciences",
+      "description": "Posted: 10/09/2023 Location: Dalton State College Department: Dept of Natural Sciences Part-time Instructors in Physical Sciences",
+      "department": "Dept of Natural Sciences"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=264335&PostingSeq=1&SiteId=69000": {
+      "title": "Part-Time Instructor of History, Political Science or Philosophy",
+      "description": "Posted: 10/03/2023 Location: Dalton State College Department: Department of Social Sciences Part-Time Instructor of History, Political Science or Philosophy",
+      "department": "Department of Social Sciences"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=263799&PostingSeq=1&SiteId=69000": {
+      "title": "Part Time Instructor of Phlebotomy Mountain Campus",
+      "description": "Posted: 09/21/2023 Location: Dalton State College Department: Allied Health Part Time Instructor of Phlebotomy Mountain Campus",
+      "department": "Allied Health"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=256644&PostingSeq=1&SiteId=69000": {
+      "title": "Part-Time Instructor in Psychology",
+      "description": "Posted: 03/28/2023 Location: Dalton State College Department: Department of Social Sciences Part-Time Instructor in Psychology",
+      "department": "Department of Social Sciences"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=256462&PostingSeq=1&SiteId=69000": {
+      "title": "Part-Time Instructor in Information Technology",
+      "description": "Posted: 03/23/2023 Location: Dalton State College Department: Mathematics & Technology Part-Time Instructor in Information Technology",
+      "department": "Mathematics & Technology"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=255736&PostingSeq=1&SiteId=69000": {
+      "title": "Part-Time Instructor of Communications",
+      "description": "Posted: 03/07/2023 Location: Dalton State College Department: Department of Communication Part-Time Instructor of Communications",
+      "department": "Department of Communication"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=255739&PostingSeq=1&SiteId=69000": {
+      "title": "Part-Time Instructor of Criminal Justice",
+      "description": "Posted: 03/07/2023 Location: Dalton State College Department: Department of Social Sciences Part-Time Instructor of Criminal Justice",
+      "department": "Department of Social Sciences"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=255742&PostingSeq=1&SiteId=69000": {
+      "title": "Part-Time Instructor of Mathematics",
+      "description": "Posted: 03/07/2023 Location: Dalton State College Department: Mathematics & Technology Part-Time Instructor of Mathematics",
+      "department": "Mathematics & Technology"
+    }
+  },
+  "rows": {
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305366&PostingSeq=1&SiteId=69000": {
+      "school_id": 290,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305366&PostingSeq=1&SiteId=69000",
+      "job_title_in_post": "Assistant Director for Student Engagement",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Dean of Students",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "10/27/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305244&PostingSeq=1&SiteId=69000": {
+      "school_id": 290,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305244&PostingSeq=1&SiteId=69000",
+      "job_title_in_post": "Financial Aid Counselor",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Financial Aid",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "10/23/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305252&PostingSeq=1&SiteId=69000": {
+      "school_id": 290,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305252&PostingSeq=1&SiteId=69000",
+      "job_title_in_post": "Part time - Peer Education Specialist",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "Advising Center",
+      "area_key_words": "Peer Education Specialist",
+      "deadline_of_application": "",
+      "posted_date": "10/23/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304870&PostingSeq=1&SiteId=69000": {
+      "school_id": 290,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304870&PostingSeq=1&SiteId=69000",
+      "job_title_in_post": "Admissions Recruiter",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Admissions",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "10/14/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304709&PostingSeq=1&SiteId=69000": {
+      "school_id": 290,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304709&PostingSeq=1&SiteId=69000",
+      "job_title_in_post": "Nursing Laboratory Coordinator",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "School of Nursing",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "10/13/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304688&PostingSeq=1&SiteId=69000": {
+      "school_id": 290,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304688&PostingSeq=1&SiteId=69000",
+      "job_title_in_post": "Executive Assistant to the Vice President for Institutional Advancement",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Foundation Office",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "10/07/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304499&PostingSeq=1&SiteId=69000": {
+      "school_id": 290,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304499&PostingSeq=1&SiteId=69000",
+      "job_title_in_post": "Accountant I",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Business/Bursar's Office",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "10/02/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304426&PostingSeq=1&SiteId=69000": {
+      "school_id": 290,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304426&PostingSeq=1&SiteId=69000",
+      "job_title_in_post": "Assistant Director of Admissions for Communications and Operations",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Admissions",
+      "area_key_words": "Admissions for Communications and Operations",
+      "deadline_of_application": "",
+      "posted_date": "09/30/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303979&PostingSeq=1&SiteId=69000": {
+      "school_id": 290,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303979&PostingSeq=1&SiteId=69000",
+      "job_title_in_post": "Assistant Professor of Biology (Tenure Track)",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Dept of Natural Sciences",
+      "area_key_words": "Biology",
+      "deadline_of_application": "",
+      "posted_date": "09/22/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302954&PostingSeq=1&SiteId=69000": {
+      "school_id": 290,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302954&PostingSeq=1&SiteId=69000",
+      "job_title_in_post": "Lecturer/Assistant Professor of English",
+      "position_type": "Assistant_Professor; Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "Department of English",
+      "area_key_words": "English",
+      "deadline_of_application": "",
+      "posted_date": "09/16/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303592&PostingSeq=1&SiteId=69000": {
+      "school_id": 290,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303592&PostingSeq=1&SiteId=69000",
+      "job_title_in_post": "Skilled Maintenance Worker",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Building Maintenance",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "09/16/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303641&PostingSeq=1&SiteId=69000": {
+      "school_id": 290,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303641&PostingSeq=1&SiteId=69000",
+      "job_title_in_post": "Nursing Educator/Full-Time Faculty Position (Tenure Track)",
+      "position_type": "Assistant_Professor; Associate_Professor; Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "School of Nursing",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "09/14/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303498&PostingSeq=1&SiteId=69000": {
+      "school_id": 290,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303498&PostingSeq=1&SiteId=69000",
+      "job_title_in_post": "Human Resources Coordinator",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Human Resources",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "09/09/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303103&PostingSeq=1&SiteId=69000": {
+      "school_id": 290,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303103&PostingSeq=1&SiteId=69000",
+      "job_title_in_post": "Transfer Credit and Veterans Affairs Coordinator",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Office of the Registrar",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "09/08/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303267&PostingSeq=1&SiteId=69000": {
+      "school_id": 290,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303267&PostingSeq=1&SiteId=69000",
+      "job_title_in_post": "Police Officer",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Public Safety",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "09/02/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=301184&PostingSeq=1&SiteId=69000": {
+      "school_id": 290,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=301184&PostingSeq=1&SiteId=69000",
+      "job_title_in_post": "Assistant/Associate Professor of Mathematics Education (Tenure Track)",
+      "position_type": "Assistant_Professor; Associate_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "School of Education",
+      "area_key_words": "Mathematics Education",
+      "deadline_of_application": "",
+      "posted_date": "07/20/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=300872&PostingSeq=1&SiteId=69000": {
+      "school_id": 290,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=300872&PostingSeq=1&SiteId=69000",
+      "job_title_in_post": "Part Time Instructor of Mathematics Education",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "School of Education",
+      "area_key_words": "Mathematics Education",
+      "deadline_of_application": "",
+      "posted_date": "07/13/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=300005&PostingSeq=1&SiteId=69000": {
+      "school_id": 290,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=300005&PostingSeq=1&SiteId=69000",
+      "job_title_in_post": "Mental Health Therapist",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Counseling",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "06/18/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=299696&PostingSeq=1&SiteId=69000": {
+      "school_id": 290,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=299696&PostingSeq=1&SiteId=69000",
+      "job_title_in_post": "Part-Time Instructor Business Administration",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "School of Business Admin",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "06/18/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=289558&PostingSeq=1&SiteId=69000": {
+      "school_id": 290,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=289558&PostingSeq=1&SiteId=69000",
+      "job_title_in_post": "Communications and Security Officer",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Public Safety",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "08/21/2025",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=287161&PostingSeq=1&SiteId=69000": {
+      "school_id": 290,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=287161&PostingSeq=1&SiteId=69000",
+      "job_title_in_post": "Part-Time Instructor of Social Work",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "School of Social Work",
+      "area_key_words": "Social Work",
+      "deadline_of_application": "",
+      "posted_date": "06/26/2025",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=274753&PostingSeq=1&SiteId=69000": {
+      "school_id": 290,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=274753&PostingSeq=1&SiteId=69000",
+      "job_title_in_post": "Part-Time Instructor of Life Science",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "Dept of Natural Sciences",
+      "area_key_words": "Life Science",
+      "deadline_of_application": "",
+      "posted_date": "07/11/2024",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=271283&PostingSeq=1&SiteId=69000": {
+      "school_id": 290,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=271283&PostingSeq=1&SiteId=69000",
+      "job_title_in_post": "Part-Time Instructor of English",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "Department of English",
+      "area_key_words": "English",
+      "deadline_of_application": "",
+      "posted_date": "04/18/2024",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=264532&PostingSeq=1&SiteId=69000": {
+      "school_id": 290,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=264532&PostingSeq=1&SiteId=69000",
+      "job_title_in_post": "Part-time Instructors in Physical Sciences",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "Dept of Natural Sciences",
+      "area_key_words": "Physical Sciences",
+      "deadline_of_application": "",
+      "posted_date": "10/09/2023",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=264335&PostingSeq=1&SiteId=69000": {
+      "school_id": 290,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=264335&PostingSeq=1&SiteId=69000",
+      "job_title_in_post": "Part-Time Instructor of History, Political Science or Philosophy",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "Department of Social Sciences",
+      "area_key_words": "History, Political Science or Philosophy",
+      "deadline_of_application": "",
+      "posted_date": "10/03/2023",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=263799&PostingSeq=1&SiteId=69000": {
+      "school_id": 290,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=263799&PostingSeq=1&SiteId=69000",
+      "job_title_in_post": "Part Time Instructor of Phlebotomy Mountain Campus",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "Allied Health",
+      "area_key_words": "Phlebotomy Mountain Campus",
+      "deadline_of_application": "",
+      "posted_date": "09/21/2023",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=256644&PostingSeq=1&SiteId=69000": {
+      "school_id": 290,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=256644&PostingSeq=1&SiteId=69000",
+      "job_title_in_post": "Part-Time Instructor in Psychology",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "Department of Social Sciences",
+      "area_key_words": "Psychology",
+      "deadline_of_application": "",
+      "posted_date": "03/28/2023",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=256462&PostingSeq=1&SiteId=69000": {
+      "school_id": 290,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=256462&PostingSeq=1&SiteId=69000",
+      "job_title_in_post": "Part-Time Instructor in Information Technology",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "Mathematics & Technology",
+      "area_key_words": "Information Technology",
+      "deadline_of_application": "",
+      "posted_date": "03/23/2023",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=255736&PostingSeq=1&SiteId=69000": {
+      "school_id": 290,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=255736&PostingSeq=1&SiteId=69000",
+      "job_title_in_post": "Part-Time Instructor of Communications",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "Department of Communication",
+      "area_key_words": "Communications",
+      "deadline_of_application": "",
+      "posted_date": "03/07/2023",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=255739&PostingSeq=1&SiteId=69000": {
+      "school_id": 290,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=255739&PostingSeq=1&SiteId=69000",
+      "job_title_in_post": "Part-Time Instructor of Criminal Justice",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "Department of Social Sciences",
+      "area_key_words": "Criminal Justice",
+      "deadline_of_application": "",
+      "posted_date": "03/07/2023",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=255742&PostingSeq=1&SiteId=69000": {
+      "school_id": 290,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=255742&PostingSeq=1&SiteId=69000",
+      "job_title_in_post": "Part-Time Instructor of Mathematics",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "Mathematics & Technology",
+      "area_key_words": "Mathematics",
+      "deadline_of_application": "",
+      "posted_date": "03/07/2023",
+      "position_start_date": ""
+    }
+  },
   "school_id": 290,
-  "status": "error",
-  "updated_at": "2026-11-02T21:35:27+00:00",
-  "last_error": "OSError: [Errno 11] Resource deadlock avoided: '/Users/yusiwei/Library/CloudStorage/OneDrive-Personal/faculty-job-atlas/job-data/school_job_info/school_id_290_job_info.csv'"
+  "status": "complete",
+  "updated_at": "2026-11-06T05:14:53+00:00",
+  "last_error": "",
+  "completed_at": "2026-11-06T05:14:53+00:00"
 }

@@ -2,7 +2,8 @@
   "raw": {},
   "rows": {},
   "school_id": 249,
-  "status": "error",
-  "updated_at": "2026-11-02T21:20:14+00:00",
-  "last_error": "OSError: [Errno 11] Resource deadlock avoided: '/Users/yusiwei/Library/CloudStorage/OneDrive-Personal/faculty-job-atlas/job-data/school_job_info/school_id_249_job_info.csv'"
+  "status": "complete",
+  "updated_at": "2026-11-06T04:43:07+00:00",
+  "completed_at": "2026-11-06T04:43:07+00:00",
+  "last_error": ""
 }

@@ -1,8 +1,18 @@
 {
-  "links": [],
+  "links": [
+    "https://www.schooljobs.com/careers/stonehill/jobs/5519049/assistant-director-of-advising-persistance",
+    "https://www.schooljobs.com/careers/stonehill/jobs/5466883/assistant-diving-coach",
+    "https://www.schooljobs.com/careers/stonehill/jobs/5533922/custodian-i",
+    "https://www.schooljobs.com/careers/stonehill/jobs/5519987/head-equipment-manager",
+    "https://www.schooljobs.com/careers/stonehill/jobs/5504894/professor-of-practice-in-finance",
+    "https://www.schooljobs.com/careers/stonehill/jobs/5516231/professor-of-practice-in-healthcare-management",
+    "https://www.schooljobs.com/careers/stonehill/jobs/5500892/program-supervisor-for-graduate-teacher-education-program",
+    "https://www.schooljobs.com/careers/stonehill/jobs/5525421/staff-accountant"
+  ],
   "school_id": 553,
-  "status": "error",
-  "updated_at": "2026-11-03T21:40:51+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-05T19:05:33+00:00",
   "started_at": "2026-11-03T21:40:51+00:00",
-  "last_error": "RuntimeError: neogov list status=None"
+  "last_error": "",
+  "completed_at": "2026-11-05T19:05:33+00:00"
 }

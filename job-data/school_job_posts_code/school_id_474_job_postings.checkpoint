@@ -5,15 +5,14 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/AB201C499D53A5D603D5BE296513B383/jobs/103308",
     "https://www.paycomonline.net/v4/ats/web.php/portal/AB201C499D53A5D603D5BE296513B383/jobs/44845",
     "https://www.paycomonline.net/v4/ats/web.php/portal/AB201C499D53A5D603D5BE296513B383/jobs/340607",
-    "https://www.paycomonline.net/v4/ats/web.php/portal/AB201C499D53A5D603D5BE296513B383/jobs/412502",
     "https://www.paycomonline.net/v4/ats/web.php/portal/AB201C499D53A5D603D5BE296513B383/jobs/385867",
     "https://www.paycomonline.net/v4/ats/web.php/portal/AB201C499D53A5D603D5BE296513B383/jobs/374634",
     "https://www.paycomonline.net/v4/ats/web.php/portal/AB201C499D53A5D603D5BE296513B383/jobs/424189"
   ],
   "school_id": 474,
-  "status": "error",
-  "updated_at": "2026-11-03T21:19:46+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-05T18:43:49+00:00",
   "started_at": "2026-09-08T17:51:25+00:00",
-  "completed_at": "2026-10-30T18:32:44+00:00",
-  "last_error": "Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.paycomonline.net/v4/ats/web.php/portal/AB201C499D53A5D603D5BE296513B383/career-page\nCall log:\n  - navigating to \"https://www.paycomonline.net/v4/ats/web.php/portal/AB201C499D53A5D603D5BE296513B383/career-page\", waiting until \"domcontentloaded\"\n"
+  "completed_at": "2026-11-05T18:43:49+00:00",
+  "last_error": ""
 }

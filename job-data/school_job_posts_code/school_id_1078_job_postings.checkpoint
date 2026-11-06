@@ -1,8 +1,20 @@
 {
-  "links": [],
+  "links": [
+    "https://apply.interfolio.com/190805",
+    "https://apply.interfolio.com/190808",
+    "https://wooster.interviewexchange.com/jobofferdetails.jsp?JOBID=206210",
+    "https://wooster.interviewexchange.com/jobofferdetails.jsp?JOBID=204174",
+    "https://wooster.interviewexchange.com/jobofferdetails.jsp?JOBID=205036",
+    "https://wooster.interviewexchange.com/jobofferdetails.jsp?JOBID=203323",
+    "https://wooster.interviewexchange.com/jobofferdetails.jsp?JOBID=205335",
+    "https://wooster.interviewexchange.com/jobofferdetails.jsp?JOBID=205928",
+    "https://wooster.interviewexchange.com/jobofferdetails.jsp?JOBID=204765",
+    "https://wooster.interviewexchange.com/jobofferdetails.jsp?JOBID=204201"
+  ],
   "school_id": 1078,
-  "status": "error",
-  "updated_at": "2026-11-04T04:43:52+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-05T20:26:10+00:00",
   "started_at": "2026-11-04T04:43:51+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://wooster.edu/employment/jobs\nCall log:\n  - navigating to \"https://wooster.edu/employment/jobs\", waiting until \"domcontentloaded\"\n"
+  "last_error": "",
+  "completed_at": "2026-11-05T20:26:10+00:00"
 }

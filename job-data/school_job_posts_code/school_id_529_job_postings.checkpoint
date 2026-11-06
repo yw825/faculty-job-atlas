@@ -1,15 +1,14 @@
 {
   "links": [
     "https://jobs.nicholls.edu/postings/10518",
-    "https://jobs.nicholls.edu/postings/10485",
     "https://jobs.nicholls.edu/postings/10484",
     "https://jobs.nicholls.edu/postings/10454",
     "https://jobs.nicholls.edu/postings/10452"
   ],
   "school_id": 529,
-  "status": "error",
-  "updated_at": "2026-11-03T21:21:24+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-05T18:54:26+00:00",
   "started_at": "2026-09-08T07:33:33+00:00",
-  "completed_at": "2026-10-30T18:45:24+00:00",
-  "last_error": "RuntimeError: list status=None"
+  "completed_at": "2026-11-05T18:54:26+00:00",
+  "last_error": ""
 }

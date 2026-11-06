@@ -1,9 +1,9 @@
 {
   "links": [],
   "school_id": 428,
-  "status": "error",
-  "updated_at": "2026-11-03T21:17:42+00:00",
-  "started_at": "2026-10-30T18:25:11+00:00",
-  "completed_at": "2026-10-30T18:25:21+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.depauw.edu/offices/academic-affairs/open-faculty-positions-2/\nCall log:\n  - navigating to \"https://www.depauw.edu/offices/academic-affairs/open-faculty-positions-2/\", waiting until \"domcontentloaded\"\n"
+  "status": "complete",
+  "updated_at": "2026-11-05T18:35:46+00:00",
+  "started_at": "2026-11-05T18:35:17+00:00",
+  "completed_at": "2026-11-05T18:35:46+00:00",
+  "last_error": ""
 }

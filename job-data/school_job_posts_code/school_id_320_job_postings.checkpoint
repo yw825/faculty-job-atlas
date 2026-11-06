@@ -1,14 +1,15 @@
 {
   "links": [
+    "https://uog.peopleadmin.com/postings/5634",
     "https://uog.peopleadmin.com/postings/5589",
     "https://uog.peopleadmin.com/postings/5353",
     "https://uog.peopleadmin.com/postings/5352",
     "https://uog.peopleadmin.com/postings/4079"
   ],
   "school_id": 320,
-  "status": "error",
-  "updated_at": "2026-11-03T20:36:34+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-05T18:09:26+00:00",
   "started_at": "2026-09-08T01:34:01+00:00",
-  "completed_at": "2026-10-30T18:00:52+00:00",
-  "last_error": "RuntimeError: list status=None"
+  "completed_at": "2026-11-05T18:09:26+00:00",
+  "last_error": ""
 }

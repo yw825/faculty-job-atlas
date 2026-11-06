@@ -4,9 +4,9 @@
     "https://franciscan.edu/adjunct-instructor-of-sociology/"
   ],
   "school_id": 1068,
-  "status": "error",
-  "updated_at": "2026-11-04T04:43:30+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-05T20:25:08+00:00",
   "started_at": "2026-09-08T02:40:49+00:00",
-  "completed_at": "2026-10-30T20:32:31+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at http://franciscan.edu/faculty-openings/\nCall log:\n  - navigating to \"http://franciscan.edu/faculty-openings/\", waiting until \"domcontentloaded\"\n"
+  "completed_at": "2026-11-05T20:25:08+00:00",
+  "last_error": ""
 }

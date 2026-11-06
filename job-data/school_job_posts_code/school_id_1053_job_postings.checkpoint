@@ -1,21 +1,18 @@
 {
   "links": [
+    "https://jobs.kent.edu/jobs/faculty-ft-professional-12-mo-kent-campus-kent-ohio-united-states-67f0a90a-e136-48fb-b448-db7f646ffd41",
     "https://jobs.kent.edu/jobs/faculty-non-tenure-track-9-mo-cats-physical-therapy-assist-tech-ashtabula-campus-ashtabula-ohio-united-states",
     "https://jobs.kent.edu/jobs/faculty-tenure-track-9-mo-internal-opening-for-urrent-ksu-employees-only-kent-campus-kent-ohio-united-states",
     "https://jobs.kent.edu/jobs/faculty-tenure-track-9-mo-2-vacancies-kent-campus-kent-ohio-united-states",
     "https://jobs.kent.edu/jobs/faculty-non-tenure-track-9-mo-kent-campus-kent-ohio-united-states-58dde97e-5572-4509-9f44-d007e76a8c1c",
-    "https://jobs.kent.edu/jobs/faculty-ft-professional-12-mo-kent-campus-kent-ohio-united-states-67f0a90a-e136-48fb-b448-db7f646ffd41",
     "https://jobs.kent.edu/jobs/faculty-tenure-track-9-mo-kent-campus-kent-ohio-united-states-f898f936-8d2a-48b3-a554-b17b08796012",
-    "https://jobs.kent.edu/jobs/adjunct-faculty-ob-rn-geauga-campus-burton-ohio-united-states-d679e2ec-38cd-4662-a87e-33cd39864a18",
-    "https://jobs.kent.edu/jobs/non-tenure-track-faculty-position-computer-engineering-technology-and-cybersecurity-engineering-college-of-aeronautics-and-engineering-kent-campus-kent-ohio-united-states",
     "https://jobs.kent.edu/jobs/adjunct-faculty-twinsburg-academic-center-twinsburg-oh-ohio-united-states-ashtabula-campus-ashtabula-east-liverpool-campus-east-liverpool-oh-geauga-campus-burton-salem-campus-salem-stark-camp",
-    "https://jobs.kent.edu/jobs/faculty-non-tenure-track-9-mo-ashtabula-campus-ashtabula-ohio-united-states-99632699-a70f-48d1-9d3f-d86d497dd826",
-    "https://jobs.kent.edu/jobs/faculty-non-tenure-track-9-mo-assistant-professor-management-kent-campus-kent-ohio-united-states-1b554cee-e991-4805-b132-72dc44387bd8"
+    "https://jobs.kent.edu/jobs/faculty-non-tenure-track-9-mo-ashtabula-campus-ashtabula-ohio-united-states-99632699-a70f-48d1-9d3f-d86d497dd826"
   ],
   "school_id": 1053,
-  "status": "error",
-  "updated_at": "2026-11-04T03:42:16+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-05T20:21:38+00:00",
   "started_at": "2026-09-08T02:40:13+00:00",
-  "completed_at": "2026-10-30T20:27:42+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://jobs.kent.edu/jobs/search/faculty?page=1\nCall log:\n  - navigating to \"https://jobs.kent.edu/jobs/search/faculty?page=1\", waiting until \"domcontentloaded\"\n"
+  "completed_at": "2026-11-05T20:21:38+00:00",
+  "last_error": ""
 }

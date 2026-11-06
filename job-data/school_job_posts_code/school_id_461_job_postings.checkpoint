@@ -1,8 +1,12 @@
 {
-  "links": [],
+  "links": [
+    "https://www.barclaycollege.edu/jobs/?post_type=job_listing&p=6",
+    "https://www.barclaycollege.edu/jobs/?post_type=job_listing&p=5"
+  ],
   "school_id": 461,
-  "status": "error",
-  "updated_at": "2026-11-03T21:19:27+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-05T18:42:50+00:00",
   "started_at": "2026-11-03T21:19:20+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.barclaycollege.edu/jobs/\nCall log:\n  - navigating to \"https://www.barclaycollege.edu/jobs/\", waiting until \"domcontentloaded\"\n"
+  "last_error": "",
+  "completed_at": "2026-11-05T18:42:50+00:00"
 }

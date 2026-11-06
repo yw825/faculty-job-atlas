@@ -1,8 +1,15 @@
 {
-  "links": [],
+  "links": [
+    "https://www.paycomonline.net/v4/ats/web.php/portal/7D169CDF6455DFA39F0FB40945B3F193/jobs/91252",
+    "https://www.paycomonline.net/v4/ats/web.php/portal/7D169CDF6455DFA39F0FB40945B3F193/jobs/90269",
+    "https://www.paycomonline.net/v4/ats/web.php/portal/7D169CDF6455DFA39F0FB40945B3F193/jobs/86230",
+    "https://www.paycomonline.net/v4/ats/web.php/portal/7D169CDF6455DFA39F0FB40945B3F193/jobs/86223",
+    "https://www.paycomonline.net/v4/ats/web.php/portal/7D169CDF6455DFA39F0FB40945B3F193/jobs/85400"
+  ],
   "school_id": 317,
-  "status": "error",
-  "updated_at": "2026-11-03T20:30:13+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-05T18:09:05+00:00",
   "started_at": "2026-11-03T19:58:44+00:00",
-  "last_error": "Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.paycomonline.net/v4/ats/web.php/portal/7D169CDF6455DFA39F0FB40945B3F193/career-page\nCall log:\n  - navigating to \"https://www.paycomonline.net/v4/ats/web.php/portal/7D169CDF6455DFA39F0FB40945B3F193/career-page\", waiting until \"domcontentloaded\"\n"
+  "last_error": "",
+  "completed_at": "2026-11-05T18:09:05+00:00"
 }

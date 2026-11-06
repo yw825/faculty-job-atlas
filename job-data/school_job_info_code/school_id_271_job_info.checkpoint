@@ -229,6 +229,11 @@
       "title": "Golf Course Grounds Maintenance Worker",
       "description": "Posted: 10/29/2026 Location: Americus, Georgia Department: GSW G&CC Grounds Golf Course Grounds Maintenance Worker",
       "department": "GSW G&CC Grounds"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305543&PostingSeq=1&SiteId=42000": {
+      "title": "Associate Professor, Graduate Nursing Program (FNP)",
+      "description": "Posted: 11/02/2026 Location: Americus, Georgia Department: School of Nursing Associate Professor, Graduate Nursing Program (FNP)",
+      "department": "School of Nursing"
     }
   },
   "rows": {
@@ -782,11 +787,23 @@
       "deadline_of_application": "",
       "posted_date": "10/29/2026",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305543&PostingSeq=1&SiteId=42000": {
+      "school_id": 271,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305543&PostingSeq=1&SiteId=42000",
+      "job_title_in_post": "Associate Professor, Graduate Nursing Program (FNP)",
+      "position_type": "Associate_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "School of Nursing",
+      "area_key_words": "Graduate Nursing Program",
+      "deadline_of_application": "",
+      "posted_date": "11/02/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 271,
-  "status": "error",
-  "updated_at": "2026-11-02T21:22:43+00:00",
-  "completed_at": "2026-10-30T23:50:58+00:00",
-  "last_error": "OSError: [Errno 11] Resource deadlock avoided: '/Users/yusiwei/Library/CloudStorage/OneDrive-Personal/faculty-job-atlas/job-data/school_job_info/school_id_271_job_info.csv'"
+  "status": "complete",
+  "updated_at": "2026-11-06T05:07:03+00:00",
+  "completed_at": "2026-11-06T05:07:03+00:00",
+  "last_error": ""
 }

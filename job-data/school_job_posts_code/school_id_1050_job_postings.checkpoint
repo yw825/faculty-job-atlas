@@ -1,8 +1,20 @@
 {
-  "links": [],
+  "links": [
+    "https://apply.interfolio.com/188549",
+    "https://apply.interfolio.com/194126",
+    "https://apply.interfolio.com/194122",
+    "https://apply.interfolio.com/192590",
+    "https://apply.interfolio.com/189944",
+    "https://apply.interfolio.com/193196",
+    "https://apply.interfolio.com/188984",
+    "https://apply.interfolio.com/195757",
+    "https://apply.interfolio.com/195758",
+    "https://apply.interfolio.com/194432"
+  ],
   "school_id": 1050,
-  "status": "error",
-  "updated_at": "2026-11-04T02:51:37+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-05T20:21:12+00:00",
   "started_at": "2026-11-04T02:51:37+00:00",
-  "last_error": "RuntimeError: Interfolio board 11076 returned no positions"
+  "last_error": "",
+  "completed_at": "2026-11-05T20:21:12+00:00"
 }

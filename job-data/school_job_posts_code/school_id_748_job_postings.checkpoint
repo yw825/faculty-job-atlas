@@ -1,13 +1,11 @@
 {
   "links": [
-    "https://www.paycomonline.net/v4/ats/web.php/portal/E66B3C1689D7CACD88837E5AD889588C/jobs/264044",
     "https://www.paycomonline.net/v4/ats/web.php/portal/E66B3C1689D7CACD88837E5AD889588C/jobs/732567",
     "https://www.paycomonline.net/v4/ats/web.php/portal/E66B3C1689D7CACD88837E5AD889588C/jobs/814498",
     "https://www.paycomonline.net/v4/ats/web.php/portal/E66B3C1689D7CACD88837E5AD889588C/jobs/825682",
     "https://www.paycomonline.net/v4/ats/web.php/portal/E66B3C1689D7CACD88837E5AD889588C/jobs/864949",
     "https://www.paycomonline.net/v4/ats/web.php/portal/E66B3C1689D7CACD88837E5AD889588C/jobs/874582",
-    "https://www.paycomonline.net/v4/ats/web.php/portal/E66B3C1689D7CACD88837E5AD889588C/jobs/890968",
-    "https://www.paycomonline.net/v4/ats/web.php/portal/E66B3C1689D7CACD88837E5AD889588C/jobs/931229",
+    "https://www.paycomonline.net/v4/ats/web.php/portal/E66B3C1689D7CACD88837E5AD889588C/jobs/904310",
     "https://www.paycomonline.net/v4/ats/web.php/portal/E66B3C1689D7CACD88837E5AD889588C/jobs/941042",
     "https://www.paycomonline.net/v4/ats/web.php/portal/E66B3C1689D7CACD88837E5AD889588C/jobs/957161",
     "https://www.paycomonline.net/v4/ats/web.php/portal/E66B3C1689D7CACD88837E5AD889588C/jobs/962823",
@@ -16,9 +14,9 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/E66B3C1689D7CACD88837E5AD889588C/jobs/972380"
   ],
   "school_id": 748,
-  "status": "error",
-  "updated_at": "2026-11-03T23:43:13+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-05T19:34:08+00:00",
   "started_at": "2026-09-08T17:52:31+00:00",
-  "completed_at": "2026-10-30T19:27:45+00:00",
-  "last_error": "RuntimeError: paycom portal made no job search request"
+  "completed_at": "2026-11-05T19:34:08+00:00",
+  "last_error": ""
 }

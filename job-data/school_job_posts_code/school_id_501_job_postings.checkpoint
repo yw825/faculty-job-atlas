@@ -1,5 +1,8 @@
 {
   "links": [
+    "https://www.murraystatejobs.com/postings/12956",
+    "https://www.murraystatejobs.com/postings/12954",
+    "https://www.murraystatejobs.com/postings/12949",
     "https://www.murraystatejobs.com/postings/12943",
     "https://www.murraystatejobs.com/postings/12939",
     "https://www.murraystatejobs.com/postings/12932",
@@ -9,7 +12,6 @@
     "https://www.murraystatejobs.com/postings/12921",
     "https://www.murraystatejobs.com/postings/12916",
     "https://www.murraystatejobs.com/postings/12915",
-    "https://www.murraystatejobs.com/postings/12913",
     "https://www.murraystatejobs.com/postings/12910",
     "https://www.murraystatejobs.com/postings/12902",
     "https://www.murraystatejobs.com/postings/12893",
@@ -26,9 +28,9 @@
     "https://www.murraystatejobs.com/postings/12683"
   ],
   "school_id": 501,
-  "status": "error",
-  "updated_at": "2026-11-03T21:20:30+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-05T18:51:51+00:00",
   "started_at": "2026-09-08T07:33:32+00:00",
-  "completed_at": "2026-10-30T18:42:20+00:00",
-  "last_error": "RuntimeError: list status=None"
+  "completed_at": "2026-11-05T18:51:51+00:00",
+  "last_error": ""
 }

@@ -1,19 +1,19 @@
 {
   "links": [
+    "https://indiana.peopleadmin.com/postings/34983",
+    "https://indiana.peopleadmin.com/postings/34976",
     "https://indiana.peopleadmin.com/postings/34705",
     "https://indiana.peopleadmin.com/postings/34315",
-    "https://indiana.peopleadmin.com/postings/34170",
     "https://indiana.peopleadmin.com/postings/33820",
-    "https://indiana.peopleadmin.com/postings/33799",
     "https://indiana.peopleadmin.com/postings/32176",
     "https://indiana.peopleadmin.com/postings/31701",
     "https://indiana.peopleadmin.com/postings/31700",
     "https://indiana.peopleadmin.com/postings/29780"
   ],
   "school_id": 437,
-  "status": "error",
-  "updated_at": "2026-11-03T21:18:23+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-05T18:39:51+00:00",
   "started_at": "2026-10-30T18:28:12+00:00",
-  "completed_at": "2026-10-30T18:28:30+00:00",
-  "last_error": "RuntimeError: list status=None"
+  "completed_at": "2026-11-05T18:39:51+00:00",
+  "last_error": ""
 }

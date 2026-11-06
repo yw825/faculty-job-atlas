@@ -10,9 +10,9 @@
     "https://apply.interfolio.com/191755"
   ],
   "school_id": 344,
-  "status": "error",
-  "updated_at": "2026-11-03T20:48:48+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-05T18:11:31+00:00",
   "started_at": "2026-09-09T04:43:37+00:00",
-  "completed_at": "2026-10-30T18:07:58+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://simpson.edu/about/departments-offices-centers/careers-at-simpson/\", waiting until \"domcontentloaded\"\n"
+  "completed_at": "2026-11-05T18:11:31+00:00",
+  "last_error": ""
 }

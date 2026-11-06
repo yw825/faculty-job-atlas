@@ -87,6 +87,18 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/457621": {
       "title": "Teaching Assistant, School of Psychology",
       "description": "Teaching Assistant, School of Psychology You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/476874": {
+      "title": "Assistant Director for Doctoral Research & Academic Advising",
+      "description": "Assistant Director for Doctoral Research & Academic Advising You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/476887": {
+      "title": "Associate Dean for Academic Affairs for School of Law",
+      "description": "Associate Dean for Academic Affairs for School of Law You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/476929": {
+      "title": "Vice President and Deputy General Counsel",
+      "description": "Vice President and Deputy General Counsel You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -362,11 +374,47 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/476874": {
+      "school_id": 138,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/476874",
+      "job_title_in_post": "Assistant Director for Doctoral Research & Academic Advising",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/476887": {
+      "school_id": 138,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/476887",
+      "job_title_in_post": "Associate Dean for Academic Affairs for School of Law",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "School of Law",
+      "area_key_words": "Law",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/476929": {
+      "school_id": 138,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/476929",
+      "job_title_in_post": "Vice President and Deputy General Counsel",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 138,
   "status": "complete",
-  "updated_at": "2026-11-02T20:49:01+00:00",
-  "completed_at": "2026-11-02T20:49:01+00:00",
+  "updated_at": "2026-11-06T03:10:58+00:00",
+  "completed_at": "2026-11-06T03:10:58+00:00",
   "last_error": ""
 }

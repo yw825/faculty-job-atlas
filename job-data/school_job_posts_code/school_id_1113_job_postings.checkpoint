@@ -2,9 +2,11 @@
   "links": [
     "https://www.paycomonline.net/v4/ats/web.php/portal/F16D49EDEBF447BF71AEBC32D5AF6AB5/jobs/60152",
     "https://www.paycomonline.net/v4/ats/web.php/portal/F16D49EDEBF447BF71AEBC32D5AF6AB5/jobs/151551",
+    "https://www.paycomonline.net/v4/ats/web.php/portal/F16D49EDEBF447BF71AEBC32D5AF6AB5/jobs/213661",
     "https://www.paycomonline.net/v4/ats/web.php/portal/F16D49EDEBF447BF71AEBC32D5AF6AB5/jobs/212651",
     "https://www.paycomonline.net/v4/ats/web.php/portal/F16D49EDEBF447BF71AEBC32D5AF6AB5/jobs/221392",
     "https://www.paycomonline.net/v4/ats/web.php/portal/F16D49EDEBF447BF71AEBC32D5AF6AB5/jobs/222968",
+    "https://www.paycomonline.net/v4/ats/web.php/portal/F16D49EDEBF447BF71AEBC32D5AF6AB5/jobs/225309",
     "https://www.paycomonline.net/v4/ats/web.php/portal/F16D49EDEBF447BF71AEBC32D5AF6AB5/jobs/196314",
     "https://www.paycomonline.net/v4/ats/web.php/portal/F16D49EDEBF447BF71AEBC32D5AF6AB5/jobs/214918",
     "https://www.paycomonline.net/v4/ats/web.php/portal/F16D49EDEBF447BF71AEBC32D5AF6AB5/jobs/218668",
@@ -18,13 +20,12 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/F16D49EDEBF447BF71AEBC32D5AF6AB5/jobs/58615",
     "https://www.paycomonline.net/v4/ats/web.php/portal/F16D49EDEBF447BF71AEBC32D5AF6AB5/jobs/221385",
     "https://www.paycomonline.net/v4/ats/web.php/portal/F16D49EDEBF447BF71AEBC32D5AF6AB5/jobs/223710",
-    "https://www.paycomonline.net/v4/ats/web.php/portal/F16D49EDEBF447BF71AEBC32D5AF6AB5/jobs/223420",
     "https://www.paycomonline.net/v4/ats/web.php/portal/F16D49EDEBF447BF71AEBC32D5AF6AB5/jobs/221993"
   ],
   "school_id": 1113,
-  "status": "error",
-  "updated_at": "2026-11-04T09:11:21+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-05T20:29:32+00:00",
   "started_at": "2026-09-08T02:43:45+00:00",
-  "completed_at": "2026-10-30T20:37:44+00:00",
-  "last_error": "RuntimeError: paycom portal made no job search request"
+  "completed_at": "2026-11-05T20:29:32+00:00",
+  "last_error": ""
 }

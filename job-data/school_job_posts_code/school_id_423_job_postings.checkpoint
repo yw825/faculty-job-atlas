@@ -1,8 +1,22 @@
 {
-  "links": [],
+  "links": [
+    "https://careers.purdue.edu/FW/job/Assistant-Professor-of-Management-Information-Systems-and-Business-Analytics/44883-en_US",
+    "https://careers.purdue.edu/FW/job/Assistant-Professor-of-MusicDirector-of-Choral-Studies/44842-en_US",
+    "https://careers.purdue.edu/FW/job/Assistant-Professor-of-Musicology/44838-en_US",
+    "https://careers.purdue.edu/FW/job/Assistant-Professor-of-Electrical-Engineering/44398-en_US",
+    "https://careers.purdue.edu/FW/job/Assistant-Professor-of-Criminal-Justice/44623-en_US",
+    "https://careers.purdue.edu/FW/job/Assistant-Professor-of-Biology/44515-en_US",
+    "https://careers.purdue.edu/FW/job/Assistant-Professor-of-Mechanical-Engineering/44514-en_US",
+    "https://careers.purdue.edu/FW/job/Assistant-Professor-of-Psychology/40108-en_US",
+    "https://careers.purdue.edu/FW/job/Assistant-Professor-of-Practice-in-Interior-Design/43994-en_US",
+    "https://careers.purdue.edu/FW/job/Chief-Nursing-Education-Officer/43929-en_US",
+    "https://careers.purdue.edu/FW/job/Limited-Term-Lecturer-in-Construction-Management/41933-en_US",
+    "https://careers.purdue.edu/FW/job/Limited-Term-Lecturer-in-Mechanical-Engineering-Technology/41934-en_US"
+  ],
   "school_id": 423,
-  "status": "error",
-  "updated_at": "2026-11-03T21:17:11+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-05T18:30:16+00:00",
   "started_at": "2026-11-03T21:17:11+00:00",
-  "last_error": "ConnectionError: HTTPSConnectionPool(host='careers.purdue.edu', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='careers.purdue.edu', port=443): Failed to resolve 'careers.purdue.edu' ([Errno 8] nodename nor servname provided, or not known)\"))"
+  "last_error": "",
+  "completed_at": "2026-11-05T18:30:16+00:00"
 }

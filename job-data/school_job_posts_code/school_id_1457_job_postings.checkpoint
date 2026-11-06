@@ -112,12 +112,21 @@
     "https://jobs.apply.vt.edu/jobs/postdoctoral-associate-blacksburg-virginia-virginia-united-states-3db61e89-ffac-4c81-b9da-8e8550da08a6",
     "https://jobs.apply.vt.edu/jobs/clinical-track-assistant-or-associate-professor-anatomic-pathology-blacksburg-virginia-virginia-united-states",
     "https://jobs.apply.vt.edu/jobs/assistant-associate-professor-in-accounting-and-information-systems-blacksburg-virginia-virginia-united-states",
-    "https://jobs.apply.vt.edu/jobs/postdoctoral-associate-blacksburg-virginia-virginia-united-states-35989960-3dde-4b7a-84a3-0590e165e76f"
+    "https://jobs.apply.vt.edu/jobs/postdoctoral-associate-blacksburg-virginia-virginia-united-states-35989960-3dde-4b7a-84a3-0590e165e76f",
+    "https://jobs.apply.vt.edu/jobs/assistant-or-associate-professor-immersive-healthcare-experiences-blacksburg-virginia-united-states",
+    "https://jobs.apply.vt.edu/jobs/vlsi-collegiate-faculty-ece-blacksburg-virginia-united-states-26c6525f-5bb6-49f9-8946-01f48aaad2b5",
+    "https://jobs.apply.vt.edu/jobs/research-scientist-i-marine-robotics-suffolk-virginia-united-states",
+    "https://jobs.apply.vt.edu/jobs/assistant-professor-computational-and-systems-biochemistry-blacksburg-virginia-united-states",
+    "https://jobs.apply.vt.edu/jobs/research-assistant-professor-research-associate-professor-and-research-professor-in-cyber-security-arlington-virginia-united-states",
+    "https://jobs.apply.vt.edu/jobs/postdoctoral-associate-blacksburg-virginia-united-states-52f136f8-2a0b-404b-af1d-48cad9913862",
+    "https://jobs.apply.vt.edu/jobs/postdoctoral-associate-blacksburg-virginia-united-states-31daf8a8-33d2-4555-b4c3-d67af5af7ef1",
+    "https://jobs.apply.vt.edu/jobs/assistant-associate-professor-in-poultry-nutrition-and-health-blacksburg-virginia-united-states"
   ],
   "school_id": 1457,
   "status": "complete",
-  "updated_at": "2026-10-30T21:26:07+00:00",
+  "updated_at": "2026-11-05T21:09:51+00:00",
   "started_at": "2026-09-09T06:51:51+00:00",
-  "completed_at": "2026-10-30T21:26:07+00:00",
-  "last_error": ""
+  "completed_at": "2026-11-05T21:09:51+00:00",
+  "last_error": "",
+  "last_warning": "2026-11-05T21:09:51+00:00: board returned 30 links vs 113 before; old set kept"
 }

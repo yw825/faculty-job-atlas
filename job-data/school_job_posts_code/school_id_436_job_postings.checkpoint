@@ -1,8 +1,30 @@
 {
-  "links": [],
+  "links": [
+    "https://jobs.keldair.com/uindy/Staff/jobs/103017/part-time-student-success-coordinator-engineering",
+    "https://jobs.keldair.com/uindy/Staff/jobs/103011/controller",
+    "https://jobs.keldair.com/uindy/Staff/jobs/102747/associate-director-of-graduate-admissions-operations",
+    "https://jobs.keldair.com/uindy/Staff/jobs/102601/director-of-student-counseling-center",
+    "https://jobs.keldair.com/uindy/Staff/jobs/102424/police-officer",
+    "https://jobs.keldair.com/uindy/Staff/jobs/102110/director-of-housing-and-residence-life",
+    "https://jobs.keldair.com/uindy/Faculty/jobs/101949/assistant-professor-tenure-track",
+    "https://jobs.keldair.com/uindy/Staff/jobs/101814/general-maintenance-technician",
+    "https://jobs.keldair.com/uindy/Staff/jobs/101794/assistant-hurdles-coach-for-track-and-field",
+    "https://jobs.keldair.com/uindy/Staff/jobs/101239/painter",
+    "https://jobs.keldair.com/uindy/Staff/jobs/101235/lead-custodian-supervisor",
+    "https://jobs.keldair.com/uindy/Faculty/jobs/101190/adjunct-instructor-in-theatre",
+    "https://jobs.keldair.com/uindy/Staff/jobs/101178/facilities-maintenance-technician-%28mechanical-*-electrical-*-plumbing%29",
+    "https://jobs.keldair.com/uindy/Faculty/jobs/99348/adjunct-faculty-school-psychology",
+    "https://jobs.keldair.com/uindy/Faculty/jobs/98562/german-adjunct-faculty",
+    "https://jobs.keldair.com/uindy/Staff/jobs/98243/graduate-assistant-for-game-operations-and-experience",
+    "https://jobs.keldair.com/uindy/Staff/jobs/93733/mep-technician",
+    "https://jobs.keldair.com/uindy/Faculty/jobs/92839/adjunct-faculty-physics-and-earth-space-science",
+    "https://jobs.keldair.com/uindy/Faculty/jobs/92809/adjunct-faculty-psychology-and-counseling",
+    "https://jobs.keldair.com/uindy/Faculty/jobs/92732/adjunct-faculty"
+  ],
   "school_id": 436,
-  "status": "error",
-  "updated_at": "2026-11-03T21:18:23+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-05T18:39:32+00:00",
   "started_at": "2026-11-03T21:18:22+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://jobs.keldair.com/uindy\nCall log:\n  - navigating to \"https://jobs.keldair.com/uindy\", waiting until \"domcontentloaded\"\n"
+  "last_error": "",
+  "completed_at": "2026-11-05T18:39:32+00:00"
 }

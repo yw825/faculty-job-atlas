@@ -514,6 +514,11 @@
       "title": "Lecturer of Nursing - School of Nursing (12-Month Faculty)",
       "description": "Posted: 10/26/2026 Location: Valdosta State University Department: School of Nursing Lecturer of Nursing - School of Nursing (12-Month Faculty)",
       "department": "School of Nursing"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305492&PostingSeq=1&SiteId=51000": {
+      "title": "Associate Dean - College of the Arts",
+      "description": "Posted: 11/03/2026 Location: Valdosta State University Department: Dean College of the Arts Associate Dean - College of the Arts",
+      "department": "Dean College of the Arts"
     }
   },
   "rows": {
@@ -1751,11 +1756,23 @@
       "deadline_of_application": "",
       "posted_date": "10/26/2026",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305492&PostingSeq=1&SiteId=51000": {
+      "school_id": 316,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305492&PostingSeq=1&SiteId=51000",
+      "job_title_in_post": "Associate Dean - College of the Arts",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Dean College of the Arts",
+      "area_key_words": "College of the Arts",
+      "deadline_of_application": "",
+      "posted_date": "11/03/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 316,
-  "status": "error",
-  "updated_at": "2026-11-02T21:57:19+00:00",
-  "completed_at": "2026-10-30T23:58:48+00:00",
-  "last_error": "TimeoutError: Page.inner_text: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"body\")\n"
+  "status": "complete",
+  "updated_at": "2026-11-06T05:34:49+00:00",
+  "completed_at": "2026-11-06T05:34:49+00:00",
+  "last_error": ""
 }

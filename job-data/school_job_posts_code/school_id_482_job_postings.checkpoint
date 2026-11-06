@@ -8,9 +8,9 @@
     "https://www.sckans.edu/about/employment/#public-safety-officer-part-time"
   ],
   "school_id": 482,
-  "status": "error",
-  "updated_at": "2026-11-03T21:19:57+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-05T18:45:12+00:00",
   "started_at": "2026-09-08T01:49:25+00:00",
-  "completed_at": "2026-10-30T18:34:52+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.sckans.edu/about/employment/\nCall log:\n  - navigating to \"https://www.sckans.edu/about/employment/\", waiting until \"domcontentloaded\"\n"
+  "completed_at": "2026-11-05T18:45:12+00:00",
+  "last_error": ""
 }

@@ -1,9 +1,443 @@
 {
-  "raw": {},
-  "rows": {},
+  "raw": {
+    "https://lyon.isolvedhire.com/jobs/1869313": {
+      "title": "Accountant - Accounts Payable (AP)",
+      "description": "Accountant - Accounts Payable (AP) - Little Rock, AR - Lyon College Jobs Jobs Login Sign Up For Job Alerts! Maintained by isolved People Cloud - © 2026 Refresh Search the FAQ here Go Common Questions"
+    },
+    "https://lyon.isolvedhire.com/jobs/1670801": {
+      "title": "Adjunct Faculty, General Dentistry",
+      "description": "Adjunct Faculty, General Dentistry - Little Rock, AR - Lyon College Jobs Jobs Login Sign Up For Job Alerts! Maintained by isolved People Cloud - © 2026 Refresh Search the FAQ here Go Common Questions"
+    },
+    "https://lyon.isolvedhire.com/jobs/1865152": {
+      "title": "Adjunct Instructor of Communication Studies",
+      "description": "Adjunct Instructor of Communication Studies - Batesville, AR - Lyon College Jobs Jobs Login Sign Up For Job Alerts! Maintained by isolved People Cloud - © 2026 Refresh Search the FAQ here Go Common Questions"
+    },
+    "https://lyon.isolvedhire.com/jobs/1837643": {
+      "title": "Assistant Dean of Student Affairs",
+      "description": "Assistant Dean of Student Affairs - Cabot, AR - Lyon College Jobs Jobs Login Sign Up For Job Alerts! Maintained by isolved People Cloud - © 2026 Refresh Search the FAQ here Go Common Questions"
+    },
+    "https://lyon.isolvedhire.com/jobs/1790933": {
+      "title": "Assistant Women's & Men's Cross Country/Track & Field Coach",
+      "description": "Assistant Women's & Men's Cross Country/Track & Field Coach - Batesville, AR - Lyon College Jobs Jobs Login Sign Up For Job Alerts! Maintained by isolved People Cloud - © 2026 Refresh Search the FAQ here Go Common Questions"
+    },
+    "https://lyon.isolvedhire.com/jobs/1850148": {
+      "title": "Associate Dean for Clinical Programs and Outreach",
+      "description": "Associate Dean for Clinical Programs and Outreach - Cabot, AR - Lyon College Jobs Jobs Login Sign Up For Job Alerts! Maintained by isolved People Cloud - © 2026 Refresh Search the FAQ here Go Common Questions"
+    },
+    "https://lyon.isolvedhire.com/jobs/1836914": {
+      "title": "Dental School Access Coordinator",
+      "description": "Dental School Access Coordinator - Little Rock, AR - Lyon College Jobs Jobs Login Sign Up For Job Alerts! Maintained by isolved People Cloud - © 2026 Refresh Search the FAQ here Go Common Questions"
+    },
+    "https://lyon.isolvedhire.com/jobs/1837375": {
+      "title": "Director of Admissions",
+      "description": "Director of Admissions - Batesville, AR - Lyon College Jobs Jobs Login Sign Up For Job Alerts! Maintained by isolved People Cloud - © 2026 Refresh Search the FAQ here Go Common Questions"
+    },
+    "https://lyon.isolvedhire.com/jobs/1772024": {
+      "title": "Educationalist",
+      "description": "Educationalist - Cabot, AR - Lyon College Jobs Jobs Login Sign Up For Job Alerts! Maintained by isolved People Cloud - © 2026 Refresh Search the FAQ here Go Common Questions"
+    },
+    "https://lyon.isolvedhire.com/jobs/1778962": {
+      "title": "Endodontist-ACH",
+      "description": "Endodontist-ACH - Little Rock, AR - Lyon College Jobs Jobs Login Sign Up For Job Alerts! Maintained by isolved People Cloud - © 2026 Refresh Search the FAQ here Go Common Questions"
+    },
+    "https://lyon.isolvedhire.com/jobs/1821466": {
+      "title": "Executive Administrative Dean",
+      "description": "Executive Administrative Dean - Cabot, AR - Lyon College Jobs Jobs Login Sign Up For Job Alerts! Maintained by isolved People Cloud - © 2026 Refresh Search the FAQ here Go Common Questions"
+    },
+    "https://lyon.isolvedhire.com/jobs/1778983": {
+      "title": "General Dentist (GPR) ACH",
+      "description": "General Dentist (GPR) ACH - Little Rock, AR - Lyon College Jobs Jobs Login Sign Up For Job Alerts! Maintained by isolved People Cloud - © 2026 Refresh Search the FAQ here Go Common Questions"
+    },
+    "https://lyon.isolvedhire.com/jobs/1778973": {
+      "title": "General Dentist-ACH",
+      "description": "General Dentist-ACH - Little Rock, AR - Lyon College Jobs Jobs Login Sign Up For Job Alerts! Maintained by isolved People Cloud - © 2026 Refresh Search the FAQ here Go Common Questions"
+    },
+    "https://lyon.isolvedhire.com/jobs/1778948": {
+      "title": "Oral Surgeon-ACH",
+      "description": "Oral Surgeon-ACH - Little Rock, AR - Lyon College Jobs Jobs Login Sign Up For Job Alerts! Maintained by isolved People Cloud - © 2026 Refresh Search the FAQ here Go Common Questions"
+    },
+    "https://lyon.isolvedhire.com/jobs/1778996": {
+      "title": "Orthodontist- ACH",
+      "description": "Orthodontist- ACH - Little Rock, AR - Lyon College Jobs Jobs Login Sign Up For Job Alerts! Maintained by isolved People Cloud - © 2026 Refresh Search the FAQ here Go Common Questions"
+    },
+    "https://lyon.isolvedhire.com/jobs/1830844": {
+      "title": "Patient Care Coordinator",
+      "description": "Patient Care Coordinator - Little Rock, AR - Lyon College Jobs Jobs Login Sign Up For Job Alerts! Maintained by isolved People Cloud - © 2026 Refresh Search the FAQ here Go Common Questions"
+    },
+    "https://lyon.isolvedhire.com/jobs/1779009": {
+      "title": "Pediatric Dentist-ACH",
+      "description": "Pediatric Dentist-ACH - Little Rock, AR - Lyon College Jobs Jobs Login Sign Up For Job Alerts! Maintained by isolved People Cloud - © 2026 Refresh Search the FAQ here Go Common Questions"
+    },
+    "https://lyon.isolvedhire.com/jobs/1779041": {
+      "title": "Pediatric/General Dentist (Outreach)- ACH",
+      "description": "Pediatric/General Dentist (Outreach)- ACH - Little Rock, AR - Lyon College Jobs Jobs Login Sign Up For Job Alerts! Maintained by isolved People Cloud - © 2026 Refresh Search the FAQ here Go Common Questions"
+    },
+    "https://lyon.isolvedhire.com/jobs/1779021": {
+      "title": "Periodontist-ACH",
+      "description": "Periodontist-ACH - Little Rock, AR - Lyon College Jobs Jobs Login Sign Up For Job Alerts! Maintained by isolved People Cloud - © 2026 Refresh Search the FAQ here Go Common Questions"
+    },
+    "https://lyon.isolvedhire.com/jobs/1771843": {
+      "title": "Professor of Veterinary Anatomy",
+      "description": "Professor of Veterinary Anatomy - Cabot, AR - Lyon College Jobs Jobs Login Sign Up For Job Alerts! Maintained by isolved People Cloud - © 2026 Refresh Search the FAQ here Go Common Questions"
+    },
+    "https://lyon.isolvedhire.com/jobs/1771807": {
+      "title": "Professor of Veterinary Physiology",
+      "description": "Professor of Veterinary Physiology - Cabot, AR - Lyon College Jobs Jobs Login Sign Up For Job Alerts! Maintained by isolved People Cloud - © 2026 Refresh Search the FAQ here Go Common Questions"
+    },
+    "https://lyon.isolvedhire.com/jobs/1837014": {
+      "title": "Professor, General Dentistry",
+      "description": "Professor, General Dentistry - Little Rock, AR - Lyon College Jobs Jobs Login Sign Up For Job Alerts! Maintained by isolved People Cloud - © 2026 Refresh Search the FAQ here Go Common Questions"
+    },
+    "https://lyon.isolvedhire.com/jobs/1779001": {
+      "title": "Prosthodontist-ACH",
+      "description": "Prosthodontist-ACH - Little Rock, AR - Lyon College Jobs Jobs Login Sign Up For Job Alerts! Maintained by isolved People Cloud - © 2026 Refresh Search the FAQ here Go Common Questions"
+    },
+    "https://lyon.isolvedhire.com/jobs/1837003": {
+      "title": "Registered Dental Assistant",
+      "description": "Registered Dental Assistant - Little Rock, AR - Lyon College Jobs Jobs Login Sign Up For Job Alerts! Maintained by isolved People Cloud - © 2026 Refresh Search the FAQ here Go Common Questions"
+    },
+    "https://lyon.isolvedhire.com/jobs/1836985": {
+      "title": "Sterile Processing Technician",
+      "description": "Sterile Processing Technician - Little Rock, AR - Lyon College Jobs Jobs Login Sign Up For Job Alerts! Maintained by isolved People Cloud - © 2026 Refresh Search the FAQ here Go Common Questions"
+    },
+    "https://lyon.isolvedhire.com/jobs/1790651": {
+      "title": "Veterinary Anatomic Pathology",
+      "description": "Veterinary Anatomic Pathology - Cabot, AR - Lyon College Jobs Jobs Login Sign Up For Job Alerts! Maintained by isolved People Cloud - © 2026 Refresh Search the FAQ here Go Common Questions"
+    },
+    "https://lyon.isolvedhire.com/jobs/1771801": {
+      "title": "Veterinary Clinical Skills Director",
+      "description": "Veterinary Clinical Skills Director - Cabot, AR - Lyon College Jobs Jobs Login Sign Up For Job Alerts! Maintained by isolved People Cloud - © 2026 Refresh Search the FAQ here Go Common Questions"
+    }
+  },
+  "rows": {
+    "https://lyon.isolvedhire.com/jobs/1869313": {
+      "school_id": 34,
+      "posting_url": "https://lyon.isolvedhire.com/jobs/1869313",
+      "job_title_in_post": "Accountant - Accounts Payable (AP)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://lyon.isolvedhire.com/jobs/1670801": {
+      "school_id": 34,
+      "posting_url": "https://lyon.isolvedhire.com/jobs/1670801",
+      "job_title_in_post": "Adjunct Faculty, General Dentistry",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "General Dentistry",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://lyon.isolvedhire.com/jobs/1865152": {
+      "school_id": 34,
+      "posting_url": "https://lyon.isolvedhire.com/jobs/1865152",
+      "job_title_in_post": "Adjunct Instructor of Communication Studies",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "Communication Studies",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://lyon.isolvedhire.com/jobs/1837643": {
+      "school_id": 34,
+      "posting_url": "https://lyon.isolvedhire.com/jobs/1837643",
+      "job_title_in_post": "Assistant Dean of Student Affairs",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Student Affairs",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://lyon.isolvedhire.com/jobs/1790933": {
+      "school_id": 34,
+      "posting_url": "https://lyon.isolvedhire.com/jobs/1790933",
+      "job_title_in_post": "Assistant Women's & Men's Cross Country/Track & Field Coach",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://lyon.isolvedhire.com/jobs/1850148": {
+      "school_id": 34,
+      "posting_url": "https://lyon.isolvedhire.com/jobs/1850148",
+      "job_title_in_post": "Associate Dean for Clinical Programs and Outreach",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://lyon.isolvedhire.com/jobs/1836914": {
+      "school_id": 34,
+      "posting_url": "https://lyon.isolvedhire.com/jobs/1836914",
+      "job_title_in_post": "Dental School Access Coordinator",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://lyon.isolvedhire.com/jobs/1837375": {
+      "school_id": 34,
+      "posting_url": "https://lyon.isolvedhire.com/jobs/1837375",
+      "job_title_in_post": "Director of Admissions",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Admissions",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://lyon.isolvedhire.com/jobs/1772024": {
+      "school_id": 34,
+      "posting_url": "https://lyon.isolvedhire.com/jobs/1772024",
+      "job_title_in_post": "Educationalist",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://lyon.isolvedhire.com/jobs/1778962": {
+      "school_id": 34,
+      "posting_url": "https://lyon.isolvedhire.com/jobs/1778962",
+      "job_title_in_post": "Endodontist-ACH",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://lyon.isolvedhire.com/jobs/1821466": {
+      "school_id": 34,
+      "posting_url": "https://lyon.isolvedhire.com/jobs/1821466",
+      "job_title_in_post": "Executive Administrative Dean",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://lyon.isolvedhire.com/jobs/1778983": {
+      "school_id": 34,
+      "posting_url": "https://lyon.isolvedhire.com/jobs/1778983",
+      "job_title_in_post": "General Dentist (GPR) ACH",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://lyon.isolvedhire.com/jobs/1778973": {
+      "school_id": 34,
+      "posting_url": "https://lyon.isolvedhire.com/jobs/1778973",
+      "job_title_in_post": "General Dentist-ACH",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://lyon.isolvedhire.com/jobs/1778948": {
+      "school_id": 34,
+      "posting_url": "https://lyon.isolvedhire.com/jobs/1778948",
+      "job_title_in_post": "Oral Surgeon-ACH",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://lyon.isolvedhire.com/jobs/1778996": {
+      "school_id": 34,
+      "posting_url": "https://lyon.isolvedhire.com/jobs/1778996",
+      "job_title_in_post": "Orthodontist- ACH",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://lyon.isolvedhire.com/jobs/1830844": {
+      "school_id": 34,
+      "posting_url": "https://lyon.isolvedhire.com/jobs/1830844",
+      "job_title_in_post": "Patient Care Coordinator",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://lyon.isolvedhire.com/jobs/1779009": {
+      "school_id": 34,
+      "posting_url": "https://lyon.isolvedhire.com/jobs/1779009",
+      "job_title_in_post": "Pediatric Dentist-ACH",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://lyon.isolvedhire.com/jobs/1779041": {
+      "school_id": 34,
+      "posting_url": "https://lyon.isolvedhire.com/jobs/1779041",
+      "job_title_in_post": "Pediatric/General Dentist (Outreach)- ACH",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://lyon.isolvedhire.com/jobs/1779021": {
+      "school_id": 34,
+      "posting_url": "https://lyon.isolvedhire.com/jobs/1779021",
+      "job_title_in_post": "Periodontist-ACH",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://lyon.isolvedhire.com/jobs/1771843": {
+      "school_id": 34,
+      "posting_url": "https://lyon.isolvedhire.com/jobs/1771843",
+      "job_title_in_post": "Professor of Veterinary Anatomy",
+      "position_type": "Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Veterinary Anatomy",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://lyon.isolvedhire.com/jobs/1771807": {
+      "school_id": 34,
+      "posting_url": "https://lyon.isolvedhire.com/jobs/1771807",
+      "job_title_in_post": "Professor of Veterinary Physiology",
+      "position_type": "Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Veterinary Physiology",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://lyon.isolvedhire.com/jobs/1837014": {
+      "school_id": 34,
+      "posting_url": "https://lyon.isolvedhire.com/jobs/1837014",
+      "job_title_in_post": "Professor, General Dentistry",
+      "position_type": "Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "General Dentistry",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://lyon.isolvedhire.com/jobs/1779001": {
+      "school_id": 34,
+      "posting_url": "https://lyon.isolvedhire.com/jobs/1779001",
+      "job_title_in_post": "Prosthodontist-ACH",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://lyon.isolvedhire.com/jobs/1837003": {
+      "school_id": 34,
+      "posting_url": "https://lyon.isolvedhire.com/jobs/1837003",
+      "job_title_in_post": "Registered Dental Assistant",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://lyon.isolvedhire.com/jobs/1836985": {
+      "school_id": 34,
+      "posting_url": "https://lyon.isolvedhire.com/jobs/1836985",
+      "job_title_in_post": "Sterile Processing Technician",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://lyon.isolvedhire.com/jobs/1790651": {
+      "school_id": 34,
+      "posting_url": "https://lyon.isolvedhire.com/jobs/1790651",
+      "job_title_in_post": "Veterinary Anatomic Pathology",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://lyon.isolvedhire.com/jobs/1771801": {
+      "school_id": 34,
+      "posting_url": "https://lyon.isolvedhire.com/jobs/1771801",
+      "job_title_in_post": "Veterinary Clinical Skills Director",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    }
+  },
   "school_id": 34,
   "status": "complete",
-  "updated_at": "2026-11-02T20:11:10+00:00",
-  "completed_at": "2026-11-02T20:11:10+00:00",
+  "updated_at": "2026-11-06T01:41:31+00:00",
+  "completed_at": "2026-11-06T01:41:31+00:00",
   "last_error": ""
 }

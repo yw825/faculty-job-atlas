@@ -1,8 +1,17 @@
 {
-  "links": [],
+  "links": [
+    "https://jobs.oberlin.edu/postings/17884",
+    "https://jobs.oberlin.edu/postings/17801",
+    "https://jobs.oberlin.edu/postings/17798",
+    "https://jobs.oberlin.edu/postings/17644",
+    "https://jobs.oberlin.edu/postings/17601",
+    "https://jobs.oberlin.edu/postings/17596",
+    "https://jobs.oberlin.edu/postings/17494"
+  ],
   "school_id": 1062,
-  "status": "error",
-  "updated_at": "2026-11-04T04:43:15+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-05T20:23:46+00:00",
   "started_at": "2026-11-04T04:43:15+00:00",
-  "last_error": "RuntimeError: list status=None"
+  "last_error": "",
+  "completed_at": "2026-11-05T20:23:46+00:00"
 }

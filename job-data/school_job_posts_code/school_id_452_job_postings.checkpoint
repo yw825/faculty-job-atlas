@@ -1,8 +1,17 @@
 {
-  "links": [],
+  "links": [
+    "https://rosehulman.csod.com/ux/ats/careersite/9/home/requisition/807?c=rosehulman",
+    "https://rosehulman.csod.com/ux/ats/careersite/9/home/requisition/798?c=rosehulman",
+    "https://rosehulman.csod.com/ux/ats/careersite/9/home/requisition/805?c=rosehulman",
+    "https://rosehulman.csod.com/ux/ats/careersite/9/home/requisition/806?c=rosehulman",
+    "https://rosehulman.csod.com/ux/ats/careersite/9/home/requisition/801?c=rosehulman",
+    "https://rosehulman.csod.com/ux/ats/careersite/9/home/requisition/796?c=rosehulman",
+    "https://rosehulman.csod.com/ux/ats/careersite/9/home/requisition/795?c=rosehulman"
+  ],
   "school_id": 452,
-  "status": "error",
-  "updated_at": "2026-11-03T21:18:47+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-05T18:41:36+00:00",
   "started_at": "2026-11-03T21:18:45+00:00",
-  "last_error": "Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://rosehulman.csod.com/ux/ats/careersite/9/home?c=rosehulman\nCall log:\n  - navigating to \"https://rosehulman.csod.com/ux/ats/careersite/9/home?c=rosehulman\", waiting until \"domcontentloaded\"\n"
+  "last_error": "",
+  "completed_at": "2026-11-05T18:41:36+00:00"
 }

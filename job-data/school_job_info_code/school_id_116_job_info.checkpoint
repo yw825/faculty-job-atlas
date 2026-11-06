@@ -1323,11 +1323,23 @@
       "deadline_of_application": "October 31, 2026",
       "posted_date": "June 11, 2026",
       "position_start_date": ""
+    },
+    "https://careers.cpp.edu/po/en-us/job/563674/animal-and-veterinary-sciences-meat-sciences-assistant-professor": {
+      "school_id": 116,
+      "posting_url": "https://careers.cpp.edu/po/en-us/job/563674/animal-and-veterinary-sciences-meat-sciences-assistant-professor",
+      "job_title_in_post": "Animal and Veterinary Sciences (Meat Sciences), Assistant Professor",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Department of Animal and Veterinary Sciences",
+      "area_key_words": "seek collaborations",
+      "deadline_of_application": "December 15, 2026",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 116,
-  "status": "error",
-  "updated_at": "2026-11-02T20:48:10+00:00",
-  "completed_at": "2026-10-30T23:43:21+00:00",
-  "last_error": "OSError: [Errno 11] Resource deadlock avoided: '/Users/yusiwei/Library/CloudStorage/OneDrive-Personal/faculty-job-atlas/job-data/school_job_info/school_id_116_job_info.csv'"
+  "status": "complete",
+  "updated_at": "2026-11-06T02:43:14+00:00",
+  "completed_at": "2026-11-06T02:43:14+00:00",
+  "last_error": ""
 }

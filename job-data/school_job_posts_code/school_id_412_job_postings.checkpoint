@@ -1,14 +1,14 @@
 {
   "links": [
+    "https://uis.csod.com/ux/ats/careersite/1/home/requisition/1357?c=uis",
+    "https://uis.csod.com/ux/ats/careersite/1/home/requisition/1342?c=uis",
     "https://uis.csod.com/ux/ats/careersite/1/home/requisition/1349?c=uis",
     "https://uis.csod.com/ux/ats/careersite/1/home/requisition/1353?c=uis",
     "https://uis.csod.com/ux/ats/careersite/1/home/requisition/1352?c=uis",
     "https://uis.csod.com/ux/ats/careersite/1/home/requisition/1351?c=uis",
     "https://uis.csod.com/ux/ats/careersite/1/home/requisition/1350?c=uis",
     "https://uis.csod.com/ux/ats/careersite/1/home/requisition/1347?c=uis",
-    "https://uis.csod.com/ux/ats/careersite/1/home/requisition/1345?c=uis",
     "https://uis.csod.com/ux/ats/careersite/1/home/requisition/1339?c=uis",
-    "https://uis.csod.com/ux/ats/careersite/1/home/requisition/1344?c=uis",
     "https://uis.csod.com/ux/ats/careersite/1/home/requisition/1338?c=uis",
     "https://uis.csod.com/ux/ats/careersite/1/home/requisition/1320?c=uis",
     "https://uis.csod.com/ux/ats/careersite/1/home/requisition/1307?c=uis",
@@ -18,9 +18,9 @@
     "https://uis.csod.com/ux/ats/careersite/1/home/requisition/840?c=uis"
   ],
   "school_id": 412,
-  "status": "error",
-  "updated_at": "2026-11-03T21:16:44+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-05T18:26:10+00:00",
   "started_at": "2026-09-08T01:42:19+00:00",
-  "completed_at": "2026-10-30T18:22:08+00:00",
-  "last_error": "Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://uis.csod.com/ux/ats/careersite/1/home?c=uis\nCall log:\n  - navigating to \"https://uis.csod.com/ux/ats/careersite/1/home?c=uis\", waiting until \"domcontentloaded\"\n"
+  "completed_at": "2026-11-05T18:26:10+00:00",
+  "last_error": ""
 }

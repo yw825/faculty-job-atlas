@@ -1,8 +1,16 @@
 {
-  "links": [],
+  "links": [
+    "https://www.kwu.edu/wp-content/uploads/Athletic-Trainer-March-2026-Rev.pdf",
+    "https://www.kwu.edu/wp-content/uploads/Bus-Driver-Oct-2024.pdf",
+    "https://www.kwu.edu/wp-content/uploads/Adjunct-Faculty-Nursing-Clinical-Position-R1-August-2023.pdf",
+    "https://www.kwu.edu/wp-content/uploads/Assistant-Professor-of-Accounting-TT-October-2026.pdf",
+    "https://www.kwu.edu/wp-content/uploads/VP-Enrollment-Position-Desc-FINAL-Sept-2026.pdf",
+    "https://www.kwu.edu/wp-content/uploads/Facilities-Associate-Custodian-Apr-2025.pdf"
+  ],
   "school_id": 476,
-  "status": "error",
-  "updated_at": "2026-11-03T21:19:49+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-05T18:44:03+00:00",
   "started_at": "2026-11-03T21:19:49+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.kwu.edu/about/careers/#jobopenings\nCall log:\n  - navigating to \"https://www.kwu.edu/about/careers/#jobopenings\", waiting until \"domcontentloaded\"\n"
+  "last_error": "",
+  "completed_at": "2026-11-05T18:44:03+00:00"
 }

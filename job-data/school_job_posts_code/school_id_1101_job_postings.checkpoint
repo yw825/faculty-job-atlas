@@ -1,8 +1,30 @@
 {
-  "links": [],
+  "links": [
+    "https://nsuok.csod.com/ux/ats/careersite/4/home/requisition/5977?c=nsuok",
+    "https://nsuok.csod.com/ux/ats/careersite/4/home/requisition/5974?c=nsuok",
+    "https://nsuok.csod.com/ux/ats/careersite/4/home/requisition/5973?c=nsuok",
+    "https://nsuok.csod.com/ux/ats/careersite/4/home/requisition/5972?c=nsuok",
+    "https://nsuok.csod.com/ux/ats/careersite/4/home/requisition/5971?c=nsuok",
+    "https://nsuok.csod.com/ux/ats/careersite/4/home/requisition/5951?c=nsuok",
+    "https://nsuok.csod.com/ux/ats/careersite/4/home/requisition/5970?c=nsuok",
+    "https://nsuok.csod.com/ux/ats/careersite/4/home/requisition/5969?c=nsuok",
+    "https://nsuok.csod.com/ux/ats/careersite/4/home/requisition/5966?c=nsuok",
+    "https://nsuok.csod.com/ux/ats/careersite/4/home/requisition/5941?c=nsuok",
+    "https://nsuok.csod.com/ux/ats/careersite/4/home/requisition/5965?c=nsuok",
+    "https://nsuok.csod.com/ux/ats/careersite/4/home/requisition/5963?c=nsuok",
+    "https://nsuok.csod.com/ux/ats/careersite/4/home/requisition/5961?c=nsuok",
+    "https://nsuok.csod.com/ux/ats/careersite/4/home/requisition/5954?c=nsuok",
+    "https://nsuok.csod.com/ux/ats/careersite/4/home/requisition/5953?c=nsuok",
+    "https://nsuok.csod.com/ux/ats/careersite/4/home/requisition/5948?c=nsuok",
+    "https://nsuok.csod.com/ux/ats/careersite/4/home/requisition/5794?c=nsuok",
+    "https://nsuok.csod.com/ux/ats/careersite/4/home/requisition/5916?c=nsuok",
+    "https://nsuok.csod.com/ux/ats/careersite/4/home/requisition/5915?c=nsuok",
+    "https://nsuok.csod.com/ux/ats/careersite/4/home/requisition/5881?c=nsuok"
+  ],
   "school_id": 1101,
-  "status": "error",
-  "updated_at": "2026-11-04T06:01:22+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-05T20:28:05+00:00",
   "started_at": "2026-11-04T06:01:22+00:00",
-  "last_error": "Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://nsuok.csod.com/ux/ats/careersite/4/home?c=nsuok\nCall log:\n  - navigating to \"https://nsuok.csod.com/ux/ats/careersite/4/home?c=nsuok\", waiting until \"domcontentloaded\"\n"
+  "last_error": "",
+  "completed_at": "2026-11-05T20:28:05+00:00"
 }

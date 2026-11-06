@@ -19,8 +19,6 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/ABFDAFED645B6920CFDB8559C078F8A5/jobs/348823",
     "https://www.paycomonline.net/v4/ats/web.php/portal/ABFDAFED645B6920CFDB8559C078F8A5/jobs/337501",
     "https://www.paycomonline.net/v4/ats/web.php/portal/ABFDAFED645B6920CFDB8559C078F8A5/jobs/337480",
-    "https://www.paycomonline.net/v4/ats/web.php/portal/ABFDAFED645B6920CFDB8559C078F8A5/jobs/320321",
-    "https://www.paycomonline.net/v4/ats/web.php/portal/ABFDAFED645B6920CFDB8559C078F8A5/jobs/311427",
     "https://www.paycomonline.net/v4/ats/web.php/portal/ABFDAFED645B6920CFDB8559C078F8A5/jobs/307835",
     "https://www.paycomonline.net/v4/ats/web.php/portal/ABFDAFED645B6920CFDB8559C078F8A5/jobs/305613",
     "https://www.paycomonline.net/v4/ats/web.php/portal/ABFDAFED645B6920CFDB8559C078F8A5/jobs/304023",
@@ -29,9 +27,9 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/ABFDAFED645B6920CFDB8559C078F8A5/jobs/182105"
   ],
   "school_id": 1110,
-  "status": "error",
-  "updated_at": "2026-11-04T07:10:26+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-05T20:28:53+00:00",
   "started_at": "2026-09-25T06:23:04+00:00",
-  "completed_at": "2026-10-30T20:37:08+00:00",
-  "last_error": "RuntimeError: paycom portal made no job search request"
+  "completed_at": "2026-11-05T20:28:53+00:00",
+  "last_error": ""
 }

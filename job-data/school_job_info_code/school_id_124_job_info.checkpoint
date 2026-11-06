@@ -11,9 +11,35 @@
       "department": ""
     }
   },
-  "rows": {},
+  "rows": {
+    "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=31cd0b73-92c3-4ed2-84f8-5a6de61f8f2c&ccId=19000101_000001&jobId=9201295684095_1&lang=en_US": {
+      "school_id": 124,
+      "posting_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=31cd0b73-92c3-4ed2-84f8-5a6de61f8f2c&ccId=19000101_000001&jobId=9201295684095_1&lang=en_US",
+      "job_title_in_post": "Accountant I - Student Accounts",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "2026-09-29",
+      "position_start_date": ""
+    },
+    "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=31cd0b73-92c3-4ed2-84f8-5a6de61f8f2c&ccId=19000101_000001&jobId=9200964149894_1&lang=en_US": {
+      "school_id": 124,
+      "posting_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=31cd0b73-92c3-4ed2-84f8-5a6de61f8f2c&ccId=19000101_000001&jobId=9200964149894_1&lang=en_US",
+      "job_title_in_post": "Adjunct Faculty",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "Department of Psychology",
+      "area_key_words": "Culture Buddhist Counseling Marriage",
+      "deadline_of_application": "",
+      "posted_date": "2026-08-28",
+      "position_start_date": ""
+    }
+  },
   "school_id": 124,
-  "status": "error",
-  "updated_at": "2026-11-02T20:48:53+00:00",
-  "last_error": "OSError: [Errno 11] Resource deadlock avoided: '/Users/yusiwei/Library/CloudStorage/OneDrive-Personal/faculty-job-atlas/job-data/school_job_info/school_id_124_job_info.csv'"
+  "status": "complete",
+  "updated_at": "2026-11-06T02:51:07+00:00",
+  "last_error": "",
+  "completed_at": "2026-11-06T02:51:07+00:00"
 }

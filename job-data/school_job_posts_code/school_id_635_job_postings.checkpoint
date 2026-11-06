@@ -1,5 +1,7 @@
 {
   "links": [
+    "https://myjobs.adp.com/udmercycareers/cx/job-details?reqId=5001234002006",
+    "https://myjobs.adp.com/udmercycareers/cx/job-details?reqId=5001234495606",
     "https://myjobs.adp.com/udmercycareers/cx/job-details?reqId=5001231488306",
     "https://myjobs.adp.com/udmercycareers/cx/job-details?reqId=5001225954006",
     "https://myjobs.adp.com/udmercycareers/cx/job-details?reqId=5001207840506",
@@ -13,7 +15,6 @@
     "https://myjobs.adp.com/udmercycareers/cx/job-details?reqId=5001223844606",
     "https://myjobs.adp.com/udmercycareers/cx/job-details?reqId=5001223847506",
     "https://myjobs.adp.com/udmercycareers/cx/job-details?reqId=5001222996306",
-    "https://myjobs.adp.com/udmercycareers/cx/job-details?reqId=5001221737806",
     "https://myjobs.adp.com/udmercycareers/cx/job-details?reqId=5001219145906",
     "https://myjobs.adp.com/udmercycareers/cx/job-details?reqId=5001215382506",
     "https://myjobs.adp.com/udmercycareers/cx/job-details?reqId=5001214390006",
@@ -21,15 +22,12 @@
     "https://myjobs.adp.com/udmercycareers/cx/job-details?reqId=5001217426306",
     "https://myjobs.adp.com/udmercycareers/cx/job-details?reqId=5001217391906",
     "https://myjobs.adp.com/udmercycareers/cx/job-details?reqId=5001211629806",
-    "https://myjobs.adp.com/udmercycareers/cx/job-details?reqId=5001211355106",
     "https://myjobs.adp.com/udmercycareers/cx/job-details?reqId=5001212546306",
-    "https://myjobs.adp.com/udmercycareers/cx/job-details?reqId=5001212571306",
     "https://myjobs.adp.com/udmercycareers/cx/job-details?reqId=5001211190906",
     "https://myjobs.adp.com/udmercycareers/cx/job-details?reqId=5001209935506",
     "https://myjobs.adp.com/udmercycareers/cx/job-details?reqId=5001209926906",
     "https://myjobs.adp.com/udmercycareers/cx/job-details?reqId=5001209923906",
     "https://myjobs.adp.com/udmercycareers/cx/job-details?reqId=5001208331006",
-    "https://myjobs.adp.com/udmercycareers/cx/job-details?reqId=5001208215306",
     "https://myjobs.adp.com/udmercycareers/cx/job-details?reqId=5001208128706",
     "https://myjobs.adp.com/udmercycareers/cx/job-details?reqId=5001207825906",
     "https://myjobs.adp.com/udmercycareers/cx/job-details?reqId=5001207822006",
@@ -37,9 +35,9 @@
     "https://myjobs.adp.com/udmercycareers/cx/job-details?reqId=5001207177306"
   ],
   "school_id": 635,
-  "status": "error",
-  "updated_at": "2026-11-03T22:13:53+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-05T19:12:49+00:00",
   "started_at": "2026-09-08T02:05:00+00:00",
-  "completed_at": "2026-10-30T19:04:30+00:00",
-  "last_error": "RuntimeError: ADP MyJobs: the page made no job search request"
+  "completed_at": "2026-11-05T19:12:49+00:00",
+  "last_error": ""
 }

@@ -14,16 +14,19 @@
     "https://www.lsus.edu/Documents/HR/Job%20Opportunities/2026%20LSUS%20Assistant%20Professor%20of%20Leadership.docx",
     "https://www.lsus.edu/Documents/HR/Job%20Opportunities/2026%20Assistant%20Professor%20of%20Public%20History.docx",
     "https://www.lsus.edu/Documents/HR/Job%20Opportunities/2026%20Assistant%20Professor%20of%20Nonprofit%20Administration.docx",
-    "https://www.governmentjobs.com/careers/louisiana/jobs/5497119/assistant-director-practical-nursing-program",
-    "https://www.governmentjobs.com/careers/louisiana/jobs/5501542/director-of-early-college",
-    "https://www.governmentjobs.com/careers/louisiana/jobs/5521723/executive-director-for-persistence-and-career-outcomes",
+    "https://www.lsus.edu/Documents/HR/Job%20Opportunities/2026%20Assistant%20Professor%20of%20Education%20MEDCI.docx",
+    "https://www.lsus.edu/Documents/HR/Job%20Opportunities/2026%20SCOK%20Librarian.docx",
     "https://www.governmentjobs.com/careers/louisiana/jobs/5525219/assistant-director-of-purchasing",
-    "https://www.governmentjobs.com/careers/louisiana/jobs/5525288/custodian-1-2"
+    "https://www.governmentjobs.com/careers/louisiana/jobs/5525288/custodian-1-2",
+    "https://www.governmentjobs.com/careers/louisiana/jobs/5537775/accounts-payable-coordinator",
+    "https://www.governmentjobs.com/careers/louisiana/jobs/5538193/assistant-director-of-sponsored-programs",
+    "https://www.governmentjobs.com/careers/louisiana/jobs/5538727/events-operations-assistant",
+    "https://www.governmentjobs.com/careers/louisiana/jobs/5538392/maintenance-repairer-master"
   ],
   "school_id": 528,
-  "status": "error",
-  "updated_at": "2026-11-03T21:21:21+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-05T18:54:13+00:00",
   "started_at": "2026-09-14T18:05:59+00:00",
-  "completed_at": "2026-10-30T18:45:09+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.lsus.edu/faculty-and-staff/human-resources/employment-opportunities\nCall log:\n  - navigating to \"https://www.lsus.edu/faculty-and-staff/human-resources/employment-opportunities\", waiting until \"domcontentloaded\"\n"
+  "completed_at": "2026-11-05T18:54:13+00:00",
+  "last_error": ""
 }

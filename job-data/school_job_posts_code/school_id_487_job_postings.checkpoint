@@ -1,5 +1,10 @@
 {
   "links": [
+    "https://www.lindsey.edu/about-lwc/Offices-and-Services/Human-Resources/job-opportunities.cfm#assistant-professor-of-art",
+    "https://www.lindsey.edu/about-lwc/Offices-and-Services/Human-Resources/job-opportunities.cfm#undergraduate-business-faculty",
+    "https://www.lindsey.edu/about-lwc/Offices-and-Services/Human-Resources/job-opportunities.cfm#groundskeeper",
+    "https://www.lindsey.edu/about-lwc/Offices-and-Services/Human-Resources/job-opportunities.cfm#carpenter",
+    "https://www.lindsey.edu/about-lwc/Offices-and-Services/Human-Resources/job-opportunities.cfm#international-student-services-specialist-designated-school-official",
     "https://www.lindsey.edu/about-lwc/Offices-and-Services/Human-Resources/job-opportunities.cfm#student-support-specialist",
     "https://www.lindsey.edu/about-lwc/Offices-and-Services/Human-Resources/job-opportunities.cfm#assistant-professor-of-mathematics",
     "https://www.lindsey.edu/about-lwc/Offices-and-Services/Human-Resources/job-opportunities.cfm#assistant-professor-of-biology-molecular-cell-biology",
@@ -8,8 +13,6 @@
     "https://www.lindsey.edu/about-lwc/Offices-and-Services/Human-Resources/job-opportunities.cfm#payroll-associate",
     "https://www.lindsey.edu/about-lwc/Offices-and-Services/Human-Resources/job-opportunities.cfm#assistant-athletic-trainer",
     "https://www.lindsey.edu/about-lwc/Offices-and-Services/Human-Resources/job-opportunities.cfm#enrollment-coordinator-western-kentucky-service-region",
-    "https://www.lindsey.edu/about-lwc/Offices-and-Services/Human-Resources/job-opportunities.cfm#carpenter",
-    "https://www.lindsey.edu/about-lwc/Offices-and-Services/Human-Resources/job-opportunities.cfm#apprentice-carpenter",
     "https://www.lindsey.edu/about-lwc/Offices-and-Services/Human-Resources/job-opportunities.cfm#wordpress-developer-intern",
     "https://www.lindsey.edu/about-lwc/Offices-and-Services/Human-Resources/job-opportunities.cfm#flag-football-graduate-assistant",
     "https://www.lindsey.edu/about-lwc/Offices-and-Services/Human-Resources/job-opportunities.cfm#enrollment-coordinator-for-educational-outreach-louisville-campus",
@@ -17,9 +20,9 @@
     "https://www.lindsey.edu/about-lwc/Offices-and-Services/Human-Resources/job-opportunities.cfm#part-time-dining-center-seasonal-worker"
   ],
   "school_id": 487,
-  "status": "error",
-  "updated_at": "2026-11-03T21:20:06+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-05T18:45:34+00:00",
   "started_at": "2026-09-09T05:16:09+00:00",
-  "completed_at": "2026-10-30T18:35:20+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.lindsey.edu/about-lwc/Offices-and-Services/Human-Resources/job-opportunities.cfm\nCall log:\n  - navigating to \"https://www.lindsey.edu/about-lwc/Offices-and-Services/Human-Resources/job-opportunities.cfm\", waiting until \"domcontentloaded\"\n"
+  "completed_at": "2026-11-05T18:45:34+00:00",
+  "last_error": ""
 }

@@ -1,8 +1,20 @@
 {
-  "links": [],
+  "links": [
+    "https://wiu.interviewexchange.com/jobofferdetails.jsp?JOBID=205940",
+    "https://wiu.interviewexchange.com/jobofferdetails.jsp?JOBID=206061",
+    "https://wiu.interviewexchange.com/jobofferdetails.jsp?JOBID=205078",
+    "https://wiu.interviewexchange.com/jobofferdetails.jsp?JOBID=205942",
+    "https://wiu.interviewexchange.com/jobofferdetails.jsp?JOBID=200595",
+    "https://wiu.interviewexchange.com/jobofferdetails.jsp?JOBID=206454",
+    "https://wiu.interviewexchange.com/jobofferdetails.jsp?JOBID=205306",
+    "https://wiu.interviewexchange.com/jobofferdetails.jsp?JOBID=205081",
+    "https://wiu.interviewexchange.com/jobofferdetails.jsp?JOBID=200596",
+    "https://wiu.interviewexchange.com/jobofferdetails.jsp?JOBID=201302"
+  ],
   "school_id": 400,
-  "status": "error",
-  "updated_at": "2026-11-03T21:16:02+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-05T18:19:26+00:00",
   "started_at": "2026-11-03T21:15:54+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://wiu.interviewexchange.com/static/clients/467WIM1/index.jsp?c=1098\nCall log:\n  - navigating to \"https://wiu.interviewexchange.com/static/clients/467WIM1/index.jsp?c=1098\", waiting until \"domcontentloaded\"\n"
+  "last_error": "",
+  "completed_at": "2026-11-05T18:19:26+00:00"
 }

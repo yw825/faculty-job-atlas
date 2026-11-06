@@ -1,7 +1,6 @@
 {
   "links": [
     "https://workforcenow.cloud.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=d789d92f-3d30-464b-8c76-1fe13a4928bb&ccId=326615217_3&jobId=625657421_1&lang=en_US",
-    "https://workforcenow.cloud.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=d789d92f-3d30-464b-8c76-1fe13a4928bb&ccId=326615217_3&jobId=629804570_1&lang=en_US",
     "https://workforcenow.cloud.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=d789d92f-3d30-464b-8c76-1fe13a4928bb&ccId=326615217_3&jobId=609030573_1&lang=en_US",
     "https://workforcenow.cloud.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=d789d92f-3d30-464b-8c76-1fe13a4928bb&ccId=326615217_3&jobId=607204448_1&lang=en_US",
     "https://workforcenow.cloud.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=d789d92f-3d30-464b-8c76-1fe13a4928bb&ccId=326615217_3&jobId=605066612_1&lang=en_US",
@@ -10,9 +9,9 @@
     "https://workforcenow.cloud.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=d789d92f-3d30-464b-8c76-1fe13a4928bb&ccId=326615217_3&jobId=581795550_1&lang=en_US"
   ],
   "school_id": 491,
-  "status": "error",
-  "updated_at": "2026-11-03T21:20:09+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-05T18:45:36+00:00",
   "started_at": "2026-09-08T01:50:28+00:00",
-  "completed_at": "2026-10-30T18:35:23+00:00",
-  "last_error": "RuntimeError: adp api status=None"
+  "completed_at": "2026-11-05T18:45:36+00:00",
+  "last_error": ""
 }

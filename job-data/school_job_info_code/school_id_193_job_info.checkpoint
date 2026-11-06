@@ -3,11 +3,125 @@
     "https://phx.us-west.paycomonline.net/v4/ats/web.php/portal/9458F32E9190B17D00CF93BCC3CDE534/jobs/45022": {
       "title": "Instructor or Assistant Professor of Sport Management",
       "description": "Instructor or Assistant Professor of Sport Management You need to enable JavaScript to run this app."
+    },
+    "https://phx.us-west.paycomonline.net/v4/ats/web.php/portal/9458F32E9190B17D00CF93BCC3CDE534/jobs/48454": {
+      "title": "Instructor of Assistant Professor of Sport Management",
+      "description": "Instructor of Assistant Professor of Sport Management You need to enable JavaScript to run this app."
+    },
+    "https://phx.us-west.paycomonline.net/v4/ats/web.php/portal/9458F32E9190B17D00CF93BCC3CDE534/jobs/48450": {
+      "title": "Assistant or Associate Professor of Nursing",
+      "description": "Assistant or Associate Professor of Nursing You need to enable JavaScript to run this app."
+    },
+    "https://phx.us-west.paycomonline.net/v4/ats/web.php/portal/9458F32E9190B17D00CF93BCC3CDE534/jobs/48734": {
+      "title": "Housekeeper",
+      "description": "Housekeeper You need to enable JavaScript to run this app."
+    },
+    "https://phx.us-west.paycomonline.net/v4/ats/web.php/portal/9458F32E9190B17D00CF93BCC3CDE534/jobs/48226": {
+      "title": "Sports Information Director",
+      "description": "Sports Information Director You need to enable JavaScript to run this app."
+    },
+    "https://phx.us-west.paycomonline.net/v4/ats/web.php/portal/9458F32E9190B17D00CF93BCC3CDE534/jobs/40191": {
+      "title": "Administrative Coordinator",
+      "description": "Administrative Coordinator You need to enable JavaScript to run this app."
+    },
+    "https://phx.us-west.paycomonline.net/v4/ats/web.php/portal/9458F32E9190B17D00CF93BCC3CDE534/jobs/36223": {
+      "title": "Substitute Teacher",
+      "description": "Substitute Teacher You need to enable JavaScript to run this app."
+    },
+    "https://phx.us-west.paycomonline.net/v4/ats/web.php/portal/9458F32E9190B17D00CF93BCC3CDE534/jobs/5213": {
+      "title": "Adjunct Faculty",
+      "description": "Adjunct Faculty You need to enable JavaScript to run this app."
     }
   },
-  "rows": {},
+  "rows": {
+    "https://phx.us-west.paycomonline.net/v4/ats/web.php/portal/9458F32E9190B17D00CF93BCC3CDE534/jobs/48454": {
+      "school_id": 193,
+      "posting_url": "https://phx.us-west.paycomonline.net/v4/ats/web.php/portal/9458F32E9190B17D00CF93BCC3CDE534/jobs/48454",
+      "job_title_in_post": "Instructor of Assistant Professor of Sport Management",
+      "position_type": "Assistant_Professor; Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Sport Management",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://phx.us-west.paycomonline.net/v4/ats/web.php/portal/9458F32E9190B17D00CF93BCC3CDE534/jobs/48450": {
+      "school_id": 193,
+      "posting_url": "https://phx.us-west.paycomonline.net/v4/ats/web.php/portal/9458F32E9190B17D00CF93BCC3CDE534/jobs/48450",
+      "job_title_in_post": "Assistant or Associate Professor of Nursing",
+      "position_type": "Associate_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Nursing",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://phx.us-west.paycomonline.net/v4/ats/web.php/portal/9458F32E9190B17D00CF93BCC3CDE534/jobs/48734": {
+      "school_id": 193,
+      "posting_url": "https://phx.us-west.paycomonline.net/v4/ats/web.php/portal/9458F32E9190B17D00CF93BCC3CDE534/jobs/48734",
+      "job_title_in_post": "Housekeeper",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://phx.us-west.paycomonline.net/v4/ats/web.php/portal/9458F32E9190B17D00CF93BCC3CDE534/jobs/48226": {
+      "school_id": 193,
+      "posting_url": "https://phx.us-west.paycomonline.net/v4/ats/web.php/portal/9458F32E9190B17D00CF93BCC3CDE534/jobs/48226",
+      "job_title_in_post": "Sports Information Director",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://phx.us-west.paycomonline.net/v4/ats/web.php/portal/9458F32E9190B17D00CF93BCC3CDE534/jobs/40191": {
+      "school_id": 193,
+      "posting_url": "https://phx.us-west.paycomonline.net/v4/ats/web.php/portal/9458F32E9190B17D00CF93BCC3CDE534/jobs/40191",
+      "job_title_in_post": "Administrative Coordinator",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://phx.us-west.paycomonline.net/v4/ats/web.php/portal/9458F32E9190B17D00CF93BCC3CDE534/jobs/36223": {
+      "school_id": 193,
+      "posting_url": "https://phx.us-west.paycomonline.net/v4/ats/web.php/portal/9458F32E9190B17D00CF93BCC3CDE534/jobs/36223",
+      "job_title_in_post": "Substitute Teacher",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://phx.us-west.paycomonline.net/v4/ats/web.php/portal/9458F32E9190B17D00CF93BCC3CDE534/jobs/5213": {
+      "school_id": 193,
+      "posting_url": "https://phx.us-west.paycomonline.net/v4/ats/web.php/portal/9458F32E9190B17D00CF93BCC3CDE534/jobs/5213",
+      "job_title_in_post": "Adjunct Faculty",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    }
+  },
   "school_id": 193,
-  "status": "error",
-  "updated_at": "2026-11-02T21:08:25+00:00",
-  "last_error": "OSError: [Errno 11] Resource deadlock avoided: '/Users/yusiwei/Library/CloudStorage/OneDrive-Personal/faculty-job-atlas/job-data/school_job_info/school_id_193_job_info.csv'"
+  "status": "complete",
+  "updated_at": "2026-11-06T03:53:21+00:00",
+  "last_error": "",
+  "completed_at": "2026-11-06T03:53:21+00:00"
 }

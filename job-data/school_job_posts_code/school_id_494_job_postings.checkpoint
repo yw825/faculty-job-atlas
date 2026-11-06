@@ -5,13 +5,12 @@
     "https://www.transy.edu/employment-opportunities/#op-703915-assistant-registrar",
     "https://www.transy.edu/employment-opportunities/#op-710673-head-coach-womens-golf",
     "https://www.transy.edu/employment-opportunities/#op-709985-mfa-venue-assistant-technical-coordinator",
-    "https://www.transy.edu/employment-opportunities/#op-710891-office-services-coordinator",
-    "https://www.transy.edu/employment-opportunities/#op-710662-title-ix-coordinator"
+    "https://www.transy.edu/employment-opportunities/#op-710891-office-services-coordinator"
   ],
   "school_id": 494,
-  "status": "error",
-  "updated_at": "2026-11-03T21:20:11+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-05T18:45:51+00:00",
   "started_at": "2026-09-08T01:50:35+00:00",
-  "completed_at": "2026-10-30T18:35:42+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.transy.edu/employment-opportunities/\nCall log:\n  - navigating to \"https://www.transy.edu/employment-opportunities/\", waiting until \"domcontentloaded\"\n"
+  "completed_at": "2026-11-05T18:45:51+00:00",
+  "last_error": ""
 }

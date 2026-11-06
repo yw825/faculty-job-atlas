@@ -1,5 +1,6 @@
 {
   "links": [
+    "https://www.paycomonline.net/v4/ats/web.php/portal/76B960DE16E1EABF6B6D63157F84F11F/jobs/534669",
     "https://www.paycomonline.net/v4/ats/web.php/portal/76B960DE16E1EABF6B6D63157F84F11F/jobs/533610",
     "https://www.paycomonline.net/v4/ats/web.php/portal/76B960DE16E1EABF6B6D63157F84F11F/jobs/532502",
     "https://www.paycomonline.net/v4/ats/web.php/portal/76B960DE16E1EABF6B6D63157F84F11F/jobs/531283",
@@ -10,7 +11,6 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/76B960DE16E1EABF6B6D63157F84F11F/jobs/509175",
     "https://www.paycomonline.net/v4/ats/web.php/portal/76B960DE16E1EABF6B6D63157F84F11F/jobs/507345",
     "https://www.paycomonline.net/v4/ats/web.php/portal/76B960DE16E1EABF6B6D63157F84F11F/jobs/507315",
-    "https://www.paycomonline.net/v4/ats/web.php/portal/76B960DE16E1EABF6B6D63157F84F11F/jobs/481379",
     "https://www.paycomonline.net/v4/ats/web.php/portal/76B960DE16E1EABF6B6D63157F84F11F/jobs/476583",
     "https://www.paycomonline.net/v4/ats/web.php/portal/76B960DE16E1EABF6B6D63157F84F11F/jobs/459100",
     "https://www.paycomonline.net/v4/ats/web.php/portal/76B960DE16E1EABF6B6D63157F84F11F/jobs/452175",
@@ -25,9 +25,9 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/76B960DE16E1EABF6B6D63157F84F11F/jobs/19123"
   ],
   "school_id": 717,
-  "status": "error",
-  "updated_at": "2026-11-03T22:50:17+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-05T19:30:24+00:00",
   "started_at": "2026-09-08T02:11:13+00:00",
-  "completed_at": "2026-10-30T19:22:55+00:00",
-  "last_error": "RuntimeError: paycom portal made no job search request"
+  "completed_at": "2026-11-05T19:30:24+00:00",
+  "last_error": ""
 }

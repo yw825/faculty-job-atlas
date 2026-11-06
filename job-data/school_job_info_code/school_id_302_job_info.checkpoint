@@ -424,6 +424,31 @@
       "title": "Part Time Instructor - History (eCampus)",
       "description": "Posted: 10/29/2026 Location: Middle GA State University Department: State Part Time Instructor - History (eCampus)",
       "department": "State"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305457&PostingSeq=1&SiteId=83000": {
+      "title": "Catalog & Data Services Specialist I",
+      "description": "Posted: 11/03/2026 Location: MGA - Macon Department: Office of the Registrar Catalog & Data Services Specialist I",
+      "department": "Office of the Registrar"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305299&PostingSeq=1&SiteId=83000": {
+      "title": "Lecturer/Assistant Professor of Education with Math Focus",
+      "description": "Posted: 11/03/2026 Location: MGA - Macon Department: Dept of Teachers Ed & Soc Work Lecturer/Assistant Professor of Education with Math Focus",
+      "department": "Dept of Teachers Ed & Soc Work"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305368&PostingSeq=1&SiteId=83000": {
+      "title": "Academic Advisor I (Eastman Campus)",
+      "description": "Posted: 11/02/2026 Location: MGA Eastman Campus Department: Advising - General Academic Advisor I (Eastman Campus)",
+      "department": "Advising - General"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303578&PostingSeq=1&SiteId=83000": {
+      "title": "Marketing Communications Specialist II",
+      "description": "Posted: 09/10/2026 Location: MGA - Macon Department: Marketing & Communications Marketing Communications Specialist II",
+      "department": "Marketing & Communications"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=299605&PostingSeq=1&SiteId=83000": {
+      "title": "Development Officer",
+      "description": "Posted: 06/08/2026 Location: MGA - Macon Department: Development & Alumni Services Development Officer",
+      "department": "Development & Alumni Services"
     }
   },
   "rows": {
@@ -1440,11 +1465,71 @@
       "deadline_of_application": "",
       "posted_date": "10/29/2026",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305457&PostingSeq=1&SiteId=83000": {
+      "school_id": 302,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305457&PostingSeq=1&SiteId=83000",
+      "job_title_in_post": "Catalog & Data Services Specialist I",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Office of the Registrar",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/03/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305299&PostingSeq=1&SiteId=83000": {
+      "school_id": 302,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305299&PostingSeq=1&SiteId=83000",
+      "job_title_in_post": "Lecturer/Assistant Professor of Education with Math Focus",
+      "position_type": "Assistant_Professor; Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "Dept of Teachers Ed & Soc Work",
+      "area_key_words": "Education with Math Focus",
+      "deadline_of_application": "",
+      "posted_date": "11/03/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305368&PostingSeq=1&SiteId=83000": {
+      "school_id": 302,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305368&PostingSeq=1&SiteId=83000",
+      "job_title_in_post": "Academic Advisor I (Eastman Campus)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Advising - General",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/02/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303578&PostingSeq=1&SiteId=83000": {
+      "school_id": 302,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303578&PostingSeq=1&SiteId=83000",
+      "job_title_in_post": "Marketing Communications Specialist II",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Marketing & Communications",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "09/10/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=299605&PostingSeq=1&SiteId=83000": {
+      "school_id": 302,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=299605&PostingSeq=1&SiteId=83000",
+      "job_title_in_post": "Development Officer",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Development & Alumni Services",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "06/08/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 302,
   "status": "complete",
-  "updated_at": "2026-11-02T21:38:37+00:00",
-  "completed_at": "2026-11-02T21:38:37+00:00",
+  "updated_at": "2026-11-06T05:18:02+00:00",
+  "completed_at": "2026-11-06T05:18:02+00:00",
   "last_error": ""
 }

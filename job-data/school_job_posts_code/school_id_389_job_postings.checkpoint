@@ -11,16 +11,15 @@
     "https://apply.workable.com/elmhurst-edu/j/696AC00357/",
     "https://apply.workable.com/elmhurst-edu/j/4F7255BB4C/",
     "https://apply.workable.com/elmhurst-edu/j/4BC12A0946/",
-    "https://apply.workable.com/elmhurst-edu/j/43409FB8BF/",
     "https://apply.workable.com/elmhurst-edu/j/5727369426/",
     "https://apply.workable.com/elmhurst-edu/j/A4BAB4525B/",
     "https://apply.workable.com/elmhurst-edu/j/85C81B232E/",
     "https://apply.workable.com/elmhurst-edu/j/F6E0FCD394/"
   ],
   "school_id": 389,
-  "status": "error",
-  "updated_at": "2026-11-03T21:15:14+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-05T18:16:31+00:00",
   "started_at": "2026-09-08T01:39:47+00:00",
-  "completed_at": "2026-10-30T18:17:44+00:00",
-  "last_error": "RuntimeError: workable jobs status=None"
+  "completed_at": "2026-11-05T18:16:31+00:00",
+  "last_error": ""
 }

@@ -1,8 +1,20 @@
 {
-  "links": [],
+  "links": [
+    "https://www.schooljobs.com/careers/berea/jobs/4564378/adjunct-faculty",
+    "https://www.schooljobs.com/careers/berea/jobs/5483289/assistant-professor-of-child-and-family-studies",
+    "https://www.schooljobs.com/careers/berea/jobs/5474364/assistant-professor-of-computer-science-tenure-track-or-3-yr-fixed-term-positio",
+    "https://www.schooljobs.com/careers/berea/jobs/5495294/assistant-professor-of-engineering-technologies-and-applied-design-3-year-continu",
+    "https://www.schooljobs.com/careers/berea/jobs/5485715/assistant-professor-of-engineering-technologies-and-applied-design-tenure-track",
+    "https://www.schooljobs.com/careers/berea/jobs/5486455/assistant-professor-of-health-and-human-performance-dance-3yr-appointment-non-t",
+    "https://www.schooljobs.com/careers/berea/jobs/5455652/assistant-professor-of-nursing-tenure-track",
+    "https://www.schooljobs.com/careers/berea/jobs/5471453/assistant-professor-of-sociology-tenure-track",
+    "https://www.schooljobs.com/careers/berea/jobs/5539069/visiting-assistant-professor-of-economics-and-business",
+    "https://www.schooljobs.com/careers/berea/jobs/5485947/visiting-assistant-professor-of-psychology-3yr"
+  ],
   "school_id": 484,
-  "status": "error",
-  "updated_at": "2026-11-03T21:20:04+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-05T18:45:20+00:00",
   "started_at": "2026-11-03T21:20:04+00:00",
-  "last_error": "RuntimeError: neogov list status=None"
+  "last_error": "",
+  "completed_at": "2026-11-05T18:45:20+00:00"
 }

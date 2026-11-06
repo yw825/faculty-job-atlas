@@ -1,9 +1,9 @@
 {
   "links": [],
   "school_id": 399,
-  "status": "error",
-  "updated_at": "2026-11-03T21:15:53+00:00",
-  "started_at": "2026-10-30T18:20:01+00:00",
-  "completed_at": "2026-10-30T18:20:03+00:00",
-  "last_error": "Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://benu.csod.com/ux/ats/careersite/5/home?c=benu\nCall log:\n  - navigating to \"https://benu.csod.com/ux/ats/careersite/5/home?c=benu\", waiting until \"domcontentloaded\"\n"
+  "status": "complete",
+  "updated_at": "2026-11-05T18:18:58+00:00",
+  "started_at": "2026-11-05T18:18:45+00:00",
+  "completed_at": "2026-11-05T18:18:58+00:00",
+  "last_error": ""
 }

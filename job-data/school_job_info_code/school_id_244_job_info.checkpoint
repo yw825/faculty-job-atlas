@@ -1,12 +1,9 @@
 {
-  "raw": {
-    "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=89df2234-abda-481d-9d9f-d75161691110&ccId=19000101_000001&jobId=9202002822936_1&lang=en_US": {
-      "error": "not present in bulk fetch result"
-    }
-  },
+  "raw": {},
   "rows": {},
   "school_id": 244,
-  "status": "error",
-  "updated_at": "2026-11-02T21:19:16+00:00",
-  "last_error": "OSError: [Errno 11] Resource deadlock avoided: '/Users/yusiwei/Library/CloudStorage/OneDrive-Personal/faculty-job-atlas/job-data/school_job_info/school_id_244_job_info.csv'"
+  "status": "complete",
+  "updated_at": "2026-11-06T04:41:40+00:00",
+  "completed_at": "2026-11-06T04:41:40+00:00",
+  "last_error": ""
 }

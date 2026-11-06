@@ -319,6 +319,11 @@
       "title": "Student Success Coach",
       "description": "Posted: 10/28/2026 Location: CCGA- Main Campus (Brunswick) Department: Academic Affairs Student Success Coach",
       "department": "Academic Affairs"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305599&PostingSeq=1&SiteId=63000": {
+      "title": "Assistant Professor of Mathematics and Data Science",
+      "description": "Posted: 11/05/2026 Location: CCGA- Main Campus (Brunswick) Department: MDS Assistant Professor of Mathematics and Data Science",
+      "department": "MDS"
     }
   },
   "rows": {
@@ -1085,11 +1090,23 @@
       "deadline_of_application": "",
       "posted_date": "10/28/2026",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305599&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305599&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Assistant Professor of Mathematics and Data Science",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "MDS",
+      "area_key_words": "Mathematics and Data Science",
+      "deadline_of_application": "",
+      "posted_date": "11/05/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 284,
-  "status": "error",
-  "updated_at": "2026-11-02T21:27:34+00:00",
-  "completed_at": "2026-10-30T23:53:06+00:00",
-  "last_error": "OSError: [Errno 11] Resource deadlock avoided: '/Users/yusiwei/Library/CloudStorage/OneDrive-Personal/faculty-job-atlas/job-data/school_job_info/school_id_284_job_info.csv'"
+  "status": "complete",
+  "updated_at": "2026-11-06T05:12:23+00:00",
+  "completed_at": "2026-11-06T05:12:23+00:00",
+  "last_error": ""
 }

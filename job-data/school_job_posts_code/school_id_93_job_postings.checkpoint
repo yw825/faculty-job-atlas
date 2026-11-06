@@ -1,7 +1,6 @@
 {
   "links": [
     "https://recruit.ap.uci.edu/JPF09928",
-    "https://recruit.ap.uci.edu/JPF09931",
     "https://recruit.ap.uci.edu/JPF09981",
     "https://recruit.ap.uci.edu/JPF09989",
     "https://recruit.ap.uci.edu/JPF09993",
@@ -274,6 +273,7 @@
     "https://recruit.ap.uci.edu/JPF10421",
     "https://recruit.ap.uci.edu/JPF10422",
     "https://recruit.ap.uci.edu/JPF10423",
+    "https://recruit.ap.uci.edu/JPF10424",
     "https://recruit.ap.uci.edu/JPF10427",
     "https://recruit.ap.uci.edu/JPF10428",
     "https://recruit.ap.uci.edu/JPF10430",
@@ -317,13 +317,14 @@
     "https://recruit.ap.uci.edu/JPF10493",
     "https://recruit.ap.uci.edu/JPF10494",
     "https://recruit.ap.uci.edu/JPF10499",
+    "https://recruit.ap.uci.edu/JPF10501",
     "https://recruit.ap.uci.edu/JPF10502",
     "https://recruit.ap.uci.edu/JPF10504"
   ],
   "school_id": 93,
   "status": "complete",
-  "updated_at": "2026-11-03T17:00:47+00:00",
+  "updated_at": "2026-11-05T17:31:52+00:00",
   "started_at": "2026-11-02T18:16:44+00:00",
-  "completed_at": "2026-11-03T17:00:47+00:00",
+  "completed_at": "2026-11-05T17:31:52+00:00",
   "last_error": ""
 }

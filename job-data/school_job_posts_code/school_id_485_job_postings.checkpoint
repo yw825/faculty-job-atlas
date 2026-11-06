@@ -1,20 +1,20 @@
 {
   "links": [
-    "https://wku.interviewexchange.com/jobofferdetails.jsp?JOBID=206280",
-    "https://wku.interviewexchange.com/jobofferdetails.jsp?JOBID=206211",
-    "https://wku.interviewexchange.com/jobofferdetails.jsp?JOBID=206213",
-    "https://wku.interviewexchange.com/jobofferdetails.jsp?JOBID=206215",
-    "https://wku.interviewexchange.com/jobofferdetails.jsp?JOBID=206216",
-    "https://wku.interviewexchange.com/jobofferdetails.jsp?JOBID=206233",
-    "https://wku.interviewexchange.com/jobofferdetails.jsp?JOBID=206234",
-    "https://wku.interviewexchange.com/jobofferdetails.jsp?JOBID=206235",
-    "https://wku.interviewexchange.com/jobofferdetails.jsp?JOBID=206236",
-    "https://wku.interviewexchange.com/jobofferdetails.jsp?JOBID=206237"
+    "https://wku.interviewexchange.com/jobofferdetails.jsp?JOBID=206394",
+    "https://wku.interviewexchange.com/jobofferdetails.jsp?JOBID=206396",
+    "https://wku.interviewexchange.com/jobofferdetails.jsp?JOBID=206398",
+    "https://wku.interviewexchange.com/jobofferdetails.jsp?JOBID=206400",
+    "https://wku.interviewexchange.com/jobofferdetails.jsp?JOBID=206403",
+    "https://wku.interviewexchange.com/jobofferdetails.jsp?JOBID=206423",
+    "https://wku.interviewexchange.com/jobofferdetails.jsp?JOBID=206424",
+    "https://wku.interviewexchange.com/jobofferdetails.jsp?JOBID=206426",
+    "https://wku.interviewexchange.com/jobofferdetails.jsp?JOBID=206428",
+    "https://wku.interviewexchange.com/jobofferdetails.jsp?JOBID=206351"
   ],
   "school_id": 485,
-  "status": "error",
-  "updated_at": "2026-11-03T21:20:06+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-05T18:45:27+00:00",
   "started_at": "2026-09-09T05:16:05+00:00",
-  "completed_at": "2026-10-30T18:35:11+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.wku.edu/hr/careers/\nCall log:\n  - navigating to \"https://www.wku.edu/hr/careers/\", waiting until \"domcontentloaded\"\n"
+  "completed_at": "2026-11-05T18:45:27+00:00",
+  "last_error": ""
 }

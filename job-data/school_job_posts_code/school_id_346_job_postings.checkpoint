@@ -6,7 +6,6 @@
     "https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/439",
     "https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/424",
     "https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/297",
-    "https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/376",
     "https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/375",
     "https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/342",
     "https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/341",
@@ -17,9 +16,9 @@
     "https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/6"
   ],
   "school_id": 346,
-  "status": "error",
-  "updated_at": "2026-11-03T20:49:53+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-05T18:11:39+00:00",
   "started_at": "2026-09-25T07:01:22+00:00",
-  "completed_at": "2026-10-30T18:08:10+00:00",
-  "last_error": "RuntimeError: oracle session capture failed: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions\", waiting until \"domcontentloaded\"\n"
+  "completed_at": "2026-11-05T18:11:39+00:00",
+  "last_error": ""
 }

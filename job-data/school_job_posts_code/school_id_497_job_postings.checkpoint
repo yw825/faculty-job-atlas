@@ -10,14 +10,16 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/A99CE46A67143A8F77A8C7BDEA7155DA/jobs/547008",
     "https://www.paycomonline.net/v4/ats/web.php/portal/A99CE46A67143A8F77A8C7BDEA7155DA/jobs/563342",
     "https://www.paycomonline.net/v4/ats/web.php/portal/A99CE46A67143A8F77A8C7BDEA7155DA/jobs/565450",
-    "https://www.paycomonline.net/v4/ats/web.php/portal/A99CE46A67143A8F77A8C7BDEA7155DA/jobs/570454",
     "https://www.paycomonline.net/v4/ats/web.php/portal/A99CE46A67143A8F77A8C7BDEA7155DA/jobs/571068",
-    "https://www.paycomonline.net/v4/ats/web.php/portal/A99CE46A67143A8F77A8C7BDEA7155DA/jobs/571046"
+    "https://www.paycomonline.net/v4/ats/web.php/portal/A99CE46A67143A8F77A8C7BDEA7155DA/jobs/578830",
+    "https://www.paycomonline.net/v4/ats/web.php/portal/A99CE46A67143A8F77A8C7BDEA7155DA/jobs/578680",
+    "https://www.paycomonline.net/v4/ats/web.php/portal/A99CE46A67143A8F77A8C7BDEA7155DA/jobs/579365",
+    "https://www.paycomonline.net/v4/ats/web.php/portal/A99CE46A67143A8F77A8C7BDEA7155DA/jobs/579163"
   ],
   "school_id": 497,
-  "status": "error",
-  "updated_at": "2026-11-03T21:20:26+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-05T18:50:34+00:00",
   "started_at": "2026-09-25T06:21:38+00:00",
-  "completed_at": "2026-10-30T18:41:32+00:00",
-  "last_error": "Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.paycomonline.net/v4/ats/web.php/portal/A99CE46A67143A8F77A8C7BDEA7155DA/career-page\nCall log:\n  - navigating to \"https://www.paycomonline.net/v4/ats/web.php/portal/A99CE46A67143A8F77A8C7BDEA7155DA/career-page\", waiting until \"domcontentloaded\"\n"
+  "completed_at": "2026-11-05T18:50:34+00:00",
+  "last_error": ""
 }

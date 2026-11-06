@@ -1,8 +1,11 @@
 {
-  "links": [],
+  "links": [
+    "https://newmanuniversity.applytojob.com/apply/jobs/details/GlwJR7zJUD"
+  ],
   "school_id": 480,
-  "status": "error",
-  "updated_at": "2026-11-03T21:19:53+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-05T18:44:28+00:00",
   "started_at": "2026-11-03T21:19:53+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://newmanuniversity.applytojob.com/apply/jobs/\nCall log:\n  - navigating to \"https://newmanuniversity.applytojob.com/apply/jobs/\", waiting until \"domcontentloaded\"\n"
+  "last_error": "",
+  "completed_at": "2026-11-05T18:44:28+00:00"
 }

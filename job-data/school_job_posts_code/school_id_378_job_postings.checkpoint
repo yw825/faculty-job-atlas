@@ -1,8 +1,13 @@
 {
-  "links": [],
+  "links": [
+    "https://apply.workable.com/north-park-university/j/729007054C/",
+    "https://apply.workable.com/north-park-university/j/DDE588043C/",
+    "https://apply.workable.com/north-park-university/j/EBD1F31CCE/"
+  ],
   "school_id": 378,
-  "status": "error",
-  "updated_at": "2026-11-03T21:14:53+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-05T18:14:30+00:00",
   "started_at": "2026-11-03T21:14:53+00:00",
-  "last_error": "RuntimeError: workable jobs status=None"
+  "last_error": "",
+  "completed_at": "2026-11-05T18:14:30+00:00"
 }

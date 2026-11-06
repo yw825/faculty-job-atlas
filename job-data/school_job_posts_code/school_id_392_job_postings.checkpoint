@@ -4,9 +4,9 @@
     "https://www.knox.edu/documents/HR/Faculty_Job_Listings/Assistant_Professor_of_Biology_2026.pdf"
   ],
   "school_id": 392,
-  "status": "error",
-  "updated_at": "2026-11-03T21:15:36+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-05T18:17:47+00:00",
   "started_at": "2026-09-25T06:21:33+00:00",
-  "completed_at": "2026-10-30T18:19:06+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.knox.edu/employment-at-knox/faculty\nCall log:\n  - navigating to \"https://www.knox.edu/employment-at-knox/faculty\", waiting until \"domcontentloaded\"\n"
+  "completed_at": "2026-11-05T18:17:47+00:00",
+  "last_error": ""
 }

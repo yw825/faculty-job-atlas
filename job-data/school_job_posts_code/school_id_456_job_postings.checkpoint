@@ -1,8 +1,12 @@
 {
-  "links": [],
+  "links": [
+    "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4636950",
+    "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4476712"
+  ],
   "school_id": 456,
-  "status": "error",
-  "updated_at": "2026-11-03T21:18:51+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-05T18:41:46+00:00",
   "started_at": "2026-11-03T21:18:51+00:00",
-  "last_error": "RuntimeError: paylocity list status=None"
+  "last_error": "",
+  "completed_at": "2026-11-05T18:41:46+00:00"
 }

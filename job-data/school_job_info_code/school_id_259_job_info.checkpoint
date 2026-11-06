@@ -1,9 +1,219 @@
 {
-  "raw": {},
-  "rows": {},
+  "raw": {
+    "https://eckerd.exacthire.com/job/207968": {
+      "title": "Adjunct Instructor of Biology, Animal Nutrition",
+      "description": "Adjunct Instructor of Biology, Animal Nutrition, Job In Eckerd College At St. Petersburg, FL"
+    },
+    "https://eckerd.exacthire.com/job/211025": {
+      "title": "Assistant Controller",
+      "description": "Assistant Controller, Job In Eckerd College At St. Petersburg, FL"
+    },
+    "https://eckerd.exacthire.com/job/205983": {
+      "title": "Assistant Professor of Animal Studies, tenure-track",
+      "description": "Assistant Professor of Animal Studies, tenure-track, Job In Eckerd College At St. Petersburg, FL"
+    },
+    "https://eckerd.exacthire.com/job/198687": {
+      "title": "Assistant Professor of Marine Science, Marine Geologist, tenure-track",
+      "description": "Assistant Professor of Marine Science, Marine Geologist, tenure-track, Job In Eckerd College At St. Petersburg, FL"
+    },
+    "https://eckerd.exacthire.com/job/198479": {
+      "title": "Assistant Professor of Marine Science, Marine Mammal Scientist, tenure-track",
+      "description": "Assistant Professor of Marine Science, Marine Mammal Scientist, tenure-track, Job In Eckerd College At St. Petersburg, FL"
+    },
+    "https://eckerd.exacthire.com/job/210654": {
+      "title": "Assistant Professor of Theatre Design and Technology, tenure-track",
+      "description": "Assistant Professor of Theatre Design and Technology, tenure-track, Job In Eckerd College At St. Petersburg, FL"
+    },
+    "https://eckerd.exacthire.com/job/210652": {
+      "title": "Assistant Professor of Visual Arts, Painting, tenure-track",
+      "description": "Assistant Professor of Visual Arts, Painting, tenure-track, Job In Eckerd College At St. Petersburg, FL"
+    },
+    "https://eckerd.exacthire.com/job/202937": {
+      "title": "Assistant Professor, International Business and Finance",
+      "description": "Assistant Professor, International Business and Finance, Job In Eckerd College At St. Petersburg, FL"
+    },
+    "https://eckerd.exacthire.com/job/210062": {
+      "title": "Associate Director of Financial Aid",
+      "description": "Associate Director of Financial Aid, Job In Eckerd College At St. Petersburg, FL"
+    },
+    "https://eckerd.exacthire.com/job/209677": {
+      "title": "ExactHire",
+      "description": "ExactHire See more jobs View Our Website Current Job Listings Campus Safety Officer The job you are looking for is no longer open. See Open Jobs Applicant Tracking Software by ExactHire – © 2026 | Terms of Use | Privacy Policy"
+    },
+    "https://eckerd.exacthire.com/job/209653": {
+      "title": "Director of Alumni Engagement",
+      "description": "Director of Alumni Engagement, Job In Eckerd College At St. Petersburg, FL"
+    },
+    "https://eckerd.exacthire.com/job/207434": {
+      "title": "Director of Practitioner Engagement",
+      "description": "Director of Practitioner Engagement, Job In Eckerd College At St. Petersburg, FL"
+    },
+    "https://eckerd.exacthire.com/job/210034": {
+      "title": "Events and Logistics Specialist",
+      "description": "Events and Logistics Specialist, Job In Eckerd College At St. Petersburg, FL"
+    }
+  },
+  "rows": {
+    "https://eckerd.exacthire.com/job/207968": {
+      "school_id": 259,
+      "posting_url": "https://eckerd.exacthire.com/job/207968",
+      "job_title_in_post": "Adjunct Instructor of Biology, Animal Nutrition",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "Biology, Animal Nutrition",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://eckerd.exacthire.com/job/211025": {
+      "school_id": 259,
+      "posting_url": "https://eckerd.exacthire.com/job/211025",
+      "job_title_in_post": "Assistant Controller",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://eckerd.exacthire.com/job/205983": {
+      "school_id": 259,
+      "posting_url": "https://eckerd.exacthire.com/job/205983",
+      "job_title_in_post": "Assistant Professor of Animal Studies, tenure-track",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Animal Studies",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://eckerd.exacthire.com/job/198687": {
+      "school_id": 259,
+      "posting_url": "https://eckerd.exacthire.com/job/198687",
+      "job_title_in_post": "Assistant Professor of Marine Science, Marine Geologist, tenure-track",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Marine Science, Marine Geologist",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://eckerd.exacthire.com/job/198479": {
+      "school_id": 259,
+      "posting_url": "https://eckerd.exacthire.com/job/198479",
+      "job_title_in_post": "Assistant Professor of Marine Science, Marine Mammal Scientist, tenure-track",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Marine Science, Marine Mammal Scientist",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://eckerd.exacthire.com/job/210654": {
+      "school_id": 259,
+      "posting_url": "https://eckerd.exacthire.com/job/210654",
+      "job_title_in_post": "Assistant Professor of Theatre Design and Technology, tenure-track",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Theatre Design and Technology",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://eckerd.exacthire.com/job/210652": {
+      "school_id": 259,
+      "posting_url": "https://eckerd.exacthire.com/job/210652",
+      "job_title_in_post": "Assistant Professor of Visual Arts, Painting, tenure-track",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Visual Arts, Painting",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://eckerd.exacthire.com/job/202937": {
+      "school_id": 259,
+      "posting_url": "https://eckerd.exacthire.com/job/202937",
+      "job_title_in_post": "Assistant Professor, International Business and Finance",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "International Business and Finance",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://eckerd.exacthire.com/job/210062": {
+      "school_id": 259,
+      "posting_url": "https://eckerd.exacthire.com/job/210062",
+      "job_title_in_post": "Associate Director of Financial Aid",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Financial Aid",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://eckerd.exacthire.com/job/209677": {
+      "school_id": 259,
+      "posting_url": "https://eckerd.exacthire.com/job/209677",
+      "job_title_in_post": "ExactHire",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://eckerd.exacthire.com/job/209653": {
+      "school_id": 259,
+      "posting_url": "https://eckerd.exacthire.com/job/209653",
+      "job_title_in_post": "Director of Alumni Engagement",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Alumni Engagement",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://eckerd.exacthire.com/job/207434": {
+      "school_id": 259,
+      "posting_url": "https://eckerd.exacthire.com/job/207434",
+      "job_title_in_post": "Director of Practitioner Engagement",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Practitioner Engagement",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://eckerd.exacthire.com/job/210034": {
+      "school_id": 259,
+      "posting_url": "https://eckerd.exacthire.com/job/210034",
+      "job_title_in_post": "Events and Logistics Specialist",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    }
+  },
   "school_id": 259,
   "status": "complete",
-  "updated_at": "2026-11-02T21:20:24+00:00",
-  "completed_at": "2026-11-02T21:20:24+00:00",
+  "updated_at": "2026-11-06T04:48:05+00:00",
+  "completed_at": "2026-11-06T04:48:05+00:00",
   "last_error": ""
 }

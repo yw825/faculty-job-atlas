@@ -14,9 +14,9 @@
     "https://www.tiffin.edu/wp-content/uploads/Manager-of-Admissions-Visits-and-Experiences-Posting-10.9.2026.pdf"
   ],
   "school_id": 1071,
-  "status": "error",
-  "updated_at": "2026-11-04T04:43:31+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-05T20:25:13+00:00",
   "started_at": "2026-09-08T02:41:20+00:00",
-  "completed_at": "2026-10-30T20:32:37+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.tiffin.edu/about/offices-departments/human-resources/current-job-listings/\nCall log:\n  - navigating to \"https://www.tiffin.edu/about/offices-departments/human-resources/current-job-listings/\", waiting until \"domcontentloaded\"\n"
+  "completed_at": "2026-11-05T20:25:13+00:00",
+  "last_error": ""
 }

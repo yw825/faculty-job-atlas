@@ -1,8 +1,23 @@
 {
-  "links": [],
+  "links": [
+    "https://careers.usi.edu/jobs/professional-development-specialist-evansville-indiana-united-states",
+    "https://careers.usi.edu/jobs/clinical-associate-professor-of-psychology-evansville-indiana-united-states-cbb0016e-b1eb-4a75-af24-394d26f8a002",
+    "https://careers.usi.edu/jobs/instructor-in-nursing-evansville-indiana-united-states-98c58ea7-b6ad-4526-85b6-f64b8ee7d083",
+    "https://careers.usi.edu/jobs/assistant-professor-of-economics-evansville-indiana-united-states-37e2c84b-48a1-4e98-941a-562fe7d126d2",
+    "https://careers.usi.edu/jobs/assistant-professor-of-kinesiology-and-sport-evansville-indiana-united-states",
+    "https://careers.usi.edu/jobs/assistant-professor-of-respiratory-therapy-and-director-of-clinical-education-evansville-indiana-united-states-3ba56d6d-1ed8-4da2-b582-7c6b0ae113a1",
+    "https://careers.usi.edu/jobs/assistant-professor-of-engineering-electrical-evansville-indiana-united-states",
+    "https://careers.usi.edu/jobs/assistant-professor-of-engineering-mechanical-evansville-indiana-united-states",
+    "https://careers.usi.edu/jobs/assistant-professor-of-engineering-mfet-evansville-indiana-united-states",
+    "https://careers.usi.edu/jobs/assistant-professor-of-marketing-evansville-indiana-united-states",
+    "https://careers.usi.edu/jobs/assistant-professor-of-social-work-evansville-indiana-united-states",
+    "https://careers.usi.edu/jobs/assistant-professor-of-chemistry-evansville-indiana-united-states-d8650bac-740a-424f-9e14-47033a3d3167",
+    "https://careers.usi.edu/jobs/assistant-professor-of-health-administration-and-community-health-evansville-indiana-united-states-649bf506-b06e-45f9-a472-a6ab85304b67"
+  ],
   "school_id": 421,
-  "status": "error",
-  "updated_at": "2026-11-03T21:17:07+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-05T18:29:50+00:00",
   "started_at": "2026-11-03T21:17:07+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://careers.usi.edu/jobs/search?employment_type_uids%5B%5D=2870671dfb7b1b2953f9187844ba74a2&query=&page=1\nCall log:\n  - navigating to \"https://careers.usi.edu/jobs/search?employment_type_uids%5B%5D=2870671dfb7b1b2953f9187844ba74a2&query=&page=1\", waiting until \"domcontentloaded\"\n"
+  "last_error": "",
+  "completed_at": "2026-11-05T18:29:50+00:00"
 }

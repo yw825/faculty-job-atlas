@@ -10,9 +10,9 @@
     "https://myjobs.adp.com/facultyandstaffmaryvilleuniversityexternalcs/cx/job-details?reqId=5001140622206"
   ],
   "school_id": 731,
-  "status": "error",
-  "updated_at": "2026-11-03T23:04:02+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-05T19:32:24+00:00",
   "started_at": "2026-09-08T02:11:51+00:00",
-  "completed_at": "2026-10-30T19:25:22+00:00",
-  "last_error": "RuntimeError: ADP MyJobs: the page made no job search request"
+  "completed_at": "2026-11-05T19:32:24+00:00",
+  "last_error": ""
 }

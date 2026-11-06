@@ -1,7 +1,7 @@
 {
   "links": [
-    "https://www.paycomonline.net/v4/ats/web.php/portal/AB201C499D53A5D603D5BE296513B383/jobs/437210",
     "https://www.paycomonline.net/v4/ats/web.php/portal/AB201C499D53A5D603D5BE296513B383/jobs/412432",
+    "https://www.paycomonline.net/v4/ats/web.php/portal/AB201C499D53A5D603D5BE296513B383/jobs/443207",
     "https://www.paycomonline.net/v4/ats/web.php/portal/AB201C499D53A5D603D5BE296513B383/jobs/161009",
     "https://www.paycomonline.net/v4/ats/web.php/portal/AB201C499D53A5D603D5BE296513B383/jobs/44833",
     "https://www.paycomonline.net/v4/ats/web.php/portal/AB201C499D53A5D603D5BE296513B383/jobs/52056",
@@ -17,15 +17,14 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/AB201C499D53A5D603D5BE296513B383/jobs/380451",
     "https://www.paycomonline.net/v4/ats/web.php/portal/AB201C499D53A5D603D5BE296513B383/jobs/380467",
     "https://www.paycomonline.net/v4/ats/web.php/portal/AB201C499D53A5D603D5BE296513B383/jobs/380455",
-    "https://www.paycomonline.net/v4/ats/web.php/portal/AB201C499D53A5D603D5BE296513B383/jobs/421345",
     "https://www.paycomonline.net/v4/ats/web.php/portal/AB201C499D53A5D603D5BE296513B383/jobs/267675",
     "https://www.paycomonline.net/v4/ats/web.php/portal/AB201C499D53A5D603D5BE296513B383/jobs/438516",
     "https://www.paycomonline.net/v4/ats/web.php/portal/AB201C499D53A5D603D5BE296513B383/jobs/63894"
   ],
   "school_id": 473,
-  "status": "error",
-  "updated_at": "2026-11-03T21:19:42+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-05T18:43:49+00:00",
   "started_at": "2026-09-08T17:51:06+00:00",
-  "completed_at": "2026-10-30T18:32:44+00:00",
-  "last_error": "Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.paycomonline.net/v4/ats/web.php/portal/AB201C499D53A5D603D5BE296513B383/career-page\nCall log:\n  - navigating to \"https://www.paycomonline.net/v4/ats/web.php/portal/AB201C499D53A5D603D5BE296513B383/career-page\", waiting until \"domcontentloaded\"\n"
+  "completed_at": "2026-11-05T18:43:49+00:00",
+  "last_error": ""
 }

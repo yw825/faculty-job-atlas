@@ -2,7 +2,7 @@
   "links": [],
   "school_id": 1667,
   "status": "error",
-  "updated_at": "2026-11-02T19:33:45+00:00",
+  "updated_at": "2026-11-05T22:42:52+00:00",
   "started_at": "2026-11-02T19:32:25+00:00",
   "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://jobportal.ku.dk/tenure-track/\", waiting until \"domcontentloaded\"\n"
 }

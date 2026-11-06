@@ -1,8 +1,18 @@
 {
-  "links": [],
+  "links": [
+    "https://www.schooljobs.com/careers/mcneese/jobs/5378444/assistant-professor-of-accounting",
+    "https://www.schooljobs.com/careers/mcneese/jobs/5477363/assistant-professor-of-biology",
+    "https://www.schooljobs.com/careers/mcneese/jobs/5503211/assistant-professor-of-kinesiology",
+    "https://www.schooljobs.com/careers/mcneese/jobs/5412195/clinical-assistant-professor",
+    "https://www.schooljobs.com/careers/mcneese/jobs/5530385/director-of-student-success-and-retention",
+    "https://www.schooljobs.com/careers/mcneese/jobs/5509469/financial-aid-specialist",
+    "https://www.schooljobs.com/careers/mcneese/jobs/5487972/it-client-support-specialist",
+    "https://www.schooljobs.com/careers/mcneese/jobs/5488279/recruiter"
+  ],
   "school_id": 515,
-  "status": "error",
-  "updated_at": "2026-11-03T21:20:59+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-05T18:53:26+00:00",
   "started_at": "2026-11-03T21:20:59+00:00",
-  "last_error": "RuntimeError: neogov list status=None"
+  "last_error": "",
+  "completed_at": "2026-11-05T18:53:26+00:00"
 }

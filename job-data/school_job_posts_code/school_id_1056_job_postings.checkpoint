@@ -1,8 +1,21 @@
 {
-  "links": [],
+  "links": [
+    "https://marietta.interviewexchange.com/jobofferdetails.jsp?JOBID=205816",
+    "https://marietta.interviewexchange.com/jobofferdetails.jsp?JOBID=205137",
+    "https://marietta.interviewexchange.com/jobofferdetails.jsp?JOBID=199721",
+    "https://marietta.interviewexchange.com/jobofferdetails.jsp?JOBID=195423",
+    "https://marietta.interviewexchange.com/jobofferdetails.jsp?JOBID=204234",
+    "https://marietta.interviewexchange.com/jobofferdetails.jsp?JOBID=205541",
+    "https://marietta.interviewexchange.com/jobofferdetails.jsp?JOBID=205385",
+    "https://marietta.interviewexchange.com/jobofferdetails.jsp?JOBID=205328",
+    "https://marietta.interviewexchange.com/jobofferdetails.jsp?JOBID=202711",
+    "https://marietta.interviewexchange.com/jobofferdetails.jsp?JOBID=201033",
+    "https://marietta.interviewexchange.com/jobofferdetails.jsp?JOBID=188976"
+  ],
   "school_id": 1056,
-  "status": "error",
-  "updated_at": "2026-11-04T03:42:23+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-05T20:22:40+00:00",
   "started_at": "2026-11-04T03:42:20+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://marietta.interviewexchange.com/static/clients/465MCM1/index.jsp;jsessionid=4A76C959178576990FFE1A7A68DCDAB7\nCall log:\n  - navigating to \"https://marietta.interviewexchange.com/static/clients/465MCM1/index.jsp;jsessionid=4A76C959178576990FFE1A7A68DCDAB7\", waiting until \"domcontentloaded\"\n"
+  "last_error": "",
+  "completed_at": "2026-11-05T20:22:40+00:00"
 }

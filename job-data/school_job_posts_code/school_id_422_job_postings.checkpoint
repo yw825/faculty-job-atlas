@@ -1,8 +1,30 @@
 {
-  "links": [],
+  "links": [
+    "https://www.paycomonline.net/v4/ats/web.php/portal/9B7DD7DDF4B46DE388E0D590C86BBE1D/jobs/288820",
+    "https://www.paycomonline.net/v4/ats/web.php/portal/9B7DD7DDF4B46DE388E0D590C86BBE1D/jobs/284423",
+    "https://www.paycomonline.net/v4/ats/web.php/portal/9B7DD7DDF4B46DE388E0D590C86BBE1D/jobs/283595",
+    "https://www.paycomonline.net/v4/ats/web.php/portal/9B7DD7DDF4B46DE388E0D590C86BBE1D/jobs/282584",
+    "https://www.paycomonline.net/v4/ats/web.php/portal/9B7DD7DDF4B46DE388E0D590C86BBE1D/jobs/282578",
+    "https://www.paycomonline.net/v4/ats/web.php/portal/9B7DD7DDF4B46DE388E0D590C86BBE1D/jobs/282557",
+    "https://www.paycomonline.net/v4/ats/web.php/portal/9B7DD7DDF4B46DE388E0D590C86BBE1D/jobs/282551",
+    "https://www.paycomonline.net/v4/ats/web.php/portal/9B7DD7DDF4B46DE388E0D590C86BBE1D/jobs/282516",
+    "https://www.paycomonline.net/v4/ats/web.php/portal/9B7DD7DDF4B46DE388E0D590C86BBE1D/jobs/282504",
+    "https://www.paycomonline.net/v4/ats/web.php/portal/9B7DD7DDF4B46DE388E0D590C86BBE1D/jobs/279610",
+    "https://www.paycomonline.net/v4/ats/web.php/portal/9B7DD7DDF4B46DE388E0D590C86BBE1D/jobs/273304",
+    "https://www.paycomonline.net/v4/ats/web.php/portal/9B7DD7DDF4B46DE388E0D590C86BBE1D/jobs/273240",
+    "https://www.paycomonline.net/v4/ats/web.php/portal/9B7DD7DDF4B46DE388E0D590C86BBE1D/jobs/273223",
+    "https://www.paycomonline.net/v4/ats/web.php/portal/9B7DD7DDF4B46DE388E0D590C86BBE1D/jobs/266622",
+    "https://www.paycomonline.net/v4/ats/web.php/portal/9B7DD7DDF4B46DE388E0D590C86BBE1D/jobs/279058",
+    "https://www.paycomonline.net/v4/ats/web.php/portal/9B7DD7DDF4B46DE388E0D590C86BBE1D/jobs/222121",
+    "https://www.paycomonline.net/v4/ats/web.php/portal/9B7DD7DDF4B46DE388E0D590C86BBE1D/jobs/180832",
+    "https://www.paycomonline.net/v4/ats/web.php/portal/9B7DD7DDF4B46DE388E0D590C86BBE1D/jobs/107909",
+    "https://www.paycomonline.net/v4/ats/web.php/portal/9B7DD7DDF4B46DE388E0D590C86BBE1D/jobs/107239",
+    "https://www.paycomonline.net/v4/ats/web.php/portal/9B7DD7DDF4B46DE388E0D590C86BBE1D/jobs/80437"
+  ],
   "school_id": 422,
-  "status": "error",
-  "updated_at": "2026-11-03T21:17:10+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-05T18:30:07+00:00",
   "started_at": "2026-11-03T21:17:09+00:00",
-  "last_error": "Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.paycomonline.net/v4/ats/web.php/portal/9B7DD7DDF4B46DE388E0D590C86BBE1D/career-page\nCall log:\n  - navigating to \"https://www.paycomonline.net/v4/ats/web.php/portal/9B7DD7DDF4B46DE388E0D590C86BBE1D/career-page\", waiting until \"domcontentloaded\"\n"
+  "last_error": "",
+  "completed_at": "2026-11-05T18:30:07+00:00"
 }

@@ -47,6 +47,26 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/E89EC0BE36E642B4CF9B1208D8AFD807/jobs/353134": {
       "title": "Library Assistant - FT",
       "description": "Library Assistant - FT You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/E89EC0BE36E642B4CF9B1208D8AFD807/jobs/355389": {
+      "title": "PT Student Engagement Coordinator",
+      "description": "PT Student Engagement Coordinator You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/E89EC0BE36E642B4CF9B1208D8AFD807/jobs/355274": {
+      "title": "Associate Director of Development",
+      "description": "Associate Director of Development You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/E89EC0BE36E642B4CF9B1208D8AFD807/jobs/354621": {
+      "title": "VP of Advancement",
+      "description": "VP of Advancement You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/E89EC0BE36E642B4CF9B1208D8AFD807/jobs/354599": {
+      "title": "PT Care Manager",
+      "description": "PT Care Manager You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/E89EC0BE36E642B4CF9B1208D8AFD807/jobs/354219": {
+      "title": "PT Facilities Plumber",
+      "description": "PT Facilities Plumber You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -193,11 +213,71 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/E89EC0BE36E642B4CF9B1208D8AFD807/jobs/355389": {
+      "school_id": 279,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/E89EC0BE36E642B4CF9B1208D8AFD807/jobs/355389",
+      "job_title_in_post": "PT Student Engagement Coordinator",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/E89EC0BE36E642B4CF9B1208D8AFD807/jobs/355274": {
+      "school_id": 279,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/E89EC0BE36E642B4CF9B1208D8AFD807/jobs/355274",
+      "job_title_in_post": "Associate Director of Development",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Development",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/E89EC0BE36E642B4CF9B1208D8AFD807/jobs/354621": {
+      "school_id": 279,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/E89EC0BE36E642B4CF9B1208D8AFD807/jobs/354621",
+      "job_title_in_post": "VP of Advancement",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Advancement",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/E89EC0BE36E642B4CF9B1208D8AFD807/jobs/354599": {
+      "school_id": 279,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/E89EC0BE36E642B4CF9B1208D8AFD807/jobs/354599",
+      "job_title_in_post": "PT Care Manager",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/E89EC0BE36E642B4CF9B1208D8AFD807/jobs/354219": {
+      "school_id": 279,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/E89EC0BE36E642B4CF9B1208D8AFD807/jobs/354219",
+      "job_title_in_post": "PT Facilities Plumber",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 279,
   "status": "complete",
-  "updated_at": "2026-11-02T21:23:42+00:00",
-  "completed_at": "2026-11-02T21:23:42+00:00",
+  "updated_at": "2026-11-06T05:10:43+00:00",
+  "completed_at": "2026-11-06T05:10:43+00:00",
   "last_error": ""
 }

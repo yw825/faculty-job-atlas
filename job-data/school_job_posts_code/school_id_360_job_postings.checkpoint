@@ -32,10 +32,10 @@
     "https://uidaho.peopleadmin.com/postings/47640"
   ],
   "school_id": 360,
-  "status": "error",
-  "updated_at": "2026-11-03T21:02:48+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-05T18:12:43+00:00",
   "started_at": "2026-09-08T01:37:22+00:00",
-  "completed_at": "2026-10-30T18:09:55+00:00",
-  "last_error": "RuntimeError: list status=None",
-  "last_warning": "2026-10-30T18:09:55+00:00: board returned 0 links vs 30 before; old set kept"
+  "completed_at": "2026-11-05T18:12:43+00:00",
+  "last_error": "",
+  "last_warning": "2026-11-05T18:12:43+00:00: board returned 0 links vs 30 before; old set kept"
 }

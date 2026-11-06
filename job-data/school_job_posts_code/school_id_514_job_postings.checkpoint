@@ -1,9 +1,9 @@
 {
   "links": [
+    "https://louisiana.csod.com/ux/ats/careersite/1/home/requisition/4612?c=louisiana",
     "https://louisiana.csod.com/ux/ats/careersite/1/home/requisition/4537?c=louisiana",
     "https://louisiana.csod.com/ux/ats/careersite/1/home/requisition/4498?c=louisiana",
     "https://louisiana.csod.com/ux/ats/careersite/1/home/requisition/4592?c=louisiana",
-    "https://louisiana.csod.com/ux/ats/careersite/1/home/requisition/4442?c=louisiana",
     "https://louisiana.csod.com/ux/ats/careersite/1/home/requisition/4605?c=louisiana",
     "https://louisiana.csod.com/ux/ats/careersite/1/home/requisition/4597?c=louisiana",
     "https://louisiana.csod.com/ux/ats/careersite/1/home/requisition/4583?c=louisiana",
@@ -13,11 +13,11 @@
     "https://louisiana.csod.com/ux/ats/careersite/1/home/requisition/4585?c=louisiana",
     "https://louisiana.csod.com/ux/ats/careersite/1/home/requisition/4534?c=louisiana",
     "https://louisiana.csod.com/ux/ats/careersite/1/home/requisition/4572?c=louisiana",
-    "https://louisiana.csod.com/ux/ats/careersite/1/home/requisition/4525?c=louisiana",
     "https://louisiana.csod.com/ux/ats/careersite/1/home/requisition/4517?c=louisiana",
     "https://louisiana.csod.com/ux/ats/careersite/1/home/requisition/4471?c=louisiana",
     "https://louisiana.csod.com/ux/ats/careersite/1/home/requisition/4494?c=louisiana",
     "https://louisiana.csod.com/ux/ats/careersite/1/home/requisition/4155?c=louisiana",
+    "https://louisiana.csod.com/ux/ats/careersite/1/home/requisition/4351?c=louisiana",
     "https://louisiana.csod.com/ux/ats/careersite/1/home/requisition/4340?c=louisiana",
     "https://louisiana.csod.com/ux/ats/careersite/1/home/requisition/4339?c=louisiana",
     "https://louisiana.csod.com/ux/ats/careersite/1/home/requisition/3968?c=louisiana",
@@ -27,9 +27,9 @@
     "https://louisiana.csod.com/ux/ats/careersite/1/home/requisition/2584?c=louisiana"
   ],
   "school_id": 514,
-  "status": "error",
-  "updated_at": "2026-11-03T21:20:58+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-05T18:53:26+00:00",
   "started_at": "2026-09-08T01:53:54+00:00",
-  "completed_at": "2026-10-30T18:44:11+00:00",
-  "last_error": "Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://louisiana.csod.com/ats/careersite/search.aspx?site=1&c=louisiana\nCall log:\n  - navigating to \"https://louisiana.csod.com/ats/careersite/search.aspx?site=1&c=louisiana\", waiting until \"domcontentloaded\"\n"
+  "completed_at": "2026-11-05T18:53:26+00:00",
+  "last_error": ""
 }
