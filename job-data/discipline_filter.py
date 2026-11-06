@@ -142,12 +142,29 @@ def _other(text, lenient):
 _SUPPLY = re.compile(r"(?i)supply\s+chain|\blogistics\b")
 
 
+# Information Technology counts as the user's Information Systems field when
+# it sits in business: "IT and Supply Chain Management" (UW-Whitewater), "IT
+# Management", Haas "Operations and IT Management", Scheller, KSB. IT and
+# cybersecurity in computing schools stay out (closer to computer science).
+_IT = re.compile(r"(?i)information\s+technolog")
+_BUSINESS = re.compile(
+    r"(?i)management|business|analytics|supply\s+chain|commerce|\bhaas\b|scheller|\bKSB\b|"
+    r"\bTRSM\b|\bbus\b")
+
+
+def _business_it(title, department):
+    return bool(_IT.search(title) and (_BUSINESS.search(title) or _BUSINESS.search(department))
+                and not re.search(r"(?i)hospitality|touris|cyber", title))
+
+
 def is_relevant(title, department='', keywords=''):
     title = title or ''
     department = department or ''
     keywords = keywords or ''
     if not (title + department + keywords).strip():
         return True  # truly nothing to judge by
+    if _business_it(title, department):
+        return True
     # "Marketing & Business Analytics - Business Analytics": a specialty named
     # after the dash outranks the department name before it.
     spec = re.split(r"\s[-\u2013\u2014]\s", title)[-1] if re.search(r"\s[-\u2013\u2014]\s", title) else ''
@@ -194,7 +211,7 @@ SUBJECTS = [
         r"data\s+analytics|predictive\s+analytics|\banalytics\b")),
     ('Information Systems', re.compile(
         r"(?i)(?<!geographic\s)(?<!geographical\s)(?<!quantum\s)information\s+systems?|"
-        r"\bMIS\b(?!\s*\(masters\s+in\s+simulation)|\bCIS\b")),
+        r"\bMIS\b(?!\s*\(masters\s+in\s+simulation)|\bCIS\b|information\s+technolog")),
     ('Data Science', re.compile(r"(?i)data\s+scien|data\s+mining")),
     ('AI & Machine Learning', re.compile(
         r"(?i)artificial\s+intelligence|\bAI\b|machine\s+learning|deep\s+learning|"
