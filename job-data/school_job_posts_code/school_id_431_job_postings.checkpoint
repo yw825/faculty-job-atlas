@@ -23,9 +23,9 @@
     "https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1832"
   ],
   "school_id": 431,
-  "status": "complete",
-  "updated_at": "2026-11-05T18:37:44+00:00",
+  "status": "error",
+  "updated_at": "2026-11-06T08:55:35+00:00",
   "started_at": "2026-11-05T18:37:23+00:00",
   "completed_at": "2026-11-05T18:37:44+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: oracle session capture failed: Timeout 15000ms exceeded while waiting for event \"request\"\n=========================== logs ===========================\nwaiting for request **/recruitingCEJobRequisitions**\n============================================================"
 }

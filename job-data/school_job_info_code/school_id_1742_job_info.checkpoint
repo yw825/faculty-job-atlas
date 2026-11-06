@@ -135,6 +135,10 @@
     "https://apply.interfolio.com/195721": {
       "title": "Short-term Postdoctoral Research position for Proof of Concept ERC Grant SimOSpine",
       "description": "Department: Pompeu Fabra University: Department of Engineering Location: Barcelona Posted: Nov 04, 2026 Deadline: Nov 08, 2026 Establish automated preprocessing workflows for data augmentation across heterogeneous imaging protocols, and standardised input/output formats for modelling - Refine 3D reconstruction pipeline across heterogeneous clinical environments - Enhance fast-computing biomechanical predictions GENERAL REQUIREMENTS a. Hold a PhD degree (Doctorate). b. Not have been dismissed through disciplinary proceedings from the service of any public administration, nor be disqualified by a final judgment from exercising public functions. In the case of being a national of another country, not be disqualified or in an equivalent situation, nor have been subjected to a disciplinary sanction or equivalent that prevents, in their country and under the same terms, access to public employment. SPECIFIC REQUIREMENTS Academic background in biomedical, mechanical, or civil engineering, or equivalent. Have completed a PhD thesis in the field of finite element modeling of the spine. Proven experience in using machine learning techniques for patient stratification. Proven experience in personalized modeling of organs and tissues. Professional level of written English and Spanish for effective communication with project collaborators. Ability to start immediately once the selection process is resolved. These participation requirements must be met by the deadline for submitting applications, must be reliably proven at any time during the selection process, and must continue to be met on the date the contract is signed. Alleged merits will always be considered in relation to the final day of the application submission period. Selection Criteria Academic Background: 0–20 points. Professional Experience / Fit for the proposed profile: 0–60 points. Other Merits: 0–20 points. The minimum score required to pass the selection process is 80 points . Via Interfolio"
+    },
+    "https://apply.interfolio.com/197132": {
+      "title": "ENG-PSR-PROJ-2026-44 - Specialist support technician PSR3",
+      "description": "Department: Pompeu Fabra University: Department of Engineering - PSR Location: BARCELONA - Universitat Pompeu Fabra Posted: Nov 06, 2026 Deadline: Nov 19, 2026 Projecte description: Exploration of multimodal markers for predicting persistent remission in patients treated for rheumatoid arthritis Tasks to be performed: Retrospective data collection at Hospital del Mar for a cohort of 184 patients, including clinical and demographic data, information related to the patients' rheumatoid arthritis, ultrasounds, laboratory results, biomarkers, and gene expression (estimated duration: 4 months). Statistical analysis and machine learning to differentiate groups of patients who remain in remission throughout treatment across two different treatment arms (estimated duration: 8 months). Group and complement: Group 3 + Level m Dedication and working hours: Part-time (10 h/week) Planned remuneration approx: 9850 € gross per year Financing fund: CNR06326 - HMRIB BASIC INFORMATION ON DATA PROTECTION: Data Controller: Universitat Pompeu Fabra Purpose: Research support staff recruitment. Rights: You can access your data; request their rectification, deletion and portability; you may object to their processing and request their limitation. Additional information: Further detailed information is available on the website: https://rat.upf.edu/ca/ll040"
     }
   },
   "rows": {
@@ -537,11 +541,23 @@
       "deadline_of_application": "Nov 08, 2026",
       "posted_date": "Nov 04, 2026",
       "position_start_date": ""
+    },
+    "https://apply.interfolio.com/197132": {
+      "school_id": 1742,
+      "posting_url": "https://apply.interfolio.com/197132",
+      "job_title_in_post": "ENG-PSR-PROJ-2026-44 - Specialist support technician PSR3",
+      "position_type": "Unclassified",
+      "job_term": "Part-time",
+      "department_or_school": "Department of Engineering",
+      "area_key_words": "",
+      "deadline_of_application": "Nov 19, 2026",
+      "posted_date": "Nov 06, 2026",
+      "position_start_date": ""
     }
   },
   "school_id": 1742,
   "status": "complete",
-  "updated_at": "2026-11-06T07:24:35+00:00",
-  "completed_at": "2026-11-06T07:24:35+00:00",
+  "updated_at": "2026-11-06T13:40:54+00:00",
+  "completed_at": "2026-11-06T13:40:54+00:00",
   "last_error": ""
 }

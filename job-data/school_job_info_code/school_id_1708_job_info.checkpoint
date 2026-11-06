@@ -43,6 +43,10 @@
     "https://jobmarket.unibocconi.eu/?id=1020": {
       "title": "Assistant Professor, Dept. Computing Sciences, INFO-01/A Informatics",
       "description": "Closing Date: 04/12/2026 Posted Date: 03/11/2026 Department: Computing Sciences 230770 "
+    },
+    "https://jobmarket.unibocconi.eu/?id=1022": {
+      "title": "Assistant Professor, Dept. Computing Sciences",
+      "description": "Closing Date: 11/01/2027 Posted Date: 06/11/2026 Department: Computing Sciences 232609 "
     }
   },
   "rows": {
@@ -175,11 +179,23 @@
       "deadline_of_application": "04/12/2026",
       "posted_date": "03/11/2026",
       "position_start_date": ""
+    },
+    "https://jobmarket.unibocconi.eu/?id=1022": {
+      "school_id": 1708,
+      "posting_url": "https://jobmarket.unibocconi.eu/?id=1022",
+      "job_title_in_post": "Assistant Professor, Dept. Computing Sciences",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Dept. Computing Sciences",
+      "deadline_of_application": "11/01/2027",
+      "posted_date": "06/11/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 1708,
   "status": "complete",
-  "updated_at": "2026-11-06T07:59:28+00:00",
-  "completed_at": "2026-11-06T07:59:28+00:00",
+  "updated_at": "2026-11-06T13:33:09+00:00",
+  "completed_at": "2026-11-06T13:33:09+00:00",
   "last_error": ""
 }

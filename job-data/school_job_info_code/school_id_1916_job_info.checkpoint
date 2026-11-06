@@ -47,6 +47,22 @@
     "https://my.corehr.com/pls/iadtrecruit/erq_jobspec_version_4.jobspec?p_id=007442": {
       "title": "Staff Accountant (Projects) - Grade VI - Permanent Whole-time Ref: 62 26",
       "description": "Closing Date: 09/11/2026 Staff Accountant (Projects) - Grade VI - Permanent Whole-time Ref: 62 26 Please see attached Candidate Information Booklet for full details of the role. Contact Email : recruitment@iadt.ie Close Date : 09-Nov-2026 12:00 Contact Person : recruitment@iadt.ie"
+    },
+    "https://my.corehr.com/pls/iadtrecruit/erq_jobspec_version_4.jobspec?p_id=007503": {
+      "title": "Assistant Lecturer in Digital Business - Permanent Whole-time Ref: 72/26",
+      "description": "Closing Date: 23/11/2026 Assistant Lecturer in Digital Business - Permanent Whole-time Ref: 72/26 Please see attached Candidate Information Booklet for full details of the role. Contact Email : recruitment@iadt.ie Close Date : 23-Nov-2026 12:00 Contact Person : recruitment@iadt.ie"
+    },
+    "https://my.corehr.com/pls/iadtrecruit/erq_jobspec_version_4.jobspec?p_id=007504": {
+      "title": "Assistant Lecturer in Human Resource Management and Equality, Diversity and Inclusion - 1.5 year, Fixed Term, Whole-time Ref: 69/26",
+      "description": "Closing Date: 23/11/2026 Assistant Lecturer in Human Resource Management and Equality, Diversity and Inclusion - 1.5 year, Fixed Term, Whole-time Ref: 69/26 Please see attached Candidate Information Booklet for full details of the role. Contact Email : recruitment@iadt.ie Close Date : 23-Nov-2026 12:00 Contact Person : recruitment@iadt.ie"
+    },
+    "https://my.corehr.com/pls/iadtrecruit/erq_jobspec_version_4.jobspec?p_id=007502": {
+      "title": "Assistant Lecturer in Visual Culture (Art) - Permanent Whole-time Ref: 68/26",
+      "description": "Closing Date: 23/11/2026 Assistant Lecturer in Visual Culture (Art) - Permanent Whole-time Ref: 68/26 Please see attached Candidate Information Booklet for full details of the role. Contact Email : recruitment@iadt.ie Close Date : 23-Nov-2026 12:00 Contact Person : recruitment@iadt.ie"
+    },
+    "https://my.corehr.com/pls/iadtrecruit/erq_jobspec_version_4.jobspec?p_id=007542": {
+      "title": "Project Coordinator - Creative Pathways for All - Grade VI - Fixed Term Whole-time until the 31st August 2028 Ref: 76/26",
+      "description": "Closing Date: 23/11/2026 Project Coordinator - Creative Pathways for All - Grade VI - Fixed Term Whole-time until the 31st August 2028 Ref: 76/26 Please see attached Candidate Information Booklet for full details of the role. Contact Email : recruitment@iadt.ie Close Date : 23-Nov-2026 12:00 Contact Person : recruitment@iadt.ie"
     }
   },
   "rows": {
@@ -193,11 +209,59 @@
       "deadline_of_application": "09/11/2026",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://my.corehr.com/pls/iadtrecruit/erq_jobspec_version_4.jobspec?p_id=007503": {
+      "school_id": 1916,
+      "posting_url": "https://my.corehr.com/pls/iadtrecruit/erq_jobspec_version_4.jobspec?p_id=007503",
+      "job_title_in_post": "Assistant Lecturer in Digital Business - Permanent Whole-time Ref: 72/26",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Digital Business",
+      "deadline_of_application": "23/11/2026",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://my.corehr.com/pls/iadtrecruit/erq_jobspec_version_4.jobspec?p_id=007504": {
+      "school_id": 1916,
+      "posting_url": "https://my.corehr.com/pls/iadtrecruit/erq_jobspec_version_4.jobspec?p_id=007504",
+      "job_title_in_post": "Assistant Lecturer in Human Resource Management and Equality, Diversity and Inclusion - 1.5 year, Fixed Term, Whole-time Ref: 69/26",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Human Resource Management and Equality, Diversity and Inclusion",
+      "deadline_of_application": "23/11/2026",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://my.corehr.com/pls/iadtrecruit/erq_jobspec_version_4.jobspec?p_id=007502": {
+      "school_id": 1916,
+      "posting_url": "https://my.corehr.com/pls/iadtrecruit/erq_jobspec_version_4.jobspec?p_id=007502",
+      "job_title_in_post": "Assistant Lecturer in Visual Culture (Art) - Permanent Whole-time Ref: 68/26",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Visual Culture",
+      "deadline_of_application": "23/11/2026",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://my.corehr.com/pls/iadtrecruit/erq_jobspec_version_4.jobspec?p_id=007542": {
+      "school_id": 1916,
+      "posting_url": "https://my.corehr.com/pls/iadtrecruit/erq_jobspec_version_4.jobspec?p_id=007542",
+      "job_title_in_post": "Project Coordinator - Creative Pathways for All - Grade VI - Fixed Term Whole-time until the 31st August 2028 Ref: 76/26",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "23/11/2026",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1916,
   "status": "complete",
-  "updated_at": "2026-10-31T01:50:21+00:00",
-  "completed_at": "2026-10-31T01:50:21+00:00",
+  "updated_at": "2026-11-06T13:32:31+00:00",
+  "completed_at": "2026-11-06T13:32:31+00:00",
   "last_error": ""
 }

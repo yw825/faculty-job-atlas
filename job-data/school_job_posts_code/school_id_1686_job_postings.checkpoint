@@ -3,9 +3,9 @@
     "https://www.hu-berlin.de/en/university/working-at-the-hu/jobs/details/wissenschaftlicher-mitarbeiterin-m-w-d-auf-dem-gebiet-der-romanischen-sprachen-schwerpunkt-spanisch-dr-164-26"
   ],
   "school_id": 1686,
-  "status": "complete",
-  "updated_at": "2026-11-05T23:01:16+00:00",
+  "status": "error",
+  "updated_at": "2026-11-06T11:43:09+00:00",
   "started_at": "2026-10-05T21:12:06+00:00",
   "completed_at": "2026-11-05T23:01:16+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: hu-berlin: still on the Anubis challenge page"
 }

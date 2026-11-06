@@ -129,8 +129,9 @@
   ],
   "school_id": 863,
   "status": "complete",
-  "updated_at": "2026-11-05T19:55:28+00:00",
+  "updated_at": "2026-11-06T09:37:45+00:00",
   "started_at": "2026-09-08T02:24:02+00:00",
   "last_error": "",
-  "completed_at": "2026-11-05T19:55:28+00:00"
+  "completed_at": "2026-11-06T09:37:45+00:00",
+  "last_warning": "2026-11-06T09:37:45+00:00: board returned 0 links vs 126 before; old set kept"
 }

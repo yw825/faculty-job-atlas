@@ -173,9 +173,9 @@
     "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/25260023"
   ],
   "school_id": 1834,
-  "status": "complete",
-  "updated_at": "2026-11-05T23:10:35+00:00",
+  "status": "error",
+  "updated_at": "2026-11-06T11:46:28+00:00",
   "started_at": "2026-11-02T19:38:53+00:00",
   "completed_at": "2026-11-05T23:10:35+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: oracle session capture failed: Timeout 15000ms exceeded while waiting for event \"request\"\n=========================== logs ===========================\nwaiting for request **/recruitingCEJobRequisitions**\n============================================================"
 }

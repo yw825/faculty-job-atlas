@@ -28,9 +28,9 @@
     "https://apply.interfolio.com/189225"
   ],
   "school_id": 847,
-  "status": "complete",
-  "updated_at": "2026-11-05T19:53:55+00:00",
+  "status": "error",
+  "updated_at": "2026-11-06T09:32:22+00:00",
   "started_at": "2026-09-08T02:21:27+00:00",
   "completed_at": "2026-11-05T19:53:55+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: Interfolio board 11002 returned no positions"
 }

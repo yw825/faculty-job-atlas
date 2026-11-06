@@ -1199,6 +1199,16 @@
       "title": "Public Safety Ambassador",
       "description": "Posted: 08/04/2025 Location: Kennesaw, Georgia Department: LAF-Public Safety Public Safety Ambassador",
       "department": "LAF-Public Safety"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305690&PostingSeq=1&SiteId=43000": {
+      "title": "Groundskeeper",
+      "description": "Posted: 11/05/2026 Location: Kennesaw, Georgia Department: OPS-Landscape and Grounds Groundskeeper",
+      "department": "OPS-Landscape and Grounds"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305534&PostingSeq=1&SiteId=43000": {
+      "title": "Lecturer of Chemistry and Biochemistry",
+      "description": "Posted: 11/05/2026 Location: Kennesaw, Georgia Department: SCM-Chemistry & Biochemistry Lecturer of Chemistry and Biochemistry",
+      "department": "SCM-Chemistry & Biochemistry"
     }
   },
   "rows": {
@@ -4081,11 +4091,35 @@
       "deadline_of_application": "",
       "posted_date": "08/04/2025",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305690&PostingSeq=1&SiteId=43000": {
+      "school_id": 297,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305690&PostingSeq=1&SiteId=43000",
+      "job_title_in_post": "Groundskeeper",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "OPS-Landscape and Grounds",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/05/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305534&PostingSeq=1&SiteId=43000": {
+      "school_id": 297,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305534&PostingSeq=1&SiteId=43000",
+      "job_title_in_post": "Lecturer of Chemistry and Biochemistry",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "SCM-Chemistry & Biochemistry",
+      "area_key_words": "Chemistry and Biochemistry",
+      "deadline_of_application": "",
+      "posted_date": "11/05/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 297,
   "status": "complete",
-  "updated_at": "2026-11-06T07:31:22+00:00",
+  "updated_at": "2026-11-06T12:49:10+00:00",
   "last_error": "",
-  "completed_at": "2026-11-06T07:31:22+00:00"
+  "completed_at": "2026-11-06T12:49:10+00:00"
 }

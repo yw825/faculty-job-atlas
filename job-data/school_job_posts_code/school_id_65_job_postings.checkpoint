@@ -106,9 +106,9 @@
     "https://arizona.csod.com/ux/ats/careersite/4/home/requisition/24112?c=arizona"
   ],
   "school_id": 65,
-  "status": "complete",
-  "updated_at": "2026-11-05T17:27:51+00:00",
+  "status": "error",
+  "updated_at": "2026-11-06T08:12:45+00:00",
   "started_at": "2026-11-02T18:07:52+00:00",
   "completed_at": "2026-11-05T17:27:51+00:00",
-  "last_error": ""
+  "last_error": "TimeoutError: Page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://arizona.csod.com/ux/ats/careersite/4/home?c=arizona&cfdd[0][id]=227&cfdd[0][options][0]=306\", waiting until \"domcontentloaded\"\n"
 }

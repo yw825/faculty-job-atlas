@@ -12,9 +12,9 @@
     "https://www.schooljobs.com/careers/rivieredu/jobs/5301137/graduate-assistant-office-of-admissions"
   ],
   "school_id": 854,
-  "status": "complete",
-  "updated_at": "2026-11-05T19:54:31+00:00",
+  "status": "error",
+  "updated_at": "2026-11-06T09:32:57+00:00",
   "started_at": "2026-09-10T07:04:34+00:00",
   "completed_at": "2026-11-05T19:54:31+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: neogov list status=None"
 }

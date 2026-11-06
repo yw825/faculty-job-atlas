@@ -87,6 +87,14 @@
     "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225329": {
       "title": "Student Experience Team Leader",
       "description": "Student Experience Team Leader. University of New England. Reference 225329. 225329 Student Experience Team Leader Professional - Continuing - full - time - HEO7 Oorala Aboriginal Centre 19-NOV-2026 11:59:00 am"
+    },
+    "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225330": {
+      "title": "Project Delivery Manager",
+      "description": "Project Delivery Manager. University of New England. Reference 225330. 225330 Project Delivery Manager Professional - Continuing, full-time - HEO9 Project Delivery 22-NOV-2026 11:59:59 pm"
+    },
+    "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225331": {
+      "title": "Director, Library Services and University Librarian",
+      "description": "Director, Library Services and University Librarian. University of New England. Reference 225331. 225331 Director, Library Services and University Librarian Executive - 5 Year - Full-time - Fixed Term Contract Library Services 29-NOV-2026 11:59:59 pm"
     }
   },
   "rows": {
@@ -347,11 +355,35 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225330": {
+      "school_id": 1780,
+      "posting_url": "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225330",
+      "job_title_in_post": "Project Delivery Manager",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225331": {
+      "school_id": 1780,
+      "posting_url": "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225331",
+      "job_title_in_post": "Director, Library Services and University Librarian",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1780,
   "status": "complete",
-  "updated_at": "2026-11-06T07:11:40+00:00",
-  "completed_at": "2026-11-06T07:11:40+00:00",
+  "updated_at": "2026-11-06T13:18:27+00:00",
+  "completed_at": "2026-11-06T13:18:27+00:00",
   "last_error": ""
 }

@@ -26,9 +26,9 @@
     "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2951536&PostingSeq=1&SiteId=1"
   ],
   "school_id": 826,
-  "status": "complete",
-  "updated_at": "2026-11-05T19:48:21+00:00",
+  "status": "error",
+  "updated_at": "2026-11-06T09:28:52+00:00",
   "started_at": "2026-09-08T02:18:39+00:00",
   "completed_at": "2026-11-05T19:48:21+00:00",
-  "last_error": ""
+  "last_error": "TimeoutError: Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for get_by_text(re.compile(r\"^Mayville\\ State\\ University \\(\\d+\\)$\")).first\n    - locator resolved to <label class=\"ps-label\" for=\"PTS_SELECT$7\" id=\"PTS_SELECT_LBL$7\">Mayville State University (24)</label>\n  - attempting click action\n    - waiting for element to be visible, enabled and stable\n    - element is not stable\n  - retrying click action\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - performing click action\n"
 }

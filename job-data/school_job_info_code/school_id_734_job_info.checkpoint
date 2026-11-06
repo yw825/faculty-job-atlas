@@ -104,6 +104,21 @@
       "title": "Assistant Professor of Biochemistry and/or Bioanalytical Chemistry",
       "description": "Posted: 10/29/2026 Location: St. Louis Department: Chemistry Assistant Professor of Biochemistry and/or Bioanalytical Chemistry",
       "department": "Chemistry"
+    },
+    "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61666&PostingSeq=1&SiteId=11": {
+      "title": "Assistant Teaching Professor of Biochemistry - UMSL",
+      "description": "Posted: 11/05/2026 Location: St. Louis Department: Chemistry Assistant Teaching Professor of Biochemistry - UMSL",
+      "department": "Chemistry"
+    },
+    "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61642&PostingSeq=1&SiteId=11": {
+      "title": "Math Adjunct Instructor",
+      "description": "Posted: 11/05/2026 Location: St. Louis Department: Mathematics and Statistics Math Adjunct Instructor",
+      "department": "Mathematics and Statistics"
+    },
+    "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61632&PostingSeq=1&SiteId=11": {
+      "title": "Physics Adjunct Instructor",
+      "description": "Posted: 11/05/2026 Location: St. Louis Department: Physics and Astronomy Physics Adjunct Instructor",
+      "department": "Physics and Astronomy"
     }
   },
   "rows": {
@@ -220,7 +235,7 @@
       "position_type": "Lecturer",
       "job_term": "Full-time",
       "department_or_school": "Finance",
-      "area_key_words": "Finance and Legal Studies; Professor",
+      "area_key_words": "Finance and Legal Studies",
       "deadline_of_application": "",
       "posted_date": "08/18/2026",
       "position_start_date": ""
@@ -356,11 +371,47 @@
       "deadline_of_application": "",
       "posted_date": "10/29/2026",
       "position_start_date": ""
+    },
+    "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61666&PostingSeq=1&SiteId=11": {
+      "school_id": 734,
+      "posting_url": "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61666&PostingSeq=1&SiteId=11",
+      "job_title_in_post": "Assistant Teaching Professor of Biochemistry - UMSL",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "Chemistry",
+      "area_key_words": "Biochemistry",
+      "deadline_of_application": "",
+      "posted_date": "11/05/2026",
+      "position_start_date": ""
+    },
+    "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61642&PostingSeq=1&SiteId=11": {
+      "school_id": 734,
+      "posting_url": "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61642&PostingSeq=1&SiteId=11",
+      "job_title_in_post": "Math Adjunct Instructor",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "Mathematics and Statistics",
+      "area_key_words": "Math Adjunct",
+      "deadline_of_application": "",
+      "posted_date": "11/05/2026",
+      "position_start_date": ""
+    },
+    "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61632&PostingSeq=1&SiteId=11": {
+      "school_id": 734,
+      "posting_url": "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61632&PostingSeq=1&SiteId=11",
+      "job_title_in_post": "Physics Adjunct Instructor",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "Physics and Astronomy",
+      "area_key_words": "Physics Adjunct",
+      "deadline_of_application": "",
+      "posted_date": "11/05/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 734,
   "status": "complete",
-  "updated_at": "2026-10-31T00:27:47+00:00",
-  "completed_at": "2026-10-31T00:27:47+00:00",
+  "updated_at": "2026-11-06T12:44:00+00:00",
+  "completed_at": "2026-11-06T12:44:00+00:00",
   "last_error": ""
 }

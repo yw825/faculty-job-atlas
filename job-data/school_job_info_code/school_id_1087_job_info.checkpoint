@@ -413,6 +413,10 @@
     },
     "https://my.rsu.edu/ICS/RSU_Jobs/RSU_Employment_Opportunities.jnz#student-worker-fws-83": {
       "error": "RuntimeError: position no longer listed"
+    },
+    "https://my.rsu.edu/ICS/RSU_Jobs/RSU_Employment_Opportunities.jnz#instructor-34": {
+      "title": "Instructor",
+      "description": "Instructor. Department: Department of Mathematics & Physical Sciences. Classification: Faculty. Full Time. Posted: 07/24/2026."
     }
   },
   "rows": {
@@ -665,6 +669,7 @@
       "department_or_school": "Department of Mathematics & Physical Sciences",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "09/04/2026",
       "position_start_date": ""
     },
     "https://my.rsu.edu/ICS/RSU_Jobs/RSU_Employment_Opportunities.jnz#assistant-professor-22": {
@@ -1634,11 +1639,23 @@
     },
     "https://my.rsu.edu/ICS/RSU_Jobs/RSU_Employment_Opportunities.jnz#student-worker-fws-83": {
       "error": "RuntimeError: position no longer listed"
+    },
+    "https://my.rsu.edu/ICS/RSU_Jobs/RSU_Employment_Opportunities.jnz#instructor-34": {
+      "school_id": 1087,
+      "posting_url": "https://my.rsu.edu/ICS/RSU_Jobs/RSU_Employment_Opportunities.jnz#instructor-34",
+      "job_title_in_post": "Instructor",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "Department of Mathematics & Physical Sciences",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "07/24/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 1087,
   "status": "complete",
-  "updated_at": "2026-11-06T07:15:53+00:00",
-  "completed_at": "2026-11-06T07:15:53+00:00",
+  "updated_at": "2026-11-06T13:10:59+00:00",
+  "completed_at": "2026-11-06T13:10:59+00:00",
   "last_error": ""
 }

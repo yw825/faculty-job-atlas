@@ -56,9 +56,9 @@
     "https://myjobs.adp.com/websteruniversity/cx/job-details?reqId=5000857329206"
   ],
   "school_id": 736,
-  "status": "complete",
-  "updated_at": "2026-11-05T19:32:58+00:00",
+  "status": "error",
+  "updated_at": "2026-11-06T09:36:29+00:00",
   "started_at": "2026-09-14T18:23:49+00:00",
   "completed_at": "2026-11-05T19:32:58+00:00",
-  "last_error": ""
+  "last_error": "TimeoutError: Page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://myjobs.adp.com/websteruniversity/cx/job-listing\", waiting until \"domcontentloaded\"\n"
 }

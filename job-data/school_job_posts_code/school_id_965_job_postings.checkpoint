@@ -577,9 +577,9 @@
     "https://apply.interfolio.com/197003"
   ],
   "school_id": 965,
-  "status": "complete",
-  "updated_at": "2026-11-05T20:09:49+00:00",
+  "status": "error",
+  "updated_at": "2026-11-06T09:53:45+00:00",
   "started_at": "2026-09-09T01:28:44+00:00",
   "completed_at": "2026-11-05T20:09:49+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: columbia: position list did not load"
 }

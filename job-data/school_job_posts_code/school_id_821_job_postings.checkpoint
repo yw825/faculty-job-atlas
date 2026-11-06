@@ -52,9 +52,9 @@
     "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2943071&PostingSeq=1&SiteId=1"
   ],
   "school_id": 821,
-  "status": "complete",
-  "updated_at": "2026-11-05T19:46:31+00:00",
+  "status": "error",
+  "updated_at": "2026-11-06T09:50:02+00:00",
   "started_at": "2026-09-08T02:18:28+00:00",
   "completed_at": "2026-11-05T19:46:31+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: PeopleSoft filter entry 'Dickinson State University' not found"
 }

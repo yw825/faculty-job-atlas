@@ -714,6 +714,11 @@
       "title": "Senior Program Coordinator",
       "description": "Posted: 11/02/2026 Location: Tyler, TX Department: SOM Student Affairs Senior Program Coordinator",
       "department": "SOM Student Affairs"
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16758&PostingSeq=1&SiteId=12": {
+      "title": "Administrative and Billing Specialist II",
+      "description": "Posted: 11/05/2026 Location: Tyler, TX Department: Microbiology Section 2 Administrative and Billing Specialist II",
+      "department": "Microbiology Section 2"
     }
   },
   "rows": {
@@ -2421,11 +2426,23 @@
       "deadline_of_application": "",
       "posted_date": "11/02/2026",
       "position_start_date": ""
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16758&PostingSeq=1&SiteId=12": {
+      "school_id": 1437,
+      "posting_url": "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16758&PostingSeq=1&SiteId=12",
+      "job_title_in_post": "Administrative and Billing Specialist II",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Microbiology Section 2",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/05/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 1437,
   "status": "complete",
-  "updated_at": "2026-11-06T06:58:17+00:00",
-  "completed_at": "2026-11-06T06:58:17+00:00",
+  "updated_at": "2026-11-06T12:59:43+00:00",
+  "completed_at": "2026-11-06T12:59:43+00:00",
   "last_error": ""
 }

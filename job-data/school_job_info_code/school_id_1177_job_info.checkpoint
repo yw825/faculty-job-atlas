@@ -409,8 +409,8 @@
     }
   },
   "school_id": 1177,
-  "status": "complete",
-  "updated_at": "2026-11-06T07:30:05+00:00",
+  "status": "error",
+  "updated_at": "2026-11-06T12:53:31+00:00",
   "completed_at": "2026-11-06T07:30:05+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: oracle session capture failed: Timeout 15000ms exceeded while waiting for event \"request\"\n=========================== logs ===========================\nwaiting for request **/recruitingCEJobRequisitions**\n============================================================"
 }

@@ -604,6 +604,12 @@
       "title": "Temp-Equine FarmingMach",
       "description": "Posted: 11/02/2026 Location: Fargo Department: Animal Science Temp-Equine FarmingMach",
       "department": "Animal Science"
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960194&PostingSeq=1&SiteId=1": {
+      "error": "not present in bulk fetch result"
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960197&PostingSeq=1&SiteId=1": {
+      "error": "not present in bulk fetch result"
     }
   },
   "rows": {
@@ -2037,11 +2043,17 @@
       "deadline_of_application": "",
       "posted_date": "11/02/2026",
       "position_start_date": ""
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960194&PostingSeq=1&SiteId=1": {
+      "error": "not present in bulk fetch result"
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960197&PostingSeq=1&SiteId=1": {
+      "error": "not present in bulk fetch result"
     }
   },
   "school_id": 823,
   "status": "complete",
-  "updated_at": "2026-11-06T07:39:57+00:00",
-  "completed_at": "2026-11-06T07:39:57+00:00",
+  "updated_at": "2026-11-06T12:49:10+00:00",
+  "completed_at": "2026-11-06T12:49:10+00:00",
   "last_error": ""
 }

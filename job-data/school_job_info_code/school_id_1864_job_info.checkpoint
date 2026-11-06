@@ -113,7 +113,8 @@
       "description": "System Maintenance */ A Singapore Government Agency Website Portal Maintenance - 31 st October, 2026 - 00:00 hrs to 31 st October, 2026 - 17:00 hrs Dear Users, Please note that there is a planned maintenance activity during the below period. All services will be unavailable during this period. Start Date/Time - 31 st October, 2026 - 00:00 hrs End   Date/Time - 31 st October, 2026 - 17:00 hrs"
     },
     "https://www.careers.hrp.gov.sg/sap/bc/ui5_ui5/sap/ZGERCFA004/index.html?search-keyword=Ngee%20Ann%20Polytechnic#/JobDescription/18204127/005056a3-d347-1fe1-b6aa-d0d4388c22c5": {
-      "error": "RuntimeError: job posting expired"
+      "title": "Careers@Gov",
+      "description": "Find A Job | Careers@Gov skip to content Home Find A Job/ Internship FAQ CONTACT US LOGIN LOG OUT menu-button search-button"
     },
     "https://www.careers.hrp.gov.sg/sap/bc/ui5_ui5/sap/ZGERCFA004/index.html?search-keyword=Ngee%20Ann%20Polytechnic#/JobDescription/17595458/005056a3-d347-1fe1-b5f8-859b4b4222c5": {
       "error": "RuntimeError: job posting expired"
@@ -446,7 +447,16 @@
       "position_start_date": ""
     },
     "https://www.careers.hrp.gov.sg/sap/bc/ui5_ui5/sap/ZGERCFA004/index.html?search-keyword=Ngee%20Ann%20Polytechnic#/JobDescription/18204127/005056a3-d347-1fe1-b6aa-d0d4388c22c5": {
-      "error": "RuntimeError: job posting expired"
+      "school_id": 1864,
+      "posting_url": "https://www.careers.hrp.gov.sg/sap/bc/ui5_ui5/sap/ZGERCFA004/index.html?search-keyword=Ngee%20Ann%20Polytechnic#/JobDescription/18204127/005056a3-d347-1fe1-b6aa-d0d4388c22c5",
+      "job_title_in_post": "Careers@Gov",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     },
     "https://www.careers.hrp.gov.sg/sap/bc/ui5_ui5/sap/ZGERCFA004/index.html?search-keyword=Ngee%20Ann%20Polytechnic#/JobDescription/17595458/005056a3-d347-1fe1-b5f8-859b4b4222c5": {
       "error": "RuntimeError: job posting expired"
@@ -454,7 +464,7 @@
   },
   "school_id": 1864,
   "status": "complete",
-  "updated_at": "2026-11-06T07:24:17+00:00",
-  "completed_at": "2026-11-06T07:24:17+00:00",
+  "updated_at": "2026-11-06T13:40:41+00:00",
+  "completed_at": "2026-11-06T13:40:41+00:00",
   "last_error": ""
 }

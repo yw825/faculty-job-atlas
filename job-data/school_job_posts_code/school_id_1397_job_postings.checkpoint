@@ -222,9 +222,9 @@
   ],
   "school_id": 1397,
   "status": "complete",
-  "updated_at": "2026-11-05T21:00:20+00:00",
+  "updated_at": "2026-11-06T10:46:55+00:00",
   "started_at": "2026-09-25T06:45:26+00:00",
-  "completed_at": "2026-11-05T21:00:20+00:00",
+  "completed_at": "2026-11-06T10:46:55+00:00",
   "last_error": "",
-  "last_warning": "2026-11-05T21:00:20+00:00: board returned 0 links vs 219 before; old set kept"
+  "last_warning": "2026-11-06T10:46:55+00:00: board returned 0 links vs 219 before; old set kept"
 }

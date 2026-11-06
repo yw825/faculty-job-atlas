@@ -979,6 +979,31 @@
       "title": "PhD Student in PHA Processing and Modification by Reactive Extrusion - DTU Chemical Engineering",
       "description": "If you are excited by doing reactive extrusion, online monitoring and materials characterization for renewable polymer systems such as PHAs, this could be the PhD project for you.",
       "department": null
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8539": {
+      "title": "Research Assistant in Experimental Power Systems and Laboratory Testing - DTU Wind",
+      "description": "Have you recently completed your engineering degree, and would you like to build practical experience with advanced experimental facilities in PowerLabDK? We are looking for a research assistant who is motivated by hands-on technical work and wants to develop strong competencies in laboratory testing, instrumentation, data acquisition, and experimental power and energy systems.",
+      "department": null
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8541": {
+      "title": "Rutineret og velbevandret projektkoordinator til Research Support - DTU Sustain",
+      "description": "Drømmer du om at bidrage til den grønne omstilling? Forskerne på DTU Sustain udvikler løsninger på komplekse samfundsudfordringer inden for blandt andet cirkulære materialestrømme, klimatilpasning, vandteknologi, miljøkemi og bæredygtighedsmodellering. Vi søger en erfaren og velbevandret projektkoordinator til en nyoprettet stilling i vores Research Support team, der har lyst til at hjælpe med at få bevillinger hjem til at gennemføre denne forskning, samt varetage administrationen på projekter indenfor miljø- og ressourceteknologi.",
+      "department": null
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8543": {
+      "title": "Fiskeritekniker (deltid) - DTU Aqua",
+      "description": "DTU Aqua, Sektion for Monitering i Hirtshals søger en fiskeritekniker med erfaring i oparbejdning af prøver i laboratoriet.",
+      "department": null
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8548": {
+      "title": "PhD scholarship in Operando Electron Microscopy of Solid Oxide Electrolysis Cells - DTU Energy",
+      "description": "Use operando electron microscopy to watch solid oxide electrolysis cells degrade and recover in real time. Join a pioneering project at DTU Energy and help unlock the next generation of green hydrogen technology.",
+      "department": null
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8556": {
+      "title": "Postdoc in Theoretical Quantum Information Processing with Spin-Photon Interfaces in Silicon - DTU Electro",
+      "description": "Want to chart the path from individual quantum memories to large-scale quantum networks? Join DTU Electro as a theory postdoc and develop protocols for entanglement generation and quantum error correction with erbium spin-photon interfaces in tunable silicon nanocavities.",
+      "department": null
     }
   },
   "rows": {
@@ -3298,11 +3323,71 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8539": {
+      "school_id": 1669,
+      "posting_url": "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8539",
+      "job_title_in_post": "Research Assistant in Experimental Power Systems and Laboratory Testing - DTU Wind",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Experimental Power Systems and Laboratory Testing",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8541": {
+      "school_id": 1669,
+      "posting_url": "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8541",
+      "job_title_in_post": "Rutineret og velbevandret projektkoordinator til Research Support - DTU Sustain",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8543": {
+      "school_id": 1669,
+      "posting_url": "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8543",
+      "job_title_in_post": "Fiskeritekniker (deltid) - DTU Aqua",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8548": {
+      "school_id": 1669,
+      "posting_url": "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8548",
+      "job_title_in_post": "PhD scholarship in Operando Electron Microscopy of Solid Oxide Electrolysis Cells - DTU Energy",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Operando Electron Microscopy of Solid Oxide Electrolysis Cells",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8556": {
+      "school_id": 1669,
+      "posting_url": "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8556",
+      "job_title_in_post": "Postdoc in Theoretical Quantum Information Processing with Spin-Photon Interfaces in Silicon - DTU Electro",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Theoretical Quantum Information Processing with Spin-Photon Interfaces in Silicon",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1669,
   "status": "complete",
-  "updated_at": "2026-11-06T06:52:32+00:00",
-  "completed_at": "2026-11-06T06:52:32+00:00",
+  "updated_at": "2026-11-06T13:27:27+00:00",
+  "completed_at": "2026-11-06T13:27:27+00:00",
   "last_error": ""
 }

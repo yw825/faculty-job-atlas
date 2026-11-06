@@ -115,12 +115,14 @@
     "https://facultypositions.stanford.edu/jobs/adult-or-pediatric-pain-psychologist-stanford-university-california-united-states",
     "https://facultypositions.stanford.edu/jobs/clinician-educator-gardner-packard-children-s-health-center-stanford-university-california-united-states",
     "https://facultypositions.stanford.edu/jobs/pediatric-rheumatology-clinical-scholar-stanford-university-california-united-states",
-    "https://facultypositions.stanford.edu/jobs/academic-emergency-medicine-faculty-stanford-university-california-united-states"
+    "https://facultypositions.stanford.edu/jobs/academic-emergency-medicine-faculty-stanford-university-california-united-states",
+    "https://facultypositions.stanford.edu/jobs/open-rank-faculty-position-social-sciences-humanities-of-education-in-a-rapidly-changing-world-stanford-university-california-united-states"
   ],
   "school_id": 153,
   "status": "complete",
-  "updated_at": "2026-11-05T17:41:03+00:00",
+  "updated_at": "2026-11-06T08:19:19+00:00",
   "started_at": "2026-11-02T18:50:24+00:00",
-  "completed_at": "2026-11-05T17:41:03+00:00",
-  "last_error": ""
+  "completed_at": "2026-11-06T08:19:19+00:00",
+  "last_error": "",
+  "last_warning": "2026-11-06T08:19:19+00:00: board returned 30 links vs 116 before; old set kept"
 }

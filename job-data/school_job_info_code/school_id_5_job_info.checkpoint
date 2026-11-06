@@ -319,6 +319,14 @@
     "https://jobs.auburn.edu/auburn-careers-home/jobs/10839?lang=en-us": {
       "title": "Postdoctoral Fellow - White - Tailed Deer Integrated Population Modeling",
       "description": "Postdoctoral Fellow - White - Tailed Deer Integrated Population Modeling in Auburn University, AL | Auburn University Skip to Main Content Internal Candidates Returning Candidate Candidate Dashboard Manage Job Alerts Toggle navigation Jobs Home Apply Process Search Jobs Internal Candidates Returning Candidate Candidate Dashboard Manage Job Alerts Stay Connected Join Our Talent Network Connect with Auburn HR Contact Us Auburn, Alabama 36849 (334) 844-4000 Website Feedback Campus Links Auburn University at Montgomery Alabama Cooperative Extension System Alabama Agricultural Experiment Station Visitors Guide to Campus Resources Campus Safety/Emergency Preparedness Distance and Continuing Education Office of Information Technology Employment Equal Opportunity Compliance Accessibility Privacy Statement A-Z Index Copyright © 2026 Scroll to top Cookies are used on this site to assist in continually improving the candidate experience and all the interaction data we store of our visitors is anonymous. Learn more about your rights on our Privacy Policy page. Okay x"
+    },
+    "https://jobs.auburn.edu/auburn-careers-home/jobs/10701?lang=en-us": {
+      "title": "Associate Dean, Clinical Affairs",
+      "description": "Associate Dean, Clinical Affairs in Auburn University, AL | Auburn University Skip to Main Content Internal Candidates Returning Candidate Candidate Dashboard Manage Job Alerts Toggle navigation Jobs Home Apply Process Search Jobs Internal Candidates Returning Candidate Candidate Dashboard Manage Job Alerts Stay Connected Join Our Talent Network Connect with Auburn HR Contact Us Auburn, Alabama 36849 (334) 844-4000 Website Feedback Campus Links Auburn University at Montgomery Alabama Cooperative Extension System Alabama Agricultural Experiment Station Visitors Guide to Campus Resources Campus Safety/Emergency Preparedness Distance and Continuing Education Office of Information Technology Employment Equal Opportunity Compliance Accessibility Privacy Statement A-Z Index Copyright © 2026 Scroll to top Cookies are used on this site to assist in continually improving the candidate experience and all the interaction data we store of our visitors is anonymous. Learn more about your rights on our Privacy Policy page. Okay x"
+    },
+    "https://jobs.auburn.edu/auburn-careers-home/jobs/10645?lang=en-us": {
+      "title": "Lecturer or Senior Lecturer, Building Science",
+      "description": "Lecturer or Senior Lecturer, Building Science in Auburn University, AL | Auburn University Skip to Main Content Internal Candidates Returning Candidate Candidate Dashboard Manage Job Alerts Toggle navigation Jobs Home Apply Process Search Jobs Internal Candidates Returning Candidate Candidate Dashboard Manage Job Alerts Stay Connected Join Our Talent Network Connect with Auburn HR Contact Us Auburn, Alabama 36849 (334) 844-4000 Website Feedback Campus Links Auburn University at Montgomery Alabama Cooperative Extension System Alabama Agricultural Experiment Station Visitors Guide to Campus Resources Campus Safety/Emergency Preparedness Distance and Continuing Education Office of Information Technology Employment Equal Opportunity Compliance Accessibility Privacy Statement A-Z Index Copyright © 2026 Scroll to top Cookies are used on this site to assist in continually improving the candidate experience and all the interaction data we store of our visitors is anonymous. Learn more about your rights on our Privacy Policy page. Okay x"
     }
   },
   "rows": {
@@ -1281,11 +1289,35 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://jobs.auburn.edu/auburn-careers-home/jobs/10701?lang=en-us": {
+      "school_id": 5,
+      "posting_url": "https://jobs.auburn.edu/auburn-careers-home/jobs/10701?lang=en-us",
+      "job_title_in_post": "Associate Dean, Clinical Affairs",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Clinical Affairs",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://jobs.auburn.edu/auburn-careers-home/jobs/10645?lang=en-us": {
+      "school_id": 5,
+      "posting_url": "https://jobs.auburn.edu/auburn-careers-home/jobs/10645?lang=en-us",
+      "job_title_in_post": "Lecturer or Senior Lecturer, Building Science",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Building Science",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 5,
   "status": "complete",
-  "updated_at": "2026-11-06T01:22:21+00:00",
-  "completed_at": "2026-11-06T01:22:21+00:00",
+  "updated_at": "2026-11-06T12:22:31+00:00",
+  "completed_at": "2026-11-06T12:22:31+00:00",
   "last_error": ""
 }

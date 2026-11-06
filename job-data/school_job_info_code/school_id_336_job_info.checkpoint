@@ -91,6 +91,10 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/DC20BB66F0C9CF9F562615950604C1D5/jobs/90676": {
       "title": "Assistant Vice President for Enrollment and Director of Financial Aid",
       "description": "Assistant Vice President for Enrollment and Director of Financial Aid You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/DC20BB66F0C9CF9F562615950604C1D5/jobs/92151": {
+      "title": "MSW Assistant Professor of Social Work",
+      "description": "MSW Assistant Professor of Social Work You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -367,11 +371,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/DC20BB66F0C9CF9F562615950604C1D5/jobs/92151": {
+      "school_id": 336,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/DC20BB66F0C9CF9F562615950604C1D5/jobs/92151",
+      "job_title_in_post": "MSW Assistant Professor of Social Work",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Social Work",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 336,
   "status": "complete",
-  "updated_at": "2026-11-06T05:42:35+00:00",
-  "completed_at": "2026-11-06T05:42:35+00:00",
+  "updated_at": "2026-11-06T12:31:58+00:00",
+  "completed_at": "2026-11-06T12:31:58+00:00",
   "last_error": ""
 }

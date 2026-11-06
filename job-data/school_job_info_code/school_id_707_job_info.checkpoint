@@ -969,6 +969,11 @@
       "title": "Field Specialist in Human Development – Laclede County, MO",
       "description": "Posted: 11/02/2026 Location: Missouri West Central Region Department: Ext WC Region-HHS Field Specialist in Human Development – Laclede County, MO",
       "department": "Ext WC Region-HHS"
+    },
+    "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61671&PostingSeq=1&SiteId=9": {
+      "title": "Assistant Professor of Quantum Computing",
+      "description": "Posted: 11/05/2026 Location: Columbia Department: Electrical Eng & Computer Sci Assistant Professor of Quantum Computing",
+      "department": "Electrical Eng & Computer Sci"
     }
   },
   "rows": {
@@ -3294,11 +3299,23 @@
       "deadline_of_application": "",
       "posted_date": "11/02/2026",
       "position_start_date": ""
+    },
+    "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61671&PostingSeq=1&SiteId=9": {
+      "school_id": 707,
+      "posting_url": "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61671&PostingSeq=1&SiteId=9",
+      "job_title_in_post": "Assistant Professor of Quantum Computing",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Electrical Eng & Computer Sci",
+      "area_key_words": "Quantum Computing",
+      "deadline_of_application": "",
+      "posted_date": "11/05/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 707,
   "status": "complete",
-  "updated_at": "2026-11-06T07:04:15+00:00",
-  "completed_at": "2026-11-06T07:04:15+00:00",
+  "updated_at": "2026-11-06T12:44:16+00:00",
+  "completed_at": "2026-11-06T12:44:16+00:00",
   "last_error": ""
 }

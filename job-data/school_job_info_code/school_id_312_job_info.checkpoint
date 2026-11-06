@@ -1404,6 +1404,16 @@
       "title": "Visiting Instructor Biology",
       "description": "Posted: 11/02/2026 Location: Statesboro, Georgia Department: Biology, Department Of Visiting Instructor Biology",
       "department": "Biology, Department Of"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305453&PostingSeq=1&SiteId=39000": {
+      "title": "Director for Resource Planning and Financial Strategy - Auxiliary Services",
+      "description": "Posted: 11/05/2026 Location: Statesboro, Georgia Department: Auxiliary Operations Director for Resource Planning and Financial Strategy - Auxiliary Services",
+      "department": "Auxiliary Operations"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305680&PostingSeq=1&SiteId=39000": {
+      "title": "Student Assistant - Research-College of Engineering and Computing - Research Assistant (Fall 2026)",
+      "description": "Posted: 11/05/2026 Location: Statesboro, Georgia Department: Research-PCEC-ECE-Oh Student Assistant - Research-College of Engineering and Computing - Research Assistant (Fall 2026)",
+      "department": "Research-PCEC-ECE-Oh"
     }
   },
   "rows": {
@@ -4763,11 +4773,35 @@
       "deadline_of_application": "",
       "posted_date": "11/02/2026",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305453&PostingSeq=1&SiteId=39000": {
+      "school_id": 312,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305453&PostingSeq=1&SiteId=39000",
+      "job_title_in_post": "Director for Resource Planning and Financial Strategy - Auxiliary Services",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Auxiliary Operations",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/05/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305680&PostingSeq=1&SiteId=39000": {
+      "school_id": 312,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305680&PostingSeq=1&SiteId=39000",
+      "job_title_in_post": "Student Assistant - Research-College of Engineering and Computing - Research Assistant (Fall 2026)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Research-PCEC-ECE-Oh",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/05/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 312,
   "status": "complete",
-  "updated_at": "2026-11-06T05:30:46+00:00",
-  "completed_at": "2026-11-06T05:30:46+00:00",
+  "updated_at": "2026-11-06T12:30:51+00:00",
+  "completed_at": "2026-11-06T12:30:51+00:00",
   "last_error": ""
 }

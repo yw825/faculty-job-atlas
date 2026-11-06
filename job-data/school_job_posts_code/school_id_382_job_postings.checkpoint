@@ -397,12 +397,14 @@
     "https://academicjobs.uchicago.edu/positions/151530",
     "https://academicjobs.uchicago.edu/positions/145188",
     "https://academicjobs.uchicago.edu/positions/142165",
-    "https://academicjobs.uchicago.edu/positions/101117"
+    "https://academicjobs.uchicago.edu/positions/101117",
+    "https://academicjobs.uchicago.edu/positions/195627"
   ],
   "school_id": 382,
   "status": "complete",
-  "updated_at": "2026-11-05T18:15:30+00:00",
+  "updated_at": "2026-11-06T08:46:45+00:00",
   "started_at": "2026-11-03T21:15:05+00:00",
   "last_error": "",
-  "completed_at": "2026-11-05T18:15:30+00:00"
+  "completed_at": "2026-11-06T08:46:45+00:00",
+  "last_warning": "2026-11-06T08:46:45+00:00: board returned 10 links vs 398 before; old set kept"
 }

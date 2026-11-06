@@ -93,12 +93,15 @@
     "https://careers.k-state.edu/jobs/university-police-officer-pt-oj-manhattan-kansas-united-states-01c95a8d-95d0-4cda-b968-3ae1386a505f",
     "https://careers.k-state.edu/jobs/instructor-nutrition-pool-olathe-kansas-united-states",
     "https://careers.k-state.edu/jobs/academics-strategic-learning-post-graduate-intern-manhattan-kansas-united-states",
-    "https://careers.k-state.edu/jobs/military-career-skills-program-expression-of-interest-manhattan-kansas-united-states"
+    "https://careers.k-state.edu/jobs/military-career-skills-program-expression-of-interest-manhattan-kansas-united-states",
+    "https://careers.k-state.edu/jobs/research-assistant-manhattan-kansas-united-states-1bd33e0a-8c54-4184-a42a-86c267e4dc75",
+    "https://careers.k-state.edu/jobs/research-associate-manhattan-kansas-united-states"
   ],
   "school_id": 467,
   "status": "complete",
-  "updated_at": "2026-11-05T18:43:26+00:00",
+  "updated_at": "2026-11-06T08:58:44+00:00",
   "started_at": "2026-09-08T01:48:01+00:00",
-  "completed_at": "2026-11-05T18:43:26+00:00",
-  "last_error": ""
+  "completed_at": "2026-11-06T08:58:44+00:00",
+  "last_error": "",
+  "last_warning": "2026-11-06T08:58:44+00:00: board returned 30 links vs 94 before; old set kept"
 }

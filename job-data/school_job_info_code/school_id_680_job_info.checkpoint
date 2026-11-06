@@ -1344,6 +1344,21 @@
       "title": "Post-Doctoral Associate",
       "description": "Posted: 10/30/2026 Location: Twin Cities Department: CSENG Physics & Astron,Schl of Post-Doctoral Associate",
       "department": "CSENG Physics & Astron,Schl of"
+    },
+    "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=377018&PostingSeq=1": {
+      "title": "Post-Doctoral Associate",
+      "description": "Posted: 11/05/2026 Location: Twin Cities Department: CSENG Chem Eng & Mat Sci Admin Post-Doctoral Associate",
+      "department": "CSENG Chem Eng & Mat Sci Admin"
+    },
+    "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=377028&PostingSeq=1": {
+      "title": "Post-Doctoral Associate",
+      "description": "Posted: 11/05/2026 Location: Twin Cities Department: Bioprod&Biosys Eng, Dept of Post-Doctoral Associate",
+      "department": "Bioprod&Biosys Eng, Dept of"
+    },
+    "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=377025&PostingSeq=1": {
+      "title": "Post-Doctoral Associate - In Vivo Imaging and Electrophysiology of Developing Cortical Networks - Smith Lab - Department of Neuroscience",
+      "description": "Posted: 11/05/2026 Location: Twin Cities Department: NSCI Neuroscience Admin Post-Doctoral Associate - In Vivo Imaging and Electrophysiology of Developing Cortical Networks - Smith Lab - Department of Neuroscience",
+      "department": "NSCI Neuroscience Admin"
     }
   },
   "rows": {
@@ -4561,11 +4576,47 @@
       "deadline_of_application": "",
       "posted_date": "10/30/2026",
       "position_start_date": ""
+    },
+    "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=377018&PostingSeq=1": {
+      "school_id": 680,
+      "posting_url": "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=377018&PostingSeq=1",
+      "job_title_in_post": "Post-Doctoral Associate",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "CSENG Chem Eng & Mat Sci Admin",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/05/2026",
+      "position_start_date": ""
+    },
+    "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=377028&PostingSeq=1": {
+      "school_id": 680,
+      "posting_url": "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=377028&PostingSeq=1",
+      "job_title_in_post": "Post-Doctoral Associate",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "Bioprod&Biosys Eng, Dept of",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/05/2026",
+      "position_start_date": ""
+    },
+    "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=377025&PostingSeq=1": {
+      "school_id": 680,
+      "posting_url": "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=377025&PostingSeq=1",
+      "job_title_in_post": "Post-Doctoral Associate - In Vivo Imaging and Electrophysiology of Developing Cortical Networks - Smith Lab - Department of Neuroscience",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "NSCI Neuroscience Admin",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/05/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 680,
   "status": "complete",
-  "updated_at": "2026-11-06T07:12:35+00:00",
-  "completed_at": "2026-11-06T07:12:35+00:00",
+  "updated_at": "2026-11-06T12:41:51+00:00",
+  "completed_at": "2026-11-06T12:41:51+00:00",
   "last_error": ""
 }

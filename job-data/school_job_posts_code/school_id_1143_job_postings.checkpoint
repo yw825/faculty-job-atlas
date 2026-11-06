@@ -89,9 +89,9 @@
     "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d098156f9c01982e34a60801d2&id=8a7887aca18473d901a19e7b14f76321&source=&lang=en"
   ],
   "school_id": 1143,
-  "status": "error",
-  "updated_at": "2026-11-05T20:32:45+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-06T10:18:31+00:00",
   "started_at": "2026-09-08T02:46:12+00:00",
-  "completed_at": "2026-11-04T17:57:25+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://r"
+  "completed_at": "2026-11-06T10:18:31+00:00",
+  "last_error": ""
 }

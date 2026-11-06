@@ -7,9 +7,9 @@
     "https://www.csm.edu/wp-content/uploads/2026/10/Nursing-Adjunct-10-2026.pdf"
   ],
   "school_id": 839,
-  "status": "complete",
-  "updated_at": "2026-11-05T19:51:53+00:00",
+  "status": "error",
+  "updated_at": "2026-11-06T09:32:49+00:00",
   "started_at": "2026-09-08T02:20:14+00:00",
   "completed_at": "2026-11-05T19:51:53+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.csm.edu/employment/#open\", waiting until \"domcontentloaded\"\n"
 }

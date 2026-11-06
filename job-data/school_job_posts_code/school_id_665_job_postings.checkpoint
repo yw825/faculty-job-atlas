@@ -36,8 +36,9 @@
   ],
   "school_id": 665,
   "status": "complete",
-  "updated_at": "2026-11-05T19:17:12+00:00",
+  "updated_at": "2026-11-06T09:06:14+00:00",
   "started_at": "2026-09-09T05:16:23+00:00",
-  "completed_at": "2026-11-05T19:17:12+00:00",
-  "last_error": ""
+  "completed_at": "2026-11-06T09:06:14+00:00",
+  "last_error": "",
+  "last_warning": "2026-11-06T09:06:14+00:00: board returned 0 links vs 33 before; old set kept"
 }
