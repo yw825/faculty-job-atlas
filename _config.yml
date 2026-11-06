@@ -1,0 +1,6 @@
+# The map site is index.html + postings.json. job-data holds the scrapers and
+# ~1 GB of their data; publishing it made each Pages deploy an 82 MB upload,
+# and one timed out after 10 minutes on 2026-11-06.
+exclude:
+  - job-data
+  - README.md
