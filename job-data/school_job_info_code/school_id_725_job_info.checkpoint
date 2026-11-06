@@ -59,6 +59,14 @@
     "https://www.cofo.edu/Login?returnurl=%2fjobs": {
       "title": "Sign in to your account",
       "description": "Sign in to your account Sign in Can’t access your account? Students, Please use your student ID number to login to your email. Example: 999999@student.cofo.edu Sign-in options Terms of use Privacy & cookies ..."
+    },
+    "https://www.cofo.edu/Portals/0/Accolades/e51b16b6dcb74d4b91192748ef262191.pdf?ver=kMsh1LLByIN3jQUErQIvSw%3d%3d": {
+      "title": "FACULTY POSITION: CHEMISTRY/BIOCHEMISTRY",
+      "description": "REQUIREMENTS \nEmbrace institution’s Christian mission \nServe as mentor and positive role model\nPhD or close to completion of a PhD in\norganic or biochemistry\nAPPLICATION MATERIALS\nPlease submit: \nA letter of application\nCurriculum Vitae \nTranscripts \nThree letters of\nrecommendation (including\none from your pastor) \nCOLLEGE OF\nTHE OZARKS\nFACULTY POSITION:\n CHEMISTRY/BIOCHEMISTRY\nSeeking a student-centered, self-\nmotivated, and versatile faculty\nmember with strong teaching skills\nand a demonstrated ability to\ncollaborate and communicate\neffectively with colleagues \nResponsibilities will include\nteaching undergraduate courses in\norganic and biochemistry as well as\nfreshmen level chemistry courses\nStarting Fall 2027 (Possible Spring 2027)\nreallygreatsite.com \nPlease submit all materials to Dr. Susan DeWoody, Provost, PO Box 17, Point\nLookout, MO 65726 or email provostoffice@cofo.edu\n“Hard Work U”\nCHEMISTRY\nFACULTY\nNOW HIRING"
+    },
+    "https://www.cofo.edu/Portals/0/Accolades/0f6cd5342b0349b0a769010f42d2ceda.pdf?ver=hgfMWvMi_TpUF6AfaoQp5Q%3d%3d": {
+      "title": "FACULTY POSITION: COMPUTER SCIENCES",
+      "description": "COMPUTER\nSCIENCE FACULTY\nNOW HIRING\nREQUIREMENTS \nEmbrace institution’s Christian mission \nServe as mentor and positive role model\nM.S., D.Sc., or Ph.D. in Data Science,\nArtificial Intelligence, or closely related\ncomputing field \nAPPLICATION MATERIALS\nPlease submit: \nA letter of application\nCurriculum Vitae \nTranscripts \nThree letters of\nrecommendation (including\none from your pastor) \nCOLLEGE OF\nTHE OZARKS\nFACULTY POSITION:\n COMPUTER SCIENCES\nSeeking a student-centered, self-\nmotivated, and versatile faculty\nmember with strong teaching skills\nand a demonstrated ability to\ncollaborate and communicate\neffectively with colleagues \nThis position will focus primarily on\ncontinued development and\nstewardship of our new Data\nScience and Artifical Intelligence\nprogram. \nStarting Fall 2027 (Possible Spring 2027)\nreallygreatsite.com \nPlease submit all materials to Dr. Susan DeWoody, Provost, PO Box 17, Point\nLookout, MO 65726 or email provostoffice@cofo.edu\n“Hard Work U”"
     }
   },
   "rows": {
@@ -238,11 +246,35 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://www.cofo.edu/Portals/0/Accolades/e51b16b6dcb74d4b91192748ef262191.pdf?ver=kMsh1LLByIN3jQUErQIvSw%3d%3d": {
+      "school_id": 725,
+      "posting_url": "https://www.cofo.edu/Portals/0/Accolades/e51b16b6dcb74d4b91192748ef262191.pdf?ver=kMsh1LLByIN3jQUErQIvSw%3d%3d",
+      "job_title_in_post": "FACULTY POSITION: CHEMISTRY/BIOCHEMISTRY",
+      "position_type": "Assistant_Professor; Associate_Professor; Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "COLLEGE OF\nTHE OZARKS",
+      "area_key_words": "CHEMISTRY/BIOCHEMISTRY",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://www.cofo.edu/Portals/0/Accolades/0f6cd5342b0349b0a769010f42d2ceda.pdf?ver=hgfMWvMi_TpUF6AfaoQp5Q%3d%3d": {
+      "school_id": 725,
+      "posting_url": "https://www.cofo.edu/Portals/0/Accolades/0f6cd5342b0349b0a769010f42d2ceda.pdf?ver=hgfMWvMi_TpUF6AfaoQp5Q%3d%3d",
+      "job_title_in_post": "FACULTY POSITION: COMPUTER SCIENCES",
+      "position_type": "Assistant_Professor; Associate_Professor; Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "COLLEGE OF\nTHE OZARKS",
+      "area_key_words": "COMPUTER SCIENCES",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 725,
   "status": "complete",
-  "updated_at": "2026-10-31T00:27:01+00:00",
-  "completed_at": "2026-10-31T00:27:01+00:00",
+  "updated_at": "2026-11-06T07:16:32+00:00",
+  "completed_at": "2026-11-06T07:16:32+00:00",
   "last_error": ""
 }

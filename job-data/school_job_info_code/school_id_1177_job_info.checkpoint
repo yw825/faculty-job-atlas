@@ -114,6 +114,11 @@
       "title": "Public Safety Officer",
       "description": "The Public Safety Patrol Officer is responsible for ensuring the safety and security of all college property and community members, both on campus and on other College property.  ",
       "department": null
+    },
+    "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/367": {
+      "title": "Sr. Payroll Manager/Accountant",
+      "description": "The Senior Payroll & Accountant leads end-to-end payroll operations, serves as a positive and confidential resource for campus community inquiries, and ensures GAAP-compliant financial reporting. Core responsibilities include processing payroll, reconciling accounts, preparing tax filings, and supporting audits and finance department functions.",
+      "department": null
     }
   },
   "rows": {
@@ -389,11 +394,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/367": {
+      "school_id": 1177,
+      "posting_url": "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/367",
+      "job_title_in_post": "Sr. Payroll Manager/Accountant",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1177,
   "status": "complete",
-  "updated_at": "2026-10-31T00:59:57+00:00",
-  "completed_at": "2026-10-31T00:59:57+00:00",
+  "updated_at": "2026-11-06T07:30:05+00:00",
+  "completed_at": "2026-11-06T07:30:05+00:00",
   "last_error": ""
 }

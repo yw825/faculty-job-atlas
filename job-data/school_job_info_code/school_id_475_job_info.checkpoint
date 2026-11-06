@@ -154,6 +154,11 @@
       "title": "Systems Administrator",
       "description": "Pittsburg State University is accepting applications for a Systems Administrator in the department of Information Technology Services that is responsible for installing, configuring, and supporting the University’s designated servers and infrastructure by maintaining server hardware and software.",
       "department": null
+    },
+    "https://ebyf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210": {
+      "title": "Academic Advisor",
+      "description": "Pittsburg State University is accepting applications for an Academic Advisor in the department of Academic Advising that is responsible for advising undergraduate students regarding program requirements, course selection, and class scheduling.",
+      "department": null
     }
   },
   "rows": {
@@ -528,11 +533,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://ebyf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210": {
+      "school_id": 475,
+      "posting_url": "https://ebyf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210",
+      "job_title_in_post": "Academic Advisor",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 475,
-  "status": "error",
-  "updated_at": "2026-11-02T23:02:14+00:00",
-  "completed_at": "2026-10-31T00:08:37+00:00",
-  "last_error": "OSError: [Errno 11] Resource deadlock avoided: '/Users/yusiwei/Library/CloudStorage/OneDrive-Personal/faculty-job-atlas/job-data/school_job_info/school_id_475_job_info.csv'"
+  "status": "complete",
+  "updated_at": "2026-11-06T07:28:24+00:00",
+  "completed_at": "2026-11-06T07:28:24+00:00",
+  "last_error": ""
 }

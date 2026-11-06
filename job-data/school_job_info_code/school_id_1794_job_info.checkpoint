@@ -127,6 +127,18 @@
     "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#timetabling-and-examinations-officer": {
       "title": "Timetabling and Examinations Officer",
       "description": "Timetabling and Examinations Officer. Charles Darwin University. Employment type: Continuing."
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#lecturer-tourism": {
+      "title": "Lecturer - Tourism",
+      "description": "Lecturer - Tourism. Charles Darwin University. Employment type: Continuing."
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#lecturer-in-nursing": {
+      "title": "Lecturer in Nursing",
+      "description": "Lecturer in Nursing. Charles Darwin University. Employment type: Continuing."
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#medical-program-clinical-dean-katherine": {
+      "title": "Medical Program Clinical Dean Katherine",
+      "description": "Medical Program Clinical Dean Katherine. Charles Darwin University. Employment type: Continuing."
     }
   },
   "rows": {
@@ -507,11 +519,47 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#lecturer-tourism": {
+      "school_id": 1794,
+      "posting_url": "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#lecturer-tourism",
+      "job_title_in_post": "Lecturer - Tourism",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Tourism",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#lecturer-in-nursing": {
+      "school_id": 1794,
+      "posting_url": "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#lecturer-in-nursing",
+      "job_title_in_post": "Lecturer in Nursing",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Nursing",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#medical-program-clinical-dean-katherine": {
+      "school_id": 1794,
+      "posting_url": "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#medical-program-clinical-dean-katherine",
+      "job_title_in_post": "Medical Program Clinical Dean Katherine",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1794,
   "status": "complete",
-  "updated_at": "2026-11-02T23:30:50+00:00",
-  "completed_at": "2026-11-02T23:30:50+00:00",
+  "updated_at": "2026-11-06T07:21:21+00:00",
+  "completed_at": "2026-11-06T07:21:21+00:00",
   "last_error": ""
 }

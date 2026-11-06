@@ -75,6 +75,26 @@
     "https://arcadia.isolvedhire.com/jobs/1894641": {
       "title": "Assistant Professor, Tenure Track, AI and Business Strategy",
       "description": "Assistant Professor, Tenure Track, AI and Business Strategy - Glenside, PA - Arcadia University Jobs Jobs Login Sign Up For Job Alerts! Resources INTERNAL JOB OPPORTUNITIES Maintained by isolved People Cloud - © 2026 Refresh Search the FAQ here Go Common Questions"
+    },
+    "https://arcadia.isolvedhire.com/jobs/1896624": {
+      "title": "Assistant Baseball Coach (part-time)",
+      "description": "Assistant Baseball Coach (part-time) - Glenside, PA - Arcadia University Jobs Jobs Login Sign Up For Job Alerts! Resources INTERNAL JOB OPPORTUNITIES Maintained by isolved People Cloud - © 2026 Refresh Search the FAQ here Go Common Questions"
+    },
+    "https://arcadia.isolvedhire.com/jobs/1897394": {
+      "title": "Assistant Men's & Women's Golf Coach (part time)",
+      "description": "Assistant Men's & Women's Golf Coach (part time) - Glenside, PA - Arcadia University Jobs Jobs Login Sign Up For Job Alerts! Resources INTERNAL JOB OPPORTUNITIES Maintained by isolved People Cloud - © 2026 Refresh Search the FAQ here Go Common Questions"
+    },
+    "https://arcadia.isolvedhire.com/jobs/1899203": {
+      "title": "Assistant Professor in Psychology, Tenure Track, Fall 2027",
+      "description": "Assistant Professor in Psychology, Tenure Track, Fall 2027 - Glenside, PA - Arcadia University Jobs Jobs Login Sign Up For Job Alerts! Resources INTERNAL JOB OPPORTUNITIES Maintained by isolved People Cloud - © 2026 Refresh Search the FAQ here Go Common Questions"
+    },
+    "https://arcadia.isolvedhire.com/jobs/1899171": {
+      "title": "Assistant Women's Ice Hockey Coach (part-time)",
+      "description": "Assistant Women's Ice Hockey Coach (part-time) - Glenside, PA - Arcadia University Jobs Jobs Login Sign Up For Job Alerts! Resources INTERNAL JOB OPPORTUNITIES Maintained by isolved People Cloud - © 2026 Refresh Search the FAQ here Go Common Questions"
+    },
+    "https://arcadia.isolvedhire.com/jobs/1896246": {
+      "title": "Program Administrative Support Specialist - Curriculum",
+      "description": "Program Administrative Support Specialist - Curriculum - Glenside, PA - Arcadia University Jobs Jobs Login Sign Up For Job Alerts! Resources INTERNAL JOB OPPORTUNITIES Maintained by isolved People Cloud - © 2026 Refresh Search the FAQ here Go Common Questions"
     }
   },
   "rows": {
@@ -301,11 +321,71 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://arcadia.isolvedhire.com/jobs/1896624": {
+      "school_id": 1155,
+      "posting_url": "https://arcadia.isolvedhire.com/jobs/1896624",
+      "job_title_in_post": "Assistant Baseball Coach (part-time)",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://arcadia.isolvedhire.com/jobs/1897394": {
+      "school_id": 1155,
+      "posting_url": "https://arcadia.isolvedhire.com/jobs/1897394",
+      "job_title_in_post": "Assistant Men's & Women's Golf Coach (part time)",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://arcadia.isolvedhire.com/jobs/1899203": {
+      "school_id": 1155,
+      "posting_url": "https://arcadia.isolvedhire.com/jobs/1899203",
+      "job_title_in_post": "Assistant Professor in Psychology, Tenure Track, Fall 2027",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Psychology, Tenure Track, Fall 2027",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://arcadia.isolvedhire.com/jobs/1899171": {
+      "school_id": 1155,
+      "posting_url": "https://arcadia.isolvedhire.com/jobs/1899171",
+      "job_title_in_post": "Assistant Women's Ice Hockey Coach (part-time)",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://arcadia.isolvedhire.com/jobs/1896246": {
+      "school_id": 1155,
+      "posting_url": "https://arcadia.isolvedhire.com/jobs/1896246",
+      "job_title_in_post": "Program Administrative Support Specialist - Curriculum",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1155,
   "status": "complete",
-  "updated_at": "2026-10-31T00:58:55+00:00",
-  "completed_at": "2026-10-31T00:58:55+00:00",
+  "updated_at": "2026-11-06T07:13:05+00:00",
+  "completed_at": "2026-11-06T07:13:05+00:00",
   "last_error": ""
 }

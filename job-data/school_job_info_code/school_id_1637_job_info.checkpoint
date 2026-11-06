@@ -24,6 +24,31 @@
       "title": "Health and Safety Coordinator (2026-MP-23)",
       "description": "Managerial & Professional Vacancy\nHealth & Safety Coordinator in the Department of Human Resources - Health & Safety (Temporary vacancy)",
       "department": null
+    },
+    "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4342": {
+      "title": "Lab Technician - Biology (2026-13-40)",
+      "description": "CUPE 1393 - Lab Technician 'V', Biology Department, Faculty of Science (2026-13-40)",
+      "department": null
+    },
+    "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4387": {
+      "title": "Associate Vice-President, Human Resources (2026-EX-01)",
+      "description": "EXECUTIVE LEADERSHIP\nAssociate Vice-President, Human Resources",
+      "department": null
+    },
+    "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4405": {
+      "title": "Associate Vice-President, Labour and Employee Relations (2026-EX-02)",
+      "description": "EXECUTIVE LEADERSHIP \nAssociate Vice-President, Human Resources",
+      "department": null
+    },
+    "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3934": {
+      "title": "Service Desk Technician - Tier 2 \"V\" (2026-13-41)",
+      "description": "CUPE 1393\nService Desk Technician - Tier 2 in the Department of Information Technology Services",
+      "department": null
+    },
+    "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4317": {
+      "title": "Business Systems Analyst ITS & HR (2026-MP-24)",
+      "description": "Managerial & Professional Vacancy\nBusiness Systems Analyst – ERP Applications in IT Services and Human Resources",
+      "department": null
     }
   },
   "rows": {
@@ -86,11 +111,71 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4342": {
+      "school_id": 1637,
+      "posting_url": "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4342",
+      "job_title_in_post": "Lab Technician - Biology (2026-13-40)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Faculty of Science",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4387": {
+      "school_id": 1637,
+      "posting_url": "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4387",
+      "job_title_in_post": "Associate Vice-President, Human Resources (2026-EX-01)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4405": {
+      "school_id": 1637,
+      "posting_url": "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4405",
+      "job_title_in_post": "Associate Vice-President, Labour and Employee Relations (2026-EX-02)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3934": {
+      "school_id": 1637,
+      "posting_url": "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3934",
+      "job_title_in_post": "Service Desk Technician - Tier 2 \"V\" (2026-13-41)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Department of Information Technology Services",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4317": {
+      "school_id": 1637,
+      "posting_url": "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4317",
+      "job_title_in_post": "Business Systems Analyst ITS & HR (2026-MP-24)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1637,
   "status": "complete",
-  "updated_at": "2026-10-31T01:40:02+00:00",
-  "completed_at": "2026-10-31T01:40:02+00:00",
+  "updated_at": "2026-11-06T07:43:32+00:00",
+  "completed_at": "2026-11-06T07:43:32+00:00",
   "last_error": ""
 }

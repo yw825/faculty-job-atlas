@@ -1,12 +1,9 @@
 {
-  "links": [
-    "https://bandi.mur.gov.it/profcalls.php/public/job/id_job/152843",
-    "https://bandi.mur.gov.it/profcalls.php/public/job/id_job/152844"
-  ],
+  "links": [],
   "school_id": 1711,
-  "status": "error",
-  "updated_at": "2026-11-05T23:27:55+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-06T06:51:15+00:00",
   "started_at": "2026-11-02T19:42:46+00:00",
-  "completed_at": "2026-11-02T19:42:50+00:00",
-  "last_error": "RuntimeError: mur profcalls search status=None"
+  "completed_at": "2026-11-06T06:51:15+00:00",
+  "last_error": ""
 }

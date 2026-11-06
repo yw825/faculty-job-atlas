@@ -55,6 +55,10 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/3971D0B7A1DB06DA25282DE787EC51E9/jobs/269610": {
       "title": "Adjunct Faculty - Education",
       "description": "Adjunct Faculty - Education You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/3971D0B7A1DB06DA25282DE787EC51E9/jobs/270240": {
+      "title": "Adjunct Faculty - Essentials of Finance",
+      "description": "Adjunct Faculty - Essentials of Finance You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -225,11 +229,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/3971D0B7A1DB06DA25282DE787EC51E9/jobs/270240": {
+      "school_id": 832,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/3971D0B7A1DB06DA25282DE787EC51E9/jobs/270240",
+      "job_title_in_post": "Adjunct Faculty - Essentials of Finance",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "Essentials of Finance",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 832,
   "status": "complete",
-  "updated_at": "2026-10-31T00:43:12+00:00",
-  "completed_at": "2026-10-31T00:43:12+00:00",
+  "updated_at": "2026-11-06T07:20:06+00:00",
+  "completed_at": "2026-11-06T07:20:06+00:00",
   "last_error": ""
 }

@@ -403,6 +403,16 @@
     "https://my.rsu.edu/ICS/RSU_Jobs/RSU_Employment_Opportunities.jnz#talent-search-academic-advisor": {
       "title": "Talent Search Academic Advisor",
       "description": "Talent Search Academic Advisor. Department: Talent Search. Classification: Staff. Full Time. Posted: 10/21/2026."
+    },
+    "https://my.rsu.edu/ICS/RSU_Jobs/RSU_Employment_Opportunities.jnz#reboot-student-worker": {
+      "title": "Reboot Student Worker",
+      "description": "Reboot Student Worker. Department: Department of Technology & Justice Studies. Classification: Student Worker. Part Time. Posted: 11/02/2026."
+    },
+    "https://my.rsu.edu/ICS/RSU_Jobs/RSU_Employment_Opportunities.jnz#student-worker-66": {
+      "error": "RuntimeError: position no longer listed"
+    },
+    "https://my.rsu.edu/ICS/RSU_Jobs/RSU_Employment_Opportunities.jnz#student-worker-fws-83": {
+      "error": "RuntimeError: position no longer listed"
     }
   },
   "rows": {
@@ -1606,11 +1616,29 @@
       "deadline_of_application": "",
       "posted_date": "10/21/2026",
       "position_start_date": ""
+    },
+    "https://my.rsu.edu/ICS/RSU_Jobs/RSU_Employment_Opportunities.jnz#reboot-student-worker": {
+      "school_id": 1087,
+      "posting_url": "https://my.rsu.edu/ICS/RSU_Jobs/RSU_Employment_Opportunities.jnz#reboot-student-worker",
+      "job_title_in_post": "Reboot Student Worker",
+      "position_type": "Unclassified",
+      "job_term": "Part-time",
+      "department_or_school": "Department of Technology & Justice Studies",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/02/2026",
+      "position_start_date": ""
+    },
+    "https://my.rsu.edu/ICS/RSU_Jobs/RSU_Employment_Opportunities.jnz#student-worker-66": {
+      "error": "RuntimeError: position no longer listed"
+    },
+    "https://my.rsu.edu/ICS/RSU_Jobs/RSU_Employment_Opportunities.jnz#student-worker-fws-83": {
+      "error": "RuntimeError: position no longer listed"
     }
   },
   "school_id": 1087,
   "status": "complete",
-  "updated_at": "2026-10-31T00:55:50+00:00",
-  "completed_at": "2026-10-31T00:55:50+00:00",
+  "updated_at": "2026-11-06T07:15:53+00:00",
+  "completed_at": "2026-11-06T07:15:53+00:00",
   "last_error": ""
 }

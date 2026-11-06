@@ -103,6 +103,18 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/74E03CF8736A837878EE360903D909BA/jobs/316371": {
       "title": "Graduate Assistant, Baseball",
       "description": "Graduate Assistant, Baseball You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/74E03CF8736A837878EE360903D909BA/jobs/319408": {
+      "title": "Adjunct Faculty, Psychology",
+      "description": "Adjunct Faculty, Psychology You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/74E03CF8736A837878EE360903D909BA/jobs/318874": {
+      "title": "Mail & Merchandise Coordinator",
+      "description": "Mail & Merchandise Coordinator You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/74E03CF8736A837878EE360903D909BA/jobs/318866": {
+      "title": "Visit & Event Coordinator, Office of Admission",
+      "description": "Visit & Event Coordinator, Office of Admission You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -416,11 +428,47 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/74E03CF8736A837878EE360903D909BA/jobs/319408": {
+      "school_id": 1064,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/74E03CF8736A837878EE360903D909BA/jobs/319408",
+      "job_title_in_post": "Adjunct Faculty, Psychology",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "Psychology",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/74E03CF8736A837878EE360903D909BA/jobs/318874": {
+      "school_id": 1064,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/74E03CF8736A837878EE360903D909BA/jobs/318874",
+      "job_title_in_post": "Mail & Merchandise Coordinator",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/74E03CF8736A837878EE360903D909BA/jobs/318866": {
+      "school_id": 1064,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/74E03CF8736A837878EE360903D909BA/jobs/318866",
+      "job_title_in_post": "Visit & Event Coordinator, Office of Admission",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Admission",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1064,
   "status": "complete",
-  "updated_at": "2026-10-31T00:55:15+00:00",
-  "completed_at": "2026-10-31T00:55:15+00:00",
+  "updated_at": "2026-11-06T07:51:29+00:00",
+  "completed_at": "2026-11-06T07:51:29+00:00",
   "last_error": ""
 }

@@ -939,6 +939,36 @@
       "title": "Assistant/Associate Teaching Professor - Department of Health Sciences",
       "description": "Posted: 10/29/2026 Location: Columbia Department: Health Sciences Department Assistant/Associate Teaching Professor - Department of Health Sciences",
       "department": "Health Sciences Department"
+    },
+    "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61650&PostingSeq=1&SiteId=9": {
+      "title": "Assistant Professor of Hardware and Embedded Systems Cybersecurity",
+      "description": "Posted: 11/05/2026 Location: Columbia Department: Electrical Eng & Computer Sci Assistant Professor of Hardware and Embedded Systems Cybersecurity",
+      "department": "Electrical Eng & Computer Sci"
+    },
+    "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61659&PostingSeq=1&SiteId=9": {
+      "title": "Clinical Postdoctoral Fellowship - Thompson Center for Autism and Neurodevelopment",
+      "description": "Posted: 11/05/2026 Location: Columbia Department: Health Psychology Clinical Postdoctoral Fellowship - Thompson Center for Autism and Neurodevelopment",
+      "department": "Health Psychology"
+    },
+    "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61589&PostingSeq=1&SiteId=9": {
+      "title": "Assistant Professor in Artificial Intelligence",
+      "description": "Posted: 11/03/2026 Location: Columbia Department: Electrical Eng & Computer Sci Assistant Professor in Artificial Intelligence",
+      "department": "Electrical Eng & Computer Sci"
+    },
+    "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61626&PostingSeq=1&SiteId=9": {
+      "title": "Assistant/Associate Extension Professor - Labor & Workforce Development State Specialist",
+      "description": "Posted: 11/03/2026 Location: Columbia Department: Truman School Gov & Pub Affrs Assistant/Associate Extension Professor - Labor & Workforce Development State Specialist",
+      "department": "Truman School Gov & Pub Affrs"
+    },
+    "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61592&PostingSeq=1&SiteId=9": {
+      "title": "Professor & Department Chair, David L Payne Department of Electrical Engineering & Computer Science",
+      "description": "Posted: 11/03/2026 Location: Columbia Department: Electrical Eng & Computer Sci Professor & Department Chair, David L Payne Department of Electrical Engineering & Computer Science",
+      "department": "Electrical Eng & Computer Sci"
+    },
+    "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61595&PostingSeq=1&SiteId=9": {
+      "title": "Field Specialist in Human Development – Laclede County, MO",
+      "description": "Posted: 11/02/2026 Location: Missouri West Central Region Department: Ext WC Region-HHS Field Specialist in Human Development – Laclede County, MO",
+      "department": "Ext WC Region-HHS"
     }
   },
   "rows": {
@@ -3192,11 +3222,83 @@
       "deadline_of_application": "",
       "posted_date": "10/29/2026",
       "position_start_date": ""
+    },
+    "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61650&PostingSeq=1&SiteId=9": {
+      "school_id": 707,
+      "posting_url": "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61650&PostingSeq=1&SiteId=9",
+      "job_title_in_post": "Assistant Professor of Hardware and Embedded Systems Cybersecurity",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Electrical Eng & Computer Sci",
+      "area_key_words": "Hardware and Embedded Systems Cybersecurity",
+      "deadline_of_application": "",
+      "posted_date": "11/05/2026",
+      "position_start_date": ""
+    },
+    "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61659&PostingSeq=1&SiteId=9": {
+      "school_id": 707,
+      "posting_url": "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61659&PostingSeq=1&SiteId=9",
+      "job_title_in_post": "Clinical Postdoctoral Fellowship - Thompson Center for Autism and Neurodevelopment",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "Health Psychology",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/05/2026",
+      "position_start_date": ""
+    },
+    "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61589&PostingSeq=1&SiteId=9": {
+      "school_id": 707,
+      "posting_url": "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61589&PostingSeq=1&SiteId=9",
+      "job_title_in_post": "Assistant Professor in Artificial Intelligence",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Electrical Eng & Computer Sci",
+      "area_key_words": "Artificial Intelligence",
+      "deadline_of_application": "",
+      "posted_date": "11/03/2026",
+      "position_start_date": ""
+    },
+    "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61626&PostingSeq=1&SiteId=9": {
+      "school_id": 707,
+      "posting_url": "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61626&PostingSeq=1&SiteId=9",
+      "job_title_in_post": "Assistant/Associate Extension Professor - Labor & Workforce Development State Specialist",
+      "position_type": "Assistant_Professor; Associate_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Truman School Gov & Pub Affrs",
+      "area_key_words": "Labor & Workforce Development State Specialist",
+      "deadline_of_application": "",
+      "posted_date": "11/03/2026",
+      "position_start_date": ""
+    },
+    "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61592&PostingSeq=1&SiteId=9": {
+      "school_id": 707,
+      "posting_url": "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61592&PostingSeq=1&SiteId=9",
+      "job_title_in_post": "Professor & Department Chair, David L Payne Department of Electrical Engineering & Computer Science",
+      "position_type": "Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Electrical Eng & Computer Sci",
+      "area_key_words": "Electrical Engineering & Computer Science",
+      "deadline_of_application": "",
+      "posted_date": "11/03/2026",
+      "position_start_date": ""
+    },
+    "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61595&PostingSeq=1&SiteId=9": {
+      "school_id": 707,
+      "posting_url": "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61595&PostingSeq=1&SiteId=9",
+      "job_title_in_post": "Field Specialist in Human Development – Laclede County, MO",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Ext WC Region-HHS",
+      "area_key_words": "Human Development",
+      "deadline_of_application": "",
+      "posted_date": "11/02/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 707,
   "status": "complete",
-  "updated_at": "2026-10-31T00:25:43+00:00",
-  "completed_at": "2026-10-31T00:25:43+00:00",
+  "updated_at": "2026-11-06T07:04:15+00:00",
+  "completed_at": "2026-11-06T07:04:15+00:00",
   "last_error": ""
 }

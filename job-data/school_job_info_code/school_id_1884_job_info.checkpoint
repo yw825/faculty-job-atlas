@@ -39,6 +39,10 @@
     "https://my.corehr.com/pls/tudrecruit/erq_jobspec_version_4.jobspec?p_id=045663": {
       "title": "Building Intelligence & Operations Officer (Grade VII) Irish Building Stock Observatory (IBSO) (2 Posts) (Specified Purpose Wholetime) (Reference: 495a/2026)",
       "description": "Closing Date: 13/11/2026 Close Date : 13-Nov-2026 Job Title : Administrative Officer - Grade 7 Contact Person : Ciara Ahern Job ID : 045663 Building Intelligence & Operations Officer (Grade VII) Irish Building Stock Observatory (IBSO) (2 Posts) (Specified Purpose Wholetime) (Reference: 495a/2026) 13-Nov-2026"
+    },
+    "https://my.corehr.com/pls/tudrecruit/erq_jobspec_version_4.jobspec?p_id=045763": {
+      "title": "Hourly Paid Part-time Assistant Lecturer (Panel) in Informatics and Cybersecurity Reference: HPAL/6/2026",
+      "description": "Closing Date: 06/11/2026 Close Date : 06-Nov-2026 Job Title : Hourly Paid Assistant Lecturer Contact Person : Geraldine Gray Job ID : 045763 Hourly Paid Part-time Assistant Lecturer (Panel) in Informatics and Cybersecurity Reference: HPAL/6/2026 06-Nov-2026"
     }
   },
   "rows": {
@@ -159,11 +163,23 @@
       "deadline_of_application": "13/11/2026",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://my.corehr.com/pls/tudrecruit/erq_jobspec_version_4.jobspec?p_id=045763": {
+      "school_id": 1884,
+      "posting_url": "https://my.corehr.com/pls/tudrecruit/erq_jobspec_version_4.jobspec?p_id=045763",
+      "job_title_in_post": "Hourly Paid Part-time Assistant Lecturer (Panel) in Informatics and Cybersecurity Reference: HPAL/6/2026",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "HPAL/6/2026",
+      "deadline_of_application": "06/11/2026",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1884,
   "status": "complete",
-  "updated_at": "2026-10-31T01:49:57+00:00",
-  "completed_at": "2026-10-31T01:49:57+00:00",
+  "updated_at": "2026-11-06T07:22:43+00:00",
+  "completed_at": "2026-11-06T07:22:43+00:00",
   "last_error": ""
 }

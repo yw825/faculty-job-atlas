@@ -83,6 +83,10 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/AB201C499D53A5D603D5BE296513B383/jobs/442187": {
       "title": "Compliance Specialist",
       "description": "Compliance Specialist You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/AB201C499D53A5D603D5BE296513B383/jobs/443207": {
+      "title": "Adjunct Instructor - Engineering/Physics - In Person, Ottawa Residential Campus",
+      "description": "Adjunct Instructor - Engineering/Physics - In Person, Ottawa Residential Campus You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -337,11 +341,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/AB201C499D53A5D603D5BE296513B383/jobs/443207": {
+      "school_id": 473,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/AB201C499D53A5D603D5BE296513B383/jobs/443207",
+      "job_title_in_post": "Adjunct Instructor - Engineering/Physics - In Person, Ottawa Residential Campus",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "Engineering/Physics",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 473,
   "status": "complete",
-  "updated_at": "2026-11-02T23:00:30+00:00",
-  "completed_at": "2026-11-02T23:00:30+00:00",
+  "updated_at": "2026-11-06T07:22:13+00:00",
+  "completed_at": "2026-11-06T07:22:13+00:00",
   "last_error": ""
 }

@@ -569,6 +569,41 @@
       "title": "Business Coordinator - College of Health and Human Sciences",
       "description": "Posted: 07/30/2026 Location: Fargo Department: HHS Business Center Business Coordinator - College of Health and Human Sciences",
       "department": "HHS Business Center"
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2959990&PostingSeq=1&SiteId=1": {
+      "title": "Equipment Operator / Mechanic",
+      "description": "Posted: 11/05/2026 Location: Minot Department: AES North Central R/E Ctr Equipment Operator / Mechanic",
+      "department": "AES North Central R/E Ctr"
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960172&PostingSeq=1&SiteId=1": {
+      "title": "Pharmacy Customer Service Rep - Family Healthcare Pharm South",
+      "description": "Posted: 11/04/2026 Location: Fargo Department: Family HealthCare Pharm South Pharmacy Customer Service Rep - Family Healthcare Pharm South",
+      "department": "Family HealthCare Pharm South"
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960185&PostingSeq=1&SiteId=1": {
+      "title": "Temporary Heating Plant Operator - NDSU",
+      "description": "Posted: 11/04/2026 Location: Fargo Department: Facilities Management Temporary Heating Plant Operator - NDSU",
+      "department": "Facilities Management"
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960184&PostingSeq=1&SiteId=1": {
+      "title": "Temporary General QBB-Time-slip Hourly",
+      "description": "Posted: 11/03/2026 Location: Fargo Department: Upper Great Plains Transport Temporary General QBB-Time-slip Hourly",
+      "department": "Upper Great Plains Transport"
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960034&PostingSeq=1&SiteId=1": {
+      "title": "Tmp-Plant Sci Exchange/Intern",
+      "description": "Posted: 11/03/2026 Location: Fargo Department: AES Plant Science Tmp-Plant Sci Exchange/Intern",
+      "department": "AES Plant Science"
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960152&PostingSeq=1&SiteId=1": {
+      "title": "Cropping Systems Extension Specialist",
+      "description": "Posted: 11/02/2026 Location: Dickinson Department: Ext Dickinson R/E Center Cropping Systems Extension Specialist",
+      "department": "Ext Dickinson R/E Center"
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960175&PostingSeq=1&SiteId=1": {
+      "title": "Temp-Equine FarmingMach",
+      "description": "Posted: 11/02/2026 Location: Fargo Department: Animal Science Temp-Equine FarmingMach",
+      "department": "Animal Science"
     }
   },
   "rows": {
@@ -1918,11 +1953,95 @@
       "deadline_of_application": "",
       "posted_date": "10/29/2026",
       "position_start_date": ""
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2959990&PostingSeq=1&SiteId=1": {
+      "school_id": 823,
+      "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2959990&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Equipment Operator / Mechanic",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "AES North Central R/E Ctr",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/05/2026",
+      "position_start_date": ""
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960172&PostingSeq=1&SiteId=1": {
+      "school_id": 823,
+      "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960172&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Pharmacy Customer Service Rep - Family Healthcare Pharm South",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Family HealthCare Pharm South",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/04/2026",
+      "position_start_date": ""
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960185&PostingSeq=1&SiteId=1": {
+      "school_id": 823,
+      "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960185&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Temporary Heating Plant Operator - NDSU",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Facilities Management",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/04/2026",
+      "position_start_date": ""
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960184&PostingSeq=1&SiteId=1": {
+      "school_id": 823,
+      "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960184&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Temporary General QBB-Time-slip Hourly",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Upper Great Plains Transport",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/03/2026",
+      "position_start_date": ""
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960034&PostingSeq=1&SiteId=1": {
+      "school_id": 823,
+      "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960034&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Tmp-Plant Sci Exchange/Intern",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "AES Plant Science",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/03/2026",
+      "position_start_date": ""
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960152&PostingSeq=1&SiteId=1": {
+      "school_id": 823,
+      "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960152&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Cropping Systems Extension Specialist",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Ext Dickinson R/E Center",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/02/2026",
+      "position_start_date": ""
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960175&PostingSeq=1&SiteId=1": {
+      "school_id": 823,
+      "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960175&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Temp-Equine FarmingMach",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Animal Science",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/02/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 823,
-  "status": "error",
-  "updated_at": "2026-10-31T00:35:19+00:00",
-  "completed_at": "2026-10-30T20:21:06+00:00",
-  "last_error": "RuntimeError: PeopleSoft careers page returned no job rows"
+  "status": "complete",
+  "updated_at": "2026-11-06T07:39:57+00:00",
+  "completed_at": "2026-11-06T07:39:57+00:00",
+  "last_error": ""
 }

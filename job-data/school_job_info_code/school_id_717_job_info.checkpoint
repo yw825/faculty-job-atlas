@@ -95,6 +95,10 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/76B960DE16E1EABF6B6D63157F84F11F/jobs/533610": {
       "title": "Assistant Professor of Physical Therapy",
       "description": "Assistant Professor of Physical Therapy You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/76B960DE16E1EABF6B6D63157F84F11F/jobs/534669": {
+      "title": "Nursing Assistant Professor",
+      "description": "Nursing Assistant Professor You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -384,11 +388,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/76B960DE16E1EABF6B6D63157F84F11F/jobs/534669": {
+      "school_id": 717,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/76B960DE16E1EABF6B6D63157F84F11F/jobs/534669",
+      "job_title_in_post": "Nursing Assistant Professor",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Nursing Assistant",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 717,
   "status": "complete",
-  "updated_at": "2026-10-31T00:26:30+00:00",
-  "completed_at": "2026-10-31T00:26:30+00:00",
+  "updated_at": "2026-11-06T07:27:37+00:00",
+  "completed_at": "2026-11-06T07:27:37+00:00",
   "last_error": ""
 }

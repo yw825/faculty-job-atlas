@@ -19,6 +19,14 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/7928559E6D4BF5B8E88B3A475C977E4F/jobs/546676": {
       "title": "Assistant / Associate Professors or Professors of Practice in Accounting and Business Management/Economics",
       "description": "Assistant / Associate Professors or Professors of Practice in Accounting and Business Management/Economics You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/7928559E6D4BF5B8E88B3A475C977E4F/jobs/548047": {
+      "title": "Associate Registrar",
+      "description": "Associate Registrar You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/7928559E6D4BF5B8E88B3A475C977E4F/jobs/548073": {
+      "title": "Poet in Residence",
+      "description": "Poet in Residence You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -81,11 +89,35 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/7928559E6D4BF5B8E88B3A475C977E4F/jobs/548047": {
+      "school_id": 1557,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/7928559E6D4BF5B8E88B3A475C977E4F/jobs/548047",
+      "job_title_in_post": "Associate Registrar",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/7928559E6D4BF5B8E88B3A475C977E4F/jobs/548073": {
+      "school_id": 1557,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/7928559E6D4BF5B8E88B3A475C977E4F/jobs/548073",
+      "job_title_in_post": "Poet in Residence",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Residence",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1557,
   "status": "complete",
-  "updated_at": "2026-10-31T01:14:26+00:00",
-  "completed_at": "2026-10-31T01:14:26+00:00",
+  "updated_at": "2026-11-06T07:25:10+00:00",
+  "completed_at": "2026-11-06T07:25:10+00:00",
   "last_error": ""
 }

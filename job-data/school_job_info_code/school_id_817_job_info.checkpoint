@@ -111,6 +111,18 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/F9BC0E3EF21EBFD06396ABA365BF2DCF/jobs/173111": {
       "title": "EXECUTIVE DIRECTOR OF RESIDENTIAL LIFE",
       "description": "EXECUTIVE DIRECTOR OF RESIDENTIAL LIFE You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/F9BC0E3EF21EBFD06396ABA365BF2DCF/jobs/174731": {
+      "title": "Assistant/Associate Professor of Biology (Tenure-track)",
+      "description": "Assistant/Associate Professor of Biology (Tenure-track) You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/F9BC0E3EF21EBFD06396ABA365BF2DCF/jobs/174759": {
+      "title": "Mathematics Adjunct Instructor",
+      "description": "Mathematics Adjunct Instructor You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/F9BC0E3EF21EBFD06396ABA365BF2DCF/jobs/174858": {
+      "title": "Institutional Compliance Officer/Title IX Coordinator",
+      "description": "Institutional Compliance Officer/Title IX Coordinator You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -446,11 +458,47 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/F9BC0E3EF21EBFD06396ABA365BF2DCF/jobs/174731": {
+      "school_id": 817,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/F9BC0E3EF21EBFD06396ABA365BF2DCF/jobs/174731",
+      "job_title_in_post": "Assistant/Associate Professor of Biology (Tenure-track)",
+      "position_type": "Assistant_Professor; Associate_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Biology",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/F9BC0E3EF21EBFD06396ABA365BF2DCF/jobs/174759": {
+      "school_id": 817,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/F9BC0E3EF21EBFD06396ABA365BF2DCF/jobs/174759",
+      "job_title_in_post": "Mathematics Adjunct Instructor",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "Mathematics Adjunct",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/F9BC0E3EF21EBFD06396ABA365BF2DCF/jobs/174858": {
+      "school_id": 817,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/F9BC0E3EF21EBFD06396ABA365BF2DCF/jobs/174858",
+      "job_title_in_post": "Institutional Compliance Officer/Title IX Coordinator",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 817,
   "status": "complete",
-  "updated_at": "2026-10-31T00:30:37+00:00",
-  "completed_at": "2026-10-31T00:30:37+00:00",
+  "updated_at": "2026-11-06T07:20:28+00:00",
+  "completed_at": "2026-11-06T07:20:28+00:00",
   "last_error": ""
 }

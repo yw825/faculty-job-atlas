@@ -319,6 +319,26 @@
     "https://schreiner.edu/job/schreiner-head-rifle-coach/": {
       "title": "schreiner head rifle coach",
       "description": "Checking your browser... Javascript required"
+    },
+    "https://schreiner.edu/job/program-professional-tutor-and-academic-coach/": {
+      "title": "program professional tutor and academic coach",
+      "description": "Checking your browser... Javascript required Confirm you are human We need to check you're not a robot before you can enter this site. I am human I am human I am human I am human I am human I am human I am human I am human I am human I am human"
+    },
+    "https://schreiner.edu/job/project-director-strengthening-institutional-program-sip-grant/": {
+      "title": "project director strengthening institutional program sip grant",
+      "description": "Checking your browser... Javascript required Confirm you are human We need to check you're not a robot before you can enter this site. I am human I am human I am human I am human I am human I am human I am human I am human I am human I am human"
+    },
+    "https://schreiner.edu/job/student-accounts-counselor/": {
+      "title": "student accounts counselor",
+      "description": "Checking your browser... Javascript required Confirm you are human We need to check you're not a robot before you can enter this site. I am human I am human I am human I am human I am human I am human I am human I am human I am human I am human"
+    },
+    "https://schreiner.edu/job/associate-director-of-admission/": {
+      "title": "associate director of admission",
+      "description": "Checking your browser... Javascript required Confirm you are human We need to check you're not a robot before you can enter this site. I am human I am human I am human I am human I am human I am human I am human I am human I am human I am human"
+    },
+    "https://schreiner.edu/job/instructor-of-graphic-design-internship/": {
+      "title": "instructor of graphic design internship",
+      "description": "Checking your browser... Javascript required Confirm you are human We need to check you're not a robot before you can enter this site. I am human I am human I am human I am human I am human I am human I am human I am human I am human I am human"
     }
   },
   "rows": {
@@ -1280,11 +1300,71 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://schreiner.edu/job/program-professional-tutor-and-academic-coach/": {
+      "school_id": 1405,
+      "posting_url": "https://schreiner.edu/job/program-professional-tutor-and-academic-coach/",
+      "job_title_in_post": "program professional tutor and academic coach",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://schreiner.edu/job/project-director-strengthening-institutional-program-sip-grant/": {
+      "school_id": 1405,
+      "posting_url": "https://schreiner.edu/job/project-director-strengthening-institutional-program-sip-grant/",
+      "job_title_in_post": "project director strengthening institutional program sip grant",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://schreiner.edu/job/student-accounts-counselor/": {
+      "school_id": 1405,
+      "posting_url": "https://schreiner.edu/job/student-accounts-counselor/",
+      "job_title_in_post": "student accounts counselor",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://schreiner.edu/job/associate-director-of-admission/": {
+      "school_id": 1405,
+      "posting_url": "https://schreiner.edu/job/associate-director-of-admission/",
+      "job_title_in_post": "associate director of admission",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://schreiner.edu/job/instructor-of-graphic-design-internship/": {
+      "school_id": 1405,
+      "posting_url": "https://schreiner.edu/job/instructor-of-graphic-design-internship/",
+      "job_title_in_post": "instructor of graphic design internship",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1405,
   "status": "complete",
-  "updated_at": "2026-10-31T01:07:52+00:00",
-  "completed_at": "2026-10-31T01:07:52+00:00",
+  "updated_at": "2026-11-06T07:08:00+00:00",
+  "completed_at": "2026-11-06T07:08:00+00:00",
   "last_error": ""
 }

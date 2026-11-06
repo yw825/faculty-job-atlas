@@ -519,6 +519,31 @@
       "title": "Lecturer Pool - Foundations of Library and Information Science",
       "description": "Posted: 10/30/2026 Location: Remote Department: CWU Libraries Lecturer Pool - Foundations of Library and Information Science",
       "department": "CWU Libraries"
+    },
+    "https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=7619&PostingSeq=1&SiteId=1": {
+      "title": "Program Coordinator - Educational Opportunity Center (EOC)",
+      "description": "Posted: 11/05/2026 Location: Yakima, WA Department: Educational Opportunity Center Program Coordinator - Educational Opportunity Center (EOC)",
+      "department": "Educational Opportunity Center"
+    },
+    "https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=7618&PostingSeq=1&SiteId=1": {
+      "title": "Cook 1 - SURC Kitchen",
+      "description": "Posted: 11/04/2026 Location: Ellensburg, WA Department: SURC Kitchen Cook 1 - SURC Kitchen",
+      "department": "SURC Kitchen"
+    },
+    "https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=7614&PostingSeq=1&SiteId=1": {
+      "title": "Maintenance Mechanic 2 (Paint)",
+      "description": "Posted: 11/02/2026 Location: Ellensburg, WA Department: Building Repair & Maintenance Maintenance Mechanic 2 (Paint)",
+      "department": "Building Repair & Maintenance"
+    },
+    "https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=7616&PostingSeq=1&SiteId=1": {
+      "title": "Temporary/Hourly Pool - Athletics",
+      "description": "Posted: 11/02/2026 Location: Ellensburg, WA Department: Sports Info Temporary/Hourly Pool - Athletics",
+      "department": "Sports Info"
+    },
+    "https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=7615&PostingSeq=1&SiteId=1": {
+      "title": "Temporary/Hourly Pool - Clerical",
+      "description": "Posted: 11/02/2026 Location: Ellensburg, WA Department: Provost Office Temporary/Hourly Pool - Clerical",
+      "department": "Provost Office"
     }
   },
   "rows": {
@@ -1769,11 +1794,71 @@
       "deadline_of_application": "",
       "posted_date": "10/30/2026",
       "position_start_date": ""
+    },
+    "https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=7619&PostingSeq=1&SiteId=1": {
+      "school_id": 1512,
+      "posting_url": "https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=7619&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Program Coordinator - Educational Opportunity Center (EOC)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Educational Opportunity Center",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/05/2026",
+      "position_start_date": ""
+    },
+    "https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=7618&PostingSeq=1&SiteId=1": {
+      "school_id": 1512,
+      "posting_url": "https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=7618&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Cook 1 - SURC Kitchen",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "SURC Kitchen",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/04/2026",
+      "position_start_date": ""
+    },
+    "https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=7614&PostingSeq=1&SiteId=1": {
+      "school_id": 1512,
+      "posting_url": "https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=7614&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Maintenance Mechanic 2 (Paint)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Building Repair & Maintenance",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/02/2026",
+      "position_start_date": ""
+    },
+    "https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=7616&PostingSeq=1&SiteId=1": {
+      "school_id": 1512,
+      "posting_url": "https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=7616&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Temporary/Hourly Pool - Athletics",
+      "position_type": "Unclassified",
+      "job_term": "Part-time",
+      "department_or_school": "Sports Info",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/02/2026",
+      "position_start_date": ""
+    },
+    "https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=7615&PostingSeq=1&SiteId=1": {
+      "school_id": 1512,
+      "posting_url": "https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=7615&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Temporary/Hourly Pool - Clerical",
+      "position_type": "Unclassified",
+      "job_term": "Part-time",
+      "department_or_school": "Provost Office",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/02/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 1512,
   "status": "complete",
-  "updated_at": "2026-10-31T01:12:52+00:00",
-  "completed_at": "2026-10-31T01:12:52+00:00",
+  "updated_at": "2026-11-06T07:43:59+00:00",
+  "completed_at": "2026-11-06T07:43:59+00:00",
   "last_error": ""
 }

@@ -91,6 +91,14 @@
     "https://www.mercyhurst.edu/human-resources/jobs#pt-grant-project-coordinator": {
       "title": "PT Grant Project Coordinator",
       "description": "PT Grant Project Coordinator. The PT Grant Project Coordinator supports implementation of the SAMHSA Garrett Lee Smith (GLS) Campus Suicide Prevention Grant and coordinates campus mental health promotion, suicide prevention, resilience, substance use prevention, and well-being initiatives, supporting strong campus and community partnerships. Responsibilities include coordinating the day-to-day implementation of the SAMHSA Garrett Lee Smith (GLS) Suicide Prevention Grant under the direction of the project director; maintaining project timelines, work plans, meeting schedules, and grant documentation to ensure completion of project goals and deliverables; coordinating implementation of campus mental health promotion, suicide prevention, substance use prevention, resilience, and well-being initiatives, including peer education, JED Campus activities, teletherapy promotion, gatekeeper trainings, and campus awareness campaigns; serving as liaison among campus departments, community partners, and grant stakeholders to support collaborative programming and the MU Connects network; coordinating project meetings, advisory committee activities, and partner communications; collecting and maintaining project data, training records, participation statistics, and evaluation measures; assisting with surveys and annual reporting requirements; assisting with development of promotional materials, newsletters, website updates, presentations, and social media messaging; supporting grant administration by maintaining required records, monitoring project expenditures, assisting with federal progress reports, and ensuring compliance with SAMHSA requirements; and performing other duties necessary to support successful implementation and long-term sustainability of the GLS project. Learn more about this opportunity via the PT Grant Project Coordinator position summary. Learn More"
+    },
+    "https://www.mercyhurst.edu/human-resources/jobs#director-of-operations-data-management": {
+      "title": "Director of Operations & Data Management",
+      "description": "Director of Operations & Data Management. The Director of Operations & Data Management leads the operations and data functions of the Office for Academic Affairs, performing a variety of executive administrative operations which require a range of skills and knowledge of organizational policies and procedures while maintaining a confidential environment; gathers, analyzes, and reports on academic operations data, including budgets, course schedules, faculty workload, contracts, and faculty processes; builds reports and data visualizations that support decision-making and improve efficiency; assists the provost and VPAA to resolve administrative, student, as well as faculty issues and inquiries, using data to inform recommendations; composes, edits, and proofreads correspondence; prepares a range of executive administrative documents and data reports. Responsibilities include running reports on academic operations, including budget, course schedule, faculty workload, and contracts; analyzing data to identify trends and make recommendations for efficiencies; managing all aspects of the Office for Academic Affairs, using data and reporting to monitor operations and identify improvements; supporting the VPAA and the assistant vice presidents for academic affairs as well as the university deans, including providing data and reports as requested; working as a liaison with Human Resources in faculty onboarding; designing, building, and maintaining interactive dashboards and data visualizations (e.g., Power BI, Tableau, or Excel) that give the VPAA, assistant vice presidents, and deans timely access to key academic metrics; collaborating with the assistant vice presidents for academic affairs on academic dishonesty issues, student and parent issues, grade appeals, and changes; maintaining records and tracking trends to inform policy and practice; serving as the OAA liaison for graduation in implementing ceremony, commencement, award convocation, and reception(s); serving as an OAA lead for new faculty orientation, faculty convocation, and faculty retirement event; analyzing trends and model scenarios, such as course demand, staffing needs, instructional cost, and budget projections; presenting findings with clear, actionable recommendations for efficiencies; assisting the VPAA – Deans with advertising of new hire positions in professional online sources; preparing all new faculty and current faculty yearly contracts and maintaining contract data for tracking and reporting; assisting the VPAA with approvals of department/college contracts and working through the Office of General Counsel; running reports on academic operations, including budget, course schedule, faculty workload, and contracts; and analyzing data to identify trends and make recommendations for efficiencies; and managing all aspects of the Office for Academic Affairs, using data and reporting to monitor operations and identify improvements. Learn more about this opportunity via the Director of Operations & Data Management position summary. Learn More"
+    },
+    "https://www.mercyhurst.edu/human-resources/jobs#visiting-assistant-professor-of-chemistry": {
+      "title": "Visiting Assistant Professor of Chemistry",
+      "description": "Visiting Assistant Professor of Chemistry. The Visiting Assistant Professor of Chemistry teaches introductory and upper-division undergraduate courses in the Chemistry program, as well as the undergraduate Instrumental Analysis & lab courses, with the remainder of the teaching load consisting of either General/Introductory Chemistry or Organic Chemistry with labs. Responsibilities include instructing labs, developing courses, and using innovative, student-centered pedagogies; demonstrating commitment to fostering an inclusive learning environment for students from diverse backgrounds; using skills in educational technology and modern instructional techniques; and mentoring undergraduate students in professional development. Learn more about this opportunity via the Visiting Assistant Professor of Chemistry position summary. Learn More"
     }
   },
   "rows": {
@@ -369,11 +377,35 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.mercyhurst.edu/human-resources/jobs#director-of-operations-data-management": {
+      "school_id": 1152,
+      "posting_url": "https://www.mercyhurst.edu/human-resources/jobs#director-of-operations-data-management",
+      "job_title_in_post": "Director of Operations & Data Management",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Operations & Data Management",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://www.mercyhurst.edu/human-resources/jobs#visiting-assistant-professor-of-chemistry": {
+      "school_id": 1152,
+      "posting_url": "https://www.mercyhurst.edu/human-resources/jobs#visiting-assistant-professor-of-chemistry",
+      "job_title_in_post": "Visiting Assistant Professor of Chemistry",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Chemistry; lab courses",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1152,
   "status": "complete",
-  "updated_at": "2026-10-31T00:58:54+00:00",
-  "completed_at": "2026-10-31T00:58:54+00:00",
+  "updated_at": "2026-11-06T07:19:44+00:00",
+  "completed_at": "2026-11-06T07:19:44+00:00",
   "last_error": ""
 }

@@ -3,11 +3,89 @@
     "https://my.mcpherson.edu/ICS/Employment/Employment_Landing_Page.jnz?portlet=Employment_Position_Application#adjunct": {
       "title": "ADJUNCT",
       "description": "ADJUNCT. Department: . Classification: . Full Time. Posted: None specified."
+    },
+    "https://my.mcpherson.edu/ICS/Employment/Employment_Landing_Page.jnz?portlet=Employment_Position_Application#assistant-professor-of-exercise-science": {
+      "title": "Assistant Professor of Exercise Science",
+      "description": "Assistant Professor of Exercise Science. Department: . Classification: . Full Time. Posted: None specified."
+    },
+    "https://my.mcpherson.edu/ICS/Employment/Employment_Landing_Page.jnz?portlet=Employment_Position_Application#controller": {
+      "title": "Controller",
+      "description": "Controller. Department: Business Office. Classification: Exempt. Full Time. Posted: None specified."
+    },
+    "https://my.mcpherson.edu/ICS/Employment/Employment_Landing_Page.jnz?portlet=Employment_Position_Application#custodial-supervisor": {
+      "title": "Custodial Supervisor",
+      "description": "Custodial Supervisor. Department: Facility Management. Classification: Exempt. Full Time. Posted: None specified."
+    },
+    "https://my.mcpherson.edu/ICS/Employment/Employment_Landing_Page.jnz?portlet=Employment_Position_Application#head-women-s-wrestling-coach": {
+      "title": "Head Women's Wrestling Coach",
+      "description": "Head Women's Wrestling Coach. Department: Athletics. Classification: Exempt. Full Time. Posted: None specified."
     }
   },
-  "rows": {},
+  "rows": {
+    "https://my.mcpherson.edu/ICS/Employment/Employment_Landing_Page.jnz?portlet=Employment_Position_Application#adjunct": {
+      "school_id": 470,
+      "posting_url": "https://my.mcpherson.edu/ICS/Employment/Employment_Landing_Page.jnz?portlet=Employment_Position_Application#adjunct",
+      "job_title_in_post": "ADJUNCT",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://my.mcpherson.edu/ICS/Employment/Employment_Landing_Page.jnz?portlet=Employment_Position_Application#assistant-professor-of-exercise-science": {
+      "school_id": 470,
+      "posting_url": "https://my.mcpherson.edu/ICS/Employment/Employment_Landing_Page.jnz?portlet=Employment_Position_Application#assistant-professor-of-exercise-science",
+      "job_title_in_post": "Assistant Professor of Exercise Science",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Exercise Science",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://my.mcpherson.edu/ICS/Employment/Employment_Landing_Page.jnz?portlet=Employment_Position_Application#controller": {
+      "school_id": 470,
+      "posting_url": "https://my.mcpherson.edu/ICS/Employment/Employment_Landing_Page.jnz?portlet=Employment_Position_Application#controller",
+      "job_title_in_post": "Controller",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://my.mcpherson.edu/ICS/Employment/Employment_Landing_Page.jnz?portlet=Employment_Position_Application#custodial-supervisor": {
+      "school_id": 470,
+      "posting_url": "https://my.mcpherson.edu/ICS/Employment/Employment_Landing_Page.jnz?portlet=Employment_Position_Application#custodial-supervisor",
+      "job_title_in_post": "Custodial Supervisor",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://my.mcpherson.edu/ICS/Employment/Employment_Landing_Page.jnz?portlet=Employment_Position_Application#head-women-s-wrestling-coach": {
+      "school_id": 470,
+      "posting_url": "https://my.mcpherson.edu/ICS/Employment/Employment_Landing_Page.jnz?portlet=Employment_Position_Application#head-women-s-wrestling-coach",
+      "job_title_in_post": "Head Women's Wrestling Coach",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    }
+  },
   "school_id": 470,
-  "status": "error",
-  "updated_at": "2026-11-02T23:00:03+00:00",
-  "last_error": "OSError: [Errno 11] Resource deadlock avoided: '/Users/yusiwei/Library/CloudStorage/OneDrive-Personal/faculty-job-atlas/job-data/school_job_info/school_id_470_job_info.csv'"
+  "status": "complete",
+  "updated_at": "2026-11-06T07:24:06+00:00",
+  "last_error": "",
+  "completed_at": "2026-11-06T07:24:06+00:00"
 }

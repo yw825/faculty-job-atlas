@@ -414,6 +414,16 @@
       "title": "Clinical Adjunct Faculty - Bachelor of Science in Nursing Program, UMKC School of Nursing and Health Studies (Continuous Posting)",
       "description": "Posted: 10/20/2026 Location: Kansas City Department: Nursing - General Clinical Adjunct Faculty - Bachelor of Science in Nursing Program, UMKC School of Nursing and Health Studies (Continuous Posting)",
       "department": "Nursing - General"
+    },
+    "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61649&PostingSeq=1&SiteId=8": {
+      "title": "Teaching Adjunct, UMKC School of Law (Continuous Posting)",
+      "description": "Posted: 11/04/2026 Location: UMKC Volker Campus Department: Law - General Teaching Adjunct, UMKC School of Law (Continuous Posting)",
+      "department": "Law - General"
+    },
+    "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=60925&PostingSeq=1&SiteId=8": {
+      "title": "Adjunct Instructor, Department of Social Work, UMKC School of Education, Social Work & Psychological Sciences (Continuous Posting)",
+      "description": "Posted: 11/01/2026 Location: UMKC Volker Campus Department: Social Work Adjunct Instructor, Department of Social Work, UMKC School of Education, Social Work & Psychological Sciences (Continuous Posting)",
+      "department": "Social Work"
     }
   },
   "rows": {
@@ -1402,11 +1412,35 @@
       "deadline_of_application": "",
       "posted_date": "10/20/2026",
       "position_start_date": ""
+    },
+    "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61649&PostingSeq=1&SiteId=8": {
+      "school_id": 718,
+      "posting_url": "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61649&PostingSeq=1&SiteId=8",
+      "job_title_in_post": "Teaching Adjunct, UMKC School of Law (Continuous Posting)",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "Law - General",
+      "area_key_words": "Law; Adjunct",
+      "deadline_of_application": "",
+      "posted_date": "11/04/2026",
+      "position_start_date": ""
+    },
+    "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=60925&PostingSeq=1&SiteId=8": {
+      "school_id": 718,
+      "posting_url": "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=60925&PostingSeq=1&SiteId=8",
+      "job_title_in_post": "Adjunct Instructor, Department of Social Work, UMKC School of Education, Social Work & Psychological Sciences (Continuous Posting)",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "Social Work",
+      "area_key_words": "Social Work, UMKC School of Education, Social Work & Psychological Sciences",
+      "deadline_of_application": "",
+      "posted_date": "11/01/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 718,
   "status": "complete",
-  "updated_at": "2026-10-31T00:26:53+00:00",
-  "completed_at": "2026-10-31T00:26:53+00:00",
+  "updated_at": "2026-11-06T07:22:59+00:00",
+  "completed_at": "2026-11-06T07:22:59+00:00",
   "last_error": ""
 }

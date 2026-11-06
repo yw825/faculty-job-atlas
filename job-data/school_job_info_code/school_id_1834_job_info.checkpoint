@@ -949,6 +949,16 @@
       "title": "Assistant Guidance Services Manager, Counselling and Development Section",
       "description": "This position sits under the Office of Student Affairs at our Kowloon Tong campus. The core responsibilities are collaborating with internal and external parties and professionals to organise and deliver mass programmes, activities and workshops for student leaders and SEN students.",
       "department": null
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270303": {
+      "title": "Senior Executive Officer, Academy of Music",
+      "description": "This position sits under the Academy of Music at our Kowloon Tong campus. The core responsibilities are overseeing the administration of undergraduate degree programmes.",
+      "department": null
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270304": {
+      "title": "Lecturer in Physical Geography",
+      "description": "This position sits under the Academy of Geography, Sociology and International Studies at our Kowloon Tong campus. The core responsibilities are teaching courses, supervising students' projects, and engaging in program administration at the undergraduate level or above.",
+      "department": null
     }
   },
   "rows": {
@@ -3223,11 +3233,35 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270303": {
+      "school_id": 1834,
+      "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270303",
+      "job_title_in_post": "Senior Executive Officer, Academy of Music",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Music",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270304": {
+      "school_id": 1834,
+      "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270304",
+      "job_title_in_post": "Lecturer in Physical Geography",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Physical Geography",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1834,
   "status": "complete",
-  "updated_at": "2026-10-31T01:46:05+00:00",
-  "completed_at": "2026-10-31T01:46:05+00:00",
+  "updated_at": "2026-11-06T07:24:31+00:00",
+  "completed_at": "2026-11-06T07:24:31+00:00",
   "last_error": ""
 }

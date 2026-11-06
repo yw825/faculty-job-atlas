@@ -55,6 +55,18 @@
     "https://www.apply.uc.pt/procedure/58edonllswdp1gyn": {
       "title": "Auxiliary Researcher: Astronomy / Astrophysics",
       "description": "Closing Date: 12/11/2026 Applications open: 30/10/2026 Posted Date: 29/10/2026 Reference: IT057-26-47 Positions: 1 Contract: ; competition: international Universidade de Coimbra -- Auxiliary Researcher in Astronomy (Astrophysics)."
+    },
+    "https://www.apply.uc.pt/procedure/astz4k4ykfcwjjii": {
+      "title": "Assistant Professor: Ciências Jurídico-Civilísticas",
+      "description": "Closing Date: 17/12/2026 Applications open: 04/11/2026 Posted Date: 03/11/2026 Reference: IT136-26-45 Positions: 1 Contract: indefinite; competition: international Universidade de Coimbra -- Assistant Professor in Ciências Jurídico-Civilísticas."
+    },
+    "https://www.apply.uc.pt/procedure/haxqmx22u6qe24wj": {
+      "title": "Assistant: Civil Engineering / Steel and Composite Structures and Additive Manufacturing",
+      "description": "Closing Date: 17/12/2026 Applications open: 04/11/2026 Posted Date: 03/11/2026 Reference: IT074-26-3 Positions: 1 Contract: ; competition: international Universidade de Coimbra -- Assistant in Civil Engineering (Steel and Composite Structures and Additive Manufacturing)."
+    },
+    "https://www.apply.uc.pt/procedure/7j47xpl7burustni": {
+      "title": "Initial Researcher: Engenharia Química / Química de Polímeros",
+      "description": "Closing Date: 17/11/2026 Applications open: 04/11/2026 Posted Date: 03/11/2026 Reference: IT057-26-45 Positions: 1 Contract: ; competition: international Universidade de Coimbra -- Initial Researcher in Engenharia Química (Química de Polímeros)."
     }
   },
   "rows": {
@@ -225,11 +237,47 @@
       "deadline_of_application": "12/11/2026",
       "posted_date": "29/10/2026",
       "position_start_date": ""
+    },
+    "https://www.apply.uc.pt/procedure/astz4k4ykfcwjjii": {
+      "school_id": 1733,
+      "posting_url": "https://www.apply.uc.pt/procedure/astz4k4ykfcwjjii",
+      "job_title_in_post": "Assistant Professor: Ciências Jurídico-Civilísticas",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Ciências Jurídico-Civilísticas",
+      "deadline_of_application": "17/12/2026",
+      "posted_date": "03/11/2026",
+      "position_start_date": ""
+    },
+    "https://www.apply.uc.pt/procedure/haxqmx22u6qe24wj": {
+      "school_id": 1733,
+      "posting_url": "https://www.apply.uc.pt/procedure/haxqmx22u6qe24wj",
+      "job_title_in_post": "Assistant: Civil Engineering / Steel and Composite Structures and Additive Manufacturing",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "17/12/2026",
+      "posted_date": "03/11/2026",
+      "position_start_date": ""
+    },
+    "https://www.apply.uc.pt/procedure/7j47xpl7burustni": {
+      "school_id": 1733,
+      "posting_url": "https://www.apply.uc.pt/procedure/7j47xpl7burustni",
+      "job_title_in_post": "Initial Researcher: Engenharia Química / Química de Polímeros",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "17/11/2026",
+      "posted_date": "03/11/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 1733,
   "status": "complete",
-  "updated_at": "2026-10-31T01:56:28+00:00",
-  "completed_at": "2026-10-31T01:56:28+00:00",
+  "updated_at": "2026-11-06T07:15:03+00:00",
+  "completed_at": "2026-11-06T07:15:03+00:00",
   "last_error": ""
 }

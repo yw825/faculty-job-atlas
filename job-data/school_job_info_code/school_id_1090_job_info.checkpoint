@@ -331,6 +331,10 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/05027ACF42B26FF3DD70CE4664A18E9F/jobs/613013": {
       "title": "Marketing - Full-Time, Non-Tenure Track Assistant Professor",
       "description": "Marketing - Full-Time, Non-Tenure Track Assistant Professor You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/05027ACF42B26FF3DD70CE4664A18E9F/jobs/615406": {
+      "title": "Finance - Full-Time, Non-Tenure Track Assistant Professor",
+      "description": "Finance - Full-Time, Non-Tenure Track Assistant Professor You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -1329,11 +1333,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/05027ACF42B26FF3DD70CE4664A18E9F/jobs/615406": {
+      "school_id": 1090,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/05027ACF42B26FF3DD70CE4664A18E9F/jobs/615406",
+      "job_title_in_post": "Finance - Full-Time, Non-Tenure Track Assistant Professor",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1090,
   "status": "complete",
-  "updated_at": "2026-10-31T00:55:53+00:00",
-  "completed_at": "2026-10-31T00:55:53+00:00",
+  "updated_at": "2026-11-06T07:30:09+00:00",
+  "completed_at": "2026-11-06T07:30:09+00:00",
   "last_error": ""
 }

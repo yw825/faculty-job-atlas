@@ -1,9 +1,43 @@
 {
-  "raw": {},
-  "rows": {},
+  "raw": {
+    "https://my.corehr.com/pls/esbshetusrecruit/erq_jobspec_version_4.jobspec?p_id=017493": {
+      "title": "Post-doctoral Researcher / Research Engineer / Research Scientist - Generative AI for eXtended Reality",
+      "description": "Closing Date: 16/11/2026 Post-doctoral Researcher / Research Engineer / Research Scientist - Generative AI for eXtended Reality Vacancy ID: : 017493 Department: : Research Dev + Innovation MW Vacancy Type: : Research Location: : Athlone Campus Closing Date: : 16-Nov-2026 13:00 Contact Email: : hrresearch@tus.ie"
+    },
+    "https://my.corehr.com/pls/esbshetusrecruit/erq_jobspec_version_4.jobspec?p_id=017492": {
+      "title": "Post-doctoral Researcher / Research Engineer / Research Scientist - Human Centric eXtended Reality",
+      "description": "Closing Date: 16/11/2026 Post-doctoral Researcher / Research Engineer / Research Scientist - Human Centric eXtended Reality Vacancy ID: : 017492 Department: : Research Dev + Innovation MW Vacancy Type: : Research Location: : Athlone Campus Closing Date: : 16-Nov-2026 13:00 Contact Email: : hrresearch@tus.ie"
+    }
+  },
+  "rows": {
+    "https://my.corehr.com/pls/esbshetusrecruit/erq_jobspec_version_4.jobspec?p_id=017493": {
+      "school_id": 1913,
+      "posting_url": "https://my.corehr.com/pls/esbshetusrecruit/erq_jobspec_version_4.jobspec?p_id=017493",
+      "job_title_in_post": "Post-doctoral Researcher / Research Engineer / Research Scientist - Generative AI for eXtended Reality",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "16/11/2026",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://my.corehr.com/pls/esbshetusrecruit/erq_jobspec_version_4.jobspec?p_id=017492": {
+      "school_id": 1913,
+      "posting_url": "https://my.corehr.com/pls/esbshetusrecruit/erq_jobspec_version_4.jobspec?p_id=017492",
+      "job_title_in_post": "Post-doctoral Researcher / Research Engineer / Research Scientist - Human Centric eXtended Reality",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "16/11/2026",
+      "posted_date": "",
+      "position_start_date": ""
+    }
+  },
   "school_id": 1913,
   "status": "complete",
-  "updated_at": "2026-10-31T01:50:19+00:00",
-  "completed_at": "2026-10-31T01:50:19+00:00",
+  "updated_at": "2026-11-06T07:19:52+00:00",
+  "completed_at": "2026-11-06T07:19:52+00:00",
   "last_error": ""
 }

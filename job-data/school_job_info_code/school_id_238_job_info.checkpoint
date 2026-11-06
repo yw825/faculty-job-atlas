@@ -1,7 +1,8 @@
 {
   "raw": {
     "https://portal.flsouthern.edu/ICS/Employment_App/#adjunct-instructor-modern-languages": {
-      "error": "TimeoutError: Page.click: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator(\"input[type=submit][value=\\\"Search positions\\\"]\")\n    - locator resolved to <input type=\"submit\" value=\"Search positions\" id=\"pg0_V_psSearch_gbtnSearch\" name=\"pg0$V$psSearch$gbtnSearch\"/>\n  - attempting click action\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - performing click action\n    - click action done\n    - waiting for scheduled navigations to finish\n"
+      "title": "Adjunct Instructor - Modern Languages",
+      "description": "Adjunct Instructor - Modern Languages. Department: Modern Languages. Classification: Faculty-Adjunct. Part Time. Posted: 02/25/2026."
     },
     "https://portal.flsouthern.edu/ICS/Employment_App/#access-coordinator": {
       "title": "Access Coordinator",
@@ -186,7 +187,16 @@
   },
   "rows": {
     "https://portal.flsouthern.edu/ICS/Employment_App/#adjunct-instructor-modern-languages": {
-      "error": "TimeoutError: Page.click: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator(\"input[type=submit][value=\\\"Search positions\\\"]\")\n    - locator resolved to <input type=\"submit\" value=\"Search positions\" id=\"pg0_V_psSearch_gbtnSearch\" name=\"pg0$V$psSearch$gbtnSearch\"/>\n  - attempting click action\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - performing click action\n    - click action done\n    - waiting for scheduled navigations to finish\n"
+      "school_id": 238,
+      "posting_url": "https://portal.flsouthern.edu/ICS/Employment_App/#adjunct-instructor-modern-languages",
+      "job_title_in_post": "Adjunct Instructor - Modern Languages",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "Modern Languages",
+      "deadline_of_application": "",
+      "posted_date": "02/25/2026",
+      "position_start_date": ""
     },
     "https://portal.flsouthern.edu/ICS/Employment_App/#access-coordinator": {
       "school_id": 238,
@@ -731,7 +741,7 @@
   },
   "school_id": 238,
   "status": "complete",
-  "updated_at": "2026-11-06T04:41:18+00:00",
-  "completed_at": "2026-11-06T04:41:18+00:00",
+  "updated_at": "2026-11-06T07:25:25+00:00",
+  "completed_at": "2026-11-06T07:25:25+00:00",
   "last_error": ""
 }

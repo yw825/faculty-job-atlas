@@ -203,6 +203,10 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/F28471DFA0F4183976163E181A695BE1/jobs/508521": {
       "title": "Night Custodian",
       "description": "Night Custodian You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/F28471DFA0F4183976163E181A695BE1/jobs/509715": {
+      "title": "Adjunct Instructor",
+      "description": "Adjunct Instructor You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -815,11 +819,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/F28471DFA0F4183976163E181A695BE1/jobs/509715": {
+      "school_id": 955,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/F28471DFA0F4183976163E181A695BE1/jobs/509715",
+      "job_title_in_post": "Adjunct Instructor",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 955,
   "status": "complete",
-  "updated_at": "2026-10-31T00:48:45+00:00",
-  "completed_at": "2026-10-31T00:48:45+00:00",
+  "updated_at": "2026-11-06T07:22:20+00:00",
+  "completed_at": "2026-11-06T07:22:20+00:00",
   "last_error": ""
 }

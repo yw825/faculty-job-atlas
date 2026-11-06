@@ -264,6 +264,11 @@
       "title": "Counselor / Athletics Mental Health Specialist",
       "description": "The Counselor / Athletics Mental Health Specialist is a 12-month position that provides counseling services to Davidson College students, with a focus on scholar-athletes. This individual delivers counseling and crisis services, relevant training, consultation, and educational outreach to student-athletes, coaches, and athletics department staff, and interacts as needed with scholar-athletes, parents, department personnel, faculty, deans, and campus counseling services to provide quality care.",
       "department": null
+    },
+    "https://fa-exci-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/1069": {
+      "title": "Identity & Access Management Engineer",
+      "description": "The Identity & Access Management Engineer owns Davidson’s identity infrastructure: the systems that establish who a person (or agent) is, what they can access, and how that access is granted, reviewed, and removed across the college’s on-premises, cloud, and agentic platforms. Reporting to the Manager of Infrastructure, about 80% of the work is identity engineering and administration, and about 20% is systems administration supporting identity. This role requires 5+ years of experience in systems administration, identity management, or a related discipline.",
+      "department": null
     }
   },
   "rows": {
@@ -896,11 +901,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://fa-exci-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/1069": {
+      "school_id": 780,
+      "posting_url": "https://fa-exci-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/1069",
+      "job_title_in_post": "Identity & Access Management Engineer",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 780,
   "status": "complete",
-  "updated_at": "2026-10-31T00:30:07+00:00",
-  "completed_at": "2026-10-31T00:30:07+00:00",
+  "updated_at": "2026-11-06T07:23:20+00:00",
+  "completed_at": "2026-11-06T07:23:20+00:00",
   "last_error": ""
 }

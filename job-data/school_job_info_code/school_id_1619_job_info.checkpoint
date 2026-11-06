@@ -247,6 +247,14 @@
     "https://careers.mcmaster.ca/psp/prcsprd/EMPLOYEE/HRMS/c/HRS_HRAM.HRS_APP_SCHJOB.GBL?Page=HRS_APP_SCHJOB&Action=U&FOCUS=Applicant&SiteId=1000&cmd=uninav&Rnode=HRMS&uninavpath=Root{PORTAL_ROOT_OBJECT}.Portal%20Objects{PORTAL_BASE_DATA}.Navigation%20Collections{CO_NAVIGATION_COLLECTIONS}.Custom%20Tabs{PAPP_CUSTOM_TABS}&customTab=MCM_TAB_FACULTY_POS&IgnoreParamTempl=customTab#job-76692": {
       "title": "Tenure-Track Assistant Professor in Actuarial Science",
       "description": "Tenure-Track Assistant Professor in Actuarial Science - 76692 Department: Mathematics and Statistics | Location: Central Campus | Posted Date: 2026/06/11 Mathematics and Statistics"
+    },
+    "https://careers.mcmaster.ca/psp/prcsprd/EMPLOYEE/HRMS/c/HRS_HRAM.HRS_APP_SCHJOB.GBL?Page=HRS_APP_SCHJOB&Action=U&FOCUS=Applicant&SiteId=1000&cmd=uninav&Rnode=HRMS&uninavpath=Root{PORTAL_ROOT_OBJECT}.Portal%20Objects{PORTAL_BASE_DATA}.Navigation%20Collections{CO_NAVIGATION_COLLECTIONS}.Custom%20Tabs{PAPP_CUSTOM_TABS}&customTab=MCM_TAB_FACULTY_POS&IgnoreParamTempl=customTab#job-79541": {
+      "title": "General ER Radiologist - Juravinski Hospital - Department of Medical Imaging",
+      "description": "General ER Radiologist - Juravinski Hospital - Department of Medical Imaging - 79541 Department: Medical Imaging | Location: Juravinski Hospital | Posted Date: 2026/11/03 Medical Imaging"
+    },
+    "https://careers.mcmaster.ca/psp/prcsprd/EMPLOYEE/HRMS/c/HRS_HRAM.HRS_APP_SCHJOB.GBL?Page=HRS_APP_SCHJOB&Action=U&FOCUS=Applicant&SiteId=1000&cmd=uninav&Rnode=HRMS&uninavpath=Root{PORTAL_ROOT_OBJECT}.Portal%20Objects{PORTAL_BASE_DATA}.Navigation%20Collections{CO_NAVIGATION_COLLECTIONS}.Custom%20Tabs{PAPP_CUSTOM_TABS}&customTab=MCM_TAB_FACULTY_POS&IgnoreParamTempl=customTab#job-79490": {
+      "title": "ACADEMIC Cardiologist/Intensivist",
+      "description": "ACADEMIC Cardiologist/Intensivist - 79490 Department: Medicine | Location: Hamilton General Hospital | Posted Date: 2026/11/02 Medicine"
     }
   },
   "rows": {
@@ -989,11 +997,35 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://careers.mcmaster.ca/psp/prcsprd/EMPLOYEE/HRMS/c/HRS_HRAM.HRS_APP_SCHJOB.GBL?Page=HRS_APP_SCHJOB&Action=U&FOCUS=Applicant&SiteId=1000&cmd=uninav&Rnode=HRMS&uninavpath=Root{PORTAL_ROOT_OBJECT}.Portal%20Objects{PORTAL_BASE_DATA}.Navigation%20Collections{CO_NAVIGATION_COLLECTIONS}.Custom%20Tabs{PAPP_CUSTOM_TABS}&customTab=MCM_TAB_FACULTY_POS&IgnoreParamTempl=customTab#job-79541": {
+      "school_id": 1619,
+      "posting_url": "https://careers.mcmaster.ca/psp/prcsprd/EMPLOYEE/HRMS/c/HRS_HRAM.HRS_APP_SCHJOB.GBL?Page=HRS_APP_SCHJOB&Action=U&FOCUS=Applicant&SiteId=1000&cmd=uninav&Rnode=HRMS&uninavpath=Root{PORTAL_ROOT_OBJECT}.Portal%20Objects{PORTAL_BASE_DATA}.Navigation%20Collections{CO_NAVIGATION_COLLECTIONS}.Custom%20Tabs{PAPP_CUSTOM_TABS}&customTab=MCM_TAB_FACULTY_POS&IgnoreParamTempl=customTab#job-79541",
+      "job_title_in_post": "General ER Radiologist - Juravinski Hospital - Department of Medical Imaging",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Department of Medical Imaging",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://careers.mcmaster.ca/psp/prcsprd/EMPLOYEE/HRMS/c/HRS_HRAM.HRS_APP_SCHJOB.GBL?Page=HRS_APP_SCHJOB&Action=U&FOCUS=Applicant&SiteId=1000&cmd=uninav&Rnode=HRMS&uninavpath=Root{PORTAL_ROOT_OBJECT}.Portal%20Objects{PORTAL_BASE_DATA}.Navigation%20Collections{CO_NAVIGATION_COLLECTIONS}.Custom%20Tabs{PAPP_CUSTOM_TABS}&customTab=MCM_TAB_FACULTY_POS&IgnoreParamTempl=customTab#job-79490": {
+      "school_id": 1619,
+      "posting_url": "https://careers.mcmaster.ca/psp/prcsprd/EMPLOYEE/HRMS/c/HRS_HRAM.HRS_APP_SCHJOB.GBL?Page=HRS_APP_SCHJOB&Action=U&FOCUS=Applicant&SiteId=1000&cmd=uninav&Rnode=HRMS&uninavpath=Root{PORTAL_ROOT_OBJECT}.Portal%20Objects{PORTAL_BASE_DATA}.Navigation%20Collections{CO_NAVIGATION_COLLECTIONS}.Custom%20Tabs{PAPP_CUSTOM_TABS}&customTab=MCM_TAB_FACULTY_POS&IgnoreParamTempl=customTab#job-79490",
+      "job_title_in_post": "ACADEMIC Cardiologist/Intensivist",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1619,
   "status": "complete",
-  "updated_at": "2026-10-31T01:35:57+00:00",
-  "completed_at": "2026-10-31T01:35:57+00:00",
+  "updated_at": "2026-11-06T07:18:37+00:00",
+  "completed_at": "2026-11-06T07:18:37+00:00",
   "last_error": ""
 }

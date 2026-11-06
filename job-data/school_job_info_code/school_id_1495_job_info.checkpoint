@@ -44,6 +44,21 @@
       "title": "Controller",
       "description": "Position Description\n\nThe Controller will join the Division of Enterprise Strategy and report to the Chief Operations Officer/Vice President for Enterprise Strategy. The position oversees Batten University's Office of Finance, ensuring accurate, efficient, and accountable financial operations. The Controller directs accounting, financial reporting, internal controls, audits, cash management, and related functions while ensuring compliance with accounting standards and regulatory requirements.\n\nThe Controller exercises independent judgment in evaluating financial operations, implementing policies and procedures, assessing risks, and recommending improvements. The position supports the University's strategic planning and financial sustainability through financial analysis, budgeting, forecasting, and recommendations that promote sound fiscal stewardship and informed institutional decisions.",
       "department": null
+    },
+    "https://fa-ewic-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/172": {
+      "title": "University Advising Coordinator",
+      "description": "University Advising Coordinator\nPosition Description\nBatten University invites applications for the position of University Advising Coordinator. The successful candidate will be responsible for developing, coordinating, and managing a comprehensive, student-centered academic advising program for first-year and undeclared students. This position plays an integral role in supporting student success, academic engagement, retention, and the transition to university life through a strategic and holistic approach to academic advising.\n",
+      "department": null
+    },
+    "https://fa-ewic-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/173": {
+      "title": "Adjunct Faculty - Computer Science",
+      "description": "Adjunct Faculty – Cybersecurity, Computer Information Systems, and Computer Science\nPosition Summary\nBatten University invites applications for part-time, remote adjunct faculty positions to teach undergraduate courses in Cybersecurity, Computer Information Systems (CIS), and Computer Science through the Batten Global Campus. The University seeks qualified professionals and educators who are committed to academic excellence, student engagement, and effective online instruction\n",
+      "department": null
+    },
+    "https://fa-ewic-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/174": {
+      "title": "Assistant Professor of Sociology and Criminal Justice",
+      "description": "Assistant Professor of Criminal Justice and Assistant Professor of Sociology/Criminal Justice (Two Positions)\nPosition Summary\nBatten University invites applications for two full-time, tenure-track faculty positions at the rank of Assistant Professor in the Department of Sociology and Criminal Justice, beginning Fall 2027. The University seeks qualified candidates for the positions of Assistant Professor of Criminal Justice and Assistant Professor of Sociology/Criminal Justice.\n",
+      "department": null
     }
   },
   "rows": {
@@ -154,11 +169,47 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://fa-ewic-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/172": {
+      "school_id": 1495,
+      "posting_url": "https://fa-ewic-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/172",
+      "job_title_in_post": "University Advising Coordinator",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewic-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/173": {
+      "school_id": 1495,
+      "posting_url": "https://fa-ewic-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/173",
+      "job_title_in_post": "Adjunct Faculty - Computer Science",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "Computer Science; Computer Information Systems",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewic-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/174": {
+      "school_id": 1495,
+      "posting_url": "https://fa-ewic-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/174",
+      "job_title_in_post": "Assistant Professor of Sociology and Criminal Justice",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Sociology and Criminal Justice",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1495,
   "status": "complete",
-  "updated_at": "2026-10-31T01:12:01+00:00",
-  "completed_at": "2026-10-31T01:12:01+00:00",
+  "updated_at": "2026-11-06T07:15:20+00:00",
+  "completed_at": "2026-11-06T07:15:20+00:00",
   "last_error": ""
 }

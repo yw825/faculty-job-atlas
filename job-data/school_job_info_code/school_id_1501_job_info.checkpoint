@@ -44,6 +44,11 @@
       "title": "Business Operations Coordinator",
       "description": "Be the operational backbone behind Champlain's finance and business operations. Champlain College seeks a Business Operations Coordinator to support the financial, administrative, and operational functions of multiple campus departments, working most closely with Finance and Advancement. You will exercise independent judgment in applying institutional policies and regulatory requirements, safeguard the integrity of financial and donor records, and serve as a trusted resource and liaison for college personnel, vendors, and external partners.",
       "department": null
+    },
+    "https://champlain-ibumjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/57": {
+      "title": "Adjunct Instructor of Game Business",
+      "description": "The Game Studio at Champlain College invites applications for an Adjunct Instructor to join us for the Spring 2027 semester to teach one of the courses within our Game Studio.  A successful candidate will deliver engaging instruction in Game Business, fostering creative application and engagement with current trends in the game industry among our diverse student body. This position requires a commitment to creating inclusive learning environments that support student success and intellectual growth.",
+      "department": null
     }
   },
   "rows": {
@@ -153,11 +158,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://champlain-ibumjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/57": {
+      "school_id": 1501,
+      "posting_url": "https://champlain-ibumjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/57",
+      "job_title_in_post": "Adjunct Instructor of Game Business",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "Game Business",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1501,
   "status": "complete",
-  "updated_at": "2026-10-31T01:12:10+00:00",
-  "completed_at": "2026-10-31T01:12:10+00:00",
+  "updated_at": "2026-11-06T07:59:58+00:00",
+  "completed_at": "2026-11-06T07:59:58+00:00",
   "last_error": ""
 }

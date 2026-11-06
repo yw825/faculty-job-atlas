@@ -47,6 +47,10 @@
     "https://www.brescia.edu/wp-content/uploads/Head-Cheer-Coach-job-posting-1.pdf": {
       "title": "Cheer – Head Coach",
       "description": "Cheer – Head Coach. Cheer – Head Coach"
+    },
+    "https://www.brescia.edu/wp-content/uploads/Coordinator-of-Career-Development-and-Experiential-Learning-10.2026.pdf": {
+      "title": "Coordinator of Career Development and Experiential Learning",
+      "description": "Coordinator of Career Development and Experiential Learning. Coordinator of Career Development and Experiential Learning"
     }
   },
   "rows": {
@@ -191,11 +195,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.brescia.edu/wp-content/uploads/Coordinator-of-Career-Development-and-Experiential-Learning-10.2026.pdf": {
+      "school_id": 502,
+      "posting_url": "https://www.brescia.edu/wp-content/uploads/Coordinator-of-Career-Development-and-Experiential-Learning-10.2026.pdf",
+      "job_title_in_post": "Coordinator of Career Development and Experiential Learning",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Career Development and Experiential Learning",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 502,
   "status": "complete",
-  "updated_at": "2026-10-31T00:09:31+00:00",
-  "completed_at": "2026-10-31T00:09:31+00:00",
+  "updated_at": "2026-11-06T07:28:18+00:00",
+  "completed_at": "2026-11-06T07:28:18+00:00",
   "last_error": ""
 }

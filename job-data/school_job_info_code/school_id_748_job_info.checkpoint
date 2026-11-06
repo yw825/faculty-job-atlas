@@ -71,6 +71,10 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/E66B3C1689D7CACD88837E5AD889588C/jobs/972380": {
       "title": "HVAC Specialist and Building Mechanic",
       "description": "HVAC Specialist and Building Mechanic You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/E66B3C1689D7CACD88837E5AD889588C/jobs/904310": {
+      "title": "Faculty Position for Preclinical Sciences, Director of Educational Outcomes",
+      "description": "Faculty Position for Preclinical Sciences, Director of Educational Outcomes You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -285,11 +289,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/E66B3C1689D7CACD88837E5AD889588C/jobs/904310": {
+      "school_id": 748,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/E66B3C1689D7CACD88837E5AD889588C/jobs/904310",
+      "job_title_in_post": "Faculty Position for Preclinical Sciences, Director of Educational Outcomes",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Educational Outcomes",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 748,
   "status": "complete",
-  "updated_at": "2026-10-31T00:28:15+00:00",
-  "completed_at": "2026-10-31T00:28:15+00:00",
+  "updated_at": "2026-11-06T07:20:12+00:00",
+  "completed_at": "2026-11-06T07:20:12+00:00",
   "last_error": ""
 }

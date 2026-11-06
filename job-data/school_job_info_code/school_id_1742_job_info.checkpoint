@@ -131,6 +131,10 @@
     "https://apply.interfolio.com/196583": {
       "title": "ENG-PSR-CAC-2026-43 Senior support technician: Physically-based Rendering and Material Modeling Specialist",
       "description": "Department: Pompeu Fabra University: Department of Engineering - PSR Location: BARCELONA - Universitat Pompeu Fabra Posted: Oct 29, 2026 Deadline: Nov 12, 2026 Descripció del projecte/ Project description: REALM is a 36-month RIA that will define, develop, and demonstrate core technologies to establish a cross-media continuum towards the next generation of Virtual Worlds. Its vision is to deliver content that remains truly immersive, across diverse platforms and modalities, ultimately creating a profound and consistent sense of presence, regardless of the device. To achieve this, REALM adopts a human-centric methodology structured around three pillars: (1) Novel Capture Technologies, acquiring holistic environment data extending to scene geometry, material textures, temperature, surfaces, etc.; (2) Transformative Authoring Tools, leveraging this enhanced data for realistic, scene-based, intuitive interactions; and (3) Human-Centric Delivery Platforms, providing low-friction access across devices. Grounded in open standards and leveraging advances in Generative AI, volumetric reconstruction, real-time and haptic rendering, and networked systems, these interoperable tools will build a shared framework to enable media convergence and a novel concept of Virtual Worlds. REALM brings together Europe’s leading institutions in optics & photonics, 3D graphics, networking, HCI, haptics, and immersive arts—covering the entire value chain. The project will generate high-value impact for Europe’s creative industries, with spillover into industrial training, advanced manufacturing, and healthcare. Ultimately, REALM will contribute to a sovereign, interoperable, and human-centric European ecosystem for Virtual Worlds. Main research field: Physically-based Rendering Tasks to be performed: The successful candidate will support the development and implementation of the required tools and prototypes linked to UPF-GTI’s participation in the European Project REALM. This translates into the following tasks: Within WP3 - Novel Technologies for Capture, Reconstruction and Creation of Virtual Worlds WP3. Task 2: Technologies & Algorithms for Multimodal Data Capture WP3, Task 3: Virtual Worlds Reconstruction for Immersive Viewing Within WP6 - Communication, Dissemination and Exploitation Strategy WP6, Task 1: Communication and Project Dissemination The successful candidate shall also provide support to the generation of the corresponding deliverables. Group and complement: Group 1 + Level n Dedication and working hours: Part time (30 h/week) Planned remuneration approx: 36.315,90 € gross per year Financing fund: Projecte REALM (GA. 101298050), HORIZON-CL4-2025-03-HUMAN-14 BASIC INFORMATION ON DATA PROTECTION: Data Controller: Universitat Pompeu Fabra Purpose: Research support staff recruitment. Rights: You can access your data; request their rectification, deletion and portability; you may object to their processing and request their limitation. Additional information: Further detailed information is available on the website: https://rat.upf.edu/ca/ll040"
+    },
+    "https://apply.interfolio.com/195721": {
+      "title": "Short-term Postdoctoral Research position for Proof of Concept ERC Grant SimOSpine",
+      "description": "Department: Pompeu Fabra University: Department of Engineering Location: Barcelona Posted: Nov 04, 2026 Deadline: Nov 08, 2026 Establish automated preprocessing workflows for data augmentation across heterogeneous imaging protocols, and standardised input/output formats for modelling - Refine 3D reconstruction pipeline across heterogeneous clinical environments - Enhance fast-computing biomechanical predictions GENERAL REQUIREMENTS a. Hold a PhD degree (Doctorate). b. Not have been dismissed through disciplinary proceedings from the service of any public administration, nor be disqualified by a final judgment from exercising public functions. In the case of being a national of another country, not be disqualified or in an equivalent situation, nor have been subjected to a disciplinary sanction or equivalent that prevents, in their country and under the same terms, access to public employment. SPECIFIC REQUIREMENTS Academic background in biomedical, mechanical, or civil engineering, or equivalent. Have completed a PhD thesis in the field of finite element modeling of the spine. Proven experience in using machine learning techniques for patient stratification. Proven experience in personalized modeling of organs and tissues. Professional level of written English and Spanish for effective communication with project collaborators. Ability to start immediately once the selection process is resolved. These participation requirements must be met by the deadline for submitting applications, must be reliably proven at any time during the selection process, and must continue to be met on the date the contract is signed. Alleged merits will always be considered in relation to the final day of the application submission period. Selection Criteria Academic Background: 0–20 points. Professional Experience / Fit for the proposed profile: 0–60 points. Other Merits: 0–20 points. The minimum score required to pass the selection process is 80 points . Via Interfolio"
     }
   },
   "rows": {
@@ -521,11 +525,23 @@
       "deadline_of_application": "Nov 12, 2026",
       "posted_date": "Oct 29, 2026",
       "position_start_date": ""
+    },
+    "https://apply.interfolio.com/195721": {
+      "school_id": 1742,
+      "posting_url": "https://apply.interfolio.com/195721",
+      "job_title_in_post": "Short-term Postdoctoral Research position for Proof of Concept ERC Grant SimOSpine",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Concept ERC Grant SimOSpine",
+      "deadline_of_application": "Nov 08, 2026",
+      "posted_date": "Nov 04, 2026",
+      "position_start_date": ""
     }
   },
   "school_id": 1742,
   "status": "complete",
-  "updated_at": "2026-10-31T01:57:56+00:00",
-  "completed_at": "2026-10-31T01:57:56+00:00",
+  "updated_at": "2026-11-06T07:24:35+00:00",
+  "completed_at": "2026-11-06T07:24:35+00:00",
   "last_error": ""
 }

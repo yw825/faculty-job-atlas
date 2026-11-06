@@ -121,7 +121,9 @@
       "department": "Dept of Health Care Mgmnt"
     },
     "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=298015&PostingSeq=1&SiteId=28000": {
-      "error": "not present in bulk fetch result"
+      "title": "Part-Time Faculty Health Care Management",
+      "description": "Posted: 04/30/2026 Location: Clayton State University Department: Dept of Health Care Mgmnt Part-Time Faculty Health Care Management",
+      "department": "Dept of Health Care Mgmnt"
     },
     "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=296843&PostingSeq=1&SiteId=28000": {
       "title": "Part-Time Faculty in Education",
@@ -434,7 +436,16 @@
       "position_start_date": ""
     },
     "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=298015&PostingSeq=1&SiteId=28000": {
-      "error": "not present in bulk fetch result"
+      "school_id": 306,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=298015&PostingSeq=1&SiteId=28000",
+      "job_title_in_post": "Part-Time Faculty Health Care Management",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "Dept of Health Care Mgmnt",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "04/30/2026",
+      "position_start_date": ""
     },
     "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=296843&PostingSeq=1&SiteId=28000": {
       "school_id": 306,
@@ -487,7 +498,7 @@
   },
   "school_id": 306,
   "status": "complete",
-  "updated_at": "2026-11-06T05:27:06+00:00",
-  "completed_at": "2026-11-06T05:27:06+00:00",
+  "updated_at": "2026-11-06T08:01:22+00:00",
+  "completed_at": "2026-11-06T08:01:22+00:00",
   "last_error": ""
 }

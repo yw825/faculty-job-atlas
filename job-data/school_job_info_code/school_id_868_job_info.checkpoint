@@ -183,6 +183,10 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/055E28882001FE667534B0880CFCD275/jobs/102210": {
       "title": "Assistant Director of Advancement Operations & Donor Engagement",
       "description": "Assistant Director of Advancement Operations & Donor Engagement You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/055E28882001FE667534B0880CFCD275/jobs/102672": {
+      "title": "Director of Corporate and Foundation Engagement",
+      "description": "Director of Corporate and Foundation Engagement You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -737,11 +741,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/055E28882001FE667534B0880CFCD275/jobs/102672": {
+      "school_id": 868,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/055E28882001FE667534B0880CFCD275/jobs/102672",
+      "job_title_in_post": "Director of Corporate and Foundation Engagement",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Corporate and Foundation Engagement",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 868,
   "status": "complete",
-  "updated_at": "2026-10-31T00:44:44+00:00",
-  "completed_at": "2026-10-31T00:44:44+00:00",
+  "updated_at": "2026-11-06T07:20:04+00:00",
+  "completed_at": "2026-11-06T07:20:04+00:00",
   "last_error": ""
 }

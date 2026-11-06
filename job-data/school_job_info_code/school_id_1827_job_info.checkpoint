@@ -59,6 +59,16 @@
       "title": "Lecturer, Senior Lecturer or Associate Professor in Social Science",
       "description": "Contribute to the development of future educators through high-quality teaching, research, postgraduate supervision and professional engagement.\n\nPosting closes: 2026-11-25",
       "department": null
+    },
+    "https://elhs.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/1003834": {
+      "title": "Senior Lecturer, Associate Professor or Professor in Tourism Management",
+      "description": "Expand your international tourism research profile through teaching and PhD supervision in China.\n\nPosting closes: 2026-11-15",
+      "department": null
+    },
+    "https://elhs.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/1003983": {
+      "title": "Senior Lecturer in Civil Engineering",
+      "description": "\n\nPosting closes: 2026-11-16",
+      "department": null
     }
   },
   "rows": {
@@ -205,11 +215,35 @@
       "deadline_of_application": "2026-11-25",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://elhs.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/1003834": {
+      "school_id": 1827,
+      "posting_url": "https://elhs.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/1003834",
+      "job_title_in_post": "Senior Lecturer, Associate Professor or Professor in Tourism Management",
+      "position_type": "Associate_Professor; Full_Professor; Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Tourism Management",
+      "deadline_of_application": "2026-11-15",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://elhs.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/1003983": {
+      "school_id": 1827,
+      "posting_url": "https://elhs.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/1003983",
+      "job_title_in_post": "Senior Lecturer in Civil Engineering",
+      "position_type": "Associate_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Civil Engineering",
+      "deadline_of_application": "2026-11-16",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1827,
   "status": "complete",
-  "updated_at": "2026-10-31T01:53:20+00:00",
-  "completed_at": "2026-10-31T01:53:20+00:00",
+  "updated_at": "2026-11-06T07:17:10+00:00",
+  "completed_at": "2026-11-06T07:17:10+00:00",
   "last_error": ""
 }

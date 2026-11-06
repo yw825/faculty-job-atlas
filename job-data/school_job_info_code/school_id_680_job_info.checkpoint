@@ -1329,6 +1329,21 @@
       "title": "Post-Doctoral Associate",
       "description": "Posted: 10/30/2026 Location: Twin Cities Department: PHCL Pharmacology Admin Post-Doctoral Associate",
       "department": "PHCL Pharmacology Admin"
+    },
+    "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=376905&PostingSeq=1": {
+      "title": "Post-Doctoral Associate",
+      "description": "Posted: 11/04/2026 Location: Twin Cities Department: BMBB Med Dept Administration Post-Doctoral Associate",
+      "department": "BMBB Med Dept Administration"
+    },
+    "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=376894&PostingSeq=1": {
+      "title": "Post-Doctoral Associate",
+      "description": "Posted: 11/04/2026 Location: Twin Cities Department: CSENG Physics & Astron,Schl of Post-Doctoral Associate",
+      "department": "CSENG Physics & Astron,Schl of"
+    },
+    "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=376839&PostingSeq=1": {
+      "title": "Post-Doctoral Associate",
+      "description": "Posted: 10/30/2026 Location: Twin Cities Department: CSENG Physics & Astron,Schl of Post-Doctoral Associate",
+      "department": "CSENG Physics & Astron,Schl of"
     }
   },
   "rows": {
@@ -4510,11 +4525,47 @@
       "deadline_of_application": "",
       "posted_date": "10/30/2026",
       "position_start_date": ""
+    },
+    "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=376905&PostingSeq=1": {
+      "school_id": 680,
+      "posting_url": "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=376905&PostingSeq=1",
+      "job_title_in_post": "Post-Doctoral Associate",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "BMBB Med Dept Administration",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/04/2026",
+      "position_start_date": ""
+    },
+    "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=376894&PostingSeq=1": {
+      "school_id": 680,
+      "posting_url": "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=376894&PostingSeq=1",
+      "job_title_in_post": "Post-Doctoral Associate",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "CSENG Physics & Astron,Schl of",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/04/2026",
+      "position_start_date": ""
+    },
+    "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=376839&PostingSeq=1": {
+      "school_id": 680,
+      "posting_url": "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=376839&PostingSeq=1",
+      "job_title_in_post": "Post-Doctoral Associate",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "CSENG Physics & Astron,Schl of",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "10/30/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 680,
   "status": "complete",
-  "updated_at": "2026-10-31T00:23:42+00:00",
-  "completed_at": "2026-10-31T00:23:42+00:00",
+  "updated_at": "2026-11-06T07:12:35+00:00",
+  "completed_at": "2026-11-06T07:12:35+00:00",
   "last_error": ""
 }

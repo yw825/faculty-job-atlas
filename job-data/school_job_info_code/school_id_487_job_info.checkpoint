@@ -59,6 +59,22 @@
     "https://www.lindsey.edu/about-lwc/Offices-and-Services/Human-Resources/job-opportunities.cfm#payroll-associate": {
       "title": "PAYROLL ASSOCIATE",
       "description": "PAYROLL ASSOCIATE. Posted: 10/19/2026 Lindsey Wilson University is seeking applicants for a Payroll Associate to support the Payroll Clerk and Human Resources Office. This position will assist with all aspects of payroll processing, including data entry, tax payments, and reports. Additional responsibilities include processing employee benefits enrollment, maintaining personnel records, verifying employment documentation, and assisting with various Human Resources projects and events. The ideal candidate will demonstrate strong attention to detail, problem-solving abilities, and excellent organizational, interpersonal, and communication skills. Candidates should be able to maintain confidentiality, manage multiple priorities, adapt to changing demands, and consistently produce accurate and high-quality work. Bachelor’s degree in Accounting, Human Resources, or Business preferred . Proficiency in Microsoft Office applications, including Excel, Word, and PowerPoint is required. Experience with Banner Software is preferred. To apply, please submit a letter of interest and resume through the Lindsey Wilson University online employment application . The selection process will begin immediately and continue until the position is filled. Lindsey Wilson University is an EOE."
+    },
+    "https://www.lindsey.edu/about-lwc/Offices-and-Services/Human-Resources/job-opportunities.cfm#assistant-professor-of-art": {
+      "title": "ASSISTANT PROFESSOR OF ART",
+      "description": "ASSISTANT PROFESSOR OF ART. Posted: 11/05/2026 Lindsey Wilson University (LWU), a United Methodist affiliated liberal arts college located in south central Kentucky, invites applications for an assistant professor of Art to begin in January or August 2027. The preferred candidate will hold a terminal degree in studio art. Teaching responsibilities will include drawing, 3D Design, Understanding Visual Art, advanced studio, and upper-level seminar. The successful candidate will have a strong creative practice, a commitment to excellence in undergraduate teaching, and the ability to support a dynamic School of Arts and Humanities. To apply, please submit a letter of interest, curriculum vitae including names and contact information for three professional references, statement of teaching philosophy, unofficial copies of all graduate transcripts (official copies must be submitted prior to hiring), and the online employment application form online employment application . Review of applicants will begin immediately and be ongoing until the position is filled. All offers of employment are contingent upon the university’s verification of credentials and completing a criminal history check. LWU is an equal opportunity employer committed to assembling a caring, equity-focused faculty committed to supporting “every student, every day.” LWU strives to hire qualified applicants without regard to race, color, religion, sex, sexual orientation, gender identity, gender expression, national origin, age, disability, genetic information or status as a protected veteran."
+    },
+    "https://www.lindsey.edu/about-lwc/Offices-and-Services/Human-Resources/job-opportunities.cfm#undergraduate-business-faculty": {
+      "title": "UNDERGRADUATE BUSINESS FACULTY",
+      "description": "UNDERGRADUATE BUSINESS FACULTY. Posted: 11/05/2026 Lindsey Wilson University (LWU), a United Methodist affiliated liberal arts college located in south central Kentucky, is seeking candidates for an undergraduate Business faculty position beginning in August 2027. Interested applicants holding a Ph.D. in Business are encouraged to apply; ABD will be considered. Applicants holding a Business master’s degree with an exceptional history of teaching or professional experience may be considered at the rank of instructor. Applicants with graduate degrees in economics and finance are encouraged to apply. The successful candidate must demonstrate a commitment to teaching, academic advising, ongoing professional development, collaboration with other faculty, and service. To apply, please submit a letter of interest, curriculum vitae including names and contact information for three professional references, statement of teaching philosophy, unofficial copies of all graduate transcripts (official copies must be submitted prior to hiring), and the online employment application form online employment application . Review of applicants will begin immediately and be ongoing until the position is filled. All offers of employment are contingent upon the college's verification of credentials and completing a criminal history check. LWU is an equal opportunity employer committed to assembling a caring, equity-focused faculty committed to supporting “every student, every day.” LWU strives to hire qualified applicants without regard to race, color, religion, sex, sexual orientation, gender identity, gender expression, national origin, age, disability, genetic information or status as a protected veteran."
+    },
+    "https://www.lindsey.edu/about-lwc/Offices-and-Services/Human-Resources/job-opportunities.cfm#groundskeeper": {
+      "title": "GROUNDSKEEPER",
+      "description": "GROUNDSKEEPER. Posted: 11/04/2026 Lindsey Wilson University is seeking a Groundskeeper. The selected candidate will be responsible for maintaining the grounds/exterior of the University’s property. The duties would be but not limited to mowing, weed eating, spraying, trimming bushes and trees, planting flowers, and picking up trash on campus. To apply, please submit a letter of interest and resume through the Lindsey Wilson University online employment application . The selection process will begin immediately and continue until the position is filled. Lindsey Wilson University is an EOE."
+    },
+    "https://www.lindsey.edu/about-lwc/Offices-and-Services/Human-Resources/job-opportunities.cfm#international-student-services-specialist-designated-school-official": {
+      "title": "INTERNATIONAL STUDENT SERVICES SPECIALIST/ DESIGNATED SCHOOL OFFICIAL",
+      "description": "INTERNATIONAL STUDENT SERVICES SPECIALIST/ DESIGNATED SCHOOL OFFICIAL. Posted: 11/02/2026 International Student Affairs is seeking an International Student Services Specialist / Designated School Official (DSO). This position is responsible for supporting international student processes, including but not limited to issuing Forms I-20 and ensuring institutional compliance with federal regulations governing F-1 student status through service as a Designated School Official. The Specialist maintains advanced knowledge of SEVP regulations as they apply to F-1 students and provides operational and compliance support to International Student Services, including collaboration with the Director of Immigration Regulations & Compliance. The position also contributes to training and support efforts for satellite campus locations. This position may be fully remote, with occasional evening and weekend hours required. Out-of-state travel may be required as necessary and will be reimbursed. Starting salary: $45,000. Negotiable with experience. Bachelor’s degree Prior experience working with international students as a Designated School Official (DSO) U.S. citizenship or lawful permanent resident status (required by federal regulation) Preferred Qualifications Experience with Microsoft Office Suite (including Docs and shared folders) Experience with Terra Dotta or a comparable international student information system To apply, please submit a letter of interest and resume through the Lindsey Wilson University online employment application . The selection process will begin immediately and continue until the position is filled. Lindsey Wilson University is an EOE."
     }
   },
   "rows": {
@@ -241,11 +257,59 @@
       "deadline_of_application": "",
       "posted_date": "10/19/2026",
       "position_start_date": ""
+    },
+    "https://www.lindsey.edu/about-lwc/Offices-and-Services/Human-Resources/job-opportunities.cfm#assistant-professor-of-art": {
+      "school_id": 487,
+      "posting_url": "https://www.lindsey.edu/about-lwc/Offices-and-Services/Human-Resources/job-opportunities.cfm#assistant-professor-of-art",
+      "job_title_in_post": "ASSISTANT PROFESSOR OF ART",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "School of Arts and Humanities",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/05/2026",
+      "position_start_date": ""
+    },
+    "https://www.lindsey.edu/about-lwc/Offices-and-Services/Human-Resources/job-opportunities.cfm#undergraduate-business-faculty": {
+      "school_id": 487,
+      "posting_url": "https://www.lindsey.edu/about-lwc/Offices-and-Services/Human-Resources/job-opportunities.cfm#undergraduate-business-faculty",
+      "job_title_in_post": "UNDERGRADUATE BUSINESS FACULTY",
+      "position_type": "Assistant_Professor; Associate_Professor; Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/05/2026",
+      "position_start_date": ""
+    },
+    "https://www.lindsey.edu/about-lwc/Offices-and-Services/Human-Resources/job-opportunities.cfm#groundskeeper": {
+      "school_id": 487,
+      "posting_url": "https://www.lindsey.edu/about-lwc/Offices-and-Services/Human-Resources/job-opportunities.cfm#groundskeeper",
+      "job_title_in_post": "GROUNDSKEEPER",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/04/2026",
+      "position_start_date": ""
+    },
+    "https://www.lindsey.edu/about-lwc/Offices-and-Services/Human-Resources/job-opportunities.cfm#international-student-services-specialist-designated-school-official": {
+      "school_id": 487,
+      "posting_url": "https://www.lindsey.edu/about-lwc/Offices-and-Services/Human-Resources/job-opportunities.cfm#international-student-services-specialist-designated-school-official",
+      "job_title_in_post": "INTERNATIONAL STUDENT SERVICES SPECIALIST/ DESIGNATED SCHOOL OFFICIAL",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/02/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 487,
   "status": "complete",
-  "updated_at": "2026-10-31T00:08:58+00:00",
-  "completed_at": "2026-10-31T00:08:58+00:00",
+  "updated_at": "2026-11-06T07:45:51+00:00",
+  "completed_at": "2026-11-06T07:45:51+00:00",
   "last_error": ""
 }

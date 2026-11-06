@@ -23,6 +23,18 @@
     "https://my.corehr.com/pls/esbshedkitrecruit/erq_jobspec_version_4.jobspec?p_id=016280": {
       "title": "",
       "description": "Vacancy Description : See attached job description Job Title : TECHNICIAN Vacancy ID : 016280 Vacancy Type : Non IT Technical Support"
+    },
+    "https://my.corehr.com/pls/esbshedkitrecruit/erq_jobspec_version_4.jobspec?p_id=016358": {
+      "title": "Assistant Lecturer in English (Fixed Term Pro Rata) #IJ",
+      "description": "Assistant Lecturer in English (Fixed Term Pro Rata) #IJ Vacancy Description : The School of Business and Humanities wishes to recruit an Assistant Lecturer in English. The post will be located within the Humanities Department. The role will involve supporting the BA (Hons) in Arts and other programmes within the Department of Humanities. Qualifications and Requirement: Successful applicants must: - Hold a relevant Honours Degree (First or Second Class) in English - Hold a relevant postgraduate qualification ideally at Masters or PhD level in English Literature - Have at least three years post qualification experience in a relevant academic or industry environment. - Teaching and Research experience at Third Level are desirable. Job Title : Assistant Lecturer Vacancy ID : 016358 Vacancy Type : Academic"
+    },
+    "https://my.corehr.com/pls/esbshedkitrecruit/erq_jobspec_version_4.jobspec?p_id=016357": {
+      "title": "Assistant Lecturer in History (3 year fixed-Term) #IJ",
+      "description": "Assistant Lecturer in History (3 year fixed-Term) #IJ Vacancy Description : The School of Business and Humanities wishes to recruit an Assistant Lecturer in History for a period of three years. Requirements : - Hold a relevant Honours Degree (First or Second Class) in History - PhD in European History (early modern or modern) highly desirable - Have a minimum of three years’ lecturing experience at third-level - Have research experience with publications and conference presentations - Experience in Digital Humanities is desirable - Have three years’ post-qualification experience Job Title : Assistant Lecturer Vacancy ID : 016357 Vacancy Type : Academic"
+    },
+    "https://my.corehr.com/pls/esbshedkitrecruit/erq_jobspec_version_4.jobspec?p_id=016377": {
+      "title": "Assistant Lecturer in Information Technology (Digital Humanities) #IJ",
+      "description": "Assistant Lecturer in Information Technology (Digital Humanities) #IJ Vacancy Description : Job Title : Assistant Lecturer Vacancy ID : 016377 Vacancy Type : Academic Part Time"
     }
   },
   "rows": {
@@ -97,11 +109,47 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://my.corehr.com/pls/esbshedkitrecruit/erq_jobspec_version_4.jobspec?p_id=016358": {
+      "school_id": 1911,
+      "posting_url": "https://my.corehr.com/pls/esbshedkitrecruit/erq_jobspec_version_4.jobspec?p_id=016358",
+      "job_title_in_post": "Assistant Lecturer in English (Fixed Term Pro Rata) #IJ",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "School of Business and Humanities wishes to recruit an Assistant Lecturer in English",
+      "area_key_words": "English",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://my.corehr.com/pls/esbshedkitrecruit/erq_jobspec_version_4.jobspec?p_id=016357": {
+      "school_id": 1911,
+      "posting_url": "https://my.corehr.com/pls/esbshedkitrecruit/erq_jobspec_version_4.jobspec?p_id=016357",
+      "job_title_in_post": "Assistant Lecturer in History (3 year fixed-Term) #IJ",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "History",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://my.corehr.com/pls/esbshedkitrecruit/erq_jobspec_version_4.jobspec?p_id=016377": {
+      "school_id": 1911,
+      "posting_url": "https://my.corehr.com/pls/esbshedkitrecruit/erq_jobspec_version_4.jobspec?p_id=016377",
+      "job_title_in_post": "Assistant Lecturer in Information Technology (Digital Humanities) #IJ",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "Information Technology",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1911,
   "status": "complete",
-  "updated_at": "2026-10-31T01:50:02+00:00",
-  "completed_at": "2026-10-31T01:50:02+00:00",
+  "updated_at": "2026-11-06T07:49:48+00:00",
+  "completed_at": "2026-11-06T07:49:48+00:00",
   "last_error": ""
 }

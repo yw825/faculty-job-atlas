@@ -679,6 +679,26 @@
       "title": "Assistant Professor",
       "description": "The Department of Chemistry at Tulane University invites applications for a tenure-track Assistant Professor position in Organic Chemistry, broadly defined. We welcome applicants with research programs in bioorganic, physical organic, sustainable chemistry, or related areas. The successful candidate will establish an innovative, externally funded research program, contribute to the department's research strengths, and demonstrate excellence in undergraduate and graduate teaching and mentoring. Competitive startup funding and research support will be provided. Tulane offers a collaborative academic environment with strong interdisciplinary partnerships across the School of Science and Engineering and the School of Medicine. Tulane University is a private Carnegie-R1 university and a member of the prestigious Association of American Universities (AAU). Tulane brings together bold and creative scholars, scientists and students who are committed to crossing boundaries.",
       "department": null
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2240": {
+      "title": "Clinical Associate Professor",
+      "description": "The Department of Anesthesiology at Tulane University School of Medicine is seeking qualified anesthesiologists who are committed to providing high-quality patient care and contributing to the education and training of future physicians. Successful candidates will have the opportunity to practice in a collaborative clinical environment while participating in the department’s academic mission. Clinical responsibilities will be based at East Jefferson General Hospital and/or Tulane Lakeside Hospital, depending on the candidate’s subspecialty, expertise, and departmental needs.",
+      "department": null
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/395": {
+      "title": "Associate Professor",
+      "description": "Short Position Description",
+      "department": null
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2143": {
+      "title": "Assistant Professor",
+      "description": "Short Position Description",
+      "department": null
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2184": {
+      "title": "Professor of Practice",
+      "description": "The Department of Spanish and Portuguese at Tulane University invites applications for a Professor of Practice to teach courses in Spanish language and serve as Director of its Spanish language program, beginning July 1, 2027.\n\nThe successful candidate will teach in and oversee the mission, curriculum, and administration of the Spanish language program. This is a non-tenure-track faculty and administrative position at the rank of Professor of Practice or Senior Professor of Practice (initial rank dependent on experience and qualifications), with the opportunity of renewal following successful review. While teaching-track faculty typically teach 6 courses per year, the Director is compensated by a stipend and 3 course releases per year.\n\nA PhD in Spanish Linguistics, Spanish Language Acquisition, or Spanish is required. Review of applications will begin on November 6, 2026 and continue until the position is filled.",
+      "department": null
     }
   },
   "rows": {
@@ -2309,11 +2329,59 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2240": {
+      "school_id": 521,
+      "posting_url": "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2240",
+      "job_title_in_post": "Clinical Associate Professor",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "Department of Anesthesiology",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/395": {
+      "school_id": 521,
+      "posting_url": "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/395",
+      "job_title_in_post": "Associate Professor",
+      "position_type": "Associate_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2143": {
+      "school_id": 521,
+      "posting_url": "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2143",
+      "job_title_in_post": "Assistant Professor",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2184": {
+      "school_id": 521,
+      "posting_url": "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2184",
+      "job_title_in_post": "Professor of Practice",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "Department of Spanish and Portuguese",
+      "area_key_words": "Practice; Spanish language",
+      "deadline_of_application": "November 6, 2026",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 521,
   "status": "complete",
-  "updated_at": "2026-10-31T00:10:08+00:00",
-  "completed_at": "2026-10-31T00:10:08+00:00",
+  "updated_at": "2026-11-06T07:09:27+00:00",
+  "completed_at": "2026-11-06T07:09:27+00:00",
   "last_error": ""
 }
