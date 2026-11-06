@@ -114,6 +114,13 @@ def run_info(mod):
                                            mod.CHECKPOINT_PATH,
                                            fetch_detail_fn=mod.fetch_detail,
                                            use_llm=getattr(mod, 'USE_LLM', False))
+    elif hasattr(mod, 'main'):
+        # A bulk school's own main() knows its board and platform; guessing
+        # them from CAREERS_LINK gave platform None for the 15 schools whose
+        # board is a separate BOARD link (ADP, Oracle), so they failed with
+        # KeyError: None in every nightly run.
+        mod.main()
+        result = jinfo.load_checkpoint(mod.CHECKPOINT_PATH)
     else:
         platform = lib.detect_platform(mod.CAREERS_LINK)
         result = jinfo.run_school_job_info_bulk(mod.SCHOOL_ID, mod.CAREERS_LINK, platform,

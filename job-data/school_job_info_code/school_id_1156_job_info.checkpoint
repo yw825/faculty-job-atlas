@@ -76,17 +76,19 @@
       "department_or_school": "",
       "area_key_words": "Communication",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://setonhill-ibtwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/153": {
       "school_id": 1156,
       "posting_url": "https://setonhill-ibtwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/153",
       "job_title_in_post": "Instructor/Assistant Professor -  Computer Science",
-      "position_type": "Assistant_Professor",
+      "position_type": "Assistant_Professor; Lecturer",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "Computer Science",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://setonhill-ibtwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/167": {
@@ -98,6 +100,7 @@
       "department_or_school": "",
       "area_key_words": "Quantitative Business",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://setonhill-ibtwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/169": {
@@ -109,6 +112,7 @@
       "department_or_school": "",
       "area_key_words": "Music- Coordinator Commercial Music",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://setonhill-ibtwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/164": {
@@ -120,6 +124,7 @@
       "department_or_school": "",
       "area_key_words": "Continental  Philosophy/Religious Studies",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://setonhill-ibtwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/166": {
@@ -130,7 +135,8 @@
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "Piano/Department Chair",
-      "deadline_of_application": "",
+      "deadline_of_application": "December 31, 2026",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://setonhill-ibtwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/162": {
@@ -141,7 +147,8 @@
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "",
-      "deadline_of_application": "",
+      "deadline_of_application": "December 31, 2026",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://setonhill-ibtwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/161": {
@@ -153,6 +160,7 @@
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://setonhill-ibtwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/160": {
@@ -186,17 +194,19 @@
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://setonhill-ibtwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/61": {
       "school_id": 1156,
       "posting_url": "https://setonhill-ibtwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/61",
       "job_title_in_post": "Community Arts Instructor - Music (Piano and Percussion)",
-      "position_type": "Unclassified",
+      "position_type": "Lecturer",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "Community Arts",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://setonhill-ibtwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/8": {
@@ -208,12 +218,13 @@
       "department_or_school": "",
       "area_key_words": "Orthodontics and Dentofacial Orthopedics",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     }
   },
   "school_id": 1156,
-  "status": "error",
-  "updated_at": "2026-11-06T12:50:23+00:00",
-  "completed_at": "2026-10-19T20:28:26+00:00",
-  "last_error": "KeyError: None"
+  "status": "complete",
+  "updated_at": "2026-11-06T14:08:17+00:00",
+  "completed_at": "2026-11-06T14:08:17+00:00",
+  "last_error": ""
 }

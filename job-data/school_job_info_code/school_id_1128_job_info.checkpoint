@@ -433,8 +433,8 @@
     }
   },
   "school_id": 1128,
-  "status": "error",
-  "updated_at": "2026-11-06T12:53:06+00:00",
-  "completed_at": "2026-11-06T07:15:10+00:00",
-  "last_error": "KeyError: None"
+  "status": "complete",
+  "updated_at": "2026-11-06T14:07:30+00:00",
+  "completed_at": "2026-11-06T14:07:30+00:00",
+  "last_error": ""
 }

@@ -935,8 +935,8 @@
     }
   },
   "school_id": 1327,
-  "status": "error",
-  "updated_at": "2026-11-06T12:55:36+00:00",
-  "completed_at": "2026-11-06T07:35:24+00:00",
-  "last_error": "KeyError: None"
+  "status": "complete",
+  "updated_at": "2026-11-06T14:09:12+00:00",
+  "completed_at": "2026-11-06T14:09:12+00:00",
+  "last_error": ""
 }
