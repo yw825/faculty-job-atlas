@@ -3165,6 +3165,10 @@ def run_school_job_info(school_id, job_postings_checkpoint_path, job_info_checkp
     try:
         to_fetch = [u for u in links if _needs_fetch(ckpt['raw'].get(u))]
         detail_fn = fetch_detail_fn or fetch_detail_generic
+        # Saved every 20 s, not after every posting: each save rewrites the
+        # whole checkpoint in OneDrive (several MB at Kentucky's 865 links),
+        # and every rewrite is another upload that can hold the file locked.
+        last_save = time.time()
         for url in to_fetch:
             try:
                 title, description = detail_fn(url)
@@ -3179,7 +3183,9 @@ def run_school_job_info(school_id, job_postings_checkpoint_path, job_info_checkp
                 ckpt['raw'][url] = {'error': f'{type(e).__name__}: {e}'}
                 if re.search(r'(?i)playwright|asyncio loop|target .*closed|browser has been closed', str(e)):
                     jlib.reset_browser()   # a dead session fails every later URL too
-            save_cb()
+            if time.time() - last_save >= 20:
+                save_cb()
+                last_save = time.time()
         _classify_from_raw(school_id, links, ckpt, use_llm=use_llm, llm_client=_make_llm_client(use_llm))
         ckpt['status'] = 'complete'
         ckpt['completed_at'] = now_iso()

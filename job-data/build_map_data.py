@@ -200,19 +200,29 @@ def load_first_seen():
                 url = (row.get('posting_url') or '').strip()
                 if url:
                     seen[url] = (row.get('first_seen') or '').strip()
+                    _LAST_SEEN[url] = (row.get('last_seen') or row.get('first_seen') or '').strip()
     return seen
 
 
-def save_first_seen(seen):
-    """Written back with every URL still known, so the ledger does not grow
-    without bound as postings close -- but note a URL that DISAPPEARS and
-    returns is treated as new again, which is the honest reading: the
-    school re-posted it."""
+# A posting off the map for up to this many days keeps its first-seen date
+# when it returns. Dropping it at once meant one failed run (2026-11-02, when
+# OneDrive wiped 80 schools' details) re-dated returning postings as new.
+LEDGER_GRACE_DAYS = 30
+_LAST_SEEN = {}
+
+
+def save_first_seen(seen, live_urls, today):
+    """Live URLs get last_seen = today; a URL absent for longer than the
+    grace period is dropped, so one that returns after that counts as a
+    re-post (new)."""
+    cutoff = (date.fromisoformat(today) - timedelta(days=LEDGER_GRACE_DAYS)).isoformat()
     with open(FIRST_SEEN_PATH, 'w', newline='', encoding='utf-8') as f:
         w = csv.writer(f)
-        w.writerow(['posting_url', 'first_seen'])
-        for url, date in sorted(seen.items()):
-            w.writerow([url, date])
+        w.writerow(['posting_url', 'first_seen', 'last_seen'])
+        for url, first in sorted(seen.items()):
+            last = today if url in live_urls else _LAST_SEEN.get(url, first)
+            if last >= cutoff:
+                w.writerow([url, first, last])
 
 
 def load_coords():
@@ -463,8 +473,7 @@ def main():
             post['n'] = first_seen[url]
         else:
             post.pop('n', None)
-    # Drop closed postings from the ledger so it tracks the live set.
-    save_first_seen({u: d for u, d in first_seen.items() if u in live_urls})
+    save_first_seen(first_seen, live_urls, today)
 
     # URLs are the single biggest field (2.17 MB of a 6.45 MB payload) and
     # are near-identical within a school -- same host and path prefix, one

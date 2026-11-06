@@ -257,22 +257,30 @@ def main():
     print(f'  {total_links} total {"links" if args.stage == "postings" else "rows"}')
 
 
+LOCAL_LOG_DIR = os.path.expanduser('~/Library/Logs/faculty-job-atlas/run_logs')
+
+
 def _write_log(path, rows):
-    # OneDrive briefly locks a file it is syncing ("Resource deadlock
-    # avoided"); losing a log line is better than crashing the run.
-    for attempt in range(5):
-        try:
-            with open(path, 'w', newline='', encoding='utf-8') as f:
-                w = csv.DictWriter(f, fieldnames=['school_id', 'name', 'status', 'count',
-                                                  'seconds', 'error'])
-                w.writeheader()
-                w.writerows(rows)
-            return
-        except OSError as e:
-            if attempt == 4:
-                print(f'  could not write {path}: {e}', flush=True)
-                return
-            time.sleep(3)
+    """Written outside OneDrive first, then copied to `path` once, without
+    waiting. Mid-run OneDrive keeps a file it is uploading locked for minutes
+    (EDEADLK), and the retry on every open made Austria's 4 schools take
+    7 minutes on 2026-11-05; a summary log is not worth that."""
+    import io
+    buf = io.StringIO()
+    w = csv.DictWriter(buf, fieldnames=['school_id', 'name', 'status', 'count',
+                                        'seconds', 'error'])
+    w.writeheader()
+    w.writerows(rows)
+    os.makedirs(LOCAL_LOG_DIR, exist_ok=True)
+    with open(os.path.join(LOCAL_LOG_DIR, os.path.basename(path)), 'w',
+              newline='', encoding='utf-8') as f:
+        f.write(buf.getvalue())
+    raw_open = getattr(open, '__wrapped__', open)
+    try:
+        with raw_open(path, 'w', newline='', encoding='utf-8') as f:
+            f.write(buf.getvalue())
+    except OSError:
+        pass
 
 
 if __name__ == '__main__':
