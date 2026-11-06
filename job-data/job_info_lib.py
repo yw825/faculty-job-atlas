@@ -2348,7 +2348,11 @@ def fetch_detail_mur(url):
     label is restated as "Closing Date: dd/mm/yyyy" for extract_deadline.
     No en dash in the title: the shared title cleaner cuts at " - "/" – "."""
     from bs4 import BeautifulSoup
-    status, html = jlib.fetch_static(url, timeout=30)
+    for attempt in range(3):          # the portal answers 500 or hangs at times
+        status, html = jlib.fetch_static(url, timeout=60)
+        if status == 200 and html:
+            break
+        time.sleep(10)
     if status != 200 or not html:
         raise RuntimeError(f'mur call status={status}')
     text = re.sub(r'\s+', ' ', BeautifulSoup(html, 'html.parser').get_text(' ', strip=True))

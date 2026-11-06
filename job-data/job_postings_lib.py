@@ -3905,7 +3905,13 @@ def scrape_mur(code, sections=MUR_SECTIONS):
     .../<section>.php/public/job/id_job/<id>."""
     links = []
     for section in sections:
-        status, html = fetch_static(mur_search_url(code, section), timeout=40)
+        # The portal sometimes takes over 40 s to answer (Polimi and Padua
+        # failed that way on 2026-11-05 while the other six schools read fine).
+        for attempt in range(3):
+            status, html = fetch_static(mur_search_url(code, section), timeout=60)
+            if status == 200:
+                break
+            time.sleep(10)
         if status != 200:
             raise RuntimeError(f'mur {section} search status={status}')
         for jid in re.findall(r'/public/job/id_job/(\d+)', html):
