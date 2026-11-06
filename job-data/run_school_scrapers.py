@@ -133,6 +133,9 @@ def main():
     ap.add_argument('--timeout', type=int, default=240, help='seconds per school')
     ap.add_argument('--redo', action='store_true', help='re-run schools already complete')
     ap.add_argument('--limit', type=int, default=0)
+    ap.add_argument('--shard', default='',
+                    help='"K/N": run every Nth school starting at K (0-based), so N processes '
+                         'can split one country')
     ap.add_argument('--ids', default='',
                     help='only these school ids: "1,2,3" or @file (one id per line or a JSON list); '
                          'country may then be "all"')
@@ -167,11 +170,16 @@ def main():
             todo.append((s, path))
     if args.limit:
         todo = todo[:args.limit]
+    shard_tag = ''
+    if args.shard:
+        k, n = (int(x) for x in args.shard.split('/'))
+        todo = todo[k::n]
+        shard_tag = f'_shard{k}of{n}'
 
     os.makedirs(os.path.join(HERE, 'refresh_logs'), exist_ok=True)
     log_path = os.path.join(HERE, 'refresh_logs',
-                            f'run_log_{args.country}_{args.stage}.csv')
-    print(f'{args.country} {args.stage}: {len(todo)} schools to run '
+                            f'run_log_{args.country}_{args.stage}{shard_tag}.csv')
+    print(f'{args.country} {args.stage}{shard_tag}: {len(todo)} schools to run '
           f'(timeout {args.timeout}s each)', flush=True)
 
     signal.signal(signal.SIGALRM, _alarm)

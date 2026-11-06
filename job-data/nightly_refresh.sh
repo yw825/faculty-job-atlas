@@ -80,7 +80,7 @@ if ! "$PYTHON" -c "import bs4, playwright, requests" 2>/dev/null; then
 fi
 
 say "1/6 postings"
-"$PYTHON" run_all_countries.py --stage postings --redo --timeout 300
+"$PYTHON" run_all_countries.py --stage postings --redo --timeout 300 --workers 3
 
 say "2/6 clean furniture from link sets and checkpoints"
 "$PYTHON" clean_job_posts.py --report "refresh_logs/cleaning_report_$STAMP.csv" | head -20
@@ -92,7 +92,7 @@ say "3/6 info (only newly seen postings are fetched)"
 # reached the map (17,183 links had piled up by 2026-09-14). --redo does not
 # re-fetch: run_school_job_info only fetches URLs missing from the
 # checkpoint's raw cache, so this stays incremental.
-"$PYTHON" run_all_countries.py --stage info --redo --timeout 900
+"$PYTHON" run_all_countries.py --stage info --redo --timeout 900 --workers 4
 
 say "4/6 prune stale info rows"
 "$PYTHON" prune_stale_info.py | head -5
@@ -125,7 +125,15 @@ for p in sys.stdin.read().split('\0'):
 Automated run of job-data/weekly_refresh.sh.
 
 Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>"
-  if git push -q origin main; then
+  # OneDrive can lock one of git's own pack files mid-push ("mmap failed:
+  # Resource deadlock avoided", 2026-11-05); a retry a little later goes through.
+  PUSHED=""
+  for attempt in 1 2 3 4 5 6; do
+    if git push -q origin main; then PUSHED=1; break; fi
+    echo "push attempt $attempt failed; retrying in 60s"
+    sleep 60
+  done
+  if [ -n "$PUSHED" ]; then
     echo "pushed; $NEW new postings this week"
   else
     echo "PUSH FAILED -- committed locally, resolve by hand"

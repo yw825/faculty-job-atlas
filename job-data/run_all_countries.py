@@ -41,6 +41,8 @@ def main():
     ap.add_argument('--timeout', type=int, default=300)
     ap.add_argument('--redo', action='store_true')
     ap.add_argument('--only')
+    ap.add_argument('--workers', type=int, default=1,
+                    help='split each country across this many parallel processes')
     args = ap.parse_args()
 
     targets = [args.only] if args.only else countries()
@@ -53,8 +55,14 @@ def main():
             cmd.append('--redo')
         print(f'\n=== [{i}/{len(targets)}] {country} ===', flush=True)
         try:
-            r = subprocess.run(cmd, cwd=HERE)
-            if r.returncode != 0:
+            # One process per shard, each with its own browser. Reading one
+            # school at a time took 5 hours for 265 US schools on 2026-11-05
+            # (a backlog of ~5,000 unread jobs); the schools are independent.
+            procs = [subprocess.Popen(cmd + (['--shard', f'{k}/{args.workers}']
+                                             if args.workers > 1 else []), cwd=HERE)
+                     for k in range(args.workers)]
+            codes = [p.wait() for p in procs]
+            if any(codes):
                 failed.append(country)
         except Exception as e:
             print(f'  {country}: {type(e).__name__}: {e}', flush=True)
