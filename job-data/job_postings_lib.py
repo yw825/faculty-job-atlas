@@ -399,10 +399,7 @@ def load_checkpoint(path):
 
 
 def save_checkpoint(path, data):
-    tmp = path + '.tmp'
-    with open(tmp, 'w', encoding='utf-8') as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
-    os.replace(tmp, path)
+    onedrive_io.write_text(path, json.dumps(data, indent=2, ensure_ascii=False))
 
 
 def write_posts_csv(school_id, links, allow_shrink=True):
@@ -423,11 +420,13 @@ def write_posts_csv(school_id, links, allow_shrink=True):
             existing = sum(1 for _ in csv.reader(f)) - 1  # minus header
         if existing > len(links):
             return path
-    with open(path, 'w', newline='', encoding='utf-8') as f:
-        w = csv.writer(f)
-        w.writerow(['school_id', 'post_link'])
-        for link in links:
-            w.writerow([school_id, link])
+    import io
+    buf = io.StringIO()
+    w = csv.writer(buf)
+    w.writerow(['school_id', 'post_link'])
+    for link in links:
+        w.writerow([school_id, link])
+    onedrive_io.write_text(path, buf.getvalue())
     return path
 
 

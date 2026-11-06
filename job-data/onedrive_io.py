@@ -40,3 +40,29 @@ def _with_retry(fn):
 builtins.open = _with_retry(builtins.open)
 os.replace = _with_retry(os.replace)
 os.rename = _with_retry(os.rename)
+
+
+def write_text(path, text, encoding='utf-8'):
+    """Write `text` to `path` atomically, retrying the WHOLE write. OneDrive
+    can also refuse the write() on a file that opened fine (University of
+    Florida's detail checkpoint, 2026-11-05), which retrying open() alone
+    does not cover. Written to a temp file beside `path`, then swapped in, so
+    a failure never leaves a half-written file."""
+    tmp = f'{path}.tmp{os.getpid()}'
+    raw_open = builtins.open.__wrapped__
+    delay = 0.5
+    for attempt in range(_ATTEMPTS):
+        try:
+            with raw_open(tmp, 'w', encoding=encoding, newline='') as f:
+                f.write(text)
+            os.replace.__wrapped__(tmp, path)
+            return
+        except OSError as e:
+            try:
+                os.remove(tmp)
+            except OSError:
+                pass
+            if e.errno not in _RETRYABLE or attempt == _ATTEMPTS - 1:
+                raise
+            time.sleep(delay)
+            delay = min(delay * 1.5, 5)

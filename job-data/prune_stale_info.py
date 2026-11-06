@@ -83,10 +83,12 @@ def main():
                 samples.append((school_id, r.get('job_title_in_post', '')[:40],
                                 r.get('posting_url', '')[:70]))
         if not args.dry_run:
-            with open(path, 'w', newline='', encoding='utf-8') as f:
-                w = csv.DictWriter(f, fieldnames=fields)
-                w.writeheader()
-                w.writerows(kept)
+            import io
+            buf = io.StringIO()
+            w = csv.DictWriter(buf, fieldnames=fields)
+            w.writeheader()
+            w.writerows(kept)
+            onedrive_io.write_text(path, buf.getvalue())
 
     verb = 'would remove' if args.dry_run else 'removed'
     print(f'{verb} {total_removed} stale rows across {touched} schools '

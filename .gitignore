@@ -6,5 +6,6 @@ __pycache__/
 job-data/*.xlsx
 job-data/~$*
 *.checkpoint.tmp
+*.tmp[0-9]*
 job-data/refresh_logs/
 job-data/.refresh.lock

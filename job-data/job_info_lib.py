@@ -104,13 +104,15 @@ def load_posting_links(job_postings_checkpoint_path):
 def write_info_csv(school_id, rows_by_url, ordered_urls):
     os.makedirs(OUT_DIR, exist_ok=True)
     path = os.path.join(OUT_DIR, f'school_id_{school_id}_job_info.csv')
-    with open(path, 'w', newline='', encoding='utf-8') as f:
-        w = csv.DictWriter(f, fieldnames=FIELDS)
-        w.writeheader()
-        for url in ordered_urls:
-            row = rows_by_url.get(url)
-            if row and 'error' not in row:
-                w.writerow(row)
+    import io
+    buf = io.StringIO()
+    w = csv.DictWriter(buf, fieldnames=FIELDS)
+    w.writeheader()
+    for url in ordered_urls:
+        row = rows_by_url.get(url)
+        if row and 'error' not in row:
+            w.writerow(row)
+    jlib.onedrive_io.write_text(path, buf.getvalue())
     return path
 
 

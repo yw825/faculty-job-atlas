@@ -353,10 +353,12 @@ def main():
                 reasons[why.split('(')[0].strip()] += 1
                 report_rows.append({'school_id': sid, 'dropped_url': u, 'reason': why})
         if dropped and not args.dry_run:
-            with open(path_csv, 'w', newline='', encoding='utf-8') as f:
-                w = csv.DictWriter(f, fieldnames=['school_id', 'post_link'])
-                w.writeheader()
-                w.writerows(kept)
+            import io
+            buf = io.StringIO()
+            w = csv.DictWriter(buf, fieldnames=['school_id', 'post_link'])
+            w.writeheader()
+            w.writerows(kept)
+            onedrive_io.write_text(path_csv, buf.getvalue())
 
             # The job_postings CHECKPOINT has to be cleaned too. job_info
             # reads ITS link list from the checkpoint, not from this CSV, so
@@ -371,10 +373,9 @@ def main():
                     with open(ckpt, encoding='utf-8') as f:
                         data = json.load(f)
                     data['links'] = [u for u in data.get('links', []) if u in keep_urls]
-                    with open(ckpt, 'w', encoding='utf-8') as f:
-                        json.dump(data, f)
-                except Exception:
-                    pass
+                    onedrive_io.write_text(ckpt, json.dumps(data, indent=2, ensure_ascii=False))
+                except (OSError, ValueError) as e:
+                    print(f'  could not clean {ckpt}: {e}')
 
     print(f'{"DRY RUN -- " if args.dry_run else ""}{len(files)} files, '
           f'{touched} would change' if args.dry_run else

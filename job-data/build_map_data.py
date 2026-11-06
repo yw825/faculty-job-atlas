@@ -216,13 +216,15 @@ def save_first_seen(seen, live_urls, today):
     grace period is dropped, so one that returns after that counts as a
     re-post (new)."""
     cutoff = (date.fromisoformat(today) - timedelta(days=LEDGER_GRACE_DAYS)).isoformat()
-    with open(FIRST_SEEN_PATH, 'w', newline='', encoding='utf-8') as f:
-        w = csv.writer(f)
-        w.writerow(['posting_url', 'first_seen', 'last_seen'])
-        for url, first in sorted(seen.items()):
-            last = today if url in live_urls else _LAST_SEEN.get(url, first)
-            if last >= cutoff:
-                w.writerow([url, first, last])
+    import io
+    buf = io.StringIO()
+    w = csv.writer(buf)
+    w.writerow(['posting_url', 'first_seen', 'last_seen'])
+    for url, first in sorted(seen.items()):
+        last = today if url in live_urls else _LAST_SEEN.get(url, first)
+        if last >= cutoff:
+            w.writerow([url, first, last])
+    onedrive_io.write_text(FIRST_SEEN_PATH, buf.getvalue())
 
 
 def load_coords():
@@ -504,8 +506,7 @@ def main():
         'schools': schools_used,
         'postings': postings,
     }
-    with open(OUT_PATH, 'w', encoding='utf-8') as f:
-        json.dump(payload, f, ensure_ascii=False, separators=(',', ':'))
+    onedrive_io.write_text(OUT_PATH, json.dumps(payload, ensure_ascii=False, separators=(',', ':')))
 
     size_mb = os.path.getsize(OUT_PATH) / 1e6
     print(f'wrote {OUT_PATH} -- {len(postings)} postings, {size_mb:.2f} MB')
