@@ -2350,12 +2350,14 @@ def fetch_detail_mur(url):
     label is restated as "Closing Date: dd/mm/yyyy" for extract_deadline.
     No en dash in the title: the shared title cleaner cuts at " - "/" – "."""
     from bs4 import BeautifulSoup
-    for attempt in range(3):          # the portal answers 500 or hangs at times
+    # Since Nov 2026 the portal sends every call page with status 500 but
+    # the full call in the body, so the content decides, not the status.
+    for attempt in range(3):
         status, html = jlib.fetch_static(url, timeout=60)
-        if status == 200 and html:
+        if html and 'Bando per ' in html:
             break
         time.sleep(10)
-    if status != 200 or not html:
+    if not html or 'Bando per ' not in html:
         raise RuntimeError(f'mur call status={status}')
     text = re.sub(r'\s+', ' ', BeautifulSoup(html, 'html.parser').get_text(' ', strip=True))
     start = text.find('Bando per ')
@@ -2367,8 +2369,14 @@ def fetch_detail_mur(url):
     rank = next((en for it, en in _MUR_RANKS if it in kind), kind.title())
     en = re.search(r'Titolo del progetto di ricerca in inglese (.+?) Descrizione sintetica', body)
     en = en.group(1).strip() if en else ''
+    # Bologna prefixes the field with codes: "CHIM - Rif. O18C1I2026/2028/R23 -
+    # GSD: 03/CHEM-01 - SSD: CHEM-01/B - Chemistry for the Environment ...".
+    parts = [x for x in re.split(r'\s+[-\u2013]\s+', en)
+             if x and not re.match(r'(?i)^(?:rif\.|ref\.|g\.?s\.?d\.?\s*:|s\.?s\.?d\.?\s*:|[A-Z]{2,6}$)', x.strip())]
+    if len(parts) < len(re.split(r'\s+[-\u2013]\s+', en)):
+        en = ' - '.join(parts)          # all codes -> '' -> the S.S.D. name below
     ssd = re.search(r'S\.S\.D\.? (?:[A-Z]+-\d+/[A-Z]|[A-Z]+-[A-Z]/\d+|[A-Z-]+\d+/?[A-Z]?)\s*-\s*(.+?) (?:Destinatari|Numero|G\.S\.D|Settore)', body)
-    generic = re.compile(r'(?i)selection procedure|selective procedure|call for applications|fixed[- ]term researcher positions?\b|procedura|positions? (?:of|as) (?:full|associate|tenured)|\bart\. ?\d+|^\d+ (?:permanent )?positions?')
+    generic = re.compile(r'(?i)selection procedure|selective procedure|call for applications|fixed[- ]term researcher positions?\b|procedura|positions? (?:of|as) (?:full|associate|tenured)|\bart\. ?\d+|^\d+ (?:[\w-]+ )*positions?\b')
     subject = en if en and not generic.search(en) else (ssd.group(1) if ssd else en)
     subject = re.sub(r'\s+[-\u2013\u2014]\s+', ': ', subject)
     title = f'{rank}: {subject}' if subject else rank
