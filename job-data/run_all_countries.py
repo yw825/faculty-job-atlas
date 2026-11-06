@@ -35,6 +35,17 @@ def countries():
     return seen
 
 
+def _failed_ids(country, stage, workers):
+    log_dir = os.path.expanduser('~/Library/Logs/faculty-job-atlas/run_logs')
+    ids = []
+    for k in range(workers):
+        path = os.path.join(log_dir, f'run_log_{country}_{stage}_shard{k}of{workers}.csv')
+        if os.path.exists(path):
+            with open(path, encoding='utf-8') as f:
+                ids += [r['school_id'] for r in csv.DictReader(f) if r['status'] != 'complete']
+    return ids
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--stage', choices=['postings', 'info'], required=True)
@@ -64,6 +75,12 @@ def main():
             codes = [p.wait() for p in procs]
             if any(codes):
                 failed.append(country)
+            retry = _failed_ids(country, args.stage, args.workers) if args.workers > 1 else []
+            if retry:
+                # Oracle boards time out when several sessions hit them at
+                # once (11 schools on 2026-11-06) and all read fine alone.
+                print(f'  retrying {len(retry)} failed schools one at a time', flush=True)
+                subprocess.run(cmd + ['--ids', ','.join(retry)], cwd=HERE)
         except Exception as e:
             print(f'  {country}: {type(e).__name__}: {e}', flush=True)
             failed.append(country)
