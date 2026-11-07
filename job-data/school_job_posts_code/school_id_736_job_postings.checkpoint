@@ -5,10 +5,7 @@
     "https://myjobs.adp.com/websteruniversity/cx/job-details?reqId=5001234210306",
     "https://myjobs.adp.com/websteruniversity/cx/job-details?reqId=5001234202806",
     "https://myjobs.adp.com/websteruniversity/cx/job-details?reqId=5001233965600",
-    "https://myjobs.adp.com/websteruniversity/cx/job-details?reqId=5001233343306",
-    "https://myjobs.adp.com/websteruniversity/cx/job-details?reqId=5001233342906",
     "https://myjobs.adp.com/websteruniversity/cx/job-details?reqId=5001233342406",
-    "https://myjobs.adp.com/websteruniversity/cx/job-details?reqId=5001233341906",
     "https://myjobs.adp.com/websteruniversity/cx/job-details?reqId=5001232541606",
     "https://myjobs.adp.com/websteruniversity/cx/job-details?reqId=5001232306506",
     "https://myjobs.adp.com/websteruniversity/cx/job-details?reqId=5001232176700",
@@ -56,9 +53,9 @@
     "https://myjobs.adp.com/websteruniversity/cx/job-details?reqId=5000857329206"
   ],
   "school_id": 736,
-  "status": "error",
-  "updated_at": "2026-11-06T09:36:29+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-06T18:48:00+00:00",
   "started_at": "2026-09-14T18:23:49+00:00",
-  "completed_at": "2026-11-05T19:32:58+00:00",
-  "last_error": "TimeoutError: Page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://myjobs.adp.com/websteruniversity/cx/job-listing\", waiting until \"domcontentloaded\"\n"
+  "completed_at": "2026-11-06T18:48:00+00:00",
+  "last_error": ""
 }

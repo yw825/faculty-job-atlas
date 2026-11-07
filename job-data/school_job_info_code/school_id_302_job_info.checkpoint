@@ -449,6 +449,41 @@
       "title": "Development Officer",
       "description": "Posted: 06/08/2026 Location: MGA - Macon Department: Development & Alumni Services Development Officer",
       "department": "Development & Alumni Services"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305474&PostingSeq=1&SiteId=83000": {
+      "title": "Academic Advisor I",
+      "description": "Posted: 11/06/2026 Location: MGA - Macon Department: Advising - General Academic Advisor I",
+      "department": "Advising - General"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305529&PostingSeq=1&SiteId=83000": {
+      "title": "Administrative Coordinator - Student Affairs",
+      "description": "Posted: 11/06/2026 Location: MGA - Macon Department: VP Student Affairs Administrative Coordinator - Student Affairs",
+      "department": "VP Student Affairs"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305596&PostingSeq=1&SiteId=83000": {
+      "title": "Head Coach - Women's Cross Country & Distance Track",
+      "description": "Posted: 11/06/2026 Location: MGA - Macon Department: CrossCountry-Womens Head Coach - Women's Cross Country & Distance Track",
+      "department": "CrossCountry-Womens"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305450&PostingSeq=1&SiteId=83000": {
+      "title": "Occupational Therapy Program Director (Cochran Campus)",
+      "description": "Posted: 11/06/2026 Location: MGA Cochran Department: Rehabilitation Sci - Masters Occupational Therapy Program Director (Cochran Campus)",
+      "department": "Rehabilitation Sci - Masters"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305431&PostingSeq=1&SiteId=83000": {
+      "title": "Part Time Testing Specialist",
+      "description": "Posted: 11/06/2026 Location: MGA - Macon Department: Testing Part Time Testing Specialist",
+      "department": "Testing"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305653&PostingSeq=1&SiteId=83000": {
+      "title": "Student Assistant - Office of Research & Sponsored Projects",
+      "description": "Posted: 11/06/2026 Location: Middle GA State University Department: Office of Sponsored Projects Student Assistant - Office of Research & Sponsored Projects",
+      "department": "Office of Sponsored Projects"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302264&PostingSeq=1&SiteId=83000": {
+      "title": "Police Officer - CO",
+      "description": "Posted: 08/18/2026 Location: MGA - Macon Department: Police Police Officer - CO",
+      "department": "Police"
     }
   },
   "rows": {
@@ -1525,11 +1560,95 @@
       "deadline_of_application": "",
       "posted_date": "06/08/2026",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305474&PostingSeq=1&SiteId=83000": {
+      "school_id": 302,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305474&PostingSeq=1&SiteId=83000",
+      "job_title_in_post": "Academic Advisor I",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Advising - General",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/06/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305529&PostingSeq=1&SiteId=83000": {
+      "school_id": 302,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305529&PostingSeq=1&SiteId=83000",
+      "job_title_in_post": "Administrative Coordinator - Student Affairs",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "VP Student Affairs",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/06/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305596&PostingSeq=1&SiteId=83000": {
+      "school_id": 302,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305596&PostingSeq=1&SiteId=83000",
+      "job_title_in_post": "Head Coach - Women's Cross Country & Distance Track",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "CrossCountry-Womens",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/06/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305450&PostingSeq=1&SiteId=83000": {
+      "school_id": 302,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305450&PostingSeq=1&SiteId=83000",
+      "job_title_in_post": "Occupational Therapy Program Director (Cochran Campus)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Rehabilitation Sci - Masters",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/06/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305431&PostingSeq=1&SiteId=83000": {
+      "school_id": 302,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305431&PostingSeq=1&SiteId=83000",
+      "job_title_in_post": "Part Time Testing Specialist",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "Testing",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/06/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305653&PostingSeq=1&SiteId=83000": {
+      "school_id": 302,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305653&PostingSeq=1&SiteId=83000",
+      "job_title_in_post": "Student Assistant - Office of Research & Sponsored Projects",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Office of Sponsored Projects",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/06/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302264&PostingSeq=1&SiteId=83000": {
+      "school_id": 302,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302264&PostingSeq=1&SiteId=83000",
+      "job_title_in_post": "Police Officer - CO",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Police",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "08/18/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 302,
   "status": "complete",
-  "updated_at": "2026-11-06T12:49:48+00:00",
-  "completed_at": "2026-11-06T12:49:48+00:00",
+  "updated_at": "2026-11-07T05:01:16+00:00",
+  "completed_at": "2026-11-07T05:01:16+00:00",
   "last_error": ""
 }

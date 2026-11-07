@@ -5716,8 +5716,8 @@
     }
   },
   "school_id": 1632,
-  "status": "complete",
-  "updated_at": "2026-11-06T13:25:49+00:00",
+  "status": "error",
+  "updated_at": "2026-11-07T05:39:01+00:00",
   "completed_at": "2026-11-06T13:25:49+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: PeopleSoft careers page returned no job rows"
 }

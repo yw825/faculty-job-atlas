@@ -8,9 +8,9 @@
     "https://www.kwu.edu/wp-content/uploads/Facilities-Associate-Custodian-Apr-2025.pdf"
   ],
   "school_id": 476,
-  "status": "complete",
-  "updated_at": "2026-11-06T08:59:11+00:00",
+  "status": "error",
+  "updated_at": "2026-11-06T18:26:47+00:00",
   "started_at": "2026-11-03T21:19:49+00:00",
-  "last_error": "",
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.kwu.edu/about/careers/#jobopenings\", waiting until \"domcontentloaded\"\n",
   "completed_at": "2026-11-06T08:59:11+00:00"
 }

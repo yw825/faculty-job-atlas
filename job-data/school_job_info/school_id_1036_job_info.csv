@@ -1,5 +1,6 @@
 school_id,posting_url,job_title_in_post,position_type,job_term,department_or_school,area_key_words,deadline_of_application,position_start_date,posted_date
 1036,https://apply.interfolio.com/171533,Assistant / Associate Professor,Associate_Professor,Full-time,Neurosciences (FAC/RA/RS),coursework,2027-08-19,,2025-10-01
+1036,https://apply.interfolio.com/195728,"Assistant / Associate Professor, Neurosciences (27/28)",Associate_Professor,Full-time,Neurosciences (FAC/RA/RS),Neurosciences; coursework,,,2026-11-01
 1036,https://apply.interfolio.com/181512,"Open Rank, Tenure-Track or Tenured Faculty Position in Biomedical and Health Informatics",Assistant_Professor; Associate_Professor; Full_Professor,Full-time,Population and Quantitative Health Sciences (FAC/RA/RS),Biomedical and Health Informatics; Strategic Interest; highly interdisciplinary environment Areas of,,,2026-03-02
 1036,https://apply.interfolio.com/189913,Assistant/Associate/Full Professor,Assistant_Professor; Associate_Professor; Full_Professor,Full-time,Genetics and Genome Sciences (FAC/RA/RS),human induced pluripotent stem cells; translational genomics,"September 30, 2026",,2026-08-01
 1036,https://apply.interfolio.com/190293,Assistant or Associate Professor - Anatomy,Associate_Professor,Full-time,Anatomy (FAC/RA/RS),Anatomy; anatomical sciences; medical education,,"October 27, 2025",2026-09-15
@@ -13,7 +14,6 @@ school_id,posting_url,job_title_in_post,position_type,job_term,department_or_sch
 1036,https://apply.interfolio.com/184845,Assistant Professor of Bioethics,Assistant_Professor,Full-time,Bioethics (FAC/RA/RS),Bioethics,2026-10-31,,2026-07-14
 1036,https://apply.interfolio.com/177287,"Tenured/Tenure-Track Faculty, Population Science Research",Associate_Professor; Full_Professor,Full-time,Case Comprehensive Cancer Center (GMS) (FAC/RA/RS),Population Science Research; Office of Community Outreach; expertise of particular interest include,2027-12-09,,2025-12-15
 1036,https://apply.interfolio.com/185542,"Assistant Professor, Department of Biochemistry",Lecturer,Full-time,Biochemistry (FAC/RA/RS),Biochemistry,,"July 1, 2027",2026-05-14
-1036,https://apply.interfolio.com/185546,"Instructor, Biochemistry",Lecturer,Full-time,Biochemistry (FAC/RA/RS),Biochemistry,"June 26, 2026",,2026-05-14
 1036,https://apply.interfolio.com/185982,"Assistant, Associate or Full Professor, Biochemistry",Full_Professor,Full-time,Biochemistry (FAC/RA/RS),Biochemistry,"September 28, 2026",,2026-08-12
 1036,https://apply.interfolio.com/197005,Postdoctoral Scholar,Research_Fellow,Full-time,Molecular Biology and Microbiology (FAC/RA/RS),,,,2026-11-04
 1036,https://apply.interfolio.com/172917,Faculty Position,Assistant_Professor; Associate_Professor; Full_Professor,Full-time,Physiology and Biophysics (FAC/RA/RS),defined areas of cell physiology; molecular biophysics,2027-10-28,,2025-08-28
@@ -140,6 +140,7 @@ school_id,posting_url,job_title_in_post,position_type,job_term,department_or_sch
 1036,https://apply.interfolio.com/196965,LGBT Center Student Coordinator - Spring 2027,Unclassified,Full-time,UGEN (STUDENT),,2026-11-15,"January 11, 2027",2026-11-04
 1036,https://apply.interfolio.com/194372,Research Associate: ACT Consultant/Trainer,Research_Fellow,Full-time,"Jack, Joseph and Morton Mandel School of Applied Social Sciences (RA/RS)",,,,2026-09-24
 1036,https://apply.interfolio.com/190971,Research Associate,Research_Fellow,Full-time,Weatherhead School of Management (RA/RS),,,"October 27, 2025",2026-08-10
+1036,https://apply.interfolio.com/193559,Research Associate,Research_Fellow,Full-time,Weatherhead School of Management (RA/RS),,"November 1, 2026","November 1, 2026",2026-09-14
 1036,https://apply.interfolio.com/195820,Postdoctoral Scholar - Biomedical Engineering,Research_Fellow,Full-time,Biomedical Engineering - CSE (PD),peripheral nerve; neural engineering,"October 23, 2026","October 27, 2025",2026-10-20
 1036,https://apply.interfolio.com/190689,Postdoctoral Scholar - Chemical and Biomolecular Engineering,Research_Fellow,Full-time,Chemical & Biomolecular Engineering (PD),implementation of rotating packed bed; separation science,"August 7, 2027","October 27, 2025",2026-10-21
 1036,https://apply.interfolio.com/196429,Postdoctoral Scholar - Chemical and Biomolecular Engineering (CD),Research_Fellow,Full-time,Chemical & Biomolecular Engineering (PD),implementation of rotating packed bed; separation science,,"October 27, 2025",2026-10-29
@@ -155,7 +156,6 @@ school_id,posting_url,job_title_in_post,position_type,job_term,department_or_sch
 1036,https://apply.interfolio.com/196669,Postdoctoral Scholar - Neurobotics Cluster - Mechanical and Aerospace Engineering,Research_Fellow,Full-time,Mechanical & Aerospace Engineering (PD),,"October 30, 2026","October 27, 2025",2026-10-30
 1036,https://apply.interfolio.com/186743,Research Associate,Research_Fellow,Full-time,Department of Community Dentistry (RA/RS),managing data mangement systems including; quantitative methodologies,,,2026-05-13
 1036,https://apply.interfolio.com/182931,Case Western Reserve University - Postdoctoral Scholar - Department of Physics,Research_Fellow,Full-time,Department of Physics (PD),comprising primarily of time-resolved spectroscopy; scattering measurements,"November 17, 2026","October 27, 2025",2026-03-12
-1036,https://apply.interfolio.com/195434,Research Assistant,Unclassified,Full-time,Department of Anthropology (STUDENT),,2026-11-06,,2026-10-09
 1036,https://apply.interfolio.com/173627,Photography Lab Assistant (Student),Unclassified,Full-time,Department of Art History and Art (STUDENT),,,,2025-09-09
 1036,https://apply.interfolio.com/187210,Mizutani Lab: Research Assistant,Unclassified,Full-time,Department of Biology (STUDENT),,,,2026-05-26
 1036,https://apply.interfolio.com/191247,Undergraduate Teaching Assistant: BIOL216L: Denker,Unclassified,Full-time,Department of Biology (STUDENT),Labs Work,,,2026-08-17

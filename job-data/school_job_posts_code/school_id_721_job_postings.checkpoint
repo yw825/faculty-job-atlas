@@ -17,9 +17,9 @@
     "https://www.moval.edu/employment/director-of-admissions/"
   ],
   "school_id": 721,
-  "status": "error",
-  "updated_at": "2026-11-06T09:31:38+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-06T18:47:23+00:00",
   "started_at": "2026-09-08T02:11:23+00:00",
-  "completed_at": "2026-11-05T19:31:15+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.moval.edu/employment-opportunities/#openings\", waiting until \"domcontentloaded\"\n"
+  "completed_at": "2026-11-06T18:47:23+00:00",
+  "last_error": ""
 }

@@ -1339,6 +1339,26 @@
       "title": "Hourly Pooled - Mechanic, Transportation Services",
       "description": "To assist the shop mechanic team in servicing and maintaining University of Wyoming Transit Fleet. ",
       "department": null
+    },
+    "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/263005": {
+      "title": "Assistant Professor - Zoology & Physiology (Biometrician)",
+      "description": "",
+      "department": null
+    },
+    "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/263016": {
+      "title": "Manager, State Seed Certification Service",
+      "description": "Provide leadership in conducting the operation of the Seed Certification Service for the State of Wyoming; evaluate seed varieties for Wyoming producers. Manage business plans, budget, fee schedules and staff.",
+      "department": null
+    },
+    "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/263017": {
+      "title": "Office Associate, Senior - UW Libraries Dean's Office",
+      "description": "This position provides vital support for the day-to-day operations of the UW Libraries Dean’s Office including reception and customer service at the front desk, administrative support for the UW Libraries Dean, leadership team, and Libraries’ development efforts, and facilitating use of the Libraries reservable conference and meeting room spaces. Additionally, this position coordinates logistics for Libraries-sponsored events and serves as a travel arranger for the Libraries. ",
+      "department": null
+    },
+    "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/263055": {
+      "title": "Hourly Pooled - Financial Affairs Support Team Internship",
+      "description": "",
+      "department": null
     }
   },
   "rows": {
@@ -4538,11 +4558,59 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/263005": {
+      "school_id": 1583,
+      "posting_url": "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/263005",
+      "job_title_in_post": "Assistant Professor - Zoology & Physiology (Biometrician)",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/263016": {
+      "school_id": 1583,
+      "posting_url": "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/263016",
+      "job_title_in_post": "Manager, State Seed Certification Service",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/263017": {
+      "school_id": 1583,
+      "posting_url": "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/263017",
+      "job_title_in_post": "Office Associate, Senior - UW Libraries Dean's Office",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/263055": {
+      "school_id": 1583,
+      "posting_url": "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/263055",
+      "job_title_in_post": "Hourly Pooled - Financial Affairs Support Team Internship",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1583,
   "status": "complete",
-  "updated_at": "2026-11-06T12:59:10+00:00",
-  "completed_at": "2026-11-06T12:59:10+00:00",
+  "updated_at": "2026-11-07T05:04:54+00:00",
+  "completed_at": "2026-11-07T05:04:54+00:00",
   "last_error": ""
 }

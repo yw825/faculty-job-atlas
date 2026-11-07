@@ -16,9 +16,9 @@
     "https://tcnj.taleo.net/careersection/00_ex_faculty/jobdetail.ftl?job=26000828"
   ],
   "school_id": 861,
-  "status": "error",
-  "updated_at": "2026-11-06T09:35:56+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-06T18:43:57+00:00",
   "started_at": "2026-09-08T02:23:51+00:00",
-  "completed_at": "2026-11-05T19:55:08+00:00",
-  "last_error": "TimeoutError: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://tcnj.taleo.net/careersection/00_ex_faculty/jobsearch.ftl?lang=en\", waiting until \"domcontentloaded\"\n"
+  "completed_at": "2026-11-06T18:43:57+00:00",
+  "last_error": ""
 }

@@ -259,6 +259,10 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/3C67A483237F6A324625AB95D568B0C1/jobs/139713": {
       "title": "Director of Community Standards, Policies, and Conflict Resolution",
       "description": "Director of Community Standards, Policies, and Conflict Resolution You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/3C67A483237F6A324625AB95D568B0C1/jobs/140281": {
+      "title": "Public Safety-Student Cadet",
+      "description": "Public Safety-Student Cadet You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -1040,11 +1044,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/3C67A483237F6A324625AB95D568B0C1/jobs/140281": {
+      "school_id": 573,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/3C67A483237F6A324625AB95D568B0C1/jobs/140281",
+      "job_title_in_post": "Public Safety-Student Cadet",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 573,
   "status": "complete",
-  "updated_at": "2026-11-06T12:37:47+00:00",
-  "completed_at": "2026-11-06T12:37:47+00:00",
+  "updated_at": "2026-11-07T04:49:22+00:00",
+  "completed_at": "2026-11-07T04:49:22+00:00",
   "last_error": ""
 }

@@ -1,9 +1,9 @@
 {
   "links": [],
   "school_id": 844,
-  "status": "error",
-  "updated_at": "2026-11-06T09:31:22+00:00",
-  "started_at": "2026-11-05T19:53:43+00:00",
-  "completed_at": "2026-11-05T19:53:51+00:00",
-  "last_error": "RuntimeError: list status=None"
+  "status": "complete",
+  "updated_at": "2026-11-06T18:43:40+00:00",
+  "started_at": "2026-11-06T18:43:32+00:00",
+  "completed_at": "2026-11-06T18:43:40+00:00",
+  "last_error": ""
 }

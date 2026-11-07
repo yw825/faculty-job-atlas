@@ -59,6 +59,11 @@
       "title": "Senior Officer, Graduate Research",
       "description": "The Senior Officer, Graduate Research provides specialist administrative support and expert advice across all stages of the HDR candidate lifecycle.",
       "department": null
+    },
+    "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18629": {
+      "title": "Project and Executive Support",
+      "description": "Join a collaborative, people-focused team providing project coordination and executive support to help deliver key strategic priorities.",
+      "department": null
     }
   },
   "rows": {
@@ -205,11 +210,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18629": {
+      "school_id": 1817,
+      "posting_url": "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18629",
+      "job_title_in_post": "Project and Executive Support",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1817,
-  "status": "error",
-  "updated_at": "2026-11-06T13:21:44+00:00",
-  "completed_at": "2026-11-06T07:22:51+00:00",
-  "last_error": "RuntimeError: oracle session capture failed: Timeout 15000ms exceeded while waiting for event \"request\"\n=========================== logs ===========================\nwaiting for request **/recruitingCEJobRequisitions**\n============================================================"
+  "status": "complete",
+  "updated_at": "2026-11-07T05:32:38+00:00",
+  "completed_at": "2026-11-07T05:32:38+00:00",
+  "last_error": ""
 }

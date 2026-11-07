@@ -104,6 +104,16 @@
       "title": "Assistant Professor - Kinesiology",
       "description": "The College of Education and Human Development (CEHD) at Butler University invites applications for a full-time, nine-month tenure-track faculty position with a start date of August 2027. The successful candidate will be a dynamic, motivated, and collaborative faculty member who will recruit and teach undergraduate students in the Kinesiology program, support and contribute to our Human Performance Lab, collaborate with the Butler Institute for Sports & Entertainment, and liaise with Athletics. Students in the Kinesiology major may choose to add concentrations in Pre-Professional Studies, Applied Human Performance, and/or a minor in Sport Coaching.",
       "department": null
+    },
+    "https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2268": {
+      "title": "BSN Clinical Coordinator",
+      "description": "The BSN Clinical Coordinator manages the administrative, logistical, and compliance processes that support clinical education throughout the Bachelor of Science in Nursing program. The coordinator works with students, faculty, clinical instructors, preceptors, healthcare partners, and University offices to support clinical placements, onboarding, scheduling, documentation, and evaluation across undergraduate nursing courses.",
+      "department": null
+    },
+    "https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2269": {
+      "title": "MSN-ETP Clinical Coordinator",
+      "description": "The MSN-ETP Clinical Coordinator manages the administrative, logistical, and compliance processes that support clinical education in the Master of Science in Nursing Entry-to-Practice program. The coordinator serves as a primary liaison among students, faculty, clinical instructors, preceptors, healthcare partners, and University offices to facilitate timely placements, onboarding, documentation, and evaluation across the accelerated graduate prelicensure curriculum.",
+      "department": null
     }
   },
   "rows": {
@@ -358,11 +368,35 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2268": {
+      "school_id": 431,
+      "posting_url": "https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2268",
+      "job_title_in_post": "BSN Clinical Coordinator",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2269": {
+      "school_id": 431,
+      "posting_url": "https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2269",
+      "job_title_in_post": "MSN-ETP Clinical Coordinator",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 431,
-  "status": "error",
-  "updated_at": "2026-11-06T12:35:40+00:00",
-  "completed_at": "2026-11-06T07:16:35+00:00",
-  "last_error": "RuntimeError: oracle session capture failed: Timeout 15000ms exceeded while waiting for event \"request\"\n=========================== logs ===========================\nwaiting for request **/recruitingCEJobRequisitions**\n============================================================"
+  "status": "complete",
+  "updated_at": "2026-11-07T04:47:13+00:00",
+  "completed_at": "2026-11-07T04:47:13+00:00",
+  "last_error": ""
 }

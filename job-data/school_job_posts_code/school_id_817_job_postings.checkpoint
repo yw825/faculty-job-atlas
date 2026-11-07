@@ -30,10 +30,10 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/F9BC0E3EF21EBFD06396ABA365BF2DCF/jobs/174858"
   ],
   "school_id": 817,
-  "status": "error",
-  "updated_at": "2026-11-06T09:48:15+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-06T18:50:52+00:00",
   "started_at": "2026-09-08T02:18:20+00:00",
-  "completed_at": "2026-11-05T19:46:01+00:00",
-  "last_error": "RuntimeError: paycom portal made no job search request",
-  "last_warning": "2026-11-05T19:46:01+00:00: board returned 7 links vs 25 before; old set kept"
+  "completed_at": "2026-11-06T18:50:52+00:00",
+  "last_error": "",
+  "last_warning": "2026-11-06T18:50:52+00:00: board returned 7 links vs 28 before; old set kept"
 }

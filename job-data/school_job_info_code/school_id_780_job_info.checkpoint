@@ -269,6 +269,11 @@
       "title": "Identity & Access Management Engineer",
       "description": "The Identity & Access Management Engineer owns Davidson’s identity infrastructure: the systems that establish who a person (or agent) is, what they can access, and how that access is granted, reviewed, and removed across the college’s on-premises, cloud, and agentic platforms. Reporting to the Manager of Infrastructure, about 80% of the work is identity engineering and administration, and about 20% is systems administration supporting identity. This role requires 5+ years of experience in systems administration, identity management, or a related discipline.",
       "department": null
+    },
+    "https://fa-exci-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/1073": {
+      "title": "Building Service Worker",
+      "description": "",
+      "department": null
     }
   },
   "rows": {
@@ -913,11 +918,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://fa-exci-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/1073": {
+      "school_id": 780,
+      "posting_url": "https://fa-exci-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/1073",
+      "job_title_in_post": "Building Service Worker",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 780,
-  "status": "error",
-  "updated_at": "2026-11-06T12:46:30+00:00",
-  "completed_at": "2026-11-06T07:23:20+00:00",
-  "last_error": "RuntimeError: oracle session capture failed: Timeout 15000ms exceeded while waiting for event \"request\"\n=========================== logs ===========================\nwaiting for request **/recruitingCEJobRequisitions**\n============================================================"
+  "status": "complete",
+  "updated_at": "2026-11-07T04:53:57+00:00",
+  "completed_at": "2026-11-07T04:53:57+00:00",
+  "last_error": ""
 }

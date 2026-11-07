@@ -606,10 +606,19 @@
       "department": "Animal Science"
     },
     "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960194&PostingSeq=1&SiteId=1": {
-      "error": "not present in bulk fetch result"
+      "title": "Part-time Academic Instructor (ALL COLLEGE OF BUSINESS)",
+      "description": "Posted: 11/05/2026 Location: Fargo Department: Finance, Supply Chain & Transp Part-time Academic Instructor (ALL COLLEGE OF BUSINESS)",
+      "department": "Finance, Supply Chain & Transp"
     },
     "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960197&PostingSeq=1&SiteId=1": {
-      "error": "not present in bulk fetch result"
+      "title": "Temporary Livestock Assistant- Mandan, ND",
+      "description": "Posted: 11/05/2026 Location: Hettinger Department: AES Hettinger R/E Ctr Temporary Livestock Assistant- Mandan, ND",
+      "department": "AES Hettinger R/E Ctr"
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960200&PostingSeq=1&SiteId=1": {
+      "title": "Temp Admission Applic Proc",
+      "description": "Posted: 11/06/2026 Location: Fargo Department: Admission Temp Admission Applic Proc",
+      "department": "Admission"
     }
   },
   "rows": {
@@ -2045,15 +2054,45 @@
       "position_start_date": ""
     },
     "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960194&PostingSeq=1&SiteId=1": {
-      "error": "not present in bulk fetch result"
+      "school_id": 823,
+      "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960194&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Part-time Academic Instructor (ALL COLLEGE OF BUSINESS)",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "Finance, Supply Chain & Transp",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/05/2026",
+      "position_start_date": ""
     },
     "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960197&PostingSeq=1&SiteId=1": {
-      "error": "not present in bulk fetch result"
+      "school_id": 823,
+      "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960197&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Temporary Livestock Assistant- Mandan, ND",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "AES Hettinger R/E Ctr",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/05/2026",
+      "position_start_date": ""
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960200&PostingSeq=1&SiteId=1": {
+      "school_id": 823,
+      "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960200&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Temp Admission Applic Proc",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Admission",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/06/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 823,
   "status": "complete",
-  "updated_at": "2026-11-06T12:49:10+00:00",
-  "completed_at": "2026-11-06T12:49:10+00:00",
+  "updated_at": "2026-11-07T04:54:36+00:00",
+  "completed_at": "2026-11-07T04:54:36+00:00",
   "last_error": ""
 }

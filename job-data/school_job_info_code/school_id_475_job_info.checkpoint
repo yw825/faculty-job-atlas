@@ -159,6 +159,11 @@
       "title": "Academic Advisor",
       "description": "Pittsburg State University is accepting applications for an Academic Advisor in the department of Academic Advising that is responsible for advising undergraduate students regarding program requirements, course selection, and class scheduling.",
       "department": null
+    },
+    "https://ebyf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/211": {
+      "title": "Assistant Instructional Professor",
+      "description": "The department of Health, Human Performance, and Recreation at Pittsburg State University invites applications for a faculty position in Recreation. Degree level and experience will be considered in determining rank and tenure status. ",
+      "department": null
     }
   },
   "rows": {
@@ -545,11 +550,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://ebyf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/211": {
+      "school_id": 475,
+      "posting_url": "https://ebyf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/211",
+      "job_title_in_post": "Assistant Instructional Professor",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "department of Health, Human Performance, and Recreation",
+      "area_key_words": "Instructional",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 475,
-  "status": "error",
-  "updated_at": "2026-11-06T12:36:14+00:00",
-  "completed_at": "2026-11-06T07:28:24+00:00",
-  "last_error": "RuntimeError: oracle session capture failed: Timeout 15000ms exceeded while waiting for event \"request\"\n=========================== logs ===========================\nwaiting for request **/recruitingCEJobRequisitions**\n============================================================"
+  "status": "complete",
+  "updated_at": "2026-11-07T04:48:10+00:00",
+  "completed_at": "2026-11-07T04:48:10+00:00",
+  "last_error": ""
 }

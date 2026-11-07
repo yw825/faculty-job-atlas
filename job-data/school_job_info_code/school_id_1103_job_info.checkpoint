@@ -304,6 +304,11 @@
       "title": "Armed Security Officer",
       "description": "Job Summary:\n\nThe Museum Armed Security Officer will report directly to the Museum Security Manager and under the supervision of the Museum Unarmed Security Officer – Shift Lead, will be responsible for carrying out the basic security functions of the museum, including but not limited to; the protection of life and property, maintenance of public order, prevention of crime, response to emergency situations, diffusing difficult situations, securing buildings and enforcing museum rules and regulations.\nIn the absence of the Museum Unarmed Security Officer – Shift Lead, the Museum Armed Security Officer will be designated as the shift’s lead officer and be responsible for taking charge in resolving any situations involving serious risk or danger to museum staff and/or property.\n",
       "department": null
+    },
+    "https://utulsa-ibvjjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/701": {
+      "title": "Strategic Programs Manager",
+      "description": "",
+      "department": null
     }
   },
   "rows": {
@@ -1038,11 +1043,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://utulsa-ibvjjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/701": {
+      "school_id": 1103,
+      "posting_url": "https://utulsa-ibvjjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/701",
+      "job_title_in_post": "Strategic Programs Manager",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1103,
-  "status": "error",
-  "updated_at": "2026-11-06T12:52:58+00:00",
-  "completed_at": "2026-11-06T06:58:32+00:00",
-  "last_error": "RuntimeError: oracle session capture failed: Timeout 15000ms exceeded while waiting for event \"request\"\n=========================== logs ===========================\nwaiting for request **/recruitingCEJobRequisitions**\n============================================================"
+  "status": "complete",
+  "updated_at": "2026-11-07T04:59:44+00:00",
+  "completed_at": "2026-11-07T04:59:44+00:00",
+  "last_error": ""
 }

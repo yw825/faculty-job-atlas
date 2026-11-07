@@ -389,6 +389,11 @@
       "title": "Office Coordinator, Counseling Services",
       "description": "Posted: 11/02/2026 Location: Georgia College & State Univ Department: Counseling Office Coordinator, Counseling Services",
       "department": "Counseling"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305498&PostingSeq=1&SiteId=36000": {
+      "title": "Student Assistant - Fitness Instructor",
+      "description": "Posted: 11/06/2026 Location: Georgia College & State Univ Department: Wellness & Recreation Center Student Assistant - Fitness Instructor",
+      "department": "Wellness & Recreation Center"
     }
   },
   "rows": {
@@ -1308,11 +1313,23 @@
       "deadline_of_application": "",
       "posted_date": "11/02/2026",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305498&PostingSeq=1&SiteId=36000": {
+      "school_id": 305,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305498&PostingSeq=1&SiteId=36000",
+      "job_title_in_post": "Student Assistant - Fitness Instructor",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "Wellness & Recreation Center",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/06/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 305,
   "status": "complete",
-  "updated_at": "2026-11-06T12:32:12+00:00",
-  "completed_at": "2026-11-06T12:32:12+00:00",
+  "updated_at": "2026-11-07T04:45:42+00:00",
+  "completed_at": "2026-11-07T04:45:42+00:00",
   "last_error": ""
 }

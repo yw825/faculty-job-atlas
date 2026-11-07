@@ -43,6 +43,34 @@
     "https://mville.exacthire.com/apply?section=0&jobs=[]&myAccount=1": {
       "title": "Manhattanville University",
       "description": "Manhattanville University Sign in to your account. Enter the email address used at the time of applying. A link to account access will be sent to that email address. Email * Don't have an account? View Open Jobs. Submitting an application will create an applicant account. Return to Open Jobs Help Center Continue Applicant Tracking Software by ExactHire – © 2026 | Terms of Use | Privacy Policy"
+    },
+    "https://mville.exacthire.com/job/210482": {
+      "title": "Adjunct Faculty, Sport Business Management",
+      "description": "Adjunct Faculty, Sport Business Management, Job In Manhattanville University At Remote, NY"
+    },
+    "https://mville.exacthire.com/job/210729": {
+      "title": "Adjunct Instructor for Musical Theatre/Theatre",
+      "description": "Adjunct Instructor for Musical Theatre/Theatre, Job In Manhattanville University At Purchase, NY"
+    },
+    "https://mville.exacthire.com/job/211316": {
+      "title": "Adjunct Instructor, Biology",
+      "description": "Adjunct Instructor, Biology, Job In Manhattanville University At Purchase, NY"
+    },
+    "https://mville.exacthire.com/job/210131": {
+      "title": "Adjunct Instructor, Economic and Financial Aspects of Sport Management",
+      "description": "Adjunct Instructor, Economic and Financial Aspects of Sport Management, Job In Manhattanville University At Purchase, NY"
+    },
+    "https://mville.exacthire.com/job/208791": {
+      "title": "Assistant Professor of Mathematics Education (tenure-track)",
+      "description": "Assistant Professor of Mathematics Education (tenure-track), Job In Manhattanville University At Purchase, NY"
+    },
+    "https://mville.exacthire.com/job/208794": {
+      "title": "Clinical Assistant Professor or Clinical Associate Professor of Applied Behavior Analysis",
+      "description": "Clinical Assistant Professor or Clinical Associate Professor of Applied Behavior Analysis, Job In Manhattanville University At Purchase, NY"
+    },
+    "https://mville.exacthire.com/job/186208": {
+      "title": "MFA Teaching Fellow",
+      "description": "MFA Teaching Fellow, Job In Manhattanville University At Purchase, NY"
     }
   },
   "rows": {
@@ -176,11 +204,95 @@
       "area_key_words": "",
       "deadline_of_application": "",
       "position_start_date": ""
+    },
+    "https://mville.exacthire.com/job/210482": {
+      "school_id": 991,
+      "posting_url": "https://mville.exacthire.com/job/210482",
+      "job_title_in_post": "Adjunct Faculty, Sport Business Management",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "Sport Business Management",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://mville.exacthire.com/job/210729": {
+      "school_id": 991,
+      "posting_url": "https://mville.exacthire.com/job/210729",
+      "job_title_in_post": "Adjunct Instructor for Musical Theatre/Theatre",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://mville.exacthire.com/job/211316": {
+      "school_id": 991,
+      "posting_url": "https://mville.exacthire.com/job/211316",
+      "job_title_in_post": "Adjunct Instructor, Biology",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "Biology",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://mville.exacthire.com/job/210131": {
+      "school_id": 991,
+      "posting_url": "https://mville.exacthire.com/job/210131",
+      "job_title_in_post": "Adjunct Instructor, Economic and Financial Aspects of Sport Management",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "Sport Management",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://mville.exacthire.com/job/208791": {
+      "school_id": 991,
+      "posting_url": "https://mville.exacthire.com/job/208791",
+      "job_title_in_post": "Assistant Professor of Mathematics Education (tenure-track)",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Mathematics Education",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://mville.exacthire.com/job/208794": {
+      "school_id": 991,
+      "posting_url": "https://mville.exacthire.com/job/208794",
+      "job_title_in_post": "Clinical Assistant Professor or Clinical Associate Professor of Applied Behavior Analysis",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Applied Behavior Analysis",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://mville.exacthire.com/job/186208": {
+      "school_id": 991,
+      "posting_url": "https://mville.exacthire.com/job/186208",
+      "job_title_in_post": "MFA Teaching Fellow",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Fellow",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 991,
   "status": "complete",
-  "updated_at": "2026-11-06T12:50:15+00:00",
-  "completed_at": "2026-11-06T12:50:15+00:00",
+  "updated_at": "2026-11-07T04:58:19+00:00",
+  "completed_at": "2026-11-07T04:58:19+00:00",
   "last_error": ""
 }

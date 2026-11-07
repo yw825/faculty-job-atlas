@@ -6,9 +6,9 @@
     "https://www.trinitycollege.edu/general-studies-adjunct-pool/"
   ],
   "school_id": 267,
-  "status": "error",
-  "updated_at": "2026-11-06T08:26:14+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-06T18:09:03+00:00",
   "started_at": "2026-09-08T01:28:19+00:00",
-  "completed_at": "2026-11-05T17:58:44+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.trinitycollege.edu/careers/\", waiting until \"domcontentloaded\"\n"
+  "completed_at": "2026-11-06T18:09:03+00:00",
+  "last_error": ""
 }

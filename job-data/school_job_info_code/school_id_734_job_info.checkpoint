@@ -119,6 +119,11 @@
       "title": "Physics Adjunct Instructor",
       "description": "Posted: 11/05/2026 Location: St. Louis Department: Physics and Astronomy Physics Adjunct Instructor",
       "department": "Physics and Astronomy"
+    },
+    "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61677&PostingSeq=1&SiteId=11": {
+      "title": "Assistant Teaching Professor in Finance (Non-Tenure Track)",
+      "description": "Posted: 11/06/2026 Location: St. Louis Department: Finance Assistant Teaching Professor in Finance (Non-Tenure Track)",
+      "department": "Finance"
     }
   },
   "rows": {
@@ -407,11 +412,23 @@
       "deadline_of_application": "",
       "posted_date": "11/05/2026",
       "position_start_date": ""
+    },
+    "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61677&PostingSeq=1&SiteId=11": {
+      "school_id": 734,
+      "posting_url": "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61677&PostingSeq=1&SiteId=11",
+      "job_title_in_post": "Assistant Teaching Professor in Finance (Non-Tenure Track)",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "Finance",
+      "area_key_words": "Finance",
+      "deadline_of_application": "",
+      "posted_date": "11/06/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 734,
   "status": "complete",
-  "updated_at": "2026-11-06T12:44:00+00:00",
-  "completed_at": "2026-11-06T12:44:00+00:00",
+  "updated_at": "2026-11-07T04:53:07+00:00",
+  "completed_at": "2026-11-07T04:53:07+00:00",
   "last_error": ""
 }

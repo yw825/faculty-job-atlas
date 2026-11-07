@@ -19,7 +19,6 @@
     "https://jobs.lssu.edu/jobs/2026-2027-ncaa-sports-public-address-announcer",
     "https://jobs.lssu.edu/jobs/2026-2027-ncaa-clock-and-scoreboard-operator",
     "https://jobs.lssu.edu/jobs/2026-2027-ncaa-division-i-hockey-off-ice-officials",
-    "https://jobs.lssu.edu/jobs/regional-recruiter-sault-ste-marie-michigan-united-states",
     "https://jobs.lssu.edu/jobs/adjunct-instructor-of-business",
     "https://jobs.lssu.edu/jobs/bus-driver-sault-ste-marie-michigan-united-states-5e0ef0c9-b03c-4993-a8b4-5d7adef55963",
     "https://jobs.lssu.edu/jobs/student-life-coordinator-sault-ste-marie-michigan-united-states",
@@ -50,9 +49,8 @@
   ],
   "school_id": 659,
   "status": "complete",
-  "updated_at": "2026-11-06T09:02:57+00:00",
+  "updated_at": "2026-11-06T18:28:28+00:00",
   "started_at": "2026-09-09T05:16:20+00:00",
-  "completed_at": "2026-11-06T09:02:57+00:00",
-  "last_error": "",
-  "last_warning": "2026-11-06T09:02:57+00:00: board returned 0 links vs 47 before; old set kept"
+  "completed_at": "2026-11-06T18:28:28+00:00",
+  "last_error": ""
 }

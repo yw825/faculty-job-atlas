@@ -71,6 +71,10 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/A99CE46A67143A8F77A8C7BDEA7155DA/jobs/579163": {
       "title": "Adjunct Faculty Doctor of Occupational Therapy OTD Program",
       "description": "Adjunct Faculty Doctor of Occupational Therapy OTD Program You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/A99CE46A67143A8F77A8C7BDEA7155DA/jobs/580329": {
+      "title": "Director, Bailen Health Sciences Simulation Learning Center",
+      "description": "Director, Bailen Health Sciences Simulation Learning Center You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -288,11 +292,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/A99CE46A67143A8F77A8C7BDEA7155DA/jobs/580329": {
+      "school_id": 497,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/A99CE46A67143A8F77A8C7BDEA7155DA/jobs/580329",
+      "job_title_in_post": "Director, Bailen Health Sciences Simulation Learning Center",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 497,
   "status": "complete",
-  "updated_at": "2026-11-06T12:54:12+00:00",
-  "completed_at": "2026-11-06T12:54:12+00:00",
+  "updated_at": "2026-11-07T05:03:42+00:00",
+  "completed_at": "2026-11-07T05:03:42+00:00",
   "last_error": ""
 }

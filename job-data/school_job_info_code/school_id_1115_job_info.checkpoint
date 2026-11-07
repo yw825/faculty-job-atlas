@@ -107,6 +107,10 @@
     "https://georgefoxadjunct.applicantpool.com/jobs/1232738": {
       "title": "Adjunct Professor of Mathematics",
       "description": "Adjunct Professor of Mathematics - Newberg, OR - George Fox University - Adjunct Jobs Jobs Login Sign Up For Job Alerts! Resources Clery Act Mission, Vision and Values Statement of Faith Community Lifestyle Statement Theology of Racial & Ethnic Diversity Maintained by ApplicantPool - © 2026 Job Map Refresh"
+    },
+    "https://georgefoxfaculty.applicantpool.com/jobs/1339950": {
+      "title": "Assistant Professor of Medical Science, PA Program",
+      "description": "Assistant Professor of Medical Science,  PA Program - Newberg, OR - George Fox University - Faculty Jobs Jobs Login Sign Up For Job Alerts! Resources CLERY ACT George Fox Benefits Mission, Vision and Values Statement of Faith Community Lifestyle Statement Theology of Racial & Ethnic Diversity Maintained by ApplicantPool - © 2026 Job Map Refresh"
     }
   },
   "rows": {
@@ -433,11 +437,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://georgefoxfaculty.applicantpool.com/jobs/1339950": {
+      "school_id": 1115,
+      "posting_url": "https://georgefoxfaculty.applicantpool.com/jobs/1339950",
+      "job_title_in_post": "Assistant Professor of Medical Science, PA Program",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Medical Science, PA Program",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1115,
   "status": "complete",
-  "updated_at": "2026-11-06T12:53:04+00:00",
-  "completed_at": "2026-11-06T12:53:04+00:00",
+  "updated_at": "2026-11-07T04:59:48+00:00",
+  "completed_at": "2026-11-07T04:59:48+00:00",
   "last_error": ""
 }

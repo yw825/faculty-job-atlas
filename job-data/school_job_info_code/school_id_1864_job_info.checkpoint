@@ -117,7 +117,8 @@
       "description": "Find A Job | Careers@Gov skip to content Home Find A Job/ Internship FAQ CONTACT US LOGIN LOG OUT menu-button search-button"
     },
     "https://www.careers.hrp.gov.sg/sap/bc/ui5_ui5/sap/ZGERCFA004/index.html?search-keyword=Ngee%20Ann%20Polytechnic#/JobDescription/17595458/005056a3-d347-1fe1-b5f8-859b4b4222c5": {
-      "error": "RuntimeError: job posting expired"
+      "title": "Careers@Gov",
+      "description": "Closing Date: 22/11/2026 Find A Job | Careers@Gov Emphasized Available Values Footer actions skip to content Home Find A Job/ Internship FAQ CONTACT US LOGIN LOG OUT menu-button search-button LECTURER, MATHEMATICS & INFOCOMM TECHNOLOGY - HMIS Ngee Ann Polytechnic 04-06 year(s) Fixed Terms, Full-time Closing on 22 Nov 2026 0 Applicant(s) APPLY NOW What the role is This is a 2-year contract position as a Lecturer/Senior Lecturer, Mathematics & Infocomm Technology in the School of Humanities & Interdisciplinary studies. What you will be working on Develop and deliver curriculum and assessments for full‑time Polytechnic Foundation Programme (PFP) students in Mathematics Develop and deliver full‑time and/or part‑time PET and CET IT‑related modules, including face‑to‑face and/or online courses Able to teach at least one evening or weekends in the week Design, administer, and mark assessments, including continuous assessments and examinations Counsel and mentor students to support their learning and personal development, including education and career guidance Lead or participate in academic research, data analysis, implementation initiatives, and/or poly‑wide projects Undertake academic‑related administration, committee work, outreach activities, and ad‑hoc projects that support the School’s mission Lead or support educational and enrichment programmes, including study trips where applicable What we are looking for A Bachelor’s and/or Master’s degree in Mathematics, Data Science, or a related discipline Preferably at least 3 years of relevant industry experience in Mathematics and/or a related field Demonstrated ability and interest to plan, develop, and teach Mathematics and digital skills‑related modules Strong interest in curriculum development and applied teaching approaches A nurturing mindset with passion for working with young adults and adult learners Strong communication and interpersonal skills Good planning, organising, writing, and multi‑tasking skills Agile, adaptable, and able to work independently as well as collaboratively in a team‑based environment About Ngee Ann Polytechnic At Ngee Ann Polytechnic, our nine academic schools offer over 40 full-time diplomas to a growing student population of more than 15,000. As a public tertiary institution, internationally-recognised for its academic excellence and close industry links, NP prides itself on having a dedicated and professional teaching faculty, complete with campus facilities that are among the finest in the world.\n\nAn institution of higher learning, Ngee Ann Polytechnic believes in giving every student an enriching learning experience and every employee the opportunity to build a meaningful career.\n\nIf you are a self-starter with an innovative mind, a versatile person with the drive for all-rounded excellence, and a dedicated team player who shares our vision and values, we invite you to join our inspired team. You might also be interested in LECTURER - SCHOOL OF DESIGN & ENVIRONMENT Ngee Ann Polytechnic Closing in 2  day(s) SERVICE-LEARNING CATALYST, LECTURER - HMIS Ngee Ann Polytechnic Closing on 15 Nov 2026 LECTURER, CIVIL ENGINEERING - SCHOOL OF DESIGN & ENVIRONMENT Ngee Ann Polytechnic Closing on 15 Nov 2026 LECTURER, BIOMEDICAL ENGINEERING - SCHOOL OF ENGINEERING Ngee Ann Polytechnic Closing in 2  day(s) LECTURER - SCHOOL OF DESIGN & ENVIRONMENT Ngee Ann Polytechnic Closing on 15 Nov 2026 LECTURER, ENGINEERING SCIENCE - SCHOOL OF ENGINEERING Ngee Ann Polytechnic Closing in 2  day(s) LECTURER / SENIOR LECTURER, CYBERSECURITY & DIGITAL FORENSICS – SCHOOL Ngee Ann Polytechnic Closing on 22 Nov 2026 LECTURER, INTERNATIONAL TRADE BUSINESS - SCHOOL OF BUSINESS & ACCOUNTA Ngee Ann Polytechnic Closing on 22 Nov 2026 LECTURER, MATHEMATICS & INFOCOMM TECHNOLOGY - HMIS Ngee Ann Polytechnic Closing on 22 Nov 2026 APPLY NOW"
     }
   },
   "rows": {
@@ -321,7 +322,7 @@
       "position_type": "Lecturer",
       "job_term": "Full-time",
       "department_or_school": "School Of Design & Environment",
-      "area_key_words": "School Of Design & Environment; online",
+      "area_key_words": "School Of Design & Environment; classroom",
       "deadline_of_application": "15/11/2026",
       "posted_date": "",
       "position_start_date": ""
@@ -459,12 +460,21 @@
       "position_start_date": ""
     },
     "https://www.careers.hrp.gov.sg/sap/bc/ui5_ui5/sap/ZGERCFA004/index.html?search-keyword=Ngee%20Ann%20Polytechnic#/JobDescription/17595458/005056a3-d347-1fe1-b5f8-859b4b4222c5": {
-      "error": "RuntimeError: job posting expired"
+      "school_id": 1864,
+      "posting_url": "https://www.careers.hrp.gov.sg/sap/bc/ui5_ui5/sap/ZGERCFA004/index.html?search-keyword=Ngee%20Ann%20Polytechnic#/JobDescription/17595458/005056a3-d347-1fe1-b5f8-859b4b4222c5",
+      "job_title_in_post": "Careers@Gov",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "School of Humanities & Interdisciplinary studies",
+      "area_key_words": "Data Science; Preferably; Mathematics",
+      "deadline_of_application": "22/11/2026",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1864,
   "status": "complete",
-  "updated_at": "2026-11-06T13:40:41+00:00",
-  "completed_at": "2026-11-06T13:40:41+00:00",
+  "updated_at": "2026-11-07T05:43:22+00:00",
+  "completed_at": "2026-11-07T05:43:22+00:00",
   "last_error": ""
 }

@@ -74,16 +74,31 @@ echo "=============================================================="
 
 say(){ echo; echo "--- $* ($(date +%H:%M:%S)) ---"; }
 
+# OneDrive can lock even the program files and git's index for a while
+# ("Resource deadlock avoided" on import, 2026-11-06 11:34), failing a stage
+# before any of our own retries load. A failed stage is retried after a pause.
+stage(){
+  for attempt in 1 2 3 4; do
+    "$@" && return 0
+    echo "  stage failed (attempt $attempt); retrying in 2 min"
+    sleep 120
+  done
+  return 1
+}
+
 if ! "$PYTHON" -c "import bs4, playwright, requests" 2>/dev/null; then
   echo "FATAL: $PYTHON is missing dependencies (bs4/playwright/requests)." >&2
   exit 1
 fi
 
 say "1/6 postings"
-"$PYTHON" run_all_countries.py --stage postings --redo --timeout 300 --workers 3
+# SKIP_POSTINGS=1 resumes a run whose later stages failed, without redoing links.
+if [ -z "${SKIP_POSTINGS:-}" ]; then
+  stage "$PYTHON" run_all_countries.py --stage postings --redo --timeout 300 --workers 3
+fi
 
 say "2/6 clean furniture from link sets and checkpoints"
-"$PYTHON" clean_job_posts.py --report "refresh_logs/cleaning_report_$STAMP.csv" | head -20
+stage "$PYTHON" clean_job_posts.py --report "refresh_logs/cleaning_report_$STAMP.csv"
 
 say "3/6 info (only newly seen postings are fetched)"
 # --redo is required. Without it the runner skips every school whose info
@@ -92,17 +107,24 @@ say "3/6 info (only newly seen postings are fetched)"
 # reached the map (17,183 links had piled up by 2026-09-14). --redo does not
 # re-fetch: run_school_job_info only fetches URLs missing from the
 # checkpoint's raw cache, so this stays incremental.
-"$PYTHON" run_all_countries.py --stage info --redo --timeout 900 --workers 4
+stage "$PYTHON" run_all_countries.py --stage info --redo --timeout 900 --workers 4
 
 say "4/6 prune stale info rows"
-"$PYTHON" prune_stale_info.py | head -5
+stage "$PYTHON" prune_stale_info.py
 
 say "5/6 rebuild map"
-"$PYTHON" build_map_data.py | tail -8
+stage "$PYTHON" build_map_data.py
 
 say "6/6 publish"
 cd "$ROOT" || exit 1
-if [ -n "$(git status --porcelain)" ]; then
+# git status itself failed on a locked index (11-06): wait for it, don't
+# read the failure as "nothing changed".
+for attempt in 1 2 3 4 5; do
+  STATUS="$(git status --porcelain)" && break
+  echo "  git status failed (attempt $attempt); retrying in 2 min"; STATUS=""
+  sleep 120
+done
+if [ -n "$STATUS" ]; then
   NEW=$("$PYTHON" -c "
 import json
 d=json.load(open('postings.json'))
@@ -120,11 +142,15 @@ for p in sys.stdin.read().split('\0'):
     if m and m.group(1) in ids:
         print(p)
 " | while IFS= read -r f; do git add -- "$f"; done
-  git commit -q -m "Nightly refresh $STAMP: $NEW new postings
+  # A failed commit (locked index, 2026-11-06 21:56) followed by a push of
+  # nothing used to print "pushed" while the map stayed old.
+  if ! git commit -q -m "Nightly refresh $STAMP: $NEW new postings
 
 Automated run of job-data/weekly_refresh.sh.
 
-Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>"
+Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>"; then
+    echo "COMMIT FAILED -- nothing published"
+  fi
   # OneDrive can lock one of git's own pack files mid-push ("mmap failed:
   # Resource deadlock avoided", 2026-11-05); a retry a little later goes through.
   PUSHED=""
@@ -133,7 +159,7 @@ Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>"
     echo "push attempt $attempt failed; retrying in 60s"
     sleep 60
   done
-  if [ -n "$PUSHED" ]; then
+  if [ -n "$PUSHED" ] && [ "$(git rev-parse HEAD)" = "$(git rev-parse origin/main)" ]; then
     echo "pushed; $NEW new postings this week"
   else
     echo "PUSH FAILED -- committed locally, resolve by hand"

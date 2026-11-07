@@ -417,6 +417,16 @@
       "title": "Director, Student Involvement Center",
       "description": "Posted: 10/30/2026 Location: San Antonio, TX Department: STUDENT INVOLVEMENT CENTER Director, Student Involvement Center",
       "department": "STUDENT INVOLVEMENT CENTER"
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16736&PostingSeq=1&SiteId=21": {
+      "title": "Employer Relations Manager - Alvarez College of Business Student Success Center",
+      "description": "Posted: 11/06/2026 Location: San Antonio, TX Department: COB UNDERGRADUATE STUDIES Employer Relations Manager - Alvarez College of Business Student Success Center",
+      "department": "COB UNDERGRADUATE STUDIES"
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16737&PostingSeq=1&SiteId=21": {
+      "title": "Senior Program Coordinator - Enterprise Technology Services, Technology Compliance and Community Engagement",
+      "description": "Posted: 11/06/2026 Location: San Antonio, TX Department: ETS BUS MGMT&COMMUNITY ENGAGEE Senior Program Coordinator - Enterprise Technology Services, Technology Compliance and Community Engagement",
+      "department": "ETS BUS MGMT&COMMUNITY ENGAGEE"
     }
   },
   "rows": {
@@ -1422,11 +1432,35 @@
       "deadline_of_application": "",
       "posted_date": "10/30/2026",
       "position_start_date": ""
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16736&PostingSeq=1&SiteId=21": {
+      "school_id": 1427,
+      "posting_url": "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16736&PostingSeq=1&SiteId=21",
+      "job_title_in_post": "Employer Relations Manager - Alvarez College of Business Student Success Center",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "COB UNDERGRADUATE STUDIES",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/06/2026",
+      "position_start_date": ""
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16737&PostingSeq=1&SiteId=21": {
+      "school_id": 1427,
+      "posting_url": "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16737&PostingSeq=1&SiteId=21",
+      "job_title_in_post": "Senior Program Coordinator - Enterprise Technology Services, Technology Compliance and Community Engagement",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "ETS BUS MGMT&COMMUNITY ENGAGEE",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/06/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 1427,
   "status": "complete",
-  "updated_at": "2026-11-06T13:13:02+00:00",
-  "completed_at": "2026-11-06T13:13:02+00:00",
+  "updated_at": "2026-11-07T05:20:15+00:00",
+  "completed_at": "2026-11-07T05:20:15+00:00",
   "last_error": ""
 }

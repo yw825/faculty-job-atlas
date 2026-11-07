@@ -7,9 +7,9 @@
     "https://brevard.edu/post-a-job-or-internship/"
   ],
   "school_id": 772,
-  "status": "error",
-  "updated_at": "2026-11-06T09:43:51+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-06T18:49:22+00:00",
   "started_at": "2026-09-08T02:15:42+00:00",
-  "completed_at": "2026-11-05T19:37:25+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://brevard.edu/employment-opportunities/\", waiting until \"domcontentloaded\"\n"
+  "completed_at": "2026-11-06T18:49:22+00:00",
+  "last_error": ""
 }
