@@ -6,7 +6,6 @@
     "https://listings.jobs.gmu.edu/jobs/undergraduate-graduate-adjunct-faculty-school-of-nursing-fairfax-va-virginia-united-states-other-dfd74b13-4616-45f3-b516-7d18bf558790",
     "https://listings.jobs.gmu.edu/jobs/postdoctoral-research-fellow-mission-systems-engineer-fairfax-va-virginia-united-states-other",
     "https://listings.jobs.gmu.edu/jobs/postdoctoral-research-fellow-mission-software-engineer-fairfax-va-virginia-united-states-other",
-    "https://listings.jobs.gmu.edu/jobs/assistant-or-associate-professor-of-tesol-education-tenure-track-tenured-fairfax-va-virginia-united-states-other",
     "https://listings.jobs.gmu.edu/jobs/tenure-track-assistant-professor-of-communication-specialty-in-new-emerging-communication-technology-and-innovative-research-methods-fairfax-va-virginia-united-states-other",
     "https://listings.jobs.gmu.edu/jobs/yu-yuen-kit-yyk-associate-or-full-professor-of-physics-quantum-fairfax-va-virginia-united-states-other",
     "https://listings.jobs.gmu.edu/jobs/assistant-professor-of-finance-fairfax-va-virginia-united-states-other",
@@ -33,9 +32,8 @@
   ],
   "school_id": 1464,
   "status": "complete",
-  "updated_at": "2026-11-09T19:43:18+00:00",
+  "updated_at": "2026-11-09T23:35:15+00:00",
   "started_at": "2026-09-08T03:07:16+00:00",
-  "completed_at": "2026-11-09T19:43:18+00:00",
-  "last_error": "",
-  "last_warning": "2026-11-09T19:43:18+00:00: board returned 0 links vs 30 before; old set kept"
+  "completed_at": "2026-11-09T23:35:15+00:00",
+  "last_error": ""
 }

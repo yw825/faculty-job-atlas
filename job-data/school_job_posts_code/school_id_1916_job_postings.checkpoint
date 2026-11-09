@@ -20,9 +20,9 @@
   ],
   "school_id": 1916,
   "status": "complete",
-  "updated_at": "2026-11-09T20:54:59+00:00",
+  "updated_at": "2026-11-09T23:39:22+00:00",
   "started_at": "2026-11-02T19:42:29+00:00",
-  "completed_at": "2026-11-09T20:54:59+00:00",
+  "completed_at": "2026-11-09T23:39:22+00:00",
   "last_error": "",
-  "last_warning": "2026-11-09T20:54:59+00:00: board returned 5 links vs 16 before; old set kept"
+  "last_warning": "2026-11-09T23:39:22+00:00: board returned 5 links vs 17 before; old set kept"
 }

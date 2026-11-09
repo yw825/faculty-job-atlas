@@ -116,10 +116,10 @@ say "5/6 rebuild map"
 stage "$PYTHON" build_map_data.py
 
 say "5b/6 health report"
-# Written into job-data/health/ and published with the rest; the
-# health-report workflow on GitHub turns it into an issue, which GitHub
-# emails. A failure here must never stop the publish.
-"$PYTHON" health_report.py --log "$LOG" > /dev/null || echo "  health report failed"
+# Written into job-data/health/ and posted as a GitHub issue (emailed if
+# "Include your own updates" is on). A failure here must never stop the
+# publish.
+"$PYTHON" health_report.py --log "$LOG" --post | tail -1 || echo "  health report failed"
 
 say "6/6 publish"
 cd "$ROOT" || exit 1

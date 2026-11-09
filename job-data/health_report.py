@@ -87,9 +87,38 @@ def hours_between(a, b):
     return f'{secs / 3600:.1f} h'
 
 
+def post_issue(body):
+    """Open today's report as an issue (labelled health-report) and close
+    the previous one. Posted with the git login saved on this machine, not
+    via GitHub Actions: the account's Actions were locked over a billing
+    issue on 2026-11-09. GitHub emails your own issues only if "Include your
+    own updates" is on in Settings > Notifications."""
+    import subprocess
+    import requests
+    cred = subprocess.run(['git', 'credential', 'fill'], input='protocol=https\nhost=github.com\n\n',
+                          capture_output=True, text=True, timeout=30).stdout
+    token = next((l.split('=', 1)[1] for l in cred.splitlines() if l.startswith('password=')), '')
+    if not token:
+        print('no GitHub credential; report not posted')
+        return
+    api = 'https://api.github.com/repos/yw825/faculty-job-atlas'
+    h = {'Authorization': f'Bearer {token}', 'Accept': 'application/vnd.github+json'}
+    first = body.split('\n')[0].lstrip('# ')
+    m = re.search(r'\*\*(\d+) items need a look', body)
+    title = f"{first}: {m.group(1) + ' items need a look' if m else 'all clear'}"
+    for issue in requests.get(f'{api}/issues', headers=h, timeout=30,
+                              params={'labels': 'health-report', 'state': 'open'}).json():
+        requests.patch(f"{api}/issues/{issue['number']}", headers=h, json={'state': 'closed'}, timeout=30)
+    r = requests.post(f'{api}/issues', headers=h, timeout=30,
+                      json={'title': title, 'body': body[:60000], 'labels': ['health-report']})
+    print('posted' if r.status_code == 201 else f'posting failed: {r.status_code} {r.text[:200]}',
+          r.json().get('html_url', '') if r.ok else '')
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--log', default='')
+    ap.add_argument('--post', action='store_true', help='post the report as a GitHub issue')
     args = ap.parse_args()
 
     names = {r['school_id']: r['name'] for r in csv.DictReader(
@@ -243,6 +272,8 @@ def main():
         'date': today, 'map_total': map_now, 'schools': schools,
         'near_seen': sorted(near_now | prev_near)}, ensure_ascii=False))
     print(body)
+    if args.post:
+        post_issue(body)
 
 
 if __name__ == '__main__':
