@@ -1,0 +1,56 @@
+# Manual trial: can the link finders run from a GitHub cloud machine?
+# Dry-runs a sample of schools (nothing is saved or committed) and compares
+# each with the stored link count. Run from the Actions tab.
+name: cloud trial
+
+on:
+  workflow_dispatch:
+    inputs:
+      sample:
+        description: number of schools to sample
+        default: '100'
+      ids:
+        description: or a comma-separated list of school ids
+        default: ''
+
+permissions:
+  contents: read
+
+jobs:
+  trial:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      - name: install
+        run: |
+          pip install -r job-data/requirements.txt
+          python -m playwright install --with-deps chromium chrome
+      - name: trial
+        working-directory: job-data
+        run: |
+          xvfb-run -a python cloud_trial.py --sample "${{ inputs.sample }}" --ids "${{ inputs.ids }}" --out trial.csv
+      - name: summary
+        if: always()
+        working-directory: job-data
+        run: |
+          python - <<'EOF' >> "$GITHUB_STEP_SUMMARY"
+          import csv, collections
+          rows = list(csv.DictReader(open('trial.csv')))
+          c = collections.Counter(r['verdict'] for r in rows)
+          print(f"## Cloud trial: {len(rows)} schools — " + ', '.join(f'{k} {v}' for k, v in c.most_common()))
+          print('\n| school | stored | cloud | verdict | error |\n|---|---|---|---|---|')
+          for r in rows:
+              if r['verdict'] != 'ok':
+                  print(f"| {r['school_id']} | {r['stored']} | {r['cloud']} | {r['verdict']} | {r['error'][:80]} |")
+          EOF
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: trial
+          path: job-data/trial.csv
