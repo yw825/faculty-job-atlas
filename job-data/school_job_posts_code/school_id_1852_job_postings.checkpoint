@@ -17,9 +17,9 @@
     "https://careers.must.edu.mo/recruitment-latest-details?0=691&from=RecruitmentLatest"
   ],
   "school_id": 1852,
-  "status": "error",
-  "updated_at": "2026-11-06T11:58:05+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-09T21:06:45+00:00",
   "started_at": "2026-11-02T19:44:06+00:00",
-  "completed_at": "2026-11-05T23:45:01+00:00",
-  "last_error": "TimeoutError: Locator.click: Timeout 5000ms exceeded.\nCall log:\n  - waiting for get_by_text(\"Academic and Research Positions\", exact=True).first\n"
+  "completed_at": "2026-11-09T21:06:45+00:00",
+  "last_error": ""
 }

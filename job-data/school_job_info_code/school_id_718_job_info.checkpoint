@@ -429,6 +429,11 @@
       "title": "Clinical Adjunct Faculty - MSN/DNP Programs, UMKC School of Nursing and Health Studies",
       "description": "Posted: 11/05/2026 Location: Kansas City Department: Nursing - General Clinical Adjunct Faculty - MSN/DNP Programs, UMKC School of Nursing and Health Studies",
       "department": "Nursing - General"
+    },
+    "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61689&PostingSeq=1&SiteId=8": {
+      "title": "TT ASSISTANT PROFESSOR of Flute / UMKC CONSERVATORY / Music Division",
+      "description": "Posted: 11/07/2026 Location: Kansas City Department: Music General TT ASSISTANT PROFESSOR of Flute / UMKC CONSERVATORY / Music Division",
+      "department": "Music General"
     }
   },
   "rows": {
@@ -1453,11 +1458,23 @@
       "deadline_of_application": "",
       "posted_date": "11/05/2026",
       "position_start_date": ""
+    },
+    "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61689&PostingSeq=1&SiteId=8": {
+      "school_id": 718,
+      "posting_url": "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61689&PostingSeq=1&SiteId=8",
+      "job_title_in_post": "TT ASSISTANT PROFESSOR of Flute / UMKC CONSERVATORY / Music Division",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Music General",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/07/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 718,
   "status": "complete",
-  "updated_at": "2026-11-07T05:07:31+00:00",
-  "completed_at": "2026-11-07T05:07:31+00:00",
+  "updated_at": "2026-11-09T22:40:52+00:00",
+  "completed_at": "2026-11-09T22:40:52+00:00",
   "last_error": ""
 }

@@ -385,6 +385,14 @@
     "https://apply.interfolio.com/196883": {
       "title": "Faculty Position in Experimental Condensed Matter Physics 2026",
       "description": "Department: Carnegie Mellon University: Mellon College of Science: Physics Location: Pittsburgh, PA Posted: Nov 04, 2026 Carnegie Mellon University invites applications for a tenure-track position in experimental condensed matter physics. This position is part of a planned expansion in quantum materials and devices that is coordinated with the Department of Materials Science & Engineering. This includes a plan for multiple hires, shared equipment/facilities, and other resources in order to integrate expertise in understanding the physics of, synthesizing, and characterizing quantum materials to enable their use in real devices. The successful candidate should demonstrate a strong independent research program that brings synergy with experimentalists and theorists in the Department of Physics and the Department of Materials Science & Engineering who work in the area of quantum materials and devices. The appointment is intended to be at the Assistant Professor level, but exceptional candidates at the Associate Professor or Professor level may be considered. The successful candidate will benefit from regional quantum science initiatives via the Pittsburgh Quantum Institute (PQI) and from exceptional local facilities, such as the Bertucci Nanotechnology Laboratory, the Materials Characterization Facility, and the Western Pennsylvania Quantum Information Core (WP-QIC). The successful candidate will arrive at a moment of major new investment and opportunity at Carnegie Mellon. Ken Griffin's recent gift of more than $3 billion comprises a $500 million investment in the Kenneth C. Griffin School of Computer Science, $500 million to support other initiatives on the Pittsburgh campus, and $2 billion to establish CMU Miami, a new campus designed around interdisciplinary research and major scientific and societal challenges. We seek candidates who will actively engage in interdisciplinary research on the Pittsburgh campus while identifying opportunities on the Miami campus as well. Applicants must have a Ph.D. or equivalent degree in Physics or a closely related field. Candidates should submit a curriculum vitae, publication list, a research plan, a teaching and mentoring plan, and a cover letter. In addition, candidates should arrange for three letters of recommendation to be uploaded (a prompt will be sent automatically to the applicant’s references when their contact information is entered at the Interfolio site). Review of applications will begin Dec. 1st, 2026 , and will continue until the position is filled. Please apply by this date to ensure full consideration by the committee. If you have any questions, please contact Dr. Benjamin Hunt at bmhunt@andrew.cmu.edu ."
+    },
+    "https://apply.interfolio.com/197058": {
+      "title": "Artist Lecturer in Euphonium",
+      "description": "Department: Carnegie Mellon University: College of Fine Arts: Music Location: Pittsburgh, PA Posted: Nov 05, 2026 The Carnegie Mellon University School of Music is seeking applications for the part-time position of Artist Lecturer in Euphonium for the 2027-2028 Academic Year. The successful candidate will be responsible for teaching undergraduate and graduate euphonium students in the School of Music and coaching chamber music ensembles as needed. Master's degree in music performance, or equivalent professional experience Experience teaching low brass students at the university and/or conservatory level Performance experience commensurate with a faculty appointment at Carnegie Mellon University Submit a letter of application with a statement of interest in the position, resume or curriculum vitae, and the names of at least three professional references."
+    },
+    "https://apply.interfolio.com/197059": {
+      "title": "Artist Lecturer in Trumpet",
+      "description": "Department: Carnegie Mellon University: College of Fine Arts: Music Location: Pittsburgh, PA Posted: Nov 05, 2026 The Carnegie Mellon University School of Music is seeking applications for the part-time position of Artist Lecturer in Trumpet for the 2027-2028 Academic Year. The successful candidate will be responsible for teaching undergraduate and graduate trumpet students in the School of Music and coaching chamber music ensembles as needed. Master's degree in music performance, or equivalent professional experience Experience teaching trumpet students at the university and/or conservatory level Performance experience commensurate with a faculty appointment at Carnegie Mellon University Submit a letter of application with a statement of interest in the position, resume or curriculum vitae, and the names of at least three professional references."
     }
   },
   "rows": {
@@ -1526,11 +1534,35 @@
       "deadline_of_application": "Dec. 1, 2026",
       "posted_date": "Nov 04, 2026",
       "position_start_date": ""
+    },
+    "https://apply.interfolio.com/197058": {
+      "school_id": 1197,
+      "posting_url": "https://apply.interfolio.com/197058",
+      "job_title_in_post": "Artist Lecturer in Euphonium",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "School of Music and coaching chamber music ensembles as needed",
+      "area_key_words": "Euphonium",
+      "deadline_of_application": "",
+      "posted_date": "Nov 05, 2026",
+      "position_start_date": ""
+    },
+    "https://apply.interfolio.com/197059": {
+      "school_id": 1197,
+      "posting_url": "https://apply.interfolio.com/197059",
+      "job_title_in_post": "Artist Lecturer in Trumpet",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "School of Music and coaching chamber music ensembles as needed",
+      "area_key_words": "Trumpet",
+      "deadline_of_application": "",
+      "posted_date": "Nov 05, 2026",
+      "position_start_date": ""
     }
   },
   "school_id": 1197,
   "status": "complete",
-  "updated_at": "2026-11-07T05:18:34+00:00",
-  "completed_at": "2026-11-07T05:18:34+00:00",
+  "updated_at": "2026-11-09T22:48:24+00:00",
+  "completed_at": "2026-11-09T22:48:24+00:00",
   "last_error": ""
 }

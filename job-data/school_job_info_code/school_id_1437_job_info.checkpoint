@@ -719,6 +719,11 @@
       "title": "Administrative and Billing Specialist II",
       "description": "Posted: 11/05/2026 Location: Tyler, TX Department: Microbiology Section 2 Administrative and Billing Specialist II",
       "department": "Microbiology Section 2"
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16766&PostingSeq=1&SiteId=12": {
+      "title": "Chief Legal Officer",
+      "description": "Posted: 11/06/2026 Location: Tyler, TX Department: Office of Legal Affairs Chief Legal Officer",
+      "department": "Office of Legal Affairs"
     }
   },
   "rows": {
@@ -2438,11 +2443,23 @@
       "deadline_of_application": "",
       "posted_date": "11/05/2026",
       "position_start_date": ""
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16766&PostingSeq=1&SiteId=12": {
+      "school_id": 1437,
+      "posting_url": "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16766&PostingSeq=1&SiteId=12",
+      "job_title_in_post": "Chief Legal Officer",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Office of Legal Affairs",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/06/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 1437,
   "status": "complete",
-  "updated_at": "2026-11-07T05:02:16+00:00",
-  "completed_at": "2026-11-07T05:02:16+00:00",
+  "updated_at": "2026-11-09T22:47:41+00:00",
+  "completed_at": "2026-11-09T22:47:41+00:00",
   "last_error": ""
 }

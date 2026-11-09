@@ -99,6 +99,22 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/F16D49EDEBF447BF71AEBC32D5AF6AB5/jobs/225309": {
       "title": "Assistant Professor of Business-Strategic Management",
       "description": "Assistant Professor of Business-Strategic Management You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/F16D49EDEBF447BF71AEBC32D5AF6AB5/jobs/226424": {
+      "title": "Director-University Grants & Corporate Partnerships",
+      "description": "Director-University Grants & Corporate Partnerships You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/F16D49EDEBF447BF71AEBC32D5AF6AB5/jobs/226406": {
+      "title": "Pre-K Substitute Teacher Spring 2027",
+      "description": "Pre-K Substitute Teacher Spring 2027 You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/F16D49EDEBF447BF71AEBC32D5AF6AB5/jobs/226391": {
+      "title": "Professor of Practice in Education (GRE)",
+      "description": "Professor of Practice in Education (GRE) You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/F16D49EDEBF447BF71AEBC32D5AF6AB5/jobs/226397": {
+      "title": "Professor of Practice in Education (OME)",
+      "description": "Professor of Practice in Education (OME) You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -398,11 +414,59 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/F16D49EDEBF447BF71AEBC32D5AF6AB5/jobs/226424": {
+      "school_id": 1113,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/F16D49EDEBF447BF71AEBC32D5AF6AB5/jobs/226424",
+      "job_title_in_post": "Director-University Grants & Corporate Partnerships",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/F16D49EDEBF447BF71AEBC32D5AF6AB5/jobs/226406": {
+      "school_id": 1113,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/F16D49EDEBF447BF71AEBC32D5AF6AB5/jobs/226406",
+      "job_title_in_post": "Pre-K Substitute Teacher Spring 2027",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/F16D49EDEBF447BF71AEBC32D5AF6AB5/jobs/226391": {
+      "school_id": 1113,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/F16D49EDEBF447BF71AEBC32D5AF6AB5/jobs/226391",
+      "job_title_in_post": "Professor of Practice in Education (GRE)",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Practice in Education",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/F16D49EDEBF447BF71AEBC32D5AF6AB5/jobs/226397": {
+      "school_id": 1113,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/F16D49EDEBF447BF71AEBC32D5AF6AB5/jobs/226397",
+      "job_title_in_post": "Professor of Practice in Education (OME)",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Practice in Education",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1113,
   "status": "complete",
-  "updated_at": "2026-11-07T05:17:56+00:00",
-  "completed_at": "2026-11-07T05:17:56+00:00",
+  "updated_at": "2026-11-09T22:48:09+00:00",
+  "completed_at": "2026-11-09T22:48:09+00:00",
   "last_error": ""
 }

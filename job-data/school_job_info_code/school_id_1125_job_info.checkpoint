@@ -55,6 +55,10 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/62D4FBF25A09F3EBE58345A7B7B899F9/jobs/117172": {
       "title": "Adjunct- Master in Art Therapy and Counseling",
       "description": "Adjunct- Master in Art Therapy and Counseling You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/62D4FBF25A09F3EBE58345A7B7B899F9/jobs/117729": {
+      "title": "Admissions Marketing and Communications Manager",
+      "description": "Admissions Marketing and Communications Manager You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -223,11 +227,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/62D4FBF25A09F3EBE58345A7B7B899F9/jobs/117729": {
+      "school_id": 1125,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/62D4FBF25A09F3EBE58345A7B7B899F9/jobs/117729",
+      "job_title_in_post": "Admissions Marketing and Communications Manager",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1125,
   "status": "complete",
-  "updated_at": "2026-11-07T04:57:56+00:00",
-  "completed_at": "2026-11-07T04:57:56+00:00",
+  "updated_at": "2026-11-09T22:41:03+00:00",
+  "completed_at": "2026-11-09T22:41:03+00:00",
   "last_error": ""
 }

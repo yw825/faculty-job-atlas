@@ -284,6 +284,16 @@
       "title": "Tenure-Track Assistant Professor - Statistics",
       "description": "",
       "department": null
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4621": {
+      "title": "AMHSP Assistant Professor - Neuroscience and Neuro Critical Care",
+      "description": "",
+      "department": null
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4628": {
+      "title": "Associate Professor - AMHSP",
+      "description": "",
+      "department": null
     }
   },
   "rows": {
@@ -960,11 +970,35 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4621": {
+      "school_id": 1587,
+      "posting_url": "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4621",
+      "job_title_in_post": "AMHSP Assistant Professor - Neuroscience and Neuro Critical Care",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "AMHSP Assistant",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4628": {
+      "school_id": 1587,
+      "posting_url": "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4628",
+      "job_title_in_post": "Associate Professor - AMHSP",
+      "position_type": "Associate_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "AMHSP",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1587,
   "status": "complete",
-  "updated_at": "2026-11-07T05:33:23+00:00",
-  "completed_at": "2026-11-07T05:33:23+00:00",
+  "updated_at": "2026-11-09T23:02:10+00:00",
+  "completed_at": "2026-11-09T23:02:10+00:00",
   "last_error": ""
 }

@@ -119,12 +119,17 @@
     "https://careers.msu.edu/jobs/postdoctoral-scholar-fixed-term-east-lansing-michigan-united-states-1647ebc8-e2e6-4b7e-9bd4-e83080a565a4",
     "https://careers.msu.edu/jobs/specialist-teacher-continuing-east-lansing-michigan-united-states-d4181ddf-989a-4255-af32-b2de4de81333",
     "https://careers.msu.edu/jobs/postdoctoral-scholar-fixed-term-east-lansing-michigan-united-states-767fd3df-b5f2-4a48-97bd-ac2ef2f4f781",
-    "https://careers.msu.edu/jobs/postdoctoral-scholar-fixed-term-east-lansing-michigan-united-states-13c608e1-2bc5-420b-9db7-1f1f97963996"
+    "https://careers.msu.edu/jobs/postdoctoral-scholar-fixed-term-east-lansing-michigan-united-states-13c608e1-2bc5-420b-9db7-1f1f97963996",
+    "https://careers.msu.edu/jobs/postdoctoral-scholar-fixed-term-east-lansing-michigan-united-states-50a57b48-ff00-437a-b6d5-f5ef285c3ff8",
+    "https://careers.msu.edu/jobs/assistant-instructor-fixed-term-bay-michigan-united-states",
+    "https://careers.msu.edu/jobs/associate-full-professor-tenure-system-east-lansing-michigan-united-states",
+    "https://careers.msu.edu/jobs/inst-ast-prof-fixed-term-east-lansing-michigan-united-states-b7ef2103-dc65-4235-8042-e8c44f31fd9f"
   ],
   "school_id": 637,
   "status": "complete",
-  "updated_at": "2026-11-06T18:27:48+00:00",
+  "updated_at": "2026-11-09T18:55:42+00:00",
   "started_at": "2026-09-08T02:05:10+00:00",
-  "completed_at": "2026-11-06T18:27:48+00:00",
-  "last_error": ""
+  "completed_at": "2026-11-09T18:55:42+00:00",
+  "last_error": "",
+  "last_warning": "2026-11-09T18:55:42+00:00: board returned 30 links vs 120 before; old set kept"
 }

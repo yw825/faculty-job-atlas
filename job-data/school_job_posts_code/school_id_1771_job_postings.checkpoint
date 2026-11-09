@@ -77,8 +77,8 @@
   ],
   "school_id": 1771,
   "status": "error",
-  "updated_at": "2026-11-06T12:19:11+00:00",
+  "updated_at": "2026-11-09T22:01:15+00:00",
   "started_at": "2026-09-02T22:32:45+00:00",
   "completed_at": "2026-11-06T01:02:19+00:00",
-  "last_error": "Error: ElementHandle.evaluate: Execution context was destroyed, most likely because of a navigation"
+  "last_error": "TimeoutError: Page.goto: Timeout 90000ms exceeded.\nCall log:\n  - navigating to \"https://www.kcl.ac.uk/jobs/search?term=\", waiting until \"domcontentloaded\"\n"
 }

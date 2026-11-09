@@ -119,6 +119,26 @@
       "title": "Sr. Payroll Manager/Accountant",
       "description": "The Senior Payroll & Accountant leads end-to-end payroll operations, serves as a positive and confidential resource for campus community inquiries, and ensures GAAP-compliant financial reporting. Core responsibilities include processing payroll, reconciling accounts, preparing tax filings, and supporting audits and finance department functions.",
       "department": null
+    },
+    "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/371": {
+      "title": "Enrollment Specialist",
+      "description": "The Enrollment Specialist supports daily operations of the admissions and/or financial aid departments, with a primary focus of assessing applications for admission. The position will follow existing policies and processes to determine a student applicant’s admission to the College and recommend a scholarship value, which is then approved by a final reader. The position may also complete other tasks related to recruitment, financial aid or general enrollment activities. This work can be completed remotely and during flexible hours.",
+      "department": null
+    },
+    "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/368": {
+      "title": "Visiting Assistant Professor of Healthcare Management",
+      "description": "This is an 18 month Visiting Assistant Professor position in the Healthcare Management Program in the Department of Business and Economics at Allegheny College, from January 2027 through May 2028. Primary responsibility includes teaching undergraduate and graduate courses in the Healthcare Management program with a full-time course load which, given load calculations, equates to 6 courses per year. Candidates are expected to have a graduate degree at the time of appointment.",
+      "department": null
+    },
+    "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/369": {
+      "title": "Adjunct Instructor, Healthcare Management",
+      "description": "Allegheny College is seeking qualified adjunct faculty to teach Healthcare Management courses in support of our undergraduate and graduate programs in Healthcare Management. This is a part-time position that reports to the Chair of the Department of Business and Economics.  Candidates are expected to have a graduate degree at the time of appointment.  ",
+      "department": null
+    },
+    "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/370": {
+      "title": "Oracle Integration Analyst",
+      "description": "The Oracle Integration Analyst is a full-time, temporary position responsible for designing, coordinating, implementing, and supporting integrations critical to Allegheny College's transition from Ellucian Colleague to Oracle Student Management. ",
+      "department": null
     }
   },
   "rows": {
@@ -406,11 +426,59 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/371": {
+      "school_id": 1177,
+      "posting_url": "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/371",
+      "job_title_in_post": "Enrollment Specialist",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/368": {
+      "school_id": 1177,
+      "posting_url": "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/368",
+      "job_title_in_post": "Visiting Assistant Professor of Healthcare Management",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "Department of Business and Economics",
+      "area_key_words": "Healthcare Management; given load calculations",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/369": {
+      "school_id": 1177,
+      "posting_url": "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/369",
+      "job_title_in_post": "Adjunct Instructor, Healthcare Management",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "Department of Business and Economics",
+      "area_key_words": "Healthcare Management",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/370": {
+      "school_id": 1177,
+      "posting_url": "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/370",
+      "job_title_in_post": "Oracle Integration Analyst",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1177,
   "status": "complete",
-  "updated_at": "2026-11-07T04:59:29+00:00",
-  "completed_at": "2026-11-07T04:59:29+00:00",
+  "updated_at": "2026-11-09T22:42:45+00:00",
+  "completed_at": "2026-11-09T22:42:45+00:00",
   "last_error": ""
 }

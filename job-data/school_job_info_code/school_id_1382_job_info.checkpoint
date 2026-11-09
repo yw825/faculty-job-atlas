@@ -754,6 +754,19 @@
       "title": "Director of Program Assessment - Vice Provost Institutional Research & Improvement",
       "description": "The Director of Program Assessment collaborates with stakeholders to provide leadership in areas of institutional accreditation and assessment. Orchestrates the development, implementation, and maintenance of processes and submission of documentation to meet Southern Association of Colleges and Schools Commission on Colleges (SACSCOC) requirements, including substantive changes. Works collaboratively with academic administration and faculty to collect and prepare annual profiles and other reports requested by SACSCOC. Advises University administration on best practices for program development, faculty credentials, and curriculum compliance in accordance with SACSCOC. To ensure compliance with accreditation assessment standards, works with faculty and departments on assessment plans, reviewing and approving plans as well as tracking and reporting data from collected assessment reports. Participates as an ex-officio member on councils and committees and in approval workflows to monitor p",
       "department": null
+    },
+    "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/13099": {
+      "error": "not present in bulk fetch result"
+    },
+    "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/13097": {
+      "title": "Academic Advisor II (University Academic Advising, Arts & Sciences) - Dean Arts & Sciences",
+      "description": "Performs responsible work in the advising of students on TWU programs and services. Responsible for working with students in an effort to help individuals select, outline and achieve educational and developmental goals. Serves as resource for various academic units regarding academic advising at TWU. Designs, plans and executes new advising policies and procedures as needed. Assumes leadership positions within the department and participates in departmental and university committees/activities. Work is performed independently under limited supervision and performance is based upon completion of assignments and results obtained. The performance evaluation is conducted through the performance evaluation system and in accordance with the University Policy & Procedures.",
+      "department": null
+    },
+    "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/13101": {
+      "title": "Recruitment Specialist - Office of Human Resources",
+      "description": "Performs advanced professional work supporting the university’s employment processes and search and selection procedures, including full-cycle recruitment for all hiring across the Texas Woman’s University System. This position contributes to the development and continuous refinement of Recruitment initiatives in alignment with organizational goals and workforce strategies, operating under limited supervision and in close collaboration with the Manager of Recruitment.",
+      "department": null
     }
   },
   "rows": {
@@ -2553,11 +2566,38 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/13099": {
+      "error": "not present in bulk fetch result"
+    },
+    "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/13097": {
+      "school_id": 1382,
+      "posting_url": "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/13097",
+      "job_title_in_post": "Academic Advisor II (University Academic Advising, Arts & Sciences) - Dean Arts & Sciences",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/13101": {
+      "school_id": 1382,
+      "posting_url": "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/13101",
+      "job_title_in_post": "Recruitment Specialist - Office of Human Resources",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1382,
   "status": "complete",
-  "updated_at": "2026-11-07T05:00:45+00:00",
-  "completed_at": "2026-11-07T05:00:45+00:00",
+  "updated_at": "2026-11-09T22:46:16+00:00",
+  "completed_at": "2026-11-09T22:46:16+00:00",
   "last_error": ""
 }

@@ -22,9 +22,9 @@
     "https://jobs.aston.ac.uk/Vacancy.aspx?ref=1536-26"
   ],
   "school_id": 1869,
-  "status": "complete",
-  "updated_at": "2026-11-06T12:20:03+00:00",
+  "status": "error",
+  "updated_at": "2026-11-09T22:14:29+00:00",
   "started_at": "2026-09-02T22:42:51+00:00",
   "completed_at": "2026-11-06T12:20:03+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://jobs.aston.ac.uk/vacancies.aspx?cat=-1\", waiting until \"domcontentloaded\"\n"
 }

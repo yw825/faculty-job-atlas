@@ -35,6 +35,14 @@
     "https://my.corehr.com/pls/esbshedkitrecruit/erq_jobspec_version_4.jobspec?p_id=016377": {
       "title": "Assistant Lecturer in Information Technology (Digital Humanities) #IJ",
       "description": "Assistant Lecturer in Information Technology (Digital Humanities) #IJ Vacancy Description : Job Title : Assistant Lecturer Vacancy ID : 016377 Vacancy Type : Academic Part Time"
+    },
+    "https://my.corehr.com/pls/esbshedkitrecruit/erq_jobspec_version_4.jobspec?p_id=016417": {
+      "title": "Part Time Lecturers in Early Years Education #IJ",
+      "description": "Part Time Lecturers in Early Years Education #IJ Vacancy Description : Job Title : Vacancy ID : 016417 Vacancy Type : "
+    },
+    "https://my.corehr.com/pls/esbshedkitrecruit/erq_jobspec_version_4.jobspec?p_id=016418": {
+      "title": "Part-time Lecturers: Domestic, Sexual and Gender-Based Violence (DSGBV) Programmes #IJ",
+      "description": "Part-time Lecturers: Domestic, Sexual and Gender-Based Violence (DSGBV) Programmes #IJ Vacancy Description : Job Title : Vacancy ID : 016418 Vacancy Type : "
     }
   },
   "rows": {
@@ -145,11 +153,35 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://my.corehr.com/pls/esbshedkitrecruit/erq_jobspec_version_4.jobspec?p_id=016417": {
+      "school_id": 1911,
+      "posting_url": "https://my.corehr.com/pls/esbshedkitrecruit/erq_jobspec_version_4.jobspec?p_id=016417",
+      "job_title_in_post": "Part Time Lecturers in Early Years Education #IJ",
+      "position_type": "Assistant_Professor",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://my.corehr.com/pls/esbshedkitrecruit/erq_jobspec_version_4.jobspec?p_id=016418": {
+      "school_id": 1911,
+      "posting_url": "https://my.corehr.com/pls/esbshedkitrecruit/erq_jobspec_version_4.jobspec?p_id=016418",
+      "job_title_in_post": "Part-time Lecturers: Domestic, Sexual and Gender-Based Violence (DSGBV) Programmes #IJ",
+      "position_type": "Assistant_Professor",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "Sexual and Gender-Based Violence (DSGBV) Programmes #IJ",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1911,
   "status": "complete",
-  "updated_at": "2026-11-07T05:41:04+00:00",
-  "completed_at": "2026-11-07T05:41:04+00:00",
+  "updated_at": "2026-11-09T23:11:19+00:00",
+  "completed_at": "2026-11-09T23:11:19+00:00",
   "last_error": ""
 }

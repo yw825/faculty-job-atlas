@@ -40,9 +40,9 @@
     "https://jobs.lse.ac.uk/Vacancies/W/7028/0/476169/15539/study-abroad-coordinator-admissions"
   ],
   "school_id": 1773,
-  "status": "complete",
-  "updated_at": "2026-11-06T12:19:38+00:00",
+  "status": "error",
+  "updated_at": "2026-11-09T22:04:46+00:00",
   "started_at": "2026-09-02T22:32:54+00:00",
   "completed_at": "2026-11-06T12:19:38+00:00",
-  "last_error": ""
+  "last_error": "TimeoutError: Page.goto: Timeout 90000ms exceeded.\nCall log:\n  - navigating to \"https://jobs.lse.ac.uk/V2/Vacancy/Index?enc=HRIqN026cS+vCbCYvrmuUlRuC79/39yknYl6JyVFAq0mun48UhH8QAr+8i5zlZ1Iopg1CFFQVvSCOnD76tE5697cs+NZYbkYpVmUd+mthuk=\", waiting until \"domcontentloaded\"\n"
 }

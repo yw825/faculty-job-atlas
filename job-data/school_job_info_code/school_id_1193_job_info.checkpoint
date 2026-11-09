@@ -51,6 +51,14 @@
     "https://temple.taleo.net/careersection/tu_ex_faculty/jobdetail.ftl?job=26002729": {
       "title": "Tenure-Track Assistant Professor in Microbiome Science (Biology Department)",
       "description": "Human Resources: Career Opportunities Contact Us | Site Map HR Home Prospective Employees Benefits Training Go to the main content section. | My Account Options | Sign In This service is set to disconnect automatically after {0} minutes of inactivity. Your session will end in {1} minutes. Click OK to reset the timer to {0} minutes. You have been signed out. This service is set to sign out after {0} minutes of inactivity. Job Search My Jobpage Basic Search | My Submissions | My Job Cart | My Saved Searches | Beginning of the main content section. Return to the home page Printable Format Return to previous position on page - ( ) Description Qualifications Primary Location : Other Locations : Job : Schedule : Shift : Employee Status : Refer a friend for this job Refer a friend Refer a candidate Submit a candidate's profile About Us | Site Map | Contact Us | © Temple University Temple University is an Affirmative Action, Equal Opportunity Employer, m/f/d/v. If you require assistance completing your application, please call 215-204-4008 or email taleohelp@temple.edu ."
+    },
+    "https://temple.taleo.net/careersection/tu_ex_faculty/jobdetail.ftl?job=26002741": {
+      "title": "Asst Professor Clinical Tenure Track",
+      "description": "Human Resources: Career Opportunities Contact Us | Site Map HR Home Prospective Employees Benefits Training Go to the main content section. | My Account Options | Sign In This service is set to disconnect automatically after {0} minutes of inactivity. Your session will end in {1} minutes. Click OK to reset the timer to {0} minutes. You have been signed out. This service is set to sign out after {0} minutes of inactivity. Job Search My Jobpage Basic Search | My Submissions | My Job Cart | My Saved Searches | Beginning of the main content section. Return to the home page Printable Format Return to previous position on page - ( ) Description Qualifications Primary Location : Other Locations : Job : Schedule : Shift : Employee Status : Refer a friend for this job Refer a friend Refer a candidate Submit a candidate's profile About Us | Site Map | Contact Us | © Temple University Temple University is an Affirmative Action, Equal Opportunity Employer, m/f/d/v. If you require assistance completing your application, please call 215-204-4008 or email taleohelp@temple.edu ."
+    },
+    "https://temple.taleo.net/careersection/tu_ex_faculty/jobdetail.ftl?job=26002742": {
+      "title": "Tenure-Track Assistant Professor (Physics Department)",
+      "description": "Human Resources: Career Opportunities Contact Us | Site Map HR Home Prospective Employees Benefits Training Go to the main content section. | My Account Options | Sign In This service is set to disconnect automatically after {0} minutes of inactivity. Your session will end in {1} minutes. Click OK to reset the timer to {0} minutes. You have been signed out. This service is set to sign out after {0} minutes of inactivity. Job Search My Jobpage Basic Search | My Submissions | My Job Cart | My Saved Searches | Beginning of the main content section. Return to the home page Printable Format Return to previous position on page - ( ) Description Qualifications Primary Location : Other Locations : Job : Schedule : Shift : Employee Status : Refer a friend for this job Refer a friend Refer a candidate Submit a candidate's profile About Us | Site Map | Contact Us | © Temple University Temple University is an Affirmative Action, Equal Opportunity Employer, m/f/d/v. If you require assistance completing your application, please call 215-204-4008 or email taleohelp@temple.edu ."
     }
   },
   "rows": {
@@ -209,11 +217,35 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://temple.taleo.net/careersection/tu_ex_faculty/jobdetail.ftl?job=26002741": {
+      "school_id": 1193,
+      "posting_url": "https://temple.taleo.net/careersection/tu_ex_faculty/jobdetail.ftl?job=26002741",
+      "job_title_in_post": "Asst Professor Clinical Tenure Track",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Asst",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://temple.taleo.net/careersection/tu_ex_faculty/jobdetail.ftl?job=26002742": {
+      "school_id": 1193,
+      "posting_url": "https://temple.taleo.net/careersection/tu_ex_faculty/jobdetail.ftl?job=26002742",
+      "job_title_in_post": "Tenure-Track Assistant Professor (Physics Department)",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1193,
   "status": "complete",
-  "updated_at": "2026-11-07T04:59:05+00:00",
-  "completed_at": "2026-11-07T04:59:05+00:00",
+  "updated_at": "2026-11-09T22:45:09+00:00",
+  "completed_at": "2026-11-09T22:45:09+00:00",
   "last_error": ""
 }

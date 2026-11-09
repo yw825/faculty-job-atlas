@@ -63,6 +63,10 @@
     "https://my.corehr.com/pls/iadtrecruit/erq_jobspec_version_4.jobspec?p_id=007542": {
       "title": "Project Coordinator - Creative Pathways for All - Grade VI - Fixed Term Whole-time until the 31st August 2028 Ref: 76/26",
       "description": "Closing Date: 23/11/2026 Project Coordinator - Creative Pathways for All - Grade VI - Fixed Term Whole-time until the 31st August 2028 Ref: 76/26 Please see attached Candidate Information Booklet for full details of the role. Contact Email : recruitment@iadt.ie Close Date : 23-Nov-2026 12:00 Contact Person : recruitment@iadt.ie"
+    },
+    "https://my.corehr.com/pls/iadtrecruit/erq_jobspec_version_4.jobspec?p_id=007522": {
+      "title": "Academic Lead - Inclusive Education and Creative Pathways for All - Part-time (0.5 WTE) Fixed Term until the 31st July 2028 Ref: 77/26",
+      "description": "Closing Date: 23/11/2026 Academic Lead - Inclusive Education and Creative Pathways for All - Part-time (0.5 WTE) Fixed Term until the 31st July 2028 Ref: 77/26 Please see attached Candidate Information Booklet for full details of the role. Contact Email : recruitment@iadt.ie Close Date : 23-Nov-2026 12:00 Contact Person : recruitment@iadt.ie"
     }
   },
   "rows": {
@@ -257,11 +261,23 @@
       "deadline_of_application": "23/11/2026",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://my.corehr.com/pls/iadtrecruit/erq_jobspec_version_4.jobspec?p_id=007522": {
+      "school_id": 1916,
+      "posting_url": "https://my.corehr.com/pls/iadtrecruit/erq_jobspec_version_4.jobspec?p_id=007522",
+      "job_title_in_post": "Academic Lead - Inclusive Education and Creative Pathways for All - Part-time (0.5 WTE) Fixed Term until the 31st July 2028 Ref: 77/26",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "23/11/2026",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1916,
   "status": "complete",
-  "updated_at": "2026-11-07T05:41:05+00:00",
-  "completed_at": "2026-11-07T05:41:05+00:00",
+  "updated_at": "2026-11-09T23:11:21+00:00",
+  "completed_at": "2026-11-09T23:11:21+00:00",
   "last_error": ""
 }

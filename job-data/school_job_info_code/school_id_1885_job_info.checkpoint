@@ -75,6 +75,14 @@
     "https://my.corehr.com/pls/mturecruit/erq_jobspec_version_4.jobspec?p_id=028035": {
       "title": "Researcher 1 - MeSSO Research Group",
       "description": "Researcher 1 - MeSSO Research Group Vacancy Details: Informal enquiries can be made in confidence to Dr Michael D Murphy email michaeld.murphy@mtu.ie regarding this position. Important Notes - Applications must be submitted by the specified time on the advertised closing date. All closing times stated are Greenwich Mean Time (GMT). It is the responsibility of applicants to ensure they apply well in advance of the closing time and date. We advise all applicants to allow sufficient time to make their online submission. Any applications which are still in progress at the closing time, will be cancelled automatically by the E-Recruitment System and you will not be able to complete or submit your application. - The information you provide using this online recruitment facility is required by MTU for the purpose of processing your application for employment. Your personal data will be processed in accordance with the General Data Protection Regulations (GDPR). Applications for all candidates apart from those who are successful at competition, are deleted 18 months after the competition has closed. - Please ensure you tick the declaration at the end of the application form prior to submitting. - Screening and short-listing takes place only on the basis of information submitted on the official application form. - Please note that the system will not accept CVs as attachments for any position, with the exception of Research positions . Please ensure that you have included all necessary information in your application prior to submitting. Munster Technological University is an equal opportunities employer."
+    },
+    "https://my.corehr.com/pls/mturecruit/erq_jobspec_version_4.jobspec?p_id=028455": {
+      "title": "Research Assistant - Inclusive Creative Technologies & Accessible Cultural Heritage (1 year fixed term part time contract - 17.5 hours per week)",
+      "description": "Research Assistant - Inclusive Creative Technologies & Accessible Cultural Heritage (1 year fixed term part time contract - 17.5 hours per week) Vacancy Details: Informal enquiries can be made in confidence to Dr Ciara Glasheen Artem email ciara.glasheenartem@mtu.ie regarding this position. Important Notes - Applications must be submitted by the specified time on the advertised closing date. All closing times stated are Greenwich Mean Time (GMT). It is the responsibility of applicants to ensure they apply well in advance of the closing time and date. We advise all applicants to allow sufficient time to make their online submission. Any applications which are still in progress at the closing time, will be cancelled automatically by the E-Recruitment System and you will not be able to complete or submit your application. - The information you provide using this online recruitment facility is required by MTU for the purpose of processing your application for employment. Your personal data will be processed in accordance with the General Data Protection Regulations (GDPR). Applications for all candidates apart from those who are successful at competition, are deleted 18 months after the competition has closed. - Please ensure you tick the declaration at the end of the application form prior to submitting. - Screening and short-listing takes place only on the basis of information submitted on the official application form. - Please note that the system will not accept CVs as attachments for any position, with the exception of Research positions . Please ensure that you have included all necessary information in your application prior to submitting. Munster Technological University is an equal opportunities employer."
+    },
+    "https://my.corehr.com/pls/mturecruit/erq_jobspec_version_4.jobspec?p_id=028475": {
+      "title": "TU-RISE POSTDOCTORAL RESEARCHER \nHealth and Wellbeing Amongst Older Adults (THRIVE@MTU)\nEXTERNAL APPLICANTS ONLY",
+      "description": "TU-RISE POSTDOCTORAL RESEARCHER Health and Wellbeing Amongst Older Adults (THRIVE@MTU) EXTERNAL APPLICANTS ONLY This appointment is open to new recruits only; extension to existing staff contracts cannot be funded. Successful candidates must hold a relevant PhD degree at their contract start date. Important Notes: Applications must be submitted by the specified time on the advertised closing date. All closing times stated are Greenwich Mean Time (GMT). It is the responsibility of applicants to ensure they apply well in advance of the closing time and date. We advise all applicants to allow sufficient time to make their online submission. Any applications which are still in progress at the closing time, will be cancelled automatically by the E-Recruitment System and you will not be able to complete or submit your application. The information you provide using this online recruitment facility is required by MTU for the purpose of processing your application for employment. Your personal data will be processed in accordance with the General Data Protection Regulations (GDPR). Applications for all candidates apart from those who are successful at competition, are deleted 18 months after the competition has closed. Please ensure you tick the declaration at the end of the application form prior to submitting. Screening and short-listing takes place only on the basis of information submitted on the official application form. Please note that the system will not accept CVs as attachments for any position, with the exception of Research positions. Please ensure that you have included all necessary information in your application prior to submitting. Munster Technological University is an equal opportunities employer."
     }
   },
   "rows": {
@@ -302,11 +310,35 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://my.corehr.com/pls/mturecruit/erq_jobspec_version_4.jobspec?p_id=028455": {
+      "school_id": 1885,
+      "posting_url": "https://my.corehr.com/pls/mturecruit/erq_jobspec_version_4.jobspec?p_id=028455",
+      "job_title_in_post": "Research Assistant - Inclusive Creative Technologies & Accessible Cultural Heritage (1 year fixed term part time contract - 17.5 hours per week)",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://my.corehr.com/pls/mturecruit/erq_jobspec_version_4.jobspec?p_id=028475": {
+      "school_id": 1885,
+      "posting_url": "https://my.corehr.com/pls/mturecruit/erq_jobspec_version_4.jobspec?p_id=028475",
+      "job_title_in_post": "TU-RISE POSTDOCTORAL RESEARCHER \nHealth and Wellbeing Amongst Older Adults (THRIVE@MTU)\nEXTERNAL APPLICANTS ONLY",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1885,
   "status": "complete",
-  "updated_at": "2026-11-07T05:41:05+00:00",
-  "completed_at": "2026-11-07T05:41:05+00:00",
+  "updated_at": "2026-11-09T23:11:22+00:00",
+  "completed_at": "2026-11-09T23:11:22+00:00",
   "last_error": ""
 }

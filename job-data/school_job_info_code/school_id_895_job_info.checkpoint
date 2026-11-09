@@ -287,6 +287,10 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/2881FFE43C19E2921F626A9C2B366153/jobs/241858": {
       "title": "Alumni Relations Coordinator and Assistant Art Registrar",
       "description": "Alumni Relations Coordinator and Assistant Art Registrar You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/2881FFE43C19E2921F626A9C2B366153/jobs/242002": {
+      "title": "Centers IT Support Technician",
+      "description": "Centers IT Support Technician You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -1148,11 +1152,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/2881FFE43C19E2921F626A9C2B366153/jobs/242002": {
+      "school_id": 895,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/2881FFE43C19E2921F626A9C2B366153/jobs/242002",
+      "job_title_in_post": "Centers IT Support Technician",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 895,
   "status": "complete",
-  "updated_at": "2026-11-07T05:14:14+00:00",
-  "completed_at": "2026-11-07T05:14:14+00:00",
+  "updated_at": "2026-11-09T22:44:53+00:00",
+  "completed_at": "2026-11-09T22:44:53+00:00",
   "last_error": ""
 }

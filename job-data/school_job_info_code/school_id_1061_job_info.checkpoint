@@ -79,6 +79,18 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/1051C39EB9AB7F40500A9D465D1FF64D/jobs/547929": {
       "title": "Vice President for Academic Affairs",
       "description": "Vice President for Academic Affairs You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/1051C39EB9AB7F40500A9D465D1FF64D/jobs/548891": {
+      "title": "Assistant Women's Soccer Coach",
+      "description": "Assistant Women's Soccer Coach You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/1051C39EB9AB7F40500A9D465D1FF64D/jobs/548887": {
+      "title": "Director of Digital Media Production",
+      "description": "Director of Digital Media Production You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/1051C39EB9AB7F40500A9D465D1FF64D/jobs/548880": {
+      "title": "Graduate Assistant for Human Anatomy School of Behavioral and Health Sciences",
+      "description": "Graduate Assistant for Human Anatomy School of Behavioral and Health Sciences You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -320,11 +332,47 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/1051C39EB9AB7F40500A9D465D1FF64D/jobs/548891": {
+      "school_id": 1061,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/1051C39EB9AB7F40500A9D465D1FF64D/jobs/548891",
+      "job_title_in_post": "Assistant Women's Soccer Coach",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/1051C39EB9AB7F40500A9D465D1FF64D/jobs/548887": {
+      "school_id": 1061,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/1051C39EB9AB7F40500A9D465D1FF64D/jobs/548887",
+      "job_title_in_post": "Director of Digital Media Production",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Digital Media Production",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/1051C39EB9AB7F40500A9D465D1FF64D/jobs/548880": {
+      "school_id": 1061,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/1051C39EB9AB7F40500A9D465D1FF64D/jobs/548880",
+      "job_title_in_post": "Graduate Assistant for Human Anatomy School of Behavioral and Health Sciences",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "School of Behavioral and Health Sciences",
+      "area_key_words": "Behavioral and Health Sciences",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1061,
   "status": "complete",
-  "updated_at": "2026-11-07T04:57:27+00:00",
-  "completed_at": "2026-11-07T04:57:27+00:00",
+  "updated_at": "2026-11-09T22:42:35+00:00",
+  "completed_at": "2026-11-09T22:42:35+00:00",
   "last_error": ""
 }

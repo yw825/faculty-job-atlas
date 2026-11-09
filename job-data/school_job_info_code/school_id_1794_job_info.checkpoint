@@ -139,6 +139,18 @@
     "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#medical-program-clinical-dean-katherine": {
       "title": "Medical Program Clinical Dean Katherine",
       "description": "Medical Program Clinical Dean Katherine. Charles Darwin University. Employment type: Continuing."
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#marketing-and-accommodation-officer": {
+      "title": "Marketing and Accommodation Officer",
+      "description": "Marketing and Accommodation Officer. Charles Darwin University. Employment type: Fixed Term."
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#lecturer-nursing": {
+      "title": "Lecturer - Nursing",
+      "description": "Lecturer - Nursing. Charles Darwin University. Employment type: Fixed Term."
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#recruitment-and-establishment-consultant": {
+      "title": "Recruitment and Establishment Consultant",
+      "description": "Recruitment and Establishment Consultant. Charles Darwin University. Employment type: Continuing."
     }
   },
   "rows": {
@@ -555,11 +567,47 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#marketing-and-accommodation-officer": {
+      "school_id": 1794,
+      "posting_url": "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#marketing-and-accommodation-officer",
+      "job_title_in_post": "Marketing and Accommodation Officer",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#lecturer-nursing": {
+      "school_id": 1794,
+      "posting_url": "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#lecturer-nursing",
+      "job_title_in_post": "Lecturer - Nursing",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Nursing",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#recruitment-and-establishment-consultant": {
+      "school_id": 1794,
+      "posting_url": "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#recruitment-and-establishment-consultant",
+      "job_title_in_post": "Recruitment and Establishment Consultant",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1794,
   "status": "complete",
-  "updated_at": "2026-11-07T05:31:51+00:00",
-  "completed_at": "2026-11-07T05:31:51+00:00",
+  "updated_at": "2026-11-09T22:59:27+00:00",
+  "completed_at": "2026-11-09T22:59:27+00:00",
   "last_error": ""
 }

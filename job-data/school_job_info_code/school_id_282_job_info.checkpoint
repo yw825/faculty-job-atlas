@@ -2617,6 +2617,16 @@
       "title": "Identity & Access Mgmt Admin 1",
       "description": "Posted: 11/06/2026 Location: Augusta University Department: Information Technology Identity & Access Mgmt Admin 1",
       "department": "Information Technology"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305628&PostingSeq=1&SiteId=12000": {
+      "title": "Sterile Supplies Specialist",
+      "description": "Posted: 11/09/2026 Location: Augusta Univ. - Augusta Department: DCG-Sterilization Sterile Supplies Specialist",
+      "department": "DCG-Sterilization"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305615&PostingSeq=1&SiteId=12000": {
+      "title": "Supervisor, Dental Assistant",
+      "description": "Posted: 11/09/2026 Location: Augusta Univ. - Augusta Department: DCG-Dental Associates Supervisor, Dental Assistant",
+      "department": "DCG-Dental Associates"
     }
   },
   "rows": {
@@ -8861,11 +8871,35 @@
       "deadline_of_application": "",
       "posted_date": "11/06/2026",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305628&PostingSeq=1&SiteId=12000": {
+      "school_id": 282,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305628&PostingSeq=1&SiteId=12000",
+      "job_title_in_post": "Sterile Supplies Specialist",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "DCG-Sterilization",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/09/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305615&PostingSeq=1&SiteId=12000": {
+      "school_id": 282,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305615&PostingSeq=1&SiteId=12000",
+      "job_title_in_post": "Supervisor, Dental Assistant",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "DCG-Dental Associates",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/09/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 282,
   "status": "complete",
-  "updated_at": "2026-11-07T04:44:16+00:00",
-  "completed_at": "2026-11-07T04:44:16+00:00",
+  "updated_at": "2026-11-09T22:28:24+00:00",
+  "completed_at": "2026-11-09T22:28:24+00:00",
   "last_error": ""
 }

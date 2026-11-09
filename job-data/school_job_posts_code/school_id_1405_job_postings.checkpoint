@@ -1,5 +1,6 @@
 {
   "links": [
+    "https://schreiner.edu/job/student-success-coach/",
     "https://schreiner.edu/job/program-professional-tutor-and-academic-coach/",
     "https://schreiner.edu/job/project-director-strengthening-institutional-program-sip-grant/",
     "https://schreiner.edu/job/student-accounts-counselor/",
@@ -35,7 +36,6 @@
     "https://schreiner.edu/job/student-activities-graduate-assistant/",
     "https://schreiner.edu/job/academic-support-graduate-assistant/",
     "https://schreiner.edu/job/admissions-graduate-assistant/",
-    "https://schreiner.edu/job/director-of-residence-life/",
     "https://schreiner.edu/job/adjunct-instructor-of-history/",
     "https://schreiner.edu/job/admission-recruiting-assistant-student-worker/",
     "https://schreiner.edu/job/development-and-stewardship-officer/",
@@ -84,9 +84,9 @@
     "https://schreiner.edu/job/student-telemarketer/"
   ],
   "school_id": 1405,
-  "status": "error",
-  "updated_at": "2026-11-06T19:17:40+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-09T20:33:26+00:00",
   "started_at": "2026-09-09T06:13:54+00:00",
-  "completed_at": "2026-11-05T21:01:27+00:00",
-  "last_error": "RuntimeError: jm-ajax status=429"
+  "completed_at": "2026-11-09T20:33:26+00:00",
+  "last_error": ""
 }

@@ -231,12 +231,15 @@
     "https://vcujobs.com/jobs/adjunct-instructor-honors-college-flourishing-rolling-pool-vcu-main-campus-virginia-united-states",
     "https://vcujobs.com/jobs/adjunct-instructor-honors-college-writing-rolling-pool-vcu-main-campus-virginia-united-states",
     "https://vcujobs.com/jobs/adjunct-instructor-honors-college-humans-of-rva-rolling-pool-vcu-main-campus-virginia-united-states",
-    "https://vcujobs.com/jobs/forensic-science-adjunct-instructor-rolling-pool-vcu-main-campus-virginia-united-states"
+    "https://vcujobs.com/jobs/forensic-science-adjunct-instructor-rolling-pool-vcu-main-campus-virginia-united-states",
+    "https://vcujobs.com/jobs/creative-technologies-librarian-vcu-main-campus-virginia-united-states",
+    "https://vcujobs.com/jobs/adjunct-instructor-graduate-mcv-main-campus-virginia-united-states"
   ],
   "school_id": 1485,
   "status": "complete",
-  "updated_at": "2026-11-06T19:23:10+00:00",
+  "updated_at": "2026-11-09T19:54:52+00:00",
   "started_at": "2026-09-08T03:07:57+00:00",
-  "completed_at": "2026-11-06T19:23:10+00:00",
-  "last_error": ""
+  "completed_at": "2026-11-09T19:54:52+00:00",
+  "last_error": "",
+  "last_warning": "2026-11-09T19:54:52+00:00: board returned 60 links vs 232 before; old set kept"
 }

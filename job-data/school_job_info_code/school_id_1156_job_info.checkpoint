@@ -64,6 +64,16 @@
       "title": "Assistant/Associate Professor Advanced Education Program in Orthodontics and Dentofacial Orthopedics",
       "description": "",
       "department": null
+    },
+    "https://setonhill-ibtwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/171": {
+      "title": "Assistant Coach - Softball",
+      "description": "",
+      "department": null
+    },
+    "https://setonhill-ibtwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/173": {
+      "title": "Associate Director - Marketing",
+      "description": "\n",
+      "department": null
     }
   },
   "rows": {
@@ -220,11 +230,35 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://setonhill-ibtwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/171": {
+      "school_id": 1156,
+      "posting_url": "https://setonhill-ibtwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/171",
+      "job_title_in_post": "Assistant Coach - Softball",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://setonhill-ibtwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/173": {
+      "school_id": 1156,
+      "posting_url": "https://setonhill-ibtwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/173",
+      "job_title_in_post": "Associate Director - Marketing",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1156,
   "status": "complete",
-  "updated_at": "2026-11-07T04:58:45+00:00",
-  "completed_at": "2026-11-07T04:58:45+00:00",
+  "updated_at": "2026-11-09T22:42:10+00:00",
+  "completed_at": "2026-11-09T22:42:10+00:00",
   "last_error": ""
 }

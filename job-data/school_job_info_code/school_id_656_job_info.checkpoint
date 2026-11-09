@@ -95,6 +95,10 @@
     "https://learnbaker.isolvedhire.com/jobs/1895744": {
       "title": "Campus Safety Monitor",
       "description": "Campus Safety Monitor  - Owosso, MI - Baker College Jobs Jobs Login Sign Up For Job Alerts! Maintained by isolved People Cloud - © 2026 Refresh Search the FAQ here Go Common Questions"
+    },
+    "https://learnbaker.isolvedhire.com/jobs/1900863": {
+      "title": "Adjunct Faculty - Psychology (Owosso, Michigan)",
+      "description": "Adjunct Faculty - Psychology (Owosso, Michigan)  - Owosso, MI - Baker College Jobs Jobs Login Sign Up For Job Alerts! Maintained by isolved People Cloud - © 2026 Refresh Search the FAQ here Go Common Questions"
     }
   },
   "rows": {
@@ -382,11 +386,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://learnbaker.isolvedhire.com/jobs/1900863": {
+      "school_id": 656,
+      "posting_url": "https://learnbaker.isolvedhire.com/jobs/1900863",
+      "job_title_in_post": "Adjunct Faculty - Psychology (Owosso, Michigan)",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "Michigan",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 656,
   "status": "complete",
-  "updated_at": "2026-11-07T04:50:37+00:00",
-  "completed_at": "2026-11-07T04:50:37+00:00",
+  "updated_at": "2026-11-09T22:35:01+00:00",
+  "completed_at": "2026-11-09T22:35:01+00:00",
   "last_error": ""
 }

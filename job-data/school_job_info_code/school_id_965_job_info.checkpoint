@@ -2425,6 +2425,16 @@
     "https://apply.interfolio.com/197078": {
       "title": "Associate Research Scholar/ Clinical Fellow",
       "description": "Department: Columbia University in the City of New York: Columbia Law School Location: 01 Posted: Nov 06, 2026 Columbia Law School seeks an experienced lawyer with a background in criminal defense and a strong interest in community lawyering and clinical teaching to join the Criminal Defense Clinic as the Clinic's Associate Research Scholar / Clinical Fellow, beginning in January 2027. The Criminal Defense Clinic works with students to become visionary attorneys working in criminal law advocacy. Students represent individuals facing misdemeanor charges in New York City courts. The students engage in a team-based advocacy projects supporting grassroots organizations working towards minimizing reliance on misdemeanor regulation and surveillance, developing safety alternatives, or addressing the impacts of criminalization.  The course engages in practice and analyses of criminal law that center discussion of intensively regulated low-income communities, racial justice, local power hierarchies and the role of misdemeanor legal regulation. The course asks students to consider how lawyers work in criminal law towards a transformative vision of more humane cities. The Clinical Fellow will work in the Criminal Defense Clinic, with its director and students in criminal law advocacy. They will do this through a range of activities including intensive supervision in criminal defense representation, implementing and supervising clinical projects, syllabus development, teaching, and scholarly research. The Clinical Fellow will contribute to Columbia’s public interest, clinical and public defense community. Over the course of their appointment, they will undertake increasing responsibility in the Clinic, including designing and teaching clinic seminars; developing individual representation priorities and litigation strategies, building and leading clinic projects in partnership with grassroots organizations and impacted communities; providing close supervision, guidance, and feedback to teams of students working on those projects; and conducting scholarly research and writing. The Clinical Fellow will be provided extensive professional, teaching, practice, and scholarship mentoring from the Clinic Director and other senior staff at the Clinic. This is a one-year non-tenure track position. The Associate Research Scholar / Clinical Fellow will hold the University title of Associate Research Scholar. They will also hold a secondary instructional appointment, pending faculty approval, as a Lecturer in Law for each semester in which they teach in the Clinic. Minimum Qualifications: J.D. or equivalent legal degree (e.g. LLB); Currently in good standing as a member of the NY bar or ability to be so by January 2027; Strong academic qualifications; and A minimum of three to five years of experience working as an attorney in indigent defense Preferred Qualifications: A deep commitment to rigorous, pragmatic, creative, and self-reflective social justice and human rights work; A deep commitment to teaching and mentoring new generations of advocates, a passion for education, and a strong interest in pedagogy theory and practice; Strong interest and ability in challenging existing norms and methods in the criminal defense field, and an interest in pursuing new interdisciplinary and critical research and scholarship; A strong education in and awareness of critiques of criminal defense, and a commitment to integrating those critiques into expanding the practice; Experience, initiative, and ability to undertake independent research; Substantive legal and practical knowledge of state level criminal defense; Strong interest and commitment to fostering an inclusive, welcoming, and supportive environment within the clinic, as well as to empowering others to bring their full identities, backgrounds, and perspectives to seminars and projects; Interest in exploring the wide range of tactics and tools employed in community lawyering, and commitment to the strategic use of these to challenge existing injustices and hierarchies, including within criminal law itself; Project, team, and time management skills, and excellent interpersonal skills; and Deep personal commitment and ability to work in mutually empowering, collaborative, and respectful partnerships. Applications will be considered on a rolling basis until the position is filled. Applicants should submit: (a) a letter of interest, describing the applicant’s qualifications and interest in the position (Cover Letter); (b) a one page statement of the applicant’s vision of transformative criminal legal work and clinical education, primary areas of scholarly  interest and practice; (c) a curriculum vitae; (d) a law school transcript; (e) two letters of recommendation; and (f) the names of no more than three additional references (Other Document)."
+    },
+    "https://apply.interfolio.com/196984": {
+      "error": "RuntimeError: interfolio position has no name (closed?)"
+    },
+    "https://apply.interfolio.com/197117": {
+      "error": "RuntimeError: interfolio position has no name (closed?)"
+    },
+    "https://apply.interfolio.com/197174": {
+      "title": "Associate Professor or Professor at CUMC - Division Chief, Stroke",
+      "description": "Department: Columbia University in the City of New York: Columbia University Irving Medical Center: Vagelos College of Physicians and Surgeons: Neurology Location: 02 Posted: Nov 07, 2026 Columbia University Irving Medical Center seeks an accomplished academic leader to serve as Division Chief of Stroke in the Department of Neurology. The Columbia Stroke program seeks to advance interdisciplinary clinical care, promote neuroscience research, and facilitate innovative education within a robust academic enterprise. Applicants must hold a senior faculty position (Associate or Full Professor) and have completed an ACGME-accredited fellowship training in vascular neurology and be ABPN Vascular Neurology Board-certified. The stroke Director will perform clinical activities including time on the inpatient-stroke and consult services and on-call coverage, and be involved in various research, outreach, and teaching activities within the Columbia-New York Presbyterian Comprehensive Stroke Center. Administrative responsibilities include development of divisional goals, budgets, and operations, evaluation of faculty performance, and participation in departmental committee meetings as required. Strong previous performance of providing quality and efficiency in patient care and operations, experience with clinical research, and strong teaching and mentorship background are preferred. Salary and will be commensurate with experience, training and achievements. MD degree or equivalent ACGME-accredited fellowship training in vascular neurology ABPN Vascular Neurology Board-certified."
     }
   },
   "rows": {
@@ -9639,11 +9649,29 @@
       "deadline_of_application": "",
       "posted_date": "Nov 06, 2026",
       "position_start_date": ""
+    },
+    "https://apply.interfolio.com/196984": {
+      "error": "RuntimeError: interfolio position has no name (closed?)"
+    },
+    "https://apply.interfolio.com/197117": {
+      "error": "RuntimeError: interfolio position has no name (closed?)"
+    },
+    "https://apply.interfolio.com/197174": {
+      "school_id": 965,
+      "posting_url": "https://apply.interfolio.com/197174",
+      "job_title_in_post": "Associate Professor or Professor at CUMC - Division Chief, Stroke",
+      "position_type": "Associate_Professor; Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Department of Neurology",
+      "area_key_words": "Stroke",
+      "deadline_of_application": "",
+      "posted_date": "Nov 07, 2026",
+      "position_start_date": ""
     }
   },
   "school_id": 965,
   "status": "complete",
-  "updated_at": "2026-11-07T04:57:51+00:00",
-  "completed_at": "2026-11-07T04:57:51+00:00",
+  "updated_at": "2026-11-09T22:47:34+00:00",
+  "completed_at": "2026-11-09T22:47:34+00:00",
   "last_error": ""
 }

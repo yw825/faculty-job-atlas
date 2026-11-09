@@ -49,6 +49,11 @@
       "title": "Business Systems Analyst ITS & HR (2026-MP-24)",
       "description": "Managerial & Professional Vacancy\nBusiness Systems Analyst – ERP Applications in IT Services and Human Resources",
       "department": null
+    },
+    "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2957": {
+      "title": "Executive Assistant, Research And Innovation (2026-MP-26)",
+      "description": "Managerial & Professional\nExecutive Assistant to Vice-President Research and Innovation",
+      "department": null
     }
   },
   "rows": {
@@ -171,11 +176,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2957": {
+      "school_id": 1637,
+      "posting_url": "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2957",
+      "job_title_in_post": "Executive Assistant, Research And Innovation (2026-MP-26)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1637,
   "status": "complete",
-  "updated_at": "2026-11-07T05:34:16+00:00",
-  "completed_at": "2026-11-07T05:34:16+00:00",
+  "updated_at": "2026-11-09T23:06:12+00:00",
+  "completed_at": "2026-11-09T23:06:12+00:00",
   "last_error": ""
 }

@@ -1359,6 +1359,16 @@
       "title": "Post-Doctoral Associate - In Vivo Imaging and Electrophysiology of Developing Cortical Networks - Smith Lab - Department of Neuroscience",
       "description": "Posted: 11/05/2026 Location: Twin Cities Department: NSCI Neuroscience Admin Post-Doctoral Associate - In Vivo Imaging and Electrophysiology of Developing Cortical Networks - Smith Lab - Department of Neuroscience",
       "department": "NSCI Neuroscience Admin"
+    },
+    "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=377043&PostingSeq=1": {
+      "title": "Post-Doctoral Associate",
+      "description": "Posted: 11/06/2026 Location: Twin Cities Department: NEUR Neurology Dept Admin Post-Doctoral Associate",
+      "department": "NEUR Neurology Dept Admin"
+    },
+    "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=376908&PostingSeq=1": {
+      "title": "Assistant, Associate, or Full Professor of Veterinary Nutrition",
+      "description": "Posted: 11/04/2026 Location: Twin Cities Department: Veterinary Clinical Sciences Assistant, Associate, or Full Professor of Veterinary Nutrition",
+      "department": "Veterinary Clinical Sciences"
     }
   },
   "rows": {
@@ -4612,11 +4622,35 @@
       "deadline_of_application": "",
       "posted_date": "11/05/2026",
       "position_start_date": ""
+    },
+    "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=377043&PostingSeq=1": {
+      "school_id": 680,
+      "posting_url": "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=377043&PostingSeq=1",
+      "job_title_in_post": "Post-Doctoral Associate",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "NEUR Neurology Dept Admin",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/06/2026",
+      "position_start_date": ""
+    },
+    "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=376908&PostingSeq=1": {
+      "school_id": 680,
+      "posting_url": "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=376908&PostingSeq=1",
+      "job_title_in_post": "Assistant, Associate, or Full Professor of Veterinary Nutrition",
+      "position_type": "Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Veterinary Clinical Sciences",
+      "area_key_words": "Veterinary Nutrition",
+      "deadline_of_application": "",
+      "posted_date": "11/04/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 680,
   "status": "complete",
-  "updated_at": "2026-11-07T04:52:15+00:00",
-  "completed_at": "2026-11-07T04:52:15+00:00",
+  "updated_at": "2026-11-09T22:37:01+00:00",
+  "completed_at": "2026-11-09T22:37:01+00:00",
   "last_error": ""
 }

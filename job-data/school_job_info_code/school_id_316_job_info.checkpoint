@@ -524,6 +524,16 @@
       "title": "Student Career Counselor - Career Opportunities",
       "description": "Posted: 11/06/2026 Location: Valdosta State University Department: Career Opportunities Student Career Counselor - Career Opportunities",
       "department": "Career Opportunities"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305825&PostingSeq=1&SiteId=51000": {
+      "title": "Manager - Access Control (Key Shop)",
+      "description": "Posted: 11/09/2026 Location: Valdosta State University Department: Key Shop Manager - Access Control (Key Shop)",
+      "department": "Key Shop"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305643&PostingSeq=1&SiteId=51000": {
+      "title": "Associate Director - Admissions",
+      "description": "Posted: 11/06/2026 Location: Valdosta State University Department: Admissions Associate Director - Admissions",
+      "department": "Admissions"
     }
   },
   "rows": {
@@ -1785,11 +1795,35 @@
       "deadline_of_application": "",
       "posted_date": "11/06/2026",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305825&PostingSeq=1&SiteId=51000": {
+      "school_id": 316,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305825&PostingSeq=1&SiteId=51000",
+      "job_title_in_post": "Manager - Access Control (Key Shop)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Key Shop",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/09/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305643&PostingSeq=1&SiteId=51000": {
+      "school_id": 316,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305643&PostingSeq=1&SiteId=51000",
+      "job_title_in_post": "Associate Director - Admissions",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Admissions",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/06/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 316,
   "status": "complete",
-  "updated_at": "2026-11-07T04:45:52+00:00",
-  "completed_at": "2026-11-07T04:45:52+00:00",
+  "updated_at": "2026-11-09T22:30:23+00:00",
+  "completed_at": "2026-11-09T22:30:23+00:00",
   "last_error": ""
 }

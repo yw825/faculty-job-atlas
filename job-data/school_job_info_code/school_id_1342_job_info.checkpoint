@@ -67,6 +67,10 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/1064DAE0FBE4FE97CBC8BAA9499D8EE7/jobs/353090": {
       "title": "Executive Assistant to the Vice President and Dean of the College",
       "description": "Executive Assistant to the Vice President and Dean of the College You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/1064DAE0FBE4FE97CBC8BAA9499D8EE7/jobs/355756": {
+      "title": "Director of Financial Aid",
+      "description": "Director of Financial Aid You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -273,11 +277,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/1064DAE0FBE4FE97CBC8BAA9499D8EE7/jobs/355756": {
+      "school_id": 1342,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/1064DAE0FBE4FE97CBC8BAA9499D8EE7/jobs/355756",
+      "job_title_in_post": "Director of Financial Aid",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Financial Aid",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1342,
   "status": "complete",
-  "updated_at": "2026-11-07T04:59:35+00:00",
-  "completed_at": "2026-11-07T04:59:35+00:00",
+  "updated_at": "2026-11-09T22:45:41+00:00",
+  "completed_at": "2026-11-09T22:45:41+00:00",
   "last_error": ""
 }

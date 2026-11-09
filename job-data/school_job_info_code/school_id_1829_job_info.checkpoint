@@ -259,6 +259,14 @@
     "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2540": {
       "title": "Technical Assistant Postmortem & Farm Services",
       "description": "Closing Date: 22/11/2026 Department: SVS - VTH Large Animal Services Technical Assistant Postmortem & Farm Services. Massey University. 22-Nov-2026 11:00 PM | JR-2540 | Technical Assistant Postmortem & Farm Services | Massey University | SVS - VTH Large Animal Services | Ongoing"
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2568": {
+      "title": "Academic Administration Assistant",
+      "description": "Closing Date: 30/11/2026 Department: CoHSS - Academic Administration Team 1 Academic Administration Assistant. Massey University. 30-Nov-2026 11:00 PM | JR-2568 | Academic Administration Assistant | Massey University | CoHSS - Academic Administration Team 1 | Ongoing"
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2565": {
+      "title": "Lecturer/Senior Lecturer in Social Work",
+      "description": "Closing Date: 23/11/2026 Department: SoSW - AKL Lecturer/Senior Lecturer in Social Work. Massey University. 23-Nov-2026 11:00 PM | JR-2565 | Lecturer/Senior Lecturer in Social Work | Massey University | SoSW - AKL | Ongoing"
     }
   },
   "rows": {
@@ -305,6 +313,7 @@
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "27/10/2026",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-1830": {
@@ -1026,11 +1035,35 @@
       "deadline_of_application": "22/11/2026",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2568": {
+      "school_id": 1829,
+      "posting_url": "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2568",
+      "job_title_in_post": "Academic Administration Assistant",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "30/11/2026",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2565": {
+      "school_id": 1829,
+      "posting_url": "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2565",
+      "job_title_in_post": "Lecturer/Senior Lecturer in Social Work",
+      "position_type": "Assistant_Professor; Associate_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Social Work",
+      "deadline_of_application": "23/11/2026",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1829,
   "status": "complete",
-  "updated_at": "2026-11-07T05:41:59+00:00",
-  "completed_at": "2026-11-07T05:41:59+00:00",
+  "updated_at": "2026-11-09T23:13:48+00:00",
+  "completed_at": "2026-11-09T23:13:48+00:00",
   "last_error": ""
 }

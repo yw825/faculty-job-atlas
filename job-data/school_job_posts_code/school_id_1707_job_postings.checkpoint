@@ -12,6 +12,7 @@
     "https://bandi.mur.gov.it/profcalls.php/public/job/id_job/153765",
     "https://bandi.mur.gov.it/profcalls.php/public/job/id_job/153766",
     "https://bandi.mur.gov.it/profcalls.php/public/job/id_job/153767",
+    "https://bandi.mur.gov.it/profcalls.php/public/job/id_job/153843",
     "https://bandi.mur.gov.it/jobs.php/public/job/id_job/153704",
     "https://bandi.mur.gov.it/jobs.php/public/job/id_job/153705",
     "https://bandi.mur.gov.it/jobs.php/public/job/id_job/153708",
@@ -38,9 +39,9 @@
     "https://bandi.mur.gov.it/jobs.php/public/job/id_job/152165"
   ],
   "school_id": 1707,
-  "status": "error",
-  "updated_at": "2026-11-06T11:52:09+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-09T20:56:22+00:00",
   "started_at": "2026-09-03T20:20:17+00:00",
-  "completed_at": "2026-11-05T23:26:24+00:00",
-  "last_error": "RuntimeError: mur profcalls search status=None"
+  "completed_at": "2026-11-09T20:56:22+00:00",
+  "last_error": ""
 }

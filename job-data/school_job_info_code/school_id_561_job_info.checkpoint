@@ -83,6 +83,22 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/AE469E23D63EE01425E773C19A546C6B/jobs/595362": {
       "title": "Adjunct Faculty - Forensic Psychology",
       "description": "Adjunct Faculty - Forensic Psychology You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/AE469E23D63EE01425E773C19A546C6B/jobs/597678": {
+      "title": "Director of Graduate Studies and Online Programs",
+      "description": "Director of Graduate Studies and Online Programs You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/AE469E23D63EE01425E773C19A546C6B/jobs/597632": {
+      "title": "Director of Workforce Development and Talent Transformation",
+      "description": "Director of Workforce Development and Talent Transformation You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/AE469E23D63EE01425E773C19A546C6B/jobs/597604": {
+      "title": "Internship Coordinator (Psychology/Human Services/Criminal Justice)",
+      "description": "Internship Coordinator (Psychology/Human Services/Criminal Justice) You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/AE469E23D63EE01425E773C19A546C6B/jobs/597536": {
+      "title": "Adjunct Faculty - Undergraduate Business Analytics of Data Science",
+      "description": "Adjunct Faculty - Undergraduate Business Analytics of Data Science You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -332,11 +348,59 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/AE469E23D63EE01425E773C19A546C6B/jobs/597678": {
+      "school_id": 561,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/AE469E23D63EE01425E773C19A546C6B/jobs/597678",
+      "job_title_in_post": "Director of Graduate Studies and Online Programs",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Graduate Studies and Online Programs",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/AE469E23D63EE01425E773C19A546C6B/jobs/597632": {
+      "school_id": 561,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/AE469E23D63EE01425E773C19A546C6B/jobs/597632",
+      "job_title_in_post": "Director of Workforce Development and Talent Transformation",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Workforce Development and Talent Transformation",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/AE469E23D63EE01425E773C19A546C6B/jobs/597604": {
+      "school_id": 561,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/AE469E23D63EE01425E773C19A546C6B/jobs/597604",
+      "job_title_in_post": "Internship Coordinator (Psychology/Human Services/Criminal Justice)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/AE469E23D63EE01425E773C19A546C6B/jobs/597536": {
+      "school_id": 561,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/AE469E23D63EE01425E773C19A546C6B/jobs/597536",
+      "job_title_in_post": "Adjunct Faculty - Undergraduate Business Analytics of Data Science",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "Undergraduate Business Analytics of Data Science",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 561,
   "status": "complete",
-  "updated_at": "2026-11-07T04:49:23+00:00",
-  "completed_at": "2026-11-07T04:49:23+00:00",
+  "updated_at": "2026-11-09T22:33:36+00:00",
+  "completed_at": "2026-11-09T22:33:36+00:00",
   "last_error": ""
 }

@@ -103,6 +103,10 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/39C3B08FA765F09BC547D09C6AC939C8/jobs/4273": {
       "title": "Adjunct Faculty - Chiropractic Science",
       "description": "Adjunct Faculty - Chiropractic Science You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/39C3B08FA765F09BC547D09C6AC939C8/jobs/84055": {
+      "title": "Director of Financial Aid",
+      "description": "Director of Financial Aid You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -417,11 +421,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/39C3B08FA765F09BC547D09C6AC939C8/jobs/84055": {
+      "school_id": 304,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/39C3B08FA765F09BC547D09C6AC939C8/jobs/84055",
+      "job_title_in_post": "Director of Financial Aid",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Financial Aid",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 304,
   "status": "complete",
-  "updated_at": "2026-11-07T04:44:52+00:00",
-  "completed_at": "2026-11-07T04:44:52+00:00",
+  "updated_at": "2026-11-09T22:31:15+00:00",
+  "completed_at": "2026-11-09T22:31:15+00:00",
   "last_error": ""
 }

@@ -9,9 +9,9 @@
     "https://jobs.leeds.ac.uk/vacancy.aspx?ref=AHCFO1080"
   ],
   "school_id": 1769,
-  "status": "complete",
-  "updated_at": "2026-11-06T12:19:24+00:00",
+  "status": "error",
+  "updated_at": "2026-11-09T21:59:05+00:00",
   "started_at": "2026-11-02T20:06:04+00:00",
   "completed_at": "2026-11-06T12:19:24+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://jobs.leeds.ac.uk/vacancies.aspx?cat=200\", waiting until \"domcontentloaded\"\n"
 }

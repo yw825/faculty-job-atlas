@@ -460,11 +460,12 @@
       "school_id": 1327,
       "posting_url": "https://fa-eygi-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26035",
       "job_title_in_post": "Laboratory Operations Specialist II",
-      "position_type": "Non-academic",
+      "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://fa-eygi-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26038": {
@@ -936,7 +937,7 @@
   },
   "school_id": 1327,
   "status": "complete",
-  "updated_at": "2026-11-07T05:02:29+00:00",
-  "completed_at": "2026-11-07T05:02:29+00:00",
+  "updated_at": "2026-11-09T22:51:28+00:00",
+  "completed_at": "2026-11-09T22:51:28+00:00",
   "last_error": ""
 }

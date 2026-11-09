@@ -109,6 +109,11 @@
       "title": "Door Technician",
       "description": "",
       "department": null
+    },
+    "https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/3141": {
+      "title": "Associate Director of Human Resources",
+      "description": "",
+      "department": null
     }
   },
   "rows": {
@@ -372,11 +377,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/3141": {
+      "school_id": 686,
+      "posting_url": "https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/3141",
+      "job_title_in_post": "Associate Director of Human Resources",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Human Resources",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 686,
   "status": "complete",
-  "updated_at": "2026-11-07T04:52:27+00:00",
-  "completed_at": "2026-11-07T04:52:27+00:00",
+  "updated_at": "2026-11-09T22:37:19+00:00",
+  "completed_at": "2026-11-09T22:37:19+00:00",
   "last_error": ""
 }

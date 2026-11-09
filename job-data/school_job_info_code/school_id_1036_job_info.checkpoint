@@ -1054,6 +1054,11 @@
       "title": "Research Associate",
       "description": "Posted: 2026-09-14 Location: Weatherhead School of Management POSITION SUMMARY This full-time, in-person Research Associate position supports an applied academic research project examining the relationship between building-code regulation and housing supply. The project, led by Peter Hammack and Daniel Shoag at Case Western Reserve University, will construct a first-of-its-kind public index — the Code Adherence Statutory Expense (CASE) Index — measuring how building-code changes affect construction costs across jurisdictions, housing types, and time. The resulting dataset and analyses will inform policy debates around housing affordability, regulatory reform, and the economics of construction. The Research Associate will serve as the day-to-day operational lead for dataset construction, AI-assisted code extraction, provision coding, and data integration. The role requires a combination of strong quantitative skills, careful attention to legal and technical source material, and the ability to manage complex, multi-layered workflows. The ideal candidate is highly organized, intellectually curious, and comfortable working at the intersection of economics, public policy, construction, and data science. Location : Case Western Reserve University, Cleveland, OH Start Date : [On or before November 1, 2026] ESSENTIAL FUNCTIONS The annual starting base salary range for this position is from $52,000 to $80,000. CWRU considers factors such as (but not limited to) scope and responsibilities of the position, candidate’s work experience, education/training, key skills, internal peer equity, as well as market and organizational considerations when extending an offer. University employees enjoy a comprehensive benefits package that includes excellent healthcare, retirement plans, tuition assistance, and paid time off. REQUIRED SKILLS: ● Excellent written and verbal communication skills, with the ability to translate complex technical and legal material into clear, structured documentation. ● Highly organized, proactive, and detail-oriented, with demonstrated ability to manage multi-step workflows involving large volumes of source material. ● Comfort reading and interpreting legal and regulatory text, including statutes, ordinances, code provisions, and administrative records. ● Comfort working with structured databases and linked data tables. ● Expertise or strong interest in quantitative data collection, management, and analysis. ● Ability to work independently and exercise sound judgment when source material is ambiguous or incomplete. ● Experience in Microsoft Suite (Word, Excel, PowerPoint), and/or related email, internet, and collaboration applications such as GSuite. DESIRABLE SKILLS: ● Strong quantitative skills, including experience with data management, statistical analysis, and at least one of the following: R, Python, Stata, or SQL. ● Prior experience with AI-assisted data extraction, prompt engineering, or LLM-based research workflows. ● Familiarity with building codes, construction cost systems (e.g., RSMeans), or construction documentation (e.g., permit records, scopes of work, schedules of values). ● Basic background with construction, facilities, architecture/engineering, healthcare real estate, capital projects, project controls, and/or construction management. ● Experience with causal inference methods, including difference-in-differences, event study designs, or related quasi-experimental approaches. ● Knowledge of housing economics, land-use regulation, or urban policy. ● Experience with licensed data platforms such as UpCodes, BuildZoom, CoStar, Zillow, or FHFA data products. ● Prior experience contributing to academic publications, working papers, policy briefs, or replication packages. ● Experience responding to RFPs, preparing sponsor-facing proposals, or obtaining external grant funding. ● Proficiency with R, Python, SQL, Power BI, SPSS, Stata, Tableau, and/or related tools. ● Experience supervising or mentoring student research assistants. Required Educational Experience: ● BA / BS in Economics, Public Policy, Data Science, Urban Planning, Civil Engineering, Statistics, or related fields ● MA or PhD preferred, but not required",
       "department": "Weatherhead School of Management (RA/RS)"
+    },
+    "https://apply.interfolio.com/190889": {
+      "title": "Student Research Assistant - Ntourou Research Lab",
+      "description": "Posted: 2026-08-24 Location: 11635 Euclid Ave. Research assistant to assist with subject particiation, analyizing data, and dissemation of results. Salary is $19 per hour. Grad student in COSI or PSCL. Incoming grad student identified for position.",
+      "department": "Department of Psychological Sciences (STUDENT)"
     }
   },
   "rows": {
@@ -3562,11 +3567,23 @@
       "deadline_of_application": "November 1, 2026",
       "posted_date": "2026-09-14",
       "position_start_date": "November 1, 2026"
+    },
+    "https://apply.interfolio.com/190889": {
+      "school_id": 1036,
+      "posting_url": "https://apply.interfolio.com/190889",
+      "job_title_in_post": "Student Research Assistant - Ntourou Research Lab",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Department of Psychological Sciences (STUDENT)",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "2026-08-24",
+      "position_start_date": ""
     }
   },
   "school_id": 1036,
   "status": "complete",
-  "updated_at": "2026-11-07T05:17:10+00:00",
-  "completed_at": "2026-11-07T05:17:10+00:00",
+  "updated_at": "2026-11-09T22:47:29+00:00",
+  "completed_at": "2026-11-09T22:47:29+00:00",
   "last_error": ""
 }

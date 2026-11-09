@@ -679,6 +679,36 @@
       "title": "Graduate Assistant for Writing Center (Beg Spring 2027)",
       "description": "Posted: 11/06/2026 Location: UWG Recruiting Location Department: Writing Center Graduate Assistant for Writing Center (Beg Spring 2027)",
       "department": "Writing Center"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305778&PostingSeq=1&SiteId=54000": {
+      "title": "Administrative Support - Intermediate",
+      "description": "Posted: 11/09/2026 Location: UWG Recruiting Location Department: Nursing Administrative Support - Intermediate",
+      "department": "Nursing"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305580&PostingSeq=1&SiteId=54000": {
+      "title": "Assistant or Associate Professor of Public Relations & Strategic Communication",
+      "description": "Posted: 11/09/2026 Location: UWG Recruiting Location Department: School of Comm,Film, and Media Assistant or Associate Professor of Public Relations & Strategic Communication",
+      "department": "School of Comm,Film, and Media"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305806&PostingSeq=1&SiteId=54000": {
+      "title": "Graduate Teaching Assistant Level 1 for Biology (Beg Spring 2027)",
+      "description": "Posted: 11/09/2026 Location: UWG Recruiting Location Department: Biology Graduate Teaching Assistant Level 1 for Biology (Beg Spring 2027)",
+      "department": "Biology"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305786&PostingSeq=1&SiteId=54000": {
+      "title": "HR Service Specialist",
+      "description": "Posted: 11/09/2026 Location: UWG Recruiting Location Department: Human Resources HR Service Specialist",
+      "department": "Human Resources"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305581&PostingSeq=1&SiteId=54000": {
+      "title": "Lecturer of Communication Studies",
+      "description": "Posted: 11/09/2026 Location: UWG Recruiting Location Department: School of Comm,Film, and Media Lecturer of Communication Studies",
+      "department": "School of Comm,Film, and Media"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305776&PostingSeq=1&SiteId=54000": {
+      "title": "Web Developer Associate",
+      "description": "Posted: 11/09/2026 Location: UWG Recruiting Location Web Developer Associate",
+      "department": ""
     }
   },
   "rows": {
@@ -869,7 +899,7 @@
       "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "Computing, Analytics, & Model",
-      "area_key_words": "",
+      "area_key_words": "Assistant Pathway",
       "deadline_of_application": "",
       "posted_date": "10/22/2026",
       "position_start_date": ""
@@ -2313,11 +2343,83 @@
       "deadline_of_application": "",
       "posted_date": "11/06/2026",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305778&PostingSeq=1&SiteId=54000": {
+      "school_id": 285,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305778&PostingSeq=1&SiteId=54000",
+      "job_title_in_post": "Administrative Support - Intermediate",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Nursing",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/09/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305580&PostingSeq=1&SiteId=54000": {
+      "school_id": 285,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305580&PostingSeq=1&SiteId=54000",
+      "job_title_in_post": "Assistant or Associate Professor of Public Relations & Strategic Communication",
+      "position_type": "Associate_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "School of Comm,Film, and Media",
+      "area_key_words": "Public Relations & Strategic Communication",
+      "deadline_of_application": "",
+      "posted_date": "11/09/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305806&PostingSeq=1&SiteId=54000": {
+      "school_id": 285,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305806&PostingSeq=1&SiteId=54000",
+      "job_title_in_post": "Graduate Teaching Assistant Level 1 for Biology (Beg Spring 2027)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Biology",
+      "area_key_words": "Assistant Level",
+      "deadline_of_application": "",
+      "posted_date": "11/09/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305786&PostingSeq=1&SiteId=54000": {
+      "school_id": 285,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305786&PostingSeq=1&SiteId=54000",
+      "job_title_in_post": "HR Service Specialist",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Human Resources",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/09/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305581&PostingSeq=1&SiteId=54000": {
+      "school_id": 285,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305581&PostingSeq=1&SiteId=54000",
+      "job_title_in_post": "Lecturer of Communication Studies",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "School of Comm,Film, and Media",
+      "area_key_words": "Communication Studies",
+      "deadline_of_application": "",
+      "posted_date": "11/09/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305776&PostingSeq=1&SiteId=54000": {
+      "school_id": 285,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305776&PostingSeq=1&SiteId=54000",
+      "job_title_in_post": "Web Developer Associate",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/09/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 285,
   "status": "complete",
-  "updated_at": "2026-11-07T04:45:16+00:00",
+  "updated_at": "2026-11-09T22:29:44+00:00",
   "last_error": "",
-  "completed_at": "2026-11-07T04:45:16+00:00"
+  "completed_at": "2026-11-09T22:29:44+00:00"
 }
