@@ -2353,6 +2353,19 @@ def scrape_uh_campus(campus):
 _PAYCOR_FRAME_CACHE = {}
 
 
+def _paycor_script_jobs(html):
+    """Boards whose departments start collapsed (Spring Arbor, Nov 2026) have
+    no job links in the page; the jobs are in script lines
+    jobName["<dept>"][1 - 1] = "<title>"; jobId["<dept>"][1 - 1] = "<id>"."""
+    from html import unescape
+    front = re.search(r'urlFront\s*=\s*"[^"]*clientId=([0-9a-zA-Z]+)', html)
+    if not front:
+        return []
+    names = {(d, n): t for d, n, t in re.findall(r'jobName\["(\w+)"\]\[(\d+) - 1\]\s*=\s*"([^"]*)"', html)}
+    return [(front.group(1), j, unescape(names.get((d, n), '')).strip())
+            for d, n, j in re.findall(r'jobId\["(\w+)"\]\[(\d+) - 1\]\s*=\s*"(\w+)"', html)]
+
+
 def paycor_frame_jobs(page_url, wait_ms=8000, real_chrome=False):
     """[(client id, job id, title)] for the Paycor board shown inside a
     school page (or the board page itself). Some Paycor boards refuse to
@@ -2386,6 +2399,7 @@ def paycor_frame_jobs(page_url, wait_ms=8000, real_chrome=False):
                     if m:
                         title = a.get('ns-qa') or re.sub(r'\s+', ' ', a.get_text(' ', strip=True))
                         jobs.append((m.group(1), m.group(2), title.strip()))
+                jobs += _paycor_script_jobs(html)
             if jobs:
                 break
     finally:

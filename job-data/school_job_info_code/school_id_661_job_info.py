@@ -38,8 +38,9 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """Paycor posting; the title is the advert's "Position:" line."""
-    return jinfo.fetch_detail_paycor(url)
+    """Paycor posting; the title is the advert's "Position:" line. Since Nov
+    2026 the posting only opens inside Spring Arbor's careers page."""
+    return jinfo.fetch_detail_paycor(url, parent=CAREERS_LINK)
 
 
 def main():
