@@ -624,6 +624,21 @@
       "title": "Part-time Academic Staff",
       "description": "Posted: 11/09/2026 Location: Fargo Department: Division of Performing Arts Part-time Academic Staff",
       "department": "Division of Performing Arts"
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960188&PostingSeq=1&SiteId=1": {
+      "title": "ARPC Policy Fellow/Senior Policy Fellow",
+      "description": "Posted: 11/10/2026 Location: Fargo Department: AES Agribusiness & Appld Econ ARPC Policy Fellow/Senior Policy Fellow",
+      "department": "AES Agribusiness & Appld Econ"
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960195&PostingSeq=1&SiteId=1": {
+      "title": "Administrative Assistant",
+      "description": "Posted: 11/10/2026 Location: Fargo Department: Athletics Administrative Assistant",
+      "department": "Athletics"
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960191&PostingSeq=1&SiteId=1": {
+      "title": "Post Doctoral Research Associate-Dr Monono",
+      "description": "Posted: 11/10/2026 Location: Fargo Department: AES Ag & Biosystems Eng Post Doctoral Research Associate-Dr Monono",
+      "department": "AES Ag & Biosystems Eng"
     }
   },
   "rows": {
@@ -2105,11 +2120,47 @@
       "deadline_of_application": "",
       "posted_date": "11/09/2026",
       "position_start_date": ""
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960188&PostingSeq=1&SiteId=1": {
+      "school_id": 823,
+      "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960188&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "ARPC Policy Fellow/Senior Policy Fellow",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "AES Agribusiness & Appld Econ",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/10/2026",
+      "position_start_date": ""
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960195&PostingSeq=1&SiteId=1": {
+      "school_id": 823,
+      "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960195&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Administrative Assistant",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Athletics",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/10/2026",
+      "position_start_date": ""
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960191&PostingSeq=1&SiteId=1": {
+      "school_id": 823,
+      "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960191&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Post Doctoral Research Associate-Dr Monono",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "AES Ag & Biosystems Eng",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/10/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 823,
   "status": "complete",
-  "updated_at": "2026-11-09T22:39:27+00:00",
-  "completed_at": "2026-11-09T22:39:27+00:00",
+  "updated_at": "2026-11-10T22:20:12+00:00",
+  "completed_at": "2026-11-10T22:20:12+00:00",
   "last_error": ""
 }

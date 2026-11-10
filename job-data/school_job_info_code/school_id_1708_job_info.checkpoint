@@ -47,6 +47,10 @@
     "https://jobmarket.unibocconi.eu/?id=1022": {
       "title": "Assistant Professor, Dept. Computing Sciences",
       "description": "Closing Date: 11/01/2027 Posted Date: 06/11/2026 Department: Computing Sciences 232609 "
+    },
+    "https://jobmarket.unibocconi.eu/?id=1024": {
+      "title": "Assistant Professor, Dept. Marketing, ECON-07/A Management",
+      "description": "Closing Date: 11/12/2026 Posted Date: 10/11/2026 Department: Marketing 233492 "
     }
   },
   "rows": {
@@ -191,11 +195,23 @@
       "deadline_of_application": "11/01/2027",
       "posted_date": "06/11/2026",
       "position_start_date": ""
+    },
+    "https://jobmarket.unibocconi.eu/?id=1024": {
+      "school_id": 1708,
+      "posting_url": "https://jobmarket.unibocconi.eu/?id=1024",
+      "job_title_in_post": "Assistant Professor, Dept. Marketing, ECON-07/A Management",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "ECON-07/A Management",
+      "deadline_of_application": "11/12/2026",
+      "posted_date": "10/11/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 1708,
   "status": "complete",
-  "updated_at": "2026-11-09T23:11:44+00:00",
-  "completed_at": "2026-11-09T23:11:44+00:00",
+  "updated_at": "2026-11-10T22:45:06+00:00",
+  "completed_at": "2026-11-10T22:45:06+00:00",
   "last_error": ""
 }

@@ -969,6 +969,11 @@
       "title": "Senior Manager / Manager, Internal Audit",
       "description": "This position sits under the Internal Audit Office at our Kowloon Tong campus. The core responsibilities are assisting in formulating 3-year risk-based strategic internal audit plan and annual internal audit plan.",
       "department": null
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270316": {
+      "title": "Information Technology Manager (Application Delivery), School of Continuing Education",
+      "description": "This position sits under the School of Continuing Education. The successful candidate will lead the end-to-end delivery of application solutions, with a particular focus on system integration and data transformation, to support, enhance and modernize critical business applications in a dynamic and evolving environment.",
+      "department": null
     }
   },
   "rows": {
@@ -3291,11 +3296,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270316": {
+      "school_id": 1834,
+      "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270316",
+      "job_title_in_post": "Information Technology Manager (Application Delivery), School of Continuing Education",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "School of Continuing Education",
+      "area_key_words": "Continuing Education",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1834,
   "status": "complete",
-  "updated_at": "2026-11-09T23:10:21+00:00",
-  "completed_at": "2026-11-09T23:10:21+00:00",
+  "updated_at": "2026-11-10T22:44:05+00:00",
+  "completed_at": "2026-11-10T22:44:05+00:00",
   "last_error": ""
 }

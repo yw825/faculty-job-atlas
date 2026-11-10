@@ -271,6 +271,9 @@
     "https://amherst.wd5.myworkdayjobs.com/Amherst_Jobs/job/Amherst-Campus/Casual-Custodian_JR7417": {
       "title": "Casual Custodian",
       "description": "Posted: 2026-10-19\nPart time\n\nAmherst has taken a leadership role among highly selective liberal arts colleges and universities in successfully diversifying the racial, socio-economic, and geographic profile of its student body. The College is similarly committed to enriching its educational experience and its culture through the diversity of its faculty, administration and staff. Job Description: Amherst College invites applications for the Casual Custodian position. The Casual Custodian is a part-time (up to 19 hours per week), casual position with no benefits. The expected salary range for this job opportunity is: $ 18.00 - 20.00 per hour. The salary offered will vary based on a number of factors, including but not limited to relevant education, training, and experience, tenure status, and other nondiscriminatory business considerations. The Casual Custodian supports the efforts of Custodial Services to maintain safe, clean, orderly, and sanitary conditions throughout the campus community. The Casual Custodian takes appropriate actions to support a diverse workforce and participates in the College’s efforts to create a respectful, inclusive, and welcoming work environment.     Work schedule: Our work is central to student life, and their needs occur at a variety of times throughout the day, week, and year, and as such, a flexible schedule with extended shift times may be required.  The work schedule may vary and corresponds to the College’s operational needs, but generally is Monday through Friday.  Summary of Responsibilities: Custodial Services Perform general custodial work required to maintain safe, clean, orderly, and sanitary conditions in buildings and their adjacent grounds in accordance with established work routines, cleaning methods and procedures Custodians are expected to maintain a clean and orderly workspace that meets all environmental health and safety standards, including managing universal and hazardous waste within their buildings Effectively collaborate with a diverse set of colleagues, ensuring a respectful, inclusive climate Projects Strip, screen, and refinish floors, extract carpets, wash walls, ceilings and glass, perform snow removal, support the campus-wide recycling program, as well as complete monthly work request forms, building inspections, and student damage reports Special Requests/General Maintenance Perform general maintenance duties, move furniture or custodial equipment, and assist Special Services as needed Qualifications: Required High School Diploma or equivalent Basic math skills, including adding and subtracting  Basic computer skills  Strong customer service, organizational, and time-management skills  Demonstrated verbal and written communication skills, including ability to follow written and verbal instructions  Commitment to contributing to an intentionally inclusive and respectful climate  Attention to detail  An acceptable criminal offender records information (CORI) check Successful completion of pre-employment physical and lift test Successful completion of required reference and background checks Valid driver's license and ability to be credentialed to drive College vehicles Interested candidates are asked to submit a resume and cover letter online at https://amherst.wd5.myworkdayjobs.com/Amherst_Jobs. Please be sure to upload all requested documents prior to clicking Submit. Applications cannot be revised once submitted. (Current employees and students should apply by clicking on the Jobs Hub icon from their Workday home screen) Review of applications will begin immediately and will continue until the position is filled. Amherst College is committed to an inclusive hiring process and will provide reasonable accommodations for candidates throughout the application and interview process upon request. It is unlawful in Massachusetts to require or administer a lie detector test as a condition of employment or continued employment. An employer who violates this law shall be subject to criminal penalties and civil liability."
+    },
+    "https://amherst.wd5.myworkdayjobs.com/Amherst_Jobs/": {
+      "error": "RuntimeError: no /job/ segment in workday url"
     }
   },
   "rows": {
@@ -1084,11 +1087,14 @@
       "deadline_of_application": "",
       "posted_date": "2026-10-19",
       "position_start_date": ""
+    },
+    "https://amherst.wd5.myworkdayjobs.com/Amherst_Jobs/": {
+      "error": "RuntimeError: no /job/ segment in workday url"
     }
   },
   "school_id": 530,
   "status": "complete",
-  "updated_at": "2026-11-09T22:38:28+00:00",
-  "completed_at": "2026-11-09T22:38:28+00:00",
+  "updated_at": "2026-11-10T22:15:38+00:00",
+  "completed_at": "2026-11-10T22:15:38+00:00",
   "last_error": ""
 }

@@ -69,6 +69,11 @@
       "title": "Senior Lecturer in Civil Engineering",
       "description": "\n\nPosting closes: 2026-11-16",
       "department": null
+    },
+    "https://elhs.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/1003982": {
+      "title": "Doctoral Assistants and Graduate Assistants in Computer Science or Software Engineering",
+      "description": "Support student learning while building your academic teaching experience as a Graduate Assistant or Doctoral Assistant in the School of Computing and Mathematical Sciences\n\nPosting closes: 2026-11-22",
+      "department": null
     }
   },
   "rows": {
@@ -239,11 +244,23 @@
       "deadline_of_application": "2026-11-16",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://elhs.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/1003982": {
+      "school_id": 1827,
+      "posting_url": "https://elhs.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/1003982",
+      "job_title_in_post": "Doctoral Assistants and Graduate Assistants in Computer Science or Software Engineering",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "School of Computing and Mathematical Sciences",
+      "area_key_words": "Computer Science or Software Engineering",
+      "deadline_of_application": "2026-11-22",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1827,
   "status": "complete",
-  "updated_at": "2026-11-09T23:13:50+00:00",
-  "completed_at": "2026-11-09T23:13:50+00:00",
+  "updated_at": "2026-11-10T22:46:58+00:00",
+  "completed_at": "2026-11-10T22:46:58+00:00",
   "last_error": ""
 }

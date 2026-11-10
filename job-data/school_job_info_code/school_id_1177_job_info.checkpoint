@@ -139,6 +139,11 @@
       "title": "Oracle Integration Analyst",
       "description": "The Oracle Integration Analyst is a full-time, temporary position responsible for designing, coordinating, implementing, and supporting integrations critical to Allegheny College's transition from Ellucian Colleague to Oracle Student Management. ",
       "department": null
+    },
+    "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/372": {
+      "title": "Gift Processing Specialist P/T",
+      "description": "The Gift Processing Specialist is responsible for the accurate and timely processing, recording and documentation of all gifts and pledges received by the College. This position ensures that gifts are properly credited, designated, deposited, and acknowledged in accordance with donor intent, the Allegheny College Gift Acceptance Policy, IRS regulations, and established Allegheny College gift processing procedures.\nWorking collaboratively with colleagues throughout Institutional Advancement, Finance, and other campus departments, the Gift Processing Specialist plays an important role in maintaining accurate donor records, supporting fundraising efforts, and ensuring a positive donor experience.\n",
+      "department": null
     }
   },
   "rows": {
@@ -474,11 +479,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/372": {
+      "school_id": 1177,
+      "posting_url": "https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/372",
+      "job_title_in_post": "Gift Processing Specialist P/T",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1177,
   "status": "complete",
-  "updated_at": "2026-11-09T22:42:45+00:00",
-  "completed_at": "2026-11-09T22:42:45+00:00",
+  "updated_at": "2026-11-10T22:25:14+00:00",
+  "completed_at": "2026-11-10T22:25:14+00:00",
   "last_error": ""
 }

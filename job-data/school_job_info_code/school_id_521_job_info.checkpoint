@@ -704,6 +704,26 @@
       "title": "Instructor",
       "description": "Nurse Practitioner / Physician Assistant – Urology",
       "department": null
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2080": {
+      "title": "Assistant Professor",
+      "description": "The Department of Anesthesiology at Tulane University School of Medicine is seeking qualified anesthesiologists who are committed to providing high-quality patient care and contributing to the education and training of future physicians. Successful candidates will have the opportunity to practice in a collaborative clinical environment while participating in the department’s academic mission. Clinical responsibilities will be based at East Jefferson General Hospital and/or Tulane Lakeside Hospital, depending on the candidate’s subspecialty, expertise, and departmental needs.cription",
+      "department": null
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2162": {
+      "title": "Postdoctoral Fellow",
+      "description": "The Middle American Research Institute (MARI) and the Stone Center for Latin American Studies invite applications for the Doris Z. Stone Postdoctoral Fellowship, a one year, full time residential appointment, renewable for a second year, for the 2027 to 2028 academic year. This cycle focuses on epigraphy and seeks a scholar whose research centers on Maya hieroglyphic writing and other Mesoamerican writing systems. The fellow will be appointed within the Stone Center, housed at MARI, and will teach an advanced seminar one semester each year, present their research, and advise students. The salary is $55,000 plus benefits, and the application deadline is March 1, 2027.",
+      "department": null
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2215": {
+      "title": "Assistant Professor",
+      "description": "",
+      "department": null
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2247": {
+      "title": "Assistant Professor",
+      "description": "The Section of Nephrology & Hypertension and the  Tulane Transplant Institute at Tulane University School of Medicine is recruiting for a Clinician-Educator faculty position. This position will have responsibilities in Transplant Nephrology and General Nephrology teaching and clinical programs of the Residents, Fellows, and medical students.  The candidate will have on-call coverage on a rotating basis. The physician will attend on the inpatient services along with the Fellows. The Physician will have outpatient duties on a continuing basis. ",
+      "department": null
     }
   },
   "rows": {
@@ -2394,11 +2414,59 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2080": {
+      "school_id": 521,
+      "posting_url": "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2080",
+      "job_title_in_post": "Assistant Professor",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Department of Anesthesiology",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2162": {
+      "school_id": 521,
+      "posting_url": "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2162",
+      "job_title_in_post": "Postdoctoral Fellow",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "Center for Latin American Studies invite applications for the Doris Z",
+      "area_key_words": "",
+      "deadline_of_application": "March 1, 2027",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2215": {
+      "school_id": 521,
+      "posting_url": "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2215",
+      "job_title_in_post": "Assistant Professor",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2247": {
+      "school_id": 521,
+      "posting_url": "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2247",
+      "job_title_in_post": "Assistant Professor",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 521,
   "status": "complete",
-  "updated_at": "2026-11-09T22:58:52+00:00",
-  "completed_at": "2026-11-09T22:58:52+00:00",
+  "updated_at": "2026-11-10T22:14:29+00:00",
+  "completed_at": "2026-11-10T22:14:29+00:00",
   "last_error": ""
 }

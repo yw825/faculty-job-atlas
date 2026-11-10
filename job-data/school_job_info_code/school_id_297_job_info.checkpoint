@@ -1219,6 +1219,36 @@
       "title": "Executive Administrative Assistant - Office of the Provost and Academic Affairs",
       "description": "Posted: 11/06/2026 Location: Kennesaw, Georgia Department: AAF-Academic Affairs Executive Administrative Assistant - Office of the Provost and Academic Affairs",
       "department": "AAF-Academic Affairs"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305556&PostingSeq=1&SiteId=43000": {
+      "title": "Senior Door Hardware Technician",
+      "description": "Posted: 11/10/2026 Location: Kennesaw, Georgia Department: BSC-AUX-Access Control Senior Door Hardware Technician",
+      "department": "BSC-AUX-Access Control"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305598&PostingSeq=1&SiteId=43000": {
+      "title": "Accounting Assistant, Part-Time",
+      "description": "Posted: 11/09/2026 Location: Kennesaw, Georgia Department: FIN-Fiscal Services Accounting Assistant, Part-Time",
+      "department": "FIN-Fiscal Services"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305656&PostingSeq=1&SiteId=43000": {
+      "title": "Baker - The Commons",
+      "description": "Posted: 11/09/2026 Location: Kennesaw, Georgia Department: BSC-AUX-KSU Dining Services Baker - The Commons",
+      "department": "BSC-AUX-KSU Dining Services"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305255&PostingSeq=1&SiteId=43000": {
+      "title": "Dining Operations Associate - Hospitality Services",
+      "description": "Posted: 11/09/2026 Location: Kennesaw, Georgia Department: BSC-AUX-KSU Dining Services Dining Operations Associate - Hospitality Services",
+      "department": "BSC-AUX-KSU Dining Services"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305524&PostingSeq=1&SiteId=43000": {
+      "title": "Kitchen Supervisor - High Point Cafe",
+      "description": "Posted: 11/09/2026 Location: Kennesaw, Georgia Department: BSC-AUX-KSU Dining Services Kitchen Supervisor - High Point Cafe",
+      "department": "BSC-AUX-KSU Dining Services"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305595&PostingSeq=1&SiteId=43000": {
+      "title": "Office Manager, School of Conflict Management, Peacebuilding and Development",
+      "description": "Posted: 11/09/2026 Location: Kennesaw, Georgia Department: HSS-ConflictMgtPeacebldng&Dvlp Office Manager, School of Conflict Management, Peacebuilding and Development",
+      "department": "HSS-ConflictMgtPeacebldng&Dvlp"
     }
   },
   "rows": {
@@ -4149,11 +4179,83 @@
       "deadline_of_application": "",
       "posted_date": "11/06/2026",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305556&PostingSeq=1&SiteId=43000": {
+      "school_id": 297,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305556&PostingSeq=1&SiteId=43000",
+      "job_title_in_post": "Senior Door Hardware Technician",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "BSC-AUX-Access Control",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/10/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305598&PostingSeq=1&SiteId=43000": {
+      "school_id": 297,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305598&PostingSeq=1&SiteId=43000",
+      "job_title_in_post": "Accounting Assistant, Part-Time",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "FIN-Fiscal Services",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/09/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305656&PostingSeq=1&SiteId=43000": {
+      "school_id": 297,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305656&PostingSeq=1&SiteId=43000",
+      "job_title_in_post": "Baker - The Commons",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "BSC-AUX-KSU Dining Services",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/09/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305255&PostingSeq=1&SiteId=43000": {
+      "school_id": 297,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305255&PostingSeq=1&SiteId=43000",
+      "job_title_in_post": "Dining Operations Associate - Hospitality Services",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "BSC-AUX-KSU Dining Services",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/09/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305524&PostingSeq=1&SiteId=43000": {
+      "school_id": 297,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305524&PostingSeq=1&SiteId=43000",
+      "job_title_in_post": "Kitchen Supervisor - High Point Cafe",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "BSC-AUX-KSU Dining Services",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/09/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305595&PostingSeq=1&SiteId=43000": {
+      "school_id": 297,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305595&PostingSeq=1&SiteId=43000",
+      "job_title_in_post": "Office Manager, School of Conflict Management, Peacebuilding and Development",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "HSS-ConflictMgtPeacebldng&Dvlp",
+      "area_key_words": "Conflict Management, Peacebuilding and Development",
+      "deadline_of_application": "",
+      "posted_date": "11/09/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 297,
   "status": "complete",
-  "updated_at": "2026-11-09T22:31:23+00:00",
+  "updated_at": "2026-11-10T22:14:58+00:00",
   "last_error": "",
-  "completed_at": "2026-11-09T22:31:23+00:00"
+  "completed_at": "2026-11-10T22:14:58+00:00"
 }

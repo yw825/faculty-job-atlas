@@ -399,6 +399,11 @@
       "title": "Assistant Professor - Psychology (Tenure-track)",
       "description": "Posted: 10/28/2026 Location: Odessa, TX Department: Dept of Psychology Assistant Professor - Psychology (Tenure-track)",
       "department": "Dept of Psychology"
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16779&PostingSeq=1&SiteId=10": {
+      "title": "Buyer - Purchasing (Remote Availability)",
+      "description": "Posted: 11/10/2026 Location: Odessa, TX Department: Purchasing Buyer - Purchasing (Remote Availability)",
+      "department": "Purchasing"
     }
   },
   "rows": {
@@ -1358,11 +1363,23 @@
       "deadline_of_application": "",
       "posted_date": "10/28/2026",
       "position_start_date": ""
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16779&PostingSeq=1&SiteId=10": {
+      "school_id": 1415,
+      "posting_url": "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16779&PostingSeq=1&SiteId=10",
+      "job_title_in_post": "Buyer - Purchasing (Remote Availability)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Purchasing",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/10/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 1415,
   "status": "complete",
-  "updated_at": "2026-11-09T22:46:53+00:00",
-  "completed_at": "2026-11-09T22:46:53+00:00",
+  "updated_at": "2026-11-10T22:26:21+00:00",
+  "completed_at": "2026-11-10T22:26:21+00:00",
   "last_error": ""
 }

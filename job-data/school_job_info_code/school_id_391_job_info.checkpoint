@@ -1256,7 +1256,9 @@
       "department": "MED-Radiology"
     },
     "https://careers.northwestern.edu/psc/hrnu_er/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=54462&PostingSeq=1": {
-      "error": "not present in bulk fetch result"
+      "title": "Visiting Assistant Professor",
+      "description": "Posted: 11/09/2026 Location: Evanston, Illinois Department: WCAS Environ Policy & Culture Visiting Assistant Professor",
+      "department": "WCAS Environ Policy & Culture"
     },
     "https://careers.northwestern.edu/psc/hrnu_er/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=54468&PostingSeq=1": {
       "title": "Communications Coordinator",
@@ -2967,6 +2969,11 @@
       "title": "Temporary Program Assistant 4",
       "description": "Posted: 11/06/2026 Location: Evanston, Illinois Department: Temp Center Temporary Program Assistant 4",
       "department": "Temp Center"
+    },
+    "https://careers.northwestern.edu/psc/hrnu_er/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=54825&PostingSeq=1": {
+      "title": "Administrative Assistant 2 (Faculty Support)",
+      "description": "Posted: 11/10/2026 Location: Evanston, Illinois Department: Music Administration Administrative Assistant 2 (Faculty Support)",
+      "department": "Music Administration"
     }
   },
   "rows": {
@@ -9725,11 +9732,35 @@
       "deadline_of_application": "",
       "posted_date": "11/06/2026",
       "position_start_date": ""
+    },
+    "https://careers.northwestern.edu/psc/hrnu_er/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=54825&PostingSeq=1": {
+      "school_id": 391,
+      "posting_url": "https://careers.northwestern.edu/psc/hrnu_er/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=54825&PostingSeq=1",
+      "job_title_in_post": "Administrative Assistant 2 (Faculty Support)",
+      "position_type": "Assistant_Professor; Associate_Professor; Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Music Administration",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/10/2026",
+      "position_start_date": ""
+    },
+    "https://careers.northwestern.edu/psc/hrnu_er/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=54462&PostingSeq=1": {
+      "school_id": 391,
+      "posting_url": "https://careers.northwestern.edu/psc/hrnu_er/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=54462&PostingSeq=1",
+      "job_title_in_post": "Visiting Assistant Professor",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "WCAS Environ Policy & Culture",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/09/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 391,
   "status": "complete",
-  "updated_at": "2026-11-09T22:31:55+00:00",
+  "updated_at": "2026-11-10T22:12:57+00:00",
   "last_error": "",
-  "completed_at": "2026-11-09T22:31:55+00:00"
+  "completed_at": "2026-11-10T22:12:57+00:00"
 }

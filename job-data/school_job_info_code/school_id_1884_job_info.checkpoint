@@ -43,6 +43,14 @@
     "https://my.corehr.com/pls/tudrecruit/erq_jobspec_version_4.jobspec?p_id=045763": {
       "title": "Hourly Paid Part-time Assistant Lecturer (Panel) in Informatics and Cybersecurity Reference: HPAL/6/2026",
       "description": "Closing Date: 06/11/2026 Close Date : 06-Nov-2026 Job Title : Hourly Paid Assistant Lecturer Contact Person : Geraldine Gray Job ID : 045763 Hourly Paid Part-time Assistant Lecturer (Panel) in Informatics and Cybersecurity Reference: HPAL/6/2026 06-Nov-2026"
+    },
+    "https://my.corehr.com/pls/tudrecruit/erq_jobspec_version_4.jobspec?p_id=045983": {
+      "title": "Professor of Health and Life Sciences (Permanent Wholetime) (Reference: 553/2026)",
+      "description": "Closing Date: 08/01/2027 Close Date : 08-Jan-2027 Job Title : Professor Contact Person : Dympna O'Sullivan Job ID : 045983 Professor of Health and Life Sciences (Permanent Wholetime) (Reference: 553/2026) Grade and Salary : Professor 08-Jan-2027"
+    },
+    "https://my.corehr.com/pls/tudrecruit/erq_jobspec_version_4.jobspec?p_id=045963": {
+      "title": "Professor of Agri-Food and Bioeconomy Systems (Permanent Wholetime) (Reference: 552/2026)",
+      "description": "Closing Date: 08/01/2027 Close Date : 08-Jan-2027 Job Title : Professor Contact Person : Job ID : 045963 Professor of Agri-Food and Bioeconomy Systems (Permanent Wholetime) (Reference: 552/2026) 08-Jan-2027"
     }
   },
   "rows": {
@@ -175,11 +183,35 @@
       "deadline_of_application": "06/11/2026",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://my.corehr.com/pls/tudrecruit/erq_jobspec_version_4.jobspec?p_id=045983": {
+      "school_id": 1884,
+      "posting_url": "https://my.corehr.com/pls/tudrecruit/erq_jobspec_version_4.jobspec?p_id=045983",
+      "job_title_in_post": "Professor of Health and Life Sciences (Permanent Wholetime) (Reference: 553/2026)",
+      "position_type": "Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Health and Life Sciences",
+      "deadline_of_application": "08/01/2027",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://my.corehr.com/pls/tudrecruit/erq_jobspec_version_4.jobspec?p_id=045963": {
+      "school_id": 1884,
+      "posting_url": "https://my.corehr.com/pls/tudrecruit/erq_jobspec_version_4.jobspec?p_id=045963",
+      "job_title_in_post": "Professor of Agri-Food and Bioeconomy Systems (Permanent Wholetime) (Reference: 552/2026)",
+      "position_type": "Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Agri-Food and Bioeconomy Systems",
+      "deadline_of_application": "08/01/2027",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1884,
   "status": "complete",
-  "updated_at": "2026-11-09T23:11:19+00:00",
-  "completed_at": "2026-11-09T23:11:19+00:00",
+  "updated_at": "2026-11-10T22:44:57+00:00",
+  "completed_at": "2026-11-10T22:44:57+00:00",
   "last_error": ""
 }

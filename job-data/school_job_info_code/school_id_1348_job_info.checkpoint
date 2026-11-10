@@ -159,6 +159,10 @@
     "https://ibqajb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/850": {
       "title": "Post Doctoral Fellow, Center for Earthquake Research and Information (CERI)",
       "description": "Category: Faculty JobSchedule: Full time PrimaryLocation: Memphis, TN, United States A postdoctoral position is available at the Center for Earthquake Research and Information, University of Memphis for two years with an option to extent depending on satisfactory performance and availability of funding. The postdoc will work in the earthquake physics group at CERI under supervision of Dr. Goebel and should contribute broadly to geothermal and induced seismicity research. The postdoc will work in the earthquake physics group at the Center for Earthquake Research and Information (CERI) under supervision of Dr. Goebel and should contribute broadly to geothermal and induced seismicity research. Specific research topics include seismicity analysis, machine learning, reservoir modeling, geothermal reservoir characterization, and geomechanics. The postdoc should contribute to and collaborate with other group members on multi-disciplinary research problems in induced seismicity, earthquake physics, volcano seismicity and earthquake triggering. The University of Memphis is located in Memphis, TN, a vibrant, friendly, and affordable major city in the Mid-South. Memphis is home to essential Civil Rights histories as well as multiple healthcare, logistics, and technology headquarters. The city boasts a rich and diverse culture. It is the cradle of both Blues and Rock ‘n Roll and has a strong historical legacy. The city is located near the New Madrid and Eastern Tennessee seismic zones and home to CERI’s extensive seismic network. Ph.D. completion in geophysics, structural geology, engineering seismology or a related discipline within 2½ months after being hired. Applicants must be authorized to work in the U.S. We are unable to sponsor or take over sponsorship of an employment visa at this time. The University of Memphis is an Equal Opportunity/Affirmative Action employer. The postdoc will work in the earthquake physics group at Center for Earthquake Research and Information (CERI) under supervision of Dr. Goebel and should contribute broadly to geothermal and induced seismicity research. The postdoc should contribute to and collaborate with other group members on multi-disciplinary research problems in induced seismicity, earthquake physics, volcano seismicity and earthquake triggering. The ideal candidate enjoys teamwork and has the ability to connect observational, and theoretical results across different scales. The postdoc is encouraged to seek collaborations with different faculty at CERI, the seismic monitoring team, and other departments at the University of Memphis such as Civil Engineering, Earth Sciences and the Center for Applied Earth Science and Engineering Research. The preferred start date is January 1st, 2027, but later dates may be possible. Applicants should upload: 1) CV; 2) statement of research interest - 1-page max.; 3) a list of three references (email and phone number), and two exemplary publications. Candidate screening will start on November 18, 2026, and continue until the position is filled. Questions may be directed to Dr. Goebel (thgoebel@memphis.edu). Applications can be submitted online at: https://workforum.memphis.edu."
+    },
+    "https://ibqajb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/864": {
+      "title": "Post Doctoral Fellow - Transportation Disadvantage",
+      "description": "Closing Date: 19/12/2026 Category: Faculty JobSchedule: Full time PrimaryLocation: United States Full-time Postdoctoral Fellow to join an NIH-funded multidisciplinary research team led by Dr. Yong Yang. A highly motivated full-time Postdoctoral Fellow to join an NIH-funded multidisciplinary research team led by Dr. Yong Yang. The postdoctoral fellow will work primarily on an NIH-funded R01 project aiming to examine how transportation disadvantage develops as individuals age, how transportation disadvantage and dementia are related over time, and how transportation and neighborhood interventions may reduce transportation disadvantage and associated health disparities. Applicants should have: A doctoral degree completed by the start date in a relevant field, such as public health, epidemiology, computer science, statistics, data science, gerontology, or a closely related discipline. Demonstrated experience with agent-based modeling, computational simulation, dynamic modeling, or a closely related modeling approach. Strong quantitative research skills and experience managing and analyzing complex research data. Evidence of scholarly productivity appropriate to career stage. Strong written and oral communication skills. Ability to work independently while collaborating effectively within an interdisciplinary research team. The University of Memphis is an Equal Opportunity/Affirmative Action employer. The successful candidate will contribute to the project's quantitative and computational modeling components, with particular emphasis on agent-based modeling and simulation."
     }
   },
   "rows": {
@@ -312,6 +316,7 @@
       "department_or_school": "Department of Biological Sciences",
       "area_key_words": "system level effects on skin; laboratory setting",
       "deadline_of_application": "24/10/2026",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://ibqajb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/713": {
@@ -649,11 +654,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": "January 1, 2027"
+    },
+    "https://ibqajb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/864": {
+      "school_id": 1348,
+      "posting_url": "https://ibqajb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/864",
+      "job_title_in_post": "Post Doctoral Fellow - Transportation Disadvantage",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Transportation Disadvantage",
+      "deadline_of_application": "19/12/2026",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1348,
   "status": "complete",
-  "updated_at": "2026-11-09T22:49:10+00:00",
-  "completed_at": "2026-11-09T22:49:10+00:00",
+  "updated_at": "2026-11-10T22:30:23+00:00",
+  "completed_at": "2026-11-10T22:30:23+00:00",
   "last_error": ""
 }

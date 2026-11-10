@@ -25,9 +25,9 @@
     "https://careers.jobscore.com/careers/roanokecollege/jobs/academic-success-coach-advisor-bI7V_jn4vcpzCNtl1qj-bV"
   ],
   "school_id": 1488,
-  "status": "complete",
-  "updated_at": "2026-11-09T19:44:22+00:00",
+  "status": "in_progress",
+  "updated_at": "2026-11-10T20:39:32+00:00",
   "started_at": "2026-09-25T06:57:48+00:00",
   "completed_at": "2026-11-09T19:44:22+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://careers.jobscore.com/careers/roanokecollege\", waiting until \"domcontentloaded\"\n"
 }

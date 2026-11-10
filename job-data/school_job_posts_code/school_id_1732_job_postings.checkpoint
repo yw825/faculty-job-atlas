@@ -1,9 +1,9 @@
 {
   "links": [],
   "school_id": 1732,
-  "status": "error",
-  "updated_at": "2026-11-09T21:12:30+00:00",
-  "started_at": "2026-11-06T12:05:13+00:00",
-  "completed_at": "2026-11-06T12:05:33+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://www.novasbe.unl.pt/en/about-us/join-our-school/faculty-and-researchers\", waiting until \"domcontentloaded\"\n"
+  "status": "complete",
+  "updated_at": "2026-11-10T21:55:55+00:00",
+  "started_at": "2026-11-10T21:55:47+00:00",
+  "completed_at": "2026-11-10T21:55:55+00:00",
+  "last_error": ""
 }

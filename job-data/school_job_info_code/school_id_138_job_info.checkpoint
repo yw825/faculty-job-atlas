@@ -99,6 +99,10 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/476929": {
       "title": "Vice President and Deputy General Counsel",
       "description": "Vice President and Deputy General Counsel You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/479073": {
+      "title": "GGU One Contact Center Operations Manager",
+      "description": "GGU One Contact Center Operations Manager You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -410,11 +414,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/479073": {
+      "school_id": 138,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/1A449B35167BB40706C055A54E4FB0DA/jobs/479073",
+      "job_title_in_post": "GGU One Contact Center Operations Manager",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 138,
   "status": "complete",
-  "updated_at": "2026-11-09T22:22:46+00:00",
-  "completed_at": "2026-11-09T22:22:46+00:00",
+  "updated_at": "2026-11-10T22:06:44+00:00",
+  "completed_at": "2026-11-10T22:06:44+00:00",
   "last_error": ""
 }

@@ -27,12 +27,15 @@
     "https://apply.interfolio.com/195430",
     "https://apply.interfolio.com/195432",
     "https://apply.interfolio.com/195687",
-    "https://apply.interfolio.com/195709"
+    "https://apply.interfolio.com/195709",
+    "https://apply.interfolio.com/196880",
+    "https://apply.interfolio.com/197260",
+    "https://apply.interfolio.com/197274"
   ],
   "school_id": 1394,
-  "status": "error",
-  "updated_at": "2026-11-09T20:33:24+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-10T20:18:24+00:00",
   "started_at": "2026-09-25T06:25:44+00:00",
-  "completed_at": "2026-11-05T21:00:15+00:00",
-  "last_error": "RuntimeError: rice open-positions page listed no interfolio links"
+  "completed_at": "2026-11-10T20:18:24+00:00",
+  "last_error": ""
 }

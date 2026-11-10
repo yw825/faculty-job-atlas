@@ -309,6 +309,11 @@
       "title": "Strategic Programs Manager",
       "description": "",
       "department": null
+    },
+    "https://utulsa-ibvjjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/703": {
+      "title": "Adjunct - Chemistry/Biochemistry (Iski)",
+      "description": "The Chemistry/Biochemistry Department at TU is seeking experienced, well-organized, and student-centered individuals to teach General Chemistry and Organic Chemistry. Subject areas may include the following: General Chemistry 1 and 2 lecture and lab and Organic Chemistry 1 and 2 lecture and lab. Candidates must have at least a Master’s degree, or specialized teaching experience, in a field of Chemistry or related discipline.  ",
+      "department": null
     }
   },
   "rows": {
@@ -1055,11 +1060,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://utulsa-ibvjjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/703": {
+      "school_id": 1103,
+      "posting_url": "https://utulsa-ibvjjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/703",
+      "job_title_in_post": "Adjunct - Chemistry/Biochemistry (Iski)",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "General Chemistry",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1103,
   "status": "complete",
-  "updated_at": "2026-11-09T22:49:13+00:00",
-  "completed_at": "2026-11-09T22:49:13+00:00",
+  "updated_at": "2026-11-10T22:25:36+00:00",
+  "completed_at": "2026-11-10T22:25:36+00:00",
   "last_error": ""
 }

@@ -103,6 +103,14 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/3A2948EF284B8722FEE42E01FB156C27/jobs/126670": {
       "title": "Prelicensure Track Coordinator of the ASN Program",
       "description": "Prelicensure Track Coordinator of the ASN Program You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/3A2948EF284B8722FEE42E01FB156C27/jobs/126421": {
+      "title": "Adjunct Faculty - Occupational Therapy",
+      "description": "Adjunct Faculty - Occupational Therapy You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/3A2948EF284B8722FEE42E01FB156C27/jobs/127052": {
+      "title": "Institutional Review Board (IRB) Subject Matter Expert",
+      "description": "Institutional Review Board (IRB) Subject Matter Expert You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -414,11 +422,35 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/3A2948EF284B8722FEE42E01FB156C27/jobs/126421": {
+      "school_id": 557,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/3A2948EF284B8722FEE42E01FB156C27/jobs/126421",
+      "job_title_in_post": "Adjunct Faculty - Occupational Therapy",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "Occupational Therapy",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/3A2948EF284B8722FEE42E01FB156C27/jobs/127052": {
+      "school_id": 557,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/3A2948EF284B8722FEE42E01FB156C27/jobs/127052",
+      "job_title_in_post": "Institutional Review Board (IRB) Subject Matter Expert",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 557,
   "status": "complete",
-  "updated_at": "2026-11-09T22:33:27+00:00",
-  "completed_at": "2026-11-09T22:33:27+00:00",
+  "updated_at": "2026-11-10T22:14:54+00:00",
+  "completed_at": "2026-11-10T22:14:54+00:00",
   "last_error": ""
 }

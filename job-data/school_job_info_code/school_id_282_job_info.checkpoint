@@ -2627,6 +2627,26 @@
       "title": "Supervisor, Dental Assistant",
       "description": "Posted: 11/09/2026 Location: Augusta Univ. - Augusta Department: DCG-Dental Associates Supervisor, Dental Assistant",
       "department": "DCG-Dental Associates"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305833&PostingSeq=1&SiteId=12000": {
+      "title": "Associate Professor- Part Time in Reproductive Endocrinology and Infertility",
+      "description": "Posted: 11/10/2026 Location: Augusta University Department: MCG-Ob/Gyn-Reprod/Endocrin Associate Professor- Part Time in Reproductive Endocrinology and Infertility",
+      "department": "MCG-Ob/Gyn-Reprod/Endocrin"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305249&PostingSeq=1&SiteId=12000": {
+      "title": "Open Rank Dentistry Faculty, DCG-Oral Health and Diagnostic Sciences, Oral Medicine/Orofacial Pain",
+      "description": "Posted: 11/10/2026 Location: Augusta University Department: DCG-Oral Health & Dx Sci Open Rank Dentistry Faculty, DCG-Oral Health and Diagnostic Sciences, Oral Medicine/Orofacial Pain",
+      "department": "DCG-Oral Health & Dx Sci"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=292038&PostingSeq=1&SiteId=12000": {
+      "title": "General Maintenance 2",
+      "description": "Posted: 11/09/2026 Location: Augusta University Department: Facilities Operations General Maintenance 2",
+      "department": "Facilities Operations"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305689&PostingSeq=1&SiteId=12000": {
+      "title": "Research Assistant",
+      "description": "Posted: 11/05/2026 Location: Augusta University Department: GCC-Georgia Cancer Center Research Assistant",
+      "department": "GCC-Georgia Cancer Center"
     }
   },
   "rows": {
@@ -8895,11 +8915,59 @@
       "deadline_of_application": "",
       "posted_date": "11/09/2026",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305833&PostingSeq=1&SiteId=12000": {
+      "school_id": 282,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305833&PostingSeq=1&SiteId=12000",
+      "job_title_in_post": "Associate Professor- Part Time in Reproductive Endocrinology and Infertility",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "MCG-Ob/Gyn-Reprod/Endocrin",
+      "area_key_words": "Reproductive Endocrinology and Infertility",
+      "deadline_of_application": "",
+      "posted_date": "11/10/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305249&PostingSeq=1&SiteId=12000": {
+      "school_id": 282,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305249&PostingSeq=1&SiteId=12000",
+      "job_title_in_post": "Open Rank Dentistry Faculty, DCG-Oral Health and Diagnostic Sciences, Oral Medicine/Orofacial Pain",
+      "position_type": "Assistant_Professor; Associate_Professor; Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "DCG-Oral Health & Dx Sci",
+      "area_key_words": "Dentistry",
+      "deadline_of_application": "",
+      "posted_date": "11/10/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=292038&PostingSeq=1&SiteId=12000": {
+      "school_id": 282,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=292038&PostingSeq=1&SiteId=12000",
+      "job_title_in_post": "General Maintenance 2",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Facilities Operations",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/09/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305689&PostingSeq=1&SiteId=12000": {
+      "school_id": 282,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305689&PostingSeq=1&SiteId=12000",
+      "job_title_in_post": "Research Assistant",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "GCC-Georgia Cancer Center",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/05/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 282,
   "status": "complete",
-  "updated_at": "2026-11-09T22:28:24+00:00",
-  "completed_at": "2026-11-09T22:28:24+00:00",
+  "updated_at": "2026-11-10T22:09:55+00:00",
+  "completed_at": "2026-11-10T22:09:55+00:00",
   "last_error": ""
 }

@@ -1,11 +1,14 @@
 {
   "links": [
-    "https://phe.tbe.taleo.net/phe02/ats/careers/v2/viewRequisition?org=ARKASTAT2&cws=48&rid=38479"
+    "https://phe.tbe.taleo.net/phe02/ats/careers/v2/viewRequisition?org=ARKASTAT2&cws=48&rid=38479",
+    "https://phe.tbe.taleo.net/phe02/ats/careers/v2/viewRequisition?org=ARKASTAT2&cws=48&rid=40072",
+    "https://phe.tbe.taleo.net/phe02/ats/careers/v2/viewRequisition?org=ARKASTAT2&cws=48&rid=40075",
+    "https://phe.tbe.taleo.net/phe02/ats/careers/v2/viewRequisition?org=ARKASTAT2&cws=48&rid=40077"
   ],
   "school_id": 32,
   "status": "complete",
-  "updated_at": "2026-11-09T18:30:52+00:00",
+  "updated_at": "2026-11-10T18:00:46+00:00",
   "started_at": "2026-11-02T18:03:51+00:00",
-  "completed_at": "2026-11-09T18:30:52+00:00",
+  "completed_at": "2026-11-10T18:00:46+00:00",
   "last_error": ""
 }

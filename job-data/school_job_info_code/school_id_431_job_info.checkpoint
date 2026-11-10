@@ -114,6 +114,21 @@
       "title": "MSN-ETP Clinical Coordinator",
       "description": "The MSN-ETP Clinical Coordinator manages the administrative, logistical, and compliance processes that support clinical education in the Master of Science in Nursing Entry-to-Practice program. The coordinator serves as a primary liaison among students, faculty, clinical instructors, preceptors, healthcare partners, and University offices to facilitate timely placements, onboarding, documentation, and evaluation across the accelerated graduate prelicensure curriculum.",
       "department": null
+    },
+    "https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2272": {
+      "title": "RecWell Fitness & Marketing Graduate Assistant",
+      "description": "The Marketing and Fitness Graduate Assistant plays a vital role in supporting the development, implementation, and management of marketing and fitness programming within Recreation & Wellness. This position includes oversight of group exercise classes, fitness special events, and Recreation and Wellness’s marketing. The Graduate Assistant will assist in supervising and mentoring student staff, engage directly with participants to foster a culture of health and wellness, and collaborate with campus partners to enhance RecWell opportunities. This role provides an opportunity to gain valuable professional experience in program management, leadership, and operations in a recreation setting.",
+      "department": null
+    },
+    "https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2274": {
+      "title": "RecWell Sports Programs Graduate Assistant",
+      "description": "The Sports Programming Graduate Assistant supports the administration and growth of Butler University’s comprehensive Club Sports and Intramural Sports programs. This role involves working closely with student leaders, overseeing league and tournament operations, and promoting a vibrant and inclusive recreational sports culture on campus. The Graduate Assistant will contribute to the planning, execution, and evaluation of programs, ensuring they meet the needs of a diverse student body while aligning with the mission of Recreation & Wellness. This position offers hands-on experience in program management, leadership development, and operational logistics in a campus recreation setting.",
+      "department": null
+    },
+    "https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2275": {
+      "title": "RecWell Aquatics & Safety Graduate Assistant",
+      "description": "The Graduate Assistant for Aquatics & Safety supports the daily operations and management of the Health & Recreation Complex (HRC) Aquatics Center, ensuring a safe, inclusive, and enjoyable environment for all users. This position involves supervising lifeguards, swim instructors, and other aquatic staff while maintaining high standards of water safety and compliance with industry best practices. The Graduate Assistant will also contribute to the development and implementation of aquatic programming, certifications, and special events, providing a valuable opportunity to gain hands-on experience in aquatic operations, risk management, and program coordination.",
+      "department": null
     }
   },
   "rows": {
@@ -392,11 +407,47 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2272": {
+      "school_id": 431,
+      "posting_url": "https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2272",
+      "job_title_in_post": "RecWell Fitness & Marketing Graduate Assistant",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2274": {
+      "school_id": 431,
+      "posting_url": "https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2274",
+      "job_title_in_post": "RecWell Sports Programs Graduate Assistant",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2275": {
+      "school_id": 431,
+      "posting_url": "https://fa-exer-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/2275",
+      "job_title_in_post": "RecWell Aquatics & Safety Graduate Assistant",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 431,
   "status": "complete",
-  "updated_at": "2026-11-09T22:31:23+00:00",
-  "completed_at": "2026-11-09T22:31:23+00:00",
+  "updated_at": "2026-11-10T22:12:29+00:00",
+  "completed_at": "2026-11-10T22:12:29+00:00",
   "last_error": ""
 }

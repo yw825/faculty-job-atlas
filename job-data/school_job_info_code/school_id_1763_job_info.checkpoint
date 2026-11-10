@@ -294,6 +294,16 @@
       "title": "Research Fellow - Department of Cancer and Genomic Sciences - 108203 - Grade 7",
       "description": "We are seeking a Postdoctoral Research Associate to join the group of Dr. Tianyi Zhang based in the Department of Cancer and Genomic Sciences, to investigate how hematopoietic transcription factors and epigenetic regulators control B cell function and how their dysregulation contribute to blood cancers.\n\nPosting closes: 2026-12-06",
       "department": null
+    },
+    "https://edzz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_6001/job/10315": {
+      "title": "Research Fellow - School of Engineering - 108276 - Grade 7",
+      "description": "To create and contribute to the creation of knowledge by undertaking a specified range of activities within an established research programme and/or specific research project.\n\nPosting closes: 2026-11-17",
+      "department": null
+    },
+    "https://edzz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_6001/job/10318": {
+      "title": "Applied Memory Lab Research Associate - School of Psychology - 108292 - Grade 6",
+      "description": "A Research Associate (RA) is a junior/entry-level research-focused role with a global remit. Your main responsibility is to support other members of the Applied Memory lab on project work for a diverse range of studies and impact activities. You may also be tasked with liaising with study participants directly and working with other senior team members to ensure the efficient and effective coordination of project work.\n\nPosting closes: 2026-11-17",
+      "department": null
     }
   },
   "rows": {
@@ -991,11 +1001,35 @@
       "deadline_of_application": "2026-12-06",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://edzz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_6001/job/10315": {
+      "school_id": 1763,
+      "posting_url": "https://edzz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_6001/job/10315",
+      "job_title_in_post": "Research Fellow - School of Engineering - 108276 - Grade 7",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "School of Engineering",
+      "area_key_words": "School of Engineering",
+      "deadline_of_application": "2026-11-17",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://edzz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_6001/job/10318": {
+      "school_id": 1763,
+      "posting_url": "https://edzz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_6001/job/10318",
+      "job_title_in_post": "Applied Memory Lab Research Associate - School of Psychology - 108292 - Grade 6",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "School of Psychology",
+      "area_key_words": "",
+      "deadline_of_application": "2026-11-17",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1763,
   "status": "complete",
-  "updated_at": "2026-11-09T23:19:57+00:00",
-  "completed_at": "2026-11-09T23:19:57+00:00",
+  "updated_at": "2026-11-10T22:50:48+00:00",
+  "completed_at": "2026-11-10T22:50:48+00:00",
   "last_error": ""
 }

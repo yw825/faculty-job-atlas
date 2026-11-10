@@ -139,6 +139,10 @@
     "https://apply.interfolio.com/197132": {
       "title": "ENG-PSR-PROJ-2026-44 - Specialist support technician PSR3",
       "description": "Department: Pompeu Fabra University: Department of Engineering - PSR Location: BARCELONA - Universitat Pompeu Fabra Posted: Nov 06, 2026 Deadline: Nov 19, 2026 Projecte description: Exploration of multimodal markers for predicting persistent remission in patients treated for rheumatoid arthritis Tasks to be performed: Retrospective data collection at Hospital del Mar for a cohort of 184 patients, including clinical and demographic data, information related to the patients' rheumatoid arthritis, ultrasounds, laboratory results, biomarkers, and gene expression (estimated duration: 4 months). Statistical analysis and machine learning to differentiate groups of patients who remain in remission throughout treatment across two different treatment arms (estimated duration: 8 months). Group and complement: Group 3 + Level m Dedication and working hours: Part-time (10 h/week) Planned remuneration approx: 9850 € gross per year Financing fund: CNR06326 - HMRIB BASIC INFORMATION ON DATA PROTECTION: Data Controller: Universitat Pompeu Fabra Purpose: Research support staff recruitment. Rights: You can access your data; request their rectification, deletion and portability; you may object to their processing and request their limitation. Additional information: Further detailed information is available on the website: https://rat.upf.edu/ca/ll040"
+    },
+    "https://apply.interfolio.com/197225": {
+      "title": "Postdoctoral position in ERC project on computational modelling of language in psychosis (TRAD-INV-INDF-2026-04)",
+      "description": "Department: Pompeu Fabra University: Department of Translation and Language Sciences Location: Universitat Pompeu Fabra, Barcelona Posted: Nov 10, 2026 Deadline: Nov 14, 2026 Note: This page is for informative purposes only. The official call (particularly, the legal requirements for candidates) and all information related to the selection process (admission, short list, final result) is published in the Department’s website . The position forms part of work package 1 in the ERC Synergy grant “DELTA-LANG – The delta of language” (no. 101118756, 2024-2029). The overall project’s aim is to map clinical fluctuations in symptom states onto language states and to then explore how these language states map onto brain states, with a view to enhance mechanistic understanding. Our ultimate clinical goal is to track and predict transitions between symptom states in psychosis based on language together with fMRI. So far, the project has focussed on linguistic, information-theoretic, and geometric perspectives, using large language models (LLMs). Candidates should familiarize themselves with our recent papers and preprints. You will contribute to our current research priorities and develop a compact independent research line within the above research scheme. We value a diversity of scientific backgrounds in this cross-disciplinary project, which includes perspectives from information theory, statistical physics, and computational semantics. Appointed candidates will benefit from an extensive network of clinical collaborators, the resources of the consortium as a whole, and a rich and diverse local research environment at the UPF, particularly in the areas of computational linguistics and cognitive and computational neuroscience. Please direct any prior inquiries to the PI at wolfram.hinzen@upf.edu. Tasks Conceptualizing and implementing analytical pipelines that can link language alterations in psychosis to brain functional alterations. The work focuses primarily on semantic structure and the role of grammar in structuring the semantic space. Ph.D. in hand at the time of the start of the contract, in a relevant field including computational linguistics, computational psychiatry, cognitive neuroscience, data science, and artificial intelligence. Expertise in computational linguistics / LLMs. Some experience with fMRI. Experience in modelling language in psychosis and/or other mental disorders. Capacity to work in a group and to contribute to the project aims. Eligibility criteria Academic background: 0- 20 points. Professional experience / suitability for the proposed profile: 0-60 points Other: 0-20 points Minimum score to pass the selection process: 50 points. If necessary, an interview may be conducted. Applications should be submitted through the Interfolio platform including the following documents. All documents must be submitted before the closing date. a copy of the applicant’s (national) identity card or passport PhD certificate an updated CV a detailed letter of interest The selection committee will evaluate the applicants’ merits based on the documentation provided."
     }
   },
   "rows": {
@@ -553,11 +557,23 @@
       "deadline_of_application": "Nov 19, 2026",
       "posted_date": "Nov 06, 2026",
       "position_start_date": ""
+    },
+    "https://apply.interfolio.com/197225": {
+      "school_id": 1742,
+      "posting_url": "https://apply.interfolio.com/197225",
+      "job_title_in_post": "Postdoctoral position in ERC project on computational modelling of language in psychosis (TRAD-INV-INDF-2026-04)",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "ERC project on computational modelling of language in psychosis; computational neuroscience; computational linguistics",
+      "deadline_of_application": "Nov 14, 2026",
+      "posted_date": "Nov 10, 2026",
+      "position_start_date": ""
     }
   },
   "school_id": 1742,
   "status": "complete",
-  "updated_at": "2026-11-09T23:16:28+00:00",
-  "completed_at": "2026-11-09T23:16:28+00:00",
+  "updated_at": "2026-11-10T22:48:47+00:00",
+  "completed_at": "2026-11-10T22:48:47+00:00",
   "last_error": ""
 }

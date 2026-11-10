@@ -1059,6 +1059,31 @@
       "title": "PhD Scholarships in Quantum Physics: Quantum Opto-Acoustics, Optomechanics, Microscopy and Computing - DTU Physics",
       "description": "Join DTU Physics for one of four exciting PhD positions in quantum opto-acoustics, quantum optomechanics, quantum-enhanced microscopy, or fault-tolerant quantum computing. Explore fundamental quantum physics and develop next-generation quantum technologies in a leading research environment.",
       "department": null
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/7294": {
+      "title": "Marie Curie (MSCA) PhD scholarship in solar-driven hybrid methane production technologies for bio-electrochemical CO2 utilization - DTU Sustain",
+      "description": "Join the team to pioneer a green photo-bio-electrochemical solution for efficient CO2-to-CH4 conversion.",
+      "department": null
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8568": {
+      "title": "Medarbejder med relevant laboratorieerfaring til forskning i CO2-fangst (barselsvikariat) - DTU Kemiteknik",
+      "description": "Vil du være med til at udvikle teknologier, der bidrager til en mere bæredygtig fremtid? På DTU Kemiteknik arbejder vi med innovative løsninger, der understøtter den grønne omstilling, med særligt fokus på CO2-fangst, CO2-udnyttelse og lagring.",
+      "department": null
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8569": {
+      "title": "PhD scholarships in machine learning for optimization of cyber-physical systems - DTU Compute",
+      "description": "Two PhD positions on machine learning for predictive models and optimization of cyber-physical systems, starting with software-defined vehicles and exploring transfer to datacenters, industrial automation, and energy systems.",
+      "department": null
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8570": {
+      "title": "IT Support Assistant for compute infrastructure at Bioinformatics - DTU Health Tech",
+      "description": "Do you want to help supporting and maintaining compute infrastructure for use in bioinformatic courses and web services?\n\n",
+      "department": null
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8571": {
+      "title": "PhD scholarship in MRI radiofrequency detector development - DTU Space",
+      "description": "A typical MRI scanner uses radiofrequency detectors to image water molecules. Imaging other molecules and nuclei requires additional new detectors and antennas. The objective of the PhD-project is to demonstrate MR imaging of nuclei other than hydrogen by building MRI detectors and antennas, which can cover frequencies of multiple nuclei.",
+      "department": null
     }
   },
   "rows": {
@@ -3570,11 +3595,71 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/7294": {
+      "school_id": 1669,
+      "posting_url": "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/7294",
+      "job_title_in_post": "Marie Curie (MSCA) PhD scholarship in solar-driven hybrid methane production technologies for bio-electrochemical CO2 utilization - DTU Sustain",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8568": {
+      "school_id": 1669,
+      "posting_url": "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8568",
+      "job_title_in_post": "Medarbejder med relevant laboratorieerfaring til forskning i CO2-fangst (barselsvikariat) - DTU Kemiteknik",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8569": {
+      "school_id": 1669,
+      "posting_url": "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8569",
+      "job_title_in_post": "PhD scholarships in machine learning for optimization of cyber-physical systems - DTU Compute",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8570": {
+      "school_id": 1669,
+      "posting_url": "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8570",
+      "job_title_in_post": "IT Support Assistant for compute infrastructure at Bioinformatics - DTU Health Tech",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8571": {
+      "school_id": 1669,
+      "posting_url": "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8571",
+      "job_title_in_post": "PhD scholarship in MRI radiofrequency detector development - DTU Space",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "MRI radiofrequency detector development",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1669,
   "status": "complete",
-  "updated_at": "2026-11-09T23:06:51+00:00",
-  "completed_at": "2026-11-09T23:06:51+00:00",
+  "updated_at": "2026-11-10T22:41:47+00:00",
+  "completed_at": "2026-11-10T22:41:47+00:00",
   "last_error": ""
 }

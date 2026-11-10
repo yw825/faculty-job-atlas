@@ -143,6 +143,14 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/716F3DBB868513EDA5A7657F756BBDD8/jobs/82080": {
       "title": "Maintenance Technician II (Electrician)",
       "description": "Maintenance Technician II (Electrician) You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/716F3DBB868513EDA5A7657F756BBDD8/jobs/354298": {
+      "title": "Open-Rank Police Officer: Sergeant, Lieutenant, or Captain",
+      "description": "Open-Rank Police Officer: Sergeant, Lieutenant, or Captain You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/716F3DBB868513EDA5A7657F756BBDD8/jobs/354085": {
+      "title": "Financial Services Assistant",
+      "description": "Financial Services Assistant You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -576,11 +584,35 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/716F3DBB868513EDA5A7657F756BBDD8/jobs/354298": {
+      "school_id": 1284,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/716F3DBB868513EDA5A7657F756BBDD8/jobs/354298",
+      "job_title_in_post": "Open-Rank Police Officer: Sergeant, Lieutenant, or Captain",
+      "position_type": "Assistant_Professor; Associate_Professor; Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/716F3DBB868513EDA5A7657F756BBDD8/jobs/354085": {
+      "school_id": 1284,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/716F3DBB868513EDA5A7657F756BBDD8/jobs/354085",
+      "job_title_in_post": "Financial Services Assistant",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1284,
   "status": "complete",
-  "updated_at": "2026-11-09T22:45:30+00:00",
-  "completed_at": "2026-11-09T22:45:30+00:00",
+  "updated_at": "2026-11-10T22:25:15+00:00",
+  "completed_at": "2026-11-10T22:25:15+00:00",
   "last_error": ""
 }

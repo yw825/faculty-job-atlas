@@ -1369,6 +1369,11 @@
       "title": "Assistant, Associate, or Full Professor of Veterinary Nutrition",
       "description": "Posted: 11/04/2026 Location: Twin Cities Department: Veterinary Clinical Sciences Assistant, Associate, or Full Professor of Veterinary Nutrition",
       "department": "Veterinary Clinical Sciences"
+    },
+    "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=377071&PostingSeq=1": {
+      "title": "Assistant/Associate Professor - Division of Diabetes, Endocrinology and Metabolism",
+      "description": "Posted: 11/09/2026 Location: Twin Cities Department: MED Endocrine & Diabetes Div Assistant/Associate Professor - Division of Diabetes, Endocrinology and Metabolism",
+      "department": "MED Endocrine & Diabetes Div"
     }
   },
   "rows": {
@@ -1959,11 +1964,12 @@
       "school_id": 680,
       "posting_url": "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=376278&PostingSeq=1",
       "job_title_in_post": "Clinical Assistant Professor (Temporary)",
-      "position_type": "Assistant_Professor",
+      "position_type": "Lecturer",
       "job_term": "Full-time",
       "department_or_school": "Dent Dental Hygiene, Div of",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "09/22/2026",
       "position_start_date": ""
     },
     "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=376276&PostingSeq=1": {
@@ -4646,11 +4652,23 @@
       "deadline_of_application": "",
       "posted_date": "11/04/2026",
       "position_start_date": ""
+    },
+    "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=377071&PostingSeq=1": {
+      "school_id": 680,
+      "posting_url": "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=377071&PostingSeq=1",
+      "job_title_in_post": "Assistant/Associate Professor - Division of Diabetes, Endocrinology and Metabolism",
+      "position_type": "Assistant_Professor; Associate_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "MED Endocrine & Diabetes Div",
+      "area_key_words": "Endocrinology and Metabolism",
+      "deadline_of_application": "",
+      "posted_date": "11/09/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 680,
   "status": "complete",
-  "updated_at": "2026-11-09T22:37:01+00:00",
-  "completed_at": "2026-11-09T22:37:01+00:00",
+  "updated_at": "2026-11-10T22:17:28+00:00",
+  "completed_at": "2026-11-10T22:17:28+00:00",
   "last_error": ""
 }

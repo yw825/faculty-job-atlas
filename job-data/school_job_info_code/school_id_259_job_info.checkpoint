@@ -51,6 +51,10 @@
     "https://eckerd.exacthire.com/job/210034": {
       "title": "Events and Logistics Specialist",
       "description": "Events and Logistics Specialist, Job In Eckerd College At St. Petersburg, FL"
+    },
+    "https://eckerd.exacthire.com/job/211516": {
+      "title": "Pre-College Program Coordinator (Summer, Live-In)",
+      "description": "Pre-College Program Coordinator (Summer, Live-In), Job In Eckerd College At St. Petersburg, FL"
     }
   },
   "rows": {
@@ -209,11 +213,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://eckerd.exacthire.com/job/211516": {
+      "school_id": 259,
+      "posting_url": "https://eckerd.exacthire.com/job/211516",
+      "job_title_in_post": "Pre-College Program Coordinator (Summer, Live-In)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 259,
   "status": "complete",
-  "updated_at": "2026-11-09T22:27:23+00:00",
-  "completed_at": "2026-11-09T22:27:23+00:00",
+  "updated_at": "2026-11-10T22:08:57+00:00",
+  "completed_at": "2026-11-10T22:08:57+00:00",
   "last_error": ""
 }

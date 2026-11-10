@@ -64,6 +64,16 @@
       "title": "Project and Executive Support",
       "description": "Join a collaborative, people-focused team providing project coordination and executive support to help deliver key strategic priorities.",
       "department": null
+    },
+    "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18636": {
+      "title": "Academic Sessional - VU Business School",
+      "description": "Victoria University Business School is seeking expressions of interest from experienced and passionate educators to join our growing sessional teaching team for the 2027 academic year. Teaching opportunities are available across a wide range of disciplines at undergraduate and postgraduate levels.",
+      "department": null
+    },
+    "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18651": {
+      "title": "Administration Officer",
+      "description": "The Administration Officer provides administrative and coordination support across the College of Sport, Health and Engineering, with a focus on course governance, program accreditation, committee meetings and university events. The role works collaboratively with academic and professional staff to coordinate information, prepare documentation and reports, maintain accurate records, manage competing priorities and ensure administrative processes are delivered efficiently and in accordance with University requirements. It also contributes to continuous improvement and a positive experience for students and staff.",
+      "department": null
     }
   },
   "rows": {
@@ -222,11 +232,35 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18636": {
+      "school_id": 1817,
+      "posting_url": "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18636",
+      "job_title_in_post": "Academic Sessional - VU Business School",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18651": {
+      "school_id": 1817,
+      "posting_url": "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18651",
+      "job_title_in_post": "Administration Officer",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1817,
   "status": "complete",
-  "updated_at": "2026-11-09T23:00:04+00:00",
-  "completed_at": "2026-11-09T23:00:04+00:00",
+  "updated_at": "2026-11-10T22:36:41+00:00",
+  "completed_at": "2026-11-10T22:36:41+00:00",
   "last_error": ""
 }

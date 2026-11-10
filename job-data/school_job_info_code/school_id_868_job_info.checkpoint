@@ -187,6 +187,10 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/055E28882001FE667534B0880CFCD275/jobs/102672": {
       "title": "Director of Corporate and Foundation Engagement",
       "description": "Director of Corporate and Foundation Engagement You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/055E28882001FE667534B0880CFCD275/jobs/103028": {
+      "title": "Adjunct of Sociology",
+      "description": "Adjunct of Sociology You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -753,11 +757,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/055E28882001FE667534B0880CFCD275/jobs/103028": {
+      "school_id": 868,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/055E28882001FE667534B0880CFCD275/jobs/103028",
+      "job_title_in_post": "Adjunct of Sociology",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "Sociology",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 868,
   "status": "complete",
-  "updated_at": "2026-11-09T22:44:09+00:00",
-  "completed_at": "2026-11-09T22:44:09+00:00",
+  "updated_at": "2026-11-10T22:26:25+00:00",
+  "completed_at": "2026-11-10T22:26:25+00:00",
   "last_error": ""
 }

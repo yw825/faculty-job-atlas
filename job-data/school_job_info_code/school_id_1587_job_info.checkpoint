@@ -294,6 +294,11 @@
       "title": "Associate Professor - AMHSP",
       "description": "",
       "department": null
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4629": {
+      "title": "AMHSP Assistant Professor - Emergency Medicine",
+      "description": "",
+      "department": null
     }
   },
   "rows": {
@@ -994,11 +999,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4629": {
+      "school_id": 1587,
+      "posting_url": "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4629",
+      "job_title_in_post": "AMHSP Assistant Professor - Emergency Medicine",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "AMHSP Assistant",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1587,
   "status": "complete",
-  "updated_at": "2026-11-09T23:02:10+00:00",
-  "completed_at": "2026-11-09T23:02:10+00:00",
+  "updated_at": "2026-11-10T22:38:50+00:00",
+  "completed_at": "2026-11-10T22:38:50+00:00",
   "last_error": ""
 }

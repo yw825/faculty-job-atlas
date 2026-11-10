@@ -833,7 +833,9 @@
       "error": "not present in bulk fetch result"
     },
     "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=301233&PostingSeq=1&SiteId=03000": {
-      "error": "not present in bulk fetch result"
+      "title": "Plumber I",
+      "description": "Posted: 09/03/2026 Location: Atlanta, Georgia Department: I&O Building & Equipment Maint Plumber I",
+      "department": "I&O Building & Equipment Maint"
     },
     "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303240&PostingSeq=1&SiteId=03000": {
       "error": "not present in bulk fetch result"
@@ -1599,6 +1601,56 @@
       "title": "A/C Mechanic II  (Monday - Friday 7:55am to 4:25pm)",
       "description": "Posted: 09/03/2026 Location: Atlanta, Georgia Department: I&O Building & Equipment Maint A/C Mechanic II  (Monday - Friday 7:55am to 4:25pm)",
       "department": "I&O Building & Equipment Maint"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305005&PostingSeq=1&SiteId=03000": {
+      "title": "Chiller Operator (Monday - Friday 7:55 am - 4:55 pm)",
+      "description": "Posted: 11/10/2026 Location: Atlanta, Georgia Department: I&O Utilities and Energy Chiller Operator (Monday - Friday 7:55 am - 4:55 pm)",
+      "department": "I&O Utilities and Energy"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305548&PostingSeq=1&SiteId=03000": {
+      "title": "Field Office Information Systems Security Manager (ISSM)",
+      "description": "Posted: 11/10/2026 Location: San Diego, California Department: GTRI-Research Security Field Office Information Systems Security Manager (ISSM)",
+      "department": "GTRI-Research Security"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305847&PostingSeq=1&SiteId=03000": {
+      "title": "TEMP-Lab/Research Support",
+      "description": "Posted: 11/10/2026 Location: Atlanta, Georgia Department: Electrical & Computer Engr TEMP-Lab/Research Support",
+      "department": "Electrical & Computer Engr"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305808&PostingSeq=1&SiteId=03000": {
+      "title": "TEMP-Lab/Research Support - School of Earth and Atmospheric Sciences (Bowen)",
+      "description": "Posted: 11/10/2026 Location: Atlanta, Georgia Department: Earth & Atmospheric Sciences TEMP-Lab/Research Support - School of Earth and Atmospheric Sciences (Bowen)",
+      "department": "Earth & Atmospheric Sciences"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305626&PostingSeq=1&SiteId=03000": {
+      "title": "Accounting Specialist",
+      "description": "Posted: 11/09/2026 Location: Atlanta, Georgia Department: OIT- Office of the CIO Accounting Specialist",
+      "department": "OIT- Office of the CIO"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305752&PostingSeq=1&SiteId=03000": {
+      "title": "Director - Student Center & Campus Programs",
+      "description": "Posted: 11/09/2026 Location: Atlanta, Georgia Department: Student Center Director - Student Center & Campus Programs",
+      "department": "Student Center"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305271&PostingSeq=1&SiteId=03000": {
+      "title": "Director of Parking",
+      "description": "Posted: 11/09/2026 Location: Atlanta, Georgia Department: Parking Office Director of Parking",
+      "department": "Parking Office"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305748&PostingSeq=1&SiteId=03000": {
+      "title": "Operations & Events Support Specialist (Shift Sunday 9:00am - 5:30pm & Monday -Thursday 7:00am - 3:30pm)",
+      "description": "Posted: 11/09/2026 Location: Atlanta, Georgia Department: Student Center Operations & Events Support Specialist (Shift Sunday 9:00am - 5:30pm & Monday -Thursday 7:00am - 3:30pm)",
+      "department": "Student Center"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305214&PostingSeq=1&SiteId=03000": {
+      "title": "Research Info Systems Engineer",
+      "description": "Posted: 11/09/2026 Location: Atlanta, Georgia Department: GTRI - Research IT Department Research Info Systems Engineer",
+      "department": "GTRI - Research IT Department"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=300931&PostingSeq=1&SiteId=03000": {
+      "title": "Residential Dining Associate (10-Month) (Multiple Openings)",
+      "description": "Posted: 07/30/2026 Location: Atlanta, Georgia Department: Dining Services Residential Dining Associate (10-Month) (Multiple Openings)",
+      "department": "Dining Services"
     }
   },
   "rows": {
@@ -4931,11 +4983,167 @@
       "deadline_of_application": "",
       "posted_date": "09/03/2026",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305005&PostingSeq=1&SiteId=03000": {
+      "school_id": 276,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305005&PostingSeq=1&SiteId=03000",
+      "job_title_in_post": "Chiller Operator (Monday - Friday 7:55 am - 4:55 pm)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "I&O Utilities and Energy",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/10/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305548&PostingSeq=1&SiteId=03000": {
+      "school_id": 276,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305548&PostingSeq=1&SiteId=03000",
+      "job_title_in_post": "Field Office Information Systems Security Manager (ISSM)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "GTRI-Research Security",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/10/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305847&PostingSeq=1&SiteId=03000": {
+      "school_id": 276,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305847&PostingSeq=1&SiteId=03000",
+      "job_title_in_post": "TEMP-Lab/Research Support",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Electrical & Computer Engr",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/10/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305808&PostingSeq=1&SiteId=03000": {
+      "school_id": 276,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305808&PostingSeq=1&SiteId=03000",
+      "job_title_in_post": "TEMP-Lab/Research Support - School of Earth and Atmospheric Sciences (Bowen)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Earth & Atmospheric Sciences",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/10/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305626&PostingSeq=1&SiteId=03000": {
+      "school_id": 276,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305626&PostingSeq=1&SiteId=03000",
+      "job_title_in_post": "Accounting Specialist",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "OIT- Office of the CIO",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/09/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305752&PostingSeq=1&SiteId=03000": {
+      "school_id": 276,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305752&PostingSeq=1&SiteId=03000",
+      "job_title_in_post": "Director - Student Center & Campus Programs",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Student Center",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/09/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305271&PostingSeq=1&SiteId=03000": {
+      "school_id": 276,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305271&PostingSeq=1&SiteId=03000",
+      "job_title_in_post": "Director of Parking",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Parking Office",
+      "area_key_words": "Parking",
+      "deadline_of_application": "",
+      "posted_date": "11/09/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305748&PostingSeq=1&SiteId=03000": {
+      "school_id": 276,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305748&PostingSeq=1&SiteId=03000",
+      "job_title_in_post": "Operations & Events Support Specialist (Shift Sunday 9:00am - 5:30pm & Monday -Thursday 7:00am - 3:30pm)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Student Center",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/09/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305214&PostingSeq=1&SiteId=03000": {
+      "school_id": 276,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305214&PostingSeq=1&SiteId=03000",
+      "job_title_in_post": "Research Info Systems Engineer",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "GTRI - Research IT Department",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/09/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304950&PostingSeq=1&SiteId=03000": {
+      "school_id": 276,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304950&PostingSeq=1&SiteId=03000",
+      "job_title_in_post": "Project Support Specialist Senior",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "VP-Commercialization",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "10/22/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=301233&PostingSeq=1&SiteId=03000": {
+      "school_id": 276,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=301233&PostingSeq=1&SiteId=03000",
+      "job_title_in_post": "Plumber I",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "I&O Building & Equipment Maint",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "09/03/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302236&PostingSeq=1&SiteId=03000": {
+      "school_id": 276,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=302236&PostingSeq=1&SiteId=03000",
+      "job_title_in_post": "Full Professor (BME Brock Family Chair and Georgia Research Alliance (GRA) Eminent Scholar)",
+      "position_type": "Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Biomedical Engr, GT/Emory",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "08/07/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=300931&PostingSeq=1&SiteId=03000": {
+      "school_id": 276,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=300931&PostingSeq=1&SiteId=03000",
+      "job_title_in_post": "Residential Dining Associate (10-Month) (Multiple Openings)",
+      "position_type": "Assistant_Professor; Associate_Professor; Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Dining Services",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "07/30/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 276,
   "status": "complete",
-  "updated_at": "2026-11-09T22:29:49+00:00",
+  "updated_at": "2026-11-10T22:13:17+00:00",
   "last_error": "",
-  "completed_at": "2026-11-09T22:29:49+00:00"
+  "completed_at": "2026-11-10T22:13:17+00:00"
 }

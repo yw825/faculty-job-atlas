@@ -23,6 +23,14 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/0FE17D4AFBB66F4F196ABBBA1DF3DF85/jobs/257398": {
       "title": "Graduate Assistant Coach Womens Lacrosse",
       "description": "Graduate Assistant Coach Womens Lacrosse You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/0FE17D4AFBB66F4F196ABBBA1DF3DF85/jobs/258858": {
+      "title": "Part time faculty for Science",
+      "description": "Part time faculty for Science You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/0FE17D4AFBB66F4F196ABBBA1DF3DF85/jobs/258847": {
+      "title": "Part time faculty MFA Program",
+      "description": "Part time faculty MFA Program You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -96,11 +104,35 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/0FE17D4AFBB66F4F196ABBBA1DF3DF85/jobs/258858": {
+      "school_id": 189,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/0FE17D4AFBB66F4F196ABBBA1DF3DF85/jobs/258858",
+      "job_title_in_post": "Part time faculty for Science",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "faculty for Science",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/0FE17D4AFBB66F4F196ABBBA1DF3DF85/jobs/258847": {
+      "school_id": 189,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/0FE17D4AFBB66F4F196ABBBA1DF3DF85/jobs/258847",
+      "job_title_in_post": "Part time faculty MFA Program",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 189,
   "status": "complete",
-  "updated_at": "2026-11-09T22:25:44+00:00",
-  "completed_at": "2026-11-09T22:25:44+00:00",
+  "updated_at": "2026-11-10T22:08:08+00:00",
+  "completed_at": "2026-11-10T22:08:08+00:00",
   "last_error": ""
 }

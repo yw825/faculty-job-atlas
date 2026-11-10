@@ -54,6 +54,16 @@
       "title": "Executive Assistant, Research And Innovation (2026-MP-26)",
       "description": "Managerial & Professional\nExecutive Assistant to Vice-President Research and Innovation",
       "department": null
+    },
+    "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4328": {
+      "title": "Executive Assistant to the Vice-President, Human Resources (2026-MP-27)",
+      "description": "Managerial & Professional\nExecutive Assistant to the Vice-President Human Resources",
+      "department": null
+    },
+    "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4408": {
+      "title": "Chemical Control Centre Technician",
+      "description": "CUPE 1393 - Chemical Control Centre Technician 'IV' - (substitute - January 4, 2027, to approx. June 30, 2027)",
+      "department": null
     }
   },
   "rows": {
@@ -188,11 +198,35 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4328": {
+      "school_id": 1637,
+      "posting_url": "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4328",
+      "job_title_in_post": "Executive Assistant to the Vice-President, Human Resources (2026-MP-27)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4408": {
+      "school_id": 1637,
+      "posting_url": "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4408",
+      "job_title_in_post": "Chemical Control Centre Technician",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1637,
   "status": "complete",
-  "updated_at": "2026-11-09T23:06:12+00:00",
-  "completed_at": "2026-11-09T23:06:12+00:00",
+  "updated_at": "2026-11-10T22:41:07+00:00",
+  "completed_at": "2026-11-10T22:41:07+00:00",
   "last_error": ""
 }

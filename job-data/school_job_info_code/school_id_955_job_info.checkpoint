@@ -215,6 +215,18 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/F28471DFA0F4183976163E181A695BE1/jobs/468194": {
       "title": "Coordinator, Economic and Small Business Development Hub",
       "description": "Coordinator, Economic and Small Business Development Hub You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/F28471DFA0F4183976163E181A695BE1/jobs/510655": {
+      "title": "Audiology Clinical Supervisor (Part-Time)",
+      "description": "Audiology Clinical Supervisor (Part-Time) You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/F28471DFA0F4183976163E181A695BE1/jobs/510648": {
+      "title": "Day Custodian",
+      "description": "Day Custodian You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/F28471DFA0F4183976163E181A695BE1/jobs/510641": {
+      "title": "Adjunct Professor",
+      "description": "Adjunct Professor You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -863,11 +875,47 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/F28471DFA0F4183976163E181A695BE1/jobs/510655": {
+      "school_id": 955,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/F28471DFA0F4183976163E181A695BE1/jobs/510655",
+      "job_title_in_post": "Audiology Clinical Supervisor (Part-Time)",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/F28471DFA0F4183976163E181A695BE1/jobs/510648": {
+      "school_id": 955,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/F28471DFA0F4183976163E181A695BE1/jobs/510648",
+      "job_title_in_post": "Day Custodian",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/F28471DFA0F4183976163E181A695BE1/jobs/510641": {
+      "school_id": 955,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/F28471DFA0F4183976163E181A695BE1/jobs/510641",
+      "job_title_in_post": "Adjunct Professor",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 955,
   "status": "complete",
-  "updated_at": "2026-11-09T22:47:24+00:00",
-  "completed_at": "2026-11-09T22:47:24+00:00",
+  "updated_at": "2026-11-10T22:24:05+00:00",
+  "completed_at": "2026-11-10T22:24:05+00:00",
   "last_error": ""
 }

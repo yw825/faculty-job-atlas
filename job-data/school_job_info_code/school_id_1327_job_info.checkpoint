@@ -274,6 +274,11 @@
       "title": "Director of Military & Veteran Affairs (Admissions and Enrollment Specialist IV)",
       "description": "Directs and manages the University’s veteran student services. Ensures compliance with federal, state and university directives in relation to veteran/dependent educational benefits. Collaborates with the Registrar, Bursar and Financial Aid departments to ensure students are properly certified for US Department of Veterans Affairs (DVA) educational benefits and maximizing financial incentive. Provides academic program advising for veterans. Manages the Coordinator of Veteran Educational Benefits. Reports directly to the AVP of Enrollment & Student Success.\n\nTennessee Tech is an Equal Opportunity/Affirmative Action employer.",
       "department": null
+    },
+    "https://fa-eygi-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26110": {
+      "title": "Admissions and Enrollment Specialist I",
+      "description": "Admissions Counselors travel to high schools and community colleges with the goal of recruiting, encouraging, and assisting prospective students with the admissions process while providing information about Tennessee Tech. The main purpose of this position is to build relationships with prospective students and high school counselors, which is vital to recruitment.\n\nTennessee Tech is an Equal Opportunity/Affirmative Action employer.",
+      "department": null
     }
   },
   "rows": {
@@ -933,11 +938,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://fa-eygi-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26110": {
+      "school_id": 1327,
+      "posting_url": "https://fa-eygi-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26110",
+      "job_title_in_post": "Admissions and Enrollment Specialist I",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1327,
   "status": "complete",
-  "updated_at": "2026-11-09T22:51:28+00:00",
-  "completed_at": "2026-11-09T22:51:28+00:00",
+  "updated_at": "2026-11-10T22:27:45+00:00",
+  "completed_at": "2026-11-10T22:27:45+00:00",
   "last_error": ""
 }

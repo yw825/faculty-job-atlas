@@ -111,6 +111,10 @@
     "https://lyon.isolvedhire.com/jobs/1901489": {
       "title": "Support Analyst II",
       "description": "Support Analyst II - Little Rock, AR - Lyon College Jobs Jobs Login Sign Up For Job Alerts! Maintained by isolved People Cloud - © 2026 Refresh Search the FAQ here Go Common Questions"
+    },
+    "https://lyon.isolvedhire.com/jobs/1901791": {
+      "title": "Support Analyst III / Team Lead",
+      "description": "Support Analyst III / Team Lead - Little Rock, AR - Lyon College Jobs Jobs Login Sign Up For Job Alerts! Maintained by isolved People Cloud - © 2026 Refresh Search the FAQ here Go Common Questions"
     }
   },
   "rows": {
@@ -449,11 +453,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://lyon.isolvedhire.com/jobs/1901791": {
+      "school_id": 34,
+      "posting_url": "https://lyon.isolvedhire.com/jobs/1901791",
+      "job_title_in_post": "Support Analyst III / Team Lead",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 34,
   "status": "complete",
-  "updated_at": "2026-11-09T22:21:57+00:00",
-  "completed_at": "2026-11-09T22:21:57+00:00",
+  "updated_at": "2026-11-10T22:05:17+00:00",
+  "completed_at": "2026-11-10T22:05:17+00:00",
   "last_error": ""
 }

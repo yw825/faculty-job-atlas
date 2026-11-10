@@ -1,9 +1,12 @@
 {
   "links": [
+    "https://myjobs.adp.com/udmercycareers/cx/job-details?reqId=5001235903906",
+    "https://myjobs.adp.com/udmercycareers/cx/job-details?reqId=5001229763906",
     "https://myjobs.adp.com/udmercycareers/cx/job-details?reqId=5001234002006",
     "https://myjobs.adp.com/udmercycareers/cx/job-details?reqId=5001234495606",
     "https://myjobs.adp.com/udmercycareers/cx/job-details?reqId=5001231488306",
     "https://myjobs.adp.com/udmercycareers/cx/job-details?reqId=5001225954006",
+    "https://myjobs.adp.com/udmercycareers/cx/job-details?reqId=5001231453306",
     "https://myjobs.adp.com/udmercycareers/cx/job-details?reqId=5001207840506",
     "https://myjobs.adp.com/udmercycareers/cx/job-details?reqId=5001228791206",
     "https://myjobs.adp.com/udmercycareers/cx/job-details?reqId=5001222987606",
@@ -35,9 +38,9 @@
     "https://myjobs.adp.com/udmercycareers/cx/job-details?reqId=5001207177306"
   ],
   "school_id": 635,
-  "status": "error",
-  "updated_at": "2026-11-09T20:24:35+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-10T18:54:57+00:00",
   "started_at": "2026-09-08T02:05:00+00:00",
-  "completed_at": "2026-11-06T18:42:22+00:00",
-  "last_error": "RuntimeError: ADP MyJobs: the page made no job search request"
+  "completed_at": "2026-11-10T18:54:57+00:00",
+  "last_error": ""
 }

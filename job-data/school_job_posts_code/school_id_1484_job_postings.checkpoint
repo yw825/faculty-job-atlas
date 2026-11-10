@@ -58,9 +58,10 @@
     "https://jobs.radford.edu/jobs/adjunct-faculty-business-law-radford-virginia-united-states"
   ],
   "school_id": 1484,
-  "status": "complete",
-  "updated_at": "2026-11-09T19:44:07+00:00",
+  "status": "in_progress",
+  "updated_at": "2026-11-10T20:27:17+00:00",
   "started_at": "2026-09-08T03:07:54+00:00",
-  "completed_at": "2026-11-09T19:44:07+00:00",
-  "last_error": ""
+  "completed_at": "2026-11-10T19:26:14+00:00",
+  "last_error": "",
+  "last_warning": "2026-11-10T19:26:14+00:00: board returned 0 links vs 56 before; old set kept"
 }

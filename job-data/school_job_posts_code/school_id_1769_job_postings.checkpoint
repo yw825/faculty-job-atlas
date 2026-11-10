@@ -4,14 +4,12 @@
     "https://jobs.leeds.ac.uk/vacancy.aspx?ref=FBSBY1219",
     "https://jobs.leeds.ac.uk/vacancy.aspx?ref=AHCPR1088",
     "https://jobs.leeds.ac.uk/vacancy.aspx?ref=EPSEE1162",
-    "https://jobs.leeds.ac.uk/vacancy.aspx?ref=FBSBM1240",
-    "https://jobs.leeds.ac.uk/vacancy.aspx?ref=AHCLH1013",
-    "https://jobs.leeds.ac.uk/vacancy.aspx?ref=AHCFO1080"
+    "https://jobs.leeds.ac.uk/vacancy.aspx?ref=FBSBM1240"
   ],
   "school_id": 1769,
-  "status": "error",
-  "updated_at": "2026-11-09T21:59:05+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-10T22:02:45+00:00",
   "started_at": "2026-11-02T20:06:04+00:00",
-  "completed_at": "2026-11-06T12:19:24+00:00",
-  "last_error": "RuntimeError: FETCH_FAILURE: Page.goto: Timeout 25000ms exceeded.\nCall log:\n  - navigating to \"https://jobs.leeds.ac.uk/vacancies.aspx?cat=200\", waiting until \"domcontentloaded\"\n"
+  "completed_at": "2026-11-10T22:02:45+00:00",
+  "last_error": ""
 }

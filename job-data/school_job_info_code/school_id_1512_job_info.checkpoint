@@ -544,6 +544,21 @@
       "title": "Temporary/Hourly Pool - Clerical",
       "description": "Posted: 11/02/2026 Location: Ellensburg, WA Department: Provost Office Temporary/Hourly Pool - Clerical",
       "department": "Provost Office"
+    },
+    "https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=7621&PostingSeq=1&SiteId=1": {
+      "title": "Assistant Professor Early American or U.S. History/History Social Studies Teaching Coordinator",
+      "description": "Posted: 11/09/2026 Location: Ellensburg, WA Department: History Assistant Professor Early American or U.S. History/History Social Studies Teaching Coordinator",
+      "department": "History"
+    },
+    "https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=7622&PostingSeq=1&SiteId=1": {
+      "title": "Nonpermanent Pool - Clerical",
+      "description": "Posted: 11/02/2026 Location: Ellensburg, WA Department: Human Resources Nonpermanent Pool - Clerical",
+      "department": "Human Resources"
+    },
+    "https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=7623&PostingSeq=1&SiteId=1": {
+      "title": "Nonpermanent Pool - Skilled Trades/Maintenance/Custodial/Grounds",
+      "description": "Posted: 11/02/2026 Location: Ellensburg, WA Department: Human Resources Nonpermanent Pool - Skilled Trades/Maintenance/Custodial/Grounds",
+      "department": "Human Resources"
     }
   },
   "rows": {
@@ -1854,11 +1869,47 @@
       "deadline_of_application": "",
       "posted_date": "11/02/2026",
       "position_start_date": ""
+    },
+    "https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=7621&PostingSeq=1&SiteId=1": {
+      "school_id": 1512,
+      "posting_url": "https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=7621&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Assistant Professor Early American or U.S. History/History Social Studies Teaching Coordinator",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "History",
+      "area_key_words": "Coordinator",
+      "deadline_of_application": "",
+      "posted_date": "11/09/2026",
+      "position_start_date": ""
+    },
+    "https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=7622&PostingSeq=1&SiteId=1": {
+      "school_id": 1512,
+      "posting_url": "https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=7622&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Nonpermanent Pool - Clerical",
+      "position_type": "Unclassified",
+      "job_term": "Part-time",
+      "department_or_school": "Human Resources",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/02/2026",
+      "position_start_date": ""
+    },
+    "https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=7623&PostingSeq=1&SiteId=1": {
+      "school_id": 1512,
+      "posting_url": "https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=7623&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Nonpermanent Pool - Skilled Trades/Maintenance/Custodial/Grounds",
+      "position_type": "Unclassified",
+      "job_term": "Part-time",
+      "department_or_school": "Human Resources",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/02/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 1512,
   "status": "complete",
-  "updated_at": "2026-11-09T22:51:22+00:00",
-  "completed_at": "2026-11-09T22:51:22+00:00",
+  "updated_at": "2026-11-10T22:32:41+00:00",
+  "completed_at": "2026-11-10T22:32:41+00:00",
   "last_error": ""
 }

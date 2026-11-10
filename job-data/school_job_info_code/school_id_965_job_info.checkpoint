@@ -2435,6 +2435,13 @@
     "https://apply.interfolio.com/197174": {
       "title": "Associate Professor or Professor at CUMC - Division Chief, Stroke",
       "description": "Department: Columbia University in the City of New York: Columbia University Irving Medical Center: Vagelos College of Physicians and Surgeons: Neurology Location: 02 Posted: Nov 07, 2026 Columbia University Irving Medical Center seeks an accomplished academic leader to serve as Division Chief of Stroke in the Department of Neurology. The Columbia Stroke program seeks to advance interdisciplinary clinical care, promote neuroscience research, and facilitate innovative education within a robust academic enterprise. Applicants must hold a senior faculty position (Associate or Full Professor) and have completed an ACGME-accredited fellowship training in vascular neurology and be ABPN Vascular Neurology Board-certified. The stroke Director will perform clinical activities including time on the inpatient-stroke and consult services and on-call coverage, and be involved in various research, outreach, and teaching activities within the Columbia-New York Presbyterian Comprehensive Stroke Center. Administrative responsibilities include development of divisional goals, budgets, and operations, evaluation of faculty performance, and participation in departmental committee meetings as required. Strong previous performance of providing quality and efficiency in patient care and operations, experience with clinical research, and strong teaching and mentorship background are preferred. Salary and will be commensurate with experience, training and achievements. MD degree or equivalent ACGME-accredited fellowship training in vascular neurology ABPN Vascular Neurology Board-certified."
+    },
+    "https://apply.interfolio.com/197168": {
+      "title": "Associate Research Scientist",
+      "description": "Department: Columbia University in the City of New York: Columbia University Irving Medical Center: Vagelos College of Physicians and Surgeons: Aaron Diamond AIDS Research Center Location: 02 Posted: Nov 10, 2026 Position Summary: Dr. David Ho's lab at Columbia University Irving Medical Center, Department of Medicine, the Aaron Diamond AIDS Research Center (ADARC) is seeking a highly motivated and talented individual to join his team as an Associate Research Scientist. The Ho lab focuses on basic and clinical development of antibody therapeutics and vaccines against HIV-1, SARS-Cov-2 and other Infectious Diseases. This position offers an exciting opportunity to contribute to cutting-edge research in the field of Virology. The primary focus of this position is to conduct research on antiviral antibodies against SARS-CoV-2 and H5N1 influenza virus to understand the evolution of these viruses under antibody pressure.  The experiments will involve isolation and characterization of monoclonal antibodies, generation of pseudoviruses, and performance of virus neutralization assays.  Other skills needed include mutagenesis studies to create viral variants and modified monoclonal antibodies, as well as carrying out PCR and sequencing.  A basic understanding of virology is essential. The applicant should be self-motivated and possess excellent communication and interpersonal skills, including the ability to present research findings to diverse audiences. The applicants should also have outstanding organizational skills, the ability to multitask, and be able to work independently as well as within a team. Specific Duties include: Participate in experimental designs. Plan and execute bench experiments. Collect data and perform data analysis. Summarize data and write manuscripts. Perform additional tasks as directed by the PI. Oversee the work of more junior research staff and may direct the implementation of laboratory processes/protocols. Ho Lab details can be found here: https://www.adarc.cuimc.columbia.edu/research/research-labs/ho-lab Minimum Qualifications: Doctoral degree in Virology, Microbiology, Molecular Biology or related field. At least 3 years of postdoctoral research experience Please include a cover letter with CV/resume."
+    },
+    "https://apply.interfolio.com/197172": {
+      "error": "RuntimeError: interfolio position has no name (closed?)"
     }
   },
   "rows": {
@@ -9667,11 +9674,26 @@
       "deadline_of_application": "",
       "posted_date": "Nov 07, 2026",
       "position_start_date": ""
+    },
+    "https://apply.interfolio.com/197168": {
+      "school_id": 965,
+      "posting_url": "https://apply.interfolio.com/197168",
+      "job_title_in_post": "Associate Research Scientist",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "Department of Medicine, the Aaron Diamond AIDS Research Center",
+      "area_key_words": "Virology",
+      "deadline_of_application": "",
+      "posted_date": "Nov 10, 2026",
+      "position_start_date": ""
+    },
+    "https://apply.interfolio.com/197172": {
+      "error": "RuntimeError: interfolio position has no name (closed?)"
     }
   },
   "school_id": 965,
   "status": "complete",
-  "updated_at": "2026-11-09T22:47:34+00:00",
-  "completed_at": "2026-11-09T22:47:34+00:00",
+  "updated_at": "2026-11-10T22:24:15+00:00",
+  "completed_at": "2026-11-10T22:24:15+00:00",
   "last_error": ""
 }
