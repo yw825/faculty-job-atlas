@@ -34,7 +34,9 @@ POSTING_RE = re.compile(r'^https://recruiting\.ultipro\.ca/GOV5000GOVE/JobBoard/
 
 
 def find_links():
-    return lib.scrape_matching(CAREERS_LINK, POSTING_RE, render=True)
+    # The board's API, not the rendered page: the page with ?q=&o=postedDateDesc
+    # started answering "maximum number of filters has been reached" (Nov 2026).
+    return lib.scrape_ultipro(CAREERS_LINK.split('?')[0])
 
 
 def main():

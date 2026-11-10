@@ -35,8 +35,13 @@ PLATFORM = 'peopleadmin'
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
+# Idaho moved from PeopleAdmin (now "Postings (0)") to a new PageUp career
+# site in Nov 2026; every job is listed (the map keeps faculty only).
+BOARD = 'https://careers.uidaho.edu/jobs/search'
+
+
 def find_links():
-    return lib.scrape_peopleadmin_search(CAREERS_LINK)
+    return lib.scrape_pageup_listing(BOARD)
 
 
 def main():

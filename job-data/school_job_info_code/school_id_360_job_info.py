@@ -38,12 +38,8 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    """PeopleAdmin posting. Idaho titles many postings by class only ("Regular Faculty"); the unit is added to those."""
-    title, text = jinfo.fetch_detail_peopleadmin(url)
-    unit = re.search(r'Primary Unit\s+(.{2,80}?)\s+Employee Category', text)
-    if unit and ' - ' not in title and unit.group(1).lower() not in title.lower():
-        title = f'{title} - {unit.group(1)}'
-    return title, text
+    """New PageUp career site (careers.uidaho.edu/jobs/<slug>)."""
+    return jinfo.fetch_detail_pageup(url)
 
 
 def main():

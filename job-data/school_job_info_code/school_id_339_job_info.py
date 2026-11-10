@@ -40,7 +40,8 @@ JOB_POSTINGS_CHECKPOINT = os.path.join(
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_info.checkpoint')
 
 def fetch_detail(url):
-    return jinfo.fetch_detail_accordion(url, HEADER)
+    """Workable posting (board moved from dbq.edu, Nov 2026)."""
+    return jinfo.fetch_detail_workable(url)
 
 
 def main():

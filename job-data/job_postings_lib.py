@@ -1913,6 +1913,44 @@ def scrape_pageup_listing(listing_url):
                 fresh += 1
         if fresh < 400:
             break
+    if not links:
+        links = _pageup_new_listing(base)
+    return links
+
+
+def _pageup_new_listing(listing_url, max_clicks=30):
+    """PageUp's newer career site (La Trobe, Charles Sturt since Nov 2026):
+    postings are <host>/jobs/<title-slug>[-<uuid>], not /job/<id>/, and the
+    list grows by pressing "Show More" rather than by page-items."""
+    from urllib.parse import urljoin, urlparse
+    host = urlparse(listing_url).netloc
+
+    def grow(page):
+        last = -1
+        for _ in range(max_clicks):
+            n = page.locator('a[href*="/jobs/"]').count()
+            if n == last:
+                break
+            last = n
+            buttons = page.locator('button:has-text("Show More"), a:has-text("Show More"), '
+                                   'button:has-text("Load more"), button:has-text("More jobs")')
+            clicked = False
+            for k in range(buttons.count()):
+                try:
+                    buttons.nth(k).click(timeout=3000)
+                    clicked = True
+                except Exception:
+                    pass
+            if not clicked:
+                break
+            page.wait_for_timeout(2500)
+
+    html = fetch_rendered(listing_url, wait_ms=6000, actions=grow, timeout=60000)
+    links = []
+    for a in BeautifulSoup(html or '', 'html.parser').find_all('a', href=True):
+        url = urljoin(listing_url, a['href']).split('?')[0].split('#')[0]
+        if urlparse(url).netloc == host and re.search(r'/jobs/[a-z0-9][a-z0-9-]{8,}$', url) and url not in links:
+            links.append(url)
     return links
 
 
@@ -2745,6 +2783,35 @@ def scrape_interviewexchange(url, host=None):
         host = m.group(1)
     ids = dict.fromkeys(re.findall(r'(?:jobofferdetails|candapply)\.jsp\?JOBID=(\d+)', html))
     return [f'https://{host}/jobofferdetails.jsp?JOBID={i}' for i in ids]
+
+
+_CLEARCOMPANY_CACHE = {}
+
+
+def clearcompany_jobs(site_id):
+    """[job dict] for a ClearCompany career site (HRM Direct boards moved
+    there in Nov 2026: newhaven.hrmdirect.com -> apply.clearcompany.com/
+    newhaven). The site's own page calls this JSON API; each job carries
+    positionTitle, departmentName, description and postedDate."""
+    if site_id in _CLEARCOMPANY_CACHE:
+        return _CLEARCOMPANY_CACHE[site_id]
+    jobs, page = [], 0
+    while True:
+        status, text = fetch_static(f'https://careers-api.clearcompany.com/v1/{site_id}'
+                                    f'?pageIndex={page}&pageSize=100&source=CJB-0', timeout=40)
+        if status != 200:
+            raise RuntimeError(f'clearcompany api status={status}')
+        data = json.loads(text)
+        jobs += data.get('results') or []
+        if len(jobs) >= (data.get('totalCount') or 0) or not data.get('results'):
+            break
+        page += 1
+    _CLEARCOMPANY_CACHE[site_id] = jobs
+    return jobs
+
+
+def scrape_clearcompany(tenant, site_id):
+    return [f'https://apply.clearcompany.com/{tenant}?jobId={j["id"]}' for j in clearcompany_jobs(site_id)]
 
 
 def scrape_taleo_classic(list_url):

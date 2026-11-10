@@ -44,8 +44,13 @@ HEADER = 'div.module.accordion h3'
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
+# Dubuque's jobs page now links "Current Openings" to Workable (Nov 2026);
+# the accordion of jobs on dbq.edu is gone.
+BOARD = 'https://apply.workable.com/universityofdubuque/'
+
+
 def find_links():
-    return [f'{CAREERS_LINK}#{slug}' for slug, _t, _b in lib.accordion_items(CAREERS_LINK, HEADER)]
+    return lib.scrape_workable(BOARD)
 
 
 def main():

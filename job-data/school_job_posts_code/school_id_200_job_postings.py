@@ -43,11 +43,12 @@ BOARD = 'https://newhaven.hrmdirect.com/employment/'
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
+# HRM Direct moved this board to ClearCompany in Nov 2026.
+CLEARCOMPANY = ('newhaven', '3fe0e81c-78c5-13cf-2d00-f594dfac5f7f')
+
+
 def find_links():
-    status, html = lib.fetch_static(BOARD + 'job-openings.php?sort=td&search=true&nohd=&dept=-1&city=-1&state=-1', timeout=40)
-    if status != 200:
-        raise RuntimeError(f'job openings status={status}')
-    return [f'{BOARD}job-opening.php?req={r}&&#job' for r in dict.fromkeys(re.findall(r'job-opening\.php\?req=(\d+)', html))]
+    return lib.scrape_clearcompany(*CLEARCOMPANY)
 
 
 def main():

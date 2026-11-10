@@ -46,8 +46,12 @@ BOARD = 'https://mssu.hrmdirect.com/employment/job-openings.php?search=true'
 CHECKPOINT_PATH = os.path.join(HERE, f'school_id_{SCHOOL_ID}_job_postings.checkpoint')
 
 
+# HRM Direct moved this board to ClearCompany in Nov 2026.
+CLEARCOMPANY = ('mssu', '84e37694-743f-8056-758c-3b5682a43a3c')
+
+
 def find_links():
-    return lib.scrape_matching(BOARD, POSTING_RE, render=False)
+    return lib.scrape_clearcompany(*CLEARCOMPANY)
 
 
 def main():

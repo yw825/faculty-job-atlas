@@ -1,28 +1,15 @@
 {
   "links": [
-    "https://my.corehr.com/pls/iadtrecruit/erq_jobspec_version_4.jobspec?p_id=007443",
+    "https://my.corehr.com/pls/iadtrecruit/erq_jobspec_version_4.jobspec?p_id=007522",
     "https://my.corehr.com/pls/iadtrecruit/erq_jobspec_version_4.jobspec?p_id=007503",
     "https://my.corehr.com/pls/iadtrecruit/erq_jobspec_version_4.jobspec?p_id=007504",
     "https://my.corehr.com/pls/iadtrecruit/erq_jobspec_version_4.jobspec?p_id=007502",
-    "https://my.corehr.com/pls/iadtrecruit/erq_jobspec_version_4.jobspec?p_id=007467",
-    "https://my.corehr.com/pls/iadtrecruit/erq_jobspec_version_4.jobspec?p_id=007423",
-    "https://my.corehr.com/pls/iadtrecruit/erq_jobspec_version_4.jobspec?p_id=007465",
-    "https://my.corehr.com/pls/iadtrecruit/erq_jobspec_version_4.jobspec?p_id=007466",
-    "https://my.corehr.com/pls/iadtrecruit/erq_jobspec_version_4.jobspec?p_id=007464",
-    "https://my.corehr.com/pls/iadtrecruit/erq_jobspec_version_4.jobspec?p_id=007482",
-    "https://my.corehr.com/pls/iadtrecruit/erq_jobspec_version_4.jobspec?p_id=007463",
-    "https://my.corehr.com/pls/iadtrecruit/erq_jobspec_version_4.jobspec?p_id=007462",
-    "https://my.corehr.com/pls/iadtrecruit/erq_jobspec_version_4.jobspec?p_id=007542",
-    "https://my.corehr.com/pls/iadtrecruit/erq_jobspec_version_4.jobspec?p_id=007444",
-    "https://my.corehr.com/pls/iadtrecruit/erq_jobspec_version_4.jobspec?p_id=007483",
-    "https://my.corehr.com/pls/iadtrecruit/erq_jobspec_version_4.jobspec?p_id=007442",
-    "https://my.corehr.com/pls/iadtrecruit/erq_jobspec_version_4.jobspec?p_id=007522"
+    "https://my.corehr.com/pls/iadtrecruit/erq_jobspec_version_4.jobspec?p_id=007542"
   ],
   "school_id": 1916,
   "status": "complete",
-  "updated_at": "2026-11-09T23:39:22+00:00",
+  "updated_at": "2026-11-10T00:16:12+00:00",
   "started_at": "2026-11-02T19:42:29+00:00",
-  "completed_at": "2026-11-09T23:39:22+00:00",
-  "last_error": "",
-  "last_warning": "2026-11-09T23:39:22+00:00: board returned 5 links vs 17 before; old set kept"
+  "completed_at": "2026-11-10T00:16:12+00:00",
+  "last_error": ""
 }

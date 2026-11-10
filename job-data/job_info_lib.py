@@ -2985,6 +2985,20 @@ def fetch_detail_taleo_tbe(url):
     return title, desc
 
 
+def fetch_detail_clearcompany(url, site_id):
+    """(title, description) for apply.clearcompany.com/<tenant>?jobId=<id>,
+    from the career site's JSON (jlib.clearcompany_jobs), not the SPA page."""
+    from bs4 import BeautifulSoup
+    job_id = re.search(r'jobId=([0-9a-f-]{36})', url).group(1)
+    job = next((j for j in jlib.clearcompany_jobs(site_id) if j.get('id') == job_id), None)
+    if not job:
+        raise RuntimeError('clearcompany job not on the site (closed?)')
+    text = BeautifulSoup(job.get('description') or '', 'html.parser').get_text(' ', strip=True)
+    head = [f"Department: {job['departmentName']}" if job.get('departmentName') else '',
+            f"Posted: {str(job['postedDate'])[:10]}" if job.get('postedDate') else '']
+    return (job.get('positionTitle') or '').strip(), '\n'.join(h for h in head if h) + '\n' + text
+
+
 def fetch_detail_cu_taleo(url):
     """(title, description) for a CU system Taleo posting
     (jobdetail.ftl?job=<n>), from the fields its page embeds
@@ -3020,6 +3034,10 @@ def fetch_detail_pageup(url):
     of that block that spell out the URL slug (so punctuation and case come
     from the page), falling back to the slug itself. Hosts that answer plain
     requests with an empty 202 are rendered."""
+    # PageUp's newer career site (La Trobe, Charles Sturt, Nov 2026) serves
+    # postings at /jobs/<slug>; its page has none of the classic markup.
+    if '/jobs/' in url and not re.search(r'/job/\d+', url):
+        return fetch_detail_generic(url)
     from bs4 import BeautifulSoup
     status, html = jlib.fetch_static(url, timeout=40)
     if status != 200 or 'job-content' not in (html or ''):
