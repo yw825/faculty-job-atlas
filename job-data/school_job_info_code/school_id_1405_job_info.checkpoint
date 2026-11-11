@@ -343,6 +343,14 @@
     "https://schreiner.edu/job/student-success-coach/": {
       "title": "student success coach",
       "description": "Checking your browser... Javascript required Confirm you are human We need to check you're not a robot before you can enter this site. I am human I am human I am human I am human I am human I am human I am human I am human I am human I am human"
+    },
+    "https://schreiner.edu/job/assistant-men-soccer-coach-and-head-jv-men-soccer-coach/": {
+      "title": "assistant men soccer coach and head jv men soccer coach",
+      "description": "Checking your browser... Javascript required Confirm you are human We need to check you're not a robot before you can enter this site. I am human I am human I am human I am human I am human I am human I am human I am human I am human I am human"
+    },
+    "https://schreiner.edu/job/assistant-baseball-coach-and-head-jv-baseball-coach/": {
+      "title": "assistant baseball coach and head jv baseball coach",
+      "description": "Checking your browser... Javascript required Confirm you are human We need to check you're not a robot before you can enter this site. I am human I am human I am human I am human I am human I am human I am human I am human I am human I am human"
     }
   },
   "rows": {
@@ -1376,11 +1384,35 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://schreiner.edu/job/assistant-men-soccer-coach-and-head-jv-men-soccer-coach/": {
+      "school_id": 1405,
+      "posting_url": "https://schreiner.edu/job/assistant-men-soccer-coach-and-head-jv-men-soccer-coach/",
+      "job_title_in_post": "assistant men soccer coach and head jv men soccer coach",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://schreiner.edu/job/assistant-baseball-coach-and-head-jv-baseball-coach/": {
+      "school_id": 1405,
+      "posting_url": "https://schreiner.edu/job/assistant-baseball-coach-and-head-jv-baseball-coach/",
+      "job_title_in_post": "assistant baseball coach and head jv baseball coach",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1405,
   "status": "complete",
-  "updated_at": "2026-11-10T22:26:33+00:00",
-  "completed_at": "2026-11-10T22:26:33+00:00",
+  "updated_at": "2026-11-11T20:36:03+00:00",
+  "completed_at": "2026-11-11T20:36:03+00:00",
   "last_error": ""
 }

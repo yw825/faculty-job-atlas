@@ -1084,6 +1084,36 @@
       "title": "PhD scholarship in MRI radiofrequency detector development - DTU Space",
       "description": "A typical MRI scanner uses radiofrequency detectors to image water molecules. Imaging other molecules and nuclei requires additional new detectors and antennas. The objective of the PhD-project is to demonstrate MR imaging of nuclei other than hydrogen by building MRI detectors and antennas, which can cover frequencies of multiple nuclei.",
       "department": null
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8572": {
+      "title": "Postdoc in 3D-Printed Lunar Regolith Antennas and Metasurfaces - DTU Space",
+      "description": "Contribute to the next generation of lunar radio telescopes. Develop and test 3D-printed regolith metasurfaces for extremely large-aperture antennas, enabling deep-space observations and future lunar infrastructure.",
+      "department": null
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8574": {
+      "title": "Postdoc in Multiphysics Modelling of Laser-Material Interactions under Vacuum - DTU Construct",
+      "description": "Join the MOONPRINT project to develop advanced multiphysics models of laser–regolith interaction under vacuum. Model melt–vapor–particle interactions using CFD and particle methods to uncover the fundamental physics governing laser processing of lunar regolith.",
+      "department": null
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8576": {
+      "title": "Økonomiadministrator hos DTU Construct",
+      "description": "Får du ekstra glæde af velfungerende processer, høj compliance og opfølgning, der faktisk bliver brugt til noget vigtigt? Drømmer du samtidig om et job, hvor du kan bruge din administrative værktøjskasse til noget, der gør en forskel for forskning og samfund? Så har vi måske dit næste job som økonomiadministrator.",
+      "department": null
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8583": {
+      "title": "Three PhD Scholarships in Robotics, Mechatronics and Autonomous Systems for Mining Applications - DTU Electro",
+      "description": "Join DTU Electro for one of three PhD positions developing robotic manipulation, mechatronic platforms, and autonomous planning and control for next-generation mining applications. Work with European partners to design, control and experimentally validate robotic technologies.",
+      "department": null
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8584": {
+      "title": "Outreach coordinator - DTU Nanolab",
+      "description": "Outreach coordinator at DTU Nanolab within the Q-PLANET project, towards building neutral atom quantum devices.",
+      "department": null
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8585": {
+      "title": "PhD scholarship in mineral resources - DTU Sustain",
+      "description": "At DTU Sustain, you will break new ground by entering an interdisciplinary and international collaboration focusing on critical raw materials. We offer an exciting PhD project on understanding thermodynamic properties of REE ores.",
+      "department": null
     }
   },
   "rows": {
@@ -3655,11 +3685,83 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8572": {
+      "school_id": 1669,
+      "posting_url": "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8572",
+      "job_title_in_post": "Postdoc in 3D-Printed Lunar Regolith Antennas and Metasurfaces - DTU Space",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8574": {
+      "school_id": 1669,
+      "posting_url": "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8574",
+      "job_title_in_post": "Postdoc in Multiphysics Modelling of Laser-Material Interactions under Vacuum - DTU Construct",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Multiphysics Modelling of Laser-Material Interactions under Vacuum",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8576": {
+      "school_id": 1669,
+      "posting_url": "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8576",
+      "job_title_in_post": "Økonomiadministrator hos DTU Construct",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8583": {
+      "school_id": 1669,
+      "posting_url": "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8583",
+      "job_title_in_post": "Three PhD Scholarships in Robotics, Mechatronics and Autonomous Systems for Mining Applications - DTU Electro",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Robotics, Mechatronics and Autonomous Systems for Mining Applications",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8584": {
+      "school_id": 1669,
+      "posting_url": "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8584",
+      "job_title_in_post": "Outreach coordinator - DTU Nanolab",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8585": {
+      "school_id": 1669,
+      "posting_url": "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8585",
+      "job_title_in_post": "PhD scholarship in mineral resources - DTU Sustain",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1669,
   "status": "complete",
-  "updated_at": "2026-11-10T22:41:47+00:00",
-  "completed_at": "2026-11-10T22:41:47+00:00",
+  "updated_at": "2026-11-11T20:51:39+00:00",
+  "completed_at": "2026-11-11T20:51:39+00:00",
   "last_error": ""
 }

@@ -263,6 +263,14 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/3C67A483237F6A324625AB95D568B0C1/jobs/140281": {
       "title": "Public Safety-Student Cadet",
       "description": "Public Safety-Student Cadet You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/3C67A483237F6A324625AB95D568B0C1/jobs/140843": {
+      "title": "Finance and Admin-Student Assistant",
+      "description": "Finance and Admin-Student Assistant You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/3C67A483237F6A324625AB95D568B0C1/jobs/139417": {
+      "title": "Assistant Professor of Pharmaceutics",
+      "description": "Assistant Professor of Pharmaceutics You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -1056,11 +1064,35 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/3C67A483237F6A324625AB95D568B0C1/jobs/140843": {
+      "school_id": 573,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/3C67A483237F6A324625AB95D568B0C1/jobs/140843",
+      "job_title_in_post": "Finance and Admin-Student Assistant",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/3C67A483237F6A324625AB95D568B0C1/jobs/139417": {
+      "school_id": 573,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/3C67A483237F6A324625AB95D568B0C1/jobs/139417",
+      "job_title_in_post": "Assistant Professor of Pharmaceutics",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Pharmaceutics",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 573,
   "status": "complete",
-  "updated_at": "2026-11-10T22:15:59+00:00",
-  "completed_at": "2026-11-10T22:15:59+00:00",
+  "updated_at": "2026-11-11T20:24:14+00:00",
+  "completed_at": "2026-11-11T20:24:14+00:00",
   "last_error": ""
 }

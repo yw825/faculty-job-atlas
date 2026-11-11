@@ -267,6 +267,14 @@
     "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2565": {
       "title": "Lecturer/Senior Lecturer in Social Work",
       "description": "Closing Date: 23/11/2026 Department: SoSW - AKL Lecturer/Senior Lecturer in Social Work. Massey University. 23-Nov-2026 11:00 PM | JR-2565 | Lecturer/Senior Lecturer in Social Work | Massey University | SoSW - AKL | Ongoing"
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2563": {
+      "title": "Lecturer/Senior Lecturer - Concept Design",
+      "description": "Closing Date: 25/11/2026 Department: Auckland Campus Lecturer/Senior Lecturer - Concept Design. Massey University. 25-Nov-2026 11:30 PM | JR-2563 | Lecturer/Senior Lecturer - Concept Design | Massey University | Fixed-Term | Auckland Campus"
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2577": {
+      "title": "Residential Student Support Coordinator",
+      "description": "Closing Date: 25/11/2026 Department: SE - Accommodation Services (MAN) Residential Student Support Coordinator. Massey University. 25-Nov-2026 11:00 PM | JR-2577 | Residential Student Support Coordinator | Massey University | SE - Accommodation Services (MAN) | Ongoing | Manawatu Campus"
     }
   },
   "rows": {
@@ -1059,11 +1067,35 @@
       "deadline_of_application": "23/11/2026",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2563": {
+      "school_id": 1829,
+      "posting_url": "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2563",
+      "job_title_in_post": "Lecturer/Senior Lecturer - Concept Design",
+      "position_type": "Assistant_Professor; Associate_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Concept Design",
+      "deadline_of_application": "25/11/2026",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2577": {
+      "school_id": 1829,
+      "posting_url": "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2577",
+      "job_title_in_post": "Residential Student Support Coordinator",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "25/11/2026",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1829,
   "status": "complete",
-  "updated_at": "2026-11-10T22:47:10+00:00",
-  "completed_at": "2026-11-10T22:47:10+00:00",
+  "updated_at": "2026-11-11T20:55:16+00:00",
+  "completed_at": "2026-11-11T20:55:16+00:00",
   "last_error": ""
 }

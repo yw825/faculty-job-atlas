@@ -2647,6 +2647,21 @@
       "title": "Research Assistant",
       "description": "Posted: 11/05/2026 Location: Augusta University Department: GCC-Georgia Cancer Center Research Assistant",
       "department": "GCC-Georgia Cancer Center"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305658&PostingSeq=1&SiteId=12000": {
+      "title": "HVAC Mechanic 2",
+      "description": "Posted: 11/11/2026 Location: Augusta University Department: Facilities Operations HVAC Mechanic 2",
+      "department": "Facilities Operations"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303926&PostingSeq=1&SiteId=12000": {
+      "title": "Open Rank- Medical Physicist in Radiology and Imaging",
+      "description": "Posted: 11/11/2026 Location: Augusta University Department: MCG-Radiology Medical Physics Open Rank- Medical Physicist in Radiology and Imaging",
+      "department": "MCG-Radiology Medical Physics"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305329&PostingSeq=1&SiteId=12000": {
+      "title": "Postdoctoral Fellow - MCG Immunology Center of GA",
+      "description": "Posted: 11/10/2026 Location: Augusta University Department: MCG-Immunology Center of GA Postdoctoral Fellow - MCG Immunology Center of GA",
+      "department": "MCG-Immunology Center of GA"
     }
   },
   "rows": {
@@ -8963,11 +8978,47 @@
       "deadline_of_application": "",
       "posted_date": "11/05/2026",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305658&PostingSeq=1&SiteId=12000": {
+      "school_id": 282,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305658&PostingSeq=1&SiteId=12000",
+      "job_title_in_post": "HVAC Mechanic 2",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Facilities Operations",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/11/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303926&PostingSeq=1&SiteId=12000": {
+      "school_id": 282,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303926&PostingSeq=1&SiteId=12000",
+      "job_title_in_post": "Open Rank- Medical Physicist in Radiology and Imaging",
+      "position_type": "Assistant_Professor; Associate_Professor; Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "MCG-Radiology Medical Physics",
+      "area_key_words": "Radiology and Imaging",
+      "deadline_of_application": "",
+      "posted_date": "11/11/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305329&PostingSeq=1&SiteId=12000": {
+      "school_id": 282,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305329&PostingSeq=1&SiteId=12000",
+      "job_title_in_post": "Postdoctoral Fellow - MCG Immunology Center of GA",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "MCG-Immunology Center of GA",
+      "area_key_words": "MCG Immunology Center of GA",
+      "deadline_of_application": "",
+      "posted_date": "11/10/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 282,
   "status": "complete",
-  "updated_at": "2026-11-10T22:09:55+00:00",
-  "completed_at": "2026-11-10T22:09:55+00:00",
+  "updated_at": "2026-11-11T20:16:25+00:00",
+  "completed_at": "2026-11-11T20:16:25+00:00",
   "last_error": ""
 }

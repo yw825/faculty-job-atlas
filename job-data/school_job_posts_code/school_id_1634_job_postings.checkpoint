@@ -6,7 +6,6 @@
     "https://www.yorku.ca/unit/vpf/wp-content/uploads/sites/1070/2026/10/LSE_ME.pdf",
     "https://www.yorku.ca/unit/vpf/wp-content/uploads/sites/1070/2026/09/AMPD_MUS_Tech.pdf",
     "https://www.yorku.ca/unit/vpf/wp-content/uploads/sites/1070/2026/10/HH_GH_PH.pdf",
-    "https://www.yorku.ca/unit/vpf/wp-content/uploads/sites/1070/2026/09/AMPD_VAAH_Sculp.pdf",
     "https://www.yorku.ca/unit/vpf/wp-content/uploads/sites/1070/2026/11/LAPS_ADMS_MA.pdf",
     "https://www.yorku.ca/unit/vpf/wp-content/uploads/sites/1070/2026/10/LSE_MECH_MechEng.pdf",
     "https://www.yorku.ca/unit/vpf/wp-content/uploads/sites/1070/2026/11/ED_PrimJun.pdf",
@@ -21,12 +20,14 @@
     "https://www.yorku.ca/unit/vpf/wp-content/uploads/sites/1070/2026/10/HH_PSYC_CLA.pdf",
     "https://www.yorku.ca/unit/vpf/wp-content/uploads/sites/1070/2026/10/LSE_MECH_CLA.pdf",
     "https://www.yorku.ca/unit/vpf/wp-content/uploads/sites/1070/2026/10/SCI_MATH_CRCT2.pdf",
-    "https://www.yorku.ca/unit/vpf/wp-content/uploads/sites/1070/2026/09/PDV_FinIn.pdf"
+    "https://www.yorku.ca/unit/vpf/wp-content/uploads/sites/1070/2026/09/PDV_FinIn.pdf",
+    "https://www.yorku.ca/unit/vpf/wp-content/uploads/sites/1070/2026/11/PDV_Healthcare.pdf",
+    "https://www.yorku.ca/unit/vpf/wp-content/uploads/sites/1070/2026/11/PDV_Sustainability.pdf"
   ],
   "school_id": 1634,
   "status": "complete",
-  "updated_at": "2026-11-10T21:32:14+00:00",
+  "updated_at": "2026-11-11T19:40:51+00:00",
   "started_at": "2026-11-02T19:25:34+00:00",
-  "completed_at": "2026-11-10T21:32:14+00:00",
+  "completed_at": "2026-11-11T19:40:51+00:00",
   "last_error": ""
 }

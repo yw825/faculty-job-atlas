@@ -724,6 +724,11 @@
       "title": "Assistant Professor",
       "description": "The Section of Nephrology & Hypertension and the  Tulane Transplant Institute at Tulane University School of Medicine is recruiting for a Clinician-Educator faculty position. This position will have responsibilities in Transplant Nephrology and General Nephrology teaching and clinical programs of the Residents, Fellows, and medical students.  The candidate will have on-call coverage on a rotating basis. The physician will attend on the inpatient services along with the Fellows. The Physician will have outpatient duties on a continuing basis. ",
       "department": null
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/867": {
+      "title": "Adjunct Lecturer - Education Programs",
+      "description": "The Tulane School of Professional Advancement (SoPA) is seeking experienced adjunct instructors to apply to the Education Program. This posting is for the spring, summer, and fall semesters.",
+      "department": null
     }
   },
   "rows": {
@@ -2462,11 +2467,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/867": {
+      "school_id": 521,
+      "posting_url": "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/867",
+      "job_title_in_post": "Adjunct Lecturer - Education Programs",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "School of Professional Advancement",
+      "area_key_words": "Education Programs",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 521,
   "status": "complete",
-  "updated_at": "2026-11-10T22:14:29+00:00",
-  "completed_at": "2026-11-10T22:14:29+00:00",
+  "updated_at": "2026-11-11T20:22:42+00:00",
+  "completed_at": "2026-11-11T20:22:42+00:00",
   "last_error": ""
 }

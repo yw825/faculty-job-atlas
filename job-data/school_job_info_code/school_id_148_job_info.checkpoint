@@ -199,6 +199,10 @@
     "https://wd1.myworkdaysite.com/recruiting/scu/scu/job/Santa-Clara-CA/Quarterly-Lecturer---ELSJ-50---Law-and-Social-Justice_R8338": {
       "title": "Quarterly Lecturer - ELSJ 50 - Law and Social Justice",
       "description": ""
+    },
+    "https://wd1.myworkdaysite.com/recruiting/scu/scu/job/Santa-Clara-CA/Professor--Associate--Assistant-Professor_R8342": {
+      "title": "Full, Associate, Assistant Professor of Law",
+      "description": ""
     }
   },
   "rows": {
@@ -801,11 +805,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://wd1.myworkdaysite.com/recruiting/scu/scu/job/Santa-Clara-CA/Professor--Associate--Assistant-Professor_R8342": {
+      "school_id": 148,
+      "posting_url": "https://wd1.myworkdaysite.com/recruiting/scu/scu/job/Santa-Clara-CA/Professor--Associate--Assistant-Professor_R8342",
+      "job_title_in_post": "Full, Associate, Assistant Professor of Law",
+      "position_type": "Assistant_Professor; Associate_Professor; Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Law",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 148,
   "status": "complete",
-  "updated_at": "2026-11-10T22:07:26+00:00",
-  "completed_at": "2026-11-10T22:07:26+00:00",
+  "updated_at": "2026-11-11T20:12:42+00:00",
+  "completed_at": "2026-11-11T20:12:42+00:00",
   "last_error": ""
 }

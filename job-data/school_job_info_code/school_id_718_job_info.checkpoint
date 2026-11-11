@@ -434,6 +434,16 @@
       "title": "TT ASSISTANT PROFESSOR of Flute / UMKC CONSERVATORY / Music Division",
       "description": "Posted: 11/07/2026 Location: Kansas City Department: Music General TT ASSISTANT PROFESSOR of Flute / UMKC CONSERVATORY / Music Division",
       "department": "Music General"
+    },
+    "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61715&PostingSeq=1&SiteId=8": {
+      "title": "TT ASSISTANT PROFESSOR of Clinical Psychology / UMKC School of Education, Social Work & Psychological Sciences/ Psychology & Counseling",
+      "description": "Posted: 11/10/2026 Location: Kansas City Department: Psychology and Counseling TT ASSISTANT PROFESSOR of Clinical Psychology / UMKC School of Education, Social Work & Psychological Sciences/ Psychology & Counseling",
+      "department": "Psychology and Counseling"
+    },
+    "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61719&PostingSeq=1&SiteId=8": {
+      "title": "TT ASSISTANT PROFESSOR of Psychology & Counseling/ UMKC School of Education, Social Work & Psychological Sciences/ Psychology & Counseling",
+      "description": "Posted: 11/10/2026 Location: Kansas City Department: Psychology and Counseling TT ASSISTANT PROFESSOR of Psychology & Counseling/ UMKC School of Education, Social Work & Psychological Sciences/ Psychology & Counseling",
+      "department": "Psychology and Counseling"
     }
   },
   "rows": {
@@ -1470,11 +1480,35 @@
       "deadline_of_application": "",
       "posted_date": "11/07/2026",
       "position_start_date": ""
+    },
+    "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61715&PostingSeq=1&SiteId=8": {
+      "school_id": 718,
+      "posting_url": "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61715&PostingSeq=1&SiteId=8",
+      "job_title_in_post": "TT ASSISTANT PROFESSOR of Clinical Psychology / UMKC School of Education, Social Work & Psychological Sciences/ Psychology & Counseling",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "Psychology and Counseling",
+      "area_key_words": "Education, Social Work & Psychological Sciences/ Psychology & Counseling",
+      "deadline_of_application": "",
+      "posted_date": "11/10/2026",
+      "position_start_date": ""
+    },
+    "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61719&PostingSeq=1&SiteId=8": {
+      "school_id": 718,
+      "posting_url": "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61719&PostingSeq=1&SiteId=8",
+      "job_title_in_post": "TT ASSISTANT PROFESSOR of Psychology & Counseling/ UMKC School of Education, Social Work & Psychological Sciences/ Psychology & Counseling",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Psychology and Counseling",
+      "area_key_words": "Education, Social Work & Psychological Sciences/ Psychology & Counseling",
+      "deadline_of_application": "",
+      "posted_date": "11/10/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 718,
   "status": "complete",
-  "updated_at": "2026-11-10T22:23:32+00:00",
-  "completed_at": "2026-11-10T22:23:32+00:00",
+  "updated_at": "2026-11-11T20:28:25+00:00",
+  "completed_at": "2026-11-11T20:28:25+00:00",
   "last_error": ""
 }

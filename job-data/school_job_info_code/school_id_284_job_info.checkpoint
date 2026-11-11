@@ -329,6 +329,11 @@
       "title": "Information Security Officer",
       "description": "Posted: 11/10/2026 Location: CCGA- Main Campus (Brunswick) Department: Technology Services Information Security Officer",
       "department": "Technology Services"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305655&PostingSeq=1&SiteId=63000": {
+      "title": "Assistant or Associate Professor of Teacher Education",
+      "description": "Posted: 11/11/2026 Location: CCGA- Main Campus (Brunswick) Department: School of Educ & Teacher Prep Assistant or Associate Professor of Teacher Education",
+      "department": "School of Educ & Teacher Prep"
     }
   },
   "rows": {
@@ -1119,11 +1124,23 @@
       "deadline_of_application": "",
       "posted_date": "11/10/2026",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305655&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305655&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Assistant or Associate Professor of Teacher Education",
+      "position_type": "Associate_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "School of Educ & Teacher Prep",
+      "area_key_words": "Teacher Education",
+      "deadline_of_application": "",
+      "posted_date": "11/11/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 284,
   "status": "complete",
-  "updated_at": "2026-11-10T22:13:50+00:00",
-  "completed_at": "2026-11-10T22:13:50+00:00",
+  "updated_at": "2026-11-11T20:17:10+00:00",
+  "completed_at": "2026-11-11T20:17:10+00:00",
   "last_error": ""
 }

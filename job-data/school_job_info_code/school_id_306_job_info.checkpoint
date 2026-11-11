@@ -144,6 +144,21 @@
       "title": "Assistant Controller of Grants & Financial Reporting",
       "description": "Posted: 02/11/2026 Location: Clayton State University Department: Office of Accounting Services Assistant Controller of Grants & Financial Reporting",
       "department": "Office of Accounting Services"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305872&PostingSeq=1&SiteId=28000": {
+      "title": "Executive Assistant to Dean",
+      "description": "Posted: 11/10/2026 Location: Clayton State University Department: Dean College of A & S Executive Assistant to Dean",
+      "department": "Dean College of A & S"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305898&PostingSeq=1&SiteId=28000": {
+      "title": "Instructional Designer (Teaching and Learning)",
+      "description": "Posted: 11/10/2026 Location: Clayton State University Department: Ctr for Exc. in Learn & Teach Instructional Designer (Teaching and Learning)",
+      "department": "Ctr for Exc. in Learn & Teach"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305550&PostingSeq=1&SiteId=28000": {
+      "title": "Production Manager",
+      "description": "Posted: 11/10/2026 Location: Clayton State University Department: Spivey Hall General Operations Production Manager",
+      "department": "Spivey Hall General Operations"
     }
   },
   "rows": {
@@ -494,11 +509,47 @@
       "deadline_of_application": "",
       "posted_date": "02/11/2026",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305872&PostingSeq=1&SiteId=28000": {
+      "school_id": 306,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305872&PostingSeq=1&SiteId=28000",
+      "job_title_in_post": "Executive Assistant to Dean",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Dean College of A & S",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/10/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305898&PostingSeq=1&SiteId=28000": {
+      "school_id": 306,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305898&PostingSeq=1&SiteId=28000",
+      "job_title_in_post": "Instructional Designer (Teaching and Learning)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Ctr for Exc. in Learn & Teach",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/10/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305550&PostingSeq=1&SiteId=28000": {
+      "school_id": 306,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305550&PostingSeq=1&SiteId=28000",
+      "job_title_in_post": "Production Manager",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Spivey Hall General Operations",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/10/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 306,
   "status": "complete",
-  "updated_at": "2026-11-10T22:15:57+00:00",
-  "completed_at": "2026-11-10T22:15:57+00:00",
+  "updated_at": "2026-11-11T20:19:03+00:00",
+  "completed_at": "2026-11-11T20:19:03+00:00",
   "last_error": ""
 }

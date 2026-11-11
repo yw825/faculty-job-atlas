@@ -1,5 +1,7 @@
 {
   "links": [
+    "https://jobs.radford.edu/jobs/special-purpose-faculty-management-radford-virginia-united-states",
+    "https://jobs.radford.edu/jobs/tenure-track-faculty-management-radford-virginia-united-states",
     "https://jobs.radford.edu/jobs/assistant-professor-tenure-track-9-month-nursing-radford-virginia-united-states",
     "https://jobs.radford.edu/jobs/associate-or-assistant-professor-design-thinking-12-month-radford-virginia-united-states",
     "https://jobs.radford.edu/jobs/associate-professor-or-professor-of-music-radford-virginia-united-states",
@@ -58,10 +60,9 @@
     "https://jobs.radford.edu/jobs/adjunct-faculty-business-law-radford-virginia-united-states"
   ],
   "school_id": 1484,
-  "status": "in_progress",
-  "updated_at": "2026-11-10T20:27:17+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-11T19:06:21+00:00",
   "started_at": "2026-09-08T03:07:54+00:00",
-  "completed_at": "2026-11-10T19:26:14+00:00",
-  "last_error": "",
-  "last_warning": "2026-11-10T19:26:14+00:00: board returned 0 links vs 56 before; old set kept"
+  "completed_at": "2026-11-11T19:06:21+00:00",
+  "last_error": ""
 }

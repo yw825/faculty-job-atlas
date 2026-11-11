@@ -1374,6 +1374,21 @@
       "title": "Assistant/Associate Professor - Division of Diabetes, Endocrinology and Metabolism",
       "description": "Posted: 11/09/2026 Location: Twin Cities Department: MED Endocrine & Diabetes Div Assistant/Associate Professor - Division of Diabetes, Endocrinology and Metabolism",
       "department": "MED Endocrine & Diabetes Div"
+    },
+    "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=377019&PostingSeq=1": {
+      "title": "Post-Doctoral Associate 9546",
+      "description": "Posted: 11/11/2026 Location: Twin Cities Department: Bioprod&Biosys Eng, Dept of Post-Doctoral Associate 9546",
+      "department": "Bioprod&Biosys Eng, Dept of"
+    },
+    "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=377074&PostingSeq=1": {
+      "title": "One Health Forecasting Postdoctoral Associate",
+      "description": "Posted: 11/10/2026 Location: Twin Cities Department: Raptor Center One Health Forecasting Postdoctoral Associate",
+      "department": "Raptor Center"
+    },
+    "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=377070&PostingSeq=1": {
+      "title": "Veterinary Public Health and Preventive Medicine (VPHPM) Resident",
+      "description": "Posted: 11/09/2026 Location: Twin Cities Department: Animal Hlth Food Safety, Ctr Veterinary Public Health and Preventive Medicine (VPHPM) Resident",
+      "department": "Animal Hlth Food Safety, Ctr"
     }
   },
   "rows": {
@@ -4664,11 +4679,47 @@
       "deadline_of_application": "",
       "posted_date": "11/09/2026",
       "position_start_date": ""
+    },
+    "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=377019&PostingSeq=1": {
+      "school_id": 680,
+      "posting_url": "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=377019&PostingSeq=1",
+      "job_title_in_post": "Post-Doctoral Associate 9546",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "Bioprod&Biosys Eng, Dept of",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/11/2026",
+      "position_start_date": ""
+    },
+    "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=377074&PostingSeq=1": {
+      "school_id": 680,
+      "posting_url": "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=377074&PostingSeq=1",
+      "job_title_in_post": "One Health Forecasting Postdoctoral Associate",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "Raptor Center",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/10/2026",
+      "position_start_date": ""
+    },
+    "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=377070&PostingSeq=1": {
+      "school_id": 680,
+      "posting_url": "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=377070&PostingSeq=1",
+      "job_title_in_post": "Veterinary Public Health and Preventive Medicine (VPHPM) Resident",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Animal Hlth Food Safety, Ctr",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/09/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 680,
   "status": "complete",
-  "updated_at": "2026-11-10T22:17:28+00:00",
-  "completed_at": "2026-11-10T22:17:28+00:00",
+  "updated_at": "2026-11-11T20:23:34+00:00",
+  "completed_at": "2026-11-11T20:23:34+00:00",
   "last_error": ""
 }

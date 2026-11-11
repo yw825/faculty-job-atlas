@@ -63,6 +63,10 @@
     "https://temple.taleo.net/careersection/tu_ex_faculty/jobdetail.ftl?job=26002754": {
       "title": "Tenure Track Assistant Professor of Health and Rehabilitation Sciences",
       "description": "Human Resources: Career Opportunities Contact Us | Site Map HR Home Prospective Employees Benefits Training Go to the main content section. | My Account Options | Sign In This service is set to disconnect automatically after {0} minutes of inactivity. Your session will end in {1} minutes. Click OK to reset the timer to {0} minutes. You have been signed out. This service is set to sign out after {0} minutes of inactivity. Job Search My Jobpage Basic Search | My Submissions | My Job Cart | My Saved Searches | Beginning of the main content section. Return to the home page Printable Format Return to previous position on page - ( ) Description Qualifications Primary Location : Other Locations : Job : Schedule : Shift : Employee Status : Refer a friend for this job Refer a friend Refer a candidate Submit a candidate's profile About Us | Site Map | Contact Us | © Temple University Temple University is an Affirmative Action, Equal Opportunity Employer, m/f/d/v. If you require assistance completing your application, please call 215-204-4008 or email taleohelp@temple.edu ."
+    },
+    "https://temple.taleo.net/careersection/tu_ex_faculty/jobdetail.ftl?job=26002777": {
+      "title": "Tenure Track Associate Professor in Social Work",
+      "description": "Human Resources: Career Opportunities Contact Us | Site Map HR Home Prospective Employees Benefits Training Go to the main content section. | My Account Options | Sign In This service is set to disconnect automatically after {0} minutes of inactivity. Your session will end in {1} minutes. Click OK to reset the timer to {0} minutes. You have been signed out. This service is set to sign out after {0} minutes of inactivity. Job Search My Jobpage Basic Search | My Submissions | My Job Cart | My Saved Searches | Beginning of the main content section. Return to the home page Printable Format Return to previous position on page - ( ) Description Qualifications Primary Location : Other Locations : Job : Schedule : Shift : Employee Status : Refer a friend for this job Refer a friend Refer a candidate Submit a candidate's profile About Us | Site Map | Contact Us | © Temple University Temple University is an Affirmative Action, Equal Opportunity Employer, m/f/d/v. If you require assistance completing your application, please call 215-204-4008 or email taleohelp@temple.edu ."
     }
   },
   "rows": {
@@ -257,11 +261,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://temple.taleo.net/careersection/tu_ex_faculty/jobdetail.ftl?job=26002777": {
+      "school_id": 1193,
+      "posting_url": "https://temple.taleo.net/careersection/tu_ex_faculty/jobdetail.ftl?job=26002777",
+      "job_title_in_post": "Tenure Track Associate Professor in Social Work",
+      "position_type": "Associate_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Social Work",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1193,
   "status": "complete",
-  "updated_at": "2026-11-10T22:24:37+00:00",
-  "completed_at": "2026-11-10T22:24:37+00:00",
+  "updated_at": "2026-11-11T20:31:54+00:00",
+  "completed_at": "2026-11-11T20:31:54+00:00",
   "last_error": ""
 }

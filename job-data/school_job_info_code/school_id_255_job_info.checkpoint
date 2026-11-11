@@ -379,6 +379,14 @@
     "https://careers.uwf.edu/jobs/adjunct-instructor-pool-department-of-psychology-pensacola-main-campus-florida-united-states-20e638d6-ded9-4d32-bcfe-8d4694f3fa6c": {
       "title": "Adjunct Instructor Pool - Department of Psychology - Pensacola - Main Campus, Florida, United States",
       "description": "Adjunct Instructor Pool - Department of Psychology - Pensacola - Main Campus, Florida, United States"
+    },
+    "https://careers.uwf.edu/jobs/maintenance-specialist-104260-pensacola-main-campus-florida-united-states": {
+      "title": "Maintenance Specialist 104260 - Pensacola - Main Campus, Florida, United States",
+      "description": "Maintenance Specialist 104260 - Pensacola - Main Campus, Florida, United States"
+    },
+    "https://careers.uwf.edu/jobs/student-services-specialist-121570-pensacola-main-campus-florida-united-states-0100ef3b-326d-4bec-a2bb-eb56c61cd532": {
+      "title": "Student Services Specialist 121570 - Pensacola - Main Campus, Florida, United States",
+      "description": "Student Services Specialist 121570 - Pensacola - Main Campus, Florida, United States"
     }
   },
   "rows": {
@@ -1514,11 +1522,35 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://careers.uwf.edu/jobs/maintenance-specialist-104260-pensacola-main-campus-florida-united-states": {
+      "school_id": 255,
+      "posting_url": "https://careers.uwf.edu/jobs/maintenance-specialist-104260-pensacola-main-campus-florida-united-states",
+      "job_title_in_post": "Maintenance Specialist 104260 - Pensacola - Main Campus, Florida, United States",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://careers.uwf.edu/jobs/student-services-specialist-121570-pensacola-main-campus-florida-united-states-0100ef3b-326d-4bec-a2bb-eb56c61cd532": {
+      "school_id": 255,
+      "posting_url": "https://careers.uwf.edu/jobs/student-services-specialist-121570-pensacola-main-campus-florida-united-states-0100ef3b-326d-4bec-a2bb-eb56c61cd532",
+      "job_title_in_post": "Student Services Specialist 121570 - Pensacola - Main Campus, Florida, United States",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 255,
   "status": "complete",
-  "updated_at": "2026-11-10T22:09:20+00:00",
-  "completed_at": "2026-11-10T22:09:20+00:00",
+  "updated_at": "2026-11-11T20:14:50+00:00",
+  "completed_at": "2026-11-11T20:14:50+00:00",
   "last_error": ""
 }

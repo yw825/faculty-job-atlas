@@ -734,6 +734,21 @@
       "title": "Assistant Registrar -Academic Scheduling",
       "description": "Posted: 11/03/2026 Location: UWG Recruiting Location Department: Registrar Assistant Registrar -Academic Scheduling",
       "department": "Registrar"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305925&PostingSeq=1&SiteId=54000": {
+      "title": "Student Assistant - Ingram Library Extended Hours",
+      "description": "Posted: 11/11/2026 Location: UWG Recruiting Location Department: Library Student Assistant - Ingram Library Extended Hours",
+      "department": "Library"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305927&PostingSeq=1&SiteId=54000": {
+      "title": "Student Assistant - eSports",
+      "description": "Posted: 11/11/2026 Location: UWG Recruiting Location Department: UREC Administration E&G Student Assistant - eSports",
+      "department": "UREC Administration E&G"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305938&PostingSeq=1&SiteId=54000": {
+      "title": "Student Research Assistant - Data Analyst/Economics",
+      "description": "Posted: 11/11/2026 Location: UWG Recruiting Location Department: College of Business Student Research Assistant - Data Analyst/Economics",
+      "department": "College of Business"
     }
   },
   "rows": {
@@ -2500,11 +2515,47 @@
       "deadline_of_application": "",
       "posted_date": "11/03/2026",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305925&PostingSeq=1&SiteId=54000": {
+      "school_id": 285,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305925&PostingSeq=1&SiteId=54000",
+      "job_title_in_post": "Student Assistant - Ingram Library Extended Hours",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Library",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/11/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305927&PostingSeq=1&SiteId=54000": {
+      "school_id": 285,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305927&PostingSeq=1&SiteId=54000",
+      "job_title_in_post": "Student Assistant - eSports",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "UREC Administration E&G",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/11/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305938&PostingSeq=1&SiteId=54000": {
+      "school_id": 285,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305938&PostingSeq=1&SiteId=54000",
+      "job_title_in_post": "Student Research Assistant - Data Analyst/Economics",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "College of Business",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/11/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 285,
   "status": "complete",
-  "updated_at": "2026-11-10T22:10:39+00:00",
+  "updated_at": "2026-11-11T20:16:16+00:00",
   "last_error": "",
-  "completed_at": "2026-11-10T22:10:39+00:00"
+  "completed_at": "2026-11-11T20:16:16+00:00"
 }

@@ -2974,6 +2974,21 @@
       "title": "Administrative Assistant 2 (Faculty Support)",
       "description": "Posted: 11/10/2026 Location: Evanston, Illinois Department: Music Administration Administrative Assistant 2 (Faculty Support)",
       "department": "Music Administration"
+    },
+    "https://careers.northwestern.edu/psc/hrnu_er/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=54829&PostingSeq=1": {
+      "title": "Accounting Specialist",
+      "description": "Posted: 11/11/2026 Location: Evanston, Illinois Department: MCC Materials Science & Engg Accounting Specialist",
+      "department": "MCC Materials Science & Engg"
+    },
+    "https://careers.northwestern.edu/psc/hrnu_er/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=54712&PostingSeq=1": {
+      "title": "Associate Professor, Team Scientist, in Outcomes and Measurement Science",
+      "description": "Posted: 11/10/2026 Location: Chicago, Illinois Department: MED-Medical Social Sciences Associate Professor, Team Scientist, in Outcomes and Measurement Science",
+      "department": "MED-Medical Social Sciences"
+    },
+    "https://careers.northwestern.edu/psc/hrnu_er/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=54786&PostingSeq=1": {
+      "title": "Chief, Division of Oral and Maxillofacial Surgery",
+      "description": "Posted: 11/10/2026 Location: Chicago, Illinois Department: MED-Otolaryngology/Dental Surg Chief, Division of Oral and Maxillofacial Surgery",
+      "department": "MED-Otolaryngology/Dental Surg"
     }
   },
   "rows": {
@@ -9756,11 +9771,47 @@
       "deadline_of_application": "",
       "posted_date": "11/09/2026",
       "position_start_date": ""
+    },
+    "https://careers.northwestern.edu/psc/hrnu_er/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=54829&PostingSeq=1": {
+      "school_id": 391,
+      "posting_url": "https://careers.northwestern.edu/psc/hrnu_er/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=54829&PostingSeq=1",
+      "job_title_in_post": "Accounting Specialist",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "MCC Materials Science & Engg",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/11/2026",
+      "position_start_date": ""
+    },
+    "https://careers.northwestern.edu/psc/hrnu_er/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=54712&PostingSeq=1": {
+      "school_id": 391,
+      "posting_url": "https://careers.northwestern.edu/psc/hrnu_er/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=54712&PostingSeq=1",
+      "job_title_in_post": "Associate Professor, Team Scientist, in Outcomes and Measurement Science",
+      "position_type": "Associate_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "MED-Medical Social Sciences",
+      "area_key_words": "Outcomes and Measurement Science",
+      "deadline_of_application": "",
+      "posted_date": "11/10/2026",
+      "position_start_date": ""
+    },
+    "https://careers.northwestern.edu/psc/hrnu_er/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=54786&PostingSeq=1": {
+      "school_id": 391,
+      "posting_url": "https://careers.northwestern.edu/psc/hrnu_er/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=54786&PostingSeq=1",
+      "job_title_in_post": "Chief, Division of Oral and Maxillofacial Surgery",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "MED-Otolaryngology/Dental Surg",
+      "area_key_words": "Oral and Maxillofacial Surgery",
+      "deadline_of_application": "",
+      "posted_date": "11/10/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 391,
   "status": "complete",
-  "updated_at": "2026-11-10T22:12:57+00:00",
+  "updated_at": "2026-11-11T20:18:35+00:00",
   "last_error": "",
-  "completed_at": "2026-11-10T22:12:57+00:00"
+  "completed_at": "2026-11-11T20:18:35+00:00"
 }

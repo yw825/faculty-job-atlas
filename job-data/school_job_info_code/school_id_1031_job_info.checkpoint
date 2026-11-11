@@ -83,6 +83,10 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/BC25C89BF322A723B1E209741EE99F00/jobs/354512": {
       "title": "Assistant Professor, Criminology and Criminal Justice",
       "description": "Assistant Professor, Criminology and Criminal Justice You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/BC25C89BF322A723B1E209741EE99F00/jobs/356181": {
+      "title": "Assistant Professor, Nursing  and Skills Lab Coordinator",
+      "description": "Assistant Professor, Nursing  and Skills Lab Coordinator You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -336,11 +340,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/BC25C89BF322A723B1E209741EE99F00/jobs/356181": {
+      "school_id": 1031,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/BC25C89BF322A723B1E209741EE99F00/jobs/356181",
+      "job_title_in_post": "Assistant Professor, Nursing  and Skills Lab Coordinator",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Nursing  and Skills Lab Coordinator",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1031,
   "status": "complete",
-  "updated_at": "2026-11-10T22:22:16+00:00",
-  "completed_at": "2026-11-10T22:22:16+00:00",
+  "updated_at": "2026-11-11T20:29:21+00:00",
+  "completed_at": "2026-11-11T20:29:21+00:00",
   "last_error": ""
 }

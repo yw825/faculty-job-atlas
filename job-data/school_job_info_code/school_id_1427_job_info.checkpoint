@@ -472,6 +472,26 @@
       "title": "Business Development Specialist - Valdez Institute for Economic Development",
       "description": "Posted: 11/10/2026 Location: San Antonio, TX Department: INSTITUTE FOR ECONOMIC DVLPMT Business Development Specialist - Valdez Institute for Economic Development",
       "department": "INSTITUTE FOR ECONOMIC DVLPMT"
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16762&PostingSeq=1&SiteId=21": {
+      "title": "Lecturer (Part-Time), College for Health, Community and Policy - Department of Kinesiology",
+      "description": "Posted: 11/10/2026 Location: San Antonio, TX Department: HCAP KINESIOLOGY Lecturer (Part-Time), College for Health, Community and Policy - Department of Kinesiology",
+      "department": "HCAP KINESIOLOGY"
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16765&PostingSeq=1&SiteId=21": {
+      "title": "Lecturer, School of Civil & Environmental Engineering, and Construction Management",
+      "description": "Posted: 11/10/2026 Location: San Antonio, TX Department: KCEID CVL ENV ENGR & CONST MGT Lecturer, School of Civil & Environmental Engineering, and Construction Management",
+      "department": "KCEID CVL ENV ENGR & CONST MGT"
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16757&PostingSeq=1&SiteId=21": {
+      "title": "Program Coordinator - Public Safety",
+      "description": "Posted: 11/10/2026 Location: San Antonio, TX Department: UNIVERSITY POLICE Program Coordinator - Public Safety",
+      "department": "UNIVERSITY POLICE"
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16759&PostingSeq=1&SiteId=21": {
+      "title": "Security Services Customer Support Specialist - Public Safety",
+      "description": "Posted: 11/10/2026 Location: San Antonio, TX Department: UNIVERSITY POLICE Security Services Customer Support Specialist - Public Safety",
+      "department": "UNIVERSITY POLICE"
     }
   },
   "rows": {
@@ -1609,11 +1629,59 @@
       "deadline_of_application": "",
       "posted_date": "11/10/2026",
       "position_start_date": ""
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16762&PostingSeq=1&SiteId=21": {
+      "school_id": 1427,
+      "posting_url": "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16762&PostingSeq=1&SiteId=21",
+      "job_title_in_post": "Lecturer (Part-Time), College for Health, Community and Policy - Department of Kinesiology",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "HCAP KINESIOLOGY",
+      "area_key_words": "Department of Kinesiology",
+      "deadline_of_application": "",
+      "posted_date": "11/10/2026",
+      "position_start_date": ""
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16765&PostingSeq=1&SiteId=21": {
+      "school_id": 1427,
+      "posting_url": "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16765&PostingSeq=1&SiteId=21",
+      "job_title_in_post": "Lecturer, School of Civil & Environmental Engineering, and Construction Management",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "KCEID CVL ENV ENGR & CONST MGT",
+      "area_key_words": "Civil & Environmental Engineering, and Construction Management",
+      "deadline_of_application": "",
+      "posted_date": "11/10/2026",
+      "position_start_date": ""
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16757&PostingSeq=1&SiteId=21": {
+      "school_id": 1427,
+      "posting_url": "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16757&PostingSeq=1&SiteId=21",
+      "job_title_in_post": "Program Coordinator - Public Safety",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "UNIVERSITY POLICE",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/10/2026",
+      "position_start_date": ""
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16759&PostingSeq=1&SiteId=21": {
+      "school_id": 1427,
+      "posting_url": "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16759&PostingSeq=1&SiteId=21",
+      "job_title_in_post": "Security Services Customer Support Specialist - Public Safety",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "UNIVERSITY POLICE",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/10/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 1427,
   "status": "complete",
-  "updated_at": "2026-11-10T22:31:21+00:00",
-  "completed_at": "2026-11-10T22:31:21+00:00",
+  "updated_at": "2026-11-11T20:35:51+00:00",
+  "completed_at": "2026-11-11T20:35:51+00:00",
   "last_error": ""
 }

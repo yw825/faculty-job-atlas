@@ -124,6 +124,11 @@
       "title": "(S) Swim Instructor",
       "description": "Posted: 10/19/2026 Location: Mayville Department: Div Health, Phy Ed & Rec (S) Swim Instructor",
       "department": "Div Health, Phy Ed & Rec"
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960198&PostingSeq=1&SiteId=1": {
+      "title": "Assistant Manager - Dining Services",
+      "description": "Posted: 11/10/2026 Location: Mayville Department: Food Service Assistant Manager - Dining Services",
+      "department": "Food Service"
     }
   },
   "rows": {
@@ -426,11 +431,23 @@
       "deadline_of_application": "",
       "posted_date": "10/19/2026",
       "position_start_date": ""
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960198&PostingSeq=1&SiteId=1": {
+      "school_id": 826,
+      "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960198&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Assistant Manager - Dining Services",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Food Service",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/10/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 826,
   "status": "complete",
-  "updated_at": "2026-11-10T22:25:21+00:00",
-  "completed_at": "2026-11-10T22:25:21+00:00",
+  "updated_at": "2026-11-11T20:30:25+00:00",
+  "completed_at": "2026-11-11T20:30:25+00:00",
   "last_error": ""
 }

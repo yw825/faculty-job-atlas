@@ -39,6 +39,10 @@
     "https://my.uiu.edu/ICS/Employment_Opportunities.jnz#prospect-manager": {
       "title": "Prospect Manager",
       "description": "Prospect Manager. Department: Advancement/Alumni. Classification: Staff. Full Time. Posted: 10/29/2026."
+    },
+    "https://my.uiu.edu/ICS/Employment_Opportunities.jnz#center-director-baton-rouge": {
+      "title": "Center Director, Baton Rouge",
+      "description": "Center Director, Baton Rouge. Department: South Central Region - Baton Rouge. Classification: Staff. Full Time. Posted: 11/10/2026."
     }
   },
   "rows": {
@@ -161,11 +165,23 @@
       "deadline_of_application": "",
       "posted_date": "10/29/2026",
       "position_start_date": ""
+    },
+    "https://my.uiu.edu/ICS/Employment_Opportunities.jnz#center-director-baton-rouge": {
+      "school_id": 341,
+      "posting_url": "https://my.uiu.edu/ICS/Employment_Opportunities.jnz#center-director-baton-rouge",
+      "job_title_in_post": "Center Director, Baton Rouge",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/10/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 341,
   "status": "complete",
-  "updated_at": "2026-11-10T22:12:28+00:00",
-  "completed_at": "2026-11-10T22:12:28+00:00",
+  "updated_at": "2026-11-11T20:20:08+00:00",
+  "completed_at": "2026-11-11T20:20:08+00:00",
   "last_error": ""
 }

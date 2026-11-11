@@ -71,6 +71,10 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/06E60EB4A3425A1B8B2E3A5F3F1E2A6F/jobs/289495": {
       "title": "Assistant Director for Financial Aid",
       "description": "Assistant Director for Financial Aid You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/06E60EB4A3425A1B8B2E3A5F3F1E2A6F/jobs/315296": {
+      "title": "Advancement Database Manager",
+      "description": "Advancement Database Manager You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -289,11 +293,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/06E60EB4A3425A1B8B2E3A5F3F1E2A6F/jobs/315296": {
+      "school_id": 1478,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/06E60EB4A3425A1B8B2E3A5F3F1E2A6F/jobs/315296",
+      "job_title_in_post": "Advancement Database Manager",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1478,
   "status": "complete",
-  "updated_at": "2026-11-10T22:28:26+00:00",
-  "completed_at": "2026-11-10T22:28:26+00:00",
+  "updated_at": "2026-11-11T20:38:08+00:00",
+  "completed_at": "2026-11-11T20:38:08+00:00",
   "last_error": ""
 }

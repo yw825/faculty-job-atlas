@@ -115,6 +115,10 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/F16D49EDEBF447BF71AEBC32D5AF6AB5/jobs/226397": {
       "title": "Professor of Practice in Education (OME)",
       "description": "Professor of Practice in Education (OME) You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/F16D49EDEBF447BF71AEBC32D5AF6AB5/jobs/226506": {
+      "title": "Career Advisor",
+      "description": "Career Advisor You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -462,11 +466,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/F16D49EDEBF447BF71AEBC32D5AF6AB5/jobs/226506": {
+      "school_id": 1113,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/F16D49EDEBF447BF71AEBC32D5AF6AB5/jobs/226506",
+      "job_title_in_post": "Career Advisor",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1113,
   "status": "complete",
-  "updated_at": "2026-11-10T22:29:19+00:00",
-  "completed_at": "2026-11-10T22:29:19+00:00",
+  "updated_at": "2026-11-11T20:34:08+00:00",
+  "completed_at": "2026-11-11T20:34:08+00:00",
   "last_error": ""
 }

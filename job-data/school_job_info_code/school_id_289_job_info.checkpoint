@@ -196,7 +196,9 @@
       "department": "Criminal Justice"
     },
     "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304427&PostingSeq=1&SiteId=53000": {
-      "error": "not present in bulk fetch result"
+      "title": "Lecturer in Physics",
+      "description": "Posted: 10/01/2026 Location: UNG - Oconee Department: Physics Lecturer in Physics",
+      "department": "Physics"
     },
     "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304417&PostingSeq=1&SiteId=53000": {
       "title": "Assistant Professor in Mathematics",
@@ -1352,6 +1354,16 @@
       "title": "Peer Academic Advisor (Gainesville)- Institutional Student Worker",
       "description": "Posted: 11/09/2026 Location: UNG - Gainesville Department: Academic Advising Peer Academic Advisor (Gainesville)- Institutional Student Worker",
       "department": "Academic Advising"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305800&PostingSeq=1&SiteId=53000": {
+      "title": "Water Lab Student Technician- Institutional Student Worker",
+      "description": "Posted: 11/11/2026 Location: UNG-Dahlonega, GA Department: Water Quality Trend Monitoring Water Lab Student Technician- Institutional Student Worker",
+      "department": "Water Quality Trend Monitoring"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305803&PostingSeq=1&SiteId=53000": {
+      "title": "Alumni Student Host Program- Institutional Student Worker",
+      "description": "Posted: 11/09/2026 Location: UNG-Dahlonega, GA Department: Alumni Relations & Annual Givi Alumni Student Host Program- Institutional Student Worker",
+      "department": "Alumni Relations & Annual Givi"
     }
   },
   "rows": {
@@ -4438,11 +4450,47 @@
       "deadline_of_application": "",
       "posted_date": "11/09/2026",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305800&PostingSeq=1&SiteId=53000": {
+      "school_id": 289,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305800&PostingSeq=1&SiteId=53000",
+      "job_title_in_post": "Water Lab Student Technician- Institutional Student Worker",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Water Quality Trend Monitoring",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/11/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305803&PostingSeq=1&SiteId=53000": {
+      "school_id": 289,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305803&PostingSeq=1&SiteId=53000",
+      "job_title_in_post": "Alumni Student Host Program- Institutional Student Worker",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Alumni Relations & Annual Givi",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/09/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304427&PostingSeq=1&SiteId=53000": {
+      "school_id": 289,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304427&PostingSeq=1&SiteId=53000",
+      "job_title_in_post": "Lecturer in Physics",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "Physics",
+      "area_key_words": "Physics",
+      "deadline_of_application": "",
+      "posted_date": "10/01/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 289,
   "status": "complete",
-  "updated_at": "2026-11-10T22:10:45+00:00",
+  "updated_at": "2026-11-11T20:17:03+00:00",
   "last_error": "",
-  "completed_at": "2026-11-10T22:10:45+00:00"
+  "completed_at": "2026-11-11T20:17:03+00:00"
 }

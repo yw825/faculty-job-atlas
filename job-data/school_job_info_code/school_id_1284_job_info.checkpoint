@@ -151,6 +151,10 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/716F3DBB868513EDA5A7657F756BBDD8/jobs/354085": {
       "title": "Financial Services Assistant",
       "description": "Financial Services Assistant You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/716F3DBB868513EDA5A7657F756BBDD8/jobs/354314": {
+      "title": "Admissions Counselor",
+      "description": "Admissions Counselor You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -608,11 +612,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/716F3DBB868513EDA5A7657F756BBDD8/jobs/354314": {
+      "school_id": 1284,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/716F3DBB868513EDA5A7657F756BBDD8/jobs/354314",
+      "job_title_in_post": "Admissions Counselor",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1284,
   "status": "complete",
-  "updated_at": "2026-11-10T22:25:15+00:00",
-  "completed_at": "2026-11-10T22:25:15+00:00",
+  "updated_at": "2026-11-11T20:32:23+00:00",
+  "completed_at": "2026-11-11T20:32:23+00:00",
   "last_error": ""
 }

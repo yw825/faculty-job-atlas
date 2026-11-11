@@ -767,6 +767,16 @@
       "title": "Recruitment Specialist - Office of Human Resources",
       "description": "Performs advanced professional work supporting the university’s employment processes and search and selection procedures, including full-cycle recruitment for all hiring across the Texas Woman’s University System. This position contributes to the development and continuous refinement of Recruitment initiatives in alignment with organizational goals and workforce strategies, operating under limited supervision and in close collaboration with the Manager of Recruitment.",
       "department": null
+    },
+    "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/13072": {
+      "title": "Senior Administrative Assistant for the Dallas Campus - Occupational Therapy Dallas",
+      "description": "Serves as the principal administrative support for the department, independently performing highly responsible and confidential clerical and administrative duties. The position is responsible for non-standardized work that requires sound judgment and the ability to establish appropriate work methods, schedules, priorities, and procedures to effectively accomplish departmental objectives. The incumbent may assume significant responsibility for the overall management and coordination of office operations. General guidance regarding policies and procedures is provided; however, detailed direction and specific review by the administrator are generally reserved for special, complex, or sensitive assignments. Successful performance requires thorough knowledge of the policies and procedures of the employing unit, as well as familiarity with applicable University policies and procedures.",
+      "department": null
+    },
+    "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/13103": {
+      "title": "Assistant Director Athletics for Sports Medicine - Athletics",
+      "description": "The Assistant Director of Athletics for Sports Medicine is responsible for developing, coordinating, and administering a comprehensive sports medicine program for a highly competitive Division II athletics program. Work is performed under general supervision and performance evaluation is based upon completion of assignments and results obtained. The performance evaluation is conducted through the performance evaluation system and in accordance with the University Policies and Procedures. \n\n",
+      "department": null
     }
   },
   "rows": {
@@ -2593,11 +2603,35 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/13072": {
+      "school_id": 1382,
+      "posting_url": "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/13072",
+      "job_title_in_post": "Senior Administrative Assistant for the Dallas Campus - Occupational Therapy Dallas",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/13103": {
+      "school_id": 1382,
+      "posting_url": "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/13103",
+      "job_title_in_post": "Assistant Director Athletics for Sports Medicine - Athletics",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1382,
   "status": "complete",
-  "updated_at": "2026-11-10T22:25:48+00:00",
-  "completed_at": "2026-11-10T22:25:48+00:00",
+  "updated_at": "2026-11-11T20:33:14+00:00",
+  "completed_at": "2026-11-11T20:33:14+00:00",
   "last_error": ""
 }

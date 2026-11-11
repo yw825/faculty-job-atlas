@@ -724,6 +724,21 @@
       "title": "Chief Legal Officer",
       "description": "Posted: 11/06/2026 Location: Tyler, TX Department: Office of Legal Affairs Chief Legal Officer",
       "department": "Office of Legal Affairs"
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16795&PostingSeq=1&SiteId=12": {
+      "title": "Coordinator- Promotion and Fan Experience",
+      "description": "Posted: 11/11/2026 Location: Tyler, TX Department: Athletics Coordinator- Promotion and Fan Experience",
+      "department": "Athletics"
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16796&PostingSeq=1&SiteId=12": {
+      "title": "Digital Course Support Specialist I",
+      "description": "Posted: 11/11/2026 Location: Tyler, TX Department: Office of Digital Learning Digital Course Support Specialist I",
+      "department": "Office of Digital Learning"
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=13830&PostingSeq=1&SiteId=12": {
+      "title": "Nurse Extern - Med Surg",
+      "description": "Posted: 11/11/2026 Location: Tyler, TX Department: 5 East Nursing Nurse Extern - Med Surg",
+      "department": "5 East Nursing"
     }
   },
   "rows": {
@@ -2455,11 +2470,47 @@
       "deadline_of_application": "",
       "posted_date": "11/06/2026",
       "position_start_date": ""
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16795&PostingSeq=1&SiteId=12": {
+      "school_id": 1437,
+      "posting_url": "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16795&PostingSeq=1&SiteId=12",
+      "job_title_in_post": "Coordinator- Promotion and Fan Experience",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Athletics",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/11/2026",
+      "position_start_date": ""
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16796&PostingSeq=1&SiteId=12": {
+      "school_id": 1437,
+      "posting_url": "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16796&PostingSeq=1&SiteId=12",
+      "job_title_in_post": "Digital Course Support Specialist I",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Office of Digital Learning",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/11/2026",
+      "position_start_date": ""
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=13830&PostingSeq=1&SiteId=12": {
+      "school_id": 1437,
+      "posting_url": "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=13830&PostingSeq=1&SiteId=12",
+      "job_title_in_post": "Nurse Extern - Med Surg",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "5 East Nursing",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/11/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 1437,
   "status": "complete",
-  "updated_at": "2026-11-10T22:26:54+00:00",
-  "completed_at": "2026-11-10T22:26:54+00:00",
+  "updated_at": "2026-11-11T20:34:58+00:00",
+  "completed_at": "2026-11-11T20:34:58+00:00",
   "last_error": ""
 }

@@ -279,6 +279,21 @@
       "title": "Admissions and Enrollment Specialist I",
       "description": "Admissions Counselors travel to high schools and community colleges with the goal of recruiting, encouraging, and assisting prospective students with the admissions process while providing information about Tennessee Tech. The main purpose of this position is to build relationships with prospective students and high school counselors, which is vital to recruitment.\n\nTennessee Tech is an Equal Opportunity/Affirmative Action employer.",
       "department": null
+    },
+    "https://fa-eygi-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26104": {
+      "title": "Chair of Biology",
+      "description": "Tennessee Tech University seeks a chair for the Department of Biology. The position is a12-month on-campus appointment (9-month faculty appointment with a 3-month summer stipend) reporting to the Dean of the College of Arts & Sciences. The department chair provides leadership for the department and works collaboratively with the faculty to meet the academic needs of students and foster excellence in programs, instruction, scholarly activity, and service.\n\nTennessee Tech is an Equal Opportunity/Affirmative Action employer.",
+      "department": null
+    },
+    "https://fa-eygi-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26101": {
+      "title": "Assistant Professor - 123130 Qualitative Research",
+      "description": "Teach graduate-level courses in qualitative research, perform research, and fulfill the mission of the Department of Curriculum & Instruction. \n\nTennessee Tech is an Equal Opportunity/Affirmative Action employer.",
+      "department": null
+    },
+    "https://fa-eygi-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26118": {
+      "title": "Assistant Professor - 123360 Secondary Ed. English",
+      "description": "Teach courses, perform research, and fulfill the mission of the Department of Curriculum & Instruction.\n\nTennessee Tech is an Equal Opportunity/Affirmative Action employer.",
+      "department": null
     }
   },
   "rows": {
@@ -950,11 +965,47 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://fa-eygi-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26104": {
+      "school_id": 1327,
+      "posting_url": "https://fa-eygi-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26104",
+      "job_title_in_post": "Chair of Biology",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Department of Biology",
+      "area_key_words": "Biology",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://fa-eygi-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26101": {
+      "school_id": 1327,
+      "posting_url": "https://fa-eygi-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26101",
+      "job_title_in_post": "Assistant Professor - 123130 Qualitative Research",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Department of Curriculum & Instruction",
+      "area_key_words": "Instruction",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://fa-eygi-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26118": {
+      "school_id": 1327,
+      "posting_url": "https://fa-eygi-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26118",
+      "job_title_in_post": "Assistant Professor - 123360 Secondary Ed. English",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Department of Curriculum & Instruction",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1327,
   "status": "complete",
-  "updated_at": "2026-11-10T22:27:45+00:00",
-  "completed_at": "2026-11-10T22:27:45+00:00",
+  "updated_at": "2026-11-11T20:37:03+00:00",
+  "completed_at": "2026-11-11T20:37:03+00:00",
   "last_error": ""
 }
