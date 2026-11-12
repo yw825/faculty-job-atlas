@@ -74,6 +74,11 @@
       "title": "Administration Officer",
       "description": "The Administration Officer provides administrative and coordination support across the College of Sport, Health and Engineering, with a focus on course governance, program accreditation, committee meetings and university events. The role works collaboratively with academic and professional staff to coordinate information, prepare documentation and reports, maintain accurate records, manage competing priorities and ensure administrative processes are delivered efficiently and in accordance with University requirements. It also contributes to continuous improvement and a positive experience for students and staff.",
       "department": null
+    },
+    "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18655": {
+      "title": "Senior Administrative Officer, Student and Resource Management",
+      "description": "The Senior Administrative Officer, Student and Resource Management, provides high-level administrative, coordination and data support to the College of Sport, Health and Engineering. The role is responsible for coordinating unit offerings, course sequencing, timetabling and sessional staffing processes, while analysing enrolment data to support informed decision-making and effective resource allocation. Working closely with academic and professional stakeholders, the position proactively identifies scheduling and resource issues, maintains accurate records and contributes to continuous improvement of SRM processes.",
+      "department": null
     }
   },
   "rows": {
@@ -256,11 +261,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18655": {
+      "school_id": 1817,
+      "posting_url": "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18655",
+      "job_title_in_post": "Senior Administrative Officer, Student and Resource Management",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "College of Sport, Health and Engineering",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1817,
   "status": "complete",
-  "updated_at": "2026-11-11T20:46:30+00:00",
-  "completed_at": "2026-11-11T20:46:30+00:00",
+  "updated_at": "2026-11-12T21:13:59+00:00",
+  "completed_at": "2026-11-12T21:13:59+00:00",
   "last_error": ""
 }

@@ -275,6 +275,10 @@
     "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2577": {
       "title": "Residential Student Support Coordinator",
       "description": "Closing Date: 25/11/2026 Department: SE - Accommodation Services (MAN) Residential Student Support Coordinator. Massey University. 25-Nov-2026 11:00 PM | JR-2577 | Residential Student Support Coordinator | Massey University | SE - Accommodation Services (MAN) | Ongoing | Manawatu Campus"
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2516": {
+      "title": "Health and Fitness Instructor",
+      "description": "Closing Date: 26/11/2026 Department: SE - Sports and Recreation Services (MAN) Health and Fitness Instructor. Massey University. 26-Nov-2026 11:00 PM | JR-2516 | Health and Fitness Instructor | Massey University | SE - Sports and Recreation Services (MAN) | Fixed-Term"
     }
   },
   "rows": {
@@ -1091,11 +1095,23 @@
       "deadline_of_application": "25/11/2026",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2516": {
+      "school_id": 1829,
+      "posting_url": "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2516",
+      "job_title_in_post": "Health and Fitness Instructor",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Health and Fitness",
+      "deadline_of_application": "26/11/2026",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1829,
   "status": "complete",
-  "updated_at": "2026-11-11T20:55:16+00:00",
-  "completed_at": "2026-11-11T20:55:16+00:00",
+  "updated_at": "2026-11-12T21:23:06+00:00",
+  "completed_at": "2026-11-12T21:23:06+00:00",
   "last_error": ""
 }

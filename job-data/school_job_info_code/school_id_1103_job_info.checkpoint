@@ -314,6 +314,26 @@
       "title": "Adjunct - Chemistry/Biochemistry (Iski)",
       "description": "The Chemistry/Biochemistry Department at TU is seeking experienced, well-organized, and student-centered individuals to teach General Chemistry and Organic Chemistry. Subject areas may include the following: General Chemistry 1 and 2 lecture and lab and Organic Chemistry 1 and 2 lecture and lab. Candidates must have at least a Master’s degree, or specialized teaching experience, in a field of Chemistry or related discipline.  ",
       "department": null
+    },
+    "https://utulsa-ibvjjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/670": {
+      "title": "Adjunct",
+      "description": "\nTeaching Law 5603 Advanced Oil & Gas\nCo-Teaching Law 6260 Advanced Externship (2 positions available)\nTeaching Law6701 ELJ Year-in-Review\nTeaching Law 6452 Complex Business Transactions\n",
+      "department": null
+    },
+    "https://utulsa-ibvjjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/603": {
+      "title": "Teacher, True Blue Neighbors, Youth Scholars Program",
+      "description": "Certified Teacher, True Blue Neighbors Youth Scholars Program\nIn collaboration with Site Director, develop and teach the curriculum for students identified for participation in the True Blue Neighbors Youth Scholars Program.",
+      "department": null
+    },
+    "https://utulsa-ibvjjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/709": {
+      "title": "Intern, Mens Basketball",
+      "description": "",
+      "department": null
+    },
+    "https://utulsa-ibvjjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/708": {
+      "title": "Research Laboratory Assistant",
+      "description": "The Research Laboratory Assistant supports graduate student research projects focused on material wear and tribology studies. This position assists with laboratory experiments, data collection, equipment operation, and general research activities related to the investigation of material wear through sliding and rolling contact in the presence of lunar dust using specialized testing equipment, including an Rtec tribometer.",
+      "department": null
     }
   },
   "rows": {
@@ -1072,11 +1092,59 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://utulsa-ibvjjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/670": {
+      "school_id": 1103,
+      "posting_url": "https://utulsa-ibvjjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/670",
+      "job_title_in_post": "Adjunct",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://utulsa-ibvjjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/603": {
+      "school_id": 1103,
+      "posting_url": "https://utulsa-ibvjjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/603",
+      "job_title_in_post": "Teacher, True Blue Neighbors, Youth Scholars Program",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "teach the curriculum",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://utulsa-ibvjjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/709": {
+      "school_id": 1103,
+      "posting_url": "https://utulsa-ibvjjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/709",
+      "job_title_in_post": "Intern, Mens Basketball",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://utulsa-ibvjjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/708": {
+      "school_id": 1103,
+      "posting_url": "https://utulsa-ibvjjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/708",
+      "job_title_in_post": "Research Laboratory Assistant",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Rtec tribometer",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1103,
   "status": "complete",
-  "updated_at": "2026-11-11T20:34:16+00:00",
-  "completed_at": "2026-11-11T20:34:16+00:00",
+  "updated_at": "2026-11-12T21:03:53+00:00",
+  "completed_at": "2026-11-12T21:03:53+00:00",
   "last_error": ""
 }

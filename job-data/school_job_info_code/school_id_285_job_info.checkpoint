@@ -749,6 +749,21 @@
       "title": "Student Research Assistant - Data Analyst/Economics",
       "description": "Posted: 11/11/2026 Location: UWG Recruiting Location Department: College of Business Student Research Assistant - Data Analyst/Economics",
       "department": "College of Business"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305597&PostingSeq=1&SiteId=54000": {
+      "title": "Academic Advisor I",
+      "description": "Posted: 11/12/2026 Location: UWG Recruiting Location Department: Dept. of Academic Excellence Academic Advisor I",
+      "department": "Dept. of Academic Excellence"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305985&PostingSeq=1&SiteId=54000": {
+      "title": "Lecturer in First-Year Mathematics",
+      "description": "Posted: 11/12/2026 Location: UWG Recruiting Location Department: College of HASS Dean's Office Lecturer in First-Year Mathematics",
+      "department": "College of HASS Dean's Office"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305959&PostingSeq=1&SiteId=54000": {
+      "title": "Lecturer in First-Year Writing",
+      "description": "Posted: 11/12/2026 Location: UWG Recruiting Location Department: General Education Lecturer in First-Year Writing",
+      "department": "General Education"
     }
   },
   "rows": {
@@ -2551,11 +2566,47 @@
       "deadline_of_application": "",
       "posted_date": "11/11/2026",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305597&PostingSeq=1&SiteId=54000": {
+      "school_id": 285,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305597&PostingSeq=1&SiteId=54000",
+      "job_title_in_post": "Academic Advisor I",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Dept. of Academic Excellence",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/12/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305985&PostingSeq=1&SiteId=54000": {
+      "school_id": 285,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305985&PostingSeq=1&SiteId=54000",
+      "job_title_in_post": "Lecturer in First-Year Mathematics",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "College of HASS Dean's Office",
+      "area_key_words": "First-Year Mathematics",
+      "deadline_of_application": "",
+      "posted_date": "11/12/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305959&PostingSeq=1&SiteId=54000": {
+      "school_id": 285,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305959&PostingSeq=1&SiteId=54000",
+      "job_title_in_post": "Lecturer in First-Year Writing",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "General Education",
+      "area_key_words": "First-Year Writing",
+      "deadline_of_application": "",
+      "posted_date": "11/12/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 285,
   "status": "complete",
-  "updated_at": "2026-11-11T20:16:16+00:00",
+  "updated_at": "2026-11-12T20:47:59+00:00",
   "last_error": "",
-  "completed_at": "2026-11-11T20:16:16+00:00"
+  "completed_at": "2026-11-12T20:47:59+00:00"
 }

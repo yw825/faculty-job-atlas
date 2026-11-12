@@ -99,6 +99,18 @@
     "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225327": {
       "title": "Manager, Institutional Assurance",
       "description": "Manager, Institutional Assurance. University of New England. Reference 225327. 225327 Manager, Institutional Assurance Professional - Continuing - Fulltime - HEO9 Governance 29-NOV-2026 11:59:59 pm"
+    },
+    "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225333": {
+      "title": "Research Scientist",
+      "description": "Research Scientist. University of New England. Reference 225333. 225333 Research Scientist Academic - Fixed term to 30 January 2030 - Full - time - Level B/C Animal Genetics and Breeding Unit 06-DEC-2026 11:59:59 pm"
+    },
+    "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225334": {
+      "title": "Technical Assistant",
+      "description": "Technical Assistant. University of New England. Reference 225334. 225334 Technical Assistant Professional - Continuing, Full-time - HEO4 School of S&T - Biomedical Science 29-NOV-2026 11:59:59 pm"
+    },
+    "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225335": {
+      "title": "Assistant Manager, Library Information Resources",
+      "description": "Assistant Manager, Library Information Resources. University of New England. Reference 225335. 225335 Assistant Manager, Library Information Resources Professional - Continuing, full-time - HEO8 Library Information Resources 22-NOV-2026 11:59:59 pm"
     }
   },
   "rows": {
@@ -395,11 +407,47 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225333": {
+      "school_id": 1780,
+      "posting_url": "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225333",
+      "job_title_in_post": "Research Scientist",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225334": {
+      "school_id": 1780,
+      "posting_url": "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225334",
+      "job_title_in_post": "Technical Assistant",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "School of S&T",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225335": {
+      "school_id": 1780,
+      "posting_url": "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225335",
+      "job_title_in_post": "Assistant Manager, Library Information Resources",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1780,
   "status": "complete",
-  "updated_at": "2026-11-11T20:45:14+00:00",
-  "completed_at": "2026-11-11T20:45:14+00:00",
+  "updated_at": "2026-11-12T21:12:58+00:00",
+  "completed_at": "2026-11-12T21:12:58+00:00",
   "last_error": ""
 }

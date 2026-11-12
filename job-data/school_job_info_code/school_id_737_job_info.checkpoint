@@ -39,6 +39,10 @@
     "https://www.drury.edu/academic-affairs/open-faculty-positions/#clinical-assistant-professor-instructor-of-psychology": {
       "title": "Clinical Assistant Professor/Instructor of Psychology",
       "description": "Clinical Assistant Professor/Instructor of Psychology. The Department of Behavioral Sciences at Drury University invites applications for a full-time, non-tenure-track position in Psychology. The appointment will be made at the rank of Clinical Assistant Professor or Instructor, depending on the successful candidate’s academic credentials and licensure status. Candidates should have expertise in clinical psychology or a related discipline. The start date is August 2027. Clinical Assistant Professor: Candidates must have a doctoral, specialist (Ed.S.), or master’s degree in clinical, counseling, or school psychology from a program accredited by the American Psychological Association (APA) or National Association of School Psychologists (NASP). Current, active licensure is required. Instructor: Candidates must have a master’s or doctoral degree in psychology with expertise in clinical psychology or a related discipline. The department is interdisciplinary and offers undergraduate degrees in Clinical and Behavioral Neuroscience, Criminal Justice, Criminology, Psychology, and Sociology. The successful candidate will contribute to an interdisciplinary undergraduate program and may teach introductory psychology, positive psychology, psychopathology, psychological tests and measurement, and/or other related courses. The teaching load is 21 credit hours per academic year for a Clinical Assistant Professor and 24 credit hours per academic year for an Instructor. The successful candidate will receive the same consideration for faculty development funds as tenure-track and tenured faculty. Applications should include a letter of interest addressing the candidate’s qualifications, a current curriculum vitae, a teaching philosophy statement, and official transcripts. Three letters of recommendation are also required. Review of applications will begin immediately and continue until the position is filled. Applications and letters of recommendation should be sent to Search Committee Chair Dr. Callie Gibson, c/o Lori Sechler, at lsechler@drury.edu . Drury University has a long record of effective engagement and activism in the Ozarks. Founded in 1873, the University is located in Springfield, Missouri, the center of a metropolitan area exceeding 500,000 in population. Additional information about Drury University and the Department of Behavioral Sciences can be found at drury.edu ."
+    },
+    "https://www.drury.edu/academic-affairs/open-faculty-positions/#assistant-professor-of-psychology-tenure-track": {
+      "title": "Assistant Professor of Psychology – Tenure Track",
+      "description": "Assistant Professor of Psychology – Tenure Track. The Department of Behavioral Sciences at Drury University invites applications for a full-time, tenure-track position as Assistant Professor in Psychology beginning in August 2027. A doctoral degree in psychology or a related discipline is required. ABD candidates will be considered, provided they complete the doctoral degree by the August 2027 start date. Teaching experience is preferred. The Department of Behavioral Sciences is interdisciplinary and offers undergraduate degrees in Clinical and Behavioral Neuroscience, Criminal Justice, Criminology, Psychology, and Sociology. Candidates from a range of specializations are encouraged to apply. The successful candidate must be prepared to teach undergraduate courses in Psychopathology, Psychological Tests and Measurement with Laboratory, and Positive Psychology, as well as other health-related psychology courses. The teaching load is 21 credit hours per academic year. Applications should submit a letter of interest addressing their qualifications, a current curriculum vitae, a teaching philosophy statement, a research statement, and transcripts. Three letters of recommendation are also required. Review of applications will begin December 15, 2026 and continue until the position is filled. Applications and letters of recommendation should be sent to Search Committee Chair Dr. Callie Gibson, c/o Lori Sechler, at lsechler@drury.edu . Drury University has a long record of effective engagement and activism in the Ozarks. Founded in 1873, the University is located in Springfield, Missouri, the center of a metropolitan area exceeding 500,000 in population. Additional information about Drury University and the Department of Behavioral Sciences can be found at https://www.drury.edu/ ."
     }
   },
   "rows": {
@@ -156,11 +160,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.drury.edu/academic-affairs/open-faculty-positions/#assistant-professor-of-psychology-tenure-track": {
+      "school_id": 737,
+      "posting_url": "https://www.drury.edu/academic-affairs/open-faculty-positions/#assistant-professor-of-psychology-tenure-track",
+      "job_title_in_post": "Assistant Professor of Psychology – Tenure Track",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Department of Behavioral Sciences",
+      "area_key_words": "Psychology; Psychological Tests",
+      "deadline_of_application": "December 15, 2026",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 737,
   "status": "complete",
-  "updated_at": "2026-11-11T20:28:49+00:00",
-  "completed_at": "2026-11-11T20:28:49+00:00",
+  "updated_at": "2026-11-12T20:58:34+00:00",
+  "completed_at": "2026-11-12T20:58:34+00:00",
   "last_error": ""
 }

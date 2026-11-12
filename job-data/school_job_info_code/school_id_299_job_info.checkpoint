@@ -924,6 +924,16 @@
       "title": "Administrative Budget Coordinator, Office of the President",
       "description": "Posted: 11/10/2026 Location: Georgia Gwinnett College Department: Office of the President Administrative Budget Coordinator, Office of the President",
       "department": "Office of the President"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305781&PostingSeq=1&SiteId=40000": {
+      "title": "Clinician - Limited Term",
+      "description": "Posted: 11/12/2026 Location: Georgia Gwinnett College Department: Counseling Center Clinician - Limited Term",
+      "department": "Counseling Center"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305777&PostingSeq=1&SiteId=40000": {
+      "title": "Test Proctor",
+      "description": "Posted: 11/12/2026 Location: Georgia Gwinnett College Department: Testing Services Test Proctor",
+      "department": "Testing Services"
     }
   },
   "rows": {
@@ -3146,11 +3156,35 @@
       "deadline_of_application": "",
       "posted_date": "11/10/2026",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305781&PostingSeq=1&SiteId=40000": {
+      "school_id": 299,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305781&PostingSeq=1&SiteId=40000",
+      "job_title_in_post": "Clinician - Limited Term",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Counseling Center",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/12/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305777&PostingSeq=1&SiteId=40000": {
+      "school_id": 299,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305777&PostingSeq=1&SiteId=40000",
+      "job_title_in_post": "Test Proctor",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Testing Services",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/12/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 299,
   "status": "complete",
-  "updated_at": "2026-11-11T20:18:39+00:00",
+  "updated_at": "2026-11-12T20:49:44+00:00",
   "last_error": "",
-  "completed_at": "2026-11-11T20:18:39+00:00"
+  "completed_at": "2026-11-12T20:49:44+00:00"
 }

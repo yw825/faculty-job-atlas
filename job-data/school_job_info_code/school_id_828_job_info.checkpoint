@@ -154,6 +154,11 @@
       "title": "VCSU Student Greenhouse Assistant",
       "description": "Posted: 11/02/2026 Location: Valley City Department: Science VCSU Student Greenhouse Assistant",
       "department": "Science"
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960214&PostingSeq=1&SiteId=1": {
+      "title": "VCSU Student Worker at Sodexo (Federal Work Study ONLY)",
+      "description": "Posted: 11/11/2026 Location: Valley City Department: Career Planning and Placement VCSU Student Worker at Sodexo (Federal Work Study ONLY)",
+      "department": "Career Planning and Placement"
     }
   },
   "rows": {
@@ -527,11 +532,23 @@
       "deadline_of_application": "",
       "posted_date": "11/02/2026",
       "position_start_date": ""
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960214&PostingSeq=1&SiteId=1": {
+      "school_id": 828,
+      "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960214&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "VCSU Student Worker at Sodexo (Federal Work Study ONLY)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Career Planning and Placement",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/11/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 828,
   "status": "complete",
-  "updated_at": "2026-11-11T20:31:11+00:00",
-  "completed_at": "2026-11-11T20:31:11+00:00",
+  "updated_at": "2026-11-12T21:00:43+00:00",
+  "completed_at": "2026-11-12T21:00:43+00:00",
   "last_error": ""
 }

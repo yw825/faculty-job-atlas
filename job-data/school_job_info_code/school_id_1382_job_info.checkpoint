@@ -777,6 +777,16 @@
       "title": "Assistant Director Athletics for Sports Medicine - Athletics",
       "description": "The Assistant Director of Athletics for Sports Medicine is responsible for developing, coordinating, and administering a comprehensive sports medicine program for a highly competitive Division II athletics program. Work is performed under general supervision and performance evaluation is based upon completion of assignments and results obtained. The performance evaluation is conducted through the performance evaluation system and in accordance with the University Policies and Procedures. \n\n",
       "department": null
+    },
+    "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/11753": {
+      "title": "Systems Engineer (part-time) - IT Solutions",
+      "description": "The Systems Engineer (part-time) is responsible for assisting the Sr Systems Engineer in developing, maintaining, testing, and analyzing university technology and infrastructure services to enable ITS Infrastructure to meet strategic goals. In this role the position will provide work direction to student assistants, manage and administrate university Linux information technology systems, and ensure the successful integration of both administrative and academic systems.\nAs a member of the IT Solutions team, the Systems Engineer (part-time) is expected to uphold the division’s mission to “empower an agile, digital university and elevate technology as a strategic institutional asset” and contribute positively to a collaborative, human-centered, innovative, accountable, transparent, and inclusive culture within ITS.",
+      "department": null
+    },
+    "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/13102": {
+      "title": "Physical Therapy Clinical Coordinator - Physical Therapy Dallas",
+      "description": "The Physical Therapy Clinical Coordinator is responsible for the identification, affiliation, and maintenance of relationships with our clinical affiliates in cooperation with the physical therapy component administrators and the Directors of Clinical Education.  The position manages the creation of clinical documentation as directed by the Directors of Clinical Education and the component administrator and manages routine communications with clinical agency representatives who offer placements to graduate Doctor of Physical Therapy programs. Work is performed under general supervision and performance evaluation is based upon completion of assignments and results obtained. The performance evaluation is conducted through the performance evaluation system and in accordance with the University Policies & Procedures.",
+      "department": null
     }
   },
   "rows": {
@@ -2627,11 +2637,35 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/11753": {
+      "school_id": 1382,
+      "posting_url": "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/11753",
+      "job_title_in_post": "Systems Engineer (part-time) - IT Solutions",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "IT Solutions",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/13102": {
+      "school_id": 1382,
+      "posting_url": "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/13102",
+      "job_title_in_post": "Physical Therapy Clinical Coordinator - Physical Therapy Dallas",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1382,
   "status": "complete",
-  "updated_at": "2026-11-11T20:33:14+00:00",
-  "completed_at": "2026-11-11T20:33:14+00:00",
+  "updated_at": "2026-11-12T21:04:18+00:00",
+  "completed_at": "2026-11-12T21:04:18+00:00",
   "last_error": ""
 }

@@ -99,6 +99,9 @@
     "https://viprecprod.ad.umanitoba.ca/A#req-51233": {
       "title": "Assistant Professor in Quantum Science",
       "description": "Assistant Professor in Quantum Science | Requisition No: 51233 - Category:  FULL TIME ACADEMICS | Full time -  Permanent | Manitoba | Fort Garry Campus [011] | Nov/02/2026 | Canada Research Chair Tier 2 in Sunflower Breeding and Genet"
+    },
+    "https://viprecprod.ad.umanitoba.ca/A#req-51574": {
+      "error": "RuntimeError: umanitoba: job list did not render"
     }
   },
   "rows": {
@@ -393,11 +396,14 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://viprecprod.ad.umanitoba.ca/A#req-51574": {
+      "error": "RuntimeError: umanitoba: job list did not render"
     }
   },
   "school_id": 1601,
   "status": "complete",
-  "updated_at": "2026-11-11T20:49:03+00:00",
-  "completed_at": "2026-11-11T20:49:03+00:00",
+  "updated_at": "2026-11-12T21:16:56+00:00",
+  "completed_at": "2026-11-12T21:16:56+00:00",
   "last_error": ""
 }

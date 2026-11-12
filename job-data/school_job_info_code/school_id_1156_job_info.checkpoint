@@ -74,6 +74,11 @@
       "title": "Associate Director - Marketing",
       "description": "\n",
       "department": null
+    },
+    "https://setonhill-ibtwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/174": {
+      "title": "Business Analyst for Enterprise Applications",
+      "description": "",
+      "department": null
     }
   },
   "rows": {
@@ -254,11 +259,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://setonhill-ibtwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/174": {
+      "school_id": 1156,
+      "posting_url": "https://setonhill-ibtwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/174",
+      "job_title_in_post": "Business Analyst for Enterprise Applications",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1156,
   "status": "complete",
-  "updated_at": "2026-11-11T20:33:24+00:00",
-  "completed_at": "2026-11-11T20:33:24+00:00",
+  "updated_at": "2026-11-12T21:02:22+00:00",
+  "completed_at": "2026-11-12T21:02:22+00:00",
   "last_error": ""
 }

@@ -739,6 +739,21 @@
       "title": "Nurse Extern - Med Surg",
       "description": "Posted: 11/11/2026 Location: Tyler, TX Department: 5 East Nursing Nurse Extern - Med Surg",
       "department": "5 East Nursing"
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16808&PostingSeq=1&SiteId=12": {
+      "title": "Assistant Professor - Cellular and Molecular Biology",
+      "description": "Posted: 11/12/2026 Location: Tyler, TX Department: BMR Section 27 Assistant Professor - Cellular and Molecular Biology",
+      "department": "BMR Section 27"
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16807&PostingSeq=1&SiteId=12": {
+      "title": "Research Assistant",
+      "description": "Posted: 11/12/2026 Location: Tyler, TX Department: CMB Section 39 Research Assistant",
+      "department": "CMB Section 39"
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16798&PostingSeq=1&SiteId=12": {
+      "title": "Budget Analyst I - Enrollment Management",
+      "description": "Posted: 11/11/2026 Location: Tyler, TX Department: Enrollment Management Budget Analyst I - Enrollment Management",
+      "department": "Enrollment Management"
     }
   },
   "rows": {
@@ -2506,11 +2521,47 @@
       "deadline_of_application": "",
       "posted_date": "11/11/2026",
       "position_start_date": ""
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16808&PostingSeq=1&SiteId=12": {
+      "school_id": 1437,
+      "posting_url": "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16808&PostingSeq=1&SiteId=12",
+      "job_title_in_post": "Assistant Professor - Cellular and Molecular Biology",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "BMR Section 27",
+      "area_key_words": "Cellular and Molecular Biology",
+      "deadline_of_application": "",
+      "posted_date": "11/12/2026",
+      "position_start_date": ""
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16807&PostingSeq=1&SiteId=12": {
+      "school_id": 1437,
+      "posting_url": "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16807&PostingSeq=1&SiteId=12",
+      "job_title_in_post": "Research Assistant",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "CMB Section 39",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/12/2026",
+      "position_start_date": ""
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16798&PostingSeq=1&SiteId=12": {
+      "school_id": 1437,
+      "posting_url": "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16798&PostingSeq=1&SiteId=12",
+      "job_title_in_post": "Budget Analyst I - Enrollment Management",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Enrollment Management",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/11/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 1437,
   "status": "complete",
-  "updated_at": "2026-11-11T20:34:58+00:00",
-  "completed_at": "2026-11-11T20:34:58+00:00",
+  "updated_at": "2026-11-12T21:05:26+00:00",
+  "completed_at": "2026-11-12T21:05:26+00:00",
   "last_error": ""
 }

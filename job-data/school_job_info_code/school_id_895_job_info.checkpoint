@@ -295,6 +295,18 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/2881FFE43C19E2921F626A9C2B366153/jobs/242179": {
       "title": "Teacher Residency Program Coordinator",
       "description": "Teacher Residency Program Coordinator You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/2881FFE43C19E2921F626A9C2B366153/jobs/242462": {
+      "title": "Literacy Coordinator",
+      "description": "Literacy Coordinator You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/2881FFE43C19E2921F626A9C2B366153/jobs/242357": {
+      "title": "Assistant Professor of Physical Education",
+      "description": "Assistant Professor of Physical Education You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/2881FFE43C19E2921F626A9C2B366153/jobs/242350": {
+      "title": "Assistant Professor of Health Education",
+      "description": "Assistant Professor of Health Education You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -616,6 +628,7 @@
       "department_or_school": "",
       "area_key_words": "English",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://www.paycomonline.net/v4/ats/web.php/portal/2881FFE43C19E2921F626A9C2B366153/jobs/229564": {
@@ -1180,11 +1193,47 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/2881FFE43C19E2921F626A9C2B366153/jobs/242462": {
+      "school_id": 895,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/2881FFE43C19E2921F626A9C2B366153/jobs/242462",
+      "job_title_in_post": "Literacy Coordinator",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/2881FFE43C19E2921F626A9C2B366153/jobs/242357": {
+      "school_id": 895,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/2881FFE43C19E2921F626A9C2B366153/jobs/242357",
+      "job_title_in_post": "Assistant Professor of Physical Education",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Physical Education",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/2881FFE43C19E2921F626A9C2B366153/jobs/242350": {
+      "school_id": 895,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/2881FFE43C19E2921F626A9C2B366153/jobs/242350",
+      "job_title_in_post": "Assistant Professor of Health Education",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Health Education",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 895,
   "status": "complete",
-  "updated_at": "2026-11-11T20:31:55+00:00",
-  "completed_at": "2026-11-11T20:31:55+00:00",
+  "updated_at": "2026-11-12T21:01:39+00:00",
+  "completed_at": "2026-11-12T21:01:39+00:00",
   "last_error": ""
 }

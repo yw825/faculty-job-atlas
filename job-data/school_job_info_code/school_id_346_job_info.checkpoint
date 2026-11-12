@@ -69,6 +69,11 @@
       "title": "Adjunct Faculty Nursing",
       "description": "",
       "department": null
+    },
+    "https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/452": {
+      "title": "Network Engineer",
+      "description": "",
+      "department": null
     }
   },
   "rows": {
@@ -239,11 +244,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/452": {
+      "school_id": 346,
+      "posting_url": "https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/452",
+      "job_title_in_post": "Network Engineer",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 346,
   "status": "complete",
-  "updated_at": "2026-11-11T20:20:21+00:00",
+  "updated_at": "2026-11-12T20:51:03+00:00",
   "last_error": "",
-  "completed_at": "2026-11-11T20:20:21+00:00"
+  "completed_at": "2026-11-12T20:51:03+00:00"
 }

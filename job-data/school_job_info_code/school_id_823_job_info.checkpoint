@@ -639,6 +639,16 @@
       "title": "Post Doctoral Research Associate-Dr Monono",
       "description": "Posted: 11/10/2026 Location: Fargo Department: AES Ag & Biosystems Eng Post Doctoral Research Associate-Dr Monono",
       "department": "AES Ag & Biosystems Eng"
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960187&PostingSeq=1&SiteId=1": {
+      "title": "Catering Cook",
+      "description": "Posted: 11/12/2026 Location: Fargo Department: Dining Catering Cook",
+      "department": "Dining"
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960196&PostingSeq=1&SiteId=1": {
+      "title": "Senior, Admin Coordinator-Academic",
+      "description": "Posted: 11/12/2026 Location: Fargo Department: School of Design, Arch + Art Senior, Admin Coordinator-Academic",
+      "department": "School of Design, Arch + Art"
     }
   },
   "rows": {
@@ -2156,11 +2166,35 @@
       "deadline_of_application": "",
       "posted_date": "11/10/2026",
       "position_start_date": ""
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960187&PostingSeq=1&SiteId=1": {
+      "school_id": 823,
+      "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960187&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Catering Cook",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Dining",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/12/2026",
+      "position_start_date": ""
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960196&PostingSeq=1&SiteId=1": {
+      "school_id": 823,
+      "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960196&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Senior, Admin Coordinator-Academic",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "School of Design, Arch + Art",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/12/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 823,
   "status": "complete",
-  "updated_at": "2026-11-11T20:26:35+00:00",
-  "completed_at": "2026-11-11T20:26:35+00:00",
+  "updated_at": "2026-11-12T20:56:47+00:00",
+  "completed_at": "2026-11-12T20:56:47+00:00",
   "last_error": ""
 }

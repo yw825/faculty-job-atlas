@@ -79,6 +79,10 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/AB201C499D53A5D603D5BE296513B383/jobs/443218": {
       "title": "Adjunct Instructor - Sport Leadership (In-person on the Surprise, Arizona Campus)",
       "description": "Adjunct Instructor - Sport Leadership (In-person on the Surprise, Arizona Campus) You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/AB201C499D53A5D603D5BE296513B383/jobs/444614": {
+      "title": "Assistant Mens Soccer Coach",
+      "description": "Assistant Mens Soccer Coach You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -319,11 +323,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/AB201C499D53A5D603D5BE296513B383/jobs/444614": {
+      "school_id": 1921,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/AB201C499D53A5D603D5BE296513B383/jobs/444614",
+      "job_title_in_post": "Assistant Mens Soccer Coach",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1921,
   "status": "complete",
-  "updated_at": "2026-11-11T20:36:43+00:00",
-  "completed_at": "2026-11-11T20:36:43+00:00",
+  "updated_at": "2026-11-12T21:06:57+00:00",
+  "completed_at": "2026-11-12T21:06:57+00:00",
   "last_error": ""
 }

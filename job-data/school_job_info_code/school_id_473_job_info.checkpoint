@@ -87,6 +87,10 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/AB201C499D53A5D603D5BE296513B383/jobs/443207": {
       "title": "Adjunct Instructor - Engineering/Physics - In Person, Ottawa Residential Campus",
       "description": "Adjunct Instructor - Engineering/Physics - In Person, Ottawa Residential Campus You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/AB201C499D53A5D603D5BE296513B383/jobs/444607": {
+      "title": "Director of Marketing OUKS - Advancement",
+      "description": "Director of Marketing OUKS - Advancement You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -353,11 +357,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/AB201C499D53A5D603D5BE296513B383/jobs/444607": {
+      "school_id": 473,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/AB201C499D53A5D603D5BE296513B383/jobs/444607",
+      "job_title_in_post": "Director of Marketing OUKS - Advancement",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Marketing OUKS",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 473,
   "status": "complete",
-  "updated_at": "2026-11-11T20:22:31+00:00",
-  "completed_at": "2026-11-11T20:22:31+00:00",
+  "updated_at": "2026-11-12T20:53:35+00:00",
+  "completed_at": "2026-11-12T20:53:35+00:00",
   "last_error": ""
 }

@@ -299,6 +299,11 @@
       "title": "AMHSP Assistant Professor - Emergency Medicine",
       "description": "",
       "department": null
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4626": {
+      "title": "AMHSP Position Computational Clinician Scientist in the Genetic Epidemiology of Lipids Disorders",
+      "description": "",
+      "department": null
     }
   },
   "rows": {
@@ -1011,11 +1016,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4626": {
+      "school_id": 1587,
+      "posting_url": "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4626",
+      "job_title_in_post": "AMHSP Position Computational Clinician Scientist in the Genetic Epidemiology of Lipids Disorders",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Lipids Disorders",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1587,
   "status": "complete",
-  "updated_at": "2026-11-11T20:49:15+00:00",
-  "completed_at": "2026-11-11T20:49:15+00:00",
+  "updated_at": "2026-11-12T21:16:41+00:00",
+  "completed_at": "2026-11-12T21:16:41+00:00",
   "last_error": ""
 }

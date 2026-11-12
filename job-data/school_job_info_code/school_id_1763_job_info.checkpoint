@@ -329,6 +329,21 @@
       "title": "Research Fellow (Postdoctoral) - School of Social Policy and Society - 108219 - Grade 7",
       "description": "To create and contribute to the creation of knowledge by undertaking research on suicide and homicide risk among young carers.\n\nPosting closes: 2026-11-25",
       "department": null
+    },
+    "https://edzz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_6001/job/10288": {
+      "title": "Research Fellow - School of English, Drama and Creative Studies - 108019 - Grade 7",
+      "description": " The Research Fellow will lead on developing video and multimedia assets for the open-access platform at the heart of the project, as well as contributing to project publications, conferences, and co-creation with teachers.\n\nPosting closes: 2026-12-03",
+      "department": null
+    },
+    "https://edzz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_6001/job/10349": {
+      "title": "Research Fellow for Development of a Novel Vestibular Diagnostic - School of Sport, Exercise and Rehabilitation Sciences - 103852 - Grade 7",
+      "description": "The post holder will undertake a comparison of EVS against the leading alternative vestibular diagnostics in a large cohort of patients with Meniere’s disease and Vestibular Schwannoma. They will be involved in all aspects of the research, from patient recruitment and testing through to data analysis and preparation of publications. Patient recruitment will be undertaken in collaboration with colleagues at the nearby Queen Elizabeth Hospital. Patient testing will be undertaken in the laboratories of The School of Sport, Exercise & Rehabilitation Sciences. This will involve the use of custom-designed equipment in addition to commercially available diagnostic tests from Intercostals. Both data acquisition and analysis will involve the use of Matlab and Simulink; hence, experience with this software is desirable. More generally, previous experience of independently setting up and troubleshooting custom human physiology/neuroscience experiments is highly desirable.\n\nPosting closes: 2026-11-19",
+      "department": null
+    },
+    "https://edzz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_6001/job/10351": {
+      "title": "Research Fellow (Energy Materials, PASTY Project) - School of Metallurgy and Materials - 108318 - Grade 7",
+      "description": "The postholder will play a leading role in the delivery of this project, with the synthesis of LiFePO4 materials, and the evaluation of all materials within the workflow using elemental and phase characterisation techniques, in addition to electrochemical performance validation testing.\n\nPosting closes: 2026-11-19",
+      "department": null
     }
   },
   "rows": {
@@ -1110,11 +1125,47 @@
       "deadline_of_application": "2026-11-25",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://edzz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_6001/job/10288": {
+      "school_id": 1763,
+      "posting_url": "https://edzz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_6001/job/10288",
+      "job_title_in_post": "Research Fellow - School of English, Drama and Creative Studies - 108019 - Grade 7",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "School of English, Drama and Creative Studies",
+      "area_key_words": "Grade 7",
+      "deadline_of_application": "2026-12-03",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://edzz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_6001/job/10349": {
+      "school_id": 1763,
+      "posting_url": "https://edzz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_6001/job/10349",
+      "job_title_in_post": "Research Fellow for Development of a Novel Vestibular Diagnostic - School of Sport, Exercise and Rehabilitation Sciences - 103852 - Grade 7",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "School of Sport, Exercise and Rehabilitation Sciences",
+      "area_key_words": "Grade 7",
+      "deadline_of_application": "2026-11-19",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://edzz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_6001/job/10351": {
+      "school_id": 1763,
+      "posting_url": "https://edzz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_6001/job/10351",
+      "job_title_in_post": "Research Fellow (Energy Materials, PASTY Project) - School of Metallurgy and Materials - 108318 - Grade 7",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "School of Metallurgy and Materials",
+      "area_key_words": "School of Metallurgy and Materials",
+      "deadline_of_application": "2026-11-19",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1763,
   "status": "complete",
-  "updated_at": "2026-11-11T21:01:12+00:00",
-  "completed_at": "2026-11-11T21:01:12+00:00",
+  "updated_at": "2026-11-12T21:27:57+00:00",
+  "completed_at": "2026-11-12T21:27:57+00:00",
   "last_error": ""
 }

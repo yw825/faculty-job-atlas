@@ -78,9 +78,9 @@
     "https://www.kcl.ac.uk/jobs/162926-waste-and-resource-manager"
   ],
   "school_id": 1771,
-  "status": "complete",
-  "updated_at": "2026-11-11T20:09:10+00:00",
+  "status": "error",
+  "updated_at": "2026-11-12T20:32:39+00:00",
   "started_at": "2026-09-02T22:32:45+00:00",
   "completed_at": "2026-11-11T20:09:10+00:00",
-  "last_error": ""
+  "last_error": "Error: ElementHandle.evaluate: Execution context was destroyed, most likely because of a navigation"
 }

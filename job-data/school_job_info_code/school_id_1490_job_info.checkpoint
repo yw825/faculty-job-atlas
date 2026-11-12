@@ -71,6 +71,10 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/0DB1CFB7BAA1AF7EF9E6616BC163C95A/jobs/223521": {
       "title": "Stable Assistant",
       "description": "Stable Assistant You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/0DB1CFB7BAA1AF7EF9E6616BC163C95A/jobs/251708": {
+      "title": "Assistant Professor of Chemistry (Tenure Track)",
+      "description": "Assistant Professor of Chemistry (Tenure Track) You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -289,11 +293,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/0DB1CFB7BAA1AF7EF9E6616BC163C95A/jobs/251708": {
+      "school_id": 1490,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/0DB1CFB7BAA1AF7EF9E6616BC163C95A/jobs/251708",
+      "job_title_in_post": "Assistant Professor of Chemistry (Tenure Track)",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Chemistry",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1490,
   "status": "complete",
-  "updated_at": "2026-11-11T20:38:33+00:00",
-  "completed_at": "2026-11-11T20:38:33+00:00",
+  "updated_at": "2026-11-12T21:06:57+00:00",
+  "completed_at": "2026-11-12T21:06:57+00:00",
   "last_error": ""
 }

@@ -294,6 +294,21 @@
       "title": "Assistant Professor - 123360 Secondary Ed. English",
       "description": "Teach courses, perform research, and fulfill the mission of the Department of Curriculum & Instruction.\n\nTennessee Tech is an Equal Opportunity/Affirmative Action employer.",
       "department": null
+    },
+    "https://fa-eygi-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26119": {
+      "title": "Admissions Counselor (Admissions and Enrollment Specialist I)",
+      "description": "Recruit, encourage and assist prospective students with the admissions process and provide overall information about Tennessee Tech. Admissions Counselors accomplish this by traveling to high schools and community colleges, as well as interviewing students and families when they come to campus for an official campus visit. Forming a relationship with the high school counselor, student and his/her family is important and this relationship often carries over once the student is an enrolled Tech student.\n\nTennessee Tech is an Equal Opportunity/Affirmative Action employer.",
+      "department": null
+    },
+    "https://fa-eygi-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26102": {
+      "title": "Administrative Services Coordinator II",
+      "description": "The overall purpose of this position is to provide administrative support to the new PhD program and existing MS program and to serve as the primary point of contact for graduate student inquiries and issues. Please note that this is a half-time position.\n\nTennessee Tech is an Equal Opportunity/Affirmative Action employer.",
+      "department": null
+    },
+    "https://fa-eygi-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26115": {
+      "title": "Athletics Event Management Specialist I",
+      "description": "The overall purpose of this job is to assist the Director of Facilities and Game Operations, Assistant Director of Facilities and Game Operations and Senior Facilities and Events Coordinator in day-to-day operations. This position assists in the day-to-day operations of athletic facilities and event management.\n\nTennessee Tech is an Equal Opportunity/Affirmative Action Employer.",
+      "department": null
     }
   },
   "rows": {
@@ -1001,11 +1016,47 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://fa-eygi-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26119": {
+      "school_id": 1327,
+      "posting_url": "https://fa-eygi-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26119",
+      "job_title_in_post": "Admissions Counselor (Admissions and Enrollment Specialist I)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://fa-eygi-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26102": {
+      "school_id": 1327,
+      "posting_url": "https://fa-eygi-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26102",
+      "job_title_in_post": "Administrative Services Coordinator II",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://fa-eygi-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26115": {
+      "school_id": 1327,
+      "posting_url": "https://fa-eygi-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26115",
+      "job_title_in_post": "Athletics Event Management Specialist I",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1327,
   "status": "complete",
-  "updated_at": "2026-11-11T20:37:03+00:00",
-  "completed_at": "2026-11-11T20:37:03+00:00",
+  "updated_at": "2026-11-12T21:05:58+00:00",
+  "completed_at": "2026-11-12T21:05:58+00:00",
   "last_error": ""
 }

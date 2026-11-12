@@ -417,6 +417,18 @@
     "https://my.rsu.edu/ICS/RSU_Jobs/RSU_Employment_Opportunities.jnz#instructor-34": {
       "title": "Instructor",
       "description": "Instructor. Department: Department of Mathematics & Physical Sciences. Classification: Faculty. Full Time. Posted: 07/24/2026."
+    },
+    "https://my.rsu.edu/ICS/RSU_Jobs/RSU_Employment_Opportunities.jnz#adjunct-instructor-3": {
+      "title": "Adjunct Instructor",
+      "description": "Adjunct Instructor. Department: Department of Technology & Justice Studies. Classification: Faculty. Part Time. Posted: 08/04/2026."
+    },
+    "https://my.rsu.edu/ICS/RSU_Jobs/RSU_Employment_Opportunities.jnz#assistant-professor-20": {
+      "title": "Assistant Professor",
+      "description": "Assistant Professor. Department: Department of Mathematics & Physical Sciences. Classification: Faculty. Full Time. Posted: 09/04/2026."
+    },
+    "https://my.rsu.edu/ICS/RSU_Jobs/RSU_Employment_Opportunities.jnz#instructor-33": {
+      "title": "Instructor",
+      "description": "Instructor. Department: Department of Mathematics & Physical Sciences. Classification: Faculty. Full Time. Posted: 07/24/2026."
     }
   },
   "rows": {
@@ -917,6 +929,7 @@
       "department_or_school": "Department of Biology",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "08/25/2025",
       "position_start_date": ""
     },
     "https://my.rsu.edu/ICS/RSU_Jobs/RSU_Employment_Opportunities.jnz#student-worker-43": {
@@ -1248,6 +1261,7 @@
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://my.rsu.edu/ICS/RSU_Jobs/RSU_Employment_Opportunities.jnz#student-worker-fws-71": {
@@ -1651,11 +1665,47 @@
       "deadline_of_application": "",
       "posted_date": "07/24/2026",
       "position_start_date": ""
+    },
+    "https://my.rsu.edu/ICS/RSU_Jobs/RSU_Employment_Opportunities.jnz#adjunct-instructor-3": {
+      "school_id": 1087,
+      "posting_url": "https://my.rsu.edu/ICS/RSU_Jobs/RSU_Employment_Opportunities.jnz#adjunct-instructor-3",
+      "job_title_in_post": "Adjunct Instructor",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "Department of Technology & Justice Studies",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "08/04/2026",
+      "position_start_date": ""
+    },
+    "https://my.rsu.edu/ICS/RSU_Jobs/RSU_Employment_Opportunities.jnz#assistant-professor-20": {
+      "school_id": 1087,
+      "posting_url": "https://my.rsu.edu/ICS/RSU_Jobs/RSU_Employment_Opportunities.jnz#assistant-professor-20",
+      "job_title_in_post": "Assistant Professor",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Department of Mathematics & Physical Sciences",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "09/04/2026",
+      "position_start_date": ""
+    },
+    "https://my.rsu.edu/ICS/RSU_Jobs/RSU_Employment_Opportunities.jnz#instructor-33": {
+      "school_id": 1087,
+      "posting_url": "https://my.rsu.edu/ICS/RSU_Jobs/RSU_Employment_Opportunities.jnz#instructor-33",
+      "job_title_in_post": "Instructor",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "Department of Mathematics & Physical Sciences",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "07/24/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 1087,
   "status": "complete",
-  "updated_at": "2026-11-11T20:33:50+00:00",
-  "completed_at": "2026-11-11T20:33:50+00:00",
+  "updated_at": "2026-11-12T21:03:53+00:00",
+  "completed_at": "2026-11-12T21:03:53+00:00",
   "last_error": ""
 }

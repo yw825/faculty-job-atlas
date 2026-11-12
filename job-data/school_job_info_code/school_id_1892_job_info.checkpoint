@@ -789,6 +789,21 @@
       "title": "Studentermedhjælp til Personale, Ph.d. & Økonomi ved Administrationscenter SBS/SAMF (ABSS)",
       "description": "",
       "department": null
+    },
+    "https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/4472": {
+      "title": "Student worker for System Integration",
+      "description": "",
+      "department": null
+    },
+    "https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/4474": {
+      "title": "Tandplejer med studielederfunktion til ny professionsbacheloruddannelse i tandpleje, Institut for Klinisk og Præventiv Odontologi, Syddansk Universitet",
+      "description": "Vil du stå i spidsen for udviklingen og etableringen af SDU’s nye tandplejeuddannelse?\nInstitut for Klinisk og Præventiv Odontologi søger en erfaren og udviklingsorienteret tandplejer, der ansættes med studielederfunktion for professionsbacheloruddannelsen i tandpleje.",
+      "department": null
+    },
+    "https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/4468": {
+      "title": "Instruktorer til faget Almen statskundskab, forår 2027",
+      "description": "",
+      "department": null
     }
   },
   "rows": {
@@ -2663,11 +2678,47 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/4472": {
+      "school_id": 1892,
+      "posting_url": "https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/4472",
+      "job_title_in_post": "Student worker for System Integration",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/4474": {
+      "school_id": 1892,
+      "posting_url": "https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/4474",
+      "job_title_in_post": "Tandplejer med studielederfunktion til ny professionsbacheloruddannelse i tandpleje, Institut for Klinisk og Præventiv Odontologi, Syddansk Universitet",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/4468": {
+      "school_id": 1892,
+      "posting_url": "https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/4468",
+      "job_title_in_post": "Instruktorer til faget Almen statskundskab, forår 2027",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1892,
   "status": "complete",
-  "updated_at": "2026-11-11T20:51:36+00:00",
-  "completed_at": "2026-11-11T20:51:36+00:00",
+  "updated_at": "2026-11-12T21:18:43+00:00",
+  "completed_at": "2026-11-12T21:18:43+00:00",
   "last_error": ""
 }

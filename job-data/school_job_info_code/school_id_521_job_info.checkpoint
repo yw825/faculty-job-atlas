@@ -729,6 +729,11 @@
       "title": "Adjunct Lecturer - Education Programs",
       "description": "The Tulane School of Professional Advancement (SoPA) is seeking experienced adjunct instructors to apply to the Education Program. This posting is for the spring, summer, and fall semesters.",
       "department": null
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2298": {
+      "title": "Adjunct Lecturer",
+      "description": "The Department of Jewish Studies at Tulane University is searching for an Adjunct professor in modern Hebrew language. Requirements include a PhD in language pedagogy, Hebrew, or a related field, extensive teaching experience at the college level and a record of success in the classroom. The teaching load is 3 courses and will involve teaching at the first year levels.",
+      "department": null
     }
   },
   "rows": {
@@ -2479,11 +2484,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2298": {
+      "school_id": 521,
+      "posting_url": "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2298",
+      "job_title_in_post": "Adjunct Lecturer",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "Department of Jewish Studies",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 521,
   "status": "complete",
-  "updated_at": "2026-11-11T20:22:42+00:00",
-  "completed_at": "2026-11-11T20:22:42+00:00",
+  "updated_at": "2026-11-12T20:53:11+00:00",
+  "completed_at": "2026-11-12T20:53:11+00:00",
   "last_error": ""
 }

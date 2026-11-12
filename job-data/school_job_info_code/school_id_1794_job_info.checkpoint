@@ -155,6 +155,10 @@
     "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#lecturer-in-ict-and-cyber-security": {
       "title": "Lecturer in ICT and Cyber Security",
       "description": "Lecturer in ICT and Cyber Security. Charles Darwin University. Employment type: Continuing."
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#barkly-operations-coordinator": {
+      "title": "Barkly Operations Coordinator",
+      "description": "Barkly Operations Coordinator. Charles Darwin University. Employment type: Continuing."
     }
   },
   "rows": {
@@ -619,11 +623,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#barkly-operations-coordinator": {
+      "school_id": 1794,
+      "posting_url": "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#barkly-operations-coordinator",
+      "job_title_in_post": "Barkly Operations Coordinator",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1794,
   "status": "complete",
-  "updated_at": "2026-11-11T20:45:27+00:00",
-  "completed_at": "2026-11-11T20:45:27+00:00",
+  "updated_at": "2026-11-12T21:13:22+00:00",
+  "completed_at": "2026-11-12T21:13:22+00:00",
   "last_error": ""
 }

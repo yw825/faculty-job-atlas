@@ -161,7 +161,12 @@
       "description": "Curriculum Development & Instructional Design Student Worker.  Overview: Supports the creation and structuring of educational content across the EMET platform, as well as working closely with the developers for testing and feedback. Hours:12-18 hours per week; between Monday to Friday 8am – 6pm Key Responsibilities: Structure and refine course material into engaging, intuitive digital learning flows. Collaborate directly on educational content creation and interactive modules. Test new platform features from an educator/learner perspective and provide direct, actionable feedback to the development team. Ideal Qualifications: Background or strong interest in education, instructional design, digital learning, or content organization. Excellent written communication skills and sharp attention to detail. Ability to think critically about user experience and learning outcomes. Education major preferred. Some knowledge of technical writing coding experience preferred. Apply for this Position Go back to the job list "
     },
     "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883c66ee9a5cc016ef0ea2d5b06cb&id=8a7885aca18473fa01a1cbbf8ed13b37": {
-      "error": "RuntimeError: posting did not open in the page frame (closed?)"
+      "title": "Student Software Developer",
+      "description": "Student Software Developer.  Overview: Assists with feature development, UI implementation, and codebase maintenance for the EMET web platform. Hours: 12-18 hours per week; between Monday to Friday 8am – 6pm Key Responsibilities: Build and maintain frontend and backend features using modern web technologies (TypeScript, Vue/Nuxt,Node.js). Collaborate on platform tooling, component updates, and responsive design. Assist with bug fixes, code testing, and integrating feedback from instructional designers. Ideal Qualifications: Coursework or hands-on experience in computer science, software engineering, or related technical disciplines. Familiarity with JavaScript/TypeScript and modern web frameworks. Eagerness to learn, write clean code, and collaborate in an active development environment. Apply for this Position Go back to the job list "
+    },
+    "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883c66ee9a5cc016ef0ea2d5b06cb&id=8a78839fa1ccde6f01a1d052d9fb38ba": {
+      "title": "Chair of Graduate Nursing",
+      "description": "Chair of Graduate Nursing.  Chair of Graduate Nursing Full-Time Tenure-Track Faculty Assistant, Associate, or Full Professor Spring Arbor University is seeking an individual with teaching and administrative experience to lead our thriving online graduate nursing programs (MSN, Post-master’s certifications, DNP). Spring Arbor University is regionally accredited by the Higher Learning Commission and is located on a beautiful campus in south central Michigan. The Chair of Graduate Nursing is a hybrid position with remote work considered, but travel to campus will be periodically required. POSITION DESCRIPTION The School of Nursing, Health, and Sciences at Spring Arbor University (SAU) invites applicants for a tenure-track position in Nursing to serve as Chair of SAU’s graduate nursing programs. The Chair will provide effective leadership in accordance with nursing accreditation and professional standards. They will be responsible for and vested with the administrative authority to accomplish the mission, goals, and expected student and faculty outcomes of the graduate nursing department. QUALIFICATIONS Spring Arbor University is a community of learners distinguished by our lifelong involvement in the study and application of the liberal arts, total commitment to Jesus Christ as the perspective of learning, and critical participation in the contemporary world. We are seeking an individual who is passionate about academic excellence and about preparing students to impact the world for Jesus Christ within the vocation of nursing. The successful candidate will be able to articulate how their Christian faith informs and integrates into the study and practice of nursing. Individuals will agree with SAU’s Mission Statement and Statement of Faith and will exhibit a life and service that is in full accord with the SAU’s Community Covenant. Applicants must be thoroughly supportive of the University’s values as an evangelical Christian university affiliated with the Free Methodist Church. Candidates from diverse populations, or who have experience working with diverse populations, are encouraged to apply. EDUCATION and EXPERIENCE A doctorate in Nursing or a related field and an MSN is required. The individual must have a current RN license and 3-5 years of recent administrative experience. Experience in teaching at the graduate level, accreditation, online instruction, and curriculum development is preferred. SALARY and BENEFITS Salary is competitive and commensurate with experience and other qualifications. Spring Arbor University has been recognized by a third-party assessment for having Great Employee Benefits including medical insurance, life insurance, and employer-contribution to SAU's 403(b) retirement program. The review of applications will begin upon receipt and will continue until the position is filled. Experience working in multicultural academic environments preferred and individuals from diverse populations are encouraged to apply. Spring Arbor University is an Equal Opportunity Employer. We believe it is both our moral and legal obligation to ensure that all employment practices are conducted in a nondiscriminatory manner. In compliance with Title VII of the Civil Rights Act of 1964 and other applicable federal and state statutes, all employment decisions and practices, including recruiting, hiring, training, promotion, compensation, benefits, transfers, job classification, assignments, working conditions, educational assistance, terminations, layoffs, and return from layoffs, and all other terms, conditions, and privileges of employment, will be administered without regard to race, color, ancestry, age, sex, national origin, pregnancy or childbirth, disability, military or veteran status, or any other status protected by applicable federal or state law. We evaluate all employees and prospective employees strictly according to the requirements of the job. As a Christian religious organization, Spring Arbor University operates under the religious exemption provided by federal law, which permits religious organizations, including educational institutions, to give employment preference to individuals who share the University's closely held religious beliefs. The University's hiring practices and equal employment policies are administered in full compliance with both federal and state law. Apply for this Position Apply with Indeed Go back to the job list "
     }
   },
   "rows": {
@@ -646,12 +651,33 @@
       "position_start_date": ""
     },
     "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883c66ee9a5cc016ef0ea2d5b06cb&id=8a7885aca18473fa01a1cbbf8ed13b37": {
-      "error": "RuntimeError: posting did not open in the page frame (closed?)"
+      "school_id": 661,
+      "posting_url": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883c66ee9a5cc016ef0ea2d5b06cb&id=8a7885aca18473fa01a1cbbf8ed13b37",
+      "job_title_in_post": "Student Software Developer",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883c66ee9a5cc016ef0ea2d5b06cb&id=8a78839fa1ccde6f01a1d052d9fb38ba": {
+      "school_id": 661,
+      "posting_url": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883c66ee9a5cc016ef0ea2d5b06cb&id=8a78839fa1ccde6f01a1d052d9fb38ba",
+      "job_title_in_post": "Chair of Graduate Nursing",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "School of Nursing, Health, and Sciences",
+      "area_key_words": "Graduate Nursing",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 661,
   "status": "complete",
-  "updated_at": "2026-11-11T20:26:06+00:00",
-  "completed_at": "2026-11-11T20:26:06+00:00",
+  "updated_at": "2026-11-12T20:56:01+00:00",
+  "completed_at": "2026-11-12T20:56:01+00:00",
   "last_error": ""
 }
