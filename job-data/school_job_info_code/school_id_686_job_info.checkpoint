@@ -114,6 +114,11 @@
       "title": "Associate Director of Human Resources",
       "description": "",
       "department": null
+    },
+    "https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/3155": {
+      "title": "Custodian",
+      "description": "",
+      "department": null
     }
   },
   "rows": {
@@ -389,11 +394,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/3155": {
+      "school_id": 686,
+      "posting_url": "https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/3155",
+      "job_title_in_post": "Custodian",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 686,
   "status": "complete",
-  "updated_at": "2026-11-12T20:54:44+00:00",
-  "completed_at": "2026-11-12T20:54:44+00:00",
+  "updated_at": "2026-11-13T20:26:27+00:00",
+  "completed_at": "2026-11-13T20:26:27+00:00",
   "last_error": ""
 }

@@ -1014,6 +1014,21 @@
       "title": "Part-time Lecturer (Cognitive Behavioral Therapy)",
       "description": "This position sits under the Academy of Wellness and Human Development at our Kowloon Tong campus.  The core responsibilities are teaching in the fields of Social Work, Counselling, and related disciplines.",
       "department": null
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270305": {
+      "title": "Senior PR and Communication Officer, School of Continuing Education",
+      "description": "This position sits under the School of Continuing Education. The core responsibilities are planning, executing and conducting performance analysis for a full spectrum of branding and advertising campaigns.",
+      "department": null
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270328": {
+      "title": "Assistant Programme Officer, Office of Student Affairs",
+      "description": "This position sits under the Office of Student Affairs at our Kowloon Tong campus. The core responsibilities are planning and executing events related to arts and culture for the University community.",
+      "department": null
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270332": {
+      "title": "Deputy Hospital Chief Executive (Western Medicine), Chinese Medicine Hospital",
+      "description": "This position sits under The Chinese Hospital of Hong Kong in Tseung Kwan O. The core responsibilities are assuming the role of a chief medical executive as stipulated under the Private Healthcare Facilities Ordinance (Cap. 633).",
+      "department": null
     }
   },
   "rows": {
@@ -3444,11 +3459,47 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270305": {
+      "school_id": 1834,
+      "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270305",
+      "job_title_in_post": "Senior PR and Communication Officer, School of Continuing Education",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "School of Continuing Education",
+      "area_key_words": "Continuing Education",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270328": {
+      "school_id": 1834,
+      "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270328",
+      "job_title_in_post": "Assistant Programme Officer, Office of Student Affairs",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Student Affairs",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270332": {
+      "school_id": 1834,
+      "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270332",
+      "job_title_in_post": "Deputy Hospital Chief Executive (Western Medicine), Chinese Medicine Hospital",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1834,
   "status": "complete",
-  "updated_at": "2026-11-12T21:21:21+00:00",
-  "completed_at": "2026-11-12T21:21:21+00:00",
+  "updated_at": "2026-11-13T20:53:23+00:00",
+  "completed_at": "2026-11-13T20:53:23+00:00",
   "last_error": ""
 }

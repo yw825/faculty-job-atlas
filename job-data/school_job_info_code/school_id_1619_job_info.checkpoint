@@ -267,6 +267,10 @@
     "https://careers.mcmaster.ca/psp/prcsprd/EMPLOYEE/HRMS/c/HRS_HRAM.HRS_APP_SCHJOB.GBL?Page=HRS_APP_SCHJOB&Action=U&FOCUS=Applicant&SiteId=1000&cmd=uninav&Rnode=HRMS&uninavpath=Root{PORTAL_ROOT_OBJECT}.Portal%20Objects{PORTAL_BASE_DATA}.Navigation%20Collections{CO_NAVIGATION_COLLECTIONS}.Custom%20Tabs{PAPP_CUSTOM_TABS}&customTab=MCM_TAB_FACULTY_POS&IgnoreParamTempl=customTab#job-79632": {
       "title": "Faculty/Clinician Educator position, Division of Hematology/Oncology",
       "description": "Faculty/Clinician Educator position, Division of Hematology/Oncology - 79632 Department: Pediatrics | Location: HSC- Central Campus | Posted Date: 2026/11/10 Pediatrics"
+    },
+    "https://careers.mcmaster.ca/psp/prcsprd/EMPLOYEE/HRMS/c/HRS_HRAM.HRS_APP_SCHJOB.GBL?Page=HRS_APP_SCHJOB&Action=U&FOCUS=Applicant&SiteId=1000&cmd=uninav&Rnode=HRMS&uninavpath=Root{PORTAL_ROOT_OBJECT}.Portal%20Objects{PORTAL_BASE_DATA}.Navigation%20Collections{CO_NAVIGATION_COLLECTIONS}.Custom%20Tabs{PAPP_CUSTOM_TABS}&customTab=MCM_TAB_FACULTY_POS&IgnoreParamTempl=customTab#job-78555": {
+      "title": "Academic Cardiologist with Expertise in Cardiac Imaging & Artificial Intelligence",
+      "description": "Academic Cardiologist with Expertise in Cardiac Imaging & Artificial Intelligence - 78555 Department: Medicine | Location: St. Joseph's Hospital | Posted Date: 2026/09/09 Medicine"
     }
   },
   "rows": {
@@ -1069,11 +1073,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://careers.mcmaster.ca/psp/prcsprd/EMPLOYEE/HRMS/c/HRS_HRAM.HRS_APP_SCHJOB.GBL?Page=HRS_APP_SCHJOB&Action=U&FOCUS=Applicant&SiteId=1000&cmd=uninav&Rnode=HRMS&uninavpath=Root{PORTAL_ROOT_OBJECT}.Portal%20Objects{PORTAL_BASE_DATA}.Navigation%20Collections{CO_NAVIGATION_COLLECTIONS}.Custom%20Tabs{PAPP_CUSTOM_TABS}&customTab=MCM_TAB_FACULTY_POS&IgnoreParamTempl=customTab#job-78555": {
+      "school_id": 1619,
+      "posting_url": "https://careers.mcmaster.ca/psp/prcsprd/EMPLOYEE/HRMS/c/HRS_HRAM.HRS_APP_SCHJOB.GBL?Page=HRS_APP_SCHJOB&Action=U&FOCUS=Applicant&SiteId=1000&cmd=uninav&Rnode=HRMS&uninavpath=Root{PORTAL_ROOT_OBJECT}.Portal%20Objects{PORTAL_BASE_DATA}.Navigation%20Collections{CO_NAVIGATION_COLLECTIONS}.Custom%20Tabs{PAPP_CUSTOM_TABS}&customTab=MCM_TAB_FACULTY_POS&IgnoreParamTempl=customTab#job-78555",
+      "job_title_in_post": "Academic Cardiologist with Expertise in Cardiac Imaging & Artificial Intelligence",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Cardiac Imaging & Artificial Intelligence",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1619,
   "status": "complete",
-  "updated_at": "2026-11-12T21:17:00+00:00",
-  "completed_at": "2026-11-12T21:17:00+00:00",
+  "updated_at": "2026-11-13T20:48:37+00:00",
+  "completed_at": "2026-11-13T20:48:37+00:00",
   "last_error": ""
 }

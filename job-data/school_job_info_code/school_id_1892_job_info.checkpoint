@@ -804,6 +804,16 @@
       "title": "Instruktorer til faget Almen statskundskab, forår 2027",
       "description": "",
       "department": null
+    },
+    "https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/4463": {
+      "title": "Associate professor in Artificial Intelligence for Medical Applications at SDU Robotics",
+      "description": "To support our advancements in deep learning and AI methods for medical image and clinical data analysis SDU Robotics invites applications for one or more associate professor position(s). The starting date is in March 2027 or as soon as possible thereafter and will be agreed with the successful candidates. The workplace is at SDU's main campus in Odense, Denmark, and the work is expected to be primarily onsite.\n\nThe application deadline is January 11, 2027, at 11:59 PM/23:59 (CET/CEST) ",
+      "department": null
+    },
+    "https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/4476": {
+      "title": "Postdoc in Whole-Ship Energy Modelling and Maritime Decarbonization",
+      "description": "SDU Mechanical Engineering (SDU ME), part of the Institute of Mechanical and Electrical Engineering at the University of Southern Denmark (SDU), invites applications for an 18-month postdoctoral position in thermodynamics-based whole-ship energy modelling. The position is expected to start in March 2027, with the specific start date to be agreed upon with the successful candidate.\n\nThe application deadline is January 1, 2027, at 11:59 PM/23:59 (CET/CEST)",
+      "department": null
     }
   },
   "rows": {
@@ -2714,11 +2724,35 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/4463": {
+      "school_id": 1892,
+      "posting_url": "https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/4463",
+      "job_title_in_post": "Associate professor in Artificial Intelligence for Medical Applications at SDU Robotics",
+      "position_type": "Associate_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Artificial Intelligence for Medical Applications at SDU Robotics",
+      "deadline_of_application": "January 11, 2027",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/4476": {
+      "school_id": 1892,
+      "posting_url": "https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/4476",
+      "job_title_in_post": "Postdoc in Whole-Ship Energy Modelling and Maritime Decarbonization",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "Institute of Mechanical and Electrical Engineering",
+      "area_key_words": "Whole-Ship Energy Modelling and Maritime Decarbonization",
+      "deadline_of_application": "January 1, 2027",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1892,
   "status": "complete",
-  "updated_at": "2026-11-12T21:18:43+00:00",
-  "completed_at": "2026-11-12T21:18:43+00:00",
+  "updated_at": "2026-11-13T20:50:12+00:00",
+  "completed_at": "2026-11-13T20:50:12+00:00",
   "last_error": ""
 }

@@ -251,6 +251,9 @@
     "https://apply.interfolio.com/190894": {
       "title": "SMU 26-27 - #7805, #52163, #52277 - Assistant Clinical Professor of Legal Research",
       "description": "Department: Southern Methodist University: Dedman School of Law Location: Dallas, TX Posted: Oct 27, 2026 SMU DEDMAN SCHOOL OF LAW is seeking applications from qualified persons for non-tenure-track faculty positions to begin Fall of 2027. We seek three candidates with expertise in the following areas: Research & Faculty Services Librarians/Clinical Professors of Legal Research. We will consider entry-level applicants. We will review applications on a rolling basis, with priority given to those received by December 1, 2026. Applications received after this date will continue to be accepted and reviewed until the positions are filled. Primary Responsibilities Legal Research Instruction Teach legal research in the first-year Legal Analysis, Writing, and Research curriculum. Design and teach a for-credit legal research course. Provide research instruction, workshops, and individual consultations. Incorporate developments in legal research platforms and emerging technologies into instruction as appropriate. Research and Faculty Services Provide reference assistance to law students, faculty, staff, and other library users. Support faculty scholarship and teaching. Create and maintain research guides and other instructional materials. Provide research support to law school journals, clinics, and other programs. Library and Law School Service Participate in orientations, student programming, and other law school activities. Serve on law library, law school, and university committees as appropriate. Engage in professional development and service to the law librarianship profession. Contribute to library projects and initiatives as needs and priorities evolve. Required Qualifications J.D. from an ABA-accredited law school. Master’s degree in library or information science from an ALA-accredited program or current enrollment with the ability to complete the degree within one year of appointment. Demonstrated interest in legal research, teaching, and academic law librarianship. Strong written, oral, and service skills. Ability to work effectively both independently and as part of a team. Strong organizational skills and ability to manage multiple responsibilities. Initiative, sound judgment, and a commitment to continuous learning and improvement. Preferred Qualifications We are particularly interested in candidates with experience or interest in developing expertise in one or more of the areas listed below. Note: candidates are not expected to have experience in all of these areas. Tax law research. Empirical legal research, quantitative methods, data analysis, or data science. Marketing, communications, or promotion of library services. Website editing or content management. Student programming, outreach, or event planning. Training or supervising student research assistants. Emerging legal technologies, including generative AI and AI-assisted legal research tools. Applications must be submitted through SMU’s Interfolio website. Applications submitted through other channels will not be considered. Clinical faculty status: Non-tenure-track with opportunities for promotion. Appointment as Assistant, Associate, or Full Clinical Professor will depend on experience and qualifications."
+    },
+    "https://apply.interfolio.com/193860": {
+      "error": "RuntimeError: interfolio position has no name (closed?)"
     }
   },
   "rows": {
@@ -1009,11 +1012,14 @@
       "deadline_of_application": "December 1, 2026",
       "posted_date": "Oct 27, 2026",
       "position_start_date": ""
+    },
+    "https://apply.interfolio.com/193860": {
+      "error": "RuntimeError: interfolio position has no name (closed?)"
     }
   },
   "school_id": 1380,
   "status": "complete",
-  "updated_at": "2026-11-12T21:05:32+00:00",
-  "completed_at": "2026-11-12T21:05:32+00:00",
+  "updated_at": "2026-11-13T20:37:45+00:00",
+  "completed_at": "2026-11-13T20:37:45+00:00",
   "last_error": ""
 }

@@ -279,6 +279,10 @@
     "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2516": {
       "title": "Health and Fitness Instructor",
       "description": "Closing Date: 26/11/2026 Department: SE - Sports and Recreation Services (MAN) Health and Fitness Instructor. Massey University. 26-Nov-2026 11:00 PM | JR-2516 | Health and Fitness Instructor | Massey University | SE - Sports and Recreation Services (MAN) | Fixed-Term"
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2363": {
+      "title": "Academic Administration Team Lead",
+      "description": "Closing Date: 06/12/2026 Department: CoS - Academic Administration Academic Administration Team Lead. Massey University. 06-Dec-2026 11:00 PM | JR-2363 | Academic Administration Team Lead | Massey University | CoS - Academic Administration | Ongoing"
     }
   },
   "rows": {
@@ -1107,11 +1111,23 @@
       "deadline_of_application": "26/11/2026",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2363": {
+      "school_id": 1829,
+      "posting_url": "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2363",
+      "job_title_in_post": "Academic Administration Team Lead",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "06/12/2026",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1829,
   "status": "complete",
-  "updated_at": "2026-11-12T21:23:06+00:00",
-  "completed_at": "2026-11-12T21:23:06+00:00",
+  "updated_at": "2026-11-13T20:55:50+00:00",
+  "completed_at": "2026-11-13T20:55:50+00:00",
   "last_error": ""
 }

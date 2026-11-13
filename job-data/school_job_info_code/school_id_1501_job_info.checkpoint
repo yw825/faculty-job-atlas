@@ -49,6 +49,11 @@
       "title": "Adjunct Instructor of Game Business",
       "description": "The Game Studio at Champlain College invites applications for an Adjunct Instructor to join us for the Spring 2027 semester to teach one of the courses within our Game Studio.  A successful candidate will deliver engaging instruction in Game Business, fostering creative application and engagement with current trends in the game industry among our diverse student body. This position requires a commitment to creating inclusive learning environments that support student success and intellectual growth.",
       "department": null
+    },
+    "https://champlain-ibumjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/59": {
+      "title": "Senior Director of Financial Aid",
+      "description": "Lead the financial aid strategy that connects students and families to a Champlain education. As the Senior Director of Financial Aid, you will help shape how we make that education accessible while supporting the College's enrollment and net tuition revenue goals.",
+      "department": null
     }
   },
   "rows": {
@@ -170,11 +175,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://champlain-ibumjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/59": {
+      "school_id": 1501,
+      "posting_url": "https://champlain-ibumjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/59",
+      "job_title_in_post": "Senior Director of Financial Aid",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Financial Aid",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1501,
   "status": "complete",
-  "updated_at": "2026-11-12T21:06:00+00:00",
-  "completed_at": "2026-11-12T21:06:00+00:00",
+  "updated_at": "2026-11-13T20:37:27+00:00",
+  "completed_at": "2026-11-13T20:37:27+00:00",
   "last_error": ""
 }

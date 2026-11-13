@@ -51,6 +51,18 @@
     "https://my.corehr.com/pls/tudrecruit/erq_jobspec_version_4.jobspec?p_id=045963": {
       "title": "Professor of Agri-Food and Bioeconomy Systems (Permanent Wholetime) (Reference: 552/2026)",
       "description": "Closing Date: 08/01/2027 Close Date : 08-Jan-2027 Job Title : Professor Contact Person : Job ID : 045963 Professor of Agri-Food and Bioeconomy Systems (Permanent Wholetime) (Reference: 552/2026) 08-Jan-2027"
+    },
+    "https://my.corehr.com/pls/tudrecruit/erq_jobspec_version_4.jobspec?p_id=046023": {
+      "title": "Assistant Lecturer in Forensic Science & Analysis (Practitioner) (Permanent Wholetime) (Reference: 476a/2026)",
+      "description": "Closing Date: 27/11/2026 Close Date : 27-Nov-2026 Job Title : Assistant Lecturer Contact Person : Mary Deasy Job ID : 046023 Assistant Lecturer in Forensic Science & Analysis (Practitioner) (Permanent Wholetime) (Reference: 476a/2026) 27-Nov-2026"
+    },
+    "https://my.corehr.com/pls/tudrecruit/erq_jobspec_version_4.jobspec?p_id=046063": {
+      "title": "Lecturer in Spatial Planning (Permanent Wholetime) (Reference: 32b/2026)",
+      "description": "Closing Date: 04/12/2026 Close Date : 04-Dec-2026 Job Title : Lecturer Contact Person : David O'Conor Job ID : 046063 Lecturer in Spatial Planning (Permanent Wholetime) (Reference: 32b/2026) 04-Dec-2026"
+    },
+    "https://my.corehr.com/pls/tudrecruit/erq_jobspec_version_4.jobspec?p_id=046043": {
+      "title": "Postdoctoral Researcher in Trusted AI, LLMs and Public Health (Fixed Term Wholetime for up to 2 years) (Reference: 575/2026)",
+      "description": "Closing Date: 13/12/2026 Close Date : 13-Dec-2026 Job Title : Post Doc Researcher Contact Person : Sachin Sharma Job ID : 046043 Postdoctoral Researcher in Trusted AI, LLMs and Public Health (Fixed Term Wholetime for up to 2 years) (Reference: 575/2026) 13-Dec-2026"
     }
   },
   "rows": {
@@ -207,11 +219,47 @@
       "deadline_of_application": "08/01/2027",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://my.corehr.com/pls/tudrecruit/erq_jobspec_version_4.jobspec?p_id=046023": {
+      "school_id": 1884,
+      "posting_url": "https://my.corehr.com/pls/tudrecruit/erq_jobspec_version_4.jobspec?p_id=046023",
+      "job_title_in_post": "Assistant Lecturer in Forensic Science & Analysis (Practitioner) (Permanent Wholetime) (Reference: 476a/2026)",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Forensic Science & Analysis",
+      "deadline_of_application": "27/11/2026",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://my.corehr.com/pls/tudrecruit/erq_jobspec_version_4.jobspec?p_id=046063": {
+      "school_id": 1884,
+      "posting_url": "https://my.corehr.com/pls/tudrecruit/erq_jobspec_version_4.jobspec?p_id=046063",
+      "job_title_in_post": "Lecturer in Spatial Planning (Permanent Wholetime) (Reference: 32b/2026)",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Spatial Planning",
+      "deadline_of_application": "04/12/2026",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://my.corehr.com/pls/tudrecruit/erq_jobspec_version_4.jobspec?p_id=046043": {
+      "school_id": 1884,
+      "posting_url": "https://my.corehr.com/pls/tudrecruit/erq_jobspec_version_4.jobspec?p_id=046043",
+      "job_title_in_post": "Postdoctoral Researcher in Trusted AI, LLMs and Public Health (Fixed Term Wholetime for up to 2 years) (Reference: 575/2026)",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Trusted AI, LLMs and Public Health",
+      "deadline_of_application": "13/12/2026",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1884,
   "status": "complete",
-  "updated_at": "2026-11-12T21:21:34+00:00",
-  "completed_at": "2026-11-12T21:21:34+00:00",
+  "updated_at": "2026-11-13T20:54:10+00:00",
+  "completed_at": "2026-11-13T20:54:10+00:00",
   "last_error": ""
 }

@@ -1429,6 +1429,36 @@
       "title": "Assistant Professor, Education Leadership",
       "description": "Assistant Professor in Education Leadership",
       "department": null
+    },
+    "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/263059": {
+      "title": "Office Associate - Transportation Services",
+      "description": "",
+      "department": null
+    },
+    "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/263047": {
+      "title": "Assistant Professor, Counselor Education",
+      "description": "Assistant Professor in Counselor Education",
+      "department": null
+    },
+    "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/263065": {
+      "title": "TRIO Educational Opportunity Center (EOC) Cheyenne, WY - SEO Project Coordinator",
+      "description": "An Educational Opportunity Center (EOC) Coordinator assists low-income and first-generation individuals to apply to, and obtain financial aid for, higher education. EOC primarily serves a non-traditional student population within the Cheyenne and larger Goshen, Laramie, Niobrara, and Platte County areas that wishes to enter or reenter college or earn a GED and enter college for the first time. We are working under a federal grant from the U.S. Dept. of Education with the goal of increasing the number of socioeconomically disadvantaged individuals who successfully enter college. \n\nThis position is located at the University of Wyoming’s Cheyenne, WY location. This position is a grant-funded, 11-month position, with the month off being mid-June to mid-July.",
+      "department": null
+    },
+    "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/263066": {
+      "title": "TRIO Education Opportunity Center (EOC): Casper, WY - SEO Project Coordinator",
+      "description": "An Educational Opportunity Center (EOC) Coordinator assists low-income and first-generation individuals to apply to, and obtain financial aid for, higher education. EOC primarily serves a non-traditional student population within the Casper and larger Converse and Natrona County areas that wishes to enter or reenter college or earn a GED and enter college for the first time. We are working under a federal grant from the U.S. Dept. of Education with the goal of increasing the number of socioeconomically disadvantaged individuals who successfully enter college. \n\nThis position is located at the University of Wyoming’s Casper, WY location. This position is a grant-funded, 11-month position, with the month off being mid-June to mid-July.",
+      "department": null
+    },
+    "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/263058": {
+      "title": "Post Doctoral Research Associate - Molecular Biology",
+      "description": "Postdoctoral Researcher to join Lab team",
+      "department": null
+    },
+    "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/263096": {
+      "title": "Hourly Pooled - Business Office Student Staff, Campus Recreation",
+      "description": "",
+      "department": null
     }
   },
   "rows": {
@@ -4844,11 +4874,83 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/263059": {
+      "school_id": 1583,
+      "posting_url": "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/263059",
+      "job_title_in_post": "Office Associate - Transportation Services",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/263047": {
+      "school_id": 1583,
+      "posting_url": "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/263047",
+      "job_title_in_post": "Assistant Professor, Counselor Education",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Counselor Education",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/263065": {
+      "school_id": 1583,
+      "posting_url": "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/263065",
+      "job_title_in_post": "TRIO Educational Opportunity Center (EOC) Cheyenne, WY - SEO Project Coordinator",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "college for the first time",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/263066": {
+      "school_id": 1583,
+      "posting_url": "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/263066",
+      "job_title_in_post": "TRIO Education Opportunity Center (EOC): Casper, WY - SEO Project Coordinator",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "college for the first time",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/263058": {
+      "school_id": 1583,
+      "posting_url": "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/263058",
+      "job_title_in_post": "Post Doctoral Research Associate - Molecular Biology",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/263096": {
+      "school_id": 1583,
+      "posting_url": "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/263096",
+      "job_title_in_post": "Hourly Pooled - Business Office Student Staff, Campus Recreation",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1583,
   "status": "complete",
-  "updated_at": "2026-11-12T21:07:43+00:00",
-  "completed_at": "2026-11-12T21:07:43+00:00",
+  "updated_at": "2026-11-13T20:39:44+00:00",
+  "completed_at": "2026-11-13T20:39:44+00:00",
   "last_error": ""
 }

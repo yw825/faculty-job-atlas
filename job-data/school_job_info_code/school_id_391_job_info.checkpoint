@@ -3034,6 +3034,21 @@
       "title": "Social Work Fellow",
       "description": "Posted: 11/11/2026 Location: Chicago, Illinois Department: MED-Mesulam Ctr Cog Neur & Alz Social Work Fellow",
       "department": "MED-Mesulam Ctr Cog Neur & Alz"
+    },
+    "https://careers.northwestern.edu/psc/hrnu_er/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=54848&PostingSeq=1": {
+      "title": "Program Assistant 4",
+      "description": "Posted: 11/13/2026 Location: Chicago, Illinois Department: MED-Ctr for Transplant Res Edu Program Assistant 4",
+      "department": "MED-Ctr for Transplant Res Edu"
+    },
+    "https://careers.northwestern.edu/psc/hrnu_er/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=54852&PostingSeq=1": {
+      "title": "Research Technologist 2",
+      "description": "Posted: 11/13/2026 Location: Chicago, Illinois Department: MED-Radiology Research Technologist 2",
+      "department": "MED-Radiology"
+    },
+    "https://careers.northwestern.edu/psc/hrnu_er/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=54845&PostingSeq=1": {
+      "title": "Research Technologist 2 - Mitchell lab",
+      "description": "Posted: 11/13/2026 Location: Chicago, Illinois Department: MED-Cell&DevelopmentalBiology Research Technologist 2 - Mitchell lab",
+      "department": "MED-Cell&DevelopmentalBiology"
     }
   },
   "rows": {
@@ -9960,11 +9975,47 @@
       "deadline_of_application": "",
       "posted_date": "11/11/2026",
       "position_start_date": ""
+    },
+    "https://careers.northwestern.edu/psc/hrnu_er/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=54848&PostingSeq=1": {
+      "school_id": 391,
+      "posting_url": "https://careers.northwestern.edu/psc/hrnu_er/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=54848&PostingSeq=1",
+      "job_title_in_post": "Program Assistant 4",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "MED-Ctr for Transplant Res Edu",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/13/2026",
+      "position_start_date": ""
+    },
+    "https://careers.northwestern.edu/psc/hrnu_er/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=54852&PostingSeq=1": {
+      "school_id": 391,
+      "posting_url": "https://careers.northwestern.edu/psc/hrnu_er/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=54852&PostingSeq=1",
+      "job_title_in_post": "Research Technologist 2",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "MED-Radiology",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/13/2026",
+      "position_start_date": ""
+    },
+    "https://careers.northwestern.edu/psc/hrnu_er/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=54845&PostingSeq=1": {
+      "school_id": 391,
+      "posting_url": "https://careers.northwestern.edu/psc/hrnu_er/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=54845&PostingSeq=1",
+      "job_title_in_post": "Research Technologist 2 - Mitchell lab",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "MED-Cell&DevelopmentalBiology",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/13/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 391,
   "status": "complete",
-  "updated_at": "2026-11-12T20:50:19+00:00",
+  "updated_at": "2026-11-13T20:20:35+00:00",
   "last_error": "",
-  "completed_at": "2026-11-12T20:50:19+00:00"
+  "completed_at": "2026-11-13T20:20:35+00:00"
 }

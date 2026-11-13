@@ -101,7 +101,8 @@
       "description": "Assistant Professor in Quantum Science | Requisition No: 51233 - Category:  FULL TIME ACADEMICS | Full time -  Permanent | Manitoba | Fort Garry Campus [011] | Nov/02/2026 | Canada Research Chair Tier 2 in Sunflower Breeding and Genet"
     },
     "https://viprecprod.ad.umanitoba.ca/A#req-51574": {
-      "error": "RuntimeError: umanitoba: job list did not render"
+      "title": "Postdoctoral Fellow",
+      "description": "Postdoctoral Fellow | Requisition No: 51574 - Category:  RESEARCH ACADEMICS | Full time - Temporary | Manitoba | Fort Garry Campus [011] | Nov/12/2026 | Assistant/Associate Professor(Canada Impact+Emerging Leader)"
     }
   },
   "rows": {
@@ -398,12 +399,21 @@
       "position_start_date": ""
     },
     "https://viprecprod.ad.umanitoba.ca/A#req-51574": {
-      "error": "RuntimeError: umanitoba: job list did not render"
+      "school_id": 1601,
+      "posting_url": "https://viprecprod.ad.umanitoba.ca/A#req-51574",
+      "job_title_in_post": "Postdoctoral Fellow",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1601,
   "status": "complete",
-  "updated_at": "2026-11-12T21:16:56+00:00",
-  "completed_at": "2026-11-12T21:16:56+00:00",
+  "updated_at": "2026-11-13T20:48:12+00:00",
+  "completed_at": "2026-11-13T20:48:12+00:00",
   "last_error": ""
 }

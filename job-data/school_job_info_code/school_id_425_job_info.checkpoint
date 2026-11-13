@@ -51,6 +51,10 @@
     "https://franklincollege.edu/wp-content/uploads/2026/11/Job-Grounds-Technician-Part-time-2026.pdf": {
       "title": "Grounds Technician (Part-time)",
       "description": "Grounds Technician (Part-time). Grounds Technician (Part-time)"
+    },
+    "https://franklincollege.edu/wp-content/uploads/2026/11/Job-Coordinator-for-International-Student-Support-CDI-1.pdf": {
+      "title": "Coordinator for International Student Support (CDI)",
+      "description": "Coordinator for International Student Support (CDI). Coordinator for International Student Support (CDI)"
     }
   },
   "rows": {
@@ -209,11 +213,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://franklincollege.edu/wp-content/uploads/2026/11/Job-Coordinator-for-International-Student-Support-CDI-1.pdf": {
+      "school_id": 425,
+      "posting_url": "https://franklincollege.edu/wp-content/uploads/2026/11/Job-Coordinator-for-International-Student-Support-CDI-1.pdf",
+      "job_title_in_post": "Coordinator for International Student Support (CDI)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 425,
   "status": "complete",
-  "updated_at": "2026-11-12T20:50:42+00:00",
+  "updated_at": "2026-11-13T20:21:22+00:00",
   "last_error": "",
-  "completed_at": "2026-11-12T20:50:42+00:00"
+  "completed_at": "2026-11-13T20:21:22+00:00"
 }

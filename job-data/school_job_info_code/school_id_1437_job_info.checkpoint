@@ -754,6 +754,26 @@
       "title": "Budget Analyst I - Enrollment Management",
       "description": "Posted: 11/11/2026 Location: Tyler, TX Department: Enrollment Management Budget Analyst I - Enrollment Management",
       "department": "Enrollment Management"
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16818&PostingSeq=1&SiteId=12": {
+      "title": "Communications Operator",
+      "description": "Posted: 11/12/2026 Location: Tyler, TX Department: University Police Communications Operator",
+      "department": "University Police"
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16814&PostingSeq=1&SiteId=12": {
+      "title": "Groundskeeper I",
+      "description": "Posted: 11/12/2026 Location: Tyler, TX Department: Grounds Maintenance Groundskeeper I",
+      "department": "Grounds Maintenance"
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16813&PostingSeq=1&SiteId=12": {
+      "title": "HVAC Technician III",
+      "description": "Posted: 11/12/2026 Location: Tyler, TX Department: Utilities HVAC Technician III",
+      "department": "Utilities"
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16815&PostingSeq=1&SiteId=12": {
+      "title": "Title IX Coordinator",
+      "description": "Posted: 11/12/2026 Location: Tyler, TX Department: Title IX Title IX Coordinator",
+      "department": "Title IX"
     }
   },
   "rows": {
@@ -2557,11 +2577,59 @@
       "deadline_of_application": "",
       "posted_date": "11/11/2026",
       "position_start_date": ""
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16818&PostingSeq=1&SiteId=12": {
+      "school_id": 1437,
+      "posting_url": "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16818&PostingSeq=1&SiteId=12",
+      "job_title_in_post": "Communications Operator",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "University Police",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/12/2026",
+      "position_start_date": ""
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16814&PostingSeq=1&SiteId=12": {
+      "school_id": 1437,
+      "posting_url": "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16814&PostingSeq=1&SiteId=12",
+      "job_title_in_post": "Groundskeeper I",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Grounds Maintenance",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/12/2026",
+      "position_start_date": ""
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16813&PostingSeq=1&SiteId=12": {
+      "school_id": 1437,
+      "posting_url": "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16813&PostingSeq=1&SiteId=12",
+      "job_title_in_post": "HVAC Technician III",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Utilities",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/12/2026",
+      "position_start_date": ""
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16815&PostingSeq=1&SiteId=12": {
+      "school_id": 1437,
+      "posting_url": "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16815&PostingSeq=1&SiteId=12",
+      "job_title_in_post": "Title IX Coordinator",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Title IX",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/12/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 1437,
   "status": "complete",
-  "updated_at": "2026-11-12T21:05:26+00:00",
-  "completed_at": "2026-11-12T21:05:26+00:00",
+  "updated_at": "2026-11-13T20:36:50+00:00",
+  "completed_at": "2026-11-13T20:36:50+00:00",
   "last_error": ""
 }

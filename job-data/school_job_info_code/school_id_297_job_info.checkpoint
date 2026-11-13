@@ -1284,6 +1284,16 @@
       "title": "Operations Analyst, Housing",
       "description": "Posted: 11/11/2026 Location: Kennesaw, Georgia Department: BSC-AUX-Housing Payroll Alloc Operations Analyst, Housing",
       "department": "BSC-AUX-Housing Payroll Alloc"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305630&PostingSeq=1&SiteId=43000": {
+      "title": "Associate Vice President, Financial Aid and Scholarships",
+      "description": "Posted: 11/13/2026 Location: Kennesaw, Georgia Department: BSC-Student Financial Aid Associate Vice President, Financial Aid and Scholarships",
+      "department": "BSC-Student Financial Aid"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304442&PostingSeq=1&SiteId=43000": {
+      "title": "Academic Advisor, Southern Polytechnic College of Engineering and Engineering Technology",
+      "description": "Posted: 11/12/2026 Location: Marietta, Georgia Department: RPG-Advising-SPCEET Academic Advisor, Southern Polytechnic College of Engineering and Engineering Technology",
+      "department": "RPG-Advising-SPCEET"
     }
   },
   "rows": {
@@ -4370,11 +4380,35 @@
       "deadline_of_application": "",
       "posted_date": "11/11/2026",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305630&PostingSeq=1&SiteId=43000": {
+      "school_id": 297,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305630&PostingSeq=1&SiteId=43000",
+      "job_title_in_post": "Associate Vice President, Financial Aid and Scholarships",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "BSC-Student Financial Aid",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/13/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304442&PostingSeq=1&SiteId=43000": {
+      "school_id": 297,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304442&PostingSeq=1&SiteId=43000",
+      "job_title_in_post": "Academic Advisor, Southern Polytechnic College of Engineering and Engineering Technology",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "RPG-Advising-SPCEET",
+      "area_key_words": "Engineering and Engineering Technology",
+      "deadline_of_application": "",
+      "posted_date": "11/12/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 297,
   "status": "complete",
-  "updated_at": "2026-11-12T20:49:59+00:00",
+  "updated_at": "2026-11-13T20:20:05+00:00",
   "last_error": "",
-  "completed_at": "2026-11-12T20:49:59+00:00"
+  "completed_at": "2026-11-13T20:20:05+00:00"
 }

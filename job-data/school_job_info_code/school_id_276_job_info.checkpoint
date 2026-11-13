@@ -1005,7 +1005,9 @@
       "department": "Campus Recreation"
     },
     "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=301832&PostingSeq=1&SiteId=03000": {
-      "error": "not present in bulk fetch result"
+      "title": "Cook (10 - Month) (Multiple Openings)",
+      "description": "Posted: 08/04/2026 Location: Atlanta, Georgia Department: Dining Services Cook (10 - Month) (Multiple Openings)",
+      "department": "Dining Services"
     },
     "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=301834&PostingSeq=1&SiteId=03000": {
       "error": "not present in bulk fetch result"
@@ -1036,7 +1038,9 @@
       "department": "Dining Services"
     },
     "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=301836&PostingSeq=1&SiteId=03000": {
-      "error": "not present in bulk fetch result"
+      "title": "Utility (10 - Month)",
+      "description": "Posted: 08/03/2026 Location: Atlanta, Georgia Department: Dining Services Utility (10 - Month)",
+      "department": "Dining Services"
     },
     "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=301739&PostingSeq=1&SiteId=03000": {
       "title": "Tenure-Track Assistant/Associate Professor in Strategy & Innovation (Open Rank)",
@@ -1783,6 +1787,51 @@
       "title": "Contract Officer- Sponsored Programs, Subawards (Advanced Professional)",
       "description": "Posted: 09/04/2026 Location: Atlanta, Georgia Department: VP Research Administration Contract Officer- Sponsored Programs, Subawards (Advanced Professional)",
       "department": "VP Research Administration"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306048&PostingSeq=1&SiteId=03000": {
+      "title": "Administrative Professional Senior",
+      "description": "Posted: 11/13/2026 Location: Atlanta, Georgia Department: Materials Science & Engr Administrative Professional Senior",
+      "department": "Materials Science & Engr"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306022&PostingSeq=1&SiteId=03000": {
+      "title": "Custodian II (Monday - Friday, 5:00pm - 2:00am)",
+      "description": "Posted: 11/13/2026 Location: Atlanta, Georgia Department: CRC-Campus Recreation-RI Custodian II (Monday - Friday, 5:00pm - 2:00am)",
+      "department": "CRC-Campus Recreation-RI"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306037&PostingSeq=1&SiteId=03000": {
+      "title": "Premium Seating Specialist",
+      "description": "Posted: 11/13/2026 Location: Atlanta, Georgia Department: ATHL - Administration Premium Seating Specialist",
+      "department": "ATHL - Administration"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305945&PostingSeq=1&SiteId=03000": {
+      "title": "Research Test Specialist",
+      "description": "Posted: 11/13/2026 Location: Atlanta, Georgia Department: Georgia Tech Manufacturing Ins Research Test Specialist",
+      "department": "Georgia Tech Manufacturing Ins"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305994&PostingSeq=1&SiteId=03000": {
+      "title": "TEMP-Admin Clerical Cust Svc (School of Computer Science)",
+      "description": "Posted: 11/13/2026 Location: Atlanta, Georgia Department: School of Computer Science TEMP-Admin Clerical Cust Svc (School of Computer Science)",
+      "department": "School of Computer Science"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305921&PostingSeq=1&SiteId=03000": {
+      "title": "Business Analyst",
+      "description": "Posted: 11/12/2026 Location: Atlanta, Georgia Department: Parking Office Business Analyst",
+      "department": "Parking Office"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305650&PostingSeq=1&SiteId=03000": {
+      "title": "Content Specialist",
+      "description": "Posted: 11/12/2026 Location: Atlanta, Georgia Department: Enrollment Management Content Specialist",
+      "department": "Enrollment Management"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305671&PostingSeq=1&SiteId=03000": {
+      "title": "Financial Administrator (Advanced Professional)",
+      "description": "Posted: 11/12/2026 Location: Atlanta, Georgia Department: VP Research Administration Financial Administrator (Advanced Professional)",
+      "department": "VP Research Administration"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305698&PostingSeq=1&SiteId=03000": {
+      "title": "School Administrative Officer (School of Computer Science)",
+      "description": "Posted: 11/12/2026 Location: Atlanta, Georgia Department: School of Computer Science School Administrative Officer (School of Computer Science)",
+      "department": "School of Computer Science"
     }
   },
   "rows": {
@@ -5595,11 +5644,143 @@
       "deadline_of_application": "",
       "posted_date": "09/04/2026",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306048&PostingSeq=1&SiteId=03000": {
+      "school_id": 276,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306048&PostingSeq=1&SiteId=03000",
+      "job_title_in_post": "Administrative Professional Senior",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Materials Science & Engr",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/13/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306022&PostingSeq=1&SiteId=03000": {
+      "school_id": 276,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306022&PostingSeq=1&SiteId=03000",
+      "job_title_in_post": "Custodian II (Monday - Friday, 5:00pm - 2:00am)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "CRC-Campus Recreation-RI",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/13/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306037&PostingSeq=1&SiteId=03000": {
+      "school_id": 276,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306037&PostingSeq=1&SiteId=03000",
+      "job_title_in_post": "Premium Seating Specialist",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "ATHL - Administration",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/13/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305945&PostingSeq=1&SiteId=03000": {
+      "school_id": 276,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305945&PostingSeq=1&SiteId=03000",
+      "job_title_in_post": "Research Test Specialist",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Georgia Tech Manufacturing Ins",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/13/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305994&PostingSeq=1&SiteId=03000": {
+      "school_id": 276,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305994&PostingSeq=1&SiteId=03000",
+      "job_title_in_post": "TEMP-Admin Clerical Cust Svc (School of Computer Science)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "School of Computer Science",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/13/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305921&PostingSeq=1&SiteId=03000": {
+      "school_id": 276,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305921&PostingSeq=1&SiteId=03000",
+      "job_title_in_post": "Business Analyst",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Parking Office",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/12/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305650&PostingSeq=1&SiteId=03000": {
+      "school_id": 276,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305650&PostingSeq=1&SiteId=03000",
+      "job_title_in_post": "Content Specialist",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Enrollment Management",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/12/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305671&PostingSeq=1&SiteId=03000": {
+      "school_id": 276,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305671&PostingSeq=1&SiteId=03000",
+      "job_title_in_post": "Financial Administrator (Advanced Professional)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "VP Research Administration",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/12/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305698&PostingSeq=1&SiteId=03000": {
+      "school_id": 276,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305698&PostingSeq=1&SiteId=03000",
+      "job_title_in_post": "School Administrative Officer (School of Computer Science)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "School of Computer Science",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/12/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=301832&PostingSeq=1&SiteId=03000": {
+      "school_id": 276,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=301832&PostingSeq=1&SiteId=03000",
+      "job_title_in_post": "Cook (10 - Month) (Multiple Openings)",
+      "position_type": "Assistant_Professor; Associate_Professor; Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Dining Services",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "08/04/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=301836&PostingSeq=1&SiteId=03000": {
+      "school_id": 276,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=301836&PostingSeq=1&SiteId=03000",
+      "job_title_in_post": "Utility (10 - Month)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Dining Services",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "08/03/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 276,
   "status": "complete",
-  "updated_at": "2026-11-12T20:48:26+00:00",
+  "updated_at": "2026-11-13T20:18:45+00:00",
   "last_error": "",
-  "completed_at": "2026-11-12T20:48:26+00:00"
+  "completed_at": "2026-11-13T20:18:45+00:00"
 }

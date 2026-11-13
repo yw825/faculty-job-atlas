@@ -1174,6 +1174,21 @@
       "title": "DTU Tenure Track Assistant Professor in Fisheries Technology – Artificial Intelligence and Digital Fisheries Monitoring - DTU Aqua",
       "description": "We invite applicants to contribute to our mission of making fisheries sustainable through innovative technological solutions. We are looking for an ambitious researcher to strengthen DTU Aqua's research within fisheries technology, artificial intelligence and computer vision, with particular emphasis on their application to Electronic Monitoring and automated catch documentation.",
       "department": null
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8607": {
+      "title": "Finmekanisk designingeniør med metodisk nysgerrig og udviklingsfokus - DTU Space",
+      "description": "Ønsker du at arbejde med fin- og optomekaniske løsninger i et kreativt og ambitiøst forskningsmiljø?\nVil du i samarbejde med dygtige og dedikerede kollegaer bidrage til fortsat udvikling og design af udstyr til navigation og positionering af satellitter og ubemandede rumfartøjer til brug for fremtidige rummissioner?\n",
+      "department": null
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8608": {
+      "title": "PhD scholarship in Exoplanet Science - Discovery and Characterization of Small Planets - DTU Space",
+      "description": "Join the Exoplanet Group at DTU Space to pursue independent research in exoplanet science. Our collaborative team focuses on small planets, with active programs in atmospheric characterization, JWST, precision radial velocities, and 2ES.",
+      "department": null
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8609": {
+      "title": "Postdoc in Exoplanet Science - Discovery and Characterization of Small Planets - DTU Space",
+      "description": "Join the Exoplanet Group at DTU Space to pursue independent research in exoplanet science. Our collaborative team focuses on small planets, with active programs in atmospheric characterization, JWST, precision radial velocities, and 2ES.",
+      "department": null
     }
   },
   "rows": {
@@ -3961,11 +3976,47 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8607": {
+      "school_id": 1669,
+      "posting_url": "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8607",
+      "job_title_in_post": "Finmekanisk designingeniør med metodisk nysgerrig og udviklingsfokus - DTU Space",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8608": {
+      "school_id": 1669,
+      "posting_url": "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8608",
+      "job_title_in_post": "PhD scholarship in Exoplanet Science - Discovery and Characterization of Small Planets - DTU Space",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Exoplanet Science",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8609": {
+      "school_id": 1669,
+      "posting_url": "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8609",
+      "job_title_in_post": "Postdoc in Exoplanet Science - Discovery and Characterization of Small Planets - DTU Space",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Exoplanet Science",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1669,
   "status": "complete",
-  "updated_at": "2026-11-12T21:18:45+00:00",
-  "completed_at": "2026-11-12T21:18:45+00:00",
+  "updated_at": "2026-11-13T20:50:15+00:00",
+  "completed_at": "2026-11-13T20:50:15+00:00",
   "last_error": ""
 }

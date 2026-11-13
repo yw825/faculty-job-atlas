@@ -2737,6 +2737,16 @@
       "title": "Research Associate",
       "description": "Posted: 11/06/2026 Location: Augusta University Department: GCC-Georgia Cancer Center Research Associate",
       "department": "GCC-Georgia Cancer Center"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306003&PostingSeq=1&SiteId=12000": {
+      "title": "Academic Success Coordinator",
+      "description": "Posted: 11/13/2026 Location: Summerville Campus Department: Student Success Center Academic Success Coordinator",
+      "department": "Student Success Center"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305908&PostingSeq=1&SiteId=12000": {
+      "title": "Mentorship & Student Engagement Coordinator",
+      "description": "Posted: 11/13/2026 Location: Summerville Campus Department: Office of Mentorship & Stu Eng Mentorship & Student Engagement Coordinator",
+      "department": "Office of Mentorship & Stu Eng"
     }
   },
   "rows": {
@@ -9269,11 +9279,35 @@
       "deadline_of_application": "",
       "posted_date": "11/06/2026",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306003&PostingSeq=1&SiteId=12000": {
+      "school_id": 282,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306003&PostingSeq=1&SiteId=12000",
+      "job_title_in_post": "Academic Success Coordinator",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Student Success Center",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/13/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305908&PostingSeq=1&SiteId=12000": {
+      "school_id": 282,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305908&PostingSeq=1&SiteId=12000",
+      "job_title_in_post": "Mentorship & Student Engagement Coordinator",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Office of Mentorship & Stu Eng",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/13/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 282,
   "status": "complete",
-  "updated_at": "2026-11-12T20:47:17+00:00",
-  "completed_at": "2026-11-12T20:47:17+00:00",
+  "updated_at": "2026-11-13T20:17:35+00:00",
+  "completed_at": "2026-11-13T20:17:35+00:00",
   "last_error": ""
 }

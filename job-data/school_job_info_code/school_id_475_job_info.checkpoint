@@ -164,6 +164,11 @@
       "title": "Assistant Instructional Professor",
       "description": "The department of Health, Human Performance, and Recreation at Pittsburg State University invites applications for a faculty position in Recreation. Degree level and experience will be considered in determining rank and tenure status. ",
       "department": null
+    },
+    "https://ebyf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/214": {
+      "title": "Assistant Professor",
+      "description": "The Department of Psychology and Counseling at Pittsburg State University invites applications for a full-time, tenure-track Assistant Professor position beginning August 2027. Responsibilities include undergraduate and graduate instruction in behavior analysis, academic advising, and supervision of graduate students pursuing Board Certified Behavior Analyst (BCBA) certification in collaboration with qualified supervisors. ",
+      "department": null
     }
   },
   "rows": {
@@ -562,11 +567,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://ebyf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/214": {
+      "school_id": 475,
+      "posting_url": "https://ebyf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/214",
+      "job_title_in_post": "Assistant Professor",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Department of Psychology and Counseling",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 475,
   "status": "complete",
-  "updated_at": "2026-11-12T20:52:23+00:00",
-  "completed_at": "2026-11-12T20:52:23+00:00",
+  "updated_at": "2026-11-13T20:22:02+00:00",
+  "completed_at": "2026-11-13T20:22:02+00:00",
   "last_error": ""
 }

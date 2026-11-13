@@ -517,6 +517,11 @@
       "title": "Lecturer, Department of Interdisciplinary, Learning, and Teaching",
       "description": "Posted: 11/11/2026 Location: San Antonio, TX Department: COEHD INTERDISCIP LEARNING Lecturer, Department of Interdisciplinary, Learning, and Teaching",
       "department": "COEHD INTERDISCIP LEARNING"
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16805&PostingSeq=1&SiteId=21": {
+      "title": "Research Science Associate III - Research Infrastructure",
+      "description": "Posted: 11/12/2026 Location: San Antonio, TX Department: RESEARCH INFRASTRUCTURE Research Science Associate III - Research Infrastructure",
+      "department": "RESEARCH INFRASTRUCTURE"
     }
   },
   "rows": {
@@ -812,6 +817,7 @@
       "department_or_school": "GROUNDS CUSTODIAL & SAM",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "10/09/2026",
       "position_start_date": ""
     },
     "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16506&PostingSeq=1&SiteId=21": {
@@ -1762,11 +1768,23 @@
       "deadline_of_application": "",
       "posted_date": "11/11/2026",
       "position_start_date": ""
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16805&PostingSeq=1&SiteId=21": {
+      "school_id": 1427,
+      "posting_url": "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16805&PostingSeq=1&SiteId=21",
+      "job_title_in_post": "Research Science Associate III - Research Infrastructure",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "RESEARCH INFRASTRUCTURE",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/12/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 1427,
   "status": "complete",
-  "updated_at": "2026-11-12T21:05:56+00:00",
-  "completed_at": "2026-11-12T21:05:56+00:00",
+  "updated_at": "2026-11-13T20:38:15+00:00",
+  "completed_at": "2026-11-13T20:38:15+00:00",
   "last_error": ""
 }

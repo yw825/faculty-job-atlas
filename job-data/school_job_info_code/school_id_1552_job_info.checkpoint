@@ -148,12 +148,13 @@
       "school_id": 1552,
       "posting_url": "https://wisconsin.wd1.myworkdayjobs.com/UW_Milwaukee/job/Milwaukee-WI/Early-Childhood-Education-Assistant-Teacher_JR10013108",
       "job_title_in_post": "Early Childhood Education Assistant Teacher",
-      "position_type": "Non-academic",
+      "position_type": "Lecturer",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "08/02/2026",
-      "position_start_date": "2026-07-17"
+      "posted_date": "2026-07-17",
+      "position_start_date": ""
     },
     "https://wisconsin.wd1.myworkdayjobs.com/UW_Milwaukee/job/Milwaukee-WI/Assistant-Professor-Open-Rank---Physics_JR10016247": {
       "school_id": 1552,
@@ -194,7 +195,7 @@
   },
   "school_id": 1552,
   "status": "complete",
-  "updated_at": "2026-11-12T21:05:40+00:00",
-  "completed_at": "2026-11-12T21:05:40+00:00",
+  "updated_at": "2026-11-13T20:37:22+00:00",
+  "completed_at": "2026-11-13T20:37:22+00:00",
   "last_error": ""
 }

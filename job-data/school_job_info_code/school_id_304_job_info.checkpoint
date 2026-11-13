@@ -107,6 +107,10 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/39C3B08FA765F09BC547D09C6AC939C8/jobs/84055": {
       "title": "Director of Financial Aid",
       "description": "Director of Financial Aid You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/39C3B08FA765F09BC547D09C6AC939C8/jobs/84380": {
+      "title": "Senior Manager of PEAK",
+      "description": "Senior Manager of PEAK You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -433,11 +437,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/39C3B08FA765F09BC547D09C6AC939C8/jobs/84380": {
+      "school_id": 304,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/39C3B08FA765F09BC547D09C6AC939C8/jobs/84380",
+      "job_title_in_post": "Senior Manager of PEAK",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "PEAK",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 304,
   "status": "complete",
-  "updated_at": "2026-11-12T20:49:44+00:00",
-  "completed_at": "2026-11-12T20:49:44+00:00",
+  "updated_at": "2026-11-13T20:18:47+00:00",
+  "completed_at": "2026-11-13T20:18:47+00:00",
   "last_error": ""
 }

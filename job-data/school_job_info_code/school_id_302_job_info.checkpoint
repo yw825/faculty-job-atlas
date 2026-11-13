@@ -519,6 +519,16 @@
       "title": "Student Assistant - STEM Tutor",
       "description": "Posted: 11/11/2026 Location: Middle GA State University Department: Student Success Center - Math Student Assistant - STEM Tutor",
       "department": "Student Success Center - Math"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305969&PostingSeq=1&SiteId=83000": {
+      "title": "Federal Work Study - STEM Embedded Tutor",
+      "description": "Posted: 11/13/2026 Location: Middle GA State University Department: Federal Work Study Federal Work Study - STEM Embedded Tutor",
+      "department": "Federal Work Study"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305971&PostingSeq=1&SiteId=83000": {
+      "title": "Federal Work Study - STEM Tutor",
+      "description": "Posted: 11/13/2026 Location: Middle GA State University Department: Federal Work Study Federal Work Study - STEM Tutor",
+      "department": "Federal Work Study"
     }
   },
   "rows": {
@@ -1764,11 +1774,35 @@
       "deadline_of_application": "",
       "posted_date": "11/11/2026",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305969&PostingSeq=1&SiteId=83000": {
+      "school_id": 302,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305969&PostingSeq=1&SiteId=83000",
+      "job_title_in_post": "Federal Work Study - STEM Embedded Tutor",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "Federal Work Study",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/13/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305971&PostingSeq=1&SiteId=83000": {
+      "school_id": 302,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305971&PostingSeq=1&SiteId=83000",
+      "job_title_in_post": "Federal Work Study - STEM Tutor",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "Federal Work Study",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/13/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 302,
   "status": "complete",
-  "updated_at": "2026-11-12T20:50:25+00:00",
-  "completed_at": "2026-11-12T20:50:25+00:00",
+  "updated_at": "2026-11-13T20:20:28+00:00",
+  "completed_at": "2026-11-13T20:20:28+00:00",
   "last_error": ""
 }

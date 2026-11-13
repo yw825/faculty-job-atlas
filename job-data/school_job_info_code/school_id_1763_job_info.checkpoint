@@ -344,6 +344,16 @@
       "title": "Research Fellow (Energy Materials, PASTY Project) - School of Metallurgy and Materials - 108318 - Grade 7",
       "description": "The postholder will play a leading role in the delivery of this project, with the synthesis of LiFePO4 materials, and the evaluation of all materials within the workflow using elemental and phase characterisation techniques, in addition to electrochemical performance validation testing.\n\nPosting closes: 2026-11-19",
       "department": null
+    },
+    "https://edzz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_6001/job/10332": {
+      "title": "Research Associate - School of Biosciences - 108308 - Grade 6",
+      "description": "We are seeking a highly motivated and enthusiastic Research Associate to join our research team at the University of Birmingham to work on an exciting project funded by the Advanced Research and Invention Agency (ARIA). The project aims to develop innovative technologies for delivering molecular cargos into mitochondria, with the long-term goal of enabling mitochondrial genome engineering and advancing therapeutic approaches for mitochondrial diseases.\n\nPosting closes: 2026-12-06",
+      "department": null
+    },
+    "https://edzz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_6001/job/10341": {
+      "title": "Postdoctoral Research Fellow - School of Social Policy and Society - 108219 - Grade 7",
+      "description": "To create and contribute to the creation of knowledge by undertaking research on suicide and homicide risk among young carers. The role will include leading original research on suicide and homicide risk in young carers, including: undertake literature reviews, support the involvement of carers with lived experience and charitable organisations, collect data using qualitative methods and analyse and interpret research findings and results.\n\nPosting closes: 2026-11-29",
+      "department": null
     }
   },
   "rows": {
@@ -1161,11 +1171,35 @@
       "deadline_of_application": "2026-11-19",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://edzz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_6001/job/10332": {
+      "school_id": 1763,
+      "posting_url": "https://edzz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_6001/job/10332",
+      "job_title_in_post": "Research Associate - School of Biosciences - 108308 - Grade 6",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "School of Biosciences",
+      "area_key_words": "",
+      "deadline_of_application": "2026-12-06",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://edzz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_6001/job/10341": {
+      "school_id": 1763,
+      "posting_url": "https://edzz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_6001/job/10341",
+      "job_title_in_post": "Postdoctoral Research Fellow - School of Social Policy and Society - 108219 - Grade 7",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "School of Social Policy and Society",
+      "area_key_words": "School of Social Policy and Society; homicide risk; suicide",
+      "deadline_of_application": "2026-11-29",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1763,
   "status": "complete",
-  "updated_at": "2026-11-12T21:27:57+00:00",
-  "completed_at": "2026-11-12T21:27:57+00:00",
+  "updated_at": "2026-11-13T21:00:01+00:00",
+  "completed_at": "2026-11-13T21:00:01+00:00",
   "last_error": ""
 }

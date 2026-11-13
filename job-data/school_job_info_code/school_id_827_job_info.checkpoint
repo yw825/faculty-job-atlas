@@ -429,6 +429,21 @@
       "title": "ASTEP Student Advisor and Transition Coordinator",
       "description": "Posted: 11/09/2026 Location: Minot Department: ND Center For Persons w Disab ASTEP Student Advisor and Transition Coordinator",
       "department": "ND Center For Persons w Disab"
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960213&PostingSeq=1&SiteId=1": {
+      "title": "Game Day Specialist",
+      "description": "Posted: 11/13/2026 Location: Minot Department: Athletics Game Day Specialist",
+      "department": "Athletics"
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960222&PostingSeq=1&SiteId=1": {
+      "title": "Student Research Assistant (Kinesiology)",
+      "description": "Posted: 11/13/2026 Location: Minot Department: Science Student Research Assistant (Kinesiology)",
+      "department": "Science"
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960216&PostingSeq=1&SiteId=1": {
+      "title": "Student Research Assistant (Geology)",
+      "description": "Posted: 11/12/2026 Location: Minot Department: Science Student Research Assistant (Geology)",
+      "department": "Science"
     }
   },
   "rows": {
@@ -1462,11 +1477,47 @@
       "deadline_of_application": "",
       "posted_date": "11/09/2026",
       "position_start_date": ""
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960213&PostingSeq=1&SiteId=1": {
+      "school_id": 827,
+      "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960213&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Game Day Specialist",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Athletics",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/13/2026",
+      "position_start_date": ""
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960222&PostingSeq=1&SiteId=1": {
+      "school_id": 827,
+      "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960222&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Student Research Assistant (Kinesiology)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Science",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/13/2026",
+      "position_start_date": ""
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960216&PostingSeq=1&SiteId=1": {
+      "school_id": 827,
+      "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960216&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Student Research Assistant (Geology)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Science",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/12/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 827,
   "status": "complete",
-  "updated_at": "2026-11-12T20:57:21+00:00",
-  "completed_at": "2026-11-12T20:57:21+00:00",
+  "updated_at": "2026-11-13T20:29:28+00:00",
+  "completed_at": "2026-11-13T20:29:28+00:00",
   "last_error": ""
 }

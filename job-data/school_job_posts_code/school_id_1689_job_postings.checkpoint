@@ -2,6 +2,9 @@
   "links": [
     "https://adb.zuv.uni-heidelberg.de/info/INFO_FDB$.startup?MODUL=LS&SESSID=0&M1=1&M2=0&M3=0&PRO=40671",
     "https://adb.zuv.uni-heidelberg.de/info/INFO_FDB$.startup?MODUL=LS&SESSID=0&M1=1&M2=0&M3=0&PRO=40497",
+    "https://adb.zuv.uni-heidelberg.de/info/INFO_FDB$.startup?MODUL=LS&SESSID=0&M1=1&M2=0&M3=0&PRO=40709",
+    "https://adb.zuv.uni-heidelberg.de/info/INFO_FDB$.startup?MODUL=LS&SESSID=0&M1=1&M2=0&M3=0&PRO=40711",
+    "https://adb.zuv.uni-heidelberg.de/info/INFO_FDB$.startup?MODUL=LS&SESSID=0&M1=1&M2=0&M3=0&PRO=40710",
     "https://adb.zuv.uni-heidelberg.de/info/INFO_FDB$.startup?MODUL=LS&SESSID=0&M1=1&M2=0&M3=0&PRO=40695",
     "https://adb.zuv.uni-heidelberg.de/info/INFO_FDB$.startup?MODUL=LS&SESSID=0&M1=1&M2=0&M3=0&PRO=40690",
     "https://adb.zuv.uni-heidelberg.de/info/INFO_FDB$.startup?MODUL=LS&SESSID=0&M1=1&M2=0&M3=0&PRO=40693",
@@ -28,8 +31,8 @@
   ],
   "school_id": 1689,
   "status": "complete",
-  "updated_at": "2026-11-12T19:57:09+00:00",
+  "updated_at": "2026-11-13T19:49:36+00:00",
   "started_at": "2026-11-02T19:38:10+00:00",
-  "completed_at": "2026-11-12T19:57:09+00:00",
+  "completed_at": "2026-11-13T19:49:36+00:00",
   "last_error": ""
 }

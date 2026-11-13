@@ -33,9 +33,9 @@
     "https://apply.interfolio.com/197274"
   ],
   "school_id": 1394,
-  "status": "complete",
-  "updated_at": "2026-11-12T19:41:43+00:00",
+  "status": "error",
+  "updated_at": "2026-11-13T19:35:25+00:00",
   "started_at": "2026-09-25T06:25:44+00:00",
   "completed_at": "2026-11-12T19:41:43+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: rice open-positions page listed no interfolio links"
 }

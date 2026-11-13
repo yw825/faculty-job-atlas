@@ -409,6 +409,11 @@
       "title": "Clinical Assistant Professor of Nursing (Non-Tenure Track)",
       "description": "Posted: 11/10/2026 Location: Odessa, TX Department: School of Nursing Clinical Assistant Professor of Nursing (Non-Tenure Track)",
       "department": "School of Nursing"
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16819&PostingSeq=1&SiteId=10": {
+      "title": "Carpenter - Physical Plant",
+      "description": "Posted: 11/13/2026 Location: Odessa, TX Department: Physical Plant Carpenter - Physical Plant",
+      "department": "Physical Plant"
     }
   },
   "rows": {
@@ -1392,11 +1397,23 @@
       "deadline_of_application": "",
       "posted_date": "11/10/2026",
       "position_start_date": ""
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16819&PostingSeq=1&SiteId=10": {
+      "school_id": 1415,
+      "posting_url": "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16819&PostingSeq=1&SiteId=10",
+      "job_title_in_post": "Carpenter - Physical Plant",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Physical Plant",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/13/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 1415,
   "status": "complete",
-  "updated_at": "2026-11-12T21:05:01+00:00",
-  "completed_at": "2026-11-12T21:05:01+00:00",
+  "updated_at": "2026-11-13T20:36:24+00:00",
+  "completed_at": "2026-11-13T20:36:24+00:00",
   "last_error": ""
 }

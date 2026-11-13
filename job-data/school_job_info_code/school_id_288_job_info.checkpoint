@@ -324,6 +324,11 @@
       "title": "Part-time Staff-Coca-Cola Space Science Center",
       "description": "Posted: 06/10/2026 Location: Columbus State University Department: Coca Cola Space Science Ctr Part-time Staff-Coca-Cola Space Science Center",
       "department": "Coca Cola Space Science Ctr"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306049&PostingSeq=1&SiteId=30000": {
+      "title": "Student Assistant-Pep Band",
+      "description": "Posted: 11/13/2026 Location: Columbus State University Department: Pep Band Student Assistant-Pep Band",
+      "department": "Pep Band"
     }
   },
   "rows": {
@@ -1106,11 +1111,23 @@
       "deadline_of_application": "",
       "posted_date": "06/10/2026",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306049&PostingSeq=1&SiteId=30000": {
+      "school_id": 288,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306049&PostingSeq=1&SiteId=30000",
+      "job_title_in_post": "Student Assistant-Pep Band",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Pep Band",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/13/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 288,
   "status": "complete",
-  "updated_at": "2026-11-12T20:49:15+00:00",
-  "completed_at": "2026-11-12T20:49:15+00:00",
+  "updated_at": "2026-11-13T20:18:16+00:00",
+  "completed_at": "2026-11-13T20:18:16+00:00",
   "last_error": ""
 }

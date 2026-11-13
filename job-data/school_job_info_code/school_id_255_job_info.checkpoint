@@ -387,6 +387,10 @@
     "https://careers.uwf.edu/jobs/student-services-specialist-121570-pensacola-main-campus-florida-united-states-0100ef3b-326d-4bec-a2bb-eb56c61cd532": {
       "title": "Student Services Specialist 121570 - Pensacola - Main Campus, Florida, United States",
       "description": "Student Services Specialist 121570 - Pensacola - Main Campus, Florida, United States"
+    },
+    "https://careers.uwf.edu/jobs/director-129380-pensacola-main-campus-florida-united-states-0627fac6-130f-4cae-aee8-97c5acbb903d": {
+      "title": "Director 129380 - Pensacola - Main Campus, Florida, United States",
+      "description": "Director 129380 - Pensacola - Main Campus, Florida, United States"
     }
   },
   "rows": {
@@ -1546,11 +1550,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://careers.uwf.edu/jobs/director-129380-pensacola-main-campus-florida-united-states-0627fac6-130f-4cae-aee8-97c5acbb903d": {
+      "school_id": 255,
+      "posting_url": "https://careers.uwf.edu/jobs/director-129380-pensacola-main-campus-florida-united-states-0627fac6-130f-4cae-aee8-97c5acbb903d",
+      "job_title_in_post": "Director 129380 - Pensacola - Main Campus, Florida, United States",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 255,
   "status": "complete",
-  "updated_at": "2026-11-12T20:44:47+00:00",
-  "completed_at": "2026-11-12T20:44:47+00:00",
+  "updated_at": "2026-11-13T20:16:57+00:00",
+  "completed_at": "2026-11-13T20:16:57+00:00",
   "last_error": ""
 }

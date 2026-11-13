@@ -1,9 +1,12 @@
 {
-  "links": [],
+  "links": [
+    "http://ww1.ac.edu.au/job-opportunities/pecse/",
+    "https://ww1.ac.edu.au/job-opportunities/SA/"
+  ],
   "school_id": 1785,
   "status": "complete",
-  "updated_at": "2026-11-12T19:43:53+00:00",
+  "updated_at": "2026-11-13T19:36:47+00:00",
   "started_at": "2026-11-12T19:43:48+00:00",
-  "completed_at": "2026-11-12T19:43:53+00:00",
+  "completed_at": "2026-11-13T19:36:47+00:00",
   "last_error": ""
 }

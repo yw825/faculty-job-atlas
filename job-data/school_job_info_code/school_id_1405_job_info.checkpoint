@@ -351,6 +351,14 @@
     "https://schreiner.edu/job/assistant-baseball-coach-and-head-jv-baseball-coach/": {
       "title": "assistant baseball coach and head jv baseball coach",
       "description": "Checking your browser... Javascript required Confirm you are human We need to check you're not a robot before you can enter this site. I am human I am human I am human I am human I am human I am human I am human I am human I am human I am human"
+    },
+    "https://schreiner.edu/job/financial-aid-counselor/": {
+      "title": "financial aid counselor",
+      "description": "Checking your browser... Javascript required Confirm you are human We need to check you're not a robot before you can enter this site. I am human I am human I am human I am human I am human I am human I am human I am human I am human I am human"
+    },
+    "https://schreiner.edu/job/coordinator-of-changing-global-society/": {
+      "title": "coordinator of changing global society",
+      "description": "Checking your browser... Javascript required Confirm you are human We need to check you're not a robot before you can enter this site. I am human I am human I am human I am human I am human I am human I am human I am human I am human I am human"
     }
   },
   "rows": {
@@ -1408,11 +1416,35 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://schreiner.edu/job/financial-aid-counselor/": {
+      "school_id": 1405,
+      "posting_url": "https://schreiner.edu/job/financial-aid-counselor/",
+      "job_title_in_post": "financial aid counselor",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://schreiner.edu/job/coordinator-of-changing-global-society/": {
+      "school_id": 1405,
+      "posting_url": "https://schreiner.edu/job/coordinator-of-changing-global-society/",
+      "job_title_in_post": "coordinator of changing global society",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1405,
   "status": "complete",
-  "updated_at": "2026-11-12T21:04:28+00:00",
-  "completed_at": "2026-11-12T21:04:28+00:00",
+  "updated_at": "2026-11-13T20:35:38+00:00",
+  "completed_at": "2026-11-13T20:35:38+00:00",
   "last_error": ""
 }

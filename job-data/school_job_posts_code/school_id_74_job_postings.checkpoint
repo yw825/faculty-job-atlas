@@ -8,7 +8,6 @@
     "https://aprecruit.berkeley.edu/JPF04959",
     "https://aprecruit.berkeley.edu/JPF04964",
     "https://aprecruit.berkeley.edu/JPF04975",
-    "https://aprecruit.berkeley.edu/JPF05174",
     "https://aprecruit.berkeley.edu/JPF05175",
     "https://aprecruit.berkeley.edu/JPF05204",
     "https://aprecruit.berkeley.edu/JPF05208",
@@ -144,6 +143,7 @@
     "https://aprecruit.berkeley.edu/JPF05594",
     "https://aprecruit.berkeley.edu/JPF05597",
     "https://aprecruit.berkeley.edu/JPF05599",
+    "https://aprecruit.berkeley.edu/JPF05600",
     "https://aprecruit.berkeley.edu/JPF05601",
     "https://aprecruit.berkeley.edu/JPF05602",
     "https://aprecruit.berkeley.edu/JPF05603",
@@ -153,12 +153,13 @@
     "https://aprecruit.berkeley.edu/JPF05613",
     "https://aprecruit.berkeley.edu/JPF05615",
     "https://aprecruit.berkeley.edu/JPF05619",
-    "https://aprecruit.berkeley.edu/JPF05632"
+    "https://aprecruit.berkeley.edu/JPF05632",
+    "https://aprecruit.berkeley.edu/JPF05633"
   ],
   "school_id": 74,
   "status": "complete",
-  "updated_at": "2026-11-12T18:01:27+00:00",
+  "updated_at": "2026-11-13T18:01:30+00:00",
   "started_at": "2026-11-02T18:08:54+00:00",
-  "completed_at": "2026-11-12T18:01:27+00:00",
+  "completed_at": "2026-11-13T18:01:30+00:00",
   "last_error": ""
 }

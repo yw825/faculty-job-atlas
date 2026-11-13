@@ -51,6 +51,10 @@
     "https://jobmarket.unibocconi.eu/?id=1024": {
       "title": "Assistant Professor, Dept. Marketing, ECON-07/A Management",
       "description": "Closing Date: 11/12/2026 Posted Date: 10/11/2026 Department: Marketing 233492 "
+    },
+    "https://jobmarket.unibocconi.eu/?id=1026": {
+      "title": "Assistant Professor, Dept. Management and Technology, ECON-07/A Economia e Gestione delle Imprese, ECON-08/A Organizzazione aziendale",
+      "description": "Closing Date: 13/12/2026 Posted Date: 13/11/2026 Department: Management and Technology 233666 13/11/2026 "
     }
   },
   "rows": {
@@ -207,11 +211,23 @@
       "deadline_of_application": "11/12/2026",
       "posted_date": "10/11/2026",
       "position_start_date": ""
+    },
+    "https://jobmarket.unibocconi.eu/?id=1026": {
+      "school_id": 1708,
+      "posting_url": "https://jobmarket.unibocconi.eu/?id=1026",
+      "job_title_in_post": "Assistant Professor, Dept. Management and Technology, ECON-07/A Economia e Gestione delle Imprese, ECON-08/A Organizzazione aziendale",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "ECON-08/A Organizzazione aziendale",
+      "deadline_of_application": "13/12/2026",
+      "posted_date": "13/11/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 1708,
   "status": "complete",
-  "updated_at": "2026-11-12T21:21:43+00:00",
-  "completed_at": "2026-11-12T21:21:43+00:00",
+  "updated_at": "2026-11-13T20:54:18+00:00",
+  "completed_at": "2026-11-13T20:54:18+00:00",
   "last_error": ""
 }

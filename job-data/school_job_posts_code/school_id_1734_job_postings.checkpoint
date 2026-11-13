@@ -3,9 +3,9 @@
     "https://www.ulisboa.pt/en/recrutamento/edital-no-14162026-concurso-para-um-professor-associado-area-disciplinar-de-fisica"
   ],
   "school_id": 1734,
-  "status": "complete",
-  "updated_at": "2026-11-12T20:09:58+00:00",
+  "status": "error",
+  "updated_at": "2026-11-13T20:03:04+00:00",
   "started_at": "2026-11-02T19:54:10+00:00",
   "completed_at": "2026-11-12T20:09:58+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: recruitment list status=None"
 }

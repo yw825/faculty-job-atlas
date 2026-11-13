@@ -1414,6 +1414,21 @@
       "title": "Post-Doctoral Associate",
       "description": "Posted: 11/11/2026 Location: Twin Cities Department: Entomology, Dept of Post-Doctoral Associate",
       "department": "Entomology, Dept of"
+    },
+    "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=377150&PostingSeq=1": {
+      "title": "Faculty Position - Breast Imaging (Academic/Clinician Track)",
+      "description": "Posted: 11/13/2026 Location: Twin Cities Department: Radiology Administration Faculty Position - Breast Imaging (Academic/Clinician Track)",
+      "department": "Radiology Administration"
+    },
+    "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=376586&PostingSeq=1": {
+      "title": "Behavioral Health Predoctoral Internship with Phalen Family Medicine Residency",
+      "description": "Posted: 11/12/2026 Location: Twin Cities Department: FamMed Family Medicine Admin Behavioral Health Predoctoral Internship with Phalen Family Medicine Residency",
+      "department": "FamMed Family Medicine Admin"
+    },
+    "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=376781&PostingSeq=1": {
+      "title": "Postdoctoral Researcher",
+      "description": "Posted: 11/12/2026 Location: Twin Cities Department: Physical Therapy Postdoctoral Researcher",
+      "department": "Physical Therapy"
     }
   },
   "rows": {
@@ -4800,11 +4815,47 @@
       "deadline_of_application": "",
       "posted_date": "11/11/2026",
       "position_start_date": ""
+    },
+    "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=377150&PostingSeq=1": {
+      "school_id": 680,
+      "posting_url": "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=377150&PostingSeq=1",
+      "job_title_in_post": "Faculty Position - Breast Imaging (Academic/Clinician Track)",
+      "position_type": "Assistant_Professor; Associate_Professor; Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Radiology Administration",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/13/2026",
+      "position_start_date": ""
+    },
+    "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=376586&PostingSeq=1": {
+      "school_id": 680,
+      "posting_url": "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=376586&PostingSeq=1",
+      "job_title_in_post": "Behavioral Health Predoctoral Internship with Phalen Family Medicine Residency",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "FamMed Family Medicine Admin",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/12/2026",
+      "position_start_date": ""
+    },
+    "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=376781&PostingSeq=1": {
+      "school_id": 680,
+      "posting_url": "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=376781&PostingSeq=1",
+      "job_title_in_post": "Postdoctoral Researcher",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "Physical Therapy",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/12/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 680,
   "status": "complete",
-  "updated_at": "2026-11-12T20:54:29+00:00",
-  "completed_at": "2026-11-12T20:54:29+00:00",
+  "updated_at": "2026-11-13T20:26:07+00:00",
+  "completed_at": "2026-11-13T20:26:07+00:00",
   "last_error": ""
 }

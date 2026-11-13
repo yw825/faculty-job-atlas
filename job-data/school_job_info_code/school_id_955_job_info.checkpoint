@@ -227,6 +227,14 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/F28471DFA0F4183976163E181A695BE1/jobs/510641": {
       "title": "Adjunct Professor",
       "description": "Adjunct Professor You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/F28471DFA0F4183976163E181A695BE1/jobs/511204": {
+      "title": "Entrepreneur-In-Residence",
+      "description": "Entrepreneur-In-Residence You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/F28471DFA0F4183976163E181A695BE1/jobs/511185": {
+      "title": "Nursing Adjunct Clinical Instructor",
+      "description": "Nursing Adjunct Clinical Instructor You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -911,11 +919,35 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/F28471DFA0F4183976163E181A695BE1/jobs/511204": {
+      "school_id": 955,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/F28471DFA0F4183976163E181A695BE1/jobs/511204",
+      "job_title_in_post": "Entrepreneur-In-Residence",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/F28471DFA0F4183976163E181A695BE1/jobs/511185": {
+      "school_id": 955,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/F28471DFA0F4183976163E181A695BE1/jobs/511185",
+      "job_title_in_post": "Nursing Adjunct Clinical Instructor",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "Nursing Adjunct",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 955,
   "status": "complete",
-  "updated_at": "2026-11-12T21:01:31+00:00",
-  "completed_at": "2026-11-12T21:01:31+00:00",
+  "updated_at": "2026-11-13T20:31:55+00:00",
+  "completed_at": "2026-11-13T20:31:55+00:00",
   "last_error": ""
 }

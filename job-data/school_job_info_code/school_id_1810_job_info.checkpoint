@@ -15,6 +15,14 @@
     "https://wd105.myworkdaysite.com/recruiting/federation/Federation_Careers/job/Ballarat-Victoria/TAFE-Teacher--Healthcare-Industries_JR101523": {
       "title": "TAFE Teacher, Healthcare Industries",
       "description": ""
+    },
+    "https://wd105.myworkdaysite.com/recruiting/federation/Federation_Careers/job/Ballarat-Victoria/Coordinator--Prevention-Programs_JR101327": {
+      "title": "Coordinator, Prevention Programs",
+      "description": ""
+    },
+    "https://wd105.myworkdaysite.com/recruiting/federation/Federation_Careers/job/Ballarat-Victoria/Aboriginal-Student-Recruitment-Coordinator_JR101540": {
+      "title": "Aboriginal Student Recruitment Coordinator",
+      "description": ""
     }
   },
   "rows": {
@@ -65,11 +73,35 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://wd105.myworkdaysite.com/recruiting/federation/Federation_Careers/job/Ballarat-Victoria/Coordinator--Prevention-Programs_JR101327": {
+      "school_id": 1810,
+      "posting_url": "https://wd105.myworkdaysite.com/recruiting/federation/Federation_Careers/job/Ballarat-Victoria/Coordinator--Prevention-Programs_JR101327",
+      "job_title_in_post": "Coordinator, Prevention Programs",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://wd105.myworkdaysite.com/recruiting/federation/Federation_Careers/job/Ballarat-Victoria/Aboriginal-Student-Recruitment-Coordinator_JR101540": {
+      "school_id": 1810,
+      "posting_url": "https://wd105.myworkdaysite.com/recruiting/federation/Federation_Careers/job/Ballarat-Victoria/Aboriginal-Student-Recruitment-Coordinator_JR101540",
+      "job_title_in_post": "Aboriginal Student Recruitment Coordinator",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1810,
   "status": "complete",
-  "updated_at": "2026-11-12T21:14:25+00:00",
+  "updated_at": "2026-11-13T20:46:02+00:00",
   "last_error": "",
-  "completed_at": "2026-11-12T21:14:25+00:00"
+  "completed_at": "2026-11-13T20:46:02+00:00"
 }

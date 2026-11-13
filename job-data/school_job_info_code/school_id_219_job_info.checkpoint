@@ -287,6 +287,34 @@
     "https://evergladesuniversity.isolvedhire.com/jobs/1902338": {
       "title": "Director of Admissions",
       "description": "Director of Admissions - Tampa, FL - Everglades University Jobs Jobs Login Sign Up For Job Alerts! Resources Everglades University Annual Security Report Maintained by isolved People Cloud - © 2026 Refresh Search the FAQ here Go Common Questions"
+    },
+    "https://evergladesuniversity.isolvedhire.com/jobs/1904826": {
+      "title": "Alternative Energy Instructor - Adjunct",
+      "description": "Alternative Energy Instructor - Adjunct - Miami, FL - Everglades University Jobs Jobs Login Sign Up For Job Alerts! Resources Everglades University Annual Security Report Maintained by isolved People Cloud - © 2026 Refresh Search the FAQ here Go Common Questions"
+    },
+    "https://evergladesuniversity.isolvedhire.com/jobs/1904827": {
+      "title": "Alternative Medicine Instructor - Adjunct",
+      "description": "Alternative Medicine Instructor - Adjunct - Miami, FL - Everglades University Jobs Jobs Login Sign Up For Job Alerts! Resources Everglades University Annual Security Report Maintained by isolved People Cloud - © 2026 Refresh Search the FAQ here Go Common Questions"
+    },
+    "https://evergladesuniversity.isolvedhire.com/jobs/1905104": {
+      "title": "Bursar",
+      "description": "Bursar - Tampa, FL - Everglades University Jobs Jobs Login Sign Up For Job Alerts! Resources Everglades University Annual Security Report Maintained by isolved People Cloud - © 2026 Refresh Search the FAQ here Go Common Questions"
+    },
+    "https://evergladesuniversity.isolvedhire.com/jobs/1904829": {
+      "title": "Construction Instructor - Adjunct",
+      "description": "Construction Instructor - Adjunct - Miami, FL - Everglades University Jobs Jobs Login Sign Up For Job Alerts! Resources Everglades University Annual Security Report Maintained by isolved People Cloud - © 2026 Refresh Search the FAQ here Go Common Questions"
+    },
+    "https://evergladesuniversity.isolvedhire.com/jobs/1904837": {
+      "title": "English Instructor - Adjunct",
+      "description": "English Instructor - Adjunct - Miami, FL - Everglades University Jobs Jobs Login Sign Up For Job Alerts! Resources Everglades University Annual Security Report Maintained by isolved People Cloud - © 2026 Refresh Search the FAQ here Go Common Questions"
+    },
+    "https://evergladesuniversity.isolvedhire.com/jobs/1904836": {
+      "title": "Math Instructor - Adjunct",
+      "description": "Math Instructor - Adjunct - Miami, FL - Everglades University Jobs Jobs Login Sign Up For Job Alerts! Resources Everglades University Annual Security Report Maintained by isolved People Cloud - © 2026 Refresh Search the FAQ here Go Common Questions"
+    },
+    "https://evergladesuniversity.isolvedhire.com/jobs/1904834": {
+      "title": "Psychology Instructor - Adjunct",
+      "description": "Psychology Instructor - Adjunct - Miami, FL - Everglades University Jobs Jobs Login Sign Up For Job Alerts! Resources Everglades University Annual Security Report Maintained by isolved People Cloud - © 2026 Refresh Search the FAQ here Go Common Questions"
     }
   },
   "rows": {
@@ -1153,11 +1181,95 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://evergladesuniversity.isolvedhire.com/jobs/1904826": {
+      "school_id": 219,
+      "posting_url": "https://evergladesuniversity.isolvedhire.com/jobs/1904826",
+      "job_title_in_post": "Alternative Energy Instructor - Adjunct",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "Alternative Energy",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://evergladesuniversity.isolvedhire.com/jobs/1904827": {
+      "school_id": 219,
+      "posting_url": "https://evergladesuniversity.isolvedhire.com/jobs/1904827",
+      "job_title_in_post": "Alternative Medicine Instructor - Adjunct",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "Alternative Medicine",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://evergladesuniversity.isolvedhire.com/jobs/1905104": {
+      "school_id": 219,
+      "posting_url": "https://evergladesuniversity.isolvedhire.com/jobs/1905104",
+      "job_title_in_post": "Bursar",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://evergladesuniversity.isolvedhire.com/jobs/1904829": {
+      "school_id": 219,
+      "posting_url": "https://evergladesuniversity.isolvedhire.com/jobs/1904829",
+      "job_title_in_post": "Construction Instructor - Adjunct",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "Construction",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://evergladesuniversity.isolvedhire.com/jobs/1904837": {
+      "school_id": 219,
+      "posting_url": "https://evergladesuniversity.isolvedhire.com/jobs/1904837",
+      "job_title_in_post": "English Instructor - Adjunct",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "English",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://evergladesuniversity.isolvedhire.com/jobs/1904836": {
+      "school_id": 219,
+      "posting_url": "https://evergladesuniversity.isolvedhire.com/jobs/1904836",
+      "job_title_in_post": "Math Instructor - Adjunct",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "Math",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://evergladesuniversity.isolvedhire.com/jobs/1904834": {
+      "school_id": 219,
+      "posting_url": "https://evergladesuniversity.isolvedhire.com/jobs/1904834",
+      "job_title_in_post": "Psychology Instructor - Adjunct",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "Psychology",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 219,
   "status": "complete",
-  "updated_at": "2026-11-12T20:43:21+00:00",
+  "updated_at": "2026-11-13T20:15:14+00:00",
   "last_error": "",
-  "completed_at": "2026-11-12T20:43:21+00:00"
+  "completed_at": "2026-11-13T20:15:14+00:00"
 }

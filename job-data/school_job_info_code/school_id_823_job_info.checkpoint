@@ -649,6 +649,26 @@
       "title": "Senior, Admin Coordinator-Academic",
       "description": "Posted: 11/12/2026 Location: Fargo Department: School of Design, Arch + Art Senior, Admin Coordinator-Academic",
       "department": "School of Design, Arch + Art"
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960206&PostingSeq=1&SiteId=1": {
+      "title": "Assistant Professor of Practice",
+      "description": "Posted: 11/13/2026 Location: Fargo Department: Biological Sciences Assistant Professor of Practice",
+      "department": "Biological Sciences"
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960207&PostingSeq=1&SiteId=1": {
+      "title": "Business Coordinator",
+      "description": "Posted: 11/13/2026 Location: Fargo Department: ARTSCI Business Center Business Coordinator",
+      "department": "ARTSCI Business Center"
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960177&PostingSeq=1&SiteId=1": {
+      "title": "Residence Life Break Resident Assistant",
+      "description": "Posted: 11/13/2026 Location: Fargo Department: Residence Life Residence Life Break Resident Assistant",
+      "department": "Residence Life"
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960219&PostingSeq=1&SiteId=1": {
+      "title": "Temporary Laboratory - Liverani's Lab",
+      "description": "Posted: 11/13/2026 Location: Fargo Department: Pharmaceutical Sciences Temporary Laboratory - Liverani's Lab",
+      "department": "Pharmaceutical Sciences"
     }
   },
   "rows": {
@@ -2190,11 +2210,59 @@
       "deadline_of_application": "",
       "posted_date": "11/12/2026",
       "position_start_date": ""
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960206&PostingSeq=1&SiteId=1": {
+      "school_id": 823,
+      "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960206&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Assistant Professor of Practice",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "Biological Sciences",
+      "area_key_words": "Practice",
+      "deadline_of_application": "",
+      "posted_date": "11/13/2026",
+      "position_start_date": ""
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960207&PostingSeq=1&SiteId=1": {
+      "school_id": 823,
+      "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960207&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Business Coordinator",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "ARTSCI Business Center",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/13/2026",
+      "position_start_date": ""
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960177&PostingSeq=1&SiteId=1": {
+      "school_id": 823,
+      "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960177&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Residence Life Break Resident Assistant",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Residence Life",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/13/2026",
+      "position_start_date": ""
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960219&PostingSeq=1&SiteId=1": {
+      "school_id": 823,
+      "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960219&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Temporary Laboratory - Liverani's Lab",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Pharmaceutical Sciences",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/13/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 823,
   "status": "complete",
-  "updated_at": "2026-11-12T20:56:47+00:00",
-  "completed_at": "2026-11-12T20:56:47+00:00",
+  "updated_at": "2026-11-13T20:28:53+00:00",
+  "completed_at": "2026-11-13T20:28:53+00:00",
   "last_error": ""
 }
