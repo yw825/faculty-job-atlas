@@ -38,6 +38,14 @@ fi
 # A nightly cadence can overlap: if one pass runs long, the next fires
 # while it is still going, and two scrapers writing the same checkpoints
 # would corrupt them. The lock makes a second start exit immediately.
+# Pause: while today is on or before the date in refresh_paused_through
+# (YYYY-MM-DD), the run is skipped; it resumes by itself the day after.
+PAUSE_FILE="$ROOT/job-data/refresh_paused_through"
+if [ -f "$PAUSE_FILE" ] && [ ! "$(date +%Y-%m-%d)" \> "$(head -1 "$PAUSE_FILE" | tr -d '[:space:]')" ]; then
+  echo "$(date): refresh paused through $(head -1 "$PAUSE_FILE"); skipping" >&2
+  exit 0
+fi
+
 LOCK="$ROOT/job-data/.refresh.lock"
 if [ -e "$LOCK" ] && kill -0 "$(cat "$LOCK" 2>/dev/null)" 2>/dev/null; then
   echo "refresh already running (pid $(cat "$LOCK")); exiting" >&2
