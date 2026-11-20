@@ -19,6 +19,10 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/7104A35B5420851FED7AF7424C24A467/jobs/552128": {
       "title": "Adjunct Instructor - Ethics PH103",
       "description": "Adjunct Instructor - Ethics PH103 You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/7104A35B5420851FED7AF7424C24A467/jobs/553790": {
+      "title": "Human Resources Operations Coordinator",
+      "description": "Human Resources Operations Coordinator You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -81,11 +85,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/7104A35B5420851FED7AF7424C24A467/jobs/553790": {
+      "school_id": 538,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/7104A35B5420851FED7AF7424C24A467/jobs/553790",
+      "job_title_in_post": "Human Resources Operations Coordinator",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 538,
   "status": "complete",
-  "updated_at": "2026-11-13T20:22:26+00:00",
-  "completed_at": "2026-11-13T20:22:26+00:00",
+  "updated_at": "2026-11-20T19:38:48+00:00",
+  "completed_at": "2026-11-20T19:38:48+00:00",
   "last_error": ""
 }

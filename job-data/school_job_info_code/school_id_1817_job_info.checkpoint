@@ -84,6 +84,16 @@
       "title": "Teachers, Fabrication - Welding",
       "description": "The Teacher Fabrication - Welding role has a significant impact on student learning, development and progression throughout their apprenticeship.",
       "department": null
+    },
+    "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18719": {
+      "title": "Teacher – LND, Numeracy Method",
+      "description": "This position is responsible for delivering high‑quality Literacy, Numeracy and Digital learning support with an emphasis on Numeracy to students across VU TAFE.",
+      "department": null
+    },
+    "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18692": {
+      "title": "STEM Program Facilitator",
+      "description": "Join the Brimbank Tech School team and be part of an inspiring educational journey! Excited to teach and inspire the next generation of thinkers and creators? Help us deliver hands-on learning where creativity meets technology, and make a lasting impact on students and educators alike. ",
+      "department": null
     }
   },
   "rows": {
@@ -290,11 +300,35 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18719": {
+      "school_id": 1817,
+      "posting_url": "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18719",
+      "job_title_in_post": "Teacher – LND, Numeracy Method",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18692": {
+      "school_id": 1817,
+      "posting_url": "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18692",
+      "job_title_in_post": "STEM Program Facilitator",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1817,
   "status": "complete",
-  "updated_at": "2026-11-13T20:45:46+00:00",
-  "completed_at": "2026-11-13T20:45:46+00:00",
+  "updated_at": "2026-11-20T20:37:45+00:00",
+  "completed_at": "2026-11-20T20:37:45+00:00",
   "last_error": ""
 }

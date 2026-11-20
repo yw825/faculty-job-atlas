@@ -111,6 +111,26 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/3A2948EF284B8722FEE42E01FB156C27/jobs/127052": {
       "title": "Institutional Review Board (IRB) Subject Matter Expert",
       "description": "Institutional Review Board (IRB) Subject Matter Expert You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/3A2948EF284B8722FEE42E01FB156C27/jobs/131473": {
+      "title": "Accounts Receivable Specialist",
+      "description": "Accounts Receivable Specialist You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/3A2948EF284B8722FEE42E01FB156C27/jobs/131409": {
+      "title": "Assistant Director for Special Projects and Operations",
+      "description": "Assistant Director for Special Projects and Operations You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/3A2948EF284B8722FEE42E01FB156C27/jobs/130538": {
+      "title": "Director of IT Operations",
+      "description": "Director of IT Operations You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/3A2948EF284B8722FEE42E01FB156C27/jobs/130227": {
+      "title": "Assistant Academic Fieldwork Coordinator and Assistant Professor",
+      "description": "Assistant Academic Fieldwork Coordinator and Assistant Professor You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/3A2948EF284B8722FEE42E01FB156C27/jobs/129675": {
+      "title": "Campus Public Safety Officer",
+      "description": "Campus Public Safety Officer You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -446,11 +466,71 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/3A2948EF284B8722FEE42E01FB156C27/jobs/131473": {
+      "school_id": 557,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/3A2948EF284B8722FEE42E01FB156C27/jobs/131473",
+      "job_title_in_post": "Accounts Receivable Specialist",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/3A2948EF284B8722FEE42E01FB156C27/jobs/131409": {
+      "school_id": 557,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/3A2948EF284B8722FEE42E01FB156C27/jobs/131409",
+      "job_title_in_post": "Assistant Director for Special Projects and Operations",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/3A2948EF284B8722FEE42E01FB156C27/jobs/130538": {
+      "school_id": 557,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/3A2948EF284B8722FEE42E01FB156C27/jobs/130538",
+      "job_title_in_post": "Director of IT Operations",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "IT Operations",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/3A2948EF284B8722FEE42E01FB156C27/jobs/130227": {
+      "school_id": 557,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/3A2948EF284B8722FEE42E01FB156C27/jobs/130227",
+      "job_title_in_post": "Assistant Academic Fieldwork Coordinator and Assistant Professor",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Academic Fieldwork Coordinator and Assistant",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/3A2948EF284B8722FEE42E01FB156C27/jobs/129675": {
+      "school_id": 557,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/3A2948EF284B8722FEE42E01FB156C27/jobs/129675",
+      "job_title_in_post": "Campus Public Safety Officer",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 557,
   "status": "complete",
-  "updated_at": "2026-11-13T20:23:43+00:00",
-  "completed_at": "2026-11-13T20:23:43+00:00",
+  "updated_at": "2026-11-20T19:42:08+00:00",
+  "completed_at": "2026-11-20T19:42:08+00:00",
   "last_error": ""
 }

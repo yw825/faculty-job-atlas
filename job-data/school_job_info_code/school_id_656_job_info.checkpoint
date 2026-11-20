@@ -99,6 +99,14 @@
     "https://learnbaker.isolvedhire.com/jobs/1900863": {
       "title": "Adjunct Faculty - Psychology (Owosso, Michigan)",
       "description": "Adjunct Faculty - Psychology (Owosso, Michigan)  - Owosso, MI - Baker College Jobs Jobs Login Sign Up For Job Alerts! Maintained by isolved People Cloud - © 2026 Refresh Search the FAQ here Go Common Questions"
+    },
+    "https://learnbaker.isolvedhire.com/jobs/1905332": {
+      "title": "Adjunct Faculty - Biology - Running Start (Muskegon High School)",
+      "description": "Adjunct Faculty - Biology - Running Start (Muskegon High School) - Muskegon, MI - Baker College Jobs Jobs Login Sign Up For Job Alerts! Maintained by isolved People Cloud - © 2026 Refresh Search the FAQ here Go Common Questions"
+    },
+    "https://learnbaker.isolvedhire.com/jobs/1905512": {
+      "title": "Safety Officer (Part-Time)",
+      "description": "Safety Officer (Part-Time) - Jackson, MI - Baker College Jobs Jobs Login Sign Up For Job Alerts! Maintained by isolved People Cloud - © 2026 Refresh Search the FAQ here Go Common Questions"
     }
   },
   "rows": {
@@ -398,11 +406,35 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://learnbaker.isolvedhire.com/jobs/1905332": {
+      "school_id": 656,
+      "posting_url": "https://learnbaker.isolvedhire.com/jobs/1905332",
+      "job_title_in_post": "Adjunct Faculty - Biology - Running Start (Muskegon High School)",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "Biology",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://learnbaker.isolvedhire.com/jobs/1905512": {
+      "school_id": 656,
+      "posting_url": "https://learnbaker.isolvedhire.com/jobs/1905512",
+      "job_title_in_post": "Safety Officer (Part-Time)",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 656,
   "status": "complete",
-  "updated_at": "2026-11-13T20:25:04+00:00",
-  "completed_at": "2026-11-13T20:25:04+00:00",
+  "updated_at": "2026-11-20T19:47:31+00:00",
+  "completed_at": "2026-11-20T19:47:31+00:00",
   "last_error": ""
 }

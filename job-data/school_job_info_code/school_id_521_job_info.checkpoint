@@ -734,6 +734,16 @@
       "title": "Adjunct Lecturer",
       "description": "The Department of Jewish Studies at Tulane University is searching for an Adjunct professor in modern Hebrew language. Requirements include a PhD in language pedagogy, Hebrew, or a related field, extensive teaching experience at the college level and a record of success in the classroom. The teaching load is 3 courses and will involve teaching at the first year levels.",
       "department": null
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2302": {
+      "title": "Visiting Assistant Professor",
+      "description": "",
+      "department": null
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2311": {
+      "title": "Adjunct Professor",
+      "description": "The Department of River-Coastal Science and Engineering (RCSE) in the School of Science and Engineering at Tulane University invites applications for Adjunct Assistant Professor positions. The department seeks highly qualified individuals to teach undergraduate and/or graduate courses in areas related to river-coastal science, engineering, environmental science, earth sciences, hydrology, geomorphology, coastal processes, climate impacts, and related disciplines.\n\nAdjunct faculty appointments are part-time, non-tenure-track positions and are made on a semester-by-semester basis, contingent upon departmental instructional needs.",
+      "department": null
     }
   },
   "rows": {
@@ -2496,11 +2506,35 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2302": {
+      "school_id": 521,
+      "posting_url": "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2302",
+      "job_title_in_post": "Visiting Assistant Professor",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2311": {
+      "school_id": 521,
+      "posting_url": "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2311",
+      "job_title_in_post": "Adjunct Professor",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "School of Science and Engineering",
+      "area_key_words": "environmental science",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 521,
   "status": "complete",
-  "updated_at": "2026-11-13T20:23:20+00:00",
-  "completed_at": "2026-11-13T20:23:20+00:00",
+  "updated_at": "2026-11-20T19:41:09+00:00",
+  "completed_at": "2026-11-20T19:41:09+00:00",
   "last_error": ""
 }

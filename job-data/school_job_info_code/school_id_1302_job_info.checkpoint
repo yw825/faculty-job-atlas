@@ -63,6 +63,10 @@
     "https://converse.isolvedhire.com/jobs/1889812": {
       "title": "Instructor of Physics",
       "description": "Instructor of Physics - Spartanburg, SC - Converse University Jobs Jobs Login Sign Up For Job Alerts! Maintained by isolved People Cloud - © 2026 Refresh Search the FAQ here Go Common Questions"
+    },
+    "https://converse.isolvedhire.com/jobs/1907507": {
+      "title": "Director of Special Education & Program Coordinator/Instructor for Deaf & Hard of Hearing Education",
+      "description": "Director of Special Education & Program Coordinator/Instructor for Deaf & Hard of Hearing Education - Spartanburg, SC - Converse University Jobs Jobs Login Sign Up For Job Alerts! Maintained by isolved People Cloud - © 2026 Refresh Search the FAQ here Go Common Questions"
     }
   },
   "rows": {
@@ -257,11 +261,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://converse.isolvedhire.com/jobs/1907507": {
+      "school_id": 1302,
+      "posting_url": "https://converse.isolvedhire.com/jobs/1907507",
+      "job_title_in_post": "Director of Special Education & Program Coordinator/Instructor for Deaf & Hard of Hearing Education",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Special Education & Program Coordinator/Instructor for Deaf & Hard of Hearing Education",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1302,
   "status": "complete",
-  "updated_at": "2026-11-13T20:36:19+00:00",
-  "completed_at": "2026-11-13T20:36:19+00:00",
+  "updated_at": "2026-11-20T20:15:40+00:00",
+  "completed_at": "2026-11-20T20:15:40+00:00",
   "last_error": ""
 }

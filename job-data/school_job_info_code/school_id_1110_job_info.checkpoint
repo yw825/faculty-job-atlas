@@ -119,6 +119,22 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/ABFDAFED645B6920CFDB8559C078F8A5/jobs/357539": {
       "title": "Principal Faculty - Physician Associate Studies",
       "description": "Principal Faculty - Physician Associate Studies You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/ABFDAFED645B6920CFDB8559C078F8A5/jobs/361555": {
+      "title": "Part-Time Cornelius Front Office Coordinator - Optometry",
+      "description": "Part-Time Cornelius Front Office Coordinator - Optometry You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/ABFDAFED645B6920CFDB8559C078F8A5/jobs/361437": {
+      "title": "Administrative Assistant - Enrollment Management & Student Affairs Leadership",
+      "description": "Administrative Assistant - Enrollment Management & Student Affairs Leadership You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/ABFDAFED645B6920CFDB8559C078F8A5/jobs/361495": {
+      "title": "Head Men's Soccer Coach",
+      "description": "Head Men's Soccer Coach You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/ABFDAFED645B6920CFDB8559C078F8A5/jobs/360801": {
+      "title": "Director of Clinical Operations - Optometry",
+      "description": "Director of Clinical Operations - Optometry You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -478,11 +494,59 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/ABFDAFED645B6920CFDB8559C078F8A5/jobs/361555": {
+      "school_id": 1110,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/ABFDAFED645B6920CFDB8559C078F8A5/jobs/361555",
+      "job_title_in_post": "Part-Time Cornelius Front Office Coordinator - Optometry",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "Optometry",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/ABFDAFED645B6920CFDB8559C078F8A5/jobs/361437": {
+      "school_id": 1110,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/ABFDAFED645B6920CFDB8559C078F8A5/jobs/361437",
+      "job_title_in_post": "Administrative Assistant - Enrollment Management & Student Affairs Leadership",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/ABFDAFED645B6920CFDB8559C078F8A5/jobs/361495": {
+      "school_id": 1110,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/ABFDAFED645B6920CFDB8559C078F8A5/jobs/361495",
+      "job_title_in_post": "Head Men's Soccer Coach",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/ABFDAFED645B6920CFDB8559C078F8A5/jobs/360801": {
+      "school_id": 1110,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/ABFDAFED645B6920CFDB8559C078F8A5/jobs/360801",
+      "job_title_in_post": "Director of Clinical Operations - Optometry",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Clinical Operations",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1110,
   "status": "complete",
-  "updated_at": "2026-11-13T20:32:47+00:00",
-  "completed_at": "2026-11-13T20:32:47+00:00",
+  "updated_at": "2026-11-20T20:00:13+00:00",
+  "completed_at": "2026-11-20T20:00:13+00:00",
   "last_error": ""
 }

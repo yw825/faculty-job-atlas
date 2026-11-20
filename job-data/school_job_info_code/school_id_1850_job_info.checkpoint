@@ -27,6 +27,22 @@
     "https://earth.ipm.edu.mo/store/uploads/recruitment/notification/2373d-2627fca001_notice-for-full-time-academic-staff-recruitment_en.pdf": {
       "title": "Recruitment of 6 Full-time Associate Professors (area of Advanced Manufacturing and Robotics) (2627-FCA-001)",
       "description": " "
+    },
+    "https://earth.ipm.edu.mo/store/uploads/recruitment/notification/2520a-en.pdf": {
+      "title": "Recruitment of 1 Full-time Professor (area of Business Analytics) (2627-FCG-003)",
+      "description": " "
+    },
+    "https://earth.ipm.edu.mo/store/uploads/recruitment/notification/6d8cc-en.pdf": {
+      "title": "Recruitment of 1 Full-time Associate Professor (area of Economics) (2627-FCG-004)",
+      "description": " "
+    },
+    "https://earth.ipm.edu.mo/store/uploads/recruitment/notification/6afeb-en.pdf": {
+      "title": "Recruitment of 1 Full-time Associate Professor (area of Marketing) (2627-FCG-005)",
+      "description": " "
+    },
+    "https://earth.ipm.edu.mo/store/uploads/recruitment/notification/630cc-en.pdf": {
+      "title": "Recruitment of 1 Full-time Associate Professor (area of Management) (2627-FCG-006)",
+      "description": " "
     }
   },
   "rows": {
@@ -113,11 +129,59 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://earth.ipm.edu.mo/store/uploads/recruitment/notification/2520a-en.pdf": {
+      "school_id": 1850,
+      "posting_url": "https://earth.ipm.edu.mo/store/uploads/recruitment/notification/2520a-en.pdf",
+      "job_title_in_post": "Recruitment of 1 Full-time Professor (area of Business Analytics) (2627-FCG-003)",
+      "position_type": "Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://earth.ipm.edu.mo/store/uploads/recruitment/notification/6d8cc-en.pdf": {
+      "school_id": 1850,
+      "posting_url": "https://earth.ipm.edu.mo/store/uploads/recruitment/notification/6d8cc-en.pdf",
+      "job_title_in_post": "Recruitment of 1 Full-time Associate Professor (area of Economics) (2627-FCG-004)",
+      "position_type": "Associate_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://earth.ipm.edu.mo/store/uploads/recruitment/notification/6afeb-en.pdf": {
+      "school_id": 1850,
+      "posting_url": "https://earth.ipm.edu.mo/store/uploads/recruitment/notification/6afeb-en.pdf",
+      "job_title_in_post": "Recruitment of 1 Full-time Associate Professor (area of Marketing) (2627-FCG-005)",
+      "position_type": "Associate_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://earth.ipm.edu.mo/store/uploads/recruitment/notification/630cc-en.pdf": {
+      "school_id": 1850,
+      "posting_url": "https://earth.ipm.edu.mo/store/uploads/recruitment/notification/630cc-en.pdf",
+      "job_title_in_post": "Recruitment of 1 Full-time Associate Professor (area of Management) (2627-FCG-006)",
+      "position_type": "Associate_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1850,
   "status": "complete",
-  "updated_at": "2026-11-13T20:54:22+00:00",
-  "completed_at": "2026-11-13T20:54:22+00:00",
+  "updated_at": "2026-11-20T21:22:09+00:00",
+  "completed_at": "2026-11-20T21:22:09+00:00",
   "last_error": ""
 }

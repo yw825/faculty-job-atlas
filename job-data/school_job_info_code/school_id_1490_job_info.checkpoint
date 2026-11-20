@@ -75,6 +75,10 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/0DB1CFB7BAA1AF7EF9E6616BC163C95A/jobs/251708": {
       "title": "Assistant Professor of Chemistry (Tenure Track)",
       "description": "Assistant Professor of Chemistry (Tenure Track) You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/0DB1CFB7BAA1AF7EF9E6616BC163C95A/jobs/232556": {
+      "title": "Assistant Athletic Trainer",
+      "description": "Assistant Athletic Trainer You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -305,11 +309,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/0DB1CFB7BAA1AF7EF9E6616BC163C95A/jobs/232556": {
+      "school_id": 1490,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/0DB1CFB7BAA1AF7EF9E6616BC163C95A/jobs/232556",
+      "job_title_in_post": "Assistant Athletic Trainer",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1490,
   "status": "complete",
-  "updated_at": "2026-11-13T20:38:40+00:00",
-  "completed_at": "2026-11-13T20:38:40+00:00",
+  "updated_at": "2026-11-20T20:20:39+00:00",
+  "completed_at": "2026-11-20T20:20:39+00:00",
   "last_error": ""
 }

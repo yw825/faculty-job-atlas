@@ -43,6 +43,10 @@
     "https://www.drury.edu/academic-affairs/open-faculty-positions/#assistant-professor-of-psychology-tenure-track": {
       "title": "Assistant Professor of Psychology – Tenure Track",
       "description": "Assistant Professor of Psychology – Tenure Track. The Department of Behavioral Sciences at Drury University invites applications for a full-time, tenure-track position as Assistant Professor in Psychology beginning in August 2027. A doctoral degree in psychology or a related discipline is required. ABD candidates will be considered, provided they complete the doctoral degree by the August 2027 start date. Teaching experience is preferred. The Department of Behavioral Sciences is interdisciplinary and offers undergraduate degrees in Clinical and Behavioral Neuroscience, Criminal Justice, Criminology, Psychology, and Sociology. Candidates from a range of specializations are encouraged to apply. The successful candidate must be prepared to teach undergraduate courses in Psychopathology, Psychological Tests and Measurement with Laboratory, and Positive Psychology, as well as other health-related psychology courses. The teaching load is 21 credit hours per academic year. Applications should submit a letter of interest addressing their qualifications, a current curriculum vitae, a teaching philosophy statement, a research statement, and transcripts. Three letters of recommendation are also required. Review of applications will begin December 15, 2026 and continue until the position is filled. Applications and letters of recommendation should be sent to Search Committee Chair Dr. Callie Gibson, c/o Lori Sechler, at lsechler@drury.edu . Drury University has a long record of effective engagement and activism in the Ozarks. Founded in 1873, the University is located in Springfield, Missouri, the center of a metropolitan area exceeding 500,000 in population. Additional information about Drury University and the Department of Behavioral Sciences can be found at https://www.drury.edu/ ."
+    },
+    "https://www.drury.edu/academic-affairs/open-faculty-positions/#assistant-professor-of-architecture-innovation-in-design-and-representation": {
+      "title": "Assistant Professor of Architecture: Innovation in Design and Representation",
+      "description": "Assistant Professor of Architecture: Innovation in Design and Representation. The Hammons School of Architecture (HSA) at Drury University invites applications for an Assistant Professor of Architecture in Design Innovation whose teaching and scholarly work focus on the integration of contemporary design technology in teaching and scholarship. This full-time, 9-month, tenure-track position starts August 2027. HSA seeks talented emerging scholars whose architectural pedagogy, discourse, and practice through technological innovation in design. In particular, those who investigate issues of representation, modeling, making, process, and/or analytics, including – but not limited to – advanced representation, simulation, artificial intelligence, building performance, environmental modeling, ecological design, material studies, and emerging technologies. The successful candidate will join a faculty of colleagues dedicated to the craft of teaching and the preparation of design leaders. The individual will play a key role in furthering the school’s mission of design excellence through relevant scholarship and innovative educational contributions to the university and the disciplines of architecture. Candidates must hold a graduate degree in architecture and should have an articulated line of inquiry with the potential to advance disciplinary knowledge. Integral to this position are contributions in teaching, scholarship, and service. Ideal candidates exhibit the ability to effectively teach a variety of courses at multiple levels of the curriculum including design studios, expertise-related electives, core classes, and possibly general or interdisciplinary offerings. The ability to develop a credible dossier of peer-reviewed scholarship through recognized design work, publication, research, exhibitions, funding or other means is expected. HSA offers a NAAB-accredited, first-professional M.Arch degree in the context of a small private liberal arts university. The school has a historical and ongoing commitment to providing exemplary professional preparation within a broad and interdisciplinary curriculum recognized for fostering critical thinking and skilled stewardship. All HSA students study abroad, participate in professional internships, and attain minors and/or certificates that construct an individualized path through a uniquely interconnected program. Drury University has a long record of effective engagement and activism in the Ozarks. Founded in 1873, the University is in Springfield, Missouri—the center of a metropolitan area approaching 500,000 in population. Additional information about Drury University, the Hammons School of Architecture, and the Springfield area can be found at https://www.drury.edu/, https://www.drury.edu/architecture/, and https://www.springfieldmo.org/, respectively. Review of applications will begin immediately and continue until the position is filled. Applications and nominations are to be emailed to Search Committee Chair Keith Hedges, AIA at khedges@drury.edu. Applications should include (in pdf format): letter of interest addressing qualifications, scholarship focus, teaching pedagogy, and vision for design education current curriculum vitae a portfolio of personal and/or student work contact information for three references"
     }
   },
   "rows": {
@@ -172,11 +176,23 @@
       "deadline_of_application": "December 15, 2026",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.drury.edu/academic-affairs/open-faculty-positions/#assistant-professor-of-architecture-innovation-in-design-and-representation": {
+      "school_id": 737,
+      "posting_url": "https://www.drury.edu/academic-affairs/open-faculty-positions/#assistant-professor-of-architecture-innovation-in-design-and-representation",
+      "job_title_in_post": "Assistant Professor of Architecture: Innovation in Design and Representation",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "School of Architecture",
+      "area_key_words": "Design and Representation",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 737,
   "status": "complete",
-  "updated_at": "2026-11-13T20:30:16+00:00",
-  "completed_at": "2026-11-13T20:30:16+00:00",
+  "updated_at": "2026-11-20T19:55:47+00:00",
+  "completed_at": "2026-11-20T19:55:47+00:00",
   "last_error": ""
 }

@@ -159,6 +159,14 @@
     "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#barkly-operations-coordinator": {
       "title": "Barkly Operations Coordinator",
       "description": "Barkly Operations Coordinator. Charles Darwin University. Employment type: Continuing."
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#access-and-inclusion-advisor": {
+      "title": "Access and Inclusion Advisor",
+      "description": "Access and Inclusion Advisor. Charles Darwin University. Employment type: Fixed Term."
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#professor-womens-health": {
+      "title": "Professor Womens Health",
+      "description": "Professor Womens Health. Charles Darwin University. Employment type: Continuing."
     }
   },
   "rows": {
@@ -271,11 +279,12 @@
       "school_id": 1794,
       "posting_url": "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#lecturer-agriculture-animal-care",
       "job_title_in_post": "Lecturer - Agriculture & Animal Care",
-      "position_type": "Lecturer",
+      "position_type": "Assistant_Professor",
       "job_term": "Full-time",
       "department_or_school": "",
       "area_key_words": "Agriculture & Animal Care",
       "deadline_of_application": "",
+      "posted_date": "",
       "position_start_date": ""
     },
     "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#lecturer-carpentry-construction": {
@@ -635,11 +644,35 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#access-and-inclusion-advisor": {
+      "school_id": 1794,
+      "posting_url": "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#access-and-inclusion-advisor",
+      "job_title_in_post": "Access and Inclusion Advisor",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#professor-womens-health": {
+      "school_id": 1794,
+      "posting_url": "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#professor-womens-health",
+      "job_title_in_post": "Professor Womens Health",
+      "position_type": "Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1794,
   "status": "complete",
-  "updated_at": "2026-11-13T20:44:57+00:00",
-  "completed_at": "2026-11-13T20:44:57+00:00",
+  "updated_at": "2026-11-20T20:36:03+00:00",
+  "completed_at": "2026-11-20T20:36:03+00:00",
   "last_error": ""
 }

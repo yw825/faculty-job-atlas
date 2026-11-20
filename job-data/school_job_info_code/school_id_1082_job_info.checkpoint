@@ -83,6 +83,10 @@
     "https://www.nwosu.edu/employment/#systems-analyst-alva-campus-internal": {
       "title": "Systems Analyst - Alva Campus (Internal)",
       "description": "Systems Analyst - Alva Campus (Internal). Terms of Employment: Regular, full-time 12-month position, with university benefit package. Located at the Information Technology Office on the Alva Campus. Position open until filled. Available: Immediately Duties and Responsibilities: The Systems Analyst is responsible for installing and maintaining distance learning equipment, computers, audio/visual systems, and related peripherals on the Alva, Enid, and Woodward campuses, providing system upgrades and network maintenance, as well as providing help desk services to students, faculty, and staff. Qualifications: Bachelor’s degree in Computer Science or related area preferred. Computer hardware and software experience required. Experience in networking, Windows Operating systems, and Microsoft Office suite of applications required. Audio/Visual experience preferred. Send Information to: Cheryl Ellis Human Resources Director Northwestern Oklahoma State University 709 Oklahoma Blvd. Alva, OK 73717 Email: apply@nwosu.edu Applicants should provide a Northwestern Job Application for Non-Exempt Positions (see bottom of this page) along with resume. Employment is contingent upon the results of a criminal background check. Northwestern Oklahoma State University is an equal opportunity employer. We welcome candidates who bring unique insights backgrounds, and voices to our campus community. Only applicants who are authorized to be employed in the United States need apply."
+    },
+    "https://www.nwosu.edu/employment/#correctional-substance-abuse-treatment-counselor-internal": {
+      "title": "Correctional Substance Abuse Treatment Counselor (Internal)",
+      "description": "Correctional Substance Abuse Treatment Counselor (Internal). Available: Immediately Terms of Employment: Regular, full-time, 12-month position, with University benefit package. Located in Alva, OK in the Northwestern Oklahoma State University Office at the Charles E. “Bill” Johnson Correctional Center. Duties and Responsibilities: Under the direction of the Director, Treatment Counselors provide direct drug and alcohol treatment therapeutic aftercare services to convicted drug offenders in a minimum security correctional facility. Services are provided in group and individual settings. Treatment Counselors perform bio-psycho-social assessments, treatment planning; and treatment evaluations based on the cognitive behavioral therapy treatment model for substance abusing clients, and other duties as assigned. Treatment Counselors adhere to the standards of practice put forth by the Oklahoma Department of Mental Health and the Oklahoma Department of Corrections for drug and alcohol abuse treatment protocols. Treatment Counselors must perform all treatment duties in a confidential manner and are expected to maintain professional stature at all times while working cooperatively with fellow NWOSU Community Service Program members and Department of Corrections case managers and staff. Qualifications: Applicants should provide a signed NWOSU Job Application form for Faculty-Administration-Professional Positions along with resume. Employment is contingent upon the results of a criminal background check. Send Information to: Cheryl Ellis Human Resources Director Northwestern Oklahoma State University 709 Oklahoma Blvd. Alva, OK 73717 Email: apply@nwosu.edu Applicants should provide a Northwestern Job Application for Non-Exempt Positions (https://nwosu.jotform.com/form/app-for-employment-non-exemt) along with resume. Employment is contingent upon the results of a criminal background check. Northwestern Oklahoma State University is an equal opportunity employer. We welcome candidates who bring unique insights backgrounds, and voices to our campus community. Only applicants who are authorized to be employed in the United States need apply."
     }
   },
   "rows": {
@@ -333,11 +337,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.nwosu.edu/employment/#correctional-substance-abuse-treatment-counselor-internal": {
+      "school_id": 1082,
+      "posting_url": "https://www.nwosu.edu/employment/#correctional-substance-abuse-treatment-counselor-internal",
+      "job_title_in_post": "Correctional Substance Abuse Treatment Counselor (Internal)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Department of Corrections for drug and alcohol abuse treatment protocols",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1082,
   "status": "complete",
-  "updated_at": "2026-11-13T20:33:30+00:00",
-  "completed_at": "2026-11-13T20:33:30+00:00",
+  "updated_at": "2026-11-20T20:12:18+00:00",
+  "completed_at": "2026-11-20T20:12:18+00:00",
   "last_error": ""
 }

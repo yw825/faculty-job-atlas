@@ -155,6 +155,10 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/716F3DBB868513EDA5A7657F756BBDD8/jobs/354314": {
       "title": "Admissions Counselor",
       "description": "Admissions Counselor You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/716F3DBB868513EDA5A7657F756BBDD8/jobs/355370": {
+      "title": "Assistant Athletic Director",
+      "description": "Assistant Athletic Director You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -624,11 +628,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/716F3DBB868513EDA5A7657F756BBDD8/jobs/355370": {
+      "school_id": 1284,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/716F3DBB868513EDA5A7657F756BBDD8/jobs/355370",
+      "job_title_in_post": "Assistant Athletic Director",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1284,
   "status": "complete",
-  "updated_at": "2026-11-13T20:34:33+00:00",
-  "completed_at": "2026-11-13T20:34:33+00:00",
+  "updated_at": "2026-11-20T20:03:19+00:00",
+  "completed_at": "2026-11-20T20:03:19+00:00",
   "last_error": ""
 }

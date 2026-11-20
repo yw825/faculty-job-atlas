@@ -111,6 +111,22 @@
     "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225335": {
       "title": "Assistant Manager, Library Information Resources",
       "description": "Assistant Manager, Library Information Resources. University of New England. Reference 225335. 225335 Assistant Manager, Library Information Resources Professional - Continuing, full-time - HEO8 Library Information Resources 22-NOV-2026 11:59:59 pm"
+    },
+    "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225336": {
+      "title": "Coordinator, Readings and Resource Sharing",
+      "description": "Coordinator, Readings and Resource Sharing. University of New England. Reference 225336. 225336 Coordinator, Readings and Resource Sharing Professional - Fixed-term to 04 October 2027, full-time - HEO6 Library Information Resources 29-NOV-2026 11:59:59 pm"
+    },
+    "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225338": {
+      "title": "Manager, Ethics, Integrity and Foreign Compliance",
+      "description": "Manager, Ethics, Integrity and Foreign Compliance. University of New England. Reference 225338. 225338 Manager, Ethics, Integrity and Foreign Compliance Professional - Continuing- Fulltime - HEO10 Research Services 29-NOV-2026 11:59:59 pm"
+    },
+    "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225340": {
+      "title": "Business Operations Advisor (Student-Led Organisations)",
+      "description": "Business Operations Advisor (Student-Led Organisations). University of New England. Reference 225340. 225340 Business Operations Advisor (Student-Led Organisations) Professional - fixed term (11 months from commencement date) - full-time - HEO7 29-NOV-2026 11:59:59 pm"
+    },
+    "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225341": {
+      "title": "HVAC Team Member",
+      "description": "HVAC Team Member. University of New England. Reference 225341. 225341 HVAC Team Member Professional - Continuing - Full - time - HEO4 Governance 05-DEC-2026 11:59:59 pm"
     }
   },
   "rows": {
@@ -443,11 +459,59 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225336": {
+      "school_id": 1780,
+      "posting_url": "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225336",
+      "job_title_in_post": "Coordinator, Readings and Resource Sharing",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225338": {
+      "school_id": 1780,
+      "posting_url": "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225338",
+      "job_title_in_post": "Manager, Ethics, Integrity and Foreign Compliance",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225340": {
+      "school_id": 1780,
+      "posting_url": "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225340",
+      "job_title_in_post": "Business Operations Advisor (Student-Led Organisations)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225341": {
+      "school_id": 1780,
+      "posting_url": "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225341",
+      "job_title_in_post": "HVAC Team Member",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1780,
   "status": "complete",
-  "updated_at": "2026-11-13T20:44:47+00:00",
-  "completed_at": "2026-11-13T20:44:47+00:00",
+  "updated_at": "2026-11-20T20:35:17+00:00",
+  "completed_at": "2026-11-20T20:35:17+00:00",
   "last_error": ""
 }

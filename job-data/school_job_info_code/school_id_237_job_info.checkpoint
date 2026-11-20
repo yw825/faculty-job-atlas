@@ -47,6 +47,14 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/16D5A72295BEEA4BBF29A0DA73DAF892/jobs/174208": {
       "title": "Admissions Specialist",
       "description": "Admissions Specialist You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/16D5A72295BEEA4BBF29A0DA73DAF892/jobs/176191": {
+      "title": "Executive Assistant to the President",
+      "description": "Executive Assistant to the President You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/16D5A72295BEEA4BBF29A0DA73DAF892/jobs/176305": {
+      "title": "Student Life Program Coordinator",
+      "description": "Student Life Program Coordinator You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -193,11 +201,35 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/16D5A72295BEEA4BBF29A0DA73DAF892/jobs/176191": {
+      "school_id": 237,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/16D5A72295BEEA4BBF29A0DA73DAF892/jobs/176191",
+      "job_title_in_post": "Executive Assistant to the President",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/16D5A72295BEEA4BBF29A0DA73DAF892/jobs/176305": {
+      "school_id": 237,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/16D5A72295BEEA4BBF29A0DA73DAF892/jobs/176305",
+      "job_title_in_post": "Student Life Program Coordinator",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 237,
   "status": "complete",
-  "updated_at": "2026-11-13T20:17:08+00:00",
-  "completed_at": "2026-11-13T20:17:08+00:00",
+  "updated_at": "2026-11-20T19:31:26+00:00",
+  "completed_at": "2026-11-20T19:31:26+00:00",
   "last_error": ""
 }

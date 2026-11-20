@@ -235,6 +235,18 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/F28471DFA0F4183976163E181A695BE1/jobs/511185": {
       "title": "Nursing Adjunct Clinical Instructor",
       "description": "Nursing Adjunct Clinical Instructor You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/F28471DFA0F4183976163E181A695BE1/jobs/511256": {
+      "title": "Project Director, ELEVATE Program",
+      "description": "Project Director, ELEVATE Program You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/F28471DFA0F4183976163E181A695BE1/jobs/511801": {
+      "title": "Manager of Enterprise Applications",
+      "description": "Manager of Enterprise Applications You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/F28471DFA0F4183976163E181A695BE1/jobs/511784": {
+      "title": "Adjunct Instructor - Foundations and Applications of AI",
+      "description": "Adjunct Instructor - Foundations and Applications of AI You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -943,11 +955,47 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/F28471DFA0F4183976163E181A695BE1/jobs/511256": {
+      "school_id": 955,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/F28471DFA0F4183976163E181A695BE1/jobs/511256",
+      "job_title_in_post": "Project Director, ELEVATE Program",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/F28471DFA0F4183976163E181A695BE1/jobs/511801": {
+      "school_id": 955,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/F28471DFA0F4183976163E181A695BE1/jobs/511801",
+      "job_title_in_post": "Manager of Enterprise Applications",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Enterprise Applications",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/F28471DFA0F4183976163E181A695BE1/jobs/511784": {
+      "school_id": 955,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/F28471DFA0F4183976163E181A695BE1/jobs/511784",
+      "job_title_in_post": "Adjunct Instructor - Foundations and Applications of AI",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "Foundations and Applications of AI",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 955,
   "status": "complete",
-  "updated_at": "2026-11-13T20:31:55+00:00",
-  "completed_at": "2026-11-13T20:31:55+00:00",
+  "updated_at": "2026-11-20T20:08:40+00:00",
+  "completed_at": "2026-11-20T20:08:40+00:00",
   "last_error": ""
 }

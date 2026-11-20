@@ -297,7 +297,9 @@
       "error": "not present in bulk fetch result"
     },
     "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303853&PostingSeq=1&SiteId=53000": {
-      "error": "not present in bulk fetch result"
+      "title": "First Year Experience (FYE) Peer Mentor (Dahlonega)- Institutional Student Worker",
+      "description": "Posted: 09/15/2026 Location: UNG-Dahlonega, GA Department: First Year Experience First Year Experience (FYE) Peer Mentor (Dahlonega)- Institutional Student Worker",
+      "department": "First Year Experience"
     },
     "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303857&PostingSeq=1&SiteId=53000": {
       "error": "not present in bulk fetch result"
@@ -1414,6 +1416,96 @@
       "title": "Director of HR Operations, Communications, & Events",
       "description": "Posted: 10/15/2026 Location: UNG-Dahlonega, GA Department: Human Resources Director of HR Operations, Communications, & Events",
       "department": "Human Resources"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306210&PostingSeq=1&SiteId=53000": {
+      "title": "Associate Director, Student Orientation and Family Programs",
+      "description": "Posted: 11/20/2026 Location: UNG-Dahlonega, GA Department: Student Orientation & Success Associate Director, Student Orientation and Family Programs",
+      "department": "Student Orientation & Success"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306105&PostingSeq=1&SiteId=53000": {
+      "title": "Director of Development for Mike Cottrell College of Business",
+      "description": "Posted: 11/20/2026 Location: UNG-Dahlonega, GA Department: VP for Advancement Director of Development for Mike Cottrell College of Business",
+      "department": "VP for Advancement"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306293&PostingSeq=1&SiteId=53000": {
+      "title": "Lo-Fi Lounge & Study Space Student Assistant- Federal Work Study",
+      "description": "Posted: 11/20/2026 Location: UNG - Gainesville Department: College Work Study-Grant Lo-Fi Lounge & Study Space Student Assistant- Federal Work Study",
+      "department": "College Work Study-Grant"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306146&PostingSeq=1&SiteId=53000": {
+      "title": "Marketing & Communications Strategist, Enrollment Management",
+      "description": "Posted: 11/20/2026 Location: UNG-Dahlonega, GA Department: Undergraduate Recruitment Marketing & Communications Strategist, Enrollment Management",
+      "department": "Undergraduate Recruitment"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306095&PostingSeq=1&SiteId=53000": {
+      "title": "Part-Time Faculty Accounting",
+      "description": "Posted: 11/20/2026 Location: UNG - Multi Campus Department: Accounting & Law Part-Time Faculty Accounting",
+      "department": "Accounting & Law"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306268&PostingSeq=1&SiteId=53000": {
+      "title": "STEM Student Peer Worker (Gainesville)- Institutional Student Worker",
+      "description": "Posted: 11/20/2026 Location: UNG - Gainesville Department: Tutoring Services STEM Student Peer Worker (Gainesville)- Institutional Student Worker",
+      "department": "Tutoring Services"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305838&PostingSeq=1&SiteId=53000": {
+      "title": "Upward Bound Advisor (Part-Time)",
+      "description": "Posted: 11/20/2026 Location: UNG - Blue Ridge Campus Department: Gilmer Upward Bound II Upward Bound Advisor (Part-Time)",
+      "department": "Gilmer Upward Bound II"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306165&PostingSeq=1&SiteId=53000": {
+      "title": "Benefits Consultant",
+      "description": "Posted: 11/19/2026 Location: UNG - Gainesville Department: Human Resources Benefits Consultant",
+      "department": "Human Resources"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306103&PostingSeq=1&SiteId=53000": {
+      "title": "Head Coach, Men's Soccer",
+      "description": "Posted: 11/18/2026 Location: UNG-Dahlonega, GA Department: Athletic Support - Coaches Head Coach, Men's Soccer",
+      "department": "Athletic Support - Coaches"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306005&PostingSeq=1&SiteId=53000": {
+      "title": "Part-Time Alumni Relations Officer for Communications",
+      "description": "Posted: 11/17/2026 Location: UNG-Dahlonega, GA Department: Alumni Relations & Annual Givi Part-Time Alumni Relations Officer for Communications",
+      "department": "Alumni Relations & Annual Givi"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306055&PostingSeq=1&SiteId=53000": {
+      "title": "Service Desk Coordinator",
+      "description": "Posted: 11/17/2026 Location: UNG-Dahlonega, GA Department: Student Technology Service Desk Coordinator",
+      "department": "Student Technology"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305844&PostingSeq=1&SiteId=53000": {
+      "title": "Assistant Professor Elementary and Special Education",
+      "description": "Posted: 11/16/2026 Location: UNG-Dahlonega, GA Department: Teacher Education Assistant Professor Elementary and Special Education",
+      "department": "Teacher Education"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306090&PostingSeq=1&SiteId=53000": {
+      "title": "Central Dispatch Officer III",
+      "description": "Posted: 11/16/2026 Location: UNG-Dahlonega, GA Department: Public Safety Central Dispatch Officer III",
+      "department": "Public Safety"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305870&PostingSeq=1&SiteId=53000": {
+      "title": "Graduate Assistant for the Center for Global Engagement",
+      "description": "Posted: 11/16/2026 Location: UNG-Dahlonega, GA Department: Global Eng/Internat'l Studies Graduate Assistant for the Center for Global Engagement",
+      "department": "Global Eng/Internat'l Studies"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305767&PostingSeq=1&SiteId=53000": {
+      "title": "Parking and Transportation Attendant",
+      "description": "Posted: 11/16/2026 Location: UNG - Gainesville Department: Parking-Gainesville Parking and Transportation Attendant",
+      "department": "Parking-Gainesville"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305911&PostingSeq=1&SiteId=53000": {
+      "title": "Part-Time Accompanist - Music",
+      "description": "Posted: 11/16/2026 Location: UNG-Dahlonega, GA Department: Music Part-Time Accompanist - Music",
+      "department": "Music"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305851&PostingSeq=1&SiteId=53000": {
+      "title": "Part-Time Communications Assistant",
+      "description": "Posted: 11/16/2026 Location: UNG-Dahlonega, GA Department: Poli Sci & Internat'l Affairs Part-Time Communications Assistant",
+      "department": "Poli Sci & Internat'l Affairs"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305815&PostingSeq=1&SiteId=53000": {
+      "title": "Part-Time Faculty Middle Grades, Secondary and P12 Education",
+      "description": "Posted: 11/16/2026 Location: UNG - Multi Campus Department: Teacher Education Part-Time Faculty Middle Grades, Secondary and P12 Education",
+      "department": "Teacher Education"
     }
   },
   "rows": {
@@ -4656,11 +4748,239 @@
       "deadline_of_application": "",
       "posted_date": "10/15/2026",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306210&PostingSeq=1&SiteId=53000": {
+      "school_id": 289,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306210&PostingSeq=1&SiteId=53000",
+      "job_title_in_post": "Associate Director, Student Orientation and Family Programs",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Student Orientation & Success",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/20/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306105&PostingSeq=1&SiteId=53000": {
+      "school_id": 289,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306105&PostingSeq=1&SiteId=53000",
+      "job_title_in_post": "Director of Development for Mike Cottrell College of Business",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "VP for Advancement",
+      "area_key_words": "Development for Mike Cottrell College of Business",
+      "deadline_of_application": "",
+      "posted_date": "11/20/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306293&PostingSeq=1&SiteId=53000": {
+      "school_id": 289,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306293&PostingSeq=1&SiteId=53000",
+      "job_title_in_post": "Lo-Fi Lounge & Study Space Student Assistant- Federal Work Study",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "College Work Study-Grant",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/20/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306146&PostingSeq=1&SiteId=53000": {
+      "school_id": 289,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306146&PostingSeq=1&SiteId=53000",
+      "job_title_in_post": "Marketing & Communications Strategist, Enrollment Management",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Undergraduate Recruitment",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/20/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306095&PostingSeq=1&SiteId=53000": {
+      "school_id": 289,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306095&PostingSeq=1&SiteId=53000",
+      "job_title_in_post": "Part-Time Faculty Accounting",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "Accounting & Law",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/20/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306268&PostingSeq=1&SiteId=53000": {
+      "school_id": 289,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306268&PostingSeq=1&SiteId=53000",
+      "job_title_in_post": "STEM Student Peer Worker (Gainesville)- Institutional Student Worker",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Tutoring Services",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/20/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305838&PostingSeq=1&SiteId=53000": {
+      "school_id": 289,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305838&PostingSeq=1&SiteId=53000",
+      "job_title_in_post": "Upward Bound Advisor (Part-Time)",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "Gilmer Upward Bound II",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/20/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306165&PostingSeq=1&SiteId=53000": {
+      "school_id": 289,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306165&PostingSeq=1&SiteId=53000",
+      "job_title_in_post": "Benefits Consultant",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Human Resources",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/19/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306103&PostingSeq=1&SiteId=53000": {
+      "school_id": 289,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306103&PostingSeq=1&SiteId=53000",
+      "job_title_in_post": "Head Coach, Men's Soccer",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Athletic Support - Coaches",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/18/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306005&PostingSeq=1&SiteId=53000": {
+      "school_id": 289,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306005&PostingSeq=1&SiteId=53000",
+      "job_title_in_post": "Part-Time Alumni Relations Officer for Communications",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "Alumni Relations & Annual Givi",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/17/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306055&PostingSeq=1&SiteId=53000": {
+      "school_id": 289,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306055&PostingSeq=1&SiteId=53000",
+      "job_title_in_post": "Service Desk Coordinator",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Student Technology",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/17/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305844&PostingSeq=1&SiteId=53000": {
+      "school_id": 289,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305844&PostingSeq=1&SiteId=53000",
+      "job_title_in_post": "Assistant Professor Elementary and Special Education",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Teacher Education",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/16/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306090&PostingSeq=1&SiteId=53000": {
+      "school_id": 289,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306090&PostingSeq=1&SiteId=53000",
+      "job_title_in_post": "Central Dispatch Officer III",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Public Safety",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/16/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305870&PostingSeq=1&SiteId=53000": {
+      "school_id": 289,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305870&PostingSeq=1&SiteId=53000",
+      "job_title_in_post": "Graduate Assistant for the Center for Global Engagement",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Global Eng/Internat'l Studies",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/16/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305767&PostingSeq=1&SiteId=53000": {
+      "school_id": 289,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305767&PostingSeq=1&SiteId=53000",
+      "job_title_in_post": "Parking and Transportation Attendant",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Parking-Gainesville",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/16/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305911&PostingSeq=1&SiteId=53000": {
+      "school_id": 289,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305911&PostingSeq=1&SiteId=53000",
+      "job_title_in_post": "Part-Time Accompanist - Music",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "Music",
+      "area_key_words": "Music",
+      "deadline_of_application": "",
+      "posted_date": "11/16/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305851&PostingSeq=1&SiteId=53000": {
+      "school_id": 289,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305851&PostingSeq=1&SiteId=53000",
+      "job_title_in_post": "Part-Time Communications Assistant",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "Poli Sci & Internat'l Affairs",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/16/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305815&PostingSeq=1&SiteId=53000": {
+      "school_id": 289,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305815&PostingSeq=1&SiteId=53000",
+      "job_title_in_post": "Part-Time Faculty Middle Grades, Secondary and P12 Education",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "Teacher Education",
+      "area_key_words": "Secondary and P12 Education",
+      "deadline_of_application": "",
+      "posted_date": "11/16/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303853&PostingSeq=1&SiteId=53000": {
+      "school_id": 289,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=303853&PostingSeq=1&SiteId=53000",
+      "job_title_in_post": "First Year Experience (FYE) Peer Mentor (Dahlonega)- Institutional Student Worker",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "First Year Experience",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "09/15/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 289,
   "status": "complete",
-  "updated_at": "2026-11-13T20:18:13+00:00",
+  "updated_at": "2026-11-20T20:31:57+00:00",
   "last_error": "",
-  "completed_at": "2026-11-13T20:18:13+00:00"
+  "completed_at": "2026-11-20T20:31:57+00:00"
 }

@@ -159,6 +159,11 @@
       "title": "VCSU Student Worker at Sodexo (Federal Work Study ONLY)",
       "description": "Posted: 11/11/2026 Location: Valley City Department: Career Planning and Placement VCSU Student Worker at Sodexo (Federal Work Study ONLY)",
       "department": "Career Planning and Placement"
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960173&PostingSeq=1&SiteId=1": {
+      "title": "2027-28 Assistant Hall Director",
+      "description": "Posted: 11/16/2026 Location: Valley City Department: Housing 2027-28 Assistant Hall Director",
+      "department": "Housing"
     }
   },
   "rows": {
@@ -544,11 +549,23 @@
       "deadline_of_application": "",
       "posted_date": "11/11/2026",
       "position_start_date": ""
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960173&PostingSeq=1&SiteId=1": {
+      "school_id": 828,
+      "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960173&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "2027-28 Assistant Hall Director",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Housing",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/16/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 828,
   "status": "complete",
-  "updated_at": "2026-11-13T20:30:43+00:00",
-  "completed_at": "2026-11-13T20:30:43+00:00",
+  "updated_at": "2026-11-20T20:06:05+00:00",
+  "completed_at": "2026-11-20T20:06:05+00:00",
   "last_error": ""
 }

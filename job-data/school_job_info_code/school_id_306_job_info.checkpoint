@@ -159,6 +159,11 @@
       "title": "Production Manager",
       "description": "Posted: 11/10/2026 Location: Clayton State University Department: Spivey Hall General Operations Production Manager",
       "department": "Spivey Hall General Operations"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305695&PostingSeq=1&SiteId=28000": {
+      "title": "Assistant Professor of Nursing",
+      "description": "Posted: 11/13/2026 Location: Clayton State University Department: Dept of Psychology Assistant Professor of Nursing",
+      "department": "Dept of Psychology"
     }
   },
   "rows": {
@@ -545,11 +550,23 @@
       "deadline_of_application": "",
       "posted_date": "11/10/2026",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305695&PostingSeq=1&SiteId=28000": {
+      "school_id": 306,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305695&PostingSeq=1&SiteId=28000",
+      "job_title_in_post": "Assistant Professor of Nursing",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Dept of Psychology",
+      "area_key_words": "Nursing",
+      "deadline_of_application": "",
+      "posted_date": "11/13/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 306,
   "status": "complete",
-  "updated_at": "2026-11-13T20:20:48+00:00",
-  "completed_at": "2026-11-13T20:20:48+00:00",
+  "updated_at": "2026-11-20T20:34:18+00:00",
+  "completed_at": "2026-11-20T20:34:18+00:00",
   "last_error": ""
 }

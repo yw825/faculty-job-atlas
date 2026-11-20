@@ -95,6 +95,14 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/DC20BB66F0C9CF9F562615950604C1D5/jobs/92151": {
       "title": "MSW Assistant Professor of Social Work",
       "description": "MSW Assistant Professor of Social Work You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/DC20BB66F0C9CF9F562615950604C1D5/jobs/93152": {
+      "title": "Accounts Payable Specialist",
+      "description": "Accounts Payable Specialist You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/DC20BB66F0C9CF9F562615950604C1D5/jobs/83733": {
+      "title": "Part Time Assistant Coach",
+      "description": "Part Time Assistant Coach You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -383,11 +391,35 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/DC20BB66F0C9CF9F562615950604C1D5/jobs/93152": {
+      "school_id": 336,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/DC20BB66F0C9CF9F562615950604C1D5/jobs/93152",
+      "job_title_in_post": "Accounts Payable Specialist",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/DC20BB66F0C9CF9F562615950604C1D5/jobs/83733": {
+      "school_id": 336,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/DC20BB66F0C9CF9F562615950604C1D5/jobs/83733",
+      "job_title_in_post": "Part Time Assistant Coach",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 336,
   "status": "complete",
-  "updated_at": "2026-11-13T20:18:59+00:00",
-  "completed_at": "2026-11-13T20:18:59+00:00",
+  "updated_at": "2026-11-20T19:32:24+00:00",
+  "completed_at": "2026-11-20T19:32:24+00:00",
   "last_error": ""
 }

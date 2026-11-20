@@ -71,6 +71,14 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/1064DAE0FBE4FE97CBC8BAA9499D8EE7/jobs/355756": {
       "title": "Director of Financial Aid",
       "description": "Director of Financial Aid You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/1064DAE0FBE4FE97CBC8BAA9499D8EE7/jobs/356901": {
+      "title": "Director of Advancement Operations and Prospect Research",
+      "description": "Director of Advancement Operations and Prospect Research You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/1064DAE0FBE4FE97CBC8BAA9499D8EE7/jobs/356962": {
+      "title": "Executive Assistant to the VP for Advancement",
+      "description": "Executive Assistant to the VP for Advancement You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -289,11 +297,35 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/1064DAE0FBE4FE97CBC8BAA9499D8EE7/jobs/356901": {
+      "school_id": 1342,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/1064DAE0FBE4FE97CBC8BAA9499D8EE7/jobs/356901",
+      "job_title_in_post": "Director of Advancement Operations and Prospect Research",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Advancement Operations and Prospect Research",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/1064DAE0FBE4FE97CBC8BAA9499D8EE7/jobs/356962": {
+      "school_id": 1342,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/1064DAE0FBE4FE97CBC8BAA9499D8EE7/jobs/356962",
+      "job_title_in_post": "Executive Assistant to the VP for Advancement",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1342,
   "status": "complete",
-  "updated_at": "2026-11-13T20:34:45+00:00",
-  "completed_at": "2026-11-13T20:34:45+00:00",
+  "updated_at": "2026-11-20T20:03:46+00:00",
+  "completed_at": "2026-11-20T20:03:46+00:00",
   "last_error": ""
 }

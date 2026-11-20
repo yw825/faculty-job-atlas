@@ -984,6 +984,16 @@
       "title": "Academic Pediatric Gastroenterology Physician (NTT)",
       "description": "Posted: 11/12/2026 Location: Columbia Department: Pediatrics-Gastroenterology Academic Pediatric Gastroenterology Physician (NTT)",
       "department": "Pediatrics-Gastroenterology"
+    },
+    "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61810&PostingSeq=1&SiteId=9": {
+      "title": "Assistant Professor",
+      "description": "Posted: 11/19/2026 Location: Columbia Department: Architectural Studies Assistant Professor",
+      "department": "Architectural Studies"
+    },
+    "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61772&PostingSeq=1&SiteId=9": {
+      "title": "Assistant Professor of AI, Automation, Robotics, and Emerging Technologies in Structures and Construction",
+      "description": "Posted: 11/17/2026 Location: Columbia Department: Civil/Environmental Engr Assistant Professor of AI, Automation, Robotics, and Emerging Technologies in Structures and Construction",
+      "department": "Civil/Environmental Engr"
     }
   },
   "rows": {
@@ -3345,11 +3355,35 @@
       "deadline_of_application": "",
       "posted_date": "11/12/2026",
       "position_start_date": ""
+    },
+    "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61810&PostingSeq=1&SiteId=9": {
+      "school_id": 707,
+      "posting_url": "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61810&PostingSeq=1&SiteId=9",
+      "job_title_in_post": "Assistant Professor",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Architectural Studies",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/19/2026",
+      "position_start_date": ""
+    },
+    "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61772&PostingSeq=1&SiteId=9": {
+      "school_id": 707,
+      "posting_url": "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61772&PostingSeq=1&SiteId=9",
+      "job_title_in_post": "Assistant Professor of AI, Automation, Robotics, and Emerging Technologies in Structures and Construction",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Civil/Environmental Engr",
+      "area_key_words": "AI, Automation, Robotics, and Emerging Technologies in Structures and Construction",
+      "deadline_of_application": "",
+      "posted_date": "11/17/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 707,
   "status": "complete",
-  "updated_at": "2026-11-13T20:29:51+00:00",
-  "completed_at": "2026-11-13T20:29:51+00:00",
+  "updated_at": "2026-11-20T20:04:46+00:00",
+  "completed_at": "2026-11-20T20:04:46+00:00",
   "last_error": ""
 }

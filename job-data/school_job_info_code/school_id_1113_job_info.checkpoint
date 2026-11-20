@@ -119,6 +119,30 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/F16D49EDEBF447BF71AEBC32D5AF6AB5/jobs/226506": {
       "title": "Career Advisor",
       "description": "Career Advisor You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/F16D49EDEBF447BF71AEBC32D5AF6AB5/jobs/226734": {
+      "title": "Access Services Librarian (Non-tenure Track Assistant Professor)",
+      "description": "Access Services Librarian (Non-tenure Track Assistant Professor) You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/F16D49EDEBF447BF71AEBC32D5AF6AB5/jobs/226738": {
+      "title": "Administrative Assistant-International Programs",
+      "description": "Administrative Assistant-International Programs You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/F16D49EDEBF447BF71AEBC32D5AF6AB5/jobs/226695": {
+      "title": "Assistant Director of Online Admission",
+      "description": "Assistant Director of Online Admission You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/F16D49EDEBF447BF71AEBC32D5AF6AB5/jobs/226728": {
+      "title": "Choir Director",
+      "description": "Choir Director You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/F16D49EDEBF447BF71AEBC32D5AF6AB5/jobs/226704": {
+      "title": "Instructional Designer-Accessibility/WCAG",
+      "description": "Instructional Designer-Accessibility/WCAG You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/F16D49EDEBF447BF71AEBC32D5AF6AB5/jobs/226699": {
+      "title": "Senior Instructional Designer",
+      "description": "Senior Instructional Designer You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -478,11 +502,83 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/F16D49EDEBF447BF71AEBC32D5AF6AB5/jobs/226734": {
+      "school_id": 1113,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/F16D49EDEBF447BF71AEBC32D5AF6AB5/jobs/226734",
+      "job_title_in_post": "Access Services Librarian (Non-tenure Track Assistant Professor)",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/F16D49EDEBF447BF71AEBC32D5AF6AB5/jobs/226738": {
+      "school_id": 1113,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/F16D49EDEBF447BF71AEBC32D5AF6AB5/jobs/226738",
+      "job_title_in_post": "Administrative Assistant-International Programs",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/F16D49EDEBF447BF71AEBC32D5AF6AB5/jobs/226695": {
+      "school_id": 1113,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/F16D49EDEBF447BF71AEBC32D5AF6AB5/jobs/226695",
+      "job_title_in_post": "Assistant Director of Online Admission",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Online Admission",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/F16D49EDEBF447BF71AEBC32D5AF6AB5/jobs/226728": {
+      "school_id": 1113,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/F16D49EDEBF447BF71AEBC32D5AF6AB5/jobs/226728",
+      "job_title_in_post": "Choir Director",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/F16D49EDEBF447BF71AEBC32D5AF6AB5/jobs/226704": {
+      "school_id": 1113,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/F16D49EDEBF447BF71AEBC32D5AF6AB5/jobs/226704",
+      "job_title_in_post": "Instructional Designer-Accessibility/WCAG",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/F16D49EDEBF447BF71AEBC32D5AF6AB5/jobs/226699": {
+      "school_id": 1113,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/F16D49EDEBF447BF71AEBC32D5AF6AB5/jobs/226699",
+      "job_title_in_post": "Senior Instructional Designer",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1113,
   "status": "complete",
-  "updated_at": "2026-11-13T20:36:11+00:00",
-  "completed_at": "2026-11-13T20:36:11+00:00",
+  "updated_at": "2026-11-20T20:08:25+00:00",
+  "completed_at": "2026-11-20T20:08:25+00:00",
   "last_error": ""
 }

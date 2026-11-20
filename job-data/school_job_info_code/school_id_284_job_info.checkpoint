@@ -334,6 +334,41 @@
       "title": "Assistant or Associate Professor of Teacher Education",
       "description": "Posted: 11/11/2026 Location: CCGA- Main Campus (Brunswick) Department: School of Educ & Teacher Prep Assistant or Associate Professor of Teacher Education",
       "department": "School of Educ & Teacher Prep"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305857&PostingSeq=1&SiteId=63000": {
+      "title": "Graduate Counseling Intern",
+      "description": "Posted: 11/19/2026 Location: CCGA- Main Campus (Brunswick) Department: Health & Disability Services Graduate Counseling Intern",
+      "department": "Health & Disability Services"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305935&PostingSeq=1&SiteId=63000": {
+      "title": "Lecturer of Mathematics",
+      "description": "Posted: 11/19/2026 Location: CCGA- Main Campus (Brunswick) Department: MDS Lecturer of Mathematics",
+      "department": "MDS"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305982&PostingSeq=1&SiteId=63000": {
+      "title": "Resident Assistant - CPA",
+      "description": "Posted: 11/19/2026 Location: CCGA- Main Campus (Brunswick) Department: Res Life - Coastal Place Apts Resident Assistant - CPA",
+      "department": "Res Life - Coastal Place Apts"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305981&PostingSeq=1&SiteId=63000": {
+      "title": "Resident Assistant - Lakeside",
+      "description": "Posted: 11/19/2026 Location: CCGA- Main Campus (Brunswick) Department: Residential Life & Housing Resident Assistant - Lakeside",
+      "department": "Residential Life & Housing"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305991&PostingSeq=1&SiteId=63000": {
+      "title": "Work Study - Admission/ Enrollment Mgt.",
+      "description": "Posted: 11/19/2026 Location: CCGA- Main Campus (Brunswick) Department: Admissions Work Study - Admission/ Enrollment Mgt.",
+      "department": "Admissions"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306026&PostingSeq=1&SiteId=63000": {
+      "title": "Resident Assistant - Mariner Village",
+      "description": "Posted: 11/18/2026 Location: CCGA- Main Campus (Brunswick) Department: Residential Life & Housing Resident Assistant - Mariner Village",
+      "department": "Residential Life & Housing"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305990&PostingSeq=1&SiteId=63000": {
+      "title": "Student Assistant",
+      "description": "Posted: 11/13/2026 Location: CCGA- Main Campus (Brunswick) Department: Testing Center Student Assistant",
+      "department": "Testing Center"
     }
   },
   "rows": {
@@ -1136,11 +1171,95 @@
       "deadline_of_application": "",
       "posted_date": "11/11/2026",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305857&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305857&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Graduate Counseling Intern",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Health & Disability Services",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/19/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305935&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305935&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Lecturer of Mathematics",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "MDS",
+      "area_key_words": "Mathematics",
+      "deadline_of_application": "",
+      "posted_date": "11/19/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305982&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305982&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Resident Assistant - CPA",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Res Life - Coastal Place Apts",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/19/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305981&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305981&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Resident Assistant - Lakeside",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Residential Life & Housing",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/19/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305991&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305991&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Work Study - Admission/ Enrollment Mgt.",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Admissions",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/19/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306026&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306026&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Resident Assistant - Mariner Village",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Residential Life & Housing",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/18/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305990&PostingSeq=1&SiteId=63000": {
+      "school_id": 284,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305990&PostingSeq=1&SiteId=63000",
+      "job_title_in_post": "Student Assistant",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Testing Center",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/13/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 284,
   "status": "complete",
-  "updated_at": "2026-11-13T20:19:14+00:00",
-  "completed_at": "2026-11-13T20:19:14+00:00",
+  "updated_at": "2026-11-20T20:30:53+00:00",
+  "completed_at": "2026-11-20T20:30:53+00:00",
   "last_error": ""
 }

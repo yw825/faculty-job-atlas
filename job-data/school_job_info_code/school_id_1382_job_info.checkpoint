@@ -787,6 +787,26 @@
       "title": "Physical Therapy Clinical Coordinator - Physical Therapy Dallas",
       "description": "The Physical Therapy Clinical Coordinator is responsible for the identification, affiliation, and maintenance of relationships with our clinical affiliates in cooperation with the physical therapy component administrators and the Directors of Clinical Education.  The position manages the creation of clinical documentation as directed by the Directors of Clinical Education and the component administrator and manages routine communications with clinical agency representatives who offer placements to graduate Doctor of Physical Therapy programs. Work is performed under general supervision and performance evaluation is based upon completion of assignments and results obtained. The performance evaluation is conducted through the performance evaluation system and in accordance with the University Policies & Procedures.",
       "department": null
+    },
+    "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/13111": {
+      "title": "Business Systems Analyst - Vice Provost Institutional Research & Improvement",
+      "description": "Performs high  level technical work  in the  development  and production  of  statistical and analytical reports that support decision making functions and planning. The Business Systems Analyst requires experience with SAS and database query programming to facilitate federal and state reporting from the university's student information system and to audit data for accuracy and validity. In addition, the Business Systems Analyst participates in projects by providing functional business knowledge and defining requirements, investigating technology solutions, and participating in implementations. ",
+      "department": null
+    },
+    "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/13120": {
+      "title": "Senior Director Alumni Engagment and Executive of Alumni Association - University Advancement",
+      "description": "The Division of University Advancement serves as the outreach and fundraising component for Texas Woman’s University and seeks to secure philanthropic support and increase alumni engagement across the TWU System, including the health science centers in Dallas and Houston and the flagship campus in Denton. The Senior Director and ED reports directly to the Vice President, University Advancement and Alumni Engagement and creates cohesive, groundbreaking new strategies and outreach efforts for building commitment and engagement among TWU’s alumni and friends across the university. The Senior Director leads the Alumni Association and volunteer Alumni Advisory Council and is a highly visible senior leader and member of the UAAE senior leadership team.",
+      "department": null
+    },
+    "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/13119": {
+      "title": "Assistant Clinical Professor - Occupational Therapy Denton",
+      "description": "The School of Occupational Therapy at Texas Woman’s University Health Science Center in Denton is seeking a clinical faculty member who will thrive in a climate of intellectual vitality and academic excellence, and will support our innovative and community-centered programs with teaching, scholarship, and service activities. TWU’s occupational therapy program in the College of Health Sciences is a rich scholarly environment offering the entry level OTD and PhD in Occupational Therapy degrees. Texas Woman’s is a publicly funded co-educational institution designated as a Doctoral/research-intensive University by the Carnegie Foundation. The main campus is in Denton, with campuses in Dallas and Houston located within regional medical centers.",
+      "department": null
+    },
+    "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/13112": {
+      "title": "Associate Professor/ Professor/ Associate Dean - Nursing Denton",
+      "description": "The position of associate dean carries the primary responsibility of administration for one campus overseeing faculty and staff. The associate dean serves on a CON leadership team with AD peers from the other campuses. Service and scholarship are required. The associate dean serves as a role model for students, faculty and staff in leadership, interprofessional collaboration, shared governance, and ongoing scholarship.",
+      "department": null
     }
   },
   "rows": {
@@ -2661,11 +2681,59 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/13111": {
+      "school_id": 1382,
+      "posting_url": "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/13111",
+      "job_title_in_post": "Business Systems Analyst - Vice Provost Institutional Research & Improvement",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/13120": {
+      "school_id": 1382,
+      "posting_url": "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/13120",
+      "job_title_in_post": "Senior Director Alumni Engagment and Executive of Alumni Association - University Advancement",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Alumni Association",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/13119": {
+      "school_id": 1382,
+      "posting_url": "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/13119",
+      "job_title_in_post": "Assistant Clinical Professor - Occupational Therapy Denton",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "School of Occupational Therapy",
+      "area_key_words": "Occupational Therapy Denton",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/13112": {
+      "school_id": 1382,
+      "posting_url": "https://ewal.fa.us8.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/13112",
+      "job_title_in_post": "Associate Professor/ Professor/ Associate Dean - Nursing Denton",
+      "position_type": "Associate_Professor; Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Nursing Denton",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1382,
   "status": "complete",
-  "updated_at": "2026-11-13T20:35:20+00:00",
-  "completed_at": "2026-11-13T20:35:20+00:00",
+  "updated_at": "2026-11-20T20:05:01+00:00",
+  "completed_at": "2026-11-20T20:05:01+00:00",
   "last_error": ""
 }

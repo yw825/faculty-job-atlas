@@ -75,6 +75,22 @@
     "https://mville.exacthire.com/job/211311": {
       "title": "Adjunct Instructor, Education",
       "description": "Adjunct Instructor, Education, Job In Manhattanville University At Remote, NY"
+    },
+    "https://mville.exacthire.com/job/211523": {
+      "title": "Administrative Assistant",
+      "description": "Administrative Assistant, Job In Manhattanville University At Purchase, NY"
+    },
+    "https://mville.exacthire.com/job/198223": {
+      "title": "Learning Specialist, Center for Student Accessibility",
+      "description": "Learning Specialist, Center for Student Accessibility, Job In Manhattanville University At Purchase, NY"
+    },
+    "https://mville.exacthire.com/job/211694": {
+      "title": "Online Program Subject Matter Expert, Sport Business Management",
+      "description": "Online Program Subject Matter Expert, Sport Business Management, Job In Manhattanville University At Remote, NY"
+    },
+    "https://mville.exacthire.com/job/212186": {
+      "title": "Post Office and Copy Center Assistant (Clerk)",
+      "description": "Post Office and Copy Center Assistant (Clerk), Job In Manhattanville University At Purchase, NY"
     }
   },
   "rows": {
@@ -305,11 +321,59 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://mville.exacthire.com/job/211523": {
+      "school_id": 991,
+      "posting_url": "https://mville.exacthire.com/job/211523",
+      "job_title_in_post": "Administrative Assistant",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://mville.exacthire.com/job/198223": {
+      "school_id": 991,
+      "posting_url": "https://mville.exacthire.com/job/198223",
+      "job_title_in_post": "Learning Specialist, Center for Student Accessibility",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Center for Student Accessibility",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://mville.exacthire.com/job/211694": {
+      "school_id": 991,
+      "posting_url": "https://mville.exacthire.com/job/211694",
+      "job_title_in_post": "Online Program Subject Matter Expert, Sport Business Management",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://mville.exacthire.com/job/212186": {
+      "school_id": 991,
+      "posting_url": "https://mville.exacthire.com/job/212186",
+      "job_title_in_post": "Post Office and Copy Center Assistant (Clerk)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 991,
   "status": "complete",
-  "updated_at": "2026-11-13T20:32:25+00:00",
-  "completed_at": "2026-11-13T20:32:25+00:00",
+  "updated_at": "2026-11-20T20:09:35+00:00",
+  "completed_at": "2026-11-20T20:09:35+00:00",
   "last_error": ""
 }

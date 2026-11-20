@@ -544,6 +544,16 @@
       "title": "Academic Advisor I (Talent Search)",
       "description": "Posted: 11/10/2026 Location: Valdosta State University Department: Talent Search Academic Advisor I (Talent Search)",
       "department": "Talent Search"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306164&PostingSeq=1&SiteId=51000": {
+      "title": "Academic Advisor I - Dean-College of Business",
+      "description": "Posted: 11/18/2026 Location: Valdosta State University Department: Dean-Coba Academic Advisor I - Dean-College of Business",
+      "department": "Dean-Coba"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306029&PostingSeq=1&SiteId=51000": {
+      "title": "Deputy Chief Officer - (Human Resources & Employee Development - Class & Compensation)",
+      "description": "Posted: 11/17/2026 Location: Valdosta State University Department: Dir - Human Rescs & Empl Devl Deputy Chief Officer - (Human Resources & Employee Development - Class & Compensation)",
+      "department": "Dir - Human Rescs & Empl Devl"
     }
   },
   "rows": {
@@ -1853,11 +1863,35 @@
       "deadline_of_application": "",
       "posted_date": "11/10/2026",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306164&PostingSeq=1&SiteId=51000": {
+      "school_id": 316,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306164&PostingSeq=1&SiteId=51000",
+      "job_title_in_post": "Academic Advisor I - Dean-College of Business",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Dean-Coba",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/18/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306029&PostingSeq=1&SiteId=51000": {
+      "school_id": 316,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306029&PostingSeq=1&SiteId=51000",
+      "job_title_in_post": "Deputy Chief Officer - (Human Resources & Employee Development - Class & Compensation)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Dir - Human Rescs & Empl Devl",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/17/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 316,
   "status": "complete",
-  "updated_at": "2026-11-13T20:18:54+00:00",
-  "completed_at": "2026-11-13T20:18:54+00:00",
+  "updated_at": "2026-11-20T20:35:10+00:00",
+  "completed_at": "2026-11-20T20:35:10+00:00",
   "last_error": ""
 }

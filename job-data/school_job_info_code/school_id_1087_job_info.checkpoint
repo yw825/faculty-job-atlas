@@ -429,6 +429,10 @@
     "https://my.rsu.edu/ICS/RSU_Jobs/RSU_Employment_Opportunities.jnz#instructor-33": {
       "title": "Instructor",
       "description": "Instructor. Department: Department of Mathematics & Physical Sciences. Classification: Faculty. Full Time. Posted: 07/24/2026."
+    },
+    "https://my.rsu.edu/ICS/RSU_Jobs/RSU_Employment_Opportunities.jnz#lead-nutrition-instructor": {
+      "title": "Lead Nutrition Instructor",
+      "description": "Lead Nutrition Instructor. Department: School of Nursing and Health Professions. Classification: Faculty. Full Time. Posted: 11/19/2026."
     }
   },
   "rows": {
@@ -808,11 +812,12 @@
       "school_id": 1087,
       "posting_url": "https://my.rsu.edu/ICS/RSU_Jobs/RSU_Employment_Opportunities.jnz#instructor-32",
       "job_title_in_post": "Instructor",
-      "position_type": "Unclassified",
+      "position_type": "Lecturer",
       "job_term": "Full-time",
       "department_or_school": "Department of English and Humanities",
       "area_key_words": "",
       "deadline_of_application": "",
+      "posted_date": "04/07/2026",
       "position_start_date": ""
     },
     "https://my.rsu.edu/ICS/RSU_Jobs/RSU_Employment_Opportunities.jnz#instructor-allied-health": {
@@ -1701,11 +1706,23 @@
       "deadline_of_application": "",
       "posted_date": "07/24/2026",
       "position_start_date": ""
+    },
+    "https://my.rsu.edu/ICS/RSU_Jobs/RSU_Employment_Opportunities.jnz#lead-nutrition-instructor": {
+      "school_id": 1087,
+      "posting_url": "https://my.rsu.edu/ICS/RSU_Jobs/RSU_Employment_Opportunities.jnz#lead-nutrition-instructor",
+      "job_title_in_post": "Lead Nutrition Instructor",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "School of Nursing and Health Professions",
+      "area_key_words": "Lead Nutrition",
+      "deadline_of_application": "",
+      "posted_date": "11/19/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 1087,
   "status": "complete",
-  "updated_at": "2026-11-13T20:35:49+00:00",
-  "completed_at": "2026-11-13T20:35:49+00:00",
+  "updated_at": "2026-11-20T20:07:32+00:00",
+  "completed_at": "2026-11-20T20:07:32+00:00",
   "last_error": ""
 }

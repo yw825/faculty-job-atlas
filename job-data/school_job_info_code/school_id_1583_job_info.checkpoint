@@ -1459,6 +1459,61 @@
       "title": "Hourly Pooled - Business Office Student Staff, Campus Recreation",
       "description": "",
       "department": null
+    },
+    "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/262905": {
+      "title": "Internal Auditor - Internal Audit Department",
+      "description": "The Internal Auditor reports to the Director of Internal Audit and is an integral part of the audit process at the University of Wyoming.  The position exists to review, analyze and recommend improvements to internal controls, evaluate the reliability and integrity of financial and operational information, review compliance with laws, policies, and regulations and compose findings into useful and understandable reports that are delivered to management and administration. The Internal Auditor follows developed audit programs and performs the test work to provide an evaluation of management’s stewardship of university resources. This individual interacts with university employees at every level and must be able to provide constructive input effectively and thoughtfully.  ",
+      "department": null
+    },
+    "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/263119": {
+      "title": "Hourly Pooled - UW Apartments Desk Assistant",
+      "description": "Desk Assistants (DAs) strive to promote an inclusive living and learning environment for students living on-campus at the University of Wyoming. ",
+      "department": null
+    },
+    "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/263125": {
+      "title": "Hourly Pooled - Football Video Student Assistant",
+      "description": "This position begins August 3rd. There may be brief training sessions prior to this date. During Fall Camp (August 4th– August 30th), must be available every-day from 8:30 am – noon. During the Football Season: availability is needed from Sunday through Thursday from 3:30 pm to 7:00 pm along with Gamedays (these times vary and normally are on Saturdays) ",
+      "department": null
+    },
+    "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/263159": {
+      "title": "Work Study - Library Aide, Stacks Maintenance, University Libraries",
+      "description": "Shelve materials and perform stacks maintenance at Coe Library. Assist with lending in the Interlibrary Loan department.",
+      "department": null
+    },
+    "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/261379": {
+      "title": "Preventive Mt Technician - Preventive Maintenance",
+      "description": "Candidates need to have 1 year of mechanical experience and be able to troubleshoot various mechanical equipment including air handling equipment, glycol heating systems, air compressors, and vacuum pumps. Be able to change air filters, belts, bearings, maintain water softeners, and rebuild air handlers. Be able to work on ladders and man lifts. The right candidate needs to be a self starter, work independently and/or in a team environment.",
+      "department": null
+    },
+    "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/263079": {
+      "title": "Assistant Lecturer or Assistant Instructional Professor - Engineering & Physical Sciences Deans Office",
+      "description": "CEPS invites applications from qualified candidates for an Assistant Lecturer or Assistant Instructional Professor position beginning August 2027.  This is a full-time, 9-month, benefited position.",
+      "department": null
+    },
+    "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/263099": {
+      "title": "Monthly Pooled - Resident Assistant, Spring 2027",
+      "description": "Resident Assistants (RAs) strive to create a vibrant and welcoming living and learning environment for students on-campus at the University of Wyoming. This is accomplished by providing a healthy and memorable educational setting which fosters academic and personal growth, focusing on community building, wellness, safety, and security. RAs are responsible for staffing front desks, providing exceptional customer service, programming for residents, serving on-call, and other duties as assigned.",
+      "department": null
+    },
+    "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/263070": {
+      "title": "Pilot (I, II, or III) - Atmospheric Science",
+      "description": "The Department of Atmospheric Science at the University of Wyoming in Laramie, Wyoming invites applications for a full-time on-site pilot to operate University aircraft under FAA Part 91. The University owns and operates two King Air aircraft, one is a specially modified King Air 350 instrumented for atmospheric research and the other is a King Air 200 that is used for transporting administrators and guests of the University throughout the region.",
+      "department": null
+    },
+    "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/263021": {
+      "title": "SER Research Professional I - Geoscience Laboratory Analyst",
+      "description": "Work under the guidance of Program Manager, and Senior Science Personnel for the Minerals research program at the University of Wyoming School of Energy Resources (SER). Work on applied research in geology, geophysics, statistics, engineering, and/or environmental sciences related to mineral resources and economic geology. The assistant research professional will work within a team of geoscientists, and be expected to utilize standard geoscience laboratory practices to help advance applied energy and economic geologic research programs. ",
+      "department": null
+    },
+    "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/263081": {
+      "title": "Temporary Researcher - Research Assistant, Zoology & Physiology (Bernard)",
+      "description": "Research Assistant for Bernard lab research and review of game camera footage.",
+      "department": null
+    },
+    "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/263102": {
+      "title": "Hourly Pooled - Cowboy Coach Peer Mentor",
+      "description": "Provide peer mentorship and support to a caseload of students as well as to provide support for broader campus retention initiatives.",
+      "department": null
     }
   },
   "rows": {
@@ -4946,11 +5001,143 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/262905": {
+      "school_id": 1583,
+      "posting_url": "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/262905",
+      "job_title_in_post": "Internal Auditor - Internal Audit Department",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/263119": {
+      "school_id": 1583,
+      "posting_url": "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/263119",
+      "job_title_in_post": "Hourly Pooled - UW Apartments Desk Assistant",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/263125": {
+      "school_id": 1583,
+      "posting_url": "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/263125",
+      "job_title_in_post": "Hourly Pooled - Football Video Student Assistant",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/263159": {
+      "school_id": 1583,
+      "posting_url": "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/263159",
+      "job_title_in_post": "Work Study - Library Aide, Stacks Maintenance, University Libraries",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/261379": {
+      "school_id": 1583,
+      "posting_url": "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/261379",
+      "job_title_in_post": "Preventive Mt Technician - Preventive Maintenance",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/263079": {
+      "school_id": 1583,
+      "posting_url": "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/263079",
+      "job_title_in_post": "Assistant Lecturer or Assistant Instructional Professor - Engineering & Physical Sciences Deans Office",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/263099": {
+      "school_id": 1583,
+      "posting_url": "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/263099",
+      "job_title_in_post": "Monthly Pooled - Resident Assistant, Spring 2027",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/263070": {
+      "school_id": 1583,
+      "posting_url": "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/263070",
+      "job_title_in_post": "Pilot (I, II, or III) - Atmospheric Science",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Department of Atmospheric Science",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/263021": {
+      "school_id": 1583,
+      "posting_url": "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/263021",
+      "job_title_in_post": "SER Research Professional I - Geoscience Laboratory Analyst",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "School of Energy Resources",
+      "area_key_words": "environmental sciences related; geophysics",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/263081": {
+      "school_id": 1583,
+      "posting_url": "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/263081",
+      "job_title_in_post": "Temporary Researcher - Research Assistant, Zoology & Physiology (Bernard)",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/263102": {
+      "school_id": 1583,
+      "posting_url": "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/263102",
+      "job_title_in_post": "Hourly Pooled - Cowboy Coach Peer Mentor",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1583,
   "status": "complete",
-  "updated_at": "2026-11-13T20:39:44+00:00",
-  "completed_at": "2026-11-13T20:39:44+00:00",
+  "updated_at": "2026-11-20T20:22:08+00:00",
+  "completed_at": "2026-11-20T20:22:08+00:00",
   "last_error": ""
 }

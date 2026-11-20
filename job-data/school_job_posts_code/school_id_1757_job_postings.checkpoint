@@ -9,12 +9,15 @@
     "https://uzhcareer.ch/de/jobs/detail/?id=ec537ffd-98de-f111-9b60-9e890cc6b0ac&slug=nebenjob-als-hausverantwortlicher-an-der-uetlibergstrasse-111111a-in-zrich",
     "https://uzhcareer.ch/de/jobs/detail/?id=6d674213-9ade-f111-9b60-9e890cc6b0ac&slug=job-und-zimmer-als-hausverantwortlicher-an-der-bltenstrasse-in-zrich-",
     "https://uzhcareer.ch/de/jobs/detail/?id=13701ec0-9ade-f111-9b60-9e890cc6b0ac&slug=job-und-zimmer-als-hausverantwortlicher-an-der-jgerstrasse-in-winterthur",
-    "https://uzhcareer.ch/de/jobs/detail/?id=633092b8-4ddc-f111-9b60-9e890cc6b0ac&slug=kurzpraktikantinnen"
+    "https://uzhcareer.ch/de/jobs/detail/?id=633092b8-4ddc-f111-9b60-9e890cc6b0ac&slug=kurzpraktikantinnen",
+    "https://uzhcareer.ch/de/jobs/detail/?id=8a89e700-26e3-f111-9b60-9e890cc6b0ac",
+    "https://uzhcareer.ch/de/jobs/detail/?id=488b7097-70e2-f111-9b60-9e890cc6b0ac"
   ],
   "school_id": 1757,
   "status": "complete",
-  "updated_at": "2026-11-13T20:10:08+00:00",
+  "updated_at": "2026-11-20T19:20:38+00:00",
   "started_at": "2026-11-06T00:53:50+00:00",
-  "completed_at": "2026-11-13T20:10:08+00:00",
-  "last_error": ""
+  "completed_at": "2026-11-20T19:20:38+00:00",
+  "last_error": "",
+  "last_warning": "2026-11-20T19:20:38+00:00: board returned 2 links vs 12 before; old set kept"
 }

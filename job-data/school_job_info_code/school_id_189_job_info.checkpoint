@@ -31,6 +31,10 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/0FE17D4AFBB66F4F196ABBBA1DF3DF85/jobs/258847": {
       "title": "Part time faculty MFA Program",
       "description": "Part time faculty MFA Program You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/0FE17D4AFBB66F4F196ABBBA1DF3DF85/jobs/260109": {
+      "title": "Grant Coordinator, Garrett Lee Smith Campus Suicide Prevention Program",
+      "description": "Grant Coordinator, Garrett Lee Smith Campus Suicide Prevention Program You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -128,11 +132,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/0FE17D4AFBB66F4F196ABBBA1DF3DF85/jobs/260109": {
+      "school_id": 189,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/0FE17D4AFBB66F4F196ABBBA1DF3DF85/jobs/260109",
+      "job_title_in_post": "Grant Coordinator, Garrett Lee Smith Campus Suicide Prevention Program",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 189,
   "status": "complete",
-  "updated_at": "2026-11-13T20:15:34+00:00",
-  "completed_at": "2026-11-13T20:15:34+00:00",
+  "updated_at": "2026-11-20T19:29:30+00:00",
+  "completed_at": "2026-11-20T19:29:30+00:00",
   "last_error": ""
 }

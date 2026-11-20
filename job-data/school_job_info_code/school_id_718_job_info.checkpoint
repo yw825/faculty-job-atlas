@@ -469,6 +469,26 @@
       "title": "PROFESSOR, CMCE Distinguished Chair in Translational Critical Materials Processing / UNIVERSITY of MISSOURI-KANSAS CITY",
       "description": "Posted: 11/12/2026 Location: Kansas City Department: Chemistry PROFESSOR, CMCE Distinguished Chair in Translational Critical Materials Processing / UNIVERSITY of MISSOURI-KANSAS CITY",
       "department": "Chemistry"
+    },
+    "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61485&PostingSeq=1&SiteId=8": {
+      "title": "Resident Physician - UMKC 2027 Graduate Medical Education (Continuous Posting)",
+      "description": "Posted: 11/18/2026 Location: Kansas City Department: School of Medicine Residency Resident Physician - UMKC 2027 Graduate Medical Education (Continuous Posting)",
+      "department": "School of Medicine Residency"
+    },
+    "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61785&PostingSeq=1&SiteId=8": {
+      "title": "ASSISTANT RESEARCH PROFESSOR / UMKC School of Pharmacy / Division of Pharmacology & Pharmaceutical Sciences",
+      "description": "Posted: 11/17/2026 Location: Kansas City Department: Pharmacology & Pharmaceutical ASSISTANT RESEARCH PROFESSOR / UMKC School of Pharmacy / Division of Pharmacology & Pharmaceutical Sciences",
+      "department": "Pharmacology & Pharmaceutical"
+    },
+    "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61788&PostingSeq=1&SiteId=8": {
+      "title": "ASSISTANT/ASSOCIATE CLINICAL PROFESSOR / UMKC School of Pharmacy / Division of Pharmacy Practice & Administration / Columbia MO Site",
+      "description": "Posted: 11/17/2026 Location: UMKC Columbia Campus Department: Pharmacy - General ASSISTANT/ASSOCIATE CLINICAL PROFESSOR / UMKC School of Pharmacy / Division of Pharmacy Practice & Administration / Columbia MO Site",
+      "department": "Pharmacy - General"
+    },
+    "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61770&PostingSeq=1&SiteId=8": {
+      "title": "Moot Court Adjunct/Coach - UMKC School of Humanities and Social Sciences, Department of Criminal Justice and Criminology",
+      "description": "Posted: 11/16/2026 Location: UMKC Volker Campus Department: Criminal Justice & Criminology Moot Court Adjunct/Coach - UMKC School of Humanities and Social Sciences, Department of Criminal Justice and Criminology",
+      "department": "Criminal Justice & Criminology"
     }
   },
   "rows": {
@@ -1589,11 +1609,59 @@
       "deadline_of_application": "",
       "posted_date": "11/12/2026",
       "position_start_date": ""
+    },
+    "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61485&PostingSeq=1&SiteId=8": {
+      "school_id": 718,
+      "posting_url": "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61485&PostingSeq=1&SiteId=8",
+      "job_title_in_post": "Resident Physician - UMKC 2027 Graduate Medical Education (Continuous Posting)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "School of Medicine Residency",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/18/2026",
+      "position_start_date": ""
+    },
+    "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61785&PostingSeq=1&SiteId=8": {
+      "school_id": 718,
+      "posting_url": "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61785&PostingSeq=1&SiteId=8",
+      "job_title_in_post": "ASSISTANT RESEARCH PROFESSOR / UMKC School of Pharmacy / Division of Pharmacology & Pharmaceutical Sciences",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "Pharmacology & Pharmaceutical",
+      "area_key_words": "Pharmacy / Division of Pharmacology & Pharmaceutical Sciences",
+      "deadline_of_application": "",
+      "posted_date": "11/17/2026",
+      "position_start_date": ""
+    },
+    "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61788&PostingSeq=1&SiteId=8": {
+      "school_id": 718,
+      "posting_url": "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61788&PostingSeq=1&SiteId=8",
+      "job_title_in_post": "ASSISTANT/ASSOCIATE CLINICAL PROFESSOR / UMKC School of Pharmacy / Division of Pharmacy Practice & Administration / Columbia MO Site",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "Pharmacy - General",
+      "area_key_words": "Pharmacy / Division of Pharmacy Practice & Administration / Columbia MO Site",
+      "deadline_of_application": "",
+      "posted_date": "11/17/2026",
+      "position_start_date": ""
+    },
+    "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61770&PostingSeq=1&SiteId=8": {
+      "school_id": 718,
+      "posting_url": "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61770&PostingSeq=1&SiteId=8",
+      "job_title_in_post": "Moot Court Adjunct/Coach - UMKC School of Humanities and Social Sciences, Department of Criminal Justice and Criminology",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "Criminal Justice & Criminology",
+      "area_key_words": "Department of Criminal Justice and Criminology",
+      "deadline_of_application": "",
+      "posted_date": "11/16/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 718,
   "status": "complete",
-  "updated_at": "2026-11-13T20:29:52+00:00",
-  "completed_at": "2026-11-13T20:29:52+00:00",
+  "updated_at": "2026-11-20T19:55:20+00:00",
+  "completed_at": "2026-11-20T19:55:20+00:00",
   "last_error": ""
 }

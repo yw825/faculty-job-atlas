@@ -103,6 +103,26 @@
     "https://viprecprod.ad.umanitoba.ca/A#req-51574": {
       "title": "Postdoctoral Fellow",
       "description": "Postdoctoral Fellow | Requisition No: 51574 - Category:  RESEARCH ACADEMICS | Full time - Temporary | Manitoba | Fort Garry Campus [011] | Nov/12/2026 | Assistant/Associate Professor(Canada Impact+Emerging Leader)"
+    },
+    "https://viprecprod.ad.umanitoba.ca/A#req-51784": {
+      "title": "Professorship in Neuropathology",
+      "description": "Professorship in Neuropathology | Requisition No: 51784 - Category:  FULL TIME ACADEMICS | Part Time - Temporary | Manitoba | Bannatyne Campus [021] | Nov/19/2026 | Clinician Scientist"
+    },
+    "https://viprecprod.ad.umanitoba.ca/A#req-51731": {
+      "title": "Clinician Scientist",
+      "description": "Clinician Scientist | Requisition No: 51731 - Category:  FULL TIME ACADEMICS | Full time - Temporary | Manitoba | Bannatyne Campus [021] | Nov/18/2026 | Assistant/Associate Professor(Canada Impact+Emerging Leader)"
+    },
+    "https://viprecprod.ad.umanitoba.ca/A#req-51638": {
+      "title": "Assistant/Associate Professor(Canada Impact+Emerging Leader)",
+      "description": "Assistant/Associate Professor(Canada Impact+Emerging Leader) | Requisition No: 51638 - Category:  FULL TIME ACADEMICS | Full time -  Permanent | Manitoba | Fort Garry Campus [011] | Nov/17/2026 | Grader Marker for PLNT 0750 Forage and Pasture Mgmt"
+    },
+    "https://viprecprod.ad.umanitoba.ca/A#req-51695": {
+      "title": "Grader Marker for PLNT 0750 Forage and Pasture Mgmt",
+      "description": "Grader Marker for PLNT 0750 Forage and Pasture Mgmt | Requisition No: 51695 - Category:  SESSIONAL / PART TIME TEACHING | Part Time - Temporary | Manitoba | Fort Garry Campus [011] | Nov/17/2026 | Assistant/Associate Professor(Canada Impact+Emerging Leader)"
+    },
+    "https://viprecprod.ad.umanitoba.ca/A#req-51639": {
+      "title": "Assistant/Associate Professor(Canada Impact+Emerging Leader)",
+      "description": "Assistant/Associate Professor(Canada Impact+Emerging Leader) | Requisition No: 51639 - Category:  FULL TIME ACADEMICS | Full time -  Permanent | Manitoba | Fort Garry Campus [011] | Nov/17/2026 | Postdoctoral Fellow"
     }
   },
   "rows": {
@@ -409,11 +429,71 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://viprecprod.ad.umanitoba.ca/A#req-51784": {
+      "school_id": 1601,
+      "posting_url": "https://viprecprod.ad.umanitoba.ca/A#req-51784",
+      "job_title_in_post": "Professorship in Neuropathology",
+      "position_type": "Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Neuropathology",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://viprecprod.ad.umanitoba.ca/A#req-51731": {
+      "school_id": 1601,
+      "posting_url": "https://viprecprod.ad.umanitoba.ca/A#req-51731",
+      "job_title_in_post": "Clinician Scientist",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://viprecprod.ad.umanitoba.ca/A#req-51638": {
+      "school_id": 1601,
+      "posting_url": "https://viprecprod.ad.umanitoba.ca/A#req-51638",
+      "job_title_in_post": "Assistant/Associate Professor(Canada Impact+Emerging Leader)",
+      "position_type": "Assistant_Professor; Associate_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://viprecprod.ad.umanitoba.ca/A#req-51695": {
+      "school_id": 1601,
+      "posting_url": "https://viprecprod.ad.umanitoba.ca/A#req-51695",
+      "job_title_in_post": "Grader Marker for PLNT 0750 Forage and Pasture Mgmt",
+      "position_type": "Unclassified",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://viprecprod.ad.umanitoba.ca/A#req-51639": {
+      "school_id": 1601,
+      "posting_url": "https://viprecprod.ad.umanitoba.ca/A#req-51639",
+      "job_title_in_post": "Assistant/Associate Professor(Canada Impact+Emerging Leader)",
+      "position_type": "Assistant_Professor; Associate_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1601,
   "status": "complete",
-  "updated_at": "2026-11-13T20:48:12+00:00",
-  "completed_at": "2026-11-13T20:48:12+00:00",
+  "updated_at": "2026-11-20T20:49:16+00:00",
+  "completed_at": "2026-11-20T20:49:16+00:00",
   "last_error": ""
 }

@@ -23,6 +23,18 @@
     "https://wd105.myworkdaysite.com/recruiting/federation/Federation_Careers/job/Ballarat-Victoria/Aboriginal-Student-Recruitment-Coordinator_JR101540": {
       "title": "Aboriginal Student Recruitment Coordinator",
       "description": ""
+    },
+    "https://wd105.myworkdaysite.com/recruiting/federation/Federation_Careers/job/Ballarat-Victoria/TAFE-Teacher--Corrections--Engineering-_JR101507": {
+      "title": "TAFE Teacher, Corrections (Engineering)",
+      "description": ""
+    },
+    "https://wd105.myworkdaysite.com/recruiting/federation/Federation_Careers/job/Ballarat-Victoria/TAFE-Teacher--Youth_JR101526": {
+      "title": "TAFE Teacher, Youth",
+      "description": ""
+    },
+    "https://wd105.myworkdaysite.com/recruiting/federation/Federation_Careers/job/Ballarat-Victoria/Aboriginal-Student-Success-Officer_JR101548": {
+      "title": "Aboriginal Student Success Officer",
+      "description": ""
     }
   },
   "rows": {
@@ -97,11 +109,47 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://wd105.myworkdaysite.com/recruiting/federation/Federation_Careers/job/Ballarat-Victoria/TAFE-Teacher--Corrections--Engineering-_JR101507": {
+      "school_id": 1810,
+      "posting_url": "https://wd105.myworkdaysite.com/recruiting/federation/Federation_Careers/job/Ballarat-Victoria/TAFE-Teacher--Corrections--Engineering-_JR101507",
+      "job_title_in_post": "TAFE Teacher, Corrections (Engineering)",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://wd105.myworkdaysite.com/recruiting/federation/Federation_Careers/job/Ballarat-Victoria/TAFE-Teacher--Youth_JR101526": {
+      "school_id": 1810,
+      "posting_url": "https://wd105.myworkdaysite.com/recruiting/federation/Federation_Careers/job/Ballarat-Victoria/TAFE-Teacher--Youth_JR101526",
+      "job_title_in_post": "TAFE Teacher, Youth",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://wd105.myworkdaysite.com/recruiting/federation/Federation_Careers/job/Ballarat-Victoria/Aboriginal-Student-Success-Officer_JR101548": {
+      "school_id": 1810,
+      "posting_url": "https://wd105.myworkdaysite.com/recruiting/federation/Federation_Careers/job/Ballarat-Victoria/Aboriginal-Student-Success-Officer_JR101548",
+      "job_title_in_post": "Aboriginal Student Success Officer",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1810,
   "status": "complete",
-  "updated_at": "2026-11-13T20:46:02+00:00",
+  "updated_at": "2026-11-20T20:40:12+00:00",
   "last_error": "",
-  "completed_at": "2026-11-13T20:46:02+00:00"
+  "completed_at": "2026-11-20T20:40:12+00:00"
 }

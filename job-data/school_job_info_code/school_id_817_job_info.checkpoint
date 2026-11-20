@@ -127,6 +127,14 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/F9BC0E3EF21EBFD06396ABA365BF2DCF/jobs/175263": {
       "title": "Groundskeeper",
       "description": "Groundskeeper You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/F9BC0E3EF21EBFD06396ABA365BF2DCF/jobs/175863": {
+      "title": "Accounts Receivable Manager",
+      "description": "Accounts Receivable Manager You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/F9BC0E3EF21EBFD06396ABA365BF2DCF/jobs/176141": {
+      "title": "Associate Vice President of Institutional Advancement",
+      "description": "Associate Vice President of Institutional Advancement You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -510,11 +518,35 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/F9BC0E3EF21EBFD06396ABA365BF2DCF/jobs/175863": {
+      "school_id": 817,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/F9BC0E3EF21EBFD06396ABA365BF2DCF/jobs/175863",
+      "job_title_in_post": "Accounts Receivable Manager",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/F9BC0E3EF21EBFD06396ABA365BF2DCF/jobs/176141": {
+      "school_id": 817,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/F9BC0E3EF21EBFD06396ABA365BF2DCF/jobs/176141",
+      "job_title_in_post": "Associate Vice President of Institutional Advancement",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Institutional Advancement",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 817,
   "status": "complete",
-  "updated_at": "2026-11-13T20:28:10+00:00",
-  "completed_at": "2026-11-13T20:28:10+00:00",
+  "updated_at": "2026-11-20T19:50:18+00:00",
+  "completed_at": "2026-11-20T19:50:18+00:00",
   "last_error": ""
 }

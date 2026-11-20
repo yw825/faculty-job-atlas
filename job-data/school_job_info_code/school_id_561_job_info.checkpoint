@@ -99,6 +99,18 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/AE469E23D63EE01425E773C19A546C6B/jobs/597536": {
       "title": "Adjunct Faculty - Undergraduate Business Analytics of Data Science",
       "description": "Adjunct Faculty - Undergraduate Business Analytics of Data Science You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/AE469E23D63EE01425E773C19A546C6B/jobs/600355": {
+      "title": "Lasell Village Adjunct Faculty - Open Subject",
+      "description": "Lasell Village Adjunct Faculty - Open Subject You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/AE469E23D63EE01425E773C19A546C6B/jobs/599806": {
+      "title": "Police Officer",
+      "description": "Police Officer You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/AE469E23D63EE01425E773C19A546C6B/jobs/599799": {
+      "title": "Accounts Receivable Specialist/Cashier",
+      "description": "Accounts Receivable Specialist/Cashier You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -396,11 +408,47 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/AE469E23D63EE01425E773C19A546C6B/jobs/600355": {
+      "school_id": 561,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/AE469E23D63EE01425E773C19A546C6B/jobs/600355",
+      "job_title_in_post": "Lasell Village Adjunct Faculty - Open Subject",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "Lasell Village Adjunct",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/AE469E23D63EE01425E773C19A546C6B/jobs/599806": {
+      "school_id": 561,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/AE469E23D63EE01425E773C19A546C6B/jobs/599806",
+      "job_title_in_post": "Police Officer",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/AE469E23D63EE01425E773C19A546C6B/jobs/599799": {
+      "school_id": 561,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/AE469E23D63EE01425E773C19A546C6B/jobs/599799",
+      "job_title_in_post": "Accounts Receivable Specialist/Cashier",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 561,
   "status": "complete",
-  "updated_at": "2026-11-13T20:23:44+00:00",
-  "completed_at": "2026-11-13T20:23:44+00:00",
+  "updated_at": "2026-11-20T19:42:15+00:00",
+  "completed_at": "2026-11-20T19:42:15+00:00",
   "last_error": ""
 }

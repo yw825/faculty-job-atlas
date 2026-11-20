@@ -74,6 +74,11 @@
       "title": "Doctoral Assistants and Graduate Assistants in Computer Science or Software Engineering",
       "description": "Support student learning while building your academic teaching experience as a Graduate Assistant or Doctoral Assistant in the School of Computing and Mathematical Sciences\n\nPosting closes: 2026-11-22",
       "department": null
+    },
+    "https://elhs.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/1004031": {
+      "title": "Postdoctoral Fellow",
+      "description": "Build your research career through a prestigious global project investigating how RNA functions in cold-adapted bacteria. This is a full-time, 2 year fixed term role based in Hamilton.\n\nPosting closes: 2026-11-30",
+      "department": null
     }
   },
   "rows": {
@@ -256,11 +261,23 @@
       "deadline_of_application": "2026-11-22",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://elhs.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/1004031": {
+      "school_id": 1827,
+      "posting_url": "https://elhs.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/1004031",
+      "job_title_in_post": "Postdoctoral Fellow",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "2026-11-30",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1827,
   "status": "complete",
-  "updated_at": "2026-11-13T20:55:52+00:00",
-  "completed_at": "2026-11-13T20:55:52+00:00",
+  "updated_at": "2026-11-20T21:27:04+00:00",
+  "completed_at": "2026-11-20T21:27:04+00:00",
   "last_error": ""
 }

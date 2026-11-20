@@ -63,6 +63,18 @@
     "https://my.corehr.com/pls/tudrecruit/erq_jobspec_version_4.jobspec?p_id=046043": {
       "title": "Postdoctoral Researcher in Trusted AI, LLMs and Public Health (Fixed Term Wholetime for up to 2 years) (Reference: 575/2026)",
       "description": "Closing Date: 13/12/2026 Close Date : 13-Dec-2026 Job Title : Post Doc Researcher Contact Person : Sachin Sharma Job ID : 046043 Postdoctoral Researcher in Trusted AI, LLMs and Public Health (Fixed Term Wholetime for up to 2 years) (Reference: 575/2026) 13-Dec-2026"
+    },
+    "https://my.corehr.com/pls/tudrecruit/erq_jobspec_version_4.jobspec?p_id=046243": {
+      "title": "Assistant Lecturer in Culinary Science (Molecular Gastronomy) (Permanent Wholetime) (Reference: 71a/2026)",
+      "description": "Closing Date: 04/12/2026 Close Date : 04-Dec-2026 Job Title : Assistant Lecturer Contact Person : Denise O'Leary Job ID : 046243 Assistant Lecturer in Culinary Science (Molecular Gastronomy) (Permanent Wholetime) (Reference: 71a/2026) 04-Dec-2026"
+    },
+    "https://my.corehr.com/pls/tudrecruit/erq_jobspec_version_4.jobspec?p_id=046244": {
+      "title": "Assistant Lecturer in German (Permanent Wholetime) (Reference: 428a/2026)",
+      "description": "Closing Date: 11/12/2026 Close Date : 11-Dec-2026 Job Title : Assistant Lecturer Contact Person : Catherine Spencer Job ID : 046244 Assistant Lecturer in German (Permanent Wholetime) (Reference: 428a/2026) 11-Dec-2026"
+    },
+    "https://my.corehr.com/pls/tudrecruit/erq_jobspec_version_4.jobspec?p_id=046163": {
+      "title": "Senior Research Assistant - Access & Outreach (Fixed Term Wholetime for up to 1 Year) (Reference: 527/2026)",
+      "description": "Closing Date: 01/12/2026 Close Date : 01-Dec-2026 Job Title : Research Assistant Contact Person : Riona Fitzgerald Job ID : 046163 Senior Research Assistant - Access & Outreach (Fixed Term Wholetime for up to 1 Year) (Reference: 527/2026) 01-Dec-2026"
     }
   },
   "rows": {
@@ -255,11 +267,47 @@
       "deadline_of_application": "13/12/2026",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://my.corehr.com/pls/tudrecruit/erq_jobspec_version_4.jobspec?p_id=046243": {
+      "school_id": 1884,
+      "posting_url": "https://my.corehr.com/pls/tudrecruit/erq_jobspec_version_4.jobspec?p_id=046243",
+      "job_title_in_post": "Assistant Lecturer in Culinary Science (Molecular Gastronomy) (Permanent Wholetime) (Reference: 71a/2026)",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Culinary Science",
+      "deadline_of_application": "04/12/2026",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://my.corehr.com/pls/tudrecruit/erq_jobspec_version_4.jobspec?p_id=046244": {
+      "school_id": 1884,
+      "posting_url": "https://my.corehr.com/pls/tudrecruit/erq_jobspec_version_4.jobspec?p_id=046244",
+      "job_title_in_post": "Assistant Lecturer in German (Permanent Wholetime) (Reference: 428a/2026)",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "German",
+      "deadline_of_application": "11/12/2026",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://my.corehr.com/pls/tudrecruit/erq_jobspec_version_4.jobspec?p_id=046163": {
+      "school_id": 1884,
+      "posting_url": "https://my.corehr.com/pls/tudrecruit/erq_jobspec_version_4.jobspec?p_id=046163",
+      "job_title_in_post": "Senior Research Assistant - Access & Outreach (Fixed Term Wholetime for up to 1 Year) (Reference: 527/2026)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "01/12/2026",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1884,
   "status": "complete",
-  "updated_at": "2026-11-13T20:54:10+00:00",
-  "completed_at": "2026-11-13T20:54:10+00:00",
+  "updated_at": "2026-11-20T21:08:03+00:00",
+  "completed_at": "2026-11-20T21:08:03+00:00",
   "last_error": ""
 }

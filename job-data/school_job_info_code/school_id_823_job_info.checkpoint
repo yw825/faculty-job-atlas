@@ -669,6 +669,36 @@
       "title": "Temporary Laboratory - Liverani's Lab",
       "description": "Posted: 11/13/2026 Location: Fargo Department: Pharmaceutical Sciences Temporary Laboratory - Liverani's Lab",
       "department": "Pharmaceutical Sciences"
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960229&PostingSeq=1&SiteId=1": {
+      "title": "Extension Agent, Agriculture and Natural Resources/ McIntosh County",
+      "description": "Posted: 11/20/2026 Location: Ashley Department: Ext County Programs Extension Agent, Agriculture and Natural Resources/ McIntosh County",
+      "department": "Ext County Programs"
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960218&PostingSeq=1&SiteId=1": {
+      "title": "Director - AIPHRC",
+      "description": "Posted: 11/18/2026 Location: Fargo Department: School of Health Syst & Innov Director - AIPHRC",
+      "department": "School of Health Syst & Innov"
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960225&PostingSeq=1&SiteId=1": {
+      "title": "Pharmacy Technician - Family Healthcare Pharmacy",
+      "description": "Posted: 11/18/2026 Location: Fargo Department: Family Healthcare Pharmacy Pharmacy Technician - Family Healthcare Pharmacy",
+      "department": "Family Healthcare Pharmacy"
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2959989&PostingSeq=1&SiteId=1": {
+      "title": "Project Manager - Nursing, Fargo",
+      "description": "Posted: 11/17/2026 Location: Fargo Department: Nursing Project Manager - Nursing, Fargo",
+      "department": "Nursing"
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960224&PostingSeq=1&SiteId=1": {
+      "title": "Temp-Equine FarmingMach",
+      "description": "Posted: 11/16/2026 Location: Fargo Department: Animal Science Temp-Equine FarmingMach",
+      "department": "Animal Science"
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960223&PostingSeq=1&SiteId=1": {
+      "title": "NDSU Doctoral / Master's Grad Research Asst",
+      "description": "Posted: 11/13/2026 Location: Fargo Department: Ag and Family Education NDSU Doctoral / Master's Grad Research Asst",
+      "department": "Ag and Family Education"
     }
   },
   "rows": {
@@ -2258,11 +2288,83 @@
       "deadline_of_application": "",
       "posted_date": "11/13/2026",
       "position_start_date": ""
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960229&PostingSeq=1&SiteId=1": {
+      "school_id": 823,
+      "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960229&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Extension Agent, Agriculture and Natural Resources/ McIntosh County",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Ext County Programs",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/20/2026",
+      "position_start_date": ""
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960218&PostingSeq=1&SiteId=1": {
+      "school_id": 823,
+      "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960218&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Director - AIPHRC",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "School of Health Syst & Innov",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/18/2026",
+      "position_start_date": ""
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960225&PostingSeq=1&SiteId=1": {
+      "school_id": 823,
+      "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960225&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Pharmacy Technician - Family Healthcare Pharmacy",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Family Healthcare Pharmacy",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/18/2026",
+      "position_start_date": ""
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2959989&PostingSeq=1&SiteId=1": {
+      "school_id": 823,
+      "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2959989&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Project Manager - Nursing, Fargo",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Nursing",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/17/2026",
+      "position_start_date": ""
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960224&PostingSeq=1&SiteId=1": {
+      "school_id": 823,
+      "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960224&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Temp-Equine FarmingMach",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Animal Science",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/16/2026",
+      "position_start_date": ""
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960223&PostingSeq=1&SiteId=1": {
+      "school_id": 823,
+      "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960223&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "NDSU Doctoral / Master's Grad Research Asst",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Ag and Family Education",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/13/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 823,
   "status": "complete",
-  "updated_at": "2026-11-13T20:28:53+00:00",
-  "completed_at": "2026-11-13T20:28:53+00:00",
+  "updated_at": "2026-11-20T19:50:46+00:00",
+  "completed_at": "2026-11-20T19:50:46+00:00",
   "last_error": ""
 }

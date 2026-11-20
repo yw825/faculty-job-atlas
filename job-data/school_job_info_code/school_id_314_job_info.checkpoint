@@ -84,6 +84,11 @@
       "title": "Adjunct Faculty, Department of History and Political Science",
       "description": "Posted: 04/30/2021 Location: Tifton, GA Department: Academic Dean - Part Time Fac Adjunct Faculty, Department of History and Political Science",
       "department": "Academic Dean - Part Time Fac"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306222&PostingSeq=1&SiteId=57000": {
+      "title": "Credentials/Admissions Processor",
+      "description": "Posted: 11/18/2026 Location: Tifton, GA Department: Credential Management Credentials/Admissions Processor",
+      "department": "Credential Management"
     }
   },
   "rows": {
@@ -290,11 +295,23 @@
       "deadline_of_application": "",
       "posted_date": "04/30/2021",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306222&PostingSeq=1&SiteId=57000": {
+      "school_id": 314,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306222&PostingSeq=1&SiteId=57000",
+      "job_title_in_post": "Credentials/Admissions Processor",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Credential Management",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/18/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 314,
   "status": "complete",
-  "updated_at": "2026-11-13T20:21:08+00:00",
-  "completed_at": "2026-11-13T20:21:08+00:00",
+  "updated_at": "2026-11-20T20:34:46+00:00",
+  "completed_at": "2026-11-20T20:34:46+00:00",
   "last_error": ""
 }

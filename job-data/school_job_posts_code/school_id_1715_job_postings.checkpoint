@@ -52,12 +52,22 @@
     "https://www.uni.lu/en/jobs/study-programme-administrator/",
     "https://www.uni.lu/en/jobs/postdoctoral-researcher-in-quantum-error-correction/",
     "https://www.uni.lu/en/jobs/software-developer-for-ai-driven-causal-analysis-of-omics-data/",
-    "https://www.uni.lu/en/jobs/student-officer-accommodation-50/"
+    "https://www.uni.lu/en/jobs/student-officer-accommodation-50/",
+    "https://www.uni.lu/en/jobs/postdoctoral-researcher-in-nursing-sciences/",
+    "https://www.uni.lu/en/jobs/research-support-engineer-2/",
+    "https://www.uni.lu/en/jobs/associate-professor-or-assistant-professor-in-psychiatric-nursing/",
+    "https://www.uni.lu/en/jobs/postdoctoral-researcher-in-metabolomics-lipidomics-core-facility-2/",
+    "https://www.uni.lu/en/jobs/administrative-assistant/",
+    "https://www.uni.lu/en/jobs/postdoctoral-researcher-in-non-target-screening-parc-project/",
+    "https://www.uni.lu/en/jobs/associate-professor-or-assistant-professor-in-anatomy/",
+    "https://www.uni.lu/en/jobs/postdoctoral-researcher-in-university-scale-hpc-and-ai-systems/",
+    "https://www.uni.lu/en/jobs/research-and-development-specialist-in-embedded-systems-for-satellite-communications/"
   ],
   "school_id": 1715,
-  "status": "error",
-  "updated_at": "2026-11-13T19:54:31+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-20T19:05:40+00:00",
   "started_at": "2026-09-02T22:27:32+00:00",
-  "completed_at": "2026-10-09T20:02:00+00:00",
-  "last_error": "RuntimeError: no jobs on the page (blocked?)"
+  "completed_at": "2026-11-20T19:05:40+00:00",
+  "last_error": "",
+  "last_warning": "2026-11-20T19:05:40+00:00: board returned 9 links vs 53 before; old set kept"
 }

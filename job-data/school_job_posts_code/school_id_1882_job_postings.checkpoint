@@ -1,9 +1,12 @@
 {
-  "links": [],
+  "links": [
+    "https://jobs.sunderland.ac.uk/vacancy.aspx?ref=UOSHK01",
+    "https://jobs.sunderland.ac.uk/vacancy.aspx?ref=0348-26-R"
+  ],
   "school_id": 1882,
   "status": "complete",
-  "updated_at": "2026-11-13T20:12:02+00:00",
+  "updated_at": "2026-11-20T19:22:00+00:00",
   "started_at": "2026-11-13T20:11:58+00:00",
-  "completed_at": "2026-11-13T20:12:02+00:00",
+  "completed_at": "2026-11-20T19:22:00+00:00",
   "last_error": ""
 }

@@ -79,6 +79,16 @@
       "title": "Business Analyst for Enterprise Applications",
       "description": "",
       "department": null
+    },
+    "https://setonhill-ibtwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/176": {
+      "title": "Nutrition & Dietetics Program Director and Assistant or Associate Professor",
+      "description": "",
+      "department": null
+    },
+    "https://setonhill-ibtwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/179": {
+      "title": "Campus Police Officer",
+      "description": "",
+      "department": null
     }
   },
   "rows": {
@@ -271,11 +281,35 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://setonhill-ibtwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/176": {
+      "school_id": 1156,
+      "posting_url": "https://setonhill-ibtwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/176",
+      "job_title_in_post": "Nutrition & Dietetics Program Director and Assistant or Associate Professor",
+      "position_type": "Associate_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://setonhill-ibtwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/179": {
+      "school_id": 1156,
+      "posting_url": "https://setonhill-ibtwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/179",
+      "job_title_in_post": "Campus Police Officer",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1156,
   "status": "complete",
-  "updated_at": "2026-11-13T20:33:06+00:00",
-  "completed_at": "2026-11-13T20:33:06+00:00",
+  "updated_at": "2026-11-20T19:58:11+00:00",
+  "completed_at": "2026-11-20T19:58:11+00:00",
   "last_error": ""
 }

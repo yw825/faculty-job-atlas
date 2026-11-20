@@ -59,6 +59,14 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/3971D0B7A1DB06DA25282DE787EC51E9/jobs/270240": {
       "title": "Adjunct Faculty - Essentials of Finance",
       "description": "Adjunct Faculty - Essentials of Finance You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/3971D0B7A1DB06DA25282DE787EC51E9/jobs/272330": {
+      "title": "Adjunct Faculty - Psychology",
+      "description": "Adjunct Faculty - Psychology You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/3971D0B7A1DB06DA25282DE787EC51E9/jobs/272036": {
+      "title": "Adjunct Professor - Nursing Clinicals",
+      "description": "Adjunct Professor - Nursing Clinicals You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -241,11 +249,35 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/3971D0B7A1DB06DA25282DE787EC51E9/jobs/272330": {
+      "school_id": 832,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/3971D0B7A1DB06DA25282DE787EC51E9/jobs/272330",
+      "job_title_in_post": "Adjunct Faculty - Psychology",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "Psychology",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/3971D0B7A1DB06DA25282DE787EC51E9/jobs/272036": {
+      "school_id": 832,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/3971D0B7A1DB06DA25282DE787EC51E9/jobs/272036",
+      "job_title_in_post": "Adjunct Professor - Nursing Clinicals",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "Nursing Clinicals",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 832,
   "status": "complete",
-  "updated_at": "2026-11-13T20:30:44+00:00",
-  "completed_at": "2026-11-13T20:30:44+00:00",
+  "updated_at": "2026-11-20T20:06:10+00:00",
+  "completed_at": "2026-11-20T20:06:10+00:00",
   "last_error": ""
 }

@@ -331,6 +331,14 @@
     "https://apply.interfolio.com/197464": {
       "title": "Research Assistant I/II",
       "description": "Department: Hong Kong University of Science and Technology: School of Business and Management: Department of Management Location: Hong Kong Posted: Nov 12, 2026 Deadline: Mar 30, 2027 The appointee should be proficient in using AI and other analytical tools. More importantly, they should demonstrate the ability to apply human judgment, academic insight, and relevant professional experience such as experience in product develop to address research questions. We seek candidates who can go beyond producing technically polished analyses by AI tools and offer sensible interpretations, develop theoretically grounded explanations, and generate meaningful predictions. Applicants should hold a bachelor’s degree or higher in Mathematics, Business Analytics, Computer Science, Economics, or a related discipline, and have an excellent command of written and spoken English. (Duration: 3 to 12 months depending on full-time or part-time) Interested candidates are invited to submit the required materials electronically via Interfolio ( https://apply.interfolio.com/196217 ). Required materials include: Cover letter CV Online application forms Fringe benefits including medical benefits and paid leave will be provided where applicable."
+    },
+    "https://apply.interfolio.com/197960": {
+      "title": "Research Assistant",
+      "description": "Department: Hong Kong University of Science and Technology: School of Science: Division of Life Science Location: The Hong Kong University of Science and Technology Posted: Nov 20, 2026 Deadline: Nov 25, 2026 The Division of Life Science is looking for an organized Research Assistant with a life sciences/bioengineering background to support lab operations and administration. The role focuses on lab management, financial tasks, and documentation. Key Responsibilities Manage daily lab operations, inventory, and safety Handle procurement and accounting support Prepare reports and summaries in Chinese and English Contact with suppliers and collaborators Bachelor’s in Life Sciences, Bioengineering, or related field Laboratory experience gained through academic projects, internships, or prior work Professional writing in Chinese and English Starting salary will be commensurate with qualifications and experience. Fringe benefits including annual leave, medical and dental benefits will be provided. Candidates will have opportunities for professional development in both technical and research administration areas with supportive, collaborative team environment. Exposure will be provided to innovative research projects and scientific networks. (Duration: 1 year) In support of a green work environment, we accept applications submitted online only. To apply, please complete an online application form with Cover Letter and CV through the HKUST Careers website (https://hkustcareers.ust.hk) and return it online to the Human Resources Office on or before Wednesday, 25 November 2026 . Applicants will receive an acknowledgement by email upon successful submission. We thank applicants for their interest, but advise that only shortlisted candidates will be notified of the result of the application. (Information provided by applicants will be used for recruitment and other employment-related purposes. Applicants should read the Personal Information Collection Statement before submission of application.)"
+    },
+    "https://apply.interfolio.com/197786": {
+      "title": "Teaching Associate / Instructional Assistant",
+      "description": "Department: Hong Kong University of Science and Technology: School of Engineering: Department of Computer Science and Engineering: Department of Computer Science and Engineering(Supporting) Location: Hong Kong Posted: Nov 18, 2026 The Department of Computer Science and Engineering has two openings for Teaching Associate/Instructional Assistant starting Spring term 2027. The appointee will assist in the teaching of courses and tutorials, laboratory instruction and grading of students' work. They will help with the preparation of teaching materials and assist in academic counseling for students. Experience in organizing student activities and knowledge of artificial intelligence and machine learning would be advantages. The appointee will also be required to assist in handling and coordinating duties related to the teaching programs of the Department. Applicants for Teaching Associate should have a master's degree in computer science or relevant disciplines. A higher degree and teaching experience would be advantageous. Applicants for Instructional Assistant should have a bachelor's degree in computer science or relevant disciplines. Postgraduate training would be a plus. (Duration: 1 year, renewable) **For holders of a bachelor's degree applying for the position of Instructional Assistant, exceptional consideration for admission to the part-time MPhil in Computer Science and Engineering program will be given to successful applicants who are also interested in pursuing postgraduate studies in computer science and engineering provided that he/she satisfies the minimum admission requirements of our postgraduate degree programs.** Students graduating in the Spring or Summer term of 2027 are welcome to apply.  If successful, the appointment start date will be between end of Summer 2027 to beginning of Fall term 2027. Starting salary will be commensurate with qualifications and experience. Fringe benefits including annual leave, medical and dental benefits will be provided. In support of a green work environment, we accept applications submitted online only.  Interested candidates should complete the online application via Interfolio by clicking the “Apply Now” button on this page. A full CV must be included with the application. Review of applications will commence from Wednesday, 2 Dec 2026 and will continue until the positions are filled.  Applicants will receive an acknowledgement by email upon successful submission.  We thank applicants for their interest, but advise that only shortlisted candidates will be notified of the result of the application. Equal employment opportunity statement HKUST is an equal opportunities employer and is committed to our core values of inclusiveness, diversity, and respect."
     }
   },
   "rows": {
@@ -1327,11 +1335,35 @@
       "deadline_of_application": "Mar 30, 2027",
       "posted_date": "Nov 12, 2026",
       "position_start_date": ""
+    },
+    "https://apply.interfolio.com/197960": {
+      "school_id": 1845,
+      "posting_url": "https://apply.interfolio.com/197960",
+      "job_title_in_post": "Research Assistant",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "Nov 25, 2026",
+      "posted_date": "Nov 20, 2026",
+      "position_start_date": ""
+    },
+    "https://apply.interfolio.com/197786": {
+      "school_id": 1845,
+      "posting_url": "https://apply.interfolio.com/197786",
+      "job_title_in_post": "Teaching Associate / Instructional Assistant",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "Department of Computer Science and Engineering",
+      "area_key_words": "Instructional Assistant starting Spring term",
+      "deadline_of_application": "2 Dec 2026",
+      "posted_date": "Nov 18, 2026",
+      "position_start_date": ""
     }
   },
   "school_id": 1845,
   "status": "complete",
-  "updated_at": "2026-11-13T20:53:51+00:00",
-  "completed_at": "2026-11-13T20:53:51+00:00",
+  "updated_at": "2026-11-20T21:06:51+00:00",
+  "completed_at": "2026-11-20T21:06:51+00:00",
   "last_error": ""
 }

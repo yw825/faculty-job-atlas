@@ -18,9 +18,9 @@
     "https://www.careers.hrp.gov.sg/sap/bc/ui5_ui5/sap/ZGERCFA004/index.html?search-keyword=temasek#/JobDescription/18215818/005056a3-d347-1fe1-b7c1-af50141b02c5"
   ],
   "school_id": 1867,
-  "status": "complete",
-  "updated_at": "2026-11-13T20:08:56+00:00",
+  "status": "error",
+  "updated_at": "2026-11-20T19:19:06+00:00",
   "started_at": "2026-11-02T19:58:25+00:00",
   "completed_at": "2026-11-13T20:08:56+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: could not load job list after 3 attempts: Page.wait_for_selector: Timeout 20000ms exceeded.\nCall log:\n  - waiting for locator(\"a.customJobSearchTitle\") to be visible\n"
 }

@@ -151,6 +151,10 @@
     "https://apply.interfolio.com/197469": {
       "title": "Postdoctoral researcher - Biological risk of intervertebral disc degeneration in population cohorts for the project ERC-CoG-O-Health-101044828",
       "description": "Department: Pompeu Fabra University: Department of Engineering Location: Barcelona Posted: Nov 13, 2026 Deadline: Nov 17, 2026 The selected candidate will generate intervertebral disc models of subjects from the Northern Finland Birth Cohort. Finite element simulations will be coupled with quantitative or semi-quantitative biological regulation models to evaluate biological risk indices of accelerated intervertebral disc degeneration, interacting with morphometric and multi-omic data models. The tasks fall within the Interoperability and simulation workflows, and Systemic modelling research packages of the ERC-CoG-O-Health-101044828 project. Requirements to be met by candidates GENERAL a) Hold a Doctoral degree (PhD). b) Not have been dismissed from the service of any public administration through disciplinary proceedings, nor be disqualified by a final court judgment from holding public office. In the case of nationals of another country, not be disqualified or in an equivalent situation, nor have been subject to a disciplinary sanction or equivalent that prevents access to public employment in their home country under the same terms. SPECIFIC Bachelor's and Master's degrees in Engineering. PhD in Computational Biomechanics and Mechanobiology of the Intervertebral Disc. Experience in developing computational codes. At least two publications in indexed journals as first author. Proven international professional experience (this requirement is automatically met if the PhD was completed outside of Spain). Professional working proficiency in written, spoken, and reading English. These participation requirements must be met by the application deadline, must be reliably verifiable at any stage of the selection process, and must continue to be met on the date the contract is signed. Any claimed merits will always be assessed with reference to the final day for submitting applications. Via Interfolio"
+    },
+    "https://apply.interfolio.com/197557": {
+      "title": "Postdoctoral researcher - Advanced surrogate biomechanical modelling of the femoral and vertebral bone for the research project PRESP05824 - AEI CPP2023-010970",
+      "description": "Department: Pompeu Fabra University: Department of Engineering Location: Barcelona Posted: Nov 17, 2026 Deadline: Nov 21, 2026 The selected candidate will work on simulating personalized femur and spine models based on medical imaging, combining finite elements with surrogate models and leveraging graph network techniques. The goal will be to achieve a hybrid metamodel capable of predicting local tissue mechanics in real time. These tasks are part of the Machine Learning-based Surrogate Modelling Work Package of the project PRESP05824 - AEI CPP2023-010970 Requirements to be met by candidates GENERAL Hold a doctoral degree (PhD). Not have been dismissed from the service of any public administration through disciplinary proceedings, nor be disqualified by a final court judgment from performing public duties. In the case of nationals of another country, not be disqualified or in an equivalent situation, nor have been subject to a disciplinary sanction or equivalent that prevents access to public employment in their country under the same terms. SPECIFIC Bachelor's and Master's degrees in Engineering. PhD in spine biomechanics, with a focus on personalized modeling from medical imaging and machine learning. Experience in developing computational code. At least one publication in an indexed journal as first author. Proof of international professional experience (this requirement is automatically met if the PhD was completed entirely or partially outside of Spain). Professional proficiency in reading, writing, and speaking English. These participation requirements must be met by the application deadline, must be reliably verifiable at any stage of the selection process, and must continue to be met on the contract signing date. Claimed merits will always be assessed as of the application deadline. Via Interfolio"
     }
   },
   "rows": {
@@ -601,11 +605,23 @@
       "deadline_of_application": "Nov 17, 2026",
       "posted_date": "Nov 13, 2026",
       "position_start_date": ""
+    },
+    "https://apply.interfolio.com/197557": {
+      "school_id": 1742,
+      "posting_url": "https://apply.interfolio.com/197557",
+      "job_title_in_post": "Postdoctoral researcher - Advanced surrogate biomechanical modelling of the femoral and vertebral bone for the research project PRESP05824 - AEI CPP2023-010970",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "Nov 21, 2026",
+      "posted_date": "Nov 17, 2026",
+      "position_start_date": ""
     }
   },
   "school_id": 1742,
   "status": "complete",
-  "updated_at": "2026-11-13T20:57:23+00:00",
-  "completed_at": "2026-11-13T20:57:23+00:00",
+  "updated_at": "2026-11-20T21:32:11+00:00",
+  "completed_at": "2026-11-20T21:32:11+00:00",
   "last_error": ""
 }

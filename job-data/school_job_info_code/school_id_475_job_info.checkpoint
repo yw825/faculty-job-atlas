@@ -169,6 +169,41 @@
       "title": "Assistant Professor",
       "description": "The Department of Psychology and Counseling at Pittsburg State University invites applications for a full-time, tenure-track Assistant Professor position beginning August 2027. Responsibilities include undergraduate and graduate instruction in behavior analysis, academic advising, and supervision of graduate students pursuing Board Certified Behavior Analyst (BCBA) certification in collaboration with qualified supervisors. ",
       "department": null
+    },
+    "https://ebyf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/221": {
+      "title": "Campus Visit Coordinator",
+      "description": "Pittsburg State University is accepting applications for a Campus Visit Coordinator in the department of Admission that is responsible for facilitating an exceptional campus visit experience for prospective students, their families, school counselors, and other guests. As a key member of the Office of Admission’s recruitment team, the Campus Visit Coordinator coordinates the logistics, communication, execution, and evaluation of campus visit programs and experiences. The position works collaboratively with Admission staff and campus partners to provide welcoming, informative, and personalized experiences that engage prospective students, support their college decision-making, and contribute to enrollment at Pittsburg State University.",
+      "department": null
+    },
+    "https://ebyf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/222": {
+      "title": "Administrative Specialist",
+      "description": "Pittsburg State University is accepting applications for an Administrative Associate in the school of History, Philosophy & Social Sciences. The primary function of Administrative Associate is to coordinate daily office operations and administrative support for the School of History, Philosophy, & Social Sciences. Manage schedules, records, communications, and academic support activities with guidance from the Director. Administer budget monitoring, purchasing, payments, and travel processes, and serve as the primary liaison with university offices and other stakeholders. Support faculty searches and adjunct appointments, and hire, train, schedule, and supervise student employees to maintain office coverage and timely, accurate completion of work.",
+      "department": null
+    },
+    "https://ebyf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/223": {
+      "title": "Adjunct Lecturer",
+      "description": "Pittsburg State University's Department of Teaching and Leadership invites applications for adjunct lecturers in Elementary Education to teach courses through the FNU-PSU China Program.",
+      "department": null
+    },
+    "https://ebyf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/218": {
+      "title": "Research Scientist: Specialized in Graphene/2D Materials",
+      "description": "Pittsburg State University is accepting applications for a Research Scientist: Specialized in Graphene/2D Materials in the department of National Institute for Materials Advancement that is responsible for conducting and supporting applied research and development involving graphene, graphene derivatives, and other two-dimensional (2D) materials. The position will focus on graphene/2D materials synthesis and processing, material modification and functionalization, characterization, and integration into applications such as energy storage, sensors, coatings, composites, and electronic or electroactive devices. The scientist will design and execute experiments, optimize reproducible preparation methods, analyze and document results, maintain laboratory equipment and safety practices, mentor student researchers, and contribute to sponsored research, publications, intellectual property disclosures, and industry collaborations. ",
+      "department": null
+    },
+    "https://ebyf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/219": {
+      "title": "Assistant Instructional Professor",
+      "description": "Pittsburg State University School of Construction Interior Design has one opening for a full-time non-tenure earning Assistant Instructional 9-month faculty position to support our Interior Design program. Position may be renewable on an annual basis. ",
+      "department": null
+    },
+    "https://ebyf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/217": {
+      "title": "Research Scientist: Specialized in Commercialization",
+      "description": "Pittsburg State University is accepting applications for a Research Scientist: Specialized in Commercialization in the department of National Institute for Materials Advancement that is responsible for driving the commercialization and market translation of advanced and emerging materials. This role bridges applied research and market deployment by leading pilot-scale synthesis, prototype device fabrication, yield optimization, and intellectual property (IP) disclosure. The position involves evaluating market viability, negotiating technical specifications with industrial partners, securing translational grant funding, and managing technology transfer initiatives. The role may also include instruction or guest lectures on translational research and commercialization as needed.",
+      "department": null
+    },
+    "https://ebyf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/220": {
+      "title": "Assistant Instructional Professor",
+      "description": "The Pittsburg State University School of Construction, Department of Electrical Technology is accepting applications for an Assistant Instructional Professor with an emphasis on commercial and industrial wiring methods and advanced conduit bending.",
+      "department": null
     }
   },
   "rows": {
@@ -579,11 +614,95 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://ebyf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/221": {
+      "school_id": 475,
+      "posting_url": "https://ebyf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/221",
+      "job_title_in_post": "Campus Visit Coordinator",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://ebyf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/222": {
+      "school_id": 475,
+      "posting_url": "https://ebyf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/222",
+      "job_title_in_post": "Administrative Specialist",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "school of History, Philosophy & Social Sciences",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://ebyf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/223": {
+      "school_id": 475,
+      "posting_url": "https://ebyf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/223",
+      "job_title_in_post": "Adjunct Lecturer",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://ebyf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/218": {
+      "school_id": 475,
+      "posting_url": "https://ebyf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/218",
+      "job_title_in_post": "Research Scientist: Specialized in Graphene/2D Materials",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Graphene/2D Materials; supporting applied research",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://ebyf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/219": {
+      "school_id": 475,
+      "posting_url": "https://ebyf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/219",
+      "job_title_in_post": "Assistant Instructional Professor",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Instructional",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://ebyf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/217": {
+      "school_id": 475,
+      "posting_url": "https://ebyf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/217",
+      "job_title_in_post": "Research Scientist: Specialized in Commercialization",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Commercialization; market",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://ebyf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/220": {
+      "school_id": 475,
+      "posting_url": "https://ebyf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/220",
+      "job_title_in_post": "Assistant Instructional Professor",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Instructional",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 475,
   "status": "complete",
-  "updated_at": "2026-11-13T20:22:02+00:00",
-  "completed_at": "2026-11-13T20:22:02+00:00",
+  "updated_at": "2026-11-20T19:49:47+00:00",
+  "completed_at": "2026-11-20T19:49:47+00:00",
   "last_error": ""
 }

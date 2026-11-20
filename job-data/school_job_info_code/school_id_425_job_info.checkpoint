@@ -55,6 +55,14 @@
     "https://franklincollege.edu/wp-content/uploads/2026/11/Job-Coordinator-for-International-Student-Support-CDI-1.pdf": {
       "title": "Coordinator for International Student Support (CDI)",
       "description": "Coordinator for International Student Support (CDI). Coordinator for International Student Support (CDI)"
+    },
+    "https://franklincollege.edu/wp-content/uploads/2026/11/Job-Head-Womens-Soccer-Coach.pdf": {
+      "title": "Head Women’s Soccer Coach",
+      "description": "Head Women’s Soccer Coach. Head Women’s Soccer Coach"
+    },
+    "https://franklincollege.edu/wp-content/uploads/2026/11/Job-DOF-2026.pdf": {
+      "title": "Director of Facilities",
+      "description": "Director of Facilities. Director of Facilities"
     }
   },
   "rows": {
@@ -225,11 +233,35 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://franklincollege.edu/wp-content/uploads/2026/11/Job-Head-Womens-Soccer-Coach.pdf": {
+      "school_id": 425,
+      "posting_url": "https://franklincollege.edu/wp-content/uploads/2026/11/Job-Head-Womens-Soccer-Coach.pdf",
+      "job_title_in_post": "Head Women’s Soccer Coach",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://franklincollege.edu/wp-content/uploads/2026/11/Job-DOF-2026.pdf": {
+      "school_id": 425,
+      "posting_url": "https://franklincollege.edu/wp-content/uploads/2026/11/Job-DOF-2026.pdf",
+      "job_title_in_post": "Director of Facilities",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Facilities",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 425,
   "status": "complete",
-  "updated_at": "2026-11-13T20:21:22+00:00",
+  "updated_at": "2026-11-20T19:35:53+00:00",
   "last_error": "",
-  "completed_at": "2026-11-13T20:21:22+00:00"
+  "completed_at": "2026-11-20T19:35:53+00:00"
 }

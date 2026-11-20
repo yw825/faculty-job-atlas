@@ -304,6 +304,16 @@
       "title": "AMHSP Position Computational Clinician Scientist in the Genetic Epidemiology of Lipids Disorders",
       "description": "",
       "department": null
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4651": {
+      "title": "Tenure-Track Assistant Professor in Entomology",
+      "description": "\n\n",
+      "department": null
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4656": {
+      "title": "Department Chair, Mechanical Engineering",
+      "description": "",
+      "department": null
     }
   },
   "rows": {
@@ -1028,11 +1038,35 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4651": {
+      "school_id": 1587,
+      "posting_url": "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4651",
+      "job_title_in_post": "Tenure-Track Assistant Professor in Entomology",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Entomology",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4656": {
+      "school_id": 1587,
+      "posting_url": "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4656",
+      "job_title_in_post": "Department Chair, Mechanical Engineering",
+      "position_type": "Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1587,
   "status": "complete",
-  "updated_at": "2026-11-13T20:47:59+00:00",
-  "completed_at": "2026-11-13T20:47:59+00:00",
+  "updated_at": "2026-11-20T20:48:25+00:00",
+  "completed_at": "2026-11-20T20:48:25+00:00",
   "last_error": ""
 }

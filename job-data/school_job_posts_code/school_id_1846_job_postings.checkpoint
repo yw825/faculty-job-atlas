@@ -418,12 +418,14 @@
     "https://jobs.hku.hk/cw/en/job/502566/hku-professoriate-recruitment-medicine",
     "https://jobs.hku.hk/cw/en/job/502567/hku-professoriate-recruitment-science",
     "https://jobs.hku.hk/cw/en/job/502569/hku-professoriate-recruitment-architecture",
-    "https://jobs.hku.hk/cw/en/job/502573/hku-professoriate-recruitment-business-and-economics"
+    "https://jobs.hku.hk/cw/en/job/502573/hku-professoriate-recruitment-business-and-economics",
+    "https://jobs.hku.hk/en/job/533668/chief-information-officer-and-university-librarian"
   ],
   "school_id": 1846,
   "status": "complete",
-  "updated_at": "2026-11-13T19:51:57+00:00",
+  "updated_at": "2026-11-20T19:01:28+00:00",
   "started_at": "2026-09-02T22:39:51+00:00",
-  "completed_at": "2026-11-13T19:51:57+00:00",
-  "last_error": ""
+  "completed_at": "2026-11-20T19:01:28+00:00",
+  "last_error": "",
+  "last_warning": "2026-11-20T19:01:28+00:00: board returned 1 links vs 420 before; old set kept"
 }

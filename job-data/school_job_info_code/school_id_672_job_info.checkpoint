@@ -94,6 +94,11 @@
       "title": "Electrical and Computer Engineering Adjunct Faculty",
       "description": "Posted: 11/05/2026 Location: Duluth Department: D Electr and Comp Engineering Electrical and Computer Engineering Adjunct Faculty",
       "department": "D Electr and Comp Engineering"
+    },
+    "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=361805&PostingSeq=1": {
+      "title": "Part-Time Adjunct Faculty Position(s) in Physics and Astronomy",
+      "description": "Posted: 11/18/2026 Location: Duluth Department: D Physics & Astronomy Part-Time Adjunct Faculty Position(s) in Physics and Astronomy",
+      "department": "D Physics & Astronomy"
     }
   },
   "rows": {
@@ -322,11 +327,23 @@
       "deadline_of_application": "",
       "posted_date": "11/05/2026",
       "position_start_date": ""
+    },
+    "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=361805&PostingSeq=1": {
+      "school_id": 672,
+      "posting_url": "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=361805&PostingSeq=1",
+      "job_title_in_post": "Part-Time Adjunct Faculty Position(s) in Physics and Astronomy",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "D Physics & Astronomy",
+      "area_key_words": "Physics and Astronomy",
+      "deadline_of_application": "",
+      "posted_date": "11/18/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 672,
   "status": "complete",
-  "updated_at": "2026-11-13T20:29:00+00:00",
-  "completed_at": "2026-11-13T20:29:00+00:00",
+  "updated_at": "2026-11-20T19:53:56+00:00",
+  "completed_at": "2026-11-20T19:53:56+00:00",
   "last_error": ""
 }

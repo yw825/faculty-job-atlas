@@ -135,6 +135,14 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/DEB43C3FD051B594AA4F4829C8587DC3/jobs/181274": {
       "title": "Graduate Assistant, Sports Performance",
       "description": "Graduate Assistant, Sports Performance You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/DEB43C3FD051B594AA4F4829C8587DC3/jobs/182227": {
+      "title": "Graduate Assistant, International Student Services",
+      "description": "Graduate Assistant, International Student Services You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/DEB43C3FD051B594AA4F4829C8587DC3/jobs/181921": {
+      "title": "Graduate Assistant, Accessibility Services (Compliance)",
+      "description": "Graduate Assistant, Accessibility Services (Compliance) You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -545,11 +553,35 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/DEB43C3FD051B594AA4F4829C8587DC3/jobs/182227": {
+      "school_id": 1340,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/DEB43C3FD051B594AA4F4829C8587DC3/jobs/182227",
+      "job_title_in_post": "Graduate Assistant, International Student Services",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/DEB43C3FD051B594AA4F4829C8587DC3/jobs/181921": {
+      "school_id": 1340,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/DEB43C3FD051B594AA4F4829C8587DC3/jobs/181921",
+      "job_title_in_post": "Graduate Assistant, Accessibility Services (Compliance)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1340,
   "status": "complete",
-  "updated_at": "2026-11-13T20:35:15+00:00",
-  "completed_at": "2026-11-13T20:35:15+00:00",
+  "updated_at": "2026-11-20T20:02:07+00:00",
+  "completed_at": "2026-11-20T20:02:07+00:00",
   "last_error": ""
 }

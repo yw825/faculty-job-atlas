@@ -289,6 +289,16 @@
       "title": "Public Safety Temporary Officer",
       "description": "",
       "department": null
+    },
+    "https://fa-exci-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/942": {
+      "title": "Research Computing Facilitator",
+      "description": "The Instructional & Research Computing Facilitator/Systems Admin is responsible for facilitating the use of, as well as, supporting and maintaining the physical and virtual computer systems that enable computationally-intensive work at Davidson College. This position works within the Research Computing group inside of the Technology & Innovation (T&I) department at Davidson College, and will collaborate closely with Davidson faculty, Infrastructure, and others to develop and connect computing environments used for instructional, research, and high-performance computing (HPC), be they located on-campus, at other institutions, or on cloud services. ",
+      "department": null
+    },
+    "https://fa-exci-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/1077": {
+      "title": "Athletic Maintenance Worker",
+      "description": "",
+      "department": null
     }
   },
   "rows": {
@@ -981,11 +991,35 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://fa-exci-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/942": {
+      "school_id": 780,
+      "posting_url": "https://fa-exci-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/942",
+      "job_title_in_post": "Research Computing Facilitator",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://fa-exci-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/1077": {
+      "school_id": 780,
+      "posting_url": "https://fa-exci-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/1077",
+      "job_title_in_post": "Athletic Maintenance Worker",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 780,
   "status": "complete",
-  "updated_at": "2026-11-13T20:28:00+00:00",
-  "completed_at": "2026-11-13T20:28:00+00:00",
+  "updated_at": "2026-11-20T19:49:54+00:00",
+  "completed_at": "2026-11-20T19:49:54+00:00",
   "last_error": ""
 }

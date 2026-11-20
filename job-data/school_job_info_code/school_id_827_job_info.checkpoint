@@ -444,6 +444,16 @@
       "title": "Student Research Assistant (Geology)",
       "description": "Posted: 11/12/2026 Location: Minot Department: Science Student Research Assistant (Geology)",
       "department": "Science"
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960252&PostingSeq=1&SiteId=1": {
+      "title": "Student Resident Assistant (Cook Hall)",
+      "description": "Posted: 11/20/2026 Location: Minot Department: Student Life & Housing Student Resident Assistant (Cook Hall)",
+      "department": "Student Life & Housing"
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960230&PostingSeq=1&SiteId=1": {
+      "title": "Counselor - Student Health Clinic",
+      "description": "Posted: 11/19/2026 Location: Minot Department: Student Health Counselor - Student Health Clinic",
+      "department": "Student Health"
     }
   },
   "rows": {
@@ -1513,11 +1523,35 @@
       "deadline_of_application": "",
       "posted_date": "11/12/2026",
       "position_start_date": ""
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960252&PostingSeq=1&SiteId=1": {
+      "school_id": 827,
+      "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960252&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Student Resident Assistant (Cook Hall)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Student Life & Housing",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/20/2026",
+      "position_start_date": ""
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960230&PostingSeq=1&SiteId=1": {
+      "school_id": 827,
+      "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960230&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Counselor - Student Health Clinic",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Student Health",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/19/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 827,
   "status": "complete",
-  "updated_at": "2026-11-13T20:29:28+00:00",
-  "completed_at": "2026-11-13T20:29:28+00:00",
+  "updated_at": "2026-11-20T19:51:25+00:00",
+  "completed_at": "2026-11-20T19:51:25+00:00",
   "last_error": ""
 }

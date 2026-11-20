@@ -99,6 +99,18 @@
     "https://www.mercyhurst.edu/human-resources/jobs#visiting-assistant-professor-of-chemistry": {
       "title": "Visiting Assistant Professor of Chemistry",
       "description": "Visiting Assistant Professor of Chemistry. The Visiting Assistant Professor of Chemistry teaches introductory and upper-division undergraduate courses in the Chemistry program, as well as the undergraduate Instrumental Analysis & lab courses, with the remainder of the teaching load consisting of either General/Introductory Chemistry or Organic Chemistry with labs. Responsibilities include instructing labs, developing courses, and using innovative, student-centered pedagogies; demonstrating commitment to fostering an inclusive learning environment for students from diverse backgrounds; using skills in educational technology and modern instructional techniques; and mentoring undergraduate students in professional development. Learn more about this opportunity via the Visiting Assistant Professor of Chemistry position summary. Learn More"
+    },
+    "https://www.mercyhurst.edu/human-resources/jobs#assistant-professor-of-chemistry": {
+      "title": "Assistant Professor of Chemistry",
+      "description": "Assistant Professor of Chemistry. The Assistant Professor of Chemistry teaches undergraduate Quantitative Analysis and Instrumental Analysis lecture and lab courses, with the remainder of the teaching load consisting of either general/introductory chemistry or organic chemistry with labs. Responsibilities include teaching introductory and upper-division undergraduate courses in the Chemistry program, developing a research program that engages undergraduate students in their area of expertise, and building a record of service to the department and university in subsequent years. Learn more about this opportunity via the Assistant Professor of Chemistry position summary. Learn More"
+    },
+    "https://www.mercyhurst.edu/human-resources/jobs#assistant-professor-of-dance": {
+      "title": "Assistant Professor of Dance",
+      "description": "Assistant Professor of Dance. The Assistant Professor of Dance responsibilities include teaching classical modern technique and contemporary dance forms; improvisation, choreography, and composition; dance appreciation; dance history; dance conditioning; choreographing; staging works for departmental productions; advising; and working on the department/university committee. Learn more about this opportunity via the Assistant Professor of Dance position summary. Learn More"
+    },
+    "https://www.mercyhurst.edu/human-resources/jobs#assistant-professor-of-finance": {
+      "title": "Assistant Professor of Finance",
+      "description": "Assistant Professor of Finance. The Assistant Professor of Finance instructs a range of undergraduate courses in finance, including Introductory Financial Planning, Investments, Employee Benefits & Retirement Planning, Estate Planning, Financial Management, Financial Plan Development, and other finance-related courses as needed; demonstrates the ability to use a variety of instructional techniques to convey expertise in an effective and engaging manner to students; and regularly reviews and updates curriculum to align with CFP Board education standards, ensuring the continued compliance and quality of Mercyhurst’s CFP Board Registered Finance program. Responsibilities include advising students and supporting their academic and career development; providing service to the department and university; developing relationships with organizations in the finance industry to facilitate student projects, internships, and job placements; and serving as the advisor for the student investment club, Laker Asset Management. Learn more about this opportunity via the Assistant Professor of Finance position summary. Learn More"
     }
   },
   "rows": {
@@ -253,7 +265,7 @@
       "position_type": "Lecturer",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "Nursing",
+      "area_key_words": "Nursing; classroom presentations of theory; clinical laboratory",
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
@@ -401,11 +413,47 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.mercyhurst.edu/human-resources/jobs#assistant-professor-of-chemistry": {
+      "school_id": 1152,
+      "posting_url": "https://www.mercyhurst.edu/human-resources/jobs#assistant-professor-of-chemistry",
+      "job_title_in_post": "Assistant Professor of Chemistry",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Chemistry; building a record of service; developing a research program",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://www.mercyhurst.edu/human-resources/jobs#assistant-professor-of-dance": {
+      "school_id": 1152,
+      "posting_url": "https://www.mercyhurst.edu/human-resources/jobs#assistant-professor-of-dance",
+      "job_title_in_post": "Assistant Professor of Dance",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Dance",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://www.mercyhurst.edu/human-resources/jobs#assistant-professor-of-finance": {
+      "school_id": 1152,
+      "posting_url": "https://www.mercyhurst.edu/human-resources/jobs#assistant-professor-of-finance",
+      "job_title_in_post": "Assistant Professor of Finance",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Finance",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1152,
   "status": "complete",
-  "updated_at": "2026-11-13T20:32:44+00:00",
-  "completed_at": "2026-11-13T20:32:44+00:00",
+  "updated_at": "2026-11-20T19:57:57+00:00",
+  "completed_at": "2026-11-20T19:57:57+00:00",
   "last_error": ""
 }

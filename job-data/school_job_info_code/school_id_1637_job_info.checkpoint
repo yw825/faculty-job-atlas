@@ -64,6 +64,11 @@
       "title": "Chemical Control Centre Technician",
       "description": "CUPE 1393 - Chemical Control Centre Technician 'IV' - (substitute - January 4, 2027, to approx. June 30, 2027)",
       "department": null
+    },
+    "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4341": {
+      "title": "Senior Budget Analyst (2026-MP-28)",
+      "description": "Management & Professional - Senior Budget Analyst, Financial Services (2026-MP-28)",
+      "department": null
     }
   },
   "rows": {
@@ -222,11 +227,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4341": {
+      "school_id": 1637,
+      "posting_url": "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4341",
+      "job_title_in_post": "Senior Budget Analyst (2026-MP-28)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1637,
   "status": "complete",
-  "updated_at": "2026-11-13T20:49:14+00:00",
-  "completed_at": "2026-11-13T20:49:14+00:00",
+  "updated_at": "2026-11-20T20:56:58+00:00",
+  "completed_at": "2026-11-20T20:56:58+00:00",
   "last_error": ""
 }

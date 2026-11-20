@@ -135,6 +135,14 @@
     "https://careers.sutd.edu.sg/job/Singapore-Research-Fellow-I-138682/55655744/": {
       "title": "Research Fellow I",
       "description": "Research Fellow I Job Details | SUTD Skip to main content Home Page Corporate Site Jobs by Category Faculty Jobs Researchers Jobs Admin Jobs Search by Keyword Clear Home Page Corporate Site Jobs by Category Faculty Jobs Researchers Jobs Admin Jobs View profile Employee Login Search by Keyword Show More Options Loading... Department All Employee Category All Clear Select how often (in days) to receive an alert: Create Alert × Select how often (in days) to receive an alert: Apply now » Research Fellow I Job Req ID: 2441 Employee Category: Research Department: Future Comms R&D Programme About the Job You will lead and shape the research agenda of the lab, oversee R&D activities, and build and manage high-performing research teams. The role will define research directions, drive publication strategies, mentor researchers, foster collaboration with academic and industry partners, and ensure the successful execution of research programs in advanced communication systems. Who We're Looking For Master’s or PhD degree in Electrical Engineering, Communication Engineering, Computer Science, or related field. Proven track record of research contributions in wireless communication technologies, including peer-reviewed publications and/or patents. Experience in research team management, project coordination, and cross-site academic-industry collaboration. Deep understanding of mobile communication systems and standards (3G/4G/5G/6G), with a strong publication record in one or more of these areas. Expertise and demonstrated research contributions in areas such as AI for wireless communication, satellite communication systems, or energy engineering for wireless networks. Experience securing research funding, managing research programs, and building academic partnerships. Experience with embedded systems, FPGA/RTL, and RF technologies, and CUDA coding for GPU acceleration is a plus. Strong leadership, communication, and documentation skills. Apply now » Find similar jobs: Researchers Jobs About Student Development Campus Life Admissions Education Opens in a new tab. Opens in a new tab. Opens in a new tab. Opens in a new tab. Copyright © 2022 Singapore University of Technology and Design (SUTD). All Rights Reserved."
+    },
+    "https://careers.sutd.edu.sg/job/Singapore-Research-Assistant-138682/61692044/": {
+      "title": "Research Assistant",
+      "description": "Research Assistant Job Details | SUTD Skip to main content Home Page Corporate Site Jobs by Category Faculty Jobs Researchers Jobs Admin Jobs Search by Keyword Clear Home Page Corporate Site Jobs by Category Faculty Jobs Researchers Jobs Admin Jobs View profile Employee Login Search by Keyword Show More Options Loading... Department All Employee Category All Clear Select how often (in days) to receive an alert: Create Alert × Select how often (in days) to receive an alert: Apply now » Research Assistant Job Req ID: 2646 Employee Category: Research Department: EPD Pillar Job Description The Singapore University of Technology and Design (SUTD) is Singapore's design-centric technological university, founded in collaboration with MIT, with research strengths in materials, energy systems and AI. As the host institution, SUTD is working with Carbon1010, a climate tech company building next-generation carbon capture for the built environment. Position Title: Research Assistant Department: EPD Pillar (EPD) Key Responsibilities Lab management Material fabrication and processing Material logistics and procurement Quality control experiment and analysis Material characterization Handle ad-hoc administrative or coordination duties as assigned Requirements Basic understanding of Chemistry and material science. Experience in wet lab work. Basic technical or functional knowledge relevant to the field (e.g., MS Office, basic coding, or data analysis tools). Basic understanding of research, design of experiments, parametric studies. Good communication and interpersonal skills. Eager to learn, proactive, hands-on, and able to work well in a team. Apply now » Find similar jobs: Researchers Jobs About Student Development Campus Life Admissions Education Opens in a new tab. Opens in a new tab. Opens in a new tab. Opens in a new tab. Copyright © 2022 Singapore University of Technology and Design (SUTD). All Rights Reserved."
+    },
+    "https://careers.sutd.edu.sg/job/Singapore-Research-Fellow-I-138682/61692344/": {
+      "title": "Research Fellow I",
+      "description": "Research Fellow I Job Details | SUTD Skip to main content Home Page Corporate Site Jobs by Category Faculty Jobs Researchers Jobs Admin Jobs Search by Keyword Clear Home Page Corporate Site Jobs by Category Faculty Jobs Researchers Jobs Admin Jobs View profile Employee Login Search by Keyword Show More Options Loading... Department All Employee Category All Clear Select how often (in days) to receive an alert: Create Alert × Select how often (in days) to receive an alert: Apply now » Research Fellow I Job Req ID: 2643 Employee Category: Research Department: EPD Pillar We have several available postdoctoral positions at the Singapore University of Technology and Design (SUTD) to work in the area of Robotics. This position focus on supporting the design of algorithm for various robotics applications. Qualification: - Relevant PhD in Electrical Engineering, , Mechanical Engineering, Robotics, or related areas - Strong experience in design algorithms and implementing on actual robots Preference will be given to those with prior robotics project experience such as: 1) SLAM; 2) ROS; 3) Sensor fusion; 4) Machine Learning; 5) Mobile platforms (eg: wheeled robots, legged robots). Applications, assembled as a single PDF file, should contain a complete resume, full list of publications, as well as the names and contact information of up to three references. Review of applications will continue until the position is filled. Only shortlisted candidates will be notified. Apply now » Find similar jobs: Researchers Jobs About Student Development Campus Life Admissions Education Opens in a new tab. Opens in a new tab. Opens in a new tab. Opens in a new tab. Copyright © 2022 Singapore University of Technology and Design (SUTD). All Rights Reserved."
     }
   },
   "rows": {
@@ -545,11 +553,35 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://careers.sutd.edu.sg/job/Singapore-Research-Assistant-138682/61692044/": {
+      "school_id": 1862,
+      "posting_url": "https://careers.sutd.edu.sg/job/Singapore-Research-Assistant-138682/61692044/",
+      "job_title_in_post": "Research Assistant",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "energy systems; materials",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://careers.sutd.edu.sg/job/Singapore-Research-Fellow-I-138682/61692344/": {
+      "school_id": 1862,
+      "posting_url": "https://careers.sutd.edu.sg/job/Singapore-Research-Fellow-I-138682/61692344/",
+      "job_title_in_post": "Research Fellow I",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Robotics",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1862,
   "status": "complete",
-  "updated_at": "2026-11-13T20:57:11+00:00",
-  "completed_at": "2026-11-13T20:57:11+00:00",
+  "updated_at": "2026-11-20T21:32:06+00:00",
+  "completed_at": "2026-11-20T21:32:06+00:00",
   "last_error": ""
 }

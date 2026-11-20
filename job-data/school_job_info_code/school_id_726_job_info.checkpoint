@@ -114,6 +114,16 @@
       "title": "POST DOCTORAL FELLOW - Physics #00098656",
       "description": "Posted: 11/04/2026 Location: Rolla Department: Physics POST DOCTORAL FELLOW - Physics #00098656",
       "department": "Physics"
+    },
+    "https://erecruit.umsystem.edu/psc/tamext/ROLLA/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61783&PostingSeq=1&SiteId=10": {
+      "title": "ASSISTANT TEACHING PROFESSOR - Mathematics and Statistics # 00098657",
+      "description": "Posted: 11/19/2026 Location: Rolla Department: Mathematics & Statistics ASSISTANT TEACHING PROFESSOR - Mathematics and Statistics # 00098657",
+      "department": "Mathematics & Statistics"
+    },
+    "https://erecruit.umsystem.edu/psc/tamext/ROLLA/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61722&PostingSeq=1&SiteId=10": {
+      "title": "SENIOR RESEARCH ASSOCIATE - Electrical and Computer Engineering #00098687",
+      "description": "Posted: 11/17/2026 Location: Rolla Department: Electrical & Computer Engineer SENIOR RESEARCH ASSOCIATE - Electrical and Computer Engineering #00098687",
+      "department": "Electrical & Computer Engineer"
     }
   },
   "rows": {
@@ -391,11 +401,35 @@
       "deadline_of_application": "",
       "posted_date": "11/04/2026",
       "position_start_date": ""
+    },
+    "https://erecruit.umsystem.edu/psc/tamext/ROLLA/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61783&PostingSeq=1&SiteId=10": {
+      "school_id": 726,
+      "posting_url": "https://erecruit.umsystem.edu/psc/tamext/ROLLA/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61783&PostingSeq=1&SiteId=10",
+      "job_title_in_post": "ASSISTANT TEACHING PROFESSOR - Mathematics and Statistics # 00098657",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "Mathematics & Statistics",
+      "area_key_words": "Statistics",
+      "deadline_of_application": "",
+      "posted_date": "11/19/2026",
+      "position_start_date": ""
+    },
+    "https://erecruit.umsystem.edu/psc/tamext/ROLLA/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61722&PostingSeq=1&SiteId=10": {
+      "school_id": 726,
+      "posting_url": "https://erecruit.umsystem.edu/psc/tamext/ROLLA/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61722&PostingSeq=1&SiteId=10",
+      "job_title_in_post": "SENIOR RESEARCH ASSOCIATE - Electrical and Computer Engineering #00098687",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "Electrical & Computer Engineer",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/17/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 726,
   "status": "complete",
-  "updated_at": "2026-11-13T20:30:14+00:00",
-  "completed_at": "2026-11-13T20:30:14+00:00",
+  "updated_at": "2026-11-20T19:55:41+00:00",
+  "completed_at": "2026-11-20T19:55:41+00:00",
   "last_error": ""
 }

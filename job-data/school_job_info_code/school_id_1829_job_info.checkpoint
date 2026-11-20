@@ -283,6 +283,22 @@
     "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2363": {
       "title": "Academic Administration Team Lead",
       "description": "Closing Date: 06/12/2026 Department: CoS - Academic Administration Academic Administration Team Lead. Massey University. 06-Dec-2026 11:00 PM | JR-2363 | Academic Administration Team Lead | Massey University | CoS - Academic Administration | Ongoing"
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2587": {
+      "title": "Practice Lead - Applications & Integration",
+      "description": "Closing Date: 03/12/2026 Department: ITS - Application and Integration Practice Lead - Applications & Integration. Massey University. 03-Dec-2026 11:00 PM | JR-2587 | Practice Lead - Applications & Integration | Massey University | ITS - Application and Integration | Ongoing"
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2593": {
+      "title": "Residential Life Coordinator",
+      "description": "Closing Date: 01/12/2026 Department: SE - Accommodation Services (MAN) Residential Life Coordinator. Massey University. 01-Dec-2026 11:00 PM | JR-2593 | Residential Life Coordinator | Massey University | SE - Accommodation Services (MAN) | Ongoing"
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2591": {
+      "title": "Senior Business Analyst",
+      "description": "Closing Date: 04/12/2026 Department: ITS - Business Analysis Senior Business Analyst. Massey University. 04-Dec-2026 11:00 AM | JR-2591 | Senior Business Analyst | Massey University | ITS - Business Analysis | Fixed-Term"
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2584": {
+      "title": "Tutor/Senior Tutor in Short Courses and Pathways",
+      "description": "Closing Date: 20/12/2026 Department: Te Tumu Whakatipu Tutor/Senior Tutor in Short Courses and Pathways. Massey University. 20-Dec-2026 11:00 PM | JR-2584 | Tutor/Senior Tutor in Short Courses and Pathways | Massey University | Te Tumu Whakatipu | Ongoing"
     }
   },
   "rows": {
@@ -1123,11 +1139,59 @@
       "deadline_of_application": "06/12/2026",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2587": {
+      "school_id": 1829,
+      "posting_url": "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2587",
+      "job_title_in_post": "Practice Lead - Applications & Integration",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "03/12/2026",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2593": {
+      "school_id": 1829,
+      "posting_url": "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2593",
+      "job_title_in_post": "Residential Life Coordinator",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "01/12/2026",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2591": {
+      "school_id": 1829,
+      "posting_url": "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2591",
+      "job_title_in_post": "Senior Business Analyst",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "04/12/2026",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2584": {
+      "school_id": 1829,
+      "posting_url": "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2584",
+      "job_title_in_post": "Tutor/Senior Tutor in Short Courses and Pathways",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Short Courses and Pathways",
+      "deadline_of_application": "20/12/2026",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1829,
   "status": "complete",
-  "updated_at": "2026-11-13T20:55:50+00:00",
-  "completed_at": "2026-11-13T20:55:50+00:00",
+  "updated_at": "2026-11-20T21:26:53+00:00",
+  "completed_at": "2026-11-20T21:26:53+00:00",
   "last_error": ""
 }

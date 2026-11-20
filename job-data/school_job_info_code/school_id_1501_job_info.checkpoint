@@ -54,6 +54,11 @@
       "title": "Senior Director of Financial Aid",
       "description": "Lead the financial aid strategy that connects students and families to a Champlain education. As the Senior Director of Financial Aid, you will help shape how we make that education accessible while supporting the College's enrollment and net tuition revenue goals.",
       "department": null
+    },
+    "https://champlain-ibumjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/60": {
+      "title": "Undergraduate Admissions Counselor",
+      "description": "Are you an enthusiastic, results-driven storyteller who loves connecting with people? Champlain College is looking for a dynamic Admissions Counselor to introduce prospective students and families to everything that makes Champlain distinctive. Managing an assigned geographic territory covering Connecticut, Rhode Island, and western Massachusetts, this role owns the full admissions recruitment cycle—from building relationships and generating interest to guiding prospective students through the college search and application process.",
+      "department": null
     }
   },
   "rows": {
@@ -187,11 +192,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://champlain-ibumjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/60": {
+      "school_id": 1501,
+      "posting_url": "https://champlain-ibumjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/60",
+      "job_title_in_post": "Undergraduate Admissions Counselor",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1501,
   "status": "complete",
-  "updated_at": "2026-11-13T20:37:27+00:00",
-  "completed_at": "2026-11-13T20:37:27+00:00",
+  "updated_at": "2026-11-20T20:08:02+00:00",
+  "completed_at": "2026-11-20T20:08:02+00:00",
   "last_error": ""
 }

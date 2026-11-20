@@ -297,6 +297,14 @@
     "https://apply.interfolio.com/197516": {
       "title": "Lecturer or Senior Lecturer in Statistics - School of Mathematical and Statistical Sciences",
       "description": "Department: Clemson University: College of Science: School of Mathematical & Statistical Sciences Location: MARTIN HALL (000036) BLDG000036 Posted: Nov 12, 2026 The School of Mathematical and Statistical Sciences at Clemson University invites applications for a full-time, nine-month Lecturer or Senior Lecturer position in Statistics, beginning January 1, 2027 . This renewable, non-tenure-track position seeks candidates with expertise in experimental design and a strong commitment to excellence in teaching and student mentorship. Applicants must hold a Ph.D. in statistics or a closely related field. Responsibilities include teaching undergraduate and graduate statistics courses, with an emphasis on experimental design and analysis; developing instructional materials that integrate statistical theory, computation, and practical applications; and contributing to departmental service. About the School of Mathematical and Statistical Sciences: The School of Mathematical and Statistical Sciences is dedicated to Clemson’s overall mission of discovery, learning, and engagement and fosters professional growth for all faculty. The School of Mathematical and Statistical Sciences is organized into three Divisions: ·       Statistics and Operations Research: including tenured/tenure-track faculty and postdoctoral fellows in Applied Statistics and Data Science, Operations Research, and Probability and Mathematical Statistics. ·       Mathematics: including tenured/tenure-track faculty and postdoctoral fellows in Algebra and Discrete Mathematics, Computational Mathematics, and Pure and Applied Analysis. ·       Mathematics and Statistics Education: including Teaching Professors (of all ranks) and faculty in Mathematics/Statistics Education. The School’s research productivity aligns with Clemson’s R1 research designation, and the School faculty have been granted funding from various federal agencies that totals about $3M in research expenditures annually. For more information about the School and its programs, please visit our website: Mathematical and Statistical Sciences . For more information about Clemson and working life here, please visit: Clemson is Calling . Applicants must have a Ph.D. in statistics. Candidates must also have a documented record of excellence in classroom instruction. The ideal candidate will possess a passion for teaching and a commitment to student success, will have experience in teaching large lecture courses and utilizing a diverse range of instructional techniques is highly desirable, will have a desire to join fully in our large school's varied activities and take on service responsibilities as they progress through the ranks. For full consideration, applications should be submitted by November 18, 2026 . Review will continue until the position is filled. Applicants should submit the following items via Interfolio at: https://apply.interfolio.com/197516 (1) Curriculum Vitae; (2) Letter of application; (3) Teaching statement; (4) An unofficial transcript; (5) A list of three references."
+    },
+    "https://apply.interfolio.com/197966": {
+      "title": "Research Assistant Professor",
+      "description": "Department: Clemson University: College of Behavioral, Social and Health Sciences: Public Health Sciences Location: DANIEL HOUSE ( CENTER FOR PHILANTHROPY)(004041) BLDG004041 FL02 RM201 Posted: Nov 20, 2026 Deadline: Dec 31, 2026 Clemson University’s Center for Public Health Modeling and Response (PHMR) invites applications for up to two open-rank research professors in Infectious Disease Modeling to join a CDC-funded center to create a national network in outbreak analytics and disease modeling. The mission of PHMR is to develop and utilize data-driven approaches to inform clinical and public health decision-making and assist health organizations and communities in preparing for, and responding to, public health threats. For this position, we seek an enthusiastic, collaborative researcher with training in data science and an interest in developing and implementing artificial intelligence (AI) and machine learning (ML) techniques to inform and improve outbreak detection, forecasting, and public health response nationwide. Minimum Qualifications: Terminal degree in epidemiology, statistics/biostatistics, applied math, data science, or related field. Experience in infectious disease modeling. Experience in model evaluation Strong publication record. Evidence of mentoring and supervising research teams Effective communication skills Duties and responsibilities: Lead or oversee infectious disease research and publications Assist in management of postdoctoral fellows and graduate students Work with PHMR to assist in the development of a statewide modeling framework for outbreak detection and forecasting in South Carolina. Salary: Competitive Benefits: https://www.clemson.edu/human-resources/benefits/index.htm Application Instructions: Applications are being accepted at https://apply.interfolio.com/197966 Applicants should submit a cover letter, CV, and contact information for three references through Interfolio. Application Deadline: December 31, 2026 Inquiries should be sent to Dr. Lior Renner"
+    },
+    "https://apply.interfolio.com/194087": {
+      "title": "Research Associate, Clemson University (114 Gregor Mendel Circle, Greenwood, SC, 29646)",
+      "description": "Department: Clemson University Location: Clemson University (114 Gregor Mendel Circle, Greenwood, SC, 29646) Posted: Nov 16, 2026 Deadline: Nov 24, 2026 Position : Research Associate , Clemson University (114 Gregor Mendel Circle, Greenwood, SC , 29646) Duties : Oversee the Drosophila Research Core at the Institute of Human Genetics. This includes instructing and supervising research technicians, postdoctoral fellows and graduate and undergraduate students in best practices for Drosophila rearing and genetic analyses. Maintenance of Drosophila stocks, including wild-derived inbred lines of Drosophila melanogaster and D. simulans. Phenotyping wild-derived inbred lines of D. melanogaster using Drosophila Activity Monitor behavioral phenotyping. Data recording and statistical analyses. This includes, but is not limited to, quantitative genetic analyses using analysis of variance and genome wide genotype-phenotype association mapping using mixed linear models. Assist preparing manuscripts for publication by writing experimental designs and methods sections and preparing figures according to journal specifications. Requirements :            Ph.D. (or foreign equivalent) in Biological Sciences, Biomedical Sciences, Genetics, or closely related field. Two years of research experience in Drosophila genetics. Hours: 40 + hrs/week Employer :                    Clemson University Location :                     Institute for Human Genetics 114 Gregor Mendel Circle,  Greenwood, SC, 29646 Contact: Shannon Lattimore Email Resume: lattim2@clemson.edu"
     }
   },
   "rows": {
@@ -1180,11 +1188,35 @@
       "deadline_of_application": "November 18, 2026",
       "posted_date": "Nov 12, 2026",
       "position_start_date": ""
+    },
+    "https://apply.interfolio.com/197966": {
+      "school_id": 1280,
+      "posting_url": "https://apply.interfolio.com/197966",
+      "job_title_in_post": "Research Assistant Professor",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "Center for Public Health Modeling and Response",
+      "area_key_words": "",
+      "deadline_of_application": "Dec 31, 2026",
+      "posted_date": "Nov 20, 2026",
+      "position_start_date": ""
+    },
+    "https://apply.interfolio.com/194087": {
+      "school_id": 1280,
+      "posting_url": "https://apply.interfolio.com/194087",
+      "job_title_in_post": "Research Associate, Clemson University (114 Gregor Mendel Circle, Greenwood, SC, 29646)",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "Institute of Human Genetics",
+      "area_key_words": "Drosophila genetics",
+      "deadline_of_application": "Nov 24, 2026",
+      "posted_date": "Nov 16, 2026",
+      "position_start_date": ""
     }
   },
   "school_id": 1280,
   "status": "complete",
-  "updated_at": "2026-11-13T20:35:08+00:00",
-  "completed_at": "2026-11-13T20:35:08+00:00",
+  "updated_at": "2026-11-20T20:01:49+00:00",
+  "completed_at": "2026-11-20T20:01:49+00:00",
   "last_error": ""
 }

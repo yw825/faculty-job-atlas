@@ -79,6 +79,10 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/A99CE46A67143A8F77A8C7BDEA7155DA/jobs/581476": {
       "title": "Director of Library Services",
       "description": "Director of Library Services You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/A99CE46A67143A8F77A8C7BDEA7155DA/jobs/585488": {
+      "title": "Assistant Director of Admissions",
+      "description": "Assistant Director of Admissions You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -320,11 +324,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/A99CE46A67143A8F77A8C7BDEA7155DA/jobs/585488": {
+      "school_id": 497,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/A99CE46A67143A8F77A8C7BDEA7155DA/jobs/585488",
+      "job_title_in_post": "Assistant Director of Admissions",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Admissions",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 497,
   "status": "complete",
-  "updated_at": "2026-11-13T20:23:28+00:00",
-  "completed_at": "2026-11-13T20:23:28+00:00",
+  "updated_at": "2026-11-20T19:44:14+00:00",
+  "completed_at": "2026-11-20T19:44:14+00:00",
   "last_error": ""
 }

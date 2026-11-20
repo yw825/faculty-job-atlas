@@ -67,6 +67,10 @@
     "https://svu.edu/about/careers/crm-administrator/": {
       "title": "crm administrator",
       "description": "Just a moment... svu.edu Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. Verification successful. Waiting for svu.edu to respond Enable JavaScript and cookies to continue Ray ID: a56256dfa96c0b21 Performance and Security by Cloudflare Privacy"
+    },
+    "https://svu.edu/about/careers/adjunct-instructor-of-american-sign-language-online/": {
+      "title": "adjunct instructor of american sign language online",
+      "description": "Just a moment... svu.edu Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. Verification successful. Waiting for svu.edu to respond Enable JavaScript and cookies to continue Ray ID: a5da14fad8324965 Performance and Security by Cloudflare Privacy"
     }
   },
   "rows": {
@@ -273,11 +277,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://svu.edu/about/careers/adjunct-instructor-of-american-sign-language-online/": {
+      "school_id": 1460,
+      "posting_url": "https://svu.edu/about/careers/adjunct-instructor-of-american-sign-language-online/",
+      "job_title_in_post": "adjunct instructor of american sign language online",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1460,
   "status": "complete",
-  "updated_at": "2026-11-13T20:37:02+00:00",
-  "completed_at": "2026-11-13T20:37:02+00:00",
+  "updated_at": "2026-11-20T20:07:40+00:00",
+  "completed_at": "2026-11-20T20:07:40+00:00",
   "last_error": ""
 }

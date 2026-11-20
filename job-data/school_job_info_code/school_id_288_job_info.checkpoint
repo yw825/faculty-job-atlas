@@ -329,6 +329,36 @@
       "title": "Student Assistant-Pep Band",
       "description": "Posted: 11/13/2026 Location: Columbus State University Department: Pep Band Student Assistant-Pep Band",
       "department": "Pep Band"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306249&PostingSeq=1&SiteId=30000": {
+      "title": "Corporal",
+      "description": "Posted: 11/19/2026 Location: Columbus State University Department: University Police Corporal",
+      "department": "University Police"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306254&PostingSeq=1&SiteId=30000": {
+      "title": "Graduate Administrative Assistant-TLC Department Counseling Program",
+      "description": "Posted: 11/19/2026 Location: Columbus State University Department: Teacher Ed, Leadership & Couns Graduate Administrative Assistant-TLC Department Counseling Program",
+      "department": "Teacher Ed, Leadership & Couns"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306230&PostingSeq=1&SiteId=30000": {
+      "title": "Graduate Residence Life Coordinator",
+      "description": "Posted: 11/18/2026 Location: Columbus State University Department: Stdnt Housing-Courtyard I Graduate Residence Life Coordinator",
+      "department": "Stdnt Housing-Courtyard I"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306168&PostingSeq=1&SiteId=30000": {
+      "title": "Counselor Education Part-time Faculty (Graduate-Level)",
+      "description": "Posted: 11/17/2026 Location: Columbus State University Department: Teacher Ed, Leadership & Couns Counselor Education Part-time Faculty (Graduate-Level)",
+      "department": "Teacher Ed, Leadership & Couns"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306114&PostingSeq=1&SiteId=30000": {
+      "title": "Graduate Assistant-Facilities Management",
+      "description": "Posted: 11/16/2026 Location: Columbus State University Department: Student Recreation Center Graduate Assistant-Facilities Management",
+      "department": "Student Recreation Center"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304315&PostingSeq=1&SiteId=30000": {
+      "title": "Accounting Assistant",
+      "description": "Posted: 09/25/2026 Location: Columbus State University Department: Business Office Accounting Assistant",
+      "department": "Business Office"
     }
   },
   "rows": {
@@ -1123,11 +1153,83 @@
       "deadline_of_application": "",
       "posted_date": "11/13/2026",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306249&PostingSeq=1&SiteId=30000": {
+      "school_id": 288,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306249&PostingSeq=1&SiteId=30000",
+      "job_title_in_post": "Corporal",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "University Police",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/19/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306254&PostingSeq=1&SiteId=30000": {
+      "school_id": 288,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306254&PostingSeq=1&SiteId=30000",
+      "job_title_in_post": "Graduate Administrative Assistant-TLC Department Counseling Program",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Teacher Ed, Leadership & Couns",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/19/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306230&PostingSeq=1&SiteId=30000": {
+      "school_id": 288,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306230&PostingSeq=1&SiteId=30000",
+      "job_title_in_post": "Graduate Residence Life Coordinator",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Stdnt Housing-Courtyard I",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/18/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306168&PostingSeq=1&SiteId=30000": {
+      "school_id": 288,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306168&PostingSeq=1&SiteId=30000",
+      "job_title_in_post": "Counselor Education Part-time Faculty (Graduate-Level)",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "Teacher Ed, Leadership & Couns",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/17/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306114&PostingSeq=1&SiteId=30000": {
+      "school_id": 288,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306114&PostingSeq=1&SiteId=30000",
+      "job_title_in_post": "Graduate Assistant-Facilities Management",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Student Recreation Center",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/16/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304315&PostingSeq=1&SiteId=30000": {
+      "school_id": 288,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=304315&PostingSeq=1&SiteId=30000",
+      "job_title_in_post": "Accounting Assistant",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Business Office",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "09/25/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 288,
   "status": "complete",
-  "updated_at": "2026-11-13T20:18:16+00:00",
-  "completed_at": "2026-11-13T20:18:16+00:00",
+  "updated_at": "2026-11-20T19:44:31+00:00",
+  "completed_at": "2026-11-20T19:44:31+00:00",
   "last_error": ""
 }

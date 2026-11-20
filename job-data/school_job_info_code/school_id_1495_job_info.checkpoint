@@ -59,6 +59,26 @@
       "title": "Assistant Professor of Sociology and Criminal Justice",
       "description": "Assistant Professor of Criminal Justice and Assistant Professor of Sociology/Criminal Justice (Two Positions)\nPosition Summary\nBatten University invites applications for two full-time, tenure-track faculty positions at the rank of Assistant Professor in the Department of Sociology and Criminal Justice, beginning Fall 2027. The University seeks qualified candidates for the positions of Assistant Professor of Criminal Justice and Assistant Professor of Sociology/Criminal Justice.\n",
       "department": null
+    },
+    "https://fa-ewic-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/175": {
+      "title": "Assistant Professor of Mathematics",
+      "description": "Assistant Professor of Mathematics\nPosition Summary\nBatten University invites applications for a full-time, tenure-track faculty position at the rank of Assistant Professor of Mathematics in the Department of Mathematics and Computer Science within the Joan P. Brock School of Mathematics and Natural Sciences, beginning August 2027.\nThe successful candidate will demonstrate a commitment to excellence in undergraduate teaching, student engagement, scholarly and professional development, and academic service. The faculty member will be responsible for delivering high-quality instruction, advising and mentoring students, contributing to curriculum development, maintaining scholarly and professional activity, and participating in departmental and University service.\nThe successful candidate will foster an engaging and inclusive learning environment that promotes student success and advances the academic mission of Batten University.\n",
+      "department": null
+    },
+    "https://fa-ewic-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/176": {
+      "title": "Assistant Professor of Earth and Environmental Sciences",
+      "description": "Assistant Professor of Earth and Environmental Sciences\n\nPosition Summary\n\nBatten University invites applications for a full-time, nine-month, tenure-track Assistant Professor of Earth and Environmental Sciences in the Department of Earth and Environmental Sciences within the Joan P. Brock School of Mathematics and Natural Sciences, beginning August 2027.\n\nThe successful candidate will demonstrate excellence in undergraduate teaching, student engagement, research, professional development, and academic service. Responsibilities include teaching geology and related environmental sciences, advising and mentoring students, contributing to curriculum development, establishing an active research program, and participating in departmental and University service.\n\nThe successful candidate will foster an engaging, inclusive learning environment that promotes student success and advances Batten University's academic mission.",
+      "department": null
+    },
+    "https://fa-ewic-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/177": {
+      "title": "Assistant Professor of Sport and Recreation Professions",
+      "description": "Assistant Professor of Recreational Therapy\nPosition Summary\nBatten University invites applications for a full-time, tenure-track faculty position at the rank of Assistant Professor of Recreational Therapy in the Department of Sport and Recreation Professions, beginning Spring or Fall 2027.\nThe successful candidate will demonstrate a commitment to excellence in undergraduate teaching, student engagement, scholarly and professional development, and academic service. The faculty member will be responsible for delivering high-quality instruction, providing academic leadership within the Recreational Therapy program, advising and mentoring students, contributing to curriculum development, and participating in departmental and University service.\nThe successful candidate will foster an engaging and inclusive learning environment that promotes student success, strengthens community partnerships, and advances the academic mission of Batten University.\n",
+      "department": null
+    },
+    "https://fa-ewic-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/178": {
+      "title": "Adjunct Faculty-Batten Global Campus",
+      "description": "Adjunct Faculty – English and Mathematics (Prison Education Program)\nPosition Summary\nBatten University invites applications for part-time adjunct faculty positions to teach English and Mathematics within the University's Prison Education Program (PEP) in the Chesapeake region, beginning Spring 2027.\nThe University seeks qualified instructors who demonstrate a commitment to excellence in undergraduate teaching, student engagement, and academic success. Faculty members will be responsible for delivering high-quality, on-site instruction supporting associate's and bachelor's degree programs within a correctional education environment.\nSuccessful candidates will foster engaging and inclusive learning environments that promote student achievement, academic development, and the educational mission of Batten University.\n",
+      "department": null
     }
   },
   "rows": {
@@ -205,11 +225,59 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://fa-ewic-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/175": {
+      "school_id": 1495,
+      "posting_url": "https://fa-ewic-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/175",
+      "job_title_in_post": "Assistant Professor of Mathematics",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Department of Mathematics and Computer Science within the Joan P",
+      "area_key_words": "Mathematics",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewic-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/176": {
+      "school_id": 1495,
+      "posting_url": "https://fa-ewic-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/176",
+      "job_title_in_post": "Assistant Professor of Earth and Environmental Sciences",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Department of Earth and Environmental Sciences within the Joan P",
+      "area_key_words": "Earth and Environmental Sciences",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewic-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/177": {
+      "school_id": 1495,
+      "posting_url": "https://fa-ewic-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/177",
+      "job_title_in_post": "Assistant Professor of Sport and Recreation Professions",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Sport and Recreation Professions",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewic-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/178": {
+      "school_id": 1495,
+      "posting_url": "https://fa-ewic-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/178",
+      "job_title_in_post": "Adjunct Faculty-Batten Global Campus",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "Mathematics",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1495,
   "status": "complete",
-  "updated_at": "2026-11-13T20:39:12+00:00",
-  "completed_at": "2026-11-13T20:39:12+00:00",
+  "updated_at": "2026-11-20T20:12:43+00:00",
+  "completed_at": "2026-11-20T20:12:43+00:00",
   "last_error": ""
 }
