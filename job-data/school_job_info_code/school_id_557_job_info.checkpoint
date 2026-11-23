@@ -131,6 +131,14 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/3A2948EF284B8722FEE42E01FB156C27/jobs/129675": {
       "title": "Campus Public Safety Officer",
       "description": "Campus Public Safety Officer You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/3A2948EF284B8722FEE42E01FB156C27/jobs/131601": {
+      "title": "Assistant Program Director & Assistant Faculty  Bay Path University-Cambridge Physician Assistant Program",
+      "description": "Assistant Program Director & Assistant Faculty  Bay Path University-Cambridge Physician Assistant Program You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/3A2948EF284B8722FEE42E01FB156C27/jobs/131592": {
+      "title": "Director of Clinical Education & Assistant Professor,  Bay Path University-Cambridge Physician Assistant Program",
+      "description": "Director of Clinical Education & Assistant Professor,  Bay Path University-Cambridge Physician Assistant Program You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -526,11 +534,35 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/3A2948EF284B8722FEE42E01FB156C27/jobs/131601": {
+      "school_id": 557,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/3A2948EF284B8722FEE42E01FB156C27/jobs/131601",
+      "job_title_in_post": "Assistant Program Director & Assistant Faculty  Bay Path University-Cambridge Physician Assistant Program",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Program Director & Assistant",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/3A2948EF284B8722FEE42E01FB156C27/jobs/131592": {
+      "school_id": 557,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/3A2948EF284B8722FEE42E01FB156C27/jobs/131592",
+      "job_title_in_post": "Director of Clinical Education & Assistant Professor,  Bay Path University-Cambridge Physician Assistant Program",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Clinical Education & Assistant Professor,  Bay Path University-Cambridge Physician Assistant Program",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 557,
   "status": "complete",
-  "updated_at": "2026-11-20T19:42:08+00:00",
-  "completed_at": "2026-11-20T19:42:08+00:00",
+  "updated_at": "2026-11-23T22:09:12+00:00",
+  "completed_at": "2026-11-23T22:09:12+00:00",
   "last_error": ""
 }

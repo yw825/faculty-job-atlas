@@ -1094,6 +1094,21 @@
       "title": "Senior Executive Officer, Department of Chemistry",
       "description": "This position sits under the Department of Chemistry at our Kowloon Tong campus. The core responsibilities are rendering secretarial support to the Department.",
       "department": null
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270329": {
+      "title": "Student Housing Officer, Office of Student Affairs",
+      "description": "This position sits under the Office of Student Affairs at our Kowloon Tong campus. The core responsibilities include coordinating the daily operation and administration of student hostels and accommodation facilities.",
+      "department": null
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270341": {
+      "title": "Manager, Academic Registry",
+      "description": "This position sits under the Academic Registry at our Kowloon Tong campus. The core responsibilities include coordinating the preparation and follow-up activities for institutional reviews and external quality audits conducted by the University Grants Committee such as the QAC quality audit.",
+      "department": null
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270347": {
+      "title": "Executive Officer, Academy of Film",
+      "description": "This position sits under the Academy of Film at our Kowloon Tong campus. The core responsibilities include managing the full spectrum of functions in a Postgraduate programme in the Academy.",
+      "department": null
     }
   },
   "rows": {
@@ -3716,11 +3731,47 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270329": {
+      "school_id": 1834,
+      "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270329",
+      "job_title_in_post": "Student Housing Officer, Office of Student Affairs",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Student Affairs",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270341": {
+      "school_id": 1834,
+      "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270341",
+      "job_title_in_post": "Manager, Academic Registry",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270347": {
+      "school_id": 1834,
+      "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270347",
+      "job_title_in_post": "Executive Officer, Academy of Film",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Film",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1834,
   "status": "complete",
-  "updated_at": "2026-11-20T21:05:58+00:00",
-  "completed_at": "2026-11-20T21:05:58+00:00",
+  "updated_at": "2026-11-23T22:48:21+00:00",
+  "completed_at": "2026-11-23T22:48:21+00:00",
   "last_error": ""
 }

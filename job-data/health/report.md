@@ -1,111 +1,106 @@
-# Health report 2026-11-20
+# Health report 2026-11-23
 
-**Map:** 1277 jobs (+8 vs last run), 91 new today.
-**Run:** finding links 1.3 h.
+**Map:** 1268 jobs (-9 vs last run), 19 new today.
+**Run:** finding links 3.3 h.
 
-**76 items need a look.**
+**71 items need a look.**
 
-_Failed once today (usually a slow site; listed above if it repeats): Ngee Ann Polytechnic, Temasek Polytechnic, University of Bergen._
+_Failed once today (usually a slow site; listed above if it repeats): Schreiner University, The University of Texas Southwestern Medical Center, University of Denver, University of Luxembourg, University of Warwick._
 
-### Link finder now finds nothing (5)
+### Link finder now finds nothing (2)
 _Likely a board change (Spring Arbor, Nov 2026)._
 
-- **Minnesota State University Moorhead** (683): 3 → 0 links
-- **Kent State University at Kent** (1053): 8 → 0 links
-- **University of Turku** (1673): 9 → 0 links
-- **Politecnico di Torino** (1714): 4 → 0 links
-- **Macao University of Tourism** (1851): 4 → 0 links
+- **Claremont McKenna College** (79): 6 → 0 links
+- **Institute of Art, Design and Technology** (1916): 5 → 0 links
 
-### Big drop in links (4)
+### Big drop in links (5)
 _Could be closings; worth a glance if it looks too big._
 
-- **Baker College** (656): 17 → 10 links
-- **Brock University** (1628): 89 → 53 links
-- **Toronto Metropolitan University** (1632): 174 → 72 links
-- **Lackawanna College** (1966): 15 → 8 links
+- **University of Wisconsin-Madison** (1544): 65 → 30 links
+- **University of Canberra** (1779): 10 → 4 links
+- **Western Sydney University** (1792): 18 → 10 links
+- **Swinburne University of Technology** (1815): 12 → 7 links
+- **EDHEC Business School** (1903): 20 → 10 links
 
 ### Link finder keeps failing (2)
 _Links from the last good run are kept, but new jobs are missed until this is fixed._
 
-- **Oglethorpe University** (279): 3 runs in a row — RuntimeError: no paycom postings found
-- **Humboldt University of Berlin** (1686): 4 runs in a row — RuntimeError: hu-berlin: still on the Anubis challenge page
+- **Oglethorpe University** (279): 4 runs in a row — RuntimeError: no paycom postings found
+- **University of Bergen** (1724): 2 runs in a row — RuntimeError: no Jobbnorge postings on the positions page
 
-### Shrink guard held the old links (7)
+### Shrink guard held the old links (16)
 _The board returned far fewer links than before._
 
 - **Quinnipiac University** (184): board returned 0 links vs 17 before; old set kept
+- **Colby College** (623): board returned 0 links vs 17 before; old set kept
+- **Michigan State University** (637): board returned 30 links vs 303 before; old set kept
 - **Felician University** (871): board returned 3 links vs 30 before; old set kept
+- **SUNY-Delhi** (936): board returned 4 links vs 38 before; old set kept
+- **Manhattanville College** (991): board returned 1 links vs 20 before; old set kept
 - **Wittenberg University** (1067): board returned 0 links vs 18 before; old set kept
-- **University of Luxembourg** (1715): board returned 9 links vs 53 before; old set kept
-- **University of Zurich** (1757): board returned 2 links vs 12 before; old set kept
+- **Cairn University-Langhorne** (1170): board returned 0 links vs 11 before; old set kept
+- **Université du Québec à Trois-Rivières** (1654): board returned 0 links vs 14 before; old set kept
+- **University of New South Wales** (1789): board returned 0 links vs 116 before; old set kept
 - **Deakin University** (1811): board returned 0 links vs 15 before; old set kept
 - **The University of Hong Kong** (1846): board returned 1 links vs 420 before; old set kept
+- **Aalborg University** (1891): board returned 0 links vs 29 before; old set kept
+- **MacEwan University** (1895): board returned 0 links vs 35 before; old set kept
+- **Louisiana State University-Health Sciences Center New Orleans** (1924): board returned 15 links vs 97 before; old set kept
+- **SUNY-Morrisville** (1951): board returned 0 links vs 38 before; old set kept
 
 ### Jobs without details (3)
 
 - **Simpson University** (117): 6 of 28 jobs have no details
 - **North Central University** (679): 5 of 9 jobs have no details
-- **University of Gothenburg** (1890): 8 of 27 jobs have no details
+- **Humboldt University of Berlin** (1686): 6 of 8 jobs have no details
 
-### Suspicious titles (15)
+### Suspicious titles (16)
 _Blank titles or site headings instead of job titles._
 
 - **Troy University** (28): 0 blank, 3 page-heading titles of 211
-- **Arizona State University Campus Immersion** (63): 0 blank, 35 page-heading titles of 272
-- **University of California-Berkeley** (74): 0 blank, 7 page-heading titles of 151
-- **University of California-Riverside** (121): 0 blank, 24 page-heading titles of 99
+- **Arizona State University Campus Immersion** (63): 0 blank, 35 page-heading titles of 283
+- **University of California-Berkeley** (74): 0 blank, 7 page-heading titles of 153
+- **University of California-Riverside** (121): 0 blank, 24 page-heading titles of 100
 - **San Jose State University** (141): 7 blank, 0 page-heading titles of 165
-- **Stanford University** (153): 7 blank, 0 page-heading titles of 114
+- **Stanford University** (153): 4 blank, 0 page-heading titles of 90
 - **Cornell College** (348): 3 blank, 0 page-heading titles of 14
-- **Johns Hopkins University** (590): 0 blank, 64 page-heading titles of 270
-- **Rice University** (1394): 0 blank, 3 page-heading titles of 30
-- **Randolph-Macon College** (1456): 0 blank, 3 page-heading titles of 20
+- **Johns Hopkins University** (590): 0 blank, 63 page-heading titles of 271
+- **Rice University** (1394): 0 blank, 3 page-heading titles of 29
+- **Randolph-Macon College** (1456): 0 blank, 3 page-heading titles of 19
 - **Bethany College** (1566): 22 blank, 0 page-heading titles of 32
 - **Queen's University** (1620): 0 blank, 3 page-heading titles of 28
+- **RWTH Aachen University** (1684): 5 of 8 jobs titled “This position is available on a part-time”
 - **University of Adelaide** (1807): 9 of 10 jobs titled “Working with us | Adelaide University”
-- **Ngee Ann Polytechnic** (1864): 7 of 11 jobs titled “Careers@Gov”
+- **Ngee Ann Polytechnic** (1864): 8 of 8 jobs titled “Careers@Gov”
 - **Texas A & M University-Galveston** (1967): 7 of 10 jobs titled “Academic Professional Track (Non-Tenure): Open Rank & Title”
 
-### Possibly in your fields but filtered out — new since last run (40)
+### Possibly in your fields but filtered out — new since last run (27)
 _Faculty jobs mentioning a nearby field (analytics, data, IT, operations…). Reply with any that should be on the map._
 
-- Tenure-Track Assistant Professor or Instructor in Cyber Operations — Citadel Military College of South Carolina (Department of Cyber and Computer Sciences)
-- Assistant Professor in Supply Chain Management- Tenure-Track — Clarkson University
-- Postdoctoral Research Scientist in Theoretical-Computational Materials Science — Columbia University in the City of New York (Department of Applied Physics and Applied Mathematics)
-- American Politics and Quantitative Social Science Postdoctoral Fellow — Dartmouth College (School for Graduate and Advanced Studies , including their community initiatives)
-- Adjunct Faculty - Foundations of Quantitative Reasoning (MTH-155) — Dean College
-- Postdoc Researcher Design Theory for Linking Data Platforms in Healthcare and Agri-Food — Delft University of Technology (Faculty of Technology, Policy and Management)
-- Assistant Professor of Engineering — Doane University (School of Mathematics, Analytics, Computing, and Engineering Job Location Crete, NE)
-- Online Adjunct Faculty -  School of Mathematics, Analytics, Computing, and Engineering and Open Learning Academy. — Doane University (School of Mathematics, Analytics, Computing, and Engineering and Open Learning Academy)
-- Assistant Teaching Professor, Environmental Science & Biology (Non-Tenure Track) - University City — Drexel University (College of Arts and Sciences Core, including either ethics or data visualization)
-- Career Track Faculty Position — Duke University (Department of Biostatistics and Bioinformatics)
-- Postdoctoral Researcher in Quantitative Empirical Legal Studies — Erasmus University Rotterdam (School of Law)
-- Lecturer in Industry and Authentic Learning — Flinders University (College of Science and Engineering, initially focusing on Computing, Data Science and IT)
-- 10-month Limited Term Nursing Faculty — Georgia College & State University (Nursing Program Operations)
+- Postdoctoral Researcher in experimental flow battery electrolyte optimization — Aalto University (School of Chemical Engineering Job category Other teaching and research personnel)
+- Postdoc in Sufficiency-based Building Design and Energy System Optimisation — Aarhus University (Department of Civil and Architectural Engineering)
+- Postdoctoral position in probabilistic inversion of seismic data for mapping submerged landscapes and archaeological potential — Aarhus University (Department of Geoscience will be available for the position)
+- Assistant Professor of Supply Chain Management — California Polytechnic State University-San Luis Obispo (College of Business)
+- Lecturer - OM 305: Operations Management - MSJC (Spring 2027; Location: Temecula, CA) — California State University-San Marcos (Department of Operations and Supply Chain Management)
+- Postdoc Machine Learning for Analysis of Multimodal Catalysis Data — Delft University of Technology (Department of Chemical Engineering)
+- Assistant Director for Finance and Operations, Dean's Office - Georgetown University College of Arts & Sciences — Georgetown University (College of Arts & Sciences)
 - Postdoctoral Researcher in Economics - Artificial Intelligence and Labour Markets / Postdoktoral forskare i nationalekonomi - Artificiell intelligens och arbetsmarknader — Hanken School of Economics (School of Economics)
-- Postdoctoral Fellow, HBS AI Institute - Labor Economics, Organizations, and AI — Harvard University
-- Research Associate in Data Uncertainty Quantification in Future Materials Value Chains — Imperial College London (Centre for Future Materials)
-- Research Associate in Generative AI and Information Theory for Communications — Imperial College London
-- Senior Analytical Scientist — Imperial College London
-- Multiple Tenured Associate or Full Professors in Microelectronics, Circuits, and Systems Design — Indiana University-Bloomington (School of Informatics, Computing, and Engineering)
-- Research Associate – Quantitative Data Analyst — Johns Hopkins University (Institute for International Programs)
-- Noncredit Adjunct Instructor of Computer Information Technology — Louisiana State University-Eunice
-- Assistant Professor of Supply Chain Management — Louisiana State University-Shreveport (College of Business)
-- Assistant professor in Logistics and supply chain management with a focus on digitalisation of sustainable distribution, warehousing and materials handling — Lund University (Faculty of Engineering invites applications for a position as Assistant Professor)
+- Postdoctoral Research Position in AI for Healthy Climate Adaptation — Harvard University
+- Assistant/Associate Professor in Health Informatics and Management — Illinois State University (Department of Health Sciences)
+- Postdoctoral Research Associate - Scientific Data Analytics — Iowa State University (Department of Chemical and Biological Engineering)
+- Faculty - Computer Science/Information Technology — Juniata College
+- Research Fellow - Pacific Cybersecurity — Monash University (Faculty of Information Technology is seeking a driven, collaborative Research Fellow)
+- Research Fellow (AI & Data Science for Sustainable Built Environment) — Nanyang Technological University (School of Mechanical & Aerospace Engineering)
 - Research Fellow (Computer Engineering/Computer Science/Electronics Engineering) — Nanyang Technological University (College of Computing and Data Science)
 - Research Fellow (Computer Science) — Nanyang Technological University (College of Computing and Data Science)
-- Research Fellow (Computer Science/Computer Engineering) — Nanyang Technological University (College of Computing and Data Science)
-- Research Fellow (Computer Science/Cyber Security/Electrical/Electronic Engineering) — Nanyang Technological University (College of Computing and Data Science)
-- Research Fellow (Quantum Machine Learning and Quantum Algorithms) — Nanyang Technological University (School of Physical and Mathematical Sciences)
-- Visiting Assistant and Associate Professor Faculty Appointment in Computer Science for Fall 2027 — New York University (Department of the Courant Institute School of Mathematics, Computing, and Data Science)
-- Visiting Professor Appointment in Computer Science — New York University (Department of the Courant Institute School of Mathematics, Computing, and Data Science)
-- Faculty Operations Coordinator — Northeastern University
-- Part Time Lecturer - Analytics (Seattle) — Northeastern University (College of Professional Studies)
-- Part Time Lecturer - Analytics (Vancouver) — Northeastern University (College of Professional Studies)
-- Postdoctoral Fellow – AI, Computational Biology, & Systems Biology — Pennsylvania State University-University Park
-- Assistant Professor of Theoretical Chemistry – AI for Biomolecular Ensembles — Rice University (Department of Chemistry)
-- Visiting Assistant Professor, Agricultural Data Management & AI Integration — SUNY-Alfred State College
-- Computer Information and Science Faculty — Saint Ambrose University
-- Vacancy I.D.: 042868 - Senior Staff Officer, Life Long Learning Coordinator (Student Services) Contract : Fixed Term (3 Years) Salary : Grade VI salary scale : €58,476 to €71,440 per annum on a full-time basis (rates effective 01/06/2026) SETU is an internationally oriented organisation with a focus on further enhancing its role as an exceptional quality of life driver within the regional, national and international higher education landscape. In pursuit of its strategic goals and vision, SETU has established itself as a leader in the provision of high quality flexible higher education opportunities. Following a period of sustained growth and development in its lifelong learning provision with partners across the private, public and voluntary sectors, SETU now seeks to recruit an exceptional individual to lead and manage further innovations and developments within its Faculty of Education and Lifelong Learning. The Faculty provides a fast-paced, dynamic and professional work environment that offers a wide range of academic programmes to fee paying learners leading to major, minor and special purpose awards from Level 6 to Level 10 on the National Framework of Qualifications. This position blends the private sector ethos of forward thinking and business agility with the robust educational frameworks that underpins the quality of publicly funded higher education service delivery. The person appointed will be capable of developing strong local, regional and national relationships, possessing experience and knowledge of the Higher Education sector. The post holder will be required to perform a key professional management support services role for Lifelong Learning. The role requires excellent attention to detail, academic quality management, and stakeholder management and it will include taking a lead role in organising and managing administrative tasks in the office, including the organisation and running of Exams, External Examiner processes and Payroll. The job is likely to include supervision of small groups on routine clearly defined tasks where the jobholder’s duties include the organisation of work and staff to achieve specific, usually cyclical targets The appointee may be assigned to any of a very wide range of areas or activities carried out in the Faculty. The job will involve work on specific areas of service provided by or within the Faculty, involving the application of interpreted policy under general supervision only, to specific cases and the making of recommendations on a particular course of action. The jobs will usually involve taking decisions, within clearly defined policy, on level/eligibility/entitlement with regard to such issues as pay and conditions, and communicating with staff, external academic experts, and members of the public on non-routine matters. SETU is an equal opportunities employer. #SETU — South East Technological University (Faculty of Education and Lifelong Learning)
-- Vacancy I.D.: 042869 - Senior Staff Officer, Life Long Learning Coordinator (Exams) Contract : Fixed Term (3 Years) Salary : Grade VI salary scale : €58,476 to €71,440 per annum on a full-time basis (rates effective 01/06/2026) SETU is an internationally oriented organisation with a focus on further enhancing its role as an exceptional quality of life driver within the regional, national and international higher education landscape. In pursuit of its strategic goals and vision, SETU has established itself as a leader in the provision of high quality flexible higher education opportunities.  Following a period of sustained growth and development in its lifelong learning provision with partners across the private, public and voluntary sectors, SETU now seeks to recruit an exceptional individual to work on further innovations and developments within its Faculty of Education and  Lifelong Learning. The Faculty provides a fast-paced, dynamic and professional work environment that offers a wide range of academic programmes to fee paying learners leading to major, minor and special purpose awards from Level 6 to Level 10 on the National Framework of Qualifications. This position blends the private sector ethos of forward thinking and business agility with the robust educational frameworks that underpins the quality of publicly funded higher education service delivery. The person appointed will be capable of developing strong local, regional and national relationships, possessing experience and knowledge of the Higher Education sector. The post holder will have responsibility for leading and coordinating the examination and assessment processes within Lifelong Learning, ensuring that all procedures are managed efficiently and in accordance with University regulations. The role includes overseeing examination boards, managing examination records and result documentation, maintaining accurate student assessment records, updating and managing broadsheets, and coordinating waivers, exemptions, and deferrals. The post holder will also support the development of annual work plans for examination-related activities, manage examination timetabling and contribute to conferring processes, and liaise closely with internal departments to ensure the effective delivery of examination and assessment services across Lifelong Learning. This role requires a strong focus on accuracy, organisation, compliance, and continuous process improvement to support the student lifecycle and academic quality assurance processes. The job is likely to include supervision of small groups on routine clearly defined tasks where the jobholder’s duties include the organisation of work and staff to achieve specific, usually cyclical targets The appointee may be assigned to any of a very wide range of areas or activities carried out in the Faculty. The job will involve work on specific areas of service provided by or within the Faculty, involving the application of interpreted policy under general supervision only, to specific cases and the making of recommendations on a particular course of action. The jobs will usually involve taking decisions, within clearly defined policy, on level/eligibility/entitlement with regard to such issues as pay and conditions,  and communicating with staff, external academic experts, and members of the public on non-routine matters. SETU is an equal opportunities employer. #SETU — South East Technological University (Faculty of Education and  Lifelong Learning)
-- Two postdoc positions in agentic AI and autonomous discovery of advanced energy materials - DTU Energy — Technical University of Denmark
+- Senior Research Fellow (AI & Data Science for Sustainable Built Environment) — Nanyang Technological University (School of Mechanical & Aerospace Engineering)
+- Professor or Associate Professor in Supply Chain Management (309070) — Norwegian University of Science and Technology
+- Research Fellow – Industrial Decision Support Systems — RMIT University
+- Artificial Intelligence (AI) and Digital Literacies Librarian - Full-time, Tenure Track, Probationary State University Faculty — Saint Cloud State University
+- Adjunct Faculty Position– Management, Entrepreneurship, Consulting, and Operations (MECO) — St. John's University-New York (Department of Management, Entrepreneurship, Consulting, and Operations)
+- Admission Operations Fellow — St. Mary's College of Maryland (College of Maryland)
+- Convocatòria d'un contracte d'investigador postdoctoral al Departament de Sociologia, a càrrec dels fons del projecte NEBwork "Employers blueprint of sustainable and affordable housing policies and strategies optimized for nebourhoods transformation" — Universitat de Barcelona
+- SEOSAW Office Data Scientist — University of Edinburgh (School of GeoSciences explores the factors and forces that shape our world)
+- Researcher in Bioinformatics — University of Gothenburg (Institute of Biomedicine is involved in both research and education)
+- Informatics Assistant Professor, Tenure Track — University of Pennsylvania (School of Medicine)
+- Informatics – Associate Professor, Tenure Track — University of Pennsylvania (School of Medicine)

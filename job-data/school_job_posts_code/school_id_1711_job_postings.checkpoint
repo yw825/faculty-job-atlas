@@ -1,9 +1,14 @@
 {
-  "links": [],
+  "links": [
+    "https://bandi.mur.gov.it/jobs.php/public/job/id_job/154244",
+    "https://bandi.mur.gov.it/jobs.php/public/job/id_job/154283",
+    "https://bandi.mur.gov.it/jobs.php/public/job/id_job/154285",
+    "https://bandi.mur.gov.it/jobs.php/public/job/id_job/154286"
+  ],
   "school_id": 1711,
   "status": "complete",
-  "updated_at": "2026-11-20T19:03:19+00:00",
+  "updated_at": "2026-11-23T21:39:57+00:00",
   "started_at": "2026-11-20T19:03:14+00:00",
-  "completed_at": "2026-11-20T19:03:19+00:00",
+  "completed_at": "2026-11-23T21:39:57+00:00",
   "last_error": ""
 }

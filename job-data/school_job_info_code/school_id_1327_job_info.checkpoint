@@ -344,6 +344,26 @@
       "title": "Director - Budget Planning and Management",
       "description": "Responsible for the preparation, revision, and maintenance of the University’s operating budgets.\n\nTennessee Tech is an Equal Opportunity/Affirmative Action employer.",
       "department": null
+    },
+    "https://fa-eygi-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26131": {
+      "title": "Lecturer - Nursing",
+      "description": "Teach undergraduate and/or graduate nursing courses.\n\nTennessee Tech is an Equal Opportunity/Affirmative Action employer.",
+      "department": null
+    },
+    "https://fa-eygi-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26132": {
+      "title": "Assistant Professor (2 positions available) - Nursing",
+      "description": "Teach courses, perform research, and fulfill service mission for the College of Nursing.\n\nTennessee Tech is an Equal Opportunity/Affirmative Action employer.",
+      "department": null
+    },
+    "https://fa-eygi-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26141": {
+      "title": "Assistant Professor",
+      "description": "The School of Human Ecology at Tennessee Tech University invites applications for a full-time, 9-month, tenure track Assistant Professor to begin August 1, 2027.\n\nTennessee Tech is an Equal Opportunity/Affirmative Action employer.",
+      "department": null
+    },
+    "https://fa-eygi-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26145": {
+      "title": "Open Rank - Mechanical and Nuclear Engineering",
+      "description": "The Department of Mechanical and Nuclear Engineering invites applications for one tenure-track or tenured faculty position at the rank of Assistant, Associate, or Full Professor, with an anticipated start date of August 1, 2027. \n\nTennessee Tech is an Equal Opportunity/Affirmative Action employer.",
+      "department": null
     }
   },
   "rows": {
@@ -1171,11 +1191,59 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://fa-eygi-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26131": {
+      "school_id": 1327,
+      "posting_url": "https://fa-eygi-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26131",
+      "job_title_in_post": "Lecturer - Nursing",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Nursing",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://fa-eygi-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26132": {
+      "school_id": 1327,
+      "posting_url": "https://fa-eygi-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26132",
+      "job_title_in_post": "Assistant Professor (2 positions available) - Nursing",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "College of Nursing",
+      "area_key_words": "Nursing",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://fa-eygi-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26141": {
+      "school_id": 1327,
+      "posting_url": "https://fa-eygi-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26141",
+      "job_title_in_post": "Assistant Professor",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "School of Human Ecology",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": "August 1, 2027"
+    },
+    "https://fa-eygi-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26145": {
+      "school_id": 1327,
+      "posting_url": "https://fa-eygi-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26145",
+      "job_title_in_post": "Open Rank - Mechanical and Nuclear Engineering",
+      "position_type": "Assistant_Professor; Associate_Professor; Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": "August 1, 2027"
     }
   },
   "school_id": 1327,
   "status": "complete",
-  "updated_at": "2026-11-20T20:16:38+00:00",
-  "completed_at": "2026-11-20T20:16:38+00:00",
+  "updated_at": "2026-11-23T22:26:30+00:00",
+  "completed_at": "2026-11-23T22:26:30+00:00",
   "last_error": ""
 }

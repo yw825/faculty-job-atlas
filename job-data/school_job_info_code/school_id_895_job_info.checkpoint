@@ -315,6 +315,10 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/2881FFE43C19E2921F626A9C2B366153/jobs/242774": {
       "title": "Head Womens Soccer Coach",
       "description": "Head Womens Soccer Coach You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/2881FFE43C19E2921F626A9C2B366153/jobs/236702": {
+      "title": "Assistant/Associate Professor of Media Arts",
+      "description": "Assistant/Associate Professor of Media Arts You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -1261,11 +1265,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/2881FFE43C19E2921F626A9C2B366153/jobs/236702": {
+      "school_id": 895,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/2881FFE43C19E2921F626A9C2B366153/jobs/236702",
+      "job_title_in_post": "Assistant/Associate Professor of Media Arts",
+      "position_type": "Assistant_Professor; Associate_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Media Arts",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 895,
   "status": "complete",
-  "updated_at": "2026-11-20T20:02:10+00:00",
-  "completed_at": "2026-11-20T20:02:10+00:00",
+  "updated_at": "2026-11-23T22:22:12+00:00",
+  "completed_at": "2026-11-23T22:22:12+00:00",
   "last_error": ""
 }

@@ -33,12 +33,17 @@
     "https://delhi.interviewexchange.com/jobofferdetails.jsp?JOBID=203126",
     "https://delhi.interviewexchange.com/jobofferdetails.jsp?JOBID=206113",
     "https://delhi.interviewexchange.com/jobofferdetails.jsp?JOBID=205657",
-    "https://delhi.interviewexchange.com/jobofferdetails.jsp?JOBID=203447"
+    "https://delhi.interviewexchange.com/jobofferdetails.jsp?JOBID=203447",
+    "https://delhi.interviewexchange.com/static/clients/409SDM1/index.jsp?catid=1008",
+    "https://delhi.interviewexchange.com/static/clients/409SDM1/index.jsp?catid=1610",
+    "https://delhi.interviewexchange.com/static/clients/409SDM1/index.jsp?catid=824",
+    "https://delhi.interviewexchange.com/static/clients/409SDM1/index.jsp?catid=2150"
   ],
   "school_id": 936,
   "status": "complete",
-  "updated_at": "2026-11-20T17:29:17+00:00",
+  "updated_at": "2026-11-23T20:36:56+00:00",
   "started_at": "2026-09-08T02:29:53+00:00",
-  "completed_at": "2026-11-20T17:29:17+00:00",
-  "last_error": ""
+  "completed_at": "2026-11-23T20:36:56+00:00",
+  "last_error": "",
+  "last_warning": "2026-11-23T20:36:56+00:00: board returned 4 links vs 38 before; old set kept"
 }

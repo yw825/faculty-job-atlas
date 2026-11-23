@@ -319,6 +319,10 @@
     "https://evergladesuniversity.isolvedhire.com/jobs/1909426": {
       "title": "Director of Student Services",
       "description": "Director of Student Services - Boca Raton, FL - Everglades University Jobs Jobs Login Sign Up For Job Alerts! Resources Everglades University Annual Security Report Maintained by isolved People Cloud - © 2026 Refresh Search the FAQ here Go Common Questions"
+    },
+    "https://evergladesuniversity.isolvedhire.com/jobs/1909651": {
+      "title": "Academic Advisor",
+      "description": "Academic Advisor - Boca Raton, FL - Everglades University Jobs Jobs Login Sign Up For Job Alerts! Resources Everglades University Annual Security Report Maintained by isolved People Cloud - © 2026 Refresh Search the FAQ here Go Common Questions"
     }
   },
   "rows": {
@@ -1281,11 +1285,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://evergladesuniversity.isolvedhire.com/jobs/1909651": {
+      "school_id": 219,
+      "posting_url": "https://evergladesuniversity.isolvedhire.com/jobs/1909651",
+      "job_title_in_post": "Academic Advisor",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 219,
   "status": "complete",
-  "updated_at": "2026-11-20T19:34:20+00:00",
+  "updated_at": "2026-11-23T22:03:30+00:00",
   "last_error": "",
-  "completed_at": "2026-11-20T19:34:20+00:00"
+  "completed_at": "2026-11-23T22:03:30+00:00"
 }

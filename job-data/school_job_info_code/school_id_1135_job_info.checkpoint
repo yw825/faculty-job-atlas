@@ -203,7 +203,8 @@
       "department_or_school": "",
       "area_key_words": "",
       "deadline_of_application": "",
-      "position_start_date": "2026-09-24"
+      "posted_date": "2026-09-24",
+      "position_start_date": ""
     },
     "https://dickinson.wd108.myworkdayjobs.com/Jobs/job/Kline-Life-Sports-Learning-Complex/Lifeguard_JR100557": {
       "school_id": 1135,
@@ -481,7 +482,7 @@
   },
   "school_id": 1135,
   "status": "complete",
-  "updated_at": "2026-11-20T20:08:33+00:00",
-  "completed_at": "2026-11-20T20:08:33+00:00",
+  "updated_at": "2026-11-23T22:24:48+00:00",
+  "completed_at": "2026-11-23T22:24:48+00:00",
   "last_error": ""
 }

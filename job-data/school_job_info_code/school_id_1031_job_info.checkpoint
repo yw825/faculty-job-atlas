@@ -95,6 +95,18 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/BC25C89BF322A723B1E209741EE99F00/jobs/357307": {
       "title": "Academic Advisor & Student Success Specialist",
       "description": "Academic Advisor & Student Success Specialist You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/BC25C89BF322A723B1E209741EE99F00/jobs/358480": {
+      "title": "Assistant or Associate Professor, Social Work and The Parent Academy",
+      "description": "Assistant or Associate Professor, Social Work and The Parent Academy You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/BC25C89BF322A723B1E209741EE99F00/jobs/358443": {
+      "title": "Assistant Director, Career Development",
+      "description": "Assistant Director, Career Development You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/BC25C89BF322A723B1E209741EE99F00/jobs/358420": {
+      "title": "Experiential Education Advisor",
+      "description": "Experiential Education Advisor You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -384,11 +396,47 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/BC25C89BF322A723B1E209741EE99F00/jobs/358480": {
+      "school_id": 1031,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/BC25C89BF322A723B1E209741EE99F00/jobs/358480",
+      "job_title_in_post": "Assistant or Associate Professor, Social Work and The Parent Academy",
+      "position_type": "Associate_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/BC25C89BF322A723B1E209741EE99F00/jobs/358443": {
+      "school_id": 1031,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/BC25C89BF322A723B1E209741EE99F00/jobs/358443",
+      "job_title_in_post": "Assistant Director, Career Development",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/BC25C89BF322A723B1E209741EE99F00/jobs/358420": {
+      "school_id": 1031,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/BC25C89BF322A723B1E209741EE99F00/jobs/358420",
+      "job_title_in_post": "Experiential Education Advisor",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1031,
   "status": "complete",
-  "updated_at": "2026-11-20T19:57:25+00:00",
-  "completed_at": "2026-11-20T19:57:25+00:00",
+  "updated_at": "2026-11-23T22:18:21+00:00",
+  "completed_at": "2026-11-23T22:18:21+00:00",
   "last_error": ""
 }

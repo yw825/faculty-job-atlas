@@ -55,6 +55,10 @@
     "https://eckerd.exacthire.com/job/211516": {
       "title": "Pre-College Program Coordinator (Summer, Live-In)",
       "description": "Pre-College Program Coordinator (Summer, Live-In), Job In Eckerd College At St. Petersburg, FL"
+    },
+    "https://eckerd.exacthire.com/apply?section=0&jobs=[]&myAccount=1": {
+      "title": "My Account",
+      "description": "My Account | Eckerd College Skip to main content Sign in to your account. Enter the email address used at the time of applying. A link to account access will be sent to that email address. Profile Email * Don't have an account? View Open Jobs. Submitting an application will create an applicant account. Return to Open Jobs Help Center Continue Applicant Tracking Software by ExactHire – © 2026 | Terms of Use | Privacy Policy | Accessibility"
     }
   },
   "rows": {
@@ -225,11 +229,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://eckerd.exacthire.com/apply?section=0&jobs=[]&myAccount=1": {
+      "school_id": 259,
+      "posting_url": "https://eckerd.exacthire.com/apply?section=0&jobs=[]&myAccount=1",
+      "job_title_in_post": "My Account",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 259,
   "status": "complete",
-  "updated_at": "2026-11-20T19:32:10+00:00",
-  "completed_at": "2026-11-20T19:32:10+00:00",
+  "updated_at": "2026-11-23T22:02:46+00:00",
+  "completed_at": "2026-11-23T22:02:46+00:00",
   "last_error": ""
 }

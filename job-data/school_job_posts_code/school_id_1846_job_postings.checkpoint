@@ -423,9 +423,9 @@
   ],
   "school_id": 1846,
   "status": "complete",
-  "updated_at": "2026-11-20T19:01:28+00:00",
+  "updated_at": "2026-11-23T21:38:20+00:00",
   "started_at": "2026-09-02T22:39:51+00:00",
-  "completed_at": "2026-11-20T19:01:28+00:00",
+  "completed_at": "2026-11-23T21:38:20+00:00",
   "last_error": "",
-  "last_warning": "2026-11-20T19:01:28+00:00: board returned 1 links vs 420 before; old set kept"
+  "last_warning": "2026-11-23T21:38:20+00:00: board returned 1 links vs 420 before; old set kept"
 }

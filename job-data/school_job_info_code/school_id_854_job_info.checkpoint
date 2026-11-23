@@ -55,6 +55,10 @@
     "https://www.schooljobs.com/careers/rivieredu/jobs/5182742/adjunct-professor-business": {
       "title": "Adjunct Professor, Business",
       "description": "Adjunct Professor, Business Salary $0.00 Annually Location Nashua Job Type Part-Time Job Number 202500171 Division Div of Business & Security Studies Department Business Opening Date 12/30/2025 Description Benefits Description Rivier University's Division of Business and Security Studies seeks a qualified, credentialed candidate for Business Instructor -Adjunct Faculty. Reporting to the Director of Undergraduate Business programs, the Adjunct Instructor is responsible for providing business related (e.g., accounting, business management, finance, marketing, project management , and sport management) courses on-campus, face-to-face daytime instruction, twice a week, at the undergraduate level. Duties and Responsibilities The successful candidate will join the Business and Security Studies faculty in the education of Business students, with the following primary responsibilities: •Assume teaching, advisement, and mentoring responsibilities for students in the traditional face-to-face, in-residence, daytime, twice a week, teaching and learning model; •Undergraduate two daytime class meetings per week; •Participate in ongoing program growth and development, particularly with respect to the integration of technology throughout all program experiences; and •Work collaboratively with colleagues, both in the d ivision and throughout the University. Qualifications •Master's degree is required, a terminal degree in Business related or highly related field is preferred. These fields may include Accounting, Business Management, Finance, Marketing, Project Management, and Sport Management; •The successful candidate will have college-level teaching, academic program, and curriculum development experience; and •The ability and willingness to support the mission of the University and to work collaboratively and collegially with departmental and institutional colleagues. Supplemental Information Applicants should apply online and include a cover letter along with resume/CV at: https://www.schooljobs.com/careers/rivieredu/jobs/5182742/adjunct-professor-business All applications and nominations will be considered highly confidential. Review of applications will begin immediately and continue until the position is filled. Rivier University does not discriminate on the basis of race, color, national origin, religion, age, veteran or marital status, sex sexual orientation, gender identity, or disability in admission or access to, treatment in, or employment in its programs and activities, and Title IX requires that the University not discriminate on the bases stated above. This position is not eligible for benefits. Employer Rivier University (NH) Address 420 South Main Street Nashua, New Hampshire, 03060 Phone 603-897-8717 603-897-8211 Website https://www.rivier.edu/ Apply"
+    },
+    "https://www.schooljobs.com/careers/rivieredu/jobs/5193268/adjunct-computer-science-ml-ai": {
+      "title": "Adjunct, Computer Science ML/AI",
+      "description": "Adjunct, Computer Science ML/AI Salary $0.00 Annually Location Nashua Job Type Part-Time Job Number 202500179 Division Division of Arts and Sciences Department Computer Science Opening Date 01/09/2026 Description Benefits Description We seek a dynamic and culturally responsive educator to teach undergraduate and/or graduate courses in Artificial Intelligence (AI), including topics such as Machine Learning, Deep Learning, Natural Language Processing, Data Ethics, and Applied AI. The successful candidate will foster an inclusive learning environment that respects and values diverse student perspectives. Duties and Responsibilities Teach AI-related courses and create engaging, inclusive learning experiences. Integrate ethical frameworks and responsible AI practices into instruction. Demonstrate cultural sensitivity and respect for diverse backgrounds in all interactions. Qualifications Master’s degree in Computer Science, Data Science, or a related field. Proficiency in Python and AI/ML libraries (e.g., scikit-learn, PyTorch, TensorFlow). Demonstrated teaching effectiveness or strong potential. Commitment to fostering an inclusive classroom environment. Experience with domain-specific AI (healthcare, cybersecurity, business). Familiarity with responsible AI, bias mitigation, and privacy. Prior experience working with international or culturally diverse student populations. Supplemental Information Applicants should apply online and include a cover letter along with resume/CV at: https://www.schooljobs.com/careers/rivieredu/jobs/5193268/adjunct-computer-science-ml-ai All applications and nominations will be considered highly confidential. Review of applications will begin immediately and continue until the position is filled. Rivier University does not discriminate on the basis of race, color, national origin, religion, age, veteran or marital status, sex sexual orientation, gender identity, or disability in admission or access to, treatment in, or employment in its programs and activities, and Title IX requires that the University not discriminate on the bases stated above. This position is not eligible for benefits. Employer Rivier University (NH) Address 420 South Main Street Nashua, New Hampshire, 03060 Phone 603-897-8717 603-897-8211 Website https://www.rivier.edu/ Apply"
     }
   },
   "rows": {
@@ -160,7 +164,7 @@
       "position_type": "Unclassified",
       "job_term": "Full-time",
       "department_or_school": "",
-      "area_key_words": "Program Coordinator; Artificial Intelligence",
+      "area_key_words": "Program Coordinator; Data Science",
       "deadline_of_application": "",
       "posted_date": "02/01/2026",
       "position_start_date": ""
@@ -224,11 +228,23 @@
       "deadline_of_application": "",
       "posted_date": "12/30/2025",
       "position_start_date": ""
+    },
+    "https://www.schooljobs.com/careers/rivieredu/jobs/5193268/adjunct-computer-science-ml-ai": {
+      "school_id": 854,
+      "posting_url": "https://www.schooljobs.com/careers/rivieredu/jobs/5193268/adjunct-computer-science-ml-ai",
+      "job_title_in_post": "Adjunct, Computer Science ML/AI",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "Computer Science ML/AI; Natural Language Processing",
+      "deadline_of_application": "",
+      "posted_date": "01/09/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 854,
   "status": "complete",
-  "updated_at": "2026-11-20T19:51:38+00:00",
-  "completed_at": "2026-11-20T19:51:38+00:00",
+  "updated_at": "2026-11-23T22:15:29+00:00",
+  "completed_at": "2026-11-23T22:15:29+00:00",
   "last_error": ""
 }

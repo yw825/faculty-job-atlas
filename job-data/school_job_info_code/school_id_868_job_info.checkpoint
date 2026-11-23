@@ -199,6 +199,10 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/055E28882001FE667534B0880CFCD275/jobs/103477": {
       "title": "Adjunct of Health and Exercise Science",
       "description": "Adjunct of Health and Exercise Science You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/055E28882001FE667534B0880CFCD275/jobs/103786": {
+      "title": "Laboratory Manager",
+      "description": "Laboratory Manager You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -801,11 +805,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/055E28882001FE667534B0880CFCD275/jobs/103786": {
+      "school_id": 868,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/055E28882001FE667534B0880CFCD275/jobs/103786",
+      "job_title_in_post": "Laboratory Manager",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 868,
   "status": "complete",
-  "updated_at": "2026-11-20T20:00:31+00:00",
-  "completed_at": "2026-11-20T20:00:31+00:00",
+  "updated_at": "2026-11-23T22:21:41+00:00",
+  "completed_at": "2026-11-23T22:21:41+00:00",
   "last_error": ""
 }

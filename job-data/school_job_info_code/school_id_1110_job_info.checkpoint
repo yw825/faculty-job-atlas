@@ -135,6 +135,10 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/ABFDAFED645B6920CFDB8559C078F8A5/jobs/360801": {
       "title": "Director of Clinical Operations - Optometry",
       "description": "Director of Clinical Operations - Optometry You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/ABFDAFED645B6920CFDB8559C078F8A5/jobs/361706": {
+      "title": "Academic Programs Coordinator - Optometry",
+      "description": "Academic Programs Coordinator - Optometry You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -542,11 +546,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/ABFDAFED645B6920CFDB8559C078F8A5/jobs/361706": {
+      "school_id": 1110,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/ABFDAFED645B6920CFDB8559C078F8A5/jobs/361706",
+      "job_title_in_post": "Academic Programs Coordinator - Optometry",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1110,
   "status": "complete",
-  "updated_at": "2026-11-20T20:00:13+00:00",
-  "completed_at": "2026-11-20T20:00:13+00:00",
+  "updated_at": "2026-11-23T22:19:40+00:00",
+  "completed_at": "2026-11-23T22:19:40+00:00",
   "last_error": ""
 }

@@ -1374,6 +1374,66 @@
       "title": "PhD scholarship in synchrotron X-ray data analysis to visualise ductile failure - DTU Construct",
       "description": "Join DTU as a PhD student and analyse cutting-edge synchrotron X-ray data to create 3D maps of voids, crystallographic features and mechanical fields, helping reveal the mechanisms behind ductile failure in metals.",
       "department": null
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8653": {
+      "title": "PhD scholarship in Phase-Field Modelling of Corrosion Fatigue - DTU Construct",
+      "description": "Do you want to predict when steel structures such as offshore wind turbines fail by corrosion fatigue? Join DTU Construct as a PhD student and develop phase-field models in an existing multi-physics finite element code written in Julia.",
+      "department": null
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8655": {
+      "title": "PhD scholarship in Demand Estimation for Large-Scale Transport Networks using Travel Surveys and 5G Data - DTU Management",
+      "description": "How many people travel, where and when? Join DTU Management and Télécom SudParis (IPP) as a PhD student and develop new methods that combine travel surveys, traffic counts and 5G data to estimate travel demand for the Danish national transport model.",
+      "department": null
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8661": {
+      "title": "PhD scholarship in Deterministic Post-Processing Routes for Metallic, Ceramic, and Multi-Material Impellers - DTU Construct",
+      "description": "DTU Construct's Section for Manufacturing Engineering is seeking a PhD candidate to develop Deterministic post-processing routes for multi-material components used in high-performance turbomachinery applications",
+      "department": null
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8662": {
+      "title": "PhD scholarship in Abrasive Flow Polishing of Metallic, Ceramic, and Multi-Material Impellers - DTU Construct",
+      "description": "DTU Construct's Section for Manufacturing Engineering is seeking a PhD candidate to develop methods for abrasive flow polishing for precision multi-material components used in high-performance turbomachinery applications. ",
+      "department": null
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8664": {
+      "title": "PhD scholarship in Integrated Sustainability Screening for Early-Stage Technology Development under Uncertainty - DTU Construct",
+      "description": "DTU Construct's Section for Design for Sustainability is seeking a PhD candidate to develop sustainability screening methods for early-stage technology development under uncertainty, with application to advanced turbomachinery technologies. The position is affiliated with DTU's Centre for Absolute Sustainability.",
+      "department": null
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8663": {
+      "title": "Postdoc in Ultrafast Laser for Infrared Nanospectroscopy - DTU Electro",
+      "description": "Technical University of Denmark has an open 2-year Postdoctoral Researcher position as part of the Villum Experiment project, “Precision infrared spectroscopy reaches nanoscale”. The project aims to pioneer the field of nanoscale spectroscopy, where the primary objective is to create a laser comb enabled ultrasensitive infrared nano imaging platform.",
+      "department": null
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8666": {
+      "title": "Postdoc in Active Learning and Experimental Design for Consumer Acceptance of Microbial Foods - BRIGHT",
+      "description": "Join BRIGHT at DTU as a Postdoc in active learning and experimental design. You will build a cold-start model that predicts consumer acceptance of novel microbial foods and decides which consumer–product pairs to test next.",
+      "department": null
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8670": {
+      "title": "PhD scholarship in applied microbial dynamics for tropical farm fermentations - BRIGHT",
+      "description": "This PhD project studies tropical farm fermentations such as coffee and cocoa, with the aim of analysing the underlying microbial communities, exploring their potential to modulate flavour, improve product quality and adapt production processes to support more sustainable food systems.",
+      "department": null
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8668": {
+      "title": "PhD scholarship in microbial consortia for solid-state fermentation - BRIGHT",
+      "description": "This PhD project in microbial consortia for solid-state fermentation aims to explore the potential of using microbial consortia for solid-state fermentation (SSF) in microbial foods production, with a focus on understanding nutritional qualities and other potential human health modulating factors.",
+      "department": null
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8669": {
+      "title": "PhD scholarship in microbial lipid fermentation - BRIGHT",
+      "description": "This PhD project in microbial lipid fermentation aims to valorise high-fat sidestreams and adapt oleaginous yeasts for high tolerance, growth and lipid production on oils and fats in place of sugars as feedstock for more sustainable microbial lipid production.",
+      "department": null
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8671": {
+      "title": "Postdoc in synthetic biology and protein-based biomaterials - BRIGHT",
+      "description": "We are looking for a Post Doc researcher to engineer and produce functional protein-based biomaterials through microbial fermentation, leveraging expertise in protein assembly, modification, and synthetic biology.",
+      "department": null
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8672": {
+      "title": "PhD Fellowships in Quantum Science and Technology - QISTgrad Individual PhD Projects",
+      "description": "Shape the Future of Quantum Science: Are you curious about quantum science and eager to develop your own research ideas? Would you like to work with leading researchers while becoming part of a vibrant and supportive interdisciplinary research community?\n",
+      "department": null
     }
   },
   "rows": {
@@ -4641,11 +4701,155 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8653": {
+      "school_id": 1669,
+      "posting_url": "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8653",
+      "job_title_in_post": "PhD scholarship in Phase-Field Modelling of Corrosion Fatigue - DTU Construct",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Phase-Field Modelling of Corrosion Fatigue",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8655": {
+      "school_id": 1669,
+      "posting_url": "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8655",
+      "job_title_in_post": "PhD scholarship in Demand Estimation for Large-Scale Transport Networks using Travel Surveys and 5G Data - DTU Management",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Demand Estimation for Large-Scale Transport Networks using Travel Surveys and 5G Data",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8661": {
+      "school_id": 1669,
+      "posting_url": "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8661",
+      "job_title_in_post": "PhD scholarship in Deterministic Post-Processing Routes for Metallic, Ceramic, and Multi-Material Impellers - DTU Construct",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Deterministic Post-Processing Routes for Metallic, Ceramic, and Multi-Material Impellers",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8662": {
+      "school_id": 1669,
+      "posting_url": "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8662",
+      "job_title_in_post": "PhD scholarship in Abrasive Flow Polishing of Metallic, Ceramic, and Multi-Material Impellers - DTU Construct",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Abrasive Flow Polishing of Metallic, Ceramic, and Multi-Material Impellers",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8664": {
+      "school_id": 1669,
+      "posting_url": "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8664",
+      "job_title_in_post": "PhD scholarship in Integrated Sustainability Screening for Early-Stage Technology Development under Uncertainty - DTU Construct",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Centre for Absolute Sustainability",
+      "area_key_words": "Integrated Sustainability Screening for Early-Stage Technology Development under Uncertainty",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8663": {
+      "school_id": 1669,
+      "posting_url": "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8663",
+      "job_title_in_post": "Postdoc in Ultrafast Laser for Infrared Nanospectroscopy - DTU Electro",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Ultrafast Laser for Infrared Nanospectroscopy",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8666": {
+      "school_id": 1669,
+      "posting_url": "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8666",
+      "job_title_in_post": "Postdoc in Active Learning and Experimental Design for Consumer Acceptance of Microbial Foods - BRIGHT",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Active Learning and Experimental Design for Consumer Acceptance of Microbial Foods",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8670": {
+      "school_id": 1669,
+      "posting_url": "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8670",
+      "job_title_in_post": "PhD scholarship in applied microbial dynamics for tropical farm fermentations - BRIGHT",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8668": {
+      "school_id": 1669,
+      "posting_url": "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8668",
+      "job_title_in_post": "PhD scholarship in microbial consortia for solid-state fermentation - BRIGHT",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8669": {
+      "school_id": 1669,
+      "posting_url": "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8669",
+      "job_title_in_post": "PhD scholarship in microbial lipid fermentation - BRIGHT",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8671": {
+      "school_id": 1669,
+      "posting_url": "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8671",
+      "job_title_in_post": "Postdoc in synthetic biology and protein-based biomaterials - BRIGHT",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "synthetic biology; protein assembly",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8672": {
+      "school_id": 1669,
+      "posting_url": "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8672",
+      "job_title_in_post": "PhD Fellowships in Quantum Science and Technology - QISTgrad Individual PhD Projects",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Quantum Science and Technology",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1669,
   "status": "complete",
-  "updated_at": "2026-11-20T20:59:00+00:00",
-  "completed_at": "2026-11-20T20:59:00+00:00",
+  "updated_at": "2026-11-23T22:40:19+00:00",
+  "completed_at": "2026-11-23T22:40:19+00:00",
   "last_error": ""
 }

@@ -699,6 +699,21 @@
       "title": "NDSU Doctoral / Master's Grad Research Asst",
       "description": "Posted: 11/13/2026 Location: Fargo Department: Ag and Family Education NDSU Doctoral / Master's Grad Research Asst",
       "department": "Ag and Family Education"
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960236&PostingSeq=1&SiteId=1": {
+      "title": "Complex Manager",
+      "description": "Posted: 11/23/2026 Location: Fargo Department: Residence Life Complex Manager",
+      "department": "Residence Life"
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960254&PostingSeq=1&SiteId=1": {
+      "title": "Non-Student FCH - BRH",
+      "description": "Posted: 11/23/2026 Location: Fargo Department: Division of Performing Arts Non-Student FCH - BRH",
+      "department": "Division of Performing Arts"
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960249&PostingSeq=1&SiteId=1": {
+      "title": "Postdoctoral Research Fellow - Using Omics Tools to Increase Selection Efficiency (Osorno)",
+      "description": "Posted: 11/23/2026 Location: Fargo Department: AES Plant Science Postdoctoral Research Fellow - Using Omics Tools to Increase Selection Efficiency (Osorno)",
+      "department": "AES Plant Science"
     }
   },
   "rows": {
@@ -2360,11 +2375,47 @@
       "deadline_of_application": "",
       "posted_date": "11/13/2026",
       "position_start_date": ""
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960236&PostingSeq=1&SiteId=1": {
+      "school_id": 823,
+      "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960236&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Complex Manager",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Residence Life",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/23/2026",
+      "position_start_date": ""
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960254&PostingSeq=1&SiteId=1": {
+      "school_id": 823,
+      "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960254&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Non-Student FCH - BRH",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Division of Performing Arts",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/23/2026",
+      "position_start_date": ""
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960249&PostingSeq=1&SiteId=1": {
+      "school_id": 823,
+      "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960249&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Postdoctoral Research Fellow - Using Omics Tools to Increase Selection Efficiency (Osorno)",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "AES Plant Science",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/23/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 823,
   "status": "complete",
-  "updated_at": "2026-11-20T19:50:46+00:00",
-  "completed_at": "2026-11-20T19:50:46+00:00",
+  "updated_at": "2026-11-23T22:14:47+00:00",
+  "completed_at": "2026-11-23T22:14:47+00:00",
   "last_error": ""
 }

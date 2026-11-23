@@ -69,6 +69,16 @@
       "title": "Senior Budget Analyst (2026-MP-28)",
       "description": "Management & Professional - Senior Budget Analyst, Financial Services (2026-MP-28)",
       "department": null
+    },
+    "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4478": {
+      "title": "Leadership Giving Coordinator \"VI\" (2026-13-43)",
+      "description": "CUPE 1393\nLeadership Giving Coordinator \"VI\" in the Department of Advancement & Alumni",
+      "department": null
+    },
+    "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4436": {
+      "title": "Manager, Field Experience (2026-MP-29)",
+      "description": "Managerial & Professional\nManager, Field Experience in the Faculty of Education\n",
+      "department": null
     }
   },
   "rows": {
@@ -239,11 +249,35 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4478": {
+      "school_id": 1637,
+      "posting_url": "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4478",
+      "job_title_in_post": "Leadership Giving Coordinator \"VI\" (2026-13-43)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Department of Advancement & Alumni",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4436": {
+      "school_id": 1637,
+      "posting_url": "https://efhc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/4436",
+      "job_title_in_post": "Manager, Field Experience (2026-MP-29)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Faculty of Education",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1637,
   "status": "complete",
-  "updated_at": "2026-11-20T20:56:58+00:00",
-  "completed_at": "2026-11-20T20:56:58+00:00",
+  "updated_at": "2026-11-23T22:39:33+00:00",
+  "completed_at": "2026-11-23T22:39:33+00:00",
   "last_error": ""
 }

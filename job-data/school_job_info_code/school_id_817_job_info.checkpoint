@@ -135,6 +135,10 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/F9BC0E3EF21EBFD06396ABA365BF2DCF/jobs/176141": {
       "title": "Associate Vice President of Institutional Advancement",
       "description": "Associate Vice President of Institutional Advancement You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/F9BC0E3EF21EBFD06396ABA365BF2DCF/jobs/176633": {
+      "title": "Biology Adjunct Instructor (BIOL 101 Biodiversity Lecture and Lab)",
+      "description": "Biology Adjunct Instructor (BIOL 101 Biodiversity Lecture and Lab) You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -542,11 +546,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/F9BC0E3EF21EBFD06396ABA365BF2DCF/jobs/176633": {
+      "school_id": 817,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/F9BC0E3EF21EBFD06396ABA365BF2DCF/jobs/176633",
+      "job_title_in_post": "Biology Adjunct Instructor (BIOL 101 Biodiversity Lecture and Lab)",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "Biology Adjunct",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 817,
   "status": "complete",
-  "updated_at": "2026-11-20T19:50:18+00:00",
-  "completed_at": "2026-11-20T19:50:18+00:00",
+  "updated_at": "2026-11-23T22:14:18+00:00",
+  "completed_at": "2026-11-23T22:14:18+00:00",
   "last_error": ""
 }

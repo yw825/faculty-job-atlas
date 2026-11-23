@@ -287,6 +287,10 @@
     "https://framingham.interviewexchange.com/jobofferdetails.jsp?JOBID=206478": {
       "title": "Just a moment...",
       "description": "Just a moment... framingham.interviewexchange.com Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. Verification successful. Waiting for framingham.interviewexchange.com to respond Why is this verification taking longer? This verification can take longer due to an older computer or a slow internet connection. What to do next: Wait briefly. Refreshing the page will restart the security verification and may take longer. If the verification still does not complete, refresh this page . If you are still stuck on this page after a page refresh, refer to Cloudflare’s troubleshooting documentation for more help. Enable JavaScript and cookies to continue Ray ID: a56427204995a7f5 Performance and Security by Cloudflare Privacy"
+    },
+    "https://framingham.interviewexchange.com/jobofferdetails.jsp?JOBID=206969": {
+      "title": "Just a moment...",
+      "description": "Just a moment... framingham.interviewexchange.com Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. Verification successful. Waiting for framingham.interviewexchange.com to respond Enable JavaScript and cookies to continue Ray ID: a5f37e7e5c341ffb Performance and Security by Cloudflare Privacy"
     }
   },
   "rows": {
@@ -1148,11 +1152,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://framingham.interviewexchange.com/jobofferdetails.jsp?JOBID=206969": {
+      "school_id": 555,
+      "posting_url": "https://framingham.interviewexchange.com/jobofferdetails.jsp?JOBID=206969",
+      "job_title_in_post": "Just a moment...",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 555,
   "status": "complete",
-  "updated_at": "2026-11-20T19:39:40+00:00",
-  "completed_at": "2026-11-20T19:39:40+00:00",
+  "updated_at": "2026-11-23T22:08:47+00:00",
+  "completed_at": "2026-11-23T22:08:47+00:00",
   "last_error": ""
 }

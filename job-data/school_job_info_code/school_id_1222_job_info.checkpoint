@@ -91,6 +91,14 @@
     "https://www.waynesburg.edu/careers#temporary-secretary-office-of-records-and-registration": {
       "title": "Temporary Secretary - Office of Records and Registration",
       "description": "Temporary Secretary - Office of Records and Registration. Waynesburg University is seeking a temporary, full-time Secretary position for the Office of Records and Registration at the Waynesburg Campus,. Candidates must possess a High School degree or GED, and three years of professional experience. Excellent computer and analytical skills, as well as the ability to work independently, exercise good judgment, and project a positive, client-friendly public image are all necessary. Previous work experience in a Registrar’s Office or higher education setting preferred. Excellent oral and written communication skills are required. Typical work schedule is Monday - Friday, 8:30 a.m. - 4:00 p.m. Demonstrated ability to use computerized systems such as Microsoft Office, and perform the duties in the Secretarial job description required. Apply to: Human Resources Office Waynesburg University 51 West College Street Waynesburg, PA 15370 (Email: hr@waynesburg.edu )"
+    },
+    "https://www.waynesburg.edu/careers#nursing-faculty": {
+      "title": "Nursing Faculty",
+      "description": "Nursing Faculty. AVAILABLE: Beginning Spring 2027. Applications will be accepted until the position is filled. SALARY/RANK: Rank and tenure track status will be determined based upon the qualifications, skills and experience of the successful candidate. QUALIFICATIONS: The candidate must possess a Master of Science in Nursing (MSN) from an accredited institution. A completed PhD, or DNP or NP certification is preferred. Candidates must possess a current, unencumbered registered nurse (RN) license in Pennsylvania or eligibility for Pennsylvania licensure. As a Christian University, Waynesburg University hires as full-time faculty only persons who profess faith in Jesus Christ and demonstrate that faith in a manner consistent with the mission and institutional commitments of the University. RESPONSIBILITIES: The successful candidate will be a flexible, student-centered nursing educator who will provide instruction across the University's nursing programs, including the traditional Bachelor of Science in Nursing (BSN), accelerated second-degree BSN, LPN-to-BSN, and graduate nursing programs, as appropriate to their academic qualifications and professional experience. This teaching-focused position includes classroom, online, hybrid, laboratory, simulation, and clinical instruction. The faculty member will support the continued growth of the nursing programs while maintaining high standards of nursing education, clinical competency, and student success. THE UNIVERSITY: Waynesburg University is a Christian higher education institution offering undergraduate and graduate programs. Directed by its Christian values, the University provides opportunities for scholarship, leadership and service to our students through an academic foundation for life-long learning and compassionate contribution to others. Special care is taken to employ people who embody the values and perspectives of the institution in their teaching, their personal lives, and their relationships with students. The University is guided by a sound strategic vision and has served as a leader in service-learning, technology applications and student-centered learning among higher education institutions. The Waynesburg campus is located one hour from Pittsburgh. Waynesburg University is a member of the Association of Presbyterian Colleges and Universities (APCU). APPLICATION PROCESS: Candidates must submit a resume/cv and letter of interest, along with a written statement that articulates how the candidate intends to demonstrate his/her Christian faith through the Mission of the University, his/her professional responsibilities, relationships and the mentoring of students. Also include names/addresses/phone numbers of five references. Include transcripts (unofficial copies are acceptable initially). Apply to: Human Resources Office Waynesburg University 51 West College Street Waynesburg, PA 15370 (Email: hr@waynesburg.edu )"
+    },
+    "https://www.waynesburg.edu/careers#clinical-director-of-graduate-nursing-programs-and-nursing-faculty": {
+      "title": "Clinical Director of Graduate Nursing Programs and Nursing Faculty",
+      "description": "Clinical Director of Graduate Nursing Programs and Nursing Faculty. AVAILABLE: Beginning Spring 2027. Applications will be accepted until the position is filled. SALARY/RANK: Rank and tenure track status will be determined based upon the qualifications, skills and experience of the successful candidate. QUALIFICATIONS: The candidate must possess a Master of Science in Nursing (MSN) or higher degree from an accredited institution. Current national certification as a Family Nurse Practitioner (FNP), supported by an earned graduate nursing degree. Candidates must possess a current, unencumbered registered nurse (RN) license in Pennsylvania or eligibility for Pennsylvania licensure and current Pennsylvania Certified Registered Nurse Practitioner (CRNP) licensure or eligibility for licensure As a Christian University, Waynesburg University hires as full-time faculty only persons who profess faith in Jesus Christ and demonstrate that faith in a manner consistent with the mission and institutional commitments of the University. RESPONSIBILITIES: The successful candidate will be responsible for providing leadership, coordination, and oversight of graduate nursing clinical education, with particular emphasis on the development and implementation of the University's proposed Family Nurse Practitioner program. Working under the direction of the Director of Nursing, this individual will coordinate graduate clinical placements, oversee preceptorships, provide clinical advisement to graduate nursing students, and support compliance with applicable accreditation, certification, and regulatory requirements. In addition to graduate clinical leadership responsibilities, the faculty member will teach within the Department of Nursing, including weekend clinical and laboratory assignments in the University's hybrid undergraduate nursing programs, based on departmental needs. THE UNIVERSITY: Waynesburg University is a Christian higher education institution offering undergraduate and graduate programs. Directed by its Christian values, the University provides opportunities for scholarship, leadership and service to our students through an academic foundation for life-long learning and compassionate contribution to others. Special care is taken to employ people who embody the values and perspectives of the institution in their teaching, their personal lives, and their relationships with students. The University is guided by a sound strategic vision and has served as a leader in service-learning, technology applications and student-centered learning among higher education institutions. The Waynesburg campus is located one hour from Pittsburgh. Waynesburg University is a member of the Association of Presbyterian Colleges and Universities (APCU). APPLICATION PROCESS: Candidates must submit a resume/cv and letter of interest, along with a written statement that articulates how the candidate intends to demonstrate his/her Christian faith through the Mission of the University, his/her professional responsibilities, relationships and the mentoring of students. Also include names/addresses/phone numbers of five references. Include transcripts (unofficial copies are acceptable initially). Apply to: Human Resources Office Waynesburg University 51 West College Street Waynesburg, PA 15370 (Email: hr@waynesburg.edu )"
     }
   },
   "rows": {
@@ -369,11 +377,35 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.waynesburg.edu/careers#nursing-faculty": {
+      "school_id": 1222,
+      "posting_url": "https://www.waynesburg.edu/careers#nursing-faculty",
+      "job_title_in_post": "Nursing Faculty",
+      "position_type": "Assistant_Professor; Associate_Professor; Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Nursing",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://www.waynesburg.edu/careers#clinical-director-of-graduate-nursing-programs-and-nursing-faculty": {
+      "school_id": 1222,
+      "posting_url": "https://www.waynesburg.edu/careers#clinical-director-of-graduate-nursing-programs-and-nursing-faculty",
+      "job_title_in_post": "Clinical Director of Graduate Nursing Programs and Nursing Faculty",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Graduate Nursing Programs and Nursing Faculty",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1222,
   "status": "complete",
-  "updated_at": "2026-11-20T20:09:43+00:00",
-  "completed_at": "2026-11-20T20:09:43+00:00",
+  "updated_at": "2026-11-23T22:25:24+00:00",
+  "completed_at": "2026-11-23T22:25:24+00:00",
   "last_error": ""
 }

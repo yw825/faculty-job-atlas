@@ -127,6 +127,10 @@
     "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225341": {
       "title": "HVAC Team Member",
       "description": "HVAC Team Member. University of New England. Reference 225341. 225341 HVAC Team Member Professional - Continuing - Full - time - HEO4 Governance 05-DEC-2026 11:59:59 pm"
+    },
+    "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225344": {
+      "title": "Lecturer / Senior Lecturer in Human Geography",
+      "description": "Lecturer / Senior Lecturer in Human Geography. University of New England. Reference 225344. 225344 Lecturer / Senior Lecturer in Human Geography Academic - Continuing, full-time - Level B/C - Teaching focused with transfer to balanced role after 3 years. School of HASS - Geography and Planning 09-DEC-2026 11:59:59 pm"
     }
   },
   "rows": {
@@ -507,11 +511,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225344": {
+      "school_id": 1780,
+      "posting_url": "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225344",
+      "job_title_in_post": "Lecturer / Senior Lecturer in Human Geography",
+      "position_type": "Assistant_Professor; Associate_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "School of HASS",
+      "area_key_words": "Human Geography",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1780,
   "status": "complete",
-  "updated_at": "2026-11-20T20:35:17+00:00",
-  "completed_at": "2026-11-20T20:35:17+00:00",
+  "updated_at": "2026-11-23T22:34:28+00:00",
+  "completed_at": "2026-11-23T22:34:28+00:00",
   "last_error": ""
 }

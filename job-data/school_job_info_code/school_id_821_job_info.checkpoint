@@ -279,6 +279,11 @@
       "title": "DSU Heritage Foundation Operations Coordinator",
       "description": "Posted: 10/20/2026 Location: Dickinson Department: DSU Heritage Foundation DSU Heritage Foundation Operations Coordinator",
       "department": "DSU Heritage Foundation"
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960253&PostingSeq=1&SiteId=1": {
+      "title": "Assistant Professor of Nursing (Special Appointment)",
+      "description": "Posted: 11/20/2026 Location: Dickinson Department: School of Education - Nursing Assistant Professor of Nursing (Special Appointment)",
+      "department": "School of Education - Nursing"
     }
   },
   "rows": {
@@ -952,11 +957,23 @@
       "deadline_of_application": "",
       "posted_date": "10/29/2026",
       "position_start_date": ""
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960253&PostingSeq=1&SiteId=1": {
+      "school_id": 821,
+      "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960253&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Assistant Professor of Nursing (Special Appointment)",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "School of Education - Nursing",
+      "area_key_words": "Nursing",
+      "deadline_of_application": "",
+      "posted_date": "11/20/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 821,
   "status": "complete",
-  "updated_at": "2026-11-20T19:58:51+00:00",
-  "completed_at": "2026-11-20T19:58:51+00:00",
+  "updated_at": "2026-11-23T22:20:11+00:00",
+  "completed_at": "2026-11-23T22:20:11+00:00",
   "last_error": ""
 }

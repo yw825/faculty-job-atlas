@@ -814,6 +814,16 @@
       "title": "RN Nurse Home Visitor",
       "description": "Posted: 11/16/2026 Location: Tyler, TX Department: School of Health Professions RN Nurse Home Visitor",
       "department": "School of Health Professions"
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16893&PostingSeq=1&SiteId=12": {
+      "title": "Emergency Management Coordinator",
+      "description": "Posted: 11/20/2026 Location: Tyler, TX Department: Emergency Management Emergency Management Coordinator",
+      "department": "Emergency Management"
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16891&PostingSeq=1&SiteId=12": {
+      "title": "Maintenance Worker II",
+      "description": "Posted: 11/20/2026 Location: Tyler, TX Department: Building Maintenance Maintenance Worker II",
+      "department": "Building Maintenance"
     }
   },
   "rows": {
@@ -2761,11 +2771,35 @@
       "deadline_of_application": "",
       "posted_date": "11/16/2026",
       "position_start_date": ""
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16893&PostingSeq=1&SiteId=12": {
+      "school_id": 1437,
+      "posting_url": "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16893&PostingSeq=1&SiteId=12",
+      "job_title_in_post": "Emergency Management Coordinator",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Emergency Management",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/20/2026",
+      "position_start_date": ""
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16891&PostingSeq=1&SiteId=12": {
+      "school_id": 1437,
+      "posting_url": "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16891&PostingSeq=1&SiteId=12",
+      "job_title_in_post": "Maintenance Worker II",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Building Maintenance",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/20/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 1437,
   "status": "complete",
-  "updated_at": "2026-11-20T20:07:05+00:00",
-  "completed_at": "2026-11-20T20:07:05+00:00",
+  "updated_at": "2026-11-23T22:26:08+00:00",
+  "completed_at": "2026-11-23T22:26:08+00:00",
   "last_error": ""
 }

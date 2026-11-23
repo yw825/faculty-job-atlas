@@ -744,6 +744,46 @@
       "title": "Adjunct Professor",
       "description": "The Department of River-Coastal Science and Engineering (RCSE) in the School of Science and Engineering at Tulane University invites applications for Adjunct Assistant Professor positions. The department seeks highly qualified individuals to teach undergraduate and/or graduate courses in areas related to river-coastal science, engineering, environmental science, earth sciences, hydrology, geomorphology, coastal processes, climate impacts, and related disciplines.\n\nAdjunct faculty appointments are part-time, non-tenure-track positions and are made on a semester-by-semester basis, contingent upon departmental instructional needs.",
       "department": null
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2239": {
+      "title": "Clinical Associate Professor",
+      "description": "The Department of Anesthesiology at Tulane University School of Medicine is seeking qualified anesthesiologists who are committed to providing high-quality patient care and contributing to the education and training of future physicians. Successful candidates will have the opportunity to practice in a collaborative clinical environment while participating in the department’s academic mission. Clinical responsibilities will be based at East Jefferson General Hospital and/or Tulane Lakeside Hospital, depending on the candidate’s subspecialty, expertise, and departmental needs.",
+      "department": null
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2288": {
+      "title": "Assistant or Associate Professor",
+      "description": "Tulane University School of Medicine, Division of Geriatrics & Palliative Medicine, is seeking a Board Certified/Board Eligible Geriatric physician to join our expanding academic program. This is an outstanding opportunity for physicians interested in delivering compassionate, high-quality geriatric care while teaching the next generation of physicians in one of the nation’s most culturally vibrant cities. Faculty rank will be commensurate with experience.\n",
+      "department": null
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2305": {
+      "title": "Clinical Assistant Professor of Practice",
+      "description": "The Department of Urology at Tulane University School of Medicine is seeking a board-certified or board-eligible General Urologist to join our faculty.",
+      "department": null
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2338": {
+      "title": "Instructor of Otolaryngology",
+      "description": "The Department of Otolaryngology – Head and Neck Surgery at Tulane University School of Medicine is seeking a full-time Advanced Practice Provider (Physician Assistant or Family Nurse Practitioner) to join its growing team in New Orleans, Louisiana.",
+      "department": null
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2292": {
+      "title": "Associate Professor",
+      "description": "Tulane University School of Medicine's Department of Surgery is seeking candidates for a clinical faculty position in Acute Care/Critical Care Surgery at the associate professor level.Short Position Description",
+      "department": null
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2306": {
+      "title": "Clinical Assistant Professor of Practice",
+      "description": "The Department of Urology at Tulane University School of Medicine is seeking a board-certified or board-eligible General Urologist to join our faculty. ",
+      "department": null
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2307": {
+      "title": "Clinical Assistant Professor of Practice",
+      "description": "The Department of Urology at Tulane University School of Medicine is seeking a board-certified or board-eligible Urologist with fellowship training in urologic oncology or minimally invasive urology to join our faculty.",
+      "department": null
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2308": {
+      "title": "Instructor",
+      "description": "The Department of Urology at Tulane University School of Medicine is seeking a dedicated, patient-centered Nurse Practitioner (NP) or Physician Assistant (PA) to join our growing outpatient urology practice on the Northshore of the Greater New Orleans area",
+      "department": null
     }
   },
   "rows": {
@@ -2530,11 +2570,107 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2239": {
+      "school_id": 521,
+      "posting_url": "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2239",
+      "job_title_in_post": "Clinical Associate Professor",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "Department of Anesthesiology",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2288": {
+      "school_id": 521,
+      "posting_url": "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2288",
+      "job_title_in_post": "Assistant or Associate Professor",
+      "position_type": "Associate_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2305": {
+      "school_id": 521,
+      "posting_url": "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2305",
+      "job_title_in_post": "Clinical Assistant Professor of Practice",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "Department of Urology",
+      "area_key_words": "Practice",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2338": {
+      "school_id": 521,
+      "posting_url": "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2338",
+      "job_title_in_post": "Instructor of Otolaryngology",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Otolaryngology",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2292": {
+      "school_id": 521,
+      "posting_url": "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2292",
+      "job_title_in_post": "Associate Professor",
+      "position_type": "Associate_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2306": {
+      "school_id": 521,
+      "posting_url": "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2306",
+      "job_title_in_post": "Clinical Assistant Professor of Practice",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "Department of Urology",
+      "area_key_words": "Practice",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2307": {
+      "school_id": 521,
+      "posting_url": "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2307",
+      "job_title_in_post": "Clinical Assistant Professor of Practice",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "Department of Urology",
+      "area_key_words": "Practice",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2308": {
+      "school_id": 521,
+      "posting_url": "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2308",
+      "job_title_in_post": "Instructor",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "Department of Urology",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 521,
   "status": "complete",
-  "updated_at": "2026-11-20T19:41:09+00:00",
-  "completed_at": "2026-11-20T19:41:09+00:00",
+  "updated_at": "2026-11-23T22:08:44+00:00",
+  "completed_at": "2026-11-23T22:08:44+00:00",
   "last_error": ""
 }

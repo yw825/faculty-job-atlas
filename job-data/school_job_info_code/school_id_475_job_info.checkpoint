@@ -204,6 +204,11 @@
       "title": "Assistant Instructional Professor",
       "description": "The Pittsburg State University School of Construction, Department of Electrical Technology is accepting applications for an Assistant Instructional Professor with an emphasis on commercial and industrial wiring methods and advanced conduit bending.",
       "department": null
+    },
+    "https://ebyf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/232": {
+      "title": "Open Rank",
+      "description": "The Pittsburg State University School of Nursing is accepting applications for full-time faculty in Nursing. Candidate qualifications and experience will be considered in determining rank and tenure status.",
+      "department": null
     }
   },
   "rows": {
@@ -698,11 +703,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://ebyf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/232": {
+      "school_id": 475,
+      "posting_url": "https://ebyf.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/232",
+      "job_title_in_post": "Open Rank",
+      "position_type": "Assistant_Professor; Associate_Professor; Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 475,
   "status": "complete",
-  "updated_at": "2026-11-20T19:49:47+00:00",
-  "completed_at": "2026-11-20T19:49:47+00:00",
+  "updated_at": "2026-11-23T22:10:54+00:00",
+  "completed_at": "2026-11-23T22:10:54+00:00",
   "last_error": ""
 }

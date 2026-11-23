@@ -864,6 +864,21 @@
       "title": "Learning Support Specialist",
       "description": "Posted: 11/13/2026 Location: UWG Recruiting Location Department: Dept. of Academic Excellence Learning Support Specialist",
       "department": "Dept. of Academic Excellence"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306119&PostingSeq=1&SiteId=54000": {
+      "title": "Federal Work Study - Central Stores, Receiving and Delivery Student Assistant",
+      "description": "Posted: 11/23/2026 Location: UWG Recruiting Location Department: Central Warehouse Federal Work Study - Central Stores, Receiving and Delivery Student Assistant",
+      "department": "Central Warehouse"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306349&PostingSeq=1&SiteId=54000": {
+      "title": "Student Assistant - Prison Education Student Success Leader (Graduate Level)",
+      "description": "Posted: 11/23/2026 Location: UWG Recruiting Location Department: Dept of Prison Education Student Assistant - Prison Education Student Success Leader (Graduate Level)",
+      "department": "Dept of Prison Education"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306286&PostingSeq=1&SiteId=54000": {
+      "title": "Student Assistant-Center for Academic Success, Front Desk Assistant",
+      "description": "Posted: 11/22/2026 Location: UWG Recruiting Location Department: Dept. of Academic Excellence Student Assistant-Center for Academic Success, Front Desk Assistant",
+      "department": "Dept. of Academic Excellence"
     }
   },
   "rows": {
@@ -2942,11 +2957,47 @@
       "deadline_of_application": "",
       "posted_date": "11/13/2026",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306119&PostingSeq=1&SiteId=54000": {
+      "school_id": 285,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306119&PostingSeq=1&SiteId=54000",
+      "job_title_in_post": "Federal Work Study - Central Stores, Receiving and Delivery Student Assistant",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Central Warehouse",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/23/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306349&PostingSeq=1&SiteId=54000": {
+      "school_id": 285,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306349&PostingSeq=1&SiteId=54000",
+      "job_title_in_post": "Student Assistant - Prison Education Student Success Leader (Graduate Level)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Dept of Prison Education",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/23/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306286&PostingSeq=1&SiteId=54000": {
+      "school_id": 285,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306286&PostingSeq=1&SiteId=54000",
+      "job_title_in_post": "Student Assistant-Center for Academic Success, Front Desk Assistant",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Dept. of Academic Excellence",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/22/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 285,
   "status": "complete",
-  "updated_at": "2026-11-20T20:31:20+00:00",
+  "updated_at": "2026-11-23T22:03:39+00:00",
   "last_error": "",
-  "completed_at": "2026-11-20T20:31:20+00:00"
+  "completed_at": "2026-11-23T22:03:39+00:00"
 }

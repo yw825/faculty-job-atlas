@@ -1,15 +1,9 @@
 {
-  "links": [
-    "https://my.corehr.com/pls/iadtrecruit/erq_jobspec_version_4.jobspec?p_id=007522",
-    "https://my.corehr.com/pls/iadtrecruit/erq_jobspec_version_4.jobspec?p_id=007503",
-    "https://my.corehr.com/pls/iadtrecruit/erq_jobspec_version_4.jobspec?p_id=007504",
-    "https://my.corehr.com/pls/iadtrecruit/erq_jobspec_version_4.jobspec?p_id=007502",
-    "https://my.corehr.com/pls/iadtrecruit/erq_jobspec_version_4.jobspec?p_id=007542"
-  ],
+  "links": [],
   "school_id": 1916,
   "status": "complete",
-  "updated_at": "2026-11-20T19:02:41+00:00",
-  "started_at": "2026-11-02T19:42:29+00:00",
-  "completed_at": "2026-11-20T19:02:41+00:00",
+  "updated_at": "2026-11-23T21:39:47+00:00",
+  "started_at": "2026-11-23T21:39:47+00:00",
+  "completed_at": "2026-11-23T21:39:47+00:00",
   "last_error": ""
 }

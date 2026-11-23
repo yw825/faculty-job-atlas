@@ -1,21 +1,18 @@
 {
   "links": [
-    "https://www.careers.hrp.gov.sg/sap/bc/ui5_ui5/sap/ZGERCFA004/index.html?search-keyword=Ngee%20Ann%20Polytechnic#/JobDescription/16669460/005056a3-53e2-1fd1-b4c8-7dbb9962740d",
+    "https://www.careers.hrp.gov.sg/sap/bc/ui5_ui5/sap/ZGERCFA004/index.html?search-keyword=Ngee%20Ann%20Polytechnic#/JobDescription/16480473/005056a3-d347-1fe1-b9ef-74531139c2c6",
+    "https://www.careers.hrp.gov.sg/sap/bc/ui5_ui5/sap/ZGERCFA004/index.html?search-keyword=Ngee%20Ann%20Polytechnic#/JobDescription/17994908/005056a3-d347-1fe1-b9ef-6d7877f822c6",
+    "https://www.careers.hrp.gov.sg/sap/bc/ui5_ui5/sap/ZGERCFA004/index.html?search-keyword=Ngee%20Ann%20Polytechnic#/JobDescription/17109236/005056a3-d347-1fe1-b8f1-b15327cf62c6",
     "https://www.careers.hrp.gov.sg/sap/bc/ui5_ui5/sap/ZGERCFA004/index.html?search-keyword=Ngee%20Ann%20Polytechnic#/JobDescription/17330886/005056a3-53e2-1fd1-b7da-d9e0a643740d",
-    "https://www.careers.hrp.gov.sg/sap/bc/ui5_ui5/sap/ZGERCFA004/index.html?search-keyword=Ngee%20Ann%20Polytechnic#/JobDescription/17595458/005056a3-d347-1fe1-b5f8-859b4b4222c5",
-    "https://www.careers.hrp.gov.sg/sap/bc/ui5_ui5/sap/ZGERCFA004/index.html?search-keyword=Ngee%20Ann%20Polytechnic#/JobDescription/17814085/005056a3-53e2-1fd1-b6c3-f0bcaa45940d",
-    "https://www.careers.hrp.gov.sg/sap/bc/ui5_ui5/sap/ZGERCFA004/index.html?search-keyword=Ngee%20Ann%20Polytechnic#/JobDescription/18161991/005056a3-53e2-1fd1-b398-86a29edad40c",
+    "https://www.careers.hrp.gov.sg/sap/bc/ui5_ui5/sap/ZGERCFA004/index.html?search-keyword=Ngee%20Ann%20Polytechnic#/JobDescription/17565359/005056a3-53e2-1fd1-b8bf-6632aff8b40d",
+    "https://www.careers.hrp.gov.sg/sap/bc/ui5_ui5/sap/ZGERCFA004/index.html?search-keyword=Ngee%20Ann%20Polytechnic#/JobDescription/17702213/005056a3-53e2-1fd1-b8bf-6aac39b9140d",
     "https://www.careers.hrp.gov.sg/sap/bc/ui5_ui5/sap/ZGERCFA004/index.html?search-keyword=Ngee%20Ann%20Polytechnic#/JobDescription/18165369/005056a3-53e2-1fd1-b7da-d4b7c4c5d40d",
-    "https://www.careers.hrp.gov.sg/sap/bc/ui5_ui5/sap/ZGERCFA004/index.html?search-keyword=Ngee%20Ann%20Polytechnic#/JobDescription/18180886/005056a3-53e2-1fd1-b4c8-7de0e43c140d",
-    "https://www.careers.hrp.gov.sg/sap/bc/ui5_ui5/sap/ZGERCFA004/index.html?search-keyword=Ngee%20Ann%20Polytechnic#/JobDescription/18183960/005056a3-53e2-1fd1-b4e1-a481ccd8140d",
-    "https://www.careers.hrp.gov.sg/sap/bc/ui5_ui5/sap/ZGERCFA004/index.html?search-keyword=Ngee%20Ann%20Polytechnic#/JobDescription/18204127/005056a3-d347-1fe1-b6aa-d0d4388c22c5",
-    "https://www.careers.hrp.gov.sg/sap/bc/ui5_ui5/sap/ZGERCFA004/index.html?search-keyword=Ngee%20Ann%20Polytechnic#/JobDescription/18206308/005056a3-53e2-1fd1-b6c3-f1555e6b940d",
-    "https://www.careers.hrp.gov.sg/sap/bc/ui5_ui5/sap/ZGERCFA004/index.html?search-keyword=Ngee%20Ann%20Polytechnic#/JobDescription/18206313/005056a3-53e2-1fd1-b6c3-f12f68ca340d"
+    "https://www.careers.hrp.gov.sg/sap/bc/ui5_ui5/sap/ZGERCFA004/index.html?search-keyword=Ngee%20Ann%20Polytechnic#/JobDescription/18237938/005056a3-53e2-1fd1-b9da-e9c407ebf40d"
   ],
   "school_id": 1864,
-  "status": "error",
-  "updated_at": "2026-11-20T19:18:00+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-23T21:54:14+00:00",
   "started_at": "2026-11-02T19:56:40+00:00",
-  "completed_at": "2026-11-13T20:06:18+00:00",
-  "last_error": "RuntimeError: could not load job list after 3 attempts: Page.wait_for_selector: Timeout 20000ms exceeded.\nCall log:\n  - waiting for locator(\"a.customJobSearchTitle\") to be visible\n"
+  "completed_at": "2026-11-23T21:54:14+00:00",
+  "last_error": ""
 }

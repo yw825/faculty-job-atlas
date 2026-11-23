@@ -18,11 +18,13 @@ school_id,posting_url,job_title_in_post,position_type,job_term,department_or_sch
 1036,https://apply.interfolio.com/185542,"Assistant Professor, Department of Biochemistry",Lecturer,Full-time,Biochemistry (FAC/RA/RS),Biochemistry,,"July 1, 2027",2026-05-14
 1036,https://apply.interfolio.com/185982,"Assistant, Associate or Full Professor, Biochemistry",Full_Professor,Full-time,Biochemistry (FAC/RA/RS),Biochemistry,"September 28, 2026",,2026-08-12
 1036,https://apply.interfolio.com/197005,Postdoctoral Scholar,Research_Fellow,Full-time,Molecular Biology and Microbiology (FAC/RA/RS),,,,2026-11-04
+1036,https://apply.interfolio.com/197793,Research Scientist,Research_Fellow,Full-time,Molecular Biology and Microbiology (FAC/RA/RS),,,,2026-11-20
 1036,https://apply.interfolio.com/172917,Faculty Position,Assistant_Professor; Associate_Professor; Full_Professor,Full-time,Physiology and Biophysics (FAC/RA/RS),defined areas of cell physiology; molecular biophysics,2027-10-28,,2025-08-28
 1036,https://apply.interfolio.com/174382,Senior Research Associate,Research_Fellow,Full-time,Physiology and Biophysics (FAC/RA/RS),,,,2025-09-25
 1036,https://apply.interfolio.com/184344,Assistant/Associate Professor of Physiology & Biophysics,Assistant_Professor; Associate_Professor,Full-time,Physiology and Biophysics (FAC/RA/RS),Physiology & Biophysics; renal physiology; cell signaling,,,2026-04-03
 1036,https://apply.interfolio.com/185192,Instructor of Physiology & Biophysics,Lecturer,Full-time,Physiology and Biophysics (FAC/RA/RS),Physiology & Biophysics; Parkinson's disease,,,2026-04-20
 1036,https://apply.interfolio.com/183608,Research Scientist,Research_Fellow,Full-time,ITMM - Staff,RNA isolation; Western blotting,,,2026-03-23
+1036,https://apply.interfolio.com/197518,Senior Research Associate,Research_Fellow,Full-time,Ophthalmology - Staff,vision research; cell biology,2026-11-27,,2026-11-23
 1036,https://apply.interfolio.com/188957,Director for WR2 MD Program Renewal,Unclassified,Part-time,Medical Education (GMS) (FAC/RA/RS),Associate Dean,,,2026-07-20
 1036,https://apply.interfolio.com/197062,STUDENT Administrative Assistant FWS only,Unclassified,Full-time,Medical Education (GMS) (FAC/RA/RS),,,,2026-11-05
 1036,https://apply.interfolio.com/171243,"Associate/Assistant Professor, Tenured or Tenure Track",Assistant_Professor; Associate_Professor,Full-time,Frances Payne Bolton School of Nursing (FAC),,,,2026-06-01
@@ -90,7 +92,6 @@ school_id,posting_url,job_title_in_post,position_type,job_term,department_or_sch
 1036,https://apply.interfolio.com/191204,Student Genomic Data Analyst,Unclassified,Full-time,School of Medicine (STUDENT),cancer genomics Collaboration: Work closely; laboratory members,,,2026-08-13
 1036,https://apply.interfolio.com/192308,Student - Lab Assistant (No Wet-Lab/Bench Work),Unclassified,Full-time,School of Medicine (STUDENT),,,,2026-08-25
 1036,https://apply.interfolio.com/193597,Medical Physiology Note Taker,Unclassified,Full-time,School of Medicine (STUDENT),Assistant liaison,,,2026-09-16
-1036,https://apply.interfolio.com/193716,Office Assistant,Unclassified,Full-time,School of Medicine (STUDENT),,,,2026-09-16
 1036,https://apply.interfolio.com/193746,Qualitative Graduate Student Research Assistant,Unclassified,Full-time,School of Medicine (STUDENT),,,,2026-09-28
 1036,https://apply.interfolio.com/197159,Classroom Teaching Assistant-Nutrition (Student),Unclassified,Full-time,School of Medicine (STUDENT),,,,2026-11-11
 1036,https://apply.interfolio.com/197264,Nutrition Teaching Kitchen Assistant (Student),Unclassified,Full-time,School of Medicine (STUDENT),Kitchen Assistant Additional Information Form,"December 4, 2026",,2026-11-11
@@ -145,7 +146,6 @@ school_id,posting_url,job_title_in_post,position_type,job_term,department_or_sch
 1036,https://apply.interfolio.com/190971,Research Associate,Research_Fellow,Full-time,Weatherhead School of Management (RA/RS),,,"October 27, 2025",2026-08-10
 1036,https://apply.interfolio.com/193559,Research Associate,Research_Fellow,Full-time,Weatherhead School of Management (RA/RS),,"November 1, 2026","November 1, 2026",2026-09-14
 1036,https://apply.interfolio.com/195820,Postdoctoral Scholar - Biomedical Engineering,Research_Fellow,Full-time,Biomedical Engineering - CSE (PD),peripheral nerve; neural engineering,"October 23, 2026","October 27, 2025",2026-10-20
-1036,https://apply.interfolio.com/197417,Postdoctoral Scholar - Biomedical Engineering,Research_Fellow,Full-time,Biomedical Engineering - CSE (PD),,,"October 27, 2025",2026-11-16
 1036,https://apply.interfolio.com/190689,Postdoctoral Scholar - Chemical and Biomolecular Engineering,Research_Fellow,Full-time,Chemical & Biomolecular Engineering (PD),implementation of rotating packed bed; separation science,"August 7, 2027","October 27, 2025",2026-10-21
 1036,https://apply.interfolio.com/196429,Postdoctoral Scholar - Chemical and Biomolecular Engineering (CD),Research_Fellow,Full-time,Chemical & Biomolecular Engineering (PD),implementation of rotating packed bed; separation science,,"October 27, 2025",2026-10-29
 1036,https://apply.interfolio.com/183946,Research Associate,Research_Fellow,Full-time,Biomedical Engineering - CSE (RA/RS),Laboratory; managing complex research of a,,"October 27, 2025",2026-03-30
@@ -167,6 +167,8 @@ school_id,posting_url,job_title_in_post,position_type,job_term,department_or_sch
 1036,https://apply.interfolio.com/192038,Undergraduate Teaching Assistant: Burden-Gulley: BIOL325 Cell Biology,Unclassified,Full-time,Department of Biology (STUDENT),,,,2026-08-24
 1036,https://apply.interfolio.com/192487,Undergraduate Teaching Assistant: Gardner/DiLulio/Bader: BIOL214,Unclassified,Full-time,Department of Biology (STUDENT),,,,2026-08-27
 1036,https://apply.interfolio.com/179926,Student Professional Tutor for Languages,Lecturer,Full-time,Department of Modern Languages and Literatures (STUDENT),,,,2026-05-05
+1036,https://apply.interfolio.com/190889,Student Research Assistant - Ntourou Research Lab,Unclassified,Full-time,Department of Psychological Sciences (STUDENT),,,,2026-08-24
+1036,https://apply.interfolio.com/197235,Graduate Student Research Assistant,Unclassified,Full-time,Department of Psychological Sciences (STUDENT),,,,2026-11-09
 1036,https://apply.interfolio.com/176667,Postdoctoral Scholar,Research_Fellow,Full-time,Biochemistry (PD),attending departmental seminars; progress seminars,,"October 27, 2025",2025-10-28
 1036,https://apply.interfolio.com/195900,Postdoctoral Scholar,Research_Fellow,Full-time,Genetics and Genome Sciences (PD),,,"October 27, 2025",2026-10-19
 1036,https://apply.interfolio.com/189987,"Postdoctoral Scholar, Sauerbrei Lab, Neurosciences",Research_Fellow,Full-time,Neurosciences (PD),,,"October 27, 2025",2026-07-23

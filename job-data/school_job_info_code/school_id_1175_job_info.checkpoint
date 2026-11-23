@@ -59,6 +59,10 @@
     "https://www.francis.edu/about-us/employment#adjuncts-philosophy-accepting-applications": {
       "title": "Adjuncts, Philosophy- Accepting Applications",
       "description": "Adjuncts, Philosophy- Accepting Applications. Search Status: Application material received by November 6, 2026 will receive primary consideration. Saint Francis University invites applications for adjuncts to teach in our Department of Theology & Philosophy. Adjuncts would be asked to teach up to three sections of PHIL105: Intro to Philosophy, beginning in Spring 2027. We anticipate a continuing need for these sections through Spring 2028, subject to enrollment. This course is a foundational element of our undergraduate core curriculum and is taken by most students in their freshman year. Candidates must hold at least a master’s degree in philosophy and embrace the Catholic vision of university education and philosophy expressed in Pope St. John Paul’s II’s Ex Corde Ecclesiae and Fides et Ratio , respectively. Preference will be given to applicants who can teach on campus on Tuesdays & Thursdays, but those who require hybrid or fully online formats will also be considered. Eligibility requirement: Candidates must have current authorization to work in the United States. We are unable to provide visa sponsorship or assist with work authorization. Complete an online application , then submit letter of application, CV, unofficial transcript, a sample syllabus for PHIL 105, and names, addresses and phone numbers of three references to: positions@francis.edu Saint Francis University is an equal opportunity employer. The University is committed to providing employment opportunities to all qualified applicants without regard to race, color, religion, age, sex, sexual orientation, gender identity, national origin, disability or protected veteran status. If you are unable to use our online application process due to an impairment or disability, please contact 814-472-3264 or positions@francis.edu ."
+    },
+    "https://www.francis.edu/about-us/employment#internal-university-police-officer": {
+      "title": "INTERNAL: University Police Officer",
+      "description": "INTERNAL: University Police Officer. Search Status: Deadline is November 30, 2026. Only internal applicants at this time. Saint Francis University invites applications for full-time Police Officers in the Department of University Police. The University Police Officer is directly responsible to the Chief of Police for providing all members of the University community with a safe and secure environment in which to work, learn, and live. As a uniformed officer, he/she will be responsible for performing all duties associated with the University Police Department. Must possess ACT120 Certification and/or ACT 235 certification and a valid Pennsylvania driver’s license with an acceptable driving record. Ability to obtain a PA License to Carry a Firearm. Must be able to pass a comprehensive background investigation and both a physical and psychological examination. Along with the above, a University Police Officer should show and maintain: A strong knowledge of criminal investigations; Strong oral and report writing skills; Understanding of the PA vehicle/crime codes; Possess effective public relations and interpersonal skills; Ability to carry out assigned projects to their completion with minimal supervision; Ability to work independently with a multitude of task; Ability to establish and maintain professional and effective working relationships with University employees, students, supervisors, other departments and outside agencies; Ability to maintain and ensure confidentiality; Must be committed to a philosophy of providing friendly, knowledgeable service. Shift work required. Eligibility requirement: Candidates must have current authorization to work in the United States. We are unable to provide visa sponsorship or assist with work authorization. Interested candidates should complete an online application , then submit a letter of application, references (names, mailing and email address, and telephone numbers), and current resume to: positions@francis.edu Saint Francis University is an equal opportunity employer. The University is committed to providing employment opportunities to all qualified applicants without regard to race, color, religion, age, sex, sexual orientation, gender identity, national origin, disability or protected veteran status. If you are unable to use our online application process due to an impairment or disability, please contact 814-472-3264 or positions@francis.edu ."
     }
   },
   "rows": {
@@ -239,11 +243,23 @@
       "deadline_of_application": "November 6, 2026",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.francis.edu/about-us/employment#internal-university-police-officer": {
+      "school_id": 1175,
+      "posting_url": "https://www.francis.edu/about-us/employment#internal-university-police-officer",
+      "job_title_in_post": "INTERNAL: University Police Officer",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Department of University Police",
+      "area_key_words": "",
+      "deadline_of_application": "November 30, 2026",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1175,
   "status": "complete",
-  "updated_at": "2026-11-20T20:01:11+00:00",
-  "completed_at": "2026-11-20T20:01:11+00:00",
+  "updated_at": "2026-11-23T22:21:25+00:00",
+  "completed_at": "2026-11-23T22:21:25+00:00",
   "last_error": ""
 }

@@ -99,6 +99,11 @@
       "title": "Part-Time Adjunct Faculty Position(s) in Physics and Astronomy",
       "description": "Posted: 11/18/2026 Location: Duluth Department: D Physics & Astronomy Part-Time Adjunct Faculty Position(s) in Physics and Astronomy",
       "department": "D Physics & Astronomy"
+    },
+    "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=377247&PostingSeq=1": {
+      "title": "CSD Clinic Director & faculty instructor or assistant professor of teaching",
+      "description": "Posted: 11/20/2026 Location: Duluth Department: D Comm Sci & Disorders CSD Clinic Director & faculty instructor or assistant professor of teaching",
+      "department": "D Comm Sci & Disorders"
     }
   },
   "rows": {
@@ -251,7 +256,7 @@
       "position_type": "Lecturer",
       "job_term": "Part-time",
       "department_or_school": "D Social Work",
-      "area_key_words": "Assistant Professor",
+      "area_key_words": "",
       "deadline_of_application": "",
       "posted_date": "07/16/2026",
       "position_start_date": ""
@@ -339,11 +344,23 @@
       "deadline_of_application": "",
       "posted_date": "11/18/2026",
       "position_start_date": ""
+    },
+    "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=377247&PostingSeq=1": {
+      "school_id": 672,
+      "posting_url": "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=377247&PostingSeq=1",
+      "job_title_in_post": "CSD Clinic Director & faculty instructor or assistant professor of teaching",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "D Comm Sci & Disorders",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/20/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 672,
   "status": "complete",
-  "updated_at": "2026-11-20T19:53:56+00:00",
-  "completed_at": "2026-11-20T19:53:56+00:00",
+  "updated_at": "2026-11-23T22:17:32+00:00",
+  "completed_at": "2026-11-23T22:17:32+00:00",
   "last_error": ""
 }

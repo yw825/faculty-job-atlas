@@ -129,6 +129,16 @@
       "title": "Assistant Manager - Dining Services",
       "description": "Posted: 11/10/2026 Location: Mayville Department: Food Service Assistant Manager - Dining Services",
       "department": "Food Service"
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960256&PostingSeq=1&SiteId=1": {
+      "title": "(S) Student Assistant/Marketing & Public Relations",
+      "description": "Posted: 11/23/2026 Location: Mayville Department: Alumni/Foundation (S) Student Assistant/Marketing & Public Relations",
+      "department": "Alumni/Foundation"
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960232&PostingSeq=1&SiteId=1": {
+      "title": "Assistant Volleyball Coach/Enrollment Specialist",
+      "description": "Posted: 11/20/2026 Location: Mayville Department: Athletic Admin Assistant Volleyball Coach/Enrollment Specialist",
+      "department": "Athletic Admin"
     }
   },
   "rows": {
@@ -443,11 +453,35 @@
       "deadline_of_application": "",
       "posted_date": "11/10/2026",
       "position_start_date": ""
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960256&PostingSeq=1&SiteId=1": {
+      "school_id": 826,
+      "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960256&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "(S) Student Assistant/Marketing & Public Relations",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Alumni/Foundation",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/23/2026",
+      "position_start_date": ""
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960232&PostingSeq=1&SiteId=1": {
+      "school_id": 826,
+      "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960232&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Assistant Volleyball Coach/Enrollment Specialist",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Athletic Admin",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/20/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 826,
   "status": "complete",
-  "updated_at": "2026-11-20T19:59:19+00:00",
-  "completed_at": "2026-11-20T19:59:19+00:00",
+  "updated_at": "2026-11-23T22:20:42+00:00",
+  "completed_at": "2026-11-23T22:20:42+00:00",
   "last_error": ""
 }

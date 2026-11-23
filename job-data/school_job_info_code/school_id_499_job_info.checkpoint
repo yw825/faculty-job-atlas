@@ -39,6 +39,10 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/0360F3B5A2EC741788B51C99C6E17513/jobs/401417": {
       "title": "Assistant Coach - Track & Field",
       "description": "Assistant Coach - Track & Field You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/0360F3B5A2EC741788B51C99C6E17513/jobs/402221": {
+      "title": "Assistant/Associate  Professor Nursing",
+      "description": "Assistant/Associate  Professor Nursing You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -161,11 +165,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/0360F3B5A2EC741788B51C99C6E17513/jobs/402221": {
+      "school_id": 499,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/0360F3B5A2EC741788B51C99C6E17513/jobs/402221",
+      "job_title_in_post": "Assistant/Associate  Professor Nursing",
+      "position_type": "Assistant_Professor; Associate_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 499,
   "status": "complete",
-  "updated_at": "2026-11-20T19:55:01+00:00",
-  "completed_at": "2026-11-20T19:55:01+00:00",
+  "updated_at": "2026-11-23T22:12:35+00:00",
+  "completed_at": "2026-11-23T22:12:35+00:00",
   "last_error": ""
 }

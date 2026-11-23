@@ -64,10 +64,10 @@
     "https://www.uni.lu/en/jobs/research-and-development-specialist-in-embedded-systems-for-satellite-communications/"
   ],
   "school_id": 1715,
-  "status": "complete",
-  "updated_at": "2026-11-20T19:05:40+00:00",
+  "status": "error",
+  "updated_at": "2026-11-23T21:40:49+00:00",
   "started_at": "2026-09-02T22:27:32+00:00",
   "completed_at": "2026-11-20T19:05:40+00:00",
-  "last_error": "",
+  "last_error": "RuntimeError: no jobs on the page (blocked?)",
   "last_warning": "2026-11-20T19:05:40+00:00: board returned 9 links vs 53 before; old set kept"
 }

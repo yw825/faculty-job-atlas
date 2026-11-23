@@ -82,9 +82,9 @@
     "https://jobs.du.edu/jobs/lifeguard-denver-co-colorado-united-states"
   ],
   "school_id": 169,
-  "status": "complete",
-  "updated_at": "2026-11-20T18:19:06+00:00",
+  "status": "error",
+  "updated_at": "2026-11-23T20:30:14+00:00",
   "started_at": "2026-09-08T01:21:49+00:00",
   "completed_at": "2026-11-20T18:19:06+00:00",
-  "last_error": ""
+  "last_error": "RuntimeError: denver board listed no jobs"
 }

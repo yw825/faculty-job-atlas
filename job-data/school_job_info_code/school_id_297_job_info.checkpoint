@@ -1429,6 +1429,21 @@
       "title": "Shop Supervisor",
       "description": "Posted: 11/16/2026 Location: Marietta, Georgia Department: ACM-Coll Architect&ConstrucMgt Shop Supervisor",
       "department": "ACM-Coll Architect&ConstrucMgt"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306027&PostingSeq=1&SiteId=43000": {
+      "title": "Academic Advisor, Radow College Advising Center",
+      "description": "Posted: 11/23/2026 Location: Kennesaw, Georgia Department: RPG-Advising-Radow Academic Advisor, Radow College Advising Center",
+      "department": "RPG-Advising-Radow"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306085&PostingSeq=1&SiteId=43000": {
+      "title": "Housing Coordinator",
+      "description": "Posted: 11/20/2026 Location: Kennesaw, Georgia Department: BSC-AUX-ARC II Housing Housing Coordinator",
+      "department": "BSC-AUX-ARC II Housing"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306195&PostingSeq=1&SiteId=43000": {
+      "title": "Senior Associate Athletic Director, Paralympic Initiatives",
+      "description": "Posted: 11/20/2026 Location: Kennesaw, Georgia Department: ATH-Athletics Administration Senior Associate Athletic Director, Paralympic Initiatives",
+      "department": "ATH-Athletics Administration"
     }
   },
   "rows": {
@@ -4863,11 +4878,47 @@
       "deadline_of_application": "",
       "posted_date": "11/16/2026",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306027&PostingSeq=1&SiteId=43000": {
+      "school_id": 297,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306027&PostingSeq=1&SiteId=43000",
+      "job_title_in_post": "Academic Advisor, Radow College Advising Center",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "RPG-Advising-Radow",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/23/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306085&PostingSeq=1&SiteId=43000": {
+      "school_id": 297,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306085&PostingSeq=1&SiteId=43000",
+      "job_title_in_post": "Housing Coordinator",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "BSC-AUX-ARC II Housing",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/20/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306195&PostingSeq=1&SiteId=43000": {
+      "school_id": 297,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306195&PostingSeq=1&SiteId=43000",
+      "job_title_in_post": "Senior Associate Athletic Director, Paralympic Initiatives",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "ATH-Athletics Administration",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/20/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 297,
   "status": "complete",
-  "updated_at": "2026-11-20T20:32:59+00:00",
+  "updated_at": "2026-11-23T22:10:02+00:00",
   "last_error": "",
-  "completed_at": "2026-11-20T20:32:59+00:00"
+  "completed_at": "2026-11-23T22:10:02+00:00"
 }

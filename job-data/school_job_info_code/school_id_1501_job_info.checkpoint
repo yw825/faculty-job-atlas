@@ -59,6 +59,16 @@
       "title": "Undergraduate Admissions Counselor",
       "description": "Are you an enthusiastic, results-driven storyteller who loves connecting with people? Champlain College is looking for a dynamic Admissions Counselor to introduce prospective students and families to everything that makes Champlain distinctive. Managing an assigned geographic territory covering Connecticut, Rhode Island, and western Massachusetts, this role owns the full admissions recruitment cycle—from building relationships and generating interest to guiding prospective students through the college search and application process.",
       "department": null
+    },
+    "https://champlain-ibumjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/61": {
+      "title": "Adjunct Instructor - Game Art (Animation & Game VFX) - Fall 2027",
+      "description": "The Game Studio at Champlain College invites applications for one or more Adjunct Faculty positions in the Game Art program for the Fall 2027 semester. We seek a passionate educator and practicing professional to join our community, where students work across disciplines while creating innovative projects.",
+      "department": null
+    },
+    "https://champlain-ibumjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/62": {
+      "title": "Production Equipment Senior Coordinator",
+      "description": "Great creative work starts with the right tools in the right hands. As Production Equipment Senior Coordinator, you'll make sure Champlain's students and faculty have the production equipment and support they need to bring their ideas to life, from the first shoot to the final show.",
+      "department": null
     }
   },
   "rows": {
@@ -204,11 +214,35 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://champlain-ibumjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/61": {
+      "school_id": 1501,
+      "posting_url": "https://champlain-ibumjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/61",
+      "job_title_in_post": "Adjunct Instructor - Game Art (Animation & Game VFX) - Fall 2027",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "Fall 2027",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://champlain-ibumjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/62": {
+      "school_id": 1501,
+      "posting_url": "https://champlain-ibumjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/62",
+      "job_title_in_post": "Production Equipment Senior Coordinator",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1501,
   "status": "complete",
-  "updated_at": "2026-11-20T20:08:02+00:00",
-  "completed_at": "2026-11-20T20:08:02+00:00",
+  "updated_at": "2026-11-23T22:26:48+00:00",
+  "completed_at": "2026-11-23T22:26:48+00:00",
   "last_error": ""
 }

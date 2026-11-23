@@ -171,6 +171,10 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/6E871BCB0EFD76A7A4C5061C331B232C/jobs/572812": {
       "title": "Adjunct Lecturer, Applied Behavior Analysis",
       "description": "Adjunct Lecturer, Applied Behavior Analysis You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/6E871BCB0EFD76A7A4C5061C331B232C/jobs/600801": {
+      "title": "Assistant/Associate Provost for Teaching and Learning",
+      "description": "Assistant/Associate Provost for Teaching and Learning You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -687,11 +691,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/6E871BCB0EFD76A7A4C5061C331B232C/jobs/600801": {
+      "school_id": 580,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/6E871BCB0EFD76A7A4C5061C331B232C/jobs/600801",
+      "job_title_in_post": "Assistant/Associate Provost for Teaching and Learning",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 580,
   "status": "complete",
-  "updated_at": "2026-11-20T19:48:50+00:00",
-  "completed_at": "2026-11-20T19:48:50+00:00",
+  "updated_at": "2026-11-23T22:15:11+00:00",
+  "completed_at": "2026-11-23T22:15:11+00:00",
   "last_error": ""
 }

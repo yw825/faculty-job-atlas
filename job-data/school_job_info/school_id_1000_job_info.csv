@@ -1,7 +1,6 @@
 school_id,posting_url,job_title_in_post,position_type,job_term,department_or_school,area_key_words,deadline_of_application,position_start_date,posted_date
 1000,https://apply.interfolio.com/188552,Creative Workshop Instructor for Adults,Lecturer,Full-time,,Creative Workshop,,,
 1000,https://apply.interfolio.com/190629,ELC Instructor,Lecturer,Full-time,,ELC; Artist,,,
-1000,https://apply.interfolio.com/192948,ELC Instructor,Lecturer,Full-time,,ELC; Artist,,,
 1000,https://apply.interfolio.com/135953,Instructor (Fellowship) 126920,Lecturer,Full-time,,,,,
 1000,https://apply.interfolio.com/135103,Instructor (Fellowship) 126924,Lecturer,Full-time,,,,,
 1000,https://apply.interfolio.com/135109,Instructor (Fellowship) 126930,Lecturer,Full-time,,,,,
@@ -49,6 +48,7 @@ school_id,posting_url,job_title_in_post,position_type,job_term,department_or_sch
 1000,https://apply.interfolio.com/170468,Donna Strickland Optica Distinguished Professorship,Full_Professor,Full-time,"Institute of Optics, University of Rochester The Institute of Optics",diverse range of optics-related fields; optical engineering,"September 15, 2025",,
 1000,https://apply.interfolio.com/197564,Tenure-track Assistant Professor-22HAJ-220300-OPT-FY27-1035,Assistant_Professor,Full-time,"Institute of  Optics,  University  of  Rochester",,,,"Nov 13, 2026"
 1000,https://apply.interfolio.com/194378,Associate Professor/Full Professor in African History: 21SAS-210508-BLS-FY27-1002,Associate_Professor; Full_Professor,Full-time,Department of Black Studies,Indian; postcolonial entanglements Maritime trade; Expectations Salary Range,"November 1, 2026","July 1, 2027",
+1000,https://apply.interfolio.com/197734,Open Rank Chemistry Professor,Assistant_Professor; Associate_Professor; Full_Professor,Full-time,Department of Chemistry,Chemistry,"Nov 26, 2026",,"Nov 17, 2026"
 1000,https://apply.interfolio.com/195845,Postdoctoral Associate,Research_Fellow,Full-time,Department of Psychology and Mt,,,,"Oct 25, 2026"
 1000,https://apply.interfolio.com/196393,Postdoctoral Associate,Research_Fellow,Full-time,Department of Earth and Environmental Sciences,surface fluxes of greenhouse gases; atmospheric modeling,,,"Nov 01, 2026"
 1000,https://apply.interfolio.com/192002,Assistant Professor Macroeconomics - 21SAS-210530-ECO- FY27-1004,Assistant_Professor,Full-time,Department of Economics,,,,
@@ -213,6 +213,7 @@ school_id,posting_url,job_title_in_post,position_type,job_term,department_or_sch
 1000,https://apply.interfolio.com/185918,Neuro Ophthalmologist (Assistant Professor - Full Professor),Assistant_Professor; Full_Professor,Full-time,School of Medicine and Dentistry The Flaum Eye Institute,,,,
 1000,https://apply.interfolio.com/185919,Retina Ophthalmologist (Assistant Professor - Full Professor),Assistant_Professor; Full_Professor,Full-time,School of Medicine and Dentistry The Flaum Eye Institute,,,,
 1000,https://apply.interfolio.com/190839,Instructor (Retina),Lecturer,Full-time,School of Medicine and Dentistry The Flaum Eye Institute,medical students,,,
+1000,https://apply.interfolio.com/197442,Uveitis Ophthalmologist,Unclassified,Full-time,,,,,"Nov 11, 2026"
 1000,https://apply.interfolio.com/133471,"Department of Orthopaedics, Division of Spinal Surgery",Unclassified,Full-time,"Department of Orthopaedics, Division of Spinal Surgery","Orthopaedics, Division of Spinal Surgery; Physical Performance",,,
 1000,https://apply.interfolio.com/133917,"Assistant Professor, Orthopaedic Trauma/Adult Reconstruction",Assistant_Professor,Full-time,,Orthopaedic Trauma/Adult Reconstruction,,,
 1000,https://apply.interfolio.com/146131,Assistant Professor- Regional Spine,Assistant_Professor,Full-time,,,,,
@@ -247,6 +248,8 @@ school_id,posting_url,job_title_in_post,position_type,job_term,department_or_sch
 1000,https://apply.interfolio.com/194064,Inpatient Rehabilitation Medicine Physician,Unclassified,Full-time,Department of PM&R and,,,,
 1000,https://apply.interfolio.com/189017,Assistant Professor of Surgery; Associate Professor; Professor of Surgery (Plastic Surgery),Assistant_Professor; Associate_Professor; Full_Professor,Full-time,School of Medicine and Dentistry The Division of Plastic Surgery,Surgery,,,
 1000,https://apply.interfolio.com/190143,Instructor in Surgery (Burn Surgery Fellowship),Lecturer,Full-time,School of Music,Surgery,,,
+1000,https://apply.interfolio.com/197660,Full-time Consult Liaison Psychiatrist Needed,Unclassified,Full-time,Department of Psychiatry,,,,"Nov 16, 2026"
+1000,https://apply.interfolio.com/197851,Associate Director needed for University Counseling Center,Unclassified,Full-time,Department of Psychiatry,,,,"Nov 20, 2026"
 1000,https://apply.interfolio.com/165581,Research Assistant/Associate Professor of Radiation Oncology,Lecturer,Full-time,Department of Radiation Oncology,Radiation Oncology,,,"Feb 20, 2026"
 1000,https://apply.interfolio.com/177341,Assistant Professor/Associate Professor/Professor of Radiation Oncology,Assistant_Professor; Associate_Professor; Full_Professor,Full-time,Department of Radiation Oncology,Radiation Oncology,,,
 1000,https://apply.interfolio.com/178834,Assistant Professor/Associate Professor/Professor of Radiation Oncology,Assistant_Professor; Associate_Professor; Full_Professor,Full-time,Department of Radiation Oncology,Radiation Oncology,,,
@@ -369,7 +372,6 @@ school_id,posting_url,job_title_in_post,position_type,job_term,department_or_sch
 1000,https://apply.interfolio.com/194330,Psychologist to Spearhead Behavioral Health Services in Oncology,Unclassified,Part-time,Department of Psychiatry,Oncology,,,
 1000,https://apply.interfolio.com/181745,Full-Time Physician in Inpatient Medicine in Psychiatry Unit,Unclassified,Full-time,Division of Medicine in Psychiatry Service working on two adult medical inpatient units,Inpatient Medicine in Psychiatry Unit,,,
 1000,https://apply.interfolio.com/183754,PT Outpatient Medicine In Psychiatry Physician,Unclassified,Part-time,Division of the Department of Psychiatry,,,,
-1000,https://apply.interfolio.com/193650,Assistant Professor of Surgery (Vascular Surgery),Assistant_Professor,Full-time,School of Medicine and Dentistry The Department of Surgery,Surgery,,,
 1000,https://apply.interfolio.com/195294,Assistant Professor of Surgery; Associate Professor of Surgery; Professor of Surgery (Vascular Surgery),Assistant_Professor; Associate_Professor; Full_Professor,Full-time,School of Medicine and Dentistry The Department of Surgery,Surgery,,,
 1000,https://apply.interfolio.com/155533,Faculty Position in Pediatrics (Allergy & Immunology),Assistant_Professor; Associate_Professor; Full_Professor,Full-time,Division of Pediatric Allergy & Immunology,Pediatrics; Center of Food Allergy under; Residency program,,,
 1000,https://apply.interfolio.com/195946,Pediatric Allergist and Immunologist,Unclassified,Full-time,Division of Pediatric Allergy & Immunology,clinical immunology; allergic diseases,,,"Oct 21, 2026"

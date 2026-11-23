@@ -183,6 +183,10 @@
     "https://portal.flsouthern.edu/ICS/Employment_App/#tutor-roberts-center-academy": {
       "title": "Tutor - Roberts Center Academy",
       "description": "Tutor - Roberts Center Academy. Department: . Classification: Staff. Part Time. Posted: None specified."
+    },
+    "https://portal.flsouthern.edu/ICS/Employment_App/#community-director": {
+      "title": "Community Director",
+      "description": "Community Director. Department: Residence Life. Classification: Staff. Full Time. Posted: 11/20/2026."
     }
   },
   "rows": {
@@ -737,11 +741,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://portal.flsouthern.edu/ICS/Employment_App/#community-director": {
+      "school_id": 238,
+      "posting_url": "https://portal.flsouthern.edu/ICS/Employment_App/#community-director",
+      "job_title_in_post": "Community Director",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/20/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 238,
   "status": "complete",
-  "updated_at": "2026-11-20T19:43:16+00:00",
-  "completed_at": "2026-11-20T19:43:16+00:00",
+  "updated_at": "2026-11-23T22:06:29+00:00",
+  "completed_at": "2026-11-23T22:06:29+00:00",
   "last_error": ""
 }

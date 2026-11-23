@@ -123,6 +123,10 @@
     "https://viprecprod.ad.umanitoba.ca/A#req-51639": {
       "title": "Assistant/Associate Professor(Canada Impact+Emerging Leader)",
       "description": "Assistant/Associate Professor(Canada Impact+Emerging Leader) | Requisition No: 51639 - Category:  FULL TIME ACADEMICS | Full time -  Permanent | Manitoba | Fort Garry Campus [011] | Nov/17/2026 | Postdoctoral Fellow"
+    },
+    "https://viprecprod.ad.umanitoba.ca/A#req-51875": {
+      "title": "Professorship in Internal Medicine Clinical Science",
+      "description": "Professorship in Internal Medicine Clinical Science | Requisition No: 51875 - Category:  FULL TIME ACADEMICS | Full time - Temporary | Manitoba | Bannatyne Campus [021] | Nov/23/2026 | Professorship in Neuropathology"
     }
   },
   "rows": {
@@ -489,11 +493,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://viprecprod.ad.umanitoba.ca/A#req-51875": {
+      "school_id": 1601,
+      "posting_url": "https://viprecprod.ad.umanitoba.ca/A#req-51875",
+      "job_title_in_post": "Professorship in Internal Medicine Clinical Science",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Internal Medicine Clinical Science",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1601,
   "status": "complete",
-  "updated_at": "2026-11-20T20:49:16+00:00",
-  "completed_at": "2026-11-20T20:49:16+00:00",
+  "updated_at": "2026-11-23T22:38:02+00:00",
+  "completed_at": "2026-11-23T22:38:02+00:00",
   "last_error": ""
 }

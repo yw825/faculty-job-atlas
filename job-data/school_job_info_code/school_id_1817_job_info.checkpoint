@@ -94,6 +94,21 @@
       "title": "STEM Program Facilitator",
       "description": "Join the Brimbank Tech School team and be part of an inspiring educational journey! Excited to teach and inspire the next generation of thinkers and creators? Help us deliver hands-on learning where creativity meets technology, and make a lasting impact on students and educators alike. ",
       "department": null
+    },
+    "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18728": {
+      "title": "Senior Legal Counsel",
+      "description": "Victoria University (VU) is seeking an exceptional, collaborative senior lawyer to play a critical role within the Office of the General Counsel (OGC) in providing expert legal advice to VU. As a senior lawyer within OGC, the successful candidate will partner with, and act as the day-to-day contact for, senior leaders, managers and internal stakeholders to provide pragmatic and responsive legal services that support VU’s strategic and operational objectives.",
+      "department": null
+    },
+    "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18732": {
+      "title": "TAFE Sessional - Electrotechnology",
+      "description": "As a TAFE sessional teacher, you will have the opportunity to share your trade experience with the next generation of students. ",
+      "department": null
+    },
+    "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18733": {
+      "title": "Research Contract Advisor",
+      "description": "Be part of a team facilitating impactful research through contract processes and partnerships that drive research success.",
+      "department": null
     }
   },
   "rows": {
@@ -324,11 +339,47 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18728": {
+      "school_id": 1817,
+      "posting_url": "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18728",
+      "job_title_in_post": "Senior Legal Counsel",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18732": {
+      "school_id": 1817,
+      "posting_url": "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18732",
+      "job_title_in_post": "TAFE Sessional - Electrotechnology",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18733": {
+      "school_id": 1817,
+      "posting_url": "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18733",
+      "job_title_in_post": "Research Contract Advisor",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1817,
   "status": "complete",
-  "updated_at": "2026-11-20T20:37:45+00:00",
-  "completed_at": "2026-11-20T20:37:45+00:00",
+  "updated_at": "2026-11-23T22:35:37+00:00",
+  "completed_at": "2026-11-23T22:35:37+00:00",
   "last_error": ""
 }

@@ -1,11 +1,18 @@
 {
   "links": [
+    "https://www.hu-berlin.de/en/university/working-at-the-hu/jobs/details/juniorprofessur-w1-fuer-britische-geschichte-und-die-geschichte-des-britischen-empire-mit-tenure-track-nach-w2-jp-003-26",
+    "https://www.hu-berlin.de/en/university/working-at-the-hu/jobs/details/junior-professorship-w1-with-tenure-track-to-w3-for-history-didactics-jp-004-26",
+    "https://www.hu-berlin.de/en/university/working-at-the-hu/jobs/details/nachwuchsgruppenleiterin-m-w-d-im-exzellenzcluster-math-dr-178-26",
+    "https://www.hu-berlin.de/en/university/working-at-the-hu/jobs/details/wissenschaftlicher-mitarbeiterin-m-w-d-im-bereich-pflanzenernaehrung-an-245-26",
+    "https://www.hu-berlin.de/en/university/working-at-the-hu/jobs/details/wissenschaftlicher-mitarbeiterin-m-w-d-im-bereich-pflanzenernaehrung-an-246-26",
+    "https://www.hu-berlin.de/en/university/working-at-the-hu/jobs/details/wissenschaftlicher-mitarbeiterin-m-w-d-im-bereich-tierhaltungssysteme-und-ethologie-dr-183-26",
+    "https://www.hu-berlin.de/en/university/working-at-the-hu/jobs/details/wissenschaftlicher-mitarbeiterin-m-w-d-im-projekt-lipidtransferproteine-dr-180-26",
     "https://www.hu-berlin.de/en/university/working-at-the-hu/jobs/details/wissenschaftlicher-mitarbeiterin-m-w-d-auf-dem-gebiet-der-romanischen-sprachen-schwerpunkt-spanisch-dr-164-26"
   ],
   "school_id": 1686,
-  "status": "error",
-  "updated_at": "2026-11-20T19:00:10+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-23T21:36:26+00:00",
   "started_at": "2026-10-05T21:12:06+00:00",
-  "completed_at": "2026-11-10T21:42:58+00:00",
-  "last_error": "RuntimeError: hu-berlin: still on the Anubis challenge page"
+  "completed_at": "2026-11-23T21:36:26+00:00",
+  "last_error": ""
 }

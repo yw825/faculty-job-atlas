@@ -1,7 +1,6 @@
 {
   "links": [
     "https://recruit.ucsc.edu/JPF02007",
-    "https://recruit.ucsc.edu/JPF02012",
     "https://recruit.ucsc.edu/JPF02018",
     "https://recruit.ucsc.edu/JPF02019",
     "https://recruit.ucsc.edu/JPF02023",
@@ -94,12 +93,15 @@
     "https://recruit.ucsc.edu/JPF02133",
     "https://recruit.ucsc.edu/JPF02136",
     "https://recruit.ucsc.edu/JPF02137",
-    "https://recruit.ucsc.edu/JPF02140"
+    "https://recruit.ucsc.edu/JPF02138",
+    "https://recruit.ucsc.edu/JPF02140",
+    "https://recruit.ucsc.edu/JPF02141",
+    "https://recruit.ucsc.edu/JPF02142"
   ],
   "school_id": 150,
   "status": "complete",
-  "updated_at": "2026-11-20T01:53:07+00:00",
+  "updated_at": "2026-11-23T18:46:44+00:00",
   "started_at": "2026-11-02T18:48:51+00:00",
-  "completed_at": "2026-11-20T01:53:07+00:00",
+  "completed_at": "2026-11-23T18:46:44+00:00",
   "last_error": ""
 }

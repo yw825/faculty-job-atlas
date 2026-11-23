@@ -254,6 +254,11 @@
       "title": "Shuttle Van Driver (PT)",
       "description": "Posted: 11/17/2026 Location: Americus, Georgia Department: Student Success Center Shuttle Van Driver (PT)",
       "department": "Student Success Center"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306113&PostingSeq=1&SiteId=42000": {
+      "title": "Work Study Student Assistant - Post Office",
+      "description": "Posted: 11/20/2026 Location: Americus, Georgia Department: Post Office-General Work Study Student Assistant - Post Office",
+      "department": "Post Office-General"
     }
   },
   "rows": {
@@ -867,11 +872,23 @@
       "deadline_of_application": "",
       "posted_date": "11/17/2026",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306113&PostingSeq=1&SiteId=42000": {
+      "school_id": 271,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306113&PostingSeq=1&SiteId=42000",
+      "job_title_in_post": "Work Study Student Assistant - Post Office",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Post Office-General",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/20/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 271,
   "status": "complete",
-  "updated_at": "2026-11-20T20:28:52+00:00",
-  "completed_at": "2026-11-20T20:28:52+00:00",
+  "updated_at": "2026-11-23T22:03:11+00:00",
+  "completed_at": "2026-11-23T22:03:11+00:00",
   "last_error": ""
 }

@@ -124,6 +124,11 @@
       "title": "SENIOR RESEARCH ASSOCIATE - Electrical and Computer Engineering #00098687",
       "description": "Posted: 11/17/2026 Location: Rolla Department: Electrical & Computer Engineer SENIOR RESEARCH ASSOCIATE - Electrical and Computer Engineering #00098687",
       "department": "Electrical & Computer Engineer"
+    },
+    "https://erecruit.umsystem.edu/psc/tamext/ROLLA/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61817&PostingSeq=1&SiteId=10": {
+      "title": "POST DOCTORAL FELLOW - Computer Science #00098785",
+      "description": "Posted: 11/20/2026 Location: Rolla Department: Computer Science POST DOCTORAL FELLOW - Computer Science #00098785",
+      "department": "Computer Science"
     }
   },
   "rows": {
@@ -425,11 +430,23 @@
       "deadline_of_application": "",
       "posted_date": "11/17/2026",
       "position_start_date": ""
+    },
+    "https://erecruit.umsystem.edu/psc/tamext/ROLLA/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61817&PostingSeq=1&SiteId=10": {
+      "school_id": 726,
+      "posting_url": "https://erecruit.umsystem.edu/psc/tamext/ROLLA/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61817&PostingSeq=1&SiteId=10",
+      "job_title_in_post": "POST DOCTORAL FELLOW - Computer Science #00098785",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "Computer Science",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/20/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 726,
   "status": "complete",
-  "updated_at": "2026-11-20T19:55:41+00:00",
-  "completed_at": "2026-11-20T19:55:41+00:00",
+  "updated_at": "2026-11-23T22:18:43+00:00",
+  "completed_at": "2026-11-23T22:18:43+00:00",
   "last_error": ""
 }

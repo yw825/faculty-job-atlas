@@ -1514,6 +1514,21 @@
       "title": "Hourly Pooled - Cowboy Coach Peer Mentor",
       "description": "Provide peer mentorship and support to a caseload of students as well as to provide support for broader campus retention initiatives.",
       "department": null
+    },
+    "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/263091": {
+      "title": "Research Scientist, Associate - Wyoming Coop Unit",
+      "description": "The Wyoming Coop Unit is seeking an Associate Research Scientist to conduct research on ungulate migrations and support regional efforts to map and characterize migration patterns across Wyoming and the American West. The position will manage and analyze GPS collar data from multiple ungulate species and study areas, identify seasonal migration dates, delineate migration corridors, and develop spatial data products to support state and federal wildlife management and conservation efforts. The position will also manage and improve databases and analytical workflows supporting regional migration assessments, including ongoing efforts across the Greater Yellowstone Area. In addition to supporting established migration research and mapping initiatives, the Associate Research Scientist will contribute to and lead collaborative research projects that advance understanding of ungulate migration ecology and inform wildlife conservation and management across the West. ",
+      "department": null
+    },
+    "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/263101": {
+      "title": "Post Doctoral Research Associate - School of Pharmacy",
+      "description": "The Alex French Lab in the School of Pharmacy at the University of Wyoming is seeking an enthusiastic, inquisitive postdoctoral research associate to join our team. The postdoctoral research associate will work on an exciting NIH-funded project exploring a novel signaling mechanism at GPCRs and its potential to transform drug discovery. The French Lab studies how GPCR signaling can be fine-tuned by agonists to maximize therapeutic effects while minimizing undesired effects. We are particularly interested in opioid and psychedelic signaling in the context of alcohol misuse. This postdoc will lead projects studying the mechanisms of beta-arrestin isoform bias at GPCRs and its consequences across the scales of biology. Our work integrates a wide range of techniques including protein engineering, high-throughput cell-based drug screening, cell and tissue microscopy, whole-cell patch-clamp electrophysiology, electrocorticography, and mouse behavioral assays.",
+      "department": null
+    },
+    "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/263127": {
+      "title": "Golf Operations Senior - Jacoby Golf Course",
+      "description": "Golf Operations Senior",
+      "department": null
     }
   },
   "rows": {
@@ -5133,11 +5148,47 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/263091": {
+      "school_id": 1583,
+      "posting_url": "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/263091",
+      "job_title_in_post": "Research Scientist, Associate - Wyoming Coop Unit",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "American; characterize migration patterns",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/263101": {
+      "school_id": 1583,
+      "posting_url": "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/263101",
+      "job_title_in_post": "Post Doctoral Research Associate - School of Pharmacy",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "School of Pharmacy",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/263127": {
+      "school_id": 1583,
+      "posting_url": "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/263127",
+      "job_title_in_post": "Golf Operations Senior - Jacoby Golf Course",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1583,
   "status": "complete",
-  "updated_at": "2026-11-20T20:22:08+00:00",
-  "completed_at": "2026-11-20T20:22:08+00:00",
+  "updated_at": "2026-11-23T22:29:14+00:00",
+  "completed_at": "2026-11-23T22:29:14+00:00",
   "last_error": ""
 }

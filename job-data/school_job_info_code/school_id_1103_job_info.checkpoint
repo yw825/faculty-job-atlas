@@ -424,6 +424,11 @@
       "title": "Research Engineer",
       "description": "",
       "department": null
+    },
+    "https://utulsa-ibvjjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/653": {
+      "title": "Adjunct",
+      "description": "Co-teach Law 6372-01 Agriculture and Food Law, 2027/SP",
+      "department": null
     }
   },
   "rows": {
@@ -1446,11 +1451,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://utulsa-ibvjjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/653": {
+      "school_id": 1103,
+      "posting_url": "https://utulsa-ibvjjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/653",
+      "job_title_in_post": "Adjunct",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1103,
   "status": "complete",
-  "updated_at": "2026-11-20T20:12:41+00:00",
-  "completed_at": "2026-11-20T20:12:41+00:00",
+  "updated_at": "2026-11-23T22:23:39+00:00",
+  "completed_at": "2026-11-23T22:23:39+00:00",
   "last_error": ""
 }

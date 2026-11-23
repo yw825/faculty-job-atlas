@@ -314,6 +314,11 @@
       "title": "Department Chair, Mechanical Engineering",
       "description": "",
       "department": null
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4673": {
+      "title": "Tenure-Track Assistant Professor or Higher - Medical Geneticist",
+      "description": "",
+      "department": null
     }
   },
   "rows": {
@@ -1062,11 +1067,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4673": {
+      "school_id": 1587,
+      "posting_url": "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4673",
+      "job_title_in_post": "Tenure-Track Assistant Professor or Higher - Medical Geneticist",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Medical Geneticist",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1587,
   "status": "complete",
-  "updated_at": "2026-11-20T20:48:25+00:00",
-  "completed_at": "2026-11-20T20:48:25+00:00",
+  "updated_at": "2026-11-23T22:38:00+00:00",
+  "completed_at": "2026-11-23T22:38:00+00:00",
   "last_error": ""
 }

@@ -299,12 +299,16 @@
     "https://careers.msu.edu/jobs/research-associate-fixed-term-hickory-corners-michigan-united-states-6866a4ac-7481-4d38-941f-afa10f3ce354",
     "https://careers.msu.edu/jobs/research-associate-fixed-term-east-lansing-michigan-united-states-aa028685-4ff5-4f02-8c9b-dca2535ba84f",
     "https://careers.msu.edu/jobs/ast-inst-instructor-fixed-term-east-lansing-michigan-united-states-d2037228-3224-4e98-b95b-1f97e7daae57",
-    "https://careers.msu.edu/jobs/research-associate-fixed-term-east-lansing-michigan-united-states-c26eae52-0774-4b83-8509-ffaf91cdaf7c"
+    "https://careers.msu.edu/jobs/research-associate-fixed-term-east-lansing-michigan-united-states-c26eae52-0774-4b83-8509-ffaf91cdaf7c",
+    "https://careers.msu.edu/jobs/director-ii-fixed-acad-staff-east-lansing-michigan-united-states-6ffc9c0d-d9fd-4dc1-8642-30993fb7b48b",
+    "https://careers.msu.edu/jobs/postdoctoral-scholar-fixed-term-flint-michigan-united-states-592b6be5-bbb6-4103-9a5a-2dcdec02eef2",
+    "https://careers.msu.edu/jobs/postdoctoral-scholar-fixed-term-east-lansing-michigan-united-states-390c2b58-c9df-4898-b1b5-d77313f868dd"
   ],
   "school_id": 637,
   "status": "complete",
-  "updated_at": "2026-11-20T17:09:08+00:00",
+  "updated_at": "2026-11-23T20:35:44+00:00",
   "started_at": "2026-09-08T02:05:10+00:00",
-  "completed_at": "2026-11-20T17:09:08+00:00",
-  "last_error": ""
+  "completed_at": "2026-11-23T20:35:44+00:00",
+  "last_error": "",
+  "last_warning": "2026-11-23T20:35:44+00:00: board returned 30 links vs 303 before; old set kept"
 }

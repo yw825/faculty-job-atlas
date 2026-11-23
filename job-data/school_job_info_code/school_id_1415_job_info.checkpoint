@@ -444,6 +444,11 @@
       "title": "Clinical Assistant Professor - Social Work",
       "description": "Posted: 11/13/2026 Location: Odessa, TX Department: Dept of Social Work Clinical Assistant Professor - Social Work",
       "department": "Dept of Social Work"
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16897&PostingSeq=1&SiteId=10": {
+      "title": "Head Women's Track & Cross Country Coach - Athletics",
+      "description": "Posted: 11/23/2026 Location: Odessa, TX Department: Athletics Head Women's Track & Cross Country Coach - Athletics",
+      "department": "Athletics"
     }
   },
   "rows": {
@@ -1511,11 +1516,23 @@
       "deadline_of_application": "",
       "posted_date": "11/13/2026",
       "position_start_date": ""
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16897&PostingSeq=1&SiteId=10": {
+      "school_id": 1415,
+      "posting_url": "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16897&PostingSeq=1&SiteId=10",
+      "job_title_in_post": "Head Women's Track & Cross Country Coach - Athletics",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Athletics",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/23/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 1415,
   "status": "complete",
-  "updated_at": "2026-11-20T20:06:13+00:00",
-  "completed_at": "2026-11-20T20:06:13+00:00",
+  "updated_at": "2026-11-23T22:25:43+00:00",
+  "completed_at": "2026-11-23T22:25:43+00:00",
   "last_error": ""
 }
