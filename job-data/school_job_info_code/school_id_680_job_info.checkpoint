@@ -1484,6 +1484,21 @@
       "title": "Post-Doctoral Associate",
       "description": "Posted: 11/23/2026 Location: Twin Cities Department: LMP Administration Post-Doctoral Associate",
       "department": "LMP Administration"
+    },
+    "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=377289&PostingSeq=1": {
+      "title": "Assistant Professor - Child & Adolescent Psychiatry",
+      "description": "Posted: 11/24/2026 Location: Twin Cities Department: PSYCH Psychiatry Dept Admin Assistant Professor - Child & Adolescent Psychiatry",
+      "department": "PSYCH Psychiatry Dept Admin"
+    },
+    "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=377281&PostingSeq=1": {
+      "title": "Post-Doctoral Associate",
+      "description": "Posted: 11/24/2026 Location: Twin Cities Department: CSENG Physics & Astron,Schl of Post-Doctoral Associate",
+      "department": "CSENG Physics & Astron,Schl of"
+    },
+    "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=377276&PostingSeq=1": {
+      "title": "Post-Doctoral Associate - Department of Biochemistry, Molecular Biology and Biophysics",
+      "description": "Posted: 11/23/2026 Location: Twin Cities Department: BMBB Med Regulatory Biochem Post-Doctoral Associate - Department of Biochemistry, Molecular Biology and Biophysics",
+      "department": "BMBB Med Regulatory Biochem"
     }
   },
   "rows": {
@@ -5038,11 +5053,47 @@
       "deadline_of_application": "",
       "posted_date": "11/23/2026",
       "position_start_date": ""
+    },
+    "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=377289&PostingSeq=1": {
+      "school_id": 680,
+      "posting_url": "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=377289&PostingSeq=1",
+      "job_title_in_post": "Assistant Professor - Child & Adolescent Psychiatry",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "PSYCH Psychiatry Dept Admin",
+      "area_key_words": "Child & Adolescent Psychiatry",
+      "deadline_of_application": "",
+      "posted_date": "11/24/2026",
+      "position_start_date": ""
+    },
+    "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=377281&PostingSeq=1": {
+      "school_id": 680,
+      "posting_url": "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=377281&PostingSeq=1",
+      "job_title_in_post": "Post-Doctoral Associate",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "CSENG Physics & Astron,Schl of",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/24/2026",
+      "position_start_date": ""
+    },
+    "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=377276&PostingSeq=1": {
+      "school_id": 680,
+      "posting_url": "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=377276&PostingSeq=1",
+      "job_title_in_post": "Post-Doctoral Associate - Department of Biochemistry, Molecular Biology and Biophysics",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "BMBB Med Regulatory Biochem",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/23/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 680,
   "status": "complete",
-  "updated_at": "2026-11-23T22:12:03+00:00",
-  "completed_at": "2026-11-23T22:12:03+00:00",
+  "updated_at": "2026-11-24T20:20:50+00:00",
+  "completed_at": "2026-11-24T20:20:50+00:00",
   "last_error": ""
 }

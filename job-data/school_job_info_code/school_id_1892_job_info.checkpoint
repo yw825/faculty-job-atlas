@@ -974,6 +974,21 @@
       "title": "Studentermedhjælper til Velux-projekt om familierevolutionen i Danmark i 1960’erne og 1970’erne",
       "description": "Studentermedhjælper til Velux-projekt om familierevolutionen i Danmark i 1960’erne og 1970’erne",
       "department": null
+    },
+    "https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/4492": {
+      "title": "Instruktor til Skandinavisk Designs Historie, BA-uddannelsen i Designkultur og Økonomi og BA-uddannelsen i Designkultur",
+      "description": "",
+      "department": null
+    },
+    "https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/4501": {
+      "title": "Instruktorater ved Institut for Matematik og Datalogi i foråret 2027",
+      "description": "",
+      "department": null
+    },
+    "https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/4502": {
+      "title": "BMB Outreach Team søger engagerede studerende",
+      "description": "",
+      "department": null
     }
   },
   "rows": {
@@ -3293,11 +3308,47 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/4492": {
+      "school_id": 1892,
+      "posting_url": "https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/4492",
+      "job_title_in_post": "Instruktor til Skandinavisk Designs Historie, BA-uddannelsen i Designkultur og Økonomi og BA-uddannelsen i Designkultur",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/4501": {
+      "school_id": 1892,
+      "posting_url": "https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/4501",
+      "job_title_in_post": "Instruktorater ved Institut for Matematik og Datalogi i foråret 2027",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/4502": {
+      "school_id": 1892,
+      "posting_url": "https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/4502",
+      "job_title_in_post": "BMB Outreach Team søger engagerede studerende",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1892,
   "status": "complete",
-  "updated_at": "2026-11-23T22:40:16+00:00",
-  "completed_at": "2026-11-23T22:40:16+00:00",
+  "updated_at": "2026-11-24T20:51:15+00:00",
+  "completed_at": "2026-11-24T20:51:15+00:00",
   "last_error": ""
 }

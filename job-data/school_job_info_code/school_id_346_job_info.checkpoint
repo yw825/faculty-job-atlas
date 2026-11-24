@@ -74,6 +74,11 @@
       "title": "Network Engineer",
       "description": "",
       "department": null
+    },
+    "https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/454": {
+      "title": "Assistant Professor of Business",
+      "description": "Business Faculty position - full time starting in Fall 2027",
+      "department": null
     }
   },
   "rows": {
@@ -256,11 +261,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/454": {
+      "school_id": 346,
+      "posting_url": "https://ibqcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/454",
+      "job_title_in_post": "Assistant Professor of Business",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Business",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 346,
   "status": "complete",
-  "updated_at": "2026-11-23T22:09:37+00:00",
+  "updated_at": "2026-11-24T20:17:56+00:00",
   "last_error": "",
-  "completed_at": "2026-11-23T22:09:37+00:00"
+  "completed_at": "2026-11-24T20:17:56+00:00"
 }

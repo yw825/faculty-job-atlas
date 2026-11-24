@@ -394,6 +394,11 @@
       "title": "Teaching Fellow - Biosciences (ARIA) - School of Biosciences - 108319 - Grade 7",
       "description": "To teach and advise undergraduate, postgraduate  within own subject area and within established taught programmes in Biochemistry, Biological Sciences and Biotechnology.\n\nPosting closes: 2026-11-30",
       "department": null
+    },
+    "https://edzz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_6001/job/10415": {
+      "title": "Research Fellow - School of Psychology - 108375 - Grade 7",
+      "description": "Join Professor Ron Mangun's research programme at the University of Birmingham's Centre for Human Brain Health. We seek a full-time Postdoctoral Research Fellow in cognitive neuroscience, studying attention, language and predictive coding using neuroimaging.\n\n\nPosting closes: 2026-12-20",
+      "department": null
     }
   },
   "rows": {
@@ -1331,11 +1336,23 @@
       "deadline_of_application": "2026-11-30",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://edzz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_6001/job/10415": {
+      "school_id": 1763,
+      "posting_url": "https://edzz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_6001/job/10415",
+      "job_title_in_post": "Research Fellow - School of Psychology - 108375 - Grade 7",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "School of Psychology",
+      "area_key_words": "School of Psychology",
+      "deadline_of_application": "2026-12-20",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1763,
   "status": "complete",
-  "updated_at": "2026-11-23T22:59:20+00:00",
-  "completed_at": "2026-11-23T22:59:20+00:00",
+  "updated_at": "2026-11-24T21:00:01+00:00",
+  "completed_at": "2026-11-24T21:00:01+00:00",
   "last_error": ""
 }

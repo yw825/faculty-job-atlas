@@ -131,6 +131,10 @@
     "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225344": {
       "title": "Lecturer / Senior Lecturer in Human Geography",
       "description": "Lecturer / Senior Lecturer in Human Geography. University of New England. Reference 225344. 225344 Lecturer / Senior Lecturer in Human Geography Academic - Continuing, full-time - Level B/C - Teaching focused with transfer to balanced role after 3 years. School of HASS - Geography and Planning 09-DEC-2026 11:59:59 pm"
+    },
+    "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225345": {
+      "title": "Associate Professor of Pharmacy",
+      "description": "Associate Professor of Pharmacy. University of New England. Reference 225345. 225345 Associate Professor of Pharmacy Academic - Continuing, Full-time - Level D School of Health - Pharmacy 10-DEC-2026 11:59:59 pm"
     }
   },
   "rows": {
@@ -523,11 +527,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225345": {
+      "school_id": 1780,
+      "posting_url": "https://hr.une.edu.au/ords/concept_ords/WK8127$APP.draw_attachments?P_VACANCY_REF_NO=225345",
+      "job_title_in_post": "Associate Professor of Pharmacy",
+      "position_type": "Associate_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "School of Health",
+      "area_key_words": "Pharmacy",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1780,
   "status": "complete",
-  "updated_at": "2026-11-23T22:34:28+00:00",
-  "completed_at": "2026-11-23T22:34:28+00:00",
+  "updated_at": "2026-11-24T20:42:32+00:00",
+  "completed_at": "2026-11-24T20:42:32+00:00",
   "last_error": ""
 }

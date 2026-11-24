@@ -55,6 +55,10 @@
     "https://jobmarket.unibocconi.eu/?id=1026": {
       "title": "Assistant Professor, Dept. Management and Technology, ECON-07/A Economia e Gestione delle Imprese, ECON-08/A Organizzazione aziendale",
       "description": "Closing Date: 13/12/2026 Posted Date: 13/11/2026 Department: Management and Technology 233666 13/11/2026 "
+    },
+    "https://jobmarket.unibocconi.eu/?id=1034": {
+      "title": "Assistant Professor, Dept. Accounting, ECON-06/A Business Administration, Accounting & Performance Measurement",
+      "description": "Closing Date: 27/12/2026 Posted Date: 24/11/2026 Department: Accounting 236693 "
     }
   },
   "rows": {
@@ -223,11 +227,23 @@
       "deadline_of_application": "13/12/2026",
       "posted_date": "13/11/2026",
       "position_start_date": ""
+    },
+    "https://jobmarket.unibocconi.eu/?id=1034": {
+      "school_id": 1708,
+      "posting_url": "https://jobmarket.unibocconi.eu/?id=1034",
+      "job_title_in_post": "Assistant Professor, Dept. Accounting, ECON-06/A Business Administration, Accounting & Performance Measurement",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Accounting & Performance Measurement",
+      "deadline_of_application": "27/12/2026",
+      "posted_date": "24/11/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 1708,
   "status": "complete",
-  "updated_at": "2026-11-23T22:48:43+00:00",
-  "completed_at": "2026-11-23T22:48:43+00:00",
+  "updated_at": "2026-11-24T20:54:57+00:00",
+  "completed_at": "2026-11-24T20:54:57+00:00",
   "last_error": ""
 }

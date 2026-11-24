@@ -544,6 +544,16 @@
       "title": "Groundskeeper I",
       "description": "Posted: 11/17/2026 Location: MGA - Macon Department: Grounds Groundskeeper I",
       "department": "Grounds"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306395&PostingSeq=1&SiteId=83000": {
+      "title": "Center for Middle Georgia Studies Project Coordinator",
+      "description": "Posted: 11/24/2026 Location: MGA - Macon Department: Private Center for Middle Georgia Studies Project Coordinator",
+      "department": "Private"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306414&PostingSeq=1&SiteId=83000": {
+      "title": "Student Assistant - Peer Mentor",
+      "description": "Posted: 11/24/2026 Location: Middle GA State University Department: First Year Experience Student Assistant - Peer Mentor",
+      "department": "First Year Experience"
     }
   },
   "rows": {
@@ -1849,11 +1859,35 @@
       "deadline_of_application": "",
       "posted_date": "11/17/2026",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306395&PostingSeq=1&SiteId=83000": {
+      "school_id": 302,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306395&PostingSeq=1&SiteId=83000",
+      "job_title_in_post": "Center for Middle Georgia Studies Project Coordinator",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Private",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/24/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306414&PostingSeq=1&SiteId=83000": {
+      "school_id": 302,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306414&PostingSeq=1&SiteId=83000",
+      "job_title_in_post": "Student Assistant - Peer Mentor",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "First Year Experience",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/24/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 302,
   "status": "complete",
-  "updated_at": "2026-11-23T22:10:30+00:00",
-  "completed_at": "2026-11-23T22:10:30+00:00",
+  "updated_at": "2026-11-24T20:16:47+00:00",
+  "completed_at": "2026-11-24T20:16:47+00:00",
   "last_error": ""
 }

@@ -459,6 +459,21 @@
       "title": "MIDP Early Interventionist (Temporary, Non-Benefited)",
       "description": "Posted: 11/20/2026 Location: Minot Department: ND Center For Persons w Disab MIDP Early Interventionist (Temporary, Non-Benefited)",
       "department": "ND Center For Persons w Disab"
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960266&PostingSeq=1&SiteId=1": {
+      "title": "Student Athletic Camp Coaches",
+      "description": "Posted: 11/24/2026 Location: Minot Department: Athletics Student Athletic Camp Coaches",
+      "department": "Athletics"
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960264&PostingSeq=1&SiteId=1": {
+      "title": "Student Athletic Operations Support",
+      "description": "Posted: 11/24/2026 Location: Minot Department: Athletics Student Athletic Operations Support",
+      "department": "Athletics"
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960265&PostingSeq=1&SiteId=1": {
+      "title": "Student Athletic Team Assistant (Work-Study)",
+      "description": "Posted: 11/24/2026 Location: Minot Department: Athletics Student Athletic Team Assistant (Work-Study)",
+      "department": "Athletics"
     }
   },
   "rows": {
@@ -1564,11 +1579,47 @@
       "deadline_of_application": "",
       "posted_date": "11/20/2026",
       "position_start_date": ""
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960266&PostingSeq=1&SiteId=1": {
+      "school_id": 827,
+      "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960266&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Student Athletic Camp Coaches",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Athletics",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/24/2026",
+      "position_start_date": ""
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960264&PostingSeq=1&SiteId=1": {
+      "school_id": 827,
+      "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960264&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Student Athletic Operations Support",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Athletics",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/24/2026",
+      "position_start_date": ""
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960265&PostingSeq=1&SiteId=1": {
+      "school_id": 827,
+      "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960265&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Student Athletic Team Assistant (Work-Study)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Athletics",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/24/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 827,
   "status": "complete",
-  "updated_at": "2026-11-23T22:15:22+00:00",
-  "completed_at": "2026-11-23T22:15:22+00:00",
+  "updated_at": "2026-11-24T20:24:00+00:00",
+  "completed_at": "2026-11-24T20:24:00+00:00",
   "last_error": ""
 }

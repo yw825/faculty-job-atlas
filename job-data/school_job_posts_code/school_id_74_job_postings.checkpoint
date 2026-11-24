@@ -119,7 +119,6 @@
     "https://aprecruit.berkeley.edu/JPF05578",
     "https://aprecruit.berkeley.edu/JPF05579",
     "https://aprecruit.berkeley.edu/JPF05581",
-    "https://aprecruit.berkeley.edu/JPF05583",
     "https://aprecruit.berkeley.edu/JPF05584",
     "https://aprecruit.berkeley.edu/JPF05585",
     "https://aprecruit.berkeley.edu/JPF05586",
@@ -152,12 +151,13 @@
     "https://aprecruit.berkeley.edu/JPF05632",
     "https://aprecruit.berkeley.edu/JPF05633",
     "https://aprecruit.berkeley.edu/JPF05634",
-    "https://aprecruit.berkeley.edu/JPF05643"
+    "https://aprecruit.berkeley.edu/JPF05643",
+    "https://aprecruit.berkeley.edu/JPF05644"
   ],
   "school_id": 74,
   "status": "complete",
-  "updated_at": "2026-11-23T18:41:46+00:00",
+  "updated_at": "2026-11-24T18:01:35+00:00",
   "started_at": "2026-11-02T18:08:54+00:00",
-  "completed_at": "2026-11-23T18:41:46+00:00",
+  "completed_at": "2026-11-24T18:01:35+00:00",
   "last_error": ""
 }

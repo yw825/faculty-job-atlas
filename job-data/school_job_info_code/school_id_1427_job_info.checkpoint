@@ -582,6 +582,16 @@
       "title": "Superintendent of Maintenance-Mechanical and Refrigeration Shop, Facilities Operations & Maintenance",
       "description": "Posted: 11/20/2026 Location: San Antonio, TX Department: FACILITIES OPERATIONS & MTNC Superintendent of Maintenance-Mechanical and Refrigeration Shop, Facilities Operations & Maintenance",
       "department": "FACILITIES OPERATIONS & MTNC"
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16886&PostingSeq=1&SiteId=21": {
+      "title": "Lecturer (Part Time) - College for Health, Community and Policy, Public Health",
+      "description": "Posted: 11/23/2026 Location: San Antonio, TX Department: HCAP PUBLIC HEALTH Lecturer (Part Time) - College for Health, Community and Policy, Public Health",
+      "department": "HCAP PUBLIC HEALTH"
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16870&PostingSeq=1&SiteId=21": {
+      "title": "Senior Administrative Associate, Transfer & Transition Student Success Services",
+      "description": "Posted: 11/23/2026 Location: San Antonio, TX Department: TRIO PROGRAMS Senior Administrative Associate, Transfer & Transition Student Success Services",
+      "department": "TRIO PROGRAMS"
     }
   },
   "rows": {
@@ -1984,11 +1994,35 @@
       "deadline_of_application": "",
       "posted_date": "11/20/2026",
       "position_start_date": ""
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16886&PostingSeq=1&SiteId=21": {
+      "school_id": 1427,
+      "posting_url": "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16886&PostingSeq=1&SiteId=21",
+      "job_title_in_post": "Lecturer (Part Time) - College for Health, Community and Policy, Public Health",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "HCAP PUBLIC HEALTH",
+      "area_key_words": "Public Health",
+      "deadline_of_application": "",
+      "posted_date": "11/23/2026",
+      "position_start_date": ""
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16870&PostingSeq=1&SiteId=21": {
+      "school_id": 1427,
+      "posting_url": "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16870&PostingSeq=1&SiteId=21",
+      "job_title_in_post": "Senior Administrative Associate, Transfer & Transition Student Success Services",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "TRIO PROGRAMS",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/23/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 1427,
   "status": "complete",
-  "updated_at": "2026-11-23T22:26:31+00:00",
-  "completed_at": "2026-11-23T22:26:31+00:00",
+  "updated_at": "2026-11-24T20:32:50+00:00",
+  "completed_at": "2026-11-24T20:32:50+00:00",
   "last_error": ""
 }

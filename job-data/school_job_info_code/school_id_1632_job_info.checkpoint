@@ -2294,6 +2294,21 @@
       "title": "W27 – MTE601 – MIME Academic Assistant",
       "description": "Posted: 11/20/2026 Location: Toronto, ON Department: FEAS, Mech.,Ind.,Mechatronics W27 – MTE601 – MIME Academic Assistant",
       "department": "FEAS, Mech.,Ind.,Mechatronics"
+    },
+    "https://careers.torontomu.ca/psc/hrcgprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=399308&PostingSeq=1&SiteId=1": {
+      "title": "Exam Invigilator School of Nutrition Friday November 27 11:30-3:00pm",
+      "description": "Posted: 11/24/2026 Location: Toronto, ON Department: FCS, School of Nutrition Exam Invigilator School of Nutrition Friday November 27 11:30-3:00pm",
+      "department": "FCS, School of Nutrition"
+    },
+    "https://careers.torontomu.ca/psc/hrcgprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=399299&PostingSeq=1&SiteId=1": {
+      "title": "Research Manager",
+      "description": "Posted: 11/24/2026 Location: Toronto, ON Department: TRSM Associate Dean, Research Research Manager",
+      "department": "TRSM Associate Dean, Research"
+    },
+    "https://careers.torontomu.ca/psc/hrcgprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=399307&PostingSeq=1&SiteId=1": {
+      "title": "SID ID 8116 SS27 CUPE 1 Posting",
+      "description": "Posted: 11/24/2026 Location: Toronto, ON Department: TCS-Interior Design SID ID 8116 SS27 CUPE 1 Posting",
+      "department": "TCS-Interior Design"
     }
   },
   "rows": {
@@ -7737,11 +7752,47 @@
       "deadline_of_application": "",
       "posted_date": "11/20/2026",
       "position_start_date": ""
+    },
+    "https://careers.torontomu.ca/psc/hrcgprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=399308&PostingSeq=1&SiteId=1": {
+      "school_id": 1632,
+      "posting_url": "https://careers.torontomu.ca/psc/hrcgprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=399308&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Exam Invigilator School of Nutrition Friday November 27 11:30-3:00pm",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "FCS, School of Nutrition",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/24/2026",
+      "position_start_date": ""
+    },
+    "https://careers.torontomu.ca/psc/hrcgprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=399299&PostingSeq=1&SiteId=1": {
+      "school_id": 1632,
+      "posting_url": "https://careers.torontomu.ca/psc/hrcgprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=399299&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Research Manager",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "TRSM Associate Dean, Research",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/24/2026",
+      "position_start_date": ""
+    },
+    "https://careers.torontomu.ca/psc/hrcgprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=399307&PostingSeq=1&SiteId=1": {
+      "school_id": 1632,
+      "posting_url": "https://careers.torontomu.ca/psc/hrcgprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=399307&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "SID ID 8116 SS27 CUPE 1 Posting",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "TCS-Interior Design",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/24/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 1632,
   "status": "complete",
-  "updated_at": "2026-11-23T22:38:50+00:00",
-  "completed_at": "2026-11-23T22:38:50+00:00",
+  "updated_at": "2026-11-24T20:49:38+00:00",
+  "completed_at": "2026-11-24T20:49:38+00:00",
   "last_error": ""
 }

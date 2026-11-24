@@ -139,6 +139,10 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/ABFDAFED645B6920CFDB8559C078F8A5/jobs/361706": {
       "title": "Academic Programs Coordinator - Optometry",
       "description": "Academic Programs Coordinator - Optometry You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/ABFDAFED645B6920CFDB8559C078F8A5/jobs/362628": {
+      "title": "Assistant Professor - Kinesiology",
+      "description": "Assistant Professor - Kinesiology You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -558,11 +562,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/ABFDAFED645B6920CFDB8559C078F8A5/jobs/362628": {
+      "school_id": 1110,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/ABFDAFED645B6920CFDB8559C078F8A5/jobs/362628",
+      "job_title_in_post": "Assistant Professor - Kinesiology",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Kinesiology",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1110,
   "status": "complete",
-  "updated_at": "2026-11-23T22:19:40+00:00",
-  "completed_at": "2026-11-23T22:19:40+00:00",
+  "updated_at": "2026-11-24T20:27:19+00:00",
+  "completed_at": "2026-11-24T20:27:19+00:00",
   "last_error": ""
 }

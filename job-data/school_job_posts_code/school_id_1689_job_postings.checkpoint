@@ -1,8 +1,10 @@
 {
   "links": [
+    "https://adb.zuv.uni-heidelberg.de/info/INFO_FDB$.startup?MODUL=LS&SESSID=0&M1=1&M2=0&M3=0&PRO=40771",
     "https://adb.zuv.uni-heidelberg.de/info/INFO_FDB$.startup?MODUL=LS&SESSID=0&M1=1&M2=0&M3=0&PRO=40751",
     "https://adb.zuv.uni-heidelberg.de/info/INFO_FDB$.startup?MODUL=LS&SESSID=0&M1=1&M2=0&M3=0&PRO=40733",
     "https://adb.zuv.uni-heidelberg.de/info/INFO_FDB$.startup?MODUL=LS&SESSID=0&M1=1&M2=0&M3=0&PRO=40671",
+    "https://adb.zuv.uni-heidelberg.de/info/INFO_FDB$.startup?MODUL=LS&SESSID=0&M1=1&M2=0&M3=0&PRO=40770",
     "https://adb.zuv.uni-heidelberg.de/info/INFO_FDB$.startup?MODUL=LS&SESSID=0&M1=1&M2=0&M3=0&PRO=40711",
     "https://adb.zuv.uni-heidelberg.de/info/INFO_FDB$.startup?MODUL=LS&SESSID=0&M1=1&M2=0&M3=0&PRO=40710",
     "https://adb.zuv.uni-heidelberg.de/info/INFO_FDB$.startup?MODUL=LS&SESSID=0&M1=1&M2=0&M3=0&PRO=40709",
@@ -18,7 +20,6 @@
     "https://adb.zuv.uni-heidelberg.de/info/INFO_FDB$.startup?MODUL=LS&SESSID=0&M1=1&M2=0&M3=0&PRO=40689",
     "https://adb.zuv.uni-heidelberg.de/info/INFO_FDB$.startup?MODUL=LS&SESSID=0&M1=1&M2=0&M3=0&PRO=40675",
     "https://adb.zuv.uni-heidelberg.de/info/INFO_FDB$.startup?MODUL=LS&SESSID=0&M1=1&M2=0&M3=0&PRO=40673",
-    "https://adb.zuv.uni-heidelberg.de/info/INFO_FDB$.startup?MODUL=LS&SESSID=0&M1=1&M2=0&M3=0&PRO=40672",
     "https://adb.zuv.uni-heidelberg.de/info/INFO_FDB$.startup?MODUL=LS&SESSID=0&M1=1&M2=0&M3=0&PRO=40649",
     "https://adb.zuv.uni-heidelberg.de/info/INFO_FDB$.startup?MODUL=LS&SESSID=0&M1=1&M2=0&M3=0&PRO=40632",
     "https://adb.zuv.uni-heidelberg.de/info/INFO_FDB$.startup?MODUL=LS&SESSID=0&M1=1&M2=0&M3=0&PRO=40590",
@@ -32,8 +33,8 @@
   ],
   "school_id": 1689,
   "status": "complete",
-  "updated_at": "2026-11-23T21:36:32+00:00",
+  "updated_at": "2026-11-24T19:49:38+00:00",
   "started_at": "2026-11-02T19:38:10+00:00",
-  "completed_at": "2026-11-23T21:36:32+00:00",
+  "completed_at": "2026-11-24T19:49:38+00:00",
   "last_error": ""
 }

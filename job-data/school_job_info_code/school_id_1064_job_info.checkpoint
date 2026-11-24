@@ -115,6 +115,10 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/74E03CF8736A837878EE360903D909BA/jobs/318866": {
       "title": "Visit & Event Coordinator, Office of Admission",
       "description": "Visit & Event Coordinator, Office of Admission You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/74E03CF8736A837878EE360903D909BA/jobs/324643": {
+      "title": "Assistant or Associate Professor of Biology",
+      "description": "Assistant or Associate Professor of Biology You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -464,11 +468,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/74E03CF8736A837878EE360903D909BA/jobs/324643": {
+      "school_id": 1064,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/74E03CF8736A837878EE360903D909BA/jobs/324643",
+      "job_title_in_post": "Assistant or Associate Professor of Biology",
+      "position_type": "Associate_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Biology",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1064,
   "status": "complete",
-  "updated_at": "2026-11-23T22:24:18+00:00",
-  "completed_at": "2026-11-23T22:24:18+00:00",
+  "updated_at": "2026-11-24T20:30:44+00:00",
+  "completed_at": "2026-11-24T20:30:44+00:00",
   "last_error": ""
 }

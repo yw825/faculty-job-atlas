@@ -25,7 +25,6 @@ school_id,posting_url,job_title_in_post,position_type,job_term,department_or_sch
 1000,https://apply.interfolio.com/183734,"Director, Specialty Care Dental Clinic",Unclassified,Full-time,Division of Special Needs Dentistry of the Eastman Institute for Oral Health,,,,
 1000,https://apply.interfolio.com/191964,"Clinical Instructor, OMFS",Lecturer,Part-time,,OMFS; Maxillofacial Surgery program,,,
 1000,https://apply.interfolio.com/193547,Clinical Associate Professor - Head & Neck Anatomy,Lecturer,Full-time,Institute for Oral Health The Eastman Institute for Oral Health,Head & Neck Anatomy,,,
-1000,https://apply.interfolio.com/195655,"Clinical Assistant Professor, OMFS",Lecturer,Part-time,,OMFS; Maxillofacial Surgery program,,,"Oct 14, 2026"
 1000,https://apply.interfolio.com/197065,CASC Instructor,Lecturer,Full-time,,CASC,,,"Nov 10, 2026"
 1000,https://apply.interfolio.com/176297,Senior Tenured Faculty-High Energy Density (HED) science,Assistant_Professor; Associate_Professor; Full_Professor,Full-time,School of Engineering and Applied Sciences and the School of Arts and Sciences,Planetary Science under extreme conditions; HED science,"April 1, 2026",,
 1000,https://apply.interfolio.com/142478,Group Leader for AI/ML Group (Scientist),Research_Fellow,Full-time,,,,,"Mar 06, 2024"
@@ -127,6 +126,7 @@ school_id,posting_url,job_title_in_post,position_type,job_term,department_or_sch
 1000,https://apply.interfolio.com/180643,Clinical Assistant Professor,Lecturer,Full-time,Department of Family Medicine,,,,
 1000,https://apply.interfolio.com/186847,Primary Care Physician - Perry - Assistant Professor of Clinical (183811),Lecturer,Full-time,,,,,
 1000,https://apply.interfolio.com/190030,Assistant Professor,Assistant_Professor,Full-time,,,,,
+1000,https://apply.interfolio.com/197877,Family Medicine Physician (196661),Unclassified,Full-time,,,,,"Nov 18, 2026"
 1000,https://apply.interfolio.com/182344,Emergency Physician (Regional & SW),Unclassified,Full-time,,house staff,,,
 1000,https://apply.interfolio.com/188228,UR Emergency Physician: Jones ED Department Chief,Unclassified,Full-time,,medical students,,,
 1000,https://apply.interfolio.com/194333,UR Emergency Physician - Jones Memorial-1,Unclassified,Full-time,Department of Emergency Medicine,house staff,,,
@@ -219,7 +219,6 @@ school_id,posting_url,job_title_in_post,position_type,job_term,department_or_sch
 1000,https://apply.interfolio.com/146131,Assistant Professor- Regional Spine,Assistant_Professor,Full-time,,,,,
 1000,https://apply.interfolio.com/153792,Orthopaedic Non-Operative Sports Medicine,Unclassified,Full-time,Department of Orthopaedics,Adult Rectonstruction Divisions,,,
 1000,https://apply.interfolio.com/175448,"Assistant Professor, Division of Hand Surgery",Assistant_Professor,Full-time,Division of Hand Surgery,Hand Surgery,,,
-1000,https://apply.interfolio.com/184234,Ortho Podiatrist,Unclassified,Full-time,Department of Orthopaedics,,,,
 1000,https://apply.interfolio.com/196106,Orthopaedic Trauma,Unclassified,Full-time,Division of Musculoskeletal Trauma in the Department of Orthopaedics,Division of Musculoskeletal Trauma,,,"Oct 27, 2026"
 1000,https://apply.interfolio.com/137018,Comprehensive Otolaryngologist,Unclassified,Full-time,"School of Music, the George Eastman Museum, and numerous festivals",,,,
 1000,https://apply.interfolio.com/162016,Neurotologist,Unclassified,Full-time,"School of Music, the George Eastman Museum, and numerous festivals",,,,
@@ -250,6 +249,7 @@ school_id,posting_url,job_title_in_post,position_type,job_term,department_or_sch
 1000,https://apply.interfolio.com/190143,Instructor in Surgery (Burn Surgery Fellowship),Lecturer,Full-time,School of Music,Surgery,,,
 1000,https://apply.interfolio.com/197660,Full-time Consult Liaison Psychiatrist Needed,Unclassified,Full-time,Department of Psychiatry,,,,"Nov 16, 2026"
 1000,https://apply.interfolio.com/197851,Associate Director needed for University Counseling Center,Unclassified,Full-time,Department of Psychiatry,,,,"Nov 20, 2026"
+1000,https://apply.interfolio.com/197853,Full-Time Psychiatrist for Adult Inpatient Care Needed,Unclassified,Full-time,,,,,"Nov 18, 2026"
 1000,https://apply.interfolio.com/165581,Research Assistant/Associate Professor of Radiation Oncology,Lecturer,Full-time,Department of Radiation Oncology,Radiation Oncology,,,"Feb 20, 2026"
 1000,https://apply.interfolio.com/177341,Assistant Professor/Associate Professor/Professor of Radiation Oncology,Assistant_Professor; Associate_Professor; Full_Professor,Full-time,Department of Radiation Oncology,Radiation Oncology,,,
 1000,https://apply.interfolio.com/178834,Assistant Professor/Associate Professor/Professor of Radiation Oncology,Assistant_Professor; Associate_Professor; Full_Professor,Full-time,Department of Radiation Oncology,Radiation Oncology,,,
@@ -291,6 +291,9 @@ school_id,posting_url,job_title_in_post,position_type,job_term,department_or_sch
 1000,https://apply.interfolio.com/197122,Translational Immunology and Inflammatory Disease (195835),Unclassified,Full-time,Department of Medicine and the Department of Microbiology & Immunology,RNA-based; translational immunology,,,"Nov 13, 2026"
 1000,https://apply.interfolio.com/197237,Interventional Pulmonologist (195960),Unclassified,Full-time,"Department of Medicine, Division of Pulmonary & Critical Care Medicine",,,,"Nov 13, 2026"
 1000,https://apply.interfolio.com/181223,Faculty - Endocrinology (177583),Assistant_Professor,Full-time,"Department of Medicine, Division of Endocrinology and Metabolism",,,,
+1000,https://apply.interfolio.com/197883,Endocrinologist - Instructor (196667),Lecturer,Full-time,"Department of Medicine, Division of Endocrinology and Metabolism,",,,,"Nov 24, 2026"
+1000,https://apply.interfolio.com/197884,Endocrinologist - Instructor (196668),Lecturer,Full-time,"Department of Medicine, Division of Endocrinology and Metabolism,",,,,"Nov 24, 2026"
+1000,https://apply.interfolio.com/197886,Endocrinologist - Assistant Professor (196670),Assistant_Professor,Full-time,"Department of Medicine, Division of Endocrinology and Metabolism,",,,,"Nov 24, 2026"
 1000,https://apply.interfolio.com/159851,Transplant Hepatologist (153784),Unclassified,Full-time,,,,,
 1000,https://apply.interfolio.com/159853,Transplant Hepatologist (153785),Unclassified,Full-time,,,,,
 1000,https://apply.interfolio.com/174393,Faculty - General Hepatology (169933),Assistant_Professor; Associate_Professor; Full_Professor,Full-time,,,,,

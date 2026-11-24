@@ -187,6 +187,10 @@
     "https://portal.flsouthern.edu/ICS/Employment_App/#community-director": {
       "title": "Community Director",
       "description": "Community Director. Department: Residence Life. Classification: Staff. Full Time. Posted: 11/20/2026."
+    },
+    "https://portal.flsouthern.edu/ICS/Employment_App/#dispatcher": {
+      "title": "Dispatcher",
+      "description": "Dispatcher. Department: Dispatch. Classification: Staff. Full Time. Posted: 07/02/2026."
     }
   },
   "rows": {
@@ -753,11 +757,23 @@
       "deadline_of_application": "",
       "posted_date": "11/20/2026",
       "position_start_date": ""
+    },
+    "https://portal.flsouthern.edu/ICS/Employment_App/#dispatcher": {
+      "school_id": 238,
+      "posting_url": "https://portal.flsouthern.edu/ICS/Employment_App/#dispatcher",
+      "job_title_in_post": "Dispatcher",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "07/02/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 238,
   "status": "complete",
-  "updated_at": "2026-11-23T22:06:29+00:00",
-  "completed_at": "2026-11-23T22:06:29+00:00",
+  "updated_at": "2026-11-24T20:15:06+00:00",
+  "completed_at": "2026-11-24T20:15:06+00:00",
   "last_error": ""
 }

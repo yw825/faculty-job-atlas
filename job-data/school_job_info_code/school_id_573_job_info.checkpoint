@@ -283,6 +283,10 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/3C67A483237F6A324625AB95D568B0C1/jobs/141276": {
       "title": "Title III Academic and Career Advisor",
       "description": "Title III Academic and Career Advisor You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/3C67A483237F6A324625AB95D568B0C1/jobs/141475": {
+      "title": "Coordinator of Academic and Student Success",
+      "description": "Coordinator of Academic and Student Success You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -1136,11 +1140,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/3C67A483237F6A324625AB95D568B0C1/jobs/141475": {
+      "school_id": 573,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/3C67A483237F6A324625AB95D568B0C1/jobs/141475",
+      "job_title_in_post": "Coordinator of Academic and Student Success",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Academic and Student Success",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 573,
   "status": "complete",
-  "updated_at": "2026-11-23T22:13:34+00:00",
-  "completed_at": "2026-11-23T22:13:34+00:00",
+  "updated_at": "2026-11-24T20:22:23+00:00",
+  "completed_at": "2026-11-24T20:22:23+00:00",
   "last_error": ""
 }

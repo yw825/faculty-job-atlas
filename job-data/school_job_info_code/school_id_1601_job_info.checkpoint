@@ -127,6 +127,10 @@
     "https://viprecprod.ad.umanitoba.ca/A#req-51875": {
       "title": "Professorship in Internal Medicine Clinical Science",
       "description": "Professorship in Internal Medicine Clinical Science | Requisition No: 51875 - Category:  FULL TIME ACADEMICS | Full time - Temporary | Manitoba | Bannatyne Campus [021] | Nov/23/2026 | Professorship in Neuropathology"
+    },
+    "https://viprecprod.ad.umanitoba.ca/A#req-51908": {
+      "title": "Assistant Professor in Metabolic Nutrition",
+      "description": "Assistant Professor in Metabolic Nutrition | Requisition No: 51908 - Category:  FULL TIME ACADEMICS | Full time -  Permanent | Manitoba | Fort Garry Campus [011] | Nov/24/2026 | Professorship in Internal Medicine Clinical Science"
     }
   },
   "rows": {
@@ -505,11 +509,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://viprecprod.ad.umanitoba.ca/A#req-51908": {
+      "school_id": 1601,
+      "posting_url": "https://viprecprod.ad.umanitoba.ca/A#req-51908",
+      "job_title_in_post": "Assistant Professor in Metabolic Nutrition",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Metabolic Nutrition",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1601,
   "status": "complete",
-  "updated_at": "2026-11-23T22:38:02+00:00",
-  "completed_at": "2026-11-23T22:38:02+00:00",
+  "updated_at": "2026-11-24T20:48:17+00:00",
+  "completed_at": "2026-11-24T20:48:17+00:00",
   "last_error": ""
 }

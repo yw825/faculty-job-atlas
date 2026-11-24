@@ -164,6 +164,11 @@
       "title": "Site Supervisor-Part Time",
       "description": "Posted: 11/16/2026 Location: Dalton State College Department: School of Education Site Supervisor-Part Time",
       "department": "School of Education"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306205&PostingSeq=1&SiteId=69000": {
+      "title": "Assistant Director of Admissions for Recruitment and Campus Experience",
+      "description": "Posted: 11/23/2026 Location: Dalton State College Department: Admissions Assistant Director of Admissions for Recruitment and Campus Experience",
+      "department": "Admissions"
     }
   },
   "rows": {
@@ -562,11 +567,23 @@
       "deadline_of_application": "",
       "posted_date": "11/16/2026",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306205&PostingSeq=1&SiteId=69000": {
+      "school_id": 290,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306205&PostingSeq=1&SiteId=69000",
+      "job_title_in_post": "Assistant Director of Admissions for Recruitment and Campus Experience",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Admissions",
+      "area_key_words": "Admissions for Recruitment and Campus Experience",
+      "deadline_of_application": "",
+      "posted_date": "11/23/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 290,
   "status": "complete",
-  "updated_at": "2026-11-23T22:09:26+00:00",
+  "updated_at": "2026-11-24T20:15:51+00:00",
   "last_error": "",
-  "completed_at": "2026-11-23T22:09:26+00:00"
+  "completed_at": "2026-11-24T20:15:51+00:00"
 }

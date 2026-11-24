@@ -299,6 +299,16 @@
       "title": "Athletic Maintenance Worker",
       "description": "",
       "department": null
+    },
+    "https://fa-exci-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/1078": {
+      "title": "Davidson Outdoors Temporary Worker",
+      "description": "The Temporary Program Assistant for Davidson Outdoors will assist full-time staff, student leaders, and student employees in delivering a broad range of programs for Davidson Outdoors. Roles will include support for student employees, managing trip preparations, and helping with administrative tasks. ",
+      "department": null
+    },
+    "https://fa-exci-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/1080": {
+      "title": "Temporary Guest House Housekeeper",
+      "description": "Temporary Guest House Housekeeper",
+      "department": null
     }
   },
   "rows": {
@@ -1015,11 +1025,35 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://fa-exci-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/1078": {
+      "school_id": 780,
+      "posting_url": "https://fa-exci-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/1078",
+      "job_title_in_post": "Davidson Outdoors Temporary Worker",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://fa-exci-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/1080": {
+      "school_id": 780,
+      "posting_url": "https://fa-exci-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/1080",
+      "job_title_in_post": "Temporary Guest House Housekeeper",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 780,
   "status": "complete",
-  "updated_at": "2026-11-23T22:14:06+00:00",
-  "completed_at": "2026-11-23T22:14:06+00:00",
+  "updated_at": "2026-11-24T20:22:45+00:00",
+  "completed_at": "2026-11-24T20:22:45+00:00",
   "last_error": ""
 }

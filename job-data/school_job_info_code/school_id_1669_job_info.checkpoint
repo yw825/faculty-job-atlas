@@ -1434,6 +1434,26 @@
       "title": "PhD Fellowships in Quantum Science and Technology - QISTgrad Individual PhD Projects",
       "description": "Shape the Future of Quantum Science: Are you curious about quantum science and eager to develop your own research ideas? Would you like to work with leading researchers while becoming part of a vibrant and supportive interdisciplinary research community?\n",
       "department": null
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8674": {
+      "title": "Postdoc in Computational Biology - BRIGHT",
+      "description": "Do you have expertise in genome-scale metabolic modeling and microbial communities? Join our team at DTU BRIGHT and help understand and control heterogeneity in large-scale gas fermentation by modeling gas-fermenting microbes and their communities in the MORE-GAS project.",
+      "department": null
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8675": {
+      "title": "Postdoc in Experimental Electrocatalysis: Overcoming Scaling Relationship for CO2 Reduction - DTU Energy",
+      "description": "Are you passionate about understanding the core of a scientific problem and coming up with creative solutions? Are you passionate about experimental electrocatalysis and its potential in shaping Green Technologies?",
+      "department": null
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8676": {
+      "title": "Postdoc in Experimental Electrocatalysis: Overcoming Scaling Relationship for Oxygen Reduction and Evolution - DTU Energy",
+      "description": "Are you passionate about understanding the core of a scientific problem and coming up with creative solutions? Are you passionate about experimental electrocatalysis and its potential in shaping Green Technologies?",
+      "department": null
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8677": {
+      "title": "PhD scholarship in Stimuli-Triggered Nanoparticles and T-Cell Therapeutics for Improved Treatment of Malignant Brain Tumors - DTU Health Tech",
+      "description": "We are looking for a PhD student with competences and interest in nanoparticles and cancer immune therapy for treatment of brain tumors.  ",
+      "department": null
     }
   },
   "rows": {
@@ -4845,11 +4865,59 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8674": {
+      "school_id": 1669,
+      "posting_url": "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8674",
+      "job_title_in_post": "Postdoc in Computational Biology - BRIGHT",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Computational Biology",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8675": {
+      "school_id": 1669,
+      "posting_url": "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8675",
+      "job_title_in_post": "Postdoc in Experimental Electrocatalysis: Overcoming Scaling Relationship for CO2 Reduction - DTU Energy",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8676": {
+      "school_id": 1669,
+      "posting_url": "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8676",
+      "job_title_in_post": "Postdoc in Experimental Electrocatalysis: Overcoming Scaling Relationship for Oxygen Reduction and Evolution - DTU Energy",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8677": {
+      "school_id": 1669,
+      "posting_url": "https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/8677",
+      "job_title_in_post": "PhD scholarship in Stimuli-Triggered Nanoparticles and T-Cell Therapeutics for Improved Treatment of Malignant Brain Tumors - DTU Health Tech",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Malignant Brain Tumors",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1669,
   "status": "complete",
-  "updated_at": "2026-11-23T22:40:19+00:00",
-  "completed_at": "2026-11-23T22:40:19+00:00",
+  "updated_at": "2026-11-24T20:51:18+00:00",
+  "completed_at": "2026-11-24T20:51:18+00:00",
   "last_error": ""
 }

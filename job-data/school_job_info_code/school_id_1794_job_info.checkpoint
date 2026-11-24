@@ -167,6 +167,14 @@
     "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#professor-womens-health": {
       "title": "Professor Womens Health",
       "description": "Professor Womens Health. Charles Darwin University. Employment type: Continuing."
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#clinical-placement-coordinator": {
+      "title": "Clinical Placement Coordinator",
+      "description": "Clinical Placement Coordinator. Charles Darwin University. Employment type: Continuing."
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#vet-technical-officer": {
+      "title": "VET Technical Officer",
+      "description": "VET Technical Officer. Charles Darwin University. Employment type: Fixed Term."
     }
   },
   "rows": {
@@ -668,11 +676,35 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#clinical-placement-coordinator": {
+      "school_id": 1794,
+      "posting_url": "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#clinical-placement-coordinator",
+      "job_title_in_post": "Clinical Placement Coordinator",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#vet-technical-officer": {
+      "school_id": 1794,
+      "posting_url": "https://cdu.t1cloud.com/T1Default/CiAnywhere/Web/CDU/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#vet-technical-officer",
+      "job_title_in_post": "VET Technical Officer",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1794,
   "status": "complete",
-  "updated_at": "2026-11-23T22:34:39+00:00",
-  "completed_at": "2026-11-23T22:34:39+00:00",
+  "updated_at": "2026-11-24T20:43:02+00:00",
+  "completed_at": "2026-11-24T20:43:02+00:00",
   "last_error": ""
 }

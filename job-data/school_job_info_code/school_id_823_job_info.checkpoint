@@ -714,6 +714,21 @@
       "title": "Postdoctoral Research Fellow - Using Omics Tools to Increase Selection Efficiency (Osorno)",
       "description": "Posted: 11/23/2026 Location: Fargo Department: AES Plant Science Postdoctoral Research Fellow - Using Omics Tools to Increase Selection Efficiency (Osorno)",
       "department": "AES Plant Science"
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960257&PostingSeq=1&SiteId=1": {
+      "title": "Research Specialist",
+      "description": "Posted: 11/24/2026 Location: Williston Department: AES Williston R/E Ctr Research Specialist",
+      "department": "AES Williston R/E Ctr"
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960246&PostingSeq=1&SiteId=1": {
+      "title": "Traffic Safety Program Lead",
+      "description": "Posted: 11/24/2026 Location: Fargo Department: Upper Great Plains Transport Traffic Safety Program Lead",
+      "department": "Upper Great Plains Transport"
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960237&PostingSeq=1&SiteId=1": {
+      "title": "Building Services Supervisor",
+      "description": "Posted: 11/23/2026 Location: Fargo Department: Facilities Management Building Services Supervisor",
+      "department": "Facilities Management"
     }
   },
   "rows": {
@@ -2411,11 +2426,47 @@
       "deadline_of_application": "",
       "posted_date": "11/23/2026",
       "position_start_date": ""
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960257&PostingSeq=1&SiteId=1": {
+      "school_id": 823,
+      "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960257&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Research Specialist",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "AES Williston R/E Ctr",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/24/2026",
+      "position_start_date": ""
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960246&PostingSeq=1&SiteId=1": {
+      "school_id": 823,
+      "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960246&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Traffic Safety Program Lead",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Upper Great Plains Transport",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/24/2026",
+      "position_start_date": ""
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960237&PostingSeq=1&SiteId=1": {
+      "school_id": 823,
+      "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960237&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Building Services Supervisor",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Facilities Management",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/23/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 823,
   "status": "complete",
-  "updated_at": "2026-11-23T22:14:47+00:00",
-  "completed_at": "2026-11-23T22:14:47+00:00",
+  "updated_at": "2026-11-24T20:23:24+00:00",
+  "completed_at": "2026-11-24T20:23:24+00:00",
   "last_error": ""
 }

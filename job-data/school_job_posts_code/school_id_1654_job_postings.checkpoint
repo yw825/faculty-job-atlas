@@ -1,6 +1,11 @@
 {
   "links": [
     "https://atlas.workland.com/work/92872/professeure-reguliere-ou-professeur-regulier-departement-de-psychologie-psychologie-clinique-campus-de-terrebonne-e0488",
+    "https://atlas.workland.com/work/57980/banque-de-candidatures-bureausecretariat-57980",
+    "https://atlas.workland.com/work/96780/coordonnateur-ou-coordonnatrice-bureau-de-soutien-au-developpement-de-lapprentissage-experientiel-campus-de-trois-rivieres-96780",
+    "https://atlas.workland.com/work/96657/technicien-ou-technicienne-en-sante-animal-animalerie-campus-de-trois-rivieres-96657",
+    "https://atlas.workland.com/work/96668/commis-aux-examens-adaptes-services-aux-etudiants-campus-de-trois-rivieres-96668",
+    "https://atlas.workland.com/work/96100/technicien-ou-technicienne-en-prevention-et-reglement-des-differends-bureau-de-prevention-et-de-traitement-des-plaintes-campus-de-trois-rivieres-96100",
     "https://atlas.workland.com/work/95536/professeure-reguliere-ou-professeur-regulier-departement-des-sciences-infirmieres-soins-cliniques-campus-de-trois-rivieres-e0493-2",
     "https://atlas.workland.com/work/95822/professeure-reguliere-ou-professeur-regulier-departement-de-philosophie-et-des-arts-ethique-campus-de-trois-rivieres-e0120",
     "https://atlas.workland.com/work/95318/conseiller-ou-conseillere-en-communications-numeriques-agent-ou-agente-dinformation-service-des-communications-et-des-relations-avec-les-diplomes-campus-de-trois-rivieres-95318",
@@ -12,14 +17,12 @@
     "https://atlas.workland.com/work/25844/banque-de-candidatures-professionnel",
     "https://atlas.workland.com/work/25843/banque-de-candidatures-metiers-et-services",
     "https://atlas.workland.com/work/25842/banque-de-candidatures-technique",
-    "https://atlas.workland.com/work/57980/banque-de-candidatures-bureausecretariat-57980",
     "https://atlas.workland.com/work/23707/banque-de-candidatures-charges-de-cours"
   ],
   "school_id": 1654,
   "status": "complete",
-  "updated_at": "2026-11-23T21:21:42+00:00",
+  "updated_at": "2026-11-24T19:46:01+00:00",
   "started_at": "2026-10-27T22:13:32+00:00",
-  "completed_at": "2026-11-23T21:21:42+00:00",
-  "last_error": "",
-  "last_warning": "2026-11-23T21:21:42+00:00: board returned 0 links vs 14 before; old set kept"
+  "completed_at": "2026-11-24T19:46:01+00:00",
+  "last_error": ""
 }

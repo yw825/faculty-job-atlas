@@ -1,9 +1,15 @@
 {
-  "links": [],
+  "links": [
+    "https://webapps.cmc.edu/jobs/faculty/faculty_opening_detail.php?PostingID=18083",
+    "https://webapps.cmc.edu/jobs/faculty/faculty_opening_detail.php?PostingID=18082",
+    "https://webapps.cmc.edu/jobs/faculty/faculty_opening_detail.php?PostingID=17082",
+    "https://webapps.cmc.edu/jobs/faculty/faculty_opening_detail.php?PostingID=17081",
+    "https://webapps.cmc.edu/jobs/faculty/faculty_opening_detail.php?PostingID=17078"
+  ],
   "school_id": 79,
   "status": "complete",
-  "updated_at": "2026-11-23T18:42:20+00:00",
+  "updated_at": "2026-11-24T18:01:50+00:00",
   "started_at": "2026-11-23T18:42:16+00:00",
-  "completed_at": "2026-11-23T18:42:20+00:00",
+  "completed_at": "2026-11-24T18:01:50+00:00",
   "last_error": ""
 }

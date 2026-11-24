@@ -284,6 +284,11 @@
       "title": "Assistant Professor of Nursing (Special Appointment)",
       "description": "Posted: 11/20/2026 Location: Dickinson Department: School of Education - Nursing Assistant Professor of Nursing (Special Appointment)",
       "department": "School of Education - Nursing"
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960260&PostingSeq=1&SiteId=1": {
+      "title": "Heat Plant Operator",
+      "description": "Posted: 11/23/2026 Location: Dickinson Department: Physical Plant Heat Plant Operator",
+      "department": "Physical Plant"
     }
   },
   "rows": {
@@ -969,11 +974,23 @@
       "deadline_of_application": "",
       "posted_date": "11/20/2026",
       "position_start_date": ""
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960260&PostingSeq=1&SiteId=1": {
+      "school_id": 821,
+      "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960260&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Heat Plant Operator",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Physical Plant",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/23/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 821,
   "status": "complete",
-  "updated_at": "2026-11-23T22:20:11+00:00",
-  "completed_at": "2026-11-23T22:20:11+00:00",
+  "updated_at": "2026-11-24T20:26:54+00:00",
+  "completed_at": "2026-11-24T20:26:54+00:00",
   "last_error": ""
 }

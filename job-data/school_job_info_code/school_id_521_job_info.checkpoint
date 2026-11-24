@@ -784,6 +784,21 @@
       "title": "Instructor",
       "description": "The Department of Urology at Tulane University School of Medicine is seeking a dedicated, patient-centered Nurse Practitioner (NP) or Physician Assistant (PA) to join our growing outpatient urology practice on the Northshore of the Greater New Orleans area",
       "department": null
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2355": {
+      "title": "Instructor",
+      "description": "",
+      "department": null
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2360": {
+      "title": "Assistant Professor of Anesthesiology",
+      "description": "The Department of Anesthesiology at Tulane University School of Medicine is seeking qualified anesthesiologists who are committed to providing high-quality patient care and contributing to the education and training of future physicians. ",
+      "department": null
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2278": {
+      "title": "Adjunct Assistant Professor",
+      "description": "The Department of Ecology and Evolutionary Biology seeks an Adjunct Assistant Professor to teach undergraduate and graduate courses in field botany. Candidates must possess a Ph.D. in a relevant field and demonstrate expertise appropriate to assigned courses, including field-based and laboratory instruction where applicable.",
+      "department": null
     }
   },
   "rows": {
@@ -2666,11 +2681,47 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2355": {
+      "school_id": 521,
+      "posting_url": "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2355",
+      "job_title_in_post": "Instructor",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2360": {
+      "school_id": 521,
+      "posting_url": "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2360",
+      "job_title_in_post": "Assistant Professor of Anesthesiology",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Department of Anesthesiology",
+      "area_key_words": "Anesthesiology",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2278": {
+      "school_id": 521,
+      "posting_url": "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2278",
+      "job_title_in_post": "Adjunct Assistant Professor",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "botany",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 521,
   "status": "complete",
-  "updated_at": "2026-11-23T22:08:44+00:00",
-  "completed_at": "2026-11-23T22:08:44+00:00",
+  "updated_at": "2026-11-24T20:17:37+00:00",
+  "completed_at": "2026-11-24T20:17:37+00:00",
   "last_error": ""
 }

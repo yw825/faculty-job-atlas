@@ -2897,6 +2897,21 @@
       "title": "Business Operations Specialist",
       "description": "Posted: 11/20/2026 Location: Augusta University Department: GWVNH-Admin Business Operations Specialist",
       "department": "GWVNH-Admin"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305998&PostingSeq=1&SiteId=12000": {
+      "title": "Administrative Assistant 2",
+      "description": "Posted: 11/24/2026 Location: Augusta University Department: CAHS-College of Allied Health Administrative Assistant 2",
+      "department": "CAHS-College of Allied Health"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306328&PostingSeq=1&SiteId=12000": {
+      "title": "Financial Aid Counselor 1",
+      "description": "Posted: 11/24/2026 Location: Summerville Campus Department: Student Financial Aid Financial Aid Counselor 1",
+      "department": "Student Financial Aid"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306263&PostingSeq=1&SiteId=12000": {
+      "title": "Office Specialist",
+      "description": "Posted: 11/23/2026 Location: Augusta University Department: MCG-Pediatric-Allergy/Immunol Office Specialist",
+      "department": "MCG-Pediatric-Allergy/Immunol"
     }
   },
   "rows": {
@@ -9813,11 +9828,47 @@
       "deadline_of_application": "",
       "posted_date": "11/20/2026",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305998&PostingSeq=1&SiteId=12000": {
+      "school_id": 282,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=305998&PostingSeq=1&SiteId=12000",
+      "job_title_in_post": "Administrative Assistant 2",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "CAHS-College of Allied Health",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/24/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306328&PostingSeq=1&SiteId=12000": {
+      "school_id": 282,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306328&PostingSeq=1&SiteId=12000",
+      "job_title_in_post": "Financial Aid Counselor 1",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Student Financial Aid",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/24/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306263&PostingSeq=1&SiteId=12000": {
+      "school_id": 282,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306263&PostingSeq=1&SiteId=12000",
+      "job_title_in_post": "Office Specialist",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "MCG-Pediatric-Allergy/Immunol",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/23/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 282,
   "status": "complete",
-  "updated_at": "2026-11-23T22:03:51+00:00",
-  "completed_at": "2026-11-23T22:03:51+00:00",
+  "updated_at": "2026-11-24T20:13:05+00:00",
+  "completed_at": "2026-11-24T20:13:05+00:00",
   "last_error": ""
 }

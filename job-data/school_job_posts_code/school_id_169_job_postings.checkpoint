@@ -1,12 +1,18 @@
 {
   "links": [
+    "https://jobs.du.edu/jobs/maintenance-worker-iii-denver-co-colorado-united-states-60094dbe-b327-4ed9-93ea-ea53b74da594",
+    "https://jobs.du.edu/jobs/associate-director-global-women-s-leadership-initiative-josef-korbel-school-denver-co-colorado-united-states",
+    "https://jobs.du.edu/jobs/salesforce-administrator-i-denver-co-colorado-united-states-a4fbd2bf-21dd-4197-8f28-1d99aed86265",
+    "https://jobs.du.edu/jobs/psychologist-sport-performance-denver-co-colorado-united-states",
+    "https://jobs.du.edu/jobs/survivor-advocate-coordinator-denver-co-colorado-united-states",
+    "https://jobs.du.edu/jobs/registered-nurse-denver-co-colorado-united-states",
+    "https://jobs.du.edu/jobs/medical-assistant-denver-co-colorado-united-states-4fd95607-bead-4f9e-aad0-d0d0bdeffe3c",
+    "https://jobs.du.edu/jobs/daniel-l-ritchie-center-for-sports-wellness-operations-supervisor-denver-co-colorado-united-states-e2b6d3a5-c8d3-4c26-9082-4c2a321a70f3",
+    "https://jobs.du.edu/jobs/executive-assistant-office-of-the-provost-denver-co-colorado-united-states",
     "https://jobs.du.edu/jobs/human-services-applied-research-and-policy-fellow-washington-dc-district-of-columbia-united-states",
     "https://jobs.du.edu/jobs/adjunct-faculty-clinical-psychology-denver-co-colorado-united-states",
     "https://jobs.du.edu/jobs/part-time-development-coordinator-college-of-arts-humanities-social-sciences-denver-co-colorado-united-states",
-    "https://jobs.du.edu/jobs/salesforce-administrator-i-denver-co-colorado-united-states-a4fbd2bf-21dd-4197-8f28-1d99aed86265",
     "https://jobs.du.edu/jobs/box-office-manager-denver-co-colorado-united-states",
-    "https://jobs.du.edu/jobs/coordinator-student-accounts-denver-co-colorado-united-states",
-    "https://jobs.du.edu/jobs/assistant-director-budget-administration-denver-co-colorado-united-states",
     "https://jobs.du.edu/jobs/maintenance-worker-iii-denver-co-colorado-united-states-15d010e0-be21-48f5-bda3-b6e80813b579",
     "https://jobs.du.edu/jobs/post-doctoral-fellow-denver-first-denver-co-colorado-united-states-f85b3670-9cc6-426c-bad5-c50190b914dc",
     "https://jobs.du.edu/jobs/student-services-coordinator-denver-co-colorado-united-states",
@@ -62,7 +68,6 @@
     "https://jobs.du.edu/jobs/adjunct-faculty-indigenous-languages-of-the-west-denver-co-colorado-united-states",
     "https://jobs.du.edu/jobs/adjunct-faculty-kinesiology-program-denver-co-colorado-united-states-00f66ea6-5fd4-4ba3-b444-c3241cb97bb5",
     "https://jobs.du.edu/jobs/adjunct-faculty-philosophy-denver-co-colorado-united-states",
-    "https://jobs.du.edu/jobs/adjunct-faculty-msla-program-sturm-college-of-law-denver-co-colorado-united-states",
     "https://jobs.du.edu/jobs/seasonal-groundskeeper-facilities-management-and-planning-denver-co-colorado-united-states",
     "https://jobs.du.edu/jobs/mathematics-adjunct-and-overload-2025-2026-academic-year-denver-co-colorado-united-states",
     "https://jobs.du.edu/jobs/kennedy-mountain-campus-staff-red-feather-lakes-co-colorado-united-states",
@@ -82,9 +87,9 @@
     "https://jobs.du.edu/jobs/lifeguard-denver-co-colorado-united-states"
   ],
   "school_id": 169,
-  "status": "error",
-  "updated_at": "2026-11-23T20:30:14+00:00",
+  "status": "complete",
+  "updated_at": "2026-11-24T18:05:20+00:00",
   "started_at": "2026-09-08T01:21:49+00:00",
-  "completed_at": "2026-11-20T18:19:06+00:00",
-  "last_error": "RuntimeError: denver board listed no jobs"
+  "completed_at": "2026-11-24T18:05:20+00:00",
+  "last_error": ""
 }

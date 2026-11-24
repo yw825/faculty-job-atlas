@@ -207,6 +207,10 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/24375BA29C8AE0EA98AC3A9FD8D2FDCE/jobs/169064": {
       "title": "Chemistry Laboratory Coordinator",
       "description": "Chemistry Laboratory Coordinator You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/24375BA29C8AE0EA98AC3A9FD8D2FDCE/jobs/169283": {
+      "title": "Chaplain/Interfaith and Spiritual Coordinator",
+      "description": "Chaplain/Interfaith and Spiritual Coordinator You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -828,11 +832,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/24375BA29C8AE0EA98AC3A9FD8D2FDCE/jobs/169283": {
+      "school_id": 787,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/24375BA29C8AE0EA98AC3A9FD8D2FDCE/jobs/169283",
+      "job_title_in_post": "Chaplain/Interfaith and Spiritual Coordinator",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 787,
   "status": "complete",
-  "updated_at": "2026-11-23T22:19:29+00:00",
-  "completed_at": "2026-11-23T22:19:29+00:00",
+  "updated_at": "2026-11-24T20:26:22+00:00",
+  "completed_at": "2026-11-24T20:26:22+00:00",
   "last_error": ""
 }

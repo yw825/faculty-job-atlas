@@ -91,6 +91,14 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/1051C39EB9AB7F40500A9D465D1FF64D/jobs/548880": {
       "title": "Graduate Assistant for Human Anatomy School of Behavioral and Health Sciences",
       "description": "Graduate Assistant for Human Anatomy School of Behavioral and Health Sciences You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/1051C39EB9AB7F40500A9D465D1FF64D/jobs/552798": {
+      "title": "Admissions Counselor",
+      "description": "Admissions Counselor You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/1051C39EB9AB7F40500A9D465D1FF64D/jobs/553091": {
+      "title": "Human Resources Coordinator",
+      "description": "Human Resources Coordinator You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -368,11 +376,35 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/1051C39EB9AB7F40500A9D465D1FF64D/jobs/552798": {
+      "school_id": 1061,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/1051C39EB9AB7F40500A9D465D1FF64D/jobs/552798",
+      "job_title_in_post": "Admissions Counselor",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/1051C39EB9AB7F40500A9D465D1FF64D/jobs/553091": {
+      "school_id": 1061,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/1051C39EB9AB7F40500A9D465D1FF64D/jobs/553091",
+      "job_title_in_post": "Human Resources Coordinator",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1061,
   "status": "complete",
-  "updated_at": "2026-11-23T22:19:29+00:00",
-  "completed_at": "2026-11-23T22:19:29+00:00",
+  "updated_at": "2026-11-24T20:26:52+00:00",
+  "completed_at": "2026-11-24T20:26:52+00:00",
   "last_error": ""
 }

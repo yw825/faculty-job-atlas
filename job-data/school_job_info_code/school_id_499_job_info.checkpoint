@@ -43,6 +43,10 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/0360F3B5A2EC741788B51C99C6E17513/jobs/402221": {
       "title": "Assistant/Associate  Professor Nursing",
       "description": "Assistant/Associate  Professor Nursing You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/0360F3B5A2EC741788B51C99C6E17513/jobs/402257": {
+      "title": "Nursing Skill Lab Adjunct",
+      "description": "Nursing Skill Lab Adjunct You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -177,11 +181,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/0360F3B5A2EC741788B51C99C6E17513/jobs/402257": {
+      "school_id": 499,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/0360F3B5A2EC741788B51C99C6E17513/jobs/402257",
+      "job_title_in_post": "Nursing Skill Lab Adjunct",
+      "position_type": "Lecturer",
+      "job_term": "Part-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 499,
   "status": "complete",
-  "updated_at": "2026-11-23T22:12:35+00:00",
-  "completed_at": "2026-11-23T22:12:35+00:00",
+  "updated_at": "2026-11-24T20:21:12+00:00",
+  "completed_at": "2026-11-24T20:21:12+00:00",
   "last_error": ""
 }

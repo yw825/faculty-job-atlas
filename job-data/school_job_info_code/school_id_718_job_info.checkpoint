@@ -489,6 +489,11 @@
       "title": "Moot Court Adjunct/Coach - UMKC School of Humanities and Social Sciences, Department of Criminal Justice and Criminology",
       "description": "Posted: 11/16/2026 Location: UMKC Volker Campus Department: Criminal Justice & Criminology Moot Court Adjunct/Coach - UMKC School of Humanities and Social Sciences, Department of Criminal Justice and Criminology",
       "department": "Criminal Justice & Criminology"
+    },
+    "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61835&PostingSeq=1&SiteId=8": {
+      "title": "Research Scientist, Opthalmology, UMIKC School of Medicine - Vision Research Center",
+      "description": "Posted: 11/24/2026 Location: Kansas City Department: Ophthalmology Research Scientist, Opthalmology, UMIKC School of Medicine - Vision Research Center",
+      "department": "Ophthalmology"
     }
   },
   "rows": {
@@ -1657,11 +1662,23 @@
       "deadline_of_application": "",
       "posted_date": "11/16/2026",
       "position_start_date": ""
+    },
+    "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61835&PostingSeq=1&SiteId=8": {
+      "school_id": 718,
+      "posting_url": "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61835&PostingSeq=1&SiteId=8",
+      "job_title_in_post": "Research Scientist, Opthalmology, UMIKC School of Medicine - Vision Research Center",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "Ophthalmology",
+      "area_key_words": "Medicine",
+      "deadline_of_application": "",
+      "posted_date": "11/24/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 718,
   "status": "complete",
-  "updated_at": "2026-11-23T22:18:23+00:00",
-  "completed_at": "2026-11-23T22:18:23+00:00",
+  "updated_at": "2026-11-24T20:25:19+00:00",
+  "completed_at": "2026-11-24T20:25:19+00:00",
   "last_error": ""
 }

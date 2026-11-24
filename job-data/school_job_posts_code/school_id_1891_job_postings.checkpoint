@@ -1,9 +1,5 @@
 {
   "links": [
-    "https://www.vacancies.aau.dk/scientific-positions/show-vacancy/vacancyId/977480",
-    "https://www.vacancies.aau.dk/scientific-positions/show-vacancy/vacancyId/981167",
-    "https://www.vacancies.aau.dk/scientific-positions/show-vacancy/vacancyId/988177",
-    "https://www.vacancies.aau.dk/scientific-positions/show-vacancy/vacancyId/982971",
     "https://www.vacancies.aau.dk/scientific-positions/show-vacancy/vacancyId/947621",
     "https://www.vacancies.aau.dk/scientific-positions/show-vacancy/vacancyId/986676",
     "https://www.vacancies.aau.dk/scientific-positions/show-vacancy/vacancyId/989103",
@@ -20,7 +16,9 @@
     "https://www.vacancies.aau.dk/scientific-positions/show-vacancy/vacancyId/987042",
     "https://www.vacancies.aau.dk/scientific-positions/show-vacancy/vacancyId/988670",
     "https://www.vacancies.aau.dk/scientific-positions/show-vacancy/vacancyId/993156",
+    "https://www.vacancies.aau.dk/scientific-positions/show-vacancy/vacancyId/993753",
     "https://www.vacancies.aau.dk/scientific-positions/show-vacancy/vacancyId/989639",
+    "https://www.vacancies.aau.dk/scientific-positions/show-vacancy/vacancyId/993944",
     "https://www.vacancies.aau.dk/scientific-positions/show-vacancy/vacancyId/992463",
     "https://www.vacancies.aau.dk/scientific-positions/show-vacancy/vacancyId/975756",
     "https://www.vacancies.aau.dk/scientific-positions/show-vacancy/vacancyId/983153",
@@ -28,13 +26,13 @@
     "https://www.vacancies.aau.dk/scientific-positions/show-vacancy/vacancyId/977584",
     "https://www.vacancies.aau.dk/scientific-positions/show-vacancy/vacancyId/983063",
     "https://www.vacancies.aau.dk/scientific-positions/show-vacancy/vacancyId/984263",
-    "https://www.vacancies.aau.dk/scientific-positions/show-vacancy/vacancyId/988448"
+    "https://www.vacancies.aau.dk/scientific-positions/show-vacancy/vacancyId/988448",
+    "https://www.vacancies.aau.dk/scientific-positions/show-vacancy/vacancyId/994376"
   ],
   "school_id": 1891,
   "status": "complete",
-  "updated_at": "2026-11-23T21:30:25+00:00",
+  "updated_at": "2026-11-24T19:47:07+00:00",
   "started_at": "2026-11-02T19:34:21+00:00",
-  "completed_at": "2026-11-23T21:30:25+00:00",
-  "last_error": "",
-  "last_warning": "2026-11-23T21:30:25+00:00: board returned 0 links vs 29 before; old set kept"
+  "completed_at": "2026-11-24T19:47:07+00:00",
+  "last_error": ""
 }

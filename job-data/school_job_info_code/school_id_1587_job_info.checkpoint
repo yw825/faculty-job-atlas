@@ -319,6 +319,11 @@
       "title": "Tenure-Track Assistant Professor or Higher - Medical Geneticist",
       "description": "",
       "department": null
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4669": {
+      "title": "Tenure-Track Position in Theory",
+      "description": "",
+      "department": null
     }
   },
   "rows": {
@@ -1079,11 +1084,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4669": {
+      "school_id": 1587,
+      "posting_url": "https://iaejup.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/UOA-Careers/job/4669",
+      "job_title_in_post": "Tenure-Track Position in Theory",
+      "position_type": "Assistant_Professor; Associate_Professor; Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Theory",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1587,
   "status": "complete",
-  "updated_at": "2026-11-23T22:38:00+00:00",
-  "completed_at": "2026-11-23T22:38:00+00:00",
+  "updated_at": "2026-11-24T20:47:57+00:00",
+  "completed_at": "2026-11-24T20:47:57+00:00",
   "last_error": ""
 }

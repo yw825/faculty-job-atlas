@@ -3364,6 +3364,36 @@
       "title": "Research Project Coordinator",
       "description": "Posted: 11/20/2026 Location: Chicago, Illinois Department: MED-Cancer Center Research Project Coordinator",
       "department": "MED-Cancer Center"
+    },
+    "https://careers.northwestern.edu/psc/hrnu_er/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=54914&PostingSeq=1": {
+      "title": "Clinical Research Project Manager",
+      "description": "Posted: 11/24/2026 Location: Chicago, Illinois Department: MED-Cancer Center Clinical Research Project Manager",
+      "department": "MED-Cancer Center"
+    },
+    "https://careers.northwestern.edu/psc/hrnu_er/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=54911&PostingSeq=1": {
+      "title": "Clinical Trials Data Assistant",
+      "description": "Posted: 11/24/2026 Location: Chicago, Illinois Department: MED-Cancer Center Clinical Trials Data Assistant",
+      "department": "MED-Cancer Center"
+    },
+    "https://careers.northwestern.edu/psc/hrnu_er/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=54903&PostingSeq=1": {
+      "title": "Groundskeeper A",
+      "description": "Posted: 11/24/2026 Location: Evanston, Illinois Department: Facilities Mgmt EV Groundskeeper A",
+      "department": "Facilities Mgmt EV"
+    },
+    "https://careers.northwestern.edu/psc/hrnu_er/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=54912&PostingSeq=1": {
+      "title": "Oncology Clinical Research Coordinator Associate FSM/CC",
+      "description": "Posted: 11/24/2026 Location: Chicago, Illinois Department: MED-Cancer Center Oncology Clinical Research Coordinator Associate FSM/CC",
+      "department": "MED-Cancer Center"
+    },
+    "https://careers.northwestern.edu/psc/hrnu_er/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=54913&PostingSeq=1": {
+      "title": "Academic Records Assistant",
+      "description": "Posted: 11/23/2026 Location: Chicago, Illinois Department: School of Professional Studies Academic Records Assistant",
+      "department": "School of Professional Studies"
+    },
+    "https://careers.northwestern.edu/psc/hrnu_er/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=54915&PostingSeq=1": {
+      "title": "Research Technologist 2, Infectious Disease",
+      "description": "Posted: 11/23/2026 Location: Chicago, Illinois Department: MED-Infectious Disease Research Technologist 2, Infectious Disease",
+      "department": "MED-Infectious Disease"
     }
   },
   "rows": {
@@ -11082,11 +11112,83 @@
       "deadline_of_application": "",
       "posted_date": "11/20/2026",
       "position_start_date": ""
+    },
+    "https://careers.northwestern.edu/psc/hrnu_er/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=54914&PostingSeq=1": {
+      "school_id": 391,
+      "posting_url": "https://careers.northwestern.edu/psc/hrnu_er/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=54914&PostingSeq=1",
+      "job_title_in_post": "Clinical Research Project Manager",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "MED-Cancer Center",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/24/2026",
+      "position_start_date": ""
+    },
+    "https://careers.northwestern.edu/psc/hrnu_er/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=54911&PostingSeq=1": {
+      "school_id": 391,
+      "posting_url": "https://careers.northwestern.edu/psc/hrnu_er/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=54911&PostingSeq=1",
+      "job_title_in_post": "Clinical Trials Data Assistant",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "MED-Cancer Center",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/24/2026",
+      "position_start_date": ""
+    },
+    "https://careers.northwestern.edu/psc/hrnu_er/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=54903&PostingSeq=1": {
+      "school_id": 391,
+      "posting_url": "https://careers.northwestern.edu/psc/hrnu_er/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=54903&PostingSeq=1",
+      "job_title_in_post": "Groundskeeper A",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Facilities Mgmt EV",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/24/2026",
+      "position_start_date": ""
+    },
+    "https://careers.northwestern.edu/psc/hrnu_er/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=54912&PostingSeq=1": {
+      "school_id": 391,
+      "posting_url": "https://careers.northwestern.edu/psc/hrnu_er/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=54912&PostingSeq=1",
+      "job_title_in_post": "Oncology Clinical Research Coordinator Associate FSM/CC",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "MED-Cancer Center",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/24/2026",
+      "position_start_date": ""
+    },
+    "https://careers.northwestern.edu/psc/hrnu_er/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=54913&PostingSeq=1": {
+      "school_id": 391,
+      "posting_url": "https://careers.northwestern.edu/psc/hrnu_er/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=54913&PostingSeq=1",
+      "job_title_in_post": "Academic Records Assistant",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "School of Professional Studies",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/23/2026",
+      "position_start_date": ""
+    },
+    "https://careers.northwestern.edu/psc/hrnu_er/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=54915&PostingSeq=1": {
+      "school_id": 391,
+      "posting_url": "https://careers.northwestern.edu/psc/hrnu_er/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=54915&PostingSeq=1",
+      "job_title_in_post": "Research Technologist 2, Infectious Disease",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "MED-Infectious Disease",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/23/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 391,
   "status": "complete",
-  "updated_at": "2026-11-23T22:06:29+00:00",
+  "updated_at": "2026-11-24T20:16:02+00:00",
   "last_error": "",
-  "completed_at": "2026-11-23T22:06:29+00:00"
+  "completed_at": "2026-11-24T20:16:02+00:00"
 }
