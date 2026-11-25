@@ -1779,6 +1779,11 @@
       "title": "Student Assistant - Resident Life - Resident Advisor (Fall 2027)",
       "description": "Posted: 11/23/2026 Location: Georgia Southern - Savannah Department: Resident Life Student Assistant - Resident Life - Resident Advisor (Fall 2027)",
       "department": "Resident Life"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306428&PostingSeq=1&SiteId=39000": {
+      "title": "Work Study Student - Office of Financial Aid - America Reads Tutor (Spring 2027)",
+      "description": "Posted: 11/25/2026 Location: Statesboro, Georgia Department: CWSP-Campus Match Work Study Student - Office of Financial Aid - America Reads Tutor (Spring 2027)",
+      "department": "CWSP-Campus Match"
     }
   },
   "rows": {
@@ -6039,11 +6044,23 @@
       "deadline_of_application": "",
       "posted_date": "11/23/2026",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306428&PostingSeq=1&SiteId=39000": {
+      "school_id": 312,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306428&PostingSeq=1&SiteId=39000",
+      "job_title_in_post": "Work Study Student - Office of Financial Aid - America Reads Tutor (Spring 2027)",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "CWSP-Campus Match",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/25/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 312,
   "status": "complete",
-  "updated_at": "2026-11-24T20:16:55+00:00",
-  "completed_at": "2026-11-24T20:16:55+00:00",
+  "updated_at": "2026-11-25T21:00:08+00:00",
+  "completed_at": "2026-11-25T21:00:08+00:00",
   "last_error": ""
 }

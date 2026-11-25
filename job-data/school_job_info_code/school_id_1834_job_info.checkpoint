@@ -1109,6 +1109,31 @@
       "title": "Executive Officer, Academy of Film",
       "description": "This position sits under the Academy of Film at our Kowloon Tong campus. The core responsibilities include managing the full spectrum of functions in a Postgraduate programme in the Academy.",
       "department": null
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270340": {
+      "title": "Student Development Officer, Office of Student Affairs",
+      "description": "This position sits under the Office of Student Affairs at our Kowloon Tong campus. The core responsibilities include administrating various scholarships and financial assistance schemes.",
+      "department": null
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270350": {
+      "title": "Lecturer in Religion and Philosophy",
+      "description": "This position sits under the Academy of Chinese, History, Religion and Philosophy at our Kowloon Tong campus. The core responsibilities include teaching GE and major undergraduate level courses in the Academy.",
+      "department": null
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270351": {
+      "title": "Associate Professor/Assistant Professor in Philosophy of Artificial Intelligence or Religion and Artificial Intelligence, and/or Classics",
+      "description": "This position sits under the Academy of Chinese, History, Religion and Philosophy at our Kowloon Tong campus. The core responsibilities include conducting and publishing impactful research.",
+      "department": null
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270353": {
+      "title": "Finance Officer / Assistant Finance Officer, (Accounting and Budgeting Section)",
+      "description": "This position sits under the Finance Office at our Kowloon Tong campus. The core responsibilities include supporting the Finance Manager in overseeing the accounting related functions.",
+      "department": null
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270354": {
+      "title": "Senior Officer/Officer (Research Postgraduate Administration), Graduate School",
+      "description": "This position sits under the Graduate School at our Kowloon Tong campus. The core responsibilities include supporting the administration of the student lifecycle for research postgraduate programmes.",
+      "department": null
     }
   },
   "rows": {
@@ -3767,11 +3792,71 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270340": {
+      "school_id": 1834,
+      "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270340",
+      "job_title_in_post": "Student Development Officer, Office of Student Affairs",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Student Affairs",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270350": {
+      "school_id": 1834,
+      "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270350",
+      "job_title_in_post": "Lecturer in Religion and Philosophy",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Religion and Philosophy; major undergraduate level courses",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270351": {
+      "school_id": 1834,
+      "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270351",
+      "job_title_in_post": "Associate Professor/Assistant Professor in Philosophy of Artificial Intelligence or Religion and Artificial Intelligence, and/or Classics",
+      "position_type": "Assistant_Professor; Associate_Professor; Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Philosophy of Artificial Intelligence or Religion and Artificial Intelligence, and/or Classics",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270353": {
+      "school_id": 1834,
+      "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270353",
+      "job_title_in_post": "Finance Officer / Assistant Finance Officer, (Accounting and Budgeting Section)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270354": {
+      "school_id": 1834,
+      "posting_url": "https://fa-ewqq-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/hkbu/job/26270354",
+      "job_title_in_post": "Senior Officer/Officer (Research Postgraduate Administration), Graduate School",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1834,
   "status": "complete",
-  "updated_at": "2026-11-24T20:54:32+00:00",
-  "completed_at": "2026-11-24T20:54:32+00:00",
+  "updated_at": "2026-11-25T21:31:57+00:00",
+  "completed_at": "2026-11-25T21:31:57+00:00",
   "last_error": ""
 }

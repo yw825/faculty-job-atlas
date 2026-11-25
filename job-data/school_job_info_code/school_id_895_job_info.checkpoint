@@ -323,6 +323,10 @@
     "https://www.paycomonline.net/v4/ats/web.php/portal/2881FFE43C19E2921F626A9C2B366153/jobs/207797": {
       "title": "Assistant/Associate Professor of Supply Chain Management",
       "description": "Assistant/Associate Professor of Supply Chain Management You need to enable JavaScript to run this app."
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/2881FFE43C19E2921F626A9C2B366153/jobs/243819": {
+      "title": "Center of Excellence in Social Work and Special Projects Coordinator",
+      "description": "Center of Excellence in Social Work and Special Projects Coordinator You need to enable JavaScript to run this app."
     }
   },
   "rows": {
@@ -1293,11 +1297,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://www.paycomonline.net/v4/ats/web.php/portal/2881FFE43C19E2921F626A9C2B366153/jobs/243819": {
+      "school_id": 895,
+      "posting_url": "https://www.paycomonline.net/v4/ats/web.php/portal/2881FFE43C19E2921F626A9C2B366153/jobs/243819",
+      "job_title_in_post": "Center of Excellence in Social Work and Special Projects Coordinator",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Center of Excellence in Social Work and Special Projects Coordinator",
+      "area_key_words": "Excellence in Social Work and Special Projects Coordinator",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 895,
   "status": "complete",
-  "updated_at": "2026-11-24T20:28:59+00:00",
-  "completed_at": "2026-11-24T20:28:59+00:00",
+  "updated_at": "2026-11-25T21:11:10+00:00",
+  "completed_at": "2026-11-25T21:11:10+00:00",
   "last_error": ""
 }

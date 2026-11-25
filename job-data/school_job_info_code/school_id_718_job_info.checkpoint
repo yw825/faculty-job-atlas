@@ -494,6 +494,16 @@
       "title": "Research Scientist, Opthalmology, UMIKC School of Medicine - Vision Research Center",
       "description": "Posted: 11/24/2026 Location: Kansas City Department: Ophthalmology Research Scientist, Opthalmology, UMIKC School of Medicine - Vision Research Center",
       "department": "Ophthalmology"
+    },
+    "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61849&PostingSeq=1&SiteId=8": {
+      "title": "ASSISTANT/ASSOCIATE CLINICAL PROFESSOR, Restorative Clinical Sciences & Dental Hygiene / UMKC School of Dentistry",
+      "description": "Posted: 11/24/2026 Location: Kansas City Department: Restorative Clinical Sciences ASSISTANT/ASSOCIATE CLINICAL PROFESSOR, Restorative Clinical Sciences & Dental Hygiene / UMKC School of Dentistry",
+      "department": "Restorative Clinical Sciences"
+    },
+    "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61853&PostingSeq=1&SiteId=8": {
+      "title": "Resident Physician - UMKC 2027 Graduate Medical Education - School of Medicine (Continuous Posting)",
+      "description": "Posted: 11/24/2026 Location: Kansas City Department: School of Medicine Residency Resident Physician - UMKC 2027 Graduate Medical Education - School of Medicine (Continuous Posting)",
+      "department": "School of Medicine Residency"
     }
   },
   "rows": {
@@ -1674,11 +1684,35 @@
       "deadline_of_application": "",
       "posted_date": "11/24/2026",
       "position_start_date": ""
+    },
+    "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61849&PostingSeq=1&SiteId=8": {
+      "school_id": 718,
+      "posting_url": "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61849&PostingSeq=1&SiteId=8",
+      "job_title_in_post": "ASSISTANT/ASSOCIATE CLINICAL PROFESSOR, Restorative Clinical Sciences & Dental Hygiene / UMKC School of Dentistry",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "Restorative Clinical Sciences",
+      "area_key_words": "Dentistry",
+      "deadline_of_application": "",
+      "posted_date": "11/24/2026",
+      "position_start_date": ""
+    },
+    "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61853&PostingSeq=1&SiteId=8": {
+      "school_id": 718,
+      "posting_url": "https://erecruit.umsystem.edu/psc/tamext/COLUM/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=61853&PostingSeq=1&SiteId=8",
+      "job_title_in_post": "Resident Physician - UMKC 2027 Graduate Medical Education - School of Medicine (Continuous Posting)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "School of Medicine Residency",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/24/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 718,
   "status": "complete",
-  "updated_at": "2026-11-24T20:25:19+00:00",
-  "completed_at": "2026-11-24T20:25:19+00:00",
+  "updated_at": "2026-11-25T21:07:13+00:00",
+  "completed_at": "2026-11-25T21:07:13+00:00",
   "last_error": ""
 }

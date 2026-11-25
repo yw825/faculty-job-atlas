@@ -131,6 +131,10 @@
     "https://viprecprod.ad.umanitoba.ca/A#req-51908": {
       "title": "Assistant Professor in Metabolic Nutrition",
       "description": "Assistant Professor in Metabolic Nutrition | Requisition No: 51908 - Category:  FULL TIME ACADEMICS | Full time -  Permanent | Manitoba | Fort Garry Campus [011] | Nov/24/2026 | Professorship in Internal Medicine Clinical Science"
+    },
+    "https://viprecprod.ad.umanitoba.ca/A#req-51947": {
+      "title": "Assistant or Associate Professor - CRC Tier 2",
+      "description": "Assistant or Associate Professor - CRC Tier 2 | Requisition No: 51947 - Category:  FULL TIME ACADEMICS | Full time -  Permanent | Manitoba | Bannatyne Campus [021] | Nov/25/2026 | Assistant Professor in Metabolic Nutrition"
     }
   },
   "rows": {
@@ -521,11 +525,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://viprecprod.ad.umanitoba.ca/A#req-51947": {
+      "school_id": 1601,
+      "posting_url": "https://viprecprod.ad.umanitoba.ca/A#req-51947",
+      "job_title_in_post": "Assistant or Associate Professor - CRC Tier 2",
+      "position_type": "Associate_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "CRC Tier 2",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1601,
   "status": "complete",
-  "updated_at": "2026-11-24T20:48:17+00:00",
-  "completed_at": "2026-11-24T20:48:17+00:00",
+  "updated_at": "2026-11-25T21:27:39+00:00",
+  "completed_at": "2026-11-25T21:27:39+00:00",
   "last_error": ""
 }

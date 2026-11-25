@@ -619,6 +619,11 @@
       "title": "Admissions Counselor",
       "description": "Posted: 11/23/2026 Location: Ellensburg, WA Department: Admissions Admissions Counselor",
       "department": "Admissions"
+    },
+    "https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=7629&PostingSeq=1&SiteId=1": {
+      "title": "Career and Technical Education (CTE) Program Coordinator",
+      "description": "Posted: 11/25/2026 Location: Ellensburg, WA Department: Family & Consumer Sciences Career and Technical Education (CTE) Program Coordinator",
+      "department": "Family & Consumer Sciences"
     }
   },
   "rows": {
@@ -2109,11 +2114,23 @@
       "deadline_of_application": "",
       "posted_date": "11/23/2026",
       "position_start_date": ""
+    },
+    "https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=7629&PostingSeq=1&SiteId=1": {
+      "school_id": 1512,
+      "posting_url": "https://cwuhrprdcg.peoplesoft.cwu.edu/psc/careers/EMPLOYEE/CAREERS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=7629&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Career and Technical Education (CTE) Program Coordinator",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Family & Consumer Sciences",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/25/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 1512,
   "status": "complete",
-  "updated_at": "2026-11-24T20:33:48+00:00",
-  "completed_at": "2026-11-24T20:33:48+00:00",
+  "updated_at": "2026-11-25T21:16:06+00:00",
+  "completed_at": "2026-11-25T21:16:06+00:00",
   "last_error": ""
 }

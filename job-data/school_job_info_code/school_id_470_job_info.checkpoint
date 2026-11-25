@@ -19,6 +19,10 @@
     "https://my.mcpherson.edu/ICS/Employment/Employment_Landing_Page.jnz?portlet=Employment_Position_Application#head-women-s-wrestling-coach": {
       "title": "Head Women's Wrestling Coach",
       "description": "Head Women's Wrestling Coach. Department: Athletics. Classification: Exempt. Full Time. Posted: None specified."
+    },
+    "https://my.mcpherson.edu/ICS/Employment/Employment_Landing_Page.jnz?portlet=Employment_Position_Application#head-men-s-soccer-coach": {
+      "title": "Head Men's Soccer Coach",
+      "description": "Head Men's Soccer Coach. Department: Athletics. Classification: Exempt. Full Time. Posted: None specified."
     }
   },
   "rows": {
@@ -81,11 +85,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://my.mcpherson.edu/ICS/Employment/Employment_Landing_Page.jnz?portlet=Employment_Position_Application#head-men-s-soccer-coach": {
+      "school_id": 470,
+      "posting_url": "https://my.mcpherson.edu/ICS/Employment/Employment_Landing_Page.jnz?portlet=Employment_Position_Application#head-men-s-soccer-coach",
+      "job_title_in_post": "Head Men's Soccer Coach",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 470,
   "status": "complete",
-  "updated_at": "2026-11-24T20:19:38+00:00",
+  "updated_at": "2026-11-25T21:03:28+00:00",
   "last_error": "",
-  "completed_at": "2026-11-24T20:19:38+00:00"
+  "completed_at": "2026-11-25T21:03:28+00:00"
 }

@@ -94,8 +94,8 @@
   ],
   "school_id": 1766,
   "status": "error",
-  "updated_at": "2026-11-24T20:08:59+00:00",
+  "updated_at": "2026-11-25T20:53:31+00:00",
   "started_at": "2026-09-02T22:32:19+00:00",
   "completed_at": "2026-11-20T19:21:08+00:00",
-  "last_error": "RuntimeError: jobs.ac.uk status=500"
+  "last_error": "RuntimeError: jobs.ac.uk status=503"
 }

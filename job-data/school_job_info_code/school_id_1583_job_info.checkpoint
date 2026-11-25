@@ -1529,6 +1529,16 @@
       "title": "Golf Operations Senior - Jacoby Golf Course",
       "description": "Golf Operations Senior",
       "department": null
+    },
+    "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/263098": {
+      "title": "Office Assistant, Senior - Kinesiology & Health",
+      "description": "Assistance needed for an Office Assistant, Senior to assist in initiatives related to the Rural Health Transformation Project. This position will help Wyoming school districts implement Presidential Fitness Testing into their schools. ",
+      "department": null
+    },
+    "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/263171": {
+      "title": "Work Study - Library Aide, Coe Library Help Desk, University Libraries",
+      "description": "This position is located in Coe Library on Level 2. The Help Desk provides customer service to the entire campus community and the city of Laramie. This position will: provide circulation and research services to customers at Coe Library. Work in a fast-paced environment alongside other student employees. Shifts are scheduled around classes and other obligations.",
+      "department": null
     }
   },
   "rows": {
@@ -5184,11 +5194,35 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/263098": {
+      "school_id": 1583,
+      "posting_url": "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/263098",
+      "job_title_in_post": "Office Assistant, Senior - Kinesiology & Health",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/263171": {
+      "school_id": 1583,
+      "posting_url": "https://eeik.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/263171",
+      "job_title_in_post": "Work Study - Library Aide, Coe Library Help Desk, University Libraries",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1583,
   "status": "complete",
-  "updated_at": "2026-11-24T20:37:10+00:00",
-  "completed_at": "2026-11-24T20:37:10+00:00",
+  "updated_at": "2026-11-25T21:19:18+00:00",
+  "completed_at": "2026-11-25T21:19:18+00:00",
   "last_error": ""
 }

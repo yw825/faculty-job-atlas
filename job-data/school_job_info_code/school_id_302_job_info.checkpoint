@@ -554,6 +554,26 @@
       "title": "Student Assistant - Peer Mentor",
       "description": "Posted: 11/24/2026 Location: Middle GA State University Department: First Year Experience Student Assistant - Peer Mentor",
       "department": "First Year Experience"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306441&PostingSeq=1&SiteId=83000": {
+      "title": "COMPASS Academic Support Specialist",
+      "description": "Posted: 11/25/2026 Location: Middle GA State University Department: Federal COMPASS Academic Support Specialist",
+      "department": "Federal"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306437&PostingSeq=1&SiteId=83000": {
+      "title": "COMPASS Media Specialist",
+      "description": "Posted: 11/25/2026 Location: Middle GA State University Department: Federal COMPASS Media Specialist",
+      "department": "Federal"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306434&PostingSeq=1&SiteId=83000": {
+      "title": "COMPASS Project Manager",
+      "description": "Posted: 11/25/2026 Location: Middle GA State University Department: Federal COMPASS Project Manager",
+      "department": "Federal"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306439&PostingSeq=1&SiteId=83000": {
+      "title": "COMPASS Support Systems Coordinator",
+      "description": "Posted: 11/25/2026 Location: Middle GA State University Department: Federal COMPASS Support Systems Coordinator",
+      "department": "Federal"
     }
   },
   "rows": {
@@ -1883,11 +1903,59 @@
       "deadline_of_application": "",
       "posted_date": "11/24/2026",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306441&PostingSeq=1&SiteId=83000": {
+      "school_id": 302,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306441&PostingSeq=1&SiteId=83000",
+      "job_title_in_post": "COMPASS Academic Support Specialist",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Federal",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/25/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306437&PostingSeq=1&SiteId=83000": {
+      "school_id": 302,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306437&PostingSeq=1&SiteId=83000",
+      "job_title_in_post": "COMPASS Media Specialist",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Federal",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/25/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306434&PostingSeq=1&SiteId=83000": {
+      "school_id": 302,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306434&PostingSeq=1&SiteId=83000",
+      "job_title_in_post": "COMPASS Project Manager",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Federal",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/25/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306439&PostingSeq=1&SiteId=83000": {
+      "school_id": 302,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306439&PostingSeq=1&SiteId=83000",
+      "job_title_in_post": "COMPASS Support Systems Coordinator",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Federal",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/25/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 302,
   "status": "complete",
-  "updated_at": "2026-11-24T20:16:47+00:00",
-  "completed_at": "2026-11-24T20:16:47+00:00",
+  "updated_at": "2026-11-25T21:00:15+00:00",
+  "completed_at": "2026-11-25T21:00:15+00:00",
   "last_error": ""
 }

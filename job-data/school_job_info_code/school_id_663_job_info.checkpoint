@@ -922,12 +922,13 @@
       "school_id": 663,
       "posting_url": "https://svsu.wd503.myworkdayjobs.com/External/job/Main-Campus/Adjunct-Faculty--Physics_JR-197",
       "job_title_in_post": "Adjunct Faculty, Physics",
-      "position_type": "Unclassified",
+      "position_type": "Lecturer",
       "job_term": "Part-time",
       "department_or_school": "",
       "area_key_words": "Physics",
       "deadline_of_application": "",
-      "position_start_date": "2026-06-26"
+      "posted_date": "2026-06-26",
+      "position_start_date": ""
     },
     "https://svsu.wd503.myworkdayjobs.com/External/job/Main-Campus/OLLI-Instructor---Lifelong-Learning-Program_JR-242": {
       "school_id": 663,
@@ -1231,7 +1232,7 @@
   },
   "school_id": 663,
   "status": "complete",
-  "updated_at": "2026-11-24T20:22:57+00:00",
-  "completed_at": "2026-11-24T20:22:57+00:00",
+  "updated_at": "2026-11-25T21:06:16+00:00",
+  "completed_at": "2026-11-25T21:06:16+00:00",
   "last_error": ""
 }

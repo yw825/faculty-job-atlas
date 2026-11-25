@@ -399,6 +399,11 @@
       "title": "Research Fellow - School of Psychology - 108375 - Grade 7",
       "description": "Join Professor Ron Mangun's research programme at the University of Birmingham's Centre for Human Brain Health. We seek a full-time Postdoctoral Research Fellow in cognitive neuroscience, studying attention, language and predictive coding using neuroimaging.\n\n\nPosting closes: 2026-12-20",
       "department": null
+    },
+    "https://edzz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_6001/job/10437": {
+      "title": "Nursing Teaching Fellow - Nursing and Midwifery - 102856Z26 - Grade 7",
+      "description": "Seeking a Registered Adult Nurse to support delivery, assessment and development of clinical skills and simulation-based learning across undergraduate and postgraduate nursing programmes, collaborating with academic colleagues to enhance student learning, programme outcomes and educational resources.\n\n\nPosting closes: 2026-12-09",
+      "department": null
     }
   },
   "rows": {
@@ -1348,11 +1353,23 @@
       "deadline_of_application": "2026-12-20",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://edzz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_6001/job/10437": {
+      "school_id": 1763,
+      "posting_url": "https://edzz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_6001/job/10437",
+      "job_title_in_post": "Nursing Teaching Fellow - Nursing and Midwifery - 102856Z26 - Grade 7",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Nursing and Midwifery",
+      "deadline_of_application": "2026-12-09",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1763,
   "status": "complete",
-  "updated_at": "2026-11-24T21:00:01+00:00",
-  "completed_at": "2026-11-24T21:00:01+00:00",
+  "updated_at": "2026-11-25T21:37:00+00:00",
+  "completed_at": "2026-11-25T21:37:00+00:00",
   "last_error": ""
 }
