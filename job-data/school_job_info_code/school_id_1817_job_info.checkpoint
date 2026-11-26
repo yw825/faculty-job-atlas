@@ -109,6 +109,16 @@
       "title": "Research Contract Advisor",
       "description": "Be part of a team facilitating impactful research through contract processes and partnerships that drive research success.",
       "department": null
+    },
+    "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18735": {
+      "title": "Admissions Officer",
+      "description": "The overall purpose of the Admissions Officer is to assess and process student enquiries and applications relating to courses, credit, advanced standing, and pathways.  Admissions Officer, is also responsible for providing advice, information and guidance on matters relating to admissions, credit (advanced standing) and pathways to applicants.",
+      "department": null
+    },
+    "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18736": {
+      "title": "Admissions Officer",
+      "description": "The overall purpose of the Admissions Officer is to assess and process student enquiries and applications relating to courses, credit, advanced standing, and pathways.  Admissions Officer, is also responsible for providing advice, information and guidance on matters relating to admissions, credit (advanced standing) and pathways to applicants.",
+      "department": null
     }
   },
   "rows": {
@@ -375,11 +385,35 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18735": {
+      "school_id": 1817,
+      "posting_url": "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18735",
+      "job_title_in_post": "Admissions Officer",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18736": {
+      "school_id": 1817,
+      "posting_url": "https://fa-ercy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/18736",
+      "job_title_in_post": "Admissions Officer",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1817,
   "status": "complete",
-  "updated_at": "2026-11-25T21:25:43+00:00",
-  "completed_at": "2026-11-25T21:25:43+00:00",
+  "updated_at": "2026-11-26T21:59:46+00:00",
+  "completed_at": "2026-11-26T21:59:46+00:00",
   "last_error": ""
 }

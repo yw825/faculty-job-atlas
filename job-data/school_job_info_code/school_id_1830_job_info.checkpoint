@@ -99,6 +99,11 @@
       "title": "Kaiwhakaako | Teaching Fellow in Clinical Psychology",
       "description": "10 month fixed-term, part-time role teaching child clinical psychology.",
       "department": null
+    },
+    "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010384": {
+      "title": "Pūkenga | Lecturer in Global Studies",
+      "description": "Shape the future of Global Studies in a permanent, full-time role. ",
+      "department": null
     }
   },
   "rows": {
@@ -335,11 +340,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010384": {
+      "school_id": 1830,
+      "posting_url": "https://ejye.fa.ap1.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1010384",
+      "job_title_in_post": "Pūkenga | Lecturer in Global Studies",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Global Studies",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1830,
   "status": "complete",
-  "updated_at": "2026-11-25T21:34:10+00:00",
-  "completed_at": "2026-11-25T21:34:10+00:00",
+  "updated_at": "2026-11-26T22:11:35+00:00",
+  "completed_at": "2026-11-26T22:11:35+00:00",
   "last_error": ""
 }

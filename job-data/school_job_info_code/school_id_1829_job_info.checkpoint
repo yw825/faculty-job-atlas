@@ -299,6 +299,14 @@
     "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2584": {
       "title": "Tutor/Senior Tutor in Short Courses and Pathways",
       "description": "Closing Date: 20/12/2026 Department: Te Tumu Whakatipu Tutor/Senior Tutor in Short Courses and Pathways. Massey University. 20-Dec-2026 11:00 PM | JR-2584 | Tutor/Senior Tutor in Short Courses and Pathways | Massey University | Te Tumu Whakatipu | Ongoing"
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2604": {
+      "title": "Senior End User Support Analyst",
+      "description": "Closing Date: 10/12/2026 Department: ITS - End User Support - Team 1 Senior End User Support Analyst. Massey University. 10-Dec-2026 11:00 PM | JR-2604 | Senior End User Support Analyst | Massey University | ITS - End User Support - Team 1 | Ongoing"
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2622": {
+      "title": "Technician – Digital Creative Technologies",
+      "description": "Closing Date: 06/12/2026 Department: CoCA - Technical Services Technician – Digital Creative Technologies. Massey University. 06-Dec-2026 12:29 PM | JR-2622 | Technician – Digital Creative Technologies | Massey University | CoCA - Technical Services | Fixed-Term"
     }
   },
   "rows": {
@@ -1187,11 +1195,35 @@
       "deadline_of_application": "20/12/2026",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2604": {
+      "school_id": 1829,
+      "posting_url": "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2604",
+      "job_title_in_post": "Senior End User Support Analyst",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "10/12/2026",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2622": {
+      "school_id": 1829,
+      "posting_url": "https://massey.t1cloud.com/T1Default/CiAnywhere/Web/MASSEY/Public/Function/$ORG.REC.EXJOBB.ENQ/RECRUIT_EXT?suite=CES#JR-2622",
+      "job_title_in_post": "Technician – Digital Creative Technologies",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "06/12/2026",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1829,
   "status": "complete",
-  "updated_at": "2026-11-25T21:33:55+00:00",
-  "completed_at": "2026-11-25T21:33:55+00:00",
+  "updated_at": "2026-11-26T22:11:43+00:00",
+  "completed_at": "2026-11-26T22:11:43+00:00",
   "last_error": ""
 }

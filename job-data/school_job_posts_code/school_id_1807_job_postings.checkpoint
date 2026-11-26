@@ -1,5 +1,9 @@
 {
   "links": [
+    "https://www.adelaide.edu.au/study/why-study-at-adelaide/careers-and-employability",
+    "https://www.adelaide.edu.au/jobs/jobs-at-adelaide/internal-roles/",
+    "https://www.adelaide.edu.au/jobs/jobs-at-adelaide/casual-roles/",
+    "https://www.adelaide.edu.au/jobs/jobs-at-adelaide/selection-criteria/",
     "https://www.adelaide.edu.au/jobs/culture-and-values/",
     "https://www.adelaide.edu.au/jobs/support-services/",
     "https://www.adelaide.edu.au/jobs/professional-development/",
@@ -9,9 +13,8 @@
   ],
   "school_id": 1807,
   "status": "complete",
-  "updated_at": "2026-11-25T20:21:54+00:00",
-  "started_at": "2026-11-09T20:40:44+00:00",
-  "completed_at": "2026-11-25T20:21:54+00:00",
-  "last_error": "",
-  "last_warning": "2026-11-25T20:21:54+00:00: board returned 0 links vs 10 before; old set kept"
+  "updated_at": "2026-11-26T21:00:55+00:00",
+  "started_at": "2026-11-26T21:00:51+00:00",
+  "completed_at": "2026-11-26T21:00:55+00:00",
+  "last_error": ""
 }

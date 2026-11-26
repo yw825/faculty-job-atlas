@@ -799,6 +799,11 @@
       "title": "Adjunct Assistant Professor",
       "description": "The Department of Ecology and Evolutionary Biology seeks an Adjunct Assistant Professor to teach undergraduate and graduate courses in field botany. Candidates must possess a Ph.D. in a relevant field and demonstrate expertise appropriate to assigned courses, including field-based and laboratory instruction where applicable.",
       "department": null
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2364": {
+      "title": "Postdoctoral Fellow",
+      "description": "A Postdoctoral Fellow position available in the Department of Pathology and Laboratory Medicine at Tulane University School of Medicine. ",
+      "department": null
     }
   },
   "rows": {
@@ -2717,11 +2722,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2364": {
+      "school_id": 521,
+      "posting_url": "https://tulane-ibqejb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/2364",
+      "job_title_in_post": "Postdoctoral Fellow",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "Department of Pathology and Laboratory Medicine",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 521,
   "status": "complete",
-  "updated_at": "2026-11-25T21:01:57+00:00",
-  "completed_at": "2026-11-25T21:01:57+00:00",
+  "updated_at": "2026-11-26T21:41:36+00:00",
+  "completed_at": "2026-11-26T21:41:36+00:00",
   "last_error": ""
 }

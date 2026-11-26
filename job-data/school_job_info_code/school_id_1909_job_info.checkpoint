@@ -219,6 +219,10 @@
     "https://my.corehr.com/pls/nuimrecruit/erq_jobspec_version_4.jobspec?p_id=045243": {
       "title": "Library Assistant, Permanent, Library",
       "description": "Closing Date: 06/01/2027 Job Title : Library Assistant Department : Library Vacancy ID : 045243 Closing Date : 06-Jan-2027 Maynooth University is committed to a strategy in which the primary University goals of excellent research and scholarship and outstanding education are interlinked and equally valued. We are seeking a committed, proactive Library Assistant to support the work of the Library in the critical area of Research Services. Based in the Research Services Unit and under the broader Research, Open Scholarship and Innovation Services Section, the post holder will work closely with staff in their department, but also other departments of the Library and colleagues elsewhere in the University. The remit of the Research Services Unit includes open access and open scholarship, administration of MU’s institutional repository (MURAL), research skills and support, data management plan reviews and the bibliometrics and impact service. A further key element of the Library assistant’s role will be to assist with the ingest of both qualitative datasets and associated metadata into the Irish Qualitative Data Archive (IQDA) and deposit of datasets to the DRI as part of the MU@DRI service. The post holder will work collaboratively with library colleagues, external data depositors, and infrastructural partners at the Digital Repository of Ireland (DRI). The post holder will apply internal anonymisation processes where necessary, interrogate such datasets for the purposes of metadata creation, and convert files to required formats before finally ingesting the dataset into the archive. Salary Scale: Library Assistant (2026): €31,377 – €50,525 p.a. (16 points) Closing Date: 23:30hrs (local Irish time) on Wednesday, 6th of January 2027. Applications must be submitted by the closing date and time specified above. Any applications which are still in progress at the closing time on the specified closing date will be cancelled automatically by the system. Late applications will not be accepted. Maynooth University is an equal opportunities employer The position is subject to the Statutes of the University"
+    },
+    "https://my.corehr.com/pls/nuimrecruit/erq_jobspec_version_4.jobspec?p_id=045263": {
+      "title": "Professor of Observational Astrophysics or Cosmology (Permanent), Department of Physics",
+      "description": "Closing Date: 07/02/2027 Job Title : Professor A - Astrophysics or Cosmology Department : Physics Vacancy ID : 045263 Closing Date : 07-Feb-2027 The Senior Academic Leadership Initiative Ireland recognises that for Higher Education Institutions (HEIs) to perform to their full potential, they need to address the persistent under-representation of women at senior academic levels and increase the numbers of female senior academics in decision-making processes in HEIs. Ireland aims to be a ‘world-leading country for gender equality in higher education by 2026’ as stated in the government’s Gender Equality Taskforce Action Plan 2018-2020. Maynooth University seeks an outstanding academic to join our staff as Professor in Observational Astrophysics or Cosmology. The person appointed will have an excellent record in research, scholarship and publication, in teaching and educational innovation, and in academic leadership. They will be expected to make a strong contribution to the teaching, research and profile of the university, and to provide ongoing leadership for the discipline. The recruitment of a high-profile academic to this strategic area of Observational Astrophysics and Cosmology will augment our international reputation in research and teaching by drawing together, consolidating, and building upon existing Maynooth University strengths in areas of Astrophysics and Cosmology. Current astrophysics research expertise in Maynooth University includes instrument design, observations of star forming regions, theoretical modelling of black hole formation and the large-scale structure of the Universe. Candidates working in any of these, or related areas, are encouraged to apply. Professor (A) 2026 Salary Scale: €147,197 – €186,094 p.a. (6 points) Appointments will be made in accordance with public sector pay provisions. Closing Date: 23:30hrs (local Irish time) on Sunday, 7th February 2027. Applications must be submitted by the closing date and time specified above. Any applications which are still in progress at the closing time on the specified closing date will be cancelled automatically by the system. Late applications will not be accepted. Maynooth University is an equal opportunities employer The position is subject to the Statutes of the University"
     }
   },
   "rows": {
@@ -867,11 +871,23 @@
       "deadline_of_application": "06/01/2027",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://my.corehr.com/pls/nuimrecruit/erq_jobspec_version_4.jobspec?p_id=045263": {
+      "school_id": 1909,
+      "posting_url": "https://my.corehr.com/pls/nuimrecruit/erq_jobspec_version_4.jobspec?p_id=045263",
+      "job_title_in_post": "Professor of Observational Astrophysics or Cosmology (Permanent), Department of Physics",
+      "position_type": "Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "Department of Physics",
+      "area_key_words": "Observational Astrophysics or Cosmology; Maynooth University includes instrument design; observations of star forming regions",
+      "deadline_of_application": "07/02/2027",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1909,
   "status": "complete",
-  "updated_at": "2026-11-25T21:32:05+00:00",
-  "completed_at": "2026-11-25T21:32:05+00:00",
+  "updated_at": "2026-11-26T22:09:37+00:00",
+  "completed_at": "2026-11-26T22:09:37+00:00",
   "last_error": ""
 }

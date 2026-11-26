@@ -1,9 +1,13 @@
 {
-  "links": [],
+  "links": [
+    "https://faculty-saintmarysuniversity.icims.com/jobs/1757/college-adjunct-faculty/job",
+    "https://faculty-saintmarysuniversity.icims.com/jobs/1716/full-time-nursing-faculty/job",
+    "https://faculty-saintmarysuniversity.icims.com/jobs/1709/computer-science-faculty/job"
+  ],
   "school_id": 700,
   "status": "complete",
-  "updated_at": "2026-11-25T19:09:23+00:00",
+  "updated_at": "2026-11-26T19:51:01+00:00",
   "started_at": "2026-11-25T19:09:13+00:00",
-  "completed_at": "2026-11-25T19:09:23+00:00",
+  "completed_at": "2026-11-26T19:51:01+00:00",
   "last_error": ""
 }

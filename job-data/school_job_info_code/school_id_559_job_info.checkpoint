@@ -323,6 +323,22 @@
     "https://jobs.tufts.edu/jobs/26501?lang=en-us": {
       "title": "Vet tech II - Large Animal Diagnostic imaging",
       "description": "Vet tech II - Large Animal Diagnostic imaging in N. Grafton, Massachusetts | Tufts University Skip to Main Content toggle menu CLOSE About Benefits Opportunities DEI Community Open Positions An employee in this position must complete all appropriate background checks at the time of hire, promotion, or transfer. Tufts University is an equal opportunity employer. Tufts Non-Discrimination Statement Tufts Annual Security Report On Campus Safety Human Resources Office of Equal Opportunity Accessibility Privacy © Tufts University 2026 Cookies are used on this site to assist in continually improving the candidate experience and all the interaction data we store of our visitors is anonymous. Learn more about your rights on our Privacy Policy page. Okay x"
+    },
+    "https://jobs.tufts.edu/jobs/23748?lang=en-us": {
+      "title": "Project Coordinator - School of Medicine",
+      "description": "Project Coordinator - School of Medicine in Boston, Massachusetts | Tufts University Skip to Main Content toggle menu CLOSE About Benefits Opportunities DEI Community Open Positions An employee in this position must complete all appropriate background checks at the time of hire, promotion, or transfer. Tufts University is an equal opportunity employer. Tufts Non-Discrimination Statement Tufts Annual Security Report On Campus Safety Human Resources Office of Equal Opportunity Accessibility Privacy © Tufts University 2026 Cookies are used on this site to assist in continually improving the candidate experience and all the interaction data we store of our visitors is anonymous. Learn more about your rights on our Privacy Policy page. Okay x"
+    },
+    "https://jobs.tufts.edu/jobs/23765?lang=en-us": {
+      "title": "Research Assistant - Neuroscience (Armbruster Lab)",
+      "description": "Research Assistant - Neuroscience (Armbruster Lab) in Boston, Massachusetts | Tufts University Skip to Main Content toggle menu CLOSE About Benefits Opportunities DEI Community Open Positions An employee in this position must complete all appropriate background checks at the time of hire, promotion, or transfer. Tufts University is an equal opportunity employer. Tufts Non-Discrimination Statement Tufts Annual Security Report On Campus Safety Human Resources Office of Equal Opportunity Accessibility Privacy © Tufts University 2026 Cookies are used on this site to assist in continually improving the candidate experience and all the interaction data we store of our visitors is anonymous. Learn more about your rights on our Privacy Policy page. Okay x"
+    },
+    "https://jobs.tufts.edu/jobs/26138?lang=en-us": {
+      "title": "Research Technician",
+      "description": "Research Technician in Boston, Massachusetts | Tufts University Skip to Main Content toggle menu CLOSE About Benefits Opportunities DEI Community Open Positions An employee in this position must complete all appropriate background checks at the time of hire, promotion, or transfer. Tufts University is an equal opportunity employer. Tufts Non-Discrimination Statement Tufts Annual Security Report On Campus Safety Human Resources Office of Equal Opportunity Accessibility Privacy © Tufts University 2026 Cookies are used on this site to assist in continually improving the candidate experience and all the interaction data we store of our visitors is anonymous. Learn more about your rights on our Privacy Policy page. Okay x"
+    },
+    "https://jobs.tufts.edu/jobs/26633?lang=en-us": {
+      "title": "Research Technician",
+      "description": "Research Technician in Boston, Massachusetts | Tufts University Skip to Main Content toggle menu CLOSE About Benefits Opportunities DEI Community Open Positions An employee in this position must complete all appropriate background checks at the time of hire, promotion, or transfer. Tufts University is an equal opportunity employer. Tufts Non-Discrimination Statement Tufts Annual Security Report On Campus Safety Human Resources Office of Equal Opportunity Accessibility Privacy © Tufts University 2026 Cookies are used on this site to assist in continually improving the candidate experience and all the interaction data we store of our visitors is anonymous. Learn more about your rights on our Privacy Policy page. Okay x"
     }
   },
   "rows": {
@@ -1289,11 +1305,59 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://jobs.tufts.edu/jobs/23748?lang=en-us": {
+      "school_id": 559,
+      "posting_url": "https://jobs.tufts.edu/jobs/23748?lang=en-us",
+      "job_title_in_post": "Project Coordinator - School of Medicine",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "School of Medicine",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://jobs.tufts.edu/jobs/23765?lang=en-us": {
+      "school_id": 559,
+      "posting_url": "https://jobs.tufts.edu/jobs/23765?lang=en-us",
+      "job_title_in_post": "Research Assistant - Neuroscience (Armbruster Lab)",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://jobs.tufts.edu/jobs/26138?lang=en-us": {
+      "school_id": 559,
+      "posting_url": "https://jobs.tufts.edu/jobs/26138?lang=en-us",
+      "job_title_in_post": "Research Technician",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://jobs.tufts.edu/jobs/26633?lang=en-us": {
+      "school_id": 559,
+      "posting_url": "https://jobs.tufts.edu/jobs/26633?lang=en-us",
+      "job_title_in_post": "Research Technician",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 559,
   "status": "complete",
-  "updated_at": "2026-11-25T21:02:15+00:00",
-  "completed_at": "2026-11-25T21:02:15+00:00",
+  "updated_at": "2026-11-26T21:42:09+00:00",
+  "completed_at": "2026-11-26T21:42:09+00:00",
   "last_error": ""
 }

@@ -283,6 +283,14 @@
     "https://careers.mcmaster.ca/psp/prcsprd/EMPLOYEE/HRMS/c/HRS_HRAM.HRS_APP_SCHJOB.GBL?Page=HRS_APP_SCHJOB&Action=U&FOCUS=Applicant&SiteId=1000&cmd=uninav&Rnode=HRMS&uninavpath=Root{PORTAL_ROOT_OBJECT}.Portal%20Objects{PORTAL_BASE_DATA}.Navigation%20Collections{CO_NAVIGATION_COLLECTIONS}.Custom%20Tabs{PAPP_CUSTOM_TABS}&customTab=MCM_TAB_FACULTY_POS&IgnoreParamTempl=customTab#job-75253": {
       "title": "Academic Micro and Reconstructive Surgeon - REPOST",
       "description": "Academic Micro and Reconstructive Surgeon - REPOST - 75253 Department: Surgery | Location: St. Joseph's Hospital | Posted Date: 2026/04/13 Surgery"
+    },
+    "https://careers.mcmaster.ca/psp/prcsprd/EMPLOYEE/HRMS/c/HRS_HRAM.HRS_APP_SCHJOB.GBL?Page=HRS_APP_SCHJOB&Action=U&FOCUS=Applicant&SiteId=1000&cmd=uninav&Rnode=HRMS&uninavpath=Root{PORTAL_ROOT_OBJECT}.Portal%20Objects{PORTAL_BASE_DATA}.Navigation%20Collections{CO_NAVIGATION_COLLECTIONS}.Custom%20Tabs{PAPP_CUSTOM_TABS}&customTab=MCM_TAB_FACULTY_POS&IgnoreParamTempl=customTab#job-79922": {
+      "title": "POST DOCTORATE FELLOW",
+      "description": "POST DOCTORATE FELLOW - 79922 Department: Pathology | Location: HSC- Central Campus | Posted Date: 2026/11/26 Pathology"
+    },
+    "https://careers.mcmaster.ca/psp/prcsprd/EMPLOYEE/HRMS/c/HRS_HRAM.HRS_APP_SCHJOB.GBL?Page=HRS_APP_SCHJOB&Action=U&FOCUS=Applicant&SiteId=1000&cmd=uninav&Rnode=HRMS&uninavpath=Root{PORTAL_ROOT_OBJECT}.Portal%20Objects{PORTAL_BASE_DATA}.Navigation%20Collections{CO_NAVIGATION_COLLECTIONS}.Custom%20Tabs{PAPP_CUSTOM_TABS}&customTab=MCM_TAB_FACULTY_POS&IgnoreParamTempl=customTab#job-79923": {
+      "title": "POST DOCTORATE FELLOW",
+      "description": "POST DOCTORATE FELLOW - 79923 Department: Pathology | Location: HSC- Central Campus | Posted Date: 2026/11/26 Pathology"
     }
   },
   "rows": {
@@ -1133,11 +1141,35 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://careers.mcmaster.ca/psp/prcsprd/EMPLOYEE/HRMS/c/HRS_HRAM.HRS_APP_SCHJOB.GBL?Page=HRS_APP_SCHJOB&Action=U&FOCUS=Applicant&SiteId=1000&cmd=uninav&Rnode=HRMS&uninavpath=Root{PORTAL_ROOT_OBJECT}.Portal%20Objects{PORTAL_BASE_DATA}.Navigation%20Collections{CO_NAVIGATION_COLLECTIONS}.Custom%20Tabs{PAPP_CUSTOM_TABS}&customTab=MCM_TAB_FACULTY_POS&IgnoreParamTempl=customTab#job-79922": {
+      "school_id": 1619,
+      "posting_url": "https://careers.mcmaster.ca/psp/prcsprd/EMPLOYEE/HRMS/c/HRS_HRAM.HRS_APP_SCHJOB.GBL?Page=HRS_APP_SCHJOB&Action=U&FOCUS=Applicant&SiteId=1000&cmd=uninav&Rnode=HRMS&uninavpath=Root{PORTAL_ROOT_OBJECT}.Portal%20Objects{PORTAL_BASE_DATA}.Navigation%20Collections{CO_NAVIGATION_COLLECTIONS}.Custom%20Tabs{PAPP_CUSTOM_TABS}&customTab=MCM_TAB_FACULTY_POS&IgnoreParamTempl=customTab#job-79922",
+      "job_title_in_post": "POST DOCTORATE FELLOW",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://careers.mcmaster.ca/psp/prcsprd/EMPLOYEE/HRMS/c/HRS_HRAM.HRS_APP_SCHJOB.GBL?Page=HRS_APP_SCHJOB&Action=U&FOCUS=Applicant&SiteId=1000&cmd=uninav&Rnode=HRMS&uninavpath=Root{PORTAL_ROOT_OBJECT}.Portal%20Objects{PORTAL_BASE_DATA}.Navigation%20Collections{CO_NAVIGATION_COLLECTIONS}.Custom%20Tabs{PAPP_CUSTOM_TABS}&customTab=MCM_TAB_FACULTY_POS&IgnoreParamTempl=customTab#job-79923": {
+      "school_id": 1619,
+      "posting_url": "https://careers.mcmaster.ca/psp/prcsprd/EMPLOYEE/HRMS/c/HRS_HRAM.HRS_APP_SCHJOB.GBL?Page=HRS_APP_SCHJOB&Action=U&FOCUS=Applicant&SiteId=1000&cmd=uninav&Rnode=HRMS&uninavpath=Root{PORTAL_ROOT_OBJECT}.Portal%20Objects{PORTAL_BASE_DATA}.Navigation%20Collections{CO_NAVIGATION_COLLECTIONS}.Custom%20Tabs{PAPP_CUSTOM_TABS}&customTab=MCM_TAB_FACULTY_POS&IgnoreParamTempl=customTab#job-79923",
+      "job_title_in_post": "POST DOCTORATE FELLOW",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1619,
   "status": "complete",
-  "updated_at": "2026-11-25T21:28:05+00:00",
-  "completed_at": "2026-11-25T21:28:05+00:00",
+  "updated_at": "2026-11-26T22:03:35+00:00",
+  "completed_at": "2026-11-26T22:03:35+00:00",
   "last_error": ""
 }

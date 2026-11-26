@@ -3444,6 +3444,21 @@
       "title": "Nocturnist Clinician Educator",
       "description": "Posted: 11/04/2026 Location: Chicago, Illinois Department: MED-Emergency Medicine Nocturnist Clinician Educator",
       "department": "MED-Emergency Medicine"
+    },
+    "https://careers.northwestern.edu/psc/hrnu_er/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=54927&PostingSeq=1": {
+      "title": "Clinical Research Coordinator",
+      "description": "Posted: 11/25/2026 Location: Chicago, Illinois Department: MED-Physical Med & Rehab Clinical Research Coordinator",
+      "department": "MED-Physical Med & Rehab"
+    },
+    "https://careers.northwestern.edu/psc/hrnu_er/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=54896&PostingSeq=1": {
+      "title": "Research Study Coordinator, General Internal Medicine",
+      "description": "Posted: 11/25/2026 Location: Chicago, Illinois Department: MED-General Internal Research Study Coordinator, General Internal Medicine",
+      "department": "MED-General Internal"
+    },
+    "https://careers.northwestern.edu/psc/hrnu_er/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=54924&PostingSeq=1": {
+      "title": "Senior Husbandry Staff and Research Technical Trainer",
+      "description": "Posted: 11/25/2026 Location: Chicago, Illinois Department: Ctr for Comparative Medicine Senior Husbandry Staff and Research Technical Trainer",
+      "department": "Ctr for Comparative Medicine"
     }
   },
   "rows": {
@@ -11354,11 +11369,47 @@
       "deadline_of_application": "",
       "posted_date": "11/04/2026",
       "position_start_date": ""
+    },
+    "https://careers.northwestern.edu/psc/hrnu_er/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=54927&PostingSeq=1": {
+      "school_id": 391,
+      "posting_url": "https://careers.northwestern.edu/psc/hrnu_er/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=54927&PostingSeq=1",
+      "job_title_in_post": "Clinical Research Coordinator",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "MED-Physical Med & Rehab",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/25/2026",
+      "position_start_date": ""
+    },
+    "https://careers.northwestern.edu/psc/hrnu_er/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=54896&PostingSeq=1": {
+      "school_id": 391,
+      "posting_url": "https://careers.northwestern.edu/psc/hrnu_er/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=54896&PostingSeq=1",
+      "job_title_in_post": "Research Study Coordinator, General Internal Medicine",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "MED-General Internal",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/25/2026",
+      "position_start_date": ""
+    },
+    "https://careers.northwestern.edu/psc/hrnu_er/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=54924&PostingSeq=1": {
+      "school_id": 391,
+      "posting_url": "https://careers.northwestern.edu/psc/hrnu_er/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=54924&PostingSeq=1",
+      "job_title_in_post": "Senior Husbandry Staff and Research Technical Trainer",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Ctr for Comparative Medicine",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/25/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 391,
   "status": "complete",
-  "updated_at": "2026-11-25T21:00:24+00:00",
+  "updated_at": "2026-11-26T21:40:09+00:00",
   "last_error": "",
-  "completed_at": "2026-11-25T21:00:24+00:00"
+  "completed_at": "2026-11-26T21:40:09+00:00"
 }

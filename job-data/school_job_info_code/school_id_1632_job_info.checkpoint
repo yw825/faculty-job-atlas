@@ -2344,6 +2344,21 @@
       "title": "Assistant Dean, Strategic Enrolment Management (SEM) & Learner Success",
       "description": "Posted: 11/23/2026 Location: Toronto, ON Department: CE, Business Operations Assistant Dean, Strategic Enrolment Management (SEM) & Learner Success",
       "department": "CE, Business Operations"
+    },
+    "https://careers.torontomu.ca/psc/hrcgprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=399221&PostingSeq=1&SiteId=1": {
+      "title": "Communications Assistant",
+      "description": "Posted: 11/26/2026 Location: Toronto, ON Department: University Relations Communications Assistant",
+      "department": "University Relations"
+    },
+    "https://careers.torontomu.ca/psc/hrcgprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=399334&PostingSeq=1&SiteId=1": {
+      "title": "Exam Invigilator - Real Estate Management",
+      "description": "Posted: 11/26/2026 Location: Toronto, ON Department: TRSM Real Estate Exam Invigilator - Real Estate Management",
+      "department": "TRSM Real Estate"
+    },
+    "https://careers.torontomu.ca/psc/hrcgprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=399350&PostingSeq=1&SiteId=1": {
+      "title": "Winter 2027 - Academic Assistant: Master's - RMG 700 - Instructor: Dr. Joseph Aversa",
+      "description": "Posted: 11/26/2026 Location: Toronto, ON Department: TRSM Retail Management Winter 2027 - Academic Assistant: Master's - RMG 700 - Instructor: Dr. Joseph Aversa",
+      "department": "TRSM Retail Management"
     }
   },
   "rows": {
@@ -7907,11 +7922,47 @@
       "deadline_of_application": "",
       "posted_date": "11/23/2026",
       "position_start_date": ""
+    },
+    "https://careers.torontomu.ca/psc/hrcgprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=399221&PostingSeq=1&SiteId=1": {
+      "school_id": 1632,
+      "posting_url": "https://careers.torontomu.ca/psc/hrcgprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=399221&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Communications Assistant",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "University Relations",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/26/2026",
+      "position_start_date": ""
+    },
+    "https://careers.torontomu.ca/psc/hrcgprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=399334&PostingSeq=1&SiteId=1": {
+      "school_id": 1632,
+      "posting_url": "https://careers.torontomu.ca/psc/hrcgprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=399334&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Exam Invigilator - Real Estate Management",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "TRSM Real Estate",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/26/2026",
+      "position_start_date": ""
+    },
+    "https://careers.torontomu.ca/psc/hrcgprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=399350&PostingSeq=1&SiteId=1": {
+      "school_id": 1632,
+      "posting_url": "https://careers.torontomu.ca/psc/hrcgprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=399350&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Winter 2027 - Academic Assistant: Master's - RMG 700 - Instructor: Dr. Joseph Aversa",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "TRSM Retail Management",
+      "area_key_words": "Winter 2027 - Academic Assistant",
+      "deadline_of_application": "",
+      "posted_date": "11/26/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 1632,
   "status": "complete",
-  "updated_at": "2026-11-25T21:28:23+00:00",
-  "completed_at": "2026-11-25T21:28:23+00:00",
+  "updated_at": "2026-11-26T22:04:23+00:00",
+  "completed_at": "2026-11-26T22:04:23+00:00",
   "last_error": ""
 }

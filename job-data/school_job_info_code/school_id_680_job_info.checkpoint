@@ -1514,6 +1514,21 @@
       "title": "Post-Doctoral Associate",
       "description": "Posted: 11/24/2026 Location: Twin Cities Department: SoN Admin and Acad Support Post-Doctoral Associate",
       "department": "SoN Admin and Acad Support"
+    },
+    "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=377314&PostingSeq=1": {
+      "title": "Post-Doctoral Associate",
+      "description": "Posted: 11/25/2026 Location: Twin Cities Department: PHCL Pharmacology Admin Post-Doctoral Associate",
+      "department": "PHCL Pharmacology Admin"
+    },
+    "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=377319&PostingSeq=1": {
+      "title": "Post-Doctoral Associate",
+      "description": "Posted: 11/25/2026 Location: Twin Cities Department: Statistics, School of Post-Doctoral Associate",
+      "department": "Statistics, School of"
+    },
+    "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=377318&PostingSeq=1": {
+      "title": "Post-Doctoral Research Scientist",
+      "description": "Posted: 11/25/2026 Location: Twin Cities Department: SPH EnHS Division Post-Doctoral Research Scientist",
+      "department": "SPH EnHS Division"
     }
   },
   "rows": {
@@ -5140,11 +5155,47 @@
       "deadline_of_application": "",
       "posted_date": "11/24/2026",
       "position_start_date": ""
+    },
+    "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=377314&PostingSeq=1": {
+      "school_id": 680,
+      "posting_url": "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=377314&PostingSeq=1",
+      "job_title_in_post": "Post-Doctoral Associate",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "PHCL Pharmacology Admin",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/25/2026",
+      "position_start_date": ""
+    },
+    "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=377319&PostingSeq=1": {
+      "school_id": 680,
+      "posting_url": "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=377319&PostingSeq=1",
+      "job_title_in_post": "Post-Doctoral Associate",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "Statistics, School of",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/25/2026",
+      "position_start_date": ""
+    },
+    "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=377318&PostingSeq=1": {
+      "school_id": 680,
+      "posting_url": "https://hr.myu.umn.edu/psc/hrprd/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=377318&PostingSeq=1",
+      "job_title_in_post": "Post-Doctoral Research Scientist",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "SPH EnHS Division",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/25/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 680,
   "status": "complete",
-  "updated_at": "2026-11-25T21:04:58+00:00",
-  "completed_at": "2026-11-25T21:04:58+00:00",
+  "updated_at": "2026-11-26T21:44:34+00:00",
+  "completed_at": "2026-11-26T21:44:34+00:00",
   "last_error": ""
 }

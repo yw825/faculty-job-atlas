@@ -2947,6 +2947,26 @@
       "title": "Office Specialist Plastic Surgery",
       "description": "Posted: 11/20/2026 Location: Augusta University Department: MCG-Surgery-Plastics Office Specialist Plastic Surgery",
       "department": "MCG-Surgery-Plastics"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306396&PostingSeq=1&SiteId=12000": {
+      "title": "DJJ Staff Nurse - Claxton, GA 40 hrs/week",
+      "description": "Posted: 11/25/2026 Location: Claxton RYDC Department: DJJ-Claxton RYDC DJJ Staff Nurse - Claxton, GA 40 hrs/week",
+      "department": "DJJ-Claxton RYDC"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306397&PostingSeq=1&SiteId=12000": {
+      "title": "DJJ Staff Nurse - Cordele, GA 40 hrs/week",
+      "description": "Posted: 11/25/2026 Location: Crisp RYDC Department: DJJ-Crisp RYDC DJJ Staff Nurse - Cordele, GA 40 hrs/week",
+      "department": "DJJ-Crisp RYDC"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306398&PostingSeq=1&SiteId=12000": {
+      "title": "DJJ Staff Nurse - Dalton, GA 40 hrs/week",
+      "description": "Posted: 11/25/2026 Location: Dalton RYDC Department: DJJ-Dalton RYDC DJJ Staff Nurse - Dalton, GA 40 hrs/week",
+      "department": "DJJ-Dalton RYDC"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306362&PostingSeq=1&SiteId=12000": {
+      "title": "Open Rank Dentistry Faculty, DCG-Restorative Sciences",
+      "description": "Posted: 11/25/2026 Location: Augusta University Department: DCG-Restorative Sciences Open Rank Dentistry Faculty, DCG-Restorative Sciences",
+      "department": "DCG-Restorative Sciences"
     }
   },
   "rows": {
@@ -9983,11 +10003,59 @@
       "deadline_of_application": "",
       "posted_date": "11/20/2026",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306396&PostingSeq=1&SiteId=12000": {
+      "school_id": 282,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306396&PostingSeq=1&SiteId=12000",
+      "job_title_in_post": "DJJ Staff Nurse - Claxton, GA 40 hrs/week",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "DJJ-Claxton RYDC",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/25/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306397&PostingSeq=1&SiteId=12000": {
+      "school_id": 282,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306397&PostingSeq=1&SiteId=12000",
+      "job_title_in_post": "DJJ Staff Nurse - Cordele, GA 40 hrs/week",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "DJJ-Crisp RYDC",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/25/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306398&PostingSeq=1&SiteId=12000": {
+      "school_id": 282,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306398&PostingSeq=1&SiteId=12000",
+      "job_title_in_post": "DJJ Staff Nurse - Dalton, GA 40 hrs/week",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "DJJ-Dalton RYDC",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/25/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306362&PostingSeq=1&SiteId=12000": {
+      "school_id": 282,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306362&PostingSeq=1&SiteId=12000",
+      "job_title_in_post": "Open Rank Dentistry Faculty, DCG-Restorative Sciences",
+      "position_type": "Assistant_Professor; Associate_Professor; Full_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "DCG-Restorative Sciences",
+      "area_key_words": "Dentistry",
+      "deadline_of_application": "",
+      "posted_date": "11/25/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 282,
   "status": "complete",
-  "updated_at": "2026-11-25T20:57:48+00:00",
-  "completed_at": "2026-11-25T20:57:48+00:00",
+  "updated_at": "2026-11-26T21:37:17+00:00",
+  "completed_at": "2026-11-26T21:37:17+00:00",
   "last_error": ""
 }

@@ -1479,6 +1479,16 @@
       "title": "Lecturer of 3D Animation",
       "description": "Posted: 11/25/2026 Location: Kennesaw, Georgia Department: ART-School of Art and Design Lecturer of 3D Animation",
       "department": "ART-School of Art and Design"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306223&PostingSeq=1&SiteId=43000": {
+      "title": "Assistant Professor of Chemistry and Biochemistry",
+      "description": "Posted: 11/25/2026 Location: Kennesaw, Georgia Department: SCM-Chemistry & Biochemistry Assistant Professor of Chemistry and Biochemistry",
+      "department": "SCM-Chemistry & Biochemistry"
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306269&PostingSeq=1&SiteId=43000": {
+      "title": "Lecturer of Health Science",
+      "description": "Posted: 11/25/2026 Location: Kennesaw, Georgia Department: HHS-Health Promotion & Phy Ed. Lecturer of Health Science",
+      "department": "HHS-Health Promotion & Phy Ed."
     }
   },
   "rows": {
@@ -5033,11 +5043,35 @@
       "deadline_of_application": "",
       "posted_date": "11/25/2026",
       "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306223&PostingSeq=1&SiteId=43000": {
+      "school_id": 297,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306223&PostingSeq=1&SiteId=43000",
+      "job_title_in_post": "Assistant Professor of Chemistry and Biochemistry",
+      "position_type": "Assistant_Professor",
+      "job_term": "Full-time",
+      "department_or_school": "SCM-Chemistry & Biochemistry",
+      "area_key_words": "Chemistry and Biochemistry",
+      "deadline_of_application": "",
+      "posted_date": "11/25/2026",
+      "position_start_date": ""
+    },
+    "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306269&PostingSeq=1&SiteId=43000": {
+      "school_id": 297,
+      "posting_url": "https://careers.hprod.onehcm.usg.edu/psc/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=306269&PostingSeq=1&SiteId=43000",
+      "job_title_in_post": "Lecturer of Health Science",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "HHS-Health Promotion & Phy Ed.",
+      "area_key_words": "Health Science",
+      "deadline_of_application": "",
+      "posted_date": "11/25/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 297,
   "status": "complete",
-  "updated_at": "2026-11-25T20:59:53+00:00",
+  "updated_at": "2026-11-26T21:38:55+00:00",
   "last_error": "",
-  "completed_at": "2026-11-25T20:59:53+00:00"
+  "completed_at": "2026-11-26T21:38:55+00:00"
 }

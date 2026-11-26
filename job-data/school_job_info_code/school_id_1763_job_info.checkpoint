@@ -404,6 +404,11 @@
       "title": "Nursing Teaching Fellow - Nursing and Midwifery - 102856Z26 - Grade 7",
       "description": "Seeking a Registered Adult Nurse to support delivery, assessment and development of clinical skills and simulation-based learning across undergraduate and postgraduate nursing programmes, collaborating with academic colleagues to enhance student learning, programme outcomes and educational resources.\n\n\nPosting closes: 2026-12-09",
       "department": null
+    },
+    "https://edzz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_6001/job/10304": {
+      "title": "Teaching Fellow - School of Psychology - 108235 - Grade 7",
+      "description": "To teach and advise undergraduate, postgraduate or CPD students within the School of Psychology and within an established teaching programme, managed supervised by member of staff with ultimate responsibility for the design, delivery and assessment of the teaching programme.\n\nPosting closes: 2026-12-03",
+      "department": null
     }
   },
   "rows": {
@@ -1365,11 +1370,23 @@
       "deadline_of_application": "2026-12-09",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://edzz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_6001/job/10304": {
+      "school_id": 1763,
+      "posting_url": "https://edzz.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_6001/job/10304",
+      "job_title_in_post": "Teaching Fellow - School of Psychology - 108235 - Grade 7",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "School of Psychology",
+      "area_key_words": "School of Psychology",
+      "deadline_of_application": "2026-12-03",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1763,
   "status": "complete",
-  "updated_at": "2026-11-25T21:37:00+00:00",
-  "completed_at": "2026-11-25T21:37:00+00:00",
+  "updated_at": "2026-11-26T22:17:00+00:00",
+  "completed_at": "2026-11-26T22:17:00+00:00",
   "last_error": ""
 }

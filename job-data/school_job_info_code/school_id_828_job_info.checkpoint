@@ -164,6 +164,11 @@
       "title": "2027-28 Assistant Hall Director",
       "description": "Posted: 11/16/2026 Location: Valley City Department: Housing 2027-28 Assistant Hall Director",
       "department": "Housing"
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960259&PostingSeq=1&SiteId=1": {
+      "title": "Graduate Assistant/Volleyball Coach",
+      "description": "Posted: 11/25/2026 Location: Valley City Department: Athletics - Volleyball Graduate Assistant/Volleyball Coach",
+      "department": "Athletics - Volleyball"
     }
   },
   "rows": {
@@ -561,11 +566,23 @@
       "deadline_of_application": "",
       "posted_date": "11/16/2026",
       "position_start_date": ""
+    },
+    "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960259&PostingSeq=1&SiteId=1": {
+      "school_id": 828,
+      "posting_url": "https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=2960259&PostingSeq=1&SiteId=1",
+      "job_title_in_post": "Graduate Assistant/Volleyball Coach",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "Athletics - Volleyball",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/25/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 828,
   "status": "complete",
-  "updated_at": "2026-11-25T21:12:12+00:00",
-  "completed_at": "2026-11-25T21:12:12+00:00",
+  "updated_at": "2026-11-26T21:46:54+00:00",
+  "completed_at": "2026-11-26T21:46:54+00:00",
   "last_error": ""
 }

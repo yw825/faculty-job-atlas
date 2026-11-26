@@ -617,6 +617,11 @@
       "title": "Open Rank Assistant, Associate, or Full Professor - College of AI, Cyber and Computing, Information Systems and Cybersecurity",
       "description": "Posted: 11/24/2026 Location: San Antonio, TX Department: CAICC DEPT OF INFO SYS & CYBER Open Rank Assistant, Associate, or Full Professor - College of AI, Cyber and Computing, Information Systems and Cybersecurity",
       "department": "CAICC DEPT OF INFO SYS & CYBER"
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16914&PostingSeq=1&SiteId=21": {
+      "title": "ETS Program Coordinator",
+      "description": "Posted: 11/25/2026 Location: San Antonio, TX Department: ETS BUS MGMT&COMMUNITY ENGAGEE ETS Program Coordinator",
+      "department": "ETS BUS MGMT&COMMUNITY ENGAGEE"
     }
   },
   "rows": {
@@ -2103,11 +2108,23 @@
       "deadline_of_application": "",
       "posted_date": "11/24/2026",
       "position_start_date": ""
+    },
+    "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16914&PostingSeq=1&SiteId=21": {
+      "school_id": 1427,
+      "posting_url": "https://zahr-prd-candidate-ada.utshare.utsystem.edu/psc/ZAHRPRDADA/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&JobOpeningId=16914&PostingSeq=1&SiteId=21",
+      "job_title_in_post": "ETS Program Coordinator",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "ETS BUS MGMT&COMMUNITY ENGAGEE",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "11/25/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 1427,
   "status": "complete",
-  "updated_at": "2026-11-25T21:15:14+00:00",
-  "completed_at": "2026-11-25T21:15:14+00:00",
+  "updated_at": "2026-11-26T21:52:04+00:00",
+  "completed_at": "2026-11-26T21:52:04+00:00",
   "last_error": ""
 }

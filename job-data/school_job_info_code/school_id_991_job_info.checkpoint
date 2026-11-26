@@ -91,6 +91,10 @@
     "https://mville.exacthire.com/job/212186": {
       "title": "Post Office and Copy Center Assistant (Clerk)",
       "description": "Post Office and Copy Center Assistant (Clerk), Job In Manhattanville University At Purchase, NY"
+    },
+    "https://mville.exacthire.com/job/212284": {
+      "title": "Registered Nurse",
+      "description": "Registered Nurse, Job In Manhattanville University At Purchase, NY"
     }
   },
   "rows": {
@@ -369,11 +373,23 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://mville.exacthire.com/job/212284": {
+      "school_id": 991,
+      "posting_url": "https://mville.exacthire.com/job/212284",
+      "job_title_in_post": "Registered Nurse",
+      "position_type": "Unclassified",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 991,
   "status": "complete",
-  "updated_at": "2026-11-25T21:13:52+00:00",
-  "completed_at": "2026-11-25T21:13:52+00:00",
+  "updated_at": "2026-11-26T21:48:15+00:00",
+  "completed_at": "2026-11-26T21:48:15+00:00",
   "last_error": ""
 }

@@ -71,6 +71,14 @@
     "https://www.apply.uc.pt/procedure/pna6kb07fukqugdy": {
       "title": "Assistant: Civil Engineering / Steel and Composite Structures, Impact and Robustness",
       "description": "Closing Date: 06/01/2027 Applications open: 20/11/2026 Posted Date: 19/11/2026 Reference: IT074-26-4 Positions: 1 Contract: ; competition: international Universidade de Coimbra -- Assistant in Civil Engineering (Steel and Composite Structures, Impact and Robustness)."
+    },
+    "https://www.apply.uc.pt/procedure/yhw6eoebljey2fvf": {
+      "title": "Initial Researcher: Archeology and History / Landscape Archeology, Environmental History, Rural and Agrarian History and ArchéoSciences",
+      "description": "Closing Date: 14/12/2026 Applications open: 27/11/2026 Posted Date: 26/11/2026 Reference: IT057-26-42 Positions: 1 Contract: ; competition: international Universidade de Coimbra -- Initial Researcher in Archeology and History (Landscape Archeology, Environmental History, Rural and Agrarian History and ArchéoSciences)."
+    },
+    "https://www.apply.uc.pt/procedure/g0oddso880wi2hzk": {
+      "title": "Initial Researcher: Social Sciences and Humanities and scientific / Social Service, Political Science, International Relations, History, Sociology, Geography, Economy, Education, Law and Public Administration,",
+      "description": "Closing Date: 14/12/2026 Applications open: 27/11/2026 Posted Date: 26/11/2026 Reference: IT057-26-41 Positions: 1 Contract: ; competition: international Universidade de Coimbra -- Initial Researcher in Social Sciences and Humanities and scientific (Social Service, Political Science, International Relations, History, Sociology, Geography, Economy, Education, Law and Public Administration,)."
     }
   },
   "rows": {
@@ -289,11 +297,35 @@
       "deadline_of_application": "06/01/2027",
       "posted_date": "19/11/2026",
       "position_start_date": ""
+    },
+    "https://www.apply.uc.pt/procedure/yhw6eoebljey2fvf": {
+      "school_id": 1733,
+      "posting_url": "https://www.apply.uc.pt/procedure/yhw6eoebljey2fvf",
+      "job_title_in_post": "Initial Researcher: Archeology and History / Landscape Archeology, Environmental History, Rural and Agrarian History and ArchéoSciences",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "14/12/2026",
+      "posted_date": "26/11/2026",
+      "position_start_date": ""
+    },
+    "https://www.apply.uc.pt/procedure/g0oddso880wi2hzk": {
+      "school_id": 1733,
+      "posting_url": "https://www.apply.uc.pt/procedure/g0oddso880wi2hzk",
+      "job_title_in_post": "Initial Researcher: Social Sciences and Humanities and scientific / Social Service, Political Science, International Relations, History, Sociology, Geography, Economy, Education, Law and Public Administration,",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "14/12/2026",
+      "posted_date": "26/11/2026",
+      "position_start_date": ""
     }
   },
   "school_id": 1733,
   "status": "complete",
-  "updated_at": "2026-11-25T21:34:34+00:00",
-  "completed_at": "2026-11-25T21:34:34+00:00",
+  "updated_at": "2026-11-26T22:12:28+00:00",
+  "completed_at": "2026-11-26T22:12:28+00:00",
   "last_error": ""
 }

@@ -1069,6 +1069,16 @@
       "title": "Assistant Professor in Orthopaedic Surgery - Knee Surgery",
       "description": "A position as Assistant Professor (35% time) is vacant at the Research Unit of Orthopaedic Surgery, the Department of Clinical Research, Faculty of Health Sciences, University of Southern Denmark.  The position is combined with an employment at Odense University Hospital.\n\nThe position is limited to 4 years.",
       "department": null
+    },
+    "https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/4479": {
+      "title": "Ethics and Politics of AI Agents Postdoc position at The Digital Democracy Centre",
+      "description": "Application deadline: January 18, 2027, 23:59 CET/CEST.",
+      "department": null
+    },
+    "https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/4516": {
+      "title": "Student Teacher for the Master of Science in Public Health at Campus Esbjerg",
+      "description": "",
+      "department": null
     }
   },
   "rows": {
@@ -3616,11 +3626,35 @@
       "deadline_of_application": "",
       "posted_date": "",
       "position_start_date": ""
+    },
+    "https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/4479": {
+      "school_id": 1892,
+      "posting_url": "https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/4479",
+      "job_title_in_post": "Ethics and Politics of AI Agents Postdoc position at The Digital Democracy Centre",
+      "position_type": "Research_Fellow",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "",
+      "deadline_of_application": "January 18, 2027",
+      "posted_date": "",
+      "position_start_date": ""
+    },
+    "https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/4516": {
+      "school_id": 1892,
+      "posting_url": "https://fa-eosd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/4516",
+      "job_title_in_post": "Student Teacher for the Master of Science in Public Health at Campus Esbjerg",
+      "position_type": "Lecturer",
+      "job_term": "Full-time",
+      "department_or_school": "",
+      "area_key_words": "Science in Public Health at Campus Esbjerg",
+      "deadline_of_application": "",
+      "posted_date": "",
+      "position_start_date": ""
     }
   },
   "school_id": 1892,
   "status": "complete",
-  "updated_at": "2026-11-25T21:29:45+00:00",
-  "completed_at": "2026-11-25T21:29:45+00:00",
+  "updated_at": "2026-11-26T22:05:54+00:00",
+  "completed_at": "2026-11-26T22:05:54+00:00",
   "last_error": ""
 }

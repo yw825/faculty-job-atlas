@@ -10,7 +10,6 @@
     "https://framingham.interviewexchange.com/jobofferdetails.jsp?JOBID=200711",
     "https://framingham.interviewexchange.com/jobofferdetails.jsp?JOBID=195841",
     "https://framingham.interviewexchange.com/jobofferdetails.jsp?JOBID=190871",
-    "https://framingham.interviewexchange.com/jobofferdetails.jsp?JOBID=183034",
     "https://framingham.interviewexchange.com/jobofferdetails.jsp?JOBID=178554",
     "https://framingham.interviewexchange.com/jobofferdetails.jsp?JOBID=155202",
     "https://framingham.interviewexchange.com/jobofferdetails.jsp?JOBID=124040",
@@ -51,6 +50,10 @@
     "https://framingham.interviewexchange.com/jobofferdetails.jsp?JOBID=190626",
     "https://framingham.interviewexchange.com/jobofferdetails.jsp?JOBID=190297",
     "https://framingham.interviewexchange.com/jobofferdetails.jsp?JOBID=188392",
+    "https://framingham.interviewexchange.com/jobofferdetails.jsp?JOBID=207044",
+    "https://framingham.interviewexchange.com/jobofferdetails.jsp?JOBID=207043",
+    "https://framingham.interviewexchange.com/jobofferdetails.jsp?JOBID=207042",
+    "https://framingham.interviewexchange.com/jobofferdetails.jsp?JOBID=207041",
     "https://framingham.interviewexchange.com/jobofferdetails.jsp?JOBID=207007",
     "https://framingham.interviewexchange.com/jobofferdetails.jsp?JOBID=206969",
     "https://framingham.interviewexchange.com/jobofferdetails.jsp?JOBID=206478",
@@ -65,9 +68,8 @@
   ],
   "school_id": 555,
   "status": "complete",
-  "updated_at": "2026-11-25T20:16:58+00:00",
+  "updated_at": "2026-11-26T19:58:36+00:00",
   "started_at": "2026-09-08T01:58:04+00:00",
-  "completed_at": "2026-11-25T20:16:58+00:00",
-  "last_error": "",
-  "last_warning": "2026-11-25T20:16:58+00:00: board returned 0 links vs 62 before; old set kept"
+  "completed_at": "2026-11-26T19:58:36+00:00",
+  "last_error": ""
 }
